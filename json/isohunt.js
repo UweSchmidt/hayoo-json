@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "isohunt"
+        "phrase": "isohunt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e data type. This should be imported qualified so as not\nto conflict with the accessors from the \u003ccode\u003eResponse\u003c/code\u003e and \u003ccode\u003eItem\u003c/code\u003e data types:\n\u003c/p\u003e\u003cpre\u003e import qualified IsoHunt.Response as Response\n import qualified IsoHunt.Item as Item\n import qualified IsoHunt.Image as Image\n\n ... Response.title r ... Item.title i ... Image.title im ...\n\u003c/pre\u003e\u003cp\u003eThese fields are mostly undocumented; see\n\u003ca\u003ehttp://ca.isohunt.com/js/json.php?ihq=ubuntu&start=1&rows=4\u003c/a\u003e for\nan example response.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Image",
           "name": "Image",
           "package": "isohunt",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Image data type This should be imported qualified so as not to conflict with the accessors from the Response and Item data types import qualified IsoHunt.Response as Response import qualified IsoHunt.Item as Item import qualified IsoHunt.Image as Image Response.title Item.title Image.title im These fields are mostly undocumented see http ca.isohunt.com js json.php ihq ubuntu start rows for an example response",
           "hierarchy": "IsoHunt Image",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Image",
           "name": "Image",
           "package": "isohunt",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Image",
           "name": "Image",
           "package": "isohunt",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Image",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Image",
           "name": "Image",
           "package": "isohunt",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Image",
           "name": "Image",
           "package": "isohunt",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Image",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Image",
           "name": "Image",
           "package": "isohunt",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Image",
           "name": "height",
           "package": "isohunt",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Image",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Image",
           "name": "height",
           "package": "isohunt",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Image",
           "name": "link",
           "package": "isohunt",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Image",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Image",
           "name": "link",
           "package": "isohunt",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Image",
           "name": "title",
           "package": "isohunt",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Image",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Image",
           "name": "title",
           "package": "isohunt",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Image",
           "name": "url",
           "package": "isohunt",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Image",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Image",
           "name": "url",
           "package": "isohunt",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Image",
           "name": "width",
           "package": "isohunt",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Image",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Image",
           "name": "width",
           "package": "isohunt",
@@ -190,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eItem\u003c/a\u003e\u003c/code\u003e data type. This should be imported qualified so as not\nto conflict with the accessors from the \u003ccode\u003eResponse\u003c/code\u003e and \u003ccode\u003eImage\u003c/code\u003e data types:\n\u003c/p\u003e\u003cpre\u003e import qualified IsoHunt.Response as Response\n import qualified IsoHunt.Item as Item\n import qualified IsoHunt.Image as Image\n\n ... Response.title r ... Item.title i ... Image.title im ...\n\u003c/pre\u003e\u003cp\u003eThese fields are mostly undocumented; see\n\u003ca\u003ehttp://ca.isohunt.com/js/json.php?ihq=ubuntu&start=1&rows=4\u003c/a\u003e for\nan example response.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "Item",
           "package": "isohunt",
@@ -199,6 +216,7 @@
         "index": {
           "description": "The Item data type This should be imported qualified so as not to conflict with the accessors from the Response and Image data types import qualified IsoHunt.Response as Response import qualified IsoHunt.Item as Item import qualified IsoHunt.Image as Image Response.title Item.title Image.title im These fields are mostly undocumented see http ca.isohunt.com js json.php ihq ubuntu start rows for an example response",
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "Item",
           "package": "isohunt",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "Item",
           "package": "isohunt",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "Item",
           "package": "isohunt",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "Item",
           "package": "isohunt",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "Item",
           "package": "isohunt",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "category",
           "package": "isohunt",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "category",
           "package": "isohunt",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "comments",
           "package": "isohunt",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "comments",
           "package": "isohunt",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "downloads",
           "package": "isohunt",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "downloads",
           "package": "isohunt",
@@ -319,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe link for the *.torrent file on\n isohunt's website, eg \u003ca\u003ehttp://ca.isohunt.com/download/52510650/ubuntu.torrent\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "enclosureUrl",
           "package": "isohunt",
@@ -329,6 +358,7 @@
         "index": {
           "description": "The link for the torrent file on isohunt website eg http ca.isohunt.com download ubuntu.torrent",
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "enclosureUrl",
           "package": "isohunt",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "exempts",
           "package": "isohunt",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "exempts",
           "package": "isohunt",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "files",
           "package": "isohunt",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "files",
           "package": "isohunt",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "guid",
           "package": "isohunt",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "guid",
           "package": "isohunt",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "hash",
           "package": "isohunt",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "hash",
           "package": "isohunt",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "kws",
           "package": "isohunt",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "kws",
           "package": "isohunt",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "leechers",
           "package": "isohunt",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "leechers",
           "package": "isohunt",
@@ -469,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "length",
           "package": "isohunt",
@@ -479,6 +522,7 @@
         "index": {
           "description": "Size in bytes",
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "length",
           "package": "isohunt",
@@ -491,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "link",
           "package": "isohunt",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "link",
           "package": "isohunt",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "originalLink",
           "package": "isohunt",
@@ -521,6 +568,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "originalLink",
           "package": "isohunt",
@@ -534,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "originalSite",
           "package": "isohunt",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "originalSite",
           "package": "isohunt",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "pubDate",
           "package": "isohunt",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "pubDate",
           "package": "isohunt",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "seeds",
           "package": "isohunt",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "seeds",
           "package": "isohunt",
@@ -600,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehuman-readable filesize (eg \"1.4GB\")\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "size",
           "package": "isohunt",
@@ -610,6 +665,7 @@
         "index": {
           "description": "human-readable filesize eg GB",
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "size",
           "package": "isohunt",
@@ -622,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "title",
           "package": "isohunt",
@@ -631,6 +688,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "title",
           "package": "isohunt",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "tracker",
           "package": "isohunt",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "tracker",
           "package": "isohunt",
@@ -664,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "trackerUrl",
           "package": "isohunt",
@@ -673,6 +734,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "trackerUrl",
           "package": "isohunt",
@@ -686,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Item",
           "name": "votes",
           "package": "isohunt",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Item",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Item",
           "name": "votes",
           "package": "isohunt",
@@ -708,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e data type. This should be imported qualified so as not\nto conflict with the accessors from the \u003ccode\u003e\u003ca\u003eItem\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e data types:\n\u003c/p\u003e\u003cpre\u003e import qualified IsoHunt.Response as Response\n import qualified IsoHunt.Item as Item\n import qualified IsoHunt.Image as Image\n\n ... Response.title r ... Item.title i ... Image.title im ...\n\u003c/pre\u003e\u003cp\u003eThese fields are mostly undocumented; see\n\u003ca\u003ehttp://ca.isohunt.com/js/json.php?ihq=ubuntu&start=1&rows=4\u003c/a\u003e for\nan example response.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "Response",
           "package": "isohunt",
@@ -717,6 +782,7 @@
         "index": {
           "description": "The Response data type This should be imported qualified so as not to conflict with the accessors from the Item and Image data types import qualified IsoHunt.Response as Response import qualified IsoHunt.Item as Item import qualified IsoHunt.Image as Image Response.title Item.title Image.title im These fields are mostly undocumented see http ca.isohunt.com js json.php ihq ubuntu start rows for an example response",
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "Response",
           "package": "isohunt",
@@ -730,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "Response",
           "package": "isohunt",
@@ -738,6 +805,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "Response",
           "package": "isohunt",
@@ -751,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "Response",
           "package": "isohunt",
@@ -760,6 +829,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "Response",
           "package": "isohunt",
@@ -773,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "category",
           "package": "isohunt",
@@ -782,6 +853,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "category",
           "package": "isohunt",
@@ -794,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "censored",
           "package": "isohunt",
@@ -803,6 +876,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "censored",
           "package": "isohunt",
@@ -815,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "description",
           "package": "isohunt",
@@ -824,6 +899,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "description",
           "package": "isohunt",
@@ -836,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "image",
           "package": "isohunt",
@@ -845,6 +922,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "image",
           "package": "isohunt",
@@ -858,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esearch results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "items",
           "package": "isohunt",
@@ -868,6 +947,7 @@
         "index": {
           "description": "search results",
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "items",
           "package": "isohunt",
@@ -880,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "language",
           "package": "isohunt",
@@ -889,6 +970,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "language",
           "package": "isohunt",
@@ -901,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "lastBuildDate",
           "package": "isohunt",
@@ -910,6 +993,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "lastBuildDate",
           "package": "isohunt",
@@ -923,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "link",
           "package": "isohunt",
@@ -932,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "link",
           "package": "isohunt",
@@ -944,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "maxResults",
           "package": "isohunt",
@@ -953,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "maxResults",
           "package": "isohunt",
@@ -966,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "pubDate",
           "package": "isohunt",
@@ -975,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "pubDate",
           "package": "isohunt",
@@ -988,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "title",
           "package": "isohunt",
@@ -997,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "title",
           "package": "isohunt",
@@ -1009,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "totalResults",
           "package": "isohunt",
@@ -1018,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "totalResults",
           "package": "isohunt",
@@ -1031,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Response",
           "name": "ttl",
           "package": "isohunt",
@@ -1040,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Response",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Response",
           "name": "ttl",
           "package": "isohunt",
@@ -1053,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIsoHunt API; see \u003ca\u003ehttp://ca.isohunt.com/forum/viewtopic.php?p=433527#433527\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSample use:\n\u003c/p\u003e\u003cpre\u003e resp \u003c- search (simpleQuery \"ubuntu\")\n\u003c/pre\u003e\u003cp\u003eThe following terms and conditions apply to the IsoHunt API, as stated\nin the above link:\n\u003c/p\u003e\u003cp\u003eIn using our search API, you are free to do with it as you wish on condition that if your app is available publicly to users, you must link to torrent details pages on isoHunt.com, whether you link to the .torrent files or not. We reserve the right to ban you from using our API if you don't follow this simple rule. Refer to Louish's iPhone app for a good example of including links to our torrent details pages. Our torrent details pages have URLs like this: \u003ca\u003ehttp://isohunt.com/torrent_details/28289948/ubuntu?tab=summary\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eWhile we don't require developer tokens or place hard limits on api calls usage, excessive calls will also result in bans. If you think your app will consistently sustain multiple calls per second to our api, email admin at this site's domain first. \n\u003c/p\u003e\u003cp\u003eYou are free to promote your app using our API, by replying under this post (\u003ca\u003ehttp://ca.isohunt.com/forum/viewtopic.php?p=433527#433527\u003c/a\u003e) or post under this forum (\u003ca\u003ehttp://isohunt.com/forum/viewforum.php?f=19\u003c/a\u003e). If your app is really good, we'll likely want to spotlight it on isoHunt's frontpage. Multiple posts to promote your app on our forum or comments is not allowed however, and will be treated as spam.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Search",
           "package": "isohunt",
@@ -1062,6 +1159,7 @@
         "index": {
           "description": "IsoHunt API see http ca.isohunt.com forum viewtopic.php Sample use resp search simpleQuery ubuntu The following terms and conditions apply to the IsoHunt API as stated in the above link In using our search API you are free to do with it as you wish on condition that if your app is available publicly to users you must link to torrent details pages on isoHunt.com whether you link to the torrent files or not We reserve the right to ban you from using our API if you don follow this simple rule Refer to Louish iPhone app for good example of including links to our torrent details pages Our torrent details pages have URLs like this http isohunt.com torrent details ubuntu tab summary While we don require developer tokens or place hard limits on api calls usage excessive calls will also result in bans If you think your app will consistently sustain multiple calls per second to our api email admin at this site domain first You are free to promote your app using our API by replying under this post http ca.isohunt.com forum viewtopic.php or post under this forum http isohunt.com forum viewforum.php If your app is really good we ll likely want to spotlight it on isoHunt frontpage Multiple posts to promote your app on our forum or comments is not allowed however and will be treated as spam",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Search",
           "package": "isohunt",
@@ -1075,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Image",
           "package": "isohunt",
@@ -1083,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Image",
           "package": "isohunt",
@@ -1096,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Item",
           "package": "isohunt",
@@ -1104,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Item",
           "package": "isohunt",
@@ -1118,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe response was invalid JSON. The unparsed contents are included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "MalformedJSON",
           "package": "isohunt",
@@ -1127,6 +1230,7 @@
         "index": {
           "description": "The response was invalid JSON The unparsed contents are included",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "MalformedJSON",
           "package": "isohunt",
@@ -1141,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe response was valid JSON, but not of the expected\n format. Error message and the JSON value are included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "MalformedResponse",
           "package": "isohunt",
@@ -1150,6 +1255,7 @@
         "index": {
           "description": "The response was valid JSON but not of the expected format Error message and the JSON value are included",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "MalformedResponse",
           "package": "isohunt",
@@ -1163,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Order",
           "package": "isohunt",
@@ -1171,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Order",
           "package": "isohunt",
@@ -1185,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003esimpleQuery\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e for constructing queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Query",
           "package": "isohunt",
@@ -1194,6 +1303,7 @@
         "index": {
           "description": "See also simpleQuery and def for constructing queries",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Query",
           "package": "isohunt",
@@ -1207,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Response",
           "package": "isohunt",
@@ -1215,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Response",
           "package": "isohunt",
@@ -1228,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Sort",
           "package": "isohunt",
@@ -1236,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Sort",
           "package": "isohunt",
@@ -1249,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Age",
           "package": "isohunt",
@@ -1258,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Age",
           "package": "isohunt",
@@ -1271,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Ascending",
           "package": "isohunt",
@@ -1280,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Ascending",
           "package": "isohunt",
@@ -1294,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverall factors such as age, query relevance\n seed/leechers counts and vots\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Composite",
           "package": "isohunt",
@@ -1304,6 +1423,7 @@
         "index": {
           "description": "Overall factors such as age query relevance seed leechers counts and vots",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Composite",
           "package": "isohunt",
@@ -1317,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Descending",
           "package": "isohunt",
@@ -1326,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Descending",
           "package": "isohunt",
@@ -1339,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "MalformedJSON",
           "package": "isohunt",
@@ -1348,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "MalformedJSON",
           "package": "isohunt",
@@ -1361,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "MalformedResponse",
           "package": "isohunt",
@@ -1370,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "MalformedResponse",
           "package": "isohunt",
@@ -1383,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Query",
           "package": "isohunt",
@@ -1392,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Query",
           "package": "isohunt",
@@ -1406,6 +1534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeeds + leechers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Seeds",
           "package": "isohunt",
@@ -1416,6 +1545,7 @@
         "index": {
           "description": "Seeds leechers",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Seeds",
           "package": "isohunt",
@@ -1429,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "Size",
           "package": "isohunt",
@@ -1438,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "Size",
           "package": "isohunt",
@@ -1451,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "order",
           "package": "isohunt",
@@ -1460,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "order",
           "package": "isohunt",
@@ -1473,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c= 100\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "rows",
           "package": "isohunt",
@@ -1482,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "rows",
           "package": "isohunt",
@@ -1495,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch IsoHunt with the given query.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eMalformedJSON\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMalformedResponse\u003c/a\u003e\u003c/code\u003e if the result is of an\nexpected format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "search",
           "package": "isohunt",
@@ -1505,6 +1642,7 @@
         "index": {
           "description": "Search IsoHunt with the given query Throws MalformedJSON or MalformedResponse if the result is of an expected format",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "search",
           "normalized": "Query-\u003eIO Response",
@@ -1519,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "searchTerm",
           "package": "isohunt",
@@ -1528,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "searchTerm",
           "package": "isohunt",
@@ -1542,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default query for the given search term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "simpleQuery",
           "package": "isohunt",
@@ -1552,6 +1693,7 @@
         "index": {
           "description": "default query for the given search term",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "simpleQuery",
           "normalized": "String-\u003eQuery",
@@ -1567,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "sort",
           "package": "isohunt",
@@ -1576,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "sort",
           "package": "isohunt",
@@ -1589,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart+rows \u003c= 1000\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:01 UTC 2014",
           "module": "IsoHunt.Search",
           "name": "start",
           "package": "isohunt",
@@ -1599,6 +1744,7 @@
         "index": {
           "description": "start rows",
           "hierarchy": "IsoHunt Search",
+          "indexed": "2014-03-11T19:00:01",
           "module": "IsoHunt.Search",
           "name": "start",
           "package": "isohunt",

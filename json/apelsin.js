@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "apelsin"
+        "phrase": "apelsin",
+        "type": "phrase"
       },
       "type": "context"
     }

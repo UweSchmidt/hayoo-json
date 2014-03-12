@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digits"
+        "phrase": "digits",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:35 UTC 2014",
           "module": "Data.Digits",
           "name": "Digits",
           "package": "digits",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Digits",
+          "indexed": "2014-03-11T17:55:35",
           "module": "Data.Digits",
           "name": "Digits",
           "package": "digits",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the digits of a positive integer as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:35 UTC 2014",
           "module": "Data.Digits",
           "name": "digits",
           "package": "digits",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Returns the digits of positive integer as list",
           "hierarchy": "Data Digits",
+          "indexed": "2014-03-11T17:55:35",
           "module": "Data.Digits",
           "name": "digits",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the digits of a positive integer as a list, in reverse order.\n   This is slightly more efficient than in forward order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:35 UTC 2014",
           "module": "Data.Digits",
           "name": "digitsRev",
           "package": "digits",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Returns the digits of positive integer as list in reverse order This is slightly more efficient than in forward order",
           "hierarchy": "Data Digits",
+          "indexed": "2014-03-11T17:55:35",
           "module": "Data.Digits",
           "name": "digitsRev",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunDigits . digits should be the identity, in any base.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:35 UTC 2014",
           "module": "Data.Digits",
           "name": "prop_digitsRoundTrip",
           "package": "digits",
@@ -98,6 +105,7 @@
         "index": {
           "description": "unDigits digits should be the identity in any base",
           "hierarchy": "Data Digits",
+          "indexed": "2014-03-11T17:55:35",
           "module": "Data.Digits",
           "name": "prop_digitsRoundTrip",
           "normalized": "Integer-\u003eInteger-\u003eProperty",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of digits, and converts them back into a positive integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:35 UTC 2014",
           "module": "Data.Digits",
           "name": "unDigits",
           "package": "digits",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Takes list of digits and converts them back into positive integer",
           "hierarchy": "Data Digits",
+          "indexed": "2014-03-11T17:55:35",
           "module": "Data.Digits",
           "name": "unDigits",
           "normalized": "a-\u003e[a]-\u003ea",

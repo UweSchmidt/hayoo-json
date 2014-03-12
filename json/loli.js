@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "loli"
+        "phrase": "loli",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "Config",
           "package": "loli",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "Config",
           "package": "loli",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "loli_captures",
           "package": "loli",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "loli_captures",
           "package": "loli",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "loli_config",
           "package": "loli",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "loli_config",
           "package": "loli",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "loli_default_views",
           "package": "loli",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "loli_default_views",
           "package": "loli",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "loli_layout",
           "package": "loli",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "loli_layout",
           "package": "loli",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "loli_layout_content",
           "package": "loli",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "loli_layout_content",
           "package": "loli",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "loli_locals",
           "package": "loli",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "loli_locals",
           "package": "loli",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "loli_partials",
           "package": "loli",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "loli_partials",
           "package": "loli",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "loli_views",
           "package": "loli",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "loli_views",
           "package": "loli",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Config",
           "name": "pre_installed_middlewares",
           "package": "loli",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Config",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Config",
           "name": "pre_installed_middlewares",
           "normalized": "[Middleware]",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "DSL",
           "package": "loli",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "DSL",
           "package": "loli",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "after",
           "package": "loli",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "after",
           "normalized": "(Response-\u003eIO Response)-\u003eUnit",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "app",
           "package": "loli",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "app",
           "normalized": "Application-\u003eAppUnit",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "before",
           "package": "loli",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "before",
           "normalized": "(Env-\u003eIO Env)-\u003eUnit",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "bind",
           "package": "loli",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "bind",
           "normalized": "String-\u003eString-\u003eAppUnit-\u003eAppUnit",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "captures",
           "package": "loli",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "captures",
           "package": "loli",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "context",
           "package": "loli",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "context",
           "normalized": "Assoc-\u003eAppUnit-\u003eAppUnit",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "delete",
           "package": "loli",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "delete",
           "normalized": "String-\u003eAppUnit-\u003eUnit",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "get",
           "package": "loli",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "get",
           "normalized": "String-\u003eAppUnit-\u003eUnit",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "io",
           "package": "loli",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "layout",
           "package": "loli",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "layout",
           "normalized": "String-\u003eUnit",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "locals",
           "package": "loli",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "locals",
           "package": "loli",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "middleware",
           "package": "loli",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "middleware",
           "normalized": "Middleware-\u003eUnit",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "mime",
           "package": "loli",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "mime",
           "normalized": "String-\u003eString-\u003eUnit",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "post",
           "package": "loli",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "post",
           "normalized": "String-\u003eAppUnit-\u003eUnit",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "public",
           "package": "loli",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "public",
           "normalized": "Maybe String-\u003e[String]-\u003eUnit",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "put",
           "package": "loli",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "put",
           "normalized": "String-\u003eAppUnit-\u003eUnit",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "router",
           "package": "loli",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "router",
           "normalized": "Router-\u003eUnit",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.DSL",
           "name": "views",
           "package": "loli",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Network Loli DSL",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.DSL",
           "name": "views",
           "normalized": "String-\u003eUnit",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Engine",
           "name": "Engine",
           "package": "loli",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Engine",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Engine",
           "name": "Engine",
           "package": "loli",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Engine",
           "name": "add_middleware",
           "package": "loli",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Engine",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Engine",
           "name": "add_middleware",
           "normalized": "Middleware-\u003eLoli-\u003eLoli",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Engine",
           "name": "add_mime",
           "package": "loli",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Engine",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Engine",
           "name": "add_mime",
           "normalized": "String-\u003eString-\u003eLoli-\u003eLoli",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Engine",
           "name": "add_route",
           "package": "loli",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Engine",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Engine",
           "name": "add_route",
           "normalized": "RequestMethod-\u003eString-\u003eAppUnit-\u003eUnit",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Engine",
           "name": "add_route_config",
           "package": "loli",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Engine",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Engine",
           "name": "add_route_config",
           "normalized": "RouteConfig-\u003eLoli-\u003eLoli",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Engine",
           "name": "loli",
           "package": "loli",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Engine",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Engine",
           "name": "loli",
           "normalized": "Unit-\u003eApplication",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Engine",
           "name": "run_app",
           "package": "loli",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Engine",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Engine",
           "name": "run_app",
           "normalized": "AppUnit-\u003eApplication",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Engine",
           "name": "set_router",
           "package": "loli",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Engine",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Engine",
           "name": "set_router",
           "normalized": "Router-\u003eLoli-\u003eLoli",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Middleware.LoliRouter",
           "name": "LoliRouter",
           "package": "loli",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Middleware LoliRouter",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Middleware.LoliRouter",
           "name": "LoliRouter",
           "package": "loli",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Middleware.LoliRouter",
           "name": "loli_router",
           "package": "loli",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Middleware LoliRouter",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Middleware.LoliRouter",
           "name": "loli_router",
           "normalized": "String-\u003e(a-\u003eApplication)-\u003eRoutePathT a-\u003eMiddleware",
@@ -887,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.ConstTemplate",
           "name": "ConstTemplate",
           "package": "loli",
@@ -895,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template ConstTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.ConstTemplate",
           "name": "ConstTemplate",
           "package": "loli",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.ConstTemplate",
           "name": "ConstTemplate",
           "package": "loli",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template ConstTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.ConstTemplate",
           "name": "ConstTemplate",
           "package": "loli",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.ConstTemplate",
           "name": "ConstTemplate",
           "package": "loli",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template ConstTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.ConstTemplate",
           "name": "ConstTemplate",
           "package": "loli",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.ConstTemplate",
           "name": "const_template",
           "package": "loli",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template ConstTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.ConstTemplate",
           "name": "const_template",
           "normalized": "String-\u003eConstTemplate",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "TextTemplate",
           "package": "loli",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template TextTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "TextTemplate",
           "package": "loli",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "TextTemplate",
           "package": "loli",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template TextTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "TextTemplate",
           "package": "loli",
@@ -1016,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "TextTemplate",
           "package": "loli",
@@ -1025,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template TextTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "TextTemplate",
           "package": "loli",
@@ -1038,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "render_text_template",
           "package": "loli",
@@ -1047,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template TextTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "render_text_template",
           "normalized": "String-\u003eContext-\u003eIO String",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "text_template",
           "package": "loli",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template TextTemplate",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template.TextTemplate",
           "name": "text_template",
           "normalized": "String-\u003eTextTemplate",
@@ -1084,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "Template",
           "package": "loli",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "Template",
           "package": "loli",
@@ -1105,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "html",
           "package": "loli",
@@ -1114,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "html",
           "normalized": "String-\u003eAppUnit",
@@ -1128,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "no_layout",
           "package": "loli",
@@ -1137,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "no_layout",
           "normalized": "AppUnit-\u003eAppUnit",
@@ -1151,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "output",
           "package": "loli",
@@ -1160,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "output",
           "normalized": "a-\u003eAppUnit",
@@ -1174,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "partial",
           "package": "loli",
@@ -1183,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "partial",
           "normalized": "String-\u003ea-\u003eAppUnit-\u003eAppUnit",
@@ -1197,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "partial_locals",
           "package": "loli",
@@ -1206,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "partial_locals",
           "package": "loli",
@@ -1218,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "partials",
           "package": "loli",
@@ -1227,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "partials",
           "normalized": "[(String,a)]-\u003eAppUnit-\u003eAppUnit",
@@ -1241,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "render",
           "package": "loli",
@@ -1250,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "render",
           "normalized": "a-\u003eAppUnitT String",
@@ -1264,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "render_layout",
           "package": "loli",
@@ -1273,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "render_layout",
           "package": "loli",
@@ -1285,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "template_locals",
           "package": "loli",
@@ -1294,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "template_locals",
           "package": "loli",
@@ -1306,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "text",
           "package": "loli",
@@ -1315,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "text",
           "normalized": "String-\u003eAppUnit",
@@ -1329,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Template",
           "name": "with_layout",
           "package": "loli",
@@ -1338,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Template",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Template",
           "name": "with_layout",
           "normalized": "String-\u003eAppUnit-\u003eAppUnit",
@@ -1352,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "Type",
           "package": "loli",
@@ -1360,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "Type",
           "package": "loli",
@@ -1373,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "AppReader",
           "package": "loli",
@@ -1381,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "AppReader",
           "package": "loli",
@@ -1394,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "AppState",
           "package": "loli",
@@ -1402,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "AppState",
           "package": "loli",
@@ -1415,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "AppUnit",
           "package": "loli",
@@ -1423,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "AppUnit",
           "package": "loli",
@@ -1436,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "AppUnitT",
           "package": "loli",
@@ -1444,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "AppUnitT",
           "package": "loli",
@@ -1457,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "Assoc",
           "package": "loli",
@@ -1465,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "Assoc",
           "package": "loli",
@@ -1478,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "Context",
           "package": "loli",
@@ -1486,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "Context",
           "package": "loli",
@@ -1499,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "Loli",
           "package": "loli",
@@ -1507,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "Loli",
           "package": "loli",
@@ -1520,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "RouteConfig",
           "package": "loli",
@@ -1528,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "RouteConfig",
           "package": "loli",
@@ -1541,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "RoutePath",
           "package": "loli",
@@ -1549,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "RoutePath",
           "package": "loli",
@@ -1562,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "RoutePathT",
           "package": "loli",
@@ -1570,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "RoutePathT",
           "package": "loli",
@@ -1583,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "Router",
           "package": "loli",
@@ -1591,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "Router",
           "package": "loli",
@@ -1604,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "RouterT",
           "package": "loli",
@@ -1612,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "RouterT",
           "package": "loli",
@@ -1625,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "Template",
           "package": "loli",
@@ -1633,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "Template",
           "package": "loli",
@@ -1646,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "Unit",
           "package": "loli",
@@ -1654,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "Unit",
           "package": "loli",
@@ -1667,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "UnitT",
           "package": "loli",
@@ -1675,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "UnitT",
           "package": "loli",
@@ -1688,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "Loli",
           "package": "loli",
@@ -1697,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "Loli",
           "package": "loli",
@@ -1710,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "RouteConfig",
           "package": "loli",
@@ -1719,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "RouteConfig",
           "package": "loli",
@@ -1732,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "current_router",
           "package": "loli",
@@ -1741,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "current_router",
           "package": "loli",
@@ -1753,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "interpolate",
           "package": "loli",
@@ -1762,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "interpolate",
           "normalized": "a-\u003eString-\u003eContext-\u003eIO String",
@@ -1776,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "middlewares",
           "package": "loli",
@@ -1785,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "middlewares",
           "normalized": "[Middleware]",
@@ -1799,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "mimes",
           "package": "loli",
@@ -1808,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "mimes",
           "package": "loli",
@@ -1820,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "route_path",
           "package": "loli",
@@ -1829,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "route_path",
           "package": "loli",
@@ -1841,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "router",
           "package": "loli",
@@ -1850,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "router",
           "package": "loli",
@@ -1862,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Type",
           "name": "routes",
           "package": "loli",
@@ -1871,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Type",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Type",
           "name": "routes",
           "normalized": "[RouteConfig]",
@@ -1885,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Utils",
           "name": "Utils",
           "package": "loli",
@@ -1893,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Utils",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Utils",
           "name": "Utils",
           "package": "loli",
@@ -1906,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Utils",
           "name": "delete_namespace",
           "package": "loli",
@@ -1915,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Utils",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Utils",
           "name": "delete_namespace",
           "normalized": "String-\u003eString-\u003eEnv-\u003eEnv",
@@ -1929,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Utils",
           "name": "insert_last",
           "package": "loli",
@@ -1938,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Utils",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Utils",
           "name": "insert_last",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -1952,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Utils",
           "name": "namespace",
           "package": "loli",
@@ -1961,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Utils",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Utils",
           "name": "namespace",
           "normalized": "String-\u003eEnv-\u003e[(String,String)]",
@@ -1975,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Utils",
           "name": "put_namespace",
           "package": "loli",
@@ -1984,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Utils",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Utils",
           "name": "put_namespace",
           "normalized": "String-\u003e[(String,String)]-\u003eEnv-\u003eEnv",
@@ -1998,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Utils",
           "name": "set_namespace",
           "package": "loli",
@@ -2007,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Utils",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Utils",
           "name": "set_namespace",
           "normalized": "String-\u003eString-\u003eString-\u003eEnv-\u003eEnv",
@@ -2021,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli.Utils",
           "name": "update",
           "package": "loli",
@@ -2030,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Network Loli Utils",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli.Utils",
           "name": "update",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -2044,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:22 UTC 2014",
           "module": "Network.Loli",
           "name": "Loli",
           "package": "loli",
@@ -2052,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Network Loli",
+          "indexed": "2014-03-11T19:12:22",
           "module": "Network.Loli",
           "name": "Loli",
           "package": "loli",

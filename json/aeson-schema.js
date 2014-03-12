@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aeson-schema"
+        "phrase": "aeson-schema",
+        "type": "phrase"
       },
       "type": "context"
     }

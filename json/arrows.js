@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "arrows"
+        "phrase": "arrows",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubclasses of \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003e providing additional operations.\n\u003c/p\u003e\u003cp\u003eThe signatures are designed to be compatible with the proposed\n notation for arrows, cf. \u003ca\u003ehttp://www.haskell.org/arrows/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "Operations",
           "package": "arrows",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Subclasses of Arrow providing additional operations The signatures are designed to be compatible with the proposed notation for arrows cf http www.haskell.org arrows",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "Operations",
           "package": "arrows",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that can be used to interpret synchronous circuits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "ArrowCircuit",
           "package": "arrows",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An arrow type that can be used to interpret synchronous circuits",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "ArrowCircuit",
           "package": "arrows",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that includes errors (or exceptions).\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003eraise\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etryInUnless\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eTODO:\u003c/em\u003e the operations here are inconsistent with other arrow transformers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "ArrowError",
           "package": "arrows",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An arrow type that includes errors or exceptions Minimal definition raise and tryInUnless TODO the operations here are inconsistent with other arrow transformers",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "ArrowError",
           "package": "arrows",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that provides a read-only state (an environment).\n If you also need to modify the state, use \u003ccode\u003e\u003ca\u003eArrowState\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "ArrowReader",
           "package": "arrows",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An arrow type that provides read-only state an environment If you also need to modify the state use ArrowState",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "ArrowReader",
           "package": "arrows",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that provides a modifiable state,\n based of section 9 of \u003cem\u003eGeneralising Monads to Arrows\u003c/em\u003e, by John Hughes,\n \u003cem\u003eScience of Computer Programming\u003c/em\u003e 37:67-111, May 2000.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "ArrowState",
           "package": "arrows",
@@ -120,6 +129,7 @@
         "index": {
           "description": "An arrow type that provides modifiable state based of section of Generalising Monads to Arrows by John Hughes Science of Computer Programming May",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "ArrowState",
           "package": "arrows",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that collects additional output (of some \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "ArrowWriter",
           "package": "arrows",
@@ -143,6 +154,7 @@
         "index": {
           "description": "An arrow type that collects additional output of some Monoid type",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "ArrowWriter",
           "package": "arrows",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA delay component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "delay",
           "package": "arrows",
@@ -167,6 +180,7 @@
         "index": {
           "description": "delay component",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "delay",
           "package": "arrows",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the current value of the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "fetch",
           "package": "arrows",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Obtain the current value of the state",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "fetch",
           "package": "arrows",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraditional exception construct.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\tbody `handle` \\ex -\u003e handler\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "handle",
           "package": "arrows",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Traditional exception construct Typical usage in arrow notation proc body handle ex handler",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "handle",
           "package": "arrows",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandler that returns the error as a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "newError",
           "package": "arrows",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Handler that returns the error as value",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "newError",
           "normalized": "a b c-\u003ea b(Either d c)",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a subcomputation in the same arrow, but with a different\n environment.  The environment of the outer computation is\n unaffected.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|newReader cmd|) env\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "newReader",
           "package": "arrows",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Run subcomputation in the same arrow but with different environment The environment of the outer computation is unaffected Typical usage in arrow notation proc newReader cmd env",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "newReader",
           "normalized": "a b c-\u003ea(b,d)c",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a subcomputation in the same arrow, making its additional\n output accessible.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e do\n\t\t...\n\t\t(value, output) \u003c- (|newWriter cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "newWriter",
           "package": "arrows",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Run subcomputation in the same arrow making its additional output accessible Typical usage in arrow notation proc do value output newWriter cmd",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "newWriter",
           "normalized": "a b c-\u003ea b(c,d)",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "raise",
           "package": "arrows",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Raise an error",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "raise",
           "package": "arrows",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the current value of the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "readState",
           "package": "arrows",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Obtain the current value of the state",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "readState",
           "package": "arrows",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a new value to the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "store",
           "package": "arrows",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Assign new value to the state",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "store",
           "normalized": "a b()",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException construct in the style of \u003cem\u003eExceptional Syntax\u003c/em\u003e,\n by Nick Benton and Andrew Kennedy, \u003cem\u003eJFP\u003c/em\u003e 11(4):395-410, July 2001.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|tryInUnless\n\t\t\tbody\n\t\t\t(\\res -\u003e success)\n\t\t\t(\\ex -\u003e handler)\n\t\t|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "tryInUnless",
           "package": "arrows",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Exception construct in the style of Exceptional Syntax by Nick Benton and Andrew Kennedy JFP July Typical usage in arrow notation proc tryInUnless body res success ex handler",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "tryInUnless",
           "package": "arrows",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA suitable value for \u003ccode\u003e\u003ca\u003etryInUnless\u003c/a\u003e\u003c/code\u003e when the arrow type belongs to\n \u003ccode\u003e\u003ca\u003eArrowChoice\u003c/a\u003e\u003c/code\u003e.  To use it, you must define either \u003ccode\u003e\u003ca\u003ehandle\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enewError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "tryInUnlessDefault",
           "package": "arrows",
@@ -409,6 +442,7 @@
         "index": {
           "description": "suitable value for tryInUnless when the arrow type belongs to ArrowChoice To use it you must define either handle or newError",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "tryInUnlessDefault",
           "normalized": "a b c-\u003ea(b,c)d-\u003ea(b,e)d-\u003ea b d",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a piece of additional output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Operations",
           "name": "write",
           "package": "arrows",
@@ -435,6 +470,7 @@
         "index": {
           "description": "Add piece of additional output",
           "hierarchy": "Control Arrow Operations",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Operations",
           "name": "write",
           "normalized": "a b()",
@@ -449,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.All",
           "name": "All",
           "package": "arrows",
@@ -457,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer All",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.All",
           "name": "All",
           "package": "arrows",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Mealy-style automata.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton",
           "name": "Automaton",
           "package": "arrows",
@@ -480,6 +519,7 @@
         "index": {
           "description": "Simple Mealy-style automata",
           "hierarchy": "Control Arrow Transformer Automaton",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Automaton",
           "name": "Automaton",
           "package": "arrows",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type comprising Mealy-style automata, each step of which is\n is a computation in the original arrow type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton",
           "name": "Automaton",
           "package": "arrows",
@@ -503,6 +544,7 @@
         "index": {
           "description": "An arrow type comprising Mealy-style automata each step of which is is computation in the original arrow type",
           "hierarchy": "Control Arrow Transformer Automaton",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Automaton",
           "name": "Automaton",
           "package": "arrows",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton",
           "name": "Automaton",
           "package": "arrows",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Automaton",
           "name": "Automaton",
           "normalized": "Automaton(a b(c,Automaton a b c))",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulating an automaton by running it on a stream of inputs,\n obtaining a stream of outputs.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e do\n\t\t...\n\t\tys \u003c- (|runAutomaton (\\x -\u003e ...)|) xs\n\u003c/pre\u003e\u003cp\u003eHere \u003ccode\u003exs\u003c/code\u003e refers to the input stream and \u003ccode\u003ex\u003c/code\u003e to individual\n elements of that stream.  \u003ccode\u003eys\u003c/code\u003e is bound to the output stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton",
           "name": "runAutomaton",
           "package": "arrows",
@@ -551,6 +596,7 @@
         "index": {
           "description": "Encapsulating an automaton by running it on stream of inputs obtaining stream of outputs Typical usage in arrow notation proc do ys runAutomaton xs Here xs refers to the input stream and to individual elements of that stream ys is bound to the output stream",
           "hierarchy": "Control Arrow Transformer Automaton",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Automaton",
           "name": "runAutomaton",
           "normalized": "Automaton a(b,c)d-\u003ea(b,Stream c)(Stream d)",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransformation of state readers.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eTODO:\u003c/em\u003e define operations for this arrow.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.CoState",
           "name": "CoState",
           "package": "arrows",
@@ -576,6 +623,7 @@
         "index": {
           "description": "Transformation of state readers TODO define operations for this arrow",
           "hierarchy": "Control Arrow Transformer CoState",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.CoState",
           "name": "CoState",
           "package": "arrows",
@@ -589,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.CoState",
           "name": "CoStateArrow",
           "package": "arrows",
@@ -597,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer CoState",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.CoState",
           "name": "CoStateArrow",
           "package": "arrows",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.CoState",
           "name": "CoStateArrow",
           "package": "arrows",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer CoState",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.CoState",
           "name": "CoStateArrow",
           "normalized": "CoStateArrow(a(b-\u003ec)(b-\u003ed))",
@@ -635,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn arrow transformer that adds error handling.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eTODO:\u003c/em\u003e the operations here are inconsistent with other arrow transformers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Error",
           "name": "Error",
           "package": "arrows",
@@ -644,6 +697,7 @@
         "index": {
           "description": "An arrow transformer that adds error handling TODO the operations here are inconsistent with other arrow transformers",
           "hierarchy": "Control Arrow Transformer Error",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Error",
           "name": "Error",
           "package": "arrows",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdding a \u003ccode\u003e\u003ca\u003eErrorArrow\u003c/a\u003e\u003c/code\u003e to an\n arrow type, but not necessarily as the outer arrow transformer.\n\u003c/p\u003e\u003cp\u003eTypically a composite arrow type is built by applying a series\n of arrow transformer to a base arrow (usually either a function\n arrow or a \u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e arrow.  One can add a transformer to the\n top of this stack using the \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e\n method of the \u003ccode\u003e\u003ca\u003eArrowTransformer\u003c/a\u003e\u003c/code\u003e class,\n or remove a state transformer from the top of the stack using the\n \u003ccode\u003e\u003ca\u003erunError\u003c/a\u003e\u003c/code\u003e encapsulation operator.\n The methods of this class add and remove state transformers anywhere\n in the stack.  In the instance\n\u003c/p\u003e\u003cpre\u003e\tinstance Arrow a =\u003e ArrowAddError ex (ArrowError ex a) a\n\u003c/pre\u003e\u003cp\u003ethey are equivalent to \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003erunError\u003c/a\u003e\u003c/code\u003e respectively.\n Instances are lifted through other transformers with\n\u003c/p\u003e\u003cpre\u003e\tinstance ArrowAddError ex a a' =\u003e\n\t\tArrowAddError ex (FooArrow a) (FooArrow a')\n\u003c/pre\u003e\u003cp\u003eThis could be combined with \u003ccode\u003e\u003ca\u003ehandle\u003c/a\u003e\u003c/code\u003e,\n since the resulting arrow is always the arrow of the handler.\n Separating them has the advantage of consistency with the other arrows,\n and might give more helpful type error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Error",
           "name": "ArrowAddError",
           "package": "arrows",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Adding ErrorArrow to an arrow type but not necessarily as the outer arrow transformer Typically composite arrow type is built by applying series of arrow transformer to base arrow usually either function arrow or Kleisli arrow One can add transformer to the top of this stack using the lift method of the ArrowTransformer class or remove state transformer from the top of the stack using the runError encapsulation operator The methods of this class add and remove state transformers anywhere in the stack In the instance instance Arrow ArrowAddError ex ArrowError ex they are equivalent to lift and runError respectively Instances are lifted through other transformers with instance ArrowAddError ex ArrowAddError ex FooArrow FooArrow This could be combined with handle since the resulting arrow is always the arrow of the handler Separating them has the advantage of consistency with the other arrows and might give more helpful type error messages",
           "hierarchy": "Control Arrow Transformer Error",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Error",
           "name": "ArrowAddError",
           "package": "arrows",
@@ -681,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow that augments an existing arrow with possible errors.\n The \u003ccode\u003e\u003ca\u003eArrowError\u003c/a\u003e\u003c/code\u003e class contains methods for raising and handling\n these errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Error",
           "name": "ErrorArrow",
           "package": "arrows",
@@ -690,6 +747,7 @@
         "index": {
           "description": "An arrow that augments an existing arrow with possible errors The ArrowError class contains methods for raising and handling these errors",
           "hierarchy": "Control Arrow Transformer Error",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Error",
           "name": "ErrorArrow",
           "package": "arrows",
@@ -703,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Error",
           "name": "ErrorArrow",
           "package": "arrows",
@@ -712,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Error",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Error",
           "name": "ErrorArrow",
           "package": "arrows",
@@ -726,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElimination of errors from a computation,\n by completely handling any errors.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\tbody `elimError` \\ex -\u003e handler\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Error",
           "name": "elimError",
           "package": "arrows",
@@ -736,6 +797,7 @@
         "index": {
           "description": "Elimination of errors from computation by completely handling any errors Typical usage in arrow notation proc body elimError ex handler",
           "hierarchy": "Control Arrow Transformer Error",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Error",
           "name": "elimError",
           "normalized": "a b c-\u003ed(b,e)c-\u003ed b c",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from an arrow to one with error handling.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|liftError cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Error",
           "name": "liftError",
           "package": "arrows",
@@ -762,6 +825,7 @@
         "index": {
           "description": "Lift computation from an arrow to one with error handling Typical usage in arrow notation proc liftError cmd",
           "hierarchy": "Control Arrow Transformer Error",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Error",
           "name": "liftError",
           "normalized": "a b c-\u003ed b c",
@@ -778,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulate an error-raising computation,\n by completely handling any errors.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\tbody `runError` \\ex -\u003e handler\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Error",
           "name": "runError",
           "package": "arrows",
@@ -787,6 +852,7 @@
         "index": {
           "description": "Encapsulate an error-raising computation by completely handling any errors Typical usage in arrow notation proc body runError ex handler",
           "hierarchy": "Control Arrow Transformer Error",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Error",
           "name": "runError",
           "normalized": "ErrorArrow a b c d-\u003eb(c,a)d-\u003eb c d",
@@ -803,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrow transformer that adds a read-only state (i.e. an environment).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "Reader",
           "package": "arrows",
@@ -812,6 +879,7 @@
         "index": {
           "description": "Arrow transformer that adds read-only state i.e an environment",
           "hierarchy": "Control Arrow Transformer Reader",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "Reader",
           "package": "arrows",
@@ -826,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdding a \u003ccode\u003e\u003ca\u003eReaderArrow\u003c/a\u003e\u003c/code\u003e to an\n arrow type, but not necessarily as the outer arrow transformer.\n\u003c/p\u003e\u003cp\u003eTypically a composite arrow type is built by applying a series\n of arrow transformer to a base arrow (usually either a function\n arrow or a \u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e arrow.  One can add a transformer to the\n top of this stack using the \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e\n method of the \u003ccode\u003e\u003ca\u003eArrowTransformer\u003c/a\u003e\u003c/code\u003e class,\n or remove a state transformer from the top of the stack using the\n \u003ccode\u003e\u003ca\u003erunReader\u003c/a\u003e\u003c/code\u003e encapsulation operator.\n The methods of this class add and remove state transformers anywhere\n in the stack.  In the instance\n\u003c/p\u003e\u003cpre\u003e\tinstance Arrow a =\u003e ArrowAddReader r (ArrowReader r a) a\n\u003c/pre\u003e\u003cp\u003ethey are equivalent to \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003erunReader\u003c/a\u003e\u003c/code\u003e respectively.\n Instances are lifted through other transformers with\n\u003c/p\u003e\u003cpre\u003e\tinstance ArrowAddReader r a a' =\u003e\n\t\tArrowAddReader r (FooArrow a) (FooArrow a')\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "ArrowAddReader",
           "package": "arrows",
@@ -835,6 +904,7 @@
         "index": {
           "description": "Adding ReaderArrow to an arrow type but not necessarily as the outer arrow transformer Typically composite arrow type is built by applying series of arrow transformer to base arrow usually either function arrow or Kleisli arrow One can add transformer to the top of this stack using the lift method of the ArrowTransformer class or remove state transformer from the top of the stack using the runReader encapsulation operator The methods of this class add and remove state transformers anywhere in the stack In the instance instance Arrow ArrowAddReader ArrowReader they are equivalent to lift and runReader respectively Instances are lifted through other transformers with instance ArrowAddReader ArrowAddReader FooArrow FooArrow",
           "hierarchy": "Control Arrow Transformer Reader",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "ArrowAddReader",
           "package": "arrows",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that augments an existing arrow with a read-only state\n (or environment).  The \u003ccode\u003e\u003ca\u003eArrowReader\u003c/a\u003e\u003c/code\u003e class contains the operations\n on this state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "ReaderArrow",
           "package": "arrows",
@@ -858,6 +929,7 @@
         "index": {
           "description": "An arrow type that augments an existing arrow with read-only state or environment The ArrowReader class contains the operations on this state",
           "hierarchy": "Control Arrow Transformer Reader",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "ReaderArrow",
           "package": "arrows",
@@ -871,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "ReaderArrow",
           "package": "arrows",
@@ -880,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Reader",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "ReaderArrow",
           "normalized": "ReaderArrow(a(b,c)d)",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElimination of a state reader from a computation,\n taking a value for the state.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|elimReader cmd|) env\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "elimReader",
           "package": "arrows",
@@ -906,6 +981,7 @@
         "index": {
           "description": "Elimination of state reader from computation taking value for the state Typical usage in arrow notation proc elimReader cmd env",
           "hierarchy": "Control Arrow Transformer Reader",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "elimReader",
           "normalized": "a b c-\u003ed(b,e)c",
@@ -922,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from an arrow to one with an added environment.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|liftReader cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "liftReader",
           "package": "arrows",
@@ -932,6 +1009,7 @@
         "index": {
           "description": "Lift computation from an arrow to one with an added environment Typical usage in arrow notation proc liftReader cmd",
           "hierarchy": "Control Arrow Transformer Reader",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "liftReader",
           "normalized": "a b c-\u003ed b c",
@@ -948,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulation of a state-reading computation, taking a value for the\n state.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|runReader cmd|) env\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "runReader",
           "package": "arrows",
@@ -958,6 +1037,7 @@
         "index": {
           "description": "Encapsulation of state-reading computation taking value for the state Typical usage in arrow notation proc runReader cmd env",
           "hierarchy": "Control Arrow Transformer Reader",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Reader",
           "name": "runReader",
           "normalized": "ReaderArrow a b c d-\u003eb(c,a)d",
@@ -974,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn arrow transformer that adds a modifiable state,\n based of section 9 of \u003cem\u003eGeneralising Monads to Arrows\u003c/em\u003e, by John Hughes,\n \u003cem\u003eScience of Computer Programming\u003c/em\u003e 37:67-111, May 2000.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.State",
           "name": "State",
           "package": "arrows",
@@ -983,6 +1064,7 @@
         "index": {
           "description": "An arrow transformer that adds modifiable state based of section of Generalising Monads to Arrows by John Hughes Science of Computer Programming May",
           "hierarchy": "Control Arrow Transformer State",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.State",
           "name": "State",
           "package": "arrows",
@@ -997,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdding a \u003ccode\u003e\u003ca\u003eStateArrow\u003c/a\u003e\u003c/code\u003e to an\n arrow type, but not necessarily as the outer arrow transformer.\n\u003c/p\u003e\u003cp\u003eTypically a composite arrow type is built by applying a series\n of arrow transformer to a base arrow (usually either a function\n arrow or a \u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e arrow.  One can add a transformer to the\n top of this stack using the \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e\n method of the \u003ccode\u003e\u003ca\u003eArrowTransformer\u003c/a\u003e\u003c/code\u003e class,\n or remove a state transformer from the top of the stack using the\n \u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e encapsulation operator.\n The methods of this class add and remove state transformers anywhere\n in the stack.  In the instance\n\u003c/p\u003e\u003cpre\u003e\tinstance Arrow a =\u003e ArrowAddState s (ArrowState s a) a\n\u003c/pre\u003e\u003cp\u003ethey are equivalent to \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e respectively.\n Instances are lifted through other transformers with\n\u003c/p\u003e\u003cpre\u003e\tinstance ArrowAddState s a a' =\u003e\n\t\tArrowAddState s (FooArrow a) (FooArrow a')\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.State",
           "name": "ArrowAddState",
           "package": "arrows",
@@ -1006,6 +1089,7 @@
         "index": {
           "description": "Adding StateArrow to an arrow type but not necessarily as the outer arrow transformer Typically composite arrow type is built by applying series of arrow transformer to base arrow usually either function arrow or Kleisli arrow One can add transformer to the top of this stack using the lift method of the ArrowTransformer class or remove state transformer from the top of the stack using the runState encapsulation operator The methods of this class add and remove state transformers anywhere in the stack In the instance instance Arrow ArrowAddState ArrowState they are equivalent to lift and runState respectively Instances are lifted through other transformers with instance ArrowAddState ArrowAddState FooArrow FooArrow",
           "hierarchy": "Control Arrow Transformer State",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.State",
           "name": "ArrowAddState",
           "package": "arrows",
@@ -1020,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that augments an existing arrow with a modifiable\n state.  The \u003ccode\u003e\u003ca\u003eArrowState\u003c/a\u003e\u003c/code\u003e class contains the operations on this state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.State",
           "name": "StateArrow",
           "package": "arrows",
@@ -1029,6 +1114,7 @@
         "index": {
           "description": "An arrow type that augments an existing arrow with modifiable state The ArrowState class contains the operations on this state",
           "hierarchy": "Control Arrow Transformer State",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.State",
           "name": "StateArrow",
           "package": "arrows",
@@ -1042,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.State",
           "name": "StateArrow",
           "package": "arrows",
@@ -1051,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer State",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.State",
           "name": "StateArrow",
           "normalized": "StateArrow(a(b,c)(d,c))",
@@ -1067,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElimination of a state transformer from a computation,\n exposing the initial and final states.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e do\n\t\t...\n\t\t(result, final_state) \u003c- (|elimState cmd|) init_state\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.State",
           "name": "elimState",
           "package": "arrows",
@@ -1077,6 +1166,7 @@
         "index": {
           "description": "Elimination of state transformer from computation exposing the initial and final states Typical usage in arrow notation proc do result final state elimState cmd init state",
           "hierarchy": "Control Arrow Transformer State",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.State",
           "name": "elimState",
           "normalized": "a b c-\u003ed(b,e)(c,e)",
@@ -1093,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from an arrow to one with an added state.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|liftState cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.State",
           "name": "liftState",
           "package": "arrows",
@@ -1103,6 +1194,7 @@
         "index": {
           "description": "Lift computation from an arrow to one with an added state Typical usage in arrow notation proc liftState cmd",
           "hierarchy": "Control Arrow Transformer State",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.State",
           "name": "liftState",
           "normalized": "a b c-\u003ed b c",
@@ -1119,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulation of a state-using computation, exposing the initial\n and final states.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e do\n\t\t...\n\t\t(result, final_state) \u003c- (|runState cmd|) init_state\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.State",
           "name": "runState",
           "package": "arrows",
@@ -1129,6 +1222,7 @@
         "index": {
           "description": "Encapsulation of state-using computation exposing the initial and final states Typical usage in arrow notation proc do result final state runState cmd init state",
           "hierarchy": "Control Arrow Transformer State",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.State",
           "name": "runState",
           "normalized": "StateArrow a b c d-\u003eb(c,a)(d,a)",
@@ -1145,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrow transformer adding static information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "Static",
           "package": "arrows",
@@ -1154,6 +1249,7 @@
         "index": {
           "description": "Arrow transformer adding static information",
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "Static",
           "package": "arrows",
@@ -1168,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that augments the underlying arrow with static information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "StaticArrow",
           "package": "arrows",
@@ -1177,6 +1274,7 @@
         "index": {
           "description": "An arrow type that augments the underlying arrow with static information",
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "StaticArrow",
           "package": "arrows",
@@ -1191,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "StaticArrowArrow",
           "package": "arrows",
@@ -1200,6 +1299,7 @@
         "index": {
           "description": "special case",
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "StaticArrowArrow",
           "package": "arrows",
@@ -1214,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special case is monads applied to the whole arrow, in contrast to\n \u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e arrows, in which the monad is applied to the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "StaticMonadArrow",
           "package": "arrows",
@@ -1223,6 +1324,7 @@
         "index": {
           "description": "special case is monads applied to the whole arrow in contrast to Kleisli arrows in which the monad is applied to the output",
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "StaticMonadArrow",
           "package": "arrows",
@@ -1236,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "StaticArrow",
           "package": "arrows",
@@ -1245,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "StaticArrow",
           "package": "arrows",
@@ -1258,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "unwrap",
           "package": "arrows",
@@ -1267,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "unwrap",
           "normalized": "StaticArrow a b c d-\u003ea(b c d)",
@@ -1281,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "unwrapA",
           "package": "arrows",
@@ -1290,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "unwrapA",
           "normalized": "StaticArrowArrow a b c d e-\u003ea b(c d e)",
@@ -1304,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "unwrapM",
           "package": "arrows",
@@ -1313,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "unwrapM",
           "normalized": "StaticMonadArrow a b c d-\u003ea(b c d)",
@@ -1327,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "wrap",
           "package": "arrows",
@@ -1336,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "wrap",
           "normalized": "a(b c d)-\u003eStaticArrow a b c d",
@@ -1350,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "wrapA",
           "package": "arrows",
@@ -1359,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "wrapA",
           "normalized": "a b(c d e)-\u003eStaticArrowArrow a b c d e",
@@ -1373,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Static",
           "name": "wrapM",
           "package": "arrows",
@@ -1382,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Static",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Static",
           "name": "wrapM",
           "normalized": "a(b c d)-\u003eStaticMonadArrow a b c d",
@@ -1397,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrow transformer lifting an arrow to streams.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "Stream",
           "package": "arrows",
@@ -1406,6 +1523,7 @@
         "index": {
           "description": "Arrow transformer lifting an arrow to streams",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "Stream",
           "package": "arrows",
@@ -1420,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdding a \u003ccode\u003e\u003ca\u003eStreamArrow\u003c/a\u003e\u003c/code\u003e to an\n arrow type, but not necessarily as the outer arrow transformer.\n\u003c/p\u003e\u003cp\u003eTypically a composite arrow type is built by applying a series\n of arrow transformer to a base arrow (usually either a function\n arrow or a \u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e arrow.  One can add a transformer to the\n top of this stack using the \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e\n method of the \u003ccode\u003e\u003ca\u003eArrowTransformer\u003c/a\u003e\u003c/code\u003e class,\n or remove a state transformer from the top of the stack using the\n \u003ccode\u003e\u003ca\u003erunStream\u003c/a\u003e\u003c/code\u003e encapsulation operator.\n The methods of this class add and remove state transformers anywhere\n in the stack.  In the instance\n\u003c/p\u003e\u003cpre\u003e\tinstance Arrow a =\u003e ArrowAddStream (ArrowStream a) a\n\u003c/pre\u003e\u003cp\u003ethey are equivalent to \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003erunStream\u003c/a\u003e\u003c/code\u003e respectively.\n Instances are lifted through other transformers with\n\u003c/p\u003e\u003cpre\u003e\tinstance ArrowAddStream a a' =\u003e\n\t\tArrowAddStream (FooArrow a) (FooArrow a')\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "ArrowAddStream",
           "package": "arrows",
@@ -1429,6 +1548,7 @@
         "index": {
           "description": "Adding StreamArrow to an arrow type but not necessarily as the outer arrow transformer Typically composite arrow type is built by applying series of arrow transformer to base arrow usually either function arrow or Kleisli arrow One can add transformer to the top of this stack using the lift method of the ArrowTransformer class or remove state transformer from the top of the stack using the runStream encapsulation operator The methods of this class add and remove state transformers anywhere in the stack In the instance instance Arrow ArrowAddStream ArrowStream they are equivalent to lift and runStream respectively Instances are lifted through other transformers with instance ArrowAddStream ArrowAddStream FooArrow FooArrow",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "ArrowAddStream",
           "package": "arrows",
@@ -1443,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrows between streams.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e is only a functor if \u003ccode\u003e\u003ca\u003e***\u003c/a\u003e\u003c/code\u003e in the underlying arrow is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "StreamArrow",
           "package": "arrows",
@@ -1452,6 +1573,7 @@
         "index": {
           "description": "Arrows between streams Note lift is only functor if in the underlying arrow is",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "StreamArrow",
           "package": "arrows",
@@ -1466,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMappings of streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "StreamMap",
           "package": "arrows",
@@ -1475,6 +1598,7 @@
         "index": {
           "description": "Mappings of streams",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "StreamMap",
           "package": "arrows",
@@ -1489,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn-place state updates.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: this is an arrow type, and \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e can be used to promote arrows\n from \u003ccode\u003e\u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e s)\u003c/code\u003e: the resulting arrow updates the state for\n each stream element in turn, and as long as the final state in not\n required all is well.  However, \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e does not preserve composition,\n because this monad isn't commutative.  In particular, a composition\n of \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003es of state transformers will not work, as the second will\n require the final state of the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "StreamMapST",
           "package": "arrows",
@@ -1498,6 +1623,7 @@
         "index": {
           "description": "In-place state updates Note this is an arrow type and lift can be used to promote arrows from Kleisli ST the resulting arrow updates the state for each stream element in turn and as long as the final state in not required all is well However lift does not preserve composition because this monad isn commutative In particular composition of lift of state transformers will not work as the second will require the final state of the first",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "StreamMapST",
           "package": "arrows",
@@ -1511,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "StreamArrow",
           "package": "arrows",
@@ -1520,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "StreamArrow",
           "package": "arrows",
@@ -1534,6 +1662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a stream processor on a stream of inputs,\n obtaining a stream of outputs.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e do\n\t\t...\n\t\tys \u003c- (|elimStream (\\x -\u003e ...)|) xs\n\u003c/pre\u003e\u003cp\u003eHere \u003ccode\u003exs\u003c/code\u003e refers to the input stream and \u003ccode\u003ex\u003c/code\u003e to individual\n elements of that stream.  \u003ccode\u003eys\u003c/code\u003e is bound to the output stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "elimStream",
           "package": "arrows",
@@ -1544,6 +1673,7 @@
         "index": {
           "description": "Run stream processor on stream of inputs obtaining stream of outputs Typical usage in arrow notation proc do ys elimStream xs Here xs refers to the input stream and to individual elements of that stream ys is bound to the output stream",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "elimStream",
           "normalized": "a(b,c)d-\u003ee(b,Stream c)(Stream d)",
@@ -1560,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from an arrow to a stream processing one.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|liftStream cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "liftStream",
           "package": "arrows",
@@ -1570,6 +1701,7 @@
         "index": {
           "description": "Lift computation from an arrow to stream processing one Typical usage in arrow notation proc liftStream cmd",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "liftStream",
           "normalized": "a b c-\u003ed b c",
@@ -1586,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a stream processor on a stream of inputs, obtaining a stream\n of outputs.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e do\n\t\t...\n\t\tys \u003c- (|runStream (\\x -\u003e ...)|) xs\n\u003c/pre\u003e\u003cp\u003eHere \u003ccode\u003exs\u003c/code\u003e refers to the input stream and \u003ccode\u003ex\u003c/code\u003e to individual\n elements of that stream.  \u003ccode\u003eys\u003c/code\u003e is bound to the output stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "runStream",
           "package": "arrows",
@@ -1596,6 +1729,7 @@
         "index": {
           "description": "Run stream processor on stream of inputs obtaining stream of outputs Typical usage in arrow notation proc do ys runStream xs Here xs refers to the input stream and to individual elements of that stream ys is bound to the output stream",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "runStream",
           "normalized": "StreamArrow a(b,c)d-\u003ea(b,Stream c)(Stream d)",
@@ -1612,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulate a local state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "runStreamST",
           "package": "arrows",
@@ -1622,6 +1757,7 @@
         "index": {
           "description": "Encapsulate local state",
           "hierarchy": "Control Arrow Transformer Stream",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Stream",
           "name": "runStreamST",
           "normalized": "(a b StreamMapST c d e)-\u003eStreamMap d e",
@@ -1638,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrow transformer that adds accumulation of output.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "Writer",
           "package": "arrows",
@@ -1647,6 +1784,7 @@
         "index": {
           "description": "Arrow transformer that adds accumulation of output",
           "hierarchy": "Control Arrow Transformer Writer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "Writer",
           "package": "arrows",
@@ -1661,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdding a \u003ccode\u003e\u003ca\u003eWriterArrow\u003c/a\u003e\u003c/code\u003e to an\n arrow type, but not necessarily as the outer arrow transformer.\n\u003c/p\u003e\u003cp\u003eTypically a composite arrow type is built by applying a series\n of arrow transformer to a base arrow (usually either a function\n arrow or a \u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e arrow.  One can add a transformer to the\n top of this stack using the \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e\n method of the \u003ccode\u003e\u003ca\u003eArrowTransformer\u003c/a\u003e\u003c/code\u003e class,\n or remove a state transformer from the top of the stack using the\n \u003ccode\u003e\u003ca\u003erunWriter\u003c/a\u003e\u003c/code\u003e encapsulation operator.\n The methods of this class add and remove state transformers anywhere\n in the stack.  In the instance\n\u003c/p\u003e\u003cpre\u003e\tinstance Arrow a =\u003e ArrowAddWriter w (ArrowWriter w a) a\n\u003c/pre\u003e\u003cp\u003ethey are equivalent to \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003erunWriter\u003c/a\u003e\u003c/code\u003e respectively.\n Instances are lifted through other transformers with\n\u003c/p\u003e\u003cpre\u003e\tinstance ArrowAddWriter w a a' =\u003e\n\t\tArrowAddWriter w (FooArrow a) (FooArrow a')\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "ArrowAddWriter",
           "package": "arrows",
@@ -1670,6 +1809,7 @@
         "index": {
           "description": "Adding WriterArrow to an arrow type but not necessarily as the outer arrow transformer Typically composite arrow type is built by applying series of arrow transformer to base arrow usually either function arrow or Kleisli arrow One can add transformer to the top of this stack using the lift method of the ArrowTransformer class or remove state transformer from the top of the stack using the runWriter encapsulation operator The methods of this class add and remove state transformers anywhere in the stack In the instance instance Arrow ArrowAddWriter ArrowWriter they are equivalent to lift and runWriter respectively Instances are lifted through other transformers with instance ArrowAddWriter ArrowAddWriter FooArrow FooArrow",
           "hierarchy": "Control Arrow Transformer Writer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "ArrowAddWriter",
           "package": "arrows",
@@ -1684,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arrow type that augments an existing arrow with accumulating\n output.  The \u003ccode\u003e\u003ca\u003eArrowWriter\u003c/a\u003e\u003c/code\u003e class contains the relevant operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "WriterArrow",
           "package": "arrows",
@@ -1693,6 +1834,7 @@
         "index": {
           "description": "An arrow type that augments an existing arrow with accumulating output The ArrowWriter class contains the relevant operations",
           "hierarchy": "Control Arrow Transformer Writer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "WriterArrow",
           "package": "arrows",
@@ -1706,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "WriterArrow",
           "package": "arrows",
@@ -1715,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Writer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "WriterArrow",
           "normalized": "WriterArrow(a b(c,d))",
@@ -1731,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElimination of an output writer from a computation,\n providing the accumulated output.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e do\n\t\t...\n\t\t(result, output) \u003c- (|elimWriter cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "elimWriter",
           "package": "arrows",
@@ -1741,6 +1886,7 @@
         "index": {
           "description": "Elimination of an output writer from computation providing the accumulated output Typical usage in arrow notation proc do result output elimWriter cmd",
           "hierarchy": "Control Arrow Transformer Writer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "elimWriter",
           "normalized": "a b c-\u003ed b(c,e)",
@@ -1757,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from an arrow to one with added output.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|liftWriter cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "liftWriter",
           "package": "arrows",
@@ -1767,6 +1914,7 @@
         "index": {
           "description": "Lift computation from an arrow to one with added output Typical usage in arrow notation proc liftWriter cmd",
           "hierarchy": "Control Arrow Transformer Writer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "liftWriter",
           "normalized": "a b c-\u003ed b c",
@@ -1783,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulation of a writer computation, providing the accumulated output.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e do\n\t\t...\n\t\t(result, output) \u003c- (|runWriter cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "runWriter",
           "package": "arrows",
@@ -1793,6 +1942,7 @@
         "index": {
           "description": "Encapsulation of writer computation providing the accumulated output Typical usage in arrow notation proc do result output runWriter cmd",
           "hierarchy": "Control Arrow Transformer Writer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer.Writer",
           "name": "runWriter",
           "normalized": "WriterArrow a b c d-\u003eb c(d,a)",
@@ -1809,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrow transformers, for making new arrow types out of old ones.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer",
           "name": "Transformer",
           "package": "arrows",
@@ -1818,6 +1969,7 @@
         "index": {
           "description": "Arrow transformers for making new arrow types out of old ones",
           "hierarchy": "Control Arrow Transformer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer",
           "name": "Transformer",
           "package": "arrows",
@@ -1832,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new arrow from an existing one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer",
           "name": "ArrowTransformer",
           "package": "arrows",
@@ -1841,6 +1994,7 @@
         "index": {
           "description": "Construct new arrow from an existing one",
           "hierarchy": "Control Arrow Transformer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer",
           "name": "ArrowTransformer",
           "package": "arrows",
@@ -1855,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transformation of arrows, preserving \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003e\u003e\u003e\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTypical usage in arrow notation:\n\u003c/p\u003e\u003cpre\u003e\tproc p -\u003e ...\n\t\t(|lift cmd|)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:51 UTC 2014",
           "module": "Control.Arrow.Transformer",
           "name": "lift",
           "package": "arrows",
@@ -1865,6 +2020,7 @@
         "index": {
           "description": "transformation of arrows preserving arr and first Typical usage in arrow notation proc lift cmd",
           "hierarchy": "Control Arrow Transformer",
+          "indexed": "2014-03-11T17:12:51",
           "module": "Control.Arrow.Transformer",
           "name": "lift",
           "normalized": "a b c-\u003ed a b c",

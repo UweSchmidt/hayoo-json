@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ec2-signature"
+        "phrase": "ec2-signature",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "EC2",
           "package": "ec2-signature",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "EC2",
           "package": "ec2-signature",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "Endpoint",
           "package": "ec2-signature",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "Endpoint",
           "package": "ec2-signature",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "Method",
           "package": "ec2-signature",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "Method",
           "package": "ec2-signature",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "Path",
           "package": "ec2-signature",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "Path",
           "package": "ec2-signature",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "SecretKey",
           "package": "ec2-signature",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "SecretKey",
           "package": "ec2-signature",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "SignatureMethod",
           "package": "ec2-signature",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "SignatureMethod",
           "package": "ec2-signature",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "HmacSHA256",
           "package": "ec2-signature",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "HmacSHA256",
           "package": "ec2-signature",
@@ -167,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake signature from a parameter list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "signature",
           "package": "ec2-signature",
@@ -177,6 +192,7 @@
         "index": {
           "description": "Make signature from parameter list",
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "signature",
           "normalized": "Method-\u003eEndpoint-\u003ePath-\u003eSecretKey-\u003eSignatureMethod-\u003eSimpleQuery-\u003eByteString",
@@ -192,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake signature from a \u003ccode\u003eQueryString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "signature'",
           "package": "ec2-signature",
@@ -202,6 +219,7 @@
         "index": {
           "description": "Make signature from QueryString",
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "signature'",
           "normalized": "Method-\u003eEndpoint-\u003ePath-\u003eSecretKey-\u003eSignatureMethod-\u003eQuery-\u003eByteString",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a string for making signature.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003estringToSign \"GET\" \"ec2.amazonaws.com\" \"/\" [(\"key1\", \"value1\"), (\"key2\", \"value2\")]\n\u003c/code\u003e\u003c/strong\u003e\"GET\\nec2.amazonaws.com\\n/\\nkey1=value1&key2=value2\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "stringToSign",
           "package": "ec2-signature",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Make string for making signature stringToSign GET ec2.amazonaws.com key1 value1 key2 value2 GET nec2.amazonaws.com nkey1 value1 key2 value2",
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "stringToSign",
           "normalized": "Method-\u003eEndpoint-\u003ePath-\u003eSimpleQuery-\u003eByteString",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:29 UTC 2014",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "stringToSign'",
           "package": "ec2-signature",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Rest Signature EC2",
+          "indexed": "2014-03-11T18:00:29",
           "module": "Network.HTTP.Rest.Signature.EC2",
           "name": "stringToSign'",
           "normalized": "Method-\u003eEndpoint-\u003ePath-\u003eQuery-\u003eByteString",

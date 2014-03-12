@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "idiii"
+        "phrase": "idiii",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides parsers for Extended Header\n\u003c/p\u003e\u003cp\u003e(\u003ca\u003ehttp://www.id3.org/id3v2.4.0-structure\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.ExtHeader",
           "name": "ExtHeader",
           "package": "idiii",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides parsers for Extended Header http www.id3.org id3v2.4.0-structure",
           "hierarchy": "ID3 Parser ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.ExtHeader",
           "name": "ExtHeader",
           "package": "idiii",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses Extended Header as \u003ccode\u003e\u003ca\u003eID3ExtHeader\u003c/a\u003e\u003c/code\u003e structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.ExtHeader",
           "name": "parseExtHeader",
           "package": "idiii",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Parses Extended Header as ID3ExtHeader structure",
           "hierarchy": "ID3 Parser ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.ExtHeader",
           "name": "parseExtHeader",
           "package": "idiii",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module provides parsers for frames.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "Frame",
           "package": "idiii",
@@ -75,6 +80,7 @@
         "index": {
           "description": "This Module provides parsers for frames",
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "Frame",
           "package": "idiii",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any Frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "anyFrame",
           "package": "idiii",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Parses any Frame",
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "anyFrame",
           "package": "idiii",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any Frame Header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "anyFrameHeader",
           "package": "idiii",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Parses any Frame Header",
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "anyFrameHeader",
           "package": "idiii",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "frameFlags",
           "package": "idiii",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "frameFlags",
           "package": "idiii",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "frameFormatFlags",
           "package": "idiii",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "frameFormatFlags",
           "package": "idiii",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "frameID",
           "package": "idiii",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "frameID",
           "package": "idiii",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "frameSize",
           "package": "idiii",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "frameSize",
           "package": "idiii",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "frameStatusFlags",
           "package": "idiii",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "frameStatusFlags",
           "package": "idiii",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Frame",
           "name": "parseFrames",
           "package": "idiii",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Frame",
           "name": "parseFrames",
           "normalized": "TagParser([FrameID],Map FrameID ID Frame)",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contain different general parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "General",
           "package": "idiii",
@@ -280,6 +303,7 @@
         "index": {
           "description": "This module contain different general parsers",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "General",
           "package": "idiii",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "CharEncoding",
           "package": "idiii",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "CharEncoding",
           "package": "idiii",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "Size",
           "package": "idiii",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "Size",
           "package": "idiii",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsers state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "St",
           "package": "idiii",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Parsers state",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "St",
           "package": "idiii",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "TagParser",
           "package": "idiii",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "TagParser",
           "package": "idiii",
@@ -380,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a synonim for one item of input stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "Token",
           "package": "idiii",
@@ -389,6 +422,7 @@
         "index": {
           "description": "Just synonim for one item of input stream",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "Token",
           "package": "idiii",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "State",
           "package": "idiii",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "State",
           "package": "idiii",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "anyWord8",
           "package": "idiii",
@@ -435,6 +472,7 @@
         "index": {
           "description": "Parses any Token",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "anyWord8",
           "package": "idiii",
@@ -449,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses given \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "byteString",
           "package": "idiii",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Parses given ByteString",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "byteString",
           "normalized": "ByteString-\u003eTagParser ByteString",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'count n p' parses a precise number of items, n, using the parser p, in sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "count",
           "package": "idiii",
@@ -485,6 +526,7 @@
         "index": {
           "description": "count parses precise number of items using the parser in sequence",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "count",
           "normalized": "a-\u003eTagParser b-\u003eTagParser[b]",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecount\u003c/a\u003e\u003c/code\u003e n p' parses a precise number of items, n, using the parser p, in sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "count'",
           "package": "idiii",
@@ -510,6 +553,7 @@
         "index": {
           "description": "count parses precise number of items using the parser in sequence",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "count'",
           "normalized": "a-\u003eTagParser b-\u003eTagParser[b]",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHybrid of \u003ccode\u003e\u003ca\u003ecount\u003c/a\u003e\u003c/code\u003e and 'sepBy\\''\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "countSepBy'",
           "package": "idiii",
@@ -535,6 +580,7 @@
         "index": {
           "description": "Hybrid of count and sepBy",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "countSepBy'",
           "normalized": "a-\u003eTagParser b-\u003eTagParser c-\u003eTagParser[b]",
@@ -551,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent frame size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "curSize",
           "package": "idiii",
@@ -561,6 +608,7 @@
         "index": {
           "description": "current frame size",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "curSize",
           "package": "idiii",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses digit-symbol (as \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "digit",
           "package": "idiii",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Parses digit-symbol as Token",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "digit",
           "package": "idiii",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "encPack",
           "package": "idiii",
@@ -606,6 +657,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "encPack",
           "normalized": "CharEncoding-\u003e[Token]-\u003eString",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "err",
           "package": "idiii",
@@ -630,6 +683,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "err",
           "normalized": "TagParser a-\u003eString-\u003eTagParser a",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "flagsGet",
           "package": "idiii",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "flagsGet",
           "package": "idiii",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "flagsSet",
           "package": "idiii",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "flagsSet",
           "normalized": "TagFlags-\u003eTagParser()",
@@ -691,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflags from tag's header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "headerFlags",
           "package": "idiii",
@@ -701,6 +760,7 @@
         "index": {
           "description": "flags from tag header",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "headerFlags",
           "package": "idiii",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "id3TagVersion",
           "package": "idiii",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "id3TagVersion",
           "package": "idiii",
@@ -737,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for \u003cem\u003ereiterative\u003c/em\u003e parsers.\n   Mnemonic: \u003ccode\u003eif \u003ccode\u003e\u003ca\u003ecurSize\u003c/a\u003e\u003c/code\u003e \u003e 0 then\u003c/code\u003e continue \u003ccode\u003eelse\u003c/code\u003e stop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "ifSize",
           "package": "idiii",
@@ -747,6 +810,7 @@
         "index": {
           "description": "Wrapper for reiterative parsers Mnemonic if curSize then continue else stop",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "ifSize",
           "normalized": "TagParser[a]-\u003eTagParser[a]",
@@ -762,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "initState",
           "package": "idiii",
@@ -771,6 +836,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "initState",
           "package": "idiii",
@@ -785,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emany'\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e parses a list of elements with individual parser \u003ccode\u003ep\u003c/code\u003e.\n   Cannot fail, since an empty list is a valid return value.\n   Unlike default \u003ccode\u003emany\u003c/code\u003e, stops if \u003ccode\u003e\u003ca\u003ecurSize\u003c/a\u003e\u003c/code\u003e became 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "many'",
           "package": "idiii",
@@ -795,6 +862,7 @@
         "index": {
           "description": "many parses list of elements with individual parser Cannot fail since an empty list is valid return value Unlike default many stops if curSize became",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "many'",
           "normalized": "TagParser a-\u003eTagParser[a]",
@@ -810,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-empty list of items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "many1'",
           "package": "idiii",
@@ -820,6 +889,7 @@
         "index": {
           "description": "Parse non-empty list of items",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "many1'",
           "normalized": "TagParser a-\u003eTagParser[a]",
@@ -835,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emanyTill'\u003c/a\u003e\u003c/code\u003e p end\u003c/code\u003e parses a possibly-empty sequence of \u003ccode\u003ep\u003c/code\u003e's, terminated by a \u003ccode\u003eend\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "manyTill'",
           "package": "idiii",
@@ -845,6 +916,7 @@
         "index": {
           "description": "manyTill end parses possibly-empty sequence of terminated by end",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "manyTill'",
           "normalized": "TagParser a-\u003eTagParser b-\u003eTagParser[a]",
@@ -861,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'manyTill1\\' p end' parses a non-empty sequence of p's, terminated by a end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "manyTill1'",
           "package": "idiii",
@@ -871,6 +944,7 @@
         "index": {
           "description": "manyTill1 end parses non-empty sequence of terminated by end",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "manyTill1'",
           "normalized": "TagParser a-\u003eTagParser b-\u003eTagParser[a]",
@@ -886,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "nonNull",
           "package": "idiii",
@@ -895,6 +970,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "nonNull",
           "package": "idiii",
@@ -909,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a character-encoding \u003ca\u003ecode\u003c/a\u003e, a one-byte value that should be 0, 1, 2, or 3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "parseEncoding",
           "package": "idiii",
@@ -919,6 +996,7 @@
         "index": {
           "description": "Parses character-encoding code one-byte value that should be or",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "parseEncoding",
           "package": "idiii",
@@ -933,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses 3 bytes of language value (as a String) and returns a pair (\u003ca\u003eLanguage\u003c/a\u003e, value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "parseLanguage",
           "package": "idiii",
@@ -943,6 +1022,7 @@
         "index": {
           "description": "Parses bytes of language value as String and returns pair Language value",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "parseLanguage",
           "package": "idiii",
@@ -957,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses one value and returns it as a \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "parseNumber",
           "package": "idiii",
@@ -967,6 +1048,7 @@
         "index": {
           "description": "Parses one value and returns it as Integer",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "parseNumber",
           "package": "idiii",
@@ -981,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'parseSize n unsynchDecode' parses n bytes, doing decoding of \u003ca\u003eunsynchronized\u003c/a\u003e data when unsynchDecode is True, and returns the represented \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "parseSize",
           "package": "idiii",
@@ -991,6 +1074,7 @@
         "index": {
           "description": "parseSize unsynchDecode parses bytes doing decoding of unsynchronized data when unsynchDecode is True and returns the represented Integer value",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "parseSize",
           "normalized": "Integer-\u003eBool-\u003eTagParser Size",
@@ -1007,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses one value and returns it as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "parseString",
           "package": "idiii",
@@ -1017,6 +1102,7 @@
         "index": {
           "description": "Parses one value and returns it as String",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "parseString",
           "normalized": "CharEncoding-\u003eTagParser String",
@@ -1032,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "parseUntilWord16Null",
           "package": "idiii",
@@ -1041,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "parseUntilWord16Null",
           "normalized": "TagParser[Token]",
@@ -1057,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses one value (as [Token]) till termination symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "parseUntilWord8Null",
           "package": "idiii",
@@ -1067,6 +1156,7 @@
         "index": {
           "description": "Parses one value as Token till termination symbol",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "parseUntilWord8Null",
           "normalized": "TagParser[Token]",
@@ -1083,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003es and applies them by turns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "parsers",
           "package": "idiii",
@@ -1093,6 +1184,7 @@
         "index": {
           "description": "Takes list of Parser and applies them by turns",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "parsers",
           "normalized": "[TagParser a]-\u003eTagParser[a]",
@@ -1108,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrements \u003ccode\u003e\u003ca\u003etagPos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "posDec",
           "package": "idiii",
@@ -1118,6 +1211,7 @@
         "index": {
           "description": "Decrements tagPos",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "posDec",
           "normalized": "TagParser()",
@@ -1134,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003etagPos\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eSt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "posGet",
           "package": "idiii",
@@ -1144,6 +1239,7 @@
         "index": {
           "description": "Returns tagPos from St",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "posGet",
           "package": "idiii",
@@ -1158,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncremets \u003ccode\u003e\u003ca\u003etagPos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "posInc",
           "package": "idiii",
@@ -1168,6 +1265,7 @@
         "index": {
           "description": "Incremets tagPos",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "posInc",
           "normalized": "TagParser()",
@@ -1184,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets \u003ccode\u003e\u003ca\u003etagPos\u003c/a\u003e\u003c/code\u003e with given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "posSet",
           "package": "idiii",
@@ -1194,6 +1293,7 @@
         "index": {
           "description": "Sets tagPos with given value",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "posSet",
           "normalized": "Integer-\u003eTagParser()",
@@ -1210,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates \u003ccode\u003e\u003ca\u003etagPos\u003c/a\u003e\u003c/code\u003e with given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "posUpdate",
           "package": "idiii",
@@ -1220,6 +1321,7 @@
         "index": {
           "description": "Updates tagPos with given function",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "posUpdate",
           "normalized": "(Integer-\u003eInteger)-\u003eTagParser()",
@@ -1235,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "run",
           "package": "idiii",
@@ -1244,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "run",
           "normalized": "TagParser a-\u003e[Word]-\u003e(Either String a,[Token])",
@@ -1259,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of items separated by discarded junk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "sepBy'",
           "package": "idiii",
@@ -1269,6 +1374,7 @@
         "index": {
           "description": "Parse list of items separated by discarded junk",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "sepBy'",
           "normalized": "TagParser a-\u003eTagParser b-\u003eTagParser[a]",
@@ -1285,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a non-empty list of items separated by discarded junk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "sepBy1'",
           "package": "idiii",
@@ -1295,6 +1402,7 @@
         "index": {
           "description": "Parse non-empty list of items separated by discarded junk",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "sepBy1'",
           "normalized": "TagParser a-\u003eTagParser b-\u003eTagParser[a]",
@@ -1311,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrements \u003ccode\u003e\u003ca\u003ecurSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "sizeDec",
           "package": "idiii",
@@ -1321,6 +1430,7 @@
         "index": {
           "description": "Decrements curSize",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "sizeDec",
           "normalized": "TagParser()",
@@ -1337,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003ecurSize\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eSt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "sizeGet",
           "package": "idiii",
@@ -1347,6 +1458,7 @@
         "index": {
           "description": "Returns curSize from St",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "sizeGet",
           "package": "idiii",
@@ -1361,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncremets \u003ccode\u003e\u003ca\u003ecurSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "sizeInc",
           "package": "idiii",
@@ -1371,6 +1484,7 @@
         "index": {
           "description": "Incremets curSize",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "sizeInc",
           "normalized": "TagParser()",
@@ -1387,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets \u003ccode\u003e\u003ca\u003ecurSize\u003c/a\u003e\u003c/code\u003e with given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "sizeSet",
           "package": "idiii",
@@ -1397,6 +1512,7 @@
         "index": {
           "description": "Sets curSize with given value",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "sizeSet",
           "normalized": "Integer-\u003eTagParser()",
@@ -1413,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates \u003ccode\u003e\u003ca\u003ecurSize\u003c/a\u003e\u003c/code\u003e with given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "sizeUpdate",
           "package": "idiii",
@@ -1423,6 +1540,7 @@
         "index": {
           "description": "Updates curSize with given function",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "sizeUpdate",
           "normalized": "(Integer-\u003eInteger)-\u003eTagParser()",
@@ -1439,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ebyteString\u003c/a\u003e\u003c/code\u003e but argument is simple \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "string",
           "package": "idiii",
@@ -1449,6 +1568,7 @@
         "index": {
           "description": "Same as byteString but argument is simple String",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "string",
           "normalized": "String-\u003eTagParser ByteString",
@@ -1464,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent position in tag\n              , frFlags        :: [Bool]}  -- ^ current frame flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "tagPos",
           "package": "idiii",
@@ -1474,6 +1595,7 @@
         "index": {
           "description": "current position in tag frFlags Bool current frame flags",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "tagPos",
           "package": "idiii",
@@ -1487,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "tagVersionGet",
           "package": "idiii",
@@ -1496,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "tagVersionGet",
           "package": "idiii",
@@ -1509,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "tagVersionSet",
           "package": "idiii",
@@ -1518,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "tagVersionSet",
           "normalized": "TagVersion-\u003eTagParser()",
@@ -1534,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses upper-case letters (as \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "upper",
           "package": "idiii",
@@ -1544,6 +1671,7 @@
         "index": {
           "description": "Parses upper-case letters as Token",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "upper",
           "package": "idiii",
@@ -1557,6 +1685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for atomic parsers.\n   Increases \u003ccode\u003e\u003ca\u003etagPos\u003c/a\u003e\u003c/code\u003e and decreases \u003ccode\u003e\u003ca\u003ecurSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "withSize",
           "package": "idiii",
@@ -1567,6 +1696,7 @@
         "index": {
           "description": "Wrapper for atomic parsers Increases tagPos and decreases curSize",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "withSize",
           "normalized": "TagParser a-\u003eTagParser a",
@@ -1583,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses given \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "word8",
           "package": "idiii",
@@ -1593,6 +1724,7 @@
         "index": {
           "description": "Parses given Token",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "word8",
           "normalized": "Token-\u003eTagParser Token",
@@ -1608,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses given list of \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.General",
           "name": "word8s",
           "package": "idiii",
@@ -1618,6 +1751,7 @@
         "index": {
           "description": "Parses given list of Token",
           "hierarchy": "ID3 Parser General",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.General",
           "name": "word8s",
           "normalized": "[Token]-\u003eTagParser[Token]",
@@ -1632,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Header",
           "name": "Header",
           "package": "idiii",
@@ -1640,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Header",
           "name": "Header",
           "package": "idiii",
@@ -1654,6 +1790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eID3v2 FOOTER\u003c/em\u003e (optional)\n\u003c/p\u003e\u003cp\u003eTo speed up the process of locating an ID3v2 tag when searching from\n   the end of a file, a footer can be added to the tag. It is REQUIRED\n   to add a footer to an appended tag, i.e. a tag located after all\n   audio data. The footer is a copy of the header, but with a different\n   identifier.\n\u003c/p\u003e\u003cpre\u003e\n     ID3v2 identifier           \"3DI\"\n     ID3v2 version              $04 00\n     ID3v2 flags                %abcd0000\n     ID3v2 size             4 * %0xxxxxxx\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Header",
           "name": "parseFooter",
           "package": "idiii",
@@ -1664,6 +1801,7 @@
         "index": {
           "description": "ID3v2 FOOTER optional To speed up the process of locating an ID3v2 tag when searching from the end of file footer can be added to the tag It is REQUIRED to add footer to an appended tag i.e tag located after all audio data The footer is copy of the header but with different identifier ID3v2 identifier DI ID3v2 version ID3v2 flags abcd0000 ID3v2 size xxxxxxx",
           "hierarchy": "ID3 Parser Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Header",
           "name": "parseFooter",
           "package": "idiii",
@@ -1678,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses id3v2 \u003ccode\u003eHeader\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Header",
           "name": "parseHeader",
           "package": "idiii",
@@ -1688,6 +1827,7 @@
         "index": {
           "description": "Parses id3v2 Header",
           "hierarchy": "ID3 Parser Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Header",
           "name": "parseHeader",
           "package": "idiii",
@@ -1701,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.NativeFrames",
           "name": "NativeFrames",
           "package": "idiii",
@@ -1709,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser NativeFrames",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.NativeFrames",
           "name": "NativeFrames",
           "package": "idiii",
@@ -1722,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.NativeFrames",
           "name": "frameInfo",
           "package": "idiii",
@@ -1731,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser NativeFrames",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.NativeFrames",
           "name": "frameInfo",
           "normalized": "String-\u003eParser St Token FrameInfo",
@@ -1746,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.NativeFrames",
           "name": "textInfo",
           "package": "idiii",
@@ -1755,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser NativeFrames",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.NativeFrames",
           "name": "textInfo",
           "normalized": "String-\u003eTagParser FrameInfo",
@@ -1770,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.NativeFrames",
           "name": "urlInfo",
           "package": "idiii",
@@ -1779,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser NativeFrames",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.NativeFrames",
           "name": "urlInfo",
           "normalized": "String-\u003eParser St Token FrameInfo",
@@ -1794,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Tag",
           "name": "Tag",
           "package": "idiii",
@@ -1802,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Tag",
           "name": "Tag",
           "package": "idiii",
@@ -1815,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Tag",
           "name": "parseTag",
           "package": "idiii",
@@ -1824,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Tag",
           "name": "parseTag",
           "package": "idiii",
@@ -1837,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.Tag",
           "name": "parseTag_",
           "package": "idiii",
@@ -1846,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.Tag",
           "name": "parseTag_",
           "normalized": "ID Header-\u003eTagParser ID Tag",
@@ -1862,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUNSYNCHRONISATION\n\u003c/p\u003e\u003cp\u003eThis module contents a couple of functions to convert readed bytes (as [\u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e]) of synchronized values to unsynchronised \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eUNSYNCRONISATION\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThe only purpose of unsynchronisation is to make the ID3v2 tag as\n   compatible as possible with existing software and hardware. There is\n   no use in \u003ccode\u003eunsynchronising\u003c/code\u003e tags if the file is only to be processed\n   only by ID3v2 aware software and hardware. Unsynchronisation is only\n   useful with tags in MPEG 1/2 layer I, II and III, MPEG 2.5 and AAC\n   files.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e \u003cem\u003eThe unsynchronisation scheme\u003c/em\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eWhenever a false synchronisation is found within the tag, one zeroed\n   byte is inserted after the first false synchronisation byte. The\n   format of synchronisations that should be altered by ID3 syncIntegerrs is\n   as follows:\n\u003c/p\u003e\u003cpre\u003e\n         %11111111 111xxxxx\n\u003c/pre\u003e\u003cp\u003eand should be replaced with:\n\u003c/p\u003e\u003cpre\u003e\n         %11111111 00000000 111xxxxx\n\u003c/pre\u003e\u003cp\u003eThis has the side effect that all $FF 00 combinations have to be\n   altered, so they will not be affected by the decoding process.\n   Therefore all the $FF 00 combinations have to be replaced with the\n   $FF 00 00 combination during the unsynchronisation.\n\u003c/p\u003e\u003cp\u003eTo indicate usage of the unsynchronisation, the unsynchronisation\n   flag in the frame header should be set. This bit MUST be set if the\n   frame was altered by the unsynchronisation and SHOULD NOT be set if\n   unaltered. If all frames in the tag are unsynchronised the\n   unsynchronisation flag in the tag header SHOULD be set. It MUST NOT\n   be set if the tag has a frame which is not unsynchronised.\n\u003c/p\u003e\u003cp\u003eAssume the first byte of the audio to be $FF. The special case when\n   the last byte of the last frame is $FF and no padding nor footer is\n   used will then introduce a false synchronisation. This can be solved\n   by adding a footer, adding padding or unsynchronising the frame and\n   add $00 to the end of the frame data, thus adding more byte to the\n   frame size than a normal unsynchronisation would. Although not\n   preferred, it is allowed to apply the last method on all frames\n   ending with $FF.\n\u003c/p\u003e\u003cp\u003eIt is preferred that the tag is either completely unsynchronised or\n   not unsynchronised at all. A completely unsynchronised tag has no\n   false synchonisations in it, as defined above, and does not end with\n   $FF. A completely non-unsynchronised tag contains no unsynchronised\n   frames, and thus the unsynchronisation flag in the header is cleared.\n\u003c/p\u003e\u003cp\u003eDo bear in mind, that if compression or encryption is used, the\n   unsynchronisation scheme MUST be applied afterwards. When decoding an\n   unsynchronised frame, the unsynchronisation scheme MUST be reversed\n   first, encryption and decompression afterwards.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e \u003cem\u003eSynchsafe integers\u003c/em\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eIn some parts of the tag it is inconvenient to use the\n   unsychronisation scheme because the size of unsynchronised data is\n   not known in advance, which is particularly problematic with size\n   descriptors. The solution in ID3v2 is to use synchsafe integers, in\n   which there can never be any false synchs. Synchsafe integers are\n   integers that keep its highest bit (bit 7) zeroed, making seven bits\n   out of eight available. Thus a 32 bit synchsafe integer can store 28\n   bits of information.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n     255 (%11111111) syncIntegerd as a 16 bit synchsafe integer is 383\n     (%00000001 01111111).\n\u003c/pre\u003e\u003cp\u003e(\u003ca\u003ehttp://www.id3.org/id3v2.4.0-structure\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.UnSync",
           "name": "UnSync",
           "package": "idiii",
@@ -1871,6 +2026,7 @@
         "index": {
           "description": "UNSYNCHRONISATION This module contents couple of functions to convert readed bytes as Word8 of synchronized values to unsynchronised Integer UNSYNCRONISATION The only purpose of unsynchronisation is to make the ID3v2 tag as compatible as possible with existing software and hardware There is no use in unsynchronising tags if the file is only to be processed only by ID3v2 aware software and hardware Unsynchronisation is only useful with tags in MPEG layer II and III MPEG and AAC files The unsynchronisation scheme Whenever false synchronisation is found within the tag one zeroed byte is inserted after the first false synchronisation byte The format of synchronisations that should be altered by ID3 syncIntegerrs is as follows xxxxx and should be replaced with xxxxx This has the side effect that all FF combinations have to be altered so they will not be affected by the decoding process Therefore all the FF combinations have to be replaced with the FF combination during the unsynchronisation To indicate usage of the unsynchronisation the unsynchronisation flag in the frame header should be set This bit MUST be set if the frame was altered by the unsynchronisation and SHOULD NOT be set if unaltered If all frames in the tag are unsynchronised the unsynchronisation flag in the tag header SHOULD be set It MUST NOT be set if the tag has frame which is not unsynchronised Assume the first byte of the audio to be FF The special case when the last byte of the last frame is FF and no padding nor footer is used will then introduce false synchronisation This can be solved by adding footer adding padding or unsynchronising the frame and add to the end of the frame data thus adding more byte to the frame size than normal unsynchronisation would Although not preferred it is allowed to apply the last method on all frames ending with FF It is preferred that the tag is either completely unsynchronised or not unsynchronised at all completely unsynchronised tag has no false synchonisations in it as defined above and does not end with FF completely non-unsynchronised tag contains no unsynchronised frames and thus the unsynchronisation flag in the header is cleared Do bear in mind that if compression or encryption is used the unsynchronisation scheme MUST be applied afterwards When decoding an unsynchronised frame the unsynchronisation scheme MUST be reversed first encryption and decompression afterwards Synchsafe integers In some parts of the tag it is inconvenient to use the unsychronisation scheme because the size of unsynchronised data is not known in advance which is particularly problematic with size descriptors The solution in ID3v2 is to use synchsafe integers in which there can never be any false synchs Synchsafe integers are integers that keep its highest bit bit zeroed making seven bits out of eight available Thus bit synchsafe integer can store bits of information Example syncIntegerd as bit synchsafe integer is http www.id3.org id3v2.4.0-structure",
           "hierarchy": "ID3 Parser UnSync",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.UnSync",
           "name": "UnSync",
           "package": "idiii",
@@ -1885,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverting \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e value to list of bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.UnSync",
           "name": "integerToWords",
           "package": "idiii",
@@ -1895,6 +2052,7 @@
         "index": {
           "description": "converting Integer value to list of bytes",
           "hierarchy": "ID3 Parser UnSync",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.UnSync",
           "name": "integerToWords",
           "normalized": "Int-\u003eInteger-\u003e[Word]",
@@ -1911,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esynchronisation between \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.UnSync",
           "name": "syncInteger",
           "package": "idiii",
@@ -1921,6 +2080,7 @@
         "index": {
           "description": "synchronisation between Integer",
           "hierarchy": "ID3 Parser UnSync",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.UnSync",
           "name": "syncInteger",
           "normalized": "Integer-\u003eInteger",
@@ -1937,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esychronisation (just \u003ccode\u003eintegerToWords 4 . syncInteger\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.UnSync",
           "name": "synchronise",
           "package": "idiii",
@@ -1947,6 +2108,7 @@
         "index": {
           "description": "sychronisation just integerToWords syncInteger",
           "hierarchy": "ID3 Parser UnSync",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.UnSync",
           "name": "synchronise",
           "normalized": "Integer-\u003e[Word]",
@@ -1962,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsynchronisation between \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.UnSync",
           "name": "unSyncInteger",
           "package": "idiii",
@@ -1972,6 +2135,7 @@
         "index": {
           "description": "unsynchronisation between Integer",
           "hierarchy": "ID3 Parser UnSync",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.UnSync",
           "name": "unSyncInteger",
           "normalized": "Integer-\u003eInteger",
@@ -1988,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsychronisation (just \u003ccode\u003eunSyncInteger . wordsToInteger\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.UnSync",
           "name": "unSynchronise",
           "package": "idiii",
@@ -1998,6 +2163,7 @@
         "index": {
           "description": "unsychronisation just unSyncInteger wordsToInteger",
           "hierarchy": "ID3 Parser UnSync",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.UnSync",
           "name": "unSynchronise",
           "normalized": "[Word]-\u003eInteger",
@@ -2014,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverting list of bytes to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser.UnSync",
           "name": "wordsToInteger",
           "package": "idiii",
@@ -2024,6 +2191,7 @@
         "index": {
           "description": "converting list of bytes to Integer value",
           "hierarchy": "ID3 Parser UnSync",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser.UnSync",
           "name": "wordsToInteger",
           "normalized": "[Word]-\u003eInteger",
@@ -2039,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Parser",
           "name": "Parser",
           "package": "idiii",
@@ -2047,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "ID3 Parser",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Parser",
           "name": "Parser",
           "package": "idiii",
@@ -2060,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.ReadTag",
           "name": "ReadTag",
           "package": "idiii",
@@ -2068,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "ID3 ReadTag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.ReadTag",
           "name": "ReadTag",
           "package": "idiii",
@@ -2081,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.ReadTag",
           "name": "hReadTag",
           "package": "idiii",
@@ -2090,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "ID3 ReadTag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.ReadTag",
           "name": "hReadTag",
           "normalized": "Handle-\u003eIO(Maybe ID Tag)",
@@ -2130,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "Simple",
           "package": "idiii",
@@ -2138,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "Simple",
           "package": "idiii",
@@ -2151,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "Tag",
           "package": "idiii",
@@ -2159,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "Tag",
           "package": "idiii",
@@ -2172,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "getAlbum",
           "package": "idiii",
@@ -2181,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "getAlbum",
           "normalized": "Tag-\u003eMaybe String",
@@ -2196,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "getArtist",
           "package": "idiii",
@@ -2205,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "getArtist",
           "normalized": "Tag-\u003eMaybe String",
@@ -2220,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "getTitle",
           "package": "idiii",
@@ -2229,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "getTitle",
           "normalized": "Tag-\u003eMaybe String",
@@ -2244,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "getTrack",
           "package": "idiii",
@@ -2253,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "getTrack",
           "normalized": "Tag-\u003eMaybe String",
@@ -2268,6 +2454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "getYear",
           "package": "idiii",
@@ -2277,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "getYear",
           "normalized": "Tag-\u003eMaybe String",
@@ -2292,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "setAlbum",
           "package": "idiii",
@@ -2301,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "setAlbum",
           "normalized": "String-\u003eTag-\u003eTag",
@@ -2316,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "setArtist",
           "package": "idiii",
@@ -2325,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "setArtist",
           "normalized": "String-\u003eTag-\u003eTag",
@@ -2340,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "setTitle",
           "package": "idiii",
@@ -2349,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "setTitle",
           "normalized": "String-\u003eTag-\u003eTag",
@@ -2364,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "setTrack",
           "package": "idiii",
@@ -2373,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "setTrack",
           "normalized": "String-\u003eTag-\u003eTag",
@@ -2388,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Simple",
           "name": "setYear",
           "package": "idiii",
@@ -2397,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "ID3 Simple",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Simple",
           "name": "setYear",
           "normalized": "String-\u003eTag-\u003eTag",
@@ -2437,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.ExtHeader",
           "name": "ExtHeader",
           "package": "idiii",
@@ -2445,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.ExtHeader",
           "name": "ExtHeader",
           "package": "idiii",
@@ -2459,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eEXTENDED HEADER OVERVIEW\u003c/em\u003e (optional)\n\u003c/p\u003e\u003cp\u003eThe extended header contains information that can provide further\n   insight in the structure of the tag, but is not vital to the correct\n   parsing of the tag information; hence the extended header is\n   optional.\n\u003c/p\u003e\u003cpre\u003e\n     Extended header size   4 * %0xxxxxxx\n     Number of flag bytes       $01\n     Extended Flags             $xx\n\u003c/pre\u003e\u003cp\u003eWhere the 'Extended header size' is the size of the whole extended\n   header, stored as a 32 bit synchsafe integer. An extended header can\n   thus never have a size of fewer than six bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.ExtHeader",
           "name": "ID3ExtHeader",
           "package": "idiii",
@@ -2468,6 +2669,7 @@
         "index": {
           "description": "EXTENDED HEADER OVERVIEW optional The extended header contains information that can provide further insight in the structure of the tag but is not vital to the correct parsing of the tag information hence the extended header is optional Extended header size xxxxxxx Number of flag bytes Extended Flags xx Where the Extended header size is the size of the whole extended header stored as bit synchsafe integer An extended header can thus never have size of fewer than six bytes",
           "hierarchy": "ID3 Type ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.ExtHeader",
           "name": "ID3ExtHeader",
           "package": "idiii",
@@ -2481,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.ExtHeader",
           "name": "crcData",
           "package": "idiii",
@@ -2490,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.ExtHeader",
           "name": "crcData",
           "normalized": "Accessor ID ExtHeader(Maybe[Word])",
@@ -2505,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.ExtHeader",
           "name": "extSize",
           "package": "idiii",
@@ -2514,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.ExtHeader",
           "name": "extSize",
           "package": "idiii",
@@ -2527,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.ExtHeader",
           "name": "initID3ExtHeader",
           "package": "idiii",
@@ -2536,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.ExtHeader",
           "name": "initID3ExtHeader",
           "normalized": "[ID ExtHeader-\u003eID ExtHeader]-\u003eID ExtHeader",
@@ -2551,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.ExtHeader",
           "name": "isUpdate",
           "package": "idiii",
@@ -2560,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.ExtHeader",
           "name": "isUpdate",
           "package": "idiii",
@@ -2573,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.ExtHeader",
           "name": "restrictionsPresent",
           "package": "idiii",
@@ -2582,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type ExtHeader",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.ExtHeader",
           "name": "restrictionsPresent",
           "package": "idiii",
@@ -2595,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Flags",
           "name": "Flags",
           "package": "idiii",
@@ -2603,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Flags",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Flags",
           "name": "Flags",
           "package": "idiii",
@@ -2616,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Flags",
           "name": "flagsToWord8",
           "package": "idiii",
@@ -2625,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Flags",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Flags",
           "name": "flagsToWord8",
           "normalized": "(Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool)-\u003eWord",
@@ -2640,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "Frame",
           "package": "idiii",
@@ -2648,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "Frame",
           "package": "idiii",
@@ -2661,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FormatFlags",
           "package": "idiii",
@@ -2669,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FormatFlags",
           "package": "idiii",
@@ -2682,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FrameFlags",
           "package": "idiii",
@@ -2690,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FrameFlags",
           "package": "idiii",
@@ -2704,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrame Header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FrameHeader",
           "package": "idiii",
@@ -2713,6 +2936,7 @@
         "index": {
           "description": "Frame Header",
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FrameHeader",
           "package": "idiii",
@@ -2726,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FrameID",
           "package": "idiii",
@@ -2734,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FrameID",
           "package": "idiii",
@@ -2747,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FrameName",
           "package": "idiii",
@@ -2755,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FrameName",
           "package": "idiii",
@@ -2768,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FrameSize",
           "package": "idiii",
@@ -2776,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FrameSize",
           "package": "idiii",
@@ -2789,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "ID3Frame",
           "package": "idiii",
@@ -2797,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "ID3Frame",
           "package": "idiii",
@@ -2810,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "StatusFlags",
           "package": "idiii",
@@ -2818,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "StatusFlags",
           "package": "idiii",
@@ -2831,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FormatFlags",
           "package": "idiii",
@@ -2840,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FormatFlags",
           "normalized": "FormatFlags Word(Bool,Bool,Bool,Bool,Bool)",
@@ -2855,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FrameFlags",
           "package": "idiii",
@@ -2864,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FrameFlags",
           "package": "idiii",
@@ -2877,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "FrameHeader",
           "package": "idiii",
@@ -2886,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "FrameHeader",
           "package": "idiii",
@@ -2899,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "ID3Frame",
           "package": "idiii",
@@ -2908,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "ID3Frame",
           "package": "idiii",
@@ -2921,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "StatusFlags",
           "package": "idiii",
@@ -2930,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "StatusFlags",
           "normalized": "StatusFlags Word(Bool,Bool,Bool)",
@@ -2945,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "anyFormatFlagsOn",
           "package": "idiii",
@@ -2954,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "anyFormatFlagsOn",
           "normalized": "FormatFlags-\u003eBool",
@@ -2969,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "anyStatusFlagsOn",
           "package": "idiii",
@@ -2978,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "anyStatusFlagsOn",
           "normalized": "StatusFlags-\u003eBool",
@@ -2993,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "compressedFlag",
           "package": "idiii",
@@ -3002,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "compressedFlag",
           "normalized": "FormatFlags-\u003eBool",
@@ -3017,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "dataLengthIdFlag",
           "package": "idiii",
@@ -3026,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "dataLengthIdFlag",
           "normalized": "FormatFlags-\u003eBool",
@@ -3041,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "emptyFrameFlags",
           "package": "idiii",
@@ -3050,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "emptyFrameFlags",
           "package": "idiii",
@@ -3063,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "emptyFrameHeader",
           "package": "idiii",
@@ -3072,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "emptyFrameHeader",
           "package": "idiii",
@@ -3085,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "emptyID3Frame",
           "package": "idiii",
@@ -3094,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "emptyID3Frame",
           "package": "idiii",
@@ -3107,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "encryptedFlag",
           "package": "idiii",
@@ -3116,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "encryptedFlag",
           "normalized": "FormatFlags-\u003eBool",
@@ -3131,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "fileDiscardFlag",
           "package": "idiii",
@@ -3140,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "fileDiscardFlag",
           "normalized": "StatusFlags-\u003eBool",
@@ -3155,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "formatFlags",
           "package": "idiii",
@@ -3164,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "formatFlags",
           "package": "idiii",
@@ -3178,6 +3442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrame format flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "formatFlags_",
           "package": "idiii",
@@ -3188,6 +3453,7 @@
         "index": {
           "description": "Frame format flags",
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "formatFlags_",
           "package": "idiii",
@@ -3201,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frFlags",
           "package": "idiii",
@@ -3210,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frFlags",
           "package": "idiii",
@@ -3224,6 +3492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eframe Flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frFlags_",
           "package": "idiii",
@@ -3234,6 +3503,7 @@
         "index": {
           "description": "frame Flags",
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frFlags_",
           "package": "idiii",
@@ -3247,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frHeader",
           "package": "idiii",
@@ -3256,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frHeader",
           "package": "idiii",
@@ -3270,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eframe Header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frHeader_",
           "package": "idiii",
@@ -3280,6 +3553,7 @@
         "index": {
           "description": "frame Header",
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frHeader_",
           "package": "idiii",
@@ -3293,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frID",
           "package": "idiii",
@@ -3302,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frID",
           "package": "idiii",
@@ -3316,6 +3592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eframe ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frID_",
           "package": "idiii",
@@ -3326,6 +3603,7 @@
         "index": {
           "description": "frame ID",
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frID_",
           "package": "idiii",
@@ -3339,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frInfo",
           "package": "idiii",
@@ -3348,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frInfo",
           "package": "idiii",
@@ -3362,6 +3642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eframe Information Value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frInfo_",
           "package": "idiii",
@@ -3372,6 +3653,7 @@
         "index": {
           "description": "frame Information Value",
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frInfo_",
           "package": "idiii",
@@ -3385,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frSize",
           "package": "idiii",
@@ -3394,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frSize",
           "package": "idiii",
@@ -3408,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eframe Size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frSize_",
           "package": "idiii",
@@ -3418,6 +3703,7 @@
         "index": {
           "description": "frame Size",
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frSize_",
           "package": "idiii",
@@ -3431,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "frameDiscardFlag",
           "package": "idiii",
@@ -3440,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "frameDiscardFlag",
           "normalized": "StatusFlags-\u003eBool",
@@ -3455,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "groupPartFlag",
           "package": "idiii",
@@ -3464,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "groupPartFlag",
           "normalized": "FormatFlags-\u003eBool",
@@ -3479,6 +3769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "initFrame",
           "package": "idiii",
@@ -3488,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "initFrame",
           "normalized": "FrameID-\u003eID Frame",
@@ -3503,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "initFrameFlags",
           "package": "idiii",
@@ -3512,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "initFrameFlags",
           "normalized": "[FrameFlags-\u003eFrameFlags]-\u003eFrameFlags",
@@ -3527,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "initFrameHeader",
           "package": "idiii",
@@ -3536,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "initFrameHeader",
           "normalized": "[FrameHeader-\u003eFrameHeader]-\u003eFrameHeader",
@@ -3551,6 +3847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "initID3Frame",
           "package": "idiii",
@@ -3560,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "initID3Frame",
           "normalized": "[ID Frame-\u003eID Frame]-\u003eID Frame",
@@ -3575,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "readOnlyFlag",
           "package": "idiii",
@@ -3584,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "readOnlyFlag",
           "normalized": "StatusFlags-\u003eBool",
@@ -3599,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "showBinary",
           "package": "idiii",
@@ -3608,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "showBinary",
           "normalized": "[Word]-\u003eString",
@@ -3623,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "showFormatFlags",
           "package": "idiii",
@@ -3632,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "showFormatFlags",
           "normalized": "FormatFlags-\u003eString",
@@ -3647,6 +3951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "showStatusFlags",
           "package": "idiii",
@@ -3656,6 +3961,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "showStatusFlags",
           "normalized": "StatusFlags-\u003eString",
@@ -3671,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "statusFlags",
           "package": "idiii",
@@ -3680,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "statusFlags",
           "package": "idiii",
@@ -3694,6 +4002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrame status flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "statusFlags_",
           "package": "idiii",
@@ -3704,6 +4013,7 @@
         "index": {
           "description": "Frame status flags",
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "statusFlags_",
           "package": "idiii",
@@ -3717,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "textContent",
           "package": "idiii",
@@ -3726,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "textContent",
           "package": "idiii",
@@ -3739,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Frame",
           "name": "unsychronisedFlag",
           "package": "idiii",
@@ -3748,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Frame",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Frame",
           "name": "unsychronisedFlag",
           "normalized": "FormatFlags-\u003eBool",
@@ -3763,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "FrameInfo",
           "package": "idiii",
@@ -3771,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "FrameInfo",
           "package": "idiii",
@@ -3784,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "FrameInfo",
           "package": "idiii",
@@ -3792,6 +4109,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "FrameInfo",
           "package": "idiii",
@@ -3805,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "AENC",
           "package": "idiii",
@@ -3814,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "AENC",
           "package": "idiii",
@@ -3827,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "APIC",
           "package": "idiii",
@@ -3836,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "APIC",
           "package": "idiii",
@@ -3849,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "ASPI",
           "package": "idiii",
@@ -3858,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "ASPI",
           "package": "idiii",
@@ -3871,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "COMM",
           "package": "idiii",
@@ -3880,6 +4205,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "COMM",
           "package": "idiii",
@@ -3893,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "COMR",
           "package": "idiii",
@@ -3902,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "COMR",
           "package": "idiii",
@@ -3915,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "ENCR",
           "package": "idiii",
@@ -3924,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "ENCR",
           "package": "idiii",
@@ -3937,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "EQU2",
           "package": "idiii",
@@ -3946,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "EQU2",
           "package": "idiii",
@@ -3959,6 +4291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "ETCO",
           "package": "idiii",
@@ -3968,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "ETCO",
           "package": "idiii",
@@ -3981,6 +4315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "GEOB",
           "package": "idiii",
@@ -3990,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "GEOB",
           "package": "idiii",
@@ -4003,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "GRID",
           "package": "idiii",
@@ -4012,6 +4349,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "GRID",
           "package": "idiii",
@@ -4025,6 +4363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "LINK",
           "package": "idiii",
@@ -4034,6 +4373,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "LINK",
           "package": "idiii",
@@ -4047,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "MCDI",
           "package": "idiii",
@@ -4056,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "MCDI",
           "package": "idiii",
@@ -4069,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "MLLT",
           "package": "idiii",
@@ -4078,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "MLLT",
           "package": "idiii",
@@ -4091,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "OWNE",
           "package": "idiii",
@@ -4100,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "OWNE",
           "package": "idiii",
@@ -4113,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "PCNT",
           "package": "idiii",
@@ -4122,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "PCNT",
           "package": "idiii",
@@ -4135,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "POPM",
           "package": "idiii",
@@ -4144,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "POPM",
           "package": "idiii",
@@ -4157,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "POSS",
           "package": "idiii",
@@ -4166,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "POSS",
           "package": "idiii",
@@ -4179,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "PRIV",
           "package": "idiii",
@@ -4188,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "PRIV",
           "package": "idiii",
@@ -4201,6 +4555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "RBUF",
           "package": "idiii",
@@ -4210,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "RBUF",
           "package": "idiii",
@@ -4223,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "RVA2",
           "package": "idiii",
@@ -4232,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "RVA2",
           "package": "idiii",
@@ -4245,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "RVRB",
           "package": "idiii",
@@ -4254,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "RVRB",
           "package": "idiii",
@@ -4267,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "SIGN",
           "package": "idiii",
@@ -4276,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "SIGN",
           "package": "idiii",
@@ -4289,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "SYLT",
           "package": "idiii",
@@ -4298,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "SYLT",
           "package": "idiii",
@@ -4311,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "SYTC",
           "package": "idiii",
@@ -4320,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "SYTC",
           "package": "idiii",
@@ -4333,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "TCMP",
           "package": "idiii",
@@ -4342,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "TCMP",
           "package": "idiii",
@@ -4355,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "TXXX",
           "package": "idiii",
@@ -4364,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "TXXX",
           "package": "idiii",
@@ -4377,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "Text",
           "package": "idiii",
@@ -4386,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "Text",
           "package": "idiii",
@@ -4399,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "UFID",
           "package": "idiii",
@@ -4408,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "UFID",
           "package": "idiii",
@@ -4421,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "URL",
           "package": "idiii",
@@ -4430,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "URL",
           "package": "idiii",
@@ -4443,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "USER",
           "package": "idiii",
@@ -4452,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "USER",
           "package": "idiii",
@@ -4465,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "USLT",
           "package": "idiii",
@@ -4474,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "USLT",
           "package": "idiii",
@@ -4487,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "Unknown",
           "package": "idiii",
@@ -4496,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "Unknown",
           "package": "idiii",
@@ -4509,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "WXXX",
           "package": "idiii",
@@ -4518,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "WXXX",
           "package": "idiii",
@@ -4531,6 +4915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "content",
           "package": "idiii",
@@ -4540,6 +4925,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "content",
           "package": "idiii",
@@ -4552,6 +4938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "counter",
           "package": "idiii",
@@ -4561,6 +4948,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "counter",
           "package": "idiii",
@@ -4573,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "descr",
           "package": "idiii",
@@ -4582,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "descr",
           "package": "idiii",
@@ -4594,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "email",
           "package": "idiii",
@@ -4603,6 +4994,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "email",
           "package": "idiii",
@@ -4615,6 +5007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "enc",
           "package": "idiii",
@@ -4624,6 +5017,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "enc",
           "package": "idiii",
@@ -4636,6 +5030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "encodeAll",
           "package": "idiii",
@@ -4645,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "encodeAll",
           "normalized": "[String]-\u003e[Word]",
@@ -4660,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "frameData",
           "package": "idiii",
@@ -4669,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "frameData",
           "normalized": "[Word]",
@@ -4684,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "id",
           "package": "idiii",
@@ -4693,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "id",
           "normalized": "[Word]",
@@ -4707,6 +5107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "infoTextContent",
           "package": "idiii",
@@ -4716,6 +5117,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "infoTextContent",
           "package": "idiii",
@@ -4729,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "isPart",
           "package": "idiii",
@@ -4738,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "isPart",
           "package": "idiii",
@@ -4751,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "lang",
           "package": "idiii",
@@ -4760,6 +5165,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "lang",
           "package": "idiii",
@@ -4772,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "mime",
           "package": "idiii",
@@ -4781,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "mime",
           "package": "idiii",
@@ -4793,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "owner",
           "package": "idiii",
@@ -4802,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "owner",
           "package": "idiii",
@@ -4814,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "ownerId",
           "package": "idiii",
@@ -4823,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "ownerId",
           "package": "idiii",
@@ -4836,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "picData",
           "package": "idiii",
@@ -4845,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "picData",
           "normalized": "[Word]",
@@ -4860,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "picType",
           "package": "idiii",
@@ -4869,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "picType",
           "package": "idiii",
@@ -4882,6 +5298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "privateData",
           "package": "idiii",
@@ -4891,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "privateData",
           "normalized": "[Word]",
@@ -4906,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "rating",
           "package": "idiii",
@@ -4915,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "rating",
           "package": "idiii",
@@ -4927,6 +5347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "text",
           "package": "idiii",
@@ -4936,6 +5357,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "text",
           "package": "idiii",
@@ -4948,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "timeFormat",
           "package": "idiii",
@@ -4957,6 +5380,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "timeFormat",
           "package": "idiii",
@@ -4970,6 +5394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "tocData",
           "package": "idiii",
@@ -4979,6 +5404,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "tocData",
           "normalized": "[Word]",
@@ -4994,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.FrameInfo",
           "name": "url",
           "package": "idiii",
@@ -5003,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type FrameInfo",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.FrameInfo",
           "name": "url",
           "package": "idiii",
@@ -5015,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "Header",
           "package": "idiii",
@@ -5023,6 +5452,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "Header",
           "package": "idiii",
@@ -5037,6 +5467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eID3v2 HEADER OVERVIEW\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThe first part of the ID3v2 tag is the 10 byte tag header, laid out\n   as follows:\n\u003c/p\u003e\u003cpre\u003e\n     ID3v2/file identifier      \"ID3\"\n     ID3v2 version              $04 00\n     ID3v2 flags                %abcd0000\n     ID3v2 size             4 * %0xxxxxxx\n\u003c/pre\u003e\u003cp\u003eThe first three bytes of the tag are always \"ID3\", to indicate that\n   this is an ID3v2 tag, directly followed by the two version bytes. The\n   first byte of ID3v2 version is its major version, while the second\n   byte is its revision number. In this case this is ID3v2.4.0. All\n   revisions are backwards compatible while major versions are not. If\n   software with ID3v2.4.0 and below support should encounter version\n   five or higher it should simply ignore the whole tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "ID3Header",
           "package": "idiii",
@@ -5046,6 +5477,7 @@
         "index": {
           "description": "ID3v2 HEADER OVERVIEW The first part of the ID3v2 tag is the byte tag header laid out as follows ID3v2 file identifier ID3 ID3v2 version ID3v2 flags abcd0000 ID3v2 size xxxxxxx The first three bytes of the tag are always ID3 to indicate that this is an ID3v2 tag directly followed by the two version bytes The first byte of ID3v2 version is its major version while the second byte is its revision number In this case this is ID3v2.4.0 All revisions are backwards compatible while major versions are not If software with ID3v2.4.0 and below support should encounter version five or higher it should simply ignore the whole tag",
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "ID3Header",
           "package": "idiii",
@@ -5060,6 +5492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eMEANING OF FLAGS\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\n    ID3v2 flags                %abcd0000\n\u003c/pre\u003e\u003cp\u003eThe version is followed by the ID3v2 flags field, of which currently\n    four flags are used:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ea\u003c/code\u003e - \u003cem\u003eUnsynchronisation\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eBit 7 in the 'ID3v2 flags' indicates whether or not\n     unsynchronisation is applied on all frames (see section 6.1 for\n     details); a set bit indicates usage.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eb\u003c/code\u003e - \u003cem\u003eExtended header\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThe second bit (bit 6) indicates whether or not the header is\n     followed by an extended header. The extended header is described in\n     section 3.2. A set bit indicates the presence of an extended\n     header.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ec\u003c/code\u003e - \u003cem\u003eExperimental indicator\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThe third bit (bit 5) is used as an 'experimental indicator'. This\n     flag SHALL always be set when the tag is in an experimental stage.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ed\u003c/code\u003e - \u003cem\u003eFooter present\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eBit 4 indicates that a footer (section 3.4) is present at the very\n     end of the tag. A set bit indicates the presence of a footer.\n\u003c/p\u003e\u003cp\u003eAll the other flags MUST be cleared. If one of these undefined flags\n   are set, the tag might not be readable for a parser that does not\n   know the flags function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "TagFlags",
           "package": "idiii",
@@ -5069,6 +5502,7 @@
         "index": {
           "description": "MEANING OF FLAGS ID3v2 flags abcd0000 The version is followed by the ID3v2 flags field of which currently four flags are used Unsynchronisation Bit in the ID3v2 flags indicates whether or not unsynchronisation is applied on all frames see section for details set bit indicates usage Extended header The second bit bit indicates whether or not the header is followed by an extended header The extended header is described in section set bit indicates the presence of an extended header Experimental indicator The third bit bit is used as an experimental indicator This flag SHALL always be set when the tag is in an experimental stage Footer present Bit indicates that footer section is present at the very end of the tag set bit indicates the presence of footer All the other flags MUST be cleared If one of these undefined flags are set the tag might not be readable for parser that does not know the flags function",
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "TagFlags",
           "package": "idiii",
@@ -5083,6 +5517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eSIZE BYTES\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThe ID3v2 tag size is stored as a 32 bit synchsafe integer (section\n   6.2), making a total of 28 effective bits (representing up to 256MB).\n\u003c/p\u003e\u003cp\u003eThe ID3v2 tag size is the sum of the byte length of the extended\n   header, the padding and the frames after unsynchronisation. If a\n   footer is present this equals to ('total size' - 20) bytes, otherwise\n   ('total size' - 10) bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "TagSize",
           "package": "idiii",
@@ -5092,6 +5527,7 @@
         "index": {
           "description": "SIZE BYTES The ID3v2 tag size is stored as bit synchsafe integer section making total of effective bits representing up to MB The ID3v2 tag size is the sum of the byte length of the extended header the padding and the frames after unsynchronisation If footer is present this equals to total size bytes otherwise total size bytes",
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "TagSize",
           "package": "idiii",
@@ -5106,6 +5542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eid3v2 version\n    \u003ccode\u003emajor version . revision number\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "TagVersion",
           "package": "idiii",
@@ -5115,6 +5552,7 @@
         "index": {
           "description": "id3v2 version major version revision number",
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "TagVersion",
           "package": "idiii",
@@ -5128,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "ID3Header",
           "package": "idiii",
@@ -5137,6 +5576,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "ID3Header",
           "package": "idiii",
@@ -5150,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "TagFlags",
           "package": "idiii",
@@ -5159,6 +5600,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "TagFlags",
           "normalized": "TagFlags(Bool,Bool,Bool,Bool)",
@@ -5174,6 +5616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "anyFlagsOn",
           "package": "idiii",
@@ -5183,6 +5626,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "anyFlagsOn",
           "normalized": "TagFlags-\u003eBool",
@@ -5198,6 +5642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "emptyID3Header",
           "package": "idiii",
@@ -5207,6 +5652,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "emptyID3Header",
           "package": "idiii",
@@ -5220,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "experimentalFlag",
           "package": "idiii",
@@ -5229,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "experimentalFlag",
           "normalized": "TagFlags-\u003eBool",
@@ -5244,6 +5692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "extendedHeaderFlag",
           "package": "idiii",
@@ -5253,6 +5702,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "extendedHeaderFlag",
           "normalized": "TagFlags-\u003eBool",
@@ -5268,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "footerFlag",
           "package": "idiii",
@@ -5277,6 +5728,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "footerFlag",
           "normalized": "TagFlags-\u003eBool",
@@ -5292,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "initID3Header",
           "package": "idiii",
@@ -5301,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "initID3Header",
           "normalized": "[ID Header-\u003eID Header]-\u003eID Header",
@@ -5316,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "showTagFlags",
           "package": "idiii",
@@ -5325,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "showTagFlags",
           "normalized": "TagFlags-\u003eString",
@@ -5340,6 +5796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "tagFlags",
           "package": "idiii",
@@ -5349,6 +5806,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "tagFlags",
           "package": "idiii",
@@ -5363,6 +5821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eheader flags as Bool values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "tagFlags_",
           "package": "idiii",
@@ -5373,6 +5832,7 @@
         "index": {
           "description": "header flags as Bool values",
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "tagFlags_",
           "package": "idiii",
@@ -5386,6 +5846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "tagSize",
           "package": "idiii",
@@ -5395,6 +5856,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "tagSize",
           "package": "idiii",
@@ -5409,6 +5871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efull size of tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "tagSize_",
           "package": "idiii",
@@ -5419,6 +5882,7 @@
         "index": {
           "description": "full size of tag",
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "tagSize_",
           "package": "idiii",
@@ -5432,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "tagVersion",
           "package": "idiii",
@@ -5441,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "tagVersion",
           "package": "idiii",
@@ -5455,6 +5921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eid3v2 version: \u003ccode\u003e[major version, revision number]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "tagVersion_",
           "package": "idiii",
@@ -5465,6 +5932,7 @@
         "index": {
           "description": "id3v2 version major version revision number",
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "tagVersion_",
           "package": "idiii",
@@ -5478,6 +5946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Header",
           "name": "unsynchFlag",
           "package": "idiii",
@@ -5487,6 +5956,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Header",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Header",
           "name": "unsynchFlag",
           "normalized": "TagFlags-\u003eBool",
@@ -5502,6 +5972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "Tag",
           "package": "idiii",
@@ -5510,6 +5981,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "Tag",
           "package": "idiii",
@@ -5523,6 +5995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "ID3Tag",
           "package": "idiii",
@@ -5531,6 +6004,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "ID3Tag",
           "package": "idiii",
@@ -5544,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "ID3Tag",
           "package": "idiii",
@@ -5553,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "ID3Tag",
           "package": "idiii",
@@ -5566,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "emptyID3Tag",
           "package": "idiii",
@@ -5575,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "emptyID3Tag",
           "package": "idiii",
@@ -5588,6 +6066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "extHSize",
           "package": "idiii",
@@ -5597,6 +6076,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "extHSize",
           "normalized": "ID Tag-\u003eInteger",
@@ -5612,6 +6092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "extHeader",
           "package": "idiii",
@@ -5621,6 +6102,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "extHeader",
           "package": "idiii",
@@ -5634,6 +6116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "flags",
           "package": "idiii",
@@ -5643,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "flags",
           "package": "idiii",
@@ -5655,6 +6139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "footerSize",
           "package": "idiii",
@@ -5664,6 +6149,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "footerSize",
           "normalized": "ID Tag-\u003eInteger",
@@ -5679,6 +6165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "frame",
           "package": "idiii",
@@ -5688,6 +6175,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "frame",
           "normalized": "FrameID-\u003eAccessor ID Tag(Maybe ID Frame)",
@@ -5702,6 +6190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "frames",
           "package": "idiii",
@@ -5711,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "frames",
           "package": "idiii",
@@ -5723,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "framesOrder",
           "package": "idiii",
@@ -5732,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "framesOrder",
           "normalized": "Accessor ID Tag[FrameID]",
@@ -5747,6 +6239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "framesSize",
           "package": "idiii",
@@ -5756,6 +6249,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "framesSize",
           "normalized": "Map FrameID ID Frame-\u003eFrameSize",
@@ -5771,6 +6265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "getActualSize",
           "package": "idiii",
@@ -5780,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "getActualSize",
           "normalized": "ID Tag-\u003eFrameSize",
@@ -5795,6 +6291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "getFrame",
           "package": "idiii",
@@ -5804,6 +6301,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "getFrame",
           "normalized": "ID Tag-\u003eFrameID-\u003eMaybe ID Frame",
@@ -5819,6 +6317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "getFullSize",
           "package": "idiii",
@@ -5828,6 +6327,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "getFullSize",
           "normalized": "ID Tag-\u003eFrameSize",
@@ -5843,6 +6343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "header",
           "package": "idiii",
@@ -5852,6 +6353,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "header",
           "package": "idiii",
@@ -5864,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "initID3Tag",
           "package": "idiii",
@@ -5873,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "initID3Tag",
           "normalized": "[ID Tag-\u003eID Tag]-\u003eID Tag",
@@ -5888,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "padding",
           "package": "idiii",
@@ -5897,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "padding",
           "package": "idiii",
@@ -5909,6 +6415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "setFrame",
           "package": "idiii",
@@ -5918,6 +6425,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "setFrame",
           "normalized": "ID Tag-\u003eFrameID-\u003eMaybe ID Frame-\u003eID Tag",
@@ -5933,6 +6441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "setSize",
           "package": "idiii",
@@ -5942,6 +6451,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "setSize",
           "normalized": "TagSize-\u003eID Tag-\u003eID Tag",
@@ -5957,6 +6467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "sortFrames",
           "package": "idiii",
@@ -5966,6 +6477,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "sortFrames",
           "normalized": "Map FrameID ID Frame-\u003e[FrameID]-\u003e[ID Frame]",
@@ -5981,6 +6493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "tagExtHeader",
           "package": "idiii",
@@ -5990,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "tagExtHeader",
           "package": "idiii",
@@ -6003,6 +6517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "tagFrames",
           "package": "idiii",
@@ -6012,6 +6527,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "tagFrames",
           "package": "idiii",
@@ -6025,6 +6541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "tagFramesOrder",
           "package": "idiii",
@@ -6034,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "tagFramesOrder",
           "normalized": "[FrameID]",
@@ -6049,6 +6567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "tagHeader",
           "package": "idiii",
@@ -6058,6 +6577,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "tagHeader",
           "package": "idiii",
@@ -6071,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "tagPadding",
           "package": "idiii",
@@ -6080,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "tagPadding",
           "package": "idiii",
@@ -6093,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Tag",
           "name": "version",
           "package": "idiii",
@@ -6102,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Tag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Tag",
           "name": "version",
           "package": "idiii",
@@ -6114,6 +6638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "Unparse",
           "package": "idiii",
@@ -6122,6 +6647,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "Unparse",
           "package": "idiii",
@@ -6135,6 +6661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "HasSize",
           "package": "idiii",
@@ -6143,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "HasSize",
           "package": "idiii",
@@ -6156,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "Inf",
           "package": "idiii",
@@ -6164,6 +6693,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "Inf",
           "package": "idiii",
@@ -6177,6 +6707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "Parsed",
           "package": "idiii",
@@ -6185,6 +6716,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "Parsed",
           "package": "idiii",
@@ -6198,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "Str",
           "package": "idiii",
@@ -6206,6 +6739,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "Str",
           "package": "idiii",
@@ -6219,6 +6753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "Inf",
           "package": "idiii",
@@ -6228,6 +6763,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "Inf",
           "normalized": "Inf[(String,String)]",
@@ -6243,6 +6779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "Str",
           "package": "idiii",
@@ -6252,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "Str",
           "package": "idiii",
@@ -6265,6 +6803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "size",
           "package": "idiii",
@@ -6274,6 +6813,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "size",
           "package": "idiii",
@@ -6286,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "unparse",
           "package": "idiii",
@@ -6295,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "unparse",
           "normalized": "a-\u003e[Word]",
@@ -6309,6 +6851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type.Unparse",
           "name": "updateSize",
           "package": "idiii",
@@ -6318,6 +6861,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type Unparse",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type.Unparse",
           "name": "updateSize",
           "normalized": "a-\u003ea",
@@ -6333,6 +6877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.Type",
           "name": "Type",
           "package": "idiii",
@@ -6341,6 +6886,7 @@
         },
         "index": {
           "hierarchy": "ID3 Type",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.Type",
           "name": "Type",
           "package": "idiii",
@@ -6354,6 +6900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.WriteTag",
           "name": "WriteTag",
           "package": "idiii",
@@ -6362,6 +6909,7 @@
         },
         "index": {
           "hierarchy": "ID3 WriteTag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.WriteTag",
           "name": "WriteTag",
           "package": "idiii",
@@ -6375,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3.WriteTag",
           "name": "hWriteTag",
           "package": "idiii",
@@ -6384,6 +6933,7 @@
         },
         "index": {
           "hierarchy": "ID3 WriteTag",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3.WriteTag",
           "name": "hWriteTag",
           "normalized": "ID Tag-\u003eHandle-\u003eIO()",
@@ -6399,6 +6949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:51 UTC 2014",
           "module": "ID3",
           "name": "ID3",
           "package": "idiii",
@@ -6407,6 +6958,7 @@
         },
         "index": {
           "hierarchy": "ID3",
+          "indexed": "2014-03-11T18:55:51",
           "module": "ID3",
           "name": "ID3",
           "package": "idiii",

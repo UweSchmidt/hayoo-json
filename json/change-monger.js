@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "change-monger"
+        "phrase": "change-monger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.CVS",
           "name": "CVS",
           "package": "change-monger",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ChangeMonger CVS",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.CVS",
           "name": "CVS",
           "package": "change-monger",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk CVS for changes in general; we accept an options argument which\n will be passed onto CVS, so you can customize by using any of the many\n options to \u003ccode\u003echanges\u003c/code\u003e which CVS understands.\n WARNING: This seems to be broken.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.CVS",
           "name": "cvsChanges",
           "package": "change-monger",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Ask CVS for changes in general we accept an options argument which will be passed onto CVS so you can customize by using any of the many options to changes which CVS understands WARNING This seems to be broken",
           "hierarchy": "Text ChangeMonger CVS",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.CVS",
           "name": "cvsChanges",
           "normalized": "String-\u003eIO String",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing fancy: just get the entire repository history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.CVS",
           "name": "cvsChangesAll",
           "package": "change-monger",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Nothing fancy just get the entire repository history",
           "hierarchy": "Text ChangeMonger CVS",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.CVS",
           "name": "cvsChangesAll",
           "package": "change-monger",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Darcs",
           "name": "Darcs",
           "package": "change-monger",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Text ChangeMonger Darcs",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Darcs",
           "name": "Darcs",
           "package": "change-monger",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk Darcs for changes in general; we accept an options argument which\n will be passed onto Darcs, so you can customize by using any of the many\n options to \u003ccode\u003echanges\u003c/code\u003e which Darcs understands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Darcs",
           "name": "darcsChanges",
           "package": "change-monger",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Ask Darcs for changes in general we accept an options argument which will be passed onto Darcs so you can customize by using any of the many options to changes which Darcs understands",
           "hierarchy": "Text ChangeMonger Darcs",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Darcs",
           "name": "darcsChanges",
           "normalized": "String-\u003eIO String",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing fancy: just get the entire repository history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Darcs",
           "name": "darcsChangesAll",
           "package": "change-monger",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Nothing fancy just get the entire repository history",
           "hierarchy": "Text ChangeMonger Darcs",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Darcs",
           "name": "darcsChangesAll",
           "package": "change-monger",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk Darcs for all changes, since the last tag. Conscientious folks\n tag at every release, so this is a good heuristic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Darcs",
           "name": "darcsChangesSince",
           "package": "change-monger",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Ask Darcs for all changes since the last tag Conscientious folks tag at every release so this is good heuristic",
           "hierarchy": "Text ChangeMonger Darcs",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Darcs",
           "name": "darcsChangesSince",
           "package": "change-monger",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Git",
           "name": "Git",
           "package": "change-monger",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Text ChangeMonger Git",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Git",
           "name": "Git",
           "package": "change-monger",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk Git for changes in general; we accept an options argument which\n will be passed onto Git, so you can customize by using any of the many\n options to \u003ccode\u003e\u003ca\u003elog\u003c/a\u003e\u003c/code\u003e which Git understands.\n Tricky bits: we can't pass Git \"\", because it won't treat it as non-existent,\n so the implementation needs to reflect this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Git",
           "name": "gitChanges",
           "package": "change-monger",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Ask Git for changes in general we accept an options argument which will be passed onto Git so you can customize by using any of the many options to log which Git understands Tricky bits we can pass Git because it won treat it as non-existent so the implementation needs to reflect this",
           "hierarchy": "Text ChangeMonger Git",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Git",
           "name": "gitChanges",
           "normalized": "String-\u003eIO String",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing fancy: just get the entire repository history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Git",
           "name": "gitChangesAll",
           "package": "change-monger",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Nothing fancy just get the entire repository history",
           "hierarchy": "Text ChangeMonger Git",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Git",
           "name": "gitChangesAll",
           "package": "change-monger",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk Git for all changes, since the last tag. Conscientious folks\n tag at every release, so this is a good heuristic.\n Tricky bits: \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e returns the name of the last tag with '\\n' included,\n so we use \u003ccode\u003e\u003ca\u003einit\u003c/a\u003e\u003c/code\u003e to drop the last character and remove '\\n'.\n Then, we ask \u003ca\u003egit log\u003c/a\u003e  'tag-name..', which is its syntax for \u003ca\u003eall commits\u003c/a\u003e\n since a particular tag. In this case, our tag-name is the last tag, so we're good.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Git",
           "name": "gitChangesSince",
           "package": "change-monger",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Ask Git for all changes since the last tag Conscientious folks tag at every release so this is good heuristic Tricky bits run returns the name of the last tag with included so we use init to drop the last character and remove Then we ask git log tag-name which is its syntax for all commits since particular tag In this case our tag-name is the last tag so we re good",
           "hierarchy": "Text ChangeMonger Git",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Git",
           "name": "gitChangesSince",
           "package": "change-monger",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Mercurial",
           "name": "Mercurial",
           "package": "change-monger",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Text ChangeMonger Mercurial",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Mercurial",
           "name": "Mercurial",
           "package": "change-monger",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk Mercurial for changes in general; we accept an options argument which\n will be passed onto Mercurial, so you can customize by using any of the many\n options to \u003ccode\u003e\u003ca\u003elog\u003c/a\u003e\u003c/code\u003e which Mercurial understands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Mercurial",
           "name": "hgChanges",
           "package": "change-monger",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Ask Mercurial for changes in general we accept an options argument which will be passed onto Mercurial so you can customize by using any of the many options to log which Mercurial understands",
           "hierarchy": "Text ChangeMonger Mercurial",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Mercurial",
           "name": "hgChanges",
           "normalized": "String-\u003eIO String",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing fancy: just get the entire repository history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Mercurial",
           "name": "hgChangesAll",
           "package": "change-monger",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Nothing fancy just get the entire repository history",
           "hierarchy": "Text ChangeMonger Mercurial",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Mercurial",
           "name": "hgChangesAll",
           "package": "change-monger",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk Mercurial for all changes, since the last tag. Conscientious folks\n tag at every release, so this is a good heuristic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Mercurial",
           "name": "hgChangesSince",
           "package": "change-monger",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Ask Mercurial for all changes since the last tag Conscientious folks tag at every release so this is good heuristic",
           "hierarchy": "Text ChangeMonger Mercurial",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Mercurial",
           "name": "hgChangesSince",
           "package": "change-monger",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Parse",
           "name": "Parse",
           "package": "change-monger",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Text ChangeMonger Parse",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Parse",
           "name": "Parse",
           "package": "change-monger",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall out to the shell, and collect the result as a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Parse",
           "name": "run",
           "package": "change-monger",
@@ -405,6 +438,7 @@
         "index": {
           "description": "Call out to the shell and collect the result as String",
           "hierarchy": "Text ChangeMonger Parse",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Parse",
           "name": "run",
           "normalized": "String-\u003e[String]-\u003eIO String",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Subversion",
           "name": "Subversion",
           "package": "change-monger",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Text ChangeMonger Subversion",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Subversion",
           "name": "Subversion",
           "package": "change-monger",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk Subversion for changes in general; we accept an options argument which\n will be passed onto Subversion, so you can customize by using any of the many\n options to \u003ccode\u003e\u003ca\u003elog\u003c/a\u003e\u003c/code\u003e which Subversion understands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Subversion",
           "name": "svnChanges",
           "package": "change-monger",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Ask Subversion for changes in general we accept an options argument which will be passed onto Subversion so you can customize by using any of the many options to log which Subversion understands",
           "hierarchy": "Text ChangeMonger Subversion",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Subversion",
           "name": "svnChanges",
           "normalized": "String-\u003eIO String",
@@ -467,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing fancy: just get the entire repository history.\n Unfortunately, Subversion doesn't have a very useful notion of\n tags, so we merely get the full history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:38 UTC 2014",
           "module": "Text.ChangeMonger.Subversion",
           "name": "svnChangesAll",
           "package": "change-monger",
@@ -477,6 +516,7 @@
         "index": {
           "description": "Nothing fancy just get the entire repository history Unfortunately Subversion doesn have very useful notion of tags so we merely get the full history",
           "hierarchy": "Text ChangeMonger Subversion",
+          "indexed": "2014-03-11T17:31:38",
           "module": "Text.ChangeMonger.Subversion",
           "name": "svnChangesAll",
           "package": "change-monger",

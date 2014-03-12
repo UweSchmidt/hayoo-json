@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "anansi-pandoc"
+        "phrase": "anansi-pandoc",
+        "type": "phrase"
       },
       "type": "context"
     }

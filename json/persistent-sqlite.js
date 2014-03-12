@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-sqlite"
+        "phrase": "persistent-sqlite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA sqlite backend for persistent.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "Sqlite",
           "package": "persistent-sqlite",
@@ -28,6 +29,7 @@
         "index": {
           "description": "sqlite backend for persistent",
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "Sqlite",
           "package": "persistent-sqlite",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation required to connect to a sqlite database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "SqliteConf",
           "package": "persistent-sqlite",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Information required to connect to sqlite database",
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "SqliteConf",
           "package": "persistent-sqlite",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "SqliteConf",
           "package": "persistent-sqlite",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "SqliteConf",
           "package": "persistent-sqlite",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "createSqlitePool",
           "package": "persistent-sqlite",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "createSqlitePool",
           "normalized": "Text-\u003eInt-\u003ea ConnectionPool",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience helper which creates a new database connection and runs the\n given block, handling \u003ccode\u003eMonadResource\u003c/code\u003e and \u003ccode\u003eMonadLogger\u003c/code\u003e requirements. Note\n that all log messages are discarded.\n\u003c/p\u003e\u003cp\u003eSince 1.1.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "runSqlite",
           "package": "persistent-sqlite",
@@ -120,6 +129,7 @@
         "index": {
           "description": "convenience helper which creates new database connection and runs the given block handling MonadResource and MonadLogger requirements Note that all log messages are discarded Since",
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "runSqlite",
           "normalized": "Text-\u003eSqlPersistT(NoLoggingT(ResourceT a))b-\u003ea b",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "sqlDatabase",
           "package": "persistent-sqlite",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "sqlDatabase",
           "package": "persistent-sqlite",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "sqlPoolSize",
           "package": "persistent-sqlite",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "sqlPoolSize",
           "package": "persistent-sqlite",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "withSqliteConn",
           "package": "persistent-sqlite",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "withSqliteConn",
           "normalized": "Text-\u003e(Connection-\u003ea b)-\u003ea b",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "withSqlitePool",
           "package": "persistent-sqlite",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "withSqlitePool",
           "normalized": "Text-\u003eInt-\u003e(ConnectionPool-\u003ea b)-\u003ea b",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a raw \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e as a Persistent SQL \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.1.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Persist.Sqlite",
           "name": "wrapConnection",
           "package": "persistent-sqlite",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Wrap up raw Connection as Persistent SQL Connection Since",
           "hierarchy": "Database Persist Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Persist.Sqlite",
           "name": "wrapConnection",
           "normalized": "Connection-\u003eIO Connection",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA port of the direct-sqlite package for dealing directly with\n \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "Sqlite",
           "package": "persistent-sqlite",
@@ -262,6 +283,7 @@
         "index": {
           "description": "port of the direct-sqlite package for dealing directly with PersistValue",
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "Sqlite",
           "package": "persistent-sqlite",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "Connection",
           "package": "persistent-sqlite",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "Connection",
           "package": "persistent-sqlite",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "Error",
           "package": "persistent-sqlite",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "Error",
           "package": "persistent-sqlite",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "Statement",
           "package": "persistent-sqlite",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "Statement",
           "package": "persistent-sqlite",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "StepResult",
           "package": "persistent-sqlite",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "StepResult",
           "package": "persistent-sqlite",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "Done",
           "package": "persistent-sqlite",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "Done",
           "package": "persistent-sqlite",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorAbort",
           "package": "persistent-sqlite",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorAbort",
           "package": "persistent-sqlite",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorAuthorization",
           "package": "persistent-sqlite",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorAuthorization",
           "package": "persistent-sqlite",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorBusy",
           "package": "persistent-sqlite",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorBusy",
           "package": "persistent-sqlite",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorCan'tOpen",
           "package": "persistent-sqlite",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorCan'tOpen",
           "package": "persistent-sqlite",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorConstraint",
           "package": "persistent-sqlite",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorConstraint",
           "package": "persistent-sqlite",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorCorrupt",
           "package": "persistent-sqlite",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorCorrupt",
           "package": "persistent-sqlite",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorDone",
           "package": "persistent-sqlite",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorDone",
           "package": "persistent-sqlite",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorEmpty",
           "package": "persistent-sqlite",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorEmpty",
           "package": "persistent-sqlite",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorError",
           "package": "persistent-sqlite",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorError",
           "package": "persistent-sqlite",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorFormat",
           "package": "persistent-sqlite",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorFormat",
           "package": "persistent-sqlite",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorFull",
           "package": "persistent-sqlite",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorFull",
           "package": "persistent-sqlite",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorIO",
           "package": "persistent-sqlite",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorIO",
           "package": "persistent-sqlite",
@@ -645,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorInternal",
           "package": "persistent-sqlite",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorInternal",
           "package": "persistent-sqlite",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorInterrupt",
           "package": "persistent-sqlite",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorInterrupt",
           "package": "persistent-sqlite",
@@ -689,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorLocked",
           "package": "persistent-sqlite",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorLocked",
           "package": "persistent-sqlite",
@@ -711,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorMismatch",
           "package": "persistent-sqlite",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorMismatch",
           "package": "persistent-sqlite",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorMisuse",
           "package": "persistent-sqlite",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorMisuse",
           "package": "persistent-sqlite",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorNoLargeFileSupport",
           "package": "persistent-sqlite",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorNoLargeFileSupport",
           "package": "persistent-sqlite",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorNoMemory",
           "package": "persistent-sqlite",
@@ -786,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorNoMemory",
           "package": "persistent-sqlite",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorNotAConnection",
           "package": "persistent-sqlite",
@@ -808,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorNotAConnection",
           "package": "persistent-sqlite",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorNotFound",
           "package": "persistent-sqlite",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorNotFound",
           "package": "persistent-sqlite",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorOK",
           "package": "persistent-sqlite",
@@ -852,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorOK",
           "package": "persistent-sqlite",
@@ -865,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorPermission",
           "package": "persistent-sqlite",
@@ -874,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorPermission",
           "package": "persistent-sqlite",
@@ -887,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorProtocol",
           "package": "persistent-sqlite",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorProtocol",
           "package": "persistent-sqlite",
@@ -909,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorRange",
           "package": "persistent-sqlite",
@@ -918,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorRange",
           "package": "persistent-sqlite",
@@ -931,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorReadOnly",
           "package": "persistent-sqlite",
@@ -940,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorReadOnly",
           "package": "persistent-sqlite",
@@ -953,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorRow",
           "package": "persistent-sqlite",
@@ -962,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorRow",
           "package": "persistent-sqlite",
@@ -975,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorSchema",
           "package": "persistent-sqlite",
@@ -984,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorSchema",
           "package": "persistent-sqlite",
@@ -997,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "ErrorTooBig",
           "package": "persistent-sqlite",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "ErrorTooBig",
           "package": "persistent-sqlite",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "Row",
           "package": "persistent-sqlite",
@@ -1028,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "Row",
           "package": "persistent-sqlite",
@@ -1041,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "bind",
           "package": "persistent-sqlite",
@@ -1050,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "bind",
           "normalized": "Statement-\u003e[PersistValue]-\u003eIO()",
@@ -1064,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "bindBlob",
           "package": "persistent-sqlite",
@@ -1073,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "bindBlob",
           "normalized": "Statement-\u003eInt-\u003eByteString-\u003eIO()",
@@ -1088,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "bindDouble",
           "package": "persistent-sqlite",
@@ -1097,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "bindDouble",
           "normalized": "Statement-\u003eInt-\u003eDouble-\u003eIO()",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "bindInt",
           "package": "persistent-sqlite",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "bindInt",
           "normalized": "Statement-\u003eInt-\u003eInt-\u003eIO()",
@@ -1136,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "bindInt64",
           "package": "persistent-sqlite",
@@ -1145,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "bindInt64",
           "normalized": "Statement-\u003eInt-\u003eInt-\u003eIO()",
@@ -1160,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "bindNull",
           "package": "persistent-sqlite",
@@ -1169,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "bindNull",
           "normalized": "Statement-\u003eInt-\u003eIO()",
@@ -1184,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "bindText",
           "package": "persistent-sqlite",
@@ -1193,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "bindText",
           "normalized": "Statement-\u003eInt-\u003eText-\u003eIO()",
@@ -1208,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "changes",
           "package": "persistent-sqlite",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "changes",
           "normalized": "Connection-\u003eIO Int",
@@ -1231,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "close",
           "package": "persistent-sqlite",
@@ -1240,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "close",
           "normalized": "Connection-\u003eIO()",
@@ -1254,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "column",
           "package": "persistent-sqlite",
@@ -1263,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "column",
           "normalized": "Statement-\u003eInt-\u003eIO PersistValue",
@@ -1277,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "columns",
           "package": "persistent-sqlite",
@@ -1286,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "columns",
           "normalized": "Statement-\u003eIO[PersistValue]",
@@ -1300,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "finalize",
           "package": "persistent-sqlite",
@@ -1309,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "finalize",
           "normalized": "Statement-\u003eIO()",
@@ -1323,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "open",
           "package": "persistent-sqlite",
@@ -1332,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "open",
           "normalized": "Text-\u003eIO Connection",
@@ -1346,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "prepare",
           "package": "persistent-sqlite",
@@ -1355,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "prepare",
           "normalized": "Connection-\u003eText-\u003eIO Statement",
@@ -1369,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "reset",
           "package": "persistent-sqlite",
@@ -1378,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "reset",
           "normalized": "Connection-\u003eStatement-\u003eIO()",
@@ -1392,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:01 UTC 2014",
           "module": "Database.Sqlite",
           "name": "step",
           "package": "persistent-sqlite",
@@ -1401,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Database Sqlite",
+          "indexed": "2014-03-11T19:38:01",
           "module": "Database.Sqlite",
           "name": "step",
           "normalized": "Statement-\u003eIO StepResult",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hebrew-time"
+        "phrase": "hebrew-time",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Hebrew",
           "package": "hebrew-time",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Hebrew",
           "package": "hebrew-time",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "HebrewDate",
           "package": "hebrew-time",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "HebrewDate",
           "package": "hebrew-time",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Month",
           "package": "hebrew-time",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Month",
           "package": "hebrew-time",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Adar",
           "package": "hebrew-time",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Adar",
           "package": "hebrew-time",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Adar1",
           "package": "hebrew-time",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Adar1",
           "package": "hebrew-time",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Adar2",
           "package": "hebrew-time",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Adar2",
           "package": "hebrew-time",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Av",
           "package": "hebrew-time",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Av",
           "package": "hebrew-time",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Cheshvan",
           "package": "hebrew-time",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Cheshvan",
           "package": "hebrew-time",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Elul",
           "package": "hebrew-time",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Elul",
           "package": "hebrew-time",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "HebrewDate",
           "package": "hebrew-time",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "HebrewDate",
           "package": "hebrew-time",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Iyar",
           "package": "hebrew-time",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Iyar",
           "package": "hebrew-time",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Kislev",
           "package": "hebrew-time",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Kislev",
           "package": "hebrew-time",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Nissan",
           "package": "hebrew-time",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Nissan",
           "package": "hebrew-time",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Shevat",
           "package": "hebrew-time",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Shevat",
           "package": "hebrew-time",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Sivan",
           "package": "hebrew-time",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Sivan",
           "package": "hebrew-time",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Tammuz",
           "package": "hebrew-time",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Tammuz",
           "package": "hebrew-time",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Tevet",
           "package": "hebrew-time",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Tevet",
           "package": "hebrew-time",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Tishrei",
           "package": "hebrew-time",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "Tishrei",
           "package": "hebrew-time",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "anniversaryInYear",
           "package": "hebrew-time",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "anniversaryInYear",
           "normalized": "Int-\u003eHebrewDate-\u003eHebrewDate",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "date",
           "package": "hebrew-time",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "date",
           "package": "hebrew-time",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "fromHebrew",
           "package": "hebrew-time",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "fromHebrew",
           "normalized": "HebrewDate-\u003eDay",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "month",
           "package": "hebrew-time",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "month",
           "package": "hebrew-time",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "monthHebrew",
           "package": "hebrew-time",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "monthHebrew",
           "normalized": "Month-\u003eString",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "nextAnniversary",
           "package": "hebrew-time",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "nextAnniversary",
           "normalized": "HebrewDate-\u003eHebrewDate-\u003eHebrewDate",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "toHebrew",
           "package": "hebrew-time",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "toHebrew",
           "normalized": "Day-\u003eHebrewDate",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:10 UTC 2014",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "year",
           "package": "hebrew-time",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Hebrew",
+          "indexed": "2014-03-11T18:36:10",
           "module": "Data.Time.Calendar.Hebrew",
           "name": "year",
           "package": "hebrew-time",

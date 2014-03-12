@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clustertools"
+        "phrase": "clustertools",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Aurochs"
+        "phrase": "Aurochs",
+        "type": "phrase"
       },
       "type": "context"
     }

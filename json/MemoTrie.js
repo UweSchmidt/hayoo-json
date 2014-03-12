@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MemoTrie"
+        "phrase": "MemoTrie",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTrie-based memoizer\n\u003c/p\u003e\u003cp\u003eAdapted from sjanssen's paste: \"a lazy trie\" \u003ca\u003ehttp://hpaste.org/3839\u003c/a\u003e,\n which I think is based on Ralf Hinze's paper \u003ca\u003eMemo Functions,\n Polytypically!\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "MemoTrie",
           "package": "MemoTrie",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Trie-based memoizer Adapted from sjanssen paste lazy trie http hpaste.org which think is based on Ralf Hinze paper Memo Functions Polytypically",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "MemoTrie",
           "package": "MemoTrie",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from all elements of \u003ccode\u003ea\u003c/code\u003e to the results of some function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "HasTrie",
           "package": "MemoTrie",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Mapping from all elements of to the results of some function",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "HasTrie",
           "package": "MemoTrie",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrie composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "(@.@)",
           "package": "MemoTrie",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Trie composition",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "(@.@) @.@",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDomain elements of a trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "domain",
           "package": "MemoTrie",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Domain elements of trie",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "domain",
           "normalized": "[a]",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the trie elements.  Order of keys (\u003ccode\u003e:: a\u003c/code\u003e) is always the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "enumerate",
           "package": "MemoTrie",
@@ -125,6 +134,7 @@
         "index": {
           "description": "List the trie elements Order of keys is always the same",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "enumerate",
           "normalized": "(a-\u003eb)-\u003e[(a,b)]",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "idTrie",
           "package": "MemoTrie",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Identity trie",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "idTrie",
           "normalized": "a-\u003ea",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a unary function inside of a trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "inTrie",
           "package": "MemoTrie",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Apply unary function inside of trie",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "inTrie",
           "normalized": "((a-\u003eb)-\u003ec-\u003ed)-\u003e(a-\u003eb)-\u003ec-\u003ed",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a binary function inside of a trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "inTrie2",
           "package": "MemoTrie",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Apply binary function inside of trie",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "inTrie2",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed)-\u003ee-\u003ef)-\u003e(a-\u003eb)-\u003e(c-\u003ed)-\u003ee-\u003ef",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a ternary function inside of a trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "inTrie3",
           "package": "MemoTrie",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Apply ternary function inside of trie",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "inTrie3",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed)-\u003e(e-\u003ef)-\u003eg-\u003eh)-\u003e(a-\u003eb)-\u003e(c-\u003ed)-\u003e(e-\u003ef)-\u003eg-\u003eh",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrie-based function memoizer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "memo",
           "package": "MemoTrie",
@@ -254,6 +273,7 @@
         "index": {
           "description": "Trie-based function memoizer",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "memo",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a binary function, on its first argument and then on its\n second.  Take care to exploit any partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "memo2",
           "package": "MemoTrie",
@@ -279,6 +300,7 @@
         "index": {
           "description": "Memoize binary function on its first argument and then on its second Take care to exploit any partial evaluation",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "memo2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a ternary function on successive arguments.  Take care to\n exploit any partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "memo3",
           "package": "MemoTrie",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Memoize ternary function on successive arguments Take care to exploit any partial evaluation",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "memo3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -319,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a memoizer to work with one more argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "mup",
           "package": "MemoTrie",
@@ -329,6 +354,7 @@
         "index": {
           "description": "Lift memoizer to work with one more argument",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "mup",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -344,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the trie for the entire domain of a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "trie",
           "package": "MemoTrie",
@@ -354,6 +381,7 @@
         "index": {
           "description": "Create the trie for the entire domain of function",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "trie",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -369,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a trie to a function, i.e., access a field of the trie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:38 UTC 2014",
           "module": "Data.MemoTrie",
           "name": "untrie",
           "package": "MemoTrie",
@@ -379,6 +408,7 @@
         "index": {
           "description": "Convert trie to function i.e access field of the trie",
           "hierarchy": "Data MemoTrie",
+          "indexed": "2014-03-11T16:52:38",
           "module": "Data.MemoTrie",
           "name": "untrie",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",

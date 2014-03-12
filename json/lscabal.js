@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lscabal"
+        "phrase": "lscabal",
+        "type": "phrase"
       },
       "type": "context"
     }

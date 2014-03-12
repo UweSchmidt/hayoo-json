@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-st"
+        "phrase": "monad-st",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:37 UTC 2014",
           "module": "Control.Monad.ST.Class",
           "name": "Class",
           "package": "monad-st",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Class",
+          "indexed": "2014-03-11T19:20:37",
           "module": "Control.Monad.ST.Class",
           "name": "Class",
           "package": "monad-st",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:37 UTC 2014",
           "module": "Control.Monad.ST.Class",
           "name": "MonadST",
           "package": "monad-st",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Class",
+          "indexed": "2014-03-11T19:20:37",
           "module": "Control.Monad.ST.Class",
           "name": "MonadST",
           "package": "monad-st",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:37 UTC 2014",
           "module": "Control.Monad.ST.Class",
           "name": "liftST",
           "package": "monad-st",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Class",
+          "indexed": "2014-03-11T19:20:37",
           "module": "Control.Monad.ST.Class",
           "name": "liftST",
           "normalized": "ST(World a)b-\u003ea b",

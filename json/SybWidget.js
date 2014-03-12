@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SybWidget"
+        "phrase": "SybWidget",
+        "type": "phrase"
       },
       "type": "context"
     }

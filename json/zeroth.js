@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zeroth"
+        "phrase": "zeroth",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RNAwolf"
+        "phrase": "RNAwolf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransformation of predictions and known structures into keys. Keys are\n used for linearization.\n\u003c/p\u003e\u003cp\u003eNOTE READ THE BIG FAT KEYS WARNING\n\u003c/p\u003e\u003cp\u003eTODO Generalize and move into its own library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "Keys",
           "package": "RNAwolf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Transformation of predictions and known structures into keys Keys are used for linearization NOTE READ THE BIG FAT KEYS WARNING TODO Generalize and move into its own library",
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "Keys",
           "package": "RNAwolf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of \u003ca\u003enamed\u003c/a\u003e parameters.\n\u003c/p\u003e\u003cp\u003eUniquely tag each key\n\u003c/p\u003e\u003cp\u003eNOTE BIG FAT WARNING: BE ABSOLUTELY SURE THAT ALL IMPORTS AND EXPORTS FOLLOW\n THIS ORDERING EXACTLY, OTHERWISE KEYS WILL BE MAPPED TO WRONG POSITIONS\n DURING LOOKUP AND VALUES END UP SOMEWHERE ELSE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "Keys",
           "package": "RNAwolf",
@@ -51,6 +54,7 @@
         "index": {
           "description": "list of named parameters Uniquely tag each key NOTE BIG FAT WARNING BE ABSOLUTELY SURE THAT ALL IMPORTS AND EXPORTS FOLLOW THIS ORDERING EXACTLY OTHERWISE KEYS WILL BE MAPPED TO WRONG POSITIONS DURING LOOKUP AND VALUES END UP SOMEWHERE ELSE",
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "Keys",
           "package": "RNAwolf",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "BulgeClose",
           "package": "RNAwolf",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "BulgeClose",
           "package": "RNAwolf",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "BulgeLength",
           "package": "RNAwolf",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "BulgeLength",
           "package": "RNAwolf",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "BulgeTriplet",
           "package": "RNAwolf",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "BulgeTriplet",
           "normalized": "BulgeTriplet(ExtPair,ExtPair)",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "HairpinClose",
           "package": "RNAwolf",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "HairpinClose",
           "normalized": "HairpinClose(ExtPair,Nuc,Nuc)",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "HairpinLength",
           "package": "RNAwolf",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "HairpinLength",
           "package": "RNAwolf",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "InterMolInit",
           "package": "RNAwolf",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "InterMolInit",
           "package": "RNAwolf",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "InteriorAsym",
           "package": "RNAwolf",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "InteriorAsym",
           "package": "RNAwolf",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "InteriorClose",
           "package": "RNAwolf",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "InteriorClose",
           "normalized": "InteriorClose(ExtPair,Nuc,Nuc)",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "InteriorLength",
           "package": "RNAwolf",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "InteriorLength",
           "package": "RNAwolf",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "MbClose",
           "package": "RNAwolf",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "MbClose",
           "normalized": "MbClose(ExtPair,Nuc,Nuc)",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "MultiBranched",
           "package": "RNAwolf",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "MultiBranched",
           "package": "RNAwolf",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "MultiHelix",
           "package": "RNAwolf",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "MultiHelix",
           "package": "RNAwolf",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "MultiUnpaired",
           "package": "RNAwolf",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "MultiUnpaired",
           "package": "RNAwolf",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "PairDistance",
           "package": "RNAwolf",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "PairDistance",
           "package": "RNAwolf",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "Stem",
           "package": "RNAwolf",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "Stem",
           "normalized": "Stem(ExtPair,ExtPair)",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "StemTriplet",
           "package": "RNAwolf",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "StemTriplet",
           "normalized": "StemTriplet(ExtPair,ExtPair)",
@@ -429,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraining data to feature vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "featureVector",
           "package": "RNAwolf",
@@ -439,6 +476,7 @@
         "index": {
           "description": "Training data to feature vector",
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "featureVector",
           "normalized": "String-\u003e[ExtPairIdx]-\u003e[Int]",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform feature to 0-based index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "lookupFeatureIndex",
           "package": "RNAwolf",
@@ -465,6 +504,7 @@
         "index": {
           "description": "transform feature to based index",
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "lookupFeatureIndex",
           "normalized": "Keys-\u003eInt",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the secondary structure tree\n\u003c/p\u003e\u003cp\u003eFIXME okPairs is ad-hoc, we should allow for other kinds of pairs!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "ssTree",
           "package": "RNAwolf",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Create the secondary structure tree FIXME okPairs is ad-hoc we should allow for other kinds of pairs",
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "ssTree",
           "normalized": "Int-\u003e[ExtPairIdx]-\u003eSSTree ExtPairIdx()",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap param keys to thei Int-indices.\n\u003c/p\u003e\u003cp\u003eAnd back from Int-indices to the keys.\n\u003c/p\u003e\u003cp\u003eTakes a primary structure and secondary structure tree and produces a list\n of keys.\n\u003c/p\u003e\u003cp\u003eTODO Data.Traversable ?!\n\u003c/p\u003e\u003cp\u003eTODO better handling of unknown features: we can have genuine errors\n (pseudoknots) and uncoded features (e.g. hairpins of size \u003e 30)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Keys",
           "name": "treeToFeatures",
           "package": "RNAwolf",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Map param keys to thei Int-indices And back from Int-indices to the keys Takes primary structure and secondary structure tree and produces list of keys TODO Data.Traversable TODO better handling of unknown features we can have genuine errors pseudoknots and uncoded features e.g hairpins of size",
           "hierarchy": "BioInf Keys",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Keys",
           "name": "treeToFeatures",
           "normalized": "a-\u003eSSTree ExtPairIdx b-\u003e[Keys]",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExporting parameters is a bit more involved as we need the ability to\n export into a database format as well as linearize to list form.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params.Export",
           "name": "Export",
           "package": "RNAwolf",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Exporting parameters is bit more involved as we need the ability to export into database format as well as linearize to list form",
           "hierarchy": "BioInf Params Export",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params.Export",
           "name": "Export",
           "package": "RNAwolf",
@@ -556,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a long list of doubles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params.Export",
           "name": "toList",
           "package": "RNAwolf",
@@ -566,6 +613,7 @@
         "index": {
           "description": "Just long list of doubles",
           "hierarchy": "BioInf Params Export",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params.Export",
           "name": "toList",
           "normalized": "Params-\u003e[Double]",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGiven a list of doubles with the \u003cem\u003eexact required length\u003c/em\u003e import into a\n \u003ccode\u003e\u003ca\u003eParams\u003c/a\u003e\u003c/code\u003e structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params.Import",
           "name": "Import",
           "package": "RNAwolf",
@@ -591,6 +640,7 @@
         "index": {
           "description": "Given list of doubles with the exact required length import into Params structure",
           "hierarchy": "BioInf Params Import",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params.Import",
           "name": "Import",
           "package": "RNAwolf",
@@ -605,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a list of values to parameters.\n\u003c/p\u003e\u003cp\u003eNOTE This operation is rather fragile if there are layout changes. Consider\n Repr for this.\n\u003c/p\u003e\u003cp\u003eNOTE BIG FAT WARNING: BE ABSOLUTELY SURE THAT ALL IMPORTS AND EXPORTS FOLLOW\n THIS ORDERING EXACTLY, OTHERWISE KEYS WILL BE MAPPED TO WRONG POSITIONS\n DURING LOOKUP AND VALUES END UP SOMEWHERE ELSE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params.Import",
           "name": "fromList",
           "package": "RNAwolf",
@@ -615,6 +666,7 @@
         "index": {
           "description": "Cast list of values to parameters NOTE This operation is rather fragile if there are layout changes Consider Repr for this NOTE BIG FAT WARNING BE ABSOLUTELY SURE THAT ALL IMPORTS AND EXPORTS FOLLOW THIS ORDERING EXACTLY OTHERWISE KEYS WILL BE MAPPED TO WRONG POSITIONS DURING LOOKUP AND VALUES END UP SOMEWHERE ELSE",
           "hierarchy": "BioInf Params Import",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params.Import",
           "name": "fromList",
           "normalized": "[Double]-\u003eParams",
@@ -631,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit up a list accordings to given lengths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params.Import",
           "name": "splitXs",
           "package": "RNAwolf",
@@ -641,6 +694,7 @@
         "index": {
           "description": "split up list accordings to given lengths",
           "hierarchy": "BioInf Params Import",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params.Import",
           "name": "splitXs",
           "normalized": "[Int]-\u003e[Double]-\u003e[[Double]]",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRNA-folding parameter space.\n\u003c/p\u003e\u003cp\u003eTODO find better names for types, functions, and minima/maxima.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "Params",
           "package": "RNAwolf",
@@ -666,6 +721,7 @@
         "index": {
           "description": "RNA-folding parameter space TODO find better names for types functions and minima maxima",
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "Params",
           "package": "RNAwolf",
@@ -680,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array holding information for two extended pairs, e.g. stems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "Pa2ExtPairs",
           "package": "RNAwolf",
@@ -689,6 +746,7 @@
         "index": {
           "description": "An array holding information for two extended pairs e.g stems",
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "Pa2ExtPairs",
           "package": "RNAwolf",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an experimental annotation for long-distance interactions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "PaDistance",
           "package": "RNAwolf",
@@ -712,6 +771,7 @@
         "index": {
           "description": "This is an experimental annotation for long-distance interactions",
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "PaDistance",
           "package": "RNAwolf",
@@ -726,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array holding information for one extended pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "PaExtPair",
           "package": "RNAwolf",
@@ -735,6 +796,7 @@
         "index": {
           "description": "An array holding information for one extended pair",
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "PaExtPair",
           "package": "RNAwolf",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array holding information for one extended pair and two unpaired\n nucleotides, closes a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "PaExtPairNN",
           "package": "RNAwolf",
@@ -758,6 +821,7 @@
         "index": {
           "description": "An array holding information for one extended pair and two unpaired nucleotides closes loop",
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "PaExtPairNN",
           "package": "RNAwolf",
@@ -772,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array which encodes \u003ca\u003elength\u003c/a\u003e information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "PaLength",
           "package": "RNAwolf",
@@ -781,6 +846,7 @@
         "index": {
           "description": "An array which encodes length information",
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "PaLength",
           "package": "RNAwolf",
@@ -795,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (very) rich set of paramters.\n\u003c/p\u003e\u003cp\u003eTODO 1xn interior loops should be tested (how often do they occur?)\n\u003c/p\u003e\u003cp\u003eTODO external loop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "Params",
           "package": "RNAwolf",
@@ -804,6 +871,7 @@
         "index": {
           "description": "very rich set of paramters TODO xn interior loops should be tested how often do they occur TODO external loop",
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "Params",
           "package": "RNAwolf",
@@ -817,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "Params",
           "package": "RNAwolf",
@@ -826,6 +895,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "Params",
           "package": "RNAwolf",
@@ -839,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "bulgeClose",
           "package": "RNAwolf",
@@ -848,6 +919,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "bulgeClose",
           "package": "RNAwolf",
@@ -861,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "bulgeLength",
           "package": "RNAwolf",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "bulgeLength",
           "package": "RNAwolf",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "bulgeTriplet",
           "package": "RNAwolf",
@@ -892,6 +967,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "bulgeTriplet",
           "package": "RNAwolf",
@@ -905,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "hairpinClose",
           "package": "RNAwolf",
@@ -914,6 +991,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "hairpinClose",
           "package": "RNAwolf",
@@ -927,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "hairpinLength",
           "package": "RNAwolf",
@@ -936,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "hairpinLength",
           "package": "RNAwolf",
@@ -949,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "interMolInit",
           "package": "RNAwolf",
@@ -958,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "interMolInit",
           "package": "RNAwolf",
@@ -971,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "interiorAsym",
           "package": "RNAwolf",
@@ -980,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "interiorAsym",
           "package": "RNAwolf",
@@ -993,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "interiorClose",
           "package": "RNAwolf",
@@ -1002,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "interiorClose",
           "package": "RNAwolf",
@@ -1015,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "interiorLength",
           "package": "RNAwolf",
@@ -1024,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "interiorLength",
           "package": "RNAwolf",
@@ -1037,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "mbClose",
           "package": "RNAwolf",
@@ -1046,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "mbClose",
           "package": "RNAwolf",
@@ -1059,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "multiBranched",
           "package": "RNAwolf",
@@ -1068,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "multiBranched",
           "package": "RNAwolf",
@@ -1081,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "multiHelix",
           "package": "RNAwolf",
@@ -1090,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "multiHelix",
           "package": "RNAwolf",
@@ -1103,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "multiUnpaired",
           "package": "RNAwolf",
@@ -1112,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "multiUnpaired",
           "package": "RNAwolf",
@@ -1125,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "pairDistance",
           "package": "RNAwolf",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "pairDistance",
           "package": "RNAwolf",
@@ -1147,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "stem",
           "package": "RNAwolf",
@@ -1156,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "stem",
           "package": "RNAwolf",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.Params",
           "name": "stemTriplet",
           "package": "RNAwolf",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "BioInf Params",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.Params",
           "name": "stemTriplet",
           "package": "RNAwolf",
@@ -1191,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePassive-aggressive optimization. Mainly based on:\n\u003c/p\u003e\u003cp\u003eZakov, Shay and Goldberg, Yoav and Elhaded, Michael and Ziv-Ukelson, Michal\n \u003ca\u003eRich Parameterization Improves RNA Structure Prediction\u003c/a\u003e\n RECOMB 2011\n\u003c/p\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cp\u003eCrammer, Koby and (et al)\n \u003ca\u003eOnline Passive-Aggressive Algorithms\u003c/a\u003e\n Journal of Machine Learning Research (2006)\n\u003c/p\u003e\u003cp\u003eTODO as always: move out of here and put in its own library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.PassiveAggressive",
           "name": "PassiveAggressive",
           "package": "RNAwolf",
@@ -1200,6 +1303,7 @@
         "index": {
           "description": "Passive-aggressive optimization Mainly based on Zakov Shay and Goldberg Yoav and Elhaded Michael and Ziv-Ukelson Michal Rich Parameterization Improves RNA Structure Prediction RECOMB and Crammer Koby and et al Online Passive-Aggressive Algorithms Journal of Machine Learning Research TODO as always move out of here and put in its own library",
           "hierarchy": "BioInf PassiveAggressive",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.PassiveAggressive",
           "name": "PassiveAggressive",
           "package": "RNAwolf",
@@ -1214,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn case that the known structure has a score \u003ccode\u003eepsilon\u003c/code\u003e better than the\n predicted, we have an error condition, as this should never be the case.\n\u003c/p\u003e\u003cp\u003eReturn a lot of information from each P/A call. We do not return the new\n \u003ccode\u003eParams\u003c/code\u003e anymore, only a list of changes. This allows us to do some things.\n If the implementation of \u003ccode\u003eParams\u003c/code\u003e is switched, we can update in place; or we\n can perform calculations in parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.PassiveAggressive",
           "name": "PA",
           "package": "RNAwolf",
@@ -1223,6 +1328,7 @@
         "index": {
           "description": "In case that the known structure has score epsilon better than the predicted we have an error condition as this should never be the case Return lot of information from each call We do not return the new Params anymore only list of changes This allows us to do some things If the implementation of Params is switched we can update in place or we can perform calculations in parallel",
           "hierarchy": "BioInf PassiveAggressive",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.PassiveAggressive",
           "name": "PA",
           "package": "RNAwolf",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.PassiveAggressive",
           "name": "PA",
           "package": "RNAwolf",
@@ -1245,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "BioInf PassiveAggressive",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.PassiveAggressive",
           "name": "PA",
           "package": "RNAwolf",
@@ -1258,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.PassiveAggressive",
           "name": "accMeas",
           "package": "RNAwolf",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "BioInf PassiveAggressive",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.PassiveAggressive",
           "name": "accMeas",
           "package": "RNAwolf",
@@ -1280,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.PassiveAggressive",
           "name": "changes",
           "package": "RNAwolf",
@@ -1289,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "BioInf PassiveAggressive",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.PassiveAggressive",
           "name": "changes",
           "normalized": "[(Int,Double)]",
@@ -1304,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation of P/A. We return a data structure that contains\n all \u003ccode\u003e\u003ca\u003echanges\u003c/a\u003e\u003c/code\u003e required from this run, the \u003ccode\u003e\u003ca\u003eenerDif\u003c/a\u003e\u003c/code\u003e or energy difference\n between the known and the predicted structure, and a structural difference\n score. Furthermore, some errors are being reported in \u003ccode\u003e\u003ca\u003eerrors\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe energy difference can be (i) in that case, a wrongly predicted structure\n has better (lower) energy than the known one. (ii) It can be zero, then we\n have either found a co-optimal structural or the correct structure. (iii) In\n some cases, it can be positive, this is a formal error, but will not abort\n the program. (The calling program may opt to abort on (not . null $ errors).\n\u003c/p\u003e\u003cp\u003eThe structural difference is [0..1] with \u003ca\u003e0\u003c/a\u003e for structurally identical\n predictions and known structures and otherwise growing toward \u003ca\u003e1\u003c/a\u003e for bad\n predictions where nothing is correct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.PassiveAggressive",
           "name": "defaultPA",
           "package": "RNAwolf",
@@ -1314,6 +1427,7 @@
         "index": {
           "description": "Default implementation of We return data structure that contains all changes required from this run the enerDif or energy difference between the known and the predicted structure and structural difference score Furthermore some errors are being reported in errors The energy difference can be in that case wrongly predicted structure has better lower energy than the known one ii It can be zero then we have either found co-optimal structural or the correct structure iii In some cases it can be positive this is formal error but will not abort the program The calling program may opt to abort on not null errors The structural difference is with for structurally identical predictions and known structures and otherwise growing toward for bad predictions where nothing is correct",
           "hierarchy": "BioInf PassiveAggressive",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.PassiveAggressive",
           "name": "defaultPA",
           "normalized": "Double-\u003eParams-\u003eTrainingData-\u003ePA",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.PassiveAggressive",
           "name": "enerDif",
           "package": "RNAwolf",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "BioInf PassiveAggressive",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.PassiveAggressive",
           "name": "enerDif",
           "package": "RNAwolf",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.PassiveAggressive",
           "name": "errors",
           "package": "RNAwolf",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "BioInf PassiveAggressive",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.PassiveAggressive",
           "name": "errors",
           "normalized": "[String]",
@@ -1374,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "Bulge",
           "package": "RNAwolf",
@@ -1382,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Bulge",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "Bulge",
           "package": "RNAwolf",
@@ -1396,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack the inner part of a bulge\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "btBulgeInner",
           "package": "RNAwolf",
@@ -1406,6 +1527,7 @@
         "index": {
           "description": "Backtrack the inner part of bulge",
           "hierarchy": "BioInf RNAwolf Bulge",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "btBulgeInner",
           "normalized": "Params-\u003ePrimary-\u003eNBulg-\u003eEStem-\u003eExtBT-\u003eNBT",
@@ -1422,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex generator for bulged loops\n\u003c/p\u003e\u003cp\u003eBacktrack the bulge loop part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "btBulgeLoop",
           "package": "RNAwolf",
@@ -1432,6 +1555,7 @@
         "index": {
           "description": "Index generator for bulged loops Backtrack the bulge loop part",
           "hierarchy": "BioInf RNAwolf Bulge",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "btBulgeLoop",
           "normalized": "Params-\u003ePrimary-\u003eNBulgLoop-\u003eNBulg-\u003eNBT-\u003eNBT",
@@ -1448,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOuter part of a normal bulge\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "btBulgeOuter",
           "package": "RNAwolf",
@@ -1458,6 +1583,7 @@
         "index": {
           "description": "Outer part of normal bulge",
           "hierarchy": "BioInf RNAwolf Bulge",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "btBulgeOuter",
           "normalized": "Params-\u003ePrimary-\u003eEStem-\u003eNBulgLoop-\u003eNBT-\u003eExtBT",
@@ -1474,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInner part of a bulge to speed up bulge calculations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "fBulgeInner",
           "package": "RNAwolf",
@@ -1484,6 +1611,7 @@
         "index": {
           "description": "Inner part of bulge to speed up bulge calculations",
           "hierarchy": "BioInf RNAwolf Bulge",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "fBulgeInner",
           "normalized": "BaseF(EStem-\u003eFeatures(Vector(ExtPairIdx,Double)))",
@@ -1500,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe loop-part of bulges. Increases speed by 2x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "fBulgeLoop",
           "package": "RNAwolf",
@@ -1510,6 +1639,7 @@
         "index": {
           "description": "The loop-part of bulges Increases speed by",
           "hierarchy": "BioInf RNAwolf Bulge",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "fBulgeLoop",
           "normalized": "BaseF(NBulg-\u003eFeatures(Vector(PairIdx,Double)))",
@@ -1526,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe outer closing pair of a bulge loop (one unpaired region).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "fBulgeOuter",
           "package": "RNAwolf",
@@ -1536,6 +1667,7 @@
         "index": {
           "description": "The outer closing pair of bulge loop one unpaired region",
           "hierarchy": "BioInf RNAwolf Bulge",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Bulge",
           "name": "fBulgeOuter",
           "normalized": "BaseF(NBulgLoop-\u003eExtFeatures(Vector(PairIdx,Double)))",
@@ -1552,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eApplies folding constraints to extended stem calculations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Constraint",
           "name": "Constraint",
           "package": "RNAwolf",
@@ -1561,6 +1694,7 @@
         "index": {
           "description": "Applies folding constraints to extended stem calculations",
           "hierarchy": "BioInf RNAwolf Constraint",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Constraint",
           "name": "Constraint",
           "package": "RNAwolf",
@@ -1575,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a constraint bonus/malus in the backtracking phase\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Constraint",
           "name": "applyConstraint",
           "package": "RNAwolf",
@@ -1585,6 +1720,7 @@
         "index": {
           "description": "Applies constraint bonus malus in the backtracking phase",
           "hierarchy": "BioInf RNAwolf Constraint",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Constraint",
           "name": "applyConstraint",
           "normalized": "PairIdx-\u003ePrimArray(Int,Int)Double-\u003eDouble-\u003eDouble",
@@ -1601,6 +1737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExternal loops are complete substructures, of which zero to many sit on\n the chain of nucleotides.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "Extern",
           "package": "RNAwolf",
@@ -1610,6 +1747,7 @@
         "index": {
           "description": "External loops are complete substructures of which zero to many sit on the chain of nucleotides",
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "Extern",
           "package": "RNAwolf",
@@ -1624,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktracking a structure with an unpaired nucleotide to the left.\n\u003c/p\u003e\u003cp\u003eFIXME In btLeftUnpaired, allow only non-empty structures on the right. It\n would be nice to make the recursion scheme take care of that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "btLeftUnpaired",
           "package": "RNAwolf",
@@ -1634,6 +1773,7 @@
         "index": {
           "description": "Backtracking structure with an unpaired nucleotide to the left FIXME In btLeftUnpaired allow only non-empty structures on the right It would be nice to make the recursion scheme take care of that",
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "btLeftUnpaired",
           "normalized": "Params-\u003ePrimary-\u003eNExtn-\u003eNBT-\u003eNBT",
@@ -1649,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "btOne",
           "package": "RNAwolf",
@@ -1658,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "btOne",
           "normalized": "Params-\u003ePrimary-\u003eNExtn-\u003eNBT",
@@ -1674,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack one stem with right index k.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "btStem",
           "package": "RNAwolf",
@@ -1684,6 +1827,7 @@
         "index": {
           "description": "Backtrack one stem with right index",
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "btStem",
           "normalized": "Params-\u003ePrimary-\u003eNExtn-\u003eNStem-\u003eNBT-\u003eNBT",
@@ -1700,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktracking of an external structure with more than one stem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "btStems",
           "package": "RNAwolf",
@@ -1710,6 +1855,7 @@
         "index": {
           "description": "Backtracking of an external structure with more than one stem",
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "btStems",
           "normalized": "Params-\u003ePrimary-\u003eNStem-\u003eNExtn-\u003eNBT-\u003eNBT-\u003eNBT",
@@ -1726,6 +1872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn external loop with an unpaired nucleotide to the left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "fLeftUnpaired",
           "package": "RNAwolf",
@@ -1736,6 +1883,7 @@
         "index": {
           "description": "An external loop with an unpaired nucleotide to the left",
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "fLeftUnpaired",
           "normalized": "BaseF(NExtn-\u003eFeatures(Vector(PairIdx,Double)))",
@@ -1752,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis one is important as otherwise, some stretches of nucleotides will\n always have to be paired. (Obviously, I forgot to add this one for a\n time...)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "fOne",
           "package": "RNAwolf",
@@ -1762,6 +1911,7 @@
         "index": {
           "description": "This one is important as otherwise some stretches of nucleotides will always have to be paired Obviously forgot to add this one for time",
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "fOne",
           "normalized": "BaseF(Features(Vector(PairIdx,Double)))",
@@ -1778,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy for exactly one stem at (i,k)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "fStem",
           "package": "RNAwolf",
@@ -1788,6 +1939,7 @@
         "index": {
           "description": "Energy for exactly one stem at",
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "fStem",
           "normalized": "BaseF(NStem-\u003eFeatures(Vector(PairIdx,Double)))",
@@ -1804,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal structures with more than one stem have a NStem on the left and\n an external NExtn structure on the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Extern",
           "name": "fStems",
           "package": "RNAwolf",
@@ -1814,6 +1967,7 @@
         "index": {
           "description": "External structures with more than one stem have NStem on the left and an external NExtn structure on the right",
           "hierarchy": "BioInf RNAwolf Extern",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Extern",
           "name": "fStems",
           "normalized": "BaseF(NStem-\u003eNExtn-\u003eFeatures(Vector(Int,Double)))",
@@ -1829,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Hairpin",
           "name": "Hairpin",
           "package": "RNAwolf",
@@ -1837,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Hairpin",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Hairpin",
           "name": "Hairpin",
           "package": "RNAwolf",
@@ -1851,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktracking hairpins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Hairpin",
           "name": "btHairpin",
           "package": "RNAwolf",
@@ -1861,6 +2018,7 @@
         "index": {
           "description": "Backtracking hairpins",
           "hierarchy": "BioInf RNAwolf Hairpin",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Hairpin",
           "name": "btHairpin",
           "normalized": "Params-\u003ePrimary-\u003eEStem-\u003eExtBT",
@@ -1877,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hairpin is a number of 0 or more unpaired nucleotides, enclosed by the\n nucleotides (i,j) which pair.\n\u003c/p\u003e\u003cp\u003eTODO should we allow hairpins with no unpaired nucleotides in the pin? They\n do occur, but only under special circumstances which we should model\n differently...\n\u003c/p\u003e\u003cp\u003eTODO re-allow IMI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Hairpin",
           "name": "fHairpin",
           "package": "RNAwolf",
@@ -1887,6 +2046,7 @@
         "index": {
           "description": "hairpin is number of or more unpaired nucleotides enclosed by the nucleotides which pair TODO should we allow hairpins with no unpaired nucleotides in the pin They do occur but only under special circumstances which we should model differently TODO re-allow IMI",
           "hierarchy": "BioInf RNAwolf Hairpin",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Hairpin",
           "name": "fHairpin",
           "normalized": "[Int]-\u003eBaseF(ExtFeatures(Vector(ExtPairIdx,Double)))",
@@ -1902,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Interior",
           "name": "Interior",
           "package": "RNAwolf",
@@ -1910,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Interior",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Interior",
           "name": "Interior",
           "package": "RNAwolf",
@@ -1924,6 +2086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack from an NInte result to the corresponding EStem parts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Interior",
           "name": "btInteriorInner",
           "package": "RNAwolf",
@@ -1934,6 +2097,7 @@
         "index": {
           "description": "Backtrack from an NInte result to the corresponding EStem parts",
           "hierarchy": "BioInf RNAwolf Interior",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Interior",
           "name": "btInteriorInner",
           "normalized": "Params-\u003ePrimary-\u003eNInte-\u003eEStem-\u003eExtBT-\u003eNBT",
@@ -1950,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack the unpaired loop region\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Interior",
           "name": "btInteriorLoop",
           "package": "RNAwolf",
@@ -1960,6 +2125,7 @@
         "index": {
           "description": "Backtrack the unpaired loop region",
           "hierarchy": "BioInf RNAwolf Interior",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Interior",
           "name": "btInteriorLoop",
           "normalized": "Params-\u003ePrimary-\u003eNInteLoop-\u003eNInte-\u003eNBT-\u003eNBT",
@@ -1975,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Interior",
           "name": "btInteriorOuter",
           "package": "RNAwolf",
@@ -1984,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Interior",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Interior",
           "name": "btInteriorOuter",
           "normalized": "Params-\u003ePrimary-\u003eEStem-\u003eNInteLoop-\u003eNBT-\u003eExtBT",
@@ -2000,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis opens up an interior loop. For each index (i,j) we minimize over all\n possible basepair types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Interior",
           "name": "fInteriorInner",
           "package": "RNAwolf",
@@ -2010,6 +2179,7 @@
         "index": {
           "description": "This opens up an interior loop For each index we minimize over all possible basepair types",
           "hierarchy": "BioInf RNAwolf Interior",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Interior",
           "name": "fInteriorInner",
           "normalized": "BaseF(EStem-\u003eFeatures(Vector(ExtPairIdx,Double)))",
@@ -2026,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince backtracking interior loops is mostly selfcontained, we encapsulate\n the above three functions -- which we can't do easily with the forward\n calculations as they actually have to save on runtime.\n\u003c/p\u003e\u003cp\u003eGiven the outer indices (i,j), produces delta_i and delta_j so that\n i+delta_i and j-delta_j are the inner indices. \u003ccode\u003e\u003ca\u003efInteriorKLs\u003c/a\u003e\u003c/code\u003e should fuse\n and should make sure that l-k\u003e=4 is always true (maxd). Furthermore the\n maximal unpaired length of both sides combined is determined by \u003ccode\u003emaxLength\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTODO better name than \u003ccode\u003emaxLength\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Interior",
           "name": "fInteriorKLs",
           "package": "RNAwolf",
@@ -2036,6 +2207,7 @@
         "index": {
           "description": "Since backtracking interior loops is mostly selfcontained we encapsulate the above three functions which we can do easily with the forward calculations as they actually have to save on runtime Given the outer indices produces delta and delta so that delta and j-delta are the inner indices fInteriorKLs should fuse and should make sure that l-k is always true maxd Furthermore the maximal unpaired length of both sides combined is determined by maxLength TODO better name than maxLength",
           "hierarchy": "BioInf RNAwolf Interior",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Interior",
           "name": "fInteriorKLs",
           "normalized": "Int-\u003eInt-\u003eVector(Int,Int)",
@@ -2052,6 +2224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms the interior loop calculations between (i,j) \u003ca\u003eouter\u003c/a\u003e and (k,l)\n \u003ca\u003einner\u003c/a\u003e part. The score based on the unpaired nucleotides is independent of\n both, the outer and the inner basepair type.\n\u003c/p\u003e\u003cp\u003eNOTE / TODO -- fusion enabled for this function (due to it taking 50% of the\n time), full fusion is still dependent on other factors and needs to be\n checked (in particular, we still have allocation events)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Interior",
           "name": "fInteriorLoop",
           "package": "RNAwolf",
@@ -2062,6 +2235,7 @@
         "index": {
           "description": "Performs the interior loop calculations between outer and inner part The score based on the unpaired nucleotides is independent of both the outer and the inner basepair type NOTE TODO fusion enabled for this function due to it taking of the time full fusion is still dependent on other factors and needs to be checked in particular we still have allocation events",
           "hierarchy": "BioInf RNAwolf Interior",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Interior",
           "name": "fInteriorLoop",
           "normalized": "BaseF(NInte-\u003eFeatures(Vector(PairIdx,Double)))",
@@ -2078,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe outer part of an interior loop. Given a certain basepair type, add the\n cost from the unpaired part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Interior",
           "name": "fInteriorOuter",
           "package": "RNAwolf",
@@ -2088,6 +2263,7 @@
         "index": {
           "description": "The outer part of an interior loop Given certain basepair type add the cost from the unpaired part",
           "hierarchy": "BioInf RNAwolf Interior",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Interior",
           "name": "fInteriorOuter",
           "normalized": "BaseF(NInteLoop-\u003eExtFeatures(Vector(PairIdx,Double)))",
@@ -2104,6 +2280,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for handling non-triplet multibranched loops.\n\u003c/p\u003e\u003cp\u003eTODO We can do the loop-splitting thing again to speed up multibranched\n closing by x10.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "Multibranched",
           "package": "RNAwolf",
@@ -2113,6 +2290,7 @@
         "index": {
           "description": "Functions for handling non-triplet multibranched loops TODO We can do the loop-splitting thing again to speed up multibranched closing by x10",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "Multibranched",
           "package": "RNAwolf",
@@ -2127,6 +2305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack a single stem closed at (i,j) for NMbr1. Takes the route through\n NMult which solves for the exact pairtype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMl1Stem",
           "package": "RNAwolf",
@@ -2137,6 +2316,7 @@
         "index": {
           "description": "Backtrack single stem closed at for NMbr1 Takes the route through NMult which solves for the exact pairtype",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMl1Stem",
           "normalized": "Params-\u003ePrimary-\u003eNMbr-\u003eNMult-\u003eNBT-\u003eNBT",
@@ -2153,6 +2333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack from and extended annotation (ij,ext) into the helper table\n NMultLoop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlClose",
           "package": "RNAwolf",
@@ -2163,6 +2344,7 @@
         "index": {
           "description": "Backtrack from and extended annotation ij ext into the helper table NMultLoop",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlClose",
           "normalized": "Params-\u003ePrimary-\u003eEStem-\u003eNMultLoop-\u003eNBT-\u003eExtBT",
@@ -2179,6 +2361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktracks from (i,j) in NMult into the extended-pairing EStem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlHelix",
           "package": "RNAwolf",
@@ -2189,6 +2372,7 @@
         "index": {
           "description": "Backtracks from in NMult into the extended-pairing EStem",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlHelix",
           "normalized": "Params-\u003ePrimary-\u003eNMult-\u003eEStem-\u003eExtBT-\u003eNBT",
@@ -2205,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktracking the multibranched loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlLoop",
           "package": "RNAwolf",
@@ -2215,6 +2400,7 @@
         "index": {
           "description": "Backtracking the multibranched loop",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlLoop",
           "normalized": "Params-\u003ePrimary-\u003eNMultLoop-\u003eNMbr-\u003eNMbr-\u003eNBT-\u003eNBT-\u003eNBT",
@@ -2231,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack by trying to find a multilooped helix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlStem",
           "package": "RNAwolf",
@@ -2241,6 +2428,7 @@
         "index": {
           "description": "Backtrack by trying to find multilooped helix",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlStem",
           "normalized": "Params-\u003ePrimary-\u003eNMbr-\u003eNMult-\u003eNBT-\u003eNBT",
@@ -2257,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack by finding the splitting index between an NMbr composite\n structure and a single multibranched stem NMult (which can contain unpaired\n nucleotides to the left).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlStems",
           "package": "RNAwolf",
@@ -2267,6 +2456,7 @@
         "index": {
           "description": "Backtrack by finding the splitting index between an NMbr composite structure and single multibranched stem NMult which can contain unpaired nucleotides to the left",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btMlStems",
           "normalized": "Params-\u003ePrimary-\u003eNMbr-\u003eNMult-\u003eNBT-\u003eNBT-\u003eNBT",
@@ -2283,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack in NMbr if the nucleotide at j is unpaired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btUnpairedRight",
           "package": "RNAwolf",
@@ -2293,6 +2484,7 @@
         "index": {
           "description": "Backtrack in NMbr if the nucleotide at is unpaired",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btUnpairedRight",
           "normalized": "Params-\u003ePrimary-\u003eNMbr-\u003eNBT-\u003eNBT",
@@ -2309,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack NMbr1 if the nucleotide at j is unpaired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btUnpairedRight1",
           "package": "RNAwolf",
@@ -2319,6 +2512,7 @@
         "index": {
           "description": "Backtrack NMbr1 if the nucleotide at is unpaired",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "btUnpairedRight1",
           "normalized": "Params-\u003ePrimary-\u003eNMbr-\u003eNBT-\u003eNBT",
@@ -2335,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a single stem to a multibranch table containing zero stems already.\n\u003c/p\u003e\u003cp\u003eTODO this would be equal to mlHelix, unify!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMl1Stem",
           "package": "RNAwolf",
@@ -2345,6 +2540,7 @@
         "index": {
           "description": "Add single stem to multibranch table containing zero stems already TODO this would be equal to mlHelix unify",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMl1Stem",
           "normalized": "BaseF(NMult-\u003eFeatures(Vector((Int,Int),Double)))",
@@ -2361,6 +2557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses a multibranch loop.\n\u003c/p\u003e\u003cp\u003eTODO make completely triplet compliant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlClose",
           "package": "RNAwolf",
@@ -2371,6 +2568,7 @@
         "index": {
           "description": "Closes multibranch loop TODO make completely triplet compliant",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlClose",
           "normalized": "BaseF(NMultLoop-\u003eExtFeatures(Vector(PairIdx,Double)))",
@@ -2387,6 +2585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multibranched helix (except the closing one). (i,j) are closed by a\n basepair. Backtracking into the EStem reveals the type of pairing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlHelix",
           "package": "RNAwolf",
@@ -2397,6 +2596,7 @@
         "index": {
           "description": "multibranched helix except the closing one are closed by basepair Backtracking into the EStem reveals the type of pairing",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlHelix",
           "normalized": "BaseF(EStem-\u003eFeatures(Vector(ExtPairIdx,Double)))",
@@ -2413,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultibranched loop helper function that combines \u003ca\u003eat least one stem\u003c/a\u003e with\n \u003ca\u003eexactly one stem\u003c/a\u003e but does not add the closing energy from (i,j).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlLoop",
           "package": "RNAwolf",
@@ -2423,6 +2624,7 @@
         "index": {
           "description": "Multibranched loop helper function that combines at least one stem with exactly one stem but does not add the closing energy from",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlLoop",
           "normalized": "BaseF(NMbr-\u003eNMbr-\u003eFeatures(Vector(Int,Double)))",
@@ -2439,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack a single stem in NMbr, where the stem has zero or more unpaired\n nucleotides to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlStem",
           "package": "RNAwolf",
@@ -2449,6 +2652,7 @@
         "index": {
           "description": "Backtrack single stem in NMbr where the stem has zero or more unpaired nucleotides to the left",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlStem",
           "normalized": "BaseF(NMult-\u003eFeatures(Vector(Int,Double)))",
@@ -2465,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a stem to a multibranch table containing already at least one stem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlStems",
           "package": "RNAwolf",
@@ -2475,6 +2680,7 @@
         "index": {
           "description": "Add stem to multibranch table containing already at least one stem",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fMlStems",
           "normalized": "BaseF(NMbr-\u003eNMult-\u003eFeatures(Vector(Int,Double)))",
@@ -2491,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy for having the rightmost nucleotide (at j) unpaired in NMBr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fUnpairedRight",
           "package": "RNAwolf",
@@ -2501,6 +2708,7 @@
         "index": {
           "description": "Energy for having the rightmost nucleotide at unpaired in NMBr",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fUnpairedRight",
           "normalized": "BaseF(NMbr-\u003eFeatures(Vector(PairIdx,Double)))",
@@ -2517,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy for having the rightmost nucleotide (at j) unpaired in NMBr1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fUnpairedRight1",
           "package": "RNAwolf",
@@ -2527,6 +2736,7 @@
         "index": {
           "description": "Energy for having the rightmost nucleotide at unpaired in NMBr1",
           "hierarchy": "BioInf RNAwolf Multibranched",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Multibranched",
           "name": "fUnpairedRight1",
           "normalized": "BaseF(NMbr-\u003eFeatures(Vector(PairIdx,Double)))",
@@ -2542,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Stem",
           "name": "Stem",
           "package": "RNAwolf",
@@ -2550,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Stem",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Stem",
           "name": "Stem",
           "package": "RNAwolf",
@@ -2564,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktrack from a normal stem back into the extended stem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Stem",
           "name": "btNstem",
           "package": "RNAwolf",
@@ -2574,6 +2787,7 @@
         "index": {
           "description": "Backtrack from normal stem back into the extended stem",
           "hierarchy": "BioInf RNAwolf Stem",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Stem",
           "name": "btNstem",
           "normalized": "Params-\u003ePrimary-\u003eNStem-\u003eEStem-\u003eExtBT-\u003eNBT",
@@ -2590,6 +2804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStem backtracking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Stem",
           "name": "btStem",
           "package": "RNAwolf",
@@ -2600,6 +2815,7 @@
         "index": {
           "description": "Stem backtracking",
           "hierarchy": "BioInf RNAwolf Stem",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Stem",
           "name": "btStem",
           "normalized": "Params-\u003ePrimary-\u003eEStem-\u003eExtBT-\u003eExtBT",
@@ -2616,6 +2832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA normal stem is created by taking the minimum over all possible basepairs\n of the extended stem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Stem",
           "name": "fNstem",
           "package": "RNAwolf",
@@ -2626,6 +2843,7 @@
         "index": {
           "description": "normal stem is created by taking the minimum over all possible basepairs of the extended stem",
           "hierarchy": "BioInf RNAwolf Stem",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Stem",
           "name": "fNstem",
           "normalized": "BaseF(EStem-\u003eFeatures(Vector(ExtPairIdx,Double)))",
@@ -2642,6 +2860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stem is extended by another pair. The score contribution is dependent on\n the previous pair. Note that for score lookup purposes, the inner pair is\n switched.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Stem",
           "name": "fStem",
           "package": "RNAwolf",
@@ -2652,6 +2871,7 @@
         "index": {
           "description": "stem is extended by another pair The score contribution is dependent on the previous pair Note that for score lookup purposes the inner pair is switched",
           "hierarchy": "BioInf RNAwolf Stem",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Stem",
           "name": "fStem",
           "normalized": "BaseF(EStem-\u003eExtFeatures(Vector(ExtPairIdx,Double)))",
@@ -2667,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.TripletBulge",
           "name": "TripletBulge",
           "package": "RNAwolf",
@@ -2675,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf TripletBulge",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.TripletBulge",
           "name": "TripletBulge",
           "package": "RNAwolf",
@@ -2688,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.TripletStem",
           "name": "TripletStem",
           "package": "RNAwolf",
@@ -2696,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf TripletStem",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.TripletStem",
           "name": "TripletStem",
           "package": "RNAwolf",
@@ -2709,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "Types",
           "package": "RNAwolf",
@@ -2717,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "Types",
           "package": "RNAwolf",
@@ -2730,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "BTAnswer",
           "package": "RNAwolf",
@@ -2738,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "BTAnswer",
           "package": "RNAwolf",
@@ -2751,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "BaseF",
           "package": "RNAwolf",
@@ -2759,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "BaseF",
           "package": "RNAwolf",
@@ -2772,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "EStem",
           "package": "RNAwolf",
@@ -2780,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "EStem",
           "package": "RNAwolf",
@@ -2794,6 +3026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould really go into BiobaseXNA\n\u003c/p\u003e\u003cp\u003eShould really go into BiobaseXNA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "ExtBT",
           "package": "RNAwolf",
@@ -2803,6 +3036,7 @@
         "index": {
           "description": "Should really go into BiobaseXNA Should really go into BiobaseXNA",
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "ExtBT",
           "package": "RNAwolf",
@@ -2816,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "ExtFeatures",
           "package": "RNAwolf",
@@ -2824,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "ExtFeatures",
           "package": "RNAwolf",
@@ -2837,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "ExtTable",
           "package": "RNAwolf",
@@ -2845,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "ExtTable",
           "package": "RNAwolf",
@@ -2858,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "Features",
           "package": "RNAwolf",
@@ -2866,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "Features",
           "package": "RNAwolf",
@@ -2879,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBT",
           "package": "RNAwolf",
@@ -2887,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBT",
           "package": "RNAwolf",
@@ -2900,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBulg",
           "package": "RNAwolf",
@@ -2908,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBulg",
           "package": "RNAwolf",
@@ -2921,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBulgLoop",
           "package": "RNAwolf",
@@ -2929,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBulgLoop",
           "package": "RNAwolf",
@@ -2942,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NExtn",
           "package": "RNAwolf",
@@ -2950,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NExtn",
           "package": "RNAwolf",
@@ -2963,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NInte",
           "package": "RNAwolf",
@@ -2971,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NInte",
           "package": "RNAwolf",
@@ -2984,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NInteLoop",
           "package": "RNAwolf",
@@ -2992,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NInteLoop",
           "package": "RNAwolf",
@@ -3005,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMbr",
           "package": "RNAwolf",
@@ -3013,6 +3266,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMbr",
           "package": "RNAwolf",
@@ -3026,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMbr1",
           "package": "RNAwolf",
@@ -3034,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMbr1",
           "package": "RNAwolf",
@@ -3047,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMult",
           "package": "RNAwolf",
@@ -3055,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMult",
           "package": "RNAwolf",
@@ -3068,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMultLoop",
           "package": "RNAwolf",
@@ -3076,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMultLoop",
           "package": "RNAwolf",
@@ -3089,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NStem",
           "package": "RNAwolf",
@@ -3097,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NStem",
           "package": "RNAwolf",
@@ -3110,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "Table",
           "package": "RNAwolf",
@@ -3118,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "Table",
           "package": "RNAwolf",
@@ -3131,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "Tables",
           "package": "RNAwolf",
@@ -3139,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "Tables",
           "package": "RNAwolf",
@@ -3152,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "EStem",
           "package": "RNAwolf",
@@ -3161,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "EStem",
           "package": "RNAwolf",
@@ -3174,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBulg",
           "package": "RNAwolf",
@@ -3183,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBulg",
           "package": "RNAwolf",
@@ -3196,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBulgLoop",
           "package": "RNAwolf",
@@ -3205,6 +3476,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NBulgLoop",
           "package": "RNAwolf",
@@ -3218,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NExtn",
           "package": "RNAwolf",
@@ -3227,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NExtn",
           "package": "RNAwolf",
@@ -3240,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NInte",
           "package": "RNAwolf",
@@ -3249,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NInte",
           "package": "RNAwolf",
@@ -3262,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NInteLoop",
           "package": "RNAwolf",
@@ -3271,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NInteLoop",
           "package": "RNAwolf",
@@ -3284,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMbr",
           "package": "RNAwolf",
@@ -3293,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMbr",
           "package": "RNAwolf",
@@ -3306,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMbr1",
           "package": "RNAwolf",
@@ -3315,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMbr1",
           "package": "RNAwolf",
@@ -3328,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMult",
           "package": "RNAwolf",
@@ -3337,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMult",
           "package": "RNAwolf",
@@ -3350,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMultLoop",
           "package": "RNAwolf",
@@ -3359,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NMultLoop",
           "package": "RNAwolf",
@@ -3372,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "NStem",
           "package": "RNAwolf",
@@ -3381,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "NStem",
           "package": "RNAwolf",
@@ -3394,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unBulgLoop",
           "package": "RNAwolf",
@@ -3403,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unBulgLoop",
           "package": "RNAwolf",
@@ -3416,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unEStem",
           "package": "RNAwolf",
@@ -3425,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unEStem",
           "package": "RNAwolf",
@@ -3438,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unMultLoop",
           "package": "RNAwolf",
@@ -3447,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unMultLoop",
           "package": "RNAwolf",
@@ -3460,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNBulg",
           "package": "RNAwolf",
@@ -3469,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNBulg",
           "package": "RNAwolf",
@@ -3482,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNExtn",
           "package": "RNAwolf",
@@ -3491,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNExtn",
           "package": "RNAwolf",
@@ -3504,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNInte",
           "package": "RNAwolf",
@@ -3513,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNInte",
           "package": "RNAwolf",
@@ -3526,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNInteLoop",
           "package": "RNAwolf",
@@ -3535,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNInteLoop",
           "package": "RNAwolf",
@@ -3548,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNMbr",
           "package": "RNAwolf",
@@ -3557,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNMbr",
           "package": "RNAwolf",
@@ -3570,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNMbr1",
           "package": "RNAwolf",
@@ -3579,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNMbr1",
           "package": "RNAwolf",
@@ -3592,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNMult",
           "package": "RNAwolf",
@@ -3601,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNMult",
           "package": "RNAwolf",
@@ -3614,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNStem",
           "package": "RNAwolf",
@@ -3623,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "BioInf RNAwolf Types",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf.Types",
           "name": "unNStem",
           "package": "RNAwolf",
@@ -3637,6 +3947,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe RNAwolf folding algorithm, version 1.9. We now have full stacking and\n rich parameters everywhere. In general, most parameters closely follow what\n we have for ViennaRNA 1.8 but with extended RNA secondary structures,\n instead of canonicals only. Further refinements of the parameter system will\n follow.\n\u003c/p\u003e\u003cp\u003eTODO right now, 1-diagrams only, 2-diagrams come back in a few days. I want\n to be sure that the full stacking approach does not introduce subtle bugs.\n\u003c/p\u003e\u003cp\u003eTODO recast all fZZZ functions for folding to actually fuse on minimum/fZZZ.\n\u003c/p\u003e\u003cp\u003eTODO VU.! -\u003e VU.unsafeIndex\n\u003c/p\u003e\u003cp\u003eTODO possibly very big TODO: is this being optimized? : fold $ g z where g z\n = if z==True then [1..10] else []. If this is not optimized, we should\n change all functions below in a way that allows optimization. (I dont think\n fusion can fire on these objects...)\n\u003c/p\u003e\u003cp\u003eTODO rewrite minimumVU to accept \u003ca\u003eEither\u003c/a\u003e ctors and specialize on them.\n   \u003ca\u003eLeft\u003c/a\u003e to be used for strange errors, \u003ca\u003eRight\u003c/a\u003e for correct streams\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf",
           "name": "RNAwolf",
           "package": "RNAwolf",
@@ -3646,6 +3957,7 @@
         "index": {
           "description": "The RNAwolf folding algorithm version We now have full stacking and rich parameters everywhere In general most parameters closely follow what we have for ViennaRNA but with extended RNA secondary structures instead of canonicals only Further refinements of the parameter system will follow TODO right now diagrams only diagrams come back in few days want to be sure that the full stacking approach does not introduce subtle bugs TODO recast all fZZZ functions for folding to actually fuse on minimum fZZZ TODO VU VU.unsafeIndex TODO possibly very big TODO is this being optimized fold where if True then else If this is not optimized we should change all functions below in way that allows optimization dont think fusion can fire on these objects TODO rewrite minimumVU to accept Either ctors and specialize on them Left to be used for strange errors Right for correct streams",
           "hierarchy": "BioInf RNAwolf",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf",
           "name": "RNAwolf",
           "package": "RNAwolf",
@@ -3660,6 +3972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around the state monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf",
           "name": "rnaWolf",
           "package": "RNAwolf",
@@ -3670,6 +3983,7 @@
         "index": {
           "description": "Wrapper around the state monad",
           "hierarchy": "BioInf RNAwolf",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf",
           "name": "rnaWolf",
           "normalized": "Params-\u003eConstraint-\u003ePrimary-\u003eTables",
@@ -3686,6 +4000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven parameters, input, score band, and filled tables we can backtrack.\n\u003c/p\u003e\u003cp\u003eNOTE the order in which backtracking for individual functions is performed,\n is important. In case of ties in energy, the first result is taken. This\n should be considered!\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e1\u003c/dt\u003e\u003cdd\u003e We consider unpaired stretches always first. This is kind of arbitrary.\n\u003c/dd\u003e\u003cdt\u003e2\u003c/dt\u003e\u003cdd\u003e extended stems always come last. This is because they can potentially\n introduce many co-optimal structures before they are all discarded.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eTODO all the crap in comments are bug-fix backtracking options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf",
           "name": "rnaWolfBacktrack",
           "package": "RNAwolf",
@@ -3696,6 +4011,7 @@
         "index": {
           "description": "Given parameters input score band and filled tables we can backtrack NOTE the order in which backtracking for individual functions is performed is important In case of ties in energy the first result is taken This should be considered We consider unpaired stretches always first This is kind of arbitrary extended stems always come last This is because they can potentially introduce many co-optimal structures before they are all discarded TODO all the crap in comments are bug-fix backtracking options",
           "hierarchy": "BioInf RNAwolf",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf",
           "name": "rnaWolfBacktrack",
           "normalized": "Params-\u003eConstraint-\u003ePrimary-\u003eDouble-\u003eTables-\u003e[([ExtPairIdx],Double)]",
@@ -3712,6 +4028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the optimal energy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:21 UTC 2014",
           "module": "BioInf.RNAwolf",
           "name": "rnaWolfOptimal",
           "package": "RNAwolf",
@@ -3722,6 +4039,7 @@
         "index": {
           "description": "Return the optimal energy",
           "hierarchy": "BioInf RNAwolf",
+          "indexed": "2014-03-11T16:58:21",
           "module": "BioInf.RNAwolf",
           "name": "rnaWolfOptimal",
           "normalized": "Tables-\u003eDouble",

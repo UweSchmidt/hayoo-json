@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uu-tc"
+        "phrase": "uu-tc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "Applications",
           "package": "uu-tc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "Applications",
           "package": "uu-tc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "braced",
           "package": "uu-tc",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "braced",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "bracketed",
           "package": "uu-tc",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "bracketed",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "commaList",
           "package": "uu-tc",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "commaList",
           "normalized": "Parser Char a-\u003eParser Char[a]",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "digit",
           "package": "uu-tc",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "digit",
           "package": "uu-tc",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "identifier",
           "package": "uu-tc",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "identifier",
           "package": "uu-tc",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "integer",
           "package": "uu-tc",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "integer",
           "package": "uu-tc",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "natural",
           "package": "uu-tc",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "natural",
           "package": "uu-tc",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "newdigit",
           "package": "uu-tc",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "newdigit",
           "package": "uu-tc",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "parenthesised",
           "package": "uu-tc",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "parenthesised",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Applications",
           "name": "semiList",
           "package": "uu-tc",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Applications",
           "name": "semiList",
           "normalized": "Parser Char a-\u003eParser Char[a]",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "Core",
           "package": "uu-tc",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "Core",
           "package": "uu-tc",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn input string is mapped to a list of successful parses.\n For each succesful parse, we return the result of type \u003ccode\u003er\u003c/code\u003e,\n and the remaining input string. The input must be a list of\n symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "Parser",
           "package": "uu-tc",
@@ -292,6 +317,7 @@
         "index": {
           "description": "An input string is mapped to list of successful parses For each succesful parse we return the result of type and the remaining input string The input must be list of symbols",
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "Parser",
           "package": "uu-tc",
@@ -381,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBiased choice. If the left hand side parser succeeds,\n the right hand side is not considered. Use with care!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "(\u003c\u003c|\u003e)",
           "package": "uu-tc",
@@ -391,6 +418,7 @@
         "index": {
           "description": "Biased choice If the left hand side parser succeeds the right hand side is not considered Use with care",
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "(\u003c\u003c|\u003e) \u003c\u003c|\u003e",
           "normalized": "Parser a b-\u003eParser a b-\u003eParser a b",
@@ -431,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any single symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "anySymbol",
           "package": "uu-tc",
@@ -441,6 +470,7 @@
         "index": {
           "description": "Parses any single symbol",
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "anySymbol",
           "package": "uu-tc",
@@ -478,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e; provided for compatibility with the lecture notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "failp",
           "package": "uu-tc",
@@ -488,6 +519,7 @@
         "index": {
           "description": "Same as empty provided for compatibility with the lecture notes",
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "failp",
           "package": "uu-tc",
@@ -501,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the rest of the input without consuming anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "look",
           "package": "uu-tc",
@@ -511,6 +544,7 @@
         "index": {
           "description": "Returns the rest of the input without consuming anything",
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "look",
           "normalized": "Parser a[a]",
@@ -526,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a parser on a given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "parse",
           "package": "uu-tc",
@@ -536,6 +571,7 @@
         "index": {
           "description": "Runs parser on given string",
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "parse",
           "normalized": "Parser a b-\u003e[a]-\u003e[(b,[a])]",
@@ -576,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a predicate and returns a parser that parses a\n single symbol satisfying that predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "satisfy",
           "package": "uu-tc",
@@ -586,6 +623,7 @@
         "index": {
           "description": "Takes predicate and returns parser that parses single symbol satisfying that predicate",
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParser a a",
@@ -601,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser that always succeeds, i.e., for epsilon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Core",
           "name": "succeed",
           "package": "uu-tc",
@@ -611,6 +650,7 @@
         "index": {
           "description": "Parser that always succeeds i.e for epsilon",
           "hierarchy": "ParseLib Abstract Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Core",
           "name": "succeed",
           "normalized": "a-\u003eParser b a",
@@ -625,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "Derived",
           "package": "uu-tc",
@@ -633,6 +674,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "Derived",
           "package": "uu-tc",
@@ -647,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the left\n argument.\n\u003c/p\u003e\u003cpre\u003e f *\u003e p = flip const \u003c$\u003e p \u003c*\u003e q\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "(*\u003e)",
           "package": "uu-tc",
@@ -657,6 +700,7 @@
         "index": {
           "description": "Variant of that ignores the result of the left argument flip const",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "(*\u003e) *\u003e",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a c",
@@ -672,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the parser.\n\u003c/p\u003e\u003cpre\u003e f \u003c$ p = const f \u003c$\u003e p\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "(\u003c$)",
           "package": "uu-tc",
@@ -682,6 +727,7 @@
         "index": {
           "description": "Variant of that ignores the result of the parser const",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eParser b c-\u003eParser b a",
@@ -697,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the right\n argument.\n\u003c/p\u003e\u003cpre\u003e f \u003c* p = const \u003c$\u003e p \u003c*\u003e q\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "(\u003c*)",
           "package": "uu-tc",
@@ -707,6 +754,7 @@
         "index": {
           "description": "Variant of that ignores the result of the right argument const",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "(\u003c*) \u003c*",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a b",
@@ -722,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003epe\u003c/code\u003e and an operator parser \u003ccode\u003epo\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003epe\u003c/code\u003es separated by \u003ccode\u003epo\u003c/code\u003es. The results are\n combined using the operator associated with \u003ccode\u003epo\u003c/code\u003e in a\n left-associative way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "chainl",
           "package": "uu-tc",
@@ -732,6 +781,7 @@
         "index": {
           "description": "Takes parser pe and an operator parser po Parses sequence of pe separated by po The results are combined using the operator associated with po in left-associative way",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "chainl",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -747,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003epe\u003c/code\u003e and an operator parser \u003ccode\u003epo\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003epe\u003c/code\u003es separated by \u003ccode\u003epo\u003c/code\u003es. The results are\n combined using the operator associated with \u003ccode\u003epo\u003c/code\u003e in a\n right-associative way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "chainr",
           "package": "uu-tc",
@@ -757,6 +808,7 @@
         "index": {
           "description": "Takes parser pe and an operator parser po Parses sequence of pe separated by po The results are combined using the operator associated with po in right-associative way",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "chainr",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -772,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of parsers and combines them using\n choice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "choice",
           "package": "uu-tc",
@@ -782,6 +835,7 @@
         "index": {
           "description": "Takes list of parsers and combines them using choice",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "choice",
           "normalized": "[Parser a b]-\u003eParser a b",
@@ -797,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds only on the end of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "eof",
           "package": "uu-tc",
@@ -807,6 +862,7 @@
         "index": {
           "description": "Succeeds only on the end of the input",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "eof",
           "normalized": "Parser a()",
@@ -822,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for epsilon that does return '()'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "epsilon",
           "package": "uu-tc",
@@ -832,6 +889,7 @@
         "index": {
           "description": "Parser for epsilon that does return",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "epsilon",
           "normalized": "Parser a()",
@@ -847,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreedy variant of \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "greedy",
           "package": "uu-tc",
@@ -857,6 +916,7 @@
         "index": {
           "description": "Greedy variant of many",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "greedy",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -872,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreedy variant of \u003ccode\u003e\u003ca\u003emany1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "greedy1",
           "package": "uu-tc",
@@ -882,6 +943,7 @@
         "index": {
           "description": "Greedy variant of many1",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "greedy1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -897,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003ep\u003c/code\u003e and a separator parser \u003ccode\u003es\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003ep\u003c/code\u003es that is separated by \u003ccode\u003es\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "listOf",
           "package": "uu-tc",
@@ -907,6 +970,7 @@
         "index": {
           "description": "Takes parser and separator parser Parses sequence of that is separated by",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "listOf",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -923,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses many, i.e., zero or more, occurrences of\n a given parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "many",
           "package": "uu-tc",
@@ -933,6 +998,7 @@
         "index": {
           "description": "Parses many i.e zero or more occurrences of given parser",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "many",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -948,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esome\u003c/a\u003e\u003c/code\u003e. Provided for compatibility with\n the lecture notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "many1",
           "package": "uu-tc",
@@ -958,6 +1025,7 @@
         "index": {
           "description": "Same as some Provided for compatibility with the lecture notes",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "many1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -973,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an optional element. Takes the default value\n as its second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "option",
           "package": "uu-tc",
@@ -983,6 +1052,7 @@
         "index": {
           "description": "Parses an optional element Takes the default value as its second argument",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "option",
           "normalized": "Parser a b-\u003eb-\u003eParser a b",
@@ -998,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eoption\u003c/a\u003e\u003c/code\u003e that returns a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e,\n provided for compatibility with the applicative interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "optional",
           "package": "uu-tc",
@@ -1008,6 +1079,7 @@
         "index": {
           "description": "Variant of option that returns Maybe provided for compatibility with the applicative interface",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "optional",
           "normalized": "Parser a b-\u003eParser a(Maybe b)",
@@ -1023,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes three parsers: a delimiter, the parser for the\n content, and another delimiter. Constructs a sequence of\n the three, but returns only the result of the enclosed\n parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "pack",
           "package": "uu-tc",
@@ -1033,6 +1106,7 @@
         "index": {
           "description": "Takes three parsers delimiter the parser for the content and another delimiter Constructs sequence of the three but returns only the result of the enclosed parser",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "pack",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a d-\u003eParser a c",
@@ -1048,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of parsers and combines them in\n sequence, returning a list of results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "sequence",
           "package": "uu-tc",
@@ -1058,6 +1133,7 @@
         "index": {
           "description": "Takes list of parsers and combines them in sequence returning list of results",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "sequence",
           "normalized": "[Parser a b]-\u003eParser a[b]",
@@ -1073,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser some, i.e., one or more, occurrences of\n a given parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "some",
           "package": "uu-tc",
@@ -1083,6 +1160,7 @@
         "index": {
           "description": "Parser some i.e one or more occurrences of given parser",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "some",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -1098,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a specific given symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "symbol",
           "package": "uu-tc",
@@ -1108,6 +1187,7 @@
         "index": {
           "description": "Parses specific given symbol",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "symbol",
           "normalized": "a-\u003eParser a a",
@@ -1123,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a specific given sequence of symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract.Derived",
           "name": "token",
           "package": "uu-tc",
@@ -1133,6 +1214,7 @@
         "index": {
           "description": "Parses specific given sequence of symbols",
           "hierarchy": "ParseLib Abstract Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract.Derived",
           "name": "token",
           "normalized": "[a]-\u003eParser a[a]",
@@ -1147,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Abstract",
           "name": "Abstract",
           "package": "uu-tc",
@@ -1155,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Abstract",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Abstract",
           "name": "Abstract",
           "package": "uu-tc",
@@ -1168,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "Applications",
           "package": "uu-tc",
@@ -1176,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "Applications",
           "package": "uu-tc",
@@ -1189,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "braced",
           "package": "uu-tc",
@@ -1198,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "braced",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -1212,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "bracketed",
           "package": "uu-tc",
@@ -1221,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "bracketed",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -1235,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "commaList",
           "package": "uu-tc",
@@ -1244,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "commaList",
           "normalized": "Parser Char a-\u003eParser Char[a]",
@@ -1259,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "digit",
           "package": "uu-tc",
@@ -1268,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "digit",
           "package": "uu-tc",
@@ -1280,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "identifier",
           "package": "uu-tc",
@@ -1289,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "identifier",
           "package": "uu-tc",
@@ -1301,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "integer",
           "package": "uu-tc",
@@ -1310,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "integer",
           "package": "uu-tc",
@@ -1322,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "natural",
           "package": "uu-tc",
@@ -1331,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "natural",
           "package": "uu-tc",
@@ -1343,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "newdigit",
           "package": "uu-tc",
@@ -1352,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "newdigit",
           "package": "uu-tc",
@@ -1364,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "parenthesised",
           "package": "uu-tc",
@@ -1373,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "parenthesised",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -1387,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Applications",
           "name": "semiList",
           "package": "uu-tc",
@@ -1396,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Applications",
           "name": "semiList",
           "normalized": "Parser Char a-\u003eParser Char[a]",
@@ -1411,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "Core",
           "package": "uu-tc",
@@ -1419,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "Core",
           "package": "uu-tc",
@@ -1433,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser is a CPS version of Parser'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "Parser",
           "package": "uu-tc",
@@ -1442,6 +1551,7 @@
         "index": {
           "description": "The parser is CPS version of Parser",
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "Parser",
           "package": "uu-tc",
@@ -1456,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBiased choice. Not implemented by the parallel parser\n combinators. Just maps to parallel choice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "(\u003c\u003c|\u003e)",
           "package": "uu-tc",
@@ -1466,6 +1577,7 @@
         "index": {
           "description": "Biased choice Not implemented by the parallel parser combinators Just maps to parallel choice",
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "(\u003c\u003c|\u003e) \u003c\u003c|\u003e",
           "normalized": "Parser a b-\u003eParser a b-\u003eParser a b",
@@ -1481,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any single symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "anySymbol",
           "package": "uu-tc",
@@ -1491,6 +1604,7 @@
         "index": {
           "description": "Parses any single symbol",
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "anySymbol",
           "package": "uu-tc",
@@ -1505,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e; provided for compatibility with the lecture notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "failp",
           "package": "uu-tc",
@@ -1515,6 +1630,7 @@
         "index": {
           "description": "Same as empty provided for compatibility with the lecture notes",
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "failp",
           "package": "uu-tc",
@@ -1528,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the rest of the input without consuming anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "look",
           "package": "uu-tc",
@@ -1538,6 +1655,7 @@
         "index": {
           "description": "Returns the rest of the input without consuming anything",
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "look",
           "normalized": "Parser a[a]",
@@ -1553,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a parser to a given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "parse",
           "package": "uu-tc",
@@ -1563,6 +1682,7 @@
         "index": {
           "description": "Runs parser to given string",
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "parse",
           "normalized": "Parser a b-\u003e[a]-\u003e[(b,[a])]",
@@ -1578,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a predicate and returns a parser that parses a\n single symbol satisfying that predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "satisfy",
           "package": "uu-tc",
@@ -1588,6 +1709,7 @@
         "index": {
           "description": "Takes predicate and returns parser that parses single symbol satisfying that predicate",
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParser a a",
@@ -1603,6 +1725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser that always succeeds, i.e., for epsilon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Core",
           "name": "succeed",
           "package": "uu-tc",
@@ -1613,6 +1736,7 @@
         "index": {
           "description": "Parser that always succeeds i.e for epsilon",
           "hierarchy": "ParseLib Parallel Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Core",
           "name": "succeed",
           "normalized": "a-\u003eParser b a",
@@ -1627,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "Derived",
           "package": "uu-tc",
@@ -1635,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "Derived",
           "package": "uu-tc",
@@ -1649,6 +1775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the left\n argument.\n\u003c/p\u003e\u003cpre\u003e f *\u003e p = flip const \u003c$\u003e p \u003c*\u003e q\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "(*\u003e)",
           "package": "uu-tc",
@@ -1659,6 +1786,7 @@
         "index": {
           "description": "Variant of that ignores the result of the left argument flip const",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "(*\u003e) *\u003e",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a c",
@@ -1674,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the parser.\n\u003c/p\u003e\u003cpre\u003e f \u003c$ p = const f \u003c$\u003e p\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "(\u003c$)",
           "package": "uu-tc",
@@ -1684,6 +1813,7 @@
         "index": {
           "description": "Variant of that ignores the result of the parser const",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eParser b c-\u003eParser b a",
@@ -1699,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the right\n argument.\n\u003c/p\u003e\u003cpre\u003e f \u003c* p = const \u003c$\u003e p \u003c*\u003e q\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "(\u003c*)",
           "package": "uu-tc",
@@ -1709,6 +1840,7 @@
         "index": {
           "description": "Variant of that ignores the result of the right argument const",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "(\u003c*) \u003c*",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a b",
@@ -1724,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003epe\u003c/code\u003e and an operator parser \u003ccode\u003epo\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003epe\u003c/code\u003es separated by \u003ccode\u003epo\u003c/code\u003es. The results are\n combined using the operator associated with \u003ccode\u003epo\u003c/code\u003e in a\n left-associative way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "chainl",
           "package": "uu-tc",
@@ -1734,6 +1867,7 @@
         "index": {
           "description": "Takes parser pe and an operator parser po Parses sequence of pe separated by po The results are combined using the operator associated with po in left-associative way",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "chainl",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -1749,6 +1883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003epe\u003c/code\u003e and an operator parser \u003ccode\u003epo\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003epe\u003c/code\u003es separated by \u003ccode\u003epo\u003c/code\u003es. The results are\n combined using the operator associated with \u003ccode\u003epo\u003c/code\u003e in a\n right-associative way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "chainr",
           "package": "uu-tc",
@@ -1759,6 +1894,7 @@
         "index": {
           "description": "Takes parser pe and an operator parser po Parses sequence of pe separated by po The results are combined using the operator associated with po in right-associative way",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "chainr",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -1774,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of parsers and combines them using\n choice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "choice",
           "package": "uu-tc",
@@ -1784,6 +1921,7 @@
         "index": {
           "description": "Takes list of parsers and combines them using choice",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "choice",
           "normalized": "[Parser a b]-\u003eParser a b",
@@ -1799,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds only on the end of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "eof",
           "package": "uu-tc",
@@ -1809,6 +1948,7 @@
         "index": {
           "description": "Succeeds only on the end of the input",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "eof",
           "normalized": "Parser a()",
@@ -1824,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for epsilon that does return '()'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "epsilon",
           "package": "uu-tc",
@@ -1834,6 +1975,7 @@
         "index": {
           "description": "Parser for epsilon that does return",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "epsilon",
           "normalized": "Parser a()",
@@ -1849,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreedy variant of \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "greedy",
           "package": "uu-tc",
@@ -1859,6 +2002,7 @@
         "index": {
           "description": "Greedy variant of many",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "greedy",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -1874,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreedy variant of \u003ccode\u003e\u003ca\u003emany1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "greedy1",
           "package": "uu-tc",
@@ -1884,6 +2029,7 @@
         "index": {
           "description": "Greedy variant of many1",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "greedy1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -1899,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003ep\u003c/code\u003e and a separator parser \u003ccode\u003es\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003ep\u003c/code\u003es that is separated by \u003ccode\u003es\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "listOf",
           "package": "uu-tc",
@@ -1909,6 +2056,7 @@
         "index": {
           "description": "Takes parser and separator parser Parses sequence of that is separated by",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "listOf",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -1925,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses many, i.e., zero or more, occurrences of\n a given parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "many",
           "package": "uu-tc",
@@ -1935,6 +2084,7 @@
         "index": {
           "description": "Parses many i.e zero or more occurrences of given parser",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "many",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -1950,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esome\u003c/a\u003e\u003c/code\u003e. Provided for compatibility with\n the lecture notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "many1",
           "package": "uu-tc",
@@ -1960,6 +2111,7 @@
         "index": {
           "description": "Same as some Provided for compatibility with the lecture notes",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "many1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -1975,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an optional element. Takes the default value\n as its second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "option",
           "package": "uu-tc",
@@ -1985,6 +2138,7 @@
         "index": {
           "description": "Parses an optional element Takes the default value as its second argument",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "option",
           "normalized": "Parser a b-\u003eb-\u003eParser a b",
@@ -2000,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eoption\u003c/a\u003e\u003c/code\u003e that returns a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e,\n provided for compatibility with the applicative interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "optional",
           "package": "uu-tc",
@@ -2010,6 +2165,7 @@
         "index": {
           "description": "Variant of option that returns Maybe provided for compatibility with the applicative interface",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "optional",
           "normalized": "Parser a b-\u003eParser a(Maybe b)",
@@ -2025,6 +2181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes three parsers: a delimiter, the parser for the\n content, and another delimiter. Constructs a sequence of\n the three, but returns only the result of the enclosed\n parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "pack",
           "package": "uu-tc",
@@ -2035,6 +2192,7 @@
         "index": {
           "description": "Takes three parsers delimiter the parser for the content and another delimiter Constructs sequence of the three but returns only the result of the enclosed parser",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "pack",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a d-\u003eParser a c",
@@ -2050,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of parsers and combines them in\n sequence, returning a list of results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "sequence",
           "package": "uu-tc",
@@ -2060,6 +2219,7 @@
         "index": {
           "description": "Takes list of parsers and combines them in sequence returning list of results",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "sequence",
           "normalized": "[Parser a b]-\u003eParser a[b]",
@@ -2075,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser some, i.e., one or more, occurrences of\n a given parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "some",
           "package": "uu-tc",
@@ -2085,6 +2246,7 @@
         "index": {
           "description": "Parser some i.e one or more occurrences of given parser",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "some",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -2100,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a specific given symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "symbol",
           "package": "uu-tc",
@@ -2110,6 +2273,7 @@
         "index": {
           "description": "Parses specific given symbol",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "symbol",
           "normalized": "a-\u003eParser a a",
@@ -2125,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a specific given sequence of symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel.Derived",
           "name": "token",
           "package": "uu-tc",
@@ -2135,6 +2300,7 @@
         "index": {
           "description": "Parses specific given sequence of symbols",
           "hierarchy": "ParseLib Parallel Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel.Derived",
           "name": "token",
           "normalized": "[a]-\u003eParser a[a]",
@@ -2149,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Parallel",
           "name": "Parallel",
           "package": "uu-tc",
@@ -2157,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Parallel",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Parallel",
           "name": "Parallel",
           "package": "uu-tc",
@@ -2170,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "Applications",
           "package": "uu-tc",
@@ -2178,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "Applications",
           "package": "uu-tc",
@@ -2191,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "braced",
           "package": "uu-tc",
@@ -2200,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "braced",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -2214,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "bracketed",
           "package": "uu-tc",
@@ -2223,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "bracketed",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -2237,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "commaList",
           "package": "uu-tc",
@@ -2246,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "commaList",
           "normalized": "Parser Char a-\u003eParser Char[a]",
@@ -2261,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "digit",
           "package": "uu-tc",
@@ -2270,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "digit",
           "package": "uu-tc",
@@ -2282,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "identifier",
           "package": "uu-tc",
@@ -2291,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "identifier",
           "package": "uu-tc",
@@ -2303,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "integer",
           "package": "uu-tc",
@@ -2312,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "integer",
           "package": "uu-tc",
@@ -2324,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "natural",
           "package": "uu-tc",
@@ -2333,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "natural",
           "package": "uu-tc",
@@ -2345,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "newdigit",
           "package": "uu-tc",
@@ -2354,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "newdigit",
           "package": "uu-tc",
@@ -2366,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "parenthesised",
           "package": "uu-tc",
@@ -2375,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "parenthesised",
           "normalized": "Parser Char a-\u003eParser Char a",
@@ -2389,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Applications",
           "name": "semiList",
           "package": "uu-tc",
@@ -2398,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Applications",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Applications",
           "name": "semiList",
           "normalized": "Parser Char a-\u003eParser Char[a]",
@@ -2413,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "Core",
           "package": "uu-tc",
@@ -2421,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "Core",
           "package": "uu-tc",
@@ -2435,6 +2627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn input string is mapped to a list of successful parses.\n For each succesful parse, we return the result of type \u003ccode\u003er\u003c/code\u003e,\n and the remaining input string. The input must be a list of\n symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "Parser",
           "package": "uu-tc",
@@ -2444,6 +2637,7 @@
         "index": {
           "description": "An input string is mapped to list of successful parses For each succesful parse we return the result of type and the remaining input string The input must be list of symbols",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "Parser",
           "package": "uu-tc",
@@ -2458,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoice between two parsers with the same result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003c|\u003e)",
           "package": "uu-tc",
@@ -2468,6 +2663,7 @@
         "index": {
           "description": "Choice between two parsers with the same result type",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Parser a b-\u003eParser a b-\u003eParser a b",
@@ -2483,6 +2679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the results of a parser. The \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e combinator\n can also be defined in terms of \u003ccode\u003e\u003ca\u003esucceed\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e f \u003c$\u003e p  =  succeed f \u003c*\u003e p\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003c$\u003e)",
           "package": "uu-tc",
@@ -2493,6 +2690,7 @@
         "index": {
           "description": "Map function over the results of parser The combinator can also be defined in terms of succeed and succeed",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003eParser c a-\u003eParser c b",
@@ -2508,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBiased choice. If the left hand side parser succeeds,\n the right hand side is not considered. Use with care!\n\u003c/p\u003e\u003cp\u003eSequence of two parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003c*\u003e)",
           "package": "uu-tc",
@@ -2518,6 +2717,7 @@
         "index": {
           "description": "Biased choice If the left hand side parser succeeds the right hand side is not considered Use with care Sequence of two parsers",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "Parser a(b-\u003ec)-\u003eParser a b-\u003eParser a c",
@@ -2532,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003c\u003c|\u003e)",
           "package": "uu-tc",
@@ -2541,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003c\u003c|\u003e) \u003c\u003c|\u003e",
           "normalized": "(a-\u003e[b])-\u003e(a-\u003e[b])-\u003ea-\u003e[b]",
@@ -2556,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic bind. Do not use this combinator unless absolutely\n required. Most sequencing can be done with \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003e\u003e=)",
           "package": "uu-tc",
@@ -2566,6 +2769,7 @@
         "index": {
           "description": "Monadic bind Do not use this combinator unless absolutely required Most sequencing can be done with",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "(\u003e\u003e=) \u003e\u003e=",
           "normalized": "Parser a b-\u003e(b-\u003eParser a c)-\u003eParser a c",
@@ -2581,6 +2785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any single symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "anySymbol",
           "package": "uu-tc",
@@ -2591,6 +2796,7 @@
         "index": {
           "description": "Parses any single symbol",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "anySymbol",
           "package": "uu-tc",
@@ -2605,6 +2811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for the empty language, i.e., parser that always fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "empty",
           "package": "uu-tc",
@@ -2615,6 +2822,7 @@
         "index": {
           "description": "Parser for the empty language i.e parser that always fails",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "empty",
           "package": "uu-tc",
@@ -2628,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e; provided for compatibility with the lecture notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "failp",
           "package": "uu-tc",
@@ -2638,6 +2847,7 @@
         "index": {
           "description": "Same as empty provided for compatibility with the lecture notes",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "failp",
           "package": "uu-tc",
@@ -2651,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the rest of the input without consuming anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "look",
           "package": "uu-tc",
@@ -2661,6 +2872,7 @@
         "index": {
           "description": "Returns the rest of the input without consuming anything",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "look",
           "normalized": "Parser a[a]",
@@ -2676,6 +2888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor compatibility with the \u003ca\u003enewtype\u003c/a\u003e version of the library:\n runs a parser on a given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "parse",
           "package": "uu-tc",
@@ -2686,6 +2899,7 @@
         "index": {
           "description": "For compatibility with the newtype version of the library runs parser on given string",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "parse",
           "normalized": "Parser a b-\u003e[a]-\u003e[(b,[a])]",
@@ -2701,6 +2915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esucceed\u003c/a\u003e\u003c/code\u003e; provided for compatiblity with the applicative\n interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "pure",
           "package": "uu-tc",
@@ -2711,6 +2926,7 @@
         "index": {
           "description": "Same as succeed provided for compatiblity with the applicative interface",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "pure",
           "normalized": "a-\u003eParser b a",
@@ -2726,6 +2942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a predicate and returns a parser that parses a\n single symbol satisfying that predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "satisfy",
           "package": "uu-tc",
@@ -2736,6 +2953,7 @@
         "index": {
           "description": "Takes predicate and returns parser that parses single symbol satisfying that predicate",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParser a a",
@@ -2751,6 +2969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser that always succeeds, i.e., for epsilon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Core",
           "name": "succeed",
           "package": "uu-tc",
@@ -2761,6 +2980,7 @@
         "index": {
           "description": "Parser that always succeeds i.e for epsilon",
           "hierarchy": "ParseLib Simple Core",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Core",
           "name": "succeed",
           "normalized": "a-\u003eParser b a",
@@ -2775,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "Derived",
           "package": "uu-tc",
@@ -2783,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "Derived",
           "package": "uu-tc",
@@ -2797,6 +3019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the left\n argument.\n\u003c/p\u003e\u003cpre\u003e f *\u003e p = flip const \u003c$\u003e p \u003c*\u003e q\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "(*\u003e)",
           "package": "uu-tc",
@@ -2807,6 +3030,7 @@
         "index": {
           "description": "Variant of that ignores the result of the left argument flip const",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "(*\u003e) *\u003e",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a c",
@@ -2822,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the parser.\n\u003c/p\u003e\u003cpre\u003e f \u003c$ p = const f \u003c$\u003e p\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "(\u003c$)",
           "package": "uu-tc",
@@ -2832,6 +3057,7 @@
         "index": {
           "description": "Variant of that ignores the result of the parser const",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eParser b c-\u003eParser b a",
@@ -2847,6 +3073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e that ignores the result of the right\n argument.\n\u003c/p\u003e\u003cpre\u003e f \u003c* p = const \u003c$\u003e p \u003c*\u003e q\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "(\u003c*)",
           "package": "uu-tc",
@@ -2857,6 +3084,7 @@
         "index": {
           "description": "Variant of that ignores the result of the right argument const",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "(\u003c*) \u003c*",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a b",
@@ -2872,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003epe\u003c/code\u003e and an operator parser \u003ccode\u003epo\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003epe\u003c/code\u003es separated by \u003ccode\u003epo\u003c/code\u003es. The results are\n combined using the operator associated with \u003ccode\u003epo\u003c/code\u003e in a\n left-associative way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "chainl",
           "package": "uu-tc",
@@ -2882,6 +3111,7 @@
         "index": {
           "description": "Takes parser pe and an operator parser po Parses sequence of pe separated by po The results are combined using the operator associated with po in left-associative way",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "chainl",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -2897,6 +3127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003epe\u003c/code\u003e and an operator parser \u003ccode\u003epo\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003epe\u003c/code\u003es separated by \u003ccode\u003epo\u003c/code\u003es. The results are\n combined using the operator associated with \u003ccode\u003epo\u003c/code\u003e in a\n right-associative way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "chainr",
           "package": "uu-tc",
@@ -2907,6 +3138,7 @@
         "index": {
           "description": "Takes parser pe and an operator parser po Parses sequence of pe separated by po The results are combined using the operator associated with po in right-associative way",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "chainr",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -2922,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of parsers and combines them using\n choice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "choice",
           "package": "uu-tc",
@@ -2932,6 +3165,7 @@
         "index": {
           "description": "Takes list of parsers and combines them using choice",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "choice",
           "normalized": "[Parser a b]-\u003eParser a b",
@@ -2947,6 +3181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds only on the end of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "eof",
           "package": "uu-tc",
@@ -2957,6 +3192,7 @@
         "index": {
           "description": "Succeeds only on the end of the input",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "eof",
           "normalized": "Parser a()",
@@ -2972,6 +3208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for epsilon that does return '()'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "epsilon",
           "package": "uu-tc",
@@ -2982,6 +3219,7 @@
         "index": {
           "description": "Parser for epsilon that does return",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "epsilon",
           "normalized": "Parser a()",
@@ -2997,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreedy variant of \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "greedy",
           "package": "uu-tc",
@@ -3007,6 +3246,7 @@
         "index": {
           "description": "Greedy variant of many",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "greedy",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -3022,6 +3262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreedy variant of \u003ccode\u003e\u003ca\u003emany1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "greedy1",
           "package": "uu-tc",
@@ -3032,6 +3273,7 @@
         "index": {
           "description": "Greedy variant of many1",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "greedy1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -3047,6 +3289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a parser \u003ccode\u003ep\u003c/code\u003e and a separator parser \u003ccode\u003es\u003c/code\u003e. Parses\n a sequence of \u003ccode\u003ep\u003c/code\u003es that is separated by \u003ccode\u003es\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "listOf",
           "package": "uu-tc",
@@ -3057,6 +3300,7 @@
         "index": {
           "description": "Takes parser and separator parser Parses sequence of that is separated by",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "listOf",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -3073,6 +3317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses many, i.e., zero or more, occurrences of\n a given parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "many",
           "package": "uu-tc",
@@ -3083,6 +3328,7 @@
         "index": {
           "description": "Parses many i.e zero or more occurrences of given parser",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "many",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -3098,6 +3344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esome\u003c/a\u003e\u003c/code\u003e. Provided for compatibility with\n the lecture notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "many1",
           "package": "uu-tc",
@@ -3108,6 +3355,7 @@
         "index": {
           "description": "Same as some Provided for compatibility with the lecture notes",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "many1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -3123,6 +3371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an optional element. Takes the default value\n as its second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "option",
           "package": "uu-tc",
@@ -3133,6 +3382,7 @@
         "index": {
           "description": "Parses an optional element Takes the default value as its second argument",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "option",
           "normalized": "Parser a b-\u003eb-\u003eParser a b",
@@ -3148,6 +3398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eoption\u003c/a\u003e\u003c/code\u003e that returns a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e,\n provided for compatibility with the applicative interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "optional",
           "package": "uu-tc",
@@ -3158,6 +3409,7 @@
         "index": {
           "description": "Variant of option that returns Maybe provided for compatibility with the applicative interface",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "optional",
           "normalized": "Parser a b-\u003eParser a(Maybe b)",
@@ -3173,6 +3425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes three parsers: a delimiter, the parser for the\n content, and another delimiter. Constructs a sequence of\n the three, but returns only the result of the enclosed\n parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "pack",
           "package": "uu-tc",
@@ -3183,6 +3436,7 @@
         "index": {
           "description": "Takes three parsers delimiter the parser for the content and another delimiter Constructs sequence of the three but returns only the result of the enclosed parser",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "pack",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a d-\u003eParser a c",
@@ -3198,6 +3452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of parsers and combines them in\n sequence, returning a list of results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "sequence",
           "package": "uu-tc",
@@ -3208,6 +3463,7 @@
         "index": {
           "description": "Takes list of parsers and combines them in sequence returning list of results",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "sequence",
           "normalized": "[Parser a b]-\u003eParser a[b]",
@@ -3223,6 +3479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser some, i.e., one or more, occurrences of\n a given parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "some",
           "package": "uu-tc",
@@ -3233,6 +3490,7 @@
         "index": {
           "description": "Parser some i.e one or more occurrences of given parser",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "some",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -3248,6 +3506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a specific given symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "symbol",
           "package": "uu-tc",
@@ -3258,6 +3517,7 @@
         "index": {
           "description": "Parses specific given symbol",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "symbol",
           "normalized": "a-\u003eParser a a",
@@ -3273,6 +3533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a specific given sequence of symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple.Derived",
           "name": "token",
           "package": "uu-tc",
@@ -3283,6 +3544,7 @@
         "index": {
           "description": "Parses specific given sequence of symbols",
           "hierarchy": "ParseLib Simple Derived",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple.Derived",
           "name": "token",
           "normalized": "[a]-\u003eParser a[a]",
@@ -3297,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib.Simple",
           "name": "Simple",
           "package": "uu-tc",
@@ -3305,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "ParseLib Simple",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib.Simple",
           "name": "Simple",
           "package": "uu-tc",
@@ -3318,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:28 UTC 2014",
           "module": "ParseLib",
           "name": "ParseLib",
           "package": "uu-tc",
@@ -3326,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "ParseLib",
+          "indexed": "2014-03-11T20:32:28",
           "module": "ParseLib",
           "name": "ParseLib",
           "package": "uu-tc",

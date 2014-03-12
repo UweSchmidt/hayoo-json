@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "INblobs"
+        "phrase": "INblobs",
+        "type": "phrase"
       },
       "type": "context"
     }

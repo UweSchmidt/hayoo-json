@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tsparse"
+        "phrase": "tsparse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParses U.S. federal Thrift Savings Plan (TSP) statements.\n\u003c/p\u003e\u003cp\u003eThis module works with PDF TSP statements downloaded from the TSP\n web site. It works with the statement format used as of July 2013.\n The format recently changed to allow for Roth contributions.  This\n works on civilian, FERS statements; maybe it works on others, but I\n cannot test these (if you test these and find bugs, send me patches\n and I will merge them.)\n\u003c/p\u003e\u003cp\u003eYou need to have the pdftotext program installed and available on\n your PATH.  This program is part of the poppler project.  On Debian\n GNU/Linux systems, it is part of the poppler-utils package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "TsParse",
           "package": "tsparse",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parses U.S federal Thrift Savings Plan TSP statements This module works with PDF TSP statements downloaded from the TSP web site It works with the statement format used as of July The format recently changed to allow for Roth contributions This works on civilian FERS statements maybe it works on others but cannot test these if you test these and find bugs send me patches and will merge them You need to have the pdftotext program installed and available on your PATH This program is part of the poppler project On Debian GNU Linux systems it is part of the poppler-utils package",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "TsParse",
           "package": "tsparse",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single fund in the \u003ccode\u003eYOUR TRANSACTION DETAIL BY FUND\u003c/code\u003e section\n (e.g. the \u003ccode\u003eG Fund\u003c/code\u003e, \u003ccode\u003eL 2040 Fund\u003c/code\u003e, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFund",
           "package": "tsparse",
@@ -51,6 +54,7 @@
         "index": {
           "description": "single fund in the YOUR TRANSACTION DETAIL BY FUND section e.g the Fund Fund etc",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFund",
           "package": "tsparse",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe beginning balance in a \u003ccode\u003eYOUR TRANSACTION DETAIL BY FUND\u003c/code\u003e\n section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFundBeginningBal",
           "package": "tsparse",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The beginning balance in YOUR TRANSACTION DETAIL BY FUND section",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFundBeginningBal",
           "package": "tsparse",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnding balance in the \u003ccode\u003eYOUR TRANSACTION DETAIL BY FUND\u003c/code\u003e section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFundEndingBal",
           "package": "tsparse",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Ending balance in the YOUR TRANSACTION DETAIL BY FUND section",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFundEndingBal",
           "package": "tsparse",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGain or Loss This Quarter in the \u003ccode\u003eYOUR TRANSACTION DETAIL BY\n FUND\u003c/code\u003e section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFundGainLoss",
           "package": "tsparse",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Gain or Loss This Quarter in the YOUR TRANSACTION DETAIL BY FUND section",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFundGainLoss",
           "package": "tsparse",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single posting in the \u003ccode\u003eYOUR TRANSACTION DETAIL BY FUND\u003c/code\u003e section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFundPosting",
           "package": "tsparse",
@@ -143,6 +154,7 @@
         "index": {
           "description": "single posting in the YOUR TRANSACTION DETAIL BY FUND section",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFundPosting",
           "package": "tsparse",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the entire \u003ccode\u003eYOUR TRANSACTION DETAIL BY SOURCE\u003c/code\u003e section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySource",
           "package": "tsparse",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Represents the entire YOUR TRANSACTION DETAIL BY SOURCE section",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySource",
           "package": "tsparse",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eYOUR TRANSACTION DETAIL BY SOURCE\u003c/code\u003e Beginning Balance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySourceBeginningBal",
           "package": "tsparse",
@@ -189,6 +204,7 @@
         "index": {
           "description": "YOUR TRANSACTION DETAIL BY SOURCE Beginning Balance",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySourceBeginningBal",
           "package": "tsparse",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eYOUR TRANSACTION DETAIL BY SOURCE\u003c/code\u003e Ending Balance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySourceEndingBal",
           "package": "tsparse",
@@ -212,6 +229,7 @@
         "index": {
           "description": "YOUR TRANSACTION DETAIL BY SOURCE Ending Balance",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySourceEndingBal",
           "package": "tsparse",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eYOUR TRANSACTION DETAIL BY SOURCE\u003c/code\u003e Gain or Loss This Quarter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySourceGainLoss",
           "package": "tsparse",
@@ -235,6 +254,7 @@
         "index": {
           "description": "YOUR TRANSACTION DETAIL BY SOURCE Gain or Loss This Quarter",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySourceGainLoss",
           "package": "tsparse",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySourcePosting",
           "package": "tsparse",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySourcePosting",
           "package": "tsparse",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TSP statement has several lines in the \u003ccode\u003eYOUR TRANSACTION\n DETAIL BY SOURCE\u003c/code\u003e section that contain summary data: \u003ccode\u003eBeginning\n Balance\u003c/code\u003e, \u003ccode\u003eGain or Loss This Quarter\u003c/code\u003e, and \u003ccode\u003eEnding Balance\u003c/code\u003e. Since\n the columns in these lines are all the same they are all\n represented by this single type. Type synonyms\n \u003ccode\u003e\u003ca\u003eBySourceBeginningBal\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBySourceGainLoss\u003c/a\u003e\u003c/code\u003e, and\n \u003ccode\u003e\u003ca\u003eBySourceEndingBal\u003c/a\u003e\u003c/code\u003e are used as appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySourceSummary",
           "package": "tsparse",
@@ -279,6 +302,7 @@
         "index": {
           "description": "The TSP statement has several lines in the YOUR TRANSACTION DETAIL BY SOURCE section that contain summary data Beginning Balance Gain or Loss This Quarter and Ending Balance Since the columns in these lines are all the same they are all represented by this single type Type synonyms BySourceBeginningBal BySourceGainLoss and BySourceEndingBal are used as appropriate",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySourceSummary",
           "package": "tsparse",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny data type that is Dollars on the TSP statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "Dollars",
           "package": "tsparse",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Any data type that is Dollars on the TSP statement",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "Dollars",
           "package": "tsparse",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a fund, eg \u003ccode\u003eC Fund\u003c/code\u003e. This is a list of words; each\n word will not contain any spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "FundName",
           "package": "tsparse",
@@ -325,6 +352,7 @@
         "index": {
           "description": "The name of fund eg Fund This is list of words each word will not contain any spaces",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "FundName",
           "package": "tsparse",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "Pretty",
           "package": "tsparse",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "Pretty",
           "package": "tsparse",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny data type that is a number of shares on the TSP statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "Shares",
           "package": "tsparse",
@@ -369,6 +400,7 @@
         "index": {
           "description": "Any data type that is number of shares on the TSP statement",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "Shares",
           "package": "tsparse",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll data that is parsed from the TSP statement is in this\n type. The parser does not attempt to parse any of the data that is\n on Page 1 of the PDF; most of this data all appears elsewhere on\n the statement and can be calculated using the data that is in this\n type (and besides, the data on Page 1 is in a multi-column format\n that would be difficult to parse; since the data is all elsewhere,\n it's not worth the effort.) One exception is the investment\n allocation for future contributions, which does not appear\n elsewhere.\n\u003c/p\u003e\u003cp\u003eIn addition, the statement contains a quarterly account summary.\n This also is not parsed because it can be derived from all the data\n that is elsewhere on the statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "TspStatement",
           "package": "tsparse",
@@ -392,6 +425,7 @@
         "index": {
           "description": "All data that is parsed from the TSP statement is in this type The parser does not attempt to parse any of the data that is on Page of the PDF most of this data all appears elsewhere on the statement and can be calculated using the data that is in this type and besides the data on Page is in multi-column format that would be difficult to parse since the data is all elsewhere it not worth the effort One exception is the investment allocation for future contributions which does not appear elsewhere In addition the statement contains quarterly account summary This also is not parsed because it can be derived from all the data that is elsewhere on the statement",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "TspStatement",
           "package": "tsparse",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of words that indicates the transaction type.  Each string\n in this list will not have any spaces in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "TxnType",
           "package": "tsparse",
@@ -415,6 +450,7 @@
         "index": {
           "description": "list of words that indicates the transaction type Each string in this list will not have any spaces in it",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "TxnType",
           "package": "tsparse",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFund",
           "package": "tsparse",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFund",
           "package": "tsparse",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFundBeginningBal",
           "package": "tsparse",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFundBeginningBal",
           "package": "tsparse",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFundEndingBal",
           "package": "tsparse",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFundEndingBal",
           "package": "tsparse",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFundGainLoss",
           "package": "tsparse",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFundGainLoss",
           "package": "tsparse",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "ByFundPosting",
           "package": "tsparse",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "ByFundPosting",
           "package": "tsparse",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySource",
           "package": "tsparse",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySource",
           "package": "tsparse",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySourcePosting",
           "package": "tsparse",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySourcePosting",
           "package": "tsparse",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "BySourceSummary",
           "package": "tsparse",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "BySourceSummary",
           "package": "tsparse",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "TspStatement",
           "package": "tsparse",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "TspStatement",
           "package": "tsparse",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfBeginningBal",
           "package": "tsparse",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfBeginningBal",
           "package": "tsparse",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfEndingBal",
           "package": "tsparse",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfEndingBal",
           "package": "tsparse",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfFundName",
           "package": "tsparse",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfFundName",
           "package": "tsparse",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfGainLoss",
           "package": "tsparse",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfGainLoss",
           "package": "tsparse",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfPostings",
           "package": "tsparse",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfPostings",
           "normalized": "[ByFundPosting]",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfbbDollarBalance",
           "package": "tsparse",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfbbDollarBalance",
           "package": "tsparse",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfbbNumShares",
           "package": "tsparse",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfbbNumShares",
           "package": "tsparse",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfbbSharePrice",
           "package": "tsparse",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfbbSharePrice",
           "package": "tsparse",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfebDollarBalance",
           "package": "tsparse",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfebDollarBalance",
           "package": "tsparse",
@@ -826,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfebNumShares",
           "package": "tsparse",
@@ -835,6 +908,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfebNumShares",
           "package": "tsparse",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfebSharePrice",
           "package": "tsparse",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfebSharePrice",
           "package": "tsparse",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfglDollarBalance",
           "package": "tsparse",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfglDollarBalance",
           "package": "tsparse",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfpNumShares",
           "package": "tsparse",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfpNumShares",
           "package": "tsparse",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfpPostingDate",
           "package": "tsparse",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfpPostingDate",
           "package": "tsparse",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfpRoth",
           "package": "tsparse",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfpRoth",
           "package": "tsparse",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfpSharePrice",
           "package": "tsparse",
@@ -967,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfpSharePrice",
           "package": "tsparse",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfpTotal",
           "package": "tsparse",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfpTotal",
           "package": "tsparse",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfpTraditional",
           "package": "tsparse",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfpTraditional",
           "package": "tsparse",
@@ -1024,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bfpTxnType",
           "package": "tsparse",
@@ -1033,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bfpTxnType",
           "normalized": "[String]",
@@ -1048,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bsBeginningBal",
           "package": "tsparse",
@@ -1057,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bsBeginningBal",
           "package": "tsparse",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bsEndingBal",
           "package": "tsparse",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bsEndingBal",
           "package": "tsparse",
@@ -1092,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bsGainLoss",
           "package": "tsparse",
@@ -1101,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bsGainLoss",
           "package": "tsparse",
@@ -1114,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bsTxns",
           "package": "tsparse",
@@ -1123,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bsTxns",
           "normalized": "[BySourcePosting]",
@@ -1138,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bspAutomatic",
           "package": "tsparse",
@@ -1147,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bspAutomatic",
           "package": "tsparse",
@@ -1160,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bspMatching",
           "package": "tsparse",
@@ -1169,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bspMatching",
           "package": "tsparse",
@@ -1182,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bspPayrollOffice",
           "package": "tsparse",
@@ -1191,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bspPayrollOffice",
           "package": "tsparse",
@@ -1204,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bspPostingDate",
           "package": "tsparse",
@@ -1213,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bspPostingDate",
           "package": "tsparse",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bspRoth",
           "package": "tsparse",
@@ -1235,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bspRoth",
           "package": "tsparse",
@@ -1248,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bspTotal",
           "package": "tsparse",
@@ -1257,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bspTotal",
           "package": "tsparse",
@@ -1270,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bspTraditional",
           "package": "tsparse",
@@ -1279,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bspTraditional",
           "package": "tsparse",
@@ -1292,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bspTxnType",
           "package": "tsparse",
@@ -1301,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bspTxnType",
           "package": "tsparse",
@@ -1314,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bssAuto",
           "package": "tsparse",
@@ -1323,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bssAuto",
           "package": "tsparse",
@@ -1336,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bssMatching",
           "package": "tsparse",
@@ -1345,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bssMatching",
           "package": "tsparse",
@@ -1358,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bssRoth",
           "package": "tsparse",
@@ -1367,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bssRoth",
           "package": "tsparse",
@@ -1380,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bssTotal",
           "package": "tsparse",
@@ -1389,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bssTotal",
           "package": "tsparse",
@@ -1402,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "bssTraditional",
           "package": "tsparse",
@@ -1411,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "bssTraditional",
           "package": "tsparse",
@@ -1425,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a plain text TSP statement.  The input must be generated\n by the pdftotext program.  This library was tested against\n pdftotext version 0.18.4, which came with Debian Wheezy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "parseTsp",
           "package": "tsparse",
@@ -1435,6 +1562,7 @@
         "index": {
           "description": "Parses plain text TSP statement The input must be generated by the pdftotext program This library was tested against pdftotext version which came with Debian Wheezy",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "parseTsp",
           "package": "tsparse",
@@ -1449,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a TSP statement from a file.  This function relies upon\n the \u003ccode\u003epdftotext\u003c/code\u003e program.  This program must exist somewhere in your\n PATH.  This library was tested against pdftotext version 0.18.4,\n which came with Debian Wheezy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "parseTspFromFile",
           "package": "tsparse",
@@ -1458,6 +1587,7 @@
         "index": {
           "description": "Parses TSP statement from file This function relies upon the pdftotext program This program must exist somewhere in your PATH This library was tested against pdftotext version which came with Debian Wheezy",
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "parseTspFromFile",
           "normalized": "String-\u003eIO TspStatement",
@@ -1473,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "pretty",
           "package": "tsparse",
@@ -1482,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -1496,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "tspDetailByFund",
           "package": "tsparse",
@@ -1505,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "tspDetailByFund",
           "normalized": "[ByFund]",
@@ -1520,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:49 UTC 2014",
           "module": "TsParse",
           "name": "tspDetailBySource",
           "package": "tsparse",
@@ -1529,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "TsParse",
+          "indexed": "2014-03-11T20:25:49",
           "module": "TsParse",
           "name": "tspDetailBySource",
           "package": "tsparse",

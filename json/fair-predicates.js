@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fair-predicates"
+        "phrase": "fair-predicates",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Haskell library provides an implementation of Boolean\n predicates with an interleaved evaluation of arguments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "Answer",
           "package": "fair-predicates",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This Haskell library provides an implementation of Boolean predicates with an interleaved evaluation of arguments",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "Answer",
           "package": "fair-predicates",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eAnswer\u003c/code\u003es are like \u003ccode\u003eBool\u003c/code\u003es but can be evaluated incrementally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "Answer",
           "package": "fair-predicates",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Answer are like Bool but can be evaluated incrementally",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "Answer",
           "package": "fair-predicates",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction of answers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "(/\\)",
           "package": "fair-predicates",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Conjunction of answers",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "(/\\) /\\",
           "normalized": "Answer-\u003eAnswer-\u003eAnswer",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction of answers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "(\\/)",
           "package": "fair-predicates",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Disjunction of answers",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "(\\/) \\/",
           "normalized": "Answer-\u003eAnswer-\u003eAnswer",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an answer from a boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "answer",
           "package": "fair-predicates",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Creates an answer from boolean",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "answer",
           "normalized": "Bool-\u003eAnswer",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe negative answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "false",
           "package": "fair-predicates",
@@ -150,6 +161,7 @@
         "index": {
           "description": "The negative answer",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "false",
           "package": "fair-predicates",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates an answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "fromAnswer",
           "package": "fair-predicates",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Evaluates an answer",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "fromAnswer",
           "normalized": "Answer-\u003eBool",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegates an answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "neg",
           "package": "fair-predicates",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Negates an answer",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "neg",
           "normalized": "Answer-\u003eAnswer",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe positive answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:17 UTC 2014",
           "module": "Data.Answer",
           "name": "true",
           "package": "fair-predicates",
@@ -224,6 +241,7 @@
         "index": {
           "description": "The positive answer",
           "hierarchy": "Data Answer",
+          "indexed": "2014-03-11T18:06:17",
           "module": "Data.Answer",
           "name": "true",
           "package": "fair-predicates",

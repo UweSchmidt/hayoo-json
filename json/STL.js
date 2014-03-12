@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "STL"
+        "phrase": "STL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "Parser",
           "package": "STL",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "Parser",
           "package": "STL",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "loop",
           "package": "STL",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "loop",
           "normalized": "Parser Text(Vector,Vector,Vector)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "nameParser",
           "package": "STL",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "nameParser",
           "package": "STL",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "normalParser",
           "package": "STL",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "normalParser",
           "package": "STL",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "ss",
           "package": "STL",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "ss",
           "normalized": "Parser a-\u003eParser a",
@@ -154,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "text",
           "package": "STL",
@@ -163,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "text",
           "normalized": "Text-\u003eParser Text",
@@ -177,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "triangle",
           "package": "STL",
@@ -186,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "triangle",
           "package": "STL",
@@ -198,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "v3",
           "package": "STL",
@@ -207,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "v3",
           "package": "STL",
@@ -219,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Parser",
           "name": "vertex",
           "package": "STL",
@@ -228,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Parser",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Parser",
           "name": "vertex",
           "package": "STL",
@@ -240,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Printer",
           "name": "Printer",
           "package": "STL",
@@ -248,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Printer",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Printer",
           "name": "Printer",
           "package": "STL",
@@ -288,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Printer",
           "name": "triangle",
           "package": "STL",
@@ -297,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Printer",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Printer",
           "name": "triangle",
           "normalized": "Triangle-\u003eDoc",
@@ -311,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Printer",
           "name": "v3",
           "package": "STL",
@@ -320,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Printer",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Printer",
           "name": "v3",
           "normalized": "Vector-\u003eDoc",
@@ -334,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Printer",
           "name": "vertex",
           "package": "STL",
@@ -343,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Printer",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Printer",
           "name": "vertex",
           "normalized": "Vector-\u003eDoc",
@@ -357,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Types",
           "name": "Types",
           "package": "STL",
@@ -365,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Types",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Types",
           "name": "Types",
           "package": "STL",
@@ -379,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of an STL file, consisting of a (possibly empty)\n object name, and a list of triangles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Types",
           "name": "STL",
           "package": "STL",
@@ -388,6 +417,7 @@
         "index": {
           "description": "representation of an STL file consisting of possibly empty object name and list of triangles",
           "hierarchy": "Graphics Formats STL Types",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Types",
           "name": "STL",
           "package": "STL",
@@ -402,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single triangle in STL is represented by a normal vector and\n three vertices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Types",
           "name": "Triangle",
           "package": "STL",
@@ -411,6 +442,7 @@
         "index": {
           "description": "single triangle in STL is represented by normal vector and three vertices",
           "hierarchy": "Graphics Formats STL Types",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Types",
           "name": "Triangle",
           "package": "STL",
@@ -424,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Types",
           "name": "Vector",
           "package": "STL",
@@ -432,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Types",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Types",
           "name": "Vector",
           "package": "STL",
@@ -559,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL.Types",
           "name": "triple",
           "package": "STL",
@@ -568,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL Types",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL.Types",
           "name": "triple",
           "normalized": "a-\u003ea-\u003ea-\u003e(a,a,a)",
@@ -606,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL",
           "name": "STL",
           "package": "STL",
@@ -614,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL",
           "name": "STL",
           "package": "STL",
@@ -628,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of an STL file, consisting of a (possibly empty)\n object name, and a list of triangles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL",
           "name": "STL",
           "package": "STL",
@@ -637,6 +676,7 @@
         "index": {
           "description": "representation of an STL file consisting of possibly empty object name and list of triangles",
           "hierarchy": "Graphics Formats STL",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL",
           "name": "STL",
           "package": "STL",
@@ -651,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single triangle in STL is represented by a normal vector and\n three vertices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL",
           "name": "Triangle",
           "package": "STL",
@@ -660,6 +701,7 @@
         "index": {
           "description": "single triangle in STL is represented by normal vector and three vertices",
           "hierarchy": "Graphics Formats STL",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL",
           "name": "Triangle",
           "package": "STL",
@@ -673,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:45 UTC 2014",
           "module": "Graphics.Formats.STL",
           "name": "Vector",
           "package": "STL",
@@ -681,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats STL",
+          "indexed": "2014-03-11T16:59:45",
           "module": "Graphics.Formats.STL",
           "name": "Vector",
           "package": "STL",

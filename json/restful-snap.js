@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "restful-snap"
+        "phrase": "restful-snap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful.TH",
           "name": "TH",
           "package": "restful-snap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful TH",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful.TH",
           "name": "TH",
           "package": "restful-snap",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates compiled splices for a data type.  All of the data type's\n fields must be instances of the PrimSplice type class.\n\u003c/p\u003e\u003cp\u003eUsage:\n\u003c/p\u003e\u003cpre\u003e fooSplices = $(cSplices ''Foo)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful.TH",
           "name": "cSplices",
           "package": "restful-snap",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Generates compiled splices for data type All of the data type fields must be instances of the PrimSplice type class Usage fooSplices cSplices Foo",
           "hierarchy": "Snap Restful TH",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful.TH",
           "name": "cSplices",
           "normalized": "Name-\u003eQ Exp",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerives a HasFormlet instance for a data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful.TH",
           "name": "deriveHasFormlet",
           "package": "restful-snap",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Derives HasFormlet instance for data type",
           "hierarchy": "Snap Restful TH",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful.TH",
           "name": "deriveHasFormlet",
           "normalized": "Name-\u003eQ[Dec]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates interpreted splices for a data type.  All of the data type's\n fields must be instances of the PrimSplice type class.\n\u003c/p\u003e\u003cp\u003eUsage:\n\u003c/p\u003e\u003cpre\u003e fooSplices :: Monad m =\u003e Foo -\u003e [(Text, I.Splice m)]\n fooSplices = $(iSplices ''Foo)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful.TH",
           "name": "iSplices",
           "package": "restful-snap",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Generates interpreted splices for data type All of the data type fields must be instances of the PrimSplice type class Usage fooSplices Monad Foo Text I.Splice fooSplices iSplices Foo",
           "hierarchy": "Snap Restful TH",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful.TH",
           "name": "iSplices",
           "normalized": "Name-\u003eQ Exp",
@@ -117,6 +125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "Restful",
           "package": "restful-snap",
@@ -125,6 +134,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "Restful",
           "package": "restful-snap",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of all the different types of CRUD routes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "CRUD",
           "package": "restful-snap",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Enumeration of all the different types of CRUD routes",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "CRUD",
           "package": "restful-snap",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "DBId",
           "package": "restful-snap",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "DBId",
           "package": "restful-snap",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for automatic formlet generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "HasFormlet",
           "package": "restful-snap",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Type class for automatic formlet generation",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "HasFormlet",
           "package": "restful-snap",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for automatic splice generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "PrimSplice",
           "package": "restful-snap",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Type class for automatic splice generation",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "PrimSplice",
           "package": "restful-snap",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates the data necessary to define a resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "Resource",
           "package": "restful-snap",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Encapsulates the data necessary to define resource",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "Resource",
           "package": "restful-snap",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "DBId",
           "package": "restful-snap",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "DBId",
           "package": "restful-snap",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "RCreate",
           "package": "restful-snap",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Create new item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "RCreate",
           "package": "restful-snap",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "RDestroy",
           "package": "restful-snap",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Delete an item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "RDestroy",
           "package": "restful-snap",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe form for editing an item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "REdit",
           "package": "restful-snap",
@@ -332,6 +359,7 @@
         "index": {
           "description": "The form for editing an item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "REdit",
           "package": "restful-snap",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn item index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "RIndex",
           "package": "restful-snap",
@@ -356,6 +385,7 @@
         "index": {
           "description": "An item index",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "RIndex",
           "package": "restful-snap",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe form for creating a new item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "RNew",
           "package": "restful-snap",
@@ -380,6 +411,7 @@
         "index": {
           "description": "The form for creating new item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "RNew",
           "package": "restful-snap",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "RShow",
           "package": "restful-snap",
@@ -404,6 +437,7 @@
         "index": {
           "description": "single item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "RShow",
           "package": "restful-snap",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate an item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "RUpdate",
           "package": "restful-snap",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Update an item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "RUpdate",
           "package": "restful-snap",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "Resource",
           "package": "restful-snap",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "Resource",
           "package": "restful-snap",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-stop convenience function to enable RESTful resources in your\n application.  Call this function from your initializer passing it all of\n your resources and it will add the routes and splices for you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "addResource",
           "package": "restful-snap",
@@ -473,6 +512,7 @@
         "index": {
           "description": "One-stop convenience function to enable RESTful resources in your application Call this function from your initializer passing it all of your resources and it will add the routes and splices for you",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "addResource",
           "normalized": "Resource-\u003e[(CRUD,Handler a b())]-\u003e[(Text,Handler a b())]-\u003e[(Text,Handler a b())]-\u003eSnaplet(Heist a)-\u003eInitializer a b()",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like \u003ccode\u003e\u003ca\u003eaddResource\u003c/a\u003e\u003c/code\u003e, but makes the handlers relative to the current\n snaplet's root.  Use this function if you're writing a snaplet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "addResourceRelative",
           "package": "restful-snap",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Just like addResource but makes the handlers relative to the current snaplet root Use this function if you re writing snaplet",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "addResourceRelative",
           "normalized": "Resource-\u003e[(CRUD,Handler a b())]-\u003e[(Text,Handler a b())]-\u003e[(Text,Handler a b())]-\u003eSnaplet(Heist a)-\u003eInitializer a b()",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "cPrimShow",
           "package": "restful-snap",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "cPrimShow",
           "normalized": "a-\u003eBuilder",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "cPrimSplice",
           "package": "restful-snap",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "cPrimSplice",
           "normalized": "a-\u003eBuilder",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the path for creating a resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "createPath",
           "package": "restful-snap",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Generates the path for creating resource",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "createPath",
           "normalized": "Resource-\u003eText",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the path for deleting a resource item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "destroyPath",
           "package": "restful-snap",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Generates the path for deleting resource item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "destroyPath",
           "normalized": "Resource-\u003eDBId-\u003eText",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the path for a form to a new resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "editPath",
           "package": "restful-snap",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Generates the path for form to new resource",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "editPath",
           "normalized": "Resource-\u003eDBId-\u003eText",
@@ -639,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "formlet",
           "package": "restful-snap",
@@ -648,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "formlet",
           "package": "restful-snap",
@@ -661,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the \u003ccode\u003eRESTFormAction\u003c/code\u003e param. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "getFormAction",
           "package": "restful-snap",
@@ -671,6 +726,7 @@
         "index": {
           "description": "Gets the RESTFormAction param",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "getFormAction",
           "normalized": "HeistT a b[Node]",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "iPrimShow",
           "package": "restful-snap",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "iPrimShow",
           "normalized": "a-\u003eb[Node]",
@@ -710,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "iPrimSplice",
           "package": "restful-snap",
@@ -719,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "iPrimSplice",
           "normalized": "a-\u003eb[Node]",
@@ -734,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "iPrimText",
           "package": "restful-snap",
@@ -743,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "iPrimText",
           "normalized": "Text-\u003ea[Node]",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the path for the resource index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "indexPath",
           "package": "restful-snap",
@@ -769,6 +832,7 @@
         "index": {
           "description": "Generates the path for the resource index",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "indexPath",
           "normalized": "Resource-\u003eText",
@@ -785,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn initializer for encapsulating RESTful resources as a standalone\n snaplet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "initRest",
           "package": "restful-snap",
@@ -795,6 +860,7 @@
         "index": {
           "description": "An initializer for encapsulating RESTful resources as standalone snaplet",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "initRest",
           "normalized": "Resource-\u003e[(CRUD,Handler a()())]-\u003e[(Text,Handler a()())]-\u003e[(Text,Handler a()())]-\u003eSnaplet(Heist a)-\u003eSnapletInit a()",
@@ -811,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a path for an item action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "itemActionPath",
           "package": "restful-snap",
@@ -821,6 +888,7 @@
         "index": {
           "description": "Generates path for an item action",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "itemActionPath",
           "normalized": "Resource-\u003eText-\u003eDBId-\u003eText",
@@ -837,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates compiled path splices for a resource item.  These splices let\n you put resource links in your templates in DRY manner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "itemCSplices",
           "package": "restful-snap",
@@ -847,6 +916,7 @@
         "index": {
           "description": "Generates compiled path splices for resource item These splices let you put resource links in your templates in DRY manner",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "itemCSplices",
           "normalized": "Resource-\u003e[(Text,DBId-\u003eText)]",
@@ -863,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates path splices for a resource item.  These splices let you put\n resource links in your templates in DRY manner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "itemSplices",
           "package": "restful-snap",
@@ -873,6 +944,7 @@
         "index": {
           "description": "Generates path splices for resource item These splices let you put resource links in your templates in DRY manner",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "itemSplices",
           "normalized": "Resource-\u003eDBId-\u003e[(Text,Splice a)]",
@@ -889,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the path for a form to a new resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "newPath",
           "package": "restful-snap",
@@ -899,6 +972,7 @@
         "index": {
           "description": "Generates the path for form to new resource",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "newPath",
           "normalized": "Resource-\u003eText",
@@ -915,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a prefix to the tag names for a list of splices.  If the existing\n tag name is empty, then the new tag name is just the prefix.  Otherwise the\n new tag name is the prefix followed by an underscore followed by the\n existing name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "prefixSplices",
           "package": "restful-snap",
@@ -925,6 +1000,7 @@
         "index": {
           "description": "Adds prefix to the tag names for list of splices If the existing tag name is empty then the new tag name is just the prefix Otherwise the new tag name is the prefix followed by an underscore followed by the existing name",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "prefixSplices",
           "normalized": "Text-\u003e[(Text,a)]-\u003e[(Text,a)]",
@@ -941,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItem/instance level routing end points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "rItemEndpoints",
           "package": "restful-snap",
@@ -951,6 +1028,7 @@
         "index": {
           "description": "Item instance level routing end points",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "rItemEndpoints",
           "normalized": "[Text]",
@@ -967,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name for this resource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "rName",
           "package": "restful-snap",
@@ -977,6 +1056,7 @@
         "index": {
           "description": "name for this resource",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "rName",
           "package": "restful-snap",
@@ -991,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource level routing end points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "rResourceEndpoints",
           "package": "restful-snap",
@@ -1001,6 +1082,7 @@
         "index": {
           "description": "Resource level routing end points",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "rResourceEndpoints",
           "normalized": "[Text]",
@@ -1017,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL root for this resource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "rRoot",
           "package": "restful-snap",
@@ -1027,6 +1110,7 @@
         "index": {
           "description": "URL root for this resource",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "rRoot",
           "package": "restful-snap",
@@ -1041,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to given item's default show page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "redirToItem",
           "package": "restful-snap",
@@ -1051,6 +1136,7 @@
         "index": {
           "description": "Redirect to given item default show page",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "redirToItem",
           "normalized": "Resource-\u003eDBId-\u003ea b",
@@ -1066,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "relativeRedirect",
           "package": "restful-snap",
@@ -1075,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "relativeRedirect",
           "normalized": "ByteString-\u003ea b",
@@ -1091,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns compiled splices for a resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "resourceCSplices",
           "package": "restful-snap",
@@ -1101,6 +1190,7 @@
         "index": {
           "description": "Returns compiled splices for resource",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "resourceCSplices",
           "normalized": "Resource-\u003e[(Text,Splice a)]",
@@ -1117,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a route handler for the routes returned by resourceRoutes.  This\n function does add the rRoot prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "resourceRouter",
           "package": "restful-snap",
@@ -1127,6 +1218,7 @@
         "index": {
           "description": "Generate route handler for the routes returned by resourceRoutes This function does add the rRoot prefix",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "resourceRouter",
           "normalized": "Resource-\u003e[(CRUD,a b)]-\u003e[(Text,a b)]-\u003e[(Text,a b)]-\u003ea b",
@@ -1143,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eaddResource\u003c/a\u003e\u003c/code\u003e for an explanation of the arguments to this\n function. The routes returned ARE prefixed with rRoot from\n Resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "resourceRoutes",
           "package": "restful-snap",
@@ -1153,6 +1246,7 @@
         "index": {
           "description": "See addResource for an explanation of the arguments to this function The routes returned ARE prefixed with rRoot from Resource",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "resourceRoutes",
           "normalized": "Resource-\u003e[(CRUD,a b)]-\u003e[(Text,a b)]-\u003e[(Text,a b)]-\u003e[(ByteString,a b)]",
@@ -1169,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaths at the resource/collection level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "resourceSplices",
           "package": "restful-snap",
@@ -1179,6 +1274,7 @@
         "index": {
           "description": "Paths at the resource collection level",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "resourceSplices",
           "normalized": "Resource-\u003e[(Text,HeistT a b Template)]",
@@ -1195,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eindexPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "rootPath",
           "package": "restful-snap",
@@ -1205,6 +1302,7 @@
         "index": {
           "description": "Same as indexPath",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "rootPath",
           "normalized": "Resource-\u003eText",
@@ -1221,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the \u003ccode\u003eRESTFormAction\u003c/code\u003e param. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "setFormAction",
           "package": "restful-snap",
@@ -1231,6 +1330,7 @@
         "index": {
           "description": "Sets the RESTFormAction param",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "setFormAction",
           "normalized": "Text-\u003ea b-\u003ea b",
@@ -1247,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the path for showing a single resource item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "showPath",
           "package": "restful-snap",
@@ -1257,6 +1358,7 @@
         "index": {
           "description": "Generates the path for showing single resource item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "showPath",
           "normalized": "Resource-\u003eDBId-\u003eText",
@@ -1273,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple formlet for dates that\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "simpleDateFormlet",
           "package": "restful-snap",
@@ -1283,6 +1386,7 @@
         "index": {
           "description": "simple formlet for dates that",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "simpleDateFormlet",
           "normalized": "Maybe Day-\u003eForm Text a Day",
@@ -1299,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn heist template location for given crud action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "templatePath",
           "package": "restful-snap",
@@ -1309,6 +1414,7 @@
         "index": {
           "description": "Return heist template location for given crud action",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "templatePath",
           "normalized": "Resource-\u003eCRUD-\u003eByteString",
@@ -1324,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "unDBId",
           "package": "restful-snap",
@@ -1333,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "unDBId",
           "package": "restful-snap",
@@ -1347,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince \u003ccode\u003e\u003ca\u003einitRest\u003c/a\u003e\u003c/code\u003e returns unit, we provide a generic unit lens here for\n use with nestSnaplet in case you don't want to add a unit field to your\n application state type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "unitLens",
           "package": "restful-snap",
@@ -1357,6 +1466,7 @@
         "index": {
           "description": "Since initRest returns unit we provide generic unit lens here for use with nestSnaplet in case you don want to add unit field to your application state type",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "unitLens",
           "normalized": "Lens' a()",
@@ -1373,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the path for updating a single resource item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:47 UTC 2014",
           "module": "Snap.Restful",
           "name": "updatePath",
           "package": "restful-snap",
@@ -1383,6 +1494,7 @@
         "index": {
           "description": "Generates the path for updating single resource item",
           "hierarchy": "Snap Restful",
+          "indexed": "2014-03-11T19:53:47",
           "module": "Snap.Restful",
           "name": "updatePath",
           "normalized": "Resource-\u003eDBId-\u003eText",

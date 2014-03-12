@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "todos"
+        "phrase": "todos",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.CommandParser",
           "name": "CommandParser",
           "package": "todos",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Todos CommandParser",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.CommandParser",
           "name": "CommandParser",
           "package": "todos",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat item info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.CommandParser",
           "name": "printfItem",
           "package": "todos",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Format item info",
           "hierarchy": "Todos CommandParser",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.CommandParser",
           "name": "printfItem",
           "normalized": "String-\u003eTodoItem-\u003eString",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "Config",
           "package": "todos",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "Config",
           "package": "todos",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny user-specified runtime config type should include at least this properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "BaseConfig",
           "package": "todos",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Any user-specified runtime config type should include at least this properties",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "BaseConfig",
           "package": "todos",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of parsing command line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "CmdLineParseResult",
           "package": "todos",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Result of parsing command line",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "CmdLineParseResult",
           "package": "todos",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for console output. Is generated in runtime from TodosConfig and Config.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "PrintConfig",
           "package": "todos",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Configuration for console output Is generated in runtime from TodosConfig and Config",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "PrintConfig",
           "package": "todos",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny user-specified runtime config type should belong to this class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "RuntimeConfig",
           "package": "todos",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Any user-specified runtime config type should belong to this class",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "RuntimeConfig",
           "package": "todos",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser Todos config. User can specify it in \u003ccode\u003e~\u003cem\u003e.config\u003c/em\u003etodos/todos.hs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "TodosConfig",
           "package": "todos",
@@ -187,6 +202,7 @@
         "index": {
           "description": "User Todos config User can specify it in config todos todos.hs",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "TodosConfig",
           "package": "todos",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "BConfig",
           "package": "todos",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "BConfig",
           "package": "todos",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser asked for help\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "CmdLineHelp",
           "package": "todos",
@@ -233,6 +252,7 @@
         "index": {
           "description": "User asked for help",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "CmdLineHelp",
           "package": "todos",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "PConfig",
           "package": "todos",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "PConfig",
           "package": "todos",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome error occured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "ParseError",
           "package": "todos",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Some error occured",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "ParseError",
           "package": "todos",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsed successfully, got Config and list of source files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "Parsed",
           "package": "todos",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Parsed successfully got Config and list of source files",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "Parsed",
           "normalized": "Parsed a[FilePath]",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "Todos",
           "package": "todos",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "Todos",
           "package": "todos",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eask field from BaseConfig\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "askBase",
           "package": "todos",
@@ -351,6 +380,7 @@
         "index": {
           "description": "ask field from BaseConfig",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "askBase",
           "normalized": "(BaseConfig-\u003ea)-\u003eReader b a",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "commandToRun",
           "package": "todos",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "commandToRun",
           "package": "todos",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to highlight given item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "doHighlight",
           "package": "todos",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Whether to highlight given item",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "doHighlight",
           "normalized": "TodoItem-\u003e𝔹",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny function to be run to transform read TODOs tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "filterTodos",
           "package": "todos",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Any function to be run to transform read TODOs tree",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "filterTodos",
           "normalized": "DateTime-\u003ea-\u003e[Todo]-\u003e[Todo]",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "forcedStatus",
           "package": "todos",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "forcedStatus",
           "package": "todos",
@@ -463,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes given TODO item match query?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "getPredicate",
           "package": "todos",
@@ -473,6 +512,7 @@
         "index": {
           "description": "Does given TODO item match query",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "getPredicate",
           "normalized": "DateTime-\u003ea-\u003eTodoItem-\u003e𝔹",
@@ -488,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "groupByFile",
           "package": "todos",
@@ -497,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "groupByFile",
           "package": "todos",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "groupByStatus",
           "package": "todos",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "groupByStatus",
           "package": "todos",
@@ -532,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "groupByTag",
           "package": "todos",
@@ -541,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "groupByTag",
           "package": "todos",
@@ -555,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor to use for highlighting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "highlightColor",
           "package": "todos",
@@ -565,6 +612,7 @@
         "index": {
           "description": "Color to use for highlighting",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "highlightColor",
           "normalized": "(ColorIntensity,Color)",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString to use for output tree indenting (two spaces by default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "indentString",
           "package": "todos",
@@ -591,6 +640,7 @@
         "index": {
           "description": "String to use for output tree indenting two spaces by default",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "indentString",
           "package": "todos",
@@ -605,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to select color for item's node in DOT output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "itemColor",
           "package": "todos",
@@ -615,6 +666,7 @@
         "index": {
           "description": "Function to select color for item node in DOT output",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "itemColor",
           "normalized": "TodoItem-\u003eHSV",
@@ -631,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to select a color of item's name in console output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "itemConsoleColor",
           "package": "todos",
@@ -641,6 +694,7 @@
         "index": {
           "description": "Function to select color of item name in console output",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "itemConsoleColor",
           "normalized": "TodoItem-\u003eMaybe(ColorIntensity,Color)",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to select shape for item's node in DOT output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "itemShape",
           "package": "todos",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Function to select shape for item node in DOT output",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "itemShape",
           "normalized": "TodoItem-\u003eShape",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "minL",
           "package": "todos",
@@ -691,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "minL",
           "package": "todos",
@@ -704,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Config (to be used without any options in command line and configs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "nullConfig",
           "package": "todos",
@@ -714,6 +773,7 @@
         "index": {
           "description": "Default Config to be used without any options in command line and configs",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "nullConfig",
           "package": "todos",
@@ -728,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow colored output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "outColors",
           "package": "todos",
@@ -738,6 +799,7 @@
         "index": {
           "description": "Show colored output",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "outColors",
           "package": "todos",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight matching items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "outHighlight",
           "package": "todos",
@@ -762,6 +825,7 @@
         "index": {
           "description": "Highlight matching items",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "outHighlight",
           "package": "todos",
@@ -776,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow IDs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "outIds",
           "package": "todos",
@@ -786,6 +851,7 @@
         "index": {
           "description": "Show IDs",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "outIds",
           "package": "todos",
@@ -800,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput only first matching entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "outOnlyFirst",
           "package": "todos",
@@ -810,6 +877,7 @@
         "index": {
           "description": "Output only first matching entry",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "outOnlyFirst",
           "package": "todos",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "outputFormat",
           "package": "todos",
@@ -832,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "outputFormat",
           "package": "todos",
@@ -846,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to parse command line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "parseCommandLine",
           "package": "todos",
@@ -856,6 +927,7 @@
         "index": {
           "description": "Function to parse command line",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "parseCommandLine",
           "normalized": "DateTime-\u003ea-\u003e[String]-\u003eCmdLineParseResult a",
@@ -872,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing &#8212; use default parser, Just p &#8212; use alternate parser with prefix &#171;p&#187;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "prefix",
           "package": "todos",
@@ -882,6 +955,7 @@
         "index": {
           "description": "Nothing use default parser Just use alternate parser with prefix",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "prefix",
           "package": "todos",
@@ -894,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "printConfig",
           "package": "todos",
@@ -903,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "printConfig",
           "package": "todos",
@@ -917,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor to use for highlighting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "printHighlightColor",
           "package": "todos",
@@ -927,6 +1004,7 @@
         "index": {
           "description": "Color to use for highlighting",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "printHighlightColor",
           "normalized": "(ColorIntensity,Color)",
@@ -943,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor of item name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "printItemColor",
           "package": "todos",
@@ -953,6 +1032,7 @@
         "index": {
           "description": "Color of item name",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "printItemColor",
           "normalized": "TodoItem-\u003eMaybe(ColorIntensity,Color)",
@@ -969,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor of status field from status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "printStatusColor",
           "package": "todos",
@@ -979,6 +1060,7 @@
         "index": {
           "description": "Color of status field from status",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "printStatusColor",
           "normalized": "String-\u003e(ColorIntensity,Color)",
@@ -995,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny function to output TODOs list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "printTodos",
           "package": "todos",
@@ -1005,6 +1088,7 @@
         "index": {
           "description": "Any function to output TODOs list",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "printTodos",
           "normalized": "PrintConfig a-\u003e[Todo]-\u003eIO()",
@@ -1020,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "pruneL",
           "package": "todos",
@@ -1029,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "pruneL",
           "package": "todos",
@@ -1042,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip status field in input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "skipStatus",
           "package": "todos",
@@ -1052,6 +1139,7 @@
         "index": {
           "description": "Skip status field in input",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "skipStatus",
           "package": "todos",
@@ -1066,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to sort items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "sorting",
           "package": "todos",
@@ -1076,6 +1165,7 @@
         "index": {
           "description": "How to sort items",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "sorting",
           "package": "todos",
@@ -1089,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to select a color of item's status field in console output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "statusConsoleColor",
           "package": "todos",
@@ -1099,6 +1190,7 @@
         "index": {
           "description": "Function to select color of item status field in console output",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "statusConsoleColor",
           "normalized": "String-\u003e(ColorIntensity,Color)",
@@ -1115,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet basic configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "toBaseConfig",
           "package": "todos",
@@ -1125,6 +1218,7 @@
         "index": {
           "description": "Get basic configuration",
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "toBaseConfig",
           "normalized": "a-\u003eBaseConfig",
@@ -1140,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Config",
           "name": "topStatus",
           "package": "todos",
@@ -1149,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Todos Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Config",
           "name": "topStatus",
           "package": "todos",
@@ -1163,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations with dates\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dates",
           "name": "Dates",
           "package": "todos",
@@ -1172,6 +1269,7 @@
         "index": {
           "description": "Operations with dates",
           "hierarchy": "Todos Dates",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dates",
           "name": "Dates",
           "package": "todos",
@@ -1210,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse set of dates with types (in parenthesis)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dates",
           "name": "pSpecDates",
           "package": "todos",
@@ -1220,6 +1319,7 @@
         "index": {
           "description": "Parse set of dates with types in parenthesis",
           "hierarchy": "Todos Dates",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dates",
           "name": "pSpecDates",
           "normalized": "DateTime-\u003eParsec String a[(DateType,DateTime)]",
@@ -1236,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse date/time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dates",
           "name": "parseDate",
           "package": "todos",
@@ -1245,6 +1346,7 @@
         "index": {
           "description": "Parse date time",
           "hierarchy": "Todos Dates",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dates",
           "name": "parseDate",
           "normalized": "DateTime-\u003eString-\u003eEither ParseError DateTime",
@@ -1261,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for parsing command line options and build queries. These functions\n are used by default, but user can supply his own functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.CmdLine",
           "name": "CmdLine",
           "package": "todos",
@@ -1270,6 +1373,7 @@
         "index": {
           "description": "Module for parsing command line options and build queries These functions are used by default but user can supply his own functions",
           "hierarchy": "Todos Default CmdLine",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.CmdLine",
           "name": "CmdLine",
           "package": "todos",
@@ -1284,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild DefaultConfig (with query etc) from Options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.CmdLine",
           "name": "buildQuery",
           "package": "todos",
@@ -1293,6 +1398,7 @@
         "index": {
           "description": "Build DefaultConfig with query etc from Options",
           "hierarchy": "Todos Default CmdLine",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.CmdLine",
           "name": "buildQuery",
           "normalized": "BaseConfig-\u003eOptions-\u003eDefaultConfig",
@@ -1309,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose predicate from Composed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.CmdLine",
           "name": "compose",
           "package": "todos",
@@ -1318,6 +1425,7 @@
         "index": {
           "description": "Compose predicate from Composed",
           "hierarchy": "Todos Default CmdLine",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.CmdLine",
           "name": "compose",
           "normalized": "DateTime-\u003eComposed-\u003eTodoItem-\u003e𝔹",
@@ -1333,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given list of glob masks, return list of matching files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.CmdLine",
           "name": "glob",
           "package": "todos",
@@ -1343,6 +1452,7 @@
         "index": {
           "description": "For given list of glob masks return list of matching files",
           "hierarchy": "Todos Default CmdLine",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.CmdLine",
           "name": "glob",
           "normalized": "[FilePath]-\u003eIO[FilePath]",
@@ -1358,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse command line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.CmdLine",
           "name": "parseCmdLine'",
           "package": "todos",
@@ -1367,6 +1478,7 @@
         "index": {
           "description": "Parse command line",
           "hierarchy": "Todos Default CmdLine",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.CmdLine",
           "name": "parseCmdLine'",
           "normalized": "DateTime-\u003e[String]-\u003eEither String(Options,[FilePath])",
@@ -1383,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsage help for default command line options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.CmdLine",
           "name": "usage",
           "package": "todos",
@@ -1393,6 +1506,7 @@
         "index": {
           "description": "Usage help for default command line options",
           "hierarchy": "Todos Default CmdLine",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.CmdLine",
           "name": "usage",
           "package": "todos",
@@ -1406,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains declaration of DefaultConfig data type, which is used\n by default to store runtime config.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Config",
           "name": "Config",
           "package": "todos",
@@ -1415,6 +1530,7 @@
         "index": {
           "description": "This module contains declaration of DefaultConfig data type which is used by default to store runtime config",
           "hierarchy": "Todos Default Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Config",
           "name": "Config",
           "package": "todos",
@@ -1429,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault runtime configuration type. Is read from command line and configs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Config",
           "name": "DefaultConfig",
           "package": "todos",
@@ -1438,6 +1555,7 @@
         "index": {
           "description": "Default runtime configuration type Is read from command line and configs",
           "hierarchy": "Todos Default Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Config",
           "name": "DefaultConfig",
           "package": "todos",
@@ -1451,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Config",
           "name": "DConfig",
           "package": "todos",
@@ -1460,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Todos Default Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Config",
           "name": "DConfig",
           "package": "todos",
@@ -1473,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Config",
           "name": "baseConfig",
           "package": "todos",
@@ -1482,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Todos Default Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Config",
           "name": "baseConfig",
           "package": "todos",
@@ -1495,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Config",
           "name": "query",
           "package": "todos",
@@ -1504,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Todos Default Config",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Config",
           "name": "query",
           "package": "todos",
@@ -1517,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains instances of RuntimeConfig class for DefaultConfig and PrintConfig\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Instances",
           "name": "Instances",
           "package": "todos",
@@ -1526,6 +1651,7 @@
         "index": {
           "description": "This module contains instances of RuntimeConfig class for DefaultConfig and PrintConfig",
           "hierarchy": "Todos Default Instances",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Instances",
           "name": "Instances",
           "package": "todos",
@@ -1540,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements printing TODOs tree to console. Here is default\n function, but user can supply his own.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Print",
           "name": "Print",
           "package": "todos",
@@ -1549,6 +1676,7 @@
         "index": {
           "description": "This module implements printing TODOs tree to console Here is default function but user can supply his own",
           "hierarchy": "Todos Default Print",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Print",
           "name": "Print",
           "package": "todos",
@@ -1563,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault function to output TODOs to console\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Print",
           "name": "defaultPrintTodos",
           "package": "todos",
@@ -1573,6 +1702,7 @@
         "index": {
           "description": "Default function to output TODOs to console",
           "hierarchy": "Todos Default Print",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Print",
           "name": "defaultPrintTodos",
           "normalized": "PrintConfig DefaultConfig-\u003e[Todo]-\u003eIO()",
@@ -1589,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare TODOs for console output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Print",
           "name": "showTodos",
           "package": "todos",
@@ -1599,6 +1730,7 @@
         "index": {
           "description": "Prepare TODOs for console output",
           "hierarchy": "Todos Default Print",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Print",
           "name": "showTodos",
           "normalized": "[Todo]-\u003eFormatter DefaultConfig",
@@ -1615,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains some empty configs definitions and some function fields of defaultConfig\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Utils",
           "name": "Utils",
           "package": "todos",
@@ -1624,6 +1757,7 @@
         "index": {
           "description": "This module contains some empty configs definitions and some function fields of defaultConfig",
           "hierarchy": "Todos Default Utils",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Utils",
           "name": "Utils",
           "package": "todos",
@@ -1638,6 +1772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a list transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Utils",
           "name": "composeAll",
           "package": "todos",
@@ -1648,6 +1783,7 @@
         "index": {
           "description": "Make list transformer",
           "hierarchy": "Todos Default Utils",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Utils",
           "name": "composeAll",
           "normalized": "DateTime-\u003eDefaultConfig-\u003eTodo-\u003e[Todo]",
@@ -1664,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Todos config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Utils",
           "name": "defaultConfig",
           "package": "todos",
@@ -1674,6 +1811,7 @@
         "index": {
           "description": "Default Todos config",
           "hierarchy": "Todos Default Utils",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Utils",
           "name": "defaultConfig",
           "package": "todos",
@@ -1688,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault filter for TODOs (filterTodos field of defaultConfig)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Utils",
           "name": "defaultTodosFilter",
           "package": "todos",
@@ -1698,6 +1837,7 @@
         "index": {
           "description": "Default filter for TODOs filterTodos field of defaultConfig",
           "hierarchy": "Todos Default Utils",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Utils",
           "name": "defaultTodosFilter",
           "normalized": "DateTime-\u003eDefaultConfig-\u003e[Todo]-\u003e[Todo]",
@@ -1714,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty BaseConfig\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Utils",
           "name": "emptyBaseConfig",
           "package": "todos",
@@ -1724,6 +1865,7 @@
         "index": {
           "description": "Empty BaseConfig",
           "hierarchy": "Todos Default Utils",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Utils",
           "name": "emptyBaseConfig",
           "package": "todos",
@@ -1738,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault empty DefaultConfig (nullConfig field of defaultConfig)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Utils",
           "name": "emptyConfig",
           "package": "todos",
@@ -1748,6 +1891,7 @@
         "index": {
           "description": "Default empty DefaultConfig nullConfig field of defaultConfig",
           "hierarchy": "Todos Default Utils",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Utils",
           "name": "emptyConfig",
           "package": "todos",
@@ -1762,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare PrintConfig for console output functions. Is called from realTodos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Utils",
           "name": "mkPrintConfig",
           "package": "todos",
@@ -1772,6 +1917,7 @@
         "index": {
           "description": "Prepare PrintConfig for console output functions Is called from realTodos",
           "hierarchy": "Todos Default Utils",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Utils",
           "name": "mkPrintConfig",
           "normalized": "DateTime-\u003ea-\u003eTodosConfig a-\u003ePrintConfig a",
@@ -1788,6 +1934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse command line (default function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default.Utils",
           "name": "parseCmdLine",
           "package": "todos",
@@ -1797,6 +1944,7 @@
         "index": {
           "description": "Parse command line default function",
           "hierarchy": "Todos Default Utils",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default.Utils",
           "name": "parseCmdLine",
           "normalized": "DateTime-\u003eDefaultConfig-\u003e[String]-\u003eCmdLineParseResult DefaultConfig",
@@ -1813,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTodos.Default.* modules contain implementation of RuntimeConfig instance for DefaultConfig type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Default",
           "name": "Default",
           "package": "todos",
@@ -1822,6 +1971,7 @@
         "index": {
           "description": "Todos.Default modules contain implementation of RuntimeConfig instance for DefaultConfig type",
           "hierarchy": "Todos Default",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Default",
           "name": "Default",
           "package": "todos",
@@ -1836,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains data type for storing HSV color, used in DOT output,\n and some default functions to calculate items' colors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "Color",
           "package": "todos",
@@ -1845,6 +1996,7 @@
         "index": {
           "description": "This module contains data type for storing HSV color used in DOT output and some default functions to calculate items colors",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "Color",
           "package": "todos",
@@ -1859,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHue, saturation and value; all are in [0; 1] range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "HSV",
           "package": "todos",
@@ -1868,6 +2021,7 @@
         "index": {
           "description": "Hue saturation and value all are in range",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "HSV",
           "package": "todos",
@@ -1881,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "HSV",
           "package": "todos",
@@ -1890,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "HSV",
           "package": "todos",
@@ -1903,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "colorHue",
           "package": "todos",
@@ -1912,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "colorHue",
           "package": "todos",
@@ -1925,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "colorSaturation",
           "package": "todos",
@@ -1934,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "colorSaturation",
           "package": "todos",
@@ -1947,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "colorValue",
           "package": "todos",
@@ -1956,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "colorValue",
           "package": "todos",
@@ -1970,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet console color which is nearest to given HSV color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "consoleColor",
           "package": "todos",
@@ -1980,6 +2143,7 @@
         "index": {
           "description": "Get console color which is nearest to given HSV color",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "consoleColor",
           "normalized": "HSV-\u003e(ColorIntensity,Color)",
@@ -1996,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorrespondence between console colors and HSV colors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "consoleColors",
           "package": "todos",
@@ -2006,6 +2171,7 @@
         "index": {
           "description": "Correspondence between console colors and HSV colors",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "consoleColors",
           "normalized": "[((ColorIntensity,Color),HSV)]",
@@ -2022,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet console color for item name (this is const Nothing)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "defItemConsoleColor",
           "package": "todos",
@@ -2032,6 +2199,7 @@
         "index": {
           "description": "Get console color for item name this is const Nothing",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "defItemConsoleColor",
           "normalized": "TodoItem-\u003eMaybe(ColorIntensity,Color)",
@@ -2048,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet color for item (this is used in DOT output)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "getColor",
           "package": "todos",
@@ -2058,6 +2227,7 @@
         "index": {
           "description": "Get color for item this is used in DOT output",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "getColor",
           "normalized": "TodoItem-\u003eHSV",
@@ -2073,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "hashAsDouble",
           "package": "todos",
@@ -2082,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "hashAsDouble",
           "normalized": "a-\u003eDouble",
@@ -2098,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet console color for item status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "statusColor",
           "package": "todos",
@@ -2108,6 +2281,7 @@
         "index": {
           "description": "Get console color for item status",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "statusColor",
           "normalized": "String-\u003e(ColorIntensity,Color)",
@@ -2124,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet color hue from item status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "statusHue",
           "package": "todos",
@@ -2134,6 +2309,7 @@
         "index": {
           "description": "Get color hue from item status",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "statusHue",
           "normalized": "String-\u003eDouble",
@@ -2150,6 +2326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor hue values for some common item statuses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "statusHues",
           "package": "todos",
@@ -2160,6 +2337,7 @@
         "index": {
           "description": "Color hue values for some common item statuses",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "statusHues",
           "package": "todos",
@@ -2174,6 +2352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet color saturation from item status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "statusSat",
           "package": "todos",
@@ -2184,6 +2363,7 @@
         "index": {
           "description": "Get color saturation from item status",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "statusSat",
           "normalized": "String-\u003eDouble",
@@ -2200,6 +2380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor saturation values for some common statuses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "statusSats",
           "package": "todos",
@@ -2210,6 +2391,7 @@
         "index": {
           "description": "Color saturation values for some common statuses",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "statusSats",
           "package": "todos",
@@ -2224,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet color hue from tag name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "tagHue",
           "package": "todos",
@@ -2234,6 +2417,7 @@
         "index": {
           "description": "Get color hue from tag name",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "tagHue",
           "normalized": "String-\u003eDouble",
@@ -2250,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHue values for some common tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Color",
           "name": "tagHues",
           "package": "todos",
@@ -2260,6 +2445,7 @@
         "index": {
           "description": "Hue values for some common tags",
           "hierarchy": "Todos Dot Color",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Color",
           "name": "tagHues",
           "package": "todos",
@@ -2274,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOutput TODOs tree as DOT graph\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Render",
           "name": "Render",
           "package": "todos",
@@ -2283,6 +2470,7 @@
         "index": {
           "description": "Output TODOs tree as DOT graph",
           "hierarchy": "Todos Dot Render",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Render",
           "name": "Render",
           "package": "todos",
@@ -2297,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn DOT output for Todos\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Render",
           "name": "showAsDot",
           "package": "todos",
@@ -2306,6 +2495,7 @@
         "index": {
           "description": "Return DOT output for Todos",
           "hierarchy": "Todos Dot Render",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Render",
           "name": "showAsDot",
           "normalized": "(TodoItem-\u003eHSV)-\u003e(TodoItem-\u003eShape)-\u003e[Todo]-\u003eString",
@@ -2322,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for DOT node shapes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Shapes",
           "package": "todos",
@@ -2331,6 +2522,7 @@
         "index": {
           "description": "Support for DOT node shapes",
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Shapes",
           "package": "todos",
@@ -2345,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported node shapes for DOT output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Shape",
           "package": "todos",
@@ -2354,6 +2547,7 @@
         "index": {
           "description": "Supported node shapes for DOT output",
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Shape",
           "package": "todos",
@@ -2367,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Box",
           "package": "todos",
@@ -2376,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Box",
           "package": "todos",
@@ -2389,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Box3D",
           "package": "todos",
@@ -2398,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Box3D",
           "package": "todos",
@@ -2411,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Circle",
           "package": "todos",
@@ -2420,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Circle",
           "package": "todos",
@@ -2433,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Component",
           "package": "todos",
@@ -2442,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Component",
           "package": "todos",
@@ -2455,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "DCircle",
           "package": "todos",
@@ -2464,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "DCircle",
           "package": "todos",
@@ -2477,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Diamond",
           "package": "todos",
@@ -2486,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Diamond",
           "package": "todos",
@@ -2499,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Egg",
           "package": "todos",
@@ -2508,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Egg",
           "package": "todos",
@@ -2521,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Ellipse",
           "package": "todos",
@@ -2530,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Ellipse",
           "package": "todos",
@@ -2543,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Folder",
           "package": "todos",
@@ -2552,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Folder",
           "package": "todos",
@@ -2565,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Hexagon",
           "package": "todos",
@@ -2574,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Hexagon",
           "package": "todos",
@@ -2588,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "House",
           "package": "todos",
@@ -2598,6 +2813,7 @@
         "index": {
           "description": "Inverted",
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "House",
           "package": "todos",
@@ -2611,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "MCircle",
           "package": "todos",
@@ -2620,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "MCircle",
           "package": "todos",
@@ -2633,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "MDiamond",
           "package": "todos",
@@ -2642,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "MDiamond",
           "package": "todos",
@@ -2655,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "MSquare",
           "package": "todos",
@@ -2664,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "MSquare",
           "package": "todos",
@@ -2677,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Note",
           "package": "todos",
@@ -2686,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Note",
           "package": "todos",
@@ -2700,6 +2924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple, double, triple?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Octagon",
           "package": "todos",
@@ -2710,6 +2935,7 @@
         "index": {
           "description": "Simple double triple",
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Octagon",
           "package": "todos",
@@ -2723,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Parallelogram",
           "package": "todos",
@@ -2732,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Parallelogram",
           "package": "todos",
@@ -2745,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Pentagon",
           "package": "todos",
@@ -2754,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Pentagon",
           "package": "todos",
@@ -2767,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "PlainText",
           "package": "todos",
@@ -2776,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "PlainText",
           "package": "todos",
@@ -2789,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Point",
           "package": "todos",
@@ -2798,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Point",
           "package": "todos",
@@ -2811,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Polygon",
           "package": "todos",
@@ -2820,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Polygon",
           "package": "todos",
@@ -2833,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Septagon",
           "package": "todos",
@@ -2842,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Septagon",
           "package": "todos",
@@ -2855,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Square",
           "package": "todos",
@@ -2864,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Square",
           "package": "todos",
@@ -2877,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Tab",
           "package": "todos",
@@ -2886,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Tab",
           "package": "todos",
@@ -2900,6 +3142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Trapezium",
           "package": "todos",
@@ -2910,6 +3153,7 @@
         "index": {
           "description": "Inverted",
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Trapezium",
           "package": "todos",
@@ -2924,6 +3168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverted?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "Triangle",
           "package": "todos",
@@ -2934,6 +3179,7 @@
         "index": {
           "description": "Inverted",
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "Triangle",
           "package": "todos",
@@ -2948,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet item shape for this item (default funciton)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "getShape",
           "package": "todos",
@@ -2958,6 +3205,7 @@
         "index": {
           "description": "Get item shape for this item default funciton",
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "getShape",
           "normalized": "TodoItem-\u003eShape",
@@ -2974,6 +3222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode shapes for some common item statuses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot.Shapes",
           "name": "shapes",
           "package": "todos",
@@ -2984,6 +3233,7 @@
         "index": {
           "description": "Node shapes for some common item statuses",
           "hierarchy": "Todos Dot Shapes",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot.Shapes",
           "name": "shapes",
           "package": "todos",
@@ -2997,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTodos.Dot.* modules implement output of TODOs trees as DOT graph\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Dot",
           "name": "Dot",
           "package": "todos",
@@ -3006,6 +3257,7 @@
         "index": {
           "description": "Todos.Dot modules implement output of TODOs trees as DOT graph",
           "hierarchy": "Todos Dot",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Dot",
           "name": "Dot",
           "package": "todos",
@@ -3019,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "Formatters",
           "package": "todos",
@@ -3027,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "Formatters",
           "package": "todos",
@@ -3040,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "ConfigAdd",
           "package": "todos",
@@ -3048,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "ConfigAdd",
           "package": "todos",
@@ -3062,6 +3318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to Show, but output can depend on PrintConfig\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "ConfigShow",
           "package": "todos",
@@ -3071,6 +3328,7 @@
         "index": {
           "description": "Similar to Show but output can depend on PrintConfig",
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "ConfigShow",
           "package": "todos",
@@ -3085,6 +3343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a list of OutItem's depending on PrintConfig\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "Formatter",
           "package": "todos",
@@ -3094,6 +3353,7 @@
         "index": {
           "description": "Produce list of OutItem depending on PrintConfig",
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "Formatter",
           "package": "todos",
@@ -3108,6 +3368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItem which could be printed to the console\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "OutItem",
           "package": "todos",
@@ -3117,6 +3378,7 @@
         "index": {
           "description": "Item which could be printed to the console",
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "OutItem",
           "package": "todos",
@@ -3131,6 +3393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute Formatter and a consequently\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "(\u003c++\u003e)",
           "package": "todos",
@@ -3141,6 +3404,7 @@
         "index": {
           "description": "Execute Formatter and consequently",
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "Formatter a-\u003eb-\u003eFormatter a",
@@ -3155,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "OutSetColor",
           "package": "todos",
@@ -3164,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "OutSetColor",
           "package": "todos",
@@ -3177,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "OutString",
           "package": "todos",
@@ -3186,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "OutString",
           "package": "todos",
@@ -3199,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "ResetAll",
           "package": "todos",
@@ -3208,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "ResetAll",
           "package": "todos",
@@ -3221,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "SetBold",
           "package": "todos",
@@ -3230,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "SetBold",
           "package": "todos",
@@ -3243,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "configShow",
           "package": "todos",
@@ -3252,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "configShow",
           "normalized": "a-\u003eFormatter b",
@@ -3268,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput new line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "newLine",
           "package": "todos",
@@ -3278,6 +3553,7 @@
         "index": {
           "description": "Output new line",
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "newLine",
           "package": "todos",
@@ -3292,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint OutItem to console\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "outItem",
           "package": "todos",
@@ -3302,6 +3579,7 @@
         "index": {
           "description": "Print OutItem to console",
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "outItem",
           "normalized": "OutItem-\u003eIO()",
@@ -3318,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty Formatter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Formatters",
           "name": "startFormat",
           "package": "todos",
@@ -3328,6 +3607,7 @@
         "index": {
           "description": "Empty Formatter",
           "hierarchy": "Todos Formatters",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Formatters",
           "name": "startFormat",
           "package": "todos",
@@ -3342,6 +3622,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrapper to support unicode IO with GHC 6.10 and 6.12\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "IO",
           "package": "todos",
@@ -3351,6 +3632,7 @@
         "index": {
           "description": "Wrapper to support unicode IO with GHC and",
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "IO",
           "package": "todos",
@@ -3365,6 +3647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a string using \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e using a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e as input.\n | This is not safe but it is necessary if UTF-8 encoded text\n | has been loaded into a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e prior to being decoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "decodeString",
           "package": "todos",
@@ -3374,6 +3657,7 @@
         "index": {
           "description": "Decode string using decode using String as input This is not safe but it is necessary if UTF-8 encoded text has been loaded into String prior to being decoded",
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "decodeString",
           "normalized": "String-\u003eString",
@@ -3390,6 +3674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string using \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e and store the result in a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "encodeString",
           "package": "todos",
@@ -3399,6 +3684,7 @@
         "index": {
           "description": "Encode string using encode and store the result in String",
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "encodeString",
           "normalized": "String-\u003eString",
@@ -3414,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "ensureUnicode",
           "package": "todos",
@@ -3423,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "ensureUnicode",
           "normalized": "String-\u003eString",
@@ -3439,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e operation returns all user input as a single string,\n which is read lazily as it is needed\n (same as \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "getContents",
           "package": "todos",
@@ -3448,6 +3737,7 @@
         "index": {
           "description": "The getContents operation returns all user input as single string which is read lazily as it is needed same as hGetContents stdin",
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "getContents",
           "package": "todos",
@@ -3462,6 +3752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e function outputs a value of any printable type to the\n standard output device.\n Printable types are those that are instances of class \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e; \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e\n converts values to strings for output using the \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e operation and\n adds a newline.\n\u003c/p\u003e\u003cp\u003eFor example, a program to print the first 20 integers and their\n powers of 2 could be written as:\n\u003c/p\u003e\u003cpre\u003e main = print ([(n, 2^n) | n \u003c- [0..19]])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "print",
           "package": "todos",
@@ -3471,6 +3762,7 @@
         "index": {
           "description": "The print function outputs value of any printable type to the standard output device Printable types are those that are instances of class Show print converts values to strings for output using the show operation and adds newline For example program to print the first integers and their powers of could be written as main print",
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "print",
           "normalized": "a-\u003eIO()",
@@ -3486,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to the standard output device\n (same as \u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "putStr",
           "package": "todos",
@@ -3495,6 +3788,7 @@
         "index": {
           "description": "Write string to the standard output device same as hPutStr stdout",
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "putStr",
           "normalized": "String-\u003eIO()",
@@ -3511,6 +3805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eputStr\u003c/a\u003e\u003c/code\u003e, but adds a newline character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "putStrLn",
           "package": "todos",
@@ -3520,6 +3815,7 @@
         "index": {
           "description": "The same as putStr but adds newline character",
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "putStrLn",
           "normalized": "String-\u003eIO()",
@@ -3536,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e function reads a file and\n returns the contents of the file as a string.\n The file is read lazily, on demand, as with \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.IO",
           "name": "readFile",
           "package": "todos",
@@ -3545,6 +3842,7 @@
         "index": {
           "description": "The readFile function reads file and returns the contents of the file as string The file is read lazily on demand as with getContents",
           "hierarchy": "Todos IO",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.IO",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO String",
@@ -3561,6 +3859,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead TODOs from files and construct corresponding ADTs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Loader",
           "name": "Loader",
           "package": "todos",
@@ -3570,6 +3869,7 @@
         "index": {
           "description": "Read TODOs from files and construct corresponding ADTs",
           "hierarchy": "Todos Loader",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Loader",
           "name": "Loader",
           "package": "todos",
@@ -3584,6 +3884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad list of TODO trees from files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Loader",
           "name": "loadTodo",
           "package": "todos",
@@ -3593,6 +3894,7 @@
         "index": {
           "description": "Load list of TODO trees from files",
           "hierarchy": "Todos Loader",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Loader",
           "name": "loadTodo",
           "normalized": "BaseConfig-\u003eDateTime-\u003e[FilePath]-\u003eIO[Todo]",
@@ -3608,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Main",
           "name": "Main",
           "package": "todos",
@@ -3616,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Todos Main",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Main",
           "name": "Main",
           "package": "todos",
@@ -3630,6 +3934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain function to run. User can specify TodosConfig with any runtime config\n type. By default (in todos.hs) defaultConfig is used, which uses DefaultConfig type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Main",
           "name": "todos",
           "package": "todos",
@@ -3640,6 +3945,7 @@
         "index": {
           "description": "Main function to run User can specify TodosConfig with any runtime config type By default in todos.hs defaultConfig is used which uses DefaultConfig type",
           "hierarchy": "Todos Main",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Main",
           "name": "todos",
           "normalized": "TodosConfig a-\u003eIO()",
@@ -3654,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Parser",
           "name": "Parser",
           "package": "todos",
@@ -3662,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Todos Parser",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Parser",
           "name": "Parser",
           "package": "todos",
@@ -3676,6 +3984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead list of TODO items from alternate format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Parser",
           "name": "parseAlternate",
           "package": "todos",
@@ -3685,6 +3994,7 @@
         "index": {
           "description": "Read list of TODO items from alternate format",
           "hierarchy": "Todos Parser",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Parser",
           "name": "parseAlternate",
           "normalized": "BaseConfig-\u003eInt-\u003eString-\u003eDateTime-\u003eSourceName-\u003eString-\u003e[TodoItem]",
@@ -3701,6 +4011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead list of TODO items from plain format \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Parser",
           "name": "parsePlain",
           "package": "todos",
@@ -3710,6 +4021,7 @@
         "index": {
           "description": "Read list of TODO items from plain format",
           "hierarchy": "Todos Parser",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Parser",
           "name": "parsePlain",
           "normalized": "BaseConfig-\u003eDateTime-\u003eSourceName-\u003eString-\u003e[TodoItem]",
@@ -3726,6 +4038,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for parsing config files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.ReadConfig",
           "name": "ReadConfig",
           "package": "todos",
@@ -3735,6 +4048,7 @@
         "index": {
           "description": "Module for parsing config files",
           "hierarchy": "Todos ReadConfig",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.ReadConfig",
           "name": "ReadConfig",
           "package": "todos",
@@ -3749,6 +4063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead list of options from config files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.ReadConfig",
           "name": "readAllConfigs",
           "package": "todos",
@@ -3759,6 +4074,7 @@
         "index": {
           "description": "Read list of options from config files",
           "hierarchy": "Todos ReadConfig",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.ReadConfig",
           "name": "readAllConfigs",
           "normalized": "IO[String]",
@@ -3775,6 +4091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead list of options from given config file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.ReadConfig",
           "name": "readConfigFile",
           "package": "todos",
@@ -3785,6 +4102,7 @@
         "index": {
           "description": "Read list of options from given config file",
           "hierarchy": "Todos ReadConfig",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.ReadConfig",
           "name": "readConfigFile",
           "normalized": "FilePath-\u003eIO[String]",
@@ -3800,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "Tree",
           "package": "todos",
@@ -3808,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "Tree",
           "package": "todos",
@@ -3821,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "addTag",
           "package": "todos",
@@ -3830,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "addTag",
           "normalized": "String-\u003e[Todo]-\u003e[Todo]",
@@ -3845,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "datePred",
           "package": "todos",
@@ -3854,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "datePred",
           "normalized": "(a-\u003eMaybe b)-\u003eb-\u003eb-\u003ea-\u003e𝔹",
@@ -3869,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "delTag",
           "package": "todos",
@@ -3878,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "delTag",
           "normalized": "String-\u003e[Todo]-\u003e[Todo]",
@@ -3894,6 +4220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if item's description matches to given regexp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "descPred",
           "package": "todos",
@@ -3904,6 +4231,7 @@
         "index": {
           "description": "Check if item description matches to given regexp",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "descPred",
           "normalized": "String-\u003eTodoItem-\u003e𝔹",
@@ -3919,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "enumerateTodos",
           "package": "todos",
@@ -3928,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "enumerateTodos",
           "normalized": "[Todo]-\u003e[Todo]",
@@ -3944,6 +4274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlattern the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "flattern",
           "package": "todos",
@@ -3954,6 +4285,7 @@
         "index": {
           "description": "Flattern the tree",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "flattern",
           "normalized": "[Todo]-\u003e[Todo]",
@@ -3969,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each item in the tree, execute given monadic action (this is similar\n to forM, but for trees instead of lists).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "forT",
           "package": "todos",
@@ -3979,6 +4312,7 @@
         "index": {
           "description": "For each item in the tree execute given monadic action this is similar to forM but for trees instead of lists",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "forT",
           "normalized": "[Tree a]-\u003e(a-\u003eb c)-\u003eb[d]",
@@ -3994,6 +4328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if item's title matches to given regexp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "grepPred",
           "package": "todos",
@@ -4004,6 +4339,7 @@
         "index": {
           "description": "Check if item title matches to given regexp",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "grepPred",
           "normalized": "String-\u003eTodoItem-\u003e𝔹",
@@ -4020,6 +4356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if trees contain cycles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "hasCycles",
           "package": "todos",
@@ -4030,6 +4367,7 @@
         "index": {
           "description": "Check if trees contain cycles",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "hasCycles",
           "normalized": "[Tree a]-\u003e𝔹",
@@ -4046,6 +4384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if item has given ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "idPred",
           "package": "todos",
@@ -4056,6 +4395,7 @@
         "index": {
           "description": "Check if item has given ID",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "idPred",
           "normalized": "String-\u003eTodoItem-\u003e𝔹",
@@ -4071,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "itemByNumber",
           "package": "todos",
@@ -4080,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "itemByNumber",
           "normalized": "[Todo]-\u003eℤ-\u003eMaybe TodoItem",
@@ -4096,6 +4438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to map, but for trees instead of lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "mapT",
           "package": "todos",
@@ -4106,6 +4449,7 @@
         "index": {
           "description": "Similar to map but for trees instead of lists",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "mapT",
           "normalized": "(a-\u003ea)-\u003e[Tree a]-\u003e[Tree a]",
@@ -4120,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "mapTags",
           "package": "todos",
@@ -4129,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "mapTags",
           "normalized": "([String]-\u003e[String])-\u003e[Todo]-\u003e[Todo]",
@@ -4144,6 +4490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "markLevels",
           "package": "todos",
@@ -4153,6 +4500,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "markLevels",
           "normalized": "[Todo]-\u003e[Todo]",
@@ -4168,6 +4516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "pruneSelector",
           "package": "todos",
@@ -4177,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "pruneSelector",
           "normalized": "BaseConfig-\u003e(TodoItem-\u003e𝔹)-\u003eTodo-\u003e[Todo]",
@@ -4192,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "spawn",
           "package": "todos",
@@ -4201,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "spawn",
           "normalized": "String-\u003eTodoItem-\u003eIO()",
@@ -4216,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if item has given status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "statusPred",
           "package": "todos",
@@ -4226,6 +4579,7 @@
         "index": {
           "description": "Check if item has given status",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "statusPred",
           "normalized": "String-\u003eTodoItem-\u003e𝔹",
@@ -4242,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if item has given tag\n | Check if item has given tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "tagPred",
           "package": "todos",
@@ -4252,6 +4607,7 @@
         "index": {
           "description": "Check if item has given tag Check if item has given tag",
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "tagPred",
           "normalized": "String-\u003eTodoItem-\u003e𝔹",
@@ -4267,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Tree",
           "name": "treeLines",
           "package": "todos",
@@ -4276,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Todos Tree",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Tree",
           "name": "treeLines",
           "normalized": "[Tree a]-\u003eℤ",
@@ -4291,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Types",
           "package": "todos",
@@ -4299,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Types",
           "package": "todos",
@@ -4312,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "𝔹",
           "package": "todos",
@@ -4320,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "𝔹",
           "package": "todos",
@@ -4333,6 +4695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "CmdLineFlag",
           "package": "todos",
@@ -4342,6 +4705,7 @@
         "index": {
           "description": "Command line flag",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "CmdLineFlag",
           "package": "todos",
@@ -4356,6 +4720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type to store complex queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Composed",
           "package": "todos",
@@ -4365,6 +4730,7 @@
         "index": {
           "description": "Data type to store complex queries",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Composed",
           "package": "todos",
@@ -4379,6 +4745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind of date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "DateType",
           "package": "todos",
@@ -4388,6 +4755,7 @@
         "index": {
           "description": "Kind of date",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "DateType",
           "package": "todos",
@@ -4401,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Limit",
           "package": "todos",
@@ -4409,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Limit",
           "package": "todos",
@@ -4422,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "LimitFlag",
           "package": "todos",
@@ -4430,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "LimitFlag",
           "package": "todos",
@@ -4444,6 +4816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to specify parsing mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "ModeFlag",
           "package": "todos",
@@ -4453,6 +4826,7 @@
         "index": {
           "description": "Flags to specify parsing mode",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "ModeFlag",
           "package": "todos",
@@ -4467,6 +4841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of parsing command line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Options",
           "package": "todos",
@@ -4476,6 +4851,7 @@
         "index": {
           "description": "Result of parsing command line",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Options",
           "package": "todos",
@@ -4490,6 +4866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to control output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "OutFlag",
           "package": "todos",
@@ -4499,6 +4876,7 @@
         "index": {
           "description": "Flags to control output",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "OutFlag",
           "package": "todos",
@@ -4513,6 +4891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to specify query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "QueryFlag",
           "package": "todos",
@@ -4522,6 +4901,7 @@
         "index": {
           "description": "Flags to specify query",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "QueryFlag",
           "package": "todos",
@@ -4536,6 +4916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of sorting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "SortingType",
           "package": "todos",
@@ -4545,6 +4926,7 @@
         "index": {
           "description": "Type of sorting",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "SortingType",
           "package": "todos",
@@ -4559,6 +4941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTree of TODO items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Todo",
           "package": "todos",
@@ -4568,6 +4951,7 @@
         "index": {
           "description": "Tree of TODO items",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Todo",
           "package": "todos",
@@ -4582,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with selected items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "TodoCommand",
           "package": "todos",
@@ -4591,6 +4976,7 @@
         "index": {
           "description": "What to do with selected items",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "TodoCommand",
           "package": "todos",
@@ -4605,6 +4991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO item itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "TodoItem",
           "package": "todos",
@@ -4614,6 +5001,7 @@
         "index": {
           "description": "TODO item itself",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "TodoItem",
           "package": "todos",
@@ -4627,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "TodoMap",
           "package": "todos",
@@ -4635,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "TodoMap",
           "package": "todos",
@@ -4649,6 +5039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical AND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "And",
           "package": "todos",
@@ -4659,6 +5050,7 @@
         "index": {
           "description": "Logical AND",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "And",
           "package": "todos",
@@ -4672,6 +5064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "AndCons",
           "package": "todos",
@@ -4681,6 +5074,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "AndCons",
           "package": "todos",
@@ -4694,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "ByDeadline",
           "package": "todos",
@@ -4703,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "ByDeadline",
           "package": "todos",
@@ -4716,6 +5112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "ByEndDate",
           "package": "todos",
@@ -4725,6 +5122,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "ByEndDate",
           "package": "todos",
@@ -4738,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "ByStartDate",
           "package": "todos",
@@ -4747,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "ByStartDate",
           "package": "todos",
@@ -4760,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "ByStatus",
           "package": "todos",
@@ -4769,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "ByStatus",
           "package": "todos",
@@ -4782,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "ByTags",
           "package": "todos",
@@ -4791,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "ByTags",
           "package": "todos",
@@ -4804,6 +5208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "ByTitle",
           "package": "todos",
@@ -4813,6 +5218,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "ByTitle",
           "package": "todos",
@@ -4826,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Colors",
           "package": "todos",
@@ -4835,6 +5242,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Colors",
           "package": "todos",
@@ -4848,6 +5256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Deadline",
           "package": "todos",
@@ -4857,6 +5266,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Deadline",
           "package": "todos",
@@ -4870,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "DeadlineIs",
           "package": "todos",
@@ -4879,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "DeadlineIs",
           "package": "todos",
@@ -4892,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Description",
           "package": "todos",
@@ -4901,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Description",
           "package": "todos",
@@ -4914,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "DoNotReadStatus",
           "package": "todos",
@@ -4923,6 +5338,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "DoNotReadStatus",
           "package": "todos",
@@ -4936,6 +5352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "DoNotSort",
           "package": "todos",
@@ -4945,6 +5362,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "DoNotSort",
           "package": "todos",
@@ -4958,6 +5376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "DotExport",
           "package": "todos",
@@ -4967,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "DotExport",
           "package": "todos",
@@ -4981,6 +5401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Empty",
           "package": "todos",
@@ -4991,6 +5412,7 @@
         "index": {
           "description": "Empty query",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Empty",
           "package": "todos",
@@ -5004,6 +5426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "EndDate",
           "package": "todos",
@@ -5013,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "EndDate",
           "package": "todos",
@@ -5026,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "EndDateIs",
           "package": "todos",
@@ -5035,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "EndDateIs",
           "package": "todos",
@@ -5048,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Execute",
           "package": "todos",
@@ -5057,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Execute",
           "package": "todos",
@@ -5070,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Format",
           "package": "todos",
@@ -5079,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Format",
           "package": "todos",
@@ -5092,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "GroupByFile",
           "package": "todos",
@@ -5101,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "GroupByFile",
           "package": "todos",
@@ -5114,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "GroupByStatus",
           "package": "todos",
@@ -5123,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "GroupByStatus",
           "package": "todos",
@@ -5136,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "GroupByTag",
           "package": "todos",
@@ -5145,6 +5580,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "GroupByTag",
           "package": "todos",
@@ -5158,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Help",
           "package": "todos",
@@ -5167,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Help",
           "package": "todos",
@@ -5181,6 +5619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser requests help\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "HelpC",
           "package": "todos",
@@ -5191,6 +5630,7 @@
         "index": {
           "description": "User requests help",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "HelpC",
           "package": "todos",
@@ -5204,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "HelpF",
           "package": "todos",
@@ -5213,6 +5654,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "HelpF",
           "package": "todos",
@@ -5226,6 +5668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Highlight",
           "package": "todos",
@@ -5235,6 +5678,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Highlight",
           "package": "todos",
@@ -5248,6 +5692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "IdIs",
           "package": "todos",
@@ -5257,6 +5702,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "IdIs",
           "package": "todos",
@@ -5270,6 +5716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Ids",
           "package": "todos",
@@ -5279,6 +5726,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Ids",
           "package": "todos",
@@ -5292,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "IndentWith",
           "package": "todos",
@@ -5301,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "IndentWith",
           "package": "todos",
@@ -5314,6 +5764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Item",
           "package": "todos",
@@ -5323,6 +5774,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Item",
           "package": "todos",
@@ -5337,6 +5789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust output items to console\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "JustShow",
           "package": "todos",
@@ -5347,6 +5800,7 @@
         "index": {
           "description": "Just output items to console",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "JustShow",
           "package": "todos",
@@ -5360,6 +5814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "LF",
           "package": "todos",
@@ -5369,6 +5824,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "LF",
           "package": "todos",
@@ -5382,6 +5838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Limit",
           "package": "todos",
@@ -5391,6 +5848,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Limit",
           "package": "todos",
@@ -5404,6 +5862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "MF",
           "package": "todos",
@@ -5413,6 +5872,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "MF",
           "package": "todos",
@@ -5426,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Name",
           "package": "todos",
@@ -5435,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Name",
           "package": "todos",
@@ -5448,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "NoFilter",
           "package": "todos",
@@ -5457,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "NoFilter",
           "package": "todos",
@@ -5471,6 +5935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical NOT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Not",
           "package": "todos",
@@ -5481,6 +5946,7 @@
         "index": {
           "description": "Logical NOT",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Not",
           "package": "todos",
@@ -5494,6 +5960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "NotCons",
           "package": "todos",
@@ -5503,6 +5970,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "NotCons",
           "package": "todos",
@@ -5516,6 +5984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "O",
           "package": "todos",
@@ -5525,6 +5994,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "O",
           "normalized": "O[QueryFlag][ModeFlag][OutFlag][LimitFlag]",
@@ -5539,6 +6009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "OF",
           "package": "todos",
@@ -5548,6 +6019,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "OF",
           "package": "todos",
@@ -5561,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "OnlyFirst",
           "package": "todos",
@@ -5570,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "OnlyFirst",
           "package": "todos",
@@ -5584,6 +6058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical OR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Or",
           "package": "todos",
@@ -5594,6 +6069,7 @@
         "index": {
           "description": "Logical OR",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Or",
           "package": "todos",
@@ -5607,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "OrCons",
           "package": "todos",
@@ -5616,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "OrCons",
           "package": "todos",
@@ -5630,6 +6108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Pred",
           "package": "todos",
@@ -5640,6 +6119,7 @@
         "index": {
           "description": "Simple query",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Pred",
           "package": "todos",
@@ -5653,6 +6133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Prefix",
           "package": "todos",
@@ -5662,6 +6143,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Prefix",
           "package": "todos",
@@ -5675,6 +6157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Prune",
           "package": "todos",
@@ -5684,6 +6167,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Prune",
           "package": "todos",
@@ -5697,6 +6181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "QF",
           "package": "todos",
@@ -5706,6 +6191,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "QF",
           "package": "todos",
@@ -5719,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "SetStatus",
           "package": "todos",
@@ -5728,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "SetStatus",
           "package": "todos",
@@ -5741,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "SetTopStatus",
           "package": "todos",
@@ -5750,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "SetTopStatus",
           "package": "todos",
@@ -5764,6 +6254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput graph in DOT format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "ShowAsDot",
           "package": "todos",
@@ -5774,6 +6265,7 @@
         "index": {
           "description": "Output graph in DOT format",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "ShowAsDot",
           "package": "todos",
@@ -5787,6 +6279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Sort",
           "package": "todos",
@@ -5796,6 +6289,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Sort",
           "package": "todos",
@@ -5809,6 +6303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Start",
           "package": "todos",
@@ -5818,6 +6313,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Start",
           "package": "todos",
@@ -5831,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "StartDate",
           "package": "todos",
@@ -5840,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "StartDate",
           "package": "todos",
@@ -5853,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "StartDateIs",
           "package": "todos",
@@ -5862,6 +6361,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "StartDateIs",
           "package": "todos",
@@ -5875,6 +6375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Status",
           "package": "todos",
@@ -5884,6 +6385,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Status",
           "package": "todos",
@@ -5898,6 +6400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute this system command for each item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "SystemCommand",
           "package": "todos",
@@ -5908,6 +6411,7 @@
         "index": {
           "description": "Execute this system command for each item",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "SystemCommand",
           "package": "todos",
@@ -5921,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Tag",
           "package": "todos",
@@ -5930,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Tag",
           "package": "todos",
@@ -5943,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "Unlimited",
           "package": "todos",
@@ -5952,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "Unlimited",
           "package": "todos",
@@ -5966,6 +6474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecapitalize first letter of the string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "capitalize",
           "package": "todos",
@@ -5976,6 +6485,7 @@
         "index": {
           "description": "capitalize first letter of the string",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "capitalize",
           "normalized": "String-\u003eString",
@@ -5991,6 +6501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeadline for this TODO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "deadline",
           "package": "todos",
@@ -6001,6 +6512,7 @@
         "index": {
           "description": "Deadline for this TODO",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "deadline",
           "package": "todos",
@@ -6014,6 +6526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames (titles) of item's depends\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "depends",
           "package": "todos",
@@ -6024,6 +6537,7 @@
         "index": {
           "description": "Names titles of item depends",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "depends",
           "normalized": "[String]",
@@ -6039,6 +6553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate when TODO is planned to end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "endDate",
           "package": "todos",
@@ -6049,6 +6564,7 @@
         "index": {
           "description": "Date when TODO is planned to end",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "endDate",
           "package": "todos",
@@ -6063,6 +6579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to the source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "fileName",
           "package": "todos",
@@ -6073,6 +6590,7 @@
         "index": {
           "description": "Path to the source file",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "fileName",
           "package": "todos",
@@ -6086,6 +6604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "getFormat",
           "package": "todos",
@@ -6095,6 +6614,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "getFormat",
           "package": "todos",
@@ -6108,6 +6628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "getIndentString",
           "package": "todos",
@@ -6117,6 +6638,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "getIndentString",
           "package": "todos",
@@ -6130,6 +6652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "getSorting",
           "package": "todos",
@@ -6139,6 +6662,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "getSorting",
           "package": "todos",
@@ -6152,6 +6676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "is",
           "package": "todos",
@@ -6161,6 +6686,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "is",
           "normalized": "a-\u003eb c-\u003eb(a,c)",
@@ -6176,6 +6702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of the item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "itemDescr",
           "package": "todos",
@@ -6186,6 +6713,7 @@
         "index": {
           "description": "Description of the item",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "itemDescr",
           "package": "todos",
@@ -6200,6 +6728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndentation level (from source file)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "itemLevel",
           "package": "todos",
@@ -6210,6 +6739,7 @@
         "index": {
           "description": "Indentation level from source file",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "itemLevel",
           "package": "todos",
@@ -6224,6 +6754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName (title) of the item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "itemName",
           "package": "todos",
@@ -6234,6 +6765,7 @@
         "index": {
           "description": "Name title of the item",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "itemName",
           "package": "todos",
@@ -6248,6 +6780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw number of item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "itemNumber",
           "package": "todos",
@@ -6258,6 +6791,7 @@
         "index": {
           "description": "Raw number of item",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "itemNumber",
           "package": "todos",
@@ -6272,6 +6806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prefix before item in source file (or empty string)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "itemPrefix",
           "package": "todos",
@@ -6282,6 +6817,7 @@
         "index": {
           "description": "prefix before item in source file or empty string",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "itemPrefix",
           "package": "todos",
@@ -6296,6 +6832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of the item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "itemStatus",
           "package": "todos",
@@ -6306,6 +6843,7 @@
         "index": {
           "description": "Status of the item",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "itemStatus",
           "package": "todos",
@@ -6320,6 +6858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTags of the item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "itemTags",
           "package": "todos",
@@ -6330,6 +6869,7 @@
         "index": {
           "description": "Tags of the item",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "itemTags",
           "normalized": "[String]",
@@ -6345,6 +6885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "limFlag",
           "package": "todos",
@@ -6354,6 +6895,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "limFlag",
           "package": "todos",
@@ -6368,6 +6910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine in the source file, where this item was defined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "lineNr",
           "package": "todos",
@@ -6378,6 +6921,7 @@
         "index": {
           "description": "Line in the source file where this item was defined",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "lineNr",
           "package": "todos",
@@ -6392,6 +6936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an ID for any hashable item. 16 hexadecimal digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "makeId",
           "package": "todos",
@@ -6402,6 +6947,7 @@
         "index": {
           "description": "Make an ID for any hashable item hexadecimal digits",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "makeId",
           "normalized": "a-\u003eString",
@@ -6417,6 +6963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "modeFlag",
           "package": "todos",
@@ -6426,6 +6973,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "modeFlag",
           "package": "todos",
@@ -6439,6 +6987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "newStatus",
           "package": "todos",
@@ -6448,6 +6997,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "newStatus",
           "package": "todos",
@@ -6461,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "newTopStatus",
           "package": "todos",
@@ -6470,6 +7021,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "newTopStatus",
           "package": "todos",
@@ -6483,6 +7035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "outFlag",
           "package": "todos",
@@ -6492,6 +7045,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "outFlag",
           "package": "todos",
@@ -6505,6 +7059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "queryFlag",
           "package": "todos",
@@ -6514,6 +7069,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "queryFlag",
           "package": "todos",
@@ -6527,6 +7083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "readSort",
           "package": "todos",
@@ -6536,6 +7093,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "readSort",
           "normalized": "String-\u003eSortingType",
@@ -6551,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "showDate",
           "package": "todos",
@@ -6560,6 +7119,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "showDate",
           "normalized": "(DateType,DateTime)-\u003eString",
@@ -6575,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "showDates",
           "package": "todos",
@@ -6584,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "showDates",
           "normalized": "[Maybe(DateType,DateTime)]-\u003eString",
@@ -6600,6 +7162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate when TODO is planned to start\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "startDate",
           "package": "todos",
@@ -6610,6 +7173,7 @@
         "index": {
           "description": "Date when TODO is planned to start",
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "startDate",
           "package": "todos",
@@ -6623,6 +7187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "unExecute",
           "package": "todos",
@@ -6632,6 +7197,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "unExecute",
           "package": "todos",
@@ -6645,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "unLimit",
           "package": "todos",
@@ -6654,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "unLimit",
           "package": "todos",
@@ -6667,6 +7235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "unMin",
           "package": "todos",
@@ -6676,6 +7245,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "unMin",
           "package": "todos",
@@ -6689,6 +7259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "unName",
           "package": "todos",
@@ -6698,6 +7269,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "unName",
           "package": "todos",
@@ -6711,6 +7283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "unPrefix",
           "package": "todos",
@@ -6720,6 +7293,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "unPrefix",
           "package": "todos",
@@ -6733,6 +7307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos.Types",
           "name": "unPrune",
           "package": "todos",
@@ -6742,6 +7317,7 @@
         },
         "index": {
           "hierarchy": "Todos Types",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos.Types",
           "name": "unPrune",
           "package": "todos",
@@ -6755,6 +7331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:51 UTC 2014",
           "module": "Todos",
           "name": "Todos",
           "package": "todos",
@@ -6763,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "Todos",
+          "indexed": "2014-03-11T20:23:51",
           "module": "Todos",
           "name": "Todos",
           "package": "todos",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uploadcare"
+        "phrase": "uploadcare",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare.API",
           "name": "API",
           "package": "uploadcare",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare API",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare.API",
           "name": "API",
           "package": "uploadcare",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare.API",
           "name": "File",
           "package": "uploadcare",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare API",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare.API",
           "name": "File",
           "package": "uploadcare",
@@ -400,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare.Client",
           "name": "Client",
           "package": "uploadcare",
@@ -408,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare Client",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare.Client",
           "name": "Client",
           "package": "uploadcare",
@@ -421,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare.Client",
           "name": "Client",
           "package": "uploadcare",
@@ -429,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare Client",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare.Client",
           "name": "Client",
           "package": "uploadcare",
@@ -583,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare.Internal",
           "name": "Internal",
           "package": "uploadcare",
@@ -591,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare Internal",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare.Internal",
           "name": "Internal",
           "package": "uploadcare",
@@ -604,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare.Internal",
           "name": "apiHeaders",
           "package": "uploadcare",
@@ -613,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare Internal",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare.Internal",
           "name": "apiHeaders",
           "normalized": "Client-\u003eByteString-\u003eByteString-\u003eRequestHeaders",
@@ -628,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare.Internal",
           "name": "makeSignature",
           "package": "uploadcare",
@@ -637,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare Internal",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare.Internal",
           "name": "makeSignature",
           "normalized": "Client-\u003eMethod-\u003eByteString-\u003eByteString-\u003eByteString-\u003eByteString",
@@ -652,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare.Internal",
           "name": "request",
           "package": "uploadcare",
@@ -661,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare Internal",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare.Internal",
           "name": "request",
           "normalized": "Client-\u003eMethod-\u003eByteString-\u003eIO(Response ByteString)",
@@ -675,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare",
           "name": "Uploadcare",
           "package": "uploadcare",
@@ -683,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare",
           "name": "Uploadcare",
           "package": "uploadcare",
@@ -696,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare",
           "name": "Client",
           "package": "uploadcare",
@@ -704,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare",
           "name": "Client",
           "package": "uploadcare",
@@ -717,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:20 UTC 2014",
           "module": "Web.Uploadcare",
           "name": "File",
           "package": "uploadcare",
@@ -725,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Web Uploadcare",
+          "indexed": "2014-03-11T20:31:20",
           "module": "Web.Uploadcare",
           "name": "File",
           "package": "uploadcare",

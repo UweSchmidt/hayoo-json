@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskarrow"
+        "phrase": "haskarrow",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lojbanXiragan"
+        "phrase": "lojbanXiragan",
+        "type": "phrase"
       },
       "type": "context"
     }

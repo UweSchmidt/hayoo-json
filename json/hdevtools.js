@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdevtools"
+        "phrase": "hdevtools",
+        "type": "phrase"
       },
       "type": "context"
     }

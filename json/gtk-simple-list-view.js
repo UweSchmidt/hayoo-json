@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk-simple-list-view"
+        "phrase": "gtk-simple-list-view",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "SimpleListView",
           "package": "gtk-simple-list-view",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom SimpleListView",
+          "indexed": "2014-03-11T18:22:46",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "SimpleListView",
           "package": "gtk-simple-list-view",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "UpdateTreeView",
           "package": "gtk-simple-list-view",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom SimpleListView",
+          "indexed": "2014-03-11T18:22:46",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "UpdateTreeView",
           "package": "gtk-simple-list-view",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "UpdateTreeView",
           "package": "gtk-simple-list-view",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom SimpleListView",
+          "indexed": "2014-03-11T18:22:46",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "UpdateTreeView",
           "normalized": "UpdateTreeView([String]-\u003e(String-\u003eIO())-\u003eIO UpdateTreeView)",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "oneSelection",
           "package": "gtk-simple-list-view",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom SimpleListView",
+          "indexed": "2014-03-11T18:22:46",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "oneSelection",
           "normalized": "MVar(ListStore String)-\u003eTreeSelection-\u003e(String-\u003eIO())-\u003eIO()",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "simpleListView",
           "package": "gtk-simple-list-view",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom SimpleListView",
+          "indexed": "2014-03-11T18:22:46",
           "module": "Graphics.UI.Gtk.Custom.SimpleListView",
           "name": "simpleListView",
           "normalized": "String-\u003e[String]-\u003e(String-\u003eIO())-\u003eIO(Widget,UpdateTreeView)",

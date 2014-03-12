@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vinyl"
+        "phrase": "vinyl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "Classes",
           "package": "vinyl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "Classes",
           "package": "vinyl",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'(~\u003e)' is a morphism between functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "(~\u003e)",
           "package": "vinyl",
@@ -49,6 +52,7 @@
         "index": {
           "description": "is morphism between functors",
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "(~\u003e) ~\u003e",
           "package": "vinyl",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is a generalized, but non-pointed version of \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e. This\n is useful for types which range over functors rather than sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "Apply",
           "package": "vinyl",
@@ -71,6 +76,7 @@
         "index": {
           "description": "This class is generalized but non-pointed version of Applicative This is useful for types which range over functors rather than sets",
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "Apply",
           "package": "vinyl",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo accumulate effects distributed over a data type, you \u003ccode\u003e\u003ca\u003edist\u003c/a\u003e\u003c/code\u003e it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "Dist",
           "package": "vinyl",
@@ -94,6 +101,7 @@
         "index": {
           "description": "To accumulate effects distributed over data type you dist it",
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "Dist",
           "package": "vinyl",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a record is homogenous, you can fold over it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "FoldRec",
           "package": "vinyl",
@@ -117,6 +126,7 @@
         "index": {
           "description": "If record is homogenous you can fold over it",
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "FoldRec",
           "package": "vinyl",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "(\u003c\u003c*\u003e\u003e)",
           "package": "vinyl",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "(\u003c\u003c*\u003e\u003e) \u003c\u003c*\u003e\u003e",
           "normalized": "a(b c d)-\u003ea c-\u003ea d",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "NT",
           "package": "vinyl",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "NT",
           "package": "vinyl",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "dist",
           "package": "vinyl",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "dist",
           "normalized": "a b-\u003eb(a Identity)",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "foldRec",
           "package": "vinyl",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "foldRec",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec-\u003eb",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Classes",
           "name": "runNT",
           "package": "vinyl",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Classes",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Classes",
           "name": "runNT",
           "normalized": "a b-\u003ec b",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Field",
           "name": "Field",
           "package": "vinyl",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Field",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Field",
           "name": "Field",
           "package": "vinyl",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA field contains a key and a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Field",
           "name": ":::",
           "package": "vinyl",
@@ -277,6 +300,7 @@
         "index": {
           "description": "field contains key and type",
           "hierarchy": "Data Vinyl Field",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Field",
           "name": ":::",
           "package": "vinyl",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Field",
           "name": "Field",
           "package": "vinyl",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Field",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Field",
           "name": "Field",
           "package": "vinyl",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA small, \u003cem\u003een passant\u003c/em\u003e lens implementation to provide accessors\n for record fields. Lenses produced with \u003ccode\u003e\u003ca\u003erLens\u003c/a\u003e\u003c/code\u003e are fully\n compatible with the \u003ccode\u003elens\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Lens",
           "name": "Lens",
           "package": "vinyl",
@@ -321,6 +348,7 @@
         "index": {
           "description": "small en passant lens implementation to provide accessors for record fields Lenses produced with rLens are fully compatible with the lens package",
           "hierarchy": "Data Vinyl Lens",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Lens",
           "name": "Lens",
           "package": "vinyl",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject a field from a \u003ccode\u003e\u003ca\u003ePlainRec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Lens",
           "name": "rGet",
           "package": "vinyl",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Project field from PlainRec",
           "hierarchy": "Data Vinyl Lens",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Lens",
           "name": "rGet",
           "normalized": "a)-\u003ePlainRec b-\u003ea",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject a field from a \u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Lens",
           "name": "rGet'",
           "package": "vinyl",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Project field from Rec",
           "hierarchy": "Data Vinyl Lens",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Lens",
           "name": "rGet'",
           "normalized": "a)-\u003eRec b c-\u003ec a",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens into a \u003ccode\u003e\u003ca\u003ePlainRec\u003c/a\u003e\u003c/code\u003e that smoothly interoperates with lenses\n from the \u003ccode\u003elens\u003c/code\u003e package. Note that polymorphic update is not\n supported. In the parlance of the \u003ccode\u003elens\u003c/code\u003e package,\n\u003c/p\u003e\u003cpre\u003e rLens :: IElem (sy:::t) rs =\u003e (sy:::t) -\u003e Lens' (PlainRec rs) t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Lens",
           "name": "rLens",
           "package": "vinyl",
@@ -397,6 +430,7 @@
         "index": {
           "description": "lens into PlainRec that smoothly interoperates with lenses from the lens package Note that polymorphic update is not supported In the parlance of the lens package rLens IElem sy rs sy Lens PlainRec rs",
           "hierarchy": "Data Vinyl Lens",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Lens",
           "name": "rLens",
           "normalized": "a-\u003e(b-\u003ec b)-\u003ePlainRec d-\u003ec(PlainRec d)",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a lens to a record field. Note that this implementation\n does not support polymorphic update. In the parlance of the \u003ccode\u003elens\u003c/code\u003e\n package,\n\u003c/p\u003e\u003cpre\u003e rLens' :: IElem (sy:::t) rs =\u003e (sy:::t) -\u003e Lens' (Rec rs f) (f t)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Lens",
           "name": "rLens'",
           "package": "vinyl",
@@ -423,6 +458,7 @@
         "index": {
           "description": "Provide lens to record field Note that this implementation does not support polymorphic update In the parlance of the lens package rLens IElem sy rs sy Lens Rec rs",
           "hierarchy": "Data Vinyl Lens",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Lens",
           "name": "rLens'",
           "normalized": "a-\u003e(b c-\u003ed(b c))-\u003eRec e b-\u003ed(Rec e b)",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Lens",
           "name": "rMod",
           "package": "vinyl",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Modify field",
           "hierarchy": "Data Vinyl Lens",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Lens",
           "name": "rMod",
           "normalized": "a)-\u003e(a-\u003ea)-\u003eRec b c-\u003eRec b c",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a field in a \u003ccode\u003e\u003ca\u003ePlainRec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Lens",
           "name": "rPut",
           "package": "vinyl",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Set field in PlainRec",
           "hierarchy": "Data Vinyl Lens",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Lens",
           "name": "rPut",
           "normalized": "a)-\u003ea-\u003ePlainRec b-\u003ePlainRec b",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a field in a \u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e over an arbitrary functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Lens",
           "name": "rPut'",
           "package": "vinyl",
@@ -501,6 +542,7 @@
         "index": {
           "description": "Set field in Rec over an arbitrary functor",
           "hierarchy": "Data Vinyl Lens",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Lens",
           "name": "rPut'",
           "normalized": "a)-\u003eb a-\u003eRec c b-\u003eRec c b",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "Rec",
           "package": "vinyl",
@@ -524,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "Rec",
           "package": "vinyl",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend for type-level lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "(++)",
           "package": "vinyl",
@@ -547,6 +592,7 @@
         "index": {
           "description": "Append for type-level lists",
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "(++) ++",
           "normalized": "()",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields of plain records are in the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "PlainRec",
           "package": "vinyl",
@@ -571,6 +618,7 @@
         "index": {
           "description": "Fields of plain records are in the Identity functor",
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "PlainRec",
           "package": "vinyl",
@@ -585,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record is parameterized by a list of fields and a functor\n to be applied to each of those fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "Rec",
           "package": "vinyl",
@@ -594,6 +643,7 @@
         "index": {
           "description": "record is parameterized by list of fields and functor to be applied to each of those fields",
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "Rec",
           "package": "vinyl",
@@ -608,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend for records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "(\u003c+\u003e)",
           "package": "vinyl",
@@ -618,6 +669,7 @@
         "index": {
           "description": "Append for records",
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Rec a b-\u003eRec c b-\u003eRec(a c)b",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for a record with a single field of an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e\n type. This is useful for \u003ccode\u003eApplicative\u003c/code\u003e or \u003ccode\u003eMonad\u003c/code\u003eic intialization\n of records as in the idiom:\n\u003c/p\u003e\u003cpre\u003e dist $ myField \u003c-: someIO \u003c+\u003e yourField \u003c-: otherIO\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "(\u003c-:)",
           "package": "vinyl",
@@ -643,6 +696,7 @@
         "index": {
           "description": "Shorthand for record with single field of an Applicative type This is useful for Applicative or Monad ic intialization of records as in the idiom dist myField someIO yourField otherIO",
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "(\u003c-:) \u003c-:",
           "package": "vinyl",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for a record with a single field. Lifts the field's\n value into the chosen functor automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "(=:)",
           "package": "vinyl",
@@ -666,6 +721,7 @@
         "index": {
           "description": "Shorthand for record with single field Lifts the field value into the chosen functor automatically",
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "(=:) =:",
           "package": "vinyl",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": ":&",
           "package": "vinyl",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": ":&",
           "package": "vinyl",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "RNil",
           "package": "vinyl",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "RNil",
           "normalized": "Rec[]a",
@@ -724,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixes a polymorphic record into the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Rec",
           "name": "fixRecord",
           "package": "vinyl",
@@ -734,6 +795,7 @@
         "index": {
           "description": "Fixes polymorphic record into the Identity functor",
           "hierarchy": "Data Vinyl Rec",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Rec",
           "name": "fixRecord",
           "normalized": "Rec a b)-\u003ePlainRec a",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Relation",
           "name": "Relation",
           "package": "vinyl",
@@ -757,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Relation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Relation",
           "name": "Relation",
           "package": "vinyl",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subtyping relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Relation",
           "name": "(\u003c:)",
           "package": "vinyl",
@@ -780,6 +845,7 @@
         "index": {
           "description": "subtyping relation",
           "hierarchy": "Data Vinyl Relation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Relation",
           "name": "(\u003c:) \u003c:",
           "package": "vinyl",
@@ -793,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf two records types are subtypes of each other, that means that they\n differ only in order of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Relation",
           "name": ":~:",
           "package": "vinyl",
@@ -802,6 +869,7 @@
         "index": {
           "description": "If two records types are subtypes of each other that means that they differ only in order of fields",
           "hierarchy": "Data Vinyl Relation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Relation",
           "name": ":~:",
           "package": "vinyl",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerm-level record congruence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Relation",
           "name": "(~=)",
           "package": "vinyl",
@@ -825,6 +894,7 @@
         "index": {
           "description": "Term-level record congruence",
           "hierarchy": "Data Vinyl Relation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Relation",
           "name": "(~=) ~=",
           "normalized": "a-\u003eb-\u003eBool",
@@ -839,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Relation",
           "name": "cast",
           "package": "vinyl",
@@ -848,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Relation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Relation",
           "name": "cast",
           "normalized": "a-\u003ea",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Unicode",
           "name": "Unicode",
           "package": "vinyl",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Unicode",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Unicode",
           "name": "Unicode",
           "package": "vinyl",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Unicode",
           "name": "(∈)",
           "package": "vinyl",
@@ -891,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Unicode",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Unicode",
           "name": "(∈) ∈",
           "package": "vinyl",
@@ -903,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Unicode",
           "name": "(≅)",
           "package": "vinyl",
@@ -911,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Unicode",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Unicode",
           "name": "(≅) ≅",
           "package": "vinyl",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Unicode",
           "name": "(⊆)",
           "package": "vinyl",
@@ -931,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Unicode",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Unicode",
           "name": "(⊆) ⊆",
           "package": "vinyl",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Unicode",
           "name": "(≅)",
           "package": "vinyl",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Unicode",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Unicode",
           "name": "(≅) ≅",
           "normalized": "a-\u003eb-\u003eBool",
@@ -966,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Validation",
           "name": "Validation",
           "package": "vinyl",
@@ -974,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Validation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Validation",
           "name": "Validation",
           "package": "vinyl",
@@ -988,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type which is similar to \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e, except that it has a\n slightly different Applicative instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Validation",
           "name": "Result",
           "package": "vinyl",
@@ -997,6 +1082,7 @@
         "index": {
           "description": "type which is similar to Either except that it has slightly different Applicative instance",
           "hierarchy": "Data Vinyl Validation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Validation",
           "name": "Result",
           "package": "vinyl",
@@ -1011,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidators transform identities into results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Validation",
           "name": "Validator",
           "package": "vinyl",
@@ -1020,6 +1107,7 @@
         "index": {
           "description": "Validators transform identities into results",
           "hierarchy": "Data Vinyl Validation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Validation",
           "name": "Validator",
           "package": "vinyl",
@@ -1033,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Validation",
           "name": "Failure",
           "package": "vinyl",
@@ -1042,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Validation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Validation",
           "name": "Failure",
           "package": "vinyl",
@@ -1055,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Validation",
           "name": "Success",
           "package": "vinyl",
@@ -1064,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Validation",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Validation",
           "name": "Success",
           "package": "vinyl",
@@ -1077,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "Witnesses",
           "package": "vinyl",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "Witnesses",
           "package": "vinyl",
@@ -1099,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn inductive list membership proposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "Elem",
           "package": "vinyl",
@@ -1108,6 +1203,7 @@
         "index": {
           "description": "An inductive list membership proposition",
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "Elem",
           "package": "vinyl",
@@ -1122,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constraint for implicit resolution of list membership proofs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "IElem",
           "package": "vinyl",
@@ -1131,6 +1228,7 @@
         "index": {
           "description": "constraint for implicit resolution of list membership proofs",
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "IElem",
           "package": "vinyl",
@@ -1145,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constraint for implicit resolution of list subset proofs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "ISubset",
           "package": "vinyl",
@@ -1154,6 +1253,7 @@
         "index": {
           "description": "constraint for implicit resolution of list subset proofs",
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "ISubset",
           "package": "vinyl",
@@ -1167,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "Implicit",
           "package": "vinyl",
@@ -1175,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "Implicit",
           "package": "vinyl",
@@ -1189,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn inductive list subset relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "Subset",
           "package": "vinyl",
@@ -1198,6 +1301,7 @@
         "index": {
           "description": "An inductive list subset relation",
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "Subset",
           "package": "vinyl",
@@ -1211,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "Here",
           "package": "vinyl",
@@ -1220,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "Here",
           "package": "vinyl",
@@ -1233,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "SubsetCons",
           "package": "vinyl",
@@ -1242,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "SubsetCons",
           "normalized": "Elem a b-\u003eSubset c b-\u003eSubset(a c)b",
@@ -1257,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "SubsetNil",
           "package": "vinyl",
@@ -1266,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "SubsetNil",
           "normalized": "Subset[]a",
@@ -1281,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "There",
           "package": "vinyl",
@@ -1290,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "There",
           "normalized": "Elem a b-\u003eElem a(c b)",
@@ -1305,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl.Witnesses",
           "name": "implicitly",
           "package": "vinyl",
@@ -1314,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Witnesses",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl.Witnesses",
           "name": "implicitly",
           "package": "vinyl",
@@ -1326,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:11 UTC 2014",
           "module": "Data.Vinyl",
           "name": "Vinyl",
           "package": "vinyl",
@@ -1334,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl",
+          "indexed": "2014-03-11T20:35:11",
           "module": "Data.Vinyl",
           "name": "Vinyl",
           "package": "vinyl",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "v4l2-examples"
+        "phrase": "v4l2-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

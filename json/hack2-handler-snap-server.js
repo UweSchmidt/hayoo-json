@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack2-handler-snap-server"
+        "phrase": "hack2-handler-snap-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:06 UTC 2014",
           "module": "Hack2.Handler.SnapServer",
           "name": "SnapServer",
           "package": "hack2-handler-snap-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler SnapServer",
+          "indexed": "2014-03-11T18:26:06",
           "module": "Hack2.Handler.SnapServer",
           "name": "SnapServer",
           "package": "hack2-handler-snap-server",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:06 UTC 2014",
           "module": "Hack2.Handler.SnapServer",
           "name": "ServerConfig",
           "package": "hack2-handler-snap-server",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler SnapServer",
+          "indexed": "2014-03-11T18:26:06",
           "module": "Hack2.Handler.SnapServer",
           "name": "ServerConfig",
           "package": "hack2-handler-snap-server",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:06 UTC 2014",
           "module": "Hack2.Handler.SnapServer",
           "name": "ServerConfig",
           "package": "hack2-handler-snap-server",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler SnapServer",
+          "indexed": "2014-03-11T18:26:06",
           "module": "Hack2.Handler.SnapServer",
           "name": "ServerConfig",
           "package": "hack2-handler-snap-server",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:06 UTC 2014",
           "module": "Hack2.Handler.SnapServer",
           "name": "hackAppToSnap",
           "package": "hack2-handler-snap-server",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler SnapServer",
+          "indexed": "2014-03-11T18:26:06",
           "module": "Hack2.Handler.SnapServer",
           "name": "hackAppToSnap",
           "normalized": "Application-\u003eSnap()",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:06 UTC 2014",
           "module": "Hack2.Handler.SnapServer",
           "name": "port",
           "package": "hack2-handler-snap-server",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler SnapServer",
+          "indexed": "2014-03-11T18:26:06",
           "module": "Hack2.Handler.SnapServer",
           "name": "port",
           "package": "hack2-handler-snap-server",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:06 UTC 2014",
           "module": "Hack2.Handler.SnapServer",
           "name": "run",
           "package": "hack2-handler-snap-server",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler SnapServer",
+          "indexed": "2014-03-11T18:26:06",
           "module": "Hack2.Handler.SnapServer",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:06 UTC 2014",
           "module": "Hack2.Handler.SnapServer",
           "name": "runWithConfig",
           "package": "hack2-handler-snap-server",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler SnapServer",
+          "indexed": "2014-03-11T18:26:06",
           "module": "Hack2.Handler.SnapServer",
           "name": "runWithConfig",
           "normalized": "ServerConfig-\u003eApplication-\u003eIO()",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:06 UTC 2014",
           "module": "Hack2.Handler.SnapServer",
           "name": "runWithSnapServerConfig",
           "package": "hack2-handler-snap-server",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler SnapServer",
+          "indexed": "2014-03-11T18:26:06",
           "module": "Hack2.Handler.SnapServer",
           "name": "runWithSnapServerConfig",
           "normalized": "Config Snap a-\u003eApplication-\u003eIO()",

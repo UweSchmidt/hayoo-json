@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tag-bits"
+        "phrase": "tag-bits",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:20 UTC 2014",
           "module": "Data.TagBits",
           "name": "TagBits",
           "package": "tag-bits",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data TagBits",
+          "indexed": "2014-03-11T20:16:20",
           "module": "Data.TagBits",
           "name": "TagBits",
           "package": "tag-bits",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInspect the dynamic pointer tagging bits of a closure. This is an impure function that relies on GHC internals and may falsely return 0, but should never give the wrong tag number if it returns a non-0 value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:20 UTC 2014",
           "module": "Data.TagBits",
           "name": "unsafeGetTagBits",
           "package": "tag-bits",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Inspect the dynamic pointer tagging bits of closure This is an impure function that relies on GHC internals and may falsely return but should never give the wrong tag number if it returns non-0 value",
           "hierarchy": "Data TagBits",
+          "indexed": "2014-03-11T20:16:20",
           "module": "Data.TagBits",
           "name": "unsafeGetTagBits",
           "normalized": "a-\u003eWord",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a guess as to whether or not a value has been evaluated. This is an impure function that relies on GHC internals and will return false negatives, but no false positives. This is unsafe as the value of this function will vary (from False to True) over the course of otherwise pure invocations! This first attempts to check the tag bits of the pointer, and then falls back on inspecting the info table for the closure type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:20 UTC 2014",
           "module": "Data.TagBits",
           "name": "unsafeIsEvaluated",
           "package": "tag-bits",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Returns guess as to whether or not value has been evaluated This is an impure function that relies on GHC internals and will return false negatives but no false positives This is unsafe as the value of this function will vary from False to True over the course of otherwise pure invocations This first attempts to check the tag bits of the pointer and then falls back on inspecting the info table for the closure type",
           "hierarchy": "Data TagBits",
+          "indexed": "2014-03-11T20:16:20",
           "module": "Data.TagBits",
           "name": "unsafeIsEvaluated",
           "normalized": "a-\u003eBool",

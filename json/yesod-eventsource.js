@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-eventsource"
+        "phrase": "yesod-eventsource",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains everything that you need to support\n server-sent events in Yesod applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:44 UTC 2014",
           "module": "Yesod.EventSource",
           "name": "EventSource",
           "package": "yesod-eventsource",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains everything that you need to support server-sent events in Yesod applications",
           "hierarchy": "Yesod EventSource",
+          "indexed": "2014-03-11T20:45:44",
           "module": "Yesod.EventSource",
           "name": "EventSource",
           "package": "yesod-eventsource",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich \u003ccode\u003eEventSource\u003c/code\u003e polyfill was detected (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:44 UTC 2014",
           "module": "Yesod.EventSource",
           "name": "EventSourcePolyfill",
           "package": "yesod-eventsource",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Which EventSource polyfill was detected if any",
           "hierarchy": "Yesod EventSource",
+          "indexed": "2014-03-11T20:45:44",
           "module": "Yesod.EventSource",
           "name": "EventSourcePolyfill",
           "package": "yesod-eventsource",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe didn't detect any \u003ccode\u003eEventSource\u003c/code\u003e polyfill that we know.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:44 UTC 2014",
           "module": "Yesod.EventSource",
           "name": "NoESPolyfill",
           "package": "yesod-eventsource",
@@ -75,6 +80,7 @@
         "index": {
           "description": "We didn detect any EventSource polyfill that we know",
           "hierarchy": "Yesod EventSource",
+          "indexed": "2014-03-11T20:45:44",
           "module": "Yesod.EventSource",
           "name": "NoESPolyfill",
           "package": "yesod-eventsource",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee\n \u003ca\u003ehttps://github.com/remy/polyfills/blob/master/EventSource.js\u003c/a\u003e.\n In order to support Remy's polyfill, your server needs to\n explicitly close the connection from time to\n time--browsers such as IE7 will not show any event until\n the connection is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:44 UTC 2014",
           "module": "Yesod.EventSource",
           "name": "Remy'sESPolyfill",
           "package": "yesod-eventsource",
@@ -99,6 +106,7 @@
         "index": {
           "description": "See https github.com remy polyfills blob master EventSource.js In order to support Remy polyfill your server needs to explicitly close the connection from time to time--browsers such as IE7 will not show any event until the connection is closed",
           "hierarchy": "Yesod EventSource",
+          "indexed": "2014-03-11T20:45:44",
           "module": "Yesod.EventSource",
           "name": "Remy'sESPolyfill",
           "package": "yesod-eventsource",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a Server-Sent Event stream given an \u003ccode\u003eIO\u003c/code\u003e action that\n is repeatedly called.  A state is threaded for the action so\n that it may avoid using \u003ccode\u003eIORefs\u003c/code\u003e.  The \u003ccode\u003eIO\u003c/code\u003e action may sleep\n or block while waiting for more data.  The HTTP socket is\n flushed after every list of simultaneous events.  The\n connection is closed as soon as an \u003ccode\u003e\u003ca\u003eCloseEvent\u003c/a\u003e\u003c/code\u003e is\n outputted, after which no other events are sent to the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:44 UTC 2014",
           "module": "Yesod.EventSource",
           "name": "ioToRepEventSource",
           "package": "yesod-eventsource",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Return Server-Sent Event stream given an IO action that is repeatedly called state is threaded for the action so that it may avoid using IORefs The IO action may sleep or block while waiting for more data The HTTP socket is flushed after every list of simultaneous events The connection is closed as soon as an CloseEvent is outputted after which no other events are sent to the client",
           "hierarchy": "Yesod EventSource",
+          "indexed": "2014-03-11T20:45:44",
           "module": "Yesod.EventSource",
           "name": "ioToRepEventSource",
           "normalized": "a-\u003e(EventSourcePolyfill-\u003ea-\u003eIO([ServerEvent],a))-\u003eHandlerT b IO TypedContent",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a Server-Sent Event stream given a \u003ccode\u003e\u003ca\u003eHandlerT\u003c/a\u003e\u003c/code\u003e action\n that is repeatedly called.  A state is threaded for the action\n so that it may avoid using \u003ccode\u003eIORefs\u003c/code\u003e.  The \u003ccode\u003eHandlerT\u003c/code\u003e action\n may sleep or block while waiting for more data.  The HTTP\n socket is flushed after every list of simultaneous events.\n The connection is closed as soon as an \u003ccode\u003e\u003ca\u003eCloseEvent\u003c/a\u003e\u003c/code\u003e is\n outputted, after which no other events are sent to the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:44 UTC 2014",
           "module": "Yesod.EventSource",
           "name": "pollingEventSource",
           "package": "yesod-eventsource",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Return Server-Sent Event stream given HandlerT action that is repeatedly called state is threaded for the action so that it may avoid using IORefs The HandlerT action may sleep or block while waiting for more data The HTTP socket is flushed after every list of simultaneous events The connection is closed as soon as an CloseEvent is outputted after which no other events are sent to the client",
           "hierarchy": "Yesod EventSource",
+          "indexed": "2014-03-11T20:45:44",
           "module": "Yesod.EventSource",
           "name": "pollingEventSource",
           "normalized": "a-\u003e(EventSourcePolyfill-\u003ea-\u003eHandlerT b IO([ServerEvent],a))-\u003eHandlerT b IO TypedContent",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a Server-Sent Event stream from a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e of\n \u003ccode\u003e\u003ca\u003eServerEvent\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e.  The HTTP socket is flushed after every\n event.  The connection is closed either when the \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e\n finishes outputting data or a \u003ccode\u003e\u003ca\u003eCloseEvent\u003c/a\u003e\u003c/code\u003e is outputted,\n whichever comes first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:44 UTC 2014",
           "module": "Yesod.EventSource",
           "name": "repEventSource",
           "package": "yesod-eventsource",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Returns Server-Sent Event stream from Source of ServerEvent The HTTP socket is flushed after every event The connection is closed either when the Source finishes outputting data or CloseEvent is outputted whichever comes first",
           "hierarchy": "Yesod EventSource",
+          "indexed": "2014-03-11T20:45:44",
           "module": "Yesod.EventSource",
           "name": "repEventSource",
           "normalized": "(EventSourcePolyfill-\u003eSource(HandlerT a IO)ServerEvent)-\u003eHandlerT a IO TypedContent",

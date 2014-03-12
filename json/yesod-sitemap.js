@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-sitemap"
+        "phrase": "yesod-sitemap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerates XML sitemap files.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.sitemaps.org/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "Sitemap",
           "package": "yesod-sitemap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Generates XML sitemap files See http www.sitemaps.org",
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "Sitemap",
           "package": "yesod-sitemap",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "SitemapChangeFreq",
           "package": "yesod-sitemap",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "SitemapChangeFreq",
           "package": "yesod-sitemap",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "SitemapUrl",
           "package": "yesod-sitemap",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "SitemapUrl",
           "package": "yesod-sitemap",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "Always",
           "package": "yesod-sitemap",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "Always",
           "package": "yesod-sitemap",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "Daily",
           "package": "yesod-sitemap",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "Daily",
           "package": "yesod-sitemap",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "Hourly",
           "package": "yesod-sitemap",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "Hourly",
           "package": "yesod-sitemap",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "Monthly",
           "package": "yesod-sitemap",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "Monthly",
           "package": "yesod-sitemap",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "Never",
           "package": "yesod-sitemap",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "Never",
           "package": "yesod-sitemap",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "SitemapUrl",
           "package": "yesod-sitemap",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "SitemapUrl",
           "package": "yesod-sitemap",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "Weekly",
           "package": "yesod-sitemap",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "Weekly",
           "package": "yesod-sitemap",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "Yearly",
           "package": "yesod-sitemap",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "Yearly",
           "package": "yesod-sitemap",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic robots file which just lists the \u003ca\u003eSitemap: \u003c/a\u003e line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "robots",
           "package": "yesod-sitemap",
@@ -269,6 +292,7 @@
         "index": {
           "description": "basic robots file which just lists the Sitemap line",
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "robots",
           "normalized": "Route(HandlerSite a)-\u003ea Text",
@@ -284,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServe a stream of \u003ccode\u003eSitemapUrl\u003c/code\u003es as a sitemap.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "sitemap",
           "package": "yesod-sitemap",
@@ -294,6 +319,7 @@
         "index": {
           "description": "Serve stream of SitemapUrl as sitemap Since",
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "sitemap",
           "normalized": "Source(HandlerT a IO)(SitemapUrl(Route a))-\u003eHandlerT a IO TypedContent",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "sitemapChangeFreq",
           "package": "yesod-sitemap",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "sitemapChangeFreq",
           "package": "yesod-sitemap",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a stream of \u003ccode\u003eSitemapUrl\u003c/code\u003es to XML \u003ccode\u003eEvent\u003c/code\u003es using the given URL\n renderer.\n\u003c/p\u003e\u003cp\u003eThis function is fully general for usage outside of Yesod.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "sitemapConduit",
           "package": "yesod-sitemap",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Convert stream of SitemapUrl to XML Event using the given URL renderer This function is fully general for usage outside of Yesod Since",
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "sitemapConduit",
           "normalized": "(a-\u003eText)-\u003eConduit(SitemapUrl a)b Event",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "sitemapLastMod",
           "package": "yesod-sitemap",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "sitemapLastMod",
           "package": "yesod-sitemap",
@@ -379,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience wrapper for \u003ccode\u003esitemap\u003c/code\u003e for the case when the input is an\n in-memory list.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "sitemapList",
           "package": "yesod-sitemap",
@@ -389,6 +422,7 @@
         "index": {
           "description": "Convenience wrapper for sitemap for the case when the input is an in-memory list Since",
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "sitemapList",
           "normalized": "[SitemapUrl(Route a)]-\u003eHandlerT a IO TypedContent",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "sitemapLoc",
           "package": "yesod-sitemap",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "sitemapLoc",
           "package": "yesod-sitemap",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:32 UTC 2014",
           "module": "Yesod.Sitemap",
           "name": "sitemapPriority",
           "package": "yesod-sitemap",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Yesod Sitemap",
+          "indexed": "2014-03-11T20:46:32",
           "module": "Yesod.Sitemap",
           "name": "sitemapPriority",
           "package": "yesod-sitemap",

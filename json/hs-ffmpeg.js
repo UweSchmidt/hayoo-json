@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-ffmpeg"
+        "phrase": "hs-ffmpeg",
+        "type": "phrase"
       },
       "type": "context"
     }

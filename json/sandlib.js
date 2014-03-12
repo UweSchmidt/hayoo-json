@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sandlib"
+        "phrase": "sandlib",
+        "type": "phrase"
       },
       "type": "context"
     }

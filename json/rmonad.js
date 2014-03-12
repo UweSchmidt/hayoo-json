@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rmonad"
+        "phrase": "rmonad",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.IfThenElse",
           "name": "IfThenElse",
           "package": "rmonad",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control IfThenElse",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.IfThenElse",
           "name": "IfThenElse",
           "package": "rmonad",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.IfThenElse",
           "name": "ifThenElse",
           "package": "rmonad",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control IfThenElse",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.IfThenElse",
           "name": "ifThenElse",
           "normalized": "Bool-\u003ea-\u003ea-\u003ea",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.AsMonad",
           "name": "AsMonad",
           "package": "rmonad",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad AsMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.AsMonad",
           "name": "AsMonad",
           "package": "rmonad",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper type that can be used to embed an arbitrary restricted\n monad as a normal monad.\n\u003c/p\u003e\u003cp\u003eNote that in general there can be an efficiency loss in using\n \u003ccode\u003e\u003ca\u003eAsMonad\u003c/a\u003e\u003c/code\u003e where the underlying restricted monad could have been used\n instead. For example when using \u003ccode\u003eSet\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eAsMonad\u003c/a\u003e\u003c/code\u003e, intermediate results\n will not have duplicates removed. On the other hand, it becomes legal\n to use intermediate results that do not have \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.AsMonad",
           "name": "AsMonad",
           "package": "rmonad",
@@ -94,6 +101,7 @@
         "index": {
           "description": "wrapper type that can be used to embed an arbitrary restricted monad as normal monad Note that in general there can be an efficiency loss in using AsMonad where the underlying restricted monad could have been used instead For example when using Set with AsMonad intermediate results will not have duplicates removed On the other hand it becomes legal to use intermediate results that do not have Ord instances",
           "hierarchy": "Control RMonad AsMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.AsMonad",
           "name": "AsMonad",
           "package": "rmonad",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a restricted monad into a normal monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.AsMonad",
           "name": "embed",
           "package": "rmonad",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Turn restricted monad into normal monad",
           "hierarchy": "Control RMonad AsMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.AsMonad",
           "name": "embed",
           "normalized": "a b-\u003eAsMonad a b",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap an \u003ccode\u003e\u003ca\u003eAsMonad\u003c/a\u003e\u003c/code\u003e value into the enclosed restricted monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.AsMonad",
           "name": "unEmbed",
           "package": "rmonad",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Unwrap an AsMonad value into the enclosed restricted monad",
           "hierarchy": "Control RMonad AsMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.AsMonad",
           "name": "unEmbed",
           "normalized": "AsMonad a b-\u003ea b",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Fix",
           "name": "Fix",
           "package": "rmonad",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Fix",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Fix",
           "name": "Fix",
           "package": "rmonad",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Fix",
           "name": "RMonadFix",
           "package": "rmonad",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Fix",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Fix",
           "name": "RMonadFix",
           "package": "rmonad",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e is the least fixed point of the function \u003ccode\u003ef\u003c/code\u003e,\n i.e. the least defined \u003ccode\u003ex\u003c/code\u003e such that \u003ccode\u003ef x = x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Fix",
           "name": "fix",
           "package": "rmonad",
@@ -210,6 +227,7 @@
         "index": {
           "description": "fix is the least fixed point of the function i.e the least defined such that",
           "hierarchy": "Control RMonad Fix",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Fix",
           "name": "fix",
           "normalized": "(a-\u003ea)-\u003ea",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Fix",
           "name": "mfix",
           "package": "rmonad",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Fix",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Fix",
           "name": "mfix",
           "normalized": "(a-\u003eb a)-\u003eb a",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Prelude",
           "name": "Prelude",
           "package": "rmonad",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Prelude",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Prelude",
           "name": "Prelude",
           "package": "rmonad",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans.Cont",
           "name": "Cont",
           "package": "rmonad",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans Cont",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans.Cont",
           "name": "Cont",
           "package": "rmonad",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans.List",
           "name": "List",
           "package": "rmonad",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans List",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans.List",
           "name": "List",
           "package": "rmonad",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans.Reader",
           "name": "Reader",
           "package": "rmonad",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans Reader",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans.Reader",
           "name": "Reader",
           "package": "rmonad",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans.Set",
           "name": "Set",
           "package": "rmonad",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans Set",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans.Set",
           "name": "Set",
           "package": "rmonad",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans.Set",
           "name": "SetT",
           "package": "rmonad",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans Set",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans.Set",
           "name": "SetT",
           "package": "rmonad",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans.Set",
           "name": "SetT",
           "package": "rmonad",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans Set",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans.Set",
           "name": "SetT",
           "package": "rmonad",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans.Set",
           "name": "runSetT",
           "package": "rmonad",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans Set",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans.Set",
           "name": "runSetT",
           "package": "rmonad",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans",
           "name": "Trans",
           "package": "rmonad",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans",
           "name": "Trans",
           "package": "rmonad",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans",
           "name": "RMonadIO",
           "package": "rmonad",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans",
           "name": "RMonadIO",
           "package": "rmonad",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans",
           "name": "RMonadTrans",
           "package": "rmonad",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans",
           "name": "RMonadTrans",
           "package": "rmonad",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans",
           "name": "lift",
           "package": "rmonad",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad.Trans",
           "name": "liftIO",
           "package": "rmonad",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad Trans",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad.Trans",
           "name": "liftIO",
           "normalized": "IO a-\u003eb a",
@@ -528,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides alternatives to the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eMonadPlus\u003c/code\u003e classes,\n allowing for constraints on the contained type (a restricted monad).\n It makes use of associated datatypes (available in GHC 6.8).\n\u003c/p\u003e\u003cp\u003eTo make your own type instances of these classes, first define\n the \u003ccode\u003e\u003ca\u003eConstraints\u003c/a\u003e\u003c/code\u003e datatype and the \u003ccode\u003e\u003ca\u003eSuitable\u003c/a\u003e\u003c/code\u003e type class for it. For example,\n\u003c/p\u003e\u003cpre\u003e\n     data instance Constraints Set a = Ord a =\u003e SetConstraints\n     instance Ord a =\u003e Suitable Set a where\n        constraints = SetConstraints\n\u003c/pre\u003e\u003cp\u003eYou need to change \u003ccode\u003eSet\u003c/code\u003e to your own type, \u003ccode\u003eOrd a\u003c/code\u003e to your own\n constraints, and \u003ccode\u003eSetConstraints\u003c/code\u003e to some distinguished name (this name\n will not normally be visible to users of your type)\n\u003c/p\u003e\u003cp\u003eNext you can make an instance of \u003ccode\u003e\u003ca\u003eRMonad\u003c/a\u003e\u003c/code\u003e and if appropriate \u003ccode\u003e\u003ca\u003eRMonadPlus\u003c/a\u003e\u003c/code\u003e\n by defining the members in the usual way. When you need to make use of the\n constraint on the contained type, you will need to get hold of the constraint\n wrapped up in the \u003ccode\u003e\u003ca\u003eConstraints\u003c/a\u003e\u003c/code\u003e datatype, which can be achieved with the helper\n \u003ccode\u003e\u003ca\u003ewithResConstraints\u003c/a\u003e\u003c/code\u003e. For example here are the instances for \u003ccode\u003eSet\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n    instance RMonad Set where\n       return = Set.singleton\n       s \u003e\u003e= f = withResConstraints $ SetConstraints -\u003e Set.fold (a s' -\u003e Set.union (f a) s') Set.empty s\n       fail _ = Set.empty\n\u003c/pre\u003e\u003cpre\u003e\n    instance RMonadPlus Set where\n       mzero = Set.empty\n       mplus s1 s2 = withResConstraints $ SetConstraints -\u003e Set.union s1 s2\n\u003c/pre\u003e\u003cp\u003eOnce you have made your type an instance of \u003ccode\u003e\u003ca\u003eRMonad\u003c/a\u003e\u003c/code\u003e, you can\n use it in two ways.\n Firstly, import this module directly and use the \u003ccode\u003eRebindableSyntax\u003c/code\u003e extension\n so that do-syntax is rebound. If using ghc\u003c7 use \u003ccode\u003eNoImplicitPrelude\u003c/code\u003e instead.\n Secondly, use the wrapper type in \u003ca\u003eControl.RMonad.AsMonad\u003c/a\u003e which supports\n the normal \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "RMonad",
           "package": "rmonad",
@@ -537,6 +584,7 @@
         "index": {
           "description": "This module provides alternatives to the Functor Monad and MonadPlus classes allowing for constraints on the contained type restricted monad It makes use of associated datatypes available in GHC To make your own type instances of these classes first define the Constraints datatype and the Suitable type class for it For example data instance Constraints Set Ord SetConstraints instance Ord Suitable Set where constraints SetConstraints You need to change Set to your own type Ord to your own constraints and SetConstraints to some distinguished name this name will not normally be visible to users of your type Next you can make an instance of RMonad and if appropriate RMonadPlus by defining the members in the usual way When you need to make use of the constraint on the contained type you will need to get hold of the constraint wrapped up in the Constraints datatype which can be achieved with the helper withResConstraints For example here are the instances for Set instance RMonad Set where return Set.singleton withResConstraints SetConstraints Set.fold Set.union Set.empty fail Set.empty instance RMonadPlus Set where mzero Set.empty mplus s1 s2 withResConstraints SetConstraints Set.union s1 s2 Once you have made your type an instance of RMonad you can use it in two ways Firstly import this module directly and use the RebindableSyntax extension so that do-syntax is rebound If using ghc use NoImplicitPrelude instead Secondly use the wrapper type in Control.RMonad.AsMonad which supports the normal Monad operations",
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "RMonad",
           "package": "rmonad",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "RFunctor",
           "package": "rmonad",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "RFunctor",
           "package": "rmonad",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "RMonad",
           "package": "rmonad",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "RMonad",
           "package": "rmonad",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "RMonadPlus",
           "package": "rmonad",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "RMonadPlus",
           "package": "rmonad",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "Suitable",
           "package": "rmonad",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "Suitable",
           "package": "rmonad",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "(\u003c=\u003c)",
           "package": "rmonad",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "(\u003c=\u003c) \u003c=\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003eb c",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "(=\u003c\u003c)",
           "package": "rmonad",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "(=\u003c\u003c) =\u003c\u003c",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "(\u003e=\u003e)",
           "package": "rmonad",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "(\u003e=\u003e) \u003e=\u003e",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "(\u003e\u003e)",
           "package": "rmonad",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "(\u003e\u003e) \u003e\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "(\u003e\u003e=)",
           "package": "rmonad",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "(\u003e\u003e=) \u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "ap",
           "package": "rmonad",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "ap",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "constraints",
           "package": "rmonad",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "constraints",
           "package": "rmonad",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "fail",
           "package": "rmonad",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "fail",
           "normalized": "String-\u003ea b",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "filterM",
           "package": "rmonad",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "filterM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb[a]",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "fmap",
           "package": "rmonad",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "fmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "foldM",
           "package": "rmonad",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "foldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003e[b]-\u003ec a",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "foldM_",
           "package": "rmonad",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "foldM_",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003e[b]-\u003ec()",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "forM",
           "package": "rmonad",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "forM",
           "normalized": "[a]-\u003e(a-\u003eb c)-\u003eb[c]",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "forM_",
           "package": "rmonad",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "forM_",
           "normalized": "[a]-\u003e(a-\u003eb c)-\u003eb()",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "forever",
           "package": "rmonad",
@@ -961,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "forever",
           "normalized": "a b-\u003ea c",
@@ -975,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "guard",
           "package": "rmonad",
@@ -984,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "guard",
           "normalized": "Bool-\u003ea()",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "join",
           "package": "rmonad",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "join",
           "normalized": "a(a b)-\u003ea b",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "liftM",
           "package": "rmonad",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "liftM",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1044,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "liftM2",
           "package": "rmonad",
@@ -1053,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "liftM2",
           "normalized": "(a-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec b",
@@ -1067,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "liftM3",
           "package": "rmonad",
@@ -1076,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "liftM3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "liftM4",
           "package": "rmonad",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "liftM4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1113,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "liftM5",
           "package": "rmonad",
@@ -1122,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "liftM5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -1136,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "mapAndUnzipM",
           "package": "rmonad",
@@ -1145,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "mapAndUnzipM",
           "normalized": "(a-\u003eb(c,d))-\u003e[a]-\u003eb([c],[d])",
@@ -1160,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "mapM",
           "package": "rmonad",
@@ -1169,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003e[a]-\u003eb[c]",
@@ -1183,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "mapM_",
           "package": "rmonad",
@@ -1192,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "mapM_",
           "normalized": "(a-\u003eb c)-\u003e[a]-\u003eb()",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "mplus",
           "package": "rmonad",
@@ -1215,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "mplus",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1229,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "msum",
           "package": "rmonad",
@@ -1238,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "msum",
           "normalized": "[a b]-\u003ea b",
@@ -1252,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "mzero",
           "package": "rmonad",
@@ -1261,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "mzero",
           "package": "rmonad",
@@ -1273,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "replicateM",
           "package": "rmonad",
@@ -1282,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "replicateM",
           "normalized": "Int-\u003ea b-\u003ea[b]",
@@ -1296,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "replicateM_",
           "package": "rmonad",
@@ -1305,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "replicateM_",
           "normalized": "Int-\u003ea b-\u003ea()",
@@ -1319,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "return",
           "package": "rmonad",
@@ -1328,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "return",
           "normalized": "a-\u003eb a",
@@ -1342,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "sequence",
           "package": "rmonad",
@@ -1351,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "sequence",
           "normalized": "[a b]-\u003ea[b]",
@@ -1365,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "sequence_",
           "package": "rmonad",
@@ -1374,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "sequence_",
           "normalized": "[a b]-\u003ea()",
@@ -1388,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "unless",
           "package": "rmonad",
@@ -1397,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "unless",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -1411,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "when",
           "package": "rmonad",
@@ -1420,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "when",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -1434,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "zipWithM",
           "package": "rmonad",
@@ -1443,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "zipWithM",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e[a]-\u003e[b]-\u003ec[d]",
@@ -1458,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:40 UTC 2014",
           "module": "Control.RMonad",
           "name": "zipWithM_",
           "package": "rmonad",
@@ -1467,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Control RMonad",
+          "indexed": "2014-03-11T19:54:40",
           "module": "Control.RMonad",
           "name": "zipWithM_",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e[a]-\u003e[b]-\u003ec()",

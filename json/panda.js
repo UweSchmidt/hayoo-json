@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "panda"
+        "phrase": "panda",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:46 UTC 2014",
           "module": "Panda",
           "name": "panda",
           "package": "panda",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Panda",
+          "indexed": "2014-03-11T19:33:46",
           "module": "Panda",
           "name": "panda",
           "normalized": "IO()",

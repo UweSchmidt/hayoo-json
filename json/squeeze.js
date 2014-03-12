@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "squeeze"
+        "phrase": "squeeze",
+        "type": "phrase"
       },
       "type": "context"
     }

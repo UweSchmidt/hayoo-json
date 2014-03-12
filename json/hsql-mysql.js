@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsql-mysql"
+        "phrase": "hsql-mysql",
+        "type": "phrase"
       },
       "type": "context"
     }

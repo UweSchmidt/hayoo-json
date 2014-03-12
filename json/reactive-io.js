@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive-io"
+        "phrase": "reactive-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "IO",
           "package": "reactive-io",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "IO",
           "package": "reactive-io",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "Event",
           "package": "reactive-io",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "Event",
           "package": "reactive-io",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "Signal",
           "package": "reactive-io",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "Signal",
           "package": "reactive-io",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "accumE",
           "package": "reactive-io",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "accumE",
           "normalized": "a-\u003eEvent(a-\u003ea)-\u003eEvent a",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "apply",
           "package": "reactive-io",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "apply",
           "normalized": "Signal(a-\u003eb)-\u003eEvent a-\u003eEvent b",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "execute",
           "package": "reactive-io",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "execute",
           "normalized": "Event(IO())-\u003eIO()",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "filterE",
           "package": "reactive-io",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "filterE",
           "normalized": "(a-\u003eBool)-\u003eEvent a-\u003eEvent a",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "newEvent",
           "package": "reactive-io",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "newEvent",
           "normalized": "((a-\u003eIO())-\u003eIO())-\u003eEvent a",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "newSignal",
           "package": "reactive-io",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "newSignal",
           "normalized": "IO a-\u003eSignal a",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:33 UTC 2014",
           "module": "Reactive.IO",
           "name": "stepper",
           "package": "reactive-io",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Reactive IO",
+          "indexed": "2014-03-11T19:49:33",
           "module": "Reactive.IO",
           "name": "stepper",
           "normalized": "a-\u003eEvent a-\u003eSignal a",

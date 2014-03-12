@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CSPM-cspm"
+        "phrase": "CSPM-cspm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.Assert",
           "name": "Assert",
           "package": "CSPM-cspm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "CSPM Assert",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.Assert",
           "name": "Assert",
           "package": "CSPM-cspm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.Assert",
           "name": "checkFileAsserts",
           "package": "CSPM-cspm",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "CSPM Assert",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.Assert",
           "name": "checkFileAsserts",
           "normalized": "FilePath-\u003eBool-\u003eIO[AssertResult]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.Assert",
           "name": "formatAssertResults",
           "package": "CSPM-cspm",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "CSPM Assert",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.Assert",
           "name": "formatAssertResults",
           "normalized": "[AssertResult]-\u003eDoc",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSearch the state-space of a CSPM process for deadlock states\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.Deadlock",
           "name": "Deadlock",
           "package": "CSPM-cspm",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Search the state-space of CSPM process for deadlock states",
           "hierarchy": "CSPM LTS Deadlock",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.Deadlock",
           "name": "Deadlock",
           "package": "CSPM-cspm",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch the statespace of a process for deadlock states.\n returns the shortes trace to a deadlock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.Deadlock",
           "name": "findDeadlock",
           "package": "CSPM-cspm",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Search the statespace of process for deadlock states returns the shortes trace to deadlock",
           "hierarchy": "CSPM LTS Deadlock",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.Deadlock",
           "name": "findDeadlock",
           "normalized": "Sigma INT-\u003eProcess INT-\u003eMaybe[Rule INT]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.LTS",
           "name": "LTS",
           "package": "CSPM-cspm",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "CSPM LTS LTS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.LTS",
           "name": "LTS",
           "package": "CSPM-cspm",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.LTS",
           "name": "LTS",
           "package": "CSPM-cspm",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "CSPM LTS LTS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.LTS",
           "name": "LTS",
           "package": "CSPM-cspm",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.LTS",
           "name": "LtsNode",
           "package": "CSPM-cspm",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "CSPM LTS LTS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.LTS",
           "name": "LtsNode",
           "package": "CSPM-cspm",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.LTS",
           "name": "LtsNode",
           "package": "CSPM-cspm",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "CSPM LTS LTS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.LTS",
           "name": "LtsNode",
           "package": "CSPM-cspm",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the hash value of an LTS. (Warning: This does not include entry process)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.LTS",
           "name": "hashLTS",
           "package": "CSPM-cspm",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Compute the hash value of an LTS Warning This does not include entry process",
           "hierarchy": "CSPM LTS LTS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.LTS",
           "name": "hashLTS",
           "normalized": "LTS-\u003eDigest",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.LTS",
           "name": "mkLtsNode",
           "package": "CSPM-cspm",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "CSPM LTS LTS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.LTS",
           "name": "mkLtsNode",
           "normalized": "Process-\u003eLtsNode",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.LTS",
           "name": "nodeDigest",
           "package": "CSPM-cspm",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "CSPM LTS LTS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.LTS",
           "name": "nodeDigest",
           "package": "CSPM-cspm",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.LTS",
           "name": "nodeProcess",
           "package": "CSPM-cspm",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "CSPM LTS LTS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.LTS",
           "name": "nodeProcess",
           "package": "CSPM-cspm",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute the labled transition system of a process.\n Uses depth first search and runs in the IO-Monad.\n A Timeout can be set and the function can return a partial LTS\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.MkLtsDFS",
           "name": "MkLtsDFS",
           "package": "CSPM-cspm",
@@ -324,6 +351,7 @@
         "index": {
           "description": "Compute the labled transition system of process Uses depth first search and runs in the IO-Monad Timeout can be set and the function can return partial LTS",
           "hierarchy": "CSPM LTS MkLtsDFS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.MkLtsDFS",
           "name": "MkLtsDFS",
           "package": "CSPM-cspm",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform one iteration of the DFS loop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.MkLtsDFS",
           "name": "dfsStep",
           "package": "CSPM-cspm",
@@ -348,6 +377,7 @@
         "index": {
           "description": "perform one iteration of the DFS loop",
           "hierarchy": "CSPM LTS MkLtsDFS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.MkLtsDFS",
           "name": "dfsStep",
           "normalized": "Sigma INT-\u003eDFSState-\u003e(DFSState,Bool)",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eWarning: mkLts leaks memory: TODO : fix this\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eGenerate an LTS with a DFS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.MkLtsDFS",
           "name": "mkLtsDFS",
           "package": "CSPM-cspm",
@@ -374,6 +405,7 @@
         "index": {
           "description": "Warning mkLts leaks memory TODO fix this Generate an LTS with DFS",
           "hierarchy": "CSPM LTS MkLtsDFS",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.MkLtsDFS",
           "name": "mkLtsDFS",
           "normalized": "Bool-\u003eMaybe Double-\u003eSigma INT-\u003eProcess INT-\u003eIO(LTS,Bool)",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute the labled transition system of a process.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.MkLtsPar",
           "name": "MkLtsPar",
           "package": "CSPM-cspm",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Compute the labled transition system of process",
           "hierarchy": "CSPM LTS MkLtsPar",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.MkLtsPar",
           "name": "MkLtsPar",
           "package": "CSPM-cspm",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the LTS of a Process using parallel strategies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.MkLtsPar",
           "name": "mkLtsPar",
           "package": "CSPM-cspm",
@@ -423,6 +458,7 @@
         "index": {
           "description": "Compute the LTS of Process using parallel strategies",
           "hierarchy": "CSPM LTS MkLtsPar",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.MkLtsPar",
           "name": "mkLtsPar",
           "normalized": "Sigma INT-\u003eProcess INT-\u003eLTS",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.ToCsp",
           "name": "ToCsp",
           "package": "CSPM-cspm",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "CSPM LTS ToCsp",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.ToCsp",
           "name": "ToCsp",
           "package": "CSPM-cspm",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an LTS to a CSP specification suitable for reloading it with FDR.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.ToCsp",
           "name": "ltsToCsp",
           "package": "CSPM-cspm",
@@ -469,6 +508,7 @@
         "index": {
           "description": "Translate an LTS to CSP specification suitable for reloading it with FDR",
           "hierarchy": "CSPM LTS ToCsp",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.ToCsp",
           "name": "ltsToCsp",
           "normalized": "Process INT-\u003eLTS-\u003eDoc",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003edump a Lts as a Dot-file\n todo : completely rewrite (use dot-library)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.ToDot",
           "name": "ToDot",
           "package": "CSPM-cspm",
@@ -494,6 +535,7 @@
         "index": {
           "description": "dump Lts as Dot-file todo completely rewrite use dot-library",
           "hierarchy": "CSPM LTS ToDot",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.ToDot",
           "name": "ToDot",
           "package": "CSPM-cspm",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a LTS as a .dot-file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.LTS.ToDot",
           "name": "mkDotFile",
           "package": "CSPM-cspm",
@@ -518,6 +561,7 @@
         "index": {
           "description": "Dump LTS as dot-file",
           "hierarchy": "CSPM LTS ToDot",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.LTS.ToDot",
           "name": "mkDotFile",
           "normalized": "FilePath-\u003eLTS-\u003eIO()",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Lua interface for the CSPM tool.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.Lua",
           "name": "Lua",
           "package": "CSPM-cspm",
@@ -543,6 +588,7 @@
         "index": {
           "description": "Lua interface for the CSPM tool",
           "hierarchy": "CSPM Lua",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.Lua",
           "name": "Lua",
           "package": "CSPM-cspm",
@@ -556,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "CSPM.Lua",
           "name": "runLua",
           "package": "CSPM-cspm",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "CSPM Lua",
+          "indexed": "2014-03-11T16:35:58",
           "module": "CSPM.Lua",
           "name": "runLua",
           "normalized": "String-\u003eString-\u003e[String]-\u003eIO()",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert an AST to XML\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Language.CSPM.AstToXML",
           "name": "AstToXML",
           "package": "CSPM-cspm",
@@ -590,6 +639,7 @@
         "index": {
           "description": "Convert an AST to XML",
           "hierarchy": "Language CSPM AstToXML",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Language.CSPM.AstToXML",
           "name": "AstToXML",
           "package": "CSPM-cspm",
@@ -604,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate an AST node to an XML Element.\n This is an \u003ccode\u003ealmost\u003c/code\u003e totally generic translation which\n works for any Haskell type, but it handles some special cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Language.CSPM.AstToXML",
           "name": "astToXML",
           "package": "CSPM-cspm",
@@ -614,6 +665,7 @@
         "index": {
           "description": "Translate an AST node to an XML Element This is an almost totally generic translation which works for any Haskell type but it handles some special cases",
           "hierarchy": "Language CSPM AstToXML",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Language.CSPM.AstToXML",
           "name": "astToXML",
           "normalized": "a-\u003eElement",
@@ -630,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a Module to XML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Language.CSPM.AstToXML",
           "name": "moduleToXML",
           "package": "CSPM-cspm",
@@ -640,6 +693,7 @@
         "index": {
           "description": "Translate Module to XML",
           "hierarchy": "Language CSPM AstToXML",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Language.CSPM.AstToXML",
           "name": "moduleToXML",
           "normalized": "Module a-\u003eElement",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the \u003ca\u003e?xml?\u003c/a\u003e header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Language.CSPM.AstToXML",
           "name": "showTopElement",
           "package": "CSPM-cspm",
@@ -665,6 +720,7 @@
         "index": {
           "description": "Adds the xml header",
           "hierarchy": "Language CSPM AstToXML",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Language.CSPM.AstToXML",
           "name": "showTopElement",
           "normalized": "Element-\u003eString",
@@ -681,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArgument parser for the command line interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "Args",
           "package": "CSPM-cspm",
@@ -690,6 +747,7 @@
         "index": {
           "description": "Argument parser for the command line interface",
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "Args",
           "package": "CSPM-cspm",
@@ -703,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "Args",
           "package": "CSPM-cspm",
@@ -711,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "Args",
           "package": "CSPM-cspm",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "Assert",
           "package": "CSPM-cspm",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "Assert",
           "package": "CSPM-cspm",
@@ -746,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "Eval",
           "package": "CSPM-cspm",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "Eval",
           "package": "CSPM-cspm",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "Info",
           "package": "CSPM-cspm",
@@ -777,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "Info",
           "package": "CSPM-cspm",
@@ -790,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "LTS",
           "package": "CSPM-cspm",
@@ -799,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "LTS",
           "package": "CSPM-cspm",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "Lua",
           "package": "CSPM-cspm",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "Lua",
           "package": "CSPM-cspm",
@@ -834,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "Trace",
           "package": "CSPM-cspm",
@@ -843,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "Trace",
           "package": "CSPM-cspm",
@@ -856,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "Translate",
           "package": "CSPM-cspm",
@@ -865,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "Translate",
           "package": "CSPM-cspm",
@@ -878,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "addUnicode",
           "package": "CSPM-cspm",
@@ -887,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "addUnicode",
           "package": "CSPM-cspm",
@@ -901,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line argument parser using cmdargs library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "argParser",
           "package": "CSPM-cspm",
@@ -911,6 +988,7 @@
         "index": {
           "description": "Command line argument parser using cmdargs library",
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "argParser",
           "package": "CSPM-cspm",
@@ -924,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "dfs",
           "package": "CSPM-cspm",
@@ -933,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "dfs",
           "package": "CSPM-cspm",
@@ -945,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "dotOut",
           "package": "CSPM-cspm",
@@ -954,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "dotOut",
           "package": "CSPM-cspm",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "entry",
           "package": "CSPM-cspm",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "entry",
           "package": "CSPM-cspm",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "evalContext",
           "package": "CSPM-cspm",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "evalContext",
           "package": "CSPM-cspm",
@@ -1010,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "evalExpr",
           "package": "CSPM-cspm",
@@ -1019,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "evalExpr",
           "package": "CSPM-cspm",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "fdrOut",
           "package": "CSPM-cspm",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "fdrOut",
           "package": "CSPM-cspm",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "file",
           "package": "CSPM-cspm",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "file",
           "package": "CSPM-cspm",
@@ -1075,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "prettyOut",
           "package": "CSPM-cspm",
@@ -1084,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "prettyOut",
           "package": "CSPM-cspm",
@@ -1097,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "prologOut",
           "package": "CSPM-cspm",
@@ -1106,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "prologOut",
           "package": "CSPM-cspm",
@@ -1119,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "removeUnicode",
           "package": "CSPM-cspm",
@@ -1128,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "removeUnicode",
           "package": "CSPM-cspm",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "rename",
           "package": "CSPM-cspm",
@@ -1150,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "rename",
           "package": "CSPM-cspm",
@@ -1162,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "rest",
           "package": "CSPM-cspm",
@@ -1171,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "rest",
           "normalized": "[String]",
@@ -1185,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "src",
           "package": "CSPM-cspm",
@@ -1194,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "src",
           "package": "CSPM-cspm",
@@ -1206,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "timeout",
           "package": "CSPM-cspm",
@@ -1215,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "timeout",
           "package": "CSPM-cspm",
@@ -1227,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "verbose",
           "package": "CSPM-cspm",
@@ -1236,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "verbose",
           "package": "CSPM-cspm",
@@ -1248,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.Args",
           "name": "xmlOut",
           "package": "CSPM-cspm",
@@ -1257,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Main Args",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.Args",
           "name": "xmlOut",
           "package": "CSPM-cspm",
@@ -1271,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExceptionHandler for the command line interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.ExceptionHandler",
           "name": "ExceptionHandler",
           "package": "CSPM-cspm",
@@ -1280,6 +1391,7 @@
         "index": {
           "description": "ExceptionHandler for the command line interface",
           "hierarchy": "Main ExceptionHandler",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.ExceptionHandler",
           "name": "ExceptionHandler",
           "package": "CSPM-cspm",
@@ -1294,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top-level exception handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.ExceptionHandler",
           "name": "handleException",
           "package": "CSPM-cspm",
@@ -1304,6 +1417,7 @@
         "index": {
           "description": "The top-level exception handler",
           "hierarchy": "Main ExceptionHandler",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.ExceptionHandler",
           "name": "handleException",
           "normalized": "IO()-\u003eIO()",
@@ -1320,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComand line interface for the CSPM tools.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.ExecCommand",
           "name": "ExecCommand",
           "package": "CSPM-cspm",
@@ -1329,6 +1444,7 @@
         "index": {
           "description": "Comand line interface for the CSPM tools",
           "hierarchy": "Main ExecCommand",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.ExecCommand",
           "name": "ExecCommand",
           "package": "CSPM-cspm",
@@ -1343,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecute the command according to command line arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.ExecCommand",
           "name": "execCommand",
           "package": "CSPM-cspm",
@@ -1353,6 +1470,7 @@
         "index": {
           "description": "execute the command according to command line arguments",
           "hierarchy": "Main ExecCommand",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.ExecCommand",
           "name": "execCommand",
           "normalized": "Args-\u003eIO()",
@@ -1368,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:58 UTC 2014",
           "module": "Main.ExecCommand",
           "name": "mkProcess",
           "package": "CSPM-cspm",
@@ -1377,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Main ExecCommand",
+          "indexed": "2014-03-11T16:35:58",
           "module": "Main.ExecCommand",
           "name": "mkProcess",
           "normalized": "FilePath-\u003eString-\u003eIO(Process,Sigma)",

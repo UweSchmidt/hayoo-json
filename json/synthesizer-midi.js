@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "synthesizer-midi"
+        "phrase": "synthesizer-midi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "ControllerSelection",
           "package": "synthesizer-midi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "ControllerSelection",
           "package": "synthesizer-midi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "T",
           "package": "synthesizer-midi",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "T",
           "package": "synthesizer-midi",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "Cons",
           "package": "synthesizer-midi",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "Cons",
           "normalized": "Cons Controller(Int-\u003ea)a",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "channelPressure",
           "package": "synthesizer-midi",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "channelPressure",
           "normalized": "a-\u003ea-\u003eT a",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "controllerExponential",
           "normalized": "Controller-\u003e(a,a)-\u003ea-\u003eT a",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "controllerLinear",
           "normalized": "Controller-\u003e(a,a)-\u003ea-\u003eT a",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "filter",
           "package": "synthesizer-midi",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "filter",
           "normalized": "[T a]-\u003eT(T StrictTime[(Controller,Int)])(T Int a)",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "fromChannel",
           "package": "synthesizer-midi",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "fromChannel",
           "normalized": "Channel-\u003ea(T StrictTime[b])(T StrictTime[(Controller,Int)])",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSelection",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSelection",
           "name": "pitchBend",
           "normalized": "a-\u003ea-\u003eT a",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "ControllerSet",
           "package": "synthesizer-midi",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "ControllerSet",
           "package": "synthesizer-midi",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "Controller",
           "package": "synthesizer-midi",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "Controller",
           "package": "synthesizer-midi",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "T",
           "package": "synthesizer-midi",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "T",
           "package": "synthesizer-midi",
@@ -357,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "bendWheelPressure",
           "package": "synthesizer-midi",
@@ -366,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "bendWheelPressure",
           "normalized": "Int-\u003ea-\u003ea-\u003eT b(T a)",
@@ -381,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "channelPressure",
           "package": "synthesizer-midi",
@@ -390,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "channelPressure",
           "normalized": "a-\u003ea-\u003eT b a",
@@ -405,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -414,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "controllerExponential",
           "normalized": "Controller-\u003e(a,a)-\u003ea-\u003eT b a",
@@ -429,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -438,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "controllerLinear",
           "normalized": "Controller-\u003e(a,a)-\u003ea-\u003eT b a",
@@ -453,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "fromChannel",
           "package": "synthesizer-midi",
@@ -462,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "fromChannel",
           "normalized": "Channel-\u003eT(T StrictTime[a])(T Controller Int)",
@@ -477,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -486,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "pitchBend",
           "normalized": "a-\u003ea-\u003eT b a",
@@ -501,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "slice",
           "package": "synthesizer-midi",
@@ -509,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.ControllerSet",
           "name": "slice",
           "normalized": "Controller-\u003e(Int-\u003ea)-\u003ea-\u003eT b a",
@@ -523,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "Process",
           "package": "synthesizer-midi",
@@ -531,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "Process",
           "package": "synthesizer-midi",
@@ -544,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "Bank",
           "package": "synthesizer-midi",
@@ -552,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "Bank",
           "package": "synthesizer-midi",
@@ -565,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "Events",
           "package": "synthesizer-midi",
@@ -573,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "Events",
           "package": "synthesizer-midi",
@@ -586,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "GateChunk",
           "package": "synthesizer-midi",
@@ -594,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "GateChunk",
           "package": "synthesizer-midi",
@@ -607,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -615,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -628,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "applyInstrument",
           "package": "synthesizer-midi",
@@ -637,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "applyInstrument",
           "normalized": "(Program-\u003eVelocity-\u003ePitch-\u003eT GateChunk a)-\u003eb(Events(NoteBoundary(NoteId,Maybe Program)))(T NoteOffList(Events(T NoteOffList a)))",
@@ -652,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "applyModulatedInstrument",
           "package": "synthesizer-midi",
@@ -661,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "applyModulatedInstrument",
           "normalized": "(Program-\u003eVelocity-\u003ePitch-\u003eT(T GateChunk a)b)-\u003ec(T(Events(NoteBoundary(NoteId,Maybe Program)))a)(T(T NoteOffList a)(Events(T(T NoteOffList a)b)))",
@@ -676,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "applyModulation",
           "package": "synthesizer-midi",
@@ -685,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "applyModulation",
           "package": "synthesizer-midi",
@@ -698,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "arrangeStorable",
           "package": "synthesizer-midi",
@@ -707,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "arrangeStorable",
           "package": "synthesizer-midi",
@@ -720,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "bendWheelPressure",
           "package": "synthesizer-midi",
@@ -729,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "bendWheelPressure",
           "normalized": "Channel-\u003eInt-\u003ea-\u003ea-\u003eT(Events b)(T ShortStrictTime(T a))",
@@ -744,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "channelPressure",
           "package": "synthesizer-midi",
@@ -753,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "channelPressure",
           "normalized": "Channel-\u003ea-\u003ea-\u003eT(Events b)(T ShortStrictTime a)",
@@ -768,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "constant",
           "package": "synthesizer-midi",
@@ -777,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "constant",
           "normalized": "a-\u003eb(Events c)(T ShortStrictTime a)",
@@ -791,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -800,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "controllerExponential",
           "normalized": "Channel-\u003eController-\u003e(a,a)-\u003ea-\u003eT(Events b)(T ShortStrictTime a)",
@@ -815,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -824,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "controllerLinear",
           "normalized": "Channel-\u003eController-\u003e(a,a)-\u003ea-\u003eT(Events b)(T ShortStrictTime a)",
@@ -839,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "embedPrograms",
           "package": "synthesizer-midi",
@@ -848,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "embedPrograms",
           "normalized": "Program-\u003eT(Events(Either Program(NoteBoundary Bool)))(Events(NoteBoundary(Maybe Program)))",
@@ -863,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "flattenControlSchedule",
           "package": "synthesizer-midi",
@@ -872,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "flattenControlSchedule",
           "normalized": "a(T b(T StrictTime[T b c]))(T b(T StrictTime(T b c)))",
@@ -887,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "initWith",
           "package": "synthesizer-midi",
@@ -896,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "initWith",
           "normalized": "(a-\u003eb)-\u003eb-\u003eT(Events a)(T ShortStrictTime b)",
@@ -911,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "mapMaybe",
           "package": "synthesizer-midi",
@@ -920,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003ec(d[a])(d[b])",
@@ -935,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "noteEvents",
           "package": "synthesizer-midi",
@@ -944,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "noteEvents",
           "normalized": "Channel-\u003ea(Events b)(Events(Either Program(NoteBoundary Bool)))",
@@ -959,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -968,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "pitchBend",
           "normalized": "Channel-\u003ea-\u003ea-\u003eT(Events b)(T ShortStrictTime a)",
@@ -983,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceCore",
           "package": "synthesizer-midi",
@@ -992,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceCore",
           "normalized": "Channel-\u003eBank a b-\u003eT(Events c)(T StrictTime b)",
@@ -1007,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceModulated",
           "package": "synthesizer-midi",
@@ -1016,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceModulated",
           "normalized": "Channel-\u003eModulatedBank a b c-\u003eT(T(Events d)b)(T StrictTime c)",
@@ -1031,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceModulatedMultiProgram",
           "package": "synthesizer-midi",
@@ -1040,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceModulatedMultiProgram",
           "normalized": "Channel-\u003eProgram-\u003eModulatedBank a b c-\u003eT(T(Events d)b)(T StrictTime c)",
@@ -1056,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emay replace the other functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceModulatedMultiProgramVelocityPitch",
           "package": "synthesizer-midi",
@@ -1066,6 +1151,7 @@
         "index": {
           "description": "may replace the other functions",
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceModulatedMultiProgramVelocityPitch",
           "normalized": "Channel-\u003eProgram-\u003e(Program-\u003eVelocity-\u003ePitch-\u003eT(T GateChunk a)b)-\u003eT(T(Events c)a)(T StrictTime b)",
@@ -1081,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceStorable",
           "package": "synthesizer-midi",
@@ -1090,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "sequenceStorable",
           "normalized": "Channel-\u003eBank a(Vector b)-\u003eT(Events c)(Vector b)",
@@ -1105,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "slice",
           "package": "synthesizer-midi",
@@ -1114,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI CausalIO Process",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.CausalIO.Process",
           "name": "slice",
           "normalized": "(a-\u003eMaybe Int)-\u003e(Int-\u003eb)-\u003eb-\u003eT(Events a)(T ShortStrictTime b)",
@@ -1128,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -1136,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -1149,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "Real",
           "package": "synthesizer-midi",
@@ -1157,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "Real",
           "package": "synthesizer-midi",
@@ -1170,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "ping",
           "package": "synthesizer-midi",
@@ -1179,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "ping",
           "package": "synthesizer-midi",
@@ -1191,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "pingRelease",
           "package": "synthesizer-midi",
@@ -1200,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "pingRelease",
           "package": "synthesizer-midi",
@@ -1213,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "pingReleaseEnvelope",
           "package": "synthesizer-midi",
@@ -1222,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "pingReleaseEnvelope",
           "normalized": "Real-\u003eT a Time Real(LazyTime a-\u003eT(Phantom a)(Dimensional Scalar Real)(T Real))",
@@ -1237,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "pingReleaseFM",
           "package": "synthesizer-midi",
@@ -1246,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "pingReleaseFM",
           "normalized": "ModulatedInstrument a Time Real(Signal a Scalar Real(T Real)-\u003eSignal a Voltage Real(T Real))",
@@ -1261,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "pingStereoDetuneFM",
           "package": "synthesizer-midi",
@@ -1270,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "pingStereoDetuneFM",
           "normalized": "ModulatedInstrument a Time Real(Signal a Scalar Real(T Real)-\u003eSignal a Scalar Real(T Real)-\u003eSignal a Voltage Real(T(T Real)))",
@@ -1285,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "string",
           "package": "synthesizer-midi",
@@ -1294,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "string",
           "package": "synthesizer-midi",
@@ -1306,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "stringReleaseEnvelope",
           "package": "synthesizer-midi",
@@ -1315,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Example.Instrument",
           "name": "stringReleaseEnvelope",
           "normalized": "Real-\u003eT a Time Real(LazyTime a-\u003eT(Phantom a)(Dimensional Scalar Real)(T Real))",
@@ -1331,6 +1439,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for converting MIDI controller and key values\nto something meaningful for signal processing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Value",
           "name": "Value",
           "package": "synthesizer-midi",
@@ -1340,6 +1449,7 @@
         "index": {
           "description": "Functions for converting MIDI controller and key values to something meaningful for signal processing",
           "hierarchy": "Synthesizer MIDI Dimensional Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Value",
           "name": "Value",
           "package": "synthesizer-midi",
@@ -1353,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Value",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -1362,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Value",
           "name": "controllerExponential",
           "normalized": "T a b-\u003e(T a b,T a b)-\u003eInt-\u003eb",
@@ -1377,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Value",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -1386,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Value",
           "name": "controllerLinear",
           "normalized": "T a b-\u003e(T a b,T a b)-\u003eInt-\u003eb",
@@ -1428,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.Value",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -1437,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.Value",
           "name": "pitchBend",
           "normalized": "T a b-\u003eb-\u003eT a b-\u003eInt-\u003eb",
@@ -1453,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for converting MIDI controller and key values\nto something meaningful for signal processing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.ValuePlain",
           "name": "ValuePlain",
           "package": "synthesizer-midi",
@@ -1462,6 +1579,7 @@
         "index": {
           "description": "Functions for converting MIDI controller and key values to something meaningful for signal processing",
           "hierarchy": "Synthesizer MIDI Dimensional ValuePlain",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.ValuePlain",
           "name": "ValuePlain",
           "package": "synthesizer-midi",
@@ -1475,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.ValuePlain",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -1484,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional ValuePlain",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.ValuePlain",
           "name": "controllerExponential",
           "normalized": "(T a b,T a b)-\u003eInt-\u003eT a b",
@@ -1499,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.ValuePlain",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -1508,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional ValuePlain",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.ValuePlain",
           "name": "controllerLinear",
           "normalized": "(T a b,T a b)-\u003eInt-\u003eT a b",
@@ -1523,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional.ValuePlain",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -1532,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional ValuePlain",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional.ValuePlain",
           "name": "pitchBend",
           "normalized": "a-\u003eT b a-\u003eInt-\u003eT b a",
@@ -1548,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert MIDI events of a MIDI controller to a control signal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Dimensional",
           "package": "synthesizer-midi",
@@ -1557,6 +1682,7 @@
         "index": {
           "description": "Convert MIDI events of MIDI controller to control signal",
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Dimensional",
           "package": "synthesizer-midi",
@@ -1570,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "AmpSignal",
           "package": "synthesizer-midi",
@@ -1578,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "AmpSignal",
           "package": "synthesizer-midi",
@@ -1591,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Bank",
           "package": "synthesizer-midi",
@@ -1599,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Bank",
           "package": "synthesizer-midi",
@@ -1613,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type ensures that all signals generated from the event list\nshare the same sample rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Filter",
           "package": "synthesizer-midi",
@@ -1622,6 +1753,7 @@
         "index": {
           "description": "This type ensures that all signals generated from the event list share the same sample rate",
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Filter",
           "package": "synthesizer-midi",
@@ -1635,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -1643,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -1656,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "LazyTime",
           "package": "synthesizer-midi",
@@ -1664,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "LazyTime",
           "package": "synthesizer-midi",
@@ -1677,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "ModulatedInstrument",
           "package": "synthesizer-midi",
@@ -1685,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "ModulatedInstrument",
           "package": "synthesizer-midi",
@@ -1698,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Signal",
           "package": "synthesizer-midi",
@@ -1706,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Signal",
           "package": "synthesizer-midi",
@@ -1719,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Filter",
           "package": "synthesizer-midi",
@@ -1728,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "Filter",
           "package": "synthesizer-midi",
@@ -1741,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "advanceModulationChunk",
           "package": "synthesizer-midi",
@@ -1750,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "advanceModulationChunk",
           "normalized": "StrictTime-\u003eState(AmpSignal a b c)StrictTime",
@@ -1765,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "advanceModulationChunky",
           "package": "synthesizer-midi",
@@ -1774,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "advanceModulationChunky",
           "normalized": "LazyTime-\u003eState(AmpSignal a b c)LazyTime",
@@ -1789,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "applyModulation",
           "package": "synthesizer-midi",
@@ -1798,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "applyModulation",
           "normalized": "AmpSignal a b c-\u003eModulator(AmpSignal a b c-\u003ed)d",
@@ -1813,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "applyModulator",
           "package": "synthesizer-midi",
@@ -1822,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "applyModulator",
           "normalized": "Modulator a b-\u003eT StrictTime[a]-\u003eT StrictTime[b]",
@@ -1837,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "bendWheelPressure",
           "package": "synthesizer-midi",
@@ -1846,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "bendWheelPressure",
           "normalized": "Channel-\u003eInt-\u003eT(Recip a)b-\u003eb-\u003eb-\u003eFilter c d a b(Signal d Scalar b(e b))",
@@ -1861,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "channelPressure",
           "package": "synthesizer-midi",
@@ -1870,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "channelPressure",
           "normalized": "Channel-\u003eT a b-\u003eT a b-\u003eFilter c d e f(Signal d a b(T b))",
@@ -1885,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "chunkySizeFromLazyTime",
           "package": "synthesizer-midi",
@@ -1894,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "chunkySizeFromLazyTime",
           "normalized": "LazyTime-\u003eT",
@@ -1909,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -1918,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "controllerExponential",
           "normalized": "Channel-\u003eController-\u003e(T a b,T a b)-\u003eT a b-\u003eFilter c d e f(Signal d a b(T b))",
@@ -1933,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -1942,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "controllerLinear",
           "normalized": "Channel-\u003eController-\u003e(T a b,T a b)-\u003eT a b-\u003eFilter c d e f(Signal d a b(T b))",
@@ -1958,6 +2118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstrument parameters are:\nvelocity from -1 to 1\n(0 is the normal pressure, no pressure aka NoteOff is not supported),\nfrequency is given in Hertz\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "makeInstrumentSounds",
           "package": "synthesizer-midi",
@@ -1968,6 +2129,7 @@
         "index": {
           "description": "Instrument parameters are velocity from to is the normal pressure no pressure aka NoteOff is not supported frequency is given in Hertz",
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "makeInstrumentSounds",
           "normalized": "Bank a Time b c-\u003eT d[Note]-\u003eT a Time b(T d[c])",
@@ -1983,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "piecewiseConstant",
           "package": "synthesizer-midi",
@@ -1992,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "piecewiseConstant",
           "normalized": "T a b(T c)-\u003eT a b(d c)",
@@ -2008,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epitchBend channel range center\u003c/code\u003e:\nemits frequencies on an exponential scale from\n\u003ccode\u003ecenter/range\u003c/code\u003e to \u003ccode\u003ecenter*range\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -2018,6 +2183,7 @@
         "index": {
           "description": "pitchBend channel range center emits frequencies on an exponential scale from center range to center range",
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "pitchBend",
           "normalized": "Channel-\u003ea-\u003eT b a-\u003eFilter c d e f(Signal d b a(T a))",
@@ -2033,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "prepareTones",
           "package": "synthesizer-midi",
@@ -2042,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "prepareTones",
           "normalized": "Channel-\u003eProgram-\u003eBank a Time b c-\u003eFilter d a Time b(T StrictTime[c])",
@@ -2057,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "renderInstrument",
           "package": "synthesizer-midi",
@@ -2066,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "renderInstrument",
           "normalized": "Bank a Time b c-\u003eNote-\u003eT a Time b c",
@@ -2081,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "renderSequence",
           "package": "synthesizer-midi",
@@ -2090,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "renderSequence",
           "normalized": "ChunkSize-\u003eT a b-\u003eT StrictTime[Signal c a b(T d)]-\u003eSignal c a b(T d)",
@@ -2105,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "runFilter",
           "package": "synthesizer-midi",
@@ -2114,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "runFilter",
           "normalized": "T StrictTime[a]-\u003eFilter a b c d e-\u003eT b c d e",
@@ -2129,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequence",
           "package": "synthesizer-midi",
@@ -2138,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequence",
           "normalized": "ChunkSize-\u003eT a b-\u003eChannel-\u003eInstrument c Time a b(T d)-\u003eFilter e c Time b(Signal c a b(T d))",
@@ -2152,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequenceModulated",
           "package": "synthesizer-midi",
@@ -2161,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequenceModulated",
           "normalized": "ChunkSize-\u003eT a b-\u003eChannel-\u003eModulatedInstrument c Time b(AmpSignal c d e-\u003eSignal c a b(T f))-\u003eFilter g c Time b(AmpSignal c d e-\u003eSignal c a b(T f))",
@@ -2176,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequenceModulated2",
           "package": "synthesizer-midi",
@@ -2185,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequenceModulated2",
           "normalized": "ChunkSize-\u003eT a b-\u003eChannel-\u003eModulatedInstrument c Time b(AmpSignal c d e-\u003eAmpSignal c d e-\u003eSignal c a b(T f))-\u003eFilter g c Time b(AmpSignal c d e-\u003eAmpSignal c d e-\u003eSignal c a b(T f))",
@@ -2200,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequenceMultiModulated",
           "package": "synthesizer-midi",
@@ -2209,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequenceMultiModulated",
           "normalized": "ChunkSize-\u003eT a b-\u003eChannel-\u003eModulatedInstrument c Time b d-\u003eFilter e c Time b(Modulator d(Signal c a b(T f)))-\u003eFilter e c Time b(Signal c a b(T f))",
@@ -2224,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequenceMultiProgram",
           "package": "synthesizer-midi",
@@ -2233,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Dimensional",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Dimensional",
           "name": "sequenceMultiProgram",
           "normalized": "ChunkSize-\u003eT a b-\u003eChannel-\u003eProgram-\u003e[Instrument c Time a b(T d)]-\u003eFilter e c Time b(Signal c a b(T d))",
@@ -2248,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "EventList",
           "package": "synthesizer-midi",
@@ -2256,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "EventList",
           "package": "synthesizer-midi",
@@ -2269,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Channel",
           "package": "synthesizer-midi",
@@ -2277,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Channel",
           "package": "synthesizer-midi",
@@ -2290,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Controller",
           "package": "synthesizer-midi",
@@ -2298,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Controller",
           "package": "synthesizer-midi",
@@ -2311,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Filter",
           "package": "synthesizer-midi",
@@ -2319,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Filter",
           "package": "synthesizer-midi",
@@ -2332,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "LazyTime",
           "package": "synthesizer-midi",
@@ -2340,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "LazyTime",
           "package": "synthesizer-midi",
@@ -2353,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Note",
           "package": "synthesizer-midi",
@@ -2361,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Note",
           "package": "synthesizer-midi",
@@ -2374,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "NoteBoundary",
           "package": "synthesizer-midi",
@@ -2382,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "NoteBoundary",
           "package": "synthesizer-midi",
@@ -2395,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Pitch",
           "package": "synthesizer-midi",
@@ -2403,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Pitch",
           "package": "synthesizer-midi",
@@ -2416,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Program",
           "package": "synthesizer-midi",
@@ -2424,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Program",
           "package": "synthesizer-midi",
@@ -2437,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "StrictTime",
           "package": "synthesizer-midi",
@@ -2445,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "StrictTime",
           "package": "synthesizer-midi",
@@ -2458,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Velocity",
           "package": "synthesizer-midi",
@@ -2466,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Velocity",
           "package": "synthesizer-midi",
@@ -2479,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "AllNotesOff",
           "package": "synthesizer-midi",
@@ -2488,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "AllNotesOff",
           "package": "synthesizer-midi",
@@ -2501,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Note",
           "package": "synthesizer-midi",
@@ -2510,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "Note",
           "package": "synthesizer-midi",
@@ -2523,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "NoteBoundary",
           "package": "synthesizer-midi",
@@ -2532,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "NoteBoundary",
           "package": "synthesizer-midi",
@@ -2545,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "case_",
           "package": "synthesizer-midi",
@@ -2554,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "case_",
           "normalized": "Maybe a-\u003e(a-\u003eb)-\u003eMaybe b",
@@ -2568,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "checkNoteEvent",
           "package": "synthesizer-midi",
@@ -2577,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "checkNoteEvent",
           "normalized": "Channel-\u003ea-\u003eMaybe(Either Program(NoteBoundary Bool))",
@@ -2593,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for specific event,\nreturn its time stamp and remove it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "durationRemove",
           "package": "synthesizer-midi",
@@ -2603,6 +2820,7 @@
         "index": {
           "description": "Search for specific event return its time stamp and remove it",
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "durationRemove",
           "normalized": "(a-\u003eBool)-\u003eT b[a]-\u003e(T b,T b[a])",
@@ -2618,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "durationRemoveTB",
           "package": "synthesizer-midi",
@@ -2627,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "durationRemoveTB",
           "normalized": "(a-\u003eBool)-\u003eT b[a]-\u003e(T b,T b[a])",
@@ -2642,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "embedProgramState",
           "package": "synthesizer-midi",
@@ -2651,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "embedProgramState",
           "normalized": "Either Program(NoteBoundary Bool)-\u003eState Program(Maybe(NoteBoundary(Maybe Program)))",
@@ -2666,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "embedPrograms",
           "package": "synthesizer-midi",
@@ -2675,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "embedPrograms",
           "normalized": "Program-\u003eT StrictTime[Either Program(NoteBoundary Bool)]-\u003eT StrictTime[NoteBoundary(Maybe Program)]",
@@ -2690,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "getControllerEvents",
           "package": "synthesizer-midi",
@@ -2699,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "getControllerEvents",
           "normalized": "Channel-\u003eController-\u003eFilter a(T StrictTime[Int])",
@@ -2714,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "getInstrumentFromArray",
           "package": "synthesizer-midi",
@@ -2723,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "getInstrumentFromArray",
           "normalized": "Array Program a-\u003eProgram-\u003eProgram-\u003ea",
@@ -2738,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "getNoteEvents",
           "package": "synthesizer-midi",
@@ -2747,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "getNoteEvents",
           "normalized": "Channel-\u003eFilter a(T StrictTime[Either Program(NoteBoundary Bool)])",
@@ -2763,6 +2993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe turn the strict time values into lazy ones\naccording to the breaks by our beat.\nHowever for the laziness breaks we ignore the events that are filtered out.\nThat is we loose laziness granularity\nbut hopefully gain efficiency by larger blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "getSlice",
           "package": "synthesizer-midi",
@@ -2773,6 +3004,7 @@
         "index": {
           "description": "We turn the strict time values into lazy ones according to the breaks by our beat However for the laziness breaks we ignore the events that are filtered out That is we loose laziness granularity but hopefully gain efficiency by larger blocks",
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "getSlice",
           "normalized": "(a-\u003eMaybe b)-\u003eFilter a(T StrictTime[b])",
@@ -2788,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "makeInstrumentArray",
           "package": "synthesizer-midi",
@@ -2797,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "makeInstrumentArray",
           "normalized": "[a]-\u003eArray Program a",
@@ -2812,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "matchNoteEvents",
           "package": "synthesizer-midi",
@@ -2821,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "matchNoteEvents",
           "normalized": "T StrictTime[NoteBoundary(Maybe Program)]-\u003eT StrictTime[Note]",
@@ -2836,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.EventList",
           "name": "matchNoteEventsCore",
           "package": "synthesizer-midi",
@@ -2845,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI EventList",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.EventList",
           "name": "matchNoteEventsCore",
           "normalized": "(a-\u003eMaybe(a-\u003eBool,LazyTime-\u003eNote))-\u003eT StrictTime[a]-\u003eT StrictTime[Note]",
@@ -2860,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -2868,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -2881,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "Real",
           "package": "synthesizer-midi",
@@ -2889,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "Real",
           "package": "synthesizer-midi",
@@ -2902,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "amplitudeFromVelocity",
           "package": "synthesizer-midi",
@@ -2911,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "amplitudeFromVelocity",
           "normalized": "Real-\u003eReal",
@@ -2926,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "chunkSize",
           "package": "synthesizer-midi",
@@ -2935,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "chunkSize",
           "package": "synthesizer-midi",
@@ -2948,6 +3194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "colourNoise",
           "package": "synthesizer-midi",
@@ -2957,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "colourNoise",
           "normalized": "T Real-\u003eT Real-\u003eInstrument Real Real",
@@ -2972,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "loopTimeModSine",
           "package": "synthesizer-midi",
@@ -2981,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "loopTimeModSine",
           "normalized": "Real-\u003eReal-\u003eReal-\u003eReal-\u003eT Real",
@@ -2996,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "loopTimeModZigZag",
           "package": "synthesizer-midi",
@@ -3005,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "loopTimeModZigZag",
           "normalized": "Real-\u003eReal-\u003eReal-\u003eReal-\u003eT Real",
@@ -3020,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "ping",
           "package": "synthesizer-midi",
@@ -3029,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "ping",
           "normalized": "Real-\u003eReal-\u003eT Real",
@@ -3043,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingCausal",
           "package": "synthesizer-midi",
@@ -3052,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingCausal",
           "package": "synthesizer-midi",
@@ -3065,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingDur",
           "package": "synthesizer-midi",
@@ -3074,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingDur",
           "package": "synthesizer-midi",
@@ -3087,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingRelease",
           "package": "synthesizer-midi",
@@ -3096,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingRelease",
           "package": "synthesizer-midi",
@@ -3109,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingReleaseCausal",
           "package": "synthesizer-midi",
@@ -3118,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingReleaseCausal",
           "package": "synthesizer-midi",
@@ -3131,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingReleaseEnvelope",
           "package": "synthesizer-midi",
@@ -3140,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingReleaseEnvelope",
           "normalized": "Real-\u003eLazyTime-\u003eT Real",
@@ -3155,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingReleaseEnvelopeCausal",
           "package": "synthesizer-midi",
@@ -3164,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingReleaseEnvelopeCausal",
           "normalized": "Real-\u003eT GateChunk(Vector Real)",
@@ -3179,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingStereoRelease",
           "package": "synthesizer-midi",
@@ -3188,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "pingStereoRelease",
           "package": "synthesizer-midi",
@@ -3201,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "readPianoSample",
           "package": "synthesizer-midi",
@@ -3210,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "readPianoSample",
           "normalized": "IO(Real,T Real)",
@@ -3225,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "readStringSample",
           "package": "synthesizer-midi",
@@ -3234,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "readStringSample",
           "normalized": "IO(Real,T Real)",
@@ -3249,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampleRate",
           "package": "synthesizer-midi",
@@ -3258,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampleRate",
           "package": "synthesizer-midi",
@@ -3271,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampleReleaseEnvelope",
           "package": "synthesizer-midi",
@@ -3280,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampleReleaseEnvelope",
           "normalized": "Real-\u003eReal-\u003eLazyTime-\u003eT Real",
@@ -3295,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSound",
           "package": "synthesizer-midi",
@@ -3304,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSound",
           "normalized": "(Real,T Real)-\u003eInstrument Real Real",
@@ -3319,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSoundDetuneStereo",
           "package": "synthesizer-midi",
@@ -3328,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSoundDetuneStereo",
           "normalized": "Real-\u003e(Real,T Real)-\u003eInstrument Real(T Real)",
@@ -3343,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSoundDetuneStereoRelease",
           "package": "synthesizer-midi",
@@ -3352,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSoundDetuneStereoRelease",
           "normalized": "Real-\u003eReal-\u003e(Real,T Real)-\u003eInstrument Real(T Real)",
@@ -3367,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSoundGenerator",
           "package": "synthesizer-midi",
@@ -3376,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSoundGenerator",
           "normalized": "(Real,T Real)-\u003eReal-\u003eT Real",
@@ -3392,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResample a sampled sound with a smooth loop\nusing our time manipulation algorithm.\nTime is first controlled linearly,\nthen switches to a sine or triangular control.\nLoop start must be large enough in order provide enough spare data\nfor interpolation at the beginning\nand loop start plus length must preserve according space at the end.\nOne period is enough space for linear interpolation.\nThe infinite sound we generate is not just a cycle,\nthat uses bounded space.\nInstead we need to compute all the time.\nIn order to avoid duplicate interpolation,\nwe have merged resampling and time looping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSoundTimeLoop",
           "package": "synthesizer-midi",
@@ -3402,6 +3687,7 @@
         "index": {
           "description": "Resample sampled sound with smooth loop using our time manipulation algorithm Time is first controlled linearly then switches to sine or triangular control Loop start must be large enough in order provide enough spare data for interpolation at the beginning and loop start plus length must preserve according space at the end One period is enough space for linear interpolation The infinite sound we generate is not just cycle that uses bounded space Instead we need to compute all the time In order to avoid duplicate interpolation we have merged resampling and time looping",
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "sampledSoundTimeLoop",
           "normalized": "(Real-\u003eReal-\u003eReal-\u003eReal-\u003eT Real)-\u003e(Real,T Real)-\u003eReal-\u003eReal-\u003eInstrument Real Real",
@@ -3417,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softString",
           "package": "synthesizer-midi",
@@ -3426,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softString",
           "package": "synthesizer-midi",
@@ -3439,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringCausal",
           "package": "synthesizer-midi",
@@ -3448,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringCausal",
           "package": "synthesizer-midi",
@@ -3461,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringCausalProcess",
           "package": "synthesizer-midi",
@@ -3470,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringCausalProcess",
           "normalized": "Real-\u003eT Real(T Real)",
@@ -3485,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringReleaseEnvelope",
           "package": "synthesizer-midi",
@@ -3494,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringReleaseEnvelope",
           "normalized": "Real-\u003eLazyTime-\u003eT Real",
@@ -3509,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringReleaseEnvelopeCausal",
           "package": "synthesizer-midi",
@@ -3518,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringReleaseEnvelopeCausal",
           "normalized": "Real-\u003eLazyTime-\u003eT Real",
@@ -3533,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringReleaseEnvelopeCausalProcess",
           "package": "synthesizer-midi",
@@ -3542,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "softStringReleaseEnvelopeCausalProcess",
           "normalized": "Real-\u003eT Bool Real",
@@ -3557,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "stringStereoDetuneFM",
           "package": "synthesizer-midi",
@@ -3566,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "stringStereoDetuneFM",
           "normalized": "T Real-\u003eT Real-\u003eInstrument Real(T Real)",
@@ -3581,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "stringStereoFM",
           "package": "synthesizer-midi",
@@ -3590,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "stringStereoFM",
           "normalized": "T Real-\u003eInstrument Real(T Real)",
@@ -3605,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "timeModulatedSample",
           "package": "synthesizer-midi",
@@ -3614,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "timeModulatedSample",
           "normalized": "(Real,T Real)-\u003eT Real-\u003eT Real-\u003eT Real-\u003eInstrument Real Real",
@@ -3629,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "tine",
           "package": "synthesizer-midi",
@@ -3638,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "tine",
           "package": "synthesizer-midi",
@@ -3650,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "tineStereo",
           "package": "synthesizer-midi",
@@ -3659,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "tineStereo",
           "package": "synthesizer-midi",
@@ -3672,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "toneFromFilteredNoise",
           "package": "synthesizer-midi",
@@ -3681,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "toneFromFilteredNoise",
           "normalized": "T Real-\u003eT Real-\u003eT Real-\u003eT Real-\u003eInstrument Real Real",
@@ -3696,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "toneFromNoise",
           "package": "synthesizer-midi",
@@ -3705,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Example Instrument",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Example.Instrument",
           "name": "toneFromNoise",
           "normalized": "T Real-\u003eT Real-\u003eInstrument Real Real",
@@ -3721,6 +4033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert MIDI events of a MIDI controller to a control signal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Generic",
           "package": "synthesizer-midi",
@@ -3730,6 +4043,7 @@
         "index": {
           "description": "Convert MIDI events of MIDI controller to control signal",
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Generic",
           "package": "synthesizer-midi",
@@ -3743,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Bank",
           "package": "synthesizer-midi",
@@ -3751,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Bank",
           "package": "synthesizer-midi",
@@ -3764,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "FilterSequence",
           "package": "synthesizer-midi",
@@ -3772,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "FilterSequence",
           "package": "synthesizer-midi",
@@ -3785,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -3793,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -3807,6 +4127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state action for the time\nshould just return the argument time.\nHowever we need this time (or alternatively another result type)\nfor triggering the \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eadvanceModulationChunk\u003c/a\u003e\u003c/code\u003e.\nWithout this strict evaluation,\nthe drop will be delayed until the control curve is actually needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Modulator",
           "package": "synthesizer-midi",
@@ -3816,6 +4137,7 @@
         "index": {
           "description": "The state action for the time should just return the argument time However we need this time or alternatively another result type for triggering the drop in advanceModulationChunk Without this strict evaluation the drop will be delayed until the control curve is actually needed",
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Modulator",
           "package": "synthesizer-midi",
@@ -3829,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Modulator",
           "package": "synthesizer-midi",
@@ -3838,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "Modulator",
           "normalized": "a b Modulator b(StrictTime-\u003eState b StrictTime)(c-\u003eState b d)",
@@ -3853,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "advanceModulation",
           "package": "synthesizer-midi",
@@ -3862,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "advanceModulation",
           "normalized": "LazyTime-\u003eState a LazyTime",
@@ -3902,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "advanceModulationChunkPC",
           "package": "synthesizer-midi",
@@ -3911,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "advanceModulationChunkPC",
           "normalized": "StrictTime-\u003eState(T StrictTime a)StrictTime",
@@ -3926,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "advanceModulationChunkStrict",
           "package": "synthesizer-midi",
@@ -3935,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "advanceModulationChunkStrict",
           "normalized": "StrictTime-\u003eState a StrictTime",
@@ -3950,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "applyModulation",
           "package": "synthesizer-midi",
@@ -3959,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "applyModulation",
           "normalized": "a-\u003eModulator(a-\u003eb,c)(b,c)",
@@ -3974,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "applyModulator",
           "package": "synthesizer-midi",
@@ -3983,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "applyModulator",
           "normalized": "Modulator a b-\u003eT StrictTime[a]-\u003eT StrictTime[b]",
@@ -3998,6 +4332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "errorNoProgram",
           "package": "synthesizer-midi",
@@ -4007,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "errorNoProgram",
           "package": "synthesizer-midi",
@@ -4048,6 +4384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn an event list with bundles of elements\ninto an event list with single events.\nToDo: Move to event-list package?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "flatten",
           "package": "synthesizer-midi",
@@ -4058,6 +4395,7 @@
         "index": {
           "description": "Turn an event list with bundles of elements into an event list with single events ToDo Move to event-list package",
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "flatten",
           "normalized": "T a[b]-\u003eT a b",
@@ -4072,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "piecewiseConstant",
           "package": "synthesizer-midi",
@@ -4081,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "piecewiseConstant",
           "normalized": "T StrictTime a-\u003eb a",
@@ -4096,6 +4436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "piecewiseConstantInit",
           "package": "synthesizer-midi",
@@ -4105,6 +4446,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "piecewiseConstantInit",
           "normalized": "a-\u003eT StrictTime a-\u003eb a",
@@ -4120,6 +4462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "piecewiseConstantInitWith",
           "package": "synthesizer-midi",
@@ -4129,6 +4472,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "piecewiseConstantInitWith",
           "normalized": "(a-\u003eb)-\u003eb-\u003eT StrictTime[a]-\u003ec b",
@@ -4196,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "replicateLong",
           "package": "synthesizer-midi",
@@ -4205,6 +4550,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "replicateLong",
           "normalized": "StrictTime-\u003ea-\u003eb a",
@@ -4220,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequence",
           "package": "synthesizer-midi",
@@ -4229,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequence",
           "normalized": "Channel-\u003eInstrument a b-\u003eFilterSequence c b",
@@ -4243,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceCore",
           "package": "synthesizer-midi",
@@ -4252,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceCore",
           "normalized": "Channel-\u003eProgram-\u003eModulator Note a-\u003eFilterSequence b a",
@@ -4267,6 +4617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceModulated",
           "package": "synthesizer-midi",
@@ -4276,6 +4627,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceModulated",
           "normalized": "a-\u003eChannel-\u003e(a-\u003eInstrument b c)-\u003eFilterSequence d c",
@@ -4291,6 +4643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceModulatedMultiProgram",
           "package": "synthesizer-midi",
@@ -4300,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceModulatedMultiProgram",
           "normalized": "a-\u003eChannel-\u003eProgram-\u003e[a-\u003eInstrument b c]-\u003eFilterSequence d c",
@@ -4315,6 +4669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceMultiModulated",
           "package": "synthesizer-midi",
@@ -4324,6 +4679,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceMultiModulated",
           "normalized": "Channel-\u003ea-\u003eModulator(a,Note)(Instrument b c,Note)-\u003eFilterSequence d c",
@@ -4339,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceMultiProgram",
           "package": "synthesizer-midi",
@@ -4348,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Generic",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Generic",
           "name": "sequenceMultiProgram",
           "normalized": "Channel-\u003eProgram-\u003e[Instrument a b]-\u003eFilterSequence c b",
@@ -4364,6 +4722,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTreat a stream of MIDI events as parallel streams of MIDI controller events.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "ControllerSet",
           "package": "synthesizer-midi",
@@ -4373,6 +4732,7 @@
         "index": {
           "description": "Treat stream of MIDI events as parallel streams of MIDI controller events",
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "ControllerSet",
           "package": "synthesizer-midi",
@@ -4386,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "Controller",
           "package": "synthesizer-midi",
@@ -4394,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "Controller",
           "package": "synthesizer-midi",
@@ -4407,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "T",
           "package": "synthesizer-midi",
@@ -4415,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "T",
           "package": "synthesizer-midi",
@@ -4427,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "Cons",
           "package": "synthesizer-midi",
@@ -4436,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "Cons",
           "package": "synthesizer-midi",
@@ -4449,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "bendWheelPressure",
           "package": "synthesizer-midi",
@@ -4458,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "bendWheelPressure",
           "normalized": "Int-\u003ea-\u003ea-\u003eFilter(T(T a))",
@@ -4473,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "bendWheelPressureZip",
           "package": "synthesizer-midi",
@@ -4482,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "bendWheelPressureZip",
           "normalized": "Int-\u003ea-\u003ea-\u003eFilter(T(T a))",
@@ -4497,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "channelPressure",
           "package": "synthesizer-midi",
@@ -4506,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "channelPressure",
           "normalized": "a-\u003ea-\u003eFilter(T a)",
@@ -4521,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "checkBendWheelPressure",
           "package": "synthesizer-midi",
@@ -4530,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "checkBendWheelPressure",
           "normalized": "(Controller,Int)-\u003eState T(Maybe T)",
@@ -4545,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -4554,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "controllerExponential",
           "normalized": "Controller-\u003e(a,a)-\u003ea-\u003eFilter(T a)",
@@ -4569,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -4578,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "controllerLinear",
           "normalized": "Controller-\u003e(a,a)-\u003ea-\u003eFilter(T a)",
@@ -4593,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "fromChannel",
           "package": "synthesizer-midi",
@@ -4602,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "fromChannel",
           "normalized": "Channel-\u003eFilter a(T Controller Int)",
@@ -4617,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "initial",
           "package": "synthesizer-midi",
@@ -4626,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "initial",
           "package": "synthesizer-midi",
@@ -4638,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "mapStream",
           "package": "synthesizer-midi",
@@ -4647,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "mapStream",
           "normalized": "(T StrictTime[(a,b)]-\u003eT StrictTime[(a,b)])-\u003eT a b-\u003eT a b",
@@ -4662,6 +5046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "maybeController",
           "package": "synthesizer-midi",
@@ -4671,6 +5056,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "maybeController",
           "normalized": "Channel-\u003ea-\u003eMaybe(Controller,Int)",
@@ -4687,6 +5073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epitchBend channel range center\u003c/code\u003e:\nemits frequencies on an exponential scale from\n\u003ccode\u003ecenter/range\u003c/code\u003e to \u003ccode\u003ecenter*range\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -4697,6 +5084,7 @@
         "index": {
           "description": "pitchBend channel range center emits frequencies on an exponential scale from center range to center range",
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "pitchBend",
           "normalized": "a-\u003ea-\u003eFilter(T a)",
@@ -4712,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "stream",
           "package": "synthesizer-midi",
@@ -4721,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant ControllerSet",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant.ControllerSet",
           "name": "stream",
           "normalized": "T StrictTime[(a,b)]",
@@ -4736,6 +5126,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert MIDI events of a MIDI controller to a control signal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "PiecewiseConstant",
           "package": "synthesizer-midi",
@@ -4745,6 +5136,7 @@
         "index": {
           "description": "Convert MIDI events of MIDI controller to control signal",
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "PiecewiseConstant",
           "package": "synthesizer-midi",
@@ -4758,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "T",
           "package": "synthesizer-midi",
@@ -4766,6 +5159,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "T",
           "package": "synthesizer-midi",
@@ -4778,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "bendWheelPressure",
           "package": "synthesizer-midi",
@@ -4787,6 +5182,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "bendWheelPressure",
           "normalized": "Channel-\u003eInt-\u003ea-\u003ea-\u003eFilter b(T(T a))",
@@ -4803,6 +5199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis one is certainly not as efficient as \u003ccode\u003e\u003ca\u003ebendWheelPressure\u003c/a\u003e\u003c/code\u003e\nsince it first slices the event list\nand then zips the slices together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "bendWheelPressureZip",
           "package": "synthesizer-midi",
@@ -4813,6 +5210,7 @@
         "index": {
           "description": "This one is certainly not as efficient as bendWheelPressure since it first slices the event list and then zips the slices together",
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "bendWheelPressureZip",
           "normalized": "Channel-\u003eInt-\u003ea-\u003ea-\u003eFilter b(T(T a))",
@@ -4828,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "channelPressure",
           "package": "synthesizer-midi",
@@ -4837,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "channelPressure",
           "normalized": "Channel-\u003ea-\u003ea-\u003eFilter b(T a)",
@@ -4852,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -4861,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "controllerExponential",
           "normalized": "Channel-\u003eController-\u003e(a,a)-\u003ea-\u003eFilter b(T a)",
@@ -4876,6 +5278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -4885,6 +5288,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "controllerLinear",
           "normalized": "Channel-\u003eController-\u003e(a,a)-\u003ea-\u003eFilter b(T a)",
@@ -4900,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "duration",
           "package": "synthesizer-midi",
@@ -4909,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "duration",
           "normalized": "T a-\u003eLazyTime",
@@ -4923,6 +5329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "initWith",
           "package": "synthesizer-midi",
@@ -4932,6 +5339,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "initWith",
           "normalized": "(a-\u003eb)-\u003eb-\u003eT StrictTime[a]-\u003eT b",
@@ -4948,6 +5356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epitchBend channel range center\u003c/code\u003e:\nemits frequencies on an exponential scale from\n\u003ccode\u003ecenter/range\u003c/code\u003e to \u003ccode\u003ecenter*range\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -4958,6 +5367,7 @@
         "index": {
           "description": "pitchBend channel range center emits frequencies on an exponential scale from center range to center range",
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "pitchBend",
           "normalized": "Channel-\u003ea-\u003ea-\u003eFilter b(T a)",
@@ -4973,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "zipWith",
           "package": "synthesizer-midi",
@@ -4981,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI PiecewiseConstant",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.PiecewiseConstant",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eT d a-\u003eT d b-\u003eT d c",
@@ -4997,6 +5409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert MIDI events of a MIDI controller to a control signal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "Storable",
           "package": "synthesizer-midi",
@@ -5006,6 +5419,7 @@
         "index": {
           "description": "Convert MIDI events of MIDI controller to control signal",
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "Storable",
           "package": "synthesizer-midi",
@@ -5019,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "Bank",
           "package": "synthesizer-midi",
@@ -5027,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "Bank",
           "package": "synthesizer-midi",
@@ -5040,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -5048,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "Instrument",
           "package": "synthesizer-midi",
@@ -5061,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "advanceModulationChunky",
           "package": "synthesizer-midi",
@@ -5070,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "advanceModulationChunky",
           "normalized": "LazyTime-\u003eState(T a)LazyTime",
@@ -5085,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "advanceModulationLazy",
           "package": "synthesizer-midi",
@@ -5094,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "advanceModulationLazy",
           "normalized": "LazyTime-\u003eState(T a)LazyTime",
@@ -5109,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "advanceModulationStrict",
           "package": "synthesizer-midi",
@@ -5118,6 +5541,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "advanceModulationStrict",
           "normalized": "LazyTime-\u003eState(T a)LazyTime",
@@ -5133,6 +5557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "applyModulation",
           "package": "synthesizer-midi",
@@ -5142,6 +5567,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "applyModulation",
           "normalized": "T a-\u003eModulator(T a-\u003eb,c)(b,c)",
@@ -5157,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "bendWheelPressure",
           "package": "synthesizer-midi",
@@ -5166,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "bendWheelPressure",
           "normalized": "Channel-\u003eInt-\u003ea-\u003ea-\u003ea-\u003eFilter b(T a)",
@@ -5181,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "channelPressure",
           "package": "synthesizer-midi",
@@ -5190,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "channelPressure",
           "normalized": "Channel-\u003ea-\u003ea-\u003eFilter b(T a)",
@@ -5205,6 +5635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "chunkSizesFromLazyTime",
           "package": "synthesizer-midi",
@@ -5214,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "chunkSizesFromLazyTime",
           "normalized": "LazyTime-\u003eT ChunkSize",
@@ -5229,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -5238,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "controllerExponential",
           "normalized": "Channel-\u003eController-\u003e(a,a)-\u003ea-\u003eFilter b(T a)",
@@ -5253,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -5262,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "controllerLinear",
           "normalized": "Channel-\u003eController-\u003e(a,a)-\u003ea-\u003eFilter b(T a)",
@@ -5277,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "piecewiseConstant",
           "package": "synthesizer-midi",
@@ -5286,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "piecewiseConstant",
           "normalized": "T StrictTime a-\u003eT a",
@@ -5301,6 +5739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "piecewiseConstantInit",
           "package": "synthesizer-midi",
@@ -5310,6 +5749,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "piecewiseConstantInit",
           "normalized": "a-\u003eT StrictTime a-\u003eT a",
@@ -5325,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "piecewiseConstantInitWith",
           "package": "synthesizer-midi",
@@ -5334,6 +5775,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "piecewiseConstantInitWith",
           "normalized": "(a-\u003eb)-\u003eb-\u003eT StrictTime[a]-\u003eT b",
@@ -5350,6 +5792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epitchBend channel range center\u003c/code\u003e:\nemits frequencies on an exponential scale from\n\u003ccode\u003ecenter/range\u003c/code\u003e to \u003ccode\u003ecenter*range\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -5360,6 +5803,7 @@
         "index": {
           "description": "pitchBend channel range center emits frequencies on an exponential scale from center range to center range",
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "pitchBend",
           "normalized": "Channel-\u003ea-\u003ea-\u003eFilter b(T a)",
@@ -5375,6 +5819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequence",
           "package": "synthesizer-midi",
@@ -5384,6 +5829,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequence",
           "normalized": "ChunkSize-\u003eChannel-\u003eInstrument a b-\u003eFilter c(T b)",
@@ -5398,6 +5844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequenceCore",
           "package": "synthesizer-midi",
@@ -5407,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequenceCore",
           "normalized": "ChunkSize-\u003eChannel-\u003eProgram-\u003eModulator Note(T a)-\u003eFilter b(T a)",
@@ -5422,6 +5870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequenceModulated",
           "package": "synthesizer-midi",
@@ -5431,6 +5880,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequenceModulated",
           "normalized": "ChunkSize-\u003eT a-\u003eChannel-\u003e(T a-\u003eInstrument b c)-\u003eFilter d(T c)",
@@ -5446,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequenceMultiModulated",
           "package": "synthesizer-midi",
@@ -5455,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequenceMultiModulated",
           "normalized": "ChunkSize-\u003eChannel-\u003ea-\u003eModulator(a,Note)(Instrument b c,Note)-\u003eFilter d(T c)",
@@ -5470,6 +5922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequenceMultiProgram",
           "package": "synthesizer-midi",
@@ -5479,6 +5932,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Storable",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Storable",
           "name": "sequenceMultiProgram",
           "normalized": "ChunkSize-\u003eChannel-\u003eProgram-\u003e[Instrument a b]-\u003eFilter c(T b)",
@@ -5495,6 +5949,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombine pitchbend and modulation in one data type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "BendModulation",
           "package": "synthesizer-midi",
@@ -5504,6 +5959,7 @@
         "index": {
           "description": "Combine pitchbend and modulation in one data type",
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "BendModulation",
           "package": "synthesizer-midi",
@@ -5518,6 +5974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebend\u003c/a\u003e\u003c/code\u003e is a frequency factor\nand \u003ccode\u003e\u003ca\u003edepth\u003c/a\u003e\u003c/code\u003e is a modulation depth to be interpreted by the instrument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "T",
           "package": "synthesizer-midi",
@@ -5527,6 +5984,7 @@
         "index": {
           "description": "bend is frequency factor and depth is modulation depth to be interpreted by the instrument",
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "T",
           "package": "synthesizer-midi",
@@ -5539,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "Cons",
           "package": "synthesizer-midi",
@@ -5548,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "Cons",
           "package": "synthesizer-midi",
@@ -5561,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "bend",
           "package": "synthesizer-midi",
@@ -5570,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "bend",
           "package": "synthesizer-midi",
@@ -5582,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "deflt",
           "package": "synthesizer-midi",
@@ -5591,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "deflt",
           "package": "synthesizer-midi",
@@ -5603,6 +6067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "depth",
           "package": "synthesizer-midi",
@@ -5612,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "depth",
           "package": "synthesizer-midi",
@@ -5624,6 +6090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "force",
           "package": "synthesizer-midi",
@@ -5633,6 +6100,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "force",
           "normalized": "T a-\u003eT a",
@@ -5647,6 +6115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "fromBendWheelPressure",
           "package": "synthesizer-midi",
@@ -5656,6 +6125,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "fromBendWheelPressure",
           "normalized": "Int-\u003ea-\u003ea-\u003eT-\u003eT a",
@@ -5672,6 +6142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply the pitch bend by a given factor.\nThis way you can e.g. shift the pitch bend from around 1\nto the actual frequency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "shift",
           "package": "synthesizer-midi",
@@ -5682,6 +6153,7 @@
         "index": {
           "description": "Multiply the pitch bend by given factor This way you can e.g shift the pitch bend from around to the actual frequency",
           "hierarchy": "Synthesizer MIDI Value BendModulation",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendModulation",
           "name": "shift",
           "normalized": "a-\u003eT a-\u003eT a",
@@ -5696,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "BendWheelPressure",
           "package": "synthesizer-midi",
@@ -5704,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "BendWheelPressure",
           "package": "synthesizer-midi",
@@ -5717,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "T",
           "package": "synthesizer-midi",
@@ -5725,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "T",
           "package": "synthesizer-midi",
@@ -5737,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "Cons",
           "package": "synthesizer-midi",
@@ -5746,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "Cons",
           "package": "synthesizer-midi",
@@ -5759,6 +6237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "bend",
           "package": "synthesizer-midi",
@@ -5768,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "bend",
           "package": "synthesizer-midi",
@@ -5780,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "bend_",
           "package": "synthesizer-midi",
@@ -5789,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "bend_",
           "package": "synthesizer-midi",
@@ -5801,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "check",
           "package": "synthesizer-midi",
@@ -5810,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "check",
           "normalized": "Channel-\u003ea-\u003eState T(Maybe T)",
@@ -5824,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "deflt",
           "package": "synthesizer-midi",
@@ -5833,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "deflt",
           "package": "synthesizer-midi",
@@ -5845,6 +6331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "pressure",
           "package": "synthesizer-midi",
@@ -5854,6 +6341,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "pressure",
           "package": "synthesizer-midi",
@@ -5866,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "pressure_",
           "package": "synthesizer-midi",
@@ -5875,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "pressure_",
           "package": "synthesizer-midi",
@@ -5887,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "wheel",
           "package": "synthesizer-midi",
@@ -5896,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "wheel",
           "package": "synthesizer-midi",
@@ -5908,6 +6400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "wheel_",
           "package": "synthesizer-midi",
@@ -5917,6 +6410,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value BendWheelPressure",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value.BendWheelPressure",
           "name": "wheel_",
           "package": "synthesizer-midi",
@@ -5930,6 +6424,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for converting MIDI controller and key values\nto something meaningful for signal processing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value",
           "name": "Value",
           "package": "synthesizer-midi",
@@ -5939,6 +6434,7 @@
         "index": {
           "description": "Functions for converting MIDI controller and key values to something meaningful for signal processing",
           "hierarchy": "Synthesizer MIDI Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value",
           "name": "Value",
           "package": "synthesizer-midi",
@@ -5952,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value",
           "name": "controllerExponential",
           "package": "synthesizer-midi",
@@ -5961,6 +6458,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value",
           "name": "controllerExponential",
           "normalized": "(a,a)-\u003eInt-\u003ea",
@@ -5976,6 +6474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value",
           "name": "controllerLinear",
           "package": "synthesizer-midi",
@@ -5985,6 +6484,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value",
           "name": "controllerLinear",
           "normalized": "(a,a)-\u003eInt-\u003ea",
@@ -6001,6 +6501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert pitch to frequency according to the default tuning\nin MIDI 1.0 Detailed Specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value",
           "name": "frequencyFromPitch",
           "package": "synthesizer-midi",
@@ -6011,6 +6512,7 @@
         "index": {
           "description": "Convert pitch to frequency according to the default tuning in MIDI Detailed Specification",
           "hierarchy": "Synthesizer MIDI Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value",
           "name": "frequencyFromPitch",
           "normalized": "Pitch-\u003ea",
@@ -6026,6 +6528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value",
           "name": "pitchBend",
           "package": "synthesizer-midi",
@@ -6035,6 +6538,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value",
           "name": "pitchBend",
           "normalized": "a-\u003ea-\u003eInt-\u003ea",
@@ -6050,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:34 UTC 2014",
           "module": "Synthesizer.MIDI.Value",
           "name": "velocity",
           "package": "synthesizer-midi",
@@ -6059,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer MIDI Value",
+          "indexed": "2014-03-11T20:15:34",
           "module": "Synthesizer.MIDI.Value",
           "name": "velocity",
           "normalized": "Velocity-\u003ea",

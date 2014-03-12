@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multimap"
+        "phrase": "multimap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA very simple MultiMap, based on \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e from the containers package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "MultiMap",
           "package": "multimap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "very simple MultiMap based on Map from the containers package",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "MultiMap",
           "package": "multimap",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA MultiMap with keys \u003ccode\u003ek\u003c/code\u003e and values \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA key can have multiple values (but not zero).\n The same value can be added multiple times (thus no\n constraints are ever imposed on \u003ccode\u003ev\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eInternally this is simply a \u003ccode\u003eMap k [v]\u003c/code\u003e.\n See \u003ccode\u003e\u003ca\u003etoMap\u003c/a\u003e\u003c/code\u003e for accessing the underlying \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "MultiMap",
           "package": "multimap",
@@ -51,6 +54,7 @@
         "index": {
           "description": "MultiMap with keys and values key can have multiple values but not zero The same value can be added multiple times thus no constraints are ever imposed on Internally this is simply Map See toMap for accessing the underlying Map",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "MultiMap",
           "package": "multimap",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003eflip lookup\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "(!)",
           "package": "multimap",
@@ -75,6 +80,7 @@
         "index": {
           "description": "As flip lookup",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "(!) !",
           "normalized": "MultiMap a b-\u003ea-\u003e[b]",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e Return all key/value pairs in the multimap\n in ascending key order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "assocs",
           "package": "multimap",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Return all key value pairs in the multimap in ascending key order",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "assocs",
           "normalized": "MultiMap a b-\u003e[(a,[b])]",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n).\u003c/em\u003e Delete a key and all its values from the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "delete",
           "package": "multimap",
@@ -125,6 +134,7 @@
         "index": {
           "description": "log Delete key and all its values from the map",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "delete",
           "normalized": "a-\u003eMultiMap a b-\u003eMultiMap a b",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e Return all elements of the multimap in the\n ascending order of their keys.\n\u003c/p\u003e\u003cp\u003eA list of lists is returned since a key can have\n multiple values. Use \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e to flatten.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "elems",
           "package": "multimap",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Return all elements of the multimap in the ascending order of their keys list of lists is returned since key can have multiple values Use concat to flatten",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "elems",
           "normalized": "MultiMap a b-\u003e[[b]]",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The empty multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "empty",
           "package": "multimap",
@@ -175,6 +188,7 @@
         "index": {
           "description": "The empty multimap",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "empty",
           "package": "multimap",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Find the maximal key of the multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "findMax",
           "package": "multimap",
@@ -198,6 +213,7 @@
         "index": {
           "description": "log Find the maximal key of the multimap",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "findMax",
           "normalized": "MultiMap a b-\u003eMaybe a",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Find the maximal key and the values associated with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "findMaxWithValues",
           "package": "multimap",
@@ -224,6 +241,7 @@
         "index": {
           "description": "log Find the maximal key and the values associated with it",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "findMaxWithValues",
           "normalized": "MultiMap a b-\u003eMaybe(a,[b])",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Find the minimal key of the multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "findMin",
           "package": "multimap",
@@ -250,6 +269,7 @@
         "index": {
           "description": "log Find the minimal key of the multimap",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "findMin",
           "normalized": "MultiMap a b-\u003eMaybe a",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Find the minimal key and the values associated with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "findMinWithValues",
           "package": "multimap",
@@ -276,6 +297,7 @@
         "index": {
           "description": "log Find the minimal key and the values associated with it",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "findMinWithValues",
           "normalized": "MultiMap a b-\u003eMaybe(a,[b])",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the values in the map using the given left-associative binary operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "foldl",
           "package": "multimap",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Fold the values in the map using the given left-associative binary operator",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eMultiMap c b-\u003ea",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e Fold the keys and values in the map using the given left-associative\n binary operator, taking into account not only the value but also the key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "foldlWithKey",
           "package": "multimap",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Fold the keys and values in the map using the given left-associative binary operator taking into account not only the value but also the key",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "foldlWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ea)-\u003ea-\u003eMultiMap b c-\u003ea",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the values in the map using the given right-associative binary operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "foldr",
           "package": "multimap",
@@ -353,6 +380,7 @@
         "index": {
           "description": "Fold the values in the map using the given right-associative binary operator",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eMultiMap c a-\u003eb",
@@ -368,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e Fold the keys and values in the map using the given right-associative\n binary operator, taking into account not only the value but also the key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "foldrWithKey",
           "package": "multimap",
@@ -378,6 +407,7 @@
         "index": {
           "description": "Fold the keys and values in the map using the given right-associative binary operator taking into account not only the value but also the key",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "foldrWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eMultiMap a b-\u003ec",
@@ -394,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n*log n)\u003c/em\u003e Create a multimap from a list of key/value pairs.\n\u003c/p\u003e\u003cpre\u003e fromList xs == foldr (uncurry insert) empty\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "fromList",
           "package": "multimap",
@@ -404,6 +435,7 @@
         "index": {
           "description": "log Create multimap from list of key value pairs fromList xs foldr uncurry insert empty",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eMultiMap a b",
@@ -420,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a map of lists into a multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "fromMap",
           "package": "multimap",
@@ -430,6 +463,7 @@
         "index": {
           "description": "Turns map of lists into multimap",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "fromMap",
           "normalized": "Map a[b]-\u003eMultiMap a b",
@@ -446,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n).\u003c/em\u003e Insert a new key and value in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "insert",
           "package": "multimap",
@@ -456,6 +491,7 @@
         "index": {
           "description": "log Insert new key and value in the map",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eMultiMap a b-\u003eMultiMap a b",
@@ -471,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e Return all keys of the multimap in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "keys",
           "package": "multimap",
@@ -481,6 +518,7 @@
         "index": {
           "description": "Return all keys of the multimap in ascending order",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "keys",
           "normalized": "MultiMap a b-\u003e[a]",
@@ -496,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e The set of all keys of the multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "keysSet",
           "package": "multimap",
@@ -506,6 +545,7 @@
         "index": {
           "description": "The set of all keys of the multimap",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "keysSet",
           "normalized": "MultiMap a b-\u003eSet a",
@@ -522,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n).\u003c/em\u003e Lookup the value at a key in the map.\n\u003c/p\u003e\u003cp\u003eThe function will return the corrsponding values as a List, or the\n empty list if no values are associated witht the given key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "lookup",
           "package": "multimap",
@@ -532,6 +573,7 @@
         "index": {
           "description": "log Lookup the value at key in the map The function will return the corrsponding values as List or the empty list if no values are associated witht the given key",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "lookup",
           "normalized": "a-\u003eMultiMap a b-\u003e[b]",
@@ -547,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "map",
           "package": "multimap",
@@ -557,6 +600,7 @@
         "index": {
           "description": "Map function over all values in the map",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eMultiMap c a-\u003eMultiMap c b",
@@ -572,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emapKeys f s is the multimap obtained by applying f to each key of s.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "mapKeys",
           "package": "multimap",
@@ -582,6 +627,7 @@
         "index": {
           "description": "mapKeys is the multimap obtained by applying to each key of",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "mapKeys",
           "normalized": "(a-\u003ea)-\u003eMultiMap a b-\u003eMultiMap a b",
@@ -598,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all key/value pairs in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "mapWithKey",
           "package": "multimap",
@@ -608,6 +655,7 @@
         "index": {
           "description": "Map function over all key value pairs in the map",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "mapWithKey",
           "normalized": "(a-\u003eb-\u003ec)-\u003eMultiMap a b-\u003eMultiMap a c",
@@ -624,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n).\u003c/em\u003e Is the key a member of the multimap?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "member",
           "package": "multimap",
@@ -634,6 +683,7 @@
         "index": {
           "description": "log Is the key member of the multimap",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "member",
           "normalized": "MultiMap a b-\u003ea-\u003eBool",
@@ -649,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n).\u003c/em\u003e Is the key not a member of the multimap?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "notMember",
           "package": "multimap",
@@ -659,6 +710,7 @@
         "index": {
           "description": "log Is the key not member of the multimap",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "notMember",
           "normalized": "MultiMap a b-\u003ea-\u003eBool",
@@ -675,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Check whether the multimap is empty or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "null",
           "package": "multimap",
@@ -685,6 +738,7 @@
         "index": {
           "description": "Check whether the multimap is empty or not",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "null",
           "normalized": "MultiMap a b-\u003eBool",
@@ -700,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The number of keys in the multimap.\n\u003c/p\u003e\u003cp\u003eAs this is a multimap, the number of keys is not\n necessarily equal to the number of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "numKeys",
           "package": "multimap",
@@ -710,6 +765,7 @@
         "index": {
           "description": "The number of keys in the multimap As this is multimap the number of keys is not necessarily equal to the number of values",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "numKeys",
           "normalized": "MultiMap a b-\u003eWord",
@@ -726,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The number of values in the multimap.\n\u003c/p\u003e\u003cp\u003eAs this is a multimap, the number of keys is not\n necessarily equal to the number of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "numValues",
           "package": "multimap",
@@ -736,6 +793,7 @@
         "index": {
           "description": "The number of values in the multimap As this is multimap the number of keys is not necessarily equal to the number of values",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "numValues",
           "normalized": "MultiMap a b-\u003eWord",
@@ -752,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The number of elements in the multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "size",
           "package": "multimap",
@@ -762,6 +821,7 @@
         "index": {
           "description": "The number of elements in the multimap",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "size",
           "normalized": "MultiMap a b-\u003eInt",
@@ -777,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a flattened list of key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "toList",
           "package": "multimap",
@@ -787,6 +848,7 @@
         "index": {
           "description": "Return flattened list of key value pairs",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "toList",
           "normalized": "MultiMap a b-\u003e[(a,b)]",
@@ -803,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Return the map of lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "toMap",
           "package": "multimap",
@@ -813,6 +876,7 @@
         "index": {
           "description": "Return the map of lists",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "toMap",
           "normalized": "MultiMap a b-\u003eMap a[b]",
@@ -829,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e/O(k*m*log m) where k is the number of keys and m the\n maximum number of elements associated with a single key/\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.MultiMap",
           "name": "toMapOfSets",
           "package": "multimap",
@@ -839,6 +904,7 @@
         "index": {
           "description": "log where is the number of keys and the maximum number of elements associated with single key",
           "hierarchy": "Data MultiMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.MultiMap",
           "name": "toMapOfSets",
           "normalized": "MultiMap a b-\u003eMap a(Set b)",
@@ -854,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "SetMap",
           "package": "multimap",
@@ -862,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "SetMap",
           "package": "multimap",
@@ -876,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SetMap with keys \u003ccode\u003ek\u003c/code\u003e and values \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "SetMap",
           "package": "multimap",
@@ -885,6 +954,7 @@
         "index": {
           "description": "SetMap with keys and values",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "SetMap",
           "package": "multimap",
@@ -899,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003eflip lookup\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "(!)",
           "package": "multimap",
@@ -909,6 +980,7 @@
         "index": {
           "description": "As flip lookup",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "(!) !",
           "normalized": "SetMap a b-\u003ea-\u003eSet b",
@@ -924,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a key and all its values from the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "delete",
           "package": "multimap",
@@ -934,6 +1007,7 @@
         "index": {
           "description": "Delete key and all its values from the map",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "delete",
           "normalized": "a-\u003eSetMap a b-\u003eSetMap a b",
@@ -949,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all elements of the multimap in the\n ascending order of their keys.\n\u003c/p\u003e\u003cp\u003eA list of lists is returned since a key can have\n multiple values. Use \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e to flatten.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "elems",
           "package": "multimap",
@@ -959,6 +1034,7 @@
         "index": {
           "description": "Return all elements of the multimap in the ascending order of their keys list of lists is returned since key can have multiple values Use concat to flatten",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "elems",
           "normalized": "SetMap a b-\u003e[[b]]",
@@ -974,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The empty multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "empty",
           "package": "multimap",
@@ -984,6 +1061,7 @@
         "index": {
           "description": "The empty multimap",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "empty",
           "package": "multimap",
@@ -997,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new key and value in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "insert",
           "package": "multimap",
@@ -1007,6 +1086,7 @@
         "index": {
           "description": "Insert new key and value in the map",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eSetMap a b-\u003eSetMap a b",
@@ -1022,6 +1102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n).\u003c/em\u003e Return all keys of the multimap in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "keys",
           "package": "multimap",
@@ -1032,6 +1113,7 @@
         "index": {
           "description": "Return all keys of the multimap in ascending order",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "keys",
           "normalized": "SetMap a b-\u003e[a]",
@@ -1047,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n).\u003c/em\u003e Lookup the value at a key in the map.\n\u003c/p\u003e\u003cp\u003eThe function will return the corrsponding values as a List, or the\n empty list if no values are associated witht the given key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "lookup",
           "package": "multimap",
@@ -1057,6 +1140,7 @@
         "index": {
           "description": "log Lookup the value at key in the map The function will return the corrsponding values as List or the empty list if no values are associated witht the given key",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "lookup",
           "normalized": "a-\u003eSetMap a b-\u003eSet b",
@@ -1072,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "map",
           "package": "multimap",
@@ -1082,6 +1167,7 @@
         "index": {
           "description": "Map function over all values in the map",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eSetMap c a-\u003eSetMap c b",
@@ -1097,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n).\u003c/em\u003e Is the key a member of the multimap?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "member",
           "package": "multimap",
@@ -1107,6 +1194,7 @@
         "index": {
           "description": "log Is the key member of the multimap",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "member",
           "normalized": "SetMap a b-\u003ea-\u003eBool",
@@ -1122,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n).\u003c/em\u003e Is the key not a member of the multimap?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "notMember",
           "package": "multimap",
@@ -1132,6 +1221,7 @@
         "index": {
           "description": "log Is the key not member of the multimap",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "notMember",
           "normalized": "SetMap a b-\u003ea-\u003eBool",
@@ -1148,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Check whether the multimap is empty or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "null",
           "package": "multimap",
@@ -1158,6 +1249,7 @@
         "index": {
           "description": "Check whether the multimap is empty or not",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "null",
           "normalized": "SetMap a b-\u003eBool",
@@ -1173,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The number of keys in the multimap.\n\u003c/p\u003e\u003cp\u003eAs this is a multimap, the number of keys is not\n necessarily equal to the number of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "numKeys",
           "package": "multimap",
@@ -1183,6 +1276,7 @@
         "index": {
           "description": "The number of keys in the multimap As this is multimap the number of keys is not necessarily equal to the number of values",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "numKeys",
           "normalized": "SetMap a b-\u003eWord",
@@ -1199,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The number of values in the multimap.\n\u003c/p\u003e\u003cp\u003eAs this is a multimap, the number of keys is not\n necessarily equal to the number of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "numValues",
           "package": "multimap",
@@ -1209,6 +1304,7 @@
         "index": {
           "description": "The number of values in the multimap As this is multimap the number of keys is not necessarily equal to the number of values",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "numValues",
           "normalized": "SetMap a b-\u003eWord",
@@ -1225,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e The number of elements in the multimap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "size",
           "package": "multimap",
@@ -1235,6 +1332,7 @@
         "index": {
           "description": "The number of elements in the multimap",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "size",
           "normalized": "SetMap a b-\u003eInt",
@@ -1250,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1).\u003c/em\u003e Return the map of sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:47 UTC 2014",
           "module": "Data.SetMap",
           "name": "toMap",
           "package": "multimap",
@@ -1260,6 +1359,7 @@
         "index": {
           "description": "Return the map of sets",
           "hierarchy": "Data SetMap",
+          "indexed": "2014-03-11T19:23:47",
           "module": "Data.SetMap",
           "name": "toMap",
           "normalized": "SetMap a b-\u003eMap a(Set b)",

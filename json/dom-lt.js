@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dom-lt"
+        "phrase": "dom-lt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Lengauer-Tarjan graph dominators algorithm.\n\u003c/p\u003e\u003cp\u003e[1] Lengauer, Tarjan,\n      \u003cem\u003eA Fast Algorithm for Finding Dominators in a Flowgraph\u003c/em\u003e, 1979.\n\u003c/p\u003e\u003cp\u003e[2] Muchnick,\n      \u003cem\u003eAdvanced Compiler Design and Implementation\u003c/em\u003e, 1997.\n\u003c/p\u003e\u003cp\u003e[3] Brisk, Sarrafzadeh,\n      \u003cem\u003eInterference Graphs for Procedures in Static Single\u003c/em\u003e\n      \u003cem\u003eInformation Form are Interval Graphs\u003c/em\u003e, 2007.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "Dom",
           "package": "dom-lt",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Lengauer-Tarjan graph dominators algorithm Lengauer Tarjan Fast Algorithm for Finding Dominators in Flowgraph Muchnick Advanced Compiler Design and Implementation Brisk Sarrafzadeh Interference Graphs for Procedures in Static Single Information Form are Interval Graphs",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "Dom",
           "package": "dom-lt",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "Edge",
           "package": "dom-lt",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "Edge",
           "package": "dom-lt",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "Graph",
           "package": "dom-lt",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "Graph",
           "package": "dom-lt",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "Node",
           "package": "dom-lt",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "Node",
           "package": "dom-lt",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "Path",
           "package": "dom-lt",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "Path",
           "package": "dom-lt",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "Rooted",
           "package": "dom-lt",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "Rooted",
           "package": "dom-lt",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "ancestors",
           "package": "dom-lt",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "ancestors",
           "normalized": "Tree a-\u003e[(a,[a])]",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "asGraph",
           "package": "dom-lt",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "asGraph",
           "normalized": "Tree Node-\u003eRooted",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "asTree",
           "package": "dom-lt",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "asTree",
           "normalized": "Rooted-\u003eTree Node",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDominators\u003c/em\u003e.\n Complexity as for \u003ccode\u003eidom\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "dom",
           "package": "dom-lt",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Dominators Complexity as for idom",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "dom",
           "normalized": "Rooted-\u003e[(Node,Path)]",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDominator tree\u003c/em\u003e.\n Complexity as for \u003ccode\u003eidom\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "domTree",
           "package": "dom-lt",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Dominator tree Complexity as for idom",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "domTree",
           "normalized": "Rooted-\u003eTree Node",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "fromAdj",
           "package": "dom-lt",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "fromAdj",
           "normalized": "[(Node,[Node])]-\u003eGraph",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "fromEdges",
           "package": "dom-lt",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "fromEdges",
           "normalized": "[Edge]-\u003eGraph",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eImmediate dominators\u003c/em\u003e.\n \u003cem\u003eO(|E|*alpha(|E|,|V|))\u003c/em\u003e, where \u003cem\u003ealpha(m,n)\u003c/em\u003e is\n \"a functional inverse of Ackermann's function\".\n\u003c/p\u003e\u003cp\u003eThis Complexity bound assumes \u003cem\u003eO(1)\u003c/em\u003e indexing. Since we're\n using \u003ccode\u003eIntMap\u003c/code\u003e, it has an additional \u003cem\u003elg |V|\u003c/em\u003e factor\n somewhere in there. I'm not sure where.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "idom",
           "package": "dom-lt",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Immediate dominators alpha where alpha is functional inverse of Ackermann function This Complexity bound assumes indexing Since we re using IntMap it has an additional lg factor somewhere in there not sure where",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "idom",
           "normalized": "Rooted-\u003e[(Node,Node)]",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eImmediate post-dominators\u003c/em\u003e.\n Complexity as for \u003ccode\u003eidom\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "ipdom",
           "package": "dom-lt",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Immediate post-dominators Complexity as for idom",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "ipdom",
           "normalized": "Rooted-\u003e[(Node,Node)]",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "parents",
           "package": "dom-lt",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "parents",
           "normalized": "Tree a-\u003e[(a,a)]",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003ePost-dominated depth-first search\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "pddfs",
           "package": "dom-lt",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Post-dominated depth-first search",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "pddfs",
           "normalized": "Rooted-\u003e[Node]",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003ePost-dominators\u003c/em\u003e.\n Complexity as for \u003ccode\u003eidom\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "pdom",
           "package": "dom-lt",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Post-dominators Complexity as for idom",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "pdom",
           "normalized": "Rooted-\u003e[(Node,Path)]",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003ePost-dominator tree\u003c/em\u003e.\n Complexity as for \u003ccode\u003eidom\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "pdomTree",
           "package": "dom-lt",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Post-dominator tree Complexity as for idom",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "pdomTree",
           "normalized": "Rooted-\u003eTree Node",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eReverse post-dominated depth-first search\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "rpddfs",
           "package": "dom-lt",
@@ -476,6 +515,7 @@
         "index": {
           "description": "Reverse post-dominated depth-first search",
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "rpddfs",
           "normalized": "Rooted-\u003e[Node]",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "toAdj",
           "package": "dom-lt",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "toAdj",
           "normalized": "Graph-\u003e[(Node,[Node])]",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:49 UTC 2014",
           "module": "Data.Graph.Dom",
           "name": "toEdges",
           "package": "dom-lt",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dom",
+          "indexed": "2014-03-11T17:57:49",
           "module": "Data.Graph.Dom",
           "name": "toEdges",
           "normalized": "Graph-\u003e[Edge]",

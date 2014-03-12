@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libcspm"
+        "phrase": "libcspm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.CommandLineOptions",
           "name": "CommandLineOptions",
           "package": "libcspm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "CSPM CommandLineOptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.CommandLineOptions",
           "name": "CommandLineOptions",
           "package": "libcspm",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of options for libcspm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.CommandLineOptions",
           "name": "Options",
           "package": "libcspm",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The type of options for libcspm",
           "hierarchy": "CSPM CommandLineOptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.CommandLineOptions",
           "name": "Options",
           "package": "libcspm",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.CommandLineOptions",
           "name": "Options",
           "package": "libcspm",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "CSPM CommandLineOptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.CommandLineOptions",
           "name": "Options",
           "package": "libcspm",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll available command line options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.CommandLineOptions",
           "name": "allOptions",
           "package": "libcspm",
@@ -95,6 +102,7 @@
         "index": {
           "description": "All available command line options",
           "hierarchy": "CSPM CommandLineOptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.CommandLineOptions",
           "name": "allOptions",
           "normalized": "(a-\u003eOptions)-\u003e(a-\u003eOptions-\u003ea)-\u003e[OptDescr(a-\u003ea)]",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default set of options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.CommandLineOptions",
           "name": "defaultOptions",
           "package": "libcspm",
@@ -121,6 +130,7 @@
         "index": {
           "description": "The default set of options",
           "hierarchy": "CSPM CommandLineOptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.CommandLineOptions",
           "name": "defaultOptions",
           "package": "libcspm",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the options to the values given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.CommandLineOptions",
           "name": "setOptions",
           "package": "libcspm",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Sets the options to the values given",
           "hierarchy": "CSPM CommandLineOptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.CommandLineOptions",
           "name": "setOptions",
           "normalized": "Options-\u003ea()",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.CommandLineOptions",
           "name": "tcOptions",
           "package": "libcspm",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "CSPM CommandLineOptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.CommandLineOptions",
           "name": "tcOptions",
           "package": "libcspm",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll options for the type-checker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.CommandLineOptions",
           "name": "typeCheckerOptions",
           "package": "libcspm",
@@ -193,6 +208,7 @@
         "index": {
           "description": "All options for the type-checker",
           "hierarchy": "CSPM CommandLineOptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.CommandLineOptions",
           "name": "typeCheckerOptions",
           "normalized": "(a-\u003eOptions)-\u003e(a-\u003eOptions-\u003ea)-\u003e[OptDescr(a-\u003ea)]",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "FreeVars",
           "package": "libcspm",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures FreeVars",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "FreeVars",
           "package": "libcspm",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "BoundNames",
           "package": "libcspm",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures FreeVars",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "BoundNames",
           "package": "libcspm",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "FreeVars",
           "package": "libcspm",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures FreeVars",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "FreeVars",
           "package": "libcspm",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "boundNames",
           "package": "libcspm",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures FreeVars",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "boundNames",
           "normalized": "a-\u003e[Name]",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "freeVars",
           "package": "libcspm",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures FreeVars",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "freeVars",
           "normalized": "a-\u003e[Name]",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "freeVars'",
           "package": "libcspm",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures FreeVars",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.FreeVars",
           "name": "freeVars'",
           "normalized": "a-\u003e[Name]",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Literals",
           "name": "Literals",
           "package": "libcspm",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Literals",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Literals",
           "name": "Literals",
           "package": "libcspm",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Literals",
           "name": "Literal",
           "package": "libcspm",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Literals",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Literals",
           "name": "Literal",
           "package": "libcspm",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Literals",
           "name": "Bool",
           "package": "libcspm",
@@ -396,6 +429,7 @@
         "index": {
           "description": "boolean",
           "hierarchy": "CSPM DataStructures Literals",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Literals",
           "name": "Bool",
           "package": "libcspm",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Literals",
           "name": "Char",
           "package": "libcspm",
@@ -420,6 +455,7 @@
         "index": {
           "description": "character",
           "hierarchy": "CSPM DataStructures Literals",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Literals",
           "name": "Char",
           "package": "libcspm",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integer. This is finite size, as per the FDR spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Literals",
           "name": "Int",
           "package": "libcspm",
@@ -444,6 +481,7 @@
         "index": {
           "description": "An integer This is finite size as per the FDR spec",
           "hierarchy": "CSPM DataStructures Literals",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Literals",
           "name": "Int",
           "package": "libcspm",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Literals",
           "name": "String",
           "package": "libcspm",
@@ -468,6 +507,7 @@
         "index": {
           "description": "string",
           "hierarchy": "CSPM DataStructures Literals",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Literals",
           "name": "String",
           "package": "libcspm",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNames used by the evaluator. This is heavily inspired by GHC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "Names",
           "package": "libcspm",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Names used by the evaluator This is heavily inspired by GHC",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "Names",
           "package": "libcspm",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA renamed name and is the exclusive type used after the renamer. Names\n are guaranteed to be unique, meaning that two names are equal iff they\n refer to the same binding instance. For example, consider the following CSPM\n code:\n\u003c/p\u003e\u003cpre\u003e\n      f = 1\n      g = let f = 2 within (f, f)\n\u003c/pre\u003e\u003cp\u003eThis will be renamed to:\n\u003c/p\u003e\u003cpre\u003e\n      f0 = 1\n      g = let f1 = 2 within (f1, f1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "Name",
           "package": "libcspm",
@@ -514,6 +557,7 @@
         "index": {
           "description": "renamed name and is the exclusive type used after the renamer Names are guaranteed to be unique meaning that two names are equal iff they refer to the same binding instance For example consider the following CSPM code let within This will be renamed to f0 let f1 within f1 f1",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "Name",
           "package": "libcspm",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "NameType",
           "package": "libcspm",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "NameType",
           "package": "libcspm",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name that occurs in the source code somewhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "OccName",
           "package": "libcspm",
@@ -558,6 +605,7 @@
         "index": {
           "description": "name that occurs in the source code somewhere",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "OccName",
           "package": "libcspm",
@@ -572,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name that has not yet been renamed. Created by the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "UnRenamedName",
           "package": "libcspm",
@@ -581,6 +630,7 @@
         "index": {
           "description": "name that has not yet been renamed Created by the parser",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "UnRenamedName",
           "package": "libcspm",
@@ -595,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn externally visible name (like a top level definition).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "ExternalName",
           "package": "libcspm",
@@ -605,6 +656,7 @@
         "index": {
           "description": "An externally visible name like top level definition",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "ExternalName",
           "package": "libcspm",
@@ -619,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name created by the renamer, but from the users' source (e.g. from\n a lambda).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "InternalName",
           "package": "libcspm",
@@ -629,6 +682,7 @@
         "index": {
           "description": "name created by the renamer but from the users source e.g from lambda",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "InternalName",
           "package": "libcspm",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "Name",
           "package": "libcspm",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "Name",
           "package": "libcspm",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "OccName",
           "package": "libcspm",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "OccName",
           "package": "libcspm",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "Qual",
           "package": "libcspm",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "Qual",
           "package": "libcspm",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "UnQual",
           "package": "libcspm",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "UnQual",
           "package": "libcspm",
@@ -731,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA built in name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "WiredInName",
           "package": "libcspm",
@@ -741,6 +804,7 @@
         "index": {
           "description": "built in name",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "WiredInName",
           "package": "libcspm",
@@ -755,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the given Name correspond to a data type or a channel definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "isNameDataConstructor",
           "package": "libcspm",
@@ -765,6 +830,7 @@
         "index": {
           "description": "Does the given Name correspond to data type or channel definition",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "isNameDataConstructor",
           "normalized": "Name-\u003eBool",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "mkExternalName",
           "package": "libcspm",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "mkExternalName",
           "normalized": "UnRenamedName-\u003eSrcSpan-\u003eBool-\u003ea Name",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "mkFreshInternalName",
           "package": "libcspm",
@@ -813,6 +882,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "mkFreshInternalName",
           "package": "libcspm",
@@ -826,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "mkInternalName",
           "package": "libcspm",
@@ -835,6 +906,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "mkInternalName",
           "normalized": "UnRenamedName-\u003eSrcSpan-\u003ea Name",
@@ -850,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "mkWiredInName",
           "package": "libcspm",
@@ -859,6 +932,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "mkWiredInName",
           "normalized": "UnRenamedName-\u003eBool-\u003ea Name",
@@ -875,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere this name was defined. If this occurs in a pattern, then it\n will be equal to the location of the pattern, otherwise it will be\n equal to the location of the definition that this name binds to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "nameDefinition",
           "package": "libcspm",
@@ -885,6 +960,7 @@
         "index": {
           "description": "Where this name was defined If this occurs in pattern then it will be equal to the location of the pattern otherwise it will be equal to the location of the definition that this name binds to",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "nameDefinition",
           "package": "libcspm",
@@ -899,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe original occurence of this name (used for error messages).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "nameFullyQualified",
           "package": "libcspm",
@@ -909,6 +986,7 @@
         "index": {
           "description": "The original occurence of this name used for error messages",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "nameFullyQualified",
           "package": "libcspm",
@@ -923,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this name a type constructor, i.e. a datatype or a channel?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "nameIsConstructor",
           "package": "libcspm",
@@ -933,6 +1012,7 @@
         "index": {
           "description": "Is this name type constructor i.e datatype or channel",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "nameIsConstructor",
           "package": "libcspm",
@@ -947,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of this name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "nameType",
           "package": "libcspm",
@@ -957,6 +1038,7 @@
         "index": {
           "description": "The type of this name",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "nameType",
           "package": "libcspm",
@@ -971,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unique identifier for this name. Inserted by the renamer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "nameUnique",
           "package": "libcspm",
@@ -981,6 +1064,7 @@
         "index": {
           "description": "The unique identifier for this name Inserted by the renamer",
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "nameUnique",
           "package": "libcspm",
@@ -994,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "unRenamedNameMemberName",
           "package": "libcspm",
@@ -1003,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "unRenamedNameMemberName",
           "package": "libcspm",
@@ -1016,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Names",
           "name": "unRenamedNameModuleName",
           "package": "libcspm",
@@ -1025,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Names",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Names",
           "name": "unRenamedNameModuleName",
           "package": "libcspm",
@@ -1039,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module represents the abstract syntax tree of machine CSP.\n Most of the datatypes are parameterised over the type of variables that they\n contain. Before renaming (by \u003ccode\u003e\u003ca\u003eRenamer\u003c/a\u003e\u003c/code\u003e) the variables are of type \n \u003ccode\u003e\u003ca\u003eUnRenamedName\u003c/a\u003e\u003c/code\u003e, wheras after renaming they are of type \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e (and are\n hence associated with their bindings instances). Furthermore, nearly all\n pieces of syntax are annoated with their location in the source code, and\n (sometimes) with their type (but only after type checking). This is done \n using the \u003ccode\u003e\u003ca\u003eAnnotated\u003c/a\u003e\u003c/code\u003e datatype.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Syntax",
           "package": "libcspm",
@@ -1048,6 +1137,7 @@
         "index": {
           "description": "This module represents the abstract syntax tree of machine CSP Most of the datatypes are parameterised over the type of variables that they contain Before renaming by Renamer the variables are of type UnRenamedName wheras after renaming they are of type Name and are hence associated with their bindings instances Furthermore nearly all pieces of syntax are annoated with their location in the source code and sometimes with their type but only after type checking This is done using the Annotated datatype",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Syntax",
           "package": "libcspm",
@@ -1061,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnAssertion",
           "package": "libcspm",
@@ -1069,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnAssertion",
           "package": "libcspm",
@@ -1082,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnCSPMFile",
           "package": "libcspm",
@@ -1090,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnCSPMFile",
           "package": "libcspm",
@@ -1103,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnDataTypeClause",
           "package": "libcspm",
@@ -1111,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnDataTypeClause",
           "package": "libcspm",
@@ -1124,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnDecl",
           "package": "libcspm",
@@ -1132,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnDecl",
           "package": "libcspm",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnExp",
           "package": "libcspm",
@@ -1153,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnExp",
           "package": "libcspm",
@@ -1166,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnField",
           "package": "libcspm",
@@ -1174,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnField",
           "package": "libcspm",
@@ -1187,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnInteractiveStmt",
           "package": "libcspm",
@@ -1195,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnInteractiveStmt",
           "package": "libcspm",
@@ -1208,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnMatch",
           "package": "libcspm",
@@ -1216,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnMatch",
           "package": "libcspm",
@@ -1229,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnPat",
           "package": "libcspm",
@@ -1237,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnPat",
           "package": "libcspm",
@@ -1250,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnSType",
           "package": "libcspm",
@@ -1258,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnSType",
           "package": "libcspm",
@@ -1271,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnSTypeConstraint",
           "package": "libcspm",
@@ -1279,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnSTypeConstraint",
           "package": "libcspm",
@@ -1292,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnSTypeScheme",
           "package": "libcspm",
@@ -1300,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnSTypeScheme",
           "package": "libcspm",
@@ -1313,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnStmt",
           "package": "libcspm",
@@ -1321,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AnStmt",
           "package": "libcspm",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Assertion",
           "package": "libcspm",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Assertion",
           "package": "libcspm",
@@ -1355,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "BinaryBooleanOp",
           "package": "libcspm",
@@ -1363,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "BinaryBooleanOp",
           "package": "libcspm",
@@ -1376,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "BinaryMathsOp",
           "package": "libcspm",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "BinaryMathsOp",
           "package": "libcspm",
@@ -1397,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "CSPMFile",
           "package": "libcspm",
@@ -1405,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "CSPMFile",
           "package": "libcspm",
@@ -1419,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe clause of a datatype, e.g. if a datatype declaration was:\n\u003c/p\u003e\u003cpre\u003e datatype T = A.Int.Bool | B.Bool | C\n\u003c/pre\u003e\u003cp\u003eThen T would have three datatype clauses, one for each of its tags (i.e.\n \u003ccode\u003eA\u003c/code\u003e, \u003ccode\u003eB\u003c/code\u003e and \u003ccode\u003eC\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DataTypeClause",
           "package": "libcspm",
@@ -1428,6 +1553,7 @@
         "index": {
           "description": "The clause of datatype e.g if datatype declaration was datatype A.Int.Bool B.Bool Then would have three datatype clauses one for each of its tags i.e and",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DataTypeClause",
           "package": "libcspm",
@@ -1441,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Decl",
           "package": "libcspm",
@@ -1449,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Decl",
           "package": "libcspm",
@@ -1463,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Exp",
           "package": "libcspm",
@@ -1472,6 +1601,7 @@
         "index": {
           "description": "An expression",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Exp",
           "package": "libcspm",
@@ -1485,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Field",
           "package": "libcspm",
@@ -1493,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Field",
           "package": "libcspm",
@@ -1507,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA statement in an interactive session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "InteractiveStmt",
           "package": "libcspm",
@@ -1516,6 +1649,7 @@
         "index": {
           "description": "statement in an interactive session",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "InteractiveStmt",
           "package": "libcspm",
@@ -1530,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches occur on the left hand side of a function declaration and there\n is one \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e for each clause of the declaration. For example, given the\n declaration:\n\u003c/p\u003e\u003cpre\u003e\n      f(\u003ca/\u003e) = 0\n      f(\u003ca\u003ex\u003c/a\u003e^xs) = 1+f(xs)\n\u003c/pre\u003e\u003cp\u003ethere would be two matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Match",
           "package": "libcspm",
@@ -1539,6 +1674,7 @@
         "index": {
           "description": "Matches occur on the left hand side of function declaration and there is one Match for each clause of the declaration For example given the declaration xs xs there would be two matches",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Match",
           "package": "libcspm",
@@ -1552,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Model",
           "package": "libcspm",
@@ -1560,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Model",
           "package": "libcspm",
@@ -1573,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ModelOption",
           "package": "libcspm",
@@ -1581,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ModelOption",
           "package": "libcspm",
@@ -1594,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PAssertion",
           "package": "libcspm",
@@ -1602,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PAssertion",
           "package": "libcspm",
@@ -1615,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PCSPMFile",
           "package": "libcspm",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PCSPMFile",
           "package": "libcspm",
@@ -1636,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PDataTypeClause",
           "package": "libcspm",
@@ -1644,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PDataTypeClause",
           "package": "libcspm",
@@ -1657,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PDecl",
           "package": "libcspm",
@@ -1665,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PDecl",
           "package": "libcspm",
@@ -1678,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PExp",
           "package": "libcspm",
@@ -1686,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PExp",
           "package": "libcspm",
@@ -1699,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PField",
           "package": "libcspm",
@@ -1707,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PField",
           "package": "libcspm",
@@ -1720,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PInteractiveStmt",
           "package": "libcspm",
@@ -1728,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PInteractiveStmt",
           "package": "libcspm",
@@ -1741,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PMatch",
           "package": "libcspm",
@@ -1749,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PMatch",
           "package": "libcspm",
@@ -1762,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PPat",
           "package": "libcspm",
@@ -1770,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PPat",
           "package": "libcspm",
@@ -1783,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PSType",
           "package": "libcspm",
@@ -1791,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PSType",
           "package": "libcspm",
@@ -1804,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PSTypeConstraint",
           "package": "libcspm",
@@ -1812,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PSTypeConstraint",
           "package": "libcspm",
@@ -1825,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PSTypeScheme",
           "package": "libcspm",
@@ -1833,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PSTypeScheme",
           "package": "libcspm",
@@ -1846,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PStmt",
           "package": "libcspm",
@@ -1854,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PStmt",
           "package": "libcspm",
@@ -1867,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Pat",
           "package": "libcspm",
@@ -1875,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Pat",
           "package": "libcspm",
@@ -1889,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA syntatic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SType",
           "package": "libcspm",
@@ -1898,6 +2067,7 @@
         "index": {
           "description": "syntatic type",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SType",
           "package": "libcspm",
@@ -1912,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA syntatic type constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STypeConstraint",
           "package": "libcspm",
@@ -1921,6 +2092,7 @@
         "index": {
           "description": "syntatic type constraint",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STypeConstraint",
           "package": "libcspm",
@@ -1935,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA syntatic type scheme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STypeScheme",
           "package": "libcspm",
@@ -1944,6 +2117,7 @@
         "index": {
           "description": "syntatic type scheme",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STypeScheme",
           "package": "libcspm",
@@ -1957,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SemanticProperty",
           "package": "libcspm",
@@ -1965,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SemanticProperty",
           "package": "libcspm",
@@ -1978,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Stmt",
           "package": "libcspm",
@@ -1986,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Stmt",
           "package": "libcspm",
@@ -1999,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCAssertion",
           "package": "libcspm",
@@ -2007,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCAssertion",
           "package": "libcspm",
@@ -2020,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCCSPMFile",
           "package": "libcspm",
@@ -2028,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCCSPMFile",
           "package": "libcspm",
@@ -2041,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCDataTypeClause",
           "package": "libcspm",
@@ -2049,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCDataTypeClause",
           "package": "libcspm",
@@ -2062,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCDecl",
           "package": "libcspm",
@@ -2070,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCDecl",
           "package": "libcspm",
@@ -2083,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCExp",
           "package": "libcspm",
@@ -2091,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCExp",
           "package": "libcspm",
@@ -2104,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCField",
           "package": "libcspm",
@@ -2112,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCField",
           "package": "libcspm",
@@ -2125,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCInteractiveStmt",
           "package": "libcspm",
@@ -2133,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCInteractiveStmt",
           "package": "libcspm",
@@ -2146,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCMatch",
           "package": "libcspm",
@@ -2154,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCMatch",
           "package": "libcspm",
@@ -2167,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCPat",
           "package": "libcspm",
@@ -2175,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCPat",
           "package": "libcspm",
@@ -2188,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCSType",
           "package": "libcspm",
@@ -2196,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCSType",
           "package": "libcspm",
@@ -2209,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCSTypeConstraint",
           "package": "libcspm",
@@ -2217,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCSTypeConstraint",
           "package": "libcspm",
@@ -2230,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCSTypeScheme",
           "package": "libcspm",
@@ -2238,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCSTypeScheme",
           "package": "libcspm",
@@ -2251,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCStmt",
           "package": "libcspm",
@@ -2259,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TCStmt",
           "package": "libcspm",
@@ -2272,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "UnaryBooleanOp",
           "package": "libcspm",
@@ -2280,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "UnaryBooleanOp",
           "package": "libcspm",
@@ -2293,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "UnaryMathsOp",
           "package": "libcspm",
@@ -2301,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "UnaryMathsOp",
           "package": "libcspm",
@@ -2315,6 +2523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe negation of an assertion, not currently supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ASNot",
           "package": "libcspm",
@@ -2325,6 +2534,7 @@
         "index": {
           "description": "The negation of an assertion not currently supported",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ASNot",
           "package": "libcspm",
@@ -2339,6 +2549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlphabetised parallel, e.g. \u003ccode\u003eP [A || B] Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AlphaParallel",
           "package": "libcspm",
@@ -2349,6 +2560,7 @@
         "index": {
           "description": "Alphabetised parallel e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "AlphaParallel",
           "package": "libcspm",
@@ -2362,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "And",
           "package": "libcspm",
@@ -2371,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "And",
           "package": "libcspm",
@@ -2385,6 +2599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "App",
           "package": "libcspm",
@@ -2395,6 +2610,7 @@
         "index": {
           "description": "Function application",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "App",
           "package": "libcspm",
@@ -2409,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn assertion in a file, e.g. \u003ccode\u003eassert P [T= Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Assert",
           "package": "libcspm",
@@ -2419,6 +2636,7 @@
         "index": {
           "description": "An assertion in file e.g assert",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Assert",
           "package": "libcspm",
@@ -2432,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Bind",
           "package": "libcspm",
@@ -2441,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Bind",
           "normalized": "Bind[AnDecl a]",
@@ -2457,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of a binary boolean operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "BooleanBinaryOp",
           "package": "libcspm",
@@ -2467,6 +2688,7 @@
         "index": {
           "description": "Application of binary boolean operator",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "BooleanBinaryOp",
           "package": "libcspm",
@@ -2481,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of a unary boolean operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "BooleanUnaryOp",
           "package": "libcspm",
@@ -2491,6 +2714,7 @@
         "index": {
           "description": "Application of unary boolean operator",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "BooleanUnaryOp",
           "package": "libcspm",
@@ -2504,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "CSPMFile",
           "package": "libcspm",
@@ -2513,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "CSPMFile",
           "normalized": "CSPMFile[AnDecl a]",
@@ -2529,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA channel declaration, e.g. \u003ccode\u003echannel c, d : {0..1}.{0..1}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Channel",
           "package": "libcspm",
@@ -2539,6 +2766,7 @@
         "index": {
           "description": "channel declaration e.g channel",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Channel",
           "normalized": "Channel[a](Maybe(AnExp a))",
@@ -2555,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation, e.g. \u003ccode\u003ex^y\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Concat",
           "package": "libcspm",
@@ -2565,6 +2794,7 @@
         "index": {
           "description": "List concatenation e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Concat",
           "package": "libcspm",
@@ -2579,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype declaration, e.g. \u003ccode\u003edatatype T = Clause1 | Clause2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DataType",
           "package": "libcspm",
@@ -2589,6 +2820,7 @@
         "index": {
           "description": "datatype declaration e.g datatype Clause1 Clause2",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DataType",
           "normalized": "DataType a[AnDataTypeClause a]",
@@ -2604,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DataTypeClause",
           "package": "libcspm",
@@ -2613,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DataTypeClause",
           "package": "libcspm",
@@ -2626,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DeadlockFreedom",
           "package": "libcspm",
@@ -2635,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DeadlockFreedom",
           "package": "libcspm",
@@ -2648,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Deterministic",
           "package": "libcspm",
@@ -2657,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Deterministic",
           "package": "libcspm",
@@ -2670,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Divide",
           "package": "libcspm",
@@ -2679,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Divide",
           "package": "libcspm",
@@ -2693,6 +2933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot operator application, e.g. \u003ccode\u003ec.x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DotApp",
           "package": "libcspm",
@@ -2703,6 +2944,7 @@
         "index": {
           "description": "Dot operator application e.g c.x",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "DotApp",
           "package": "libcspm",
@@ -2716,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Equals",
           "package": "libcspm",
@@ -2725,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Equals",
           "package": "libcspm",
@@ -2738,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Evaluate",
           "package": "libcspm",
@@ -2747,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Evaluate",
           "package": "libcspm",
@@ -2761,6 +3007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException operator, e.g. \u003ccode\u003eP [| A |\u003e Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Exception",
           "package": "libcspm",
@@ -2771,6 +3018,7 @@
         "index": {
           "description": "Exception operator e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Exception",
           "package": "libcspm",
@@ -2785,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed only for parsing - never appears in an AST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ExpPatDoublePattern",
           "package": "libcspm",
@@ -2795,6 +3044,7 @@
         "index": {
           "description": "Used only for parsing never appears in an AST",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ExpPatDoublePattern",
           "package": "libcspm",
@@ -2809,6 +3059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed only for parsing - never appears in an AST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ExpPatWildCard",
           "package": "libcspm",
@@ -2819,6 +3070,7 @@
         "index": {
           "description": "Used only for parsing never appears in an AST",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ExpPatWildCard",
           "package": "libcspm",
@@ -2833,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn import of an external function, e.g. \u003ccode\u003eexternal test\u003c/code\u003e,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "External",
           "package": "libcspm",
@@ -2843,6 +3096,7 @@
         "index": {
           "description": "An import of an external function e.g external test",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "External",
           "package": "libcspm",
@@ -2857,6 +3111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal choice, e.g. \u003ccode\u003eP [] Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ExternalChoice",
           "package": "libcspm",
@@ -2867,6 +3122,7 @@
         "index": {
           "description": "External choice e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ExternalChoice",
           "package": "libcspm",
@@ -2927,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function binding, e.g. \u003ccode\u003efunc(x,y)(z) = 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "FunBind",
           "package": "libcspm",
@@ -2937,6 +3194,7 @@
         "index": {
           "description": "function binding e.g func",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "FunBind",
           "normalized": "FunBind a[AnMatch a](Maybe(AnSTypeScheme a))",
@@ -2953,6 +3211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralised parallel, e.g. \u003ccode\u003eP [| A |] Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "GenParallel",
           "package": "libcspm",
@@ -2963,6 +3222,7 @@
         "index": {
           "description": "Generalised parallel e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "GenParallel",
           "package": "libcspm",
@@ -2976,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Generator",
           "package": "libcspm",
@@ -2985,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Generator",
           "package": "libcspm",
@@ -2998,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "GreaterThan",
           "package": "libcspm",
@@ -3007,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "GreaterThan",
           "package": "libcspm",
@@ -3020,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "GreaterThanEq",
           "package": "libcspm",
@@ -3029,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "GreaterThanEq",
           "package": "libcspm",
@@ -3043,6 +3309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuarded expressions, e.g. \u003ccode\u003eb & P\u003c/code\u003e where \u003ccode\u003eb\u003c/code\u003e is a boolean expression.\n This is equivalent to \u003ccode\u003eif b then P else STOP\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "GuardedExp",
           "package": "libcspm",
@@ -3053,6 +3320,7 @@
         "index": {
           "description": "Guarded expressions e.g where is boolean expression This is equivalent to if then else STOP",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "GuardedExp",
           "package": "libcspm",
@@ -3067,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHiding of events, e.g. \u003ccode\u003eP  A\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Hiding",
           "package": "libcspm",
@@ -3077,6 +3346,7 @@
         "index": {
           "description": "Hiding of events e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Hiding",
           "package": "libcspm",
@@ -3091,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf statements, e.g. \u003ccode\u003eif cond then e1 else e2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "If",
           "package": "libcspm",
@@ -3101,6 +3372,7 @@
         "index": {
           "description": "If statements e.g if cond then e1 else e2",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "If",
           "package": "libcspm",
@@ -3115,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e?x:A\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Input",
           "package": "libcspm",
@@ -3124,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Input",
           "package": "libcspm",
@@ -3138,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterleaving of processes, e.g. \u003ccode\u003eP ||| Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Interleave",
           "package": "libcspm",
@@ -3148,6 +3423,7 @@
         "index": {
           "description": "Interleaving of processes e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Interleave",
           "package": "libcspm",
@@ -3162,6 +3438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal choice, e.g. \u003ccode\u003eP |~| Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "InternalChoice",
           "package": "libcspm",
@@ -3172,6 +3449,7 @@
         "index": {
           "description": "Internal choice e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "InternalChoice",
           "package": "libcspm",
@@ -3186,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterrupt (where the left process is turned off once the right process\n performs an event), e.g. \u003ccode\u003eP / Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Interrupt",
           "package": "libcspm",
@@ -3196,6 +3475,7 @@
         "index": {
           "description": "Interrupt where the left process is turned off once the right process performs an event e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Interrupt",
           "package": "libcspm",
@@ -3210,6 +3490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLambda functions, e.g. \u003ccode\u003e(x,y) @ e(x,y)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Lambda",
           "package": "libcspm",
@@ -3220,6 +3501,7 @@
         "index": {
           "description": "Lambda functions e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Lambda",
           "package": "libcspm",
@@ -3233,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "LessThan",
           "package": "libcspm",
@@ -3242,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "LessThan",
           "package": "libcspm",
@@ -3255,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "LessThanEq",
           "package": "libcspm",
@@ -3264,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "LessThanEq",
           "package": "libcspm",
@@ -3278,6 +3564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet declarations, e.g. \u003ccode\u003elet func = e1 within e2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Let",
           "package": "libcspm",
@@ -3288,6 +3575,7 @@
         "index": {
           "description": "Let declarations e.g let func e1 within e2",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Let",
           "package": "libcspm",
@@ -3301,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "LinkParallel",
           "package": "libcspm",
@@ -3310,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "LinkParallel",
           "package": "libcspm",
@@ -3324,6 +3614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList literals, e.g. \u003ccode\u003e\u003ca\u003e1,2,3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "List",
           "package": "libcspm",
@@ -3334,6 +3625,7 @@
         "index": {
           "description": "List literals e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "List",
           "package": "libcspm",
@@ -3348,6 +3640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList comprehensions, e.g. \u003ccode\u003e\u003ca\u003e| (x,y) \u003c- e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListComp",
           "package": "libcspm",
@@ -3358,6 +3651,7 @@
         "index": {
           "description": "List comprehensions e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListComp",
           "package": "libcspm",
@@ -3372,6 +3666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinite list of integers from the given value, e.g. \u003ccode\u003e\u003ca\u003e1..\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListEnumFrom",
           "package": "libcspm",
@@ -3382,6 +3677,7 @@
         "index": {
           "description": "Infinite list of integers from the given value e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListEnumFrom",
           "package": "libcspm",
@@ -3396,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of integers from the given value, concatenating all adjacent\n lists, e.g. \u003ccode\u003e\u003ca\u003e| x \u003c- \u003c0\u003c/a\u003e\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListEnumFromComp",
           "package": "libcspm",
@@ -3406,6 +3703,7 @@
         "index": {
           "description": "List of integers from the given value concatenating all adjacent lists e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListEnumFromComp",
           "package": "libcspm",
@@ -3420,6 +3718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBounded list of integers between the given values, e.g. \u003ccode\u003e\u003ca\u003e1..3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListEnumFromTo",
           "package": "libcspm",
@@ -3430,6 +3729,7 @@
         "index": {
           "description": "Bounded list of integers between the given values e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListEnumFromTo",
           "package": "libcspm",
@@ -3444,6 +3744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of integers between the given values, concatenating all items into\n one list, e.g. \u003ccode\u003e\u003ca\u003e| (x,y) \u003c- \u003c(0,1)\u003c/a\u003e\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListEnumFromToComp",
           "package": "libcspm",
@@ -3454,6 +3755,7 @@
         "index": {
           "description": "List of integers between the given values concatenating all items into one list e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListEnumFromToComp",
           "package": "libcspm",
@@ -3468,6 +3770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of the list, e.g. \u003ccode\u003e#list\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListLength",
           "package": "libcspm",
@@ -3478,6 +3781,7 @@
         "index": {
           "description": "The length of the list e.g list",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ListLength",
           "package": "libcspm",
@@ -3492,6 +3796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiterals, e.g. \u003ccode\u003etrue\u003c/code\u003e or \u003ccode\u003e1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Lit",
           "package": "libcspm",
@@ -3502,6 +3807,7 @@
         "index": {
           "description": "Literals e.g true or",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Lit",
           "package": "libcspm",
@@ -3515,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "LivelockFreedom",
           "package": "libcspm",
@@ -3524,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "LivelockFreedom",
           "package": "libcspm",
@@ -3538,6 +3846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal map, e.g. \u003ccode\u003e(| 1 =\u003e 2 |)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Map",
           "package": "libcspm",
@@ -3548,6 +3857,7 @@
         "index": {
           "description": "literal map e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Map",
           "package": "libcspm",
@@ -3561,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Match",
           "package": "libcspm",
@@ -3570,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Match",
           "package": "libcspm",
@@ -3584,6 +3896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of binary maths operator, e.g. \u003ccode\u003ex+y\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "MathsBinaryOp",
           "package": "libcspm",
@@ -3594,6 +3907,7 @@
         "index": {
           "description": "Application of binary maths operator e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "MathsBinaryOp",
           "package": "libcspm",
@@ -3608,6 +3922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of unary maths operator, e.g. \u003ccode\u003e-x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "MathsUnaryOp",
           "package": "libcspm",
@@ -3618,6 +3933,7 @@
         "index": {
           "description": "Application of unary maths operator e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "MathsUnaryOp",
           "package": "libcspm",
@@ -3631,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Minus",
           "package": "libcspm",
@@ -3640,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Minus",
           "package": "libcspm",
@@ -3653,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Mod",
           "package": "libcspm",
@@ -3662,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Mod",
           "package": "libcspm",
@@ -3676,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module declaration, e.g. \u003ccode\u003emodule X(Y,Z) ... export ... endmodule\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Module",
           "package": "libcspm",
@@ -3686,6 +4007,7 @@
         "index": {
           "description": "module declaration e.g module export endmodule",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Module",
           "package": "libcspm",
@@ -3699,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ModuleInstance",
           "package": "libcspm",
@@ -3708,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ModuleInstance",
           "package": "libcspm",
@@ -3722,6 +4046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nametype declaration, e.g. \u003ccode\u003enametype T2 = T.T\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "NameType",
           "package": "libcspm",
@@ -3732,6 +4057,7 @@
         "index": {
           "description": "nametype declaration e.g nametype T2 T.T",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "NameType",
           "package": "libcspm",
@@ -3745,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Negate",
           "package": "libcspm",
@@ -3754,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Negate",
           "package": "libcspm",
@@ -3768,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$x:A\u003c/code\u003e (see P395 UCS)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "NonDetInput",
           "package": "libcspm",
@@ -3778,6 +4107,7 @@
         "index": {
           "description": "see P395 UCS",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "NonDetInput",
           "package": "libcspm",
@@ -3791,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Not",
           "package": "libcspm",
@@ -3800,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Not",
           "package": "libcspm",
@@ -3813,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "NotEquals",
           "package": "libcspm",
@@ -3822,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "NotEquals",
           "package": "libcspm",
@@ -3835,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Or",
           "package": "libcspm",
@@ -3844,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Or",
           "package": "libcspm",
@@ -3858,6 +4194,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e!x\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Output",
           "package": "libcspm",
@@ -3867,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Output",
           "package": "libcspm",
@@ -3881,6 +4219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike with a \u003ccode\u003e\u003ca\u003ePCompList\u003c/a\u003e\u003c/code\u003e we flatten nested dot patterns to make it\n easier to evaluate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PCompDot",
           "package": "libcspm",
@@ -3891,6 +4230,7 @@
         "index": {
           "description": "Like with PCompList we flatten nested dot patterns to make it easier to evaluate",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PCompDot",
           "package": "libcspm",
@@ -3905,6 +4245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince you can write list patterns such as:\n\u003c/p\u003e\u003cpre\u003e f(\u003cx,y\u003e^xs^\u003cz,p\u003e^\u003c9,0\u003e)\n f(\u003cx,y\u003e)\n f(xs^\u003cx,y\u003e)\n\u003c/pre\u003e\u003cp\u003ewe need an easy may of matching them. Thus, we compile\n the patterns to a \u003ccode\u003ePCompList\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ePCompList ps (Just (p, ps'))\u003c/code\u003e corresponds to a list\n where it starts with ps (where each p in ps matches exactly one\n list element, has a middle of p (which must be a variable pattern, \n or a wildcard) and and end matching exactly ps' (again, where each p\n in ps matches exactly one list component).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PCompList",
           "package": "libcspm",
@@ -3915,6 +4256,7 @@
         "index": {
           "description": "Since you can write list patterns such as xs xs we need an easy may of matching them Thus we compile the patterns to PCompList instead PCompList ps Just ps corresponds to list where it starts with ps where each in ps matches exactly one list element has middle of which must be variable pattern or wildcard and and end matching exactly ps again where each in ps matches exactly one list component",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PCompList",
           "package": "libcspm",
@@ -3929,6 +4271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe concatenation of two patterns, e.g. \u003ccode\u003ep1^p2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PConcat",
           "package": "libcspm",
@@ -3939,6 +4282,7 @@
         "index": {
           "description": "The concatenation of two patterns e.g p1 p2",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PConcat",
           "package": "libcspm",
@@ -3953,6 +4297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dot of two patterns, e.g. \u003ccode\u003ep1.p2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PDotApp",
           "package": "libcspm",
@@ -3963,6 +4308,7 @@
         "index": {
           "description": "The dot of two patterns e.g p1.p2",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PDotApp",
           "package": "libcspm",
@@ -3977,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA double pattern match, e.g. \u003ccode\u003ep1@@p2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PDoublePattern",
           "package": "libcspm",
@@ -3987,6 +4334,7 @@
         "index": {
           "description": "double pattern match e.g p1@@p2",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PDoublePattern",
           "package": "libcspm",
@@ -4001,6 +4349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal pattern list, e.g. \u003ccode\u003e\u003ca\u003ep1,p2,p3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PList",
           "package": "libcspm",
@@ -4011,6 +4360,7 @@
         "index": {
           "description": "literal pattern list e.g p1 p2 p3",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PList",
           "package": "libcspm",
@@ -4025,6 +4375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal pattern, e.g. \u003ccode\u003etrue\u003c/code\u003e, or \u003ccode\u003e0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PLit",
           "package": "libcspm",
@@ -4035,6 +4386,7 @@
         "index": {
           "description": "literal pattern e.g true or",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PLit",
           "package": "libcspm",
@@ -4049,6 +4401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user supplied parenthesis in a pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PParen",
           "package": "libcspm",
@@ -4059,6 +4412,7 @@
         "index": {
           "description": "user supplied parenthesis in pattern",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PParen",
           "package": "libcspm",
@@ -4073,6 +4427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set pattern. Only singleton patterns, or zero patterns are supported.\n This is checked by the desugarer. For example, \u003ccode\u003e{p1,p2}\u003c/code\u003e is not allowed,\n but \u003ccode\u003e{p1}\u003c/code\u003e and \u003ccode\u003e{}\u003c/code\u003e are allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PSet",
           "package": "libcspm",
@@ -4083,6 +4438,7 @@
         "index": {
           "description": "set pattern Only singleton patterns or zero patterns are supported This is checked by the desugarer For example p1 p2 is not allowed but p1 and are allowed",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PSet",
           "package": "libcspm",
@@ -4097,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple pattern, e.g. \u003ccode\u003e(p1,p2,p3)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PTuple",
           "package": "libcspm",
@@ -4107,6 +4464,7 @@
         "index": {
           "description": "tuple pattern e.g p1 p2 p3",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PTuple",
           "package": "libcspm",
@@ -4121,6 +4479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable pattern, e.g. \u003ccode\u003ex\u003c/code\u003e, or \u003ccode\u003eA\u003c/code\u003e where \u003ccode\u003eA\u003c/code\u003e is a datatype clause. \n If the variable is a datatype clause then it only matches that datatype\n tag, whereas for anything else it matches anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PVar",
           "package": "libcspm",
@@ -4131,6 +4490,7 @@
         "index": {
           "description": "variable pattern e.g or where is datatype clause If the variable is datatype clause then it only matches that datatype tag whereas for anything else it matches anything",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PVar",
           "package": "libcspm",
@@ -4145,6 +4505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches anything but does not bind it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PWildCard",
           "package": "libcspm",
@@ -4155,6 +4516,7 @@
         "index": {
           "description": "Matches anything but does not bind it",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PWildCard",
           "package": "libcspm",
@@ -4169,6 +4531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user provided bracket, e.g. \u003ccode\u003e(e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Paren",
           "package": "libcspm",
@@ -4179,6 +4542,7 @@
         "index": {
           "description": "user provided bracket e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Paren",
           "package": "libcspm",
@@ -4193,6 +4557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type annotation for the given names. This is only used inside the\n parser and never appears in outside ASTs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ParsedTypeAnnotation",
           "package": "libcspm",
@@ -4203,6 +4568,7 @@
         "index": {
           "description": "type annotation for the given names This is only used inside the parser and never appears in outside ASTs",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ParsedTypeAnnotation",
           "normalized": "ParsedTypeAnnotation[a](AnSTypeScheme a)",
@@ -4219,6 +4585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe binding of a pattern to an expression, e.g. \u003ccode\u003e(p,q) = e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PatBind",
           "package": "libcspm",
@@ -4229,6 +4596,7 @@
         "index": {
           "description": "The binding of pattern to an expression e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PatBind",
           "package": "libcspm",
@@ -4242,6 +4610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Plus",
           "package": "libcspm",
@@ -4251,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Plus",
           "package": "libcspm",
@@ -4265,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent prefixing, e.g. \u003ccode\u003ec$x?y!z -\u003e P\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Prefix",
           "package": "libcspm",
@@ -4275,6 +4646,7 @@
         "index": {
           "description": "Event prefixing e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Prefix",
           "package": "libcspm",
@@ -4289,6 +4661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA print statement, e.g. \u003ccode\u003eprint x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PrintStatement",
           "package": "libcspm",
@@ -4299,6 +4672,7 @@
         "index": {
           "description": "print statement e.g print",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PrintStatement",
           "package": "libcspm",
@@ -4313,6 +4687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA check of property, like deadlock freedom, e.g. \n \u003ccode\u003eassert P :[deadlock free [F]]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PropertyCheck",
           "package": "libcspm",
@@ -4323,6 +4698,7 @@
         "index": {
           "description": "check of property like deadlock freedom e.g assert deadlock free",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "PropertyCheck",
           "package": "libcspm",
@@ -4336,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Qualifier",
           "package": "libcspm",
@@ -4345,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Qualifier",
           "package": "libcspm",
@@ -4359,6 +4737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA refinement assertion, e.g. \u003ccode\u003eassert P [F= Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Refinement",
           "package": "libcspm",
@@ -4369,6 +4748,7 @@
         "index": {
           "description": "refinement assertion e.g assert",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Refinement",
           "package": "libcspm",
@@ -4429,6 +4809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent renaming, e.g. \u003ccode\u003eP [[ a.x \u003c- b.x | x \u003c- X ]]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Rename",
           "package": "libcspm",
@@ -4439,6 +4820,7 @@
         "index": {
           "description": "Event renaming e.g a.x b.x",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Rename",
           "package": "libcspm",
@@ -4453,6 +4835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated alphabetised parallel, e.g. \u003ccode\u003e|| x : X @ [| A(x) |] P(x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedAlphaParallel",
           "package": "libcspm",
@@ -4463,6 +4846,7 @@
         "index": {
           "description": "Replicated alphabetised parallel e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedAlphaParallel",
           "package": "libcspm",
@@ -4477,6 +4861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated external choice, e.g. \u003ccode\u003e[] x : X @ P(x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedExternalChoice",
           "package": "libcspm",
@@ -4487,6 +4872,7 @@
         "index": {
           "description": "Replicated external choice e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedExternalChoice",
           "package": "libcspm",
@@ -4501,6 +4887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated interleave, e.g. \u003ccode\u003e||| x : X @ P(x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedInterleave",
           "package": "libcspm",
@@ -4511,6 +4898,7 @@
         "index": {
           "description": "Replicated interleave e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedInterleave",
           "package": "libcspm",
@@ -4525,6 +4913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated internal choice, e.g. \u003ccode\u003e|~| x : X @ P(x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedInternalChoice",
           "package": "libcspm",
@@ -4535,6 +4924,7 @@
         "index": {
           "description": "Replicated internal choice e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedInternalChoice",
           "package": "libcspm",
@@ -4549,6 +4939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated link parallel, e.g. \n \u003ccode\u003e[a.x \u003c- b.x | x \u003c- X(y)] y : Y @ P(y)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedLinkParallel",
           "package": "libcspm",
@@ -4559,6 +4950,7 @@
         "index": {
           "description": "Replicated link parallel e.g a.x b.x",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedLinkParallel",
           "package": "libcspm",
@@ -4573,6 +4965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated parallel, e.g. \u003ccode\u003e[| A |] x : X @ P(x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedParallel",
           "package": "libcspm",
@@ -4583,6 +4976,7 @@
         "index": {
           "description": "Replicated parallel e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedParallel",
           "package": "libcspm",
@@ -4597,6 +4991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated sequential choice, e.g. \u003ccode\u003e; x : \u003ca\u003e0,1\u003c/a\u003e @ P(x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedSequentialComp",
           "package": "libcspm",
@@ -4607,6 +5002,7 @@
         "index": {
           "description": "Replicated sequential choice e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedSequentialComp",
           "package": "libcspm",
@@ -4621,6 +5017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated synchronising external choice, e.g. \u003ccode\u003e[+ A +] x : X @ P(x)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedSynchronisingExternalChoice",
           "package": "libcspm",
@@ -4631,6 +5028,7 @@
         "index": {
           "description": "Replicated synchronising external choice e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ReplicatedSynchronisingExternalChoice",
           "package": "libcspm",
@@ -4690,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "RunAssertion",
           "package": "libcspm",
@@ -4699,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "RunAssertion",
           "package": "libcspm",
@@ -4712,6 +5112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STBool",
           "package": "libcspm",
@@ -4721,6 +5122,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STBool",
           "package": "libcspm",
@@ -4734,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STChar",
           "package": "libcspm",
@@ -4743,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STChar",
           "package": "libcspm",
@@ -4756,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STDatatype",
           "package": "libcspm",
@@ -4765,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STDatatype",
           "package": "libcspm",
@@ -4778,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STDot",
           "package": "libcspm",
@@ -4787,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STDot",
           "package": "libcspm",
@@ -4800,6 +5208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STDotable",
           "package": "libcspm",
@@ -4809,6 +5218,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STDotable",
           "package": "libcspm",
@@ -4822,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STEvent",
           "package": "libcspm",
@@ -4831,6 +5242,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STEvent",
           "package": "libcspm",
@@ -4844,6 +5256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STExtendable",
           "package": "libcspm",
@@ -4853,6 +5266,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STExtendable",
           "package": "libcspm",
@@ -4866,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STFunction",
           "package": "libcspm",
@@ -4875,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STFunction",
           "normalized": "STFunction[AnSType a](AnSType a)",
@@ -4890,6 +5306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STInt",
           "package": "libcspm",
@@ -4899,6 +5316,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STInt",
           "package": "libcspm",
@@ -4912,6 +5330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STMap",
           "package": "libcspm",
@@ -4921,6 +5340,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STMap",
           "package": "libcspm",
@@ -4934,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STParen",
           "package": "libcspm",
@@ -4943,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STParen",
           "package": "libcspm",
@@ -4956,6 +5378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STProc",
           "package": "libcspm",
@@ -4965,6 +5388,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STProc",
           "package": "libcspm",
@@ -4978,6 +5402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STSeq",
           "package": "libcspm",
@@ -4987,6 +5412,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STSeq",
           "package": "libcspm",
@@ -5000,6 +5426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STSet",
           "package": "libcspm",
@@ -5009,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STSet",
           "package": "libcspm",
@@ -5022,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STTuple",
           "package": "libcspm",
@@ -5031,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STTuple",
           "normalized": "STTuple[AnSType a]",
@@ -5046,6 +5476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STVar",
           "package": "libcspm",
@@ -5055,6 +5486,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STVar",
           "package": "libcspm",
@@ -5068,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STypeConstraint",
           "package": "libcspm",
@@ -5077,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STypeConstraint",
           "package": "libcspm",
@@ -5090,6 +5524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STypeScheme",
           "package": "libcspm",
@@ -5099,6 +5534,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "STypeScheme",
           "package": "libcspm",
@@ -5113,6 +5549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential composition, e.g. \u003ccode\u003eP; Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SequentialComp",
           "package": "libcspm",
@@ -5123,6 +5560,7 @@
         "index": {
           "description": "Sequential composition e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SequentialComp",
           "package": "libcspm",
@@ -5137,6 +5575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet literals, e.g. \u003ccode\u003e{1,2,3}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Set",
           "package": "libcspm",
@@ -5147,6 +5586,7 @@
         "index": {
           "description": "Set literals e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Set",
           "package": "libcspm",
@@ -5161,6 +5601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet comprehensions, e.g. \u003ccode\u003e{x,y | (x,y) \u003c- e}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetComp",
           "package": "libcspm",
@@ -5171,6 +5612,7 @@
         "index": {
           "description": "Set comprehensions e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetComp",
           "package": "libcspm",
@@ -5185,6 +5627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerated Sets, i.e. sets that complete the events, e.g. \u003ccode\u003e{| c.x |}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnum",
           "package": "libcspm",
@@ -5195,6 +5638,7 @@
         "index": {
           "description": "Enumerated Sets i.e sets that complete the events e.g c.x",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnum",
           "package": "libcspm",
@@ -5209,6 +5653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet comprehension version of \u003ccode\u003e\u003ca\u003eSetEnum\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e{| c.x | x \u003c- xs |}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumComp",
           "package": "libcspm",
@@ -5219,6 +5664,7 @@
         "index": {
           "description": "Set comprehension version of SetEnum e.g c.x xs",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumComp",
           "package": "libcspm",
@@ -5233,6 +5679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe infinite set of integers from the given value, e.g. \u003ccode\u003e{5..}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumFrom",
           "package": "libcspm",
@@ -5243,6 +5690,7 @@
         "index": {
           "description": "The infinite set of integers from the given value e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumFrom",
           "package": "libcspm",
@@ -5257,6 +5705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of integers from the given value, concatenating all adjacent\n sets, e.g. \u003ccode\u003e{x.. | x \u003c- {0}}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumFromComp",
           "package": "libcspm",
@@ -5267,6 +5716,7 @@
         "index": {
           "description": "Set of integers from the given value concatenating all adjacent sets e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumFromComp",
           "package": "libcspm",
@@ -5281,6 +5731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bounded set of integers between the two given values, e.g. \n \u003ccode\u003e{5..6}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumFromTo",
           "package": "libcspm",
@@ -5291,6 +5742,7 @@
         "index": {
           "description": "The bounded set of integers between the two given values e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumFromTo",
           "package": "libcspm",
@@ -5305,6 +5757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of integers between the given values, concatenating all items into\n one set, e.g. \u003ccode\u003e{x..y | (x,y) \u003c- {(0,1)}}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumFromToComp",
           "package": "libcspm",
@@ -5315,6 +5768,7 @@
         "index": {
           "description": "Set of integers between the given values concatenating all items into one set e.g x..y",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SetEnumFromToComp",
           "package": "libcspm",
@@ -5329,6 +5783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSliding choice, e.g. \u003ccode\u003eP |\u003e Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SlidingChoice",
           "package": "libcspm",
@@ -5339,6 +5794,7 @@
         "index": {
           "description": "Sliding choice e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SlidingChoice",
           "package": "libcspm",
@@ -5353,6 +5809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subtype declaration, e.g. \u003ccode\u003esubtype T = Clause1 | Clause2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SubType",
           "package": "libcspm",
@@ -5363,6 +5820,7 @@
         "index": {
           "description": "subtype declaration e.g subtype Clause1 Clause2",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SubType",
           "normalized": "SubType a[AnDataTypeClause a]",
@@ -5379,6 +5837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronising external choice, e.g. \u003ccode\u003eP [+A+] Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SynchronisingExternalChoice",
           "package": "libcspm",
@@ -5389,6 +5848,7 @@
         "index": {
           "description": "Synchronising external choice e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SynchronisingExternalChoice",
           "package": "libcspm",
@@ -5403,6 +5863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronising interrupt, e.g. \u003ccode\u003eP /+A+ Q\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SynchronisingInterrupt",
           "package": "libcspm",
@@ -5413,6 +5874,7 @@
         "index": {
           "description": "Synchronising interrupt e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "SynchronisingInterrupt",
           "package": "libcspm",
@@ -5426,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TauPriority",
           "package": "libcspm",
@@ -5435,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TauPriority",
           "package": "libcspm",
@@ -5449,6 +5913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA timed prefix - only appears after desugaring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TimedPrefix",
           "package": "libcspm",
@@ -5459,6 +5924,7 @@
         "index": {
           "description": "timed prefix only appears after desugaring",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TimedPrefix",
           "package": "libcspm",
@@ -5473,6 +5939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA timed section, e.g. \u003ccode\u003eTimed(f) { P = a -\u003e b -\u003e P }\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TimedSection",
           "package": "libcspm",
@@ -5483,6 +5950,7 @@
         "index": {
           "description": "timed section e.g Timed",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "TimedSection",
           "package": "libcspm",
@@ -5496,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Times",
           "package": "libcspm",
@@ -5505,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Times",
           "package": "libcspm",
@@ -5542,6 +6012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn import of a transparent function, e.g. \u003ccode\u003etransparent normal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Transparent",
           "package": "libcspm",
@@ -5552,6 +6023,7 @@
         "index": {
           "description": "An import of transparent function e.g transparent normal",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Transparent",
           "package": "libcspm",
@@ -5566,6 +6038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuples, e.g. \u003ccode\u003e(1,2)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Tuple",
           "package": "libcspm",
@@ -5576,6 +6049,7 @@
         "index": {
           "description": "Tuples e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Tuple",
           "package": "libcspm",
@@ -5590,6 +6064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables, e.g. \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Var",
           "package": "libcspm",
@@ -5600,6 +6075,7 @@
         "index": {
           "description": "Variables e.g",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "Var",
           "package": "libcspm",
@@ -5613,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "allAssertionsInFile",
           "package": "libcspm",
@@ -5622,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "allAssertionsInFile",
           "normalized": "AnCSPMFile a-\u003e[AnAssertion a]",
@@ -5637,6 +6115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "allPrintStatementsInFile",
           "package": "libcspm",
@@ -5646,6 +6125,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "allPrintStatementsInFile",
           "normalized": "AnCSPMFile a-\u003e[Located String]",
@@ -5662,6 +6142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlphabet of process 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "alphaParAlphabetLeftProcess",
           "package": "libcspm",
@@ -5672,6 +6153,7 @@
         "index": {
           "description": "Alphabet of process",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "alphaParAlphabetLeftProcess",
           "package": "libcspm",
@@ -5686,6 +6168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlphabet of process 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "alphaParAlphabetRightProcess",
           "package": "libcspm",
@@ -5696,6 +6179,7 @@
         "index": {
           "description": "Alphabet of process",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "alphaParAlphabetRightProcess",
           "package": "libcspm",
@@ -5710,6 +6194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "alphaParLeftProcess",
           "package": "libcspm",
@@ -5720,6 +6205,7 @@
         "index": {
           "description": "Process",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "alphaParLeftProcess",
           "package": "libcspm",
@@ -5734,6 +6220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "alphaParRightProcess",
           "package": "libcspm",
@@ -5744,6 +6231,7 @@
         "index": {
           "description": "Process",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "alphaParRightProcess",
           "package": "libcspm",
@@ -5758,6 +6246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments applied to the function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "appArguments",
           "package": "libcspm",
@@ -5768,6 +6257,7 @@
         "index": {
           "description": "The arguments applied to the function",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "appArguments",
           "normalized": "[AnExp a]",
@@ -5784,6 +6274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "appFunction",
           "package": "libcspm",
@@ -5794,6 +6285,7 @@
         "index": {
           "description": "The function",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "appFunction",
           "package": "libcspm",
@@ -5807,6 +6299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "booleanBinaryOpLeftExpression",
           "package": "libcspm",
@@ -5816,6 +6309,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "booleanBinaryOpLeftExpression",
           "package": "libcspm",
@@ -5829,6 +6323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "booleanBinaryOpOperator",
           "package": "libcspm",
@@ -5838,6 +6333,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "booleanBinaryOpOperator",
           "package": "libcspm",
@@ -5851,6 +6347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "booleanBinaryOpRightExpression",
           "package": "libcspm",
@@ -5860,6 +6357,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "booleanBinaryOpRightExpression",
           "package": "libcspm",
@@ -5873,6 +6371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "concatLeftList",
           "package": "libcspm",
@@ -5882,6 +6381,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "concatLeftList",
           "package": "libcspm",
@@ -5895,6 +6395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "concatRightList",
           "package": "libcspm",
@@ -5904,6 +6405,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "concatRightList",
           "package": "libcspm",
@@ -5918,6 +6420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the datatype clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "dataTypeClauseName",
           "package": "libcspm",
@@ -5928,6 +6431,7 @@
         "index": {
           "description": "The name of the datatype clause",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "dataTypeClauseName",
           "package": "libcspm",
@@ -5942,6 +6446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression that gives the set of values that can be dotted\n with this clause. For example, in the above example the datatype\n clause for A would have \u003ca\u003eInt.Bool\u003c/a\u003e as its type expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "dataTypeClauseTypeExpression",
           "package": "libcspm",
@@ -5952,6 +6457,7 @@
         "index": {
           "description": "The expression that gives the set of values that can be dotted with this clause For example in the above example the datatype clause for would have Int.Bool as its type expression",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "dataTypeClauseTypeExpression",
           "package": "libcspm",
@@ -5965,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "dotAppLeftArgument",
           "package": "libcspm",
@@ -5974,6 +6481,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "dotAppLeftArgument",
           "package": "libcspm",
@@ -5987,6 +6495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "dotAppRighArgument",
           "package": "libcspm",
@@ -5996,6 +6505,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "dotAppRighArgument",
           "package": "libcspm",
@@ -6009,6 +6519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "exceptionAlphabet",
           "package": "libcspm",
@@ -6018,6 +6529,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "exceptionAlphabet",
           "package": "libcspm",
@@ -6031,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "exceptionLeftProcess",
           "package": "libcspm",
@@ -6040,6 +6553,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "exceptionLeftProcess",
           "package": "libcspm",
@@ -6053,6 +6567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "exceptionRightProcess",
           "package": "libcspm",
@@ -6062,6 +6577,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "exceptionRightProcess",
           "package": "libcspm",
@@ -6075,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "extChoiceLeftProcess",
           "package": "libcspm",
@@ -6084,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "extChoiceLeftProcess",
           "package": "libcspm",
@@ -6097,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "extChoiceRightOperator",
           "package": "libcspm",
@@ -6106,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "extChoiceRightOperator",
           "package": "libcspm",
@@ -6119,6 +6639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "externalImportedNames",
           "package": "libcspm",
@@ -6128,6 +6649,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "externalImportedNames",
           "normalized": "[a]",
@@ -6143,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "genParallelAlphabet",
           "package": "libcspm",
@@ -6152,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "genParallelAlphabet",
           "package": "libcspm",
@@ -6165,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "genParallelLeftProcess",
           "package": "libcspm",
@@ -6174,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "genParallelLeftProcess",
           "package": "libcspm",
@@ -6187,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "genParallelRightProcess",
           "package": "libcspm",
@@ -6196,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "genParallelRightProcess",
           "package": "libcspm",
@@ -6209,6 +6737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "getSymbolTable",
           "package": "libcspm",
@@ -6218,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "getSymbolTable",
           "normalized": "Annotated(Maybe SymbolTable,PSymbolTable)a-\u003eSymbolTable",
@@ -6233,6 +6763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "getType",
           "package": "libcspm",
@@ -6242,6 +6773,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "getType",
           "normalized": "Annotated(Maybe Type,PType)a-\u003eType",
@@ -6257,6 +6789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "guardedExpCondition",
           "package": "libcspm",
@@ -6266,6 +6799,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "guardedExpCondition",
           "package": "libcspm",
@@ -6279,6 +6813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "guardedExpProcess",
           "package": "libcspm",
@@ -6288,6 +6823,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "guardedExpProcess",
           "package": "libcspm",
@@ -6302,6 +6838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of events to be hidden.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "hidingAlphabet",
           "package": "libcspm",
@@ -6312,6 +6849,7 @@
         "index": {
           "description": "The set of events to be hidden",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "hidingAlphabet",
           "package": "libcspm",
@@ -6326,6 +6864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe process the hiding is applied to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "hidingProcess",
           "package": "libcspm",
@@ -6336,6 +6875,7 @@
         "index": {
           "description": "The process the hiding is applied to",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "hidingProcess",
           "package": "libcspm",
@@ -6350,6 +6890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe condition of the if.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ifCondition",
           "package": "libcspm",
@@ -6360,6 +6901,7 @@
         "index": {
           "description": "The condition of the if",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ifCondition",
           "package": "libcspm",
@@ -6373,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ifElseBranch",
           "package": "libcspm",
@@ -6382,6 +6925,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ifElseBranch",
           "package": "libcspm",
@@ -6396,6 +6940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe then branch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ifThenBranch",
           "package": "libcspm",
@@ -6406,6 +6951,7 @@
         "index": {
           "description": "The then branch",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "ifThenBranch",
           "package": "libcspm",
@@ -6419,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "intChoiceLeftProcess",
           "package": "libcspm",
@@ -6428,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "intChoiceLeftProcess",
           "package": "libcspm",
@@ -6441,6 +6989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "intChoiceRightProcess",
           "package": "libcspm",
@@ -6450,6 +6999,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "intChoiceRightProcess",
           "package": "libcspm",
@@ -6463,6 +7013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "interleaveLeftProcess",
           "package": "libcspm",
@@ -6472,6 +7023,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "interleaveLeftProcess",
           "package": "libcspm",
@@ -6485,6 +7037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "interleaveRightProcess",
           "package": "libcspm",
@@ -6494,6 +7047,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "interleaveRightProcess",
           "package": "libcspm",
@@ -6507,6 +7061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "interruptLeftProcess",
           "package": "libcspm",
@@ -6516,6 +7071,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "interruptLeftProcess",
           "package": "libcspm",
@@ -6529,6 +7085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "interruptRightProcess",
           "package": "libcspm",
@@ -6538,6 +7095,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "interruptRightProcess",
           "package": "libcspm",
@@ -6551,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "lambdaBindingPatterns",
           "package": "libcspm",
@@ -6560,6 +7119,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "lambdaBindingPatterns",
           "normalized": "[AnPat a]",
@@ -6575,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "lambdaRightHandSide",
           "package": "libcspm",
@@ -6584,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "lambdaRightHandSide",
           "package": "libcspm",
@@ -6597,6 +7159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "letDeclarations",
           "package": "libcspm",
@@ -6606,6 +7169,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "letDeclarations",
           "normalized": "[AnDecl a]",
@@ -6621,6 +7185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "letExpression",
           "package": "libcspm",
@@ -6630,6 +7195,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "letExpression",
           "package": "libcspm",
@@ -6643,6 +7209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "linkParLeftProcess",
           "package": "libcspm",
@@ -6652,6 +7219,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "linkParLeftProcess",
           "package": "libcspm",
@@ -6665,6 +7233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "linkParRightProcess",
           "package": "libcspm",
@@ -6674,6 +7243,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "linkParRightProcess",
           "package": "libcspm",
@@ -6687,6 +7257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "linkParTieStatements",
           "package": "libcspm",
@@ -6696,6 +7267,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "linkParTieStatements",
           "normalized": "[AnStmt a]",
@@ -6711,6 +7283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "linkParTiedEvents",
           "package": "libcspm",
@@ -6720,6 +7293,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "linkParTiedEvents",
           "normalized": "[(AnExp a,AnExp a)]",
@@ -6735,6 +7309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listCompItems",
           "package": "libcspm",
@@ -6744,6 +7319,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listCompItems",
           "normalized": "[AnExp a]",
@@ -6759,6 +7335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listCompStatements",
           "package": "libcspm",
@@ -6768,6 +7345,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listCompStatements",
           "normalized": "[AnStmt a]",
@@ -6783,6 +7361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromCompLowerBound",
           "package": "libcspm",
@@ -6792,6 +7371,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromCompLowerBound",
           "package": "libcspm",
@@ -6805,6 +7385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromCompStatements",
           "package": "libcspm",
@@ -6814,6 +7395,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromCompStatements",
           "normalized": "[AnStmt a]",
@@ -6829,6 +7411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromLowerBound",
           "package": "libcspm",
@@ -6838,6 +7421,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromLowerBound",
           "package": "libcspm",
@@ -6851,6 +7435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToCompLowerBound",
           "package": "libcspm",
@@ -6860,6 +7445,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToCompLowerBound",
           "package": "libcspm",
@@ -6873,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToCompStatements",
           "package": "libcspm",
@@ -6882,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToCompStatements",
           "normalized": "[AnStmt a]",
@@ -6897,6 +7485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToCompUpperBound",
           "package": "libcspm",
@@ -6906,6 +7495,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToCompUpperBound",
           "package": "libcspm",
@@ -6919,6 +7509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToLowerBound",
           "package": "libcspm",
@@ -6928,6 +7519,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToLowerBound",
           "package": "libcspm",
@@ -6941,6 +7533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToUpperBound",
           "package": "libcspm",
@@ -6950,6 +7543,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listEnumFromToUpperBound",
           "package": "libcspm",
@@ -6963,6 +7557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listItems",
           "package": "libcspm",
@@ -6972,6 +7567,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listItems",
           "normalized": "[AnExp a]",
@@ -6987,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listLengthExpression",
           "package": "libcspm",
@@ -6996,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "listLengthExpression",
           "package": "libcspm",
@@ -7009,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "litLiteral",
           "package": "libcspm",
@@ -7018,6 +7617,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "litLiteral",
           "package": "libcspm",
@@ -7031,6 +7631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mapKeyValuePairs",
           "package": "libcspm",
@@ -7040,6 +7641,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mapKeyValuePairs",
           "normalized": "[(AnExp a,AnExp a)]",
@@ -7056,6 +7658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe patterns that need to be matched. This is a list of lists as\n functions may be curried, like \u003ccode\u003ef(x,y)(z) = ...\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "matchPatterns",
           "package": "libcspm",
@@ -7066,6 +7669,7 @@
         "index": {
           "description": "The patterns that need to be matched This is list of lists as functions may be curried like",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "matchPatterns",
           "normalized": "[[AnPat a]]",
@@ -7082,6 +7686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression to be evaluated if the match succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "matchRightHandSide",
           "package": "libcspm",
@@ -7092,6 +7697,7 @@
         "index": {
           "description": "The expression to be evaluated if the match succeeds",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "matchRightHandSide",
           "package": "libcspm",
@@ -7105,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsBinaryOpLeftExpression",
           "package": "libcspm",
@@ -7114,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsBinaryOpLeftExpression",
           "package": "libcspm",
@@ -7127,6 +7735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsBinaryOpOperator",
           "package": "libcspm",
@@ -7136,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsBinaryOpOperator",
           "package": "libcspm",
@@ -7149,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsBinaryOpRightExpression",
           "package": "libcspm",
@@ -7158,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsBinaryOpRightExpression",
           "package": "libcspm",
@@ -7171,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsUnaryOpExpression",
           "package": "libcspm",
@@ -7180,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsUnaryOpExpression",
           "package": "libcspm",
@@ -7193,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsUnaryOpOperator",
           "package": "libcspm",
@@ -7202,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "mathsUnaryOpOperator",
           "package": "libcspm",
@@ -7215,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleArguments",
           "package": "libcspm",
@@ -7224,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleArguments",
           "normalized": "[AnPat a]",
@@ -7239,6 +7857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleExportedDeclarations",
           "package": "libcspm",
@@ -7248,6 +7867,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleExportedDeclarations",
           "normalized": "[AnDecl a]",
@@ -7264,6 +7884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the module instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceName",
           "package": "libcspm",
@@ -7274,6 +7895,7 @@
         "index": {
           "description": "The name of the module instance",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceName",
           "package": "libcspm",
@@ -7288,6 +7910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap from name of this module to name of inner module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceNameMap",
           "package": "libcspm",
@@ -7298,6 +7921,7 @@
         "index": {
           "description": "Map from name of this module to name of inner module",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceNameMap",
           "normalized": "[(a,a)]",
@@ -7314,6 +7938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the module this is an instance of.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceOf",
           "package": "libcspm",
@@ -7324,6 +7949,7 @@
         "index": {
           "description": "The name of the module this is an instance of",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceOf",
           "package": "libcspm",
@@ -7338,6 +7964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments of the module that this is an instance of.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceOfArguments",
           "package": "libcspm",
@@ -7348,6 +7975,7 @@
         "index": {
           "description": "The arguments of the module that this is an instance of",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceOfArguments",
           "normalized": "[AnExp a]",
@@ -7364,6 +7992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe module that this is an instance of\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceOfDeclaration",
           "package": "libcspm",
@@ -7374,6 +8003,7 @@
         "index": {
           "description": "The module that this is an instance of",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleInstanceOfDeclaration",
           "package": "libcspm",
@@ -7387,6 +8017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleName",
           "package": "libcspm",
@@ -7396,6 +8027,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "moduleName",
           "package": "libcspm",
@@ -7409,6 +8041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "modulePrivateDeclarations",
           "package": "libcspm",
@@ -7418,6 +8051,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "modulePrivateDeclarations",
           "normalized": "[AnDecl a]",
@@ -7433,6 +8067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pConcatLeftPat",
           "package": "libcspm",
@@ -7442,6 +8077,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pConcatLeftPat",
           "package": "libcspm",
@@ -7455,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pConcatRightPat",
           "package": "libcspm",
@@ -7464,6 +8101,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pConcatRightPat",
           "package": "libcspm",
@@ -7477,6 +8115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDotItems",
           "package": "libcspm",
@@ -7486,6 +8125,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDotItems",
           "normalized": "[AnPat a]",
@@ -7501,6 +8141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDotLeftPat",
           "package": "libcspm",
@@ -7510,6 +8151,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDotLeftPat",
           "package": "libcspm",
@@ -7523,6 +8165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDotOriginalpattern",
           "package": "libcspm",
@@ -7532,6 +8175,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDotOriginalpattern",
           "package": "libcspm",
@@ -7545,6 +8189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDotRightPat",
           "package": "libcspm",
@@ -7554,6 +8199,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDotRightPat",
           "package": "libcspm",
@@ -7567,6 +8213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDoublePatLeftPat",
           "package": "libcspm",
@@ -7576,6 +8223,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDoublePatLeftPat",
           "package": "libcspm",
@@ -7589,6 +8237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDoublePatRightPat",
           "package": "libcspm",
@@ -7598,6 +8247,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pDoublePatRightPat",
           "package": "libcspm",
@@ -7611,6 +8261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pListItems",
           "package": "libcspm",
@@ -7620,6 +8271,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pListItems",
           "normalized": "[AnPat a]",
@@ -7635,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pListMiddleEndItems",
           "package": "libcspm",
@@ -7644,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pListMiddleEndItems",
           "normalized": "Maybe(AnPat a,[AnPat a])",
@@ -7659,6 +8313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pListOriginalPattern",
           "package": "libcspm",
@@ -7668,6 +8323,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pListOriginalPattern",
           "package": "libcspm",
@@ -7681,6 +8337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pListStartItems",
           "package": "libcspm",
@@ -7690,6 +8347,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pListStartItems",
           "normalized": "[AnPat a]",
@@ -7705,6 +8363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pLitLiteral",
           "package": "libcspm",
@@ -7714,6 +8373,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pLitLiteral",
           "package": "libcspm",
@@ -7727,6 +8387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pParenPattern",
           "package": "libcspm",
@@ -7736,6 +8397,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pParenPattern",
           "package": "libcspm",
@@ -7749,6 +8411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pSetItems",
           "package": "libcspm",
@@ -7758,6 +8421,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pSetItems",
           "normalized": "[AnPat a]",
@@ -7773,6 +8437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pTupleItems",
           "package": "libcspm",
@@ -7782,6 +8447,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pTupleItems",
           "normalized": "[AnPat a]",
@@ -7797,6 +8463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pVarIdentity",
           "package": "libcspm",
@@ -7806,6 +8473,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "pVarIdentity",
           "package": "libcspm",
@@ -7819,6 +8487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "parenExpression",
           "package": "libcspm",
@@ -7828,6 +8497,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "parenExpression",
           "package": "libcspm",
@@ -7841,6 +8511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "prefixChannel",
           "package": "libcspm",
@@ -7850,6 +8521,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "prefixChannel",
           "package": "libcspm",
@@ -7863,6 +8535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "prefixFields",
           "package": "libcspm",
@@ -7872,6 +8545,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "prefixFields",
           "normalized": "[AnField a]",
@@ -7887,6 +8561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "prefixProcess",
           "package": "libcspm",
@@ -7896,6 +8571,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "prefixProcess",
           "package": "libcspm",
@@ -7909,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "printStatement",
           "package": "libcspm",
@@ -7918,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "printStatement",
           "package": "libcspm",
@@ -7931,6 +8609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "propertyCheckModel",
           "package": "libcspm",
@@ -7940,6 +8619,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "propertyCheckModel",
           "package": "libcspm",
@@ -7953,6 +8633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "propertyCheckProcess",
           "package": "libcspm",
@@ -7962,6 +8643,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "propertyCheckProcess",
           "package": "libcspm",
@@ -7975,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "propertyCheckProperty",
           "package": "libcspm",
@@ -7984,6 +8667,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "propertyCheckProperty",
           "package": "libcspm",
@@ -7997,6 +8681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "refinementImplementation",
           "package": "libcspm",
@@ -8006,6 +8691,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "refinementImplementation",
           "package": "libcspm",
@@ -8019,6 +8705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "refinementModel",
           "package": "libcspm",
@@ -8028,6 +8715,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "refinementModel",
           "package": "libcspm",
@@ -8041,6 +8729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "refinementModelOptions",
           "package": "libcspm",
@@ -8050,6 +8739,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "refinementModelOptions",
           "normalized": "[ModelOption a]",
@@ -8065,6 +8755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "refinementSpecification",
           "package": "libcspm",
@@ -8074,6 +8765,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "refinementSpecification",
           "package": "libcspm",
@@ -8088,6 +8780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe process that is renamed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "renameProcess",
           "package": "libcspm",
@@ -8098,6 +8791,7 @@
         "index": {
           "description": "The process that is renamed",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "renameProcess",
           "package": "libcspm",
@@ -8112,6 +8806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe statements for the ties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "renameTieStatements",
           "package": "libcspm",
@@ -8122,6 +8817,7 @@
         "index": {
           "description": "The statements for the ties",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "renameTieStatements",
           "normalized": "[AnStmt a]",
@@ -8138,6 +8834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe events that are renamed, in the format of \u003ccode\u003e(old, new)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "renameTiedEvents",
           "package": "libcspm",
@@ -8148,6 +8845,7 @@
         "index": {
           "description": "The events that are renamed in the format of old new",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "renameTiedEvents",
           "normalized": "[(AnExp a,AnExp a)]",
@@ -8163,6 +8861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repAlphaParAlphabet",
           "package": "libcspm",
@@ -8172,6 +8871,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repAlphaParAlphabet",
           "package": "libcspm",
@@ -8185,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repAlphaParProcess",
           "package": "libcspm",
@@ -8194,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repAlphaParProcess",
           "package": "libcspm",
@@ -8207,6 +8909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repAlphaParReplicatedStatements",
           "package": "libcspm",
@@ -8216,6 +8919,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repAlphaParReplicatedStatements",
           "normalized": "[AnStmt a]",
@@ -8231,6 +8935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repExtChoiceProcess",
           "package": "libcspm",
@@ -8240,6 +8945,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repExtChoiceProcess",
           "package": "libcspm",
@@ -8253,6 +8959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repExtChoiceReplicatedStatements",
           "package": "libcspm",
@@ -8262,6 +8969,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repExtChoiceReplicatedStatements",
           "normalized": "[AnStmt a]",
@@ -8277,6 +8985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repIntChoiceProcess",
           "package": "libcspm",
@@ -8286,6 +8995,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repIntChoiceProcess",
           "package": "libcspm",
@@ -8299,6 +9009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repIntChoiceReplicatedStatements",
           "package": "libcspm",
@@ -8308,6 +9019,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repIntChoiceReplicatedStatements",
           "normalized": "[AnStmt a]",
@@ -8323,6 +9035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repInterleaveProcess",
           "package": "libcspm",
@@ -8332,6 +9045,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repInterleaveProcess",
           "package": "libcspm",
@@ -8345,6 +9059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repInterleaveReplicatedStatements",
           "package": "libcspm",
@@ -8354,6 +9069,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repInterleaveReplicatedStatements",
           "normalized": "[AnStmt a]",
@@ -8370,6 +9086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repLinkParProcess",
           "package": "libcspm",
@@ -8380,6 +9097,7 @@
         "index": {
           "description": "The process",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repLinkParProcess",
           "package": "libcspm",
@@ -8394,6 +9112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStmt\u003c/a\u003e\u003c/code\u003es - the process (and ties) are evaluated once for each \n value generated by these.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repLinkParReplicatedStatements",
           "package": "libcspm",
@@ -8404,6 +9123,7 @@
         "index": {
           "description": "The Stmt the process and ties are evaluated once for each value generated by these",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repLinkParReplicatedStatements",
           "normalized": "[AnStmt a]",
@@ -8420,6 +9140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe statements for the ties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repLinkParTieStatements",
           "package": "libcspm",
@@ -8430,6 +9151,7 @@
         "index": {
           "description": "The statements for the ties",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repLinkParTieStatements",
           "normalized": "[AnStmt a]",
@@ -8446,6 +9168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tied events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repLinkParTiedChannels",
           "package": "libcspm",
@@ -8456,6 +9179,7 @@
         "index": {
           "description": "The tied events",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repLinkParTiedChannels",
           "normalized": "[(AnExp a,AnExp a)]",
@@ -8471,6 +9195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repParAlphabet",
           "package": "libcspm",
@@ -8480,6 +9205,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repParAlphabet",
           "package": "libcspm",
@@ -8493,6 +9219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repParProcess",
           "package": "libcspm",
@@ -8502,6 +9229,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repParProcess",
           "package": "libcspm",
@@ -8515,6 +9243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repParReplicatedStatements",
           "package": "libcspm",
@@ -8524,6 +9253,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repParReplicatedStatements",
           "normalized": "[AnStmt a]",
@@ -8539,6 +9269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSeqCompProcess",
           "package": "libcspm",
@@ -8548,6 +9279,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSeqCompProcess",
           "package": "libcspm",
@@ -8561,6 +9293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSeqCompStatements",
           "package": "libcspm",
@@ -8570,6 +9303,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSeqCompStatements",
           "normalized": "[AnStmt a]",
@@ -8585,6 +9319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSynchronisingExtChoiceAlphabet",
           "package": "libcspm",
@@ -8594,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSynchronisingExtChoiceAlphabet",
           "package": "libcspm",
@@ -8607,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSynchronisingExtChoiceProcess",
           "package": "libcspm",
@@ -8616,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSynchronisingExtChoiceProcess",
           "package": "libcspm",
@@ -8629,6 +9367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSynchronisingExtChoiceReplicatedStatements",
           "package": "libcspm",
@@ -8638,6 +9377,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "repSynchronisingExtChoiceReplicatedStatements",
           "normalized": "[AnStmt a]",
@@ -8653,6 +9393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "seqCompLeftProcess",
           "package": "libcspm",
@@ -8662,6 +9403,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "seqCompLeftProcess",
           "package": "libcspm",
@@ -8675,6 +9417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "seqCompRightProcess",
           "package": "libcspm",
@@ -8684,6 +9427,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "seqCompRightProcess",
           "package": "libcspm",
@@ -8697,6 +9441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setCompItems",
           "package": "libcspm",
@@ -8706,6 +9451,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setCompItems",
           "normalized": "[AnExp a]",
@@ -8721,6 +9467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setCompStatements",
           "package": "libcspm",
@@ -8730,6 +9477,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setCompStatements",
           "normalized": "[AnStmt a]",
@@ -8745,6 +9493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumCompItems",
           "package": "libcspm",
@@ -8754,6 +9503,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumCompItems",
           "normalized": "[AnExp a]",
@@ -8769,6 +9519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumCompStatements",
           "package": "libcspm",
@@ -8778,6 +9529,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumCompStatements",
           "normalized": "[AnStmt a]",
@@ -8793,6 +9545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromCompLowerBound",
           "package": "libcspm",
@@ -8802,6 +9555,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromCompLowerBound",
           "package": "libcspm",
@@ -8815,6 +9569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromCompStatements",
           "package": "libcspm",
@@ -8824,6 +9579,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromCompStatements",
           "normalized": "[AnStmt a]",
@@ -8839,6 +9595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromLowerBound",
           "package": "libcspm",
@@ -8848,6 +9605,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromLowerBound",
           "package": "libcspm",
@@ -8861,6 +9619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToCompLowerBound",
           "package": "libcspm",
@@ -8870,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToCompLowerBound",
           "package": "libcspm",
@@ -8883,6 +9643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToCompStatements",
           "package": "libcspm",
@@ -8892,6 +9653,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToCompStatements",
           "normalized": "[AnStmt a]",
@@ -8907,6 +9669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToCompUpperBound",
           "package": "libcspm",
@@ -8916,6 +9679,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToCompUpperBound",
           "package": "libcspm",
@@ -8930,6 +9694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lower bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToLowerBound",
           "package": "libcspm",
@@ -8940,6 +9705,7 @@
         "index": {
           "description": "The lower bound",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToLowerBound",
           "package": "libcspm",
@@ -8954,6 +9720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe upper bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToUpperBound",
           "package": "libcspm",
@@ -8964,6 +9731,7 @@
         "index": {
           "description": "The upper bound",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumFromToUpperBound",
           "package": "libcspm",
@@ -8977,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumItems",
           "package": "libcspm",
@@ -8986,6 +9755,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setEnumItems",
           "normalized": "[AnExp a]",
@@ -9001,6 +9771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setItems",
           "package": "libcspm",
@@ -9010,6 +9781,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "setItems",
           "normalized": "[AnExp a]",
@@ -9025,6 +9797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "slidingChoiceLeftProcess",
           "package": "libcspm",
@@ -9034,6 +9807,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "slidingChoiceLeftProcess",
           "package": "libcspm",
@@ -9047,6 +9821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "slidingChoiceRightProcess",
           "package": "libcspm",
@@ -9056,6 +9831,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "slidingChoiceRightProcess",
           "package": "libcspm",
@@ -9069,6 +9845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeConstraintName",
           "package": "libcspm",
@@ -9078,6 +9855,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeConstraintName",
           "package": "libcspm",
@@ -9091,6 +9869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeConstraintVariable",
           "package": "libcspm",
@@ -9100,6 +9879,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeConstraintVariable",
           "package": "libcspm",
@@ -9113,6 +9893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeSchemeFreeVars",
           "package": "libcspm",
@@ -9122,6 +9903,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeSchemeFreeVars",
           "normalized": "[a]",
@@ -9137,6 +9919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeSchemeType",
           "package": "libcspm",
@@ -9146,6 +9929,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeSchemeType",
           "package": "libcspm",
@@ -9159,6 +9943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeSchemeTypeConstraints",
           "package": "libcspm",
@@ -9168,6 +9953,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "stypeSchemeTypeConstraints",
           "normalized": "[AnSTypeConstraint a]",
@@ -9183,6 +9969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingExternalChoiceAlphabet",
           "package": "libcspm",
@@ -9192,6 +9979,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingExternalChoiceAlphabet",
           "package": "libcspm",
@@ -9205,6 +9993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingExternalChoiceLeftProcess",
           "package": "libcspm",
@@ -9214,6 +10003,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingExternalChoiceLeftProcess",
           "package": "libcspm",
@@ -9227,6 +10017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingExternalChoiceRightProcess",
           "package": "libcspm",
@@ -9236,6 +10027,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingExternalChoiceRightProcess",
           "package": "libcspm",
@@ -9249,6 +10041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingInterruptAlphabet",
           "package": "libcspm",
@@ -9258,6 +10051,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingInterruptAlphabet",
           "package": "libcspm",
@@ -9271,6 +10065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingInterruptLeftProcess",
           "package": "libcspm",
@@ -9280,6 +10075,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingInterruptLeftProcess",
           "package": "libcspm",
@@ -9293,6 +10089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingInterruptRightProcess",
           "package": "libcspm",
@@ -9302,6 +10099,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "synchronisingInterruptRightProcess",
           "package": "libcspm",
@@ -9316,6 +10114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe original Prefix clause (it MUST be a regular Prefix).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedPrefixOriginalPrefix",
           "package": "libcspm",
@@ -9326,6 +10125,7 @@
         "index": {
           "description": "The original Prefix clause it MUST be regular Prefix",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedPrefixOriginalPrefix",
           "package": "libcspm",
@@ -9340,6 +10140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name used to recurse back to this process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedPrefixRecursionName",
           "package": "libcspm",
@@ -9350,6 +10151,7 @@
         "index": {
           "description": "The name used to recurse back to this process",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedPrefixRecursionName",
           "package": "libcspm",
@@ -9363,6 +10165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedSectionContents",
           "package": "libcspm",
@@ -9372,6 +10175,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedSectionContents",
           "normalized": "[AnDecl a]",
@@ -9387,6 +10191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedSectionFunction",
           "package": "libcspm",
@@ -9396,6 +10201,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedSectionFunction",
           "package": "libcspm",
@@ -9410,6 +10216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tock instance used - set by the renamer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedSectionTockName",
           "package": "libcspm",
@@ -9420,6 +10227,7 @@
         "index": {
           "description": "The tock instance used set by the renamer",
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "timedSectionTockName",
           "package": "libcspm",
@@ -9433,6 +10241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "transparentImportedNames",
           "package": "libcspm",
@@ -9442,6 +10251,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "transparentImportedNames",
           "normalized": "[a]",
@@ -9457,6 +10267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "tupleItems",
           "package": "libcspm",
@@ -9466,6 +10277,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "tupleItems",
           "normalized": "[AnExp a]",
@@ -9481,6 +10293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "unaryBooleanExpression",
           "package": "libcspm",
@@ -9490,6 +10303,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "unaryBooleanExpression",
           "package": "libcspm",
@@ -9503,6 +10317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "unaryBooleanOpOperator",
           "package": "libcspm",
@@ -9512,6 +10327,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "unaryBooleanOpOperator",
           "package": "libcspm",
@@ -9525,6 +10341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Syntax",
           "name": "varIdentity",
           "package": "libcspm",
@@ -9534,6 +10351,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Syntax",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Syntax",
           "name": "varIdentity",
           "package": "libcspm",
@@ -9547,6 +10365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "Types",
           "package": "libcspm",
@@ -9555,6 +10374,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "Types",
           "package": "libcspm",
@@ -9568,6 +10388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "Constraint",
           "package": "libcspm",
@@ -9576,6 +10397,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "Constraint",
           "package": "libcspm",
@@ -9589,6 +10411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "PSymbolTable",
           "package": "libcspm",
@@ -9597,6 +10420,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "PSymbolTable",
           "package": "libcspm",
@@ -9610,6 +10434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "PType",
           "package": "libcspm",
@@ -9618,6 +10443,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "PType",
           "package": "libcspm",
@@ -9631,6 +10457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "SymbolTable",
           "package": "libcspm",
@@ -9639,6 +10466,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "SymbolTable",
           "package": "libcspm",
@@ -9652,6 +10480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "Type",
           "package": "libcspm",
@@ -9660,6 +10489,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "Type",
           "package": "libcspm",
@@ -9673,6 +10503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TypeScheme",
           "package": "libcspm",
@@ -9681,6 +10512,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TypeScheme",
           "package": "libcspm",
@@ -9694,6 +10526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TypeVar",
           "package": "libcspm",
@@ -9702,6 +10535,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TypeVar",
           "package": "libcspm",
@@ -9715,6 +10549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TypeVarRef",
           "package": "libcspm",
@@ -9723,6 +10558,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TypeVarRef",
           "package": "libcspm",
@@ -9737,6 +10573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparable for equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "CEq",
           "package": "libcspm",
@@ -9747,6 +10584,7 @@
         "index": {
           "description": "Comparable for equality",
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "CEq",
           "package": "libcspm",
@@ -9761,6 +10599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be input on a channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "CInputable",
           "package": "libcspm",
@@ -9771,6 +10610,7 @@
         "index": {
           "description": "Can be input on channel",
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "CInputable",
           "package": "libcspm",
@@ -9785,6 +10625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrderable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "COrd",
           "package": "libcspm",
@@ -9795,6 +10636,7 @@
         "index": {
           "description": "Orderable",
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "COrd",
           "package": "libcspm",
@@ -9809,6 +10651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan form sets of the type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "CSet",
           "package": "libcspm",
@@ -9819,6 +10662,7 @@
         "index": {
           "description": "Can form sets of the type",
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "CSet",
           "package": "libcspm",
@@ -9833,6 +10677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs something that can be yielded on the right hand side of =\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "CYieldable",
           "package": "libcspm",
@@ -9843,6 +10688,7 @@
         "index": {
           "description": "Is something that can be yielded on the right hand side of",
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "CYieldable",
           "package": "libcspm",
@@ -9856,6 +10702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "ForAll",
           "package": "libcspm",
@@ -9865,6 +10712,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "ForAll",
           "package": "libcspm",
@@ -9878,6 +10726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "RigidTypeVarRef",
           "package": "libcspm",
@@ -9887,6 +10736,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "RigidTypeVarRef",
           "package": "libcspm",
@@ -9900,6 +10750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TBool",
           "package": "libcspm",
@@ -9909,6 +10760,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TBool",
           "package": "libcspm",
@@ -9922,6 +10774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TChar",
           "package": "libcspm",
@@ -9931,6 +10784,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TChar",
           "package": "libcspm",
@@ -9944,6 +10798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TDatatype",
           "package": "libcspm",
@@ -9953,6 +10808,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TDatatype",
           "package": "libcspm",
@@ -9966,6 +10822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TDot",
           "package": "libcspm",
@@ -9975,6 +10832,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TDot",
           "package": "libcspm",
@@ -9988,6 +10846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TDotable",
           "package": "libcspm",
@@ -9997,6 +10856,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TDotable",
           "package": "libcspm",
@@ -10010,6 +10870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TEvent",
           "package": "libcspm",
@@ -10019,6 +10880,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TEvent",
           "package": "libcspm",
@@ -10033,6 +10895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that can be extended via some means to a given type.\n\u003c/p\u003e\u003cp\u003eAfter type-checking, the TypeVarRef will simply be a variable that\n contains Nothing. This means that it can be converted into an explicit\n TDotable via some unknown means, or directly to the return type.\n\u003c/p\u003e\u003cp\u003eThe variable argument here has a slightly special role during\n unification. If it contains Nothing then this is extendable via some\n unknown means to the specified type. If it contains a TDotable argt rt,\n then we know that one of the arguments is argt, and the remaining\n arguments are rt, which must either be a Dotable or a variable. The\n meaning in the former sense is recursive, the meaning in the latter case\n is clear. If it contains  TVar tvref, then this means tvref has replaced\n this argument variable.\n\u003c/p\u003e\u003cp\u003eWe need to do the above as we may have multiple things that are\n extendable in the same way, so we need to sync the arguments together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TExtendable",
           "package": "libcspm",
@@ -10043,6 +10906,7 @@
         "index": {
           "description": "Something that can be extended via some means to given type After type-checking the TypeVarRef will simply be variable that contains Nothing This means that it can be converted into an explicit TDotable via some unknown means or directly to the return type The variable argument here has slightly special role during unification If it contains Nothing then this is extendable via some unknown means to the specified type If it contains TDotable argt rt then we know that one of the arguments is argt and the remaining arguments are rt which must either be Dotable or variable The meaning in the former sense is recursive the meaning in the latter case is clear If it contains TVar tvref then this means tvref has replaced this argument variable We need to do the above as we may have multiple things that are extendable in the same way so we need to sync the arguments together",
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TExtendable",
           "package": "libcspm",
@@ -10057,6 +10921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used only during type-checking, and is guaranteed to only\n ever appear at the top-level of the left-hand side of a TExtendable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TExtendableEmptyDotList",
           "package": "libcspm",
@@ -10067,6 +10932,7 @@
         "index": {
           "description": "This type is used only during type-checking and is guaranteed to only ever appear at the top-level of the left-hand side of TExtendable",
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TExtendableEmptyDotList",
           "package": "libcspm",
@@ -10080,6 +10946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TFunction",
           "package": "libcspm",
@@ -10089,6 +10956,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TFunction",
           "normalized": "TFunction[Type]Type",
@@ -10104,6 +10972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TInt",
           "package": "libcspm",
@@ -10113,6 +10982,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TInt",
           "package": "libcspm",
@@ -10126,6 +10996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TMap",
           "package": "libcspm",
@@ -10135,6 +11006,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TMap",
           "package": "libcspm",
@@ -10148,6 +11020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TProc",
           "package": "libcspm",
@@ -10157,6 +11030,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TProc",
           "package": "libcspm",
@@ -10170,6 +11044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TSeq",
           "package": "libcspm",
@@ -10179,6 +11054,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TSeq",
           "package": "libcspm",
@@ -10192,6 +11068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TSet",
           "package": "libcspm",
@@ -10201,6 +11078,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TSet",
           "package": "libcspm",
@@ -10214,6 +11092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TTuple",
           "package": "libcspm",
@@ -10223,6 +11102,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TTuple",
           "normalized": "TTuple[Type]",
@@ -10238,6 +11118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TVar",
           "package": "libcspm",
@@ -10247,6 +11128,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TVar",
           "package": "libcspm",
@@ -10260,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "TypeVarRef",
           "package": "libcspm",
@@ -10269,6 +11152,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "TypeVarRef",
           "package": "libcspm",
@@ -10282,6 +11166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "collectConstraints",
           "package": "libcspm",
@@ -10291,6 +11176,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "collectConstraints",
           "normalized": "Type-\u003e[(TypeVarRef,[Constraint])]",
@@ -10306,6 +11192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "constraintImpliedBy",
           "package": "libcspm",
@@ -10315,6 +11202,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "constraintImpliedBy",
           "normalized": "Constraint-\u003eConstraint-\u003eBool",
@@ -10330,6 +11218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "constraints",
           "package": "libcspm",
@@ -10339,6 +11228,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "constraints",
           "normalized": "[Constraint]",
@@ -10353,6 +11243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "extendableArgument",
           "package": "libcspm",
@@ -10362,6 +11253,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "extendableArgument",
           "package": "libcspm",
@@ -10375,6 +11267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "extendableUltimateType",
           "package": "libcspm",
@@ -10384,6 +11277,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "extendableUltimateType",
           "package": "libcspm",
@@ -10397,6 +11291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "freshPSymbolTable",
           "package": "libcspm",
@@ -10406,6 +11301,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "freshPSymbolTable",
           "package": "libcspm",
@@ -10419,6 +11315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "freshPType",
           "package": "libcspm",
@@ -10428,6 +11325,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "freshPType",
           "package": "libcspm",
@@ -10441,6 +11339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "freshRigidTypeVarWithConstraints",
           "package": "libcspm",
@@ -10450,6 +11349,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "freshRigidTypeVarWithConstraints",
           "normalized": "Name-\u003e[Constraint]-\u003ea Type",
@@ -10488,6 +11388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "freshTypeVarRef",
           "package": "libcspm",
@@ -10497,6 +11398,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "freshTypeVarRef",
           "normalized": "[Constraint]-\u003ea TypeVarRef",
@@ -10537,6 +11439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "isRigid",
           "package": "libcspm",
@@ -10546,6 +11449,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "isRigid",
           "normalized": "TypeVarRef-\u003eBool",
@@ -10561,6 +11465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "mapKeyType",
           "package": "libcspm",
@@ -10570,6 +11475,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "mapKeyType",
           "package": "libcspm",
@@ -10583,6 +11489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "mapValueType",
           "package": "libcspm",
@@ -10592,6 +11499,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "mapValueType",
           "package": "libcspm",
@@ -10606,6 +11514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints several types using the same variable substitutions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "prettyPrintTypes",
           "package": "libcspm",
@@ -10616,6 +11525,7 @@
         "index": {
           "description": "Pretty prints several types using the same variable substitutions",
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "prettyPrintTypes",
           "normalized": "[Type]-\u003e[Doc]",
@@ -10631,6 +11541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "readPSymbolTable",
           "package": "libcspm",
@@ -10640,6 +11551,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "readPSymbolTable",
           "normalized": "PSymbolTable-\u003ea SymbolTable",
@@ -10655,6 +11567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "readPType",
           "package": "libcspm",
@@ -10664,6 +11577,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "readPType",
           "normalized": "PType-\u003ea(Maybe Type)",
@@ -10679,6 +11593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "reduceConstraints",
           "package": "libcspm",
@@ -10688,6 +11603,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "reduceConstraints",
           "normalized": "[Constraint]-\u003e[Constraint]",
@@ -10703,6 +11619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "rigidName",
           "package": "libcspm",
@@ -10712,6 +11629,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "rigidName",
           "package": "libcspm",
@@ -10725,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "setPSymbolTable",
           "package": "libcspm",
@@ -10734,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "setPSymbolTable",
           "normalized": "PSymbolTable-\u003eSymbolTable-\u003ea()",
@@ -10749,6 +11669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "setPType",
           "package": "libcspm",
@@ -10758,6 +11679,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "setPType",
           "normalized": "PType-\u003eType-\u003ea()",
@@ -10773,6 +11695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "typePointer",
           "package": "libcspm",
@@ -10782,6 +11705,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "typePointer",
           "package": "libcspm",
@@ -10795,6 +11719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "typeSchemeType",
           "package": "libcspm",
@@ -10804,6 +11729,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "typeSchemeType",
           "package": "libcspm",
@@ -10817,6 +11743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "typeSchemeVariables",
           "package": "libcspm",
@@ -10826,6 +11753,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "typeSchemeVariables",
           "normalized": "[(TypeVar,[Constraint])]",
@@ -10841,6 +11769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.DataStructures.Types",
           "name": "typeVar",
           "package": "libcspm",
@@ -10850,6 +11779,7 @@
         },
         "index": {
           "hierarchy": "CSPM DataStructures Types",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.DataStructures.Types",
           "name": "typeVar",
           "package": "libcspm",
@@ -10863,6 +11793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Desugar",
           "name": "Desugar",
           "package": "libcspm",
@@ -10871,6 +11802,7 @@
         },
         "index": {
           "hierarchy": "CSPM Desugar",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Desugar",
           "name": "Desugar",
           "package": "libcspm",
@@ -10884,6 +11816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Desugar",
           "name": "Desugarable",
           "package": "libcspm",
@@ -10892,6 +11825,7 @@
         },
         "index": {
           "hierarchy": "CSPM Desugar",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Desugar",
           "name": "Desugarable",
           "package": "libcspm",
@@ -10905,6 +11839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Desugar",
           "name": "desugar",
           "package": "libcspm",
@@ -10914,6 +11849,7 @@
         },
         "index": {
           "hierarchy": "CSPM Desugar",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Desugar",
           "name": "desugar",
           "normalized": "a-\u003eDesugarMonad a",
@@ -10928,6 +11864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Desugar",
           "name": "runDesugar",
           "package": "libcspm",
@@ -10937,6 +11874,7 @@
         },
         "index": {
           "hierarchy": "CSPM Desugar",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Desugar",
           "name": "runDesugar",
           "normalized": "DesugarMonad a-\u003eb a",
@@ -10952,6 +11890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.BuiltInFunctions",
           "name": "BuiltInFunctions",
           "package": "libcspm",
@@ -10960,6 +11899,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator BuiltInFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.BuiltInFunctions",
           "name": "BuiltInFunctions",
           "package": "libcspm",
@@ -10998,6 +11938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.BuiltInFunctions",
           "name": "injectBuiltInFunctions",
           "package": "libcspm",
@@ -11007,6 +11948,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator BuiltInFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.BuiltInFunctions",
           "name": "injectBuiltInFunctions",
           "normalized": "EvaluationMonad a-\u003eEvaluationMonad a",
@@ -11022,6 +11964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.DeclBind",
           "name": "DeclBind",
           "package": "libcspm",
@@ -11030,6 +11973,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator DeclBind",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.DeclBind",
           "name": "DeclBind",
           "package": "libcspm",
@@ -11044,6 +11988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of declarations, returns a sequence of names bounds to\n values that can be passed to \u003ccode\u003e\u003ca\u003eaddScopeAndBind\u003c/a\u003e\u003c/code\u003e in order to bind them in\n the current scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.DeclBind",
           "name": "bindDecls",
           "package": "libcspm",
@@ -11054,6 +11999,7 @@
         "index": {
           "description": "Given list of declarations returns sequence of names bounds to values that can be passed to addScopeAndBind in order to bind them in the current scope",
           "hierarchy": "CSPM Evaluator DeclBind",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.DeclBind",
           "name": "bindDecls",
           "normalized": "[TCDecl]-\u003eEvaluationMonad[(Name,EvaluationMonad Value)]",
@@ -11069,6 +12015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.DeepSeq",
           "name": "DeepSeq",
           "package": "libcspm",
@@ -11077,6 +12024,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator DeepSeq",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.DeepSeq",
           "name": "DeepSeq",
           "package": "libcspm",
@@ -11090,6 +12038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "Dot",
           "package": "libcspm",
@@ -11098,6 +12047,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "Dot",
           "package": "libcspm",
@@ -11112,6 +12062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes two values and dots then together appropriately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "combineDots",
           "package": "libcspm",
@@ -11122,6 +12073,7 @@
         "index": {
           "description": "Takes two values and dots then together appropriately",
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "combineDots",
           "normalized": "Value-\u003eValue-\u003eEvaluationMonad Value",
@@ -11138,6 +12090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a set and returns a list of values xs such that \n Union({productions(x) | x \u003c- xs}) == xs. For example, if c is a channel of\n type {0,1} then {c.0, c.1} would return [c].\n\u003c/p\u003e\u003cp\u003eThis is primarily used for display purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "compressIntoEnumeratedSet",
           "package": "libcspm",
@@ -11148,6 +12101,7 @@
         "index": {
           "description": "Takes set and returns list of values xs such that Union productions xs xs For example if is channel of type then c.0 c.1 would return This is primarily used for display purposes",
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "compressIntoEnumeratedSet",
           "normalized": "ValueSet-\u003eEvaluationMonad(Maybe[Value])",
@@ -11163,6 +12117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "dataTypeInfo",
           "package": "libcspm",
@@ -11172,6 +12127,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "dataTypeInfo",
           "normalized": "Name-\u003eEvaluationMonad(Value,Int,Array Int ValueSet)",
@@ -11188,6 +12144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a datatype or a channel value and then computes all x such that \n ev.x is a full datatype/event. Each of the returned values is guaranteed\n to be a VDot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "extensions",
           "package": "libcspm",
@@ -11198,6 +12155,7 @@
         "index": {
           "description": "Takes datatype or channel value and then computes all such that ev.x is full datatype event Each of the returned values is guaranteed to be VDot",
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "extensions",
           "normalized": "Value-\u003eEvaluationMonad[Value]",
@@ -11212,6 +12170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "extensionsSet",
           "package": "libcspm",
@@ -11221,6 +12180,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "extensionsSet",
           "normalized": "Value-\u003eEvaluationMonad ValueSet",
@@ -11237,6 +12197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an x such that ev.x has been extended by exactly one atomic field.\n This could be inside a subfield or elsewhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "oneFieldExtensions",
           "package": "libcspm",
@@ -11247,6 +12208,7 @@
         "index": {
           "description": "Returns an such that ev.x has been extended by exactly one atomic field This could be inside subfield or elsewhere",
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "oneFieldExtensions",
           "normalized": "Value-\u003eEvaluationMonad[Value]",
@@ -11263,6 +12225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a datatype or a channel value and computes v.x for all x that\n complete the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "productions",
           "package": "libcspm",
@@ -11273,6 +12236,7 @@
         "index": {
           "description": "Takes datatype or channel value and computes v.x for all that complete the value",
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "productions",
           "normalized": "Value-\u003eEvaluationMonad[Value]",
@@ -11287,6 +12251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "productionsSet",
           "package": "libcspm",
@@ -11296,6 +12261,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "productionsSet",
           "normalized": "Value-\u003eEvaluationMonad ValueSet",
@@ -11312,6 +12278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a set of dotted values (i.e. a set of VDot _) and returns a list of\n sets such that the cartesian product is equal to the original set.\n\u003c/p\u003e\u003cp\u003eThis throws an error if the set cannot be decomposed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Dot",
           "name": "splitIntoFields",
           "package": "libcspm",
@@ -11322,6 +12289,7 @@
         "index": {
           "description": "Takes set of dotted values i.e set of VDot and returns list of sets such that the cartesian product is equal to the original set This throws an error if the set cannot be decomposed",
           "hierarchy": "CSPM Evaluator Dot",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Dot",
           "name": "splitIntoFields",
           "normalized": "Bool-\u003eName-\u003eValueSet-\u003eEvaluationMonad[ValueSet]",
@@ -11337,6 +12305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Environment",
           "name": "Environment",
           "package": "libcspm",
@@ -11345,6 +12314,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Environment",
           "name": "Environment",
           "package": "libcspm",
@@ -11358,6 +12328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Environment",
           "name": "Environment",
           "package": "libcspm",
@@ -11366,6 +12337,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Environment",
           "name": "Environment",
           "package": "libcspm",
@@ -11379,6 +12351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Environment",
           "name": "lookup",
           "package": "libcspm",
@@ -11388,6 +12361,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Environment",
           "name": "lookup",
           "normalized": "Environment-\u003eName-\u003eValue",
@@ -11402,6 +12376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Environment",
           "name": "new",
           "package": "libcspm",
@@ -11411,6 +12386,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Environment",
           "name": "new",
           "package": "libcspm",
@@ -11423,6 +12399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Environment",
           "name": "newLayerAndBind",
           "package": "libcspm",
@@ -11432,6 +12409,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Environment",
           "name": "newLayerAndBind",
           "normalized": "Environment-\u003e[(Name,Value)]-\u003eEnvironment",
@@ -11447,6 +12425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "Exceptions",
           "package": "libcspm",
@@ -11455,6 +12434,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "Exceptions",
           "package": "libcspm",
@@ -11468,6 +12448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cannotCheckSetMembershipError",
           "package": "libcspm",
@@ -11477,6 +12458,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cannotCheckSetMembershipError",
           "normalized": "Value-\u003eValueSet-\u003eErrorMessage",
@@ -11492,6 +12474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cannotConvertIntegersToListMessage",
           "package": "libcspm",
@@ -11501,6 +12484,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cannotConvertIntegersToListMessage",
           "package": "libcspm",
@@ -11514,6 +12498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cannotConvertProcessesToListMessage",
           "package": "libcspm",
@@ -11523,6 +12508,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cannotConvertProcessesToListMessage",
           "package": "libcspm",
@@ -11536,6 +12522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cannotDifferenceSetsMessage",
           "package": "libcspm",
@@ -11545,6 +12532,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cannotDifferenceSetsMessage",
           "normalized": "ValueSet-\u003eValueSet-\u003eErrorMessage",
@@ -11560,6 +12548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cardOfInfiniteSetMessage",
           "package": "libcspm",
@@ -11569,6 +12558,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "cardOfInfiniteSetMessage",
           "normalized": "ValueSet-\u003eErrorMessage",
@@ -11584,6 +12574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "divideByZeroMessage",
           "package": "libcspm",
@@ -11593,6 +12584,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "divideByZeroMessage",
           "normalized": "SrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11608,6 +12600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "dotIsNotValidMessage",
           "package": "libcspm",
@@ -11617,6 +12610,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "dotIsNotValidMessage",
           "normalized": "Value-\u003eInt-\u003eValue-\u003eValueSet-\u003eSrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11632,6 +12626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "funBindPatternMatchFailureMessage",
           "package": "libcspm",
@@ -11641,6 +12636,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "funBindPatternMatchFailureMessage",
           "normalized": "SrcSpan-\u003eName-\u003e[[Value]]-\u003eErrorMessage",
@@ -11656,6 +12652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "headEmptyListMessage",
           "package": "libcspm",
@@ -11665,6 +12662,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "headEmptyListMessage",
           "normalized": "SrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11680,6 +12678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "keyNotInDomainOfMapMessage",
           "package": "libcspm",
@@ -11689,6 +12688,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "keyNotInDomainOfMapMessage",
           "normalized": "SrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11704,6 +12704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "patternMatchFailureMessage",
           "package": "libcspm",
@@ -11713,6 +12714,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "patternMatchFailureMessage",
           "normalized": "SrcSpan-\u003eTCPat-\u003eValue-\u003eErrorMessage",
@@ -11728,6 +12730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "patternMatchesFailureMessage",
           "package": "libcspm",
@@ -11737,6 +12740,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "patternMatchesFailureMessage",
           "normalized": "SrcSpan-\u003e[TCPat]-\u003e[Value]-\u003eErrorMessage",
@@ -11752,6 +12756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "printCallStack",
           "package": "libcspm",
@@ -11761,6 +12766,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "printCallStack",
           "normalized": "Maybe ScopeIdentifier-\u003eDoc",
@@ -11776,6 +12782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "prioritiseEmptyListMessage",
           "package": "libcspm",
@@ -11785,6 +12792,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "prioritiseEmptyListMessage",
           "normalized": "SrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11800,6 +12808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "replicatedInternalChoiceOverEmptySetMessage",
           "package": "libcspm",
@@ -11809,6 +12818,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "replicatedInternalChoiceOverEmptySetMessage",
           "normalized": "Exp Name-\u003eSrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11824,6 +12834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "replicatedInternalChoiceOverEmptySetMessage'",
           "package": "libcspm",
@@ -11833,6 +12844,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "replicatedInternalChoiceOverEmptySetMessage'",
           "normalized": "Pat Name-\u003eSrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11848,6 +12860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "replicatedLinkParallelOverEmptySeqMessage",
           "package": "libcspm",
@@ -11857,6 +12870,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "replicatedLinkParallelOverEmptySeqMessage",
           "normalized": "Exp Name-\u003eSrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11872,6 +12886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "setNotRectangularErrorMessage",
           "package": "libcspm",
@@ -11881,6 +12896,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "setNotRectangularErrorMessage",
           "normalized": "SrcSpan-\u003eValueSet-\u003eMaybe ValueSet-\u003eErrorMessage",
@@ -11896,6 +12912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "tailEmptyListMessage",
           "package": "libcspm",
@@ -11905,6 +12922,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "tailEmptyListMessage",
           "normalized": "SrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage",
@@ -11920,6 +12938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "typeCheckerFailureMessage",
           "package": "libcspm",
@@ -11929,6 +12948,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Exceptions",
           "name": "typeCheckerFailureMessage",
           "normalized": "String-\u003eErrorMessage",
@@ -11944,6 +12964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Expr",
           "name": "Expr",
           "package": "libcspm",
@@ -11952,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Expr",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Expr",
           "name": "Expr",
           "package": "libcspm",
@@ -11965,6 +12987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Expr",
           "name": "Evaluatable",
           "package": "libcspm",
@@ -11973,6 +12996,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Expr",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Expr",
           "name": "Evaluatable",
           "package": "libcspm",
@@ -11986,6 +13010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Expr",
           "name": "eval",
           "package": "libcspm",
@@ -11995,6 +13020,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Expr",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Expr",
           "name": "eval",
           "normalized": "a-\u003eEvaluationMonad Value",
@@ -12009,6 +13035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.File",
           "name": "File",
           "package": "libcspm",
@@ -12017,6 +13044,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator File",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.File",
           "name": "File",
           "package": "libcspm",
@@ -12030,6 +13058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.File",
           "name": "bindFile",
           "package": "libcspm",
@@ -12039,6 +13068,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator File",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.File",
           "name": "bindFile",
           "normalized": "TCCSPMFile-\u003eEvaluationMonad[(Name,EvaluationMonad Value)]",
@@ -12054,6 +13084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "Monad",
           "package": "libcspm",
@@ -12062,6 +13093,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "Monad",
           "package": "libcspm",
@@ -12075,6 +13107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "EvaluationMonad",
           "package": "libcspm",
@@ -12083,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "EvaluationMonad",
           "package": "libcspm",
@@ -12096,6 +13130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "EvaluationState",
           "package": "libcspm",
@@ -12104,6 +13139,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "EvaluationState",
           "package": "libcspm",
@@ -12117,6 +13153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "EvaluationState",
           "package": "libcspm",
@@ -12126,6 +13163,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "EvaluationState",
           "package": "libcspm",
@@ -12140,6 +13178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements non-recursive lets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "addScopeAndBind",
           "package": "libcspm",
@@ -12150,6 +13189,7 @@
         "index": {
           "description": "Implements non-recursive lets",
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "addScopeAndBind",
           "normalized": "[(Name,Value)]-\u003eEvaluationMonad a-\u003eEvaluationMonad a",
@@ -12166,6 +13206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements recursive lets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "addScopeAndBindM",
           "package": "libcspm",
@@ -12176,6 +13217,7 @@
         "index": {
           "description": "Implements recursive lets",
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "addScopeAndBindM",
           "normalized": "[(Name,EvaluationMonad Value)]-\u003eEvaluationMonad a-\u003eEvaluationMonad a",
@@ -12191,6 +13233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "currentExpressionLocation",
           "package": "libcspm",
@@ -12200,6 +13243,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "currentExpressionLocation",
           "package": "libcspm",
@@ -12213,6 +13257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "doRuntimeRangeChecks",
           "package": "libcspm",
@@ -12222,6 +13267,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "doRuntimeRangeChecks",
           "package": "libcspm",
@@ -12235,6 +13281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "environment",
           "package": "libcspm",
@@ -12244,6 +13291,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "environment",
           "package": "libcspm",
@@ -12256,6 +13304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "getCurrentExpressionLocation",
           "package": "libcspm",
@@ -12265,6 +13314,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "getCurrentExpressionLocation",
           "package": "libcspm",
@@ -12278,6 +13328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "getEnvironment",
           "package": "libcspm",
@@ -12287,6 +13338,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "getEnvironment",
           "package": "libcspm",
@@ -12300,6 +13352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "getParentScopeIdentifier",
           "package": "libcspm",
@@ -12309,6 +13362,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "getParentScopeIdentifier",
           "package": "libcspm",
@@ -12322,6 +13376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "getState",
           "package": "libcspm",
@@ -12331,6 +13386,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "getState",
           "package": "libcspm",
@@ -12344,6 +13400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "gets",
           "package": "libcspm",
@@ -12353,6 +13410,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "gets",
           "normalized": "(EvaluationState-\u003ea)-\u003eEvaluationMonad a",
@@ -12367,6 +13425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "lookupVarMaybeThunk",
           "package": "libcspm",
@@ -12376,6 +13435,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "lookupVarMaybeThunk",
           "normalized": "Name-\u003eEvaluationMonad Value",
@@ -12391,6 +13451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "maybeTimedCSP",
           "package": "libcspm",
@@ -12400,6 +13461,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "maybeTimedCSP",
           "normalized": "EvaluationMonad a-\u003e(Name-\u003e(Event-\u003eInt)-\u003eEvaluationMonad a)-\u003eEvaluationMonad a",
@@ -12415,6 +13477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "modify",
           "package": "libcspm",
@@ -12424,6 +13487,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "modify",
           "normalized": "(EvaluationState-\u003eEvaluationState)-\u003eEvaluationMonad a-\u003eEvaluationMonad a",
@@ -12438,6 +13502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "parentScopeIdentifier",
           "package": "libcspm",
@@ -12447,6 +13512,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "parentScopeIdentifier",
           "package": "libcspm",
@@ -12460,6 +13526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "profilerState",
           "package": "libcspm",
@@ -12469,6 +13536,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "profilerState",
           "package": "libcspm",
@@ -12507,6 +13575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "setCurrentExpressionLocation",
           "package": "libcspm",
@@ -12516,6 +13585,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "setCurrentExpressionLocation",
           "normalized": "SrcSpan-\u003eEvaluationMonad a-\u003eEvaluationMonad a",
@@ -12531,6 +13601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "setTimedCSP",
           "package": "libcspm",
@@ -12540,6 +13611,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "setTimedCSP",
           "normalized": "Name-\u003e(Event-\u003eInt)-\u003eEvaluationMonad a-\u003eEvaluationMonad a",
@@ -12555,6 +13627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "throwError",
           "package": "libcspm",
@@ -12564,6 +13637,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "throwError",
           "normalized": "ErrorMessage-\u003ea",
@@ -12579,6 +13653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "throwError'",
           "package": "libcspm",
@@ -12588,6 +13663,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "throwError'",
           "normalized": "(SrcSpan-\u003eMaybe ScopeIdentifier-\u003eErrorMessage)-\u003eEvaluationMonad a",
@@ -12603,6 +13679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "timedSection",
           "package": "libcspm",
@@ -12612,6 +13689,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "timedSection",
           "normalized": "Maybe(Event-\u003eInt,Name)",
@@ -12627,6 +13705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Monad",
           "name": "updateParentScopeIdentifier",
           "package": "libcspm",
@@ -12636,6 +13715,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Monad",
           "name": "updateParentScopeIdentifier",
           "normalized": "ScopeIdentifier-\u003eEvaluationMonad a-\u003eEvaluationMonad a",
@@ -12651,6 +13731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.PatBind",
           "name": "PatBind",
           "package": "libcspm",
@@ -12659,6 +13740,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator PatBind",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.PatBind",
           "name": "PatBind",
           "package": "libcspm",
@@ -12672,6 +13754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.PatBind",
           "name": "Bindable",
           "package": "libcspm",
@@ -12680,6 +13763,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator PatBind",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.PatBind",
           "name": "Bindable",
           "package": "libcspm",
@@ -12693,6 +13777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.PatBind",
           "name": "bind",
           "package": "libcspm",
@@ -12702,6 +13787,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator PatBind",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.PatBind",
           "name": "bind",
           "normalized": "a-\u003eValue-\u003e(Bool,[(Name,Value)])",
@@ -12716,6 +13802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.PatBind",
           "name": "bindAll",
           "package": "libcspm",
@@ -12725,6 +13812,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator PatBind",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.PatBind",
           "name": "bindAll",
           "normalized": "[a]-\u003e[Value]-\u003e(Bool,[(Name,Value)])",
@@ -12740,6 +13828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "ProcessValues",
           "package": "libcspm",
@@ -12748,6 +13837,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "ProcessValues",
           "package": "libcspm",
@@ -12761,6 +13851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "CSPOperator",
           "package": "libcspm",
@@ -12769,6 +13860,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "CSPOperator",
           "package": "libcspm",
@@ -12783,6 +13875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents, as represented in the LTS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "Event",
           "package": "libcspm",
@@ -12792,6 +13885,7 @@
         "index": {
           "description": "Events as represented in the LTS",
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "Event",
           "package": "libcspm",
@@ -12805,6 +13899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "EventMap",
           "package": "libcspm",
@@ -12813,6 +13908,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "EventMap",
           "package": "libcspm",
@@ -12826,6 +13922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "EventSet",
           "package": "libcspm",
@@ -12834,6 +13931,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "EventSet",
           "package": "libcspm",
@@ -12848,6 +13946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled process. Note this is an infinite data structure (due to\n PProcCall) as this makes compilation easy (we can easily chase\n dependencies).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "Proc",
           "package": "libcspm",
@@ -12857,6 +13956,7 @@
         "index": {
           "description": "compiled process Note this is an infinite data structure due to PProcCall as this makes compilation easy we can easily chase dependencies",
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "Proc",
           "package": "libcspm",
@@ -12871,6 +13971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcNames uniquely identify processes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "ProcName",
           "package": "libcspm",
@@ -12880,6 +13981,7 @@
         "index": {
           "description": "ProcNames uniquely identify processes",
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "ProcName",
           "package": "libcspm",
@@ -12894,6 +13996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operator that can be applied to processes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "ProcOperator",
           "package": "libcspm",
@@ -12903,6 +14006,7 @@
         "index": {
           "description": "An operator that can be applied to processes",
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "ProcOperator",
           "package": "libcspm",
@@ -12916,6 +14020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "UnCompiledOperator",
           "package": "libcspm",
@@ -12924,6 +14029,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "UnCompiledOperator",
           "package": "libcspm",
@@ -12937,6 +14043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "UnCompiledProc",
           "package": "libcspm",
@@ -12945,6 +14052,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "UnCompiledProc",
           "package": "libcspm",
@@ -12958,6 +14066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "UnCompiledProcOperator",
           "package": "libcspm",
@@ -12966,6 +14075,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "UnCompiledProcOperator",
           "package": "libcspm",
@@ -13602,6 +14712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "ProcName",
           "package": "libcspm",
@@ -13611,6 +14722,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "ProcName",
           "package": "libcspm",
@@ -13769,6 +14881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the components of a given process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "components",
           "package": "libcspm",
@@ -13779,6 +14892,7 @@
         "index": {
           "description": "Returns the components of given process",
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "components",
           "normalized": "Proc Seq a b c d e-\u003eSeq(Proc Seq a b c d e)",
@@ -13793,6 +14907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "eventSetFromList",
           "package": "libcspm",
@@ -13802,6 +14917,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "eventSetFromList",
           "normalized": "[Event]-\u003eEventSet",
@@ -13818,6 +14934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives the operator of a process. If the process is a ProcCall an error is\n thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "operator",
           "package": "libcspm",
@@ -13828,6 +14945,7 @@
         "index": {
           "description": "Gives the operator of process If the process is ProcCall an error is thrown",
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "operator",
           "normalized": "Proc a b c d e f-\u003eb a d e f",
@@ -13843,6 +14961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a process, returns the initial process and all processes that it\n calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "splitProcIntoComponents",
           "package": "libcspm",
@@ -13853,6 +14972,7 @@
         "index": {
           "description": "Given process returns the initial process and all processes that it calls",
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "splitProcIntoComponents",
           "normalized": "Proc a b c d e f-\u003e(Proc a b c d e f,[(c,Proc a b c d e f)])",
@@ -13868,6 +14988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "trimProcess",
           "package": "libcspm",
@@ -13877,6 +14998,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ProcessValues",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ProcessValues",
           "name": "trimProcess",
           "normalized": "UnCompiledProc-\u003eUnCompiledProc",
@@ -13892,6 +15014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "Profiler",
           "package": "libcspm",
@@ -13900,6 +15023,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "Profiler",
           "package": "libcspm",
@@ -13913,6 +15037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "ProfilerOptions",
           "package": "libcspm",
@@ -13921,6 +15046,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "ProfilerOptions",
           "package": "libcspm",
@@ -13934,6 +15060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "ProfilerState",
           "package": "libcspm",
@@ -13942,6 +15069,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "ProfilerState",
           "package": "libcspm",
@@ -13955,6 +15083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "ProfilingData",
           "package": "libcspm",
@@ -13963,6 +15092,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "ProfilingData",
           "package": "libcspm",
@@ -14045,6 +15175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "getProfilingData",
           "package": "libcspm",
@@ -14054,6 +15185,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "getProfilingData",
           "package": "libcspm",
@@ -14067,6 +15199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "initialProfilerState",
           "package": "libcspm",
@@ -14076,6 +15209,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "initialProfilerState",
           "normalized": "ProfilerOptions-\u003eIO ProfilerState",
@@ -14114,6 +15248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "maybeRegisterCall",
           "package": "libcspm",
@@ -14123,6 +15258,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "maybeRegisterCall",
           "normalized": "EvaluationMonad(Name-\u003eEvaluationMonad a-\u003eEvaluationMonad a)",
@@ -14138,6 +15274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "profilerActive",
           "package": "libcspm",
@@ -14147,6 +15284,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "profilerActive",
           "normalized": "EvaluationState-\u003eBool",
@@ -14162,6 +15300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Profiler",
           "name": "registerCall",
           "package": "libcspm",
@@ -14171,6 +15310,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Profiler",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Profiler",
           "name": "registerCall",
           "normalized": "Name-\u003eEvaluationMonad a-\u003eEvaluationMonad a",
@@ -14186,6 +15326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValuePrettyPrinter",
           "name": "ValuePrettyPrinter",
           "package": "libcspm",
@@ -14194,6 +15335,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValuePrettyPrinter",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValuePrettyPrinter",
           "name": "ValuePrettyPrinter",
           "package": "libcspm",
@@ -14208,6 +15350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints the given process and all processes that it depends upon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValuePrettyPrinter",
           "name": "prettyPrintAllRequiredProcesses",
           "package": "libcspm",
@@ -14218,6 +15361,7 @@
         "index": {
           "description": "Pretty prints the given process and all processes that it depends upon",
           "hierarchy": "CSPM Evaluator ValuePrettyPrinter",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValuePrettyPrinter",
           "name": "prettyPrintAllRequiredProcesses",
           "normalized": "Proc a b ProcName c d e-\u003eDoc",
@@ -14234,6 +15378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a set implementation for machine CSP sets. This relies heavily\n on the type checking and assumes in many places that the sets being operated\n on are suitable for the opertion in question.\n\u003c/p\u003e\u003cp\u003eWe cannot just use the built in set implementation as FDR assumes in several\n places that infinite sets are allowed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "ValueSet",
           "package": "libcspm",
@@ -14243,6 +15388,7 @@
         "index": {
           "description": "Provides set implementation for machine CSP sets This relies heavily on the type checking and assumes in many places that the sets being operated on are suitable for the opertion in question We cannot just use the built in set implementation as FDR assumes in several places that infinite sets are allowed",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "ValueSet",
           "package": "libcspm",
@@ -14256,6 +15402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CartProductType",
           "package": "libcspm",
@@ -14264,6 +15411,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CartProductType",
           "package": "libcspm",
@@ -14277,6 +15425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "ValueSet",
           "package": "libcspm",
@@ -14285,6 +15434,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "ValueSet",
           "package": "libcspm",
@@ -14299,6 +15449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of all maps from the given domain to the given image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "AllMaps",
           "package": "libcspm",
@@ -14309,6 +15460,7 @@
         "index": {
           "description": "The set of all maps from the given domain to the given image",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "AllMaps",
           "package": "libcspm",
@@ -14323,6 +15475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set containing all sequences over the given set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "AllSequences",
           "package": "libcspm",
@@ -14333,6 +15486,7 @@
         "index": {
           "description": "set containing all sequences over the given set",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "AllSequences",
           "package": "libcspm",
@@ -14346,6 +15500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CartDot",
           "package": "libcspm",
@@ -14355,6 +15510,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CartDot",
           "package": "libcspm",
@@ -14368,6 +15524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CartTuple",
           "package": "libcspm",
@@ -14377,6 +15534,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CartTuple",
           "package": "libcspm",
@@ -14391,6 +15549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cartesian product of several sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CartesianProduct",
           "package": "libcspm",
@@ -14401,6 +15560,7 @@
         "index": {
           "description": "cartesian product of several sets",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CartesianProduct",
           "normalized": "CartesianProduct[ValueSet]CartProductType",
@@ -14417,6 +15577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA union of several sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CompositeSet",
           "package": "libcspm",
@@ -14427,6 +15588,7 @@
         "index": {
           "description": "union of several sets",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "CompositeSet",
           "package": "libcspm",
@@ -14441,6 +15603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicit set of values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "ExplicitSet",
           "package": "libcspm",
@@ -14451,6 +15614,7 @@
         "index": {
           "description": "An explicit set of values",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "ExplicitSet",
           "package": "libcspm",
@@ -14465,6 +15629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe infinite set of integers starting at lb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "IntSetFrom",
           "package": "libcspm",
@@ -14475,6 +15640,7 @@
         "index": {
           "description": "The infinite set of integers starting at lb",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "IntSetFrom",
           "package": "libcspm",
@@ -14489,6 +15655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of all integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "Integers",
           "package": "libcspm",
@@ -14499,6 +15666,7 @@
         "index": {
           "description": "Set of all integers",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "Integers",
           "package": "libcspm",
@@ -14513,6 +15681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe powerset of the given set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "Powerset",
           "package": "libcspm",
@@ -14523,6 +15692,7 @@
         "index": {
           "description": "The powerset of the given set",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "Powerset",
           "package": "libcspm",
@@ -14537,6 +15707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of all processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "Processes",
           "package": "libcspm",
@@ -14547,6 +15718,7 @@
         "index": {
           "description": "Set of all processes",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "Processes",
           "package": "libcspm",
@@ -14560,6 +15732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "allMaps",
           "package": "libcspm",
@@ -14569,6 +15742,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "allMaps",
           "normalized": "ValueSet-\u003eValueSet-\u003eValueSet",
@@ -14585,6 +15759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the set of all sequences over the input set. This is infinite\n so we use a CompositeSet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "allSequences",
           "package": "libcspm",
@@ -14595,6 +15770,7 @@
         "index": {
           "description": "Returns the set of all sequences over the input set This is infinite so we use CompositeSet",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "allSequences",
           "normalized": "ValueSet-\u003eValueSet",
@@ -14611,6 +15787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cardinality of the set. Throws an error if the set is infinite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "card",
           "package": "libcspm",
@@ -14621,6 +15798,7 @@
         "index": {
           "description": "The cardinality of the set Throws an error if the set is infinite",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "card",
           "normalized": "ValueSet-\u003eInteger",
@@ -14636,6 +15814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a ValueSet of the carteisan product of several ValueSets, \n using \u003ccode\u003evc\u003c/code\u003e to convert each sequence of values into a single value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "cartesianProduct",
           "package": "libcspm",
@@ -14646,6 +15825,7 @@
         "index": {
           "description": "Produces ValueSet of the carteisan product of several ValueSets using vc to convert each sequence of values into single value",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "cartesianProduct",
           "normalized": "CartProductType-\u003e[ValueSet]-\u003eValueSet",
@@ -14662,6 +15842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares two value sets using subseteq (as per the specification).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "compareValueSets",
           "package": "libcspm",
@@ -14672,6 +15853,7 @@
         "index": {
           "description": "Compares two value sets using subseteq as per the specification",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "compareValueSets",
           "normalized": "ValueSet-\u003eValueSet-\u003eMaybe Ordering",
@@ -14687,6 +15869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "difference",
           "package": "libcspm",
@@ -14696,6 +15879,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "difference",
           "normalized": "ValueSet-\u003eValueSet-\u003eValueSet",
@@ -14711,6 +15895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the specified set empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "empty",
           "package": "libcspm",
@@ -14721,6 +15906,7 @@
         "index": {
           "description": "Is the specified set empty",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "empty",
           "normalized": "ValueSet-\u003eBool",
@@ -14736,6 +15922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "emptySet",
           "package": "libcspm",
@@ -14746,6 +15933,7 @@
         "index": {
           "description": "The empty set",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "emptySet",
           "package": "libcspm",
@@ -14759,6 +15947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "fastUnDotCartProduct",
           "package": "libcspm",
@@ -14768,6 +15957,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "fastUnDotCartProduct",
           "normalized": "ValueSet-\u003eMaybe[ValueSet]",
@@ -14784,6 +15974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list to a set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "fromList",
           "package": "libcspm",
@@ -14794,6 +15985,7 @@
         "index": {
           "description": "Converts list to set",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "fromList",
           "normalized": "[Value]-\u003eValueSet",
@@ -14809,6 +16001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "infiniteUnions",
           "package": "libcspm",
@@ -14818,6 +16011,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "infiniteUnions",
           "normalized": "[ValueSet]-\u003eValueSet",
@@ -14834,6 +16028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersects two sets throwing an error if it cannot be done in a way that \n will terminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "intersection",
           "package": "libcspm",
@@ -14844,6 +16039,7 @@
         "index": {
           "description": "Intersects two sets throwing an error if it cannot be done in way that will terminate",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "intersection",
           "normalized": "ValueSet-\u003eValueSet-\u003eValueSet",
@@ -14859,6 +16055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated intersection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "intersections",
           "package": "libcspm",
@@ -14869,6 +16066,7 @@
         "index": {
           "description": "Replicated intersection",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "intersections",
           "normalized": "[ValueSet]-\u003eValueSet",
@@ -14884,6 +16082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the specified value a member of the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "member",
           "package": "libcspm",
@@ -14894,6 +16093,7 @@
         "index": {
           "description": "Is the specified value member of the set",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "member",
           "normalized": "Value-\u003eValueSet-\u003eBool",
@@ -14908,6 +16108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "powerset",
           "package": "libcspm",
@@ -14917,6 +16118,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "powerset",
           "normalized": "ValueSet-\u003eValueSet",
@@ -14932,6 +16134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value iff the set contains one item only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "singletonValue",
           "package": "libcspm",
@@ -14942,6 +16145,7 @@
         "index": {
           "description": "Returns the value iff the set contains one item only",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "singletonValue",
           "normalized": "ValueSet-\u003eMaybe Value",
@@ -14958,6 +16162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a set to list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "toList",
           "package": "libcspm",
@@ -14968,6 +16173,7 @@
         "index": {
           "description": "Converts set to list",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "toList",
           "normalized": "ValueSet-\u003e[Value]",
@@ -14983,6 +16189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "toSeq",
           "package": "libcspm",
@@ -14992,6 +16199,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "toSeq",
           "normalized": "ValueSet-\u003eSeq Value",
@@ -15008,6 +16216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to decompose the set into a cartesian product, returning Nothing\n if it cannot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "unDotProduct",
           "package": "libcspm",
@@ -15018,6 +16227,7 @@
         "index": {
           "description": "Attempts to decompose the set into cartesian product returning Nothing if it cannot",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "unDotProduct",
           "normalized": "ValueSet-\u003eMaybe[ValueSet]",
@@ -15034,6 +16244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion two sets throwing an error if it cannot be done in a way that will\n terminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "union",
           "package": "libcspm",
@@ -15044,6 +16255,7 @@
         "index": {
           "description": "Union two sets throwing an error if it cannot be done in way that will terminate",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "union",
           "normalized": "ValueSet-\u003eValueSet-\u003eValueSet",
@@ -15059,6 +16271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicated union.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "unions",
           "package": "libcspm",
@@ -15069,6 +16282,7 @@
         "index": {
           "description": "Replicated union",
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "unions",
           "normalized": "[ValueSet]-\u003eValueSet",
@@ -15083,6 +16297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "valueSetToEventSet",
           "package": "libcspm",
@@ -15092,6 +16307,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator ValueSet",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.ValueSet",
           "name": "valueSetToEventSet",
           "normalized": "ValueSet-\u003eEventSet",
@@ -15107,6 +16323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "Values",
           "package": "libcspm",
@@ -15115,6 +16332,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "Values",
           "package": "libcspm",
@@ -15128,6 +16346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "CSPOperator",
           "package": "libcspm",
@@ -15136,6 +16355,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "CSPOperator",
           "package": "libcspm",
@@ -15150,6 +16370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents, as represented in the LTS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "Event",
           "package": "libcspm",
@@ -15159,6 +16380,7 @@
         "index": {
           "description": "Events as represented in the LTS",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "Event",
           "package": "libcspm",
@@ -15172,6 +16394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "EventSet",
           "package": "libcspm",
@@ -15180,6 +16403,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "EventSet",
           "package": "libcspm",
@@ -15193,6 +16417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "FunctionIdentifier",
           "package": "libcspm",
@@ -15201,6 +16426,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "FunctionIdentifier",
           "package": "libcspm",
@@ -15215,6 +16441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled process. Note this is an infinite data structure (due to\n PProcCall) as this makes compilation easy (we can easily chase\n dependencies).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "Proc",
           "package": "libcspm",
@@ -15224,6 +16451,7 @@
         "index": {
           "description": "compiled process Note this is an infinite data structure due to PProcCall as this makes compilation easy we can easily chase dependencies",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "Proc",
           "package": "libcspm",
@@ -15238,6 +16466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operator that can be applied to processes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "ProcOperator",
           "package": "libcspm",
@@ -15247,6 +16476,7 @@
         "index": {
           "description": "An operator that can be applied to processes",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "ProcOperator",
           "package": "libcspm",
@@ -15261,6 +16491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA disambiguator between different occurences of either processes or\n functions. This works by storing the values that are bound (i.e. the free\n variables the inner \u003ccode\u003ething\u003c/code\u003e may depend on). This is used as a \u003ccode\u003e\u003ca\u003eProcName\u003c/a\u003e\u003c/code\u003e and\n for \u003ccode\u003e\u003ca\u003eFunctionIdentifier\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "ScopeIdentifier",
           "package": "libcspm",
@@ -15270,6 +16501,7 @@
         "index": {
           "description": "disambiguator between different occurences of either processes or functions This works by storing the values that are bound i.e the free variables the inner thing may depend on This is used as ProcName and for FunctionIdentifier",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "ScopeIdentifier",
           "package": "libcspm",
@@ -15283,6 +16515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "UProc",
           "package": "libcspm",
@@ -15291,6 +16524,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "UProc",
           "package": "libcspm",
@@ -15304,6 +16538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "UProcOperator",
           "package": "libcspm",
@@ -15312,6 +16547,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "UProcOperator",
           "package": "libcspm",
@@ -15325,6 +16561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "Value",
           "package": "libcspm",
@@ -15333,6 +16570,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "Value",
           "package": "libcspm",
@@ -15346,6 +16584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "FBuiltInFunction",
           "package": "libcspm",
@@ -15355,6 +16594,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "FBuiltInFunction",
           "package": "libcspm",
@@ -15368,6 +16608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "FLambda",
           "package": "libcspm",
@@ -15377,6 +16618,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "FLambda",
           "package": "libcspm",
@@ -15390,6 +16632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "FMatchBind",
           "package": "libcspm",
@@ -15399,6 +16642,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "FMatchBind",
           "package": "libcspm",
@@ -15412,6 +16656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "SFunctionBind",
           "package": "libcspm",
@@ -15421,6 +16666,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "SFunctionBind",
           "package": "libcspm",
@@ -15434,6 +16680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "SVariableBind",
           "package": "libcspm",
@@ -15443,6 +16690,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "SVariableBind",
           "package": "libcspm",
@@ -15456,6 +16704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VBool",
           "package": "libcspm",
@@ -15465,6 +16714,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VBool",
           "package": "libcspm",
@@ -15478,6 +16728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VChannel",
           "package": "libcspm",
@@ -15487,6 +16738,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VChannel",
           "package": "libcspm",
@@ -15500,6 +16752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VChar",
           "package": "libcspm",
@@ -15509,6 +16762,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VChar",
           "package": "libcspm",
@@ -15522,6 +16776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VDataType",
           "package": "libcspm",
@@ -15531,6 +16786,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VDataType",
           "package": "libcspm",
@@ -15545,6 +16801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf A is a datatype clause that has 3 fields a b c then a runtime\n instantiation of this would be VDot [VDataType \u003ca\u003eA\u003c/a\u003e, a, b, c] where a,b\n and c can contain other VDots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VDot",
           "package": "libcspm",
@@ -15555,6 +16812,7 @@
         "index": {
           "description": "If is datatype clause that has fields then runtime instantiation of this would be VDot VDataType where and can contain other VDots",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VDot",
           "normalized": "VDot[Value]",
@@ -15570,6 +16828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VFunction",
           "package": "libcspm",
@@ -15579,6 +16838,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VFunction",
           "normalized": "VFunction FunctionIdentifier([Value]-\u003eEvaluationMonad Value)",
@@ -15594,6 +16854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VInt",
           "package": "libcspm",
@@ -15603,6 +16864,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VInt",
           "package": "libcspm",
@@ -15616,6 +16878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VList",
           "package": "libcspm",
@@ -15625,6 +16888,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VList",
           "normalized": "VList[Value]",
@@ -15640,6 +16904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VMap",
           "package": "libcspm",
@@ -15649,6 +16914,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VMap",
           "package": "libcspm",
@@ -15662,6 +16928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VProc",
           "package": "libcspm",
@@ -15671,6 +16938,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VProc",
           "package": "libcspm",
@@ -15684,6 +16952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VSet",
           "package": "libcspm",
@@ -15693,6 +16962,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VSet",
           "package": "libcspm",
@@ -15706,6 +16976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VThunk",
           "package": "libcspm",
@@ -15715,6 +16986,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VThunk",
           "package": "libcspm",
@@ -15728,6 +17000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "VTuple",
           "package": "libcspm",
@@ -15737,6 +17010,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "VTuple",
           "package": "libcspm",
@@ -15750,6 +17024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "annonymousScopeId",
           "package": "libcspm",
@@ -15759,6 +17034,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "annonymousScopeId",
           "normalized": "[Value]-\u003eMaybe ScopeIdentifier-\u003eScopeIdentifier",
@@ -15774,6 +17050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "argumentGroups",
           "package": "libcspm",
@@ -15783,6 +17060,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "argumentGroups",
           "normalized": "[[Value]]",
@@ -15798,6 +17076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "arguments",
           "package": "libcspm",
@@ -15807,6 +17086,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "arguments",
           "normalized": "[Value]",
@@ -15822,6 +17102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements CSPM comparisons (note that Ord Value does not).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "compareValues",
           "package": "libcspm",
@@ -15832,6 +17113,7 @@
         "index": {
           "description": "Implements CSPM comparisons note that Ord Value does not",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "compareValues",
           "normalized": "Value-\u003eValue-\u003eMaybe Ordering",
@@ -15847,6 +17129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "functionName",
           "package": "libcspm",
@@ -15856,6 +17139,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "functionName",
           "package": "libcspm",
@@ -15869,6 +17153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "lambdaExpression",
           "package": "libcspm",
@@ -15878,6 +17163,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "lambdaExpression",
           "package": "libcspm",
@@ -15891,6 +17177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "lookupVar",
           "package": "libcspm",
@@ -15900,6 +17187,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "lookupVar",
           "normalized": "Name-\u003eEvaluationMonad Value",
@@ -15915,6 +17203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "maybeSave",
           "package": "libcspm",
@@ -15924,6 +17213,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "maybeSave",
           "normalized": "Type-\u003eEvaluationMonad Value-\u003eEvaluationMonad Value",
@@ -15940,6 +17230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a program that yields a value, returns a second program that can be\n inserted into the environment, but will cause the environment not to save\n the actual value, but to recompute it everytime. This is useful for cheap,\n to compute, but high cost in terms of memory, computations (like named\n processes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "noSave",
           "package": "libcspm",
@@ -15950,6 +17241,7 @@
         "index": {
           "description": "Given program that yields value returns second program that can be inserted into the environment but will cause the environment not to save the actual value but to recompute it everytime This is useful for cheap to compute but high cost in terms of memory computations like named processes",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "noSave",
           "normalized": "EvaluationMonad Value-\u003eEvaluationMonad Value",
@@ -15965,6 +17257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "parentFunctionIdentifier",
           "package": "libcspm",
@@ -15974,6 +17267,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "parentFunctionIdentifier",
           "package": "libcspm",
@@ -15987,6 +17281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "parentScopeIdentifier",
           "package": "libcspm",
@@ -15996,6 +17291,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "parentScopeIdentifier",
           "package": "libcspm",
@@ -16009,6 +17305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "procName",
           "package": "libcspm",
@@ -16018,6 +17315,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "procName",
           "normalized": "ScopeIdentifier-\u003eProcName",
@@ -16033,6 +17331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "removeThunk",
           "package": "libcspm",
@@ -16042,6 +17341,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "removeThunk",
           "normalized": "Value-\u003eEvaluationMonad Value",
@@ -16057,6 +17357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "scopeFunctionArguments",
           "package": "libcspm",
@@ -16066,6 +17367,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "scopeFunctionArguments",
           "normalized": "[[Value]]",
@@ -16081,6 +17383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "scopeFunctionName",
           "package": "libcspm",
@@ -16090,6 +17393,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "scopeFunctionName",
           "package": "libcspm",
@@ -16103,6 +17407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "scopeId",
           "package": "libcspm",
@@ -16112,6 +17417,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "scopeId",
           "normalized": "Name-\u003e[[Value]]-\u003eMaybe ScopeIdentifier-\u003eScopeIdentifier",
@@ -16128,6 +17434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe free variables this is bound in\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "scopeIdentifier",
           "package": "libcspm",
@@ -16138,6 +17445,7 @@
         "index": {
           "description": "The free variables this is bound in",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "scopeIdentifier",
           "package": "libcspm",
@@ -16151,6 +17459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "trimValueForProcessName",
           "package": "libcspm",
@@ -16160,6 +17469,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "trimValueForProcessName",
           "normalized": "Value-\u003eValue",
@@ -16175,6 +17485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "tupleFromList",
           "package": "libcspm",
@@ -16184,6 +17495,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "tupleFromList",
           "normalized": "[Value]-\u003eValue",
@@ -16200,6 +17512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis assumes that the value is a VDot with the left is a VChannel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "valueEventToEvent",
           "package": "libcspm",
@@ -16210,6 +17523,7 @@
         "index": {
           "description": "This assumes that the value is VDot with the left is VChannel",
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "valueEventToEvent",
           "normalized": "Value-\u003eEvent",
@@ -16225,6 +17539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator.Values",
           "name": "variablesBound",
           "package": "libcspm",
@@ -16234,6 +17549,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator Values",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator.Values",
           "name": "variablesBound",
           "normalized": "[Value]",
@@ -16249,6 +17565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "Evaluator",
           "package": "libcspm",
@@ -16257,6 +17574,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "Evaluator",
           "package": "libcspm",
@@ -16270,6 +17588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "EvaluationMonad",
           "package": "libcspm",
@@ -16278,6 +17597,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "EvaluationMonad",
           "package": "libcspm",
@@ -16291,6 +17611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "EvaluationState",
           "package": "libcspm",
@@ -16299,6 +17620,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "EvaluationState",
           "package": "libcspm",
@@ -16312,6 +17634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "EvaluatorOptions",
           "package": "libcspm",
@@ -16320,6 +17643,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "EvaluatorOptions",
           "package": "libcspm",
@@ -16333,6 +17657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "ProfilerOptions",
           "package": "libcspm",
@@ -16341,6 +17666,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "ProfilerOptions",
           "package": "libcspm",
@@ -16354,6 +17680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "ProfilingData",
           "package": "libcspm",
@@ -16362,6 +17689,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "ProfilingData",
           "package": "libcspm",
@@ -16398,6 +17726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "addToEnvironment",
           "package": "libcspm",
@@ -16407,6 +17736,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "addToEnvironment",
           "normalized": "[(Name,EvaluationMonad Value)]-\u003eEvaluationMonad EvaluationState",
@@ -16446,6 +17776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates the declaration but doesn't add it to the current environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "evaluateDecl",
           "package": "libcspm",
@@ -16456,6 +17787,7 @@
         "index": {
           "description": "Evaluates the declaration but doesn add it to the current environment",
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "evaluateDecl",
           "normalized": "TCDecl-\u003eEvaluationMonad[(Name,EvaluationMonad Value)]",
@@ -16471,6 +17803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "evaluateExp",
           "package": "libcspm",
@@ -16480,6 +17813,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "evaluateExp",
           "normalized": "TCExp-\u003eEvaluationMonad Value",
@@ -16496,6 +17830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates the declaration but doesn't add it to the current environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "evaluateFile",
           "package": "libcspm",
@@ -16506,6 +17841,7 @@
         "index": {
           "description": "Evaluates the declaration but doesn add it to the current environment",
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "evaluateFile",
           "normalized": "TCCSPMFile-\u003eEvaluationMonad[(Name,EvaluationMonad Value)]",
@@ -16522,6 +17858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe environment to use initially. This uses the IO monad as \n the EvaluationMonad cannot be used without a valid environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "initEvaluator",
           "package": "libcspm",
@@ -16532,6 +17869,7 @@
         "index": {
           "description": "The environment to use initially This uses the IO monad as the EvaluationMonad cannot be used without valid environment",
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "initEvaluator",
           "normalized": "EvaluatorOptions-\u003eIO EvaluationState",
@@ -16548,6 +17886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to convert a process name to a process, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "maybeProcessNameToProcess",
           "package": "libcspm",
@@ -16558,6 +17897,7 @@
         "index": {
           "description": "Attempts to convert process name to process if possible",
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "maybeProcessNameToProcess",
           "normalized": "ProcName-\u003eEvaluationMonad(Maybe UProc)",
@@ -16596,6 +17936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "profilingData",
           "package": "libcspm",
@@ -16605,6 +17946,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "profilingData",
           "package": "libcspm",
@@ -16618,6 +17960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Evaluator",
           "name": "runFromStateToState",
           "package": "libcspm",
@@ -16627,6 +17970,7 @@
         },
         "index": {
           "hierarchy": "CSPM Evaluator",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Evaluator",
           "name": "runFromStateToState",
           "normalized": "EvaluationState-\u003eEvaluationMonad a-\u003e(a,EvaluationState)",
@@ -16665,6 +18009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "Exceptions",
           "package": "libcspm",
@@ -16673,6 +18018,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "Exceptions",
           "package": "libcspm",
@@ -16686,6 +18032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "ambiguousTypeAnnotationsError",
           "package": "libcspm",
@@ -16695,6 +18042,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "ambiguousTypeAnnotationsError",
           "normalized": "UnRenamedName-\u003e[SrcSpan]-\u003eErrorMessage",
@@ -16710,6 +18058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "definitionSpanFileError",
           "package": "libcspm",
@@ -16719,6 +18068,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "definitionSpanFileError",
           "normalized": "PExp-\u003ePExp-\u003eSrcSpan-\u003eErrorMessage",
@@ -16734,6 +18084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "fileAccessErrorMessage",
           "package": "libcspm",
@@ -16743,6 +18094,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "fileAccessErrorMessage",
           "normalized": "FilePath-\u003eErrorMessage",
@@ -16758,6 +18110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidExpressionErrorMessage",
           "package": "libcspm",
@@ -16767,6 +18120,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidExpressionErrorMessage",
           "normalized": "PExp-\u003eErrorMessage",
@@ -16782,6 +18136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidFunctionArgsErrorMessage",
           "package": "libcspm",
@@ -16791,6 +18146,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidFunctionArgsErrorMessage",
           "normalized": "PSType-\u003eErrorMessage",
@@ -16806,6 +18162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidIncludeErrorMessage",
           "package": "libcspm",
@@ -16815,6 +18172,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidIncludeErrorMessage",
           "normalized": "SrcSpan-\u003eErrorMessage",
@@ -16830,6 +18188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidLetDeclarationErrorMessage",
           "package": "libcspm",
@@ -16839,6 +18198,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidLetDeclarationErrorMessage",
           "normalized": "PDecl-\u003eErrorMessage",
@@ -16854,6 +18214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidModuleDeclarationErrorMessage",
           "package": "libcspm",
@@ -16863,6 +18224,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidModuleDeclarationErrorMessage",
           "normalized": "PDecl-\u003eErrorMessage",
@@ -16878,6 +18240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidPatternErrorMessage",
           "package": "libcspm",
@@ -16887,6 +18250,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidPatternErrorMessage",
           "normalized": "PExp-\u003eErrorMessage",
@@ -16902,6 +18266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidTimedSectionDeclarationErrorMessage",
           "package": "libcspm",
@@ -16911,6 +18276,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "invalidTimedSectionDeclarationErrorMessage",
           "normalized": "PDecl-\u003eErrorMessage",
@@ -16926,6 +18292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "lexicalErrorMessage",
           "package": "libcspm",
@@ -16935,6 +18302,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "lexicalErrorMessage",
           "normalized": "SrcSpan-\u003eErrorMessage",
@@ -16950,6 +18318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "parseErrorMessage",
           "package": "libcspm",
@@ -16959,6 +18328,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "parseErrorMessage",
           "normalized": "LToken-\u003eErrorMessage",
@@ -17001,6 +18371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "unknownConstraintError",
           "package": "libcspm",
@@ -17010,6 +18381,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "unknownConstraintError",
           "normalized": "String-\u003eSrcSpan-\u003eErrorMessage",
@@ -17025,6 +18397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Exceptions",
           "name": "unusedTypeAnnotationsError",
           "package": "libcspm",
@@ -17034,6 +18407,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Exceptions",
           "name": "unusedTypeAnnotationsError",
           "normalized": "UnRenamedName-\u003eSrcSpan-\u003eErrorMessage",
@@ -17049,6 +18423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "Lexer",
           "package": "libcspm",
@@ -17057,6 +18432,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "Lexer",
           "package": "libcspm",
@@ -17070,6 +18446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAcc",
           "package": "libcspm",
@@ -17078,6 +18455,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAcc",
           "package": "libcspm",
@@ -17091,6 +18469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAccPred",
           "package": "libcspm",
@@ -17099,6 +18478,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAccPred",
           "package": "libcspm",
@@ -17112,6 +18492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAddr",
           "package": "libcspm",
@@ -17120,6 +18501,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAddr",
           "package": "libcspm",
@@ -17133,6 +18515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexInput",
           "package": "libcspm",
@@ -17141,6 +18524,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexInput",
           "package": "libcspm",
@@ -17154,6 +18538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexLastAcc",
           "package": "libcspm",
@@ -17162,6 +18547,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexLastAcc",
           "package": "libcspm",
@@ -17175,6 +18561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexReturn",
           "package": "libcspm",
@@ -17183,6 +18570,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexReturn",
           "package": "libcspm",
@@ -17196,6 +18584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexA#",
           "package": "libcspm",
@@ -17205,6 +18594,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexA#",
           "package": "libcspm",
@@ -17218,6 +18608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAcc",
           "package": "libcspm",
@@ -17227,6 +18618,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAcc",
           "package": "libcspm",
@@ -17240,6 +18632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAccPred",
           "package": "libcspm",
@@ -17249,6 +18642,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAccPred",
           "package": "libcspm",
@@ -17262,6 +18656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAccSkip",
           "package": "libcspm",
@@ -17271,6 +18666,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAccSkip",
           "package": "libcspm",
@@ -17284,6 +18680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAccSkipPred",
           "package": "libcspm",
@@ -17293,6 +18690,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexAccSkipPred",
           "package": "libcspm",
@@ -17306,6 +18704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexEOF",
           "package": "libcspm",
@@ -17315,6 +18714,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexEOF",
           "package": "libcspm",
@@ -17328,6 +18728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexError",
           "package": "libcspm",
@@ -17337,6 +18738,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexError",
           "package": "libcspm",
@@ -17350,6 +18752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexLastAcc",
           "package": "libcspm",
@@ -17359,6 +18762,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexLastAcc",
           "package": "libcspm",
@@ -17372,6 +18776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexLastSkip",
           "package": "libcspm",
@@ -17381,6 +18786,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexLastSkip",
           "package": "libcspm",
@@ -17394,6 +18800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexNone",
           "package": "libcspm",
@@ -17403,6 +18810,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexNone",
           "package": "libcspm",
@@ -17416,6 +18824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexSkip",
           "package": "libcspm",
@@ -17425,6 +18834,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexSkip",
           "package": "libcspm",
@@ -17438,6 +18848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexToken",
           "package": "libcspm",
@@ -17447,6 +18858,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "AlexToken",
           "package": "libcspm",
@@ -17460,6 +18872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexAndPred",
           "package": "libcspm",
@@ -17469,6 +18882,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexAndPred",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eBool)-\u003e(a-\u003ea-\u003ea-\u003ea-\u003eBool)-\u003ea-\u003ea-\u003ea-\u003ea-\u003eBool",
@@ -17484,6 +18898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexGetByte",
           "package": "libcspm",
@@ -17493,6 +18908,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexGetByte",
           "normalized": "AlexInput-\u003eMaybe(Word,AlexInput)",
@@ -17508,6 +18924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexGetChar",
           "package": "libcspm",
@@ -17517,6 +18934,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexGetChar",
           "normalized": "AlexInput-\u003eMaybe(Char,AlexInput)",
@@ -17532,6 +18950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexIndexInt16OffAddr",
           "package": "libcspm",
@@ -17541,6 +18960,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexIndexInt16OffAddr",
           "normalized": "AlexAddr-\u003eInt #-\u003eInt #",
@@ -17556,6 +18976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexIndexInt32OffAddr",
           "package": "libcspm",
@@ -17565,6 +18986,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexIndexInt32OffAddr",
           "normalized": "AlexAddr-\u003eInt #-\u003eInt #",
@@ -17580,6 +19002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexInputPrevChar",
           "package": "libcspm",
@@ -17589,6 +19012,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexInputPrevChar",
           "normalized": "AlexInput-\u003eChar",
@@ -17604,6 +19028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexPrevCharIs",
           "package": "libcspm",
@@ -17613,6 +19038,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexPrevCharIs",
           "normalized": "Char-\u003ea-\u003eAlexInput-\u003ea-\u003ea-\u003eBool",
@@ -17628,6 +19054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexPrevCharIsOneOf",
           "package": "libcspm",
@@ -17637,6 +19064,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexPrevCharIsOneOf",
           "normalized": "Array Char a-\u003eb-\u003eAlexInput-\u003eb-\u003eb-\u003ea",
@@ -17652,6 +19080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexPrevCharMatches",
           "package": "libcspm",
@@ -17661,6 +19090,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexPrevCharMatches",
           "normalized": "(Char-\u003ea)-\u003ea-\u003eAlexInput-\u003ea-\u003ea-\u003ea",
@@ -17676,6 +19106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexRightContext",
           "package": "libcspm",
@@ -17685,6 +19116,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexRightContext",
           "normalized": "Int-\u003eAlexAccPred(Any*)",
@@ -17700,6 +19132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexScan",
           "package": "libcspm",
@@ -17709,6 +19142,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexScan",
           "normalized": "ParserState-\u003eInt-\u003eAlexReturn(AlexInput-\u003eInt-\u003eParseMonad LToken)",
@@ -17724,6 +19158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alexScanUser",
           "package": "libcspm",
@@ -17733,6 +19168,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alexScanUser",
           "normalized": "Any*-\u003eParserState-\u003eInt-\u003eAlexReturn(AlexInput-\u003eInt-\u003eParseMonad LToken)",
@@ -17748,6 +19184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_accept",
           "package": "libcspm",
@@ -17757,6 +19194,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_accept",
           "normalized": "Array Int[AlexAcc(AlexInput-\u003eInt-\u003eParseMonad LToken)(Any*)]",
@@ -17771,6 +19209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_0",
           "package": "libcspm",
@@ -17780,6 +19219,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_0",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17794,6 +19234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_1",
           "package": "libcspm",
@@ -17803,6 +19244,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_1",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17817,6 +19259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_10",
           "package": "libcspm",
@@ -17826,6 +19269,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_10",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17840,6 +19284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_100",
           "package": "libcspm",
@@ -17849,6 +19294,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_100",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17863,6 +19309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_101",
           "package": "libcspm",
@@ -17872,6 +19319,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_101",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17886,6 +19334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_102",
           "package": "libcspm",
@@ -17895,6 +19344,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_102",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17909,6 +19359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_103",
           "package": "libcspm",
@@ -17918,6 +19369,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_103",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17932,6 +19384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_104",
           "package": "libcspm",
@@ -17941,6 +19394,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_104",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17955,6 +19409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_105",
           "package": "libcspm",
@@ -17964,6 +19419,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_105",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -17978,6 +19434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_106",
           "package": "libcspm",
@@ -17987,6 +19444,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_106",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18001,6 +19459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_107",
           "package": "libcspm",
@@ -18010,6 +19469,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_107",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18024,6 +19484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_108",
           "package": "libcspm",
@@ -18033,6 +19494,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_108",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18047,6 +19509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_109",
           "package": "libcspm",
@@ -18056,6 +19519,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_109",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18070,6 +19534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_11",
           "package": "libcspm",
@@ -18079,6 +19544,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_11",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18093,6 +19559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_110",
           "package": "libcspm",
@@ -18102,6 +19569,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_110",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18116,6 +19584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_111",
           "package": "libcspm",
@@ -18125,6 +19594,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_111",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18139,6 +19609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_112",
           "package": "libcspm",
@@ -18148,6 +19619,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_112",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18162,6 +19634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_113",
           "package": "libcspm",
@@ -18171,6 +19644,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_113",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18185,6 +19659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_114",
           "package": "libcspm",
@@ -18194,6 +19669,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_114",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18208,6 +19684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_115",
           "package": "libcspm",
@@ -18217,6 +19694,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_115",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18231,6 +19709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_116",
           "package": "libcspm",
@@ -18240,6 +19719,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_116",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18254,6 +19734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_117",
           "package": "libcspm",
@@ -18263,6 +19744,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_117",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18277,6 +19759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_118",
           "package": "libcspm",
@@ -18286,6 +19769,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_118",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18300,6 +19784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_119",
           "package": "libcspm",
@@ -18309,6 +19794,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_119",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18323,6 +19809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_12",
           "package": "libcspm",
@@ -18332,6 +19819,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_12",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18346,6 +19834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_120",
           "package": "libcspm",
@@ -18355,6 +19844,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_120",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18369,6 +19859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_121",
           "package": "libcspm",
@@ -18378,6 +19869,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_121",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18392,6 +19884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_122",
           "package": "libcspm",
@@ -18401,6 +19894,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_122",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18415,6 +19909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_123",
           "package": "libcspm",
@@ -18424,6 +19919,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_123",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18438,6 +19934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_124",
           "package": "libcspm",
@@ -18447,6 +19944,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_124",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18461,6 +19959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_125",
           "package": "libcspm",
@@ -18470,6 +19969,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_125",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18484,6 +19984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_13",
           "package": "libcspm",
@@ -18493,6 +19994,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_13",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18507,6 +20009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_14",
           "package": "libcspm",
@@ -18516,6 +20019,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_14",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18530,6 +20034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_15",
           "package": "libcspm",
@@ -18539,6 +20044,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_15",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18553,6 +20059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_16",
           "package": "libcspm",
@@ -18562,6 +20069,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_16",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18576,6 +20084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_17",
           "package": "libcspm",
@@ -18585,6 +20094,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_17",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18599,6 +20109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_18",
           "package": "libcspm",
@@ -18608,6 +20119,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_18",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18622,6 +20134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_19",
           "package": "libcspm",
@@ -18631,6 +20144,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_19",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18645,6 +20159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_2",
           "package": "libcspm",
@@ -18654,6 +20169,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_2",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18668,6 +20184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_20",
           "package": "libcspm",
@@ -18677,6 +20194,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_20",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18691,6 +20209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_21",
           "package": "libcspm",
@@ -18700,6 +20219,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_21",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18714,6 +20234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_22",
           "package": "libcspm",
@@ -18723,6 +20244,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_22",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18737,6 +20259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_23",
           "package": "libcspm",
@@ -18746,6 +20269,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_23",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18760,6 +20284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_24",
           "package": "libcspm",
@@ -18769,6 +20294,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_24",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18783,6 +20309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_25",
           "package": "libcspm",
@@ -18792,6 +20319,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_25",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18806,6 +20334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_26",
           "package": "libcspm",
@@ -18815,6 +20344,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_26",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18829,6 +20359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_27",
           "package": "libcspm",
@@ -18838,6 +20369,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_27",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18852,6 +20384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_28",
           "package": "libcspm",
@@ -18861,6 +20394,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_28",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18875,6 +20409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_29",
           "package": "libcspm",
@@ -18884,6 +20419,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_29",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18898,6 +20434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_3",
           "package": "libcspm",
@@ -18907,6 +20444,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_3",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18921,6 +20459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_30",
           "package": "libcspm",
@@ -18930,6 +20469,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_30",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18944,6 +20484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_31",
           "package": "libcspm",
@@ -18953,6 +20494,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_31",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18967,6 +20509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_32",
           "package": "libcspm",
@@ -18976,6 +20519,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_32",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -18990,6 +20534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_33",
           "package": "libcspm",
@@ -18999,6 +20544,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_33",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19013,6 +20559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_34",
           "package": "libcspm",
@@ -19022,6 +20569,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_34",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19036,6 +20584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_35",
           "package": "libcspm",
@@ -19045,6 +20594,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_35",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19059,6 +20609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_36",
           "package": "libcspm",
@@ -19068,6 +20619,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_36",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19082,6 +20634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_37",
           "package": "libcspm",
@@ -19091,6 +20644,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_37",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19105,6 +20659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_38",
           "package": "libcspm",
@@ -19114,6 +20669,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_38",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19128,6 +20684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_39",
           "package": "libcspm",
@@ -19137,6 +20694,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_39",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19151,6 +20709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_4",
           "package": "libcspm",
@@ -19160,6 +20719,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_4",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19174,6 +20734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_40",
           "package": "libcspm",
@@ -19183,6 +20744,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_40",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19197,6 +20759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_41",
           "package": "libcspm",
@@ -19206,6 +20769,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_41",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19220,6 +20784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_42",
           "package": "libcspm",
@@ -19229,6 +20794,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_42",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19243,6 +20809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_43",
           "package": "libcspm",
@@ -19252,6 +20819,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_43",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19266,6 +20834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_44",
           "package": "libcspm",
@@ -19275,6 +20844,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_44",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19289,6 +20859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_45",
           "package": "libcspm",
@@ -19298,6 +20869,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_45",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19312,6 +20884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_46",
           "package": "libcspm",
@@ -19321,6 +20894,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_46",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19335,6 +20909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_47",
           "package": "libcspm",
@@ -19344,6 +20919,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_47",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19358,6 +20934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_48",
           "package": "libcspm",
@@ -19367,6 +20944,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_48",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19381,6 +20959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_49",
           "package": "libcspm",
@@ -19390,6 +20969,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_49",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19404,6 +20984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_5",
           "package": "libcspm",
@@ -19413,6 +20994,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_5",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19427,6 +21009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_50",
           "package": "libcspm",
@@ -19436,6 +21019,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_50",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19450,6 +21034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_51",
           "package": "libcspm",
@@ -19459,6 +21044,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_51",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19473,6 +21059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_52",
           "package": "libcspm",
@@ -19482,6 +21069,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_52",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19496,6 +21084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_53",
           "package": "libcspm",
@@ -19505,6 +21094,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_53",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19519,6 +21109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_54",
           "package": "libcspm",
@@ -19528,6 +21119,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_54",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19542,6 +21134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_55",
           "package": "libcspm",
@@ -19551,6 +21144,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_55",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19565,6 +21159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_56",
           "package": "libcspm",
@@ -19574,6 +21169,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_56",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19588,6 +21184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_57",
           "package": "libcspm",
@@ -19597,6 +21194,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_57",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19611,6 +21209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_58",
           "package": "libcspm",
@@ -19620,6 +21219,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_58",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19634,6 +21234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_59",
           "package": "libcspm",
@@ -19643,6 +21244,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_59",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19657,6 +21259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_6",
           "package": "libcspm",
@@ -19666,6 +21269,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_6",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19680,6 +21284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_60",
           "package": "libcspm",
@@ -19689,6 +21294,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_60",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19703,6 +21309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_61",
           "package": "libcspm",
@@ -19712,6 +21319,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_61",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19726,6 +21334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_62",
           "package": "libcspm",
@@ -19735,6 +21344,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_62",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19749,6 +21359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_63",
           "package": "libcspm",
@@ -19758,6 +21369,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_63",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19772,6 +21384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_64",
           "package": "libcspm",
@@ -19781,6 +21394,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_64",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19795,6 +21409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_65",
           "package": "libcspm",
@@ -19804,6 +21419,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_65",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19818,6 +21434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_66",
           "package": "libcspm",
@@ -19827,6 +21444,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_66",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19841,6 +21459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_67",
           "package": "libcspm",
@@ -19850,6 +21469,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_67",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19864,6 +21484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_68",
           "package": "libcspm",
@@ -19873,6 +21494,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_68",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19887,6 +21509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_69",
           "package": "libcspm",
@@ -19896,6 +21519,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_69",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19910,6 +21534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_7",
           "package": "libcspm",
@@ -19919,6 +21544,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_7",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -19933,6 +21559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_70",
           "package": "libcspm",
@@ -19942,6 +21569,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_70",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19956,6 +21584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_71",
           "package": "libcspm",
@@ -19965,6 +21594,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_71",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -19979,6 +21609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_72",
           "package": "libcspm",
@@ -19988,6 +21619,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_72",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -20002,6 +21634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_73",
           "package": "libcspm",
@@ -20011,6 +21644,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_73",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -20025,6 +21659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_74",
           "package": "libcspm",
@@ -20034,6 +21669,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_74",
           "normalized": "AlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -20048,6 +21684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_75",
           "package": "libcspm",
@@ -20057,6 +21694,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_75",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20071,6 +21709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_76",
           "package": "libcspm",
@@ -20080,6 +21719,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_76",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20094,6 +21734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_77",
           "package": "libcspm",
@@ -20103,6 +21744,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_77",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20117,6 +21759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_78",
           "package": "libcspm",
@@ -20126,6 +21769,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_78",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20140,6 +21784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_79",
           "package": "libcspm",
@@ -20149,6 +21794,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_79",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20163,6 +21809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_8",
           "package": "libcspm",
@@ -20172,6 +21819,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_8",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20186,6 +21834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_80",
           "package": "libcspm",
@@ -20195,6 +21844,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_80",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20209,6 +21859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_81",
           "package": "libcspm",
@@ -20218,6 +21869,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_81",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20232,6 +21884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_82",
           "package": "libcspm",
@@ -20241,6 +21894,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_82",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20255,6 +21909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_83",
           "package": "libcspm",
@@ -20264,6 +21919,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_83",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20278,6 +21934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_84",
           "package": "libcspm",
@@ -20287,6 +21944,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_84",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20301,6 +21959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_85",
           "package": "libcspm",
@@ -20310,6 +21969,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_85",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20324,6 +21984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_86",
           "package": "libcspm",
@@ -20333,6 +21994,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_86",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20347,6 +22009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_87",
           "package": "libcspm",
@@ -20356,6 +22019,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_87",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20370,6 +22034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_88",
           "package": "libcspm",
@@ -20379,6 +22044,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_88",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20393,6 +22059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_89",
           "package": "libcspm",
@@ -20402,6 +22069,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_89",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20416,6 +22084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_9",
           "package": "libcspm",
@@ -20425,6 +22094,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_9",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20439,6 +22109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_90",
           "package": "libcspm",
@@ -20448,6 +22119,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_90",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20462,6 +22134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_91",
           "package": "libcspm",
@@ -20471,6 +22144,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_91",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20485,6 +22159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_92",
           "package": "libcspm",
@@ -20494,6 +22169,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_92",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20508,6 +22184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_93",
           "package": "libcspm",
@@ -20517,6 +22194,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_93",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20531,6 +22209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_94",
           "package": "libcspm",
@@ -20540,6 +22219,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_94",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20554,6 +22234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_95",
           "package": "libcspm",
@@ -20563,6 +22244,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_95",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20577,6 +22259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_96",
           "package": "libcspm",
@@ -20586,6 +22269,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_96",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20600,6 +22284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_97",
           "package": "libcspm",
@@ -20609,6 +22294,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_97",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20623,6 +22309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_98",
           "package": "libcspm",
@@ -20632,6 +22319,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_98",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20646,6 +22334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_99",
           "package": "libcspm",
@@ -20655,6 +22344,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_action_99",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20669,6 +22359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_base",
           "package": "libcspm",
@@ -20678,6 +22369,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_base",
           "package": "libcspm",
@@ -20690,6 +22382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_check",
           "package": "libcspm",
@@ -20699,6 +22392,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_check",
           "package": "libcspm",
@@ -20711,6 +22405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_deflt",
           "package": "libcspm",
@@ -20720,6 +22415,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_deflt",
           "package": "libcspm",
@@ -20732,6 +22428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_scan_tkn",
           "package": "libcspm",
@@ -20741,6 +22438,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_scan_tkn",
           "normalized": "Any*-\u003eParserState-\u003eInt #-\u003eParserState-\u003eInt #-\u003eAlexLastAcc(AlexInput-\u003eInt-\u003eParseMonad LToken)-\u003e(AlexLastAcc(AlexInput-\u003eInt-\u003eParseMonad LToken),ParserState)",
@@ -20755,6 +22453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_table",
           "package": "libcspm",
@@ -20764,6 +22463,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "alex_table",
           "package": "libcspm",
@@ -20776,6 +22476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "assert",
           "package": "libcspm",
@@ -20785,6 +22486,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "assert",
           "package": "libcspm",
@@ -20797,6 +22499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "begin",
           "package": "libcspm",
@@ -20806,6 +22509,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "begin",
           "normalized": "Int-\u003eAlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20820,6 +22524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "begin'",
           "package": "libcspm",
@@ -20829,6 +22534,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "begin'",
           "normalized": "Int-\u003eToken-\u003eAlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20843,6 +22549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "closeseq",
           "package": "libcspm",
@@ -20852,6 +22559,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "closeseq",
           "normalized": "Token-\u003eAlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -20866,6 +22574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "getNextToken",
           "package": "libcspm",
@@ -20875,6 +22584,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "getNextToken",
           "package": "libcspm",
@@ -20888,6 +22598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "getNextTokenWrapper",
           "package": "libcspm",
@@ -20897,6 +22608,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "getNextTokenWrapper",
           "normalized": "(LToken-\u003eParseMonad a)-\u003eParseMonad a",
@@ -20912,6 +22624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "gt",
           "package": "libcspm",
@@ -20921,6 +22634,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "gt",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -20935,6 +22649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "iUnbox",
           "package": "libcspm",
@@ -20944,6 +22659,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "iUnbox",
           "normalized": "Int-\u003eInt #",
@@ -20960,6 +22676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003estrip\u003c/a\u003e\u003c/code\u003e, but applies only to the left side of the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "lstrip",
           "package": "libcspm",
@@ -20970,6 +22687,7 @@
         "index": {
           "description": "Same as strip but applies only to the left side of the string",
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "lstrip",
           "normalized": "String-\u003eString",
@@ -20984,6 +22702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "nestedComment",
           "package": "libcspm",
@@ -20993,6 +22712,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "nestedComment",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -21008,6 +22728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "openseq",
           "package": "libcspm",
@@ -21017,6 +22738,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "openseq",
           "normalized": "Token-\u003eAlexInput-\u003eInt-\u003eStateT ParserState IO LToken",
@@ -21031,6 +22753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "quickIndex",
           "package": "libcspm",
@@ -21040,6 +22763,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "quickIndex",
           "normalized": "Array Int[AlexAcc(AlexInput-\u003eInt-\u003eParseMonad LToken)(Any*)]-\u003eInt-\u003e[AlexAcc(AlexInput-\u003eInt-\u003eParseMonad LToken)(Any*)]",
@@ -21056,6 +22780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003estrip\u003c/a\u003e\u003c/code\u003e, but applies only to the right side of the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "rstrip",
           "package": "libcspm",
@@ -21066,6 +22791,7 @@
         "index": {
           "description": "Same as strip but applies only to the right side of the string",
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "rstrip",
           "normalized": "String-\u003eString",
@@ -21080,6 +22806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "sem_prop",
           "package": "libcspm",
@@ -21089,6 +22816,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "sem_prop",
           "package": "libcspm",
@@ -21101,6 +22829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "skip",
           "package": "libcspm",
@@ -21110,6 +22839,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "skip",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -21124,6 +22854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "soak",
           "package": "libcspm",
@@ -21133,6 +22864,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "soak",
           "package": "libcspm",
@@ -21145,6 +22877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "soakTok",
           "package": "libcspm",
@@ -21154,6 +22887,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "soakTok",
           "normalized": "Token-\u003eAlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -21169,6 +22903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "soakTok'",
           "package": "libcspm",
@@ -21178,6 +22913,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "soakTok'",
           "normalized": "Token-\u003eAlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -21193,6 +22929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "stok",
           "package": "libcspm",
@@ -21202,6 +22939,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "stok",
           "normalized": "(String-\u003eToken)-\u003eAlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -21216,6 +22954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "strip",
           "package": "libcspm",
@@ -21225,6 +22964,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "strip",
           "normalized": "String-\u003eString",
@@ -21239,6 +22979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "switchInput",
           "package": "libcspm",
@@ -21248,6 +22989,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "switchInput",
           "normalized": "AlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -21263,6 +23005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "takeChars",
           "package": "libcspm",
@@ -21272,6 +23015,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "takeChars",
           "normalized": "Int-\u003e[FileParserState]-\u003eString",
@@ -21287,6 +23031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "tok",
           "package": "libcspm",
@@ -21296,6 +23041,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "tok",
           "normalized": "Token-\u003eAlexInput-\u003eInt-\u003eParseMonad LToken",
@@ -21310,6 +23056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Lexer",
           "name": "wschars",
           "package": "libcspm",
@@ -21319,6 +23066,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Lexer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Lexer",
           "name": "wschars",
           "package": "libcspm",
@@ -21331,6 +23079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "Monad",
           "package": "libcspm",
@@ -21339,6 +23088,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "Monad",
           "package": "libcspm",
@@ -21352,6 +23102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "FileParserState",
           "package": "libcspm",
@@ -21360,6 +23111,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "FileParserState",
           "package": "libcspm",
@@ -21373,6 +23125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "FilePosition",
           "package": "libcspm",
@@ -21381,6 +23134,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "FilePosition",
           "package": "libcspm",
@@ -21394,6 +23148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "ParseMonad",
           "package": "libcspm",
@@ -21402,6 +23157,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "ParseMonad",
           "package": "libcspm",
@@ -21415,6 +23171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "ParserState",
           "package": "libcspm",
@@ -21423,6 +23180,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "ParserState",
           "package": "libcspm",
@@ -21436,6 +23194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "FileParserState",
           "package": "libcspm",
@@ -21445,6 +23204,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "FileParserState",
           "package": "libcspm",
@@ -21458,6 +23218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "FilePosition",
           "package": "libcspm",
@@ -21467,6 +23228,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "FilePosition",
           "package": "libcspm",
@@ -21480,6 +23242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "ParserState",
           "package": "libcspm",
@@ -21489,6 +23252,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "ParserState",
           "package": "libcspm",
@@ -21502,6 +23266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "currentStartCode",
           "package": "libcspm",
@@ -21511,6 +23276,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "currentStartCode",
           "package": "libcspm",
@@ -21524,6 +23290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "fileName",
           "package": "libcspm",
@@ -21533,6 +23300,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "fileName",
           "package": "libcspm",
@@ -21546,6 +23314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "filePositionToSrcLoc",
           "package": "libcspm",
@@ -21555,6 +23324,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "filePositionToSrcLoc",
           "normalized": "String-\u003eFilePosition-\u003eSrcSpan",
@@ -21570,6 +23340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "fileStack",
           "package": "libcspm",
@@ -21579,6 +23350,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "fileStack",
           "normalized": "[FileParserState]",
@@ -21594,6 +23366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "getCurrentStartCode",
           "package": "libcspm",
@@ -21603,6 +23376,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "getCurrentStartCode",
           "package": "libcspm",
@@ -21616,6 +23390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "getFileName",
           "package": "libcspm",
@@ -21625,6 +23400,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "getFileName",
           "package": "libcspm",
@@ -21638,6 +23414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "getInput",
           "package": "libcspm",
@@ -21647,6 +23424,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "getInput",
           "package": "libcspm",
@@ -21660,6 +23438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "getParserState",
           "package": "libcspm",
@@ -21669,6 +23448,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "getParserState",
           "package": "libcspm",
@@ -21682,6 +23462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "getPreviousChar",
           "package": "libcspm",
@@ -21691,6 +23472,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "getPreviousChar",
           "package": "libcspm",
@@ -21704,6 +23486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "getSequenceStack",
           "package": "libcspm",
@@ -21713,6 +23496,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "getSequenceStack",
           "normalized": "ParseMonad[Int]",
@@ -21728,6 +23512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "getTokenizerPos",
           "package": "libcspm",
@@ -21737,6 +23522,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "getTokenizerPos",
           "package": "libcspm",
@@ -21750,6 +23536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "getTopFileParserState",
           "package": "libcspm",
@@ -21759,6 +23546,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "getTopFileParserState",
           "package": "libcspm",
@@ -21772,6 +23560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "input",
           "package": "libcspm",
@@ -21781,6 +23570,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "input",
           "package": "libcspm",
@@ -21793,6 +23583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "modifyTopFileParserState",
           "package": "libcspm",
@@ -21802,6 +23593,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "modifyTopFileParserState",
           "normalized": "(FileParserState-\u003eFileParserState)-\u003eParseMonad()",
@@ -21817,6 +23609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "movePos",
           "package": "libcspm",
@@ -21826,6 +23619,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "movePos",
           "normalized": "FilePosition-\u003eChar-\u003eFilePosition",
@@ -21841,6 +23635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "previousChar",
           "package": "libcspm",
@@ -21850,6 +23645,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "previousChar",
           "package": "libcspm",
@@ -21863,6 +23659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "pushFile",
           "package": "libcspm",
@@ -21872,6 +23669,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "pushFile",
           "normalized": "String-\u003eParseMonad a-\u003eParseMonad a",
@@ -21887,6 +23685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "pushFileContents",
           "package": "libcspm",
@@ -21896,6 +23695,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "pushFileContents",
           "normalized": "String-\u003eString-\u003eParseMonad()",
@@ -21911,6 +23711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "rootDir",
           "package": "libcspm",
@@ -21920,6 +23721,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "rootDir",
           "package": "libcspm",
@@ -21958,6 +23760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "sequenceStack",
           "package": "libcspm",
@@ -21967,6 +23770,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "sequenceStack",
           "normalized": "[Int]",
@@ -21982,6 +23786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "setCurrentStartCode",
           "package": "libcspm",
@@ -21991,6 +23796,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "setCurrentStartCode",
           "normalized": "Int-\u003eParseMonad()",
@@ -22006,6 +23812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "setParserState",
           "package": "libcspm",
@@ -22015,6 +23822,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "setParserState",
           "normalized": "ParserState-\u003eParseMonad()",
@@ -22030,6 +23838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "setSequenceStack",
           "package": "libcspm",
@@ -22039,6 +23848,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "setSequenceStack",
           "normalized": "[Int]-\u003eParseMonad()",
@@ -22054,6 +23864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Monad",
           "name": "tokenizerPos",
           "package": "libcspm",
@@ -22063,6 +23874,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Monad",
           "name": "tokenizerPos",
           "package": "libcspm",
@@ -22076,6 +23888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Parser",
           "name": "Parser",
           "package": "libcspm",
@@ -22084,6 +23897,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Parser",
           "name": "Parser",
           "package": "libcspm",
@@ -22097,6 +23911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Parser",
           "name": "parseExpression_",
           "package": "libcspm",
@@ -22106,6 +23921,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Parser",
           "name": "parseExpression_",
           "package": "libcspm",
@@ -22119,6 +23935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Parser",
           "name": "parseFile_",
           "package": "libcspm",
@@ -22128,6 +23945,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Parser",
           "name": "parseFile_",
           "package": "libcspm",
@@ -22141,6 +23959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Parser",
           "name": "parseInteractiveStmt_",
           "package": "libcspm",
@@ -22150,6 +23969,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Parser",
           "name": "parseInteractiveStmt_",
           "package": "libcspm",
@@ -22163,6 +23983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "Tokens",
           "package": "libcspm",
@@ -22171,6 +23992,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "Tokens",
           "package": "libcspm",
@@ -22184,6 +24006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "LToken",
           "package": "libcspm",
@@ -22192,6 +24015,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "LToken",
           "package": "libcspm",
@@ -22205,6 +24029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "Model",
           "package": "libcspm",
@@ -22213,6 +24038,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "Model",
           "package": "libcspm",
@@ -22226,6 +24052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "Token",
           "package": "libcspm",
@@ -22234,6 +24061,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "Token",
           "package": "libcspm",
@@ -22247,6 +24075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TAnd",
           "package": "libcspm",
@@ -22256,6 +24085,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TAnd",
           "package": "libcspm",
@@ -22269,6 +24099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TAssert",
           "package": "libcspm",
@@ -22278,6 +24109,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TAssert",
           "package": "libcspm",
@@ -22291,6 +24123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TAssertNot",
           "package": "libcspm",
@@ -22300,6 +24133,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TAssertNot",
           "package": "libcspm",
@@ -22313,6 +24147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TBackSlash",
           "package": "libcspm",
@@ -22322,6 +24157,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TBackSlash",
           "package": "libcspm",
@@ -22335,6 +24171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TChannel",
           "package": "libcspm",
@@ -22344,6 +24181,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TChannel",
           "package": "libcspm",
@@ -22357,6 +24195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TChar",
           "package": "libcspm",
@@ -22366,6 +24205,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TChar",
           "package": "libcspm",
@@ -22379,6 +24219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TCloseSeq",
           "package": "libcspm",
@@ -22388,6 +24229,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TCloseSeq",
           "package": "libcspm",
@@ -22401,6 +24243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TColon",
           "package": "libcspm",
@@ -22410,6 +24253,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TColon",
           "package": "libcspm",
@@ -22423,6 +24267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TComma",
           "package": "libcspm",
@@ -22432,6 +24277,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TComma",
           "package": "libcspm",
@@ -22445,6 +24291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TConcat",
           "package": "libcspm",
@@ -22454,6 +24301,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TConcat",
           "package": "libcspm",
@@ -22467,6 +24315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDataType",
           "package": "libcspm",
@@ -22476,6 +24325,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDataType",
           "package": "libcspm",
@@ -22489,6 +24339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDeadlockFree",
           "package": "libcspm",
@@ -22498,6 +24349,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDeadlockFree",
           "package": "libcspm",
@@ -22511,6 +24363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDefineEqual",
           "package": "libcspm",
@@ -22520,6 +24373,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDefineEqual",
           "package": "libcspm",
@@ -22533,6 +24387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDeterministic",
           "package": "libcspm",
@@ -22542,6 +24397,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDeterministic",
           "package": "libcspm",
@@ -22555,6 +24411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDivergenceFree",
           "package": "libcspm",
@@ -22564,6 +24421,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDivergenceFree",
           "package": "libcspm",
@@ -22577,6 +24435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDivide",
           "package": "libcspm",
@@ -22586,6 +24445,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDivide",
           "package": "libcspm",
@@ -22599,6 +24459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDollar",
           "package": "libcspm",
@@ -22608,6 +24469,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDollar",
           "package": "libcspm",
@@ -22621,6 +24483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDot",
           "package": "libcspm",
@@ -22630,6 +24493,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDot",
           "package": "libcspm",
@@ -22643,6 +24507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDoubleAt",
           "package": "libcspm",
@@ -22652,6 +24517,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDoubleAt",
           "package": "libcspm",
@@ -22665,6 +24531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDoubleDot",
           "package": "libcspm",
@@ -22674,6 +24541,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDoubleDot",
           "package": "libcspm",
@@ -22687,6 +24555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TDrawnFrom",
           "package": "libcspm",
@@ -22696,6 +24565,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TDrawnFrom",
           "package": "libcspm",
@@ -22709,6 +24579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TEOF",
           "package": "libcspm",
@@ -22718,6 +24589,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TEOF",
           "package": "libcspm",
@@ -22731,6 +24603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TElse",
           "package": "libcspm",
@@ -22740,6 +24613,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TElse",
           "package": "libcspm",
@@ -22753,6 +24627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TEmptySeq",
           "package": "libcspm",
@@ -22762,6 +24637,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TEmptySeq",
           "package": "libcspm",
@@ -22775,6 +24651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TEndModule",
           "package": "libcspm",
@@ -22784,6 +24661,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TEndModule",
           "package": "libcspm",
@@ -22797,6 +24675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TEq",
           "package": "libcspm",
@@ -22806,6 +24685,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TEq",
           "package": "libcspm",
@@ -22819,6 +24699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TExclamationMark",
           "package": "libcspm",
@@ -22828,6 +24709,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TExclamationMark",
           "package": "libcspm",
@@ -22841,6 +24723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TExports",
           "package": "libcspm",
@@ -22850,6 +24733,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TExports",
           "package": "libcspm",
@@ -22863,6 +24747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TExtChoice",
           "package": "libcspm",
@@ -22872,6 +24757,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TExtChoice",
           "package": "libcspm",
@@ -22885,6 +24771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TExternal",
           "package": "libcspm",
@@ -22894,6 +24781,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TExternal",
           "package": "libcspm",
@@ -22907,6 +24795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TFalse",
           "package": "libcspm",
@@ -22916,6 +24805,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TFalse",
           "package": "libcspm",
@@ -22929,6 +24819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TGt",
           "package": "libcspm",
@@ -22938,6 +24829,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TGt",
           "package": "libcspm",
@@ -22951,6 +24843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TGtEq",
           "package": "libcspm",
@@ -22960,6 +24853,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TGtEq",
           "package": "libcspm",
@@ -22973,6 +24867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TGuard",
           "package": "libcspm",
@@ -22982,6 +24877,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TGuard",
           "package": "libcspm",
@@ -22995,6 +24891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "THash",
           "package": "libcspm",
@@ -23004,6 +24901,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "THash",
           "package": "libcspm",
@@ -23017,6 +24915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TIdent",
           "package": "libcspm",
@@ -23026,6 +24925,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TIdent",
           "package": "libcspm",
@@ -23039,6 +24939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TIf",
           "package": "libcspm",
@@ -23048,6 +24949,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TIf",
           "package": "libcspm",
@@ -23061,6 +24963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TInstance",
           "package": "libcspm",
@@ -23070,6 +24973,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TInstance",
           "package": "libcspm",
@@ -23083,6 +24987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TIntChoice",
           "package": "libcspm",
@@ -23092,6 +24997,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TIntChoice",
           "package": "libcspm",
@@ -23105,6 +25011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TInteger",
           "package": "libcspm",
@@ -23114,6 +25021,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TInteger",
           "package": "libcspm",
@@ -23127,6 +25035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TInterleave",
           "package": "libcspm",
@@ -23136,6 +25045,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TInterleave",
           "package": "libcspm",
@@ -23149,6 +25059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TInterrupt",
           "package": "libcspm",
@@ -23158,6 +25069,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TInterrupt",
           "package": "libcspm",
@@ -23171,6 +25083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLBrace",
           "package": "libcspm",
@@ -23180,6 +25093,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLBrace",
           "package": "libcspm",
@@ -23193,6 +25107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLDoubleSqBracket",
           "package": "libcspm",
@@ -23202,6 +25117,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLDoubleSqBracket",
           "package": "libcspm",
@@ -23215,6 +25131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLMap",
           "package": "libcspm",
@@ -23224,6 +25141,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLMap",
           "package": "libcspm",
@@ -23237,6 +25155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLParen",
           "package": "libcspm",
@@ -23246,6 +25165,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLParen",
           "package": "libcspm",
@@ -23259,6 +25179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLPipeBrace",
           "package": "libcspm",
@@ -23268,6 +25189,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLPipeBrace",
           "package": "libcspm",
@@ -23281,6 +25203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLPipeSqBracket",
           "package": "libcspm",
@@ -23290,6 +25213,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLPipeSqBracket",
           "package": "libcspm",
@@ -23303,6 +25227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLSqBracket",
           "package": "libcspm",
@@ -23312,6 +25237,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLSqBracket",
           "package": "libcspm",
@@ -23325,6 +25251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLSyncExtChoice",
           "package": "libcspm",
@@ -23334,6 +25261,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLSyncExtChoice",
           "package": "libcspm",
@@ -23347,6 +25275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLSyncInterrupt",
           "package": "libcspm",
@@ -23356,6 +25285,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLSyncInterrupt",
           "package": "libcspm",
@@ -23369,6 +25299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLambdaDot",
           "package": "libcspm",
@@ -23378,6 +25309,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLambdaDot",
           "package": "libcspm",
@@ -23391,6 +25323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLet",
           "package": "libcspm",
@@ -23400,6 +25333,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLet",
           "package": "libcspm",
@@ -23413,6 +25347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLivelockFree",
           "package": "libcspm",
@@ -23422,6 +25357,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLivelockFree",
           "package": "libcspm",
@@ -23435,6 +25371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLt",
           "package": "libcspm",
@@ -23444,6 +25381,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLt",
           "package": "libcspm",
@@ -23457,6 +25395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TLtEq",
           "package": "libcspm",
@@ -23466,6 +25405,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TLtEq",
           "package": "libcspm",
@@ -23479,6 +25419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TMinus",
           "package": "libcspm",
@@ -23488,6 +25429,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TMinus",
           "package": "libcspm",
@@ -23501,6 +25443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TMod",
           "package": "libcspm",
@@ -23510,6 +25453,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TMod",
           "package": "libcspm",
@@ -23523,6 +25467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TModel",
           "package": "libcspm",
@@ -23532,6 +25477,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TModel",
           "package": "libcspm",
@@ -23545,6 +25491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TModule",
           "package": "libcspm",
@@ -23554,6 +25501,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TModule",
           "package": "libcspm",
@@ -23567,6 +25515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TNameType",
           "package": "libcspm",
@@ -23576,6 +25525,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TNameType",
           "package": "libcspm",
@@ -23589,6 +25539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TNewLine",
           "package": "libcspm",
@@ -23598,6 +25549,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TNewLine",
           "package": "libcspm",
@@ -23611,6 +25563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TNot",
           "package": "libcspm",
@@ -23620,6 +25573,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TNot",
           "package": "libcspm",
@@ -23633,6 +25587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TNotEq",
           "package": "libcspm",
@@ -23642,6 +25597,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TNotEq",
           "package": "libcspm",
@@ -23655,6 +25611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TOfType",
           "package": "libcspm",
@@ -23664,6 +25621,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TOfType",
           "package": "libcspm",
@@ -23677,6 +25635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TOr",
           "package": "libcspm",
@@ -23686,6 +25645,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TOr",
           "package": "libcspm",
@@ -23699,6 +25659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TParallel",
           "package": "libcspm",
@@ -23708,6 +25669,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TParallel",
           "package": "libcspm",
@@ -23721,6 +25683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TPipe",
           "package": "libcspm",
@@ -23730,6 +25693,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TPipe",
           "package": "libcspm",
@@ -23743,6 +25707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TPlus",
           "package": "libcspm",
@@ -23752,6 +25717,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TPlus",
           "package": "libcspm",
@@ -23765,6 +25731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TPrefix",
           "package": "libcspm",
@@ -23774,6 +25741,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TPrefix",
           "package": "libcspm",
@@ -23787,6 +25755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TPrint",
           "package": "libcspm",
@@ -23796,6 +25765,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TPrint",
           "package": "libcspm",
@@ -23809,6 +25779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TQuestionMark",
           "package": "libcspm",
@@ -23818,6 +25789,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TQuestionMark",
           "package": "libcspm",
@@ -23831,6 +25803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRBrace",
           "package": "libcspm",
@@ -23840,6 +25813,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRBrace",
           "package": "libcspm",
@@ -23853,6 +25827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRDoubleSqBracket",
           "package": "libcspm",
@@ -23862,6 +25837,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRDoubleSqBracket",
           "package": "libcspm",
@@ -23875,6 +25851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRException",
           "package": "libcspm",
@@ -23884,6 +25861,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRException",
           "package": "libcspm",
@@ -23897,6 +25875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRMap",
           "package": "libcspm",
@@ -23906,6 +25885,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRMap",
           "package": "libcspm",
@@ -23919,6 +25899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRParen",
           "package": "libcspm",
@@ -23928,6 +25909,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRParen",
           "package": "libcspm",
@@ -23941,6 +25923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRPipeBrace",
           "package": "libcspm",
@@ -23950,6 +25933,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRPipeBrace",
           "package": "libcspm",
@@ -23963,6 +25947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRPipeSqBracket",
           "package": "libcspm",
@@ -23972,6 +25957,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRPipeSqBracket",
           "package": "libcspm",
@@ -23985,6 +25971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRSqBracket",
           "package": "libcspm",
@@ -23994,6 +25981,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRSqBracket",
           "package": "libcspm",
@@ -24007,6 +25995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRSyncExtChoice",
           "package": "libcspm",
@@ -24016,6 +26005,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRSyncExtChoice",
           "package": "libcspm",
@@ -24029,6 +26019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRSyncInterrupt",
           "package": "libcspm",
@@ -24038,6 +26029,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRSyncInterrupt",
           "package": "libcspm",
@@ -24051,6 +26043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TRefines",
           "package": "libcspm",
@@ -24060,6 +26053,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TRefines",
           "package": "libcspm",
@@ -24073,6 +26067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TScope",
           "package": "libcspm",
@@ -24082,6 +26077,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TScope",
           "package": "libcspm",
@@ -24095,6 +26091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TSemiColon",
           "package": "libcspm",
@@ -24104,6 +26101,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TSemiColon",
           "package": "libcspm",
@@ -24117,6 +26115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TSlidingChoice",
           "package": "libcspm",
@@ -24126,6 +26125,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TSlidingChoice",
           "package": "libcspm",
@@ -24139,6 +26139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TString",
           "package": "libcspm",
@@ -24148,6 +26149,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TString",
           "package": "libcspm",
@@ -24161,6 +26163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TSubType",
           "package": "libcspm",
@@ -24170,6 +26173,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TSubType",
           "package": "libcspm",
@@ -24183,6 +26187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TTauPriority",
           "package": "libcspm",
@@ -24192,6 +26197,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TTauPriority",
           "package": "libcspm",
@@ -24205,6 +26211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TThen",
           "package": "libcspm",
@@ -24214,6 +26221,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TThen",
           "package": "libcspm",
@@ -24227,6 +26235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TTie",
           "package": "libcspm",
@@ -24236,6 +26245,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TTie",
           "package": "libcspm",
@@ -24249,6 +26259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TTimed",
           "package": "libcspm",
@@ -24258,6 +26269,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TTimed",
           "package": "libcspm",
@@ -24271,6 +26283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TTimes",
           "package": "libcspm",
@@ -24280,6 +26293,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TTimes",
           "package": "libcspm",
@@ -24293,6 +26307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TTransparent",
           "package": "libcspm",
@@ -24302,6 +26317,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TTransparent",
           "package": "libcspm",
@@ -24315,6 +26331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TTrue",
           "package": "libcspm",
@@ -24324,6 +26341,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TTrue",
           "package": "libcspm",
@@ -24337,6 +26355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TWildCard",
           "package": "libcspm",
@@ -24346,6 +26365,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TWildCard",
           "package": "libcspm",
@@ -24359,6 +26379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TWithin",
           "package": "libcspm",
@@ -24368,6 +26389,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TWithin",
           "package": "libcspm",
@@ -24381,6 +26403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TYield",
           "package": "libcspm",
@@ -24390,6 +26413,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TYield",
           "package": "libcspm",
@@ -24403,6 +26427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser.Tokens",
           "name": "TYieldStar",
           "package": "libcspm",
@@ -24412,6 +26437,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser Tokens",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser.Tokens",
           "name": "TYieldStar",
           "package": "libcspm",
@@ -24426,6 +26452,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module that parses CSPM modules.\n\u003c/p\u003e\u003cp\u003eThe biggest problem with parsing CSPM is that \u003e means both greater than\n and end sequence. For example, consider \u003ccode\u003e\u003cx | x \u003e 2\u003c/code\u003e and \u003ccode\u003e\u003cx | x \u003e 2 \u003e\u003c/code\u003e.\n Both of these are syntactically valid, but the parser has no way of deducing\n whether or not the first \u003ccode\u003e\u003e\u003c/code\u003e it sees is an end sequence or a greater than.\n\u003c/p\u003e\u003cp\u003eClearly, without an arbitrary lookahead it is not possible, in general, to\n solve this. Hence, we go for the 'shortest sequence' approach, in which\n whenever a \u003ccode\u003e\u003e\u003c/code\u003e is seen whilst a list is currently open, we assume that it\n closes the list.\n\u003c/p\u003e\u003cp\u003eFDR has a slightly more sophisticated scheme, but this depends on the fact\n that Bison happens to generate a lazy lookahead in this case, whereas Happy\n is never lazy in its lookahead token. In particular, FDR has a sequence\n stack of integers. The top value means the number of open sequence brackets\n it has seen so far. It lexes \u003ccode\u003e\u003c\u003c/code\u003e as normal, but whenever it decides that a\n \u003ccode\u003e\u003c\u003c/code\u003e token is a open sequence token, adds one to the current top of the\n sequence stack. Then, whenever a \u003ccode\u003e\u003e\u003c/code\u003e token is discovered it checks to see \n if the top value is non-zero, and if so lexes endseq, otherwise lexes gt. \n It then decrements the value of the top of the sequence stack in the \n parser. It uses a stack to allow it to open new contexts within parenthesis.\n\u003c/p\u003e\u003cp\u003eLaziness is required when scanning something like \u003ccode\u003e\u003c1\u003e \u003e \u003c1\u003e\u003c/code\u003e as, if it is\n not lazy then the second \u003ccode\u003e\u003e\u003c/code\u003e will be lexed just before the first \u003ccode\u003e\u003e\u003c/code\u003e is dealt\n with.\n\u003c/p\u003e\u003cp\u003eInstead, we decrement the top of the sequence stack within the lexer instead.\n I don't think this will cause a change in behaviour, as if the lexer lexes\n a _endseq token then it will definitely decrement the counter later (and\n it has already checked to make sure it is non-zero). However, we do keep\n the decision about \u003ccode\u003eLT\u003c/code\u003e being \u003ccode\u003eopenseq\u003c/code\u003e or \u003ccode\u003e\u003c\u003c/code\u003e in the parser as this can \n decide when this is the case (e.g. \u003ccode\u003ex \u003c\u003c/code\u003e means it must be a \u003ccode\u003eLT\u003c/code\u003e). \n\u003c/p\u003e\u003cp\u003eThe above is a problem in conjunction with nested brackets. For example,\n consider \u003ccode\u003e\u003c(0,1) | x\u003e\u003c/code\u003e; when we parse this we would take the \u003ccode\u003e(\u003c/code\u003e into the \n lookahead before we actually parse \u003ccode\u003e\u003c\u003c/code\u003e, meaning that when we push the \u003ccode\u003e1\u003c/code\u003e\n onto the sequence stack it actually goes onto the new top entry that is \n popped off after \u003ccode\u003e)\u003c/code\u003e is processed. Therefore, the \u003ccode\u003e\u003e\u003c/code\u003e will be parsed as a \n \u003ccode\u003eGT\u003c/code\u003e. To solve this we make sure that whenever we pop off the sequence \n stack we add any remaining open sequences onto the new top element. Clearly \n this would be unsafe if we were relying on this for parsing, but as we are \n not this should be fine and should cause no further ambiguities.\n\u003c/p\u003e\u003cp\u003eIt should be noted the above is a big hacky workaround, but I see no \n alternative without resorting to an arbitrary lookahead parser (like parsec)\n and its obvious inefficiency.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser",
           "name": "Parser",
           "package": "libcspm",
@@ -24435,6 +26462,7 @@
         "index": {
           "description": "module that parses CSPM modules The biggest problem with parsing CSPM is that means both greater than and end sequence For example consider and Both of these are syntactically valid but the parser has no way of deducing whether or not the first it sees is an end sequence or greater than Clearly without an arbitrary lookahead it is not possible in general to solve this Hence we go for the shortest sequence approach in which whenever is seen whilst list is currently open we assume that it closes the list FDR has slightly more sophisticated scheme but this depends on the fact that Bison happens to generate lazy lookahead in this case whereas Happy is never lazy in its lookahead token In particular FDR has sequence stack of integers The top value means the number of open sequence brackets it has seen so far It lexes as normal but whenever it decides that token is open sequence token adds one to the current top of the sequence stack Then whenever token is discovered it checks to see if the top value is non-zero and if so lexes endseq otherwise lexes gt It then decrements the value of the top of the sequence stack in the parser It uses stack to allow it to open new contexts within parenthesis Laziness is required when scanning something like as if it is not lazy then the second will be lexed just before the first is dealt with Instead we decrement the top of the sequence stack within the lexer instead don think this will cause change in behaviour as if the lexer lexes endseq token then it will definitely decrement the counter later and it has already checked to make sure it is non-zero However we do keep the decision about LT being openseq or in the parser as this can decide when this is the case e.g means it must be LT The above is problem in conjunction with nested brackets For example consider when we parse this we would take the into the lookahead before we actually parse meaning that when we push the onto the sequence stack it actually goes onto the new top entry that is popped off after is processed Therefore the will be parsed as GT To solve this we make sure that whenever we pop off the sequence stack we add any remaining open sequences onto the new top element Clearly this would be unsafe if we were relying on this for parsing but as we are not this should be fine and should cause no further ambiguities It should be noted the above is big hacky workaround but see no alternative without resorting to an arbitrary lookahead parser like parsec and its obvious inefficiency",
           "hierarchy": "CSPM Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser",
           "name": "Parser",
           "package": "libcspm",
@@ -24448,6 +26476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser",
           "name": "ParseMonad",
           "package": "libcspm",
@@ -24456,6 +26485,7 @@
         },
         "index": {
           "hierarchy": "CSPM Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser",
           "name": "ParseMonad",
           "package": "libcspm",
@@ -24470,6 +26500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string as an \u003ccode\u003e\u003ca\u003ePExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser",
           "name": "parseExpression",
           "package": "libcspm",
@@ -24480,6 +26511,7 @@
         "index": {
           "description": "Parses string as an PExp",
           "hierarchy": "CSPM Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser",
           "name": "parseExpression",
           "normalized": "String-\u003eParseMonad PExp",
@@ -24496,6 +26528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given file, returning the parsed \u003ccode\u003ePModule\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser",
           "name": "parseFile",
           "package": "libcspm",
@@ -24506,6 +26539,7 @@
         "index": {
           "description": "Parse the given file returning the parsed PModule",
           "hierarchy": "CSPM Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser",
           "name": "parseFile",
           "normalized": "String-\u003eParseMonad PCSPMFile",
@@ -24522,6 +26556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse as string as an \u003ccode\u003e\u003ca\u003ePInteractiveStmt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser",
           "name": "parseInteractiveStmt",
           "package": "libcspm",
@@ -24532,6 +26567,7 @@
         "index": {
           "description": "Parse as string as an PInteractiveStmt",
           "hierarchy": "CSPM Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser",
           "name": "parseInteractiveStmt",
           "normalized": "String-\u003eParseMonad PInteractiveStmt",
@@ -24548,6 +26584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string, as though it were an entire file, returning the parsed\n \u003ccode\u003ePModule\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Parser",
           "name": "parseStringAsFile",
           "package": "libcspm",
@@ -24558,6 +26595,7 @@
         "index": {
           "description": "Parse string as though it were an entire file returning the parsed PModule",
           "hierarchy": "CSPM Parser",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Parser",
           "name": "parseStringAsFile",
           "normalized": "String-\u003eParseMonad PCSPMFile",
@@ -24574,6 +26612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains all the builtin definitions for the input CSPM\n language.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "Prelude",
           "package": "libcspm",
@@ -24583,6 +26622,7 @@
         "index": {
           "description": "This module contains all the builtin definitions for the input CSPM language",
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "Prelude",
           "package": "libcspm",
@@ -24596,6 +26636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "BuiltIn",
           "package": "libcspm",
@@ -24604,6 +26645,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "BuiltIn",
           "package": "libcspm",
@@ -24617,6 +26659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "BuiltIn",
           "package": "libcspm",
@@ -24626,6 +26669,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "BuiltIn",
           "package": "libcspm",
@@ -24639,6 +26683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "builtins",
           "package": "libcspm",
@@ -24648,6 +26693,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "builtins",
           "normalized": "Bool-\u003e[BuiltIn]",
@@ -24662,6 +26708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "deprecatedReplacement",
           "package": "libcspm",
@@ -24671,6 +26718,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "deprecatedReplacement",
           "package": "libcspm",
@@ -24684,6 +26732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "externalFunctionForOccName",
           "package": "libcspm",
@@ -24693,6 +26742,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "externalFunctionForOccName",
           "normalized": "OccName-\u003eMaybe BuiltIn",
@@ -24708,6 +26758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "isDeprecated",
           "package": "libcspm",
@@ -24717,6 +26768,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "isDeprecated",
           "package": "libcspm",
@@ -24730,6 +26782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "isExternal",
           "package": "libcspm",
@@ -24739,6 +26792,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "isExternal",
           "package": "libcspm",
@@ -24752,6 +26806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "isHidden",
           "package": "libcspm",
@@ -24761,6 +26816,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "isHidden",
           "package": "libcspm",
@@ -24774,6 +26830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "isTransparent",
           "package": "libcspm",
@@ -24783,6 +26840,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "isTransparent",
           "package": "libcspm",
@@ -24796,6 +26854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "isTypeUnsafe",
           "package": "libcspm",
@@ -24805,6 +26864,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "isTypeUnsafe",
           "package": "libcspm",
@@ -24818,6 +26878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "name",
           "package": "libcspm",
@@ -24827,6 +26888,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "name",
           "package": "libcspm",
@@ -24839,6 +26901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "stringName",
           "package": "libcspm",
@@ -24848,6 +26911,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "stringName",
           "package": "libcspm",
@@ -24861,6 +26925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "transparentFunctionForOccName",
           "package": "libcspm",
@@ -24870,6 +26935,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "transparentFunctionForOccName",
           "normalized": "OccName-\u003eMaybe BuiltIn",
@@ -24885,6 +26951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Prelude",
           "name": "typeScheme",
           "package": "libcspm",
@@ -24894,6 +26961,7 @@
         },
         "index": {
           "hierarchy": "CSPM Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Prelude",
           "name": "typeScheme",
           "package": "libcspm",
@@ -24907,6 +26975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "libcspm",
@@ -24915,6 +26984,7 @@
         },
         "index": {
           "hierarchy": "CSPM PrettyPrinter",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "libcspm",
@@ -24928,6 +26998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.PrettyPrinter",
           "name": "prettyPrint",
           "package": "libcspm",
@@ -24937,6 +27008,7 @@
         },
         "index": {
           "hierarchy": "CSPM PrettyPrinter",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.PrettyPrinter",
           "name": "prettyPrint",
           "normalized": "a-\u003eDoc",
@@ -24952,6 +27024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.PrettyPrinter",
           "name": "prettyPrintMatch",
           "package": "libcspm",
@@ -24961,6 +27034,7 @@
         },
         "index": {
           "hierarchy": "CSPM PrettyPrinter",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.PrettyPrinter",
           "name": "prettyPrintMatch",
           "normalized": "a-\u003eAnMatch a-\u003eDoc",
@@ -24977,6 +27051,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenames all variables to unique Names, in the process converting all\n UnRenamedName into Name. This simplifies many subsequent phases as every\n name is guaranteed to be unique so flat maps may be used, rather than\n Hierarchical maps. Further, this also flags patterns that match channels\n and datatype clauses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Renamer",
           "name": "Renamer",
           "package": "libcspm",
@@ -24986,6 +27061,7 @@
         "index": {
           "description": "Renames all variables to unique Names in the process converting all UnRenamedName into Name This simplifies many subsequent phases as every name is guaranteed to be unique so flat maps may be used rather than Hierarchical maps Further this also flags patterns that match channels and datatype clauses",
           "hierarchy": "CSPM Renamer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Renamer",
           "name": "Renamer",
           "package": "libcspm",
@@ -24999,6 +27075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Renamer",
           "name": "RenamerMonad",
           "package": "libcspm",
@@ -25007,6 +27084,7 @@
         },
         "index": {
           "hierarchy": "CSPM Renamer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Renamer",
           "name": "RenamerMonad",
           "package": "libcspm",
@@ -25020,6 +27098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Renamer",
           "name": "RenamerState",
           "package": "libcspm",
@@ -25028,6 +27107,7 @@
         },
         "index": {
           "hierarchy": "CSPM Renamer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Renamer",
           "name": "RenamerState",
           "package": "libcspm",
@@ -25041,6 +27121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Renamer",
           "name": "getBoundNames",
           "package": "libcspm",
@@ -25050,6 +27131,7 @@
         },
         "index": {
           "hierarchy": "CSPM Renamer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Renamer",
           "name": "getBoundNames",
           "normalized": "RenamerMonad[Name]",
@@ -25066,6 +27148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialises the renamer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Renamer",
           "name": "initRenamer",
           "package": "libcspm",
@@ -25076,6 +27159,7 @@
         "index": {
           "description": "Initialises the renamer",
           "hierarchy": "CSPM Renamer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Renamer",
           "name": "initRenamer",
           "package": "libcspm",
@@ -25089,6 +27173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Renamer",
           "name": "newScope",
           "package": "libcspm",
@@ -25098,6 +27183,7 @@
         },
         "index": {
           "hierarchy": "CSPM Renamer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Renamer",
           "name": "newScope",
           "normalized": "RenamerMonad()",
@@ -25113,6 +27199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Renamer",
           "name": "rename",
           "package": "libcspm",
@@ -25122,6 +27209,7 @@
         },
         "index": {
           "hierarchy": "CSPM Renamer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Renamer",
           "name": "rename",
           "normalized": "a-\u003eRenamerMonad a",
@@ -25137,6 +27225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the renamer starting at the given state and returning the given state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.Renamer",
           "name": "runFromStateToState",
           "package": "libcspm",
@@ -25147,6 +27236,7 @@
         "index": {
           "description": "Runs the renamer starting at the given state and returning the given state",
           "hierarchy": "CSPM Renamer",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.Renamer",
           "name": "runFromStateToState",
           "normalized": "RenamerState-\u003eRenamerMonad a-\u003eIO(a,RenamerState)",
@@ -25162,6 +27252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.BuiltInFunctions",
           "name": "BuiltInFunctions",
           "package": "libcspm",
@@ -25170,6 +27261,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker BuiltInFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.BuiltInFunctions",
           "name": "BuiltInFunctions",
           "package": "libcspm",
@@ -25183,6 +27275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.BuiltInFunctions",
           "name": "injectBuiltInFunctions",
           "package": "libcspm",
@@ -25192,6 +27285,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker BuiltInFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.BuiltInFunctions",
           "name": "injectBuiltInFunctions",
           "normalized": "TypeCheckMonad()",
@@ -25207,6 +27301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "Common",
           "package": "libcspm",
@@ -25215,6 +27310,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "Common",
           "package": "libcspm",
@@ -25228,6 +27324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "TypeCheckable",
           "package": "libcspm",
@@ -25236,6 +27333,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "TypeCheckable",
           "package": "libcspm",
@@ -25249,6 +27347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureAreEqual",
           "package": "libcspm",
@@ -25258,6 +27357,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureAreEqual",
           "normalized": "[a]-\u003eTypeCheckMonad Type",
@@ -25273,6 +27373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureHasConstraint",
           "package": "libcspm",
@@ -25282,6 +27383,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureHasConstraint",
           "normalized": "Constraint-\u003eType-\u003eTypeCheckMonad Type",
@@ -25297,6 +27399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsBool",
           "package": "libcspm",
@@ -25306,6 +27409,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsBool",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25321,6 +27425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsChannel",
           "package": "libcspm",
@@ -25330,6 +27435,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsChannel",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25345,6 +27451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsEvent",
           "package": "libcspm",
@@ -25354,6 +27461,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsEvent",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25369,6 +27477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsExtendable",
           "package": "libcspm",
@@ -25378,6 +27487,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsExtendable",
           "normalized": "a-\u003eType-\u003eTypeCheckMonad b",
@@ -25393,6 +27503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsInt",
           "package": "libcspm",
@@ -25402,6 +27513,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsInt",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25417,6 +27529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsList",
           "package": "libcspm",
@@ -25426,6 +27539,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsList",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25441,6 +27555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsProc",
           "package": "libcspm",
@@ -25450,6 +27565,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsProc",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25465,6 +27581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsSet",
           "package": "libcspm",
@@ -25474,6 +27591,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "ensureIsSet",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25489,6 +27607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "errorContext",
           "package": "libcspm",
@@ -25498,6 +27617,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "errorContext",
           "normalized": "a-\u003eMaybe ErrorContext",
@@ -25513,6 +27633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "typeCheck",
           "package": "libcspm",
@@ -25522,6 +27643,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "typeCheck",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25537,6 +27659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "typeCheck'",
           "package": "libcspm",
@@ -25546,6 +27669,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "typeCheck'",
           "normalized": "a-\u003eTypeCheckMonad b",
@@ -25561,6 +27685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Common",
           "name": "typeCheckExpect",
           "package": "libcspm",
@@ -25570,6 +27695,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Common",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Common",
           "name": "typeCheckExpect",
           "normalized": "a-\u003eType-\u003eTypeCheckMonad b",
@@ -25586,6 +27712,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTraverses the AST filling in all the type information, ensuring that each\n type is fully compressed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Compressor",
           "name": "Compressor",
           "package": "libcspm",
@@ -25595,6 +27722,7 @@
         "index": {
           "description": "Traverses the AST filling in all the type information ensuring that each type is fully compressed",
           "hierarchy": "CSPM TypeChecker Compressor",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Compressor",
           "name": "Compressor",
           "package": "libcspm",
@@ -25608,6 +27736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Compressor",
           "name": "Compressable",
           "package": "libcspm",
@@ -25616,6 +27745,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Compressor",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Compressor",
           "name": "Compressable",
           "package": "libcspm",
@@ -25630,6 +27760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap compress.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Compressor",
           "name": "mcompress",
           "package": "libcspm",
@@ -25640,6 +27771,7 @@
         "index": {
           "description": "Map compress",
           "hierarchy": "CSPM TypeChecker Compressor",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Compressor",
           "name": "mcompress",
           "normalized": "a-\u003eTypeCheckMonad a",
@@ -25654,6 +27786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Decl",
           "name": "Decl",
           "package": "libcspm",
@@ -25662,6 +27795,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Decl",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Decl",
           "name": "Decl",
           "package": "libcspm",
@@ -25676,6 +27810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType check a list of possibly mutually recursive functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Decl",
           "name": "typeCheckDecls",
           "package": "libcspm",
@@ -25686,6 +27821,7 @@
         "index": {
           "description": "Type check list of possibly mutually recursive functions",
           "hierarchy": "CSPM TypeChecker Decl",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Decl",
           "name": "typeCheckDecls",
           "normalized": "[TCDecl]-\u003eTypeCheckMonad()",
@@ -25701,6 +27837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "Environment",
           "package": "libcspm",
@@ -25709,6 +27846,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "Environment",
           "package": "libcspm",
@@ -25722,6 +27860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "Environment",
           "package": "libcspm",
@@ -25730,6 +27869,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "Environment",
           "package": "libcspm",
@@ -25744,6 +27884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to represent information about a symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "SymbolInformation",
           "package": "libcspm",
@@ -25753,6 +27894,7 @@
         "index": {
           "description": "Used to represent information about symbol",
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "SymbolInformation",
           "package": "libcspm",
@@ -25766,6 +27908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "SymbolInformation",
           "package": "libcspm",
@@ -25775,6 +27918,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "SymbolInformation",
           "package": "libcspm",
@@ -25788,6 +27932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "bind",
           "package": "libcspm",
@@ -25797,6 +27942,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "bind",
           "normalized": "Environment-\u003e[(Name,SymbolInformation)]-\u003eEnvironment",
@@ -25811,6 +27957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "delete",
           "package": "libcspm",
@@ -25820,6 +27967,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "delete",
           "normalized": "Environment-\u003eName-\u003eEnvironment",
@@ -25834,6 +27982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "deprecationReplacement",
           "package": "libcspm",
@@ -25843,6 +27992,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "deprecationReplacement",
           "package": "libcspm",
@@ -25857,6 +28007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this symbol deprecated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "isDeprecated",
           "package": "libcspm",
@@ -25867,6 +28018,7 @@
         "index": {
           "description": "Is this symbol deprecated",
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "isDeprecated",
           "package": "libcspm",
@@ -25881,6 +28033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this symbols' type too general (if so\n use of it will emit a soundness warning)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "isTypeUnsafe",
           "package": "libcspm",
@@ -25891,6 +28044,7 @@
         "index": {
           "description": "Is this symbols type too general if so use of it will emit soundness warning",
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "isTypeUnsafe",
           "package": "libcspm",
@@ -25904,6 +28058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "maybeLookup",
           "package": "libcspm",
@@ -25913,6 +28068,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "maybeLookup",
           "normalized": "Environment-\u003eName-\u003eMaybe SymbolInformation",
@@ -25929,6 +28085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake symbol information for the type assuming that the symbol\n is not deprecated and its type is not unsafe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "mkSymbolInformation",
           "package": "libcspm",
@@ -25939,6 +28096,7 @@
         "index": {
           "description": "Make symbol information for the type assuming that the symbol is not deprecated and its type is not unsafe",
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "mkSymbolInformation",
           "normalized": "TypeScheme-\u003eSymbolInformation",
@@ -25954,6 +28112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "new",
           "package": "libcspm",
@@ -25963,6 +28122,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "new",
           "package": "libcspm",
@@ -25975,6 +28135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "toList",
           "package": "libcspm",
@@ -25984,6 +28145,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "toList",
           "normalized": "Environment-\u003e[(Name,SymbolInformation)]",
@@ -26000,6 +28162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "typeScheme",
           "package": "libcspm",
@@ -26010,6 +28173,7 @@
         "index": {
           "description": "The type of the symbol",
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "typeScheme",
           "package": "libcspm",
@@ -26023,6 +28187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Environment",
           "name": "update",
           "package": "libcspm",
@@ -26032,6 +28197,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Environment",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Environment",
           "name": "update",
           "normalized": "Environment-\u003eName-\u003eSymbolInformation-\u003eEnvironment",
@@ -26046,6 +28212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "Exceptions",
           "package": "libcspm",
@@ -26054,6 +28221,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "Exceptions",
           "package": "libcspm",
@@ -26067,6 +28235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "Error",
           "package": "libcspm",
@@ -26075,6 +28244,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "Error",
           "package": "libcspm",
@@ -26089,6 +28259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype used to hold which errors and warnings to actually emit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "ErrorOptions",
           "package": "libcspm",
@@ -26098,6 +28269,7 @@
         "index": {
           "description": "datatype used to hold which errors and warnings to actually emit",
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "ErrorOptions",
           "package": "libcspm",
@@ -26111,6 +28283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "Warning",
           "package": "libcspm",
@@ -26119,6 +28292,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "Warning",
           "package": "libcspm",
@@ -26132,6 +28306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "ErrorOptions",
           "package": "libcspm",
@@ -26141,6 +28316,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "ErrorOptions",
           "package": "libcspm",
@@ -26154,6 +28330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "constraintUnificationErrorMessage",
           "package": "libcspm",
@@ -26163,6 +28340,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "constraintUnificationErrorMessage",
           "normalized": "Constraint-\u003eType-\u003eError",
@@ -26178,6 +28356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "defaultErrorOptions",
           "package": "libcspm",
@@ -26187,6 +28366,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "defaultErrorOptions",
           "package": "libcspm",
@@ -26200,6 +28380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "deprecatedNameUsed",
           "package": "libcspm",
@@ -26209,6 +28390,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "deprecatedNameUsed",
           "normalized": "Name-\u003eMaybe Name-\u003eError",
@@ -26224,6 +28406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "illegalModuleInstanceCycleErrorMessage",
           "package": "libcspm",
@@ -26233,6 +28416,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "illegalModuleInstanceCycleErrorMessage",
           "normalized": "Name-\u003eName-\u003e[Name]-\u003eError",
@@ -26248,6 +28432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "incorrectArgumentCountMessage",
           "package": "libcspm",
@@ -26257,6 +28442,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "incorrectArgumentCountMessage",
           "normalized": "Doc-\u003eInt-\u003eInt-\u003eError",
@@ -26272,6 +28458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "infiniteUnificationMessage",
           "package": "libcspm",
@@ -26281,6 +28468,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "infiniteUnificationMessage",
           "normalized": "Type-\u003eType-\u003eError",
@@ -26296,6 +28484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "unificationErrorMessage",
           "package": "libcspm",
@@ -26305,6 +28494,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "unificationErrorMessage",
           "normalized": "[(Type,Type)]-\u003eError",
@@ -26320,6 +28510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "unsafeNameUsed",
           "package": "libcspm",
@@ -26329,6 +28520,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "unsafeNameUsed",
           "normalized": "Name-\u003eError",
@@ -26344,6 +28536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "warnDeprecatedNamesUsed",
           "package": "libcspm",
@@ -26353,6 +28546,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "warnDeprecatedNamesUsed",
           "package": "libcspm",
@@ -26366,6 +28560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "warnUnsafeNamesUsed",
           "package": "libcspm",
@@ -26375,6 +28570,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Exceptions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Exceptions",
           "name": "warnUnsafeNamesUsed",
           "package": "libcspm",
@@ -26388,6 +28584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Expr",
           "name": "Expr",
           "package": "libcspm",
@@ -26396,6 +28593,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Expr",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Expr",
           "name": "Expr",
           "package": "libcspm",
@@ -26409,6 +28607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.File",
           "name": "File",
           "package": "libcspm",
@@ -26417,6 +28616,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker File",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.File",
           "name": "File",
           "package": "libcspm",
@@ -26430,6 +28630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.InteractiveStmt",
           "name": "InteractiveStmt",
           "package": "libcspm",
@@ -26438,6 +28639,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker InteractiveStmt",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.InteractiveStmt",
           "name": "InteractiveStmt",
           "package": "libcspm",
@@ -26451,6 +28653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "Monad",
           "package": "libcspm",
@@ -26459,6 +28662,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "Monad",
           "package": "libcspm",
@@ -26472,6 +28676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "ErrorContext",
           "package": "libcspm",
@@ -26480,6 +28685,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "ErrorContext",
           "package": "libcspm",
@@ -26493,6 +28699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "TypeCheckMonad",
           "package": "libcspm",
@@ -26501,6 +28708,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "TypeCheckMonad",
           "package": "libcspm",
@@ -26514,6 +28722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "TypeInferenceState",
           "package": "libcspm",
@@ -26522,6 +28731,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "TypeInferenceState",
           "package": "libcspm",
@@ -26535,6 +28745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "TypeInferenceState",
           "package": "libcspm",
@@ -26544,6 +28755,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "TypeInferenceState",
           "package": "libcspm",
@@ -26557,6 +28769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "addDefinitionName",
           "package": "libcspm",
@@ -26566,6 +28779,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "addDefinitionName",
           "normalized": "Name-\u003eTypeCheckMonad a-\u003eTypeCheckMonad a",
@@ -26581,6 +28795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "addErrorContext",
           "package": "libcspm",
@@ -26590,6 +28805,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "addErrorContext",
           "normalized": "ErrorContext-\u003eTypeCheckMonad a-\u003eTypeCheckMonad a",
@@ -26605,6 +28821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "addUnificationPair",
           "package": "libcspm",
@@ -26614,6 +28831,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "addUnificationPair",
           "normalized": "(Type,Type)-\u003eTypeCheckMonad a-\u003eTypeCheckMonad a",
@@ -26629,6 +28847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "addWarning",
           "package": "libcspm",
@@ -26638,6 +28857,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "addWarning",
           "normalized": "(ErrorOptions-\u003eBool)-\u003eWarning-\u003eTypeCheckMonad()",
@@ -26654,6 +28874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of datatypes that can be compared for equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "comparableForEqualityDataTypes",
           "package": "libcspm",
@@ -26664,6 +28885,7 @@
         "index": {
           "description": "The set of datatypes that can be compared for equality",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "comparableForEqualityDataTypes",
           "normalized": "[Name]",
@@ -26680,6 +28902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a type and compresses the type by reading all type variables and\n if they point to another type, it returns that type instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "compress",
           "package": "libcspm",
@@ -26690,6 +28913,7 @@
         "index": {
           "description": "Takes type and compresses the type by reading all type variables and if they point to another type it returns that type instead",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "compress",
           "normalized": "Type-\u003eTypeCheckMonad Type",
@@ -26705,6 +28929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply compress to the type of a type scheme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "compressTypeScheme",
           "package": "libcspm",
@@ -26715,6 +28940,7 @@
         "index": {
           "description": "Apply compress to the type of type scheme",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "compressTypeScheme",
           "normalized": "TypeScheme-\u003eTypeCheckMonad TypeScheme",
@@ -26730,6 +28956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "datatypeIsComparableForEquality",
           "package": "libcspm",
@@ -26739,6 +28966,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "datatypeIsComparableForEquality",
           "normalized": "Name-\u003eTypeCheckMonad Bool",
@@ -26755,6 +28983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe stack of names that we are currently type-checking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "definitionStack",
           "package": "libcspm",
@@ -26765,6 +28994,7 @@
         "index": {
           "description": "The stack of names that we are currently type-checking",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "definitionStack",
           "normalized": "[Name]",
@@ -26780,6 +29010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "disallowSymmetricUnification",
           "package": "libcspm",
@@ -26789,6 +29020,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "disallowSymmetricUnification",
           "normalized": "TypeCheckMonad a-\u003eTypeCheckMonad a",
@@ -26805,6 +29037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type environment, which is a map from names to types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "environment",
           "package": "libcspm",
@@ -26815,6 +29048,7 @@
         "index": {
           "description": "The type environment which is map from names to types",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "environment",
           "package": "libcspm",
@@ -26828,6 +29062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError stack - provides context information for any\n errors that might be raised\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errorContexts",
           "package": "libcspm",
@@ -26838,6 +29073,7 @@
         "index": {
           "description": "Error stack provides context information for any errors that might be raised",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errorContexts",
           "normalized": "[ErrorContext]",
@@ -26854,6 +29090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReport the error if first parameter is False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errorIfFalse",
           "package": "libcspm",
@@ -26864,6 +29101,7 @@
         "index": {
           "description": "Report the error if first parameter is False",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errorIfFalse",
           "normalized": "Bool-\u003eError-\u003eTypeCheckMonad()",
@@ -26879,6 +29117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errorIfFalseM",
           "package": "libcspm",
@@ -26888,6 +29127,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errorIfFalseM",
           "normalized": "TypeCheckMonad Bool-\u003eError-\u003eTypeCheckMonad()",
@@ -26904,6 +29144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe error options to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errorOptions",
           "package": "libcspm",
@@ -26914,6 +29155,7 @@
         "index": {
           "description": "The error options to use",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errorOptions",
           "package": "libcspm",
@@ -26928,6 +29170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors that have occured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errors",
           "package": "libcspm",
@@ -26938,6 +29181,7 @@
         "index": {
           "description": "Errors that have occured",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "errors",
           "normalized": "[ErrorMessage]",
@@ -26952,6 +29196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "failM",
           "package": "libcspm",
@@ -26961,6 +29206,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "failM",
           "package": "libcspm",
@@ -26973,6 +29219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getDefinitionStack",
           "package": "libcspm",
@@ -26982,6 +29229,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getDefinitionStack",
           "normalized": "TypeCheckMonad[Name]",
@@ -26997,6 +29245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getEnvironment",
           "package": "libcspm",
@@ -27006,6 +29255,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getEnvironment",
           "package": "libcspm",
@@ -27019,6 +29269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getErrorContexts",
           "package": "libcspm",
@@ -27028,6 +29279,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getErrorContexts",
           "normalized": "TypeCheckMonad[ErrorContext]",
@@ -27043,6 +29295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getInError",
           "package": "libcspm",
@@ -27052,6 +29305,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getInError",
           "package": "libcspm",
@@ -27065,6 +29319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getSrcSpan",
           "package": "libcspm",
@@ -27074,6 +29329,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getSrcSpan",
           "package": "libcspm",
@@ -27087,6 +29343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getState",
           "package": "libcspm",
@@ -27096,6 +29353,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getState",
           "package": "libcspm",
@@ -27110,6 +29368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the type of \u003ccode\u003en\u003c/code\u003e and throw an exception if it doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getType",
           "package": "libcspm",
@@ -27120,6 +29379,7 @@
         "index": {
           "description": "Get the type of and throw an exception if it doesn exist",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getType",
           "normalized": "Name-\u003eTypeCheckMonad TypeScheme",
@@ -27135,6 +29395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getUnificationStack",
           "package": "libcspm",
@@ -27144,6 +29405,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getUnificationStack",
           "normalized": "TypeCheckMonad[(Type,Type)]",
@@ -27159,6 +29421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getWarnings",
           "package": "libcspm",
@@ -27168,6 +29431,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "getWarnings",
           "normalized": "TypeCheckMonad[ErrorMessage]",
@@ -27184,6 +29448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre we currently in an error state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "inError",
           "package": "libcspm",
@@ -27194,6 +29459,7 @@
         "index": {
           "description": "Are we currently in an error state",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "inError",
           "package": "libcspm",
@@ -27207,6 +29473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "isDeprecated",
           "package": "libcspm",
@@ -27216,6 +29483,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "isDeprecated",
           "normalized": "Name-\u003eTypeCheckMonad Bool",
@@ -27231,6 +29499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "isTypeUnsafe",
           "package": "libcspm",
@@ -27240,6 +29509,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "isTypeUnsafe",
           "normalized": "Name-\u003eTypeCheckMonad Bool",
@@ -27255,6 +29525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "local",
           "package": "libcspm",
@@ -27264,6 +29535,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "local",
           "normalized": "[Name]-\u003eTypeCheckMonad a-\u003eTypeCheckMonad a",
@@ -27278,6 +29550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "manyErrorsIfFalse",
           "package": "libcspm",
@@ -27287,6 +29560,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "manyErrorsIfFalse",
           "normalized": "Bool-\u003e[Error]-\u003eTypeCheckMonad()",
@@ -27302,6 +29576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "markAsDeprecated",
           "package": "libcspm",
@@ -27311,6 +29586,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "markAsDeprecated",
           "normalized": "Name-\u003eMaybe Name-\u003eTypeCheckMonad()",
@@ -27326,6 +29602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "markDatatypeAsComparableForEquality",
           "package": "libcspm",
@@ -27335,6 +29612,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "markDatatypeAsComparableForEquality",
           "normalized": "Name-\u003eTypeCheckMonad()",
@@ -27350,6 +29628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "markTypeAsUnsafe",
           "package": "libcspm",
@@ -27359,6 +29638,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "markTypeAsUnsafe",
           "normalized": "Name-\u003eTypeCheckMonad()",
@@ -27399,6 +29679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "newTypeInferenceState",
           "package": "libcspm",
@@ -27408,6 +29689,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "newTypeInferenceState",
           "package": "libcspm",
@@ -27447,6 +29729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "raiseMessageAsError",
           "package": "libcspm",
@@ -27456,6 +29739,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "raiseMessageAsError",
           "normalized": "Error-\u003eTypeCheckMonad a",
@@ -27472,6 +29756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReport a message as an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "raiseMessagesAsError",
           "package": "libcspm",
@@ -27482,6 +29767,7 @@
         "index": {
           "description": "Report message as an error",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "raiseMessagesAsError",
           "normalized": "[Error]-\u003eTypeCheckMonad a",
@@ -27497,6 +29783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "readTypeRef",
           "package": "libcspm",
@@ -27506,6 +29793,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "readTypeRef",
           "normalized": "TypeVarRef-\u003eTypeCheckMonad(Either(TypeVar,[Constraint])Type)",
@@ -27521,6 +29809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "replacementForDeprecatedName",
           "package": "libcspm",
@@ -27530,6 +29819,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "replacementForDeprecatedName",
           "normalized": "Name-\u003eTypeCheckMonad(Maybe Name)",
@@ -27545,6 +29835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "resetWarnings",
           "package": "libcspm",
@@ -27554,6 +29845,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "resetWarnings",
           "normalized": "TypeCheckMonad()",
@@ -27596,6 +29888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "setInError",
           "package": "libcspm",
@@ -27605,6 +29898,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "setInError",
           "normalized": "Bool-\u003eTypeCheckMonad a-\u003eTypeCheckMonad a",
@@ -27621,6 +29915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the SrcSpan only within prog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "setSrcSpan",
           "package": "libcspm",
@@ -27631,6 +29926,7 @@
         "index": {
           "description": "Sets the SrcSpan only within prog",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "setSrcSpan",
           "normalized": "SrcSpan-\u003eTypeCheckMonad a-\u003eTypeCheckMonad a",
@@ -27647,6 +29943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the type of n to be t in the current scope only. No unification is \n performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "setType",
           "package": "libcspm",
@@ -27657,6 +29954,7 @@
         "index": {
           "description": "Sets the type of to be in the current scope only No unification is performed",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "setType",
           "normalized": "Name-\u003eTypeScheme-\u003eTypeCheckMonad()",
@@ -27673,6 +29971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of the current AST element - used for error\n pretty printing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "srcSpan",
           "package": "libcspm",
@@ -27683,6 +29982,7 @@
         "index": {
           "description": "Location of the current AST element used for error pretty printing",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "srcSpan",
           "package": "libcspm",
@@ -27696,6 +29996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "symUnificationAllowed",
           "package": "libcspm",
@@ -27705,6 +30006,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "symUnificationAllowed",
           "package": "libcspm",
@@ -27718,6 +30020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "symmetricUnificationAllowed",
           "package": "libcspm",
@@ -27727,6 +30030,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "symmetricUnificationAllowed",
           "package": "libcspm",
@@ -27740,6 +30044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "tryAndRecover",
           "package": "libcspm",
@@ -27749,6 +30054,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "tryAndRecover",
           "normalized": "Bool-\u003eTypeCheckMonad a-\u003eTypeCheckMonad a-\u003eTypeCheckMonad a",
@@ -27765,6 +30071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStack of attempted unifications - the current one\n is at the front. In the form (expected, actual).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "unificationStack",
           "package": "libcspm",
@@ -27775,6 +30082,7 @@
         "index": {
           "description": "Stack of attempted unifications the current one is at the front In the form expected actual",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "unificationStack",
           "normalized": "[(Type,Type)]",
@@ -27790,6 +30098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "unmarkDatatypeAsComparableForEquality",
           "package": "libcspm",
@@ -27799,6 +30108,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "unmarkDatatypeAsComparableForEquality",
           "normalized": "Name-\u003eTypeCheckMonad()",
@@ -27815,6 +30125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of warnings that have occured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "warnings",
           "package": "libcspm",
@@ -27825,6 +30136,7 @@
         "index": {
           "description": "List of warnings that have occured",
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "warnings",
           "normalized": "[ErrorMessage]",
@@ -27839,6 +30151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Monad",
           "name": "writeTypeRef",
           "package": "libcspm",
@@ -27848,6 +30161,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Monad",
           "name": "writeTypeRef",
           "normalized": "TypeVarRef-\u003eType-\u003eTypeCheckMonad()",
@@ -27863,6 +30177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Pat",
           "name": "Pat",
           "package": "libcspm",
@@ -27871,6 +30186,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Pat",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Pat",
           "name": "Pat",
           "package": "libcspm",
@@ -27884,6 +30200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "Unification",
           "package": "libcspm",
@@ -27892,6 +30209,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "Unification",
           "package": "libcspm",
@@ -27905,6 +30223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "dotableToDotList",
           "package": "libcspm",
@@ -27914,6 +30233,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "dotableToDotList",
           "normalized": "Type-\u003eTypeCheckMonad([Type],Type)",
@@ -27930,6 +30250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a type and attempts to simplify all TDots inside\n by combining TDotable t1 t2 and arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "evaluateDots",
           "package": "libcspm",
@@ -27940,6 +30261,7 @@
         "index": {
           "description": "Takes type and attempts to simplify all TDots inside by combining TDotable t1 t2 and arguments",
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "evaluateDots",
           "normalized": "Type-\u003eTypeCheckMonad Type",
@@ -27956,6 +30278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralise the types of the declarations. The parameter \u003ccode\u003enames\u003c/code\u003e gives the \n names that were bound by all the declarations that we are interested in. This\n is done because we convert a type T into forall vs T where \n      vs = fvts (T) - fvts(Env)\n where Env does not contain the function whose type we are generalizing\n (this is because when we type a declaration we are really typing a \n lambda function).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "generaliseGroup",
           "package": "libcspm",
@@ -27966,6 +30289,7 @@
         "index": {
           "description": "Generalise the types of the declarations The parameter names gives the names that were bound by all the declarations that we are interested in This is done because we convert type into forall vs where vs fvts fvts Env where Env does not contain the function whose type we are generalizing this is because when we type declaration we are really typing lambda function",
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "generaliseGroup",
           "normalized": "[Name]-\u003e[TypeCheckMonad[(Name,Type)]]-\u003eTypeCheckMonad[[(Name,TypeScheme)]]",
@@ -27982,6 +30306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstantiates the typescheme with some fresh type variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "instantiate",
           "package": "libcspm",
@@ -27992,6 +30317,7 @@
         "index": {
           "description": "Instantiates the typescheme with some fresh type variables",
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "instantiate",
           "normalized": "TypeScheme-\u003eTypeCheckMonad Type",
@@ -28006,6 +30332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "instantiate'",
           "package": "libcspm",
@@ -28015,6 +30342,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "instantiate'",
           "normalized": "TypeScheme-\u003eTypeCheckMonad(Type,[(TypeVar,Type)])",
@@ -28029,6 +30357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "substituteTypes",
           "package": "libcspm",
@@ -28038,6 +30367,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "substituteTypes",
           "normalized": "[(TypeVar,Type)]-\u003eType-\u003eTypeCheckMonad Type",
@@ -28054,6 +30384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a type and converts TDot t1 t2 to [t1, t2].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "typeToDotList",
           "package": "libcspm",
@@ -28064,6 +30395,7 @@
         "index": {
           "description": "Takes type and converts TDot t1 t2 to t1 t2",
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "typeToDotList",
           "normalized": "Type-\u003eTypeCheckMonad[Type]",
@@ -28080,6 +30412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main type unification algorithm. This adds values to the unification \n stack in order to ensure error messages are helpful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "unify",
           "package": "libcspm",
@@ -28090,6 +30423,7 @@
         "index": {
           "description": "The main type unification algorithm This adds values to the unification stack in order to ensure error messages are helpful",
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "unify",
           "normalized": "Type-\u003eType-\u003eTypeCheckMonad Type",
@@ -28105,6 +30439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnifys all types to a single type. The first type is  used as the \n expected Type in error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker.Unification",
           "name": "unifyAll",
           "package": "libcspm",
@@ -28115,6 +30450,7 @@
         "index": {
           "description": "Unifys all types to single type The first type is used as the expected Type in error messages",
           "hierarchy": "CSPM TypeChecker Unification",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker.Unification",
           "name": "unifyAll",
           "normalized": "[Type]-\u003eTypeCheckMonad Type",
@@ -28130,6 +30466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "TypeChecker",
           "package": "libcspm",
@@ -28138,6 +30475,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "TypeChecker",
           "package": "libcspm",
@@ -28152,6 +30490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype used to hold which errors and warnings to actually emit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "ErrorOptions",
           "package": "libcspm",
@@ -28161,6 +30500,7 @@
         "index": {
           "description": "datatype used to hold which errors and warnings to actually emit",
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "ErrorOptions",
           "package": "libcspm",
@@ -28174,6 +30514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "TypeCheckMonad",
           "package": "libcspm",
@@ -28182,6 +30523,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "TypeCheckMonad",
           "package": "libcspm",
@@ -28195,6 +30537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "TypeInferenceState",
           "package": "libcspm",
@@ -28203,6 +30546,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "TypeInferenceState",
           "package": "libcspm",
@@ -28216,6 +30560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "initTypeChecker",
           "package": "libcspm",
@@ -28225,6 +30570,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "initTypeChecker",
           "package": "libcspm",
@@ -28238,6 +30584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "runFromStateToState",
           "package": "libcspm",
@@ -28247,6 +30594,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "runFromStateToState",
           "normalized": "TypeInferenceState-\u003eTypeCheckMonad a-\u003eIO(a,[ErrorMessage],TypeInferenceState)",
@@ -28262,6 +30610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "typeCheck",
           "package": "libcspm",
@@ -28271,6 +30620,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "typeCheck",
           "normalized": "a-\u003eTypeCheckMonad a",
@@ -28286,6 +30636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "typeCheckExpect",
           "package": "libcspm",
@@ -28295,6 +30646,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "typeCheckExpect",
           "normalized": "Type-\u003ea-\u003eTypeCheckMonad a",
@@ -28310,6 +30662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "typeOfExp",
           "package": "libcspm",
@@ -28319,6 +30672,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "typeOfExp",
           "normalized": "TCExp-\u003eTypeCheckMonad Type",
@@ -28334,6 +30688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM.TypeChecker",
           "name": "typeOfName",
           "package": "libcspm",
@@ -28343,6 +30698,7 @@
         },
         "index": {
           "hierarchy": "CSPM TypeChecker",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM.TypeChecker",
           "name": "typeOfName",
           "normalized": "Name-\u003eTypeCheckMonad TypeScheme",
@@ -28359,6 +30715,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the main high-level interface to the library \n functionality. It does this through a monadic interface, mainly due to the\n fact that several of the components require the use of the IO monad. It is\n highly recommended that users of this library use a monad and then implement\n the \u003ccode\u003e\u003ca\u003eCSPMMonad\u003c/a\u003e\u003c/code\u003e class on their own custom monad. An example of this is shown\n by the basic implementation of the \u003ccode\u003e\u003ca\u003eCSPM\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eThe main library datatype is exported by \u003ccode\u003e\u003ca\u003eSyntax\u003c/a\u003e\u003c/code\u003e, which\n provides an AST representation of machine CSP. Most of the pieces of syntax,\n like expressions (\u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e), are parametrised by the type of the variables that\n it contains. For more information see the comment at the top of the above\n module.\n\u003c/p\u003e\u003cp\u003eThe library exports several APIs which, in likely order of usage, are:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eParser\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Parses strings or files and produces an AST, parametrised\n        by \u003ccode\u003e\u003ca\u003eUnRenamedName\u003c/a\u003e\u003c/code\u003e, which are simply pieces of text.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eRenamer\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Renames the AST and produces an equivalent AST, but \n        parametrised by \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, which uniquely identify the binding instance\n        of each variable (see documentation of \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eType Checker\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Type checks an AST, in the process annotating it with\n        types.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDesugarer\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Desugars an AST, remove syntactic sugar and prepares it for\n        evaluation. The AST produced by this phase should not be pretty \n        printed as it parenthesis have been removed, potentially making it not\n        equivalent.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eEvaluator\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Evaluates an AST, returning a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e. Note that the \n        evaluator is lazy, meaning that the resulting Value will be generated\n        as it is consumed, making it suitable for streaming to subsequent\n        compilation phases.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eFor example, suppose we wish to evaluate the expression \u003ccode\u003etest(1,2,3)\u003c/code\u003e within\n the context of the file \u003ccode\u003etest.csp\u003c/code\u003e we could use the following segment of\n code:\n\u003c/p\u003e\u003cpre\u003e    main :: IO ()\n    main = do\n        session \u003c- newCSPMSession False\n        (value, resultingSession) \u003c- unCSPM session $ do\n            -- Parse the file, returning something of type PCSPMFile.\n            parsedFile \u003c- parseFile \"test.csp\"\n            -- Rename the file, returning something of type TCCSPMFile.\n            renamedFile \u003c- renameFile parsedFile\n            -- Typecheck the file, annotating it with types.\n            typeCheckedFile \u003c- typeCheckFile renamedFile\n            -- Desugar the file, returning the version ready for evaluation.\n            desugaredFile \u003c- desugarFile typeCheckedFile\n            -- Bind the file, making all functions and patterns available.\n            bindFile desugaredFile\n            \n            -- The file is now ready for use, so now we build the expression\n            -- to be evaluated.\n            parsedExpression \u003c- parseExpression \"test(1,2,3)\"\n            renamedExpression \u003c- renameExpression parsedExpression\n            typeCheckedExpression \u003c- typeCheckExpression renamedExpression\n            desugaredExpression \u003c- desugarExpression typeCheckedExpression\n\n            -- Evaluate the expression in the current context.\n            value \u003c- evaluateExpression desugaredExpression\n            return value\n        putStrLn (show (prettyPrint value))\n        return ()\n\u003c/pre\u003e\u003cp\u003eThis would pretty print the value of the expression to stdout.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "CSPM",
           "package": "libcspm",
@@ -28368,6 +30725,7 @@
         "index": {
           "description": "This module provides the main high-level interface to the library functionality It does this through monadic interface mainly due to the fact that several of the components require the use of the IO monad It is highly recommended that users of this library use monad and then implement the CSPMMonad class on their own custom monad An example of this is shown by the basic implementation of the CSPM monad The main library datatype is exported by Syntax which provides an AST representation of machine CSP Most of the pieces of syntax like expressions Exp are parametrised by the type of the variables that it contains For more information see the comment at the top of the above module The library exports several APIs which in likely order of usage are Parser Parses strings or files and produces an AST parametrised by UnRenamedName which are simply pieces of text Renamer Renames the AST and produces an equivalent AST but parametrised by Name which uniquely identify the binding instance of each variable see documentation of Name Type Checker Type checks an AST in the process annotating it with types Desugarer Desugars an AST remove syntactic sugar and prepares it for evaluation The AST produced by this phase should not be pretty printed as it parenthesis have been removed potentially making it not equivalent Evaluator Evaluates an AST returning Value Note that the evaluator is lazy meaning that the resulting Value will be generated as it is consumed making it suitable for streaming to subsequent compilation phases For example suppose we wish to evaluate the expression test within the context of the file test.csp we could use the following segment of code main IO main do session newCSPMSession False value resultingSession unCSPM session do Parse the file returning something of type PCSPMFile parsedFile parseFile test.csp Rename the file returning something of type TCCSPMFile renamedFile renameFile parsedFile Typecheck the file annotating it with types typeCheckedFile typeCheckFile renamedFile Desugar the file returning the version ready for evaluation desugaredFile desugarFile typeCheckedFile Bind the file making all functions and patterns available bindFile desugaredFile The file is now ready for use so now we build the expression to be evaluated parsedExpression parseExpression test renamedExpression renameExpression parsedExpression typeCheckedExpression typeCheckExpression renamedExpression desugaredExpression desugarExpression typeCheckedExpression Evaluate the expression in the current context value evaluateExpression desugaredExpression return value putStrLn show prettyPrint value return This would pretty print the value of the expression to stdout",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "CSPM",
           "package": "libcspm",
@@ -28382,6 +30740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic implementation of \u003ccode\u003e\u003ca\u003eCSPMMonad\u003c/a\u003e\u003c/code\u003e, using the \u003ccode\u003eStateT\u003c/code\u003e monad. This\n prints out any warnings to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "CSPM",
           "package": "libcspm",
@@ -28391,6 +30750,7 @@
         "index": {
           "description": "basic implementation of CSPMMonad using the StateT monad This prints out any warnings to stdout",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "CSPM",
           "package": "libcspm",
@@ -28405,6 +30765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CSPMMonad is the main monad in which all functions must be called.\n Whilst there is a build in representation (see \u003ccode\u003e\u003ca\u003eCSPM\u003c/a\u003e\u003c/code\u003e) it is recommended\n that you define an instance of \u003ccode\u003e\u003ca\u003eCSPMMonad\u003c/a\u003e\u003c/code\u003e over whatever monad you use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "CSPMMonad",
           "package": "libcspm",
@@ -28414,6 +30775,7 @@
         "index": {
           "description": "The CSPMMonad is the main monad in which all functions must be called Whilst there is build in representation see CSPM it is recommended that you define an instance of CSPMMonad over whatever monad you use",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "CSPMMonad",
           "package": "libcspm",
@@ -28428,6 +30790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCSPMSession\u003c/a\u003e\u003c/code\u003e represents the internal states of all the various\n components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "CSPMSession",
           "package": "libcspm",
@@ -28437,6 +30800,7 @@
         "index": {
           "description": "CSPMSession represents the internal states of all the various components",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "CSPMSession",
           "package": "libcspm",
@@ -28450,6 +30814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "EvaluatorOptions",
           "package": "libcspm",
@@ -28458,6 +30823,7 @@
         },
         "index": {
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "EvaluatorOptions",
           "package": "libcspm",
@@ -28471,6 +30837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "ProfilerOptions",
           "package": "libcspm",
@@ -28479,6 +30846,7 @@
         },
         "index": {
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "ProfilerOptions",
           "package": "libcspm",
@@ -28493,6 +30861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a declaration and adds it to the current environment. Requires the\n declaration to be desugared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "bindDeclaration",
           "package": "libcspm",
@@ -28503,6 +30872,7 @@
         "index": {
           "description": "Takes declaration and adds it to the current environment Requires the declaration to be desugared",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "bindDeclaration",
           "normalized": "TCDecl-\u003ea()",
@@ -28519,6 +30889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds all the declarations that are in a particular file. Requires the\n file to be desugared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "bindFile",
           "package": "libcspm",
@@ -28529,6 +30900,7 @@
         "index": {
           "description": "Binds all the declarations that are in particular file Requires the file to be desugared",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "bindFile",
           "normalized": "TCCSPMFile-\u003ea()",
@@ -28545,6 +30917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all currently bound process names, optionally including functions\n that evaluate to processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "boundProcessNames",
           "package": "libcspm",
@@ -28554,6 +30927,7 @@
         "index": {
           "description": "Returns all currently bound process names optionally including functions that evaluate to processes",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "boundProcessNames",
           "normalized": "Bool-\u003ea[Name]",
@@ -28570,6 +30944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugars an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "desugarExpression",
           "package": "libcspm",
@@ -28580,6 +30955,7 @@
         "index": {
           "description": "Desugars an expression",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "desugarExpression",
           "normalized": "TCExp-\u003ea TCExp",
@@ -28596,6 +30972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a file, preparing it for evaulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "desugarFile",
           "package": "libcspm",
@@ -28606,6 +30983,7 @@
         "index": {
           "description": "Desugar file preparing it for evaulation",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "desugarFile",
           "normalized": "TCCSPMFile-\u003ea TCCSPMFile",
@@ -28622,6 +31000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugars an interactive statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "desugarInteractiveStmt",
           "package": "libcspm",
@@ -28632,6 +31011,7 @@
         "index": {
           "description": "Desugars an interactive statement",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "desugarInteractiveStmt",
           "normalized": "TCInteractiveStmt-\u003ea TCInteractiveStmt",
@@ -28648,6 +31028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e, ensures that the \u003ccode\u003e\u003ca\u003ePExp\u003c/a\u003e\u003c/code\u003e is of that type. It returns the\n annoated and desugared expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "ensureExpressionIsOfType",
           "package": "libcspm",
@@ -28658,6 +31039,7 @@
         "index": {
           "description": "Given Type ensures that the PExp is of that type It returns the annoated and desugared expression",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "ensureExpressionIsOfType",
           "normalized": "Type-\u003eTCExp-\u003ea TCExp",
@@ -28674,6 +31056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates the expression in the current context. Requires the expression\n to be desugared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "evaluateExpression",
           "package": "libcspm",
@@ -28684,6 +31067,7 @@
         "index": {
           "description": "Evaluates the expression in the current context Requires the expression to be desugared",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "evaluateExpression",
           "normalized": "TCExp-\u003ea Value",
@@ -28700,6 +31084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of currently bound names in the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "getBoundNames",
           "package": "libcspm",
@@ -28710,6 +31095,7 @@
         "index": {
           "description": "Get list of currently bound names in the environment",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "getBoundNames",
           "normalized": "a[Name]",
@@ -28726,6 +31112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the version of libcspm that is being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "getLibCSPMVersion",
           "package": "libcspm",
@@ -28736,6 +31123,7 @@
         "index": {
           "description": "Return the version of libcspm that is being used",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "getLibCSPMVersion",
           "package": "libcspm",
@@ -28750,6 +31138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "getSession",
           "package": "libcspm",
@@ -28760,6 +31149,7 @@
         "index": {
           "description": "Get the current session",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "getSession",
           "package": "libcspm",
@@ -28774,6 +31164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is called whenever warnings are emitted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "handleWarnings",
           "package": "libcspm",
@@ -28784,6 +31175,7 @@
         "index": {
           "description": "This is called whenever warnings are emitted",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "handleWarnings",
           "normalized": "[ErrorMessage]-\u003ea()",
@@ -28800,6 +31192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a process name, attempts to convert the name into a process. This\n is only possible for top-level function applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "maybeProcessNameToProcess",
           "package": "libcspm",
@@ -28810,6 +31203,7 @@
         "index": {
           "description": "Given process name attempts to convert the name into process This is only possible for top-level function applications",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "maybeProcessNameToProcess",
           "normalized": "ProcName-\u003ea(Maybe UProc)",
@@ -28825,6 +31219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "modifyTypeCheckerErrorOptions",
           "package": "libcspm",
@@ -28834,6 +31229,7 @@
         },
         "index": {
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "modifyTypeCheckerErrorOptions",
           "normalized": "(ErrorOptions-\u003eErrorOptions)-\u003ea()",
@@ -28850,6 +31246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003eCSPMSession\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "newCSPMSession",
           "package": "libcspm",
@@ -28860,6 +31257,7 @@
         "index": {
           "description": "Create new CSPMSession",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "newCSPMSession",
           "normalized": "EvaluatorOptions-\u003ea CSPMSession",
@@ -28876,6 +31274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e. Throws a \u003ccode\u003e\u003ca\u003eSourceError\u003c/a\u003e\u003c/code\u003e on any parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "parseExpression",
           "package": "libcspm",
@@ -28886,6 +31285,7 @@
         "index": {
           "description": "Parses an Exp Throws SourceError on any parse error",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "parseExpression",
           "normalized": "String-\u003ea PExp",
@@ -28902,6 +31302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a file \u003ccode\u003efp\u003c/code\u003e. Throws a \u003ccode\u003e\u003ca\u003eSourceError\u003c/a\u003e\u003c/code\u003e on any parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "parseFile",
           "package": "libcspm",
@@ -28912,6 +31313,7 @@
         "index": {
           "description": "Parse file fp Throws SourceError on any parse error",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "parseFile",
           "normalized": "FilePath-\u003ea PCSPMFile",
@@ -28928,6 +31330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003e\u003ca\u003ePInteractiveStmt\u003c/a\u003e\u003c/code\u003e. Throws a \u003ccode\u003e\u003ca\u003eSourceError\u003c/a\u003e\u003c/code\u003e on any parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "parseInteractiveStmt",
           "package": "libcspm",
@@ -28938,6 +31341,7 @@
         "index": {
           "description": "Parses PInteractiveStmt Throws SourceError on any parse error",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "parseInteractiveStmt",
           "normalized": "String-\u003ea PInteractiveStmt",
@@ -28954,6 +31358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string, treating it as though it were a file. Throws a \n \u003ccode\u003e\u003ca\u003eSourceError\u003c/a\u003e\u003c/code\u003e on any parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "parseStringAsFile",
           "package": "libcspm",
@@ -28964,6 +31369,7 @@
         "index": {
           "description": "Parses string treating it as though it were file Throws SourceError on any parse error",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "parseStringAsFile",
           "normalized": "String-\u003ea PCSPMFile",
@@ -28980,6 +31386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains the profiling data that the evaluator has produced so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "profilingData",
           "package": "libcspm",
@@ -28990,6 +31397,7 @@
         "index": {
           "description": "Obtains the profiling data that the evaluator has produced so far",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "profilingData",
           "package": "libcspm",
@@ -29004,6 +31412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenames an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "renameExpression",
           "package": "libcspm",
@@ -29014,6 +31423,7 @@
         "index": {
           "description": "Renames an expression",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "renameExpression",
           "normalized": "PExp-\u003ea TCExp",
@@ -29030,6 +31440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenames a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "renameFile",
           "package": "libcspm",
@@ -29040,6 +31451,7 @@
         "index": {
           "description": "Renames file",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "renameFile",
           "normalized": "PCSPMFile-\u003ea TCCSPMFile",
@@ -29056,6 +31468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename ian interactive statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "renameInteractiveStmt",
           "package": "libcspm",
@@ -29066,6 +31479,7 @@
         "index": {
           "description": "Rename ian interactive statement",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "renameInteractiveStmt",
           "normalized": "PInteractiveStmt-\u003ea TCInteractiveStmt",
@@ -29082,6 +31496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a program that can return warnings, runs the program and raises\n any warnings found using \u003ccode\u003e\u003ca\u003ehandleWarnings\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "reportWarnings",
           "package": "libcspm",
@@ -29092,6 +31507,7 @@
         "index": {
           "description": "Given program that can return warnings runs the program and raises any warnings found using handleWarnings",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "reportWarnings",
           "normalized": "a(b,[ErrorMessage])-\u003ea b",
@@ -29108,6 +31524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the evaluator in the current state, saving the resulting state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "runEvaluatorInCurrentState",
           "package": "libcspm",
@@ -29118,6 +31535,7 @@
         "index": {
           "description": "Runs the evaluator in the current state saving the resulting state",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "runEvaluatorInCurrentState",
           "normalized": "EvaluationMonad a-\u003eb a",
@@ -29134,6 +31552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "runParserInCurrentState",
           "package": "libcspm",
@@ -29144,6 +31563,7 @@
         "index": {
           "description": "Runs the parser",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "runParserInCurrentState",
           "normalized": "FilePath-\u003eParseMonad a-\u003eb a",
@@ -29160,6 +31580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns renamer in the current state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "runRenamerInCurrentState",
           "package": "libcspm",
@@ -29170,6 +31591,7 @@
         "index": {
           "description": "Runs renamer in the current state",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "runRenamerInCurrentState",
           "normalized": "RenamerMonad a-\u003eb a",
@@ -29186,6 +31608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the typechecker in the current state, saving the resulting state and\n returning any warnings encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "runTypeCheckerInCurrentState",
           "package": "libcspm",
@@ -29196,6 +31619,7 @@
         "index": {
           "description": "Runs the typechecker in the current state saving the resulting state and returning any warnings encountered",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "runTypeCheckerInCurrentState",
           "normalized": "TypeCheckMonad a-\u003eb(a,[ErrorMessage])",
@@ -29212,6 +31636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the current session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "setSession",
           "package": "libcspm",
@@ -29222,6 +31647,7 @@
         "index": {
           "description": "Update the current session",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "setSession",
           "normalized": "CSPMSession-\u003ea()",
@@ -29238,6 +31664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes an expression string and a type and evaluates the expression,\n providing the expression is of the correct type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "stringToValue",
           "package": "libcspm",
@@ -29248,6 +31675,7 @@
         "index": {
           "description": "Takes an expression string and type and evaluates the expression providing the expression is of the correct type",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "stringToValue",
           "normalized": "Type-\u003eString-\u003ea Value",
@@ -29264,6 +31692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType checkes a \u003ccode\u003e\u003ca\u003ePExp\u003c/a\u003e\u003c/code\u003e, returning the desugared and annotated version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "typeCheckExpression",
           "package": "libcspm",
@@ -29274,6 +31703,7 @@
         "index": {
           "description": "Type checkes PExp returning the desugared and annotated version",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "typeCheckExpression",
           "normalized": "TCExp-\u003ea TCExp",
@@ -29290,6 +31720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType checks a file, also desugaring and annotating it. Throws a \n \u003ccode\u003e\u003ca\u003eSourceError\u003c/a\u003e\u003c/code\u003e if an error is encountered and will call \u003ccode\u003e\u003ca\u003ehandleWarnings\u003c/a\u003e\u003c/code\u003e on \n any warnings. This also performs desugaraing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "typeCheckFile",
           "package": "libcspm",
@@ -29300,6 +31731,7 @@
         "index": {
           "description": "Type checks file also desugaring and annotating it Throws SourceError if an error is encountered and will call handleWarnings on any warnings This also performs desugaraing",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "typeCheckFile",
           "normalized": "TCCSPMFile-\u003ea TCCSPMFile",
@@ -29316,6 +31748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType checks a \u003ccode\u003e\u003ca\u003ePInteractiveStmt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "typeCheckInteractiveStmt",
           "package": "libcspm",
@@ -29326,6 +31759,7 @@
         "index": {
           "description": "Type checks PInteractiveStmt",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "typeCheckInteractiveStmt",
           "normalized": "TCInteractiveStmt-\u003ea TCInteractiveStmt",
@@ -29342,6 +31776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the type of the expression in the current context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "typeOfExpression",
           "package": "libcspm",
@@ -29352,6 +31787,7 @@
         "index": {
           "description": "Gets the type of the expression in the current context",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "typeOfExpression",
           "normalized": "TCExp-\u003ea Type",
@@ -29368,6 +31804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the type of the given name in the current context.\n\u003c/p\u003e\u003cp\u003eThe file in which this name has been bound must have been typechecked using\n typeCheckFile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "typeOfName",
           "package": "libcspm",
@@ -29378,6 +31815,7 @@
         "index": {
           "description": "Returns the type of the given name in the current context The file in which this name has been bound must have been typechecked using typeCheckFile",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "typeOfName",
           "normalized": "Name-\u003ea TypeScheme",
@@ -29394,6 +31832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a \u003ccode\u003e\u003ca\u003eCSPM\u003c/a\u003e\u003c/code\u003e function, returning the result and the resulting session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "unCSPM",
           "package": "libcspm",
@@ -29404,6 +31843,7 @@
         "index": {
           "description": "Runs CSPM function returning the result and the resulting session",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "unCSPM",
           "normalized": "CSPMSession-\u003eCSPM a-\u003eIO(a,CSPMSession)",
@@ -29420,6 +31860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes an operation giving it access to the current \u003ccode\u003e\u003ca\u003eCSPMSession\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "CSPM",
           "name": "withSession",
           "package": "libcspm",
@@ -29430,6 +31871,7 @@
         "index": {
           "description": "Executes an operation giving it access to the current CSPMSession",
           "hierarchy": "CSPM",
+          "indexed": "2014-03-11T19:08:20",
           "module": "CSPM",
           "name": "withSession",
           "normalized": "(CSPMSession-\u003ea b)-\u003ea b",
@@ -29446,6 +31888,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraph algorithms in the ST monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "ST",
           "package": "libcspm",
@@ -29455,6 +31898,7 @@
         "index": {
           "description": "Graph algorithms in the ST monad",
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "ST",
           "package": "libcspm",
@@ -29469,6 +31913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA graph of \u003ccode\u003ea\u003c/code\u003es in the state thread s.\n\u003c/p\u003e\u003cp\u003eWe store the successors in an unboxed array and store indexes into the\n array for the index at which at a node's successors start. This is very\n memory efficient and cache friendly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "Graph",
           "package": "libcspm",
@@ -29478,6 +31923,7 @@
         "index": {
           "description": "graph of in the state thread We store the successors in an unboxed array and store indexes into the array for the index at which at node successors start This is very memory efficient and cache friendly",
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "Graph",
           "package": "libcspm",
@@ -29491,6 +31937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "SCC",
           "package": "libcspm",
@@ -29499,6 +31946,7 @@
         },
         "index": {
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "SCC",
           "package": "libcspm",
@@ -29512,6 +31960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "AcyclicSCC",
           "package": "libcspm",
@@ -29521,6 +31970,7 @@
         },
         "index": {
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "AcyclicSCC",
           "package": "libcspm",
@@ -29534,6 +31984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "CyclicSCC",
           "package": "libcspm",
@@ -29543,6 +31994,7 @@
         },
         "index": {
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "CyclicSCC",
           "normalized": "CyclicSCC[a]",
@@ -29558,6 +32010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "newGraph",
           "package": "libcspm",
@@ -29567,6 +32020,7 @@
         },
         "index": {
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "newGraph",
           "normalized": "[a]-\u003e[(a,a)]-\u003eST b(Graph b a)",
@@ -29582,6 +32036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "newGraphNoDupeNodes",
           "package": "libcspm",
@@ -29591,6 +32046,7 @@
         },
         "index": {
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "newGraphNoDupeNodes",
           "normalized": "[a]-\u003e[(a,a)]-\u003eST b(Graph b a)",
@@ -29607,6 +32063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a graph, computes the transitive (but not reflexive) closure of the\n graph and then returns the relation (a,b) such that b is the representative\n member for a. Note, no pairs of the form a == b are returned, even if there\n is an edge from a to b. This is to minimise the size of the transitive\n closure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "nonReflexiveRepresentativesForNodes",
           "package": "libcspm",
@@ -29617,6 +32074,7 @@
         "index": {
           "description": "Given graph computes the transitive but not reflexive closure of the graph and then returns the relation such that is the representative member for Note no pairs of the form are returned even if there is an edge from to This is to minimise the size of the transitive closure",
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "nonReflexiveRepresentativesForNodes",
           "normalized": "Graph a b-\u003eST a[(b,b)]",
@@ -29633,6 +32091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn optimised implementation of Tarjan's SCC algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "sccs",
           "package": "libcspm",
@@ -29643,6 +32102,7 @@
         "index": {
           "description": "An optimised implementation of Tarjan SCC algorithm",
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "sccs",
           "normalized": "Graph a b-\u003eST a[SCC b]",
@@ -29657,6 +32117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Graph.ST",
           "name": "successorNodes",
           "package": "libcspm",
@@ -29666,6 +32127,7 @@
         },
         "index": {
           "hierarchy": "Data Graph ST",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Graph.ST",
           "name": "successorNodes",
           "normalized": "Graph a b-\u003eb-\u003eST a[b]",
@@ -29682,6 +32144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBit sets represent sets of integers by setting bit i to 1 iff i is in the\n set. This means they can effeciently support many operations, like union\n (bitwise or), intersection (bitwise and) etc. However, they obviously\n can only represent sets of relatively small integers, as they require\n O(max(S)) bits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Set.MutableBit",
           "name": "MutableBit",
           "package": "libcspm",
@@ -29691,6 +32154,7 @@
         "index": {
           "description": "Bit sets represent sets of integers by setting bit to iff is in the set This means they can effeciently support many operations like union bitwise or intersection bitwise and etc However they obviously can only represent sets of relatively small integers as they require max bits",
           "hierarchy": "Data Set MutableBit",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Set.MutableBit",
           "name": "MutableBit",
           "package": "libcspm",
@@ -29704,6 +32168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Set.MutableBit",
           "name": "Set",
           "package": "libcspm",
@@ -29712,6 +32177,7 @@
         },
         "index": {
           "hierarchy": "Data Set MutableBit",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Set.MutableBit",
           "name": "Set",
           "package": "libcspm",
@@ -29725,6 +32191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Set.MutableBit",
           "name": "insert",
           "package": "libcspm",
@@ -29734,6 +32201,7 @@
         },
         "index": {
           "hierarchy": "Data Set MutableBit",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Set.MutableBit",
           "name": "insert",
           "normalized": "Set a-\u003eInt-\u003eST a()",
@@ -29748,6 +32216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Set.MutableBit",
           "name": "member",
           "package": "libcspm",
@@ -29757,6 +32226,7 @@
         },
         "index": {
           "hierarchy": "Data Set MutableBit",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Set.MutableBit",
           "name": "member",
           "normalized": "Set a-\u003eInt-\u003eST a Bool",
@@ -29771,6 +32241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Set.MutableBit",
           "name": "newSized",
           "package": "libcspm",
@@ -29780,6 +32251,7 @@
         },
         "index": {
           "hierarchy": "Data Set MutableBit",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Set.MutableBit",
           "name": "newSized",
           "normalized": "Int-\u003eST a(Set a)",
@@ -29795,6 +32267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Data.Set.MutableBit",
           "name": "remove",
           "package": "libcspm",
@@ -29804,6 +32277,7 @@
         },
         "index": {
           "hierarchy": "Data Set MutableBit",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Data.Set.MutableBit",
           "name": "remove",
           "normalized": "Set a-\u003eInt-\u003eST a()",
@@ -29818,6 +32292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "Annotated",
           "package": "libcspm",
@@ -29826,6 +32301,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "Annotated",
           "package": "libcspm",
@@ -29839,6 +32315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "Annotated",
           "package": "libcspm",
@@ -29847,6 +32324,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "Annotated",
           "package": "libcspm",
@@ -29860,6 +32338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "Located",
           "package": "libcspm",
@@ -29868,6 +32347,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "Located",
           "package": "libcspm",
@@ -29881,6 +32361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "SrcLoc",
           "package": "libcspm",
@@ -29889,6 +32370,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "SrcLoc",
           "package": "libcspm",
@@ -29902,6 +32384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "SrcSpan",
           "package": "libcspm",
@@ -29910,6 +32393,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "SrcSpan",
           "package": "libcspm",
@@ -29923,6 +32407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "An",
           "package": "libcspm",
@@ -29932,6 +32417,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "An",
           "package": "libcspm",
@@ -29946,6 +32432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA builtin thing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "BuiltIn",
           "package": "libcspm",
@@ -29956,6 +32443,7 @@
         "index": {
           "description": "builtin thing",
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "BuiltIn",
           "package": "libcspm",
@@ -29969,6 +32457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "L",
           "package": "libcspm",
@@ -29978,6 +32467,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "L",
           "package": "libcspm",
@@ -29990,6 +32480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "NoLoc",
           "package": "libcspm",
@@ -29999,6 +32490,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "NoLoc",
           "package": "libcspm",
@@ -30012,6 +32504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "SrcLoc",
           "package": "libcspm",
@@ -30021,6 +32514,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "SrcLoc",
           "package": "libcspm",
@@ -30034,6 +32528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "SrcSpanMultiLine",
           "package": "libcspm",
@@ -30043,6 +32538,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "SrcSpanMultiLine",
           "package": "libcspm",
@@ -30056,6 +32552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "SrcSpanOneLine",
           "package": "libcspm",
@@ -30065,6 +32562,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "SrcSpanOneLine",
           "package": "libcspm",
@@ -30078,6 +32576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "SrcSpanPoint",
           "package": "libcspm",
@@ -30087,6 +32586,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "SrcSpanPoint",
           "package": "libcspm",
@@ -30100,6 +32600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "Unknown",
           "package": "libcspm",
@@ -30109,6 +32610,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "Unknown",
           "package": "libcspm",
@@ -30122,6 +32624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "annotation",
           "package": "libcspm",
@@ -30131,6 +32634,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "annotation",
           "package": "libcspm",
@@ -30143,6 +32647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "combineSpans",
           "package": "libcspm",
@@ -30152,6 +32657,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "combineSpans",
           "normalized": "SrcSpan-\u003eSrcSpan-\u003eSrcSpan",
@@ -30167,6 +32673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "dummyAnnotation",
           "package": "libcspm",
@@ -30176,6 +32683,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "dummyAnnotation",
           "package": "libcspm",
@@ -30189,6 +32697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "inner",
           "package": "libcspm",
@@ -30198,6 +32707,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "inner",
           "package": "libcspm",
@@ -30210,6 +32720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "loc",
           "package": "libcspm",
@@ -30219,6 +32730,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "loc",
           "package": "libcspm",
@@ -30231,6 +32743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "locatedInner",
           "package": "libcspm",
@@ -30240,6 +32753,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "locatedInner",
           "package": "libcspm",
@@ -30253,6 +32767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "locatedLoc",
           "package": "libcspm",
@@ -30262,6 +32777,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "locatedLoc",
           "package": "libcspm",
@@ -30275,6 +32791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcLocCol",
           "package": "libcspm",
@@ -30284,6 +32801,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcLocCol",
           "package": "libcspm",
@@ -30297,6 +32815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcLocFile",
           "package": "libcspm",
@@ -30306,6 +32825,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcLocFile",
           "package": "libcspm",
@@ -30319,6 +32839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcLocLine",
           "package": "libcspm",
@@ -30328,6 +32849,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcLocLine",
           "package": "libcspm",
@@ -30341,6 +32863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanCol",
           "package": "libcspm",
@@ -30350,6 +32873,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanCol",
           "package": "libcspm",
@@ -30363,6 +32887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanECol",
           "package": "libcspm",
@@ -30372,6 +32897,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanECol",
           "package": "libcspm",
@@ -30385,6 +32911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanELine",
           "package": "libcspm",
@@ -30394,6 +32921,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanELine",
           "package": "libcspm",
@@ -30407,6 +32935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanEnd",
           "package": "libcspm",
@@ -30416,6 +32945,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanEnd",
           "normalized": "SrcSpan-\u003eSrcLoc",
@@ -30431,6 +32961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanFile",
           "package": "libcspm",
@@ -30440,6 +32971,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanFile",
           "package": "libcspm",
@@ -30453,6 +32985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanLine",
           "package": "libcspm",
@@ -30462,6 +32995,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanLine",
           "package": "libcspm",
@@ -30475,6 +33009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanSCol",
           "package": "libcspm",
@@ -30484,6 +33019,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanSCol",
           "package": "libcspm",
@@ -30497,6 +33033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanSLine",
           "package": "libcspm",
@@ -30506,6 +33043,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanSLine",
           "package": "libcspm",
@@ -30519,6 +33057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "srcSpanStart",
           "package": "libcspm",
@@ -30528,6 +33067,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "srcSpanStart",
           "normalized": "SrcSpan-\u003eSrcLoc",
@@ -30543,6 +33083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Annotated",
           "name": "unAnnotate",
           "package": "libcspm",
@@ -30552,6 +33093,7 @@
         },
         "index": {
           "hierarchy": "Util Annotated",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Annotated",
           "name": "unAnnotate",
           "normalized": "Annotated a b-\u003eb",
@@ -30567,6 +33109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "Exception",
           "package": "libcspm",
@@ -30575,6 +33118,7 @@
         },
         "index": {
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "Exception",
           "package": "libcspm",
@@ -30589,6 +33133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error message that resulted from something in the user's input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "ErrorMessage",
           "package": "libcspm",
@@ -30598,6 +33143,7 @@
         "index": {
           "description": "An error message that resulted from something in the user input",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "ErrorMessage",
           "package": "libcspm",
@@ -30611,6 +33157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "ErrorMessages",
           "package": "libcspm",
@@ -30619,6 +33166,7 @@
         },
         "index": {
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "ErrorMessages",
           "package": "libcspm",
@@ -30633,6 +33181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny type that you wish to throw or catch as an exception must be an\ninstance of the \u003ccode\u003eException\u003c/code\u003e class. The simplest case is a new exception\ntype directly below the root:\n\u003c/p\u003e\u003cpre\u003e data MyException = ThisException | ThatException\n     deriving (Show, Typeable)\n\n instance Exception MyException\n\u003c/pre\u003e\u003cp\u003eThe default method definitions in the \u003ccode\u003eException\u003c/code\u003e class do what we need\nin this case. You can now throw and catch \u003ccode\u003eThisException\u003c/code\u003e and\n\u003ccode\u003eThatException\u003c/code\u003e as exceptions:\n\u003c/p\u003e\u003cpre\u003e\n*Main\u003e throw ThisException `catch` \\e -\u003e putStrLn (\"Caught \" ++ show (e :: MyException))\nCaught ThisException\n\u003c/pre\u003e\u003cp\u003eIn more complicated examples, you may wish to define a whole hierarchy\nof exceptions:\n\u003c/p\u003e\u003cpre\u003e ---------------------------------------------------------------------\n -- Make the root exception type for all the exceptions in a compiler\n\n data SomeCompilerException = forall e . Exception e =\u003e SomeCompilerException e\n     deriving Typeable\n\n instance Show SomeCompilerException where\n     show (SomeCompilerException e) = show e\n\n instance Exception SomeCompilerException\n\n compilerExceptionToException :: Exception e =\u003e e -\u003e SomeException\n compilerExceptionToException = toException . SomeCompilerException\n\n compilerExceptionFromException :: Exception e =\u003e SomeException -\u003e Maybe e\n compilerExceptionFromException x = do\n     SomeCompilerException a \u003c- fromException x\n     cast a\n\n ---------------------------------------------------------------------\n -- Make a subhierarchy for exceptions in the frontend of the compiler\n\n data SomeFrontendException = forall e . Exception e =\u003e SomeFrontendException e\n     deriving Typeable\n\n instance Show SomeFrontendException where\n     show (SomeFrontendException e) = show e\n\n instance Exception SomeFrontendException where\n     toException = compilerExceptionToException\n     fromException = compilerExceptionFromException\n\n frontendExceptionToException :: Exception e =\u003e e -\u003e SomeException\n frontendExceptionToException = toException . SomeFrontendException\n\n frontendExceptionFromException :: Exception e =\u003e SomeException -\u003e Maybe e\n frontendExceptionFromException x = do\n     SomeFrontendException a \u003c- fromException x\n     cast a\n\n ---------------------------------------------------------------------\n -- Make an exception type for a particular frontend compiler exception\n\n data MismatchedParentheses = MismatchedParentheses\n     deriving (Typeable, Show)\n\n instance Exception MismatchedParentheses where\n     toException   = frontendExceptionToException\n     fromException = frontendExceptionFromException\n\u003c/pre\u003e\u003cp\u003eWe can now catch a \u003ccode\u003eMismatchedParentheses\u003c/code\u003e exception as\n\u003ccode\u003eMismatchedParentheses\u003c/code\u003e, \u003ccode\u003eSomeFrontendException\u003c/code\u003e or\n\u003ccode\u003eSomeCompilerException\u003c/code\u003e, but not other types, e.g. \u003ccode\u003eIOException\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n*Main\u003e throw MismatchedParentheses \u003ccode\u003ecatch\u003c/code\u003e e -\u003e putStrLn (\"Caught \" ++ show (e :: MismatchedParentheses))\nCaught MismatchedParentheses\n*Main\u003e throw MismatchedParentheses \u003ccode\u003ecatch\u003c/code\u003e e -\u003e putStrLn (\"Caught \" ++ show (e :: SomeFrontendException))\nCaught MismatchedParentheses\n*Main\u003e throw MismatchedParentheses \u003ccode\u003ecatch\u003c/code\u003e e -\u003e putStrLn (\"Caught \" ++ show (e :: SomeCompilerException))\nCaught MismatchedParentheses\n*Main\u003e throw MismatchedParentheses \u003ccode\u003ecatch\u003c/code\u003e e -\u003e putStrLn (\"Caught \" ++ show (e :: IOException))\n*** Exception: MismatchedParentheses\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "Exception",
           "package": "libcspm",
@@ -30641,6 +33190,7 @@
         "index": {
           "description": "Any type that you wish to throw or catch as an exception must be an instance of the Exception class The simplest case is new exception type directly below the root data MyException ThisException ThatException deriving Show Typeable instance Exception MyException The default method definitions in the Exception class do what we need in this case You can now throw and catch ThisException and ThatException as exceptions Main throw ThisException catch putStrLn Caught show MyException Caught ThisException In more complicated examples you may wish to define whole hierarchy of exceptions Make the root exception type for all the exceptions in compiler data SomeCompilerException forall Exception SomeCompilerException deriving Typeable instance Show SomeCompilerException where show SomeCompilerException show instance Exception SomeCompilerException compilerExceptionToException Exception SomeException compilerExceptionToException toException SomeCompilerException compilerExceptionFromException Exception SomeException Maybe compilerExceptionFromException do SomeCompilerException fromException cast Make subhierarchy for exceptions in the frontend of the compiler data SomeFrontendException forall Exception SomeFrontendException deriving Typeable instance Show SomeFrontendException where show SomeFrontendException show instance Exception SomeFrontendException where toException compilerExceptionToException fromException compilerExceptionFromException frontendExceptionToException Exception SomeException frontendExceptionToException toException SomeFrontendException frontendExceptionFromException Exception SomeException Maybe frontendExceptionFromException do SomeFrontendException fromException cast Make an exception type for particular frontend compiler exception data MismatchedParentheses MismatchedParentheses deriving Typeable Show instance Exception MismatchedParentheses where toException frontendExceptionToException fromException frontendExceptionFromException We can now catch MismatchedParentheses exception as MismatchedParentheses SomeFrontendException or SomeCompilerException but not other types e.g IOException Main throw MismatchedParentheses catch putStrLn Caught show MismatchedParentheses Caught MismatchedParentheses Main throw MismatchedParentheses catch putStrLn Caught show SomeFrontendException Caught MismatchedParentheses Main throw MismatchedParentheses catch putStrLn Caught show SomeCompilerException Caught MismatchedParentheses Main throw MismatchedParentheses catch putStrLn Caught show IOException Exception MismatchedParentheses",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "Exception",
           "package": "libcspm",
@@ -30655,6 +33205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions that cause LibCSPM to abort whatever it is doing. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "LibCSPMException",
           "package": "libcspm",
@@ -30664,6 +33215,7 @@
         "index": {
           "description": "Exceptions that cause LibCSPM to abort whatever it is doing",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "LibCSPMException",
           "package": "libcspm",
@@ -30678,6 +33230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to allow catching of SourceErrors in arbitrary monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "MonadIOException",
           "package": "libcspm",
@@ -30687,6 +33240,7 @@
         "index": {
           "description": "class to allow catching of SourceErrors in arbitrary monads",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "MonadIOException",
           "package": "libcspm",
@@ -30700,6 +33254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "ErrorMessage",
           "package": "libcspm",
@@ -30709,6 +33264,7 @@
         },
         "index": {
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "ErrorMessage",
           "package": "libcspm",
@@ -30723,6 +33279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unexpected internal error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "Panic",
           "package": "libcspm",
@@ -30733,6 +33290,7 @@
         "index": {
           "description": "An unexpected internal error",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "Panic",
           "package": "libcspm",
@@ -30747,6 +33305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error in the user's input occured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "SourceError",
           "package": "libcspm",
@@ -30757,6 +33316,7 @@
         "index": {
           "description": "An error in the user input occured",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "SourceError",
           "package": "libcspm",
@@ -30771,6 +33331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error occured. Normally this is caught by the application and \n then turned into a SourceError.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "UserError",
           "package": "libcspm",
@@ -30781,6 +33342,7 @@
         "index": {
           "description": "An error occured Normally this is caught by the application and then turned into SourceError",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "UserError",
           "package": "libcspm",
@@ -30794,6 +33356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "WarningMessage",
           "package": "libcspm",
@@ -30803,6 +33366,7 @@
         },
         "index": {
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "WarningMessage",
           "package": "libcspm",
@@ -30817,6 +33381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts arbitrary exceptions to panics, rethrowing them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "convertExceptionsToPanics",
           "package": "libcspm",
@@ -30827,6 +33392,7 @@
         "index": {
           "description": "Converts arbitrary exceptions to panics rethrowing them",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "convertExceptionsToPanics",
           "normalized": "a b-\u003ea b",
@@ -30843,6 +33409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the action, running the finaliser if an exception is thrown. The\n exception is always rethrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "finally",
           "package": "libcspm",
@@ -30853,6 +33420,7 @@
         "index": {
           "description": "Runs the action running the finaliser if an exception is thrown The exception is always rethrown",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "finally",
           "normalized": "a b-\u003ea()-\u003ea b",
@@ -30868,6 +33436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for sorting into order.\n\u003c/p\u003e\u003cp\u003eUsed for sorting into order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "location",
           "package": "libcspm",
@@ -30878,6 +33447,7 @@
         "index": {
           "description": "Used for sorting into order Used for sorting into order",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "location",
           "package": "libcspm",
@@ -30891,6 +33461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message.\n\u003c/p\u003e\u003cp\u003eThe message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "message",
           "package": "libcspm",
@@ -30901,6 +33472,7 @@
         "index": {
           "description": "The message The message",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "message",
           "package": "libcspm",
@@ -30914,6 +33486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eSrcSpan\u003c/a\u003e\u003c/code\u003e and a pretty printed \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e creates an \u003ccode\u003e\u003ca\u003eErrorMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "mkErrorMessage",
           "package": "libcspm",
@@ -30924,6 +33497,7 @@
         "index": {
           "description": "Given SrcSpan and pretty printed Doc creates an ErrorMessage",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "mkErrorMessage",
           "normalized": "SrcSpan-\u003eDoc-\u003eErrorMessage",
@@ -30940,6 +33514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a warning from a \u003ccode\u003e\u003ca\u003eSrcSpan\u003c/a\u003e\u003c/code\u003e and a pretty printed \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e,\n prepending \u003ccode\u003eWarning: \u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "mkWarningMessage",
           "package": "libcspm",
@@ -30950,6 +33525,7 @@
         "index": {
           "description": "Constructs warning from SrcSpan and pretty printed Doc prepending Warning to the Doc",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "mkWarningMessage",
           "normalized": "SrcSpan-\u003eDoc-\u003eErrorMessage",
@@ -30966,6 +33542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrows an arbitrary \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "throwException",
           "package": "libcspm",
@@ -30976,6 +33553,7 @@
         "index": {
           "description": "Throws an arbitrary Exception",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "throwException",
           "normalized": "a-\u003eb",
@@ -30992,6 +33570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the action, catching any non-fatal LibCSPMExecptions (i.e. non-\n Panic).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "tryM",
           "package": "libcspm",
@@ -31002,6 +33581,7 @@
         "index": {
           "description": "Runs the action catching any non-fatal LibCSPMExecptions i.e non Panic",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "tryM",
           "normalized": "a b-\u003ea(Either LibCSPMException b)",
@@ -31017,6 +33597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the action, catching all exceptions including panics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Exception",
           "name": "tryM'",
           "package": "libcspm",
@@ -31027,6 +33608,7 @@
         "index": {
           "description": "Runs the action catching all exceptions including panics",
           "hierarchy": "Util Exception",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Exception",
           "name": "tryM'",
           "normalized": "a b-\u003ea(Either LibCSPMException b)",
@@ -31043,6 +33625,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides fuzzy string matching.\n\u003c/p\u003e\u003cp\u003eTaken from GHC (which is BSD licensed and thus compatible). Copyright\n reproduced below:\n\u003c/p\u003e\u003cp\u003e(c) The University of Glasgow 2006\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.FuzzyLookup",
           "name": "FuzzyLookup",
           "package": "libcspm",
@@ -31052,6 +33635,7 @@
         "index": {
           "description": "Provides fuzzy string matching Taken from GHC which is BSD licensed and thus compatible Copyright reproduced below The University of Glasgow",
           "hierarchy": "Util FuzzyLookup",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.FuzzyLookup",
           "name": "FuzzyLookup",
           "package": "libcspm",
@@ -31066,6 +33650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for possible matches to the users input in the given list,\n returning a small number of ranked results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.FuzzyLookup",
           "name": "fuzzyLookup",
           "package": "libcspm",
@@ -31076,6 +33661,7 @@
         "index": {
           "description": "Search for possible matches to the users input in the given list returning small number of ranked results",
           "hierarchy": "Util FuzzyLookup",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.FuzzyLookup",
           "name": "fuzzyLookup",
           "normalized": "String-\u003e[(String,a)]-\u003e[a]",
@@ -31091,6 +33677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.FuzzyLookup",
           "name": "fuzzyMatch",
           "package": "libcspm",
@@ -31100,6 +33687,7 @@
         },
         "index": {
           "hierarchy": "Util FuzzyLookup",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.FuzzyLookup",
           "name": "fuzzyMatch",
           "normalized": "String-\u003e[String]-\u003e[String]",
@@ -31115,6 +33703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "HierarchicalMap",
           "package": "libcspm",
@@ -31123,6 +33712,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "HierarchicalMap",
           "package": "libcspm",
@@ -31136,6 +33726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "HierarchicalMap",
           "package": "libcspm",
@@ -31144,6 +33735,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "HierarchicalMap",
           "package": "libcspm",
@@ -31157,6 +33749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "HierarchicalMapException",
           "package": "libcspm",
@@ -31165,6 +33758,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "HierarchicalMapException",
           "package": "libcspm",
@@ -31178,6 +33772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "HierarchicalMap",
           "package": "libcspm",
@@ -31187,6 +33782,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "HierarchicalMap",
           "normalized": "HierarchicalMap[Map a b]",
@@ -31202,6 +33798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "ValueNotFoundException",
           "package": "libcspm",
@@ -31211,6 +33808,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "ValueNotFoundException",
           "package": "libcspm",
@@ -31224,6 +33822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "flatten",
           "package": "libcspm",
@@ -31233,6 +33832,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "flatten",
           "normalized": "HierarchicalMap a b-\u003e[(a,b)]",
@@ -31248,6 +33848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks up a key in any map, starting from the top\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "lookup",
           "package": "libcspm",
@@ -31258,6 +33859,7 @@
         "index": {
           "description": "Looks up key in any map starting from the top",
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "lookup",
           "normalized": "HierarchicalMap a b-\u003ea-\u003eb",
@@ -31272,6 +33874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "map",
           "package": "libcspm",
@@ -31281,6 +33884,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "map",
           "normalized": "(a-\u003eb-\u003ec)-\u003eHierarchicalMap a b-\u003eHierarchicalMap a c",
@@ -31295,6 +33899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "maybeLookup",
           "package": "libcspm",
@@ -31304,6 +33909,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "maybeLookup",
           "normalized": "HierarchicalMap a b-\u003ea-\u003eMaybe b",
@@ -31319,6 +33925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "maybeLookupInTopLayer",
           "package": "libcspm",
@@ -31328,6 +33935,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "maybeLookupInTopLayer",
           "normalized": "HierarchicalMap a b-\u003ea-\u003eMaybe b",
@@ -31344,6 +33952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "new",
           "package": "libcspm",
@@ -31354,6 +33963,7 @@
         "index": {
           "description": "Creates new map",
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "new",
           "package": "libcspm",
@@ -31366,6 +33976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "newLayer",
           "package": "libcspm",
@@ -31375,6 +33986,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "newLayer",
           "normalized": "HierarchicalMap a b-\u003eHierarchicalMap a b",
@@ -31390,6 +34002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "newLayerAndBind",
           "package": "libcspm",
@@ -31399,6 +34012,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "newLayerAndBind",
           "normalized": "HierarchicalMap a b-\u003e[(a,b)]-\u003eHierarchicalMap a b",
@@ -31414,6 +34028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "newRecursiveLayerAndBind",
           "package": "libcspm",
@@ -31423,6 +34038,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "newRecursiveLayerAndBind",
           "normalized": "HierarchicalMap a b-\u003e[HierarchicalMap a b-\u003e(a,b)]-\u003eHierarchicalMap a b",
@@ -31438,6 +34054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "popLayer",
           "package": "libcspm",
@@ -31447,6 +34064,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "popLayer",
           "normalized": "HierarchicalMap a b-\u003eHierarchicalMap a b",
@@ -31463,6 +34081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates/updates a key in the top level map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "update",
           "package": "libcspm",
@@ -31473,6 +34092,7 @@
         "index": {
           "description": "Creates updates key in the top level map",
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "update",
           "normalized": "HierarchicalMap a b-\u003ea-\u003eb-\u003eHierarchicalMap a b",
@@ -31487,6 +34107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.HierarchicalMap",
           "name": "updateMulti",
           "package": "libcspm",
@@ -31496,6 +34117,7 @@
         },
         "index": {
           "hierarchy": "Util HierarchicalMap",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.HierarchicalMap",
           "name": "updateMulti",
           "normalized": "HierarchicalMap a b-\u003e[(a,b)]-\u003eHierarchicalMap a b",
@@ -31511,6 +34133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.List",
           "name": "List",
           "package": "libcspm",
@@ -31519,6 +34142,7 @@
         },
         "index": {
           "hierarchy": "Util List",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.List",
           "name": "List",
           "package": "libcspm",
@@ -31532,6 +34156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.List",
           "name": "cartesianProduct",
           "package": "libcspm",
@@ -31541,6 +34166,7 @@
         },
         "index": {
           "hierarchy": "Util List",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.List",
           "name": "cartesianProduct",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -31557,6 +34183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true iff the list has no duplicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.List",
           "name": "noDups",
           "package": "libcspm",
@@ -31567,6 +34194,7 @@
         "index": {
           "description": "Returns true iff the list has no duplicates",
           "hierarchy": "Util List",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.List",
           "name": "noDups",
           "normalized": "[a]-\u003eBool",
@@ -31583,6 +34211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces the last item in a list. Assumes the list is non empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.List",
           "name": "replaceLast",
           "package": "libcspm",
@@ -31593,6 +34222,7 @@
         "index": {
           "description": "Replaces the last item in list Assumes the list is non empty",
           "hierarchy": "Util List",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.List",
           "name": "replaceLast",
           "normalized": "[a]-\u003ea-\u003e[a]",
@@ -31609,6 +34239,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMisc utility functions that are defined on monads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Monad",
           "name": "Monad",
           "package": "libcspm",
@@ -31618,6 +34249,7 @@
         "index": {
           "description": "Misc utility functions that are defined on monads",
           "hierarchy": "Util Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Monad",
           "name": "Monad",
           "package": "libcspm",
@@ -31631,6 +34263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Monad",
           "name": "($$)",
           "package": "libcspm",
@@ -31640,6 +34273,7 @@
         },
         "index": {
           "hierarchy": "Util Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Monad",
           "name": "($$) $$",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -31654,6 +34288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Monad",
           "name": "andM",
           "package": "libcspm",
@@ -31663,6 +34298,7 @@
         },
         "index": {
           "hierarchy": "Util Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Monad",
           "name": "andM",
           "normalized": "[a Bool]-\u003ea Bool",
@@ -31677,6 +34313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Monad",
           "name": "concatMapM",
           "package": "libcspm",
@@ -31686,6 +34323,7 @@
         },
         "index": {
           "hierarchy": "Util Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Monad",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -31701,6 +34339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Monad",
           "name": "orM",
           "package": "libcspm",
@@ -31710,6 +34349,7 @@
         },
         "index": {
           "hierarchy": "Util Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Monad",
           "name": "orM",
           "normalized": "[a Bool]-\u003ea Bool",
@@ -31724,6 +34364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Monad",
           "name": "whenM",
           "package": "libcspm",
@@ -31733,6 +34374,7 @@
         },
         "index": {
           "hierarchy": "Util Monad",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Monad",
           "name": "whenM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -31747,6 +34389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "MonadicPrettyPrint",
           "package": "libcspm",
@@ -31755,6 +34398,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "MonadicPrettyPrint",
           "package": "libcspm",
@@ -31768,6 +34412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "MonadicPrettyPrintable",
           "package": "libcspm",
@@ -31776,6 +34421,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "MonadicPrettyPrintable",
           "package": "libcspm",
@@ -31790,6 +34436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurrounds a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "angles",
           "package": "libcspm",
@@ -31800,6 +34447,7 @@
         "index": {
           "description": "Surrounds Doc with and",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "angles",
           "normalized": "a Doc-\u003ea Doc",
@@ -31815,6 +34463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurrounds a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e with '|'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "bars",
           "package": "libcspm",
@@ -31825,6 +34474,7 @@
         "index": {
           "description": "Surrounds Doc with",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "bars",
           "normalized": "a Doc-\u003ea Doc",
@@ -31840,6 +34490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints an integer and separates it into groups of 3, separated by\n commas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "commaSeparatedInt",
           "package": "libcspm",
@@ -31850,6 +34501,7 @@
         "index": {
           "description": "Pretty prints an integer and separates it into groups of separated by commas",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "commaSeparatedInt",
           "normalized": "Int-\u003ea Doc",
@@ -31866,6 +34518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparates a list of \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003es by \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "dotSep",
           "package": "libcspm",
@@ -31876,6 +34529,7 @@
         "index": {
           "description": "Separates list of Doc by",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "dotSep",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -31891,6 +34545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "ellipsis",
           "package": "libcspm",
@@ -31900,6 +34555,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "ellipsis",
           "package": "libcspm",
@@ -31913,6 +34569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparates a list of \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003es by ','.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "list",
           "package": "libcspm",
@@ -31923,6 +34580,7 @@
         "index": {
           "description": "Separates list of Doc by",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "list",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -31937,6 +34595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "ppBinaryOp",
           "package": "libcspm",
@@ -31946,6 +34605,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "ppBinaryOp",
           "normalized": "a-\u003eb Doc-\u003ea-\u003ea-\u003eb Doc",
@@ -31961,6 +34621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "ppBinaryOp'",
           "package": "libcspm",
@@ -31970,6 +34631,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "ppBinaryOp'",
           "normalized": "a-\u003eb Doc-\u003ea-\u003ea-\u003eb Doc",
@@ -31985,6 +34647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "prettyPrint",
           "package": "libcspm",
@@ -31994,6 +34657,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "prettyPrint",
           "normalized": "a-\u003eb Doc",
@@ -32010,6 +34674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs prettyPrint, but yields a briefer description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "prettyPrintBrief",
           "package": "libcspm",
@@ -32020,6 +34685,7 @@
         "index": {
           "description": "As prettyPrint but yields briefer description",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "prettyPrintBrief",
           "normalized": "a-\u003eb Doc",
@@ -32035,6 +34701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "prettyPrintBriefPrec",
           "package": "libcspm",
@@ -32044,6 +34711,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "prettyPrintBriefPrec",
           "normalized": "Int-\u003ea-\u003eb Doc",
@@ -32059,6 +34727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "prettyPrintPrec",
           "package": "libcspm",
@@ -32068,6 +34737,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "prettyPrintPrec",
           "normalized": "a-\u003ea-\u003eb Doc",
@@ -32084,6 +34754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to [d1, sep \u003ca/\u003e d2, sep \u003ca/\u003e d3, ...].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "punctuateFront",
           "package": "libcspm",
@@ -32094,6 +34765,7 @@
         "index": {
           "description": "Equivalent to d1 sep d2 sep d3",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "punctuateFront",
           "normalized": "a Doc-\u003ea[Doc]-\u003ea[Doc]",
@@ -32110,6 +34782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a double \u003ccode\u003ed\u003c/code\u003e printing only \u003ccode\u003eplaces\u003c/code\u003e places after the decimal place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "shortDouble",
           "package": "libcspm",
@@ -32120,6 +34793,7 @@
         "index": {
           "description": "Show double printing only places places after the decimal place",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "shortDouble",
           "normalized": "Int-\u003eDouble-\u003ea Doc",
@@ -32136,6 +34810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a number into \u003ccode\u003efirst\u003c/code\u003e, \u003ccode\u003esecond\u003c/code\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "speakNth",
           "package": "libcspm",
@@ -32146,6 +34821,7 @@
         "index": {
           "description": "Converts number into first second etc",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "speakNth",
           "normalized": "Int-\u003ea Doc",
@@ -32162,6 +34838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndent a document by \u003ccode\u003e\u003ca\u003etabWidth\u003c/a\u003e\u003c/code\u003e characters, on each line\n (uses \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "tabIndent",
           "package": "libcspm",
@@ -32172,6 +34849,7 @@
         "index": {
           "description": "Indent document by tabWidth characters on each line uses nest",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "tabIndent",
           "normalized": "a Doc-\u003ea Doc",
@@ -32188,6 +34866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe width, in spaces, of a tab character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrint",
           "name": "tabWidth",
           "package": "libcspm",
@@ -32198,6 +34877,7 @@
         "index": {
           "description": "The width in spaces of tab character",
           "hierarchy": "Util MonadicPrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrint",
           "name": "tabWidth",
           "package": "libcspm",
@@ -32212,6 +34892,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper around the John Hughes's and Simon Peyton Jones's Pretty\n Printer combinators based on the ReaderT monad transformer, allowing\n lookups to be performed during the pretty-printing process.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "MonadicPrettyPrintInternal",
           "package": "libcspm",
@@ -32221,6 +34902,7 @@
         "index": {
           "description": "wrapper around the John Hughes and Simon Peyton Jones Pretty Printer combinators based on the ReaderT monad transformer allowing lookups to be performed during the pretty-printing process",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "MonadicPrettyPrintInternal",
           "package": "libcspm",
@@ -32235,6 +34917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of documents.\n A Doc represents a *set* of layouts. A Doc with\n no occurrences of Union or NoDoc represents just one layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Doc",
           "package": "libcspm",
@@ -32243,6 +34926,7 @@
         "index": {
           "description": "The abstract type of documents Doc represents set of layouts Doc with no occurrences of Union or NoDoc represents just one layout",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Doc",
           "package": "libcspm",
@@ -32257,6 +34941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Mode",
           "package": "libcspm",
@@ -32265,6 +34950,7 @@
         "index": {
           "description": "Rendering mode",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Mode",
           "package": "libcspm",
@@ -32279,6 +34965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rendering style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Style",
           "package": "libcspm",
@@ -32287,6 +34974,7 @@
         "index": {
           "description": "rendering style",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Style",
           "package": "libcspm",
@@ -32301,6 +34989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TextDetails data type\n\u003c/p\u003e\u003cp\u003eA TextDetails represents a fragment of text that will be\n output at some point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "TextDetails",
           "package": "libcspm",
@@ -32309,6 +34998,7 @@
         "index": {
           "description": "The TextDetails data type TextDetails represents fragment of text that will be output at some point",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "TextDetails",
           "package": "libcspm",
@@ -32323,6 +35013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbove, except that if the last line of the first argument stops\n at least one position before the first line of the second begins,\n these two lines are overlapped.  For example:\n\u003c/p\u003e\u003cpre\u003e    text \"hi\" $$ nest 5 (text \"there\")\n\u003c/pre\u003e\u003cp\u003elays out as\n\u003c/p\u003e\u003cpre\u003e    hi   there\n\u003c/pre\u003e\u003cp\u003erather than\n\u003c/p\u003e\u003cpre\u003e    hi\n         there\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, and also satisfies\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e(x \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e y) \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e z = x \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e (y \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e z)\u003c/code\u003e, if \u003ccode\u003ey\u003c/code\u003e non-empty.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "($$)",
           "package": "libcspm",
@@ -32333,6 +35024,7 @@
         "index": {
           "description": "Above except that if the last line of the first argument stops at least one position before the first line of the second begins these two lines are overlapped For example text hi nest text there lays out as hi there rather than hi there is associative with identity empty and also satisfies if non-empty",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "($$) $$",
           "normalized": "a Doc-\u003ea Doc-\u003ea Doc",
@@ -32348,6 +35040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbove, with no overlapping.\n \u003ccode\u003e\u003ca\u003e$+$\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "($+$)",
           "package": "libcspm",
@@ -32358,6 +35051,7 @@
         "index": {
           "description": "Above with no overlapping is associative with identity empty",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "($+$) $+$",
           "normalized": "a Doc-\u003ea Doc-\u003ea Doc",
@@ -32373,6 +35067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeside, separated by space, unless one of the arguments is \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "(\u003c+\u003e)",
           "package": "libcspm",
@@ -32383,6 +35078,7 @@
         "index": {
           "description": "Beside separated by space unless one of the arguments is empty is associative with identity empty",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a Doc-\u003ea Doc-\u003ea Doc",
@@ -32398,6 +35094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeside.\n \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e is associative, with identity \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "(\u003c\u003e)",
           "package": "libcspm",
@@ -32408,6 +35105,7 @@
         "index": {
           "description": "Beside is associative with identity empty",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a Doc-\u003ea Doc-\u003ea Doc",
@@ -32423,6 +35121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single Char fragment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Chr",
           "package": "libcspm",
@@ -32432,6 +35131,7 @@
         "index": {
           "description": "single Char fragment",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Chr",
           "package": "libcspm",
@@ -32446,6 +35146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo indentation, infinitely long lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "LeftMode",
           "package": "libcspm",
@@ -32455,6 +35156,7 @@
         "index": {
           "description": "No indentation infinitely long lines",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "LeftMode",
           "package": "libcspm",
@@ -32469,6 +35171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll on one line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "OneLineMode",
           "package": "libcspm",
@@ -32478,6 +35181,7 @@
         "index": {
           "description": "All on one line",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "OneLineMode",
           "package": "libcspm",
@@ -32492,6 +35196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to represent a Fast String fragment\n   but now deprecated and identical to the\n   Str constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "PStr",
           "package": "libcspm",
@@ -32501,6 +35206,7 @@
         "index": {
           "description": "Used to represent Fast String fragment but now deprecated and identical to the Str constructor",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "PStr",
           "package": "libcspm",
@@ -32515,6 +35221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "PageMode",
           "package": "libcspm",
@@ -32524,6 +35231,7 @@
         "index": {
           "description": "Normal",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "PageMode",
           "package": "libcspm",
@@ -32538,6 +35246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA whole String fragment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Str",
           "package": "libcspm",
@@ -32547,6 +35256,7 @@
         "index": {
           "description": "whole String fragment",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Str",
           "package": "libcspm",
@@ -32560,6 +35270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Style",
           "package": "libcspm",
@@ -32568,6 +35279,7 @@
         },
         "index": {
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "Style",
           "package": "libcspm",
@@ -32582,6 +35294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith zig-zag cuts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "ZigZagMode",
           "package": "libcspm",
@@ -32591,6 +35304,7 @@
         "index": {
           "description": "With zig-zag cuts",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "ZigZagMode",
           "package": "libcspm",
@@ -32605,6 +35319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e{...}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "braces",
           "package": "libcspm",
@@ -32615,6 +35330,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "braces",
           "normalized": "a Doc-\u003ea Doc",
@@ -32630,6 +35346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e[...]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "brackets",
           "package": "libcspm",
@@ -32640,6 +35357,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "brackets",
           "normalized": "a Doc-\u003ea Doc",
@@ -32655,6 +35373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither \u003ccode\u003e\u003ca\u003ehcat\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "cat",
           "package": "libcspm",
@@ -32665,6 +35384,7 @@
         "index": {
           "description": "Either hcat or vcat",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "cat",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -32680,6 +35400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document of height and width 1, containing a literal character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "char",
           "package": "libcspm",
@@ -32690,6 +35411,7 @@
         "index": {
           "description": "document of height and width containing literal character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "char",
           "normalized": "Char-\u003ea Doc",
@@ -32705,6 +35427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e:\u003c/code\u003e character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "colon",
           "package": "libcspm",
@@ -32715,6 +35438,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "colon",
           "package": "libcspm",
@@ -32728,6 +35452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ',' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "comma",
           "package": "libcspm",
@@ -32738,6 +35463,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "comma",
           "package": "libcspm",
@@ -32751,6 +35477,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003edouble n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "double",
           "package": "libcspm",
@@ -32761,6 +35488,7 @@
         "index": {
           "description": "double text show",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "double",
           "normalized": "Double-\u003ea Doc",
@@ -32776,6 +35504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e\"...\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "doubleQuotes",
           "package": "libcspm",
@@ -32786,6 +35515,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "doubleQuotes",
           "normalized": "a Doc-\u003ea Doc",
@@ -32802,6 +35532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty document, with no height and no width.\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e is the identity for \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e$+$\u003c/a\u003e\u003c/code\u003e, and anywhere\n in the argument list for \u003ccode\u003e\u003ca\u003esep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehcat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehsep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efcat\u003c/a\u003e\u003c/code\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "empty",
           "package": "libcspm",
@@ -32812,6 +35543,7 @@
         "index": {
           "description": "The empty document with no height and no width empty is the identity for and and anywhere in the argument list for sep hcat hsep vcat fcat etc",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "empty",
           "package": "libcspm",
@@ -32825,6 +35557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '=' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "equals",
           "package": "libcspm",
@@ -32835,6 +35568,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "equals",
           "package": "libcspm",
@@ -32848,6 +35582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Paragraph fill\" version of \u003ccode\u003e\u003ca\u003ecat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "fcat",
           "package": "libcspm",
@@ -32858,6 +35593,7 @@
         "index": {
           "description": "Paragraph fill version of cat",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "fcat",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -32873,6 +35609,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003efloat n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "float",
           "package": "libcspm",
@@ -32883,6 +35620,7 @@
         "index": {
           "description": "float text show",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "float",
           "normalized": "Float-\u003ea Doc",
@@ -32898,6 +35636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Paragraph fill\" version of \u003ccode\u003e\u003ca\u003esep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "fsep",
           "package": "libcspm",
@@ -32908,6 +35647,7 @@
         "index": {
           "description": "Paragraph fill version of sep",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "fsep",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -32923,6 +35663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe general rendering interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "fullRender",
           "package": "libcspm",
@@ -32932,6 +35673,7 @@
         "index": {
           "description": "The general rendering interface",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "fullRender",
           "normalized": "Mode-\u003eInt-\u003eFloat-\u003e(TextDetails-\u003ea-\u003ea)-\u003ea-\u003eb Doc-\u003eb a",
@@ -32948,6 +35690,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ehang d1 n d2 = sep [d1, nest n d2]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "hang",
           "package": "libcspm",
@@ -32958,6 +35701,7 @@
         "index": {
           "description": "hang d1 d2 sep d1 nest d2",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "hang",
           "normalized": "a Doc-\u003eInt-\u003ea Doc-\u003ea Doc",
@@ -32973,6 +35717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "hcat",
           "package": "libcspm",
@@ -32983,6 +35728,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "hcat",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -32998,6 +35744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "hsep",
           "package": "libcspm",
@@ -33008,6 +35755,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "hsep",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -33023,6 +35771,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eint n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "int",
           "package": "libcspm",
@@ -33033,6 +35782,7 @@
         "index": {
           "description": "int text show",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "int",
           "normalized": "Int-\u003ea Doc",
@@ -33048,6 +35798,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003einteger n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "integer",
           "package": "libcspm",
@@ -33058,6 +35809,7 @@
         "index": {
           "description": "integer text show",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "integer",
           "normalized": "Integer-\u003ea Doc",
@@ -33073,6 +35825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the document is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "isEmpty",
           "package": "libcspm",
@@ -33083,6 +35836,7 @@
         "index": {
           "description": "Returns True if the document is empty",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "isEmpty",
           "normalized": "a Doc-\u003ea Bool",
@@ -33099,6 +35853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '{' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "lbrace",
           "package": "libcspm",
@@ -33109,6 +35864,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "lbrace",
           "package": "libcspm",
@@ -33122,6 +35878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '[' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "lbrack",
           "package": "libcspm",
@@ -33132,6 +35889,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "lbrack",
           "package": "libcspm",
@@ -33145,6 +35903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of line, in chars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "lineLength",
           "package": "libcspm",
@@ -33154,6 +35913,7 @@
         "index": {
           "description": "Length of line in chars",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "lineLength",
           "package": "libcspm",
@@ -33168,6 +35928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '(' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "lparen",
           "package": "libcspm",
@@ -33178,6 +35939,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "lparen",
           "package": "libcspm",
@@ -33191,6 +35953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rendering mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "mode",
           "package": "libcspm",
@@ -33200,6 +35963,7 @@
         "index": {
           "description": "The rendering mode",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "mode",
           "package": "libcspm",
@@ -33213,6 +35977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNest (or indent) a document by a given number of positions\n (which may also be negative).  \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e satisfies the laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e 0 x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k' x) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e (k+k') x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (x \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e y) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k z \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k (x \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e y) = \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k x \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e k y = x \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e, if \u003ccode\u003ex\u003c/code\u003e non-empty\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe side condition on the last law is needed because\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e is a left identity for \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "nest",
           "package": "libcspm",
@@ -33223,6 +35988,7 @@
         "index": {
           "description": "Nest or indent document by given number of positions which may also be negative nest satisfies the laws nest nest nest nest nest nest nest nest nest nest nest empty empty nest if non-empty The side condition on the last law is needed because empty is left identity for",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "nest",
           "normalized": "Int-\u003ea Doc-\u003ea Doc",
@@ -33238,6 +36004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e(...)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "parens",
           "package": "libcspm",
@@ -33248,6 +36015,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "parens",
           "normalized": "a Doc-\u003ea Doc",
@@ -33263,6 +36031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003etext\u003c/code\u003e. Used to be used for Bytestrings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "ptext",
           "package": "libcspm",
@@ -33273,6 +36042,7 @@
         "index": {
           "description": "Same as text Used to be used for Bytestrings",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "ptext",
           "normalized": "String-\u003ea Doc",
@@ -33288,6 +36058,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003epunctuate p [d1, ... dn] = [d1 \u003c\u003e p, d2 \u003c\u003e p, ... dn-1 \u003c\u003e p, dn]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "punctuate",
           "package": "libcspm",
@@ -33298,6 +36069,7 @@
         "index": {
           "description": "punctuate d1 dn d1 d2 dn-1 dn",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "punctuate",
           "normalized": "a Doc-\u003ea[Doc]-\u003ea[Doc]",
@@ -33313,6 +36085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap document in \u003ccode\u003e'...'\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "quotes",
           "package": "libcspm",
@@ -33323,6 +36096,7 @@
         "index": {
           "description": "Wrap document in",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "quotes",
           "normalized": "a Doc-\u003ea Doc",
@@ -33338,6 +36112,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003erational n = text (show n)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "rational",
           "package": "libcspm",
@@ -33348,6 +36123,7 @@
         "index": {
           "description": "rational text show",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "rational",
           "normalized": "Rational-\u003ea Doc",
@@ -33363,6 +36139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '}' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "rbrace",
           "package": "libcspm",
@@ -33373,6 +36150,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "rbrace",
           "package": "libcspm",
@@ -33386,6 +36164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ']' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "rbrack",
           "package": "libcspm",
@@ -33396,6 +36175,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "rbrack",
           "package": "libcspm",
@@ -33409,6 +36189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the \u003ccode\u003eDoc\u003c/code\u003e to a String using the default \u003ccode\u003eStyle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "render",
           "package": "libcspm",
@@ -33419,6 +36200,7 @@
         "index": {
           "description": "Render the Doc to String using the default Style",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "render",
           "normalized": "a Doc-\u003ea String",
@@ -33434,6 +36216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the \u003ccode\u003eDoc\u003c/code\u003e to a String using the given \u003ccode\u003eStyle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "renderStyle",
           "package": "libcspm",
@@ -33444,6 +36227,7 @@
         "index": {
           "description": "Render the Doc to String using the given Style",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "renderStyle",
           "normalized": "Style-\u003ea Doc-\u003ea String",
@@ -33460,6 +36244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRatio of ribbon length to line length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "ribbonsPerLine",
           "package": "libcspm",
@@ -33469,6 +36254,7 @@
         "index": {
           "description": "Ratio of ribbon length to line length",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "ribbonsPerLine",
           "package": "libcspm",
@@ -33483,6 +36269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ')' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "rparen",
           "package": "libcspm",
@@ -33493,6 +36280,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "rparen",
           "package": "libcspm",
@@ -33506,6 +36294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ';' character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "semi",
           "package": "libcspm",
@@ -33516,6 +36305,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "semi",
           "package": "libcspm",
@@ -33529,6 +36319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither \u003ccode\u003e\u003ca\u003ehsep\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "sep",
           "package": "libcspm",
@@ -33539,6 +36330,7 @@
         "index": {
           "description": "Either hsep or vcat",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "sep",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -33554,6 +36346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome text with any width. (\u003ccode\u003etext s = sizedText (length s) s\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "sizedText",
           "package": "libcspm",
@@ -33564,6 +36357,7 @@
         "index": {
           "description": "Some text with any width text sizedText length",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "sizedText",
           "normalized": "Int-\u003eString-\u003ea Doc",
@@ -33580,6 +36374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "space",
           "package": "libcspm",
@@ -33590,6 +36385,7 @@
         "index": {
           "description": "space character",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "space",
           "package": "libcspm",
@@ -33603,6 +36399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default style (\u003ccode\u003emode=PageMode, lineLength=100, ribbonsPerLine=1.5\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "style",
           "package": "libcspm",
@@ -33612,6 +36409,7 @@
         "index": {
           "description": "The default style mode PageMode lineLength ribbonsPerLine",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "style",
           "package": "libcspm",
@@ -33625,6 +36423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document of height 1 containing a literal string.\n \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e satisfies the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e s \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e t = \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e (s\u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003et)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e \"\" \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e x = x\u003c/code\u003e, if \u003ccode\u003ex\u003c/code\u003e non-empty\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe side condition on the last law is necessary because \u003ccode\u003e\u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e\n has height 1, while \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e has no height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "text",
           "package": "libcspm",
@@ -33635,6 +36434,7 @@
         "index": {
           "description": "document of height containing literal string text satisfies the following laws text text text text if non-empty The side condition on the last law is necessary because text has height while empty has no height",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "text",
           "normalized": "String-\u003ea Doc",
@@ -33650,6 +36450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "vcat",
           "package": "libcspm",
@@ -33660,6 +36461,7 @@
         "index": {
           "description": "List version of",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "vcat",
           "normalized": "a[Doc]-\u003ea Doc",
@@ -33675,6 +36477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome text, but without any width. Use for non-printing text\n such as a HTML or Latex tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "zeroWidthText",
           "package": "libcspm",
@@ -33685,6 +36488,7 @@
         "index": {
           "description": "Some text but without any width Use for non-printing text such as HTML or Latex tags",
           "hierarchy": "Util MonadicPrettyPrintInternal",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.MonadicPrettyPrintInternal",
           "name": "zeroWidthText",
           "normalized": "String-\u003ea Doc",
@@ -33700,6 +36504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "PartialFunctions",
           "package": "libcspm",
@@ -33708,6 +36513,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "PartialFunctions",
           "package": "libcspm",
@@ -33721,6 +36527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "PartialFunction",
           "package": "libcspm",
@@ -33729,6 +36536,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "PartialFunction",
           "package": "libcspm",
@@ -33742,6 +36550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "apply",
           "package": "libcspm",
@@ -33751,6 +36560,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "apply",
           "normalized": "PartialFunction a b-\u003ea-\u003eb",
@@ -33765,6 +36575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "applyRelation",
           "package": "libcspm",
@@ -33774,6 +36585,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "applyRelation",
           "normalized": "PartialFunction a b-\u003ea-\u003e[b]",
@@ -33789,6 +36601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "composeFunctions",
           "package": "libcspm",
@@ -33798,6 +36611,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "composeFunctions",
           "normalized": "PartialFunction a b-\u003ePartialFunction c a-\u003ePartialFunction c b",
@@ -33813,6 +36627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "functionDomain",
           "package": "libcspm",
@@ -33822,6 +36637,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "functionDomain",
           "normalized": "PartialFunction a b-\u003e[a]",
@@ -33837,6 +36653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "functionImage",
           "package": "libcspm",
@@ -33846,6 +36663,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "functionImage",
           "normalized": "PartialFunction a b-\u003e[b]",
@@ -33861,6 +36679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "identityFunction",
           "package": "libcspm",
@@ -33870,6 +36689,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "identityFunction",
           "normalized": "[a]-\u003ePartialFunction a a",
@@ -33885,6 +36705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "invert",
           "package": "libcspm",
@@ -33894,6 +36715,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "invert",
           "normalized": "PartialFunction a b-\u003ePartialFunction b a",
@@ -33908,6 +36730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "mapPF",
           "package": "libcspm",
@@ -33917,6 +36740,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "mapPF",
           "normalized": "PartialFunction a b-\u003e[a]-\u003e[b]",
@@ -33932,6 +36756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "removeEntry",
           "package": "libcspm",
@@ -33941,6 +36766,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "removeEntry",
           "normalized": "PartialFunction a b-\u003ea-\u003ePartialFunction a b",
@@ -33956,6 +36782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "safeApply",
           "package": "libcspm",
@@ -33965,6 +36792,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "safeApply",
           "normalized": "PartialFunction a b-\u003ea-\u003eMaybe b",
@@ -33980,6 +36808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "safeMapPF",
           "package": "libcspm",
@@ -33989,6 +36818,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "safeMapPF",
           "normalized": "PartialFunction a b-\u003e[a]-\u003e[b]",
@@ -34004,6 +36834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PartialFunctions",
           "name": "updatePF",
           "package": "libcspm",
@@ -34013,6 +36844,7 @@
         },
         "index": {
           "hierarchy": "Util PartialFunctions",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PartialFunctions",
           "name": "updatePF",
           "normalized": "PartialFunction a b-\u003ea-\u003eb-\u003ePartialFunction a b",
@@ -34028,6 +36860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "Precedence",
           "package": "libcspm",
@@ -34036,6 +36869,7 @@
         },
         "index": {
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "Precedence",
           "package": "libcspm",
@@ -34050,6 +36884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe associativity of an operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "Associativity",
           "package": "libcspm",
@@ -34059,6 +36894,7 @@
         "index": {
           "description": "The associativity of an operator",
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "Associativity",
           "package": "libcspm",
@@ -34072,6 +36908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "Precedence",
           "package": "libcspm",
@@ -34080,6 +36917,7 @@
         },
         "index": {
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "Precedence",
           "package": "libcspm",
@@ -34093,6 +36931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "AssocLeft",
           "package": "libcspm",
@@ -34102,6 +36941,7 @@
         },
         "index": {
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "AssocLeft",
           "package": "libcspm",
@@ -34115,6 +36955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "AssocNone",
           "package": "libcspm",
@@ -34124,6 +36965,7 @@
         },
         "index": {
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "AssocNone",
           "package": "libcspm",
@@ -34137,6 +36979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "AssocRight",
           "package": "libcspm",
@@ -34146,6 +36989,7 @@
         },
         "index": {
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "AssocRight",
           "package": "libcspm",
@@ -34160,6 +37004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the associativity of the operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "associativity",
           "package": "libcspm",
@@ -34170,6 +37015,7 @@
         "index": {
           "description": "Returns the associativity of the operator",
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "associativity",
           "normalized": "a-\u003eAssociativity",
@@ -34185,6 +37031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the binding strength of the operator. Higher numbers bind more\n loosely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "precedence",
           "package": "libcspm",
@@ -34195,6 +37042,7 @@
         "index": {
           "description": "Returns the binding strength of the operator Higher numbers bind more loosely",
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "precedence",
           "normalized": "a-\u003eInt",
@@ -34210,6 +37058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the two items are the same operator. This is used to decide\n when to paranthesise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Precedence",
           "name": "sameOperator",
           "package": "libcspm",
@@ -34220,6 +37069,7 @@
         "index": {
           "description": "True if the two items are the same operator This is used to decide when to paranthesise",
           "hierarchy": "Util Precedence",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Precedence",
           "name": "sameOperator",
           "normalized": "a-\u003ea-\u003eBool",
@@ -34236,6 +37086,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious miscellaneous functions utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Prelude",
           "name": "Prelude",
           "package": "libcspm",
@@ -34245,6 +37096,7 @@
         "index": {
           "description": "Various miscellaneous functions utility functions",
           "hierarchy": "Util Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Prelude",
           "name": "Prelude",
           "package": "libcspm",
@@ -34259,6 +37111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the Cartesian product of a list of lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Prelude",
           "name": "cartProduct",
           "package": "libcspm",
@@ -34269,6 +37122,7 @@
         "index": {
           "description": "Compute the Cartesian product of list of lists",
           "hierarchy": "Util Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Prelude",
           "name": "cartProduct",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -34285,6 +37139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a file path, if the first character is a ~ then\n expands the ~ to the users' home directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Prelude",
           "name": "expandPathIO",
           "package": "libcspm",
@@ -34295,6 +37150,7 @@
         "index": {
           "description": "Given file path if the first character is then expands the to the users home directory",
           "hierarchy": "Util Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Prelude",
           "name": "expandPathIO",
           "normalized": "String-\u003eIO String",
@@ -34311,6 +37167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven two orderings, returns the second if the first is \n \u003ccode\u003e\u003ca\u003eEQ\u003c/a\u003e\u003c/code\u003e and returns the first otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Prelude",
           "name": "thenCmp",
           "package": "libcspm",
@@ -34321,6 +37178,7 @@
         "index": {
           "description": "Given two orderings returns the second if the first is EQ and returns the first otherwise",
           "hierarchy": "Util Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Prelude",
           "name": "thenCmp",
           "normalized": "Ordering-\u003eOrdering-\u003eOrdering",
@@ -34337,6 +37195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove whitespace from the beginning and end of a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.Prelude",
           "name": "trim",
           "package": "libcspm",
@@ -34347,6 +37206,7 @@
         "index": {
           "description": "Remove whitespace from the beginning and end of string",
           "hierarchy": "Util Prelude",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.Prelude",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -34361,6 +37221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "PrettyPrint",
           "package": "libcspm",
@@ -34369,6 +37230,7 @@
         },
         "index": {
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "PrettyPrint",
           "package": "libcspm",
@@ -34382,6 +37244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "PrettyPrintable",
           "package": "libcspm",
@@ -34390,6 +37253,7 @@
         },
         "index": {
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "PrettyPrintable",
           "package": "libcspm",
@@ -34404,6 +37268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurrounds a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "angles",
           "package": "libcspm",
@@ -34414,6 +37279,7 @@
         "index": {
           "description": "Surrounds Doc with and",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "angles",
           "normalized": "Doc-\u003eDoc",
@@ -34429,6 +37295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurrounds a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e with '|'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "bars",
           "package": "libcspm",
@@ -34439,6 +37306,7 @@
         "index": {
           "description": "Surrounds Doc with",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "bars",
           "normalized": "Doc-\u003eDoc",
@@ -34454,6 +37322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints an integer and separates it into groups of 3, separated by\n commas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "commaSeparatedInt",
           "package": "libcspm",
@@ -34464,6 +37333,7 @@
         "index": {
           "description": "Pretty prints an integer and separates it into groups of separated by commas",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "commaSeparatedInt",
           "normalized": "Int-\u003eDoc",
@@ -34480,6 +37350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparates a list of \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003es by \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "dotSep",
           "package": "libcspm",
@@ -34490,6 +37361,7 @@
         "index": {
           "description": "Separates list of Doc by",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "dotSep",
           "normalized": "[Doc]-\u003eDoc",
@@ -34506,6 +37378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparates a list of \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003es by ','.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "list",
           "package": "libcspm",
@@ -34516,6 +37389,7 @@
         "index": {
           "description": "Separates list of Doc by",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "list",
           "normalized": "[Doc]-\u003eDoc",
@@ -34530,6 +37404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "prettyPrint",
           "package": "libcspm",
@@ -34539,6 +37414,7 @@
         },
         "index": {
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "prettyPrint",
           "normalized": "a-\u003eDoc",
@@ -34555,6 +37431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to [d1, sep \u003ca/\u003e d2, sep \u003ca/\u003e d3, ...].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "punctuateFront",
           "package": "libcspm",
@@ -34565,6 +37442,7 @@
         "index": {
           "description": "Equivalent to d1 sep d2 sep d3",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "punctuateFront",
           "normalized": "Doc-\u003e[Doc]-\u003e[Doc]",
@@ -34581,6 +37459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a double \u003ccode\u003ed\u003c/code\u003e printing only \u003ccode\u003eplaces\u003c/code\u003e places after the decimal place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "shortDouble",
           "package": "libcspm",
@@ -34591,6 +37470,7 @@
         "index": {
           "description": "Show double printing only places places after the decimal place",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "shortDouble",
           "normalized": "Int-\u003eDouble-\u003eDoc",
@@ -34607,6 +37487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a number into \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003esecond\u003c/code\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "speakNth",
           "package": "libcspm",
@@ -34617,6 +37498,7 @@
         "index": {
           "description": "Converts number into first second etc",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "speakNth",
           "normalized": "Int-\u003eDoc",
@@ -34633,6 +37515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndent a document by \u003ccode\u003e\u003ca\u003etabWidth\u003c/a\u003e\u003c/code\u003e characters, on each line\n (uses \u003ccode\u003e\u003ca\u003enest\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "tabIndent",
           "package": "libcspm",
@@ -34643,6 +37526,7 @@
         "index": {
           "description": "Indent document by tabWidth characters on each line uses nest",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "tabIndent",
           "normalized": "Doc-\u003eDoc",
@@ -34659,6 +37543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe width, in spaces, of a tab character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:20 UTC 2014",
           "module": "Util.PrettyPrint",
           "name": "tabWidth",
           "package": "libcspm",
@@ -34669,6 +37554,7 @@
         "index": {
           "description": "The width in spaces of tab character",
           "hierarchy": "Util PrettyPrint",
+          "indexed": "2014-03-11T19:08:20",
           "module": "Util.PrettyPrint",
           "name": "tabWidth",
           "package": "libcspm",

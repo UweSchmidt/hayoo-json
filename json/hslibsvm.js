@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hslibsvm"
+        "phrase": "hslibsvm",
+        "type": "phrase"
       },
       "type": "context"
     }

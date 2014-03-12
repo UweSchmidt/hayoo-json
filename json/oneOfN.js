@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "oneOfN"
+        "phrase": "oneOfN",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOfN",
           "package": "oneOfN",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOfN",
           "package": "oneOfN",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf10",
           "package": "oneOfN",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf10",
           "package": "oneOfN",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf11",
           "package": "oneOfN",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf11",
           "package": "oneOfN",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf12",
           "package": "oneOfN",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf12",
           "package": "oneOfN",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf13",
           "package": "oneOfN",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf13",
           "package": "oneOfN",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf14",
           "package": "oneOfN",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf14",
           "package": "oneOfN",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf15",
           "package": "oneOfN",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf15",
           "package": "oneOfN",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf16",
           "package": "oneOfN",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf16",
           "package": "oneOfN",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf17",
           "package": "oneOfN",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf17",
           "package": "oneOfN",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf18",
           "package": "oneOfN",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf18",
           "package": "oneOfN",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf19",
           "package": "oneOfN",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf19",
           "package": "oneOfN",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf2",
           "package": "oneOfN",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf2",
           "package": "oneOfN",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf20",
           "package": "oneOfN",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf20",
           "package": "oneOfN",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf3",
           "package": "oneOfN",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf3",
           "package": "oneOfN",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf4",
           "package": "oneOfN",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf4",
           "package": "oneOfN",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf5",
           "package": "oneOfN",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf5",
           "package": "oneOfN",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf6",
           "package": "oneOfN",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf6",
           "package": "oneOfN",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf7",
           "package": "oneOfN",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf7",
           "package": "oneOfN",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf8",
           "package": "oneOfN",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf8",
           "package": "oneOfN",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf9",
           "package": "oneOfN",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf9",
           "package": "oneOfN",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of10",
           "package": "oneOfN",
@@ -447,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of10",
           "package": "oneOfN",
@@ -460,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of11",
           "package": "oneOfN",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of11",
           "package": "oneOfN",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of12",
           "package": "oneOfN",
@@ -491,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of12",
           "package": "oneOfN",
@@ -504,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of13",
           "package": "oneOfN",
@@ -513,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of13",
           "package": "oneOfN",
@@ -526,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of14",
           "package": "oneOfN",
@@ -535,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of14",
           "package": "oneOfN",
@@ -548,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of15",
           "package": "oneOfN",
@@ -557,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of15",
           "package": "oneOfN",
@@ -570,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of16",
           "package": "oneOfN",
@@ -579,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of16",
           "package": "oneOfN",
@@ -592,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of17",
           "package": "oneOfN",
@@ -601,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of17",
           "package": "oneOfN",
@@ -614,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of18",
           "package": "oneOfN",
@@ -623,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of18",
           "package": "oneOfN",
@@ -636,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of19",
           "package": "oneOfN",
@@ -645,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of19",
           "package": "oneOfN",
@@ -658,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice10Of20",
           "package": "oneOfN",
@@ -667,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice10Of20",
           "package": "oneOfN",
@@ -680,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of11",
           "package": "oneOfN",
@@ -689,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of11",
           "package": "oneOfN",
@@ -702,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of12",
           "package": "oneOfN",
@@ -711,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of12",
           "package": "oneOfN",
@@ -724,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of13",
           "package": "oneOfN",
@@ -733,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of13",
           "package": "oneOfN",
@@ -746,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of14",
           "package": "oneOfN",
@@ -755,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of14",
           "package": "oneOfN",
@@ -768,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of15",
           "package": "oneOfN",
@@ -777,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of15",
           "package": "oneOfN",
@@ -790,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of16",
           "package": "oneOfN",
@@ -799,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of16",
           "package": "oneOfN",
@@ -812,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of17",
           "package": "oneOfN",
@@ -821,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of17",
           "package": "oneOfN",
@@ -834,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of18",
           "package": "oneOfN",
@@ -843,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of18",
           "package": "oneOfN",
@@ -856,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of19",
           "package": "oneOfN",
@@ -865,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of19",
           "package": "oneOfN",
@@ -878,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice11Of20",
           "package": "oneOfN",
@@ -887,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice11Of20",
           "package": "oneOfN",
@@ -900,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of12",
           "package": "oneOfN",
@@ -909,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of12",
           "package": "oneOfN",
@@ -922,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of13",
           "package": "oneOfN",
@@ -931,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of13",
           "package": "oneOfN",
@@ -944,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of14",
           "package": "oneOfN",
@@ -953,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of14",
           "package": "oneOfN",
@@ -966,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of15",
           "package": "oneOfN",
@@ -975,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of15",
           "package": "oneOfN",
@@ -988,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of16",
           "package": "oneOfN",
@@ -997,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of16",
           "package": "oneOfN",
@@ -1010,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of17",
           "package": "oneOfN",
@@ -1019,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of17",
           "package": "oneOfN",
@@ -1032,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of18",
           "package": "oneOfN",
@@ -1041,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of18",
           "package": "oneOfN",
@@ -1054,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of19",
           "package": "oneOfN",
@@ -1063,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of19",
           "package": "oneOfN",
@@ -1076,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice12Of20",
           "package": "oneOfN",
@@ -1085,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice12Of20",
           "package": "oneOfN",
@@ -1098,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice13Of13",
           "package": "oneOfN",
@@ -1107,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice13Of13",
           "package": "oneOfN",
@@ -1120,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice13Of14",
           "package": "oneOfN",
@@ -1129,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice13Of14",
           "package": "oneOfN",
@@ -1142,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice13Of15",
           "package": "oneOfN",
@@ -1151,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice13Of15",
           "package": "oneOfN",
@@ -1164,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice13Of16",
           "package": "oneOfN",
@@ -1173,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice13Of16",
           "package": "oneOfN",
@@ -1186,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice13Of17",
           "package": "oneOfN",
@@ -1195,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice13Of17",
           "package": "oneOfN",
@@ -1208,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice13Of18",
           "package": "oneOfN",
@@ -1217,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice13Of18",
           "package": "oneOfN",
@@ -1230,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice13Of19",
           "package": "oneOfN",
@@ -1239,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice13Of19",
           "package": "oneOfN",
@@ -1252,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice13Of20",
           "package": "oneOfN",
@@ -1261,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice13Of20",
           "package": "oneOfN",
@@ -1274,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice14Of14",
           "package": "oneOfN",
@@ -1283,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice14Of14",
           "package": "oneOfN",
@@ -1296,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice14Of15",
           "package": "oneOfN",
@@ -1305,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice14Of15",
           "package": "oneOfN",
@@ -1318,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice14Of16",
           "package": "oneOfN",
@@ -1327,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice14Of16",
           "package": "oneOfN",
@@ -1340,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice14Of17",
           "package": "oneOfN",
@@ -1349,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice14Of17",
           "package": "oneOfN",
@@ -1362,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice14Of18",
           "package": "oneOfN",
@@ -1371,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice14Of18",
           "package": "oneOfN",
@@ -1384,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice14Of19",
           "package": "oneOfN",
@@ -1393,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice14Of19",
           "package": "oneOfN",
@@ -1406,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice14Of20",
           "package": "oneOfN",
@@ -1415,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice14Of20",
           "package": "oneOfN",
@@ -1428,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice15Of15",
           "package": "oneOfN",
@@ -1437,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice15Of15",
           "package": "oneOfN",
@@ -1450,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice15Of16",
           "package": "oneOfN",
@@ -1459,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice15Of16",
           "package": "oneOfN",
@@ -1472,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice15Of17",
           "package": "oneOfN",
@@ -1481,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice15Of17",
           "package": "oneOfN",
@@ -1494,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice15Of18",
           "package": "oneOfN",
@@ -1503,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice15Of18",
           "package": "oneOfN",
@@ -1516,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice15Of19",
           "package": "oneOfN",
@@ -1525,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice15Of19",
           "package": "oneOfN",
@@ -1538,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice15Of20",
           "package": "oneOfN",
@@ -1547,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice15Of20",
           "package": "oneOfN",
@@ -1560,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice16Of16",
           "package": "oneOfN",
@@ -1569,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice16Of16",
           "package": "oneOfN",
@@ -1582,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice16Of17",
           "package": "oneOfN",
@@ -1591,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice16Of17",
           "package": "oneOfN",
@@ -1604,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice16Of18",
           "package": "oneOfN",
@@ -1613,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice16Of18",
           "package": "oneOfN",
@@ -1626,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice16Of19",
           "package": "oneOfN",
@@ -1635,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice16Of19",
           "package": "oneOfN",
@@ -1648,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice16Of20",
           "package": "oneOfN",
@@ -1657,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice16Of20",
           "package": "oneOfN",
@@ -1670,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice17Of17",
           "package": "oneOfN",
@@ -1679,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice17Of17",
           "package": "oneOfN",
@@ -1692,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice17Of18",
           "package": "oneOfN",
@@ -1701,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice17Of18",
           "package": "oneOfN",
@@ -1714,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice17Of19",
           "package": "oneOfN",
@@ -1723,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice17Of19",
           "package": "oneOfN",
@@ -1736,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice17Of20",
           "package": "oneOfN",
@@ -1745,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice17Of20",
           "package": "oneOfN",
@@ -1758,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice18Of18",
           "package": "oneOfN",
@@ -1767,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice18Of18",
           "package": "oneOfN",
@@ -1780,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice18Of19",
           "package": "oneOfN",
@@ -1789,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice18Of19",
           "package": "oneOfN",
@@ -1802,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice18Of20",
           "package": "oneOfN",
@@ -1811,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice18Of20",
           "package": "oneOfN",
@@ -1824,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice19Of19",
           "package": "oneOfN",
@@ -1833,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice19Of19",
           "package": "oneOfN",
@@ -1846,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice19Of20",
           "package": "oneOfN",
@@ -1855,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice19Of20",
           "package": "oneOfN",
@@ -1868,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "Choice20Of20",
           "package": "oneOfN",
@@ -1877,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "Choice20Of20",
           "package": "oneOfN",
@@ -1890,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf10",
           "package": "oneOfN",
@@ -1899,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf10",
           "package": "oneOfN",
@@ -1912,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf11",
           "package": "oneOfN",
@@ -1921,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf11",
           "package": "oneOfN",
@@ -1934,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf12",
           "package": "oneOfN",
@@ -1943,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf12",
           "package": "oneOfN",
@@ -1956,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf13",
           "package": "oneOfN",
@@ -1965,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf13",
           "package": "oneOfN",
@@ -1978,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf14",
           "package": "oneOfN",
@@ -1987,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf14",
           "package": "oneOfN",
@@ -2000,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf15",
           "package": "oneOfN",
@@ -2009,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf15",
           "package": "oneOfN",
@@ -2022,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf16",
           "package": "oneOfN",
@@ -2031,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf16",
           "package": "oneOfN",
@@ -2044,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf17",
           "package": "oneOfN",
@@ -2053,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf17",
           "package": "oneOfN",
@@ -2066,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf18",
           "package": "oneOfN",
@@ -2075,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf18",
           "package": "oneOfN",
@@ -2088,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf19",
           "package": "oneOfN",
@@ -2097,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf19",
           "package": "oneOfN",
@@ -2110,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf20",
           "package": "oneOfN",
@@ -2119,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf20",
           "package": "oneOfN",
@@ -2132,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf8",
           "package": "oneOfN",
@@ -2141,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf8",
           "package": "oneOfN",
@@ -2154,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "EightOf9",
           "package": "oneOfN",
@@ -2163,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "EightOf9",
           "package": "oneOfN",
@@ -2176,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf10",
           "package": "oneOfN",
@@ -2185,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf10",
           "package": "oneOfN",
@@ -2198,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf11",
           "package": "oneOfN",
@@ -2207,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf11",
           "package": "oneOfN",
@@ -2220,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf12",
           "package": "oneOfN",
@@ -2229,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf12",
           "package": "oneOfN",
@@ -2242,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf13",
           "package": "oneOfN",
@@ -2251,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf13",
           "package": "oneOfN",
@@ -2264,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf14",
           "package": "oneOfN",
@@ -2273,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf14",
           "package": "oneOfN",
@@ -2286,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf15",
           "package": "oneOfN",
@@ -2295,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf15",
           "package": "oneOfN",
@@ -2308,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf16",
           "package": "oneOfN",
@@ -2317,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf16",
           "package": "oneOfN",
@@ -2330,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf17",
           "package": "oneOfN",
@@ -2339,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf17",
           "package": "oneOfN",
@@ -2352,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf18",
           "package": "oneOfN",
@@ -2361,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf18",
           "package": "oneOfN",
@@ -2374,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf19",
           "package": "oneOfN",
@@ -2383,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf19",
           "package": "oneOfN",
@@ -2396,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf20",
           "package": "oneOfN",
@@ -2405,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf20",
           "package": "oneOfN",
@@ -2418,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf5",
           "package": "oneOfN",
@@ -2427,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf5",
           "package": "oneOfN",
@@ -2440,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf6",
           "package": "oneOfN",
@@ -2449,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf6",
           "package": "oneOfN",
@@ -2462,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf7",
           "package": "oneOfN",
@@ -2471,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf7",
           "package": "oneOfN",
@@ -2484,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf8",
           "package": "oneOfN",
@@ -2493,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf8",
           "package": "oneOfN",
@@ -2506,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FiveOf9",
           "package": "oneOfN",
@@ -2515,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FiveOf9",
           "package": "oneOfN",
@@ -2528,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf10",
           "package": "oneOfN",
@@ -2537,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf10",
           "package": "oneOfN",
@@ -2550,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf11",
           "package": "oneOfN",
@@ -2559,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf11",
           "package": "oneOfN",
@@ -2572,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf12",
           "package": "oneOfN",
@@ -2581,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf12",
           "package": "oneOfN",
@@ -2594,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf13",
           "package": "oneOfN",
@@ -2603,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf13",
           "package": "oneOfN",
@@ -2616,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf14",
           "package": "oneOfN",
@@ -2625,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf14",
           "package": "oneOfN",
@@ -2638,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf15",
           "package": "oneOfN",
@@ -2647,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf15",
           "package": "oneOfN",
@@ -2660,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf16",
           "package": "oneOfN",
@@ -2669,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf16",
           "package": "oneOfN",
@@ -2682,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf17",
           "package": "oneOfN",
@@ -2691,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf17",
           "package": "oneOfN",
@@ -2704,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf18",
           "package": "oneOfN",
@@ -2713,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf18",
           "package": "oneOfN",
@@ -2726,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf19",
           "package": "oneOfN",
@@ -2735,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf19",
           "package": "oneOfN",
@@ -2748,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf20",
           "package": "oneOfN",
@@ -2757,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf20",
           "package": "oneOfN",
@@ -2770,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf4",
           "package": "oneOfN",
@@ -2779,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf4",
           "package": "oneOfN",
@@ -2792,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf5",
           "package": "oneOfN",
@@ -2801,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf5",
           "package": "oneOfN",
@@ -2814,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf6",
           "package": "oneOfN",
@@ -2823,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf6",
           "package": "oneOfN",
@@ -2836,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf7",
           "package": "oneOfN",
@@ -2845,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf7",
           "package": "oneOfN",
@@ -2858,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf8",
           "package": "oneOfN",
@@ -2867,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf8",
           "package": "oneOfN",
@@ -2880,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "FourOf9",
           "package": "oneOfN",
@@ -2889,6 +3152,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "FourOf9",
           "package": "oneOfN",
@@ -2902,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf10",
           "package": "oneOfN",
@@ -2911,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf10",
           "package": "oneOfN",
@@ -2924,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf11",
           "package": "oneOfN",
@@ -2933,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf11",
           "package": "oneOfN",
@@ -2946,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf12",
           "package": "oneOfN",
@@ -2955,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf12",
           "package": "oneOfN",
@@ -2968,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf13",
           "package": "oneOfN",
@@ -2977,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf13",
           "package": "oneOfN",
@@ -2990,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf14",
           "package": "oneOfN",
@@ -2999,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf14",
           "package": "oneOfN",
@@ -3012,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf15",
           "package": "oneOfN",
@@ -3021,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf15",
           "package": "oneOfN",
@@ -3034,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf16",
           "package": "oneOfN",
@@ -3043,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf16",
           "package": "oneOfN",
@@ -3056,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf17",
           "package": "oneOfN",
@@ -3065,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf17",
           "package": "oneOfN",
@@ -3078,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf18",
           "package": "oneOfN",
@@ -3087,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf18",
           "package": "oneOfN",
@@ -3100,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf19",
           "package": "oneOfN",
@@ -3109,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf19",
           "package": "oneOfN",
@@ -3122,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf20",
           "package": "oneOfN",
@@ -3131,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf20",
           "package": "oneOfN",
@@ -3144,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "NineOf9",
           "package": "oneOfN",
@@ -3153,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "NineOf9",
           "package": "oneOfN",
@@ -3166,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf10",
           "package": "oneOfN",
@@ -3175,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf10",
           "package": "oneOfN",
@@ -3188,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf11",
           "package": "oneOfN",
@@ -3197,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf11",
           "package": "oneOfN",
@@ -3210,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf12",
           "package": "oneOfN",
@@ -3219,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf12",
           "package": "oneOfN",
@@ -3232,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf13",
           "package": "oneOfN",
@@ -3241,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf13",
           "package": "oneOfN",
@@ -3254,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf14",
           "package": "oneOfN",
@@ -3263,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf14",
           "package": "oneOfN",
@@ -3276,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf15",
           "package": "oneOfN",
@@ -3285,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf15",
           "package": "oneOfN",
@@ -3298,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf16",
           "package": "oneOfN",
@@ -3307,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf16",
           "package": "oneOfN",
@@ -3320,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf17",
           "package": "oneOfN",
@@ -3329,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf17",
           "package": "oneOfN",
@@ -3342,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf18",
           "package": "oneOfN",
@@ -3351,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf18",
           "package": "oneOfN",
@@ -3364,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf19",
           "package": "oneOfN",
@@ -3373,6 +3680,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf19",
           "package": "oneOfN",
@@ -3386,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf2",
           "package": "oneOfN",
@@ -3395,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf2",
           "package": "oneOfN",
@@ -3408,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf20",
           "package": "oneOfN",
@@ -3417,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf20",
           "package": "oneOfN",
@@ -3430,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf3",
           "package": "oneOfN",
@@ -3439,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf3",
           "package": "oneOfN",
@@ -3452,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf4",
           "package": "oneOfN",
@@ -3461,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf4",
           "package": "oneOfN",
@@ -3474,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf5",
           "package": "oneOfN",
@@ -3483,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf5",
           "package": "oneOfN",
@@ -3496,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf6",
           "package": "oneOfN",
@@ -3505,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf6",
           "package": "oneOfN",
@@ -3518,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf7",
           "package": "oneOfN",
@@ -3527,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf7",
           "package": "oneOfN",
@@ -3540,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf8",
           "package": "oneOfN",
@@ -3549,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf8",
           "package": "oneOfN",
@@ -3562,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "OneOf9",
           "package": "oneOfN",
@@ -3571,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "OneOf9",
           "package": "oneOfN",
@@ -3584,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf10",
           "package": "oneOfN",
@@ -3593,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf10",
           "package": "oneOfN",
@@ -3606,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf11",
           "package": "oneOfN",
@@ -3615,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf11",
           "package": "oneOfN",
@@ -3628,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf12",
           "package": "oneOfN",
@@ -3637,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf12",
           "package": "oneOfN",
@@ -3650,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf13",
           "package": "oneOfN",
@@ -3659,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf13",
           "package": "oneOfN",
@@ -3672,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf14",
           "package": "oneOfN",
@@ -3681,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf14",
           "package": "oneOfN",
@@ -3694,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf15",
           "package": "oneOfN",
@@ -3703,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf15",
           "package": "oneOfN",
@@ -3716,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf16",
           "package": "oneOfN",
@@ -3725,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf16",
           "package": "oneOfN",
@@ -3738,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf17",
           "package": "oneOfN",
@@ -3747,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf17",
           "package": "oneOfN",
@@ -3760,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf18",
           "package": "oneOfN",
@@ -3769,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf18",
           "package": "oneOfN",
@@ -3782,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf19",
           "package": "oneOfN",
@@ -3791,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf19",
           "package": "oneOfN",
@@ -3804,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf20",
           "package": "oneOfN",
@@ -3813,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf20",
           "package": "oneOfN",
@@ -3826,6 +4174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf7",
           "package": "oneOfN",
@@ -3835,6 +4184,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf7",
           "package": "oneOfN",
@@ -3848,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf8",
           "package": "oneOfN",
@@ -3857,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf8",
           "package": "oneOfN",
@@ -3870,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SevenOf9",
           "package": "oneOfN",
@@ -3879,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SevenOf9",
           "package": "oneOfN",
@@ -3892,6 +4246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf10",
           "package": "oneOfN",
@@ -3901,6 +4256,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf10",
           "package": "oneOfN",
@@ -3914,6 +4270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf11",
           "package": "oneOfN",
@@ -3923,6 +4280,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf11",
           "package": "oneOfN",
@@ -3936,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf12",
           "package": "oneOfN",
@@ -3945,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf12",
           "package": "oneOfN",
@@ -3958,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf13",
           "package": "oneOfN",
@@ -3967,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf13",
           "package": "oneOfN",
@@ -3980,6 +4342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf14",
           "package": "oneOfN",
@@ -3989,6 +4352,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf14",
           "package": "oneOfN",
@@ -4002,6 +4366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf15",
           "package": "oneOfN",
@@ -4011,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf15",
           "package": "oneOfN",
@@ -4024,6 +4390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf16",
           "package": "oneOfN",
@@ -4033,6 +4400,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf16",
           "package": "oneOfN",
@@ -4046,6 +4414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf17",
           "package": "oneOfN",
@@ -4055,6 +4424,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf17",
           "package": "oneOfN",
@@ -4068,6 +4438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf18",
           "package": "oneOfN",
@@ -4077,6 +4448,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf18",
           "package": "oneOfN",
@@ -4090,6 +4462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf19",
           "package": "oneOfN",
@@ -4099,6 +4472,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf19",
           "package": "oneOfN",
@@ -4112,6 +4486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf20",
           "package": "oneOfN",
@@ -4121,6 +4496,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf20",
           "package": "oneOfN",
@@ -4134,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf6",
           "package": "oneOfN",
@@ -4143,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf6",
           "package": "oneOfN",
@@ -4156,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf7",
           "package": "oneOfN",
@@ -4165,6 +4544,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf7",
           "package": "oneOfN",
@@ -4178,6 +4558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf8",
           "package": "oneOfN",
@@ -4187,6 +4568,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf8",
           "package": "oneOfN",
@@ -4200,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "SixOf9",
           "package": "oneOfN",
@@ -4209,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "SixOf9",
           "package": "oneOfN",
@@ -4222,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf10",
           "package": "oneOfN",
@@ -4231,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf10",
           "package": "oneOfN",
@@ -4244,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf11",
           "package": "oneOfN",
@@ -4253,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf11",
           "package": "oneOfN",
@@ -4266,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf12",
           "package": "oneOfN",
@@ -4275,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf12",
           "package": "oneOfN",
@@ -4288,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf13",
           "package": "oneOfN",
@@ -4297,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf13",
           "package": "oneOfN",
@@ -4310,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf14",
           "package": "oneOfN",
@@ -4319,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf14",
           "package": "oneOfN",
@@ -4332,6 +4726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf15",
           "package": "oneOfN",
@@ -4341,6 +4736,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf15",
           "package": "oneOfN",
@@ -4354,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf16",
           "package": "oneOfN",
@@ -4363,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf16",
           "package": "oneOfN",
@@ -4376,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf17",
           "package": "oneOfN",
@@ -4385,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf17",
           "package": "oneOfN",
@@ -4398,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf18",
           "package": "oneOfN",
@@ -4407,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf18",
           "package": "oneOfN",
@@ -4420,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf19",
           "package": "oneOfN",
@@ -4429,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf19",
           "package": "oneOfN",
@@ -4442,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf20",
           "package": "oneOfN",
@@ -4451,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf20",
           "package": "oneOfN",
@@ -4464,6 +4870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf3",
           "package": "oneOfN",
@@ -4473,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf3",
           "package": "oneOfN",
@@ -4486,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf4",
           "package": "oneOfN",
@@ -4495,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf4",
           "package": "oneOfN",
@@ -4508,6 +4918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf5",
           "package": "oneOfN",
@@ -4517,6 +4928,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf5",
           "package": "oneOfN",
@@ -4530,6 +4942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf6",
           "package": "oneOfN",
@@ -4539,6 +4952,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf6",
           "package": "oneOfN",
@@ -4552,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf7",
           "package": "oneOfN",
@@ -4561,6 +4976,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf7",
           "package": "oneOfN",
@@ -4574,6 +4990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf8",
           "package": "oneOfN",
@@ -4583,6 +5000,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf8",
           "package": "oneOfN",
@@ -4596,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "ThreeOf9",
           "package": "oneOfN",
@@ -4605,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "ThreeOf9",
           "package": "oneOfN",
@@ -4618,6 +5038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf10",
           "package": "oneOfN",
@@ -4627,6 +5048,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf10",
           "package": "oneOfN",
@@ -4640,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf11",
           "package": "oneOfN",
@@ -4649,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf11",
           "package": "oneOfN",
@@ -4662,6 +5086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf12",
           "package": "oneOfN",
@@ -4671,6 +5096,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf12",
           "package": "oneOfN",
@@ -4684,6 +5110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf13",
           "package": "oneOfN",
@@ -4693,6 +5120,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf13",
           "package": "oneOfN",
@@ -4706,6 +5134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf14",
           "package": "oneOfN",
@@ -4715,6 +5144,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf14",
           "package": "oneOfN",
@@ -4728,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf15",
           "package": "oneOfN",
@@ -4737,6 +5168,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf15",
           "package": "oneOfN",
@@ -4750,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf16",
           "package": "oneOfN",
@@ -4759,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf16",
           "package": "oneOfN",
@@ -4772,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf17",
           "package": "oneOfN",
@@ -4781,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf17",
           "package": "oneOfN",
@@ -4794,6 +5230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf18",
           "package": "oneOfN",
@@ -4803,6 +5240,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf18",
           "package": "oneOfN",
@@ -4816,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf19",
           "package": "oneOfN",
@@ -4825,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf19",
           "package": "oneOfN",
@@ -4838,6 +5278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf2",
           "package": "oneOfN",
@@ -4847,6 +5288,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf2",
           "package": "oneOfN",
@@ -4860,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf20",
           "package": "oneOfN",
@@ -4869,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf20",
           "package": "oneOfN",
@@ -4882,6 +5326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf3",
           "package": "oneOfN",
@@ -4891,6 +5336,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf3",
           "package": "oneOfN",
@@ -4904,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf4",
           "package": "oneOfN",
@@ -4913,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf4",
           "package": "oneOfN",
@@ -4926,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf5",
           "package": "oneOfN",
@@ -4935,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf5",
           "package": "oneOfN",
@@ -4948,6 +5398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf6",
           "package": "oneOfN",
@@ -4957,6 +5408,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf6",
           "package": "oneOfN",
@@ -4970,6 +5422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf7",
           "package": "oneOfN",
@@ -4979,6 +5432,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf7",
           "package": "oneOfN",
@@ -4992,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf8",
           "package": "oneOfN",
@@ -5001,6 +5456,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf8",
           "package": "oneOfN",
@@ -5014,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:44 UTC 2014",
           "module": "Data.OneOfN",
           "name": "TwoOf9",
           "package": "oneOfN",
@@ -5023,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Data OneOfN",
+          "indexed": "2014-03-11T19:31:44",
           "module": "Data.OneOfN",
           "name": "TwoOf9",
           "package": "oneOfN",

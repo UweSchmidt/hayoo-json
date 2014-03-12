@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CoreErlang"
+        "phrase": "CoreErlang",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCoreErlang parser.\n \u003ca\u003ehttp://www.it.uu.se/research/group/hipe/cerl/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Parser",
           "name": "Parser",
           "package": "CoreErlang",
@@ -28,6 +29,7 @@
         "index": {
           "description": "CoreErlang parser http www.it.uu.se research group hipe cerl",
           "hierarchy": "Language CoreErlang Parser",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Parser",
           "name": "Parser",
           "package": "CoreErlang",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eParseError\u003c/code\u003e represents parse errors. It\n provides the source position (\u003ccode\u003e\u003ca\u003eSourcePos\u003c/a\u003e\u003c/code\u003e) of the error\n and a list of error messages (\u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e). A \u003ccode\u003eParseError\u003c/code\u003e\n can be returned by the function \u003ccode\u003eText.Parsec.Prim.parse\u003c/code\u003e. \u003ccode\u003eParseError\u003c/code\u003e is an\n instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Parser",
           "name": "ParseError",
           "package": "CoreErlang",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The abstract data type ParseError represents parse errors It provides the source position SourcePos of the error and list of error messages Message ParseError can be returned by the function Text.Parsec.Prim.parse ParseError is an instance of the Show class",
           "hierarchy": "Language CoreErlang Parser",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Parser",
           "name": "ParseError",
           "package": "CoreErlang",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse of a string, which should contain a complete CoreErlang module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Parser",
           "name": "parseModule",
           "package": "CoreErlang",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Parse of string which should contain complete CoreErlang module",
           "hierarchy": "Language CoreErlang Parser",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Parser",
           "name": "parseModule",
           "normalized": "String-\u003eEither ParseError(Ann Module)",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printer for CoreErlang.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "Pretty",
           "package": "CoreErlang",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Pretty printer for CoreErlang",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "Pretty",
           "package": "CoreErlang",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "Indent",
           "package": "CoreErlang",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "Indent",
           "package": "CoreErlang",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "Mode",
           "package": "CoreErlang",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Rendering mode",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "Mode",
           "package": "CoreErlang",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarieties of layout we can use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPLayout",
           "package": "CoreErlang",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Varieties of layout we can use",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPLayout",
           "package": "CoreErlang",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printing parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPMode",
           "package": "CoreErlang",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Pretty-printing parameters",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPMode",
           "package": "CoreErlang",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that can be pretty-printed, including all the syntactic objects\n in \u003ca\u003eLanguage.CoreErlang.Syntax\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "Pretty",
           "package": "CoreErlang",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Things that can be pretty-printed including all the syntactic objects in Language.CoreErlang.Syntax",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "Pretty",
           "package": "CoreErlang",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rendering style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "Style",
           "package": "CoreErlang",
@@ -233,6 +252,7 @@
         "index": {
           "description": "rendering style",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "Style",
           "package": "CoreErlang",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo indentation, infinitely long lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "LeftMode",
           "package": "CoreErlang",
@@ -256,6 +277,7 @@
         "index": {
           "description": "No indentation infinitely long lines",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "LeftMode",
           "package": "CoreErlang",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll on one line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "OneLineMode",
           "package": "CoreErlang",
@@ -279,6 +302,7 @@
         "index": {
           "description": "All on one line",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "OneLineMode",
           "package": "CoreErlang",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclassical layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPDefault",
           "package": "CoreErlang",
@@ -303,6 +328,7 @@
         "index": {
           "description": "classical layout",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPDefault",
           "package": "CoreErlang",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPMode",
           "package": "CoreErlang",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPMode",
           "package": "CoreErlang",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeverything on a single line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPNoLayout",
           "package": "CoreErlang",
@@ -349,6 +378,7 @@
         "index": {
           "description": "everything on single line",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "PPNoLayout",
           "package": "CoreErlang",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "PageMode",
           "package": "CoreErlang",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Normal",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "PageMode",
           "package": "CoreErlang",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "Style",
           "package": "CoreErlang",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "Style",
           "package": "CoreErlang",
@@ -407,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith zig-zag cuts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "ZigZagMode",
           "package": "CoreErlang",
@@ -416,6 +451,7 @@
         "index": {
           "description": "With zig-zag cuts",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "ZigZagMode",
           "package": "CoreErlang",
@@ -430,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the alternatives\n in a \u003ccode\u003ecase\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "altIndent",
           "package": "CoreErlang",
@@ -440,6 +477,7 @@
         "index": {
           "description": "indentation of the alternatives in case expression",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "altIndent",
           "package": "CoreErlang",
@@ -454,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the declarations\n in a \u003ccode\u003ecase\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "caseIndent",
           "package": "CoreErlang",
@@ -464,6 +503,7 @@
         "index": {
           "description": "indentation of the declarations in case expression",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "caseIndent",
           "package": "CoreErlang",
@@ -478,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default mode: pretty-print using sensible defaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "defaultMode",
           "package": "CoreErlang",
@@ -488,6 +529,7 @@
         "index": {
           "description": "The default mode pretty-print using sensible defaults",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "defaultMode",
           "package": "CoreErlang",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the declarations\n in a function definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "fundefIndent",
           "package": "CoreErlang",
@@ -512,6 +555,7 @@
         "index": {
           "description": "indentation of the declarations in function definition",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "fundefIndent",
           "package": "CoreErlang",
@@ -526,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the declarations\n in a \u003ccode\u003elambda\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "lambdaIndent",
           "package": "CoreErlang",
@@ -536,6 +581,7 @@
         "index": {
           "description": "indentation of the declarations in lambda expression",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "lambdaIndent",
           "package": "CoreErlang",
@@ -550,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printing style to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "layout",
           "package": "CoreErlang",
@@ -560,6 +607,7 @@
         "index": {
           "description": "Pretty-printing style to use",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "layout",
           "package": "CoreErlang",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the declarations\n in a \u003ccode\u003elet\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "letIndent",
           "package": "CoreErlang",
@@ -583,6 +632,7 @@
         "index": {
           "description": "indentation of the declarations in let expression",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "letIndent",
           "package": "CoreErlang",
@@ -597,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation of the declarations\n in a \u003ccode\u003eletrec\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "letrecIndent",
           "package": "CoreErlang",
@@ -607,6 +658,7 @@
         "index": {
           "description": "indentation of the declarations in letrec expression",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "letrecIndent",
           "package": "CoreErlang",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of line, in chars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "lineLength",
           "package": "CoreErlang",
@@ -630,6 +683,7 @@
         "index": {
           "description": "Length of line in chars",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "lineLength",
           "package": "CoreErlang",
@@ -644,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rendering mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "mode",
           "package": "CoreErlang",
@@ -653,6 +708,7 @@
         "index": {
           "description": "The rendering mode",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "mode",
           "package": "CoreErlang",
@@ -666,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindentation added for continuation\n lines that would otherwise be offside\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "onsideIndent",
           "package": "CoreErlang",
@@ -676,6 +733,7 @@
         "index": {
           "description": "indentation added for continuation lines that would otherwise be offside",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "onsideIndent",
           "package": "CoreErlang",
@@ -690,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty-print with the default style and \u003ccode\u003e\u003ca\u003edefaultMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "prettyPrint",
           "package": "CoreErlang",
@@ -700,6 +759,7 @@
         "index": {
           "description": "pretty-print with the default style and defaultMode",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "prettyPrint",
           "normalized": "a-\u003eString",
@@ -716,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty-print with a given style and mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "prettyPrintStyleMode",
           "package": "CoreErlang",
@@ -726,6 +787,7 @@
         "index": {
           "description": "pretty-print with given style and mode",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "prettyPrintStyleMode",
           "normalized": "Style-\u003ePPMode-\u003ea-\u003eString",
@@ -742,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty-print with the default style and a given mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "prettyPrintWithMode",
           "package": "CoreErlang",
@@ -752,6 +815,7 @@
         "index": {
           "description": "pretty-print with the default style and given mode",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "prettyPrintWithMode",
           "normalized": "PPMode-\u003ea-\u003eString",
@@ -768,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRatio of ribbon length to line length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "ribbonsPerLine",
           "package": "CoreErlang",
@@ -777,6 +842,7 @@
         "index": {
           "description": "Ratio of ribbon length to line length",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "ribbonsPerLine",
           "package": "CoreErlang",
@@ -791,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default style (\u003ccode\u003emode=PageMode, lineLength=100, ribbonsPerLine=1.5\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Pretty",
           "name": "style",
           "package": "CoreErlang",
@@ -800,6 +867,7 @@
         "index": {
           "description": "The default style mode PageMode lineLength ribbonsPerLine",
           "hierarchy": "Language CoreErlang Pretty",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Pretty",
           "name": "style",
           "package": "CoreErlang",
@@ -813,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA suite of datatypes describing the abstract syntax of CoreErlang 1.0.3.\n \u003ca\u003ehttp://www.it.uu.se/research/group/hipe/cerl/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Syntax",
           "package": "CoreErlang",
@@ -822,6 +891,7 @@
         "index": {
           "description": "suite of datatypes describing the abstract syntax of CoreErlang http www.it.uu.se research group hipe cerl",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Syntax",
           "package": "CoreErlang",
@@ -836,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias, used in patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Alias",
           "package": "CoreErlang",
@@ -845,6 +916,7 @@
         "index": {
           "description": "An alias used in patterns",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Alias",
           "package": "CoreErlang",
@@ -859,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003cem\u003ealt\u003c/em\u003e in a \u003ccode\u003ecase\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Alt",
           "package": "CoreErlang",
@@ -868,6 +941,7 @@
         "index": {
           "description": "An alt in case expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Alt",
           "package": "CoreErlang",
@@ -882,6 +956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation for modules, variables, ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Ann",
           "package": "CoreErlang",
@@ -891,6 +966,7 @@
         "index": {
           "description": "An annotation for modules variables",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Ann",
           "package": "CoreErlang",
@@ -905,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent atoms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Atom",
           "package": "CoreErlang",
@@ -914,6 +991,7 @@
         "index": {
           "description": "This type is used to represent atoms",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Atom",
           "package": "CoreErlang",
@@ -928,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bitstring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "BitString",
           "package": "CoreErlang",
@@ -937,6 +1016,7 @@
         "index": {
           "description": "bitstring",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "BitString",
           "package": "CoreErlang",
@@ -951,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent constants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Const",
           "package": "CoreErlang",
@@ -960,6 +1041,7 @@
         "index": {
           "description": "This type is used to represent constants",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Const",
           "package": "CoreErlang",
@@ -974,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoreErlang expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Exp",
           "package": "CoreErlang",
@@ -983,6 +1066,7 @@
         "index": {
           "description": "CoreErlang expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Exp",
           "package": "CoreErlang",
@@ -997,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoreErlang expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Exps",
           "package": "CoreErlang",
@@ -1006,6 +1091,7 @@
         "index": {
           "description": "CoreErlang expressions",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Exps",
           "package": "CoreErlang",
@@ -1020,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent lambdas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "FunDef",
           "package": "CoreErlang",
@@ -1029,6 +1116,7 @@
         "index": {
           "description": "This type is used to represent lambdas",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "FunDef",
           "package": "CoreErlang",
@@ -1043,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent function names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Function",
           "package": "CoreErlang",
@@ -1052,6 +1141,7 @@
         "index": {
           "description": "This type is used to represent function names",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Function",
           "package": "CoreErlang",
@@ -1066,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA guarded alternative \u003ccode\u003ewhen\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003e-\u003e\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e.\n The first expression will be Boolean-valued.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Guard",
           "package": "CoreErlang",
@@ -1075,6 +1166,7 @@
         "index": {
           "description": "guarded alternative when exp exp The first expression will be Boolean-valued",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Guard",
           "package": "CoreErlang",
@@ -1089,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "List",
           "package": "CoreErlang",
@@ -1098,6 +1191,7 @@
         "index": {
           "description": "list of expressions",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "List",
           "package": "CoreErlang",
@@ -1112,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eliteral\u003c/em\u003e.\n Values of this type hold the abstract value of the literal, not the\n precise string representation used. For example, \u003ccode\u003e10\u003c/code\u003e, \u003ccode\u003e0o12\u003c/code\u003e and \u003ccode\u003e0xa\u003c/code\u003e\n have the same representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Literal",
           "package": "CoreErlang",
@@ -1121,6 +1216,7 @@
         "index": {
           "description": "literal Values of this type hold the abstract value of the literal not the precise string representation used For example o12 and xa have the same representation",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Literal",
           "package": "CoreErlang",
@@ -1135,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CoreErlang source module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Module",
           "package": "CoreErlang",
@@ -1144,6 +1241,7 @@
         "index": {
           "description": "CoreErlang source module",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Module",
           "package": "CoreErlang",
@@ -1158,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern, to be matched against a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Pat",
           "package": "CoreErlang",
@@ -1167,6 +1266,7 @@
         "index": {
           "description": "pattern to be matched against value",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Pat",
           "package": "CoreErlang",
@@ -1180,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Pats",
           "package": "CoreErlang",
@@ -1188,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Pats",
           "package": "CoreErlang",
@@ -1202,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe timeout of a receive expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "TimeOut",
           "package": "CoreErlang",
@@ -1211,6 +1314,7 @@
         "index": {
           "description": "The timeout of receive expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "TimeOut",
           "package": "CoreErlang",
@@ -1225,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used to represent variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Var",
           "package": "CoreErlang",
@@ -1234,6 +1339,7 @@
         "index": {
           "description": "This type is used to represent variables",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Var",
           "package": "CoreErlang",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Alias",
           "package": "CoreErlang",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Alias",
           "package": "CoreErlang",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Alt",
           "package": "CoreErlang",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Alt",
           "package": "CoreErlang",
@@ -1292,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecore erlang annotated construct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Ann",
           "package": "CoreErlang",
@@ -1302,6 +1413,7 @@
         "index": {
           "description": "core erlang annotated construct",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Ann",
           "normalized": "Ann a[Const]",
@@ -1318,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "App",
           "package": "CoreErlang",
@@ -1328,6 +1441,7 @@
         "index": {
           "description": "application",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "App",
           "normalized": "App Exps[Exps]",
@@ -1343,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Atom",
           "package": "CoreErlang",
@@ -1352,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Atom",
           "package": "CoreErlang",
@@ -1366,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinary expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Binary",
           "package": "CoreErlang",
@@ -1376,6 +1493,7 @@
         "index": {
           "description": "binary expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Binary",
           "normalized": "Binary[BitString Exps]",
@@ -1391,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "BitString",
           "package": "CoreErlang",
@@ -1400,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "BitString",
           "normalized": "BitString a[Exps]",
@@ -1415,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "CList",
           "package": "CoreErlang",
@@ -1424,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "CList",
           "package": "CoreErlang",
@@ -1437,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "CLit",
           "package": "CoreErlang",
@@ -1446,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "CLit",
           "package": "CoreErlang",
@@ -1459,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "CTuple",
           "package": "CoreErlang",
@@ -1468,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "CTuple",
           "normalized": "CTuple[Const]",
@@ -1484,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecase\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e \u003ccode\u003eof\u003c/code\u003e \u003cem\u003ealts\u003c/em\u003e end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Case",
           "package": "CoreErlang",
@@ -1494,6 +1621,7 @@
         "index": {
           "description": "case exp of alts end",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Case",
           "normalized": "Case Exps[Ann Alt]",
@@ -1510,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecatch expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Catch",
           "package": "CoreErlang",
@@ -1520,6 +1649,7 @@
         "index": {
           "description": "catch expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Catch",
           "package": "CoreErlang",
@@ -1534,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecore erlang construct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Constr",
           "package": "CoreErlang",
@@ -1544,6 +1675,7 @@
         "index": {
           "description": "core erlang construct",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Constr",
           "package": "CoreErlang",
@@ -1558,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Exp",
           "package": "CoreErlang",
@@ -1568,6 +1701,7 @@
         "index": {
           "description": "single expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Exp",
           "package": "CoreErlang",
@@ -1582,6 +1716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Exps",
           "package": "CoreErlang",
@@ -1592,6 +1727,7 @@
         "index": {
           "description": "list of expressions",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Exps",
           "normalized": "Exps(Ann[Ann Exp])",
@@ -1608,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Fun",
           "package": "CoreErlang",
@@ -1618,6 +1755,7 @@
         "index": {
           "description": "function name",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Fun",
           "package": "CoreErlang",
@@ -1631,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "FunDef",
           "package": "CoreErlang",
@@ -1640,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "FunDef",
           "package": "CoreErlang",
@@ -1653,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Function",
           "package": "CoreErlang",
@@ -1662,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Function",
           "normalized": "Function(Atom,Integer)",
@@ -1677,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Guard",
           "package": "CoreErlang",
@@ -1686,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Guard",
           "package": "CoreErlang",
@@ -1699,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "L",
           "package": "CoreErlang",
@@ -1708,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "L",
           "normalized": "L[a]",
@@ -1723,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eatom literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "LAtom",
           "package": "CoreErlang",
@@ -1733,6 +1880,7 @@
         "index": {
           "description": "atom literal",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "LAtom",
           "package": "CoreErlang",
@@ -1747,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echaracter literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "LChar",
           "package": "CoreErlang",
@@ -1757,6 +1906,7 @@
         "index": {
           "description": "character literal",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "LChar",
           "package": "CoreErlang",
@@ -1771,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efloating point literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "LFloat",
           "package": "CoreErlang",
@@ -1781,6 +1932,7 @@
         "index": {
           "description": "floating point literal",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "LFloat",
           "package": "CoreErlang",
@@ -1795,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "LInt",
           "package": "CoreErlang",
@@ -1805,6 +1958,7 @@
         "index": {
           "description": "integer literal",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "LInt",
           "package": "CoreErlang",
@@ -1818,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "LL",
           "package": "CoreErlang",
@@ -1827,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "LL",
           "normalized": "LL[a]a",
@@ -1843,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "LNil",
           "package": "CoreErlang",
@@ -1853,6 +2010,7 @@
         "index": {
           "description": "empty list",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "LNil",
           "package": "CoreErlang",
@@ -1867,6 +2025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "LString",
           "package": "CoreErlang",
@@ -1877,6 +2036,7 @@
         "index": {
           "description": "string literal",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "LString",
           "package": "CoreErlang",
@@ -1891,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elambda expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Lambda",
           "package": "CoreErlang",
@@ -1901,6 +2062,7 @@
         "index": {
           "description": "lambda expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Lambda",
           "normalized": "Lambda[Var]Exps",
@@ -1917,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Let",
           "package": "CoreErlang",
@@ -1927,6 +2090,7 @@
         "index": {
           "description": "local declaration",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Let",
           "normalized": "Let([Var],Exps)Exps",
@@ -1943,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eletrec expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "LetRec",
           "package": "CoreErlang",
@@ -1953,6 +2118,7 @@
         "index": {
           "description": "letrec expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "LetRec",
           "normalized": "LetRec[FunDef]Exps",
@@ -1969,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "List",
           "package": "CoreErlang",
@@ -1979,6 +2146,7 @@
         "index": {
           "description": "list expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "List",
           "package": "CoreErlang",
@@ -1993,6 +2161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliteral constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Lit",
           "package": "CoreErlang",
@@ -2003,6 +2172,7 @@
         "index": {
           "description": "literal constant",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Lit",
           "package": "CoreErlang",
@@ -2017,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodule call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "ModCall",
           "package": "CoreErlang",
@@ -2027,6 +2198,7 @@
         "index": {
           "description": "module call",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "ModCall",
           "normalized": "ModCall(Exps,Exps)[Exps]",
@@ -2042,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Module",
           "package": "CoreErlang",
@@ -2051,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Module",
           "normalized": "Module Atom[Function][(Atom,Const)][FunDef]",
@@ -2067,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoperator application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Op",
           "package": "CoreErlang",
@@ -2077,6 +2252,7 @@
         "index": {
           "description": "operator application",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Op",
           "normalized": "Op Atom[Exps]",
@@ -2093,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "PAlias",
           "package": "CoreErlang",
@@ -2103,6 +2280,7 @@
         "index": {
           "description": "alias pattern",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "PAlias",
           "package": "CoreErlang",
@@ -2117,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of bitstring patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "PBinary",
           "package": "CoreErlang",
@@ -2127,6 +2306,7 @@
         "index": {
           "description": "list of bitstring patterns",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "PBinary",
           "normalized": "PBinary[BitString Pat]",
@@ -2143,6 +2323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "PList",
           "package": "CoreErlang",
@@ -2153,6 +2334,7 @@
         "index": {
           "description": "list pattern",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "PList",
           "package": "CoreErlang",
@@ -2167,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliteral constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "PLit",
           "package": "CoreErlang",
@@ -2177,6 +2360,7 @@
         "index": {
           "description": "literal constant",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "PLit",
           "package": "CoreErlang",
@@ -2191,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "PTuple",
           "package": "CoreErlang",
@@ -2201,6 +2386,7 @@
         "index": {
           "description": "tuple pattern",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "PTuple",
           "normalized": "PTuple[Pat]",
@@ -2217,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "PVar",
           "package": "CoreErlang",
@@ -2227,6 +2414,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "PVar",
           "package": "CoreErlang",
@@ -2241,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Pat",
           "package": "CoreErlang",
@@ -2251,6 +2440,7 @@
         "index": {
           "description": "single pattern",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Pat",
           "package": "CoreErlang",
@@ -2265,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Pats",
           "package": "CoreErlang",
@@ -2275,6 +2466,7 @@
         "index": {
           "description": "list of patterns",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Pats",
           "normalized": "Pats[Pat]",
@@ -2291,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereceive expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Rec",
           "package": "CoreErlang",
@@ -2301,6 +2494,7 @@
         "index": {
           "description": "receive expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Rec",
           "normalized": "Rec[Ann Alt]TimeOut",
@@ -2317,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esequencing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Seq",
           "package": "CoreErlang",
@@ -2327,6 +2522,7 @@
         "index": {
           "description": "sequencing",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Seq",
           "package": "CoreErlang",
@@ -2340,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "TimeOut",
           "package": "CoreErlang",
@@ -2349,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "TimeOut",
           "package": "CoreErlang",
@@ -2363,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Try",
           "package": "CoreErlang",
@@ -2373,6 +2572,7 @@
         "index": {
           "description": "try expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Try",
           "normalized": "Try Exps([Var],Exps)([Var],Exps)",
@@ -2389,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Tuple",
           "package": "CoreErlang",
@@ -2399,6 +2600,7 @@
         "index": {
           "description": "tuple expression",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Tuple",
           "normalized": "Tuple[Exps]",
@@ -2415,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:36 UTC 2014",
           "module": "Language.CoreErlang.Syntax",
           "name": "Var",
           "package": "CoreErlang",
@@ -2425,6 +2628,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language CoreErlang Syntax",
+          "indexed": "2014-03-11T16:37:36",
           "module": "Language.CoreErlang.Syntax",
           "name": "Var",
           "package": "CoreErlang",

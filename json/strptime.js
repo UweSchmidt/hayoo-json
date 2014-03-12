@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "strptime"
+        "phrase": "strptime",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA binding to strptime with extra features - see below.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:07 UTC 2014",
           "module": "Data.Time.Parse",
           "name": "Parse",
           "package": "strptime",
@@ -28,6 +29,7 @@
         "index": {
           "description": "binding to strptime with extra features see below",
           "hierarchy": "Data Time Parse",
+          "indexed": "2014-03-11T20:13:07",
           "module": "Data.Time.Parse",
           "name": "Parse",
           "package": "strptime",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of values from which time may be parsed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:07 UTC 2014",
           "module": "Data.Time.Parse",
           "name": "Strptime",
           "package": "strptime",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The class of values from which time may be parsed",
           "hierarchy": "Data Time Parse",
+          "indexed": "2014-03-11T20:13:07",
           "module": "Data.Time.Parse",
           "name": "Strptime",
           "package": "strptime",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a format string in the format of strptime (see \u003ca\u003ehttp://linux.die.net/man/3/strptime\u003c/a\u003e)\n and a data string, parse a date+time value from the data string and also return the remainder\n of the data string. We also support a \u003ca\u003e%OS\u003c/a\u003e format specifier for fractional seconds, because\n we are using the strptime from r-project.org. We also support \u003ca\u003e%^[+-][N]s\u003c/a\u003e for multiples of \n seconds since epoch, for example \u003ca\u003e%^-3s\u003c/a\u003e is milliseconds since epoch (N can only be 1 digit)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:07 UTC 2014",
           "module": "Data.Time.Parse",
           "name": "strptime",
           "package": "strptime",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Given format string in the format of strptime see http linux.die.net man strptime and data string parse date time value from the data string and also return the remainder of the data string We also support OS format specifier for fractional seconds because we are using the strptime from r-project.org We also support for multiples of seconds since epoch for example is milliseconds since epoch can only be digit",
           "hierarchy": "Data Time Parse",
+          "indexed": "2014-03-11T20:13:07",
           "module": "Data.Time.Parse",
           "name": "strptime",
           "normalized": "a-\u003ea-\u003eMaybe(LocalTime,a)",

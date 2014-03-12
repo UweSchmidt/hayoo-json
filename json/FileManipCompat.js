@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FileManipCompat"
+        "phrase": "FileManipCompat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions for traversing a filesystem\n hierarchy.  The \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e function generates a lazy list of matching\n files, while \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e performs a left fold.\n\u003c/p\u003e\u003cp\u003eBoth \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e allow fine control over recursion, using the\n \u003ccode\u003e\u003ca\u003eFindClause\u003c/a\u003e\u003c/code\u003e type.  This type is also used to pre-filter the results\n returned by \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFindClause\u003c/a\u003e\u003c/code\u003e type lets you write filtering and recursion\n control expressions clearly and easily.\n\u003c/p\u003e\u003cp\u003eFor example, this clause matches C source files.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eextension\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e==?\u003c/a\u003e\u003c/code\u003e \".c\" \u003ccode\u003e\u003ca\u003e||?\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eextension\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e==?\u003c/a\u003e\u003c/code\u003e \".h\"\n\u003c/pre\u003e\u003cp\u003eBecause \u003ccode\u003e\u003ca\u003eFindClause\u003c/a\u003e\u003c/code\u003e is a monad, you can use the usual monad\n machinery to, for example, lift pure functions into it.\n\u003c/p\u003e\u003cp\u003eHere's a clause that will return \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e for any file whose\n directory name contains the word \u003ccode\u003e\"temp\"\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n (isInfixOf \"temp\") `liftM` \u003ccode\u003e\u003ca\u003edirectory\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "FindCompat",
           "package": "FileManipCompat",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides functions for traversing filesystem hierarchy The find function generates lazy list of matching files while fold performs left fold Both find and fold allow fine control over recursion using the FindClause type This type is also used to pre-filter the results returned by find The FindClause type lets you write filtering and recursion control expressions clearly and easily For example this clause matches source files extension extension Because FindClause is monad you can use the usual monad machinery to for example lift pure functions into it Here clause that will return False for any file whose directory name contains the word temp isInfixOf temp liftM directory",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "FindCompat",
           "package": "FileManipCompat",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation collected during the traversal of a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "FileInfo",
           "package": "FileManipCompat",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Information collected during the traversal of directory",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "FileInfo",
           "package": "FileManipCompat",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "FileType",
           "package": "FileManipCompat",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "FileType",
           "package": "FileManipCompat",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "FilterPredicate",
           "package": "FileManipCompat",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "FilterPredicate",
           "package": "FileManipCompat",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic container for file information, allowing for clean\n construction of combinators.  Wraps the \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e monad, but doesn't\n allow \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "FindClause",
           "package": "FileManipCompat",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Monadic container for file information allowing for clean construction of combinators Wraps the State monad but doesn allow get or put",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "FindClause",
           "package": "FileManipCompat",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "RecursionPredicate",
           "package": "FileManipCompat",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "RecursionPredicate",
           "package": "FileManipCompat",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(||?)",
           "package": "FileManipCompat",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(||?) ||?",
           "normalized": "FindClause Bool-\u003eFindClause Bool-\u003eFindClause Bool",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(&&?)",
           "package": "FileManipCompat",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(&&?) &&?",
           "normalized": "FindClause Bool-\u003eFindClause Bool-\u003eFindClause Bool",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(/=?)",
           "package": "FileManipCompat",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(/=?) /=?",
           "normalized": "FindClause a-\u003ea-\u003eFindClause Bool",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(\u003c=?)",
           "package": "FileManipCompat",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(\u003c=?) \u003c=?",
           "normalized": "FindClause a-\u003ea-\u003eFindClause Bool",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(\u003c?)",
           "package": "FileManipCompat",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(\u003c?) \u003c?",
           "normalized": "FindClause a-\u003ea-\u003eFindClause Bool",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the current file's name matches the given\n \u003ccode\u003eGlobPattern\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(==?)",
           "package": "FileManipCompat",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Return True if the current file name matches the given GlobPattern",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(==?) ==?",
           "normalized": "FindClause a-\u003ea-\u003eFindClause Bool",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(\u003e=?)",
           "package": "FileManipCompat",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(\u003e=?) \u003e=?",
           "normalized": "FindClause a-\u003ea-\u003eFindClause Bool",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(\u003e?)",
           "package": "FileManipCompat",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(\u003e?) \u003e?",
           "normalized": "FindClause a-\u003ea-\u003eFindClause Bool",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operator is useful to check if bits are set in a\n \u003ccode\u003e\u003ca\u003eFileMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "(.&.?)",
           "package": "FileManipCompat",
@@ -347,6 +376,7 @@
         "index": {
           "description": "This operator is useful to check if bits are set in FileMode",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "(.&.?) .&.?",
           "normalized": "FindClause a-\u003ea-\u003eFindClause a",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "BlockDevice",
           "package": "FileManipCompat",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "BlockDevice",
           "package": "FileManipCompat",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "CharacterDevice",
           "package": "FileManipCompat",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "CharacterDevice",
           "package": "FileManipCompat",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "Directory",
           "package": "FileManipCompat",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "Directory",
           "package": "FileManipCompat",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "FileInfo",
           "package": "FileManipCompat",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "FileInfo",
           "package": "FileManipCompat",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "NamedPipe",
           "package": "FileManipCompat",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "NamedPipe",
           "package": "FileManipCompat",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "RegularFile",
           "package": "FileManipCompat",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "RegularFile",
           "package": "FileManipCompat",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "Socket",
           "package": "FileManipCompat",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "Socket",
           "package": "FileManipCompat",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "SymbolicLink",
           "package": "FileManipCompat",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "SymbolicLink",
           "package": "FileManipCompat",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "Unknown",
           "package": "FileManipCompat",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "Unknown",
           "package": "FileManipCompat",
@@ -559,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "accessTime",
           "package": "FileManipCompat",
@@ -568,6 +617,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "accessTime",
           "package": "FileManipCompat",
@@ -582,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnconditionally return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "always",
           "package": "FileManipCompat",
@@ -592,6 +643,7 @@
         "index": {
           "description": "Unconditionally return True",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "always",
           "package": "FileManipCompat",
@@ -605,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if any of the given permission bits is set.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eanyPerms\u003c/a\u003e\u003c/code\u003e 0444\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "anyPerms",
           "package": "FileManipCompat",
@@ -615,6 +668,7 @@
         "index": {
           "description": "Return True if any of the given permission bits is set Example anyPerms",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "anyPerms",
           "normalized": "FileMode-\u003eFindClause Bool",
@@ -631,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the given path exists, relative to the current\n file.  For example, if \u003ccode\u003e\"foo\"\u003c/code\u003e is being visited, and you call\n contains \u003ccode\u003e\"bar\"\u003c/code\u003e, this combinator will return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if\n \u003ccode\u003e\"foo/bar\"\u003c/code\u003e exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "contains",
           "package": "FileManipCompat",
@@ -641,6 +696,7 @@
         "index": {
           "description": "Return True if the given path exists relative to the current file For example if foo is being visited and you call contains bar this combinator will return True if foo bar exists",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "contains",
           "normalized": "FilePath-\u003eFindClause Bool",
@@ -656,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current recursion depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "depth",
           "package": "FileManipCompat",
@@ -666,6 +723,7 @@
         "index": {
           "description": "Return the current recursion depth",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "depth",
           "package": "FileManipCompat",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "deviceID",
           "package": "FileManipCompat",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "deviceID",
           "package": "FileManipCompat",
@@ -701,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the directory name, without the file name.\n\u003c/p\u003e\u003cp\u003eWhat this means in practice:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003edirectory\u003c/a\u003e\u003c/code\u003e \"foo/bar.txt\" =\u003e \"foo\"\n\u003c/pre\u003e\u003cp\u003eExample in a clause:\n\u003c/p\u003e\u003cpre\u003e\n let hasSuffix = \u003ccode\u003e\u003ca\u003eliftOp\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eisSuffixOf\u003c/code\u003e\n in directory `hasSuffix` \"tests\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "directory",
           "package": "FileManipCompat",
@@ -711,6 +772,7 @@
         "index": {
           "description": "Return the directory name without the file name What this means in practice directory foo bar.txt foo Example in clause let hasSuffix liftOp isSuffixOf in directory hasSuffix tests",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "directory",
           "package": "FileManipCompat",
@@ -724,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given \u003ccode\u003e\u003ca\u003eFindClause\u003c/a\u003e\u003c/code\u003e on the given \u003ccode\u003e\u003ca\u003eFileInfo\u003c/a\u003e\u003c/code\u003e and return its\n result.  This can be useful if you are writing a function to pass\n to \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n myFoldFunc :: a -\u003e \u003ccode\u003e\u003ca\u003eFileInfo\u003c/a\u003e\u003c/code\u003e -\u003e a\n myFoldFunc a i = let useThisFile = \u003ccode\u003e\u003ca\u003eevalClause\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efileName\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e==?\u003c/a\u003e\u003c/code\u003e \"foo\") i\n                  in if useThisFile\n                     then fiddleWith a\n                     else a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "evalClause",
           "package": "FileManipCompat",
@@ -734,6 +797,7 @@
         "index": {
           "description": "Run the given FindClause on the given FileInfo and return its result This can be useful if you are writing function to pass to fold Example myFoldFunc FileInfo myFoldFunc let useThisFile evalClause fileName foo in if useThisFile then fiddleWith else",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "evalClause",
           "normalized": "FindClause a-\u003eFileInfo-\u003ea",
@@ -750,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the file name extension.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eextension\u003c/a\u003e\u003c/code\u003e \"foo/bar.txt\" =\u003e \".txt\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "extension",
           "package": "FileManipCompat",
@@ -760,6 +825,7 @@
         "index": {
           "description": "Return the file name extension Example extension foo bar.txt txt",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "extension",
           "package": "FileManipCompat",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileGroup",
           "package": "FileManipCompat",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileGroup",
           "package": "FileManipCompat",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileID",
           "package": "FileManipCompat",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileID",
           "package": "FileManipCompat",
@@ -817,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current \u003ccode\u003e\u003ca\u003eFileInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileInfo",
           "package": "FileManipCompat",
@@ -827,6 +898,7 @@
         "index": {
           "description": "Return the current FileInfo",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileInfo",
           "package": "FileManipCompat",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileMode",
           "package": "FileManipCompat",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileMode",
           "package": "FileManipCompat",
@@ -863,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the file name, without the directory name.\n\u003c/p\u003e\u003cp\u003eWhat this means in practice:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003efileName\u003c/a\u003e\u003c/code\u003e \"foo/bar.txt\" =\u003e \"bar.txt\"\n\u003c/pre\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003efileName\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e==?\u003c/a\u003e\u003c/code\u003e \"init.c\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileName",
           "package": "FileManipCompat",
@@ -873,6 +948,7 @@
         "index": {
           "description": "Return the file name without the directory name What this means in practice fileName foo bar.txt bar.txt Example fileName init.c",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileName",
           "package": "FileManipCompat",
@@ -886,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileOwner",
           "package": "FileManipCompat",
@@ -895,6 +972,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileOwner",
           "package": "FileManipCompat",
@@ -909,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the name of the file being visited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "filePath",
           "package": "FileManipCompat",
@@ -919,6 +998,7 @@
         "index": {
           "description": "Return the name of the file being visited",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "filePath",
           "package": "FileManipCompat",
@@ -933,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the permission bits of the \u003ccode\u003e\u003ca\u003eFileMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "filePerms",
           "package": "FileManipCompat",
@@ -943,6 +1024,7 @@
         "index": {
           "description": "Return the permission bits of the FileMode",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "filePerms",
           "package": "FileManipCompat",
@@ -956,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileSize",
           "package": "FileManipCompat",
@@ -965,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileSize",
           "package": "FileManipCompat",
@@ -979,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003ccode\u003e\u003ca\u003eFileStatus\u003c/a\u003e\u003c/code\u003e for the current file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileStatus",
           "package": "FileManipCompat",
@@ -989,6 +1074,7 @@
         "index": {
           "description": "Return the FileStatus for the current file",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileStatus",
           "package": "FileManipCompat",
@@ -1003,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the type of file currently being visited.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003efileType\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e==?\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRegularFile\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fileType",
           "package": "FileManipCompat",
@@ -1013,6 +1100,7 @@
         "index": {
           "description": "Return the type of file currently being visited Example fileType RegularFile",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fileType",
           "package": "FileManipCompat",
@@ -1027,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch a directory recursively, with recursion controlled by a\n \u003ccode\u003e\u003ca\u003eRecursionPredicate\u003c/a\u003e\u003c/code\u003e.  Lazily return a sorted list of all files\n matching the given \u003ccode\u003e\u003ca\u003eFilterPredicate\u003c/a\u003e\u003c/code\u003e.  Any errors that occur are\n ignored, with warnings printed to \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "find",
           "package": "FileManipCompat",
@@ -1036,6 +1125,7 @@
         "index": {
           "description": "Search directory recursively with recursion controlled by RecursionPredicate Lazily return sorted list of all files matching the given FilterPredicate Any errors that occur are ignored with warnings printed to stderr",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "find",
           "normalized": "RecursionPredicate-\u003eFilterPredicate-\u003eFilePath-\u003eIO[FilePath]",
@@ -1051,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch a directory recursively, with recursion controlled by a\n \u003ccode\u003e\u003ca\u003eRecursionPredicate\u003c/a\u003e\u003c/code\u003e.  Lazily return a sorted list of all files\n matching the given \u003ccode\u003e\u003ca\u003eFilterPredicate\u003c/a\u003e\u003c/code\u003e.  Any errors that occur are\n dealt with by the given handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "findWithHandler",
           "package": "FileManipCompat",
@@ -1060,6 +1151,7 @@
         "index": {
           "description": "Search directory recursively with recursion controlled by RecursionPredicate Lazily return sorted list of all files matching the given FilterPredicate Any errors that occur are dealt with by the given handler",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "findWithHandler",
           "normalized": "(FilePath-\u003eSomeException-\u003eIO[FilePath])-\u003eRecursionPredicate-\u003eFilterPredicate-\u003eFilePath-\u003eIO[FilePath]",
@@ -1076,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch a directory recursively, with recursion controlled by a\n \u003ccode\u003e\u003ca\u003eRecursionPredicate\u003c/a\u003e\u003c/code\u003e.  Fold over all files found.  Any errors that\n occur are ignored, with warnings printed to \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e.  The fold\n function is run from \"left\" to \"right\", so it should be strict\n in its left argument to avoid space leaks.  If you need a\n right-to-left fold, use \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e on the result of \u003ccode\u003e\u003ca\u003efindWithHandler\u003c/a\u003e\u003c/code\u003e\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "fold",
           "package": "FileManipCompat",
@@ -1086,6 +1179,7 @@
         "index": {
           "description": "Search directory recursively with recursion controlled by RecursionPredicate Fold over all files found Any errors that occur are ignored with warnings printed to stderr The fold function is run from left to right so it should be strict in its left argument to avoid space leaks If you need right-to-left fold use foldr on the result of findWithHandler instead",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "fold",
           "normalized": "RecursionPredicate-\u003e(a-\u003eFileInfo-\u003ea)-\u003ea-\u003eFilePath-\u003eIO a",
@@ -1101,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch a directory recursively, with recursion controlled by a\n \u003ccode\u003e\u003ca\u003eRecursionPredicate\u003c/a\u003e\u003c/code\u003e.  Fold over all files found.  Any errors that\n occur are dealt with by the given handler.  The fold is strict, and\n run from \"left\" to \"right\", so the folded function should be\n strict in its left argument to avoid space leaks.  If you need a\n right-to-left fold, use \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e on the result of \u003ccode\u003e\u003ca\u003efindWithHandler\u003c/a\u003e\u003c/code\u003e\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "foldWithHandler",
           "package": "FileManipCompat",
@@ -1110,6 +1205,7 @@
         "index": {
           "description": "Search directory recursively with recursion controlled by RecursionPredicate Fold over all files found Any errors that occur are dealt with by the given handler The fold is strict and run from left to right so the folded function should be strict in its left argument to avoid space leaks If you need right-to-left fold use foldr on the result of findWithHandler instead",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "foldWithHandler",
           "normalized": "(FilePath-\u003ea-\u003eSomeException-\u003eIO a)-\u003eRecursionPredicate-\u003e(a-\u003eFileInfo-\u003ea)-\u003ea-\u003eFilePath-\u003eIO a",
@@ -1126,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current file is a symbolic link, return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the status\n of the ultimate endpoint of the link.  Otherwise (including in the\n case of an error), return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003estatusType\u003c/a\u003e\u003c/code\u003e `liftM` \u003ccode\u003e\u003ca\u003efollowStatus\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e==?\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRegularFile\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "followStatus",
           "package": "FileManipCompat",
@@ -1136,6 +1233,7 @@
         "index": {
           "description": "If the current file is symbolic link return Just the status of the ultimate endpoint of the link Otherwise including in the case of an error return Nothing Example statusType liftM followStatus RegularFile",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "followStatus",
           "package": "FileManipCompat",
@@ -1150,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent recursion depth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "infoDepth",
           "package": "FileManipCompat",
@@ -1160,6 +1259,7 @@
         "index": {
           "description": "current recursion depth",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "infoDepth",
           "package": "FileManipCompat",
@@ -1174,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "infoPath",
           "package": "FileManipCompat",
@@ -1184,6 +1285,7 @@
         "index": {
           "description": "file path",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "infoPath",
           "package": "FileManipCompat",
@@ -1198,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatus of file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "infoStatus",
           "package": "FileManipCompat",
@@ -1208,6 +1311,7 @@
         "index": {
           "description": "status of file",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "infoStatus",
           "package": "FileManipCompat",
@@ -1222,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a binary operator into the \u003ccode\u003e\u003ca\u003eFindClause\u003c/a\u003e\u003c/code\u003e monad, so that it\n becomes a combinator.  The left hand side of the combinator should\n be a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFindClause\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e, while the right remains a normal value of\n type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "liftOp",
           "package": "FileManipCompat",
@@ -1232,6 +1337,7 @@
         "index": {
           "description": "Lift binary operator into the FindClause monad so that it becomes combinator The left hand side of the combinator should be FindClause while the right remains normal value of type",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "liftOp",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003eb-\u003ed c",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "linkCount",
           "package": "FileManipCompat",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "linkCount",
           "package": "FileManipCompat",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "modificationTime",
           "package": "FileManipCompat",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "modificationTime",
           "package": "FileManipCompat",
@@ -1292,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current file is a symbolic link, return \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the target\n of the link, otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "readLink",
           "package": "FileManipCompat",
@@ -1302,6 +1413,7 @@
         "index": {
           "description": "If the current file is symbolic link return Just the target of the link otherwise Nothing",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "readLink",
           "package": "FileManipCompat",
@@ -1315,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "specialDeviceID",
           "package": "FileManipCompat",
@@ -1324,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "specialDeviceID",
           "package": "FileManipCompat",
@@ -1337,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "statusChangeTime",
           "package": "FileManipCompat",
@@ -1346,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "statusChangeTime",
           "package": "FileManipCompat",
@@ -1360,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the type of a file.  This is much more useful for case\n analysis than the usual functions on \u003ccode\u003e\u003ca\u003eFileStatus\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:04 UTC 2014",
           "module": "System.FilePath.FindCompat",
           "name": "statusType",
           "package": "FileManipCompat",
@@ -1370,6 +1487,7 @@
         "index": {
           "description": "Return the type of file This is much more useful for case analysis than the usual functions on FileStatus values",
           "hierarchy": "System FilePath FindCompat",
+          "indexed": "2014-03-11T16:41:04",
           "module": "System.FilePath.FindCompat",
           "name": "statusType",
           "normalized": "FileStatus-\u003eFileType",

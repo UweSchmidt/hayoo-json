@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "js-good-parts"
+        "phrase": "js-good-parts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn Chapter 2 of \"JavaScript: The Good Parts\", Douglas Crockford presents a\n concrete grammar for \"the good parts\" of JavaScript.\n\u003c/p\u003e\u003cp\u003eThis module provides an abstract grammar for those good parts. Henceforth, we abbreviate this\n language to JS:TGP\n\u003c/p\u003e\u003cp\u003eCrockford presents the grammar as a series of railroad diagrams.\n The correspondence between the concrete grammar and the abstract grammar\n in this module is NOT one-to-one. However, the following property does hold: the\n pretty printing of an abstract syntax tree will be parseable by the concrete grammar. i.e.\n For each valid program produced by the concrete grammar there is a corresponding\n abstract syntax tree that when pretty printed will produce that program (modulo whitespace).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eThe abstract grammar\u003c/em\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e removes unnecessary characters such as parentheses (normal, curly and square)\n\u003c/li\u003e\u003cli\u003e represents JavaScript's string, name and number literals directly in Haskell as\n     \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e respectively.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e\u003cem\u003eConventions for concrete syntax\u003c/em\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e  Non-terminals appear in angle brackets e.g. \u003cName\u003e\n\u003c/li\u003e\u003cli\u003e  ? means zero or one. e.g. \u003cExpr\u003e?\n\u003c/li\u003e\u003cli\u003e  * means zero or more e.g. \u003cStmt\u003e*\n\u003c/li\u003e\u003cli\u003e  + means one  or more e.g. \u003cStmt\u003e+\n\u003c/li\u003e\u003cli\u003e  ( ) are meta-brackets used to enclose a concrete-syntax expression so that ?,* or +\n     can be applied. e.g. (= \u003cExpr\u003e)*\n     This means zero or more repetitions of: = \u003cExpr\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis library was designed so that it would be impossible, save for name, string literals\n to construct an incorrect JS:TGP program. To this end some of the data structures may look like\n they contain redundancy. For instance, consider the \u003ccode\u003e\u003ca\u003eESDelete\u003c/a\u003e\u003c/code\u003e constructor which is defined\n\u003c/p\u003e\u003cpre\u003eESDelete Expr Invocation\u003c/pre\u003e\u003cp\u003eWhy not just define it as \u003ccode\u003eESDelete Expr\u003c/code\u003e since type \u003ccode\u003eExpr\u003c/code\u003e\n has a constructor defined as \u003ccode\u003eExprInvocation Expr Invocation\u003c/code\u003e?\n The reason is that this would allow incorrect programs. A \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e is\n not necessarily a \u003ccode\u003e\u003ca\u003eInvocation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eA note on precedence of JavaScript operators\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eInterestingly, the precedence of JavaScript operators is\n not defined in the ECMAScript standard. The precedence used in this library comes from\n the Mozilla Developer's Network pages.\n (https:\u003cem/\u003edeveloper.mozilla.org\u003cem\u003een\u003c/em\u003eJavaScript\u003cem\u003eReference\u003c/em\u003eOperators/Operator_Precedence)\n\u003c/p\u003e\u003cp\u003eI have not used the precise precedence numbers from that page since in this module\n a lower precedence means the operator binds more tightly (as opposed to the page where\n a higher precedence does the same). Also, we have need for less precedence values so they\n have been normalised to what we are using in JS:TGP\n\u003c/p\u003e\u003cp\u003eYou will also note that we don't even consider the associativity/precedence of\n \"=\", \"+=\", \"-=\" etc. In JS:TGP the notion of expression statements is quite different\n to that of expressions. It simply isn't legal to write an expression statement like\n\u003c/p\u003e\u003cpre\u003e(a += 2) -= 3\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003ea = (b = c) = (c = d)\u003c/pre\u003e\u003cp\u003ealthough it is perfectly legal to write\n\u003c/p\u003e\u003cpre\u003ea = b = c = d += 2\u003c/pre\u003e\u003cp\u003ewhich if we add brackets to disambiguate is really\n\u003c/p\u003e\u003cpre\u003ea = (b = (c = (d += 2)))\u003c/pre\u003e\u003cp\u003eInteresting aspects of \"the good parts\":\n\u003c/p\u003e\u003cp\u003eA JS:TGP program is a collection of statements. You'll note that there is no\n statement to declare a function in JS:TGP. However you can assign a function literal\n to a variable.\n\u003c/p\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003cpre\u003evar fun = function(x) { return x + 1;}\u003c/pre\u003e\u003cp\u003eWhat about recursive functions then? There is the option to give the function a name which is\n local to the literal.\n\u003c/p\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003cpre\u003evar factorial = function f(n) {\n                    if ( n \u003e 0 ) {\n                      return n * f(n - 1);\n                    } else {\n                      return 1;\n                    }\n                  }\u003c/pre\u003e\u003cp\u003e\u003ccode\u003ef\u003c/code\u003e is local. It will not be in scope outside of the function body.\n\u003c/p\u003e\u003cp\u003eAbbreviations:\n\u003c/p\u003e\u003cpre\u003e Stmt = Statement, Expr = Expression, Fn = Function, Decl = Declaration\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "AST",
           "package": "js-good-parts",
@@ -28,6 +29,7 @@
         "index": {
           "description": "In Chapter of JavaScript The Good Parts Douglas Crockford presents concrete grammar for the good parts of JavaScript This module provides an abstract grammar for those good parts Henceforth we abbreviate this language to JS TGP Crockford presents the grammar as series of railroad diagrams The correspondence between the concrete grammar and the abstract grammar in this module is NOT one-to-one However the following property does hold the pretty printing of an abstract syntax tree will be parseable by the concrete grammar i.e For each valid program produced by the concrete grammar there is corresponding abstract syntax tree that when pretty printed will produce that program modulo whitespace The abstract grammar removes unnecessary characters such as parentheses normal curly and square represents JavaScript string name and number literals directly in Haskell as String String and Double respectively Conventions for concrete syntax Non-terminals appear in angle brackets e.g Name means zero or one e.g Expr means zero or more e.g Stmt means one or more e.g Stmt are meta-brackets used to enclose concrete-syntax expression so that or can be applied e.g Expr This means zero or more repetitions of Expr This library was designed so that it would be impossible save for name string literals to construct an incorrect JS TGP program To this end some of the data structures may look like they contain redundancy For instance consider the ESDelete constructor which is defined ESDelete Expr Invocation Why not just define it as ESDelete Expr since type Expr has constructor defined as ExprInvocation Expr Invocation The reason is that this would allow incorrect programs Expr is not necessarily Invocation note on precedence of JavaScript operators Interestingly the precedence of JavaScript operators is not defined in the ECMAScript standard The precedence used in this library comes from the Mozilla Developer Network pages https developer.mozilla.org en JavaScript Reference Operators Operator Precedence have not used the precise precedence numbers from that page since in this module lower precedence means the operator binds more tightly as opposed to the page where higher precedence does the same Also we have need for less precedence values so they have been normalised to what we are using in JS TGP You will also note that we don even consider the associativity precedence of etc In JS TGP the notion of expression statements is quite different to that of expressions It simply isn legal to write an expression statement like or although it is perfectly legal to write which if we add brackets to disambiguate is really Interesting aspects of the good parts JS TGP program is collection of statements You ll note that there is no statement to declare function in JS TGP However you can assign function literal to variable e.g var fun function return What about recursive functions then There is the option to give the function name which is local to the literal e.g var factorial function if return else return is local It will not be in scope outside of the function body Abbreviations Stmt Statement Expr Expression Fn Function Decl Declaration",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "AST",
           "package": "js-good-parts",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e[]\u003c/code\u003e -- empty array\n\u003c/p\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e[\u003cExpr\u003e (, \u003cExpr\u003e*) ]\u003c/code\u003e -- non empty array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ArrayLit",
           "package": "js-good-parts",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Concrete syntax empty array or Expr Expr non empty array",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ArrayLit",
           "package": "js-good-parts",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003ebreak \u003cName\u003e?;\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003ebreak;\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ebreak some_label;\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "BreakStmt",
           "package": "js-good-parts",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Concrete syntax break Name e.g break break some label",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "BreakStmt",
           "package": "js-good-parts",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA case clause followed by a disruptive statement\n\u003c/p\u003e\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003e\u003cCaseClause\u003e \u003cDisruptiveStmt\u003e\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\n \u003ccode\u003e\n case 2:\n   y = 2;\n   break;\n \u003c/code\u003e\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "CaseAndDisruptive",
           "package": "js-good-parts",
@@ -97,6 +104,7 @@
         "index": {
           "description": "case clause followed by disruptive statement Concrete syntax CaseClause DisruptiveStmt e.g case break",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "CaseAndDisruptive",
           "package": "js-good-parts",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003ecase \u003cExpr\u003e : \u003cStmt\u003e*\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003ecase 2:   // zero statements following the case expression is valid.\u003c/pre\u003e\u003col\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e\n case 2:\n   y = 1;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "CaseClause",
           "package": "js-good-parts",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Concrete syntax case Expr Stmt e.g case zero statements following the case expression is valid case",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "CaseClause",
           "package": "js-good-parts",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisruptive statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "DisruptiveStmt",
           "package": "js-good-parts",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Disruptive statements",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "DisruptiveStmt",
           "package": "js-good-parts",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003edo { \u003cStmt\u003e* } while ( \u003cExpr\u003e );\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "DoStmt",
           "package": "js-good-parts",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Concrete syntax do Stmt while Expr",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "DoStmt",
           "package": "js-good-parts",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Expr",
           "package": "js-good-parts",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Expr",
           "package": "js-good-parts",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003e\u003cValue\u003e+ \u003cRValue\u003e\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003edelete \u003cExpr\u003e \u003cRefinement\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprStmt",
           "package": "js-good-parts",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Concrete syntax Value RValue or delete Expr Refinement",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprStmt",
           "package": "js-good-parts",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003e{ \u003cVarStmt\u003e+ \u003cStmt\u003e+ }\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "FnBody",
           "package": "js-good-parts",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Concrete syntax VarStmt Stmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "FnBody",
           "package": "js-good-parts",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003efunction \u003cName\u003e? \u003cFnBody\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "FnLit",
           "package": "js-good-parts",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Concrete syntax function Name FnBody",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "FnLit",
           "package": "js-good-parts",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo style of for-statements -- C-style and In-style.\n\u003c/p\u003e\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e\n for (\u003cExprStmt\u003e? ; \u003cExpr\u003e? ; \u003cExprStmt\u003e? ) {\n   \u003cStmt\u003e*\n }\n\u003c/pre\u003e\u003col\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e\n for ( \u003cName\u003e in \u003cExpr\u003e ) {\n   \u003cStmt\u003e*\n }\n\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003efor ( ; ; ) { }\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003efor ( ; x \u003c 10 ;) { x += 1; }\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e\n for (i = 0; i \u003c 10; i += 1) {\n   x += i;\n }\n\u003c/pre\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003efor ( i in indices ) { a[i] = 66; }\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ForStmt",
           "package": "js-good-parts",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Two style of for-statements C-style and In-style Concrete syntax for ExprStmt Expr ExprStmt Stmt for Name in Expr Stmt e.g for for for for in indices",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ForStmt",
           "package": "js-good-parts",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eif ( \u003cExpr\u003e ) { \u003cStmt\u003e* }\u003c/code\u003e                        -- for \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eif ( \u003cExpr\u003e ) { \u003cStmt\u003e* } else { \u003cStmt\u003e* }\u003c/code\u003e -- for 'Just . Left'\n\u003c/p\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eif ( \u003cExpr\u003e ) { \u003cStmt\u003e* } else \u003cIfStmt\u003e\u003c/code\u003e    -- for 'Just . Right'\n\u003c/p\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003eif (x \u003e 3) { y = 2; }\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eif (x \u003c 2) { y = 1; } else { y = 3; z = 2; }\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eif (x \u003e 0) { y = 20; } else if ( x \u003e 10) { y = 30; } else { y = 10; }\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "IfStmt",
           "package": "js-good-parts",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Concrete syntax if Expr Stmt for Nothing or if Expr Stmt else Stmt for Just Left or if Expr Stmt else IfStmt for Just Right e.g if if else if else if else",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "IfStmt",
           "package": "js-good-parts",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "InfixOperator",
           "package": "js-good-parts",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "InfixOperator",
           "package": "js-good-parts",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003e\u003cExpr\u003e*\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003e()\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e(1)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e(x,z,y)\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Invocation",
           "package": "js-good-parts",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Concrete syntax Expr e.g",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Invocation",
           "package": "js-good-parts",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "JSString",
           "package": "js-good-parts",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "JSString",
           "package": "js-good-parts",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003e\u003cName\u003e (\u003cInvocation\u003e* \u003cRefinement\u003e)*\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003ex\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ex.field_1\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003efun().field_1\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003efun(1)(2)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003efun(1)(2).field_1\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ex.fun_field_1(x+2).fun_field_2(y+3).field_3\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LValue",
           "package": "js-good-parts",
@@ -390,6 +423,7 @@
         "index": {
           "description": "Concrete syntax Name Invocation Refinement e.g x.field fun field fun fun field x.fun field fun field field",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LValue",
           "package": "js-good-parts",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterestingly, the syntax diagrams presented in the book don't include\n   boolean literals. I can only assume this is an oversight as they\n   are used throughout the book.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Lit",
           "package": "js-good-parts",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Interestingly the syntax diagrams presented in the book don include boolean literals can only assume this is an oversight as they are used throughout the book",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Lit",
           "package": "js-good-parts",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Name",
           "package": "js-good-parts",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Name",
           "package": "js-good-parts",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Number",
           "package": "js-good-parts",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Number",
           "package": "js-good-parts",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003cName\u003e: \u003cExpr\u003e        \u003c/code\u003e -- for Left\n\u003c/p\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003cString\u003e: \u003cExpr\u003e      \u003c/code\u003e -- for Right\n\u003c/p\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003ex: y + 3\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\"value\": 3 - z\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ObjectField",
           "package": "js-good-parts",
@@ -478,6 +519,7 @@
         "index": {
           "description": "Concrete syntax Name Expr for Left or String Expr for Right e.g value",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ObjectField",
           "package": "js-good-parts",
@@ -492,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e{}\u003c/code\u003e                                               -- no  fields\n\u003c/p\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e{\u003cObjectField\u003e (, \u003cObjectField\u003e )*}\u003c/code\u003e    -- one or more fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ObjectLit",
           "package": "js-good-parts",
@@ -501,6 +544,7 @@
         "index": {
           "description": "Concrete syntax no fields or ObjectField ObjectField one or more fields",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ObjectLit",
           "package": "js-good-parts",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "PrefixOperator",
           "package": "js-good-parts",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "PrefixOperator",
           "package": "js-good-parts",
@@ -536,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrograms. All variable statements come first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Program",
           "package": "js-good-parts",
@@ -545,6 +592,7 @@
         "index": {
           "description": "Programs All variable statements come first",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Program",
           "package": "js-good-parts",
@@ -559,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003e=  \u003cExpr\u003e\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e+= \u003cExpr\u003e\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e-= \u003cExpr\u003e\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e\u003cInvocation\u003e+\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003e= 2\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e+= 3\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e-= (4 + y)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e()\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e(1)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e(x,y,z)\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "RValue",
           "package": "js-good-parts",
@@ -568,6 +617,7 @@
         "index": {
           "description": "Concrete syntax Expr or Expr or Expr or Invocation e.g",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "RValue",
           "package": "js-good-parts",
@@ -582,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003e.\u003cName\u003e\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e[\u003cExpr\u003e]\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003e.field_1\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e[i+1]\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Refinement",
           "package": "js-good-parts",
@@ -591,6 +642,7 @@
         "index": {
           "description": "Concrete syntax Name or Expr e.g field",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Refinement",
           "package": "js-good-parts",
@@ -605,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003ereturn \u003cExpr\u003e?;\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003ereturn;\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ereturn 2 + x;\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ReturnStmt",
           "package": "js-good-parts",
@@ -614,6 +667,7 @@
         "index": {
           "description": "Concrete syntax return Expr e.g return return",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ReturnStmt",
           "package": "js-good-parts",
@@ -628,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe many different kinds of statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Stmt",
           "package": "js-good-parts",
@@ -637,6 +692,7 @@
         "index": {
           "description": "The many different kinds of statements",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Stmt",
           "package": "js-good-parts",
@@ -651,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003eswitch ( \u003cExpr\u003e ) { \u003cCaseClause\u003e }\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e\n switch ( \u003cExpr\u003e ) {\n  \u003cCaseAndDisruptive\u003e+\n  default : \u003cStmt\u003e*\n }\n\u003c/pre\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e\n switch ( x ) {\n   case 1:\n     y = 2;\n   }\n\u003c/pre\u003e\u003col\u003e\u003cli\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e\n switch ( x ) {\n   case 1:\n     y = 2;\n     break;\n   case 2:\n     y = 3;\n     break;\n   default:\n     y = 4;\n }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "SwitchStmt",
           "package": "js-good-parts",
@@ -660,6 +717,7 @@
         "index": {
           "description": "Concrete syntax switch Expr CaseClause or switch Expr CaseAndDisruptive default Stmt e.g switch case switch case break case break default",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "SwitchStmt",
           "package": "js-good-parts",
@@ -674,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003ethrow \u003cExpr\u003e;\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ThrowStmt",
           "package": "js-good-parts",
@@ -683,6 +742,7 @@
         "index": {
           "description": "Concrete syntax throw Expr",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ThrowStmt",
           "package": "js-good-parts",
@@ -697,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003etry { \u003cStmt\u003e* } catch ( \u003cName\u003e ) { \u003cStmt\u003e* }\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "TryStmt",
           "package": "js-good-parts",
@@ -706,6 +767,7 @@
         "index": {
           "description": "Concrete syntax try Stmt catch Name Stmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "TryStmt",
           "package": "js-good-parts",
@@ -720,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003e\u003cName\u003e (= \u003cExpr\u003e)?\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003ex\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ex = 2 + y\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "VarDecl",
           "package": "js-good-parts",
@@ -729,6 +792,7 @@
         "index": {
           "description": "Concrete syntax Name Expr e.g",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "VarDecl",
           "package": "js-good-parts",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003evar \u003cVarDecl\u003e [, \u003cVarDecl\u003e]* ;\u003c/pre\u003e\u003cp\u003ee.g. \u003ccode\u003evar x = 1, y;\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "VarStmt",
           "package": "js-good-parts",
@@ -752,6 +817,7 @@
         "index": {
           "description": "Concrete syntax var VarDecl VarDecl e.g var",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "VarStmt",
           "package": "js-good-parts",
@@ -766,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete syntax:\n\u003c/p\u003e\u003cpre\u003ewhile ( \u003cExpr\u003e) { \u003cStmt\u003e* }\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "WhileStmt",
           "package": "js-good-parts",
@@ -775,6 +842,7 @@
         "index": {
           "description": "Concrete syntax while Expr Stmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "WhileStmt",
           "package": "js-good-parts",
@@ -789,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e+\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Add",
           "package": "js-good-parts",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Add",
           "package": "js-good-parts",
@@ -812,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e&&\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "And",
           "package": "js-good-parts",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "And",
           "package": "js-good-parts",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ArrayLit",
           "package": "js-good-parts",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ArrayLit",
           "normalized": "ArrayLit[Expr]",
@@ -858,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "BreakStmt",
           "package": "js-good-parts",
@@ -867,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "BreakStmt",
           "package": "js-good-parts",
@@ -880,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "CaseAndDisruptive",
           "package": "js-good-parts",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "CaseAndDisruptive",
           "package": "js-good-parts",
@@ -902,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "CaseClause",
           "package": "js-good-parts",
@@ -911,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "CaseClause",
           "normalized": "CaseClause Expr[Stmt]",
@@ -927,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cBreakStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "DSBreak",
           "package": "js-good-parts",
@@ -937,6 +1018,7 @@
         "index": {
           "description": "BreakStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "DSBreak",
           "package": "js-good-parts",
@@ -951,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003esyntax: \u003cReturnStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "DSReturn",
           "package": "js-good-parts",
@@ -961,6 +1044,7 @@
         "index": {
           "description": "syntax ReturnStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "DSReturn",
           "package": "js-good-parts",
@@ -975,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003esyntax: \u003cThrowStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "DSThrow",
           "package": "js-good-parts",
@@ -985,6 +1070,7 @@
         "index": {
           "description": "syntax ThrowStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "DSThrow",
           "package": "js-good-parts",
@@ -999,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e/\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Div",
           "package": "js-good-parts",
@@ -1008,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Div",
           "package": "js-good-parts",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "DoStmt",
           "package": "js-good-parts",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "DoStmt",
           "normalized": "DoStmt[Stmt]Expr",
@@ -1045,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ESApply",
           "package": "js-good-parts",
@@ -1054,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ESApply",
           "package": "js-good-parts",
@@ -1067,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ESDelete",
           "package": "js-good-parts",
@@ -1076,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ESDelete",
           "package": "js-good-parts",
@@ -1090,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e===\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Eq",
           "package": "js-good-parts",
@@ -1099,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Eq",
           "package": "js-good-parts",
@@ -1113,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete \u003ccode\u003e\u003cExpr\u003e\u003cRefinement\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprDelete",
           "package": "js-good-parts",
@@ -1123,6 +1220,7 @@
         "index": {
           "description": "delete Expr Refinement",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprDelete",
           "package": "js-good-parts",
@@ -1137,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cExpr\u003e \u003cInfixOperator\u003e \u003cExpr\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprInfix",
           "package": "js-good-parts",
@@ -1147,6 +1246,7 @@
         "index": {
           "description": "Expr InfixOperator Expr",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprInfix",
           "package": "js-good-parts",
@@ -1161,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cExpr\u003e\u003cInvocation\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprInvocation",
           "package": "js-good-parts",
@@ -1171,6 +1272,7 @@
         "index": {
           "description": "Expr Invocation",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprInvocation",
           "package": "js-good-parts",
@@ -1185,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cLit\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprLit",
           "package": "js-good-parts",
@@ -1195,6 +1298,7 @@
         "index": {
           "description": "Lit",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprLit",
           "package": "js-good-parts",
@@ -1209,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cName\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprName",
           "package": "js-good-parts",
@@ -1219,6 +1324,7 @@
         "index": {
           "description": "Name",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprName",
           "package": "js-good-parts",
@@ -1233,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enew \u003ccode\u003e\u003cExpr\u003e\u003cInvocation\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprNew",
           "package": "js-good-parts",
@@ -1243,6 +1350,7 @@
         "index": {
           "description": "new Expr Invocation",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprNew",
           "package": "js-good-parts",
@@ -1257,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cPrefixOperator\u003e \u003cExpr\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprPrefix",
           "package": "js-good-parts",
@@ -1267,6 +1376,7 @@
         "index": {
           "description": "PrefixOperator Expr",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprPrefix",
           "package": "js-good-parts",
@@ -1281,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cExpr\u003e\u003cRefinement\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprRefinement",
           "package": "js-good-parts",
@@ -1291,6 +1402,7 @@
         "index": {
           "description": "Expr Refinement",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprRefinement",
           "package": "js-good-parts",
@@ -1305,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cExpr\u003e ? \u003cExpr\u003e : \u003cExpr\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ExprTernary",
           "package": "js-good-parts",
@@ -1315,6 +1428,7 @@
         "index": {
           "description": "Expr Expr Expr",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ExprTernary",
           "package": "js-good-parts",
@@ -1328,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "FnBody",
           "package": "js-good-parts",
@@ -1337,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "FnBody",
           "normalized": "FnBody[VarStmt][Stmt]",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "FnLit",
           "package": "js-good-parts",
@@ -1361,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "FnLit",
           "normalized": "FnLit(Maybe Name)[Name]FnBody",
@@ -1376,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ForStmtCStyle",
           "package": "js-good-parts",
@@ -1385,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ForStmtCStyle",
           "normalized": "ForStmtCStyle(Maybe ExprStmt)(Maybe Expr)(Maybe ExprStmt)[Stmt]",
@@ -1400,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ForStmtInStyle",
           "package": "js-good-parts",
@@ -1409,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ForStmtInStyle",
           "normalized": "ForStmtInStyle Name Expr[Stmt]",
@@ -1425,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "GT",
           "package": "js-good-parts",
@@ -1434,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "GT",
           "package": "js-good-parts",
@@ -1448,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003e=\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "GTE",
           "package": "js-good-parts",
@@ -1457,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "GTE",
           "package": "js-good-parts",
@@ -1470,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "IfStmt",
           "package": "js-good-parts",
@@ -1479,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "IfStmt",
           "normalized": "IfStmt Expr[Stmt](Maybe(Either[Stmt]IfStmt))",
@@ -1494,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Invocation",
           "package": "js-good-parts",
@@ -1503,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Invocation",
           "normalized": "Invocation[Expr]",
@@ -1519,6 +1649,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LT",
           "package": "js-good-parts",
@@ -1528,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LT",
           "package": "js-good-parts",
@@ -1542,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c=\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LTE",
           "package": "js-good-parts",
@@ -1551,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LTE",
           "package": "js-good-parts",
@@ -1564,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LValue",
           "package": "js-good-parts",
@@ -1573,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LValue",
           "normalized": "LValue Name[([Invocation],Refinement)]",
@@ -1589,6 +1725,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cArrayLit\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LitArray",
           "package": "js-good-parts",
@@ -1599,6 +1736,7 @@
         "index": {
           "description": "ArrayLit",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LitArray",
           "package": "js-good-parts",
@@ -1613,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ctrue | false\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LitBool",
           "package": "js-good-parts",
@@ -1623,6 +1762,7 @@
         "index": {
           "description": "true false",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LitBool",
           "package": "js-good-parts",
@@ -1637,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003cFnLit\u003e\u003c/code\u003e\n  | LitRegexp   RegexpLit -- TODO: Add regexps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LitFn",
           "package": "js-good-parts",
@@ -1647,6 +1788,7 @@
         "index": {
           "description": "FnLit LitRegexp RegexpLit TODO Add regexps",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LitFn",
           "package": "js-good-parts",
@@ -1661,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cNumber\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LitNumber",
           "package": "js-good-parts",
@@ -1671,6 +1814,7 @@
         "index": {
           "description": "Number",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LitNumber",
           "package": "js-good-parts",
@@ -1685,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cObjectLit\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LitObject",
           "package": "js-good-parts",
@@ -1695,6 +1840,7 @@
         "index": {
           "description": "ObjectLit",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LitObject",
           "package": "js-good-parts",
@@ -1709,6 +1855,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cString\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "LitString",
           "package": "js-good-parts",
@@ -1719,6 +1866,7 @@
         "index": {
           "description": "String",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "LitString",
           "package": "js-good-parts",
@@ -1733,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e%\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Mod",
           "package": "js-good-parts",
@@ -1742,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Mod",
           "package": "js-good-parts",
@@ -1756,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e*\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Mul",
           "package": "js-good-parts",
@@ -1765,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Mul",
           "package": "js-good-parts",
@@ -1779,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Negate",
           "package": "js-good-parts",
@@ -1788,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Negate",
           "package": "js-good-parts",
@@ -1802,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e!\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Not",
           "package": "js-good-parts",
@@ -1811,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Not",
           "package": "js-good-parts",
@@ -1825,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e!==\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "NotEq",
           "package": "js-good-parts",
@@ -1834,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "NotEq",
           "package": "js-good-parts",
@@ -1847,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Number",
           "package": "js-good-parts",
@@ -1856,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Number",
           "package": "js-good-parts",
@@ -1869,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ObjectField",
           "package": "js-good-parts",
@@ -1878,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ObjectField",
           "package": "js-good-parts",
@@ -1891,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ObjectLit",
           "package": "js-good-parts",
@@ -1900,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ObjectLit",
           "normalized": "ObjectLit[ObjectField]",
@@ -1916,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e||\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Or",
           "package": "js-good-parts",
@@ -1925,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Or",
           "package": "js-good-parts",
@@ -1938,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Program",
           "package": "js-good-parts",
@@ -1947,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Program",
           "normalized": "Program[VarStmt][Stmt]",
@@ -1962,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Property",
           "package": "js-good-parts",
@@ -1971,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Property",
           "package": "js-good-parts",
@@ -1984,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "RVAddAssign",
           "package": "js-good-parts",
@@ -1993,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "RVAddAssign",
           "package": "js-good-parts",
@@ -2006,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "RVAssign",
           "package": "js-good-parts",
@@ -2015,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "RVAssign",
           "package": "js-good-parts",
@@ -2028,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "RVInvoke",
           "package": "js-good-parts",
@@ -2037,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "RVInvoke",
           "package": "js-good-parts",
@@ -2050,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "RVSubAssign",
           "package": "js-good-parts",
@@ -2059,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "RVSubAssign",
           "package": "js-good-parts",
@@ -2072,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ReturnStmt",
           "package": "js-good-parts",
@@ -2081,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ReturnStmt",
           "package": "js-good-parts",
@@ -2095,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cDisruptiveStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "StmtDisruptive",
           "package": "js-good-parts",
@@ -2105,6 +2286,7 @@
         "index": {
           "description": "DisruptiveStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "StmtDisruptive",
           "package": "js-good-parts",
@@ -2119,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e(\u003cName\u003e : ) \u003cDoStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "StmtDo",
           "package": "js-good-parts",
@@ -2129,6 +2312,7 @@
         "index": {
           "description": "Name DoStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "StmtDo",
           "package": "js-good-parts",
@@ -2143,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cExprStmt\u003e;\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "StmtExpr",
           "package": "js-good-parts",
@@ -2153,6 +2338,7 @@
         "index": {
           "description": "ExprStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "StmtExpr",
           "package": "js-good-parts",
@@ -2167,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e(\u003cName\u003e : ) \u003cForStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "StmtFor",
           "package": "js-good-parts",
@@ -2177,6 +2364,7 @@
         "index": {
           "description": "Name ForStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "StmtFor",
           "package": "js-good-parts",
@@ -2191,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cIfStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "StmtIf",
           "package": "js-good-parts",
@@ -2201,6 +2390,7 @@
         "index": {
           "description": "IfStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "StmtIf",
           "package": "js-good-parts",
@@ -2215,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e(\u003cName\u003e : ) \u003cSwitchStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "StmtSwitch",
           "package": "js-good-parts",
@@ -2225,6 +2416,7 @@
         "index": {
           "description": "Name SwitchStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "StmtSwitch",
           "package": "js-good-parts",
@@ -2239,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003cTryStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "StmtTry",
           "package": "js-good-parts",
@@ -2249,6 +2442,7 @@
         "index": {
           "description": "TryStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "StmtTry",
           "package": "js-good-parts",
@@ -2263,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e(\u003cName\u003e : ) \u003cWhileStmt\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "StmtWhile",
           "package": "js-good-parts",
@@ -2273,6 +2468,7 @@
         "index": {
           "description": "Name WhileStmt",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "StmtWhile",
           "package": "js-good-parts",
@@ -2287,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Sub",
           "package": "js-good-parts",
@@ -2296,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Sub",
           "package": "js-good-parts",
@@ -2309,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "Subscript",
           "package": "js-good-parts",
@@ -2318,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "Subscript",
           "package": "js-good-parts",
@@ -2332,6 +2532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault clause statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "SwitchStmt",
           "package": "js-good-parts",
@@ -2342,6 +2543,7 @@
         "index": {
           "description": "default clause statements",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "SwitchStmt",
           "normalized": "SwitchStmt Expr(NonEmptyList CaseAndDisruptive)[Stmt]",
@@ -2357,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "SwitchStmtSingleCase",
           "package": "js-good-parts",
@@ -2366,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "SwitchStmtSingleCase",
           "package": "js-good-parts",
@@ -2379,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ThrowStmt",
           "package": "js-good-parts",
@@ -2388,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ThrowStmt",
           "package": "js-good-parts",
@@ -2402,6 +2608,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e+\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "ToNumber",
           "package": "js-good-parts",
@@ -2411,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "ToNumber",
           "package": "js-good-parts",
@@ -2424,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "TryStmt",
           "package": "js-good-parts",
@@ -2433,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "TryStmt",
           "normalized": "TryStmt[Stmt]Name[Stmt]",
@@ -2449,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003etypeof\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "TypeOf",
           "package": "js-good-parts",
@@ -2459,6 +2670,7 @@
         "index": {
           "description": "typeof",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "TypeOf",
           "package": "js-good-parts",
@@ -2472,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "VarDecl",
           "package": "js-good-parts",
@@ -2481,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "VarDecl",
           "package": "js-good-parts",
@@ -2494,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "VarStmt",
           "package": "js-good-parts",
@@ -2503,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "VarStmt",
           "package": "js-good-parts",
@@ -2516,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "WhileStmt",
           "package": "js-good-parts",
@@ -2525,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "WhileStmt",
           "normalized": "WhileStmt Expr[Stmt]",
@@ -2541,6 +2759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe only way you can create a Javascript string.\n   This function needs to correctly encode all special characters.\n   See p9 of \"JavaScript: The Good Parts\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "jsString",
           "package": "js-good-parts",
@@ -2551,6 +2770,7 @@
         "index": {
           "description": "The only way you can create Javascript string This function needs to correctly encode all special characters See p9 of JavaScript The Good Parts",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "jsString",
           "normalized": "String-\u003eEither String JSString",
@@ -2567,6 +2787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ejsName\u003c/code\u003e is the only way you can create a Name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "name",
           "package": "js-good-parts",
@@ -2577,6 +2798,7 @@
         "index": {
           "description": "jsName is the only way you can create Name",
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "name",
           "normalized": "String-\u003eEither String Name",
@@ -2591,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "unName",
           "package": "js-good-parts",
@@ -2600,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "unName",
           "normalized": "Name-\u003eString",
@@ -2615,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.AST",
           "name": "unString",
           "package": "js-good-parts",
@@ -2624,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript AST",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.AST",
           "name": "unString",
           "normalized": "JSString-\u003eString",
@@ -2639,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "NonEmptyList",
           "package": "js-good-parts",
@@ -2647,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript NonEmptyList",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "NonEmptyList",
           "package": "js-good-parts",
@@ -2660,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "NonEmptyList",
           "package": "js-good-parts",
@@ -2668,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript NonEmptyList",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "NonEmptyList",
           "package": "js-good-parts",
@@ -2681,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "(\u003c:\u003e)",
           "package": "js-good-parts",
@@ -2690,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript NonEmptyList",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "(\u003c:\u003e) \u003c:\u003e",
           "normalized": "a-\u003eNonEmptyList a-\u003eNonEmptyList a",
@@ -2704,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "singleton",
           "package": "js-good-parts",
@@ -2713,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript NonEmptyList",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "singleton",
           "normalized": "a-\u003eNonEmptyList a",
@@ -2727,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "toList",
           "package": "js-good-parts",
@@ -2736,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript NonEmptyList",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.NonEmptyList",
           "name": "toList",
           "normalized": "NonEmptyList a-\u003e[a]",
@@ -2751,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.Pretty",
           "name": "Pretty",
           "package": "js-good-parts",
@@ -2759,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Pretty",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.Pretty",
           "name": "Pretty",
           "package": "js-good-parts",
@@ -2773,6 +3011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe member \u003ccode\u003eprettyList\u003c/code\u003e is only used to define the \u003ccode\u003einstance Pretty\n a =\u003e Pretty [a]\u003c/code\u003e. In normal circumstances only the \u003ccode\u003epretty\u003c/code\u003e function\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.Pretty",
           "name": "Pretty",
           "package": "js-good-parts",
@@ -2781,6 +3020,7 @@
         "index": {
           "description": "The member prettyList is only used to define the instance Pretty Pretty In normal circumstances only the pretty function is used",
           "hierarchy": "Language JavaScript Pretty",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.Pretty",
           "name": "Pretty",
           "package": "js-good-parts",
@@ -2794,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.Pretty",
           "name": "pretty",
           "package": "js-good-parts",
@@ -2802,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Pretty",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -2816,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:44 UTC 2014",
           "module": "Language.JavaScript.Pretty",
           "name": "prettyList",
           "package": "js-good-parts",
@@ -2824,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Pretty",
+          "indexed": "2014-03-11T19:01:44",
           "module": "Language.JavaScript.Pretty",
           "name": "prettyList",
           "normalized": "[a]-\u003eDoc",

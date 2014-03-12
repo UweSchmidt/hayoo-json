@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ty"
+        "phrase": "ty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType class for typed type representations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.IsTy",
           "name": "IsTy",
           "package": "ty",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type class for typed type representations",
           "hierarchy": "Data IsTy",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.IsTy",
           "name": "IsTy",
           "package": "ty",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for typed type representations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.IsTy",
           "name": "IsTy",
           "package": "ty",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type class for typed type representations",
           "hierarchy": "Data IsTy",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.IsTy",
           "name": "IsTy",
           "package": "ty",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for typed type representations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.IsTy",
           "name": "IsTy2",
           "package": "ty",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type class for typed type representations",
           "hierarchy": "Data IsTy",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.IsTy",
           "name": "IsTy2",
           "package": "ty",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.IsTy",
           "name": "Yes",
           "package": "ty",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data IsTy",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.IsTy",
           "name": "Yes",
           "package": "ty",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.IsTy",
           "name": "Yes2",
           "package": "ty",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data IsTy",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.IsTy",
           "name": "Yes2",
           "package": "ty",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.IsTy",
           "name": "tyEq",
           "package": "ty",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data IsTy",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.IsTy",
           "name": "tyEq",
           "normalized": "a b-\u003ea c-\u003eMaybe(b c)",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.IsTy",
           "name": "tyEq2",
           "package": "ty",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data IsTy",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.IsTy",
           "name": "tyEq2",
           "normalized": "a b c-\u003ea d e-\u003eMaybe((b,c)(d,e))",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType equality proofs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": "EQ",
           "package": "ty",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Type equality proofs",
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": "EQ",
           "package": "ty",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType equality proof\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": ":=:",
           "package": "ty",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Type equality proof",
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": ":=:",
           "package": "ty",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": "Refl",
           "package": "ty",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": "Refl",
           "package": "ty",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommutativity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": "commEq",
           "package": "ty",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Commutativity",
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": "commEq",
           "normalized": "(a b)-\u003eb a",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift proof through a unary type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": "liftEq",
           "package": "ty",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Lift proof through unary type constructor",
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": "liftEq",
           "normalized": "(a b)-\u003ec a c b",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift proof through a binary type constructor (including '(,)')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": "liftEq2",
           "package": "ty",
@@ -307,6 +332,7 @@
         "index": {
           "description": "Lift proof through binary type constructor including",
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": "liftEq2",
           "normalized": "(a b)-\u003e(c d)-\u003ee a c e b d",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift proof through a ternary type constructor (including '(,,)')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": "liftEq3",
           "package": "ty",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Lift proof through ternary type constructor including",
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": "liftEq3",
           "normalized": "(a b)-\u003e(c d)-\u003e(e f)-\u003eg a c e g b d f",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift proof through a quaternary type constructor (including '(,,,)')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": "liftEq4",
           "package": "ty",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Lift proof through quaternary type constructor including",
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": "liftEq4",
           "normalized": "(a b)-\u003e(c d)-\u003e(e f)-\u003e(g h)-\u003ei a c e g i b d f h",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitivity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Proof.EQ",
           "name": "transEq",
           "package": "ty",
@@ -385,6 +416,7 @@
         "index": {
           "description": "Transitivity",
           "hierarchy": "Data Proof EQ",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Proof.EQ",
           "name": "transEq",
           "normalized": "(a b)-\u003e(b c)-\u003ea c",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTyped typerefs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "Ty",
           "package": "ty",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Typed typerefs",
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "Ty",
           "package": "ty",
@@ -423,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "AsPairTy",
           "package": "ty",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "AsPairTy",
           "package": "ty",
@@ -445,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type wrapper around a \u003ccode\u003e\u003ca\u003eTypeRep\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "Ty",
           "package": "ty",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Phantom type wrapper around TypeRep",
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "Ty",
           "package": "ty",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e allows a concrete representation of a type to\n be calculated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "Typeable",
           "package": "ty",
@@ -476,6 +515,7 @@
         "index": {
           "description": "The class Typeable allows concrete representation of type to be calculated",
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "Typeable",
           "package": "ty",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality of typed values. \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRefl\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e means the the types match and the\n values match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "(=:=)",
           "package": "ty",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Equality of typed values Just Refl means the the types match and the values match",
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "(=:=) =:=",
           "normalized": "a-\u003eb-\u003eMaybe(a b)",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "PairTy",
           "package": "ty",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "PairTy",
           "normalized": "Ty a-\u003eTy b-\u003eAsPairTy(a,b)",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "asPairTy",
           "package": "ty",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "asPairTy",
           "normalized": "Ty a-\u003eMaybe(AsPairTy a)",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "ty",
           "package": "ty",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "ty",
           "package": "ty",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTy\u003c/a\u003e\u003c/code\u003e of a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "tyOf",
           "package": "ty",
@@ -594,6 +643,7 @@
         "index": {
           "description": "The Ty of value",
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "tyOf",
           "normalized": "a-\u003eTy a",
@@ -610,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTy\u003c/a\u003e\u003c/code\u003e of a value from a constructor application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "tyOf1",
           "package": "ty",
@@ -620,6 +671,7 @@
         "index": {
           "description": "The Ty of value from constructor application",
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "tyOf1",
           "normalized": "a b-\u003eTy b",
@@ -636,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTy\u003c/a\u003e\u003c/code\u003e of a value from a nested constructor application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "tyOf2",
           "package": "ty",
@@ -646,6 +699,7 @@
         "index": {
           "description": "The Ty of value from nested constructor application",
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "tyOf2",
           "normalized": "a(b c)-\u003eTy c",
@@ -661,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:53 UTC 2014",
           "module": "Data.Ty",
           "name": "tyRep",
           "package": "ty",
@@ -670,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data Ty",
+          "indexed": "2014-03-11T20:26:53",
           "module": "Data.Ty",
           "name": "tyRep",
           "normalized": "Ty a-\u003eTypeRep",

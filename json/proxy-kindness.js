@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "proxy-kindness"
+        "phrase": "proxy-kindness",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "Kindness",
           "package": "proxy-kindness",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "Kindness",
           "package": "proxy-kindness",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation between a (maybe-partially-applied) type and that type fully\n applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "Applied",
           "package": "proxy-kindness",
@@ -49,6 +52,7 @@
         "index": {
           "description": "relation between maybe-partially-applied type and that type fully applied",
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "Applied",
           "package": "proxy-kindness",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate class that returns \u003ccode\u003eTrue\u003c/code\u003e when the unapplied \u003ca\u003ebase\u003c/a\u003e type of\n \u003ccode\u003eta\u003c/code\u003e and \u003ccode\u003etb\u003c/code\u003e are identical. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "AreEqUnapplied",
           "package": "proxy-kindness",
@@ -72,6 +77,7 @@
         "index": {
           "description": "predicate class that returns True when the unapplied base type of ta and tb are identical",
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "AreEqUnapplied",
           "package": "proxy-kindness",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate class that returns \u003ccode\u003eTrue\u003c/code\u003e when \u003ccode\u003et\u003c/code\u003e is a partially-applied\n \"prefix\" type of \u003ccode\u003etab\u003c/code\u003e, i.e. \u003ccode\u003etab\u003c/code\u003e can be \u003ccode\u003e\u003ca\u003eunap\u003c/a\u003e\u003c/code\u003e-ed to \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "IsOfBaseType",
           "package": "proxy-kindness",
@@ -95,6 +102,7 @@
         "index": {
           "description": "predicate class that returns True when is partially-applied prefix type of tab i.e tab can be unap ed to",
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "IsOfBaseType",
           "package": "proxy-kindness",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation between a (maybe-partially-applied) type and that type stripped\n of all its arguments.\n\u003c/p\u003e\u003cp\u003eWhen the bare type is ambiguous (e.g. \u003ccode\u003eunapplied (p :: Proxy (m a))\u003c/code\u003e), an\n overlapping instances type error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "Unapplied",
           "package": "proxy-kindness",
@@ -118,6 +127,7 @@
         "index": {
           "description": "relation between maybe-partially-applied type and that type stripped of all its arguments When the bare type is ambiguous e.g unapplied Proxy an overlapping instances type error will be raised",
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "Unapplied",
           "package": "proxy-kindness",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "ap",
           "package": "proxy-kindness",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "ap",
           "normalized": "Proxy a-\u003eProxy b-\u003eProxy(a b)",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFully apply a type \u003ccode\u003et\u003c/code\u003e with polymorphic arguments, yielding \u003ccode\u003etab\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "applied",
           "package": "proxy-kindness",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Fully apply type with polymorphic arguments yielding tab",
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "applied",
           "normalized": "Proxy a-\u003eProxy b",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce the first argument to the fully \u003ccode\u003e\u003ca\u003eapplied\u003c/a\u003e\u003c/code\u003e proxy type of the second, e.g.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet x = (Left 1) `asApplied` (Proxy :: Proxy (Either Double))\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t x\n\u003c/code\u003e\u003c/strong\u003ex :: Either Double a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "asApplied",
           "package": "proxy-kindness",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Force the first argument to the fully applied proxy type of the second e.g let Left asApplied Proxy Proxy Either Double Either Double",
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "asApplied",
           "normalized": "a-\u003eProxy b-\u003ea",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "unap",
           "package": "proxy-kindness",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "unap",
           "normalized": "Proxy(a b)-\u003e(Proxy a,Proxy b)",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003eProxy tab\u003c/code\u003e, strip away all of its arguments, leaving the type\n \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "unapplied",
           "package": "proxy-kindness",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Given Proxy tab strip away all of its arguments leaving the type",
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "unapplied",
           "normalized": "a-\u003eProxy b",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a proxy value for the completely \u003ccode\u003e\u003ca\u003eunapplied\u003c/a\u003e\u003c/code\u003e type of \u003ccode\u003etab\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:41 UTC 2014",
           "module": "Data.Proxy.Kindness",
           "name": "unappliedOf",
           "package": "proxy-kindness",
@@ -264,6 +285,7 @@
         "index": {
           "description": "Create proxy value for the completely unapplied type of tab",
           "hierarchy": "Data Proxy Kindness",
+          "indexed": "2014-03-11T19:45:41",
           "module": "Data.Proxy.Kindness",
           "name": "unappliedOf",
           "normalized": "a-\u003eProxy b",

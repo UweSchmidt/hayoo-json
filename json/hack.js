@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack"
+        "phrase": "hack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "Hack",
           "package": "hack",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "Hack",
           "package": "hack",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "Application",
           "package": "hack",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "Application",
           "package": "hack",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "Env",
           "package": "hack",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "Env",
           "package": "hack",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "HackErrors",
           "package": "hack",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "HackErrors",
           "package": "hack",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "Hack_UrlScheme",
           "package": "hack",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "Hack_UrlScheme",
           "package": "hack",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "Middleware",
           "package": "hack",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "Middleware",
           "package": "hack",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "RequestMethod",
           "package": "hack",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "RequestMethod",
           "package": "hack",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "Response",
           "package": "hack",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "Response",
           "package": "hack",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "CONNECT",
           "package": "hack",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "CONNECT",
           "package": "hack",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "DELETE",
           "package": "hack",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "DELETE",
           "package": "hack",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "Env",
           "package": "hack",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "Env",
           "package": "hack",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "GET",
           "package": "hack",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "GET",
           "package": "hack",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "HEAD",
           "package": "hack",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "HEAD",
           "package": "hack",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "HTTP",
           "package": "hack",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "HTTP",
           "package": "hack",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "HTTPS",
           "package": "hack",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "HTTPS",
           "package": "hack",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "OPTIONS",
           "package": "hack",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "OPTIONS",
           "package": "hack",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "POST",
           "package": "hack",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "POST",
           "package": "hack",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "PUT",
           "package": "hack",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "PUT",
           "package": "hack",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "Response",
           "package": "hack",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "Response",
           "package": "hack",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "TRACE",
           "package": "hack",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "TRACE",
           "package": "hack",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "body",
           "package": "hack",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "body",
           "package": "hack",
@@ -471,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "hackCache",
           "package": "hack",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "hackCache",
           "normalized": "[(ByteString,ByteString)]",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "hackErrors",
           "package": "hack",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "hackErrors",
           "package": "hack",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "hackHeaders",
           "package": "hack",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "hackHeaders",
           "normalized": "[(String,String)]",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "hackInput",
           "package": "hack",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "hackInput",
           "package": "hack",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "hackUrlScheme",
           "package": "hack",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "hackUrlScheme",
           "package": "hack",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "hackVersion",
           "package": "hack",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "hackVersion",
           "normalized": "[Int]",
@@ -609,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "headers",
           "package": "hack",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "headers",
           "normalized": "[(String,String)]",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "http",
           "package": "hack",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "http",
           "normalized": "[(String,String)]",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "pathInfo",
           "package": "hack",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "pathInfo",
           "package": "hack",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "queryString",
           "package": "hack",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "queryString",
           "package": "hack",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "remoteHost",
           "package": "hack",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "remoteHost",
           "package": "hack",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "requestMethod",
           "package": "hack",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "requestMethod",
           "package": "hack",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "scriptName",
           "package": "hack",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "scriptName",
           "package": "hack",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "serverName",
           "package": "hack",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "serverName",
           "package": "hack",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "serverPort",
           "package": "hack",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "serverPort",
           "package": "hack",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:58 UTC 2014",
           "module": "Hack",
           "name": "status",
           "package": "hack",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Hack",
+          "indexed": "2014-03-11T18:24:58",
           "module": "Hack",
           "name": "status",
           "package": "hack",

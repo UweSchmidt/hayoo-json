@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "open-witness"
+        "phrase": "open-witness",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an approximate re-implementation of \u003ca\u003eData.Dynamic\u003c/a\u003e using open witnesses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Dynamic",
           "name": "Dynamic",
           "package": "open-witness",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is an approximate re-implementation of Data.Dynamic using open witnesses",
           "hierarchy": "Data OpenWitness Dynamic",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Dynamic",
           "name": "Dynamic",
           "package": "open-witness",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Dynamic",
           "name": "Dynamic",
           "package": "open-witness",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Dynamic",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Dynamic",
           "name": "Dynamic",
           "package": "open-witness",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Dynamic",
           "name": "dynApp",
           "package": "open-witness",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Dynamic",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Dynamic",
           "name": "dynApp",
           "normalized": "Dynamic-\u003eDynamic-\u003eDynamic",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Dynamic",
           "name": "dynApply",
           "package": "open-witness",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Dynamic",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Dynamic",
           "name": "dynApply",
           "normalized": "Dynamic-\u003eDynamic-\u003eMaybe Dynamic",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Dynamic",
           "name": "dynTypeRep",
           "package": "open-witness",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Dynamic",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Dynamic",
           "name": "dynTypeRep",
           "normalized": "Dynamic-\u003eTypeRep",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Dynamic",
           "name": "fromDyn",
           "package": "open-witness",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Dynamic",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Dynamic",
           "name": "fromDyn",
           "normalized": "Dynamic-\u003ea-\u003ea",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Dynamic",
           "name": "fromDynamic",
           "package": "open-witness",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Dynamic",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Dynamic",
           "name": "fromDynamic",
           "normalized": "Dynamic-\u003eMaybe a",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Dynamic",
           "name": "toDyn",
           "package": "open-witness",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Dynamic",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Dynamic",
           "name": "toDyn",
           "normalized": "a-\u003eDynamic",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Exception",
           "name": "Exception",
           "package": "open-witness",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Exception",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Exception",
           "name": "Exception",
           "package": "open-witness",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key to match exceptions. The type variable is the data the exception carries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Exception",
           "name": "Exn",
           "package": "open-witness",
@@ -237,6 +256,7 @@
         "index": {
           "description": "key to match exceptions The type variable is the data the exception carries",
           "hierarchy": "Data OpenWitness Exception",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Exception",
           "name": "Exn",
           "package": "open-witness",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Exception",
           "name": "catch",
           "package": "open-witness",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Exception",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Exception",
           "name": "catch",
           "normalized": "IO a-\u003eExn b-\u003e(b-\u003eIO a)-\u003eIO a",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Exception",
           "name": "throw",
           "package": "open-witness",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Exception",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Exception",
           "name": "throw",
           "normalized": "Exn a-\u003ea-\u003eb",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the absence of open witness declarations, an unsafe hack to generate \u003ccode\u003e\u003ca\u003eExn\u003c/a\u003e\u003c/code\u003e exception keys.\n This is safe if you use a different string each time (and \u003ccode\u003ehashString\u003c/code\u003e doesn't collide), and if \u003ccode\u003ee\u003c/code\u003e is a single type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Exception",
           "name": "unsafeExnFromString",
           "package": "open-witness",
@@ -307,6 +332,7 @@
         "index": {
           "description": "In the absence of open witness declarations an unsafe hack to generate Exn exception keys This is safe if you use different string each time and hashString doesn collide and if is single type",
           "hierarchy": "Data OpenWitness Exception",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Exception",
           "name": "unsafeExnFromString",
           "normalized": "String-\u003eExn a",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an approximate re-implementation of \u003ca\u003eControl.Monad.ST\u003c/a\u003e and \u003ca\u003eData.STRef\u003c/a\u003e using open witnesses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "ST",
           "package": "open-witness",
@@ -332,6 +359,7 @@
         "index": {
           "description": "This is an approximate re-implementation of Control.Monad.ST and Data.STRef using open witnesses",
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "ST",
           "package": "open-witness",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003es\u003c/code\u003e type for running \u003ccode\u003e\u003ca\u003eOW\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "RealWorld",
           "package": "open-witness",
@@ -355,6 +384,7 @@
         "index": {
           "description": "The type for running OW in IO",
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "RealWorld",
           "package": "open-witness",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "ST",
           "package": "open-witness",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "ST",
           "package": "open-witness",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "STRef",
           "package": "open-witness",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "STRef",
           "package": "open-witness",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "fixST",
           "package": "open-witness",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "fixST",
           "normalized": "(a-\u003eST b a)-\u003eST b a",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "modifySTRef",
           "package": "open-witness",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "modifySTRef",
           "normalized": "a b c STRef b d-\u003e(d-\u003ed)-\u003eST b()",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "newSTRef",
           "package": "open-witness",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "newSTRef",
           "normalized": "a-\u003eST b(STRef b a)",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "readSTRef",
           "package": "open-witness",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "readSTRef",
           "normalized": "STRef a b-\u003eST a b",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "runST",
           "package": "open-witness",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "runST",
           "normalized": "(a b ST c d)-\u003ed",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "stToIO",
           "package": "open-witness",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "stToIO",
           "normalized": "ST RealWorld a-\u003eIO a",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "stToOW",
           "package": "open-witness",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "stToOW",
           "normalized": "ST a b-\u003eOW a b",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.ST",
           "name": "writeSTRef",
           "package": "open-witness",
@@ -587,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness ST",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.ST",
           "name": "writeSTRef",
           "normalized": "a b c STRef b d-\u003ed-\u003eST b()",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "Rep",
           "package": "open-witness",
@@ -610,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "Rep",
           "package": "open-witness",
@@ -623,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "Rep",
           "package": "open-witness",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "Rep",
           "package": "open-witness",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "Rep1",
           "package": "open-witness",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "Rep1",
           "package": "open-witness",
@@ -665,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "Rep2",
           "package": "open-witness",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "Rep2",
           "package": "open-witness",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "ApplyRep",
           "package": "open-witness",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "ApplyRep",
           "normalized": "Rep a-\u003eRep b-\u003eRep(a b)",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "ApplyRep1",
           "package": "open-witness",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "ApplyRep1",
           "normalized": "Rep a-\u003eRep b-\u003eRep(a b)",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "SimpleRep",
           "package": "open-witness",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "SimpleRep",
           "normalized": "IOWitness a-\u003eRep a",
@@ -758,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "SimpleRep1",
           "package": "open-witness",
@@ -767,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "SimpleRep1",
           "normalized": "IOWitness(a())-\u003eRep a",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "SimpleRep2",
           "package": "open-witness",
@@ -791,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "SimpleRep2",
           "normalized": "IOWitness(a()())-\u003eRep a",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "matchRep1",
           "package": "open-witness",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "matchRep1",
           "normalized": "Rep a-\u003eRep b-\u003eMaybe(EqualType(a())(b()))",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "matchRep2",
           "package": "open-witness",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable Rep",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable.Rep",
           "name": "matchRep2",
           "normalized": "Rep a-\u003eRep b-\u003eMaybe(EqualType(a()())(b()()))",
@@ -855,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an approximate re-implementation of \u003ca\u003eData.Typeable\u003c/a\u003e using open witnesses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "Typeable",
           "package": "open-witness",
@@ -864,6 +937,7 @@
         "index": {
           "description": "This is an approximate re-implementation of Data.Typeable using open witnesses",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "Typeable",
           "package": "open-witness",
@@ -878,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents a type of kind \u003ccode\u003e*\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "TypeRep",
           "package": "open-witness",
@@ -887,6 +962,7 @@
         "index": {
           "description": "represents type of kind",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "TypeRep",
           "package": "open-witness",
@@ -901,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents a type of kind \u003ccode\u003e* -\u003e *\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "TypeRep1",
           "package": "open-witness",
@@ -910,6 +987,7 @@
         "index": {
           "description": "represents type of kind",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "TypeRep1",
           "package": "open-witness",
@@ -924,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents a type of kind \u003ccode\u003e* -\u003e * -\u003e *\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "TypeRep2",
           "package": "open-witness",
@@ -933,6 +1012,7 @@
         "index": {
           "description": "represents type of kind",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "TypeRep2",
           "package": "open-witness",
@@ -947,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypes of kind \u003ccode\u003e*\u003c/code\u003e with a representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "Typeable",
           "package": "open-witness",
@@ -956,6 +1037,7 @@
         "index": {
           "description": "types of kind with representation",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "Typeable",
           "package": "open-witness",
@@ -970,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypes of kind \u003ccode\u003e* -\u003e *\u003c/code\u003e with a representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "Typeable1",
           "package": "open-witness",
@@ -979,6 +1062,7 @@
         "index": {
           "description": "types of kind with representation",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "Typeable1",
           "package": "open-witness",
@@ -993,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypes of kind \u003ccode\u003e* -\u003e * -\u003e *\u003c/code\u003e with a representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "Typeable2",
           "package": "open-witness",
@@ -1002,6 +1087,7 @@
         "index": {
           "description": "types of kind with representation",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "Typeable2",
           "package": "open-witness",
@@ -1015,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "cast",
           "package": "open-witness",
@@ -1024,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "cast",
           "normalized": "a-\u003eMaybe b",
@@ -1039,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven representations of \u003ccode\u003ea -\u003e b\u003c/code\u003e and \u003ccode\u003ea\u003c/code\u003e, make a representation of \u003ccode\u003eb\u003c/code\u003e (otherwise not)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "funResultTy",
           "package": "open-witness",
@@ -1049,6 +1138,7 @@
         "index": {
           "description": "given representations of and make representation of otherwise not",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "funResultTy",
           "normalized": "TypeRep-\u003eTypeRep-\u003eMaybe TypeRep",
@@ -1064,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "gcast",
           "package": "open-witness",
@@ -1073,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "gcast",
           "normalized": "a b-\u003eMaybe(a c)",
@@ -1087,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "mkAppTy",
           "package": "open-witness",
@@ -1096,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "mkAppTy",
           "normalized": "TypeRep-\u003eTypeRep-\u003eTypeRep",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "mkAppTy1",
           "package": "open-witness",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "mkAppTy1",
           "normalized": "TypeRep-\u003eTypeRep-\u003eTypeRep",
@@ -1136,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven representations of \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e, make a representation of \u003ccode\u003ea -\u003e b\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "mkFunTy",
           "package": "open-witness",
@@ -1146,6 +1243,7 @@
         "index": {
           "description": "given representations of and make representation of",
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "mkFunTy",
           "normalized": "TypeRep-\u003eTypeRep-\u003eTypeRep",
@@ -1161,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "rep",
           "package": "open-witness",
@@ -1170,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "rep",
           "package": "open-witness",
@@ -1182,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "rep1",
           "package": "open-witness",
@@ -1191,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "rep1",
           "package": "open-witness",
@@ -1203,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "rep2",
           "package": "open-witness",
@@ -1212,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "rep2",
           "package": "open-witness",
@@ -1224,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "typeOf",
           "package": "open-witness",
@@ -1233,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "typeOf",
           "normalized": "a-\u003eTypeRep",
@@ -1248,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "typeOf1",
           "package": "open-witness",
@@ -1257,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "typeOf1",
           "normalized": "a b-\u003eTypeRep",
@@ -1272,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness.Typeable",
           "name": "typeOf2",
           "package": "open-witness",
@@ -1281,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness Typeable",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness.Typeable",
           "name": "typeOf2",
           "normalized": "a b c-\u003eTypeRep",
@@ -1296,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "OpenWitness",
           "package": "open-witness",
@@ -1304,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "OpenWitness",
           "package": "open-witness",
@@ -1318,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eOpenWitness\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "IOWitness",
           "package": "open-witness",
@@ -1327,6 +1440,7 @@
         "index": {
           "description": "An OpenWitness for IO",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "IOWitness",
           "package": "open-witness",
@@ -1341,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA runnable monad in which \u003ccode\u003e\u003ca\u003eOpenWitness\u003c/a\u003e\u003c/code\u003e values can be generated.\n The \u003ccode\u003es\u003c/code\u003e parameter plays the same role as it does in \u003ccode\u003eST\u003c/code\u003e, preventing \u003ccode\u003e\u003ca\u003eOpenWitness\u003c/a\u003e\u003c/code\u003e values from one run being used in another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "OW",
           "package": "open-witness",
@@ -1350,6 +1465,7 @@
         "index": {
           "description": "runnable monad in which OpenWitness values can be generated The parameter plays the same role as it does in ST preventing OpenWitness values from one run being used in another",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "OW",
           "package": "open-witness",
@@ -1364,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA witness type that can witness to any type.\n But values cannot be constructed; they can only be generated in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e and certain other monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "OpenWitness",
           "package": "open-witness",
@@ -1373,6 +1490,7 @@
         "index": {
           "description": "witness type that can witness to any type But values cannot be constructed they can only be generated in IO and certain other monads",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "OpenWitness",
           "package": "open-witness",
@@ -1387,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003es\u003c/code\u003e type for running \u003ccode\u003e\u003ca\u003eOW\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "RealWorld",
           "package": "open-witness",
@@ -1396,6 +1515,7 @@
         "index": {
           "description": "The type for running OW in IO",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "RealWorld",
           "package": "open-witness",
@@ -1410,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new \u003ccode\u003e\u003ca\u003eIOWitness\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "newIOWitness",
           "package": "open-witness",
@@ -1420,6 +1541,7 @@
         "index": {
           "description": "Generate new IOWitness in IO",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "newIOWitness",
           "package": "open-witness",
@@ -1434,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new \u003ccode\u003e\u003ca\u003eOpenWitness\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eOW\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "newOpenWitnessOW",
           "package": "open-witness",
@@ -1444,6 +1567,7 @@
         "index": {
           "description": "Generate new OpenWitness in OW",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "newOpenWitnessOW",
           "package": "open-witness",
@@ -1458,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eOW\u003c/a\u003e\u003c/code\u003e computation in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "owToIO",
           "package": "open-witness",
@@ -1468,6 +1593,7 @@
         "index": {
           "description": "Run an OW computation in IO",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "owToIO",
           "normalized": "OW RealWorld a-\u003eIO a",
@@ -1484,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eOW\u003c/a\u003e\u003c/code\u003e computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "runOW",
           "package": "open-witness",
@@ -1494,6 +1621,7 @@
         "index": {
           "description": "Run an OW computation",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "runOW",
           "normalized": "a b(a c OW d e)-\u003ee",
@@ -1510,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the absence of open witness declarations, an unsafe hack to generate \u003ccode\u003e\u003ca\u003eIOWitness\u003c/a\u003e\u003c/code\u003e values.\n This is safe if you use a different string each time (and \u003ccode\u003e\u003ca\u003ehashString\u003c/a\u003e\u003c/code\u003e doesn't collide), and if \u003ccode\u003ea\u003c/code\u003e is a single type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:54 UTC 2014",
           "module": "Data.OpenWitness",
           "name": "unsafeIOWitnessFromString",
           "package": "open-witness",
@@ -1520,6 +1649,7 @@
         "index": {
           "description": "In the absence of open witness declarations an unsafe hack to generate IOWitness values This is safe if you use different string each time and hashString doesn collide and if is single type",
           "hierarchy": "Data OpenWitness",
+          "indexed": "2014-03-11T19:31:54",
           "module": "Data.OpenWitness",
           "name": "unsafeIOWitnessFromString",
           "normalized": "String-\u003eIOWitness a",

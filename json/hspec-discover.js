@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec-discover"
+        "phrase": "hspec-discover",
+        "type": "phrase"
       },
       "type": "context"
     }

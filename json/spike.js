@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spike"
+        "phrase": "spike",
+        "type": "phrase"
       },
       "type": "context"
     }

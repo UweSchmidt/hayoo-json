@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "backdropper"
+        "phrase": "backdropper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cul\u003e\u003cli\u003e rotating_wallpaper\n\u003c/li\u003e\u003c/ul\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAuthor\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Yann Golanski.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eMaintainer\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Yann Golanski \u003ca\u003eyann@kierun.org\u003c/a\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eDescription\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Wallpapers/Backdrop changer back end.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003e(c)2008 Yann Golanski, GPLv3 or above.\n\u003c/p\u003e\u003cp\u003eThis program is free software: you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation, either version 3 of the License, or\n  (at your option) any later version.\n\u003c/p\u003e\u003cp\u003eThis program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\u003c/p\u003e\u003cp\u003eYou should have received a copy of the GNU General Public License\n  along with this program.  If not, see \u003ca\u003ehttp://www.gnu.org/licenses/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:16:07 UTC 2014",
           "module": "Rotating_backdrop_logic",
           "name": "Rotating_backdrop_logic",
           "package": "backdropper",
@@ -28,6 +29,7 @@
         "index": {
           "description": "rotating wallpaper Author Yann Golanski Maintainer Yann Golanski yann@kierun.org Description Wallpapers Backdrop changer back end Yann Golanski GPLv3 or above This program is free software you can redistribute it and or modify it under the terms of the GNU General Public License as published by the Free Software Foundation either version of the License or at your option any later version This program is distributed in the hope that it will be useful but WITHOUT ANY WARRANTY without even the implied warranty of MERCHANTABILITY or FITNESS FOR PARTICULAR PURPOSE See the GNU General Public License for more details You should have received copy of the GNU General Public License along with this program If not see http www.gnu.org licenses",
           "hierarchy": "Rotating_backdrop_logic",
+          "indexed": "2014-03-11T17:16:07",
           "module": "Rotating_backdrop_logic",
           "name": "Rotating_backdrop_logic",
           "package": "backdropper",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:07 UTC 2014",
           "module": "Rotating_backdrop_logic",
           "name": "breaks",
           "package": "backdropper",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Rotating_backdrop_logic",
+          "indexed": "2014-03-11T17:16:07",
           "module": "Rotating_backdrop_logic",
           "name": "breaks",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the desktop image using qiv: http:\u003cem/\u003ewww.klografx.net\u003cem\u003eqiv\u003c/em\u003eindex2.html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:07 UTC 2014",
           "module": "Rotating_backdrop_logic",
           "name": "changeDesktop",
           "package": "backdropper",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Changes the desktop image using qiv http www.klografx.net qiv index2.html",
           "hierarchy": "Rotating_backdrop_logic",
+          "indexed": "2014-03-11T17:16:07",
           "module": "Rotating_backdrop_logic",
           "name": "changeDesktop",
           "normalized": "String-\u003eIO ExitCode",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a random number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:07 UTC 2014",
           "module": "Rotating_backdrop_logic",
           "name": "getRandomNumber",
           "package": "backdropper",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Gets random number",
           "hierarchy": "Rotating_backdrop_logic",
+          "indexed": "2014-03-11T17:16:07",
           "module": "Rotating_backdrop_logic",
           "name": "getRandomNumber",
           "normalized": "Int-\u003eIO Int",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterates over all the images, picking a random one each the time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:07 UTC 2014",
           "module": "Rotating_backdrop_logic",
           "name": "iterateImages",
           "package": "backdropper",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Iterates over all the images picking random one each the time",
           "hierarchy": "Rotating_backdrop_logic",
+          "indexed": "2014-03-11T17:16:07",
           "module": "Rotating_backdrop_logic",
           "name": "iterateImages",
           "normalized": "[String]-\u003eInt-\u003eIO()",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads the list from the master file and starts iterating over it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:07 UTC 2014",
           "module": "Rotating_backdrop_logic",
           "name": "mainLoop",
           "package": "backdropper",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Reads the list from the master file and starts iterating over it",
           "hierarchy": "Rotating_backdrop_logic",
+          "indexed": "2014-03-11T17:16:07",
           "module": "Rotating_backdrop_logic",
           "name": "mainLoop",
           "normalized": "FilePath-\u003eInt-\u003eIO a",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a file and return a list those elements are lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:07 UTC 2014",
           "module": "Rotating_backdrop_logic",
           "name": "parseImageFile",
           "package": "backdropper",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Reads file and return list those elements are lines",
           "hierarchy": "Rotating_backdrop_logic",
+          "indexed": "2014-03-11T17:16:07",
           "module": "Rotating_backdrop_logic",
           "name": "parseImageFile",
           "normalized": "FilePath-\u003eIO[String]",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves an element from a list: Problem 20, 99 Haskell problems. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:07 UTC 2014",
           "module": "Rotating_backdrop_logic",
           "name": "removeElement",
           "package": "backdropper",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Removes an element from list Problem Haskell problems",
           "hierarchy": "Rotating_backdrop_logic",
+          "indexed": "2014-03-11T17:16:07",
           "module": "Rotating_backdrop_logic",
           "name": "removeElement",
           "normalized": "Int-\u003e[a]-\u003e(a,[a])",

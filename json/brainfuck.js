@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "brainfuck"
+        "phrase": "brainfuck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck.Examples",
           "name": "Examples",
           "package": "brainfuck",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck Examples",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck.Examples",
           "name": "Examples",
           "package": "brainfuck",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck.Examples",
           "name": "bottles",
           "package": "brainfuck",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck Examples",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck.Examples",
           "name": "bottles",
           "package": "brainfuck",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck.Examples",
           "name": "helloWorld",
           "package": "brainfuck",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck Examples",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck.Examples",
           "name": "helloWorld",
           "package": "brainfuck",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck.Examples",
           "name": "helloum",
           "package": "brainfuck",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck Examples",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck.Examples",
           "name": "helloum",
           "package": "brainfuck",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck.Examples",
           "name": "sort",
           "package": "brainfuck",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck Examples",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck.Examples",
           "name": "sort",
           "package": "brainfuck",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck.Examples",
           "name": "toupper",
           "package": "brainfuck",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck Examples",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck.Examples",
           "name": "toupper",
           "package": "brainfuck",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "Brainfuck",
           "package": "brainfuck",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "Brainfuck",
           "package": "brainfuck",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "BF",
           "package": "brainfuck",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "BF",
           "package": "brainfuck",
@@ -188,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe complete BF language:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003e    Increment the pointer.\n* \u003c    Decrement the pointer.\n* +     Increment the byte at the pointer.\n* -    Decrement the byte at the pointer.\n* .     Output the byte at the pointer.\n* ,     Input a byte and store it in the byte at the pointer.\n* [     Jump forward past the matching ] if the byte at the pointer is zero.\n* ]     Jump backward to the matching [ unless the byte at the pointer is zero.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "Command",
           "package": "brainfuck",
@@ -197,6 +214,7 @@
         "index": {
           "description": "The complete BF language Increment the pointer Decrement the pointer Increment the byte at the pointer Decrement the byte at the pointer Output the byte at the pointer Input byte and store it in the byte at the pointer Jump forward past the matching if the byte at the pointer is zero Jump backward to the matching unless the byte at the pointer is zero",
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "Command",
           "package": "brainfuck",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "Core",
           "package": "brainfuck",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "Core",
           "package": "brainfuck",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "CorePtr",
           "package": "brainfuck",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "CorePtr",
           "package": "brainfuck",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "InstPtr",
           "package": "brainfuck",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "InstPtr",
           "package": "brainfuck",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "BF",
           "package": "brainfuck",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "BF",
           "package": "brainfuck",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "DecByte",
           "package": "brainfuck",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "DecByte",
           "package": "brainfuck",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "DecPtr",
           "package": "brainfuck",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "DecPtr",
           "package": "brainfuck",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "Halt",
           "package": "brainfuck",
@@ -348,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "Halt",
           "package": "brainfuck",
@@ -361,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "Ignored",
           "package": "brainfuck",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "Ignored",
           "package": "brainfuck",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "IncByte",
           "package": "brainfuck",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "IncByte",
           "package": "brainfuck",
@@ -406,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement by a set amount\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "IncByteBy",
           "package": "brainfuck",
@@ -416,6 +453,7 @@
         "index": {
           "description": "Increment by set amount",
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "IncByteBy",
           "package": "brainfuck",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "IncPtr",
           "package": "brainfuck",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "IncPtr",
           "package": "brainfuck",
@@ -452,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement pointer by set amount\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "IncPtrBy",
           "package": "brainfuck",
@@ -462,6 +503,7 @@
         "index": {
           "description": "Increment pointer by set amount",
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "IncPtrBy",
           "package": "brainfuck",
@@ -476,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enesting level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "JmpBackward",
           "package": "brainfuck",
@@ -486,6 +529,7 @@
         "index": {
           "description": "nesting level",
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "JmpBackward",
           "package": "brainfuck",
@@ -500,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enesting level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "JmpForward",
           "package": "brainfuck",
@@ -510,6 +555,7 @@
         "index": {
           "description": "nesting level",
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "JmpForward",
           "package": "brainfuck",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "OutputByte",
           "package": "brainfuck",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "OutputByte",
           "package": "brainfuck",
@@ -546,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the instruction ptr to a specific value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "SetIpTo",
           "package": "brainfuck",
@@ -556,6 +605,7 @@
         "index": {
           "description": "Sets the instruction ptr to specific value",
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "SetIpTo",
           "package": "brainfuck",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "chrToWord8",
           "package": "brainfuck",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "chrToWord8",
           "normalized": "Char-\u003eWord",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "core",
           "package": "brainfuck",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "core",
           "package": "brainfuck",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "debug",
           "package": "brainfuck",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "debug",
           "package": "brainfuck",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "decCP",
           "package": "brainfuck",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "decCP",
           "normalized": "CorePtr-\u003eCorePtr",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "decode",
           "package": "brainfuck",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "decode",
           "normalized": "Char-\u003eState Int Command",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "doCommand",
           "package": "brainfuck",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "doCommand",
           "normalized": "Array Int Command-\u003eBF-\u003eIO BF",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "execute",
           "package": "brainfuck",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "execute",
           "normalized": "Array Int Command-\u003eInt-\u003eBF-\u003eIO()",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "incCP",
           "package": "brainfuck",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "incCP",
           "normalized": "CorePtr-\u003eCorePtr",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "incIP",
           "package": "brainfuck",
@@ -762,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "incIP",
           "normalized": "InstPtr-\u003eInstPtr",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "loadProgram",
           "package": "brainfuck",
@@ -786,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "loadProgram",
           "normalized": "String-\u003eArray Int Command",
@@ -801,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "nextJmp",
           "package": "brainfuck",
@@ -810,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "nextJmp",
           "normalized": "Array Int Command-\u003eInstPtr-\u003e(InstPtr-\u003eInstPtr)-\u003eCommand-\u003eInstPtr",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "optimize",
           "package": "brainfuck",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "optimize",
           "normalized": "[Command]-\u003eArray Int Command",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:21 UTC 2014",
           "module": "Language.Brainfuck",
           "name": "word8ToChr",
           "package": "brainfuck",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Language Brainfuck",
+          "indexed": "2014-03-11T17:25:21",
           "module": "Language.Brainfuck",
           "name": "word8ToChr",
           "normalized": "Word-\u003eChar",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "serialport"
+        "phrase": "serialport",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the serial port interface.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.ByteString.Char8 as B\n import System.Hardware.Serialport\n let port = \"COM3\"          -- Windows\n let port = \"/dev/ttyUSB0\"  -- Linux\n s \u003c- openSerial port defaultSerialSettings { commSpeed = CS2400 }\n send s $ B.pack \"AT\\r\"\n recv s 10 \u003e\u003e= print\n closeSerial s\n\u003c/pre\u003e\u003cp\u003eOr use the experimental interface with standard handles:\n\u003c/p\u003e\u003cpre\u003e import System.IO\n import System.Hardware.Serialport\n let port = \"COM3\"           -- Windows\n let port = \"/dev/ttyUSB0\"   -- Linux\n h \u003c- hOpenSerial port defaultSerialSettings\n hPutStr h \"AT\\r\"\n hGetLine h \u003e\u003e= print\n hClose h\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "Serialport",
           "package": "serialport",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the serial port interface import qualified Data.ByteString.Char8 as import System.Hardware.Serialport let port COM3 Windows let port dev ttyUSB0 Linux openSerial port defaultSerialSettings commSpeed CS2400 send B.pack AT recv print closeSerial Or use the experimental interface with standard handles import System.IO import System.Hardware.Serialport let port COM3 Windows let port dev ttyUSB0 Linux hOpenSerial port defaultSerialSettings hPutStr AT hGetLine print hClose",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "Serialport",
           "package": "serialport",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported baudrates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CommSpeed",
           "package": "serialport",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Supported baudrates",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CommSpeed",
           "package": "serialport",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "FlowControl",
           "package": "serialport",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "FlowControl",
           "package": "serialport",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "Parity",
           "package": "serialport",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "Parity",
           "package": "serialport",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "SerialPort",
           "package": "serialport",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "SerialPort",
           "package": "serialport",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "SerialPortSettings",
           "package": "serialport",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "SerialPortSettings",
           "package": "serialport",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "StopBits",
           "package": "serialport",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "StopBits",
           "package": "serialport",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS110",
           "package": "serialport",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS110",
           "package": "serialport",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS115200",
           "package": "serialport",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS115200",
           "package": "serialport",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS1200",
           "package": "serialport",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS1200",
           "package": "serialport",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS19200",
           "package": "serialport",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS19200",
           "package": "serialport",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS2400",
           "package": "serialport",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS2400",
           "package": "serialport",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS300",
           "package": "serialport",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS300",
           "package": "serialport",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS38400",
           "package": "serialport",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS38400",
           "package": "serialport",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS4800",
           "package": "serialport",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS4800",
           "package": "serialport",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS57600",
           "package": "serialport",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS57600",
           "package": "serialport",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS600",
           "package": "serialport",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS600",
           "package": "serialport",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "CS9600",
           "package": "serialport",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "CS9600",
           "package": "serialport",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "Even",
           "package": "serialport",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "Even",
           "package": "serialport",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "NoFlowControl",
           "package": "serialport",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "NoFlowControl",
           "package": "serialport",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "NoParity",
           "package": "serialport",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "NoParity",
           "package": "serialport",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "Odd",
           "package": "serialport",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "Odd",
           "package": "serialport",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "One",
           "package": "serialport",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "One",
           "package": "serialport",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "SerialPortSettings",
           "package": "serialport",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "SerialPortSettings",
           "package": "serialport",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "Software",
           "package": "serialport",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "Software",
           "package": "serialport",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "Two",
           "package": "serialport",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "Two",
           "package": "serialport",
@@ -588,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bits in a word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "bitsPerWord",
           "package": "serialport",
@@ -598,6 +651,7 @@
         "index": {
           "description": "Number of bits in word",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "bitsPerWord",
           "package": "serialport",
@@ -612,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the serial port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "closeSerial",
           "package": "serialport",
@@ -622,6 +677,7 @@
         "index": {
           "description": "Close the serial port",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "closeSerial",
           "normalized": "SerialPort-\u003eIO()",
@@ -638,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebaudrate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "commSpeed",
           "package": "serialport",
@@ -648,6 +705,7 @@
         "index": {
           "description": "baudrate",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "commSpeed",
           "package": "serialport",
@@ -662,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost commonly used configuration\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 9600 baud\n\u003c/li\u003e\u003cli\u003e 8 data bits\n\u003c/li\u003e\u003cli\u003e 1 stop bit\n\u003c/li\u003e\u003cli\u003e no parity\n\u003c/li\u003e\u003cli\u003e no flow control\n\u003c/li\u003e\u003cli\u003e 0.1 second receive timeout\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "defaultSerialSettings",
           "package": "serialport",
@@ -672,6 +731,7 @@
         "index": {
           "description": "Most commonly used configuration baud data bits stop bit no parity no flow control second receive timeout",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "defaultSerialSettings",
           "package": "serialport",
@@ -686,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of flowcontrol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "flowControl",
           "package": "serialport",
@@ -696,6 +757,7 @@
         "index": {
           "description": "Type of flowcontrol",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "flowControl",
           "package": "serialport",
@@ -710,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush buffers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "flush",
           "package": "serialport",
@@ -720,6 +783,7 @@
         "index": {
           "description": "Flush buffers",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "flush",
           "normalized": "SerialPort-\u003eIO()",
@@ -735,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet configuration from serial port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "getSerialSettings",
           "package": "serialport",
@@ -745,6 +810,7 @@
         "index": {
           "description": "Get configuration from serial port",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "getSerialSettings",
           "normalized": "SerialPort-\u003eSerialPortSettings",
@@ -761,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen and configure a serial port returning a standard Handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "hOpenSerial",
           "package": "serialport",
@@ -771,6 +838,7 @@
         "index": {
           "description": "Open and configure serial port returning standard Handle",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "hOpenSerial",
           "normalized": "FilePath-\u003eSerialPortSettings-\u003eIO Handle",
@@ -787,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen and configure a serial port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "openSerial",
           "package": "serialport",
@@ -796,6 +865,7 @@
         "index": {
           "description": "Open and configure serial port",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "openSerial",
           "normalized": "FilePath-\u003eSerialPortSettings-\u003eIO SerialPort",
@@ -812,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of parity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "parity",
           "package": "serialport",
@@ -822,6 +893,7 @@
         "index": {
           "description": "Type of parity",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "parity",
           "package": "serialport",
@@ -835,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive bytes, given the maximum number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "recv",
           "package": "serialport",
@@ -845,6 +918,7 @@
         "index": {
           "description": "Receive bytes given the maximum number",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "recv",
           "normalized": "SerialPort-\u003eInt-\u003eIO ByteString",
@@ -860,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "send",
           "package": "serialport",
@@ -869,6 +944,7 @@
         "index": {
           "description": "Send bytes",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "send",
           "normalized": "SerialPort-\u003eByteString-\u003eIO Int",
@@ -884,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Data Terminal Ready level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "setDTR",
           "package": "serialport",
@@ -894,6 +971,7 @@
         "index": {
           "description": "Set the Data Terminal Ready level",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "setDTR",
           "normalized": "SerialPort-\u003eBool-\u003eIO()",
@@ -910,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Ready to send level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "setRTS",
           "package": "serialport",
@@ -920,6 +999,7 @@
         "index": {
           "description": "Set the Ready to send level",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "setRTS",
           "normalized": "SerialPort-\u003eBool-\u003eIO()",
@@ -936,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfigure the serial port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "setSerialSettings",
           "package": "serialport",
@@ -945,6 +1026,7 @@
         "index": {
           "description": "Configure the serial port",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "setSerialSettings",
           "normalized": "SerialPort-\u003eSerialPortSettings-\u003eIO SerialPort",
@@ -961,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of stop bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "stopb",
           "package": "serialport",
@@ -971,6 +1054,7 @@
         "index": {
           "description": "Number of stop bits",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "stopb",
           "package": "serialport",
@@ -984,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimeout when receiving a char in tenth of seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "timeout",
           "package": "serialport",
@@ -994,6 +1079,7 @@
         "index": {
           "description": "Timeout when receiving char in tenth of seconds",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "timeout",
           "package": "serialport",
@@ -1007,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafer device function, so you don't forget to close the device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:02 UTC 2014",
           "module": "System.Hardware.Serialport",
           "name": "withSerial",
           "package": "serialport",
@@ -1017,6 +1104,7 @@
         "index": {
           "description": "Safer device function so you don forget to close the device",
           "hierarchy": "System Hardware Serialport",
+          "indexed": "2014-03-11T20:00:02",
           "module": "System.Hardware.Serialport",
           "name": "withSerial",
           "normalized": "String-\u003eSerialPortSettings-\u003e(SerialPort-\u003eIO a)-\u003eIO a",

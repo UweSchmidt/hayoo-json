@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fswatcher"
+        "phrase": "fswatcher",
+        "type": "phrase"
       },
       "type": "context"
     }

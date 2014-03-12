@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-pgms"
+        "phrase": "hs-pgms",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is part of Haskell PGMS.\n\u003c/p\u003e\u003cp\u003eIt provides types and a monad for implementing and running Minesweeper\n strategies. It's the core of PGMS.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Mine",
           "package": "hs-pgms",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is part of Haskell PGMS It provides types and monad for implementing and running Minesweeper strategies It the core of PGMS",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Mine",
           "package": "hs-pgms",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete Minesweeper board, including hidden state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Board",
           "package": "hs-pgms",
@@ -51,6 +54,7 @@
         "index": {
           "description": "complete Minesweeper board including hidden state",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Board",
           "package": "hs-pgms",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cell on a Minesweeper board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Cell",
           "package": "hs-pgms",
@@ -74,6 +79,7 @@
         "index": {
           "description": "cell on Minesweeper board",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Cell",
           "package": "hs-pgms",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of a mine sweeper configuration (or difficulty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Config",
           "package": "hs-pgms",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Description of mine sweeper configuration or difficulty",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Config",
           "package": "hs-pgms",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUI interface\n\u003c/p\u003e\u003cp\u003eThese are actions for the \u003ccode\u003e\u003ca\u003eMonadPrompt\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eStart\u003c/a\u003e\u003c/code\u003e  - A new game just started.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e - A move was made, and the indicated cell changed\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eTrace\u003c/a\u003e\u003c/code\u003e  - The strategy provided a trace message.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Play",
           "package": "hs-pgms",
@@ -120,6 +129,7 @@
         "index": {
           "description": "UI interface These are actions for the MonadPrompt monad Start new game just started Update move was made and the indicated cell changed Trace The strategy provided trace message",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Play",
           "package": "hs-pgms",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point in 2D space with integer coordinates.\n\u003c/p\u003e\u003cp\u003eUsed to adress cells on a Minesweeper board, and also to describe board\n sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Pos",
           "package": "hs-pgms",
@@ -143,6 +154,7 @@
         "index": {
           "description": "point in space with integer coordinates Used to adress cells on Minesweeper board and also to describe board sizes",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Pos",
           "package": "hs-pgms",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA game result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Result",
           "package": "hs-pgms",
@@ -166,6 +179,7 @@
         "index": {
           "description": "game result",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Result",
           "package": "hs-pgms",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strategy with some meta-information.\n\u003c/p\u003e\u003cp\u003eIt's advisable to define your own strategies in terms of \u003ccode\u003e\u003ca\u003edefaultStrategy\u003c/a\u003e\u003c/code\u003e\n so that future additions to that record don't break your code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Strategy",
           "package": "hs-pgms",
@@ -189,6 +204,7 @@
         "index": {
           "description": "strategy with some meta-information It advisable to define your own strategies in terms of defaultStrategy so that future additions to that record don break your code",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Strategy",
           "package": "hs-pgms",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad for implementing Minesweeper strategies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "StrategyM",
           "package": "hs-pgms",
@@ -212,6 +229,7 @@
         "index": {
           "description": "The monad for implementing Minesweeper strategies",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "StrategyM",
           "package": "hs-pgms",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA view of the Minesweeper board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "View",
           "package": "hs-pgms",
@@ -235,6 +254,7 @@
         "index": {
           "description": "view of the Minesweeper board",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "View",
           "package": "hs-pgms",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Board",
           "package": "hs-pgms",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Board",
           "package": "hs-pgms",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Config",
           "package": "hs-pgms",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Config",
           "package": "hs-pgms",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoops, you stepped on a mine here!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Exploded",
           "package": "hs-pgms",
@@ -303,6 +328,7 @@
         "index": {
           "description": "oops you stepped on mine here",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Exploded",
           "package": "hs-pgms",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean exposed cell with a count of neighbours\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Exposed",
           "package": "hs-pgms",
@@ -327,6 +354,7 @@
         "index": {
           "description": "an exposed cell with count of neighbours",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Exposed",
           "package": "hs-pgms",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea hidden cell\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Hidden",
           "package": "hs-pgms",
@@ -351,6 +380,7 @@
         "index": {
           "description": "hidden cell",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Hidden",
           "package": "hs-pgms",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe game was lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Lost",
           "package": "hs-pgms",
@@ -375,6 +406,7 @@
         "index": {
           "description": "The game was lost",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Lost",
           "package": "hs-pgms",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea marked cell\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Marked",
           "package": "hs-pgms",
@@ -399,6 +432,7 @@
         "index": {
           "description": "marked cell",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Marked",
           "package": "hs-pgms",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Pos",
           "package": "hs-pgms",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Pos",
           "package": "hs-pgms",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Start",
           "package": "hs-pgms",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Start",
           "normalized": "Board-\u003ePlay()",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Strategy",
           "package": "hs-pgms",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Strategy",
           "package": "hs-pgms",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Trace",
           "package": "hs-pgms",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Trace",
           "normalized": "String-\u003eBoard-\u003ePlay()",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy implementation finished\n   before the game was over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Unfinished",
           "package": "hs-pgms",
@@ -515,6 +558,7 @@
         "index": {
           "description": "The strategy implementation finished before the game was over",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Unfinished",
           "package": "hs-pgms",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Update",
           "package": "hs-pgms",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Update",
           "normalized": "Pos-\u003eBoard-\u003ePlay()",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe game was won.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "Won",
           "package": "hs-pgms",
@@ -563,6 +610,7 @@
         "index": {
           "description": "The game was won",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "Won",
           "package": "hs-pgms",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eboard size etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "bConfig",
           "package": "hs-pgms",
@@ -587,6 +636,7 @@
         "index": {
           "description": "board size etc",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "bConfig",
           "package": "hs-pgms",
@@ -601,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earray indicating the position of the mines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "bMines",
           "package": "hs-pgms",
@@ -611,6 +662,7 @@
         "index": {
           "description": "array indicating the position of the mines",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "bMines",
           "package": "hs-pgms",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of mines left to find\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "bTodo",
           "package": "hs-pgms",
@@ -635,6 +688,7 @@
         "index": {
           "description": "number of mines left to find",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "bTodo",
           "package": "hs-pgms",
@@ -649,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "bView",
           "package": "hs-pgms",
@@ -659,6 +714,7 @@
         "index": {
           "description": "current view",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "bView",
           "package": "hs-pgms",
@@ -673,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault config: 9x9 with 10 mines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "beginner",
           "package": "hs-pgms",
@@ -683,6 +740,7 @@
         "index": {
           "description": "Default config x9 with mines",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "beginner",
           "package": "hs-pgms",
@@ -696,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number of mines placed on the board\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "cMines",
           "package": "hs-pgms",
@@ -706,6 +765,7 @@
         "index": {
           "description": "the number of mines placed on the board",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "cMines",
           "package": "hs-pgms",
@@ -720,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe board size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "cSize",
           "package": "hs-pgms",
@@ -730,6 +791,7 @@
         "index": {
           "description": "the board size",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "cSize",
           "package": "hs-pgms",
@@ -744,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault values for \u003ccode\u003e\u003ca\u003eStrategy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e myStrategy :: Strategy\n myStrategy = defaultStrategy {\n     sName = \"Hiho\",\n     sRun  = \\_ -\u003e return \"I don't want to play anymore, see you!\"\n }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "defaultStrategy",
           "package": "hs-pgms",
@@ -754,6 +817,7 @@
         "index": {
           "description": "Default values for Strategy myStrategy Strategy myStrategy defaultStrategy sName Hiho sRun return don want to play anymore see you",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "defaultStrategy",
           "package": "hs-pgms",
@@ -768,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault config: 30x16 with 99 mines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "expert",
           "package": "hs-pgms",
@@ -778,6 +843,7 @@
         "index": {
           "description": "Default config x16 with mines",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "expert",
           "package": "hs-pgms",
@@ -791,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current board's config.\n\u003c/p\u003e\u003cp\u003eNote: the config will never change throughout a game.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "getConfig",
           "package": "hs-pgms",
@@ -801,6 +868,7 @@
         "index": {
           "description": "Get the current board config Note the config will never change throughout game",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "getConfig",
           "package": "hs-pgms",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a view of the current board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "getView",
           "package": "hs-pgms",
@@ -825,6 +894,7 @@
         "index": {
           "description": "Get view of the current board",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "getView",
           "package": "hs-pgms",
@@ -839,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault config: 16x16 with 40 mines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "intermediate",
           "package": "hs-pgms",
@@ -849,6 +920,7 @@
         "index": {
           "description": "Default config x16 with mines",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "intermediate",
           "package": "hs-pgms",
@@ -862,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark a cell.\n\u003c/p\u003e\u003cp\u003eNote: Marking a cell without a mine beneath will lose the game. This is\n a deviation from standard Minesweeper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "mark",
           "package": "hs-pgms",
@@ -872,6 +945,7 @@
         "index": {
           "description": "Mark cell Note Marking cell without mine beneath will lose the game This is deviation from standard Minesweeper",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "mark",
           "normalized": "Pos-\u003eStrategyM()",
@@ -887,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReveal a cell. Returns the number of mines in the neighbourhood.\n\u003c/p\u003e\u003cp\u003eNote: Revealing a cell with a mine beneath will lose the game.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "move",
           "package": "hs-pgms",
@@ -897,6 +972,7 @@
         "index": {
           "description": "Reveal cell Returns the number of mines in the neighbourhood Note Revealing cell with mine beneath will lose the game",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "move",
           "normalized": "Pos-\u003eStrategyM Int",
@@ -912,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emove\u003c/a\u003e\u003c/code\u003e, but with no return value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "move_",
           "package": "hs-pgms",
@@ -922,6 +999,7 @@
         "index": {
           "description": "Like move but with no return value",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "move_",
           "normalized": "Pos-\u003eStrategyM()",
@@ -937,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the neighbouring cells of a given cell.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eConfig\u003c/a\u003e\u003c/code\u003e parameter is used to find the boundaries of the board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "neighbours",
           "package": "hs-pgms",
@@ -947,6 +1026,7 @@
         "index": {
           "description": "Find the neighbouring cells of given cell The Config parameter is used to find the boundaries of the board",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "neighbours",
           "normalized": "Config-\u003ePos-\u003e[Pos]",
@@ -961,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "pX",
           "package": "hs-pgms",
@@ -970,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "pX",
           "package": "hs-pgms",
@@ -982,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "pY",
           "package": "hs-pgms",
@@ -991,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "pY",
           "package": "hs-pgms",
@@ -1004,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure version of \u003ccode\u003e\u003ca\u003eplayGameP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "playGame",
           "package": "hs-pgms",
@@ -1014,6 +1099,7 @@
         "index": {
           "description": "pure version of playGameP",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "playGame",
           "normalized": "Config-\u003eStdGen-\u003eStrategyM a-\u003e(Result a,Board)",
@@ -1030,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay a game.\n\u003c/p\u003e\u003cp\u003eThe result is a \u003ccode\u003e\u003ca\u003ePrompt\u003c/a\u003e\u003c/code\u003e action, which is suitable for implementing\n a UI that displays the game's progress.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "playGameP",
           "package": "hs-pgms",
@@ -1040,6 +1127,7 @@
         "index": {
           "description": "Play game The result is Prompt action which is suitable for implementing UI that displays the game progress",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "playGameP",
           "normalized": "Config-\u003eStdGen-\u003eStrategyM a-\u003ePrompt Play(Result a,Board)",
@@ -1056,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy's author.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "sAuthor",
           "package": "hs-pgms",
@@ -1066,6 +1155,7 @@
         "index": {
           "description": "The strategy author",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "sAuthor",
           "package": "hs-pgms",
@@ -1080,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of the strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "sDescription",
           "package": "hs-pgms",
@@ -1090,6 +1181,7 @@
         "index": {
           "description": "description of the strategy",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "sDescription",
           "package": "hs-pgms",
@@ -1104,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy's name. It should be ASCII\n   and not contain spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "sName",
           "package": "hs-pgms",
@@ -1114,6 +1207,7 @@
         "index": {
           "description": "The strategy name It should be ASCII and not contain spaces",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "sName",
           "package": "hs-pgms",
@@ -1128,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy's implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "sRun",
           "package": "hs-pgms",
@@ -1138,6 +1233,7 @@
         "index": {
           "description": "The strategy implementation",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "sRun",
           "normalized": "StdGen-\u003eStrategyM String",
@@ -1154,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a debug message.\n\u003c/p\u003e\u003cp\u003eThese will be displayed in the status line in the GUI or on the\n terminal when running the command line version in verbose mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "traceMine",
           "package": "hs-pgms",
@@ -1164,6 +1261,7 @@
         "index": {
           "description": "Provide debug message These will be displayed in the status line in the GUI or on the terminal when running the command line version in verbose mode",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "traceMine",
           "normalized": "String-\u003eStrategyM()",
@@ -1180,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck validity of a config.\n\u003c/p\u003e\u003cp\u003eThe width and height must be at least 2, and the number of mines must be\n between 1 and the number of cells on the board, minus 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:09 UTC 2014",
           "module": "Mine",
           "name": "validConfig",
           "package": "hs-pgms",
@@ -1190,6 +1289,7 @@
         "index": {
           "description": "Check validity of config The width and height must be at least and the number of mines must be between and the number of cells on the board minus",
           "hierarchy": "Mine",
+          "indexed": "2014-03-11T18:46:09",
           "module": "Mine",
           "name": "validConfig",
           "normalized": "Config-\u003eBool",

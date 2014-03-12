@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DeepArrow"
+        "phrase": "DeepArrow",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeepArrow examples.\n\u003c/p\u003e\u003cp\u003eThe types in the source code are formatted for easier reading.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "Examples",
           "package": "DeepArrow",
@@ -28,6 +29,7 @@
         "index": {
           "description": "DeepArrow examples The types in the source code are formatted for easier reading",
           "hierarchy": "Control Arrow DeepArrow Examples",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "Examples",
           "package": "DeepArrow",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a value of type \u003ccode\u003e(a -\u003e (f,b -\u003e (c,g)),e)\u003c/code\u003e, apply a function to\n just the \u003ccode\u003ec\u003c/code\u003e part and leave the rest intact.\n\u003c/p\u003e\u003cpre\u003edeep = \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eresult\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eresult\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "deep",
           "package": "DeepArrow",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Given value of type apply function to just the part and leave the rest intact deep first result second result first",
           "hierarchy": "Control Arrow DeepArrow Examples",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "deep",
           "normalized": "(a b c)-\u003e(d-\u003e(e,f-\u003e(a,g)),h)b(d-\u003e(e,f-\u003e(c,g)),h)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a way to extract a function from a \u003ccode\u003ed\u003c/code\u003e value, create a way to\n extract a function from a \u003ccode\u003e(e -\u003e (a,d), f)\u003c/code\u003e value.\n\u003c/p\u003e\u003cpre\u003eextF = \u003ccode\u003e\u003ca\u003efunFirst\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003efunResult\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003efunSecond\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "extF",
           "package": "DeepArrow",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Given way to extract function from value create way to extract function from value extF funFirst funResult funSecond",
           "hierarchy": "Control Arrow DeepArrow Examples",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "extF",
           "normalized": "(a b(c-\u003ed))-\u003e(e-\u003e(f,a),g)b(c-\u003e(e-\u003e(f,d),g))",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo make an extractor, simply apply the extractor-transformer \u003ccode\u003e\u003ca\u003eextF\u003c/a\u003e\u003c/code\u003e\n to the identity arrow.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eextFF\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eextF\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eidA\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "extFF",
           "package": "DeepArrow",
@@ -102,6 +109,7 @@
         "index": {
           "description": "To make an extractor simply apply the extractor-transformer extF to the identity arrow extFF extF idA",
           "hierarchy": "Control Arrow DeepArrow Examples",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "extFF",
           "normalized": "(a-\u003e(b,c-\u003ed),e)f(c-\u003e(a-\u003e(b,d),e))",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypically, we will have to combine function and input extractors.\n For instance, combine \u003ccode\u003e\u003ca\u003eextF\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eextI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003eextFI = \u003ccode\u003e\u003ca\u003eextF\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eextI\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "extFI",
           "package": "DeepArrow",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Typically we will have to combine function and input extractors For instance combine extF and extI extFI extF extI",
           "hierarchy": "Control Arrow DeepArrow Examples",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "extFI",
           "normalized": "(a-\u003e(b,((c,(d,a)),e)-\u003ef),g)h(d-\u003e(a-\u003e(b,((c,a),e)-\u003ef),g))",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a \u003ccode\u003eb\u003c/code\u003e input from a \u003ccode\u003e((a,(b,e)),c)\u003c/code\u003e argument.\n\u003c/p\u003e\u003cpre\u003eextI = (\u003ccode\u003e\u003ca\u003einpFirst\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003einpSecond\u003c/a\u003e\u003c/code\u003e) \u003ccode\u003e\u003ca\u003einpF\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "extI",
           "package": "DeepArrow",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Extract input from argument extI inpFirst inpSecond inpF",
           "hierarchy": "Control Arrow DeepArrow Examples",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow.Examples",
           "name": "extI",
           "normalized": "(((a,(b,c)),d)-\u003ee)f(b-\u003e((a,c),d)-\u003ee)",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Deep arrows\" as an \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003e subclass.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "DeepArrow",
           "package": "DeepArrow",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Deep arrows as an Arrow subclass",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "DeepArrow",
           "package": "DeepArrow",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrows for deep application.  Most of these methods could be defined\nusing \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e, but \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e is not definable for some types.  If your\n\u003ccode\u003e\u003ca\u003eDeepArrow\u003c/a\u003e\u003c/code\u003e instance has \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e, you might want to use these\nimplementations\n\u003c/p\u003e\u003cpre\u003e\n    \u003ccode\u003e\u003ca\u003efstA\u003c/a\u003e\u003c/code\u003e     = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e\n    \u003ccode\u003e\u003ca\u003edupA\u003c/a\u003e\u003c/code\u003e     = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\\ x -\u003e (x,x))\n    \u003ccode\u003e\u003ca\u003esndA\u003c/a\u003e\u003c/code\u003e     = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e\n    \u003ccode\u003e\u003ca\u003efunF\u003c/a\u003e\u003c/code\u003e     = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\\ (f,b) -\u003e \\ c -\u003e (f c, b))\n    \u003ccode\u003e\u003ca\u003efunS\u003c/a\u003e\u003c/code\u003e     = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\\ (a,f) -\u003e \\ c -\u003e (a, f c))\n    \u003ccode\u003e\u003ca\u003efunR\u003c/a\u003e\u003c/code\u003e     = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e\n    \u003ccode\u003e\u003ca\u003ecurryA\u003c/a\u003e\u003c/code\u003e   = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ecurry\u003c/a\u003e\u003c/code\u003e\n    \u003ccode\u003e\u003ca\u003euncurryA\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e\n    \u003ccode\u003e\u003ca\u003eswapA\u003c/a\u003e\u003c/code\u003e    = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\\ (a,b) -\u003e (b,a))\n    \u003ccode\u003e\u003ca\u003elAssocA\u003c/a\u003e\u003c/code\u003e  = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\\ (a,(b,c)) -\u003e ((a,b),c))\n    \u003ccode\u003e\u003ca\u003erAssocA\u003c/a\u003e\u003c/code\u003e  = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\\ ((a,b),c) -\u003e (a,(b,c)))\n\u003c/pre\u003e\u003cp\u003eIf your \u003ccode\u003e\u003ca\u003eDeepArrow\u003c/a\u003e\u003c/code\u003e instance \u003cem\u003edoes not\u003c/em\u003e have \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e, you'll have to come up\nwith other definitions.  In any case, I recommend the following\ndefinitions, which mirror \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003e defaults while avoiding \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e.  Be sure\nalso to define \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003epure\u003c/code\u003e to yield an error message (rather than\nping-ponging infinitely between them via the \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003e default definitions).\n\u003c/p\u003e\u003cpre\u003e\n    \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e f = \u003ccode\u003e\u003ca\u003eswapA\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eswapA\u003c/a\u003e\u003c/code\u003e\n    f \u003ccode\u003e\u003ca\u003e&&&\u003c/a\u003e\u003c/code\u003e g  = \u003ccode\u003e\u003ca\u003edupA\u003c/a\u003e\u003c/code\u003e  \u003ccode\u003e\u003ca\u003e\u003e\u003e\u003e\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e***\u003c/a\u003e\u003c/code\u003e g\n\u003c/pre\u003e\u003cp\u003eIn a few cases, there are default methods, as noted below.  The\ndefaults do not use \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "DeepArrow",
           "package": "DeepArrow",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Arrows for deep application Most of these methods could be defined using arr but arr is not definable for some types If your DeepArrow instance has arr you might want to use these implementations fstA arr fst dupA arr sndA arr snd funF arr funS arr funR arr flip curryA arr curry uncurryA arr uncurry swapA arr lAssocA arr rAssocA arr If your DeepArrow instance does not have arr you ll have to come up with other definitions In any case recommend the following definitions which mirror Arrow defaults while avoiding arr Be sure also to define arr or pure to yield an error message rather than ping-ponging infinitely between them via the Arrow default definitions second swapA first swapA dupA In few cases there are default methods as noted below The defaults do not use arr",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "DeepArrow",
           "package": "DeepArrow",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupport needed for a \u003ccode\u003e\u003ca\u003eFunA\u003c/a\u003e\u003c/code\u003e to be a \u003ccode\u003e\u003ca\u003eDeepArrow\u003c/a\u003e\u003c/code\u003e (as \u003ccode\u003e\u003ca\u003eFunAble\u003c/a\u003e\u003c/code\u003e serves\n \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "FunDble",
           "package": "DeepArrow",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Support needed for FunA to be DeepArrow as FunAble serves Arrow",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "FunDble",
           "package": "DeepArrow",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose wrapped functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "(-\u003e|)",
           "package": "DeepArrow",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Compose wrapped functions",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "(-\u003e|) -\u003e|",
           "normalized": "a(b-\u003ec)-\u003ea(c-\u003ed)-\u003ea(b-\u003ed)",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurry arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "curryA",
           "package": "DeepArrow",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Curry arrow",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "curryA",
           "normalized": "((a,b)-\u003ec)d(a-\u003eb-\u003ec)",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "curryAFun",
           "package": "DeepArrow",
@@ -296,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "curryAFun",
           "normalized": "a((b,c)-\u003ed)-\u003ea(b-\u003ec-\u003ed)",
@@ -312,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuplicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "dupA",
           "package": "DeepArrow",
@@ -322,6 +347,7 @@
         "index": {
           "description": "Duplicate",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "dupA",
           "normalized": "a b(a,a)",
@@ -336,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "dupAFun",
           "package": "DeepArrow",
@@ -345,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "dupAFun",
           "normalized": "a b-\u003ea(b,b)",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip argument order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "flipA",
           "package": "DeepArrow",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Flip argument order",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "flipA",
           "normalized": "(a-\u003eb-\u003ec)d(b-\u003ea-\u003ec)",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "fstA",
           "package": "DeepArrow",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Extract first",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "fstA",
           "normalized": "(a,b)c a",
@@ -410,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "fstAFun",
           "package": "DeepArrow",
@@ -419,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "fstAFun",
           "normalized": "a(b,c)-\u003ea b",
@@ -435,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract function from first element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funF",
           "package": "DeepArrow",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Extract function from first element",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funF",
           "normalized": "(a-\u003eb,c)d(a-\u003e(b,c))",
@@ -459,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funFFun",
           "package": "DeepArrow",
@@ -468,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funFFun",
           "normalized": "a(b-\u003ec,d)-\u003ea(b-\u003e(c,d))",
@@ -484,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function extractor into one that reaches into the first\n element of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funFirst",
           "package": "DeepArrow",
@@ -494,6 +533,7 @@
         "index": {
           "description": "Promote function extractor into one that reaches into the first element of pair",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funFirst",
           "normalized": "(a b(c-\u003ed))-\u003e(a,e)b(c-\u003e(d,e))",
@@ -510,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract function from result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funR",
           "package": "DeepArrow",
@@ -520,6 +561,7 @@
         "index": {
           "description": "Extract function from result",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funR",
           "normalized": "(a-\u003eb-\u003ec)d(b-\u003ea-\u003ec)",
@@ -534,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funRFun",
           "package": "DeepArrow",
@@ -543,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funRFun",
           "normalized": "a(b-\u003ec-\u003ed)-\u003ea(c-\u003eb-\u003ed)",
@@ -559,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function extractor into one that reaches into the result\n element of a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funResult",
           "package": "DeepArrow",
@@ -569,6 +614,7 @@
         "index": {
           "description": "Promote function extractor into one that reaches into the result element of function",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funResult",
           "normalized": "(a b(c-\u003ed))-\u003e(e-\u003ea)b(c-\u003ee-\u003ed)",
@@ -585,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract function from second element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funS",
           "package": "DeepArrow",
@@ -595,6 +642,7 @@
         "index": {
           "description": "Extract function from second element",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funS",
           "normalized": "(a,b-\u003ec)d(b-\u003e(a,c))",
@@ -609,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funSFun",
           "package": "DeepArrow",
@@ -618,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funSFun",
           "normalized": "a(b,c-\u003ed)-\u003ea(c-\u003e(b,d))",
@@ -634,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function extractor into one that reaches into the second\n element of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "funSecond",
           "package": "DeepArrow",
@@ -644,6 +695,7 @@
         "index": {
           "description": "Promote function extractor into one that reaches into the second element of pair",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "funSecond",
           "normalized": "(a b(c-\u003ed))-\u003e(e,a)b(c-\u003e(e,d))",
@@ -660,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first component of a pair input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "inpF",
           "package": "DeepArrow",
@@ -670,6 +723,7 @@
         "index": {
           "description": "Extract the first component of pair input",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "inpF",
           "normalized": "((a,b)-\u003ec)d(a-\u003eb-\u003ec)",
@@ -685,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a way to extract a \u003ccode\u003ed\u003c/code\u003e input from an \u003ccode\u003ea\u003c/code\u003e input, leaving an \u003ccode\u003ea'\u003c/code\u003e\n residual input, \u003ccode\u003e\u003ca\u003einpFirst\u003c/a\u003e\u003c/code\u003e yields a way to extract a \u003ccode\u003ed\u003c/code\u003e input from an\n \u003ccode\u003e(a,b)\u003c/code\u003e input, leaving an \u003ccode\u003e(a',b)\u003c/code\u003e residual input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "inpFirst",
           "package": "DeepArrow",
@@ -695,6 +750,7 @@
         "index": {
           "description": "Given way to extract input from an input leaving an residual input inpFirst yields way to extract input from an input leaving an residual input",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "inpFirst",
           "normalized": "((a-\u003eb)c(d-\u003ee-\u003eb))-\u003e((a,f)-\u003eb)c(d-\u003e(e,f)-\u003eb)",
@@ -711,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the second component of a pair input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "inpS",
           "package": "DeepArrow",
@@ -721,6 +778,7 @@
         "index": {
           "description": "Extract the second component of pair input",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "inpS",
           "normalized": "((a,b)-\u003ec)d(b-\u003ea-\u003ec)",
@@ -736,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003einpFirst\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "inpSecond",
           "package": "DeepArrow",
@@ -746,6 +805,7 @@
         "index": {
           "description": "Analogous to inpFirst",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "inpSecond",
           "normalized": "((a-\u003eb)c(d-\u003ee-\u003eb))-\u003e((f,a)-\u003eb)c(d-\u003e(f,e)-\u003eb)",
@@ -762,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-associate.  Has default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "lAssocA",
           "package": "DeepArrow",
@@ -772,6 +833,7 @@
         "index": {
           "description": "Left-associate Has default",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "lAssocA",
           "normalized": "(a,(b,c))d((a,b),c)",
@@ -787,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "lAssocAFun",
           "package": "DeepArrow",
@@ -796,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "lAssocAFun",
           "normalized": "a(b,(c,d))-\u003ea((b,c),d)",
@@ -812,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-associate.  Has default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "rAssocA",
           "package": "DeepArrow",
@@ -822,6 +887,7 @@
         "index": {
           "description": "Right-associate Has default",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "rAssocA",
           "normalized": "((a,b),c)d(a,(b,c))",
@@ -837,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "rAssocAFun",
           "package": "DeepArrow",
@@ -846,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "rAssocAFun",
           "normalized": "a((b,c),d)-\u003ea(b,(c,d))",
@@ -862,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect arrow into a function's result.  Analogous to \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "result",
           "package": "DeepArrow",
@@ -872,6 +941,7 @@
         "index": {
           "description": "Direct arrow into function result Analogous to first and second",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "result",
           "normalized": "(a b c)-\u003e(d-\u003ea)b(d-\u003ec)",
@@ -886,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "resultFun",
           "package": "DeepArrow",
@@ -895,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "resultFun",
           "normalized": "(a b-\u003ea c)-\u003ea(d-\u003eb)-\u003ea(d-\u003ec)",
@@ -911,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "sndA",
           "package": "DeepArrow",
@@ -921,6 +994,7 @@
         "index": {
           "description": "Extract second",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "sndA",
           "normalized": "(a,b)c b",
@@ -935,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "sndAFun",
           "package": "DeepArrow",
@@ -944,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "sndAFun",
           "normalized": "a(b,c)-\u003ea c",
@@ -960,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap elements.  Has default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "swapA",
           "package": "DeepArrow",
@@ -970,6 +1047,7 @@
         "index": {
           "description": "Swap elements Has default",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "swapA",
           "normalized": "(a,b)c(b,a)",
@@ -984,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "swapAFun",
           "package": "DeepArrow",
@@ -993,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "swapAFun",
           "normalized": "a(b,c)-\u003ea(c,b)",
@@ -1009,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUncurry arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "uncurryA",
           "package": "DeepArrow",
@@ -1019,6 +1100,7 @@
         "index": {
           "description": "Uncurry arrow",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "uncurryA",
           "normalized": "(a-\u003eb-\u003ec)d((a,b)-\u003ec)",
@@ -1033,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "uncurryAFun",
           "package": "DeepArrow",
@@ -1042,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "uncurryAFun",
           "normalized": "a(b-\u003ec-\u003ed)-\u003ea((b,c)-\u003ed)",
@@ -1058,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e but for \u003ccode\u003e\u003ca\u003eDeepArrow\u003c/a\u003e\u003c/code\u003e arrows instead of lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Control.Arrow.DeepArrow",
           "name": "unzipA",
           "package": "DeepArrow",
@@ -1068,6 +1153,7 @@
         "index": {
           "description": "Like unzip but for DeepArrow arrows instead of lists",
           "hierarchy": "Control Arrow DeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Control.Arrow.DeepArrow",
           "name": "unzipA",
           "normalized": "(a b(c,d))-\u003e(a b c,a b d)",
@@ -1083,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Deep arrows\" as a data type.  Handy for code generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "DDeepArrow",
           "package": "DeepArrow",
@@ -1092,6 +1179,7 @@
         "index": {
           "description": "Deep arrows as data type Handy for code generation",
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "DDeepArrow",
           "package": "DeepArrow",
@@ -1106,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis GADT mirrors the \u003ccode\u003e\u003ca\u003eDeepArrow\u003c/a\u003e\u003c/code\u003e class and part of the \u003ccode\u003e\u003ca\u003eFunArr\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "DArrow",
           "package": "DeepArrow",
@@ -1115,6 +1204,7 @@
         "index": {
           "description": "This GADT mirrors the DeepArrow class and part of the FunArr class",
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "DArrow",
           "package": "DeepArrow",
@@ -1129,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GADT alternative to terms.  Allows generation of Haskell terms and,\n from there, strings and eval. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "DVal",
           "package": "DeepArrow",
@@ -1138,6 +1229,7 @@
         "index": {
           "description": "GADT alternative to terms Allows generation of Haskell terms and from there strings and eval",
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "DVal",
           "package": "DeepArrow",
@@ -1151,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "AppDA",
           "package": "DeepArrow",
@@ -1160,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "AppDA",
           "normalized": "(a DArrow b)-\u003eDVal a-\u003eDVal b",
@@ -1175,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "Arr",
           "package": "DeepArrow",
@@ -1184,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "Arr",
           "normalized": "DVal(a-\u003eb)-\u003ea DArrow b",
@@ -1199,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "Compose",
           "package": "DeepArrow",
@@ -1208,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "Compose",
           "normalized": "(a DArrow b)-\u003e(b DArrow c)-\u003ea DArrow c",
@@ -1223,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "CurryA",
           "package": "DeepArrow",
@@ -1232,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "CurryA",
           "normalized": "((a,b)-\u003ec)DArrow(a-\u003eb-\u003ec)",
@@ -1247,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "DupA",
           "package": "DeepArrow",
@@ -1256,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "DupA",
           "normalized": "a DArrow(a,a)",
@@ -1271,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "ExpDV",
           "package": "DeepArrow",
@@ -1280,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "ExpDV",
           "normalized": "HsExp-\u003eDVal a",
@@ -1295,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "First",
           "package": "DeepArrow",
@@ -1304,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "First",
           "normalized": "(a DArrow b)-\u003e(a,c)DArrow(b,c)",
@@ -1319,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "FstA",
           "package": "DeepArrow",
@@ -1328,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "FstA",
           "normalized": "(a,b)DArrow a",
@@ -1343,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "FunF",
           "package": "DeepArrow",
@@ -1352,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "FunF",
           "normalized": "(a-\u003eb,c)DArrow(a-\u003e(b,c))",
@@ -1367,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "FunR",
           "package": "DeepArrow",
@@ -1376,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "FunR",
           "normalized": "(a-\u003eb-\u003ec)DArrow(b-\u003ea-\u003ec)",
@@ -1391,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "FunS",
           "package": "DeepArrow",
@@ -1400,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "FunS",
           "normalized": "(a,b-\u003ec)DArrow(b-\u003e(a,c))",
@@ -1415,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "IdA",
           "package": "DeepArrow",
@@ -1424,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "IdA",
           "package": "DeepArrow",
@@ -1437,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "LAssocA",
           "package": "DeepArrow",
@@ -1446,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "LAssocA",
           "normalized": "(a,(b,c))DArrow((a,b),c)",
@@ -1461,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "RAssocA",
           "package": "DeepArrow",
@@ -1470,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "RAssocA",
           "normalized": "((a,b),c)DArrow(a,(b,c))",
@@ -1485,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "Result",
           "package": "DeepArrow",
@@ -1494,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "Result",
           "normalized": "(a DArrow b)-\u003e(c-\u003ea)DArrow(c-\u003eb)",
@@ -1509,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "Second",
           "package": "DeepArrow",
@@ -1518,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "Second",
           "normalized": "(a DArrow b)-\u003e(c,a)DArrow(c,b)",
@@ -1533,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "SndA",
           "package": "DeepArrow",
@@ -1542,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "SndA",
           "normalized": "(a,b)DArrow b",
@@ -1557,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "SwapA",
           "package": "DeepArrow",
@@ -1566,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "SwapA",
           "normalized": "(a,b)DArrow(b,a)",
@@ -1581,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "UncurryA",
           "package": "DeepArrow",
@@ -1590,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "UncurryA",
           "normalized": "(a-\u003eb-\u003ec)DArrow((a,b)-\u003ec)",
@@ -1605,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.DDeepArrow",
           "name": "ZipDV",
           "package": "DeepArrow",
@@ -1614,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Data DDeepArrow",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.DDeepArrow",
           "name": "ZipDV",
           "normalized": "DVal a-\u003eDVal b-\u003eDVal(a,b)",
@@ -1630,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion between arrow values and wrapped functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.FunArr",
           "name": "FunArr",
           "package": "DeepArrow",
@@ -1639,6 +1772,7 @@
         "index": {
           "description": "Conversion between arrow values and wrapped functions",
           "hierarchy": "Data FunArr",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.FunArr",
           "name": "FunArr",
           "package": "DeepArrow",
@@ -1653,6 +1787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between an arrow value and a \"wrapped function\".  The \"arrow\"\n doesn't really have to be an arrow.  I'd appreciate ideas for names &\n uses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.FunArr",
           "name": "FunArr",
           "package": "DeepArrow",
@@ -1662,6 +1797,7 @@
         "index": {
           "description": "Convert between an arrow value and wrapped function The arrow doesn really have to be an arrow appreciate ideas for names uses",
           "hierarchy": "Data FunArr",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.FunArr",
           "name": "FunArr",
           "package": "DeepArrow",
@@ -1676,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an arrow to a \u003ccode\u003ew\u003c/code\u003e-wrapped value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.FunArr",
           "name": "($$)",
           "package": "DeepArrow",
@@ -1686,6 +1823,7 @@
         "index": {
           "description": "Apply an arrow to wrapped value",
           "hierarchy": "Data FunArr",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.FunArr",
           "name": "($$) $$",
           "normalized": "(a b c)-\u003ed a-\u003ed c",
@@ -1701,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003ew\u003c/code\u003e-wrapped function to an arrow value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Data.FunArr",
           "name": "toArr",
           "package": "DeepArrow",
@@ -1711,6 +1850,7 @@
         "index": {
           "description": "Convert wrapped function to an arrow value",
           "hierarchy": "Data FunArr",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Data.FunArr",
           "name": "toArr",
           "normalized": "a(b-\u003ec)-\u003eb d c",
@@ -1727,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInsert parens where necessary in Haskell expressions.\n Inspired by Sigbjorn Finne's Pan pretty-printer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.Parens",
           "name": "Parens",
           "package": "DeepArrow",
@@ -1736,6 +1877,7 @@
         "index": {
           "description": "Insert parens where necessary in Haskell expressions Inspired by Sigbjorn Finne Pan pretty-printer",
           "hierarchy": "Language Haskell Parens",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.Parens",
           "name": "Parens",
           "package": "DeepArrow",
@@ -1749,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.Parens",
           "name": "Cify",
           "package": "DeepArrow",
@@ -1757,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Parens",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.Parens",
           "name": "Cify",
           "package": "DeepArrow",
@@ -1770,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.Parens",
           "name": "cifyExp",
           "package": "DeepArrow",
@@ -1779,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Parens",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.Parens",
           "name": "cifyExp",
           "package": "DeepArrow",
@@ -1792,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.Parens",
           "name": "hasOpInfo",
           "package": "DeepArrow",
@@ -1801,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Parens",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.Parens",
           "name": "hasOpInfo",
           "normalized": "HsName-\u003eBool",
@@ -1816,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.Parens",
           "name": "pretty",
           "package": "DeepArrow",
@@ -1825,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Parens",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.Parens",
           "name": "pretty",
           "normalized": "HsExp-\u003eString",
@@ -1839,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.Parens",
           "name": "unCify",
           "package": "DeepArrow",
@@ -1848,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Parens",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.Parens",
           "name": "unCify",
           "normalized": "(Context-\u003ea)-\u003ea",
@@ -1864,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert values to Haskell abstract syntax\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "ToHs",
           "package": "DeepArrow",
@@ -1873,6 +2026,7 @@
         "index": {
           "description": "Convert values to Haskell abstract syntax",
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "ToHs",
           "package": "DeepArrow",
@@ -1887,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion to Haskell expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "ToHsExp",
           "package": "DeepArrow",
@@ -1896,6 +2051,7 @@
         "index": {
           "description": "Conversion to Haskell expressions",
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "ToHsExp",
           "package": "DeepArrow",
@@ -1909,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "infixApp",
           "package": "DeepArrow",
@@ -1918,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "infixApp",
           "normalized": "HsName-\u003eHsExp-\u003eHsExp-\u003eHsExp",
@@ -1933,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "prettyAsHsExp",
           "package": "DeepArrow",
@@ -1942,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "prettyAsHsExp",
           "normalized": "a-\u003eString",
@@ -1957,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "toHsApp1",
           "package": "DeepArrow",
@@ -1966,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "toHsApp1",
           "normalized": "String-\u003ea-\u003eHsExp",
@@ -1981,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "toHsApp2",
           "package": "DeepArrow",
@@ -1990,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "toHsApp2",
           "normalized": "String-\u003ea-\u003eb-\u003eHsExp",
@@ -2005,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "toHsExp",
           "package": "DeepArrow",
@@ -2014,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "toHsExp",
           "normalized": "a-\u003eHsExp",
@@ -2029,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "toHsInfix",
           "package": "DeepArrow",
@@ -2038,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "toHsInfix",
           "normalized": "HsName-\u003ea-\u003eb-\u003eHsExp",
@@ -2053,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "varid",
           "package": "DeepArrow",
@@ -2062,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "varid",
           "normalized": "String-\u003eHsExp",
@@ -2076,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:39 UTC 2014",
           "module": "Language.Haskell.ToHs",
           "name": "varsym",
           "package": "DeepArrow",
@@ -2085,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell ToHs",
+          "indexed": "2014-03-11T16:38:39",
           "module": "Language.Haskell.ToHs",
           "name": "varsym",
           "normalized": "String-\u003eHsExp",

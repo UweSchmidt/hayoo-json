@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SableCC2Hs"
+        "phrase": "SableCC2Hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll types used by the Haskell implementation of the parser and lexer.\n This also defines the types of the tables that are exported by\n the Haskell modules that the tool generates.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ParserTypes",
           "package": "SableCC2Hs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "All types used by the Haskell implementation of the parser and lexer This also defines the types of the tables that are exported by the Haskell modules that the tool generates",
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ParserTypes",
           "package": "SableCC2Hs",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Action",
           "package": "SableCC2Hs",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Action",
           "package": "SableCC2Hs",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ActionTable",
           "package": "SableCC2Hs",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ActionTable",
           "package": "SableCC2Hs",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "CST",
           "package": "SableCC2Hs",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "CST",
           "package": "SableCC2Hs",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ErrorID",
           "package": "SableCC2Hs",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ErrorID",
           "package": "SableCC2Hs",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ErrorMsg",
           "package": "SableCC2Hs",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ErrorMsg",
           "package": "SableCC2Hs",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "GotoIndex",
           "package": "SableCC2Hs",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "GotoIndex",
           "package": "SableCC2Hs",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "GotoMap",
           "package": "SableCC2Hs",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "GotoMap",
           "package": "SableCC2Hs",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "GotoTable",
           "package": "SableCC2Hs",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "GotoTable",
           "package": "SableCC2Hs",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "IntervalTree",
           "package": "SableCC2Hs",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "IntervalTree",
           "package": "SableCC2Hs",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "LexStateID",
           "package": "SableCC2Hs",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "LexStateID",
           "package": "SableCC2Hs",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "LexTokenID",
           "package": "SableCC2Hs",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "LexTokenID",
           "package": "SableCC2Hs",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "LexerState",
           "package": "SableCC2Hs",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "LexerState",
           "package": "SableCC2Hs",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Mode",
           "package": "SableCC2Hs",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Mode",
           "package": "SableCC2Hs",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ModeID",
           "package": "SableCC2Hs",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ModeID",
           "package": "SableCC2Hs",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ModeName",
           "package": "SableCC2Hs",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ModeName",
           "package": "SableCC2Hs",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Modes",
           "package": "SableCC2Hs",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Modes",
           "package": "SableCC2Hs",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "PToken",
           "package": "SableCC2Hs",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "PToken",
           "package": "SableCC2Hs",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ParserStateID",
           "package": "SableCC2Hs",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ParserStateID",
           "package": "SableCC2Hs",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ParserTokenID",
           "package": "SableCC2Hs",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ParserTokenID",
           "package": "SableCC2Hs",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Reduction",
           "package": "SableCC2Hs",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Reduction",
           "package": "SableCC2Hs",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ReductionID",
           "package": "SableCC2Hs",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ReductionID",
           "package": "SableCC2Hs",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "SToken",
           "package": "SableCC2Hs",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "SToken",
           "package": "SableCC2Hs",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "State",
           "package": "SableCC2Hs",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "State",
           "package": "SableCC2Hs",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "TransitionList",
           "package": "SableCC2Hs",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "TransitionList",
           "package": "SableCC2Hs",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "TransitionTarget",
           "package": "SableCC2Hs",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "TransitionTarget",
           "package": "SableCC2Hs",
@@ -566,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Accept",
           "package": "SableCC2Hs",
@@ -575,6 +628,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Accept",
           "package": "SableCC2Hs",
@@ -588,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "CstLeaf",
           "package": "SableCC2Hs",
@@ -597,6 +652,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "CstLeaf",
           "package": "SableCC2Hs",
@@ -610,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "CstNode",
           "package": "SableCC2Hs",
@@ -619,6 +676,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "CstNode",
           "normalized": "CstNode ReductionID[CST]",
@@ -634,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Epsilon",
           "package": "SableCC2Hs",
@@ -643,6 +702,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Epsilon",
           "package": "SableCC2Hs",
@@ -656,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Error",
           "package": "SableCC2Hs",
@@ -665,6 +726,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Error",
           "package": "SableCC2Hs",
@@ -678,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ErrorID",
           "package": "SableCC2Hs",
@@ -687,6 +750,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ErrorID",
           "package": "SableCC2Hs",
@@ -700,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "GotoIndex",
           "package": "SableCC2Hs",
@@ -709,6 +774,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "GotoIndex",
           "package": "SableCC2Hs",
@@ -722,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "GotoMap",
           "package": "SableCC2Hs",
@@ -731,6 +798,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "GotoMap",
           "package": "SableCC2Hs",
@@ -744,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "IntervalLeaf",
           "package": "SableCC2Hs",
@@ -753,6 +822,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "IntervalLeaf",
           "package": "SableCC2Hs",
@@ -766,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "IntervalNode",
           "package": "SableCC2Hs",
@@ -775,6 +846,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "IntervalNode",
           "package": "SableCC2Hs",
@@ -788,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "LexStateID",
           "package": "SableCC2Hs",
@@ -797,6 +870,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "LexStateID",
           "package": "SableCC2Hs",
@@ -810,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "LexTokenID",
           "package": "SableCC2Hs",
@@ -819,6 +894,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "LexTokenID",
           "package": "SableCC2Hs",
@@ -832,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "LexerState",
           "package": "SableCC2Hs",
@@ -841,6 +918,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "LexerState",
           "package": "SableCC2Hs",
@@ -854,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Mode",
           "package": "SableCC2Hs",
@@ -863,6 +942,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Mode",
           "package": "SableCC2Hs",
@@ -876,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ModeID",
           "package": "SableCC2Hs",
@@ -885,6 +966,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ModeID",
           "package": "SableCC2Hs",
@@ -898,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "NotEpsilon",
           "package": "SableCC2Hs",
@@ -907,6 +990,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "NotEpsilon",
           "package": "SableCC2Hs",
@@ -920,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ParserStateID",
           "package": "SableCC2Hs",
@@ -929,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ParserStateID",
           "package": "SableCC2Hs",
@@ -942,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ParserTokenID",
           "package": "SableCC2Hs",
@@ -951,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ParserTokenID",
           "package": "SableCC2Hs",
@@ -964,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Reduce",
           "package": "SableCC2Hs",
@@ -973,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Reduce",
           "package": "SableCC2Hs",
@@ -986,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Reduction",
           "package": "SableCC2Hs",
@@ -995,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Reduction",
           "package": "SableCC2Hs",
@@ -1008,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "ReductionID",
           "package": "SableCC2Hs",
@@ -1017,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "ReductionID",
           "package": "SableCC2Hs",
@@ -1030,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "Shift",
           "package": "SableCC2Hs",
@@ -1039,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "Shift",
           "package": "SableCC2Hs",
@@ -1052,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "State",
           "package": "SableCC2Hs",
@@ -1061,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "State",
           "package": "SableCC2Hs",
@@ -1074,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "TransitionList",
           "package": "SableCC2Hs",
@@ -1083,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "TransitionList",
           "package": "SableCC2Hs",
@@ -1096,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "commentNestingCounter",
           "package": "SableCC2Hs",
@@ -1105,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "commentNestingCounter",
           "package": "SableCC2Hs",
@@ -1118,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "defaultGoto",
           "package": "SableCC2Hs",
@@ -1127,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "defaultGoto",
           "package": "SableCC2Hs",
@@ -1140,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "defaultTransition",
           "package": "SableCC2Hs",
@@ -1149,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "defaultTransition",
           "package": "SableCC2Hs",
@@ -1162,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "fromParserStateID",
           "package": "SableCC2Hs",
@@ -1171,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "fromParserStateID",
           "package": "SableCC2Hs",
@@ -1184,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "gotoIndex",
           "package": "SableCC2Hs",
@@ -1193,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "gotoIndex",
           "package": "SableCC2Hs",
@@ -1206,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "gotoMap",
           "package": "SableCC2Hs",
@@ -1215,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "gotoMap",
           "package": "SableCC2Hs",
@@ -1228,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "initLexerState",
           "package": "SableCC2Hs",
@@ -1237,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "initLexerState",
           "normalized": "String-\u003eLexerState",
@@ -1252,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "lexerBuffer",
           "package": "SableCC2Hs",
@@ -1261,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "lexerBuffer",
           "package": "SableCC2Hs",
@@ -1274,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "lexerMode",
           "package": "SableCC2Hs",
@@ -1283,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "lexerMode",
           "package": "SableCC2Hs",
@@ -1296,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "lookupInterval",
           "package": "SableCC2Hs",
@@ -1305,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "lookupInterval",
           "normalized": "Char-\u003eIntervalTree-\u003eMaybe TransitionTarget",
@@ -1320,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "modeStates",
           "package": "SableCC2Hs",
@@ -1329,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "modeStates",
           "package": "SableCC2Hs",
@@ -1342,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "popCount",
           "package": "SableCC2Hs",
@@ -1351,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "popCount",
           "package": "SableCC2Hs",
@@ -1364,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "reductionID",
           "package": "SableCC2Hs",
@@ -1373,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "reductionID",
           "package": "SableCC2Hs",
@@ -1386,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "srcPos",
           "package": "SableCC2Hs",
@@ -1395,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "srcPos",
           "normalized": "()",
@@ -1410,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "stateAcceptedToken",
           "package": "SableCC2Hs",
@@ -1419,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "stateAcceptedToken",
           "package": "SableCC2Hs",
@@ -1432,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "stateTransitions",
           "package": "SableCC2Hs",
@@ -1441,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "stateTransitions",
           "package": "SableCC2Hs",
@@ -1454,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "transitionMap",
           "package": "SableCC2Hs",
@@ -1463,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "transitionMap",
           "package": "SableCC2Hs",
@@ -1476,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "unErrorID",
           "package": "SableCC2Hs",
@@ -1485,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "unErrorID",
           "package": "SableCC2Hs",
@@ -1498,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "unGotoIndex",
           "package": "SableCC2Hs",
@@ -1507,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "unGotoIndex",
           "package": "SableCC2Hs",
@@ -1520,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "unModeID",
           "package": "SableCC2Hs",
@@ -1529,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "unModeID",
           "package": "SableCC2Hs",
@@ -1542,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:57 UTC 2014",
           "module": "SableCC.ParserTypes",
           "name": "unReductionID",
           "package": "SableCC2Hs",
@@ -1551,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "SableCC ParserTypes",
+          "indexed": "2014-03-11T16:59:57",
           "module": "SableCC.ParserTypes",
           "name": "unReductionID",
           "package": "SableCC2Hs",

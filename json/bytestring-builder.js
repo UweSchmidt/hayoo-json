@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-builder"
+        "phrase": "bytestring-builder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions for creating and executing \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es. They are intended\n for application-specific fine-tuning the performance of \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "Extra",
           "package": "bytestring-builder",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Extra functions for creating and executing Builder They are intended for application-specific fine-tuning the performance of Builder",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "Extra",
           "package": "bytestring-builder",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA buffer allocation strategy for executing \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "AllocationStrategy",
           "package": "bytestring-builder",
@@ -51,6 +54,7 @@
         "index": {
           "description": "buffer allocation strategy for executing Builder",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "AllocationStrategy",
           "package": "bytestring-builder",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBufferWriter\u003c/a\u003e\u003c/code\u003e represents the result of running a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n It unfolds as a sequence of chunks of data. These chunks come in two forms:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e an IO action for writing the Builder's data into a user-supplied memory\n    buffer.\n\u003c/li\u003e\u003cli\u003e a pre-existing chunks of data represented by a strict \u003ccode\u003eByteString\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eWhile this is rather low level, it provides you with full flexibility in\n how the data is written out.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBufferWriter\u003c/a\u003e\u003c/code\u003e itself is an IO action: you supply it with a buffer\n (as a pointer and length) and it will write data into the buffer.\n It returns a number indicating how many bytes were actually written\n (which can be \u003ccode\u003e0\u003c/code\u003e). It also returns a \u003ccode\u003e\u003ca\u003eNext\u003c/a\u003e\u003c/code\u003e which describes what\n comes next.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "BufferWriter",
           "package": "bytestring-builder",
@@ -74,6 +79,7 @@
         "index": {
           "description": "BufferWriter represents the result of running Builder It unfolds as sequence of chunks of data These chunks come in two forms an IO action for writing the Builder data into user-supplied memory buffer pre-existing chunks of data represented by strict ByteString While this is rather low level it provides you with full flexibility in how the data is written out The BufferWriter itself is an IO action you supply it with buffer as pointer and length and it will write data into the buffer It returns number indicating how many bytes were actually written which can be It also returns Next which describes what comes next",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "BufferWriter",
           "package": "bytestring-builder",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter running a \u003ccode\u003e\u003ca\u003eBufferWriter\u003c/a\u003e\u003c/code\u003e action there are three possibilities for\n what comes next:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "Next",
           "package": "bytestring-builder",
@@ -97,6 +104,7 @@
         "index": {
           "description": "After running BufferWriter action there are three possibilities for what comes next",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "Next",
           "package": "bytestring-builder",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn addition to the data that has just been written into your buffer\n by the \u003ccode\u003e\u003ca\u003eBufferWriter\u003c/a\u003e\u003c/code\u003e action, it gives you a pre-existing chunk\n of data as a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. It also gives you the following \u003ccode\u003e\u003ca\u003eBufferWriter\u003c/a\u003e\u003c/code\u003e\n action. It is safe to run this following action using a buffer with as\n much free space as was left by the previous run action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "Chunk",
           "package": "bytestring-builder",
@@ -121,6 +130,7 @@
         "index": {
           "description": "In addition to the data that has just been written into your buffer by the BufferWriter action it gives you pre-existing chunk of data as ByteString It also gives you the following BufferWriter action It is safe to run this following action using buffer with as much free space as was left by the previous run action",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "Chunk",
           "package": "bytestring-builder",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis means we're all done. All the builder data has now been written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "Done",
           "package": "bytestring-builder",
@@ -145,6 +156,7 @@
         "index": {
           "description": "This means we re all done All the builder data has now been written",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "Done",
           "package": "bytestring-builder",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis indicates that there may be more data to write. It\n gives you the next \u003ccode\u003e\u003ca\u003eBufferWriter\u003c/a\u003e\u003c/code\u003e action. You should call that action\n with an appropriate buffer. The int indicates the \u003cem\u003eminimum\u003c/em\u003e buffer size\n required by the next \u003ccode\u003e\u003ca\u003eBufferWriter\u003c/a\u003e\u003c/code\u003e action. That is, if you call the next\n action you \u003cem\u003emust\u003c/em\u003e supply it with a buffer length of at least this size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "More",
           "package": "bytestring-builder",
@@ -169,6 +182,7 @@
         "index": {
           "description": "This indicates that there may be more data to write It gives you the next BufferWriter action You should call that action with an appropriate buffer The int indicates the minimum buffer size required by the next BufferWriter action That is if you call the next action you must supply it with buffer length of at least this size",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "More",
           "package": "bytestring-builder",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that copies the strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUse this function to create \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es from smallish (\u003ccode\u003e\u003c= 4kb\u003c/code\u003e)\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es or if you need to guarantee that the \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e is not\n shared with the chunks generated by the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "byteStringCopy",
           "package": "bytestring-builder",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Construct Builder that copies the strict ByteString Use this function to create Builder from smallish kb ByteString or if you need to guarantee that the ByteString is not shared with the chunks generated by the Builder",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "byteStringCopy",
           "normalized": "ByteString-\u003eBuilder",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that always inserts the strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n directly as a chunk.\n\u003c/p\u003e\u003cp\u003eThis implies flushing the output buffer, even if it contains just\n a single byte. You should therefore use \u003ccode\u003e\u003ca\u003ebyteStringInsert\u003c/a\u003e\u003c/code\u003e only for large\n (\u003ccode\u003e\u003e 8kb\u003c/code\u003e) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es. Otherwise, the generated chunks are too\n fragmented to be processed efficiently afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "byteStringInsert",
           "package": "bytestring-builder",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Construct Builder that always inserts the strict ByteString directly as chunk This implies flushing the output buffer even if it contains just single byte You should therefore use byteStringInsert only for large kb ByteString Otherwise the generated chunks are too fragmented to be processed efficiently afterwards",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "byteStringInsert",
           "normalized": "ByteString-\u003eBuilder",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that copies the strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es, if it is\n smaller than the treshold, and inserts it directly otherwise.\n\u003c/p\u003e\u003cp\u003eFor example, \u003ccode\u003ebyteStringThreshold 1024\u003c/code\u003e copies strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es whose size\n is less or equal to 1kb, and inserts them directly otherwise. This implies\n that the average chunk-size of the generated lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e may be as\n low as 513 bytes, as there could always be just a single byte between the\n directly inserted 1025 byte, strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "byteStringThreshold",
           "package": "bytestring-builder",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Construct Builder that copies the strict ByteString if it is smaller than the treshold and inserts it directly otherwise For example byteStringThreshold copies strict ByteString whose size is less or equal to kb and inserts them directly otherwise This implies that the average chunk-size of the generated lazy ByteString may be as low as bytes as there could always be just single byte between the directly inserted byte strict ByteString",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "byteStringThreshold",
           "normalized": "Int-\u003eByteString-\u003eBuilder",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe chunk size used for I/O. Currently set to 32k, less the memory management overhead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "defaultChunkSize",
           "package": "bytestring-builder",
@@ -270,6 +291,7 @@
         "index": {
           "description": "The chunk size used for Currently set to less the memory management overhead",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "defaultChunkSize",
           "package": "bytestring-builder",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e in native host order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "doubleHost",
           "package": "bytestring-builder",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Encode Double in native host order",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "doubleHost",
           "normalized": "Double-\u003eBuilder",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e in native host order. Values encoded this way are not\n portable to different endian machines, without conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "floatHost",
           "package": "bytestring-builder",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Encode Float in native host order Values encoded this way are not portable to different endian machines without conversion",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "floatHost",
           "normalized": "Float-\u003eBuilder",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush the current buffer. This introduces a chunk boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "flush",
           "package": "bytestring-builder",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Flush the current buffer This introduces chunk boundary",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "flush",
           "package": "bytestring-builder",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "int16Host",
           "package": "bytestring-builder",
@@ -369,6 +398,7 @@
         "index": {
           "description": "Encode Int16 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "int16Host",
           "normalized": "Int-\u003eBuilder",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "int32Host",
           "package": "bytestring-builder",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Encode Int32 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "int32Host",
           "normalized": "Int-\u003eBuilder",
@@ -411,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "int64Host",
           "package": "bytestring-builder",
@@ -421,6 +454,7 @@
         "index": {
           "description": "Encode Int64 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "int64Host",
           "normalized": "Int-\u003eBuilder",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a single native machine \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is encoded in host order,\n host endian form, for the machine you're on. On a 64 bit machine the \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n is an 8 byte value, on a 32 bit machine, 4 bytes. Values encoded this way\n are not portable to different endian or int sized machines, without\n conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "intHost",
           "package": "bytestring-builder",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Encode single native machine Int The Int is encoded in host order host endian form for the machine you re on On bit machine the Int is an byte value on bit machine bytes Values encoded this way are not portable to different endian or int sized machines without conversion",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "intHost",
           "normalized": "Int-\u003eBuilder",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that copies the lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "lazyByteStringCopy",
           "package": "bytestring-builder",
@@ -473,6 +510,7 @@
         "index": {
           "description": "Construct Builder that copies the lazy ByteString",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "lazyByteStringCopy",
           "normalized": "ByteString-\u003eBuilder",
@@ -489,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that inserts all chunks of the lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "lazyByteStringInsert",
           "package": "bytestring-builder",
@@ -499,6 +538,7 @@
         "index": {
           "description": "Construct Builder that inserts all chunks of the lazy ByteString directly",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "lazyByteStringInsert",
           "normalized": "ByteString-\u003eBuilder",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that uses the thresholding strategy of \u003ccode\u003e\u003ca\u003ebyteStringThreshold\u003c/a\u003e\u003c/code\u003e\n for each chunk of the lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "lazyByteStringThreshold",
           "package": "bytestring-builder",
@@ -525,6 +566,7 @@
         "index": {
           "description": "Construct Builder that uses the thresholding strategy of byteStringThreshold for each chunk of the lazy ByteString",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "lazyByteStringThreshold",
           "normalized": "Int-\u003eByteString-\u003eBuilder",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e into its initial \u003ccode\u003e\u003ca\u003eBufferWriter\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "runBuilder",
           "package": "bytestring-builder",
@@ -551,6 +594,7 @@
         "index": {
           "description": "Turn Builder into its initial BufferWriter action",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "runBuilder",
           "normalized": "Builder-\u003eBufferWriter",
@@ -567,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this strategy for generating lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es whose chunks are\n likely to survive one garbage collection. This strategy trims buffers\n that are filled less than half in order to avoid spilling too much memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "safeStrategy",
           "package": "bytestring-builder",
@@ -576,6 +621,7 @@
         "index": {
           "description": "Use this strategy for generating lazy ByteString whose chunks are likely to survive one garbage collection This strategy trims buffers that are filled less than half in order to avoid spilling too much memory",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "safeStrategy",
           "normalized": "Int-\u003eInt-\u003eAllocationStrategy",
@@ -592,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe recommended chunk size. Currently set to 4k, less the memory management overhead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "smallChunkSize",
           "package": "bytestring-builder",
@@ -601,6 +648,7 @@
         "index": {
           "description": "The recommended chunk size Currently set to less the memory management overhead",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "smallChunkSize",
           "package": "bytestring-builder",
@@ -615,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eHeavy inlining.\u003c/em\u003e Execute a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e with custom execution parameters.\n\u003c/p\u003e\u003cp\u003eThis function is inlined despite its heavy code-size to allow fusing with\n the allocation strategy. For example, the default \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e execution\n function \u003ccode\u003etoLazyByteString\u003c/code\u003e is defined as follows.\n\u003c/p\u003e\u003cpre\u003e\n {-# NOINLINE toLazyByteString #-}\n toLazyByteString =\n   toLazyByteStringWith (\u003ccode\u003e\u003ca\u003esafeStrategy\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esmallChunkSize\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultChunkSize\u003c/a\u003e\u003c/code\u003e) L.empty\n\u003c/pre\u003e\u003cp\u003ewhere \u003ccode\u003eL.empty\u003c/code\u003e is the zero-length lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn most cases, the parameters used by \u003ccode\u003etoLazyByteString\u003c/code\u003e give good\n performance. A sub-performing case of \u003ccode\u003etoLazyByteString\u003c/code\u003e is executing short\n (\u003c128 bytes) \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es. In this case, the allocation overhead for the first\n 4kb buffer and the trimming cost dominate the cost of executing the\n \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e. You can avoid this problem using\n\u003c/p\u003e\u003cpre\u003etoLazyByteStringWith (safeStrategy 128 smallChunkSize) L.empty\n\u003c/pre\u003e\u003cp\u003eThis reduces the allocation and trimming overhead, as all generated\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es fit into the first buffer and there is no trimming\n required, if more than 64 bytes and less than 128 bytes are written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "toLazyByteStringWith",
           "package": "bytestring-builder",
@@ -624,6 +673,7 @@
         "index": {
           "description": "Heavy inlining Execute Builder with custom execution parameters This function is inlined despite its heavy code-size to allow fusing with the allocation strategy For example the default Builder execution function toLazyByteString is defined as follows NOINLINE toLazyByteString toLazyByteString toLazyByteStringWith safeStrategy smallChunkSize defaultChunkSize L.empty where L.empty is the zero-length lazy ByteString In most cases the parameters used by toLazyByteString give good performance sub-performing case of toLazyByteString is executing short bytes Builder In this case the allocation overhead for the first kb buffer and the trimming cost dominate the cost of executing the Builder You can avoid this problem using toLazyByteStringWith safeStrategy smallChunkSize L.empty This reduces the allocation and trimming overhead as all generated ByteString fit into the first buffer and there is no trimming required if more than bytes and less than bytes are written",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "toLazyByteStringWith",
           "normalized": "AllocationStrategy-\u003eByteString-\u003eBuilder-\u003eByteString",
@@ -640,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this strategy for generating lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es whose chunks are\n discarded right after they are generated. For example, if you just generate\n them to write them to a network socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "untrimmedStrategy",
           "package": "bytestring-builder",
@@ -649,6 +700,7 @@
         "index": {
           "description": "Use this strategy for generating lazy ByteString whose chunks are discarded right after they are generated For example if you just generate them to write them to network socket",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "untrimmedStrategy",
           "normalized": "Int-\u003eInt-\u003eAllocationStrategy",
@@ -665,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "word16Host",
           "package": "bytestring-builder",
@@ -675,6 +728,7 @@
         "index": {
           "description": "Encode Word16 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "word16Host",
           "normalized": "Word-\u003eBuilder",
@@ -691,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "word32Host",
           "package": "bytestring-builder",
@@ -701,6 +756,7 @@
         "index": {
           "description": "Encode Word32 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "word32Host",
           "normalized": "Word-\u003eBuilder",
@@ -717,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "word64Host",
           "package": "bytestring-builder",
@@ -727,6 +784,7 @@
         "index": {
           "description": "Encode Word64 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "word64Host",
           "normalized": "Word-\u003eBuilder",
@@ -743,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a single native machine \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e is encoded in host order,\n host endian form, for the machine you're on. On a 64 bit machine the \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e\n is an 8 byte value, on a 32 bit machine, 4 bytes. Values encoded this way\n are not portable to different endian or word sized machines, without\n conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Extra",
           "name": "wordHost",
           "package": "bytestring-builder",
@@ -753,6 +812,7 @@
         "index": {
           "description": "Encode single native machine Word The Word is encoded in host order host endian form for the machine you re on On bit machine the Word is an byte value on bit machine bytes Values encoded this way are not portable to different endian or word sized machines without conversion",
           "hierarchy": "Data ByteString Builder Extra",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Extra",
           "name": "wordHost",
           "normalized": "Word-\u003eBuilder",
@@ -769,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e \u003cem\u003eprimitives\u003c/em\u003e, which are lower level building\nblocks for constructing \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es. You don't need to go down to this level but\nit can be slightly faster.\n\u003c/p\u003e\u003cp\u003eMorally, builder primitives are like functions \u003ccode\u003ea -\u003e Builder\u003c/code\u003e, that is they\ntake a value and encode it as a sequence of bytes, represented as a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\nOf course their implementation is a bit more specialised.\n\u003c/p\u003e\u003cp\u003eBuilder primitives come in two forms: fixed-size and bounded-size.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003cem\u003eFixed(-size) primitives\u003c/em\u003e are builder primitives that always result in a\n  sequence of bytes of a fixed length. That is, the length is independent of\n  the value that is encoded. An example of a fixed size primitive is the\n  big-endian encoding of a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e, which always results in exactly 8 bytes.\n\u003c/li\u003e\u003cli\u003e \u003cem\u003eBounded(-size) primitives\u003c/em\u003e are builder primitives that always result in a\n  sequence of bytes that is no larger than a predetermined bound. That is, the\n  bound is independent of the value that is encoded but the actual length will\n  depend on the value. An example for a bounded primitive is the UTF-8 encoding\n  of a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e, which can be 1,2,3 or 4 bytes long, so the bound is 4 bytes.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote that fixed primitives can be considered as a special case of bounded\nprimitives, and we can lift from fixed to bounded.\n\u003c/p\u003e\u003cp\u003eBecause bounded primitives are the more general case, in this documentation we\nonly refer to fixed size primitives where it matters that the resulting\nsequence of bytes is of a fixed length. Otherwise, we just refer to bounded\nsize primitives.\n\u003c/p\u003e\u003cp\u003eThe purpose of using builder primitives is to improve the performance of\n\u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es. These improvements stem from making the two most common steps\nperformed by a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e more efficient. We explain these two steps in turn.\n\u003c/p\u003e\u003cp\u003eThe first most common step is the concatenation of two \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es. Internally,\nconcatenation corresponds to function composition. (Note that \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es can\nbe seen as difference-lists of buffer-filling functions; cf.\n\u003ca\u003ehttp://hackage.haskell.org/cgi-bin/hackage-scripts/package/dlist\u003c/a\u003e. )\nFunction composition is a fast \u003cem\u003eO(1)\u003c/em\u003e operation. However, we can use bounded\nprimitives to remove some of these function compositions altogether, which is\nmore efficient.\n\u003c/p\u003e\u003cp\u003eThe second most common step performed by a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e is to fill a buffer using\na bounded primitives, which works as follows. The \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e checks whether\nthere is enough space left to execute the bounded primitive. If there is, then\nthe \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e executes the bounded primitive and calls the next \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e with\nthe updated buffer. Otherwise, the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e signals its driver that it\nrequires a new buffer. This buffer must be at least as large as the bound of\nthe primitive. We can use bounded primitives to reduce the number of\nbuffer-free checks by fusing the buffer-free checks of consecutive \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es.\nWe can also use bounded primitives to simplify the control flow for signalling\nthat a buffer is full by ensuring that we check first that there is enough\nspace left and only then decide on how to encode a given value.\n\u003c/p\u003e\u003cp\u003eLet us illustrate these improvements on the CSV-table rendering example from\n\u003ca\u003eData.ByteString.Builder\u003c/a\u003e. Its \"hot code\" is the rendering of a table's\ncells, which we implement as follows using only the functions from the\n\u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e API.\n\u003c/p\u003e\u003cpre\u003e\nimport \u003ca\u003eData.ByteString.Builder\u003c/a\u003e as B\n\nrenderCell :: Cell -\u003e Builder\nrenderCell (StringC cs) = renderString cs\nrenderCell (IntC i)     = B.intDec i\n\nrenderString :: String -\u003e Builder\nrenderString cs = B.charUtf8 '\"' \u003c\u003e foldMap escape cs \u003c\u003e B.charUtf8 '\"'\n  where\n    escape '\\\\' = B.charUtf8 '\\\\' \u003c\u003e B.charUtf8 '\\\\'\n    escape '\\\"' = B.charUtf8 '\\\\' \u003c\u003e B.charUtf8 '\\\"'\n    escape c    = B.charUtf8 c\n\u003c/pre\u003e\u003cp\u003eEfficient encoding of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es as decimal numbers is performed by \u003ccode\u003eintDec\u003c/code\u003e.\nOptimization potential exists for the escaping of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es. The above\nimplementation has two optimization opportunities. First, the buffer-free\nchecks of the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es for escaping double quotes and backslashes can be\nfused. Second, the concatenations performed by \u003ccode\u003efoldMap\u003c/code\u003e can be eliminated.\nThe following implementation exploits these optimizations.\n\u003c/p\u003e\u003cpre\u003e\nimport qualified Data.ByteString.Builder.Prim  as P\nimport           Data.ByteString.Builder.Prim\n                 ( \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eliftFixedToBounded\u003c/a\u003e\u003c/code\u003e, (\u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e), (\u003ccode\u003e\u003ca\u003e\u003e$\u003c\u003c/a\u003e\u003c/code\u003e) )\n\nrenderString :: String -\u003e Builder\nrenderString cs =\n    B.charUtf8 '\"' \u003c\u003e E.\u003ccode\u003eencodeListWithB\u003c/code\u003e escape cs \u003c\u003e B.charUtf8 '\"'\n  where\n    escape :: E.\u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e Char\n    escape =\n      \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (== '\\\\') (fixed2 ('\\\\', '\\\\')) $\n      \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (== '\\\"') (fixed2 ('\\\\', '\\\"')) $\n      E.\u003ccode\u003e\u003ca\u003echarUtf8\u003c/a\u003e\u003c/code\u003e\n    &#160;\n    {-# INLINE fixed2 #-}\n    fixed2 x = \u003ccode\u003e\u003ca\u003eliftFixedToBounded\u003c/a\u003e\u003c/code\u003e $ const x \u003ccode\u003e\u003ca\u003e\u003e$\u003c\u003c/a\u003e\u003c/code\u003e E.\u003ccode\u003e\u003ca\u003echar7\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e E.\u003ccode\u003e\u003ca\u003echar7\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThe code should be mostly self-explanatory. The slightly awkward syntax is\nbecause the combinators are written such that the size-bound of the resulting\n\u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e can be computed at compile time. We also explicitly inline the\n\u003ccode\u003efixed2\u003c/code\u003e primitive, which encodes a fixed tuple of characters, to ensure that\nthe bound computation happens at compile time. When encoding the following list\nof \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es, the optimized implementation of \u003ccode\u003erenderString\u003c/code\u003e is two times\nfaster.\n\u003c/p\u003e\u003cpre\u003e\nmaxiStrings :: [String]\nmaxiStrings = take 1000 $ cycle [\"hello\", \"\\\"1\\\"\", \"&#955;-w&#246;rld\"]\n\u003c/pre\u003e\u003cp\u003eMost of the performance gain stems from using \u003ccode\u003e\u003ca\u003eprimMapListBounded\u003c/a\u003e\u003c/code\u003e, which\nencodes a list of values from left-to-right with a \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e. It exploits\nthe \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e internals to avoid unnecessary function compositions (i.e.,\nconcatenations). In the future, we might expect the compiler to perform the\noptimizations implemented in \u003ccode\u003e\u003ca\u003eprimMapListBounded\u003c/a\u003e\u003c/code\u003e. However, it seems that the\ncode is currently to complicated for the compiler to see through. Therefore, we\nprovide the \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e escape hatch, which allows data structures to provide\nvery efficient encoding traversals, like \u003ccode\u003e\u003ca\u003eprimMapListBounded\u003c/a\u003e\u003c/code\u003e for lists.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003es are a bit verbose, but quite versatile. Here is an\nexample of a \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e for combined HTML escaping and UTF-8 encoding. It\nexploits that the escaped character with the maximal Unicode codepoint is '\u003e'.\n\u003c/p\u003e\u003cpre\u003e\n{-# INLINE charUtf8HtmlEscaped #-}\ncharUtf8HtmlEscaped :: E.BoundedPrim Char\ncharUtf8HtmlEscaped =\n    \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (\u003e  '\u003e' ) E.\u003ccode\u003e\u003ca\u003echarUtf8\u003c/a\u003e\u003c/code\u003e $\n    \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (== '\u003c' ) (fixed4 ('&',('l',('t',';')))) $        -- &lt;\n    \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (== '\u003e' ) (fixed4 ('&',('g',('t',';')))) $        -- &gt;\n    \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (== '&' ) (fixed5 ('&',('a',('m',('p',';'))))) $  -- &amp;\n    \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (== '\"' ) (fixed5 ('&',('#',('3',('4',';'))))) $  -- &#34;\n    \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (== '\\'') (fixed5 ('&',('#',('3',('9',';'))))) $  -- &#39;\n    (\u003ccode\u003e\u003ca\u003eliftFixedToBounded\u003c/a\u003e\u003c/code\u003e E.\u003ccode\u003e\u003ca\u003echar7\u003c/a\u003e\u003c/code\u003e)         -- fallback for \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es smaller than '\u003e'\n  where\n    {-# INLINE fixed4 #-}\n    fixed4 x = \u003ccode\u003e\u003ca\u003eliftFixedToBounded\u003c/a\u003e\u003c/code\u003e $ const x \u003ccode\u003e\u003ca\u003e\u003e$\u003c\u003c/a\u003e\u003c/code\u003e\n      E.char7 \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e E.char7 \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e E.char7 \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e E.char7\n    &#160;\n    {-# INLINE fixed5 #-}\n    fixed5 x = \u003ccode\u003e\u003ca\u003eliftFixedToBounded\u003c/a\u003e\u003c/code\u003e $ const x \u003ccode\u003e\u003ca\u003e\u003e$\u003c\u003c/a\u003e\u003c/code\u003e\n      E.char7 \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e E.char7 \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e E.char7 \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e E.char7 \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e E.char7\n\u003c/pre\u003e\u003cp\u003eThis module currently does not expose functions that require the special\nproperties of fixed-size primitives. They are useful for prefixing \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es\nwith their size or for implementing chunked encodings. We will expose the\ncorresponding functions in future releases of this library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "Prim",
           "package": "bytestring-builder",
@@ -778,6 +839,7 @@
         "index": {
           "description": "This module provides Builder primitives which are lower level building blocks for constructing Builder You don need to go down to this level but it can be slightly faster Morally builder primitives are like functions Builder that is they take value and encode it as sequence of bytes represented as Builder Of course their implementation is bit more specialised Builder primitives come in two forms fixed-size and bounded-size Fixed size primitives are builder primitives that always result in sequence of bytes of fixed length That is the length is independent of the value that is encoded An example of fixed size primitive is the big-endian encoding of Word64 which always results in exactly bytes Bounded size primitives are builder primitives that always result in sequence of bytes that is no larger than predetermined bound That is the bound is independent of the value that is encoded but the actual length will depend on the value An example for bounded primitive is the UTF-8 encoding of Char which can be or bytes long so the bound is bytes Note that fixed primitives can be considered as special case of bounded primitives and we can lift from fixed to bounded Because bounded primitives are the more general case in this documentation we only refer to fixed size primitives where it matters that the resulting sequence of bytes is of fixed length Otherwise we just refer to bounded size primitives The purpose of using builder primitives is to improve the performance of Builder These improvements stem from making the two most common steps performed by Builder more efficient We explain these two steps in turn The first most common step is the concatenation of two Builder Internally concatenation corresponds to function composition Note that Builder can be seen as difference-lists of buffer-filling functions cf http hackage.haskell.org cgi-bin hackage-scripts package dlist Function composition is fast operation However we can use bounded primitives to remove some of these function compositions altogether which is more efficient The second most common step performed by Builder is to fill buffer using bounded primitives which works as follows The Builder checks whether there is enough space left to execute the bounded primitive If there is then the Builder executes the bounded primitive and calls the next Builder with the updated buffer Otherwise the Builder signals its driver that it requires new buffer This buffer must be at least as large as the bound of the primitive We can use bounded primitives to reduce the number of buffer-free checks by fusing the buffer-free checks of consecutive Builder We can also use bounded primitives to simplify the control flow for signalling that buffer is full by ensuring that we check first that there is enough space left and only then decide on how to encode given value Let us illustrate these improvements on the CSV-table rendering example from Data.ByteString.Builder Its hot code is the rendering of table cells which we implement as follows using only the functions from the Builder API import Data.ByteString.Builder as renderCell Cell Builder renderCell StringC cs renderString cs renderCell IntC B.intDec renderString String Builder renderString cs B.charUtf8 foldMap escape cs B.charUtf8 where escape B.charUtf8 B.charUtf8 escape B.charUtf8 B.charUtf8 escape B.charUtf8 Efficient encoding of Int as decimal numbers is performed by intDec Optimization potential exists for the escaping of String The above implementation has two optimization opportunities First the buffer-free checks of the Builder for escaping double quotes and backslashes can be fused Second the concatenations performed by foldMap can be eliminated The following implementation exploits these optimizations import qualified Data.ByteString.Builder.Prim as import Data.ByteString.Builder.Prim condB liftFixedToBounded renderString String Builder renderString cs B.charUtf8 encodeListWithB escape cs B.charUtf8 where escape BoundedPrim Char escape condB fixed2 condB fixed2 charUtf8 INLINE fixed2 fixed2 liftFixedToBounded const char7 char7 The code should be mostly self-explanatory The slightly awkward syntax is because the combinators are written such that the size-bound of the resulting BoundedPrim can be computed at compile time We also explicitly inline the fixed2 primitive which encodes fixed tuple of characters to ensure that the bound computation happens at compile time When encoding the following list of String the optimized implementation of renderString is two times faster maxiStrings String maxiStrings take cycle hello rld Most of the performance gain stems from using primMapListBounded which encodes list of values from left-to-right with BoundedPrim It exploits the Builder internals to avoid unnecessary function compositions i.e concatenations In the future we might expect the compiler to perform the optimizations implemented in primMapListBounded However it seems that the code is currently to complicated for the compiler to see through Therefore we provide the BoundedPrim escape hatch which allows data structures to provide very efficient encoding traversals like primMapListBounded for lists Note that BoundedPrim are bit verbose but quite versatile Here is an example of BoundedPrim for combined HTML escaping and UTF-8 encoding It exploits that the escaped character with the maximal Unicode codepoint is INLINE charUtf8HtmlEscaped charUtf8HtmlEscaped E.BoundedPrim Char charUtf8HtmlEscaped condB charUtf8 condB fixed4 lt condB fixed4 gt condB fixed5 amp condB fixed5 condB fixed5 liftFixedToBounded char7 fallback for Char smaller than where INLINE fixed4 fixed4 liftFixedToBounded const E.char7 E.char7 E.char7 E.char7 INLINE fixed5 fixed5 liftFixedToBounded const E.char7 E.char7 E.char7 E.char7 E.char7 This module currently does not expose functions that require the special properties of fixed-size primitives They are useful for prefixing Builder with their size or for implementing chunked encodings We will expose the corresponding functions in future releases of this library",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "Prim",
           "package": "bytestring-builder",
@@ -792,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA builder primitive that always results in sequence of bytes that is no longer\n than a pre-determined bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "BoundedPrim",
           "package": "bytestring-builder",
@@ -801,6 +864,7 @@
         "index": {
           "description": "builder primitive that always results in sequence of bytes that is no longer than pre-determined bound",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "BoundedPrim",
           "package": "bytestring-builder",
@@ -815,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA builder primitive that always results in a sequence of bytes of a\n pre-determined, fixed size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "FixedPrim",
           "package": "bytestring-builder",
@@ -824,6 +889,7 @@
         "index": {
           "description": "builder primitive that always results in sequence of bytes of pre-determined fixed size",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "FixedPrim",
           "package": "bytestring-builder",
@@ -838,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fmap-like operator for builder primitives, both bounded and fixed size.\n\u003c/p\u003e\u003cp\u003eBuilder primitives are contravariant so it's like the normal fmap, but\n backwards (look at the type). (If it helps to remember, the operator symbol\n is like (\u003ca\u003e$\u003c/a\u003e) but backwards.)\n\u003c/p\u003e\u003cp\u003eWe can use it for example to prepend and/or append fixed values to an\n primitive.\n\u003c/p\u003e\u003cpre\u003eshowEncoding ((\\x -\u003e ('\\'', (x, '\\''))) \u003e$\u003c fixed3) 'x' = \"'x'\"\n  where\n    fixed3 = char7 \u003e*\u003c char7 \u003e*\u003c char7\n\u003c/pre\u003e\u003cp\u003eNote that the rather verbose syntax for composition stems from the\n requirement to be able to compute the size / size bound at compile time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "(\u003e$\u003c)",
           "package": "bytestring-builder",
@@ -848,6 +915,7 @@
         "index": {
           "description": "fmap-like operator for builder primitives both bounded and fixed size Builder primitives are contravariant so it like the normal fmap but backwards look at the type If it helps to remember the operator symbol is like but backwards We can use it for example to prepend and or append fixed values to an primitive showEncoding fixed3 where fixed3 char7 char7 char7 Note that the rather verbose syntax for composition stems from the requirement to be able to compute the size size bound at compile time",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "(\u003e$\u003c) \u003e$\u003c",
           "normalized": "(a-\u003eb)-\u003ec b-\u003ec a",
@@ -863,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pairing/concatenation operator for builder primitives, both bounded and\n fixed size.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre\u003e toLazyByteString (primFixed (char7 \u003e*\u003c char7) ('x','y')) = \"xy\"\n\u003c/pre\u003e\u003cp\u003eWe can combine multiple primitives using \u003ccode\u003e\u003ca\u003e\u003e*\u003c\u003c/a\u003e\u003c/code\u003e multiple times.\n\u003c/p\u003e\u003cpre\u003e toLazyByteString (primFixed (char7 \u003e*\u003c char7 \u003e*\u003c char7) ('x',('y','z'))) = \"xyz\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "(\u003e*\u003c)",
           "package": "bytestring-builder",
@@ -873,6 +942,7 @@
         "index": {
           "description": "pairing concatenation operator for builder primitives both bounded and fixed size For example toLazyByteString primFixed char7 char7 xy We can combine multiple primitives using multiple times toLazyByteString primFixed char7 char7 char7 xyz",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "(\u003e*\u003c) \u003e*\u003c",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -888,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the least 7-bits of a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e using the ASCII encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "char7",
           "package": "bytestring-builder",
@@ -898,6 +969,7 @@
         "index": {
           "description": "Encode the least bits of Char using the ASCII encoding",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "char7",
           "package": "bytestring-builder",
@@ -911,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChar8 encode a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "char8",
           "package": "bytestring-builder",
@@ -921,6 +994,7 @@
         "index": {
           "description": "Char8 encode Char",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "char8",
           "package": "bytestring-builder",
@@ -934,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 encode a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "charUtf8",
           "package": "bytestring-builder",
@@ -944,6 +1019,7 @@
         "index": {
           "description": "UTF-8 encode Char",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "charUtf8",
           "package": "bytestring-builder",
@@ -958,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditionally select a \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e.\n For example, we can implement the ASCII primitive that drops characters with\n Unicode codepoints above 127 as follows.\n\u003c/p\u003e\u003cpre\u003e\ncharASCIIDrop = \u003ccode\u003e\u003ca\u003econdB\u003c/a\u003e\u003c/code\u003e (\u003c '\\128') (\u003ccode\u003efromF\u003c/code\u003e \u003ccode\u003echar7\u003c/code\u003e) \u003ccode\u003e\u003ca\u003eemptyB\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "condB",
           "package": "bytestring-builder",
@@ -968,6 +1045,7 @@
         "index": {
           "description": "Conditionally select BoundedPrim For example we can implement the ASCII primitive that drops characters with Unicode codepoints above as follows charASCIIDrop condB fromF char7 emptyB",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "condB",
           "normalized": "(a-\u003eBool)-\u003eBoundedPrim a-\u003eBoundedPrim a-\u003eBoundedPrim a",
@@ -983,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "doubleBE",
           "package": "bytestring-builder",
@@ -993,6 +1072,7 @@
         "index": {
           "description": "Encode Double in big endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "doubleBE",
           "package": "bytestring-builder",
@@ -1007,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an IEEE \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e using 16 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "doubleHexFixed",
           "package": "bytestring-builder",
@@ -1017,6 +1098,7 @@
         "index": {
           "description": "Encode an IEEE Double using nibbles",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "doubleHexFixed",
           "package": "bytestring-builder",
@@ -1031,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "doubleHost",
           "package": "bytestring-builder",
@@ -1041,6 +1124,7 @@
         "index": {
           "description": "Encode Double in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "doubleHost",
           "package": "bytestring-builder",
@@ -1055,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "doubleLE",
           "package": "bytestring-builder",
@@ -1065,6 +1150,7 @@
         "index": {
           "description": "Encode Double in little endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "doubleLE",
           "package": "bytestring-builder",
@@ -1079,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e value using the first \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\n values and the second \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e\u003cp\u003eNote that the functions \u003ccode\u003e\u003ca\u003eeitherB\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003epairB\u003c/code\u003e, and \u003ccode\u003econtramapB\u003c/code\u003e (written below\n using \u003ccode\u003e\u003ca\u003e\u003e$\u003c\u003c/a\u003e\u003c/code\u003e) suffice to construct \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003es for all non-recursive\n algebraic datatypes. For example,\n\u003c/p\u003e\u003cpre\u003e\nmaybeB :: BoundedPrim () -\u003e BoundedPrim a -\u003e BoundedPrim (Maybe a)\nmaybeB nothing just = \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e (Left ()) Right \u003ccode\u003e\u003ca\u003e\u003e$\u003c\u003c/a\u003e\u003c/code\u003e eitherB nothing just\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "eitherB",
           "package": "bytestring-builder",
@@ -1089,6 +1176,7 @@
         "index": {
           "description": "Encode an Either value using the first BoundedPrim for Left values and the second BoundedPrim for Right values Note that the functions eitherB pairB and contramapB written below using suffice to construct BoundedPrim for all non-recursive algebraic datatypes For example maybeB BoundedPrim BoundedPrim BoundedPrim Maybe maybeB nothing just maybe Left Right eitherB nothing just",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "eitherB",
           "normalized": "BoundedPrim a-\u003eBoundedPrim b-\u003eBoundedPrim(Either a b)",
@@ -1104,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e that always results in the zero-length sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "emptyB",
           "package": "bytestring-builder",
@@ -1114,6 +1203,7 @@
         "index": {
           "description": "The BoundedPrim that always results in the zero-length sequence",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "emptyB",
           "package": "bytestring-builder",
@@ -1127,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFixedPrim\u003c/a\u003e\u003c/code\u003e that always results in the zero-length sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "emptyF",
           "package": "bytestring-builder",
@@ -1137,6 +1228,7 @@
         "index": {
           "description": "The FixedPrim that always results in the zero-length sequence",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "emptyF",
           "package": "bytestring-builder",
@@ -1150,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "floatBE",
           "package": "bytestring-builder",
@@ -1160,6 +1253,7 @@
         "index": {
           "description": "Encode Float in big endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "floatBE",
           "package": "bytestring-builder",
@@ -1174,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an IEEE \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e using 8 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "floatHexFixed",
           "package": "bytestring-builder",
@@ -1184,6 +1279,7 @@
         "index": {
           "description": "Encode an IEEE Float using nibbles",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "floatHexFixed",
           "package": "bytestring-builder",
@@ -1198,6 +1294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e in native host order and host endianness. Values written\n this way are not portable to different endian machines, without conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "floatHost",
           "package": "bytestring-builder",
@@ -1208,6 +1305,7 @@
         "index": {
           "description": "Encode Float in native host order and host endianness Values written this way are not portable to different endian machines without conversion",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "floatHost",
           "package": "bytestring-builder",
@@ -1222,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "floatLE",
           "package": "bytestring-builder",
@@ -1232,6 +1331,7 @@
         "index": {
           "description": "Encode Float in little endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "floatLE",
           "package": "bytestring-builder",
@@ -1246,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16BE",
           "package": "bytestring-builder",
@@ -1256,6 +1357,7 @@
         "index": {
           "description": "Encoding Int16 in big endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16BE",
           "package": "bytestring-builder",
@@ -1270,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16Dec",
           "package": "bytestring-builder",
@@ -1280,6 +1383,7 @@
         "index": {
           "description": "Decimal encoding of an Int16",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16Dec",
           "package": "bytestring-builder",
@@ -1294,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e using 4 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16HexFixed",
           "package": "bytestring-builder",
@@ -1304,6 +1409,7 @@
         "index": {
           "description": "Encode Int16 using nibbles",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16HexFixed",
           "package": "bytestring-builder",
@@ -1318,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16Host",
           "package": "bytestring-builder",
@@ -1328,6 +1435,7 @@
         "index": {
           "description": "Encoding Int16 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16Host",
           "package": "bytestring-builder",
@@ -1342,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16LE",
           "package": "bytestring-builder",
@@ -1352,6 +1461,7 @@
         "index": {
           "description": "Encoding Int16 in little endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int16LE",
           "package": "bytestring-builder",
@@ -1366,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32BE",
           "package": "bytestring-builder",
@@ -1376,6 +1487,7 @@
         "index": {
           "description": "Encoding Int32 in big endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32BE",
           "package": "bytestring-builder",
@@ -1390,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32Dec",
           "package": "bytestring-builder",
@@ -1400,6 +1513,7 @@
         "index": {
           "description": "Decimal encoding of an Int32",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32Dec",
           "package": "bytestring-builder",
@@ -1414,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e using 8 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32HexFixed",
           "package": "bytestring-builder",
@@ -1424,6 +1539,7 @@
         "index": {
           "description": "Encode Int32 using nibbles",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32HexFixed",
           "package": "bytestring-builder",
@@ -1438,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32Host",
           "package": "bytestring-builder",
@@ -1448,6 +1565,7 @@
         "index": {
           "description": "Encoding Int32 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32Host",
           "package": "bytestring-builder",
@@ -1462,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32LE",
           "package": "bytestring-builder",
@@ -1472,6 +1591,7 @@
         "index": {
           "description": "Encoding Int32 in little endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int32LE",
           "package": "bytestring-builder",
@@ -1486,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64BE",
           "package": "bytestring-builder",
@@ -1496,6 +1617,7 @@
         "index": {
           "description": "Encoding Int64 in big endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64BE",
           "package": "bytestring-builder",
@@ -1510,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64Dec",
           "package": "bytestring-builder",
@@ -1520,6 +1643,7 @@
         "index": {
           "description": "Decimal encoding of an Int64",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64Dec",
           "package": "bytestring-builder",
@@ -1534,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e using 16 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64HexFixed",
           "package": "bytestring-builder",
@@ -1544,6 +1669,7 @@
         "index": {
           "description": "Encode Int64 using nibbles",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64HexFixed",
           "package": "bytestring-builder",
@@ -1558,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64Host",
           "package": "bytestring-builder",
@@ -1568,6 +1695,7 @@
         "index": {
           "description": "Encoding Int64 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64Host",
           "package": "bytestring-builder",
@@ -1582,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64LE",
           "package": "bytestring-builder",
@@ -1592,6 +1721,7 @@
         "index": {
           "description": "Encoding Int64 in little endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int64LE",
           "package": "bytestring-builder",
@@ -1606,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding single signed bytes as-is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int8",
           "package": "bytestring-builder",
@@ -1616,6 +1747,7 @@
         "index": {
           "description": "Encoding single signed bytes as-is",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int8",
           "package": "bytestring-builder",
@@ -1629,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int8Dec",
           "package": "bytestring-builder",
@@ -1639,6 +1772,7 @@
         "index": {
           "description": "Decimal encoding of an Int8",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int8Dec",
           "package": "bytestring-builder",
@@ -1653,6 +1787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt8\u003c/a\u003e\u003c/code\u003e using 2 nibbles (hexadecimal digits).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int8HexFixed",
           "package": "bytestring-builder",
@@ -1663,6 +1798,7 @@
         "index": {
           "description": "Encode Int8 using nibbles hexadecimal digits",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "int8HexFixed",
           "package": "bytestring-builder",
@@ -1677,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "intDec",
           "package": "bytestring-builder",
@@ -1687,6 +1824,7 @@
         "index": {
           "description": "Decimal encoding of an Int",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "intDec",
           "package": "bytestring-builder",
@@ -1701,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a single native machine \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es is encoded in host order,\n host endian form, for the machine you are on. On a 64 bit machine the \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n is an 8 byte value, on a 32 bit machine, 4 bytes. Values encoded this way\n are not portable to different endian or integer sized machines, without\n conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "intHost",
           "package": "bytestring-builder",
@@ -1711,6 +1850,7 @@
         "index": {
           "description": "Encode single native machine Int The Int is encoded in host order host endian form for the machine you are on On bit machine the Int is an byte value on bit machine bytes Values encoded this way are not portable to different endian or integer sized machines without conversion",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "intHost",
           "package": "bytestring-builder",
@@ -1725,6 +1865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eFixedPrim\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "liftFixedToBounded",
           "package": "bytestring-builder",
@@ -1735,6 +1876,7 @@
         "index": {
           "description": "Lift FixedPrim to BoundedPrim",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "liftFixedToBounded",
           "normalized": "FixedPrim a-\u003eBoundedPrim a",
@@ -1751,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that encodes values with the given \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWe rewrite consecutive uses of \u003ccode\u003e\u003ca\u003eprimBounded\u003c/a\u003e\u003c/code\u003e such that the bound-checks are\n fused. For example,\n\u003c/p\u003e\u003cpre\u003e primBounded (word32 c1) `mappend` primBounded (word32 c2)\n\u003c/pre\u003e\u003cp\u003eis rewritten such that the resulting \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e checks only once, if ther are\n at 8 free bytes, instead of checking twice, if there are 4 free bytes. This\n optimization is not observationally equivalent in a strict sense, as it\n influences the boundaries of the generated chunks. However, for a user of\n this library it is observationally equivalent, as chunk boundaries of a lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e can only be observed through the internal interface.\n Morevoer, we expect that all primitives write much fewer than 4kb (the\n default short buffer size). Hence, it is safe to ignore the additional\n memory spilled due to the more agressive buffer wrapping introduced by this\n optimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primBounded",
           "package": "bytestring-builder",
@@ -1761,6 +1904,7 @@
         "index": {
           "description": "Create Builder that encodes values with the given BoundedPrim We rewrite consecutive uses of primBounded such that the bound-checks are fused For example primBounded word32 c1 mappend primBounded word32 c2 is rewritten such that the resulting Builder checks only once if ther are at free bytes instead of checking twice if there are free bytes This optimization is not observationally equivalent in strict sense as it influences the boundaries of the generated chunks However for user of this library it is observationally equivalent as chunk boundaries of lazy ByteString can only be observed through the internal interface Morevoer we expect that all primitives write much fewer than kb the default short buffer size Hence it is safe to ignore the additional memory spilled due to the more agressive buffer wrapping introduced by this optimization",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primBounded",
           "normalized": "BoundedPrim a-\u003ea-\u003eBuilder",
@@ -1777,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value with a \u003ccode\u003e\u003ca\u003eFixedPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primFixed",
           "package": "bytestring-builder",
@@ -1787,6 +1932,7 @@
         "index": {
           "description": "Encode value with FixedPrim",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primFixed",
           "normalized": "FixedPrim a-\u003ea-\u003eBuilder",
@@ -1803,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that encodes each \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e of a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n using a \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e. For example, we can write a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that filters\n a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e as follows.\n\u003c/p\u003e\u003cpre\u003e import Data.ByteString.Builder.Primas P (word8, condB, emptyB)\n\u003c/pre\u003e\u003cpre\u003e filterBS p = P.condB p P.word8 P.emptyB\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapByteStringBounded",
           "package": "bytestring-builder",
@@ -1813,6 +1960,7 @@
         "index": {
           "description": "Create Builder that encodes each Word8 of strict ByteString using BoundedPrim For example we can write Builder that filters strict ByteString as follows import Data.ByteString.Builder.Primas word8 condB emptyB filterBS P.condB P.word8 P.emptyB",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapByteStringBounded",
           "normalized": "BoundedPrim Word-\u003eByteString-\u003eBuilder",
@@ -1829,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eHeavy inlining.\u003c/em\u003e Encode all bytes of a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e from\n left-to-right with a \u003ccode\u003e\u003ca\u003eFixedPrim\u003c/a\u003e\u003c/code\u003e. This function is quite versatile. For\n example, we can use it to construct a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that maps every byte before\n copying it to the buffer to be filled.\n\u003c/p\u003e\u003cpre\u003e mapToBuilder :: (Word8 -\u003e Word8) -\u003e S.ByteString -\u003e Builder\n mapToBuilder f = encodeByteStringWithF (contramapF f word8)\n\u003c/pre\u003e\u003cp\u003eWe can also use it to hex-encode a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e as shown by the\n \u003ccode\u003ebyteStringHex\u003c/code\u003e example above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapByteStringFixed",
           "package": "bytestring-builder",
@@ -1839,6 +1988,7 @@
         "index": {
           "description": "Heavy inlining Encode all bytes of strict ByteString from left-to-right with FixedPrim This function is quite versatile For example we can use it to construct Builder that maps every byte before copying it to the buffer to be filled mapToBuilder Word8 Word8 S.ByteString Builder mapToBuilder encodeByteStringWithF contramapF word8 We can also use it to hex-encode strict ByteString as shown by the byteStringHex example above",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapByteStringFixed",
           "normalized": "FixedPrim Word-\u003eByteString-\u003eBuilder",
@@ -1855,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChunk-wise application of \u003ccode\u003e\u003ca\u003eprimMapByteStringBounded\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapLazyByteStringBounded",
           "package": "bytestring-builder",
@@ -1865,6 +2016,7 @@
         "index": {
           "description": "Chunk-wise application of primMapByteStringBounded",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapLazyByteStringBounded",
           "normalized": "BoundedPrim Word-\u003eByteString-\u003eBuilder",
@@ -1881,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eHeavy inlining.\u003c/em\u003e Encode all bytes of a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e from\n left-to-right with a \u003ccode\u003e\u003ca\u003eFixedPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapLazyByteStringFixed",
           "package": "bytestring-builder",
@@ -1891,6 +2044,7 @@
         "index": {
           "description": "Heavy inlining Encode all bytes of lazy ByteString from left-to-right with FixedPrim",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapLazyByteStringFixed",
           "normalized": "FixedPrim Word-\u003eByteString-\u003eBuilder",
@@ -1907,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that encodes a list of values consecutively using a\n \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e for each element. This function is more efficient than the\n canonical\n\u003c/p\u003e\u003cpre\u003e filter p =\n  B.toLazyByteString .\n  E.encodeLazyByteStringWithF (E.ifF p E.word8) E.emptyF)\n\n\u003c/pre\u003e\u003cpre\u003e mconcat . map (primBounded w)\n\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e foldMap (primBounded w)\n\u003c/pre\u003e\u003cp\u003ebecause it moves several variables out of the inner loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapListBounded",
           "package": "bytestring-builder",
@@ -1917,6 +2072,7 @@
         "index": {
           "description": "Create Builder that encodes list of values consecutively using BoundedPrim for each element This function is more efficient than the canonical filter B.toLazyByteString E.encodeLazyByteStringWithF E.ifF E.word8 E.emptyF mconcat map primBounded or foldMap primBounded because it moves several variables out of the inner loop",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapListBounded",
           "normalized": "BoundedPrim a-\u003e[a]-\u003eBuilder",
@@ -1933,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a list of values from left-to-right with a \u003ccode\u003e\u003ca\u003eFixedPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapListFixed",
           "package": "bytestring-builder",
@@ -1943,6 +2100,7 @@
         "index": {
           "description": "Encode list of values from left-to-right with FixedPrim",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primMapListFixed",
           "normalized": "FixedPrim a-\u003e[a]-\u003eBuilder",
@@ -1959,6 +2117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that encodes a sequence generated from a seed value\n using a \u003ccode\u003e\u003ca\u003eBoundedPrim\u003c/a\u003e\u003c/code\u003e for each sequence element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primUnfoldrBounded",
           "package": "bytestring-builder",
@@ -1969,6 +2128,7 @@
         "index": {
           "description": "Create Builder that encodes sequence generated from seed value using BoundedPrim for each sequence element",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primUnfoldrBounded",
           "normalized": "BoundedPrim a-\u003e(b-\u003eMaybe(a,b))-\u003eb-\u003eBuilder",
@@ -1985,6 +2145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a list of values represented as an \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eFixedPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primUnfoldrFixed",
           "package": "bytestring-builder",
@@ -1995,6 +2156,7 @@
         "index": {
           "description": "Encode list of values represented as an unfoldr with FixedPrim",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "primUnfoldrFixed",
           "normalized": "FixedPrim a-\u003e(b-\u003eMaybe(a,b))-\u003eb-\u003eBuilder",
@@ -2011,6 +2173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16BE",
           "package": "bytestring-builder",
@@ -2021,6 +2184,7 @@
         "index": {
           "description": "Encoding Word16 in big endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16BE",
           "package": "bytestring-builder",
@@ -2035,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16Dec",
           "package": "bytestring-builder",
@@ -2045,6 +2210,7 @@
         "index": {
           "description": "Decimal encoding of Word16",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16Dec",
           "package": "bytestring-builder",
@@ -2059,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16Hex",
           "package": "bytestring-builder",
@@ -2069,6 +2236,7 @@
         "index": {
           "description": "Hexadecimal encoding of Word16",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16Hex",
           "package": "bytestring-builder",
@@ -2083,6 +2251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e using 4 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16HexFixed",
           "package": "bytestring-builder",
@@ -2093,6 +2262,7 @@
         "index": {
           "description": "Encode Word16 using nibbles",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16HexFixed",
           "package": "bytestring-builder",
@@ -2107,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16Host",
           "package": "bytestring-builder",
@@ -2117,6 +2288,7 @@
         "index": {
           "description": "Encoding Word16 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16Host",
           "package": "bytestring-builder",
@@ -2131,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16LE",
           "package": "bytestring-builder",
@@ -2141,6 +2314,7 @@
         "index": {
           "description": "Encoding Word16 in little endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word16LE",
           "package": "bytestring-builder",
@@ -2155,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32BE",
           "package": "bytestring-builder",
@@ -2165,6 +2340,7 @@
         "index": {
           "description": "Encoding Word32 in big endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32BE",
           "package": "bytestring-builder",
@@ -2179,6 +2355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32Dec",
           "package": "bytestring-builder",
@@ -2189,6 +2366,7 @@
         "index": {
           "description": "Decimal encoding of Word32",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32Dec",
           "package": "bytestring-builder",
@@ -2203,6 +2381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32Hex",
           "package": "bytestring-builder",
@@ -2213,6 +2392,7 @@
         "index": {
           "description": "Hexadecimal encoding of Word32",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32Hex",
           "package": "bytestring-builder",
@@ -2227,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e using 8 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32HexFixed",
           "package": "bytestring-builder",
@@ -2237,6 +2418,7 @@
         "index": {
           "description": "Encode Word32 using nibbles",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32HexFixed",
           "package": "bytestring-builder",
@@ -2251,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32Host",
           "package": "bytestring-builder",
@@ -2261,6 +2444,7 @@
         "index": {
           "description": "Encoding Word32 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32Host",
           "package": "bytestring-builder",
@@ -2275,6 +2459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32LE",
           "package": "bytestring-builder",
@@ -2285,6 +2470,7 @@
         "index": {
           "description": "Encoding Word32 in little endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word32LE",
           "package": "bytestring-builder",
@@ -2299,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003es in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64BE",
           "package": "bytestring-builder",
@@ -2309,6 +2496,7 @@
         "index": {
           "description": "Encoding Word64 in big endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64BE",
           "package": "bytestring-builder",
@@ -2323,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64Dec",
           "package": "bytestring-builder",
@@ -2333,6 +2522,7 @@
         "index": {
           "description": "Decimal encoding of Word64",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64Dec",
           "package": "bytestring-builder",
@@ -2347,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64Hex",
           "package": "bytestring-builder",
@@ -2357,6 +2548,7 @@
         "index": {
           "description": "Hexadecimal encoding of Word64",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64Hex",
           "package": "bytestring-builder",
@@ -2371,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e using 16 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64HexFixed",
           "package": "bytestring-builder",
@@ -2381,6 +2574,7 @@
         "index": {
           "description": "Encode Word64 using nibbles",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64HexFixed",
           "package": "bytestring-builder",
@@ -2395,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003es in native host order and host endianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64Host",
           "package": "bytestring-builder",
@@ -2405,6 +2600,7 @@
         "index": {
           "description": "Encoding Word64 in native host order and host endianness",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64Host",
           "package": "bytestring-builder",
@@ -2419,6 +2615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003es in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64LE",
           "package": "bytestring-builder",
@@ -2429,6 +2626,7 @@
         "index": {
           "description": "Encoding Word64 in little endian format",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word64LE",
           "package": "bytestring-builder",
@@ -2443,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding single unsigned bytes as-is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word8",
           "package": "bytestring-builder",
@@ -2453,6 +2652,7 @@
         "index": {
           "description": "Encoding single unsigned bytes as-is",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word8",
           "package": "bytestring-builder",
@@ -2466,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word8Dec",
           "package": "bytestring-builder",
@@ -2476,6 +2677,7 @@
         "index": {
           "description": "Decimal encoding of Word8",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word8Dec",
           "package": "bytestring-builder",
@@ -2490,6 +2692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word8Hex",
           "package": "bytestring-builder",
@@ -2500,6 +2703,7 @@
         "index": {
           "description": "Hexadecimal encoding of Word8",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word8Hex",
           "package": "bytestring-builder",
@@ -2514,6 +2718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e using 2 nibbles (hexadecimal digits).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word8HexFixed",
           "package": "bytestring-builder",
@@ -2524,6 +2729,7 @@
         "index": {
           "description": "Encode Word8 using nibbles hexadecimal digits",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "word8HexFixed",
           "package": "bytestring-builder",
@@ -2538,6 +2744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "wordDec",
           "package": "bytestring-builder",
@@ -2548,6 +2755,7 @@
         "index": {
           "description": "Decimal encoding of Word",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "wordDec",
           "package": "bytestring-builder",
@@ -2562,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "wordHex",
           "package": "bytestring-builder",
@@ -2572,6 +2781,7 @@
         "index": {
           "description": "Hexadecimal encoding of Word",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "wordHex",
           "package": "bytestring-builder",
@@ -2586,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a single native machine \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003es is encoded in host order,\n host endian form, for the machine you are on. On a 64 bit machine the \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e\n is an 8 byte value, on a 32 bit machine, 4 bytes. Values encoded this way\n are not portable to different endian or word sized machines, without\n conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder.Prim",
           "name": "wordHost",
           "package": "bytestring-builder",
@@ -2596,6 +2807,7 @@
         "index": {
           "description": "Encode single native machine Word The Word is encoded in host order host endian form for the machine you are on On bit machine the Word is an byte value on bit machine bytes Values encoded this way are not portable to different endian or word sized machines without conversion",
           "hierarchy": "Data ByteString Builder Prim",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder.Prim",
           "name": "wordHost",
           "package": "bytestring-builder",
@@ -2610,6 +2822,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es are used to efficiently construct sequences of bytes from\n  smaller parts.\nTypically,\n  such a construction is part of the implementation of an \u003cem\u003eencoding\u003c/em\u003e, i.e.,\n  a function for converting Haskell values to sequences of bytes.\nExamples of encodings are the generation of the sequence of bytes\n  representing a HTML document to be sent in a HTTP response by a\n  web application or the serialization of a Haskell value using\n  a fixed binary format.\n\u003c/p\u003e\u003cp\u003eFor an \u003cem\u003eefficient implementation of an encoding\u003c/em\u003e,\n  it is important that (a) little time is spent on converting\n  the Haskell values to the resulting sequence of bytes \u003cem\u003eand\u003c/em\u003e\n  (b) that the representation of the resulting sequence\n  is such that it can be consumed efficiently.\n\u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es support (a) by providing an \u003cem\u003eO(1)\u003c/em\u003e concatentation operation\n  and efficient implementations of basic encodings for \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es,\n  and other standard Haskell values.\nThey support (b) by providing their result as a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e,\n  which is internally just a linked list of pointers to \u003cem\u003echunks\u003c/em\u003e\n  of consecutive raw memory.\nLazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es can be efficiently consumed by functions that\n  write them to a file or send them over a network socket.\nNote that each chunk boundary incurs expensive extra work (e.g., a system call)\n  that must be amortized over the work spent on consuming the chunk body.\n\u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es therefore take special care to ensure that the\n  average chunk size is large enough.\nThe precise meaning of large enough is application dependent.\nThe current implementation is tuned\n  for an average chunk size between 4kb and 32kb,\n  which should suit most applications.\n\u003c/p\u003e\u003cp\u003eAs a simple example of an encoding implementation,\n  we show how to efficiently convert the following representation of mixed-data\n  tables to an UTF-8 encoded Comma-Separated-Values (CSV) table.\n\u003c/p\u003e\u003cpre\u003edata Cell = StringC String\n          | IntC Int\n          deriving( Eq, Ord, Show )\n\ntype Row   = [Cell]\ntype Table = [Row]\n\u003c/pre\u003e\u003cp\u003eWe use the following imports and abbreviate \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e to simplify reading.\n\u003c/p\u003e\u003cpre\u003e\nimport qualified \u003ca\u003eData.ByteString.Lazy\u003c/a\u003e               as L\nimport           \u003ca\u003eData.ByteString.Builder\u003c/a\u003e\nimport           Data.Monoid\nimport           Data.Foldable                        (\u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e)\nimport           Data.List                            (\u003ccode\u003e\u003ca\u003eintersperse\u003c/a\u003e\u003c/code\u003e)\n\ninfixr 4 \u003c\u003e\n(\u003c\u003e) :: \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e m =\u003e m -\u003e m -\u003e m\n(\u003c\u003e) = \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eCSV is a character-based representation of tables. For maximal modularity,\nwe could first render \u003ccode\u003eTable\u003c/code\u003es as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es and then encode this \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\nusing some Unicode character encoding. However, this sacrifices performance\ndue to the intermediate \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation being built and thrown away\nright afterwards. We get rid of this intermediate \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation by\nfixing the character encoding to UTF-8 and using \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es to convert\n\u003ccode\u003eTable\u003c/code\u003es directly to UTF-8 encoded CSV tables represented as lazy\n\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cpre\u003e\nencodeUtf8CSV :: Table -\u003e L.ByteString\nencodeUtf8CSV = \u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e . renderTable\n\nrenderTable :: Table -\u003e Builder\nrenderTable rs = \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e [renderRow r \u003c\u003e \u003ccode\u003e\u003ca\u003echarUtf8\u003c/a\u003e\u003c/code\u003e '\\n' | r \u003c- rs]\n\nrenderRow :: Row -\u003e Builder\nrenderRow []     = \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e\nrenderRow (c:cs) =\n    renderCell c \u003c\u003e mconcat [ charUtf8 ',' \u003c\u003e renderCell c' | c' \u003c- cs ]\n\nrenderCell :: Cell -\u003e Builder\nrenderCell (StringC cs) = renderString cs\nrenderCell (IntC i)     = \u003ccode\u003e\u003ca\u003eintDec\u003c/a\u003e\u003c/code\u003e i\n\nrenderString :: String -\u003e Builder\nrenderString cs = charUtf8 '\"' \u003c\u003e foldMap escape cs \u003c\u003e charUtf8 '\"'\n  where\n    escape '\\\\' = charUtf8 '\\\\' \u003c\u003e charUtf8 '\\\\'\n    escape '\\\"' = charUtf8 '\\\\' \u003c\u003e charUtf8 '\\\"'\n    escape c    = charUtf8 c\n\u003c/pre\u003e\u003cp\u003eNote that the ASCII encoding is a subset of the UTF-8 encoding,\n  which is why we can use the optimized function \u003ccode\u003e\u003ca\u003eintDec\u003c/a\u003e\u003c/code\u003e to\n  encode an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e as a decimal number with UTF-8 encoded digits.\nUsing \u003ccode\u003e\u003ca\u003eintDec\u003c/a\u003e\u003c/code\u003e is more efficient than \u003ccode\u003e\u003ccode\u003e\u003ca\u003estringUtf8\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e,\n  as it avoids constructing an intermediate \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\nAvoiding this intermediate data structure significantly improves\n  performance because encoding \u003ccode\u003eCell\u003c/code\u003es is the core operation\n  for rendering CSV-tables.\nSee \u003ca\u003eData.ByteString.Builder.Prim\u003c/a\u003e for further\n  information on how to improve the performance of \u003ccode\u003erenderString\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWe demonstrate our UTF-8 CSV encoding function on the following table.\n\u003c/p\u003e\u003cpre\u003e\nstrings :: [String]\nstrings =  [\"hello\", \"\\\"1\\\"\", \"&#955;-w&#246;rld\"]\n\ntable :: Table\ntable = [map StringC strings, map IntC [-3..3]]\n\u003c/pre\u003e\u003cp\u003eThe expression \u003ccode\u003eencodeUtf8CSV table\u003c/code\u003e results in the following lazy\n\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003eChunk \"\\\"hello\\\",\\\"\\\\\\\"1\\\\\\\"\\\",\\\"\\206\\187-w\\195\\182rld\\\"\\n-3,-2,-1,0,1,2,3\\n\" Empty\n\u003c/pre\u003e\u003cp\u003eWe can clearly see that we are converting to a \u003cem\u003ebinary\u003c/em\u003e format. The '&#955;'\nand '&#246;' characters, which have a Unicode codepoint above 127, are\nexpanded to their corresponding UTF-8 multi-byte representation.\n\u003c/p\u003e\u003cp\u003eWe use the \u003ccode\u003ecriterion\u003c/code\u003e library (\u003ca\u003ehttp://hackage.haskell.org/package/criterion\u003c/a\u003e)\n  to benchmark the efficiency of our encoding function on the following table.\n\u003c/p\u003e\u003cpre\u003eimport Criterion.Main     -- add this import to the ones above\n\nmaxiTable :: Table\nmaxiTable = take 1000 $ cycle table\n\nmain :: IO ()\nmain = defaultMain\n  [ bench \"encodeUtf8CSV maxiTable (original)\" $\n      whnf (L.length . encodeUtf8CSV) maxiTable\n  ]\n\u003c/pre\u003e\u003cp\u003eOn a Core2 Duo 2.20GHz on a 32-bit Linux,\n  the above code takes 1ms to generate the 22'500 bytes long lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\nLooking again at the definitions above,\n  we see that we took care to avoid intermediate data structures,\n  as otherwise we would sacrifice performance.\nFor example,\n  the following (arguably simpler) definition of \u003ccode\u003erenderRow\u003c/code\u003e is about 20% slower.\n\u003c/p\u003e\u003cpre\u003erenderRow :: Row -\u003e Builder\nrenderRow  = mconcat . intersperse (charUtf8 ',') . map renderCell\n\u003c/pre\u003e\u003cp\u003eSimilarly, using \u003cem\u003eO(n)\u003c/em\u003e concatentations like \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e or the equivalent \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e\n  operations on strict and lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es should be avoided.\nThe following definition of \u003ccode\u003erenderString\u003c/code\u003e is also about 20% slower.\n\u003c/p\u003e\u003cpre\u003erenderString :: String -\u003e Builder\nrenderString cs = charUtf8 $ \"\\\"\" ++ concatMap escape cs ++ \"\\\"\"\n  where\n    escape '\\\\' = \"\\\\\"\n    escape '\\\"' = \"\\\\\\\"\"\n    escape c    = return c\n\u003c/pre\u003e\u003cp\u003eApart from removing intermediate data-structures,\n  encodings can be optimized further by fine-tuning their execution\n  parameters using the functions in \u003ca\u003eData.ByteString.Builder.Extra\u003c/a\u003e and\n  their \"inner loops\" using the functions in\n  \u003ca\u003eData.ByteString.Builder.Prim\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "Builder",
           "package": "bytestring-builder",
@@ -2619,6 +2832,7 @@
         "index": {
           "description": "Builder are used to efficiently construct sequences of bytes from smaller parts Typically such construction is part of the implementation of an encoding i.e function for converting Haskell values to sequences of bytes Examples of encodings are the generation of the sequence of bytes representing HTML document to be sent in HTTP response by web application or the serialization of Haskell value using fixed binary format For an efficient implementation of an encoding it is important that little time is spent on converting the Haskell values to the resulting sequence of bytes and that the representation of the resulting sequence is such that it can be consumed efficiently Builder support by providing an concatentation operation and efficient implementations of basic encodings for Char Int and other standard Haskell values They support by providing their result as lazy ByteString which is internally just linked list of pointers to chunks of consecutive raw memory Lazy ByteString can be efficiently consumed by functions that write them to file or send them over network socket Note that each chunk boundary incurs expensive extra work e.g system call that must be amortized over the work spent on consuming the chunk body Builder therefore take special care to ensure that the average chunk size is large enough The precise meaning of large enough is application dependent The current implementation is tuned for an average chunk size between kb and kb which should suit most applications As simple example of an encoding implementation we show how to efficiently convert the following representation of mixed-data tables to an UTF-8 encoded Comma-Separated-Values CSV table data Cell StringC String IntC Int deriving Eq Ord Show type Row Cell type Table Row We use the following imports and abbreviate mappend to simplify reading import qualified Data.ByteString.Lazy as import Data.ByteString.Builder import Data.Monoid import Data.Foldable foldMap import Data.List intersperse infixr Monoid mappend CSV is character-based representation of tables For maximal modularity we could first render Table as String and then encode this String using some Unicode character encoding However this sacrifices performance due to the intermediate String representation being built and thrown away right afterwards We get rid of this intermediate String representation by fixing the character encoding to UTF-8 and using Builder to convert Table directly to UTF-8 encoded CSV tables represented as lazy ByteString encodeUtf8CSV Table L.ByteString encodeUtf8CSV toLazyByteString renderTable renderTable Table Builder renderTable rs mconcat renderRow charUtf8 rs renderRow Row Builder renderRow mempty renderRow cs renderCell mconcat charUtf8 renderCell cs renderCell Cell Builder renderCell StringC cs renderString cs renderCell IntC intDec renderString String Builder renderString cs charUtf8 foldMap escape cs charUtf8 where escape charUtf8 charUtf8 escape charUtf8 charUtf8 escape charUtf8 Note that the ASCII encoding is subset of the UTF-8 encoding which is why we can use the optimized function intDec to encode an Int as decimal number with UTF-8 encoded digits Using intDec is more efficient than stringUtf8 show as it avoids constructing an intermediate String Avoiding this intermediate data structure significantly improves performance because encoding Cell is the core operation for rendering CSV-tables See Data.ByteString.Builder.Prim for further information on how to improve the performance of renderString We demonstrate our UTF-8 CSV encoding function on the following table strings String strings hello rld table Table table map StringC strings map IntC The expression encodeUtf8CSV table results in the following lazy ByteString Chunk hello rld n-3 Empty We can clearly see that we are converting to binary format The and characters which have Unicode codepoint above are expanded to their corresponding UTF-8 multi-byte representation We use the criterion library http hackage.haskell.org package criterion to benchmark the efficiency of our encoding function on the following table import Criterion.Main add this import to the ones above maxiTable Table maxiTable take cycle table main IO main defaultMain bench encodeUtf8CSV maxiTable original whnf L.length encodeUtf8CSV maxiTable On Core2 Duo GHz on bit Linux the above code takes ms to generate the bytes long lazy ByteString Looking again at the definitions above we see that we took care to avoid intermediate data structures as otherwise we would sacrifice performance For example the following arguably simpler definition of renderRow is about slower renderRow Row Builder renderRow mconcat intersperse charUtf8 map renderCell Similarly using concatentations like or the equivalent concat operations on strict and lazy ByteString should be avoided The following definition of renderString is also about slower renderString String Builder renderString cs charUtf8 concatMap escape cs where escape escape escape return Apart from removing intermediate data-structures encodings can be optimized further by fine-tuning their execution parameters using the functions in Data.ByteString.Builder.Extra and their inner loops using the functions in Data.ByteString.Builder.Prim",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "Builder",
           "package": "bytestring-builder",
@@ -2633,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es denote sequences of bytes.\n They are \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003es where\n   \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e is the zero-length sequence and\n   \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e is concatenation, which runs in \u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "Builder",
           "package": "bytestring-builder",
@@ -2642,6 +2857,7 @@
         "index": {
           "description": "Builder denote sequences of bytes They are Monoid where mempty is the zero-length sequence and mappend is concatenation which runs in",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "Builder",
           "package": "bytestring-builder",
@@ -2656,6 +2872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e denoting the same sequence of bytes as a strict\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n The \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e inserts large \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es directly, but copies small ones\n to ensure that the generated chunks are large on average.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "byteString",
           "package": "bytestring-builder",
@@ -2666,6 +2883,7 @@
         "index": {
           "description": "Create Builder denoting the same sequence of bytes as strict ByteString The Builder inserts large ByteString directly but copies small ones to ensure that the generated chunks are large on average",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "byteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -2682,6 +2900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode each byte of a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using its fixed-width hex encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "byteStringHex",
           "package": "bytestring-builder",
@@ -2692,6 +2911,7 @@
         "index": {
           "description": "Encode each byte of ByteString using its fixed-width hex encoding",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "byteStringHex",
           "normalized": "ByteString-\u003eBuilder",
@@ -2708,6 +2928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChar7 encode a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "char7",
           "package": "bytestring-builder",
@@ -2718,6 +2939,7 @@
         "index": {
           "description": "Char7 encode Char",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "char7",
           "normalized": "Char-\u003eBuilder",
@@ -2733,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChar8 encode a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "char8",
           "package": "bytestring-builder",
@@ -2743,6 +2966,7 @@
         "index": {
           "description": "Char8 encode Char",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "char8",
           "normalized": "Char-\u003eBuilder",
@@ -2758,6 +2982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 encode a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "charUtf8",
           "package": "bytestring-builder",
@@ -2768,6 +2993,7 @@
         "index": {
           "description": "UTF-8 encode Char",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "charUtf8",
           "normalized": "Char-\u003eBuilder",
@@ -2784,6 +3010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "doubleBE",
           "package": "bytestring-builder",
@@ -2794,6 +3021,7 @@
         "index": {
           "description": "Encode Double in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "doubleBE",
           "normalized": "Double-\u003eBuilder",
@@ -2810,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eCurrently slow.\u003c/em\u003e Decimal encoding of an IEEE \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "doubleDec",
           "package": "bytestring-builder",
@@ -2820,6 +3049,7 @@
         "index": {
           "description": "Currently slow Decimal encoding of an IEEE Double",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "doubleDec",
           "normalized": "Double-\u003eBuilder",
@@ -2836,6 +3066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an IEEE \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e using 16 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "doubleHexFixed",
           "package": "bytestring-builder",
@@ -2846,6 +3077,7 @@
         "index": {
           "description": "Encode an IEEE Double using nibbles",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "doubleHexFixed",
           "normalized": "Double-\u003eBuilder",
@@ -2862,6 +3094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "doubleLE",
           "package": "bytestring-builder",
@@ -2872,6 +3105,7 @@
         "index": {
           "description": "Encode Double in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "doubleLE",
           "normalized": "Double-\u003eBuilder",
@@ -2888,6 +3122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "floatBE",
           "package": "bytestring-builder",
@@ -2898,6 +3133,7 @@
         "index": {
           "description": "Encode Float in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "floatBE",
           "normalized": "Float-\u003eBuilder",
@@ -2914,6 +3150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eCurrently slow.\u003c/em\u003e Decimal encoding of an IEEE \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "floatDec",
           "package": "bytestring-builder",
@@ -2924,6 +3161,7 @@
         "index": {
           "description": "Currently slow Decimal encoding of an IEEE Float",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "floatDec",
           "normalized": "Float-\u003eBuilder",
@@ -2940,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an IEEE \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e using 8 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "floatHexFixed",
           "package": "bytestring-builder",
@@ -2950,6 +3189,7 @@
         "index": {
           "description": "Encode an IEEE Float using nibbles",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "floatHexFixed",
           "normalized": "Float-\u003eBuilder",
@@ -2966,6 +3206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "floatLE",
           "package": "bytestring-builder",
@@ -2976,6 +3217,7 @@
         "index": {
           "description": "Encode Float in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "floatLE",
           "normalized": "Float-\u003eBuilder",
@@ -2992,6 +3234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n The \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e is executed directly on the buffer of the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e. If the\n buffer is too small (or not present), then it is replaced with a large\n enough buffer.\n\u003c/p\u003e\u003cp\u003eIt is recommended that the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e is set to binary and\n \u003ccode\u003eBlockBuffering\u003c/code\u003e mode. See \u003ccode\u003ehSetBinaryMode\u003c/code\u003e and \u003ccode\u003ehSetBuffering\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function is more efficient than \u003ccode\u003ehPut . \u003ccode\u003e\u003ca\u003etoLazyByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e because in\n many cases no buffer allocation has to be done. Moreover, the results of\n several executions of short \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es are concatenated in the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es\n buffer, therefore avoiding unnecessary buffer flushes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "hPutBuilder",
           "package": "bytestring-builder",
@@ -3002,6 +3245,7 @@
         "index": {
           "description": "Output Builder to Handle The Builder is executed directly on the buffer of the Handle If the buffer is too small or not present then it is replaced with large enough buffer It is recommended that the Handle is set to binary and BlockBuffering mode See hSetBinaryMode and hSetBuffering This function is more efficient than hPut toLazyByteString because in many cases no buffer allocation has to be done Moreover the results of several executions of short Builder are concatenated in the Handle buffer therefore avoiding unnecessary buffer flushes",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "hPutBuilder",
           "normalized": "Handle-\u003eBuilder-\u003eIO()",
@@ -3018,6 +3262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int16BE",
           "package": "bytestring-builder",
@@ -3028,6 +3273,7 @@
         "index": {
           "description": "Encode an Int16 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int16BE",
           "normalized": "Int-\u003eBuilder",
@@ -3044,6 +3290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int16Dec",
           "package": "bytestring-builder",
@@ -3054,6 +3301,7 @@
         "index": {
           "description": "Decimal encoding of an Int16 using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int16Dec",
           "normalized": "Int-\u003eBuilder",
@@ -3070,6 +3318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e using 4 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int16HexFixed",
           "package": "bytestring-builder",
@@ -3080,6 +3329,7 @@
         "index": {
           "description": "Encode Int16 using nibbles",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int16HexFixed",
           "normalized": "Int-\u003eBuilder",
@@ -3096,6 +3346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int16LE",
           "package": "bytestring-builder",
@@ -3106,6 +3357,7 @@
         "index": {
           "description": "Encode an Int16 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int16LE",
           "normalized": "Int-\u003eBuilder",
@@ -3122,6 +3374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int32BE",
           "package": "bytestring-builder",
@@ -3132,6 +3385,7 @@
         "index": {
           "description": "Encode an Int32 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int32BE",
           "normalized": "Int-\u003eBuilder",
@@ -3148,6 +3402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int32Dec",
           "package": "bytestring-builder",
@@ -3158,6 +3413,7 @@
         "index": {
           "description": "Decimal encoding of an Int32 using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int32Dec",
           "normalized": "Int-\u003eBuilder",
@@ -3174,6 +3430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e using 8 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int32HexFixed",
           "package": "bytestring-builder",
@@ -3184,6 +3441,7 @@
         "index": {
           "description": "Encode Int32 using nibbles",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int32HexFixed",
           "normalized": "Int-\u003eBuilder",
@@ -3200,6 +3458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int32LE",
           "package": "bytestring-builder",
@@ -3210,6 +3469,7 @@
         "index": {
           "description": "Encode an Int32 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int32LE",
           "normalized": "Int-\u003eBuilder",
@@ -3226,6 +3486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int64BE",
           "package": "bytestring-builder",
@@ -3236,6 +3497,7 @@
         "index": {
           "description": "Encode an Int64 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int64BE",
           "normalized": "Int-\u003eBuilder",
@@ -3252,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int64Dec",
           "package": "bytestring-builder",
@@ -3262,6 +3525,7 @@
         "index": {
           "description": "Decimal encoding of an Int64 using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int64Dec",
           "normalized": "Int-\u003eBuilder",
@@ -3278,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e using 16 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int64HexFixed",
           "package": "bytestring-builder",
@@ -3288,6 +3553,7 @@
         "index": {
           "description": "Encode Int64 using nibbles",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int64HexFixed",
           "normalized": "Int-\u003eBuilder",
@@ -3304,6 +3570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int64LE",
           "package": "bytestring-builder",
@@ -3314,6 +3581,7 @@
         "index": {
           "description": "Encode an Int64 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int64LE",
           "normalized": "Int-\u003eBuilder",
@@ -3330,6 +3598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a single signed byte as-is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int8",
           "package": "bytestring-builder",
@@ -3340,6 +3609,7 @@
         "index": {
           "description": "Encode single signed byte as-is",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int8",
           "normalized": "Int-\u003eBuilder",
@@ -3355,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt8\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e\u003cp\u003ee.g.\n\u003c/p\u003e\u003cpre\u003e toLazyByteString (int8Dec 42)   = \"42\"\n toLazyByteString (int8Dec (-1)) = \"-1\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int8Dec",
           "package": "bytestring-builder",
@@ -3365,6 +3636,7 @@
         "index": {
           "description": "Decimal encoding of an Int8 using the ASCII digits e.g toLazyByteString int8Dec toLazyByteString int8Dec",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int8Dec",
           "normalized": "Int-\u003eBuilder",
@@ -3381,6 +3653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eInt8\u003c/a\u003e\u003c/code\u003e using 2 nibbles (hexadecimal digits).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "int8HexFixed",
           "package": "bytestring-builder",
@@ -3391,6 +3664,7 @@
         "index": {
           "description": "Encode Int8 using nibbles hexadecimal digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "int8HexFixed",
           "normalized": "Int-\u003eBuilder",
@@ -3407,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "intDec",
           "package": "bytestring-builder",
@@ -3417,6 +3692,7 @@
         "index": {
           "description": "Decimal encoding of an Int using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "intDec",
           "normalized": "Int-\u003eBuilder",
@@ -3433,6 +3709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e using the ASCII digits. Implemented\n using via the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance of \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "integerDec",
           "package": "bytestring-builder",
@@ -3443,6 +3720,7 @@
         "index": {
           "description": "Decimal encoding of an Integer using the ASCII digits Implemented using via the Show instance of Integer",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "integerDec",
           "normalized": "Integer-\u003eBuilder",
@@ -3459,6 +3737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e denoting the same sequence of bytes as a lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n The \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e inserts large chunks of the lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e directly,\n but copies small ones to ensure that the generated chunks are large on\n average.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "lazyByteString",
           "package": "bytestring-builder",
@@ -3469,6 +3748,7 @@
         "index": {
           "description": "Create Builder denoting the same sequence of bytes as lazy ByteString The Builder inserts large chunks of the lazy ByteString directly but copies small ones to ensure that the generated chunks are large on average",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "lazyByteString",
           "normalized": "ByteString-\u003eBuilder",
@@ -3485,6 +3765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode each byte of a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using its fixed-width hex encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "lazyByteStringHex",
           "package": "bytestring-builder",
@@ -3495,6 +3776,7 @@
         "index": {
           "description": "Encode each byte of lazy ByteString using its fixed-width hex encoding",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "lazyByteStringHex",
           "normalized": "ByteString-\u003eBuilder",
@@ -3511,6 +3793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e that copies the \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "shortByteString",
           "package": "bytestring-builder",
@@ -3521,6 +3804,7 @@
         "index": {
           "description": "Construct Builder that copies the ShortByteString",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "shortByteString",
           "normalized": "ShortByteString-\u003eBuilder",
@@ -3537,6 +3821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChar7 encode a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "string7",
           "package": "bytestring-builder",
@@ -3547,6 +3832,7 @@
         "index": {
           "description": "Char7 encode String",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "string7",
           "normalized": "String-\u003eBuilder",
@@ -3562,6 +3848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChar8 encode a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "string8",
           "package": "bytestring-builder",
@@ -3572,6 +3859,7 @@
         "index": {
           "description": "Char8 encode String",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "string8",
           "normalized": "String-\u003eBuilder",
@@ -3587,6 +3875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 encode a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "stringUtf8",
           "package": "bytestring-builder",
@@ -3597,6 +3886,7 @@
         "index": {
           "description": "UTF-8 encode String",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "stringUtf8",
           "normalized": "String-\u003eBuilder",
@@ -3613,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e and return the generated chunks as a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n The work is performed lazy, i.e., only when a chunk of the lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n is forced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "toLazyByteString",
           "package": "bytestring-builder",
@@ -3623,6 +3914,7 @@
         "index": {
           "description": "Execute Builder and return the generated chunks as lazy ByteString The work is performed lazy i.e only when chunk of the lazy ByteString is forced",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "toLazyByteString",
           "normalized": "Builder-\u003eByteString",
@@ -3639,6 +3931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word16BE",
           "package": "bytestring-builder",
@@ -3649,6 +3942,7 @@
         "index": {
           "description": "Encode Word16 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word16BE",
           "normalized": "Word-\u003eBuilder",
@@ -3665,6 +3959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word16Dec",
           "package": "bytestring-builder",
@@ -3675,6 +3970,7 @@
         "index": {
           "description": "Decimal encoding of Word16 using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word16Dec",
           "normalized": "Word-\u003eBuilder",
@@ -3691,6 +3987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortest hexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e using lower-case characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word16Hex",
           "package": "bytestring-builder",
@@ -3701,6 +3998,7 @@
         "index": {
           "description": "Shortest hexadecimal encoding of Word16 using lower-case characters",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word16Hex",
           "normalized": "Word-\u003eBuilder",
@@ -3717,6 +4015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e using 4 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word16HexFixed",
           "package": "bytestring-builder",
@@ -3727,6 +4026,7 @@
         "index": {
           "description": "Encode Word16 using nibbles",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word16HexFixed",
           "normalized": "Word-\u003eBuilder",
@@ -3743,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word16LE",
           "package": "bytestring-builder",
@@ -3753,6 +4054,7 @@
         "index": {
           "description": "Encode Word16 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word16LE",
           "normalized": "Word-\u003eBuilder",
@@ -3769,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word32BE",
           "package": "bytestring-builder",
@@ -3779,6 +4082,7 @@
         "index": {
           "description": "Encode Word32 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word32BE",
           "normalized": "Word-\u003eBuilder",
@@ -3795,6 +4099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word32Dec",
           "package": "bytestring-builder",
@@ -3805,6 +4110,7 @@
         "index": {
           "description": "Decimal encoding of Word32 using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word32Dec",
           "normalized": "Word-\u003eBuilder",
@@ -3821,6 +4127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortest hexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e using lower-case characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word32Hex",
           "package": "bytestring-builder",
@@ -3831,6 +4138,7 @@
         "index": {
           "description": "Shortest hexadecimal encoding of Word32 using lower-case characters",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word32Hex",
           "normalized": "Word-\u003eBuilder",
@@ -3847,6 +4155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e using 8 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word32HexFixed",
           "package": "bytestring-builder",
@@ -3857,6 +4166,7 @@
         "index": {
           "description": "Encode Word32 using nibbles",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word32HexFixed",
           "normalized": "Word-\u003eBuilder",
@@ -3873,6 +4183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word32LE",
           "package": "bytestring-builder",
@@ -3883,6 +4194,7 @@
         "index": {
           "description": "Encode Word32 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word32LE",
           "normalized": "Word-\u003eBuilder",
@@ -3899,6 +4211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in big endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word64BE",
           "package": "bytestring-builder",
@@ -3909,6 +4222,7 @@
         "index": {
           "description": "Encode Word64 in big endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word64BE",
           "normalized": "Word-\u003eBuilder",
@@ -3925,6 +4239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word64Dec",
           "package": "bytestring-builder",
@@ -3935,6 +4250,7 @@
         "index": {
           "description": "Decimal encoding of Word64 using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word64Dec",
           "normalized": "Word-\u003eBuilder",
@@ -3951,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortest hexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e using lower-case characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word64Hex",
           "package": "bytestring-builder",
@@ -3961,6 +4278,7 @@
         "index": {
           "description": "Shortest hexadecimal encoding of Word64 using lower-case characters",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word64Hex",
           "normalized": "Word-\u003eBuilder",
@@ -3977,6 +4295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e using 16 nibbles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word64HexFixed",
           "package": "bytestring-builder",
@@ -3987,6 +4306,7 @@
         "index": {
           "description": "Encode Word64 using nibbles",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word64HexFixed",
           "normalized": "Word-\u003eBuilder",
@@ -4003,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e in little endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word64LE",
           "package": "bytestring-builder",
@@ -4013,6 +4334,7 @@
         "index": {
           "description": "Encode Word64 in little endian format",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word64LE",
           "normalized": "Word-\u003eBuilder",
@@ -4029,6 +4351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a single unsigned byte as-is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word8",
           "package": "bytestring-builder",
@@ -4039,6 +4362,7 @@
         "index": {
           "description": "Encode single unsigned byte as-is",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word8",
           "normalized": "Word-\u003eBuilder",
@@ -4054,6 +4378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word8Dec",
           "package": "bytestring-builder",
@@ -4064,6 +4389,7 @@
         "index": {
           "description": "Decimal encoding of Word8 using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word8Dec",
           "normalized": "Word-\u003eBuilder",
@@ -4080,6 +4406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortest hexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e using lower-case characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word8Hex",
           "package": "bytestring-builder",
@@ -4090,6 +4417,7 @@
         "index": {
           "description": "Shortest hexadecimal encoding of Word8 using lower-case characters",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word8Hex",
           "normalized": "Word-\u003eBuilder",
@@ -4106,6 +4434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e using 2 nibbles (hexadecimal digits).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "word8HexFixed",
           "package": "bytestring-builder",
@@ -4116,6 +4445,7 @@
         "index": {
           "description": "Encode Word8 using nibbles hexadecimal digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "word8HexFixed",
           "normalized": "Word-\u003eBuilder",
@@ -4132,6 +4462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal encoding of a \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e using the ASCII digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "wordDec",
           "package": "bytestring-builder",
@@ -4142,6 +4473,7 @@
         "index": {
           "description": "Decimal encoding of Word using the ASCII digits",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "wordDec",
           "normalized": "Word-\u003eBuilder",
@@ -4158,6 +4490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortest hexadecimal encoding of a \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e using lower-case characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Builder",
           "name": "wordHex",
           "package": "bytestring-builder",
@@ -4168,6 +4501,7 @@
         "index": {
           "description": "Shortest hexadecimal encoding of Word using lower-case characters",
           "hierarchy": "Data ByteString Builder",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Builder",
           "name": "wordHex",
           "normalized": "Word-\u003eBuilder",
@@ -4184,6 +4518,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA compact representation suitable for storing short byte strings in memory.\n\u003c/p\u003e\u003cp\u003eIn typical use cases it can be imported alongside \u003ca\u003eData.ByteString\u003c/a\u003e, e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.ByteString       as B\n import qualified Data.ByteString.Short as B\n          (ShortByteString, toShort, fromShort)\n\u003c/pre\u003e\u003cp\u003eOther \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e operations clash with \u003ca\u003eData.ByteString\u003c/a\u003e or \u003ca\u003ePrelude\u003c/a\u003e\n functions however, so they should be imported \u003ccode\u003equalified\u003c/code\u003e with a different\n alias e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.ByteString.Short as B.Short\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "Short",
           "package": "bytestring-builder",
@@ -4193,6 +4528,7 @@
         "index": {
           "description": "compact representation suitable for storing short byte strings in memory In typical use cases it can be imported alongside Data.ByteString e.g import qualified Data.ByteString as import qualified Data.ByteString.Short as ShortByteString toShort fromShort Other ShortByteString operations clash with Data.ByteString or Prelude functions however so they should be imported qualified with different alias e.g import qualified Data.ByteString.Short as B.Short",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "Short",
           "package": "bytestring-builder",
@@ -4207,6 +4543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compact representation of a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e vector.\n\u003c/p\u003e\u003cp\u003eIt has a lower memory overhead than a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e and and does not\n contribute to heap fragmentation. It can be converted to or from a\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e (at the cost of copying the string data). It supports very few\n other operations.\n\u003c/p\u003e\u003cp\u003eIt is suitable for use as an internal representation for code that needs\n to keep many short strings in memory, but it \u003cem\u003eshould not\u003c/em\u003e be used as an\n interchange type. That is, it should not generally be used in public APIs.\n The \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e type is usually more suitable for use in interfaces; it is\n more flexible and it supports a wide range of operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "ShortByteString",
           "package": "bytestring-builder",
@@ -4216,6 +4553,7 @@
         "index": {
           "description": "compact representation of Word8 vector It has lower memory overhead than ByteString and and does not contribute to heap fragmentation It can be converted to or from ByteString at the cost of copying the string data It supports very few other operations It is suitable for use as an internal representation for code that needs to keep many short strings in memory but it should not be used as an interchange type That is it should not generally be used in public APIs The ByteString type is usually more suitable for use in interfaces it is more flexible and it supports wide range of operations",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "ShortByteString",
           "package": "bytestring-builder",
@@ -4230,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The empty \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "empty",
           "package": "bytestring-builder",
@@ -4240,6 +4579,7 @@
         "index": {
           "description": "The empty ShortByteString",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "empty",
           "package": "bytestring-builder",
@@ -4253,6 +4593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert a \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "fromShort",
           "package": "bytestring-builder",
@@ -4263,6 +4604,7 @@
         "index": {
           "description": "Convert ShortByteString into ByteString",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "fromShort",
           "normalized": "ShortByteString-\u003eByteString",
@@ -4279,6 +4621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e index (subscript) operator, starting from 0. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "index",
           "package": "bytestring-builder",
@@ -4289,6 +4632,7 @@
         "index": {
           "description": "ShortByteString index subscript operator starting from",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "index",
           "normalized": "ShortByteString-\u003eInt-\u003eWord",
@@ -4304,6 +4648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e The length of a \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "length",
           "package": "bytestring-builder",
@@ -4314,6 +4659,7 @@
         "index": {
           "description": "The length of ShortByteString",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "length",
           "normalized": "ShortByteString-\u003eInt",
@@ -4329,6 +4675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Test whether a \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "null",
           "package": "bytestring-builder",
@@ -4339,6 +4686,7 @@
         "index": {
           "description": "Test whether ShortByteString is empty",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "null",
           "normalized": "ShortByteString-\u003eBool",
@@ -4354,6 +4702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert a list into a \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "pack",
           "package": "bytestring-builder",
@@ -4364,6 +4713,7 @@
         "index": {
           "description": "Convert list into ShortByteString",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "pack",
           "normalized": "[Word]-\u003eShortByteString",
@@ -4379,6 +4729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis makes a copy, so does not retain the input string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "toShort",
           "package": "bytestring-builder",
@@ -4389,6 +4740,7 @@
         "index": {
           "description": "Convert ByteString into ShortByteString This makes copy so does not retain the input string",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "toShort",
           "normalized": "ByteString-\u003eShortByteString",
@@ -4405,6 +4757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert a \u003ccode\u003e\u003ca\u003eShortByteString\u003c/a\u003e\u003c/code\u003e into a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:36 UTC 2014",
           "module": "Data.ByteString.Short",
           "name": "unpack",
           "package": "bytestring-builder",
@@ -4415,6 +4768,7 @@
         "index": {
           "description": "Convert ShortByteString into list",
           "hierarchy": "Data ByteString Short",
+          "indexed": "2014-03-11T17:26:36",
           "module": "Data.ByteString.Short",
           "name": "unpack",
           "normalized": "ShortByteString-\u003e[Word]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytedump"
+        "phrase": "bytedump",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing some routines to debug data dump\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "Bytedump",
           "package": "bytedump",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module containing some routines to debug data dump",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "Bytedump",
           "package": "bytedump",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration structure used for formatting functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "BytedumpConfig",
           "package": "bytedump",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Configuration structure used for formatting functions",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "BytedumpConfig",
           "package": "bytedump",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "BytedumpConfig",
           "package": "bytedump",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "BytedumpConfig",
           "package": "bytedump",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring separating cells in row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "configCellSep",
           "package": "bytedump",
@@ -97,6 +104,7 @@
         "index": {
           "description": "string separating cells in row",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "configCellSep",
           "package": "bytedump",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif the printable ascii table is displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "configPrintChar",
           "package": "bytedump",
@@ -121,6 +130,7 @@
         "index": {
           "description": "if the printable ascii table is displayed",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "configPrintChar",
           "package": "bytedump",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring separating groups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "configRowGroupSep",
           "package": "bytedump",
@@ -145,6 +156,7 @@
         "index": {
           "description": "string separating groups",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "configRowGroupSep",
           "package": "bytedump",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of bytes per group per row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "configRowGroupSize",
           "package": "bytedump",
@@ -169,6 +182,7 @@
         "index": {
           "description": "number of bytes per group per row",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "configRowGroupSize",
           "package": "bytedump",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring on the left of the row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "configRowLeft",
           "package": "bytedump",
@@ -193,6 +208,7 @@
         "index": {
           "description": "string on the left of the row",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "configRowLeft",
           "package": "bytedump",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring on the right of the row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "configRowRight",
           "package": "bytedump",
@@ -217,6 +234,7 @@
         "index": {
           "description": "string on the right of the row",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "configRowRight",
           "package": "bytedump",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of bytes per row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "configRowSize",
           "package": "bytedump",
@@ -241,6 +260,7 @@
         "index": {
           "description": "number of bytes per row",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "configRowSize",
           "package": "bytedump",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Config using 16 bytes by row with a separation at the 8th byte, and\n dumping printable ascii character on the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "defaultConfig",
           "package": "bytedump",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Default Config using bytes by row with separation at the th byte and dumping printable ascii character on the right",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "defaultConfig",
           "package": "bytedump",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a list of word8 into a formatted string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dump",
           "package": "bytedump",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Dump list of word8 into formatted string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dump",
           "normalized": "[Word]-\u003eString",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a bytestring into a formatted string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpBS",
           "package": "bytedump",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Dump bytestring into formatted string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpBS",
           "normalized": "ByteString-\u003eString",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump two list of word8 into a formatted string of hex value side by side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpDiff",
           "package": "bytedump",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Dump two list of word8 into formatted string of hex value side by side",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpDiff",
           "normalized": "[Word]-\u003e[Word]-\u003eString",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a bytestring into a formatted string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpDiffBS",
           "package": "bytedump",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Dump bytestring into formatted string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpDiffBS",
           "normalized": "ByteString-\u003eByteString-\u003eString",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a lazy bytestring into a formatted string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpDiffLBS",
           "package": "bytedump",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Dump lazy bytestring into formatted string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpDiffLBS",
           "normalized": "ByteString-\u003eByteString-\u003eString",
@@ -408,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a string into a formatted string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpDiffS",
           "package": "bytedump",
@@ -418,6 +451,7 @@
         "index": {
           "description": "Dump string into formatted string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpDiffS",
           "normalized": "String-\u003eString-\u003eString",
@@ -434,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a lazy bytestring into a formatted string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpLBS",
           "package": "bytedump",
@@ -444,6 +479,7 @@
         "index": {
           "description": "Dump lazy bytestring into formatted string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpLBS",
           "normalized": "ByteString-\u003eString",
@@ -460,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a list of word8 into a raw string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpRaw",
           "package": "bytedump",
@@ -470,6 +507,7 @@
         "index": {
           "description": "Dump list of word8 into raw string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpRaw",
           "normalized": "[Word]-\u003eString",
@@ -486,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a bytestring into a raw string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpRawBS",
           "package": "bytedump",
@@ -496,6 +535,7 @@
         "index": {
           "description": "Dump bytestring into raw string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpRawBS",
           "normalized": "ByteString-\u003eString",
@@ -512,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a lazy bytestring into a raw string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpRawLBS",
           "package": "bytedump",
@@ -522,6 +563,7 @@
         "index": {
           "description": "Dump lazy bytestring into raw string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpRawLBS",
           "normalized": "ByteString-\u003eString",
@@ -538,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a string into a raw string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpRawS",
           "package": "bytedump",
@@ -548,6 +591,7 @@
         "index": {
           "description": "Dump string into raw string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpRawS",
           "normalized": "String-\u003eString",
@@ -564,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a string into a formatted string of hex value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpS",
           "package": "bytedump",
@@ -574,6 +619,7 @@
         "index": {
           "description": "Dump string into formatted string of hex value",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpS",
           "normalized": "String-\u003eString",
@@ -589,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a list of bytes into formatted strings using a specific config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpWith",
           "package": "bytedump",
@@ -599,6 +646,7 @@
         "index": {
           "description": "Dump list of bytes into formatted strings using specific config",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpWith",
           "normalized": "BytedumpConfig-\u003e[Word]-\u003eString",
@@ -615,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a bytestring into formatted strings using a specific config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpWithBS",
           "package": "bytedump",
@@ -625,6 +674,7 @@
         "index": {
           "description": "Dump bytestring into formatted strings using specific config",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpWithBS",
           "normalized": "BytedumpConfig-\u003eByteString-\u003eString",
@@ -641,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a lazy bytestring into formatted strings using a specific config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpWithLBS",
           "package": "bytedump",
@@ -651,6 +702,7 @@
         "index": {
           "description": "Dump lazy bytestring into formatted strings using specific config",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpWithLBS",
           "normalized": "BytedumpConfig-\u003eByteString-\u003eString",
@@ -667,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a string into formatted strings using a specific config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "dumpWithS",
           "package": "bytedump",
@@ -677,6 +730,7 @@
         "index": {
           "description": "Dump string into formatted strings using specific config",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "dumpWithS",
           "normalized": "BytedumpConfig-\u003eString-\u003eString",
@@ -693,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump one byte into a 2 hexadecimal characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:24 UTC 2014",
           "module": "Text.Bytedump",
           "name": "hexString",
           "package": "bytedump",
@@ -703,6 +758,7 @@
         "index": {
           "description": "Dump one byte into hexadecimal characters",
           "hierarchy": "Text Bytedump",
+          "indexed": "2014-03-11T17:26:24",
           "module": "Text.Bytedump",
           "name": "hexString",
           "normalized": "Word-\u003eString",

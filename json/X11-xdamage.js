@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "X11-xdamage"
+        "phrase": "X11-xdamage",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "Xdamage",
           "package": "X11-xdamage",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "Xdamage",
           "package": "X11-xdamage",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDAMAGE is a 32 bit value where the top three bits are guaranteed to be 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "Damage",
           "package": "X11-xdamage",
@@ -49,6 +52,7 @@
         "index": {
           "description": "DAMAGE is bit value where the top three bits are guaranteed to be",
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "Damage",
           "package": "X11-xdamage",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "DamageNotify",
           "package": "X11-xdamage",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "DamageNotify",
           "package": "X11-xdamage",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "DamageReportLevel",
           "package": "X11-xdamage",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "DamageReportLevel",
           "package": "X11-xdamage",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "DamageNotify",
           "package": "X11-xdamage",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "DamageNotify",
           "package": "X11-xdamage",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageAdd",
           "package": "X11-xdamage",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageAdd",
           "normalized": "Display-\u003eDrawable-\u003eRegion-\u003eIO()",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a damage object to monitor changes to Drawable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageCreate",
           "package": "X11-xdamage",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Creates damage object to monitor changes to Drawable",
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageCreate",
           "normalized": "Display-\u003eDrawable-\u003eDamageReportLevel-\u003eIO Damage",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroys damage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageDestroy",
           "package": "X11-xdamage",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Destroys damage",
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageDestroy",
           "normalized": "Display-\u003eDamage-\u003eIO()",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageQueryExtension",
           "package": "X11-xdamage",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageQueryExtension",
           "normalized": "Display-\u003eIO(Maybe(CInt,CInt))",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageQueryVersion",
           "package": "X11-xdamage",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageQueryVersion",
           "normalized": "Display-\u003eIO(Maybe(CInt,CInt))",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageSubtract",
           "package": "X11-xdamage",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdamageSubtract",
           "normalized": "Display-\u003eDamage-\u003eRegion-\u003eRegion-\u003eIO()",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_area",
           "package": "X11-xdamage",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_area",
           "package": "X11-xdamage",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_damage",
           "package": "X11-xdamage",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_damage",
           "package": "X11-xdamage",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_display",
           "package": "X11-xdamage",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_display",
           "package": "X11-xdamage",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_drawable",
           "package": "X11-xdamage",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_drawable",
           "package": "X11-xdamage",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_geometry",
           "package": "X11-xdamage",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_geometry",
           "package": "X11-xdamage",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_level",
           "package": "X11-xdamage",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_level",
           "package": "X11-xdamage",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_more",
           "package": "X11-xdamage",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_more",
           "package": "X11-xdamage",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_send_event",
           "package": "X11-xdamage",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_send_event",
           "package": "X11-xdamage",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_serial",
           "package": "X11-xdamage",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_serial",
           "package": "X11-xdamage",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_timestamp",
           "package": "X11-xdamage",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_timestamp",
           "package": "X11-xdamage",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:16 UTC 2014",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_type",
           "package": "X11-xdamage",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Xdamage",
+          "indexed": "2014-03-11T17:05:16",
           "module": "Graphics.X11.Xdamage",
           "name": "xdn_type",
           "package": "X11-xdamage",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "function-instances-algebra"
+        "phrase": "function-instances-algebra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra.Absolute",
           "name": "Absolute",
           "package": "function-instances-algebra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Function Instances Algebra Absolute",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra.Absolute",
           "name": "Absolute",
           "package": "function-instances-algebra",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra.Algebraic",
           "name": "Algebraic",
           "package": "function-instances-algebra",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Function Instances Algebra Algebraic",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra.Algebraic",
           "name": "Algebraic",
           "package": "function-instances-algebra",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNote: \u003ccode\u003e\u003ccode\u003e\u003ca\u003edifferentiate\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e is not the derivative of\n   \u003ccode\u003ef\u003c/code\u003e. Rather, it is a function that takes one argument \u003ccode\u003ex\u003c/code\u003e\n   and returns the derivative of \u003ccode\u003ef x\u003c/code\u003e. In other words:\n\u003c/p\u003e\u003cpre\u003e differentiate f = \\x -\u003e differentiate (f x)\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra.Differential",
           "name": "Differential",
           "package": "function-instances-algebra",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Note differentiate is not the derivative of Rather it is function that takes one argument and returns the derivative of In other words differentiate differentiate",
           "hierarchy": "Data Function Instances Algebra Differential",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra.Differential",
           "name": "Differential",
           "package": "function-instances-algebra",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra.Field",
           "name": "Field",
           "package": "function-instances-algebra",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Function Instances Algebra Field",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra.Field",
           "name": "Field",
           "package": "function-instances-algebra",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra.Lattice",
           "name": "Lattice",
           "package": "function-instances-algebra",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Function Instances Algebra Lattice",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra.Lattice",
           "name": "Lattice",
           "package": "function-instances-algebra",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra.Monoid",
           "name": "Monoid",
           "package": "function-instances-algebra",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Function Instances Algebra Monoid",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra.Monoid",
           "name": "Monoid",
           "package": "function-instances-algebra",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra.Ring",
           "name": "Ring",
           "package": "function-instances-algebra",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Function Instances Algebra Ring",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra.Ring",
           "name": "Ring",
           "package": "function-instances-algebra",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra.Transcendental",
           "name": "Transcendental",
           "package": "function-instances-algebra",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Function Instances Algebra Transcendental",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra.Transcendental",
           "name": "Transcendental",
           "package": "function-instances-algebra",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImport all Algebra.* instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:24 UTC 2014",
           "module": "Data.Function.Instances.Algebra",
           "name": "Algebra",
           "package": "function-instances-algebra",
@@ -198,6 +215,7 @@
         "index": {
           "description": "Import all Algebra instances",
           "hierarchy": "Data Function Instances Algebra",
+          "indexed": "2014-03-11T18:13:24",
           "module": "Data.Function.Instances.Algebra",
           "name": "Algebra",
           "package": "function-instances-algebra",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hlongurl"
+        "phrase": "hlongurl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "LongURL",
           "package": "hlongurl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "LongURL",
           "package": "hlongurl",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "CurlInstance",
           "package": "hlongurl",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "CurlInstance",
           "package": "hlongurl",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "SupportedSite",
           "package": "hlongurl",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "SupportedSite",
           "package": "hlongurl",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "URLInfo",
           "package": "hlongurl",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "URLInfo",
           "package": "hlongurl",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "CurlInstance",
           "package": "hlongurl",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "CurlInstance",
           "package": "hlongurl",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "SupportedSite",
           "package": "hlongurl",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "SupportedSite",
           "package": "hlongurl",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "URLInfo",
           "package": "hlongurl",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "URLInfo",
           "package": "hlongurl",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "curl",
           "package": "hlongurl",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "curl",
           "package": "hlongurl",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "domains",
           "package": "hlongurl",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "domains",
           "normalized": "[String]",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "longURL",
           "package": "hlongurl",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "longURL",
           "normalized": "CurlInstance-\u003eString-\u003eIO URLInfo",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "longURL'",
           "package": "hlongurl",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "longURL'",
           "package": "hlongurl",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "pageTitle",
           "package": "hlongurl",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "pageTitle",
           "package": "hlongurl",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "siteName",
           "package": "hlongurl",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "siteName",
           "package": "hlongurl",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "supportedSites",
           "package": "hlongurl",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "supportedSites",
           "normalized": "CurlInstance-\u003eIO[SupportedSite]",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Network.LongURL",
           "name": "userAgent",
           "package": "hlongurl",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Network LongURL",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Network.LongURL",
           "name": "userAgent",
           "package": "hlongurl",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLicense     : See the file LICENSE\n\u003c/p\u003e\u003cp\u003eStatus      : Coded\n\u003c/p\u003e\u003cp\u003eCodec for de/encoding URI strings via percent encodings\n (cf. RFC 3986.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "Percent",
           "package": "hlongurl",
@@ -358,6 +389,7 @@
         "index": {
           "description": "License See the file LICENSE Status Coded Codec for de encoding URI strings via percent encodings cf RFC",
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Util.Codec.Percent",
           "name": "Percent",
           "package": "hlongurl",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "getDecodedChar",
           "package": "hlongurl",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Util.Codec.Percent",
           "name": "getDecodedChar",
           "normalized": "String-\u003eMaybe(Char,String)",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "getDecodedString",
           "package": "hlongurl",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Util.Codec.Percent",
           "name": "getDecodedString",
           "normalized": "String-\u003eString",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "getEncodedChar",
           "package": "hlongurl",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Util.Codec.Percent",
           "name": "getEncodedChar",
           "normalized": "Char-\u003eMaybe String",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:28 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "getEncodedString",
           "package": "hlongurl",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:41:28",
           "module": "Util.Codec.Percent",
           "name": "getEncodedString",
           "normalized": "String-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-libusb"
+        "phrase": "bindings-libusb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libusb.sourceforge.net/api-1.0/group__asyncio.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "Asynchronous",
           "package": "bindings-libusb",
@@ -28,6 +29,7 @@
         "index": {
           "description": "http libusb.sourceforge.net api-1.0 group asyncio.html",
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "Asynchronous",
           "package": "bindings-libusb",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_control_setup",
           "package": "bindings-libusb",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_control_setup",
           "package": "bindings-libusb",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_iso_packet_descriptor",
           "package": "bindings-libusb",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_iso_packet_descriptor",
           "package": "bindings-libusb",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer",
           "package": "bindings-libusb",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer",
           "package": "bindings-libusb",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer_cb_fn",
           "package": "bindings-libusb",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer_cb_fn",
           "package": "bindings-libusb",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer_flags",
           "package": "bindings-libusb",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer_flags",
           "package": "bindings-libusb",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer_status",
           "package": "bindings-libusb",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer_status",
           "package": "bindings-libusb",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_control_setup",
           "package": "bindings-libusb",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_control_setup",
           "package": "bindings-libusb",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_iso_packet_descriptor",
           "package": "bindings-libusb",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_iso_packet_descriptor",
           "package": "bindings-libusb",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer",
           "package": "bindings-libusb",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "C'libusb_transfer",
           "package": "bindings-libusb",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_CANCELLED",
           "package": "bindings-libusb",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_CANCELLED",
           "package": "bindings-libusb",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_COMPLETED",
           "package": "bindings-libusb",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_COMPLETED",
           "package": "bindings-libusb",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_ERROR",
           "package": "bindings-libusb",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_ERROR",
           "package": "bindings-libusb",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_FREE_BUFFER",
           "package": "bindings-libusb",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_FREE_BUFFER",
           "package": "bindings-libusb",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_FREE_TRANSFER",
           "package": "bindings-libusb",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_FREE_TRANSFER",
           "package": "bindings-libusb",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_NO_DEVICE",
           "package": "bindings-libusb",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_NO_DEVICE",
           "package": "bindings-libusb",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_OVERFLOW",
           "package": "bindings-libusb",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_OVERFLOW",
           "package": "bindings-libusb",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_SHORT_NOT_OK",
           "package": "bindings-libusb",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_SHORT_NOT_OK",
           "package": "bindings-libusb",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_STALL",
           "package": "bindings-libusb",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_STALL",
           "package": "bindings-libusb",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_TIMED_OUT",
           "package": "bindings-libusb",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'LIBUSB_TRANSFER_TIMED_OUT",
           "package": "bindings-libusb",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_alloc_transfer",
           "package": "bindings-libusb",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_alloc_transfer",
           "normalized": "CInt-\u003eIO(Ptr C'libusb_transfer)",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_cancel_transfer",
           "package": "bindings-libusb",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_cancel_transfer",
           "normalized": "Ptr C'libusb_transfer-\u003eIO CInt",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'bRequest",
           "package": "bindings-libusb",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'bRequest",
           "package": "bindings-libusb",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'bmRequestType",
           "package": "bindings-libusb",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'bmRequestType",
           "package": "bindings-libusb",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'wIndex",
           "package": "bindings-libusb",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'wIndex",
           "package": "bindings-libusb",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'wLength",
           "package": "bindings-libusb",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'wLength",
           "package": "bindings-libusb",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'wValue",
           "package": "bindings-libusb",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_setup'wValue",
           "package": "bindings-libusb",
@@ -609,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_transfer_get_data",
           "package": "bindings-libusb",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_transfer_get_data",
           "normalized": "Ptr C'libusb_transfer-\u003eIO(Ptr CUChar)",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_transfer_get_setup",
           "package": "bindings-libusb",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_control_transfer_get_setup",
           "normalized": "Ptr C'libusb_transfer-\u003eIO(Ptr C'libusb_control_setup)",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_bulk_transfer",
           "package": "bindings-libusb",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_bulk_transfer",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr C'libusb_device_handle-\u003eCUChar-\u003ePtr CUChar-\u003eCInt-\u003eC'libusb_transfer_cb_fn-\u003ePtr()-\u003eCUInt-\u003eIO()",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_control_setup",
           "package": "bindings-libusb",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_control_setup",
           "normalized": "Ptr CUChar-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eIO()",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_control_transfer",
           "package": "bindings-libusb",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_control_transfer",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr C'libusb_device_handle-\u003ePtr CUChar-\u003eC'libusb_transfer_cb_fn-\u003ePtr()-\u003eCUInt-\u003eIO()",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_interrupt_transfer",
           "package": "bindings-libusb",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_interrupt_transfer",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr C'libusb_device_handle-\u003eCUChar-\u003ePtr CUChar-\u003eCInt-\u003eC'libusb_transfer_cb_fn-\u003ePtr()-\u003eCUInt-\u003eIO()",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_iso_transfer",
           "package": "bindings-libusb",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_fill_iso_transfer",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr C'libusb_device_handle-\u003eCUChar-\u003ePtr CUChar-\u003eCInt-\u003eCInt-\u003eC'libusb_transfer_cb_fn-\u003ePtr()-\u003eCUInt-\u003eIO()",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_free_transfer",
           "package": "bindings-libusb",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_free_transfer",
           "normalized": "Ptr C'libusb_transfer-\u003eIO()",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_get_iso_packet_buffer",
           "package": "bindings-libusb",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_get_iso_packet_buffer",
           "normalized": "Ptr C'libusb_transfer-\u003eCUInt-\u003eIO(Ptr CUChar)",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_get_iso_packet_buffer_simple",
           "package": "bindings-libusb",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_get_iso_packet_buffer_simple",
           "normalized": "Ptr C'libusb_transfer-\u003eCUInt-\u003eIO(Ptr CUChar)",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_iso_packet_descriptor'actual_length",
           "package": "bindings-libusb",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_iso_packet_descriptor'actual_length",
           "package": "bindings-libusb",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_iso_packet_descriptor'length",
           "package": "bindings-libusb",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_iso_packet_descriptor'length",
           "package": "bindings-libusb",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_iso_packet_descriptor'status",
           "package": "bindings-libusb",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_iso_packet_descriptor'status",
           "package": "bindings-libusb",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_set_iso_packet_lengths",
           "package": "bindings-libusb",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_set_iso_packet_lengths",
           "normalized": "Ptr C'libusb_transfer-\u003eCUInt-\u003eIO()",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_submit_transfer",
           "package": "bindings-libusb",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_submit_transfer",
           "normalized": "Ptr C'libusb_transfer-\u003eIO CInt",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'actual_length",
           "package": "bindings-libusb",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'actual_length",
           "package": "bindings-libusb",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'buffer",
           "package": "bindings-libusb",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'buffer",
           "package": "bindings-libusb",
@@ -990,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'callback",
           "package": "bindings-libusb",
@@ -999,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'callback",
           "package": "bindings-libusb",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'dev_handle",
           "package": "bindings-libusb",
@@ -1020,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'dev_handle",
           "package": "bindings-libusb",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'endpoint",
           "package": "bindings-libusb",
@@ -1041,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'endpoint",
           "package": "bindings-libusb",
@@ -1053,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'flags",
           "package": "bindings-libusb",
@@ -1062,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'flags",
           "package": "bindings-libusb",
@@ -1074,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'iso_packet_desc",
           "package": "bindings-libusb",
@@ -1083,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'iso_packet_desc",
           "normalized": "[C'libusb_iso_packet_descriptor]",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'length",
           "package": "bindings-libusb",
@@ -1106,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'length",
           "package": "bindings-libusb",
@@ -1118,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'num_iso_packets",
           "package": "bindings-libusb",
@@ -1127,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'num_iso_packets",
           "package": "bindings-libusb",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'status",
           "package": "bindings-libusb",
@@ -1148,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'status",
           "package": "bindings-libusb",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'timeout",
           "package": "bindings-libusb",
@@ -1169,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'timeout",
           "package": "bindings-libusb",
@@ -1181,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'type",
           "package": "bindings-libusb",
@@ -1190,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'type",
           "package": "bindings-libusb",
@@ -1202,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'user_data",
           "package": "bindings-libusb",
@@ -1211,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "c'libusb_transfer'user_data",
           "normalized": "Ptr()",
@@ -1225,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "mK'libusb_transfer_cb_fn",
           "package": "bindings-libusb",
@@ -1234,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "mK'libusb_transfer_cb_fn",
           "normalized": "C'libusb_transfer_cb_fn-\u003ePtr C'libusb_transfer-\u003eIO()",
@@ -1249,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "mk'libusb_transfer_cb_fn",
           "package": "bindings-libusb",
@@ -1258,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "mk'libusb_transfer_cb_fn",
           "normalized": "(Ptr C'libusb_transfer-\u003eIO())-\u003eIO C'libusb_transfer_cb_fn",
@@ -1272,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_alloc_transfer",
           "package": "bindings-libusb",
@@ -1281,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_alloc_transfer",
           "normalized": "FunPtr(CInt-\u003eIO(Ptr C'libusb_transfer))",
@@ -1295,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_cancel_transfer",
           "package": "bindings-libusb",
@@ -1304,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_cancel_transfer",
           "normalized": "FunPtr(Ptr C'libusb_transfer-\u003eIO CInt)",
@@ -1318,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'bRequest",
           "package": "bindings-libusb",
@@ -1327,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'bRequest",
           "normalized": "Ptr C'libusb_control_setup-\u003ePtr Word",
@@ -1342,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'bmRequestType",
           "package": "bindings-libusb",
@@ -1351,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'bmRequestType",
           "normalized": "Ptr C'libusb_control_setup-\u003ePtr Word",
@@ -1366,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'wIndex",
           "package": "bindings-libusb",
@@ -1375,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'wIndex",
           "normalized": "Ptr C'libusb_control_setup-\u003ePtr Word",
@@ -1390,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'wLength",
           "package": "bindings-libusb",
@@ -1399,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'wLength",
           "normalized": "Ptr C'libusb_control_setup-\u003ePtr Word",
@@ -1414,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'wValue",
           "package": "bindings-libusb",
@@ -1423,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_control_setup'wValue",
           "normalized": "Ptr C'libusb_control_setup-\u003ePtr Word",
@@ -1438,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_free_transfer",
           "package": "bindings-libusb",
@@ -1447,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_free_transfer",
           "normalized": "FunPtr(Ptr C'libusb_transfer-\u003eIO())",
@@ -1461,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_iso_packet_descriptor'actual_length",
           "package": "bindings-libusb",
@@ -1470,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_iso_packet_descriptor'actual_length",
           "normalized": "Ptr C'libusb_iso_packet_descriptor-\u003ePtr CUInt",
@@ -1484,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_iso_packet_descriptor'length",
           "package": "bindings-libusb",
@@ -1493,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_iso_packet_descriptor'length",
           "normalized": "Ptr C'libusb_iso_packet_descriptor-\u003ePtr CUInt",
@@ -1507,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_iso_packet_descriptor'status",
           "package": "bindings-libusb",
@@ -1516,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_iso_packet_descriptor'status",
           "normalized": "Ptr C'libusb_iso_packet_descriptor-\u003ePtr C'libusb_transfer_status",
@@ -1530,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_submit_transfer",
           "package": "bindings-libusb",
@@ -1539,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_submit_transfer",
           "normalized": "FunPtr(Ptr C'libusb_transfer-\u003eIO CInt)",
@@ -1553,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'actual_length",
           "package": "bindings-libusb",
@@ -1562,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'actual_length",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr CInt",
@@ -1576,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'buffer",
           "package": "bindings-libusb",
@@ -1585,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'buffer",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr(Ptr CUChar)",
@@ -1599,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'callback",
           "package": "bindings-libusb",
@@ -1608,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'callback",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr C'libusb_transfer_cb_fn",
@@ -1622,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'dev_handle",
           "package": "bindings-libusb",
@@ -1631,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'dev_handle",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr(Ptr C'libusb_device_handle)",
@@ -1645,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'endpoint",
           "package": "bindings-libusb",
@@ -1654,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'endpoint",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr CUChar",
@@ -1668,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'flags",
           "package": "bindings-libusb",
@@ -1677,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'flags",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr Word",
@@ -1691,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'iso_packet_desc",
           "package": "bindings-libusb",
@@ -1700,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'iso_packet_desc",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr C'libusb_iso_packet_descriptor",
@@ -1714,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'length",
           "package": "bindings-libusb",
@@ -1723,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'length",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr CInt",
@@ -1737,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'num_iso_packets",
           "package": "bindings-libusb",
@@ -1746,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'num_iso_packets",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr CInt",
@@ -1760,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'status",
           "package": "bindings-libusb",
@@ -1769,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'status",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr C'libusb_transfer_status",
@@ -1783,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'timeout",
           "package": "bindings-libusb",
@@ -1792,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'timeout",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr CUInt",
@@ -1806,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'type",
           "package": "bindings-libusb",
@@ -1815,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'type",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr CUChar",
@@ -1829,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'user_data",
           "package": "bindings-libusb",
@@ -1838,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Asynchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Asynchronous",
           "name": "p'libusb_transfer'user_data",
           "normalized": "Ptr C'libusb_transfer-\u003ePtr(Ptr())",
@@ -1853,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libusb.sourceforge.net/api-1.0/group__desc.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "Descriptors",
           "package": "bindings-libusb",
@@ -1862,6 +2027,7 @@
         "index": {
           "description": "http libusb.sourceforge.net api-1.0 group desc.html",
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "Descriptors",
           "package": "bindings-libusb",
@@ -1875,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_class_code",
           "package": "bindings-libusb",
@@ -1883,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_class_code",
           "package": "bindings-libusb",
@@ -1896,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_config_descriptor",
           "package": "bindings-libusb",
@@ -1904,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_config_descriptor",
           "package": "bindings-libusb",
@@ -1917,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_descriptor_type",
           "package": "bindings-libusb",
@@ -1925,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_descriptor_type",
           "package": "bindings-libusb",
@@ -1938,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_device_descriptor",
           "package": "bindings-libusb",
@@ -1946,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_device_descriptor",
           "package": "bindings-libusb",
@@ -1959,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_endpoint_descriptor",
           "package": "bindings-libusb",
@@ -1967,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_endpoint_descriptor",
           "package": "bindings-libusb",
@@ -1980,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_endpoint_direction",
           "package": "bindings-libusb",
@@ -1988,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_endpoint_direction",
           "package": "bindings-libusb",
@@ -2001,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_interface",
           "package": "bindings-libusb",
@@ -2009,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_interface",
           "package": "bindings-libusb",
@@ -2022,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_interface_descriptor",
           "package": "bindings-libusb",
@@ -2030,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_interface_descriptor",
           "package": "bindings-libusb",
@@ -2043,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_iso_sync_type",
           "package": "bindings-libusb",
@@ -2051,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_iso_sync_type",
           "package": "bindings-libusb",
@@ -2064,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_iso_usage_type",
           "package": "bindings-libusb",
@@ -2072,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_iso_usage_type",
           "package": "bindings-libusb",
@@ -2085,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_transfer_type",
           "package": "bindings-libusb",
@@ -2093,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_transfer_type",
           "package": "bindings-libusb",
@@ -2106,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_config_descriptor",
           "package": "bindings-libusb",
@@ -2115,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_config_descriptor",
           "package": "bindings-libusb",
@@ -2128,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_device_descriptor",
           "package": "bindings-libusb",
@@ -2137,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_device_descriptor",
           "package": "bindings-libusb",
@@ -2150,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_endpoint_descriptor",
           "package": "bindings-libusb",
@@ -2159,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_endpoint_descriptor",
           "package": "bindings-libusb",
@@ -2172,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_interface",
           "package": "bindings-libusb",
@@ -2181,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_interface",
           "package": "bindings-libusb",
@@ -2194,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_interface_descriptor",
           "package": "bindings-libusb",
@@ -2203,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "C'libusb_interface_descriptor",
           "package": "bindings-libusb",
@@ -2216,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_AUDIO",
           "package": "bindings-libusb",
@@ -2225,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_AUDIO",
           "package": "bindings-libusb",
@@ -2238,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_COMM",
           "package": "bindings-libusb",
@@ -2247,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_COMM",
           "package": "bindings-libusb",
@@ -2260,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_DATA",
           "package": "bindings-libusb",
@@ -2269,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_DATA",
           "package": "bindings-libusb",
@@ -2282,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_HID",
           "package": "bindings-libusb",
@@ -2291,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_HID",
           "package": "bindings-libusb",
@@ -2304,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_HUB",
           "package": "bindings-libusb",
@@ -2313,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_HUB",
           "package": "bindings-libusb",
@@ -2326,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_MASS_STORAGE",
           "package": "bindings-libusb",
@@ -2335,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_MASS_STORAGE",
           "package": "bindings-libusb",
@@ -2348,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_PER_INTERFACE",
           "package": "bindings-libusb",
@@ -2357,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_PER_INTERFACE",
           "package": "bindings-libusb",
@@ -2370,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_PRINTER",
           "package": "bindings-libusb",
@@ -2379,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_PRINTER",
           "package": "bindings-libusb",
@@ -2392,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_PTP",
           "package": "bindings-libusb",
@@ -2401,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_PTP",
           "package": "bindings-libusb",
@@ -2414,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_VENDOR_SPEC",
           "package": "bindings-libusb",
@@ -2423,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_CLASS_VENDOR_SPEC",
           "package": "bindings-libusb",
@@ -2436,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_CONFIG",
           "package": "bindings-libusb",
@@ -2445,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_CONFIG",
           "package": "bindings-libusb",
@@ -2458,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_DEVICE",
           "package": "bindings-libusb",
@@ -2467,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_DEVICE",
           "package": "bindings-libusb",
@@ -2480,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_ENDPOINT",
           "package": "bindings-libusb",
@@ -2489,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_ENDPOINT",
           "package": "bindings-libusb",
@@ -2502,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_HID",
           "package": "bindings-libusb",
@@ -2511,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_HID",
           "package": "bindings-libusb",
@@ -2524,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_HUB",
           "package": "bindings-libusb",
@@ -2533,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_HUB",
           "package": "bindings-libusb",
@@ -2546,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_INTERFACE",
           "package": "bindings-libusb",
@@ -2555,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_INTERFACE",
           "package": "bindings-libusb",
@@ -2568,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_PHYSICAL",
           "package": "bindings-libusb",
@@ -2577,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_PHYSICAL",
           "package": "bindings-libusb",
@@ -2590,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_REPORT",
           "package": "bindings-libusb",
@@ -2599,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_REPORT",
           "package": "bindings-libusb",
@@ -2612,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_STRING",
           "package": "bindings-libusb",
@@ -2621,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_DT_STRING",
           "package": "bindings-libusb",
@@ -2634,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ENDPOINT_IN",
           "package": "bindings-libusb",
@@ -2643,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ENDPOINT_IN",
           "package": "bindings-libusb",
@@ -2656,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ENDPOINT_OUT",
           "package": "bindings-libusb",
@@ -2665,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ENDPOINT_OUT",
           "package": "bindings-libusb",
@@ -2678,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_SYNC_TYPE_ADAPTIVE",
           "package": "bindings-libusb",
@@ -2687,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_SYNC_TYPE_ADAPTIVE",
           "package": "bindings-libusb",
@@ -2700,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_SYNC_TYPE_ASYNC",
           "package": "bindings-libusb",
@@ -2709,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_SYNC_TYPE_ASYNC",
           "package": "bindings-libusb",
@@ -2722,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_SYNC_TYPE_NONE",
           "package": "bindings-libusb",
@@ -2731,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_SYNC_TYPE_NONE",
           "package": "bindings-libusb",
@@ -2744,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_SYNC_TYPE_SYNC",
           "package": "bindings-libusb",
@@ -2753,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_SYNC_TYPE_SYNC",
           "package": "bindings-libusb",
@@ -2766,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_USAGE_TYPE_DATA",
           "package": "bindings-libusb",
@@ -2775,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_USAGE_TYPE_DATA",
           "package": "bindings-libusb",
@@ -2788,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_USAGE_TYPE_FEEDBACK",
           "package": "bindings-libusb",
@@ -2797,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_USAGE_TYPE_FEEDBACK",
           "package": "bindings-libusb",
@@ -2810,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_USAGE_TYPE_IMPLICIT",
           "package": "bindings-libusb",
@@ -2819,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_ISO_USAGE_TYPE_IMPLICIT",
           "package": "bindings-libusb",
@@ -2832,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_TRANSFER_TYPE_BULK",
           "package": "bindings-libusb",
@@ -2841,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_TRANSFER_TYPE_BULK",
           "package": "bindings-libusb",
@@ -2854,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_TRANSFER_TYPE_CONTROL",
           "package": "bindings-libusb",
@@ -2863,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_TRANSFER_TYPE_CONTROL",
           "package": "bindings-libusb",
@@ -2876,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_TRANSFER_TYPE_INTERRUPT",
           "package": "bindings-libusb",
@@ -2885,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_TRANSFER_TYPE_INTERRUPT",
           "package": "bindings-libusb",
@@ -2898,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_TRANSFER_TYPE_ISOCHRONOUS",
           "package": "bindings-libusb",
@@ -2907,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'LIBUSB_TRANSFER_TYPE_ISOCHRONOUS",
           "package": "bindings-libusb",
@@ -2920,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'MaxPower",
           "package": "bindings-libusb",
@@ -2929,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'MaxPower",
           "package": "bindings-libusb",
@@ -2942,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bConfigurationValue",
           "package": "bindings-libusb",
@@ -2951,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bConfigurationValue",
           "package": "bindings-libusb",
@@ -2964,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -2973,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -2986,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bLength",
           "package": "bindings-libusb",
@@ -2995,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bLength",
           "package": "bindings-libusb",
@@ -3008,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bNumInterfaces",
           "package": "bindings-libusb",
@@ -3017,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bNumInterfaces",
           "package": "bindings-libusb",
@@ -3030,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bmAttributes",
           "package": "bindings-libusb",
@@ -3039,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'bmAttributes",
           "package": "bindings-libusb",
@@ -3052,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'extra",
           "package": "bindings-libusb",
@@ -3061,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'extra",
           "package": "bindings-libusb",
@@ -3073,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -3082,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -3094,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'iConfiguration",
           "package": "bindings-libusb",
@@ -3103,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'iConfiguration",
           "package": "bindings-libusb",
@@ -3116,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'interface",
           "package": "bindings-libusb",
@@ -3125,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'interface",
           "package": "bindings-libusb",
@@ -3137,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'wTotalLength",
           "package": "bindings-libusb",
@@ -3146,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_config_descriptor'wTotalLength",
           "package": "bindings-libusb",
@@ -3159,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -3168,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -3181,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bDeviceClass",
           "package": "bindings-libusb",
@@ -3190,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bDeviceClass",
           "package": "bindings-libusb",
@@ -3203,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bDeviceProtocol",
           "package": "bindings-libusb",
@@ -3212,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bDeviceProtocol",
           "package": "bindings-libusb",
@@ -3225,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bDeviceSubClass",
           "package": "bindings-libusb",
@@ -3234,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bDeviceSubClass",
           "package": "bindings-libusb",
@@ -3247,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bLength",
           "package": "bindings-libusb",
@@ -3256,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bLength",
           "package": "bindings-libusb",
@@ -3269,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bMaxPacketSize0",
           "package": "bindings-libusb",
@@ -3278,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bMaxPacketSize0",
           "package": "bindings-libusb",
@@ -3291,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bNumConfigurations",
           "package": "bindings-libusb",
@@ -3300,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bNumConfigurations",
           "package": "bindings-libusb",
@@ -3313,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bcdDevice",
           "package": "bindings-libusb",
@@ -3322,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bcdDevice",
           "package": "bindings-libusb",
@@ -3335,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bcdUSB",
           "package": "bindings-libusb",
@@ -3344,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'bcdUSB",
           "package": "bindings-libusb",
@@ -3357,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'iManufacturer",
           "package": "bindings-libusb",
@@ -3366,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'iManufacturer",
           "package": "bindings-libusb",
@@ -3379,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'iProduct",
           "package": "bindings-libusb",
@@ -3388,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'iProduct",
           "package": "bindings-libusb",
@@ -3401,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'iSerialNumber",
           "package": "bindings-libusb",
@@ -3410,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'iSerialNumber",
           "package": "bindings-libusb",
@@ -3423,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'idProduct",
           "package": "bindings-libusb",
@@ -3432,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'idProduct",
           "package": "bindings-libusb",
@@ -3445,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'idVendor",
           "package": "bindings-libusb",
@@ -3454,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_device_descriptor'idVendor",
           "package": "bindings-libusb",
@@ -3467,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -3476,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -3489,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bEndpointAddress",
           "package": "bindings-libusb",
@@ -3498,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bEndpointAddress",
           "package": "bindings-libusb",
@@ -3511,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bInterval",
           "package": "bindings-libusb",
@@ -3520,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bInterval",
           "package": "bindings-libusb",
@@ -3533,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bLength",
           "package": "bindings-libusb",
@@ -3542,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bLength",
           "package": "bindings-libusb",
@@ -3555,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bRefresh",
           "package": "bindings-libusb",
@@ -3564,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bRefresh",
           "package": "bindings-libusb",
@@ -3577,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bSynchAddress",
           "package": "bindings-libusb",
@@ -3586,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bSynchAddress",
           "package": "bindings-libusb",
@@ -3599,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bmAttributes",
           "package": "bindings-libusb",
@@ -3608,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'bmAttributes",
           "package": "bindings-libusb",
@@ -3621,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'extra",
           "package": "bindings-libusb",
@@ -3630,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'extra",
           "package": "bindings-libusb",
@@ -3642,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -3651,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -3663,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'wMaxPacketSize",
           "package": "bindings-libusb",
@@ -3672,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_endpoint_descriptor'wMaxPacketSize",
           "package": "bindings-libusb",
@@ -3685,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_free_config_descriptor",
           "package": "bindings-libusb",
@@ -3694,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_free_config_descriptor",
           "normalized": "Ptr C'libusb_config_descriptor-\u003eIO()",
@@ -3708,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_active_config_descriptor",
           "package": "bindings-libusb",
@@ -3717,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_active_config_descriptor",
           "normalized": "Ptr C'libusb_device-\u003ePtr(Ptr C'libusb_config_descriptor)-\u003eIO CInt",
@@ -3731,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_config_descriptor",
           "package": "bindings-libusb",
@@ -3740,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_config_descriptor",
           "normalized": "Ptr C'libusb_device-\u003eWord-\u003ePtr(Ptr C'libusb_config_descriptor)-\u003eIO CInt",
@@ -3754,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_config_descriptor_by_value",
           "package": "bindings-libusb",
@@ -3763,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_config_descriptor_by_value",
           "normalized": "Ptr C'libusb_device-\u003eWord-\u003ePtr(Ptr C'libusb_config_descriptor)-\u003eIO CInt",
@@ -3777,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_descriptor",
           "package": "bindings-libusb",
@@ -3786,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_descriptor",
           "normalized": "Ptr C'libusb_device_handle-\u003eWord-\u003eWord-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt",
@@ -3800,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_device_descriptor",
           "package": "bindings-libusb",
@@ -3809,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_device_descriptor",
           "normalized": "Ptr C'libusb_device-\u003ePtr C'libusb_device_descriptor-\u003eIO CInt",
@@ -3823,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_string_descriptor",
           "package": "bindings-libusb",
@@ -3832,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_string_descriptor",
           "normalized": "Ptr C'libusb_device_handle-\u003eWord-\u003eWord-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt",
@@ -3846,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_string_descriptor_ascii",
           "package": "bindings-libusb",
@@ -3855,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_get_string_descriptor_ascii",
           "normalized": "Ptr C'libusb_device_handle-\u003eWord-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt",
@@ -3869,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface'altsetting",
           "package": "bindings-libusb",
@@ -3878,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface'altsetting",
           "package": "bindings-libusb",
@@ -3890,6 +4240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface'num_altsetting",
           "package": "bindings-libusb",
@@ -3899,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface'num_altsetting",
           "package": "bindings-libusb",
@@ -3911,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bAlternateSetting",
           "package": "bindings-libusb",
@@ -3920,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bAlternateSetting",
           "package": "bindings-libusb",
@@ -3933,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -3942,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -3955,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bInterfaceClass",
           "package": "bindings-libusb",
@@ -3964,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bInterfaceClass",
           "package": "bindings-libusb",
@@ -3977,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bInterfaceNumber",
           "package": "bindings-libusb",
@@ -3986,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bInterfaceNumber",
           "package": "bindings-libusb",
@@ -3999,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bInterfaceProtocol",
           "package": "bindings-libusb",
@@ -4008,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bInterfaceProtocol",
           "package": "bindings-libusb",
@@ -4021,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bInterfaceSubClass",
           "package": "bindings-libusb",
@@ -4030,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bInterfaceSubClass",
           "package": "bindings-libusb",
@@ -4043,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bLength",
           "package": "bindings-libusb",
@@ -4052,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bLength",
           "package": "bindings-libusb",
@@ -4065,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bNumEndpoints",
           "package": "bindings-libusb",
@@ -4074,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'bNumEndpoints",
           "package": "bindings-libusb",
@@ -4087,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'endpoint",
           "package": "bindings-libusb",
@@ -4096,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'endpoint",
           "package": "bindings-libusb",
@@ -4108,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'extra",
           "package": "bindings-libusb",
@@ -4117,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'extra",
           "package": "bindings-libusb",
@@ -4129,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -4138,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -4150,6 +4524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'iInterface",
           "package": "bindings-libusb",
@@ -4159,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "c'libusb_interface_descriptor'iInterface",
           "package": "bindings-libusb",
@@ -4172,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'MaxPower",
           "package": "bindings-libusb",
@@ -4181,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'MaxPower",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr Word",
@@ -4196,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bConfigurationValue",
           "package": "bindings-libusb",
@@ -4205,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bConfigurationValue",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr Word",
@@ -4220,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -4229,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bDescriptorType",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr Word",
@@ -4244,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bLength",
           "package": "bindings-libusb",
@@ -4253,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bLength",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr Word",
@@ -4268,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bNumInterfaces",
           "package": "bindings-libusb",
@@ -4277,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bNumInterfaces",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr Word",
@@ -4292,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bmAttributes",
           "package": "bindings-libusb",
@@ -4301,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'bmAttributes",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr Word",
@@ -4316,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'extra",
           "package": "bindings-libusb",
@@ -4325,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'extra",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr(Ptr CUChar)",
@@ -4339,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -4348,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'extra_length",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr CInt",
@@ -4362,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'iConfiguration",
           "package": "bindings-libusb",
@@ -4371,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'iConfiguration",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr Word",
@@ -4386,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'interface",
           "package": "bindings-libusb",
@@ -4395,6 +4790,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'interface",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr(Ptr C'libusb_interface)",
@@ -4409,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'wTotalLength",
           "package": "bindings-libusb",
@@ -4418,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_config_descriptor'wTotalLength",
           "normalized": "Ptr C'libusb_config_descriptor-\u003ePtr Word",
@@ -4433,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -4442,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bDescriptorType",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4457,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bDeviceClass",
           "package": "bindings-libusb",
@@ -4466,6 +4867,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bDeviceClass",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4481,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bDeviceProtocol",
           "package": "bindings-libusb",
@@ -4490,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bDeviceProtocol",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4505,6 +4909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bDeviceSubClass",
           "package": "bindings-libusb",
@@ -4514,6 +4919,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bDeviceSubClass",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4529,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bLength",
           "package": "bindings-libusb",
@@ -4538,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bLength",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4553,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bMaxPacketSize0",
           "package": "bindings-libusb",
@@ -4562,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bMaxPacketSize0",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4577,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bNumConfigurations",
           "package": "bindings-libusb",
@@ -4586,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bNumConfigurations",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4601,6 +5013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bcdDevice",
           "package": "bindings-libusb",
@@ -4610,6 +5023,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bcdDevice",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4625,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bcdUSB",
           "package": "bindings-libusb",
@@ -4634,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'bcdUSB",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4649,6 +5065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'iManufacturer",
           "package": "bindings-libusb",
@@ -4658,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'iManufacturer",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4673,6 +5091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'iProduct",
           "package": "bindings-libusb",
@@ -4682,6 +5101,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'iProduct",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4697,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'iSerialNumber",
           "package": "bindings-libusb",
@@ -4706,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'iSerialNumber",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4721,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'idProduct",
           "package": "bindings-libusb",
@@ -4730,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'idProduct",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4745,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'idVendor",
           "package": "bindings-libusb",
@@ -4754,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_device_descriptor'idVendor",
           "normalized": "Ptr C'libusb_device_descriptor-\u003ePtr Word",
@@ -4769,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -4778,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bDescriptorType",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr Word",
@@ -4793,6 +5221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bEndpointAddress",
           "package": "bindings-libusb",
@@ -4802,6 +5231,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bEndpointAddress",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr Word",
@@ -4817,6 +5247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bInterval",
           "package": "bindings-libusb",
@@ -4826,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bInterval",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr Word",
@@ -4841,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bLength",
           "package": "bindings-libusb",
@@ -4850,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bLength",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr Word",
@@ -4865,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bRefresh",
           "package": "bindings-libusb",
@@ -4874,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bRefresh",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr Word",
@@ -4889,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bSynchAddress",
           "package": "bindings-libusb",
@@ -4898,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bSynchAddress",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr Word",
@@ -4913,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bmAttributes",
           "package": "bindings-libusb",
@@ -4922,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'bmAttributes",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr Word",
@@ -4937,6 +5377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'extra",
           "package": "bindings-libusb",
@@ -4946,6 +5387,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'extra",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr(Ptr CUChar)",
@@ -4960,6 +5402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -4969,6 +5412,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'extra_length",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr CInt",
@@ -4983,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'wMaxPacketSize",
           "package": "bindings-libusb",
@@ -4992,6 +5437,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_endpoint_descriptor'wMaxPacketSize",
           "normalized": "Ptr C'libusb_endpoint_descriptor-\u003ePtr Word",
@@ -5007,6 +5453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_free_config_descriptor",
           "package": "bindings-libusb",
@@ -5016,6 +5463,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_free_config_descriptor",
           "normalized": "FunPtr(Ptr C'libusb_config_descriptor-\u003eIO())",
@@ -5030,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_active_config_descriptor",
           "package": "bindings-libusb",
@@ -5039,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_active_config_descriptor",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003ePtr(Ptr C'libusb_config_descriptor)-\u003eIO CInt)",
@@ -5053,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_config_descriptor",
           "package": "bindings-libusb",
@@ -5062,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_config_descriptor",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003eWord-\u003ePtr(Ptr C'libusb_config_descriptor)-\u003eIO CInt)",
@@ -5076,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_config_descriptor_by_value",
           "package": "bindings-libusb",
@@ -5085,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_config_descriptor_by_value",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003eWord-\u003ePtr(Ptr C'libusb_config_descriptor)-\u003eIO CInt)",
@@ -5099,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_device_descriptor",
           "package": "bindings-libusb",
@@ -5108,6 +5563,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_device_descriptor",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003ePtr C'libusb_device_descriptor-\u003eIO CInt)",
@@ -5122,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_string_descriptor_ascii",
           "package": "bindings-libusb",
@@ -5131,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_get_string_descriptor_ascii",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eWord-\u003ePtr CUChar-\u003eCInt-\u003eIO CInt)",
@@ -5145,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface'altsetting",
           "package": "bindings-libusb",
@@ -5154,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface'altsetting",
           "normalized": "Ptr C'libusb_interface-\u003ePtr(Ptr C'libusb_interface_descriptor)",
@@ -5168,6 +5628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface'num_altsetting",
           "package": "bindings-libusb",
@@ -5177,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface'num_altsetting",
           "normalized": "Ptr C'libusb_interface-\u003ePtr CInt",
@@ -5191,6 +5653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bAlternateSetting",
           "package": "bindings-libusb",
@@ -5200,6 +5663,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bAlternateSetting",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5215,6 +5679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bDescriptorType",
           "package": "bindings-libusb",
@@ -5224,6 +5689,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bDescriptorType",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5239,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bInterfaceClass",
           "package": "bindings-libusb",
@@ -5248,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bInterfaceClass",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5263,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bInterfaceNumber",
           "package": "bindings-libusb",
@@ -5272,6 +5741,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bInterfaceNumber",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5287,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bInterfaceProtocol",
           "package": "bindings-libusb",
@@ -5296,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bInterfaceProtocol",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5311,6 +5783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bInterfaceSubClass",
           "package": "bindings-libusb",
@@ -5320,6 +5793,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bInterfaceSubClass",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5335,6 +5809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bLength",
           "package": "bindings-libusb",
@@ -5344,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bLength",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5359,6 +5835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bNumEndpoints",
           "package": "bindings-libusb",
@@ -5368,6 +5845,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'bNumEndpoints",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5383,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'endpoint",
           "package": "bindings-libusb",
@@ -5392,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'endpoint",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr(Ptr C'libusb_endpoint_descriptor)",
@@ -5406,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'extra",
           "package": "bindings-libusb",
@@ -5415,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'extra",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr(Ptr CUChar)",
@@ -5429,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'extra_length",
           "package": "bindings-libusb",
@@ -5438,6 +5921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'extra_length",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr CInt",
@@ -5452,6 +5936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'iInterface",
           "package": "bindings-libusb",
@@ -5461,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Descriptors",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Descriptors",
           "name": "p'libusb_interface_descriptor'iInterface",
           "normalized": "Ptr C'libusb_interface_descriptor-\u003ePtr Word",
@@ -5477,6 +5963,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libusb.sourceforge.net/api-1.0/group__dev.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "HandlingAndEnumeration",
           "package": "bindings-libusb",
@@ -5486,6 +5973,7 @@
         "index": {
           "description": "http libusb.sourceforge.net api-1.0 group dev.html",
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "HandlingAndEnumeration",
           "package": "bindings-libusb",
@@ -5499,6 +5987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'libusb_device",
           "package": "bindings-libusb",
@@ -5507,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'libusb_device",
           "package": "bindings-libusb",
@@ -5520,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'libusb_device_handle",
           "package": "bindings-libusb",
@@ -5528,6 +6019,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'libusb_device_handle",
           "package": "bindings-libusb",
@@ -5541,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'ssize_t",
           "package": "bindings-libusb",
@@ -5549,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'ssize_t",
           "package": "bindings-libusb",
@@ -5562,6 +6056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'libusb_device",
           "package": "bindings-libusb",
@@ -5571,6 +6066,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'libusb_device",
           "package": "bindings-libusb",
@@ -5584,6 +6080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'libusb_device_handle",
           "package": "bindings-libusb",
@@ -5593,6 +6090,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "C'libusb_device_handle",
           "package": "bindings-libusb",
@@ -5606,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_attach_kernel_driver",
           "package": "bindings-libusb",
@@ -5615,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_attach_kernel_driver",
           "normalized": "Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt",
@@ -5629,6 +6129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_claim_interface",
           "package": "bindings-libusb",
@@ -5638,6 +6139,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_claim_interface",
           "normalized": "Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt",
@@ -5652,6 +6154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_clear_halt",
           "package": "bindings-libusb",
@@ -5661,6 +6164,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_clear_halt",
           "normalized": "Ptr C'libusb_device_handle-\u003eCUChar-\u003eIO CInt",
@@ -5675,6 +6179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_close",
           "package": "bindings-libusb",
@@ -5684,6 +6189,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_close",
           "normalized": "Ptr C'libusb_device_handle-\u003eIO()",
@@ -5698,6 +6204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_detach_kernel_driver",
           "package": "bindings-libusb",
@@ -5707,6 +6214,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_detach_kernel_driver",
           "normalized": "Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt",
@@ -5721,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_free_device_list",
           "package": "bindings-libusb",
@@ -5730,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_free_device_list",
           "normalized": "Ptr(Ptr C'libusb_device)-\u003eCInt-\u003eIO()",
@@ -5744,6 +6254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_bus_number",
           "package": "bindings-libusb",
@@ -5753,6 +6264,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_bus_number",
           "normalized": "Ptr C'libusb_device-\u003eIO Word",
@@ -5767,6 +6279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_configuration",
           "package": "bindings-libusb",
@@ -5776,6 +6289,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_configuration",
           "normalized": "Ptr C'libusb_device_handle-\u003ePtr CInt-\u003eIO CInt",
@@ -5790,6 +6304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_device",
           "package": "bindings-libusb",
@@ -5799,6 +6314,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_device",
           "normalized": "Ptr C'libusb_device_handle-\u003eIO(Ptr C'libusb_device)",
@@ -5813,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_device_address",
           "package": "bindings-libusb",
@@ -5822,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_device_address",
           "normalized": "Ptr C'libusb_device-\u003eIO Word",
@@ -5836,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_device_list",
           "package": "bindings-libusb",
@@ -5845,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_device_list",
           "normalized": "Ptr C'libusb_context-\u003ePtr(Ptr(Ptr C'libusb_device))-\u003eIO C'ssize_t",
@@ -5859,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_max_iso_packet_size",
           "package": "bindings-libusb",
@@ -5868,6 +6389,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_max_iso_packet_size",
           "normalized": "Ptr C'libusb_device-\u003eCUChar-\u003eIO CInt",
@@ -5882,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_max_packet_size",
           "package": "bindings-libusb",
@@ -5891,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_get_max_packet_size",
           "normalized": "Ptr C'libusb_device-\u003eCUChar-\u003eIO CInt",
@@ -5905,6 +6429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_kernel_driver_active",
           "package": "bindings-libusb",
@@ -5914,6 +6439,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_kernel_driver_active",
           "normalized": "Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt",
@@ -5928,6 +6454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_open",
           "package": "bindings-libusb",
@@ -5937,6 +6464,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_open",
           "normalized": "Ptr C'libusb_device-\u003ePtr(Ptr C'libusb_device_handle)-\u003eIO CInt",
@@ -5951,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_open_device_with_vid_pid",
           "package": "bindings-libusb",
@@ -5960,6 +6489,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_open_device_with_vid_pid",
           "normalized": "Ptr C'libusb_context-\u003eWord-\u003eWord-\u003eIO(Ptr C'libusb_device_handle)",
@@ -5974,6 +6504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_ref_device",
           "package": "bindings-libusb",
@@ -5983,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_ref_device",
           "normalized": "Ptr C'libusb_device-\u003eIO(Ptr C'libusb_device)",
@@ -5997,6 +6529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_release_interface",
           "package": "bindings-libusb",
@@ -6006,6 +6539,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_release_interface",
           "normalized": "Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt",
@@ -6020,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_reset_device",
           "package": "bindings-libusb",
@@ -6029,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_reset_device",
           "normalized": "Ptr C'libusb_device_handle-\u003eIO CInt",
@@ -6043,6 +6579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_set_configuration",
           "package": "bindings-libusb",
@@ -6052,6 +6589,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_set_configuration",
           "normalized": "Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt",
@@ -6066,6 +6604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_set_interface_alt_setting",
           "package": "bindings-libusb",
@@ -6075,6 +6614,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_set_interface_alt_setting",
           "normalized": "Ptr C'libusb_device_handle-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -6089,6 +6629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_unref_device",
           "package": "bindings-libusb",
@@ -6098,6 +6639,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "c'libusb_unref_device",
           "normalized": "Ptr C'libusb_device-\u003eIO()",
@@ -6112,6 +6654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_attach_kernel_driver",
           "package": "bindings-libusb",
@@ -6121,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_attach_kernel_driver",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt)",
@@ -6135,6 +6679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_claim_interface",
           "package": "bindings-libusb",
@@ -6144,6 +6689,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_claim_interface",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt)",
@@ -6158,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_clear_halt",
           "package": "bindings-libusb",
@@ -6167,6 +6714,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_clear_halt",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCUChar-\u003eIO CInt)",
@@ -6181,6 +6729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_close",
           "package": "bindings-libusb",
@@ -6190,6 +6739,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_close",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eIO())",
@@ -6204,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_detach_kernel_driver",
           "package": "bindings-libusb",
@@ -6213,6 +6764,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_detach_kernel_driver",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt)",
@@ -6227,6 +6779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_free_device_list",
           "package": "bindings-libusb",
@@ -6236,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_free_device_list",
           "normalized": "FunPtr(Ptr(Ptr C'libusb_device)-\u003eCInt-\u003eIO())",
@@ -6250,6 +6804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_bus_number",
           "package": "bindings-libusb",
@@ -6259,6 +6814,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_bus_number",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003eIO Word)",
@@ -6273,6 +6829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_configuration",
           "package": "bindings-libusb",
@@ -6282,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_configuration",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003ePtr CInt-\u003eIO CInt)",
@@ -6296,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_device",
           "package": "bindings-libusb",
@@ -6305,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_device",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eIO(Ptr C'libusb_device))",
@@ -6319,6 +6879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_device_address",
           "package": "bindings-libusb",
@@ -6328,6 +6889,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_device_address",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003eIO Word)",
@@ -6342,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_device_list",
           "package": "bindings-libusb",
@@ -6351,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_device_list",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003ePtr(Ptr(Ptr C'libusb_device))-\u003eIO C'ssize_t)",
@@ -6365,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_max_iso_packet_size",
           "package": "bindings-libusb",
@@ -6374,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_max_iso_packet_size",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003eCUChar-\u003eIO CInt)",
@@ -6388,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_max_packet_size",
           "package": "bindings-libusb",
@@ -6397,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_get_max_packet_size",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003eCUChar-\u003eIO CInt)",
@@ -6411,6 +6979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_kernel_driver_active",
           "package": "bindings-libusb",
@@ -6420,6 +6989,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_kernel_driver_active",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt)",
@@ -6434,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_open",
           "package": "bindings-libusb",
@@ -6443,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_open",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003ePtr(Ptr C'libusb_device_handle)-\u003eIO CInt)",
@@ -6457,6 +7029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_open_device_with_vid_pid",
           "package": "bindings-libusb",
@@ -6466,6 +7039,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_open_device_with_vid_pid",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eWord-\u003eWord-\u003eIO(Ptr C'libusb_device_handle))",
@@ -6480,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_ref_device",
           "package": "bindings-libusb",
@@ -6489,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_ref_device",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003eIO(Ptr C'libusb_device))",
@@ -6503,6 +7079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_release_interface",
           "package": "bindings-libusb",
@@ -6512,6 +7089,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_release_interface",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt)",
@@ -6526,6 +7104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_reset_device",
           "package": "bindings-libusb",
@@ -6535,6 +7114,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_reset_device",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eIO CInt)",
@@ -6549,6 +7129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_set_configuration",
           "package": "bindings-libusb",
@@ -6558,6 +7139,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_set_configuration",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCInt-\u003eIO CInt)",
@@ -6572,6 +7154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_set_interface_alt_setting",
           "package": "bindings-libusb",
@@ -6581,6 +7164,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_set_interface_alt_setting",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -6595,6 +7179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_unref_device",
           "package": "bindings-libusb",
@@ -6604,6 +7189,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb HandlingAndEnumeration",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.HandlingAndEnumeration",
           "name": "p'libusb_unref_device",
           "normalized": "FunPtr(Ptr C'libusb_device-\u003eIO())",
@@ -6619,6 +7205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libusb.sourceforge.net/api-1.0/group__lib.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "InitializationDeinitialization",
           "package": "bindings-libusb",
@@ -6628,6 +7215,7 @@
         "index": {
           "description": "http libusb.sourceforge.net api-1.0 group lib.html",
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "InitializationDeinitialization",
           "package": "bindings-libusb",
@@ -6641,6 +7229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "C'libusb_context",
           "package": "bindings-libusb",
@@ -6649,6 +7238,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "C'libusb_context",
           "package": "bindings-libusb",
@@ -6662,6 +7252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "C'libusb_context",
           "package": "bindings-libusb",
@@ -6671,6 +7262,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "C'libusb_context",
           "package": "bindings-libusb",
@@ -6684,6 +7276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "c'libusb_exit",
           "package": "bindings-libusb",
@@ -6693,6 +7286,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "c'libusb_exit",
           "normalized": "Ptr C'libusb_context-\u003eIO()",
@@ -6707,6 +7301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "c'libusb_init",
           "package": "bindings-libusb",
@@ -6716,6 +7311,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "c'libusb_init",
           "normalized": "Ptr(Ptr C'libusb_context)-\u003eIO CInt",
@@ -6730,6 +7326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "c'libusb_set_debug",
           "package": "bindings-libusb",
@@ -6739,6 +7336,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "c'libusb_set_debug",
           "normalized": "Ptr C'libusb_context-\u003eCInt-\u003eIO()",
@@ -6753,6 +7351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "p'libusb_exit",
           "package": "bindings-libusb",
@@ -6762,6 +7361,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "p'libusb_exit",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO())",
@@ -6776,6 +7376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "p'libusb_init",
           "package": "bindings-libusb",
@@ -6785,6 +7386,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "p'libusb_init",
           "normalized": "FunPtr(Ptr(Ptr C'libusb_context)-\u003eIO CInt)",
@@ -6799,6 +7401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "p'libusb_set_debug",
           "package": "bindings-libusb",
@@ -6808,6 +7411,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb InitializationDeinitialization",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.InitializationDeinitialization",
           "name": "p'libusb_set_debug",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eCInt-\u003eIO())",
@@ -6823,6 +7427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libusb.sourceforge.net/api-1.0/group__misc.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "Miscellaneous",
           "package": "bindings-libusb",
@@ -6832,6 +7437,7 @@
         "index": {
           "description": "http libusb.sourceforge.net api-1.0 group misc.html",
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "Miscellaneous",
           "package": "bindings-libusb",
@@ -6845,6 +7451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "C'libusb_error",
           "package": "bindings-libusb",
@@ -6853,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "C'libusb_error",
           "package": "bindings-libusb",
@@ -6866,6 +7474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "C'libusb_request_recipient",
           "package": "bindings-libusb",
@@ -6874,6 +7483,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "C'libusb_request_recipient",
           "package": "bindings-libusb",
@@ -6887,6 +7497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "C'libusb_request_type",
           "package": "bindings-libusb",
@@ -6895,6 +7506,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "C'libusb_request_type",
           "package": "bindings-libusb",
@@ -6908,6 +7520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "C'libusb_standard_request",
           "package": "bindings-libusb",
@@ -6916,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "C'libusb_standard_request",
           "package": "bindings-libusb",
@@ -6929,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_ACCESS",
           "package": "bindings-libusb",
@@ -6938,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_ACCESS",
           "package": "bindings-libusb",
@@ -6951,6 +7567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_BUSY",
           "package": "bindings-libusb",
@@ -6960,6 +7577,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_BUSY",
           "package": "bindings-libusb",
@@ -6973,6 +7591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_INTERRUPTED",
           "package": "bindings-libusb",
@@ -6982,6 +7601,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_INTERRUPTED",
           "package": "bindings-libusb",
@@ -6995,6 +7615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_INVALID_PARAM",
           "package": "bindings-libusb",
@@ -7004,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_INVALID_PARAM",
           "package": "bindings-libusb",
@@ -7017,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_IO",
           "package": "bindings-libusb",
@@ -7026,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_IO",
           "package": "bindings-libusb",
@@ -7039,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_NOT_FOUND",
           "package": "bindings-libusb",
@@ -7048,6 +7673,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_NOT_FOUND",
           "package": "bindings-libusb",
@@ -7061,6 +7687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_NOT_SUPPORTED",
           "package": "bindings-libusb",
@@ -7070,6 +7697,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_NOT_SUPPORTED",
           "package": "bindings-libusb",
@@ -7083,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_NO_DEVICE",
           "package": "bindings-libusb",
@@ -7092,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_NO_DEVICE",
           "package": "bindings-libusb",
@@ -7105,6 +7735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_NO_MEM",
           "package": "bindings-libusb",
@@ -7114,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_NO_MEM",
           "package": "bindings-libusb",
@@ -7127,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_OTHER",
           "package": "bindings-libusb",
@@ -7136,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_OTHER",
           "package": "bindings-libusb",
@@ -7149,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_OVERFLOW",
           "package": "bindings-libusb",
@@ -7158,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_OVERFLOW",
           "package": "bindings-libusb",
@@ -7171,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_PIPE",
           "package": "bindings-libusb",
@@ -7180,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_PIPE",
           "package": "bindings-libusb",
@@ -7193,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_TIMEOUT",
           "package": "bindings-libusb",
@@ -7202,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_ERROR_TIMEOUT",
           "package": "bindings-libusb",
@@ -7215,6 +7855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_RECIPIENT_DEVICE",
           "package": "bindings-libusb",
@@ -7224,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_RECIPIENT_DEVICE",
           "package": "bindings-libusb",
@@ -7237,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_RECIPIENT_ENDPOINT",
           "package": "bindings-libusb",
@@ -7246,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_RECIPIENT_ENDPOINT",
           "package": "bindings-libusb",
@@ -7259,6 +7903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_RECIPIENT_INTERFACE",
           "package": "bindings-libusb",
@@ -7268,6 +7913,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_RECIPIENT_INTERFACE",
           "package": "bindings-libusb",
@@ -7281,6 +7927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_RECIPIENT_OTHER",
           "package": "bindings-libusb",
@@ -7290,6 +7937,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_RECIPIENT_OTHER",
           "package": "bindings-libusb",
@@ -7303,6 +7951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_CLEAR_FEATURE",
           "package": "bindings-libusb",
@@ -7312,6 +7961,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_CLEAR_FEATURE",
           "package": "bindings-libusb",
@@ -7325,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_GET_CONFIGURATION",
           "package": "bindings-libusb",
@@ -7334,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_GET_CONFIGURATION",
           "package": "bindings-libusb",
@@ -7347,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_GET_DESCRIPTOR",
           "package": "bindings-libusb",
@@ -7356,6 +8009,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_GET_DESCRIPTOR",
           "package": "bindings-libusb",
@@ -7369,6 +8023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_GET_INTERFACE",
           "package": "bindings-libusb",
@@ -7378,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_GET_INTERFACE",
           "package": "bindings-libusb",
@@ -7391,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_GET_STATUS",
           "package": "bindings-libusb",
@@ -7400,6 +8057,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_GET_STATUS",
           "package": "bindings-libusb",
@@ -7413,6 +8071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_ADDRESS",
           "package": "bindings-libusb",
@@ -7422,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_ADDRESS",
           "package": "bindings-libusb",
@@ -7435,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_CONFIGURATION",
           "package": "bindings-libusb",
@@ -7444,6 +8105,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_CONFIGURATION",
           "package": "bindings-libusb",
@@ -7457,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_DESCRIPTOR",
           "package": "bindings-libusb",
@@ -7466,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_DESCRIPTOR",
           "package": "bindings-libusb",
@@ -7479,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_FEATURE",
           "package": "bindings-libusb",
@@ -7488,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_FEATURE",
           "package": "bindings-libusb",
@@ -7501,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_INTERFACE",
           "package": "bindings-libusb",
@@ -7510,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SET_INTERFACE",
           "package": "bindings-libusb",
@@ -7523,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SYNCH_FRAME",
           "package": "bindings-libusb",
@@ -7532,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_SYNCH_FRAME",
           "package": "bindings-libusb",
@@ -7545,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_TYPE_CLASS",
           "package": "bindings-libusb",
@@ -7554,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_TYPE_CLASS",
           "package": "bindings-libusb",
@@ -7567,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_TYPE_RESERVED",
           "package": "bindings-libusb",
@@ -7576,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_TYPE_RESERVED",
           "package": "bindings-libusb",
@@ -7589,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_TYPE_STANDARD",
           "package": "bindings-libusb",
@@ -7598,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_TYPE_STANDARD",
           "package": "bindings-libusb",
@@ -7611,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_TYPE_VENDOR",
           "package": "bindings-libusb",
@@ -7620,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_REQUEST_TYPE_VENDOR",
           "package": "bindings-libusb",
@@ -7633,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_SUCCESS",
           "package": "bindings-libusb",
@@ -7642,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'LIBUSB_SUCCESS",
           "package": "bindings-libusb",
@@ -7655,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'libusb_cpu_to_le16",
           "package": "bindings-libusb",
@@ -7664,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'libusb_cpu_to_le16",
           "normalized": "Word-\u003eWord",
@@ -7678,6 +8360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'libusb_le16_to_cpu",
           "package": "bindings-libusb",
@@ -7687,6 +8370,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Miscellaneous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Miscellaneous",
           "name": "c'libusb_le16_to_cpu",
           "normalized": "Word-\u003eWord",
@@ -7702,6 +8386,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libusb.sourceforge.net/api-1.0/group__poll.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "PollingAndTiming",
           "package": "bindings-libusb",
@@ -7711,6 +8396,7 @@
         "index": {
           "description": "http libusb.sourceforge.net api-1.0 group poll.html",
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "PollingAndTiming",
           "package": "bindings-libusb",
@@ -7724,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'libusb_pollfd",
           "package": "bindings-libusb",
@@ -7732,6 +8419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'libusb_pollfd",
           "package": "bindings-libusb",
@@ -7745,6 +8433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'libusb_pollfd_added_cb",
           "package": "bindings-libusb",
@@ -7753,6 +8442,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'libusb_pollfd_added_cb",
           "package": "bindings-libusb",
@@ -7766,6 +8456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'libusb_pollfd_removed_cb",
           "package": "bindings-libusb",
@@ -7774,6 +8465,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'libusb_pollfd_removed_cb",
           "package": "bindings-libusb",
@@ -7787,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'timeval",
           "package": "bindings-libusb",
@@ -7795,6 +8488,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'timeval",
           "package": "bindings-libusb",
@@ -7808,6 +8502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'libusb_pollfd",
           "package": "bindings-libusb",
@@ -7817,6 +8512,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'libusb_pollfd",
           "package": "bindings-libusb",
@@ -7830,6 +8526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'timeval",
           "package": "bindings-libusb",
@@ -7839,6 +8536,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "C'timeval",
           "package": "bindings-libusb",
@@ -7852,6 +8550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_event_handler_active",
           "package": "bindings-libusb",
@@ -7861,6 +8560,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_event_handler_active",
           "normalized": "Ptr C'libusb_context-\u003eIO CInt",
@@ -7875,6 +8575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_event_handling_ok",
           "package": "bindings-libusb",
@@ -7884,6 +8585,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_event_handling_ok",
           "normalized": "Ptr C'libusb_context-\u003eIO CInt",
@@ -7898,6 +8600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_get_next_timeout",
           "package": "bindings-libusb",
@@ -7907,6 +8610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_get_next_timeout",
           "normalized": "Ptr C'libusb_context-\u003ePtr C'timeval-\u003eIO CInt",
@@ -7921,6 +8625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_get_pollfds",
           "package": "bindings-libusb",
@@ -7930,6 +8635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_get_pollfds",
           "normalized": "Ptr C'libusb_context-\u003eIO(Ptr(Ptr C'libusb_pollfd))",
@@ -7944,6 +8650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_handle_events",
           "package": "bindings-libusb",
@@ -7953,6 +8660,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_handle_events",
           "normalized": "Ptr C'libusb_context-\u003eIO CInt",
@@ -7967,6 +8675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_handle_events_locked",
           "package": "bindings-libusb",
@@ -7976,6 +8685,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_handle_events_locked",
           "normalized": "Ptr C'libusb_context-\u003ePtr C'timeval-\u003eIO CInt",
@@ -7990,6 +8700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_handle_events_timeout",
           "package": "bindings-libusb",
@@ -7999,6 +8710,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_handle_events_timeout",
           "normalized": "Ptr C'libusb_context-\u003ePtr C'timeval-\u003eIO CInt",
@@ -8013,6 +8725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_lock_event_waiters",
           "package": "bindings-libusb",
@@ -8022,6 +8735,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_lock_event_waiters",
           "normalized": "Ptr C'libusb_context-\u003eIO()",
@@ -8036,6 +8750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_lock_events",
           "package": "bindings-libusb",
@@ -8045,6 +8760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_lock_events",
           "normalized": "Ptr C'libusb_context-\u003eIO()",
@@ -8059,6 +8775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_pollfd'events",
           "package": "bindings-libusb",
@@ -8068,6 +8785,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_pollfd'events",
           "package": "bindings-libusb",
@@ -8080,6 +8798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_pollfd'fd",
           "package": "bindings-libusb",
@@ -8089,6 +8808,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_pollfd'fd",
           "package": "bindings-libusb",
@@ -8101,6 +8821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_pollfds_handle_timeouts",
           "package": "bindings-libusb",
@@ -8110,6 +8831,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_pollfds_handle_timeouts",
           "normalized": "Ptr C'libusb_context-\u003eIO CInt",
@@ -8124,6 +8846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_set_pollfd_notifiers",
           "package": "bindings-libusb",
@@ -8133,6 +8856,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_set_pollfd_notifiers",
           "normalized": "Ptr C'libusb_context-\u003eC'libusb_pollfd_added_cb-\u003eC'libusb_pollfd_removed_cb-\u003ePtr()-\u003eIO()",
@@ -8147,6 +8871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_try_lock_events",
           "package": "bindings-libusb",
@@ -8156,6 +8881,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_try_lock_events",
           "normalized": "Ptr C'libusb_context-\u003eIO CInt",
@@ -8170,6 +8896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_unlock_event_waiters",
           "package": "bindings-libusb",
@@ -8179,6 +8906,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_unlock_event_waiters",
           "normalized": "Ptr C'libusb_context-\u003eIO()",
@@ -8193,6 +8921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_unlock_events",
           "package": "bindings-libusb",
@@ -8202,6 +8931,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_unlock_events",
           "normalized": "Ptr C'libusb_context-\u003eIO()",
@@ -8216,6 +8946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_wait_for_event",
           "package": "bindings-libusb",
@@ -8225,6 +8956,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "c'libusb_wait_for_event",
           "normalized": "Ptr C'libusb_context-\u003ePtr C'timeval-\u003eIO CInt",
@@ -8239,6 +8971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "mK'libusb_pollfd_added_cb",
           "package": "bindings-libusb",
@@ -8248,6 +8981,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "mK'libusb_pollfd_added_cb",
           "normalized": "C'libusb_pollfd_added_cb-\u003eCInt-\u003eCShort-\u003ePtr()-\u003eIO()",
@@ -8263,6 +8997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "mK'libusb_pollfd_removed_cb",
           "package": "bindings-libusb",
@@ -8272,6 +9007,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "mK'libusb_pollfd_removed_cb",
           "normalized": "C'libusb_pollfd_removed_cb-\u003eCInt-\u003ePtr()-\u003eIO()",
@@ -8287,6 +9023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "mk'libusb_pollfd_added_cb",
           "package": "bindings-libusb",
@@ -8296,6 +9033,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "mk'libusb_pollfd_added_cb",
           "normalized": "(CInt-\u003eCShort-\u003ePtr()-\u003eIO())-\u003eIO C'libusb_pollfd_added_cb",
@@ -8310,6 +9048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "mk'libusb_pollfd_removed_cb",
           "package": "bindings-libusb",
@@ -8319,6 +9058,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "mk'libusb_pollfd_removed_cb",
           "normalized": "(CInt-\u003ePtr()-\u003eIO())-\u003eIO C'libusb_pollfd_removed_cb",
@@ -8333,6 +9073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_event_handler_active",
           "package": "bindings-libusb",
@@ -8342,6 +9083,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_event_handler_active",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO CInt)",
@@ -8356,6 +9098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_event_handling_ok",
           "package": "bindings-libusb",
@@ -8365,6 +9108,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_event_handling_ok",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO CInt)",
@@ -8379,6 +9123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_get_next_timeout",
           "package": "bindings-libusb",
@@ -8388,6 +9133,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_get_next_timeout",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003ePtr C'timeval-\u003eIO CInt)",
@@ -8402,6 +9148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_get_pollfds",
           "package": "bindings-libusb",
@@ -8411,6 +9158,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_get_pollfds",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO(Ptr(Ptr C'libusb_pollfd)))",
@@ -8425,6 +9173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_handle_events",
           "package": "bindings-libusb",
@@ -8434,6 +9183,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_handle_events",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO CInt)",
@@ -8448,6 +9198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_handle_events_locked",
           "package": "bindings-libusb",
@@ -8457,6 +9208,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_handle_events_locked",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003ePtr C'timeval-\u003eIO CInt)",
@@ -8471,6 +9223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_handle_events_timeout",
           "package": "bindings-libusb",
@@ -8480,6 +9233,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_handle_events_timeout",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003ePtr C'timeval-\u003eIO CInt)",
@@ -8494,6 +9248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_lock_event_waiters",
           "package": "bindings-libusb",
@@ -8503,6 +9258,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_lock_event_waiters",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO())",
@@ -8517,6 +9273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_lock_events",
           "package": "bindings-libusb",
@@ -8526,6 +9283,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_lock_events",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO())",
@@ -8540,6 +9298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_pollfd'events",
           "package": "bindings-libusb",
@@ -8549,6 +9308,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_pollfd'events",
           "normalized": "Ptr C'libusb_pollfd-\u003ePtr CShort",
@@ -8563,6 +9323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_pollfd'fd",
           "package": "bindings-libusb",
@@ -8572,6 +9333,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_pollfd'fd",
           "normalized": "Ptr C'libusb_pollfd-\u003ePtr CInt",
@@ -8586,6 +9348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_pollfds_handle_timeouts",
           "package": "bindings-libusb",
@@ -8595,6 +9358,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_pollfds_handle_timeouts",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO CInt)",
@@ -8609,6 +9373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_set_pollfd_notifiers",
           "package": "bindings-libusb",
@@ -8618,6 +9383,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_set_pollfd_notifiers",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eC'libusb_pollfd_added_cb-\u003eC'libusb_pollfd_removed_cb-\u003ePtr()-\u003eIO())",
@@ -8632,6 +9398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_try_lock_events",
           "package": "bindings-libusb",
@@ -8641,6 +9408,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_try_lock_events",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO CInt)",
@@ -8655,6 +9423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_unlock_event_waiters",
           "package": "bindings-libusb",
@@ -8664,6 +9433,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_unlock_event_waiters",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO())",
@@ -8678,6 +9448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_unlock_events",
           "package": "bindings-libusb",
@@ -8687,6 +9458,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_unlock_events",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003eIO())",
@@ -8701,6 +9473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_wait_for_event",
           "package": "bindings-libusb",
@@ -8710,6 +9483,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb PollingAndTiming",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.PollingAndTiming",
           "name": "p'libusb_wait_for_event",
           "normalized": "FunPtr(Ptr C'libusb_context-\u003ePtr C'timeval-\u003eIO CInt)",
@@ -8725,6 +9499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libusb.sourceforge.net/api-1.0/group__syncio.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Synchronous",
           "name": "Synchronous",
           "package": "bindings-libusb",
@@ -8734,6 +9509,7 @@
         "index": {
           "description": "http libusb.sourceforge.net api-1.0 group syncio.html",
           "hierarchy": "Bindings Libusb Synchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Synchronous",
           "name": "Synchronous",
           "package": "bindings-libusb",
@@ -8747,6 +9523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Synchronous",
           "name": "c'libusb_bulk_transfer",
           "package": "bindings-libusb",
@@ -8756,6 +9533,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Synchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Synchronous",
           "name": "c'libusb_bulk_transfer",
           "normalized": "Ptr C'libusb_device_handle-\u003eCUChar-\u003ePtr CUChar-\u003eCInt-\u003ePtr CInt-\u003eCUInt-\u003eIO CInt",
@@ -8770,6 +9548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Synchronous",
           "name": "c'libusb_control_transfer",
           "package": "bindings-libusb",
@@ -8779,6 +9558,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Synchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Synchronous",
           "name": "c'libusb_control_transfer",
           "normalized": "Ptr C'libusb_device_handle-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003ePtr CUChar-\u003eWord-\u003eCUInt-\u003eIO CInt",
@@ -8793,6 +9573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Synchronous",
           "name": "c'libusb_interrupt_transfer",
           "package": "bindings-libusb",
@@ -8802,6 +9583,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Synchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Synchronous",
           "name": "c'libusb_interrupt_transfer",
           "normalized": "Ptr C'libusb_device_handle-\u003eCUChar-\u003ePtr CUChar-\u003eCInt-\u003ePtr CInt-\u003eCUInt-\u003eIO CInt",
@@ -8816,6 +9598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Synchronous",
           "name": "p'libusb_bulk_transfer",
           "package": "bindings-libusb",
@@ -8825,6 +9608,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Synchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Synchronous",
           "name": "p'libusb_bulk_transfer",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCUChar-\u003ePtr CUChar-\u003eCInt-\u003ePtr CInt-\u003eCUInt-\u003eIO CInt)",
@@ -8839,6 +9623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Synchronous",
           "name": "p'libusb_control_transfer",
           "package": "bindings-libusb",
@@ -8848,6 +9633,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Synchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Synchronous",
           "name": "p'libusb_control_transfer",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003ePtr CUChar-\u003eWord-\u003eCUInt-\u003eIO CInt)",
@@ -8862,6 +9648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb.Synchronous",
           "name": "p'libusb_interrupt_transfer",
           "package": "bindings-libusb",
@@ -8871,6 +9658,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb Synchronous",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb.Synchronous",
           "name": "p'libusb_interrupt_transfer",
           "normalized": "FunPtr(Ptr C'libusb_device_handle-\u003eCUChar-\u003ePtr CUChar-\u003eCInt-\u003ePtr CInt-\u003eCUInt-\u003eIO CInt)",
@@ -8885,6 +9673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:10 UTC 2014",
           "module": "Bindings.Libusb",
           "name": "Libusb",
           "package": "bindings-libusb",
@@ -8893,6 +9682,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libusb",
+          "indexed": "2014-03-11T17:21:10",
           "module": "Bindings.Libusb",
           "name": "Libusb",
           "package": "bindings-libusb",

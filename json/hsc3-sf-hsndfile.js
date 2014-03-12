@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3-sf-hsndfile"
+        "phrase": "hsc3-sf-hsndfile",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write sound files using hsndfile.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:38 UTC 2014",
           "module": "Sound.File.HSndFile",
           "name": "HSndFile",
           "package": "hsc3-sf-hsndfile",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read and write sound files using hsndfile",
           "hierarchy": "Sound File HSndFile",
+          "indexed": "2014-03-11T18:47:38",
           "module": "Sound.File.HSndFile",
           "name": "HSndFile",
           "package": "hsc3-sf-hsndfile",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSound file meta data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:38 UTC 2014",
           "module": "Sound.File.HSndFile",
           "name": "Header",
           "package": "hsc3-sf-hsndfile",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Sound file meta data",
           "hierarchy": "Sound File HSndFile",
+          "indexed": "2014-03-11T18:47:38",
           "module": "Sound.File.HSndFile",
           "name": "Header",
           "package": "hsc3-sf-hsndfile",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:38 UTC 2014",
           "module": "Sound.File.HSndFile",
           "name": "Header",
           "package": "hsc3-sf-hsndfile",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Sound File HSndFile",
+          "indexed": "2014-03-11T18:47:38",
           "module": "Sound.File.HSndFile",
           "name": "Header",
           "package": "hsc3-sf-hsndfile",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:38 UTC 2014",
           "module": "Sound.File.HSndFile",
           "name": "channelCount",
           "package": "hsc3-sf-hsndfile",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Sound File HSndFile",
+          "indexed": "2014-03-11T18:47:38",
           "module": "Sound.File.HSndFile",
           "name": "channelCount",
           "package": "hsc3-sf-hsndfile",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:38 UTC 2014",
           "module": "Sound.File.HSndFile",
           "name": "frameCount",
           "package": "hsc3-sf-hsndfile",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Sound File HSndFile",
+          "indexed": "2014-03-11T18:47:38",
           "module": "Sound.File.HSndFile",
           "name": "frameCount",
           "package": "hsc3-sf-hsndfile",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e of sound file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:38 UTC 2014",
           "module": "Sound.File.HSndFile",
           "name": "header",
           "package": "hsc3-sf-hsndfile",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Read Header of sound file",
           "hierarchy": "Sound File HSndFile",
+          "indexed": "2014-03-11T18:47:38",
           "module": "Sound.File.HSndFile",
           "name": "header",
           "normalized": "FilePath-\u003eIO Header",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e and audio channel data from sound file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:38 UTC 2014",
           "module": "Sound.File.HSndFile",
           "name": "read",
           "package": "hsc3-sf-hsndfile",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Read Header and audio channel data from sound file",
           "hierarchy": "Sound File HSndFile",
+          "indexed": "2014-03-11T18:47:38",
           "module": "Sound.File.HSndFile",
           "name": "read",
           "normalized": "FilePath-\u003eIO(Header,[[Double]])",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:38 UTC 2014",
           "module": "Sound.File.HSndFile",
           "name": "sampleRate",
           "package": "hsc3-sf-hsndfile",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Sound File HSndFile",
+          "indexed": "2014-03-11T18:47:38",
           "module": "Sound.File.HSndFile",
           "name": "sampleRate",
           "package": "hsc3-sf-hsndfile",

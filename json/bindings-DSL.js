@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-DSL"
+        "phrase": "bindings-DSL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:28 UTC 2014",
           "module": "Bindings.Utilities",
           "name": "Utilities",
           "package": "bindings-DSL",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings Utilities",
+          "indexed": "2014-03-11T17:19:28",
           "module": "Bindings.Utilities",
           "name": "Utilities",
           "package": "bindings-DSL",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estorableCast\u003c/a\u003e\u003c/code\u003e works like \u003ccode\u003e\u003ca\u003estorableCastArray\u003c/a\u003e\u003c/code\u003e, except that it\n takes a single value and returns a single value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:28 UTC 2014",
           "module": "Bindings.Utilities",
           "name": "storableCast",
           "package": "bindings-DSL",
@@ -50,6 +53,7 @@
         "index": {
           "description": "storableCast works like storableCastArray except that it takes single value and returns single value",
           "hierarchy": "Bindings Utilities",
+          "indexed": "2014-03-11T17:19:28",
           "module": "Bindings.Utilities",
           "name": "storableCast",
           "normalized": "a-\u003eIO b",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estorableCastArray\u003c/a\u003e\u003c/code\u003e takes a list of values of a first type, stores it\n at a contiguous memory area (that is first blanked with 0s), and then\n reads it as if it was a list of a second type, with enough elements to\n fill at least the same space.\n\u003c/p\u003e\u003cpre\u003e\n ghci\n :m + Bindings.Sandbox Data.Int\n storableCastArray (replicate 13 (1::Int8)) :: IO [Int32]\n         ==\u003e [16843009,16843009,16843009,1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:19:28 UTC 2014",
           "module": "Bindings.Utilities",
           "name": "storableCastArray",
           "package": "bindings-DSL",
@@ -76,6 +81,7 @@
         "index": {
           "description": "storableCastArray takes list of values of first type stores it at contiguous memory area that is first blanked with and then reads it as if it was list of second type with enough elements to fill at least the same space ghci Bindings.Sandbox Data.Int storableCastArray replicate Int8 IO Int32",
           "hierarchy": "Bindings Utilities",
+          "indexed": "2014-03-11T17:19:28",
           "module": "Bindings.Utilities",
           "name": "storableCastArray",
           "normalized": "[a]-\u003eIO[b]",

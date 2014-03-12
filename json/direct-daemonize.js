@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "direct-daemonize"
+        "phrase": "direct-daemonize",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "Daemonize",
           "package": "direct-daemonize",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "Daemonize",
           "package": "direct-daemonize",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "DaemonOptions",
           "package": "direct-daemonize",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "DaemonOptions",
           "package": "direct-daemonize",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "DaemonOptions",
           "package": "direct-daemonize",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "DaemonOptions",
           "package": "direct-daemonize",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "daemonGroupToChangeTo",
           "package": "direct-daemonize",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "daemonGroupToChangeTo",
           "package": "direct-daemonize",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "daemonShouldChangeDirectory",
           "package": "direct-daemonize",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "daemonShouldChangeDirectory",
           "package": "direct-daemonize",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "daemonShouldCloseStandardStreams",
           "package": "direct-daemonize",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "daemonShouldCloseStandardStreams",
           "package": "direct-daemonize",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "daemonShouldIgnoreSignals",
           "package": "direct-daemonize",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "daemonShouldIgnoreSignals",
           "package": "direct-daemonize",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "daemonUserToChangeTo",
           "package": "direct-daemonize",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "daemonUserToChangeTo",
           "package": "direct-daemonize",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "daemonize",
           "package": "direct-daemonize",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "daemonize",
           "normalized": "DaemonOptions-\u003eIO a-\u003e(a-\u003eIO())-\u003eIO()",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:05 UTC 2014",
           "module": "System.Daemonize",
           "name": "defaultDaemonOptions",
           "package": "direct-daemonize",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "System Daemonize",
+          "indexed": "2014-03-11T17:56:05",
           "module": "System.Daemonize",
           "name": "defaultDaemonOptions",
           "package": "direct-daemonize",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "maxsharing"
+        "phrase": "maxsharing",
+        "type": "phrase"
       },
       "type": "context"
     }

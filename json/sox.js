@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sox"
+        "phrase": "sox",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Convert",
           "name": "Convert",
           "package": "sox",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Convert",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Convert",
           "name": "Convert",
           "package": "sox",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e :load Sound.Sox.Convert\n\n simple Option.none \"test.aiff\" Option.none \"test.wav\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Convert",
           "name": "simple",
           "package": "sox",
@@ -49,6 +52,7 @@
         "index": {
           "description": "load Sound.Sox.Convert simple Option.none test.aiff Option.none test.wav",
           "hierarchy": "Sound Sox Convert",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Convert",
           "name": "simple",
           "normalized": "T-\u003eFilePath-\u003eT-\u003eFilePath-\u003eIO ExitCode",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "Format",
           "package": "sox",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "Format",
           "package": "sox",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "T",
           "package": "sox",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "T",
           "package": "sox",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "aiff",
           "package": "sox",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "aiff",
           "package": "sox",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "custom",
           "package": "sox",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "custom",
           "normalized": "String-\u003eT",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "ieeeDoublePrecision",
           "package": "sox",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "ieeeDoublePrecision",
           "package": "sox",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "ieeeSinglePrecision",
           "package": "sox",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "ieeeSinglePrecision",
           "package": "sox",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "iff8svx",
           "package": "sox",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "iff8svx",
           "package": "sox",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "mp3",
           "package": "sox",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "mp3",
           "package": "sox",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "muLaw",
           "package": "sox",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "muLaw",
           "package": "sox",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "ogg",
           "package": "sox",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "ogg",
           "package": "sox",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "signedByte",
           "package": "sox",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "signedByte",
           "package": "sox",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "signedLong",
           "package": "sox",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "signedLong",
           "package": "sox",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "signedWord",
           "package": "sox",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "signedWord",
           "package": "sox",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "unsignedByte",
           "package": "sox",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "unsignedByte",
           "package": "sox",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "unsignedLong",
           "package": "sox",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "unsignedLong",
           "package": "sox",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "unsignedWord",
           "package": "sox",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "unsignedWord",
           "package": "sox",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Format",
           "name": "wave",
           "package": "sox",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Format",
           "name": "wave",
           "package": "sox",
@@ -431,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe just re-export the type from sample-frame:Sound.Frame.Stereo.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "Stereo",
           "package": "sox",
@@ -440,6 +479,7 @@
         "index": {
           "description": "We just re-export the type from sample-frame Sound.Frame.Stereo",
           "hierarchy": "Sound Sox Frame Stereo",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "Stereo",
           "package": "sox",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "T",
           "package": "sox",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Frame Stereo",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "T",
           "package": "sox",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "cons",
           "package": "sox",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Frame Stereo",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "cons",
           "normalized": "a-\u003ea-\u003eT a",
@@ -494,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "left",
           "package": "sox",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Frame Stereo",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "left",
           "normalized": "T a-\u003ea",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "right",
           "package": "sox",
@@ -524,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Frame Stereo",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame.Stereo",
           "name": "right",
           "normalized": "T a-\u003ea",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame",
           "name": "Frame",
           "package": "sox",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Frame",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame",
           "name": "Frame",
           "package": "sox",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame",
           "name": "C",
           "package": "sox",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Frame",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame",
           "name": "C",
           "package": "sox",
@@ -579,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame",
           "name": "format",
           "package": "sox",
@@ -588,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Frame",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame",
           "name": "format",
           "normalized": "a-\u003eT",
@@ -603,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe argument is not touched and can be undefined \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame",
           "name": "numberOfChannels",
           "package": "sox",
@@ -612,6 +667,7 @@
         "index": {
           "description": "The argument is not touched and can be undefined",
           "hierarchy": "Sound Sox Frame",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame",
           "name": "numberOfChannels",
           "normalized": "a-\u003eInt",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Frame",
           "name": "withSignal",
           "package": "sox",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Frame",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Frame",
           "name": "withSignal",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -651,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module calls the \u003ccode\u003esoxi\u003c/code\u003e command\nwhich is available since \u003ccode\u003esox\u003c/code\u003e version 14.\n\u003c/p\u003e\u003cp\u003eWe have to call \u003ccode\u003esoxi\u003c/code\u003e for every option.\nHowever we hide this in our interface,\nsuch that we could do more efficiently,\nif \u003ccode\u003esoxi\u003c/code\u003e supports multiple outputs in future.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "Information",
           "package": "sox",
@@ -660,6 +719,7 @@
         "index": {
           "description": "This module calls the soxi command which is available since sox version We have to call soxi for every option However we hide this in our interface such that we could do more efficiently if soxi supports multiple outputs in future",
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "Information",
           "package": "sox",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "T",
           "package": "sox",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "T",
           "package": "sox",
@@ -693,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "Cons",
           "package": "sox",
@@ -702,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "Cons",
           "package": "sox",
@@ -715,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "bitsPerSample",
           "package": "sox",
@@ -724,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "bitsPerSample",
           "package": "sox",
@@ -737,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "exampleMulti",
           "package": "sox",
@@ -746,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "exampleMulti",
           "normalized": "IO(String,Int,Int)",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "exampleSingle",
           "package": "sox",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "exampleSingle",
           "package": "sox",
@@ -783,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "format",
           "package": "sox",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "format",
           "package": "sox",
@@ -804,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "get",
           "package": "sox",
@@ -813,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "get",
           "normalized": "T a-\u003eFilePath-\u003eIO a",
@@ -827,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "length",
           "package": "sox",
@@ -836,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "length",
           "package": "sox",
@@ -848,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "numberOfChannels",
           "package": "sox",
@@ -857,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "numberOfChannels",
           "package": "sox",
@@ -870,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "sampleRate",
           "package": "sox",
@@ -879,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "sampleRate",
           "package": "sox",
@@ -892,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Information",
           "name": "simple",
           "package": "sox",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Information",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Information",
           "name": "simple",
           "normalized": "(String-\u003eMaybe a)-\u003eString-\u003eT a",
@@ -915,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "Format",
           "package": "sox",
@@ -923,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "Format",
           "package": "sox",
@@ -937,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can combine options using the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e functions \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e.\nWhen the same option is given multiple times,\nonly the first occurence is respected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "T",
           "package": "sox",
@@ -946,6 +1031,7 @@
         "index": {
           "description": "You can combine options using the Monoid functions mappend and mconcat When the same option is given multiple times only the first occurence is respected",
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "T",
           "package": "sox",
@@ -958,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "bitsPerSample",
           "package": "sox",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "bitsPerSample",
           "normalized": "Int-\u003eT",
@@ -982,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "format",
           "package": "sox",
@@ -991,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "format",
           "normalized": "T-\u003eT",
@@ -1005,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "none",
           "package": "sox",
@@ -1014,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "none",
           "package": "sox",
@@ -1026,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "numberOfChannels",
           "package": "sox",
@@ -1035,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "numberOfChannels",
           "normalized": "Int-\u003eT",
@@ -1050,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "numberOfChannelsAuto",
           "package": "sox",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "numberOfChannelsAuto",
           "normalized": "Int-\u003eT",
@@ -1074,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "sampleRate",
           "package": "sox",
@@ -1083,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "sampleRate",
           "normalized": "Int-\u003eT",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Option.Format",
           "name": "single",
           "package": "sox",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Option Format",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Option.Format",
           "name": "single",
           "normalized": "String-\u003e[String]-\u003eT",
@@ -1121,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Play",
           "name": "Play",
           "package": "sox",
@@ -1129,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Play",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Play",
           "name": "Play",
           "package": "sox",
@@ -1142,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Play",
           "name": "extended",
           "package": "sox",
@@ -1150,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Play",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Play",
           "name": "extended",
           "normalized": "(Handle-\u003ea b-\u003eIO())-\u003eT-\u003eT-\u003eInt-\u003ea b-\u003eIO ExitCode",
@@ -1165,6 +1269,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e :load Sound.Sox.Play Sound.Sox.Signal.List\n\n simple Sound.Sox.Signal.List.put Option.none 11025 (iterate (1000+) (0::Data.Int.Int16))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Play",
           "name": "simple",
           "package": "sox",
@@ -1174,6 +1279,7 @@
         "index": {
           "description": "load Sound.Sox.Play Sound.Sox.Signal.List simple Sound.Sox.Signal.List.put Option.none iterate Data.Int.Int16",
           "hierarchy": "Sound Sox Play",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Play",
           "name": "simple",
           "normalized": "(Handle-\u003ea b-\u003eIO())-\u003eT-\u003eInt-\u003ea b-\u003eIO ExitCode",
@@ -1188,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Read",
           "name": "Read",
           "package": "sox",
@@ -1196,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Read",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Read",
           "name": "Read",
           "package": "sox",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Read",
           "name": "Handle",
           "package": "sox",
@@ -1217,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Read",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Read",
           "name": "Handle",
           "package": "sox",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Read",
           "name": "close",
           "package": "sox",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Read",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Read",
           "name": "close",
           "normalized": "Handle a-\u003eIO ExitCode",
@@ -1254,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfortunately we cannot retrieve the sample rate using \u003ccode\u003esox\u003c/code\u003e.\nHowever there is \u003ccode\u003esoxi\u003c/code\u003e for this purpose, which we may support in future.\n\u003c/p\u003e\u003cpre\u003e :load Sound.Sox.Read Sound.Sox.Signal.List\n :module + Control.Exception\n bracket (open Option.none \"test.aiff\") close $ \\h -\u003e withHandle2 Sound.Sox.Signal.List.getContents h \u003e\u003e= \\x -\u003e print (Control.Monad.Exception.Asynchronous.result x :: [Data.Int.Int16])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Read",
           "name": "open",
           "package": "sox",
@@ -1264,6 +1377,7 @@
         "index": {
           "description": "Unfortunately we cannot retrieve the sample rate using sox However there is soxi for this purpose which we may support in future load Sound.Sox.Read Sound.Sox.Signal.List module Control.Exception bracket open Option.none test.aiff close withHandle2 Sound.Sox.Signal.List.getContents print Control.Monad.Exception.Asynchronous.result Data.Int.Int16",
           "hierarchy": "Sound Sox Read",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Read",
           "name": "open",
           "normalized": "T-\u003eFilePath-\u003eIO(Handle(a b))",
@@ -1278,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Read",
           "name": "withHandle1",
           "package": "sox",
@@ -1287,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Read",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Read",
           "name": "withHandle1",
           "normalized": "(Handle-\u003ea b)-\u003eHandle b-\u003ea b",
@@ -1302,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Read",
           "name": "withHandle2",
           "package": "sox",
@@ -1311,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Read",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Read",
           "name": "withHandle2",
           "normalized": "(Handle-\u003ea(b c))-\u003eHandle c-\u003ea(b c)",
@@ -1327,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for reading and writing data\nusing the endianess of the machine.\nThis is the way Sox handles raw data.\nThis module is more or less provided for completeness,\nsince it is based on lists,\nwhich means that it is too slow\nto process real world data.\nFor serious applications use Data.StorableVector.Lazy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Signal.List",
           "name": "List",
           "package": "sox",
@@ -1336,6 +1455,7 @@
         "index": {
           "description": "Functions for reading and writing data using the endianess of the machine This is the way Sox handles raw data This module is more or less provided for completeness since it is based on lists which means that it is too slow to process real world data For serious applications use Data.StorableVector.Lazy",
           "hierarchy": "Sound Sox Signal List",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Signal.List",
           "name": "List",
           "package": "sox",
@@ -1349,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Signal.List",
           "name": "IOReadException",
           "package": "sox",
@@ -1357,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Signal List",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Signal.List",
           "name": "IOReadException",
           "package": "sox",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Signal.List",
           "name": "ReadException",
           "package": "sox",
@@ -1378,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Signal List",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Signal.List",
           "name": "ReadException",
           "package": "sox",
@@ -1391,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Signal.List",
           "name": "getContents",
           "package": "sox",
@@ -1400,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Signal List",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Signal.List",
           "name": "getContents",
           "normalized": "Handle-\u003eIO(Exceptional IOReadException[a])",
@@ -1415,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Signal.List",
           "name": "put",
           "package": "sox",
@@ -1424,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Signal List",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Signal.List",
           "name": "put",
           "normalized": "Handle-\u003e[a]-\u003eIO()",
@@ -1438,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Signal.List",
           "name": "withReadFile",
           "package": "sox",
@@ -1447,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Signal List",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Signal.List",
           "name": "withReadFile",
           "normalized": "FilePath-\u003e(Exceptional IOReadException[a]-\u003eIO b)-\u003eIO b",
@@ -1462,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Signal.List",
           "name": "writeFile",
           "package": "sox",
@@ -1471,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Signal List",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Signal.List",
           "name": "writeFile",
           "normalized": "FilePath-\u003e[a]-\u003eIO()",
@@ -1486,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Write",
           "name": "Write",
           "package": "sox",
@@ -1494,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Write",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Write",
           "name": "Write",
           "package": "sox",
@@ -1507,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Write",
           "name": "extended",
           "package": "sox",
@@ -1515,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Sound Sox Write",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Write",
           "name": "extended",
           "normalized": "(Handle-\u003ea b-\u003eIO())-\u003eT-\u003eT-\u003eFilePath-\u003eInt-\u003ea b-\u003eIO ExitCode",
@@ -1530,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe traversable functor \u003ccode\u003ef\u003c/code\u003e might be \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e or '[]'.\nIt allows you to write to many files simultaneously\nand returns the exit codes of all writing processes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Write",
           "name": "manyExtended",
           "package": "sox",
@@ -1539,6 +1676,7 @@
         "index": {
           "description": "The traversable functor might be Maybe or It allows you to write to many files simultaneously and returns the exit codes of all writing processes",
           "hierarchy": "Sound Sox Write",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Write",
           "name": "manyExtended",
           "normalized": "(a Handle-\u003eb c-\u003eIO())-\u003eT-\u003eT-\u003ea FilePath-\u003eInt-\u003eb c-\u003eIO(a ExitCode)",
@@ -1555,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSox determines the output format\nfrom the filename extension or from \u003ccode\u003e\u003ca\u003eformat\u003c/a\u003e\u003c/code\u003e.\nMake sure that you provide one of them.\n\u003c/p\u003e\u003cpre\u003e :load Sound.Sox.Write Sound.Sox.Signal.List\n\n simple Sound.Sox.Signal.List.put Option.none \"test.aiff\" 11025 (take 100 $ iterate (1000+) (0::Data.Int.Int16))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:30 UTC 2014",
           "module": "Sound.Sox.Write",
           "name": "simple",
           "package": "sox",
@@ -1564,6 +1703,7 @@
         "index": {
           "description": "Sox determines the output format from the filename extension or from format Make sure that you provide one of them load Sound.Sox.Write Sound.Sox.Signal.List simple Sound.Sox.Signal.List.put Option.none test.aiff take iterate Data.Int.Int16",
           "hierarchy": "Sound Sox Write",
+          "indexed": "2014-03-11T20:07:30",
           "module": "Sound.Sox.Write",
           "name": "simple",
           "normalized": "(Handle-\u003ea b-\u003eIO())-\u003eT-\u003eFilePath-\u003eInt-\u003ea b-\u003eIO ExitCode",

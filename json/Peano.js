@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Peano"
+        "phrase": "Peano",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePeano numbers without any extra fluff\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:49 UTC 2014",
           "module": "Data.Peano",
           "name": "Peano",
           "package": "Peano",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Peano numbers without any extra fluff",
           "hierarchy": "Data Peano",
+          "indexed": "2014-03-11T16:56:49",
           "module": "Data.Peano",
           "name": "Peano",
           "package": "Peano",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:49 UTC 2014",
           "module": "Data.Peano",
           "name": "Peano",
           "package": "Peano",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Peano",
+          "indexed": "2014-03-11T16:56:49",
           "module": "Data.Peano",
           "name": "Peano",
           "package": "Peano",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:49 UTC 2014",
           "module": "Data.Peano",
           "name": "Succ",
           "package": "Peano",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Peano",
+          "indexed": "2014-03-11T16:56:49",
           "module": "Data.Peano",
           "name": "Succ",
           "package": "Peano",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:49 UTC 2014",
           "module": "Data.Peano",
           "name": "Zero",
           "package": "Peano",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Peano",
+          "indexed": "2014-03-11T16:56:49",
           "module": "Data.Peano",
           "name": "Zero",
           "package": "Peano",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:49 UTC 2014",
           "module": "Data.Peano",
           "name": "infinity",
           "package": "Peano",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Peano",
+          "indexed": "2014-03-11T16:56:49",
           "module": "Data.Peano",
           "name": "infinity",
           "package": "Peano",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:49 UTC 2014",
           "module": "Data.Peano",
           "name": "plus",
           "package": "Peano",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Peano",
+          "indexed": "2014-03-11T16:56:49",
           "module": "Data.Peano",
           "name": "plus",
           "normalized": "Peano-\u003ePeano-\u003ePeano",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:49 UTC 2014",
           "module": "Data.Peano",
           "name": "times",
           "package": "Peano",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Peano",
+          "indexed": "2014-03-11T16:56:49",
           "module": "Data.Peano",
           "name": "times",
           "normalized": "Peano-\u003ePeano-\u003ePeano",

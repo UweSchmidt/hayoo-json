@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clean-home"
+        "phrase": "clean-home",
+        "type": "phrase"
       },
       "type": "context"
     }

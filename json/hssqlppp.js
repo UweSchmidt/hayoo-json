@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hssqlppp"
+        "phrase": "hssqlppp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains the annotation data types and a few auxiliary functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "Annotation",
           "package": "hssqlppp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Contains the annotation data types and few auxiliary functions",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "Annotation",
           "package": "hssqlppp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotation type - one of these is attached to most of the\n data types used in the ast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "Annotation",
           "package": "hssqlppp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Annotation type one of these is attached to most of the data types used in the ast",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "Annotation",
           "package": "hssqlppp",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement type is used for getting type information for a parameterized statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "ParameterizedStatementType",
           "package": "hssqlppp",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Statement type is used for getting type information for parameterized statement",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "ParameterizedStatementType",
           "package": "hssqlppp",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a source file position, usually set by the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "SourcePosition",
           "package": "hssqlppp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Represents source file position usually set by the parser",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "SourcePosition",
           "package": "hssqlppp",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "Annotation",
           "package": "hssqlppp",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "Annotation",
           "package": "hssqlppp",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esource position for this node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "asrc",
           "package": "hssqlppp",
@@ -143,6 +154,7 @@
         "index": {
           "description": "source position for this node",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "asrc",
           "package": "hssqlppp",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of the node, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the tree hasn't been typechecked or if a type error prevents determining the type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "atype",
           "package": "hssqlppp",
@@ -166,6 +179,7 @@
         "index": {
           "description": "type of the node Nothing if the tree hasn been typechecked or if type error prevents determining the type",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "atype",
           "package": "hssqlppp",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eany catalog updates that a ddl statement produces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "catUpd",
           "package": "hssqlppp",
@@ -189,6 +204,7 @@
         "index": {
           "description": "any catalog updates that ddl statement produces",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "catUpd",
           "normalized": "[CatalogUpdate]",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation value with no information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "emptyAnnotation",
           "package": "hssqlppp",
@@ -215,6 +232,7 @@
         "index": {
           "description": "An annotation value with no information",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "emptyAnnotation",
           "package": "hssqlppp",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eany type errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "errs",
           "package": "hssqlppp",
@@ -239,6 +258,7 @@
         "index": {
           "description": "any type errors",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "errs",
           "normalized": "[TypeError]",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe matched function prototype for a funcall\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "fnProt",
           "package": "hssqlppp",
@@ -264,6 +285,7 @@
         "index": {
           "description": "the matched function prototype for funcall",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "fnProt",
           "package": "hssqlppp",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the annotation for the root element of the tree passed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "getAnnotation",
           "package": "hssqlppp",
@@ -288,6 +311,7 @@
         "index": {
           "description": "get the annotation for the root element of the tree passed",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "getAnnotation",
           "normalized": "a-\u003eAnnotation",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einferred\u003c/code\u003e type - fake type inference used for getting the type of ? placeholders in parameterized statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "infType",
           "package": "hssqlppp",
@@ -314,6 +339,7 @@
         "index": {
           "description": "inferred type fake type inference used for getting the type of placeholders in parameterized statements",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "infType",
           "package": "hssqlppp",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused for getting the in and out types of a parameterized statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "stType",
           "package": "hssqlppp",
@@ -338,6 +365,7 @@
         "index": {
           "description": "used for getting the in and out types of parameterized statement",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "stType",
           "package": "hssqlppp",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the first annotation in a tree using the function supplied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "updateAnnotation",
           "package": "hssqlppp",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Update the first annotation in tree using the function supplied",
           "hierarchy": "Database HsSqlPpp Annotation",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Annotation",
           "name": "updateAnnotation",
           "normalized": "(Annotation-\u003eAnnotation)-\u003ea-\u003ea",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the ast node data types. They are very\n       permissive, in that they allow a lot of invalid SQL to be\n       represented. The type checking process should catch all invalid\n       trees, but doesn't quite manage at the moment.  Sorry about all\n       the seemingly pointless type synonyms below, they are an\n       artefact of using UUAGC. You can see labels for the fields by\n       looking at the ag source here:\n       \u003ca\u003ehttp://jakewheat.github.com/hssqlppp/source/src/Database/HsSqlPpp/Internals/AstInternal.ag.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Ast",
           "package": "hssqlppp",
@@ -387,6 +418,7 @@
         "index": {
           "description": "This module contains the ast node data types They are very permissive in that they allow lot of invalid SQL to be represented The type checking process should catch all invalid trees but doesn quite manage at the moment Sorry about all the seemingly pointless type synonyms below they are an artefact of using UUAGC You can see labels for the fields by looking at the ag source here http jakewheat.github.com hssqlppp source src Database HsSqlPpp Internals AstInternal.ag.html",
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Ast",
           "package": "hssqlppp",
@@ -400,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterTableAction",
           "package": "hssqlppp",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterTableAction",
           "package": "hssqlppp",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterTableActionList",
           "package": "hssqlppp",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterTableActionList",
           "package": "hssqlppp",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AttributeDef",
           "package": "hssqlppp",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AttributeDef",
           "package": "hssqlppp",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AttributeDefList",
           "package": "hssqlppp",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AttributeDefList",
           "package": "hssqlppp",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Cascade",
           "package": "hssqlppp",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Cascade",
           "package": "hssqlppp",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseScalarExprListScalarExprPair",
           "package": "hssqlppp",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseScalarExprListScalarExprPair",
           "package": "hssqlppp",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseScalarExprListScalarExprPairList",
           "package": "hssqlppp",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseScalarExprListScalarExprPairList",
           "package": "hssqlppp",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CombineType",
           "package": "hssqlppp",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CombineType",
           "package": "hssqlppp",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Constraint",
           "package": "hssqlppp",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Constraint",
           "package": "hssqlppp",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ConstraintList",
           "package": "hssqlppp",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ConstraintList",
           "package": "hssqlppp",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CopySource",
           "package": "hssqlppp",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CopySource",
           "package": "hssqlppp",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Direction",
           "package": "hssqlppp",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Direction",
           "package": "hssqlppp",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Distinct",
           "package": "hssqlppp",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Distinct",
           "package": "hssqlppp",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "DropType",
           "package": "hssqlppp",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "DropType",
           "package": "hssqlppp",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractField",
           "package": "hssqlppp",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractField",
           "package": "hssqlppp",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FnBody",
           "package": "hssqlppp",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FnBody",
           "package": "hssqlppp",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FrameClause",
           "package": "hssqlppp",
@@ -744,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FrameClause",
           "package": "hssqlppp",
@@ -757,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IfExists",
           "package": "hssqlppp",
@@ -765,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IfExists",
           "package": "hssqlppp",
@@ -778,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "InList",
           "package": "hssqlppp",
@@ -786,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "InList",
           "package": "hssqlppp",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalField",
           "package": "hssqlppp",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalField",
           "package": "hssqlppp",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinExpr",
           "package": "hssqlppp",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinExpr",
           "package": "hssqlppp",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinType",
           "package": "hssqlppp",
@@ -849,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinType",
           "package": "hssqlppp",
@@ -862,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Language",
           "package": "hssqlppp",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Language",
           "package": "hssqlppp",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LiftFlavour",
           "package": "hssqlppp",
@@ -891,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LiftFlavour",
           "package": "hssqlppp",
@@ -904,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "MaybeBoolExpr",
           "package": "hssqlppp",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "MaybeBoolExpr",
           "package": "hssqlppp",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "MaybeScalarExpr",
           "package": "hssqlppp",
@@ -933,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "MaybeScalarExpr",
           "package": "hssqlppp",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "MaybeSelectList",
           "package": "hssqlppp",
@@ -954,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "MaybeSelectList",
           "package": "hssqlppp",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Name",
           "package": "hssqlppp",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Name",
           "package": "hssqlppp",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NameComponent",
           "package": "hssqlppp",
@@ -996,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NameComponent",
           "package": "hssqlppp",
@@ -1009,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NameTypeNameListPair",
           "package": "hssqlppp",
@@ -1017,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NameTypeNameListPair",
           "package": "hssqlppp",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NameTypeNameListPairList",
           "package": "hssqlppp",
@@ -1038,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NameTypeNameListPairList",
           "package": "hssqlppp",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Natural",
           "package": "hssqlppp",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Natural",
           "package": "hssqlppp",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "OnExpr",
           "package": "hssqlppp",
@@ -1080,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "OnExpr",
           "package": "hssqlppp",
@@ -1093,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamDef",
           "package": "hssqlppp",
@@ -1101,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamDef",
           "package": "hssqlppp",
@@ -1114,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamDefList",
           "package": "hssqlppp",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamDefList",
           "package": "hssqlppp",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QueryExpr",
           "package": "hssqlppp",
@@ -1143,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QueryExpr",
           "package": "hssqlppp",
@@ -1156,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RaiseType",
           "package": "hssqlppp",
@@ -1164,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RaiseType",
           "package": "hssqlppp",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Replace",
           "package": "hssqlppp",
@@ -1185,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Replace",
           "package": "hssqlppp",
@@ -1198,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RestartIdentity",
           "package": "hssqlppp",
@@ -1206,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RestartIdentity",
           "package": "hssqlppp",
@@ -1219,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowConstraint",
           "package": "hssqlppp",
@@ -1227,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowConstraint",
           "package": "hssqlppp",
@@ -1240,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowConstraintList",
           "package": "hssqlppp",
@@ -1248,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowConstraintList",
           "package": "hssqlppp",
@@ -1261,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExpr",
           "package": "hssqlppp",
@@ -1269,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExpr",
           "package": "hssqlppp",
@@ -1282,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprDirectionPair",
           "package": "hssqlppp",
@@ -1290,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprDirectionPair",
           "package": "hssqlppp",
@@ -1303,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprDirectionPairList",
           "package": "hssqlppp",
@@ -1311,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprDirectionPairList",
           "package": "hssqlppp",
@@ -1324,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprList",
           "package": "hssqlppp",
@@ -1332,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprList",
           "package": "hssqlppp",
@@ -1345,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprListList",
           "package": "hssqlppp",
@@ -1353,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprListList",
           "package": "hssqlppp",
@@ -1366,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprListStatementListPair",
           "package": "hssqlppp",
@@ -1374,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprListStatementListPair",
           "package": "hssqlppp",
@@ -1387,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprListStatementListPairList",
           "package": "hssqlppp",
@@ -1395,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprListStatementListPairList",
           "package": "hssqlppp",
@@ -1408,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprStatementListPair",
           "package": "hssqlppp",
@@ -1416,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprStatementListPair",
           "package": "hssqlppp",
@@ -1429,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprStatementListPairList",
           "package": "hssqlppp",
@@ -1437,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarExprStatementListPairList",
           "package": "hssqlppp",
@@ -1450,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectItem",
           "package": "hssqlppp",
@@ -1458,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectItem",
           "package": "hssqlppp",
@@ -1471,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectItemList",
           "package": "hssqlppp",
@@ -1479,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectItemList",
           "package": "hssqlppp",
@@ -1492,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectList",
           "package": "hssqlppp",
@@ -1500,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectList",
           "package": "hssqlppp",
@@ -1513,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetClause",
           "package": "hssqlppp",
@@ -1521,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetClause",
           "package": "hssqlppp",
@@ -1534,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetClauseList",
           "package": "hssqlppp",
@@ -1542,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetClauseList",
           "package": "hssqlppp",
@@ -1555,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetValue",
           "package": "hssqlppp",
@@ -1563,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetValue",
           "package": "hssqlppp",
@@ -1576,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Statement",
           "package": "hssqlppp",
@@ -1584,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Statement",
           "package": "hssqlppp",
@@ -1597,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "StatementList",
           "package": "hssqlppp",
@@ -1605,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "StatementList",
           "package": "hssqlppp",
@@ -1618,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TableAlias",
           "package": "hssqlppp",
@@ -1626,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TableAlias",
           "package": "hssqlppp",
@@ -1639,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TableRef",
           "package": "hssqlppp",
@@ -1647,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TableRef",
           "package": "hssqlppp",
@@ -1660,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TableRefList",
           "package": "hssqlppp",
@@ -1668,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TableRefList",
           "package": "hssqlppp",
@@ -1681,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerEvent",
           "package": "hssqlppp",
@@ -1689,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerEvent",
           "package": "hssqlppp",
@@ -1702,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerFire",
           "package": "hssqlppp",
@@ -1710,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerFire",
           "package": "hssqlppp",
@@ -1723,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerWhen",
           "package": "hssqlppp",
@@ -1731,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerWhen",
           "package": "hssqlppp",
@@ -1744,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeAttributeDef",
           "package": "hssqlppp",
@@ -1752,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeAttributeDef",
           "package": "hssqlppp",
@@ -1765,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeAttributeDefList",
           "package": "hssqlppp",
@@ -1773,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeAttributeDefList",
           "package": "hssqlppp",
@@ -1786,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeName",
           "package": "hssqlppp",
@@ -1794,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeName",
           "package": "hssqlppp",
@@ -1807,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeNameList",
           "package": "hssqlppp",
@@ -1815,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeNameList",
           "package": "hssqlppp",
@@ -1828,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "VarDef",
           "package": "hssqlppp",
@@ -1836,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "VarDef",
           "package": "hssqlppp",
@@ -1849,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "VarDefList",
           "package": "hssqlppp",
@@ -1857,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "VarDefList",
           "package": "hssqlppp",
@@ -1870,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Volatility",
           "package": "hssqlppp",
@@ -1878,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Volatility",
           "package": "hssqlppp",
@@ -1891,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WithQuery",
           "package": "hssqlppp",
@@ -1899,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WithQuery",
           "package": "hssqlppp",
@@ -1912,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WithQueryList",
           "package": "hssqlppp",
@@ -1920,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WithQueryList",
           "package": "hssqlppp",
@@ -1933,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AddConstraint",
           "package": "hssqlppp",
@@ -1942,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AddConstraint",
           "package": "hssqlppp",
@@ -1955,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AggregateFn",
           "package": "hssqlppp",
@@ -1964,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AggregateFn",
           "package": "hssqlppp",
@@ -1977,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterColumnDefault",
           "package": "hssqlppp",
@@ -1986,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterColumnDefault",
           "package": "hssqlppp",
@@ -1999,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterSequence",
           "package": "hssqlppp",
@@ -2008,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterSequence",
           "package": "hssqlppp",
@@ -2021,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterTable",
           "package": "hssqlppp",
@@ -2030,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AlterTable",
           "package": "hssqlppp",
@@ -2043,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AntiScalarExpr",
           "package": "hssqlppp",
@@ -2052,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AntiScalarExpr",
           "package": "hssqlppp",
@@ -2065,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AntiStatement",
           "package": "hssqlppp",
@@ -2074,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AntiStatement",
           "package": "hssqlppp",
@@ -2087,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AntiTriggerEvent",
           "package": "hssqlppp",
@@ -2096,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AntiTriggerEvent",
           "package": "hssqlppp",
@@ -2109,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ArrayTypeName",
           "package": "hssqlppp",
@@ -2118,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ArrayTypeName",
           "package": "hssqlppp",
@@ -2131,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Asc",
           "package": "hssqlppp",
@@ -2140,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Asc",
           "package": "hssqlppp",
@@ -2153,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Assignment",
           "package": "hssqlppp",
@@ -2162,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Assignment",
           "package": "hssqlppp",
@@ -2175,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AttributeDef",
           "package": "hssqlppp",
@@ -2184,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "AttributeDef",
           "package": "hssqlppp",
@@ -2197,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Block",
           "package": "hssqlppp",
@@ -2206,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Block",
           "package": "hssqlppp",
@@ -2219,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "BooleanLit",
           "package": "hssqlppp",
@@ -2228,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "BooleanLit",
           "package": "hssqlppp",
@@ -2241,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Cascade",
           "package": "hssqlppp",
@@ -2250,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Cascade",
           "package": "hssqlppp",
@@ -2263,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Case",
           "package": "hssqlppp",
@@ -2272,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Case",
           "package": "hssqlppp",
@@ -2285,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseSimple",
           "package": "hssqlppp",
@@ -2294,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseSimple",
           "package": "hssqlppp",
@@ -2307,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseStatement",
           "package": "hssqlppp",
@@ -2316,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseStatement",
           "package": "hssqlppp",
@@ -2329,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseStatementSimple",
           "package": "hssqlppp",
@@ -2338,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CaseStatementSimple",
           "package": "hssqlppp",
@@ -2351,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Cast",
           "package": "hssqlppp",
@@ -2360,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Cast",
           "package": "hssqlppp",
@@ -2373,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CheckConstraint",
           "package": "hssqlppp",
@@ -2382,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CheckConstraint",
           "package": "hssqlppp",
@@ -2395,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CombineQueryExpr",
           "package": "hssqlppp",
@@ -2404,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CombineQueryExpr",
           "package": "hssqlppp",
@@ -2417,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ContinueIdentity",
           "package": "hssqlppp",
@@ -2426,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ContinueIdentity",
           "package": "hssqlppp",
@@ -2439,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ContinueStatement",
           "package": "hssqlppp",
@@ -2448,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ContinueStatement",
           "package": "hssqlppp",
@@ -2461,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Copy",
           "package": "hssqlppp",
@@ -2470,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Copy",
           "normalized": "Copy Annotation Name[NameComponent]CopySource",
@@ -2485,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CopyData",
           "package": "hssqlppp",
@@ -2494,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CopyData",
           "package": "hssqlppp",
@@ -2507,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CopyFilename",
           "package": "hssqlppp",
@@ -2516,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CopyFilename",
           "package": "hssqlppp",
@@ -2529,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateDomain",
           "package": "hssqlppp",
@@ -2538,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateDomain",
           "package": "hssqlppp",
@@ -2551,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateFunction",
           "package": "hssqlppp",
@@ -2560,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateFunction",
           "package": "hssqlppp",
@@ -2573,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateLanguage",
           "package": "hssqlppp",
@@ -2582,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateLanguage",
           "package": "hssqlppp",
@@ -2595,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateSequence",
           "package": "hssqlppp",
@@ -2604,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateSequence",
           "package": "hssqlppp",
@@ -2617,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateTable",
           "package": "hssqlppp",
@@ -2626,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateTable",
           "package": "hssqlppp",
@@ -2639,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateTableAs",
           "package": "hssqlppp",
@@ -2648,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateTableAs",
           "package": "hssqlppp",
@@ -2661,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateTrigger",
           "package": "hssqlppp",
@@ -2670,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateTrigger",
           "normalized": "CreateTrigger Annotation NameComponent TriggerWhen[TriggerEvent]Name TriggerFire Name ScalarExprList",
@@ -2685,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateType",
           "package": "hssqlppp",
@@ -2694,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateType",
           "package": "hssqlppp",
@@ -2707,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateView",
           "package": "hssqlppp",
@@ -2716,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "CreateView",
           "package": "hssqlppp",
@@ -2729,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Cross",
           "package": "hssqlppp",
@@ -2738,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Cross",
           "package": "hssqlppp",
@@ -2751,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Delete",
           "package": "hssqlppp",
@@ -2760,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Delete",
           "package": "hssqlppp",
@@ -2773,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Desc",
           "package": "hssqlppp",
@@ -2782,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Desc",
           "package": "hssqlppp",
@@ -2795,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Distinct",
           "package": "hssqlppp",
@@ -2804,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Distinct",
           "package": "hssqlppp",
@@ -2817,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Domain",
           "package": "hssqlppp",
@@ -2826,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Domain",
           "package": "hssqlppp",
@@ -2839,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "DropFunction",
           "package": "hssqlppp",
@@ -2848,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "DropFunction",
           "package": "hssqlppp",
@@ -2861,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "DropSomething",
           "package": "hssqlppp",
@@ -2870,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "DropSomething",
           "normalized": "DropSomething Annotation DropType IfExists[Name]Cascade",
@@ -2885,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Dupes",
           "package": "hssqlppp",
@@ -2894,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Dupes",
           "package": "hssqlppp",
@@ -2907,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "EachRow",
           "package": "hssqlppp",
@@ -2916,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "EachRow",
           "package": "hssqlppp",
@@ -2929,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "EachStatement",
           "package": "hssqlppp",
@@ -2938,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "EachStatement",
           "package": "hssqlppp",
@@ -2951,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Except",
           "package": "hssqlppp",
@@ -2960,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Except",
           "package": "hssqlppp",
@@ -2973,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Execute",
           "package": "hssqlppp",
@@ -2982,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Execute",
           "package": "hssqlppp",
@@ -2995,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Exists",
           "package": "hssqlppp",
@@ -3004,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Exists",
           "package": "hssqlppp",
@@ -3017,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExitStatement",
           "package": "hssqlppp",
@@ -3026,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExitStatement",
           "package": "hssqlppp",
@@ -3039,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Extract",
           "package": "hssqlppp",
@@ -3048,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Extract",
           "package": "hssqlppp",
@@ -3061,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractCentury",
           "package": "hssqlppp",
@@ -3070,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractCentury",
           "package": "hssqlppp",
@@ -3083,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractDay",
           "package": "hssqlppp",
@@ -3092,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractDay",
           "package": "hssqlppp",
@@ -3105,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractDecade",
           "package": "hssqlppp",
@@ -3114,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractDecade",
           "package": "hssqlppp",
@@ -3127,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractDow",
           "package": "hssqlppp",
@@ -3136,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractDow",
           "package": "hssqlppp",
@@ -3149,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractDoy",
           "package": "hssqlppp",
@@ -3158,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractDoy",
           "package": "hssqlppp",
@@ -3171,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractEpoch",
           "package": "hssqlppp",
@@ -3180,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractEpoch",
           "package": "hssqlppp",
@@ -3193,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractHour",
           "package": "hssqlppp",
@@ -3202,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractHour",
           "package": "hssqlppp",
@@ -3215,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractIsodow",
           "package": "hssqlppp",
@@ -3224,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractIsodow",
           "package": "hssqlppp",
@@ -3237,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractIsoyear",
           "package": "hssqlppp",
@@ -3246,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractIsoyear",
           "package": "hssqlppp",
@@ -3259,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMicroseconds",
           "package": "hssqlppp",
@@ -3268,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMicroseconds",
           "package": "hssqlppp",
@@ -3281,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMillennium",
           "package": "hssqlppp",
@@ -3290,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMillennium",
           "package": "hssqlppp",
@@ -3303,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMilliseconds",
           "package": "hssqlppp",
@@ -3312,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMilliseconds",
           "package": "hssqlppp",
@@ -3325,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMinute",
           "package": "hssqlppp",
@@ -3334,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMinute",
           "package": "hssqlppp",
@@ -3347,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMonth",
           "package": "hssqlppp",
@@ -3356,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractMonth",
           "package": "hssqlppp",
@@ -3369,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractQuarter",
           "package": "hssqlppp",
@@ -3378,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractQuarter",
           "package": "hssqlppp",
@@ -3391,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractSecond",
           "package": "hssqlppp",
@@ -3400,6 +3711,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractSecond",
           "package": "hssqlppp",
@@ -3413,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractTimezone",
           "package": "hssqlppp",
@@ -3422,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractTimezone",
           "package": "hssqlppp",
@@ -3435,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractTimezoneHour",
           "package": "hssqlppp",
@@ -3444,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractTimezoneHour",
           "package": "hssqlppp",
@@ -3457,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractTimezoneMinute",
           "package": "hssqlppp",
@@ -3466,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractTimezoneMinute",
           "package": "hssqlppp",
@@ -3479,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractWeek",
           "package": "hssqlppp",
@@ -3488,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractWeek",
           "package": "hssqlppp",
@@ -3501,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractYear",
           "package": "hssqlppp",
@@ -3510,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ExtractYear",
           "package": "hssqlppp",
@@ -3523,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ForIntegerStatement",
           "package": "hssqlppp",
@@ -3532,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ForIntegerStatement",
           "package": "hssqlppp",
@@ -3545,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ForQueryStatement",
           "package": "hssqlppp",
@@ -3554,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ForQueryStatement",
           "package": "hssqlppp",
@@ -3567,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FrameRowsUnboundedPreceding",
           "package": "hssqlppp",
@@ -3576,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FrameRowsUnboundedPreceding",
           "package": "hssqlppp",
@@ -3589,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FrameUnboundedFull",
           "package": "hssqlppp",
@@ -3598,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FrameUnboundedFull",
           "package": "hssqlppp",
@@ -3611,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FrameUnboundedPreceding",
           "package": "hssqlppp",
@@ -3620,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FrameUnboundedPreceding",
           "package": "hssqlppp",
@@ -3633,6 +3965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FullAlias",
           "package": "hssqlppp",
@@ -3642,6 +3975,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FullAlias",
           "normalized": "FullAlias Annotation NameComponent[NameComponent]",
@@ -3657,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FullOuter",
           "package": "hssqlppp",
@@ -3666,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FullOuter",
           "package": "hssqlppp",
@@ -3679,6 +4015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FunCall",
           "package": "hssqlppp",
@@ -3688,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FunCall",
           "package": "hssqlppp",
@@ -3701,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FunTref",
           "package": "hssqlppp",
@@ -3710,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "FunTref",
           "package": "hssqlppp",
@@ -3723,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Identifier",
           "package": "hssqlppp",
@@ -3732,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Identifier",
           "package": "hssqlppp",
@@ -3745,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "If",
           "package": "hssqlppp",
@@ -3754,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "If",
           "package": "hssqlppp",
@@ -3767,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IfExists",
           "package": "hssqlppp",
@@ -3776,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IfExists",
           "package": "hssqlppp",
@@ -3789,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Immutable",
           "package": "hssqlppp",
@@ -3798,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Immutable",
           "package": "hssqlppp",
@@ -3811,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "InList",
           "package": "hssqlppp",
@@ -3820,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "InList",
           "package": "hssqlppp",
@@ -3833,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "InPredicate",
           "package": "hssqlppp",
@@ -3842,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "InPredicate",
           "package": "hssqlppp",
@@ -3855,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "InQueryExpr",
           "package": "hssqlppp",
@@ -3864,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "InQueryExpr",
           "package": "hssqlppp",
@@ -3877,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Inner",
           "package": "hssqlppp",
@@ -3886,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Inner",
           "package": "hssqlppp",
@@ -3899,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Insert",
           "package": "hssqlppp",
@@ -3908,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Insert",
           "normalized": "Insert Annotation Name[NameComponent]QueryExpr MaybeSelectList",
@@ -3923,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Intersect",
           "package": "hssqlppp",
@@ -3932,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Intersect",
           "package": "hssqlppp",
@@ -3945,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Interval",
           "package": "hssqlppp",
@@ -3954,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Interval",
           "package": "hssqlppp",
@@ -3967,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalDay",
           "package": "hssqlppp",
@@ -3976,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalDay",
           "package": "hssqlppp",
@@ -3989,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalDayToHour",
           "package": "hssqlppp",
@@ -3998,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalDayToHour",
           "package": "hssqlppp",
@@ -4011,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalDayToMinute",
           "package": "hssqlppp",
@@ -4020,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalDayToMinute",
           "package": "hssqlppp",
@@ -4033,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalDayToSecond",
           "package": "hssqlppp",
@@ -4042,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalDayToSecond",
           "package": "hssqlppp",
@@ -4055,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalHour",
           "package": "hssqlppp",
@@ -4064,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalHour",
           "package": "hssqlppp",
@@ -4077,6 +4449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalHourToMinute",
           "package": "hssqlppp",
@@ -4086,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalHourToMinute",
           "package": "hssqlppp",
@@ -4099,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalHourToSecond",
           "package": "hssqlppp",
@@ -4108,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalHourToSecond",
           "package": "hssqlppp",
@@ -4121,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalMinute",
           "package": "hssqlppp",
@@ -4130,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalMinute",
           "package": "hssqlppp",
@@ -4143,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalMinuteToSecond",
           "package": "hssqlppp",
@@ -4152,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalMinuteToSecond",
           "package": "hssqlppp",
@@ -4165,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalMonth",
           "package": "hssqlppp",
@@ -4174,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalMonth",
           "package": "hssqlppp",
@@ -4187,6 +4569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalSecond",
           "package": "hssqlppp",
@@ -4196,6 +4579,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalSecond",
           "package": "hssqlppp",
@@ -4209,6 +4593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalYear",
           "package": "hssqlppp",
@@ -4218,6 +4603,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalYear",
           "package": "hssqlppp",
@@ -4231,6 +4617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalYearToMonth",
           "package": "hssqlppp",
@@ -4240,6 +4627,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "IntervalYearToMonth",
           "package": "hssqlppp",
@@ -4253,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Into",
           "package": "hssqlppp",
@@ -4262,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Into",
           "normalized": "Into Annotation Bool[Name]Statement",
@@ -4277,6 +4667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinOn",
           "package": "hssqlppp",
@@ -4286,6 +4677,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinOn",
           "package": "hssqlppp",
@@ -4299,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinTref",
           "package": "hssqlppp",
@@ -4308,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinTref",
           "package": "hssqlppp",
@@ -4321,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinUsing",
           "package": "hssqlppp",
@@ -4330,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "JoinUsing",
           "normalized": "JoinUsing Annotation[NameComponent]",
@@ -4345,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LeftOuter",
           "package": "hssqlppp",
@@ -4354,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LeftOuter",
           "package": "hssqlppp",
@@ -4367,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LiftAll",
           "package": "hssqlppp",
@@ -4376,6 +4775,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LiftAll",
           "package": "hssqlppp",
@@ -4389,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LiftAny",
           "package": "hssqlppp",
@@ -4398,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LiftAny",
           "package": "hssqlppp",
@@ -4411,6 +4813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LiftOperator",
           "package": "hssqlppp",
@@ -4420,6 +4823,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LiftOperator",
           "package": "hssqlppp",
@@ -4433,6 +4837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LoopStatement",
           "package": "hssqlppp",
@@ -4442,6 +4847,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "LoopStatement",
           "package": "hssqlppp",
@@ -4455,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "MultiSetClause",
           "package": "hssqlppp",
@@ -4464,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "MultiSetClause",
           "normalized": "MultiSetClause Annotation[NameComponent]ScalarExpr",
@@ -4479,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Name",
           "package": "hssqlppp",
@@ -4488,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Name",
           "normalized": "Name Annotation[NameComponent]",
@@ -4503,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Natural",
           "package": "hssqlppp",
@@ -4512,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Natural",
           "package": "hssqlppp",
@@ -4525,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Nmc",
           "package": "hssqlppp",
@@ -4534,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Nmc",
           "package": "hssqlppp",
@@ -4547,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NoAlias",
           "package": "hssqlppp",
@@ -4556,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NoAlias",
           "package": "hssqlppp",
@@ -4569,6 +4985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NoReplace",
           "package": "hssqlppp",
@@ -4578,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NoReplace",
           "package": "hssqlppp",
@@ -4591,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NotNullConstraint",
           "package": "hssqlppp",
@@ -4600,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NotNullConstraint",
           "package": "hssqlppp",
@@ -4613,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Notify",
           "package": "hssqlppp",
@@ -4622,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Notify",
           "package": "hssqlppp",
@@ -4635,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NullConstraint",
           "package": "hssqlppp",
@@ -4644,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NullConstraint",
           "package": "hssqlppp",
@@ -4657,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NullLit",
           "package": "hssqlppp",
@@ -4666,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NullLit",
           "package": "hssqlppp",
@@ -4679,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NullStatement",
           "package": "hssqlppp",
@@ -4688,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NullStatement",
           "package": "hssqlppp",
@@ -4701,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NumberLit",
           "package": "hssqlppp",
@@ -4710,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "NumberLit",
           "package": "hssqlppp",
@@ -4723,6 +5153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamAlias",
           "package": "hssqlppp",
@@ -4732,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamAlias",
           "package": "hssqlppp",
@@ -4745,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamDef",
           "package": "hssqlppp",
@@ -4754,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamDef",
           "package": "hssqlppp",
@@ -4767,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamDefTp",
           "package": "hssqlppp",
@@ -4776,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ParamDefTp",
           "package": "hssqlppp",
@@ -4789,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Perform",
           "package": "hssqlppp",
@@ -4798,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Perform",
           "package": "hssqlppp",
@@ -4811,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Placeholder",
           "package": "hssqlppp",
@@ -4820,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Placeholder",
           "package": "hssqlppp",
@@ -4833,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Plpgsql",
           "package": "hssqlppp",
@@ -4842,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Plpgsql",
           "package": "hssqlppp",
@@ -4855,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "PlpgsqlFnBody",
           "package": "hssqlppp",
@@ -4864,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "PlpgsqlFnBody",
           "package": "hssqlppp",
@@ -4877,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "PositionalArg",
           "package": "hssqlppp",
@@ -4886,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "PositionalArg",
           "package": "hssqlppp",
@@ -4899,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Prec2TypeName",
           "package": "hssqlppp",
@@ -4908,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Prec2TypeName",
           "package": "hssqlppp",
@@ -4921,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "PrecTypeName",
           "package": "hssqlppp",
@@ -4930,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "PrecTypeName",
           "package": "hssqlppp",
@@ -4943,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "PrimaryKeyConstraint",
           "package": "hssqlppp",
@@ -4952,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "PrimaryKeyConstraint",
           "normalized": "PrimaryKeyConstraint Annotation String[NameComponent]",
@@ -4967,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QIdentifier",
           "package": "hssqlppp",
@@ -4976,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QIdentifier",
           "normalized": "QIdentifier Annotation[NameComponent]",
@@ -4991,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QNmc",
           "package": "hssqlppp",
@@ -5000,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QNmc",
           "package": "hssqlppp",
@@ -5013,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QStar",
           "package": "hssqlppp",
@@ -5022,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QStar",
           "package": "hssqlppp",
@@ -5035,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QueryStatement",
           "package": "hssqlppp",
@@ -5044,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "QueryStatement",
           "package": "hssqlppp",
@@ -5057,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RError",
           "package": "hssqlppp",
@@ -5066,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RError",
           "package": "hssqlppp",
@@ -5079,6 +5541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RException",
           "package": "hssqlppp",
@@ -5088,6 +5551,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RException",
           "package": "hssqlppp",
@@ -5101,6 +5565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RNotice",
           "package": "hssqlppp",
@@ -5110,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RNotice",
           "package": "hssqlppp",
@@ -5123,6 +5589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Raise",
           "package": "hssqlppp",
@@ -5132,6 +5599,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Raise",
           "package": "hssqlppp",
@@ -5145,6 +5613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ReferenceConstraint",
           "package": "hssqlppp",
@@ -5154,6 +5623,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ReferenceConstraint",
           "normalized": "ReferenceConstraint Annotation String[NameComponent]Name[NameComponent]Cascade Cascade",
@@ -5169,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Replace",
           "package": "hssqlppp",
@@ -5178,6 +5649,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Replace",
           "package": "hssqlppp",
@@ -5191,6 +5663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Require",
           "package": "hssqlppp",
@@ -5200,6 +5673,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Require",
           "package": "hssqlppp",
@@ -5213,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RestartIdentity",
           "package": "hssqlppp",
@@ -5222,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RestartIdentity",
           "package": "hssqlppp",
@@ -5235,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Restrict",
           "package": "hssqlppp",
@@ -5244,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Restrict",
           "package": "hssqlppp",
@@ -5257,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Return",
           "package": "hssqlppp",
@@ -5266,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Return",
           "package": "hssqlppp",
@@ -5279,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ReturnNext",
           "package": "hssqlppp",
@@ -5288,6 +5769,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ReturnNext",
           "package": "hssqlppp",
@@ -5301,6 +5783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ReturnQuery",
           "package": "hssqlppp",
@@ -5310,6 +5793,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ReturnQuery",
           "package": "hssqlppp",
@@ -5323,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RightOuter",
           "package": "hssqlppp",
@@ -5332,6 +5817,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RightOuter",
           "package": "hssqlppp",
@@ -5345,6 +5831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowCheckConstraint",
           "package": "hssqlppp",
@@ -5354,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowCheckConstraint",
           "package": "hssqlppp",
@@ -5367,6 +5855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowPrimaryKeyConstraint",
           "package": "hssqlppp",
@@ -5376,6 +5865,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowPrimaryKeyConstraint",
           "package": "hssqlppp",
@@ -5389,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowReferenceConstraint",
           "package": "hssqlppp",
@@ -5398,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowReferenceConstraint",
           "package": "hssqlppp",
@@ -5411,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowUniqueConstraint",
           "package": "hssqlppp",
@@ -5420,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "RowUniqueConstraint",
           "package": "hssqlppp",
@@ -5433,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarSubQuery",
           "package": "hssqlppp",
@@ -5442,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ScalarSubQuery",
           "package": "hssqlppp",
@@ -5455,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelExp",
           "package": "hssqlppp",
@@ -5464,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelExp",
           "package": "hssqlppp",
@@ -5477,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Select",
           "package": "hssqlppp",
@@ -5486,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Select",
           "package": "hssqlppp",
@@ -5499,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectItem",
           "package": "hssqlppp",
@@ -5508,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectItem",
           "package": "hssqlppp",
@@ -5521,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectList",
           "package": "hssqlppp",
@@ -5530,6 +6033,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SelectList",
           "package": "hssqlppp",
@@ -5543,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Set",
           "package": "hssqlppp",
@@ -5552,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Set",
           "normalized": "Set Annotation String[SetValue]",
@@ -5567,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetClause",
           "package": "hssqlppp",
@@ -5576,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetClause",
           "package": "hssqlppp",
@@ -5589,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetId",
           "package": "hssqlppp",
@@ -5598,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetId",
           "package": "hssqlppp",
@@ -5611,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetNum",
           "package": "hssqlppp",
@@ -5620,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetNum",
           "package": "hssqlppp",
@@ -5633,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetOfTypeName",
           "package": "hssqlppp",
@@ -5642,6 +6155,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetOfTypeName",
           "package": "hssqlppp",
@@ -5655,6 +6169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetStr",
           "package": "hssqlppp",
@@ -5664,6 +6179,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SetStr",
           "package": "hssqlppp",
@@ -5677,6 +6193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SimpleTypeName",
           "package": "hssqlppp",
@@ -5686,6 +6203,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SimpleTypeName",
           "package": "hssqlppp",
@@ -5699,6 +6217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Sql",
           "package": "hssqlppp",
@@ -5708,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Sql",
           "package": "hssqlppp",
@@ -5721,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SqlFnBody",
           "package": "hssqlppp",
@@ -5730,6 +6251,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SqlFnBody",
           "package": "hssqlppp",
@@ -5743,6 +6265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Stable",
           "package": "hssqlppp",
@@ -5752,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Stable",
           "package": "hssqlppp",
@@ -5765,6 +6289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Star",
           "package": "hssqlppp",
@@ -5774,6 +6299,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Star",
           "package": "hssqlppp",
@@ -5787,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Stdin",
           "package": "hssqlppp",
@@ -5796,6 +6323,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Stdin",
           "package": "hssqlppp",
@@ -5809,6 +6337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "StringLit",
           "package": "hssqlppp",
@@ -5818,6 +6347,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "StringLit",
           "package": "hssqlppp",
@@ -5831,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SubTref",
           "package": "hssqlppp",
@@ -5840,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "SubTref",
           "package": "hssqlppp",
@@ -5853,6 +6385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TDelete",
           "package": "hssqlppp",
@@ -5862,6 +6395,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TDelete",
           "package": "hssqlppp",
@@ -5875,6 +6409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TInsert",
           "package": "hssqlppp",
@@ -5884,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TInsert",
           "package": "hssqlppp",
@@ -5897,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TUpdate",
           "package": "hssqlppp",
@@ -5906,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TUpdate",
           "package": "hssqlppp",
@@ -5919,6 +6457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Table",
           "package": "hssqlppp",
@@ -5928,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Table",
           "package": "hssqlppp",
@@ -5941,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TableAlias",
           "package": "hssqlppp",
@@ -5950,6 +6491,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TableAlias",
           "package": "hssqlppp",
@@ -5963,6 +6505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Tref",
           "package": "hssqlppp",
@@ -5972,6 +6515,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Tref",
           "package": "hssqlppp",
@@ -5985,6 +6529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerAfter",
           "package": "hssqlppp",
@@ -5994,6 +6539,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerAfter",
           "package": "hssqlppp",
@@ -6007,6 +6553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerBefore",
           "package": "hssqlppp",
@@ -6016,6 +6563,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TriggerBefore",
           "package": "hssqlppp",
@@ -6029,6 +6577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Truncate",
           "package": "hssqlppp",
@@ -6038,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Truncate",
           "normalized": "Truncate Annotation[Name]RestartIdentity Cascade",
@@ -6053,6 +6603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Type",
           "package": "hssqlppp",
@@ -6062,6 +6613,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Type",
           "package": "hssqlppp",
@@ -6075,6 +6627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeAttDef",
           "package": "hssqlppp",
@@ -6084,6 +6637,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypeAttDef",
           "package": "hssqlppp",
@@ -6097,6 +6651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypedStringLit",
           "package": "hssqlppp",
@@ -6106,6 +6661,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "TypedStringLit",
           "package": "hssqlppp",
@@ -6119,6 +6675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Union",
           "package": "hssqlppp",
@@ -6128,6 +6685,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Union",
           "package": "hssqlppp",
@@ -6141,6 +6699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "UnionAll",
           "package": "hssqlppp",
@@ -6150,6 +6709,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "UnionAll",
           "package": "hssqlppp",
@@ -6163,6 +6723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "UniqueConstraint",
           "package": "hssqlppp",
@@ -6172,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "UniqueConstraint",
           "normalized": "UniqueConstraint Annotation String[NameComponent]",
@@ -6187,6 +6749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Unnatural",
           "package": "hssqlppp",
@@ -6196,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Unnatural",
           "package": "hssqlppp",
@@ -6209,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Update",
           "package": "hssqlppp",
@@ -6218,6 +6783,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Update",
           "package": "hssqlppp",
@@ -6231,6 +6797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Values",
           "package": "hssqlppp",
@@ -6240,6 +6807,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Values",
           "package": "hssqlppp",
@@ -6253,6 +6821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "VarAlias",
           "package": "hssqlppp",
@@ -6262,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "VarAlias",
           "package": "hssqlppp",
@@ -6275,6 +6845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "VarDef",
           "package": "hssqlppp",
@@ -6284,6 +6855,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "VarDef",
           "package": "hssqlppp",
@@ -6297,6 +6869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "View",
           "package": "hssqlppp",
@@ -6306,6 +6879,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "View",
           "package": "hssqlppp",
@@ -6319,6 +6893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Volatile",
           "package": "hssqlppp",
@@ -6328,6 +6903,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "Volatile",
           "package": "hssqlppp",
@@ -6341,6 +6917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WhileStatement",
           "package": "hssqlppp",
@@ -6350,6 +6927,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WhileStatement",
           "package": "hssqlppp",
@@ -6363,6 +6941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WindowFn",
           "package": "hssqlppp",
@@ -6372,6 +6951,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WindowFn",
           "package": "hssqlppp",
@@ -6385,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WithQuery",
           "package": "hssqlppp",
@@ -6394,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WithQuery",
           "normalized": "WithQuery Annotation NameComponent(Maybe[NameComponent])QueryExpr",
@@ -6409,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WithQueryExpr",
           "package": "hssqlppp",
@@ -6418,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "WithQueryExpr",
           "package": "hssqlppp",
@@ -6431,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ncStr",
           "package": "hssqlppp",
@@ -6440,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Ast",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Ast",
           "name": "ncStr",
           "normalized": "NameComponent-\u003eString",
@@ -6456,6 +7042,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the database catalog data types and helper\n   functions.\n\u003c/p\u003e\u003cp\u003eThe catalog data type serves the following purposes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Contains all the catalog information needed to type check against\n      an existing database.\n\u003c/li\u003e\u003cli\u003e A copy of the catalog information from a default template1\n     database is included - \u003ccode\u003e\u003ca\u003edefaultTemplate1Catalog\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e It is used internally to keep track of updates to the catalog\n      whilst running an annotation process (e.g. so that a select can\n      type check against a create table given in the same source). It\n      is also used to track other identifier types, such as attribute\n      references in select expressions, and argument and variable\n      types inside create function statements.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eYou can see what kind of stuff is contained in the Catalog type\n   by looking at the \u003ccode\u003e\u003ca\u003eCatalogUpdate\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "Catalog",
           "package": "hssqlppp",
@@ -6465,6 +7052,7 @@
         "index": {
           "description": "This module contains the database catalog data types and helper functions The catalog data type serves the following purposes Contains all the catalog information needed to type check against an existing database copy of the catalog information from default template1 database is included defaultTemplate1Catalog It is used internally to keep track of updates to the catalog whilst running an annotation process e.g so that select can type check against create table given in the same source It is also used to track other identifier types such as attribute references in select expressions and argument and variable types inside create function statements You can see what kind of stuff is contained in the Catalog type by looking at the CatalogUpdate type",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "Catalog",
           "package": "hssqlppp",
@@ -6479,6 +7067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse to note what the flavour of a cast is, i.e. if/when it can\n be used implicitly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CastContext",
           "package": "hssqlppp",
@@ -6488,6 +7077,7 @@
         "index": {
           "description": "Use to note what the flavour of cast is i.e if when it can be used implicitly",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CastContext",
           "package": "hssqlppp",
@@ -6502,6 +7092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main datatype, this holds the catalog and context\n information to type check against.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "Catalog",
           "package": "hssqlppp",
@@ -6511,6 +7102,7 @@
         "index": {
           "description": "The main datatype this holds the catalog and context information to type check against",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "Catalog",
           "package": "hssqlppp",
@@ -6525,6 +7117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eitems in first catalog and not second, items in second and not first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatalogDiff",
           "package": "hssqlppp",
@@ -6534,6 +7127,7 @@
         "index": {
           "description": "items in first catalog and not second items in second and not first",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatalogDiff",
           "package": "hssqlppp",
@@ -6547,6 +7141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatalogUpdate",
           "package": "hssqlppp",
@@ -6555,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatalogUpdate",
           "package": "hssqlppp",
@@ -6569,6 +7165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides the definition of a composite type. The components are\n composite (or table or view) name, the flavour of the composite,\n the types of the composite attributes, and the types of the\n system columns iff the composite represents a table type (the\n third and fourth components are always \u003ccode\u003e\u003ca\u003eCompositeType\u003c/a\u003e\u003c/code\u003es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CompositeDef",
           "package": "hssqlppp",
@@ -6578,6 +7175,7 @@
         "index": {
           "description": "Provides the definition of composite type The components are composite or table or view name the flavour of the composite the types of the composite attributes and the types of the system columns iff the composite represents table type the third and fourth components are always CompositeType",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CompositeDef",
           "package": "hssqlppp",
@@ -6592,6 +7190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to distinguish between standalone composite types, and\n automatically generated ones, generated from a table or view\n respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CompositeFlavour",
           "package": "hssqlppp",
@@ -6601,6 +7200,7 @@
         "index": {
           "description": "Used to distinguish between standalone composite types and automatically generated ones generated from table or view respectively",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CompositeFlavour",
           "package": "hssqlppp",
@@ -6615,6 +7215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe components are domain type, base type (todo: add check\n constraint).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "DomainDefinition",
           "package": "hssqlppp",
@@ -6624,6 +7225,7 @@
         "index": {
           "description": "The components are domain type base type todo add check constraint",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "DomainDefinition",
           "package": "hssqlppp",
@@ -6637,6 +7239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunFlav",
           "package": "hssqlppp",
@@ -6645,6 +7248,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunFlav",
           "package": "hssqlppp",
@@ -6659,6 +7263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe components are: function (or operator) name, argument\n types, return type and is variadic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunctionPrototype",
           "package": "hssqlppp",
@@ -6668,6 +7273,7 @@
         "index": {
           "description": "The components are function or operator name argument types return type and is variadic",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunctionPrototype",
           "package": "hssqlppp",
@@ -6681,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "OperatorType",
           "package": "hssqlppp",
@@ -6689,6 +7296,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "OperatorType",
           "package": "hssqlppp",
@@ -6702,6 +7310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "AssignmentCastContext",
           "package": "hssqlppp",
@@ -6711,6 +7320,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "AssignmentCastContext",
           "package": "hssqlppp",
@@ -6724,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "BinaryOp",
           "package": "hssqlppp",
@@ -6733,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "BinaryOp",
           "package": "hssqlppp",
@@ -6747,6 +7359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a new cast to the catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateCast",
           "package": "hssqlppp",
@@ -6757,6 +7370,7 @@
         "index": {
           "description": "add new cast to the catalog",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateCast",
           "package": "hssqlppp",
@@ -6771,6 +7385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a new composite type to the catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateComposite",
           "package": "hssqlppp",
@@ -6781,6 +7396,7 @@
         "index": {
           "description": "add new composite type to the catalog",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateComposite",
           "normalized": "CatCreateComposite String[(String,Type)]",
@@ -6797,6 +7413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a new domain to the catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateDomain",
           "package": "hssqlppp",
@@ -6807,6 +7424,7 @@
         "index": {
           "description": "add new domain to the catalog",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateDomain",
           "package": "hssqlppp",
@@ -6821,6 +7439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a new function to the catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateFunction",
           "package": "hssqlppp",
@@ -6831,6 +7450,7 @@
         "index": {
           "description": "add new function to the catalog",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateFunction",
           "normalized": "CatCreateFunction FunFlav String[Type]Type Bool",
@@ -6847,6 +7467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a new scalar type with the name given, also creates\n an array type automatically\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateScalar",
           "package": "hssqlppp",
@@ -6857,6 +7478,7 @@
         "index": {
           "description": "add new scalar type with the name given also creates an array type automatically",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateScalar",
           "package": "hssqlppp",
@@ -6871,6 +7493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a new table to the catalog with the given public and private columns\n also creates the composite type to go with this table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateTable",
           "package": "hssqlppp",
@@ -6881,6 +7504,7 @@
         "index": {
           "description": "add new table to the catalog with the given public and private columns also creates the composite type to go with this table",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateTable",
           "normalized": "CatCreateTable String[(String,Type)][(String,Type)]",
@@ -6897,6 +7521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd the view to the catalog, using the column names and types supplied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateView",
           "package": "hssqlppp",
@@ -6907,6 +7532,7 @@
         "index": {
           "description": "add the view to the catalog using the column names and types supplied",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatCreateView",
           "normalized": "CatCreateView String[(String,Type)]",
@@ -6923,6 +7549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrop a function from the catalog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatDropFunction",
           "package": "hssqlppp",
@@ -6933,6 +7560,7 @@
         "index": {
           "description": "drop function from the catalog",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatDropFunction",
           "normalized": "CatDropFunction Bool String[Type]",
@@ -6948,6 +7576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatalogDiff",
           "package": "hssqlppp",
@@ -6957,6 +7586,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "CatalogDiff",
           "normalized": "CatalogDiff[CatalogUpdate][CatalogUpdate]",
@@ -6972,6 +7602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "Composite",
           "package": "hssqlppp",
@@ -6981,6 +7612,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "Composite",
           "package": "hssqlppp",
@@ -6994,6 +7626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ExplicitCastContext",
           "package": "hssqlppp",
@@ -7003,6 +7636,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ExplicitCastContext",
           "package": "hssqlppp",
@@ -7016,6 +7650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunAgg",
           "package": "hssqlppp",
@@ -7025,6 +7660,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunAgg",
           "package": "hssqlppp",
@@ -7038,6 +7674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunBinary",
           "package": "hssqlppp",
@@ -7047,6 +7684,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunBinary",
           "package": "hssqlppp",
@@ -7060,6 +7698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunName",
           "package": "hssqlppp",
@@ -7069,6 +7708,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunName",
           "package": "hssqlppp",
@@ -7082,6 +7722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunPostfix",
           "package": "hssqlppp",
@@ -7091,6 +7732,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunPostfix",
           "package": "hssqlppp",
@@ -7104,6 +7746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunPrefix",
           "package": "hssqlppp",
@@ -7113,6 +7756,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunPrefix",
           "package": "hssqlppp",
@@ -7126,6 +7770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunWindow",
           "package": "hssqlppp",
@@ -7135,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "FunWindow",
           "package": "hssqlppp",
@@ -7148,6 +7794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ImplicitCastContext",
           "package": "hssqlppp",
@@ -7157,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ImplicitCastContext",
           "package": "hssqlppp",
@@ -7170,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "PostfixOp",
           "package": "hssqlppp",
@@ -7179,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "PostfixOp",
           "package": "hssqlppp",
@@ -7192,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "PrefixOp",
           "package": "hssqlppp",
@@ -7201,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "PrefixOp",
           "package": "hssqlppp",
@@ -7214,6 +7866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "TableComposite",
           "package": "hssqlppp",
@@ -7223,6 +7876,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "TableComposite",
           "package": "hssqlppp",
@@ -7236,6 +7890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ViewComposite",
           "package": "hssqlppp",
@@ -7245,6 +7900,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ViewComposite",
           "package": "hssqlppp",
@@ -7259,6 +7915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efind differences between two catalogs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "compareCatalogs",
           "package": "hssqlppp",
@@ -7269,6 +7926,7 @@
         "index": {
           "description": "find differences between two catalogs",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "compareCatalogs",
           "normalized": "Catalog-\u003eCatalog-\u003eCatalog-\u003eCatalogDiff",
@@ -7284,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "deconstructCatalog",
           "package": "hssqlppp",
@@ -7293,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "deconstructCatalog",
           "normalized": "Catalog-\u003e[CatalogUpdate]",
@@ -7309,6 +7969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents what you probably want to use as a starting point if\n you are building an catalog from scratch. It contains\n information on built in function like things that aren't in the\n PostgreSQL catalog, such as greatest, coalesce, keyword operators\n like 'and', etc..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "defaultCatalog",
           "package": "hssqlppp",
@@ -7319,6 +7980,7 @@
         "index": {
           "description": "Represents what you probably want to use as starting point if you are building an catalog from scratch It contains information on built in function like things that aren in the PostgreSQL catalog such as greatest coalesce keyword operators like and etc",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "defaultCatalog",
           "package": "hssqlppp",
@@ -7332,6 +7994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "defaultTemplate1Catalog",
           "package": "hssqlppp",
@@ -7341,6 +8004,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "defaultTemplate1Catalog",
           "package": "hssqlppp",
@@ -7355,6 +8019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an empty catalog. This doesn't contain things\n like the 'and' operator, \u003ccode\u003e\u003ca\u003edefaultCatalog\u003c/a\u003e\u003c/code\u003e contains these.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "emptyCatalog",
           "package": "hssqlppp",
@@ -7365,6 +8030,7 @@
         "index": {
           "description": "Represents an empty catalog This doesn contain things like the and operator defaultCatalog contains these",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "emptyCatalog",
           "package": "hssqlppp",
@@ -7378,6 +8044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "getOperatorType",
           "package": "hssqlppp",
@@ -7387,6 +8054,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "getOperatorType",
           "normalized": "Catalog-\u003eString-\u003eEither[TypeError]OperatorType",
@@ -7402,6 +8070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "isOperatorName",
           "package": "hssqlppp",
@@ -7411,6 +8080,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "isOperatorName",
           "normalized": "String-\u003eBool",
@@ -7427,6 +8097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprint a catdiff in a more human readable way than show.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ppCatDiff",
           "package": "hssqlppp",
@@ -7437,6 +8108,7 @@
         "index": {
           "description": "print catdiff in more human readable way than show",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ppCatDiff",
           "normalized": "CatalogDiff-\u003eString",
@@ -7453,6 +8125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eattempt to show a readable representation of a \u003ccode\u003e\u003ca\u003eCatalogUpdate\u003c/a\u003e\u003c/code\u003e value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ppCatUpdate",
           "package": "hssqlppp",
@@ -7463,6 +8136,7 @@
         "index": {
           "description": "attempt to show readable representation of CatalogUpdate value",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "ppCatUpdate",
           "normalized": "CatalogUpdate-\u003eString",
@@ -7479,6 +8153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a list of \u003ccode\u003e\u003ca\u003eCatalogUpdate\u003c/a\u003e\u003c/code\u003es to an \u003ccode\u003e\u003ca\u003eCatalog\u003c/a\u003e\u003c/code\u003e value\n to produce a new Catalog value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "updateCatalog",
           "package": "hssqlppp",
@@ -7489,6 +8164,7 @@
         "index": {
           "description": "Applies list of CatalogUpdate to an Catalog value to produce new Catalog value",
           "hierarchy": "Database HsSqlPpp Catalog",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Catalog",
           "name": "updateCatalog",
           "normalized": "Catalog-\u003e[CatalogUpdate]-\u003eEither[TypeError]Catalog",
@@ -7505,6 +8181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to parse SQL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "Parser",
           "package": "hssqlppp",
@@ -7514,6 +8191,7 @@
         "index": {
           "description": "Functions to parse SQL",
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "Parser",
           "package": "hssqlppp",
@@ -7528,6 +8206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple wrapper to allow showing the source context of a ParseError\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "ParseErrorExtra",
           "package": "hssqlppp",
@@ -7537,6 +8216,7 @@
         "index": {
           "description": "Simple wrapper to allow showing the source context of ParseError",
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "ParseErrorExtra",
           "package": "hssqlppp",
@@ -7550,6 +8230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "ParseErrorExtra",
           "package": "hssqlppp",
@@ -7559,6 +8240,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "ParseErrorExtra",
           "package": "hssqlppp",
@@ -7573,6 +8255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrapped error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseErrorError",
           "package": "hssqlppp",
@@ -7583,6 +8266,7 @@
         "index": {
           "description": "wrapped error",
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseErrorError",
           "package": "hssqlppp",
@@ -7597,6 +8281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esource position\n adjustment to get the\n context bit in error\n messages right - this is\n the same as what is passed\n into parseSqlWithPosition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseErrorPosition",
           "package": "hssqlppp",
@@ -7607,6 +8292,7 @@
         "index": {
           "description": "source position adjustment to get the context bit in error messages right this is the same as what is passed into parseSqlWithPosition",
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseErrorPosition",
           "normalized": "Maybe(Int,Int)",
@@ -7623,6 +8309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esql source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseErrorSqlSource",
           "package": "hssqlppp",
@@ -7633,6 +8320,7 @@
         "index": {
           "description": "sql source",
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseErrorSqlSource",
           "package": "hssqlppp",
@@ -7647,6 +8335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse plpgsql statements, used for testing purposes -\n this can be used to parse a list of plpgsql statements which\n aren't contained in a create function.\n (The produced ast won't pass a type check.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parsePlpgsql",
           "package": "hssqlppp",
@@ -7657,6 +8346,7 @@
         "index": {
           "description": "Parse plpgsql statements used for testing purposes this can be used to parse list of plpgsql statements which aren contained in create function The produced ast won pass type check",
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parsePlpgsql",
           "normalized": "String-\u003eString-\u003eEither ParseErrorExtra[Statement]",
@@ -7672,6 +8362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseQueryExpr",
           "package": "hssqlppp",
@@ -7680,6 +8371,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseQueryExpr",
           "normalized": "String-\u003eString-\u003eEither ParseErrorExtra QueryExpr",
@@ -7696,6 +8388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse expression fragment, used for testing purposes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseScalarExpr",
           "package": "hssqlppp",
@@ -7705,6 +8398,7 @@
         "index": {
           "description": "Parse expression fragment used for testing purposes",
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseScalarExpr",
           "normalized": "String-\u003eString-\u003eEither ParseErrorExtra ScalarExpr",
@@ -7720,6 +8414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseStatements",
           "package": "hssqlppp",
@@ -7728,6 +8423,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseStatements",
           "normalized": "String-\u003eString-\u003eEither ParseErrorExtra[Statement]",
@@ -7743,6 +8439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseStatementsFromFile",
           "package": "hssqlppp",
@@ -7751,6 +8448,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseStatementsFromFile",
           "normalized": "FilePath-\u003eIO(Either ParseErrorExtra[Statement])",
@@ -7766,6 +8464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseStatementsWithPosition",
           "package": "hssqlppp",
@@ -7774,6 +8473,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Parser",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Parser",
           "name": "parseStatementsWithPosition",
           "normalized": "FilePath-\u003eInt-\u003eInt-\u003eString-\u003eEither ParseErrorExtra[Statement]",
@@ -7790,6 +8490,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to convert sql asts to valid SQL source code. Includes\n     a function - \u003ccode\u003eprintSqlAnn\u003c/code\u003e - to output the annotations from a tree\n     in comments in the outputted SQL source.\n\u003c/p\u003e\u003cp\u003eProduces sort of readable code, but mainly just written to produce\n     reparsable text. Could do with some work to make the outputted text\n     layout better.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "Pretty",
           "package": "hssqlppp",
@@ -7799,6 +8500,7 @@
         "index": {
           "description": "Functions to convert sql asts to valid SQL source code Includes function printSqlAnn to output the annotations from tree in comments in the outputted SQL source Produces sort of readable code but mainly just written to produce reparsable text Could do with some work to make the outputted text layout better",
           "hierarchy": "Database HsSqlPpp Pretty",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "Pretty",
           "package": "hssqlppp",
@@ -7812,6 +8514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printQueryExpr",
           "package": "hssqlppp",
@@ -7821,6 +8524,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Pretty",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printQueryExpr",
           "normalized": "QueryExpr-\u003eString",
@@ -7837,6 +8541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry harder to make the output human readable, not necessary correct\n sql output at the moment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printQueryExprNice",
           "package": "hssqlppp",
@@ -7847,6 +8552,7 @@
         "index": {
           "description": "Try harder to make the output human readable not necessary correct sql output at the moment",
           "hierarchy": "Database HsSqlPpp Pretty",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printQueryExprNice",
           "normalized": "QueryExpr-\u003eString",
@@ -7863,6 +8569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTesting function, pretty print an expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printScalarExpr",
           "package": "hssqlppp",
@@ -7873,6 +8580,7 @@
         "index": {
           "description": "Testing function pretty print an expression",
           "hierarchy": "Database HsSqlPpp Pretty",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printScalarExpr",
           "normalized": "ScalarExpr-\u003eString",
@@ -7889,6 +8597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert an ast back to valid SQL source, it's also almost human readable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printStatements",
           "package": "hssqlppp",
@@ -7899,6 +8608,7 @@
         "index": {
           "description": "convert an ast back to valid SQL source it also almost human readable",
           "hierarchy": "Database HsSqlPpp Pretty",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printStatements",
           "normalized": "StatementList-\u003eString",
@@ -7915,6 +8625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert the ast back to valid source, and convert any annotations to\n text using the function provided and interpolate the output of\n this function(inside comments) with the SQL source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printStatementsAnn",
           "package": "hssqlppp",
@@ -7925,6 +8636,7 @@
         "index": {
           "description": "convert the ast back to valid source and convert any annotations to text using the function provided and interpolate the output of this function inside comments with the SQL source",
           "hierarchy": "Database HsSqlPpp Pretty",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Pretty",
           "name": "printStatementsAnn",
           "normalized": "(Annotation-\u003eString)-\u003eStatementList-\u003eString",
@@ -7941,6 +8653,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA quasiquoter for SQL. Antiquoting is a bit inconsistent. The\n  splice variable names must be all lower case because of a limitation\n  in the parser.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n \n import Database.HsSqlPpp.Ast\n import Database.HsSqlPpp.Quote\n import Database.HsSqlPpp.Annotation\n\n test :: Statement\n test = [$sqlStmt|\n\n   create table $(tablename) (\n    $(varname) $(typename)\n   );\n\n         |]\n   where\n     tablename = \"my_table\"\n     varname = \"my_field\"\n     typename = \"text\"\n\n\u003c/pre\u003e\u003cp\u003eSee \u003ca\u003ehttp://jakewheat.github.com/hssqlppp/QuasiQuoteTests.html\u003c/a\u003e\n  for more simple examples\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Quote",
           "name": "Quote",
           "package": "hssqlppp",
@@ -7950,6 +8663,7 @@
         "index": {
           "description": "quasiquoter for SQL Antiquoting is bit inconsistent The splice variable names must be all lower case because of limitation in the parser Example import Database.HsSqlPpp.Ast import Database.HsSqlPpp.Quote import Database.HsSqlPpp.Annotation test Statement test sqlStmt create table tablename varname typename where tablename my table varname my field typename text See http jakewheat.github.com hssqlppp QuasiQuoteTests.html for more simple examples",
           "hierarchy": "Database HsSqlPpp Quote",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Quote",
           "name": "Quote",
           "package": "hssqlppp",
@@ -7964,6 +8678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equotes a plpgsql Statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Quote",
           "name": "pgsqlStmt",
           "package": "hssqlppp",
@@ -7974,6 +8689,7 @@
         "index": {
           "description": "quotes plpgsql Statement",
           "hierarchy": "Database HsSqlPpp Quote",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Quote",
           "name": "pgsqlStmt",
           "package": "hssqlppp",
@@ -7988,6 +8704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equotes plpgsql Statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Quote",
           "name": "pgsqlStmts",
           "package": "hssqlppp",
@@ -7998,6 +8715,7 @@
         "index": {
           "description": "quotes plpgsql Statements",
           "hierarchy": "Database HsSqlPpp Quote",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Quote",
           "name": "pgsqlStmts",
           "package": "hssqlppp",
@@ -8012,6 +8730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equotes a ScalarExpr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Quote",
           "name": "sqlExpr",
           "package": "hssqlppp",
@@ -8022,6 +8741,7 @@
         "index": {
           "description": "quotes ScalarExpr",
           "hierarchy": "Database HsSqlPpp Quote",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Quote",
           "name": "sqlExpr",
           "package": "hssqlppp",
@@ -8036,6 +8756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equotes a single Statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Quote",
           "name": "sqlStmt",
           "package": "hssqlppp",
@@ -8046,6 +8767,7 @@
         "index": {
           "description": "quotes single Statement",
           "hierarchy": "Database HsSqlPpp Quote",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Quote",
           "name": "sqlStmt",
           "package": "hssqlppp",
@@ -8060,6 +8782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equotes Statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Quote",
           "name": "sqlStmts",
           "package": "hssqlppp",
@@ -8070,6 +8793,7 @@
         "index": {
           "description": "quotes Statements",
           "hierarchy": "Database HsSqlPpp Quote",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Quote",
           "name": "sqlStmts",
           "package": "hssqlppp",
@@ -8084,6 +8808,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains the data types and functions for annotating\n   an ast and working with annotated trees, including the\n   representations of SQL data types.\n\u003c/p\u003e\u003cp\u003eAnnotations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e are attached to most of the ast node data types, but not quite all of them;\n\u003c/li\u003e\u003cli\u003e types annotations are attached to most nodes during type checking;\n\u003c/li\u003e\u003cli\u003e type errors are attached to the lowest down node that the type\n    error is detected at;\n\u003c/li\u003e\u003cli\u003e nodes who fail the type check or whose type depends on a node with\n    a type error are given the type \u003ccode\u003eTypeCheckFailed\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e each statement has an additional \u003ccode\u003eStatementInfo\u003c/code\u003e annotation attached to it;\n\u003c/li\u003e\u003cli\u003e the parser fills in the source position annotation in every\n    annotatable ast node.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "TypeChecker",
           "package": "hssqlppp",
@@ -8093,6 +8818,7 @@
         "index": {
           "description": "Contains the data types and functions for annotating an ast and working with annotated trees including the representations of SQL data types Annotations are attached to most of the ast node data types but not quite all of them types annotations are attached to most nodes during type checking type errors are attached to the lowest down node that the type error is detected at nodes who fail the type check or whose type depends on node with type error are given the type TypeCheckFailed each statement has an additional StatementInfo annotation attached to it the parser fills in the source position annotation in every annotatable ast node",
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "TypeChecker",
           "package": "hssqlppp",
@@ -8107,6 +8833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun through a typechecked tree and add in explicit casts where\n implicit casts are used to typecheck. Does function and operator\n calls, case result expressions, and string, integer and float\n literals at the moment, todo: union, array, greatest, least\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "addExplicitCasts",
           "package": "hssqlppp",
@@ -8117,6 +8844,7 @@
         "index": {
           "description": "Run through typechecked tree and add in explicit casts where implicit casts are used to typecheck Does function and operator calls case result expressions and string integer and float literals at the moment todo union array greatest least",
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "addExplicitCasts",
           "normalized": "a-\u003ea",
@@ -8133,6 +8861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert all the typenames in the ast to canonical form\n e.g. int -\u003e int4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "canonicalizeTypeNames",
           "package": "hssqlppp",
@@ -8143,6 +8872,7 @@
         "index": {
           "description": "Convert all the typenames in the ast to canonical form e.g int int4",
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "canonicalizeTypeNames",
           "normalized": "a-\u003ea",
@@ -8159,6 +8889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform the tree by converting * to explicit lists of columns and adding qualifiers to all column references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "fixUpIdentifiers",
           "package": "hssqlppp",
@@ -8169,6 +8900,7 @@
         "index": {
           "description": "transform the tree by converting to explicit lists of columns and adding qualifiers to all column references",
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "fixUpIdentifiers",
           "normalized": "Catalog-\u003e[Statement]-\u003e[Statement]",
@@ -8184,6 +8916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "fixUpIdentifiersQE",
           "package": "hssqlppp",
@@ -8193,6 +8926,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "fixUpIdentifiersQE",
           "normalized": "Catalog-\u003eQueryExpr-\u003eQueryExpr",
@@ -8208,6 +8942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "fixUpIdentifiersSE",
           "package": "hssqlppp",
@@ -8217,6 +8952,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "fixUpIdentifiersSE",
           "normalized": "Catalog-\u003eScalarExpr-\u003eScalarExpr",
@@ -8233,6 +8969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun through the ast and return all the annotations attached to\n   a Statement node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "getStatementAnnotations",
           "package": "hssqlppp",
@@ -8243,6 +8980,7 @@
         "index": {
           "description": "Run through the ast and return all the annotations attached to Statement node",
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "getStatementAnnotations",
           "normalized": "a-\u003e[Annotation]",
@@ -8259,6 +8997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfinished version of type check which can type check an\n individual statement with ? or positional arg placeholders in\n it. Will error if the statement isn't select, update, insert or\n delete. For use in type checking embedded parameterized\n statements. Does all typechecking and annotation that the regular\n typecheck does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "typeCheckParameterizedStatement",
           "package": "hssqlppp",
@@ -8269,6 +9008,7 @@
         "index": {
           "description": "Unfinished version of type check which can type check an individual statement with or positional arg placeholders in it Will error if the statement isn select update insert or delete For use in type checking embedded parameterized statements Does all typechecking and annotation that the regular typecheck does",
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "typeCheckParameterizedStatement",
           "normalized": "Catalog-\u003eStatement-\u003eEither String Statement",
@@ -8284,6 +9024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "typeCheckQueryExpr",
           "package": "hssqlppp",
@@ -8293,6 +9034,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "typeCheckQueryExpr",
           "normalized": "Catalog-\u003eQueryExpr-\u003eQueryExpr",
@@ -8309,6 +9051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTesting utility, mainly used to check an expression for type errors\n or to get its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "typeCheckScalarExpr",
           "package": "hssqlppp",
@@ -8319,6 +9062,7 @@
         "index": {
           "description": "Testing utility mainly used to check an expression for type errors or to get its type",
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "typeCheckScalarExpr",
           "normalized": "Catalog-\u003eScalarExpr-\u003eScalarExpr",
@@ -8335,6 +9079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes an ast, checks against catalog passed, and adds\n   annotations, including types, type errors, and statement info.\n   Returns the updated catalog as well as the annotated ast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "typeCheckStatements",
           "package": "hssqlppp",
@@ -8345,6 +9090,7 @@
         "index": {
           "description": "Takes an ast checks against catalog passed and adds annotations including types type errors and statement info Returns the updated catalog as well as the annotated ast",
           "hierarchy": "Database HsSqlPpp TypeChecker",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.TypeChecker",
           "name": "typeCheckStatements",
           "normalized": "Catalog-\u003e[Statement]-\u003e(Catalog,[Statement])",
@@ -8361,6 +9107,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains the SQL data types, type errors, and a few supporting\n       functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Types",
           "package": "hssqlppp",
@@ -8370,6 +9117,7 @@
         "index": {
           "description": "Contains the SQL data types type errors and few supporting functions",
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Types",
           "package": "hssqlppp",
@@ -8383,6 +9131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "PseudoType",
           "package": "hssqlppp",
@@ -8391,6 +9140,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "PseudoType",
           "package": "hssqlppp",
@@ -8404,6 +9154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Type",
           "package": "hssqlppp",
@@ -8412,6 +9163,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Type",
           "package": "hssqlppp",
@@ -8425,6 +9177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "TypeError",
           "package": "hssqlppp",
@@ -8433,6 +9186,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "TypeError",
           "package": "hssqlppp",
@@ -8446,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "AmbiguousIdentifier",
           "package": "hssqlppp",
@@ -8455,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "AmbiguousIdentifier",
           "package": "hssqlppp",
@@ -8468,6 +9224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnonymousRecordType",
           "package": "hssqlppp",
@@ -8477,6 +9234,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnonymousRecordType",
           "normalized": "AnonymousRecordType[Type]",
@@ -8492,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Any",
           "package": "hssqlppp",
@@ -8501,6 +9260,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Any",
           "package": "hssqlppp",
@@ -8514,6 +9274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyAllError",
           "package": "hssqlppp",
@@ -8523,6 +9284,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyAllError",
           "package": "hssqlppp",
@@ -8536,6 +9298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyArray",
           "package": "hssqlppp",
@@ -8545,6 +9308,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyArray",
           "package": "hssqlppp",
@@ -8558,6 +9322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyElement",
           "package": "hssqlppp",
@@ -8567,6 +9332,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyElement",
           "package": "hssqlppp",
@@ -8580,6 +9346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyEnum",
           "package": "hssqlppp",
@@ -8589,6 +9356,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyEnum",
           "package": "hssqlppp",
@@ -8602,6 +9370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyNonArray",
           "package": "hssqlppp",
@@ -8611,6 +9380,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "AnyNonArray",
           "package": "hssqlppp",
@@ -8624,6 +9394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "ArrayType",
           "package": "hssqlppp",
@@ -8633,6 +9404,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "ArrayType",
           "package": "hssqlppp",
@@ -8646,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "BadCatalogUpdate",
           "package": "hssqlppp",
@@ -8655,6 +9428,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "BadCatalogUpdate",
           "package": "hssqlppp",
@@ -8668,6 +9442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "BadStarExpand",
           "package": "hssqlppp",
@@ -8677,6 +9452,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "BadStarExpand",
           "package": "hssqlppp",
@@ -8690,6 +9466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "CompositeType",
           "package": "hssqlppp",
@@ -8699,6 +9476,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "CompositeType",
           "normalized": "CompositeType[(String,Type)]",
@@ -8714,6 +9492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "ContextError",
           "package": "hssqlppp",
@@ -8723,6 +9502,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "ContextError",
           "package": "hssqlppp",
@@ -8736,6 +9516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Cstring",
           "package": "hssqlppp",
@@ -8745,6 +9526,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Cstring",
           "package": "hssqlppp",
@@ -8758,6 +9540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "DomainDefNotFound",
           "package": "hssqlppp",
@@ -8767,6 +9550,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "DomainDefNotFound",
           "package": "hssqlppp",
@@ -8780,6 +9564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "DomainType",
           "package": "hssqlppp",
@@ -8789,6 +9574,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "DomainType",
           "package": "hssqlppp",
@@ -8802,6 +9588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "EnumType",
           "package": "hssqlppp",
@@ -8811,6 +9598,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "EnumType",
           "package": "hssqlppp",
@@ -8824,6 +9612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "ExpectedDomainType",
           "package": "hssqlppp",
@@ -8833,6 +9622,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "ExpectedDomainType",
           "package": "hssqlppp",
@@ -8846,6 +9636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "ExpressionMustBeBool",
           "package": "hssqlppp",
@@ -8855,6 +9646,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "ExpressionMustBeBool",
           "package": "hssqlppp",
@@ -8868,6 +9660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "FdwHandler",
           "package": "hssqlppp",
@@ -8877,6 +9670,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "FdwHandler",
           "package": "hssqlppp",
@@ -8890,6 +9684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "FromToTypesNotSame",
           "package": "hssqlppp",
@@ -8899,6 +9694,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "FromToTypesNotSame",
           "package": "hssqlppp",
@@ -8912,6 +9708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "IncompatibleTypeSet",
           "package": "hssqlppp",
@@ -8921,6 +9718,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "IncompatibleTypeSet",
           "normalized": "IncompatibleTypeSet[Type]",
@@ -8936,6 +9734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "IncompatibleTypes",
           "package": "hssqlppp",
@@ -8945,6 +9744,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "IncompatibleTypes",
           "package": "hssqlppp",
@@ -8958,6 +9758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Internal",
           "package": "hssqlppp",
@@ -8967,6 +9768,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Internal",
           "package": "hssqlppp",
@@ -8980,6 +9782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "InternalError",
           "package": "hssqlppp",
@@ -8989,6 +9792,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "InternalError",
           "package": "hssqlppp",
@@ -9002,6 +9806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "LanguageHandler",
           "package": "hssqlppp",
@@ -9011,6 +9816,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "LanguageHandler",
           "package": "hssqlppp",
@@ -9024,6 +9830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "MiscError",
           "package": "hssqlppp",
@@ -9033,6 +9840,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "MiscError",
           "package": "hssqlppp",
@@ -9046,6 +9854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "MissingJoinAttribute",
           "package": "hssqlppp",
@@ -9055,6 +9864,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "MissingJoinAttribute",
           "package": "hssqlppp",
@@ -9068,6 +9878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "NamedCompositeType",
           "package": "hssqlppp",
@@ -9077,6 +9888,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "NamedCompositeType",
           "package": "hssqlppp",
@@ -9090,6 +9902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "NoMatchingOperator",
           "package": "hssqlppp",
@@ -9099,6 +9912,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "NoMatchingOperator",
           "normalized": "NoMatchingOperator String[Type]",
@@ -9114,6 +9928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "NoRowsGivenForValues",
           "package": "hssqlppp",
@@ -9123,6 +9938,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "NoRowsGivenForValues",
           "package": "hssqlppp",
@@ -9136,6 +9952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Opaque",
           "package": "hssqlppp",
@@ -9145,6 +9962,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Opaque",
           "package": "hssqlppp",
@@ -9158,6 +9976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "PgRecord",
           "package": "hssqlppp",
@@ -9167,6 +9986,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "PgRecord",
           "package": "hssqlppp",
@@ -9180,6 +10000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Pseudo",
           "package": "hssqlppp",
@@ -9189,6 +10010,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Pseudo",
           "package": "hssqlppp",
@@ -9202,6 +10024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Record",
           "package": "hssqlppp",
@@ -9211,6 +10034,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Record",
           "package": "hssqlppp",
@@ -9224,6 +10048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "ScalarType",
           "package": "hssqlppp",
@@ -9233,6 +10058,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "ScalarType",
           "package": "hssqlppp",
@@ -9246,6 +10072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "SetOfType",
           "package": "hssqlppp",
@@ -9255,6 +10082,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "SetOfType",
           "package": "hssqlppp",
@@ -9268,6 +10096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Trigger",
           "package": "hssqlppp",
@@ -9277,6 +10106,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Trigger",
           "package": "hssqlppp",
@@ -9290,6 +10120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "TriggerRecord",
           "package": "hssqlppp",
@@ -9299,6 +10130,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "TriggerRecord",
           "package": "hssqlppp",
@@ -9312,6 +10144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "TypeAlreadyExists",
           "package": "hssqlppp",
@@ -9321,6 +10154,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "TypeAlreadyExists",
           "package": "hssqlppp",
@@ -9334,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "TypelessEmptyArray",
           "package": "hssqlppp",
@@ -9343,6 +10178,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "TypelessEmptyArray",
           "package": "hssqlppp",
@@ -9356,6 +10192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnknownType",
           "package": "hssqlppp",
@@ -9365,6 +10202,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnknownType",
           "package": "hssqlppp",
@@ -9378,6 +10216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnknownTypeError",
           "package": "hssqlppp",
@@ -9387,6 +10226,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnknownTypeError",
           "package": "hssqlppp",
@@ -9400,6 +10240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnknownTypeName",
           "package": "hssqlppp",
@@ -9409,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnknownTypeName",
           "package": "hssqlppp",
@@ -9422,6 +10264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnrecognisedCorrelationName",
           "package": "hssqlppp",
@@ -9431,6 +10274,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnrecognisedCorrelationName",
           "package": "hssqlppp",
@@ -9444,6 +10288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnrecognisedIdentifier",
           "package": "hssqlppp",
@@ -9453,6 +10298,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnrecognisedIdentifier",
           "package": "hssqlppp",
@@ -9466,6 +10312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnrecognisedRelation",
           "package": "hssqlppp",
@@ -9475,6 +10322,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "UnrecognisedRelation",
           "package": "hssqlppp",
@@ -9488,6 +10336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "ValuesListsMustBeSameLength",
           "package": "hssqlppp",
@@ -9497,6 +10346,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "ValuesListsMustBeSameLength",
           "package": "hssqlppp",
@@ -9510,6 +10360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "Void",
           "package": "hssqlppp",
@@ -9519,6 +10370,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "Void",
           "package": "hssqlppp",
@@ -9532,6 +10384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "WrongNumberOfAliasCols",
           "package": "hssqlppp",
@@ -9541,6 +10394,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "WrongNumberOfAliasCols",
           "package": "hssqlppp",
@@ -9554,6 +10408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "WrongNumberOfColumns",
           "package": "hssqlppp",
@@ -9563,6 +10418,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "WrongNumberOfColumns",
           "package": "hssqlppp",
@@ -9576,6 +10432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "WrongTypes",
           "package": "hssqlppp",
@@ -9585,6 +10442,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "WrongTypes",
           "normalized": "WrongTypes Type[Type]",
@@ -9600,6 +10458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "canonicalizeTypeName",
           "package": "hssqlppp",
@@ -9609,6 +10468,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "canonicalizeTypeName",
           "normalized": "String-\u003eString",
@@ -9624,6 +10484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "canonicalizeTypes",
           "package": "hssqlppp",
@@ -9633,6 +10494,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "canonicalizeTypes",
           "normalized": "a-\u003ea",
@@ -9648,6 +10510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeBigInt",
           "package": "hssqlppp",
@@ -9657,6 +10520,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeBigInt",
           "package": "hssqlppp",
@@ -9670,6 +10534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeBool",
           "package": "hssqlppp",
@@ -9679,6 +10544,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeBool",
           "package": "hssqlppp",
@@ -9692,6 +10558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeChar",
           "package": "hssqlppp",
@@ -9701,6 +10568,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeChar",
           "package": "hssqlppp",
@@ -9714,6 +10582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeDate",
           "package": "hssqlppp",
@@ -9723,6 +10592,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeDate",
           "package": "hssqlppp",
@@ -9736,6 +10606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeFloat4",
           "package": "hssqlppp",
@@ -9745,6 +10616,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeFloat4",
           "package": "hssqlppp",
@@ -9758,6 +10630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeFloat8",
           "package": "hssqlppp",
@@ -9767,6 +10640,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeFloat8",
           "package": "hssqlppp",
@@ -9780,6 +10654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeInt",
           "package": "hssqlppp",
@@ -9789,6 +10664,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeInt",
           "package": "hssqlppp",
@@ -9802,6 +10678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeInterval",
           "package": "hssqlppp",
@@ -9811,6 +10688,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeInterval",
           "package": "hssqlppp",
@@ -9824,6 +10702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeNumeric",
           "package": "hssqlppp",
@@ -9833,6 +10712,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeNumeric",
           "package": "hssqlppp",
@@ -9846,6 +10726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeSmallInt",
           "package": "hssqlppp",
@@ -9855,6 +10736,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeSmallInt",
           "package": "hssqlppp",
@@ -9868,6 +10750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:51 UTC 2014",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeVarChar",
           "package": "hssqlppp",
@@ -9877,6 +10760,7 @@
         },
         "index": {
           "hierarchy": "Database HsSqlPpp Types",
+          "indexed": "2014-03-11T18:50:51",
           "module": "Database.HsSqlPpp.Types",
           "name": "typeVarChar",
           "package": "hssqlppp",

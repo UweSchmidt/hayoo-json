@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snow-white"
+        "phrase": "snow-white",
+        "type": "phrase"
       },
       "type": "context"
     }

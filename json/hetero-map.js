@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hetero-map"
+        "phrase": "hetero-map",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "Map",
           "package": "hetero-map",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "Map",
           "package": "hetero-map",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Key in a heterogeneous map.  \u003ccode\u003ex\u003c/code\u003e is the key identifier type, \n which ensures that we don't look up a key in a map that doesn't\n have it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "Key",
           "package": "hetero-map",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Key in heterogeneous map is the key identifier type which ensures that we don look up key in map that doesn have it",
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "Key",
           "package": "hetero-map",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA heterogeneous map, including keys \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "Map",
           "package": "hetero-map",
@@ -72,6 +77,7 @@
         "index": {
           "description": "heterogeneous map including keys xs",
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "Map",
           "package": "hetero-map",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "empty",
           "package": "hetero-map",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "empty",
           "package": "hetero-map",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "insert",
           "package": "hetero-map",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "insert",
           "normalized": "Key a b-\u003eb-\u003eMap c-\u003eMap(a*c)",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "lookup",
           "package": "hetero-map",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "lookup",
           "normalized": "Key a b-\u003eMap c-\u003eb",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new key, which is only valid within the passed function\n (and will be a type error if it tries to escape).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "newKey",
           "package": "hetero-map",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Allocate new key which is only valid within the passed function and will be type error if it tries to escape",
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "newKey",
           "normalized": "(a b Key c d-\u003ee)-\u003ee",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as insert, except does not add the key identifier to the map,\n instead ensuring that it's already there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "overwrite",
           "package": "hetero-map",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Same as insert except does not add the key identifier to the map instead ensuring that it already there",
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "overwrite",
           "normalized": "Key a b-\u003eb-\u003eMap c-\u003eMap c",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:24 UTC 2014",
           "module": "HeteroMap.Map",
           "name": "singleton",
           "package": "hetero-map",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "HeteroMap Map",
+          "indexed": "2014-03-11T18:37:24",
           "module": "HeteroMap.Map",
           "name": "singleton",
           "normalized": "Key a b-\u003eb-\u003eMap(a*Z)",

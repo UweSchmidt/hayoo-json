@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "error-location"
+        "phrase": "error-location",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:53 UTC 2014",
           "module": "ErrorLocation",
           "name": "ErrorLocation",
           "package": "error-location",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ErrorLocation",
+          "indexed": "2014-03-11T18:03:53",
           "module": "ErrorLocation",
           "name": "ErrorLocation",
           "package": "error-location",

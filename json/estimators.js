@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "estimators"
+        "phrase": "estimators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "FullContext",
           "package": "estimators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "FullContext",
           "package": "estimators",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "FullEvent",
           "package": "estimators",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "FullEvent",
           "package": "estimators",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "Observation",
           "package": "estimators",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "Observation",
           "package": "estimators",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "Pairs",
           "package": "estimators",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "Pairs",
           "package": "estimators",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "Probs",
           "package": "estimators",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "Probs",
           "package": "estimators",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "JointModel",
           "package": "estimators",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "JointModel",
           "package": "estimators",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "chainRule",
           "package": "estimators",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "chainRule",
           "normalized": "FullEvent a-\u003eFullContext a-\u003ePairs a",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "estimate",
           "package": "estimators",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "estimate",
           "normalized": "Observation a-\u003eProbs a",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "observe",
           "package": "estimators",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "observe",
           "normalized": "Pairs a-\u003eObservation a",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "prob",
           "package": "estimators",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "prob",
           "normalized": "Probs a-\u003ePairs a-\u003eProb",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Chain",
           "name": "simpleObserve",
           "package": "estimators",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Chain",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Chain",
           "name": "simpleObserve",
           "normalized": "FullEvent a-\u003eFullContext a-\u003eObservation a",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "CondDistribution",
           "package": "estimators",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "CondDistribution",
           "package": "estimators",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "The set of observations of event conditioned on context. event must be an instance of Event and context of Context \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "CondObserved",
           "package": "estimators",
@@ -292,6 +317,7 @@
         "index": {
           "description": "The set of observations of event conditioned on context event must be an instance of Event and context of Context",
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "CondObserved",
           "package": "estimators",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "DebugDist",
           "package": "estimators",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "DebugDist",
           "package": "estimators",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "Sub",
           "package": "estimators",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "Sub",
           "package": "estimators",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "SubMap",
           "package": "estimators",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "SubMap",
           "package": "estimators",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "Weighting",
           "package": "estimators",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "Weighting",
           "package": "estimators",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "Context",
           "package": "estimators",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "Context",
           "package": "estimators",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "condObservation",
           "package": "estimators",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "condObservation",
           "normalized": "a-\u003eb-\u003eCondObserved a b",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "condObservationCounts",
           "package": "estimators",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "condObservationCounts",
           "normalized": "a-\u003eCounts b-\u003eCondObserved b a",
@@ -459,6 +499,7 @@
       "document": {
         "description": {
           "description": "A CondObserved set for a single event and context. \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "condObservations",
           "package": "estimators",
@@ -469,6 +510,7 @@
         "index": {
           "description": "CondObserved set for single event and context",
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "condObservations",
           "normalized": "a-\u003eb-\u003eCount-\u003eCondObserved a b",
@@ -485,6 +527,7 @@
       "document": {
         "description": {
           "description": "A function to enumerate subcontexts of a context  \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "decompose",
           "package": "estimators",
@@ -495,6 +538,7 @@
         "index": {
           "description": "function to enumerate subcontexts of context",
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "decompose",
           "normalized": "a-\u003e[Sub a]",
@@ -510,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral Linear Interpolation. Produces a Conditional Distribution from observations.\n   It requires a GeneralLambda function which tells it how to weight each level of smoothing. \n   The GeneralLambda function can observe the counts of each level of context. \n\u003c/p\u003e\u003cp\u003eNote: We include a final level of backoff where everything is given an epsilon likelihood. To \n   ignore this, just give it lambda = 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "estimateGeneralLinear",
           "package": "estimators",
@@ -520,6 +565,7 @@
         "index": {
           "description": "General Linear Interpolation Produces Conditional Distribution from observations It requires GeneralLambda function which tells it how to weight each level of smoothing The GeneralLambda function can observe the counts of each level of context Note We include final level of backoff where everything is given an epsilon likelihood To ignore this just give it lambda",
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "estimateGeneralLinear",
           "normalized": "Weighting-\u003eCondObserved a b-\u003eDebugDist a b",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "mkDist",
           "package": "estimators",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "mkDist",
           "normalized": "DebugDist a b-\u003eCondDistribution a b",
@@ -560,6 +608,7 @@
       "document": {
         "description": {
           "description": "Weight each level by a fixed predefined amount. \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "simpleLinear",
           "package": "estimators",
@@ -570,6 +619,7 @@
         "index": {
           "description": "Weight each level by fixed predefined amount",
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "simpleLinear",
           "normalized": "[Double]-\u003eWeighting",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "Weight each level by the likelihood that a new event will be seen at that level. \n   t / ((n * d) + t) where t is the total count, d is the number of distinct observations,\n   and n is a user defined constant.   \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "wittenBell",
           "package": "estimators",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Weight each level by the likelihood that new event will be seen at that level where is the total count is the number of distinct observations and is user defined constant",
           "hierarchy": "NLP Probability ConditionalDistribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.ConditionalDistribution",
           "name": "wittenBell",
           "normalized": "Int-\u003eWeighting",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Distribution",
           "name": "Distribution",
           "package": "estimators",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Distribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Distribution",
           "name": "Distribution",
           "package": "estimators",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Distribution",
           "name": "Prob",
           "package": "estimators",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Distribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Distribution",
           "name": "Prob",
           "package": "estimators",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Distribution",
           "name": "laplace",
           "package": "estimators",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Distribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Distribution",
           "name": "laplace",
           "normalized": "(Double,Double)-\u003eEstimator a",
@@ -677,6 +735,7 @@
       "document": {
         "description": {
           "description": "Maximum Likelihood Estimation gives out probability by normalizing over observed events. \n   Unseen events are gived zero probabilty. \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Distribution",
           "name": "mle",
           "package": "estimators",
@@ -687,6 +746,7 @@
         "index": {
           "description": "Maximum Likelihood Estimation gives out probability by normalizing over observed events Unseen events are gived zero probabilty",
           "hierarchy": "NLP Probability Distribution",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Distribution",
           "name": "mle",
           "package": "estimators",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.EM",
           "name": "randomCondCounts",
           "package": "estimators",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability EM",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.EM",
           "name": "randomCondCounts",
           "normalized": "[a]-\u003eb(CondObserved c a)",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.EM",
           "name": "randomCounts",
           "package": "estimators",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability EM",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.EM",
           "name": "randomCounts",
           "package": "estimators",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "Count",
           "package": "estimators",
@@ -753,6 +818,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "Count",
           "package": "estimators",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "Counts",
           "package": "estimators",
@@ -774,6 +841,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "Counts",
           "package": "estimators",
@@ -787,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "EventMap",
           "package": "estimators",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "EventMap",
           "package": "estimators",
@@ -808,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "Observed",
           "package": "estimators",
@@ -816,6 +887,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "Observed",
           "package": "estimators",
@@ -829,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "Event",
           "package": "estimators",
@@ -837,6 +910,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "Event",
           "package": "estimators",
@@ -851,6 +925,7 @@
       "document": {
         "description": {
           "description": "Finish a set of offline observations so that they can be used to estimate\n   likelihood  \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "finish",
           "package": "estimators",
@@ -861,6 +936,7 @@
         "index": {
           "description": "Finish set of offline observations so that they can be used to estimate likelihood",
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "finish",
           "normalized": "Counts a-\u003eObserved a",
@@ -876,6 +952,7 @@
       "document": {
         "description": {
           "description": "Manually increment the count of an event \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "inc",
           "package": "estimators",
@@ -886,6 +963,7 @@
         "index": {
           "description": "Manually increment the count of an event",
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "inc",
           "normalized": "Counts a-\u003ea-\u003eCount-\u003eCounts a",
@@ -901,6 +979,7 @@
       "document": {
         "description": {
           "description": "Observation of a single event  \n",
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "observation",
           "package": "estimators",
@@ -911,6 +990,7 @@
         "index": {
           "description": "Observation of single event",
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "observation",
           "normalized": "a-\u003eCounts a",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "observations",
           "package": "estimators",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "observations",
           "normalized": "a-\u003eCount-\u003eCounts a",
@@ -948,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.Observation",
           "name": "showObsPretty",
           "package": "estimators",
@@ -957,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability Observation",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.Observation",
           "name": "showObsPretty",
           "normalized": "(a-\u003eb Doc)-\u003eCounts a-\u003eb Doc",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.SmoothTrie",
           "name": "SmoothTrie",
           "package": "estimators",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability SmoothTrie",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.SmoothTrie",
           "name": "SmoothTrie",
           "package": "estimators",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:09 UTC 2014",
           "module": "NLP.Probability.SmoothTrie",
           "name": "addColumn",
           "package": "estimators",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "NLP Probability SmoothTrie",
+          "indexed": "2014-03-11T18:04:09",
           "module": "NLP.Probability.SmoothTrie",
           "name": "addColumn",
           "normalized": "[a]-\u003eb-\u003eSmoothTrie c a b-\u003eSmoothTrie c a b",

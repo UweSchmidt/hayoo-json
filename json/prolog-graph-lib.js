@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prolog-graph-lib"
+        "phrase": "prolog-graph-lib",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "trajectory"
+        "phrase": "trajectory",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Trajectory API, or a subset of it at least. This mirrors the\n underlying implementation, which ties stories to iterations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.API",
           "name": "API",
           "package": "trajectory",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Trajectory API or subset of it at least This mirrors the underlying implementation which ties stories to iterations",
           "hierarchy": "Trajectory API",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.API",
           "name": "API",
           "package": "trajectory",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all the incomplete stories and iterations for a given user key,\n account name, and project name. Since stories and iterations are tied\n together in the underlying API, this produces them as a pair.\n\u003c/p\u003e\u003cp\u003eIt produces an IO of either an error or the stories/iterations pair. The\n error can come from the HTTP, or from non-JSON input, or from a change to\n the JSON.\n\u003c/p\u003e\u003cpre\u003e do\n   possibleStories \u003c- getStories \"abcdefg\" \"thoughtbot\" \"opensource\"\n   case possibleStories of\n     (Left error) -\u003e putStrLn $ \"got the error: \" ++ show error\n     (Right (stories,iterations)) -\u003e\n       putStrLn $ intercalate \"\\n\" $\n         (map formatStory stories) ++ (map formatIteration iterations)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.API",
           "name": "getStories",
           "package": "trajectory",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Get all the incomplete stories and iterations for given user key account name and project name Since stories and iterations are tied together in the underlying API this produces them as pair It produces an IO of either an error or the stories iterations pair The error can come from the HTTP or from non-JSON input or from change to the JSON do possibleStories getStories abcdefg thoughtbot opensource case possibleStories of Left error putStrLn got the error show error Right stories iterations putStrLn intercalate map formatStory stories map formatIteration iterations",
           "hierarchy": "Trajectory API",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.API",
           "name": "getStories",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error([Story],[Iteration]))",
@@ -67,6 +71,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "Types",
           "package": "trajectory",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "Types",
           "package": "trajectory",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors have been tagged according to their source, so you can more easily\n dispatch and handle them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "Error",
           "package": "trajectory",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Errors have been tagged according to their source so you can more easily dispatch and handle them",
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "Error",
           "package": "trajectory",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn iteration in Trajectory. The iterationStartsOn is the most\n user-identifying string, though it changes with time. The \u003ccode\u003estoryIterationId\u003c/code\u003e\n is the same as the \u003ccode\u003eiterationId\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "Iteration",
           "package": "trajectory",
@@ -121,6 +130,7 @@
         "index": {
           "description": "An iteration in Trajectory The iterationStartsOn is the most user-identifying string though it changes with time The storyIterationId is the same as the iterationId",
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "Iteration",
           "package": "trajectory",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Trajectory story.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "Story",
           "package": "trajectory",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Trajectory story",
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "Story",
           "package": "trajectory",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA HTTP error occurred. The actual caught error is included, if available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "HTTPConnectionError",
           "package": "trajectory",
@@ -168,6 +181,7 @@
         "index": {
           "description": "HTTP error occurred The actual caught error is included if available",
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "HTTPConnectionError",
           "package": "trajectory",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "Iteration",
           "package": "trajectory",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "Iteration",
           "package": "trajectory",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON is malformed or unexpected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "JsonError",
           "package": "trajectory",
@@ -214,6 +231,7 @@
         "index": {
           "description": "The JSON is malformed or unexpected",
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "JsonError",
           "package": "trajectory",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error in the parser itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "ParseError",
           "package": "trajectory",
@@ -238,6 +257,7 @@
         "index": {
           "description": "An error in the parser itself",
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "ParseError",
           "package": "trajectory",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "Story",
           "package": "trajectory",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "Story",
           "package": "trajectory",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "UserError",
           "package": "trajectory",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Incorrect input",
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "UserError",
           "package": "trajectory",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationAcceptedPoints",
           "package": "trajectory",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationAcceptedPoints",
           "package": "trajectory",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationAcceptedStoriesCount",
           "package": "trajectory",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationAcceptedStoriesCount",
           "package": "trajectory",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationCommentsCount",
           "package": "trajectory",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationCommentsCount",
           "package": "trajectory",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationCreatedAt",
           "package": "trajectory",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationCreatedAt",
           "package": "trajectory",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationDeliveredStoriesCount",
           "package": "trajectory",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationDeliveredStoriesCount",
           "package": "trajectory",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationEstimatedPoints",
           "package": "trajectory",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationEstimatedPoints",
           "package": "trajectory",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationEstimatedVelocity",
           "package": "trajectory",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationEstimatedVelocity",
           "package": "trajectory",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationId",
           "package": "trajectory",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationId",
           "package": "trajectory",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationIsComplete",
           "package": "trajectory",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationIsComplete",
           "package": "trajectory",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationIsCurrent",
           "package": "trajectory",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationIsCurrent",
           "package": "trajectory",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationPercentComplete",
           "package": "trajectory",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationPercentComplete",
           "package": "trajectory",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationStartedStoriesCount",
           "package": "trajectory",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationStartedStoriesCount",
           "package": "trajectory",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationStartsOn",
           "package": "trajectory",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationStartsOn",
           "package": "trajectory",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationStoriesCount",
           "package": "trajectory",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationStoriesCount",
           "package": "trajectory",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationTeamStrength",
           "package": "trajectory",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationTeamStrength",
           "package": "trajectory",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationUnstartedStoriesCount",
           "package": "trajectory",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationUnstartedStoriesCount",
           "package": "trajectory",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "iterationUpdatedAt",
           "package": "trajectory",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "iterationUpdatedAt",
           "package": "trajectory",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyArchived",
           "package": "trajectory",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyArchived",
           "package": "trajectory",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyAssigneeId",
           "package": "trajectory",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyAssigneeId",
           "package": "trajectory",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyAssigneeName",
           "package": "trajectory",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyAssigneeName",
           "package": "trajectory",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyBranch",
           "package": "trajectory",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyBranch",
           "package": "trajectory",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyCommentsCount",
           "package": "trajectory",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyCommentsCount",
           "package": "trajectory",
@@ -781,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyCreatedAt",
           "package": "trajectory",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyCreatedAt",
           "package": "trajectory",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyDeleted",
           "package": "trajectory",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyDeleted",
           "package": "trajectory",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyDesignNeeded",
           "package": "trajectory",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyDesignNeeded",
           "package": "trajectory",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyDevelopmentNeeded",
           "package": "trajectory",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyDevelopmentNeeded",
           "package": "trajectory",
@@ -869,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyId",
           "package": "trajectory",
@@ -878,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyId",
           "package": "trajectory",
@@ -891,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyIdeaId",
           "package": "trajectory",
@@ -900,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyIdeaId",
           "package": "trajectory",
@@ -913,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyIdeaSubject",
           "package": "trajectory",
@@ -922,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyIdeaSubject",
           "package": "trajectory",
@@ -935,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyIterationId",
           "package": "trajectory",
@@ -944,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyIterationId",
           "package": "trajectory",
@@ -957,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyPoints",
           "package": "trajectory",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyPoints",
           "package": "trajectory",
@@ -979,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyPosition",
           "package": "trajectory",
@@ -988,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyPosition",
           "package": "trajectory",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyState",
           "package": "trajectory",
@@ -1010,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyState",
           "package": "trajectory",
@@ -1023,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyStateEvents",
           "package": "trajectory",
@@ -1032,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyStateEvents",
           "normalized": "[String]",
@@ -1047,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyTaskType",
           "package": "trajectory",
@@ -1056,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyTaskType",
           "package": "trajectory",
@@ -1069,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyTitle",
           "package": "trajectory",
@@ -1078,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyTitle",
           "package": "trajectory",
@@ -1091,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyUpdatedAt",
           "package": "trajectory",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyUpdatedAt",
           "package": "trajectory",
@@ -1113,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyUserId",
           "package": "trajectory",
@@ -1122,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyUserId",
           "package": "trajectory",
@@ -1135,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:38 UTC 2014",
           "module": "Trajectory.Types",
           "name": "storyUserName",
           "package": "trajectory",
@@ -1144,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Trajectory Types",
+          "indexed": "2014-03-11T20:24:38",
           "module": "Trajectory.Types",
           "name": "storyUserName",
           "package": "trajectory",

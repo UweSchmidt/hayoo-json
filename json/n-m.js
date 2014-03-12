@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "n-m"
+        "phrase": "n-m",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to parse the output of \u003ccode\u003eiwlist scan\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:33 UTC 2014",
           "module": "Network.Cell",
           "name": "Cell",
           "package": "n-m",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides functions to parse the output of iwlist scan",
           "hierarchy": "Network Cell",
+          "indexed": "2014-03-11T19:25:33",
           "module": "Network.Cell",
           "name": "Cell",
           "package": "n-m",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach available network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:33 UTC 2014",
           "module": "Network.Cell",
           "name": "Cell",
           "package": "n-m",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Each available network",
           "hierarchy": "Network Cell",
+          "indexed": "2014-03-11T19:25:33",
           "module": "Network.Cell",
           "name": "Cell",
           "package": "n-m",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:33 UTC 2014",
           "module": "Network.Cell",
           "name": "Cell",
           "package": "n-m",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Network Cell",
+          "indexed": "2014-03-11T19:25:33",
           "module": "Network.Cell",
           "name": "Cell",
           "normalized": "Cell[String]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of available networks, given the output of \u003ccode\u003eiwlist scan\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:33 UTC 2014",
           "module": "Network.Cell",
           "name": "getCells",
           "package": "n-m",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Get the list of available networks given the output of iwlist scan",
           "hierarchy": "Network Cell",
+          "indexed": "2014-03-11T19:25:33",
           "module": "Network.Cell",
           "name": "getCells",
           "normalized": "[String]-\u003e[Cell]",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the \u003ccode\u003eessid\u003c/code\u003es of networks that don't use encryption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:33 UTC 2014",
           "module": "Network.Cell",
           "name": "getOpenEssids",
           "package": "n-m",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Gets the essid of networks that don use encryption",
           "hierarchy": "Network Cell",
+          "indexed": "2014-03-11T19:25:33",
           "module": "Network.Cell",
           "name": "getOpenEssids",
           "normalized": "[Cell]-\u003e[String]",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the field \u003ccode\u003eQuality\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:33 UTC 2014",
           "module": "Network.Cell",
           "name": "getQuality",
           "package": "n-m",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Gets the field Quality",
           "hierarchy": "Network Cell",
+          "indexed": "2014-03-11T19:25:33",
           "module": "Network.Cell",
           "name": "getQuality",
           "normalized": "Cell-\u003eInt",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the field with \u003ccode\u003ename\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:33 UTC 2014",
           "module": "Network.Cell",
           "name": "getValue",
           "package": "n-m",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Gets the field with name",
           "hierarchy": "Network Cell",
+          "indexed": "2014-03-11T19:25:33",
           "module": "Network.Cell",
           "name": "getValue",
           "normalized": "String-\u003eCell-\u003eString",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the network is open.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:33 UTC 2014",
           "module": "Network.Cell",
           "name": "isOpen",
           "package": "n-m",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Checks whether the network is open",
           "hierarchy": "Network Cell",
+          "indexed": "2014-03-11T19:25:33",
           "module": "Network.Cell",
           "name": "isOpen",
           "normalized": "Cell-\u003eBool",

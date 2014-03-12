@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pipes-safe"
+        "phrase": "pipes-safe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple resource management functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe.Prelude",
           "name": "Prelude",
           "package": "pipes-safe",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple resource management functions",
           "hierarchy": "Pipes Safe Prelude",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe.Prelude",
           "name": "Prelude",
           "package": "pipes-safe",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead lines from a file, automatically opening and closing the file as\n    necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe.Prelude",
           "name": "readFile",
           "package": "pipes-safe",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Read lines from file automatically opening and closing the file as necessary",
           "hierarchy": "Pipes Safe Prelude",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe.Prelude",
           "name": "readFile",
           "normalized": "FilePath-\u003eProducer' String a()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquire a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e within \u003ccode\u003e\u003ca\u003eMonadSafe\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe.Prelude",
           "name": "withFile",
           "package": "pipes-safe",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Acquire Handle within MonadSafe",
           "hierarchy": "Pipes Safe Prelude",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe.Prelude",
           "name": "withFile",
           "normalized": "FilePath-\u003eIOMode-\u003e(Handle-\u003ea b)-\u003ea b",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite lines to a file, automatically opening and closing the file as\n    necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe.Prelude",
           "name": "writeFile",
           "package": "pipes-safe",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Write lines to file automatically opening and closing the file as necessary",
           "hierarchy": "Pipes Safe Prelude",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe.Prelude",
           "name": "writeFile",
           "normalized": "FilePath-\u003eConsumer' String a b",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides an orphan \u003ccode\u003e\u003ca\u003eMonadCatch\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e of the\n    form:\n\u003c/p\u003e\u003cpre\u003e instance (MonadCatch m, MonadIO m) =\u003e MonadCatch (Proxy a' a b' b m) where\n\u003c/pre\u003e\u003cp\u003e... so you can throw and catch exceptions within pipes using all\n    \u003ccode\u003e\u003ca\u003eMonadCatch\u003c/a\u003e\u003c/code\u003e operations.\n\u003c/p\u003e\u003cp\u003eThis module also provides generalized versions of some \u003ccode\u003e\u003ca\u003eMonadCatch\u003c/a\u003e\u003c/code\u003e\n    operations so that you can also protect against premature termination of\n    connected components.  For example, if you protect a \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e computation\n    using \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e from this module:\n\u003c/p\u003e\u003cpre\u003e -- readFile.hs\n import Pipes\n import qualified Pipes.Prelude as P\n import Pipes.Safe\n import qualified System.IO as IO\n import Prelude hiding (readFile)\n\n readFile :: FilePath -\u003e Producer' String (SafeT IO) ()\n readFile file = bracket\n     (do h \u003c- IO.openFile file IO.ReadMode\n         putStrLn $ \"{\" ++ file ++ \" open}\"\n         return h )\n     (\\h -\u003e do\n         IO.hClose h\n         putStrLn $ \"{\" ++ file ++ \" closed}\" )\n     P.fromHandle\n\u003c/pre\u003e\u003cp\u003e... then this generalized \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e will guard against both exceptions and\n    premature termination of other pipes:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erunSafeT $ runEffect $ readFile \"readFile.hs\" \u003e-\u003e P.take 4 \u003e-\u003e P.stdoutLn\n\u003c/code\u003e\u003c/strong\u003e{readFile.hs open}\n-- readFile.hs\nimport Pipes\nimport qualified Pipes.Prelude as P\nimport Pipes.Safe\n{readFile.hs closed}\n\u003c/pre\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003eMonadCatch\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e provides weaker versions of\n    \u003ccode\u003e\u003ca\u003emask\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003euninterruptibleMask\u003c/a\u003e\u003c/code\u003e that do not completely prevent asynchronous\n    exceptions.  Instead, they provide a weaker guarantee that asynchronous\n    exceptions will only occur during \u003ccode\u003e\u003ca\u003eawait\u003c/a\u003e\u003c/code\u003es or \u003ccode\u003e\u003ca\u003eyield\u003c/a\u003e\u003c/code\u003es and\n    nowhere else.  For example, if you write:\n\u003c/p\u003e\u003cpre\u003e mask_ $ do\n     x \u003c- await\n     lift $ print x\n     lift $ print x\n\u003c/pre\u003e\u003cp\u003e... then you may receive an asynchronous exception during the \u003ccode\u003e\u003ca\u003eawait\u003c/a\u003e\u003c/code\u003e,\n    but you will not receive an asynchronous exception during or in between the\n    two \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e statements.  This weaker guarantee suffices to provide\n    asynchronous exception safety.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "Safe",
           "package": "pipes-safe",
@@ -129,6 +138,7 @@
         "index": {
           "description": "This module provides an orphan MonadCatch instance for Proxy of the form instance MonadCatch MonadIO MonadCatch Proxy where so you can throw and catch exceptions within pipes using all MonadCatch operations This module also provides generalized versions of some MonadCatch operations so that you can also protect against premature termination of connected components For example if you protect readFile computation using bracket from this module readFile.hs import Pipes import qualified Pipes.Prelude as import Pipes.Safe import qualified System.IO as IO import Prelude hiding readFile readFile FilePath Producer String SafeT IO readFile file bracket do IO.openFile file IO.ReadMode putStrLn file open return do IO.hClose putStrLn file closed P.fromHandle then this generalized bracket will guard against both exceptions and premature termination of other pipes runSafeT runEffect readFile readFile.hs P.take P.stdoutLn readFile.hs open readFile.hs import Pipes import qualified Pipes.Prelude as import Pipes.Safe readFile.hs closed Note that the MonadCatch instance for Proxy provides weaker versions of mask and uninterruptibleMask that do not completely prevent asynchronous exceptions Instead they provide weaker guarantee that asynchronous exceptions will only occur during await or yield and nowhere else For example if you write mask do await lift print lift print then you may receive an asynchronous exception during the await but you will not receive an asynchronous exception during or in between the two print statements This weaker guarantee suffices to provide asynchronous exception safety",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "Safe",
           "package": "pipes-safe",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadSafe\u003c/a\u003e\u003c/code\u003e lets you \u003ccode\u003e\u003ca\u003eregister\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erelease\u003c/a\u003e\u003c/code\u003e finalizers that execute in a\n    \u003ccode\u003e\u003ca\u003eBase\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "MonadSafe",
           "package": "pipes-safe",
@@ -152,6 +163,7 @@
         "index": {
           "description": "MonadSafe lets you register and release finalizers that execute in Base monad",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "MonadSafe",
           "package": "pipes-safe",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken used to \u003ccode\u003e\u003ca\u003erelease\u003c/a\u003e\u003c/code\u003e a previously \u003ccode\u003e\u003ca\u003eregister\u003c/a\u003e\u003c/code\u003eed finalizer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "ReleaseKey",
           "package": "pipes-safe",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Token used to release previously register ed finalizer",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "ReleaseKey",
           "package": "pipes-safe",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSafeT\u003c/a\u003e\u003c/code\u003e is a monad transformer that extends the base monad with the ability\n    to \u003ccode\u003e\u003ca\u003eregister\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erelease\u003c/a\u003e\u003c/code\u003e finalizers.\n\u003c/p\u003e\u003cp\u003eAll unreleased finalizers are called at the end of the \u003ccode\u003e\u003ca\u003eSafeT\u003c/a\u003e\u003c/code\u003e block, even\n    in the event of exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "SafeT",
           "package": "pipes-safe",
@@ -198,6 +213,7 @@
         "index": {
           "description": "SafeT is monad transformer that extends the base monad with the ability to register and release finalizers All unreleased finalizers are called at the end of the SafeT block even in the event of exceptions",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "SafeT",
           "package": "pipes-safe",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003eControl.Monad.Catch\u003c/code\u003e, except this also\n    protects against premature termination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "bracket",
           "package": "pipes-safe",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Analogous to bracket from Control.Monad.Catch except this also protects against premature termination",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "bracket",
           "normalized": "Base a b-\u003e(b-\u003eBase a c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ebracketOnError\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003eControl.Monad.Catch\u003c/code\u003e, except this also\n    protects against premature termination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "bracketOnError",
           "package": "pipes-safe",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Analogous to bracketOnError from Control.Monad.Catch except this also protects against premature termination",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "bracketOnError",
           "normalized": "Base a b-\u003e(b-\u003eBase a c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ebracket_\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003eControl.Monad.Catch\u003c/code\u003e, except this also\n    protects against premature termination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "bracket_",
           "package": "pipes-safe",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Analogous to bracket from Control.Monad.Catch except this also protects against premature termination",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "bracket_",
           "normalized": "Base a b-\u003eBase a c-\u003ea d-\u003ea d",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003efinally\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003eControl.Monad.Catch\u003c/code\u003e, except this also\n    protects against premature termination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "finally",
           "package": "pipes-safe",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Analogous to finally from Control.Monad.Catch except this also protects against premature termination",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "finally",
           "normalized": "a b-\u003eBase a c-\u003ea b",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an action from the \u003ccode\u003e\u003ca\u003eBase\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "liftBase",
           "package": "pipes-safe",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Lift an action from the Base monad",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "liftBase",
           "normalized": "Base a b-\u003ea b",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eonException\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003eControl.Monad.Catch\u003c/code\u003e, except this also\n    protects against premature termination\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e(`onException` io)\u003c/code\u003e is a monad morphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "onException",
           "package": "pipes-safe",
@@ -349,6 +376,7 @@
         "index": {
           "description": "Analogous to onException from Control.Monad.Catch except this also protects against premature termination onException io is monad morphism",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "onException",
           "normalized": "a b-\u003eBase a c-\u003ea b",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eregister\u003c/a\u003e\u003c/code\u003e a finalizer, ensuring that the finalizer gets called if the\n        finalizer is not \u003ccode\u003e\u003ca\u003erelease\u003c/a\u003e\u003c/code\u003ed before the end of the surrounding \u003ccode\u003e\u003ca\u003eSafeT\u003c/a\u003e\u003c/code\u003e\n        block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "register",
           "package": "pipes-safe",
@@ -375,6 +404,7 @@
         "index": {
           "description": "register finalizer ensuring that the finalizer gets called if the finalizer is not release before the end of the surrounding SafeT block",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "register",
           "normalized": "Base a()-\u003ea ReleaseKey",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erelease\u003c/a\u003e\u003c/code\u003e a registered finalizer\n\u003c/p\u003e\u003cp\u003eYou can safely call \u003ccode\u003e\u003ca\u003erelease\u003c/a\u003e\u003c/code\u003e more than once on the same \u003ccode\u003e\u003ca\u003eReleaseKey\u003c/a\u003e\u003c/code\u003e.\n        Every \u003ccode\u003e\u003ca\u003erelease\u003c/a\u003e\u003c/code\u003e after the first one does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "release",
           "package": "pipes-safe",
@@ -400,6 +431,7 @@
         "index": {
           "description": "release registered finalizer You can safely call release more than once on the same ReleaseKey Every release after the first one does nothing",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "release",
           "normalized": "ReleaseKey-\u003ea()",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003ccode\u003e\u003ca\u003eSafeT\u003c/a\u003e\u003c/code\u003e in the base monad, executing all unreleased finalizers at the\n    end of the computation\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003erunSafeP\u003c/a\u003e\u003c/code\u003e to safely flush all unreleased finalizers and ensure prompt\n    finalization without exiting the \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "runSafeP",
           "package": "pipes-safe",
@@ -425,6 +458,7 @@
         "index": {
           "description": "Run SafeT in the base monad executing all unreleased finalizers at the end of the computation Use runSafeP to safely flush all unreleased finalizers and ensure prompt finalization without exiting the Proxy monad",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "runSafeP",
           "normalized": "Effect(SafeT a)b-\u003eEffect' a b",
@@ -441,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003eSafeT\u003c/a\u003e\u003c/code\u003e monad transformer, executing all unreleased finalizers at\n    the end of the computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:36 UTC 2014",
           "module": "Pipes.Safe",
           "name": "runSafeT",
           "package": "pipes-safe",
@@ -451,6 +486,7 @@
         "index": {
           "description": "Run the SafeT monad transformer executing all unreleased finalizers at the end of the computation",
           "hierarchy": "Pipes Safe",
+          "indexed": "2014-03-11T19:39:36",
           "module": "Pipes.Safe",
           "name": "runSafeT",
           "normalized": "SafeT a b-\u003ea b",

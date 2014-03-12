@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dimensional-tf"
+        "phrase": "dimensional-tf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "NonSI",
           "package": "dimensional-tf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "NonSI",
           "package": "dimensional-tf",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "atmosphere",
           "package": "dimensional-tf",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "atmosphere",
           "package": "dimensional-tf",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "bar",
           "package": "dimensional-tf",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "bar",
           "package": "dimensional-tf",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "century",
           "package": "dimensional-tf",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "century",
           "package": "dimensional-tf",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "electronVolt",
           "package": "dimensional-tf",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "electronVolt",
           "package": "dimensional-tf",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "foot",
           "package": "dimensional-tf",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "foot",
           "package": "dimensional-tf",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "gee",
           "package": "dimensional-tf",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "gee",
           "package": "dimensional-tf",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialCup",
           "package": "dimensional-tf",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialCup",
           "package": "dimensional-tf",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialFluidOunce",
           "package": "dimensional-tf",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialFluidOunce",
           "package": "dimensional-tf",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialGallon",
           "package": "dimensional-tf",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialGallon",
           "package": "dimensional-tf",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialGill",
           "package": "dimensional-tf",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialGill",
           "package": "dimensional-tf",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialPint",
           "package": "dimensional-tf",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialPint",
           "package": "dimensional-tf",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialQuart",
           "package": "dimensional-tf",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "imperialQuart",
           "package": "dimensional-tf",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "inch",
           "package": "dimensional-tf",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "inch",
           "package": "dimensional-tf",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "mil",
           "package": "dimensional-tf",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "mil",
           "package": "dimensional-tf",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "mile",
           "package": "dimensional-tf",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "mile",
           "package": "dimensional-tf",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "mmHg",
           "package": "dimensional-tf",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "mmHg",
           "package": "dimensional-tf",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "nauticalMile",
           "package": "dimensional-tf",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "nauticalMile",
           "package": "dimensional-tf",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "ounce",
           "package": "dimensional-tf",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "ounce",
           "package": "dimensional-tf",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "poundForce",
           "package": "dimensional-tf",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "poundForce",
           "package": "dimensional-tf",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "poundMass",
           "package": "dimensional-tf",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "poundMass",
           "package": "dimensional-tf",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "psi",
           "package": "dimensional-tf",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "psi",
           "package": "dimensional-tf",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "rad",
           "package": "dimensional-tf",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "rad",
           "package": "dimensional-tf",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "revolution",
           "package": "dimensional-tf",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "revolution",
           "package": "dimensional-tf",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "solid",
           "package": "dimensional-tf",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "solid",
           "package": "dimensional-tf",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "stokes",
           "package": "dimensional-tf",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "stokes",
           "package": "dimensional-tf",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "teaspoon",
           "package": "dimensional-tf",
@@ -586,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "teaspoon",
           "package": "dimensional-tf",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "technicalAtmosphere",
           "package": "dimensional-tf",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "technicalAtmosphere",
           "package": "dimensional-tf",
@@ -620,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "torr",
           "package": "dimensional-tf",
@@ -629,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "torr",
           "package": "dimensional-tf",
@@ -641,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "unifiedAtomicMassUnit",
           "package": "dimensional-tf",
@@ -650,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "unifiedAtomicMassUnit",
           "package": "dimensional-tf",
@@ -663,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "yard",
           "package": "dimensional-tf",
@@ -672,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "yard",
           "package": "dimensional-tf",
@@ -684,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "year",
           "package": "dimensional-tf",
@@ -693,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF NonSI",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.NonSI",
           "name": "year",
           "package": "dimensional-tf",
@@ -705,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Prelude",
           "name": "Prelude",
           "package": "dimensional-tf",
@@ -713,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Prelude",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Prelude",
           "name": "Prelude",
           "package": "dimensional-tf",
@@ -727,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Quantities",
           "package": "dimensional-tf",
@@ -736,6 +803,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Quantities",
           "package": "dimensional-tf",
@@ -749,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AbsorbedDose",
           "package": "dimensional-tf",
@@ -757,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AbsorbedDose",
           "package": "dimensional-tf",
@@ -770,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AbsorbedDoseRate",
           "package": "dimensional-tf",
@@ -778,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AbsorbedDoseRate",
           "package": "dimensional-tf",
@@ -791,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Acceleration",
           "package": "dimensional-tf",
@@ -799,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Acceleration",
           "package": "dimensional-tf",
@@ -812,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Activity",
           "package": "dimensional-tf",
@@ -820,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Activity",
           "package": "dimensional-tf",
@@ -833,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AmbientDoseEquivalent",
           "package": "dimensional-tf",
@@ -841,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AmbientDoseEquivalent",
           "package": "dimensional-tf",
@@ -854,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AmountOfSubstanceConcentration",
           "package": "dimensional-tf",
@@ -862,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AmountOfSubstanceConcentration",
           "package": "dimensional-tf",
@@ -875,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Angle",
           "package": "dimensional-tf",
@@ -883,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Angle",
           "package": "dimensional-tf",
@@ -896,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AngularAcceleration",
           "package": "dimensional-tf",
@@ -904,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AngularAcceleration",
           "package": "dimensional-tf",
@@ -917,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AngularMomentum",
           "package": "dimensional-tf",
@@ -925,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AngularMomentum",
           "package": "dimensional-tf",
@@ -938,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AngularVelocity",
           "package": "dimensional-tf",
@@ -946,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "AngularVelocity",
           "package": "dimensional-tf",
@@ -959,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Area",
           "package": "dimensional-tf",
@@ -967,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Area",
           "package": "dimensional-tf",
@@ -980,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Capacitance",
           "package": "dimensional-tf",
@@ -988,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Capacitance",
           "package": "dimensional-tf",
@@ -1001,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "CelsiusTemperature",
           "package": "dimensional-tf",
@@ -1009,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "CelsiusTemperature",
           "package": "dimensional-tf",
@@ -1022,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Concentration",
           "package": "dimensional-tf",
@@ -1030,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Concentration",
           "package": "dimensional-tf",
@@ -1043,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "CurrentDensity",
           "package": "dimensional-tf",
@@ -1051,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "CurrentDensity",
           "package": "dimensional-tf",
@@ -1064,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAbsorbedDose",
           "package": "dimensional-tf",
@@ -1072,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAbsorbedDose",
           "package": "dimensional-tf",
@@ -1085,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAbsorbedDoseRate",
           "package": "dimensional-tf",
@@ -1093,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAbsorbedDoseRate",
           "package": "dimensional-tf",
@@ -1106,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAcceleration",
           "package": "dimensional-tf",
@@ -1114,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAcceleration",
           "package": "dimensional-tf",
@@ -1127,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DActivity",
           "package": "dimensional-tf",
@@ -1135,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DActivity",
           "package": "dimensional-tf",
@@ -1148,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAmbientDoseEquivalent",
           "package": "dimensional-tf",
@@ -1156,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAmbientDoseEquivalent",
           "package": "dimensional-tf",
@@ -1169,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAmountOfSubstanceConcentration",
           "package": "dimensional-tf",
@@ -1177,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAmountOfSubstanceConcentration",
           "package": "dimensional-tf",
@@ -1190,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAngle",
           "package": "dimensional-tf",
@@ -1198,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAngle",
           "package": "dimensional-tf",
@@ -1211,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAngularAcceleration",
           "package": "dimensional-tf",
@@ -1219,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAngularAcceleration",
           "package": "dimensional-tf",
@@ -1232,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAngularMomentum",
           "package": "dimensional-tf",
@@ -1240,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAngularMomentum",
           "package": "dimensional-tf",
@@ -1253,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAngularVelocity",
           "package": "dimensional-tf",
@@ -1261,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DAngularVelocity",
           "package": "dimensional-tf",
@@ -1274,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DArea",
           "package": "dimensional-tf",
@@ -1282,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DArea",
           "package": "dimensional-tf",
@@ -1295,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DCapacitance",
           "package": "dimensional-tf",
@@ -1303,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DCapacitance",
           "package": "dimensional-tf",
@@ -1316,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DCelsiusTemperature",
           "package": "dimensional-tf",
@@ -1324,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DCelsiusTemperature",
           "package": "dimensional-tf",
@@ -1337,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DCurrentDensity",
           "package": "dimensional-tf",
@@ -1345,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DCurrentDensity",
           "package": "dimensional-tf",
@@ -1358,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DDirectionalDoseEquivalent",
           "package": "dimensional-tf",
@@ -1366,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DDirectionalDoseEquivalent",
           "package": "dimensional-tf",
@@ -1379,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DDoseEquivalent",
           "package": "dimensional-tf",
@@ -1387,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DDoseEquivalent",
           "package": "dimensional-tf",
@@ -1400,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DDynamicViscosity",
           "package": "dimensional-tf",
@@ -1408,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DDynamicViscosity",
           "package": "dimensional-tf",
@@ -1421,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricCharge",
           "package": "dimensional-tf",
@@ -1429,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricCharge",
           "package": "dimensional-tf",
@@ -1442,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricChargeDensity",
           "package": "dimensional-tf",
@@ -1450,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricChargeDensity",
           "package": "dimensional-tf",
@@ -1463,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricConductance",
           "package": "dimensional-tf",
@@ -1471,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricConductance",
           "package": "dimensional-tf",
@@ -1484,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricFieldStrength",
           "package": "dimensional-tf",
@@ -1492,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricFieldStrength",
           "package": "dimensional-tf",
@@ -1505,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricFluxDensity",
           "package": "dimensional-tf",
@@ -1513,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricFluxDensity",
           "package": "dimensional-tf",
@@ -1526,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricPotential",
           "package": "dimensional-tf",
@@ -1534,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricPotential",
           "package": "dimensional-tf",
@@ -1547,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricResistance",
           "package": "dimensional-tf",
@@ -1555,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectricResistance",
           "package": "dimensional-tf",
@@ -1568,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectromotiveForce",
           "package": "dimensional-tf",
@@ -1576,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DElectromotiveForce",
           "package": "dimensional-tf",
@@ -1589,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEnergy",
           "package": "dimensional-tf",
@@ -1597,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEnergy",
           "package": "dimensional-tf",
@@ -1610,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEnergyDensity",
           "package": "dimensional-tf",
@@ -1618,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEnergyDensity",
           "package": "dimensional-tf",
@@ -1631,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEnergyPerUnitMass",
           "package": "dimensional-tf",
@@ -1639,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEnergyPerUnitMass",
           "package": "dimensional-tf",
@@ -1652,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEntropy",
           "package": "dimensional-tf",
@@ -1660,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEntropy",
           "package": "dimensional-tf",
@@ -1673,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEquivalentDose",
           "package": "dimensional-tf",
@@ -1681,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DEquivalentDose",
           "package": "dimensional-tf",
@@ -1694,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DExposure",
           "package": "dimensional-tf",
@@ -1702,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DExposure",
           "package": "dimensional-tf",
@@ -1715,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DFirstMassMoment",
           "package": "dimensional-tf",
@@ -1723,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DFirstMassMoment",
           "package": "dimensional-tf",
@@ -1736,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DForce",
           "package": "dimensional-tf",
@@ -1744,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DForce",
           "package": "dimensional-tf",
@@ -1757,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DFrequency",
           "package": "dimensional-tf",
@@ -1765,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DFrequency",
           "package": "dimensional-tf",
@@ -1778,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DGravitationalParameter",
           "package": "dimensional-tf",
@@ -1786,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DGravitationalParameter",
           "package": "dimensional-tf",
@@ -1799,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DHeatCapacity",
           "package": "dimensional-tf",
@@ -1807,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DHeatCapacity",
           "package": "dimensional-tf",
@@ -1820,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DHeatFluxDensity",
           "package": "dimensional-tf",
@@ -1828,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DHeatFluxDensity",
           "package": "dimensional-tf",
@@ -1841,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DIlluminance",
           "package": "dimensional-tf",
@@ -1849,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DIlluminance",
           "package": "dimensional-tf",
@@ -1862,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DImpulse",
           "package": "dimensional-tf",
@@ -1870,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DImpulse",
           "package": "dimensional-tf",
@@ -1883,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DInductance",
           "package": "dimensional-tf",
@@ -1891,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DInductance",
           "package": "dimensional-tf",
@@ -1904,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DIrradiance",
           "package": "dimensional-tf",
@@ -1912,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DIrradiance",
           "package": "dimensional-tf",
@@ -1925,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DKerma",
           "package": "dimensional-tf",
@@ -1933,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DKerma",
           "package": "dimensional-tf",
@@ -1946,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DKinematicViscosity",
           "package": "dimensional-tf",
@@ -1954,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DKinematicViscosity",
           "package": "dimensional-tf",
@@ -1967,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DLuminance",
           "package": "dimensional-tf",
@@ -1975,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DLuminance",
           "package": "dimensional-tf",
@@ -1988,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DLuminousFlux",
           "package": "dimensional-tf",
@@ -1996,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DLuminousFlux",
           "package": "dimensional-tf",
@@ -2009,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMagneticFieldStrength",
           "package": "dimensional-tf",
@@ -2017,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMagneticFieldStrength",
           "package": "dimensional-tf",
@@ -2030,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMagneticFlux",
           "package": "dimensional-tf",
@@ -2038,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMagneticFlux",
           "package": "dimensional-tf",
@@ -2051,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMagneticFluxDensity",
           "package": "dimensional-tf",
@@ -2059,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMagneticFluxDensity",
           "package": "dimensional-tf",
@@ -2072,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMassDensity",
           "package": "dimensional-tf",
@@ -2080,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMassDensity",
           "package": "dimensional-tf",
@@ -2093,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMassFlow",
           "package": "dimensional-tf",
@@ -2101,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMassFlow",
           "package": "dimensional-tf",
@@ -2114,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMolarEnergy",
           "package": "dimensional-tf",
@@ -2122,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMolarEnergy",
           "package": "dimensional-tf",
@@ -2135,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMolarEntropy",
           "package": "dimensional-tf",
@@ -2143,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMolarEntropy",
           "package": "dimensional-tf",
@@ -2156,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMolarHeatCapacity",
           "package": "dimensional-tf",
@@ -2164,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMolarHeatCapacity",
           "package": "dimensional-tf",
@@ -2177,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMomentOfForce",
           "package": "dimensional-tf",
@@ -2185,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMomentOfForce",
           "package": "dimensional-tf",
@@ -2198,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMomentOfInertia",
           "package": "dimensional-tf",
@@ -2206,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DMomentOfInertia",
           "package": "dimensional-tf",
@@ -2219,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPermeability",
           "package": "dimensional-tf",
@@ -2227,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPermeability",
           "package": "dimensional-tf",
@@ -2240,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPermittivity",
           "package": "dimensional-tf",
@@ -2248,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPermittivity",
           "package": "dimensional-tf",
@@ -2261,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPersonalDoseEquivalent",
           "package": "dimensional-tf",
@@ -2269,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPersonalDoseEquivalent",
           "package": "dimensional-tf",
@@ -2282,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPlaneAngle",
           "package": "dimensional-tf",
@@ -2290,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPlaneAngle",
           "package": "dimensional-tf",
@@ -2303,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPotentialDifference",
           "package": "dimensional-tf",
@@ -2311,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPotentialDifference",
           "package": "dimensional-tf",
@@ -2324,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPower",
           "package": "dimensional-tf",
@@ -2332,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPower",
           "package": "dimensional-tf",
@@ -2345,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPressure",
           "package": "dimensional-tf",
@@ -2353,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DPressure",
           "package": "dimensional-tf",
@@ -2366,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DQuantityOfElectricity",
           "package": "dimensional-tf",
@@ -2374,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DQuantityOfElectricity",
           "package": "dimensional-tf",
@@ -2387,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DQuantityOfHeat",
           "package": "dimensional-tf",
@@ -2395,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DQuantityOfHeat",
           "package": "dimensional-tf",
@@ -2408,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DRadiance",
           "package": "dimensional-tf",
@@ -2416,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DRadiance",
           "package": "dimensional-tf",
@@ -2429,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DRadiantFlux",
           "package": "dimensional-tf",
@@ -2437,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DRadiantFlux",
           "package": "dimensional-tf",
@@ -2450,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DRadiantIntensity",
           "package": "dimensional-tf",
@@ -2458,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DRadiantIntensity",
           "package": "dimensional-tf",
@@ -2471,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSolidAngle",
           "package": "dimensional-tf",
@@ -2479,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSolidAngle",
           "package": "dimensional-tf",
@@ -2492,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSpecificEnergy",
           "package": "dimensional-tf",
@@ -2500,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSpecificEnergy",
           "package": "dimensional-tf",
@@ -2513,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSpecificEntropy",
           "package": "dimensional-tf",
@@ -2521,6 +2758,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSpecificEntropy",
           "package": "dimensional-tf",
@@ -2534,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSpecificHeatCapacity",
           "package": "dimensional-tf",
@@ -2542,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSpecificHeatCapacity",
           "package": "dimensional-tf",
@@ -2555,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSpecificVolume",
           "package": "dimensional-tf",
@@ -2563,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSpecificVolume",
           "package": "dimensional-tf",
@@ -2576,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DStress",
           "package": "dimensional-tf",
@@ -2584,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DStress",
           "package": "dimensional-tf",
@@ -2597,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSurfaceTension",
           "package": "dimensional-tf",
@@ -2605,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DSurfaceTension",
           "package": "dimensional-tf",
@@ -2618,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DThermalConductivity",
           "package": "dimensional-tf",
@@ -2626,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DThermalConductivity",
           "package": "dimensional-tf",
@@ -2639,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DThrust",
           "package": "dimensional-tf",
@@ -2647,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DThrust",
           "package": "dimensional-tf",
@@ -2660,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DTorque",
           "package": "dimensional-tf",
@@ -2668,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DTorque",
           "package": "dimensional-tf",
@@ -2681,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DVelocity",
           "package": "dimensional-tf",
@@ -2689,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DVelocity",
           "package": "dimensional-tf",
@@ -2702,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DVolume",
           "package": "dimensional-tf",
@@ -2710,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DVolume",
           "package": "dimensional-tf",
@@ -2723,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DWaveNumber",
           "package": "dimensional-tf",
@@ -2731,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DWaveNumber",
           "package": "dimensional-tf",
@@ -2744,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DWork",
           "package": "dimensional-tf",
@@ -2752,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DWork",
           "package": "dimensional-tf",
@@ -2765,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Density",
           "package": "dimensional-tf",
@@ -2773,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Density",
           "package": "dimensional-tf",
@@ -2786,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DirectionalDoseEquivalent",
           "package": "dimensional-tf",
@@ -2794,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DirectionalDoseEquivalent",
           "package": "dimensional-tf",
@@ -2807,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DoseEquivalent",
           "package": "dimensional-tf",
@@ -2815,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DoseEquivalent",
           "package": "dimensional-tf",
@@ -2828,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DynamicViscosity",
           "package": "dimensional-tf",
@@ -2836,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "DynamicViscosity",
           "package": "dimensional-tf",
@@ -2849,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricCharge",
           "package": "dimensional-tf",
@@ -2857,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricCharge",
           "package": "dimensional-tf",
@@ -2870,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricChargeDensity",
           "package": "dimensional-tf",
@@ -2878,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricChargeDensity",
           "package": "dimensional-tf",
@@ -2891,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricConductance",
           "package": "dimensional-tf",
@@ -2899,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricConductance",
           "package": "dimensional-tf",
@@ -2912,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricFieldStrength",
           "package": "dimensional-tf",
@@ -2920,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricFieldStrength",
           "package": "dimensional-tf",
@@ -2933,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricFluxDensity",
           "package": "dimensional-tf",
@@ -2941,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricFluxDensity",
           "package": "dimensional-tf",
@@ -2954,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricPotential",
           "package": "dimensional-tf",
@@ -2962,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricPotential",
           "package": "dimensional-tf",
@@ -2975,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricResistance",
           "package": "dimensional-tf",
@@ -2983,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectricResistance",
           "package": "dimensional-tf",
@@ -2996,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectromotiveForce",
           "package": "dimensional-tf",
@@ -3004,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ElectromotiveForce",
           "package": "dimensional-tf",
@@ -3017,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Energy",
           "package": "dimensional-tf",
@@ -3025,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Energy",
           "package": "dimensional-tf",
@@ -3038,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "EnergyDensity",
           "package": "dimensional-tf",
@@ -3046,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "EnergyDensity",
           "package": "dimensional-tf",
@@ -3059,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "EnergyPerUnitMass",
           "package": "dimensional-tf",
@@ -3067,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "EnergyPerUnitMass",
           "package": "dimensional-tf",
@@ -3080,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Entropy",
           "package": "dimensional-tf",
@@ -3088,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Entropy",
           "package": "dimensional-tf",
@@ -3101,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "EquivalentDose",
           "package": "dimensional-tf",
@@ -3109,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "EquivalentDose",
           "package": "dimensional-tf",
@@ -3122,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Exposure",
           "package": "dimensional-tf",
@@ -3130,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Exposure",
           "package": "dimensional-tf",
@@ -3143,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "FirstMassMoment",
           "package": "dimensional-tf",
@@ -3151,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "FirstMassMoment",
           "package": "dimensional-tf",
@@ -3164,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Force",
           "package": "dimensional-tf",
@@ -3172,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Force",
           "package": "dimensional-tf",
@@ -3185,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Frequency",
           "package": "dimensional-tf",
@@ -3193,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Frequency",
           "package": "dimensional-tf",
@@ -3206,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "GravitationalParameter",
           "package": "dimensional-tf",
@@ -3214,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "GravitationalParameter",
           "package": "dimensional-tf",
@@ -3227,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "HeatCapacity",
           "package": "dimensional-tf",
@@ -3235,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "HeatCapacity",
           "package": "dimensional-tf",
@@ -3248,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "HeatFluxDensity",
           "package": "dimensional-tf",
@@ -3256,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "HeatFluxDensity",
           "package": "dimensional-tf",
@@ -3269,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Illuminance",
           "package": "dimensional-tf",
@@ -3277,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Illuminance",
           "package": "dimensional-tf",
@@ -3290,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Impulse",
           "package": "dimensional-tf",
@@ -3298,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Impulse",
           "package": "dimensional-tf",
@@ -3311,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Inductance",
           "package": "dimensional-tf",
@@ -3319,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Inductance",
           "package": "dimensional-tf",
@@ -3332,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Irradiance",
           "package": "dimensional-tf",
@@ -3340,6 +3655,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Irradiance",
           "package": "dimensional-tf",
@@ -3353,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Kerma",
           "package": "dimensional-tf",
@@ -3361,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Kerma",
           "package": "dimensional-tf",
@@ -3374,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "KinematicViscosity",
           "package": "dimensional-tf",
@@ -3382,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "KinematicViscosity",
           "package": "dimensional-tf",
@@ -3395,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Luminance",
           "package": "dimensional-tf",
@@ -3403,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Luminance",
           "package": "dimensional-tf",
@@ -3416,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "LuminousFlux",
           "package": "dimensional-tf",
@@ -3424,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "LuminousFlux",
           "package": "dimensional-tf",
@@ -3437,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MagneticFieldStrength",
           "package": "dimensional-tf",
@@ -3445,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MagneticFieldStrength",
           "package": "dimensional-tf",
@@ -3458,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MagneticFlux",
           "package": "dimensional-tf",
@@ -3466,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MagneticFlux",
           "package": "dimensional-tf",
@@ -3479,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MagneticFluxDensity",
           "package": "dimensional-tf",
@@ -3487,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MagneticFluxDensity",
           "package": "dimensional-tf",
@@ -3500,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MassDensity",
           "package": "dimensional-tf",
@@ -3508,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MassDensity",
           "package": "dimensional-tf",
@@ -3521,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MassFlow",
           "package": "dimensional-tf",
@@ -3529,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MassFlow",
           "package": "dimensional-tf",
@@ -3542,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MolarEnergy",
           "package": "dimensional-tf",
@@ -3550,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MolarEnergy",
           "package": "dimensional-tf",
@@ -3563,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MolarEntropy",
           "package": "dimensional-tf",
@@ -3571,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MolarEntropy",
           "package": "dimensional-tf",
@@ -3584,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MolarHeatCapacity",
           "package": "dimensional-tf",
@@ -3592,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MolarHeatCapacity",
           "package": "dimensional-tf",
@@ -3605,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MomentOfForce",
           "package": "dimensional-tf",
@@ -3613,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MomentOfForce",
           "package": "dimensional-tf",
@@ -3626,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MomentOfInertia",
           "package": "dimensional-tf",
@@ -3634,6 +3977,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "MomentOfInertia",
           "package": "dimensional-tf",
@@ -3647,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Permeability",
           "package": "dimensional-tf",
@@ -3655,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Permeability",
           "package": "dimensional-tf",
@@ -3668,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Permittivity",
           "package": "dimensional-tf",
@@ -3676,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Permittivity",
           "package": "dimensional-tf",
@@ -3689,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "PersonalDoseEquivalent",
           "package": "dimensional-tf",
@@ -3697,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "PersonalDoseEquivalent",
           "package": "dimensional-tf",
@@ -3710,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "PlaneAngle",
           "package": "dimensional-tf",
@@ -3718,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "PlaneAngle",
           "package": "dimensional-tf",
@@ -3731,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "PotentialDifference",
           "package": "dimensional-tf",
@@ -3739,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "PotentialDifference",
           "package": "dimensional-tf",
@@ -3752,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Power",
           "package": "dimensional-tf",
@@ -3760,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Power",
           "package": "dimensional-tf",
@@ -3773,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Pressure",
           "package": "dimensional-tf",
@@ -3781,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Pressure",
           "package": "dimensional-tf",
@@ -3794,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "QuantityOfElectricity",
           "package": "dimensional-tf",
@@ -3802,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "QuantityOfElectricity",
           "package": "dimensional-tf",
@@ -3815,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "QuantityOfHeat",
           "package": "dimensional-tf",
@@ -3823,6 +4184,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "QuantityOfHeat",
           "package": "dimensional-tf",
@@ -3836,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Radiance",
           "package": "dimensional-tf",
@@ -3844,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Radiance",
           "package": "dimensional-tf",
@@ -3857,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "RadiantFlux",
           "package": "dimensional-tf",
@@ -3865,6 +4230,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "RadiantFlux",
           "package": "dimensional-tf",
@@ -3878,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "RadiantIntensity",
           "package": "dimensional-tf",
@@ -3886,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "RadiantIntensity",
           "package": "dimensional-tf",
@@ -3899,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SolidAngle",
           "package": "dimensional-tf",
@@ -3907,6 +4276,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SolidAngle",
           "package": "dimensional-tf",
@@ -3920,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SpecificEnergy",
           "package": "dimensional-tf",
@@ -3928,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SpecificEnergy",
           "package": "dimensional-tf",
@@ -3941,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SpecificEntropy",
           "package": "dimensional-tf",
@@ -3949,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SpecificEntropy",
           "package": "dimensional-tf",
@@ -3962,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SpecificHeatCapacity",
           "package": "dimensional-tf",
@@ -3970,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SpecificHeatCapacity",
           "package": "dimensional-tf",
@@ -3983,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SpecificVolume",
           "package": "dimensional-tf",
@@ -3991,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SpecificVolume",
           "package": "dimensional-tf",
@@ -4004,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Stress",
           "package": "dimensional-tf",
@@ -4012,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Stress",
           "package": "dimensional-tf",
@@ -4025,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SurfaceTension",
           "package": "dimensional-tf",
@@ -4033,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "SurfaceTension",
           "package": "dimensional-tf",
@@ -4046,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ThermalConductivity",
           "package": "dimensional-tf",
@@ -4054,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "ThermalConductivity",
           "package": "dimensional-tf",
@@ -4067,6 +4451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Thrust",
           "package": "dimensional-tf",
@@ -4075,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Thrust",
           "package": "dimensional-tf",
@@ -4088,6 +4474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Torque",
           "package": "dimensional-tf",
@@ -4096,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Torque",
           "package": "dimensional-tf",
@@ -4109,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Velocity",
           "package": "dimensional-tf",
@@ -4117,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Velocity",
           "package": "dimensional-tf",
@@ -4130,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Volume",
           "package": "dimensional-tf",
@@ -4138,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Volume",
           "package": "dimensional-tf",
@@ -4151,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "WaveNumber",
           "package": "dimensional-tf",
@@ -4159,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "WaveNumber",
           "package": "dimensional-tf",
@@ -4172,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Work",
           "package": "dimensional-tf",
@@ -4180,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "Work",
           "package": "dimensional-tf",
@@ -4193,6 +4589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "cubic",
           "package": "dimensional-tf",
@@ -4202,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "cubic",
           "normalized": "Unit DLength a-\u003eUnit DVolume a",
@@ -4216,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "square",
           "package": "dimensional-tf",
@@ -4225,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF Quantities",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.Quantities",
           "name": "square",
           "normalized": "Unit DLength a-\u003eUnit DArea a",
@@ -4240,6 +4640,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "SIUnits",
           "package": "dimensional-tf",
@@ -4249,6 +4650,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "SIUnits",
           "package": "dimensional-tf",
@@ -4262,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "ampere",
           "package": "dimensional-tf",
@@ -4271,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "ampere",
           "package": "dimensional-tf",
@@ -4283,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "arcminute",
           "package": "dimensional-tf",
@@ -4292,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "arcminute",
           "package": "dimensional-tf",
@@ -4304,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "arcsecond",
           "package": "dimensional-tf",
@@ -4313,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "arcsecond",
           "package": "dimensional-tf",
@@ -4325,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "astronomicalUnit",
           "package": "dimensional-tf",
@@ -4334,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "astronomicalUnit",
           "package": "dimensional-tf",
@@ -4347,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "atto",
           "package": "dimensional-tf",
@@ -4356,6 +4767,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "atto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4370,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "becquerel",
           "package": "dimensional-tf",
@@ -4379,6 +4792,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "becquerel",
           "package": "dimensional-tf",
@@ -4391,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "candela",
           "package": "dimensional-tf",
@@ -4400,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "candela",
           "package": "dimensional-tf",
@@ -4412,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "centi",
           "package": "dimensional-tf",
@@ -4421,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "centi",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4435,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "coulomb",
           "package": "dimensional-tf",
@@ -4444,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "coulomb",
           "package": "dimensional-tf",
@@ -4456,6 +4876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "day",
           "package": "dimensional-tf",
@@ -4465,6 +4886,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "day",
           "package": "dimensional-tf",
@@ -4477,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "deca",
           "package": "dimensional-tf",
@@ -4486,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "deca",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4500,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "deci",
           "package": "dimensional-tf",
@@ -4509,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "deci",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4523,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "degree",
           "package": "dimensional-tf",
@@ -4532,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "degree",
           "package": "dimensional-tf",
@@ -4544,6 +4972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "degreeCelsius",
           "package": "dimensional-tf",
@@ -4553,6 +4982,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "degreeCelsius",
           "package": "dimensional-tf",
@@ -4566,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "degreeOfArc",
           "package": "dimensional-tf",
@@ -4575,6 +5006,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "degreeOfArc",
           "package": "dimensional-tf",
@@ -4588,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "deka",
           "package": "dimensional-tf",
@@ -4597,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "deka",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4611,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "exa",
           "package": "dimensional-tf",
@@ -4620,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "exa",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4634,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "farad",
           "package": "dimensional-tf",
@@ -4643,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "farad",
           "package": "dimensional-tf",
@@ -4655,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "femto",
           "package": "dimensional-tf",
@@ -4664,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "femto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4678,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "fromDegreeCelsiusAbsolute",
           "package": "dimensional-tf",
@@ -4687,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "fromDegreeCelsiusAbsolute",
           "normalized": "a-\u003eThermodynamicTemperature a",
@@ -4702,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "fromDiffTime",
           "package": "dimensional-tf",
@@ -4711,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "fromDiffTime",
           "normalized": "DiffTime-\u003eTime a",
@@ -4726,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "giga",
           "package": "dimensional-tf",
@@ -4735,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "giga",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4749,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "gram",
           "package": "dimensional-tf",
@@ -4758,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "gram",
           "package": "dimensional-tf",
@@ -4770,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "gray",
           "package": "dimensional-tf",
@@ -4779,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "gray",
           "package": "dimensional-tf",
@@ -4791,6 +5241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "hecto",
           "package": "dimensional-tf",
@@ -4800,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "hecto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4814,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "henry",
           "package": "dimensional-tf",
@@ -4823,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "henry",
           "package": "dimensional-tf",
@@ -4835,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "hertz",
           "package": "dimensional-tf",
@@ -4844,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "hertz",
           "package": "dimensional-tf",
@@ -4856,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "hour",
           "package": "dimensional-tf",
@@ -4865,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "hour",
           "package": "dimensional-tf",
@@ -4877,6 +5335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "joule",
           "package": "dimensional-tf",
@@ -4886,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "joule",
           "package": "dimensional-tf",
@@ -4898,6 +5358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "kelvin",
           "package": "dimensional-tf",
@@ -4907,6 +5368,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "kelvin",
           "package": "dimensional-tf",
@@ -4919,6 +5381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "kilo",
           "package": "dimensional-tf",
@@ -4928,6 +5391,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "kilo",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -4942,6 +5406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "liter",
           "package": "dimensional-tf",
@@ -4951,6 +5416,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "liter",
           "package": "dimensional-tf",
@@ -4963,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "litre",
           "package": "dimensional-tf",
@@ -4972,6 +5439,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "litre",
           "package": "dimensional-tf",
@@ -4984,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "lumen",
           "package": "dimensional-tf",
@@ -4993,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "lumen",
           "package": "dimensional-tf",
@@ -5005,6 +5475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "lux",
           "package": "dimensional-tf",
@@ -5014,6 +5485,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "lux",
           "package": "dimensional-tf",
@@ -5026,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "mega",
           "package": "dimensional-tf",
@@ -5035,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "mega",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5049,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "meter",
           "package": "dimensional-tf",
@@ -5058,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "meter",
           "package": "dimensional-tf",
@@ -5070,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "metre",
           "package": "dimensional-tf",
@@ -5079,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "metre",
           "package": "dimensional-tf",
@@ -5091,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "metricTon",
           "package": "dimensional-tf",
@@ -5100,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "metricTon",
           "package": "dimensional-tf",
@@ -5113,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "micro",
           "package": "dimensional-tf",
@@ -5122,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "micro",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5136,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "milli",
           "package": "dimensional-tf",
@@ -5145,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "milli",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5159,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "minute",
           "package": "dimensional-tf",
@@ -5168,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "minute",
           "package": "dimensional-tf",
@@ -5180,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "minuteOfArc",
           "package": "dimensional-tf",
@@ -5189,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "minuteOfArc",
           "package": "dimensional-tf",
@@ -5202,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "mole",
           "package": "dimensional-tf",
@@ -5211,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "mole",
           "package": "dimensional-tf",
@@ -5223,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "nano",
           "package": "dimensional-tf",
@@ -5232,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "nano",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5246,6 +5738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "newton",
           "package": "dimensional-tf",
@@ -5255,6 +5748,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "newton",
           "package": "dimensional-tf",
@@ -5267,6 +5761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "ohm",
           "package": "dimensional-tf",
@@ -5276,6 +5771,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "ohm",
           "package": "dimensional-tf",
@@ -5288,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "pascal",
           "package": "dimensional-tf",
@@ -5297,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "pascal",
           "package": "dimensional-tf",
@@ -5309,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "peta",
           "package": "dimensional-tf",
@@ -5318,6 +5817,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "peta",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5332,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "pico",
           "package": "dimensional-tf",
@@ -5341,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "pico",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5355,6 +5857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "radian",
           "package": "dimensional-tf",
@@ -5364,6 +5867,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "radian",
           "package": "dimensional-tf",
@@ -5376,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "second",
           "package": "dimensional-tf",
@@ -5385,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "second",
           "package": "dimensional-tf",
@@ -5397,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "secondOfArc",
           "package": "dimensional-tf",
@@ -5406,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "secondOfArc",
           "package": "dimensional-tf",
@@ -5419,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "siemens",
           "package": "dimensional-tf",
@@ -5428,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "siemens",
           "package": "dimensional-tf",
@@ -5440,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "sievert",
           "package": "dimensional-tf",
@@ -5449,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "sievert",
           "package": "dimensional-tf",
@@ -5461,6 +5973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "steradian",
           "package": "dimensional-tf",
@@ -5470,6 +5983,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "steradian",
           "package": "dimensional-tf",
@@ -5482,6 +5996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "tera",
           "package": "dimensional-tf",
@@ -5491,6 +6006,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "tera",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5505,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "tesla",
           "package": "dimensional-tf",
@@ -5514,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "tesla",
           "package": "dimensional-tf",
@@ -5526,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "toDegreeCelsiusAbsolute",
           "package": "dimensional-tf",
@@ -5535,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "toDegreeCelsiusAbsolute",
           "normalized": "ThermodynamicTemperature a-\u003ea",
@@ -5550,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "toDiffTime",
           "package": "dimensional-tf",
@@ -5559,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "toDiffTime",
           "normalized": "Time a-\u003eDiffTime",
@@ -5574,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "tonne",
           "package": "dimensional-tf",
@@ -5583,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "tonne",
           "package": "dimensional-tf",
@@ -5595,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "volt",
           "package": "dimensional-tf",
@@ -5604,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "volt",
           "package": "dimensional-tf",
@@ -5616,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "watt",
           "package": "dimensional-tf",
@@ -5625,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "watt",
           "package": "dimensional-tf",
@@ -5637,6 +6165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "weber",
           "package": "dimensional-tf",
@@ -5646,6 +6175,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "weber",
           "package": "dimensional-tf",
@@ -5658,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "yocto",
           "package": "dimensional-tf",
@@ -5667,6 +6198,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "yocto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5681,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "yotta",
           "package": "dimensional-tf",
@@ -5690,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "yotta",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5704,6 +6238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "zepto",
           "package": "dimensional-tf",
@@ -5713,6 +6248,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "zepto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5727,6 +6263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "zetta",
           "package": "dimensional-tf",
@@ -5736,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF SIUnits",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF.SIUnits",
           "name": "zetta",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5751,6 +6289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "TF",
           "package": "dimensional-tf",
@@ -5760,6 +6299,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "TF",
           "package": "dimensional-tf",
@@ -5773,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "AmountOfSubstance",
           "package": "dimensional-tf",
@@ -5781,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "AmountOfSubstance",
           "package": "dimensional-tf",
@@ -5794,6 +6336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DAmountOfSubstance",
           "package": "dimensional-tf",
@@ -5802,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DAmountOfSubstance",
           "package": "dimensional-tf",
@@ -5815,6 +6359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DElectricCurrent",
           "package": "dimensional-tf",
@@ -5823,6 +6368,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DElectricCurrent",
           "package": "dimensional-tf",
@@ -5836,6 +6382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DLength",
           "package": "dimensional-tf",
@@ -5844,6 +6391,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DLength",
           "package": "dimensional-tf",
@@ -5857,6 +6405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DLuminousIntensity",
           "package": "dimensional-tf",
@@ -5865,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DLuminousIntensity",
           "package": "dimensional-tf",
@@ -5878,6 +6428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DMass",
           "package": "dimensional-tf",
@@ -5886,6 +6437,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DMass",
           "package": "dimensional-tf",
@@ -5899,6 +6451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DOne",
           "package": "dimensional-tf",
@@ -5907,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DOne",
           "package": "dimensional-tf",
@@ -5920,6 +6474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DQuantity",
           "package": "dimensional-tf",
@@ -5928,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DQuantity",
           "package": "dimensional-tf",
@@ -5941,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DThermodynamicTemperature",
           "package": "dimensional-tf",
@@ -5949,6 +6506,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DThermodynamicTemperature",
           "package": "dimensional-tf",
@@ -5962,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DTime",
           "package": "dimensional-tf",
@@ -5970,6 +6529,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DTime",
           "package": "dimensional-tf",
@@ -5983,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DUnit",
           "package": "dimensional-tf",
@@ -5991,6 +6552,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "DUnit",
           "package": "dimensional-tf",
@@ -6004,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Dim",
           "package": "dimensional-tf",
@@ -6012,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Dim",
           "package": "dimensional-tf",
@@ -6025,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Dimensional",
           "package": "dimensional-tf",
@@ -6033,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Dimensional",
           "package": "dimensional-tf",
@@ -6046,6 +6612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Dimensionless",
           "package": "dimensional-tf",
@@ -6054,6 +6621,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Dimensionless",
           "package": "dimensional-tf",
@@ -6067,6 +6635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Div",
           "package": "dimensional-tf",
@@ -6075,6 +6644,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Div",
           "package": "dimensional-tf",
@@ -6088,6 +6658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "ElectricCurrent",
           "package": "dimensional-tf",
@@ -6096,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "ElectricCurrent",
           "package": "dimensional-tf",
@@ -6109,6 +6681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Length",
           "package": "dimensional-tf",
@@ -6117,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Length",
           "package": "dimensional-tf",
@@ -6130,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "LuminousIntensity",
           "package": "dimensional-tf",
@@ -6138,6 +6713,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "LuminousIntensity",
           "package": "dimensional-tf",
@@ -6151,6 +6727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Mass",
           "package": "dimensional-tf",
@@ -6159,6 +6736,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Mass",
           "package": "dimensional-tf",
@@ -6172,6 +6750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Mul",
           "package": "dimensional-tf",
@@ -6180,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Mul",
           "package": "dimensional-tf",
@@ -6193,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Pow",
           "package": "dimensional-tf",
@@ -6201,6 +6782,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Pow",
           "package": "dimensional-tf",
@@ -6214,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Quantity",
           "package": "dimensional-tf",
@@ -6222,6 +6805,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Quantity",
           "package": "dimensional-tf",
@@ -6235,6 +6819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Root",
           "package": "dimensional-tf",
@@ -6243,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Root",
           "package": "dimensional-tf",
@@ -6256,6 +6842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "ThermodynamicTemperature",
           "package": "dimensional-tf",
@@ -6264,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "ThermodynamicTemperature",
           "package": "dimensional-tf",
@@ -6277,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Time",
           "package": "dimensional-tf",
@@ -6285,6 +6874,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Time",
           "package": "dimensional-tf",
@@ -6298,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Unit",
           "package": "dimensional-tf",
@@ -6306,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Unit",
           "package": "dimensional-tf",
@@ -6319,6 +6911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(*)",
           "package": "dimensional-tf",
@@ -6328,6 +6921,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(*) *",
           "normalized": "Dimensional a b c-\u003eDimensional a d c-\u003eDimensional a(Mul b d)c",
@@ -6342,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(*~)",
           "package": "dimensional-tf",
@@ -6351,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(*~) *~",
           "normalized": "a-\u003eUnit b a-\u003eQuantity b a",
@@ -6365,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(*~~)",
           "package": "dimensional-tf",
@@ -6374,6 +6971,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(*~~) *~~",
           "normalized": "a b-\u003eUnit c b-\u003ea(Quantity c b)",
@@ -6388,6 +6986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(**)",
           "package": "dimensional-tf",
@@ -6397,6 +6996,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(**) **",
           "normalized": "Dimensionless a-\u003eDimensionless a-\u003eDimensionless a",
@@ -6411,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(+)",
           "package": "dimensional-tf",
@@ -6420,6 +7021,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(+) +",
           "normalized": "Quantity a b-\u003eQuantity a b-\u003eQuantity a b",
@@ -6434,6 +7036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(-)",
           "package": "dimensional-tf",
@@ -6443,6 +7046,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(-) -",
           "normalized": "Quantity a b-\u003eQuantity a b-\u003eQuantity a b",
@@ -6457,6 +7061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(/)",
           "package": "dimensional-tf",
@@ -6466,6 +7071,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(/) /",
           "normalized": "Dimensional a b c-\u003eDimensional a d c-\u003eDimensional a(Div b d)c",
@@ -6480,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(/~)",
           "package": "dimensional-tf",
@@ -6489,6 +7096,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(/~) /~",
           "normalized": "Quantity a b-\u003eUnit a b-\u003eb",
@@ -6503,6 +7111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(/~~)",
           "package": "dimensional-tf",
@@ -6512,6 +7121,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(/~~) /~~",
           "normalized": "a(Quantity b c)-\u003eUnit b c-\u003ea c",
@@ -6526,6 +7136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(^)",
           "package": "dimensional-tf",
@@ -6535,6 +7146,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(^) ^",
           "normalized": "Dimensional a b c-\u003ed-\u003eDimensional a(Pow b d)c",
@@ -6549,6 +7161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(^+)",
           "package": "dimensional-tf",
@@ -6558,6 +7171,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(^+) ^+",
           "normalized": "Dimensional a b c-\u003ed-\u003eDimensional a(Pow b d)c",
@@ -6572,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(^/)",
           "package": "dimensional-tf",
@@ -6581,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "(^/) ^/",
           "normalized": "Dimensional a b c-\u003ed-\u003eDimensional a(Root b d)c",
@@ -6595,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Dimensional",
           "package": "dimensional-tf",
@@ -6604,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "Dimensional",
           "package": "dimensional-tf",
@@ -6617,6 +7235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_0",
           "package": "dimensional-tf",
@@ -6626,6 +7245,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_0",
           "package": "dimensional-tf",
@@ -6638,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_1",
           "package": "dimensional-tf",
@@ -6647,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_1",
           "package": "dimensional-tf",
@@ -6659,6 +7281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_2",
           "package": "dimensional-tf",
@@ -6668,6 +7291,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_2",
           "package": "dimensional-tf",
@@ -6680,6 +7304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_3",
           "package": "dimensional-tf",
@@ -6689,6 +7314,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_3",
           "package": "dimensional-tf",
@@ -6701,6 +7327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_4",
           "package": "dimensional-tf",
@@ -6710,6 +7337,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_4",
           "package": "dimensional-tf",
@@ -6722,6 +7350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_5",
           "package": "dimensional-tf",
@@ -6731,6 +7360,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_5",
           "package": "dimensional-tf",
@@ -6743,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_6",
           "package": "dimensional-tf",
@@ -6752,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_6",
           "package": "dimensional-tf",
@@ -6764,6 +7396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_7",
           "package": "dimensional-tf",
@@ -6773,6 +7406,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_7",
           "package": "dimensional-tf",
@@ -6785,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_8",
           "package": "dimensional-tf",
@@ -6794,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_8",
           "package": "dimensional-tf",
@@ -6806,6 +7442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_9",
           "package": "dimensional-tf",
@@ -6815,6 +7452,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "_9",
           "package": "dimensional-tf",
@@ -6827,6 +7465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "abs",
           "package": "dimensional-tf",
@@ -6836,6 +7475,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "abs",
           "normalized": "Quantity a b-\u003eQuantity a b",
@@ -6850,6 +7490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "acos",
           "package": "dimensional-tf",
@@ -6859,6 +7500,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "acos",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -6873,6 +7515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "acosh",
           "package": "dimensional-tf",
@@ -6882,6 +7525,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "acosh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -6896,6 +7540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "asin",
           "package": "dimensional-tf",
@@ -6905,6 +7550,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "asin",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -6919,6 +7565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "asinh",
           "package": "dimensional-tf",
@@ -6928,6 +7575,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "asinh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -6942,6 +7590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "atan",
           "package": "dimensional-tf",
@@ -6951,6 +7600,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "atan",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -6965,6 +7615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "atan2",
           "package": "dimensional-tf",
@@ -6974,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "atan2",
           "normalized": "Quantity a b-\u003eQuantity a b-\u003eDimensionless b",
@@ -6988,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "atanh",
           "package": "dimensional-tf",
@@ -6997,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "atanh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7011,6 +7665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "cbrt",
           "package": "dimensional-tf",
@@ -7020,6 +7675,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "cbrt",
           "normalized": "Dimensional a b c-\u003eDimensional a(Root b Pos)c",
@@ -7034,6 +7690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "cos",
           "package": "dimensional-tf",
@@ -7043,6 +7700,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "cos",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7057,6 +7715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "cosh",
           "package": "dimensional-tf",
@@ -7066,6 +7725,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "cosh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7080,6 +7740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "dimUnit",
           "package": "dimensional-tf",
@@ -7089,6 +7750,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "dimUnit",
           "normalized": "String-\u003ea-\u003eMaybe String",
@@ -7104,6 +7766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "dimensionlessLength",
           "package": "dimensional-tf",
@@ -7113,6 +7776,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "dimensionlessLength",
           "normalized": "[Dimensional a b c]-\u003eDimensionless c",
@@ -7128,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "exp",
           "package": "dimensional-tf",
@@ -7137,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "exp",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7151,6 +7817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "log",
           "package": "dimensional-tf",
@@ -7160,6 +7827,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "log",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7174,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "negate",
           "package": "dimensional-tf",
@@ -7183,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "negate",
           "normalized": "Quantity a b-\u003eQuantity a b",
@@ -7197,6 +7867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "nroot",
           "package": "dimensional-tf",
@@ -7206,6 +7877,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "nroot",
           "normalized": "a-\u003eDimensional b c d-\u003eDimensional b(Root c a)d",
@@ -7220,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "one",
           "package": "dimensional-tf",
@@ -7229,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "one",
           "package": "dimensional-tf",
@@ -7241,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "pi",
           "package": "dimensional-tf",
@@ -7250,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "pi",
           "package": "dimensional-tf",
@@ -7262,6 +7938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "prefix",
           "package": "dimensional-tf",
@@ -7271,6 +7948,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "prefix",
           "normalized": "a-\u003eUnit b a-\u003eUnit b a",
@@ -7285,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "sin",
           "package": "dimensional-tf",
@@ -7294,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "sin",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7308,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "sinh",
           "package": "dimensional-tf",
@@ -7317,6 +7998,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "sinh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7331,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "sqrt",
           "package": "dimensional-tf",
@@ -7340,6 +8023,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "sqrt",
           "normalized": "Dimensional a b c-\u003eDimensional a(Root b Pos)c",
@@ -7354,6 +8038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "sum",
           "package": "dimensional-tf",
@@ -7363,6 +8048,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "sum",
           "normalized": "[Quantity a b]-\u003eQuantity a b",
@@ -7377,6 +8063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "tan",
           "package": "dimensional-tf",
@@ -7386,6 +8073,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "tan",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7400,6 +8088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "tanh",
           "package": "dimensional-tf",
@@ -7409,6 +8098,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "tanh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7423,6 +8113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:42 UTC 2014",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "tau",
           "package": "dimensional-tf",
@@ -7432,6 +8123,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional TF",
+          "indexed": "2014-03-11T17:55:42",
           "module": "Numeric.Units.Dimensional.TF",
           "name": "tau",
           "package": "dimensional-tf",

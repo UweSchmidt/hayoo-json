@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hakyll-agda"
+        "phrase": "hakyll-agda",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:07 UTC 2014",
           "module": "Hakyll.Web.Agda",
           "name": "Agda",
           "package": "hakyll-agda",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Agda",
+          "indexed": "2014-03-11T18:27:07",
           "module": "Hakyll.Web.Agda",
           "name": "Agda",
           "package": "hakyll-agda",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:07 UTC 2014",
           "module": "Hakyll.Web.Agda",
           "name": "markdownAgda",
           "package": "hakyll-agda",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Agda",
+          "indexed": "2014-03-11T18:27:07",
           "module": "Hakyll.Web.Agda",
           "name": "markdownAgda",
           "normalized": "CommandLineOptions-\u003eString-\u003eFilePath-\u003eIO String",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:07 UTC 2014",
           "module": "Hakyll.Web.Agda",
           "name": "pandocAgdaCompiler",
           "package": "hakyll-agda",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Agda",
+          "indexed": "2014-03-11T18:27:07",
           "module": "Hakyll.Web.Agda",
           "name": "pandocAgdaCompiler",
           "package": "hakyll-agda",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:07 UTC 2014",
           "module": "Hakyll.Web.Agda",
           "name": "pandocAgdaCompilerWith",
           "package": "hakyll-agda",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Agda",
+          "indexed": "2014-03-11T18:27:07",
           "module": "Hakyll.Web.Agda",
           "name": "pandocAgdaCompilerWith",
           "normalized": "ReaderOptions-\u003eWriterOptions-\u003eCommandLineOptions-\u003eCompiler(Item String)",

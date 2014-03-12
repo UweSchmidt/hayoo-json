@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hothasktags"
+        "phrase": "hothasktags",
+        "type": "phrase"
       },
       "type": "context"
     }

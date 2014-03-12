@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fdo-notify"
+        "phrase": "fdo-notify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for issuing notifications using FreeDesktop.org Desktop\n Notifications protocol. This protocol is used to communicate with services\n such as Ubuntu's NotifyOSD.\n\u003c/p\u003e\u003cp\u003eThis library does not yet support receiving events relating to notifications,\n or images in notifications: if you need that functionality please contact the maintainer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Notify",
           "package": "fdo-notify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "library for issuing notifications using FreeDesktop.org Desktop Notifications protocol This protocol is used to communicate with services such as Ubuntu NotifyOSD This library does not yet support receiving events relating to notifications or images in notifications if you need that functionality please contact the maintainer",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Notify",
           "package": "fdo-notify",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Action",
           "package": "fdo-notify",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Action",
           "package": "fdo-notify",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage bodies may contain simple markup.\n NotifyOSD doesn't support any markup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Body",
           "package": "fdo-notify",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Message bodies may contain simple markup NotifyOSD doesn support any markup",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Body",
           "package": "fdo-notify",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Capability",
           "package": "fdo-notify",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Capability",
           "package": "fdo-notify",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategorisation of (some) notifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Category",
           "package": "fdo-notify",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Categorisation of some notifications",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Category",
           "package": "fdo-notify",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eClient\u003c/a\u003e\u003c/code\u003es are opaque handles to an open connection and other internal\n state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Client",
           "package": "fdo-notify",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Client are opaque handles to an open connection and other internal state",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Client",
           "package": "fdo-notify",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarious hints about how the notification should be displayed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Hint",
           "package": "fdo-notify",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Various hints about how the notification should be displayed",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Hint",
           "package": "fdo-notify",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImages are not yet supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Image",
           "package": "fdo-notify",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Images are not yet supported",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Image",
           "package": "fdo-notify",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContents of a notification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Note",
           "package": "fdo-notify",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Contents of notification",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Note",
           "package": "fdo-notify",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle on a displayed notification\n The notification may not have reached the screen yet, and may already have\n been closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Notification",
           "package": "fdo-notify",
@@ -230,6 +249,7 @@
         "index": {
           "description": "handle on displayed notification The notification may not have reached the screen yet and may already have been closed",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Notification",
           "package": "fdo-notify",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of time to display notifications. NotifyOSD seems to ignore these.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Timeout",
           "package": "fdo-notify",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Length of time to display notifications NotifyOSD seems to ignore these",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Timeout",
           "package": "fdo-notify",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "URL",
           "package": "fdo-notify",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "URL",
           "package": "fdo-notify",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUrgency of the notification. Notifications may be prioritised by urgency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "UrgencyLevel",
           "package": "fdo-notify",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Urgency of the notification Notifications may be prioritised by urgency",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "UrgencyLevel",
           "package": "fdo-notify",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Action",
           "package": "fdo-notify",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Action",
           "package": "fdo-notify",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "ActionsCap",
           "package": "fdo-notify",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "ActionsCap",
           "package": "fdo-notify",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "BodyCap",
           "package": "fdo-notify",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "BodyCap",
           "package": "fdo-notify",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "BodyHyperlinksCap",
           "package": "fdo-notify",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "BodyHyperlinksCap",
           "package": "fdo-notify",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "BodyImagesCap",
           "package": "fdo-notify",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "BodyImagesCap",
           "package": "fdo-notify",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "BodyMarkupCap",
           "package": "fdo-notify",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "BodyMarkupCap",
           "package": "fdo-notify",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Bold",
           "package": "fdo-notify",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Bold",
           "package": "fdo-notify",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Category",
           "package": "fdo-notify",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Category",
           "package": "fdo-notify",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Concat",
           "package": "fdo-notify",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Concat",
           "package": "fdo-notify",
@@ -509,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCritical notifications require user attention\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Critical",
           "package": "fdo-notify",
@@ -519,6 +564,7 @@
         "index": {
           "description": "Critical notifications require user attention",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Critical",
           "package": "fdo-notify",
@@ -533,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet the notification service decide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Dependent",
           "package": "fdo-notify",
@@ -543,6 +590,7 @@
         "index": {
           "description": "Let the notification service decide",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Dependent",
           "package": "fdo-notify",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Device",
           "package": "fdo-notify",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Device",
           "package": "fdo-notify",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "DeviceAdded",
           "package": "fdo-notify",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "DeviceAdded",
           "package": "fdo-notify",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "DeviceError",
           "package": "fdo-notify",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "DeviceError",
           "package": "fdo-notify",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "DeviceRemoved",
           "package": "fdo-notify",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "DeviceRemoved",
           "package": "fdo-notify",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Email",
           "package": "fdo-notify",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Email",
           "package": "fdo-notify",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "EmailArrived",
           "package": "fdo-notify",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "EmailArrived",
           "package": "fdo-notify",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "EmailBounced",
           "package": "fdo-notify",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "EmailBounced",
           "package": "fdo-notify",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Hyperlink",
           "package": "fdo-notify",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Hyperlink",
           "package": "fdo-notify",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "IconMultiCap",
           "package": "fdo-notify",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "IconMultiCap",
           "package": "fdo-notify",
@@ -754,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "IconStaticCap",
           "package": "fdo-notify",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "IconStaticCap",
           "package": "fdo-notify",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Im",
           "package": "fdo-notify",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Im",
           "package": "fdo-notify",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "ImError",
           "package": "fdo-notify",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "ImError",
           "package": "fdo-notify",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "ImReceived",
           "package": "fdo-notify",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "ImReceived",
           "package": "fdo-notify",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "ImageData",
           "package": "fdo-notify",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "ImageData",
           "package": "fdo-notify",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Img",
           "package": "fdo-notify",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Img",
           "package": "fdo-notify",
@@ -886,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Italic",
           "package": "fdo-notify",
@@ -895,6 +974,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Italic",
           "package": "fdo-notify",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Low",
           "package": "fdo-notify",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Low",
           "package": "fdo-notify",
@@ -931,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow notification for a fixed duration\n (must be positive)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Milliseconds",
           "package": "fdo-notify",
@@ -941,6 +1024,7 @@
         "index": {
           "description": "Show notification for fixed duration must be positive",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Milliseconds",
           "package": "fdo-notify",
@@ -954,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Network",
           "package": "fdo-notify",
@@ -963,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Network",
           "package": "fdo-notify",
@@ -976,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "NetworkConnected",
           "package": "fdo-notify",
@@ -985,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "NetworkConnected",
           "package": "fdo-notify",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "NetworkDisconnected",
           "package": "fdo-notify",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "NetworkDisconnected",
           "package": "fdo-notify",
@@ -1020,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "NetworkError",
           "package": "fdo-notify",
@@ -1029,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "NetworkError",
           "package": "fdo-notify",
@@ -1043,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait to be dismissed by user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Never",
           "package": "fdo-notify",
@@ -1053,6 +1146,7 @@
         "index": {
           "description": "Wait to be dismissed by user",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Never",
           "package": "fdo-notify",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Normal",
           "package": "fdo-notify",
@@ -1075,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Normal",
           "package": "fdo-notify",
@@ -1088,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Note",
           "package": "fdo-notify",
@@ -1097,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Note",
           "package": "fdo-notify",
@@ -1110,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Presence",
           "package": "fdo-notify",
@@ -1119,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Presence",
           "package": "fdo-notify",
@@ -1132,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "PresenceOffline",
           "package": "fdo-notify",
@@ -1141,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "PresenceOffline",
           "package": "fdo-notify",
@@ -1154,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "PresenceOnline",
           "package": "fdo-notify",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "PresenceOnline",
           "package": "fdo-notify",
@@ -1176,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "SoundCap",
           "package": "fdo-notify",
@@ -1185,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "SoundCap",
           "package": "fdo-notify",
@@ -1198,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "SoundFile",
           "package": "fdo-notify",
@@ -1207,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "SoundFile",
           "package": "fdo-notify",
@@ -1220,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "SuppressSound",
           "package": "fdo-notify",
@@ -1229,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "SuppressSound",
           "package": "fdo-notify",
@@ -1242,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Text",
           "package": "fdo-notify",
@@ -1251,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Text",
           "package": "fdo-notify",
@@ -1264,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Transfer",
           "package": "fdo-notify",
@@ -1273,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Transfer",
           "package": "fdo-notify",
@@ -1286,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "TransferComplete",
           "package": "fdo-notify",
@@ -1295,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "TransferComplete",
           "package": "fdo-notify",
@@ -1308,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "TransferError",
           "package": "fdo-notify",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "TransferError",
           "package": "fdo-notify",
@@ -1330,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Underline",
           "package": "fdo-notify",
@@ -1339,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Underline",
           "package": "fdo-notify",
@@ -1352,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "UnknownCap",
           "package": "fdo-notify",
@@ -1361,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "UnknownCap",
           "package": "fdo-notify",
@@ -1374,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Urgency",
           "package": "fdo-notify",
@@ -1383,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Urgency",
           "package": "fdo-notify",
@@ -1396,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "X",
           "package": "fdo-notify",
@@ -1405,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "X",
           "package": "fdo-notify",
@@ -1417,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "Y",
           "package": "fdo-notify",
@@ -1426,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "Y",
           "package": "fdo-notify",
@@ -1438,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "actionName",
           "package": "fdo-notify",
@@ -1447,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "actionName",
           "package": "fdo-notify",
@@ -1460,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "actions",
           "package": "fdo-notify",
@@ -1469,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "actions",
           "normalized": "[(Action,String)]",
@@ -1483,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "appImage",
           "package": "fdo-notify",
@@ -1492,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "appImage",
           "package": "fdo-notify",
@@ -1505,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "appName",
           "package": "fdo-notify",
@@ -1514,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "appName",
           "package": "fdo-notify",
@@ -1528,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eNote\u003c/a\u003e\u003c/code\u003e with default values.\n All fields are blank except for \u003ccode\u003e\u003ca\u003eexpiry\u003c/a\u003e\u003c/code\u003e, which is \u003ccode\u003e\u003ca\u003eDependent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "blankNote",
           "package": "fdo-notify",
@@ -1538,6 +1675,7 @@
         "index": {
           "description": "Note with default values All fields are blank except for expiry which is Dependent",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "blankNote",
           "package": "fdo-notify",
@@ -1551,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "body",
           "package": "fdo-notify",
@@ -1560,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "body",
           "package": "fdo-notify",
@@ -1572,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "expiry",
           "package": "fdo-notify",
@@ -1581,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "expiry",
           "package": "fdo-notify",
@@ -1594,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the server's capabilities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "getCapabilities",
           "package": "fdo-notify",
@@ -1604,6 +1747,7 @@
         "index": {
           "description": "Determine the server capabilities",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "getCapabilities",
           "normalized": "Client-\u003eIO[Capability]",
@@ -1619,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "hints",
           "package": "fdo-notify",
@@ -1628,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "hints",
           "normalized": "[Hint]",
@@ -1643,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eClient\u003c/a\u003e\u003c/code\u003e connected to the session bus.\n Note that this opens a socket and spawns a thread,\n so it's best to reuse a single client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "mkSessionClient",
           "package": "fdo-notify",
@@ -1653,6 +1800,7 @@
         "index": {
           "description": "Create Client connected to the session bus Note that this opens socket and spawns thread so it best to reuse single client",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "mkSessionClient",
           "package": "fdo-notify",
@@ -1667,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a notification.\n Return a handle which can be used to replace the notification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "notify",
           "package": "fdo-notify",
@@ -1677,6 +1826,7 @@
         "index": {
           "description": "Display notification Return handle which can be used to replace the notification",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "notify",
           "normalized": "Client-\u003eNote-\u003eIO Notification",
@@ -1692,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace an existing notification.\n If the notification has already been closed, a new one will be created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "replace",
           "package": "fdo-notify",
@@ -1702,6 +1853,7 @@
         "index": {
           "description": "Replace an existing notification If the notification has already been closed new one will be created",
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "replace",
           "normalized": "Client-\u003eNotification-\u003eNote-\u003eIO Notification",
@@ -1716,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:11 UTC 2014",
           "module": "DBus.Notify",
           "name": "summary",
           "package": "fdo-notify",
@@ -1725,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "DBus Notify",
+          "indexed": "2014-03-11T18:07:11",
           "module": "DBus.Notify",
           "name": "summary",
           "package": "fdo-notify",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cassy"
+        "phrase": "cassy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level functionality for working with Cassandra at the most\n basic level.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Basic",
           "package": "cassy",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Low-level functionality for working with Cassandra at the most basic level",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Basic",
           "package": "cassy",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass to enable using any string-like type for row and column keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "CKey",
           "package": "cassy",
@@ -51,6 +54,7 @@
         "index": {
           "description": "typeclass to enable using any string-like type for row and column keys",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "CKey",
           "package": "cassy",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA round-robin pool of cassandra connections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "CPool",
           "package": "cassy",
@@ -74,6 +79,7 @@
         "index": {
           "description": "round-robin pool of cassandra connections",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "CPool",
           "package": "cassy",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Cas",
           "package": "cassy",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Cas",
           "package": "cassy",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "CassandraException",
           "package": "cassy",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "CassandraException",
           "package": "cassy",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Column is either a single key-value pair or a SuperColumn with an\n arbitrary number of key-value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Column",
           "package": "cassy",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Column is either single key-value pair or SuperColumn with an arbitrary number of key-value pairs",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Column",
           "package": "cassy",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "ColumnFamily",
           "package": "cassy",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "ColumnFamily",
           "package": "cassy",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "ColumnName",
           "package": "cassy",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "ColumnName",
           "package": "cassy",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "ConsistencyLevel",
           "package": "cassy",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "ConsistencyLevel",
           "package": "cassy",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Key",
           "package": "cassy",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Key",
           "package": "cassy",
@@ -236,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes the Key vs. Token options in the thrift API.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInclusiveRange\u003c/a\u003e\u003c/code\u003e ranges are just plain intuitive range queries.\n \u003ccode\u003e\u003ca\u003eWrapAround\u003c/a\u003e\u003c/code\u003e ranges are also inclusive, but they wrap around the ring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "KeyRangeType",
           "package": "cassy",
@@ -245,6 +266,7 @@
         "index": {
           "description": "Encodes the Key vs Token options in the thrift API InclusiveRange ranges are just plain intuitive range queries WrapAround ranges are also inclusive but they wrap around the ring",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "KeyRangeType",
           "package": "cassy",
@@ -259,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e range selector to use with \u003ccode\u003egetMulti\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "KeySelector",
           "package": "cassy",
@@ -268,6 +291,7 @@
         "index": {
           "description": "Key range selector to use with getMulti",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "KeySelector",
           "package": "cassy",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "KeySpace",
           "package": "cassy",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "KeySpace",
           "package": "cassy",
@@ -303,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll Cassy operations are designed to run inside \u003ccode\u003e\u003ca\u003eMonadCassandra\u003c/a\u003e\u003c/code\u003e\n context.\n\u003c/p\u003e\u003cp\u003eWe provide a default concrete \u003ccode\u003e\u003ca\u003eCas\u003c/a\u003e\u003c/code\u003e datatype, but you can simply\n make your own application monads an instance of \u003ccode\u003e\u003ca\u003eMonadCassandra\u003c/a\u003e\u003c/code\u003e\n for conveniently using all operations of this package.\n\u003c/p\u003e\u003cp\u003ePlease keep in mind that all Cassandra operations may raise\n \u003ccode\u003e\u003ca\u003eCassandraException\u003c/a\u003e\u003c/code\u003es at any point in time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "MonadCassandra",
           "package": "cassy",
@@ -312,6 +339,7 @@
         "index": {
           "description": "All Cassy operations are designed to run inside MonadCassandra context We provide default concrete Cas datatype but you can simply make your own application monads an instance of MonadCassandra for conveniently using all operations of this package Please keep in mind that all Cassandra operations may raise CassandraException at any point in time",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "MonadCassandra",
           "package": "cassy",
@@ -326,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrder in a range query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Order",
           "package": "cassy",
@@ -335,6 +364,7 @@
         "index": {
           "description": "Order in range query",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Order",
           "package": "cassy",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA full row is simply a sequence of columns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Row",
           "package": "cassy",
@@ -358,6 +389,7 @@
         "index": {
           "description": "full row is simply sequence of columns",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Row",
           "package": "cassy",
@@ -372,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA column selector/filter statement for queries.\n\u003c/p\u003e\u003cp\u003eRemember that SuperColumns are always fully deserialized, so we don't offer\n a way to filter columns within a \u003ccode\u003e\u003ca\u003eSuperColumn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eColumn names and ranges are specified by any type that can be\n packed into a Cassandra column using the \u003ccode\u003e\u003ca\u003eCasType\u003c/a\u003e\u003c/code\u003e typeclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Selector",
           "package": "cassy",
@@ -381,6 +414,7 @@
         "index": {
           "description": "column selector filter statement for queries Remember that SuperColumns are always fully deserialized so we don offer way to filter columns within SuperColumn Column names and ranges are specified by any type that can be packed into Cassandra column using the CasType typeclass",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Selector",
           "package": "cassy",
@@ -395,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (ServerName, Port) tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Server",
           "package": "cassy",
@@ -404,6 +439,7 @@
         "index": {
           "description": "ServerName Port tuple",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Server",
           "package": "cassy",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "Value",
           "package": "cassy",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "Value",
           "package": "cassy",
@@ -1365,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an entire row, specific columns or a specific sub-set of columns\n within a SuperColumn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "delete",
           "package": "cassy",
@@ -1374,6 +1413,7 @@
         "index": {
           "description": "Delete an entire row specific columns or specific sub-set of columns within SuperColumn",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "delete",
           "normalized": "ColumnFamily-\u003eKey-\u003eSelector-\u003eConsistencyLevel-\u003ea()",
@@ -1388,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "fromColKey",
           "package": "cassy",
@@ -1397,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "fromColKey",
           "normalized": "ByteString-\u003eEither String a",
@@ -1440,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arbitrary get operation - slice with \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "get",
           "package": "cassy",
@@ -1449,6 +1492,7 @@
         "index": {
           "description": "An arbitrary get operation slice with Selector",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "get",
           "normalized": "ColumnFamily-\u003eByteString-\u003eSelector-\u003eConsistencyLevel-\u003ea[Column]",
@@ -1463,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "getCassandraPool",
           "package": "cassy",
@@ -1472,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "getCassandraPool",
           "package": "cassy",
@@ -1486,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a single key-column value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "getCol",
           "package": "cassy",
@@ -1495,6 +1542,7 @@
         "index": {
           "description": "Get single key-column value",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "getCol",
           "normalized": "ColumnFamily-\u003eByteString-\u003ea-\u003eConsistencyLevel-\u003eb(Maybe Column)",
@@ -1511,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo multiple \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003es in one DB hit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "getMulti",
           "package": "cassy",
@@ -1520,6 +1569,7 @@
         "index": {
           "description": "Do multiple get in one DB hit",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "getMulti",
           "normalized": "ColumnFamily-\u003eKeySelector-\u003eSelector-\u003eConsistencyLevel-\u003ea(Map ByteString Row)",
@@ -1561,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an entire row into the db.\n\u003c/p\u003e\u003cp\u003eThis will do as many round-trips as necessary to insert the full\n row. Please keep in mind that each column and each column of each\n super-column is sent to the server one by one.\n\u003c/p\u003e\u003cpre\u003e insert \"testCF\" \"row1\" ONE [packCol (\"column key\", \"some column content\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "insert",
           "package": "cassy",
@@ -1570,6 +1621,7 @@
         "index": {
           "description": "Insert an entire row into the db This will do as many round-trips as necessary to insert the full row Please keep in mind that each column and each column of each super-column is sent to the server one by one insert testCF row1 ONE packCol column key some column content",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "insert",
           "normalized": "ColumnFamily-\u003eByteString-\u003eConsistencyLevel-\u003e[Column]-\u003ea()",
@@ -1637,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack key-value pair into \u003ccode\u003e\u003ca\u003eColumn\u003c/a\u003e\u003c/code\u003e form ready to be written to Cassandra\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "packCol",
           "package": "cassy",
@@ -1647,6 +1700,7 @@
         "index": {
           "description": "Pack key-value pair into Column form ready to be written to Cassandra",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "packCol",
           "normalized": "(a,ByteString)-\u003eColumn",
@@ -1663,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a column key into binary, ready for submission to Cassandra\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "packKey",
           "package": "cassy",
@@ -1673,6 +1728,7 @@
         "index": {
           "description": "Pack column key into binary ready for submission to Cassandra",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "packKey",
           "normalized": "a-\u003eByteString",
@@ -1883,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake exceptions implicit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "throwing",
           "package": "cassy",
@@ -1893,6 +1950,7 @@
         "index": {
           "description": "Make exceptions implicit",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "throwing",
           "normalized": "IO(Either CassandraException a)-\u003eIO a",
@@ -1907,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "toColKey",
           "package": "cassy",
@@ -1916,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "toColKey",
           "normalized": "a-\u003eByteString",
@@ -1959,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a Cassandra \u003ccode\u003e\u003ca\u003eColumn\u003c/a\u003e\u003c/code\u003e into a more convenient (k,v) form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "unpackCol",
           "package": "cassy",
@@ -1969,6 +2030,7 @@
         "index": {
           "description": "Unpack Cassandra Column into more convenient form",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "unpackCol",
           "normalized": "Column-\u003e(a,Value)",
@@ -1985,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap exceptions of the underlying thrift library into the\n exception types defined here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Basic",
           "name": "wrapException",
           "package": "cassy",
@@ -1995,6 +2058,7 @@
         "index": {
           "description": "Wrap exceptions of the underlying thrift library into the exception types defined here",
           "hierarchy": "Database Cassandra Basic",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Basic",
           "name": "wrapException",
           "normalized": "IO a-\u003eIO a",
@@ -2011,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module has been deprecated and will be removed in version 0.7.\n Every bit of functionality here is also available in the\n Database.Cassandra.Marshall module, which is what you should use instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "JSON",
           "package": "cassy",
@@ -2020,6 +2085,7 @@
         "index": {
           "description": "This module has been deprecated and will be removed in version Every bit of functionality here is also available in the Database.Cassandra.Marshall module which is what you should use instead",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "JSON",
           "package": "cassy",
@@ -2034,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass to enable using any string-like type for row and column keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "CKey",
           "package": "cassy",
@@ -2043,6 +2110,7 @@
         "index": {
           "description": "typeclass to enable using any string-like type for row and column keys",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "CKey",
           "package": "cassy",
@@ -2057,6 +2125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA round-robin pool of cassandra connections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "CPool",
           "package": "cassy",
@@ -2066,6 +2135,7 @@
         "index": {
           "description": "round-robin pool of cassandra connections",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "CPool",
           "package": "cassy",
@@ -2079,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "Cas",
           "package": "cassy",
@@ -2087,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "Cas",
           "package": "cassy",
@@ -2100,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "CassandraException",
           "package": "cassy",
@@ -2108,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "CassandraException",
           "package": "cassy",
@@ -2121,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "ColumnFamily",
           "package": "cassy",
@@ -2129,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "ColumnFamily",
           "package": "cassy",
@@ -2142,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "ColumnName",
           "package": "cassy",
@@ -2150,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "ColumnName",
           "package": "cassy",
@@ -2163,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "ConsistencyLevel",
           "package": "cassy",
@@ -2170,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "ConsistencyLevel",
           "package": "cassy",
@@ -2184,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes the Key vs. Token options in the thrift API.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInclusiveRange\u003c/a\u003e\u003c/code\u003e ranges are just plain intuitive range queries.\n \u003ccode\u003e\u003ca\u003eWrapAround\u003c/a\u003e\u003c/code\u003e ranges are also inclusive, but they wrap around the ring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "KeyRangeType",
           "package": "cassy",
@@ -2193,6 +2274,7 @@
         "index": {
           "description": "Encodes the Key vs Token options in the thrift API InclusiveRange ranges are just plain intuitive range queries WrapAround ranges are also inclusive but they wrap around the ring",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "KeyRangeType",
           "package": "cassy",
@@ -2206,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "KeySelector",
           "package": "cassy",
@@ -2214,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "KeySelector",
           "package": "cassy",
@@ -2227,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "KeySpace",
           "package": "cassy",
@@ -2235,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "KeySpace",
           "package": "cassy",
@@ -2249,6 +2335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible outcomes of a modify operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "ModifyOperation",
           "package": "cassy",
@@ -2258,6 +2345,7 @@
         "index": {
           "description": "Possible outcomes of modify operation",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "ModifyOperation",
           "package": "cassy",
@@ -2272,6 +2360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll Cassy operations are designed to run inside \u003ccode\u003e\u003ca\u003eMonadCassandra\u003c/a\u003e\u003c/code\u003e\n context.\n\u003c/p\u003e\u003cp\u003eWe provide a default concrete \u003ccode\u003e\u003ca\u003eCas\u003c/a\u003e\u003c/code\u003e datatype, but you can simply\n make your own application monads an instance of \u003ccode\u003e\u003ca\u003eMonadCassandra\u003c/a\u003e\u003c/code\u003e\n for conveniently using all operations of this package.\n\u003c/p\u003e\u003cp\u003ePlease keep in mind that all Cassandra operations may raise\n \u003ccode\u003e\u003ca\u003eCassandraException\u003c/a\u003e\u003c/code\u003es at any point in time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "MonadCassandra",
           "package": "cassy",
@@ -2281,6 +2370,7 @@
         "index": {
           "description": "All Cassy operations are designed to run inside MonadCassandra context We provide default concrete Cas datatype but you can simply make your own application monads an instance of MonadCassandra for conveniently using all operations of this package Please keep in mind that all Cassandra operations may raise CassandraException at any point in time",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "MonadCassandra",
           "package": "cassy",
@@ -2295,6 +2385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrder in a range query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "Order",
           "package": "cassy",
@@ -2304,6 +2395,7 @@
         "index": {
           "description": "Order in range query",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "Order",
           "package": "cassy",
@@ -2317,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "RowKey",
           "package": "cassy",
@@ -2325,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "RowKey",
           "package": "cassy",
@@ -2339,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA column selector/filter statement for queries.\n\u003c/p\u003e\u003cp\u003eRemember that SuperColumns are always fully deserialized, so we don't offer\n a way to filter columns within a \u003ccode\u003e\u003ca\u003eSuperColumn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eColumn names and ranges are specified by any type that can be\n packed into a Cassandra column using the \u003ccode\u003e\u003ca\u003eCasType\u003c/a\u003e\u003c/code\u003e typeclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "Selector",
           "package": "cassy",
@@ -2348,6 +2443,7 @@
         "index": {
           "description": "column selector filter statement for queries Remember that SuperColumns are always fully deserialized so we don offer way to filter columns within SuperColumn Column names and ranges are specified by any type that can be packed into Cassandra column using the CasType typeclass",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "Selector",
           "package": "cassy",
@@ -2362,6 +2458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (ServerName, Port) tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "Server",
           "package": "cassy",
@@ -2371,6 +2468,7 @@
         "index": {
           "description": "ServerName Port tuple",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "Server",
           "package": "cassy",
@@ -2384,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "Delete",
           "package": "cassy",
@@ -2393,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "Delete",
           "package": "cassy",
@@ -2406,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "DoNothing",
           "package": "cassy",
@@ -2415,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "DoNothing",
           "package": "cassy",
@@ -2428,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "KeyRange",
           "package": "cassy",
@@ -2437,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "KeyRange",
           "package": "cassy",
@@ -2450,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "Keys",
           "package": "cassy",
@@ -2459,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "Keys",
           "normalized": "Keys[RowKey]",
@@ -2474,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "Update",
           "package": "cassy",
@@ -2483,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "Update",
           "package": "cassy",
@@ -2521,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "fromColKey",
           "package": "cassy",
@@ -2530,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "fromColKey",
           "normalized": "ByteString-\u003eEither String a",
@@ -2546,6 +2656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arbitrary get operation - slice with \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInternally based on Basic.get. Table is assumed to be a regular\n ColumnFamily and contents of returned columns are cast into the\n target type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "get",
           "package": "cassy",
@@ -2555,6 +2666,7 @@
         "index": {
           "description": "An arbitrary get operation slice with Selector Internally based on Basic.get Table is assumed to be regular ColumnFamily and contents of returned columns are cast into the target type",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "get",
           "normalized": "ColumnFamily-\u003eRowKey-\u003eSelector-\u003eConsistencyLevel-\u003ea[(b,c)]",
@@ -2569,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "getCassandraPool",
           "package": "cassy",
@@ -2578,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "getCassandraPool",
           "package": "cassy",
@@ -2592,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a single column from a single row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "getCol",
           "package": "cassy",
@@ -2601,6 +2716,7 @@
         "index": {
           "description": "Get single column from single row",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "getCol",
           "normalized": "ColumnFamily-\u003eRowKey-\u003ea-\u003eConsistencyLevel-\u003eb(Maybe c)",
@@ -2617,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a slice of columns from multiple rows at once. Note that\n since we are auto-serializing from JSON, all the columns must be of\n the same data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "getMulti",
           "package": "cassy",
@@ -2627,6 +2744,7 @@
         "index": {
           "description": "Get slice of columns from multiple rows at once Note that since we are auto-serializing from JSON all the columns must be of the same data type",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "getMulti",
           "normalized": "ColumnFamily-\u003eKeySelector-\u003eSelector-\u003eConsistencyLevel-\u003ea(Map RowKey[(ColumnName,b)])",
@@ -2643,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e that discards the column names for the common\n scenario. Useful because you would otherwise be forced to manually\n supply type signatures to get rid of the \u003ccode\u003e\u003ca\u003eCasType\u003c/a\u003e\u003c/code\u003e ambiguity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "get_",
           "package": "cassy",
@@ -2652,6 +2771,7 @@
         "index": {
           "description": "version of get that discards the column names for the common scenario Useful because you would otherwise be forced to manually supply type signatures to get rid of the CasType ambiguity",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "get_",
           "normalized": "ColumnFamily-\u003eRowKey-\u003eSelector-\u003eConsistencyLevel-\u003ea[b]",
@@ -2666,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "insertCol",
           "package": "cassy",
@@ -2674,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "insertCol",
           "normalized": "ColumnFamily-\u003eRowKey-\u003ea-\u003eConsistencyLevel-\u003eb-\u003ec()",
@@ -2689,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "insertColTTL",
           "package": "cassy",
@@ -2697,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "insertColTTL",
           "normalized": "ColumnFamily-\u003eRowKey-\u003ea-\u003eConsistencyLevel-\u003eb-\u003eInt-\u003ec()",
@@ -2713,6 +2837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA modify function that will fetch a specific column, apply modification\n function on it and save results back to Cassandra.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003eb\u003c/code\u003e side value is returned for computational convenience.\n\u003c/p\u003e\u003cp\u003eThis is intended to be a workhorse function, in that you should be\n able to do all kinds of relatively straightforward operations just\n using this function.\n\u003c/p\u003e\u003cp\u003eThis method may throw a \u003ccode\u003e\u003ca\u003eCassandraException\u003c/a\u003e\u003c/code\u003e for all exceptions other than\n \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "modify",
           "package": "cassy",
@@ -2722,6 +2847,7 @@
         "index": {
           "description": "modify function that will fetch specific column apply modification function on it and save results back to Cassandra side value is returned for computational convenience This is intended to be workhorse function in that you should be able to do all kinds of relatively straightforward operations just using this function This method may throw CassandraException for all exceptions other than NotFoundException",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "modify",
           "normalized": "ColumnFamily-\u003eRowKey-\u003ea-\u003eConsistencyLevel-\u003eConsistencyLevel-\u003e(Maybe b-\u003ec(ModifyOperation b,d))-\u003ec d",
@@ -2737,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e but does not offer a side value.\n\u003c/p\u003e\u003cp\u003eThis method may throw a \u003ccode\u003e\u003ca\u003eCassandraException\u003c/a\u003e\u003c/code\u003e for all exceptions other than\n \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "modify_",
           "package": "cassy",
@@ -2746,6 +2873,7 @@
         "index": {
           "description": "Same as modify but does not offer side value This method may throw CassandraException for all exceptions other than NotFoundException",
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "modify_",
           "normalized": "ColumnFamily-\u003eRowKey-\u003ea-\u003eConsistencyLevel-\u003eConsistencyLevel-\u003e(Maybe b-\u003ec(ModifyOperation b))-\u003ec()",
@@ -2760,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.JSON",
           "name": "toColKey",
           "package": "cassy",
@@ -2769,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra JSON",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.JSON",
           "name": "toColKey",
           "normalized": "a-\u003eByteString",
@@ -2785,6 +2915,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines Cassandra operations for persistence of complex Haskell\n data objects with custom-selected but implicitly performed\n serialization.\n\u003c/p\u003e\u003cp\u003eThe main design choice is to require a dictionary dictating\n marshalling/serialization policy for every operation, rather than a\n typeclass that can be instantiated once.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "Marshall",
           "package": "cassy",
@@ -2794,6 +2925,7 @@
         "index": {
           "description": "Defines Cassandra operations for persistence of complex Haskell data objects with custom-selected but implicitly performed serialization The main design choice is to require dictionary dictating marshalling serialization policy for every operation rather than typeclass that can be instantiated once",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "Marshall",
           "package": "cassy",
@@ -2808,6 +2940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass to enable using any string-like type for row and column keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "CKey",
           "package": "cassy",
@@ -2817,6 +2950,7 @@
         "index": {
           "description": "typeclass to enable using any string-like type for row and column keys",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "CKey",
           "package": "cassy",
@@ -2831,6 +2965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA round-robin pool of cassandra connections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "CPool",
           "package": "cassy",
@@ -2840,6 +2975,7 @@
         "index": {
           "description": "round-robin pool of cassandra connections",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "CPool",
           "package": "cassy",
@@ -2853,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "Cas",
           "package": "cassy",
@@ -2861,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "Cas",
           "package": "cassy",
@@ -2874,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "CassandraException",
           "package": "cassy",
@@ -2882,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "CassandraException",
           "package": "cassy",
@@ -2895,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "ColumnFamily",
           "package": "cassy",
@@ -2903,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "ColumnFamily",
           "package": "cassy",
@@ -2916,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "ColumnName",
           "package": "cassy",
@@ -2924,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "ColumnName",
           "package": "cassy",
@@ -2937,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "ConsistencyLevel",
           "package": "cassy",
@@ -2944,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "ConsistencyLevel",
           "package": "cassy",
@@ -2958,6 +3104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes the Key vs. Token options in the thrift API.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInclusiveRange\u003c/a\u003e\u003c/code\u003e ranges are just plain intuitive range queries.\n \u003ccode\u003e\u003ca\u003eWrapAround\u003c/a\u003e\u003c/code\u003e ranges are also inclusive, but they wrap around the ring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "KeyRangeType",
           "package": "cassy",
@@ -2967,6 +3114,7 @@
         "index": {
           "description": "Encodes the Key vs Token options in the thrift API InclusiveRange ranges are just plain intuitive range queries WrapAround ranges are also inclusive but they wrap around the ring",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "KeyRangeType",
           "package": "cassy",
@@ -2981,6 +3129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e range selector to use with \u003ccode\u003egetMulti\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "KeySelector",
           "package": "cassy",
@@ -2990,6 +3139,7 @@
         "index": {
           "description": "Key range selector to use with getMulti",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "KeySelector",
           "package": "cassy",
@@ -3003,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "KeySpace",
           "package": "cassy",
@@ -3011,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "KeySpace",
           "package": "cassy",
@@ -3025,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell dictionary containing a pair of encode/decode\n functions.\n\u003c/p\u003e\u003cp\u003eThis is the main design choice in this module. We require that each\n operation takes an explicit marshalling policy rather than a\n typeclass which makes it possible to do it in a single way per data\n type.\n\u003c/p\u003e\u003cp\u003eYou can create your own objects of this type with great ease. Just\n look at one of the examples here (\u003ccode\u003e\u003ca\u003ecasJSON\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecasSerialize\u003c/a\u003e\u003c/code\u003e, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "Marshall",
           "package": "cassy",
@@ -3034,6 +3187,7 @@
         "index": {
           "description": "Haskell dictionary containing pair of encode decode functions This is the main design choice in this module We require that each operation takes an explicit marshalling policy rather than typeclass which makes it possible to do it in single way per data type You can create your own objects of this type with great ease Just look at one of the examples here casJSON casSerialize etc",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "Marshall",
           "package": "cassy",
@@ -3048,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible outcomes of a modify operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "ModifyOperation",
           "package": "cassy",
@@ -3057,6 +3212,7 @@
         "index": {
           "description": "Possible outcomes of modify operation",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "ModifyOperation",
           "package": "cassy",
@@ -3071,6 +3227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll Cassy operations are designed to run inside \u003ccode\u003e\u003ca\u003eMonadCassandra\u003c/a\u003e\u003c/code\u003e\n context.\n\u003c/p\u003e\u003cp\u003eWe provide a default concrete \u003ccode\u003e\u003ca\u003eCas\u003c/a\u003e\u003c/code\u003e datatype, but you can simply\n make your own application monads an instance of \u003ccode\u003e\u003ca\u003eMonadCassandra\u003c/a\u003e\u003c/code\u003e\n for conveniently using all operations of this package.\n\u003c/p\u003e\u003cp\u003ePlease keep in mind that all Cassandra operations may raise\n \u003ccode\u003e\u003ca\u003eCassandraException\u003c/a\u003e\u003c/code\u003es at any point in time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "MonadCassandra",
           "package": "cassy",
@@ -3080,6 +3237,7 @@
         "index": {
           "description": "All Cassy operations are designed to run inside MonadCassandra context We provide default concrete Cas datatype but you can simply make your own application monads an instance of MonadCassandra for conveniently using all operations of this package Please keep in mind that all Cassandra operations may raise CassandraException at any point in time",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "MonadCassandra",
           "package": "cassy",
@@ -3094,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrder in a range query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "Order",
           "package": "cassy",
@@ -3103,6 +3262,7 @@
         "index": {
           "description": "Order in range query",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "Order",
           "package": "cassy",
@@ -3117,6 +3277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the result of a single pagination action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "PageResult",
           "package": "cassy",
@@ -3126,6 +3287,7 @@
         "index": {
           "description": "Describes the result of single pagination action",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "PageResult",
           "package": "cassy",
@@ -3139,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "RowKey",
           "package": "cassy",
@@ -3147,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "RowKey",
           "package": "cassy",
@@ -3161,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA column selector/filter statement for queries.\n\u003c/p\u003e\u003cp\u003eRemember that SuperColumns are always fully deserialized, so we don't offer\n a way to filter columns within a \u003ccode\u003e\u003ca\u003eSuperColumn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eColumn names and ranges are specified by any type that can be\n packed into a Cassandra column using the \u003ccode\u003e\u003ca\u003eCasType\u003c/a\u003e\u003c/code\u003e typeclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "Selector",
           "package": "cassy",
@@ -3170,6 +3335,7 @@
         "index": {
           "description": "column selector filter statement for queries Remember that SuperColumns are always fully deserialized so we don offer way to filter columns within SuperColumn Column names and ranges are specified by any type that can be packed into Cassandra column using the CasType typeclass",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "Selector",
           "package": "cassy",
@@ -3184,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (ServerName, Port) tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "Server",
           "package": "cassy",
@@ -3193,6 +3360,7 @@
         "index": {
           "description": "ServerName Port tuple",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "Server",
           "package": "cassy",
@@ -3252,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "Marshall",
           "package": "cassy",
@@ -3261,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "Marshall",
           "package": "cassy",
@@ -3348,6 +3518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshall data using JSON encoding. Good interoperability, but not\n very efficient for data storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "casJSON",
           "package": "cassy",
@@ -3358,6 +3529,7 @@
         "index": {
           "description": "Marshall data using JSON encoding Good interoperability but not very efficient for data storage",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "casJSON",
           "package": "cassy",
@@ -3372,6 +3544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshall data using the \u003ccode\u003eSafeCopy\u003c/code\u003e instance. This is quite well\n suited for production because it is both very efficient and\n provides a systematic way to migrate your data types over time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "casSafeCopy",
           "package": "cassy",
@@ -3382,6 +3555,7 @@
         "index": {
           "description": "Marshall data using the SafeCopy instance This is quite well suited for production because it is both very efficient and provides systematic way to migrate your data types over time",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "casSafeCopy",
           "package": "cassy",
@@ -3396,6 +3570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshall data using the \u003ccode\u003eSerialize\u003c/code\u003e instance. Like \u003ccode\u003eBinary\u003c/code\u003e,\n \u003ccode\u003eSerialize\u003c/code\u003e is very efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "casSerialize",
           "package": "cassy",
@@ -3406,6 +3581,7 @@
         "index": {
           "description": "Marshall data using the Serialize instance Like Binary Serialize is very efficient",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "casSerialize",
           "package": "cassy",
@@ -3420,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshall data using \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e. Not meant for serious production cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "casShow",
           "package": "cassy",
@@ -3430,6 +3607,7 @@
         "index": {
           "description": "Marshall data using Show and Read Not meant for serious production cases",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "casShow",
           "package": "cassy",
@@ -3443,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "fromColKey",
           "package": "cassy",
@@ -3452,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "fromColKey",
           "normalized": "ByteString-\u003eEither String a",
@@ -3468,6 +3648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arbitrary get operation - slice with \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInternally based on Basic.get. Table is assumed to be a regular\n ColumnFamily and contents of returned columns are cast into the\n target type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "get",
           "package": "cassy",
@@ -3477,6 +3658,7 @@
         "index": {
           "description": "An arbitrary get operation slice with Selector Internally based on Basic.get Table is assumed to be regular ColumnFamily and contents of returned columns are cast into the target type",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "get",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eSelector-\u003eConsistencyLevel-\u003eb[(c,a)]",
@@ -3491,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "getCassandraPool",
           "package": "cassy",
@@ -3500,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "getCassandraPool",
           "package": "cassy",
@@ -3514,6 +3698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a single column from a single row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "getCol",
           "package": "cassy",
@@ -3523,6 +3708,7 @@
         "index": {
           "description": "Get single column from single row",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "getCol",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eb-\u003eConsistencyLevel-\u003ec(Maybe a)",
@@ -3539,6 +3725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a slice of columns from multiple rows at once. Note that\n since we are auto-serializing from JSON, all the columns must be of\n the same data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "getMulti",
           "package": "cassy",
@@ -3549,6 +3736,7 @@
         "index": {
           "description": "Get slice of columns from multiple rows at once Note that since we are auto-serializing from JSON all the columns must be of the same data type",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "getMulti",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eKeySelector-\u003eSelector-\u003eConsistencyLevel-\u003eb(Map RowKey[(ColumnName,a)])",
@@ -3565,6 +3753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e that discards the column names for the common\n scenario. Useful because you would otherwise be forced to manually\n supply type signatures to get rid of the \u003ccode\u003e\u003ca\u003eCasType\u003c/a\u003e\u003c/code\u003e ambiguity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "get_",
           "package": "cassy",
@@ -3574,6 +3763,7 @@
         "index": {
           "description": "version of get that discards the column names for the common scenario Useful because you would otherwise be forced to manually supply type signatures to get rid of the CasType ambiguity",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "get_",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eSelector-\u003eConsistencyLevel-\u003eb[a]",
@@ -3588,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "insertCol",
           "package": "cassy",
@@ -3596,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "insertCol",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eb-\u003eConsistencyLevel-\u003ea-\u003ec()",
@@ -3611,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "insertColTTL",
           "package": "cassy",
@@ -3619,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "insertColTTL",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eb-\u003eConsistencyLevel-\u003ea-\u003eInt-\u003ec()",
@@ -3635,6 +3829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA decoding function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "marshallDecode",
           "package": "cassy",
@@ -3645,6 +3840,7 @@
         "index": {
           "description": "decoding function",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "marshallDecode",
           "normalized": "ByteString-\u003eEither String a",
@@ -3661,6 +3857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn encoding function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "marshallEncode",
           "package": "cassy",
@@ -3671,6 +3868,7 @@
         "index": {
           "description": "An encoding function",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "marshallEncode",
           "normalized": "a-\u003eByteString",
@@ -3687,6 +3885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA modify function that will fetch a specific column, apply modification\n function on it and save results back to Cassandra.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003eb\u003c/code\u003e side value is returned for computational convenience.\n\u003c/p\u003e\u003cp\u003eThis is intended to be a workhorse function, in that you should be\n able to do all kinds of relatively straightforward operations just\n using this function.\n\u003c/p\u003e\u003cp\u003eThis method may throw a \u003ccode\u003e\u003ca\u003eCassandraException\u003c/a\u003e\u003c/code\u003e for all exceptions other than\n \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "modify",
           "package": "cassy",
@@ -3696,6 +3895,7 @@
         "index": {
           "description": "modify function that will fetch specific column apply modification function on it and save results back to Cassandra side value is returned for computational convenience This is intended to be workhorse function in that you should be able to do all kinds of relatively straightforward operations just using this function This method may throw CassandraException for all exceptions other than NotFoundException",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "modify",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eb-\u003eConsistencyLevel-\u003eConsistencyLevel-\u003e(Maybe a-\u003ec(ModifyOperation a,d))-\u003ec d",
@@ -3711,6 +3911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e but does not offer a side value.\n\u003c/p\u003e\u003cp\u003eThis method may throw a \u003ccode\u003e\u003ca\u003eCassandraException\u003c/a\u003e\u003c/code\u003e for all exceptions other than\n \u003ccode\u003e\u003ca\u003eNotFoundException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "modify_",
           "package": "cassy",
@@ -3720,6 +3921,7 @@
         "index": {
           "description": "Same as modify but does not offer side value This method may throw CassandraException for all exceptions other than NotFoundException",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "modify_",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eb-\u003eConsistencyLevel-\u003eConsistencyLevel-\u003e(Maybe a-\u003ec(ModifyOperation a))-\u003ec()",
@@ -3858,6 +4060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience layer: Convert a pagination scheme to a conduit \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "pageToSource",
           "package": "cassy",
@@ -3868,6 +4071,7 @@
         "index": {
           "description": "Convenience layer Convert pagination scheme to conduit Source",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "pageToSource",
           "normalized": "PageResult a b-\u003eSource a b",
@@ -3884,6 +4088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaginate over columns in a given key, repeatedly applying the\n given \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e must be a \u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e selector, or\n else this funtion will raise an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "paginate",
           "package": "cassy",
@@ -3893,6 +4098,7 @@
         "index": {
           "description": "Paginate over columns in given key repeatedly applying the given Selector The Selector must be Range selector or else this funtion will raise an exception",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "paginate",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eSelector-\u003eConsistencyLevel-\u003eRetrySettings-\u003eb(PageResult b(c,a))",
@@ -3908,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like \u003ccode\u003e\u003ca\u003epaginate\u003c/a\u003e\u003c/code\u003e, but we instead return a conduit \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "paginateSource",
           "package": "cassy",
@@ -3918,6 +4125,7 @@
         "index": {
           "description": "Just like paginate but we instead return conduit Source",
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "paginateSource",
           "normalized": "Marshall a-\u003eColumnFamily-\u003eRowKey-\u003eSelector-\u003eConsistencyLevel-\u003eRetrySettings-\u003eSource b(c,a)",
@@ -3933,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Marshall",
           "name": "toColKey",
           "package": "cassy",
@@ -3942,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Marshall",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Marshall",
           "name": "toColKey",
           "normalized": "a-\u003eByteString",
@@ -3958,6 +4168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Collection of utilities for binary packing values into Bytestring |\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "Pack",
           "package": "cassy",
@@ -3967,6 +4178,7 @@
         "index": {
           "description": "Collection of utilities for binary packing values into Bytestring",
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "Pack",
           "package": "cassy",
@@ -3981,6 +4193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis typeclass defines and maps to haskell types that Cassandra\n natively knows about and uses in sorting and potentially validating\n column key values.\n\u003c/p\u003e\u003cp\u003eAll column keys are eventually sent to and received from Cassandra\n in binary form. This typeclass allows us to map some Haskell type\n definitions to their binary representation. The correct binary\n serialization is handled for you behind the scenes.\n\u003c/p\u003e\u003cp\u003eFor simplest cases, just use one of the string-like instances, e.g.\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003eText\u003c/code\u003e. Please keep in mind that these\n are just mapped to untyped BytesType.\n\u003c/p\u003e\u003cp\u003eRemember that for special column types, such as \u003ccode\u003e\u003ca\u003eTLong\u003c/a\u003e\u003c/code\u003e, to have\n any effect, your ColumnFamily must have been created with that\n comparator or validator. Otherwise you're just encoding/decoding\n integer values without any Cassandra support for sorting or\n correctness.\n\u003c/p\u003e\u003cp\u003eThe Python library pycassa has a pretty good tutorial to learn more.\n\u003c/p\u003e\u003cp\u003eTuple instances support fixed ComponentType columns. Example:\n\u003c/p\u003e\u003cpre\u003e insert \"testCF\" \"row1\" [packCol ((TLong 124, TAscii \"Hello\"), \"some content\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "CasType",
           "package": "cassy",
@@ -3990,6 +4203,7 @@
         "index": {
           "description": "This typeclass defines and maps to haskell types that Cassandra natively knows about and uses in sorting and potentially validating column key values All column keys are eventually sent to and received from Cassandra in binary form This typeclass allows us to map some Haskell type definitions to their binary representation The correct binary serialization is handled for you behind the scenes For simplest cases just use one of the string-like instances e.g ByteString String or Text Please keep in mind that these are just mapped to untyped BytesType Remember that for special column types such as TLong to have any effect your ColumnFamily must have been created with that comparator or validator Otherwise you re just encoding decoding integer values without any Cassandra support for sorting or correctness The Python library pycassa has pretty good tutorial to learn more Tuple instances support fixed ComponentType columns Example insert testCF row1 packCol TLong TAscii Hello some content",
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "CasType",
           "package": "cassy",
@@ -4004,6 +4218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExclusive tag for composite column. You may tag the end of a\n composite range with this to make the range exclusive. See pycassa\n documentation for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "Exclusive",
           "package": "cassy",
@@ -4013,6 +4228,7 @@
         "index": {
           "description": "Exclusive tag for composite column You may tag the end of composite range with this to make the range exclusive See pycassa documentation for more information",
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "Exclusive",
           "package": "cassy",
@@ -4027,6 +4243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the Single wrapper when you want to refer only to the first\n coolumn of a CompositeType column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "Single",
           "package": "cassy",
@@ -4036,6 +4253,7 @@
         "index": {
           "description": "Use the Single wrapper when you want to refer only to the first coolumn of CompositeType column",
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "Single",
           "package": "cassy",
@@ -4050,6 +4268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap your composite columns in this type when you're starting an\n inclusive column slice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "SliceStart",
           "package": "cassy",
@@ -4059,6 +4278,7 @@
         "index": {
           "description": "Wrap your composite columns in this type when you re starting an inclusive column slice",
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "SliceStart",
           "package": "cassy",
@@ -4072,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TAscii",
           "package": "cassy",
@@ -4080,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TAscii",
           "package": "cassy",
@@ -4093,6 +4315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TBytes",
           "package": "cassy",
@@ -4101,6 +4324,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TBytes",
           "package": "cassy",
@@ -4114,6 +4338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TCounter",
           "package": "cassy",
@@ -4122,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TCounter",
           "package": "cassy",
@@ -4135,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TInt32",
           "package": "cassy",
@@ -4143,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TInt32",
           "package": "cassy",
@@ -4156,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TInt64",
           "package": "cassy",
@@ -4164,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TInt64",
           "package": "cassy",
@@ -4177,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TLong",
           "package": "cassy",
@@ -4185,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TLong",
           "package": "cassy",
@@ -4199,6 +4431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimestamp that stores micro-seconds since epoch as \u003ccode\u003e\u003ca\u003eTLong\u003c/a\u003e\u003c/code\u003e underneath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TTimeStamp",
           "package": "cassy",
@@ -4208,6 +4441,7 @@
         "index": {
           "description": "Timestamp that stores micro-seconds since epoch as TLong underneath",
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TTimeStamp",
           "package": "cassy",
@@ -4221,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TUUID",
           "package": "cassy",
@@ -4229,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TUUID",
           "package": "cassy",
@@ -4242,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TUtf8",
           "package": "cassy",
@@ -4250,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TUtf8",
           "package": "cassy",
@@ -4263,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "Exclusive",
           "package": "cassy",
@@ -4272,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "Exclusive",
           "package": "cassy",
@@ -4285,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "Single",
           "package": "cassy",
@@ -4294,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "Single",
           "package": "cassy",
@@ -4307,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "SliceStart",
           "package": "cassy",
@@ -4316,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "SliceStart",
           "package": "cassy",
@@ -4329,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TAscii",
           "package": "cassy",
@@ -4338,6 +4583,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TAscii",
           "package": "cassy",
@@ -4351,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TBytes",
           "package": "cassy",
@@ -4360,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TBytes",
           "package": "cassy",
@@ -4373,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TCounter",
           "package": "cassy",
@@ -4382,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TCounter",
           "package": "cassy",
@@ -4395,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TInt32",
           "package": "cassy",
@@ -4404,6 +4655,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TInt32",
           "package": "cassy",
@@ -4417,6 +4669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TInt64",
           "package": "cassy",
@@ -4426,6 +4679,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TInt64",
           "package": "cassy",
@@ -4439,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TLong",
           "package": "cassy",
@@ -4448,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TLong",
           "package": "cassy",
@@ -4461,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TTimeStamp",
           "package": "cassy",
@@ -4470,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TTimeStamp",
           "package": "cassy",
@@ -4483,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TUUID",
           "package": "cassy",
@@ -4492,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TUUID",
           "package": "cassy",
@@ -4505,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "TUtf8",
           "package": "cassy",
@@ -4514,6 +4775,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "TUtf8",
           "package": "cassy",
@@ -4527,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "decodeCas",
           "package": "cassy",
@@ -4536,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "decodeCas",
           "normalized": "ByteString-\u003ea",
@@ -4551,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "encodeCas",
           "package": "cassy",
@@ -4560,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "encodeCas",
           "normalized": "a-\u003eByteString",
@@ -4575,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "fromTimeStamp",
           "package": "cassy",
@@ -4584,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "fromTimeStamp",
           "normalized": "TTimeStamp-\u003eUTCTime",
@@ -4599,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getAscii",
           "package": "cassy",
@@ -4608,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getAscii",
           "package": "cassy",
@@ -4621,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getCounter",
           "package": "cassy",
@@ -4630,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getCounter",
           "package": "cassy",
@@ -4643,6 +4915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getInt32",
           "package": "cassy",
@@ -4652,6 +4925,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getInt32",
           "package": "cassy",
@@ -4665,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getInt64",
           "package": "cassy",
@@ -4674,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getInt64",
           "package": "cassy",
@@ -4687,6 +4963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getLong",
           "package": "cassy",
@@ -4696,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getLong",
           "package": "cassy",
@@ -4709,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getTBytes",
           "package": "cassy",
@@ -4718,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getTBytes",
           "package": "cassy",
@@ -4731,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getTimeStamp",
           "package": "cassy",
@@ -4740,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getTimeStamp",
           "package": "cassy",
@@ -4753,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getUUID",
           "package": "cassy",
@@ -4762,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getUUID",
           "package": "cassy",
@@ -4775,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "getUtf8",
           "package": "cassy",
@@ -4784,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "getUtf8",
           "package": "cassy",
@@ -4798,6 +5084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert commonly used \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eTTimeStamp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFirst converts to seconds since epoch (POSIX seconds), then\n multiplies by a million and floors the resulting value. The value,\n therefore, is in micro-seconds and is accurate to within a\n microsecond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pack",
           "name": "toTimeStamp",
           "package": "cassy",
@@ -4808,6 +5095,7 @@
         "index": {
           "description": "Convert commonly used UTCTime to TTimeStamp First converts to seconds since epoch POSIX seconds then multiplies by million and floors the resulting value The value therefore is in micro-seconds and is accurate to within microsecond",
           "hierarchy": "Database Cassandra Pack",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pack",
           "name": "toTimeStamp",
           "normalized": "UTCTime-\u003eTTimeStamp",
@@ -4823,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "Pool",
           "package": "cassy",
@@ -4831,6 +5120,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "Pool",
           "package": "cassy",
@@ -4845,6 +5135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA round-robin pool of cassandra connections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "CPool",
           "package": "cassy",
@@ -4854,6 +5145,7 @@
         "index": {
           "description": "round-robin pool of cassandra connections",
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "CPool",
           "package": "cassy",
@@ -4867,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "Cassandra",
           "package": "cassy",
@@ -4875,6 +5168,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "Cassandra",
           "package": "cassy",
@@ -4888,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "KeySpace",
           "package": "cassy",
@@ -4896,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "KeySpace",
           "package": "cassy",
@@ -4910,6 +5206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (ServerName, Port) tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "Server",
           "package": "cassy",
@@ -4919,6 +5216,7 @@
         "index": {
           "description": "ServerName Port tuple",
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "Server",
           "package": "cassy",
@@ -4932,6 +5230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "Cassandra",
           "package": "cassy",
@@ -4941,6 +5240,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "Cassandra",
           "package": "cassy",
@@ -4954,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "cFramed",
           "package": "cassy",
@@ -4963,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "cFramed",
           "package": "cassy",
@@ -4976,6 +5278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "cHandle",
           "package": "cassy",
@@ -4985,6 +5288,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "cHandle",
           "package": "cassy",
@@ -4998,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "cProto",
           "package": "cassy",
@@ -5007,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "cProto",
           "package": "cassy",
@@ -5021,6 +5327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen underlying thrift connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "openThrift",
           "package": "cassy",
@@ -5031,6 +5338,7 @@
         "index": {
           "description": "Open underlying thrift connection",
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "openThrift",
           "normalized": "a-\u003eb-\u003eIO(Handle,FramedTransport Handle,BinaryProtocol(FramedTransport Handle))",
@@ -5047,6 +5355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporarily take a resource from a \u003ccode\u003e\u003ca\u003ePool\u003c/a\u003e\u003c/code\u003e, perform an action with\n it, and return it to the pool afterwards.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the pool has an idle resource available, it is used\n   immediately.\n\u003c/li\u003e\u003cli\u003e Otherwise, if the maximum number of resources has not yet been\n   reached, a new resource is created and used.\n\u003c/li\u003e\u003cli\u003e If the maximum number of resources has been reached, this\n   function blocks until a resource becomes available.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf the action throws an exception of any type, the resource is\n destroyed, and not returned to the pool.\n\u003c/p\u003e\u003cp\u003eIt probably goes without saying that you should never manually\n destroy a pooled resource, as doing so will almost certainly cause\n a subsequent user (who expects the resource to be valid) to throw\n an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Pool",
           "name": "withResource",
           "package": "cassy",
@@ -5056,6 +5365,7 @@
         "index": {
           "description": "Temporarily take resource from Pool perform an action with it and return it to the pool afterwards If the pool has an idle resource available it is used immediately Otherwise if the maximum number of resources has not yet been reached new resource is created and used If the maximum number of resources has been reached this function blocks until resource becomes available If the action throws an exception of any type the resource is destroyed and not returned to the pool It probably goes without saying that you should never manually destroy pooled resource as doing so will almost certainly cause subsequent user who expects the resource to be valid to throw an exception",
           "hierarchy": "Database Cassandra Pool",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Pool",
           "name": "withResource",
           "normalized": "Pool a-\u003e(a-\u003eb c)-\u003eb c",
@@ -5071,6 +5381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Types",
           "package": "cassy",
@@ -5079,6 +5390,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "Types",
           "package": "cassy",
@@ -5093,6 +5405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass to enable using any string-like type for row and column keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "CKey",
           "package": "cassy",
@@ -5102,6 +5415,7 @@
         "index": {
           "description": "typeclass to enable using any string-like type for row and column keys",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "CKey",
           "package": "cassy",
@@ -5115,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "CassandraException",
           "package": "cassy",
@@ -5123,6 +5438,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "CassandraException",
           "package": "cassy",
@@ -5137,6 +5453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Column is either a single key-value pair or a SuperColumn with an\n arbitrary number of key-value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Column",
           "package": "cassy",
@@ -5146,6 +5463,7 @@
         "index": {
           "description": "Column is either single key-value pair or SuperColumn with an arbitrary number of key-value pairs",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "Column",
           "package": "cassy",
@@ -5159,6 +5477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "ColumnFamily",
           "package": "cassy",
@@ -5167,6 +5486,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "ColumnFamily",
           "package": "cassy",
@@ -5180,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "ColumnName",
           "package": "cassy",
@@ -5188,6 +5509,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "ColumnName",
           "package": "cassy",
@@ -5201,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Key",
           "package": "cassy",
@@ -5209,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "Key",
           "package": "cassy",
@@ -5223,6 +5547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes the Key vs. Token options in the thrift API.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eInclusiveRange\u003c/a\u003e\u003c/code\u003e ranges are just plain intuitive range queries.\n \u003ccode\u003e\u003ca\u003eWrapAround\u003c/a\u003e\u003c/code\u003e ranges are also inclusive, but they wrap around the ring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "KeyRangeType",
           "package": "cassy",
@@ -5232,6 +5557,7 @@
         "index": {
           "description": "Encodes the Key vs Token options in the thrift API InclusiveRange ranges are just plain intuitive range queries WrapAround ranges are also inclusive but they wrap around the ring",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "KeyRangeType",
           "package": "cassy",
@@ -5246,6 +5572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e range selector to use with \u003ccode\u003egetMulti\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "KeySelector",
           "package": "cassy",
@@ -5255,6 +5582,7 @@
         "index": {
           "description": "Key range selector to use with getMulti",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "KeySelector",
           "package": "cassy",
@@ -5269,6 +5597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible outcomes of a modify operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "ModifyOperation",
           "package": "cassy",
@@ -5278,6 +5607,7 @@
         "index": {
           "description": "Possible outcomes of modify operation",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "ModifyOperation",
           "package": "cassy",
@@ -5292,6 +5622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrder in a range query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Order",
           "package": "cassy",
@@ -5301,6 +5632,7 @@
         "index": {
           "description": "Order in range query",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "Order",
           "package": "cassy",
@@ -5315,6 +5647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the result of a single pagination action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "PageResult",
           "package": "cassy",
@@ -5324,6 +5657,7 @@
         "index": {
           "description": "Describes the result of single pagination action",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "PageResult",
           "package": "cassy",
@@ -5338,6 +5672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA full row is simply a sequence of columns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Row",
           "package": "cassy",
@@ -5347,6 +5682,7 @@
         "index": {
           "description": "full row is simply sequence of columns",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "Row",
           "package": "cassy",
@@ -5360,6 +5696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "RowKey",
           "package": "cassy",
@@ -5368,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "RowKey",
           "package": "cassy",
@@ -5382,6 +5720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA column selector/filter statement for queries.\n\u003c/p\u003e\u003cp\u003eRemember that SuperColumns are always fully deserialized, so we don't offer\n a way to filter columns within a \u003ccode\u003e\u003ca\u003eSuperColumn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eColumn names and ranges are specified by any type that can be\n packed into a Cassandra column using the \u003ccode\u003e\u003ca\u003eCasType\u003c/a\u003e\u003c/code\u003e typeclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Selector",
           "package": "cassy",
@@ -5391,6 +5730,7 @@
         "index": {
           "description": "column selector filter statement for queries Remember that SuperColumns are always fully deserialized so we don offer way to filter columns within SuperColumn Column names and ranges are specified by any type that can be packed into Cassandra column using the CasType typeclass",
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "Selector",
           "package": "cassy",
@@ -5404,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Value",
           "package": "cassy",
@@ -5412,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "Value",
           "package": "cassy",
@@ -5425,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "castCol",
           "package": "cassy",
@@ -5434,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "castCol",
           "normalized": "Column-\u003eEither CassandraException Column",
@@ -5449,6 +5793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "castColumn",
           "package": "cassy",
@@ -5458,6 +5803,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "castColumn",
           "normalized": "ColumnOrSuperColumn-\u003eEither CassandraException Column",
@@ -5473,6 +5819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "castSuperCol",
           "package": "cassy",
@@ -5482,6 +5829,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "castSuperCol",
           "normalized": "SuperColumn-\u003eEither CassandraException Column",
@@ -5497,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "fromColKey",
           "package": "cassy",
@@ -5506,6 +5855,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "fromColKey",
           "normalized": "ByteString-\u003eEither String a",
@@ -5521,6 +5871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "mkKeyRange",
           "package": "cassy",
@@ -5530,6 +5881,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "mkKeyRange",
           "normalized": "KeySelector-\u003eKeyRange",
@@ -5545,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "mkPredicate",
           "package": "cassy",
@@ -5554,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "mkPredicate",
           "normalized": "Selector-\u003eSlicePredicate",
@@ -5569,6 +5923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "mkThriftCol",
           "package": "cassy",
@@ -5578,6 +5933,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "mkThriftCol",
           "normalized": "Column-\u003eIO Column",
@@ -5593,6 +5949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "renderOrd",
           "package": "cassy",
@@ -5602,6 +5959,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "renderOrd",
           "normalized": "Order-\u003eBool",
@@ -5617,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "showCas",
           "package": "cassy",
@@ -5626,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "showCas",
           "normalized": "a-\u003eString",
@@ -5641,6 +6001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:19 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "toColKey",
           "package": "cassy",
@@ -5650,6 +6011,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T17:30:19",
           "module": "Database.Cassandra.Types",
           "name": "toColKey",
           "normalized": "a-\u003eByteString",

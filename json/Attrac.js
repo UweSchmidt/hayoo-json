@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Attrac"
+        "phrase": "Attrac",
+        "type": "phrase"
       },
       "type": "context"
     }

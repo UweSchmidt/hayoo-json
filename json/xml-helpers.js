@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-helpers"
+        "phrase": "xml-helpers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA set of useful helper functions for dealing with XML data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "Helpers",
           "package": "xml-helpers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "set of useful helper functions for dealing with XML data",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "Helpers",
           "package": "xml-helpers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True iff the given alement has an attribute \u003ca\u003ename\u003c/a\u003e equal to\n the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "elementHasNameAttr",
           "package": "xml-helpers",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Returns True iff the given alement has an attribute name equal to the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "elementHasNameAttr",
           "normalized": "String-\u003eElement-\u003eBool",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a child of the given element with that has an attribute \u003ca\u003ename\u003c/a\u003e\n equal to the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "findChildWithAttName",
           "package": "xml-helpers",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Find child of the given element with that has an attribute name equal to the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "findChildWithAttName",
           "normalized": "String-\u003eElement-\u003eMaybe Element",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all the children of the given element that have an attribute \u003ca\u003ename\u003c/a\u003e\n equal to the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "findChildrenWithAttName",
           "package": "xml-helpers",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Find all the children of the given element that have an attribute name equal to the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "findChildrenWithAttName",
           "normalized": "String-\u003eElement-\u003e[Element]",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a subelement of the given element that has an attribute \u003ca\u003ename\u003c/a\u003e\n equal to the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "findElementWithAttName",
           "package": "xml-helpers",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Find subelement of the given element that has an attribute name equal to the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "findElementWithAttName",
           "normalized": "String-\u003eElement-\u003eMaybe Element",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all the subelements of the given element that have an attribute\n \u003ca\u003ename\u003c/a\u003e equal to the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "findElementsWithAttName",
           "package": "xml-helpers",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Find all the subelements of the given element that have an attribute name equal to the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "findElementsWithAttName",
           "normalized": "String-\u003eElement-\u003e[Element]",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the function over the children of the given element with the given\n name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "foldChildren",
           "package": "xml-helpers",
@@ -182,6 +195,7 @@
         "index": {
           "description": "Fold the function over the children of the given element with the given name",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "foldChildren",
           "normalized": "String-\u003eElement-\u003ea-\u003e(a-\u003eElement-\u003eMaybe a)-\u003eMaybe a",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the given function over the children of the given element that\n have an attribute \u003ca\u003ename\u003c/a\u003e matching the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "foldChildrenWithAttName",
           "package": "xml-helpers",
@@ -208,6 +223,7 @@
         "index": {
           "description": "Fold the given function over the children of the given element that have an attribute name matching the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "foldChildrenWithAttName",
           "normalized": "String-\u003eElement-\u003ea-\u003e(a-\u003eElement-\u003eMaybe a)-\u003eMaybe a",
@@ -224,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the given function over the children of the given element with\n the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "foldElements",
           "package": "xml-helpers",
@@ -234,6 +251,7 @@
         "index": {
           "description": "Fold the given function over the children of the given element with the given name",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "foldElements",
           "normalized": "String-\u003eElement-\u003ea-\u003e(a-\u003eElement-\u003eMaybe a)-\u003eMaybe a",
@@ -250,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the given function over the subelements of the given element that\n have an attribute \u003ca\u003ename\u003c/a\u003e matching the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "foldElementsWithAttName",
           "package": "xml-helpers",
@@ -260,6 +279,7 @@
         "index": {
           "description": "Fold the given function over the subelements of the given element that have an attribute name matching the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "foldElementsWithAttName",
           "normalized": "String-\u003eElement-\u003ea-\u003e(a-\u003eElement-\u003eMaybe a)-\u003eMaybe a",
@@ -276,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the string contents of the child of the given element with the given\n name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "getChildData",
           "package": "xml-helpers",
@@ -286,6 +307,7 @@
         "index": {
           "description": "Get the string contents of the child of the given element with the given name",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "getChildData",
           "normalized": "String-\u003eElement-\u003eMaybe String",
@@ -302,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the string contents of the subelement of the given element with the\n given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "getElementData",
           "package": "xml-helpers",
@@ -312,6 +335,7 @@
         "index": {
           "description": "Get the string contents of the subelement of the given element with the given name",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "getElementData",
           "normalized": "String-\u003eElement-\u003eMaybe String",
@@ -328,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the given function over the children of the given element with the\n given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "mapChildren",
           "package": "xml-helpers",
@@ -338,6 +363,7 @@
         "index": {
           "description": "Map the given function over the children of the given element with the given name",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "mapChildren",
           "normalized": "String-\u003eElement-\u003e(Element-\u003eMaybe a)-\u003eMaybe[a]",
@@ -354,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the given function over the children of the given element that\n have an attribute \u003ca\u003ename\u003c/a\u003e matching the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "mapChildrenWithAttName",
           "package": "xml-helpers",
@@ -364,6 +391,7 @@
         "index": {
           "description": "Map the given function over the children of the given element that have an attribute name matching the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "mapChildrenWithAttName",
           "normalized": "String-\u003eElement-\u003e(Element-\u003eMaybe a)-\u003eMaybe[a]",
@@ -380,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the given function over all subelements of the given element with\n the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "mapElements",
           "package": "xml-helpers",
@@ -390,6 +419,7 @@
         "index": {
           "description": "Map the given function over all subelements of the given element with the given name",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "mapElements",
           "normalized": "String-\u003eElement-\u003e(Element-\u003eMaybe a)-\u003eMaybe[a]",
@@ -406,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the given function over the subelements of the given element that\n have an attribute \u003ca\u003ename\u003c/a\u003e matching the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "mapElementsWithAttName",
           "package": "xml-helpers",
@@ -416,6 +447,7 @@
         "index": {
           "description": "Map the given function over the subelements of the given element that have an attribute name matching the given string",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "mapElementsWithAttName",
           "normalized": "String-\u003eElement-\u003e(Element-\u003eMaybe a)-\u003eMaybe[a]",
@@ -432,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of rows (subelement with the name \u003ca\u003erow\u003c/a\u003e) into a Haskell\n datatype using the given function.s \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:19 UTC 2014",
           "module": "Text.XML.Light.Helpers",
           "name": "parseRows",
           "package": "xml-helpers",
@@ -442,6 +475,7 @@
         "index": {
           "description": "Convert list of rows subelement with the name row into Haskell datatype using the given function.s",
           "hierarchy": "Text XML Light Helpers",
+          "indexed": "2014-03-11T20:42:19",
           "module": "Text.XML.Light.Helpers",
           "name": "parseRows",
           "normalized": "(Element-\u003eMaybe a)-\u003eElement-\u003eMaybe[a]",

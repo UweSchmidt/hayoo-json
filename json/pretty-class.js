@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pretty-class"
+        "phrase": "pretty-class",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:30 UTC 2014",
           "module": "Text.PrettyPrint.Class",
           "name": "Class",
           "package": "pretty-class",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Class",
+          "indexed": "2014-03-11T19:43:30",
           "module": "Text.PrettyPrint.Class",
           "name": "Class",
           "package": "pretty-class",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:30 UTC 2014",
           "module": "Text.PrettyPrint.Class",
           "name": "Pretty",
           "package": "pretty-class",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Class",
+          "indexed": "2014-03-11T19:43:30",
           "module": "Text.PrettyPrint.Class",
           "name": "Pretty",
           "package": "pretty-class",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:30 UTC 2014",
           "module": "Text.PrettyPrint.Class",
           "name": "pretty",
           "package": "pretty-class",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Class",
+          "indexed": "2014-03-11T19:43:30",
           "module": "Text.PrettyPrint.Class",
           "name": "pretty",
           "normalized": "a-\u003eDoc",

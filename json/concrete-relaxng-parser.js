@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "concrete-relaxng-parser"
+        "phrase": "concrete-relaxng-parser",
+        "type": "phrase"
       },
       "type": "context"
     }

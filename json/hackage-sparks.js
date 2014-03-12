@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hackage-sparks"
+        "phrase": "hackage-sparks",
+        "type": "phrase"
       },
       "type": "context"
     }

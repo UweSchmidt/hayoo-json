@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "time-io-access"
+        "phrase": "time-io-access",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.Clock.POSIX",
           "name": "POSIX",
           "package": "time-io-access",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time Clock POSIX",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.Clock.POSIX",
           "name": "POSIX",
           "package": "time-io-access",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.Clock",
           "name": "Clock",
           "package": "time-io-access",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time Clock",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.Clock",
           "name": "Clock",
           "package": "time-io-access",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.Clock",
           "name": "ClockAccess",
           "package": "time-io-access",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time Clock",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.Clock",
           "name": "ClockAccess",
           "package": "time-io-access",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.Clock",
           "name": "getCurrentTime'",
           "package": "time-io-access",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time Clock",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.Clock",
           "name": "getCurrentTime'",
           "package": "time-io-access",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.LocalTime",
           "name": "LocalTime",
           "package": "time-io-access",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time LocalTime",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.LocalTime",
           "name": "LocalTime",
           "package": "time-io-access",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.LocalTime",
           "name": "LocalTimeAccess",
           "package": "time-io-access",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time LocalTime",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.LocalTime",
           "name": "LocalTimeAccess",
           "package": "time-io-access",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.LocalTime",
           "name": "getCurrentTimeZone'",
           "package": "time-io-access",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time LocalTime",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.LocalTime",
           "name": "getCurrentTimeZone'",
           "package": "time-io-access",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.LocalTime",
           "name": "getTimeZone'",
           "package": "time-io-access",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time LocalTime",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.LocalTime",
           "name": "getTimeZone'",
           "normalized": "UTCTime-\u003ea TimeZone",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.LocalTime",
           "name": "getZonedTime'",
           "package": "time-io-access",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time LocalTime",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.LocalTime",
           "name": "getZonedTime'",
           "package": "time-io-access",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time.LocalTime",
           "name": "utcToLocalZonedTime'",
           "package": "time-io-access",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time LocalTime",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time.LocalTime",
           "name": "utcToLocalZonedTime'",
           "normalized": "UTCTime-\u003ea ZonedTime",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:42 UTC 2014",
           "module": "Access.Data.Time",
           "name": "Time",
           "package": "time-io-access",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Access Data Time",
+          "indexed": "2014-03-11T20:22:42",
           "module": "Access.Data.Time",
           "name": "Time",
           "package": "time-io-access",

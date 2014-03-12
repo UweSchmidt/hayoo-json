@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HLogger"
+        "phrase": "HLogger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Logs a message signaling that an action must be taken.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "logAlert",
           "package": "HLogger",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Logs message signaling that an action must be taken",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "logAlert",
           "normalized": "HLoggerState-\u003eString-\u003eIO()",
@@ -44,6 +46,7 @@
       "document": {
         "description": {
           "description": "Logs a message signaling that a critical error has occurred.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "logCritical",
           "package": "HLogger",
@@ -53,6 +56,7 @@
         "index": {
           "description": "Logs message signaling that critical error has occurred",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "logCritical",
           "normalized": "HLoggerState-\u003eString-\u003eIO()",
@@ -69,6 +73,7 @@
       "document": {
         "description": {
           "description": "Logs a debug message. Debug messages are the least significant messages.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "logDebug",
           "package": "HLogger",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Logs debug message Debug messages are the least significant messages",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "logDebug",
           "normalized": "HLoggerState-\u003eString-\u003eIO()",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "Logs a message signaling that the system is unusable.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "logEmergency",
           "package": "HLogger",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Logs message signaling that the system is unusable",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "logEmergency",
           "normalized": "HLoggerState-\u003eString-\u003eIO()",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "Logs a message signaling that a non-critical error has occurred.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "logError",
           "package": "HLogger",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Logs message signaling that non-critical error has occurred",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "logError",
           "normalized": "HLoggerState-\u003eString-\u003eIO()",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "Logs a purely informational message. Use logNotice instead of the\n   information message is significant.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "logInfo",
           "package": "HLogger",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Logs purely informational message Use logNotice instead of the information message is significant",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "logInfo",
           "normalized": "HLoggerState-\u003eString-\u003eIO()",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "Logs a significant purely informational message.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "logNotice",
           "package": "HLogger",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Logs significant purely informational message",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "logNotice",
           "normalized": "HLoggerState-\u003eString-\u003eIO()",
@@ -194,6 +208,7 @@
       "document": {
         "description": {
           "description": "Logs a message signaling a warning condition.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "logWarning",
           "package": "HLogger",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Logs message signaling warning condition",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "logWarning",
           "normalized": "HLoggerState-\u003eString-\u003eIO()",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "Call start to get the initial logging state. It takes a String, \u003ctt\u003eprefix\u003c/tt\u003e,\n as its configuration input and creates a file \u003ctt\u003eprefix-YYYYMMDDHHMM.log\u003c/tt\u003e in\n the current directory. It will use UTC time on system that supports it, and\n local time otherwise.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "startLogger",
           "package": "HLogger",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Call start to get the initial logging state It takes String prefix as its configuration input and creates file prefix-YYYYMMDDHHMM.log in the current directory It will use UTC time on system that supports it and local time otherwise",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "startLogger",
           "normalized": "String-\u003eIO HLoggerState",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "Stops the logger by closing the log file and exiting the logging thread.\n",
+          "indexed": "Tue Mar 11 16:45:49 UTC 2014",
           "module": "HLogger",
           "name": "stopLogger",
           "package": "HLogger",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Stops the logger by closing the log file and exiting the logging thread",
           "hierarchy": "HLogger",
+          "indexed": "2014-03-11T16:45:49",
           "module": "HLogger",
           "name": "stopLogger",
           "normalized": "HLoggerState-\u003eIO()",

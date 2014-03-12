@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "validate"
+        "phrase": "validate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.GenericString",
           "name": "GenericString",
           "package": "validate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data GenericString",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.GenericString",
           "name": "GenericString",
           "package": "validate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.GenericString",
           "name": "Str",
           "package": "validate",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data GenericString",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.GenericString",
           "name": "Str",
           "package": "validate",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.GenericString",
           "name": "appendStr",
           "package": "validate",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data GenericString",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.GenericString",
           "name": "appendStr",
           "normalized": "a-\u003ea-\u003ea",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.GenericString",
           "name": "foldrStr",
           "package": "validate",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data GenericString",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.GenericString",
           "name": "foldrStr",
           "normalized": "(Char-\u003ea-\u003ea)-\u003ea-\u003eb-\u003ea",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.GenericString",
           "name": "readToMaybeStr",
           "package": "validate",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data GenericString",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.GenericString",
           "name": "readToMaybeStr",
           "normalized": "a-\u003eMaybe b",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.GenericString",
           "name": "showToStr",
           "package": "validate",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data GenericString",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.GenericString",
           "name": "showToStr",
           "normalized": "a-\u003eb",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.GenericString",
           "name": "strToString",
           "package": "validate",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data GenericString",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.GenericString",
           "name": "strToString",
           "normalized": "a-\u003eString",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValidate values, such as common user inputs; emails, age,\n   address, credit card, web address, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "Validate",
           "package": "validate",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Validate values such as common user inputs emails age address credit card web address etc",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "Validate",
           "package": "validate",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA test taking input and producing a new input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "Test",
           "package": "validate",
@@ -213,6 +230,7 @@
         "index": {
           "description": "test taking input and producing new input",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "Test",
           "package": "validate",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that a given age is correct (130 years of age max.). \n  http:\u003cem/\u003ewww.seniorjournal.com\u003cem\u003eNEWS\u003c/em\u003eSeniorStats/5-12-03-NoOne123.htm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "age",
           "package": "validate",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Test that given age is correct years of age max http www.seniorjournal.com NEWS SeniorStats NoOne123.htm",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "age",
           "package": "validate",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs equal to something.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "equal",
           "package": "validate",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Is equal to something",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "equal",
           "normalized": "a-\u003eTest b a a",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that a string contains an integer, and try to convert to a Float.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "float",
           "package": "validate",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Check that string contains an integer and try to convert to Float",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "float",
           "package": "validate",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that a string contains an integer, and try to convert to an Int.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "int",
           "package": "validate",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Check that string contains an integer and try to convert to an Int",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "int",
           "package": "validate",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that a String contains an integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "isInt",
           "package": "validate",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Check that String contains an integer",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "isInt",
           "package": "validate",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach a \"label\" around a testing function which errors. This might be\n   useless.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "label",
           "package": "validate",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Attach label around testing function which errors This might be useless",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "label",
           "normalized": "a-\u003eTest a b c-\u003eTest a b c",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that a a value is less than a specified value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "less",
           "package": "validate",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Check that value is less than specified value",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "less",
           "normalized": "a-\u003eTest b a a",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ca\u003eless\u003c/a\u003e but the value must be more than the specified value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "more",
           "package": "validate",
@@ -403,6 +436,7 @@
         "index": {
           "description": "Like less but the value must be more than the specified value",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "more",
           "normalized": "a-\u003eTest b a a",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a test which tests a string according to a regular expression pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "pattern",
           "package": "validate",
@@ -427,6 +462,7 @@
         "index": {
           "description": "Make test which tests string according to regular expression pattern",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "pattern",
           "normalized": "a-\u003eb-\u003eTest a b b",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic testing function with a predicate, with type preservation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "test",
           "package": "validate",
@@ -451,6 +488,7 @@
         "index": {
           "description": "generic testing function with predicate with type preservation",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "test",
           "normalized": "a-\u003e(b-\u003eBool)-\u003eTest a b b",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate some input with testing function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:17 UTC 2014",
           "module": "Data.Validate",
           "name": "validate",
           "package": "validate",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Validate some input with testing function",
           "hierarchy": "Data Validate",
+          "indexed": "2014-03-11T20:33:17",
           "module": "Data.Validate",
           "name": "validate",
           "normalized": "Test a b c-\u003eb-\u003eMaybe[a]",

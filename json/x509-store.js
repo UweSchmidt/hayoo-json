@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "x509-store"
+        "phrase": "x509-store",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.CertificateStore",
           "name": "CertificateStore",
           "package": "x509-store",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data X509 CertificateStore",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.CertificateStore",
           "name": "CertificateStore",
           "package": "x509-store",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Collection of certificate or store of certificates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.CertificateStore",
           "name": "CertificateStore",
           "package": "x509-store",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Collection of certificate or store of certificates",
           "hierarchy": "Data X509 CertificateStore",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.CertificateStore",
           "name": "CertificateStore",
           "package": "x509-store",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a certificate using the subject distinguished name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.CertificateStore",
           "name": "findCertificate",
           "package": "x509-store",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Find certificate using the subject distinguished name",
           "hierarchy": "Data X509 CertificateStore",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.CertificateStore",
           "name": "findCertificate",
           "normalized": "DistinguishedName-\u003eCertificateStore-\u003eMaybe SignedCertificate",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all certificates in a store\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.CertificateStore",
           "name": "listCertificates",
           "package": "x509-store",
@@ -99,6 +106,7 @@
         "index": {
           "description": "List all certificates in store",
           "hierarchy": "Data X509 CertificateStore",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.CertificateStore",
           "name": "listCertificates",
           "normalized": "CertificateStore-\u003e[SignedCertificate]",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a certificate store out of a list of X509 certificate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.CertificateStore",
           "name": "makeCertificateStore",
           "package": "x509-store",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Create certificate store out of list of X509 certificate",
           "hierarchy": "Data X509 CertificateStore",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.CertificateStore",
           "name": "makeCertificateStore",
           "normalized": "[SignedCertificate]-\u003eCertificateStore",
@@ -140,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.File",
           "name": "File",
           "package": "x509-store",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Data X509 File",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.File",
           "name": "File",
           "package": "x509-store",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn all the public key that were successfully read from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.File",
           "name": "readKeyFile",
           "package": "x509-store",
@@ -172,6 +185,7 @@
         "index": {
           "description": "return all the public key that were successfully read from file",
           "hierarchy": "Data X509 File",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.File",
           "name": "readKeyFile",
           "normalized": "FilePath-\u003eIO[PrivKey]",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn all the signed objects in a file.\n\u003c/p\u003e\u003cp\u003e(only one type at a time).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.File",
           "name": "readSignedObject",
           "package": "x509-store",
@@ -198,6 +213,7 @@
         "index": {
           "description": "return all the signed objects in file only one type at time",
           "hierarchy": "Data X509 File",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.File",
           "name": "readSignedObject",
           "normalized": "FilePath-\u003eIO[SignedExact a]",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.Memory",
           "name": "Memory",
           "package": "x509-store",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data X509 Memory",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.Memory",
           "name": "Memory",
           "package": "x509-store",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.Memory",
           "name": "readKeyFileFromMemory",
           "package": "x509-store",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Data X509 Memory",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.Memory",
           "name": "readKeyFileFromMemory",
           "normalized": "ByteString-\u003e[PrivKey]",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:50 UTC 2014",
           "module": "Data.X509.Memory",
           "name": "readSignedObjectFromMemory",
           "package": "x509-store",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data X509 Memory",
+          "indexed": "2014-03-11T20:40:50",
           "module": "Data.X509.Memory",
           "name": "readSignedObjectFromMemory",
           "normalized": "ByteString-\u003e[SignedExact a]",

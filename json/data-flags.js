@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-flags"
+        "phrase": "data-flags",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTemplate Haskell utils for declaring flags instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags.TH",
           "name": "TH",
           "package": "data-flags",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Template Haskell utils for declaring flags instances",
           "hierarchy": "Data Flags TH",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags.TH",
           "name": "TH",
           "package": "data-flags",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare a newtype wrapper around the specified integral type and make\n   it an instance of \u003ccode\u003e\u003ca\u003eBoundedFlags\u003c/a\u003e\u003c/code\u003e. For each individual\n   flag declare a constant. If a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance wasn't requested for\n   automatic derivation, declare one with\n\u003c/p\u003e\u003cpre\u003e show flags = \"WrappingTypeName [IndividualFlags in flags]\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags.TH",
           "name": "bitmaskWrapper",
           "package": "data-flags",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Declare newtype wrapper around the specified integral type and make it an instance of BoundedFlags For each individual flag declare constant If Show instance wasn requested for automatic derivation declare one with show flags WrappingTypeName IndividualFlags in flags",
           "hierarchy": "Data Flags TH",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags.TH",
           "name": "bitmaskWrapper",
           "normalized": "String-\u003eName-\u003e[Name]-\u003e[(String,Integer)]-\u003eQ[Dec]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces \u003ccode\u003e\u003ca\u003eFlags\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBoundedFlags\u003c/a\u003e\u003c/code\u003e\n   instances declarations for the specified instance of \u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags.TH",
           "name": "dataBitsAsBoundedFlags",
           "package": "data-flags",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Produces Flags and BoundedFlags instances declarations for the specified instance of Bits",
           "hierarchy": "Data Flags TH",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags.TH",
           "name": "dataBitsAsBoundedFlags",
           "normalized": "Name-\u003eQ[Dec]",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces \u003ccode\u003e\u003ca\u003eFlags\u003c/a\u003e\u003c/code\u003e instance declaration for the specified\n   instance of \u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags.TH",
           "name": "dataBitsAsFlags",
           "package": "data-flags",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Produces Flags instance declaration for the specified instance of Bits",
           "hierarchy": "Data Flags TH",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags.TH",
           "name": "dataBitsAsFlags",
           "normalized": "Name-\u003eQ[Dec]",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare an ADT with the specified constructors and make it an instance\n   of \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags.TH",
           "name": "enumADT",
           "package": "data-flags",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Declare an ADT with the specified constructors and make it an instance of Eq Ord Show and Storable",
           "hierarchy": "Data Flags TH",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags.TH",
           "name": "enumADT",
           "normalized": "String-\u003eName-\u003e[(String,Integer)]-\u003eQ[Dec]",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides type classes for working with sets of flags.\n   In particular, with wrappers around bit masks:\n\u003c/p\u003e\u003cpre\u003e import Data.Flags\n\n newtype MyFlags = MyFlags CInt deriving (Eq, Flags)\n\n #{enum MyFlags, MyFlags\n  , myFlag1 = C_FLAG1\n  , myFlag2 = C_FLAG2\n  , myFlag3 = C_FLAG3\n  }\n\n f :: MyFlags -\u003e IO ()\n f = ...\n\u003c/pre\u003e\u003cp\u003eOr, using Template Haskell:\n\u003c/p\u003e\u003cpre\u003e import Data.Flags.TH\n\n $(bitmaskWrapper \"MyFlags\" ''CInt [] False\n     [(\"myFlag1\", #{const C_FLAG1}),\n      (\"myFlag2\", #{const C_FLAG2}),\n      (\"myFlag3\", #{const C_FLAG3})])\n\n\u003c/pre\u003e\u003cp\u003eAnd then use it like this:\n\u003c/p\u003e\u003cpre\u003e f $ myFlag1 .+. myFlag3\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "Flags",
           "package": "data-flags",
@@ -153,6 +164,7 @@
         "index": {
           "description": "This module provides type classes for working with sets of flags In particular with wrappers around bit masks import Data.Flags newtype MyFlags MyFlags CInt deriving Eq Flags enum MyFlags MyFlags myFlag1 FLAG1 myFlag2 FLAG2 myFlag3 FLAG3 MyFlags IO Or using Template Haskell import Data.Flags.TH bitmaskWrapper MyFlags CInt False myFlag1 const FLAG1 myFlag2 const FLAG2 myFlag3 const FLAG3 And then use it like this myFlag1 myFlag3",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "Flags",
           "package": "data-flags",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this class when the set of flags is fixed and not likely\n   to change in the future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "BoundedFlags",
           "package": "data-flags",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Use this class when the set of flags is fixed and not likely to change in the future",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "BoundedFlags",
           "package": "data-flags",
@@ -189,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "Flags",
           "package": "data-flags",
@@ -197,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "Flags",
           "package": "data-flags",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003econtainsSome\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "(.~.)",
           "package": "data-flags",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Alias for containsSome",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "(.~.) .~.",
           "normalized": "a-\u003ea-\u003eBool",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003ecommonFlags\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "(.*.)",
           "package": "data-flags",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Alias for commonFlags",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "(.*.) .*.",
           "normalized": "a-\u003ea-\u003ea",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eandFlags\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "(.+.)",
           "package": "data-flags",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Alias for andFlags",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "(.+.) .+.",
           "normalized": "a-\u003ea-\u003ea",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003ebutFlags\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "(.-.)",
           "package": "data-flags",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Alias for butFlags",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "(.-.) .-.",
           "normalized": "a-\u003ea-\u003ea",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003econtainsNone\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "(./~.)",
           "package": "data-flags",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Alias for containsNone",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "(./~.) ./~.",
           "normalized": "a-\u003ea-\u003eBool",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003econtainsAll\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "(.\u003c=.)",
           "package": "data-flags",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Shorthand for flip containsAll",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "(.\u003c=.) .\u003c=.",
           "normalized": "a-\u003ea-\u003eBool",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003econtainsAll\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "(.\u003e=.)",
           "package": "data-flags",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Alias for containsAll",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "(.\u003e=.) .\u003e=.",
           "normalized": "a-\u003ea-\u003eBool",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for \u003ccode\u003e\u003ca\u003eallFlags\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e \u003cem\u003ex\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "allBut",
           "package": "data-flags",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Shorthand for allFlags",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "allBut",
           "normalized": "a-\u003ea",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of all flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "allFlags",
           "package": "data-flags",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Set of all flags",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "allFlags",
           "package": "data-flags",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of two flag sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "andFlags",
           "package": "data-flags",
@@ -446,6 +481,7 @@
         "index": {
           "description": "Union of two flag sets",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "andFlags",
           "normalized": "a-\u003ea-\u003ea",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference between two flag sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "butFlags",
           "package": "data-flags",
@@ -472,6 +509,7 @@
         "index": {
           "description": "Difference between two flag sets",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "butFlags",
           "normalized": "a-\u003ea-\u003ea",
@@ -488,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of two flag sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "commonFlags",
           "package": "data-flags",
@@ -498,6 +537,7 @@
         "index": {
           "description": "Intersection of two flag sets",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "commonFlags",
           "normalized": "a-\u003ea-\u003ea",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the first flag set contains all flags from the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "containsAll",
           "package": "data-flags",
@@ -524,6 +565,7 @@
         "index": {
           "description": "Test if the first flag set contains all flags from the second",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "containsAll",
           "normalized": "a-\u003ea-\u003eBool",
@@ -540,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if two flag sets do not intersect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "containsNone",
           "package": "data-flags",
@@ -550,6 +593,7 @@
         "index": {
           "description": "Test if two flag sets do not intersect",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "containsNone",
           "normalized": "a-\u003ea-\u003eBool",
@@ -566,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if two flag sets intersect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "containsSome",
           "package": "data-flags",
@@ -576,6 +621,7 @@
         "index": {
           "description": "Test if two flag sets intersect",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "containsSome",
           "normalized": "a-\u003ea-\u003eBool",
@@ -592,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the individual flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "enumFlags",
           "package": "data-flags",
@@ -602,6 +649,7 @@
         "index": {
           "description": "List the individual flags",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "enumFlags",
           "normalized": "a-\u003e[a]",
@@ -618,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty set of flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:30 UTC 2014",
           "module": "Data.Flags",
           "name": "noFlags",
           "package": "data-flags",
@@ -628,6 +677,7 @@
         "index": {
           "description": "The empty set of flags",
           "hierarchy": "Data Flags",
+          "indexed": "2014-03-11T17:48:30",
           "module": "Data.Flags",
           "name": "noFlags",
           "package": "data-flags",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "transformations"
+        "phrase": "transformations",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Any",
           "name": "Any",
           "package": "transformations",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Any",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Any",
           "name": "Any",
           "package": "transformations",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Any",
           "name": "Any",
           "package": "transformations",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Any",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Any",
           "name": "Any",
           "package": "transformations",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Any",
           "name": "Any",
           "package": "transformations",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Any",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Any",
           "name": "Any",
           "normalized": "a b-\u003eb-\u003eAny a",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnify an \u003ccode\u003e\u003ca\u003eAny\u003c/a\u003e\u003c/code\u003e with an \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Any",
           "name": "matchAny",
           "package": "transformations",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Unify an Any with an",
           "hierarchy": "Generics MultiRec Any",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Any",
           "name": "matchAny",
           "normalized": "a b-\u003eAny a-\u003eMaybe b",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.HZip",
           "name": "HZip",
           "package": "transformations",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HZip",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.HZip",
           "name": "HZip",
           "package": "transformations",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.HZip",
           "name": "HZip",
           "package": "transformations",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HZip",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.HZip",
           "name": "HZip",
           "package": "transformations",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two structures monadically only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.HZip",
           "name": "combine",
           "package": "transformations",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Combine two structures monadically only",
           "hierarchy": "Generics MultiRec HZip",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.HZip",
           "name": "combine",
           "normalized": "a b-\u003ec b-\u003ed b-\u003ee())-\u003ea b-\u003ef c b-\u003ef d b-\u003ee()",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.HZip",
           "name": "geq",
           "package": "transformations",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Generic equality",
           "hierarchy": "Generics MultiRec HZip",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.HZip",
           "name": "geq",
           "normalized": "a b-\u003eb-\u003eb-\u003eBool",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic generic equality (just for the sake of the monad!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.HZip",
           "name": "geq'",
           "package": "transformations",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Monadic generic equality just for the sake of the monad",
           "hierarchy": "Generics MultiRec HZip",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.HZip",
           "name": "geq'",
           "normalized": "a b-\u003eI b-\u003eI b-\u003ec()",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic zip but argument is not monadic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.HZip",
           "name": "hzip",
           "package": "transformations",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Monadic zip but argument is not monadic",
           "hierarchy": "Generics MultiRec HZip",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.HZip",
           "name": "hzip",
           "normalized": "a b-\u003ec b-\u003ed b-\u003ee b)-\u003ea b-\u003ef c b-\u003ef d b-\u003eg(f e b)",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe zip\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.HZip",
           "name": "hzip'",
           "package": "transformations",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Unsafe zip",
           "hierarchy": "Generics MultiRec HZip",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.HZip",
           "name": "hzip'",
           "normalized": "a b-\u003ec b-\u003ed b-\u003ee b)-\u003ea b-\u003ef c b-\u003ef d b-\u003ef e b",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.HZip",
           "name": "hzipM",
           "package": "transformations",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec HZip",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.HZip",
           "name": "hzipM",
           "normalized": "a b-\u003ec b-\u003ed b-\u003ee(f b))-\u003eg c b-\u003eg d b-\u003ee(g f b)",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "LR",
           "package": "transformations",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "LR",
           "package": "transformations",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLR\u003c/code\u003e class defines two functions, \u003ccode\u003eleftf\u003c/code\u003e and \u003ccode\u003erightf\u003c/code\u003e, which should \n produce different functorial values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "LR",
           "package": "transformations",
@@ -331,6 +358,7 @@
         "index": {
           "description": "The LR class defines two functions leftf and rightf which should produce different functorial values",
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "LR",
           "package": "transformations",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLRBase\u003c/code\u003e class defines two functions, \u003ccode\u003eleftb\u003c/code\u003e and \u003ccode\u003erightb\u003c/code\u003e, which \n should produce different values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "LRBase",
           "package": "transformations",
@@ -354,6 +383,7 @@
         "index": {
           "description": "The LRBase class defines two functions leftb and rightb which should produce different values",
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "LRBase",
           "package": "transformations",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "left",
           "package": "transformations",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "left",
           "normalized": "a b-\u003eb",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "leftb",
           "package": "transformations",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "leftb",
           "package": "transformations",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "leftf",
           "package": "transformations",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "leftf",
           "normalized": "a b-\u003ec b)-\u003e[d c e]",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "right",
           "package": "transformations",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "right",
           "normalized": "a b-\u003eb",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "rightb",
           "package": "transformations",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "rightb",
           "package": "transformations",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "rightf",
           "package": "transformations",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "rightf",
           "normalized": "a b-\u003ec b)-\u003e[d c e]",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.LR",
           "name": "safeHead",
           "package": "transformations",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec LR",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.LR",
           "name": "safeHead",
           "normalized": "[a]-\u003ea",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Ord",
           "name": "Ord",
           "package": "transformations",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Ord",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Ord",
           "name": "Ord",
           "package": "transformations",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Ord",
           "name": "HOrd",
           "package": "transformations",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Ord",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Ord",
           "name": "HOrd",
           "package": "transformations",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Ord",
           "name": "Ord1",
           "package": "transformations",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Ord",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Ord",
           "name": "Ord1",
           "package": "transformations",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Ord",
           "name": "compare1",
           "package": "transformations",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Ord",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Ord",
           "name": "compare1",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eb a-\u003eb a-\u003eOrdering",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Ord",
           "name": "gcompare",
           "package": "transformations",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Ord",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Ord",
           "name": "gcompare",
           "normalized": "a b-\u003eb-\u003eb-\u003eOrdering",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Ord",
           "name": "hcompare",
           "package": "transformations",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Ord",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Ord",
           "name": "hcompare",
           "normalized": "(a b c d-\u003ee d-\u003ee d-\u003eOrdering)-\u003ec d-\u003ef e d-\u003ef e d-\u003eOrdering",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "Machinery",
           "package": "transformations",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Machinery",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "Machinery",
           "package": "transformations",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "Rewrite",
           "package": "transformations",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Machinery",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "Rewrite",
           "package": "transformations",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "Subst",
           "package": "transformations",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Machinery",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "Subst",
           "package": "transformations",
@@ -720,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "checkEqual",
           "package": "transformations",
@@ -729,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Machinery",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "checkEqual",
           "normalized": "a b-\u003eb-\u003eAny a-\u003ec()",
@@ -744,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "inst",
           "package": "transformations",
@@ -753,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Machinery",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "inst",
           "normalized": "Subst a-\u003ea b-\u003eScheme a b-\u003eb",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "match",
           "package": "transformations",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Machinery",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "match",
           "normalized": "a b-\u003eScheme a b-\u003eb-\u003ec(Subst a)",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "matchM",
           "package": "transformations",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Machinery",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "matchM",
           "normalized": "a b-\u003eScheme a b-\u003eI b-\u003eStateT(Subst a)c()",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "rewriteM",
           "package": "transformations",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Machinery",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Machinery",
           "name": "rewriteM",
           "normalized": "Rule a b-\u003eb-\u003eMaybe b",
@@ -836,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Rules",
           "package": "transformations",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Rules",
           "package": "transformations",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Builder",
           "package": "transformations",
@@ -865,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Builder",
           "package": "transformations",
@@ -879,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtends a pattern functor with a case for a metavariable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Ext",
           "package": "transformations",
@@ -888,6 +965,7 @@
         "index": {
           "description": "Extends pattern functor with case for metavariable",
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Ext",
           "package": "transformations",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Metavar",
           "package": "transformations",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Metavar",
           "package": "transformations",
@@ -923,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows metavariables on either side of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Rule",
           "package": "transformations",
@@ -932,6 +1013,7 @@
         "index": {
           "description": "Allows metavariables on either side of rule",
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Rule",
           "package": "transformations",
@@ -946,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies a rule as a value of a datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "RuleSpec",
           "package": "transformations",
@@ -955,6 +1038,7 @@
         "index": {
           "description": "Specifies rule as value of datatype",
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "RuleSpec",
           "package": "transformations",
@@ -969,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively extends a type with a case for a metavariable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Scheme",
           "package": "transformations",
@@ -978,6 +1063,7 @@
         "index": {
           "description": "Recursively extends type with case for metavariable",
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Scheme",
           "package": "transformations",
@@ -991,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": ":~\u003e",
           "package": "transformations",
@@ -1000,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": ":~\u003e",
           "package": "transformations",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Rule",
           "package": "transformations",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "Rule",
           "normalized": "a b-\u003eRuleSpec(Scheme a b)-\u003eRule a b",
@@ -1036,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "base",
           "package": "transformations",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "base",
           "normalized": "a(Target b)-\u003eb-\u003eRuleSpec(Target b)",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "diag",
           "package": "transformations",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "diag",
           "normalized": "a(Target b)-\u003eb-\u003e[RuleSpec(Target b)]",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "insertMVar",
           "package": "transformations",
@@ -1091,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "insertMVar",
           "normalized": "Metavar-\u003ea b-\u003eI b-\u003eI b-\u003eScheme a b",
@@ -1107,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the left-hand side of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "lhsR",
           "package": "transformations",
@@ -1117,6 +1214,7 @@
         "index": {
           "description": "Returns the left-hand side of rule",
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "lhsR",
           "normalized": "RuleSpec a-\u003ea",
@@ -1131,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "mergeSchemes",
           "package": "transformations",
@@ -1140,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "mergeSchemes",
           "normalized": "a b-\u003eScheme a b-\u003eScheme a b-\u003eScheme a b",
@@ -1156,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a metavariable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "metavar",
           "package": "transformations",
@@ -1166,6 +1267,7 @@
         "index": {
           "description": "Constructs metavariable",
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "metavar",
           "normalized": "a b-\u003eMetavar-\u003eScheme a b",
@@ -1180,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "pf",
           "package": "transformations",
@@ -1189,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "pf",
           "normalized": "a b-\u003ePF a(Scheme a)b-\u003eScheme a b",
@@ -1204,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the right-hand side of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "rhsR",
           "package": "transformations",
@@ -1214,6 +1319,7 @@
         "index": {
           "description": "Returns the right-hand side of rule",
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "rhsR",
           "normalized": "RuleSpec a-\u003ea",
@@ -1228,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "rule",
           "package": "transformations",
@@ -1237,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting Rules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting.Rules",
           "name": "rule",
           "normalized": "a-\u003eRule b(Target a)",
@@ -1251,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Rewriting",
           "name": "Rewriting",
           "package": "transformations",
@@ -1259,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Rewriting",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Rewriting",
           "name": "Rewriting",
           "package": "transformations",
@@ -1272,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Explicit",
           "package": "transformations",
@@ -1280,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Explicit",
           "package": "transformations",
@@ -1293,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "AnyInsert",
           "package": "transformations",
@@ -1301,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "AnyInsert",
           "package": "transformations",
@@ -1314,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "HasRef",
           "package": "transformations",
@@ -1322,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "HasRef",
           "package": "transformations",
@@ -1335,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "NiceInsert",
           "package": "transformations",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "NiceInsert",
           "package": "transformations",
@@ -1356,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "NiceTransformation",
           "package": "transformations",
@@ -1364,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "NiceTransformation",
           "package": "transformations",
@@ -1378,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparing index of different types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "OrdI",
           "package": "transformations",
@@ -1387,6 +1508,7 @@
         "index": {
           "description": "Comparing index of different types",
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "OrdI",
           "package": "transformations",
@@ -1400,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Path",
           "package": "transformations",
@@ -1408,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Path",
           "package": "transformations",
@@ -1421,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Transform",
           "package": "transformations",
@@ -1429,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Transform",
           "package": "transformations",
@@ -1442,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Transformation",
           "package": "transformations",
@@ -1450,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Transformation",
           "package": "transformations",
@@ -1463,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "WithRef",
           "package": "transformations",
@@ -1471,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "WithRef",
           "package": "transformations",
@@ -1484,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "AnyInsert",
           "package": "transformations",
@@ -1493,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "AnyInsert",
           "normalized": "a b-\u003ePath-\u003eHFix(WithRef a)b-\u003eAnyInsert a",
@@ -1508,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "InR",
           "package": "transformations",
@@ -1517,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "InR",
           "package": "transformations",
@@ -1530,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "NiceInsert",
           "package": "transformations",
@@ -1539,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "NiceInsert",
           "normalized": "a b-\u003ePath-\u003eRefRep a b-\u003eNiceInsert a",
@@ -1554,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Ref",
           "package": "transformations",
@@ -1563,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "Ref",
           "package": "transformations",
@@ -1577,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the transformation to the given tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "apply",
           "package": "transformations",
@@ -1587,6 +1726,7 @@
         "index": {
           "description": "Apply the transformation to the given tree",
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "apply",
           "normalized": "a b-\u003eb-\u003eTransformation a-\u003eMaybe b",
@@ -1601,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "compareI",
           "package": "transformations",
@@ -1610,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "compareI",
           "normalized": "a b-\u003ea c-\u003eOrdering",
@@ -1625,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a set of insertions to transform the first into the second tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "diff",
           "package": "transformations",
@@ -1635,6 +1778,7 @@
         "index": {
           "description": "Find set of insertions to transform the first into the second tree",
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "diff",
           "normalized": "a b-\u003eb-\u003eb-\u003eTransformation a",
@@ -1649,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "fromNiceTransformation",
           "package": "transformations",
@@ -1658,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "fromNiceTransformation",
           "normalized": "NiceTransformation a-\u003eTransformation a",
@@ -1673,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "fromRef",
           "package": "transformations",
@@ -1682,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "fromRef",
           "normalized": "a b-\u003eRefRep a b-\u003eHFix(WithRef a)b",
@@ -1697,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "indexI",
           "package": "transformations",
@@ -1706,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "indexI",
           "normalized": "a b-\u003eInt",
@@ -1720,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "toNiceTransformation",
           "package": "transformations",
@@ -1729,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "toNiceTransformation",
           "normalized": "Transformation a-\u003eNiceTransformation a",
@@ -1744,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "toRef",
           "package": "transformations",
@@ -1753,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.Explicit",
           "name": "toRef",
           "normalized": "a b-\u003eHFix(WithRef a)b-\u003eRefRep a b",
@@ -1768,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "RewriteRules",
           "package": "transformations",
@@ -1776,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "RewriteRules",
           "package": "transformations",
@@ -1789,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "AnyInsert",
           "package": "transformations",
@@ -1797,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "AnyInsert",
           "package": "transformations",
@@ -1810,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "Transform",
           "package": "transformations",
@@ -1818,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "Transform",
           "package": "transformations",
@@ -1831,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "Transformation",
           "package": "transformations",
@@ -1839,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "Transformation",
           "package": "transformations",
@@ -1852,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "AnyInsert",
           "package": "transformations",
@@ -1861,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "AnyInsert",
           "normalized": "a b-\u003e(Loc a I c-\u003eMaybe(Loc a I c))-\u003eRule a b-\u003eAnyInsert a c",
@@ -1876,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "apply",
           "package": "transformations",
@@ -1885,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "apply",
           "normalized": "Transformation a b-\u003ea b-\u003eb-\u003eMaybe b",
@@ -1899,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "insert",
           "package": "transformations",
@@ -1908,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.RewriteRules",
           "name": "insert",
           "normalized": "(Loc a I b-\u003eMaybe(Loc a I b))-\u003eRule a c-\u003eAnyInsert a b",
@@ -1922,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.TH",
           "name": "TH",
           "package": "transformations",
@@ -1930,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations TH",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.TH",
           "name": "TH",
           "package": "transformations",
@@ -1944,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive data type with references and \u003ccode\u003e\u003ca\u003eHasRef\u003c/a\u003e\u003c/code\u003e instance. For a data type\n   N the name of the constructor for a reference is RefN, and the given\n   function is used to change the rest of the constructors and the data\n   type name itself. For example, for the following definition:\n\u003c/p\u003e\u003cpre\u003e data Tree = Leaf Int | Bin Tree Tree\n data TreeAST :: * -\u003e * where\n    Tree :: TreeAST Tree\n $(deriveRefRep ''TreeAST (postfix \"R\"))\n\u003c/pre\u003e\u003cp\u003eThe following data type is generated:\n\u003c/p\u003e\u003cpre\u003e data TreeR = LeafR Int | BinR TreeR TreeR | RefTree Path\n instance HasRef TreeAST\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.TH",
           "name": "deriveRefRep",
           "package": "transformations",
@@ -1954,6 +2125,7 @@
         "index": {
           "description": "Derive data type with references and HasRef instance For data type the name of the constructor for reference is RefN and the given function is used to change the rest of the constructors and the data type name itself For example for the following definition data Tree Leaf Int Bin Tree Tree data TreeAST where Tree TreeAST Tree deriveRefRep TreeAST postfix The following data type is generated data TreeR LeafR Int BinR TreeR TreeR RefTree Path instance HasRef TreeAST",
           "hierarchy": "Generics MultiRec Transformations TH",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.TH",
           "name": "deriveRefRep",
           "normalized": "Name-\u003e(Name-\u003eName)-\u003eQ[Dec]",
@@ -1969,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.TH",
           "name": "postfix",
           "package": "transformations",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations TH",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.TH",
           "name": "postfix",
           "normalized": "String-\u003eName-\u003eName",
@@ -1992,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.TH",
           "name": "prefix",
           "package": "transformations",
@@ -2001,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations TH",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.TH",
           "name": "prefix",
           "normalized": "String-\u003eName-\u003eName",
@@ -2015,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "ZipperState",
           "package": "transformations",
@@ -2023,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "ZipperState",
           "package": "transformations",
@@ -2036,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "ZipperMonad",
           "package": "transformations",
@@ -2044,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "ZipperMonad",
           "package": "transformations",
@@ -2057,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "ZipperState",
           "package": "transformations",
@@ -2065,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "ZipperState",
           "package": "transformations",
@@ -2078,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "downMonad",
           "package": "transformations",
@@ -2087,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "downMonad",
           "package": "transformations",
@@ -2100,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "leftMonad",
           "package": "transformations",
@@ -2109,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "leftMonad",
           "package": "transformations",
@@ -2122,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "loadMonad",
           "package": "transformations",
@@ -2131,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "loadMonad",
           "package": "transformations",
@@ -2144,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "navigate",
           "package": "transformations",
@@ -2153,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "navigate",
           "normalized": "a b-\u003eb-\u003eZipperMonad a I b c-\u003eMaybe b",
@@ -2167,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "rightMonad",
           "package": "transformations",
@@ -2176,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "rightMonad",
           "package": "transformations",
@@ -2189,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "saveMonad",
           "package": "transformations",
@@ -2198,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "saveMonad",
           "package": "transformations",
@@ -2211,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "topMonad",
           "package": "transformations",
@@ -2220,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "topMonad",
           "package": "transformations",
@@ -2233,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "upMonad",
           "package": "transformations",
@@ -2242,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "upMonad",
           "package": "transformations",
@@ -2255,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "updateMonad",
           "package": "transformations",
@@ -2264,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.MultiRec.Transformations.ZipperState",
           "name": "updateMonad",
           "normalized": "(a b c d-\u003ed-\u003eMaybe d)-\u003eZipperMonad c I e(Any c)",
@@ -2279,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Functions.GOrd",
           "name": "GOrd",
           "package": "transformations",
@@ -2287,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Functions GOrd",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Functions.GOrd",
           "name": "GOrd",
           "package": "transformations",
@@ -2300,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Functions.GOrd",
           "name": "GOrd",
           "package": "transformations",
@@ -2308,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Functions GOrd",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Functions.GOrd",
           "name": "GOrd",
           "package": "transformations",
@@ -2321,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Functions.GOrd",
           "name": "comparef",
           "package": "transformations",
@@ -2330,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Functions GOrd",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Functions.GOrd",
           "name": "comparef",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eb a-\u003eb a-\u003eOrdering",
@@ -2344,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Functions.GOrd",
           "name": "gcompare",
           "package": "transformations",
@@ -2353,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Functions GOrd",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Functions.GOrd",
           "name": "gcompare",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -2367,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Explicit",
           "package": "transformations",
@@ -2375,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Explicit",
           "package": "transformations",
@@ -2388,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "HasRef",
           "package": "transformations",
@@ -2396,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "HasRef",
           "package": "transformations",
@@ -2409,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "NiceTransformation",
           "package": "transformations",
@@ -2417,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "NiceTransformation",
           "package": "transformations",
@@ -2430,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Path",
           "package": "transformations",
@@ -2438,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Path",
           "package": "transformations",
@@ -2451,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Transform",
           "package": "transformations",
@@ -2459,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Transform",
           "package": "transformations",
@@ -2472,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Transformation",
           "package": "transformations",
@@ -2480,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Transformation",
           "package": "transformations",
@@ -2493,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "WithRef",
           "package": "transformations",
@@ -2501,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "WithRef",
           "package": "transformations",
@@ -2514,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "InR",
           "package": "transformations",
@@ -2523,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "InR",
           "package": "transformations",
@@ -2536,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Ref",
           "package": "transformations",
@@ -2545,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "Ref",
           "package": "transformations",
@@ -2559,6 +2785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the edits to the given tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "apply",
           "package": "transformations",
@@ -2569,6 +2796,7 @@
         "index": {
           "description": "Apply the edits to the given tree",
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "apply",
           "normalized": "Transformation a-\u003ea-\u003eMaybe a",
@@ -2584,6 +2812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a set of edits to transform the first into the second tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "diff",
           "package": "transformations",
@@ -2594,6 +2823,7 @@
         "index": {
           "description": "Find set of edits to transform the first into the second tree",
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "diff",
           "normalized": "a-\u003ea-\u003eTransformation a",
@@ -2608,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "fromNiceTransformation",
           "package": "transformations",
@@ -2617,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "fromNiceTransformation",
           "normalized": "NiceTransformation a-\u003eTransformation a",
@@ -2632,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "fromRef",
           "package": "transformations",
@@ -2641,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "fromRef",
           "normalized": "RefRep a-\u003eWithRef a(RefRep a)",
@@ -2656,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "toNiceTransformation",
           "package": "transformations",
@@ -2665,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "toNiceTransformation",
           "normalized": "Transformation a-\u003eNiceTransformation a",
@@ -2680,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "toRef",
           "package": "transformations",
@@ -2689,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations Explicit",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.Explicit",
           "name": "toRef",
           "normalized": "WithRef a(RefRep a)-\u003eRefRep a",
@@ -2704,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.RewriteRules",
           "name": "RewriteRules",
           "package": "transformations",
@@ -2712,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.RewriteRules",
           "name": "RewriteRules",
           "package": "transformations",
@@ -2725,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.RewriteRules",
           "name": "Transform",
           "package": "transformations",
@@ -2733,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.RewriteRules",
           "name": "Transform",
           "package": "transformations",
@@ -2746,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.RewriteRules",
           "name": "Transformation",
           "package": "transformations",
@@ -2754,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.RewriteRules",
           "name": "Transformation",
           "package": "transformations",
@@ -2767,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.RewriteRules",
           "name": "apply",
           "package": "transformations",
@@ -2776,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations RewriteRules",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.RewriteRules",
           "name": "apply",
           "normalized": "Transformation a-\u003ea-\u003eMaybe a",
@@ -2790,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.TH",
           "name": "TH",
           "package": "transformations",
@@ -2798,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations TH",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.TH",
           "name": "TH",
           "package": "transformations",
@@ -2812,6 +3060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive data type with references and \u003ccode\u003e\u003ca\u003eHasRef\u003c/a\u003e\u003c/code\u003e instance. For a data type\n   N the name of the constructor for a reference is RefN, and the given\n   function is used to change the rest of the constructors and the data\n   type name itself. For example, for the following definition:\n\u003c/p\u003e\u003cpre\u003e data Tree = Leaf Int | Bin Tree Tree\n $(deriveRefRep ''Tree (postfix \"R\"))\n\u003c/pre\u003e\u003cp\u003eThe following data type is generated:\n\u003c/p\u003e\u003cpre\u003e data TreeR = LeafR Int | BinR TreeR TreeR | RefTree Path\n instance HasRef Tree\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.TH",
           "name": "deriveRefRep",
           "package": "transformations",
@@ -2822,6 +3071,7 @@
         "index": {
           "description": "Derive data type with references and HasRef instance For data type the name of the constructor for reference is RefN and the given function is used to change the rest of the constructors and the data type name itself For example for the following definition data Tree Leaf Int Bin Tree Tree deriveRefRep Tree postfix The following data type is generated data TreeR LeafR Int BinR TreeR TreeR RefTree Path instance HasRef Tree",
           "hierarchy": "Generics Regular Transformations TH",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.TH",
           "name": "deriveRefRep",
           "normalized": "Name-\u003e(Name-\u003eName)-\u003eQ[Dec]",
@@ -2837,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.TH",
           "name": "postfix",
           "package": "transformations",
@@ -2846,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations TH",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.TH",
           "name": "postfix",
           "normalized": "String-\u003eName-\u003eName",
@@ -2860,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.TH",
           "name": "prefix",
           "package": "transformations",
@@ -2869,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations TH",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.TH",
           "name": "prefix",
           "normalized": "String-\u003eName-\u003eName",
@@ -2883,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "ZipperState",
           "package": "transformations",
@@ -2891,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "ZipperState",
           "package": "transformations",
@@ -2904,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "ZipperMonad",
           "package": "transformations",
@@ -2912,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "ZipperMonad",
           "package": "transformations",
@@ -2925,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "ZipperState",
           "package": "transformations",
@@ -2933,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "ZipperState",
           "package": "transformations",
@@ -2946,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "downMonad",
           "package": "transformations",
@@ -2955,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "downMonad",
           "package": "transformations",
@@ -2968,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "leftMonad",
           "package": "transformations",
@@ -2977,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "leftMonad",
           "package": "transformations",
@@ -2990,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "loadMonad",
           "package": "transformations",
@@ -2999,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "loadMonad",
           "package": "transformations",
@@ -3012,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "navigate",
           "package": "transformations",
@@ -3021,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "navigate",
           "normalized": "a-\u003eZipperMonad a b-\u003eMaybe a",
@@ -3035,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "rightMonad",
           "package": "transformations",
@@ -3044,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "rightMonad",
           "package": "transformations",
@@ -3057,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "saveMonad",
           "package": "transformations",
@@ -3066,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "saveMonad",
           "package": "transformations",
@@ -3079,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "topMonad",
           "package": "transformations",
@@ -3088,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "topMonad",
           "package": "transformations",
@@ -3101,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "upMonad",
           "package": "transformations",
@@ -3110,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "upMonad",
           "package": "transformations",
@@ -3123,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "updateMonad",
           "package": "transformations",
@@ -3132,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Transformations ZipperState",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Transformations.ZipperState",
           "name": "updateMonad",
           "normalized": "(a-\u003ea)-\u003eZipperMonad a a",
@@ -3147,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "Zipper",
           "package": "transformations",
@@ -3155,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "Zipper",
           "package": "transformations",
@@ -3169,6 +3449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of context frames. Not required for the high-level\n navigation functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "Ctx",
           "package": "transformations",
@@ -3178,6 +3459,7 @@
         "index": {
           "description": "Abstract type of context frames Not required for the high-level navigation functions",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "Ctx",
           "package": "transformations",
@@ -3192,6 +3474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of locations. A location contains the current focus\n and its context. A location is parameterized over the family of\n datatypes and over the type of the complete value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "Loc",
           "package": "transformations",
@@ -3201,6 +3484,7 @@
         "index": {
           "description": "Abstract type of locations location contains the current focus and its context location is parameterized over the family of datatypes and over the type of the complete value",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "Loc",
           "package": "transformations",
@@ -3215,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is in general not necessary to use the generic navigation\n functions directly. The functions listed in the `\u003ccode\u003eInterface'\u003c/code\u003e section\n below are more user-friendly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "Zipper",
           "package": "transformations",
@@ -3224,6 +3509,7 @@
         "index": {
           "description": "It is in general not necessary to use the generic navigation functions directly The functions listed in the Interface section below are more user-friendly",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "Zipper",
           "package": "transformations",
@@ -3237,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "Loc",
           "package": "transformations",
@@ -3246,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "Loc",
           "normalized": "a-\u003e[Ctx(PF a)a]-\u003eLoc a",
@@ -3261,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "cmap",
           "package": "transformations",
@@ -3270,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "cmap",
           "normalized": "(a-\u003eb)-\u003eCtx c a-\u003eCtx c b",
@@ -3285,6 +3575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down to the leftmost child. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n current focus is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "down",
           "package": "transformations",
@@ -3295,6 +3586,7 @@
         "index": {
           "description": "Move down to the leftmost child Returns Nothing if the current focus is leaf",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "down",
           "normalized": "Loc a-\u003eMaybe(Loc a)",
@@ -3310,6 +3602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down to the rightmost child. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n current focus is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "down'",
           "package": "transformations",
@@ -3320,6 +3613,7 @@
         "index": {
           "description": "Move down to the rightmost child Returns Nothing if the current focus is leaf",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "down'",
           "normalized": "Loc a-\u003eMaybe(Loc a)",
@@ -3335,6 +3629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart navigating a datastructure. Returns a location that\n focuses the entire value and has an empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "enter",
           "package": "transformations",
@@ -3345,6 +3640,7 @@
         "index": {
           "description": "Start navigating datastructure Returns location that focuses the entire value and has an empty context",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "enter",
           "normalized": "a-\u003eLoc a",
@@ -3359,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "fill",
           "package": "transformations",
@@ -3368,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "fill",
           "normalized": "Ctx a b-\u003eb-\u003ea b",
@@ -3382,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "first",
           "package": "transformations",
@@ -3391,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "first",
           "normalized": "a b-\u003eMaybe(b,Ctx a b)",
@@ -3406,6 +3706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the entire value, independent of the current focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "leave",
           "package": "transformations",
@@ -3416,6 +3717,7 @@
         "index": {
           "description": "Return the entire value independent of the current focus",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "leave",
           "normalized": "Loc a-\u003ea",
@@ -3431,6 +3733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to the left sibling. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the leftmost sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "left",
           "package": "transformations",
@@ -3441,6 +3744,7 @@
         "index": {
           "description": "Move to the left sibling Returns Nothing if the current focus is the leftmost sibling",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "left",
           "normalized": "Loc a-\u003eMaybe(Loc a)",
@@ -3455,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "next",
           "package": "transformations",
@@ -3464,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "next",
           "normalized": "Ctx a b-\u003eb-\u003eMaybe(b,Ctx a b)",
@@ -3479,6 +3785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperate on the current focus. This function can be used to\n extract the current point of focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "on",
           "package": "transformations",
@@ -3489,6 +3796,7 @@
         "index": {
           "description": "Operate on the current focus This function can be used to extract the current point of focus",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "on",
           "normalized": "Loc a-\u003ea",
@@ -3504,6 +3812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to the right sibling. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the rightmost sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "right",
           "package": "transformations",
@@ -3514,6 +3823,7 @@
         "index": {
           "description": "Move to the right sibling Returns Nothing if the current focus is the rightmost sibling",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "right",
           "normalized": "Loc a-\u003eMaybe(Loc a)",
@@ -3529,6 +3839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove up to the parent. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "up",
           "package": "transformations",
@@ -3539,6 +3850,7 @@
         "index": {
           "description": "Move up to the parent Returns Nothing if the current focus is the root",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "up",
           "normalized": "Loc a-\u003eMaybe(Loc a)",
@@ -3554,6 +3866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the current focus without changing its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "update",
           "package": "transformations",
@@ -3564,6 +3877,7 @@
         "index": {
           "description": "Update the current focus without changing its type",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "update",
           "normalized": "(a-\u003ea)-\u003eLoc a-\u003eLoc a",
@@ -3579,6 +3893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the current focus without changing its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:46 UTC 2014",
           "module": "Generics.Regular.Zipper",
           "name": "updateM",
           "package": "transformations",
@@ -3589,6 +3904,7 @@
         "index": {
           "description": "Update the current focus without changing its type",
           "hierarchy": "Generics Regular Zipper",
+          "indexed": "2014-03-11T20:24:46",
           "module": "Generics.Regular.Zipper",
           "name": "updateM",
           "normalized": "(a-\u003eb a)-\u003eLoc a-\u003eb(Loc a)",

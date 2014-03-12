@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hashable-extras"
+        "phrase": "hashable-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "Extras",
           "package": "hashable-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "Extras",
           "package": "hashable-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "Hashable1",
           "package": "hashable-extras",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "Hashable1",
           "package": "hashable-extras",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "Hashable2",
           "package": "hashable-extras",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "Hashable2",
           "package": "hashable-extras",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "Hashed",
           "package": "hashable-extras",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "Hashed",
           "package": "hashable-extras",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "Hashed",
           "package": "hashable-extras",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "Hashed",
           "package": "hashable-extras",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "hash1",
           "package": "hashable-extras",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "hash1",
           "normalized": "a b-\u003eInt",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "hash2",
           "package": "hashable-extras",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "hash2",
           "normalized": "a b c-\u003eInt",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "hashWith1",
           "package": "hashable-extras",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "hashWith1",
           "normalized": "(Int-\u003ea-\u003eInt)-\u003eInt-\u003eb a-\u003eInt",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "hashWith2",
           "package": "hashable-extras",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "hashWith2",
           "normalized": "(Int-\u003ea-\u003eInt)-\u003e(Int-\u003eb-\u003eInt)-\u003eInt-\u003ec a b-\u003eInt",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "hashWithSalt1",
           "package": "hashable-extras",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "hashWithSalt1",
           "normalized": "Int-\u003ea b-\u003eInt",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "hashWithSalt2",
           "package": "hashable-extras",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "hashWithSalt2",
           "normalized": "Int-\u003ea b c-\u003eInt",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the default salt used by \u003ccode\u003e\u003ca\u003eHashable\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "salt",
           "package": "hashable-extras",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Extract the default salt used by Hashable",
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "salt",
           "package": "hashable-extras",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:56 UTC 2014",
           "module": "Data.Hashable.Extras",
           "name": "unhashed",
           "package": "hashable-extras",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data Hashable Extras",
+          "indexed": "2014-03-11T18:29:56",
           "module": "Data.Hashable.Extras",
           "name": "unhashed",
           "normalized": "Int-\u003eInt",

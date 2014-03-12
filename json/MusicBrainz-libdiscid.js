@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MusicBrainz-libdiscid"
+        "phrase": "MusicBrainz-libdiscid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "DiscId",
           "package": "MusicBrainz-libdiscid",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "DiscId",
           "package": "MusicBrainz-libdiscid",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe information for a disc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "DiscId",
           "package": "MusicBrainz-libdiscid",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The information for disc",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "DiscId",
           "package": "MusicBrainz-libdiscid",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeatures procided by libdiscid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "DiscIdFeature",
           "package": "MusicBrainz-libdiscid",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Features procided by libdiscid",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "DiscIdFeature",
           "package": "MusicBrainz-libdiscid",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TOC of a disc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "TOC",
           "package": "MusicBrainz-libdiscid",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The TOC of disc",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "TOC",
           "package": "MusicBrainz-libdiscid",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe information for a track\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "Track",
           "package": "MusicBrainz-libdiscid",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The information for track",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "Track",
           "package": "MusicBrainz-libdiscid",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "DiscId",
           "package": "MusicBrainz-libdiscid",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "DiscId",
           "package": "MusicBrainz-libdiscid",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ISRC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "ISRC",
           "package": "MusicBrainz-libdiscid",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Get ISRC",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "ISRC",
           "package": "MusicBrainz-libdiscid",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Media Catalogue Number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "MCN",
           "package": "MusicBrainz-libdiscid",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Get Media Catalogue Number",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "MCN",
           "package": "MusicBrainz-libdiscid",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead disc TOC and calculate IDs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "Read",
           "package": "MusicBrainz-libdiscid",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Read disc TOC and calculate IDs",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "Read",
           "package": "MusicBrainz-libdiscid",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "TOC",
           "package": "MusicBrainz-libdiscid",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "TOC",
           "package": "MusicBrainz-libdiscid",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "Track",
           "package": "MusicBrainz-libdiscid",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "Track",
           "package": "MusicBrainz-libdiscid",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown feature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "Unknown",
           "package": "MusicBrainz-libdiscid",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Unknown feature",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "Unknown",
           "package": "MusicBrainz-libdiscid",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of the first track on this disc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "firstTrackNum",
           "package": "MusicBrainz-libdiscid",
@@ -304,6 +329,7 @@
         "index": {
           "description": "The number of the first track on this disc",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "firstTrackNum",
           "package": "MusicBrainz-libdiscid",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreeDB DiscID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "freedbId",
           "package": "MusicBrainz-libdiscid",
@@ -328,6 +355,7 @@
         "index": {
           "description": "FreeDB DiscID",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "freedbId",
           "package": "MusicBrainz-libdiscid",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the name of the default disc drive for this operating system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "getDefaultDevice",
           "package": "MusicBrainz-libdiscid",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Return the name of the default disc drive for this operating system",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "getDefaultDevice",
           "package": "MusicBrainz-libdiscid",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of features supported by the current platform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "getFeatureList",
           "package": "MusicBrainz-libdiscid",
@@ -375,6 +406,7 @@
         "index": {
           "description": "list of features supported by the current platform",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "getFeatureList",
           "normalized": "[DiscIdFeature]",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the full version string of this library, including the name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "getVersionString",
           "package": "MusicBrainz-libdiscid",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Return the full version string of this library including the name",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "getVersionString",
           "package": "MusicBrainz-libdiscid",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a certain feature is implemented on the current platform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "hasFeature",
           "package": "MusicBrainz-libdiscid",
@@ -424,6 +459,7 @@
         "index": {
           "description": "Check if certain feature is implemented on the current platform",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "hasFeature",
           "normalized": "DiscIdFeature-\u003eBool",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ISRC for a track\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "isrc",
           "package": "MusicBrainz-libdiscid",
@@ -450,6 +487,7 @@
         "index": {
           "description": "The ISRC for track",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "isrc",
           "package": "MusicBrainz-libdiscid",
@@ -463,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of the last track on this disc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "lastTrackNum",
           "package": "MusicBrainz-libdiscid",
@@ -473,6 +512,7 @@
         "index": {
           "description": "The number of the last track on this disc",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "lastTrackNum",
           "package": "MusicBrainz-libdiscid",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of a track in sectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "length",
           "package": "MusicBrainz-libdiscid",
@@ -497,6 +538,7 @@
         "index": {
           "description": "The length of track in sectors",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "length",
           "package": "MusicBrainz-libdiscid",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMusicBrainz DiscID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "mbId",
           "package": "MusicBrainz-libdiscid",
@@ -520,6 +563,7 @@
         "index": {
           "description": "MusicBrainz DiscID",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "mbId",
           "package": "MusicBrainz-libdiscid",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Media Catalogue Number for the disc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "mcn",
           "package": "MusicBrainz-libdiscid",
@@ -544,6 +589,7 @@
         "index": {
           "description": "The Media Catalogue Number for the disc",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "mcn",
           "package": "MusicBrainz-libdiscid",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe track number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "num",
           "package": "MusicBrainz-libdiscid",
@@ -567,6 +614,7 @@
         "index": {
           "description": "The track number",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "num",
           "package": "MusicBrainz-libdiscid",
@@ -580,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sector offset of a track\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "offset",
           "package": "MusicBrainz-libdiscid",
@@ -590,6 +639,7 @@
         "index": {
           "description": "The sector offset of track",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "offset",
           "package": "MusicBrainz-libdiscid",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the disc in the given CD-ROM/DVD-ROM drive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "readFromCd",
           "package": "MusicBrainz-libdiscid",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Read the disc in the given CD-ROM DVD-ROM drive",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "readFromCd",
           "normalized": "String-\u003eIO(Either String DiscId)",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the disc in the default CD-ROM/DVD-ROM drive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "readFromDefaultCd",
           "package": "MusicBrainz-libdiscid",
@@ -639,6 +692,7 @@
         "index": {
           "description": "Read the disc in the default CD-ROM DVD-ROM drive",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "readFromDefaultCd",
           "package": "MusicBrainz-libdiscid",
@@ -653,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of the disc in sectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "sectors",
           "package": "MusicBrainz-libdiscid",
@@ -663,6 +718,7 @@
         "index": {
           "description": "The length of the disc in sectors",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "sectors",
           "package": "MusicBrainz-libdiscid",
@@ -676,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL for submitting the DiscID to MusicBrainz\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "submissionUrl",
           "package": "MusicBrainz-libdiscid",
@@ -686,6 +743,7 @@
         "index": {
           "description": "URL for submitting the DiscID to MusicBrainz",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "submissionUrl",
           "package": "MusicBrainz-libdiscid",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TOC of the disc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "toc",
           "package": "MusicBrainz-libdiscid",
@@ -710,6 +769,7 @@
         "index": {
           "description": "The TOC of the disc",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "toc",
           "package": "MusicBrainz-libdiscid",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tracks on the disc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "tracks",
           "package": "MusicBrainz-libdiscid",
@@ -733,6 +794,7 @@
         "index": {
           "description": "The tracks on the disc",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "tracks",
           "package": "MusicBrainz-libdiscid",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL for retrieving CD information from MusicBrainz' web service\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:45 UTC 2014",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "webserviceUrl",
           "package": "MusicBrainz-libdiscid",
@@ -756,6 +819,7 @@
         "index": {
           "description": "URL for retrieving CD information from MusicBrainz web service",
           "hierarchy": "Sound MusicBrainz DiscId",
+          "indexed": "2014-03-11T16:53:45",
           "module": "Sound.MusicBrainz.DiscId",
           "name": "webserviceUrl",
           "package": "MusicBrainz-libdiscid",

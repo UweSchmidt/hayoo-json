@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shorten-strings"
+        "phrase": "shorten-strings",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:50 UTC 2014",
           "module": "Data.Shorten",
           "name": "Shorten",
           "package": "shorten-strings",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Shorten",
+          "indexed": "2014-03-11T20:01:50",
           "module": "Data.Shorten",
           "name": "Shorten",
           "package": "shorten-strings",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:50 UTC 2014",
           "module": "Data.Shorten",
           "name": "Shorten",
           "package": "shorten-strings",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Shorten",
+          "indexed": "2014-03-11T20:01:50",
           "module": "Data.Shorten",
           "name": "Shorten",
           "package": "shorten-strings",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:50 UTC 2014",
           "module": "Data.Shorten",
           "name": "shorten",
           "package": "shorten-strings",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Shorten",
+          "indexed": "2014-03-11T20:01:50",
           "module": "Data.Shorten",
           "name": "shorten",
           "normalized": "Int-\u003ea-\u003ea",

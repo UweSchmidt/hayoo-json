@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wol"
+        "phrase": "wol",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA 'sort of' reusable module for mac addresses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.MacAddress",
           "name": "MacAddress",
           "package": "wol",
@@ -28,6 +29,7 @@
         "index": {
           "description": "sort of reusable module for mac addresses",
           "hierarchy": "Network MacAddress",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.MacAddress",
           "name": "MacAddress",
           "package": "wol",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.MacAddress",
           "name": "MacAddress",
           "package": "wol",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network MacAddress",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.MacAddress",
           "name": "MacAddress",
           "package": "wol",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.MacAddress",
           "name": "MacAddress",
           "package": "wol",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network MacAddress",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.MacAddress",
           "name": "MacAddress",
           "package": "wol",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all bytes in a mac address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.MacAddress",
           "name": "bytes",
           "package": "wol",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Get all bytes in mac address",
           "hierarchy": "Network MacAddress",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.MacAddress",
           "name": "bytes",
           "normalized": "MacAddress-\u003e[Word]",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial function to \u003ca\u003eparse\u003c/a\u003e a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eMacAddress\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.MacAddress",
           "name": "parse",
           "package": "wol",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Partial function to parse String to MacAddress",
           "hierarchy": "Network MacAddress",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.MacAddress",
           "name": "parse",
           "normalized": "String-\u003eMacAddress",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for sending a Wake on LAN Magic Packet.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.WoL",
           "name": "WoL",
           "package": "wol",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Functions for sending Wake on LAN Magic Packet",
           "hierarchy": "Network WoL",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.WoL",
           "name": "WoL",
           "package": "wol",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a magic packet based on \u003ccode\u003e\u003ca\u003eMacAddress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.WoL",
           "name": "magicPacket",
           "package": "wol",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Construct magic packet based on MacAddress",
           "hierarchy": "Network WoL",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.WoL",
           "name": "magicPacket",
           "normalized": "MacAddress-\u003eString",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a magic packet to the specified location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.WoL",
           "name": "send",
           "package": "wol",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Send magic packet to the specified location",
           "hierarchy": "Network WoL",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.WoL",
           "name": "send",
           "normalized": "HostAddress-\u003eMacAddress-\u003ePortNumber-\u003eIO()",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser friendly wrapper around \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:32 UTC 2014",
           "module": "Network.WoL",
           "name": "sendWoLMagicPacket",
           "package": "wol",
@@ -219,6 +236,7 @@
         "index": {
           "description": "User friendly wrapper around send function",
           "hierarchy": "Network WoL",
+          "indexed": "2014-03-11T20:39:32",
           "module": "Network.WoL",
           "name": "sendWoLMagicPacket",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO()",

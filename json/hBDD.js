@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hBDD"
+        "phrase": "hBDD",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BF",
           "package": "hBDD",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BF",
           "package": "hBDD",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract syntax tree-ish instance of the \u003ccode\u003e\u003ca\u003eBoolean\u003c/a\u003e\u003c/code\u003e interface,\n sometimes useful for debugging.\n\u003c/p\u003e\u003cp\u003eNote the \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance is \u003cem\u003enot\u003c/em\u003e semantic equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BF",
           "package": "hBDD",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An abstract syntax tree-ish instance of the Boolean interface sometimes useful for debugging Note the Eq instance is not semantic equality",
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BF",
           "package": "hBDD",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFand",
           "package": "hBDD",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFand",
           "package": "hBDD",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFexists",
           "package": "hBDD",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFexists",
           "normalized": "BFexists[BF]BF",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFfalse",
           "package": "hBDD",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFfalse",
           "package": "hBDD",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFforall",
           "package": "hBDD",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFforall",
           "normalized": "BFforall[BF]BF",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFiff",
           "package": "hBDD",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFiff",
           "package": "hBDD",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFimplies",
           "package": "hBDD",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFimplies",
           "package": "hBDD",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFneg",
           "package": "hBDD",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFneg",
           "package": "hBDD",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFor",
           "package": "hBDD",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFor",
           "package": "hBDD",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFsubst",
           "package": "hBDD",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFsubst",
           "normalized": "BFsubst[(BF,BF)]BF",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFtrue",
           "package": "hBDD",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFtrue",
           "package": "hBDD",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFvar",
           "package": "hBDD",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFvar",
           "package": "hBDD",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean.BF",
           "name": "BFxor",
           "package": "hBDD",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean BF",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean.BF",
           "name": "BFxor",
           "package": "hBDD",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface to libraries supporting efficient manipulation of\n Boolean functions, such as BDDs. It is an evolution of \u003ccode\u003eLogical\n Abstractions in Haskell\u003c/code\u003e by Nancy A. Day, John Launchbury and Jeff\n Lewis, Haskell Workshop, Paris, October 1999.\n\u003c/p\u003e\u003cp\u003eThe purity of this interface may make it difficult to predict when\n BDDs actually get constructed.\n\u003c/p\u003e\u003cp\u003eNote the use of \u003ccode\u003e\u003ca\u003eneg\u003c/a\u003e\u003c/code\u003e rather than \u003ccode\u003enot\u003c/code\u003e to avoid a clash with\n \u003ccode\u003ePrelude.not\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "Boolean",
           "package": "hBDD",
@@ -342,6 +371,7 @@
         "index": {
           "description": "An interface to libraries supporting efficient manipulation of Boolean functions such as BDDs It is an evolution of Logical Abstractions in Haskell by Nancy Day John Launchbury and Jeff Lewis Haskell Workshop Paris October The purity of this interface may make it difficult to predict when BDDs actually get constructed Note the use of neg rather than not to avoid clash with Prelude.not",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "Boolean",
           "package": "hBDD",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperations provided by BDD representations.\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance is expected to provide \u003cem\u003esemantic\u003c/em\u003e\n equality on boolean functions, as is typical of BDD packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "BDDOps",
           "package": "hBDD",
@@ -365,6 +396,7 @@
         "index": {
           "description": "Operations provided by BDD representations Note that the Eq instance is expected to provide semantic equality on boolean functions as is typical of BDD packages",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "BDDOps",
           "package": "hBDD",
@@ -379,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operators have similar fixities and associativies to the\n standard boolean operators, but at higher precedence (they bind\n more strongly).\n\u003c/p\u003e\u003cp\u003eThe overloaded Boolean operations proper. Provides defaults for\n operations with obvious expansions, such as \u003ccode\u003e\u003ca\u003enand\u003c/a\u003e\u003c/code\u003e. A minimal\n instance should define '(/)' and \u003ccode\u003e\u003ca\u003eneg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "Boolean",
           "package": "hBDD",
@@ -388,6 +421,7 @@
         "index": {
           "description": "The operators have similar fixities and associativies to the standard boolean operators but at higher precedence they bind more strongly The overloaded Boolean operations proper Provides defaults for operations with obvious expansions such as nand minimal instance should define and neg",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "Boolean",
           "package": "hBDD",
@@ -402,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "BooleanVariable",
           "package": "hBDD",
@@ -411,6 +446,7 @@
         "index": {
           "description": "Boolean variables",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "BooleanVariable",
           "package": "hBDD",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantified Boolean Formulae (QBF) operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "QBF",
           "package": "hBDD",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Quantified Boolean Formulae QBF operations",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "QBF",
           "package": "hBDD",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for the text constants and operators used by \u003ccode\u003e\u003ca\u003esop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "RenderBool",
           "package": "hBDD",
@@ -457,6 +496,7 @@
         "index": {
           "description": "class for the text constants and operators used by sop",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "RenderBool",
           "package": "hBDD",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBDD libraries tend to include some kind of variable reordering\n heuristics. These are some common ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "ReorderingMethod",
           "package": "hBDD",
@@ -480,6 +521,7 @@
         "index": {
           "description": "BDD libraries tend to include some kind of variable reordering heuristics These are some common ones",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "ReorderingMethod",
           "package": "hBDD",
@@ -494,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitutions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "Substitution",
           "package": "hBDD",
@@ -503,6 +546,7 @@
         "index": {
           "description": "Substitutions",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "Substitution",
           "package": "hBDD",
@@ -517,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "(--\u003e)",
           "package": "hBDD",
@@ -527,6 +572,7 @@
         "index": {
           "description": "Implication",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "(--\u003e) --\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "(/\\)",
           "package": "hBDD",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "(/\\) /\\",
           "normalized": "a-\u003ea-\u003ea",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse implication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "(\u003c--)",
           "package": "hBDD",
@@ -575,6 +624,7 @@
         "index": {
           "description": "Reverse implication",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "(\u003c--) \u003c--",
           "normalized": "a-\u003ea-\u003ea",
@@ -590,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf-and-only-if is exclusive nor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "(\u003c-\u003e)",
           "package": "hBDD",
@@ -600,6 +651,7 @@
         "index": {
           "description": "If-and-only-if is exclusive nor",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "(\\/)",
           "package": "hBDD",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "(\\/) \\/",
           "normalized": "a-\u003ea-\u003ea",
@@ -638,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch off variable reordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "ReorderNone",
           "package": "hBDD",
@@ -648,6 +703,7 @@
         "index": {
           "description": "Switch off variable reordering",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "ReorderNone",
           "package": "hBDD",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSifting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "ReorderSift",
           "package": "hBDD",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Sifting",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "ReorderSift",
           "package": "hBDD",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSifting with identification of symmetric variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "ReorderSiftSym",
           "package": "hBDD",
@@ -696,6 +755,7 @@
         "index": {
           "description": "Sifting with identification of symmetric variables",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "ReorderSiftSym",
           "package": "hBDD",
@@ -710,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindow permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "ReorderStableWindow3",
           "package": "hBDD",
@@ -720,6 +781,7 @@
         "index": {
           "description": "Window permutation",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "ReorderStableWindow3",
           "package": "hBDD",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the this-node-false-branch of a \u003cem\u003ef\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "belse",
           "package": "hBDD",
@@ -744,6 +807,7 @@
         "index": {
           "description": "Extracts the this-node-false-branch of",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "belse",
           "package": "hBDD",
@@ -757,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the variable labelling the topmost node in \u003cem\u003ef\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "bif",
           "package": "hBDD",
@@ -767,6 +832,7 @@
         "index": {
           "description": "Extracts the variable labelling the topmost node in",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "bif",
           "package": "hBDD",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the this-node-true-branch of a \u003cem\u003ef\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "bthen",
           "package": "hBDD",
@@ -790,6 +857,7 @@
         "index": {
           "description": "Extracts the this-node-true-branch of",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "bthen",
           "package": "hBDD",
@@ -803,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "bvar",
           "package": "hBDD",
@@ -813,6 +882,7 @@
         "index": {
           "description": "single variable",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "bvar",
           "normalized": "String-\u003ea",
@@ -828,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of variables, notionally 'adjacent'. What this means\n is implementation-defined, but the intention is to support\n (current, next)-state variable pairing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "bvars",
           "package": "hBDD",
@@ -838,6 +909,7 @@
         "index": {
           "description": "set of variables notionally adjacent What this means is implementation-defined but the intention is to support current next state variable pairing",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "bvars",
           "normalized": "[String]-\u003e[a]",
@@ -853,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms the Big Conjunction of a list of \u003ccode\u003e\u003ca\u003eBoolean\u003c/a\u003e\u003c/code\u003e formulas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "conjoin",
           "package": "hBDD",
@@ -863,6 +936,7 @@
         "index": {
           "description": "Forms the Big Conjunction of list of Boolean formulas",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "conjoin",
           "normalized": "[a]-\u003ea",
@@ -878,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of paths in a BDD leading to \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "countPaths",
           "package": "hBDD",
@@ -888,6 +963,7 @@
         "index": {
           "description": "Count the number of paths in BDD leading to true",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "countPaths",
           "normalized": "a-\u003eInteger",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms the Big Disjunction of a list of \u003ccode\u003e\u003ca\u003eBoolean\u003c/a\u003e\u003c/code\u003e formulas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "disjoin",
           "package": "hBDD",
@@ -914,6 +991,7 @@
         "index": {
           "description": "Forms the Big Disjunction of list of Boolean formulas",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "disjoin",
           "normalized": "[a]-\u003ea",
@@ -929,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistentially quantify out a given set of variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "exists",
           "package": "hBDD",
@@ -939,6 +1018,7 @@
         "index": {
           "description": "Existentially quantify out given set of variables",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "exists",
           "normalized": "Group a-\u003ea-\u003ea",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "false",
           "package": "hBDD",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "false",
           "package": "hBDD",
@@ -975,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the fixpoint of a \u003ca\u003eBoolean\u003c/a\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "fix",
           "package": "hBDD",
@@ -985,6 +1068,7 @@
         "index": {
           "description": "Compute the fixpoint of Boolean function",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "fix",
           "normalized": "a-\u003e(a-\u003ea)-\u003ea",
@@ -1000,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003efix\u003c/a\u003e with state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "fix2",
           "package": "hBDD",
@@ -1010,6 +1095,7 @@
         "index": {
           "description": "fix with state",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "fix2",
           "normalized": "a-\u003eb-\u003e(a-\u003eb-\u003e(a,b))-\u003e(a,b)",
@@ -1025,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversally quantify out a given set of variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "forall",
           "package": "hBDD",
@@ -1035,6 +1122,7 @@
         "index": {
           "description": "Universally quantify out given set of variables",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "forall",
           "normalized": "Group a-\u003ea-\u003ea",
@@ -1050,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a pointer to the underlying representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "get_bdd_ptr",
           "package": "hBDD",
@@ -1060,6 +1149,7 @@
         "index": {
           "description": "Return pointer to the underlying representation",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "get_bdd_ptr",
           "normalized": "a-\u003eIntPtr",
@@ -1075,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct aggregations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "mkGroup",
           "package": "hBDD",
@@ -1085,6 +1176,7 @@
         "index": {
           "description": "Construct aggregations",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "mkGroup",
           "normalized": "[a]-\u003eGroup a",
@@ -1101,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a new substitution. The arguments are\n \u003ccode\u003e(Variable, Formula)\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "mkSubst",
           "package": "hBDD",
@@ -1111,6 +1204,7 @@
         "index": {
           "description": "Builds new substitution The arguments are Variable Formula pairs",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "mkSubst",
           "normalized": "[(a,a)]-\u003eSubst a",
@@ -1126,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "nand",
           "package": "hBDD",
@@ -1135,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "nand",
           "normalized": "a-\u003ea-\u003ea",
@@ -1149,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "neg",
           "package": "hBDD",
@@ -1158,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -1172,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "nor",
           "package": "hBDD",
@@ -1181,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "nor",
           "normalized": "a-\u003ea-\u003ea",
@@ -1195,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rbAnd",
           "package": "hBDD",
@@ -1204,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rbAnd",
           "package": "hBDD",
@@ -1217,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rbConcat",
           "package": "hBDD",
@@ -1226,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rbConcat",
           "normalized": "a-\u003ea-\u003ea",
@@ -1241,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rbEmpty",
           "package": "hBDD",
@@ -1250,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rbEmpty",
           "package": "hBDD",
@@ -1263,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rbFalse",
           "package": "hBDD",
@@ -1272,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rbFalse",
           "package": "hBDD",
@@ -1285,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rbNeg",
           "package": "hBDD",
@@ -1294,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rbNeg",
           "package": "hBDD",
@@ -1307,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rbOr",
           "package": "hBDD",
@@ -1316,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rbOr",
           "package": "hBDD",
@@ -1329,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rbTrue",
           "package": "hBDD",
@@ -1338,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rbTrue",
           "package": "hBDD",
@@ -1351,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rbVar",
           "package": "hBDD",
@@ -1360,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rbVar",
           "normalized": "String-\u003ea",
@@ -1376,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a BDD which agrees with \u003cem\u003ef\u003c/em\u003e for all valuations for which\n \u003cem\u003eg\u003c/em\u003e is true, and which is hopefully smaller than \u003cem\u003ef\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "reduce",
           "package": "hBDD",
@@ -1386,6 +1503,7 @@
         "index": {
           "description": "Returns BDD which agrees with for all valuations for which is true and which is hopefully smaller than",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "reduce",
           "package": "hBDD",
@@ -1399,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the relational product of two \u003ccode\u003e\u003ca\u003eBoolean\u003c/a\u003e\u003c/code\u003e formulas:\n\u003c/p\u003e\u003cpre\u003erel_product qvars f g = exists qvars (f /\\ g)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rel_product",
           "package": "hBDD",
@@ -1409,6 +1528,7 @@
         "index": {
           "description": "Computes the relational product of two Boolean formulas rel product qvars exists qvars",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rel_product",
           "normalized": "Group a-\u003ea-\u003ea-\u003ea",
@@ -1424,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitutes variables for variables in a \u003ccode\u003e\u003ca\u003eBoolean\u003c/a\u003e\u003c/code\u003e formula.\n Note that it is the user's responsibility to ensure the\n \u003ccode\u003eFormula\u003c/code\u003es in the substitution are in fact \u003ccode\u003eBDD\u003c/code\u003e variables, and\n that the domain and range do not overlap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "rename",
           "package": "hBDD",
@@ -1434,6 +1555,7 @@
         "index": {
           "description": "Substitutes variables for variables in Boolean formula Note that it is the user responsibility to ensure the Formula in the substitution are in fact BDD variables and that the domain and range do not overlap",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "rename",
           "normalized": "Subst a-\u003ea-\u003ea",
@@ -1449,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds a satisfying variable assignment for \u003cem\u003ef\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "satisfy",
           "package": "hBDD",
@@ -1459,6 +1582,7 @@
         "index": {
           "description": "Finds satisfying variable assignment for",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "satisfy",
           "package": "hBDD",
@@ -1472,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eBoolean\u003c/a\u003e\u003c/code\u003e type as a sum-of-products. This was stolen\n lock-stock from David Long's calculator example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "sop",
           "package": "hBDD",
@@ -1482,6 +1607,7 @@
         "index": {
           "description": "Render Boolean type as sum-of-products This was stolen lock-stock from David Long calculator example",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "sop",
           "normalized": "a-\u003eb",
@@ -1497,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitutes formulas for variables in a \u003ccode\u003e\u003ca\u003eBoolean\u003c/a\u003e\u003c/code\u003e formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "substitute",
           "package": "hBDD",
@@ -1507,6 +1634,7 @@
         "index": {
           "description": "Substitutes formulas for variables in Boolean formula",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "substitute",
           "normalized": "Subst a-\u003ea-\u003ea",
@@ -1522,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the set of variables that \u003cem\u003ef\u003c/em\u003e depends on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "support",
           "package": "hBDD",
@@ -1532,6 +1661,7 @@
         "index": {
           "description": "Finds the set of variables that depends on",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "support",
           "package": "hBDD",
@@ -1544,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "true",
           "package": "hBDD",
@@ -1553,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "true",
           "package": "hBDD",
@@ -1566,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "unbvar",
           "package": "hBDD",
@@ -1576,6 +1709,7 @@
         "index": {
           "description": "Reverse mapping",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "unbvar",
           "normalized": "a-\u003eString",
@@ -1590,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:13 UTC 2014",
           "module": "Data.Boolean",
           "name": "xor",
           "package": "hBDD",
@@ -1599,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T18:24:13",
           "module": "Data.Boolean",
           "name": "xor",
           "normalized": "a-\u003ea-\u003ea",

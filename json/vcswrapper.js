@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vcswrapper"
+        "phrase": "vcswrapper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports types and functions common to all VCS.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "Common",
           "package": "vcswrapper",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exports types and functions common to all VCS",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "Common",
           "package": "vcswrapper",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthor to be passed to VCS commands where applicable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "Author",
           "package": "vcswrapper",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Author to be passed to VCS commands where applicable",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "Author",
           "package": "vcswrapper",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the \u003ccode\u003e\u003ca\u003eCtx\u003c/a\u003e\u003c/code\u003e the VCS commands will be executed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "Config",
           "package": "vcswrapper",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Configuration of the Ctx the VCS commands will be executed in",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "Config",
           "package": "vcswrapper",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for all VCS commands.\n\u003c/p\u003e\u003cp\u003eE.g. to create a new Git repository use something like this:\n\u003c/p\u003e\u003cpre\u003eimport VCSWrapper.Git\nmyInitRepoFn = do\n    let config = makeConfig \"path/to/repo\" Nothing Nothing\n    runVcs config $ initDB False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "Ctx",
           "package": "vcswrapper",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Context for all VCS commands E.g to create new Git repository use something like this import VCSWrapper.Git myInitRepoFn do let config makeConfig path to repo Nothing Nothing runVcs config initDB False",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "Ctx",
           "package": "vcswrapper",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, if this file is locked by the VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "IsLocked",
           "package": "vcswrapper",
@@ -120,6 +129,7 @@
         "index": {
           "description": "True if this file is locked by the VCS",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "IsLocked",
           "package": "vcswrapper",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a log entry in the history managed by the VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "LogEntry",
           "package": "vcswrapper",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Represents log entry in the history managed by the VCS",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "LogEntry",
           "package": "vcswrapper",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to describe the state of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "Modification",
           "package": "vcswrapper",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Flags to describe the state of file",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "Modification",
           "package": "vcswrapper",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of a file managed by the respective VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "Status",
           "package": "vcswrapper",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Status of file managed by the respective VCS",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "Status",
           "package": "vcswrapper",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e-type will be thrown if a VCS command fails unexpectedly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "VCSException",
           "package": "vcswrapper",
@@ -212,6 +229,7 @@
         "index": {
           "description": "This Exception type will be thrown if VCS command fails unexpectedly",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "VCSException",
           "package": "vcswrapper",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable VCS types implemented in this package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "VCSType",
           "package": "vcswrapper",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Available VCS types implemented in this package",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "VCSType",
           "package": "vcswrapper",
@@ -1006,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal function to execute a VCS command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "exec",
           "package": "vcswrapper",
@@ -1015,6 +1036,7 @@
         "index": {
           "description": "Internal function to execute VCS command",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "exec",
           "normalized": "String-\u003e[String]-\u003e[(String,String)]-\u003eString-\u003e(Config-\u003eMaybe FilePath)-\u003eCtx(Either VCSException String)",
@@ -1237,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal function to execute a VCS command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "vcsExec",
           "package": "vcswrapper",
@@ -1246,6 +1269,7 @@
         "index": {
           "description": "Internal function to execute VCS command",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "vcsExec",
           "normalized": "String-\u003eString-\u003e[String]-\u003e[(String,String)]-\u003eCtx(Either VCSException String)",
@@ -1262,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal function to execute a VCS command. Throws an exception if the command fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Common",
           "name": "vcsExecThrowingOnError",
           "package": "vcswrapper",
@@ -1271,6 +1296,7 @@
         "index": {
           "description": "Internal function to execute VCS command Throws an exception if the command fails",
           "hierarchy": "VCSWrapper Common",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Common",
           "name": "vcsExecThrowingOnError",
           "normalized": "String-\u003eString-\u003e[String]-\u003e[(String,String)]-\u003eCtx String",
@@ -1287,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides high-level Git functions like \u003ccode\u003ecommit\u003c/code\u003e, \u003ccode\u003echeckout\u003c/code\u003e, \u003ccode\u003estatus\u003c/code\u003e, \u003ccode\u003elog\u003c/code\u003e,...\n\u003c/p\u003e\u003cp\u003eAll functions of this module run in the \u003ccode\u003e\u003ca\u003eCtx\u003c/a\u003e\u003c/code\u003e monad, common to all VCS.\n On unexpected behavior, these functions will throw a \u003ccode\u003e\u003ca\u003eVCSException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "Git",
           "package": "vcswrapper",
@@ -1296,6 +1323,7 @@
         "index": {
           "description": "Provides high-level Git functions like commit checkout status log All functions of this module run in the Ctx monad common to all VCS On unexpected behavior these functions will throw VCSException",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "Git",
           "package": "vcswrapper",
@@ -1310,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthor to be passed to VCS commands where applicable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "Author",
           "package": "vcswrapper",
@@ -1319,6 +1348,7 @@
         "index": {
           "description": "Author to be passed to VCS commands where applicable",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "Author",
           "package": "vcswrapper",
@@ -1333,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the \u003ccode\u003e\u003ca\u003eCtx\u003c/a\u003e\u003c/code\u003e the VCS commands will be executed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "Config",
           "package": "vcswrapper",
@@ -1342,6 +1373,7 @@
         "index": {
           "description": "Configuration of the Ctx the VCS commands will be executed in",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "Config",
           "package": "vcswrapper",
@@ -1356,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for all VCS commands.\n\u003c/p\u003e\u003cp\u003eE.g. to create a new Git repository use something like this:\n\u003c/p\u003e\u003cpre\u003eimport VCSWrapper.Git\nmyInitRepoFn = do\n    let config = makeConfig \"path/to/repo\" Nothing Nothing\n    runVcs config $ initDB False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "Ctx",
           "package": "vcswrapper",
@@ -1365,6 +1398,7 @@
         "index": {
           "description": "Context for all VCS commands E.g to create new Git repository use something like this import VCSWrapper.Git myInitRepoFn do let config makeConfig path to repo Nothing Nothing runVcs config initDB False",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "Ctx",
           "package": "vcswrapper",
@@ -1379,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, if this file is locked by the VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "IsLocked",
           "package": "vcswrapper",
@@ -1388,6 +1423,7 @@
         "index": {
           "description": "True if this file is locked by the VCS",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "IsLocked",
           "package": "vcswrapper",
@@ -1402,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a log entry in the history managed by the VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "LogEntry",
           "package": "vcswrapper",
@@ -1411,6 +1448,7 @@
         "index": {
           "description": "Represents log entry in the history managed by the VCS",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "LogEntry",
           "package": "vcswrapper",
@@ -1425,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to describe the state of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "Modification",
           "package": "vcswrapper",
@@ -1434,6 +1473,7 @@
         "index": {
           "description": "Flags to describe the state of file",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "Modification",
           "package": "vcswrapper",
@@ -1448,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of a file managed by the respective VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "Status",
           "package": "vcswrapper",
@@ -1457,6 +1498,7 @@
         "index": {
           "description": "Status of file managed by the respective VCS",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "Status",
           "package": "vcswrapper",
@@ -1471,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e-type will be thrown if a VCS command fails unexpectedly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "VCSException",
           "package": "vcswrapper",
@@ -1480,6 +1523,7 @@
         "index": {
           "description": "This Exception type will be thrown if VCS command fails unexpectedly",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "VCSException",
           "package": "vcswrapper",
@@ -1494,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable VCS types implemented in this package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "VCSType",
           "package": "vcswrapper",
@@ -1503,6 +1548,7 @@
         "index": {
           "description": "Available VCS types implemented in this package",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "VCSType",
           "package": "vcswrapper",
@@ -1517,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd files to the index. Executes \u003ccode\u003egit add\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "add",
           "package": "vcswrapper",
@@ -1526,6 +1573,7 @@
         "index": {
           "description": "Add files to the index Executes git add",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "add",
           "normalized": "[FilePath]-\u003eCtx()",
@@ -1541,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheckout the index to some commit ID. Executes \u003ccode\u003egit checkout\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "checkout",
           "package": "vcswrapper",
@@ -1550,6 +1599,7 @@
         "index": {
           "description": "Checkout the index to some commit ID Executes git checkout",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "checkout",
           "normalized": "Maybe String-\u003eMaybe String-\u003eCtx()",
@@ -1565,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit the current index or the specified files to the repository. Executes \u003ccode\u003egit commit\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "commit",
           "package": "vcswrapper",
@@ -1574,6 +1625,7 @@
         "index": {
           "description": "Commit the current index or the specified files to the repository Executes git commit",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "commit",
           "normalized": "[FilePath]-\u003eMaybe(String,String)-\u003eString-\u003e[String]-\u003eCtx()",
@@ -1589,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new git repository. Executes \u003ccode\u003egit init\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "initDB",
           "package": "vcswrapper",
@@ -1598,6 +1651,7 @@
         "index": {
           "description": "Initialize new git repository Executes git init",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "initDB",
           "normalized": "Bool-\u003eCtx()",
@@ -1614,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all local branches. Executes \u003ccode\u003egit branch\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "localBranches",
           "package": "vcswrapper",
@@ -1623,6 +1678,7 @@
         "index": {
           "description": "Get all local branches Executes git branch",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "localBranches",
           "normalized": "Ctx(String,[String])",
@@ -1639,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull changes from the remote as configured in the git configuration. If a merge conflict\n    is detected, the error message is returned, otherwise 'Right ()' is returned.\n    Executes \u003ccode\u003egit pull\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "pull",
           "package": "vcswrapper",
@@ -1649,6 +1706,7 @@
         "index": {
           "description": "Pull changes from the remote as configured in the git configuration If merge conflict is detected the error message is returned otherwise Right is returned Executes git pull",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "pull",
           "normalized": "Ctx(Either String())",
@@ -1664,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush changes to the remote as configured in the git configuration. Executes \u003ccode\u003egit push\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "push",
           "package": "vcswrapper",
@@ -1674,6 +1733,7 @@
         "index": {
           "description": "Push changes to the remote as configured in the git configuration Executes git push",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "push",
           "normalized": "Ctx()",
@@ -1689,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all remotes. Executes \u003ccode\u003egit remote\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "remote",
           "package": "vcswrapper",
@@ -1699,6 +1760,7 @@
         "index": {
           "description": "Get all remotes Executes git remote",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "remote",
           "normalized": "Ctx[String]",
@@ -1714,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRev-parse a revision. Executes \u003ccode\u003egit rev-parse\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "revparse",
           "package": "vcswrapper",
@@ -1723,6 +1786,7 @@
         "index": {
           "description": "Rev-parse revision Executes git rev-parse",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "revparse",
           "normalized": "String-\u003eCtx String",
@@ -1738,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove files from the index and the working directory. Executes \u003ccode\u003egit rm\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "rm",
           "package": "vcswrapper",
@@ -1747,6 +1812,7 @@
         "index": {
           "description": "Remove files from the index and the working directory Executes git rm",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "rm",
           "normalized": "[FilePath]-\u003eCtx()",
@@ -1762,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all commit messages. Executes \u003ccode\u003egit log\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "simpleLog",
           "package": "vcswrapper",
@@ -1771,6 +1838,7 @@
         "index": {
           "description": "Get all commit messages Executes git log",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "simpleLog",
           "normalized": "Maybe String-\u003eCtx[LogEntry]",
@@ -1787,6 +1855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn status of the repository as a list of \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e. Executes \u003ccode\u003egit status\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Git",
           "name": "status",
           "package": "vcswrapper",
@@ -1797,6 +1866,7 @@
         "index": {
           "description": "Return status of the repository as list of Status Executes git status",
           "hierarchy": "VCSWrapper Git",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Git",
           "name": "status",
           "normalized": "Ctx[Status]",
@@ -1811,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "Mercurial",
           "package": "vcswrapper",
@@ -1819,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "Mercurial",
           "package": "vcswrapper",
@@ -1833,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthor to be passed to VCS commands where applicable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "Author",
           "package": "vcswrapper",
@@ -1842,6 +1915,7 @@
         "index": {
           "description": "Author to be passed to VCS commands where applicable",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "Author",
           "package": "vcswrapper",
@@ -1856,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the \u003ccode\u003e\u003ca\u003eCtx\u003c/a\u003e\u003c/code\u003e the VCS commands will be executed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "Config",
           "package": "vcswrapper",
@@ -1865,6 +1940,7 @@
         "index": {
           "description": "Configuration of the Ctx the VCS commands will be executed in",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "Config",
           "package": "vcswrapper",
@@ -1879,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for all VCS commands.\n\u003c/p\u003e\u003cp\u003eE.g. to create a new Git repository use something like this:\n\u003c/p\u003e\u003cpre\u003eimport VCSWrapper.Git\nmyInitRepoFn = do\n    let config = makeConfig \"path/to/repo\" Nothing Nothing\n    runVcs config $ initDB False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "Ctx",
           "package": "vcswrapper",
@@ -1888,6 +1965,7 @@
         "index": {
           "description": "Context for all VCS commands E.g to create new Git repository use something like this import VCSWrapper.Git myInitRepoFn do let config makeConfig path to repo Nothing Nothing runVcs config initDB False",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "Ctx",
           "package": "vcswrapper",
@@ -1902,6 +1980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, if this file is locked by the VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "IsLocked",
           "package": "vcswrapper",
@@ -1911,6 +1990,7 @@
         "index": {
           "description": "True if this file is locked by the VCS",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "IsLocked",
           "package": "vcswrapper",
@@ -1925,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a log entry in the history managed by the VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "LogEntry",
           "package": "vcswrapper",
@@ -1934,6 +2015,7 @@
         "index": {
           "description": "Represents log entry in the history managed by the VCS",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "LogEntry",
           "package": "vcswrapper",
@@ -1948,6 +2030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to describe the state of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "Modification",
           "package": "vcswrapper",
@@ -1957,6 +2040,7 @@
         "index": {
           "description": "Flags to describe the state of file",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "Modification",
           "package": "vcswrapper",
@@ -1971,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of a file managed by the respective VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "Status",
           "package": "vcswrapper",
@@ -1980,6 +2065,7 @@
         "index": {
           "description": "Status of file managed by the respective VCS",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "Status",
           "package": "vcswrapper",
@@ -1994,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e-type will be thrown if a VCS command fails unexpectedly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "VCSException",
           "package": "vcswrapper",
@@ -2003,6 +2090,7 @@
         "index": {
           "description": "This Exception type will be thrown if VCS command fails unexpectedly",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "VCSException",
           "package": "vcswrapper",
@@ -2017,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable VCS types implemented in this package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "VCSType",
           "package": "vcswrapper",
@@ -2026,6 +2115,7 @@
         "index": {
           "description": "Available VCS types implemented in this package",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "VCSType",
           "package": "vcswrapper",
@@ -2040,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd all new files, delete all missing files. Executes \u003ccode\u003ehg addremove\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "addremove",
           "package": "vcswrapper",
@@ -2049,6 +2140,7 @@
         "index": {
           "description": "Add all new files delete all missing files Executes hg addremove",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "addremove",
           "normalized": "[FilePath]-\u003eCtx()",
@@ -2064,6 +2156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit the specified files or all outstanding changes. Executes \u003ccode\u003ehg commit\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "commit",
           "package": "vcswrapper",
@@ -2073,6 +2166,7 @@
         "index": {
           "description": "Commit the specified files or all outstanding changes Executes hg commit",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "commit",
           "normalized": "[FilePath]-\u003eString-\u003e[String]-\u003eCtx()",
@@ -2088,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull changes from a remote repository to a local one. If a merge conflict is detected, the error\n    message is returned, otherwise 'Right ()' is returned. Executes \u003ccode\u003ehg pull\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "pull",
           "package": "vcswrapper",
@@ -2098,6 +2193,7 @@
         "index": {
           "description": "Pull changes from remote repository to local one If merge conflict is detected the error message is returned otherwise Right is returned Executes hg pull",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "pull",
           "normalized": "Ctx()",
@@ -2113,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush changesets from the local repository to the default destination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "push",
           "package": "vcswrapper",
@@ -2123,6 +2220,7 @@
         "index": {
           "description": "Push changesets from the local repository to the default destination",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "push",
           "normalized": "Ctx()",
@@ -2138,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow revision history of entire repository or files. Executes \u003ccode\u003ehg log\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "simpleLog",
           "package": "vcswrapper",
@@ -2147,6 +2246,7 @@
         "index": {
           "description": "Show revision history of entire repository or files Executes hg log",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "simpleLog",
           "normalized": "Maybe String-\u003eCtx[LogEntry]",
@@ -2163,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow changed files in the working directory as a list of \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e. Executes \u003ccode\u003ehg status\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "status",
           "package": "vcswrapper",
@@ -2173,6 +2274,7 @@
         "index": {
           "description": "Show changed files in the working directory as list of Status Executes hg status",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "status",
           "normalized": "Ctx[Status]",
@@ -2188,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the repository's working directory to the specified changeset. If\n    no changeset is specified, update to the tip of the current named branch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Mercurial",
           "name": "update",
           "package": "vcswrapper",
@@ -2198,6 +2301,7 @@
         "index": {
           "description": "Update the repository working directory to the specified changeset If no changeset is specified update to the tip of the current named branch",
           "hierarchy": "VCSWrapper Mercurial",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Mercurial",
           "name": "update",
           "normalized": "Maybe String-\u003eCtx()",
@@ -2213,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides high level SVN functions like \u003ccode\u003ecommit\u003c/code\u003e, \u003ccode\u003echeckout\u003c/code\u003e, \u003ccode\u003eupdate\u003c/code\u003e and others.\n\u003c/p\u003e\u003cp\u003eAll functions of this module run in the \u003ccode\u003e\u003ca\u003eCtx\u003c/a\u003e\u003c/code\u003e monad, common to all VCS.\n On unexpected behavior, these functions will throw a \u003ccode\u003e\u003ca\u003eVCSException\u003c/a\u003e\u003c/code\u003e.\n All functions will be executed with options \u003ccode\u003e--non-interactive\u003c/code\u003e and \u003ccode\u003e--no-auth-cache\u003c/code\u003e set.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "Svn",
           "package": "vcswrapper",
@@ -2222,6 +2327,7 @@
         "index": {
           "description": "Provides high level SVN functions like commit checkout update and others All functions of this module run in the Ctx monad common to all VCS On unexpected behavior these functions will throw VCSException All functions will be executed with options non-interactive and no-auth-cache set",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "Svn",
           "package": "vcswrapper",
@@ -2236,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthor to be passed to VCS commands where applicable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "Author",
           "package": "vcswrapper",
@@ -2245,6 +2352,7 @@
         "index": {
           "description": "Author to be passed to VCS commands where applicable",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "Author",
           "package": "vcswrapper",
@@ -2259,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the \u003ccode\u003e\u003ca\u003eCtx\u003c/a\u003e\u003c/code\u003e the VCS commands will be executed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "Config",
           "package": "vcswrapper",
@@ -2268,6 +2377,7 @@
         "index": {
           "description": "Configuration of the Ctx the VCS commands will be executed in",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "Config",
           "package": "vcswrapper",
@@ -2282,6 +2392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext for all VCS commands.\n\u003c/p\u003e\u003cp\u003eE.g. to create a new Git repository use something like this:\n\u003c/p\u003e\u003cpre\u003eimport VCSWrapper.Git\nmyInitRepoFn = do\n    let config = makeConfig \"path/to/repo\" Nothing Nothing\n    runVcs config $ initDB False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "Ctx",
           "package": "vcswrapper",
@@ -2291,6 +2402,7 @@
         "index": {
           "description": "Context for all VCS commands E.g to create new Git repository use something like this import VCSWrapper.Git myInitRepoFn do let config makeConfig path to repo Nothing Nothing runVcs config initDB False",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "Ctx",
           "package": "vcswrapper",
@@ -2305,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, if this file is locked by the VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "IsLocked",
           "package": "vcswrapper",
@@ -2314,6 +2427,7 @@
         "index": {
           "description": "True if this file is locked by the VCS",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "IsLocked",
           "package": "vcswrapper",
@@ -2328,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a log entry in the history managed by the VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "LogEntry",
           "package": "vcswrapper",
@@ -2337,6 +2452,7 @@
         "index": {
           "description": "Represents log entry in the history managed by the VCS",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "LogEntry",
           "package": "vcswrapper",
@@ -2351,6 +2467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags to describe the state of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "Modification",
           "package": "vcswrapper",
@@ -2360,6 +2477,7 @@
         "index": {
           "description": "Flags to describe the state of file",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "Modification",
           "package": "vcswrapper",
@@ -2374,6 +2492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of a file managed by the respective VCS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "Status",
           "package": "vcswrapper",
@@ -2383,6 +2502,7 @@
         "index": {
           "description": "Status of file managed by the respective VCS",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "Status",
           "package": "vcswrapper",
@@ -2397,6 +2517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e-type will be thrown if a VCS command fails unexpectedly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "VCSException",
           "package": "vcswrapper",
@@ -2406,6 +2527,7 @@
         "index": {
           "description": "This Exception type will be thrown if VCS command fails unexpectedly",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "VCSException",
           "package": "vcswrapper",
@@ -2420,6 +2542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable VCS types implemented in this package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "VCSType",
           "package": "vcswrapper",
@@ -2429,6 +2552,7 @@
         "index": {
           "description": "Available VCS types implemented in this package",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "VCSType",
           "package": "vcswrapper",
@@ -2443,6 +2567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut files and directories under version control, scheduling them for addition to repository.\n    They will be added in next commit.. Executes \u003ccode\u003esvn add\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "add",
           "package": "vcswrapper",
@@ -2452,6 +2577,7 @@
         "index": {
           "description": "Put files and directories under version control scheduling them for addition to repository They will be added in next commit Executes svn add",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "add",
           "normalized": "[FilePath]-\u003eMaybe String-\u003e[String]-\u003eCtx()",
@@ -2467,6 +2593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheckout out a working copy from a repository. Executes \u003ccode\u003esvn checkout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "checkout",
           "package": "vcswrapper",
@@ -2476,6 +2603,7 @@
         "index": {
           "description": "Checkout out working copy from repository Executes svn checkout",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "checkout",
           "normalized": "[(String,Maybe String)]-\u003eMaybe String-\u003eMaybe String-\u003e[String]-\u003eCtx()",
@@ -2491,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend changes from your working copy to the repository. Executes \u003ccode\u003esvn commit\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "commit",
           "package": "vcswrapper",
@@ -2500,6 +2629,7 @@
         "index": {
           "description": "Send changes from your working copy to the repository Executes svn commit",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "commit",
           "normalized": "[FilePath]-\u003eString-\u003eMaybe String-\u003e[String]-\u003eCtx()",
@@ -2515,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all files of a conflict indicated by its associated filename. E.g. for file \u003ca\u003eTypes.hs\u003c/a\u003e\n    this might be \u003ca\u003eTypes.hs\u003c/a\u003e, \u003ca\u003eTypes.hs.r1\u003c/a\u003e, \u003ca\u003eTypes.hs.r2\u003c/a\u003e and \u003ca\u003eTypes.hs.mine\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "getFilesInConflict",
           "package": "vcswrapper",
@@ -2524,6 +2655,7 @@
         "index": {
           "description": "Returns all files of conflict indicated by its associated filename E.g for file Types.hs this might be Types.hs Types.hs.r1 Types.hs.r2 and Types.hs.mine",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "getFilesInConflict",
           "normalized": "FilePath-\u003eCtx[FilePath]",
@@ -2540,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLock working copy paths or URLs in the repository, so that no other user can commit changes to\n    them. Executes \u003ccode\u003esvn lock\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "lock",
           "package": "vcswrapper",
@@ -2549,6 +2682,7 @@
         "index": {
           "description": "Lock working copy paths or URLs in the repository so that no other user can commit changes to them Executes svn lock",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "lock",
           "normalized": "[FilePath]-\u003eMaybe String-\u003e[String]-\u003eCtx()",
@@ -2564,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverts working copy to given revision. Executes \u003ccode\u003esvn merge -rHEAD:$revision .\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "mergeHeadToRevision",
           "package": "vcswrapper",
@@ -2573,6 +2708,7 @@
         "index": {
           "description": "Reverts working copy to given revision Executes svn merge rHEAD revision",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "mergeHeadToRevision",
           "normalized": "Integer-\u003eMaybe String-\u003e[String]-\u003eCtx()",
@@ -2589,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove \u003ccode\u003econflicted\u003c/code\u003e state on working copy files or directories. Executes \u003ccode\u003esvn resolved\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "resolved",
           "package": "vcswrapper",
@@ -2598,6 +2735,7 @@
         "index": {
           "description": "Remove conflicted state on working copy files or directories Executes svn resolved",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "resolved",
           "normalized": "[FilePath]-\u003eMaybe String-\u003e[String]-\u003eCtx()",
@@ -2613,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the log messages for the current working copy. Executes \u003ccode\u003esvn log\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "simpleLog",
           "package": "vcswrapper",
@@ -2623,6 +2762,7 @@
         "index": {
           "description": "Get the log messages for the current working copy Executes svn log",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "simpleLog",
           "normalized": "Ctx[LogEntry]",
@@ -2639,6 +2779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the status of working copy files and directories. Executes \u003ccode\u003esvn status\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "status",
           "package": "vcswrapper",
@@ -2649,6 +2790,7 @@
         "index": {
           "description": "Get the status of working copy files and directories Executes svn status",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "status",
           "normalized": "Ctx[Status]",
@@ -2664,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlock working copy paths or URLs. Executes \u003ccode\u003esvn unlock\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "unlock",
           "package": "vcswrapper",
@@ -2673,6 +2816,7 @@
         "index": {
           "description": "Unlock working copy paths or URLs Executes svn unlock",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "unlock",
           "normalized": "[FilePath]-\u003eMaybe String-\u003e[String]-\u003eCtx()",
@@ -2688,6 +2832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBring changes from the repository into the working copy. Executes \u003ccode\u003esvn update\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:38 UTC 2014",
           "module": "VCSWrapper.Svn",
           "name": "update",
           "package": "vcswrapper",
@@ -2697,6 +2842,7 @@
         "index": {
           "description": "Bring changes from the repository into the working copy Executes svn update",
           "hierarchy": "VCSWrapper Svn",
+          "indexed": "2014-03-11T20:33:38",
           "module": "VCSWrapper.Svn",
           "name": "update",
           "normalized": "Maybe String-\u003e[String]-\u003eCtx()",

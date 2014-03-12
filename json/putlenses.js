@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "putlenses"
+        "phrase": "putlenses",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric sums of products representation for algebraic data types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "InOut",
           "package": "putlenses",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Generic sums of products representation for algebraic data types",
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "InOut",
           "package": "putlenses",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "F",
           "package": "putlenses",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "F",
           "package": "putlenses",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "Flatten",
           "package": "putlenses",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "Flatten",
           "package": "putlenses",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "InOut",
           "package": "putlenses",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "InOut",
           "package": "putlenses",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "ToFromRep",
           "package": "putlenses",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "ToFromRep",
           "package": "putlenses",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "fromRep",
           "package": "putlenses",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "fromRep",
           "normalized": "a b-\u003eFlatten a",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "inn",
           "package": "putlenses",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "inn",
           "normalized": "F a-\u003ea",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "out",
           "package": "putlenses",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "out",
           "normalized": "a-\u003eF a",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "GHC.InOut",
           "name": "toRep",
           "package": "putlenses",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "GHC InOut",
+          "indexed": "2014-03-11T19:46:37",
           "module": "GHC.InOut",
           "name": "toRep",
           "normalized": "Flatten a-\u003ea b",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of put-based programming examples\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Examples",
           "package": "putlenses",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Collection of put-based programming examples",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Examples",
           "package": "putlenses",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Nat",
           "package": "putlenses",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Nat",
           "package": "putlenses",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Pos",
           "package": "putlenses",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Pos",
           "package": "putlenses",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Tree",
           "package": "putlenses",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Tree",
           "package": "putlenses",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Empty",
           "package": "putlenses",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Empty",
           "package": "putlenses",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Node",
           "package": "putlenses",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "Node",
           "package": "putlenses",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "SuccN",
           "package": "putlenses",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "SuccN",
           "package": "putlenses",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "ZeroN",
           "package": "putlenses",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "ZeroN",
           "package": "putlenses",
@@ -393,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends two strings with a separating space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "appendWithSepPut",
           "package": "putlenses",
@@ -403,6 +438,7 @@
         "index": {
           "description": "Appends two strings with separating space",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "appendWithSepPut",
           "normalized": "String-\u003ePutlensM a(String,String)String",
@@ -419,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation (positional)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPut",
           "package": "putlenses",
@@ -429,6 +466,7 @@
         "index": {
           "description": "List concatenation positional",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPut",
           "normalized": "PutlensM a([b],[b])[b]",
@@ -445,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation (split the view list in half)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPut2",
           "package": "putlenses",
@@ -455,6 +494,7 @@
         "index": {
           "description": "List concatenation split the view list in half",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPut2",
           "normalized": "PutlensM Identity([Integer],[Integer])[Integer]",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation (split the view list at position n-1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutN",
           "package": "putlenses",
@@ -481,6 +522,7 @@
         "index": {
           "description": "List concatenation split the view list at position n-1",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutN",
           "normalized": "(Maybe([a],[a])-\u003e[a]-\u003eInt)-\u003ePutlensM b([a],[a])[a]",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutN'",
           "package": "putlenses",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutN'",
           "normalized": "PutlensStateM a Int([b],[b])[b]",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutNonEmptyRight",
           "package": "putlenses",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutNonEmptyRight",
           "normalized": "PutlensM a([b],[b])[b]",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation (puts elements to the left while satisfying a predicate)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutP",
           "package": "putlenses",
@@ -555,6 +602,7 @@
         "index": {
           "description": "List concatenation puts elements to the left while satisfying predicate",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutP",
           "normalized": "(Maybe(Either[a][a])-\u003ea-\u003eb Bool)-\u003ePutlensM b([a],[a])[a]",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation (puts elements to the left while smaller than a particular value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutPred",
           "package": "putlenses",
@@ -581,6 +630,7 @@
         "index": {
           "description": "List concatenation puts elements to the left while smaller than particular value",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutPred",
           "normalized": "a-\u003ePutlensM b([a],[a])[a]",
@@ -597,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation (puts elements to the left while being equal)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutSame",
           "package": "putlenses",
@@ -607,6 +658,7 @@
         "index": {
           "description": "List concatenation puts elements to the left while being equal",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "catPutSame",
           "normalized": "PutlensM a([b],[b])[b]",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "consPut",
           "package": "putlenses",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "consPut",
           "normalized": "PutlensM a[b](b,[b])",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "delPut1",
           "package": "putlenses",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "delPut1",
           "normalized": "PutlensM a(b,[b])[b]",
@@ -670,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "delPut2",
           "package": "putlenses",
@@ -679,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "delPut2",
           "normalized": "PutlensM a(b,[b])[b]",
@@ -695,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeds a value at a fixed position in a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut",
           "package": "putlenses",
@@ -705,6 +764,7 @@
         "index": {
           "description": "Embeds value at fixed position in list",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut",
           "normalized": "Int-\u003ePutlensM a[b]b",
@@ -721,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeds a value at a fixed position in a list (supports extending the length original list)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut1",
           "package": "putlenses",
@@ -731,6 +792,7 @@
         "index": {
           "description": "Embeds value at fixed position in list supports extending the length original list",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut1",
           "normalized": "Int-\u003ePutlensM a[b]b",
@@ -747,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeds a value at a fixed position in a list (source induction)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut2",
           "package": "putlenses",
@@ -757,6 +820,7 @@
         "index": {
           "description": "Embeds value at fixed position in list source induction",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut2",
           "normalized": "Int-\u003ePutlensM a[b]b",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut2'",
           "package": "putlenses",
@@ -781,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut2'",
           "normalized": "PutlensM a(Int,[b])b",
@@ -797,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeds a value at a fixed position in a list (supports extending the length original list) (source induction)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut3",
           "package": "putlenses",
@@ -807,6 +874,7 @@
         "index": {
           "description": "Embeds value at fixed position in list supports extending the length original list source induction",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut3",
           "normalized": "Int-\u003ePutlensM a[b]b",
@@ -822,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut3'",
           "package": "putlenses",
@@ -831,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut3'",
           "normalized": "PutlensStateM a b(Int,[b])b",
@@ -847,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeds a value at a fixed position in a list (splitAt approach)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut4",
           "package": "putlenses",
@@ -857,6 +928,7 @@
         "index": {
           "description": "Embeds value at fixed position in list splitAt approach",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "embedAtPut4",
           "normalized": "Int-\u003ePutlensM a[b]b",
@@ -872,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "emptyPut",
           "package": "putlenses",
@@ -881,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "emptyPut",
           "normalized": "PutlensM a(Tree b)()",
@@ -896,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut1",
           "package": "putlenses",
@@ -905,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut1",
           "normalized": "[Integer]",
@@ -920,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut2",
           "package": "putlenses",
@@ -929,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut2",
           "normalized": "Identity([Integer],[Integer])",
@@ -944,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut21",
           "package": "putlenses",
@@ -953,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut21",
           "normalized": "[Integer]",
@@ -968,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut22",
           "package": "putlenses",
@@ -977,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut22",
           "normalized": "Identity([Integer],[Integer])",
@@ -992,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut23",
           "package": "putlenses",
@@ -1001,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut23",
           "normalized": "Identity([Integer],[Integer])",
@@ -1016,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut24",
           "package": "putlenses",
@@ -1025,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut24",
           "normalized": "Identity([Integer],[Integer])",
@@ -1040,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut3",
           "package": "putlenses",
@@ -1049,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut3",
           "normalized": "Identity([Integer],[Integer])",
@@ -1064,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut4",
           "package": "putlenses",
@@ -1073,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPut4",
           "normalized": "Identity([Integer],[Integer])",
@@ -1088,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutPred1",
           "package": "putlenses",
@@ -1097,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutPred1",
           "normalized": "[Integer]",
@@ -1112,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutPred2",
           "package": "putlenses",
@@ -1121,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutPred2",
           "normalized": "Identity([Integer],[Integer])",
@@ -1136,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutPred3",
           "package": "putlenses",
@@ -1145,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutPred3",
           "normalized": "Identity([Integer],[Integer])",
@@ -1160,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutPred4",
           "package": "putlenses",
@@ -1169,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutPred4",
           "normalized": "Identity([Integer],[Integer])",
@@ -1184,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutSame1",
           "package": "putlenses",
@@ -1193,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutSame1",
           "normalized": "[Integer]",
@@ -1208,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutSame2",
           "package": "putlenses",
@@ -1217,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutSame2",
           "normalized": "Identity([Integer],[Integer])",
@@ -1232,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutSame3",
           "package": "putlenses",
@@ -1241,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exCatPutSame3",
           "normalized": "Identity([Integer],[Integer])",
@@ -1256,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut1",
           "package": "putlenses",
@@ -1265,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut1",
           "package": "putlenses",
@@ -1278,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut2",
           "package": "putlenses",
@@ -1287,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut2",
           "normalized": "Identity[Char]",
@@ -1302,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut3",
           "package": "putlenses",
@@ -1311,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut3",
           "normalized": "Identity[Char]",
@@ -1326,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut4",
           "package": "putlenses",
@@ -1335,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut4",
           "package": "putlenses",
@@ -1348,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut41",
           "package": "putlenses",
@@ -1357,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut41",
           "package": "putlenses",
@@ -1370,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut42",
           "package": "putlenses",
@@ -1379,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut42",
           "normalized": "Identity[Char]",
@@ -1394,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut43",
           "package": "putlenses",
@@ -1403,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut43",
           "normalized": "Identity[Char]",
@@ -1418,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut5",
           "package": "putlenses",
@@ -1427,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exEmbedAtPut5",
           "normalized": "Identity[Char]",
@@ -1442,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut1",
           "package": "putlenses",
@@ -1451,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut1",
           "normalized": "Identity[Char]",
@@ -1466,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut2",
           "package": "putlenses",
@@ -1475,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut2",
           "normalized": "Identity[Char]",
@@ -1490,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut21",
           "package": "putlenses",
@@ -1499,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut21",
           "normalized": "Identity[Char]",
@@ -1514,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut22",
           "package": "putlenses",
@@ -1523,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut22",
           "normalized": "Identity[Char]",
@@ -1538,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut23",
           "package": "putlenses",
@@ -1547,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut23",
           "normalized": "Identity[Char]",
@@ -1562,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut31",
           "package": "putlenses",
@@ -1571,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut31",
           "normalized": "Identity[Char]",
@@ -1586,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut32",
           "package": "putlenses",
@@ -1595,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut32",
           "normalized": "Identity[Char]",
@@ -1610,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut33",
           "package": "putlenses",
@@ -1619,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exHalvePut33",
           "normalized": "Identity[Char]",
@@ -1634,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIsumPut1",
           "package": "putlenses",
@@ -1643,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIsumPut1",
           "normalized": "[Int]",
@@ -1658,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIsumPut2",
           "package": "putlenses",
@@ -1667,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIsumPut2",
           "normalized": "Identity[Int]",
@@ -1682,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIunsortPut1",
           "package": "putlenses",
@@ -1691,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIunsortPut1",
           "normalized": "[Integer]",
@@ -1706,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIunsortPut2",
           "package": "putlenses",
@@ -1715,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIunsortPut2",
           "normalized": "[Integer]",
@@ -1730,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIunsortPut3",
           "package": "putlenses",
@@ -1739,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exIunsortPut3",
           "normalized": "[Integer]",
@@ -1754,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exLengthNatPut1",
           "package": "putlenses",
@@ -1763,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exLengthNatPut1",
           "package": "putlenses",
@@ -1776,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exLengthNatPut2",
           "package": "putlenses",
@@ -1785,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exLengthNatPut2",
           "normalized": "Identity[Char]",
@@ -1800,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exLengthNatPut3",
           "package": "putlenses",
@@ -1809,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exLengthNatPut3",
           "normalized": "Identity[Char]",
@@ -1824,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut1",
           "package": "putlenses",
@@ -1833,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut1",
           "package": "putlenses",
@@ -1846,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut2",
           "package": "putlenses",
@@ -1855,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut2",
           "normalized": "[Int]",
@@ -1870,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut3",
           "package": "putlenses",
@@ -1879,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut3",
           "normalized": "[Int]",
@@ -1894,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut4",
           "package": "putlenses",
@@ -1903,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut4",
           "normalized": "[Int]",
@@ -1918,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut5",
           "package": "putlenses",
@@ -1927,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exMssPut5",
           "normalized": "[Int]",
@@ -1942,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exPositions1",
           "package": "putlenses",
@@ -1951,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exPositions1",
           "normalized": "[(Pos,Char)]",
@@ -1966,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exPositions2",
           "package": "putlenses",
@@ -1975,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exPositions2",
           "normalized": "[Char]",
@@ -1990,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exPositions3",
           "package": "putlenses",
@@ -1999,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exPositions3",
           "normalized": "[Char]",
@@ -2014,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exQsortPut1",
           "package": "putlenses",
@@ -2023,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exQsortPut1",
           "normalized": "[Integer]",
@@ -2038,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exQsortPut2",
           "package": "putlenses",
@@ -2047,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exQsortPut2",
           "normalized": "Identity[Integer]",
@@ -2062,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exQsortPut3",
           "package": "putlenses",
@@ -2071,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exQsortPut3",
           "normalized": "Identity[Integer]",
@@ -2086,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exReplicateListPut1",
           "package": "putlenses",
@@ -2095,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exReplicateListPut1",
           "normalized": "[Char]",
@@ -2110,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exReplicateListPut2",
           "package": "putlenses",
@@ -2119,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exReplicateListPut2",
           "normalized": "Identity[(Char,Int)]",
@@ -2134,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exReplicatePut1",
           "package": "putlenses",
@@ -2143,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exReplicatePut1",
           "normalized": "Identity(Char,Int)",
@@ -2158,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exReplicatePut2",
           "package": "putlenses",
@@ -2167,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exReplicatePut2",
           "normalized": "Identity(Char,Int)",
@@ -2182,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut1",
           "package": "putlenses",
@@ -2191,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut1",
           "package": "putlenses",
@@ -2204,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut2",
           "package": "putlenses",
@@ -2213,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut2",
           "normalized": "[Integer]",
@@ -2228,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut3",
           "package": "putlenses",
@@ -2237,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut3",
           "normalized": "[Integer]",
@@ -2252,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut4",
           "package": "putlenses",
@@ -2261,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut4",
           "normalized": "[Integer]",
@@ -2276,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut5",
           "package": "putlenses",
@@ -2285,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut5",
           "normalized": "[Integer]",
@@ -2300,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut6",
           "package": "putlenses",
@@ -2309,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut6",
           "normalized": "[Integer]",
@@ -2324,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut7",
           "package": "putlenses",
@@ -2333,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "exSummandsPut7",
           "normalized": "[Integer]",
@@ -2349,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList filtering lens that splits a list of eithers into a list two lists.\n The boolean argument allows controlling the priority of left/right values in the source list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterPut",
           "package": "putlenses",
@@ -2359,6 +2556,7 @@
         "index": {
           "description": "List filtering lens that splits list of eithers into list two lists The boolean argument allows controlling the priority of left right values in the source list",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterPut",
           "normalized": "Bool-\u003ePutlensM a[Either b c]([b],[c])",
@@ -2375,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft list filtering lens (but will drop some right elements if the view list is smaller).\n The argument passed to \u003ccode\u003ekeepfstOrPut\u003c/code\u003e can be undefined because it will never be used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterlPut",
           "package": "putlenses",
@@ -2385,6 +2584,7 @@
         "index": {
           "description": "Left list filtering lens but will drop some right elements if the view list is smaller The argument passed to keepfstOrPut can be undefined because it will never be used",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterlPut",
           "normalized": "PutlensM a[Either b c][b]",
@@ -2401,6 +2601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft list filtering lens (that recovers all right elements).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterleftPut",
           "package": "putlenses",
@@ -2411,6 +2612,7 @@
         "index": {
           "description": "Left list filtering lens that recovers all right elements",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterleftPut",
           "normalized": "PutlensM a[Either b c][b]",
@@ -2427,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight list filtering lens (but will drop some left elements if the view list is smaller).\n The argument passed to \u003ccode\u003ekeepsndOrPut\u003c/code\u003e can be undefined because it will never be used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterrPut",
           "package": "putlenses",
@@ -2437,6 +2640,7 @@
         "index": {
           "description": "Right list filtering lens but will drop some left elements if the view list is smaller The argument passed to keepsndOrPut can be undefined because it will never be used",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterrPut",
           "normalized": "PutlensM a[Either b c][c]",
@@ -2453,6 +2657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight list filtering lens (that recovers all left elements).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterrightPut",
           "package": "putlenses",
@@ -2463,6 +2668,7 @@
         "index": {
           "description": "Right list filtering lens that recovers all left elements",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "filterrightPut",
           "normalized": "PutlensM a[Either b c][c]",
@@ -2478,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "fromListPut",
           "package": "putlenses",
@@ -2487,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "fromListPut",
           "normalized": "PutlensM a[(b,c)](Map b c)",
@@ -2503,6 +2711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the first half of a list (with a default empty element)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut",
           "package": "putlenses",
@@ -2513,6 +2722,7 @@
         "index": {
           "description": "Takes the first half of list with default empty element",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut",
           "normalized": "a-\u003ePutlensM b[a][a]",
@@ -2529,6 +2739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the first half of a list (using an increasing counter with each consumed element in the forward direction)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut2",
           "package": "putlenses",
@@ -2539,6 +2750,7 @@
         "index": {
           "description": "Takes the first half of list using an increasing counter with each consumed element in the forward direction",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut2",
           "normalized": "a-\u003ePutlensM b[a][a]",
@@ -2554,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut2'",
           "package": "putlenses",
@@ -2563,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut2'",
           "normalized": "a-\u003ePutlensM b([a],Int)([a],Int)",
@@ -2579,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the first half of a list (using a decreasing counter with the size of the input list, decreased 2 by 2, in the forward direction)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut3",
           "package": "putlenses",
@@ -2589,6 +2804,7 @@
         "index": {
           "description": "Takes the first half of list using decreasing counter with the size of the input list decreased by in the forward direction",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut3",
           "normalized": "a-\u003ePutlensM b[a][a]",
@@ -2604,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut3'",
           "package": "putlenses",
@@ -2613,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "halvePut3'",
           "normalized": "a-\u003ePutlensStateM b Int([a],Int)[a]",
@@ -2628,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "int",
           "package": "putlenses",
@@ -2637,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "int",
           "normalized": "Nat-\u003eInt",
@@ -2652,6 +2872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncremental summation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "isumPut",
           "package": "putlenses",
@@ -2662,6 +2883,7 @@
         "index": {
           "description": "Incremental summation",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "isumPut",
           "normalized": "PutlensM a[Int][Int]",
@@ -2678,6 +2900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsertion sort (put according to the original relative source order)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "iunsortPut1",
           "package": "putlenses",
@@ -2688,6 +2911,7 @@
         "index": {
           "description": "Insertion sort put according to the original relative source order",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "iunsortPut1",
           "normalized": "PutlensM a[b][b]",
@@ -2704,6 +2928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsertion sort (identity backward transformation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "iunsortPut2",
           "package": "putlenses",
@@ -2714,6 +2939,7 @@
         "index": {
           "description": "Insertion sort identity backward transformation",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "iunsortPut2",
           "normalized": "PutlensM a[b][b]",
@@ -2729,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "keepfstPut2",
           "package": "putlenses",
@@ -2738,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "keepfstPut2",
           "normalized": "PutlensM a(b,c)c",
@@ -2754,6 +2982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength as a natural number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "lengthNatPut",
           "package": "putlenses",
@@ -2764,6 +2993,7 @@
         "index": {
           "description": "Length as natural number",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "lengthNatPut",
           "normalized": "(Int-\u003ea)-\u003ePutlensM b[a]Nat",
@@ -2779,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "lookupIntMapPut",
           "package": "putlenses",
@@ -2788,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "lookupIntMapPut",
           "normalized": "PutlensM a(Int,Map Int b)b",
@@ -2803,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "lookupSegPut",
           "package": "putlenses",
@@ -2812,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "lookupSegPut",
           "normalized": "PutlensM a(Map Int b,[Int])[b]",
@@ -2828,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePutlens version of \u003ccode\u003emap\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "mapPut",
           "package": "putlenses",
@@ -2838,6 +3073,7 @@
         "index": {
           "description": "Putlens version of map",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "mapPut",
           "normalized": "PutlensM a b c-\u003ePutlensM a[b][c]",
@@ -2853,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "maxPut",
           "package": "putlenses",
@@ -2862,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "maxPut",
           "normalized": "PutlensStateM(ReaderT Int a)Bool(Int,Int)Int",
@@ -2877,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "maxSumSegsPut",
           "package": "putlenses",
@@ -2886,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "maxSumSegsPut",
           "normalized": "PutlensReaderM a Int(Map Pos Int,[[Pos]])Int",
@@ -2901,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "maxSumSegsPut'",
           "package": "putlenses",
@@ -2910,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "maxSumSegsPut'",
           "normalized": "PutlensStateM(ReaderT Int a)Bool(Map Pos Int,[[Pos]])Int",
@@ -2926,6 +3168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdating maximum segment sum\n when the sum increases, update only the largest segment\n when the sum decreases, update all segments that surpass the new maximum, from smallest to largest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "mssPut",
           "package": "putlenses",
@@ -2936,6 +3179,7 @@
         "index": {
           "description": "Updating maximum segment sum when the sum increases update only the largest segment when the sum decreases update all segments that surpass the new maximum from smallest to largest",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "mssPut",
           "normalized": "PutlensM a[Int]Int",
@@ -2951,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "mssPut'",
           "package": "putlenses",
@@ -2960,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "mssPut'",
           "normalized": "Bool-\u003ePutlensM(ReaderT Int a)[Int]Int",
@@ -2975,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "nat",
           "package": "putlenses",
@@ -2984,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "nat",
           "normalized": "Int-\u003eNat",
@@ -2998,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "natPut",
           "package": "putlenses",
@@ -3007,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "natPut",
           "package": "putlenses",
@@ -3020,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "nilPut",
           "package": "putlenses",
@@ -3029,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "nilPut",
           "normalized": "PutlensM a[b]()",
@@ -3044,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "nodePut",
           "package": "putlenses",
@@ -3053,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "nodePut",
           "normalized": "PutlensM a(Tree b)(b,(Tree b,Tree b))",
@@ -3069,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartition a list into smaller and bigger elements than a given element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "partitionPut",
           "package": "putlenses",
@@ -3079,6 +3334,7 @@
         "index": {
           "description": "Partition list into smaller and bigger elements than given element",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "partitionPut",
           "normalized": "PutlensM a(b,[b])(b,([b],[b]))",
@@ -3095,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds positions to a list (using an higher-order function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "positionsPut",
           "package": "putlenses",
@@ -3105,6 +3362,7 @@
         "index": {
           "description": "Adds positions to list using an higher-order function",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "positionsPut",
           "normalized": "PutlensM a[b][(Pos,b)]",
@@ -3120,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "positionsPut'",
           "package": "putlenses",
@@ -3129,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "positionsPut'",
           "normalized": "Pos-\u003ePutlensM a[b][(Pos,b)]",
@@ -3145,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds positions to a list (using environment)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "positionsPut2",
           "package": "putlenses",
@@ -3155,6 +3416,7 @@
         "index": {
           "description": "Adds positions to list using environment",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "positionsPut2",
           "normalized": "PutlensM a[b][(Pos,b)]",
@@ -3170,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "positionsPut2'",
           "package": "putlenses",
@@ -3179,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "positionsPut2'",
           "normalized": "PutlensReaderM a[(Pos,b)](Int,[b])[(Pos,b)]",
@@ -3194,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "predPut",
           "package": "putlenses",
@@ -3203,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "predPut",
           "package": "putlenses",
@@ -3217,6 +3483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuicksort (put according to the original relative source order)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "qsortPut",
           "package": "putlenses",
@@ -3227,6 +3494,7 @@
         "index": {
           "description": "Quicksort put according to the original relative source order",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "qsortPut",
           "normalized": "PutlensM a[b][b]",
@@ -3243,6 +3511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing\u003cem\u003epretty-printing lens version using @read@\u003c/em\u003e\u003ccode\u003eshow\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "readPut",
           "package": "putlenses",
@@ -3253,6 +3522,7 @@
         "index": {
           "description": "Parsing pretty-printing lens version using read show",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "readPut",
           "package": "putlenses",
@@ -3266,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "recoverzerosPut",
           "package": "putlenses",
@@ -3275,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "recoverzerosPut",
           "normalized": "PutlensM a[(b,Int)][(b,Int)]",
@@ -3291,6 +3563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicates a list of elements into a sequence of replicated elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "replicateListPut",
           "package": "putlenses",
@@ -3301,6 +3574,7 @@
         "index": {
           "description": "Replicates list of elements into sequence of replicated elements",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "replicateListPut",
           "normalized": "PutlensM a[(b,Int)][b]",
@@ -3317,6 +3591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "replicatePut",
           "package": "putlenses",
@@ -3327,6 +3602,7 @@
         "index": {
           "description": "Replicate",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "replicatePut",
           "normalized": "PutlensM a(b,Int)[b]",
@@ -3342,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "segments",
           "package": "putlenses",
@@ -3351,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "segments",
           "normalized": "[a]-\u003e[[a]]",
@@ -3365,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "splitAtPut",
           "package": "putlenses",
@@ -3374,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "splitAtPut",
           "normalized": "PutlensM a(Int,[b])([b],[b])",
@@ -3389,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "splitListPut",
           "package": "putlenses",
@@ -3398,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "splitListPut",
           "normalized": "PutlensM a[[b]][b]",
@@ -3414,6 +3696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a view number into two summands (by adding an offset to the original first value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "splitPut",
           "package": "putlenses",
@@ -3424,6 +3707,7 @@
         "index": {
           "description": "Splits view number into two summands by adding an offset to the original first value",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "splitPut",
           "normalized": "(a-\u003ea-\u003eb a)-\u003ePutlensM b(a,a)a",
@@ -3439,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "subtractPut",
           "package": "putlenses",
@@ -3448,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "subtractPut",
           "normalized": "Int-\u003ePutlensM a Int Int",
@@ -3463,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "succNPut",
           "package": "putlenses",
@@ -3472,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "succNPut",
           "package": "putlenses",
@@ -3485,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "succPut",
           "package": "putlenses",
@@ -3494,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "succPut",
           "package": "putlenses",
@@ -3508,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the sum of a list (preserves the original source and appends the difference to the end)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut1",
           "package": "putlenses",
@@ -3518,6 +3809,7 @@
         "index": {
           "description": "Updates the sum of list preserves the original source and appends the difference to the end",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut1",
           "normalized": "PutlensM a[b]b",
@@ -3534,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the sum of a list (distributes the difference by dividing it by two at each recursive step)\n half of the difference is added to the first element of the source, a quarter to the second, and so on until the remainder is 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut2",
           "package": "putlenses",
@@ -3544,6 +3837,7 @@
         "index": {
           "description": "Updates the sum of list distributes the difference by dividing it by two at each recursive step half of the difference is added to the first element of the source quarter to the second and so on until the remainder is",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut2",
           "normalized": "PutlensM a[b]b",
@@ -3560,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the sum of a list (distributes the difference by dividing it by the length of the original list)\n distributes the difference evenly among original list numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut3",
           "package": "putlenses",
@@ -3570,6 +3865,7 @@
         "index": {
           "description": "Updates the sum of list distributes the difference by dividing it by the length of the original list distributes the difference evenly among original list numbers",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut3",
           "normalized": "PutlensM a[b]b",
@@ -3585,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut3'",
           "package": "putlenses",
@@ -3594,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut3'",
           "normalized": "PutlensStateM a b[b]b",
@@ -3610,6 +3908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the sum of a list (distributes the difference by dividing it by the length of the original list, always preserving the size f the original list even when the view is zero)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut4",
           "package": "putlenses",
@@ -3620,6 +3919,7 @@
         "index": {
           "description": "Updates the sum of list distributes the difference by dividing it by the length of the original list always preserving the size the original list even when the view is zero",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut4",
           "normalized": "PutlensM a[b]b",
@@ -3635,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut4'",
           "package": "putlenses",
@@ -3644,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "summandsPut4'",
           "normalized": "PutlensStateM a b[b]b",
@@ -3659,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "toListPut",
           "package": "putlenses",
@@ -3668,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "toListPut",
           "normalized": "PutlensM a(Map b c)[(b,c)]",
@@ -3683,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unconsPut",
           "package": "putlenses",
@@ -3692,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unconsPut",
           "normalized": "PutlensM a(b,[b])[b]",
@@ -3707,6 +4013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unemptyPut",
           "package": "putlenses",
@@ -3716,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unemptyPut",
           "normalized": "PutlensM a()(Tree b)",
@@ -3732,6 +4040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePutlens inverse of \u003ccode\u003efoldr1\u003c/code\u003e, a specialization of \u003ccode\u003efoldr\u003c/code\u003e for non-empty lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unfoldr1Put",
           "package": "putlenses",
@@ -3742,6 +4051,7 @@
         "index": {
           "description": "Putlens inverse of foldr1 specialization of foldr for non-empty lists",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unfoldr1Put",
           "normalized": "PutlensM a(b,b)b-\u003ePutlensM a[b]b",
@@ -3758,6 +4068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePutlens version of \u003ccode\u003efoldr\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unfoldrPut",
           "package": "putlenses",
@@ -3768,6 +4079,7 @@
         "index": {
           "description": "Putlens version of foldr",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unfoldrPut",
           "normalized": "PutlensM a(b,c)c-\u003ec-\u003ePutlensM a[b]c",
@@ -3784,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003eunfoldrPut\u003c/code\u003e that tries to present the original source branching even when the view value matches the stop condition\n Useful for example for cases when we want to always preserve the length of the original source list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unfoldrsPut",
           "package": "putlenses",
@@ -3794,6 +4107,7 @@
         "index": {
           "description": "Variant of unfoldrPut that tries to present the original source branching even when the view value matches the stop condition Useful for example for cases when we want to always preserve the length of the original source list",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unfoldrsPut",
           "normalized": "PutlensM a(b,c)c-\u003ec-\u003ePutlensM a[b]c",
@@ -3809,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unheadPut",
           "package": "putlenses",
@@ -3818,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unheadPut",
           "normalized": "PutlensM a[b]b",
@@ -3833,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unnilPut",
           "package": "putlenses",
@@ -3842,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unnilPut",
           "normalized": "PutlensM a()[b]",
@@ -3857,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unnodePut",
           "package": "putlenses",
@@ -3866,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unnodePut",
           "normalized": "PutlensM a(b,(Tree b,Tree b))(Tree b)",
@@ -3881,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unsuccNPut",
           "package": "putlenses",
@@ -3890,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unsuccNPut",
           "package": "putlenses",
@@ -3903,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "untailPut",
           "package": "putlenses",
@@ -3912,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "untailPut",
           "normalized": "PutlensM a[b][b]",
@@ -3928,6 +4252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string into a sequence of \u003ccode\u003eInt\u003c/code\u003e or \u003ccode\u003eBool\u003c/code\u003e values separated by a single space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unwordsIntBool",
           "package": "putlenses",
@@ -3938,6 +4263,7 @@
         "index": {
           "description": "Parses string into sequence of Int or Bool values separated by single space",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unwordsIntBool",
           "normalized": "PutlensM Maybe[Either Int Bool]String",
@@ -3954,6 +4280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePutlens inverse of \u003ccode\u003eunwords\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unwordsPut",
           "package": "putlenses",
@@ -3964,6 +4291,7 @@
         "index": {
           "description": "Putlens inverse of unwords",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unwordsPut",
           "normalized": "PutlensM Maybe[String]String",
@@ -3979,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unwrapPut",
           "package": "putlenses",
@@ -3988,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unwrapPut",
           "normalized": "PutlensM a b[b]",
@@ -4003,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unzeroNPut",
           "package": "putlenses",
@@ -4012,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unzeroNPut",
           "normalized": "PutlensM a()Nat",
@@ -4028,6 +4360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnzips a list into two lists (creating empty tail lists by default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unzipPut",
           "package": "putlenses",
@@ -4038,6 +4371,7 @@
         "index": {
           "description": "Unzips list into two lists creating empty tail lists by default",
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "unzipPut",
           "normalized": "PutlensM a([b],[c])[(b,c)]",
@@ -4053,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "wrapPut",
           "package": "putlenses",
@@ -4062,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "wrapPut",
           "normalized": "PutlensM a[b]b",
@@ -4077,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "zeroNPut",
           "package": "putlenses",
@@ -4086,6 +4423,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples Examples",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.Examples",
           "name": "zeroNPut",
           "normalized": "PutlensM a Nat()",
@@ -4102,6 +4440,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatabase examples for a source database with a list of people.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "People",
           "package": "putlenses",
@@ -4111,6 +4450,7 @@
         "index": {
           "description": "Database examples for source database with list of people",
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "People",
           "package": "putlenses",
@@ -4124,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "Book",
           "package": "putlenses",
@@ -4132,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "Book",
           "package": "putlenses",
@@ -4145,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "BookPerson",
           "package": "putlenses",
@@ -4153,6 +4496,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "BookPerson",
           "package": "putlenses",
@@ -4166,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "City",
           "package": "putlenses",
@@ -4174,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "City",
           "package": "putlenses",
@@ -4187,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "Name",
           "package": "putlenses",
@@ -4195,6 +4542,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "Name",
           "package": "putlenses",
@@ -4208,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "Person",
           "package": "putlenses",
@@ -4216,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "Person",
           "package": "putlenses",
@@ -4229,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "Person",
           "package": "putlenses",
@@ -4238,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "Person",
           "package": "putlenses",
@@ -4251,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPeoplePut",
           "package": "putlenses",
@@ -4260,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPeoplePut",
           "normalized": "PutlensM a([Book],[Person])[BookPerson]",
@@ -4275,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPeoplePut'",
           "package": "putlenses",
@@ -4284,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPeoplePut'",
           "normalized": "PutlensM a([Book],[Person])[BookPerson]",
@@ -4299,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPeoplePut2",
           "package": "putlenses",
@@ -4308,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPeoplePut2",
           "normalized": "PutlensM a([Book],[Person])[BookPerson]",
@@ -4323,6 +4681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPersonPut",
           "package": "putlenses",
@@ -4332,6 +4691,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPersonPut",
           "normalized": "PutlensStateM a[Person](Book,[Person])BookPerson",
@@ -4347,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPut",
           "package": "putlenses",
@@ -4356,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "booksOfPut",
           "normalized": "[Person]-\u003ePutlensM a[Book][Book]",
@@ -4371,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "city",
           "package": "putlenses",
@@ -4380,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "city",
           "package": "putlenses",
@@ -4392,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "cityLens",
           "package": "putlenses",
@@ -4401,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "cityLens",
           "package": "putlenses",
@@ -4414,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "cityLns",
           "package": "putlenses",
@@ -4423,6 +4790,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "cityLns",
           "normalized": "Lens Person[Char]",
@@ -4438,6 +4806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "cityPut",
           "package": "putlenses",
@@ -4447,6 +4816,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "cityPut",
           "normalized": "PutlensM Identity Person[Char]",
@@ -4462,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "delLOTR",
           "package": "putlenses",
@@ -4471,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "delLOTR",
           "normalized": "[([Char],Person)]",
@@ -4486,6 +4858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "delLOTRMaias",
           "package": "putlenses",
@@ -4495,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "delLOTRMaias",
           "normalized": "[([Char],Person)]",
@@ -4510,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut1",
           "package": "putlenses",
@@ -4519,6 +4894,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut1",
           "normalized": "([Book],[Person])",
@@ -4534,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut2",
           "package": "putlenses",
@@ -4543,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut2",
           "normalized": "([Book],[Person])",
@@ -4558,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut3",
           "package": "putlenses",
@@ -4567,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut3",
           "normalized": "([Book],[Person])",
@@ -4582,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut4",
           "package": "putlenses",
@@ -4591,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut4",
           "normalized": "([Book],[Person])",
@@ -4606,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut5",
           "package": "putlenses",
@@ -4615,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut5",
           "normalized": "([Book],[Person])",
@@ -4630,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut6",
           "package": "putlenses",
@@ -4639,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exJoinPut6",
           "normalized": "([Book],[Person])",
@@ -4654,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromPut1",
           "package": "putlenses",
@@ -4663,6 +5050,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromPut1",
           "normalized": "[Person]",
@@ -4678,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromPut2",
           "package": "putlenses",
@@ -4687,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromPut2",
           "normalized": "Identity[Person]",
@@ -4702,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromPut3",
           "package": "putlenses",
@@ -4711,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromPut3",
           "normalized": "Identity[Person]",
@@ -4726,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromToPut1",
           "package": "putlenses",
@@ -4735,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromToPut1",
           "normalized": "Identity[Person]",
@@ -4750,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromToPut2",
           "package": "putlenses",
@@ -4759,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleFromToPut2",
           "normalized": "Identity[Person]",
@@ -4774,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleNamesPut1",
           "package": "putlenses",
@@ -4783,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleNamesPut1",
           "normalized": "Identity[Person]",
@@ -4798,6 +5196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleNamesPut2",
           "package": "putlenses",
@@ -4807,6 +5206,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "exPeopleNamesPut2",
           "normalized": "[Person]",
@@ -4822,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "hugo",
           "package": "putlenses",
@@ -4831,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "hugo",
           "package": "putlenses",
@@ -4843,6 +5245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "insMock",
           "package": "putlenses",
@@ -4852,6 +5255,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "insMock",
           "normalized": "[([Char],Person)]",
@@ -4867,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "isFrom",
           "package": "putlenses",
@@ -4876,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "isFrom",
           "normalized": "[Char]-\u003ePerson-\u003eBool",
@@ -4891,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "joinBookPersonPut",
           "package": "putlenses",
@@ -4900,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "joinBookPersonPut",
           "normalized": "PutlensM a(Book,Person)BookPerson",
@@ -4915,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "name",
           "package": "putlenses",
@@ -4924,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "name",
           "package": "putlenses",
@@ -4936,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "nameLens",
           "package": "putlenses",
@@ -4945,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "nameLens",
           "package": "putlenses",
@@ -4958,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "nameLns",
           "package": "putlenses",
@@ -4967,6 +5380,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "nameLns",
           "normalized": "Lens Person[Char]",
@@ -4982,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "nameP",
           "package": "putlenses",
@@ -4991,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "nameP",
           "package": "putlenses",
@@ -5003,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "namePut",
           "package": "putlenses",
@@ -5012,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "namePut",
           "normalized": "PutlensM Identity Person[Char]",
@@ -5027,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "people",
           "package": "putlenses",
@@ -5036,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "people",
           "normalized": "[Person]",
@@ -5051,6 +5471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects all people \u003ccode\u003efrom\u003c/code\u003e a city\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "peopleFromPut",
           "package": "putlenses",
@@ -5061,6 +5482,7 @@
         "index": {
           "description": "Selects all people from city",
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "peopleFromPut",
           "normalized": "City-\u003ePutlensM a[Person][Person]",
@@ -5077,6 +5499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects all people \u003ccode\u003efrom\u003c/code\u003e a city (moves deleted people to a new city \u003ccode\u003eto\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "peopleFromToPut",
           "package": "putlenses",
@@ -5087,6 +5510,7 @@
         "index": {
           "description": "Selects all people from city moves deleted people to new city to",
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "peopleFromToPut",
           "normalized": "City-\u003eCity-\u003ePutlensM a[Person][Person]",
@@ -5102,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "peopleNamesPut",
           "package": "putlenses",
@@ -5111,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "peopleNamesPut",
           "normalized": "City-\u003ePutlensReaderM a[Person][Person][Name]",
@@ -5126,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "peopleNamesPut0",
           "package": "putlenses",
@@ -5135,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "peopleNamesPut0",
           "normalized": "City-\u003ePutlensM a[Person][Name]",
@@ -5150,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "recoverEntry",
           "package": "putlenses",
@@ -5159,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "recoverEntry",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]-\u003e(Maybe a,[a])",
@@ -5174,6 +5604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "sebastian",
           "package": "putlenses",
@@ -5183,6 +5614,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "sebastian",
           "package": "putlenses",
@@ -5195,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "sebastianTokyo",
           "package": "putlenses",
@@ -5204,6 +5637,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "sebastianTokyo",
           "package": "putlenses",
@@ -5217,6 +5651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "selectPersonPut",
           "package": "putlenses",
@@ -5226,6 +5661,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "selectPersonPut",
           "normalized": "Name-\u003ePutlensStateM a[Person][Person]Person",
@@ -5242,6 +5678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric database select putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "selectPut",
           "package": "putlenses",
@@ -5252,6 +5689,7 @@
         "index": {
           "description": "Generic database select putlens",
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "selectPut",
           "normalized": "(a-\u003eb)-\u003e(Maybe[a]-\u003ec[a])-\u003e(a-\u003eBool)-\u003ePutlensM c[a][a]",
@@ -5267,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "selectPut'",
           "package": "putlenses",
@@ -5276,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "selectPut'",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eBool)-\u003ePutlensStateM c(Maybe a,[a])[a][a]",
@@ -5291,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "someBooks",
           "package": "putlenses",
@@ -5300,6 +5741,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "someBooks",
           "normalized": "[([Char],[Char])]",
@@ -5315,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "someJoin",
           "package": "putlenses",
@@ -5324,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "someJoin",
           "normalized": "[([Char],Person)]",
@@ -5339,6 +5783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "somePeople",
           "package": "putlenses",
@@ -5348,6 +5793,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "somePeople",
           "normalized": "[Person]",
@@ -5363,6 +5809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Examples.People",
           "name": "zhenjiang",
           "package": "putlenses",
@@ -5372,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Examples People",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Examples.People",
           "name": "zhenjiang",
           "package": "putlenses",
@@ -5385,6 +5833,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore language of put-based lenses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "Language",
           "package": "putlenses",
@@ -5394,6 +5843,7 @@
         "index": {
           "description": "Core language of put-based lenses",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "Language",
           "package": "putlenses",
@@ -5408,6 +5858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum putlens that applies two putlenses to distinct sides of a view sum, producing a view sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "(-|-\u003c)",
           "package": "putlenses",
@@ -5418,6 +5869,7 @@
         "index": {
           "description": "Sum putlens that applies two putlenses to distinct sides of view sum producing view sum",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "(-|-\u003c) -|-\u003c",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c-\u003ePutlensM a(Either b b)(Either c c)",
@@ -5433,6 +5885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct putlens that applies two putlenses to distinct sides of a view pair, producing a source pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "(\u003e\u003c\u003c)",
           "package": "putlenses",
@@ -5443,6 +5896,7 @@
         "index": {
           "description": "Product putlens that applies two putlenses to distinct sides of view pair producing source pair",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "(\u003e\u003c\u003c) \u003e\u003c\u003c",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c-\u003ePutlensM a(b,b)(c,c)",
@@ -5458,6 +5912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores the tags in the view\n ^ Fails whenever the domains of \u003ccode\u003egetM f\u003c/code\u003e and \u003ccode\u003egetM g\u003c/code\u003e are not disjoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "(\\/\u003c)",
           "package": "putlenses",
@@ -5468,6 +5923,7 @@
         "index": {
           "description": "Ignores the tags in the view Fails whenever the domains of getM and getM are not disjoint",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "(\\/\u003c) \\/\u003c",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c-\u003ePutlensM a b(Either c c)",
@@ -5483,6 +5939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores the tags in the view (right-biased)\n ^ Guarantees disjointness by favoring the right putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "(\\/.\u003c)",
           "package": "putlenses",
@@ -5493,6 +5950,7 @@
         "index": {
           "description": "Ignores the tags in the view right-biased Guarantees disjointness by favoring the right putlens",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "(\\/.\u003c) \\/.\u003c",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c-\u003ePutlensM a b(Either c c)",
@@ -5508,6 +5966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary composition of putlenses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "(.\u003c)",
           "package": "putlenses",
@@ -5518,6 +5977,7 @@
         "index": {
           "description": "Binary composition of putlenses",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "(.\u003c) .\u003c",
           "normalized": "PutlensM a b c-\u003ePutlensM a c d-\u003ePutlensM a b d",
@@ -5533,6 +5993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores the tags in the view (left-biased)\n ^ Guarantees disjointness by favoring the left putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "(.\\/\u003c)",
           "package": "putlenses",
@@ -5543,6 +6004,7 @@
         "index": {
           "description": "Ignores the tags in the view left-biased Guarantees disjointness by favoring the left putlens",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "(.\\/\u003c) .\\/\u003c",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c-\u003ePutlensM a b(Either c c)",
@@ -5558,6 +6020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds an empty view to the left of the view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "addfstOnePut",
           "package": "putlenses",
@@ -5568,6 +6031,7 @@
         "index": {
           "description": "Adds an empty view to the left of the view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "addfstOnePut",
           "normalized": "PutlensM a((),b)b",
@@ -5584,6 +6048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a value to the left of the view (according to a user-specified function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "addfstPut",
           "package": "putlenses",
@@ -5594,6 +6059,7 @@
         "index": {
           "description": "Adds value to the left of the view according to user-specified function",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "addfstPut",
           "normalized": "(Maybe(a,b)-\u003eb-\u003ec a)-\u003ePutlensM c(a,b)b",
@@ -5610,6 +6076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds an empty view to the right of the view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "addsndOnePut",
           "package": "putlenses",
@@ -5620,6 +6087,7 @@
         "index": {
           "description": "Adds an empty view to the right of the view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "addsndOnePut",
           "normalized": "PutlensM a(b,())b",
@@ -5636,6 +6104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a value to the right of the view (according to a user-specified function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "addsndPut",
           "package": "putlenses",
@@ -5646,6 +6115,7 @@
         "index": {
           "description": "Adds value to the right of the view according to user-specified function",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "addsndPut",
           "normalized": "(Maybe(a,b)-\u003ea-\u003ec b)-\u003ePutlensM c(a,b)a",
@@ -5662,6 +6132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates a right-nested view pair to the left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "assoclPut",
           "package": "putlenses",
@@ -5672,6 +6143,7 @@
         "index": {
           "description": "Associates right-nested view pair to the left",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "assoclPut",
           "normalized": "PutlensM a((b,c),d)(b,(c,d))",
@@ -5688,6 +6160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates a left-nested view pair to the right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "assocrPut",
           "package": "putlenses",
@@ -5698,6 +6171,7 @@
         "index": {
           "description": "Associates left-nested view pair to the right",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "assocrPut",
           "normalized": "PutlensM a(b,(c,d))((b,c),d)",
@@ -5714,6 +6188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom putlens that is always undefined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "botPut",
           "package": "putlenses",
@@ -5724,6 +6199,7 @@
         "index": {
           "description": "Bottom putlens that is always undefined",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "botPut",
           "package": "putlenses",
@@ -5738,6 +6214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates a right-nested view sum to the left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "coassoclPut",
           "package": "putlenses",
@@ -5748,6 +6225,7 @@
         "index": {
           "description": "Associates right-nested view sum to the left",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "coassoclPut",
           "package": "putlenses",
@@ -5762,6 +6240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates a left-nested view sum to the left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "coassocrPut",
           "package": "putlenses",
@@ -5772,6 +6251,7 @@
         "index": {
           "description": "Associates left-nested view sum to the left",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "coassocrPut",
           "package": "putlenses",
@@ -5786,6 +6266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps the second with the third choice of a left-nested view sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "cosublPut",
           "package": "putlenses",
@@ -5796,6 +6277,7 @@
         "index": {
           "description": "Swaps the second with the third choice of left-nested view sum",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "cosublPut",
           "package": "putlenses",
@@ -5810,6 +6292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps the first with the second choice of a right-nested view sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "cosubrPut",
           "package": "putlenses",
@@ -5820,6 +6303,7 @@
         "index": {
           "description": "Swaps the first with the second choice of right-nested view sum",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "cosubrPut",
           "package": "putlenses",
@@ -5834,6 +6318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps the order of elements in a view sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "coswapPut",
           "package": "putlenses",
@@ -5844,6 +6329,7 @@
         "index": {
           "description": "Swaps the order of elements in view sum",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "coswapPut",
           "package": "putlenses",
@@ -5858,6 +6344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed user-specified lenses as putlenses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "customPut",
           "package": "putlenses",
@@ -5868,6 +6355,7 @@
         "index": {
           "description": "Embed user-specified lenses as putlenses",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "customPut",
           "normalized": "(Maybe a-\u003eb-\u003ec a)-\u003e(a-\u003eb)-\u003ePutlensM c a b",
@@ -5884,6 +6372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistributes a sum to the left of a view pair into a sum of pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "distlPut",
           "package": "putlenses",
@@ -5894,6 +6383,7 @@
         "index": {
           "description": "Distributes sum to the left of view pair into sum of pairs",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "distlPut",
           "normalized": "PutlensM a(Either(b,c)(d,c))(Either b d,c)",
@@ -5910,6 +6400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps the order of two nested view pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "distpPut",
           "package": "putlenses",
@@ -5920,6 +6411,7 @@
         "index": {
           "description": "Swaps the order of two nested view pairs",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "distpPut",
           "normalized": "PutlensM a((b,c),(d,e))((b,d),(c,e))",
@@ -5936,6 +6428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistributes a sum to the right of a view pair into a sum of pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "distrPut",
           "package": "putlenses",
@@ -5946,6 +6439,7 @@
         "index": {
           "description": "Distributes sum to the right of view pair into sum of pairs",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "distrPut",
           "normalized": "PutlensM a(Either(b,c)(b,d))(b,Either c d)",
@@ -5962,6 +6456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistributes a pair of view sums into a sum of choices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "distsPut",
           "package": "putlenses",
@@ -5972,6 +6467,7 @@
         "index": {
           "description": "Distributes pair of view sums into sum of choices",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "distsPut",
           "normalized": "PutlensM a(Either(Either(b,c)(b,d))(Either(e,c)(e,d)))(Either b e,Either c d)",
@@ -5988,6 +6484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuplicates a view by enforcing the two sources to be the same\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "dupPut",
           "package": "putlenses",
@@ -5998,6 +6495,7 @@
         "index": {
           "description": "Duplicates view by enforcing the two sources to be the same",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "dupPut",
           "normalized": "PutlensM a(b,b)b",
@@ -6014,6 +6512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies some monadic modification (like changing a state) to a putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "effectPut",
           "package": "putlenses",
@@ -6024,6 +6523,7 @@
         "index": {
           "description": "Applies some monadic modification like changing state to putlens",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "effectPut",
           "normalized": "(Maybe a-\u003eb-\u003ec())-\u003ePutlensM c a b-\u003ePutlensM c a b",
@@ -6040,6 +6540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores the tags in the view (guaranteeing disjointness according to a predicate on sources)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "eitherSPut",
           "package": "putlenses",
@@ -6050,6 +6551,7 @@
         "index": {
           "description": "Ignores the tags in the view guaranteeing disjointness according to predicate on sources",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "eitherSPut",
           "normalized": "(a-\u003eBool)-\u003ePutlensM b a c-\u003ePutlensM b a c-\u003ePutlensM b a(Either c c)",
@@ -6066,6 +6568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "idPut",
           "package": "putlenses",
@@ -6076,6 +6579,7 @@
         "index": {
           "description": "Identity putlens",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "idPut",
           "package": "putlenses",
@@ -6090,6 +6594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial if-then-else combinator for two putlenses with the same get function\n ^ Given the invariant |getM f = getM g|, there are no restrictions regarding branching behavior\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "ifKthenelsePut",
           "package": "putlenses",
@@ -6100,6 +6605,7 @@
         "index": {
           "description": "Special if-then-else combinator for two putlenses with the same get function Given the invariant getM getM there are no restrictions regarding branching behavior",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "ifKthenelsePut",
           "normalized": "(Maybe a-\u003eb-\u003ec Bool)-\u003ePutlensM c a b-\u003ePutlensM c a b-\u003ePutlensM c a b",
@@ -6116,6 +6622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional putlens combinator (with a predicate on sources)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "ifSthenelsePut",
           "package": "putlenses",
@@ -6126,6 +6633,7 @@
         "index": {
           "description": "Conditional putlens combinator with predicate on sources",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "ifSthenelsePut",
           "normalized": "(a-\u003eBool)-\u003ePutlensM b a c-\u003ePutlensM b a c-\u003ePutlensM b a c",
@@ -6142,6 +6650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional putlens combinator (with a predicate on views)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "ifVthenelsePut",
           "package": "putlenses",
@@ -6152,6 +6661,7 @@
         "index": {
           "description": "Conditional putlens combinator with predicate on views",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "ifVthenelsePut",
           "normalized": "(a-\u003eBool)-\u003ePutlensM b c a-\u003ePutlensM b c a-\u003ePutlensM b c a",
@@ -6168,6 +6678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional putlens combinator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "ifthenelsePut",
           "package": "putlenses",
@@ -6178,6 +6689,7 @@
         "index": {
           "description": "Conditional putlens combinator",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "ifthenelsePut",
           "normalized": "(Maybe a-\u003eb-\u003ec Bool)-\u003ePutlensM c a b-\u003ePutlensM c a b-\u003ePutlensM c a b",
@@ -6194,6 +6706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a user-specified view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "ignorePut",
           "package": "putlenses",
@@ -6204,6 +6717,7 @@
         "index": {
           "description": "Deletes user-specified view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "ignorePut",
           "normalized": "a-\u003ePutlensM b()a",
@@ -6220,6 +6734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a tag in the view (according to a user-specified predicate)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "injPut",
           "package": "putlenses",
@@ -6230,6 +6745,7 @@
         "index": {
           "description": "Injects tag in the view according to user-specified predicate",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "injPut",
           "normalized": "(Maybe(Either a a)-\u003ea-\u003eb Bool)-\u003ePutlensM b(Either a a)a",
@@ -6246,6 +6762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a left tag in the view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "injlPut",
           "package": "putlenses",
@@ -6256,6 +6773,7 @@
         "index": {
           "description": "Injects left tag in the view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "injlPut",
           "package": "putlenses",
@@ -6270,6 +6788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a tag in the view (according to the tags of the original source) with a left default for create\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "injlsPut",
           "package": "putlenses",
@@ -6280,6 +6799,7 @@
         "index": {
           "description": "Injects tag in the view according to the tags of the original source with left default for create",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "injlsPut",
           "package": "putlenses",
@@ -6294,6 +6814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a right tag in the view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "injrPut",
           "package": "putlenses",
@@ -6304,6 +6825,7 @@
         "index": {
           "description": "Injects right tag in the view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "injrPut",
           "package": "putlenses",
@@ -6318,6 +6840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a tag in the view (according to the tags of the original source) with a right default for create\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "injrsPut",
           "package": "putlenses",
@@ -6328,6 +6851,7 @@
         "index": {
           "description": "Injects tag in the view according to the tags of the original source with right default for create",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "injrsPut",
           "package": "putlenses",
@@ -6342,6 +6866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a tag in the view (according to the tags of the original source)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "injsOrPut",
           "package": "putlenses",
@@ -6352,6 +6877,7 @@
         "index": {
           "description": "Injects tag in the view according to the tags of the original source",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "injsOrPut",
           "normalized": "(a-\u003eb Bool)-\u003ePutlensM b(Either a a)a",
@@ -6368,6 +6894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a tag in the view according to the tags of the original source or giving preference to the first lens when both are applicable.\n Requires the monad to be an instance of \u003ccode\u003eMonadPlus\u003c/code\u003e to recover from failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "injunionPut",
           "package": "putlenses",
@@ -6378,6 +6905,7 @@
         "index": {
           "description": "Injects tag in the view according to the tags of the original source or giving preference to the first lens when both are applicable Requires the monad to be an instance of MonadPlus to recover from failure",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "injunionPut",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c-\u003ePutlensM a(Either b b)c",
@@ -6394,6 +6922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePutlens from a sums-of-products view to an algebraic data type source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "innPut",
           "package": "putlenses",
@@ -6404,6 +6933,7 @@
         "index": {
           "description": "Putlens from sums-of-products view to an algebraic data type source",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "innPut",
           "package": "putlenses",
@@ -6417,6 +6947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "isoPut",
           "package": "putlenses",
@@ -6426,6 +6957,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "isoPut",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003ePutlensM c b a",
@@ -6442,6 +6974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a new source (retrieving the original source)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "keepPut",
           "package": "putlenses",
@@ -6452,6 +6985,7 @@
         "index": {
           "description": "Adds new source retrieving the original source",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "keepPut",
           "normalized": "PutlensM a b()",
@@ -6468,6 +7002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a value to the left of the view (retrieving it from the original source or otherwise using a user-specified function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "keepfstOrPut",
           "package": "putlenses",
@@ -6478,6 +7013,7 @@
         "index": {
           "description": "Adds value to the left of the view retrieving it from the original source or otherwise using user-specified function",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "keepfstOrPut",
           "normalized": "(a-\u003eb c)-\u003ePutlensM b(c,a)a",
@@ -6494,6 +7030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a value to the left of the view (retrieving it from the original source)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "keepfstPut",
           "package": "putlenses",
@@ -6504,6 +7041,7 @@
         "index": {
           "description": "Adds value to the left of the view retrieving it from the original source",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "keepfstPut",
           "normalized": "PutlensM a(b,c)c",
@@ -6520,6 +7058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a value to the right of the view (retrieving it from the original source or otherwise using a user-specified function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "keepsndOrPut",
           "package": "putlenses",
@@ -6530,6 +7069,7 @@
         "index": {
           "description": "Adds value to the right of the view retrieving it from the original source or otherwise using user-specified function",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "keepsndOrPut",
           "normalized": "(a-\u003eb c)-\u003ePutlensM b(a,c)a",
@@ -6546,6 +7086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a value to the right of the view (retrieving it from the original source)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "keepsndPut",
           "package": "putlenses",
@@ -6556,6 +7097,7 @@
         "index": {
           "description": "Adds value to the right of the view retrieving it from the original source",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "keepsndPut",
           "normalized": "PutlensM a(b,c)b",
@@ -6571,6 +7113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "localPut",
           "package": "putlenses",
@@ -6580,6 +7123,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "localPut",
           "normalized": "(Maybe a-\u003eb-\u003ec-\u003ec)-\u003ePutlensM d a b-\u003ePutlensM d a b",
@@ -6596,6 +7140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuplicates a view but not enforcing the two sources to be the same\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "mergePut",
           "package": "putlenses",
@@ -6606,6 +7151,7 @@
         "index": {
           "description": "Duplicates view but not enforcing the two sources to be the same",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "mergePut",
           "normalized": "PutlensM a(b,b)b",
@@ -6622,6 +7168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the original source before executing put (unsafe cast)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "modifyS",
           "package": "putlenses",
@@ -6632,6 +7179,7 @@
         "index": {
           "description": "Modifies the original source before executing put unsafe cast",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "modifyS",
           "normalized": "(Maybe a-\u003eb-\u003ec(Maybe a))-\u003ePutlensM c a b-\u003ePutlensM c a b",
@@ -6647,6 +7195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the updated view before executing put (unsafe cast)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "modifyV'",
           "package": "putlenses",
@@ -6657,6 +7206,7 @@
         "index": {
           "description": "Modifies the updated view before executing put unsafe cast",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "modifyV'",
           "normalized": "(Maybe a-\u003eb-\u003ec b)-\u003ePutlensM c a b-\u003ePutlensM c a b",
@@ -6673,6 +7223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a constant source from an empty view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "newPut",
           "package": "putlenses",
@@ -6683,6 +7234,7 @@
         "index": {
           "description": "Creates constant source from an empty view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "newPut",
           "normalized": "a-\u003ePutlensM b a()",
@@ -6699,6 +7251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePutlens from an algebraic data type view to a sums-of-products source \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "outPut",
           "package": "putlenses",
@@ -6709,6 +7262,7 @@
         "index": {
           "description": "Putlens from an algebraic data type view to sums-of-products source",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "outPut",
           "package": "putlenses",
@@ -6723,6 +7277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a left element of the source to an external parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "paramfstGet",
           "package": "putlenses",
@@ -6733,6 +7288,7 @@
         "index": {
           "description": "Lifts left element of the source to an external parameter",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "paramfstGet",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003ePutlensM b d a)-\u003ePutlensM b(c,d)a",
@@ -6749,6 +7305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a parameter outside of a lens (first element as external parameter)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "paramfstPut",
           "package": "putlenses",
@@ -6759,6 +7316,7 @@
         "index": {
           "description": "Lifts parameter outside of lens first element as external parameter",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "paramfstPut",
           "normalized": "(a-\u003ePutlensM b c d)-\u003ePutlensM b(a,c)(a,d)",
@@ -6775,6 +7333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a right element of the source to an external parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "paramsndGet",
           "package": "putlenses",
@@ -6785,6 +7344,7 @@
         "index": {
           "description": "Lifts right element of the source to an external parameter",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "paramsndGet",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003ePutlensM b d a)-\u003ePutlensM b(d,c)a",
@@ -6801,6 +7361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a parameter outside of a lens (second element as external parameter)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "paramsndPut",
           "package": "putlenses",
@@ -6811,6 +7372,7 @@
         "index": {
           "description": "Lifts parameter outside of lens second element as external parameter",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "paramsndPut",
           "normalized": "(a-\u003ePutlensM b c d)-\u003ePutlensM b(c,a)(d,a)",
@@ -6827,6 +7389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView-based filtering putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "phiPut",
           "package": "putlenses",
@@ -6837,6 +7400,7 @@
         "index": {
           "description": "View-based filtering putlens",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "phiPut",
           "normalized": "(a-\u003eBool)-\u003ePutlensM b a a",
@@ -6853,6 +7417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike phiPut p .\u003c l, but with a less restricted get function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "phiSourcePut",
           "package": "putlenses",
@@ -6863,6 +7428,7 @@
         "index": {
           "description": "Like phiPut but with less restricted get function",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "phiSourcePut",
           "normalized": "(a-\u003eBool)-\u003ePutlensM b a c-\u003ePutlensM b a c",
@@ -6879,6 +7445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a source from an empty view (according to a user-specified function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "pntPut",
           "package": "putlenses",
@@ -6889,6 +7456,7 @@
         "index": {
           "description": "Creates source from an empty view according to user-specified function",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "pntPut",
           "normalized": "(Maybe a-\u003eb a)-\u003ePutlensM b a()",
@@ -6905,6 +7473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes an empty view to the left of the view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "remfstOnePut",
           "package": "putlenses",
@@ -6915,6 +7484,7 @@
         "index": {
           "description": "Deletes an empty view to the left of the view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "remfstOnePut",
           "normalized": "PutlensM a b((),b)",
@@ -6931,6 +7501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the left value of a view pair (taking a user-specified function that instructs how it can be restored)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "remfstPut",
           "package": "putlenses",
@@ -6941,6 +7512,7 @@
         "index": {
           "description": "Deletes the left value of view pair taking user-specified function that instructs how it can be restored",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "remfstPut",
           "normalized": "(a-\u003ea)-\u003ePutlensM b a(a,a)",
@@ -6957,6 +7529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes an empty view to the left of the view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "remsndOnePut",
           "package": "putlenses",
@@ -6967,6 +7540,7 @@
         "index": {
           "description": "Deletes an empty view to the left of the view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "remsndOnePut",
           "normalized": "PutlensM a b(b,())",
@@ -6983,6 +7557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the right value of a view pair (taking a user-specified function that instructs how it can be restored)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "remsndPut",
           "package": "putlenses",
@@ -6993,6 +7568,7 @@
         "index": {
           "description": "Deletes the right value of view pair taking user-specified function that instructs how it can be restored",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "remsndPut",
           "normalized": "(a-\u003ea)-\u003ePutlensM b a(a,a)",
@@ -7009,6 +7585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores the current state and initializes a new state monad with a new state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "resetStatePut",
           "package": "putlenses",
@@ -7019,6 +7596,7 @@
         "index": {
           "description": "Ignores the current state and initializes new state monad with new state",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "resetStatePut",
           "normalized": "(Maybe a-\u003eb-\u003ec-\u003ed e)-\u003ePutlensStateM d e a b-\u003ePutlensStateM d c a b",
@@ -7035,6 +7613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a putlens with explicitly partial put functions into a normal putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "runMaybePut",
           "package": "putlenses",
@@ -7045,6 +7624,7 @@
         "index": {
           "description": "Converts putlens with explicitly partial put functions into normal putlens",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "runMaybePut",
           "normalized": "PutlensMaybeM a b c-\u003ePutlensM a b c",
@@ -7060,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPut",
           "package": "putlenses",
@@ -7069,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPut",
           "normalized": "(Maybe a-\u003eb-\u003ec d)-\u003ePutlensReaderM c d a b-\u003ePutlensM c a b",
@@ -7084,6 +7666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutMbS",
           "package": "putlenses",
@@ -7093,6 +7676,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutMbS",
           "normalized": "PutlensReaderM a(Maybe b)b c-\u003ePutlensM a b c",
@@ -7108,6 +7692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutMbV",
           "package": "putlenses",
@@ -7117,6 +7702,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutMbV",
           "normalized": "PutlensReaderM a(Maybe b)c b-\u003ePutlensM a c b",
@@ -7132,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutS",
           "package": "putlenses",
@@ -7141,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutS",
           "normalized": "PutlensReaderM a b b c-\u003ePutlensM a b c",
@@ -7156,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutV",
           "package": "putlenses",
@@ -7165,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutV",
           "normalized": "PutlensReaderM a b c b-\u003ePutlensM a c b",
@@ -7180,6 +7770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutV'",
           "package": "putlenses",
@@ -7189,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "runReaderPutV'",
           "normalized": "PutlensReaderM a b c b-\u003ePutlensM a c b",
@@ -7205,6 +7797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes the monad with a new state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "runStatePut",
           "package": "putlenses",
@@ -7215,6 +7808,7 @@
         "index": {
           "description": "Initializes the monad with new state",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "runStatePut",
           "normalized": "(Maybe a-\u003eb-\u003ec d)-\u003ePutlensStateM c d a b-\u003ePutlensM c a b",
@@ -7231,6 +7825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps the second with the third element of a left-nested view pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "sublPut",
           "package": "putlenses",
@@ -7241,6 +7836,7 @@
         "index": {
           "description": "Swaps the second with the third element of left-nested view pair",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "sublPut",
           "normalized": "PutlensM a((b,c),d)((b,d),c)",
@@ -7257,6 +7853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps the first with the second element of a right-nested view pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "subrPut",
           "package": "putlenses",
@@ -7267,6 +7864,7 @@
         "index": {
           "description": "Swaps the first with the second element of right-nested view pair",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "subrPut",
           "normalized": "PutlensM a(b,(c,d))(c,(b,d))",
@@ -7283,6 +7881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwaps the order of elements in a view pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "swapPut",
           "package": "putlenses",
@@ -7293,6 +7892,7 @@
         "index": {
           "description": "Swaps the order of elements in view pair",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "swapPut",
           "normalized": "PutlensM a(b,c)(c,b)",
@@ -7309,6 +7909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndistributes a sum of pairs view into source pair with a sum to the left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "undistlPut",
           "package": "putlenses",
@@ -7319,6 +7920,7 @@
         "index": {
           "description": "Undistributes sum of pairs view into source pair with sum to the left",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "undistlPut",
           "normalized": "PutlensM a(Either b c,d)(Either(b,d)(c,d))",
@@ -7335,6 +7937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndistributes a sum of pairs view into source pair with a sum to the right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "undistrPut",
           "package": "putlenses",
@@ -7345,6 +7948,7 @@
         "index": {
           "description": "Undistributes sum of pairs view into source pair with sum to the right",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "undistrPut",
           "normalized": "PutlensM a(b,Either c d)(Either(b,c)(b,d))",
@@ -7361,6 +7965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoins a a sum of choices into a pair of view sums\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "undistsPut",
           "package": "putlenses",
@@ -7371,6 +7976,7 @@
         "index": {
           "description": "Joins sum of choices into pair of view sums",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "undistsPut",
           "normalized": "PutlensM a(Either b c,Either d e)(Either(Either(b,d)(b,e))(Either(c,d)(c,e)))",
@@ -7387,6 +7993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfork putlens that applies two putlenses to distinct sides of a view pair, producing the same source (unsafe)\n ^ Dualizes forward splitting and induces a source-passing style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "unforkPut",
           "package": "putlenses",
@@ -7397,6 +8004,7 @@
         "index": {
           "description": "Unfork putlens that applies two putlenses to distinct sides of view pair producing the same source unsafe Dualizes forward splitting and induces source-passing style",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "unforkPut",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c-\u003ePutlensM a b(c,c)",
@@ -7413,6 +8021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores left tags for left-tagged views\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "uninjlPut",
           "package": "putlenses",
@@ -7423,6 +8032,7 @@
         "index": {
           "description": "Ignores left tags for left-tagged views",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "uninjlPut",
           "package": "putlenses",
@@ -7437,6 +8047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores left tags for left-tagged views\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "uninjrPut",
           "package": "putlenses",
@@ -7447,6 +8058,7 @@
         "index": {
           "description": "Ignores left tags for left-tagged views",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "uninjrPut",
           "package": "putlenses",
@@ -7461,6 +8073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of two putlenses (requires the monad to be an instance of \u003ccode\u003eMonadPlus\u003c/code\u003e to be able to recover from failure)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "unionPut",
           "package": "putlenses",
@@ -7471,6 +8084,7 @@
         "index": {
           "description": "Union of two putlenses requires the monad to be an instance of MonadPlus to be able to recover from failure",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "unionPut",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c-\u003ePutlensM a b c",
@@ -7487,6 +8101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the updated source after executing put (unsafe cast)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "updateS'",
           "package": "putlenses",
@@ -7497,6 +8112,7 @@
         "index": {
           "description": "Modifies the updated source after executing put unsafe cast",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "updateS'",
           "normalized": "(Maybe a-\u003ea-\u003eb a)-\u003ePutlensM b a c-\u003ePutlensM b a c",
@@ -7513,6 +8129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the state after executing put\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "updateStatePut",
           "package": "putlenses",
@@ -7523,6 +8140,7 @@
         "index": {
           "description": "Modifies the state after executing put",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "updateStatePut",
           "normalized": "(Maybe a-\u003ea-\u003eb-\u003ec b)-\u003ePutlensM c a d-\u003ePutlensM c a d",
@@ -7538,6 +8156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "updateStateTPut",
           "package": "putlenses",
@@ -7547,6 +8166,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "updateStateTPut",
           "normalized": "(Maybe a-\u003ea-\u003eb-\u003ec b)-\u003ePutlensStateM c b a d-\u003ePutlensStateM c b a d",
@@ -7562,6 +8182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withMbS",
           "package": "putlenses",
@@ -7571,6 +8192,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withMbS",
           "normalized": "PutlensReaderM a(Maybe b)b c-\u003ePutlensReaderM a d b c",
@@ -7586,6 +8208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withMbV",
           "package": "putlenses",
@@ -7595,6 +8218,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withMbV",
           "normalized": "PutlensReaderM a(Maybe b)c b-\u003ePutlensReaderM a d c b",
@@ -7611,6 +8235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns an inner monad \u003ccode\u003en\u003c/code\u003e inside a putlens with monad \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withMonadPut",
           "package": "putlenses",
@@ -7621,6 +8246,7 @@
         "index": {
           "description": "Runs an inner monad inside putlens with monad",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withMonadPut",
           "normalized": "(a b Maybe c-\u003ed-\u003ee f-\u003eg f)-\u003ePutlensM e c d-\u003ePutlensM g c d",
@@ -7637,6 +8263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns an inner monad \u003ccode\u003en\u003c/code\u003e inside a putlens with monad \u003ccode\u003em\u003c/code\u003e (using also the original view)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withMonadPut'",
           "package": "putlenses",
@@ -7647,6 +8274,7 @@
         "index": {
           "description": "Runs an inner monad inside putlens with monad using also the original view",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withMonadPut'",
           "normalized": "(a b Maybe c-\u003eMaybe d-\u003ed-\u003ee f-\u003eg f)-\u003ePutlensM e c d-\u003ePutlensM g c d",
@@ -7662,6 +8290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withReaderPut",
           "package": "putlenses",
@@ -7671,6 +8300,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withReaderPut",
           "normalized": "(Maybe a-\u003eb-\u003ec-\u003ed e)-\u003ePutlensReaderM d e a b-\u003ePutlensReaderM d c a b",
@@ -7686,6 +8316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withReaderPut'",
           "package": "putlenses",
@@ -7695,6 +8326,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withReaderPut'",
           "normalized": "(Maybe a-\u003eMaybe b-\u003eb-\u003ec-\u003ed e)-\u003ePutlensReaderM d e a b-\u003ePutlensReaderM d c a b",
@@ -7710,6 +8342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withS",
           "package": "putlenses",
@@ -7719,6 +8352,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withS",
           "normalized": "PutlensReaderM a b b c-\u003ePutlensReaderM a d b c",
@@ -7734,6 +8368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the state before executing put\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withStatePut",
           "package": "putlenses",
@@ -7744,6 +8379,7 @@
         "index": {
           "description": "Modifies the state before executing put",
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withStatePut",
           "normalized": "(Maybe a-\u003eb-\u003ec-\u003ed c)-\u003ePutlensM d a b-\u003ePutlensM d a b",
@@ -7759,6 +8395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withStateTPut",
           "package": "putlenses",
@@ -7768,6 +8405,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withStateTPut",
           "normalized": "(Maybe a-\u003eb-\u003ec-\u003ed c)-\u003ePutlensStateM d c a b-\u003ePutlensStateM d c a b",
@@ -7783,6 +8421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withV",
           "package": "putlenses",
@@ -7792,6 +8431,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withV",
           "normalized": "PutlensReaderM a b c b-\u003ePutlensReaderM a d c b",
@@ -7806,6 +8446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Language",
           "name": "withV'",
           "package": "putlenses",
@@ -7815,6 +8456,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Language",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Language",
           "name": "withV'",
           "normalized": "PutlensReaderM a b c b-\u003ePutlensReaderM a d c b",
@@ -7831,6 +8473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral framework for put-based lenses.\n\u003c/p\u003e\u003cp\u003eA well-behaved putlens is expected to satisfy two properties:\n GetPut: |Just v = get l s =\u003e s = runPutM (put (Just s) v) e st|\n PutGet: |s' = runPutM (put s v') e st =\u003e Just v' = get s'|\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "Putlens",
           "package": "putlenses",
@@ -7840,6 +8483,7 @@
         "index": {
           "description": "General framework for put-based lenses well-behaved putlens is expected to satisfy two properties GetPut Just get runPutM put Just st PutGet runPutM put st Just get",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "Putlens",
           "package": "putlenses",
@@ -7853,6 +8497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "Create",
           "package": "putlenses",
@@ -7861,6 +8506,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "Create",
           "package": "putlenses",
@@ -7874,6 +8520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "Get",
           "package": "putlenses",
@@ -7882,6 +8529,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "Get",
           "package": "putlenses",
@@ -7895,6 +8543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "GetPut",
           "package": "putlenses",
@@ -7903,6 +8552,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "GetPut",
           "package": "putlenses",
@@ -7917,6 +8567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for lenses without monadic effects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "Lens",
           "package": "putlenses",
@@ -7926,6 +8577,7 @@
         "index": {
           "description": "Interface for lenses without monadic effects",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "Lens",
           "package": "putlenses",
@@ -7940,6 +8592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for normal lenses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "LensM",
           "package": "putlenses",
@@ -7949,6 +8602,7 @@
         "index": {
           "description": "Interface for normal lenses",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "LensM",
           "package": "putlenses",
@@ -7962,6 +8616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "Put",
           "package": "putlenses",
@@ -7970,6 +8625,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "Put",
           "package": "putlenses",
@@ -7983,6 +8639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutGet",
           "package": "putlenses",
@@ -7991,6 +8648,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutGet",
           "package": "putlenses",
@@ -8005,6 +8663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for put-based lenses\n includes an environment, state, and boolean tags that our system will use to ensure GetPut and PutGet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutM",
           "package": "putlenses",
@@ -8014,6 +8673,7 @@
         "index": {
           "description": "Monad for put-based lenses includes an environment state and boolean tags that our system will use to ensure GetPut and PutGet",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutM",
           "package": "putlenses",
@@ -8027,6 +8687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "Putlens",
           "package": "putlenses",
@@ -8035,6 +8696,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "Putlens",
           "package": "putlenses",
@@ -8049,6 +8711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFramework for put-based lenses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensM",
           "package": "putlenses",
@@ -8058,6 +8721,7 @@
         "index": {
           "description": "Framework for put-based lenses",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensM",
           "package": "putlenses",
@@ -8071,6 +8735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensMaybeM",
           "package": "putlenses",
@@ -8079,6 +8744,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensMaybeM",
           "package": "putlenses",
@@ -8092,6 +8758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensReaderM",
           "package": "putlenses",
@@ -8100,6 +8767,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensReaderM",
           "package": "putlenses",
@@ -8113,6 +8781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensStateM",
           "package": "putlenses",
@@ -8121,6 +8790,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensStateM",
           "package": "putlenses",
@@ -8134,6 +8804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "GetPut",
           "package": "putlenses",
@@ -8143,6 +8814,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "GetPut",
           "package": "putlenses",
@@ -8156,6 +8828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "LensM",
           "package": "putlenses",
@@ -8165,6 +8838,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "LensM",
           "package": "putlenses",
@@ -8178,6 +8852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutGet",
           "package": "putlenses",
@@ -8187,6 +8862,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutGet",
           "package": "putlenses",
@@ -8200,6 +8876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensM",
           "package": "putlenses",
@@ -8209,6 +8886,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "PutlensM",
           "package": "putlenses",
@@ -8222,6 +8900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "checkGetPut",
           "package": "putlenses",
@@ -8231,6 +8910,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "checkGetPut",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c",
@@ -8246,6 +8926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "checkPutGet",
           "package": "putlenses",
@@ -8255,6 +8936,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "checkPutGet",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c",
@@ -8270,6 +8952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "create",
           "package": "putlenses",
@@ -8279,6 +8962,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "create",
           "normalized": "a-\u003eb c",
@@ -8294,6 +8978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe create function of a putlens (with PutGet flag)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "create'",
           "package": "putlenses",
@@ -8304,6 +8989,7 @@
         "index": {
           "description": "The create function of putlens with PutGet flag",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "create'",
           "normalized": "Bool-\u003ePutlensM a b c-\u003ec-\u003ea b",
@@ -8318,6 +9004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "createM",
           "package": "putlenses",
@@ -8327,6 +9014,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "createM",
           "package": "putlenses",
@@ -8340,6 +9028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDomain of a putlens (the domains of its get function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "dom",
           "package": "putlenses",
@@ -8350,6 +9039,7 @@
         "index": {
           "description": "Domain of putlens the domains of its get function",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "dom",
           "normalized": "PutlensM a b c-\u003eb-\u003eBool",
@@ -8365,6 +9055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a putlens for a particular environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "evalPutM",
           "package": "putlenses",
@@ -8375,6 +9066,7 @@
         "index": {
           "description": "Runs putlens for particular environment",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "evalPutM",
           "normalized": "PutM a b-\u003eGetPut-\u003ea b",
@@ -8390,6 +9082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "get",
           "package": "putlenses",
@@ -8399,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "get",
           "normalized": "a-\u003eb",
@@ -8414,6 +9108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe get function of a putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "get'",
           "package": "putlenses",
@@ -8424,6 +9119,7 @@
         "index": {
           "description": "The get function of putlens",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "get'",
           "normalized": "PutlensM a b c-\u003eb-\u003ec",
@@ -8439,6 +9135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward |get| function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "getM",
           "package": "putlenses",
@@ -8449,6 +9146,7 @@
         "index": {
           "description": "Forward get function",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "getM",
           "normalized": "PutlensM a b c-\u003eGet b c",
@@ -8464,6 +9162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tupled get/put function of a putlens (with PutGet and GetPut flags)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "getput'",
           "package": "putlenses",
@@ -8474,6 +9173,7 @@
         "index": {
           "description": "The tupled get put function of putlens with PutGet and GetPut flags",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "getput'",
           "normalized": "Bool-\u003eBool-\u003ePutlensM a b c-\u003eb-\u003e(c,c-\u003ea b)",
@@ -8488,6 +9188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "getputM",
           "package": "putlenses",
@@ -8497,6 +9198,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "getputM",
           "normalized": "a-\u003e(Maybe b,Create c a b)",
@@ -8512,6 +9214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a normal lens to a putlens (without explicit failure)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "lens2put",
           "package": "putlenses",
@@ -8522,6 +9225,7 @@
         "index": {
           "description": "Converts normal lens to putlens without explicit failure",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "lens2put",
           "normalized": "LensM a b c-\u003ePutlensM a b c",
@@ -8537,6 +9241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a function on a given monad to a put computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "liftPutM",
           "package": "putlenses",
@@ -8547,6 +9252,7 @@
         "index": {
           "description": "Lifts function on given monad to put computation",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "liftPutM",
           "normalized": "a b-\u003ePutM a b",
@@ -8563,6 +9269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction \u003ccode\u003elift\u003c/code\u003e applied to the monadic argument of a putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "liftPutlensM",
           "package": "putlenses",
@@ -8573,6 +9280,7 @@
         "index": {
           "description": "Function lift applied to the monadic argument of putlens",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "liftPutlensM",
           "normalized": "PutlensM a b c-\u003ePutlensM(d a)b c",
@@ -8589,6 +9297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the resulting monad of a put computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "mapPutM",
           "package": "putlenses",
@@ -8599,6 +9308,7 @@
         "index": {
           "description": "Changes the resulting monad of put computation",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "mapPutM",
           "normalized": "(a b c d-\u003ee d)-\u003ePutM c d-\u003ePutM e d",
@@ -8615,6 +9325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the resulting monad of a putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "mapPutlensM",
           "package": "putlenses",
@@ -8625,6 +9336,7 @@
         "index": {
           "description": "Changes the resulting monad of putlens",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "mapPutlensM",
           "normalized": "(a b c d-\u003ee d)-\u003ePutlensM c f g-\u003ePutlensM e f g",
@@ -8640,6 +9352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "offGetPut",
           "package": "putlenses",
@@ -8649,6 +9362,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "offGetPut",
           "normalized": "PutM a b-\u003ePutM a b",
@@ -8664,6 +9378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "onPutGet",
           "package": "putlenses",
@@ -8673,6 +9388,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "onPutGet",
           "normalized": "PutM a b-\u003ePutM a b",
@@ -8688,6 +9404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put",
           "package": "putlenses",
@@ -8697,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put",
           "normalized": "a-\u003eb-\u003ec a",
@@ -8711,6 +9429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put'",
           "package": "putlenses",
@@ -8720,6 +9439,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put'",
           "normalized": "Bool-\u003eBool-\u003ePutlensM a b c-\u003eb-\u003ec-\u003ea b",
@@ -8735,6 +9455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a putlens into another putlens that only uses the create function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2create",
           "package": "putlenses",
@@ -8745,6 +9466,7 @@
         "index": {
           "description": "Converts putlens into another putlens that only uses the create function",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2create",
           "normalized": "PutlensM a b c-\u003ePutlensM a b c",
@@ -8760,6 +9482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a putlens to a normal lens, enforcing well-behavedness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lens",
           "package": "putlenses",
@@ -8770,6 +9493,7 @@
         "index": {
           "description": "Converts putlens to normal lens enforcing well-behavedness",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lens",
           "normalized": "Putlens a b-\u003eLens a b",
@@ -8785,6 +9509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a monadic putlens to a monadic lens, enforcing well-behavedness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lensM",
           "package": "putlenses",
@@ -8795,6 +9520,7 @@
         "index": {
           "description": "Converts monadic putlens to monadic lens enforcing well-behavedness",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lensM",
           "normalized": "PutlensM a b c-\u003eLensM a b c",
@@ -8810,6 +9536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a putlens to a normal lens with a parameter telling to ensure well-behavedness or not (for unsafe casts)\n Initializes the environment as the original source, the state as empty, the GetPut tag as True and the PutGet tag as False\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lensM'",
           "package": "putlenses",
@@ -8820,6 +9547,7 @@
         "index": {
           "description": "Converts putlens to normal lens with parameter telling to ensure well-behavedness or not for unsafe casts Initializes the environment as the original source the state as empty the GetPut tag as True and the PutGet tag as False",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lensM'",
           "normalized": "Bool-\u003eBool-\u003ePutlensM a b c-\u003eLensM a b c",
@@ -8836,6 +9564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a putlens to a normal lens, without enforcing GetPut\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lensNoGetPut",
           "package": "putlenses",
@@ -8846,6 +9575,7 @@
         "index": {
           "description": "Converts putlens to normal lens without enforcing GetPut",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lensNoGetPut",
           "normalized": "Putlens a b-\u003eLens a b",
@@ -8862,6 +9592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a monadic putlens to a monadic lens, without enforcing GetPut\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lensNoGetPutM",
           "package": "putlenses",
@@ -8872,6 +9603,7 @@
         "index": {
           "description": "Converts monadic putlens to monadic lens without enforcing GetPut",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2lensNoGetPutM",
           "normalized": "PutlensM a b c-\u003eLensM a b c",
@@ -8888,6 +9620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a putlens to a normal lens but without enforcing PutGet (for unsafe casts)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2quicklens",
           "package": "putlenses",
@@ -8898,6 +9631,7 @@
         "index": {
           "description": "Converts putlens to normal lens but without enforcing PutGet for unsafe casts",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2quicklens",
           "normalized": "Putlens a b-\u003eLens a b",
@@ -8913,6 +9647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a monadic putlens to a monadic lens but without enforcing PutGet (for unsafe casts)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2quicklensM",
           "package": "putlenses",
@@ -8923,6 +9658,7 @@
         "index": {
           "description": "Converts monadic putlens to monadic lens but without enforcing PutGet for unsafe casts",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2quicklensM",
           "normalized": "PutlensM a b c-\u003eLensM a b c",
@@ -8938,6 +9674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a putlens to a normal lens, without enforcing GetPut\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2quicklensNoGetPut",
           "package": "putlenses",
@@ -8948,6 +9685,7 @@
         "index": {
           "description": "Converts putlens to normal lens without enforcing GetPut",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2quicklensNoGetPut",
           "normalized": "Putlens a b-\u003eLens a b",
@@ -8964,6 +9702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a monadic putlens to a monadic lens, without enforcing GetPut\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2quicklensNoGetPutM",
           "package": "putlenses",
@@ -8974,6 +9713,7 @@
         "index": {
           "description": "Converts monadic putlens to monadic lens without enforcing GetPut",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "put2quicklensNoGetPutM",
           "normalized": "PutlensM a b c-\u003eLensM a b c",
@@ -8990,6 +9730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackward |put| function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "putM",
           "package": "putlenses",
@@ -9000,6 +9741,7 @@
         "index": {
           "description": "Backward put function",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "putM",
           "normalized": "PutlensM a b c-\u003ePut a b c",
@@ -9014,6 +9756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "runPutM",
           "package": "putlenses",
@@ -9023,6 +9766,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "runPutM",
           "normalized": "PutM a b-\u003eGetPut-\u003ea(b,PutGet)",
@@ -9039,6 +9783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-monadic \u003ccode\u003ecreate\u003c/code\u003e function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "simplecreate",
           "package": "putlenses",
@@ -9049,6 +9794,7 @@
         "index": {
           "description": "Non-monadic create function",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "simplecreate",
           "normalized": "Lens a b-\u003eb-\u003ea",
@@ -9064,6 +9810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a simple lens of the Haskell lens package into a putlens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "simplelens2put",
           "package": "putlenses",
@@ -9074,6 +9821,7 @@
         "index": {
           "description": "Converts simple lens of the Haskell lens package into putlens",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "simplelens2put",
           "normalized": "Lens' a b-\u003ePutlensM c a b",
@@ -9089,6 +9837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-monadic \u003ccode\u003eput\u003c/code\u003e function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "simpleput",
           "package": "putlenses",
@@ -9099,6 +9848,7 @@
         "index": {
           "description": "Non-monadic put function",
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "simpleput",
           "normalized": "Lens a b-\u003ea-\u003eb-\u003ea",
@@ -9113,6 +9863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "testGetPut",
           "package": "putlenses",
@@ -9122,6 +9873,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "testGetPut",
           "normalized": "GetPut-\u003eBool",
@@ -9137,6 +9889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.Putlens",
           "name": "testPutGet",
           "package": "putlenses",
@@ -9146,6 +9899,7 @@
         },
         "index": {
           "hierarchy": "Generics Putlenses Putlens",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.Putlens",
           "name": "testPutGet",
           "normalized": "PutGet-\u003eBool",
@@ -9162,6 +9916,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuickcheck procedures to test the well-behavedness of partial lenses (and therefore putlenses)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "QuickCheck",
           "package": "putlenses",
@@ -9171,6 +9926,7 @@
         "index": {
           "description": "Quickcheck procedures to test the well-behavedness of partial lenses and therefore putlenses",
           "hierarchy": "Generics Putlenses QuickCheck",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "QuickCheck",
           "package": "putlenses",
@@ -9185,6 +9941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickCheck procedure to test if a lens satisfies the PutGet law (partial).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "getputPartial",
           "package": "putlenses",
@@ -9195,6 +9952,7 @@
         "index": {
           "description": "QuickCheck procedure to test if lens satisfies the PutGet law partial",
           "hierarchy": "Generics Putlenses QuickCheck",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "getputPartial",
           "normalized": "(a-\u003eBool)-\u003eLens a b-\u003ea-\u003eProperty",
@@ -9211,6 +9969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickCheck procedure to test if a lens satisfies the PutGet law (partial).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "putgetPartial",
           "package": "putlenses",
@@ -9221,6 +9980,7 @@
         "index": {
           "description": "QuickCheck procedure to test if lens satisfies the PutGet law partial",
           "hierarchy": "Generics Putlenses QuickCheck",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "putgetPartial",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eLens a b-\u003ea-\u003eb-\u003eProperty",
@@ -9237,6 +9997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickCheck procedure to test if a lens is well-behaved (partial).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "wb",
           "package": "putlenses",
@@ -9247,6 +10008,7 @@
         "index": {
           "description": "QuickCheck procedure to test if lens is well-behaved partial",
           "hierarchy": "Generics Putlenses QuickCheck",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "wb",
           "normalized": "Lens a b-\u003ea-\u003eb-\u003eProperty",
@@ -9262,6 +10024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickCheck procedure to test if a lens is well-behaved, taking as arguments particular domains for get and for put (partial).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "wbPartial",
           "package": "putlenses",
@@ -9272,6 +10035,7 @@
         "index": {
           "description": "QuickCheck procedure to test if lens is well-behaved taking as arguments particular domains for get and for put partial",
           "hierarchy": "Generics Putlenses QuickCheck",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.QuickCheck",
           "name": "wbPartial",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb-\u003eBool)-\u003eLens a b-\u003ea-\u003eb-\u003eProperty",
@@ -9288,6 +10052,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTemplate Haskell procedures to generate default putlenses for record types and default putlens constructors and destructores for \u003ccode\u003eGeneric\u003c/code\u003e instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.TH",
           "name": "TH",
           "package": "putlenses",
@@ -9297,6 +10062,7 @@
         "index": {
           "description": "Template Haskell procedures to generate default putlenses for record types and default putlens constructors and destructores for Generic instances",
           "hierarchy": "Generics Putlenses TH",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.TH",
           "name": "TH",
           "package": "putlenses",
@@ -9311,6 +10077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates constructor and destructor putlenses for data types that are \u003ccode\u003eGeneric\u003c/code\u003e instances\n For an algebraic data type\n \u003ccode\u003edata List a = Nil | Cons a [a] deriving Generic\n $( makePutlensConstructors ''List )\u003c/code\u003e\n it generates two constructors\n \u003ccode\u003enilPut :: MonadPlus m =\u003e PutlensM m e (List a) ()\n nilPut = innPut .\u003c injlPut\n consPut :: Monad m =\u003e PutlensM m e (List a) (a,List a)\n consPut = innPut .\u003c injrPut\u003c/code\u003e\n and two destructors\n \u003ccode\u003eunnilPut :: Monad m =\u003e PutlensM m e () (List a)\n unnilPut = uninjlPut .\u003c outPut\n unconsPut :: Monad m =\u003e PutlensM m e (a,List a) (List a)\n unconsPut = uninjrPut .\u003c outPut\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.TH",
           "name": "makePutlensConstructors",
           "package": "putlenses",
@@ -9321,6 +10088,7 @@
         "index": {
           "description": "Generates constructor and destructor putlenses for data types that are Generic instances For an algebraic data type data List Nil Cons deriving Generic makePutlensConstructors List it generates two constructors nilPut MonadPlus PutlensM List nilPut innPut injlPut consPut Monad PutlensM List List consPut innPut injrPut and two destructors unnilPut Monad PutlensM List unnilPut uninjlPut outPut unconsPut Monad PutlensM List List unconsPut uninjrPut outPut",
           "hierarchy": "Generics Putlenses TH",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.TH",
           "name": "makePutlensConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -9337,6 +10105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates field putlenses for record types\n For a record\n \u003ccode\u003edata T a = T { t1 :: String, t2 :: a }\n $( makePutlensFields ''T )\u003c/code\u003e\n it generates two putlenses\n \u003ccode\u003et1Put :: Monad m =\u003e PutlensM m e (T a) String\n t2Put :: Monad m =\u003e PutlensM e (T a) a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:37 UTC 2014",
           "module": "Generics.Putlenses.TH",
           "name": "makePutlensFields",
           "package": "putlenses",
@@ -9347,6 +10116,7 @@
         "index": {
           "description": "Generates field putlenses for record types For record data t1 String t2 makePutlensFields it generates two putlenses t1Put Monad PutlensM String t2Put Monad PutlensM",
           "hierarchy": "Generics Putlenses TH",
+          "indexed": "2014-03-11T19:46:37",
           "module": "Generics.Putlenses.TH",
           "name": "makePutlensFields",
           "normalized": "Name-\u003eQ[Dec]",

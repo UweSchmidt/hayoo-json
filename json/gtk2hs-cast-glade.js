@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk2hs-cast-glade"
+        "phrase": "gtk2hs-cast-glade",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:58 UTC 2014",
           "module": "Graphics.UI.Gtk.Glade.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-glade",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Glade Cast",
+          "indexed": "2014-03-11T18:22:58",
           "module": "Graphics.UI.Gtk.Glade.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-glade",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:58 UTC 2014",
           "module": "Graphics.UI.Gtk.Glade.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-glade",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Glade Cast",
+          "indexed": "2014-03-11T18:22:58",
           "module": "Graphics.UI.Gtk.Glade.Cast",
           "name": "Cast",
           "package": "gtk2hs-cast-glade",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:58 UTC 2014",
           "module": "Graphics.UI.Gtk.Glade.Cast",
           "name": "cast",
           "package": "gtk2hs-cast-glade",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Glade Cast",
+          "indexed": "2014-03-11T18:22:58",
           "module": "Graphics.UI.Gtk.Glade.Cast",
           "name": "cast",
           "normalized": "a-\u003eb",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:58 UTC 2014",
           "module": "Graphics.UI.Gtk.Glade.Cast",
           "name": "xmlGetWidgetCast",
           "package": "gtk2hs-cast-glade",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Glade Cast",
+          "indexed": "2014-03-11T18:22:58",
           "module": "Graphics.UI.Gtk.Glade.Cast",
           "name": "xmlGetWidgetCast",
           "normalized": "GladeXML-\u003eString-\u003eIO a",

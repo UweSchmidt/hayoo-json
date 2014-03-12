@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hopfield"
+        "phrase": "hopfield",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Analysis",
           "name": "Analysis",
           "package": "hopfield",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Analysis",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Analysis",
           "name": "Analysis",
           "package": "hopfield",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the probability of error for one element given a hopfield data\n structure. Note that I claim that the actuall error of probability depends\n on this, but is not the whole term\n The assumption is that the patterns which were used to train the network\n are independent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Analysis",
           "name": "computeErrorIndependentPats",
           "package": "hopfield",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Computes the probability of error for one element given hopfield data structure Note that claim that the actuall error of probability depends on this but is not the whole term The assumption is that the patterns which were used to train the network are independent",
           "hierarchy": "Hopfield Analysis",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Analysis",
           "name": "computeErrorIndependentPats",
           "normalized": "HopfieldData-\u003eDouble",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Analysis",
           "name": "computeErrorIndependentPatsNumbers",
           "package": "hopfield",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Analysis",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Analysis",
           "name": "computeErrorIndependentPatsNumbers",
           "normalized": "Int-\u003eInt-\u003eDouble",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomputes the error of a super attractor of a hopfield network. The assumption\n is that there is only one super attractor and the other patterns are independent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Analysis",
           "name": "computeErrorSuperAttractor",
           "package": "hopfield",
@@ -100,6 +107,7 @@
         "index": {
           "description": "computes the error of super attractor of hopfield network The assumption is that there is only one super attractor and the other patterns are independent",
           "hierarchy": "Hopfield Analysis",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Analysis",
           "name": "computeErrorSuperAttractor",
           "normalized": "HopfieldData-\u003eDouble",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecomputeErrorSuperAttractorNumbers d p n\u003c/code\u003e\n Computes the probability of error for a super attractor with degree \u003ccode\u003ed\u003c/code\u003e, in\n a Hopfield network with \u003ccode\u003en\u003c/code\u003e neurons, which has been trained with \u003ccode\u003ep\u003c/code\u003e patterns.\n The assumption is that the other patterns are independent\n for mathematical derivation of the equation, see report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Analysis",
           "name": "computeErrorSuperAttractorNumbers",
           "package": "hopfield",
@@ -126,6 +135,7 @@
         "index": {
           "description": "computeErrorSuperAttractorNumbers Computes the probability of error for super attractor with degree in Hopfield network with neurons which has been trained with patterns The assumption is that the other patterns are independent for mathematical derivation of the equation see report",
           "hierarchy": "Hopfield Analysis",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Analysis",
           "name": "computeErrorSuperAttractorNumbers",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eDouble",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Analysis",
           "name": "maxNumberOfPatterns",
           "package": "hopfield",
@@ -150,6 +161,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Analysis",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Analysis",
           "name": "maxNumberOfPatterns",
           "normalized": "Int-\u003eDouble-\u003eInt",
@@ -165,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Analysis",
           "name": "minNumberOfNeurons",
           "package": "hopfield",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Analysis",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Analysis",
           "name": "minNumberOfNeurons",
           "normalized": "Int-\u003eDouble-\u003eInt",
@@ -189,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Analysis",
           "name": "patternsToNeuronsRatioFromError",
           "package": "hopfield",
@@ -198,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Analysis",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Analysis",
           "name": "patternsToNeuronsRatioFromError",
           "normalized": "Double-\u003eDouble",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Benchmark",
           "name": "Benchmark",
           "package": "hopfield",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Benchmark",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Benchmark",
           "name": "Benchmark",
           "package": "hopfield",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Benchmark",
           "name": "bench1",
           "package": "hopfield",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Benchmark",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Benchmark",
           "name": "bench1",
           "normalized": "IO()",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Benchmark",
           "name": "bench2",
           "package": "hopfield",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Benchmark",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Benchmark",
           "name": "bench2",
           "normalized": "IO()",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase Restricted Boltzmann machine.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "ClassificationBoltzmannMachine",
           "package": "hopfield",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Base Restricted Boltzmann machine",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "ClassificationBoltzmannMachine",
           "package": "hopfield",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "BoltzmannData",
           "package": "hopfield",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "BoltzmannData",
           "package": "hopfield",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "Mode",
           "package": "hopfield",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "Mode",
           "package": "hopfield",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "BoltzmannData",
           "package": "hopfield",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "BoltzmannData",
           "package": "hopfield",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "Classification",
           "package": "hopfield",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "Classification",
           "package": "hopfield",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "Hidden",
           "package": "hopfield",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "Hidden",
           "package": "hopfield",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "Visible",
           "package": "hopfield",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "Visible",
           "package": "hopfield",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe activation function for the network (the logistic sigmoid).\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eSigmoid_function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "activation",
           "package": "hopfield",
@@ -444,6 +481,7 @@
         "index": {
           "description": "The activation function for the network the logistic sigmoid http en.wikipedia.org wiki Sigmoid function",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "activation",
           "normalized": "Double-\u003eDouble",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "biasB",
           "package": "hopfield",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "biasB",
           "package": "hopfield",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "biasC",
           "package": "hopfield",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "biasC",
           "package": "hopfield",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "biasD",
           "package": "hopfield",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "biasD",
           "package": "hopfield",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebuildCBoltzmannData patterns\u003c/code\u003e trains a boltzmann network with \u003ccode\u003epatterns\u003c/code\u003e.\n The number of hidden neurons is set to the number of visible neurons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "buildCBoltzmannData",
           "package": "hopfield",
@@ -532,6 +577,7 @@
         "index": {
           "description": "buildCBoltzmannData patterns trains boltzmann network with patterns The number of hidden neurons is set to the number of visible neurons",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "buildCBoltzmannData",
           "normalized": "[Pattern]-\u003ea BoltzmannData",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebuildCBoltzmannData' patterns nrHidden\u003c/code\u003e: Takes a list of patterns and\n builds a Boltzmann network (by training) in which these patterns are\n stable states. The result of this function can be used to run a pattern\n against the network, by using \u003ccode\u003ematchPatternBoltzmann\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "buildCBoltzmannData'",
           "package": "hopfield",
@@ -558,6 +605,7 @@
         "index": {
           "description": "buildCBoltzmannData patterns nrHidden Takes list of patterns and builds Boltzmann network by training in which these patterns are stable states The result of this function can be used to run pattern against the network by using matchPatternBoltzmann",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "buildCBoltzmannData'",
           "normalized": "[Pattern]-\u003eInt-\u003ea BoltzmannData",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "classificationWeights",
           "package": "hopfield",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "classificationWeights",
           "package": "hopfield",
@@ -596,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetActivationProbabilityVisible ws u bias v index\u003c/code\u003e returns the activation\n probability for a neuron \u003ccode\u003eindex\u003c/code\u003e in a hidden pattern, given the weights\n matrices \u003ccode\u003ews\u003c/code\u003e and \u003ccode\u003eu\u003c/code\u003e, the vector of biases \u003ccode\u003ebias\u003c/code\u003e. Applies the activation function\n to the activation sum, in order to obtain the probability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getActivationProbabilityHidden",
           "package": "hopfield",
@@ -606,6 +657,7 @@
         "index": {
           "description": "getActivationProbabilityVisible ws bias index returns the activation probability for neuron index in hidden pattern given the weights matrices ws and the vector of biases bias Applies the activation function to the activation sum in order to obtain the probability",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getActivationProbabilityHidden",
           "normalized": "Weights-\u003eWeights-\u003eBias-\u003ePattern-\u003ePattern-\u003eInt-\u003eDouble",
@@ -622,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetActivationProbabilityVisible ws bias h index\u003c/code\u003e returns the activation\n probability for a neuron \u003ccode\u003eindex\u003c/code\u003e in a visible pattern, given the weights\n matrix \u003ccode\u003ews\u003c/code\u003e, the vector of biases \u003ccode\u003ebias\u003c/code\u003e. Applies the activation function\n to the activation sum, in order to obtain the probability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getActivationProbabilityVisible",
           "package": "hopfield",
@@ -632,6 +685,7 @@
         "index": {
           "description": "getActivationProbabilityVisible ws bias index returns the activation probability for neuron index in visible pattern given the weights matrix ws the vector of biases bias Applies the activation function to the activation sum in order to obtain the probability",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getActivationProbabilityVisible",
           "normalized": "Weights-\u003eBias-\u003ePattern-\u003eInt-\u003eDouble",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetActivationProbability ws bias pat index\u003c/code\u003e\n can be used to compute the activation probability for a neuron in the\n visible layer, or for parts of the sums requires for\n the probability of the classifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getActivationSum",
           "package": "hopfield",
@@ -658,6 +713,7 @@
         "index": {
           "description": "getActivationProbability ws bias pat index can be used to compute the activation probability for neuron in the visible layer or for parts of the sums requires for the probability of the classifications",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getActivationSum",
           "normalized": "Weights-\u003eBias-\u003ePattern-\u003eInt-\u003eDouble",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetActivationSumHidden ws bias h index\u003c/code\u003e returns the activation\n sum for a neuron \u003ccode\u003eindex\u003c/code\u003e in a hidden pattern, given the weights\n matrix \u003ccode\u003ews\u003c/code\u003e, the vector of biases \u003ccode\u003ebias\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getActivationSumHidden",
           "package": "hopfield",
@@ -684,6 +741,7 @@
         "index": {
           "description": "getActivationSumHidden ws bias index returns the activation sum for neuron index in hidden pattern given the weights matrix ws the vector of biases bias",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getActivationSumHidden",
           "normalized": "Weights-\u003eWeights-\u003eBias-\u003ePattern-\u003ePattern-\u003eInt-\u003eDouble",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getClassificationVector",
           "package": "hopfield",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getClassificationVector",
           "normalized": "[(Pattern,Int)]-\u003ePattern-\u003ePattern",
@@ -724,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the dimension of the weights matrix corresponding to the given mode.\n For hidden, it is the width of the matrix, and for visible it is the height.\n One has to ensure that the appropriate weights matrix is passed with this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getDimension",
           "package": "hopfield",
@@ -734,6 +795,7 @@
         "index": {
           "description": "Retrieves the dimension of the weights matrix corresponding to the given mode For hidden it is the width of the matrix and for visible it is the height One has to ensure that the appropriate weights matrix is passed with this function",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getDimension",
           "normalized": "Mode-\u003eWeights-\u003eInt",
@@ -750,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetFreeEnergy bm visible classification_vector\u003c/code\u003e\n Computes the free energy of \u003ccode\u003ev\u003c/code\u003e with \u003ccode\u003eclassification_vector\u003c/code\u003e, according\n to the trained Boltzmann network \u003ccode\u003ebm\u003c/code\u003e. It is used for classifying a given\n visible vector according to the classes used for training the network \u003ccode\u003ebm\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getFreeEnergy",
           "package": "hopfield",
@@ -760,6 +823,7 @@
         "index": {
           "description": "getFreeEnergy bm visible classification vector Computes the free energy of with classification vector according to the trained Boltzmann network bm It is used for classifying given visible vector according to the classes used for training the network bm",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getFreeEnergy",
           "normalized": "BoltzmannData-\u003ePattern-\u003ePattern-\u003eDouble",
@@ -776,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetActivationSumHidden ws bias h index\u003c/code\u003e returns the activation\n sum for all neurons in the hidden pattern, given the weights\n matrix \u003ccode\u003ews\u003c/code\u003e, the vector of biases \u003ccode\u003ebias\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getHiddenSums",
           "package": "hopfield",
@@ -786,6 +851,7 @@
         "index": {
           "description": "getActivationSumHidden ws bias index returns the activation sum for all neurons in the hidden pattern given the weights matrix ws the vector of biases bias",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "getHiddenSums",
           "normalized": "Weights-\u003eWeights-\u003eBias-\u003ePattern-\u003ePattern-\u003eVector Double",
@@ -802,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of neurons in the hidden layer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "hiddenCount",
           "package": "hopfield",
@@ -812,6 +879,7 @@
         "index": {
           "description": "number of neurons in the hidden layer",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "hiddenCount",
           "package": "hopfield",
@@ -826,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edetermines the rate in which the weights are changed in the training phase.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eRestricted_Boltzmann_machine#Training_algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "learningRate",
           "package": "hopfield",
@@ -836,6 +905,7 @@
         "index": {
           "description": "determines the rate in which the weights are changed in the training phase http en.wikipedia.org wiki Restricted Boltzmann machine Training algorithm",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "learningRate",
           "package": "hopfield",
@@ -850,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ematchPatternBoltzmann bm pat\u003c/code\u003e given the Boltzmann trained network \u003ccode\u003ebm\u003c/code\u003e\n recognizes \u003ccode\u003epat\u003c/code\u003e, by classifying it to one of the patterns the network was\n trained with. This is done by computing the free energy of \u003ccode\u003epat\u003c/code\u003e with\n every possible classification, and choosing the classification with\n lowest energy.\n http:\u003cem/\u003euai.sis.pitt.edu\u003cem\u003epapers\u003c/em\u003e11/p463-louradour.pdf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "matchPatternCBoltzmann",
           "package": "hopfield",
@@ -860,6 +931,7 @@
         "index": {
           "description": "matchPatternBoltzmann bm pat given the Boltzmann trained network bm recognizes pat by classifying it to one of the patterns the network was trained with This is done by computing the free energy of pat with every possible classification and choosing the classification with lowest energy http uai.sis.pitt.edu papers p463-louradour.pdf",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "matchPatternCBoltzmann",
           "normalized": "BoltzmannData-\u003ePattern-\u003eInt",
@@ -876,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne step which updates the weights in the CD-n training process.\n The weights are changed according to one of the training patterns.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eRestricted_Boltzmann_machine#Training_algorithm\n \u003ccode\u003eoneTrainingStep bm visible\u003c/code\u003e updates the parameters of \u003ccode\u003ebm\u003c/code\u003e (the 2 weight\n matrices and the biases) according to the training instance \u003ccode\u003ev\u003c/code\u003e\n and its classification, obtained by looking in the map kept in \u003ccode\u003ebm\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "oneTrainingStep",
           "package": "hopfield",
@@ -886,6 +959,7 @@
         "index": {
           "description": "One step which updates the weights in the CD-n training process The weights are changed according to one of the training patterns http en.wikipedia.org wiki Restricted Boltzmann machine Training algorithm oneTrainingStep bm visible updates the parameters of bm the weight matrices and the biases according to the training instance and its classification obtained by looking in the map kept in bm",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "oneTrainingStep",
           "normalized": "BoltzmannData-\u003ePattern-\u003ea BoltzmannData",
@@ -901,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "pattern_to_class",
           "package": "hopfield",
@@ -910,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "pattern_to_class",
           "normalized": "[(Pattern,Int)]",
@@ -925,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe patterns which were used to train it\n can be decuded from weights, maybe should be remove now\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "patternsB",
           "package": "hopfield",
@@ -935,6 +1012,7 @@
         "index": {
           "description": "the patterns which were used to train it can be decuded from weights maybe should be remove now",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "patternsB",
           "normalized": "[Pattern]",
@@ -950,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function used to compute the free energy\n http:\u003cem/\u003euai.sis.pitt.edu\u003cem\u003epapers\u003c/em\u003e11/p463-louradour.pdf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "softplus",
           "package": "hopfield",
@@ -960,6 +1039,7 @@
         "index": {
           "description": "The function used to compute the free energy http uai.sis.pitt.edu papers p463-louradour.pdf",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "softplus",
           "normalized": "Double-\u003eDouble",
@@ -975,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe training function for the Boltzmann Machine.\n We are using the contrastive divergence algorithm CD-1\n TODO see if making the vis\n (we could extend to CD-n, but \u003ca\u003eIn pratice,  CD-1 has been shown to work surprisingly well.\u003c/a\u003e\n \u003ccode\u003etrainBoltzmann pats nrHidden\u003c/code\u003e where \u003ccode\u003epats\u003c/code\u003e are the training patterns\n and \u003ccode\u003enrHidden\u003c/code\u003e is the number of neurons to be created in the hidden layer.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eRestricted_Boltzmann_machine#Training_algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "trainBoltzmann",
           "package": "hopfield",
@@ -985,6 +1066,7 @@
         "index": {
           "description": "The training function for the Boltzmann Machine We are using the contrastive divergence algorithm CD-1 TODO see if making the vis we could extend to CD-n but In pratice CD-1 has been shown to work surprisingly well trainBoltzmann pats nrHidden where pats are the training patterns and nrHidden is the number of neurons to be created in the hidden layer http en.wikipedia.org wiki Restricted Boltzmann machine Training algorithm",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "trainBoltzmann",
           "normalized": "[Pattern]-\u003eInt-\u003ea BoltzmannData",
@@ -1001,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a classification vector given the current state of the network (\n the u matrix and the vector of biases d, together with a hidden vector h)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateClassification",
           "package": "hopfield",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "Updates classification vector given the current state of the network the matrix and the vector of biases together with hidden vector",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateClassification",
           "normalized": "Weights-\u003eBias-\u003ePattern-\u003ePattern",
@@ -1027,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the entire visible layer by using gibbsSampling, according\n to the activation probability\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateHidden",
           "package": "hopfield",
@@ -1037,6 +1122,7 @@
         "index": {
           "description": "Updates the entire visible layer by using gibbsSampling according to the activation probability",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateHidden",
           "normalized": "Weights-\u003eWeights-\u003eBias-\u003ePattern-\u003ePattern-\u003ea Pattern",
@@ -1053,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a neuron in the hidden layer by using gibbsSampling, according\n to the activation probability\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateNeuronHidden",
           "package": "hopfield",
@@ -1063,6 +1150,7 @@
         "index": {
           "description": "Updates neuron in the hidden layer by using gibbsSampling according to the activation probability",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateNeuronHidden",
           "normalized": "Weights-\u003eWeights-\u003eBias-\u003ePattern-\u003ePattern-\u003eInt-\u003ea Int",
@@ -1079,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eupdateNeuronVisible ws bias h index\u003c/code\u003e updates a neuron in the visible layer by using gibbsSampling, according\n to the activation probability\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateNeuronVisible",
           "package": "hopfield",
@@ -1089,6 +1178,7 @@
         "index": {
           "description": "updateNeuronVisible ws bias index updates neuron in the visible layer by using gibbsSampling according to the activation probability",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateNeuronVisible",
           "normalized": "Weights-\u003eBias-\u003ePattern-\u003eInt-\u003ea Int",
@@ -1105,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the entire visible layer by using gibbsSampling, according\n to the activation probability\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateVisible",
           "package": "hopfield",
@@ -1115,6 +1206,7 @@
         "index": {
           "description": "Updates the entire visible layer by using gibbsSampling according to the activation probability",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "updateVisible",
           "normalized": "Weights-\u003eBias-\u003ePattern-\u003ea Pattern",
@@ -1130,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "validClassificationVector",
           "package": "hopfield",
@@ -1139,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "validClassificationVector",
           "normalized": "Pattern-\u003eInt-\u003eMaybe String",
@@ -1155,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evalidPattern mode weights pattern\u003c/code\u003e\n Returns an error string in a Just if the \u003ccode\u003epattern\u003c/code\u003e is not compatible\n with \u003ccode\u003eweights\u003c/code\u003e and Nothing otherwise. \u003ccode\u003emode\u003c/code\u003e gives the type of the pattern,\n which is checked (Visible or Hidden).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "validPattern",
           "package": "hopfield",
@@ -1165,6 +1260,7 @@
         "index": {
           "description": "validPattern mode weights pattern Returns an error string in Just if the pattern is not compatible with weights and Nothing otherwise mode gives the type of the pattern which is checked Visible or Hidden",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "validPattern",
           "normalized": "Mode-\u003eWeights-\u003ePattern-\u003eMaybe String",
@@ -1181,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evalidWeights ws\u003c/code\u003e checks that a weight matrix is well formed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "validWeights",
           "package": "hopfield",
@@ -1191,6 +1288,7 @@
         "index": {
           "description": "validWeights ws checks that weight matrix is well formed",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "validWeights",
           "normalized": "Weights-\u003eMaybe String",
@@ -1207,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe weights of the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "weightsB",
           "package": "hopfield",
@@ -1217,6 +1316,7 @@
         "index": {
           "description": "the weights of the network",
           "hierarchy": "Hopfield Boltzmann ClassificationBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.ClassificationBoltzmannMachine",
           "name": "weightsB",
           "package": "hopfield",
@@ -1230,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase Restricted Boltzmann machine.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eRestricted_Boltzmann_machine\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "RestrictedBoltzmannMachine",
           "package": "hopfield",
@@ -1239,6 +1340,7 @@
         "index": {
           "description": "Base Restricted Boltzmann machine http en.wikipedia.org wiki Restricted Boltzmann machine",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "RestrictedBoltzmannMachine",
           "package": "hopfield",
@@ -1252,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "BoltzmannData",
           "package": "hopfield",
@@ -1260,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "BoltzmannData",
           "package": "hopfield",
@@ -1273,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Mode",
           "package": "hopfield",
@@ -1281,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Mode",
           "package": "hopfield",
@@ -1294,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Phase",
           "package": "hopfield",
@@ -1302,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Phase",
           "package": "hopfield",
@@ -1315,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "BoltzmannData",
           "package": "hopfield",
@@ -1324,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "BoltzmannData",
           "package": "hopfield",
@@ -1337,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Hidden",
           "package": "hopfield",
@@ -1346,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Hidden",
           "package": "hopfield",
@@ -1359,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Matching",
           "package": "hopfield",
@@ -1368,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Matching",
           "package": "hopfield",
@@ -1381,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Training",
           "package": "hopfield",
@@ -1390,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Training",
           "package": "hopfield",
@@ -1403,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Visible",
           "package": "hopfield",
@@ -1412,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "Visible",
           "package": "hopfield",
@@ -1426,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe activation function for the network (the logistic sigmoid).\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eSigmoid_function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "activation",
           "package": "hopfield",
@@ -1436,6 +1555,7 @@
         "index": {
           "description": "The activation function for the network the logistic sigmoid http en.wikipedia.org wiki Sigmoid function",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "activation",
           "normalized": "Double-\u003eDouble",
@@ -1451,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebuildBoltzmannData patterns\u003c/code\u003e trains a boltzmann network with \u003ccode\u003epatterns\u003c/code\u003e.\n The number of hidden neurons is set to the number of visible neurons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "buildBoltzmannData",
           "package": "hopfield",
@@ -1461,6 +1582,7 @@
         "index": {
           "description": "buildBoltzmannData patterns trains boltzmann network with patterns The number of hidden neurons is set to the number of visible neurons",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "buildBoltzmannData",
           "normalized": "[Pattern]-\u003ea BoltzmannData",
@@ -1477,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebuildBoltzmannData' patterns nr_hidden\u003c/code\u003e: Takes a list of patterns and\n builds a Boltzmann network (by training) in which these patterns are\n stable states. The result of this function can be used to run a pattern\n against the network, by using \u003ccode\u003e\u003ca\u003ematchPatternBoltzmann\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "buildBoltzmannData'",
           "package": "hopfield",
@@ -1487,6 +1610,7 @@
         "index": {
           "description": "buildBoltzmannData patterns nr hidden Takes list of patterns and builds Boltzmann network by training in which these patterns are stable states The result of this function can be used to run pattern against the network by using matchPatternBoltzmann",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "buildBoltzmannData'",
           "normalized": "[Pattern]-\u003eInt-\u003ea BoltzmannData",
@@ -1502,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "getActivationProbability",
           "package": "hopfield",
@@ -1511,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "getActivationProbability",
           "normalized": "Phase-\u003eMode-\u003eWeights-\u003ePattern-\u003eInt-\u003eDouble",
@@ -1527,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetCounterPattern mode ws pat\u003c/code\u003e, given a vector \u003ccode\u003epat\u003c/code\u003e of type \u003ccode\u003emode\u003c/code\u003e\n computes the values of all the neurons in the layer of the opposite type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "getCounterPattern",
           "package": "hopfield",
@@ -1537,6 +1664,7 @@
         "index": {
           "description": "getCounterPattern mode ws pat given vector pat of type mode computes the values of all the neurons in the layer of the opposite type",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "getCounterPattern",
           "normalized": "Phase-\u003eMode-\u003eWeights-\u003ePattern-\u003ea Pattern",
@@ -1553,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the dimension of the weights matrix corresponding to the given mode.\n For hidden, it is the width of the matrix, and for visible it is the height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "getDimension",
           "package": "hopfield",
@@ -1563,6 +1692,7 @@
         "index": {
           "description": "Retrieves the dimension of the weights matrix corresponding to the given mode For hidden it is the width of the matrix and for visible it is the height",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "getDimension",
           "normalized": "Mode-\u003eWeights-\u003eInt",
@@ -1578,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "getFreeEnergy",
           "package": "hopfield",
@@ -1587,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "getFreeEnergy",
           "normalized": "Weights-\u003ePattern-\u003eDouble",
@@ -1603,6 +1735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edetermines the rate in which the weights are changed in the training phase.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eRestricted_Boltzmann_machine#Training_algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "learningRate",
           "package": "hopfield",
@@ -1613,6 +1746,7 @@
         "index": {
           "description": "determines the rate in which the weights are changed in the training phase http en.wikipedia.org wiki Restricted Boltzmann machine Training algorithm",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "learningRate",
           "package": "hopfield",
@@ -1627,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a pattern against the a given network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "matchPatternBoltzmann",
           "package": "hopfield",
@@ -1637,6 +1772,7 @@
         "index": {
           "description": "Matches pattern against the given network",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "matchPatternBoltzmann",
           "normalized": "BoltzmannData-\u003ePattern-\u003ea Int",
@@ -1652,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "notMode",
           "package": "hopfield",
@@ -1661,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "notMode",
           "normalized": "Mode-\u003eMode",
@@ -1677,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of neurons in the hidden layer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "nr_hiddenB",
           "package": "hopfield",
@@ -1687,6 +1826,7 @@
         "index": {
           "description": "number of neurons in the hidden layer",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "nr_hiddenB",
           "package": "hopfield",
@@ -1700,6 +1840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe binary representation of the pattern index\n the pattern_to_binary field will not replace the patternsB field as it does\n not contain duplicated patterns, which might be required for statistical\n analysis in clustering and super attractors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "pattern_to_binaryB",
           "package": "hopfield",
@@ -1710,6 +1851,7 @@
         "index": {
           "description": "the binary representation of the pattern index the pattern to binary field will not replace the patternsB field as it does not contain duplicated patterns which might be required for statistical analysis in clustering and super attractors",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "pattern_to_binaryB",
           "normalized": "[(Pattern,[Int])]",
@@ -1725,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe patterns which were used to train it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "patternsB",
           "package": "hopfield",
@@ -1735,6 +1878,7 @@
         "index": {
           "description": "the patterns which were used to train it",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "patternsB",
           "normalized": "[Pattern]",
@@ -1750,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe training function for the Boltzmann Machine.\n We are using the contrastive divergence algorithm CD-1\n TODO see if making the vis\n (we could extend to CD-n, but \u003ca\u003eIn practice,  CD-1 has been shown to work surprisingly well.\u003c/a\u003e\n \u003ccode\u003etrainBoltzmann pats nr_hidden\u003c/code\u003e where \u003ccode\u003epats\u003c/code\u003e are the training patterns\n and \u003ccode\u003enr_hidden\u003c/code\u003e is the number of neurons to be created in the hidden layer.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eRestricted_Boltzmann_machine#Training_algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "trainBoltzmann",
           "package": "hopfield",
@@ -1760,6 +1905,7 @@
         "index": {
           "description": "The training function for the Boltzmann Machine We are using the contrastive divergence algorithm CD-1 TODO see if making the vis we could extend to CD-n but In practice CD-1 has been shown to work surprisingly well trainBoltzmann pats nr hidden where pats are the training patterns and nr hidden is the number of neurons to be created in the hidden layer http en.wikipedia.org wiki Restricted Boltzmann machine Training algorithm",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "trainBoltzmann",
           "normalized": "[Pattern]-\u003eInt-\u003ea(Weights,[(Pattern,[Int])])",
@@ -1776,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a pattern using the Boltzmann machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "updateBoltzmann",
           "package": "hopfield",
@@ -1786,6 +1933,7 @@
         "index": {
           "description": "Updates pattern using the Boltzmann machine",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "updateBoltzmann",
           "normalized": "Weights-\u003ePattern-\u003ea Pattern",
@@ -1802,6 +1950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eupdateNeuron mode ws pat index\u003c/code\u003e , given a vector \u003ccode\u003epat\u003c/code\u003e of type \u003ccode\u003emode\u003c/code\u003e\n updates the neuron with number \u003ccode\u003eindex\u003c/code\u003e in the layer with opposite type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "updateNeuron",
           "package": "hopfield",
@@ -1812,6 +1961,7 @@
         "index": {
           "description": "updateNeuron mode ws pat index given vector pat of type mode updates the neuron with number index in the layer with opposite type",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "updateNeuron",
           "normalized": "Phase-\u003eMode-\u003eWeights-\u003ePattern-\u003eInt-\u003ea Int",
@@ -1827,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "updateNeuron'",
           "package": "hopfield",
@@ -1836,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "updateNeuron'",
           "normalized": "Double-\u003ePhase-\u003eMode-\u003eWeights-\u003ePattern-\u003eInt-\u003eInt",
@@ -1852,6 +2004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne step which updates the weights in the CD-n training process.\n The weights are changed according to one of the training patterns.\n http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eRestricted_Boltzmann_machine#Training_algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "updateWeights",
           "package": "hopfield",
@@ -1862,6 +2015,7 @@
         "index": {
           "description": "One step which updates the weights in the CD-n training process The weights are changed according to one of the training patterns http en.wikipedia.org wiki Restricted Boltzmann machine Training algorithm",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "updateWeights",
           "normalized": "Weights-\u003ePattern-\u003ea Weights",
@@ -1878,6 +2032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evalidPattern mode weights pattern\u003c/code\u003e\n Returns an error string in a Just if the \u003ccode\u003epattern\u003c/code\u003e is not compatible\n with \u003ccode\u003eweights\u003c/code\u003e and Nothing otherwise. \u003ccode\u003emode\u003c/code\u003e gives the type of the pattern,\n which is checked (Visible or Hidden).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "validPattern",
           "package": "hopfield",
@@ -1888,6 +2043,7 @@
         "index": {
           "description": "validPattern mode weights pattern Returns an error string in Just if the pattern is not compatible with weights and Nothing otherwise mode gives the type of the pattern which is checked Visible or Hidden",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "validPattern",
           "normalized": "Phase-\u003eMode-\u003eWeights-\u003ePattern-\u003eMaybe String",
@@ -1903,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "validWeights",
           "package": "hopfield",
@@ -1912,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "validWeights",
           "normalized": "Weights-\u003eMaybe String",
@@ -1928,6 +2086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe weights of the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "weightsB",
           "package": "hopfield",
@@ -1938,6 +2097,7 @@
         "index": {
           "description": "the weights of the network",
           "hierarchy": "Hopfield Boltzmann RestrictedBoltzmannMachine",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Boltzmann.RestrictedBoltzmannMachine",
           "name": "weightsB",
           "package": "hopfield",
@@ -1950,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "Clusters",
           "package": "hopfield",
@@ -1958,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "Clusters",
           "package": "hopfield",
@@ -1971,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "avgBasinsGivenPats",
           "package": "hopfield",
@@ -1980,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "avgBasinsGivenPats",
           "normalized": "LearningType-\u003e[Pattern]-\u003ea Double",
@@ -1996,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebasinsGivenProbabilityT1 learning networkSize clusterSize p\u003c/code\u003e\n Gets the average basin of attraction of a cluster of size \u003ccode\u003eclusterSize\u003c/code\u003e\n constructed using the T1 method given the flip probability \u003ccode\u003ep\u003c/code\u003e.\n A hopfield network is trained (the type of training (Hebbian or Storkey) is\n given by \u003ccode\u003elearning\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "basinsGivenProbabilityT1",
           "package": "hopfield",
@@ -2006,6 +2171,7 @@
         "index": {
           "description": "basinsGivenProbabilityT1 learning networkSize clusterSize Gets the average basin of attraction of cluster of size clusterSize constructed using the T1 method given the flip probability hopfield network is trained the type of training Hebbian or Storkey is given by learning",
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "basinsGivenProbabilityT1",
           "normalized": "LearningType-\u003eInt-\u003eInt-\u003eDouble-\u003ea Double",
@@ -2021,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "basinsGivenProbabilityT1With2Clusters",
           "package": "hopfield",
@@ -2030,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "basinsGivenProbabilityT1With2Clusters",
           "normalized": "LearningType-\u003eInt-\u003eInt-\u003eDouble-\u003eDouble-\u003ea(Double,Double)",
@@ -2045,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "basinsGivenStdT2",
           "package": "hopfield",
@@ -2054,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "basinsGivenStdT2",
           "normalized": "LearningType-\u003eInt-\u003eInt-\u003eDouble-\u003eDouble-\u003ea Double",
@@ -2069,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "basinsGivenStdT2With2Clusters",
           "package": "hopfield",
@@ -2078,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "basinsGivenStdT2With2Clusters",
           "normalized": "LearningType-\u003eInt-\u003eInt-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003ea(Double,Double)",
@@ -2094,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eexperimentUsingT1 learning networkSize clusterSize\u003c/code\u003e\n Gets the average basin of attraction obtained by iterating trough various\n probabilities for flipping the bit when obtaining the cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "experimentUsingT1",
           "package": "hopfield",
@@ -2104,6 +2277,7 @@
         "index": {
           "description": "experimentUsingT1 learning networkSize clusterSize Gets the average basin of attraction obtained by iterating trough various probabilities for flipping the bit when obtaining the cluster",
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "experimentUsingT1",
           "normalized": "LearningType-\u003eInt-\u003eInt-\u003ea Double",
@@ -2119,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "experimentUsingT1NoAvg",
           "package": "hopfield",
@@ -2128,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "experimentUsingT1NoAvg",
           "normalized": "LearningType-\u003eInt-\u003eInt-\u003ea[(Double,Double)]",
@@ -2143,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "experimentUsingT2",
           "package": "hopfield",
@@ -2152,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "experimentUsingT2",
           "normalized": "LearningType-\u003eInt-\u003eInt-\u003ea Double",
@@ -2167,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "experimentUsingT2NoAvg",
           "package": "hopfield",
@@ -2176,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "experimentUsingT2NoAvg",
           "normalized": "LearningType-\u003eInt-\u003eInt-\u003ea[(Double,Double)]",
@@ -2192,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetPatternInCluster pat p\u003c/code\u003e gets a pattern in a cluster given by \u003ccode\u003epat\u003c/code\u003e\n by flipping each bit in the pattern with probability p.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "getCluster",
           "package": "hopfield",
@@ -2202,6 +2383,7 @@
         "index": {
           "description": "getPatternInCluster pat gets pattern in cluster given by pat by flipping each bit in the pattern with probability",
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "getCluster",
           "normalized": "Method-\u003ePattern-\u003eInt-\u003eDouble-\u003ea[Pattern]",
@@ -2217,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "getGaussianCluster",
           "package": "hopfield",
@@ -2226,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "getGaussianCluster",
           "normalized": "Method-\u003ePattern-\u003eInt-\u003eDouble-\u003eDouble-\u003ea[Pattern]",
@@ -2242,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetPatternInCluster pat p\u003c/code\u003e gets a pattern in a cluster given by \u003ccode\u003epat\u003c/code\u003e\n by flipping each bit in the pattern with probability p.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "getPatternInCluster",
           "package": "hopfield",
@@ -2252,6 +2437,7 @@
         "index": {
           "description": "getPatternInCluster pat gets pattern in cluster given by pat by flipping each bit in the pattern with probability",
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "getPatternInCluster",
           "normalized": "Method-\u003ePattern-\u003eDouble-\u003ea Pattern",
@@ -2267,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Clusters",
           "name": "repeatExperiment",
           "package": "hopfield",
@@ -2276,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Clusters",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Clusters",
           "name": "repeatExperiment",
           "normalized": "(LearningType-\u003eInt-\u003eInt-\u003ea Double)-\u003eLearningType-\u003eInt-\u003eInt-\u003eInt-\u003ea Double",
@@ -2291,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "Common",
           "package": "hopfield",
@@ -2299,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "Common",
           "package": "hopfield",
@@ -2312,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "Bias",
           "package": "hopfield",
@@ -2320,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "Bias",
           "package": "hopfield",
@@ -2333,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "Method",
           "package": "hopfield",
@@ -2341,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "Method",
           "package": "hopfield",
@@ -2354,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "Pattern",
           "package": "hopfield",
@@ -2362,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "Pattern",
           "package": "hopfield",
@@ -2375,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "Showable",
           "package": "hopfield",
@@ -2383,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "Showable",
           "package": "hopfield",
@@ -2396,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "Weights",
           "package": "hopfield",
@@ -2404,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "Weights",
           "package": "hopfield",
@@ -2417,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "Boltzmann",
           "package": "hopfield",
@@ -2426,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "Boltzmann",
           "package": "hopfield",
@@ -2439,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "CBoltzmann",
           "package": "hopfield",
@@ -2448,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "CBoltzmann",
           "package": "hopfield",
@@ -2461,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "Hopfield",
           "package": "hopfield",
@@ -2470,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "Hopfield",
           "package": "hopfield",
@@ -2483,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "MkShowable",
           "package": "hopfield",
@@ -2492,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "MkShowable",
           "package": "hopfield",
@@ -2505,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "flipBit",
           "package": "hopfield",
@@ -2514,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "flipBit",
           "normalized": "Method-\u003eInt-\u003eInt",
@@ -2529,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "pack",
           "package": "hopfield",
@@ -2538,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "pack",
           "normalized": "a-\u003eShowable",
@@ -2552,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Common",
           "name": "packL",
           "package": "hopfield",
@@ -2561,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Common",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Common",
           "name": "packL",
           "normalized": "[a]-\u003e[Showable]",
@@ -2575,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "ClusterExperiments",
           "package": "hopfield",
@@ -2583,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "ClusterExperiments",
           "package": "hopfield",
@@ -2596,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "ExpType",
           "package": "hopfield",
@@ -2604,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "ExpType",
           "package": "hopfield",
@@ -2617,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "T1",
           "package": "hopfield",
@@ -2626,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "T1",
           "package": "hopfield",
@@ -2638,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "T2",
           "package": "hopfield",
@@ -2647,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "T2",
           "package": "hopfield",
@@ -2659,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "oneIteration1",
           "package": "hopfield",
@@ -2668,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "oneIteration1",
           "normalized": "ExpType-\u003eLearningType-\u003eInt-\u003eInt-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003e[(Double,Double)]",
@@ -2683,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "oneIteration2",
           "package": "hopfield",
@@ -2692,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "oneIteration2",
           "normalized": "ExpType-\u003eLearningType-\u003eInt-\u003eInt-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003e[(Double,(Double,Double))]",
@@ -2707,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "performAndPrint1",
           "package": "hopfield",
@@ -2716,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "performAndPrint1",
           "normalized": "ExpType-\u003eLearningType-\u003eInt-\u003eInt-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eIO()",
@@ -2731,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "performAndPrint2",
           "package": "hopfield",
@@ -2740,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "performAndPrint2",
           "normalized": "ExpType-\u003eLearningType-\u003eInt-\u003eInt-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eIO()",
@@ -2755,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "run",
           "package": "hopfield",
@@ -2764,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ClusterExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ClusterExperiments",
           "name": "run",
           "normalized": "[String]-\u003eIO()",
@@ -2778,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment",
           "name": "Experiment",
           "package": "hopfield",
@@ -2786,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments Experiment",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment",
           "name": "Experiment",
           "package": "hopfield",
@@ -2799,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment",
           "name": "basinHeader",
           "package": "hopfield",
@@ -2808,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments Experiment",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment",
           "name": "basinHeader",
           "package": "hopfield",
@@ -2821,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment",
           "name": "errorHeader",
           "package": "hopfield",
@@ -2830,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments Experiment",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment",
           "name": "errorHeader",
           "package": "hopfield",
@@ -2843,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment",
           "name": "genIO",
           "package": "hopfield",
@@ -2852,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments Experiment",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment",
           "name": "genIO",
           "normalized": "Gen a-\u003eIO a",
@@ -2867,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment",
           "name": "main",
           "package": "hopfield",
@@ -2876,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments Experiment",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment",
           "name": "main",
           "normalized": "IO()",
@@ -2891,6 +3133,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePerforms experiments with two super attractors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment2SuperAttractors",
           "name": "Experiment2SuperAttractors",
           "package": "hopfield",
@@ -2900,6 +3143,7 @@
         "index": {
           "description": "Performs experiments with two super attractors",
           "hierarchy": "Hopfield Experiments Experiment2SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment2SuperAttractors",
           "name": "Experiment2SuperAttractors",
           "package": "hopfield",
@@ -2913,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment2SuperAttractors",
           "name": "basinHeader",
           "package": "hopfield",
@@ -2922,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments Experiment2SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment2SuperAttractors",
           "name": "basinHeader",
           "package": "hopfield",
@@ -2935,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment2SuperAttractors",
           "name": "genIO",
           "package": "hopfield",
@@ -2944,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments Experiment2SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment2SuperAttractors",
           "name": "genIO",
           "normalized": "Gen a-\u003eIO a",
@@ -2959,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.Experiment2SuperAttractors",
           "name": "main",
           "package": "hopfield",
@@ -2968,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments Experiment2SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.Experiment2SuperAttractors",
           "name": "main",
           "normalized": "IO()",
@@ -2982,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ExperimentUtil",
           "name": "ExperimentUtil",
           "package": "hopfield",
@@ -2990,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ExperimentUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ExperimentUtil",
           "name": "ExperimentUtil",
           "package": "hopfield",
@@ -3003,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ExperimentUtil",
           "name": "doCheckFixed",
           "package": "hopfield",
@@ -3012,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ExperimentUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ExperimentUtil",
           "name": "doCheckFixed",
           "normalized": "[(a,HopfieldData)]-\u003eInt-\u003eString-\u003eIO()",
@@ -3027,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ExperimentUtil",
           "name": "doErrorProb",
           "package": "hopfield",
@@ -3036,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ExperimentUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ExperimentUtil",
           "name": "doErrorProb",
           "normalized": "Int-\u003eInt-\u003e[Degree]-\u003eIO()",
@@ -3051,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.ExperimentUtil",
           "name": "doHamming",
           "package": "hopfield",
@@ -3060,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments ExperimentUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.ExperimentUtil",
           "name": "doHamming",
           "normalized": "Pattern-\u003e[Pattern]-\u003eString-\u003eString-\u003eIO()",
@@ -3075,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.SmallExperiments",
           "name": "SmallExperiments",
           "package": "hopfield",
@@ -3083,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments SmallExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.SmallExperiments",
           "name": "SmallExperiments",
           "package": "hopfield",
@@ -3096,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.SmallExperiments",
           "name": "_REPETITIONS",
           "package": "hopfield",
@@ -3105,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments SmallExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.SmallExperiments",
           "name": "_REPETITIONS",
           "package": "hopfield",
@@ -3118,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.SmallExperiments",
           "name": "main",
           "package": "hopfield",
@@ -3127,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments SmallExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.SmallExperiments",
           "name": "main",
           "normalized": "IO()",
@@ -3141,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Experiments.SmallExperiments",
           "name": "runs",
           "package": "hopfield",
@@ -3150,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Experiments SmallExperiments",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Experiments.SmallExperiments",
           "name": "runs",
           "normalized": "[(LearningType,Int,Int,Double,Double)]",
@@ -3165,6 +3431,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase Hopfield model, providing training and running.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "Hopfield",
           "package": "hopfield",
@@ -3174,6 +3441,7 @@
         "index": {
           "description": "Base Hopfield model providing training and running",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "Hopfield",
           "package": "hopfield",
@@ -3188,6 +3456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates the network weights together with the patterns that generate\n it with the patterns which generate it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "HopfieldData",
           "package": "hopfield",
@@ -3197,6 +3466,7 @@
         "index": {
           "description": "Encapsulates the network weights together with the patterns that generate it with the patterns which generate it",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "HopfieldData",
           "package": "hopfield",
@@ -3210,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "LearningType",
           "package": "hopfield",
@@ -3218,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "LearningType",
           "package": "hopfield",
@@ -3231,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "Pattern",
           "package": "hopfield",
@@ -3239,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "Pattern",
           "package": "hopfield",
@@ -3252,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "Weights",
           "package": "hopfield",
@@ -3260,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "Weights",
           "package": "hopfield",
@@ -3273,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "Hebbian",
           "package": "hopfield",
@@ -3282,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "Hebbian",
           "package": "hopfield",
@@ -3295,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "Storkey",
           "package": "hopfield",
@@ -3304,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "Storkey",
           "package": "hopfield",
@@ -3318,6 +3598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores patterns in an already trained network. One has to ensure that this\n function is not over used, as this will decrease the capacity of the network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "addPatterns",
           "package": "hopfield",
@@ -3328,6 +3609,7 @@
         "index": {
           "description": "Stores patterns in an already trained network One has to ensure that this function is not over used as this will decrease the capacity of the network",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "addPatterns",
           "normalized": "LearningType-\u003eHopfieldData-\u003e[Pattern]-\u003eHopfieldData",
@@ -3344,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebuildHopfieldData patterns\u003c/code\u003e: Takes a list of patterns and\n builds a Hopfield network (by training) in which these patterns are\n stable states. The result of this function can be used to run a pattern\n against the network, by using \u003ccode\u003e\u003ca\u003ematchPattern\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "buildHopfieldData",
           "package": "hopfield",
@@ -3354,6 +3637,7 @@
         "index": {
           "description": "buildHopfieldData patterns Takes list of patterns and builds Hopfield network by training in which these patterns are stable states The result of this function can be used to run pattern against the network by using matchPattern",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "buildHopfieldData",
           "normalized": "LearningType-\u003e[Pattern]-\u003eHopfieldData",
@@ -3370,6 +3654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the weighted sum of current neuron values, which will give us\n the value of the neuron (by taking the sign)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "computeH",
           "package": "hopfield",
@@ -3380,6 +3665,7 @@
         "index": {
           "description": "Computes the weighted sum of current neuron values which will give us the value of the neuron by taking the sign",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "computeH",
           "normalized": "Weights-\u003ePattern-\u003eInt-\u003eInt",
@@ -3395,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eenergy weights pattern\u003c/code\u003e: Computes the energy of a pattern given a Hopfield\n network (represented by \u003ccode\u003eweights\u003c/code\u003e).\n Pre: \u003ccode\u003elength weights == length pattern\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "energy",
           "package": "hopfield",
@@ -3405,6 +3692,7 @@
         "index": {
           "description": "energy weights pattern Computes the energy of pattern given Hopfield network represented by weights Pre length weights length pattern",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "energy",
           "normalized": "Weights-\u003ePattern-\u003eDouble",
@@ -3420,6 +3708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ematchPatterns hopfieldData pattern\u003c/code\u003e:\n Computes the stable state of a pattern given a Hopfield network(represented\n by \u003ccode\u003eweights\u003c/code\u003e) and tries to find a match in a list of patterns which are\n stored in \u003ccode\u003ehopfieldData\u003c/code\u003e.\n Returns:\n\u003c/p\u003e\u003cp\u003eThe index of the matching pattern in \u003ccode\u003epatterns\u003c/code\u003e, if a match exists\n    The converged pattern (the stable state), otherwise\n\u003c/p\u003e\u003cp\u003ePre: \u003ccode\u003elength weights == length pattern\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "matchPattern",
           "package": "hopfield",
@@ -3430,6 +3719,7 @@
         "index": {
           "description": "matchPatterns hopfieldData pattern Computes the stable state of pattern given Hopfield network represented by weights and tries to find match in list of patterns which are stored in hopfieldData Returns The index of the matching pattern in patterns if match exists The converged pattern the stable state otherwise Pre length weights length pattern",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "matchPattern",
           "normalized": "HopfieldData-\u003ePattern-\u003ea(Either Pattern Int)",
@@ -3446,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe patterns which were used to train it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "patterns",
           "package": "hopfield",
@@ -3456,6 +3747,7 @@
         "index": {
           "description": "the patterns which were used to train it",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "patterns",
           "normalized": "HopfieldData-\u003e[Pattern]",
@@ -3471,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erepeatedUpdate weights pattern\u003c/code\u003e: Performs repeated updates on the given\n pattern until it reaches a stable state with respect to the Hopfield network\n (represented by \u003ccode\u003eweights\u003c/code\u003e).\n Pre: \u003ccode\u003elength weights == length pattern\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "repeatedUpdate",
           "package": "hopfield",
@@ -3481,6 +3774,7 @@
         "index": {
           "description": "repeatedUpdate weights pattern Performs repeated updates on the given pattern until it reaches stable state with respect to the Hopfield network represented by weights Pre length weights length pattern",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "repeatedUpdate",
           "normalized": "Weights-\u003ePattern-\u003ea Pattern",
@@ -3497,6 +3791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eupdate weights pattern\u003c/code\u003e: Applies the update rule on \u003ccode\u003epattern\u003c/code\u003e for the\n first updatable neuron given the Hopfield network (represented by \u003ccode\u003eweights\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003ePre: \u003ccode\u003elength weights == length pattern\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "update",
           "package": "hopfield",
@@ -3507,6 +3802,7 @@
         "index": {
           "description": "update weights pattern Applies the update rule on pattern for the first updatable neuron given the Hopfield network represented by weights Pre length weights length pattern",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "update",
           "normalized": "Weights-\u003ePattern-\u003ea(Maybe Pattern)",
@@ -3522,6 +3818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erepeatedUpdate\u003c/a\u003e\u003c/code\u003e, but collecting all patterns until convergence.\n The last pattern in the list is the converged pattern.\n The argument pattern is NOT prepended to the result list.\n\u003c/p\u003e\u003cp\u003ePOST: The returned list is not empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "updateChain",
           "package": "hopfield",
@@ -3532,6 +3829,7 @@
         "index": {
           "description": "Like repeatedUpdate but collecting all patterns until convergence The last pattern in the list is the converged pattern The argument pattern is NOT prepended to the result list POST The returned list is not empty",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "updateChain",
           "normalized": "HopfieldData-\u003ePattern-\u003ea[Pattern]",
@@ -3548,6 +3846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe weights of the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Hopfield",
           "name": "weights",
           "package": "hopfield",
@@ -3558,6 +3857,7 @@
         "index": {
           "description": "the weights of the network",
           "hierarchy": "Hopfield Hopfield",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Hopfield",
           "name": "weights",
           "normalized": "HopfieldData-\u003eWeights",
@@ -3572,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Images.ConvertImage",
           "name": "ConvertImage",
           "package": "hopfield",
@@ -3580,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Images ConvertImage",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Images.ConvertImage",
           "name": "ConvertImage",
           "package": "hopfield",
@@ -3593,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Images.ConvertImage",
           "name": "CBinaryPattern",
           "package": "hopfield",
@@ -3601,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Images ConvertImage",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Images.ConvertImage",
           "name": "CBinaryPattern",
           "package": "hopfield",
@@ -3614,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Images.ConvertImage",
           "name": "CBinaryPattern",
           "package": "hopfield",
@@ -3623,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Images ConvertImage",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Images.ConvertImage",
           "name": "CBinaryPattern",
           "package": "hopfield",
@@ -3636,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Images.ConvertImage",
           "name": "cPattern",
           "package": "hopfield",
@@ -3645,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Images ConvertImage",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Images.ConvertImage",
           "name": "cPattern",
           "normalized": "[Word]",
@@ -3660,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Images.ConvertImage",
           "name": "cPatternSize",
           "package": "hopfield",
@@ -3669,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Images ConvertImage",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Images.ConvertImage",
           "name": "cPatternSize",
           "package": "hopfield",
@@ -3682,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Images.ConvertImage",
           "name": "loadPicture",
           "package": "hopfield",
@@ -3691,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Images ConvertImage",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Images.ConvertImage",
           "name": "loadPicture",
           "normalized": "String-\u003eInt-\u003eInt-\u003eIO CBinaryPattern",
@@ -3707,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to measure various properties of a network\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "Measurement",
           "package": "hopfield",
@@ -3716,6 +4029,7 @@
         "index": {
           "description": "Functions to measure various properties of network",
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "Measurement",
           "package": "hopfield",
@@ -3729,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "BasinMeasure",
           "package": "hopfield",
@@ -3737,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "BasinMeasure",
           "package": "hopfield",
@@ -3750,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "checkFixed",
           "package": "hopfield",
@@ -3759,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "checkFixed",
           "normalized": "HopfieldData-\u003eInt-\u003eBool",
@@ -3774,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "hammingDistribution",
           "package": "hopfield",
@@ -3783,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "hammingDistribution",
           "normalized": "Int-\u003e(Int,Int)-\u003eT Int",
@@ -3799,6 +4119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emeasureError hopfield\u003c/code\u003e: Measures the percentage of patterns in the network\n which are NOT fixed points. That is, it measures the *actual* error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "measureError",
           "package": "hopfield",
@@ -3809,6 +4130,7 @@
         "index": {
           "description": "measureError hopfield Measures the percentage of patterns in the network which are NOT fixed points That is it measures the actual error",
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "measureError",
           "normalized": "HopfieldData-\u003eDouble",
@@ -3824,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "measurePatternBasin",
           "package": "hopfield",
@@ -3833,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "measurePatternBasin",
           "package": "hopfield",
@@ -3846,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "sampleHammingDistance",
           "package": "hopfield",
@@ -3855,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "sampleHammingDistance",
           "normalized": "Pattern-\u003eInt-\u003eInt-\u003ea[Pattern]",
@@ -3870,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "sampleHammingRange",
           "package": "hopfield",
@@ -3879,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "sampleHammingRange",
           "normalized": "Pattern-\u003eT Int-\u003ea Pattern",
@@ -3894,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "samplePatternBasin",
           "package": "hopfield",
@@ -3903,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "samplePatternBasin",
           "normalized": "BasinMeasure a[Double]",
@@ -3918,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Measurement",
           "name": "samplePatternRing",
           "package": "hopfield",
@@ -3927,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Measurement",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Measurement",
           "name": "samplePatternRing",
           "normalized": "HopfieldData-\u003ePattern-\u003eInt-\u003ea Double",
@@ -3942,6 +4274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "SuperAttractors",
           "package": "hopfield",
@@ -3950,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "SuperAttractors",
           "package": "hopfield",
@@ -3963,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "Degree",
           "package": "hopfield",
@@ -3971,6 +4306,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "Degree",
           "package": "hopfield",
@@ -3984,6 +4320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "PatternCombiner",
           "package": "hopfield",
@@ -3992,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "PatternCombiner",
           "package": "hopfield",
@@ -4005,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "aggregateCombiners",
           "package": "hopfield",
@@ -4014,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "aggregateCombiners",
           "normalized": "[PatternCombiner[Pattern]]-\u003ePatternCombiner[[Pattern]]",
@@ -4029,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "allSuperAttr",
           "package": "hopfield",
@@ -4038,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "allSuperAttr",
           "normalized": "PatternCombiner[Pattern]",
@@ -4053,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "allSuperNets",
           "package": "hopfield",
@@ -4062,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "allSuperNets",
           "normalized": "LearningType-\u003e[HopfieldData]",
@@ -4077,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "buildMultiPhaseNetwork",
           "package": "hopfield",
@@ -4086,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "buildMultiPhaseNetwork",
           "normalized": "LearningType-\u003e[PatternCombiner[Pattern]]-\u003e[HopfieldData]",
@@ -4101,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "buildNetworks",
           "package": "hopfield",
@@ -4110,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "buildNetworks",
           "normalized": "a-\u003e[Degree]-\u003eLearningType-\u003ePatternCombiner a-\u003e[HopfieldData]",
@@ -4125,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "measureMultiBasins",
           "package": "hopfield",
@@ -4134,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "measureMultiBasins",
           "normalized": "BasinMeasure a b-\u003e[HopfieldData]-\u003ePattern-\u003e[a b]",
@@ -4149,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "oneSuperAttr",
           "package": "hopfield",
@@ -4158,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "oneSuperAttr",
           "normalized": "PatternCombiner[Pattern]",
@@ -4173,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "oneSuperNets",
           "package": "hopfield",
@@ -4182,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "oneSuperNets",
           "normalized": "LearningType-\u003e[HopfieldData]",
@@ -4197,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "p1",
           "package": "hopfield",
@@ -4206,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "p1",
           "package": "hopfield",
@@ -4218,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "p2",
           "package": "hopfield",
@@ -4227,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "p2",
           "package": "hopfield",
@@ -4239,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "powersOfTwo",
           "package": "hopfield",
@@ -4248,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "powersOfTwo",
           "normalized": "Degree-\u003e[Degree]",
@@ -4263,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "q1",
           "package": "hopfield",
@@ -4272,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "q1",
           "package": "hopfield",
@@ -4284,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainAllSuperWithNormal",
           "package": "hopfield",
@@ -4293,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainAllSuperWithNormal",
           "normalized": "LearningType-\u003e[HopfieldData]",
@@ -4308,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainAllSuperWithOneSuper",
           "package": "hopfield",
@@ -4317,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainAllSuperWithOneSuper",
           "normalized": "LearningType-\u003e[HopfieldData]",
@@ -4332,6 +4698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainNormalWithOneSuper",
           "package": "hopfield",
@@ -4341,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainNormalWithOneSuper",
           "normalized": "LearningType-\u003e[HopfieldData]",
@@ -4356,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainOneSuperWithNormal",
           "package": "hopfield",
@@ -4365,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainOneSuperWithNormal",
           "normalized": "LearningType-\u003e[HopfieldData]",
@@ -4380,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainOneSuperWithOneSuper",
           "package": "hopfield",
@@ -4389,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "retrainOneSuperWithOneSuper",
           "normalized": "LearningType-\u003e[HopfieldData]",
@@ -4404,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.SuperAttractors",
           "name": "twoSuperAttrOneFixed",
           "package": "hopfield",
@@ -4413,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Hopfield SuperAttractors",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.SuperAttractors",
           "name": "twoSuperAttrOneFixed",
           "normalized": "Degree-\u003ePatternCombiner[Pattern]",
@@ -4428,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "TestUtil",
           "package": "hopfield",
@@ -4436,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "TestUtil",
           "package": "hopfield",
@@ -4449,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "Type",
           "package": "hopfield",
@@ -4457,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "Type",
           "package": "hopfield",
@@ -4470,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "BM",
           "package": "hopfield",
@@ -4479,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "BM",
           "package": "hopfield",
@@ -4492,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "H",
           "package": "hopfield",
@@ -4501,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "H",
           "package": "hopfield",
@@ -4514,6 +4896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a matrix with 0's along the diagonal and 1's otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "allWeightsSame",
           "package": "hopfield",
@@ -4524,6 +4907,7 @@
         "index": {
           "description": "Produces matrix with along the diagonal and otherwise",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "allWeightsSame",
           "normalized": "Int-\u003e[[Double]]",
@@ -4539,6 +4923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "binaryCheck",
           "package": "hopfield",
@@ -4548,6 +4933,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "binaryCheck",
           "normalized": "(Int,Int)-\u003eBool",
@@ -4563,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "binaryGen",
           "package": "hopfield",
@@ -4572,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "binaryGen",
           "package": "hopfield",
@@ -4586,6 +4974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a list of patterns and the number of hidden layers\n used to train a Boltzmann machine, as well as a generic pattern to \n recognize on this machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "boltzmannAndPatGen",
           "package": "hopfield",
@@ -4596,6 +4985,7 @@
         "index": {
           "description": "Generates list of patterns and the number of hidden layers used to train Boltzmann machine as well as generic pattern to recognize on this machine",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "boltzmannAndPatGen",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eGen([Pattern],Int,Pattern)",
@@ -4612,6 +5002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eboltzmannBuildGen maxPatSize maxPatListSize max_hidden\u003c/code\u003e \n Generates the structures required for creating a Boltzmann machine: \n a list of patterns together with the number of hidden layers,\n which has to be less than max_hidden.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "boltzmannBuildGen",
           "package": "hopfield",
@@ -4622,6 +5013,7 @@
         "index": {
           "description": "boltzmannBuildGen maxPatSize maxPatListSize max hidden Generates the structures required for creating Boltzmann machine list of patterns together with the number of hidden layers which has to be less than max hidden",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "boltzmannBuildGen",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eGen([Pattern],Int)",
@@ -4638,6 +5030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eboundedListGen g n\u003c/code\u003e: Generates lists (max length n) of the given Gen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "boundedListGen",
           "package": "hopfield",
@@ -4648,6 +5041,7 @@
         "index": {
           "description": "boundedListGen Generates lists max length of the given Gen",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "boundedListGen",
           "normalized": "Gen a-\u003eInt-\u003eGen[a]",
@@ -4664,6 +5058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eboundedReplicateGen n g\u003c/code\u003e Generates lists containing \u003ccode\u003eg\u003c/code\u003e replicated.\n The list is bounded in size by n.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "boundedReplicateGen",
           "package": "hopfield",
@@ -4674,6 +5069,7 @@
         "index": {
           "description": "boundedReplicateGen Generates lists containing replicated The list is bounded in size by",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "boundedReplicateGen",
           "normalized": "Int-\u003eGen a-\u003eGen[a]",
@@ -4689,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "buildBoltzmannCheck",
           "package": "hopfield",
@@ -4698,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "buildBoltzmannCheck",
           "normalized": "([Pattern],Int)-\u003eGen Bool",
@@ -4713,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "buildIntTuple",
           "package": "hopfield",
@@ -4722,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "buildIntTuple",
           "normalized": "Gen(Int,Int)",
@@ -4737,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "crosstalk",
           "package": "hopfield",
@@ -4746,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "crosstalk",
           "normalized": "HopfieldData-\u003eInt-\u003eInt-\u003eInt",
@@ -4761,6 +5163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrains a network using \u003ccode\u003etraining_pats\u003c/code\u003e and then updates each\n pattern in pats according to the weights of that network.\n The aim is to check that the energy decreases after each update.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "energyDecreasesAfterUpdate",
           "package": "hopfield",
@@ -4771,6 +5174,7 @@
         "index": {
           "description": "Trains network using training pats and then updates each pattern in pats according to the weights of that network The aim is to check that the energy decreases after each update",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "energyDecreasesAfterUpdate",
           "normalized": "LearningType-\u003e([Pattern],[Pattern])-\u003eGen Bool",
@@ -4786,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "evalRandGen",
           "package": "hopfield",
@@ -4795,6 +5200,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "evalRandGen",
           "normalized": "Rand StdGen a-\u003eGen a",
@@ -4810,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "mapMonad",
           "package": "hopfield",
@@ -4819,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "mapMonad",
           "normalized": "(a-\u003eb)-\u003ec[a]-\u003ec[b]",
@@ -4834,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "nonempty",
           "package": "hopfield",
@@ -4843,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "nonempty",
           "normalized": "a b Gen[c]-\u003eGen[c]",
@@ -4858,6 +5268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epatListGen t maxPatSize maxPatListSize\u003c/code\u003e Generates a list of patterns.\n The size of each pattern is less than maxPatSize.\n The size odf the list is less than maxPatListSize.\n The type is required in order to create types specific for Boltzmann, \n Hopfield etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "patListGen",
           "package": "hopfield",
@@ -4868,6 +5279,7 @@
         "index": {
           "description": "patListGen maxPatSize maxPatListSize Generates list of patterns The size of each pattern is less than maxPatSize The size odf the list is less than maxPatListSize The type is required in order to create types specific for Boltzmann Hopfield etc",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "patListGen",
           "normalized": "Type-\u003eInt-\u003eInt-\u003eGen[Pattern]",
@@ -4884,6 +5296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epatternGen n\u003c/code\u003e: Generates patterns of size n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "patternGen",
           "package": "hopfield",
@@ -4894,6 +5307,7 @@
         "index": {
           "description": "patternGen Generates patterns of size",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "patternGen",
           "normalized": "Type-\u003eInt-\u003eGen Pattern",
@@ -4910,6 +5324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epatternRangeGen (min, max)\u003c/code\u003e Generates patterns of size ranging\n between min and max\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "patternRangeGen",
           "package": "hopfield",
@@ -4920,6 +5335,7 @@
         "index": {
           "description": "patternRangeGen min max Generates patterns of size ranging between min and max",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "patternRangeGen",
           "normalized": "Type-\u003e(Int,Int)-\u003eGen Pattern",
@@ -4936,6 +5352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epatternsTupleGen g m1 m2\u003c/code\u003eGenerates a tuple of lists, as follows:\n Uses patListGen to generate 1 list of patterns with length less than m2.\n The list itself has to have length less than m1.\n The second element of a tuple is a list of patterns which have the same size\n as the patterns of the first list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "patternsTupleGen",
           "package": "hopfield",
@@ -4946,6 +5363,7 @@
         "index": {
           "description": "patternsTupleGen m1 m2 Generates tuple of lists as follows Uses patListGen to generate list of patterns with length less than m2 The list itself has to have length less than m1 The second element of tuple is list of patterns which have the same size as the patterns of the first list",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "patternsTupleGen",
           "normalized": "Type-\u003eInt-\u003eInt-\u003eGen([Pattern],[Pattern])",
@@ -4962,6 +5380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprobabilityCheck (pats, nr_h, pat)\u003c/code\u003e. Trains a Boltzmann machine\n using \u003ccode\u003epats\u003c/code\u003e and \u003ccode\u003enr_h\u003c/code\u003e and computes the activation probability for \n \u003ccode\u003epat\u003c/code\u003e using this machine, and check if it is indeed a probability,\n ie in [0,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "probabilityCheck",
           "package": "hopfield",
@@ -4972,6 +5391,7 @@
         "index": {
           "description": "probabilityCheck pats nr pat Trains Boltzmann machine using pats and nr and computes the activation probability for pat using this machine and check if it is indeed probability ie in",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "probabilityCheck",
           "normalized": "([Pattern],Int,Pattern)-\u003eGen Bool",
@@ -4987,6 +5407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "repeatedUpdateCheck",
           "package": "hopfield",
@@ -4996,6 +5417,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "repeatedUpdateCheck",
           "normalized": "LearningType-\u003e([Pattern],[Pattern])-\u003eGen Bool",
@@ -5012,6 +5434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces the nth element in the list with \u003ccode\u003er\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "replaceAtN",
           "package": "hopfield",
@@ -5022,6 +5445,7 @@
         "index": {
           "description": "Replaces the nth element in the list with",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "replaceAtN",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[a]",
@@ -5037,6 +5461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "sameElemList",
           "package": "hopfield",
@@ -5046,6 +5471,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "sameElemList",
           "normalized": "a-\u003eGen[a]",
@@ -5062,6 +5488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate vectors containing the same element replicated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "sameElemVector",
           "package": "hopfield",
@@ -5072,6 +5499,7 @@
         "index": {
           "description": "Generate vectors containing the same element replicated",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "sameElemVector",
           "normalized": "a-\u003eGen(Vector a)",
@@ -5088,6 +5516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random sign (+/- 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "signGen",
           "package": "hopfield",
@@ -5098,6 +5527,7 @@
         "index": {
           "description": "Generate random sign",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "signGen",
           "package": "hopfield",
@@ -5112,6 +5542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list generator to a vector generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "toGenVector",
           "package": "hopfield",
@@ -5122,6 +5553,7 @@
         "index": {
           "description": "Convert list generator to vector generator",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "toGenVector",
           "normalized": "Gen[a]-\u003eGen(Vector a)",
@@ -5138,6 +5570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed as a property to check that patterns which\n are used to create the network are stable in respect to update\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "trainingPatsAreFixedPoints",
           "package": "hopfield",
@@ -5148,6 +5581,7 @@
         "index": {
           "description": "Used as property to check that patterns which are used to create the network are stable in respect to update",
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "trainingPatsAreFixedPoints",
           "normalized": "LearningType-\u003e[Pattern]-\u003eGen Bool",
@@ -5163,6 +5597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.TestUtil",
           "name": "updateNeuronCheck",
           "package": "hopfield",
@@ -5172,6 +5607,7 @@
         },
         "index": {
           "hierarchy": "Hopfield TestUtil",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.TestUtil",
           "name": "updateNeuronCheck",
           "normalized": "Int-\u003e([Pattern],Int,Pattern)-\u003eGen Bool",
@@ -5188,6 +5624,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module uses general purpose functions which are use trought the project.\n Should not contain any project defined data types. Needs to be kept\n as general as possible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "Util",
           "package": "hopfield",
@@ -5197,6 +5634,7 @@
         "index": {
           "description": "This module uses general purpose functions which are use trought the project Should not contain any project defined data types Needs to be kept as general as possible",
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "Util",
           "package": "hopfield",
@@ -5210,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "(*.)",
           "package": "hopfield",
@@ -5219,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "(*.) *.",
           "normalized": "a-\u003ea-\u003ea",
@@ -5233,6 +5673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "(/.)",
           "package": "hopfield",
@@ -5242,6 +5683,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "(/.) /.",
           "normalized": "a-\u003ea-\u003ea",
@@ -5256,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "(.*)",
           "package": "hopfield",
@@ -5265,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "(.*) .*",
           "normalized": "a-\u003ea-\u003ea",
@@ -5279,6 +5723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "(./)",
           "package": "hopfield",
@@ -5288,6 +5733,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "(./) ./",
           "normalized": "a-\u003ea-\u003ea",
@@ -5302,6 +5748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "(./.)",
           "package": "hopfield",
@@ -5311,6 +5758,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "(./.) ./.",
           "normalized": "a-\u003ea-\u003ea",
@@ -5325,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "attachLabel",
           "package": "hopfield",
@@ -5334,6 +5783,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "attachLabel",
           "normalized": "[Showable]-\u003eString",
@@ -5349,6 +5799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "attachLabels",
           "package": "hopfield",
@@ -5358,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "attachLabels",
           "normalized": "String-\u003e[[Showable]]-\u003eString",
@@ -5373,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "average",
           "package": "hopfield",
@@ -5382,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "average",
           "normalized": "[a]-\u003eb",
@@ -5396,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "columnVector",
           "package": "hopfield",
@@ -5405,6 +5860,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "columnVector",
           "normalized": "Vector(Vector a)-\u003eInt-\u003eVector a",
@@ -5420,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "combine",
           "package": "hopfield",
@@ -5429,6 +5886,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "combine",
           "normalized": "(a-\u003eb-\u003ec)-\u003e[[a]]-\u003e[[b]]-\u003e[[c]]",
@@ -5443,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "combineVectors",
           "package": "hopfield",
@@ -5452,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "combineVectors",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVector a-\u003eVector b-\u003eVector c",
@@ -5467,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "compareBy",
           "package": "hopfield",
@@ -5476,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "compareBy",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -5491,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "dotProduct",
           "package": "hopfield",
@@ -5500,6 +5963,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "dotProduct",
           "normalized": "Vector a-\u003eVector a-\u003ea",
@@ -5515,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "findInList",
           "package": "hopfield",
@@ -5524,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "findInList",
           "normalized": "[a]-\u003ea-\u003eEither a Int",
@@ -5539,6 +6005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "fromDataVector",
           "package": "hopfield",
@@ -5548,6 +6015,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "fromDataVector",
           "normalized": "Vector a-\u003eVector a",
@@ -5563,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "getBinaryIndices",
           "package": "hopfield",
@@ -5572,6 +6041,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "getBinaryIndices",
           "normalized": "[a]-\u003e[(a,[Int])]",
@@ -5587,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "getElemOccurrences",
           "package": "hopfield",
@@ -5596,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "getElemOccurrences",
           "normalized": "[a]-\u003e[(a,Int)]",
@@ -5612,6 +6084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egibbsSampling a\u003c/code\u003e Gives the binary value of a neuron (0 or 1) from the\n activation sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "gibbsSampling",
           "package": "hopfield",
@@ -5622,6 +6095,7 @@
         "index": {
           "description": "gibbsSampling Gives the binary value of neuron or from the activation sum",
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "gibbsSampling",
           "normalized": "Double-\u003ea Int",
@@ -5637,6 +6111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "hammingDistance",
           "package": "hopfield",
@@ -5646,6 +6121,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "hammingDistance",
           "normalized": "Vector Int-\u003eVector Int-\u003eInt",
@@ -5662,6 +6138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a 2D vector into a list of lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "list2D",
           "package": "hopfield",
@@ -5672,6 +6149,7 @@
         "index": {
           "description": "Converts vector into list of lists",
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "list2D",
           "normalized": "Vector(Vector a)-\u003e[[a]]",
@@ -5686,6 +6164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "log2",
           "package": "hopfield",
@@ -5695,6 +6174,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "log2",
           "normalized": "Double-\u003eDouble",
@@ -5710,6 +6190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a number sampled from a random distribution, given the mean and\n standard deviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "normal",
           "package": "hopfield",
@@ -5720,6 +6201,7 @@
         "index": {
           "description": "Generates number sampled from random distribution given the mean and standard deviation",
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "normal",
           "normalized": "Double-\u003eDouble-\u003ea Double",
@@ -5734,6 +6216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "numDiffs",
           "package": "hopfield",
@@ -5743,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "numDiffs",
           "normalized": "[a]-\u003e[a]-\u003eInt",
@@ -5758,6 +6242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "patternToAsciiArt",
           "package": "hopfield",
@@ -5767,6 +6252,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "patternToAsciiArt",
           "normalized": "Int-\u003ePattern-\u003eString",
@@ -5782,6 +6268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "prettyList",
           "package": "hopfield",
@@ -5791,6 +6278,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "prettyList",
           "normalized": "[a]-\u003eString",
@@ -5806,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "printMList",
           "package": "hopfield",
@@ -5815,6 +6304,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "printMList",
           "normalized": "[IO a]-\u003e[a-\u003eString]-\u003eIO()",
@@ -5830,6 +6320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "randomBinaryVector",
           "package": "hopfield",
@@ -5839,6 +6330,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "randomBinaryVector",
           "normalized": "Int-\u003ea(Vector Int)",
@@ -5854,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "randomElem",
           "package": "hopfield",
@@ -5863,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "randomElem",
           "normalized": "[a]-\u003eb a",
@@ -5878,6 +6372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "randomSignVector",
           "package": "hopfield",
@@ -5887,6 +6382,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "randomSignVector",
           "normalized": "Int-\u003ea(Vector Int)",
@@ -5902,6 +6398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "repeatUntilEqual",
           "package": "hopfield",
@@ -5911,6 +6408,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "repeatUntilEqual",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -5926,6 +6424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "repeatUntilEqualOrLimitExceeded",
           "package": "hopfield",
@@ -5935,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "repeatUntilEqualOrLimitExceeded",
           "normalized": "Int-\u003e(a-\u003eb a)-\u003ea-\u003eb a",
@@ -5950,6 +6450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "repeatUntilNothing",
           "package": "hopfield",
@@ -5959,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "repeatUntilNothing",
           "normalized": "(a-\u003eb(Maybe a))-\u003ea-\u003eb a",
@@ -5974,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "runT",
           "package": "hopfield",
@@ -5983,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "runT",
           "normalized": "T a-\u003eb a",
@@ -5997,6 +6501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "shuffle",
           "package": "hopfield",
@@ -6006,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "shuffle",
           "normalized": "Array Int a-\u003eb[a]",
@@ -6020,6 +6526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "toArray",
           "package": "hopfield",
@@ -6029,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "toArray",
           "normalized": "[a]-\u003eArray Int a",
@@ -6044,6 +6552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "toBinary",
           "package": "hopfield",
@@ -6053,6 +6562,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "toBinary",
           "normalized": "Int-\u003eInt-\u003e[Int]",
@@ -6068,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "toDouble",
           "package": "hopfield",
@@ -6077,6 +6588,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "toDouble",
           "normalized": "Vector a-\u003eVector b",
@@ -6092,6 +6604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "toPercents",
           "package": "hopfield",
@@ -6101,6 +6614,7 @@
         },
         "index": {
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "toPercents",
           "normalized": "[Double]-\u003eString",
@@ -6117,6 +6631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the monadic action returning a maybe until \u003ccode\u003eNothing\u003c/code\u003e is returned,\n collecting the results in a list.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003eunfoldr\u003c/code\u003e, the initial value is not part of the result list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "unfoldrSelfM",
           "package": "hopfield",
@@ -6127,6 +6642,7 @@
         "index": {
           "description": "Executes the monadic action returning maybe until Nothing is returned collecting the results in list Like unfoldr the initial value is not part of the result list",
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "unfoldrSelfM",
           "normalized": "(a-\u003eb(Maybe a))-\u003ea-\u003eb[a]",
@@ -6143,6 +6659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list of lists to a 2D vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:08 UTC 2014",
           "module": "Hopfield.Util",
           "name": "vector2D",
           "package": "hopfield",
@@ -6153,6 +6670,7 @@
         "index": {
           "description": "Converts list of lists to vector",
           "hierarchy": "Hopfield Util",
+          "indexed": "2014-03-11T18:44:08",
           "module": "Hopfield.Util",
           "name": "vector2D",
           "normalized": "[[a]]-\u003eVector(Vector a)",

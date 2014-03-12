@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "set-extra"
+        "phrase": "set-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "Extra",
           "package": "set-extra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "Extra",
           "package": "set-extra",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "all",
           "package": "set-extra",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eSet a-\u003eBool",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "and",
           "package": "set-extra",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "and",
           "normalized": "Set Bool-\u003eBool",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "any",
           "package": "set-extra",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eSet a-\u003eBool",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "cartesianProduct",
           "package": "set-extra",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "cartesianProduct",
           "normalized": "Set a-\u003eSet b-\u003eSet(a,b)",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "catMaybes",
           "package": "set-extra",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "catMaybes",
           "normalized": "Set(Maybe a)-\u003eSet a",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "concatMap",
           "package": "set-extra",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "concatMap",
           "normalized": "(a-\u003eSet b)-\u003eSet a-\u003eSet b",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "concatMapM",
           "package": "set-extra",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "concatMapM",
           "normalized": "(a-\u003eb(Set c))-\u003eSet a-\u003eb(Set c)",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edistrib {a, b, c} {d, e, f} -\u003e {a+d, a+e, a+f, b+d, b+e, b+f, c+d, c+e, c+f}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "distrib",
           "package": "set-extra",
@@ -215,6 +232,7 @@
         "index": {
           "description": "distrib",
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "distrib",
           "normalized": "Set(Set a)-\u003eSet(Set a)-\u003eSet(Set a)",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "filterM",
           "package": "set-extra",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "filterM",
           "normalized": "(a-\u003eb Bool)-\u003eSet a-\u003eb(Set a)",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "flatten",
           "package": "set-extra",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "flatten",
           "normalized": "Set(Set a)-\u003eSet a",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "fromSS",
           "package": "set-extra",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "fromSS",
           "normalized": "Set(Set a)-\u003e[[a]]",
@@ -324,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "groupBy",
           "package": "set-extra",
@@ -333,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "groupBy",
           "normalized": "(a-\u003eb)-\u003eSet a-\u003eMap b(Set a)",
@@ -348,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "mapM",
           "package": "set-extra",
@@ -357,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eSet a-\u003eb(Set c)",
@@ -371,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "mapM_",
           "package": "set-extra",
@@ -380,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "mapM_",
           "normalized": "(a-\u003eb c)-\u003eSet a-\u003eb()",
@@ -394,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "mapMaybe",
           "package": "set-extra",
@@ -403,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eSet a-\u003eSet b",
@@ -418,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "or",
           "package": "set-extra",
@@ -427,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "or",
           "normalized": "Set Bool-\u003eBool",
@@ -441,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "partitionM",
           "package": "set-extra",
@@ -450,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "partitionM",
           "normalized": "(a-\u003eb Bool)-\u003eSet a-\u003eb(Set a,Set a)",
@@ -465,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a singleton set containing a singleton set of a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "ss",
           "package": "set-extra",
@@ -475,6 +512,7 @@
         "index": {
           "description": "Create singleton set containing singleton set of",
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "ss",
           "normalized": "a-\u003eSet(Set a)",
@@ -489,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "ssMapM",
           "package": "set-extra",
@@ -498,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "ssMapM",
           "normalized": "(a-\u003eb c)-\u003eSet(Set a)-\u003eb(Set(Set c))",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a list of lists into a set of sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "toSS",
           "package": "set-extra",
@@ -524,6 +565,7 @@
         "index": {
           "description": "Turn list of lists into set of sets",
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "toSS",
           "normalized": "[[a]]-\u003eSet(Set a)",
@@ -539,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.Extra",
           "name": "unzip",
           "package": "set-extra",
@@ -548,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Data Set Extra",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.Extra",
           "name": "unzip",
           "normalized": "Set(a,b)-\u003e(Set a,Set b)",
@@ -562,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:13 UTC 2014",
           "module": "Data.Set.ExtraG",
           "name": "ExtraG",
           "package": "set-extra",
@@ -570,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Data Set ExtraG",
+          "indexed": "2014-03-11T20:00:13",
           "module": "Data.Set.ExtraG",
           "name": "ExtraG",
           "package": "set-extra",

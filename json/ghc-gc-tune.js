@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-gc-tune"
+        "phrase": "ghc-gc-tune",
+        "type": "phrase"
       },
       "type": "context"
     }

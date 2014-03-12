@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "optparse-applicative"
+        "phrase": "optparse-applicative",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains an arrow interface for option parsers, which allows\n to define and combine parsers using the arrow notation and arrow\n combinators.\n\u003c/p\u003e\u003cp\u003eThe arrow syntax is particularly useful to create parsers of nested\n structures, or records where the order of fields is different from the order\n in which the parsers should be applied.\n\u003c/p\u003e\u003cp\u003eFor example, an \u003ccode\u003e\u003ca\u003earguments\u003c/a\u003e\u003c/code\u003e parser often needs\n to be applied last, and that makes it inconvenient to use it for a field\n which is not the last one in a record.\n\u003c/p\u003e\u003cp\u003eUsing the arrow syntax and the functions in this module, one can write, e.g.:\n\u003c/p\u003e\u003cpre\u003e data Options = Options\n   { optArgs :: [String]\n   , optVerbose :: Bool }\n\n opts :: Parser Options\n opts = runA $ proc () -\u003e do\n   verbose \u003c- asA (switch (short 'v')) -\u003c ()\n   args \u003c- asA (arguments str idm) -\u003c ()\n   returnA -\u003c Options args verbose\n\u003c/pre\u003e\u003cp\u003eParser arrows, created out of regular \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e values using the \u003ccode\u003e\u003ca\u003easA\u003c/a\u003e\u003c/code\u003e\n function, are arrows taking \u003ccode\u003e()\u003c/code\u003e as argument and returning the parsed value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Arrows",
           "name": "Arrows",
           "package": "optparse-applicative",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains an arrow interface for option parsers which allows to define and combine parsers using the arrow notation and arrow combinators The arrow syntax is particularly useful to create parsers of nested structures or records where the order of fields is different from the order in which the parsers should be applied For example an arguments parser often needs to be applied last and that makes it inconvenient to use it for field which is not the last one in record Using the arrow syntax and the functions in this module one can write e.g data Options Options optArgs String optVerbose Bool opts Parser Options opts runA proc do verbose asA switch short args asA arguments str idm returnA Options args verbose Parser arrows created out of regular Parser values using the asA function are arrows taking as argument and returning the parsed value",
           "hierarchy": "Options Applicative Arrows",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Arrows",
           "name": "Arrows",
           "package": "optparse-applicative",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor any \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e functor \u003ccode\u003ef\u003c/code\u003e, \u003ccode\u003eA f\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003e instance\n associated to \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eA\u003c/a\u003e\u003c/code\u003e constructor can be used to convert a value of type \u003ccode\u003ef (a -\u003e b)\u003c/code\u003e into\n an arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Arrows",
           "name": "A",
           "package": "optparse-applicative",
@@ -51,6 +54,7 @@
         "index": {
           "description": "For any Applicative functor is the Arrow instance associated to The constructor can be used to convert value of type into an arrow",
           "hierarchy": "Options Applicative Arrows",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Arrows",
           "name": "A",
           "package": "optparse-applicative",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of arrows associated to the applicative \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Arrows",
           "name": "ParserA",
           "package": "optparse-applicative",
@@ -73,6 +78,7 @@
         "index": {
           "description": "The type of arrows associated to the applicative Parser functor",
           "hierarchy": "Options Applicative Arrows",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Arrows",
           "name": "ParserA",
           "package": "optparse-applicative",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Arrows",
           "name": "A",
           "package": "optparse-applicative",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Arrows",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Arrows",
           "name": "A",
           "package": "optparse-applicative",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value of type \u003ccode\u003ef a\u003c/code\u003e into an arrow taking \u003ccode\u003e()\u003c/code\u003e as argument.\n\u003c/p\u003e\u003cp\u003eApplied to a value of type \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e, it turns it into an arrow that can be\n used inside an arrow command, or passed to arrow combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Arrows",
           "name": "asA",
           "package": "optparse-applicative",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Convert value of type into an arrow taking as argument Applied to value of type Parser it turns it into an arrow that can be used inside an arrow command or passed to arrow combinators",
           "hierarchy": "Options Applicative Arrows",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Arrows",
           "name": "asA",
           "normalized": "a b-\u003eA a()b",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an arrow back to an applicative value.\n\u003c/p\u003e\u003cp\u003eThis function can be used to return a result of type \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e from an arrow\n command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Arrows",
           "name": "runA",
           "package": "optparse-applicative",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Convert an arrow back to an applicative value This function can be used to return result of type Parser from an arrow command",
           "hierarchy": "Options Applicative Arrows",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Arrows",
           "name": "runA",
           "normalized": "A a()b-\u003ea b",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Arrows",
           "name": "unA",
           "package": "optparse-applicative",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Arrows",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Arrows",
           "name": "unA",
           "normalized": "a(b-\u003ec)",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.BashCompletion",
           "name": "BashCompletion",
           "package": "optparse-applicative",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative BashCompletion",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.BashCompletion",
           "name": "BashCompletion",
           "package": "optparse-applicative",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.BashCompletion",
           "name": "bashCompletionParser",
           "package": "optparse-applicative",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative BashCompletion",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.BashCompletion",
           "name": "bashCompletionParser",
           "normalized": "Parser a-\u003eParserPrefs-\u003eParser ParserFailure",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Completer",
           "name": "Completer",
           "package": "optparse-applicative",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Completer",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Completer",
           "name": "Completer",
           "package": "optparse-applicative",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Completer",
           "name": "Completer",
           "package": "optparse-applicative",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Completer",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Completer",
           "name": "Completer",
           "package": "optparse-applicative",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Completer",
           "name": "bashCompleter",
           "package": "optparse-applicative",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Completer",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Completer",
           "name": "bashCompleter",
           "normalized": "String-\u003eCompleter",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Completer",
           "name": "listCompleter",
           "package": "optparse-applicative",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Completer",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Completer",
           "name": "listCompleter",
           "normalized": "[String]-\u003eCompleter",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Completer",
           "name": "listIOCompleter",
           "package": "optparse-applicative",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Completer",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Completer",
           "name": "listIOCompleter",
           "normalized": "IO[String]-\u003eCompleter",
@@ -364,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "Internal",
           "package": "optparse-applicative",
@@ -372,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "Internal",
           "package": "optparse-applicative",
@@ -385,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "ArgumentFields",
           "package": "optparse-applicative",
@@ -393,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "ArgumentFields",
           "package": "optparse-applicative",
@@ -406,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "CommandFields",
           "package": "optparse-applicative",
@@ -414,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "CommandFields",
           "package": "optparse-applicative",
@@ -427,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "DefaultProp",
           "package": "optparse-applicative",
@@ -435,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "DefaultProp",
           "package": "optparse-applicative",
@@ -448,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "FlagFields",
           "package": "optparse-applicative",
@@ -456,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "FlagFields",
           "package": "optparse-applicative",
@@ -469,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "HasCompleter",
           "package": "optparse-applicative",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "HasCompleter",
           "package": "optparse-applicative",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "HasName",
           "package": "optparse-applicative",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "HasName",
           "package": "optparse-applicative",
@@ -512,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn option modifier.\n\u003c/p\u003e\u003cp\u003eOption modifiers are values that represent a modification of the properties\n of an option.\n\u003c/p\u003e\u003cp\u003eThe type parameter \u003ccode\u003ea\u003c/code\u003e is the return type of the option, while \u003ccode\u003ef\u003c/code\u003e is a\n record containing its properties (e.g. \u003ccode\u003e\u003ca\u003eOptionFields\u003c/a\u003e\u003c/code\u003e for regular options,\n \u003ccode\u003e\u003ca\u003eFlagFields\u003c/a\u003e\u003c/code\u003e for flags, etc...).\n\u003c/p\u003e\u003cp\u003eAn option modifier consists of 3 elements:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A field modifier, of the form \u003ccode\u003ef a -\u003e f a\u003c/code\u003e. These are essentially\n  (compositions of) setters for some of the properties supported by \u003ccode\u003ef\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e An optional default value and function to display it.\n\u003c/li\u003e\u003cli\u003e A property modifier, of the form \u003ccode\u003eOptProperties -\u003e OptProperties\u003c/code\u003e. This\n  is just like the field modifier, but for properties applicable to any\n  option.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eModifiers are instances of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, and can be composed as such.\n\u003c/p\u003e\u003cp\u003eYou rarely need to deal with modifiers directly, as most of the times it is\n sufficient to pass them to builders (such as \u003ccode\u003estrOption\u003c/code\u003e or \u003ccode\u003eflag\u003c/code\u003e) to\n create options (see \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "Mod",
           "package": "optparse-applicative",
@@ -521,6 +564,7 @@
         "index": {
           "description": "An option modifier Option modifiers are values that represent modification of the properties of an option The type parameter is the return type of the option while is record containing its properties e.g OptionFields for regular options FlagFields for flags etc An option modifier consists of elements field modifier of the form These are essentially compositions of setters for some of the properties supported by An optional default value and function to display it property modifier of the form OptProperties OptProperties This is just like the field modifier but for properties applicable to any option Modifiers are instances of Monoid and can be composed as such You rarely need to deal with modifiers directly as most of the times it is sufficient to pass them to builders such as strOption or flag to create options see Builder",
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "Mod",
           "package": "optparse-applicative",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "OptionFields",
           "package": "optparse-applicative",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "OptionFields",
           "package": "optparse-applicative",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "ArgumentFields",
           "package": "optparse-applicative",
@@ -564,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "ArgumentFields",
           "package": "optparse-applicative",
@@ -577,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "CommandFields",
           "package": "optparse-applicative",
@@ -586,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "CommandFields",
           "package": "optparse-applicative",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "DefaultProp",
           "package": "optparse-applicative",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "DefaultProp",
           "normalized": "DefaultProp(Maybe a)(Maybe(a-\u003eString))",
@@ -623,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "FlagFields",
           "package": "optparse-applicative",
@@ -632,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "FlagFields",
           "package": "optparse-applicative",
@@ -645,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "Mod",
           "package": "optparse-applicative",
@@ -654,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "Mod",
           "normalized": "Mod(a b-\u003ea b)(DefaultProp b)(OptProperties-\u003eOptProperties)",
@@ -669,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "OptionFields",
           "package": "optparse-applicative",
@@ -678,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "OptionFields",
           "package": "optparse-applicative",
@@ -691,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "argCompleter",
           "package": "optparse-applicative",
@@ -700,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "argCompleter",
           "package": "optparse-applicative",
@@ -714,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase default properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "baseProps",
           "package": "optparse-applicative",
@@ -724,6 +785,7 @@
         "index": {
           "description": "Base default properties",
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "baseProps",
           "package": "optparse-applicative",
@@ -737,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "cmdCommands",
           "package": "optparse-applicative",
@@ -746,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "cmdCommands",
           "normalized": "[(String,ParserInfo a)]",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "fieldMod",
           "package": "optparse-applicative",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "fieldMod",
           "normalized": "(a b-\u003ea b)-\u003eMod a b",
@@ -785,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "flagActive",
           "package": "optparse-applicative",
@@ -794,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "flagActive",
           "package": "optparse-applicative",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "flagNames",
           "package": "optparse-applicative",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "flagNames",
           "normalized": "[OptName]",
@@ -855,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "mkCommand",
           "package": "optparse-applicative",
@@ -864,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "mkCommand",
           "normalized": "Mod CommandFields a-\u003e([String],String-\u003eMaybe(ParserInfo a))",
@@ -879,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "mkOption",
           "package": "optparse-applicative",
@@ -888,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "mkOption",
           "normalized": "DefaultProp a-\u003e(OptProperties-\u003eOptProperties)-\u003eOptReader a-\u003eOption a",
@@ -903,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "mkParser",
           "package": "optparse-applicative",
@@ -912,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "mkParser",
           "normalized": "DefaultProp a-\u003e(OptProperties-\u003eOptProperties)-\u003eOptReader a-\u003eParser a",
@@ -927,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "mkProps",
           "package": "optparse-applicative",
@@ -936,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "mkProps",
           "normalized": "DefaultProp a-\u003e(OptProperties-\u003eOptProperties)-\u003eOptProperties",
@@ -951,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "modCompleter",
           "package": "optparse-applicative",
@@ -960,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "modCompleter",
           "normalized": "(Completer-\u003eCompleter)-\u003ea b-\u003ea b",
@@ -975,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "name",
           "package": "optparse-applicative",
@@ -984,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "name",
           "normalized": "OptName-\u003ea b-\u003ea b",
@@ -998,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optCompleter",
           "package": "optparse-applicative",
@@ -1007,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optCompleter",
           "package": "optparse-applicative",
@@ -1020,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optNames",
           "package": "optparse-applicative",
@@ -1029,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optNames",
           "normalized": "[OptName]",
@@ -1044,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optNoArgError",
           "package": "optparse-applicative",
@@ -1053,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optNoArgError",
           "package": "optparse-applicative",
@@ -1066,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optReader",
           "package": "optparse-applicative",
@@ -1075,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optReader",
           "normalized": "String-\u003eReadM a",
@@ -1090,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optionMod",
           "package": "optparse-applicative",
@@ -1099,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder Internal",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder.Internal",
           "name": "optionMod",
           "normalized": "(OptProperties-\u003eOptProperties)-\u003eMod a b",
@@ -1114,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "Builder",
           "package": "optparse-applicative",
@@ -1122,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "Builder",
           "package": "optparse-applicative",
@@ -1135,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "ArgumentFields",
           "package": "optparse-applicative",
@@ -1143,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "ArgumentFields",
           "package": "optparse-applicative",
@@ -1156,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "CommandFields",
           "package": "optparse-applicative",
@@ -1164,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "CommandFields",
           "package": "optparse-applicative",
@@ -1177,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "FlagFields",
           "package": "optparse-applicative",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "FlagFields",
           "package": "optparse-applicative",
@@ -1199,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier for \u003ccode\u003e\u003ca\u003eParserInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "InfoMod",
           "package": "optparse-applicative",
@@ -1208,6 +1309,7 @@
         "index": {
           "description": "Modifier for ParserInfo",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "InfoMod",
           "package": "optparse-applicative",
@@ -1222,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn option modifier.\n\u003c/p\u003e\u003cp\u003eOption modifiers are values that represent a modification of the properties\n of an option.\n\u003c/p\u003e\u003cp\u003eThe type parameter \u003ccode\u003ea\u003c/code\u003e is the return type of the option, while \u003ccode\u003ef\u003c/code\u003e is a\n record containing its properties (e.g. \u003ccode\u003e\u003ca\u003eOptionFields\u003c/a\u003e\u003c/code\u003e for regular options,\n \u003ccode\u003e\u003ca\u003eFlagFields\u003c/a\u003e\u003c/code\u003e for flags, etc...).\n\u003c/p\u003e\u003cp\u003eAn option modifier consists of 3 elements:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A field modifier, of the form \u003ccode\u003ef a -\u003e f a\u003c/code\u003e. These are essentially\n  (compositions of) setters for some of the properties supported by \u003ccode\u003ef\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e An optional default value and function to display it.\n\u003c/li\u003e\u003cli\u003e A property modifier, of the form \u003ccode\u003eOptProperties -\u003e OptProperties\u003c/code\u003e. This\n  is just like the field modifier, but for properties applicable to any\n  option.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eModifiers are instances of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, and can be composed as such.\n\u003c/p\u003e\u003cp\u003eYou rarely need to deal with modifiers directly, as most of the times it is\n sufficient to pass them to builders (such as \u003ccode\u003estrOption\u003c/code\u003e or \u003ccode\u003eflag\u003c/code\u003e) to\n create options (see \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "Mod",
           "package": "optparse-applicative",
@@ -1231,6 +1334,7 @@
         "index": {
           "description": "An option modifier Option modifiers are values that represent modification of the properties of an option The type parameter is the return type of the option while is record containing its properties e.g OptionFields for regular options FlagFields for flags etc An option modifier consists of elements field modifier of the form These are essentially compositions of setters for some of the properties supported by An optional default value and function to display it property modifier of the form OptProperties OptProperties This is just like the field modifier but for properties applicable to any option Modifiers are instances of Monoid and can be composed as such You rarely need to deal with modifiers directly as most of the times it is sufficient to pass them to builders such as strOption or flag to create options see Builder",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "Mod",
           "package": "optparse-applicative",
@@ -1244,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "OptionFields",
           "package": "optparse-applicative",
@@ -1252,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "OptionFields",
           "package": "optparse-applicative",
@@ -1265,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "ParseError",
           "package": "optparse-applicative",
@@ -1273,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "ParseError",
           "package": "optparse-applicative",
@@ -1286,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "PrefsMod",
           "package": "optparse-applicative",
@@ -1294,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "PrefsMod",
           "package": "optparse-applicative",
@@ -1308,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype over the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad used by option readers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "ReadM",
           "package": "optparse-applicative",
@@ -1317,6 +1428,7 @@
         "index": {
           "description": "newtype over the Either monad used by option readers",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "ReadM",
           "package": "optparse-applicative",
@@ -1331,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use (\u003ca/\u003e) instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eCompose modifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "(&)",
           "package": "optparse-applicative",
@@ -1341,6 +1454,7 @@
         "index": {
           "description": "Deprecated Use instead Compose modifiers",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "(&) &",
           "normalized": "a-\u003ea-\u003ea",
@@ -1356,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "(\u003c\u003e)",
           "package": "optparse-applicative",
@@ -1365,6 +1480,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1449,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn option that always fails.\n\u003c/p\u003e\u003cp\u003eWhen this option is encountered, the option parser immediately aborts with\n the given parse error.  If you simply want to output a message, use\n \u003ccode\u003e\u003ca\u003einfoOption\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "abortOption",
           "package": "optparse-applicative",
@@ -1459,6 +1576,7 @@
         "index": {
           "description": "An option that always fails When this option is encountered the option parser immediately aborts with the given parse error If you simply want to output message use infoOption instead",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "abortOption",
           "normalized": "ParseError-\u003eMod OptionFields(a-\u003ea)-\u003eParser(a-\u003ea)",
@@ -1475,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a bash completion action. Common actions include \u003ccode\u003efile\u003c/code\u003e and\n \u003ccode\u003edirectory\u003c/code\u003e. See\n http:\u003cem/\u003ewww.gnu.org\u003cem\u003esoftware\u003c/em\u003ebash\u003cem\u003emanual\u003c/em\u003ehtml_node/Programmable-Completion-Builtins.html#Programmable-Completion-Builtins\n for a complete list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "action",
           "package": "optparse-applicative",
@@ -1485,6 +1604,7 @@
         "index": {
           "description": "Add bash completion action Common actions include file and directory See http www.gnu.org software bash manual html node Programmable-Completion-Builtins.html Programmable-Completion-Builtins for complete list",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "action",
           "normalized": "String-\u003eMod a b",
@@ -1500,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for an argument parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "argument",
           "package": "optparse-applicative",
@@ -1510,6 +1631,7 @@
         "index": {
           "description": "Builder for an argument parser",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "argument",
           "normalized": "(String-\u003eMaybe a)-\u003eMod ArgumentFields a-\u003eParser a",
@@ -1525,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for an argument list parser. All arguments are collected and\n returned as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "arguments",
           "package": "optparse-applicative",
@@ -1535,6 +1658,7 @@
         "index": {
           "description": "Builder for an argument list parser All arguments are collected and returned as list",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "arguments",
           "normalized": "(String-\u003eMaybe a)-\u003eMod ArgumentFields a-\u003eParser[a]",
@@ -1550,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003earguments\u003c/a\u003e\u003c/code\u003e, but require at least one argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "arguments1",
           "package": "optparse-applicative",
@@ -1560,6 +1685,7 @@
         "index": {
           "description": "Like arguments but require at least one argument",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "arguments1",
           "normalized": "(String-\u003eMaybe a)-\u003eMod ArgumentFields a-\u003eParser[a]",
@@ -1575,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e reader based on the \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "auto",
           "package": "optparse-applicative",
@@ -1585,6 +1712,7 @@
         "index": {
           "description": "Option reader based on the Read type class",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "auto",
           "normalized": "String-\u003ea b",
@@ -1600,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly show a brief description in the help text of this parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "briefDesc",
           "package": "optparse-applicative",
@@ -1610,6 +1739,7 @@
         "index": {
           "description": "Only show brief description in the help text of this parser",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "briefDesc",
           "package": "optparse-applicative",
@@ -1624,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a command to a subparser option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "command",
           "package": "optparse-applicative",
@@ -1634,6 +1765,7 @@
         "index": {
           "description": "Add command to subparser option",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "command",
           "normalized": "String-\u003eParserInfo a-\u003eMod CommandFields a",
@@ -1649,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a list of possible completion values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "completeWith",
           "package": "optparse-applicative",
@@ -1659,6 +1792,7 @@
         "index": {
           "description": "Add list of possible completion values",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "completeWith",
           "normalized": "[String]-\u003eMod a b",
@@ -1675,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a completer to an argument.\n\u003c/p\u003e\u003cp\u003eA completer is a function String -\u003e IO String which, given a partial\n argument, returns all possible completions for that argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "completer",
           "package": "optparse-applicative",
@@ -1685,6 +1820,7 @@
         "index": {
           "description": "Add completer to an argument completer is function String IO String which given partial argument returns all possible completions for that argument",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "completer",
           "normalized": "Completer-\u003eMod a b",
@@ -1700,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e reader. All arguments will fail validation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "disabled",
           "package": "optparse-applicative",
@@ -1710,6 +1847,7 @@
         "index": {
           "description": "Null Option reader All arguments will fail validation",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "disabled",
           "normalized": "String-\u003ea b",
@@ -1724,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "disambiguate",
           "package": "optparse-applicative",
@@ -1733,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "disambiguate",
           "package": "optparse-applicative",
@@ -1746,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e reader as a function in the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "eitherReader",
           "package": "optparse-applicative",
@@ -1756,6 +1897,7 @@
         "index": {
           "description": "Specify the Option reader as function in the Either monad",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "eitherReader",
           "normalized": "(String-\u003eEither String a)-\u003eMod OptionFields a",
@@ -1772,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify an exit code if a parse error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "failureCode",
           "package": "optparse-applicative",
@@ -1782,6 +1925,7 @@
         "index": {
           "description": "Specify an exit code if parse error occurs",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "failureCode",
           "normalized": "Int-\u003eInfoMod a",
@@ -1798,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for a flag parser.\n\u003c/p\u003e\u003cp\u003eA flag that switches from a \"default value\" to an \"active value\" when\n encountered. For a simple boolean value, use \u003ccode\u003e\u003ca\u003eswitch\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "flag",
           "package": "optparse-applicative",
@@ -1807,6 +1952,7 @@
         "index": {
           "description": "Builder for flag parser flag that switches from default value to an active value when encountered For simple boolean value use switch instead",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "flag",
           "normalized": "a-\u003ea-\u003eMod FlagFields a-\u003eParser a",
@@ -1822,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for a flag parser without a default value.\n\u003c/p\u003e\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eflag\u003c/a\u003e\u003c/code\u003e, but with no default value. In particular, this flag will\n never parse successfully by itself.\n\u003c/p\u003e\u003cp\u003eIt still makes sense to use it as part of a composite parser. For example\n\u003c/p\u003e\u003cpre\u003e length \u003c$\u003e many (flag' () (short 't'))\n\u003c/pre\u003e\u003cp\u003eis a parser that counts the number of \u003ca\u003e-t\u003c/a\u003e arguments on the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "flag'",
           "package": "optparse-applicative",
@@ -1831,6 +1978,7 @@
         "index": {
           "description": "Builder for flag parser without default value Same as flag but with no default value In particular this flag will never parse successfully by itself It still makes sense to use it as part of composite parser For example length many flag short is parser that counts the number of arguments on the command line",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "flag'",
           "normalized": "a-\u003eMod FlagFields a-\u003eParser a",
@@ -1846,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a footer for this parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "footer",
           "package": "optparse-applicative",
@@ -1856,6 +2005,7 @@
         "index": {
           "description": "Specify footer for this parser",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "footer",
           "normalized": "String-\u003eInfoMod a",
@@ -1871,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a full description in the help text of this parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "fullDesc",
           "package": "optparse-applicative",
@@ -1881,6 +2032,7 @@
         "index": {
           "description": "Show full description in the help text of this parser",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "fullDesc",
           "package": "optparse-applicative",
@@ -1895,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a header for this parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "header",
           "package": "optparse-applicative",
@@ -1905,6 +2058,7 @@
         "index": {
           "description": "Specify header for this parser",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "header",
           "normalized": "String-\u003eInfoMod a",
@@ -1920,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the help text for an option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "help",
           "package": "optparse-applicative",
@@ -1930,6 +2085,7 @@
         "index": {
           "description": "Specify the help text for an option",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "help",
           "normalized": "String-\u003eMod a b",
@@ -1945,6 +2101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHide this option from the brief description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "hidden",
           "package": "optparse-applicative",
@@ -1955,6 +2112,7 @@
         "index": {
           "description": "Hide this option from the brief description",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "hidden",
           "package": "optparse-applicative",
@@ -1968,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrivial option modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "idm",
           "package": "optparse-applicative",
@@ -1978,6 +2137,7 @@
         "index": {
           "description": "Trivial option modifier",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "idm",
           "package": "optparse-applicative",
@@ -1991,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eParserInfo\u003c/a\u003e\u003c/code\u003e given a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e and a modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "info",
           "package": "optparse-applicative",
@@ -2001,6 +2162,7 @@
         "index": {
           "description": "Create ParserInfo given Parser and modifier",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "info",
           "normalized": "Parser a-\u003eInfoMod a-\u003eParserInfo a",
@@ -2016,6 +2178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn option that always fails and displays a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "infoOption",
           "package": "optparse-applicative",
@@ -2026,6 +2189,7 @@
         "index": {
           "description": "An option that always fails and displays message",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "infoOption",
           "normalized": "String-\u003eMod OptionFields(a-\u003ea)-\u003eParser(a-\u003ea)",
@@ -2042,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a long name for an option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "long",
           "package": "optparse-applicative",
@@ -2052,6 +2217,7 @@
         "index": {
           "description": "Specify long name for an option",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "long",
           "normalized": "String-\u003eMod a b",
@@ -2067,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "mappend",
           "package": "optparse-applicative",
@@ -2076,6 +2243,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -2091,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the metavariable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "metavar",
           "package": "optparse-applicative",
@@ -2101,6 +2270,7 @@
         "index": {
           "description": "Specify the metavariable",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "metavar",
           "normalized": "String-\u003eMod a b",
@@ -2115,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "multiSuffix",
           "package": "optparse-applicative",
@@ -2124,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "multiSuffix",
           "normalized": "String-\u003ePrefsMod",
@@ -2140,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the error to display when no argument is provided to this option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "noArgError",
           "package": "optparse-applicative",
@@ -2150,6 +2323,7 @@
         "index": {
           "description": "Specify the error to display when no argument is provided to this option",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "noArgError",
           "normalized": "ParseError-\u003eMod OptionFields a",
@@ -2165,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "noBacktrack",
           "package": "optparse-applicative",
@@ -2174,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "noBacktrack",
           "package": "optparse-applicative",
@@ -2187,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "noIntersperse",
           "package": "optparse-applicative",
@@ -2196,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "noIntersperse",
           "package": "optparse-applicative",
@@ -2210,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for an option with a null reader. A non-trivial reader can be\n added using the \u003ccode\u003e\u003ca\u003ereader\u003c/a\u003e\u003c/code\u003e modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "nullOption",
           "package": "optparse-applicative",
@@ -2220,6 +2399,7 @@
         "index": {
           "description": "Builder for an option with null reader non-trivial reader can be added using the reader modifier",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "nullOption",
           "normalized": "Mod OptionFields a-\u003eParser a",
@@ -2236,6 +2416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for an option using the \u003ccode\u003e\u003ca\u003eauto\u003c/a\u003e\u003c/code\u003e reader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "option",
           "package": "optparse-applicative",
@@ -2246,6 +2427,7 @@
         "index": {
           "description": "Builder for an option using the auto reader",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "option",
           "normalized": "Mod OptionFields a-\u003eParser a",
@@ -2260,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "prefs",
           "package": "optparse-applicative",
@@ -2269,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "prefs",
           "normalized": "PrefsMod-\u003eParserPrefs",
@@ -2284,6 +2468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a short program description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "progDesc",
           "package": "optparse-applicative",
@@ -2294,6 +2479,7 @@
         "index": {
           "description": "Specify short program description",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "progDesc",
           "normalized": "String-\u003eInfoMod a",
@@ -2310,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e reader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "reader",
           "package": "optparse-applicative",
@@ -2320,6 +2507,7 @@
         "index": {
           "description": "Specify the Option reader",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "reader",
           "normalized": "(String-\u003eReadM a)-\u003eMod OptionFields a",
@@ -2389,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a short name for an option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "short",
           "package": "optparse-applicative",
@@ -2399,6 +2588,7 @@
         "index": {
           "description": "Specify short name for an option",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "short",
           "normalized": "Char-\u003eMod a b",
@@ -2414,6 +2604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the default value for this option using its \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "showDefault",
           "package": "optparse-applicative",
@@ -2424,6 +2615,7 @@
         "index": {
           "description": "Show the default value for this option using its Show instance",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "showDefault",
           "package": "optparse-applicative",
@@ -2438,6 +2630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a function to show the default value for an option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "showDefaultWith",
           "package": "optparse-applicative",
@@ -2448,6 +2641,7 @@
         "index": {
           "description": "Specify function to show the default value for an option",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "showDefaultWith",
           "normalized": "(a-\u003eString)-\u003eMod b a",
@@ -2463,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "showHelpOnError",
           "package": "optparse-applicative",
@@ -2472,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "showHelpOnError",
           "package": "optparse-applicative",
@@ -2486,6 +2682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e reader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "str",
           "package": "optparse-applicative",
@@ -2496,6 +2693,7 @@
         "index": {
           "description": "String Option reader",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "str",
           "normalized": "String-\u003ea String",
@@ -2511,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for an option taking a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "strOption",
           "package": "optparse-applicative",
@@ -2521,6 +2720,7 @@
         "index": {
           "description": "Builder for an option taking String argument",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "strOption",
           "normalized": "Mod OptionFields String-\u003eParser String",
@@ -2537,6 +2737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for a command parser. The \u003ccode\u003e\u003ca\u003ecommand\u003c/a\u003e\u003c/code\u003e modifier can be used to\n specify individual commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "subparser",
           "package": "optparse-applicative",
@@ -2547,6 +2748,7 @@
         "index": {
           "description": "Builder for command parser The command modifier can be used to specify individual commands",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "subparser",
           "normalized": "Mod CommandFields a-\u003eParser a",
@@ -2562,6 +2764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder for a boolean flag.\n\u003c/p\u003e\u003cpre\u003e switch = flag False True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "switch",
           "package": "optparse-applicative",
@@ -2572,6 +2775,7 @@
         "index": {
           "description": "Builder for boolean flag switch flag False True",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "switch",
           "normalized": "Mod FlagFields Bool-\u003eParser Bool",
@@ -2587,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify a default value for an option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Builder",
           "name": "value",
           "package": "optparse-applicative",
@@ -2597,6 +2802,7 @@
         "index": {
           "description": "Specify default value for an option",
           "hierarchy": "Options Applicative Builder",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Builder",
           "name": "value",
           "normalized": "a-\u003eMod b a",
@@ -2611,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "Common",
           "package": "optparse-applicative",
@@ -2619,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "Common",
           "package": "optparse-applicative",
@@ -2633,6 +2841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eParser a\u003c/code\u003e is an option parser returning a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "Parser",
           "package": "optparse-applicative",
@@ -2642,6 +2851,7 @@
         "index": {
           "description": "Parser is an option parser returning value of type",
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "Parser",
           "package": "optparse-applicative",
@@ -2656,6 +2866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA full description for a runnable \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e for a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "ParserInfo",
           "package": "optparse-applicative",
@@ -2665,6 +2876,7 @@
         "index": {
           "description": "full description for runnable Parser for program",
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "ParserInfo",
           "package": "optparse-applicative",
@@ -2702,6 +2914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value of a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.  This function returns an error if any of\n the options don't have a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "evalParser",
           "package": "optparse-applicative",
@@ -2712,6 +2925,7 @@
         "index": {
           "description": "The default value of Parser This function returns an error if any of the options don have default value",
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "evalParser",
           "normalized": "Parser a-\u003eMaybe a",
@@ -2878,6 +3092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a parser composed of a single option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "liftOpt",
           "package": "optparse-applicative",
@@ -2888,6 +3103,7 @@
         "index": {
           "description": "Create parser composed of single option",
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "liftOpt",
           "normalized": "Option a-\u003eParser a",
@@ -2904,6 +3120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a polymorphic function over all the options of a parser, and collect\n the results in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "mapParser",
           "package": "optparse-applicative",
@@ -2914,6 +3131,7 @@
         "index": {
           "description": "Map polymorphic function over all the options of parser and collect the results in list",
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "mapParser",
           "normalized": "(a b OptHelpInfo-\u003eOption c-\u003ed)-\u003eParser e-\u003e[d]",
@@ -2929,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "optionNames",
           "package": "optparse-applicative",
@@ -2938,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "optionNames",
           "normalized": "OptReader a-\u003e[OptName]",
@@ -2954,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e to a command line, and return a result and leftover\n arguments.  This function returns an error if any parsing error occurs, or\n if any options are missing and don't have a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "runParser",
           "package": "optparse-applicative",
@@ -2964,6 +3185,7 @@
         "index": {
           "description": "Apply Parser to command line and return result and leftover arguments This function returns an error if any parsing error occurs or if any options are missing and don have default value",
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "runParser",
           "normalized": "ArgPolicy-\u003eParser a-\u003eArgs-\u003eb(a,Args)",
@@ -2979,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "runParserFully",
           "package": "optparse-applicative",
@@ -2988,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "runParserFully",
           "normalized": "Parser a-\u003eArgs-\u003eb a",
@@ -3003,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "showOption",
           "package": "optparse-applicative",
@@ -3012,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "showOption",
           "normalized": "OptName-\u003eString",
@@ -3028,6 +3254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emapParser\u003c/a\u003e\u003c/code\u003e, but collect the results in a tree structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Common",
           "name": "treeMapParser",
           "package": "optparse-applicative",
@@ -3038,6 +3265,7 @@
         "index": {
           "description": "Like mapParser but collect the results in tree structure",
           "hierarchy": "Options Applicative Common",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Common",
           "name": "treeMapParser",
           "normalized": "(a b OptHelpInfo-\u003eOption c-\u003ed)-\u003eParser e-\u003eOptTree d",
@@ -3053,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "Extra",
           "package": "optparse-applicative",
@@ -3061,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "Extra",
           "package": "optparse-applicative",
@@ -3075,6 +3305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult after a parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "ParserFailure",
           "package": "optparse-applicative",
@@ -3084,6 +3315,7 @@
         "index": {
           "description": "Result after parse error",
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "ParserFailure",
           "package": "optparse-applicative",
@@ -3121,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a program description with custom preferences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "customExecParser",
           "package": "optparse-applicative",
@@ -3131,6 +3364,7 @@
         "index": {
           "description": "Run program description with custom preferences",
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "customExecParser",
           "normalized": "ParserPrefs-\u003eParserInfo a-\u003eIO a",
@@ -3147,6 +3381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a program description with custom preferences in pure code.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eexecParserMaybe\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "customExecParserMaybe",
           "package": "optparse-applicative",
@@ -3157,6 +3392,7 @@
         "index": {
           "description": "Run program description with custom preferences in pure code See execParserMaybe for details",
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "customExecParserMaybe",
           "normalized": "ParserPrefs-\u003eParserInfo a-\u003e[String]-\u003eMaybe a",
@@ -3225,6 +3461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a program description.\n\u003c/p\u003e\u003cp\u003eParse command line arguments. Display help text and exit if any parse error\n occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "execParser",
           "package": "optparse-applicative",
@@ -3235,6 +3472,7 @@
         "index": {
           "description": "Run program description Parse command line arguments Display help text and exit if any parse error occurs",
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "execParser",
           "normalized": "ParserInfo a-\u003eIO a",
@@ -3251,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a program description in pure code.\n\u003c/p\u003e\u003cp\u003eThis function behaves like \u003ccode\u003e\u003ca\u003eexecParser\u003c/a\u003e\u003c/code\u003e, but can be called from pure code.\n Note that, in case of errors, no message is displayed, and this function\n simply returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you need to keep track of error messages, use \u003ccode\u003e\u003ca\u003eexecParserPure\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "execParserMaybe",
           "package": "optparse-applicative",
@@ -3261,6 +3500,7 @@
         "index": {
           "description": "Run program description in pure code This function behaves like execParser but can be called from pure code Note that in case of errors no message is displayed and this function simply returns Nothing If you need to keep track of error messages use execParserPure instead",
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "execParserMaybe",
           "normalized": "ParserInfo a-\u003e[String]-\u003eMaybe a",
@@ -3277,6 +3517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general way to run a program description in pure code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "execParserPure",
           "package": "optparse-applicative",
@@ -3286,6 +3527,7 @@
         "index": {
           "description": "The most general way to run program description in pure code",
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "execParserPure",
           "normalized": "ParserPrefs-\u003eParserInfo a-\u003e[String]-\u003eEither ParserFailure a",
@@ -3302,6 +3544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hidden \"helper\" option which always fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "helper",
           "package": "optparse-applicative",
@@ -3312,6 +3555,7 @@
         "index": {
           "description": "hidden helper option which always fails",
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "helper",
           "normalized": "Parser(a-\u003ea)",
@@ -3326,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "hsubparser",
           "package": "optparse-applicative",
@@ -3335,6 +3580,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "hsubparser",
           "normalized": "Mod CommandFields a-\u003eParser a",
@@ -3350,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate option summary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Extra",
           "name": "usage",
           "package": "optparse-applicative",
@@ -3360,6 +3607,7 @@
         "index": {
           "description": "Generate option summary",
           "hierarchy": "Options Applicative Extra",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Extra",
           "name": "usage",
           "normalized": "ParserPrefs-\u003eParser a-\u003eString-\u003eString",
@@ -3374,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Help",
           "name": "Help",
           "package": "optparse-applicative",
@@ -3382,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Help",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Help",
           "name": "Help",
           "package": "optparse-applicative",
@@ -3396,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a brief help text for a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Help",
           "name": "briefDesc",
           "package": "optparse-applicative",
@@ -3406,6 +3657,7 @@
         "index": {
           "description": "Generate brief help text for parser",
           "hierarchy": "Options Applicative Help",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Help",
           "name": "briefDesc",
           "normalized": "ParserPrefs-\u003eParser a-\u003eString",
@@ -3422,6 +3674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate descriptions for commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Help",
           "name": "cmdDesc",
           "package": "optparse-applicative",
@@ -3432,6 +3685,7 @@
         "index": {
           "description": "Generate descriptions for commands",
           "hierarchy": "Options Applicative Help",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Help",
           "name": "cmdDesc",
           "normalized": "Parser a-\u003e[String]",
@@ -3448,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a full help text for a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Help",
           "name": "fullDesc",
           "package": "optparse-applicative",
@@ -3458,6 +3713,7 @@
         "index": {
           "description": "Generate full help text for parser",
           "hierarchy": "Options Applicative Help",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Help",
           "name": "fullDesc",
           "normalized": "ParserPrefs-\u003eParser a-\u003e[String]",
@@ -3474,6 +3730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the help text for a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Help",
           "name": "parserHelpText",
           "package": "optparse-applicative",
@@ -3484,6 +3741,7 @@
         "index": {
           "description": "Generate the help text for program",
           "hierarchy": "Options Applicative Help",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Help",
           "name": "parserHelpText",
           "normalized": "ParserPrefs-\u003eParserInfo a-\u003eString",
@@ -3499,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Types",
           "package": "optparse-applicative",
@@ -3507,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Types",
           "package": "optparse-applicative",
@@ -3520,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "CReader",
           "package": "optparse-applicative",
@@ -3528,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "CReader",
           "package": "optparse-applicative",
@@ -3541,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Completer",
           "package": "optparse-applicative",
@@ -3549,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Completer",
           "package": "optparse-applicative",
@@ -3562,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptHelpInfo",
           "package": "optparse-applicative",
@@ -3570,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptHelpInfo",
           "package": "optparse-applicative",
@@ -3583,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptName",
           "package": "optparse-applicative",
@@ -3591,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptName",
           "package": "optparse-applicative",
@@ -3605,6 +3873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification for an individual parser option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptProperties",
           "package": "optparse-applicative",
@@ -3614,6 +3883,7 @@
         "index": {
           "description": "Specification for an individual parser option",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptProperties",
           "package": "optparse-applicative",
@@ -3628,6 +3898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eOptReader\u003c/a\u003e\u003c/code\u003e defines whether an option matches an command line argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptReader",
           "package": "optparse-applicative",
@@ -3637,6 +3908,7 @@
         "index": {
           "description": "An OptReader defines whether an option matches an command line argument",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptReader",
           "package": "optparse-applicative",
@@ -3650,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptTree",
           "package": "optparse-applicative",
@@ -3658,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptTree",
           "package": "optparse-applicative",
@@ -3672,6 +3946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility of an option in the help text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptVisibility",
           "package": "optparse-applicative",
@@ -3681,6 +3956,7 @@
         "index": {
           "description": "Visibility of an option in the help text",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptVisibility",
           "package": "optparse-applicative",
@@ -3695,6 +3971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single option of a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Option",
           "package": "optparse-applicative",
@@ -3704,6 +3981,7 @@
         "index": {
           "description": "single option of parser",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Option",
           "package": "optparse-applicative",
@@ -3717,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ParseError",
           "package": "optparse-applicative",
@@ -3725,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ParseError",
           "package": "optparse-applicative",
@@ -3739,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eParser a\u003c/code\u003e is an option parser returning a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Parser",
           "package": "optparse-applicative",
@@ -3748,6 +4029,7 @@
         "index": {
           "description": "Parser is an option parser returning value of type",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Parser",
           "package": "optparse-applicative",
@@ -3762,6 +4044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult after a parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ParserFailure",
           "package": "optparse-applicative",
@@ -3771,6 +4054,7 @@
         "index": {
           "description": "Result after parse error",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ParserFailure",
           "package": "optparse-applicative",
@@ -3785,6 +4069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA full description for a runnable \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e for a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ParserInfo",
           "package": "optparse-applicative",
@@ -3794,6 +4079,7 @@
         "index": {
           "description": "full description for runnable Parser for program",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ParserInfo",
           "package": "optparse-applicative",
@@ -3807,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ParserM",
           "package": "optparse-applicative",
@@ -3815,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ParserM",
           "package": "optparse-applicative",
@@ -3829,6 +4117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal preferences for a top-level \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ParserPrefs",
           "package": "optparse-applicative",
@@ -3838,6 +4127,7 @@
         "index": {
           "description": "Global preferences for top-level Parser",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ParserPrefs",
           "package": "optparse-applicative",
@@ -3852,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype over the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e monad used by option readers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ReadM",
           "package": "optparse-applicative",
@@ -3861,6 +4152,7 @@
         "index": {
           "description": "newtype over the Either monad used by option readers",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ReadM",
           "package": "optparse-applicative",
@@ -3874,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "AltNode",
           "package": "optparse-applicative",
@@ -3883,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "AltNode",
           "normalized": "AltNode[OptTree a]",
@@ -3898,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "AltP",
           "package": "optparse-applicative",
@@ -3907,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "AltP",
           "normalized": "Parser a-\u003eParser a-\u003eParser a",
@@ -3923,6 +4219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eargument reader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ArgReader",
           "package": "optparse-applicative",
@@ -3933,6 +4230,7 @@
         "index": {
           "description": "argument reader",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ArgReader",
           "package": "optparse-applicative",
@@ -3946,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "BindP",
           "package": "optparse-applicative",
@@ -3955,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "BindP",
           "normalized": "Parser a-\u003e(a-\u003eParser b)-\u003eParser b",
@@ -3970,6 +4270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "CReader",
           "package": "optparse-applicative",
@@ -3979,6 +4280,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "CReader",
           "package": "optparse-applicative",
@@ -3993,6 +4295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommand reader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "CmdReader",
           "package": "optparse-applicative",
@@ -4003,6 +4306,7 @@
         "index": {
           "description": "command reader",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "CmdReader",
           "normalized": "CmdReader[String](String-\u003eMaybe(ParserInfo a))",
@@ -4018,6 +4322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Completer",
           "package": "optparse-applicative",
@@ -4027,6 +4332,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Completer",
           "package": "optparse-applicative",
@@ -4041,6 +4347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag reader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "FlagReader",
           "package": "optparse-applicative",
@@ -4051,6 +4358,7 @@
         "index": {
           "description": "flag reader",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "FlagReader",
           "normalized": "FlagReader[OptName]a",
@@ -4067,6 +4375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly visible in the full description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Hidden",
           "package": "optparse-applicative",
@@ -4077,6 +4386,7 @@
         "index": {
           "description": "only visible in the full description",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Hidden",
           "package": "optparse-applicative",
@@ -4091,6 +4401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoes not appear in the help text at all\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Internal",
           "package": "optparse-applicative",
@@ -4101,6 +4412,7 @@
         "index": {
           "description": "does not appear in the help text at all",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Internal",
           "package": "optparse-applicative",
@@ -4114,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Leaf",
           "package": "optparse-applicative",
@@ -4123,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Leaf",
           "package": "optparse-applicative",
@@ -4136,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "MultNode",
           "package": "optparse-applicative",
@@ -4145,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "MultNode",
           "normalized": "MultNode[OptTree a]",
@@ -4160,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "MultP",
           "package": "optparse-applicative",
@@ -4169,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "MultP",
           "normalized": "Parser(a-\u003eb)-\u003eParser a-\u003eParser b",
@@ -4184,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "NilP",
           "package": "optparse-applicative",
@@ -4193,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "NilP",
           "normalized": "Maybe a-\u003eParser a",
@@ -4208,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptHelpInfo",
           "package": "optparse-applicative",
@@ -4217,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptHelpInfo",
           "package": "optparse-applicative",
@@ -4230,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptLong",
           "package": "optparse-applicative",
@@ -4239,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptLong",
           "package": "optparse-applicative",
@@ -4252,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptP",
           "package": "optparse-applicative",
@@ -4261,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptP",
           "normalized": "Option a-\u003eParser a",
@@ -4276,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptProperties",
           "package": "optparse-applicative",
@@ -4285,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptProperties",
           "package": "optparse-applicative",
@@ -4299,6 +4627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoption reader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptReader",
           "package": "optparse-applicative",
@@ -4309,6 +4638,7 @@
         "index": {
           "description": "option reader",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptReader",
           "normalized": "OptReader[OptName](OptCReader a)ParseError",
@@ -4324,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "OptShort",
           "package": "optparse-applicative",
@@ -4333,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "OptShort",
           "package": "optparse-applicative",
@@ -4346,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Option",
           "package": "optparse-applicative",
@@ -4355,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Option",
           "package": "optparse-applicative",
@@ -4368,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ParserM",
           "package": "optparse-applicative",
@@ -4377,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ParserM",
           "package": "optparse-applicative",
@@ -4390,6 +4726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ParserPrefs",
           "package": "optparse-applicative",
@@ -4399,6 +4736,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ParserPrefs",
           "package": "optparse-applicative",
@@ -4412,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "ReadM",
           "package": "optparse-applicative",
@@ -4421,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "ReadM",
           "package": "optparse-applicative",
@@ -4435,6 +4775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evisible both in the full and brief descriptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "Visible",
           "package": "optparse-applicative",
@@ -4445,6 +4786,7 @@
         "index": {
           "description": "visible both in the full and brief descriptions",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "Visible",
           "package": "optparse-applicative",
@@ -4458,6 +4800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "crCompleter",
           "package": "optparse-applicative",
@@ -4467,6 +4810,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "crCompleter",
           "package": "optparse-applicative",
@@ -4480,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "crReader",
           "package": "optparse-applicative",
@@ -4489,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "crReader",
           "normalized": "String-\u003ea b",
@@ -4504,6 +4850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "fromM",
           "package": "optparse-applicative",
@@ -4513,6 +4860,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "fromM",
           "normalized": "ParserM a-\u003eParser a",
@@ -4527,6 +4875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "hinfoDefault",
           "package": "optparse-applicative",
@@ -4536,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "hinfoDefault",
           "package": "optparse-applicative",
@@ -4549,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "hinfoMulti",
           "package": "optparse-applicative",
@@ -4558,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "hinfoMulti",
           "package": "optparse-applicative",
@@ -4571,6 +4923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "manyM",
           "package": "optparse-applicative",
@@ -4580,6 +4933,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "manyM",
           "normalized": "Parser a-\u003eParserM[a]",
@@ -4594,6 +4948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "oneM",
           "package": "optparse-applicative",
@@ -4603,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "oneM",
           "normalized": "Parser a-\u003eParserM a",
@@ -4617,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "optHelp",
           "package": "optparse-applicative",
@@ -4626,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "optHelp",
           "normalized": "Option a-\u003eString",
@@ -4642,6 +5000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereader for this option\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "optMain",
           "package": "optparse-applicative",
@@ -4652,6 +5011,7 @@
         "index": {
           "description": "reader for this option",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "optMain",
           "package": "optparse-applicative",
@@ -4665,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "optMetaVar",
           "package": "optparse-applicative",
@@ -4674,6 +5035,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "optMetaVar",
           "normalized": "Option a-\u003eString",
@@ -4690,6 +5052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproperties of this option\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "optProps",
           "package": "optparse-applicative",
@@ -4700,6 +5063,7 @@
         "index": {
           "description": "properties of this option",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "optProps",
           "package": "optparse-applicative",
@@ -4713,6 +5077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "optShowDefault",
           "package": "optparse-applicative",
@@ -4722,6 +5087,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "optShowDefault",
           "normalized": "Option a-\u003eMaybe String",
@@ -4737,6 +5103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "optVisibility",
           "package": "optparse-applicative",
@@ -4746,6 +5113,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "optVisibility",
           "normalized": "Option a-\u003eOptVisibility",
@@ -4762,6 +5130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebacktrack to parent parser when a\n subcommand fails (default: True)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "prefBacktrack",
           "package": "optparse-applicative",
@@ -4772,6 +5141,7 @@
         "index": {
           "description": "backtrack to parent parser when subcommand fails default True",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "prefBacktrack",
           "package": "optparse-applicative",
@@ -4786,6 +5156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eautomatically disambiguate abbreviations\n (default: False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "prefDisambiguate",
           "package": "optparse-applicative",
@@ -4796,6 +5167,7 @@
         "index": {
           "description": "automatically disambiguate abbreviations default False",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "prefDisambiguate",
           "package": "optparse-applicative",
@@ -4810,6 +5182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallow regular options and flags to occur\n after arguments (default: True)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "prefIntersperse",
           "package": "optparse-applicative",
@@ -4820,6 +5193,7 @@
         "index": {
           "description": "allow regular options and flags to occur after arguments default True",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "prefIntersperse",
           "package": "optparse-applicative",
@@ -4834,6 +5208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emetavar suffix for multiple options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "prefMultiSuffix",
           "package": "optparse-applicative",
@@ -4844,6 +5219,7 @@
         "index": {
           "description": "metavar suffix for multiple options",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "prefMultiSuffix",
           "package": "optparse-applicative",
@@ -4858,6 +5234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealways show help text on parse errors\n (default: False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "prefShowHelpOnError",
           "package": "optparse-applicative",
@@ -4868,6 +5245,7 @@
         "index": {
           "description": "always show help text on parse errors default False",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "prefShowHelpOnError",
           "package": "optparse-applicative",
@@ -4882,6 +5260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehelp text for this option\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "propHelp",
           "package": "optparse-applicative",
@@ -4892,6 +5271,7 @@
         "index": {
           "description": "help text for this option",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "propHelp",
           "package": "optparse-applicative",
@@ -4906,6 +5286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emetavariable for this option\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "propMetaVar",
           "package": "optparse-applicative",
@@ -4916,6 +5297,7 @@
         "index": {
           "description": "metavariable for this option",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "propMetaVar",
           "package": "optparse-applicative",
@@ -4930,6 +5312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat to show in the help text as the default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "propShowDefault",
           "package": "optparse-applicative",
@@ -4940,6 +5323,7 @@
         "index": {
           "description": "what to show in the help text as the default",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "propShowDefault",
           "package": "optparse-applicative",
@@ -4954,6 +5338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether this flag is shown is the brief description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "propVisibility",
           "package": "optparse-applicative",
@@ -4964,6 +5349,7 @@
         "index": {
           "description": "whether this flag is shown is the brief description",
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "propVisibility",
           "package": "optparse-applicative",
@@ -4977,6 +5363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "runCompleter",
           "package": "optparse-applicative",
@@ -4986,6 +5373,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "runCompleter",
           "normalized": "String-\u003eIO[String]",
@@ -5001,6 +5389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "runParserM",
           "package": "optparse-applicative",
@@ -5010,6 +5399,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "runParserM",
           "normalized": "a b(c-\u003eParser d)-\u003eParser d",
@@ -5025,6 +5415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "runReadM",
           "package": "optparse-applicative",
@@ -5034,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "runReadM",
           "package": "optparse-applicative",
@@ -5047,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Types",
           "name": "someM",
           "package": "optparse-applicative",
@@ -5056,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Types",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Types",
           "name": "someM",
           "normalized": "Parser a-\u003eParserM[a]",
@@ -5070,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Utils",
           "name": "Utils",
           "package": "optparse-applicative",
@@ -5078,6 +5473,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative Utils",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Utils",
           "name": "Utils",
           "package": "optparse-applicative",
@@ -5092,6 +5488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate two strings with a space in the middle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Utils",
           "name": "(\u003c+\u003e)",
           "package": "optparse-applicative",
@@ -5102,6 +5499,7 @@
         "index": {
           "description": "Concatenate two strings with space in the middle",
           "hierarchy": "Options Applicative Utils",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Utils",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "String-\u003eString-\u003eString",
@@ -5117,6 +5515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad a string to a fixed size with whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Utils",
           "name": "pad",
           "package": "optparse-applicative",
@@ -5127,6 +5526,7 @@
         "index": {
           "description": "Pad string to fixed size with whitespace",
           "hierarchy": "Options Applicative Utils",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Utils",
           "name": "pad",
           "normalized": "Int-\u003eString-\u003eString",
@@ -5142,6 +5542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay pairs of strings in a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Utils",
           "name": "tabulate",
           "package": "optparse-applicative",
@@ -5152,6 +5553,7 @@
         "index": {
           "description": "Display pairs of strings in table",
           "hierarchy": "Options Applicative Utils",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Utils",
           "name": "tabulate",
           "normalized": "[(String,String)]-\u003e[String]",
@@ -5167,6 +5569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate strings vertically with empty lines in between.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative.Utils",
           "name": "vcat",
           "package": "optparse-applicative",
@@ -5177,6 +5580,7 @@
         "index": {
           "description": "Concatenate strings vertically with empty lines in between",
           "hierarchy": "Options Applicative Utils",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative.Utils",
           "name": "vcat",
           "normalized": "[String]-\u003eString",
@@ -5191,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:49 UTC 2014",
           "module": "Options.Applicative",
           "name": "Applicative",
           "package": "optparse-applicative",
@@ -5199,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "Options Applicative",
+          "indexed": "2014-03-11T19:32:49",
           "module": "Options.Applicative",
           "name": "Applicative",
           "package": "optparse-applicative",

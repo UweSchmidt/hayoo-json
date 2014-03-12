@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Omega"
+        "phrase": "Omega",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExpressions are the high-level interface for creating Presburger\n formulae.  As in Presburger arithmetic, expressions can\n represent addition, subtraction, quantification, inequalities, and boolean\n operators.\n\u003c/p\u003e\u003cp\u003eExpressions allow formulas to be input in a freeform manner.  When\n converted to a formula with \u003ccode\u003e\u003ca\u003eexpToFormula\u003c/a\u003e\u003c/code\u003e, they will be simplified to a\n form that the underlying library can use.\n Multplication is unrestricted; however, if an\n expression involves the product of two non-constant terms, it cannot be\n converted to a formula.\n\u003c/p\u003e\u003cp\u003eThis module handles expressions and converts them to formulas.\n Sets and relations are managed by the \u003ca\u003eData.Presburger.Omega.Set\u003c/a\u003e\n and \u003ca\u003eData.Presburger.Omega.Rel\u003c/a\u003e modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Expr",
           "package": "Omega",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Expressions are the high-level interface for creating Presburger formulae As in Presburger arithmetic expressions can represent addition subtraction quantification inequalities and boolean operators Expressions allow formulas to be input in freeform manner When converted to formula with expToFormula they will be simplified to form that the underlying library can use Multplication is unrestricted however if an expression involves the product of two non-constant terms it cannot be converted to formula This module handles expressions and converts them to formulas Sets and relations are managed by the Data.Presburger.Omega.Set and Data.Presburger.Omega.Rel modules",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Expr",
           "package": "Omega",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "BoolExp",
           "package": "Omega",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "BoolExp",
           "package": "Omega",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "BoolExpr",
           "package": "Omega",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "BoolExpr",
           "package": "Omega",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger and boolean-valued expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Exp",
           "package": "Omega",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Integer and boolean-valued expressions",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Exp",
           "package": "Omega",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe internal representation of expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Expr",
           "package": "Omega",
@@ -116,6 +125,7 @@
         "index": {
           "description": "The internal representation of expressions",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Expr",
           "package": "Omega",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "IntExp",
           "package": "Omega",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "IntExp",
           "package": "Omega",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "IntExpr",
           "package": "Omega",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "IntExpr",
           "package": "Omega",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate on an integer expresion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "PredOp",
           "package": "Omega",
@@ -181,6 +196,7 @@
         "index": {
           "description": "predicate on an integer expresion",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "PredOp",
           "package": "Omega",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Quantifier",
           "package": "Omega",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Quantifier",
           "package": "Omega",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables.  Variables are represented internally by de Bruijn indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Var",
           "package": "Omega",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Variables Variables are represented internally by de Bruijn indices",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Var",
           "package": "Omega",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|&&|)",
           "package": "Omega",
@@ -249,6 +270,7 @@
         "index": {
           "description": "Conjunction",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|&&|) |&&|",
           "normalized": "BoolExp-\u003eBoolExp-\u003eBoolExp",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|*|)",
           "package": "Omega",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Multiply",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|*|) |*|",
           "normalized": "IntExp-\u003eIntExp-\u003eIntExp",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|+|)",
           "package": "Omega",
@@ -299,6 +324,7 @@
         "index": {
           "description": "Add",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|+|) |+|",
           "normalized": "IntExp-\u003eIntExp-\u003eIntExp",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|-|)",
           "package": "Omega",
@@ -324,6 +351,7 @@
         "index": {
           "description": "Subtract",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|-|) |-|",
           "normalized": "IntExp-\u003eIntExp-\u003eIntExp",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInequality test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|/=|)",
           "package": "Omega",
@@ -349,6 +378,7 @@
         "index": {
           "description": "Inequality test",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|/=|) |/=|",
           "normalized": "IntExp-\u003eIntExp-\u003eBoolExp",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|\u003c|)",
           "package": "Omega",
@@ -374,6 +405,7 @@
         "index": {
           "description": "Less than",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|\u003c|) |\u003c|",
           "normalized": "IntExp-\u003eIntExp-\u003eBoolExp",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|\u003c=|)",
           "package": "Omega",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Less than or equal",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|\u003c=|) |\u003c=|",
           "normalized": "IntExp-\u003eIntExp-\u003eBoolExp",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|==|)",
           "package": "Omega",
@@ -424,6 +459,7 @@
         "index": {
           "description": "Equality test",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|==|) |==|",
           "normalized": "IntExp-\u003eIntExp-\u003eBoolExp",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|\u003e|)",
           "package": "Omega",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Greater than",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|\u003e|) |\u003e|",
           "normalized": "IntExp-\u003eIntExp-\u003eBoolExp",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|\u003e=|)",
           "package": "Omega",
@@ -474,6 +513,7 @@
         "index": {
           "description": "Greater than or equal",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(|\u003e=|) |\u003e=|",
           "normalized": "IntExp-\u003eIntExp-\u003eBoolExp",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply by an integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(*|)",
           "package": "Omega",
@@ -499,6 +540,7 @@
         "index": {
           "description": "Multiply by an integer",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "(*|) *|",
           "normalized": "Int-\u003eIntExp-\u003eIntExp",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Exists",
           "package": "Omega",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Exists",
           "package": "Omega",
@@ -535,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Forall",
           "package": "Omega",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "Forall",
           "package": "Omega",
@@ -557,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "IsGEZ",
           "package": "Omega",
@@ -566,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "IsGEZ",
           "package": "Omega",
@@ -579,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "IsZero",
           "package": "Omega",
@@ -588,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "IsZero",
           "package": "Omega",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust bound variable bindings by adding an offset to all bound variable\n indices beyond a given level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "adjustBindings",
           "package": "Omega",
@@ -611,6 +662,7 @@
         "index": {
           "description": "Adjust bound variable bindings by adding an offset to all bound variable indices beyond given level",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "adjustBindings",
           "normalized": "Int-\u003eInt-\u003eExp a-\u003eExp a",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "boolE",
           "package": "Omega",
@@ -635,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "boolE",
           "normalized": "Bool-\u003eBoolExp",
@@ -650,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "conjE",
           "package": "Omega",
@@ -660,6 +715,7 @@
         "index": {
           "description": "Conjunction",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "conjE",
           "normalized": "[BoolExp]-\u003eBoolExp",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "conjExpr",
           "package": "Omega",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "conjExpr",
           "normalized": "[BoolExpr]-\u003eBoolExpr",
@@ -699,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "disjE",
           "package": "Omega",
@@ -709,6 +768,7 @@
         "index": {
           "description": "Disjunction",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "disjE",
           "normalized": "[BoolExp]-\u003eBoolExp",
@@ -723,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "disjExpr",
           "package": "Omega",
@@ -732,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "disjExpr",
           "normalized": "[BoolExpr]-\u003eBoolExpr",
@@ -748,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an existentially quantified formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "existsE",
           "package": "Omega",
@@ -758,6 +821,7 @@
         "index": {
           "description": "Build an existentially quantified formula",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "existsE",
           "normalized": "(Var-\u003eBoolExp)-\u003eBoolExp",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "existsExpr",
           "package": "Omega",
@@ -781,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "existsExpr",
           "normalized": "BoolExpr-\u003eBoolExpr",
@@ -797,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecide whether two expressions are syntactically equal, modulo\n commutativity, associativity, and alpha-renaming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "expEqual",
           "package": "Omega",
@@ -807,6 +874,7 @@
         "index": {
           "description": "Decide whether two expressions are syntactically equal modulo commutativity associativity and alpha-renaming",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "expEqual",
           "normalized": "Expr a-\u003eExpr a-\u003eBool",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a boolean expression to a formula.\n\u003c/p\u003e\u003cp\u003eThe expression must be a Presburger formula.  In particular, if an\n expression involves the product of two non-constant terms, it cannot be\n converted to a formula.  The library\n internally simplifies expressions to sum-of-products form, so complex\n expressions are valid as long as each simplified product has at most\n one variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "expToFormula",
           "package": "Omega",
@@ -832,6 +901,7 @@
         "index": {
           "description": "Convert boolean expression to formula The expression must be Presburger formula In particular if an expression involves the product of two non-constant terms it cannot be converted to formula The library internally simplifies expressions to sum-of-products form so complex expressions are valid as long as each simplified product has at most one variable",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "expToFormula",
           "normalized": "[VarHandle]-\u003eBoolExp-\u003eFormula",
@@ -847,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "falseE",
           "package": "Omega",
@@ -856,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "falseE",
           "package": "Omega",
@@ -869,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce a boolean expression to a value.  Values for free variables\n are provided explicitly in an environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "foldBoolExp",
           "package": "Omega",
@@ -878,6 +951,7 @@
         "index": {
           "description": "Reduce boolean expression to value Values for free variables are provided explicitly in an environment",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "foldBoolExp",
           "normalized": "(Int-\u003e[a]-\u003ea)-\u003e(Int-\u003e[a]-\u003ea)-\u003e(Int-\u003ea)-\u003e([b]-\u003eb)-\u003e([b]-\u003eb)-\u003e(b-\u003eb)-\u003e(Quantifier-\u003e(a-\u003eb)-\u003eb)-\u003e(PredOp-\u003ea-\u003eb)-\u003eb-\u003eb-\u003e[a]-\u003eBoolExp-\u003eb",
@@ -894,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce an integer expression to a value.  Values for free variables\n are provided explicitly in an environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "foldIntExp",
           "package": "Omega",
@@ -903,6 +978,7 @@
         "index": {
           "description": "Reduce an integer expression to value Values for free variables are provided explicitly in an environment",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "foldIntExp",
           "normalized": "(Int-\u003e[a]-\u003ea)-\u003e(Int-\u003e[a]-\u003ea)-\u003e(Int-\u003ea)-\u003e[a]-\u003eIntExp-\u003ea",
@@ -919,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a universally quantified formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "forallE",
           "package": "Omega",
@@ -929,6 +1006,7 @@
         "index": {
           "description": "Build universally quantified formula",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "forallE",
           "normalized": "(Var-\u003eBoolExp)-\u003eBoolExp",
@@ -943,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "intE",
           "package": "Omega",
@@ -952,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "intE",
           "normalized": "Int-\u003eIntExp",
@@ -967,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether an integer expression is nonnegative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "isNonnegativeE",
           "package": "Omega",
@@ -977,6 +1058,7 @@
         "index": {
           "description": "Test whether an integer expression is nonnegative",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "isNonnegativeE",
           "normalized": "IntExp-\u003eBoolExp",
@@ -993,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether an integer expression is zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "isZeroE",
           "package": "Omega",
@@ -1003,6 +1086,7 @@
         "index": {
           "description": "Test whether an integer expression is zero",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "isZeroE",
           "normalized": "IntExp-\u003eBoolExp",
@@ -1019,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication by -1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "negateE",
           "package": "Omega",
@@ -1029,6 +1114,7 @@
         "index": {
           "description": "Multiplication by",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "negateE",
           "normalized": "IntExp-\u003eIntExp",
@@ -1044,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical negation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "notE",
           "package": "Omega",
@@ -1054,6 +1141,7 @@
         "index": {
           "description": "Logical negation",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "notE",
           "normalized": "BoolExp-\u003eBoolExp",
@@ -1068,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "nthVarE",
           "package": "Omega",
@@ -1077,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "nthVarE",
           "normalized": "Int-\u003eIntExp",
@@ -1093,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce the Nth bound variable.  Zero is the innermost variable index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "nthVariable",
           "package": "Omega",
@@ -1103,6 +1194,7 @@
         "index": {
           "description": "Produce the Nth bound variable Zero is the innermost variable index",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "nthVariable",
           "normalized": "Int-\u003eVar",
@@ -1119,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "prodE",
           "package": "Omega",
@@ -1129,6 +1222,7 @@
         "index": {
           "description": "Multiplication",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "prodE",
           "normalized": "[IntExp]-\u003eIntExp",
@@ -1144,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute a single variable in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "rename",
           "package": "Omega",
@@ -1153,6 +1248,7 @@
         "index": {
           "description": "Substitute single variable in an expression",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "rename",
           "normalized": "Var-\u003eVar-\u003eExp a-\u003eExp a",
@@ -1168,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "sumE",
           "package": "Omega",
@@ -1178,6 +1275,7 @@
         "index": {
           "description": "Summation",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "sumE",
           "normalized": "[IntExp]-\u003eIntExp",
@@ -1193,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sum of products expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "sumOfProductsE",
           "package": "Omega",
@@ -1202,6 +1301,7 @@
         "index": {
           "description": "Create sum of products expression",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "sumOfProductsE",
           "normalized": "Int-\u003e[(Int,[Var])]-\u003eIntExp",
@@ -1217,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "sumOfProductsExpr",
           "package": "Omega",
@@ -1225,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "sumOfProductsExpr",
           "normalized": "Int-\u003e[(Int,[Var])]-\u003eIntExpr",
@@ -1241,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a set of variables to use as free variables in an expression.\n This produces the list \u003ccode\u003e[nthVariable 0, nthVariable 1, ...]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "takeFreeVariables",
           "package": "Omega",
@@ -1251,6 +1354,7 @@
         "index": {
           "description": "Produce set of variables to use as free variables in an expression This produces the list nthVariable nthVariable",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "takeFreeVariables",
           "normalized": "Int-\u003e[Var]",
@@ -1267,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etakeFreeVariables\u003c/a\u003e\u003c/code\u003e, but produce the expression corresponding to\n each variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "takeFreeVariables'",
           "package": "Omega",
@@ -1277,6 +1382,7 @@
         "index": {
           "description": "Like takeFreeVariables but produce the expression corresponding to each variable",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "takeFreeVariables'",
           "normalized": "Int-\u003e[IntExp]",
@@ -1292,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "testExpr",
           "package": "Omega",
@@ -1301,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "testExpr",
           "normalized": "PredOp-\u003eIntExpr-\u003eBoolExpr",
@@ -1316,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "trueE",
           "package": "Omega",
@@ -1325,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "trueE",
           "package": "Omega",
@@ -1337,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "varE",
           "package": "Omega",
@@ -1346,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "varE",
           "normalized": "Var-\u003eIntExp",
@@ -1360,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "varExpr",
           "package": "Omega",
@@ -1369,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "varExpr",
           "normalized": "Var-\u003eIntExpr",
@@ -1385,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the expression has no more than the specified number\n of free variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "variablesWithinRange",
           "package": "Omega",
@@ -1395,6 +1510,7 @@
         "index": {
           "description": "True if the expression has no more than the specified number of free variables",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "variablesWithinRange",
           "normalized": "Int-\u003eExp a-\u003eBool",
@@ -1411,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "wrapExpr",
           "package": "Omega",
@@ -1421,6 +1538,7 @@
         "index": {
           "description": "Wrap an expression",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "wrapExpr",
           "normalized": "Expr a-\u003eExp a",
@@ -1437,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an expression that is known to be in simplified form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Expr",
           "name": "wrapSimplifiedExpr",
           "package": "Omega",
@@ -1447,6 +1566,7 @@
         "index": {
           "description": "Wrap an expression that is known to be in simplified form",
           "hierarchy": "Data Presburger Omega Expr",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Expr",
           "name": "wrapSimplifiedExpr",
           "normalized": "Expr a-\u003eExp a",
@@ -1463,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a low-level interface for creating,\n manipulating, and querying Presburger arithmetic formulae.\n The real work is done by the C++ Omega library\n (\u003ca\u003ehttp://github.com/davewathaverford/the-omega-project\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThe main data types are \u003ccode\u003e\u003ca\u003eOmegaSet\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOmegaRel\u003c/a\u003e\u003c/code\u003e, which use a formula\n to define a set or relation, respectively, on integer-valued points in\n Cartesian space.\n A typical use involves creating a Presburger arithmetic \u003ccode\u003e\u003ca\u003eFormula\u003c/a\u003e\u003c/code\u003e, using\n it to create a set or relation, and then querying the set or relation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "LowLevel",
           "package": "Omega",
@@ -1472,6 +1593,7 @@
         "index": {
           "description": "This module provides low-level interface for creating manipulating and querying Presburger arithmetic formulae The real work is done by the Omega library http github.com davewathaverford the-omega-project The main data types are OmegaSet and OmegaRel which use formula to define set or relation respectively on integer-valued points in Cartesian space typical use involves creating Presburger arithmetic Formula using it to create set or relation and then querying the set or relation",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "LowLevel",
           "package": "Omega",
@@ -1486,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integer-valued term \u003ccode\u003en*v\u003c/code\u003e in a formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Coefficient",
           "package": "Omega",
@@ -1495,6 +1618,7 @@
         "index": {
           "description": "An integer-valued term in formula",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Coefficient",
           "package": "Omega",
@@ -1509,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egist\u003c/a\u003e\u003c/code\u003e routine takes a parameter specifying how much effort to\n put into generating a good result.  Higher effort takes more time.\n It's unspecified what a given effort level does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Effort",
           "package": "Omega",
@@ -1518,6 +1643,7 @@
         "index": {
           "description": "The gist routine takes parameter specifying how much effort to put into generating good result Higher effort takes more time It unspecified what given effort level does",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Effort",
           "package": "Omega",
@@ -1532,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA boolean-valued Presburger formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Formula",
           "package": "Omega",
@@ -1541,6 +1668,7 @@
         "index": {
           "description": "boolean-valued Presburger formula",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Formula",
           "package": "Omega",
@@ -1555,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation from points in a \u003cem\u003edomain\u003c/em\u003e Z^m\n to points in a \u003cem\u003erange\u003c/em\u003e Z^n.\n This is a wrapper around the Omega library's Relation type.\n\u003c/p\u003e\u003cp\u003eA relation can be considered as just a set of points in Z^(m+n).\n However, many routines treat the domain and range differently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "OmegaRel",
           "package": "Omega",
@@ -1564,6 +1693,7 @@
         "index": {
           "description": "relation from points in domain to points in range This is wrapper around the Omega library Relation type relation can be considered as just set of points in However many routines treat the domain and range differently",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "OmegaRel",
           "package": "Omega",
@@ -1578,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of points in Z^n.\n This is a wrapper around the Omega library's Relation type.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "OmegaSet",
           "package": "Omega",
@@ -1587,6 +1718,7 @@
         "index": {
           "description": "set of points in This is wrapper around the Omega library Relation type",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "OmegaSet",
           "package": "Omega",
@@ -1601,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData types containing Presburger formulae.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Presburger",
           "package": "Omega",
@@ -1610,6 +1743,7 @@
         "index": {
           "description": "Data types containing Presburger formulae",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Presburger",
           "package": "Omega",
@@ -1624,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable in a formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "VarHandle",
           "package": "Omega",
@@ -1633,6 +1768,7 @@
         "index": {
           "description": "variable in formula",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "VarHandle",
           "package": "Omega",
@@ -1646,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Coefficient",
           "package": "Omega",
@@ -1655,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "Coefficient",
           "package": "Omega",
@@ -1738,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate a set or relation by allowing all existentially quantified\n variables to take on rational values.  This allows these variables to be\n eliminated from the formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "approximate",
           "package": "Omega",
@@ -1748,6 +1887,7 @@
         "index": {
           "description": "Approximate set or relation by allowing all existentially quantified variables to take on rational values This allows these variables to be eliminated from the formula",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "approximate",
           "normalized": "a-\u003eIO a",
@@ -1762,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "coeffValue",
           "package": "Omega",
@@ -1771,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "coeffValue",
           "package": "Omega",
@@ -1784,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "coeffVar",
           "package": "Omega",
@@ -1793,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "coeffVar",
           "package": "Omega",
@@ -1807,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the complement of a set or relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "complement",
           "package": "Omega",
@@ -1817,6 +1962,7 @@
         "index": {
           "description": "Get the complement of set or relation",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "complement",
           "normalized": "a-\u003eIO a",
@@ -1832,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the composition of two sets or relations.  The\n first relation's domain must be the same dimension as the second's range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "composition",
           "package": "Omega",
@@ -1842,6 +1989,7 @@
         "index": {
           "description": "Compute the composition of two sets or relations The first relation domain must be the same dimension as the second range",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "composition",
           "normalized": "OmegaRel-\u003eOmegaRel-\u003eIO OmegaRel",
@@ -1857,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical conjunction (and).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "conjunction",
           "package": "Omega",
@@ -1867,6 +2016,7 @@
         "index": {
           "description": "Logical conjunction and",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "conjunction",
           "normalized": "[Formula]-\u003eFormula",
@@ -1882,6 +2032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the cross product of two sets.\n   The cross product relates every element of \u003ccode\u003es\u003c/code\u003e to every element of \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "crossProduct",
           "package": "Omega",
@@ -1892,6 +2043,7 @@
         "index": {
           "description": "Compute the cross product of two sets The cross product relates every element of to every element of",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "crossProduct",
           "normalized": "OmegaSet-\u003eOmegaSet-\u003eIO OmegaRel",
@@ -1908,6 +2060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the formula is a tautology.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "definiteTautology",
           "package": "Omega",
@@ -1918,6 +2071,7 @@
         "index": {
           "description": "True if the formula is tautology",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "definiteTautology",
           "normalized": "a-\u003eIO Bool",
@@ -1934,6 +2088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the deltas of a relation.\n The relation's input dimensionality must be the same as its output\n dimensionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "deltas",
           "package": "Omega",
@@ -1944,6 +2099,7 @@
         "index": {
           "description": "Get the deltas of relation The relation input dimensionality must be the same as its output dimensionality",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "deltas",
           "normalized": "OmegaRel-\u003eIO OmegaSet",
@@ -1959,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the difference of two relations or sets.\n   The members of \u003ccode\u003edifference x y\u003c/code\u003e are the members of \u003ccode\u003ex\u003c/code\u003e that are not\n   members of \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "difference",
           "package": "Omega",
@@ -1969,6 +2126,7 @@
         "index": {
           "description": "Compute the difference of two relations or sets The members of difference are the members of that are not members of",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "difference",
           "normalized": "a-\u003ea-\u003eIO a",
@@ -1984,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical disjunction (or).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "disjunction",
           "package": "Omega",
@@ -1994,6 +2153,7 @@
         "index": {
           "description": "Logical disjunction or",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "disjunction",
           "normalized": "[Formula]-\u003eFormula",
@@ -2009,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the domain of a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "domain",
           "package": "Omega",
@@ -2019,6 +2180,7 @@
         "index": {
           "description": "Get the domain of relation",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "domain",
           "normalized": "OmegaRel-\u003eIO OmegaSet",
@@ -2034,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether two sets or relations are equal.\n The sets or relations must have the same arity.\n\u003c/p\u003e\u003cp\u003eThe answer is precise if both arguments are \u003ccode\u003e\u003ca\u003eexact\u003c/a\u003e\u003c/code\u003e.\n If either argument is inexact, this function returns \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "equal",
           "package": "Omega",
@@ -2044,6 +2207,7 @@
         "index": {
           "description": "Test whether two sets or relations are equal The sets or relations must have the same arity The answer is precise if both arguments are exact If either argument is inexact this function returns False",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "equal",
           "normalized": "a-\u003ea-\u003eIO Bool",
@@ -2059,6 +2223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an equation of the form \u003ccode\u003ea*x + b*y + ... + d = 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "equality",
           "package": "Omega",
@@ -2069,6 +2234,7 @@
         "index": {
           "description": "Construct an equation of the form",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "equality",
           "normalized": "[Coefficient]-\u003eInt-\u003eFormula",
@@ -2084,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the formula has no UNKNOWN constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "exact",
           "package": "Omega",
@@ -2094,6 +2261,7 @@
         "index": {
           "description": "True if the formula has no UNKNOWN constraints",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "exact",
           "normalized": "a-\u003eIO Bool",
@@ -2109,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalsity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "false",
           "package": "Omega",
@@ -2119,6 +2288,7 @@
         "index": {
           "description": "Falsity",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "false",
           "package": "Omega",
@@ -2132,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the gist of a set or relation, given some background truth.  The\n gist operator uses heuristics to make a set or relation simpler, while\n still retaining sufficient information to regenerate the original by\n re-introducing the background truth.  The sets or relations\n must have the same arity.\n\u003c/p\u003e\u003cp\u003eGiven \u003ccode\u003ex\u003c/code\u003e computed by\n\u003c/p\u003e\u003cpre\u003e x \u003c- intersection given =\u003c\u003c gist effort r given\n\u003c/pre\u003e\u003cp\u003ewe have \u003ccode\u003ex == r\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "gist",
           "package": "Omega",
@@ -2142,6 +2313,7 @@
         "index": {
           "description": "Get the gist of set or relation given some background truth The gist operator uses heuristics to make set or relation simpler while still retaining sufficient information to regenerate the original by re-introducing the background truth The sets or relations must have the same arity Given computed by intersection given gist effort given we have",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "gist",
           "normalized": "Effort-\u003ea-\u003ea-\u003eIO a",
@@ -2157,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an inequation of the form \u003ccode\u003ea*x + b*y + ... + d \u003e= 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "inequality",
           "package": "Omega",
@@ -2167,6 +2340,7 @@
         "index": {
           "description": "Construct an inequation of the form",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "inequality",
           "normalized": "[Coefficient]-\u003eInt-\u003eFormula",
@@ -2182,6 +2356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the formula has UNKNOWN constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "inexact",
           "package": "Omega",
@@ -2192,6 +2367,7 @@
         "index": {
           "description": "True if the formula has UNKNOWN constraints",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "inexact",
           "normalized": "a-\u003eIO Bool",
@@ -2207,6 +2383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the intersection of two sets or relations.  The sets or relations\n must have the same arity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "intersection",
           "package": "Omega",
@@ -2217,6 +2394,7 @@
         "index": {
           "description": "Compute the intersection of two sets or relations The sets or relations must have the same arity",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "intersection",
           "normalized": "a-\u003ea-\u003eIO a",
@@ -2232,6 +2410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the inverse of a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "inverse",
           "package": "Omega",
@@ -2242,6 +2421,7 @@
         "index": {
           "description": "Get the inverse of relation",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "inverse",
           "normalized": "OmegaRel-\u003eIO OmegaRel",
@@ -2257,6 +2437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the lower bound of a set or relation by setting all UNKNOWN\n constraints to false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "lowerBound",
           "package": "Omega",
@@ -2267,6 +2448,7 @@
         "index": {
           "description": "Compute the lower bound of set or relation by setting all UNKNOWN constraints to false",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "lowerBound",
           "normalized": "a-\u003eIO a",
@@ -2283,6 +2465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine a lower bound on whether the formula is satisfiable.\n The lower bound is based on treating all UNKNOWN constraints as false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "lowerBoundSatisfiable",
           "package": "Omega",
@@ -2293,6 +2476,7 @@
         "index": {
           "description": "Determine lower bound on whether the formula is satisfiable The lower bound is based on treating all UNKNOWN constraints as false",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "lowerBoundSatisfiable",
           "normalized": "a-\u003eIO Bool",
@@ -2309,6 +2493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "negation",
           "package": "Omega",
@@ -2319,6 +2504,7 @@
         "index": {
           "description": "Logical negation",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "negation",
           "normalized": "Formula-\u003eFormula",
@@ -2334,6 +2520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Omega relation.  The first two parameters are the number\n of dimensions of the domain and range, respectively.  The third parameter\n builds a formula defining the relation.  Two points are related iff the\n formula evaluates to True on those points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "newOmegaRel",
           "package": "Omega",
@@ -2343,6 +2530,7 @@
         "index": {
           "description": "Create an Omega relation The first two parameters are the number of dimensions of the domain and range respectively The third parameter builds formula defining the relation Two points are related iff the formula evaluates to True on those points",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "newOmegaRel",
           "normalized": "Int-\u003eInt-\u003e([VarHandle]-\u003e[VarHandle]-\u003eFormula)-\u003eIO OmegaRel",
@@ -2359,6 +2547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Omega set.  The first parameter is the number of dimensions\n the set inhabits.  The second parameter builds a formula\n defining the set's members. The set's members are those points\n for which the formula evaluates to True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "newOmegaSet",
           "package": "Omega",
@@ -2368,6 +2557,7 @@
         "index": {
           "description": "Create an Omega set The first parameter is the number of dimensions the set inhabits The second parameter builds formula defining the set members The set members are those points for which the formula evaluates to True",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "newOmegaSet",
           "normalized": "Int-\u003e([VarHandle]-\u003eFormula)-\u003eIO OmegaSet",
@@ -2384,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse simple, fast tests to decide whether the formula is a tautology.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "obviousTautology",
           "package": "Omega",
@@ -2394,6 +2585,7 @@
         "index": {
           "description": "Use simple fast tests to decide whether the formula is tautology",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "obviousTautology",
           "normalized": "a-\u003eIO Bool",
@@ -2410,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential quantification.  The \u003ccode\u003e\u003ca\u003eVarHandle\u003c/a\u003e\u003c/code\u003e parameter is the variable\n bound by the quantifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "qExists",
           "package": "Omega",
@@ -2420,6 +2613,7 @@
         "index": {
           "description": "Existential quantification The VarHandle parameter is the variable bound by the quantifier",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "qExists",
           "normalized": "(VarHandle-\u003eFormula)-\u003eFormula",
@@ -2436,6 +2630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversal quantification.  The \u003ccode\u003e\u003ca\u003eVarHandle\u003c/a\u003e\u003c/code\u003e parameter is the variable\n bound by the quantifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "qForall",
           "package": "Omega",
@@ -2446,6 +2641,7 @@
         "index": {
           "description": "Universal quantification The VarHandle parameter is the variable bound by the quantifier",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "qForall",
           "normalized": "(VarHandle-\u003eFormula)-\u003eFormula",
@@ -2462,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInspect a relation's low-level representation directly.  This function\n takes care of data structure traversal and relies on other routines to\n interpret the data.\n\u003c/p\u003e\u003cp\u003eAll three accumulating functions take the relation's input and\n output variables as their first and second parameters, respectively,\n and any existentially quantified variables as\n their second parameter.  The relation's input and output variables are\n returned along with a result value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "queryDNFRelation",
           "package": "Omega",
@@ -2471,6 +2668,7 @@
         "index": {
           "description": "Inspect relation low-level representation directly This function takes care of data structure traversal and relies on other routines to interpret the data All three accumulating functions take the relation input and output variables as their first and second parameters respectively and any existentially quantified variables as their second parameter The relation input and output variables are returned along with result value",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "queryDNFRelation",
           "normalized": "([VarHandle]-\u003e[VarHandle]-\u003e[VarHandle]-\u003e[Coefficient]-\u003eInt-\u003ea-\u003ea)-\u003ea-\u003e([VarHandle]-\u003e[VarHandle]-\u003e[VarHandle]-\u003e[Coefficient]-\u003eInt-\u003eb-\u003eb)-\u003eb-\u003e([VarHandle]-\u003e[VarHandle]-\u003e[VarHandle]-\u003ea-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eOmegaRel-\u003eIO([VarHandle],[VarHandle],c)",
@@ -2487,6 +2685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInspect a set's low-level representation directly.  This function\n takes care of data structure traversal and relies on other routines to\n interpret the data.\n\u003c/p\u003e\u003cp\u003eAll three accumulating functions take the set variables as their\n first parameter, and any existentially quantified variables as\n their second parameter.  The set variables are returned along with\n a result value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "queryDNFSet",
           "package": "Omega",
@@ -2496,6 +2695,7 @@
         "index": {
           "description": "Inspect set low-level representation directly This function takes care of data structure traversal and relies on other routines to interpret the data All three accumulating functions take the set variables as their first parameter and any existentially quantified variables as their second parameter The set variables are returned along with result value",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "queryDNFSet",
           "normalized": "([VarHandle]-\u003e[VarHandle]-\u003e[Coefficient]-\u003eInt-\u003ea-\u003ea)-\u003ea-\u003e([VarHandle]-\u003e[VarHandle]-\u003e[Coefficient]-\u003eInt-\u003eb-\u003eb)-\u003eb-\u003e([VarHandle]-\u003e[VarHandle]-\u003ea-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eOmegaSet-\u003eIO([VarHandle],c)",
@@ -2512,6 +2712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the range of a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "range",
           "package": "Omega",
@@ -2522,6 +2723,7 @@
         "index": {
           "description": "Get the range of relation",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "range",
           "normalized": "OmegaRel-\u003eIO OmegaSet",
@@ -2537,6 +2739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict the domain of a relation.\n   If \u003ccode\u003edomain r\u003c/code\u003e is \u003ccode\u003ed\u003c/code\u003e, then \u003ccode\u003edomain =\u003c\u003c restrictDomain r s\u003c/code\u003e\n   is \u003ccode\u003eintersection d s\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "restrictDomain",
           "package": "Omega",
@@ -2547,6 +2750,7 @@
         "index": {
           "description": "Restrict the domain of relation If domain is then domain restrictDomain is intersection",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "restrictDomain",
           "normalized": "OmegaRel-\u003eOmegaSet-\u003eIO OmegaRel",
@@ -2563,6 +2767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict the range of a relation.\n   If \u003ccode\u003erange r\u003c/code\u003e is \u003ccode\u003ed\u003c/code\u003e, then \u003ccode\u003erange =\u003c\u003c restrictRange r s\u003c/code\u003e\n   is \u003ccode\u003eintersection d s\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "restrictRange",
           "package": "Omega",
@@ -2573,6 +2778,7 @@
         "index": {
           "description": "Restrict the range of relation If range is then range restrictRange is intersection",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "restrictRange",
           "normalized": "OmegaRel-\u003eOmegaSet-\u003eIO OmegaRel",
@@ -2589,6 +2795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the transitive closure of a relation.  In some cases, the transitive\n closure cannot be computed exactly, in which case a lower bound is\n returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "transitiveClosure",
           "package": "Omega",
@@ -2599,6 +2806,7 @@
         "index": {
           "description": "Get the transitive closure of relation In some cases the transitive closure cannot be computed exactly in which case lower bound is returned",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "transitiveClosure",
           "normalized": "OmegaRel-\u003eIO OmegaRel",
@@ -2615,6 +2823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "true",
           "package": "Omega",
@@ -2625,6 +2834,7 @@
         "index": {
           "description": "Truth",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "true",
           "package": "Omega",
@@ -2638,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the union of two sets or relations.  The sets or relations\n must have the same arity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "union",
           "package": "Omega",
@@ -2648,6 +2859,7 @@
         "index": {
           "description": "Compute the union of two sets or relations The sets or relations must have the same arity",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "union",
           "normalized": "a-\u003ea-\u003eIO a",
@@ -2663,6 +2875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the formula is UNKNOWN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "unknown",
           "package": "Omega",
@@ -2673,6 +2886,7 @@
         "index": {
           "description": "True if the formula is UNKNOWN",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "unknown",
           "normalized": "a-\u003eIO Bool",
@@ -2688,6 +2902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the upper bound of a set or relation by setting all UNKNOWN\n constraints to true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "upperBound",
           "package": "Omega",
@@ -2698,6 +2913,7 @@
         "index": {
           "description": "Compute the upper bound of set or relation by setting all UNKNOWN constraints to true",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "upperBound",
           "normalized": "a-\u003eIO a",
@@ -2714,6 +2930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine an upper bound on whether the formula is satisfiable.\n The upper bound is based on treating all UNKNOWN constraints as true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "upperBoundSatisfiable",
           "package": "Omega",
@@ -2724,6 +2941,7 @@
         "index": {
           "description": "Determine an upper bound on whether the formula is satisfiable The upper bound is based on treating all UNKNOWN constraints as true",
           "hierarchy": "Data Presburger Omega LowLevel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.LowLevel",
           "name": "upperBoundSatisfiable",
           "normalized": "a-\u003eIO Bool",
@@ -2740,6 +2958,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRelations whose members are represented compactly using a\n Presburger arithmetic formula.  This is a high-level interface to\n \u003ccode\u003e\u003ca\u003eOmegaRel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported qualified, e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.Presburger.Omega.Rel as WRel\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "Rel",
           "package": "Omega",
@@ -2749,6 +2968,7 @@
         "index": {
           "description": "Relations whose members are represented compactly using Presburger arithmetic formula This is high-level interface to OmegaRel This module is intended to be imported qualified e.g import qualified Data.Presburger.Omega.Rel as WRel",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "Rel",
           "package": "Omega",
@@ -2763,6 +2983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egist\u003c/a\u003e\u003c/code\u003e routine takes a parameter specifying how much effort to\n put into generating a good result.  Higher effort takes more time.\n It's unspecified what a given effort level does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "Effort",
           "package": "Omega",
@@ -2772,6 +2993,7 @@
         "index": {
           "description": "The gist routine takes parameter specifying how much effort to put into generating good result Higher effort takes more time It unspecified what given effort level does",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "Effort",
           "package": "Omega",
@@ -2786,6 +3008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation from points in a \u003cem\u003edomain\u003c/em\u003e Z^m to points in a \u003cem\u003erange\u003c/em\u003e Z^n.\n\u003c/p\u003e\u003cp\u003eA relation can be considered just a set of points in Z^(m+n).  However,\n many functions that operate on relations treat the domain and range\n differently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "Rel",
           "package": "Omega",
@@ -2795,6 +3018,7 @@
         "index": {
           "description": "relation from points in domain to points in range relation can be considered just set of points in However many functions that operate on relations treat the domain and range differently",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "Rel",
           "package": "Omega",
@@ -2809,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate a relation by allowing all existentially quantified\n variables to take on rational values.  This allows these variables to be\n eliminated from the formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "approximate",
           "package": "Omega",
@@ -2819,6 +3044,7 @@
         "index": {
           "description": "Approximate relation by allowing all existentially quantified variables to take on rational values This allows these variables to be eliminated from the formula",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "approximate",
           "normalized": "Rel-\u003eRel",
@@ -2834,6 +3060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the complement of a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "complement",
           "package": "Omega",
@@ -2844,6 +3071,7 @@
         "index": {
           "description": "Get the complement of relation",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "complement",
           "normalized": "Rel-\u003eRel",
@@ -2859,6 +3087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of two relations.\n The second relation's output must be the same size as the first's input\n (\u003ccode\u003eoutputDimension r2 == inputDimension r1\u003c/code\u003e),\n or an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "composition",
           "package": "Omega",
@@ -2869,6 +3098,7 @@
         "index": {
           "description": "Composition of two relations The second relation output must be the same size as the first input outputDimension r2 inputDimension r1 or an error will be raised",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "composition",
           "normalized": "Rel-\u003eRel-\u003eRel",
@@ -2884,6 +3114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross product of two sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "crossProduct",
           "package": "Omega",
@@ -2894,6 +3125,7 @@
         "index": {
           "description": "Cross product of two sets",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "crossProduct",
           "normalized": "Set-\u003eSet-\u003eRel",
@@ -2909,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "definiteTautology",
           "package": "Omega",
@@ -2918,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "definiteTautology",
           "normalized": "Rel-\u003eBool",
@@ -2933,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "deltas",
           "package": "Omega",
@@ -2942,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "deltas",
           "normalized": "Rel-\u003eSet",
@@ -2957,6 +3193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference of two relations.\n The relations must have the same dimension\n (\u003ccode\u003einputDimension r1 == inputDimension r2 && outputDimension r1 == outputDimension r2\u003c/code\u003e),\n or an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "difference",
           "package": "Omega",
@@ -2967,6 +3204,7 @@
         "index": {
           "description": "Difference of two relations The relations must have the same dimension inputDimension r1 inputDimension r2 outputDimension r1 outputDimension r2 or an error will be raised",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "difference",
           "normalized": "Rel-\u003eRel-\u003eRel",
@@ -2981,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "domain",
           "package": "Omega",
@@ -2990,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "domain",
           "normalized": "Rel-\u003eSet",
@@ -3005,6 +3245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether two relations are equal.\n The relations must have the same dimension\n (\u003ccode\u003einputDimension r1 == inputDimension r2 && outputDimension r1 == outputDimension r2\u003c/code\u003e),\n or an error will be raised.\n\u003c/p\u003e\u003cp\u003eThe answer is precise if both relations are \u003ccode\u003e\u003ca\u003eexact\u003c/a\u003e\u003c/code\u003e.\n If either relation is inexact, this function returns \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "equal",
           "package": "Omega",
@@ -3015,6 +3256,7 @@
         "index": {
           "description": "Test whether two relations are equal The relations must have the same dimension inputDimension r1 inputDimension r2 outputDimension r1 outputDimension r2 or an error will be raised The answer is precise if both relations are exact If either relation is inexact this function returns False",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "equal",
           "normalized": "Rel-\u003eRel-\u003eBool",
@@ -3030,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the relation has no UNKNOWN constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "exact",
           "package": "Omega",
@@ -3040,6 +3283,7 @@
         "index": {
           "description": "True if the relation has no UNKNOWN constraints",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "exact",
           "normalized": "Rel-\u003eBool",
@@ -3055,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eOmegaRel\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eRel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "fromOmegaRel",
           "package": "Omega",
@@ -3065,6 +3310,7 @@
         "index": {
           "description": "Convert an OmegaRel to Rel",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "fromOmegaRel",
           "normalized": "OmegaRel-\u003eIO Rel",
@@ -3081,6 +3327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a relation where each output is a function of the inputs.\n\u003c/p\u003e\u003cp\u003eEach expression should have \u003ccode\u003em\u003c/code\u003e free variables, where \u003ccode\u003em\u003c/code\u003e\n is the first parameter.\n\u003c/p\u003e\u003cp\u003eFor example, the relation \u003ccode\u003e{(x, y) -\u003e (y, x) | x \u003e 0 && y \u003e 0}\u003c/code\u003e is\n\u003c/p\u003e\u003cpre\u003e let [x, y] = takeFreeVariables' 2\n in functionalRel 2 [y, x] (conjE [y |\u003e| intE 0, x |\u003e| intE 0])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "functionalRel",
           "package": "Omega",
@@ -3090,6 +3337,7 @@
         "index": {
           "description": "Create relation where each output is function of the inputs Each expression should have free variables where is the first parameter For example the relation is let takeFreeVariables in functionalRel conjE intE intE",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "functionalRel",
           "normalized": "Int-\u003e[IntExp]-\u003eBoolExp-\u003eRel",
@@ -3106,6 +3354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the gist of a relation, given some background truth.  The\n gist operator uses heuristics to simplify the relation while\n retaining sufficient information to regenerate the original by\n re-introducing the background truth.  The relations must have the\n same input dimensions and the same output dimensions.\n\u003c/p\u003e\u003cp\u003eThe gist satisfies the property\n\u003c/p\u003e\u003cpre\u003e x === gist effort x given `intersection` given\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "gist",
           "package": "Omega",
@@ -3116,6 +3365,7 @@
         "index": {
           "description": "Get the gist of relation given some background truth The gist operator uses heuristics to simplify the relation while retaining sufficient information to regenerate the original by re-introducing the background truth The relations must have the same input dimensions and the same output dimensions The gist satisfies the property gist effort given intersection given",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "gist",
           "normalized": "Effort-\u003eRel-\u003eRel-\u003eRel",
@@ -3131,6 +3381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the relation has UNKNOWN constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "inexact",
           "package": "Omega",
@@ -3141,6 +3392,7 @@
         "index": {
           "description": "True if the relation has UNKNOWN constraints",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "inexact",
           "normalized": "Rel-\u003eBool",
@@ -3156,6 +3408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the dimensionality of a relation's domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "inputDimension",
           "package": "Omega",
@@ -3166,6 +3419,7 @@
         "index": {
           "description": "Get the dimensionality of relation domain",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "inputDimension",
           "normalized": "Rel-\u003eInt",
@@ -3182,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of two relations.\n The relations must have the same dimension\n (\u003ccode\u003einputDimension r1 == inputDimension r2 && outputDimension r1 == outputDimension r2\u003c/code\u003e),\n or an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "intersection",
           "package": "Omega",
@@ -3192,6 +3447,7 @@
         "index": {
           "description": "Intersection of two relations The relations must have the same dimension inputDimension r1 inputDimension r2 outputDimension r1 outputDimension r2 or an error will be raised",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "intersection",
           "normalized": "Rel-\u003eRel-\u003eRel",
@@ -3207,6 +3463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvert a relation, swapping the domain and range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "inverse",
           "package": "Omega",
@@ -3217,6 +3474,7 @@
         "index": {
           "description": "Invert relation swapping the domain and range",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "inverse",
           "normalized": "Rel-\u003eRel",
@@ -3232,6 +3490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ecomposition\u003c/a\u003e\u003c/code\u003e, with the arguments swapped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "join",
           "package": "Omega",
@@ -3242,6 +3501,7 @@
         "index": {
           "description": "Same as composition with the arguments swapped",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "join",
           "normalized": "Rel-\u003eRel-\u003eRel",
@@ -3256,6 +3516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "lowerBound",
           "package": "Omega",
@@ -3265,6 +3526,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "lowerBound",
           "normalized": "Rel-\u003eRel",
@@ -3280,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "lowerBoundSatisfiable",
           "package": "Omega",
@@ -3289,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "lowerBoundSatisfiable",
           "normalized": "Rel-\u003eBool",
@@ -3304,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "obviousTautology",
           "package": "Omega",
@@ -3313,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "obviousTautology",
           "normalized": "Rel-\u003eBool",
@@ -3329,6 +3595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the dimensionality of a relation's range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "outputDimension",
           "package": "Omega",
@@ -3339,6 +3606,7 @@
         "index": {
           "description": "Get the dimensionality of relation range",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "outputDimension",
           "normalized": "Rel-\u003eInt",
@@ -3355,6 +3623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the predicate defining a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "predicate",
           "package": "Omega",
@@ -3365,6 +3634,7 @@
         "index": {
           "description": "Get the predicate defining relation",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "predicate",
           "normalized": "Rel-\u003eBoolExp",
@@ -3379,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "range",
           "package": "Omega",
@@ -3388,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "range",
           "normalized": "Rel-\u003eSet",
@@ -3403,6 +3675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a relation whose members are defined by a predicate.\n\u003c/p\u003e\u003cp\u003eThe expression should have \u003ccode\u003em+n\u003c/code\u003e free variables, where \u003ccode\u003em\u003c/code\u003e and \u003ccode\u003en\u003c/code\u003e are\n the first two parameters.  The first \u003ccode\u003em\u003c/code\u003e\n variables refer to the domain, and the remaining variables refer to\n the range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "rel",
           "package": "Omega",
@@ -3412,6 +3685,7 @@
         "index": {
           "description": "Create relation whose members are defined by predicate The expression should have free variables where and are the first two parameters The first variables refer to the domain and the remaining variables refer to the range",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "rel",
           "normalized": "Int-\u003eInt-\u003eBoolExp-\u003eRel",
@@ -3427,6 +3701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict the domain of a relation.\n\u003c/p\u003e\u003cpre\u003e domain (restrictDomain r s) === intersection (domain r) s\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "restrictDomain",
           "package": "Omega",
@@ -3437,6 +3712,7 @@
         "index": {
           "description": "Restrict the domain of relation domain restrictDomain intersection domain",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "restrictDomain",
           "normalized": "Rel-\u003eSet-\u003eRel",
@@ -3453,6 +3729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict the range of a relation.\n\u003c/p\u003e\u003cpre\u003e range (restrictRange r s) === intersection (range r) s\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "restrictRange",
           "package": "Omega",
@@ -3463,6 +3740,7 @@
         "index": {
           "description": "Restrict the range of relation range restrictRange intersection range",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "restrictRange",
           "normalized": "Rel-\u003eSet-\u003eRel",
@@ -3479,6 +3757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eRel\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eOmegaRel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "toOmegaRel",
           "package": "Omega",
@@ -3489,6 +3768,7 @@
         "index": {
           "description": "Convert Rel to an OmegaRel",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "toOmegaRel",
           "normalized": "Rel-\u003eOmegaRel",
@@ -3505,6 +3785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the transitive closure of a relation.  In some cases, the transitive\n closure cannot be computed exactly, in which case a lower bound is\n returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "transitiveClosure",
           "package": "Omega",
@@ -3515,6 +3796,7 @@
         "index": {
           "description": "Get the transitive closure of relation In some cases the transitive closure cannot be computed exactly in which case lower bound is returned",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "transitiveClosure",
           "normalized": "Rel-\u003eRel",
@@ -3531,6 +3813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of two relations.\n The relations must have the same dimension\n (\u003ccode\u003einputDimension r1 == inputDimension r2 && outputDimension r1 == outputDimension r2\u003c/code\u003e),\n or an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "union",
           "package": "Omega",
@@ -3541,6 +3824,7 @@
         "index": {
           "description": "Union of two relations The relations must have the same dimension inputDimension r1 inputDimension r2 outputDimension r1 outputDimension r2 or an error will be raised",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "union",
           "normalized": "Rel-\u003eRel-\u003eRel",
@@ -3556,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the relation is entirely UNKNOWN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "unknown",
           "package": "Omega",
@@ -3566,6 +3851,7 @@
         "index": {
           "description": "True if the relation is entirely UNKNOWN",
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "unknown",
           "normalized": "Rel-\u003eBool",
@@ -3580,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "upperBound",
           "package": "Omega",
@@ -3589,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "upperBound",
           "normalized": "Rel-\u003eRel",
@@ -3604,6 +3892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Rel",
           "name": "upperBoundSatisfiable",
           "package": "Omega",
@@ -3613,6 +3902,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Rel",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Rel",
           "name": "upperBoundSatisfiable",
           "normalized": "Rel-\u003eBool",
@@ -3629,6 +3919,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSets whose members are represented compactly using a\n Presburger arithmetic formula.  This is a high-level interface to\n \u003ccode\u003e\u003ca\u003eOmegaSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported qualified, e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.Presburger.Omega.Set as WSet\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "Set",
           "package": "Omega",
@@ -3638,6 +3929,7 @@
         "index": {
           "description": "Sets whose members are represented compactly using Presburger arithmetic formula This is high-level interface to OmegaSet This module is intended to be imported qualified e.g import qualified Data.Presburger.Omega.Set as WSet",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "Set",
           "package": "Omega",
@@ -3652,6 +3944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egist\u003c/a\u003e\u003c/code\u003e routine takes a parameter specifying how much effort to\n put into generating a good result.  Higher effort takes more time.\n It's unspecified what a given effort level does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "Effort",
           "package": "Omega",
@@ -3661,6 +3954,7 @@
         "index": {
           "description": "The gist routine takes parameter specifying how much effort to put into generating good result Higher effort takes more time It unspecified what given effort level does",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "Effort",
           "package": "Omega",
@@ -3675,6 +3969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets of points in Z^n defined by a formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "Set",
           "package": "Omega",
@@ -3684,6 +3979,7 @@
         "index": {
           "description": "Sets of points in defined by formula",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "Set",
           "package": "Omega",
@@ -3697,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "approximate",
           "package": "Omega",
@@ -3706,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "approximate",
           "normalized": "Set-\u003eSet",
@@ -3720,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "complement",
           "package": "Omega",
@@ -3729,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "complement",
           "normalized": "Set-\u003eSet",
@@ -3743,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "definiteTautology",
           "package": "Omega",
@@ -3752,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "definiteTautology",
           "normalized": "Set-\u003eBool",
@@ -3768,6 +4070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference of two sets.\n The sets must have the same dimension\n (\u003ccode\u003edimension s1 == dimension s2\u003c/code\u003e), or an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "difference",
           "package": "Omega",
@@ -3778,6 +4081,7 @@
         "index": {
           "description": "Difference of two sets The sets must have the same dimension dimension s1 dimension s2 or an error will be raised",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "difference",
           "normalized": "Set-\u003eSet-\u003eSet",
@@ -3793,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the dimensionality of the space a set inhabits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "dimension",
           "package": "Omega",
@@ -3803,6 +4108,7 @@
         "index": {
           "description": "Get the dimensionality of the space set inhabits",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "dimension",
           "normalized": "Set-\u003eInt",
@@ -3818,6 +4124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether two sets are equal.\n The sets must have the same dimension\n (\u003ccode\u003edimension s1 == dimension s2\u003c/code\u003e), or an error will be raised.\n\u003c/p\u003e\u003cp\u003eThe answer is precise if both relations are \u003ccode\u003e\u003ca\u003eexact\u003c/a\u003e\u003c/code\u003e.\n If either relation is inexact, this function returns \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "equal",
           "package": "Omega",
@@ -3828,6 +4135,7 @@
         "index": {
           "description": "Test whether two sets are equal The sets must have the same dimension dimension s1 dimension s2 or an error will be raised The answer is precise if both relations are exact If either relation is inexact this function returns False",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "equal",
           "normalized": "Set-\u003eSet-\u003eBool",
@@ -3843,6 +4151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the set has no UNKNOWN constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "exact",
           "package": "Omega",
@@ -3853,6 +4162,7 @@
         "index": {
           "description": "True if the set has no UNKNOWN constraints",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "exact",
           "normalized": "Set-\u003eBool",
@@ -3868,6 +4178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eOmegaSet\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "fromOmegaSet",
           "package": "Omega",
@@ -3878,6 +4189,7 @@
         "index": {
           "description": "Convert an OmegaSet to Set",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "fromOmegaSet",
           "normalized": "OmegaSet-\u003eIO Set",
@@ -3894,6 +4206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the gist of a set, given some background truth.  The\n gist operator uses heuristics to simplify the set while\n retaining sufficient information to regenerate the original by\n re-introducing the background truth.  The sets must have the\n same dimension.\n\u003c/p\u003e\u003cp\u003eThe gist satisfies the property\n\u003c/p\u003e\u003cpre\u003e x === gist effort x given `intersection` given\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "gist",
           "package": "Omega",
@@ -3904,6 +4217,7 @@
         "index": {
           "description": "Get the gist of set given some background truth The gist operator uses heuristics to simplify the set while retaining sufficient information to regenerate the original by re-introducing the background truth The sets must have the same dimension The gist satisfies the property gist effort given intersection given",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "gist",
           "normalized": "Effort-\u003eSet-\u003eSet-\u003eSet",
@@ -3919,6 +4233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the set has UNKNOWN constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "inexact",
           "package": "Omega",
@@ -3929,6 +4244,7 @@
         "index": {
           "description": "True if the set has UNKNOWN constraints",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "inexact",
           "normalized": "Set-\u003eBool",
@@ -3944,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of two sets.\n The sets must have the same dimension\n (\u003ccode\u003edimension s1 == dimension s2\u003c/code\u003e), or an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "intersection",
           "package": "Omega",
@@ -3954,6 +4271,7 @@
         "index": {
           "description": "Intersection of two sets The sets must have the same dimension dimension s1 dimension s2 or an error will be raised",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "intersection",
           "normalized": "Set-\u003eSet-\u003eSet",
@@ -3969,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the lower bound of a set by setting all UNKNOWN\n   constraints to false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "lowerBound",
           "package": "Omega",
@@ -3979,6 +4298,7 @@
         "index": {
           "description": "Compute the lower bound of set by setting all UNKNOWN constraints to false",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "lowerBound",
           "normalized": "Set-\u003eSet",
@@ -3994,6 +4314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "lowerBoundSatisfiable",
           "package": "Omega",
@@ -4003,6 +4324,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "lowerBoundSatisfiable",
           "normalized": "Set-\u003eBool",
@@ -4018,6 +4340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "obviousTautology",
           "package": "Omega",
@@ -4027,6 +4350,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "obviousTautology",
           "normalized": "Set-\u003eBool",
@@ -4043,6 +4367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the predicate defining a set's members\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "predicate",
           "package": "Omega",
@@ -4053,6 +4378,7 @@
         "index": {
           "description": "Get the predicate defining set members",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "predicate",
           "normalized": "Set-\u003eBoolExp",
@@ -4068,6 +4394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a set whose members are defined by a predicate.\n\u003c/p\u003e\u003cp\u003eThe expression should have one free variable for each dimension.\n\u003c/p\u003e\u003cp\u003eFor example, the set of all points on the plane is\n\u003c/p\u003e\u003cpre\u003e  set 2 trueE\n\u003c/pre\u003e\u003cp\u003eThe set of all points (x, y, z) where x \u003e y + z is\n\u003c/p\u003e\u003cpre\u003e  set 3 (case takeFreeVariables' 3 of [x,y,z] -\u003e x |\u003e| y |+| z)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "set",
           "package": "Omega",
@@ -4077,6 +4404,7 @@
         "index": {
           "description": "Create set whose members are defined by predicate The expression should have one free variable for each dimension For example the set of all points on the plane is set trueE The set of all points where is set case takeFreeVariables of",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "set",
           "normalized": "Int-\u003eBoolExp-\u003eSet",
@@ -4092,6 +4420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eOmegaSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "toOmegaSet",
           "package": "Omega",
@@ -4102,6 +4431,7 @@
         "index": {
           "description": "Convert Set to an OmegaSet",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "toOmegaSet",
           "normalized": "Set-\u003eOmegaSet",
@@ -4118,6 +4448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of two sets.\n The sets must have the same dimension\n (\u003ccode\u003edimension s1 == dimension s2\u003c/code\u003e), or an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "union",
           "package": "Omega",
@@ -4128,6 +4459,7 @@
         "index": {
           "description": "Union of two sets The sets must have the same dimension dimension s1 dimension s2 or an error will be raised",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "union",
           "normalized": "Set-\u003eSet-\u003eSet",
@@ -4143,6 +4475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the set is completely UNKNOWN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "unknown",
           "package": "Omega",
@@ -4153,6 +4486,7 @@
         "index": {
           "description": "True if the set is completely UNKNOWN",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "unknown",
           "normalized": "Set-\u003eBool",
@@ -4168,6 +4502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the upper bound of a set by setting all UNKNOWN\n   constraints to true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "upperBound",
           "package": "Omega",
@@ -4178,6 +4513,7 @@
         "index": {
           "description": "Compute the upper bound of set by setting all UNKNOWN constraints to true",
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "upperBound",
           "normalized": "Set-\u003eSet",
@@ -4193,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:10 UTC 2014",
           "module": "Data.Presburger.Omega.Set",
           "name": "upperBoundSatisfiable",
           "package": "Omega",
@@ -4202,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Data Presburger Omega Set",
+          "indexed": "2014-03-11T16:55:10",
           "module": "Data.Presburger.Omega.Set",
           "name": "upperBoundSatisfiable",
           "normalized": "Set-\u003eBool",

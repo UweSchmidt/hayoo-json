@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bson-mapping"
+        "phrase": "bson-mapping",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module aims to make mapping between algebraic data types and bson\ndocuments easy.\n\u003c/p\u003e\u003cp\u003eYou can also generate documents with \u003ccode\u003e\u003ca\u003eselectFields\u003c/a\u003e\u003c/code\u003e, which takes a\nlist of functions names that of type a -\u003e b and returns a function\nof type a -\u003e Document.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e import Data.Bson.Mapping\n import Data.Time.Clock\n import Data.Data (Typeable)\n\n data Post = Post { time :: UTCTime\n                  , author :: String\n                  , content :: String \n                  , votes :: Int\n                  }\n           deriving (Show, Read, Eq, Ord, Typeable)\n $(deriveBson ''Post)\n\n main :: IO ()\n main = do\n   now \u003c- getCurrentTime\n   let post = Post now \"francesco\" \"lorem ipsum\" 5\n   (fromBson (toBson post) :: IO Post) \u003e\u003e= print\n   print $ toBson post\n   print $ $(selectFields ['time, 'content]) post\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "Mapping",
           "package": "bson-mapping",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module aims to make mapping between algebraic data types and bson documents easy You can also generate documents with selectFields which takes list of functions names that of type and returns function of type Document Example import Data.Bson.Mapping import Data.Time.Clock import Data.Data Typeable data Post Post time UTCTime author String content String votes Int deriving Show Read Eq Ord Typeable deriveBson Post main IO main do now getCurrentTime let post Post now francesco lorem ipsum fromBson toBson post IO Post print print toBson post print selectFields time content post",
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "Mapping",
           "package": "bson-mapping",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "Bson",
           "package": "bson-mapping",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "Bson",
           "package": "bson-mapping",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive \u003ccode\u003e\u003ca\u003eBson\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eVal\u003c/a\u003e\u003c/code\u003e declarations for a data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "deriveBson",
           "package": "bson-mapping",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Derive Bson and Val declarations for data type",
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "deriveBson",
           "normalized": "Name-\u003eQ[Dec]",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "fromBson",
           "package": "bson-mapping",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "fromBson",
           "normalized": "Document-\u003ea b",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a document that identifies the data type - \u003ccode\u003egetConsDoc ''Post\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is useful to select all documents mapped to a certain data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "getConsDoc",
           "package": "bson-mapping",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Get document that identifies the data type getConsDoc Post This is useful to select all documents mapped to certain data type",
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "getConsDoc",
           "normalized": "Name-\u003eQ Exp",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a function that gets a datatype and a value, and generates a \u003ccode\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/code\u003e consisting of one field - the label provided - and the value of that datatype.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e$(getField 'time) post\u003c/code\u003e will generate \u003ccode\u003e[\"time\" =: time post]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "getField",
           "package": "bson-mapping",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Returns function that gets datatype and value and generates Document consisting of one field the label provided and the value of that datatype getField time post will generate time time post",
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "getField",
           "normalized": "Name-\u003eQ Exp",
@@ -164,6 +176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "getLabel",
           "package": "bson-mapping",
@@ -173,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "getLabel",
           "normalized": "Name-\u003eQ Exp",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect only certain fields in a document, see the code sample at the\ntop.\n\u003c/p\u003e\u003cp\u003ePlease note that there is no checking for the names to be actual\nfields of the bson document mapped to a datatype, so be careful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "selectFields",
           "package": "bson-mapping",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Select only certain fields in document see the code sample at the top Please note that there is no checking for the names to be actual fields of the bson document mapped to datatype so be careful",
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "selectFields",
           "normalized": "[Name]-\u003eQ Exp",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple function to select fields in a nested document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "subDocument",
           "package": "bson-mapping",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Simple function to select fields in nested document",
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "subDocument",
           "normalized": "Label-\u003eDocument-\u003eDocument",
@@ -240,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:40 UTC 2014",
           "module": "Data.Bson.Mapping",
           "name": "toBson",
           "package": "bson-mapping",
@@ -249,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Mapping",
+          "indexed": "2014-03-11T17:25:40",
           "module": "Data.Bson.Mapping",
           "name": "toBson",
           "normalized": "a-\u003eDocument",

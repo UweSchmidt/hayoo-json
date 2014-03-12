@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SDL-mixer"
+        "phrase": "SDL-mixer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "Channels",
           "package": "SDL-mixer",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "Channels",
           "package": "SDL-mixer",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "allocateChannels",
           "package": "SDL-mixer",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "allocateChannels",
           "normalized": "Int-\u003eIO Int",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "expireChannel",
           "package": "SDL-mixer",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "expireChannel",
           "normalized": "Channel-\u003eInt-\u003eIO Int",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "fadeInChannel",
           "package": "SDL-mixer",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "fadeInChannel",
           "normalized": "Channel-\u003eChunk-\u003eInt-\u003eInt-\u003eIO Int",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "fadeInChannelTimed",
           "package": "SDL-mixer",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "fadeInChannelTimed",
           "normalized": "Channel-\u003eChunk-\u003eInt-\u003eInt-\u003eInt-\u003eIO Int",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "fadeOutChannel",
           "package": "SDL-mixer",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "fadeOutChannel",
           "normalized": "Channel-\u003eInt-\u003eIO Int",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "fadingChannel",
           "package": "SDL-mixer",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "fadingChannel",
           "normalized": "Channel-\u003eIO Fading",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "getChunk",
           "package": "SDL-mixer",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "getChunk",
           "normalized": "Channel-\u003eIO Chunk",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "haltChannel",
           "package": "SDL-mixer",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "haltChannel",
           "normalized": "Channel-\u003eIO()",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "isChannelPaused",
           "package": "SDL-mixer",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "isChannelPaused",
           "normalized": "Channel-\u003eIO Bool",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "isChannelPlaying",
           "package": "SDL-mixer",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "isChannelPlaying",
           "normalized": "Channel-\u003eIO Bool",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "numChannelsPaused",
           "package": "SDL-mixer",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "numChannelsPaused",
           "package": "SDL-mixer",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "numChannelsPlaying",
           "package": "SDL-mixer",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "numChannelsPlaying",
           "package": "SDL-mixer",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "pause",
           "package": "SDL-mixer",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "pause",
           "normalized": "Channel-\u003eIO()",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "playChannel",
           "package": "SDL-mixer",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "playChannel",
           "normalized": "Channel-\u003eChunk-\u003eInt-\u003eIO Int",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "resume",
           "package": "SDL-mixer",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "resume",
           "normalized": "Channel-\u003eIO()",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "tryFadeInChannel",
           "package": "SDL-mixer",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "tryFadeInChannel",
           "normalized": "Channel-\u003eChunk-\u003eInt-\u003eInt-\u003eIO Int",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "tryFadeInChannelTimed",
           "package": "SDL-mixer",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "tryFadeInChannelTimed",
           "normalized": "Channel-\u003eChunk-\u003eInt-\u003eInt-\u003eInt-\u003eIO Int",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "tryPlayChannel",
           "package": "SDL-mixer",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "tryPlayChannel",
           "normalized": "Channel-\u003eChunk-\u003eInt-\u003eIO Int",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "volume",
           "package": "SDL-mixer",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Channels",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Channels",
           "name": "volume",
           "normalized": "Int-\u003eInt-\u003eIO Int",
@@ -488,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "General",
           "package": "SDL-mixer",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "General",
           "package": "SDL-mixer",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioFormat",
           "package": "SDL-mixer",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioFormat",
           "package": "SDL-mixer",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioS16LSB",
           "package": "SDL-mixer",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioS16LSB",
           "package": "SDL-mixer",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioS16MSB",
           "package": "SDL-mixer",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioS16MSB",
           "package": "SDL-mixer",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioS16Sys",
           "package": "SDL-mixer",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioS16Sys",
           "package": "SDL-mixer",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioS8",
           "package": "SDL-mixer",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioS8",
           "package": "SDL-mixer",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioU16LSB",
           "package": "SDL-mixer",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioU16LSB",
           "package": "SDL-mixer",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioU16MSB",
           "package": "SDL-mixer",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioU16MSB",
           "package": "SDL-mixer",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioU16Sys",
           "package": "SDL-mixer",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioU16Sys",
           "package": "SDL-mixer",
@@ -676,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioU8",
           "package": "SDL-mixer",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "AudioU8",
           "package": "SDL-mixer",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "closeAudio",
           "package": "SDL-mixer",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "closeAudio",
           "normalized": "IO()",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "defaultFrequency",
           "package": "SDL-mixer",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "defaultFrequency",
           "package": "SDL-mixer",
@@ -743,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "openAudio",
           "package": "SDL-mixer",
@@ -752,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "openAudio",
           "normalized": "Int-\u003eAudioFormat-\u003eInt-\u003eInt-\u003eIO()",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "querySpec",
           "package": "SDL-mixer",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "querySpec",
           "normalized": "IO(Int,AudioFormat,Int)",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "tryOpenAudio",
           "package": "SDL-mixer",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "tryOpenAudio",
           "normalized": "Int-\u003eAudioFormat-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "tryQuerySpec",
           "package": "SDL-mixer",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer General",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.General",
           "name": "tryQuerySpec",
           "normalized": "IO(Maybe(Int,AudioFormat,Int))",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "Music",
           "package": "SDL-mixer",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "Music",
           "package": "SDL-mixer",
@@ -860,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "disableMusicCmd",
           "package": "SDL-mixer",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "disableMusicCmd",
           "normalized": "IO()",
@@ -884,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "fadeInMusic",
           "package": "SDL-mixer",
@@ -893,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "fadeInMusic",
           "normalized": "Music-\u003eInt-\u003eInt-\u003eIO()",
@@ -908,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "fadeInMusicPos",
           "package": "SDL-mixer",
@@ -917,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "fadeInMusicPos",
           "normalized": "Music-\u003eInt-\u003eInt-\u003eDouble-\u003eIO()",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "fadeOutMusic",
           "package": "SDL-mixer",
@@ -941,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "fadeOutMusic",
           "normalized": "Int-\u003eIO()",
@@ -956,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "fadingMusic",
           "package": "SDL-mixer",
@@ -965,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "fadingMusic",
           "package": "SDL-mixer",
@@ -978,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "freeMusic",
           "package": "SDL-mixer",
@@ -987,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "freeMusic",
           "normalized": "Music-\u003eIO()",
@@ -1002,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "getMusicType",
           "package": "SDL-mixer",
@@ -1011,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "getMusicType",
           "normalized": "Maybe Music-\u003eIO MusicType",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "getMusicVolume",
           "package": "SDL-mixer",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "getMusicVolume",
           "package": "SDL-mixer",
@@ -1048,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "haltMusic",
           "package": "SDL-mixer",
@@ -1057,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "haltMusic",
           "normalized": "IO()",
@@ -1072,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "loadMUS",
           "package": "SDL-mixer",
@@ -1081,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "loadMUS",
           "normalized": "FilePath-\u003eIO Music",
@@ -1096,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "modifyMusicVolume",
           "package": "SDL-mixer",
@@ -1105,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "modifyMusicVolume",
           "normalized": "(Int-\u003eInt)-\u003eIO()",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "pauseMusic",
           "package": "SDL-mixer",
@@ -1129,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "pauseMusic",
           "normalized": "IO()",
@@ -1144,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "pausedMusic",
           "package": "SDL-mixer",
@@ -1153,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "pausedMusic",
           "package": "SDL-mixer",
@@ -1166,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "playMusic",
           "package": "SDL-mixer",
@@ -1175,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "playMusic",
           "normalized": "Music-\u003eInt-\u003eIO()",
@@ -1190,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "playingMusic",
           "package": "SDL-mixer",
@@ -1199,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "playingMusic",
           "package": "SDL-mixer",
@@ -1212,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "resumeMusic",
           "package": "SDL-mixer",
@@ -1221,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "resumeMusic",
           "normalized": "IO()",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "rewindMusic",
           "package": "SDL-mixer",
@@ -1245,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "rewindMusic",
           "normalized": "IO()",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "setMusicCmd",
           "package": "SDL-mixer",
@@ -1269,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "setMusicCmd",
           "normalized": "String-\u003eIO()",
@@ -1284,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "setMusicPosition",
           "package": "SDL-mixer",
@@ -1293,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "setMusicPosition",
           "normalized": "Double-\u003eIO()",
@@ -1308,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "setMusicVolume",
           "package": "SDL-mixer",
@@ -1317,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "setMusicVolume",
           "normalized": "Int-\u003eIO()",
@@ -1332,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryFadeInMusic",
           "package": "SDL-mixer",
@@ -1341,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryFadeInMusic",
           "normalized": "Music-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -1356,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryFadeInMusicPos",
           "package": "SDL-mixer",
@@ -1365,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryFadeInMusicPos",
           "normalized": "Music-\u003eInt-\u003eInt-\u003eDouble-\u003eIO Bool",
@@ -1380,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryFadeOutMusic",
           "package": "SDL-mixer",
@@ -1389,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryFadeOutMusic",
           "normalized": "Int-\u003eIO Bool",
@@ -1404,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryLoadMUS",
           "package": "SDL-mixer",
@@ -1413,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryLoadMUS",
           "normalized": "FilePath-\u003eIO(Maybe Music)",
@@ -1428,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryPlayMusic",
           "package": "SDL-mixer",
@@ -1437,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "tryPlayMusic",
           "normalized": "Music-\u003eInt-\u003eIO Bool",
@@ -1452,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "trySetMusicCmd",
           "package": "SDL-mixer",
@@ -1461,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "trySetMusicCmd",
           "normalized": "String-\u003eIO Bool",
@@ -1476,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "trySetMusicPosition",
           "package": "SDL-mixer",
@@ -1485,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Music",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Music",
           "name": "trySetMusicPosition",
           "normalized": "Double-\u003eIO Bool",
@@ -1500,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "Samples",
           "package": "SDL-mixer",
@@ -1508,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Samples",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "Samples",
           "package": "SDL-mixer",
@@ -1521,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "loadWAV",
           "package": "SDL-mixer",
@@ -1530,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Samples",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "loadWAV",
           "normalized": "FilePath-\u003eIO Chunk",
@@ -1545,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "maxVolume",
           "package": "SDL-mixer",
@@ -1554,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Samples",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "maxVolume",
           "package": "SDL-mixer",
@@ -1567,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "mkFinalizedChunk",
           "package": "SDL-mixer",
@@ -1576,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Samples",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "mkFinalizedChunk",
           "normalized": "Ptr ChunkStruct-\u003eIO Chunk",
@@ -1591,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "tryLoadWAV",
           "package": "SDL-mixer",
@@ -1600,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Samples",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "tryLoadWAV",
           "normalized": "FilePath-\u003eIO(Maybe Chunk)",
@@ -1615,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "volumeChunk",
           "package": "SDL-mixer",
@@ -1624,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Samples",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Samples",
           "name": "volumeChunk",
           "normalized": "Chunk-\u003eInt-\u003eIO Int",
@@ -1639,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Types",
           "package": "SDL-mixer",
@@ -1647,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Types",
           "package": "SDL-mixer",
@@ -1660,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Channel",
           "package": "SDL-mixer",
@@ -1668,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Channel",
           "package": "SDL-mixer",
@@ -1681,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Chunk",
           "package": "SDL-mixer",
@@ -1689,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Chunk",
           "package": "SDL-mixer",
@@ -1702,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "ChunkStruct",
           "package": "SDL-mixer",
@@ -1710,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "ChunkStruct",
           "package": "SDL-mixer",
@@ -1723,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Fading",
           "package": "SDL-mixer",
@@ -1731,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Fading",
           "package": "SDL-mixer",
@@ -1744,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Music",
           "package": "SDL-mixer",
@@ -1752,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "Music",
           "package": "SDL-mixer",
@@ -1765,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicStruct",
           "package": "SDL-mixer",
@@ -1773,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicStruct",
           "package": "SDL-mixer",
@@ -1786,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicType",
           "package": "SDL-mixer",
@@ -1794,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicType",
           "package": "SDL-mixer",
@@ -1807,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "FadingIn",
           "package": "SDL-mixer",
@@ -1816,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "FadingIn",
           "package": "SDL-mixer",
@@ -1829,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "FadingOut",
           "package": "SDL-mixer",
@@ -1838,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "FadingOut",
           "package": "SDL-mixer",
@@ -1851,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicCmd",
           "package": "SDL-mixer",
@@ -1860,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicCmd",
           "package": "SDL-mixer",
@@ -1873,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicMid",
           "package": "SDL-mixer",
@@ -1882,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicMid",
           "package": "SDL-mixer",
@@ -1895,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicMod",
           "package": "SDL-mixer",
@@ -1904,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicMod",
           "package": "SDL-mixer",
@@ -1917,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicMp3",
           "package": "SDL-mixer",
@@ -1926,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicMp3",
           "package": "SDL-mixer",
@@ -1939,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicNone",
           "package": "SDL-mixer",
@@ -1948,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicNone",
           "package": "SDL-mixer",
@@ -1961,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicOgg",
           "package": "SDL-mixer",
@@ -1970,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicOgg",
           "package": "SDL-mixer",
@@ -1983,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicWav",
           "package": "SDL-mixer",
@@ -1992,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "MusicWav",
           "package": "SDL-mixer",
@@ -2005,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "NoFading",
           "package": "SDL-mixer",
@@ -2014,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Types",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Types",
           "name": "NoFading",
           "package": "SDL-mixer",
@@ -2027,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Version",
           "name": "Version",
           "package": "SDL-mixer",
@@ -2035,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Version",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Version",
           "name": "Version",
           "package": "SDL-mixer",
@@ -2048,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Version",
           "name": "compiledFor",
           "package": "SDL-mixer",
@@ -2057,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Version",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Version",
           "name": "compiledFor",
           "package": "SDL-mixer",
@@ -2070,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer.Version",
           "name": "linkedWith",
           "package": "SDL-mixer",
@@ -2079,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer Version",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer.Version",
           "name": "linkedWith",
           "package": "SDL-mixer",
@@ -2092,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:14 UTC 2014",
           "module": "Graphics.UI.SDL.Mixer",
           "name": "Mixer",
           "package": "SDL-mixer",
@@ -2100,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Mixer",
+          "indexed": "2014-03-11T16:59:14",
           "module": "Graphics.UI.SDL.Mixer",
           "name": "Mixer",
           "package": "SDL-mixer",

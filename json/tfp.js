@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tfp"
+        "phrase": "tfp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Data.SizedInt",
           "name": "SizedInt",
           "package": "tfp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SizedInt",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Data.SizedInt",
           "name": "SizedInt",
           "package": "tfp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Data.SizedInt",
           "name": "SizedInt",
           "package": "tfp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SizedInt",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Data.SizedInt",
           "name": "SizedInt",
           "package": "tfp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Data.SizedWord",
           "name": "SizedWord",
           "package": "tfp",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data SizedWord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Data.SizedWord",
           "name": "SizedWord",
           "package": "tfp",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Data.SizedWord",
           "name": "SizedWord",
           "package": "tfp",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data SizedWord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Data.SizedWord",
           "name": "SizedWord",
           "package": "tfp",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical operations using type families.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Base",
           "name": "Base",
           "package": "tfp",
@@ -112,6 +121,7 @@
         "index": {
           "description": "Type-level numerical operations using type families",
           "hierarchy": "Types Base",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Base",
           "name": "Base",
           "package": "tfp",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Base",
           "name": "Id",
           "package": "tfp",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Types Base",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Base",
           "name": "Id",
           "package": "tfp",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Base",
           "name": "_T",
           "package": "tfp",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Types Base",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Base",
           "name": "_T",
           "package": "tfp",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical operations using type families.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "Bool",
           "package": "tfp",
@@ -177,6 +192,7 @@
         "index": {
           "description": "Type-level numerical operations using type families",
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "Bool",
           "package": "tfp",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": ":||:",
           "package": "tfp",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": ":||:",
           "package": "tfp",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": ":&&:",
           "package": "tfp",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": ":&&:",
           "package": "tfp",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "False",
           "package": "tfp",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "False",
           "package": "tfp",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "IfT",
           "package": "tfp",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "IfT",
           "package": "tfp",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "Not",
           "package": "tfp",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "Not",
           "package": "tfp",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "True",
           "package": "tfp",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "True",
           "package": "tfp",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "andT",
           "package": "tfp",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "andT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "falseT",
           "package": "tfp",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "falseT",
           "package": "tfp",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "ifT",
           "package": "tfp",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "ifT",
           "normalized": "a-\u003eb-\u003ec-\u003eIf a b c",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "notT",
           "package": "tfp",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "notT",
           "normalized": "a-\u003eNot a",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "orT",
           "package": "tfp",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "orT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Bool",
           "name": "trueT",
           "package": "tfp",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Types Data Bool",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Bool",
           "name": "trueT",
           "package": "tfp",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.List",
           "name": "List",
           "package": "tfp",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Types Data List",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.List",
           "name": "List",
           "package": "tfp",
@@ -469,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.List",
           "name": "Append",
           "package": "tfp",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Types Data List",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.List",
           "name": "Append",
           "package": "tfp",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.List",
           "name": "Cons",
           "package": "tfp",
@@ -498,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Types Data List",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.List",
           "name": "Cons",
           "package": "tfp",
@@ -511,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.List",
           "name": "Head",
           "package": "tfp",
@@ -519,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Types Data List",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.List",
           "name": "Head",
           "package": "tfp",
@@ -532,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.List",
           "name": "IsNull",
           "package": "tfp",
@@ -540,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Types Data List",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.List",
           "name": "IsNull",
           "package": "tfp",
@@ -553,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.List",
           "name": "Null",
           "package": "tfp",
@@ -561,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Types Data List",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.List",
           "name": "Null",
           "package": "tfp",
@@ -574,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.List",
           "name": "Reverse",
           "package": "tfp",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Types Data List",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.List",
           "name": "Reverse",
           "package": "tfp",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.List",
           "name": "Tail",
           "package": "tfp",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Types Data List",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.List",
           "name": "Tail",
           "package": "tfp",
@@ -617,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical operations using type families.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Digits",
           "package": "tfp",
@@ -626,6 +683,7 @@
         "index": {
           "description": "Type-level numerical operations using type families",
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Digits",
           "package": "tfp",
@@ -640,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe wrapper type for decimal type level numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec",
           "package": "tfp",
@@ -649,6 +708,7 @@
         "index": {
           "description": "The wrapper type for decimal type level numbers",
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec",
           "package": "tfp",
@@ -662,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec0",
           "package": "tfp",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec0",
           "package": "tfp",
@@ -683,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec1",
           "package": "tfp",
@@ -691,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec1",
           "package": "tfp",
@@ -704,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec2",
           "package": "tfp",
@@ -712,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec2",
           "package": "tfp",
@@ -725,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec3",
           "package": "tfp",
@@ -733,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec3",
           "package": "tfp",
@@ -746,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec4",
           "package": "tfp",
@@ -754,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec4",
           "package": "tfp",
@@ -767,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec5",
           "package": "tfp",
@@ -775,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec5",
           "package": "tfp",
@@ -788,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec6",
           "package": "tfp",
@@ -796,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec6",
           "package": "tfp",
@@ -809,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec7",
           "package": "tfp",
@@ -817,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec7",
           "package": "tfp",
@@ -830,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec8",
           "package": "tfp",
@@ -838,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec8",
           "package": "tfp",
@@ -851,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec9",
           "package": "tfp",
@@ -859,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Dec9",
           "package": "tfp",
@@ -873,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe terminator type for decimal digit lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "DecN",
           "package": "tfp",
@@ -882,6 +963,7 @@
         "index": {
           "description": "The terminator type for decimal digit lists",
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "DecN",
           "package": "tfp",
@@ -896,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation name for decimal type level numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Decimal",
           "package": "tfp",
@@ -905,6 +988,7 @@
         "index": {
           "description": "Representation name for decimal type level numbers",
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Decimal",
           "package": "tfp",
@@ -918,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Neg'",
           "package": "tfp",
@@ -926,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "Neg'",
           "package": "tfp",
@@ -939,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "decimal",
           "package": "tfp",
@@ -948,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Digits",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Digits",
           "name": "decimal",
           "package": "tfp",
@@ -960,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "Literals",
           "package": "tfp",
@@ -968,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "Literals",
           "package": "tfp",
@@ -981,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D0",
           "package": "tfp",
@@ -989,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D0",
           "package": "tfp",
@@ -1001,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D1",
           "package": "tfp",
@@ -1009,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D1",
           "package": "tfp",
@@ -1021,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D10",
           "package": "tfp",
@@ -1029,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D10",
           "package": "tfp",
@@ -1041,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D100",
           "package": "tfp",
@@ -1049,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D100",
           "package": "tfp",
@@ -1061,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D101",
           "package": "tfp",
@@ -1069,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D101",
           "package": "tfp",
@@ -1081,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D102",
           "package": "tfp",
@@ -1089,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D102",
           "package": "tfp",
@@ -1101,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D103",
           "package": "tfp",
@@ -1109,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D103",
           "package": "tfp",
@@ -1121,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D104",
           "package": "tfp",
@@ -1129,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D104",
           "package": "tfp",
@@ -1141,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D105",
           "package": "tfp",
@@ -1149,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D105",
           "package": "tfp",
@@ -1161,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D106",
           "package": "tfp",
@@ -1169,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D106",
           "package": "tfp",
@@ -1181,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D107",
           "package": "tfp",
@@ -1189,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D107",
           "package": "tfp",
@@ -1201,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D108",
           "package": "tfp",
@@ -1209,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D108",
           "package": "tfp",
@@ -1221,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D109",
           "package": "tfp",
@@ -1229,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D109",
           "package": "tfp",
@@ -1241,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D11",
           "package": "tfp",
@@ -1249,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D11",
           "package": "tfp",
@@ -1261,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D110",
           "package": "tfp",
@@ -1269,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D110",
           "package": "tfp",
@@ -1281,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D111",
           "package": "tfp",
@@ -1289,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D111",
           "package": "tfp",
@@ -1301,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D112",
           "package": "tfp",
@@ -1309,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D112",
           "package": "tfp",
@@ -1321,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D113",
           "package": "tfp",
@@ -1329,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D113",
           "package": "tfp",
@@ -1341,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D114",
           "package": "tfp",
@@ -1349,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D114",
           "package": "tfp",
@@ -1361,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D115",
           "package": "tfp",
@@ -1369,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D115",
           "package": "tfp",
@@ -1381,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D116",
           "package": "tfp",
@@ -1389,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D116",
           "package": "tfp",
@@ -1401,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D117",
           "package": "tfp",
@@ -1409,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D117",
           "package": "tfp",
@@ -1421,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D118",
           "package": "tfp",
@@ -1429,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D118",
           "package": "tfp",
@@ -1441,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D119",
           "package": "tfp",
@@ -1449,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D119",
           "package": "tfp",
@@ -1461,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D12",
           "package": "tfp",
@@ -1469,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D12",
           "package": "tfp",
@@ -1481,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D120",
           "package": "tfp",
@@ -1489,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D120",
           "package": "tfp",
@@ -1501,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D121",
           "package": "tfp",
@@ -1509,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D121",
           "package": "tfp",
@@ -1521,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D122",
           "package": "tfp",
@@ -1529,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D122",
           "package": "tfp",
@@ -1541,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D123",
           "package": "tfp",
@@ -1549,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D123",
           "package": "tfp",
@@ -1561,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D124",
           "package": "tfp",
@@ -1569,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D124",
           "package": "tfp",
@@ -1581,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D125",
           "package": "tfp",
@@ -1589,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D125",
           "package": "tfp",
@@ -1601,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D126",
           "package": "tfp",
@@ -1609,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D126",
           "package": "tfp",
@@ -1621,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D127",
           "package": "tfp",
@@ -1629,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D127",
           "package": "tfp",
@@ -1641,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D128",
           "package": "tfp",
@@ -1649,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D128",
           "package": "tfp",
@@ -1661,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D129",
           "package": "tfp",
@@ -1669,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D129",
           "package": "tfp",
@@ -1681,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D13",
           "package": "tfp",
@@ -1689,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D13",
           "package": "tfp",
@@ -1701,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D130",
           "package": "tfp",
@@ -1709,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D130",
           "package": "tfp",
@@ -1721,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D131",
           "package": "tfp",
@@ -1729,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D131",
           "package": "tfp",
@@ -1741,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D132",
           "package": "tfp",
@@ -1749,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D132",
           "package": "tfp",
@@ -1761,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D133",
           "package": "tfp",
@@ -1769,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D133",
           "package": "tfp",
@@ -1781,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D134",
           "package": "tfp",
@@ -1789,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D134",
           "package": "tfp",
@@ -1801,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D135",
           "package": "tfp",
@@ -1809,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D135",
           "package": "tfp",
@@ -1821,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D136",
           "package": "tfp",
@@ -1829,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D136",
           "package": "tfp",
@@ -1841,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D137",
           "package": "tfp",
@@ -1849,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D137",
           "package": "tfp",
@@ -1861,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D138",
           "package": "tfp",
@@ -1869,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D138",
           "package": "tfp",
@@ -1881,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D139",
           "package": "tfp",
@@ -1889,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D139",
           "package": "tfp",
@@ -1901,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D14",
           "package": "tfp",
@@ -1909,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D14",
           "package": "tfp",
@@ -1921,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D140",
           "package": "tfp",
@@ -1929,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D140",
           "package": "tfp",
@@ -1941,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D141",
           "package": "tfp",
@@ -1949,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D141",
           "package": "tfp",
@@ -1961,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D142",
           "package": "tfp",
@@ -1969,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D142",
           "package": "tfp",
@@ -1981,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D143",
           "package": "tfp",
@@ -1989,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D143",
           "package": "tfp",
@@ -2001,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D144",
           "package": "tfp",
@@ -2009,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D144",
           "package": "tfp",
@@ -2021,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D145",
           "package": "tfp",
@@ -2029,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D145",
           "package": "tfp",
@@ -2041,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D146",
           "package": "tfp",
@@ -2049,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D146",
           "package": "tfp",
@@ -2061,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D147",
           "package": "tfp",
@@ -2069,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D147",
           "package": "tfp",
@@ -2081,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D148",
           "package": "tfp",
@@ -2089,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D148",
           "package": "tfp",
@@ -2101,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D149",
           "package": "tfp",
@@ -2109,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D149",
           "package": "tfp",
@@ -2121,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D15",
           "package": "tfp",
@@ -2129,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D15",
           "package": "tfp",
@@ -2141,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D150",
           "package": "tfp",
@@ -2149,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D150",
           "package": "tfp",
@@ -2161,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D151",
           "package": "tfp",
@@ -2169,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D151",
           "package": "tfp",
@@ -2181,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D152",
           "package": "tfp",
@@ -2189,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D152",
           "package": "tfp",
@@ -2201,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D153",
           "package": "tfp",
@@ -2209,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D153",
           "package": "tfp",
@@ -2221,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D154",
           "package": "tfp",
@@ -2229,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D154",
           "package": "tfp",
@@ -2241,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D155",
           "package": "tfp",
@@ -2249,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D155",
           "package": "tfp",
@@ -2261,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D156",
           "package": "tfp",
@@ -2269,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D156",
           "package": "tfp",
@@ -2281,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D157",
           "package": "tfp",
@@ -2289,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D157",
           "package": "tfp",
@@ -2301,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D158",
           "package": "tfp",
@@ -2309,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D158",
           "package": "tfp",
@@ -2321,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D159",
           "package": "tfp",
@@ -2329,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D159",
           "package": "tfp",
@@ -2341,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D16",
           "package": "tfp",
@@ -2349,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D16",
           "package": "tfp",
@@ -2361,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D160",
           "package": "tfp",
@@ -2369,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D160",
           "package": "tfp",
@@ -2381,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D161",
           "package": "tfp",
@@ -2389,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D161",
           "package": "tfp",
@@ -2401,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D162",
           "package": "tfp",
@@ -2409,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D162",
           "package": "tfp",
@@ -2421,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D163",
           "package": "tfp",
@@ -2429,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D163",
           "package": "tfp",
@@ -2441,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D164",
           "package": "tfp",
@@ -2449,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D164",
           "package": "tfp",
@@ -2461,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D165",
           "package": "tfp",
@@ -2469,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D165",
           "package": "tfp",
@@ -2481,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D166",
           "package": "tfp",
@@ -2489,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D166",
           "package": "tfp",
@@ -2501,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D167",
           "package": "tfp",
@@ -2509,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D167",
           "package": "tfp",
@@ -2521,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D168",
           "package": "tfp",
@@ -2529,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D168",
           "package": "tfp",
@@ -2541,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D169",
           "package": "tfp",
@@ -2549,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D169",
           "package": "tfp",
@@ -2561,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D17",
           "package": "tfp",
@@ -2569,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D17",
           "package": "tfp",
@@ -2581,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D170",
           "package": "tfp",
@@ -2589,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D170",
           "package": "tfp",
@@ -2601,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D171",
           "package": "tfp",
@@ -2609,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D171",
           "package": "tfp",
@@ -2621,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D172",
           "package": "tfp",
@@ -2629,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D172",
           "package": "tfp",
@@ -2641,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D173",
           "package": "tfp",
@@ -2649,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D173",
           "package": "tfp",
@@ -2661,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D174",
           "package": "tfp",
@@ -2669,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D174",
           "package": "tfp",
@@ -2681,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D175",
           "package": "tfp",
@@ -2689,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D175",
           "package": "tfp",
@@ -2701,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D176",
           "package": "tfp",
@@ -2709,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D176",
           "package": "tfp",
@@ -2721,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D177",
           "package": "tfp",
@@ -2729,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D177",
           "package": "tfp",
@@ -2741,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D178",
           "package": "tfp",
@@ -2749,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D178",
           "package": "tfp",
@@ -2761,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D179",
           "package": "tfp",
@@ -2769,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D179",
           "package": "tfp",
@@ -2781,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D18",
           "package": "tfp",
@@ -2789,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D18",
           "package": "tfp",
@@ -2801,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D180",
           "package": "tfp",
@@ -2809,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D180",
           "package": "tfp",
@@ -2821,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D181",
           "package": "tfp",
@@ -2829,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D181",
           "package": "tfp",
@@ -2841,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D182",
           "package": "tfp",
@@ -2849,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D182",
           "package": "tfp",
@@ -2861,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D183",
           "package": "tfp",
@@ -2869,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D183",
           "package": "tfp",
@@ -2881,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D184",
           "package": "tfp",
@@ -2889,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D184",
           "package": "tfp",
@@ -2901,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D185",
           "package": "tfp",
@@ -2909,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D185",
           "package": "tfp",
@@ -2921,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D186",
           "package": "tfp",
@@ -2929,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D186",
           "package": "tfp",
@@ -2941,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D187",
           "package": "tfp",
@@ -2949,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D187",
           "package": "tfp",
@@ -2961,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D188",
           "package": "tfp",
@@ -2969,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D188",
           "package": "tfp",
@@ -2981,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D189",
           "package": "tfp",
@@ -2989,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D189",
           "package": "tfp",
@@ -3001,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D19",
           "package": "tfp",
@@ -3009,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D19",
           "package": "tfp",
@@ -3021,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D190",
           "package": "tfp",
@@ -3029,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D190",
           "package": "tfp",
@@ -3041,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D191",
           "package": "tfp",
@@ -3049,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D191",
           "package": "tfp",
@@ -3061,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D192",
           "package": "tfp",
@@ -3069,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D192",
           "package": "tfp",
@@ -3081,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D193",
           "package": "tfp",
@@ -3089,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D193",
           "package": "tfp",
@@ -3101,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D194",
           "package": "tfp",
@@ -3109,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D194",
           "package": "tfp",
@@ -3121,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D195",
           "package": "tfp",
@@ -3129,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D195",
           "package": "tfp",
@@ -3141,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D196",
           "package": "tfp",
@@ -3149,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D196",
           "package": "tfp",
@@ -3161,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D197",
           "package": "tfp",
@@ -3169,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D197",
           "package": "tfp",
@@ -3181,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D198",
           "package": "tfp",
@@ -3189,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D198",
           "package": "tfp",
@@ -3201,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D199",
           "package": "tfp",
@@ -3209,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D199",
           "package": "tfp",
@@ -3221,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D2",
           "package": "tfp",
@@ -3229,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D2",
           "package": "tfp",
@@ -3241,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D20",
           "package": "tfp",
@@ -3249,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D20",
           "package": "tfp",
@@ -3261,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D200",
           "package": "tfp",
@@ -3269,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D200",
           "package": "tfp",
@@ -3281,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D201",
           "package": "tfp",
@@ -3289,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D201",
           "package": "tfp",
@@ -3301,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D202",
           "package": "tfp",
@@ -3309,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D202",
           "package": "tfp",
@@ -3321,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D203",
           "package": "tfp",
@@ -3329,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D203",
           "package": "tfp",
@@ -3341,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D204",
           "package": "tfp",
@@ -3349,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D204",
           "package": "tfp",
@@ -3361,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D205",
           "package": "tfp",
@@ -3369,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D205",
           "package": "tfp",
@@ -3381,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D206",
           "package": "tfp",
@@ -3389,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D206",
           "package": "tfp",
@@ -3401,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D207",
           "package": "tfp",
@@ -3409,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D207",
           "package": "tfp",
@@ -3421,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D208",
           "package": "tfp",
@@ -3429,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D208",
           "package": "tfp",
@@ -3441,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D209",
           "package": "tfp",
@@ -3449,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D209",
           "package": "tfp",
@@ -3461,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D21",
           "package": "tfp",
@@ -3469,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D21",
           "package": "tfp",
@@ -3481,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D210",
           "package": "tfp",
@@ -3489,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D210",
           "package": "tfp",
@@ -3501,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D211",
           "package": "tfp",
@@ -3509,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D211",
           "package": "tfp",
@@ -3521,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D212",
           "package": "tfp",
@@ -3529,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D212",
           "package": "tfp",
@@ -3541,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D213",
           "package": "tfp",
@@ -3549,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D213",
           "package": "tfp",
@@ -3561,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D214",
           "package": "tfp",
@@ -3569,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D214",
           "package": "tfp",
@@ -3581,6 +3931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D215",
           "package": "tfp",
@@ -3589,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D215",
           "package": "tfp",
@@ -3601,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D216",
           "package": "tfp",
@@ -3609,6 +3962,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D216",
           "package": "tfp",
@@ -3621,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D217",
           "package": "tfp",
@@ -3629,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D217",
           "package": "tfp",
@@ -3641,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D218",
           "package": "tfp",
@@ -3649,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D218",
           "package": "tfp",
@@ -3661,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D219",
           "package": "tfp",
@@ -3669,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D219",
           "package": "tfp",
@@ -3681,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D22",
           "package": "tfp",
@@ -3689,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D22",
           "package": "tfp",
@@ -3701,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D220",
           "package": "tfp",
@@ -3709,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D220",
           "package": "tfp",
@@ -3721,6 +4085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D221",
           "package": "tfp",
@@ -3729,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D221",
           "package": "tfp",
@@ -3741,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D222",
           "package": "tfp",
@@ -3749,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D222",
           "package": "tfp",
@@ -3761,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D223",
           "package": "tfp",
@@ -3769,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D223",
           "package": "tfp",
@@ -3781,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D224",
           "package": "tfp",
@@ -3789,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D224",
           "package": "tfp",
@@ -3801,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D225",
           "package": "tfp",
@@ -3809,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D225",
           "package": "tfp",
@@ -3821,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D226",
           "package": "tfp",
@@ -3829,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D226",
           "package": "tfp",
@@ -3841,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D227",
           "package": "tfp",
@@ -3849,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D227",
           "package": "tfp",
@@ -3861,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D228",
           "package": "tfp",
@@ -3869,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D228",
           "package": "tfp",
@@ -3881,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D229",
           "package": "tfp",
@@ -3889,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D229",
           "package": "tfp",
@@ -3901,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D23",
           "package": "tfp",
@@ -3909,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D23",
           "package": "tfp",
@@ -3921,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D230",
           "package": "tfp",
@@ -3929,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D230",
           "package": "tfp",
@@ -3941,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D231",
           "package": "tfp",
@@ -3949,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D231",
           "package": "tfp",
@@ -3961,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D232",
           "package": "tfp",
@@ -3969,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D232",
           "package": "tfp",
@@ -3981,6 +4371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D233",
           "package": "tfp",
@@ -3989,6 +4380,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D233",
           "package": "tfp",
@@ -4001,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D234",
           "package": "tfp",
@@ -4009,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D234",
           "package": "tfp",
@@ -4021,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D235",
           "package": "tfp",
@@ -4029,6 +4424,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D235",
           "package": "tfp",
@@ -4041,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D236",
           "package": "tfp",
@@ -4049,6 +4446,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D236",
           "package": "tfp",
@@ -4061,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D237",
           "package": "tfp",
@@ -4069,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D237",
           "package": "tfp",
@@ -4081,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D238",
           "package": "tfp",
@@ -4089,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D238",
           "package": "tfp",
@@ -4101,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D239",
           "package": "tfp",
@@ -4109,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D239",
           "package": "tfp",
@@ -4121,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D24",
           "package": "tfp",
@@ -4129,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D24",
           "package": "tfp",
@@ -4141,6 +4547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D240",
           "package": "tfp",
@@ -4149,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D240",
           "package": "tfp",
@@ -4161,6 +4569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D241",
           "package": "tfp",
@@ -4169,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D241",
           "package": "tfp",
@@ -4181,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D242",
           "package": "tfp",
@@ -4189,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D242",
           "package": "tfp",
@@ -4201,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D243",
           "package": "tfp",
@@ -4209,6 +4622,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D243",
           "package": "tfp",
@@ -4221,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D244",
           "package": "tfp",
@@ -4229,6 +4644,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D244",
           "package": "tfp",
@@ -4241,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D245",
           "package": "tfp",
@@ -4249,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D245",
           "package": "tfp",
@@ -4261,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D246",
           "package": "tfp",
@@ -4269,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D246",
           "package": "tfp",
@@ -4281,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D247",
           "package": "tfp",
@@ -4289,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D247",
           "package": "tfp",
@@ -4301,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D248",
           "package": "tfp",
@@ -4309,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D248",
           "package": "tfp",
@@ -4321,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D249",
           "package": "tfp",
@@ -4329,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D249",
           "package": "tfp",
@@ -4341,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D25",
           "package": "tfp",
@@ -4349,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D25",
           "package": "tfp",
@@ -4361,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D250",
           "package": "tfp",
@@ -4369,6 +4798,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D250",
           "package": "tfp",
@@ -4381,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D251",
           "package": "tfp",
@@ -4389,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D251",
           "package": "tfp",
@@ -4401,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D252",
           "package": "tfp",
@@ -4409,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D252",
           "package": "tfp",
@@ -4421,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D253",
           "package": "tfp",
@@ -4429,6 +4864,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D253",
           "package": "tfp",
@@ -4441,6 +4877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D254",
           "package": "tfp",
@@ -4449,6 +4886,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D254",
           "package": "tfp",
@@ -4461,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D255",
           "package": "tfp",
@@ -4469,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D255",
           "package": "tfp",
@@ -4481,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D256",
           "package": "tfp",
@@ -4489,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D256",
           "package": "tfp",
@@ -4501,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D26",
           "package": "tfp",
@@ -4509,6 +4952,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D26",
           "package": "tfp",
@@ -4521,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D27",
           "package": "tfp",
@@ -4529,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D27",
           "package": "tfp",
@@ -4541,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D28",
           "package": "tfp",
@@ -4549,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D28",
           "package": "tfp",
@@ -4561,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D29",
           "package": "tfp",
@@ -4569,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D29",
           "package": "tfp",
@@ -4581,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D3",
           "package": "tfp",
@@ -4589,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D3",
           "package": "tfp",
@@ -4601,6 +5053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D30",
           "package": "tfp",
@@ -4609,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D30",
           "package": "tfp",
@@ -4621,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D31",
           "package": "tfp",
@@ -4629,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D31",
           "package": "tfp",
@@ -4641,6 +5097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D32",
           "package": "tfp",
@@ -4649,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D32",
           "package": "tfp",
@@ -4661,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D33",
           "package": "tfp",
@@ -4669,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D33",
           "package": "tfp",
@@ -4681,6 +5141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D34",
           "package": "tfp",
@@ -4689,6 +5150,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D34",
           "package": "tfp",
@@ -4701,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D35",
           "package": "tfp",
@@ -4709,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D35",
           "package": "tfp",
@@ -4721,6 +5185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D36",
           "package": "tfp",
@@ -4729,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D36",
           "package": "tfp",
@@ -4741,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D37",
           "package": "tfp",
@@ -4749,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D37",
           "package": "tfp",
@@ -4761,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D38",
           "package": "tfp",
@@ -4769,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D38",
           "package": "tfp",
@@ -4781,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D39",
           "package": "tfp",
@@ -4789,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D39",
           "package": "tfp",
@@ -4801,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D4",
           "package": "tfp",
@@ -4809,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D4",
           "package": "tfp",
@@ -4821,6 +5295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D40",
           "package": "tfp",
@@ -4829,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D40",
           "package": "tfp",
@@ -4841,6 +5317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D41",
           "package": "tfp",
@@ -4849,6 +5326,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D41",
           "package": "tfp",
@@ -4861,6 +5339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D42",
           "package": "tfp",
@@ -4869,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D42",
           "package": "tfp",
@@ -4881,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D43",
           "package": "tfp",
@@ -4889,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D43",
           "package": "tfp",
@@ -4901,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D44",
           "package": "tfp",
@@ -4909,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D44",
           "package": "tfp",
@@ -4921,6 +5405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D45",
           "package": "tfp",
@@ -4929,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D45",
           "package": "tfp",
@@ -4941,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D46",
           "package": "tfp",
@@ -4949,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D46",
           "package": "tfp",
@@ -4961,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D47",
           "package": "tfp",
@@ -4969,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D47",
           "package": "tfp",
@@ -4981,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D48",
           "package": "tfp",
@@ -4989,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D48",
           "package": "tfp",
@@ -5001,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D49",
           "package": "tfp",
@@ -5009,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D49",
           "package": "tfp",
@@ -5021,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D5",
           "package": "tfp",
@@ -5029,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D5",
           "package": "tfp",
@@ -5041,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D50",
           "package": "tfp",
@@ -5049,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D50",
           "package": "tfp",
@@ -5061,6 +5559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D51",
           "package": "tfp",
@@ -5069,6 +5568,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D51",
           "package": "tfp",
@@ -5081,6 +5581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D52",
           "package": "tfp",
@@ -5089,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D52",
           "package": "tfp",
@@ -5101,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D53",
           "package": "tfp",
@@ -5109,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D53",
           "package": "tfp",
@@ -5121,6 +5625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D54",
           "package": "tfp",
@@ -5129,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D54",
           "package": "tfp",
@@ -5141,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D55",
           "package": "tfp",
@@ -5149,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D55",
           "package": "tfp",
@@ -5161,6 +5669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D56",
           "package": "tfp",
@@ -5169,6 +5678,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D56",
           "package": "tfp",
@@ -5181,6 +5691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D57",
           "package": "tfp",
@@ -5189,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D57",
           "package": "tfp",
@@ -5201,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D58",
           "package": "tfp",
@@ -5209,6 +5722,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D58",
           "package": "tfp",
@@ -5221,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D59",
           "package": "tfp",
@@ -5229,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D59",
           "package": "tfp",
@@ -5241,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D6",
           "package": "tfp",
@@ -5249,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D6",
           "package": "tfp",
@@ -5261,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D60",
           "package": "tfp",
@@ -5269,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D60",
           "package": "tfp",
@@ -5281,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D61",
           "package": "tfp",
@@ -5289,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D61",
           "package": "tfp",
@@ -5301,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D62",
           "package": "tfp",
@@ -5309,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D62",
           "package": "tfp",
@@ -5321,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D63",
           "package": "tfp",
@@ -5329,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D63",
           "package": "tfp",
@@ -5341,6 +5867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D64",
           "package": "tfp",
@@ -5349,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D64",
           "package": "tfp",
@@ -5361,6 +5889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D65",
           "package": "tfp",
@@ -5369,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D65",
           "package": "tfp",
@@ -5381,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D66",
           "package": "tfp",
@@ -5389,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D66",
           "package": "tfp",
@@ -5401,6 +5933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D67",
           "package": "tfp",
@@ -5409,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D67",
           "package": "tfp",
@@ -5421,6 +5955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D68",
           "package": "tfp",
@@ -5429,6 +5964,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D68",
           "package": "tfp",
@@ -5441,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D69",
           "package": "tfp",
@@ -5449,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D69",
           "package": "tfp",
@@ -5461,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D7",
           "package": "tfp",
@@ -5469,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D7",
           "package": "tfp",
@@ -5481,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D70",
           "package": "tfp",
@@ -5489,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D70",
           "package": "tfp",
@@ -5501,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D71",
           "package": "tfp",
@@ -5509,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D71",
           "package": "tfp",
@@ -5521,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D72",
           "package": "tfp",
@@ -5529,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D72",
           "package": "tfp",
@@ -5541,6 +6087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D73",
           "package": "tfp",
@@ -5549,6 +6096,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D73",
           "package": "tfp",
@@ -5561,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D74",
           "package": "tfp",
@@ -5569,6 +6118,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D74",
           "package": "tfp",
@@ -5581,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D75",
           "package": "tfp",
@@ -5589,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D75",
           "package": "tfp",
@@ -5601,6 +6153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D76",
           "package": "tfp",
@@ -5609,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D76",
           "package": "tfp",
@@ -5621,6 +6175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D77",
           "package": "tfp",
@@ -5629,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D77",
           "package": "tfp",
@@ -5641,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D78",
           "package": "tfp",
@@ -5649,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D78",
           "package": "tfp",
@@ -5661,6 +6219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D79",
           "package": "tfp",
@@ -5669,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D79",
           "package": "tfp",
@@ -5681,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D8",
           "package": "tfp",
@@ -5689,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D8",
           "package": "tfp",
@@ -5701,6 +6263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D80",
           "package": "tfp",
@@ -5709,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D80",
           "package": "tfp",
@@ -5721,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D81",
           "package": "tfp",
@@ -5729,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D81",
           "package": "tfp",
@@ -5741,6 +6307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D82",
           "package": "tfp",
@@ -5749,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D82",
           "package": "tfp",
@@ -5761,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D83",
           "package": "tfp",
@@ -5769,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D83",
           "package": "tfp",
@@ -5781,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D84",
           "package": "tfp",
@@ -5789,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D84",
           "package": "tfp",
@@ -5801,6 +6373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D85",
           "package": "tfp",
@@ -5809,6 +6382,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D85",
           "package": "tfp",
@@ -5821,6 +6395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D86",
           "package": "tfp",
@@ -5829,6 +6404,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D86",
           "package": "tfp",
@@ -5841,6 +6417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D87",
           "package": "tfp",
@@ -5849,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D87",
           "package": "tfp",
@@ -5861,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D88",
           "package": "tfp",
@@ -5869,6 +6448,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D88",
           "package": "tfp",
@@ -5881,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D89",
           "package": "tfp",
@@ -5889,6 +6470,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D89",
           "package": "tfp",
@@ -5901,6 +6483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D9",
           "package": "tfp",
@@ -5909,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D9",
           "package": "tfp",
@@ -5921,6 +6505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D90",
           "package": "tfp",
@@ -5929,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D90",
           "package": "tfp",
@@ -5941,6 +6527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D91",
           "package": "tfp",
@@ -5949,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D91",
           "package": "tfp",
@@ -5961,6 +6549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D92",
           "package": "tfp",
@@ -5969,6 +6558,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D92",
           "package": "tfp",
@@ -5981,6 +6571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D93",
           "package": "tfp",
@@ -5989,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D93",
           "package": "tfp",
@@ -6001,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D94",
           "package": "tfp",
@@ -6009,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D94",
           "package": "tfp",
@@ -6021,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D95",
           "package": "tfp",
@@ -6029,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D95",
           "package": "tfp",
@@ -6041,6 +6637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D96",
           "package": "tfp",
@@ -6049,6 +6646,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D96",
           "package": "tfp",
@@ -6061,6 +6659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D97",
           "package": "tfp",
@@ -6069,6 +6668,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D97",
           "package": "tfp",
@@ -6081,6 +6681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D98",
           "package": "tfp",
@@ -6089,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D98",
           "package": "tfp",
@@ -6101,6 +6703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D99",
           "package": "tfp",
@@ -6109,6 +6712,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "D99",
           "package": "tfp",
@@ -6121,6 +6725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN1",
           "package": "tfp",
@@ -6129,6 +6734,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN1",
           "package": "tfp",
@@ -6142,6 +6748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN10",
           "package": "tfp",
@@ -6150,6 +6757,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN10",
           "package": "tfp",
@@ -6163,6 +6771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN100",
           "package": "tfp",
@@ -6171,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN100",
           "package": "tfp",
@@ -6184,6 +6794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN101",
           "package": "tfp",
@@ -6192,6 +6803,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN101",
           "package": "tfp",
@@ -6205,6 +6817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN102",
           "package": "tfp",
@@ -6213,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN102",
           "package": "tfp",
@@ -6226,6 +6840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN103",
           "package": "tfp",
@@ -6234,6 +6849,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN103",
           "package": "tfp",
@@ -6247,6 +6863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN104",
           "package": "tfp",
@@ -6255,6 +6872,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN104",
           "package": "tfp",
@@ -6268,6 +6886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN105",
           "package": "tfp",
@@ -6276,6 +6895,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN105",
           "package": "tfp",
@@ -6289,6 +6909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN106",
           "package": "tfp",
@@ -6297,6 +6918,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN106",
           "package": "tfp",
@@ -6310,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN107",
           "package": "tfp",
@@ -6318,6 +6941,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN107",
           "package": "tfp",
@@ -6331,6 +6955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN108",
           "package": "tfp",
@@ -6339,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN108",
           "package": "tfp",
@@ -6352,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN109",
           "package": "tfp",
@@ -6360,6 +6987,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN109",
           "package": "tfp",
@@ -6373,6 +7001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN11",
           "package": "tfp",
@@ -6381,6 +7010,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN11",
           "package": "tfp",
@@ -6394,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN110",
           "package": "tfp",
@@ -6402,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN110",
           "package": "tfp",
@@ -6415,6 +7047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN111",
           "package": "tfp",
@@ -6423,6 +7056,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN111",
           "package": "tfp",
@@ -6436,6 +7070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN112",
           "package": "tfp",
@@ -6444,6 +7079,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN112",
           "package": "tfp",
@@ -6457,6 +7093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN113",
           "package": "tfp",
@@ -6465,6 +7102,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN113",
           "package": "tfp",
@@ -6478,6 +7116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN114",
           "package": "tfp",
@@ -6486,6 +7125,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN114",
           "package": "tfp",
@@ -6499,6 +7139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN115",
           "package": "tfp",
@@ -6507,6 +7148,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN115",
           "package": "tfp",
@@ -6520,6 +7162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN116",
           "package": "tfp",
@@ -6528,6 +7171,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN116",
           "package": "tfp",
@@ -6541,6 +7185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN117",
           "package": "tfp",
@@ -6549,6 +7194,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN117",
           "package": "tfp",
@@ -6562,6 +7208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN118",
           "package": "tfp",
@@ -6570,6 +7217,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN118",
           "package": "tfp",
@@ -6583,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN119",
           "package": "tfp",
@@ -6591,6 +7240,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN119",
           "package": "tfp",
@@ -6604,6 +7254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN12",
           "package": "tfp",
@@ -6612,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN12",
           "package": "tfp",
@@ -6625,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN120",
           "package": "tfp",
@@ -6633,6 +7286,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN120",
           "package": "tfp",
@@ -6646,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN121",
           "package": "tfp",
@@ -6654,6 +7309,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN121",
           "package": "tfp",
@@ -6667,6 +7323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN122",
           "package": "tfp",
@@ -6675,6 +7332,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN122",
           "package": "tfp",
@@ -6688,6 +7346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN123",
           "package": "tfp",
@@ -6696,6 +7355,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN123",
           "package": "tfp",
@@ -6709,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN124",
           "package": "tfp",
@@ -6717,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN124",
           "package": "tfp",
@@ -6730,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN125",
           "package": "tfp",
@@ -6738,6 +7401,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN125",
           "package": "tfp",
@@ -6751,6 +7415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN126",
           "package": "tfp",
@@ -6759,6 +7424,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN126",
           "package": "tfp",
@@ -6772,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN127",
           "package": "tfp",
@@ -6780,6 +7447,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN127",
           "package": "tfp",
@@ -6793,6 +7461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN128",
           "package": "tfp",
@@ -6801,6 +7470,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN128",
           "package": "tfp",
@@ -6814,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN129",
           "package": "tfp",
@@ -6822,6 +7493,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN129",
           "package": "tfp",
@@ -6835,6 +7507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN13",
           "package": "tfp",
@@ -6843,6 +7516,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN13",
           "package": "tfp",
@@ -6856,6 +7530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN130",
           "package": "tfp",
@@ -6864,6 +7539,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN130",
           "package": "tfp",
@@ -6877,6 +7553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN131",
           "package": "tfp",
@@ -6885,6 +7562,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN131",
           "package": "tfp",
@@ -6898,6 +7576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN132",
           "package": "tfp",
@@ -6906,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN132",
           "package": "tfp",
@@ -6919,6 +7599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN133",
           "package": "tfp",
@@ -6927,6 +7608,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN133",
           "package": "tfp",
@@ -6940,6 +7622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN134",
           "package": "tfp",
@@ -6948,6 +7631,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN134",
           "package": "tfp",
@@ -6961,6 +7645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN135",
           "package": "tfp",
@@ -6969,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN135",
           "package": "tfp",
@@ -6982,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN136",
           "package": "tfp",
@@ -6990,6 +7677,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN136",
           "package": "tfp",
@@ -7003,6 +7691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN137",
           "package": "tfp",
@@ -7011,6 +7700,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN137",
           "package": "tfp",
@@ -7024,6 +7714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN138",
           "package": "tfp",
@@ -7032,6 +7723,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN138",
           "package": "tfp",
@@ -7045,6 +7737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN139",
           "package": "tfp",
@@ -7053,6 +7746,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN139",
           "package": "tfp",
@@ -7066,6 +7760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN14",
           "package": "tfp",
@@ -7074,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN14",
           "package": "tfp",
@@ -7087,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN140",
           "package": "tfp",
@@ -7095,6 +7792,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN140",
           "package": "tfp",
@@ -7108,6 +7806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN141",
           "package": "tfp",
@@ -7116,6 +7815,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN141",
           "package": "tfp",
@@ -7129,6 +7829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN142",
           "package": "tfp",
@@ -7137,6 +7838,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN142",
           "package": "tfp",
@@ -7150,6 +7852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN143",
           "package": "tfp",
@@ -7158,6 +7861,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN143",
           "package": "tfp",
@@ -7171,6 +7875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN144",
           "package": "tfp",
@@ -7179,6 +7884,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN144",
           "package": "tfp",
@@ -7192,6 +7898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN145",
           "package": "tfp",
@@ -7200,6 +7907,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN145",
           "package": "tfp",
@@ -7213,6 +7921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN146",
           "package": "tfp",
@@ -7221,6 +7930,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN146",
           "package": "tfp",
@@ -7234,6 +7944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN147",
           "package": "tfp",
@@ -7242,6 +7953,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN147",
           "package": "tfp",
@@ -7255,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN148",
           "package": "tfp",
@@ -7263,6 +7976,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN148",
           "package": "tfp",
@@ -7276,6 +7990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN149",
           "package": "tfp",
@@ -7284,6 +7999,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN149",
           "package": "tfp",
@@ -7297,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN15",
           "package": "tfp",
@@ -7305,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN15",
           "package": "tfp",
@@ -7318,6 +8036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN150",
           "package": "tfp",
@@ -7326,6 +8045,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN150",
           "package": "tfp",
@@ -7339,6 +8059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN151",
           "package": "tfp",
@@ -7347,6 +8068,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN151",
           "package": "tfp",
@@ -7360,6 +8082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN152",
           "package": "tfp",
@@ -7368,6 +8091,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN152",
           "package": "tfp",
@@ -7381,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN153",
           "package": "tfp",
@@ -7389,6 +8114,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN153",
           "package": "tfp",
@@ -7402,6 +8128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN154",
           "package": "tfp",
@@ -7410,6 +8137,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN154",
           "package": "tfp",
@@ -7423,6 +8151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN155",
           "package": "tfp",
@@ -7431,6 +8160,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN155",
           "package": "tfp",
@@ -7444,6 +8174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN156",
           "package": "tfp",
@@ -7452,6 +8183,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN156",
           "package": "tfp",
@@ -7465,6 +8197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN157",
           "package": "tfp",
@@ -7473,6 +8206,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN157",
           "package": "tfp",
@@ -7486,6 +8220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN158",
           "package": "tfp",
@@ -7494,6 +8229,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN158",
           "package": "tfp",
@@ -7507,6 +8243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN159",
           "package": "tfp",
@@ -7515,6 +8252,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN159",
           "package": "tfp",
@@ -7528,6 +8266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN16",
           "package": "tfp",
@@ -7536,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN16",
           "package": "tfp",
@@ -7549,6 +8289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN160",
           "package": "tfp",
@@ -7557,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN160",
           "package": "tfp",
@@ -7570,6 +8312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN161",
           "package": "tfp",
@@ -7578,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN161",
           "package": "tfp",
@@ -7591,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN162",
           "package": "tfp",
@@ -7599,6 +8344,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN162",
           "package": "tfp",
@@ -7612,6 +8358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN163",
           "package": "tfp",
@@ -7620,6 +8367,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN163",
           "package": "tfp",
@@ -7633,6 +8381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN164",
           "package": "tfp",
@@ -7641,6 +8390,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN164",
           "package": "tfp",
@@ -7654,6 +8404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN165",
           "package": "tfp",
@@ -7662,6 +8413,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN165",
           "package": "tfp",
@@ -7675,6 +8427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN166",
           "package": "tfp",
@@ -7683,6 +8436,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN166",
           "package": "tfp",
@@ -7696,6 +8450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN167",
           "package": "tfp",
@@ -7704,6 +8459,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN167",
           "package": "tfp",
@@ -7717,6 +8473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN168",
           "package": "tfp",
@@ -7725,6 +8482,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN168",
           "package": "tfp",
@@ -7738,6 +8496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN169",
           "package": "tfp",
@@ -7746,6 +8505,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN169",
           "package": "tfp",
@@ -7759,6 +8519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN17",
           "package": "tfp",
@@ -7767,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN17",
           "package": "tfp",
@@ -7780,6 +8542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN170",
           "package": "tfp",
@@ -7788,6 +8551,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN170",
           "package": "tfp",
@@ -7801,6 +8565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN171",
           "package": "tfp",
@@ -7809,6 +8574,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN171",
           "package": "tfp",
@@ -7822,6 +8588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN172",
           "package": "tfp",
@@ -7830,6 +8597,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN172",
           "package": "tfp",
@@ -7843,6 +8611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN173",
           "package": "tfp",
@@ -7851,6 +8620,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN173",
           "package": "tfp",
@@ -7864,6 +8634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN174",
           "package": "tfp",
@@ -7872,6 +8643,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN174",
           "package": "tfp",
@@ -7885,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN175",
           "package": "tfp",
@@ -7893,6 +8666,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN175",
           "package": "tfp",
@@ -7906,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN176",
           "package": "tfp",
@@ -7914,6 +8689,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN176",
           "package": "tfp",
@@ -7927,6 +8703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN177",
           "package": "tfp",
@@ -7935,6 +8712,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN177",
           "package": "tfp",
@@ -7948,6 +8726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN178",
           "package": "tfp",
@@ -7956,6 +8735,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN178",
           "package": "tfp",
@@ -7969,6 +8749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN179",
           "package": "tfp",
@@ -7977,6 +8758,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN179",
           "package": "tfp",
@@ -7990,6 +8772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN18",
           "package": "tfp",
@@ -7998,6 +8781,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN18",
           "package": "tfp",
@@ -8011,6 +8795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN180",
           "package": "tfp",
@@ -8019,6 +8804,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN180",
           "package": "tfp",
@@ -8032,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN181",
           "package": "tfp",
@@ -8040,6 +8827,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN181",
           "package": "tfp",
@@ -8053,6 +8841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN182",
           "package": "tfp",
@@ -8061,6 +8850,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN182",
           "package": "tfp",
@@ -8074,6 +8864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN183",
           "package": "tfp",
@@ -8082,6 +8873,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN183",
           "package": "tfp",
@@ -8095,6 +8887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN184",
           "package": "tfp",
@@ -8103,6 +8896,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN184",
           "package": "tfp",
@@ -8116,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN185",
           "package": "tfp",
@@ -8124,6 +8919,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN185",
           "package": "tfp",
@@ -8137,6 +8933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN186",
           "package": "tfp",
@@ -8145,6 +8942,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN186",
           "package": "tfp",
@@ -8158,6 +8956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN187",
           "package": "tfp",
@@ -8166,6 +8965,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN187",
           "package": "tfp",
@@ -8179,6 +8979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN188",
           "package": "tfp",
@@ -8187,6 +8988,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN188",
           "package": "tfp",
@@ -8200,6 +9002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN189",
           "package": "tfp",
@@ -8208,6 +9011,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN189",
           "package": "tfp",
@@ -8221,6 +9025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN19",
           "package": "tfp",
@@ -8229,6 +9034,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN19",
           "package": "tfp",
@@ -8242,6 +9048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN190",
           "package": "tfp",
@@ -8250,6 +9057,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN190",
           "package": "tfp",
@@ -8263,6 +9071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN191",
           "package": "tfp",
@@ -8271,6 +9080,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN191",
           "package": "tfp",
@@ -8284,6 +9094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN192",
           "package": "tfp",
@@ -8292,6 +9103,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN192",
           "package": "tfp",
@@ -8305,6 +9117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN193",
           "package": "tfp",
@@ -8313,6 +9126,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN193",
           "package": "tfp",
@@ -8326,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN194",
           "package": "tfp",
@@ -8334,6 +9149,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN194",
           "package": "tfp",
@@ -8347,6 +9163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN195",
           "package": "tfp",
@@ -8355,6 +9172,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN195",
           "package": "tfp",
@@ -8368,6 +9186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN196",
           "package": "tfp",
@@ -8376,6 +9195,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN196",
           "package": "tfp",
@@ -8389,6 +9209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN197",
           "package": "tfp",
@@ -8397,6 +9218,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN197",
           "package": "tfp",
@@ -8410,6 +9232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN198",
           "package": "tfp",
@@ -8418,6 +9241,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN198",
           "package": "tfp",
@@ -8431,6 +9255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN199",
           "package": "tfp",
@@ -8439,6 +9264,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN199",
           "package": "tfp",
@@ -8452,6 +9278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN2",
           "package": "tfp",
@@ -8460,6 +9287,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN2",
           "package": "tfp",
@@ -8473,6 +9301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN20",
           "package": "tfp",
@@ -8481,6 +9310,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN20",
           "package": "tfp",
@@ -8494,6 +9324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN200",
           "package": "tfp",
@@ -8502,6 +9333,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN200",
           "package": "tfp",
@@ -8515,6 +9347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN201",
           "package": "tfp",
@@ -8523,6 +9356,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN201",
           "package": "tfp",
@@ -8536,6 +9370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN202",
           "package": "tfp",
@@ -8544,6 +9379,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN202",
           "package": "tfp",
@@ -8557,6 +9393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN203",
           "package": "tfp",
@@ -8565,6 +9402,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN203",
           "package": "tfp",
@@ -8578,6 +9416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN204",
           "package": "tfp",
@@ -8586,6 +9425,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN204",
           "package": "tfp",
@@ -8599,6 +9439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN205",
           "package": "tfp",
@@ -8607,6 +9448,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN205",
           "package": "tfp",
@@ -8620,6 +9462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN206",
           "package": "tfp",
@@ -8628,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN206",
           "package": "tfp",
@@ -8641,6 +9485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN207",
           "package": "tfp",
@@ -8649,6 +9494,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN207",
           "package": "tfp",
@@ -8662,6 +9508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN208",
           "package": "tfp",
@@ -8670,6 +9517,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN208",
           "package": "tfp",
@@ -8683,6 +9531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN209",
           "package": "tfp",
@@ -8691,6 +9540,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN209",
           "package": "tfp",
@@ -8704,6 +9554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN21",
           "package": "tfp",
@@ -8712,6 +9563,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN21",
           "package": "tfp",
@@ -8725,6 +9577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN210",
           "package": "tfp",
@@ -8733,6 +9586,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN210",
           "package": "tfp",
@@ -8746,6 +9600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN211",
           "package": "tfp",
@@ -8754,6 +9609,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN211",
           "package": "tfp",
@@ -8767,6 +9623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN212",
           "package": "tfp",
@@ -8775,6 +9632,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN212",
           "package": "tfp",
@@ -8788,6 +9646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN213",
           "package": "tfp",
@@ -8796,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN213",
           "package": "tfp",
@@ -8809,6 +9669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN214",
           "package": "tfp",
@@ -8817,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN214",
           "package": "tfp",
@@ -8830,6 +9692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN215",
           "package": "tfp",
@@ -8838,6 +9701,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN215",
           "package": "tfp",
@@ -8851,6 +9715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN216",
           "package": "tfp",
@@ -8859,6 +9724,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN216",
           "package": "tfp",
@@ -8872,6 +9738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN217",
           "package": "tfp",
@@ -8880,6 +9747,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN217",
           "package": "tfp",
@@ -8893,6 +9761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN218",
           "package": "tfp",
@@ -8901,6 +9770,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN218",
           "package": "tfp",
@@ -8914,6 +9784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN219",
           "package": "tfp",
@@ -8922,6 +9793,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN219",
           "package": "tfp",
@@ -8935,6 +9807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN22",
           "package": "tfp",
@@ -8943,6 +9816,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN22",
           "package": "tfp",
@@ -8956,6 +9830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN220",
           "package": "tfp",
@@ -8964,6 +9839,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN220",
           "package": "tfp",
@@ -8977,6 +9853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN221",
           "package": "tfp",
@@ -8985,6 +9862,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN221",
           "package": "tfp",
@@ -8998,6 +9876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN222",
           "package": "tfp",
@@ -9006,6 +9885,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN222",
           "package": "tfp",
@@ -9019,6 +9899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN223",
           "package": "tfp",
@@ -9027,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN223",
           "package": "tfp",
@@ -9040,6 +9922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN224",
           "package": "tfp",
@@ -9048,6 +9931,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN224",
           "package": "tfp",
@@ -9061,6 +9945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN225",
           "package": "tfp",
@@ -9069,6 +9954,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN225",
           "package": "tfp",
@@ -9082,6 +9968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN226",
           "package": "tfp",
@@ -9090,6 +9977,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN226",
           "package": "tfp",
@@ -9103,6 +9991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN227",
           "package": "tfp",
@@ -9111,6 +10000,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN227",
           "package": "tfp",
@@ -9124,6 +10014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN228",
           "package": "tfp",
@@ -9132,6 +10023,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN228",
           "package": "tfp",
@@ -9145,6 +10037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN229",
           "package": "tfp",
@@ -9153,6 +10046,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN229",
           "package": "tfp",
@@ -9166,6 +10060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN23",
           "package": "tfp",
@@ -9174,6 +10069,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN23",
           "package": "tfp",
@@ -9187,6 +10083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN230",
           "package": "tfp",
@@ -9195,6 +10092,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN230",
           "package": "tfp",
@@ -9208,6 +10106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN231",
           "package": "tfp",
@@ -9216,6 +10115,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN231",
           "package": "tfp",
@@ -9229,6 +10129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN232",
           "package": "tfp",
@@ -9237,6 +10138,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN232",
           "package": "tfp",
@@ -9250,6 +10152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN233",
           "package": "tfp",
@@ -9258,6 +10161,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN233",
           "package": "tfp",
@@ -9271,6 +10175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN234",
           "package": "tfp",
@@ -9279,6 +10184,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN234",
           "package": "tfp",
@@ -9292,6 +10198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN235",
           "package": "tfp",
@@ -9300,6 +10207,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN235",
           "package": "tfp",
@@ -9313,6 +10221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN236",
           "package": "tfp",
@@ -9321,6 +10230,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN236",
           "package": "tfp",
@@ -9334,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN237",
           "package": "tfp",
@@ -9342,6 +10253,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN237",
           "package": "tfp",
@@ -9355,6 +10267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN238",
           "package": "tfp",
@@ -9363,6 +10276,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN238",
           "package": "tfp",
@@ -9376,6 +10290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN239",
           "package": "tfp",
@@ -9384,6 +10299,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN239",
           "package": "tfp",
@@ -9397,6 +10313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN24",
           "package": "tfp",
@@ -9405,6 +10322,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN24",
           "package": "tfp",
@@ -9418,6 +10336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN240",
           "package": "tfp",
@@ -9426,6 +10345,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN240",
           "package": "tfp",
@@ -9439,6 +10359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN241",
           "package": "tfp",
@@ -9447,6 +10368,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN241",
           "package": "tfp",
@@ -9460,6 +10382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN242",
           "package": "tfp",
@@ -9468,6 +10391,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN242",
           "package": "tfp",
@@ -9481,6 +10405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN243",
           "package": "tfp",
@@ -9489,6 +10414,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN243",
           "package": "tfp",
@@ -9502,6 +10428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN244",
           "package": "tfp",
@@ -9510,6 +10437,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN244",
           "package": "tfp",
@@ -9523,6 +10451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN245",
           "package": "tfp",
@@ -9531,6 +10460,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN245",
           "package": "tfp",
@@ -9544,6 +10474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN246",
           "package": "tfp",
@@ -9552,6 +10483,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN246",
           "package": "tfp",
@@ -9565,6 +10497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN247",
           "package": "tfp",
@@ -9573,6 +10506,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN247",
           "package": "tfp",
@@ -9586,6 +10520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN248",
           "package": "tfp",
@@ -9594,6 +10529,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN248",
           "package": "tfp",
@@ -9607,6 +10543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN249",
           "package": "tfp",
@@ -9615,6 +10552,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN249",
           "package": "tfp",
@@ -9628,6 +10566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN25",
           "package": "tfp",
@@ -9636,6 +10575,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN25",
           "package": "tfp",
@@ -9649,6 +10589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN250",
           "package": "tfp",
@@ -9657,6 +10598,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN250",
           "package": "tfp",
@@ -9670,6 +10612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN251",
           "package": "tfp",
@@ -9678,6 +10621,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN251",
           "package": "tfp",
@@ -9691,6 +10635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN252",
           "package": "tfp",
@@ -9699,6 +10644,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN252",
           "package": "tfp",
@@ -9712,6 +10658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN253",
           "package": "tfp",
@@ -9720,6 +10667,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN253",
           "package": "tfp",
@@ -9733,6 +10681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN254",
           "package": "tfp",
@@ -9741,6 +10690,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN254",
           "package": "tfp",
@@ -9754,6 +10704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN255",
           "package": "tfp",
@@ -9762,6 +10713,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN255",
           "package": "tfp",
@@ -9775,6 +10727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN256",
           "package": "tfp",
@@ -9783,6 +10736,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN256",
           "package": "tfp",
@@ -9796,6 +10750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN26",
           "package": "tfp",
@@ -9804,6 +10759,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN26",
           "package": "tfp",
@@ -9817,6 +10773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN27",
           "package": "tfp",
@@ -9825,6 +10782,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN27",
           "package": "tfp",
@@ -9838,6 +10796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN28",
           "package": "tfp",
@@ -9846,6 +10805,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN28",
           "package": "tfp",
@@ -9859,6 +10819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN29",
           "package": "tfp",
@@ -9867,6 +10828,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN29",
           "package": "tfp",
@@ -9880,6 +10842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN3",
           "package": "tfp",
@@ -9888,6 +10851,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN3",
           "package": "tfp",
@@ -9901,6 +10865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN30",
           "package": "tfp",
@@ -9909,6 +10874,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN30",
           "package": "tfp",
@@ -9922,6 +10888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN31",
           "package": "tfp",
@@ -9930,6 +10897,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN31",
           "package": "tfp",
@@ -9943,6 +10911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN32",
           "package": "tfp",
@@ -9951,6 +10920,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN32",
           "package": "tfp",
@@ -9964,6 +10934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN33",
           "package": "tfp",
@@ -9972,6 +10943,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN33",
           "package": "tfp",
@@ -9985,6 +10957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN34",
           "package": "tfp",
@@ -9993,6 +10966,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN34",
           "package": "tfp",
@@ -10006,6 +10980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN35",
           "package": "tfp",
@@ -10014,6 +10989,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN35",
           "package": "tfp",
@@ -10027,6 +11003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN36",
           "package": "tfp",
@@ -10035,6 +11012,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN36",
           "package": "tfp",
@@ -10048,6 +11026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN37",
           "package": "tfp",
@@ -10056,6 +11035,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN37",
           "package": "tfp",
@@ -10069,6 +11049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN38",
           "package": "tfp",
@@ -10077,6 +11058,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN38",
           "package": "tfp",
@@ -10090,6 +11072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN39",
           "package": "tfp",
@@ -10098,6 +11081,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN39",
           "package": "tfp",
@@ -10111,6 +11095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN4",
           "package": "tfp",
@@ -10119,6 +11104,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN4",
           "package": "tfp",
@@ -10132,6 +11118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN40",
           "package": "tfp",
@@ -10140,6 +11127,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN40",
           "package": "tfp",
@@ -10153,6 +11141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN41",
           "package": "tfp",
@@ -10161,6 +11150,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN41",
           "package": "tfp",
@@ -10174,6 +11164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN42",
           "package": "tfp",
@@ -10182,6 +11173,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN42",
           "package": "tfp",
@@ -10195,6 +11187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN43",
           "package": "tfp",
@@ -10203,6 +11196,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN43",
           "package": "tfp",
@@ -10216,6 +11210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN44",
           "package": "tfp",
@@ -10224,6 +11219,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN44",
           "package": "tfp",
@@ -10237,6 +11233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN45",
           "package": "tfp",
@@ -10245,6 +11242,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN45",
           "package": "tfp",
@@ -10258,6 +11256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN46",
           "package": "tfp",
@@ -10266,6 +11265,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN46",
           "package": "tfp",
@@ -10279,6 +11279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN47",
           "package": "tfp",
@@ -10287,6 +11288,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN47",
           "package": "tfp",
@@ -10300,6 +11302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN48",
           "package": "tfp",
@@ -10308,6 +11311,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN48",
           "package": "tfp",
@@ -10321,6 +11325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN49",
           "package": "tfp",
@@ -10329,6 +11334,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN49",
           "package": "tfp",
@@ -10342,6 +11348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN5",
           "package": "tfp",
@@ -10350,6 +11357,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN5",
           "package": "tfp",
@@ -10363,6 +11371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN50",
           "package": "tfp",
@@ -10371,6 +11380,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN50",
           "package": "tfp",
@@ -10384,6 +11394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN51",
           "package": "tfp",
@@ -10392,6 +11403,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN51",
           "package": "tfp",
@@ -10405,6 +11417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN52",
           "package": "tfp",
@@ -10413,6 +11426,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN52",
           "package": "tfp",
@@ -10426,6 +11440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN53",
           "package": "tfp",
@@ -10434,6 +11449,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN53",
           "package": "tfp",
@@ -10447,6 +11463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN54",
           "package": "tfp",
@@ -10455,6 +11472,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN54",
           "package": "tfp",
@@ -10468,6 +11486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN55",
           "package": "tfp",
@@ -10476,6 +11495,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN55",
           "package": "tfp",
@@ -10489,6 +11509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN56",
           "package": "tfp",
@@ -10497,6 +11518,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN56",
           "package": "tfp",
@@ -10510,6 +11532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN57",
           "package": "tfp",
@@ -10518,6 +11541,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN57",
           "package": "tfp",
@@ -10531,6 +11555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN58",
           "package": "tfp",
@@ -10539,6 +11564,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN58",
           "package": "tfp",
@@ -10552,6 +11578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN59",
           "package": "tfp",
@@ -10560,6 +11587,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN59",
           "package": "tfp",
@@ -10573,6 +11601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN6",
           "package": "tfp",
@@ -10581,6 +11610,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN6",
           "package": "tfp",
@@ -10594,6 +11624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN60",
           "package": "tfp",
@@ -10602,6 +11633,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN60",
           "package": "tfp",
@@ -10615,6 +11647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN61",
           "package": "tfp",
@@ -10623,6 +11656,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN61",
           "package": "tfp",
@@ -10636,6 +11670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN62",
           "package": "tfp",
@@ -10644,6 +11679,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN62",
           "package": "tfp",
@@ -10657,6 +11693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN63",
           "package": "tfp",
@@ -10665,6 +11702,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN63",
           "package": "tfp",
@@ -10678,6 +11716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN64",
           "package": "tfp",
@@ -10686,6 +11725,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN64",
           "package": "tfp",
@@ -10699,6 +11739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN65",
           "package": "tfp",
@@ -10707,6 +11748,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN65",
           "package": "tfp",
@@ -10720,6 +11762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN66",
           "package": "tfp",
@@ -10728,6 +11771,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN66",
           "package": "tfp",
@@ -10741,6 +11785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN67",
           "package": "tfp",
@@ -10749,6 +11794,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN67",
           "package": "tfp",
@@ -10762,6 +11808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN68",
           "package": "tfp",
@@ -10770,6 +11817,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN68",
           "package": "tfp",
@@ -10783,6 +11831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN69",
           "package": "tfp",
@@ -10791,6 +11840,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN69",
           "package": "tfp",
@@ -10804,6 +11854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN7",
           "package": "tfp",
@@ -10812,6 +11863,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN7",
           "package": "tfp",
@@ -10825,6 +11877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN70",
           "package": "tfp",
@@ -10833,6 +11886,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN70",
           "package": "tfp",
@@ -10846,6 +11900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN71",
           "package": "tfp",
@@ -10854,6 +11909,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN71",
           "package": "tfp",
@@ -10867,6 +11923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN72",
           "package": "tfp",
@@ -10875,6 +11932,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN72",
           "package": "tfp",
@@ -10888,6 +11946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN73",
           "package": "tfp",
@@ -10896,6 +11955,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN73",
           "package": "tfp",
@@ -10909,6 +11969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN74",
           "package": "tfp",
@@ -10917,6 +11978,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN74",
           "package": "tfp",
@@ -10930,6 +11992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN75",
           "package": "tfp",
@@ -10938,6 +12001,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN75",
           "package": "tfp",
@@ -10951,6 +12015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN76",
           "package": "tfp",
@@ -10959,6 +12024,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN76",
           "package": "tfp",
@@ -10972,6 +12038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN77",
           "package": "tfp",
@@ -10980,6 +12047,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN77",
           "package": "tfp",
@@ -10993,6 +12061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN78",
           "package": "tfp",
@@ -11001,6 +12070,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN78",
           "package": "tfp",
@@ -11014,6 +12084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN79",
           "package": "tfp",
@@ -11022,6 +12093,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN79",
           "package": "tfp",
@@ -11035,6 +12107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN8",
           "package": "tfp",
@@ -11043,6 +12116,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN8",
           "package": "tfp",
@@ -11056,6 +12130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN80",
           "package": "tfp",
@@ -11064,6 +12139,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN80",
           "package": "tfp",
@@ -11077,6 +12153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN81",
           "package": "tfp",
@@ -11085,6 +12162,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN81",
           "package": "tfp",
@@ -11098,6 +12176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN82",
           "package": "tfp",
@@ -11106,6 +12185,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN82",
           "package": "tfp",
@@ -11119,6 +12199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN83",
           "package": "tfp",
@@ -11127,6 +12208,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN83",
           "package": "tfp",
@@ -11140,6 +12222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN84",
           "package": "tfp",
@@ -11148,6 +12231,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN84",
           "package": "tfp",
@@ -11161,6 +12245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN85",
           "package": "tfp",
@@ -11169,6 +12254,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN85",
           "package": "tfp",
@@ -11182,6 +12268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN86",
           "package": "tfp",
@@ -11190,6 +12277,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN86",
           "package": "tfp",
@@ -11203,6 +12291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN87",
           "package": "tfp",
@@ -11211,6 +12300,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN87",
           "package": "tfp",
@@ -11224,6 +12314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN88",
           "package": "tfp",
@@ -11232,6 +12323,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN88",
           "package": "tfp",
@@ -11245,6 +12337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN89",
           "package": "tfp",
@@ -11253,6 +12346,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN89",
           "package": "tfp",
@@ -11266,6 +12360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN9",
           "package": "tfp",
@@ -11274,6 +12369,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN9",
           "package": "tfp",
@@ -11287,6 +12383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN90",
           "package": "tfp",
@@ -11295,6 +12392,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN90",
           "package": "tfp",
@@ -11308,6 +12406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN91",
           "package": "tfp",
@@ -11316,6 +12415,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN91",
           "package": "tfp",
@@ -11329,6 +12429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN92",
           "package": "tfp",
@@ -11337,6 +12438,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN92",
           "package": "tfp",
@@ -11350,6 +12452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN93",
           "package": "tfp",
@@ -11358,6 +12461,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN93",
           "package": "tfp",
@@ -11371,6 +12475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN94",
           "package": "tfp",
@@ -11379,6 +12484,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN94",
           "package": "tfp",
@@ -11392,6 +12498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN95",
           "package": "tfp",
@@ -11400,6 +12507,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN95",
           "package": "tfp",
@@ -11413,6 +12521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN96",
           "package": "tfp",
@@ -11421,6 +12530,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN96",
           "package": "tfp",
@@ -11434,6 +12544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN97",
           "package": "tfp",
@@ -11442,6 +12553,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN97",
           "package": "tfp",
@@ -11455,6 +12567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN98",
           "package": "tfp",
@@ -11463,6 +12576,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN98",
           "package": "tfp",
@@ -11476,6 +12590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN99",
           "package": "tfp",
@@ -11484,6 +12599,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DN99",
           "package": "tfp",
@@ -11497,6 +12613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg",
           "package": "tfp",
@@ -11505,6 +12622,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg",
           "package": "tfp",
@@ -11518,6 +12636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg1",
           "package": "tfp",
@@ -11526,6 +12645,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg1",
           "package": "tfp",
@@ -11539,6 +12659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg2",
           "package": "tfp",
@@ -11547,6 +12668,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg2",
           "package": "tfp",
@@ -11560,6 +12682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg3",
           "package": "tfp",
@@ -11568,6 +12691,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg3",
           "package": "tfp",
@@ -11581,6 +12705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg4",
           "package": "tfp",
@@ -11589,6 +12714,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg4",
           "package": "tfp",
@@ -11602,6 +12728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg5",
           "package": "tfp",
@@ -11610,6 +12737,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg5",
           "package": "tfp",
@@ -11623,6 +12751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg6",
           "package": "tfp",
@@ -11631,6 +12760,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg6",
           "package": "tfp",
@@ -11644,6 +12774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg7",
           "package": "tfp",
@@ -11652,6 +12783,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecNeg7",
           "package": "tfp",
@@ -11665,6 +12797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos1",
           "package": "tfp",
@@ -11673,6 +12806,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos1",
           "package": "tfp",
@@ -11686,6 +12820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos2",
           "package": "tfp",
@@ -11694,6 +12829,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos2",
           "package": "tfp",
@@ -11707,6 +12843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos3",
           "package": "tfp",
@@ -11715,6 +12852,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos3",
           "package": "tfp",
@@ -11728,6 +12866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos4",
           "package": "tfp",
@@ -11736,6 +12875,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos4",
           "package": "tfp",
@@ -11749,6 +12889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos5",
           "package": "tfp",
@@ -11757,6 +12898,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos5",
           "package": "tfp",
@@ -11770,6 +12912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos6",
           "package": "tfp",
@@ -11778,6 +12921,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos6",
           "package": "tfp",
@@ -11791,6 +12935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos7",
           "package": "tfp",
@@ -11799,6 +12944,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "DecPos7",
           "package": "tfp",
@@ -11812,6 +12958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d0",
           "package": "tfp",
@@ -11821,6 +12968,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d0",
           "package": "tfp",
@@ -11833,6 +12981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d1",
           "package": "tfp",
@@ -11842,6 +12991,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d1",
           "package": "tfp",
@@ -11854,6 +13004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d10",
           "package": "tfp",
@@ -11863,6 +13014,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d10",
           "package": "tfp",
@@ -11875,6 +13027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d100",
           "package": "tfp",
@@ -11884,6 +13037,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d100",
           "package": "tfp",
@@ -11896,6 +13050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d101",
           "package": "tfp",
@@ -11905,6 +13060,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d101",
           "package": "tfp",
@@ -11917,6 +13073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d102",
           "package": "tfp",
@@ -11926,6 +13083,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d102",
           "package": "tfp",
@@ -11938,6 +13096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d103",
           "package": "tfp",
@@ -11947,6 +13106,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d103",
           "package": "tfp",
@@ -11959,6 +13119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d104",
           "package": "tfp",
@@ -11968,6 +13129,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d104",
           "package": "tfp",
@@ -11980,6 +13142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d105",
           "package": "tfp",
@@ -11989,6 +13152,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d105",
           "package": "tfp",
@@ -12001,6 +13165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d106",
           "package": "tfp",
@@ -12010,6 +13175,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d106",
           "package": "tfp",
@@ -12022,6 +13188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d107",
           "package": "tfp",
@@ -12031,6 +13198,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d107",
           "package": "tfp",
@@ -12043,6 +13211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d108",
           "package": "tfp",
@@ -12052,6 +13221,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d108",
           "package": "tfp",
@@ -12064,6 +13234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d109",
           "package": "tfp",
@@ -12073,6 +13244,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d109",
           "package": "tfp",
@@ -12085,6 +13257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d11",
           "package": "tfp",
@@ -12094,6 +13267,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d11",
           "package": "tfp",
@@ -12106,6 +13280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d110",
           "package": "tfp",
@@ -12115,6 +13290,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d110",
           "package": "tfp",
@@ -12127,6 +13303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d111",
           "package": "tfp",
@@ -12136,6 +13313,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d111",
           "package": "tfp",
@@ -12148,6 +13326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d112",
           "package": "tfp",
@@ -12157,6 +13336,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d112",
           "package": "tfp",
@@ -12169,6 +13349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d113",
           "package": "tfp",
@@ -12178,6 +13359,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d113",
           "package": "tfp",
@@ -12190,6 +13372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d114",
           "package": "tfp",
@@ -12199,6 +13382,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d114",
           "package": "tfp",
@@ -12211,6 +13395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d115",
           "package": "tfp",
@@ -12220,6 +13405,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d115",
           "package": "tfp",
@@ -12232,6 +13418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d116",
           "package": "tfp",
@@ -12241,6 +13428,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d116",
           "package": "tfp",
@@ -12253,6 +13441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d117",
           "package": "tfp",
@@ -12262,6 +13451,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d117",
           "package": "tfp",
@@ -12274,6 +13464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d118",
           "package": "tfp",
@@ -12283,6 +13474,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d118",
           "package": "tfp",
@@ -12295,6 +13487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d119",
           "package": "tfp",
@@ -12304,6 +13497,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d119",
           "package": "tfp",
@@ -12316,6 +13510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d12",
           "package": "tfp",
@@ -12325,6 +13520,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d12",
           "package": "tfp",
@@ -12337,6 +13533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d120",
           "package": "tfp",
@@ -12346,6 +13543,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d120",
           "package": "tfp",
@@ -12358,6 +13556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d121",
           "package": "tfp",
@@ -12367,6 +13566,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d121",
           "package": "tfp",
@@ -12379,6 +13579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d122",
           "package": "tfp",
@@ -12388,6 +13589,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d122",
           "package": "tfp",
@@ -12400,6 +13602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d123",
           "package": "tfp",
@@ -12409,6 +13612,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d123",
           "package": "tfp",
@@ -12421,6 +13625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d124",
           "package": "tfp",
@@ -12430,6 +13635,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d124",
           "package": "tfp",
@@ -12442,6 +13648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d125",
           "package": "tfp",
@@ -12451,6 +13658,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d125",
           "package": "tfp",
@@ -12463,6 +13671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d126",
           "package": "tfp",
@@ -12472,6 +13681,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d126",
           "package": "tfp",
@@ -12484,6 +13694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d127",
           "package": "tfp",
@@ -12493,6 +13704,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d127",
           "package": "tfp",
@@ -12505,6 +13717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d128",
           "package": "tfp",
@@ -12514,6 +13727,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d128",
           "package": "tfp",
@@ -12526,6 +13740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d129",
           "package": "tfp",
@@ -12535,6 +13750,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d129",
           "package": "tfp",
@@ -12547,6 +13763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d13",
           "package": "tfp",
@@ -12556,6 +13773,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d13",
           "package": "tfp",
@@ -12568,6 +13786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d130",
           "package": "tfp",
@@ -12577,6 +13796,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d130",
           "package": "tfp",
@@ -12589,6 +13809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d131",
           "package": "tfp",
@@ -12598,6 +13819,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d131",
           "package": "tfp",
@@ -12610,6 +13832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d132",
           "package": "tfp",
@@ -12619,6 +13842,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d132",
           "package": "tfp",
@@ -12631,6 +13855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d133",
           "package": "tfp",
@@ -12640,6 +13865,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d133",
           "package": "tfp",
@@ -12652,6 +13878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d134",
           "package": "tfp",
@@ -12661,6 +13888,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d134",
           "package": "tfp",
@@ -12673,6 +13901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d135",
           "package": "tfp",
@@ -12682,6 +13911,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d135",
           "package": "tfp",
@@ -12694,6 +13924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d136",
           "package": "tfp",
@@ -12703,6 +13934,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d136",
           "package": "tfp",
@@ -12715,6 +13947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d137",
           "package": "tfp",
@@ -12724,6 +13957,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d137",
           "package": "tfp",
@@ -12736,6 +13970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d138",
           "package": "tfp",
@@ -12745,6 +13980,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d138",
           "package": "tfp",
@@ -12757,6 +13993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d139",
           "package": "tfp",
@@ -12766,6 +14003,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d139",
           "package": "tfp",
@@ -12778,6 +14016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d14",
           "package": "tfp",
@@ -12787,6 +14026,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d14",
           "package": "tfp",
@@ -12799,6 +14039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d140",
           "package": "tfp",
@@ -12808,6 +14049,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d140",
           "package": "tfp",
@@ -12820,6 +14062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d141",
           "package": "tfp",
@@ -12829,6 +14072,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d141",
           "package": "tfp",
@@ -12841,6 +14085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d142",
           "package": "tfp",
@@ -12850,6 +14095,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d142",
           "package": "tfp",
@@ -12862,6 +14108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d143",
           "package": "tfp",
@@ -12871,6 +14118,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d143",
           "package": "tfp",
@@ -12883,6 +14131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d144",
           "package": "tfp",
@@ -12892,6 +14141,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d144",
           "package": "tfp",
@@ -12904,6 +14154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d145",
           "package": "tfp",
@@ -12913,6 +14164,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d145",
           "package": "tfp",
@@ -12925,6 +14177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d146",
           "package": "tfp",
@@ -12934,6 +14187,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d146",
           "package": "tfp",
@@ -12946,6 +14200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d147",
           "package": "tfp",
@@ -12955,6 +14210,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d147",
           "package": "tfp",
@@ -12967,6 +14223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d148",
           "package": "tfp",
@@ -12976,6 +14233,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d148",
           "package": "tfp",
@@ -12988,6 +14246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d149",
           "package": "tfp",
@@ -12997,6 +14256,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d149",
           "package": "tfp",
@@ -13009,6 +14269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d15",
           "package": "tfp",
@@ -13018,6 +14279,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d15",
           "package": "tfp",
@@ -13030,6 +14292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d150",
           "package": "tfp",
@@ -13039,6 +14302,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d150",
           "package": "tfp",
@@ -13051,6 +14315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d151",
           "package": "tfp",
@@ -13060,6 +14325,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d151",
           "package": "tfp",
@@ -13072,6 +14338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d152",
           "package": "tfp",
@@ -13081,6 +14348,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d152",
           "package": "tfp",
@@ -13093,6 +14361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d153",
           "package": "tfp",
@@ -13102,6 +14371,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d153",
           "package": "tfp",
@@ -13114,6 +14384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d154",
           "package": "tfp",
@@ -13123,6 +14394,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d154",
           "package": "tfp",
@@ -13135,6 +14407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d155",
           "package": "tfp",
@@ -13144,6 +14417,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d155",
           "package": "tfp",
@@ -13156,6 +14430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d156",
           "package": "tfp",
@@ -13165,6 +14440,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d156",
           "package": "tfp",
@@ -13177,6 +14453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d157",
           "package": "tfp",
@@ -13186,6 +14463,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d157",
           "package": "tfp",
@@ -13198,6 +14476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d158",
           "package": "tfp",
@@ -13207,6 +14486,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d158",
           "package": "tfp",
@@ -13219,6 +14499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d159",
           "package": "tfp",
@@ -13228,6 +14509,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d159",
           "package": "tfp",
@@ -13240,6 +14522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d16",
           "package": "tfp",
@@ -13249,6 +14532,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d16",
           "package": "tfp",
@@ -13261,6 +14545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d160",
           "package": "tfp",
@@ -13270,6 +14555,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d160",
           "package": "tfp",
@@ -13282,6 +14568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d161",
           "package": "tfp",
@@ -13291,6 +14578,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d161",
           "package": "tfp",
@@ -13303,6 +14591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d162",
           "package": "tfp",
@@ -13312,6 +14601,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d162",
           "package": "tfp",
@@ -13324,6 +14614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d163",
           "package": "tfp",
@@ -13333,6 +14624,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d163",
           "package": "tfp",
@@ -13345,6 +14637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d164",
           "package": "tfp",
@@ -13354,6 +14647,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d164",
           "package": "tfp",
@@ -13366,6 +14660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d165",
           "package": "tfp",
@@ -13375,6 +14670,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d165",
           "package": "tfp",
@@ -13387,6 +14683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d166",
           "package": "tfp",
@@ -13396,6 +14693,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d166",
           "package": "tfp",
@@ -13408,6 +14706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d167",
           "package": "tfp",
@@ -13417,6 +14716,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d167",
           "package": "tfp",
@@ -13429,6 +14729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d168",
           "package": "tfp",
@@ -13438,6 +14739,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d168",
           "package": "tfp",
@@ -13450,6 +14752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d169",
           "package": "tfp",
@@ -13459,6 +14762,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d169",
           "package": "tfp",
@@ -13471,6 +14775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d17",
           "package": "tfp",
@@ -13480,6 +14785,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d17",
           "package": "tfp",
@@ -13492,6 +14798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d170",
           "package": "tfp",
@@ -13501,6 +14808,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d170",
           "package": "tfp",
@@ -13513,6 +14821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d171",
           "package": "tfp",
@@ -13522,6 +14831,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d171",
           "package": "tfp",
@@ -13534,6 +14844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d172",
           "package": "tfp",
@@ -13543,6 +14854,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d172",
           "package": "tfp",
@@ -13555,6 +14867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d173",
           "package": "tfp",
@@ -13564,6 +14877,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d173",
           "package": "tfp",
@@ -13576,6 +14890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d174",
           "package": "tfp",
@@ -13585,6 +14900,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d174",
           "package": "tfp",
@@ -13597,6 +14913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d175",
           "package": "tfp",
@@ -13606,6 +14923,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d175",
           "package": "tfp",
@@ -13618,6 +14936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d176",
           "package": "tfp",
@@ -13627,6 +14946,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d176",
           "package": "tfp",
@@ -13639,6 +14959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d177",
           "package": "tfp",
@@ -13648,6 +14969,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d177",
           "package": "tfp",
@@ -13660,6 +14982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d178",
           "package": "tfp",
@@ -13669,6 +14992,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d178",
           "package": "tfp",
@@ -13681,6 +15005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d179",
           "package": "tfp",
@@ -13690,6 +15015,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d179",
           "package": "tfp",
@@ -13702,6 +15028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d18",
           "package": "tfp",
@@ -13711,6 +15038,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d18",
           "package": "tfp",
@@ -13723,6 +15051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d180",
           "package": "tfp",
@@ -13732,6 +15061,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d180",
           "package": "tfp",
@@ -13744,6 +15074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d181",
           "package": "tfp",
@@ -13753,6 +15084,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d181",
           "package": "tfp",
@@ -13765,6 +15097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d182",
           "package": "tfp",
@@ -13774,6 +15107,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d182",
           "package": "tfp",
@@ -13786,6 +15120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d183",
           "package": "tfp",
@@ -13795,6 +15130,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d183",
           "package": "tfp",
@@ -13807,6 +15143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d184",
           "package": "tfp",
@@ -13816,6 +15153,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d184",
           "package": "tfp",
@@ -13828,6 +15166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d185",
           "package": "tfp",
@@ -13837,6 +15176,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d185",
           "package": "tfp",
@@ -13849,6 +15189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d186",
           "package": "tfp",
@@ -13858,6 +15199,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d186",
           "package": "tfp",
@@ -13870,6 +15212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d187",
           "package": "tfp",
@@ -13879,6 +15222,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d187",
           "package": "tfp",
@@ -13891,6 +15235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d188",
           "package": "tfp",
@@ -13900,6 +15245,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d188",
           "package": "tfp",
@@ -13912,6 +15258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d189",
           "package": "tfp",
@@ -13921,6 +15268,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d189",
           "package": "tfp",
@@ -13933,6 +15281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d19",
           "package": "tfp",
@@ -13942,6 +15291,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d19",
           "package": "tfp",
@@ -13954,6 +15304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d190",
           "package": "tfp",
@@ -13963,6 +15314,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d190",
           "package": "tfp",
@@ -13975,6 +15327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d191",
           "package": "tfp",
@@ -13984,6 +15337,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d191",
           "package": "tfp",
@@ -13996,6 +15350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d192",
           "package": "tfp",
@@ -14005,6 +15360,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d192",
           "package": "tfp",
@@ -14017,6 +15373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d193",
           "package": "tfp",
@@ -14026,6 +15383,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d193",
           "package": "tfp",
@@ -14038,6 +15396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d194",
           "package": "tfp",
@@ -14047,6 +15406,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d194",
           "package": "tfp",
@@ -14059,6 +15419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d195",
           "package": "tfp",
@@ -14068,6 +15429,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d195",
           "package": "tfp",
@@ -14080,6 +15442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d196",
           "package": "tfp",
@@ -14089,6 +15452,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d196",
           "package": "tfp",
@@ -14101,6 +15465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d197",
           "package": "tfp",
@@ -14110,6 +15475,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d197",
           "package": "tfp",
@@ -14122,6 +15488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d198",
           "package": "tfp",
@@ -14131,6 +15498,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d198",
           "package": "tfp",
@@ -14143,6 +15511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d199",
           "package": "tfp",
@@ -14152,6 +15521,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d199",
           "package": "tfp",
@@ -14164,6 +15534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d2",
           "package": "tfp",
@@ -14173,6 +15544,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d2",
           "package": "tfp",
@@ -14185,6 +15557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d20",
           "package": "tfp",
@@ -14194,6 +15567,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d20",
           "package": "tfp",
@@ -14206,6 +15580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d200",
           "package": "tfp",
@@ -14215,6 +15590,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d200",
           "package": "tfp",
@@ -14227,6 +15603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d201",
           "package": "tfp",
@@ -14236,6 +15613,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d201",
           "package": "tfp",
@@ -14248,6 +15626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d202",
           "package": "tfp",
@@ -14257,6 +15636,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d202",
           "package": "tfp",
@@ -14269,6 +15649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d203",
           "package": "tfp",
@@ -14278,6 +15659,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d203",
           "package": "tfp",
@@ -14290,6 +15672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d204",
           "package": "tfp",
@@ -14299,6 +15682,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d204",
           "package": "tfp",
@@ -14311,6 +15695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d205",
           "package": "tfp",
@@ -14320,6 +15705,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d205",
           "package": "tfp",
@@ -14332,6 +15718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d206",
           "package": "tfp",
@@ -14341,6 +15728,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d206",
           "package": "tfp",
@@ -14353,6 +15741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d207",
           "package": "tfp",
@@ -14362,6 +15751,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d207",
           "package": "tfp",
@@ -14374,6 +15764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d208",
           "package": "tfp",
@@ -14383,6 +15774,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d208",
           "package": "tfp",
@@ -14395,6 +15787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d209",
           "package": "tfp",
@@ -14404,6 +15797,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d209",
           "package": "tfp",
@@ -14416,6 +15810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d21",
           "package": "tfp",
@@ -14425,6 +15820,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d21",
           "package": "tfp",
@@ -14437,6 +15833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d210",
           "package": "tfp",
@@ -14446,6 +15843,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d210",
           "package": "tfp",
@@ -14458,6 +15856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d211",
           "package": "tfp",
@@ -14467,6 +15866,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d211",
           "package": "tfp",
@@ -14479,6 +15879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d212",
           "package": "tfp",
@@ -14488,6 +15889,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d212",
           "package": "tfp",
@@ -14500,6 +15902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d213",
           "package": "tfp",
@@ -14509,6 +15912,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d213",
           "package": "tfp",
@@ -14521,6 +15925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d214",
           "package": "tfp",
@@ -14530,6 +15935,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d214",
           "package": "tfp",
@@ -14542,6 +15948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d215",
           "package": "tfp",
@@ -14551,6 +15958,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d215",
           "package": "tfp",
@@ -14563,6 +15971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d216",
           "package": "tfp",
@@ -14572,6 +15981,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d216",
           "package": "tfp",
@@ -14584,6 +15994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d217",
           "package": "tfp",
@@ -14593,6 +16004,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d217",
           "package": "tfp",
@@ -14605,6 +16017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d218",
           "package": "tfp",
@@ -14614,6 +16027,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d218",
           "package": "tfp",
@@ -14626,6 +16040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d219",
           "package": "tfp",
@@ -14635,6 +16050,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d219",
           "package": "tfp",
@@ -14647,6 +16063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d22",
           "package": "tfp",
@@ -14656,6 +16073,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d22",
           "package": "tfp",
@@ -14668,6 +16086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d220",
           "package": "tfp",
@@ -14677,6 +16096,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d220",
           "package": "tfp",
@@ -14689,6 +16109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d221",
           "package": "tfp",
@@ -14698,6 +16119,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d221",
           "package": "tfp",
@@ -14710,6 +16132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d222",
           "package": "tfp",
@@ -14719,6 +16142,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d222",
           "package": "tfp",
@@ -14731,6 +16155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d223",
           "package": "tfp",
@@ -14740,6 +16165,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d223",
           "package": "tfp",
@@ -14752,6 +16178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d224",
           "package": "tfp",
@@ -14761,6 +16188,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d224",
           "package": "tfp",
@@ -14773,6 +16201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d225",
           "package": "tfp",
@@ -14782,6 +16211,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d225",
           "package": "tfp",
@@ -14794,6 +16224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d226",
           "package": "tfp",
@@ -14803,6 +16234,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d226",
           "package": "tfp",
@@ -14815,6 +16247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d227",
           "package": "tfp",
@@ -14824,6 +16257,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d227",
           "package": "tfp",
@@ -14836,6 +16270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d228",
           "package": "tfp",
@@ -14845,6 +16280,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d228",
           "package": "tfp",
@@ -14857,6 +16293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d229",
           "package": "tfp",
@@ -14866,6 +16303,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d229",
           "package": "tfp",
@@ -14878,6 +16316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d23",
           "package": "tfp",
@@ -14887,6 +16326,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d23",
           "package": "tfp",
@@ -14899,6 +16339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d230",
           "package": "tfp",
@@ -14908,6 +16349,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d230",
           "package": "tfp",
@@ -14920,6 +16362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d231",
           "package": "tfp",
@@ -14929,6 +16372,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d231",
           "package": "tfp",
@@ -14941,6 +16385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d232",
           "package": "tfp",
@@ -14950,6 +16395,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d232",
           "package": "tfp",
@@ -14962,6 +16408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d233",
           "package": "tfp",
@@ -14971,6 +16418,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d233",
           "package": "tfp",
@@ -14983,6 +16431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d234",
           "package": "tfp",
@@ -14992,6 +16441,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d234",
           "package": "tfp",
@@ -15004,6 +16454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d235",
           "package": "tfp",
@@ -15013,6 +16464,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d235",
           "package": "tfp",
@@ -15025,6 +16477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d236",
           "package": "tfp",
@@ -15034,6 +16487,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d236",
           "package": "tfp",
@@ -15046,6 +16500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d237",
           "package": "tfp",
@@ -15055,6 +16510,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d237",
           "package": "tfp",
@@ -15067,6 +16523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d238",
           "package": "tfp",
@@ -15076,6 +16533,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d238",
           "package": "tfp",
@@ -15088,6 +16546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d239",
           "package": "tfp",
@@ -15097,6 +16556,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d239",
           "package": "tfp",
@@ -15109,6 +16569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d24",
           "package": "tfp",
@@ -15118,6 +16579,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d24",
           "package": "tfp",
@@ -15130,6 +16592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d240",
           "package": "tfp",
@@ -15139,6 +16602,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d240",
           "package": "tfp",
@@ -15151,6 +16615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d241",
           "package": "tfp",
@@ -15160,6 +16625,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d241",
           "package": "tfp",
@@ -15172,6 +16638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d242",
           "package": "tfp",
@@ -15181,6 +16648,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d242",
           "package": "tfp",
@@ -15193,6 +16661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d243",
           "package": "tfp",
@@ -15202,6 +16671,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d243",
           "package": "tfp",
@@ -15214,6 +16684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d244",
           "package": "tfp",
@@ -15223,6 +16694,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d244",
           "package": "tfp",
@@ -15235,6 +16707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d245",
           "package": "tfp",
@@ -15244,6 +16717,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d245",
           "package": "tfp",
@@ -15256,6 +16730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d246",
           "package": "tfp",
@@ -15265,6 +16740,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d246",
           "package": "tfp",
@@ -15277,6 +16753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d247",
           "package": "tfp",
@@ -15286,6 +16763,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d247",
           "package": "tfp",
@@ -15298,6 +16776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d248",
           "package": "tfp",
@@ -15307,6 +16786,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d248",
           "package": "tfp",
@@ -15319,6 +16799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d249",
           "package": "tfp",
@@ -15328,6 +16809,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d249",
           "package": "tfp",
@@ -15340,6 +16822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d25",
           "package": "tfp",
@@ -15349,6 +16832,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d25",
           "package": "tfp",
@@ -15361,6 +16845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d250",
           "package": "tfp",
@@ -15370,6 +16855,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d250",
           "package": "tfp",
@@ -15382,6 +16868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d251",
           "package": "tfp",
@@ -15391,6 +16878,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d251",
           "package": "tfp",
@@ -15403,6 +16891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d252",
           "package": "tfp",
@@ -15412,6 +16901,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d252",
           "package": "tfp",
@@ -15424,6 +16914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d253",
           "package": "tfp",
@@ -15433,6 +16924,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d253",
           "package": "tfp",
@@ -15445,6 +16937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d254",
           "package": "tfp",
@@ -15454,6 +16947,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d254",
           "package": "tfp",
@@ -15466,6 +16960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d255",
           "package": "tfp",
@@ -15475,6 +16970,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d255",
           "package": "tfp",
@@ -15487,6 +16983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d256",
           "package": "tfp",
@@ -15496,6 +16993,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d256",
           "package": "tfp",
@@ -15508,6 +17006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d26",
           "package": "tfp",
@@ -15517,6 +17016,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d26",
           "package": "tfp",
@@ -15529,6 +17029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d27",
           "package": "tfp",
@@ -15538,6 +17039,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d27",
           "package": "tfp",
@@ -15550,6 +17052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d28",
           "package": "tfp",
@@ -15559,6 +17062,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d28",
           "package": "tfp",
@@ -15571,6 +17075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d29",
           "package": "tfp",
@@ -15580,6 +17085,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d29",
           "package": "tfp",
@@ -15592,6 +17098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d3",
           "package": "tfp",
@@ -15601,6 +17108,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d3",
           "package": "tfp",
@@ -15613,6 +17121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d30",
           "package": "tfp",
@@ -15622,6 +17131,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d30",
           "package": "tfp",
@@ -15634,6 +17144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d31",
           "package": "tfp",
@@ -15643,6 +17154,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d31",
           "package": "tfp",
@@ -15655,6 +17167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d32",
           "package": "tfp",
@@ -15664,6 +17177,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d32",
           "package": "tfp",
@@ -15676,6 +17190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d33",
           "package": "tfp",
@@ -15685,6 +17200,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d33",
           "package": "tfp",
@@ -15697,6 +17213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d34",
           "package": "tfp",
@@ -15706,6 +17223,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d34",
           "package": "tfp",
@@ -15718,6 +17236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d35",
           "package": "tfp",
@@ -15727,6 +17246,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d35",
           "package": "tfp",
@@ -15739,6 +17259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d36",
           "package": "tfp",
@@ -15748,6 +17269,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d36",
           "package": "tfp",
@@ -15760,6 +17282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d37",
           "package": "tfp",
@@ -15769,6 +17292,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d37",
           "package": "tfp",
@@ -15781,6 +17305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d38",
           "package": "tfp",
@@ -15790,6 +17315,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d38",
           "package": "tfp",
@@ -15802,6 +17328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d39",
           "package": "tfp",
@@ -15811,6 +17338,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d39",
           "package": "tfp",
@@ -15823,6 +17351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d4",
           "package": "tfp",
@@ -15832,6 +17361,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d4",
           "package": "tfp",
@@ -15844,6 +17374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d40",
           "package": "tfp",
@@ -15853,6 +17384,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d40",
           "package": "tfp",
@@ -15865,6 +17397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d41",
           "package": "tfp",
@@ -15874,6 +17407,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d41",
           "package": "tfp",
@@ -15886,6 +17420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d42",
           "package": "tfp",
@@ -15895,6 +17430,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d42",
           "package": "tfp",
@@ -15907,6 +17443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d43",
           "package": "tfp",
@@ -15916,6 +17453,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d43",
           "package": "tfp",
@@ -15928,6 +17466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d44",
           "package": "tfp",
@@ -15937,6 +17476,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d44",
           "package": "tfp",
@@ -15949,6 +17489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d45",
           "package": "tfp",
@@ -15958,6 +17499,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d45",
           "package": "tfp",
@@ -15970,6 +17512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d46",
           "package": "tfp",
@@ -15979,6 +17522,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d46",
           "package": "tfp",
@@ -15991,6 +17535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d47",
           "package": "tfp",
@@ -16000,6 +17545,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d47",
           "package": "tfp",
@@ -16012,6 +17558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d48",
           "package": "tfp",
@@ -16021,6 +17568,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d48",
           "package": "tfp",
@@ -16033,6 +17581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d49",
           "package": "tfp",
@@ -16042,6 +17591,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d49",
           "package": "tfp",
@@ -16054,6 +17604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d5",
           "package": "tfp",
@@ -16063,6 +17614,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d5",
           "package": "tfp",
@@ -16075,6 +17627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d50",
           "package": "tfp",
@@ -16084,6 +17637,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d50",
           "package": "tfp",
@@ -16096,6 +17650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d51",
           "package": "tfp",
@@ -16105,6 +17660,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d51",
           "package": "tfp",
@@ -16117,6 +17673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d52",
           "package": "tfp",
@@ -16126,6 +17683,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d52",
           "package": "tfp",
@@ -16138,6 +17696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d53",
           "package": "tfp",
@@ -16147,6 +17706,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d53",
           "package": "tfp",
@@ -16159,6 +17719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d54",
           "package": "tfp",
@@ -16168,6 +17729,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d54",
           "package": "tfp",
@@ -16180,6 +17742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d55",
           "package": "tfp",
@@ -16189,6 +17752,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d55",
           "package": "tfp",
@@ -16201,6 +17765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d56",
           "package": "tfp",
@@ -16210,6 +17775,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d56",
           "package": "tfp",
@@ -16222,6 +17788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d57",
           "package": "tfp",
@@ -16231,6 +17798,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d57",
           "package": "tfp",
@@ -16243,6 +17811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d58",
           "package": "tfp",
@@ -16252,6 +17821,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d58",
           "package": "tfp",
@@ -16264,6 +17834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d59",
           "package": "tfp",
@@ -16273,6 +17844,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d59",
           "package": "tfp",
@@ -16285,6 +17857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d6",
           "package": "tfp",
@@ -16294,6 +17867,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d6",
           "package": "tfp",
@@ -16306,6 +17880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d60",
           "package": "tfp",
@@ -16315,6 +17890,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d60",
           "package": "tfp",
@@ -16327,6 +17903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d61",
           "package": "tfp",
@@ -16336,6 +17913,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d61",
           "package": "tfp",
@@ -16348,6 +17926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d62",
           "package": "tfp",
@@ -16357,6 +17936,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d62",
           "package": "tfp",
@@ -16369,6 +17949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d63",
           "package": "tfp",
@@ -16378,6 +17959,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d63",
           "package": "tfp",
@@ -16390,6 +17972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d64",
           "package": "tfp",
@@ -16399,6 +17982,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d64",
           "package": "tfp",
@@ -16411,6 +17995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d65",
           "package": "tfp",
@@ -16420,6 +18005,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d65",
           "package": "tfp",
@@ -16432,6 +18018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d66",
           "package": "tfp",
@@ -16441,6 +18028,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d66",
           "package": "tfp",
@@ -16453,6 +18041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d67",
           "package": "tfp",
@@ -16462,6 +18051,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d67",
           "package": "tfp",
@@ -16474,6 +18064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d68",
           "package": "tfp",
@@ -16483,6 +18074,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d68",
           "package": "tfp",
@@ -16495,6 +18087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d69",
           "package": "tfp",
@@ -16504,6 +18097,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d69",
           "package": "tfp",
@@ -16516,6 +18110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d7",
           "package": "tfp",
@@ -16525,6 +18120,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d7",
           "package": "tfp",
@@ -16537,6 +18133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d70",
           "package": "tfp",
@@ -16546,6 +18143,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d70",
           "package": "tfp",
@@ -16558,6 +18156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d71",
           "package": "tfp",
@@ -16567,6 +18166,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d71",
           "package": "tfp",
@@ -16579,6 +18179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d72",
           "package": "tfp",
@@ -16588,6 +18189,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d72",
           "package": "tfp",
@@ -16600,6 +18202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d73",
           "package": "tfp",
@@ -16609,6 +18212,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d73",
           "package": "tfp",
@@ -16621,6 +18225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d74",
           "package": "tfp",
@@ -16630,6 +18235,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d74",
           "package": "tfp",
@@ -16642,6 +18248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d75",
           "package": "tfp",
@@ -16651,6 +18258,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d75",
           "package": "tfp",
@@ -16663,6 +18271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d76",
           "package": "tfp",
@@ -16672,6 +18281,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d76",
           "package": "tfp",
@@ -16684,6 +18294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d77",
           "package": "tfp",
@@ -16693,6 +18304,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d77",
           "package": "tfp",
@@ -16705,6 +18317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d78",
           "package": "tfp",
@@ -16714,6 +18327,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d78",
           "package": "tfp",
@@ -16726,6 +18340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d79",
           "package": "tfp",
@@ -16735,6 +18350,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d79",
           "package": "tfp",
@@ -16747,6 +18363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d8",
           "package": "tfp",
@@ -16756,6 +18373,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d8",
           "package": "tfp",
@@ -16768,6 +18386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d80",
           "package": "tfp",
@@ -16777,6 +18396,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d80",
           "package": "tfp",
@@ -16789,6 +18409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d81",
           "package": "tfp",
@@ -16798,6 +18419,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d81",
           "package": "tfp",
@@ -16810,6 +18432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d82",
           "package": "tfp",
@@ -16819,6 +18442,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d82",
           "package": "tfp",
@@ -16831,6 +18455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d83",
           "package": "tfp",
@@ -16840,6 +18465,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d83",
           "package": "tfp",
@@ -16852,6 +18478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d84",
           "package": "tfp",
@@ -16861,6 +18488,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d84",
           "package": "tfp",
@@ -16873,6 +18501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d85",
           "package": "tfp",
@@ -16882,6 +18511,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d85",
           "package": "tfp",
@@ -16894,6 +18524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d86",
           "package": "tfp",
@@ -16903,6 +18534,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d86",
           "package": "tfp",
@@ -16915,6 +18547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d87",
           "package": "tfp",
@@ -16924,6 +18557,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d87",
           "package": "tfp",
@@ -16936,6 +18570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d88",
           "package": "tfp",
@@ -16945,6 +18580,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d88",
           "package": "tfp",
@@ -16957,6 +18593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d89",
           "package": "tfp",
@@ -16966,6 +18603,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d89",
           "package": "tfp",
@@ -16978,6 +18616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d9",
           "package": "tfp",
@@ -16987,6 +18626,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d9",
           "package": "tfp",
@@ -16999,6 +18639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d90",
           "package": "tfp",
@@ -17008,6 +18649,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d90",
           "package": "tfp",
@@ -17020,6 +18662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d91",
           "package": "tfp",
@@ -17029,6 +18672,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d91",
           "package": "tfp",
@@ -17041,6 +18685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d92",
           "package": "tfp",
@@ -17050,6 +18695,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d92",
           "package": "tfp",
@@ -17062,6 +18708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d93",
           "package": "tfp",
@@ -17071,6 +18718,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d93",
           "package": "tfp",
@@ -17083,6 +18731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d94",
           "package": "tfp",
@@ -17092,6 +18741,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d94",
           "package": "tfp",
@@ -17104,6 +18754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d95",
           "package": "tfp",
@@ -17113,6 +18764,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d95",
           "package": "tfp",
@@ -17125,6 +18777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d96",
           "package": "tfp",
@@ -17134,6 +18787,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d96",
           "package": "tfp",
@@ -17146,6 +18800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d97",
           "package": "tfp",
@@ -17155,6 +18810,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d97",
           "package": "tfp",
@@ -17167,6 +18823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d98",
           "package": "tfp",
@@ -17176,6 +18833,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d98",
           "package": "tfp",
@@ -17188,6 +18846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d99",
           "package": "tfp",
@@ -17197,6 +18856,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "d99",
           "package": "tfp",
@@ -17209,6 +18869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn1",
           "package": "tfp",
@@ -17218,6 +18879,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn1",
           "package": "tfp",
@@ -17230,6 +18892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn10",
           "package": "tfp",
@@ -17239,6 +18902,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn10",
           "package": "tfp",
@@ -17251,6 +18915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn100",
           "package": "tfp",
@@ -17260,6 +18925,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn100",
           "package": "tfp",
@@ -17272,6 +18938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn101",
           "package": "tfp",
@@ -17281,6 +18948,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn101",
           "package": "tfp",
@@ -17293,6 +18961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn102",
           "package": "tfp",
@@ -17302,6 +18971,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn102",
           "package": "tfp",
@@ -17314,6 +18984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn103",
           "package": "tfp",
@@ -17323,6 +18994,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn103",
           "package": "tfp",
@@ -17335,6 +19007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn104",
           "package": "tfp",
@@ -17344,6 +19017,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn104",
           "package": "tfp",
@@ -17356,6 +19030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn105",
           "package": "tfp",
@@ -17365,6 +19040,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn105",
           "package": "tfp",
@@ -17377,6 +19053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn106",
           "package": "tfp",
@@ -17386,6 +19063,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn106",
           "package": "tfp",
@@ -17398,6 +19076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn107",
           "package": "tfp",
@@ -17407,6 +19086,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn107",
           "package": "tfp",
@@ -17419,6 +19099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn108",
           "package": "tfp",
@@ -17428,6 +19109,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn108",
           "package": "tfp",
@@ -17440,6 +19122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn109",
           "package": "tfp",
@@ -17449,6 +19132,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn109",
           "package": "tfp",
@@ -17461,6 +19145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn11",
           "package": "tfp",
@@ -17470,6 +19155,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn11",
           "package": "tfp",
@@ -17482,6 +19168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn110",
           "package": "tfp",
@@ -17491,6 +19178,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn110",
           "package": "tfp",
@@ -17503,6 +19191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn111",
           "package": "tfp",
@@ -17512,6 +19201,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn111",
           "package": "tfp",
@@ -17524,6 +19214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn112",
           "package": "tfp",
@@ -17533,6 +19224,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn112",
           "package": "tfp",
@@ -17545,6 +19237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn113",
           "package": "tfp",
@@ -17554,6 +19247,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn113",
           "package": "tfp",
@@ -17566,6 +19260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn114",
           "package": "tfp",
@@ -17575,6 +19270,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn114",
           "package": "tfp",
@@ -17587,6 +19283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn115",
           "package": "tfp",
@@ -17596,6 +19293,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn115",
           "package": "tfp",
@@ -17608,6 +19306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn116",
           "package": "tfp",
@@ -17617,6 +19316,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn116",
           "package": "tfp",
@@ -17629,6 +19329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn117",
           "package": "tfp",
@@ -17638,6 +19339,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn117",
           "package": "tfp",
@@ -17650,6 +19352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn118",
           "package": "tfp",
@@ -17659,6 +19362,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn118",
           "package": "tfp",
@@ -17671,6 +19375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn119",
           "package": "tfp",
@@ -17680,6 +19385,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn119",
           "package": "tfp",
@@ -17692,6 +19398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn12",
           "package": "tfp",
@@ -17701,6 +19408,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn12",
           "package": "tfp",
@@ -17713,6 +19421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn120",
           "package": "tfp",
@@ -17722,6 +19431,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn120",
           "package": "tfp",
@@ -17734,6 +19444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn121",
           "package": "tfp",
@@ -17743,6 +19454,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn121",
           "package": "tfp",
@@ -17755,6 +19467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn122",
           "package": "tfp",
@@ -17764,6 +19477,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn122",
           "package": "tfp",
@@ -17776,6 +19490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn123",
           "package": "tfp",
@@ -17785,6 +19500,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn123",
           "package": "tfp",
@@ -17797,6 +19513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn124",
           "package": "tfp",
@@ -17806,6 +19523,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn124",
           "package": "tfp",
@@ -17818,6 +19536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn125",
           "package": "tfp",
@@ -17827,6 +19546,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn125",
           "package": "tfp",
@@ -17839,6 +19559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn126",
           "package": "tfp",
@@ -17848,6 +19569,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn126",
           "package": "tfp",
@@ -17860,6 +19582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn127",
           "package": "tfp",
@@ -17869,6 +19592,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn127",
           "package": "tfp",
@@ -17881,6 +19605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn128",
           "package": "tfp",
@@ -17890,6 +19615,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn128",
           "package": "tfp",
@@ -17902,6 +19628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn129",
           "package": "tfp",
@@ -17911,6 +19638,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn129",
           "package": "tfp",
@@ -17923,6 +19651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn13",
           "package": "tfp",
@@ -17932,6 +19661,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn13",
           "package": "tfp",
@@ -17944,6 +19674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn130",
           "package": "tfp",
@@ -17953,6 +19684,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn130",
           "package": "tfp",
@@ -17965,6 +19697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn131",
           "package": "tfp",
@@ -17974,6 +19707,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn131",
           "package": "tfp",
@@ -17986,6 +19720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn132",
           "package": "tfp",
@@ -17995,6 +19730,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn132",
           "package": "tfp",
@@ -18007,6 +19743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn133",
           "package": "tfp",
@@ -18016,6 +19753,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn133",
           "package": "tfp",
@@ -18028,6 +19766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn134",
           "package": "tfp",
@@ -18037,6 +19776,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn134",
           "package": "tfp",
@@ -18049,6 +19789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn135",
           "package": "tfp",
@@ -18058,6 +19799,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn135",
           "package": "tfp",
@@ -18070,6 +19812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn136",
           "package": "tfp",
@@ -18079,6 +19822,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn136",
           "package": "tfp",
@@ -18091,6 +19835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn137",
           "package": "tfp",
@@ -18100,6 +19845,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn137",
           "package": "tfp",
@@ -18112,6 +19858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn138",
           "package": "tfp",
@@ -18121,6 +19868,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn138",
           "package": "tfp",
@@ -18133,6 +19881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn139",
           "package": "tfp",
@@ -18142,6 +19891,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn139",
           "package": "tfp",
@@ -18154,6 +19904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn14",
           "package": "tfp",
@@ -18163,6 +19914,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn14",
           "package": "tfp",
@@ -18175,6 +19927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn140",
           "package": "tfp",
@@ -18184,6 +19937,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn140",
           "package": "tfp",
@@ -18196,6 +19950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn141",
           "package": "tfp",
@@ -18205,6 +19960,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn141",
           "package": "tfp",
@@ -18217,6 +19973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn142",
           "package": "tfp",
@@ -18226,6 +19983,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn142",
           "package": "tfp",
@@ -18238,6 +19996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn143",
           "package": "tfp",
@@ -18247,6 +20006,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn143",
           "package": "tfp",
@@ -18259,6 +20019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn144",
           "package": "tfp",
@@ -18268,6 +20029,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn144",
           "package": "tfp",
@@ -18280,6 +20042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn145",
           "package": "tfp",
@@ -18289,6 +20052,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn145",
           "package": "tfp",
@@ -18301,6 +20065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn146",
           "package": "tfp",
@@ -18310,6 +20075,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn146",
           "package": "tfp",
@@ -18322,6 +20088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn147",
           "package": "tfp",
@@ -18331,6 +20098,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn147",
           "package": "tfp",
@@ -18343,6 +20111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn148",
           "package": "tfp",
@@ -18352,6 +20121,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn148",
           "package": "tfp",
@@ -18364,6 +20134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn149",
           "package": "tfp",
@@ -18373,6 +20144,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn149",
           "package": "tfp",
@@ -18385,6 +20157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn15",
           "package": "tfp",
@@ -18394,6 +20167,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn15",
           "package": "tfp",
@@ -18406,6 +20180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn150",
           "package": "tfp",
@@ -18415,6 +20190,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn150",
           "package": "tfp",
@@ -18427,6 +20203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn151",
           "package": "tfp",
@@ -18436,6 +20213,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn151",
           "package": "tfp",
@@ -18448,6 +20226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn152",
           "package": "tfp",
@@ -18457,6 +20236,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn152",
           "package": "tfp",
@@ -18469,6 +20249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn153",
           "package": "tfp",
@@ -18478,6 +20259,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn153",
           "package": "tfp",
@@ -18490,6 +20272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn154",
           "package": "tfp",
@@ -18499,6 +20282,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn154",
           "package": "tfp",
@@ -18511,6 +20295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn155",
           "package": "tfp",
@@ -18520,6 +20305,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn155",
           "package": "tfp",
@@ -18532,6 +20318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn156",
           "package": "tfp",
@@ -18541,6 +20328,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn156",
           "package": "tfp",
@@ -18553,6 +20341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn157",
           "package": "tfp",
@@ -18562,6 +20351,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn157",
           "package": "tfp",
@@ -18574,6 +20364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn158",
           "package": "tfp",
@@ -18583,6 +20374,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn158",
           "package": "tfp",
@@ -18595,6 +20387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn159",
           "package": "tfp",
@@ -18604,6 +20397,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn159",
           "package": "tfp",
@@ -18616,6 +20410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn16",
           "package": "tfp",
@@ -18625,6 +20420,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn16",
           "package": "tfp",
@@ -18637,6 +20433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn160",
           "package": "tfp",
@@ -18646,6 +20443,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn160",
           "package": "tfp",
@@ -18658,6 +20456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn161",
           "package": "tfp",
@@ -18667,6 +20466,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn161",
           "package": "tfp",
@@ -18679,6 +20479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn162",
           "package": "tfp",
@@ -18688,6 +20489,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn162",
           "package": "tfp",
@@ -18700,6 +20502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn163",
           "package": "tfp",
@@ -18709,6 +20512,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn163",
           "package": "tfp",
@@ -18721,6 +20525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn164",
           "package": "tfp",
@@ -18730,6 +20535,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn164",
           "package": "tfp",
@@ -18742,6 +20548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn165",
           "package": "tfp",
@@ -18751,6 +20558,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn165",
           "package": "tfp",
@@ -18763,6 +20571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn166",
           "package": "tfp",
@@ -18772,6 +20581,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn166",
           "package": "tfp",
@@ -18784,6 +20594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn167",
           "package": "tfp",
@@ -18793,6 +20604,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn167",
           "package": "tfp",
@@ -18805,6 +20617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn168",
           "package": "tfp",
@@ -18814,6 +20627,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn168",
           "package": "tfp",
@@ -18826,6 +20640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn169",
           "package": "tfp",
@@ -18835,6 +20650,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn169",
           "package": "tfp",
@@ -18847,6 +20663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn17",
           "package": "tfp",
@@ -18856,6 +20673,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn17",
           "package": "tfp",
@@ -18868,6 +20686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn170",
           "package": "tfp",
@@ -18877,6 +20696,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn170",
           "package": "tfp",
@@ -18889,6 +20709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn171",
           "package": "tfp",
@@ -18898,6 +20719,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn171",
           "package": "tfp",
@@ -18910,6 +20732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn172",
           "package": "tfp",
@@ -18919,6 +20742,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn172",
           "package": "tfp",
@@ -18931,6 +20755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn173",
           "package": "tfp",
@@ -18940,6 +20765,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn173",
           "package": "tfp",
@@ -18952,6 +20778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn174",
           "package": "tfp",
@@ -18961,6 +20788,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn174",
           "package": "tfp",
@@ -18973,6 +20801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn175",
           "package": "tfp",
@@ -18982,6 +20811,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn175",
           "package": "tfp",
@@ -18994,6 +20824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn176",
           "package": "tfp",
@@ -19003,6 +20834,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn176",
           "package": "tfp",
@@ -19015,6 +20847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn177",
           "package": "tfp",
@@ -19024,6 +20857,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn177",
           "package": "tfp",
@@ -19036,6 +20870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn178",
           "package": "tfp",
@@ -19045,6 +20880,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn178",
           "package": "tfp",
@@ -19057,6 +20893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn179",
           "package": "tfp",
@@ -19066,6 +20903,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn179",
           "package": "tfp",
@@ -19078,6 +20916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn18",
           "package": "tfp",
@@ -19087,6 +20926,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn18",
           "package": "tfp",
@@ -19099,6 +20939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn180",
           "package": "tfp",
@@ -19108,6 +20949,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn180",
           "package": "tfp",
@@ -19120,6 +20962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn181",
           "package": "tfp",
@@ -19129,6 +20972,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn181",
           "package": "tfp",
@@ -19141,6 +20985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn182",
           "package": "tfp",
@@ -19150,6 +20995,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn182",
           "package": "tfp",
@@ -19162,6 +21008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn183",
           "package": "tfp",
@@ -19171,6 +21018,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn183",
           "package": "tfp",
@@ -19183,6 +21031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn184",
           "package": "tfp",
@@ -19192,6 +21041,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn184",
           "package": "tfp",
@@ -19204,6 +21054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn185",
           "package": "tfp",
@@ -19213,6 +21064,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn185",
           "package": "tfp",
@@ -19225,6 +21077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn186",
           "package": "tfp",
@@ -19234,6 +21087,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn186",
           "package": "tfp",
@@ -19246,6 +21100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn187",
           "package": "tfp",
@@ -19255,6 +21110,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn187",
           "package": "tfp",
@@ -19267,6 +21123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn188",
           "package": "tfp",
@@ -19276,6 +21133,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn188",
           "package": "tfp",
@@ -19288,6 +21146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn189",
           "package": "tfp",
@@ -19297,6 +21156,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn189",
           "package": "tfp",
@@ -19309,6 +21169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn19",
           "package": "tfp",
@@ -19318,6 +21179,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn19",
           "package": "tfp",
@@ -19330,6 +21192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn190",
           "package": "tfp",
@@ -19339,6 +21202,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn190",
           "package": "tfp",
@@ -19351,6 +21215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn191",
           "package": "tfp",
@@ -19360,6 +21225,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn191",
           "package": "tfp",
@@ -19372,6 +21238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn192",
           "package": "tfp",
@@ -19381,6 +21248,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn192",
           "package": "tfp",
@@ -19393,6 +21261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn193",
           "package": "tfp",
@@ -19402,6 +21271,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn193",
           "package": "tfp",
@@ -19414,6 +21284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn194",
           "package": "tfp",
@@ -19423,6 +21294,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn194",
           "package": "tfp",
@@ -19435,6 +21307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn195",
           "package": "tfp",
@@ -19444,6 +21317,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn195",
           "package": "tfp",
@@ -19456,6 +21330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn196",
           "package": "tfp",
@@ -19465,6 +21340,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn196",
           "package": "tfp",
@@ -19477,6 +21353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn197",
           "package": "tfp",
@@ -19486,6 +21363,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn197",
           "package": "tfp",
@@ -19498,6 +21376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn198",
           "package": "tfp",
@@ -19507,6 +21386,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn198",
           "package": "tfp",
@@ -19519,6 +21399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn199",
           "package": "tfp",
@@ -19528,6 +21409,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn199",
           "package": "tfp",
@@ -19540,6 +21422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn2",
           "package": "tfp",
@@ -19549,6 +21432,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn2",
           "package": "tfp",
@@ -19561,6 +21445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn20",
           "package": "tfp",
@@ -19570,6 +21455,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn20",
           "package": "tfp",
@@ -19582,6 +21468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn200",
           "package": "tfp",
@@ -19591,6 +21478,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn200",
           "package": "tfp",
@@ -19603,6 +21491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn201",
           "package": "tfp",
@@ -19612,6 +21501,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn201",
           "package": "tfp",
@@ -19624,6 +21514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn202",
           "package": "tfp",
@@ -19633,6 +21524,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn202",
           "package": "tfp",
@@ -19645,6 +21537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn203",
           "package": "tfp",
@@ -19654,6 +21547,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn203",
           "package": "tfp",
@@ -19666,6 +21560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn204",
           "package": "tfp",
@@ -19675,6 +21570,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn204",
           "package": "tfp",
@@ -19687,6 +21583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn205",
           "package": "tfp",
@@ -19696,6 +21593,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn205",
           "package": "tfp",
@@ -19708,6 +21606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn206",
           "package": "tfp",
@@ -19717,6 +21616,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn206",
           "package": "tfp",
@@ -19729,6 +21629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn207",
           "package": "tfp",
@@ -19738,6 +21639,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn207",
           "package": "tfp",
@@ -19750,6 +21652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn208",
           "package": "tfp",
@@ -19759,6 +21662,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn208",
           "package": "tfp",
@@ -19771,6 +21675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn209",
           "package": "tfp",
@@ -19780,6 +21685,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn209",
           "package": "tfp",
@@ -19792,6 +21698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn21",
           "package": "tfp",
@@ -19801,6 +21708,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn21",
           "package": "tfp",
@@ -19813,6 +21721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn210",
           "package": "tfp",
@@ -19822,6 +21731,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn210",
           "package": "tfp",
@@ -19834,6 +21744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn211",
           "package": "tfp",
@@ -19843,6 +21754,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn211",
           "package": "tfp",
@@ -19855,6 +21767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn212",
           "package": "tfp",
@@ -19864,6 +21777,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn212",
           "package": "tfp",
@@ -19876,6 +21790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn213",
           "package": "tfp",
@@ -19885,6 +21800,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn213",
           "package": "tfp",
@@ -19897,6 +21813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn214",
           "package": "tfp",
@@ -19906,6 +21823,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn214",
           "package": "tfp",
@@ -19918,6 +21836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn215",
           "package": "tfp",
@@ -19927,6 +21846,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn215",
           "package": "tfp",
@@ -19939,6 +21859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn216",
           "package": "tfp",
@@ -19948,6 +21869,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn216",
           "package": "tfp",
@@ -19960,6 +21882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn217",
           "package": "tfp",
@@ -19969,6 +21892,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn217",
           "package": "tfp",
@@ -19981,6 +21905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn218",
           "package": "tfp",
@@ -19990,6 +21915,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn218",
           "package": "tfp",
@@ -20002,6 +21928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn219",
           "package": "tfp",
@@ -20011,6 +21938,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn219",
           "package": "tfp",
@@ -20023,6 +21951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn22",
           "package": "tfp",
@@ -20032,6 +21961,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn22",
           "package": "tfp",
@@ -20044,6 +21974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn220",
           "package": "tfp",
@@ -20053,6 +21984,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn220",
           "package": "tfp",
@@ -20065,6 +21997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn221",
           "package": "tfp",
@@ -20074,6 +22007,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn221",
           "package": "tfp",
@@ -20086,6 +22020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn222",
           "package": "tfp",
@@ -20095,6 +22030,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn222",
           "package": "tfp",
@@ -20107,6 +22043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn223",
           "package": "tfp",
@@ -20116,6 +22053,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn223",
           "package": "tfp",
@@ -20128,6 +22066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn224",
           "package": "tfp",
@@ -20137,6 +22076,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn224",
           "package": "tfp",
@@ -20149,6 +22089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn225",
           "package": "tfp",
@@ -20158,6 +22099,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn225",
           "package": "tfp",
@@ -20170,6 +22112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn226",
           "package": "tfp",
@@ -20179,6 +22122,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn226",
           "package": "tfp",
@@ -20191,6 +22135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn227",
           "package": "tfp",
@@ -20200,6 +22145,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn227",
           "package": "tfp",
@@ -20212,6 +22158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn228",
           "package": "tfp",
@@ -20221,6 +22168,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn228",
           "package": "tfp",
@@ -20233,6 +22181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn229",
           "package": "tfp",
@@ -20242,6 +22191,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn229",
           "package": "tfp",
@@ -20254,6 +22204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn23",
           "package": "tfp",
@@ -20263,6 +22214,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn23",
           "package": "tfp",
@@ -20275,6 +22227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn230",
           "package": "tfp",
@@ -20284,6 +22237,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn230",
           "package": "tfp",
@@ -20296,6 +22250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn231",
           "package": "tfp",
@@ -20305,6 +22260,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn231",
           "package": "tfp",
@@ -20317,6 +22273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn232",
           "package": "tfp",
@@ -20326,6 +22283,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn232",
           "package": "tfp",
@@ -20338,6 +22296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn233",
           "package": "tfp",
@@ -20347,6 +22306,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn233",
           "package": "tfp",
@@ -20359,6 +22319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn234",
           "package": "tfp",
@@ -20368,6 +22329,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn234",
           "package": "tfp",
@@ -20380,6 +22342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn235",
           "package": "tfp",
@@ -20389,6 +22352,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn235",
           "package": "tfp",
@@ -20401,6 +22365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn236",
           "package": "tfp",
@@ -20410,6 +22375,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn236",
           "package": "tfp",
@@ -20422,6 +22388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn237",
           "package": "tfp",
@@ -20431,6 +22398,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn237",
           "package": "tfp",
@@ -20443,6 +22411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn238",
           "package": "tfp",
@@ -20452,6 +22421,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn238",
           "package": "tfp",
@@ -20464,6 +22434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn239",
           "package": "tfp",
@@ -20473,6 +22444,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn239",
           "package": "tfp",
@@ -20485,6 +22457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn24",
           "package": "tfp",
@@ -20494,6 +22467,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn24",
           "package": "tfp",
@@ -20506,6 +22480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn240",
           "package": "tfp",
@@ -20515,6 +22490,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn240",
           "package": "tfp",
@@ -20527,6 +22503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn241",
           "package": "tfp",
@@ -20536,6 +22513,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn241",
           "package": "tfp",
@@ -20548,6 +22526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn242",
           "package": "tfp",
@@ -20557,6 +22536,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn242",
           "package": "tfp",
@@ -20569,6 +22549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn243",
           "package": "tfp",
@@ -20578,6 +22559,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn243",
           "package": "tfp",
@@ -20590,6 +22572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn244",
           "package": "tfp",
@@ -20599,6 +22582,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn244",
           "package": "tfp",
@@ -20611,6 +22595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn245",
           "package": "tfp",
@@ -20620,6 +22605,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn245",
           "package": "tfp",
@@ -20632,6 +22618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn246",
           "package": "tfp",
@@ -20641,6 +22628,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn246",
           "package": "tfp",
@@ -20653,6 +22641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn247",
           "package": "tfp",
@@ -20662,6 +22651,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn247",
           "package": "tfp",
@@ -20674,6 +22664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn248",
           "package": "tfp",
@@ -20683,6 +22674,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn248",
           "package": "tfp",
@@ -20695,6 +22687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn249",
           "package": "tfp",
@@ -20704,6 +22697,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn249",
           "package": "tfp",
@@ -20716,6 +22710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn25",
           "package": "tfp",
@@ -20725,6 +22720,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn25",
           "package": "tfp",
@@ -20737,6 +22733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn250",
           "package": "tfp",
@@ -20746,6 +22743,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn250",
           "package": "tfp",
@@ -20758,6 +22756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn251",
           "package": "tfp",
@@ -20767,6 +22766,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn251",
           "package": "tfp",
@@ -20779,6 +22779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn252",
           "package": "tfp",
@@ -20788,6 +22789,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn252",
           "package": "tfp",
@@ -20800,6 +22802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn253",
           "package": "tfp",
@@ -20809,6 +22812,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn253",
           "package": "tfp",
@@ -20821,6 +22825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn254",
           "package": "tfp",
@@ -20830,6 +22835,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn254",
           "package": "tfp",
@@ -20842,6 +22848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn255",
           "package": "tfp",
@@ -20851,6 +22858,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn255",
           "package": "tfp",
@@ -20863,6 +22871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn256",
           "package": "tfp",
@@ -20872,6 +22881,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn256",
           "package": "tfp",
@@ -20884,6 +22894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn26",
           "package": "tfp",
@@ -20893,6 +22904,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn26",
           "package": "tfp",
@@ -20905,6 +22917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn27",
           "package": "tfp",
@@ -20914,6 +22927,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn27",
           "package": "tfp",
@@ -20926,6 +22940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn28",
           "package": "tfp",
@@ -20935,6 +22950,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn28",
           "package": "tfp",
@@ -20947,6 +22963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn29",
           "package": "tfp",
@@ -20956,6 +22973,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn29",
           "package": "tfp",
@@ -20968,6 +22986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn3",
           "package": "tfp",
@@ -20977,6 +22996,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn3",
           "package": "tfp",
@@ -20989,6 +23009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn30",
           "package": "tfp",
@@ -20998,6 +23019,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn30",
           "package": "tfp",
@@ -21010,6 +23032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn31",
           "package": "tfp",
@@ -21019,6 +23042,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn31",
           "package": "tfp",
@@ -21031,6 +23055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn32",
           "package": "tfp",
@@ -21040,6 +23065,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn32",
           "package": "tfp",
@@ -21052,6 +23078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn33",
           "package": "tfp",
@@ -21061,6 +23088,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn33",
           "package": "tfp",
@@ -21073,6 +23101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn34",
           "package": "tfp",
@@ -21082,6 +23111,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn34",
           "package": "tfp",
@@ -21094,6 +23124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn35",
           "package": "tfp",
@@ -21103,6 +23134,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn35",
           "package": "tfp",
@@ -21115,6 +23147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn36",
           "package": "tfp",
@@ -21124,6 +23157,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn36",
           "package": "tfp",
@@ -21136,6 +23170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn37",
           "package": "tfp",
@@ -21145,6 +23180,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn37",
           "package": "tfp",
@@ -21157,6 +23193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn38",
           "package": "tfp",
@@ -21166,6 +23203,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn38",
           "package": "tfp",
@@ -21178,6 +23216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn39",
           "package": "tfp",
@@ -21187,6 +23226,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn39",
           "package": "tfp",
@@ -21199,6 +23239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn4",
           "package": "tfp",
@@ -21208,6 +23249,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn4",
           "package": "tfp",
@@ -21220,6 +23262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn40",
           "package": "tfp",
@@ -21229,6 +23272,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn40",
           "package": "tfp",
@@ -21241,6 +23285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn41",
           "package": "tfp",
@@ -21250,6 +23295,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn41",
           "package": "tfp",
@@ -21262,6 +23308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn42",
           "package": "tfp",
@@ -21271,6 +23318,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn42",
           "package": "tfp",
@@ -21283,6 +23331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn43",
           "package": "tfp",
@@ -21292,6 +23341,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn43",
           "package": "tfp",
@@ -21304,6 +23354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn44",
           "package": "tfp",
@@ -21313,6 +23364,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn44",
           "package": "tfp",
@@ -21325,6 +23377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn45",
           "package": "tfp",
@@ -21334,6 +23387,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn45",
           "package": "tfp",
@@ -21346,6 +23400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn46",
           "package": "tfp",
@@ -21355,6 +23410,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn46",
           "package": "tfp",
@@ -21367,6 +23423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn47",
           "package": "tfp",
@@ -21376,6 +23433,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn47",
           "package": "tfp",
@@ -21388,6 +23446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn48",
           "package": "tfp",
@@ -21397,6 +23456,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn48",
           "package": "tfp",
@@ -21409,6 +23469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn49",
           "package": "tfp",
@@ -21418,6 +23479,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn49",
           "package": "tfp",
@@ -21430,6 +23492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn5",
           "package": "tfp",
@@ -21439,6 +23502,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn5",
           "package": "tfp",
@@ -21451,6 +23515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn50",
           "package": "tfp",
@@ -21460,6 +23525,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn50",
           "package": "tfp",
@@ -21472,6 +23538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn51",
           "package": "tfp",
@@ -21481,6 +23548,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn51",
           "package": "tfp",
@@ -21493,6 +23561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn52",
           "package": "tfp",
@@ -21502,6 +23571,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn52",
           "package": "tfp",
@@ -21514,6 +23584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn53",
           "package": "tfp",
@@ -21523,6 +23594,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn53",
           "package": "tfp",
@@ -21535,6 +23607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn54",
           "package": "tfp",
@@ -21544,6 +23617,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn54",
           "package": "tfp",
@@ -21556,6 +23630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn55",
           "package": "tfp",
@@ -21565,6 +23640,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn55",
           "package": "tfp",
@@ -21577,6 +23653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn56",
           "package": "tfp",
@@ -21586,6 +23663,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn56",
           "package": "tfp",
@@ -21598,6 +23676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn57",
           "package": "tfp",
@@ -21607,6 +23686,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn57",
           "package": "tfp",
@@ -21619,6 +23699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn58",
           "package": "tfp",
@@ -21628,6 +23709,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn58",
           "package": "tfp",
@@ -21640,6 +23722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn59",
           "package": "tfp",
@@ -21649,6 +23732,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn59",
           "package": "tfp",
@@ -21661,6 +23745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn6",
           "package": "tfp",
@@ -21670,6 +23755,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn6",
           "package": "tfp",
@@ -21682,6 +23768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn60",
           "package": "tfp",
@@ -21691,6 +23778,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn60",
           "package": "tfp",
@@ -21703,6 +23791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn61",
           "package": "tfp",
@@ -21712,6 +23801,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn61",
           "package": "tfp",
@@ -21724,6 +23814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn62",
           "package": "tfp",
@@ -21733,6 +23824,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn62",
           "package": "tfp",
@@ -21745,6 +23837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn63",
           "package": "tfp",
@@ -21754,6 +23847,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn63",
           "package": "tfp",
@@ -21766,6 +23860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn64",
           "package": "tfp",
@@ -21775,6 +23870,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn64",
           "package": "tfp",
@@ -21787,6 +23883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn65",
           "package": "tfp",
@@ -21796,6 +23893,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn65",
           "package": "tfp",
@@ -21808,6 +23906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn66",
           "package": "tfp",
@@ -21817,6 +23916,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn66",
           "package": "tfp",
@@ -21829,6 +23929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn67",
           "package": "tfp",
@@ -21838,6 +23939,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn67",
           "package": "tfp",
@@ -21850,6 +23952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn68",
           "package": "tfp",
@@ -21859,6 +23962,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn68",
           "package": "tfp",
@@ -21871,6 +23975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn69",
           "package": "tfp",
@@ -21880,6 +23985,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn69",
           "package": "tfp",
@@ -21892,6 +23998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn7",
           "package": "tfp",
@@ -21901,6 +24008,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn7",
           "package": "tfp",
@@ -21913,6 +24021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn70",
           "package": "tfp",
@@ -21922,6 +24031,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn70",
           "package": "tfp",
@@ -21934,6 +24044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn71",
           "package": "tfp",
@@ -21943,6 +24054,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn71",
           "package": "tfp",
@@ -21955,6 +24067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn72",
           "package": "tfp",
@@ -21964,6 +24077,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn72",
           "package": "tfp",
@@ -21976,6 +24090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn73",
           "package": "tfp",
@@ -21985,6 +24100,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn73",
           "package": "tfp",
@@ -21997,6 +24113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn74",
           "package": "tfp",
@@ -22006,6 +24123,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn74",
           "package": "tfp",
@@ -22018,6 +24136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn75",
           "package": "tfp",
@@ -22027,6 +24146,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn75",
           "package": "tfp",
@@ -22039,6 +24159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn76",
           "package": "tfp",
@@ -22048,6 +24169,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn76",
           "package": "tfp",
@@ -22060,6 +24182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn77",
           "package": "tfp",
@@ -22069,6 +24192,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn77",
           "package": "tfp",
@@ -22081,6 +24205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn78",
           "package": "tfp",
@@ -22090,6 +24215,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn78",
           "package": "tfp",
@@ -22102,6 +24228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn79",
           "package": "tfp",
@@ -22111,6 +24238,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn79",
           "package": "tfp",
@@ -22123,6 +24251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn8",
           "package": "tfp",
@@ -22132,6 +24261,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn8",
           "package": "tfp",
@@ -22144,6 +24274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn80",
           "package": "tfp",
@@ -22153,6 +24284,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn80",
           "package": "tfp",
@@ -22165,6 +24297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn81",
           "package": "tfp",
@@ -22174,6 +24307,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn81",
           "package": "tfp",
@@ -22186,6 +24320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn82",
           "package": "tfp",
@@ -22195,6 +24330,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn82",
           "package": "tfp",
@@ -22207,6 +24343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn83",
           "package": "tfp",
@@ -22216,6 +24353,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn83",
           "package": "tfp",
@@ -22228,6 +24366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn84",
           "package": "tfp",
@@ -22237,6 +24376,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn84",
           "package": "tfp",
@@ -22249,6 +24389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn85",
           "package": "tfp",
@@ -22258,6 +24399,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn85",
           "package": "tfp",
@@ -22270,6 +24412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn86",
           "package": "tfp",
@@ -22279,6 +24422,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn86",
           "package": "tfp",
@@ -22291,6 +24435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn87",
           "package": "tfp",
@@ -22300,6 +24445,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn87",
           "package": "tfp",
@@ -22312,6 +24458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn88",
           "package": "tfp",
@@ -22321,6 +24468,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn88",
           "package": "tfp",
@@ -22333,6 +24481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn89",
           "package": "tfp",
@@ -22342,6 +24491,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn89",
           "package": "tfp",
@@ -22354,6 +24504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn9",
           "package": "tfp",
@@ -22363,6 +24514,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn9",
           "package": "tfp",
@@ -22375,6 +24527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn90",
           "package": "tfp",
@@ -22384,6 +24537,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn90",
           "package": "tfp",
@@ -22396,6 +24550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn91",
           "package": "tfp",
@@ -22405,6 +24560,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn91",
           "package": "tfp",
@@ -22417,6 +24573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn92",
           "package": "tfp",
@@ -22426,6 +24583,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn92",
           "package": "tfp",
@@ -22438,6 +24596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn93",
           "package": "tfp",
@@ -22447,6 +24606,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn93",
           "package": "tfp",
@@ -22459,6 +24619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn94",
           "package": "tfp",
@@ -22468,6 +24629,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn94",
           "package": "tfp",
@@ -22480,6 +24642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn95",
           "package": "tfp",
@@ -22489,6 +24652,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn95",
           "package": "tfp",
@@ -22501,6 +24665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn96",
           "package": "tfp",
@@ -22510,6 +24675,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn96",
           "package": "tfp",
@@ -22522,6 +24688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn97",
           "package": "tfp",
@@ -22531,6 +24698,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn97",
           "package": "tfp",
@@ -22543,6 +24711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn98",
           "package": "tfp",
@@ -22552,6 +24721,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn98",
           "package": "tfp",
@@ -22564,6 +24734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn99",
           "package": "tfp",
@@ -22573,6 +24744,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal.Literals",
           "name": "dn99",
           "package": "tfp",
@@ -22585,6 +24757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Decimal",
           "name": "Decimal",
           "package": "tfp",
@@ -22593,6 +24766,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Decimal",
           "name": "Decimal",
           "package": "tfp",
@@ -22607,6 +24781,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical operations using type families.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Ops",
           "package": "tfp",
@@ -22616,6 +24791,7 @@
         "index": {
           "description": "Type-level numerical operations using type families",
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Ops",
           "package": "tfp",
@@ -22629,6 +24805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": ":*:",
           "package": "tfp",
@@ -22637,6 +24814,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": ":*:",
           "package": "tfp",
@@ -22649,6 +24827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": ":+:",
           "package": "tfp",
@@ -22657,6 +24836,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": ":+:",
           "package": "tfp",
@@ -22669,6 +24849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": ":-:",
           "package": "tfp",
@@ -22677,6 +24858,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": ":-:",
           "package": "tfp",
@@ -22689,6 +24871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": ":.",
           "package": "tfp",
@@ -22697,6 +24880,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": ":.",
           "package": "tfp",
@@ -22709,6 +24893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Div",
           "package": "tfp",
@@ -22717,6 +24902,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Div",
           "package": "tfp",
@@ -22730,6 +24916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Div2",
           "package": "tfp",
@@ -22738,6 +24925,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Div2",
           "package": "tfp",
@@ -22751,6 +24939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "DivMod",
           "package": "tfp",
@@ -22759,6 +24948,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "DivMod",
           "package": "tfp",
@@ -22772,6 +24962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Fac",
           "package": "tfp",
@@ -22780,6 +24971,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Fac",
           "package": "tfp",
@@ -22793,6 +24985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "IntegerR",
           "package": "tfp",
@@ -22801,6 +24994,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "IntegerR",
           "package": "tfp",
@@ -22814,6 +25008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "IntegerT",
           "package": "tfp",
@@ -22822,6 +25017,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "IntegerT",
           "package": "tfp",
@@ -22835,6 +25031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "IsEven",
           "package": "tfp",
@@ -22843,6 +25040,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "IsEven",
           "package": "tfp",
@@ -22856,6 +25054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "IsNatural",
           "package": "tfp",
@@ -22864,6 +25063,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "IsNatural",
           "package": "tfp",
@@ -22877,6 +25077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "IsNegative",
           "package": "tfp",
@@ -22885,6 +25086,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "IsNegative",
           "package": "tfp",
@@ -22898,6 +25100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "IsOdd",
           "package": "tfp",
@@ -22906,6 +25109,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "IsOdd",
           "package": "tfp",
@@ -22919,6 +25123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "IsPositive",
           "package": "tfp",
@@ -22927,6 +25132,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "IsPositive",
           "package": "tfp",
@@ -22940,6 +25146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "IsZero",
           "package": "tfp",
@@ -22948,6 +25155,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "IsZero",
           "package": "tfp",
@@ -22961,6 +25169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Log2Ceil",
           "package": "tfp",
@@ -22969,6 +25178,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Log2Ceil",
           "package": "tfp",
@@ -22982,6 +25192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Mod",
           "package": "tfp",
@@ -22990,6 +25201,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Mod",
           "package": "tfp",
@@ -23003,6 +25215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Mul2",
           "package": "tfp",
@@ -23011,6 +25224,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Mul2",
           "package": "tfp",
@@ -23024,6 +25238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "NaturalT",
           "package": "tfp",
@@ -23032,6 +25247,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "NaturalT",
           "package": "tfp",
@@ -23046,6 +25262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNeg x\u003c/code\u003e evaluates to the additive inverse of (i.e., minus) \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Neg",
           "package": "tfp",
@@ -23055,6 +25272,7 @@
         "index": {
           "description": "Neg evaluates to the additive inverse of i.e minus",
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Neg",
           "package": "tfp",
@@ -23068,6 +25286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "NegativeT",
           "package": "tfp",
@@ -23076,6 +25295,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "NegativeT",
           "package": "tfp",
@@ -23089,6 +25309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "PositiveT",
           "package": "tfp",
@@ -23097,6 +25318,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "PositiveT",
           "package": "tfp",
@@ -23110,6 +25332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Pow2",
           "package": "tfp",
@@ -23118,6 +25341,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Pow2",
           "package": "tfp",
@@ -23131,6 +25355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Pred",
           "package": "tfp",
@@ -23139,6 +25364,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Pred",
           "package": "tfp",
@@ -23152,6 +25378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "Succ",
           "package": "tfp",
@@ -23160,6 +25387,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "Succ",
           "package": "tfp",
@@ -23173,6 +25401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "addT",
           "package": "tfp",
@@ -23182,6 +25411,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "addT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -23196,6 +25426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "div2T",
           "package": "tfp",
@@ -23205,6 +25436,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "div2T",
           "normalized": "a-\u003eDiv a",
@@ -23219,6 +25451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "divModT",
           "package": "tfp",
@@ -23228,6 +25461,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "divModT",
           "normalized": "a-\u003eb-\u003eDivMod a b",
@@ -23243,6 +25477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "divT",
           "package": "tfp",
@@ -23252,6 +25487,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "divT",
           "normalized": "a-\u003eb-\u003eDiv a b",
@@ -23266,6 +25502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "facT",
           "package": "tfp",
@@ -23275,6 +25512,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "facT",
           "normalized": "a-\u003eFac a",
@@ -23289,6 +25527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "fromIntegerT",
           "package": "tfp",
@@ -23298,6 +25537,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "fromIntegerT",
           "normalized": "a-\u003eb",
@@ -23313,6 +25553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "isEvenT",
           "package": "tfp",
@@ -23322,6 +25563,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "isEvenT",
           "normalized": "a-\u003eIsEven a",
@@ -23337,6 +25579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "isNaturalT",
           "package": "tfp",
@@ -23346,6 +25589,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "isNaturalT",
           "normalized": "a-\u003eIsNatural a",
@@ -23361,6 +25605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "isNegativeT",
           "package": "tfp",
@@ -23370,6 +25615,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "isNegativeT",
           "normalized": "a-\u003eIsNegative a",
@@ -23385,6 +25631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "isOddT",
           "package": "tfp",
@@ -23394,6 +25641,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "isOddT",
           "normalized": "a-\u003eIsOdd a",
@@ -23409,6 +25657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "isPositiveT",
           "package": "tfp",
@@ -23418,6 +25667,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "isPositiveT",
           "normalized": "a-\u003eIsPositive a",
@@ -23433,6 +25683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "isZeroT",
           "package": "tfp",
@@ -23442,6 +25693,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "isZeroT",
           "normalized": "a-\u003eIsZero a",
@@ -23457,6 +25709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "log2CeilT",
           "package": "tfp",
@@ -23466,6 +25719,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "log2CeilT",
           "normalized": "a-\u003eLog Ceil a",
@@ -23481,6 +25735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "modT",
           "package": "tfp",
@@ -23490,6 +25745,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "modT",
           "normalized": "a-\u003eb-\u003eMod a b",
@@ -23504,6 +25760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "mul2T",
           "package": "tfp",
@@ -23513,6 +25770,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "mul2T",
           "normalized": "a-\u003eMul a",
@@ -23527,6 +25785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "mulT",
           "package": "tfp",
@@ -23536,6 +25795,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "mulT",
           "normalized": "a-\u003eb-\u003ea*b",
@@ -23550,6 +25810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "negT",
           "package": "tfp",
@@ -23559,6 +25820,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "negT",
           "normalized": "a-\u003eNeg a",
@@ -23573,6 +25835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "pow2T",
           "package": "tfp",
@@ -23582,6 +25845,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "pow2T",
           "normalized": "a-\u003ePow a",
@@ -23596,6 +25860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "predT",
           "package": "tfp",
@@ -23605,6 +25870,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "predT",
           "normalized": "a-\u003ePred a",
@@ -23619,6 +25885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "reifyIntegral",
           "package": "tfp",
@@ -23628,6 +25895,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "reifyIntegral",
           "normalized": "a-\u003eb)-\u003eb",
@@ -23643,6 +25911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "reifyNatural",
           "package": "tfp",
@@ -23652,6 +25921,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "reifyNatural",
           "normalized": "a-\u003eb)-\u003eMaybe b",
@@ -23667,6 +25937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "reifyNegative",
           "package": "tfp",
@@ -23676,6 +25947,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "reifyNegative",
           "normalized": "a-\u003eb)-\u003eMaybe b",
@@ -23691,6 +25963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "reifyPositive",
           "package": "tfp",
@@ -23700,6 +25973,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "reifyPositive",
           "normalized": "a-\u003eb)-\u003eMaybe b",
@@ -23715,6 +25989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "subT",
           "package": "tfp",
@@ -23724,6 +25999,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "subT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -23738,6 +26014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num.Ops",
           "name": "succT",
           "package": "tfp",
@@ -23747,6 +26024,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Ops",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num.Ops",
           "name": "succT",
           "normalized": "a-\u003eSucc a",
@@ -23762,6 +26040,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical operations using type families.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num",
           "name": "Num",
           "package": "tfp",
@@ -23771,6 +26050,7 @@
         "index": {
           "description": "Type-level numerical operations using type families",
           "hierarchy": "Types Data Num",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num",
           "name": "Num",
           "package": "tfp",
@@ -23784,6 +26064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num",
           "name": "reifyIntegralD",
           "package": "tfp",
@@ -23793,6 +26074,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num",
           "name": "reifyIntegralD",
           "normalized": "a-\u003eb)-\u003eb",
@@ -23808,6 +26090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num",
           "name": "reifyNaturalD",
           "package": "tfp",
@@ -23817,6 +26100,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num",
           "name": "reifyNaturalD",
           "normalized": "a-\u003eb)-\u003eMaybe b",
@@ -23832,6 +26116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num",
           "name": "reifyNegativeD",
           "package": "tfp",
@@ -23841,6 +26126,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num",
           "name": "reifyNegativeD",
           "normalized": "a-\u003eb)-\u003eMaybe b",
@@ -23856,6 +26142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Num",
           "name": "reifyPositiveD",
           "package": "tfp",
@@ -23865,6 +26152,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Num",
           "name": "reifyPositiveD",
           "normalized": "a-\u003eb)-\u003eMaybe b",
@@ -23881,6 +26169,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical operations using type families.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "Ord",
           "package": "tfp",
@@ -23890,6 +26179,7 @@
         "index": {
           "description": "Type-level numerical operations using type families",
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "Ord",
           "package": "tfp",
@@ -23903,6 +26193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": ":/=:",
           "package": "tfp",
@@ -23911,6 +26202,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": ":/=:",
           "package": "tfp",
@@ -23923,6 +26215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": ":\u003c=:",
           "package": "tfp",
@@ -23931,6 +26224,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": ":\u003c=:",
           "package": "tfp",
@@ -23943,6 +26237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": ":\u003c:",
           "package": "tfp",
@@ -23951,6 +26246,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": ":\u003c:",
           "package": "tfp",
@@ -23963,6 +26259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": ":==:",
           "package": "tfp",
@@ -23971,6 +26268,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": ":==:",
           "package": "tfp",
@@ -23983,6 +26281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": ":\u003e=:",
           "package": "tfp",
@@ -23991,6 +26290,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": ":\u003e=:",
           "package": "tfp",
@@ -24003,6 +26303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": ":\u003e:",
           "package": "tfp",
@@ -24011,6 +26312,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": ":\u003e:",
           "package": "tfp",
@@ -24023,6 +26325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "Compare",
           "package": "tfp",
@@ -24031,6 +26334,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "Compare",
           "package": "tfp",
@@ -24044,6 +26348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "EQ",
           "package": "tfp",
@@ -24052,6 +26357,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "EQ",
           "package": "tfp",
@@ -24065,6 +26371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "EQT",
           "package": "tfp",
@@ -24073,6 +26380,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "EQT",
           "package": "tfp",
@@ -24086,6 +26394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "GET",
           "package": "tfp",
@@ -24094,6 +26403,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "GET",
           "package": "tfp",
@@ -24107,6 +26417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "GT",
           "package": "tfp",
@@ -24115,6 +26426,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "GT",
           "package": "tfp",
@@ -24128,6 +26440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "GTT",
           "package": "tfp",
@@ -24136,6 +26449,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "GTT",
           "package": "tfp",
@@ -24149,6 +26463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "IsEQ",
           "package": "tfp",
@@ -24157,6 +26472,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "IsEQ",
           "package": "tfp",
@@ -24170,6 +26486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "IsGT",
           "package": "tfp",
@@ -24178,6 +26495,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "IsGT",
           "package": "tfp",
@@ -24191,6 +26509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "IsLT",
           "package": "tfp",
@@ -24199,6 +26518,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "IsLT",
           "package": "tfp",
@@ -24212,6 +26532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "LET",
           "package": "tfp",
@@ -24220,6 +26541,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "LET",
           "package": "tfp",
@@ -24233,6 +26555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "LT",
           "package": "tfp",
@@ -24241,6 +26564,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "LT",
           "package": "tfp",
@@ -24254,6 +26578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "LTT",
           "package": "tfp",
@@ -24262,6 +26587,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "LTT",
           "package": "tfp",
@@ -24275,6 +26601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "Max",
           "package": "tfp",
@@ -24283,6 +26610,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "Max",
           "package": "tfp",
@@ -24296,6 +26624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "Min",
           "package": "tfp",
@@ -24304,6 +26633,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "Min",
           "package": "tfp",
@@ -24317,6 +26647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "NET",
           "package": "tfp",
@@ -24325,6 +26656,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "NET",
           "package": "tfp",
@@ -24338,6 +26670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "compareT",
           "package": "tfp",
@@ -24347,6 +26680,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "compareT",
           "normalized": "a-\u003eb-\u003eCompare a b",
@@ -24361,6 +26695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "eqT",
           "package": "tfp",
@@ -24370,6 +26705,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "eqT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -24384,6 +26720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "geT",
           "package": "tfp",
@@ -24393,6 +26730,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "geT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -24407,6 +26745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "gtT",
           "package": "tfp",
@@ -24416,6 +26755,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "gtT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -24430,6 +26770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "isEQT",
           "package": "tfp",
@@ -24439,6 +26780,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "isEQT",
           "normalized": "a-\u003eIsEQ a",
@@ -24454,6 +26796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "isGTT",
           "package": "tfp",
@@ -24463,6 +26806,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "isGTT",
           "normalized": "a-\u003eIsGT a",
@@ -24478,6 +26822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "isLTT",
           "package": "tfp",
@@ -24487,6 +26832,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "isLTT",
           "normalized": "a-\u003eIsLT a",
@@ -24502,6 +26848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "leT",
           "package": "tfp",
@@ -24511,6 +26858,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "leT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -24525,6 +26873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "ltT",
           "package": "tfp",
@@ -24534,6 +26883,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "ltT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -24548,6 +26898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "maxT",
           "package": "tfp",
@@ -24557,6 +26908,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "maxT",
           "normalized": "a-\u003eb-\u003eMax a b",
@@ -24571,6 +26923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "minT",
           "package": "tfp",
@@ -24580,6 +26933,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "minT",
           "normalized": "a-\u003eb-\u003eMin a b",
@@ -24594,6 +26948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types.Data.Ord",
           "name": "neT",
           "package": "tfp",
@@ -24603,6 +26958,7 @@
         },
         "index": {
           "hierarchy": "Types Data Ord",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types.Data.Ord",
           "name": "neT",
           "normalized": "a-\u003eb-\u003ea b",
@@ -24617,6 +26973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:48 UTC 2014",
           "module": "Types",
           "name": "Types",
           "package": "tfp",
@@ -24625,6 +26982,7 @@
         },
         "index": {
           "hierarchy": "Types",
+          "indexed": "2014-03-11T20:20:48",
           "module": "Types",
           "name": "Types",
           "package": "tfp",

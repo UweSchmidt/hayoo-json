@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-handler-scgi"
+        "phrase": "wai-handler-scgi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:14 UTC 2014",
           "module": "Network.Wai.Handler.SCGI",
           "name": "SCGI",
           "package": "wai-handler-scgi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler SCGI",
+          "indexed": "2014-03-11T20:36:14",
           "module": "Network.Wai.Handler.SCGI",
           "name": "SCGI",
           "package": "wai-handler-scgi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:14 UTC 2014",
           "module": "Network.Wai.Handler.SCGI",
           "name": "run",
           "package": "wai-handler-scgi",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler SCGI",
+          "indexed": "2014-03-11T20:36:14",
           "module": "Network.Wai.Handler.SCGI",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:14 UTC 2014",
           "module": "Network.Wai.Handler.SCGI",
           "name": "runSendfile",
           "package": "wai-handler-scgi",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler SCGI",
+          "indexed": "2014-03-11T20:36:14",
           "module": "Network.Wai.Handler.SCGI",
           "name": "runSendfile",
           "normalized": "ByteString-\u003eApplication-\u003eIO()",

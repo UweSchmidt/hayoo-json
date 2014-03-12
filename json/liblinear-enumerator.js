@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "liblinear-enumerator"
+        "phrase": "liblinear-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor a high-level description of the C API, refer to the README file\nincluded in the liblinear archive, available for download at\n\u003ca\u003ehttp://www.csie.ntu.edu.tw/~cjlin/liblinear/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "LibLinear",
           "package": "liblinear-enumerator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "For high-level description of the API refer to the README file included in the liblinear archive available for download at http www.csie.ntu.edu.tw cjlin liblinear",
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "LibLinear",
           "package": "liblinear-enumerator",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "C'feature_node",
           "package": "liblinear-enumerator",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "C'feature_node",
           "package": "liblinear-enumerator",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "C'model",
           "package": "liblinear-enumerator",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "C'model",
           "package": "liblinear-enumerator",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "C'parameter",
           "package": "liblinear-enumerator",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "C'parameter",
           "package": "liblinear-enumerator",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "C'problem",
           "package": "liblinear-enumerator",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "C'problem",
           "package": "liblinear-enumerator",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "C'feature_node",
           "package": "liblinear-enumerator",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "C'feature_node",
           "package": "liblinear-enumerator",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "C'model",
           "package": "liblinear-enumerator",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "C'model",
           "package": "liblinear-enumerator",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "C'parameter",
           "package": "liblinear-enumerator",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "C'parameter",
           "package": "liblinear-enumerator",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "C'problem",
           "package": "liblinear-enumerator",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "C'problem",
           "package": "liblinear-enumerator",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'L1R_L2LOSS_SVC",
           "package": "liblinear-enumerator",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'L1R_L2LOSS_SVC",
           "package": "liblinear-enumerator",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'L1R_LR",
           "package": "liblinear-enumerator",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'L1R_LR",
           "package": "liblinear-enumerator",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_L1LOSS_SVC_DUAL",
           "package": "liblinear-enumerator",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_L1LOSS_SVC_DUAL",
           "package": "liblinear-enumerator",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_L2LOSS_SVC",
           "package": "liblinear-enumerator",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_L2LOSS_SVC",
           "package": "liblinear-enumerator",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_L2LOSS_SVC_DUAL",
           "package": "liblinear-enumerator",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_L2LOSS_SVC_DUAL",
           "package": "liblinear-enumerator",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_LR",
           "package": "liblinear-enumerator",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_LR",
           "package": "liblinear-enumerator",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_LR_DUAL",
           "package": "liblinear-enumerator",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'L2R_LR_DUAL",
           "package": "liblinear-enumerator",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'MCSVM_CS",
           "package": "liblinear-enumerator",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'MCSVM_CS",
           "package": "liblinear-enumerator",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'check_parameter",
           "package": "liblinear-enumerator",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'check_parameter",
           "normalized": "Ptr C'problem-\u003ePtr C'parameter-\u003eIO CString",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'check_probability_model",
           "package": "liblinear-enumerator",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'check_probability_model",
           "normalized": "Ptr C'model-\u003eIO CInt",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'cross_validation",
           "package": "liblinear-enumerator",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'cross_validation",
           "normalized": "Ptr C'problem-\u003ePtr C'parameter-\u003eCInt-\u003ePtr CDouble-\u003eIO()",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'destroy_param",
           "package": "liblinear-enumerator",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'destroy_param",
           "normalized": "Ptr C'parameter-\u003eIO()",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'feature_node'index",
           "package": "liblinear-enumerator",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'feature_node'index",
           "package": "liblinear-enumerator",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'feature_node'value",
           "package": "liblinear-enumerator",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'feature_node'value",
           "package": "liblinear-enumerator",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'free_and_destroy_model",
           "package": "liblinear-enumerator",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'free_and_destroy_model",
           "normalized": "Ptr(Ptr C'model)-\u003eIO()",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'free_model_content",
           "package": "liblinear-enumerator",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'free_model_content",
           "normalized": "Ptr C'model-\u003eIO()",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'get_labels",
           "package": "liblinear-enumerator",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'get_labels",
           "normalized": "Ptr C'model-\u003ePtr CInt-\u003eIO()",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'get_nr_class",
           "package": "liblinear-enumerator",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'get_nr_class",
           "normalized": "Ptr C'model-\u003eIO CInt",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'get_nr_feature",
           "package": "liblinear-enumerator",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'get_nr_feature",
           "normalized": "Ptr C'model-\u003eIO CInt",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'load_model",
           "package": "liblinear-enumerator",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'load_model",
           "normalized": "CString-\u003eIO(Ptr C'model)",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'model'bias",
           "package": "liblinear-enumerator",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'model'bias",
           "package": "liblinear-enumerator",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'model'label",
           "package": "liblinear-enumerator",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'model'label",
           "package": "liblinear-enumerator",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'model'nr_class",
           "package": "liblinear-enumerator",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'model'nr_class",
           "package": "liblinear-enumerator",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'model'nr_feature",
           "package": "liblinear-enumerator",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'model'nr_feature",
           "package": "liblinear-enumerator",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'model'param",
           "package": "liblinear-enumerator",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'model'param",
           "package": "liblinear-enumerator",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'model'w",
           "package": "liblinear-enumerator",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'model'w",
           "package": "liblinear-enumerator",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'C",
           "package": "liblinear-enumerator",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'C",
           "package": "liblinear-enumerator",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'eps",
           "package": "liblinear-enumerator",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'eps",
           "package": "liblinear-enumerator",
@@ -829,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'nr_weight",
           "package": "liblinear-enumerator",
@@ -838,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'nr_weight",
           "package": "liblinear-enumerator",
@@ -850,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'solver_type",
           "package": "liblinear-enumerator",
@@ -859,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'solver_type",
           "package": "liblinear-enumerator",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'weight",
           "package": "liblinear-enumerator",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'weight",
           "package": "liblinear-enumerator",
@@ -892,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'weight_label",
           "package": "liblinear-enumerator",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'parameter'weight_label",
           "package": "liblinear-enumerator",
@@ -913,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'predict",
           "package": "liblinear-enumerator",
@@ -922,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'predict",
           "normalized": "Ptr C'model-\u003ePtr C'feature_node-\u003eIO CInt",
@@ -936,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'predict_probability",
           "package": "liblinear-enumerator",
@@ -945,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'predict_probability",
           "normalized": "Ptr C'model-\u003ePtr C'feature_node-\u003ePtr CDouble-\u003eIO CInt",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'predict_values",
           "package": "liblinear-enumerator",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'predict_values",
           "normalized": "Ptr C'model-\u003ePtr C'feature_node-\u003ePtr CDouble-\u003eIO CInt",
@@ -982,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'problem'bias",
           "package": "liblinear-enumerator",
@@ -991,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'problem'bias",
           "package": "liblinear-enumerator",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'problem'l",
           "package": "liblinear-enumerator",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'problem'l",
           "package": "liblinear-enumerator",
@@ -1024,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'problem'n",
           "package": "liblinear-enumerator",
@@ -1033,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'problem'n",
           "package": "liblinear-enumerator",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'problem'x",
           "package": "liblinear-enumerator",
@@ -1054,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'problem'x",
           "package": "liblinear-enumerator",
@@ -1066,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'problem'y",
           "package": "liblinear-enumerator",
@@ -1075,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'problem'y",
           "package": "liblinear-enumerator",
@@ -1087,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'save_model",
           "package": "liblinear-enumerator",
@@ -1096,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'save_model",
           "normalized": "CString-\u003ePtr C'model-\u003eIO()",
@@ -1110,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "c'train",
           "package": "liblinear-enumerator",
@@ -1119,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "c'train",
           "normalized": "Ptr C'problem-\u003ePtr C'parameter-\u003eIO(Ptr C'model)",
@@ -1133,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'check_parameter",
           "package": "liblinear-enumerator",
@@ -1142,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'check_parameter",
           "normalized": "FunPtr(Ptr C'problem-\u003ePtr C'parameter-\u003eIO CString)",
@@ -1156,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'check_probability_model",
           "package": "liblinear-enumerator",
@@ -1165,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'check_probability_model",
           "normalized": "FunPtr(Ptr C'model-\u003eIO CInt)",
@@ -1179,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'cross_validation",
           "package": "liblinear-enumerator",
@@ -1188,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'cross_validation",
           "normalized": "FunPtr(Ptr C'problem-\u003ePtr C'parameter-\u003eCInt-\u003ePtr CDouble-\u003eIO())",
@@ -1202,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'destroy_param",
           "package": "liblinear-enumerator",
@@ -1211,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'destroy_param",
           "normalized": "FunPtr(Ptr C'parameter-\u003eIO())",
@@ -1225,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'feature_node'index",
           "package": "liblinear-enumerator",
@@ -1234,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'feature_node'index",
           "normalized": "Ptr C'feature_node-\u003ePtr CInt",
@@ -1248,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'feature_node'value",
           "package": "liblinear-enumerator",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'feature_node'value",
           "normalized": "Ptr C'feature_node-\u003ePtr CDouble",
@@ -1271,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'free_and_destroy_model",
           "package": "liblinear-enumerator",
@@ -1280,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'free_and_destroy_model",
           "normalized": "FunPtr(Ptr(Ptr C'model)-\u003eIO())",
@@ -1294,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'free_model_content",
           "package": "liblinear-enumerator",
@@ -1303,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'free_model_content",
           "normalized": "FunPtr(Ptr C'model-\u003eIO())",
@@ -1317,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'get_labels",
           "package": "liblinear-enumerator",
@@ -1326,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'get_labels",
           "normalized": "FunPtr(Ptr C'model-\u003ePtr CInt-\u003eIO())",
@@ -1340,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'get_nr_class",
           "package": "liblinear-enumerator",
@@ -1349,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'get_nr_class",
           "normalized": "FunPtr(Ptr C'model-\u003eIO CInt)",
@@ -1363,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'get_nr_feature",
           "package": "liblinear-enumerator",
@@ -1372,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'get_nr_feature",
           "normalized": "FunPtr(Ptr C'model-\u003eIO CInt)",
@@ -1386,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'load_model",
           "package": "liblinear-enumerator",
@@ -1395,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'load_model",
           "normalized": "FunPtr(CString-\u003eIO(Ptr C'model))",
@@ -1409,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'model'bias",
           "package": "liblinear-enumerator",
@@ -1418,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'model'bias",
           "normalized": "Ptr C'model-\u003ePtr CDouble",
@@ -1432,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'model'label",
           "package": "liblinear-enumerator",
@@ -1441,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'model'label",
           "normalized": "Ptr C'model-\u003ePtr(Ptr CInt)",
@@ -1455,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'model'nr_class",
           "package": "liblinear-enumerator",
@@ -1464,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'model'nr_class",
           "normalized": "Ptr C'model-\u003ePtr CInt",
@@ -1478,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'model'nr_feature",
           "package": "liblinear-enumerator",
@@ -1487,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'model'nr_feature",
           "normalized": "Ptr C'model-\u003ePtr CInt",
@@ -1501,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'model'param",
           "package": "liblinear-enumerator",
@@ -1510,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'model'param",
           "normalized": "Ptr C'model-\u003ePtr C'parameter",
@@ -1524,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'model'w",
           "package": "liblinear-enumerator",
@@ -1533,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'model'w",
           "normalized": "Ptr C'model-\u003ePtr(Ptr CDouble)",
@@ -1547,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'C",
           "package": "liblinear-enumerator",
@@ -1556,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'C",
           "normalized": "Ptr C'parameter-\u003ePtr CDouble",
@@ -1570,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'eps",
           "package": "liblinear-enumerator",
@@ -1579,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'eps",
           "normalized": "Ptr C'parameter-\u003ePtr CDouble",
@@ -1593,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'nr_weight",
           "package": "liblinear-enumerator",
@@ -1602,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'nr_weight",
           "normalized": "Ptr C'parameter-\u003ePtr CInt",
@@ -1616,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'solver_type",
           "package": "liblinear-enumerator",
@@ -1625,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'solver_type",
           "normalized": "Ptr C'parameter-\u003ePtr CInt",
@@ -1639,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'weight",
           "package": "liblinear-enumerator",
@@ -1648,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'weight",
           "normalized": "Ptr C'parameter-\u003ePtr(Ptr CDouble)",
@@ -1662,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'weight_label",
           "package": "liblinear-enumerator",
@@ -1671,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'parameter'weight_label",
           "normalized": "Ptr C'parameter-\u003ePtr(Ptr CInt)",
@@ -1685,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'predict",
           "package": "liblinear-enumerator",
@@ -1694,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'predict",
           "normalized": "FunPtr(Ptr C'model-\u003ePtr C'feature_node-\u003eIO CInt)",
@@ -1708,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'predict_probability",
           "package": "liblinear-enumerator",
@@ -1717,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'predict_probability",
           "normalized": "FunPtr(Ptr C'model-\u003ePtr C'feature_node-\u003ePtr CDouble-\u003eIO CInt)",
@@ -1731,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'predict_values",
           "package": "liblinear-enumerator",
@@ -1740,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'predict_values",
           "normalized": "FunPtr(Ptr C'model-\u003ePtr C'feature_node-\u003ePtr CDouble-\u003eIO CInt)",
@@ -1754,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'problem'bias",
           "package": "liblinear-enumerator",
@@ -1763,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'problem'bias",
           "normalized": "Ptr C'problem-\u003ePtr CDouble",
@@ -1777,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'problem'l",
           "package": "liblinear-enumerator",
@@ -1786,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'problem'l",
           "normalized": "Ptr C'problem-\u003ePtr CInt",
@@ -1800,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'problem'n",
           "package": "liblinear-enumerator",
@@ -1809,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'problem'n",
           "normalized": "Ptr C'problem-\u003ePtr CInt",
@@ -1823,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'problem'x",
           "package": "liblinear-enumerator",
@@ -1832,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'problem'x",
           "normalized": "Ptr C'problem-\u003ePtr(Ptr(Ptr C'feature_node))",
@@ -1846,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'problem'y",
           "package": "liblinear-enumerator",
@@ -1855,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'problem'y",
           "normalized": "Ptr C'problem-\u003ePtr(Ptr CInt)",
@@ -1869,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'save_model",
           "package": "liblinear-enumerator",
@@ -1878,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'save_model",
           "normalized": "FunPtr(CString-\u003ePtr C'model-\u003eIO())",
@@ -1892,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Bindings.LibLinear",
           "name": "p'train",
           "package": "liblinear-enumerator",
@@ -1901,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Bindings.LibLinear",
           "name": "p'train",
           "normalized": "FunPtr(Ptr C'problem-\u003ePtr C'parameter-\u003eIO(Ptr C'model))",
@@ -1915,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "LibLinear",
           "package": "liblinear-enumerator",
@@ -1923,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "LibLinear",
           "package": "liblinear-enumerator",
@@ -1936,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Example",
           "package": "liblinear-enumerator",
@@ -1944,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Example",
           "package": "liblinear-enumerator",
@@ -1957,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Feature",
           "package": "liblinear-enumerator",
@@ -1965,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Feature",
           "package": "liblinear-enumerator",
@@ -1978,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Model",
           "package": "liblinear-enumerator",
@@ -1986,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Model",
           "package": "liblinear-enumerator",
@@ -1999,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Solver",
           "package": "liblinear-enumerator",
@@ -2007,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Solver",
           "package": "liblinear-enumerator",
@@ -2020,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Target",
           "package": "liblinear-enumerator",
@@ -2028,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Target",
           "package": "liblinear-enumerator",
@@ -2041,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "TrainParams",
           "package": "liblinear-enumerator",
@@ -2049,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "TrainParams",
           "package": "liblinear-enumerator",
@@ -2062,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Example",
           "package": "liblinear-enumerator",
@@ -2071,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Example",
           "normalized": "Example Target[Feature]",
@@ -2086,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Feature",
           "package": "liblinear-enumerator",
@@ -2095,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Feature",
           "package": "liblinear-enumerator",
@@ -2108,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "L1R_L2LOSS_SVC",
           "package": "liblinear-enumerator",
@@ -2117,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "L1R_L2LOSS_SVC",
           "package": "liblinear-enumerator",
@@ -2130,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "L1R_LR",
           "package": "liblinear-enumerator",
@@ -2139,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "L1R_LR",
           "package": "liblinear-enumerator",
@@ -2152,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "L2R_L1LOSS_SVC_DUAL",
           "package": "liblinear-enumerator",
@@ -2161,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "L2R_L1LOSS_SVC_DUAL",
           "package": "liblinear-enumerator",
@@ -2174,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "L2R_L2LOSS_SVC",
           "package": "liblinear-enumerator",
@@ -2183,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "L2R_L2LOSS_SVC",
           "package": "liblinear-enumerator",
@@ -2196,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "L2R_L2LOSS_SVC_DUAL",
           "package": "liblinear-enumerator",
@@ -2205,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "L2R_L2LOSS_SVC_DUAL",
           "package": "liblinear-enumerator",
@@ -2218,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "L2R_LR",
           "package": "liblinear-enumerator",
@@ -2227,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "L2R_LR",
           "package": "liblinear-enumerator",
@@ -2240,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "L2R_LR_DUAL",
           "package": "liblinear-enumerator",
@@ -2249,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "L2R_LR_DUAL",
           "package": "liblinear-enumerator",
@@ -2262,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "MCSVM_CS",
           "package": "liblinear-enumerator",
@@ -2271,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "MCSVM_CS",
           "package": "liblinear-enumerator",
@@ -2284,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Model",
           "package": "liblinear-enumerator",
@@ -2293,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Model",
           "package": "liblinear-enumerator",
@@ -2306,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "Target",
           "package": "liblinear-enumerator",
@@ -2315,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "Target",
           "package": "liblinear-enumerator",
@@ -2328,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "TrainParams",
           "package": "liblinear-enumerator",
@@ -2337,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "TrainParams",
           "package": "liblinear-enumerator",
@@ -2350,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "train",
           "package": "liblinear-enumerator",
@@ -2359,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "train",
           "normalized": "TrainParams-\u003eIteratee Example IO[Model]",
@@ -2373,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "trainExamples",
           "package": "liblinear-enumerator",
@@ -2382,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "trainExamples",
           "package": "liblinear-enumerator",
@@ -2395,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "trainFeatureSum",
           "package": "liblinear-enumerator",
@@ -2404,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "trainFeatureSum",
           "package": "liblinear-enumerator",
@@ -2417,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:35 UTC 2014",
           "module": "Data.LibLinear",
           "name": "trainSolver",
           "package": "liblinear-enumerator",
@@ -2426,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Data LibLinear",
+          "indexed": "2014-03-11T19:08:35",
           "module": "Data.LibLinear",
           "name": "trainSolver",
           "package": "liblinear-enumerator",

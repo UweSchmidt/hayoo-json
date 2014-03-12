@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dynamic-cabal"
+        "phrase": "dynamic-cabal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "LocalBuildInfo",
           "package": "dynamic-cabal",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic LocalBuildInfo",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "LocalBuildInfo",
           "package": "dynamic-cabal",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA package db is either the user package db (often at ~\u003cem\u003e.ghc\u003c/em\u003eghc-....), the global package\n or a specific file or directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "PackageDB",
           "package": "dynamic-cabal",
@@ -49,6 +52,7 @@
         "index": {
           "description": "package db is either the user package db often at ghc ghc the global package or specific file or directory",
           "hierarchy": "Distribution Client Dynamic LocalBuildInfo",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "PackageDB",
           "package": "dynamic-cabal",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "GlobalDB",
           "package": "dynamic-cabal",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic LocalBuildInfo",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "GlobalDB",
           "package": "dynamic-cabal",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "SpecificDB",
           "package": "dynamic-cabal",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic LocalBuildInfo",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "SpecificDB",
           "package": "dynamic-cabal",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "UserDB",
           "package": "dynamic-cabal",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic LocalBuildInfo",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "UserDB",
           "package": "dynamic-cabal",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the builddir of a LocalBuildInfo. Often, this will just be \u003ca\u003edist\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "buildDir",
           "package": "dynamic-cabal",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Returns the builddir of LocalBuildInfo Often this will just be dist",
           "hierarchy": "Distribution Client Dynamic LocalBuildInfo",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "buildDir",
           "package": "dynamic-cabal",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the package description included in a local build info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "localPkgDesc",
           "package": "dynamic-cabal",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Returns the package description included in local build info",
           "hierarchy": "Distribution Client Dynamic LocalBuildInfo",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "localPkgDesc",
           "package": "dynamic-cabal",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the package dbs that ghc will use when compiling this package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "packageDBs",
           "package": "dynamic-cabal",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Get the package dbs that ghc will use when compiling this package",
           "hierarchy": "Distribution Client Dynamic LocalBuildInfo",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.LocalBuildInfo",
           "name": "packageDBs",
           "normalized": "Query LocalBuildInfo[PackageDB]",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains queries that operate on a PackageDescription. It provides a function\n to extract all targets along with their dependencies.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "PackageDescription",
           "package": "dynamic-cabal",
@@ -212,6 +229,7 @@
         "index": {
           "description": "This module contains queries that operate on PackageDescription It provides function to extract all targets along with their dependencies",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "PackageDescription",
           "package": "dynamic-cabal",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA package description type. This type has no constructors, and is only used \n for type-safety purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "PackageDescription",
           "package": "dynamic-cabal",
@@ -235,6 +254,7 @@
         "index": {
           "description": "package description type This type has no constructors and is only used for type-safety purposes",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "PackageDescription",
           "package": "dynamic-cabal",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA target is a single Library, an Executable, a TestSuite or a Benchmark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "Target",
           "package": "dynamic-cabal",
@@ -258,6 +279,7 @@
         "index": {
           "description": "target is single Library an Executable TestSuite or Benchmark",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "Target",
           "package": "dynamic-cabal",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe specific information on a target, depending on the target type.\n Libraries don't have a name, they are always named after the package, but other types do\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "TargetInfo",
           "package": "dynamic-cabal",
@@ -281,6 +304,7 @@
         "index": {
           "description": "The specific information on target depending on the target type Libraries don have name they are always named after the package but other types do",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "TargetInfo",
           "package": "dynamic-cabal",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtains the name of the benchmark and the path to the Main module, for stdio benchmarks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "BenchSuite",
           "package": "dynamic-cabal",
@@ -305,6 +330,7 @@
         "index": {
           "description": "contains the name of the benchmark and the path to the Main module for stdio benchmarks",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "BenchSuite",
           "package": "dynamic-cabal",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtains the name of the executable and the path to the Main module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "Executable",
           "package": "dynamic-cabal",
@@ -329,6 +356,7 @@
         "index": {
           "description": "contains the name of the executable and the path to the Main module",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "Executable",
           "package": "dynamic-cabal",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtains the names of exposed modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "Library",
           "package": "dynamic-cabal",
@@ -353,6 +382,7 @@
         "index": {
           "description": "contains the names of exposed modules",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "Library",
           "normalized": "Library[String]",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "Target",
           "package": "dynamic-cabal",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "Target",
           "package": "dynamic-cabal",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtains the name of the test suite and the path to the Main module, for stdio tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "TestSuite",
           "package": "dynamic-cabal",
@@ -401,6 +434,7 @@
         "index": {
           "description": "contains the name of the test suite and the path to the Main module for stdio tests",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "TestSuite",
           "package": "dynamic-cabal",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_buildable",
           "package": "dynamic-cabal",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_buildable",
           "normalized": "(Bool-\u003ea Bool)-\u003eTarget-\u003ea Target",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_cppOptions",
           "package": "dynamic-cabal",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_cppOptions",
           "normalized": "([String]-\u003ea[String])-\u003eTarget-\u003ea Target",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_dependencies",
           "package": "dynamic-cabal",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_dependencies",
           "normalized": "([(String,Maybe Version)]-\u003ea[(String,Maybe Version)])-\u003eTarget-\u003ea Target",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_enabled",
           "package": "dynamic-cabal",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_enabled",
           "normalized": "(Bool-\u003ea Bool)-\u003eTarget-\u003ea Target",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_extensions",
           "package": "dynamic-cabal",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_extensions",
           "normalized": "([String]-\u003ea[String])-\u003eTarget-\u003ea Target",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_ghcOptions",
           "package": "dynamic-cabal",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_ghcOptions",
           "normalized": "([String]-\u003ea[String])-\u003eTarget-\u003ea Target",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_includeDirs",
           "package": "dynamic-cabal",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_includeDirs",
           "normalized": "([FilePath]-\u003ea[FilePath])-\u003eTarget-\u003ea Target",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_info",
           "package": "dynamic-cabal",
@@ -587,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_info",
           "normalized": "(TargetInfo-\u003ea TargetInfo)-\u003eTarget-\u003ea Target",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse the path of the main module, if available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_mainModule",
           "package": "dynamic-cabal",
@@ -612,6 +663,7 @@
         "index": {
           "description": "Traverse the path of the main module if available",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_mainModule",
           "normalized": "(FilePath-\u003ea FilePath)-\u003eTargetInfo-\u003ea TargetInfo",
@@ -628,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse the name of a target, if available (libraries don't have names).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_name",
           "package": "dynamic-cabal",
@@ -638,6 +691,7 @@
         "index": {
           "description": "Traverse the name of target if available libraries don have names",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_name",
           "normalized": "(String-\u003ea String)-\u003eTargetInfo-\u003ea TargetInfo",
@@ -652,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_otherModules",
           "package": "dynamic-cabal",
@@ -661,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_otherModules",
           "normalized": "([String]-\u003ea[String])-\u003eTarget-\u003ea Target",
@@ -676,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_sourceDirs",
           "package": "dynamic-cabal",
@@ -685,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "_sourceDirs",
           "normalized": "([FilePath]-\u003ea[FilePath])-\u003eTarget-\u003ea Target",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ebuildable\u003c/a\u003e\u003c/code\u003e field in the package description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "buildable",
           "package": "dynamic-cabal",
@@ -711,6 +770,7 @@
         "index": {
           "description": "The buildable field in the package description",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "buildable",
           "package": "dynamic-cabal",
@@ -724,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional options to pass to CPP preprocessor when compiling source files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "cppOptions",
           "package": "dynamic-cabal",
@@ -734,6 +795,7 @@
         "index": {
           "description": "Additional options to pass to CPP preprocessor when compiling source files",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "cppOptions",
           "normalized": "[String]",
@@ -750,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll dependencies of the target, with their versions. If the version is not resolved yet, it'll be Nothing. \n That only happens when the target is not enabled, though.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "dependencies",
           "package": "dynamic-cabal",
@@ -760,6 +823,7 @@
         "index": {
           "description": "All dependencies of the target with their versions If the version is not resolved yet it ll be Nothing That only happens when the target is not enabled though",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "dependencies",
           "normalized": "[(String,Maybe Version)]",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether this target was enabled or not. This only matters for Benchmarks or Tests, Executables and Libraries are always enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "enabled",
           "package": "dynamic-cabal",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Whether this target was enabled or not This only matters for Benchmarks or Tests Executables and Libraries are always enabled",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "enabled",
           "package": "dynamic-cabal",
@@ -798,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe extensions to enable/disable. The elements are like GHC's -X flags, a disabled extension \n is represented as the extension name prefixed by \u003ccode\u003eNo\u003c/code\u003e.\n Example value: extensions = [\u003ca\u003eScopedTypeVariables\u003c/a\u003e, \u003ca\u003eNoMultiParamTypeClasses\u003c/a\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "extensions",
           "package": "dynamic-cabal",
@@ -808,6 +875,7 @@
         "index": {
           "description": "The extensions to enable disable The elements are like GHC flags disabled extension is represented as the extension name prefixed by No Example value extensions ScopedTypeVariables NoMultiParamTypeClasses",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "extensions",
           "normalized": "[String]",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional options to pass to GHC when compiling source files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "ghcOptions",
           "package": "dynamic-cabal",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Additional options to pass to GHC when compiling source files",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "ghcOptions",
           "normalized": "[String]",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectories where to look for header files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "includeDirs",
           "package": "dynamic-cabal",
@@ -859,6 +930,7 @@
         "index": {
           "description": "Directories where to look for header files",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "includeDirs",
           "normalized": "[FilePath]",
@@ -875,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe specific info of the target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "info",
           "package": "dynamic-cabal",
@@ -885,6 +958,7 @@
         "index": {
           "description": "The specific info of the target",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "info",
           "package": "dynamic-cabal",
@@ -898,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the target a benchmark?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "isBench",
           "package": "dynamic-cabal",
@@ -908,6 +983,7 @@
         "index": {
           "description": "is the target benchmark",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "isBench",
           "normalized": "Target-\u003eBool",
@@ -924,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the target an executable?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "isExecutable",
           "package": "dynamic-cabal",
@@ -934,6 +1011,7 @@
         "index": {
           "description": "is the target an executable",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "isExecutable",
           "normalized": "Target-\u003eBool",
@@ -950,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the target the library?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "isLibrary",
           "package": "dynamic-cabal",
@@ -960,6 +1039,7 @@
         "index": {
           "description": "is the target the library",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "isLibrary",
           "normalized": "Target-\u003eBool",
@@ -976,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the target a test suite?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "isTest",
           "package": "dynamic-cabal",
@@ -986,6 +1067,7 @@
         "index": {
           "description": "is the target test suite",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "isTest",
           "normalized": "Target-\u003eBool",
@@ -1002,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eother modules included in the target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "otherModules",
           "package": "dynamic-cabal",
@@ -1012,6 +1095,7 @@
         "index": {
           "description": "other modules included in the target",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "otherModules",
           "normalized": "[String]",
@@ -1028,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectories where to look for source files. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "sourceDirs",
           "package": "dynamic-cabal",
@@ -1038,6 +1123,7 @@
         "index": {
           "description": "Directories where to look for source files",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "sourceDirs",
           "normalized": "[FilePath]",
@@ -1054,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the target name, or the empty string for the library target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "targetName",
           "package": "dynamic-cabal",
@@ -1064,6 +1151,7 @@
         "index": {
           "description": "return the target name or the empty string for the library target",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "targetName",
           "normalized": "Target-\u003eString",
@@ -1080,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the available targets. This will return all targets, even disabled ones. \n If a package is disabled or not buildable, it's possible that not all dependencies have versions, some can be Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "targets",
           "package": "dynamic-cabal",
@@ -1090,6 +1179,7 @@
         "index": {
           "description": "Query the available targets This will return all targets even disabled ones If package is disabled or not buildable it possible that not all dependencies have versions some can be Nothing",
           "hierarchy": "Distribution Client Dynamic PackageDescription",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.PackageDescription",
           "name": "targets",
           "normalized": "Query PackageDescription[Target]",
@@ -1105,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for building queries on cabal's setup-config an evaluating them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "Query",
           "package": "dynamic-cabal",
@@ -1114,6 +1205,7 @@
         "index": {
           "description": "Functions for building queries on cabal setup-config an evaluating them",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "Query",
           "package": "dynamic-cabal",
@@ -1128,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just a dummy type representing a LocalBuildInfo. You don't have to use\n this type, it is just used to tag queries and make them more type-safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "LocalBuildInfo",
           "package": "dynamic-cabal",
@@ -1137,6 +1230,7 @@
         "index": {
           "description": "This is just dummy type representing LocalBuildInfo You don have to use this type it is just used to tag queries and make them more type-safe",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "LocalBuildInfo",
           "package": "dynamic-cabal",
@@ -1151,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query is like a Selector, but it cannot be composed any futher using a Category instance.\n It can have a Functor and Applicative instance though. \n To execute a query, you only need to run GHC once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "Query",
           "package": "dynamic-cabal",
@@ -1160,6 +1255,7 @@
         "index": {
           "description": "query is like Selector but it cannot be composed any futher using Category instance It can have Functor and Applicative instance though To execute query you only need to run GHC once",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "Query",
           "package": "dynamic-cabal",
@@ -1174,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA selector is a generator for a function of type i -\u003e o.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "Selector",
           "package": "dynamic-cabal",
@@ -1183,6 +1280,7 @@
         "index": {
           "description": "selector is generator for function of type",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "Selector",
           "package": "dynamic-cabal",
@@ -1197,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two selectors, monadically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "(=\u003c\u003c\u003c)",
           "package": "dynamic-cabal",
@@ -1207,6 +1306,7 @@
         "index": {
           "description": "Compose two selectors monadically",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "(=\u003c\u003c\u003c) =\u003c\u003c\u003c",
           "normalized": "Selector a(b c)-\u003eSelector d(b a)-\u003eSelector d(b c)",
@@ -1222,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as (=\u003c\u003c\u003c), but flipped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "(\u003e\u003e\u003e=)",
           "package": "dynamic-cabal",
@@ -1232,6 +1333,7 @@
         "index": {
           "description": "The same as but flipped",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "(\u003e\u003e\u003e=) \u003e\u003e\u003e=",
           "normalized": "Selector a(b c)-\u003eSelector c(b d)-\u003eSelector a(b d)",
@@ -1247,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a query to work over functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "fmapQ",
           "package": "dynamic-cabal",
@@ -1257,6 +1360,7 @@
         "index": {
           "description": "Lift query to work over functors",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "fmapQ",
           "normalized": "Query a b-\u003eQuery(c a)(c b)",
@@ -1272,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a selector to work on functorial inputs and outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "fmapS",
           "package": "dynamic-cabal",
@@ -1282,6 +1387,7 @@
         "index": {
           "description": "Lift selector to work on functorial inputs and outputs",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "fmapS",
           "normalized": "Selector a b-\u003eSelector(c a)(c b)",
@@ -1296,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "getCabalVersion",
           "package": "dynamic-cabal",
@@ -1305,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "getCabalVersion",
           "normalized": "FilePath-\u003eIO Version",
@@ -1321,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Selector to get something out of a Maybe if you supply a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "maybeDefault",
           "package": "dynamic-cabal",
@@ -1331,6 +1440,7 @@
         "index": {
           "description": "Selector to get something out of Maybe if you supply default value",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "maybeDefault",
           "normalized": "a-\u003eSelector(Maybe a)a",
@@ -1347,6 +1457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a selector to run a query in a bigger environment than it was defined in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "on",
           "package": "dynamic-cabal",
@@ -1357,6 +1468,7 @@
         "index": {
           "description": "Use selector to run query in bigger environment than it was defined in",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "on",
           "normalized": "Selector a b-\u003eQuery b c-\u003eQuery a c",
@@ -1372,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a query from a selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "query",
           "package": "dynamic-cabal",
@@ -1382,6 +1495,7 @@
         "index": {
           "description": "Build query from selector",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "query",
           "normalized": "Selector a b-\u003eQuery a b",
@@ -1397,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a query. This will generate the source code for the query and then invoke GHC to run it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "runQuery",
           "package": "dynamic-cabal",
@@ -1407,6 +1522,7 @@
         "index": {
           "description": "Run query This will generate the source code for the query and then invoke GHC to run it",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "runQuery",
           "normalized": "Query LocalBuildInfo a-\u003eFilePath-\u003eIO a",
@@ -1423,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a raw query, getting the full source from the first parameter\n the module must be DynamicCabalQuery and it must have a result declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "runRawQuery",
           "package": "dynamic-cabal",
@@ -1433,6 +1550,7 @@
         "index": {
           "description": "Run raw query getting the full source from the first parameter the module must be DynamicCabalQuery and it must have result declaration",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "runRawQuery",
           "normalized": "String-\u003eFilePath-\u003eIO a",
@@ -1449,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a selector. The expression the selector generates can depend on the cabal version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "selector",
           "package": "dynamic-cabal",
@@ -1459,6 +1578,7 @@
         "index": {
           "description": "Build selector The expression the selector generates can depend on the cabal version",
           "hierarchy": "Distribution Client Dynamic Query",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic.Query",
           "name": "selector",
           "normalized": "(Version-\u003eExpG(a-\u003eb))-\u003eSelector a b",
@@ -1473,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:59 UTC 2014",
           "module": "Distribution.Client.Dynamic",
           "name": "Dynamic",
           "package": "dynamic-cabal",
@@ -1481,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Distribution Client Dynamic",
+          "indexed": "2014-03-11T17:59:59",
           "module": "Distribution.Client.Dynamic",
           "name": "Dynamic",
           "package": "dynamic-cabal",

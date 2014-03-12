@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bag"
+        "phrase": "bag",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "Bag",
           "package": "bag",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "Bag",
           "package": "bag",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "Bag",
           "package": "bag",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "Bag",
           "package": "bag",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "BagTree",
           "package": "bag",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "BagTree",
           "package": "bag",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "Bag",
           "package": "bag",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "Bag",
           "package": "bag",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "Branch",
           "package": "bag",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "Branch",
           "package": "bag",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "Empty",
           "package": "bag",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "Empty",
           "package": "bag",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "Leaf",
           "package": "bag",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "Leaf",
           "package": "bag",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "bconcat",
           "package": "bag",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "bconcat",
           "normalized": "Bag(Bag a)-\u003eBag a",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "btconcat",
           "package": "bag",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "btconcat",
           "normalized": "BagTree(BagTree a)-\u003eBagTree a",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "empty",
           "package": "bag",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "empty",
           "package": "bag",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "merge",
           "package": "bag",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "merge",
           "normalized": "Bag a-\u003eBag a-\u003eBag a",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:14 UTC 2014",
           "module": "Data.Bag",
           "name": "unit",
           "package": "bag",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data Bag",
+          "indexed": "2014-03-11T17:16:14",
           "module": "Data.Bag",
           "name": "unit",
           "normalized": "a-\u003eBag a",

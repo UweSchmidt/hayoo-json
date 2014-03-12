@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "direct-murmur-hash"
+        "phrase": "direct-murmur-hash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:16 UTC 2014",
           "module": "Data.Digest.Murmur3",
           "name": "Murmur3",
           "package": "direct-murmur-hash",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Murmur3",
+          "indexed": "2014-03-11T17:56:16",
           "module": "Data.Digest.Murmur3",
           "name": "Murmur3",
           "package": "direct-murmur-hash",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:16 UTC 2014",
           "module": "Data.Digest.Murmur3",
           "name": "Hash",
           "package": "direct-murmur-hash",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Murmur3",
+          "indexed": "2014-03-11T17:56:16",
           "module": "Data.Digest.Murmur3",
           "name": "Hash",
           "package": "direct-murmur-hash",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:16 UTC 2014",
           "module": "Data.Digest.Murmur3",
           "name": "asByteString",
           "package": "direct-murmur-hash",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Murmur3",
+          "indexed": "2014-03-11T17:56:16",
           "module": "Data.Digest.Murmur3",
           "name": "asByteString",
           "normalized": "Hash-\u003eByteString",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:16 UTC 2014",
           "module": "Data.Digest.Murmur3",
           "name": "hash",
           "package": "direct-murmur-hash",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Digest Murmur3",
+          "indexed": "2014-03-11T17:56:16",
           "module": "Data.Digest.Murmur3",
           "name": "hash",
           "normalized": "ByteString-\u003eHash",

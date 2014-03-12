@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zip-archive"
+        "phrase": "zip-archive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe zip-archive library provides functions for creating, modifying,\n and extracting files from zip archives.\n\u003c/p\u003e\u003cp\u003eCertain simplifying assumptions are made about the zip archives: in\n particular, there is no support for encryption, zip files that span\n multiple disks, ZIP64, OS-specific file attributes, or compression\n methods other than Deflate.  However, the library should be able to\n read the most common zip archives, and the archives it produces should\n be readable by all standard unzip programs.\n\u003c/p\u003e\u003cp\u003eAs an example of the use of the library, a standalone zip archiver\n and extracter, Zip.hs, is provided in the source distribution.\n\u003c/p\u003e\u003cp\u003eFor more information on the format of zip archives, consult\n \u003ca\u003ehttp://www.pkware.com/documents/casestudies/APPNOTE.TXT\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "Zip",
           "package": "zip-archive",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The zip-archive library provides functions for creating modifying and extracting files from zip archives Certain simplifying assumptions are made about the zip archives in particular there is no support for encryption zip files that span multiple disks ZIP64 OS-specific file attributes or compression methods other than Deflate However the library should be able to read the most common zip archives and the archives it produces should be readable by all standard unzip programs As an example of the use of the library standalone zip archiver and extracter Zip.hs is provided in the source distribution For more information on the format of zip archives consult http www.pkware.com documents casestudies APPNOTE.TXT",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "Zip",
           "package": "zip-archive",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructured representation of a zip archive, including directory\n information and contents (in lazy bytestrings).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "Archive",
           "package": "zip-archive",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Structured representation of zip archive including directory information and contents in lazy bytestrings",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "Archive",
           "package": "zip-archive",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompression methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "CompressionMethod",
           "package": "zip-archive",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Compression methods",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "CompressionMethod",
           "package": "zip-archive",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of an archived file, including content and metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "Entry",
           "package": "zip-archive",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Representation of an archived file including content and metadata",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "Entry",
           "package": "zip-archive",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for \u003ccode\u003e\u003ca\u003eaddFilesToArchive\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eextractFilesFromArchive\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "ZipOption",
           "package": "zip-archive",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Options for addFilesToArchive and extractFilesFromArchive",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "ZipOption",
           "package": "zip-archive",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "Archive",
           "package": "zip-archive",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "Archive",
           "package": "zip-archive",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "Deflate",
           "package": "zip-archive",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "Deflate",
           "package": "zip-archive",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "Entry",
           "package": "zip-archive",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "Entry",
           "package": "zip-archive",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "NoCompression",
           "package": "zip-archive",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "NoCompression",
           "package": "zip-archive",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory in which to extract\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "OptDestination",
           "package": "zip-archive",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Directory in which to extract",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "OptDestination",
           "package": "zip-archive",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to place file when adding files and whether to append current path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "OptLocation",
           "package": "zip-archive",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Where to place file when adding files and whether to append current path",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "OptLocation",
           "package": "zip-archive",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecurse into directories when adding files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "OptRecursive",
           "package": "zip-archive",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Recurse into directories when adding files",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "OptRecursive",
           "package": "zip-archive",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint information to stderr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "OptVerbose",
           "package": "zip-archive",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Print information to stderr",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "OptVerbose",
           "package": "zip-archive",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds an entry to a zip archive, or updates an existing entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "addEntryToArchive",
           "package": "zip-archive",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Adds an entry to zip archive or updates an existing entry",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "addEntryToArchive",
           "normalized": "Entry-\u003eArchive-\u003eArchive",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the specified files to an \u003ccode\u003e\u003ca\u003eArchive\u003c/a\u003e\u003c/code\u003e.  If \u003ccode\u003e\u003ca\u003eOptRecursive\u003c/a\u003e\u003c/code\u003e is specified,\n recursively add files contained in directories.  If \u003ccode\u003e\u003ca\u003eOptVerbose\u003c/a\u003e\u003c/code\u003e is specified,\n print messages to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "addFilesToArchive",
           "package": "zip-archive",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Add the specified files to an Archive If OptRecursive is specified recursively add files contained in directories If OptVerbose is specified print messages to stderr",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "addFilesToArchive",
           "normalized": "[ZipOption]-\u003eArchive-\u003e[FilePath]-\u003eIO Archive",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes an entry from a zip archive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "deleteEntryFromArchive",
           "package": "zip-archive",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Deletes an entry from zip archive",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "deleteEntryFromArchive",
           "normalized": "FilePath-\u003eArchive-\u003eArchive",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCRC32 checksum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eCRC32",
           "package": "zip-archive",
@@ -406,6 +439,7 @@
         "index": {
           "description": "CRC32 checksum",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eCRC32",
           "package": "zip-archive",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompressed contents of file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eCompressedData",
           "package": "zip-archive",
@@ -430,6 +465,7 @@
         "index": {
           "description": "Compressed contents of file",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eCompressedData",
           "package": "zip-archive",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompressed size in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eCompressedSize",
           "package": "zip-archive",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Compressed size in bytes",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eCompressedSize",
           "package": "zip-archive",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompression method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eCompressionMethod",
           "package": "zip-archive",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Compression method",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eCompressionMethod",
           "package": "zip-archive",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal file attributes (system-dependent)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eExternalFileAttributes",
           "package": "zip-archive",
@@ -502,6 +543,7 @@
         "index": {
           "description": "External file attributes system-dependent",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eExternalFileAttributes",
           "package": "zip-archive",
@@ -516,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra field - unused by this library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eExtraField",
           "package": "zip-archive",
@@ -526,6 +569,7 @@
         "index": {
           "description": "Extra field unused by this library",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eExtraField",
           "package": "zip-archive",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile comment - unused by this library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eFileComment",
           "package": "zip-archive",
@@ -550,6 +595,7 @@
         "index": {
           "description": "File comment unused by this library",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eFileComment",
           "package": "zip-archive",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal file attributes - unused by this library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eInternalFileAttributes",
           "package": "zip-archive",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Internal file attributes unused by this library",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eInternalFileAttributes",
           "package": "zip-archive",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModification time (seconds since unix epoch)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eLastModified",
           "package": "zip-archive",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Modification time seconds since unix epoch",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eLastModified",
           "package": "zip-archive",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative path, using \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e as separator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eRelativePath",
           "package": "zip-archive",
@@ -622,6 +673,7 @@
         "index": {
           "description": "Relative path using as separator",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eRelativePath",
           "package": "zip-archive",
@@ -636,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUncompressed size in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "eUncompressedSize",
           "package": "zip-archive",
@@ -646,6 +699,7 @@
         "index": {
           "description": "Uncompressed size in bytes",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "eUncompressedSize",
           "package": "zip-archive",
@@ -660,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA zip archive with no contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "emptyArchive",
           "package": "zip-archive",
@@ -670,6 +725,7 @@
         "index": {
           "description": "zip archive with no contents",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "emptyArchive",
           "package": "zip-archive",
@@ -684,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all files from an \u003ccode\u003e\u003ca\u003eArchive\u003c/a\u003e\u003c/code\u003e, creating directories\n as needed.  If \u003ccode\u003e\u003ca\u003eOptVerbose\u003c/a\u003e\u003c/code\u003e is specified, print messages to stderr.\n Note that the last-modified time is set correctly only in POSIX,\n not in Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "extractFilesFromArchive",
           "package": "zip-archive",
@@ -694,6 +751,7 @@
         "index": {
           "description": "Extract all files from an Archive creating directories as needed If OptVerbose is specified print messages to stderr Note that the last-modified time is set correctly only in POSIX not in Windows",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "extractFilesFromArchive",
           "normalized": "[ZipOption]-\u003eArchive-\u003eIO()",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of files in a zip archive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "filesInArchive",
           "package": "zip-archive",
@@ -720,6 +779,7 @@
         "index": {
           "description": "Returns list of files in zip archive",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "filesInArchive",
           "normalized": "Archive-\u003e[FilePath]",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns Just the zip entry with the specified path, or Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "findEntryByPath",
           "package": "zip-archive",
@@ -746,6 +807,7 @@
         "index": {
           "description": "Returns Just the zip entry with the specified path or Nothing",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "findEntryByPath",
           "normalized": "FilePath-\u003eArchive-\u003eMaybe Entry",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites an \u003ccode\u003e\u003ca\u003eArchive\u003c/a\u003e\u003c/code\u003e structure to a raw zip archive (in a lazy bytestring).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "fromArchive",
           "package": "zip-archive",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Writes an Archive structure to raw zip archive in lazy bytestring",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "fromArchive",
           "normalized": "Archive-\u003eByteString",
@@ -788,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns uncompressed contents of zip entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "fromEntry",
           "package": "zip-archive",
@@ -798,6 +863,7 @@
         "index": {
           "description": "Returns uncompressed contents of zip entry",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "fromEntry",
           "normalized": "Entry-\u003eByteString",
@@ -814,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a \u003ccode\u003e\u003ca\u003eEntry\u003c/a\u003e\u003c/code\u003e from a file or directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "readEntry",
           "package": "zip-archive",
@@ -824,6 +891,7 @@
         "index": {
           "description": "Generates Entry from file or directory",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "readEntry",
           "normalized": "[ZipOption]-\u003eFilePath-\u003eIO Entry",
@@ -840,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an \u003ccode\u003e\u003ca\u003eArchive\u003c/a\u003e\u003c/code\u003e structure from a raw zip archive (in a lazy bytestring).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "toArchive",
           "package": "zip-archive",
@@ -850,6 +919,7 @@
         "index": {
           "description": "Reads an Archive structure from raw zip archive in lazy bytestring",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "toArchive",
           "normalized": "ByteString-\u003eArchive",
@@ -866,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eEntry\u003c/a\u003e\u003c/code\u003e with specified file path, modification time, and contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "toEntry",
           "package": "zip-archive",
@@ -875,6 +946,7 @@
         "index": {
           "description": "Create an Entry with specified file path modification time and contents",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "toEntry",
           "normalized": "FilePath-\u003eInteger-\u003eByteString-\u003eEntry",
@@ -891,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites contents of an \u003ccode\u003e\u003ca\u003eEntry\u003c/a\u003e\u003c/code\u003e to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "writeEntry",
           "package": "zip-archive",
@@ -901,6 +974,7 @@
         "index": {
           "description": "Writes contents of an Entry to file",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "writeEntry",
           "normalized": "[ZipOption]-\u003eEntry-\u003eIO()",
@@ -917,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComment for whole zip archive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "zComment",
           "package": "zip-archive",
@@ -927,6 +1002,7 @@
         "index": {
           "description": "Comment for whole zip archive",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "zComment",
           "package": "zip-archive",
@@ -941,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFiles in zip archive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "zEntries",
           "package": "zip-archive",
@@ -951,6 +1028,7 @@
         "index": {
           "description": "Files in zip archive",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "zEntries",
           "normalized": "[Entry]",
@@ -967,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDigital signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:09 UTC 2014",
           "module": "Codec.Archive.Zip",
           "name": "zSignature",
           "package": "zip-archive",
@@ -977,6 +1056,7 @@
         "index": {
           "description": "Digital signature",
           "hierarchy": "Codec Archive Zip",
+          "indexed": "2014-03-11T20:48:09",
           "module": "Codec.Archive.Zip",
           "name": "zSignature",
           "package": "zip-archive",

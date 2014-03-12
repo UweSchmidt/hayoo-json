@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nano-hmac"
+        "phrase": "nano-hmac",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreated     : 2008-02-03\n\u003c/p\u003e\u003cp\u003eBindings to OpenSSL HMAC.\n\u003c/p\u003e\u003cp\u003eSample Usage:\n\u003c/p\u003e\u003cpre\u003e d \u003c- hmac md5 myKey myMessage\n putStrLn d\n\n \"e9139d1e6ee064ef8cf514fc7dc83e86\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "HMAC",
           "package": "nano-hmac",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Created Bindings to OpenSSL HMAC Sample Usage hmac md5 myKey myMessage putStrLn e9139d1e6ee064ef8cf514fc7dc83e86",
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "HMAC",
           "package": "nano-hmac",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "CryptoHashFunction",
           "package": "nano-hmac",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "CryptoHashFunction",
           "package": "nano-hmac",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an HMAC\n\u003c/p\u003e\u003cp\u003eThis implementation is safe and will copy the ByteStrings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "hmac",
           "package": "nano-hmac",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Generate an HMAC This implementation is safe and will copy the ByteStrings",
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "hmac",
           "normalized": "CryptoHashFunction-\u003eByteString-\u003eByteString-\u003eIO String",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "md5",
           "package": "nano-hmac",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "md5",
           "package": "nano-hmac",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha",
           "package": "nano-hmac",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha",
           "package": "nano-hmac",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha1",
           "package": "nano-hmac",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha1",
           "package": "nano-hmac",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha224",
           "package": "nano-hmac",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha224",
           "package": "nano-hmac",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha256",
           "package": "nano-hmac",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha256",
           "package": "nano-hmac",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha384",
           "package": "nano-hmac",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha384",
           "package": "nano-hmac",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha512",
           "package": "nano-hmac",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "sha512",
           "package": "nano-hmac",
@@ -234,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an HMAC\n\u003c/p\u003e\u003cp\u003eThis implementation is will not copy the ByteStrings and uses unsafePerformIO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:47 UTC 2014",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "unsafeHMAC",
           "package": "nano-hmac",
@@ -243,6 +264,7 @@
         "index": {
           "description": "Generate an HMAC This implementation is will not copy the ByteStrings and uses unsafePerformIO",
           "hierarchy": "Data Digest OpenSSL HMAC",
+          "indexed": "2014-03-11T19:25:47",
           "module": "Data.Digest.OpenSSL.HMAC",
           "name": "unsafeHMAC",
           "normalized": "CryptoHashFunction-\u003eByteString-\u003eByteString-\u003eString",

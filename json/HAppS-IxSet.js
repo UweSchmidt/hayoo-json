@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HAppS-IxSet"
+        "phrase": "HAppS-IxSet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "Ix",
           "package": "HAppS-IxSet",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Ix",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "Ix",
           "package": "HAppS-IxSet",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "con_Ix_Data",
           "package": "HAppS-IxSet",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Ix",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "con_Ix_Data",
           "package": "HAppS-IxSet",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "delete",
           "package": "HAppS-IxSet",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Ix",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "delete",
           "normalized": "a-\u003eb-\u003eMap a(Set b)-\u003eMap a(Set b)",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "insert",
           "package": "HAppS-IxSet",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Ix",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eMap a(Set b)-\u003eMap a(Set b)",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "ixConstr",
           "package": "HAppS-IxSet",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Ix",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "ixConstr",
           "package": "HAppS-IxSet",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "ixDataType",
           "package": "HAppS-IxSet",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Ix",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "ixDataType",
           "package": "HAppS-IxSet",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "ixDefaultConstr",
           "package": "HAppS-IxSet",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Ix",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "ixDefaultConstr",
           "package": "HAppS-IxSet",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "ixType_Data",
           "package": "HAppS-IxSet",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Ix",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Ix",
           "name": "ixType_Data",
           "package": "HAppS-IxSet",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "Test",
           "package": "HAppS-IxSet",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "Test",
           "package": "HAppS-IxSet",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "c1",
           "package": "HAppS-IxSet",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "c1",
           "package": "HAppS-IxSet",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "c2",
           "package": "HAppS-IxSet",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "c2",
           "package": "HAppS-IxSet",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "c3",
           "package": "HAppS-IxSet",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "c3",
           "package": "HAppS-IxSet",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "c4",
           "package": "HAppS-IxSet",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "c4",
           "package": "HAppS-IxSet",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s1",
           "package": "HAppS-IxSet",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s1",
           "package": "HAppS-IxSet",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s2",
           "package": "HAppS-IxSet",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s2",
           "package": "HAppS-IxSet",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s3",
           "package": "HAppS-IxSet",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s3",
           "package": "HAppS-IxSet",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s4",
           "package": "HAppS-IxSet",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s4",
           "package": "HAppS-IxSet",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s5",
           "package": "HAppS-IxSet",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s5",
           "package": "HAppS-IxSet",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s6",
           "package": "HAppS-IxSet",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s6",
           "package": "HAppS-IxSet",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s7",
           "package": "HAppS-IxSet",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s7",
           "package": "HAppS-IxSet",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s8",
           "package": "HAppS-IxSet",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "s8",
           "package": "HAppS-IxSet",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "t1",
           "package": "HAppS-IxSet",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "t1",
           "package": "HAppS-IxSet",
@@ -489,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "t2",
           "package": "HAppS-IxSet",
@@ -498,6 +543,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "t2",
           "package": "HAppS-IxSet",
@@ -510,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "t3",
           "package": "HAppS-IxSet",
@@ -519,6 +566,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet Usage",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet.Usage",
           "name": "t3",
           "package": "HAppS-IxSet",
@@ -531,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "IndexOp",
           "package": "HAppS-IxSet",
@@ -539,6 +588,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "IndexOp",
           "package": "HAppS-IxSet",
@@ -552,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "IxSet",
           "package": "HAppS-IxSet",
@@ -560,6 +611,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "IxSet",
           "package": "HAppS-IxSet",
@@ -573,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "package": "HAppS-IxSet",
           "signature": "IxSet a -\u003e IxSet a -\u003e IxSet a",
@@ -581,6 +634,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "normalized": "IxSet a-\u003eIxSet a-\u003eIxSet a",
           "package": "HAppS-IxSet",
@@ -594,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@*",
           "package": "HAppS-IxSet",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@*",
           "normalized": "IxSet a-\u003e[b]-\u003eIxSet a",
@@ -617,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@+",
           "package": "HAppS-IxSet",
@@ -626,6 +683,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@+",
           "normalized": "IxSet a-\u003e[b]-\u003eIxSet a",
@@ -640,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003c",
           "package": "HAppS-IxSet",
@@ -649,6 +708,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003c",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -663,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003c=",
           "package": "HAppS-IxSet",
@@ -672,6 +733,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003c=",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -686,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@=",
           "package": "HAppS-IxSet",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@=",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e",
           "package": "HAppS-IxSet",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -732,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e\u003c",
           "package": "HAppS-IxSet",
@@ -741,6 +808,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e\u003c",
           "normalized": "IxSet a-\u003e(b,b)-\u003eIxSet a",
@@ -755,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e\u003c=",
           "package": "HAppS-IxSet",
@@ -764,6 +833,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e\u003c=",
           "normalized": "IxSet a-\u003e(b,b)-\u003eIxSet a",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e=",
           "package": "HAppS-IxSet",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e=",
           "normalized": "IxSet a-\u003eb-\u003eIxSet a",
@@ -801,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e=\u003c",
           "package": "HAppS-IxSet",
@@ -810,6 +883,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e=\u003c",
           "normalized": "IxSet a-\u003e(b,b)-\u003eIxSet a",
@@ -824,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e=\u003c=",
           "package": "HAppS-IxSet",
@@ -833,6 +908,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "@\u003e=\u003c=",
           "normalized": "IxSet a-\u003e(b,b)-\u003eIxSet a",
@@ -847,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "Indexable",
           "package": "HAppS-IxSet",
@@ -855,6 +932,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "Indexable",
           "package": "HAppS-IxSet",
@@ -868,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "calcs",
           "package": "HAppS-IxSet",
@@ -877,6 +956,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "calcs",
           "normalized": "a-\u003eb",
@@ -891,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "change",
           "package": "HAppS-IxSet",
@@ -900,6 +981,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "change",
           "normalized": "IndexOp-\u003ea-\u003eIxSet a-\u003eIxSet a",
@@ -914,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "delete",
           "package": "HAppS-IxSet",
@@ -923,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "delete",
           "normalized": "a-\u003eIxSet a-\u003eIxSet a",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "empty",
           "package": "HAppS-IxSet",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "empty",
           "package": "HAppS-IxSet",
@@ -958,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "flatten",
           "package": "HAppS-IxSet",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "flatten",
           "normalized": "a-\u003e[Dynamic]",
@@ -981,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "fromList",
           "package": "HAppS-IxSet",
@@ -990,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "fromList",
           "normalized": "[a]-\u003eIxSet a",
@@ -1005,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "fromSet",
           "package": "HAppS-IxSet",
@@ -1014,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "fromSet",
           "normalized": "Set a-\u003eIxSet a",
@@ -1029,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "fromSet'",
           "package": "HAppS-IxSet",
@@ -1038,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "fromSet'",
           "normalized": "Set a-\u003eIxSet a",
@@ -1053,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getEQ",
           "package": "HAppS-IxSet",
@@ -1062,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getEQ",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -1077,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getGT",
           "package": "HAppS-IxSet",
@@ -1086,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getGT",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -1101,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getGTE",
           "package": "HAppS-IxSet",
@@ -1110,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getGTE",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -1125,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getLT",
           "package": "HAppS-IxSet",
@@ -1134,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getLT",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -1149,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getLTE",
           "package": "HAppS-IxSet",
@@ -1158,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getLTE",
           "normalized": "a-\u003eIxSet b-\u003eIxSet b",
@@ -1173,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getOne",
           "package": "HAppS-IxSet",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getOne",
           "normalized": "IxSet a-\u003eMaybe a",
@@ -1197,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getOneOr",
           "package": "HAppS-IxSet",
@@ -1206,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getOneOr",
           "normalized": "a-\u003eIxSet a-\u003ea",
@@ -1221,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getOrd",
           "package": "HAppS-IxSet",
@@ -1230,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getOrd",
           "normalized": "Ordering-\u003ea-\u003eIxSet b-\u003eIxSet b",
@@ -1245,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "getRange",
           "package": "HAppS-IxSet",
@@ -1254,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "getRange",
           "normalized": "a-\u003ea-\u003eIxSet b-\u003eIxSet b",
@@ -1269,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "groupBy",
           "package": "HAppS-IxSet",
@@ -1278,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "groupBy",
           "normalized": "IxSet a-\u003e[(b,[a])]",
@@ -1293,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "iSetConstr",
           "package": "HAppS-IxSet",
@@ -1302,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "iSetConstr",
           "package": "HAppS-IxSet",
@@ -1315,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "inferIxSet",
           "package": "HAppS-IxSet",
@@ -1324,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "inferIxSet",
           "normalized": "String-\u003eName-\u003eName-\u003e[Name]-\u003eQ[Dec]",
@@ -1339,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "insert",
           "package": "HAppS-IxSet",
@@ -1348,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "insert",
           "normalized": "a-\u003eIxSet a-\u003eIxSet a",
@@ -1362,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "intersection",
           "package": "HAppS-IxSet",
@@ -1371,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "intersection",
           "normalized": "IxSet a-\u003eIxSet a-\u003eIxSet a",
@@ -1385,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "ixSetConstr",
           "package": "HAppS-IxSet",
@@ -1394,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "ixSetConstr",
           "package": "HAppS-IxSet",
@@ -1407,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "ixSetDataType",
           "package": "HAppS-IxSet",
@@ -1416,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "ixSetDataType",
           "package": "HAppS-IxSet",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "size",
           "package": "HAppS-IxSet",
@@ -1438,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "size",
           "normalized": "IxSet a-\u003eInt",
@@ -1452,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "toList",
           "package": "HAppS-IxSet",
@@ -1461,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "toList",
           "normalized": "IxSet a-\u003e[a]",
@@ -1476,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "toList'",
           "package": "HAppS-IxSet",
@@ -1485,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "toList'",
           "normalized": "[Ix a]-\u003e[a]",
@@ -1500,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "toSet",
           "package": "HAppS-IxSet",
@@ -1509,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "toSet",
           "normalized": "IxSet a-\u003eSet a",
@@ -1524,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "toSet'",
           "package": "HAppS-IxSet",
@@ -1533,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "toSet'",
           "normalized": "[Ix a]-\u003eSet a",
@@ -1548,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "union",
           "package": "HAppS-IxSet",
@@ -1557,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "union",
           "normalized": "IxSet a-\u003eIxSet a-\u003eIxSet a",
@@ -1571,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "updateIx",
           "package": "HAppS-IxSet",
@@ -1580,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "updateIx",
           "normalized": "a-\u003eb-\u003eIxSet b-\u003eIxSet b",
@@ -1595,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:14 UTC 2014",
           "module": "HAppS.Data.IxSet",
           "name": "|||",
           "package": "HAppS-IxSet",
@@ -1604,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data IxSet",
+          "indexed": "2014-03-11T16:44:14",
           "module": "HAppS.Data.IxSet",
           "name": "|||",
           "normalized": "IxSet a-\u003eIxSet a-\u003eIxSet a",

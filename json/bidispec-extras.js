@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bidispec-extras"
+        "phrase": "bidispec-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "Extras",
           "package": "bidispec-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "Extras",
           "package": "bidispec-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "fromPair",
           "package": "bidispec-extras",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "fromPair",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a,b)-\u003ec",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "fromQuadruple",
           "package": "bidispec-extras",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "fromQuadruple",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003e(a,b,c,d)-\u003ee",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "fromQuintuple",
           "package": "bidispec-extras",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "fromQuintuple",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003e(a,b,c,d,e)-\u003ef",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "fromTriple",
           "package": "bidispec-extras",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "fromTriple",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(a,b,c)-\u003ed",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "toPair",
           "package": "bidispec-extras",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "toPair",
           "normalized": "(a-\u003eb,a-\u003ec)-\u003ea-\u003e(b,c)",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "toQuadruple",
           "package": "bidispec-extras",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "toQuadruple",
           "normalized": "(a-\u003eb,a-\u003ec,a-\u003ed,a-\u003ee)-\u003ea-\u003e(b,c,d,e)",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "toQuintuple",
           "package": "bidispec-extras",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "toQuintuple",
           "normalized": "(a-\u003eb,a-\u003ec,a-\u003ed,a-\u003ee,a-\u003ef)-\u003ea-\u003e(b,c,d,e,f)",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "toTriple",
           "package": "bidispec-extras",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "toTriple",
           "normalized": "(a-\u003eb,a-\u003ec,a-\u003ed)-\u003ea-\u003e(b,c,d)",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "wrapBase16",
           "package": "bidispec-extras",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "wrapBase16",
           "normalized": "(String-\u003eMaybe ByteString,ByteString-\u003eString)",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:13 UTC 2014",
           "module": "Data.BidiSpec.Extras",
           "name": "wrapBase64",
           "package": "bidispec-extras",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data BidiSpec Extras",
+          "indexed": "2014-03-11T17:18:13",
           "module": "Data.BidiSpec.Extras",
           "name": "wrapBase64",
           "normalized": "(String-\u003eMaybe ByteString,ByteString-\u003eString)",

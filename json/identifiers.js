@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "identifiers"
+        "phrase": "identifiers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "ListLike",
           "package": "identifiers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "ListLike",
           "package": "identifiers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "Identifiers",
           "package": "identifiers",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "Identifiers",
           "package": "identifiers",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "(!)",
           "package": "identifiers",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "(!) !",
           "normalized": "Identifiers a b c-\u003ea-\u003eb",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty Identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "empty",
           "package": "identifiers",
@@ -94,6 +101,7 @@
         "index": {
           "description": "The empty Identifiers",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "empty",
           "package": "identifiers",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew Identifiers from list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "fromList",
           "package": "identifiers",
@@ -117,6 +126,7 @@
         "index": {
           "description": "New Identifiers from list",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "fromList",
           "normalized": "[a]-\u003eIdentifiers b a c",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert item into set (given it a new id)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "insert",
           "package": "identifiers",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Insert item into set given it new id",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "insert",
           "normalized": "Identifiers a b c-\u003eb-\u003eIdentifiers a b c",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert many items into set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "insertMany",
           "package": "identifiers",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Insert many items into set",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "insertMany",
           "normalized": "Identifiers a b c-\u003e[b]-\u003eIdentifiers a b c",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind id for given key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "lookupId",
           "package": "identifiers",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Find id for given key",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "lookupId",
           "normalized": "Identifiers a b c-\u003eb-\u003eMaybe a",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind key for given id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "lookupKey",
           "package": "identifiers",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Find key for given id",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "lookupKey",
           "normalized": "Identifiers a b c-\u003ea-\u003eMaybe b",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven many ids, return many keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "lookupKeys",
           "package": "identifiers",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Given many ids return many keys",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "lookupKeys",
           "normalized": "Identifiers a b c-\u003e[a]-\u003e[b]",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItems inserted are given ids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_hasId",
           "package": "identifiers",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Items inserted are given ids",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_hasId",
           "normalized": "String-\u003eBool",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserting something more than once does not change the set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_idempotent",
           "package": "identifiers",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Inserting something more than once does not change the set",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_idempotent",
           "normalized": "String-\u003eBool",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven id can be used to fetch inserted item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_keyRetrieval",
           "package": "identifiers",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Given id can be used to fetch inserted item",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_keyRetrieval",
           "normalized": "[String]-\u003eBool",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven id can be used to fetch inserted item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_keyRetrievalUnsafe",
           "package": "identifiers",
@@ -349,6 +376,7 @@
         "index": {
           "description": "Given id can be used to fetch inserted item",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_keyRetrievalUnsafe",
           "normalized": "[String]-\u003eBool",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserted items have stable ids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_stableId",
           "package": "identifiers",
@@ -375,6 +404,7 @@
         "index": {
           "description": "Inserted items have stable ids",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "prop_stableId",
           "normalized": "String-\u003eBool",
@@ -390,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "size",
           "package": "identifiers",
@@ -399,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "size",
           "normalized": "Identifiers a b c-\u003eInt",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew List from Identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "toList",
           "package": "identifiers",
@@ -424,6 +457,7 @@
         "index": {
           "description": "New List from Identifiers",
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "toList",
           "normalized": "Identifiers a b c-\u003e[b]",
@@ -439,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "unsafeLookupId",
           "package": "identifiers",
@@ -448,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "unsafeLookupId",
           "normalized": "Identifiers a b c-\u003eb-\u003ea",
@@ -463,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers.ListLike",
           "name": "unsafeLookupKey",
           "package": "identifiers",
@@ -472,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers ListLike",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers.ListLike",
           "name": "unsafeLookupKey",
           "normalized": "Identifiers a b c-\u003ea-\u003eb",
@@ -487,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "Identifiers",
           "package": "identifiers",
@@ -495,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "Identifiers",
           "package": "identifiers",
@@ -508,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "Identifiers",
           "package": "identifiers",
@@ -516,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "Identifiers",
           "package": "identifiers",
@@ -529,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "(!)",
           "package": "identifiers",
@@ -538,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "(!) !",
           "normalized": "Identifiers a b-\u003ea-\u003eb",
@@ -553,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty Identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "empty",
           "package": "identifiers",
@@ -563,6 +608,7 @@
         "index": {
           "description": "The empty Identifiers",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "empty",
           "package": "identifiers",
@@ -576,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew Identifiers from list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "fromList",
           "package": "identifiers",
@@ -586,6 +633,7 @@
         "index": {
           "description": "New Identifiers from list",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "fromList",
           "normalized": "[a]-\u003eIdentifiers b a",
@@ -602,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert item into set (given it a new id)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "insert",
           "package": "identifiers",
@@ -612,6 +661,7 @@
         "index": {
           "description": "Insert item into set given it new id",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "insert",
           "normalized": "Identifiers a b-\u003eb-\u003eIdentifiers a b",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert many items into set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "insertMany",
           "package": "identifiers",
@@ -637,6 +688,7 @@
         "index": {
           "description": "Insert many items into set",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "insertMany",
           "normalized": "Identifiers a b-\u003e[b]-\u003eIdentifiers a b",
@@ -653,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind id for given key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "lookupId",
           "package": "identifiers",
@@ -663,6 +716,7 @@
         "index": {
           "description": "Find id for given key",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "lookupId",
           "normalized": "Identifiers a b-\u003eb-\u003eMaybe a",
@@ -679,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind key for given id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "lookupKey",
           "package": "identifiers",
@@ -689,6 +744,7 @@
         "index": {
           "description": "Find key for given id",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "lookupKey",
           "normalized": "Identifiers a b-\u003ea-\u003eMaybe b",
@@ -705,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven many ids, return many keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "lookupKeys",
           "package": "identifiers",
@@ -715,6 +772,7 @@
         "index": {
           "description": "Given many ids return many keys",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "lookupKeys",
           "normalized": "Identifiers a b-\u003e[a]-\u003e[b]",
@@ -731,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItems inserted are given ids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "prop_hasId",
           "package": "identifiers",
@@ -741,6 +800,7 @@
         "index": {
           "description": "Items inserted are given ids",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "prop_hasId",
           "normalized": "String-\u003eBool",
@@ -757,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserting something more than once does not change the set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "prop_idempotent",
           "package": "identifiers",
@@ -767,6 +828,7 @@
         "index": {
           "description": "Inserting something more than once does not change the set",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "prop_idempotent",
           "normalized": "String-\u003eBool",
@@ -782,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven id can be used to fetch inserted item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "prop_keyRetrieval",
           "package": "identifiers",
@@ -792,6 +855,7 @@
         "index": {
           "description": "Given id can be used to fetch inserted item",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "prop_keyRetrieval",
           "normalized": "[String]-\u003eBool",
@@ -808,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven id can be used to fetch inserted item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "prop_keyRetrievalUnsafe",
           "package": "identifiers",
@@ -818,6 +883,7 @@
         "index": {
           "description": "Given id can be used to fetch inserted item",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "prop_keyRetrievalUnsafe",
           "normalized": "[String]-\u003eBool",
@@ -834,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserted items have stable ids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "prop_stableId",
           "package": "identifiers",
@@ -844,6 +911,7 @@
         "index": {
           "description": "Inserted items have stable ids",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "prop_stableId",
           "normalized": "String-\u003eBool",
@@ -859,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "size",
           "package": "identifiers",
@@ -868,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "size",
           "normalized": "Identifiers a b-\u003eInt",
@@ -883,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew List from Identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "toList",
           "package": "identifiers",
@@ -893,6 +964,7 @@
         "index": {
           "description": "New List from Identifiers",
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "toList",
           "normalized": "Identifiers a b-\u003e[b]",
@@ -908,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "unsafeLookupId",
           "package": "identifiers",
@@ -917,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "unsafeLookupId",
           "normalized": "Identifiers a b-\u003eb-\u003ea",
@@ -932,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:49 UTC 2014",
           "module": "Data.Identifiers",
           "name": "unsafeLookupKey",
           "package": "identifiers",
@@ -941,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Data Identifiers",
+          "indexed": "2014-03-11T18:55:49",
           "module": "Data.Identifiers",
           "name": "unsafeLookupKey",
           "normalized": "Identifiers a b-\u003ea-\u003eb",

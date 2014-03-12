@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitstring"
+        "phrase": "bitstring",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBig-endian bitstrings. In this context, \"big-endian\" means that\n the bits in the bytes are in the opposite order than what would be\n logical. If you ask me, this is just plain stupid, but some people\n apparently still use it...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "BigEndian",
           "package": "bitstring",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Big-endian bitstrings In this context big-endian means that the bits in the bytes are in the opposite order than what would be logical If you ask me this is just plain stupid but some people apparently still use it",
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "BigEndian",
           "package": "bitstring",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "BitString",
           "package": "bitstring",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "BitString",
           "package": "bitstring",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "append",
           "package": "bitstring",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "append",
           "normalized": "BitString-\u003eBitString-\u003eBitString",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBitString\u003c/a\u003e\u003c/code\u003e from a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "bitString",
           "package": "bitstring",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Create BitString from strict ByteString",
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "bitString",
           "normalized": "ByteString-\u003eBitString",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBitString\u003c/a\u003e\u003c/code\u003e from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "bitStringLazy",
           "package": "bitstring",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Create BitString from lazy ByteString",
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "bitStringLazy",
           "normalized": "ByteString-\u003eBitString",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "concat",
           "package": "bitstring",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "concat",
           "normalized": "[BitString]-\u003eBitString",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "drop",
           "package": "bitstring",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "drop",
           "normalized": "Int-\u003eBitString-\u003eBitString",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "empty",
           "package": "bitstring",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "empty",
           "package": "bitstring",
@@ -228,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "foldl'",
           "package": "bitstring",
@@ -237,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "foldl'",
           "normalized": "(a-\u003eBool-\u003ea)-\u003ea-\u003eBitString-\u003ea",
@@ -251,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "from01List",
           "package": "bitstring",
@@ -260,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "from01List",
           "normalized": "[Word]-\u003eBitString",
@@ -275,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "fromList",
           "package": "bitstring",
@@ -284,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "fromList",
           "normalized": "[Bool]-\u003eBitString",
@@ -299,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "length",
           "package": "bitstring",
@@ -308,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "length",
           "normalized": "BitString-\u003eInt",
@@ -322,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "null",
           "package": "bitstring",
@@ -331,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "null",
           "normalized": "BitString-\u003eBool",
@@ -345,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "realizeBitString'",
           "package": "bitstring",
@@ -354,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "realizeBitString'",
           "normalized": "BitString-\u003e[ByteString]",
@@ -369,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "realizeBitStringLazy",
           "package": "bitstring",
@@ -378,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "realizeBitStringLazy",
           "normalized": "BitString-\u003eByteString",
@@ -393,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "realizeBitStringStrict",
           "package": "bitstring",
@@ -402,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "realizeBitStringStrict",
           "normalized": "BitString-\u003eByteString",
@@ -417,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "splitAt",
           "package": "bitstring",
@@ -426,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "splitAt",
           "normalized": "Int-\u003eBitString-\u003e(BitString,BitString)",
@@ -441,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "take",
           "package": "bitstring",
@@ -450,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "take",
           "normalized": "Int-\u003eBitString-\u003eBitString",
@@ -464,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "to01List",
           "package": "bitstring",
@@ -473,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "to01List",
           "normalized": "BitString-\u003e[Word]",
@@ -488,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString.BigEndian",
           "name": "toList",
           "package": "bitstring",
@@ -497,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data BitString BigEndian",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString.BigEndian",
           "name": "toList",
           "normalized": "BitString-\u003e[Bool]",
@@ -539,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLazy bitstrings, somewhat similar to lazy bytestrings.\n This module is intended to be imported qualified.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "BitString",
           "package": "bitstring",
@@ -548,6 +589,7 @@
         "index": {
           "description": "Lazy bitstrings somewhat similar to lazy bytestrings This module is intended to be imported qualified",
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "BitString",
           "package": "bitstring",
@@ -561,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "BitString",
           "package": "bitstring",
@@ -569,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "BitString",
           "package": "bitstring",
@@ -582,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "append",
           "package": "bitstring",
@@ -591,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "append",
           "normalized": "BitString-\u003eBitString-\u003eBitString",
@@ -606,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBitString\u003c/a\u003e\u003c/code\u003e from a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "bitString",
           "package": "bitstring",
@@ -616,6 +663,7 @@
         "index": {
           "description": "Create BitString from strict ByteString",
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "bitString",
           "normalized": "ByteString-\u003eBitString",
@@ -632,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eBitString\u003c/a\u003e\u003c/code\u003e from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "bitStringLazy",
           "package": "bitstring",
@@ -642,6 +691,7 @@
         "index": {
           "description": "Create BitString from lazy ByteString",
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "bitStringLazy",
           "normalized": "ByteString-\u003eBitString",
@@ -657,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "concat",
           "package": "bitstring",
@@ -666,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "concat",
           "normalized": "[BitString]-\u003eBitString",
@@ -680,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "drop",
           "package": "bitstring",
@@ -689,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "drop",
           "normalized": "Int-\u003eBitString-\u003eBitString",
@@ -703,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "empty",
           "package": "bitstring",
@@ -712,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "empty",
           "package": "bitstring",
@@ -724,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "foldl'",
           "package": "bitstring",
@@ -733,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "foldl'",
           "normalized": "(a-\u003eBool-\u003ea)-\u003ea-\u003eBitString-\u003ea",
@@ -747,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "from01List",
           "package": "bitstring",
@@ -756,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "from01List",
           "normalized": "[Word]-\u003eBitString",
@@ -771,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "fromList",
           "package": "bitstring",
@@ -780,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "fromList",
           "normalized": "[Bool]-\u003eBitString",
@@ -795,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "length",
           "package": "bitstring",
@@ -804,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "length",
           "normalized": "BitString-\u003eInt",
@@ -818,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "null",
           "package": "bitstring",
@@ -827,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "null",
           "normalized": "BitString-\u003eBool",
@@ -841,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "realizeBitString'",
           "package": "bitstring",
@@ -850,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "realizeBitString'",
           "normalized": "BitString-\u003e[ByteString]",
@@ -865,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "realizeBitStringLazy",
           "package": "bitstring",
@@ -874,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "realizeBitStringLazy",
           "normalized": "BitString-\u003eByteString",
@@ -889,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "realizeBitStringStrict",
           "package": "bitstring",
@@ -898,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "realizeBitStringStrict",
           "normalized": "BitString-\u003eByteString",
@@ -913,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "splitAt",
           "package": "bitstring",
@@ -922,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "splitAt",
           "normalized": "Int-\u003eBitString-\u003e(BitString,BitString)",
@@ -937,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "take",
           "package": "bitstring",
@@ -946,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "take",
           "normalized": "Int-\u003eBitString-\u003eBitString",
@@ -960,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "to01List",
           "package": "bitstring",
@@ -969,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "to01List",
           "normalized": "BitString-\u003e[Word]",
@@ -984,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:07 UTC 2014",
           "module": "Data.BitString",
           "name": "toList",
           "package": "bitstring",
@@ -993,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Data BitString",
+          "indexed": "2014-03-11T17:23:07",
           "module": "Data.BitString",
           "name": "toList",
           "normalized": "BitString-\u003e[Bool]",

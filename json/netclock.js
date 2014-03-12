@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "netclock"
+        "phrase": "netclock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "Client",
           "package": "netclock",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "Client",
           "package": "netclock",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "BpsChange",
           "package": "netclock",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "BpsChange",
           "package": "netclock",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "BpsChange",
           "package": "netclock",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "BpsChange",
           "package": "netclock",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "addChange",
           "package": "netclock",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "addChange",
           "normalized": "MVar(BpsChange,[BpsChange])-\u003eBpsChange-\u003eIO()",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "bpsListen",
           "package": "netclock",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "bpsListen",
           "normalized": "String-\u003eString-\u003eString-\u003eMVar(BpsChange,[BpsChange])-\u003eIO()",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "bpsListenLoop",
           "package": "netclock",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "bpsListenLoop",
           "normalized": "MVar(BpsChange,[BpsChange])-\u003eUDP-\u003eIO a",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "changeBeat",
           "package": "netclock",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "changeBeat",
           "package": "netclock",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "changeBps",
           "package": "netclock",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "changeBps",
           "package": "netclock",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "changeTime",
           "package": "netclock",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "changeTime",
           "package": "netclock",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "clocked",
           "package": "netclock",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "clocked",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003e(BpsChange-\u003eInt-\u003eIO())-\u003eIO()",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "logicalTime",
           "package": "netclock",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "logicalTime",
           "normalized": "BpsChange-\u003eDouble-\u003eDouble",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "nextChange",
           "package": "netclock",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "nextChange",
           "normalized": "(BpsChange,[BpsChange])-\u003eDouble-\u003e(BpsChange,[BpsChange])",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "readChange",
           "package": "netclock",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "readChange",
           "normalized": "UDP-\u003eIO BpsChange",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "register",
           "package": "netclock",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "register",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eIO UDP",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "sched",
           "package": "netclock",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "sched",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eIO()-\u003eIO()",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "scport",
           "package": "netclock",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "scport",
           "package": "netclock",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "toFloat",
           "package": "netclock",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "toFloat",
           "normalized": "Datum-\u003eFloat",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "updateBps",
           "package": "netclock",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "updateBps",
           "normalized": "MVar(BpsChange,[BpsChange])-\u003eDouble-\u003eIO BpsChange",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:44 UTC 2014",
           "module": "Network.Netclock.Client",
           "name": "waitBeat",
           "package": "netclock",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Network Netclock Client",
+          "indexed": "2014-03-11T19:26:44",
           "module": "Network.Netclock.Client",
           "name": "waitBeat",
           "normalized": "BpsChange-\u003eDouble-\u003eIO()",

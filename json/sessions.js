@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sessions"
+        "phrase": "sessions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": ":$",
           "package": "sessions",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": ":$",
           "package": "sessions",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": ":.",
           "package": "sessions",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": ":.",
           "package": "sessions",
@@ -58,6 +62,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "False",
           "package": "sessions",
@@ -66,6 +71,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "False",
           "package": "sessions",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "NotT",
           "package": "sessions",
@@ -87,6 +94,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "NotT",
           "package": "sessions",
@@ -100,6 +108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "True",
           "package": "sessions",
@@ -108,6 +117,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "True",
           "package": "sessions",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "And",
           "package": "sessions",
@@ -129,6 +140,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "And",
           "package": "sessions",
@@ -142,6 +154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "If",
           "package": "sessions",
@@ -150,6 +163,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "If",
           "package": "sessions",
@@ -163,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "Not",
           "package": "sessions",
@@ -171,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "Not",
           "package": "sessions",
@@ -184,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "Or",
           "package": "sessions",
@@ -192,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "Or",
           "package": "sessions",
@@ -205,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "tyAnd",
           "package": "sessions",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "tyAnd",
           "normalized": "a-\u003eb-\u003ec",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "tyIf",
           "package": "sessions",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "tyIf",
           "normalized": "a-\u003eb-\u003ec-\u003ed",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "tyNot",
           "package": "sessions",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "tyNot",
           "normalized": "a-\u003eb",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "tyOr",
           "package": "sessions",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Bool",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Bool",
           "name": "tyOr",
           "normalized": "a-\u003eb-\u003ec",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "Cons",
           "package": "sessions",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "Cons",
           "package": "sessions",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "Nil",
           "package": "sessions",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "Nil",
           "package": "sessions",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyList",
           "package": "sessions",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyList",
           "package": "sessions",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListAppend",
           "package": "sessions",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListAppend",
           "package": "sessions",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListConsSet",
           "package": "sessions",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListConsSet",
           "package": "sessions",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListDelete",
           "package": "sessions",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListDelete",
           "package": "sessions",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListDrop",
           "package": "sessions",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListDrop",
           "package": "sessions",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListElem",
           "package": "sessions",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListElem",
           "package": "sessions",
@@ -469,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListIndex",
           "package": "sessions",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListIndex",
           "package": "sessions",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListLength",
           "package": "sessions",
@@ -498,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListLength",
           "package": "sessions",
@@ -511,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListMember",
           "package": "sessions",
@@ -519,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListMember",
           "package": "sessions",
@@ -532,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListReverse",
           "package": "sessions",
@@ -540,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListReverse",
           "package": "sessions",
@@ -553,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListSortNums",
           "package": "sessions",
@@ -561,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListSortNums",
           "package": "sessions",
@@ -574,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListTake",
           "package": "sessions",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListTake",
           "package": "sessions",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListToList",
           "package": "sessions",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListToList",
           "package": "sessions",
@@ -616,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListToSet",
           "package": "sessions",
@@ -624,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListToSet",
           "package": "sessions",
@@ -637,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListUpdateVar",
           "package": "sessions",
@@ -645,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListUpdateVar",
           "package": "sessions",
@@ -658,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListZip",
           "package": "sessions",
@@ -666,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TyListZip",
           "package": "sessions",
@@ -679,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TySubList",
           "package": "sessions",
@@ -687,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "TySubList",
           "package": "sessions",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "isTyListMember",
           "package": "sessions",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "isTyListMember",
           "normalized": "a-\u003eb-\u003ec",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "isTySubList",
           "package": "sessions",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "isTySubList",
           "normalized": "a-\u003eb-\u003ec",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "modifyCons",
           "package": "sessions",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "modifyCons",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003eCons a b-\u003eCons a b",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyHead",
           "package": "sessions",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyHead",
           "normalized": "Cons a b-\u003ea",
@@ -842,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListAppend",
           "package": "sessions",
@@ -851,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListAppend",
           "normalized": "a-\u003eb-\u003ec",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListConsSet",
           "package": "sessions",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListConsSet",
           "normalized": "a-\u003eb-\u003ec",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListDelete",
           "package": "sessions",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListDelete",
           "normalized": "a-\u003eb-\u003ec",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListDrop",
           "package": "sessions",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListDrop",
           "normalized": "a-\u003eb-\u003ec",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListElem",
           "package": "sessions",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListElem",
           "normalized": "a-\u003eb-\u003ec",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListIndex",
           "package": "sessions",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListIndex",
           "normalized": "a-\u003eb-\u003ec",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListLength",
           "package": "sessions",
@@ -995,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListLength",
           "normalized": "a-\u003eb",
@@ -1010,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListReverse",
           "package": "sessions",
@@ -1019,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListReverse",
           "normalized": "a-\u003eb",
@@ -1034,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListSortNums",
           "package": "sessions",
@@ -1043,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListSortNums",
           "normalized": "a-\u003eb",
@@ -1058,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListTake",
           "package": "sessions",
@@ -1067,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListTake",
           "normalized": "a-\u003eb-\u003ec",
@@ -1082,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListToList",
           "package": "sessions",
@@ -1091,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListToList",
           "normalized": "a-\u003eb",
@@ -1106,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListToSet",
           "package": "sessions",
@@ -1115,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListToSet",
           "normalized": "a-\u003eb",
@@ -1130,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListUpdate",
           "package": "sessions",
@@ -1139,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListUpdate",
           "normalized": "a-\u003eb-\u003ec-\u003ea",
@@ -1154,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListUpdateVar",
           "package": "sessions",
@@ -1163,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListUpdateVar",
           "normalized": "a-\u003eb-\u003ec-\u003ea",
@@ -1178,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListZip",
           "package": "sessions",
@@ -1187,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyListZip",
           "normalized": "a-\u003eb-\u003ec",
@@ -1202,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyTail",
           "package": "sessions",
@@ -1211,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base List",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.List",
           "name": "tyTail",
           "normalized": "Cons a b-\u003eb",
@@ -1226,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "TyMap",
           "package": "sessions",
@@ -1234,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "TyMap",
           "package": "sessions",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapDelete",
           "package": "sessions",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapDelete",
           "package": "sessions",
@@ -1268,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapInsert",
           "package": "sessions",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapInsert",
           "package": "sessions",
@@ -1289,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapLookup",
           "package": "sessions",
@@ -1297,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapLookup",
           "package": "sessions",
@@ -1310,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapSelectToList",
           "package": "sessions",
@@ -1318,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapSelectToList",
           "package": "sessions",
@@ -1331,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapSize",
           "package": "sessions",
@@ -1339,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapSize",
           "package": "sessions",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapUpdate",
           "package": "sessions",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "MapUpdate",
           "package": "sessions",
@@ -1396,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapDelete",
           "package": "sessions",
@@ -1405,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapDelete",
           "normalized": "a-\u003eb-\u003ec",
@@ -1420,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapInsert",
           "package": "sessions",
@@ -1429,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapInsert",
           "normalized": "a-\u003eb-\u003ec-\u003ec",
@@ -1444,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapLookup",
           "package": "sessions",
@@ -1453,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapLookup",
           "normalized": "a-\u003eb-\u003ec",
@@ -1468,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapSelectToList",
           "package": "sessions",
@@ -1477,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapSelectToList",
           "normalized": "a-\u003eb-\u003ec",
@@ -1492,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapSize",
           "package": "sessions",
@@ -1501,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapSize",
           "normalized": "a-\u003eb",
@@ -1516,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapUpdate",
           "package": "sessions",
@@ -1525,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapUpdate",
           "normalized": "a-\u003eb-\u003ec-\u003ed",
@@ -1540,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapUpdateValue",
           "package": "sessions",
@@ -1549,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "mapUpdateValue",
           "normalized": "a-\u003eb-\u003ec-\u003ea",
@@ -1564,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "tyMapKeys",
           "package": "sessions",
@@ -1573,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Map",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Map",
           "name": "tyMapKeys",
           "normalized": "TyMap a b-\u003ea",
@@ -1588,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D0",
           "package": "sessions",
@@ -1596,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D0",
           "package": "sessions",
@@ -1608,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D1",
           "package": "sessions",
@@ -1616,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D1",
           "package": "sessions",
@@ -1628,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D2",
           "package": "sessions",
@@ -1636,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D2",
           "package": "sessions",
@@ -1648,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D3",
           "package": "sessions",
@@ -1656,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D3",
           "package": "sessions",
@@ -1668,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D4",
           "package": "sessions",
@@ -1676,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D4",
           "package": "sessions",
@@ -1688,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D5",
           "package": "sessions",
@@ -1696,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D5",
           "package": "sessions",
@@ -1708,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D6",
           "package": "sessions",
@@ -1716,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D6",
           "package": "sessions",
@@ -1728,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D7",
           "package": "sessions",
@@ -1736,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D7",
           "package": "sessions",
@@ -1748,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D8",
           "package": "sessions",
@@ -1756,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D8",
           "package": "sessions",
@@ -1768,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D9",
           "package": "sessions",
@@ -1776,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "D9",
           "package": "sessions",
@@ -1788,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "E",
           "package": "sessions",
@@ -1796,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "E",
           "package": "sessions",
@@ -1808,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "Add",
           "package": "sessions",
@@ -1816,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "Add",
           "package": "sessions",
@@ -1829,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "Pred",
           "package": "sessions",
@@ -1837,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "Pred",
           "package": "sessions",
@@ -1850,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "SmallerThan",
           "package": "sessions",
@@ -1858,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "SmallerThan",
           "package": "sessions",
@@ -1871,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "SmallerThanBool",
           "package": "sessions",
@@ -1879,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "SmallerThanBool",
           "package": "sessions",
@@ -1892,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "Succ",
           "package": "sessions",
@@ -1900,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "Succ",
           "package": "sessions",
@@ -1913,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "TyNum",
           "package": "sessions",
@@ -1921,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "TyNum",
           "package": "sessions",
@@ -1934,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "TypeNumberToInt",
           "package": "sessions",
@@ -1942,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "TypeNumberToInt",
           "package": "sessions",
@@ -1955,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "isSmallerThan",
           "package": "sessions",
@@ -1964,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "isSmallerThan",
           "normalized": "a-\u003eb-\u003ec",
@@ -1979,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "tyAdd",
           "package": "sessions",
@@ -1988,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "tyAdd",
           "normalized": "a-\u003eb-\u003ec",
@@ -2003,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "tyNumToInt",
           "package": "sessions",
@@ -2012,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "tyNumToInt",
           "normalized": "a-\u003eInt",
@@ -2027,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "tyPred",
           "package": "sessions",
@@ -2036,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "tyPred",
           "normalized": "a-\u003eb",
@@ -2051,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "tySucc",
           "package": "sessions",
@@ -2060,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base Number",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.Number",
           "name": "tySucc",
           "normalized": "a-\u003eb",
@@ -2075,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SChain",
           "package": "sessions",
@@ -2083,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SChain",
           "package": "sessions",
@@ -2096,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SStateT",
           "package": "sessions",
@@ -2104,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SStateT",
           "package": "sessions",
@@ -2117,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SMonad",
           "package": "sessions",
@@ -2125,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SMonad",
           "package": "sessions",
@@ -2138,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SMonadIO",
           "package": "sessions",
@@ -2146,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SMonadIO",
           "package": "sessions",
@@ -2159,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SMonadState",
           "package": "sessions",
@@ -2167,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SMonadState",
           "package": "sessions",
@@ -2180,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SMonadTrans",
           "package": "sessions",
@@ -2188,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "SMonadTrans",
           "package": "sessions",
@@ -2201,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sget",
           "package": "sessions",
@@ -2210,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sget",
           "package": "sessions",
@@ -2222,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sjoin",
           "package": "sessions",
@@ -2231,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sjoin",
           "normalized": "a b c(a c d e)-\u003ea b d e",
@@ -2245,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "slift",
           "package": "sessions",
@@ -2254,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "slift",
           "normalized": "a b c d-\u003ee a b c d",
@@ -2268,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sliftIO",
           "package": "sessions",
@@ -2277,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sliftIO",
           "normalized": "IO a-\u003eb c c a",
@@ -2292,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "smapM",
           "package": "sessions",
@@ -2301,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "smapM",
           "normalized": "(a-\u003eb c c d)-\u003e[a]-\u003eb c c[d]",
@@ -2315,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "smapM_",
           "package": "sessions",
@@ -2324,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "smapM_",
           "normalized": "(a-\u003eb c c d)-\u003e[a]-\u003eb c c()",
@@ -2338,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sput",
           "package": "sessions",
@@ -2347,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sput",
           "normalized": "a-\u003eb c c()",
@@ -2361,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sreturn",
           "package": "sessions",
@@ -2370,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "sreturn",
           "normalized": "a-\u003eb c c a",
@@ -2384,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "ssequence",
           "package": "sessions",
@@ -2393,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "ssequence",
           "normalized": "[a b b c]-\u003ea b b[c]",
@@ -2407,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "ssequence_",
           "package": "sessions",
@@ -2416,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "ssequence_",
           "normalized": "[a b b c]-\u003ea b b()",
@@ -2430,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "~\u003e\u003e",
           "package": "sessions",
@@ -2439,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "~\u003e\u003e",
           "normalized": "a b c d-\u003ea c e f-\u003ea b e f",
@@ -2453,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "~\u003e\u003e=",
           "package": "sessions",
@@ -2462,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Base SMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Base.SMonad",
           "name": "~\u003e\u003e=",
           "normalized": "a b c d-\u003e(d-\u003ea c e f)-\u003ea b e f",
@@ -2476,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "\u003c!\u003e",
           "package": "sessions",
@@ -2485,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "\u003c!\u003e",
           "normalized": "a-\u003eb-\u003eInterleavedChain c(TyMap d e)(TyMap d f)()",
@@ -2499,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "\u003c?\u003e",
           "package": "sessions",
@@ -2508,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "\u003c?\u003e",
           "normalized": "a-\u003eInterleavedChain b(TyMap c d)(TyMap c e)f",
@@ -2522,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "Fork",
           "package": "sessions",
@@ -2530,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "Fork",
           "package": "sessions",
@@ -2543,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "MapChannelsRec",
           "package": "sessions",
@@ -2551,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "MapChannelsRec",
           "package": "sessions",
@@ -2564,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "fork",
           "package": "sessions",
@@ -2573,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "fork",
           "normalized": "a-\u003eb-\u003ec-\u003e(D E-\u003ePid d e f g h-\u003eInterleavedChain(InternalPid d e i j k)(TyMap l m)(TyMap n o)())-\u003eInterleavedChain(InternalPid d e f g h)(TyMap p q)(TyMap r s)(t,Pid d e i j k)",
@@ -2587,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "mapChannelsRec",
           "package": "sessions",
@@ -2596,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "mapChannelsRec",
           "normalized": "SessionChain a b(c,d,e)(c,d,e)f-\u003eg-\u003eInterleavedChain h(TyMap i j)(TyMap i j)[f]",
@@ -2611,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "recvChannel",
           "package": "sessions",
@@ -2620,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "recvChannel",
           "normalized": "a-\u003eInterleavedChain b(TyMap c d)(TyMap e f)g",
@@ -2636,6 +2866,7 @@
       "document": {
         "description": {
           "description": "Run the root. Use this to start up a family from a single root.\n",
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "runInterleaved",
           "package": "sessions",
@@ -2646,6 +2877,7 @@
         "index": {
           "description": "Run the root Use this to start up family from single root",
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "runInterleaved",
           "normalized": "a-\u003eb-\u003eInterleavedChain(InternalPid b c d e f)(TyMap Nil Nil)(TyMap g h)i-\u003eIO i",
@@ -2661,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "scloseCh",
           "package": "sessions",
@@ -2670,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "scloseCh",
           "normalized": "a-\u003eInterleavedChain b(TyMap c d)(TyMap e f)()",
@@ -2685,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "sendChannel",
           "package": "sessions",
@@ -2694,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "sendChannel",
           "normalized": "a-\u003eb-\u003eInterleavedChain c(TyMap d e)(TyMap f g)()",
@@ -2710,6 +2946,7 @@
       "document": {
         "description": {
           "description": "Convenience combination of \u003ctt\u003e\u003ca\u003ewithChannel\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003esjump\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "sjumpCh",
           "package": "sessions",
@@ -2720,6 +2957,7 @@
         "index": {
           "description": "Convenience combination of withChannel and sjump",
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "sjumpCh",
           "normalized": "a-\u003eInterleavedChain b(TyMap c d)(TyMap c e)()",
@@ -2736,6 +2974,7 @@
       "document": {
         "description": {
           "description": "Convenience combination of \u003ctt\u003e\u003ca\u003ewithChannel\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003esoffer\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "sofferCh",
           "package": "sessions",
@@ -2746,6 +2985,7 @@
         "index": {
           "description": "Convenience combination of withChannel and soffer",
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "sofferCh",
           "normalized": "a-\u003eOfferImpls b c d(e,f,g)h-\u003eInterleavedChain i(TyMap j k)(TyMap j l)h",
@@ -2762,6 +3002,7 @@
       "document": {
         "description": {
           "description": "Convenience combination of \u003ctt\u003e\u003ca\u003ewithChannel\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003esrecv\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "srecvCh",
           "package": "sessions",
@@ -2772,6 +3013,7 @@
         "index": {
           "description": "Convenience combination of withChannel and srecv",
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "srecvCh",
           "normalized": "a-\u003eInterleavedChain b(TyMap c d)(TyMap c e)f",
@@ -2788,6 +3030,7 @@
       "document": {
         "description": {
           "description": "Convenience combination of \u003ctt\u003e\u003ca\u003ewithChannel\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003esselectCh\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "sselectCh",
           "package": "sessions",
@@ -2798,6 +3041,7 @@
         "index": {
           "description": "Convenience combination of withChannel and sselectCh",
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "sselectCh",
           "normalized": "a-\u003eb-\u003eInterleavedChain c(TyMap d e)(TyMap d f)()",
@@ -2814,6 +3058,7 @@
       "document": {
         "description": {
           "description": "Convenience combination of \u003ctt\u003e\u003ca\u003ewithChannel\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003essend\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "ssendCh",
           "package": "sessions",
@@ -2824,6 +3069,7 @@
         "index": {
           "description": "Convenience combination of withChannel and ssend",
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "ssendCh",
           "normalized": "a-\u003eb-\u003eInterleavedChain c(TyMap d e)(TyMap d f)()",
@@ -2840,6 +3086,7 @@
       "document": {
         "description": {
           "description": "Perform the given actions on the given channel. Note that the\n value emitted by the actions will be passed out.\n",
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "withChannel",
           "package": "sessions",
@@ -2850,6 +3097,7 @@
         "index": {
           "description": "Perform the given actions on the given channel Note that the value emitted by the actions will be passed out",
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "withChannel",
           "normalized": "a-\u003eSessionChain b c(d,e,f)(g,h,i)j-\u003eInterleavedChain k(TyMap l m)(TyMap l n)j",
@@ -2865,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "withChannelRec",
           "package": "sessions",
@@ -2874,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Interleaving",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Interleaving",
           "name": "withChannelRec",
           "normalized": "a-\u003eSessionChain b c(d,e,f)(d,e,f)g-\u003eInterleavedChain h(TyMap i j)(TyMap i j)g",
@@ -2889,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Network.Socket",
           "name": "CreateSessionOverNetwork",
           "package": "sessions",
@@ -2897,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Network Socket",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Network.Socket",
           "name": "CreateSessionOverNetwork",
           "package": "sessions",
@@ -2910,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Network.Socket",
           "name": "createSessionOverNetwork",
           "package": "sessions",
@@ -2919,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Network Socket",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Network.Socket",
           "name": "createSessionOverNetwork",
           "normalized": "a-\u003eb-\u003eHandle-\u003eInterleavedChain(InternalPid c d e f g)(TyMap h i)(TyMap j k)l",
@@ -2934,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Network.Socket",
           "name": "runOverNetwork",
           "package": "sessions",
@@ -2943,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Network Socket",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Network.Socket",
           "name": "runOverNetwork",
           "normalized": "a-\u003eb-\u003eSessionChain a c(d,e,f)(g,h,i)j-\u003eMaybe HostName-\u003ePortID-\u003eIO j",
@@ -2958,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "BuildInvertedSessionsSetT",
           "package": "sessions",
@@ -2966,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "BuildInvertedSessionsSetT",
           "package": "sessions",
@@ -2979,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "BuildPidTyMapT",
           "package": "sessions",
@@ -2987,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "BuildPidTyMapT",
           "package": "sessions",
@@ -3000,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "MultiReceiveList",
           "package": "sessions",
@@ -3008,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "MultiReceiveList",
           "package": "sessions",
@@ -3045,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "BuildInvertedSessionsSet",
           "package": "sessions",
@@ -3053,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "BuildInvertedSessionsSet",
           "package": "sessions",
@@ -3066,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "BuildPidTyMap",
           "package": "sessions",
@@ -3074,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "BuildPidTyMap",
           "package": "sessions",
@@ -3087,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "CombinedMultiRecv",
           "package": "sessions",
@@ -3095,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "CombinedMultiRecv",
           "package": "sessions",
@@ -3108,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "CreateSession",
           "package": "sessions",
@@ -3116,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "CreateSession",
           "package": "sessions",
@@ -3129,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "MultiReceive",
           "package": "sessions",
@@ -3137,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "MultiReceive",
           "package": "sessions",
@@ -3150,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "PidEq",
           "package": "sessions",
@@ -3158,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "PidEq",
           "package": "sessions",
@@ -3171,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "PlainMultiReceive",
           "package": "sessions",
@@ -3179,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "PlainMultiReceive",
           "package": "sessions",
@@ -3192,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "buildInvertedSessionsSet",
           "package": "sessions",
@@ -3201,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "buildInvertedSessionsSet",
           "normalized": "a-\u003eb",
@@ -3216,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "buildPidTyMap",
           "package": "sessions",
@@ -3225,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "buildPidTyMap",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -3315,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "makePid",
           "package": "sessions",
@@ -3324,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "makePid",
           "normalized": "InternalPid a b c d e-\u003ef-\u003eTyMap g h-\u003e(InternalPid a b c d e,InternalPid a b f g h)",
@@ -3412,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Pid",
           "name": "rootPid",
           "package": "sessions",
@@ -3421,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Pid",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Pid",
           "name": "rootPid",
           "normalized": "TyMap a b-\u003ec-\u003ed-\u003eInternalPid d e c a b",
@@ -3460,6 +3744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Runtime",
           "name": "OfferImpls",
           "package": "sessions",
@@ -3468,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Runtime",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Runtime",
           "name": "OfferImpls",
           "package": "sessions",
@@ -3481,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Runtime",
           "name": "CompatibleTypes",
           "package": "sessions",
@@ -3489,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Runtime",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Runtime",
           "name": "CompatibleTypes",
           "package": "sessions",
@@ -3502,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Runtime",
           "name": "carefullySwapToNextCell",
           "package": "sessions",
@@ -3511,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Runtime",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Runtime",
           "name": "carefullySwapToNextCell",
           "normalized": "MVar(ProgramCell a)-\u003eIO(ProgramCell a)",
@@ -3526,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Runtime",
           "name": "convert",
           "package": "sessions",
@@ -3535,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Runtime",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Runtime",
           "name": "convert",
           "normalized": "a-\u003eb-\u003ec",
@@ -3781,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Choice",
           "package": "sessions",
@@ -3789,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Choice",
           "package": "sessions",
@@ -3802,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "DualT",
           "package": "sessions",
@@ -3810,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "DualT",
           "package": "sessions",
@@ -3823,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "End",
           "package": "sessions",
@@ -3831,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "End",
           "package": "sessions",
@@ -3844,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "ExpandT",
           "package": "sessions",
@@ -3852,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "ExpandT",
           "package": "sessions",
@@ -3865,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Jump",
           "package": "sessions",
@@ -3873,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Jump",
           "package": "sessions",
@@ -3886,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Offer",
           "package": "sessions",
@@ -3894,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Offer",
           "package": "sessions",
@@ -3907,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Outgoing",
           "package": "sessions",
@@ -3916,6 +4221,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Outgoing",
           "package": "sessions",
@@ -3929,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Recv",
           "package": "sessions",
@@ -3937,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Recv",
           "package": "sessions",
@@ -3950,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "RecvPid",
           "package": "sessions",
@@ -3958,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "RecvPid",
           "package": "sessions",
@@ -3971,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "RecvSession",
           "package": "sessions",
@@ -3979,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "RecvSession",
           "package": "sessions",
@@ -3992,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Select",
           "package": "sessions",
@@ -4000,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Select",
           "package": "sessions",
@@ -4013,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Send",
           "package": "sessions",
@@ -4021,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Send",
           "package": "sessions",
@@ -4034,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SendPid",
           "package": "sessions",
@@ -4042,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SendPid",
           "package": "sessions",
@@ -4055,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SendSession",
           "package": "sessions",
@@ -4063,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SendSession",
           "package": "sessions",
@@ -4076,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Dual",
           "package": "sessions",
@@ -4084,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Dual",
           "package": "sessions",
@@ -4097,6 +4419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Expand",
           "package": "sessions",
@@ -4105,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "Expand",
           "package": "sessions",
@@ -4118,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "MakeListOfJumps",
           "package": "sessions",
@@ -4126,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "MakeListOfJumps",
           "package": "sessions",
@@ -4139,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SListOfJumps",
           "package": "sessions",
@@ -4147,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SListOfJumps",
           "package": "sessions",
@@ -4160,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SListOfSessionTypes",
           "package": "sessions",
@@ -4168,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SListOfSessionTypes",
           "package": "sessions",
@@ -4181,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SNoJumpsBeyond",
           "package": "sessions",
@@ -4189,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SNoJumpsBeyond",
           "package": "sessions",
@@ -4202,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SNonTerminal",
           "package": "sessions",
@@ -4210,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SNonTerminal",
           "package": "sessions",
@@ -4223,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "STerminal",
           "package": "sessions",
@@ -4231,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "STerminal",
           "package": "sessions",
@@ -4244,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SValidSessionType",
           "package": "sessions",
@@ -4252,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SValidSessionType",
           "package": "sessions",
@@ -4265,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SWellFormedConfig",
           "package": "sessions",
@@ -4273,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "SWellFormedConfig",
           "package": "sessions",
@@ -4286,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "dual",
           "package": "sessions",
@@ -4295,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "dual",
           "normalized": "a-\u003eb",
@@ -4309,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "end",
           "package": "sessions",
@@ -4318,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "end",
           "package": "sessions",
@@ -4330,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "jump",
           "package": "sessions",
@@ -4339,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "jump",
           "normalized": "a-\u003eCons(Jump a)Nil",
@@ -4353,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "makeListOfJumps",
           "package": "sessions",
@@ -4362,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "makeListOfJumps",
           "normalized": "a-\u003eb",
@@ -4377,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "offer",
           "package": "sessions",
@@ -4386,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "offer",
           "normalized": "Cons a b-\u003eCons(Offer(Cons a b))Nil",
@@ -4400,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "recvPid",
           "package": "sessions",
@@ -4409,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "recvPid",
           "normalized": "a-\u003eRecvPid False b",
@@ -4424,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "recvSession",
           "package": "sessions",
@@ -4433,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "recvSession",
           "normalized": "a-\u003eRecvSession False a",
@@ -4448,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "select",
           "package": "sessions",
@@ -4457,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "select",
           "normalized": "Cons a b-\u003eCons(Select(Cons a b))Nil",
@@ -4471,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "sendPid",
           "package": "sessions",
@@ -4480,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "sendPid",
           "normalized": "a-\u003eSendPid False b",
@@ -4495,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "sendSession",
           "package": "sessions",
@@ -4504,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "sendSession",
           "normalized": "a-\u003eSendSession False a",
@@ -4568,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "~|~",
           "package": "sessions",
@@ -4577,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionType",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionType",
           "name": "~|~",
           "normalized": "a-\u003eb-\u003eCons(Cons(Jump a)Nil)b",
@@ -4591,6 +4953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "BranchesList",
           "package": "sessions",
@@ -4599,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionTypeMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "BranchesList",
           "package": "sessions",
@@ -4612,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "SessionType",
           "package": "sessions",
@@ -4620,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionTypeMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "SessionType",
           "package": "sessions",
@@ -4633,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "TypeState",
           "package": "sessions",
@@ -4641,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionTypeMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "TypeState",
           "package": "sessions",
@@ -4678,6 +5046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "BuildBranches",
           "package": "sessions",
@@ -4686,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionTypeMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "BuildBranches",
           "package": "sessions",
@@ -4699,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "TyListSnd",
           "package": "sessions",
@@ -4707,6 +5078,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionTypeMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "TyListSnd",
           "package": "sessions",
@@ -4720,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "buildBranches",
           "package": "sessions",
@@ -4729,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionTypeMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "buildBranches",
           "normalized": "a-\u003eb",
@@ -4769,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "declareLabel",
           "package": "sessions",
@@ -4778,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionTypeMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "declareLabel",
           "normalized": "a-\u003eSessionType(TypeState b c d(Cons(a,Nil)e))(TypeState f g h i)j-\u003eSessionType(TypeState b k d e)(TypeState f g h i)j",
@@ -5130,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "tyListSnd",
           "package": "sessions",
@@ -5139,6 +5516,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session SessionTypeMonad",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.SessionTypeMonad",
           "name": "tyListSnd",
           "normalized": "a-\u003eb",
@@ -5178,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "Cell",
           "package": "sessions",
@@ -5186,6 +5565,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "Cell",
           "package": "sessions",
@@ -5199,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "InterleavedChain",
           "package": "sessions",
@@ -5207,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "InterleavedChain",
           "package": "sessions",
@@ -5220,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "InternalPid",
           "package": "sessions",
@@ -5228,6 +5611,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "InternalPid",
           "package": "sessions",
@@ -5241,6 +5625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "PairStruct",
           "package": "sessions",
@@ -5249,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "PairStruct",
           "package": "sessions",
@@ -5262,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "Pid",
           "package": "sessions",
@@ -5270,6 +5657,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "Pid",
           "package": "sessions",
@@ -5283,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "ProgramCell",
           "package": "sessions",
@@ -5291,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "ProgramCell",
           "package": "sessions",
@@ -5304,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "ProgramToMVarsOutgoingT",
           "package": "sessions",
@@ -5312,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "ProgramToMVarsOutgoingT",
           "package": "sessions",
@@ -5325,6 +5717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "RawPid",
           "package": "sessions",
@@ -5333,6 +5726,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "RawPid",
           "package": "sessions",
@@ -5346,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "SessionChain",
           "package": "sessions",
@@ -5354,6 +5749,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "SessionChain",
           "package": "sessions",
@@ -5367,6 +5763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "SessionState",
           "package": "sessions",
@@ -5375,6 +5772,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "SessionState",
           "package": "sessions",
@@ -5388,6 +5786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "SpecialNormal",
           "package": "sessions",
@@ -5396,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "SpecialNormal",
           "package": "sessions",
@@ -5409,6 +5809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "SpecialPid",
           "package": "sessions",
@@ -5417,6 +5818,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "SpecialPid",
           "package": "sessions",
@@ -5430,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "SpecialSession",
           "package": "sessions",
@@ -5438,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "SpecialSession",
           "package": "sessions",
@@ -5451,6 +5855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "PidEq",
           "package": "sessions",
@@ -5459,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "PidEq",
           "package": "sessions",
@@ -5472,6 +5878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "ProgramToMVarsOutgoing",
           "package": "sessions",
@@ -5480,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "ProgramToMVarsOutgoing",
           "package": "sessions",
@@ -5493,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "pidToRawPid",
           "package": "sessions",
@@ -5502,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "pidToRawPid",
           "normalized": "Pid a b c d e-\u003eRawPid",
@@ -5517,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session.Types",
           "name": "programToMVarsOutgoing",
           "package": "sessions",
@@ -5526,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session Types",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session.Types",
           "name": "programToMVarsOutgoing",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -5541,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "BranchesList",
           "package": "sessions",
@@ -5549,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "BranchesList",
           "package": "sessions",
@@ -5562,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "Cons",
           "package": "sessions",
@@ -5570,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "Cons",
           "package": "sessions",
@@ -5583,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D0",
           "package": "sessions",
@@ -5591,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D0",
           "package": "sessions",
@@ -5603,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D1",
           "package": "sessions",
@@ -5611,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D1",
           "package": "sessions",
@@ -5623,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D2",
           "package": "sessions",
@@ -5631,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D2",
           "package": "sessions",
@@ -5643,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D3",
           "package": "sessions",
@@ -5651,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D3",
           "package": "sessions",
@@ -5663,6 +6087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D4",
           "package": "sessions",
@@ -5671,6 +6096,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D4",
           "package": "sessions",
@@ -5683,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D5",
           "package": "sessions",
@@ -5691,6 +6118,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D5",
           "package": "sessions",
@@ -5703,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D6",
           "package": "sessions",
@@ -5711,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D6",
           "package": "sessions",
@@ -5723,6 +6153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D7",
           "package": "sessions",
@@ -5731,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D7",
           "package": "sessions",
@@ -5743,6 +6175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D8",
           "package": "sessions",
@@ -5751,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D8",
           "package": "sessions",
@@ -5763,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "D9",
           "package": "sessions",
@@ -5771,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "D9",
           "package": "sessions",
@@ -5783,6 +6219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "E",
           "package": "sessions",
@@ -5791,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "E",
           "package": "sessions",
@@ -5803,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "End",
           "package": "sessions",
@@ -5811,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "End",
           "package": "sessions",
@@ -5824,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "False",
           "package": "sessions",
@@ -5832,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "False",
           "package": "sessions",
@@ -5845,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "InterleavedChain",
           "package": "sessions",
@@ -5853,6 +6296,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "InterleavedChain",
           "package": "sessions",
@@ -5866,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "Jump",
           "package": "sessions",
@@ -5874,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "Jump",
           "package": "sessions",
@@ -5887,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "MultiReceiveList",
           "package": "sessions",
@@ -5895,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "MultiReceiveList",
           "package": "sessions",
@@ -5908,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "Nil",
           "package": "sessions",
@@ -5916,6 +6365,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "Nil",
           "package": "sessions",
@@ -5929,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "Offer",
           "package": "sessions",
@@ -5937,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "Offer",
           "package": "sessions",
@@ -5950,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "OfferImpls",
           "package": "sessions",
@@ -5958,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "OfferImpls",
           "package": "sessions",
@@ -5971,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "Pid",
           "package": "sessions",
@@ -5979,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "Pid",
           "package": "sessions",
@@ -5992,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "Recv",
           "package": "sessions",
@@ -6000,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "Recv",
           "package": "sessions",
@@ -6013,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "Select",
           "package": "sessions",
@@ -6021,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "Select",
           "package": "sessions",
@@ -6034,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "Send",
           "package": "sessions",
@@ -6042,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "Send",
           "package": "sessions",
@@ -6055,6 +6517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "SessionChain",
           "package": "sessions",
@@ -6063,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "SessionChain",
           "package": "sessions",
@@ -6076,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "True",
           "package": "sessions",
@@ -6084,6 +6549,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "True",
           "package": "sessions",
@@ -6097,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "CombinedMultiRecv",
           "package": "sessions",
@@ -6105,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "CombinedMultiRecv",
           "package": "sessions",
@@ -6118,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "CreateSession",
           "package": "sessions",
@@ -6126,6 +6595,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "CreateSession",
           "package": "sessions",
@@ -6139,6 +6609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "MultiReceive",
           "package": "sessions",
@@ -6147,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "MultiReceive",
           "package": "sessions",
@@ -6160,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "PidEq",
           "package": "sessions",
@@ -6168,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "PidEq",
           "package": "sessions",
@@ -6181,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "PlainMultiReceive",
           "package": "sessions",
@@ -6189,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "PlainMultiReceive",
           "package": "sessions",
@@ -6202,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:08 UTC 2014",
           "module": "Control.Concurrent.Session",
           "name": "SWellFormedConfig",
           "package": "sessions",
@@ -6210,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Session",
+          "indexed": "2014-03-11T20:00:08",
           "module": "Control.Concurrent.Session",
           "name": "SWellFormedConfig",
           "package": "sessions",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "addLicenseInfo"
+        "phrase": "addLicenseInfo",
+        "type": "phrase"
       },
       "type": "context"
     }

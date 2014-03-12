@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "synthesizer-llvm"
+        "phrase": "synthesizer-llvm",
+        "type": "phrase"
       },
       "type": "context"
     }

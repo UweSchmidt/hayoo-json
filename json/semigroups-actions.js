@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "semigroups-actions"
+        "phrase": "semigroups-actions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act.Enum",
           "name": "Enum",
           "package": "semigroups-actions",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act Enum",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act.Enum",
           "name": "Enum",
           "package": "semigroups-actions",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for an integer acting on an instance of both \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e.\n The index wrap around the bounds, so\n \u003ccode\u003eSum 1 \u003ccode\u003e\u003ca\u003eact\u003c/a\u003e\u003c/code\u003e (EnumBoundedIntAct maxBound) == (EnumBoundedIntAct minBound)\u003c/code\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act.Enum",
           "name": "EnumBoundedIntAct",
           "package": "semigroups-actions",
@@ -49,6 +52,7 @@
         "index": {
           "description": "wrapper for an integer acting on an instance of both Enum and Bounded The index wrap around the bounds so Sum act EnumBoundedIntAct maxBound EnumBoundedIntAct minBound etc",
           "hierarchy": "Data Semigroup Act Enum",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act.Enum",
           "name": "EnumBoundedIntAct",
           "package": "semigroups-actions",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for an integer acting on an \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e. If the resulting index is\n out of the enum bounds, an exception is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act.Enum",
           "name": "EnumIntAct",
           "package": "semigroups-actions",
@@ -72,6 +77,7 @@
         "index": {
           "description": "wrapper for an integer acting on an Enum If the resulting index is out of the enum bounds an exception is raised",
           "hierarchy": "Data Semigroup Act Enum",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act.Enum",
           "name": "EnumIntAct",
           "package": "semigroups-actions",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act.Enum",
           "name": "EnumBoundedIntAct",
           "package": "semigroups-actions",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act Enum",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act.Enum",
           "name": "EnumBoundedIntAct",
           "package": "semigroups-actions",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act.Enum",
           "name": "EnumIntAct",
           "package": "semigroups-actions",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act Enum",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act.Enum",
           "name": "EnumIntAct",
           "package": "semigroups-actions",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "Act",
           "package": "semigroups-actions",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "Act",
           "package": "semigroups-actions",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an action of monoid \u003ccode\u003eg\u003c/code\u003e to set \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLaws: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eact\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e must be a homomorphism of monoids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "MonoidAct",
           "package": "semigroups-actions",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Represents an action of monoid to set Laws Endo act must be homomorphism of monoids",
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "MonoidAct",
           "package": "semigroups-actions",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for constructing a monoid action from \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "OptionSet",
           "package": "semigroups-actions",
@@ -183,6 +198,7 @@
         "index": {
           "description": "wrapper for constructing monoid action from Option",
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "OptionSet",
           "package": "semigroups-actions",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for represeting the action of natural numbers with\n multiplication on a monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "Repeat",
           "package": "semigroups-actions",
@@ -206,6 +223,7 @@
         "index": {
           "description": "wrapper for represeting the action of natural numbers with multiplication on monoid",
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "Repeat",
           "package": "semigroups-actions",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for a group acting on itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "SelfAct",
           "package": "semigroups-actions",
@@ -229,6 +248,7 @@
         "index": {
           "description": "wrapper for group acting on itself",
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "SelfAct",
           "package": "semigroups-actions",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an action of semigroup \u003ccode\u003eg\u003c/code\u003e to set \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLaws: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eact\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e must be a homomorphism of semigroups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "SemigroupAct",
           "package": "semigroups-actions",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Represents an action of semigroup to set Laws Endo act must be homomorphism of semigroups",
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "SemigroupAct",
           "package": "semigroups-actions",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "OptionSet",
           "package": "semigroups-actions",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "OptionSet",
           "package": "semigroups-actions",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "Repeat",
           "package": "semigroups-actions",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "Repeat",
           "package": "semigroups-actions",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "SelfAct",
           "package": "semigroups-actions",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "SelfAct",
           "package": "semigroups-actions",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "act",
           "package": "semigroups-actions",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "act",
           "normalized": "a-\u003eb-\u003eb",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "getOptionSet",
           "package": "semigroups-actions",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "getOptionSet",
           "package": "semigroups-actions",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:37 UTC 2014",
           "module": "Data.Semigroup.Act",
           "name": "unwrapRepeat",
           "package": "semigroups-actions",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Act",
+          "indexed": "2014-03-11T19:59:37",
           "module": "Data.Semigroup.Act",
           "name": "unwrapRepeat",
           "package": "semigroups-actions",

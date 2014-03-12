@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tokyocabinet-haskell"
+        "phrase": "tokyocabinet-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "ADB'",
           "package": "tokyocabinet-haskell",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "ADB'",
           "package": "tokyocabinet-haskell",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbadddouble",
           "package": "tokyocabinet-haskell",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbadddouble",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003eCDouble-\u003eIO CDouble",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbaddint",
           "package": "tokyocabinet-haskell",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbaddint",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbclose",
           "package": "tokyocabinet-haskell",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbclose",
           "normalized": "Ptr ADB'-\u003eIO Bool",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbcopy",
           "package": "tokyocabinet-haskell",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbcopy",
           "normalized": "Ptr ADB'-\u003eCString-\u003eIO Bool",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbdel",
           "package": "tokyocabinet-haskell",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbdel",
           "normalized": "Ptr ADB'-\u003eIO()",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbfwmkeys",
           "package": "tokyocabinet-haskell",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbfwmkeys",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbfwmkeys2",
           "package": "tokyocabinet-haskell",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbfwmkeys2",
           "normalized": "Ptr ADB'-\u003eCString-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbget",
           "package": "tokyocabinet-haskell",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbget",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbget2",
           "package": "tokyocabinet-haskell",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbget2",
           "normalized": "Ptr ADB'-\u003eCString-\u003eIO CString",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbiterinit",
           "package": "tokyocabinet-haskell",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbiterinit",
           "normalized": "Ptr ADB'-\u003eIO Bool",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbiternext",
           "package": "tokyocabinet-haskell",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbiternext",
           "normalized": "Ptr ADB'-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbiternext2",
           "package": "tokyocabinet-haskell",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbiternext2",
           "normalized": "Ptr ADB'-\u003eIO CString",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbmisc",
           "package": "tokyocabinet-haskell",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbmisc",
           "normalized": "Ptr ADB'-\u003eCString-\u003ePtr LIST-\u003eIO(Ptr LIST)",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbnew",
           "package": "tokyocabinet-haskell",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbnew",
           "package": "tokyocabinet-haskell",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbopen",
           "package": "tokyocabinet-haskell",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbopen",
           "normalized": "Ptr ADB'-\u003eCString-\u003eIO Bool",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadboptimize",
           "package": "tokyocabinet-haskell",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadboptimize",
           "normalized": "Ptr ADB'-\u003eCString-\u003eIO Bool",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbout",
           "package": "tokyocabinet-haskell",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbout",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbout2",
           "package": "tokyocabinet-haskell",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbout2",
           "normalized": "Ptr ADB'-\u003eCString-\u003eIO Bool",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbpath",
           "package": "tokyocabinet-haskell",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbpath",
           "normalized": "Ptr ADB'-\u003eIO CString",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbput",
           "package": "tokyocabinet-haskell",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbput",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbput2",
           "package": "tokyocabinet-haskell",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbput2",
           "normalized": "Ptr ADB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbputcat",
           "package": "tokyocabinet-haskell",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbputcat",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbputcat2",
           "package": "tokyocabinet-haskell",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbputcat2",
           "normalized": "Ptr ADB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbputkeep",
           "package": "tokyocabinet-haskell",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbputkeep",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbputkeep2",
           "package": "tokyocabinet-haskell",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbputkeep2",
           "normalized": "Ptr ADB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbrnum",
           "package": "tokyocabinet-haskell",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbrnum",
           "normalized": "Ptr ADB'-\u003eIO Word",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbsize",
           "package": "tokyocabinet-haskell",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbsize",
           "normalized": "Ptr ADB'-\u003eIO Word",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbsync",
           "package": "tokyocabinet-haskell",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbsync",
           "normalized": "Ptr ADB'-\u003eIO Bool",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbtranabort",
           "package": "tokyocabinet-haskell",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbtranabort",
           "normalized": "Ptr ADB'-\u003eIO Bool",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbtranbegin",
           "package": "tokyocabinet-haskell",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbtranbegin",
           "normalized": "Ptr ADB'-\u003eIO Bool",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbtrancommit",
           "package": "tokyocabinet-haskell",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbtrancommit",
           "normalized": "Ptr ADB'-\u003eIO Bool",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbvanish",
           "package": "tokyocabinet-haskell",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbvanish",
           "normalized": "Ptr ADB'-\u003eIO Bool",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbvsiz",
           "package": "tokyocabinet-haskell",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbvsiz",
           "normalized": "Ptr ADB'-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbvsiz2",
           "package": "tokyocabinet-haskell",
@@ -825,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "c_tcadbvsiz2",
           "normalized": "Ptr ADB'-\u003eCString-\u003eIO CInt",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "tcadbFinalizer",
           "package": "tokyocabinet-haskell",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB.C",
           "name": "tcadbFinalizer",
           "normalized": "FunPtr(Ptr ADB'-\u003eIO())",
@@ -864,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to TC's Abstract DataBase. See also,\n \u003ca\u003ehttp://tokyocabinet.sourceforge.net/spex-en.html#tcadbapi\u003c/a\u003e for details\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "ADB",
           "package": "tokyocabinet-haskell",
@@ -873,6 +948,7 @@
         "index": {
           "description": "Interface to TC Abstract DataBase See also http tokyocabinet.sourceforge.net spex-en.html tcadbapi for details",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "ADB",
           "package": "tokyocabinet-haskell",
@@ -886,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "ADB",
           "package": "tokyocabinet-haskell",
@@ -894,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "ADB",
           "package": "tokyocabinet-haskell",
@@ -908,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -917,6 +996,7 @@
         "index": {
           "description": "Represents error",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -1531,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a real number to a record in an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "adddouble",
           "package": "tokyocabinet-haskell",
@@ -1541,6 +1622,7 @@
         "index": {
           "description": "Add real number to record in an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "adddouble",
           "normalized": "ADB-\u003ea-\u003eDouble-\u003eIO(Maybe Double)",
@@ -1556,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an integer to a record in an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "addint",
           "package": "tokyocabinet-haskell",
@@ -1566,6 +1649,7 @@
         "index": {
           "description": "Add an integer to record in an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "addint",
           "normalized": "ADB-\u003ea-\u003eInt-\u003eIO(Maybe Int)",
@@ -1581,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "close",
           "package": "tokyocabinet-haskell",
@@ -1591,6 +1676,7 @@
         "index": {
           "description": "Close an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "close",
           "normalized": "ADB-\u003eIO Bool",
@@ -1606,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the database file of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "copy",
           "package": "tokyocabinet-haskell",
@@ -1616,6 +1703,7 @@
         "index": {
           "description": "Copy the database file of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "copy",
           "normalized": "ADB-\u003eString-\u003eIO Bool",
@@ -1631,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree ADB resource forcibly. \n ADB is kept by ForeignPtr, so Haskell runtime GC cleans up memory for\n almost situation. Most always, you don't need to call this. \n After call this, you must not touch ADB object. Its behavior is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -1641,6 +1730,7 @@
         "index": {
           "description": "Free ADB resource forcibly ADB is kept by ForeignPtr so Haskell runtime GC cleans up memory for almost situation Most always you don need to call this After call this you must not touch ADB object Its behavior is undefined",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "delete",
           "normalized": "ADB-\u003eIO()",
@@ -1656,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet forward matching keys in an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "fwmkeys",
           "package": "tokyocabinet-haskell",
@@ -1666,6 +1757,7 @@
         "index": {
           "description": "Get forward matching keys in an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "fwmkeys",
           "normalized": "ADB-\u003ea-\u003eInt-\u003eIO(b a)",
@@ -1681,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a record in an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -1691,6 +1784,7 @@
         "index": {
           "description": "Retrieve record in an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "get",
           "normalized": "ADB-\u003ea-\u003eIO(Maybe b)",
@@ -1706,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the iterator of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "iterinit",
           "package": "tokyocabinet-haskell",
@@ -1716,6 +1811,7 @@
         "index": {
           "description": "Initialize the iterator of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "iterinit",
           "normalized": "ADB-\u003eIO Bool",
@@ -1731,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next key of the iterator of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "iternext",
           "package": "tokyocabinet-haskell",
@@ -1741,6 +1838,7 @@
         "index": {
           "description": "Get the next key of the iterator of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "iternext",
           "normalized": "ADB-\u003eIO(Maybe a)",
@@ -1756,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a versatile function for miscellaneous operations of an\n abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "misc",
           "package": "tokyocabinet-haskell",
@@ -1766,6 +1865,7 @@
         "index": {
           "description": "Call versatile function for miscellaneous operations of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "misc",
           "normalized": "ADB-\u003eString-\u003ea b-\u003eIO(a c)",
@@ -1781,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Abstract database object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -1791,6 +1892,7 @@
         "index": {
           "description": "Create Abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -1804,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen an abstract dataabse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "open",
           "package": "tokyocabinet-haskell",
@@ -1814,6 +1917,7 @@
         "index": {
           "description": "Open an abstract dataabse",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "open",
           "normalized": "ADB-\u003eString-\u003eIO Bool",
@@ -1829,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize the storage of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "optimize",
           "package": "tokyocabinet-haskell",
@@ -1839,6 +1944,7 @@
         "index": {
           "description": "Optimize the storage of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "optimize",
           "normalized": "ADB-\u003eString-\u003eIO Bool",
@@ -1854,6 +1960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a record of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -1864,6 +1971,7 @@
         "index": {
           "description": "Remove record of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "out",
           "normalized": "ADB-\u003ea-\u003eIO Bool",
@@ -1879,6 +1987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the file path of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "path",
           "package": "tokyocabinet-haskell",
@@ -1889,6 +1998,7 @@
         "index": {
           "description": "Get the file path of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "path",
           "normalized": "ADB-\u003eIO(Maybe String)",
@@ -1904,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStora a record into an abstract database object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -1914,6 +2025,7 @@
         "index": {
           "description": "Stora record into an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "put",
           "normalized": "ADB-\u003ea-\u003eb-\u003eIO Bool",
@@ -1929,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a value at the end of the existing record in an\n abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "putcat",
           "package": "tokyocabinet-haskell",
@@ -1939,6 +2052,7 @@
         "index": {
           "description": "Concatenate value at the end of the existing record in an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "putcat",
           "normalized": "ADB-\u003ea-\u003eb-\u003eIO Bool",
@@ -1954,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a new record into an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "putkeep",
           "package": "tokyocabinet-haskell",
@@ -1964,6 +2079,7 @@
         "index": {
           "description": "Store new record into an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "putkeep",
           "normalized": "ADB-\u003ea-\u003eb-\u003eIO Bool",
@@ -1979,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of records of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "rnum",
           "package": "tokyocabinet-haskell",
@@ -1989,6 +2106,7 @@
         "index": {
           "description": "Get the number of records of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "rnum",
           "normalized": "ADB-\u003eIO Word",
@@ -2004,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the database of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "size",
           "package": "tokyocabinet-haskell",
@@ -2014,6 +2133,7 @@
         "index": {
           "description": "Get the size of the database of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "size",
           "normalized": "ADB-\u003eIO Word",
@@ -2029,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize updated contents of an abstract database object with\n the file and the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "sync",
           "package": "tokyocabinet-haskell",
@@ -2039,6 +2160,7 @@
         "index": {
           "description": "Synchronize updated contents of an abstract database object with the file and the device",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "sync",
           "normalized": "ADB-\u003eIO Bool",
@@ -2054,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort the transaction of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "tranabort",
           "package": "tokyocabinet-haskell",
@@ -2064,6 +2187,7 @@
         "index": {
           "description": "Abort the transaction of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "tranabort",
           "normalized": "ADB-\u003eIO Bool",
@@ -2079,6 +2203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin the transaction of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "tranbegin",
           "package": "tokyocabinet-haskell",
@@ -2089,6 +2214,7 @@
         "index": {
           "description": "Begin the transaction of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "tranbegin",
           "normalized": "ADB-\u003eIO Bool",
@@ -2104,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit the transaction of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "trancommit",
           "package": "tokyocabinet-haskell",
@@ -2114,6 +2241,7 @@
         "index": {
           "description": "Commit the transaction of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "trancommit",
           "normalized": "ADB-\u003eIO Bool",
@@ -2129,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all records of an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "vanish",
           "package": "tokyocabinet-haskell",
@@ -2139,6 +2268,7 @@
         "index": {
           "description": "Remove all records of an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "vanish",
           "normalized": "ADB-\u003eIO Bool",
@@ -2154,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the value of a record in an abstract database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.ADB",
           "name": "vsiz",
           "package": "tokyocabinet-haskell",
@@ -2164,6 +2295,7 @@
         "index": {
           "description": "Get the size of the value of record in an abstract database object",
           "hierarchy": "Database TokyoCabinet ADB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.ADB",
           "name": "vsiz",
           "normalized": "ADB-\u003ea-\u003eIO(Maybe Int)",
@@ -2178,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Associative",
           "name": "Associative",
           "package": "tokyocabinet-haskell",
@@ -2186,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Associative",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Associative",
           "name": "Associative",
           "package": "tokyocabinet-haskell",
@@ -2199,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Associative",
           "name": "AssocList",
           "package": "tokyocabinet-haskell",
@@ -2207,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Associative",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Associative",
           "name": "AssocList",
           "package": "tokyocabinet-haskell",
@@ -2220,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Associative",
           "name": "Associative",
           "package": "tokyocabinet-haskell",
@@ -2228,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Associative",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Associative",
           "name": "Associative",
           "package": "tokyocabinet-haskell",
@@ -2264,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Associative",
           "name": "peekMap'",
           "package": "tokyocabinet-haskell",
@@ -2273,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Associative",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Associative",
           "name": "peekMap'",
           "normalized": "Ptr MAP-\u003eIO(a b c)",
@@ -2313,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Associative",
           "name": "withMap",
           "package": "tokyocabinet-haskell",
@@ -2322,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Associative",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Associative",
           "name": "withMap",
           "normalized": "a b c-\u003e(Ptr MAP-\u003eIO d)-\u003eIO d",
@@ -2337,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -2345,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -2357,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -2365,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -2378,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "BDB'",
           "package": "tokyocabinet-haskell",
@@ -2386,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "BDB'",
           "package": "tokyocabinet-haskell",
@@ -2399,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -2407,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -2420,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "TCCMP'",
           "package": "tokyocabinet-haskell",
@@ -2428,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "TCCMP'",
           "package": "tokyocabinet-haskell",
@@ -2441,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -2449,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -2462,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -2471,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -2760,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbadddouble",
           "package": "tokyocabinet-haskell",
@@ -2769,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbadddouble",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eCDouble-\u003eIO CDouble",
@@ -2783,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbaddint",
           "package": "tokyocabinet-haskell",
@@ -2792,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbaddint",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -2806,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbclose",
           "package": "tokyocabinet-haskell",
@@ -2815,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbclose",
           "normalized": "Ptr BDB'-\u003eIO Bool",
@@ -2829,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbcopy",
           "package": "tokyocabinet-haskell",
@@ -2838,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbcopy",
           "normalized": "Ptr BDB'-\u003eCString-\u003eIO Bool",
@@ -2852,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbdel",
           "package": "tokyocabinet-haskell",
@@ -2861,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbdel",
           "normalized": "Ptr BDB'-\u003eIO()",
@@ -2875,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbecode",
           "package": "tokyocabinet-haskell",
@@ -2884,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbecode",
           "normalized": "Ptr BDB'-\u003eIO CInt",
@@ -2898,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbfsiz",
           "package": "tokyocabinet-haskell",
@@ -2907,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbfsiz",
           "normalized": "Ptr BDB'-\u003eIO Word",
@@ -2921,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbfwmkeys",
           "package": "tokyocabinet-haskell",
@@ -2930,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbfwmkeys",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -2944,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbfwmkeys2",
           "package": "tokyocabinet-haskell",
@@ -2953,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbfwmkeys2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -2967,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbget",
           "package": "tokyocabinet-haskell",
@@ -2976,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbget",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -2990,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbget2",
           "package": "tokyocabinet-haskell",
@@ -2999,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbget2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eIO CString",
@@ -3013,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbget3",
           "package": "tokyocabinet-haskell",
@@ -3022,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbget3",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -3036,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbget4",
           "package": "tokyocabinet-haskell",
@@ -3045,6 +3226,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbget4",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -3059,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbnew",
           "package": "tokyocabinet-haskell",
@@ -3068,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbnew",
           "package": "tokyocabinet-haskell",
@@ -3080,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbopen",
           "package": "tokyocabinet-haskell",
@@ -3089,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbopen",
           "normalized": "Ptr BDB'-\u003eCString-\u003eCInt-\u003eIO Bool",
@@ -3103,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdboptimize",
           "package": "tokyocabinet-haskell",
@@ -3112,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdboptimize",
           "normalized": "Ptr BDB'-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eWord-\u003eIO Bool",
@@ -3126,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbout",
           "package": "tokyocabinet-haskell",
@@ -3135,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbout",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -3149,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbout2",
           "package": "tokyocabinet-haskell",
@@ -3158,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbout2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eIO Bool",
@@ -3172,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbout3",
           "package": "tokyocabinet-haskell",
@@ -3181,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbout3",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -3195,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbpath",
           "package": "tokyocabinet-haskell",
@@ -3204,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbpath",
           "normalized": "Ptr BDB'-\u003eIO CString",
@@ -3218,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbput",
           "package": "tokyocabinet-haskell",
@@ -3227,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbput",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -3241,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbput2",
           "package": "tokyocabinet-haskell",
@@ -3250,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbput2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -3264,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputcat",
           "package": "tokyocabinet-haskell",
@@ -3273,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputcat",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -3287,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputcat2",
           "package": "tokyocabinet-haskell",
@@ -3296,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputcat2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -3310,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputdup",
           "package": "tokyocabinet-haskell",
@@ -3319,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputdup",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -3333,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputdup2",
           "package": "tokyocabinet-haskell",
@@ -3342,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputdup2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -3356,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputdup3",
           "package": "tokyocabinet-haskell",
@@ -3365,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputdup3",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003ePtr LIST-\u003eIO Bool",
@@ -3379,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputkeep",
           "package": "tokyocabinet-haskell",
@@ -3388,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputkeep",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -3402,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputkeep2",
           "package": "tokyocabinet-haskell",
@@ -3411,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbputkeep2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -3425,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbrange",
           "package": "tokyocabinet-haskell",
@@ -3434,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbrange",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eBool-\u003ePtr Word-\u003eCInt-\u003eBool-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -3448,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbrange2",
           "package": "tokyocabinet-haskell",
@@ -3457,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbrange2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eBool-\u003eCString-\u003eBool-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -3471,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbrnum",
           "package": "tokyocabinet-haskell",
@@ -3480,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbrnum",
           "normalized": "Ptr BDB'-\u003eIO Word",
@@ -3494,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsetcache",
           "package": "tokyocabinet-haskell",
@@ -3503,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsetcache",
           "normalized": "Ptr BDB'-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -3517,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsetcmpfunc",
           "package": "tokyocabinet-haskell",
@@ -3526,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsetcmpfunc",
           "normalized": "Ptr BDB'-\u003eFunPtr TCCMP'-\u003eIO Bool",
@@ -3540,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsetmutex",
           "package": "tokyocabinet-haskell",
@@ -3549,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsetmutex",
           "normalized": "Ptr BDB'-\u003eIO Bool",
@@ -3563,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsetxmsiz",
           "package": "tokyocabinet-haskell",
@@ -3572,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsetxmsiz",
           "normalized": "Ptr BDB'-\u003eInt-\u003eIO Bool",
@@ -3586,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsync",
           "package": "tokyocabinet-haskell",
@@ -3595,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbsync",
           "normalized": "Ptr BDB'-\u003eIO Bool",
@@ -3609,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbtranabort",
           "package": "tokyocabinet-haskell",
@@ -3618,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbtranabort",
           "normalized": "Ptr BDB'-\u003eIO Bool",
@@ -3632,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbtranbegin",
           "package": "tokyocabinet-haskell",
@@ -3641,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbtranbegin",
           "normalized": "Ptr BDB'-\u003eIO Bool",
@@ -3655,6 +3889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbtrancommit",
           "package": "tokyocabinet-haskell",
@@ -3664,6 +3899,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbtrancommit",
           "normalized": "Ptr BDB'-\u003eIO Bool",
@@ -3678,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbtune",
           "package": "tokyocabinet-haskell",
@@ -3687,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbtune",
           "normalized": "Ptr BDB'-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eWord-\u003eIO Bool",
@@ -3701,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvanish",
           "package": "tokyocabinet-haskell",
@@ -3710,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvanish",
           "normalized": "Ptr BDB'-\u003eIO Bool",
@@ -3724,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvnum",
           "package": "tokyocabinet-haskell",
@@ -3733,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvnum",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -3747,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvnum2",
           "package": "tokyocabinet-haskell",
@@ -3756,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvnum2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eIO CInt",
@@ -3770,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvsiz",
           "package": "tokyocabinet-haskell",
@@ -3779,6 +4024,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvsiz",
           "normalized": "Ptr BDB'-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -3793,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvsiz2",
           "package": "tokyocabinet-haskell",
@@ -3802,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tcbdbvsiz2",
           "normalized": "Ptr BDB'-\u003eCString-\u003eIO CInt",
@@ -3816,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tccmpdecimal",
           "package": "tokyocabinet-haskell",
@@ -3825,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tccmpdecimal",
           "package": "tokyocabinet-haskell",
@@ -3837,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tccmpint32",
           "package": "tokyocabinet-haskell",
@@ -3846,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tccmpint32",
           "package": "tokyocabinet-haskell",
@@ -3858,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tccmpint64",
           "package": "tokyocabinet-haskell",
@@ -3867,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tccmpint64",
           "package": "tokyocabinet-haskell",
@@ -3879,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tccmplexical",
           "package": "tokyocabinet-haskell",
@@ -3888,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "c_tccmplexical",
           "package": "tokyocabinet-haskell",
@@ -3900,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "combineOpenMode",
           "package": "tokyocabinet-haskell",
@@ -3909,6 +4166,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "combineOpenMode",
           "normalized": "[OpenMode]-\u003eCInt",
@@ -3924,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "combineTuningOption",
           "package": "tokyocabinet-haskell",
@@ -3933,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "combineTuningOption",
           "normalized": "[TuningOption]-\u003eWord",
@@ -3948,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "mkCMP",
           "package": "tokyocabinet-haskell",
@@ -3957,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "mkCMP",
           "normalized": "TCCMP'-\u003eIO(FunPtr TCCMP')",
@@ -3972,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "openModeToCInt",
           "package": "tokyocabinet-haskell",
@@ -3981,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "openModeToCInt",
           "normalized": "OpenMode-\u003eCInt",
@@ -3996,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "tcbdbFinalizer",
           "package": "tokyocabinet-haskell",
@@ -4005,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "tcbdbFinalizer",
           "normalized": "FunPtr(Ptr BDB'-\u003eIO())",
@@ -4020,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "tuningOptionToWord8",
           "package": "tokyocabinet-haskell",
@@ -4029,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "tuningOptionToWord8",
           "normalized": "TuningOption-\u003eWord",
@@ -4044,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "unTCBDB",
           "package": "tokyocabinet-haskell",
@@ -4053,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.C",
           "name": "unTCBDB",
           "package": "tokyocabinet-haskell",
@@ -4066,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -4074,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -4086,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "CUR",
           "package": "tokyocabinet-haskell",
@@ -4094,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "CUR",
           "package": "tokyocabinet-haskell",
@@ -4107,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "CursorPutMode",
           "package": "tokyocabinet-haskell",
@@ -4115,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "CursorPutMode",
           "package": "tokyocabinet-haskell",
@@ -4197,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurdel",
           "package": "tokyocabinet-haskell",
@@ -4206,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurdel",
           "normalized": "Ptr CUR-\u003eIO()",
@@ -4220,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurfirst",
           "package": "tokyocabinet-haskell",
@@ -4229,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurfirst",
           "normalized": "Ptr CUR-\u003eIO Bool",
@@ -4243,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurjump",
           "package": "tokyocabinet-haskell",
@@ -4252,6 +4533,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurjump",
           "normalized": "Ptr CUR-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -4266,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurjump2",
           "package": "tokyocabinet-haskell",
@@ -4275,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurjump2",
           "normalized": "Ptr CUR-\u003eCString-\u003eIO Bool",
@@ -4289,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurkey",
           "package": "tokyocabinet-haskell",
@@ -4298,6 +4583,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurkey",
           "normalized": "Ptr CUR-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -4312,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurkey2",
           "package": "tokyocabinet-haskell",
@@ -4321,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurkey2",
           "normalized": "Ptr CUR-\u003eIO CString",
@@ -4335,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurkey3",
           "package": "tokyocabinet-haskell",
@@ -4344,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurkey3",
           "normalized": "Ptr CUR-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -4358,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurlast",
           "package": "tokyocabinet-haskell",
@@ -4367,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurlast",
           "normalized": "Ptr CUR-\u003eIO Bool",
@@ -4381,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurnew",
           "package": "tokyocabinet-haskell",
@@ -4390,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurnew",
           "normalized": "Ptr BDB'-\u003eIO(Ptr CUR)",
@@ -4404,6 +4698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurnext",
           "package": "tokyocabinet-haskell",
@@ -4413,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurnext",
           "normalized": "Ptr CUR-\u003eIO Bool",
@@ -4427,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurout",
           "package": "tokyocabinet-haskell",
@@ -4436,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurout",
           "normalized": "Ptr CUR-\u003eIO Bool",
@@ -4450,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurprev",
           "package": "tokyocabinet-haskell",
@@ -4459,6 +4758,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurprev",
           "normalized": "Ptr CUR-\u003eIO Bool",
@@ -4473,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurput",
           "package": "tokyocabinet-haskell",
@@ -4482,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurput",
           "normalized": "Ptr CUR-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO Bool",
@@ -4496,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurput2",
           "package": "tokyocabinet-haskell",
@@ -4505,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurput2",
           "normalized": "Ptr CUR-\u003eCString-\u003eCInt-\u003eIO Bool",
@@ -4519,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurval",
           "package": "tokyocabinet-haskell",
@@ -4528,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurval",
           "normalized": "Ptr CUR-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -4542,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurval2",
           "package": "tokyocabinet-haskell",
@@ -4551,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurval2",
           "normalized": "Ptr CUR-\u003eIO CString",
@@ -4565,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurval3",
           "package": "tokyocabinet-haskell",
@@ -4574,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "c_tcbdbcurval3",
           "normalized": "Ptr CUR-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -4588,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "cpToCInt",
           "package": "tokyocabinet-haskell",
@@ -4597,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "cpToCInt",
           "normalized": "CursorPutMode-\u003eCInt",
@@ -4612,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "tcbdbcurFinalizer",
           "package": "tokyocabinet-haskell",
@@ -4621,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor.C",
           "name": "tcbdbcurFinalizer",
           "normalized": "FunPtr(Ptr CUR-\u003eIO())",
@@ -4636,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "Cursor",
           "package": "tokyocabinet-haskell",
@@ -4644,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "Cursor",
           "package": "tokyocabinet-haskell",
@@ -4657,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "BDBCUR",
           "package": "tokyocabinet-haskell",
@@ -4665,6 +4982,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "BDBCUR",
           "package": "tokyocabinet-haskell",
@@ -4678,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "CursorPutMode",
           "package": "tokyocabinet-haskell",
@@ -4686,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "CursorPutMode",
           "package": "tokyocabinet-haskell",
@@ -4699,6 +5019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -4708,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "delete",
           "normalized": "BDBCUR-\u003eIO()",
@@ -4722,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "first",
           "package": "tokyocabinet-haskell",
@@ -4731,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "first",
           "normalized": "BDBCUR-\u003eIO Bool",
@@ -4745,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "jump",
           "package": "tokyocabinet-haskell",
@@ -4754,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "jump",
           "normalized": "BDBCUR-\u003ea-\u003eIO Bool",
@@ -4768,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "key",
           "package": "tokyocabinet-haskell",
@@ -4777,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "key",
           "normalized": "BDBCUR-\u003eIO(Maybe a)",
@@ -4791,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "last",
           "package": "tokyocabinet-haskell",
@@ -4800,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "last",
           "normalized": "BDBCUR-\u003eIO Bool",
@@ -4814,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -4823,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "new",
           "normalized": "BDB-\u003eIO BDBCUR",
@@ -4837,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "next",
           "package": "tokyocabinet-haskell",
@@ -4846,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "next",
           "normalized": "BDBCUR-\u003eIO Bool",
@@ -4860,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -4869,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "out",
           "normalized": "BDBCUR-\u003eIO Bool",
@@ -4883,6 +5219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "prev",
           "package": "tokyocabinet-haskell",
@@ -4892,6 +5229,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "prev",
           "normalized": "BDBCUR-\u003eIO Bool",
@@ -4906,6 +5244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -4915,6 +5254,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "put",
           "normalized": "BDBCUR-\u003ea-\u003eCursorPutMode-\u003eIO Bool",
@@ -4929,6 +5269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "val",
           "package": "tokyocabinet-haskell",
@@ -4938,6 +5279,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB Cursor",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB.Cursor",
           "name": "val",
           "normalized": "BDBCUR-\u003eIO(Maybe a)",
@@ -4953,6 +5295,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to B+ tree based DBM. See also,\n \u003ca\u003ehttp://tokyocabinet.sourceforge.net/spex-en.html#tcbdbapi\u003c/a\u003e for details\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -4962,6 +5305,7 @@
         "index": {
           "description": "Interface to tree based DBM See also http tokyocabinet.sourceforge.net spex-en.html tcbdbapi for details",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -4975,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -4983,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -4996,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMP",
           "package": "tokyocabinet-haskell",
@@ -5004,6 +5351,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMP",
           "package": "tokyocabinet-haskell",
@@ -5018,6 +5366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -5027,6 +5376,7 @@
         "index": {
           "description": "Represents error",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -5040,6 +5390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -5048,6 +5399,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -5061,6 +5413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -5069,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -5082,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMP",
           "package": "tokyocabinet-haskell",
@@ -5091,6 +5446,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMP",
           "normalized": "CMP(ByteString-\u003eByteString-\u003eOrdering)",
@@ -5106,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMPDECIMAL",
           "package": "tokyocabinet-haskell",
@@ -5115,6 +5472,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMPDECIMAL",
           "package": "tokyocabinet-haskell",
@@ -5128,6 +5486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMPINT32",
           "package": "tokyocabinet-haskell",
@@ -5137,6 +5496,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMPINT32",
           "package": "tokyocabinet-haskell",
@@ -5150,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMPINT64",
           "package": "tokyocabinet-haskell",
@@ -5159,6 +5520,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMPINT64",
           "package": "tokyocabinet-haskell",
@@ -5172,6 +5534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMPLEXICAL",
           "package": "tokyocabinet-haskell",
@@ -5181,6 +5544,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "CMPLEXICAL",
           "package": "tokyocabinet-haskell",
@@ -5195,6 +5559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the corresponding value. (The value specified by a key\n is treated as double.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "adddouble",
           "package": "tokyocabinet-haskell",
@@ -5204,6 +5569,7 @@
         "index": {
           "description": "Increment the corresponding value The value specified by key is treated as double",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "adddouble",
           "normalized": "BDB-\u003ea-\u003eDouble-\u003eIO(Maybe Double)",
@@ -5219,6 +5585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the corresponding value. (The value specified by a key\n is treated as integer.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "addint",
           "package": "tokyocabinet-haskell",
@@ -5228,6 +5595,7 @@
         "index": {
           "description": "Increment the corresponding value The value specified by key is treated as integer",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "addint",
           "normalized": "BDB-\u003ea-\u003eInt-\u003eIO(Maybe Int)",
@@ -5243,6 +5611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "close",
           "package": "tokyocabinet-haskell",
@@ -5253,6 +5622,7 @@
         "index": {
           "description": "Close the database file",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "close",
           "normalized": "BDB-\u003eIO Bool",
@@ -5268,6 +5638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "copy",
           "package": "tokyocabinet-haskell",
@@ -5278,6 +5649,7 @@
         "index": {
           "description": "Copy the database file",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "copy",
           "normalized": "BDB-\u003eString-\u003eIO Bool",
@@ -5293,6 +5665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree BDB resource forcibly. \n BDB is kept by ForeignPtr, so Haskell runtime GC cleans up memory for\n almost situation. Most always, you don't need to call this. \n After call this, you must not touch BDB object. Its behavior is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -5303,6 +5676,7 @@
         "index": {
           "description": "Free BDB resource forcibly BDB is kept by ForeignPtr so Haskell runtime GC cleans up memory for almost situation Most always you don need to call this After call this you must not touch BDB object Its behavior is undefined",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "delete",
           "normalized": "BDB-\u003eIO()",
@@ -5318,6 +5692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the last happened error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "ecode",
           "package": "tokyocabinet-haskell",
@@ -5328,6 +5703,7 @@
         "index": {
           "description": "Return the last happened error code",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "ecode",
           "normalized": "BDB-\u003eIO ECODE",
@@ -5369,6 +5745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size of the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "fsiz",
           "package": "tokyocabinet-haskell",
@@ -5379,6 +5756,7 @@
         "index": {
           "description": "Return the size of the database file",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "fsiz",
           "normalized": "BDB-\u003eIO Word",
@@ -5394,6 +5772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn list of forward matched keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "fwmkeys",
           "package": "tokyocabinet-haskell",
@@ -5403,6 +5782,7 @@
         "index": {
           "description": "Return list of forward matched keys",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "fwmkeys",
           "normalized": "BDB-\u003ea-\u003eInt-\u003eIO(b a)",
@@ -5418,6 +5798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value of record. If the key of duplicated records is\n specified, the first one is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -5428,6 +5809,7 @@
         "index": {
           "description": "Return the value of record If the key of duplicated records is specified the first one is returned",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "get",
           "normalized": "BDB-\u003ea-\u003eIO(Maybe b)",
@@ -5443,6 +5825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve records. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "getlist",
           "package": "tokyocabinet-haskell",
@@ -5453,6 +5836,7 @@
         "index": {
           "description": "Retrieve records",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "getlist",
           "normalized": "BDB-\u003ea-\u003eIO(b c)",
@@ -5468,6 +5852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a B+ tree database object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -5478,6 +5863,7 @@
         "index": {
           "description": "Create tree database object",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -5491,6 +5877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen BDB database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "open",
           "package": "tokyocabinet-haskell",
@@ -5501,6 +5888,7 @@
         "index": {
           "description": "Open BDB database file",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "open",
           "normalized": "BDB-\u003eString-\u003e[OpenMode]-\u003eIO Bool",
@@ -5516,6 +5904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize the file of a B+ tree database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "optimize",
           "package": "tokyocabinet-haskell",
@@ -5525,6 +5914,7 @@
         "index": {
           "description": "Optimize the file of tree database object",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "optimize",
           "normalized": "BDB-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003e[TuningOption]-\u003eIO Bool",
@@ -5540,6 +5930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a record. If the key of duplicated records is specified,\n the first one is deleted. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -5550,6 +5941,7 @@
         "index": {
           "description": "Delete record If the key of duplicated records is specified the first one is deleted",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "out",
           "normalized": "BDB-\u003ea-\u003eIO Bool",
@@ -5565,6 +5957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete records. If the key of duplicated records is specified,\n all of them are deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "outlist",
           "package": "tokyocabinet-haskell",
@@ -5575,6 +5968,7 @@
         "index": {
           "description": "Delete records If the key of duplicated records is specified all of them are deleted",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "outlist",
           "normalized": "BDB-\u003ea-\u003eIO Bool",
@@ -5590,6 +5984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the file path of currentry opened database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "path",
           "package": "tokyocabinet-haskell",
@@ -5600,6 +5995,7 @@
         "index": {
           "description": "Return the file path of currentry opened database",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "path",
           "normalized": "BDB-\u003eIO(Maybe String)",
@@ -5615,6 +6011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStora a record (key-value pair) on BDB.  Key and value type must\n be instance of Storable class.  Usually, we can use \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e for key, \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e for\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -5625,6 +6022,7 @@
         "index": {
           "description": "Stora record key-value pair on BDB Key and value type must be instance of Storable class Usually we can use String ByteString for key String ByteString Int Double for value",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "put",
           "normalized": "BDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -5640,6 +6038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a value at the end of the existing record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "putcat",
           "package": "tokyocabinet-haskell",
@@ -5650,6 +6049,7 @@
         "index": {
           "description": "Concatenate value at the end of the existing record",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "putcat",
           "normalized": "BDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -5665,6 +6065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a record with allowing duplication of keys. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "putdup",
           "package": "tokyocabinet-haskell",
@@ -5675,6 +6076,7 @@
         "index": {
           "description": "Store record with allowing duplication of keys",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "putdup",
           "normalized": "BDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -5690,6 +6092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a new record. If a record with the same key exists in the\n database, this function has no effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "putkeep",
           "package": "tokyocabinet-haskell",
@@ -5700,6 +6103,7 @@
         "index": {
           "description": "Store new record If record with the same key exists in the database this function has no effect",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "putkeep",
           "normalized": "BDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -5715,6 +6119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore records with allowing duplication of keys. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "putlist",
           "package": "tokyocabinet-haskell",
@@ -5725,6 +6130,7 @@
         "index": {
           "description": "Store records with allowing duplication of keys",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "putlist",
           "normalized": "BDB-\u003ea-\u003eb c-\u003eIO Bool",
@@ -5740,6 +6146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn list of keys in the specified range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "range",
           "package": "tokyocabinet-haskell",
@@ -5749,6 +6156,7 @@
         "index": {
           "description": "Return list of keys in the specified range",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "range",
           "normalized": "BDB-\u003eMaybe a-\u003eBool-\u003eMaybe a-\u003eBool-\u003eInt-\u003eIO(b a)",
@@ -5764,6 +6172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of records in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "rnum",
           "package": "tokyocabinet-haskell",
@@ -5774,6 +6183,7 @@
         "index": {
           "description": "Return the number of records in the database",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "rnum",
           "normalized": "BDB-\u003eIO Word",
@@ -5789,6 +6199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the caching parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "setcache",
           "package": "tokyocabinet-haskell",
@@ -5798,6 +6209,7 @@
         "index": {
           "description": "Set the caching parameters",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "setcache",
           "normalized": "BDB-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -5813,6 +6225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the custom comparison function of a B+ tree database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "setcmpfunc",
           "package": "tokyocabinet-haskell",
@@ -5823,6 +6236,7 @@
         "index": {
           "description": "Set the custom comparison function of tree database object",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "setcmpfunc",
           "normalized": "BDB-\u003eCMP-\u003eIO Bool",
@@ -5838,6 +6252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the size of extra mapped memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "setxmsiz",
           "package": "tokyocabinet-haskell",
@@ -5848,6 +6263,7 @@
         "index": {
           "description": "Set the size of extra mapped memory",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "setxmsiz",
           "normalized": "BDB-\u003eInt-\u003eIO Bool",
@@ -5863,6 +6279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize updated contents of a database object with the file\n and the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "sync",
           "package": "tokyocabinet-haskell",
@@ -5873,6 +6290,7 @@
         "index": {
           "description": "Synchronize updated contents of database object with the file and the device",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "sync",
           "normalized": "BDB-\u003eIO Bool",
@@ -5888,6 +6306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "tranabort",
           "package": "tokyocabinet-haskell",
@@ -5898,6 +6317,7 @@
         "index": {
           "description": "Abort the transaction",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "tranabort",
           "normalized": "BDB-\u003eIO Bool",
@@ -5913,6 +6333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "tranbegin",
           "package": "tokyocabinet-haskell",
@@ -5923,6 +6344,7 @@
         "index": {
           "description": "Begin the transaction",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "tranbegin",
           "normalized": "BDB-\u003eIO Bool",
@@ -5938,6 +6360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "trancommit",
           "package": "tokyocabinet-haskell",
@@ -5948,6 +6371,7 @@
         "index": {
           "description": "Commit the transaction",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "trancommit",
           "normalized": "BDB-\u003eIO Bool",
@@ -5963,6 +6387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the tuning parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "tune",
           "package": "tokyocabinet-haskell",
@@ -5972,6 +6397,7 @@
         "index": {
           "description": "Set the tuning parameters",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "tune",
           "normalized": "BDB-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003e[TuningOption]-\u003eIO Bool",
@@ -5987,6 +6413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "vanish",
           "package": "tokyocabinet-haskell",
@@ -5997,6 +6424,7 @@
         "index": {
           "description": "Delete all records",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "vanish",
           "normalized": "BDB-\u003eIO Bool",
@@ -6012,6 +6440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of records corresponding to a key. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "vnum",
           "package": "tokyocabinet-haskell",
@@ -6022,6 +6451,7 @@
         "index": {
           "description": "Return the number of records corresponding to key",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "vnum",
           "normalized": "BDB-\u003ea-\u003eIO(Maybe Int)",
@@ -6037,6 +6467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size of the value of a record. If the key of duplicated\n records is specified, the first one is selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.BDB",
           "name": "vsiz",
           "package": "tokyocabinet-haskell",
@@ -6047,6 +6478,7 @@
         "index": {
           "description": "Return the size of the value of record If the key of duplicated records is specified the first one is selected",
           "hierarchy": "Database TokyoCabinet BDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.BDB",
           "name": "vsiz",
           "normalized": "BDB-\u003ea-\u003eIO(Maybe Int)",
@@ -6061,6 +6493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Error",
           "name": "Error",
           "package": "tokyocabinet-haskell",
@@ -6069,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Error",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Error",
           "name": "Error",
           "package": "tokyocabinet-haskell",
@@ -6083,6 +6517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Error",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -6092,6 +6527,7 @@
         "index": {
           "description": "Represents error",
           "hierarchy": "Database TokyoCabinet Error",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Error",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -6105,6 +6541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Error",
           "name": "cINT_MIN",
           "package": "tokyocabinet-haskell",
@@ -6114,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Error",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Error",
           "name": "cINT_MIN",
           "package": "tokyocabinet-haskell",
@@ -6127,6 +6565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Error",
           "name": "cintToError",
           "package": "tokyocabinet-haskell",
@@ -6136,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Error",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Error",
           "name": "cintToError",
           "normalized": "CInt-\u003eECODE",
@@ -6151,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Error",
           "name": "errorToCInt",
           "package": "tokyocabinet-haskell",
@@ -6160,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Error",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Error",
           "name": "errorToCInt",
           "normalized": "ECODE-\u003eCInt",
@@ -6175,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -6183,6 +6626,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -6195,6 +6639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "FDB'",
           "package": "tokyocabinet-haskell",
@@ -6203,6 +6648,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "FDB'",
           "package": "tokyocabinet-haskell",
@@ -6216,6 +6662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "ID",
           "package": "tokyocabinet-haskell",
@@ -6224,6 +6671,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "ID",
           "package": "tokyocabinet-haskell",
@@ -6237,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -6245,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -6511,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbadddouble",
           "package": "tokyocabinet-haskell",
@@ -6520,6 +6971,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbadddouble",
           "normalized": "Ptr FDB'-\u003eInt-\u003eCDouble-\u003eIO CDouble",
@@ -6534,6 +6986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbaddint",
           "package": "tokyocabinet-haskell",
@@ -6543,6 +6996,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbaddint",
           "normalized": "Ptr FDB'-\u003eInt-\u003eCInt-\u003eIO CInt",
@@ -6557,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbclose",
           "package": "tokyocabinet-haskell",
@@ -6566,6 +7021,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbclose",
           "normalized": "Ptr FDB'-\u003eIO Bool",
@@ -6580,6 +7036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbcopy",
           "package": "tokyocabinet-haskell",
@@ -6589,6 +7046,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbcopy",
           "normalized": "Ptr FDB'-\u003eCString-\u003eIO Bool",
@@ -6603,6 +7061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbdel",
           "package": "tokyocabinet-haskell",
@@ -6612,6 +7071,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbdel",
           "normalized": "Ptr FDB'-\u003eIO()",
@@ -6626,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbecode",
           "package": "tokyocabinet-haskell",
@@ -6635,6 +7096,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbecode",
           "normalized": "Ptr FDB'-\u003eIO CInt",
@@ -6649,6 +7111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdberrmsg",
           "package": "tokyocabinet-haskell",
@@ -6658,6 +7121,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdberrmsg",
           "normalized": "CInt-\u003eCString",
@@ -6672,6 +7136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbfsiz",
           "package": "tokyocabinet-haskell",
@@ -6681,6 +7146,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbfsiz",
           "normalized": "Ptr FDB'-\u003eIO Word",
@@ -6695,6 +7161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbget",
           "package": "tokyocabinet-haskell",
@@ -6704,6 +7171,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbget",
           "normalized": "Ptr FDB'-\u003eInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -6718,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbget2",
           "package": "tokyocabinet-haskell",
@@ -6727,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbget2",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -6741,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbget3",
           "package": "tokyocabinet-haskell",
@@ -6750,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbget3",
           "normalized": "Ptr FDB'-\u003eCString-\u003eIO CString",
@@ -6764,6 +7236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbget4",
           "package": "tokyocabinet-haskell",
@@ -6773,6 +7246,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbget4",
           "normalized": "Ptr FDB'-\u003eInt-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -6787,6 +7261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbiterinit",
           "package": "tokyocabinet-haskell",
@@ -6796,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbiterinit",
           "normalized": "Ptr FDB'-\u003eIO Bool",
@@ -6810,6 +7286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbiternext",
           "package": "tokyocabinet-haskell",
@@ -6819,6 +7296,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbiternext",
           "normalized": "Ptr FDB'-\u003eIO Int",
@@ -6833,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbiternext2",
           "package": "tokyocabinet-haskell",
@@ -6842,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbiternext2",
           "normalized": "Ptr FDB'-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -6856,6 +7336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbiternext3",
           "package": "tokyocabinet-haskell",
@@ -6865,6 +7346,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbiternext3",
           "normalized": "Ptr FDB'-\u003eIO CString",
@@ -6879,6 +7361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbnew",
           "package": "tokyocabinet-haskell",
@@ -6888,6 +7371,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbnew",
           "package": "tokyocabinet-haskell",
@@ -6900,6 +7384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbopen",
           "package": "tokyocabinet-haskell",
@@ -6909,6 +7394,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbopen",
           "normalized": "Ptr FDB'-\u003eCString-\u003eCInt-\u003eIO Bool",
@@ -6923,6 +7409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdboptimize",
           "package": "tokyocabinet-haskell",
@@ -6932,6 +7419,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdboptimize",
           "normalized": "Ptr FDB'-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -6946,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbout",
           "package": "tokyocabinet-haskell",
@@ -6955,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbout",
           "normalized": "Ptr FDB'-\u003eInt-\u003eIO Bool",
@@ -6969,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbout2",
           "package": "tokyocabinet-haskell",
@@ -6978,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbout2",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -6992,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbout3",
           "package": "tokyocabinet-haskell",
@@ -7001,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbout3",
           "normalized": "Ptr FDB'-\u003eCString-\u003eIO Bool",
@@ -7015,6 +7509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbpath",
           "package": "tokyocabinet-haskell",
@@ -7024,6 +7519,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbpath",
           "normalized": "Ptr FDB'-\u003eIO CString",
@@ -7038,6 +7534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbput",
           "package": "tokyocabinet-haskell",
@@ -7047,6 +7544,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbput",
           "normalized": "Ptr FDB'-\u003eInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -7061,6 +7559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbput2",
           "package": "tokyocabinet-haskell",
@@ -7070,6 +7569,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbput2",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -7084,6 +7584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbput3",
           "package": "tokyocabinet-haskell",
@@ -7093,6 +7594,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbput3",
           "normalized": "Ptr FDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -7107,6 +7609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputcat",
           "package": "tokyocabinet-haskell",
@@ -7116,6 +7619,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputcat",
           "normalized": "Ptr FDB'-\u003eInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -7130,6 +7634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputcat2",
           "package": "tokyocabinet-haskell",
@@ -7139,6 +7644,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputcat2",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -7153,6 +7659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputcat3",
           "package": "tokyocabinet-haskell",
@@ -7162,6 +7669,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputcat3",
           "normalized": "Ptr FDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -7176,6 +7684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputkeep",
           "package": "tokyocabinet-haskell",
@@ -7185,6 +7694,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputkeep",
           "normalized": "Ptr FDB'-\u003eInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -7199,6 +7709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputkeep2",
           "package": "tokyocabinet-haskell",
@@ -7208,6 +7719,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputkeep2",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -7222,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputkeep3",
           "package": "tokyocabinet-haskell",
@@ -7231,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbputkeep3",
           "normalized": "Ptr FDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -7245,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange",
           "package": "tokyocabinet-haskell",
@@ -7254,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange",
           "normalized": "Ptr FDB'-\u003eInt-\u003eInt-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Int)",
@@ -7268,6 +7784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange2",
           "package": "tokyocabinet-haskell",
@@ -7277,6 +7794,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange2",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -7291,6 +7809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange3",
           "package": "tokyocabinet-haskell",
@@ -7300,6 +7819,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange3",
           "normalized": "Ptr FDB'-\u003eCString-\u003eCString-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -7314,6 +7834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange4",
           "package": "tokyocabinet-haskell",
@@ -7323,6 +7844,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange4",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -7337,6 +7859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange5",
           "package": "tokyocabinet-haskell",
@@ -7346,6 +7869,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrange5",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -7360,6 +7884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrnum",
           "package": "tokyocabinet-haskell",
@@ -7369,6 +7894,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbrnum",
           "normalized": "Ptr FDB'-\u003eIO Word",
@@ -7383,6 +7909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbsetmutex",
           "package": "tokyocabinet-haskell",
@@ -7392,6 +7919,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbsetmutex",
           "normalized": "Ptr FDB'-\u003eIO Bool",
@@ -7406,6 +7934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbsync",
           "package": "tokyocabinet-haskell",
@@ -7415,6 +7944,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbsync",
           "normalized": "Ptr FDB'-\u003eIO Bool",
@@ -7429,6 +7959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbtune",
           "package": "tokyocabinet-haskell",
@@ -7438,6 +7969,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbtune",
           "normalized": "Ptr FDB'-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -7452,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbvanish",
           "package": "tokyocabinet-haskell",
@@ -7461,6 +7994,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbvanish",
           "normalized": "Ptr FDB'-\u003eIO Bool",
@@ -7475,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbvsiz",
           "package": "tokyocabinet-haskell",
@@ -7484,6 +8019,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbvsiz",
           "normalized": "Ptr FDB'-\u003eInt-\u003eIO CInt",
@@ -7498,6 +8034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbvsiz2",
           "package": "tokyocabinet-haskell",
@@ -7507,6 +8044,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbvsiz2",
           "normalized": "Ptr FDB'-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -7521,6 +8059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbvsiz3",
           "package": "tokyocabinet-haskell",
@@ -7530,6 +8069,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "c_tcfdbvsiz3",
           "normalized": "Ptr FDB'-\u003eCString-\u003eIO CInt",
@@ -7544,6 +8084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "combineOpenMode",
           "package": "tokyocabinet-haskell",
@@ -7553,6 +8094,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "combineOpenMode",
           "normalized": "[OpenMode]-\u003eCInt",
@@ -7568,6 +8110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "openModeToCInt",
           "package": "tokyocabinet-haskell",
@@ -7577,6 +8120,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "openModeToCInt",
           "normalized": "OpenMode-\u003eCInt",
@@ -7592,6 +8136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "tcfdbFinalizer",
           "package": "tokyocabinet-haskell",
@@ -7601,6 +8146,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "tcfdbFinalizer",
           "normalized": "FunPtr(Ptr FDB'-\u003eIO())",
@@ -7616,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "unID",
           "package": "tokyocabinet-haskell",
@@ -7625,6 +8172,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.C",
           "name": "unID",
           "normalized": "ID-\u003eInt",
@@ -7640,6 +8188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "Key",
           "package": "tokyocabinet-haskell",
@@ -7648,6 +8197,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB Key",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "Key",
           "package": "tokyocabinet-haskell",
@@ -7661,6 +8211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "ID",
           "package": "tokyocabinet-haskell",
@@ -7669,6 +8220,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB Key",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "ID",
           "package": "tokyocabinet-haskell",
@@ -7682,6 +8234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "Key",
           "package": "tokyocabinet-haskell",
@@ -7690,6 +8243,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB Key",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "Key",
           "package": "tokyocabinet-haskell",
@@ -7703,6 +8257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "fromID",
           "package": "tokyocabinet-haskell",
@@ -7712,6 +8267,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB Key",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "fromID",
           "normalized": "ID-\u003ea",
@@ -7727,6 +8283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "toID",
           "package": "tokyocabinet-haskell",
@@ -7736,6 +8293,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB Key",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB.Key",
           "name": "toID",
           "normalized": "a-\u003eID",
@@ -7752,6 +8310,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to Fixed-length DBM. See also,\n \u003ca\u003ehttp://tokyocabinet.sourceforge.net/spex-en.html#tcfdbapi\u003c/a\u003e for details\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "FDB",
           "package": "tokyocabinet-haskell",
@@ -7761,6 +8320,7 @@
         "index": {
           "description": "Interface to Fixed-length DBM See also http tokyocabinet.sourceforge.net spex-en.html tcfdbapi for details",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "FDB",
           "package": "tokyocabinet-haskell",
@@ -7775,6 +8335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -7784,6 +8345,7 @@
         "index": {
           "description": "Represents error",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -7797,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "FDB",
           "package": "tokyocabinet-haskell",
@@ -7805,6 +8368,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "FDB",
           "package": "tokyocabinet-haskell",
@@ -7818,6 +8382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "ID",
           "package": "tokyocabinet-haskell",
@@ -7826,6 +8391,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "ID",
           "package": "tokyocabinet-haskell",
@@ -7839,6 +8405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -7847,6 +8414,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -7861,6 +8429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the corresponding value. (The value specified by a key\n is treated as double.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "adddouble",
           "package": "tokyocabinet-haskell",
@@ -7871,6 +8440,7 @@
         "index": {
           "description": "Increment the corresponding value The value specified by key is treated as double",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "adddouble",
           "normalized": "FDB-\u003ea-\u003eDouble-\u003eIO(Maybe Double)",
@@ -7886,6 +8456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the corresponding value. (The value specified by a key\n is treated as integer.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "addint",
           "package": "tokyocabinet-haskell",
@@ -7896,6 +8467,7 @@
         "index": {
           "description": "Increment the corresponding value The value specified by key is treated as integer",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "addint",
           "normalized": "FDB-\u003ea-\u003eInt-\u003eIO(Maybe Int)",
@@ -7911,6 +8483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "close",
           "package": "tokyocabinet-haskell",
@@ -7921,6 +8494,7 @@
         "index": {
           "description": "Close the database file",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "close",
           "normalized": "FDB-\u003eIO Bool",
@@ -7936,6 +8510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "copy",
           "package": "tokyocabinet-haskell",
@@ -7946,6 +8521,7 @@
         "index": {
           "description": "Copy the database file",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "copy",
           "normalized": "FDB-\u003eString-\u003eIO Bool",
@@ -7961,6 +8537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree FDB resource forcibly.\n FDB is kept by ForeignPtr, so Haskell runtime GC cleans up memory for\n almost situation. Most always, you don't need to call this. \n After call this, you must not touch FDB object. Its behavior is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -7971,6 +8548,7 @@
         "index": {
           "description": "Free FDB resource forcibly FDB is kept by ForeignPtr so Haskell runtime GC cleans up memory for almost situation Most always you don need to call this After call this you must not touch FDB object Its behavior is undefined",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "delete",
           "normalized": "FDB-\u003eIO()",
@@ -7986,6 +8564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the last happened error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "ecode",
           "package": "tokyocabinet-haskell",
@@ -7996,6 +8575,7 @@
         "index": {
           "description": "Return the last happened error code",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "ecode",
           "normalized": "FDB-\u003eIO ECODE",
@@ -8011,6 +8591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size of the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "fsiz",
           "package": "tokyocabinet-haskell",
@@ -8021,6 +8602,7 @@
         "index": {
           "description": "Return the size of the database file",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "fsiz",
           "normalized": "FDB-\u003eIO Word",
@@ -8036,6 +8618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn list of forward matched keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "fwmkeys",
           "package": "tokyocabinet-haskell",
@@ -8046,6 +8629,7 @@
         "index": {
           "description": "Return list of forward matched keys",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "fwmkeys",
           "normalized": "FDB-\u003ea-\u003eInt-\u003eIO(b a)",
@@ -8061,6 +8645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value of record. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -8071,6 +8656,7 @@
         "index": {
           "description": "Return the value of record",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "get",
           "normalized": "FDB-\u003ea-\u003eIO(Maybe b)",
@@ -8086,6 +8672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the iterator of a FDB object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "iterinit",
           "package": "tokyocabinet-haskell",
@@ -8096,6 +8683,7 @@
         "index": {
           "description": "Initialize the iterator of FDB object",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "iterinit",
           "normalized": "FDB-\u003eIO Bool",
@@ -8111,6 +8699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next key of the iterator of a FDB object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "iternext",
           "package": "tokyocabinet-haskell",
@@ -8121,6 +8710,7 @@
         "index": {
           "description": "Return the next key of the iterator of FDB object",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "iternext",
           "normalized": "FDB-\u003eIO(Maybe a)",
@@ -8136,6 +8726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Fixed-length database object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -8146,6 +8737,7 @@
         "index": {
           "description": "Create Fixed-length database object",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -8159,6 +8751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen FDB database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "open",
           "package": "tokyocabinet-haskell",
@@ -8169,6 +8762,7 @@
         "index": {
           "description": "Open FDB database file",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "open",
           "normalized": "FDB-\u003eString-\u003e[OpenMode]-\u003eIO Bool",
@@ -8184,6 +8778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize the file of a Hash database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "optimize",
           "package": "tokyocabinet-haskell",
@@ -8194,6 +8789,7 @@
         "index": {
           "description": "Optimize the file of Hash database object",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "optimize",
           "normalized": "FDB-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -8209,6 +8805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a record. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -8219,6 +8816,7 @@
         "index": {
           "description": "Delete record",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "out",
           "normalized": "FDB-\u003ea-\u003eIO Bool",
@@ -8234,6 +8832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the file path of currentry opened database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "path",
           "package": "tokyocabinet-haskell",
@@ -8244,6 +8843,7 @@
         "index": {
           "description": "Return the file path of currentry opened database",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "path",
           "normalized": "FDB-\u003eIO(Maybe String)",
@@ -8259,6 +8859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStora a record (key-value pair) on FDB.  Key type must be\n instance of Key class. Value type must be instance of Storable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -8269,6 +8870,7 @@
         "index": {
           "description": "Stora record key-value pair on FDB Key type must be instance of Key class Value type must be instance of Storable",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "put",
           "normalized": "FDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -8284,6 +8886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a value at the end of the existing record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "putcat",
           "package": "tokyocabinet-haskell",
@@ -8294,6 +8897,7 @@
         "index": {
           "description": "Concatenate value at the end of the existing record",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "putcat",
           "normalized": "FDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -8309,6 +8913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a new record. If a record with the same key exists in the\n database, this function has no effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "putkeep",
           "package": "tokyocabinet-haskell",
@@ -8319,6 +8924,7 @@
         "index": {
           "description": "Store new record If record with the same key exists in the database this function has no effect",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "putkeep",
           "normalized": "FDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -8334,6 +8940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn list of keys in the specified range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "range",
           "package": "tokyocabinet-haskell",
@@ -8343,6 +8950,7 @@
         "index": {
           "description": "Return list of keys in the specified range",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "range",
           "normalized": "FDB-\u003ea-\u003ea-\u003eInt-\u003eIO[a]",
@@ -8358,6 +8966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of records in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "rnum",
           "package": "tokyocabinet-haskell",
@@ -8368,6 +8977,7 @@
         "index": {
           "description": "Return the number of records in the database",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "rnum",
           "normalized": "FDB-\u003eIO Word",
@@ -8383,6 +8993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize updated contents of a database object with the file\n and the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "sync",
           "package": "tokyocabinet-haskell",
@@ -8393,6 +9004,7 @@
         "index": {
           "description": "Synchronize updated contents of database object with the file and the device",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "sync",
           "normalized": "FDB-\u003eIO Bool",
@@ -8408,6 +9020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the tuning parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "tune",
           "package": "tokyocabinet-haskell",
@@ -8417,6 +9030,7 @@
         "index": {
           "description": "Set the tuning parameters",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "tune",
           "normalized": "FDB-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -8432,6 +9046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "vanish",
           "package": "tokyocabinet-haskell",
@@ -8442,6 +9057,7 @@
         "index": {
           "description": "Delete all records",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "vanish",
           "normalized": "FDB-\u003eIO Bool",
@@ -8457,6 +9073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the byte size of value in a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.FDB",
           "name": "vsiz",
           "package": "tokyocabinet-haskell",
@@ -8467,6 +9084,7 @@
         "index": {
           "description": "Return the byte size of value in record",
           "hierarchy": "Database TokyoCabinet FDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.FDB",
           "name": "vsiz",
           "normalized": "FDB-\u003ea-\u003eIO(Maybe Int)",
@@ -8481,6 +9099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -8489,6 +9108,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -8501,6 +9121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "HDB'",
           "package": "tokyocabinet-haskell",
@@ -8509,6 +9130,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "HDB'",
           "package": "tokyocabinet-haskell",
@@ -8522,6 +9144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -8530,6 +9153,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -8543,6 +9167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -8551,6 +9176,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -8840,6 +9466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbadddouble",
           "package": "tokyocabinet-haskell",
@@ -8849,6 +9476,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbadddouble",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003eCDouble-\u003eIO CDouble",
@@ -8863,6 +9491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbaddint",
           "package": "tokyocabinet-haskell",
@@ -8872,6 +9501,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbaddint",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -8886,6 +9516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbclose",
           "package": "tokyocabinet-haskell",
@@ -8895,6 +9526,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbclose",
           "normalized": "Ptr HDB'-\u003eIO Bool",
@@ -8909,6 +9541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbcopy",
           "package": "tokyocabinet-haskell",
@@ -8918,6 +9551,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbcopy",
           "normalized": "Ptr HDB'-\u003eCString-\u003eIO Bool",
@@ -8932,6 +9566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbdel",
           "package": "tokyocabinet-haskell",
@@ -8941,6 +9576,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbdel",
           "normalized": "Ptr HDB'-\u003eIO()",
@@ -8955,6 +9591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbecode",
           "package": "tokyocabinet-haskell",
@@ -8964,6 +9601,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbecode",
           "normalized": "Ptr HDB'-\u003eIO CInt",
@@ -8978,6 +9616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbfsiz",
           "package": "tokyocabinet-haskell",
@@ -8987,6 +9626,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbfsiz",
           "normalized": "Ptr HDB'-\u003eIO Word",
@@ -9001,6 +9641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbfwmkeys",
           "package": "tokyocabinet-haskell",
@@ -9010,6 +9651,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbfwmkeys",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -9024,6 +9666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbget",
           "package": "tokyocabinet-haskell",
@@ -9033,6 +9676,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbget",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -9047,6 +9691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbget2",
           "package": "tokyocabinet-haskell",
@@ -9056,6 +9701,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbget2",
           "normalized": "Ptr HDB'-\u003eCString-\u003eIO CString",
@@ -9070,6 +9716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbiterinit",
           "package": "tokyocabinet-haskell",
@@ -9079,6 +9726,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbiterinit",
           "normalized": "Ptr HDB'-\u003eIO Bool",
@@ -9093,6 +9741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbiternext",
           "package": "tokyocabinet-haskell",
@@ -9102,6 +9751,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbiternext",
           "normalized": "Ptr HDB'-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -9116,6 +9766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbiternext2",
           "package": "tokyocabinet-haskell",
@@ -9125,6 +9776,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbiternext2",
           "normalized": "Ptr HDB'-\u003eIO CString",
@@ -9139,6 +9791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbnew",
           "package": "tokyocabinet-haskell",
@@ -9148,6 +9801,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbnew",
           "package": "tokyocabinet-haskell",
@@ -9160,6 +9814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbopen",
           "package": "tokyocabinet-haskell",
@@ -9169,6 +9824,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbopen",
           "normalized": "Ptr HDB'-\u003eCString-\u003eCInt-\u003eIO Bool",
@@ -9183,6 +9839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdboptimize",
           "package": "tokyocabinet-haskell",
@@ -9192,6 +9849,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdboptimize",
           "normalized": "Ptr HDB'-\u003eInt-\u003eInt-\u003eInt-\u003eWord-\u003eIO Bool",
@@ -9206,6 +9864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbout",
           "package": "tokyocabinet-haskell",
@@ -9215,6 +9874,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbout",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -9229,6 +9889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbout2",
           "package": "tokyocabinet-haskell",
@@ -9238,6 +9899,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbout2",
           "normalized": "Ptr HDB'-\u003eCString-\u003eIO Bool",
@@ -9252,6 +9914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbpath",
           "package": "tokyocabinet-haskell",
@@ -9261,6 +9924,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbpath",
           "normalized": "Ptr HDB'-\u003eIO CString",
@@ -9275,6 +9939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbput",
           "package": "tokyocabinet-haskell",
@@ -9284,6 +9949,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbput",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -9298,6 +9964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbput2",
           "package": "tokyocabinet-haskell",
@@ -9307,6 +9974,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbput2",
           "normalized": "Ptr HDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -9321,6 +9989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputasync",
           "package": "tokyocabinet-haskell",
@@ -9330,6 +9999,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputasync",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -9344,6 +10014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputcat",
           "package": "tokyocabinet-haskell",
@@ -9353,6 +10024,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputcat",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -9367,6 +10039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputcat2",
           "package": "tokyocabinet-haskell",
@@ -9376,6 +10049,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputcat2",
           "normalized": "Ptr HDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -9390,6 +10064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputkeep",
           "package": "tokyocabinet-haskell",
@@ -9399,6 +10074,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputkeep",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -9413,6 +10089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputkeep2",
           "package": "tokyocabinet-haskell",
@@ -9422,6 +10099,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbputkeep2",
           "normalized": "Ptr HDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -9436,6 +10114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbrnum",
           "package": "tokyocabinet-haskell",
@@ -9445,6 +10124,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbrnum",
           "normalized": "Ptr HDB'-\u003eIO Word",
@@ -9459,6 +10139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbsetcache",
           "package": "tokyocabinet-haskell",
@@ -9468,6 +10149,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbsetcache",
           "normalized": "Ptr HDB'-\u003eInt-\u003eIO Bool",
@@ -9482,6 +10164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbsetxmsiz",
           "package": "tokyocabinet-haskell",
@@ -9491,6 +10174,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbsetxmsiz",
           "normalized": "Ptr HDB'-\u003eInt-\u003eIO Bool",
@@ -9505,6 +10189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbsync",
           "package": "tokyocabinet-haskell",
@@ -9514,6 +10199,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbsync",
           "normalized": "Ptr HDB'-\u003eIO Bool",
@@ -9528,6 +10214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbtranabort",
           "package": "tokyocabinet-haskell",
@@ -9537,6 +10224,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbtranabort",
           "normalized": "Ptr HDB'-\u003eIO Bool",
@@ -9551,6 +10239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbtranbegin",
           "package": "tokyocabinet-haskell",
@@ -9560,6 +10249,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbtranbegin",
           "normalized": "Ptr HDB'-\u003eIO Bool",
@@ -9574,6 +10264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbtrancommit",
           "package": "tokyocabinet-haskell",
@@ -9583,6 +10274,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbtrancommit",
           "normalized": "Ptr HDB'-\u003eIO Bool",
@@ -9597,6 +10289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbtune",
           "package": "tokyocabinet-haskell",
@@ -9606,6 +10299,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbtune",
           "normalized": "Ptr HDB'-\u003eInt-\u003eInt-\u003eInt-\u003eWord-\u003eIO Bool",
@@ -9620,6 +10314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbvanish",
           "package": "tokyocabinet-haskell",
@@ -9629,6 +10324,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbvanish",
           "normalized": "Ptr HDB'-\u003eIO Bool",
@@ -9643,6 +10339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbvsiz",
           "package": "tokyocabinet-haskell",
@@ -9652,6 +10349,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "c_tchdbvsiz",
           "normalized": "Ptr HDB'-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -9666,6 +10364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "combineOpenMode",
           "package": "tokyocabinet-haskell",
@@ -9675,6 +10374,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "combineOpenMode",
           "normalized": "[OpenMode]-\u003eCInt",
@@ -9690,6 +10390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "combineTuningOption",
           "package": "tokyocabinet-haskell",
@@ -9699,6 +10400,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "combineTuningOption",
           "normalized": "[TuningOption]-\u003eWord",
@@ -9714,6 +10416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "openModeToCInt",
           "package": "tokyocabinet-haskell",
@@ -9723,6 +10426,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "openModeToCInt",
           "normalized": "OpenMode-\u003eCInt",
@@ -9738,6 +10442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "tchdbFinalizer",
           "package": "tokyocabinet-haskell",
@@ -9747,6 +10452,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "tchdbFinalizer",
           "normalized": "FunPtr(Ptr HDB'-\u003eIO())",
@@ -9762,6 +10468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "tuningOptionToWord8",
           "package": "tokyocabinet-haskell",
@@ -9771,6 +10478,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB.C",
           "name": "tuningOptionToWord8",
           "normalized": "TuningOption-\u003eWord",
@@ -9787,6 +10495,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to Hash based DBM. See also,\n \u003ca\u003ehttp://tokyocabinet.sourceforge.net/spex-en.html#tchdbapi\u003c/a\u003e for details\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "HDB",
           "package": "tokyocabinet-haskell",
@@ -9796,6 +10505,7 @@
         "index": {
           "description": "Interface to Hash based DBM See also http tokyocabinet.sourceforge.net spex-en.html tchdbapi for details",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "HDB",
           "package": "tokyocabinet-haskell",
@@ -9810,6 +10520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -9819,6 +10530,7 @@
         "index": {
           "description": "Represents error",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -9832,6 +10544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "HDB",
           "package": "tokyocabinet-haskell",
@@ -9840,6 +10553,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "HDB",
           "package": "tokyocabinet-haskell",
@@ -9853,6 +10567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -9861,6 +10576,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -9874,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -9882,6 +10599,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -9896,6 +10614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the corresponding value. (The value specified by a key\n is treated as double.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "adddouble",
           "package": "tokyocabinet-haskell",
@@ -9906,6 +10625,7 @@
         "index": {
           "description": "Increment the corresponding value The value specified by key is treated as double",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "adddouble",
           "normalized": "HDB-\u003ea-\u003eDouble-\u003eIO(Maybe Double)",
@@ -9921,6 +10641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the corresponding value. (The value specified by a key\n is treated as integer.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "addint",
           "package": "tokyocabinet-haskell",
@@ -9931,6 +10652,7 @@
         "index": {
           "description": "Increment the corresponding value The value specified by key is treated as integer",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "addint",
           "normalized": "HDB-\u003ea-\u003eInt-\u003eIO(Maybe Int)",
@@ -9946,6 +10668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "close",
           "package": "tokyocabinet-haskell",
@@ -9956,6 +10679,7 @@
         "index": {
           "description": "Close the database file",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "close",
           "normalized": "HDB-\u003eIO Bool",
@@ -9971,6 +10695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "copy",
           "package": "tokyocabinet-haskell",
@@ -9981,6 +10706,7 @@
         "index": {
           "description": "Copy the database file",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "copy",
           "normalized": "HDB-\u003eString-\u003eIO Bool",
@@ -9996,6 +10722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree HDB resource forcibly. \n HDB is kept by ForeignPtr, so Haskell runtime GC cleans up memory for\n almost situation. Most always, you don't need to call this. \n After call this, you must not touch HDB object. Its behavior is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -10006,6 +10733,7 @@
         "index": {
           "description": "Free HDB resource forcibly HDB is kept by ForeignPtr so Haskell runtime GC cleans up memory for almost situation Most always you don need to call this After call this you must not touch HDB object Its behavior is undefined",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "delete",
           "normalized": "HDB-\u003eIO()",
@@ -10021,6 +10749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the last happened error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "ecode",
           "package": "tokyocabinet-haskell",
@@ -10031,6 +10760,7 @@
         "index": {
           "description": "Return the last happened error code",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "ecode",
           "normalized": "HDB-\u003eIO ECODE",
@@ -10046,6 +10776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size of the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "fsiz",
           "package": "tokyocabinet-haskell",
@@ -10056,6 +10787,7 @@
         "index": {
           "description": "Return the size of the database file",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "fsiz",
           "normalized": "HDB-\u003eIO Word",
@@ -10071,6 +10803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn list of forward matched keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "fwmkeys",
           "package": "tokyocabinet-haskell",
@@ -10081,6 +10814,7 @@
         "index": {
           "description": "Return list of forward matched keys",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "fwmkeys",
           "normalized": "HDB-\u003ea-\u003eInt-\u003eIO(b a)",
@@ -10096,6 +10830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value of record. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -10106,6 +10841,7 @@
         "index": {
           "description": "Return the value of record",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "get",
           "normalized": "HDB-\u003ea-\u003eIO(Maybe b)",
@@ -10121,6 +10857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the iterator of a HDB object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "iterinit",
           "package": "tokyocabinet-haskell",
@@ -10131,6 +10868,7 @@
         "index": {
           "description": "Initialize the iterator of HDB object",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "iterinit",
           "normalized": "HDB-\u003eIO Bool",
@@ -10146,6 +10884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next key of the iterator of a HDB object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "iternext",
           "package": "tokyocabinet-haskell",
@@ -10156,6 +10895,7 @@
         "index": {
           "description": "Return the next key of the iterator of HDB object",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "iternext",
           "normalized": "HDB-\u003eIO(Maybe a)",
@@ -10171,6 +10911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Hash database object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -10181,6 +10922,7 @@
         "index": {
           "description": "Create Hash database object",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -10194,6 +10936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "open",
           "package": "tokyocabinet-haskell",
@@ -10204,6 +10947,7 @@
         "index": {
           "description": "Open database file",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "open",
           "normalized": "HDB-\u003eString-\u003e[OpenMode]-\u003eIO Bool",
@@ -10219,6 +10963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize the file of a Hash database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "optimize",
           "package": "tokyocabinet-haskell",
@@ -10228,6 +10973,7 @@
         "index": {
           "description": "Optimize the file of Hash database object",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "optimize",
           "normalized": "HDB-\u003eInt-\u003eInt-\u003eInt-\u003e[TuningOption]-\u003eIO Bool",
@@ -10243,6 +10989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -10253,6 +11000,7 @@
         "index": {
           "description": "Delete record",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "out",
           "normalized": "HDB-\u003ea-\u003eIO Bool",
@@ -10268,6 +11016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the file path of currentry opened database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "path",
           "package": "tokyocabinet-haskell",
@@ -10278,6 +11027,7 @@
         "index": {
           "description": "Return the file path of currentry opened database",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "path",
           "normalized": "HDB-\u003eIO(Maybe String)",
@@ -10293,6 +11043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStora a record (key-value pair) on HDB.  Key and value type must\n be instance of Storable class.  Usually, we can use \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003eByteString\u003c/code\u003e for key, \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eByteString\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e for\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -10303,6 +11054,7 @@
         "index": {
           "description": "Stora record key-value pair on HDB Key and value type must be instance of Storable class Usually we can use String ByteString for key String ByteString Int Double for value",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "put",
           "normalized": "HDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -10318,6 +11070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a record into a hash database object in asynchronous fashion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "putasync",
           "package": "tokyocabinet-haskell",
@@ -10328,6 +11081,7 @@
         "index": {
           "description": "Store record into hash database object in asynchronous fashion",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "putasync",
           "normalized": "HDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -10343,6 +11097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a value at the end of the existing record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "putcat",
           "package": "tokyocabinet-haskell",
@@ -10353,6 +11108,7 @@
         "index": {
           "description": "Concatenate value at the end of the existing record",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "putcat",
           "normalized": "HDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -10368,6 +11124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a new record. If a record with the same key exists in the\n database, this function has no effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "putkeep",
           "package": "tokyocabinet-haskell",
@@ -10378,6 +11135,7 @@
         "index": {
           "description": "Store new record If record with the same key exists in the database this function has no effect",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "putkeep",
           "normalized": "HDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -10393,6 +11151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of records in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "rnum",
           "package": "tokyocabinet-haskell",
@@ -10403,6 +11162,7 @@
         "index": {
           "description": "Return the number of records in the database",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "rnum",
           "normalized": "HDB-\u003eIO Word",
@@ -10418,6 +11178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the caching parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "setcache",
           "package": "tokyocabinet-haskell",
@@ -10427,6 +11188,7 @@
         "index": {
           "description": "Set the caching parameters",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "setcache",
           "normalized": "HDB-\u003eInt-\u003eIO Bool",
@@ -10442,6 +11204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the size of extra mapped memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "setxmsiz",
           "package": "tokyocabinet-haskell",
@@ -10452,6 +11215,7 @@
         "index": {
           "description": "Set the size of extra mapped memory",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "setxmsiz",
           "normalized": "HDB-\u003eInt-\u003eIO Bool",
@@ -10467,6 +11231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize updated contents of a database object with the file\n and the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "sync",
           "package": "tokyocabinet-haskell",
@@ -10477,6 +11242,7 @@
         "index": {
           "description": "Synchronize updated contents of database object with the file and the device",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "sync",
           "normalized": "HDB-\u003eIO Bool",
@@ -10492,6 +11258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "tranabort",
           "package": "tokyocabinet-haskell",
@@ -10502,6 +11269,7 @@
         "index": {
           "description": "Abort the transaction",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "tranabort",
           "normalized": "HDB-\u003eIO Bool",
@@ -10517,6 +11285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "tranbegin",
           "package": "tokyocabinet-haskell",
@@ -10527,6 +11296,7 @@
         "index": {
           "description": "Begin the transaction",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "tranbegin",
           "normalized": "HDB-\u003eIO Bool",
@@ -10542,6 +11312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "trancommit",
           "package": "tokyocabinet-haskell",
@@ -10552,6 +11323,7 @@
         "index": {
           "description": "Commit the transaction",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "trancommit",
           "normalized": "HDB-\u003eIO Bool",
@@ -10567,6 +11339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the tuning parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "tune",
           "package": "tokyocabinet-haskell",
@@ -10576,6 +11349,7 @@
         "index": {
           "description": "Set the tuning parameters",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "tune",
           "normalized": "HDB-\u003eInt-\u003eInt-\u003eInt-\u003e[TuningOption]-\u003eIO Bool",
@@ -10591,6 +11365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "vanish",
           "package": "tokyocabinet-haskell",
@@ -10601,6 +11376,7 @@
         "index": {
           "description": "Delete all records",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "vanish",
           "normalized": "HDB-\u003eIO Bool",
@@ -10616,6 +11392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the byte size of value in a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.HDB",
           "name": "vsiz",
           "package": "tokyocabinet-haskell",
@@ -10626,6 +11403,7 @@
         "index": {
           "description": "Return the byte size of value in record",
           "hierarchy": "Database TokyoCabinet HDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.HDB",
           "name": "vsiz",
           "normalized": "HDB-\u003ea-\u003eIO(Maybe Int)",
@@ -10640,6 +11418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -10648,6 +11427,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -10660,6 +11440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "LIST",
           "package": "tokyocabinet-haskell",
@@ -10668,6 +11449,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "LIST",
           "package": "tokyocabinet-haskell",
@@ -10681,6 +11463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "List",
           "package": "tokyocabinet-haskell",
@@ -10689,6 +11472,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "List",
           "package": "tokyocabinet-haskell",
@@ -10702,6 +11486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "List",
           "package": "tokyocabinet-haskell",
@@ -10711,6 +11496,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "List",
           "package": "tokyocabinet-haskell",
@@ -10724,6 +11510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistbsearch",
           "package": "tokyocabinet-haskell",
@@ -10733,6 +11520,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistbsearch",
           "normalized": "Ptr LIST-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -10747,6 +11535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistclear",
           "package": "tokyocabinet-haskell",
@@ -10756,6 +11545,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistclear",
           "normalized": "Ptr LIST-\u003eIO()",
@@ -10770,6 +11560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistdel",
           "package": "tokyocabinet-haskell",
@@ -10779,6 +11570,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistdel",
           "normalized": "Ptr LIST-\u003eIO()",
@@ -10793,6 +11585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistdump",
           "package": "tokyocabinet-haskell",
@@ -10802,6 +11595,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistdump",
           "normalized": "Ptr LIST-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -10816,6 +11610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistdup",
           "package": "tokyocabinet-haskell",
@@ -10825,6 +11620,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistdup",
           "normalized": "Ptr LIST-\u003eIO(Ptr LIST)",
@@ -10839,6 +11635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistinsert",
           "package": "tokyocabinet-haskell",
@@ -10848,6 +11645,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistinsert",
           "normalized": "Ptr LIST-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO()",
@@ -10862,6 +11660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistinsert2",
           "package": "tokyocabinet-haskell",
@@ -10871,6 +11670,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistinsert2",
           "normalized": "Ptr LIST-\u003eCInt-\u003ePtr Word-\u003eIO()",
@@ -10885,6 +11685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistload",
           "package": "tokyocabinet-haskell",
@@ -10894,6 +11695,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistload",
           "normalized": "Ptr Word-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -10908,6 +11710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistlsearch",
           "package": "tokyocabinet-haskell",
@@ -10917,6 +11720,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistlsearch",
           "normalized": "Ptr LIST-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -10931,6 +11735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistnew",
           "package": "tokyocabinet-haskell",
@@ -10940,6 +11745,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistnew",
           "package": "tokyocabinet-haskell",
@@ -10952,6 +11758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistnew2",
           "package": "tokyocabinet-haskell",
@@ -10961,6 +11768,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistnew2",
           "normalized": "CInt-\u003eIO(Ptr LIST)",
@@ -10975,6 +11783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistnum",
           "package": "tokyocabinet-haskell",
@@ -10984,6 +11793,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistnum",
           "normalized": "Ptr LIST-\u003eIO CInt",
@@ -10998,6 +11808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistover",
           "package": "tokyocabinet-haskell",
@@ -11007,6 +11818,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistover",
           "normalized": "Ptr LIST-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO()",
@@ -11021,6 +11833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistover2",
           "package": "tokyocabinet-haskell",
@@ -11030,6 +11843,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistover2",
           "normalized": "Ptr LIST-\u003eCInt-\u003eCString-\u003eIO()",
@@ -11044,6 +11858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistpop",
           "package": "tokyocabinet-haskell",
@@ -11053,6 +11868,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistpop",
           "normalized": "Ptr LIST-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -11067,6 +11883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistpop2",
           "package": "tokyocabinet-haskell",
@@ -11076,6 +11893,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistpop2",
           "normalized": "Ptr LIST-\u003eIO CString",
@@ -11090,6 +11908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistpush",
           "package": "tokyocabinet-haskell",
@@ -11099,6 +11918,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistpush",
           "normalized": "Ptr LIST-\u003ePtr Word-\u003eCInt-\u003eIO()",
@@ -11113,6 +11933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistpush2",
           "package": "tokyocabinet-haskell",
@@ -11122,6 +11943,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistpush2",
           "normalized": "Ptr LIST-\u003eCString-\u003eIO()",
@@ -11136,6 +11958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistremove",
           "package": "tokyocabinet-haskell",
@@ -11145,6 +11968,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistremove",
           "normalized": "Ptr LIST-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -11159,6 +11983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistremove2",
           "package": "tokyocabinet-haskell",
@@ -11168,6 +11993,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistremove2",
           "normalized": "Ptr LIST-\u003eCInt-\u003eIO CString",
@@ -11182,6 +12008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistshift",
           "package": "tokyocabinet-haskell",
@@ -11191,6 +12018,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistshift",
           "normalized": "Ptr LIST-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -11205,6 +12033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistshift2",
           "package": "tokyocabinet-haskell",
@@ -11214,6 +12043,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistshift2",
           "normalized": "Ptr LIST-\u003eIO CString",
@@ -11228,6 +12058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistsort",
           "package": "tokyocabinet-haskell",
@@ -11237,6 +12068,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistsort",
           "normalized": "Ptr LIST-\u003eIO()",
@@ -11251,6 +12083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistunshift",
           "package": "tokyocabinet-haskell",
@@ -11260,6 +12093,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistunshift",
           "normalized": "Ptr LIST-\u003ePtr Word-\u003eCInt-\u003eIO()",
@@ -11274,6 +12108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistunshift2",
           "package": "tokyocabinet-haskell",
@@ -11283,6 +12118,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistunshift2",
           "normalized": "Ptr LIST-\u003ePtr Word-\u003eIO()",
@@ -11297,6 +12133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistval",
           "package": "tokyocabinet-haskell",
@@ -11306,6 +12143,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistval",
           "normalized": "Ptr LIST-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -11320,6 +12158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistval2",
           "package": "tokyocabinet-haskell",
@@ -11329,6 +12168,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "c_tclistval2",
           "normalized": "Ptr LIST-\u003eCInt-\u003eIO CString",
@@ -11343,6 +12183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "tclistFinalizer",
           "package": "tokyocabinet-haskell",
@@ -11352,6 +12193,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "tclistFinalizer",
           "normalized": "FunPtr(Ptr LIST-\u003eIO())",
@@ -11367,6 +12209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List.C",
           "name": "unTCList",
           "package": "tokyocabinet-haskell",
@@ -11376,6 +12219,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List.C",
           "name": "unTCList",
           "package": "tokyocabinet-haskell",
@@ -11389,6 +12233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "List",
           "package": "tokyocabinet-haskell",
@@ -11397,6 +12242,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "List",
           "package": "tokyocabinet-haskell",
@@ -11410,6 +12256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "List",
           "package": "tokyocabinet-haskell",
@@ -11418,6 +12265,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "List",
           "package": "tokyocabinet-haskell",
@@ -11431,6 +12279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "bsearch",
           "package": "tokyocabinet-haskell",
@@ -11440,6 +12289,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "bsearch",
           "normalized": "List a-\u003ea-\u003eIO Int",
@@ -11454,6 +12304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "clear",
           "package": "tokyocabinet-haskell",
@@ -11463,6 +12314,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "clear",
           "normalized": "List a-\u003eIO()",
@@ -11477,6 +12329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "copy",
           "package": "tokyocabinet-haskell",
@@ -11486,6 +12339,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "copy",
           "normalized": "List a-\u003eIO(List a)",
@@ -11500,6 +12354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -11509,6 +12364,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "delete",
           "normalized": "List a-\u003eIO()",
@@ -11523,6 +12379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "dump",
           "package": "tokyocabinet-haskell",
@@ -11532,6 +12389,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "dump",
           "normalized": "List a-\u003eIO ByteString",
@@ -11546,6 +12404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -11555,6 +12414,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "get",
           "normalized": "List a-\u003eInt-\u003eIO(Maybe a)",
@@ -11569,6 +12429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "insert",
           "package": "tokyocabinet-haskell",
@@ -11578,6 +12439,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "insert",
           "normalized": "List a-\u003eInt-\u003ea-\u003eIO()",
@@ -11592,6 +12454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "len",
           "package": "tokyocabinet-haskell",
@@ -11601,6 +12464,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "len",
           "normalized": "List a-\u003eIO Int",
@@ -11615,6 +12479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "load",
           "package": "tokyocabinet-haskell",
@@ -11624,6 +12489,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "load",
           "normalized": "ByteString-\u003eIO(List a)",
@@ -11638,6 +12504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "lsearch",
           "package": "tokyocabinet-haskell",
@@ -11647,6 +12514,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "lsearch",
           "normalized": "List a-\u003ea-\u003eIO Int",
@@ -11661,6 +12529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -11670,6 +12539,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -11682,6 +12552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "new2",
           "package": "tokyocabinet-haskell",
@@ -11691,6 +12562,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "new2",
           "normalized": "Int-\u003eIO(List a)",
@@ -11705,6 +12577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "over",
           "package": "tokyocabinet-haskell",
@@ -11714,6 +12587,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "over",
           "normalized": "List a-\u003eInt-\u003ea-\u003eIO()",
@@ -11728,6 +12602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "pop",
           "package": "tokyocabinet-haskell",
@@ -11737,6 +12612,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "pop",
           "normalized": "List a-\u003eIO(Maybe a)",
@@ -11751,6 +12627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "push",
           "package": "tokyocabinet-haskell",
@@ -11760,6 +12637,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "push",
           "normalized": "List a-\u003ea-\u003eIO()",
@@ -11774,6 +12652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "remove",
           "package": "tokyocabinet-haskell",
@@ -11783,6 +12662,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "remove",
           "normalized": "List a-\u003eInt-\u003eIO(Maybe a)",
@@ -11797,6 +12677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "shift",
           "package": "tokyocabinet-haskell",
@@ -11806,6 +12687,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "shift",
           "normalized": "List a-\u003eIO(Maybe a)",
@@ -11820,6 +12702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "sort",
           "package": "tokyocabinet-haskell",
@@ -11829,6 +12712,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "sort",
           "normalized": "List a-\u003eIO()",
@@ -11843,6 +12727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.List",
           "name": "unshift",
           "package": "tokyocabinet-haskell",
@@ -11852,6 +12737,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet List",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.List",
           "name": "unshift",
           "normalized": "List a-\u003ea-\u003eIO()",
@@ -11866,6 +12752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -11874,6 +12761,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -11886,6 +12774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "MAP",
           "package": "tokyocabinet-haskell",
@@ -11894,6 +12783,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "MAP",
           "package": "tokyocabinet-haskell",
@@ -11907,6 +12797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "Map",
           "package": "tokyocabinet-haskell",
@@ -11915,6 +12806,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "Map",
           "package": "tokyocabinet-haskell",
@@ -11928,6 +12820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "Map",
           "package": "tokyocabinet-haskell",
@@ -11937,6 +12830,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "Map",
           "package": "tokyocabinet-haskell",
@@ -11950,6 +12844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapadddouble",
           "package": "tokyocabinet-haskell",
@@ -11959,6 +12854,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapadddouble",
           "normalized": "Ptr MAP-\u003ePtr Word-\u003eCInt-\u003eCDouble-\u003eIO CDouble",
@@ -11973,6 +12869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapaddint",
           "package": "tokyocabinet-haskell",
@@ -11982,6 +12879,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapaddint",
           "normalized": "Ptr MAP-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -11996,6 +12894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapclear",
           "package": "tokyocabinet-haskell",
@@ -12005,6 +12904,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapclear",
           "normalized": "Ptr MAP-\u003eIO()",
@@ -12019,6 +12919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapcutfront",
           "package": "tokyocabinet-haskell",
@@ -12028,6 +12929,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapcutfront",
           "normalized": "Ptr MAP-\u003eCInt-\u003eIO()",
@@ -12042,6 +12944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapdel",
           "package": "tokyocabinet-haskell",
@@ -12051,6 +12954,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapdel",
           "normalized": "Ptr MAP-\u003eIO()",
@@ -12065,6 +12969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapdump",
           "package": "tokyocabinet-haskell",
@@ -12074,6 +12979,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapdump",
           "normalized": "Ptr MAP-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -12088,6 +12994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapdup",
           "package": "tokyocabinet-haskell",
@@ -12097,6 +13004,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapdup",
           "normalized": "Ptr MAP-\u003eIO(Ptr MAP)",
@@ -12111,6 +13019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapget",
           "package": "tokyocabinet-haskell",
@@ -12120,6 +13029,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapget",
           "normalized": "Ptr MAP-\u003ePtr Word-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -12134,6 +13044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapget2",
           "package": "tokyocabinet-haskell",
@@ -12143,6 +13054,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapget2",
           "normalized": "Ptr MAP-\u003eCString-\u003eIO CString",
@@ -12157,6 +13069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapiterinit",
           "package": "tokyocabinet-haskell",
@@ -12166,6 +13079,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapiterinit",
           "normalized": "Ptr MAP-\u003eIO()",
@@ -12180,6 +13094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapiternext",
           "package": "tokyocabinet-haskell",
@@ -12189,6 +13104,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapiternext",
           "normalized": "Ptr MAP-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -12203,6 +13119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapiternext2",
           "package": "tokyocabinet-haskell",
@@ -12212,6 +13129,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapiternext2",
           "normalized": "Ptr MAP-\u003eIO CString",
@@ -12226,6 +13144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapkeys",
           "package": "tokyocabinet-haskell",
@@ -12235,6 +13154,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapkeys",
           "normalized": "Ptr MAP-\u003eIO(Ptr LIST)",
@@ -12249,6 +13169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapload",
           "package": "tokyocabinet-haskell",
@@ -12258,6 +13179,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapload",
           "normalized": "Ptr Word-\u003eCInt-\u003eIO(Ptr MAP)",
@@ -12272,6 +13194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapmove",
           "package": "tokyocabinet-haskell",
@@ -12281,6 +13204,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapmove",
           "normalized": "Ptr MAP-\u003ePtr Word-\u003eCInt-\u003eBool-\u003eIO Bool",
@@ -12295,6 +13219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapmove2",
           "package": "tokyocabinet-haskell",
@@ -12304,6 +13229,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapmove2",
           "normalized": "Ptr MAP-\u003eCString-\u003eBool-\u003eIO Bool",
@@ -12318,6 +13244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapmsiz",
           "package": "tokyocabinet-haskell",
@@ -12327,6 +13254,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapmsiz",
           "normalized": "Ptr MAP-\u003eIO Word",
@@ -12341,6 +13269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapnew",
           "package": "tokyocabinet-haskell",
@@ -12350,6 +13279,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapnew",
           "package": "tokyocabinet-haskell",
@@ -12362,6 +13292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapnew2",
           "package": "tokyocabinet-haskell",
@@ -12371,6 +13302,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapnew2",
           "normalized": "Word-\u003eIO(Ptr MAP)",
@@ -12385,6 +13317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapout",
           "package": "tokyocabinet-haskell",
@@ -12394,6 +13327,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapout",
           "normalized": "Ptr MAP-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -12408,6 +13342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapout2",
           "package": "tokyocabinet-haskell",
@@ -12417,6 +13352,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapout2",
           "normalized": "Ptr MAP-\u003eCString-\u003eIO Bool",
@@ -12431,6 +13367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapput",
           "package": "tokyocabinet-haskell",
@@ -12440,6 +13377,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapput",
           "normalized": "Ptr MAP-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO()",
@@ -12454,6 +13392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapput2",
           "package": "tokyocabinet-haskell",
@@ -12463,6 +13402,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapput2",
           "normalized": "Ptr MAP-\u003eCString-\u003eCString-\u003eIO()",
@@ -12477,6 +13417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapputcat",
           "package": "tokyocabinet-haskell",
@@ -12486,6 +13427,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapputcat",
           "normalized": "Ptr MAP-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO()",
@@ -12500,6 +13442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapputcat2",
           "package": "tokyocabinet-haskell",
@@ -12509,6 +13452,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapputcat2",
           "normalized": "Ptr MAP-\u003eCString-\u003eCString-\u003eIO()",
@@ -12523,6 +13467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapputkeep",
           "package": "tokyocabinet-haskell",
@@ -12532,6 +13477,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapputkeep",
           "normalized": "Ptr MAP-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -12546,6 +13492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapputkeep2",
           "package": "tokyocabinet-haskell",
@@ -12555,6 +13502,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapputkeep2",
           "normalized": "Ptr MAP-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -12569,6 +13517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmaprnum",
           "package": "tokyocabinet-haskell",
@@ -12578,6 +13527,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmaprnum",
           "normalized": "Ptr MAP-\u003eIO Word",
@@ -12592,6 +13542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapvals",
           "package": "tokyocabinet-haskell",
@@ -12601,6 +13552,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "c_tcmapvals",
           "normalized": "Ptr MAP-\u003eIO(Ptr LIST)",
@@ -12615,6 +13567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "tcmapFinalizer",
           "package": "tokyocabinet-haskell",
@@ -12624,6 +13577,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "tcmapFinalizer",
           "normalized": "FunPtr(Ptr MAP-\u003eIO())",
@@ -12639,6 +13593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "unMap",
           "package": "tokyocabinet-haskell",
@@ -12648,6 +13603,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map.C",
           "name": "unMap",
           "package": "tokyocabinet-haskell",
@@ -12661,6 +13617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "Map",
           "package": "tokyocabinet-haskell",
@@ -12669,6 +13626,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "Map",
           "package": "tokyocabinet-haskell",
@@ -12682,6 +13640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "Map",
           "package": "tokyocabinet-haskell",
@@ -12690,6 +13649,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "Map",
           "package": "tokyocabinet-haskell",
@@ -12703,6 +13663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "adddouble",
           "package": "tokyocabinet-haskell",
@@ -12712,6 +13673,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "adddouble",
           "normalized": "Map a b-\u003ea-\u003eDouble-\u003eIO(Maybe Double)",
@@ -12726,6 +13688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "addint",
           "package": "tokyocabinet-haskell",
@@ -12735,6 +13698,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "addint",
           "normalized": "Map a b-\u003ea-\u003eInt-\u003eIO(Maybe Int)",
@@ -12749,6 +13713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "clear",
           "package": "tokyocabinet-haskell",
@@ -12758,6 +13723,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "clear",
           "normalized": "Map a b-\u003eIO()",
@@ -12772,6 +13738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "cutfront",
           "package": "tokyocabinet-haskell",
@@ -12781,6 +13748,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "cutfront",
           "normalized": "Map a b-\u003eInt-\u003eIO()",
@@ -12795,6 +13763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -12804,6 +13773,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "delete",
           "normalized": "Map a b-\u003eIO()",
@@ -12818,6 +13788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "dump",
           "package": "tokyocabinet-haskell",
@@ -12827,6 +13798,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "dump",
           "normalized": "Map a b-\u003eIO ByteString",
@@ -12841,6 +13813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "dup",
           "package": "tokyocabinet-haskell",
@@ -12850,6 +13823,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "dup",
           "normalized": "Map a b-\u003eIO(Map a b)",
@@ -12864,6 +13838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -12873,6 +13848,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "get",
           "normalized": "Map a b-\u003ea-\u003eIO(Maybe b)",
@@ -12887,6 +13863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "iterinit",
           "package": "tokyocabinet-haskell",
@@ -12896,6 +13873,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "iterinit",
           "normalized": "Map a b-\u003eIO()",
@@ -12910,6 +13888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "iternext",
           "package": "tokyocabinet-haskell",
@@ -12919,6 +13898,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "iternext",
           "normalized": "Map a b-\u003eIO(Maybe a)",
@@ -12933,6 +13913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "keys",
           "package": "tokyocabinet-haskell",
@@ -12942,6 +13923,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "keys",
           "normalized": "Map a b-\u003eIO[a]",
@@ -12956,6 +13938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "load",
           "package": "tokyocabinet-haskell",
@@ -12965,6 +13948,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "load",
           "normalized": "ByteString-\u003eIO(Map a b)",
@@ -12979,6 +13963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "move",
           "package": "tokyocabinet-haskell",
@@ -12988,6 +13973,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "move",
           "normalized": "Map a b-\u003ea-\u003eBool-\u003eIO Bool",
@@ -13002,6 +13988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "msiz",
           "package": "tokyocabinet-haskell",
@@ -13011,6 +13998,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "msiz",
           "normalized": "Map a b-\u003eIO Word",
@@ -13025,6 +14013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -13034,6 +14023,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -13046,6 +14036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "new2",
           "package": "tokyocabinet-haskell",
@@ -13055,6 +14046,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "new2",
           "normalized": "Word-\u003eIO(Map a b)",
@@ -13069,6 +14061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -13078,6 +14071,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "out",
           "normalized": "Map a b-\u003ea-\u003eIO Bool",
@@ -13092,6 +14086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -13101,6 +14096,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "put",
           "normalized": "Map a b-\u003ea-\u003eb-\u003eIO()",
@@ -13115,6 +14111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "putcat",
           "package": "tokyocabinet-haskell",
@@ -13124,6 +14121,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "putcat",
           "normalized": "Map a b-\u003ea-\u003eb-\u003eIO()",
@@ -13138,6 +14136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "putkeep",
           "package": "tokyocabinet-haskell",
@@ -13147,6 +14146,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "putkeep",
           "normalized": "Map a b-\u003ea-\u003eb-\u003eIO Bool",
@@ -13161,6 +14161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "rnum",
           "package": "tokyocabinet-haskell",
@@ -13170,6 +14171,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "rnum",
           "normalized": "Map a b-\u003eIO Word",
@@ -13184,6 +14186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Map",
           "name": "vals",
           "package": "tokyocabinet-haskell",
@@ -13193,6 +14196,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Map",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Map",
           "name": "vals",
           "normalized": "Map a b-\u003eIO[b]",
@@ -13207,6 +14211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "Sequence",
           "package": "tokyocabinet-haskell",
@@ -13215,6 +14220,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Sequence",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "Sequence",
           "package": "tokyocabinet-haskell",
@@ -13228,6 +14234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "Sequence",
           "package": "tokyocabinet-haskell",
@@ -13236,6 +14243,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Sequence",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "Sequence",
           "package": "tokyocabinet-haskell",
@@ -13249,6 +14257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "empty",
           "package": "tokyocabinet-haskell",
@@ -13258,6 +14267,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Sequence",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "empty",
           "package": "tokyocabinet-haskell",
@@ -13270,6 +14280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "peekList'",
           "package": "tokyocabinet-haskell",
@@ -13279,6 +14290,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Sequence",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "peekList'",
           "normalized": "Ptr LIST-\u003eIO(a b)",
@@ -13294,6 +14306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "smap",
           "package": "tokyocabinet-haskell",
@@ -13303,6 +14316,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Sequence",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "smap",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eIO(b a)",
@@ -13317,6 +14331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "withList",
           "package": "tokyocabinet-haskell",
@@ -13326,6 +14341,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Sequence",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Sequence",
           "name": "withList",
           "normalized": "a b-\u003e(Ptr LIST-\u003eIO c)-\u003eIO c",
@@ -13341,6 +14357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "Storable",
           "package": "tokyocabinet-haskell",
@@ -13349,6 +14366,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "Storable",
           "package": "tokyocabinet-haskell",
@@ -13362,6 +14380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "PtrLen",
           "package": "tokyocabinet-haskell",
@@ -13370,6 +14389,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "PtrLen",
           "package": "tokyocabinet-haskell",
@@ -13383,6 +14403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "Storable",
           "package": "tokyocabinet-haskell",
@@ -13391,6 +14412,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "Storable",
           "package": "tokyocabinet-haskell",
@@ -13404,6 +14426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "fromString",
           "package": "tokyocabinet-haskell",
@@ -13413,6 +14436,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -13428,6 +14452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "fromStringL",
           "package": "tokyocabinet-haskell",
@@ -13437,6 +14462,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "fromStringL",
           "normalized": "String-\u003e[a]",
@@ -13452,6 +14478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "liftPL",
           "package": "tokyocabinet-haskell",
@@ -13461,6 +14488,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "liftPL",
           "normalized": "(a-\u003e(CStringLen-\u003eIO b)-\u003eIO b)-\u003ea-\u003e(PtrLen-\u003eIO b)-\u003eIO b",
@@ -13476,6 +14504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "peekPtrLen",
           "package": "tokyocabinet-haskell",
@@ -13485,6 +14514,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "peekPtrLen",
           "normalized": "PtrLen-\u003eIO a",
@@ -13500,6 +14530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "peekPtrLenForFStorable",
           "package": "tokyocabinet-haskell",
@@ -13509,6 +14540,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "peekPtrLenForFStorable",
           "normalized": "PtrLen-\u003eIO a",
@@ -13524,6 +14556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "peekPtrLenL",
           "package": "tokyocabinet-haskell",
@@ -13533,6 +14566,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "peekPtrLenL",
           "normalized": "PtrLen-\u003ea-\u003eIO[a]",
@@ -13548,6 +14582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "peekPtrLenLForFStorable",
           "package": "tokyocabinet-haskell",
@@ -13557,6 +14592,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "peekPtrLenLForFStorable",
           "normalized": "PtrLen-\u003ea-\u003eIO[a]",
@@ -13572,6 +14608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "toInt64",
           "package": "tokyocabinet-haskell",
@@ -13581,6 +14618,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "toInt64",
           "normalized": "a-\u003eInt",
@@ -13596,6 +14634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "toInt64L",
           "package": "tokyocabinet-haskell",
@@ -13605,6 +14644,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "toInt64L",
           "normalized": "[a]-\u003eInt",
@@ -13620,6 +14660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "withPtrLen",
           "package": "tokyocabinet-haskell",
@@ -13629,6 +14670,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "withPtrLen",
           "normalized": "a-\u003e(PtrLen-\u003eIO b)-\u003eIO b",
@@ -13644,6 +14686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "withPtrLenForFStorable",
           "package": "tokyocabinet-haskell",
@@ -13653,6 +14696,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "withPtrLenForFStorable",
           "normalized": "a-\u003e(PtrLen-\u003eIO b)-\u003eIO b",
@@ -13668,6 +14712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "withPtrLenL",
           "package": "tokyocabinet-haskell",
@@ -13677,6 +14722,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "withPtrLenL",
           "normalized": "[a]-\u003e(PtrLen-\u003eIO b)-\u003eIO b",
@@ -13692,6 +14738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.Storable",
           "name": "withPtrLenLForFStorable",
           "package": "tokyocabinet-haskell",
@@ -13701,6 +14748,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet Storable",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.Storable",
           "name": "withPtrLenLForFStorable",
           "normalized": "[a]-\u003e(PtrLen-\u003eIO b)-\u003eIO b",
@@ -13716,6 +14764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -13724,6 +14773,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -13737,6 +14787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the index type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "IndexType",
           "package": "tokyocabinet-haskell",
@@ -13746,6 +14797,7 @@
         "index": {
           "description": "Represents the index type",
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "IndexType",
           "package": "tokyocabinet-haskell",
@@ -13760,6 +14812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents open mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -13769,6 +14822,7 @@
         "index": {
           "description": "Represents open mode",
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -13782,6 +14836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -13790,6 +14845,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -13803,6 +14859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "TDB'",
           "package": "tokyocabinet-haskell",
@@ -13811,6 +14868,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "TDB'",
           "package": "tokyocabinet-haskell",
@@ -13824,6 +14882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -13832,6 +14891,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -14168,6 +15228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -14177,6 +15238,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -14282,6 +15344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbadddouble",
           "package": "tokyocabinet-haskell",
@@ -14291,6 +15354,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbadddouble",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003eCDouble-\u003eIO CDouble",
@@ -14305,6 +15369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbaddint",
           "package": "tokyocabinet-haskell",
@@ -14314,6 +15379,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbaddint",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -14328,6 +15394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbclose",
           "package": "tokyocabinet-haskell",
@@ -14337,6 +15404,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbclose",
           "normalized": "Ptr TDB'-\u003eIO Bool",
@@ -14351,6 +15419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbcopy",
           "package": "tokyocabinet-haskell",
@@ -14360,6 +15429,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbcopy",
           "normalized": "Ptr TDB'-\u003eCString-\u003eIO Bool",
@@ -14374,6 +15444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbdel",
           "package": "tokyocabinet-haskell",
@@ -14383,6 +15454,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbdel",
           "normalized": "Ptr TDB'-\u003eIO()",
@@ -14397,6 +15469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbecode",
           "package": "tokyocabinet-haskell",
@@ -14406,6 +15479,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbecode",
           "normalized": "Ptr TDB'-\u003eIO CInt",
@@ -14420,6 +15494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbfsiz",
           "package": "tokyocabinet-haskell",
@@ -14429,6 +15504,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbfsiz",
           "normalized": "Ptr TDB'-\u003eIO Word",
@@ -14443,6 +15519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbfwmkeys",
           "package": "tokyocabinet-haskell",
@@ -14452,6 +15529,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbfwmkeys",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -14466,6 +15544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbfwmkeys2",
           "package": "tokyocabinet-haskell",
@@ -14475,6 +15554,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbfwmkeys2",
           "normalized": "Ptr TDB'-\u003eCString-\u003eCInt-\u003eIO(Ptr LIST)",
@@ -14489,6 +15569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbgenuid",
           "package": "tokyocabinet-haskell",
@@ -14498,6 +15579,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbgenuid",
           "normalized": "Ptr TDB'-\u003eIO Int",
@@ -14512,6 +15594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbget",
           "package": "tokyocabinet-haskell",
@@ -14521,6 +15604,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbget",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003eIO(Ptr MAP)",
@@ -14535,6 +15619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbget2",
           "package": "tokyocabinet-haskell",
@@ -14544,6 +15629,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbget2",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -14558,6 +15644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbget3",
           "package": "tokyocabinet-haskell",
@@ -14567,6 +15654,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbget3",
           "normalized": "Ptr TDB'-\u003eCString-\u003eIO CString",
@@ -14581,6 +15669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbiterinit",
           "package": "tokyocabinet-haskell",
@@ -14590,6 +15679,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbiterinit",
           "normalized": "Ptr TDB'-\u003eIO Bool",
@@ -14604,6 +15694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbiternext",
           "package": "tokyocabinet-haskell",
@@ -14613,6 +15704,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbiternext",
           "normalized": "Ptr TDB'-\u003ePtr CInt-\u003eIO(Ptr Word)",
@@ -14627,6 +15719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbiternext2",
           "package": "tokyocabinet-haskell",
@@ -14636,6 +15729,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbiternext2",
           "normalized": "Ptr TDB'-\u003eIO CString",
@@ -14650,6 +15744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbnew",
           "package": "tokyocabinet-haskell",
@@ -14659,6 +15754,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbnew",
           "package": "tokyocabinet-haskell",
@@ -14671,6 +15767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbopen",
           "package": "tokyocabinet-haskell",
@@ -14680,6 +15777,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbopen",
           "normalized": "Ptr TDB'-\u003eCString-\u003eCInt-\u003eIO Bool",
@@ -14694,6 +15792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdboptimize",
           "package": "tokyocabinet-haskell",
@@ -14703,6 +15802,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdboptimize",
           "normalized": "Ptr TDB'-\u003eInt-\u003eInt-\u003eInt-\u003eWord-\u003eIO Bool",
@@ -14717,6 +15817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbout",
           "package": "tokyocabinet-haskell",
@@ -14726,6 +15827,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbout",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -14740,6 +15842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbout2",
           "package": "tokyocabinet-haskell",
@@ -14749,6 +15852,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbout2",
           "normalized": "Ptr TDB'-\u003eCString-\u003eIO Bool",
@@ -14763,6 +15867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbpath",
           "package": "tokyocabinet-haskell",
@@ -14772,6 +15877,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbpath",
           "normalized": "Ptr TDB'-\u003eIO CString",
@@ -14786,6 +15892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbput",
           "package": "tokyocabinet-haskell",
@@ -14795,6 +15902,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbput",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003ePtr MAP-\u003eIO Bool",
@@ -14809,6 +15917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbput2",
           "package": "tokyocabinet-haskell",
@@ -14818,6 +15927,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbput2",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -14832,6 +15942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbput3",
           "package": "tokyocabinet-haskell",
@@ -14841,6 +15952,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbput3",
           "normalized": "Ptr TDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -14855,6 +15967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputcat",
           "package": "tokyocabinet-haskell",
@@ -14864,6 +15977,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputcat",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003ePtr MAP-\u003eIO Bool",
@@ -14878,6 +15992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputcat2",
           "package": "tokyocabinet-haskell",
@@ -14887,6 +16002,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputcat2",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -14901,6 +16017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputcat3",
           "package": "tokyocabinet-haskell",
@@ -14910,6 +16027,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputcat3",
           "normalized": "Ptr TDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -14924,6 +16042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputkeep",
           "package": "tokyocabinet-haskell",
@@ -14933,6 +16052,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputkeep",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003ePtr MAP-\u003eIO Bool",
@@ -14947,6 +16067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputkeep2",
           "package": "tokyocabinet-haskell",
@@ -14956,6 +16077,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputkeep2",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO Bool",
@@ -14970,6 +16092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputkeep3",
           "package": "tokyocabinet-haskell",
@@ -14979,6 +16102,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbputkeep3",
           "normalized": "Ptr TDB'-\u003eCString-\u003eCString-\u003eIO Bool",
@@ -14993,6 +16117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbrnum",
           "package": "tokyocabinet-haskell",
@@ -15002,6 +16127,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbrnum",
           "normalized": "Ptr TDB'-\u003eIO Word",
@@ -15016,6 +16142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsetcache",
           "package": "tokyocabinet-haskell",
@@ -15025,6 +16152,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsetcache",
           "normalized": "Ptr TDB'-\u003eInt-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -15039,6 +16167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsetindex",
           "package": "tokyocabinet-haskell",
@@ -15048,6 +16177,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsetindex",
           "normalized": "Ptr TDB'-\u003eCString-\u003eCInt-\u003eIO Bool",
@@ -15062,6 +16192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsetmutex",
           "package": "tokyocabinet-haskell",
@@ -15071,6 +16202,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsetmutex",
           "normalized": "Ptr TDB'-\u003eIO Bool",
@@ -15085,6 +16217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsetxmsiz",
           "package": "tokyocabinet-haskell",
@@ -15094,6 +16227,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsetxmsiz",
           "normalized": "Ptr TDB'-\u003eInt-\u003eIO Bool",
@@ -15108,6 +16242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsync",
           "package": "tokyocabinet-haskell",
@@ -15117,6 +16252,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbsync",
           "normalized": "Ptr TDB'-\u003eIO Bool",
@@ -15131,6 +16267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbtranabort",
           "package": "tokyocabinet-haskell",
@@ -15140,6 +16277,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbtranabort",
           "normalized": "Ptr TDB'-\u003eIO Bool",
@@ -15154,6 +16292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbtranbegin",
           "package": "tokyocabinet-haskell",
@@ -15163,6 +16302,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbtranbegin",
           "normalized": "Ptr TDB'-\u003eIO Bool",
@@ -15177,6 +16317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbtrancommit",
           "package": "tokyocabinet-haskell",
@@ -15186,6 +16327,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbtrancommit",
           "normalized": "Ptr TDB'-\u003eIO Bool",
@@ -15200,6 +16342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbtune",
           "package": "tokyocabinet-haskell",
@@ -15209,6 +16352,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbtune",
           "normalized": "Ptr TDB'-\u003eInt-\u003eInt-\u003eInt-\u003eWord-\u003eIO Bool",
@@ -15223,6 +16367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbvanish",
           "package": "tokyocabinet-haskell",
@@ -15232,6 +16377,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbvanish",
           "normalized": "Ptr TDB'-\u003eIO Bool",
@@ -15246,6 +16392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbvsiz",
           "package": "tokyocabinet-haskell",
@@ -15255,6 +16402,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbvsiz",
           "normalized": "Ptr TDB'-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -15269,6 +16417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbvsiz2",
           "package": "tokyocabinet-haskell",
@@ -15278,6 +16427,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "c_tctdbvsiz2",
           "normalized": "Ptr TDB'-\u003eCString-\u003eIO CInt",
@@ -15292,6 +16442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "combineOpenMode",
           "package": "tokyocabinet-haskell",
@@ -15301,6 +16452,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "combineOpenMode",
           "normalized": "[OpenMode]-\u003eCInt",
@@ -15316,6 +16468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "combineTuningOption",
           "package": "tokyocabinet-haskell",
@@ -15325,6 +16478,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "combineTuningOption",
           "normalized": "[TuningOption]-\u003eWord",
@@ -15340,6 +16494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "indexTypeToCInt",
           "package": "tokyocabinet-haskell",
@@ -15349,6 +16504,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "indexTypeToCInt",
           "normalized": "IndexType-\u003eCInt",
@@ -15364,6 +16520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "openModeToCInt",
           "package": "tokyocabinet-haskell",
@@ -15373,6 +16530,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "openModeToCInt",
           "normalized": "OpenMode-\u003eCInt",
@@ -15388,6 +16546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "tctdbFinalizer",
           "package": "tokyocabinet-haskell",
@@ -15397,6 +16556,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "tctdbFinalizer",
           "normalized": "FunPtr(Ptr TDB'-\u003eIO())",
@@ -15412,6 +16572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "tuningOptionToWord8",
           "package": "tokyocabinet-haskell",
@@ -15421,6 +16582,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "tuningOptionToWord8",
           "normalized": "TuningOption-\u003eWord",
@@ -15436,6 +16598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "unTCTDB",
           "package": "tokyocabinet-haskell",
@@ -15445,6 +16608,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.C",
           "name": "unTCTDB",
           "package": "tokyocabinet-haskell",
@@ -15458,6 +16622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -15466,6 +16631,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "C",
           "package": "tokyocabinet-haskell",
@@ -15478,6 +16644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "Condition",
           "package": "tokyocabinet-haskell",
@@ -15486,6 +16653,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "Condition",
           "package": "tokyocabinet-haskell",
@@ -15499,6 +16667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "OrderType",
           "package": "tokyocabinet-haskell",
@@ -15507,6 +16676,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "OrderType",
           "package": "tokyocabinet-haskell",
@@ -15520,6 +16690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "PostTreatment",
           "package": "tokyocabinet-haskell",
@@ -15528,6 +16699,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "PostTreatment",
           "package": "tokyocabinet-haskell",
@@ -15541,6 +16713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "QRY",
           "package": "tokyocabinet-haskell",
@@ -15549,6 +16722,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "QRY",
           "package": "tokyocabinet-haskell",
@@ -15562,6 +16736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "TDBQRY",
           "package": "tokyocabinet-haskell",
@@ -15570,6 +16745,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "TDBQRY",
           "package": "tokyocabinet-haskell",
@@ -15583,6 +16759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "TDBQRYPROC'",
           "package": "tokyocabinet-haskell",
@@ -15591,6 +16768,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "TDBQRYPROC'",
           "package": "tokyocabinet-haskell",
@@ -16179,6 +17357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "TDBQRY",
           "package": "tokyocabinet-haskell",
@@ -16188,6 +17367,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "TDBQRY",
           "package": "tokyocabinet-haskell",
@@ -16201,6 +17381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqryaddcond",
           "package": "tokyocabinet-haskell",
@@ -16210,6 +17391,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqryaddcond",
           "normalized": "Ptr QRY-\u003eCString-\u003eCInt-\u003eCString-\u003eIO()",
@@ -16224,6 +17406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrydel",
           "package": "tokyocabinet-haskell",
@@ -16233,6 +17416,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrydel",
           "normalized": "Ptr QRY-\u003eIO()",
@@ -16247,6 +17431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqryhint",
           "package": "tokyocabinet-haskell",
@@ -16256,6 +17441,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqryhint",
           "normalized": "Ptr QRY-\u003eIO CString",
@@ -16270,6 +17456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrynew",
           "package": "tokyocabinet-haskell",
@@ -16279,6 +17466,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrynew",
           "normalized": "Ptr TDB'-\u003eIO(Ptr QRY)",
@@ -16293,6 +17481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqryproc",
           "package": "tokyocabinet-haskell",
@@ -16302,6 +17491,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqryproc",
           "normalized": "Ptr QRY-\u003eFunPtr TDBQRYPROC'-\u003ePtr Word-\u003eIO Bool",
@@ -16316,6 +17506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrysearch",
           "package": "tokyocabinet-haskell",
@@ -16325,6 +17516,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrysearch",
           "normalized": "Ptr QRY-\u003eIO(Ptr LIST)",
@@ -16339,6 +17531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrysearchout",
           "package": "tokyocabinet-haskell",
@@ -16348,6 +17541,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrysearchout",
           "normalized": "Ptr QRY-\u003eIO Bool",
@@ -16362,6 +17556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrysetlimit",
           "package": "tokyocabinet-haskell",
@@ -16371,6 +17566,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrysetlimit",
           "normalized": "Ptr QRY-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -16385,6 +17581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrysetorder",
           "package": "tokyocabinet-haskell",
@@ -16394,6 +17591,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "c_tctdbqrysetorder",
           "normalized": "Ptr QRY-\u003eCString-\u003eCInt-\u003eIO()",
@@ -16408,6 +17606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "condToCInt",
           "package": "tokyocabinet-haskell",
@@ -16417,6 +17616,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "condToCInt",
           "normalized": "Condition-\u003eCInt",
@@ -16432,6 +17632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "mkProc",
           "package": "tokyocabinet-haskell",
@@ -16441,6 +17642,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "mkProc",
           "normalized": "TDBQRYPROC'-\u003eIO(FunPtr TDBQRYPROC')",
@@ -16456,6 +17658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "orderToCInt",
           "package": "tokyocabinet-haskell",
@@ -16465,6 +17668,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "orderToCInt",
           "normalized": "OrderType-\u003eCInt",
@@ -16480,6 +17684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "ptToCInt",
           "package": "tokyocabinet-haskell",
@@ -16489,6 +17694,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "ptToCInt",
           "normalized": "PostTreatment a b c-\u003eCInt",
@@ -16504,6 +17710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "tctdbqryFinalizer",
           "package": "tokyocabinet-haskell",
@@ -16513,6 +17720,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "tctdbqryFinalizer",
           "normalized": "FunPtr(Ptr QRY-\u003eIO())",
@@ -16528,6 +17736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "unTDBOBJ",
           "package": "tokyocabinet-haskell",
@@ -16537,6 +17746,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "unTDBOBJ",
           "package": "tokyocabinet-haskell",
@@ -16550,6 +17760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "unTDBQRY",
           "package": "tokyocabinet-haskell",
@@ -16559,6 +17770,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query C",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query.C",
           "name": "unTDBQRY",
           "package": "tokyocabinet-haskell",
@@ -16572,6 +17784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "Query",
           "package": "tokyocabinet-haskell",
@@ -16580,6 +17793,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "Query",
           "package": "tokyocabinet-haskell",
@@ -16593,6 +17807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "Condition",
           "package": "tokyocabinet-haskell",
@@ -16601,6 +17816,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "Condition",
           "package": "tokyocabinet-haskell",
@@ -16614,6 +17830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "OrderType",
           "package": "tokyocabinet-haskell",
@@ -16622,6 +17839,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "OrderType",
           "package": "tokyocabinet-haskell",
@@ -16635,6 +17853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "PostTreatment",
           "package": "tokyocabinet-haskell",
@@ -16643,6 +17862,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "PostTreatment",
           "package": "tokyocabinet-haskell",
@@ -16657,6 +17877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a narrowing condition to a query object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "addcond",
           "package": "tokyocabinet-haskell",
@@ -16667,6 +17888,7 @@
         "index": {
           "description": "Add narrowing condition to query object",
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "addcond",
           "normalized": "TDBQRY-\u003ea-\u003eCondition-\u003eb-\u003eIO()",
@@ -16682,6 +17904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree object resource forcibly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -16692,6 +17915,7 @@
         "index": {
           "description": "Free object resource forcibly",
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "delete",
           "normalized": "TDBQRY-\u003eIO()",
@@ -16706,6 +17930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "hint",
           "package": "tokyocabinet-haskell",
@@ -16715,6 +17940,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "hint",
           "normalized": "TDBQRY-\u003eIO String",
@@ -16730,6 +17956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a query object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -16740,6 +17967,7 @@
         "index": {
           "description": "Create query object",
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "new",
           "normalized": "TDB-\u003eIO TDBQRY",
@@ -16755,6 +17983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess each record corresponding to a query object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "proc",
           "package": "tokyocabinet-haskell",
@@ -16764,6 +17993,7 @@
         "index": {
           "description": "Process each record corresponding to query object",
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "proc",
           "normalized": "TDBQRY-\u003e(a-\u003eb c a-\u003eIO(PostTreatment b c a))-\u003eIO Bool",
@@ -16779,6 +18009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the search of a query object. The return value is a list\n object of the primary keys of the corresponding records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "search",
           "package": "tokyocabinet-haskell",
@@ -16789,6 +18020,7 @@
         "index": {
           "description": "Execute the search of query object The return value is list object of the primary keys of the corresponding records",
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "search",
           "normalized": "TDBQRY-\u003eIO(a b)",
@@ -16804,6 +18036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove each record corresponding to a query object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "searchout",
           "package": "tokyocabinet-haskell",
@@ -16814,6 +18047,7 @@
         "index": {
           "description": "Remove each record corresponding to query object",
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "searchout",
           "normalized": "TDBQRY-\u003eIO Bool",
@@ -16829,6 +18063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the limit number of records of the result of a query object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "setlimit",
           "package": "tokyocabinet-haskell",
@@ -16839,6 +18074,7 @@
         "index": {
           "description": "Set the limit number of records of the result of query object",
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "setlimit",
           "normalized": "TDBQRY-\u003eInt-\u003eInt-\u003eIO()",
@@ -16854,6 +18090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the order of a query object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "setorder",
           "package": "tokyocabinet-haskell",
@@ -16864,6 +18101,7 @@
         "index": {
           "description": "Set the order of query object",
           "hierarchy": "Database TokyoCabinet TDB Query",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB.Query",
           "name": "setorder",
           "normalized": "TDBQRY-\u003ea-\u003eOrderType-\u003eIO()",
@@ -16879,6 +18117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the table database. See also,\n \u003ca\u003ehttp://tokyocabinet.sourceforge.net/spex-en.html#tctdbapi\u003c/a\u003e for details\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -16888,6 +18127,7 @@
         "index": {
           "description": "Interface to the table database See also http tokyocabinet.sourceforge.net spex-en.html tctdbapi for details",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -16901,6 +18141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "AssocList",
           "package": "tokyocabinet-haskell",
@@ -16909,6 +18150,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "AssocList",
           "package": "tokyocabinet-haskell",
@@ -16923,6 +18165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -16932,6 +18175,7 @@
         "index": {
           "description": "Represents error",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -16946,6 +18190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the index type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "IndexType",
           "package": "tokyocabinet-haskell",
@@ -16955,6 +18200,7 @@
         "index": {
           "description": "Represents the index type",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "IndexType",
           "package": "tokyocabinet-haskell",
@@ -16969,6 +18215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents open mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -16978,6 +18225,7 @@
         "index": {
           "description": "Represents open mode",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -16991,6 +18239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -16999,6 +18248,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -17012,6 +18262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -17020,6 +18271,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "TuningOption",
           "package": "tokyocabinet-haskell",
@@ -17034,6 +18286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a real number to a column of a record in a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "adddouble",
           "package": "tokyocabinet-haskell",
@@ -17044,6 +18297,7 @@
         "index": {
           "description": "Add real number to column of record in table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "adddouble",
           "normalized": "TDB-\u003ea-\u003eDouble-\u003eIO(Maybe Double)",
@@ -17059,6 +18313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an integer to a column of a record in a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "addint",
           "package": "tokyocabinet-haskell",
@@ -17069,6 +18324,7 @@
         "index": {
           "description": "Add an integer to column of record in table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "addint",
           "normalized": "TDB-\u003ea-\u003eInt-\u003eIO(Maybe Int)",
@@ -17084,6 +18340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the database file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "close",
           "package": "tokyocabinet-haskell",
@@ -17094,6 +18351,7 @@
         "index": {
           "description": "Open the database file",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "close",
           "normalized": "TDB-\u003eIO Bool",
@@ -17109,6 +18367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the database file of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "copy",
           "package": "tokyocabinet-haskell",
@@ -17118,6 +18377,7 @@
         "index": {
           "description": "Copy the database file of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "copy",
           "normalized": "TDB-\u003eString-\u003eIO Bool",
@@ -17133,6 +18393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree object resource forcibly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -17143,6 +18404,7 @@
         "index": {
           "description": "Free object resource forcibly",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "delete",
           "normalized": "TDB-\u003eIO()",
@@ -17158,6 +18420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last happened error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "ecode",
           "package": "tokyocabinet-haskell",
@@ -17168,6 +18431,7 @@
         "index": {
           "description": "Get the last happened error code",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "ecode",
           "normalized": "TDB-\u003eIO ECODE",
@@ -17183,6 +18447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the database file of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "fsiz",
           "package": "tokyocabinet-haskell",
@@ -17193,6 +18458,7 @@
         "index": {
           "description": "Get the size of the database file of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "fsiz",
           "normalized": "TDB-\u003eIO Word",
@@ -17208,6 +18474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet forward matching primary keys in a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "fwmkeys",
           "package": "tokyocabinet-haskell",
@@ -17218,6 +18485,7 @@
         "index": {
           "description": "Get forward matching primary keys in table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "fwmkeys",
           "normalized": "TDB-\u003ea-\u003eInt-\u003eIO(b a)",
@@ -17233,6 +18501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a unique ID number of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "genuid",
           "package": "tokyocabinet-haskell",
@@ -17243,6 +18512,7 @@
         "index": {
           "description": "Generate unique ID number of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "genuid",
           "normalized": "TDB-\u003eIO(Maybe Int)",
@@ -17258,6 +18528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a record in a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -17268,6 +18539,7 @@
         "index": {
           "description": "Retrieve record in table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "get",
           "normalized": "TDB-\u003ea-\u003eIO(b a c)",
@@ -17283,6 +18555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a record in a table database object as a zero separated\n column string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "get'",
           "package": "tokyocabinet-haskell",
@@ -17293,6 +18566,7 @@
         "index": {
           "description": "Retrieve record in table database object as zero separated column string",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "get'",
           "normalized": "TDB-\u003ea-\u003eIO(Maybe b)",
@@ -17308,6 +18582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the iterator of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "iterinit",
           "package": "tokyocabinet-haskell",
@@ -17318,6 +18593,7 @@
         "index": {
           "description": "Initialize the iterator of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "iterinit",
           "normalized": "TDB-\u003eIO Bool",
@@ -17333,6 +18609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next primary key of the iterator of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "iternext",
           "package": "tokyocabinet-haskell",
@@ -17343,6 +18620,7 @@
         "index": {
           "description": "Get the next primary key of the iterator of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "iternext",
           "normalized": "TDB-\u003eIO(Maybe a)",
@@ -17358,6 +18636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the new table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -17368,6 +18647,7 @@
         "index": {
           "description": "Create the new table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -17381,6 +18661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the table database file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "open",
           "package": "tokyocabinet-haskell",
@@ -17391,6 +18672,7 @@
         "index": {
           "description": "Open the table database file",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "open",
           "normalized": "TDB-\u003eString-\u003e[OpenMode]-\u003eIO Bool",
@@ -17406,6 +18688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize the file of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "optimize",
           "package": "tokyocabinet-haskell",
@@ -17415,6 +18698,7 @@
         "index": {
           "description": "Optimize the file of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "optimize",
           "normalized": "TDB-\u003eInt-\u003eInt-\u003eInt-\u003e[TuningOption]-\u003eIO Bool",
@@ -17430,6 +18714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a record of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -17440,6 +18725,7 @@
         "index": {
           "description": "Remove record of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "out",
           "normalized": "TDB-\u003ea-\u003eIO Bool",
@@ -17455,6 +18741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the file path of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "path",
           "package": "tokyocabinet-haskell",
@@ -17465,6 +18752,7 @@
         "index": {
           "description": "Get the file path of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "path",
           "normalized": "TDB-\u003eIO(Maybe String)",
@@ -17480,6 +18768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a record into a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -17490,6 +18779,7 @@
         "index": {
           "description": "Store record into table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "put",
           "normalized": "TDB-\u003ea-\u003eb c a-\u003eIO Bool",
@@ -17505,6 +18795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a string record into a table database object with a zero\n separated column string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "put'",
           "package": "tokyocabinet-haskell",
@@ -17515,6 +18806,7 @@
         "index": {
           "description": "Store string record into table database object with zero separated column string",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "put'",
           "normalized": "TDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -17530,6 +18822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate columns of the existing record in a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "putcat",
           "package": "tokyocabinet-haskell",
@@ -17540,6 +18833,7 @@
         "index": {
           "description": "Concatenate columns of the existing record in table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "putcat",
           "normalized": "TDB-\u003ea-\u003eb c a-\u003eIO Bool",
@@ -17555,6 +18849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate columns in a table database object with a zero\n separated column string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "putcat'",
           "package": "tokyocabinet-haskell",
@@ -17565,6 +18860,7 @@
         "index": {
           "description": "Concatenate columns in table database object with zero separated column string",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "putcat'",
           "normalized": "TDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -17580,6 +18876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a new record into a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "putkeep",
           "package": "tokyocabinet-haskell",
@@ -17590,6 +18887,7 @@
         "index": {
           "description": "Store new record into table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "putkeep",
           "normalized": "TDB-\u003ea-\u003eb c a-\u003eIO Bool",
@@ -17605,6 +18903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a new string record into a table database object with a\n zero separated column string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "putkeep'",
           "package": "tokyocabinet-haskell",
@@ -17615,6 +18914,7 @@
         "index": {
           "description": "Store new string record into table database object with zero separated column string",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "putkeep'",
           "normalized": "TDB-\u003ea-\u003eb-\u003eIO Bool",
@@ -17630,6 +18930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of records of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "rnum",
           "package": "tokyocabinet-haskell",
@@ -17640,6 +18941,7 @@
         "index": {
           "description": "Get the number of records of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "rnum",
           "normalized": "TDB-\u003eIO Word",
@@ -17655,6 +18957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the caching parameters of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "setcache",
           "package": "tokyocabinet-haskell",
@@ -17664,6 +18967,7 @@
         "index": {
           "description": "Set the caching parameters of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "setcache",
           "normalized": "TDB-\u003eInt-\u003eInt-\u003eInt-\u003eIO Bool",
@@ -17679,6 +18983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a column index to a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "setindex",
           "package": "tokyocabinet-haskell",
@@ -17689,6 +18994,7 @@
         "index": {
           "description": "Set column index to table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "setindex",
           "normalized": "TDB-\u003eString-\u003eIndexType-\u003eIO Bool",
@@ -17704,6 +19010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the size of the extra mapped memory of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "setxmsiz",
           "package": "tokyocabinet-haskell",
@@ -17713,6 +19020,7 @@
         "index": {
           "description": "Set the size of the extra mapped memory of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "setxmsiz",
           "normalized": "TDB-\u003eInt-\u003eIO Bool",
@@ -17728,6 +19036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize updated contents of a table database object with the\n file and the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "sync",
           "package": "tokyocabinet-haskell",
@@ -17738,6 +19047,7 @@
         "index": {
           "description": "Synchronize updated contents of table database object with the file and the device",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "sync",
           "normalized": "TDB-\u003eIO Bool",
@@ -17753,6 +19063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort the transaction of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "tranabort",
           "package": "tokyocabinet-haskell",
@@ -17763,6 +19074,7 @@
         "index": {
           "description": "Abort the transaction of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "tranabort",
           "normalized": "TDB-\u003eIO Bool",
@@ -17778,6 +19090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin the transaction of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "tranbegin",
           "package": "tokyocabinet-haskell",
@@ -17788,6 +19101,7 @@
         "index": {
           "description": "Begin the transaction of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "tranbegin",
           "normalized": "TDB-\u003eIO Bool",
@@ -17803,6 +19117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit the transaction of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "trancommit",
           "package": "tokyocabinet-haskell",
@@ -17813,6 +19128,7 @@
         "index": {
           "description": "Commit the transaction of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "trancommit",
           "normalized": "TDB-\u003eIO Bool",
@@ -17828,6 +19144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the tuning parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "tune",
           "package": "tokyocabinet-haskell",
@@ -17837,6 +19154,7 @@
         "index": {
           "description": "Set the tuning parameters",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "tune",
           "normalized": "TDB-\u003eInt-\u003eInt-\u003eInt-\u003e[TuningOption]-\u003eIO Bool",
@@ -17852,6 +19170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all records of a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "vanish",
           "package": "tokyocabinet-haskell",
@@ -17862,6 +19181,7 @@
         "index": {
           "description": "Remove all records of table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "vanish",
           "normalized": "TDB-\u003eIO Bool",
@@ -17877,6 +19197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the value of a record in a table database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet.TDB",
           "name": "vsiz",
           "package": "tokyocabinet-haskell",
@@ -17887,6 +19208,7 @@
         "index": {
           "description": "Get the size of the value of record in table database object",
           "hierarchy": "Database TokyoCabinet TDB",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet.TDB",
           "name": "vsiz",
           "normalized": "TDB-\u003ea-\u003eIO(Maybe Int)",
@@ -17901,6 +19223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "TokyoCabinet",
           "package": "tokyocabinet-haskell",
@@ -17909,6 +19232,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "TokyoCabinet",
           "package": "tokyocabinet-haskell",
@@ -17922,6 +19246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -17930,6 +19255,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "BDB",
           "package": "tokyocabinet-haskell",
@@ -17944,6 +19270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -17953,6 +19280,7 @@
         "index": {
           "description": "Represents error",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "ECODE",
           "package": "tokyocabinet-haskell",
@@ -17966,6 +19294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "FDB",
           "package": "tokyocabinet-haskell",
@@ -17974,6 +19303,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "FDB",
           "package": "tokyocabinet-haskell",
@@ -17987,6 +19317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "HDB",
           "package": "tokyocabinet-haskell",
@@ -17995,6 +19326,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "HDB",
           "package": "tokyocabinet-haskell",
@@ -18009,6 +19341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent open mode for \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -18018,6 +19351,7 @@
         "index": {
           "description": "Represent open mode for open function",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "OpenMode",
           "package": "tokyocabinet-haskell",
@@ -18032,6 +19366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class that abstract Tokyo Cabinet database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "TCDB",
           "package": "tokyocabinet-haskell",
@@ -18041,6 +19376,7 @@
         "index": {
           "description": "Type class that abstract Tokyo Cabinet database",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "TCDB",
           "package": "tokyocabinet-haskell",
@@ -18055,6 +19391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTokyo Cabinet related computation. Wrap of IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "TCM",
           "package": "tokyocabinet-haskell",
@@ -18064,6 +19401,7 @@
         "index": {
           "description": "Tokyo Cabinet related computation Wrap of IO",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "TCM",
           "package": "tokyocabinet-haskell",
@@ -18077,6 +19415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -18085,6 +19424,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "TDB",
           "package": "tokyocabinet-haskell",
@@ -18098,6 +19438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "OCREAT",
           "package": "tokyocabinet-haskell",
@@ -18107,6 +19448,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "OCREAT",
           "package": "tokyocabinet-haskell",
@@ -18120,6 +19462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "OLCKNB",
           "package": "tokyocabinet-haskell",
@@ -18129,6 +19472,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "OLCKNB",
           "package": "tokyocabinet-haskell",
@@ -18142,6 +19486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "ONOLCK",
           "package": "tokyocabinet-haskell",
@@ -18151,6 +19496,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "ONOLCK",
           "package": "tokyocabinet-haskell",
@@ -18164,6 +19510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "OREADER",
           "package": "tokyocabinet-haskell",
@@ -18173,6 +19520,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "OREADER",
           "package": "tokyocabinet-haskell",
@@ -18186,6 +19534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "OTRUNC",
           "package": "tokyocabinet-haskell",
@@ -18195,6 +19544,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "OTRUNC",
           "package": "tokyocabinet-haskell",
@@ -18208,6 +19558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "OWRITER",
           "package": "tokyocabinet-haskell",
@@ -18217,6 +19568,7 @@
         },
         "index": {
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "OWRITER",
           "package": "tokyocabinet-haskell",
@@ -18231,6 +19583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a real number to a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "adddouble",
           "package": "tokyocabinet-haskell",
@@ -18241,6 +19594,7 @@
         "index": {
           "description": "Add real number to record",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "adddouble",
           "package": "tokyocabinet-haskell",
@@ -18254,6 +19608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an integer to a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "addint",
           "package": "tokyocabinet-haskell",
@@ -18264,6 +19619,7 @@
         "index": {
           "description": "Add an integer to record",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "addint",
           "package": "tokyocabinet-haskell",
@@ -18277,6 +19633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the database file. If successful, the return value is True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "close",
           "package": "tokyocabinet-haskell",
@@ -18287,6 +19644,7 @@
         "index": {
           "description": "Close the database file If successful the return value is True",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "close",
           "normalized": "a-\u003eTCM Bool",
@@ -18302,6 +19660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "copy",
           "package": "tokyocabinet-haskell",
@@ -18312,6 +19671,7 @@
         "index": {
           "description": "Copy the database file",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "copy",
           "package": "tokyocabinet-haskell",
@@ -18325,6 +19685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the default extension for specified database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "defaultExtension",
           "package": "tokyocabinet-haskell",
@@ -18335,6 +19696,7 @@
         "index": {
           "description": "Get the default extension for specified database object",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "defaultExtension",
           "normalized": "a-\u003eString",
@@ -18351,6 +19713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree object resource forcibly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "delete",
           "package": "tokyocabinet-haskell",
@@ -18361,6 +19724,7 @@
         "index": {
           "description": "Free object resource forcibly",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "delete",
           "normalized": "a-\u003eTCM()",
@@ -18376,6 +19740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last happened error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "ecode",
           "package": "tokyocabinet-haskell",
@@ -18386,6 +19751,7 @@
         "index": {
           "description": "Get the last happened error code",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "ecode",
           "normalized": "a-\u003eTCM ECODE",
@@ -18401,6 +19767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet forward matching keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "fwmkeys",
           "package": "tokyocabinet-haskell",
@@ -18411,6 +19778,7 @@
         "index": {
           "description": "Get forward matching keys",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "fwmkeys",
           "package": "tokyocabinet-haskell",
@@ -18424,6 +19792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -18434,6 +19803,7 @@
         "index": {
           "description": "Retrieve record",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "get",
           "package": "tokyocabinet-haskell",
@@ -18447,6 +19817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the iterator. If successful, the return value is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "iterinit",
           "package": "tokyocabinet-haskell",
@@ -18457,6 +19828,7 @@
         "index": {
           "description": "Initialize the iterator If successful the return value is True",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "iterinit",
           "normalized": "a-\u003eTCM Bool",
@@ -18472,6 +19844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next key of the iterator.  If successful, the return\n value is the next key wrapped by \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, else, it is Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "iternext",
           "package": "tokyocabinet-haskell",
@@ -18482,6 +19855,7 @@
         "index": {
           "description": "Get the next key of the iterator If successful the return value is the next key wrapped by Just else it is Nothing",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "iternext",
           "normalized": "a-\u003eTCM(Maybe b)",
@@ -18497,6 +19871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -18507,6 +19882,7 @@
         "index": {
           "description": "Create database object",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "new",
           "package": "tokyocabinet-haskell",
@@ -18520,6 +19896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "open",
           "package": "tokyocabinet-haskell",
@@ -18530,6 +19907,7 @@
         "index": {
           "description": "Open database file",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "open",
           "package": "tokyocabinet-haskell",
@@ -18543,6 +19921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -18553,6 +19932,7 @@
         "index": {
           "description": "Remove record",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "out",
           "package": "tokyocabinet-haskell",
@@ -18566,6 +19946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path of the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "path",
           "package": "tokyocabinet-haskell",
@@ -18576,6 +19957,7 @@
         "index": {
           "description": "Get the path of the database file",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "path",
           "normalized": "a-\u003eTCM(Maybe String)",
@@ -18591,6 +19973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -18601,6 +19984,7 @@
         "index": {
           "description": "Store record",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "put",
           "package": "tokyocabinet-haskell",
@@ -18614,6 +19998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a value at the end of the existing record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "putcat",
           "package": "tokyocabinet-haskell",
@@ -18624,6 +20009,7 @@
         "index": {
           "description": "Concatenate value at the end of the existing record",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "putcat",
           "package": "tokyocabinet-haskell",
@@ -18637,6 +20023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a new recoed. If a record with the same key exists\n in the database, this function has no effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "putkeep",
           "package": "tokyocabinet-haskell",
@@ -18647,6 +20034,7 @@
         "index": {
           "description": "Store new recoed If record with the same key exists in the database this function has no effect",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "putkeep",
           "package": "tokyocabinet-haskell",
@@ -18660,6 +20048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "rnum",
           "package": "tokyocabinet-haskell",
@@ -18670,6 +20059,7 @@
         "index": {
           "description": "Get the number of records",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "rnum",
           "normalized": "a-\u003eTCM Word",
@@ -18685,6 +20075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap TCM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "runTCM",
           "package": "tokyocabinet-haskell",
@@ -18695,6 +20086,7 @@
         "index": {
           "description": "Unwrap TCM",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "runTCM",
           "normalized": "TCM a-\u003eIO a",
@@ -18711,6 +20103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "size",
           "package": "tokyocabinet-haskell",
@@ -18721,6 +20114,7 @@
         "index": {
           "description": "Get the size of the database file",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "size",
           "normalized": "a-\u003eTCM Word",
@@ -18736,6 +20130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize updated contents with the file and the device.\n If successful, the return value is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "sync",
           "package": "tokyocabinet-haskell",
@@ -18746,6 +20141,7 @@
         "index": {
           "description": "Synchronize updated contents with the file and the device If successful the return value is True",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "sync",
           "normalized": "a-\u003eTCM Bool",
@@ -18761,6 +20157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all records. If successful, the return value is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "vanish",
           "package": "tokyocabinet-haskell",
@@ -18771,6 +20168,7 @@
         "index": {
           "description": "Remove all records If successful the return value is True",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "vanish",
           "normalized": "a-\u003eTCM Bool",
@@ -18786,6 +20184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the value of a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:02 UTC 2014",
           "module": "Database.TokyoCabinet",
           "name": "vsiz",
           "package": "tokyocabinet-haskell",
@@ -18796,6 +20195,7 @@
         "index": {
           "description": "Get the size of the value of record",
           "hierarchy": "Database TokyoCabinet",
+          "indexed": "2014-03-11T20:24:02",
           "module": "Database.TokyoCabinet",
           "name": "vsiz",
           "package": "tokyocabinet-haskell",

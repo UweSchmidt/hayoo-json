@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unexceptionalio"
+        "phrase": "unexceptionalio",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWhen you've caught all the exceptions that can be handled safely,\n   this is what you're left with.\n\u003c/p\u003e\u003cpre\u003e runEitherIO . fromIO &#8801; id\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:09 UTC 2014",
           "module": "UnexceptionalIO",
           "name": "UnexceptionalIO",
           "package": "unexceptionalio",
@@ -28,6 +29,7 @@
         "index": {
           "description": "When you ve caught all the exceptions that can be handled safely this is what you re left with runEitherIO fromIO id",
           "hierarchy": "UnexceptionalIO",
+          "indexed": "2014-03-11T20:29:09",
           "module": "UnexceptionalIO",
           "name": "UnexceptionalIO",
           "package": "unexceptionalio",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO without any non-error, synchronous exceptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:09 UTC 2014",
           "module": "UnexceptionalIO",
           "name": "UnexceptionalIO",
           "package": "unexceptionalio",
@@ -51,6 +54,7 @@
         "index": {
           "description": "IO without any non-error synchronous exceptions",
           "hierarchy": "UnexceptionalIO",
+          "indexed": "2014-03-11T20:29:09",
           "module": "UnexceptionalIO",
           "name": "UnexceptionalIO",
           "package": "unexceptionalio",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch any non-error, synchronous exceptions in an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:09 UTC 2014",
           "module": "UnexceptionalIO",
           "name": "fromIO",
           "package": "unexceptionalio",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Catch any non-error synchronous exceptions in an IO action",
           "hierarchy": "UnexceptionalIO",
+          "indexed": "2014-03-11T20:29:09",
           "module": "UnexceptionalIO",
           "name": "fromIO",
           "normalized": "IO a-\u003eEitherT SomeException UnexceptionalIO a",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou promise that \u003ccode\u003ee\u003c/code\u003e covers all non-error, synchronous exceptions\n   thrown by this \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action\n\u003c/p\u003e\u003cp\u003eThis function is partial if you lie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:09 UTC 2014",
           "module": "UnexceptionalIO",
           "name": "fromIO'",
           "package": "unexceptionalio",
@@ -101,6 +108,7 @@
         "index": {
           "description": "You promise that covers all non-error synchronous exceptions thrown by this IO action This function is partial if you lie",
           "hierarchy": "UnexceptionalIO",
+          "indexed": "2014-03-11T20:29:09",
           "module": "UnexceptionalIO",
           "name": "fromIO'",
           "normalized": "IO a-\u003eEitherT b UnexceptionalIO a",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-embed \u003ccode\u003e\u003ca\u003eUnexceptionalIO\u003c/a\u003e\u003c/code\u003e and possible exception back into \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:09 UTC 2014",
           "module": "UnexceptionalIO",
           "name": "runEitherIO",
           "package": "unexceptionalio",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Re-embed UnexceptionalIO and possible exception back into IO",
           "hierarchy": "UnexceptionalIO",
+          "indexed": "2014-03-11T20:29:09",
           "module": "UnexceptionalIO",
           "name": "runEitherIO",
           "normalized": "EitherT a UnexceptionalIO b-\u003ec b",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-embed \u003ccode\u003e\u003ca\u003eUnexceptionalIO\u003c/a\u003e\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:09 UTC 2014",
           "module": "UnexceptionalIO",
           "name": "runUnexceptionalIO",
           "package": "unexceptionalio",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Re-embed UnexceptionalIO into IO",
           "hierarchy": "UnexceptionalIO",
+          "indexed": "2014-03-11T20:29:09",
           "module": "UnexceptionalIO",
           "name": "runUnexceptionalIO",
           "normalized": "UnexceptionalIO a-\u003eb a",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou promise there are no exceptions thrown by this \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:09 UTC 2014",
           "module": "UnexceptionalIO",
           "name": "unsafeFromIO",
           "package": "unexceptionalio",
@@ -179,6 +192,7 @@
         "index": {
           "description": "You promise there are no exceptions thrown by this IO action",
           "hierarchy": "UnexceptionalIO",
+          "indexed": "2014-03-11T20:29:09",
           "module": "UnexceptionalIO",
           "name": "unsafeFromIO",
           "normalized": "IO a-\u003eUnexceptionalIO a",

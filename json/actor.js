@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "actor"
+        "phrase": "actor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "ActorBase",
           "package": "actor",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "ActorBase",
           "package": "actor",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "EMatch",
           "package": "actor",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "EMatch",
           "package": "actor",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "InternalMsg",
           "package": "actor",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "InternalMsg",
           "package": "actor",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "L",
           "package": "actor",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "L",
           "package": "actor",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "Match",
           "package": "actor",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "Match",
           "package": "actor",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "Tag",
           "package": "actor",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "Tag",
           "package": "actor",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "VAR",
           "package": "actor",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "VAR",
           "package": "actor",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "DontCare",
           "package": "actor",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "DontCare",
           "package": "actor",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "InternalMsg",
           "package": "actor",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "InternalMsg",
           "package": "actor",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "VAR",
           "package": "actor",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "VAR",
           "package": "actor",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "Val",
           "package": "actor",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "Val",
           "package": "actor",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "Var",
           "package": "actor",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "Var",
           "package": "actor",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "dontCareVar",
           "package": "actor",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "dontCareVar",
           "package": "actor",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "internal_match",
           "package": "actor",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "internal_match",
           "normalized": "[Tag]-\u003eInternalMsg a-\u003ea-\u003eIO(Bool,[Tag])",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "lookupTag",
           "package": "actor",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "lookupTag",
           "normalized": "[Tag]-\u003eTag-\u003eBool",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "match",
           "package": "actor",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "match",
           "normalized": "[Tag]-\u003ea-\u003ea-\u003eIO(Bool,[Tag])",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "message",
           "package": "actor",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "message",
           "package": "actor",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "msg_tag",
           "package": "actor",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "msg_tag",
           "package": "actor",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "newTag",
           "package": "actor",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "newTag",
           "normalized": "IO(IORef())",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "newVar",
           "package": "actor",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "newVar",
           "package": "actor",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "readVar",
           "package": "actor",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "readVar",
           "normalized": "VAR a-\u003eIO a",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "var_tag",
           "package": "actor",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "var_tag",
           "package": "actor",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "variable",
           "package": "actor",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "variable",
           "package": "actor",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorBase",
           "name": "writeVar",
           "package": "actor",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorBase",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorBase",
           "name": "writeVar",
           "normalized": "VAR a-\u003ea-\u003eIO()",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "ActorCompiler",
           "package": "actor",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "ActorCompiler",
           "package": "actor",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "Actor",
           "package": "actor",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "Actor",
           "package": "actor",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "Code_RHS",
           "package": "actor",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "Code_RHS",
           "package": "actor",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "CompClause",
           "package": "actor",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "CompClause",
           "package": "actor",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "MemoFlag",
           "package": "actor",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "MemoFlag",
           "package": "actor",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "ReceiveParameters",
           "package": "actor",
@@ -657,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "ReceiveParameters",
           "package": "actor",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "Memo",
           "package": "actor",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "Memo",
           "package": "actor",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "NoMemo",
           "package": "actor",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "NoMemo",
           "package": "actor",
@@ -714,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "RecParm",
           "package": "actor",
@@ -723,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "RecParm",
           "package": "actor",
@@ -736,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "codeLookup",
           "package": "actor",
@@ -745,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "codeLookup",
           "normalized": "a-\u003eInt-\u003eIO(Maybe[CompClause a b()])",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "compile",
           "package": "actor",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "compile",
           "normalized": "Code_RHS a-\u003e[MatchTask b]-\u003e[CompClause c d a]",
@@ -783,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "compileSingle",
           "package": "actor",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "compileSingle",
           "normalized": "a-\u003eCode_RHS b-\u003e[Tag]-\u003e[MatchTask c]-\u003eIO(Maybe(Code_RHS b))",
@@ -807,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "deleteMsg",
           "package": "actor",
@@ -816,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "deleteMsg",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -831,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "extractMsg",
           "package": "actor",
@@ -840,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "extractMsg",
           "normalized": "a-\u003eIO(InternalMsg b)",
@@ -855,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "getIndex",
           "package": "actor",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "getIndex",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "getMessage",
           "package": "actor",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "getMessage",
           "normalized": "a-\u003eMaybe Int-\u003eIO(Maybe b)",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "initSearch",
           "package": "actor",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "initSearch",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "memo",
           "package": "actor",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "memo",
           "package": "actor",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "memoCode",
           "package": "actor",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "memoCode",
           "normalized": "a-\u003e(Int,[CompClause a b()])-\u003eIO()",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "nextMsg",
           "package": "actor",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "nextMsg",
           "normalized": "a-\u003eb-\u003eIO(Maybe c)",
@@ -996,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "optimize",
           "package": "actor",
@@ -1005,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "optimize",
           "normalized": "[[MatchTask a]]-\u003e[[MatchTask a]]",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "permuteTasks",
           "package": "actor",
@@ -1028,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "permuteTasks",
           "normalized": "[MatchTask a]-\u003e[[MatchTask a]]",
@@ -1043,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "receive",
           "package": "actor",
@@ -1052,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "receive",
           "normalized": "a-\u003e[([MatchTask b],Code_RHS c)]-\u003eIO c",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "receiveInternal",
           "package": "actor",
@@ -1075,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "receiveInternal",
           "normalized": "a-\u003e[CompClause a b c]-\u003eIO c",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "receiveInternal2",
           "package": "actor",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "receiveInternal2",
           "normalized": "a-\u003eReceiveParameters-\u003e[CompClause a b()]-\u003eIO()",
@@ -1114,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "receiveParm",
           "package": "actor",
@@ -1123,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "receiveParm",
           "normalized": "a-\u003eReceiveParameters-\u003e[([MatchTask b],Code_RHS())]-\u003eIO()",
@@ -1138,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "resetAction",
           "package": "actor",
@@ -1147,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "resetAction",
           "normalized": "IO()",
@@ -1162,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "resetMB",
           "package": "actor",
@@ -1171,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "resetMB",
           "normalized": "a-\u003eIO()",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "select",
           "package": "actor",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "select",
           "normalized": "a-\u003eb-\u003e[CompClause b a c]-\u003eIO(Maybe(Code_RHS c))",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorCompiler",
           "name": "timeOut",
           "package": "actor",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorCompiler",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorCompiler",
           "name": "timeOut",
           "normalized": "Maybe(Int,IO())",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "ActorLinearSearch",
           "package": "actor",
@@ -1241,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "ActorLinearSearch",
           "package": "actor",
@@ -1254,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "Act",
           "package": "actor",
@@ -1262,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "Act",
           "package": "actor",
@@ -1275,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "HashIdx",
           "package": "actor",
@@ -1283,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "HashIdx",
           "package": "actor",
@@ -1296,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "HashOp",
           "package": "actor",
@@ -1304,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "HashOp",
           "package": "actor",
@@ -1317,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "Location",
           "package": "actor",
@@ -1325,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "Location",
           "package": "actor",
@@ -1338,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "PID",
           "package": "actor",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "PID",
           "package": "actor",
@@ -1359,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "Act",
           "package": "actor",
@@ -1368,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "Act",
           "package": "actor",
@@ -1381,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "HashOp",
           "package": "actor",
@@ -1390,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "HashOp",
           "package": "actor",
@@ -1403,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "actorToPID",
           "package": "actor",
@@ -1412,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "actorToPID",
           "normalized": "Act a-\u003ePID a",
@@ -1427,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "createActor",
           "package": "actor",
@@ -1436,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "createActor",
           "normalized": "HashOp a-\u003eIO(Act a)",
@@ -1451,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "external_mailbox",
           "package": "actor",
@@ -1460,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "external_mailbox",
           "package": "actor",
@@ -1472,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "hashMsg",
           "package": "actor",
@@ -1481,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "hashMsg",
           "normalized": "a-\u003eHashIdx",
@@ -1496,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "hashOp",
           "package": "actor",
@@ -1505,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "hashOp",
           "package": "actor",
@@ -1518,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "hashTable",
           "package": "actor",
@@ -1527,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "hashTable",
           "normalized": "[QList(InternalMsg a)]",
@@ -1542,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "internal_mailbox",
           "package": "actor",
@@ -1551,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "internal_mailbox",
           "package": "actor",
@@ -1563,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "internal_mailbox_barrier",
           "package": "actor",
@@ -1572,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "internal_mailbox_barrier",
           "package": "actor",
@@ -1584,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "kill",
           "package": "actor",
@@ -1593,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "kill",
           "normalized": "PID a-\u003eIO()",
@@ -1607,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "memoTable",
           "package": "actor",
@@ -1616,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "memoTable",
           "normalized": "IORef[(Int,[CompClause(Act a)(Location a)()])]",
@@ -1631,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "numberOfTables",
           "package": "actor",
@@ -1640,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "numberOfTables",
           "package": "actor",
@@ -1653,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "runActor",
           "package": "actor",
@@ -1662,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "runActor",
           "normalized": "Act a-\u003e(Act a-\u003eIO())-\u003eIO()",
@@ -1677,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "send",
           "package": "actor",
@@ -1686,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "send",
           "normalized": "PID a-\u003ea-\u003eIO()",
@@ -1700,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorLinearSearch",
           "name": "thread_id",
           "package": "actor",
@@ -1709,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorLinearSearch",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorLinearSearch",
           "name": "thread_id",
           "package": "actor",
@@ -1721,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "ActorSyntax",
           "package": "actor",
@@ -1729,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "ActorSyntax",
           "package": "actor",
@@ -1742,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "ConvertHead",
           "package": "actor",
@@ -1750,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "ConvertHead",
           "package": "actor",
@@ -1763,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "MatchTask",
           "package": "actor",
@@ -1771,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "MatchTask",
           "package": "actor",
@@ -1784,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "WITHGUARD",
           "package": "actor",
@@ -1792,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "WITHGUARD",
           "package": "actor",
@@ -1805,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "Guard",
           "package": "actor",
@@ -1814,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "Guard",
           "package": "actor",
@@ -1827,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "Prop",
           "package": "actor",
@@ -1836,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "Prop",
           "package": "actor",
@@ -1849,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "Simp",
           "package": "actor",
@@ -1858,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "Simp",
           "package": "actor",
@@ -1871,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "WITHGUARD",
           "package": "actor",
@@ -1880,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "WITHGUARD",
           "package": "actor",
@@ -1893,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:55 UTC 2014",
           "module": "Actor.ActorSyntax",
           "name": "convertHead",
           "package": "actor",
@@ -1902,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Actor ActorSyntax",
+          "indexed": "2014-03-11T17:07:55",
           "module": "Actor.ActorSyntax",
           "name": "convertHead",
           "normalized": "a-\u003e[MatchTask b]",

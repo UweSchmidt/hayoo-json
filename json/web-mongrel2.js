@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-mongrel2"
+        "phrase": "web-mongrel2",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "domain-auth"
+        "phrase": "domain-auth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for DomainKeys (\u003ca\u003ehttp://www.ietf.org/rfc/rfc4070\u003c/a\u003e).\n  Currently, only receiver side is implemented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DK",
           "name": "DK",
           "package": "domain-auth",
@@ -28,6 +29,7 @@
         "index": {
           "description": "library for DomainKeys http www.ietf.org rfc rfc4070 Currently only receiver side is implemented",
           "hierarchy": "Network DomainAuth DK",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DK",
           "name": "DK",
           "package": "domain-auth",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type for DomainKey-Signature:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DK",
           "name": "DK",
           "package": "domain-auth",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Abstract type for DomainKey-Signature",
           "hierarchy": "Network DomainAuth DK",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DK",
           "name": "DK",
           "package": "domain-auth",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting of the value of the \"d\" tag in DomainKey-Signature:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DK",
           "name": "dkDomain",
           "package": "domain-auth",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Getting of the value of the tag in DomainKey-Signature",
           "hierarchy": "Network DomainAuth DK",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DK",
           "name": "dkDomain",
           "normalized": "DK-\u003eDomain",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonicalized key for DomainKey-Signature:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DK",
           "name": "dkFieldKey",
           "package": "domain-auth",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Canonicalized key for DomainKey-Signature",
           "hierarchy": "Network DomainAuth DK",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DK",
           "name": "dkFieldKey",
           "package": "domain-auth",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting of the value of the \"s\" tag in DomainKey-Signature:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DK",
           "name": "dkSelector",
           "package": "domain-auth",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Getting of the value of the tag in DomainKey-Signature",
           "hierarchy": "Network DomainAuth DK",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DK",
           "name": "dkSelector",
           "normalized": "DK-\u003eByteString",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing DomainKey-Signature:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DK",
           "name": "parseDK",
           "package": "domain-auth",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Parsing DomainKey-Signature",
           "hierarchy": "Network DomainAuth DK",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DK",
           "name": "parseDK",
           "normalized": "RawFieldValue-\u003eMaybe DK",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerifying \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e with DomainKeys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DK",
           "name": "runDK",
           "package": "domain-auth",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Verifying Mail with DomainKeys",
           "hierarchy": "Network DomainAuth DK",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DK",
           "name": "runDK",
           "normalized": "Resolver-\u003eMail-\u003eIO DAResult",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerifying \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e with DomainKeys. The value of DomainKey-Signature:\n  should be parsed beforehand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DK",
           "name": "runDK'",
           "package": "domain-auth",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Verifying Mail with DomainKeys The value of DomainKey-Signature should be parsed beforehand",
           "hierarchy": "Network DomainAuth DK",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DK",
           "name": "runDK'",
           "normalized": "Resolver-\u003eMail-\u003eDK-\u003eIO DAResult",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for DKIM (\u003ca\u003ehttp://www.ietf.org/rfc/rfc4071\u003c/a\u003e).\n  Currently, only receiver side is implemented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DKIM",
           "name": "DKIM",
           "package": "domain-auth",
@@ -228,6 +245,7 @@
         "index": {
           "description": "library for DKIM http www.ietf.org rfc rfc4071 Currently only receiver side is implemented",
           "hierarchy": "Network DomainAuth DKIM",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DKIM",
           "name": "DKIM",
           "package": "domain-auth",
@@ -241,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DKIM",
           "name": "DKIM",
           "package": "domain-auth",
@@ -249,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth DKIM",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DKIM",
           "name": "DKIM",
           "package": "domain-auth",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting of the value of the \"d\" tag in DKIM-Signature:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DKIM",
           "name": "dkimDomain",
           "package": "domain-auth",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Getting of the value of the tag in DKIM-Signature",
           "hierarchy": "Network DomainAuth DKIM",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DKIM",
           "name": "dkimDomain",
           "normalized": "DKIM-\u003eDomain",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonicalized key for DKIM-Signature:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DKIM",
           "name": "dkimFieldKey",
           "package": "domain-auth",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Canonicalized key for DKIM-Signature",
           "hierarchy": "Network DomainAuth DKIM",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DKIM",
           "name": "dkimFieldKey",
           "package": "domain-auth",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting of the value of the \"s\" tag in DKIM-Signature:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DKIM",
           "name": "dkimSelector",
           "package": "domain-auth",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Getting of the value of the tag in DKIM-Signature",
           "hierarchy": "Network DomainAuth DKIM",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DKIM",
           "name": "dkimSelector",
           "normalized": "DKIM-\u003eByteString",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing DKIM-Signature:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DKIM",
           "name": "parseDKIM",
           "package": "domain-auth",
@@ -349,6 +376,7 @@
         "index": {
           "description": "Parsing DKIM-Signature",
           "hierarchy": "Network DomainAuth DKIM",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DKIM",
           "name": "parseDKIM",
           "normalized": "RawFieldValue-\u003eMaybe DKIM",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerifying \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e with DKIM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DKIM",
           "name": "runDKIM",
           "package": "domain-auth",
@@ -375,6 +404,7 @@
         "index": {
           "description": "Verifying Mail with DKIM",
           "hierarchy": "Network DomainAuth DKIM",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DKIM",
           "name": "runDKIM",
           "normalized": "Resolver-\u003eMail-\u003eIO DAResult",
@@ -391,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerifying \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e with DKIM. The value of DKIM-Signature:\n  should be parsed beforehand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.DKIM",
           "name": "runDKIM'",
           "package": "domain-auth",
@@ -401,6 +432,7 @@
         "index": {
           "description": "Verifying Mail with DKIM The value of DKIM-Signature should be parsed beforehand",
           "hierarchy": "Network DomainAuth DKIM",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.DKIM",
           "name": "runDKIM'",
           "normalized": "Resolver-\u003eMail-\u003eDKIM-\u003eIO DAResult",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library to parse e-mail messages both from a file and Milter(\u003ca\u003ehttps://www.milter.org/\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "Mail",
           "package": "domain-auth",
@@ -426,6 +459,7 @@
         "index": {
           "description": "library to parse e-mail messages both from file and Milter https www.milter.org",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "Mail",
           "package": "domain-auth",
@@ -440,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for body of parsed e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "Body",
           "package": "domain-auth",
@@ -449,6 +484,7 @@
         "index": {
           "description": "Type for body of parsed e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "Body",
           "package": "domain-auth",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for canonicalized field key of parsed e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "CanonFieldKey",
           "package": "domain-auth",
@@ -472,6 +509,7 @@
         "index": {
           "description": "Type for canonicalized field key of parsed e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "CanonFieldKey",
           "package": "domain-auth",
@@ -486,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField type for parsed e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "Field",
           "package": "domain-auth",
@@ -495,6 +534,7 @@
         "index": {
           "description": "Field type for parsed e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "Field",
           "package": "domain-auth",
@@ -509,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for field key of parsed e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "FieldKey",
           "package": "domain-auth",
@@ -518,6 +559,7 @@
         "index": {
           "description": "Type for field key of parsed e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "FieldKey",
           "package": "domain-auth",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for field value of parsed e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "FieldValue",
           "package": "domain-auth",
@@ -541,6 +584,7 @@
         "index": {
           "description": "Type for field value of parsed e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "FieldValue",
           "package": "domain-auth",
@@ -555,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader type for parsed e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "Header",
           "package": "domain-auth",
@@ -564,6 +609,7 @@
         "index": {
           "description": "Header type for parsed e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "Header",
           "package": "domain-auth",
@@ -578,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for parsed e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "Mail",
           "package": "domain-auth",
@@ -587,6 +634,7 @@
         "index": {
           "description": "Type for parsed e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "Mail",
           "package": "domain-auth",
@@ -601,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody chunk for raw e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "RawBodyChunk",
           "package": "domain-auth",
@@ -610,6 +659,7 @@
         "index": {
           "description": "Body chunk for raw e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "RawBodyChunk",
           "package": "domain-auth",
@@ -624,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField key for raw e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "RawFieldKey",
           "package": "domain-auth",
@@ -633,6 +684,7 @@
         "index": {
           "description": "Field key for raw e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "RawFieldKey",
           "package": "domain-auth",
@@ -647,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField value for raw e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "RawFieldValue",
           "package": "domain-auth",
@@ -656,6 +709,7 @@
         "index": {
           "description": "Field value for raw e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "RawFieldValue",
           "package": "domain-auth",
@@ -670,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for raw e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "RawMail",
           "package": "domain-auth",
@@ -679,6 +734,7 @@
         "index": {
           "description": "Type for raw e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "RawMail",
           "package": "domain-auth",
@@ -693,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for temporary data to parse e-mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "XMail",
           "package": "domain-auth",
@@ -702,6 +759,7 @@
         "index": {
           "description": "Type for temporary data to parse e-mail message",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "XMail",
           "package": "domain-auth",
@@ -715,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "Field",
           "package": "domain-auth",
@@ -724,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "Field",
           "package": "domain-auth",
@@ -737,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "Mail",
           "package": "domain-auth",
@@ -746,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "Mail",
           "package": "domain-auth",
@@ -759,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "XMail",
           "package": "domain-auth",
@@ -768,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "XMail",
           "package": "domain-auth",
@@ -782,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonicalizing \u003ccode\u003e\u003ca\u003eFieldKey\u003c/a\u003e\u003c/code\u003e for search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "canonicalizeKey",
           "package": "domain-auth",
@@ -792,6 +857,7 @@
         "index": {
           "description": "Canonicalizing FieldKey for search",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "canonicalizeKey",
           "normalized": "FieldKey-\u003eCanonFieldKey",
@@ -807,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldKey",
           "package": "domain-auth",
@@ -816,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldKey",
           "package": "domain-auth",
@@ -829,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldSearchKey",
           "package": "domain-auth",
@@ -838,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldSearchKey",
           "package": "domain-auth",
@@ -851,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldValue",
           "package": "domain-auth",
@@ -860,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldValue",
           "package": "domain-auth",
@@ -874,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining folded (raw) field value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldValueFolded",
           "package": "domain-auth",
@@ -884,6 +957,7 @@
         "index": {
           "description": "Obtaining folded raw field value",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldValueFolded",
           "normalized": "Field-\u003eRawFieldValue",
@@ -900,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining unfolded (removing CRLF) field value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldValueUnfolded",
           "package": "domain-auth",
@@ -910,6 +985,7 @@
         "index": {
           "description": "Obtaining unfolded removing CRLF field value",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldValueUnfolded",
           "normalized": "Field-\u003eRawFieldValue",
@@ -926,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining all fields under \u003ccode\u003e\u003ca\u003eFieldKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldsAfter",
           "package": "domain-auth",
@@ -936,6 +1013,7 @@
         "index": {
           "description": "Obtaining all fields under FieldKey",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldsAfter",
           "normalized": "FieldKey-\u003eHeader-\u003eHeader",
@@ -952,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining the \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eFieldKey\u003c/a\u003e\u003c/code\u003e and all fields under \u003ccode\u003e\u003ca\u003eFieldKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldsFrom",
           "package": "domain-auth",
@@ -962,6 +1041,7 @@
         "index": {
           "description": "Obtaining the Field of FieldKey and all fields under FieldKey",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldsFrom",
           "normalized": "FieldKey-\u003eHeader-\u003eHeader",
@@ -978,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining all fields with DKIM algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldsWith",
           "package": "domain-auth",
@@ -988,6 +1069,7 @@
         "index": {
           "description": "Obtaining all fields with DKIM algorithm",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fieldsWith",
           "normalized": "[CanonFieldKey]-\u003eHeader-\u003eHeader",
@@ -1004,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting \u003ccode\u003e\u003ca\u003eXMail\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "finalizeMail",
           "package": "domain-auth",
@@ -1014,6 +1097,7 @@
         "index": {
           "description": "Converting XMail to Mail",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "finalizeMail",
           "normalized": "XMail-\u003eMail",
@@ -1030,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fromBody",
           "package": "domain-auth",
@@ -1040,6 +1125,7 @@
         "index": {
           "description": "Obtaining body",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fromBody",
           "normalized": "Body-\u003eBuilder",
@@ -1056,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining body with a canonicalization function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "fromBodyWith",
           "package": "domain-auth",
@@ -1066,6 +1153,7 @@
         "index": {
           "description": "Obtaining body with canonicalization function",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "fromBodyWith",
           "normalized": "(ByteString-\u003eByteString)-\u003eBody-\u003eBuilder",
@@ -1082,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eRawMail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "getMail",
           "package": "domain-auth",
@@ -1092,6 +1181,7 @@
         "index": {
           "description": "Obtain Mail from RawMail",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "getMail",
           "normalized": "RawMail-\u003eMail",
@@ -1108,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial value for \u003ccode\u003e\u003ca\u003eXMail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "initialXMail",
           "package": "domain-auth",
@@ -1118,6 +1209,7 @@
         "index": {
           "description": "Initial value for XMail",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "initialXMail",
           "package": "domain-auth",
@@ -1131,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "isEmpty",
           "package": "domain-auth",
@@ -1140,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "isEmpty",
           "normalized": "Body-\u003eBool",
@@ -1156,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooking up \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eFieldKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "lookupField",
           "package": "domain-auth",
@@ -1166,6 +1261,7 @@
         "index": {
           "description": "Looking up Field from Header with FieldKey",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "lookupField",
           "normalized": "FieldKey-\u003eHeader-\u003eMaybe Field",
@@ -1181,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "mailBody",
           "package": "domain-auth",
@@ -1190,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "mailBody",
           "package": "domain-auth",
@@ -1203,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "mailHeader",
           "package": "domain-auth",
@@ -1212,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "mailHeader",
           "package": "domain-auth",
@@ -1226,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing field value of tag=value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "parseTaggedValue",
           "package": "domain-auth",
@@ -1236,6 +1337,7 @@
         "index": {
           "description": "Parsing field value of tag value",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "parseTaggedValue",
           "normalized": "RawFieldValue-\u003e[(ByteString,ByteString)]",
@@ -1252,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStoring body chunk to the temporary data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "pushBody",
           "package": "domain-auth",
@@ -1262,6 +1365,7 @@
         "index": {
           "description": "Storing body chunk to the temporary data",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "pushBody",
           "normalized": "RawBodyChunk-\u003eXMail-\u003eXMail",
@@ -1278,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStoring field key and field value to the temporary data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "pushField",
           "package": "domain-auth",
@@ -1288,6 +1393,7 @@
         "index": {
           "description": "Storing field key and field value to the temporary data",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "pushField",
           "normalized": "RawFieldKey-\u003eRawFieldValue-\u003eXMail-\u003eXMail",
@@ -1304,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "readMail",
           "package": "domain-auth",
@@ -1314,6 +1421,7 @@
         "index": {
           "description": "Obtain Mail from file",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "readMail",
           "normalized": "FilePath-\u003eIO Mail",
@@ -1330,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoving trailing empty lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "removeTrailingEmptyLine",
           "package": "domain-auth",
@@ -1340,6 +1449,7 @@
         "index": {
           "description": "Removing trailing empty lines",
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "removeTrailingEmptyLine",
           "normalized": "Body-\u003eBody",
@@ -1355,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "xmailBody",
           "package": "domain-auth",
@@ -1364,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "xmailBody",
           "normalized": "[RawBodyChunk]",
@@ -1379,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Mail",
           "name": "xmailHeader",
           "package": "domain-auth",
@@ -1388,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Mail",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Mail",
           "name": "xmailHeader",
           "package": "domain-auth",
@@ -1402,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities to decide Purported Responsible Domain (\u003ca\u003ehttp://www.ietf.org/rfc/rfc4407\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.PRD",
           "name": "PRD",
           "package": "domain-auth",
@@ -1411,6 +1526,7 @@
         "index": {
           "description": "Utilities to decide Purported Responsible Domain http www.ietf.org rfc rfc4407",
           "hierarchy": "Network DomainAuth PRD",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.PRD",
           "name": "PRD",
           "package": "domain-auth",
@@ -1425,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type for context to decide PRD(purported responsible domain)\n  according to RFC 4407.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.PRD",
           "name": "PRD",
           "package": "domain-auth",
@@ -1434,6 +1551,7 @@
         "index": {
           "description": "Abstract type for context to decide PRD purported responsible domain according to RFC",
           "hierarchy": "Network DomainAuth PRD",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.PRD",
           "name": "PRD",
           "package": "domain-auth",
@@ -1448,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTaking the value of From: from the RPD context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.PRD",
           "name": "decideFrom",
           "package": "domain-auth",
@@ -1458,6 +1577,7 @@
         "index": {
           "description": "Taking the value of From from the RPD context",
           "hierarchy": "Network DomainAuth PRD",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.PRD",
           "name": "decideFrom",
           "normalized": "PRD-\u003eMaybe Domain",
@@ -1474,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeciding PRD from the RPD context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.PRD",
           "name": "decidePRD",
           "package": "domain-auth",
@@ -1484,6 +1605,7 @@
         "index": {
           "description": "Deciding PRD from the RPD context",
           "hierarchy": "Network DomainAuth PRD",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.PRD",
           "name": "decidePRD",
           "normalized": "PRD-\u003eMaybe Domain",
@@ -1500,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a domain from a value of a header field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.PRD",
           "name": "extractDomain",
           "package": "domain-auth",
@@ -1510,6 +1633,7 @@
         "index": {
           "description": "Extract domain from value of header field",
           "hierarchy": "Network DomainAuth PRD",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.PRD",
           "name": "extractDomain",
           "normalized": "RawFieldValue-\u003eMaybe Domain",
@@ -1526,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial context of PRD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.PRD",
           "name": "initialPRD",
           "package": "domain-auth",
@@ -1536,6 +1661,7 @@
         "index": {
           "description": "Initial context of PRD",
           "hierarchy": "Network DomainAuth PRD",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.PRD",
           "name": "initialPRD",
           "package": "domain-auth",
@@ -1550,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushing a field key and its value in to the PRD context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.PRD",
           "name": "pushPRD",
           "package": "domain-auth",
@@ -1560,6 +1687,7 @@
         "index": {
           "description": "Pushing field key and its value in to the PRD context",
           "hierarchy": "Network DomainAuth PRD",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.PRD",
           "name": "pushPRD",
           "normalized": "RawFieldKey-\u003eRawFieldValue-\u003ePRD-\u003ePRD",
@@ -1576,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for SPF(\u003ca\u003ehttp://www.ietf.org/rfc/rfc4408\u003c/a\u003e)\n and Sender-ID(\u003ca\u003ehttp://www.ietf.org/rfc/rfc4406\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "SPF",
           "package": "domain-auth",
@@ -1585,6 +1714,7 @@
         "index": {
           "description": "library for SPF http www.ietf.org rfc rfc4408 and Sender-ID http www.ietf.org rfc rfc4406",
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "SPF",
           "package": "domain-auth",
@@ -1599,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit for SPF authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "Limit",
           "package": "domain-auth",
@@ -1608,6 +1739,7 @@
         "index": {
           "description": "Limit for SPF authentication",
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "Limit",
           "package": "domain-auth",
@@ -1621,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "Limit",
           "package": "domain-auth",
@@ -1630,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "Limit",
           "package": "domain-auth",
@@ -1644,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003e\u003ca\u003eLimit\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003elimit\u003c/a\u003e\u003c/code\u003e is 10. \u003ccode\u003e\u003ca\u003eipv4_masklen\u003c/a\u003e\u003c/code\u003e is 16.\n  \u003ccode\u003e\u003ca\u003eipv6_masklen\u003c/a\u003e\u003c/code\u003e is 48. \u003ccode\u003e\u003ca\u003ereject_plus_all\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "defaultLimit",
           "package": "domain-auth",
@@ -1654,6 +1789,7 @@
         "index": {
           "description": "Default Limit limit is ipv4 masklen is ipv6 masklen is reject plus all is True",
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "defaultLimit",
           "package": "domain-auth",
@@ -1668,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnoring IPv4 range whose mask length is shorter than this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "ipv4_masklen",
           "package": "domain-auth",
@@ -1678,6 +1815,7 @@
         "index": {
           "description": "Ignoring IPv4 range whose mask length is shorter than this",
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "ipv4_masklen",
           "package": "domain-auth",
@@ -1691,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnoring IPv6 range whose mask length is shorter than this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "ipv6_masklen",
           "package": "domain-auth",
@@ -1701,6 +1840,7 @@
         "index": {
           "description": "Ignoring IPv6 range whose mask length is shorter than this",
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "ipv6_masklen",
           "package": "domain-auth",
@@ -1714,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many \"redirect\"/\"include\" should be followed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "limit",
           "package": "domain-auth",
@@ -1724,6 +1865,7 @@
         "index": {
           "description": "How many redirect include should be followed",
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "limit",
           "package": "domain-auth",
@@ -1737,6 +1879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not \"+all\" is rejected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "reject_plus_all",
           "package": "domain-auth",
@@ -1747,6 +1890,7 @@
         "index": {
           "description": "Whether or not all is rejected",
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "reject_plus_all",
           "package": "domain-auth",
@@ -1760,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess SPF authentication. \u003ccode\u003e\u003ca\u003eIP\u003c/a\u003e\u003c/code\u003e is an IP address of an SMTP peer.\n  If \u003ccode\u003e\u003ca\u003eDomain\u003c/a\u003e\u003c/code\u003e is specified from SMTP MAIL FROM, authentication is\n  based on SPF. If \u003ccode\u003e\u003ca\u003eDomain\u003c/a\u003e\u003c/code\u003e is specified from the From field of mail\n  header, authentication is based on SenderID. If condition reaches\n  \u003ccode\u003e\u003ca\u003eLimit\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eSpfPermError\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.SPF",
           "name": "runSPF",
           "package": "domain-auth",
@@ -1770,6 +1915,7 @@
         "index": {
           "description": "Process SPF authentication IP is an IP address of an SMTP peer If Domain is specified from SMTP MAIL FROM authentication is based on SPF If Domain is specified from the From field of mail header authentication is based on SenderID If condition reaches Limit SpfPermError is returned",
           "hierarchy": "Network DomainAuth SPF",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.SPF",
           "name": "runSPF",
           "normalized": "Limit-\u003eResolver-\u003eDomain-\u003eIP-\u003eIO DAResult",
@@ -1786,6 +1932,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType for Message Authentication Status (\u003ca\u003ehttp://www.ietf.org/rfc/rfc5451.txt\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "Types",
           "package": "domain-auth",
@@ -1795,6 +1942,7 @@
         "index": {
           "description": "Type for Message Authentication Status http www.ietf.org rfc rfc5451.txt",
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "Types",
           "package": "domain-auth",
@@ -1809,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of domain authentication. For more information, see\n  \u003ca\u003ehttp://www.ietf.org/rfc/rfc5451.txt\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DAResult",
           "package": "domain-auth",
@@ -1818,6 +1967,7 @@
         "index": {
           "description": "The result of domain authentication For more information see http www.ietf.org rfc rfc5451.txt",
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DAResult",
           "package": "domain-auth",
@@ -1831,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DADiscard",
           "package": "domain-auth",
@@ -1840,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DADiscard",
           "package": "domain-auth",
@@ -1853,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DAFail",
           "package": "domain-auth",
@@ -1862,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DAFail",
           "package": "domain-auth",
@@ -1875,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DAHardFail",
           "package": "domain-auth",
@@ -1884,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DAHardFail",
           "package": "domain-auth",
@@ -1897,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DANeutral",
           "package": "domain-auth",
@@ -1906,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DANeutral",
           "package": "domain-auth",
@@ -1919,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DANone",
           "package": "domain-auth",
@@ -1928,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DANone",
           "package": "domain-auth",
@@ -1941,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DANxDomain",
           "package": "domain-auth",
@@ -1950,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DANxDomain",
           "package": "domain-auth",
@@ -1963,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DAPass",
           "package": "domain-auth",
@@ -1972,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DAPass",
           "package": "domain-auth",
@@ -1985,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DAPermError",
           "package": "domain-auth",
@@ -1994,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DAPermError",
           "package": "domain-auth",
@@ -2007,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DAPolicy",
           "package": "domain-auth",
@@ -2016,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DAPolicy",
           "package": "domain-auth",
@@ -2029,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DASoftFail",
           "package": "domain-auth",
@@ -2038,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DASoftFail",
           "package": "domain-auth",
@@ -2051,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DATempError",
           "package": "domain-auth",
@@ -2060,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DATempError",
           "package": "domain-auth",
@@ -2073,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth.Types",
           "name": "DAUnknown",
           "package": "domain-auth",
@@ -2082,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Network DomainAuth Types",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth.Types",
           "name": "DAUnknown",
           "package": "domain-auth",
@@ -2096,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary for Sender Policy Framework, SenderID, DomainKeys and DKIM.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:54 UTC 2014",
           "module": "Network.DomainAuth",
           "name": "DomainAuth",
           "package": "domain-auth",
@@ -2105,6 +2280,7 @@
         "index": {
           "description": "Library for Sender Policy Framework SenderID DomainKeys and DKIM",
           "hierarchy": "Network DomainAuth",
+          "indexed": "2014-03-11T17:57:54",
           "module": "Network.DomainAuth",
           "name": "DomainAuth",
           "package": "domain-auth",

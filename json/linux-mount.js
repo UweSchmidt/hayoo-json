@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linux-mount"
+        "phrase": "linux-mount",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides an interface to the system mount and umount\n functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Mount",
           "package": "linux-mount",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides an interface to the system mount and umount functions",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Mount",
           "package": "linux-mount",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilesystem dependent options to be used when mounting a\n filesystem; the content of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDriverData\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is passed directly to the\n filesystem driver.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "DriverData",
           "package": "linux-mount",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Filesystem dependent options to be used when mounting filesystem the content of DriverData is passed directly to the filesystem driver",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "DriverData",
           "package": "linux-mount",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filesystem independent option to be used when mounting a\n filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "MountFlag",
           "package": "linux-mount",
@@ -74,6 +79,7 @@
         "index": {
           "description": "filesystem independent option to be used when mounting filesystem",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "MountFlag",
           "package": "linux-mount",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filesystem independent option to be used when unmounting a\n filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "UmountFlag",
           "package": "linux-mount",
@@ -97,6 +104,7 @@
         "index": {
           "description": "filesystem independent option to be used when unmounting filesystem",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "UmountFlag",
           "package": "linux-mount",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Active",
           "package": "linux-mount",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Active",
           "package": "linux-mount",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Bind",
           "package": "linux-mount",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Bind",
           "package": "linux-mount",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a lazy unmount: make the mount\n point unavailable for new accesses, and\n actually perform the unmount when the\n mount point ceases to be busy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Detach",
           "package": "linux-mount",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Perform lazy unmount make the mount point unavailable for new accesses and actually perform the unmount when the mount point ceases to be busy",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Detach",
           "package": "linux-mount",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Dirsync",
           "package": "linux-mount",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Dirsync",
           "package": "linux-mount",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark the mount point as expired. If a\n mount point is not currently in use, then\n an initial call to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eumountWith\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e with\n this flag fails with the error \u003ccode\u003eEAGAIN\u003c/code\u003e, but\n marks the mount point as expired. The\n mount point remains expired as long as it\n isn't accessed by any process. A second\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eumountWith\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e call specifying \u003ccode\u003e\u003ccode\u003e\u003ca\u003eExpire\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n unmounts an expired mount point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Expire",
           "package": "linux-mount",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Mark the mount point as expired If mount point is not currently in use then an initial call to umountWith with this flag fails with the error EAGAIN but marks the mount point as expired The mount point remains expired as long as it isn accessed by any process second umountWith call specifying Expire unmounts an expired mount point",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Expire",
           "package": "linux-mount",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce  unmount  even  if busy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Force",
           "package": "linux-mount",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Force unmount even if busy",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Force",
           "package": "linux-mount",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "IVersion",
           "package": "linux-mount",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "IVersion",
           "package": "linux-mount",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Kernmount",
           "package": "linux-mount",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Kernmount",
           "package": "linux-mount",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Mandlock",
           "package": "linux-mount",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Mandlock",
           "package": "linux-mount",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Move",
           "package": "linux-mount",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Move",
           "package": "linux-mount",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Noatime",
           "package": "linux-mount",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Noatime",
           "package": "linux-mount",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Nodev",
           "package": "linux-mount",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Nodev",
           "package": "linux-mount",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Nodiratime",
           "package": "linux-mount",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Nodiratime",
           "package": "linux-mount",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Noexec",
           "package": "linux-mount",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Noexec",
           "package": "linux-mount",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Nosuid",
           "package": "linux-mount",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Nosuid",
           "package": "linux-mount",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Nouser",
           "package": "linux-mount",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Nouser",
           "package": "linux-mount",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain unmount, behaves like \u003ccode\u003e\u003ccode\u003e\u003ca\u003eumount\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Plain",
           "package": "linux-mount",
@@ -479,6 +520,7 @@
         "index": {
           "description": "Plain unmount behaves like umount",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Plain",
           "package": "linux-mount",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Posixacl",
           "package": "linux-mount",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Posixacl",
           "package": "linux-mount",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Private",
           "package": "linux-mount",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Private",
           "package": "linux-mount",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Rdonly",
           "package": "linux-mount",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Rdonly",
           "package": "linux-mount",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Rec",
           "package": "linux-mount",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Rec",
           "package": "linux-mount",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Relatime",
           "package": "linux-mount",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Relatime",
           "package": "linux-mount",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Remount",
           "package": "linux-mount",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Remount",
           "package": "linux-mount",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Shared",
           "package": "linux-mount",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Shared",
           "package": "linux-mount",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Silent",
           "package": "linux-mount",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Silent",
           "package": "linux-mount",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Slave",
           "package": "linux-mount",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Slave",
           "package": "linux-mount",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Strictatime",
           "package": "linux-mount",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Strictatime",
           "package": "linux-mount",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Synchronous",
           "package": "linux-mount",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Synchronous",
           "package": "linux-mount",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "Unbindable",
           "package": "linux-mount",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "Unbindable",
           "package": "linux-mount",
@@ -757,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMount a filesystem (call to \u003ccode\u003emount()\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "mount",
           "package": "linux-mount",
@@ -766,6 +833,7 @@
         "index": {
           "description": "Mount filesystem call to mount",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "mount",
           "normalized": "String-\u003eFilePath-\u003eString-\u003e[MountFlag]-\u003eDriverData-\u003eIO()",
@@ -781,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDriverData\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "noData",
           "package": "linux-mount",
@@ -791,6 +860,7 @@
         "index": {
           "description": "Empty DriverData",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "noData",
           "package": "linux-mount",
@@ -805,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmount a filesystem (call to \u003ccode\u003eumount()\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "umount",
           "package": "linux-mount",
@@ -814,6 +885,7 @@
         "index": {
           "description": "Unmount filesystem call to umount",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "umount",
           "normalized": "FilePath-\u003eIO()",
@@ -829,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmount a filesystem using specific unmount options (call to\n \u003ccode\u003eumount2()\u003c/code\u003e). See \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUmountFlag\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:17 UTC 2014",
           "module": "System.Linux.Mount",
           "name": "umountWith",
           "package": "linux-mount",
@@ -838,6 +911,7 @@
         "index": {
           "description": "Unmount filesystem using specific unmount options call to umount2 See UmountFlag for details",
           "hierarchy": "System Linux Mount",
+          "indexed": "2014-03-11T19:10:17",
           "module": "System.Linux.Mount",
           "name": "umountWith",
           "normalized": "UmountFlag-\u003eBool-\u003eFilePath-\u003eIO()",

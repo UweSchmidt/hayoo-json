@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-class"
+        "phrase": "bytestring-class",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:39 UTC 2014",
           "module": "Data.ByteString.Class",
           "name": "Class",
           "package": "bytestring-class",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Class",
+          "indexed": "2014-03-11T17:26:39",
           "module": "Data.ByteString.Class",
           "name": "Class",
           "package": "bytestring-class",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:39 UTC 2014",
           "module": "Data.ByteString.Class",
           "name": "LazyByteString",
           "package": "bytestring-class",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Class",
+          "indexed": "2014-03-11T17:26:39",
           "module": "Data.ByteString.Class",
           "name": "LazyByteString",
           "package": "bytestring-class",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:39 UTC 2014",
           "module": "Data.ByteString.Class",
           "name": "StrictByteString",
           "package": "bytestring-class",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Class",
+          "indexed": "2014-03-11T17:26:39",
           "module": "Data.ByteString.Class",
           "name": "StrictByteString",
           "package": "bytestring-class",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:39 UTC 2014",
           "module": "Data.ByteString.Class",
           "name": "fromLazyByteString",
           "package": "bytestring-class",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Class",
+          "indexed": "2014-03-11T17:26:39",
           "module": "Data.ByteString.Class",
           "name": "fromLazyByteString",
           "normalized": "ByteString-\u003ea",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:39 UTC 2014",
           "module": "Data.ByteString.Class",
           "name": "fromStrictByteString",
           "package": "bytestring-class",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Class",
+          "indexed": "2014-03-11T17:26:39",
           "module": "Data.ByteString.Class",
           "name": "fromStrictByteString",
           "normalized": "ByteString-\u003ea",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:39 UTC 2014",
           "module": "Data.ByteString.Class",
           "name": "toLazyByteString",
           "package": "bytestring-class",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Class",
+          "indexed": "2014-03-11T17:26:39",
           "module": "Data.ByteString.Class",
           "name": "toLazyByteString",
           "normalized": "a-\u003eByteString",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:39 UTC 2014",
           "module": "Data.ByteString.Class",
           "name": "toStrictByteString",
           "package": "bytestring-class",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Class",
+          "indexed": "2014-03-11T17:26:39",
           "module": "Data.ByteString.Class",
           "name": "toStrictByteString",
           "normalized": "a-\u003eByteString",

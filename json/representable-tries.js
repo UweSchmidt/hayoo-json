@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "representable-tries"
+        "phrase": "representable-tries",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Control.Monad.Reader.Trie",
           "name": "Trie",
           "package": "representable-tries",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Reader Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Control.Monad.Reader.Trie",
           "name": "Trie",
           "package": "representable-tries",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Control.Monad.Reader.Trie",
           "name": "ReaderTrieT",
           "package": "representable-tries",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Reader Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Control.Monad.Reader.Trie",
           "name": "ReaderTrieT",
           "package": "representable-tries",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Control.Monad.Reader.Trie",
           "name": "ReaderTrieT",
           "package": "representable-tries",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Reader Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Control.Monad.Reader.Trie",
           "name": "ReaderTrieT",
           "package": "representable-tries",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Control.Monad.Reader.Trie",
           "name": "runReaderTrieT",
           "package": "representable-tries",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Reader Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Control.Monad.Reader.Trie",
           "name": "runReaderTrieT",
           "normalized": "a-\u003eb c",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.Bool",
           "name": "Bool",
           "package": "representable-tries",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie Bool",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.Bool",
           "name": "Bool",
           "package": "representable-tries",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.Bool",
           "name": "BoolTrie",
           "package": "representable-tries",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie Bool",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.Bool",
           "name": "BoolTrie",
           "package": "representable-tries",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.Bool",
           "name": "BoolTrie",
           "package": "representable-tries",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie Bool",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.Bool",
           "name": "BoolTrie",
           "package": "representable-tries",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "Either",
           "package": "representable-tries",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie Either",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "Either",
           "package": "representable-tries",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "EitherTrie",
           "package": "representable-tries",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie Either",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "EitherTrie",
           "package": "representable-tries",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "EitherTrie",
           "package": "representable-tries",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie Either",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "EitherTrie",
           "package": "representable-tries",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "left",
           "package": "representable-tries",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie Either",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "left",
           "normalized": "EitherTrie a b c-\u003ea c",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "right",
           "package": "representable-tries",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie Either",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.Either",
           "name": "right",
           "normalized": "EitherTrie a b c-\u003eb c",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "List",
           "package": "representable-tries",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie List",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "List",
           "package": "representable-tries",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "ListTrie",
           "package": "representable-tries",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie List",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "ListTrie",
           "package": "representable-tries",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "ListTrie",
           "package": "representable-tries",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie List",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "ListTrie",
           "package": "representable-tries",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "cons",
           "package": "representable-tries",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie List",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "cons",
           "normalized": "Key a-\u003eListTrie a b-\u003eListTrie a b",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "nil",
           "package": "representable-tries",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie List",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie.List",
           "name": "nil",
           "normalized": "ListTrie a b-\u003eb",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "Trie",
           "package": "representable-tries",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "Trie",
           "package": "representable-tries",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": ":-\u003e:",
           "package": "representable-tries",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": ":-\u003e:",
           "package": "representable-tries",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "Entry",
           "package": "representable-tries",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "Entry",
           "package": "representable-tries",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "HasTrie",
           "package": "representable-tries",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "HasTrie",
           "package": "representable-tries",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "Entry",
           "package": "representable-tries",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "Entry",
           "package": "representable-tries",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "Trie",
           "package": "representable-tries",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "Trie",
           "package": "representable-tries",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "embedKey",
           "package": "representable-tries",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "embedKey",
           "normalized": "a-\u003eKey(BaseTrie a)",
@@ -542,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a unary function inside of a tabulate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "inTrie",
           "package": "representable-tries",
@@ -552,6 +601,7 @@
         "index": {
           "description": "Apply unary function inside of tabulate",
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "inTrie",
           "normalized": "((a-\u003eb)-\u003ec-\u003ed)-\u003e(a-\u003eb)-\u003ec-\u003ed",
@@ -568,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a binary function inside of a tabulate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "inTrie2",
           "package": "representable-tries",
@@ -578,6 +629,7 @@
         "index": {
           "description": "Apply binary function inside of tabulate",
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "inTrie2",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed)-\u003ee-\u003ef)-\u003e(a-\u003eb)-\u003e(c-\u003ed)-\u003ee-\u003ef",
@@ -594,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a ternary function inside of a tabulate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "inTrie3",
           "package": "representable-tries",
@@ -604,6 +657,7 @@
         "index": {
           "description": "Apply ternary function inside of tabulate",
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "inTrie3",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed)-\u003e(e-\u003ef)-\u003eg-\u003eh)-\u003e(a-\u003eb)-\u003e(c-\u003ed)-\u003e(e-\u003ef)-\u003eg-\u003eh",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "memo",
           "package": "representable-tries",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "memo",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a binary function, on its first argument and then on its\n second.  Take care to exploit any partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "memo2",
           "package": "representable-tries",
@@ -653,6 +710,7 @@
         "index": {
           "description": "Memoize binary function on its first argument and then on its second Take care to exploit any partial evaluation",
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "memo2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -668,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a ternary function on successive arguments.  Take care to\n exploit any partial evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "memo3",
           "package": "representable-tries",
@@ -678,6 +737,7 @@
         "index": {
           "description": "Memoize ternary function on successive arguments Take care to exploit any partial evaluation",
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "memo3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -693,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a memoizer to work with one more argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "mup",
           "package": "representable-tries",
@@ -703,6 +764,7 @@
         "index": {
           "description": "Lift memoizer to work with one more argument",
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "mup",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "projectKey",
           "package": "representable-tries",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "projectKey",
           "normalized": "Key(BaseTrie a)-\u003ea",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "runTrie",
           "package": "representable-tries",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "runTrie",
           "package": "representable-tries",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "trie",
           "package": "representable-tries",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "trie",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -786,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Functor.Representable.Trie",
           "name": "untrie",
           "package": "representable-tries",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable Trie",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Functor.Representable.Trie",
           "name": "untrie",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -809,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "Fair",
           "package": "representable-tries",
@@ -817,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "Fair",
           "package": "representable-tries",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "foldMapBoth",
           "package": "representable-tries",
@@ -839,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "foldMapBoth",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed a-\u003eb",
@@ -855,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efold both containers, interleaving results for fairness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "foldMapBoth1",
           "package": "representable-tries",
@@ -865,6 +940,7 @@
         "index": {
           "description": "fold both containers interleaving results for fairness",
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "foldMapBoth1",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed a-\u003eb",
@@ -880,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "foldMapWithKeyBoth",
           "package": "representable-tries",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "foldMapWithKeyBoth",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003e(Key d-\u003eb-\u003ec)-\u003ea b-\u003ed b-\u003ec",
@@ -905,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efold both containers, interleaving results for fairness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "foldMapWithKeyBoth1",
           "package": "representable-tries",
@@ -915,6 +994,7 @@
         "index": {
           "description": "fold both containers interleaving results for fairness",
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "foldMapWithKeyBoth1",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003e(Key d-\u003eb-\u003ec)-\u003ea b-\u003ed b-\u003ec",
@@ -931,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etraverse both containers, interleaving effects for fairness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "traverseBoth",
           "package": "representable-tries",
@@ -941,6 +1022,7 @@
         "index": {
           "description": "traverse both containers interleaving effects for fairness",
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "traverseBoth",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003ee a-\u003eb(d c,e c)",
@@ -957,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etraverse both containers, interleaving effects for fairness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "traverseBoth1",
           "package": "representable-tries",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "traverse both containers interleaving effects for fairness",
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "traverseBoth1",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003ee a-\u003eb(d c,e c)",
@@ -983,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etraverse both containers, interleaving effects for fairness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "traverseWithKeyBoth",
           "package": "representable-tries",
@@ -993,6 +1078,7 @@
         "index": {
           "description": "traverse both containers interleaving effects for fairness",
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "traverseWithKeyBoth",
           "normalized": "(Key a-\u003eb-\u003ec d)-\u003e(Key e-\u003eb-\u003ec d)-\u003ea b-\u003ee b-\u003ec(a d,e d)",
@@ -1009,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etraverse both containers, interleaving effects for fairness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Data.Traversable.Fair",
           "name": "traverseWithKeyBoth1",
           "package": "representable-tries",
@@ -1019,6 +1106,7 @@
         "index": {
           "description": "traverse both containers interleaving effects for fairness",
           "hierarchy": "Data Traversable Fair",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Data.Traversable.Fair",
           "name": "traverseWithKeyBoth1",
           "normalized": "(Key a-\u003eb-\u003ec d)-\u003e(Key e-\u003eb-\u003ec d)-\u003ea b-\u003ee b-\u003ec(a d,e d)",
@@ -1035,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZeroless numbers encoded in zeroless binary numbers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Zeroless",
           "package": "representable-tries",
@@ -1044,6 +1133,7 @@
         "index": {
           "description": "Zeroless numbers encoded in zeroless binary numbers",
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Zeroless",
           "package": "representable-tries",
@@ -1057,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": ":*:",
           "package": "representable-tries",
@@ -1065,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": ":*:",
           "package": "representable-tries",
@@ -1077,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": ":+:",
           "package": "representable-tries",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": ":+:",
           "package": "representable-tries",
@@ -1097,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Compare",
           "package": "representable-tries",
@@ -1105,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Compare",
           "package": "representable-tries",
@@ -1118,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "D0",
           "package": "representable-tries",
@@ -1126,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "D0",
           "package": "representable-tries",
@@ -1138,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "D1",
           "package": "representable-tries",
@@ -1146,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "D1",
           "package": "representable-tries",
@@ -1158,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "D2",
           "package": "representable-tries",
@@ -1166,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "D2",
           "package": "representable-tries",
@@ -1178,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "EQ",
           "package": "representable-tries",
@@ -1186,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "EQ",
           "package": "representable-tries",
@@ -1199,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Fin",
           "package": "representable-tries",
@@ -1207,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Fin",
           "package": "representable-tries",
@@ -1220,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "GT",
           "package": "representable-tries",
@@ -1228,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "GT",
           "package": "representable-tries",
@@ -1241,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "LT",
           "package": "representable-tries",
@@ -1249,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "LT",
           "package": "representable-tries",
@@ -1262,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "N1",
           "package": "representable-tries",
@@ -1270,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "N1",
           "package": "representable-tries",
@@ -1282,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "N16",
           "package": "representable-tries",
@@ -1290,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "N16",
           "package": "representable-tries",
@@ -1302,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "N32",
           "package": "representable-tries",
@@ -1310,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "N32",
           "package": "representable-tries",
@@ -1322,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "N64",
           "package": "representable-tries",
@@ -1330,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "N64",
           "package": "representable-tries",
@@ -1342,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "N8",
           "package": "representable-tries",
@@ -1350,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "N8",
           "package": "representable-tries",
@@ -1362,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Nat",
           "package": "representable-tries",
@@ -1370,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Nat",
           "package": "representable-tries",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Pred",
           "package": "representable-tries",
@@ -1391,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Pred",
           "package": "representable-tries",
@@ -1404,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Reverse",
           "package": "representable-tries",
@@ -1412,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Reverse",
           "package": "representable-tries",
@@ -1425,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Succ",
           "package": "representable-tries",
@@ -1433,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Succ",
           "package": "representable-tries",
@@ -1446,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Zeroless",
           "package": "representable-tries",
@@ -1454,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Zeroless",
           "package": "representable-tries",
@@ -1468,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "D0",
           "package": "representable-tries",
@@ -1477,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "D0",
           "package": "representable-tries",
@@ -1490,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2n + 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "D1",
           "package": "representable-tries",
@@ -1499,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "D1",
           "package": "representable-tries",
@@ -1512,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2n + 2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "D2",
           "package": "representable-tries",
@@ -1521,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "D2",
           "package": "representable-tries",
@@ -1533,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Fin",
           "package": "representable-tries",
@@ -1542,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Fin",
           "package": "representable-tries",
@@ -1555,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "Nat",
           "package": "representable-tries",
@@ -1564,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "Nat",
           "package": "representable-tries",
@@ -1577,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "caseNat",
           "package": "representable-tries",
@@ -1586,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "caseNat",
           "normalized": "a-\u003eb)-\u003ec-\u003eb",
@@ -1601,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "fromFin",
           "package": "representable-tries",
@@ -1610,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "fromFin",
           "package": "representable-tries",
@@ -1623,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "fromNat",
           "package": "representable-tries",
@@ -1632,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "fromNat",
           "package": "representable-tries",
@@ -1645,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "ind",
           "package": "representable-tries",
@@ -1654,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "ind",
           "normalized": "a b-\u003ea(D b))-\u003ea c",
@@ -1668,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:32 UTC 2014",
           "module": "Numeric.Nat.Zeroless",
           "name": "nat",
           "package": "representable-tries",
@@ -1677,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Numeric Nat Zeroless",
+          "indexed": "2014-03-11T19:53:32",
           "module": "Numeric.Nat.Zeroless",
           "name": "nat",
           "package": "representable-tries",

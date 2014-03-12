@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hjpath"
+        "phrase": "hjpath",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eI wanted to insert a description here, but got tired fighting with haddock escaping. Documentation: \u003ca\u003ehttp://bitcheese.net/wiki/code/hjpath\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "JPath",
           "package": "hjpath",
@@ -28,6 +29,7 @@
         "index": {
           "description": "wanted to insert description here but got tired fighting with haddock escaping Documentation http bitcheese.net wiki code hjpath",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "JPath",
           "package": "hjpath",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass that allows type to be used as JSON, all you need to implement is converting to and from Text.HJson.Json\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "HJsonLike",
           "package": "hjpath",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Class that allows type to be used as JSON all you need to implement is converting to and from Text.HJson.Json",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "HJsonLike",
           "package": "hjpath",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJPath query building blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "QueryElement",
           "package": "hjpath",
@@ -74,6 +79,7 @@
         "index": {
           "description": "JPath query building blocks",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "QueryElement",
           "package": "hjpath",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass that allows type to be used as JPath query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "QueryLike",
           "package": "hjpath",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Class that allows type to be used as JPath query",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "QueryLike",
           "package": "hjpath",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up array element (from 0 forward or from -1 backward)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "ArrayLookup",
           "package": "hjpath",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Look up array element from forward or from backward",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "ArrayLookup",
           "package": "hjpath",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any number of child entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "DeepLookup",
           "package": "hjpath",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Matches any number of child entries",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "DeepLookup",
           "package": "hjpath",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up element in object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "ObjectLookup",
           "package": "hjpath",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Look up element in object",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "ObjectLookup",
           "package": "hjpath",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any child element (array or hash entries)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "WildcardLookup",
           "package": "hjpath",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Matches any child element array or hash entries",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "WildcardLookup",
           "package": "hjpath",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates JPath query on JSON String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "jPath",
           "package": "hjpath",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Evaluates JPath query on JSON String",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "jPath",
           "normalized": "a-\u003eb-\u003e[b]",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies JSON content under JPath expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:34 UTC 2014",
           "module": "Text.JSON.JPath",
           "name": "jPathModify",
           "package": "hjpath",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Modifies JSON content under JPath expression",
           "hierarchy": "Text JSON JPath",
+          "indexed": "2014-03-11T18:40:34",
           "module": "Text.JSON.JPath",
           "name": "jPathModify",
           "normalized": "a-\u003e(Json-\u003eJson)-\u003eb-\u003eb",

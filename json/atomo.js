@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atomo"
+        "phrase": "atomo",
+        "type": "phrase"
       },
       "type": "context"
     }

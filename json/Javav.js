@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Javav"
+        "phrase": "Javav",
+        "type": "phrase"
       },
       "type": "context"
     }

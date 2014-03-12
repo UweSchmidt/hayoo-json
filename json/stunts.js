@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stunts"
+        "phrase": "stunts",
+        "type": "phrase"
       },
       "type": "context"
     }

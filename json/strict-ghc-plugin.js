@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "strict-ghc-plugin"
+        "phrase": "strict-ghc-plugin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:19 UTC 2014",
           "module": "Strict.Annotation",
           "name": "Annotation",
           "package": "strict-ghc-plugin",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Strict Annotation",
+          "indexed": "2014-03-11T20:12:19",
           "module": "Strict.Annotation",
           "name": "Annotation",
           "package": "strict-ghc-plugin",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrograms which want to \u003ccode\u003estrictify\u003c/code\u003e their functions should annotate them with the following\n datatype\n TODO: move this into a separate package perhaps?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:19 UTC 2014",
           "module": "Strict.Annotation",
           "name": "Strictify",
           "package": "strict-ghc-plugin",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Programs which want to strictify their functions should annotate them with the following datatype TODO move this into separate package perhaps",
           "hierarchy": "Strict Annotation",
+          "indexed": "2014-03-11T20:12:19",
           "module": "Strict.Annotation",
           "name": "Strictify",
           "package": "strict-ghc-plugin",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:19 UTC 2014",
           "module": "Strict.Annotation",
           "name": "Strictify",
           "package": "strict-ghc-plugin",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Strict Annotation",
+          "indexed": "2014-03-11T20:12:19",
           "module": "Strict.Annotation",
           "name": "Strictify",
           "package": "strict-ghc-plugin",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:19 UTC 2014",
           "module": "Strict.Plugin",
           "name": "Plugin",
           "package": "strict-ghc-plugin",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Strict Plugin",
+          "indexed": "2014-03-11T20:12:19",
           "module": "Strict.Plugin",
           "name": "Plugin",
           "package": "strict-ghc-plugin",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:19 UTC 2014",
           "module": "Strict.Plugin",
           "name": "plugin",
           "package": "strict-ghc-plugin",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Strict Plugin",
+          "indexed": "2014-03-11T20:12:19",
           "module": "Strict.Plugin",
           "name": "plugin",
           "package": "strict-ghc-plugin",

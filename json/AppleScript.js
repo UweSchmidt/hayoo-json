@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AppleScript"
+        "phrase": "AppleScript",
+        "type": "phrase"
       },
       "type": "context"
     }

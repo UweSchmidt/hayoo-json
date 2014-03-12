@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "test-framework-doctest"
+        "phrase": "test-framework-doctest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package is deprecated, use Doctest`s cabal integration instead.\n\u003c/p\u003e\u003cp\u003eSee: \u003ca\u003ehttps://github.com/sol/doctest-haskell#cabal-integration\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:05 UTC 2014",
           "module": "Test.Framework.Providers.DocTest",
           "name": "DocTest",
           "package": "test-framework-doctest",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This package is deprecated use Doctest cabal integration instead See https github.com sol doctest-haskell cabal-integration",
           "hierarchy": "Test Framework Providers DocTest",
+          "indexed": "2014-03-11T20:19:05",
           "module": "Test.Framework.Providers.DocTest",
           "name": "DocTest",
           "package": "test-framework-doctest",

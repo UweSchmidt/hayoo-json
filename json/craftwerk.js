@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "craftwerk"
+        "phrase": "craftwerk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCraftwerk uses the \u003ca\u003eData.Colour\u003c/a\u003e package to represent colours in styles.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Color",
           "name": "Color",
           "package": "craftwerk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Craftwerk uses the Data.Colour package to represent colours in styles",
           "hierarchy": "Graphics Craftwerk Core Color",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Color",
           "name": "Color",
           "package": "craftwerk",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe colour type used by Craftwerk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Color",
           "name": "FigureColor",
           "package": "craftwerk",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The colour type used by Craftwerk",
           "hierarchy": "Graphics Craftwerk Core Color",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Color",
           "name": "FigureColor",
           "package": "craftwerk",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the i-th of 16 basic named colours (i % 16 to be precise).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Color",
           "name": "integralColor",
           "package": "craftwerk",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Returns the i-th of basic named colours to be precise",
           "hierarchy": "Graphics Craftwerk Core Color",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Color",
           "name": "integralColor",
           "normalized": "a-\u003eFigureColor",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions that convert figures into figures that use less\n primitives such that drivers only need to implement basic\n functionalities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "Generic",
           "package": "craftwerk",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Functions that convert figures into figures that use less primitives such that drivers only need to implement basic functionalities",
           "hierarchy": "Graphics Craftwerk Core Driver Generic",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "Generic",
           "package": "craftwerk",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates arrow tip figure for a given path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "arrowTipsForPath",
           "package": "craftwerk",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Creates arrow tip figure for given path",
           "hierarchy": "Graphics Craftwerk Core Driver Generic",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "arrowTipsForPath",
           "normalized": "[Segment]-\u003eDouble-\u003e(ArrowTip,ArrowTip)-\u003eFigure",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "degree",
           "package": "craftwerk",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Angle conversion",
           "hierarchy": "Graphics Craftwerk Core Driver Generic",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "degree",
           "normalized": "a-\u003ea",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt the moment only \u003ccode\u003e\u003ca\u003eCircle\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e figures are converted to paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "genericFigure",
           "package": "craftwerk",
@@ -175,6 +188,7 @@
         "index": {
           "description": "At the moment only Circle and Grid figures are converted to paths",
           "hierarchy": "Graphics Craftwerk Core Driver Generic",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "genericFigure",
           "normalized": "Figure-\u003eFigure",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "radians",
           "package": "craftwerk",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Angle conversion",
           "hierarchy": "Graphics Craftwerk Core Driver Generic",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Driver.Generic",
           "name": "radians",
           "normalized": "a-\u003ea",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert a figure to a LaTeX TikZ \n (\u003ca\u003ehttp://sourceforge.net/projects/pgf/develop\u003c/a\u003e) string.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Tikz",
           "name": "Tikz",
           "package": "craftwerk",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Convert figure to LaTeX TikZ http sourceforge.net projects pgf develop string",
           "hierarchy": "Graphics Craftwerk Core Driver Tikz",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Driver.Tikz",
           "name": "Tikz",
           "package": "craftwerk",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Craftwerk \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e to a TikZ picture environment string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Tikz",
           "name": "figureToTikzPicture",
           "package": "craftwerk",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Convert Craftwerk Figure to TikZ picture environment string",
           "hierarchy": "Graphics Craftwerk Core Driver Tikz",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Driver.Tikz",
           "name": "figureToTikzPicture",
           "normalized": "Figure-\u003eString",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e is a description of a 2D vector graphic. Affine transformations\n and styles apply to all subfigures. When a subfigure of a style node contains\n another style node the style properties will be overwritten where the deeper\n node specifies it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Figure",
           "package": "craftwerk",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Figure is description of vector graphic Affine transformations and styles apply to all subfigures When subfigure of style node contains another style node the style properties will be overwritten where the deeper node specifies it",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Figure",
           "package": "craftwerk",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main datatype describing an arbitrary figure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Figure",
           "package": "craftwerk",
@@ -297,6 +320,7 @@
         "index": {
           "description": "The main datatype describing an arbitrary figure",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Figure",
           "package": "craftwerk",
@@ -310,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Line",
           "package": "craftwerk",
@@ -318,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Line",
           "package": "craftwerk",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Path",
           "package": "craftwerk",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Path",
           "package": "craftwerk",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Point",
           "package": "craftwerk",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Point",
           "package": "craftwerk",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath creation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Segment",
           "package": "craftwerk",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Path creation",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Segment",
           "package": "craftwerk",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Transform",
           "package": "craftwerk",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Transform",
           "package": "craftwerk",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Vector",
           "package": "craftwerk",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Vector",
           "package": "craftwerk",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "ArcSegment",
           "package": "craftwerk",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "ArcSegment",
           "package": "craftwerk",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Blank",
           "package": "craftwerk",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Blank",
           "package": "craftwerk",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Canvas",
           "package": "craftwerk",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Canvas",
           "package": "craftwerk",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Circle",
           "package": "craftwerk",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Circle",
           "package": "craftwerk",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Composition",
           "package": "craftwerk",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Composition",
           "normalized": "Composition[Figure]",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "CurveSegment",
           "package": "craftwerk",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "CurveSegment",
           "package": "craftwerk",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Grid",
           "package": "craftwerk",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Grid",
           "package": "craftwerk",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "LineSegment",
           "package": "craftwerk",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "LineSegment",
           "package": "craftwerk",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "MoveTo",
           "package": "craftwerk",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "MoveTo",
           "package": "craftwerk",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "NoDecorations",
           "package": "craftwerk",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "NoDecorations",
           "package": "craftwerk",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Path",
           "package": "craftwerk",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Path",
           "package": "craftwerk",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Rotate",
           "package": "craftwerk",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Rotate",
           "package": "craftwerk",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Scale",
           "package": "craftwerk",
@@ -713,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Scale",
           "package": "craftwerk",
@@ -726,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Style",
           "package": "craftwerk",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Style",
           "package": "craftwerk",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Text",
           "package": "craftwerk",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Text",
           "package": "craftwerk",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Transform",
           "package": "craftwerk",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Transform",
           "package": "craftwerk",
@@ -792,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Translate",
           "package": "craftwerk",
@@ -801,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "Translate",
           "package": "craftwerk",
@@ -815,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates an \u003ccode\u003e\u003ca\u003eArcSegment\u003c/a\u003e\u003c/code\u003e segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "arc",
           "package": "craftwerk",
@@ -824,6 +895,7 @@
         "index": {
           "description": "Generates an ArcSegment segment",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "arc",
           "normalized": "Point-\u003eDouble-\u003eDouble-\u003eDouble-\u003eSegment",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "blank",
           "package": "craftwerk",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "blank",
           "package": "craftwerk",
@@ -860,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a coordinate transformation 'Transform t f' into\n a canvas transformation  'Canvas t f'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "canvas",
           "package": "craftwerk",
@@ -870,6 +945,7 @@
         "index": {
           "description": "Transforms coordinate transformation Transform into canvas transformation Canvas",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "canvas",
           "normalized": "Figure-\u003eFigure",
@@ -885,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a circle figure at a point with given radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "circle",
           "package": "craftwerk",
@@ -895,6 +972,7 @@
         "index": {
           "description": "Generate circle figure at point with given radius",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "circle",
           "normalized": "Point-\u003eDouble-\u003eFigure",
@@ -910,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines figures which are drawn in the order of the figures in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "composition",
           "package": "craftwerk",
@@ -920,6 +999,7 @@
         "index": {
           "description": "Combines figures which are drawn in the order of the figures in the list",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "composition",
           "normalized": "[Figure]-\u003eFigure",
@@ -935,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a \u003ccode\u003e\u003ca\u003eCurveSegment\u003c/a\u003e\u003c/code\u003e segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "curveTo",
           "package": "craftwerk",
@@ -944,6 +1025,7 @@
         "index": {
           "description": "Generates CurveSegment segment",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "curveTo",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003eSegment",
@@ -960,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a grid spanning from (0,0) to (x,y) taking steps (xs,ys).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "grid",
           "package": "craftwerk",
@@ -969,6 +1052,7 @@
         "index": {
           "description": "Generate grid spanning from to taking steps xs ys",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "grid",
           "normalized": "Vector-\u003eVector-\u003eFigure",
@@ -984,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a line to a figure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "line",
           "package": "craftwerk",
@@ -994,6 +1079,7 @@
         "index": {
           "description": "Converts line to figure",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "line",
           "normalized": "Line-\u003eFigure",
@@ -1009,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a \u003ccode\u003e\u003ca\u003eLineSegment\u003c/a\u003e\u003c/code\u003e segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "lineTo",
           "package": "craftwerk",
@@ -1019,6 +1106,7 @@
         "index": {
           "description": "Generates LineSegment segment",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "lineTo",
           "normalized": "Point-\u003eSegment",
@@ -1034,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "lineToPath",
           "package": "craftwerk",
@@ -1043,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "lineToPath",
           "normalized": "Line-\u003ePath",
@@ -1059,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a \u003ccode\u003e\u003ca\u003eMoveTo\u003c/a\u003e\u003c/code\u003e segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "moveTo",
           "package": "craftwerk",
@@ -1069,6 +1160,7 @@
         "index": {
           "description": "Generates MoveTo segment",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "moveTo",
           "normalized": "Point-\u003eSegment",
@@ -1085,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a figure from a path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "path",
           "package": "craftwerk",
@@ -1095,6 +1188,7 @@
         "index": {
           "description": "Generate figure from path",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "path",
           "normalized": "Path-\u003eFigure",
@@ -1109,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "point",
           "package": "craftwerk",
@@ -1118,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "point",
           "normalized": "Double-\u003eDouble-\u003ePoint",
@@ -1133,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a rectangle path from origin and extent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "rectangle",
           "package": "craftwerk",
@@ -1142,6 +1239,7 @@
         "index": {
           "description": "Construct rectangle path from origin and extent",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "rectangle",
           "normalized": "Point-\u003eVector-\u003eLine",
@@ -1157,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a coordinate rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "rotate",
           "package": "craftwerk",
@@ -1167,6 +1266,7 @@
         "index": {
           "description": "Applies coordinate rotation",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "rotate",
           "normalized": "Double-\u003eFigure-\u003eFigure",
@@ -1182,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a coordinate scaling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "scale",
           "package": "craftwerk",
@@ -1192,6 +1293,7 @@
         "index": {
           "description": "Applies coordinate scaling",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "scale",
           "normalized": "Vector-\u003eFigure-\u003eFigure",
@@ -1207,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a style to the given figure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "style",
           "package": "craftwerk",
@@ -1217,6 +1320,7 @@
         "index": {
           "description": "Applies style to the given figure",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "style",
           "normalized": "StyleProperties-\u003eFigure-\u003eFigure",
@@ -1232,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a text at (0,0)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "text",
           "package": "craftwerk",
@@ -1242,6 +1347,7 @@
         "index": {
           "description": "Generate text at",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "text",
           "normalized": "String-\u003eFigure",
@@ -1257,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a coordinate translation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "translate",
           "package": "craftwerk",
@@ -1267,6 +1374,7 @@
         "index": {
           "description": "Applies coordinate translation",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "translate",
           "normalized": "Vector-\u003eFigure-\u003eFigure",
@@ -1282,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangle with origin (0,0) and extent (1,1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "unitRectangle",
           "package": "craftwerk",
@@ -1292,6 +1401,7 @@
         "index": {
           "description": "Rectangle with origin and extent",
           "hierarchy": "Graphics Craftwerk Core Figure",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Figure",
           "name": "unitRectangle",
           "package": "craftwerk",
@@ -1306,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStyles in craftwerk are nodes in the figure tree and the style at the node is\n applied to all subnodes. If a field of a style is empty (i.e its value\n is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e) the value of the next parent style node is applied.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "Style",
           "package": "craftwerk",
@@ -1315,6 +1426,7 @@
         "index": {
           "description": "Styles in craftwerk are nodes in the figure tree and the style at the node is applied to all subnodes If field of style is empty i.e its value is Nothing the value of the next parent style node is applied",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "Style",
           "package": "craftwerk",
@@ -1328,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "ArrowTip",
           "package": "craftwerk",
@@ -1336,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "ArrowTip",
           "package": "craftwerk",
@@ -1349,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "LineCap",
           "package": "craftwerk",
@@ -1357,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "LineCap",
           "package": "craftwerk",
@@ -1370,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "LineJoin",
           "package": "craftwerk",
@@ -1378,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "LineJoin",
           "package": "craftwerk",
@@ -1392,6 +1510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record holding all possible properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "StyleProperties",
           "package": "craftwerk",
@@ -1401,6 +1520,7 @@
         "index": {
           "description": "record holding all possible properties",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "StyleProperties",
           "package": "craftwerk",
@@ -1414,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "(\u003c==)",
           "package": "craftwerk",
@@ -1423,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "(\u003c==) \u003c==",
           "normalized": "ArrowDummy-\u003eArrowTips",
@@ -1437,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "(\u003c=\u003e)",
           "package": "craftwerk",
@@ -1446,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "(\u003c=\u003e) \u003c=\u003e",
           "normalized": "ArrowDummy-\u003eArrowTips",
@@ -1460,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "(===)",
           "package": "craftwerk",
@@ -1469,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "(===) ===",
           "normalized": "ArrowDummy-\u003eArrowTips",
@@ -1483,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "(==\u003e)",
           "package": "craftwerk",
@@ -1492,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "(==\u003e) ==\u003e",
           "normalized": "ArrowDummy-\u003eArrowTips",
@@ -1506,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "CapButt",
           "package": "craftwerk",
@@ -1515,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "CapButt",
           "package": "craftwerk",
@@ -1528,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "CapRect",
           "package": "craftwerk",
@@ -1537,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "CapRect",
           "package": "craftwerk",
@@ -1550,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "CapRound",
           "package": "craftwerk",
@@ -1559,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "CapRound",
           "package": "craftwerk",
@@ -1572,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "JoinBevel",
           "package": "craftwerk",
@@ -1581,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "JoinBevel",
           "package": "craftwerk",
@@ -1594,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "JoinMiter",
           "package": "craftwerk",
@@ -1603,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "JoinMiter",
           "package": "craftwerk",
@@ -1616,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "JoinRound",
           "package": "craftwerk",
@@ -1625,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "JoinRound",
           "package": "craftwerk",
@@ -1638,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "StyleProperties",
           "package": "craftwerk",
@@ -1647,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "StyleProperties",
           "package": "craftwerk",
@@ -1660,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "TipDefault",
           "package": "craftwerk",
@@ -1669,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "TipDefault",
           "package": "craftwerk",
@@ -1682,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "TipNone",
           "package": "craftwerk",
@@ -1691,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "TipNone",
           "package": "craftwerk",
@@ -1705,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrow tip styles can be specified by using the notation 'arrow (\u003c==)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "arrow",
           "package": "craftwerk",
@@ -1715,6 +1862,7 @@
         "index": {
           "description": "Arrow tip styles can be specified by using the notation arrow",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "arrow",
           "normalized": "(ArrowDummy-\u003eArrowTips)-\u003eMaybe ArrowTips",
@@ -1729,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "arrowTips",
           "package": "craftwerk",
@@ -1738,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "arrowTips",
           "package": "craftwerk",
@@ -1751,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "clip",
           "package": "craftwerk",
@@ -1760,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "clip",
           "package": "craftwerk",
@@ -1772,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "closePath",
           "package": "craftwerk",
@@ -1781,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "closePath",
           "package": "craftwerk",
@@ -1794,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "dashPhase",
           "package": "craftwerk",
@@ -1803,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "dashPhase",
           "package": "craftwerk",
@@ -1816,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "dashes",
           "package": "craftwerk",
@@ -1825,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "dashes",
           "normalized": "Maybe[Double]",
@@ -1840,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default style used at the root node of any \u003ccode\u003eFigure\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "defaultStyle",
           "package": "craftwerk",
@@ -1850,6 +2009,7 @@
         "index": {
           "description": "The default style used at the root node of any Figure",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "defaultStyle",
           "package": "craftwerk",
@@ -1864,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA style where no property has been set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "emptyStyle",
           "package": "craftwerk",
@@ -1874,6 +2035,7 @@
         "index": {
           "description": "style where no property has been set",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "emptyStyle",
           "package": "craftwerk",
@@ -1887,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "fill",
           "package": "craftwerk",
@@ -1896,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "fill",
           "package": "craftwerk",
@@ -1908,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "fillColor",
           "package": "craftwerk",
@@ -1917,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "fillColor",
           "package": "craftwerk",
@@ -1930,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "fillOnly",
           "package": "craftwerk",
@@ -1939,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "fillOnly",
           "package": "craftwerk",
@@ -1953,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a property from a style property record returning the value of\n the default style if the value is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "getProperty",
           "package": "craftwerk",
@@ -1963,6 +2132,7 @@
         "index": {
           "description": "Read property from style property record returning the value of the default style if the value is Nothing",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "getProperty",
           "normalized": "StyleProperties-\u003e(StyleProperties-\u003eMaybe a)-\u003ea",
@@ -1979,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "limit",
           "package": "craftwerk",
@@ -1989,6 +2160,7 @@
         "index": {
           "description": "Alias for Just",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "limit",
           "normalized": "Double-\u003eMaybe Double",
@@ -2003,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "lineCap",
           "package": "craftwerk",
@@ -2012,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "lineCap",
           "package": "craftwerk",
@@ -2025,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "lineColor",
           "package": "craftwerk",
@@ -2034,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "lineColor",
           "package": "craftwerk",
@@ -2047,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "lineJoin",
           "package": "craftwerk",
@@ -2056,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "lineJoin",
           "package": "craftwerk",
@@ -2069,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "lineWidth",
           "package": "craftwerk",
@@ -2078,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "lineWidth",
           "package": "craftwerk",
@@ -2092,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two property records, where the second argument overwrites fields of\n the first unless a field is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "mergeProperties",
           "package": "craftwerk",
@@ -2102,6 +2283,7 @@
         "index": {
           "description": "Merge two property records where the second argument overwrites fields of the first unless field is Nothing",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "mergeProperties",
           "normalized": "StyleProperties-\u003eStyleProperties-\u003eStyleProperties",
@@ -2117,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "miterLimit",
           "package": "craftwerk",
@@ -2126,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "miterLimit",
           "package": "craftwerk",
@@ -2140,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for empty style, makes style construction nicer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "newStyle",
           "package": "craftwerk",
@@ -2150,6 +2335,7 @@
         "index": {
           "description": "Alias for empty style makes style construction nicer",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "newStyle",
           "package": "craftwerk",
@@ -2164,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for 'Just False' to make style specification more convenient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "no",
           "package": "craftwerk",
@@ -2174,6 +2361,7 @@
         "index": {
           "description": "Alias for Just False to make style specification more convenient",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "no",
           "package": "craftwerk",
@@ -2187,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "phase",
           "package": "craftwerk",
@@ -2197,6 +2386,7 @@
         "index": {
           "description": "Alias for Just",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "phase",
           "normalized": "Double-\u003eMaybe Double",
@@ -2212,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a rgb color property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "rgb",
           "package": "craftwerk",
@@ -2222,6 +2413,7 @@
         "index": {
           "description": "Make rgb color property",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "rgb",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eMaybe FigureColor",
@@ -2237,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth 0.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "semithick",
           "package": "craftwerk",
@@ -2247,6 +2440,7 @@
         "index": {
           "description": "Width",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "semithick",
           "package": "craftwerk",
@@ -2259,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "setLineWidth",
           "package": "craftwerk",
@@ -2268,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "setLineWidth",
           "normalized": "Maybe Double-\u003eStyleProperties",
@@ -2283,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "stroke",
           "package": "craftwerk",
@@ -2292,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "stroke",
           "package": "craftwerk",
@@ -2304,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "strokeOnly",
           "package": "craftwerk",
@@ -2313,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "strokeOnly",
           "package": "craftwerk",
@@ -2327,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth 0.8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "thick",
           "package": "craftwerk",
@@ -2337,6 +2538,7 @@
         "index": {
           "description": "Width",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "thick",
           "package": "craftwerk",
@@ -2350,6 +2552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth 0.4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "thin",
           "package": "craftwerk",
@@ -2360,6 +2563,7 @@
         "index": {
           "description": "Width",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "thin",
           "package": "craftwerk",
@@ -2373,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth 1.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "ultrathick",
           "package": "craftwerk",
@@ -2383,6 +2588,7 @@
         "index": {
           "description": "Width",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "ultrathick",
           "package": "craftwerk",
@@ -2396,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth 1.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "verythick",
           "package": "craftwerk",
@@ -2406,6 +2613,7 @@
         "index": {
           "description": "Width",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "verythick",
           "package": "craftwerk",
@@ -2419,6 +2627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth 0.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "verythin",
           "package": "craftwerk",
@@ -2429,6 +2638,7 @@
         "index": {
           "description": "Width",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "verythin",
           "package": "craftwerk",
@@ -2442,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "width",
           "package": "craftwerk",
@@ -2452,6 +2663,7 @@
         "index": {
           "description": "Alias for Just",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "width",
           "normalized": "Double-\u003eMaybe Double",
@@ -2467,6 +2679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for 'Just True' to make style specification more convenient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "yes",
           "package": "craftwerk",
@@ -2477,6 +2690,7 @@
         "index": {
           "description": "Alias for Just True to make style specification more convenient",
           "hierarchy": "Graphics Craftwerk Core Style",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core.Style",
           "name": "yes",
           "package": "craftwerk",
@@ -2490,6 +2704,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA high-level and easy to use graphics library with several backends,\n currently including TikZ, Cairo (craftwerk-cairo) with Gtk UI (craftwerk-gtk)\n and Gloss (craftwerk-gloss).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:39 UTC 2014",
           "module": "Graphics.Craftwerk.Core",
           "name": "Core",
           "package": "craftwerk",
@@ -2499,6 +2714,7 @@
         "index": {
           "description": "high-level and easy to use graphics library with several backends currently including TikZ Cairo craftwerk-cairo with Gtk UI craftwerk-gtk and Gloss craftwerk-gloss",
           "hierarchy": "Graphics Craftwerk Core",
+          "indexed": "2014-03-11T17:42:39",
           "module": "Graphics.Craftwerk.Core",
           "name": "Core",
           "package": "craftwerk",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binding-wx"
+        "phrase": "binding-wx",
+        "type": "phrase"
       },
       "type": "context"
     }

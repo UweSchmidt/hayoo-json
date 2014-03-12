@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hask-home"
+        "phrase": "hask-home",
+        "type": "phrase"
       },
       "type": "context"
     }

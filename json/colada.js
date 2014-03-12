@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "colada"
+        "phrase": "colada",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWord Class induction with LDA\n\u003c/p\u003e\u003cp\u003eThis module provides function which implement word class induction\n using the generic algorithm implemented in Colada.LDA. \n\u003c/p\u003e\u003cp\u003eYou can access and set options in the \u003ccode\u003eOptions\u003c/code\u003e record using lenses.\n Example:\n\u003c/p\u003e\u003cpre\u003e  import Data.Label\n  let options =   set passes 5 \n                . set beta 0.01 \n                . set topicNum 100 \n                $ defaultOptions\n  in run options sentences\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "WordClass",
           "package": "colada",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Word Class induction with LDA This module provides function which implement word class induction using the generic algorithm implemented in Colada.LDA You can access and set options in the Options record using lenses Example import Data.Label let options set passes set beta set topicNum defaultOptions in run options sentences",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "WordClass",
           "package": "colada",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "Finalized",
           "package": "colada",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "Finalized",
           "package": "colada",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "Options",
           "package": "colada",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "Options",
           "package": "colada",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer for the Word Class model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "WordClass",
           "package": "colada",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Container for the Word Class model",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "WordClass",
           "package": "colada",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "alphasum",
           "package": "colada",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "alphasum",
           "package": "colada",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "batchSize",
           "package": "colada",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "batchSize",
           "package": "colada",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "beta",
           "package": "colada",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "beta",
           "package": "colada",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "defaultOptions",
           "package": "colada",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "defaultOptions",
           "package": "colada",
@@ -192,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "docTopics",
           "package": "colada",
@@ -201,6 +218,7 @@
         "index": {
           "description": "Document topic counts",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "docTopics",
           "normalized": "Finalized-\u003eTable D",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "exponent",
           "package": "colada",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "exponent",
           "package": "colada",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "featIds",
           "package": "colada",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "featIds",
           "normalized": "Lens a Options[Int]",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "featureTable",
           "package": "colada",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "featureTable",
           "package": "colada",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "initPasses",
           "package": "colada",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "initPasses",
           "package": "colada",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "initSize",
           "package": "colada",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "initSize",
           "package": "colada",
@@ -328,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elabel m s\u003c/code\u003e returns for each word in sentences s,\n unnormalized probabilities of word classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "label",
           "package": "colada",
@@ -338,6 +367,7 @@
         "index": {
           "description": "label returns for each word in sentences unnormalized probabilities of word classes",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "label",
           "normalized": "Bool-\u003eWordClass-\u003eSentence-\u003eVector(Vector Double)",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "lambda",
           "package": "colada",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "lambda",
           "package": "colada",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "ldaModel",
           "package": "colada",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "ldaModel",
           "package": "colada",
@@ -396,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elearn options xs\u003c/code\u003e runs the LDA Gibbs sampler for word classes\n with \u003ccode\u003eoptions\u003c/code\u003e on sentences \u003ccode\u003exs\u003c/code\u003e, and returns the resulting model\n together with progressive class assignments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "learn",
           "package": "colada",
@@ -406,6 +441,7 @@
         "index": {
           "description": "learn options xs runs the LDA Gibbs sampler for word classes with options on sentences xs and returns the resulting model together with progressive class assignments",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "learn",
           "normalized": "Options-\u003e[Sentence]-\u003e(WordClass,[Vector(Vector Double)])",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "options",
           "package": "colada",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "options",
           "package": "colada",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "passes",
           "package": "colada",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "passes",
           "package": "colada",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "pre",
           "package": "colada",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "pre",
           "package": "colada",
@@ -484,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epredict m s\u003c/code\u003e returns for each word in sentence s, unnormalized\n probabilities of words given predicted word class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "predict",
           "package": "colada",
@@ -494,6 +537,7 @@
         "index": {
           "description": "predict returns for each word in sentence unnormalized probabilities of words given predicted word class",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "predict",
           "normalized": "WordClass-\u003eSentence-\u003e[Vector(Double,Text)]",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "progressive",
           "package": "colada",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "progressive",
           "package": "colada",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "repeats",
           "package": "colada",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "repeats",
           "package": "colada",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "seed",
           "package": "colada",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "seed",
           "package": "colada",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "summarize",
           "package": "colada",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "summarize",
           "normalized": "Bool-\u003eWordClass-\u003eText",
@@ -595,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esummary m\u003c/code\u003e returns a textual summary of word classes found in\n model \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "summary",
           "package": "colada",
@@ -605,6 +658,7 @@
         "index": {
           "description": "summary returns textual summary of word classes found in model",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "summary",
           "normalized": "WordClass-\u003eText",
@@ -620,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse document-topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "topicDocs",
           "package": "colada",
@@ -629,6 +684,7 @@
         "index": {
           "description": "Inverse document-topic counts",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "topicDocs",
           "normalized": "Finalized-\u003eTable D",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "topicNum",
           "package": "colada",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "topicNum",
           "package": "colada",
@@ -667,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse word-topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "topicWords",
           "package": "colada",
@@ -676,6 +735,7 @@
         "index": {
           "description": "Inverse word-topic counts",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "topicWords",
           "normalized": "Finalized-\u003eTable D",
@@ -692,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTopics counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "topics",
           "package": "colada",
@@ -701,6 +762,7 @@
         "index": {
           "description": "Topics counts",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "topics",
           "normalized": "Finalized-\u003eTable D",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "topn",
           "package": "colada",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "topn",
           "package": "colada",
@@ -737,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "wordTopics",
           "package": "colada",
@@ -746,6 +811,7 @@
         "index": {
           "description": "Word topic counts",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "wordTopics",
           "normalized": "Finalized-\u003eTable D",
@@ -762,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewordTypeClasses m\u003c/code\u003e returns a Map from word types to unnormalized\n distributions over word classes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "wordTypeClasses",
           "package": "colada",
@@ -772,6 +839,7 @@
         "index": {
           "description": "wordTypeClasses returns Map from word types to unnormalized distributions over word classes",
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "wordTypeClasses",
           "normalized": "WordClass-\u003eMap Text(IntMap Double)",
@@ -787,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "Colada.WordClass",
           "name": "wordTypeTable",
           "package": "colada",
@@ -796,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Colada WordClass",
+          "indexed": "2014-03-11T17:35:39",
           "module": "Colada.WordClass",
           "name": "wordTypeTable",
           "package": "colada",
@@ -809,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "NLP.CoNLL",
           "name": "CoNLL",
           "package": "colada",
@@ -817,6 +888,7 @@
         },
         "index": {
           "hierarchy": "NLP CoNLL",
+          "indexed": "2014-03-11T17:35:39",
           "module": "NLP.CoNLL",
           "name": "CoNLL",
           "package": "colada",
@@ -831,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eField\u003c/code\u003e is a part of a word token, such as word form, lemma or POS tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "NLP.CoNLL",
           "name": "Field",
           "package": "colada",
@@ -840,6 +913,7 @@
         "index": {
           "description": "Field is part of word token such as word form lemma or POS tag",
           "hierarchy": "NLP CoNLL",
+          "indexed": "2014-03-11T17:35:39",
           "module": "NLP.CoNLL",
           "name": "Field",
           "package": "colada",
@@ -854,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSentence\u003c/code\u003e is a vector of tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "NLP.CoNLL",
           "name": "Sentence",
           "package": "colada",
@@ -863,6 +938,7 @@
         "index": {
           "description": "Sentence is vector of tokens",
           "hierarchy": "NLP CoNLL",
+          "indexed": "2014-03-11T17:35:39",
           "module": "NLP.CoNLL",
           "name": "Sentence",
           "package": "colada",
@@ -877,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eToken\u003c/code\u003e is a representation of a word, which consists of a number of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "NLP.CoNLL",
           "name": "Token",
           "package": "colada",
@@ -886,6 +963,7 @@
         "index": {
           "description": "Token is representation of word which consists of number of fields",
           "hierarchy": "NLP CoNLL",
+          "indexed": "2014-03-11T17:35:39",
           "module": "NLP.CoNLL",
           "name": "Token",
           "package": "colada",
@@ -900,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparse text\u003c/code\u003e returns a lazy list of sentences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:39 UTC 2014",
           "module": "NLP.CoNLL",
           "name": "parse",
           "package": "colada",
@@ -910,6 +989,7 @@
         "index": {
           "description": "parse text returns lazy list of sentences",
           "hierarchy": "NLP CoNLL",
+          "indexed": "2014-03-11T17:35:39",
           "module": "NLP.CoNLL",
           "name": "parse",
           "normalized": "Text-\u003e[Sentence]",

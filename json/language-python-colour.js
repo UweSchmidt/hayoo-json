@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-python-colour"
+        "phrase": "language-python-colour",
+        "type": "phrase"
       },
       "type": "context"
     }

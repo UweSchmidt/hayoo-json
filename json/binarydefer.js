@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binarydefer"
+        "phrase": "binarydefer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.Internal",
           "name": "Internal",
           "package": "binarydefer",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer Internal",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.Internal",
           "name": "Internal",
           "package": "binarydefer",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.Internal",
           "name": "hGetInt",
           "package": "binarydefer",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer Internal",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.Internal",
           "name": "hGetInt",
           "normalized": "Handle-\u003eIO Int",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.Internal",
           "name": "hGetPos",
           "package": "binarydefer",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer Internal",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.Internal",
           "name": "hGetPos",
           "normalized": "Handle-\u003eIO Int",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.Internal",
           "name": "hPutInt",
           "package": "binarydefer",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer Internal",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.Internal",
           "name": "hPutInt",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.Internal",
           "name": "hSetPos",
           "package": "binarydefer",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer Internal",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.Internal",
           "name": "hSetPos",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.List",
           "name": "List",
           "package": "binarydefer",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer List",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.List",
           "name": "List",
           "package": "binarydefer",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.List",
           "name": "ListDefer",
           "package": "binarydefer",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer List",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.List",
           "name": "ListDefer",
           "package": "binarydefer",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.List",
           "name": "newListDefer",
           "package": "binarydefer",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer List",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.List",
           "name": "newListDefer",
           "normalized": "[a]-\u003eListDefer a",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart, Length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer.List",
           "name": "readListDefer",
           "package": "binarydefer",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Start Length",
           "hierarchy": "Data Binary Defer List",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer.List",
           "name": "readListDefer",
           "normalized": "ListDefer a-\u003eInt-\u003eInt-\u003e[a]",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinary serialisation of deferred values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "Defer",
           "package": "binarydefer",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Binary serialisation of deferred values",
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "Defer",
           "package": "binarydefer",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "BinaryDefer",
           "package": "binarydefer",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "BinaryDefer",
           "package": "binarydefer",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "BinaryDeferStatic",
           "package": "binarydefer",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "BinaryDeferStatic",
           "package": "binarydefer",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "Defer",
           "package": "binarydefer",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "Defer",
           "package": "binarydefer",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "(\u003c\u003c)",
           "package": "binarydefer",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "(\u003c\u003c) \u003c\u003c",
           "normalized": "Pending(a-\u003eb)c-\u003ea-\u003ePending b PendingSome",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "(\u003c\u003c~)",
           "package": "binarydefer",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "(\u003c\u003c~) \u003c\u003c~",
           "normalized": "Pending(a-\u003eb)c-\u003ea-\u003ePending b PendingSome",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "(\u003c\u003c!)",
           "package": "binarydefer",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "(\u003c\u003c!) \u003c\u003c!",
           "normalized": "Pending a b-\u003ea-\u003ePending a PendingSome",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "Defer",
           "package": "binarydefer",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "Defer",
           "package": "binarydefer",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "bothDefer",
           "package": "binarydefer",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "bothDefer",
           "normalized": "(Handle-\u003ea-\u003eIO[(Int,IO())],Handle-\u003eIO a)",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "defer",
           "package": "binarydefer",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "defer",
           "normalized": "[a-\u003ePending a PendingSome]-\u003eBoth a",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "fromDefer",
           "package": "binarydefer",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "fromDefer",
           "package": "binarydefer",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "get",
           "package": "binarydefer",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "get",
           "normalized": "Handle-\u003eIO a",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust be a constant, must not examine first argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "getSize",
           "package": "binarydefer",
@@ -507,6 +550,7 @@
         "index": {
           "description": "Must be constant must not examine first argument",
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "getSize",
           "normalized": "a-\u003eInt",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "put",
           "package": "binarydefer",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "put",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "putDefer",
           "package": "binarydefer",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "putDefer",
           "normalized": "Handle-\u003ea-\u003eIO[(Int,IO())]",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:14 UTC 2014",
           "module": "Data.Binary.Defer",
           "name": "unit",
           "package": "binarydefer",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Defer",
+          "indexed": "2014-03-11T17:19:14",
           "module": "Data.Binary.Defer",
           "name": "unit",
           "normalized": "a-\u003ePending a PendingNone",

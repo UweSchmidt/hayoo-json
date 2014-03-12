@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-oauth"
+        "phrase": "snaplet-oauth",
+        "type": "phrase"
       },
       "type": "context"
     }

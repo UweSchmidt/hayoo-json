@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-gen-iface"
+        "phrase": "hs-gen-iface",
+        "type": "phrase"
       },
       "type": "context"
     }

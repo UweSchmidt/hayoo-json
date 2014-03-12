@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "c0check"
+        "phrase": "c0check",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dbf"
+        "phrase": "dbf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "Handle",
           "package": "dbf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "Handle",
           "package": "dbf",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "DbfFieldHandle",
           "package": "dbf",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "DbfFieldHandle",
           "package": "dbf",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "DbfHandle",
           "package": "dbf",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "DbfHandle",
           "package": "dbf",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "DbfRecHandle",
           "package": "dbf",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "DbfRecHandle",
           "package": "dbf",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "closeDbf",
           "package": "dbf",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "closeDbf",
           "normalized": "DbfHandle-\u003eIO()",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfFields",
           "package": "dbf",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfFields",
           "normalized": "DbfHandle-\u003eIO[DbfFieldHandle]",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfGetField",
           "package": "dbf",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfGetField",
           "normalized": "DbfHandle-\u003eInt-\u003eIO DbfFieldHandle",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfGetRecord",
           "package": "dbf",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfGetRecord",
           "normalized": "DbfHandle-\u003eInteger-\u003eIO(Maybe DbfRecHandle)",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfHeader",
           "package": "dbf",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfHeader",
           "normalized": "DbfHandle-\u003eIO DbfFileHeader",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfIsOpen",
           "package": "dbf",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfIsOpen",
           "normalized": "DbfHandle-\u003eIO Bool",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfLookupField",
           "package": "dbf",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfLookupField",
           "normalized": "DbfHandle-\u003eString-\u003eIO(Maybe DbfFieldHandle)",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfNumFields",
           "package": "dbf",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfNumFields",
           "normalized": "DbfHandle-\u003eIO Int",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfNumRecords",
           "package": "dbf",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfNumRecords",
           "normalized": "DbfHandle-\u003eIO Integer",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfRecords",
           "package": "dbf",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "dbfRecords",
           "normalized": "DbfHandle-\u003eIO[DbfRecHandle]",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "fieldDesc",
           "package": "dbf",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "fieldDesc",
           "normalized": "DbfFieldHandle-\u003eDbfFieldDescriptor",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "fieldName",
           "package": "dbf",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "fieldName",
           "normalized": "DbfFieldHandle-\u003eString",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "fieldNum",
           "package": "dbf",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "fieldNum",
           "normalized": "DbfFieldHandle-\u003eInt",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "openDbf",
           "package": "dbf",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "openDbf",
           "normalized": "FilePath-\u003eBool-\u003eIO DbfHandle",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "readDbfField",
           "package": "dbf",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "readDbfField",
           "normalized": "DbfRecHandle-\u003eDbfFieldHandle-\u003eIO ByteString",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Handle",
           "name": "recNum",
           "package": "dbf",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Handle",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Handle",
           "name": "recNum",
           "normalized": "DbfRecHandle-\u003eInt",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "Structures",
           "package": "dbf",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "Structures",
           "package": "dbf",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfDatabaseContainer",
           "package": "dbf",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfDatabaseContainer",
           "package": "dbf",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfDate",
           "package": "dbf",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfDate",
           "package": "dbf",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfFieldDescriptor",
           "package": "dbf",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfFieldDescriptor",
           "package": "dbf",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfFileHeader",
           "package": "dbf",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfFileHeader",
           "package": "dbf",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfRecord",
           "package": "dbf",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfRecord",
           "package": "dbf",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfDate",
           "package": "dbf",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfDate",
           "package": "dbf",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfFieldDescriptor",
           "package": "dbf",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfFieldDescriptor",
           "package": "dbf",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfFileHeader",
           "package": "dbf",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfFileHeader",
           "package": "dbf",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfRecord",
           "package": "dbf",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "DbfRecord",
           "package": "dbf",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfDay",
           "package": "dbf",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfDay",
           "package": "dbf",
@@ -722,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldAddress",
           "package": "dbf",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldAddress",
           "package": "dbf",
@@ -744,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldDecimals",
           "package": "dbf",
@@ -753,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldDecimals",
           "package": "dbf",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldIndexedFlag",
           "package": "dbf",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldIndexedFlag",
           "package": "dbf",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldLength",
           "package": "dbf",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldLength",
           "package": "dbf",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldName",
           "package": "dbf",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldName",
           "package": "dbf",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldSetFieldsFlag",
           "package": "dbf",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldSetFieldsFlag",
           "package": "dbf",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldType",
           "package": "dbf",
@@ -863,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldType",
           "package": "dbf",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldWorkArea",
           "package": "dbf",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFieldWorkArea",
           "package": "dbf",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileDbContainer",
           "package": "dbf",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileDbContainer",
           "package": "dbf",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileEncr",
           "package": "dbf",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileEncr",
           "package": "dbf",
@@ -942,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileFields",
           "package": "dbf",
@@ -951,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileFields",
           "normalized": "[DbfFieldDescriptor]",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileHdrLength",
           "package": "dbf",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileHdrLength",
           "package": "dbf",
@@ -988,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileLangCode",
           "package": "dbf",
@@ -997,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileLangCode",
           "package": "dbf",
@@ -1010,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileMDX",
           "package": "dbf",
@@ -1019,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileMDX",
           "package": "dbf",
@@ -1032,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileNumRecords",
           "package": "dbf",
@@ -1041,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileNumRecords",
           "package": "dbf",
@@ -1054,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileRecLength",
           "package": "dbf",
@@ -1063,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileRecLength",
           "package": "dbf",
@@ -1076,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileSignature",
           "package": "dbf",
@@ -1085,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileSignature",
           "package": "dbf",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileTxInc",
           "package": "dbf",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileTxInc",
           "package": "dbf",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileUpdateDate",
           "package": "dbf",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfFileUpdateDate",
           "package": "dbf",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfMonth",
           "package": "dbf",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfMonth",
           "package": "dbf",
@@ -1164,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfRecData",
           "package": "dbf",
@@ -1173,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfRecData",
           "package": "dbf",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfRecDeleted",
           "package": "dbf",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfRecDeleted",
           "package": "dbf",
@@ -1208,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfYear",
           "package": "dbf",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "dbfYear",
           "package": "dbf",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfFieldDescriptor",
           "package": "dbf",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfFieldDescriptor",
           "package": "dbf",
@@ -1252,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfFieldName",
           "package": "dbf",
@@ -1261,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfFieldName",
           "package": "dbf",
@@ -1274,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfFile",
           "package": "dbf",
@@ -1283,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfFile",
           "normalized": "Get(DbfFileHeader,[DbfRecord])",
@@ -1298,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfFileHeader",
           "package": "dbf",
@@ -1307,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfFileHeader",
           "package": "dbf",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfRecord",
           "package": "dbf",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfRecord",
           "normalized": "Int-\u003eGet(Maybe DbfRecord)",
@@ -1344,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfShortDate",
           "package": "dbf",
@@ -1353,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "getDbfShortDate",
           "package": "dbf",
@@ -1366,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfFieldDescriptor",
           "package": "dbf",
@@ -1375,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfFieldDescriptor",
           "normalized": "DbfFieldDescriptor-\u003ePutM()",
@@ -1390,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfFieldName",
           "package": "dbf",
@@ -1399,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfFieldName",
           "normalized": "ByteString-\u003ePutM()",
@@ -1414,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfFile",
           "package": "dbf",
@@ -1423,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfFile",
           "normalized": "DbfFileHeader-\u003e[DbfRecord]-\u003ePutM()",
@@ -1438,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfFileHeader",
           "package": "dbf",
@@ -1447,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfFileHeader",
           "normalized": "DbfFileHeader-\u003ePutM()",
@@ -1462,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfRecord",
           "package": "dbf",
@@ -1471,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfRecord",
           "normalized": "DbfRecord-\u003ePutM()",
@@ -1486,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfShortDate",
           "package": "dbf",
@@ -1495,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Structures",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Structures",
           "name": "putDbfShortDate",
           "normalized": "DbfDate Year-\u003ePutM()",
@@ -1510,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Year8",
           "name": "Year8",
           "package": "dbf",
@@ -1518,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Year8",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Year8",
           "name": "Year8",
           "package": "dbf",
@@ -1531,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Year8",
           "name": "Year8",
           "package": "dbf",
@@ -1539,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Year8",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Year8",
           "name": "Year8",
           "package": "dbf",
@@ -1552,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Year8",
           "name": "getYear8",
           "package": "dbf",
@@ -1561,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Year8",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Year8",
           "name": "getYear8",
           "package": "dbf",
@@ -1574,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf.Year8",
           "name": "putYear8",
           "package": "dbf",
@@ -1583,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf Year8",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf.Year8",
           "name": "putYear8",
           "normalized": "Year-\u003ePut",
@@ -1598,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf",
           "name": "Dbf",
           "package": "dbf",
@@ -1606,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf",
           "name": "Dbf",
           "package": "dbf",
@@ -1619,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf",
           "name": "readDbfFile",
           "package": "dbf",
@@ -1628,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf",
           "name": "readDbfFile",
           "normalized": "FilePath-\u003eIO(DbfFileHeader,[DbfRecord])",
@@ -1643,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:41 UTC 2014",
           "module": "Database.XBase.Dbf",
           "name": "writeDbfFile",
           "package": "dbf",
@@ -1652,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Database XBase Dbf",
+          "indexed": "2014-03-11T17:50:41",
           "module": "Database.XBase.Dbf",
           "name": "writeDbfFile",
           "normalized": "FilePath-\u003e(DbfFileHeader,[DbfRecord])-\u003eIO()",

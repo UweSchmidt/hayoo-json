@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "elm-server"
+        "phrase": "elm-server",
+        "type": "phrase"
       },
       "type": "context"
     }

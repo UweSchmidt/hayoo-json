@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tdoc"
+        "phrase": "tdoc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Attributes",
           "package": "tdoc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Attributes",
           "package": "tdoc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Alt",
           "package": "tdoc",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Alt",
           "package": "tdoc",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "AltTag",
           "package": "tdoc",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "AltTag",
           "package": "tdoc",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "AttributeTags",
           "package": "tdoc",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "AttributeTags",
           "package": "tdoc",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "ClassAttr",
           "package": "tdoc",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "ClassAttr",
           "package": "tdoc",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "ClassAttrTag",
           "package": "tdoc",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "ClassAttrTag",
           "package": "tdoc",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Cols",
           "package": "tdoc",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Cols",
           "package": "tdoc",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "ColsTag",
           "package": "tdoc",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "ColsTag",
           "package": "tdoc",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Height",
           "package": "tdoc",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Height",
           "package": "tdoc",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "HeightTag",
           "package": "tdoc",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "HeightTag",
           "package": "tdoc",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Href",
           "package": "tdoc",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Href",
           "package": "tdoc",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "HrefTag",
           "package": "tdoc",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "HrefTag",
           "package": "tdoc",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Identifier",
           "package": "tdoc",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Identifier",
           "package": "tdoc",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "IdentifierTag",
           "package": "tdoc",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "IdentifierTag",
           "package": "tdoc",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Length",
           "package": "tdoc",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Length",
           "package": "tdoc",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Name",
           "package": "tdoc",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Name",
           "package": "tdoc",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "NameTag",
           "package": "tdoc",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "NameTag",
           "package": "tdoc",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Rows",
           "package": "tdoc",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Rows",
           "package": "tdoc",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "RowsTag",
           "package": "tdoc",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "RowsTag",
           "package": "tdoc",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Size",
           "package": "tdoc",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Size",
           "package": "tdoc",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "SizeTag",
           "package": "tdoc",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "SizeTag",
           "package": "tdoc",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Src",
           "package": "tdoc",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Src",
           "package": "tdoc",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "SrcTag",
           "package": "tdoc",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "SrcTag",
           "package": "tdoc",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Style",
           "package": "tdoc",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Style",
           "package": "tdoc",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "StyleTag",
           "package": "tdoc",
@@ -530,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "StyleTag",
           "package": "tdoc",
@@ -543,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "TitleAttr",
           "package": "tdoc",
@@ -551,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "TitleAttr",
           "package": "tdoc",
@@ -564,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "TitleAttrTag",
           "package": "tdoc",
@@ -572,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "TitleAttrTag",
           "package": "tdoc",
@@ -585,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Width",
           "package": "tdoc",
@@ -593,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Width",
           "package": "tdoc",
@@ -606,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "WidthTag",
           "package": "tdoc",
@@ -614,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "WidthTag",
           "package": "tdoc",
@@ -627,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Alt",
           "package": "tdoc",
@@ -636,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Alt",
           "package": "tdoc",
@@ -649,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "ClassAttr",
           "package": "tdoc",
@@ -658,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "ClassAttr",
           "package": "tdoc",
@@ -671,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Cm",
           "package": "tdoc",
@@ -680,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Cm",
           "package": "tdoc",
@@ -693,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Cols",
           "package": "tdoc",
@@ -702,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Cols",
           "package": "tdoc",
@@ -715,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Em",
           "package": "tdoc",
@@ -724,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Em",
           "package": "tdoc",
@@ -737,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Height",
           "package": "tdoc",
@@ -746,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Height",
           "package": "tdoc",
@@ -759,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Href",
           "package": "tdoc",
@@ -768,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Href",
           "package": "tdoc",
@@ -781,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Identifier",
           "package": "tdoc",
@@ -790,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Identifier",
           "package": "tdoc",
@@ -803,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Name",
           "package": "tdoc",
@@ -812,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Name",
           "package": "tdoc",
@@ -825,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Px",
           "package": "tdoc",
@@ -834,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Px",
           "package": "tdoc",
@@ -847,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Rows",
           "package": "tdoc",
@@ -856,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Rows",
           "package": "tdoc",
@@ -869,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Size",
           "package": "tdoc",
@@ -878,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Size",
           "package": "tdoc",
@@ -891,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Src",
           "package": "tdoc",
@@ -900,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Src",
           "package": "tdoc",
@@ -913,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Style",
           "package": "tdoc",
@@ -922,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Style",
           "package": "tdoc",
@@ -935,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "TitleAttr",
           "package": "tdoc",
@@ -944,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "TitleAttr",
           "package": "tdoc",
@@ -957,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "Width",
           "package": "tdoc",
@@ -966,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "Width",
           "package": "tdoc",
@@ -979,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "alt",
           "package": "tdoc",
@@ -988,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "alt",
           "normalized": "String-\u003eAttributeOf a b",
@@ -1002,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "altTag",
           "package": "tdoc",
@@ -1011,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "altTag",
           "package": "tdoc",
@@ -1024,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "classAttr",
           "package": "tdoc",
@@ -1033,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "classAttr",
           "normalized": "String-\u003eAttributeOf a b",
@@ -1048,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "classAttrTag",
           "package": "tdoc",
@@ -1057,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "classAttrTag",
           "package": "tdoc",
@@ -1070,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "cols",
           "package": "tdoc",
@@ -1079,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "cols",
           "normalized": "Int-\u003eAttributeOf a b",
@@ -1093,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "colsTag",
           "package": "tdoc",
@@ -1102,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "colsTag",
           "package": "tdoc",
@@ -1115,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromAlt",
           "package": "tdoc",
@@ -1124,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromAlt",
           "package": "tdoc",
@@ -1137,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromClassAttr",
           "package": "tdoc",
@@ -1146,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromClassAttr",
           "package": "tdoc",
@@ -1159,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromCols",
           "package": "tdoc",
@@ -1168,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromCols",
           "package": "tdoc",
@@ -1181,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromHeight",
           "package": "tdoc",
@@ -1190,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromHeight",
           "package": "tdoc",
@@ -1203,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromHref",
           "package": "tdoc",
@@ -1212,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromHref",
           "package": "tdoc",
@@ -1225,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromIdentifier",
           "package": "tdoc",
@@ -1234,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromIdentifier",
           "package": "tdoc",
@@ -1247,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromName",
           "package": "tdoc",
@@ -1256,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromName",
           "package": "tdoc",
@@ -1269,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromRows",
           "package": "tdoc",
@@ -1278,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromRows",
           "package": "tdoc",
@@ -1291,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromSize",
           "package": "tdoc",
@@ -1300,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromSize",
           "package": "tdoc",
@@ -1313,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromSrc",
           "package": "tdoc",
@@ -1322,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromSrc",
           "package": "tdoc",
@@ -1335,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromStyle",
           "package": "tdoc",
@@ -1344,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromStyle",
           "package": "tdoc",
@@ -1357,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromTitleAttr",
           "package": "tdoc",
@@ -1366,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromTitleAttr",
           "package": "tdoc",
@@ -1379,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "fromWidth",
           "package": "tdoc",
@@ -1388,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "fromWidth",
           "package": "tdoc",
@@ -1401,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "height",
           "package": "tdoc",
@@ -1410,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "height",
           "normalized": "Length-\u003eAttributeOf a b",
@@ -1424,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "heightTag",
           "package": "tdoc",
@@ -1433,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "heightTag",
           "package": "tdoc",
@@ -1446,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "href",
           "package": "tdoc",
@@ -1455,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "href",
           "normalized": "String-\u003eAttributeOf a b",
@@ -1469,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "hrefTag",
           "package": "tdoc",
@@ -1478,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "hrefTag",
           "package": "tdoc",
@@ -1491,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "identifier",
           "package": "tdoc",
@@ -1500,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "identifier",
           "normalized": "String-\u003eAttributeOf a b",
@@ -1514,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "identifierTag",
           "package": "tdoc",
@@ -1523,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "identifierTag",
           "package": "tdoc",
@@ -1536,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "name",
           "package": "tdoc",
@@ -1545,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "name",
           "normalized": "String-\u003eAttributeOf a b",
@@ -1559,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "nameTag",
           "package": "tdoc",
@@ -1568,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "nameTag",
           "package": "tdoc",
@@ -1581,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "rows",
           "package": "tdoc",
@@ -1590,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "rows",
           "normalized": "Int-\u003eAttributeOf a b",
@@ -1604,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "rowsTag",
           "package": "tdoc",
@@ -1613,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "rowsTag",
           "package": "tdoc",
@@ -1626,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "size",
           "package": "tdoc",
@@ -1635,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "size",
           "normalized": "Int-\u003eAttributeOf a b",
@@ -1649,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "sizeTag",
           "package": "tdoc",
@@ -1658,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "sizeTag",
           "package": "tdoc",
@@ -1671,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "src",
           "package": "tdoc",
@@ -1680,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "src",
           "normalized": "String-\u003eAttributeOf a b",
@@ -1694,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "srcTag",
           "package": "tdoc",
@@ -1703,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "srcTag",
           "package": "tdoc",
@@ -1716,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "style",
           "package": "tdoc",
@@ -1725,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "style",
           "normalized": "String-\u003eAttributeOf a b",
@@ -1739,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "styleTag",
           "package": "tdoc",
@@ -1748,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "styleTag",
           "package": "tdoc",
@@ -1761,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "titleAttr",
           "package": "tdoc",
@@ -1770,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "titleAttr",
           "normalized": "String-\u003eAttributeOf a b",
@@ -1785,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "titleAttrTag",
           "package": "tdoc",
@@ -1794,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "titleAttrTag",
           "package": "tdoc",
@@ -1807,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "toPixels",
           "package": "tdoc",
@@ -1816,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "toPixels",
           "normalized": "Length-\u003eInt",
@@ -1831,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "width",
           "package": "tdoc",
@@ -1840,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "width",
           "normalized": "Length-\u003eAttributeOf a b",
@@ -1854,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Attributes",
           "name": "widthTag",
           "package": "tdoc",
@@ -1863,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Attributes",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Attributes",
           "name": "widthTag",
           "package": "tdoc",
@@ -1876,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "Core",
           "package": "tdoc",
@@ -1884,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "Core",
           "package": "tdoc",
@@ -1897,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "AddAttrs",
           "package": "tdoc",
@@ -1905,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "AddAttrs",
           "package": "tdoc",
@@ -1918,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "AttributeOf",
           "package": "tdoc",
@@ -1926,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "AttributeOf",
           "package": "tdoc",
@@ -1939,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "AttributesOf",
           "package": "tdoc",
@@ -1947,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "AttributesOf",
           "package": "tdoc",
@@ -1960,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "ChildOf",
           "package": "tdoc",
@@ -1968,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "ChildOf",
           "package": "tdoc",
@@ -1981,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "FromTDoc",
           "package": "tdoc",
@@ -1989,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "FromTDoc",
           "package": "tdoc",
@@ -2002,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "IsAttribute",
           "package": "tdoc",
@@ -2010,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "IsAttribute",
           "package": "tdoc",
@@ -2023,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "IsAttributeOf",
           "package": "tdoc",
@@ -2031,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "IsAttributeOf",
           "package": "tdoc",
@@ -2044,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "IsBlock",
           "package": "tdoc",
@@ -2052,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "IsBlock",
           "package": "tdoc",
@@ -2065,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "IsBlockOrInline",
           "package": "tdoc",
@@ -2073,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "IsBlockOrInline",
           "package": "tdoc",
@@ -2086,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "IsChildOf",
           "package": "tdoc",
@@ -2094,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "IsChildOf",
           "package": "tdoc",
@@ -2107,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "IsInline",
           "package": "tdoc",
@@ -2115,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "IsInline",
           "package": "tdoc",
@@ -2128,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "IsNode",
           "package": "tdoc",
@@ -2136,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "IsNode",
           "package": "tdoc",
@@ -2149,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "Nullary",
           "package": "tdoc",
@@ -2157,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "Nullary",
           "package": "tdoc",
@@ -2170,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "Plus",
           "package": "tdoc",
@@ -2178,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "Plus",
           "package": "tdoc",
@@ -2191,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "PutM",
           "package": "tdoc",
@@ -2199,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "PutM",
           "package": "tdoc",
@@ -2212,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "Star",
           "package": "tdoc",
@@ -2220,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "Star",
           "package": "tdoc",
@@ -2233,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "TDoc",
           "package": "tdoc",
@@ -2241,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "TDoc",
           "package": "tdoc",
@@ -2254,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "ToChildren",
           "package": "tdoc",
@@ -2262,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "ToChildren",
           "package": "tdoc",
@@ -2275,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "ToTDoc",
           "package": "tdoc",
@@ -2283,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "ToTDoc",
           "package": "tdoc",
@@ -2296,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "Unary",
           "package": "tdoc",
@@ -2304,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "Unary",
           "package": "tdoc",
@@ -2317,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "(!)",
           "package": "tdoc",
@@ -2326,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "(!) !",
           "normalized": "a-\u003eAttributesOf b c-\u003ea",
@@ -2340,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "(+++)",
           "package": "tdoc",
@@ -2349,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "(+++) +++",
           "normalized": "a-\u003eb-\u003e[ChildOf c d]",
@@ -2364,6 +2580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operator is an infix sugar for \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003eparagraph \u003c\u003c do ...\u003c/code\u003e is equal to \u003ccode\u003eput $ paragraph $ do ...\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "(\u003c\u003c)",
           "package": "tdoc",
@@ -2374,6 +2591,7 @@
         "index": {
           "description": "This operator is an infix sugar for put paragraph do is equal to put paragraph do",
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "(\u003c\u003c) \u003c\u003c",
           "normalized": "(a-\u003eTDoc b c)-\u003ea-\u003ePutM(ChildOf b d)",
@@ -2388,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "Child",
           "package": "tdoc",
@@ -2397,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "Child",
           "package": "tdoc",
@@ -2410,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "TAttr",
           "package": "tdoc",
@@ -2419,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "TAttr",
           "package": "tdoc",
@@ -2432,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "TNode",
           "package": "tdoc",
@@ -2441,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "TNode",
           "package": "tdoc",
@@ -2454,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "fromTDoc",
           "package": "tdoc",
@@ -2463,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "fromTDoc",
           "normalized": "TDoc a b-\u003ec",
@@ -2478,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "put",
           "package": "tdoc",
@@ -2487,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "put",
           "normalized": "a-\u003ePutM(ChildOf b c)",
@@ -2501,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "tAttrs",
           "package": "tdoc",
@@ -2510,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "tAttrs",
           "package": "tdoc",
@@ -2523,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "tChildren",
           "package": "tdoc",
@@ -2532,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "tChildren",
           "normalized": "[ChildOf a b]",
@@ -2547,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "tNullary",
           "package": "tdoc",
@@ -2556,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "tNullary",
           "normalized": "a b-\u003eNullary a b",
@@ -2571,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "tPlus",
           "package": "tdoc",
@@ -2580,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "tPlus",
           "normalized": "a b-\u003ePlus a b",
@@ -2595,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "tStar",
           "package": "tdoc",
@@ -2604,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "tStar",
           "normalized": "a b-\u003eStar a b",
@@ -2619,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "tTag",
           "package": "tdoc",
@@ -2628,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "tTag",
           "package": "tdoc",
@@ -2641,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "tUnary",
           "package": "tdoc",
@@ -2650,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "tUnary",
           "normalized": "a b-\u003eUnary a b",
@@ -2665,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "toChildren",
           "package": "tdoc",
@@ -2674,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "toChildren",
           "normalized": "a-\u003e[ChildOf b c]",
@@ -2689,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Core",
           "name": "toTDoc",
           "package": "tdoc",
@@ -2698,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Core",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Core",
           "name": "toTDoc",
           "normalized": "a-\u003eTDoc b c",
@@ -2713,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.QQ",
           "name": "QQ",
           "package": "tdoc",
@@ -2721,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc QQ",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.QQ",
           "name": "QQ",
           "package": "tdoc",
@@ -2734,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.QQ",
           "name": "frAntiq",
           "package": "tdoc",
@@ -2743,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc QQ",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.QQ",
           "name": "frAntiq",
           "normalized": "a-\u003e[ChildOf b c]",
@@ -2758,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.QQ",
           "name": "frQQ",
           "package": "tdoc",
@@ -2767,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc QQ",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.QQ",
           "name": "frQQ",
           "package": "tdoc",
@@ -2780,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.QQ",
           "name": "frTop",
           "package": "tdoc",
@@ -2789,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc QQ",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.QQ",
           "name": "frTop",
           "package": "tdoc",
@@ -2802,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "TH",
           "package": "tdoc",
@@ -2810,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "TH",
           "package": "tdoc",
@@ -2823,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "NodeOpt",
           "package": "tdoc",
@@ -2831,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "NodeOpt",
           "package": "tdoc",
@@ -2844,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "NodeOpts",
           "package": "tdoc",
@@ -2852,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "NodeOpts",
           "package": "tdoc",
@@ -2865,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "Block",
           "package": "tdoc",
@@ -2874,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "Block",
           "package": "tdoc",
@@ -2887,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "BlockOrInline",
           "package": "tdoc",
@@ -2896,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "BlockOrInline",
           "package": "tdoc",
@@ -2909,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "Inline",
           "package": "tdoc",
@@ -2918,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "Inline",
           "package": "tdoc",
@@ -2931,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "NoTag",
           "package": "tdoc",
@@ -2940,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "NoTag",
           "package": "tdoc",
@@ -2953,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "attribute",
           "package": "tdoc",
@@ -2962,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "attribute",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2976,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "attributes",
           "package": "tdoc",
@@ -2985,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "attributes",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -2999,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "node",
           "package": "tdoc",
@@ -3008,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "node",
           "normalized": "String-\u003eNodeOpts-\u003e[Name]-\u003e[Name]-\u003eQ[Dec]",
@@ -3022,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "nodeAttributes",
           "package": "tdoc",
@@ -3031,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "nodeAttributes",
           "normalized": "Name-\u003e[Name]-\u003eQ[Dec]",
@@ -3046,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "nodeChildren",
           "package": "tdoc",
@@ -3055,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "nodeChildren",
           "normalized": "Name-\u003e[Name]-\u003eQ[Dec]",
@@ -3070,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "tagInstance",
           "package": "tdoc",
@@ -3079,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "tagInstance",
           "normalized": "Name-\u003eName-\u003eDec",
@@ -3094,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.TH",
           "name": "tagInstances",
           "package": "tdoc",
@@ -3103,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc TH",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.TH",
           "name": "tagInstances",
           "normalized": "Name-\u003e[Name]-\u003eQ[Dec]",
@@ -3118,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Form",
           "package": "tdoc",
@@ -3126,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Form",
           "package": "tdoc",
@@ -3139,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Action",
           "package": "tdoc",
@@ -3147,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Action",
           "package": "tdoc",
@@ -3160,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "ActionTag",
           "package": "tdoc",
@@ -3168,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "ActionTag",
           "package": "tdoc",
@@ -3181,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Form",
           "package": "tdoc",
@@ -3189,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Form",
           "package": "tdoc",
@@ -3202,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormAttributeTags",
           "package": "tdoc",
@@ -3210,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormAttributeTags",
           "package": "tdoc",
@@ -3223,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormMethod",
           "package": "tdoc",
@@ -3231,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormMethod",
           "package": "tdoc",
@@ -3244,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormMethodTag",
           "package": "tdoc",
@@ -3252,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormMethodTag",
           "package": "tdoc",
@@ -3265,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormTag",
           "package": "tdoc",
@@ -3273,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormTag",
           "package": "tdoc",
@@ -3286,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormTags",
           "package": "tdoc",
@@ -3294,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "FormTags",
           "package": "tdoc",
@@ -3307,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Input",
           "package": "tdoc",
@@ -3315,6 +3616,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Input",
           "package": "tdoc",
@@ -3328,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "InputTag",
           "package": "tdoc",
@@ -3336,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "InputTag",
           "package": "tdoc",
@@ -3349,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "InputType",
           "package": "tdoc",
@@ -3357,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "InputType",
           "package": "tdoc",
@@ -3370,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "InputTypeTag",
           "package": "tdoc",
@@ -3378,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "InputTypeTag",
           "package": "tdoc",
@@ -3391,6 +3699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Label",
           "package": "tdoc",
@@ -3399,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Label",
           "package": "tdoc",
@@ -3412,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "LabelTag",
           "package": "tdoc",
@@ -3420,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "LabelTag",
           "package": "tdoc",
@@ -3433,6 +3745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Multiple",
           "package": "tdoc",
@@ -3441,6 +3754,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Multiple",
           "package": "tdoc",
@@ -3454,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "MultipleTag",
           "package": "tdoc",
@@ -3462,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "MultipleTag",
           "package": "tdoc",
@@ -3475,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Option",
           "package": "tdoc",
@@ -3483,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Option",
           "package": "tdoc",
@@ -3496,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "OptionTag",
           "package": "tdoc",
@@ -3504,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "OptionTag",
           "package": "tdoc",
@@ -3517,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Select",
           "package": "tdoc",
@@ -3525,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Select",
           "package": "tdoc",
@@ -3538,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "SelectTag",
           "package": "tdoc",
@@ -3546,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "SelectTag",
           "package": "tdoc",
@@ -3559,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Selected",
           "package": "tdoc",
@@ -3567,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Selected",
           "package": "tdoc",
@@ -3580,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "SelectedTag",
           "package": "tdoc",
@@ -3588,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "SelectedTag",
           "package": "tdoc",
@@ -3601,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Textarea",
           "package": "tdoc",
@@ -3609,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Textarea",
           "package": "tdoc",
@@ -3622,6 +3952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "TextareaTag",
           "package": "tdoc",
@@ -3630,6 +3961,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "TextareaTag",
           "package": "tdoc",
@@ -3643,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Value",
           "package": "tdoc",
@@ -3651,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Value",
           "package": "tdoc",
@@ -3664,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "ValueTag",
           "package": "tdoc",
@@ -3672,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "ValueTag",
           "package": "tdoc",
@@ -3685,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Action",
           "package": "tdoc",
@@ -3694,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Action",
           "package": "tdoc",
@@ -3707,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "BUTTON",
           "package": "tdoc",
@@ -3716,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "BUTTON",
           "package": "tdoc",
@@ -3729,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "CHECKBOX",
           "package": "tdoc",
@@ -3738,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "CHECKBOX",
           "package": "tdoc",
@@ -3751,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "FILE",
           "package": "tdoc",
@@ -3760,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "FILE",
           "package": "tdoc",
@@ -3773,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "GET",
           "package": "tdoc",
@@ -3782,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "GET",
           "package": "tdoc",
@@ -3795,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "HIDDEN",
           "package": "tdoc",
@@ -3804,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "HIDDEN",
           "package": "tdoc",
@@ -3817,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "IMAGE",
           "package": "tdoc",
@@ -3826,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "IMAGE",
           "package": "tdoc",
@@ -3839,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Multiple",
           "package": "tdoc",
@@ -3848,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Multiple",
           "package": "tdoc",
@@ -3861,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "PASSWORD",
           "package": "tdoc",
@@ -3870,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "PASSWORD",
           "package": "tdoc",
@@ -3883,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "POST",
           "package": "tdoc",
@@ -3892,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "POST",
           "package": "tdoc",
@@ -3905,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "RADIO",
           "package": "tdoc",
@@ -3914,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "RADIO",
           "package": "tdoc",
@@ -3927,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "RESET",
           "package": "tdoc",
@@ -3936,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "RESET",
           "package": "tdoc",
@@ -3949,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "RawFormMethod",
           "package": "tdoc",
@@ -3958,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "RawFormMethod",
           "package": "tdoc",
@@ -3971,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "SUBMIT",
           "package": "tdoc",
@@ -3980,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "SUBMIT",
           "package": "tdoc",
@@ -3993,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Selected",
           "package": "tdoc",
@@ -4002,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Selected",
           "package": "tdoc",
@@ -4015,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "TEXT",
           "package": "tdoc",
@@ -4024,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "TEXT",
           "package": "tdoc",
@@ -4037,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "Value",
           "package": "tdoc",
@@ -4046,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "Value",
           "package": "tdoc",
@@ -4059,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "action",
           "package": "tdoc",
@@ -4068,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "action",
           "normalized": "String-\u003eAttributeOf a b",
@@ -4082,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "actionTag",
           "package": "tdoc",
@@ -4091,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "actionTag",
           "package": "tdoc",
@@ -4104,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "form",
           "package": "tdoc",
@@ -4113,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "form",
           "package": "tdoc",
@@ -4125,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "formMethod",
           "package": "tdoc",
@@ -4134,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "formMethod",
           "normalized": "FormMethod-\u003eAttributeOf a b",
@@ -4149,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "formMethodTag",
           "package": "tdoc",
@@ -4158,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "formMethodTag",
           "package": "tdoc",
@@ -4171,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "formTag",
           "package": "tdoc",
@@ -4180,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "formTag",
           "package": "tdoc",
@@ -4193,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "fromAction",
           "package": "tdoc",
@@ -4202,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "fromAction",
           "package": "tdoc",
@@ -4215,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "fromValue",
           "package": "tdoc",
@@ -4224,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "fromValue",
           "package": "tdoc",
@@ -4237,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "input",
           "package": "tdoc",
@@ -4246,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "input",
           "package": "tdoc",
@@ -4258,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "inputTag",
           "package": "tdoc",
@@ -4267,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "inputTag",
           "package": "tdoc",
@@ -4280,6 +4670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "inputType",
           "package": "tdoc",
@@ -4289,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "inputType",
           "normalized": "InputType-\u003eAttributeOf a b",
@@ -4304,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "inputTypeTag",
           "package": "tdoc",
@@ -4313,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "inputTypeTag",
           "package": "tdoc",
@@ -4326,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "label",
           "package": "tdoc",
@@ -4335,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "label",
           "package": "tdoc",
@@ -4347,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "labelTag",
           "package": "tdoc",
@@ -4356,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "labelTag",
           "package": "tdoc",
@@ -4369,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "multipleTag",
           "package": "tdoc",
@@ -4378,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "multipleTag",
           "package": "tdoc",
@@ -4391,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "option",
           "package": "tdoc",
@@ -4400,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "option",
           "package": "tdoc",
@@ -4412,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "optionTag",
           "package": "tdoc",
@@ -4421,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "optionTag",
           "package": "tdoc",
@@ -4434,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "select",
           "package": "tdoc",
@@ -4443,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "select",
           "package": "tdoc",
@@ -4455,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectQ",
           "package": "tdoc",
@@ -4464,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectQ",
           "normalized": "AttributesOf a Select-\u003e(String,String)-\u003e[(String,String)]-\u003eTDoc a Select",
@@ -4478,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectTag",
           "package": "tdoc",
@@ -4487,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectTag",
           "package": "tdoc",
@@ -4500,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "selected",
           "package": "tdoc",
@@ -4509,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "selected",
           "package": "tdoc",
@@ -4521,6 +4933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectedB",
           "package": "tdoc",
@@ -4530,6 +4943,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectedB",
           "normalized": "Bool-\u003eAttributesOf a b-\u003eAttributesOf a b",
@@ -4544,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectedMS",
           "package": "tdoc",
@@ -4553,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectedMS",
           "normalized": "Maybe Selected-\u003eAttributesOf a b-\u003eAttributesOf a b",
@@ -4568,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectedTag",
           "package": "tdoc",
@@ -4577,6 +4994,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "selectedTag",
           "package": "tdoc",
@@ -4590,6 +5008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "textarea",
           "package": "tdoc",
@@ -4599,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "textarea",
           "normalized": "Rows-\u003eCols-\u003eStar a Textarea",
@@ -4613,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "textareaTag",
           "package": "tdoc",
@@ -4622,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "textareaTag",
           "package": "tdoc",
@@ -4635,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "value",
           "package": "tdoc",
@@ -4644,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "value",
           "normalized": "String-\u003eAttributeOf a b",
@@ -4658,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags.Form",
           "name": "valueTag",
           "package": "tdoc",
@@ -4667,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags Form",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags.Form",
           "name": "valueTag",
           "package": "tdoc",
@@ -4680,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Tags",
           "package": "tdoc",
@@ -4688,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Tags",
           "package": "tdoc",
@@ -4701,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Anchor",
           "package": "tdoc",
@@ -4709,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Anchor",
           "package": "tdoc",
@@ -4722,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "AnchorTag",
           "package": "tdoc",
@@ -4730,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "AnchorTag",
           "package": "tdoc",
@@ -4743,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Br",
           "package": "tdoc",
@@ -4751,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Br",
           "package": "tdoc",
@@ -4764,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "BrTag",
           "package": "tdoc",
@@ -4772,6 +5207,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "BrTag",
           "package": "tdoc",
@@ -4785,6 +5221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Col",
           "package": "tdoc",
@@ -4793,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Col",
           "package": "tdoc",
@@ -4806,6 +5244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "ColTag",
           "package": "tdoc",
@@ -4814,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "ColTag",
           "package": "tdoc",
@@ -4827,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Div",
           "package": "tdoc",
@@ -4835,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Div",
           "package": "tdoc",
@@ -4848,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "DivTag",
           "package": "tdoc",
@@ -4856,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "DivTag",
           "package": "tdoc",
@@ -4869,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Document",
           "package": "tdoc",
@@ -4877,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Document",
           "package": "tdoc",
@@ -4890,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "DocumentTag",
           "package": "tdoc",
@@ -4898,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "DocumentTag",
           "package": "tdoc",
@@ -4911,6 +5359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "HCol",
           "package": "tdoc",
@@ -4919,6 +5368,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "HCol",
           "package": "tdoc",
@@ -4932,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "HColTag",
           "package": "tdoc",
@@ -4940,6 +5391,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "HColTag",
           "package": "tdoc",
@@ -4953,6 +5405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "HLink",
           "package": "tdoc",
@@ -4961,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "HLink",
           "package": "tdoc",
@@ -4974,6 +5428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "HLinkTag",
           "package": "tdoc",
@@ -4982,6 +5437,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "HLinkTag",
           "package": "tdoc",
@@ -4995,6 +5451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Hr",
           "package": "tdoc",
@@ -5003,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Hr",
           "package": "tdoc",
@@ -5016,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "HrTag",
           "package": "tdoc",
@@ -5024,6 +5483,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "HrTag",
           "package": "tdoc",
@@ -5037,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Image",
           "package": "tdoc",
@@ -5045,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Image",
           "package": "tdoc",
@@ -5058,6 +5520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "ImageTag",
           "package": "tdoc",
@@ -5066,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "ImageTag",
           "package": "tdoc",
@@ -5079,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Item",
           "package": "tdoc",
@@ -5087,6 +5552,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Item",
           "package": "tdoc",
@@ -5100,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "ItemTag",
           "package": "tdoc",
@@ -5108,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "ItemTag",
           "package": "tdoc",
@@ -5121,6 +5589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Leaf",
           "package": "tdoc",
@@ -5129,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Leaf",
           "package": "tdoc",
@@ -5142,6 +5612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "LeafTag",
           "package": "tdoc",
@@ -5150,6 +5621,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "LeafTag",
           "package": "tdoc",
@@ -5163,6 +5635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "LeafTags",
           "package": "tdoc",
@@ -5171,6 +5644,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "LeafTags",
           "package": "tdoc",
@@ -5184,6 +5658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Paragraph",
           "package": "tdoc",
@@ -5192,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Paragraph",
           "package": "tdoc",
@@ -5205,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "ParagraphTag",
           "package": "tdoc",
@@ -5213,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "ParagraphTag",
           "package": "tdoc",
@@ -5226,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Preambule",
           "package": "tdoc",
@@ -5234,6 +5713,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Preambule",
           "package": "tdoc",
@@ -5247,6 +5727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "PreambuleTag",
           "package": "tdoc",
@@ -5255,6 +5736,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "PreambuleTag",
           "package": "tdoc",
@@ -5268,6 +5750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Root",
           "package": "tdoc",
@@ -5276,6 +5759,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Root",
           "package": "tdoc",
@@ -5289,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "RootTag",
           "package": "tdoc",
@@ -5297,6 +5782,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "RootTag",
           "package": "tdoc",
@@ -5310,6 +5796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Row",
           "package": "tdoc",
@@ -5318,6 +5805,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Row",
           "package": "tdoc",
@@ -5331,6 +5819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "RowTag",
           "package": "tdoc",
@@ -5339,6 +5828,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "RowTag",
           "package": "tdoc",
@@ -5352,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Section",
           "package": "tdoc",
@@ -5360,6 +5851,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Section",
           "package": "tdoc",
@@ -5373,6 +5865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "SectionTag",
           "package": "tdoc",
@@ -5381,6 +5874,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "SectionTag",
           "package": "tdoc",
@@ -5394,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Span",
           "package": "tdoc",
@@ -5402,6 +5897,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Span",
           "package": "tdoc",
@@ -5415,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "SpanTag",
           "package": "tdoc",
@@ -5423,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "SpanTag",
           "package": "tdoc",
@@ -5436,6 +5934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Subsection",
           "package": "tdoc",
@@ -5444,6 +5943,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Subsection",
           "package": "tdoc",
@@ -5457,6 +5957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "SubsectionTag",
           "package": "tdoc",
@@ -5465,6 +5966,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "SubsectionTag",
           "package": "tdoc",
@@ -5478,6 +5980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Table",
           "package": "tdoc",
@@ -5486,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Table",
           "package": "tdoc",
@@ -5499,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "TableTag",
           "package": "tdoc",
@@ -5507,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "TableTag",
           "package": "tdoc",
@@ -5520,6 +6026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Tags",
           "package": "tdoc",
@@ -5528,6 +6035,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Tags",
           "package": "tdoc",
@@ -5541,6 +6049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Title",
           "package": "tdoc",
@@ -5549,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Title",
           "package": "tdoc",
@@ -5562,6 +6072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "TitleTag",
           "package": "tdoc",
@@ -5570,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "TitleTag",
           "package": "tdoc",
@@ -5583,6 +6095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "UList",
           "package": "tdoc",
@@ -5591,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "UList",
           "package": "tdoc",
@@ -5604,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "UListTag",
           "package": "tdoc",
@@ -5612,6 +6127,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "UListTag",
           "package": "tdoc",
@@ -5625,6 +6141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Url",
           "package": "tdoc",
@@ -5633,6 +6150,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Url",
           "package": "tdoc",
@@ -5646,6 +6164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "Url",
           "package": "tdoc",
@@ -5655,6 +6174,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "Url",
           "package": "tdoc",
@@ -5668,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "anchor",
           "package": "tdoc",
@@ -5677,6 +6198,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "anchor",
           "package": "tdoc",
@@ -5689,6 +6211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "anchorTag",
           "package": "tdoc",
@@ -5698,6 +6221,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "anchorTag",
           "package": "tdoc",
@@ -5711,6 +6235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "big",
           "package": "tdoc",
@@ -5720,6 +6245,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "big",
           "package": "tdoc",
@@ -5732,6 +6258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "bold",
           "package": "tdoc",
@@ -5741,6 +6268,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "bold",
           "package": "tdoc",
@@ -5753,6 +6281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "br",
           "package": "tdoc",
@@ -5762,6 +6291,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "br",
           "package": "tdoc",
@@ -5774,6 +6304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "brTag",
           "package": "tdoc",
@@ -5783,6 +6314,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "brTag",
           "package": "tdoc",
@@ -5796,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "char",
           "package": "tdoc",
@@ -5805,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "char",
           "normalized": "Char-\u003eTDoc a Leaf",
@@ -5819,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "charTag",
           "package": "tdoc",
@@ -5828,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "charTag",
           "normalized": "Char-\u003ea Leaf",
@@ -5843,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "col",
           "package": "tdoc",
@@ -5852,6 +6389,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "col",
           "package": "tdoc",
@@ -5864,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "colTag",
           "package": "tdoc",
@@ -5873,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "colTag",
           "package": "tdoc",
@@ -5886,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "div",
           "package": "tdoc",
@@ -5895,6 +6436,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "div",
           "package": "tdoc",
@@ -5907,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "divTag",
           "package": "tdoc",
@@ -5916,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "divTag",
           "package": "tdoc",
@@ -5929,6 +6473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "document",
           "package": "tdoc",
@@ -5938,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "document",
           "package": "tdoc",
@@ -5950,6 +6496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "documentTag",
           "package": "tdoc",
@@ -5959,6 +6506,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "documentTag",
           "package": "tdoc",
@@ -5972,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "fromUrl",
           "package": "tdoc",
@@ -5981,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "fromUrl",
           "package": "tdoc",
@@ -5994,6 +6544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "hColTag",
           "package": "tdoc",
@@ -6003,6 +6554,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "hColTag",
           "package": "tdoc",
@@ -6016,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "hLinkTag",
           "package": "tdoc",
@@ -6025,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "hLinkTag",
           "normalized": "Url-\u003ea HLink",
@@ -6040,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "hcol",
           "package": "tdoc",
@@ -6049,6 +6604,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "hcol",
           "package": "tdoc",
@@ -6061,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "hlink",
           "package": "tdoc",
@@ -6070,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "hlink",
           "normalized": "String-\u003eStar a HLink",
@@ -6084,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "hr",
           "package": "tdoc",
@@ -6093,6 +6652,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "hr",
           "package": "tdoc",
@@ -6105,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "hrTag",
           "package": "tdoc",
@@ -6114,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "hrTag",
           "package": "tdoc",
@@ -6127,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "image",
           "package": "tdoc",
@@ -6136,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "image",
           "package": "tdoc",
@@ -6148,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "imageTag",
           "package": "tdoc",
@@ -6157,6 +6722,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "imageTag",
           "package": "tdoc",
@@ -6170,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "italics",
           "package": "tdoc",
@@ -6179,6 +6746,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "italics",
           "package": "tdoc",
@@ -6191,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "item",
           "package": "tdoc",
@@ -6200,6 +6769,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "item",
           "package": "tdoc",
@@ -6212,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "itemTag",
           "package": "tdoc",
@@ -6221,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "itemTag",
           "package": "tdoc",
@@ -6234,6 +6806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "lazyByteString",
           "package": "tdoc",
@@ -6243,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "lazyByteString",
           "normalized": "ByteString-\u003eTDoc a Leaf",
@@ -6258,6 +6832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "lazyByteStringTag",
           "package": "tdoc",
@@ -6267,6 +6842,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "lazyByteStringTag",
           "normalized": "ByteString-\u003ea Leaf",
@@ -6282,6 +6858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "leafTag",
           "package": "tdoc",
@@ -6291,6 +6868,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "leafTag",
           "package": "tdoc",
@@ -6304,6 +6882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "para",
           "package": "tdoc",
@@ -6313,6 +6892,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "para",
           "package": "tdoc",
@@ -6325,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "paragraph",
           "package": "tdoc",
@@ -6334,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "paragraph",
           "package": "tdoc",
@@ -6346,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "paragraphTag",
           "package": "tdoc",
@@ -6355,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "paragraphTag",
           "package": "tdoc",
@@ -6368,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "preambule",
           "package": "tdoc",
@@ -6377,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "preambule",
           "package": "tdoc",
@@ -6389,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "preambuleTag",
           "package": "tdoc",
@@ -6398,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "preambuleTag",
           "package": "tdoc",
@@ -6411,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "root",
           "package": "tdoc",
@@ -6420,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "root",
           "normalized": "a-\u003eb-\u003eTDoc c Root",
@@ -6434,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "rootTag",
           "package": "tdoc",
@@ -6443,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "rootTag",
           "package": "tdoc",
@@ -6456,6 +7048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "row",
           "package": "tdoc",
@@ -6465,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "row",
           "package": "tdoc",
@@ -6477,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "rowTag",
           "package": "tdoc",
@@ -6486,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "rowTag",
           "package": "tdoc",
@@ -6499,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "section",
           "package": "tdoc",
@@ -6508,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "section",
           "normalized": "a-\u003eStar b Section",
@@ -6522,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "sectionTag",
           "package": "tdoc",
@@ -6531,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "sectionTag",
           "normalized": "TDoc a b-\u003ea Section",
@@ -6546,6 +7146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "small",
           "package": "tdoc",
@@ -6555,6 +7156,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "small",
           "package": "tdoc",
@@ -6567,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "spanDoc",
           "package": "tdoc",
@@ -6576,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "spanDoc",
           "package": "tdoc",
@@ -6589,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "spanDocCA",
           "package": "tdoc",
@@ -6598,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "spanDocCA",
           "normalized": "String-\u003eStar a Span",
@@ -6613,6 +7219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "spanTag",
           "package": "tdoc",
@@ -6622,6 +7229,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "spanTag",
           "package": "tdoc",
@@ -6635,6 +7243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "strictByteString",
           "package": "tdoc",
@@ -6644,6 +7253,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "strictByteString",
           "normalized": "ByteString-\u003eTDoc a Leaf",
@@ -6659,6 +7269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "strictByteStringTag",
           "package": "tdoc",
@@ -6668,6 +7279,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "strictByteStringTag",
           "normalized": "ByteString-\u003ea Leaf",
@@ -6683,6 +7295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "string",
           "package": "tdoc",
@@ -6692,6 +7305,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "string",
           "normalized": "String-\u003eTDoc a Leaf",
@@ -6706,6 +7320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "stringTag",
           "package": "tdoc",
@@ -6715,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "stringTag",
           "normalized": "String-\u003ea Leaf",
@@ -6730,6 +7346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "strong",
           "package": "tdoc",
@@ -6739,6 +7356,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "strong",
           "package": "tdoc",
@@ -6751,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "sub",
           "package": "tdoc",
@@ -6760,6 +7379,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "sub",
           "package": "tdoc",
@@ -6772,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "subsection",
           "package": "tdoc",
@@ -6781,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "subsection",
           "normalized": "a-\u003eStar b Subsection",
@@ -6795,6 +7417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "subsectionTag",
           "package": "tdoc",
@@ -6804,6 +7427,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "subsectionTag",
           "normalized": "TDoc a b-\u003ea Subsection",
@@ -6819,6 +7443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "sup",
           "package": "tdoc",
@@ -6828,6 +7453,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "sup",
           "package": "tdoc",
@@ -6840,6 +7466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "table",
           "package": "tdoc",
@@ -6849,6 +7476,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "table",
           "package": "tdoc",
@@ -6861,6 +7489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "tableTag",
           "package": "tdoc",
@@ -6870,6 +7499,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "tableTag",
           "package": "tdoc",
@@ -6883,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "title",
           "package": "tdoc",
@@ -6892,6 +7523,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "title",
           "package": "tdoc",
@@ -6904,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "titleTag",
           "package": "tdoc",
@@ -6913,6 +7546,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "titleTag",
           "package": "tdoc",
@@ -6926,6 +7560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "tt",
           "package": "tdoc",
@@ -6935,6 +7570,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "tt",
           "package": "tdoc",
@@ -6947,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "uListTag",
           "package": "tdoc",
@@ -6956,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "uListTag",
           "package": "tdoc",
@@ -6969,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "ulist",
           "package": "tdoc",
@@ -6978,6 +7617,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "ulist",
           "package": "tdoc",
@@ -6991,6 +7631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eulistQ\u003c/a\u003e\u003c/code\u003e is a quick version of \u003ccode\u003e\u003ca\u003eulist\u003c/a\u003e\u003c/code\u003e when all children\n of a UList are homogeneous one can factor the building of\n the Item nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.Tags",
           "name": "ulistQ",
           "package": "tdoc",
@@ -7001,6 +7642,7 @@
         "index": {
           "description": "ulistQ is quick version of ulist when all children of UList are homogeneous one can factor the building of the Item nodes",
           "hierarchy": "Text TDoc Tags",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.Tags",
           "name": "ulistQ",
           "normalized": "[TDoc a b]-\u003eTDoc a UList",
@@ -7015,6 +7657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "XHtml",
           "package": "tdoc",
@@ -7023,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "XHtml",
           "package": "tdoc",
@@ -7036,6 +7680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HtmlAttributeOf",
           "package": "tdoc",
@@ -7044,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HtmlAttributeOf",
           "package": "tdoc",
@@ -7057,6 +7703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HtmlAttributesOf",
           "package": "tdoc",
@@ -7065,6 +7712,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HtmlAttributesOf",
           "package": "tdoc",
@@ -7078,6 +7726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HtmlDoc",
           "package": "tdoc",
@@ -7086,6 +7735,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HtmlDoc",
           "package": "tdoc",
@@ -7099,6 +7749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HtmlTag",
           "package": "tdoc",
@@ -7107,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HtmlTag",
           "package": "tdoc",
@@ -7120,6 +7772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ActionTag",
           "package": "tdoc",
@@ -7129,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ActionTag",
           "package": "tdoc",
@@ -7142,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "AltTag",
           "package": "tdoc",
@@ -7151,6 +7806,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "AltTag",
           "package": "tdoc",
@@ -7164,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "AnchorTag",
           "package": "tdoc",
@@ -7173,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "AnchorTag",
           "package": "tdoc",
@@ -7186,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "BrTag",
           "package": "tdoc",
@@ -7195,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "BrTag",
           "package": "tdoc",
@@ -7208,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ClassAttrTag",
           "package": "tdoc",
@@ -7217,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ClassAttrTag",
           "package": "tdoc",
@@ -7230,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ColTag",
           "package": "tdoc",
@@ -7239,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ColTag",
           "package": "tdoc",
@@ -7252,6 +7916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ColsTag",
           "package": "tdoc",
@@ -7261,6 +7926,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ColsTag",
           "package": "tdoc",
@@ -7274,6 +7940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "DivTag",
           "package": "tdoc",
@@ -7283,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "DivTag",
           "package": "tdoc",
@@ -7296,6 +7964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "DocumentTag",
           "package": "tdoc",
@@ -7305,6 +7974,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "DocumentTag",
           "package": "tdoc",
@@ -7318,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "FormMethodTag",
           "package": "tdoc",
@@ -7327,6 +7998,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "FormMethodTag",
           "package": "tdoc",
@@ -7340,6 +8012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "FormTag",
           "package": "tdoc",
@@ -7349,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "FormTag",
           "package": "tdoc",
@@ -7362,6 +8036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HColTag",
           "package": "tdoc",
@@ -7371,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HColTag",
           "package": "tdoc",
@@ -7384,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HLinkTag",
           "package": "tdoc",
@@ -7393,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HLinkTag",
           "normalized": "Url-\u003eHtmlTag HLink",
@@ -7408,6 +8086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HeightTag",
           "package": "tdoc",
@@ -7417,6 +8096,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HeightTag",
           "package": "tdoc",
@@ -7430,6 +8110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HrTag",
           "package": "tdoc",
@@ -7439,6 +8120,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HrTag",
           "package": "tdoc",
@@ -7452,6 +8134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "HrefTag",
           "package": "tdoc",
@@ -7461,6 +8144,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "HrefTag",
           "package": "tdoc",
@@ -7474,6 +8158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "IdentifierTag",
           "package": "tdoc",
@@ -7483,6 +8168,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "IdentifierTag",
           "package": "tdoc",
@@ -7496,6 +8182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ImageTag",
           "package": "tdoc",
@@ -7505,6 +8192,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ImageTag",
           "package": "tdoc",
@@ -7518,6 +8206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "InputTag",
           "package": "tdoc",
@@ -7527,6 +8216,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "InputTag",
           "package": "tdoc",
@@ -7540,6 +8230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "InputTypeTag",
           "package": "tdoc",
@@ -7549,6 +8240,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "InputTypeTag",
           "package": "tdoc",
@@ -7562,6 +8254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ItemTag",
           "package": "tdoc",
@@ -7571,6 +8264,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ItemTag",
           "package": "tdoc",
@@ -7584,6 +8278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "LabelTag",
           "package": "tdoc",
@@ -7593,6 +8288,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "LabelTag",
           "package": "tdoc",
@@ -7606,6 +8302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "MultipleTag",
           "package": "tdoc",
@@ -7615,6 +8312,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "MultipleTag",
           "package": "tdoc",
@@ -7628,6 +8326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "NameTag",
           "package": "tdoc",
@@ -7637,6 +8336,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "NameTag",
           "package": "tdoc",
@@ -7650,6 +8350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "OptionTag",
           "package": "tdoc",
@@ -7659,6 +8360,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "OptionTag",
           "package": "tdoc",
@@ -7672,6 +8374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ParagraphTag",
           "package": "tdoc",
@@ -7681,6 +8384,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ParagraphTag",
           "package": "tdoc",
@@ -7694,6 +8398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "PreambuleTag",
           "package": "tdoc",
@@ -7703,6 +8408,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "PreambuleTag",
           "package": "tdoc",
@@ -7716,6 +8422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "RawHtmlTag",
           "package": "tdoc",
@@ -7725,6 +8432,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "RawHtmlTag",
           "normalized": "Html-\u003eHtmlTag a",
@@ -7740,6 +8448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "RootTag",
           "package": "tdoc",
@@ -7749,6 +8458,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "RootTag",
           "package": "tdoc",
@@ -7762,6 +8472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "RowTag",
           "package": "tdoc",
@@ -7771,6 +8482,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "RowTag",
           "package": "tdoc",
@@ -7784,6 +8496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "RowsTag",
           "package": "tdoc",
@@ -7793,6 +8506,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "RowsTag",
           "package": "tdoc",
@@ -7806,6 +8520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "SectionTag",
           "package": "tdoc",
@@ -7815,6 +8530,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "SectionTag",
           "normalized": "HtmlDoc a-\u003eHtmlTag Section",
@@ -7830,6 +8546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "SelectTag",
           "package": "tdoc",
@@ -7839,6 +8556,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "SelectTag",
           "package": "tdoc",
@@ -7852,6 +8570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "SelectedTag",
           "package": "tdoc",
@@ -7861,6 +8580,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "SelectedTag",
           "package": "tdoc",
@@ -7874,6 +8594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "SizeTag",
           "package": "tdoc",
@@ -7883,6 +8604,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "SizeTag",
           "package": "tdoc",
@@ -7896,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "SpanTag",
           "package": "tdoc",
@@ -7905,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "SpanTag",
           "package": "tdoc",
@@ -7918,6 +8642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "SrcTag",
           "package": "tdoc",
@@ -7927,6 +8652,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "SrcTag",
           "package": "tdoc",
@@ -7940,6 +8666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "StyleTag",
           "package": "tdoc",
@@ -7949,6 +8676,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "StyleTag",
           "package": "tdoc",
@@ -7962,6 +8690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "SubsectionTag",
           "package": "tdoc",
@@ -7971,6 +8700,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "SubsectionTag",
           "normalized": "HtmlDoc a-\u003eHtmlTag Subsection",
@@ -7986,6 +8716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "TableTag",
           "package": "tdoc",
@@ -7995,6 +8726,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "TableTag",
           "package": "tdoc",
@@ -8008,6 +8740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "TextareaTag",
           "package": "tdoc",
@@ -8017,6 +8750,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "TextareaTag",
           "package": "tdoc",
@@ -8030,6 +8764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "TitleAttrTag",
           "package": "tdoc",
@@ -8039,6 +8774,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "TitleAttrTag",
           "package": "tdoc",
@@ -8052,6 +8788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "TitleTag",
           "package": "tdoc",
@@ -8061,6 +8798,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "TitleTag",
           "package": "tdoc",
@@ -8074,6 +8812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "UListTag",
           "package": "tdoc",
@@ -8083,6 +8822,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "UListTag",
           "package": "tdoc",
@@ -8096,6 +8836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ValueTag",
           "package": "tdoc",
@@ -8105,6 +8846,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ValueTag",
           "package": "tdoc",
@@ -8118,6 +8860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "WidthTag",
           "package": "tdoc",
@@ -8127,6 +8870,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "WidthTag",
           "package": "tdoc",
@@ -8140,6 +8884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "ex",
           "package": "tdoc",
@@ -8149,6 +8894,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "ex",
           "normalized": "IO()",
@@ -8163,6 +8909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "lookupClassAttr",
           "package": "tdoc",
@@ -8172,6 +8919,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "lookupClassAttr",
           "normalized": "HtmlAttributesOf a-\u003eMaybe(String,HtmlAttributesOf a)",
@@ -8187,6 +8935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "rawHtml",
           "package": "tdoc",
@@ -8196,6 +8945,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "rawHtml",
           "normalized": "Html-\u003eHtmlDoc a",
@@ -8211,6 +8961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "rawHtml_",
           "package": "tdoc",
@@ -8220,6 +8971,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "rawHtml_",
           "normalized": "a-\u003eHtml-\u003eHtmlDoc a",
@@ -8235,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc.XHtml",
           "name": "renderTDocHtml",
           "package": "tdoc",
@@ -8244,6 +8997,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc XHtml",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc.XHtml",
           "name": "renderTDocHtml",
           "normalized": "HtmlDoc a-\u003eHtml",
@@ -8259,6 +9013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:03 UTC 2014",
           "module": "Text.TDoc",
           "name": "TDoc",
           "package": "tdoc",
@@ -8267,6 +9022,7 @@
         },
         "index": {
           "hierarchy": "Text TDoc",
+          "indexed": "2014-03-11T20:18:03",
           "module": "Text.TDoc",
           "name": "TDoc",
           "package": "tdoc",

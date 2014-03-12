@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-bfd"
+        "phrase": "bindings-bfd",
+        "type": "phrase"
       },
       "type": "context"
     }

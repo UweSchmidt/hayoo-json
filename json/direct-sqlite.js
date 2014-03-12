@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "direct-sqlite"
+        "phrase": "direct-sqlite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "Types",
           "package": "direct-sqlite",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "Types",
           "package": "direct-sqlite",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnCount",
           "package": "direct-sqlite",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnCount",
           "package": "direct-sqlite",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnIndex",
           "package": "direct-sqlite",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnIndex",
           "package": "direct-sqlite",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/c_blob.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnType",
           "package": "direct-sqlite",
@@ -91,6 +98,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref blob.html",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnType",
           "package": "direct-sqlite",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/sqlite3.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eCDatabase\u003c/code\u003e = \u003ccode\u003esqlite3\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CDatabase",
           "package": "direct-sqlite",
@@ -114,6 +123,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref sqlite3.html CDatabase sqlite3",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CDatabase",
           "package": "direct-sqlite",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/c_static.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ePtr CDestructor\u003c/code\u003e = \u003ccode\u003esqlite3_destructor_type\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CDestructor",
           "package": "direct-sqlite",
@@ -137,6 +148,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref static.html Ptr CDestructor sqlite3 destructor type",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CDestructor",
           "package": "direct-sqlite",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/c_abort.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CError",
           "package": "direct-sqlite",
@@ -160,6 +173,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref abort.html",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CError",
           "package": "direct-sqlite",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CNumBytes",
           "package": "direct-sqlite",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CNumBytes",
           "package": "direct-sqlite",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CParamIndex",
           "package": "direct-sqlite",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CParamIndex",
           "package": "direct-sqlite",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/stmt.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eCStatement\u003c/code\u003e = \u003ccode\u003esqlite3_stmt\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CStatement",
           "package": "direct-sqlite",
@@ -225,6 +244,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref stmt.html CStatement sqlite3 stmt",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CStatement",
           "package": "direct-sqlite",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of columns in a result set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "ColumnCount",
           "package": "direct-sqlite",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Number of columns in result set",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "ColumnCount",
           "package": "direct-sqlite",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a column in a result set.  Column indices start from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "ColumnIndex",
           "package": "direct-sqlite",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Index of column in result set Column indices start from",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "ColumnIndex",
           "package": "direct-sqlite",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "ColumnType",
           "package": "direct-sqlite",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "ColumnType",
           "package": "direct-sqlite",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "Error",
           "package": "direct-sqlite",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "Error",
           "package": "direct-sqlite",
@@ -327,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ca\u003eDatabase.SQLite3\u003c/a\u003e and \u003ca\u003eDatabase.SQLite3.Direct\u003c/a\u003e modules use\n higher-level representations of some types than those used in the\n FFI signatures (\u003ca\u003eDatabase.SQLite3.Bindings\u003c/a\u003e).  This typeclass\n helps with the conversions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "FFIType",
           "package": "direct-sqlite",
@@ -336,6 +365,7 @@
         "index": {
           "description": "The Database.SQLite3 and Database.SQLite3.Direct modules use higher-level representations of some types than those used in the FFI signatures Database.SQLite3.Bindings This typeclass helps with the conversions",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "FFIType",
           "package": "direct-sqlite",
@@ -350,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a parameter in a parameterized query.\n Parameter indices start from 1.\n\u003c/p\u003e\u003cp\u003eWhen a query is \u003ccode\u003e\u003ca\u003eprepare\u003c/a\u003e\u003c/code\u003ed, SQLite allocates an\n array indexed from 1 to the highest parameter index.  For example:\n\u003c/p\u003e\u003cpre\u003e\u003eRight stmt \u003c- prepare conn \"SELECT ?1, ?5, ?3, ?\"\n\u003ebindParameterCount stmt\nParamIndex 6\n\u003c/pre\u003e\u003cp\u003eThis will allocate an array indexed from 1 to 6 (\u003ccode\u003e?\u003c/code\u003e takes the highest\n preceding index plus one).  The array is initialized with null values.\n When you bind a parameter with \u003ccode\u003e\u003ca\u003ebindSQLData\u003c/a\u003e\u003c/code\u003e, it assigns a\n new value to one of these indices.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.sqlite.org/lang_expr.html#varparam\u003c/a\u003e for the syntax of\n parameter placeholders, and how parameter indices are assigned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "ParamIndex",
           "package": "direct-sqlite",
@@ -359,6 +390,7 @@
         "index": {
           "description": "Index of parameter in parameterized query Parameter indices start from When query is prepare SQLite allocates an array indexed from to the highest parameter index For example Right stmt prepare conn SELECT bindParameterCount stmt ParamIndex This will allocate an array indexed from to takes the highest preceding index plus one The array is initialized with null values When you bind parameter with bindSQLData it assigns new value to one of these indices See http www.sqlite.org lang expr.html varparam for the syntax of parameter placeholders and how parameter indices are assigned",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "ParamIndex",
           "package": "direct-sqlite",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnIndex",
           "package": "direct-sqlite",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnIndex",
           "package": "direct-sqlite",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnType",
           "package": "direct-sqlite",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CColumnType",
           "package": "direct-sqlite",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CError",
           "package": "direct-sqlite",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CError",
           "package": "direct-sqlite",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CNumBytes",
           "package": "direct-sqlite",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CNumBytes",
           "package": "direct-sqlite",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CParamIndex",
           "package": "direct-sqlite",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "CParamIndex",
           "package": "direct-sqlite",
@@ -1369,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTells SQLite3 to make its own private copy of the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "c_SQLITE_TRANSIENT",
           "package": "direct-sqlite",
@@ -1379,6 +1422,7 @@
         "index": {
           "description": "Tells SQLite3 to make its own private copy of the data",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "c_SQLITE_TRANSIENT",
           "package": "direct-sqlite",
@@ -1393,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that this is a partial function.\n See \u003ccode\u003e\u003ca\u003edecodeError\u003c/a\u003e\u003c/code\u003e for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "decodeColumnType",
           "package": "direct-sqlite",
@@ -1403,6 +1448,7 @@
         "index": {
           "description": "Note that this is partial function See decodeError for more information",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "decodeColumnType",
           "normalized": "CColumnType-\u003eColumnType",
@@ -1419,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that this is a partial function.  If the error code is invalid, or\n perhaps introduced in a newer version of SQLite but this library has not\n been updated to support it, the result is undefined.\n\u003c/p\u003e\u003cp\u003eTo be clear, if \u003ccode\u003e\u003ca\u003edecodeError\u003c/a\u003e\u003c/code\u003e fails, it is \u003cem\u003eundefined behavior\u003c/em\u003e, not an\n exception you can handle.\n\u003c/p\u003e\u003cp\u003eTherefore, do not use direct-sqlite with a different version of SQLite than\n the one bundled (currently, 3.7.13).  If you do, ensure that \u003ccode\u003e\u003ca\u003edecodeError\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003edecodeColumnType\u003c/a\u003e\u003c/code\u003e are still exhaustive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "decodeError",
           "package": "direct-sqlite",
@@ -1429,6 +1476,7 @@
         "index": {
           "description": "Note that this is partial function If the error code is invalid or perhaps introduced in newer version of SQLite but this library has not been updated to support it the result is undefined To be clear if decodeError fails it is undefined behavior not an exception you can handle Therefore do not use direct-sqlite with different version of SQLite than the one bundled currently If you do ensure that decodeError and decodeColumnType are still exhaustive",
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "decodeError",
           "normalized": "CError-\u003eError",
@@ -1444,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "encodeColumnType",
           "package": "direct-sqlite",
@@ -1453,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "encodeColumnType",
           "normalized": "ColumnType-\u003eCColumnType",
@@ -1468,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "encodeError",
           "package": "direct-sqlite",
@@ -1477,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "encodeError",
           "normalized": "Error-\u003eCError",
@@ -1492,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "fromFFI",
           "package": "direct-sqlite",
@@ -1501,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "fromFFI",
           "normalized": "a-\u003eb",
@@ -1516,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "toFFI",
           "package": "direct-sqlite",
@@ -1525,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings Types",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings.Types",
           "name": "toFFI",
           "normalized": "a-\u003eb",
@@ -1540,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "Bindings",
           "package": "direct-sqlite",
@@ -1548,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "Bindings",
           "package": "direct-sqlite",
@@ -1561,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "CExecCallback",
           "package": "direct-sqlite",
@@ -1569,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "CExecCallback",
           "package": "direct-sqlite",
@@ -1582,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "CTraceCallback",
           "package": "direct-sqlite",
@@ -1590,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "CTraceCallback",
           "package": "direct-sqlite",
@@ -1603,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_blob",
           "package": "direct-sqlite",
@@ -1611,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_blob",
           "normalized": "Ptr CStatement-\u003eCParamIndex-\u003ePtr a-\u003eCNumBytes-\u003ePtr CDestructor-\u003eIO CError",
@@ -1625,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_double",
           "package": "direct-sqlite",
@@ -1634,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_double",
           "normalized": "Ptr CStatement-\u003eCParamIndex-\u003eDouble-\u003eIO CError",
@@ -1648,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_int64",
           "package": "direct-sqlite",
@@ -1657,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_int64",
           "normalized": "Ptr CStatement-\u003eCParamIndex-\u003eInt-\u003eIO CError",
@@ -1671,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_null",
           "package": "direct-sqlite",
@@ -1680,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_null",
           "normalized": "Ptr CStatement-\u003eCParamIndex-\u003eIO CError",
@@ -1695,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/bind_parameter_count.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis returns the index of the largest (rightmost) parameter, which is not\n necessarily the number of parameters.  If numbered parameters like \u003ccode\u003e?5\u003c/code\u003e\n are used, there may be gaps in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_parameter_count",
           "package": "direct-sqlite",
@@ -1705,6 +1776,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref bind parameter count.html This returns the index of the largest rightmost parameter which is not necessarily the number of parameters If numbered parameters like are used there may be gaps in the list",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_parameter_count",
           "normalized": "Ptr CStatement-\u003eIO CParamIndex",
@@ -1720,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/bind_parameter_name.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_parameter_name",
           "package": "direct-sqlite",
@@ -1730,6 +1803,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref bind parameter name.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_parameter_name",
           "normalized": "Ptr CStatement-\u003eCParamIndex-\u003eIO CString",
@@ -1744,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_text",
           "package": "direct-sqlite",
@@ -1752,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_bind_text",
           "normalized": "Ptr CStatement-\u003eCParamIndex-\u003eCString-\u003eCNumBytes-\u003ePtr CDestructor-\u003eIO CError",
@@ -1767,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/changes.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_changes",
           "package": "direct-sqlite",
@@ -1777,6 +1854,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref changes.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_changes",
           "normalized": "Ptr CDatabase-\u003eIO CInt",
@@ -1792,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/clear_bindings.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eA look at the source reveals that this function always returns \u003ccode\u003eSQLITE_OK\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_clear_bindings",
           "package": "direct-sqlite",
@@ -1802,6 +1881,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref clear bindings.html look at the source reveals that this function always returns SQLITE OK",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_clear_bindings",
           "normalized": "Ptr CStatement-\u003eIO CError",
@@ -1817,6 +1897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/close.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_close",
           "package": "direct-sqlite",
@@ -1827,6 +1908,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref close.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_close",
           "normalized": "Ptr CDatabase-\u003eIO CError",
@@ -1841,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_blob",
           "package": "direct-sqlite",
@@ -1850,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_blob",
           "normalized": "Ptr CStatement-\u003eCColumnIndex-\u003eIO(Ptr a)",
@@ -1864,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_bytes",
           "package": "direct-sqlite",
@@ -1873,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_bytes",
           "normalized": "Ptr CStatement-\u003eCColumnIndex-\u003eIO CNumBytes",
@@ -1888,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/column_count.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_count",
           "package": "direct-sqlite",
@@ -1898,6 +1985,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref column count.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_count",
           "normalized": "Ptr CStatement-\u003eIO CColumnCount",
@@ -1912,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_double",
           "package": "direct-sqlite",
@@ -1921,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_double",
           "normalized": "Ptr CStatement-\u003eCColumnIndex-\u003eIO Double",
@@ -1935,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_int64",
           "package": "direct-sqlite",
@@ -1944,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_int64",
           "normalized": "Ptr CStatement-\u003eCColumnIndex-\u003eIO Int",
@@ -1959,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/column_name.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_name",
           "package": "direct-sqlite",
@@ -1969,6 +2062,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref column name.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_name",
           "normalized": "Ptr CStatement-\u003eCColumnIndex-\u003eIO CString",
@@ -1983,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_text",
           "package": "direct-sqlite",
@@ -1992,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_text",
           "normalized": "Ptr CStatement-\u003eCColumnIndex-\u003eIO CString",
@@ -2006,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_type",
           "package": "direct-sqlite",
@@ -2015,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_column_type",
           "normalized": "Ptr CStatement-\u003eCColumnIndex-\u003eIO CColumnType",
@@ -2030,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/db_handle.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_db_handle",
           "package": "direct-sqlite",
@@ -2040,6 +2139,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref db handle.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_db_handle",
           "normalized": "Ptr CStatement-\u003eIO(Ptr CDatabase)",
@@ -2055,6 +2155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/errcode.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_errmsg",
           "package": "direct-sqlite",
@@ -2065,6 +2166,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref errcode.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_errmsg",
           "normalized": "Ptr CDatabase-\u003eIO CString",
@@ -2079,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_exec",
           "package": "direct-sqlite",
@@ -2087,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_exec",
           "normalized": "Ptr CDatabase-\u003eCString-\u003eFunPtr(CExecCallback a)-\u003ePtr a-\u003ePtr CString-\u003eIO CError",
@@ -2102,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/finalize.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWarning:\u003c/em\u003e If the most recent \u003ccode\u003e\u003ca\u003ec_sqlite3_step\u003c/a\u003e\u003c/code\u003e call failed,\n this will return the corresponding error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_finalize",
           "package": "direct-sqlite",
@@ -2112,6 +2217,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref finalize.html Warning If the most recent sqlite3 step call failed this will return the corresponding error code",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_finalize",
           "normalized": "Ptr CStatement-\u003eIO CError",
@@ -2127,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://sqlite.org/c3ref/free.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_free",
           "package": "direct-sqlite",
@@ -2137,6 +2244,7 @@
         "index": {
           "description": "http sqlite.org c3ref free.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_free",
           "normalized": "Ptr a-\u003eIO()",
@@ -2152,6 +2260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/get_autocommit.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_get_autocommit",
           "package": "direct-sqlite",
@@ -2162,6 +2271,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref get autocommit.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_get_autocommit",
           "normalized": "Ptr CDatabase-\u003eIO CInt",
@@ -2177,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/interrupt.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_interrupt",
           "package": "direct-sqlite",
@@ -2187,6 +2298,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref interrupt.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_interrupt",
           "normalized": "Ptr CDatabase-\u003eIO()",
@@ -2202,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/last_insert_rowid.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_last_insert_rowid",
           "package": "direct-sqlite",
@@ -2212,6 +2325,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref last insert rowid.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_last_insert_rowid",
           "normalized": "Ptr CDatabase-\u003eIO Int",
@@ -2227,6 +2341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/open.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis sets the \u003ccode\u003e'Ptr CDatabase'\u003c/code\u003e even on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_open",
           "package": "direct-sqlite",
@@ -2237,6 +2352,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref open.html This sets the Ptr CDatabase even on failure",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_open",
           "normalized": "CString-\u003ePtr(Ptr CDatabase)-\u003eIO CError",
@@ -2252,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/prepare.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIf the query contains no SQL statements, this returns \u003ccode\u003eSQLITE_OK\u003c/code\u003e and sets\n the \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCStatement\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_prepare_v2",
           "package": "direct-sqlite",
@@ -2261,6 +2378,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref prepare.html If the query contains no SQL statements this returns SQLITE OK and sets the Ptr CStatement to null",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_prepare_v2",
           "normalized": "Ptr CDatabase-\u003eCString-\u003eCNumBytes-\u003ePtr(Ptr CStatement)-\u003ePtr CString-\u003eIO CError",
@@ -2276,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/reset.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWarning:\u003c/em\u003e If the most recent \u003ccode\u003e\u003ca\u003ec_sqlite3_step\u003c/a\u003e\u003c/code\u003e call failed,\n this will return the corresponding error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_reset",
           "package": "direct-sqlite",
@@ -2286,6 +2405,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref reset.html Warning If the most recent sqlite3 step call failed this will return the corresponding error code",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_reset",
           "normalized": "Ptr CStatement-\u003eIO CError",
@@ -2301,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/sql.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_sql",
           "package": "direct-sqlite",
@@ -2311,6 +2432,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref sql.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_sql",
           "normalized": "Ptr CStatement-\u003eIO CString",
@@ -2326,6 +2448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/step.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_step",
           "package": "direct-sqlite",
@@ -2336,6 +2459,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref step.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_step",
           "normalized": "Ptr CStatement-\u003eIO CError",
@@ -2351,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/total_changes.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_total_changes",
           "package": "direct-sqlite",
@@ -2361,6 +2486,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref total changes.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_total_changes",
           "normalized": "Ptr CDatabase-\u003eIO CInt",
@@ -2376,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/profile.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_trace",
           "package": "direct-sqlite",
@@ -2385,6 +2512,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref profile.html",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "c_sqlite3_trace",
           "normalized": "Ptr CDatabase-\u003eFunPtr(CTraceCallback a)-\u003ePtr a-\u003eIO(Ptr())",
@@ -2400,6 +2528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA couple important things to know about callbacks from Haskell code:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the callback throws an exception, apparently, the \u003cem\u003ewhole program\u003c/em\u003e is\n    terminated.\n\u003c/li\u003e\u003cli\u003e Remember to call \u003ccode\u003e\u003ca\u003efreeHaskellFunPtr\u003c/a\u003e\u003c/code\u003e when you are done with the wrapper,\n    to avoid leaking memory.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "mkCExecCallback",
           "package": "direct-sqlite",
@@ -2410,6 +2539,7 @@
         "index": {
           "description": "couple important things to know about callbacks from Haskell code If the callback throws an exception apparently the whole program is terminated Remember to call freeHaskellFunPtr when you are done with the wrapper to avoid leaking memory",
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "mkCExecCallback",
           "normalized": "CExecCallback a-\u003eIO(FunPtr(CExecCallback a))",
@@ -2425,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Bindings",
           "name": "mkCTraceCallback",
           "package": "direct-sqlite",
@@ -2434,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Bindings",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Bindings",
           "name": "mkCTraceCallback",
           "normalized": "CTraceCallback a-\u003eIO(FunPtr(CTraceCallback a))",
@@ -2450,6 +2582,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis API is a slightly lower-level version of \u003ca\u003eDatabase.SQLite3\u003c/a\u003e.  Namely:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e It returns errors instead of throwing them.\n\u003c/li\u003e\u003cli\u003e It only uses cheap conversions.  None of these bindings convert from\n    \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "Direct",
           "package": "direct-sqlite",
@@ -2459,6 +2592,7 @@
         "index": {
           "description": "This API is slightly lower-level version of Database.SQLite3 Namely It returns errors instead of throwing them It only uses cheap conversions None of these bindings convert from String or Text",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "Direct",
           "package": "direct-sqlite",
@@ -2473,6 +2607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of columns in a result set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "ColumnCount",
           "package": "direct-sqlite",
@@ -2482,6 +2617,7 @@
         "index": {
           "description": "Number of columns in result set",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "ColumnCount",
           "package": "direct-sqlite",
@@ -2496,6 +2632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a column in a result set.  Column indices start from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "ColumnIndex",
           "package": "direct-sqlite",
@@ -2505,6 +2642,7 @@
         "index": {
           "description": "Index of column in result set Column indices start from",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "ColumnIndex",
           "package": "direct-sqlite",
@@ -2518,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "ColumnType",
           "package": "direct-sqlite",
@@ -2526,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "ColumnType",
           "package": "direct-sqlite",
@@ -2539,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "Database",
           "package": "direct-sqlite",
@@ -2547,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "Database",
           "package": "direct-sqlite",
@@ -2560,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "Error",
           "package": "direct-sqlite",
@@ -2568,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "Error",
           "package": "direct-sqlite",
@@ -2581,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "ExecCallback",
           "package": "direct-sqlite",
@@ -2589,6 +2734,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "ExecCallback",
           "package": "direct-sqlite",
@@ -2603,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a parameter in a parameterized query.\n Parameter indices start from 1.\n\u003c/p\u003e\u003cp\u003eWhen a query is \u003ccode\u003e\u003ca\u003eprepare\u003c/a\u003e\u003c/code\u003ed, SQLite allocates an\n array indexed from 1 to the highest parameter index.  For example:\n\u003c/p\u003e\u003cpre\u003e\u003eRight stmt \u003c- prepare conn \"SELECT ?1, ?5, ?3, ?\"\n\u003ebindParameterCount stmt\nParamIndex 6\n\u003c/pre\u003e\u003cp\u003eThis will allocate an array indexed from 1 to 6 (\u003ccode\u003e?\u003c/code\u003e takes the highest\n preceding index plus one).  The array is initialized with null values.\n When you bind a parameter with \u003ccode\u003e\u003ca\u003ebindSQLData\u003c/a\u003e\u003c/code\u003e, it assigns a\n new value to one of these indices.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.sqlite.org/lang_expr.html#varparam\u003c/a\u003e for the syntax of\n parameter placeholders, and how parameter indices are assigned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "ParamIndex",
           "package": "direct-sqlite",
@@ -2612,6 +2759,7 @@
         "index": {
           "description": "Index of parameter in parameterized query Parameter indices start from When query is prepare SQLite allocates an array indexed from to the highest parameter index For example Right stmt prepare conn SELECT bindParameterCount stmt ParamIndex This will allocate an array indexed from to takes the highest preceding index plus one The array is initialized with null values When you bind parameter with bindSQLData it assigns new value to one of these indices See http www.sqlite.org lang expr.html varparam for the syntax of parameter placeholders and how parameter indices are assigned",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "ParamIndex",
           "package": "direct-sqlite",
@@ -2625,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "Statement",
           "package": "direct-sqlite",
@@ -2633,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "Statement",
           "package": "direct-sqlite",
@@ -2646,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "StepResult",
           "package": "direct-sqlite",
@@ -2654,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "StepResult",
           "package": "direct-sqlite",
@@ -2668,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing UTF8-encoded text with no NUL characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "Utf8",
           "package": "direct-sqlite",
@@ -2677,6 +2830,7 @@
         "index": {
           "description": "ByteString containing UTF8-encoded text with no NUL characters",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "Utf8",
           "package": "direct-sqlite",
@@ -2690,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "Database",
           "package": "direct-sqlite",
@@ -2699,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "Database",
           "package": "direct-sqlite",
@@ -2758,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "Statement",
           "package": "direct-sqlite",
@@ -2767,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "Statement",
           "package": "direct-sqlite",
@@ -2780,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "Utf8",
           "package": "direct-sqlite",
@@ -2789,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "Utf8",
           "package": "direct-sqlite",
@@ -2802,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "bindBlob",
           "package": "direct-sqlite",
@@ -2811,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "bindBlob",
           "normalized": "Statement-\u003eParamIndex-\u003eByteString-\u003eIO(Either Error())",
@@ -2826,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "bindDouble",
           "package": "direct-sqlite",
@@ -2835,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "bindDouble",
           "normalized": "Statement-\u003eParamIndex-\u003eDouble-\u003eIO(Either Error())",
@@ -2850,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "bindInt64",
           "package": "direct-sqlite",
@@ -2859,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "bindInt64",
           "normalized": "Statement-\u003eParamIndex-\u003eInt-\u003eIO(Either Error())",
@@ -2874,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "bindNull",
           "package": "direct-sqlite",
@@ -2883,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "bindNull",
           "normalized": "Statement-\u003eParamIndex-\u003eIO(Either Error())",
@@ -2926,6 +3094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/bind_parameter_name.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "bindParameterName",
           "package": "direct-sqlite",
@@ -2936,6 +3105,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref bind parameter name.html",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "bindParameterName",
           "normalized": "Statement-\u003eParamIndex-\u003eIO(Maybe Utf)",
@@ -2951,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "bindText",
           "package": "direct-sqlite",
@@ -2960,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "bindText",
           "normalized": "Statement-\u003eParamIndex-\u003eUtf-\u003eIO(Either Error())",
@@ -3029,6 +3201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/close.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "close",
           "package": "direct-sqlite",
@@ -3039,6 +3212,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref close.html",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "close",
           "normalized": "Database-\u003eIO(Either Error())",
@@ -3156,6 +3330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/column_name.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "columnName",
           "package": "direct-sqlite",
@@ -3166,6 +3341,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref column name.html",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "columnName",
           "normalized": "Statement-\u003eColumnIndex-\u003eIO(Maybe Utf)",
@@ -3181,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "columnText",
           "package": "direct-sqlite",
@@ -3190,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "columnText",
           "normalized": "Statement-\u003eColumnIndex-\u003eIO Utf",
@@ -3231,6 +3409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/errcode.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "errmsg",
           "package": "direct-sqlite",
@@ -3241,6 +3420,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref errcode.html",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "errmsg",
           "normalized": "Database-\u003eIO Utf",
@@ -3255,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "exec",
           "package": "direct-sqlite",
@@ -3264,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "exec",
           "normalized": "Database-\u003eUtf-\u003eIO(Either(Error,Utf)())",
@@ -3279,6 +3461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eexec\u003c/a\u003e\u003c/code\u003e, but invoke the callback for each result row.\n\u003c/p\u003e\u003cp\u003eIf the callback throws an exception, it will be rethrown by\n \u003ccode\u003e\u003ca\u003eexecWithCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "execWithCallback",
           "package": "direct-sqlite",
@@ -3289,6 +3472,7 @@
         "index": {
           "description": "Like exec but invoke the callback for each result row If the callback throws an exception it will be rethrown by execWithCallback",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "execWithCallback",
           "normalized": "Database-\u003eUtf-\u003eExecCallback-\u003eIO(Either(Error,Utf)())",
@@ -3305,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/finalize.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWarning:\u003c/em\u003e If the most recent \u003ccode\u003e\u003ca\u003estep\u003c/a\u003e\u003c/code\u003e call failed,\n this will return the corresponding error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "finalize",
           "package": "direct-sqlite",
@@ -3315,6 +3500,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref finalize.html Warning If the most recent step call failed this will return the corresponding error",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "finalize",
           "normalized": "Statement-\u003eIO(Either Error())",
@@ -3330,6 +3516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/get_autocommit.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the connection is in autocommit mode, or \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if a\n transaction started with \u003ccode\u003eBEGIN\u003c/code\u003e is still active.\n\u003c/p\u003e\u003cp\u003eBe warned that some errors roll back the transaction automatically,\n and that \u003ccode\u003eROLLBACK\u003c/code\u003e will throw an error if no transaction is active.\n Use \u003ccode\u003e\u003ca\u003egetAutoCommit\u003c/a\u003e\u003c/code\u003e to avoid such an error:\n\u003c/p\u003e\u003cpre\u003e\n  autocommit \u003c- \u003ccode\u003e\u003ca\u003egetAutoCommit\u003c/a\u003e\u003c/code\u003e conn\n  \u003ccode\u003e\u003ca\u003ewhen\u003c/a\u003e\u003c/code\u003e (not autocommit) $\n      \u003ccode\u003e\u003ca\u003eexec\u003c/a\u003e\u003c/code\u003e conn \"ROLLBACK\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "getAutoCommit",
           "package": "direct-sqlite",
@@ -3340,6 +3527,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref get autocommit.html Return True if the connection is in autocommit mode or False if transaction started with BEGIN is still active Be warned that some errors roll back the transaction automatically and that ROLLBACK will throw an error if no transaction is active Use getAutoCommit to avoid such an error autocommit getAutoCommit conn when not autocommit exec conn ROLLBACK",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "getAutoCommit",
           "normalized": "Database-\u003eIO Bool",
@@ -3356,6 +3544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/db_handle.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "getStatementDatabase",
           "package": "direct-sqlite",
@@ -3366,6 +3555,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref db handle.html",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "getStatementDatabase",
           "normalized": "Statement-\u003eIO Database",
@@ -3435,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/open.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "open",
           "package": "direct-sqlite",
@@ -3445,6 +3636,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref open.html",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "open",
           "normalized": "Utf-\u003eIO(Either(Error,Utf)Database)",
@@ -3460,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/prepare.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIf the query contains no SQL statements, this returns\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "prepare",
           "package": "direct-sqlite",
@@ -3470,6 +3663,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref prepare.html If the query contains no SQL statements this returns Right Nothing",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "prepare",
           "normalized": "Database-\u003eUtf-\u003eIO(Either Error(Maybe Statement))",
@@ -3485,6 +3679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/reset.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eWarning:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the most recent \u003ccode\u003e\u003ca\u003estep\u003c/a\u003e\u003c/code\u003e call failed,\n    this will return the corresponding error.\n\u003c/li\u003e\u003cli\u003e This does not reset the bindings on a prepared statement.\n    Use \u003ccode\u003e\u003ca\u003eclearBindings\u003c/a\u003e\u003c/code\u003e to do that.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "reset",
           "package": "direct-sqlite",
@@ -3495,6 +3690,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref reset.html Warning If the most recent step call failed this will return the corresponding error This does not reset the bindings on prepared statement Use clearBindings to do that",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "reset",
           "normalized": "Statement-\u003eIO(Either Error())",
@@ -3510,6 +3706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/profile.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eEnable/disable tracing of SQL execution.  Tracing can be disabled\n by setting \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e as the logger callback.\n\u003c/p\u003e\u003cp\u003eWarning: If the logger callback throws an exception, your whole\n program will crash.  Enable only for debugging!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "setTrace",
           "package": "direct-sqlite",
@@ -3520,6 +3717,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref profile.html Enable disable tracing of SQL execution Tracing can be disabled by setting Nothing as the logger callback Warning If the logger callback throws an exception your whole program will crash Enable only for debugging",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "setTrace",
           "normalized": "Database-\u003eMaybe(Utf-\u003eIO())-\u003eIO()",
@@ -3536,6 +3734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/sql.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eReturn a copy of the original SQL text used to compile the statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "statementSql",
           "package": "direct-sqlite",
@@ -3546,6 +3745,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref sql.html Return copy of the original SQL text used to compile the statement",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "statementSql",
           "normalized": "Statement-\u003eIO(Maybe Utf)",
@@ -3562,6 +3762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/step.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "step",
           "package": "direct-sqlite",
@@ -3572,6 +3773,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref step.html",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "step",
           "normalized": "Statement-\u003eIO(Either Error StepResult)",
@@ -3587,6 +3789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/total_changes.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eReturn the total number of row changes caused by \u003ccode\u003eINSERT\u003c/code\u003e, \u003ccode\u003eDELETE\u003c/code\u003e,\n or \u003ccode\u003eUPDATE\u003c/code\u003e statements since the \u003ccode\u003e\u003ca\u003eDatabase\u003c/a\u003e\u003c/code\u003e was opened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3.Direct",
           "name": "totalChanges",
           "package": "direct-sqlite",
@@ -3597,6 +3800,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref total changes.html Return the total number of row changes caused by INSERT DELETE or UPDATE statements since the Database was opened",
           "hierarchy": "Database SQLite3 Direct",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3.Direct",
           "name": "totalChanges",
           "normalized": "Database-\u003eIO Int",
@@ -3612,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLite3",
           "package": "direct-sqlite",
@@ -3620,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLite3",
           "package": "direct-sqlite",
@@ -3634,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of columns in a result set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "ColumnCount",
           "package": "direct-sqlite",
@@ -3643,6 +3850,7 @@
         "index": {
           "description": "Number of columns in result set",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "ColumnCount",
           "package": "direct-sqlite",
@@ -3657,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a column in a result set.  Column indices start from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "ColumnIndex",
           "package": "direct-sqlite",
@@ -3666,6 +3875,7 @@
         "index": {
           "description": "Index of column in result set Column indices start from",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "ColumnIndex",
           "package": "direct-sqlite",
@@ -3679,6 +3889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "ColumnType",
           "package": "direct-sqlite",
@@ -3687,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "ColumnType",
           "package": "direct-sqlite",
@@ -3700,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "Database",
           "package": "direct-sqlite",
@@ -3708,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "Database",
           "package": "direct-sqlite",
@@ -3721,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "Error",
           "package": "direct-sqlite",
@@ -3729,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "Error",
           "package": "direct-sqlite",
@@ -3742,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "ExecCallback",
           "package": "direct-sqlite",
@@ -3750,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "ExecCallback",
           "package": "direct-sqlite",
@@ -3764,6 +3982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a parameter in a parameterized query.\n Parameter indices start from 1.\n\u003c/p\u003e\u003cp\u003eWhen a query is \u003ccode\u003e\u003ca\u003eprepare\u003c/a\u003e\u003c/code\u003ed, SQLite allocates an\n array indexed from 1 to the highest parameter index.  For example:\n\u003c/p\u003e\u003cpre\u003e\u003eRight stmt \u003c- prepare conn \"SELECT ?1, ?5, ?3, ?\"\n\u003ebindParameterCount stmt\nParamIndex 6\n\u003c/pre\u003e\u003cp\u003eThis will allocate an array indexed from 1 to 6 (\u003ccode\u003e?\u003c/code\u003e takes the highest\n preceding index plus one).  The array is initialized with null values.\n When you bind a parameter with \u003ccode\u003e\u003ca\u003ebindSQLData\u003c/a\u003e\u003c/code\u003e, it assigns a\n new value to one of these indices.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.sqlite.org/lang_expr.html#varparam\u003c/a\u003e for the syntax of\n parameter placeholders, and how parameter indices are assigned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "ParamIndex",
           "package": "direct-sqlite",
@@ -3773,6 +3992,7 @@
         "index": {
           "description": "Index of parameter in parameterized query Parameter indices start from When query is prepare SQLite allocates an array indexed from to the highest parameter index For example Right stmt prepare conn SELECT bindParameterCount stmt ParamIndex This will allocate an array indexed from to takes the highest preceding index plus one The array is initialized with null values When you bind parameter with bindSQLData it assigns new value to one of these indices See http www.sqlite.org lang expr.html varparam for the syntax of parameter placeholders and how parameter indices are assigned",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "ParamIndex",
           "package": "direct-sqlite",
@@ -3786,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLData",
           "package": "direct-sqlite",
@@ -3794,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLData",
           "package": "direct-sqlite",
@@ -3808,6 +4030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown when SQLite3 reports an error.\n\u003c/p\u003e\u003cp\u003edirect-sqlite may throw other types of exceptions if you misuse the API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLError",
           "package": "direct-sqlite",
@@ -3817,6 +4040,7 @@
         "index": {
           "description": "Exception thrown when SQLite3 reports an error direct-sqlite may throw other types of exceptions if you misuse the API",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLError",
           "package": "direct-sqlite",
@@ -3830,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "Statement",
           "package": "direct-sqlite",
@@ -3838,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "Statement",
           "package": "direct-sqlite",
@@ -3851,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "StepResult",
           "package": "direct-sqlite",
@@ -3859,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "StepResult",
           "package": "direct-sqlite",
@@ -3872,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLBlob",
           "package": "direct-sqlite",
@@ -3881,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLBlob",
           "package": "direct-sqlite",
@@ -3894,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLError",
           "package": "direct-sqlite",
@@ -3903,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLError",
           "package": "direct-sqlite",
@@ -3916,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLFloat",
           "package": "direct-sqlite",
@@ -3925,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLFloat",
           "package": "direct-sqlite",
@@ -3938,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLInteger",
           "package": "direct-sqlite",
@@ -3947,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLInteger",
           "package": "direct-sqlite",
@@ -3960,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLNull",
           "package": "direct-sqlite",
@@ -3969,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLNull",
           "package": "direct-sqlite",
@@ -3982,6 +4220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "SQLText",
           "package": "direct-sqlite",
@@ -3991,6 +4230,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "SQLText",
           "package": "direct-sqlite",
@@ -4005,6 +4245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for binding values to all parameters.  This will\n \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e if the list has the wrong number of parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bind",
           "package": "direct-sqlite",
@@ -4015,6 +4256,7 @@
         "index": {
           "description": "Convenience function for binding values to all parameters This will fail if the list has the wrong number of parameters",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bind",
           "normalized": "Statement-\u003e[SQLData]-\u003eIO()",
@@ -4029,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bindBlob",
           "package": "direct-sqlite",
@@ -4038,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bindBlob",
           "normalized": "Statement-\u003eParamIndex-\u003eByteString-\u003eIO()",
@@ -4053,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bindDouble",
           "package": "direct-sqlite",
@@ -4062,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bindDouble",
           "normalized": "Statement-\u003eParamIndex-\u003eDouble-\u003eIO()",
@@ -4077,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bindInt",
           "package": "direct-sqlite",
@@ -4086,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bindInt",
           "normalized": "Statement-\u003eParamIndex-\u003eInt-\u003eIO()",
@@ -4101,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bindInt64",
           "package": "direct-sqlite",
@@ -4110,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bindInt64",
           "normalized": "Statement-\u003eParamIndex-\u003eInt-\u003eIO()",
@@ -4125,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bindNull",
           "package": "direct-sqlite",
@@ -4134,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bindNull",
           "normalized": "Statement-\u003eParamIndex-\u003eIO()",
@@ -4150,6 +4402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/bind_parameter_name.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eReturn the N-th SQL parameter name.\n\u003c/p\u003e\u003cp\u003eNamed parameters are returned as-is.  E.g. \":v\" is returned as\n \u003ccode\u003eJust \":v\"\u003c/code\u003e.  Unnamed parameters, however, are converted to\n \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the parameter index starts at 1, not 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bindParameterName",
           "package": "direct-sqlite",
@@ -4160,6 +4413,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref bind parameter name.html Return the N-th SQL parameter name Named parameters are returned as-is E.g is returned as Just Unnamed parameters however are converted to Nothing Note that the parameter index starts at not",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bindParameterName",
           "normalized": "Statement-\u003eParamIndex-\u003eIO(Maybe Text)",
@@ -4176,6 +4430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the index is not between 1 and \u003ccode\u003e\u003ca\u003ebindParameterCount\u003c/a\u003e\u003c/code\u003e inclusive, this\n fails with \u003ccode\u003e\u003ca\u003eErrorRange\u003c/a\u003e\u003c/code\u003e.  Otherwise, it succeeds, even if the query skips\n this index by using numbered parameters.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\u003e stmt \u003c- prepare conn \"SELECT ?1, ?3, ?5\"\n\u003e bindSQLData stmt 1 (SQLInteger 1)\n\u003e bindSQLData stmt 2 (SQLInteger 2)\n\u003e bindSQLData stmt 6 (SQLInteger 6)\n*** Exception: SQLite3 returned ErrorRange while attempting to perform bind int64.\n\u003e step stmt \u003e\u003e columns stmt\n[SQLInteger 1,SQLNull,SQLNull]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bindSQLData",
           "package": "direct-sqlite",
@@ -4186,6 +4441,7 @@
         "index": {
           "description": "If the index is not between and bindParameterCount inclusive this fails with ErrorRange Otherwise it succeeds even if the query skips this index by using numbered parameters Example stmt prepare conn SELECT bindSQLData stmt SQLInteger bindSQLData stmt SQLInteger bindSQLData stmt SQLInteger Exception SQLite3 returned ErrorRange while attempting to perform bind int64 step stmt columns stmt SQLInteger SQLNull SQLNull",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bindSQLData",
           "normalized": "Statement-\u003eParamIndex-\u003eSQLData-\u003eIO()",
@@ -4201,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "bindText",
           "package": "direct-sqlite",
@@ -4210,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "bindText",
           "normalized": "Statement-\u003eParamIndex-\u003eText-\u003eIO()",
@@ -4226,6 +4484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/close.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "close",
           "package": "direct-sqlite",
@@ -4236,6 +4495,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref close.html",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "close",
           "normalized": "Database-\u003eIO()",
@@ -4250,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "column",
           "package": "direct-sqlite",
@@ -4259,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "column",
           "normalized": "Statement-\u003eColumnIndex-\u003eIO SQLData",
@@ -4274,6 +4536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/column_name.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eReturn the name of a result column.  If the column index is out of range,\n return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "columnName",
           "package": "direct-sqlite",
@@ -4284,6 +4547,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref column name.html Return the name of result column If the column index is out of range return Nothing",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "columnName",
           "normalized": "Statement-\u003eColumnIndex-\u003eIO(Maybe Text)",
@@ -4300,6 +4564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will throw a \u003ccode\u003e\u003ca\u003eDecodeError\u003c/a\u003e\u003c/code\u003e if the datum contains invalid UTF-8.\n If this behavior is undesirable, you can use \u003ccode\u003e\u003ca\u003ecolumnText\u003c/a\u003e\u003c/code\u003e from\n \u003ca\u003eDatabase.SQLite3.Direct\u003c/a\u003e, which does not perform conversion to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "columnText",
           "package": "direct-sqlite",
@@ -4310,6 +4575,7 @@
         "index": {
           "description": "This will throw DecodeError if the datum contains invalid UTF-8 If this behavior is undesirable you can use columnText from Database.SQLite3.Direct which does not perform conversion to Text",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "columnText",
           "normalized": "Statement-\u003eColumnIndex-\u003eIO Text",
@@ -4325,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "columns",
           "package": "direct-sqlite",
@@ -4334,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "columns",
           "normalized": "Statement-\u003eIO[SQLData]",
@@ -4349,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute zero or more SQL statements delimited by semicolons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "exec",
           "package": "direct-sqlite",
@@ -4359,6 +4628,7 @@
         "index": {
           "description": "Execute zero or more SQL statements delimited by semicolons",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "exec",
           "normalized": "Database-\u003eText-\u003eIO()",
@@ -4374,6 +4644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eexec\u003c/a\u003e\u003c/code\u003e, but print result rows to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is mainly for convenience when experimenting in GHCi.\n The output format may change in the future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "execPrint",
           "package": "direct-sqlite",
@@ -4384,6 +4655,7 @@
         "index": {
           "description": "Like exec but print result rows to stdout This is mainly for convenience when experimenting in GHCi The output format may change in the future",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "execPrint",
           "normalized": "Database-\u003eText-\u003eIO()",
@@ -4400,6 +4672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eexec\u003c/a\u003e\u003c/code\u003e, but invoke the callback for each result row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "execWithCallback",
           "package": "direct-sqlite",
@@ -4410,6 +4683,7 @@
         "index": {
           "description": "Like exec but invoke the callback for each result row",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "execWithCallback",
           "normalized": "Database-\u003eText-\u003eExecCallback-\u003eIO()",
@@ -4426,6 +4700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/finalize.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereset\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efinalize\u003c/a\u003e\u003c/code\u003e never throws an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "finalize",
           "package": "direct-sqlite",
@@ -4436,6 +4711,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref finalize.html Like reset finalize never throws an exception",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "finalize",
           "normalized": "Statement-\u003eIO()",
@@ -4451,6 +4727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake it possible to interrupt the given database operation with an\n asynchronous exception.  This only works if the program is compiled with\n base \u003e= 4.3 and \u003ccode\u003e-threaded\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt works by running the callback in a forked thread.  If interrupted,\n it uses \u003ccode\u003e\u003ca\u003einterrupt\u003c/a\u003e\u003c/code\u003e to try to stop the operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "interruptibly",
           "package": "direct-sqlite",
@@ -4461,6 +4738,7 @@
         "index": {
           "description": "Make it possible to interrupt the given database operation with an asynchronous exception This only works if the program is compiled with base and threaded It works by running the callback in forked thread If interrupted it uses interrupt to try to stop the operation",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "interruptibly",
           "normalized": "Database-\u003eIO a-\u003eIO a",
@@ -4476,6 +4754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/open.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "open",
           "package": "direct-sqlite",
@@ -4486,6 +4765,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref open.html",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "open",
           "normalized": "Text-\u003eIO Database",
@@ -4501,6 +4781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/prepare.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003eexec\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eprepare\u003c/a\u003e\u003c/code\u003e only executes the first statement, and ignores\n subsequent statements.\n\u003c/p\u003e\u003cp\u003eIf the query string contains no SQL statements, this \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "prepare",
           "package": "direct-sqlite",
@@ -4511,6 +4792,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref prepare.html Unlike exec prepare only executes the first statement and ignores subsequent statements If the query string contains no SQL statements this fail",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "prepare",
           "normalized": "Database-\u003eText-\u003eIO Statement",
@@ -4526,6 +4808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/prepare.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIt can help to avoid redundant Utf8 to Text conversion if you already\n have Utf8 \n\u003c/p\u003e\u003cp\u003eIf the query string contains no SQL statements, this \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "prepareUtf8",
           "package": "direct-sqlite",
@@ -4536,6 +4819,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref prepare.html It can help to avoid redundant Utf8 to Text conversion if you already have Utf8 If the query string contains no SQL statements this fail",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "prepareUtf8",
           "normalized": "Database-\u003eUtf-\u003eIO Statement",
@@ -4552,6 +4836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/reset.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eNote that in the C API, \u003ccode\u003esqlite3_reset\u003c/code\u003e returns an error code if the most\n recent \u003ccode\u003esqlite3_step\u003c/code\u003e indicated an error.  We do not replicate that behavior\n here.  \u003ccode\u003e\u003ca\u003ereset\u003c/a\u003e\u003c/code\u003e never throws an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "reset",
           "package": "direct-sqlite",
@@ -4562,6 +4847,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref reset.html Note that in the API sqlite3 reset returns an error code if the most recent sqlite3 step indicated an error We do not replicate that behavior here reset never throws an exception",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "reset",
           "normalized": "Statement-\u003eIO()",
@@ -4577,6 +4863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError code returned by API call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "sqlError",
           "package": "direct-sqlite",
@@ -4587,6 +4874,7 @@
         "index": {
           "description": "Error code returned by API call",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "sqlError",
           "package": "direct-sqlite",
@@ -4601,6 +4889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates what action produced this error,\n   e.g. \u003ccode\u003eexec \"SELECT * FROM foo\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "sqlErrorContext",
           "package": "direct-sqlite",
@@ -4611,6 +4900,7 @@
         "index": {
           "description": "Indicates what action produced this error e.g exec SELECT FROM foo",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "sqlErrorContext",
           "package": "direct-sqlite",
@@ -4625,6 +4915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText describing the error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "sqlErrorDetails",
           "package": "direct-sqlite",
@@ -4635,6 +4926,7 @@
         "index": {
           "description": "Text describing the error",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "sqlErrorDetails",
           "package": "direct-sqlite",
@@ -4649,6 +4941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.sqlite.org/c3ref/step.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "step",
           "package": "direct-sqlite",
@@ -4659,6 +4952,7 @@
         "index": {
           "description": "http www.sqlite.org c3ref step.html",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "step",
           "normalized": "Statement-\u003eIO StepResult",
@@ -4674,6 +4968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis avoids extra API calls using the list of column types.\n If passed types do not correspond to the actual types, the values will be \n converted according to the rules at \u003ca\u003ehttp://www.sqlite.org/c3ref/column_blob.html\u003c/a\u003e.\n If the list contains more items that number of columns, the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:23 UTC 2014",
           "module": "Database.SQLite3",
           "name": "typedColumns",
           "package": "direct-sqlite",
@@ -4684,6 +4979,7 @@
         "index": {
           "description": "This avoids extra API calls using the list of column types If passed types do not correspond to the actual types the values will be converted according to the rules at http www.sqlite.org c3ref column blob.html If the list contains more items that number of columns the result is undefined",
           "hierarchy": "Database SQLite3",
+          "indexed": "2014-03-11T17:56:23",
           "module": "Database.SQLite3",
           "name": "typedColumns",
           "normalized": "Statement-\u003e[Maybe ColumnType]-\u003eIO[SQLData]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "global-lock"
+        "phrase": "global-lock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternals of global locking.\n\u003c/p\u003e\u003cp\u003eUse with caution!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:06 UTC 2014",
           "module": "System.GlobalLock.Internal",
           "name": "Internal",
           "package": "global-lock",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internals of global locking Use with caution",
           "hierarchy": "System GlobalLock Internal",
+          "indexed": "2014-03-11T18:18:06",
           "module": "System.GlobalLock.Internal",
           "name": "Internal",
           "package": "global-lock",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the single \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e used for global locking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:06 UTC 2014",
           "module": "System.GlobalLock.Internal",
           "name": "get",
           "package": "global-lock",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Get the single MVar used for global locking",
           "hierarchy": "System GlobalLock Internal",
+          "indexed": "2014-03-11T18:18:06",
           "module": "System.GlobalLock.Internal",
           "name": "get",
           "normalized": "IO(MVar())",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a single global lock for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e actions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:06 UTC 2014",
           "module": "System.GlobalLock",
           "name": "GlobalLock",
           "package": "global-lock",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Provides single global lock for IO actions",
           "hierarchy": "System GlobalLock",
+          "indexed": "2014-03-11T18:18:06",
           "module": "System.GlobalLock",
           "name": "GlobalLock",
           "package": "global-lock",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the global lock for the duration of an \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e action.\n\u003c/p\u003e\u003cp\u003eTwo actions executed via \u003ccode\u003e\u003ccode\u003e\u003ca\u003elock\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e will never run simultaneously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:06 UTC 2014",
           "module": "System.GlobalLock",
           "name": "lock",
           "package": "global-lock",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Take the global lock for the duration of an IO action Two actions executed via lock will never run simultaneously",
           "hierarchy": "System GlobalLock",
+          "indexed": "2014-03-11T18:18:06",
           "module": "System.GlobalLock",
           "name": "lock",
           "normalized": "IO a-\u003eIO a",

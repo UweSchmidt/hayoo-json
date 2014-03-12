@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ac-machine-conduit"
+        "phrase": "ac-machine-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:35 UTC 2014",
           "module": "Data.AhoCorasick.Conduit",
           "name": "Conduit",
           "package": "ac-machine-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick Conduit",
+          "indexed": "2014-03-11T17:06:35",
           "module": "Data.AhoCorasick.Conduit",
           "name": "Conduit",
           "package": "ac-machine-conduit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:35 UTC 2014",
           "module": "Data.AhoCorasick.Conduit",
           "name": "conduitACMachineText",
           "package": "ac-machine-conduit",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick Conduit",
+          "indexed": "2014-03-11T17:06:35",
           "module": "Data.AhoCorasick.Conduit",
           "name": "conduitACMachineText",
           "normalized": "ACMachine Char a-\u003eConduit Text b(Match a)",

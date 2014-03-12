@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graphviz"
+        "phrase": "graphviz",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines various algorithms for use on \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e graphs.  These are\n   typically re-implementations of behaviour found in existing Graphviz\n   tools but without the I/O requirement.\n\u003c/p\u003e\u003cp\u003eNote that one way that these algorithms differ from those found in\n   Graphviz is that the order of clusters is \u003cem\u003enot\u003c/em\u003e maintained, which may\n   affect layout in some cases.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "Algorithms",
           "package": "graphviz",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Defines various algorithms for use on DotRepr graphs These are typically re-implementations of behaviour found in existing Graphviz tools but without the requirement Note that one way that these algorithms differ from those found in Graphviz is that the order of clusters is not maintained which may affect layout in some cases",
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "Algorithms",
           "package": "graphviz",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "CanonicaliseOptions",
           "package": "graphviz",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "CanonicaliseOptions",
           "package": "graphviz",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "COpts",
           "package": "graphviz",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "COpts",
           "package": "graphviz",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonicalise with some sensible defaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "canonicalise",
           "package": "graphviz",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Canonicalise with some sensible defaults",
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "canonicalise",
           "normalized": "a b-\u003eDotGraph b",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003ecanonicalise\u003c/a\u003e\u003c/code\u003e, but allow custom \u003ccode\u003e\u003ca\u003eCanonicaliseOptions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "canonicaliseOptions",
           "package": "graphviz",
@@ -120,6 +129,7 @@
         "index": {
           "description": "As with canonicalise but allow custom CanonicaliseOptions",
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "canonicaliseOptions",
           "normalized": "CanonicaliseOptions-\u003ea b-\u003eDotGraph b",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "defaultCanonOptions",
           "package": "graphviz",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "defaultCanonOptions",
           "package": "graphviz",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions that are more like how \u003ccode\u003edot -Tcanon\u003c/code\u003e works.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "dotLikeOptions",
           "package": "graphviz",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Options that are more like how dot Tcanon works",
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "dotLikeOptions",
           "package": "graphviz",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace edges in the clusters\n   where their nodes are rather\n   than in the top-level graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "edgesInClusters",
           "package": "graphviz",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Place edges in the clusters where their nodes are rather than in the top-level graph",
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "edgesInClusters",
           "package": "graphviz",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut common \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e as\n   top-level \u003ccode\u003e\u003ca\u003eGlobalAttributes\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "groupAttributes",
           "package": "graphviz",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Put common Attributes as top-level GlobalAttributes",
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "groupAttributes",
           "package": "graphviz",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "transitiveReduction",
           "package": "graphviz",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "transitiveReduction",
           "normalized": "a b-\u003eDotGraph b",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Algorithms",
           "name": "transitiveReductionOptions",
           "package": "graphviz",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Algorithms",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Algorithms",
           "name": "transitiveReductionOptions",
           "normalized": "CanonicaliseOptions-\u003ea b-\u003eDotGraph b",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYou almost definitely do \u003cem\u003enot\u003c/em\u003e want to use this module.  It is only\n   defined for completeness when parsing existing Dot code.\n\u003c/p\u003e\u003cp\u003eGraphviz contains a list of colors known as the /Brewer color\n   schemes/.\n\u003c/p\u003e\u003cp\u003eThese colors are available under an Apache-style license:\n   \u003ca\u003ehttp://www.graphviz.org/doc/info/colors.html#brewer_license\u003c/a\u003e.  As\n   such, they are not recommended for general use, and have only been\n   included in this package for completeness.\n\u003c/p\u003e\u003cp\u003eThe complete list of Brewer colors can be found at\n   \u003ca\u003ehttp://www.graphviz.org/doc/info/colors.html#brewer\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Brewer",
           "package": "graphviz",
@@ -287,6 +310,7 @@
         "index": {
           "description": "You almost definitely do not want to use this module It is only defined for completeness when parsing existing Dot code Graphviz contains list of colors known as the Brewer color schemes These colors are available under an Apache-style license http www.graphviz.org doc info colors.html brewer license As such they are not recommended for general use and have only been included in this package for completeness The complete list of Brewer colors can be found at http www.graphviz.org doc info colors.html brewer",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Brewer",
           "package": "graphviz",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis value should be between \u003ccode\u003e1\u003c/code\u003e and the level of the\n   \u003ccode\u003e\u003ca\u003eBrewerScheme\u003c/a\u003e\u003c/code\u003e being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BrewerColor",
           "package": "graphviz",
@@ -310,6 +335,7 @@
         "index": {
           "description": "This value should be between and the level of the BrewerScheme being used",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BrewerColor",
           "package": "graphviz",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of these have a minimum level value of \u003ccode\u003e3\u003c/code\u003e, with a maximum\n   of \u003ccode\u003e9\u003c/code\u003e unless otherwise specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BrewerName",
           "package": "graphviz",
@@ -333,6 +360,7 @@
         "index": {
           "description": "All of these have minimum level value of with maximum of unless otherwise specified",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BrewerName",
           "package": "graphviz",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify which colour palette and how many colours it has.  Note\n   the allowed values for the different \u003ccode\u003e\u003ca\u003eBrewerName\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BrewerScheme",
           "package": "graphviz",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Specify which colour palette and how many colours it has Note the allowed values for the different BrewerName",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BrewerScheme",
           "package": "graphviz",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e8\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Accent",
           "package": "graphviz",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Accent",
           "package": "graphviz",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BC",
           "package": "graphviz",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BC",
           "package": "graphviz",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BScheme",
           "package": "graphviz",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "BScheme",
           "package": "graphviz",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Blues",
           "package": "graphviz",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Blues",
           "package": "graphviz",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Brbg",
           "package": "graphviz",
@@ -470,6 +509,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Brbg",
           "package": "graphviz",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Bugn",
           "package": "graphviz",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Bugn",
           "package": "graphviz",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Bupu",
           "package": "graphviz",
@@ -514,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Bupu",
           "package": "graphviz",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e8\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Dark2",
           "package": "graphviz",
@@ -538,6 +583,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Dark2",
           "package": "graphviz",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Gnbu",
           "package": "graphviz",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Gnbu",
           "package": "graphviz",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Greens",
           "package": "graphviz",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Greens",
           "package": "graphviz",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Greys",
           "package": "graphviz",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Greys",
           "package": "graphviz",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Oranges",
           "package": "graphviz",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Oranges",
           "package": "graphviz",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Orrd",
           "package": "graphviz",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Orrd",
           "package": "graphviz",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e12\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Paired",
           "package": "graphviz",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Paired",
           "package": "graphviz",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Pastel1",
           "package": "graphviz",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Pastel1",
           "package": "graphviz",
@@ -708,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e8\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Pastel2",
           "package": "graphviz",
@@ -718,6 +779,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Pastel2",
           "package": "graphviz",
@@ -732,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Piyg",
           "package": "graphviz",
@@ -742,6 +805,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Piyg",
           "package": "graphviz",
@@ -756,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Prgn",
           "package": "graphviz",
@@ -766,6 +831,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Prgn",
           "package": "graphviz",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Pubu",
           "package": "graphviz",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Pubu",
           "package": "graphviz",
@@ -801,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Pubugn",
           "package": "graphviz",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Pubugn",
           "package": "graphviz",
@@ -824,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e; note that the last two are listed\n   after the \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePurd\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e values in the\n   documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Puor",
           "package": "graphviz",
@@ -834,6 +905,7 @@
         "index": {
           "description": "Maximum of note that the last two are listed after the Purd values in the documentation",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Puor",
           "package": "graphviz",
@@ -847,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Purd",
           "package": "graphviz",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Purd",
           "package": "graphviz",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Purples",
           "package": "graphviz",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Purples",
           "package": "graphviz",
@@ -892,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e; note that the last two are listed\n   first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdbu",
           "package": "graphviz",
@@ -902,6 +979,7 @@
         "index": {
           "description": "Maximum of note that the last two are listed first",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdbu",
           "package": "graphviz",
@@ -916,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e; note that the last two are listed\n   after the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRdpu\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e values in the\n   documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdgy",
           "package": "graphviz",
@@ -926,6 +1005,7 @@
         "index": {
           "description": "Maximum of note that the last two are listed after the Rdpu values in the documentation",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdgy",
           "package": "graphviz",
@@ -939,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdpu",
           "package": "graphviz",
@@ -948,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdpu",
           "package": "graphviz",
@@ -962,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdylbu",
           "package": "graphviz",
@@ -972,6 +1055,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdylbu",
           "package": "graphviz",
@@ -986,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdylgn",
           "package": "graphviz",
@@ -996,6 +1081,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Rdylgn",
           "package": "graphviz",
@@ -1009,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Reds",
           "package": "graphviz",
@@ -1018,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Reds",
           "package": "graphviz",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Set1",
           "package": "graphviz",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Set1",
           "package": "graphviz",
@@ -1054,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e8\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Set2",
           "package": "graphviz",
@@ -1064,6 +1155,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Set2",
           "package": "graphviz",
@@ -1078,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e12\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Set3",
           "package": "graphviz",
@@ -1088,6 +1181,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Set3",
           "package": "graphviz",
@@ -1102,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of \u003ccode\u003e11\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Spectral",
           "package": "graphviz",
@@ -1112,6 +1207,7 @@
         "index": {
           "description": "Maximum of",
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Spectral",
           "package": "graphviz",
@@ -1125,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Ylgn",
           "package": "graphviz",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Ylgn",
           "package": "graphviz",
@@ -1147,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Ylgnbu",
           "package": "graphviz",
@@ -1156,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Ylgnbu",
           "package": "graphviz",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Ylorbr",
           "package": "graphviz",
@@ -1178,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Ylorbr",
           "package": "graphviz",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Ylorrd",
           "package": "graphviz",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors Brewer",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.Brewer",
           "name": "Ylorrd",
           "package": "graphviz",
@@ -1214,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraphviz comes with an SVG color scheme:\n   \u003ca\u003ehttp://www.graphviz.org/doc/info/colors.html#svg\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eHowever, in general use you probably want to use\n   \u003ca\u003eData.GraphViz.Attributes.Colors.X11\u003c/a\u003e instead, unless you are only\n   generating SVG images.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SVG",
           "package": "graphviz",
@@ -1223,6 +1328,7 @@
         "index": {
           "description": "Graphviz comes with an SVG color scheme http www.graphviz.org doc info colors.html svg However in general use you probably want to use Data.GraphViz.Attributes.Colors.X11 instead unless you are only generating SVG images",
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SVG",
           "package": "graphviz",
@@ -1237,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SVG colors that Graphviz uses.  Graphviz's list of colors\n   also duplicated all \u003ccode\u003e*Gray*\u003c/code\u003e colors with \u003ccode\u003e*Grey*\u003c/code\u003e ones; parsing\n   of an \u003ccode\u003e\u003ca\u003eSVGColor\u003c/a\u003e\u003c/code\u003e which is specified using \"grey\" will succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SVGColor",
           "package": "graphviz",
@@ -1246,6 +1353,7 @@
         "index": {
           "description": "The SVG colors that Graphviz uses Graphviz list of colors also duplicated all Gray colors with Grey ones parsing of an SVGColor which is specified using grey will succeed",
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SVGColor",
           "package": "graphviz",
@@ -1259,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "AliceBlue",
           "package": "graphviz",
@@ -1268,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "AliceBlue",
           "package": "graphviz",
@@ -1281,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "AntiqueWhite",
           "package": "graphviz",
@@ -1290,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "AntiqueWhite",
           "package": "graphviz",
@@ -1303,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Aqua",
           "package": "graphviz",
@@ -1312,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Aqua",
           "package": "graphviz",
@@ -1325,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Aquamarine",
           "package": "graphviz",
@@ -1334,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Aquamarine",
           "package": "graphviz",
@@ -1347,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Azure",
           "package": "graphviz",
@@ -1356,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Azure",
           "package": "graphviz",
@@ -1369,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Beige",
           "package": "graphviz",
@@ -1378,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Beige",
           "package": "graphviz",
@@ -1391,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Bisque",
           "package": "graphviz",
@@ -1400,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Bisque",
           "package": "graphviz",
@@ -1413,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Black",
           "package": "graphviz",
@@ -1422,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Black",
           "package": "graphviz",
@@ -1435,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "BlanchedAlmond",
           "package": "graphviz",
@@ -1444,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "BlanchedAlmond",
           "package": "graphviz",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Blue",
           "package": "graphviz",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Blue",
           "package": "graphviz",
@@ -1479,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "BlueViolet",
           "package": "graphviz",
@@ -1488,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "BlueViolet",
           "package": "graphviz",
@@ -1501,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Brown",
           "package": "graphviz",
@@ -1510,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Brown",
           "package": "graphviz",
@@ -1523,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Burlywood",
           "package": "graphviz",
@@ -1532,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Burlywood",
           "package": "graphviz",
@@ -1545,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "CadetBlue",
           "package": "graphviz",
@@ -1554,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "CadetBlue",
           "package": "graphviz",
@@ -1567,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Chartreuse",
           "package": "graphviz",
@@ -1576,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Chartreuse",
           "package": "graphviz",
@@ -1589,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Chocolate",
           "package": "graphviz",
@@ -1598,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Chocolate",
           "package": "graphviz",
@@ -1611,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Coral",
           "package": "graphviz",
@@ -1620,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Coral",
           "package": "graphviz",
@@ -1633,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "CornflowerBlue",
           "package": "graphviz",
@@ -1642,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "CornflowerBlue",
           "package": "graphviz",
@@ -1655,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Cornsilk",
           "package": "graphviz",
@@ -1664,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Cornsilk",
           "package": "graphviz",
@@ -1677,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Crimson",
           "package": "graphviz",
@@ -1686,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Crimson",
           "package": "graphviz",
@@ -1699,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Cyan",
           "package": "graphviz",
@@ -1708,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Cyan",
           "package": "graphviz",
@@ -1721,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkBlue",
           "package": "graphviz",
@@ -1730,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkBlue",
           "package": "graphviz",
@@ -1743,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkCyan",
           "package": "graphviz",
@@ -1752,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkCyan",
           "package": "graphviz",
@@ -1765,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkGoldenrod",
           "package": "graphviz",
@@ -1774,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkGoldenrod",
           "package": "graphviz",
@@ -1787,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkGray",
           "package": "graphviz",
@@ -1796,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkGray",
           "package": "graphviz",
@@ -1809,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkGreen",
           "package": "graphviz",
@@ -1818,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkGreen",
           "package": "graphviz",
@@ -1831,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkKhaki",
           "package": "graphviz",
@@ -1840,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkKhaki",
           "package": "graphviz",
@@ -1853,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkMagenta",
           "package": "graphviz",
@@ -1862,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkMagenta",
           "package": "graphviz",
@@ -1875,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkOliveGreen",
           "package": "graphviz",
@@ -1884,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkOliveGreen",
           "package": "graphviz",
@@ -1897,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkOrange",
           "package": "graphviz",
@@ -1906,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkOrange",
           "package": "graphviz",
@@ -1919,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkOrchid",
           "package": "graphviz",
@@ -1928,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkOrchid",
           "package": "graphviz",
@@ -1941,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkRed",
           "package": "graphviz",
@@ -1950,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkRed",
           "package": "graphviz",
@@ -1963,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkSalmon",
           "package": "graphviz",
@@ -1972,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkSalmon",
           "package": "graphviz",
@@ -1985,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkSeaGreen",
           "package": "graphviz",
@@ -1994,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkSeaGreen",
           "package": "graphviz",
@@ -2007,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkSlateBlue",
           "package": "graphviz",
@@ -2016,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkSlateBlue",
           "package": "graphviz",
@@ -2029,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkSlateGray",
           "package": "graphviz",
@@ -2038,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkSlateGray",
           "package": "graphviz",
@@ -2051,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkTurquoise",
           "package": "graphviz",
@@ -2060,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkTurquoise",
           "package": "graphviz",
@@ -2073,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkViolet",
           "package": "graphviz",
@@ -2082,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DarkViolet",
           "package": "graphviz",
@@ -2095,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DeepPink",
           "package": "graphviz",
@@ -2104,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DeepPink",
           "package": "graphviz",
@@ -2117,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DeepSkyBlue",
           "package": "graphviz",
@@ -2126,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DeepSkyBlue",
           "package": "graphviz",
@@ -2139,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DimGray",
           "package": "graphviz",
@@ -2148,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DimGray",
           "package": "graphviz",
@@ -2161,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DodgerBlue",
           "package": "graphviz",
@@ -2170,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "DodgerBlue",
           "package": "graphviz",
@@ -2183,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Firebrick",
           "package": "graphviz",
@@ -2192,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Firebrick",
           "package": "graphviz",
@@ -2205,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "FloralWhite",
           "package": "graphviz",
@@ -2214,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "FloralWhite",
           "package": "graphviz",
@@ -2227,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "ForestGreen",
           "package": "graphviz",
@@ -2236,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "ForestGreen",
           "package": "graphviz",
@@ -2249,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Fuchsia",
           "package": "graphviz",
@@ -2258,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Fuchsia",
           "package": "graphviz",
@@ -2271,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Gainsboro",
           "package": "graphviz",
@@ -2280,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Gainsboro",
           "package": "graphviz",
@@ -2293,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "GhostWhite",
           "package": "graphviz",
@@ -2302,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "GhostWhite",
           "package": "graphviz",
@@ -2315,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Gold",
           "package": "graphviz",
@@ -2324,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Gold",
           "package": "graphviz",
@@ -2337,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Goldenrod",
           "package": "graphviz",
@@ -2346,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Goldenrod",
           "package": "graphviz",
@@ -2359,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Gray",
           "package": "graphviz",
@@ -2368,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Gray",
           "package": "graphviz",
@@ -2381,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Green",
           "package": "graphviz",
@@ -2390,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Green",
           "package": "graphviz",
@@ -2403,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "GreenYellow",
           "package": "graphviz",
@@ -2412,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "GreenYellow",
           "package": "graphviz",
@@ -2425,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Honeydew",
           "package": "graphviz",
@@ -2434,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Honeydew",
           "package": "graphviz",
@@ -2447,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "HotPink",
           "package": "graphviz",
@@ -2456,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "HotPink",
           "package": "graphviz",
@@ -2469,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "IndianRed",
           "package": "graphviz",
@@ -2478,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "IndianRed",
           "package": "graphviz",
@@ -2491,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Indigo",
           "package": "graphviz",
@@ -2500,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Indigo",
           "package": "graphviz",
@@ -2513,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Ivory",
           "package": "graphviz",
@@ -2522,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Ivory",
           "package": "graphviz",
@@ -2535,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Khaki",
           "package": "graphviz",
@@ -2544,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Khaki",
           "package": "graphviz",
@@ -2557,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Lavender",
           "package": "graphviz",
@@ -2566,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Lavender",
           "package": "graphviz",
@@ -2579,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LavenderBlush",
           "package": "graphviz",
@@ -2588,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LavenderBlush",
           "package": "graphviz",
@@ -2601,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LawnGreen",
           "package": "graphviz",
@@ -2610,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LawnGreen",
           "package": "graphviz",
@@ -2623,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LemonChiffon",
           "package": "graphviz",
@@ -2632,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LemonChiffon",
           "package": "graphviz",
@@ -2645,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightBlue",
           "package": "graphviz",
@@ -2654,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightBlue",
           "package": "graphviz",
@@ -2667,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightCoral",
           "package": "graphviz",
@@ -2676,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightCoral",
           "package": "graphviz",
@@ -2689,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightCyan",
           "package": "graphviz",
@@ -2698,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightCyan",
           "package": "graphviz",
@@ -2711,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightGoldenrodYellow",
           "package": "graphviz",
@@ -2720,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightGoldenrodYellow",
           "package": "graphviz",
@@ -2733,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightGray",
           "package": "graphviz",
@@ -2742,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightGray",
           "package": "graphviz",
@@ -2755,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightGreen",
           "package": "graphviz",
@@ -2764,6 +3009,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightGreen",
           "package": "graphviz",
@@ -2777,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightPink",
           "package": "graphviz",
@@ -2786,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightPink",
           "package": "graphviz",
@@ -2799,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSalmon",
           "package": "graphviz",
@@ -2808,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSalmon",
           "package": "graphviz",
@@ -2821,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSeaGreen",
           "package": "graphviz",
@@ -2830,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSeaGreen",
           "package": "graphviz",
@@ -2843,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSkyBlue",
           "package": "graphviz",
@@ -2852,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSkyBlue",
           "package": "graphviz",
@@ -2865,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSlateGray",
           "package": "graphviz",
@@ -2874,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSlateGray",
           "package": "graphviz",
@@ -2887,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSteelBlue",
           "package": "graphviz",
@@ -2896,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightSteelBlue",
           "package": "graphviz",
@@ -2909,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightYellow",
           "package": "graphviz",
@@ -2918,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LightYellow",
           "package": "graphviz",
@@ -2931,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Lime",
           "package": "graphviz",
@@ -2940,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Lime",
           "package": "graphviz",
@@ -2953,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LimeGreen",
           "package": "graphviz",
@@ -2962,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "LimeGreen",
           "package": "graphviz",
@@ -2975,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Linen",
           "package": "graphviz",
@@ -2984,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Linen",
           "package": "graphviz",
@@ -2997,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Magenta",
           "package": "graphviz",
@@ -3006,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Magenta",
           "package": "graphviz",
@@ -3019,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Maroon",
           "package": "graphviz",
@@ -3028,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Maroon",
           "package": "graphviz",
@@ -3041,6 +3311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumAquamarine",
           "package": "graphviz",
@@ -3050,6 +3321,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumAquamarine",
           "package": "graphviz",
@@ -3063,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumBlue",
           "package": "graphviz",
@@ -3072,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumBlue",
           "package": "graphviz",
@@ -3085,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumOrchid",
           "package": "graphviz",
@@ -3094,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumOrchid",
           "package": "graphviz",
@@ -3107,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumPurple",
           "package": "graphviz",
@@ -3116,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumPurple",
           "package": "graphviz",
@@ -3129,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumSeaGreen",
           "package": "graphviz",
@@ -3138,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumSeaGreen",
           "package": "graphviz",
@@ -3151,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumSlateBlue",
           "package": "graphviz",
@@ -3160,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumSlateBlue",
           "package": "graphviz",
@@ -3173,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumSpringGreen",
           "package": "graphviz",
@@ -3182,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumSpringGreen",
           "package": "graphviz",
@@ -3195,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumTurquoise",
           "package": "graphviz",
@@ -3204,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumTurquoise",
           "package": "graphviz",
@@ -3217,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumVioletRed",
           "package": "graphviz",
@@ -3226,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MediumVioletRed",
           "package": "graphviz",
@@ -3239,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MidnightBlue",
           "package": "graphviz",
@@ -3248,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MidnightBlue",
           "package": "graphviz",
@@ -3261,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MintCream",
           "package": "graphviz",
@@ -3270,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MintCream",
           "package": "graphviz",
@@ -3283,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MistyRose",
           "package": "graphviz",
@@ -3292,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "MistyRose",
           "package": "graphviz",
@@ -3305,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Moccasin",
           "package": "graphviz",
@@ -3314,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Moccasin",
           "package": "graphviz",
@@ -3327,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "NavajoWhite",
           "package": "graphviz",
@@ -3336,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "NavajoWhite",
           "package": "graphviz",
@@ -3349,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Navy",
           "package": "graphviz",
@@ -3358,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Navy",
           "package": "graphviz",
@@ -3371,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "OldLace",
           "package": "graphviz",
@@ -3380,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "OldLace",
           "package": "graphviz",
@@ -3393,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Olive",
           "package": "graphviz",
@@ -3402,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Olive",
           "package": "graphviz",
@@ -3415,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "OliveDrab",
           "package": "graphviz",
@@ -3424,6 +3729,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "OliveDrab",
           "package": "graphviz",
@@ -3437,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Orange",
           "package": "graphviz",
@@ -3446,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Orange",
           "package": "graphviz",
@@ -3459,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "OrangeRed",
           "package": "graphviz",
@@ -3468,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "OrangeRed",
           "package": "graphviz",
@@ -3481,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Orchid",
           "package": "graphviz",
@@ -3490,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Orchid",
           "package": "graphviz",
@@ -3503,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PaleGoldenrod",
           "package": "graphviz",
@@ -3512,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PaleGoldenrod",
           "package": "graphviz",
@@ -3525,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PaleGreen",
           "package": "graphviz",
@@ -3534,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PaleGreen",
           "package": "graphviz",
@@ -3547,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PaleTurquoise",
           "package": "graphviz",
@@ -3556,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PaleTurquoise",
           "package": "graphviz",
@@ -3569,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PaleVioletRed",
           "package": "graphviz",
@@ -3578,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PaleVioletRed",
           "package": "graphviz",
@@ -3591,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PapayaWhip",
           "package": "graphviz",
@@ -3600,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PapayaWhip",
           "package": "graphviz",
@@ -3613,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PeachPuff",
           "package": "graphviz",
@@ -3622,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PeachPuff",
           "package": "graphviz",
@@ -3635,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Peru",
           "package": "graphviz",
@@ -3644,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Peru",
           "package": "graphviz",
@@ -3657,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Pink",
           "package": "graphviz",
@@ -3666,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Pink",
           "package": "graphviz",
@@ -3679,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Plum",
           "package": "graphviz",
@@ -3688,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Plum",
           "package": "graphviz",
@@ -3701,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PowderBlue",
           "package": "graphviz",
@@ -3710,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "PowderBlue",
           "package": "graphviz",
@@ -3723,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Purple",
           "package": "graphviz",
@@ -3732,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Purple",
           "package": "graphviz",
@@ -3745,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Red",
           "package": "graphviz",
@@ -3754,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Red",
           "package": "graphviz",
@@ -3767,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "RosyBrown",
           "package": "graphviz",
@@ -3776,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "RosyBrown",
           "package": "graphviz",
@@ -3789,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "RoyalBlue",
           "package": "graphviz",
@@ -3798,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "RoyalBlue",
           "package": "graphviz",
@@ -3811,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SaddleBrown",
           "package": "graphviz",
@@ -3820,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SaddleBrown",
           "package": "graphviz",
@@ -3833,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Salmon",
           "package": "graphviz",
@@ -3842,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Salmon",
           "package": "graphviz",
@@ -3855,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SandyBrown",
           "package": "graphviz",
@@ -3864,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SandyBrown",
           "package": "graphviz",
@@ -3877,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SeaGreen",
           "package": "graphviz",
@@ -3886,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SeaGreen",
           "package": "graphviz",
@@ -3899,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SeaShell",
           "package": "graphviz",
@@ -3908,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SeaShell",
           "package": "graphviz",
@@ -3921,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Sienna",
           "package": "graphviz",
@@ -3930,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Sienna",
           "package": "graphviz",
@@ -3943,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Silver",
           "package": "graphviz",
@@ -3952,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Silver",
           "package": "graphviz",
@@ -3965,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SkyBlue",
           "package": "graphviz",
@@ -3974,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SkyBlue",
           "package": "graphviz",
@@ -3987,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SlateBlue",
           "package": "graphviz",
@@ -3996,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SlateBlue",
           "package": "graphviz",
@@ -4009,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SlateGray",
           "package": "graphviz",
@@ -4018,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SlateGray",
           "package": "graphviz",
@@ -4031,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Snow",
           "package": "graphviz",
@@ -4040,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Snow",
           "package": "graphviz",
@@ -4053,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SpringGreen",
           "package": "graphviz",
@@ -4062,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SpringGreen",
           "package": "graphviz",
@@ -4075,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SteelBlue",
           "package": "graphviz",
@@ -4084,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "SteelBlue",
           "package": "graphviz",
@@ -4097,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Tan",
           "package": "graphviz",
@@ -4106,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Tan",
           "package": "graphviz",
@@ -4119,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Teal",
           "package": "graphviz",
@@ -4128,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Teal",
           "package": "graphviz",
@@ -4141,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Thistle",
           "package": "graphviz",
@@ -4150,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Thistle",
           "package": "graphviz",
@@ -4163,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Tomato",
           "package": "graphviz",
@@ -4172,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Tomato",
           "package": "graphviz",
@@ -4185,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Turquoise",
           "package": "graphviz",
@@ -4194,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Turquoise",
           "package": "graphviz",
@@ -4207,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Violet",
           "package": "graphviz",
@@ -4216,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Violet",
           "package": "graphviz",
@@ -4229,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Wheat",
           "package": "graphviz",
@@ -4238,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Wheat",
           "package": "graphviz",
@@ -4251,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "White",
           "package": "graphviz",
@@ -4260,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "White",
           "package": "graphviz",
@@ -4273,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "WhiteSmoke",
           "package": "graphviz",
@@ -4282,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "WhiteSmoke",
           "package": "graphviz",
@@ -4295,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Yellow",
           "package": "graphviz",
@@ -4304,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "Yellow",
           "package": "graphviz",
@@ -4317,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "YellowGreen",
           "package": "graphviz",
@@ -4326,6 +4713,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "YellowGreen",
           "package": "graphviz",
@@ -4340,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eSVGColor\u003c/a\u003e\u003c/code\u003e to its equivalent \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "svgColour",
           "package": "graphviz",
@@ -4350,6 +4739,7 @@
         "index": {
           "description": "Convert an SVGColor to its equivalent Colour value",
           "hierarchy": "Data GraphViz Attributes Colors SVG",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.SVG",
           "name": "svgColour",
           "normalized": "SVGColor-\u003eColour Double",
@@ -4366,6 +4756,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraphviz's definition of X11 colors differs from the \"normal\"\n   list installed on many systems at \u003ccode\u003e\u003cem\u003eusr\u003c/em\u003eshare\u003cem\u003eX11\u003c/em\u003ergb.txt\u003c/code\u003e.  For\n   example, \u003ccode\u003eCrimson\u003c/code\u003e is not a usual X11 color.\n\u003c/p\u003e\u003cp\u003eFurthermore, all \u003ccode\u003eGray*\u003c/code\u003e colors are duplicated with \u003ccode\u003eGrey*\u003c/code\u003e names.\n   To simplify this, these duplicates have been removed but \u003cem\u003eall\u003c/em\u003e\n   \u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003es with \"\u003ccode\u003eGray\u003c/code\u003e\" (whether they have the duplicate\n   spelling or not) in their name are also parseable as if they were\n   spelt with \"\u003ccode\u003egrey\u003c/code\u003e\".\n\u003c/p\u003e\u003cp\u003eThe complete list of X11 colors can be found at\n   \u003ca\u003ehttp://www.graphviz.org/doc/info/colors.html#x11\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.X11",
           "name": "X11",
           "package": "graphviz",
@@ -4375,6 +4766,7 @@
         "index": {
           "description": "Graphviz definition of X11 colors differs from the normal list installed on many systems at usr share X11 rgb.txt For example Crimson is not usual X11 color Furthermore all Gray colors are duplicated with Grey names To simplify this these duplicates have been removed but all X11Color with Gray whether they have the duplicate spelling or not in their name are also parseable as if they were spelt with grey The complete list of X11 colors can be found at http www.graphviz.org doc info colors.html x11",
           "hierarchy": "Data GraphViz Attributes Colors X11",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.X11",
           "name": "X11",
           "package": "graphviz",
@@ -4388,6 +4780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe X11 colors that Graphviz uses.  Note that these are slightly\n   different from the \"normal\" X11 colors used (e.g. the inclusion\n   of \u003ccode\u003eCrimson\u003c/code\u003e).  Graphviz's list of colors also duplicated almost\n   all \u003ccode\u003eGray\u003c/code\u003e colors with \u003ccode\u003eGrey\u003c/code\u003e ones; parsing of an \u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e\n   which is specified using \"grey\" will succeed, even for those\n   that don't have the duplicate spelling (e.g. \u003ccode\u003eDarkSlateGray1\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.X11",
           "name": "X11Color",
           "package": "graphviz",
@@ -4397,6 +4790,7 @@
         "index": {
           "description": "The X11 colors that Graphviz uses Note that these are slightly different from the normal X11 colors used e.g the inclusion of Crimson Graphviz list of colors also duplicated almost all Gray colors with Grey ones parsing of an X11Color which is specified using grey will succeed even for those that don have the duplicate spelling e.g DarkSlateGray1",
           "hierarchy": "Data GraphViz Attributes Colors X11",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.X11",
           "name": "X11Color",
           "package": "graphviz",
@@ -16971,6 +17365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e to its equivalent \u003ccode\u003eColour\u003c/code\u003e value.  Note\n   that it uses \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e because of \u003ccode\u003e\u003ca\u003eTransparent\u003c/a\u003e\u003c/code\u003e; all other\n   \u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e values are completely opaque.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors.X11",
           "name": "x11Colour",
           "package": "graphviz",
@@ -16981,6 +17376,7 @@
         "index": {
           "description": "Convert an X11Color to its equivalent Colour value Note that it uses AlphaColour because of Transparent all other X11Color values are completely opaque",
           "hierarchy": "Data GraphViz Attributes Colors X11",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors.X11",
           "name": "x11Colour",
           "normalized": "X Color-\u003eAlphaColour Double",
@@ -16997,6 +17393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the various colors, etc. for Graphviz.  For\n   information on colors in general, see:\n     \u003ca\u003ehttp://graphviz.org/doc/info/attrs.html#k:color\u003c/a\u003e\n   For named colors, see:\n     \u003ca\u003ehttp://graphviz.org/doc/info/colors.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eNote that the ColorBrewer Color Schemes (shortened to just\n   \"Brewer\" for the rest of this module) are covered by the\n   following license (also available in the LICENSE file of this\n   library):\n     \u003ca\u003ehttp://graphviz.org/doc/info/colors.html#brewer_license\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "Colors",
           "package": "graphviz",
@@ -17006,6 +17403,7 @@
         "index": {
           "description": "This module defines the various colors etc for Graphviz For information on colors in general see http graphviz.org doc info attrs.html color For named colors see http graphviz.org doc info colors.html Note that the ColorBrewer Color Schemes shortened to just Brewer for the rest of this module are covered by the following license also available in the LICENSE file of this library http graphviz.org doc info colors.html brewer license",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "Colors",
           "package": "graphviz",
@@ -17020,6 +17418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefining a color for use with Graphviz.  Note that named colors\n   have been split up into \u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003es and those based upon the\n   Brewer color schemes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "Color",
           "package": "graphviz",
@@ -17029,6 +17428,7 @@
         "index": {
           "description": "Defining color for use with Graphviz Note that named colors have been split up into X11Color and those based upon the Brewer color schemes",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "Color",
           "package": "graphviz",
@@ -17043,6 +17443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of the optional weightings \u003cem\u003emust\u003c/em\u003e sum to at most \u003ccode\u003e1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "ColorList",
           "package": "graphviz",
@@ -17052,6 +17453,7 @@
         "index": {
           "description": "The sum of the optional weightings must sum to at most",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "ColorList",
           "package": "graphviz",
@@ -17066,6 +17468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis represents the color schemes that Graphviz accepts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "ColorScheme",
           "package": "graphviz",
@@ -17075,6 +17478,7 @@
         "index": {
           "description": "This represents the color schemes that Graphviz accepts",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "ColorScheme",
           "package": "graphviz",
@@ -17089,6 +17493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore easily convert named colors to an overall \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "NamedColor",
           "package": "graphviz",
@@ -17098,6 +17503,7 @@
         "index": {
           "description": "More easily convert named colors to an overall Color value",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "NamedColor",
           "package": "graphviz",
@@ -17112,6 +17518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e tagged with an optional weighting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "WeightedColor",
           "package": "graphviz",
@@ -17121,6 +17528,7 @@
         "index": {
           "description": "Color tagged with an optional weighting",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "WeightedColor",
           "package": "graphviz",
@@ -17134,6 +17542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "Brewer",
           "package": "graphviz",
@@ -17143,6 +17552,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "Brewer",
           "package": "graphviz",
@@ -17156,6 +17566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "BrewerColor",
           "package": "graphviz",
@@ -17165,6 +17576,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "BrewerColor",
           "package": "graphviz",
@@ -17179,6 +17591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ehue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esaturation\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003evalue\u003c/a\u003e\u003c/code\u003e values must all\n   be \u003ccode\u003e0 \u003c= x \u003c=1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "HSV",
           "package": "graphviz",
@@ -17189,6 +17602,7 @@
         "index": {
           "description": "The hue saturation and value values must all be",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "HSV",
           "package": "graphviz",
@@ -17202,6 +17616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "RGB",
           "package": "graphviz",
@@ -17211,6 +17626,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "RGB",
           "package": "graphviz",
@@ -17224,6 +17640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "RGBA",
           "package": "graphviz",
@@ -17233,6 +17650,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "RGBA",
           "package": "graphviz",
@@ -17246,6 +17664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "SVG",
           "package": "graphviz",
@@ -17255,6 +17674,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "SVG",
           "package": "graphviz",
@@ -17268,6 +17688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "SVGColor",
           "package": "graphviz",
@@ -17277,6 +17698,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "SVGColor",
           "package": "graphviz",
@@ -17290,6 +17712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "WC",
           "package": "graphviz",
@@ -17299,6 +17722,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "WC",
           "package": "graphviz",
@@ -17312,6 +17736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "X11",
           "package": "graphviz",
@@ -17321,6 +17746,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "X11",
           "package": "graphviz",
@@ -17333,6 +17759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "X11Color",
           "package": "graphviz",
@@ -17342,6 +17769,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "X11Color",
           "package": "graphviz",
@@ -17355,6 +17783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "alpha",
           "package": "graphviz",
@@ -17364,6 +17793,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "alpha",
           "package": "graphviz",
@@ -17376,6 +17806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "blue",
           "package": "graphviz",
@@ -17385,6 +17816,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "blue",
           "package": "graphviz",
@@ -17398,6 +17830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eRGBA\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e.  The exception to\n   this is for any \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e which has \u003ccode\u003ealphaChannel ac == 0\u003c/code\u003e;\n   these are converted to \u003ccode\u003eX11Color \u003ccode\u003e\u003ca\u003eTransparent\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (note that the\n   \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance for such an \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\"transparent\"\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "fromAColour",
           "package": "graphviz",
@@ -17408,6 +17841,7 @@
         "index": {
           "description": "Convert an AlphaColour to an RGBA Color The exception to this is for any AlphaColour which has alphaChannel ac these are converted to X11Color Transparent note that the Show instance for such an AlphaColour is transparent",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "fromAColour",
           "normalized": "AlphaColour Double-\u003eColor",
@@ -17424,6 +17858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e value to an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "fromColour",
           "package": "graphviz",
@@ -17434,6 +17869,7 @@
         "index": {
           "description": "Convert Colour value to an RGB Color",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "fromColour",
           "normalized": "Colour Double-\u003eColor",
@@ -17449,6 +17885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "green",
           "package": "graphviz",
@@ -17458,6 +17895,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "green",
           "package": "graphviz",
@@ -17470,6 +17908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "hue",
           "package": "graphviz",
@@ -17479,6 +17918,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "hue",
           "package": "graphviz",
@@ -17491,6 +17931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "red",
           "package": "graphviz",
@@ -17500,6 +17941,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "red",
           "package": "graphviz",
@@ -17512,6 +17954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "saturation",
           "package": "graphviz",
@@ -17521,6 +17964,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "saturation",
           "package": "graphviz",
@@ -17533,6 +17977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toColor",
           "package": "graphviz",
@@ -17542,6 +17987,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toColor",
           "normalized": "a-\u003eColor",
@@ -17558,6 +18004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a list of colors without weightings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toColorList",
           "package": "graphviz",
@@ -17568,6 +18015,7 @@
         "index": {
           "description": "For list of colors without weightings",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toColorList",
           "normalized": "[Color]-\u003eColorList",
@@ -17584,6 +18032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to convert a \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e value with an alpha\n   channel.  The use of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e is because the RGB values of the\n   \u003ccode\u003e\u003ca\u003eBrewerColor\u003c/a\u003e\u003c/code\u003es haven't been stored here (primarily for licensing\n   reasons).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toColour",
           "package": "graphviz",
@@ -17594,6 +18043,7 @@
         "index": {
           "description": "Attempt to convert Color into Colour value with an alpha channel The use of Maybe is because the RGB values of the BrewerColor haven been stored here primarily for licensing reasons",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toColour",
           "normalized": "Color-\u003eMaybe(AlphaColour Double)",
@@ -17610,6 +18060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor colors without weightings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toWC",
           "package": "graphviz",
@@ -17620,6 +18071,7 @@
         "index": {
           "description": "For colors without weightings",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toWC",
           "normalized": "Color-\u003eWeightedColor",
@@ -17635,6 +18087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toWColor",
           "package": "graphviz",
@@ -17644,6 +18097,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "toWColor",
           "normalized": "a-\u003eWeightedColor",
@@ -17659,6 +18113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "value",
           "package": "graphviz",
@@ -17668,6 +18123,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "value",
           "package": "graphviz",
@@ -17680,6 +18136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "wColor",
           "package": "graphviz",
@@ -17689,6 +18146,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "wColor",
           "package": "graphviz",
@@ -17703,6 +18161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust be in range \u003ccode\u003e0 \u003c= W \u003c= 1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "weighting",
           "package": "graphviz",
@@ -17713,6 +18172,7 @@
         "index": {
           "description": "Must be in range",
           "hierarchy": "Data GraphViz Attributes Colors",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Colors",
           "name": "weighting",
           "package": "graphviz",
@@ -17726,6 +18186,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIf you are just using graphviz to create basic Dot graphs, then you\n   probably want to use \u003ca\u003eData.GraphViz.Attributes\u003c/a\u003e rather than this\n   module.\n\u003c/p\u003e\u003cp\u003eThis module defines the various attributes that different parts of\n   a Graphviz graph can have.  These attributes are based on the\n   documentation found at:\n     \u003ca\u003ehttp://graphviz.org/doc/info/attrs.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFor more information on usage, etc. please see that document.\n\u003c/p\u003e\u003cp\u003eA summary of known current constraints/limitations/differences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Note that for an edge, in \u003cem\u003eDot\u003c/em\u003e parlance if the edge goes from\n     \u003cem\u003eA\u003c/em\u003e to \u003cem\u003eB\u003c/em\u003e, then \u003cem\u003eA\u003c/em\u003e is the tail node and \u003cem\u003eB\u003c/em\u003e is the head node\n     (since \u003cem\u003eA\u003c/em\u003e is at the tail end of the arrow).\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eColorList\u003c/code\u003e, \u003ccode\u003eDoubleList\u003c/code\u003e and \u003ccode\u003ePointfList\u003c/code\u003e are defined as actual\n     lists (\u003ccode\u003e\u003ccode\u003e\u003ca\u003eLayerList\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e needs a newtype for other reasons).  All of these\n     are assumed to be non-empty lists.\n\u003c/li\u003e\u003cli\u003e For the various \u003ccode\u003e*Color\u003c/code\u003e attributes that take in a list of\n     \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e values, usually only one color is used.  The \u003ccode\u003eColor\u003c/code\u003e\n     attribute for edges allows multiple values; for other attributes,\n     two values are supported for gradient fills in Graphviz \u003e=\n     2.29.0.\n\u003c/li\u003e\u003cli\u003e Style is implemented as a list of \u003ccode\u003e\u003ca\u003eStyleItem\u003c/a\u003e\u003c/code\u003e values; note that\n     empty lists are not allowed.\n\u003c/li\u003e\u003cli\u003e A lot of values have a possible value of \u003ccode\u003enone\u003c/code\u003e.  These now\n     have custom constructors.  In fact, most constructors have been\n     expanded upon to give an idea of what they represent rather than\n     using generic terms.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ePointF\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e have been combined.  The optional \u003ccode\u003e!\u003c/code\u003e and\n     third value for Point are also available.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eRect\u003c/a\u003e\u003c/code\u003e uses two \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e values to denote the lower-left and\n     top-right corners.\n\u003c/li\u003e\u003cli\u003e The two \u003ccode\u003e\u003ca\u003eLabelLoc\u003c/a\u003e\u003c/code\u003e attributes have been combined.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eSplineType\u003c/code\u003e has been replaced with \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eSpline\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Only polygon-based \u003ccode\u003e\u003ca\u003eShape\u003c/a\u003e\u003c/code\u003es are available.\n\u003c/li\u003e\u003cli\u003e Not every \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e is fully documented/described.  However,\n     all those which have specific allowed values should be covered.\n\u003c/li\u003e\u003cli\u003e Deprecated \u003ccode\u003e\u003ca\u003eOverlap\u003c/a\u003e\u003c/code\u003e algorithms are not defined.  Furthermore,\n     the ability to specify an integer prefix for use with the fdp layout\n     is \u003cem\u003enot\u003c/em\u003e supported.\n\u003c/li\u003e\u003cli\u003e The global \u003ccode\u003eOrientation\u003c/code\u003e attribute is not defined, as it is\n     difficult to distinguish from the node-based \u003ccode\u003e\u003ca\u003eOrientation\u003c/a\u003e\u003c/code\u003e\n     \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e; also, its behaviour is duplicated by \u003ccode\u003e\u003ca\u003eRotate\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e The \u003ccode\u003echarset\u003c/code\u003e attribute is not available, as graphviz only\n     supports UTF-8 encoding (as it is not currently feasible nor needed to\n     also support Latin1 encoding).\n\u003c/li\u003e\u003cli\u003e In Graphviz, when a node or edge has a list of attributes, the\n     colorscheme which is used to identify a color can be set \u003cem\u003eafter\u003c/em\u003e\n     that color (e.g. \u003ccode\u003e[colorscheme=x11,color=grey,colorscheme=svg]\u003c/code\u003e\n     uses the svg colorscheme's definition of grey, which is different\n     from the x11 one.  Instead, graphviz parses them in order.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Complete",
           "package": "graphviz",
@@ -17735,6 +18196,7 @@
         "index": {
           "description": "If you are just using graphviz to create basic Dot graphs then you probably want to use Data.GraphViz.Attributes rather than this module This module defines the various attributes that different parts of Graphviz graph can have These attributes are based on the documentation found at http graphviz.org doc info attrs.html For more information on usage etc please see that document summary of known current constraints limitations differences Note that for an edge in Dot parlance if the edge goes from to then is the tail node and is the head node since is at the tail end of the arrow ColorList DoubleList and PointfList are defined as actual lists LayerList needs newtype for other reasons All of these are assumed to be non-empty lists For the various Color attributes that take in list of Color values usually only one color is used The Color attribute for edges allows multiple values for other attributes two values are supported for gradient fills in Graphviz Style is implemented as list of StyleItem values note that empty lists are not allowed lot of values have possible value of none These now have custom constructors In fact most constructors have been expanded upon to give an idea of what they represent rather than using generic terms PointF and Point have been combined The optional and third value for Point are also available Rect uses two Point values to denote the lower-left and top-right corners The two LabelLoc attributes have been combined SplineType has been replaced with Spline Only polygon-based Shape are available Not every Attribute is fully documented described However all those which have specific allowed values should be covered Deprecated Overlap algorithms are not defined Furthermore the ability to specify an integer prefix for use with the fdp layout is not supported The global Orientation attribute is not defined as it is difficult to distinguish from the node-based Orientation Attribute also its behaviour is duplicated by Rotate The charset attribute is not available as graphviz only supports UTF-8 encoding as it is not currently feasible nor needed to also support Latin1 encoding In Graphviz when node or edge has list of attributes the colorscheme which is used to identify color can be set after that color e.g colorscheme x11 color grey colorscheme svg uses the svg colorscheme definition of grey which is different from the x11 one Instead graphviz parses them in order",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Complete",
           "package": "graphviz",
@@ -17748,6 +18210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowFill",
           "package": "graphviz",
@@ -17756,6 +18219,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowFill",
           "package": "graphviz",
@@ -17770,6 +18234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat modifications to apply to an \u003ccode\u003e\u003ca\u003eArrowShape\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowModifier",
           "package": "graphviz",
@@ -17779,6 +18244,7 @@
         "index": {
           "description": "What modifications to apply to an ArrowShape",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowModifier",
           "package": "graphviz",
@@ -17792,6 +18258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowShape",
           "package": "graphviz",
@@ -17800,6 +18267,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowShape",
           "package": "graphviz",
@@ -17814,6 +18282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents which side (when looking towards the node the arrow is\n   pointing to) is drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowSide",
           "package": "graphviz",
@@ -17823,6 +18292,7 @@
         "index": {
           "description": "Represents which side when looking towards the node the arrow is pointing to is drawn",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowSide",
           "package": "graphviz",
@@ -17837,6 +18307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDot\u003c/em\u003e has a basic grammar of arrow shapes which allows usage of\n   up to 1,544,761 different shapes from 9 different basic\n   \u003ccode\u003e\u003ca\u003eArrowShape\u003c/a\u003e\u003c/code\u003es.  Note that whilst an explicit list is used in the\n   definition of \u003ccode\u003e\u003ca\u003eArrowType\u003c/a\u003e\u003c/code\u003e, there must be at least one tuple and a\n   maximum of 4 (since that is what is required by Dot).  For more\n   information, see: \u003ca\u003ehttp://graphviz.org/doc/info/arrows.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThe 19 basic arrows shown on the overall attributes page have\n   been defined below as a convenience.  Parsing of the 5\n   backward-compatible special cases is also supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowType",
           "package": "graphviz",
@@ -17846,6 +18317,7 @@
         "index": {
           "description": "Dot has basic grammar of arrow shapes which allows usage of up to different shapes from different basic ArrowShape Note that whilst an explicit list is used in the definition of ArrowType there must be at least one tuple and maximum of since that is what is required by Dot For more information see http graphviz.org doc info arrows.html The basic arrows shown on the overall attributes page have been defined below as convenience Parsing of the backward-compatible special cases is also supported",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowType",
           "package": "graphviz",
@@ -17859,6 +18331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AspectType",
           "package": "graphviz",
@@ -17867,6 +18340,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AspectType",
           "package": "graphviz",
@@ -17881,6 +18355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes are used to customise the layout and design of Dot\n   graphs.  Care must be taken to ensure that the attribute you use\n   is valid, as not all attributes can be used everywhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Attribute",
           "package": "graphviz",
@@ -17890,6 +18365,7 @@
         "index": {
           "description": "Attributes are used to customise the layout and design of Dot graphs Care must be taken to ensure that the attribute you use is valid as not all attributes can be used everywhere",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Attribute",
           "package": "graphviz",
@@ -17904,6 +18380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name for an UnknownAttribute; must satisfy  \u003ccode\u003e\u003ca\u003evalidUnknown\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AttributeName",
           "package": "graphviz",
@@ -17913,6 +18390,7 @@
         "index": {
           "description": "The name for an UnknownAttribute must satisfy validUnknown",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AttributeName",
           "package": "graphviz",
@@ -17926,6 +18404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Attributes",
           "package": "graphviz",
@@ -17934,6 +18413,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Attributes",
           "package": "graphviz",
@@ -17948,6 +18428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eLocal\u003c/a\u003e\u003c/code\u003e, then sub-graphs that are clusters are given special\n   treatment.  \u003ccode\u003e\u003ca\u003eGlobal\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNoCluster\u003c/a\u003e\u003c/code\u003e currently appear to be\n   identical and turn off the special cluster processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ClusterMode",
           "package": "graphviz",
@@ -17957,6 +18438,7 @@
         "index": {
           "description": "If Local then sub-graphs that are clusters are given special treatment Global and NoCluster currently appear to be identical and turn off the special cluster processing",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ClusterMode",
           "package": "graphviz",
@@ -17970,6 +18452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompassPoint",
           "package": "graphviz",
@@ -17978,6 +18461,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompassPoint",
           "package": "graphviz",
@@ -17992,6 +18476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf performing any custom pre-/post-processing on Dot code, you\n     may wish to utilise some custom \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e.  These are wrappers\n     around the \u003ccode\u003e\u003ca\u003eUnknownAttribute\u003c/a\u003e\u003c/code\u003e constructor (and thus \u003ccode\u003e\u003ca\u003eCustomAttribute\u003c/a\u003e\u003c/code\u003e\n     is just an alias for \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eYou should ensure that \u003ccode\u003e\u003ca\u003evalidUnknown\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e for any potential\n     custom attribute name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CustomAttribute",
           "package": "graphviz",
@@ -18001,6 +18486,7 @@
         "index": {
           "description": "If performing any custom pre post-processing on Dot code you may wish to utilise some custom Attributes These are wrappers around the UnknownAttribute constructor and thus CustomAttribute is just an alias for Attribute You should ensure that validUnknown is True for any potential custom attribute name",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CustomAttribute",
           "package": "graphviz",
@@ -18015,6 +18501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly when \u003ccode\u003emode == \u003ccode\u003e\u003ca\u003eIpSep\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DEConstraints",
           "package": "graphviz",
@@ -18024,6 +18511,7 @@
         "index": {
           "description": "Only when mode IpSep",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DEConstraints",
           "package": "graphviz",
@@ -18038,6 +18526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e or a (2D) \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e (i.e. created with\n   \u003ccode\u003e\u003ca\u003ecreatePoint\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eWhilst it is possible to create a \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e value with either a\n   third co-ordinate or a forced position, these are ignored for\n   printing/parsing.\n\u003c/p\u003e\u003cp\u003eAn optional prefix of \u003ccode\u003e'+'\u003c/code\u003e is allowed when parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DPoint",
           "package": "graphviz",
@@ -18047,6 +18536,7 @@
         "index": {
           "description": "Either Double or Point i.e created with createPoint Whilst it is possible to create Point value with either third co-ordinate or forced position these are ignored for printing parsing An optional prefix of is allowed when parsing",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DPoint",
           "package": "graphviz",
@@ -18061,6 +18551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify where to place arrow heads on an edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DirType",
           "package": "graphviz",
@@ -18070,6 +18561,7 @@
         "index": {
           "description": "Specify where to place arrow heads on an edge",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DirType",
           "package": "graphviz",
@@ -18084,6 +18576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls how (and if) edges are represented.\n\u003c/p\u003e\u003cp\u003eFor \u003ccode\u003edot\u003c/code\u003e, the default is \u003ccode\u003e\u003ca\u003eSplineEdges\u003c/a\u003e\u003c/code\u003e; for all other layouts\n   the default is \u003ccode\u003e\u003ca\u003eLineEdges\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeType",
           "package": "graphviz",
@@ -18093,6 +18586,7 @@
         "index": {
           "description": "Controls how and if edges are represented For dot the default is SplineEdges for all other layouts the default is LineEdges",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeType",
           "package": "graphviz",
@@ -18107,6 +18601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es (mainly label-like ones) take a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e argument\n   that allows for extra escape codes.  This library doesn't do any\n   extra checks or special parsing for these escape codes, but usage\n   of \u003ccode\u003e\u003ca\u003eEscString\u003c/a\u003e\u003c/code\u003e rather than \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e indicates that the Graphviz\n   tools will recognise these extra escape codes for these\n   \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eThe extra escape codes include (note that these are all Strings):\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003e\\N\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Replace with the name of the node (for Node \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\\G\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Replace with the name of the graph (for Node \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es)\n             or the name of the graph or cluster, whichever is\n             applicable (for Graph, Cluster and Edge \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\\E\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Replace with the name of the edge, formed by the two\n             adjoining nodes and the edge type (for Edge \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\\T\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Replace with the name of the tail node (for Edge\n             \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\\H\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Replace with the name of the head node (for Edge\n             \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\\L\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Replace with the object's label (for all \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es).\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eAlso, if the \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e in question is \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eHeadLabel\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003eTailLabel\u003c/a\u003e\u003c/code\u003e, then \u003ccode\u003e\\n\u003c/code\u003e, \u003ccode\u003e\\l\u003c/code\u003e and \u003ccode\u003e\\r\u003c/code\u003e split the label into lines\n   centered, left-justified and right-justified respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EscString",
           "package": "graphviz",
@@ -18116,6 +18611,7 @@
         "index": {
           "description": "Some Attribute mainly label-like ones take String argument that allows for extra escape codes This library doesn do any extra checks or special parsing for these escape codes but usage of EscString rather than Text indicates that the Graphviz tools will recognise these extra escape codes for these Attribute The extra escape codes include note that these are all Strings Replace with the name of the node for Node Attribute Replace with the name of the graph for Node Attribute or the name of the graph or cluster whichever is applicable for Graph Cluster and Edge Attribute Replace with the name of the edge formed by the two adjoining nodes and the edge type for Edge Attribute Replace with the name of the tail node for Edge Attribute Replace with the name of the head node for Edge Attribute Replace with the object label for all Attribute Also if the Attribute in question is Label HeadLabel or TailLabel then and split the label into lines centered left-justified and right-justified respectively",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EscString",
           "package": "graphviz",
@@ -18130,6 +18626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor use with \u003ccode\u003e\u003ca\u003eViewPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FocusType",
           "package": "graphviz",
@@ -18139,6 +18636,7 @@
         "index": {
           "description": "For use with ViewPort",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FocusType",
           "package": "graphviz",
@@ -18153,6 +18651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum width and height of drawing in inches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GraphSize",
           "package": "graphviz",
@@ -18162,6 +18661,7 @@
         "index": {
           "description": "Maximum width and height of drawing in inches",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GraphSize",
           "package": "graphviz",
@@ -18176,6 +18676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe available Graphviz commands.  The following directions are\n   based upon those in the Graphviz man page (available online at\n   \u003ca\u003ehttp://graphviz.org/pdf/dot.1.pdf\u003c/a\u003e, or if installed on your\n   system \u003ccode\u003eman graphviz\u003c/code\u003e).  Note that any command can be used on\n   both directed and undirected graphs.\n\u003c/p\u003e\u003cp\u003eWhen used with the \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e attribute, it overrides any actual\n   command called on the dot graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GraphvizCommand",
           "package": "graphviz",
@@ -18185,6 +18686,7 @@
         "index": {
           "description": "The available Graphviz commands The following directions are based upon those in the Graphviz man page available online at http graphviz.org pdf dot.1.pdf or if installed on your system man graphviz Note that any command can be used on both directed and undirected graphs When used with the Layout attribute it overrides any actual command called on the dot graph",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GraphvizCommand",
           "package": "graphviz",
@@ -18198,6 +18700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Justification",
           "package": "graphviz",
@@ -18206,6 +18709,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Justification",
           "package": "graphviz",
@@ -18219,6 +18723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Label",
           "package": "graphviz",
@@ -18227,6 +18732,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Label",
           "package": "graphviz",
@@ -18241,6 +18747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to treat a node whose name is of the form \"\u003ccode\u003e|edgelabel|*\u003c/code\u003e\"\n   as a special node representing an edge label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelScheme",
           "package": "graphviz",
@@ -18250,6 +18757,7 @@
         "index": {
           "description": "How to treat node whose name is of the form edgelabel as special node representing an edge label",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelScheme",
           "package": "graphviz",
@@ -18264,6 +18772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou should not have any layer separator characters for the\n   \u003ccode\u003e\u003ca\u003eLRName\u003c/a\u003e\u003c/code\u003e option, as they won't be parseable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerID",
           "package": "graphviz",
@@ -18273,6 +18782,7 @@
         "index": {
           "description": "You should not have any layer separator characters for the LRName option as they won be parseable",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerID",
           "package": "graphviz",
@@ -18287,6 +18797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of layer names.  The names should all be unique \u003ccode\u003e\u003ca\u003eLRName\u003c/a\u003e\u003c/code\u003e\n   values, and when printed will use an arbitrary character from\n   \u003ccode\u003edefLayerSep\u003c/code\u003e.  The values in the list are implicitly numbered\n   \u003ccode\u003e1, 2, ...\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerList",
           "package": "graphviz",
@@ -18296,6 +18807,7 @@
         "index": {
           "description": "list of layer names The names should all be unique LRName values and when printed will use an arbitrary character from defLayerSep The values in the list are implicitly numbered",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerList",
           "package": "graphviz",
@@ -18309,6 +18821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerListSep",
           "package": "graphviz",
@@ -18317,6 +18830,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerListSep",
           "package": "graphviz",
@@ -18330,6 +18844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerRange",
           "package": "graphviz",
@@ -18338,6 +18853,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerRange",
           "package": "graphviz",
@@ -18351,6 +18867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerRangeElem",
           "package": "graphviz",
@@ -18359,6 +18876,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerRangeElem",
           "package": "graphviz",
@@ -18372,6 +18890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerSep",
           "package": "graphviz",
@@ -18380,6 +18899,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerSep",
           "package": "graphviz",
@@ -18393,6 +18913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ModeType",
           "package": "graphviz",
@@ -18401,6 +18922,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ModeType",
           "package": "graphviz",
@@ -18414,6 +18936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Model",
           "package": "graphviz",
@@ -18422,6 +18945,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Model",
           "package": "graphviz",
@@ -18435,6 +18959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Order",
           "package": "graphviz",
@@ -18443,6 +18968,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Order",
           "package": "graphviz",
@@ -18456,6 +18982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "OutputMode",
           "package": "graphviz",
@@ -18464,6 +18991,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "OutputMode",
           "package": "graphviz",
@@ -18478,6 +19006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to deal with node overlaps.\n\u003c/p\u003e\u003cp\u003eDefaults to \u003ccode\u003e\u003ca\u003eKeepOverlaps\u003c/a\u003e\u003c/code\u003e \u003cem\u003eexcept\u003c/em\u003e for fdp and sfdp.\n\u003c/p\u003e\u003cp\u003eThe ability to specify the number of tries for fdp's initial\n   force-directed technique is \u003cem\u003enot\u003c/em\u003e supported (by default, fdp uses\n   \u003ccode\u003e9\u003c/code\u003e passes of its in-built technique, and then \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePrismOverlap\u003c/a\u003e\u003c/code\u003e\n   Nothing\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eFor sfdp, the default is \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePrismOverlap\u003c/a\u003e\u003c/code\u003e (Just 0)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Overlap",
           "package": "graphviz",
@@ -18487,6 +19016,7 @@
         "index": {
           "description": "How to deal with node overlaps Defaults to KeepOverlaps except for fdp and sfdp The ability to specify the number of tries for fdp initial force-directed technique is not supported by default fdp uses passes of its in-built technique and then PrismOverlap Nothing For sfdp the default is PrismOverlap Just",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Overlap",
           "package": "graphviz",
@@ -18500,6 +19030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pack",
           "package": "graphviz",
@@ -18508,6 +19039,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pack",
           "package": "graphviz",
@@ -18521,6 +19053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackMode",
           "package": "graphviz",
@@ -18529,6 +19062,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackMode",
           "package": "graphviz",
@@ -18543,6 +19077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper-case first character is major order;\n   lower-case second character is minor order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PageDir",
           "package": "graphviz",
@@ -18552,6 +19087,7 @@
         "index": {
           "description": "Upper-case first character is major order lower-case second character is minor order",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PageDir",
           "package": "graphviz",
@@ -18566,6 +19102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of search paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Paths",
           "package": "graphviz",
@@ -18575,6 +19112,7 @@
         "index": {
           "description": "list of search paths",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Paths",
           "package": "graphviz",
@@ -18588,6 +19126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Point",
           "package": "graphviz",
@@ -18596,6 +19135,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Point",
           "package": "graphviz",
@@ -18610,6 +19150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies a name for ports (used also in record-based and\n   HTML-like labels).  Note that it is not valid for a \u003ccode\u003e\u003ca\u003ePortName\u003c/a\u003e\u003c/code\u003e\n   value to contain a colon (\u003ccode\u003e:\u003c/code\u003e) character; it is assumed that it\n   doesn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PortName",
           "package": "graphviz",
@@ -18619,6 +19160,7 @@
         "index": {
           "description": "Specifies name for ports used also in record-based and HTML-like labels Note that it is not valid for PortName value to contain colon character it is assumed that it doesn",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PortName",
           "package": "graphviz",
@@ -18632,6 +19174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PortPos",
           "package": "graphviz",
@@ -18640,6 +19183,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PortPos",
           "package": "graphviz",
@@ -18653,6 +19197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pos",
           "package": "graphviz",
@@ -18661,6 +19206,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pos",
           "package": "graphviz",
@@ -18674,6 +19220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "QuadType",
           "package": "graphviz",
@@ -18682,6 +19229,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "QuadType",
           "package": "graphviz",
@@ -18695,6 +19243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RankDir",
           "package": "graphviz",
@@ -18703,6 +19252,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RankDir",
           "package": "graphviz",
@@ -18716,6 +19266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RankType",
           "package": "graphviz",
@@ -18724,6 +19275,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RankType",
           "package": "graphviz",
@@ -18737,6 +19289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Ratios",
           "package": "graphviz",
@@ -18745,6 +19298,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Ratios",
           "package": "graphviz",
@@ -18759,6 +19313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the sub-values of a record-based label.  By default,\n   the cells are laid out horizontally; use \u003ccode\u003e\u003ca\u003eFlipFields\u003c/a\u003e\u003c/code\u003e to change\n   the orientation of the fields (can be applied recursively).  To\n   change the default orientation, use \u003ccode\u003e\u003ca\u003eRankDir\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RecordField",
           "package": "graphviz",
@@ -18768,6 +19323,7 @@
         "index": {
           "description": "Specifies the sub-values of record-based label By default the cells are laid out horizontally use FlipFields to change the orientation of the fields can be applied recursively To change the default orientation use RankDir",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RecordField",
           "package": "graphviz",
@@ -18782,6 +19338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA RecordFields value should never be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RecordFields",
           "package": "graphviz",
@@ -18791,6 +19348,7 @@
         "index": {
           "description": "RecordFields value should never be empty",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RecordFields",
           "package": "graphviz",
@@ -18805,6 +19363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould only have 2D points (i.e. created with \u003ccode\u003e\u003ca\u003ecreatePoint\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rect",
           "package": "graphviz",
@@ -18814,6 +19373,7 @@
         "index": {
           "description": "Should only have points i.e created with createPoint",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rect",
           "package": "graphviz",
@@ -18828,6 +19388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the root node either as a Node attribute or a Graph attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Root",
           "package": "graphviz",
@@ -18837,6 +19398,7 @@
         "index": {
           "description": "Specify the root node either as Node attribute or Graph attribute",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Root",
           "package": "graphviz",
@@ -18850,6 +19412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "STStyle",
           "package": "graphviz",
@@ -18858,6 +19421,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "STStyle",
           "package": "graphviz",
@@ -18872,6 +19436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mapping used for \u003ccode\u003e\u003ca\u003eFontName\u003c/a\u003e\u003c/code\u003e values in SVG output.\n\u003c/p\u003e\u003cp\u003eMore information can be found at \u003ca\u003ehttp://www.graphviz.org/doc/fontfaq.txt\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SVGFontNames",
           "package": "graphviz",
@@ -18881,6 +19446,7 @@
         "index": {
           "description": "The mapping used for FontName values in SVG output More information can be found at http www.graphviz.org doc fontfaq.txt",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SVGFontNames",
           "package": "graphviz",
@@ -18894,6 +19460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ScaleType",
           "package": "graphviz",
@@ -18902,6 +19469,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ScaleType",
           "package": "graphviz",
@@ -18916,6 +19484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeometries of shapes are affected by the attributes \u003ccode\u003e\u003ca\u003eRegular\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003ePeripheries\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOrientation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Shape",
           "package": "graphviz",
@@ -18925,6 +19494,7 @@
         "index": {
           "description": "Geometries of shapes are affected by the attributes Regular Peripheries and Orientation",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Shape",
           "package": "graphviz",
@@ -18938,6 +19508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SmoothType",
           "package": "graphviz",
@@ -18946,6 +19517,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SmoothType",
           "package": "graphviz",
@@ -18960,6 +19532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of points in the list must be equivalent to 1 mod 3;\n   note that this is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Spline",
           "package": "graphviz",
@@ -18969,6 +19542,7 @@
         "index": {
           "description": "The number of points in the list must be equivalent to mod note that this is not checked",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Spline",
           "package": "graphviz",
@@ -18982,6 +19556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StartType",
           "package": "graphviz",
@@ -18990,6 +19565,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StartType",
           "package": "graphviz",
@@ -19004,6 +19580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn individual style item.  Except for \u003ccode\u003e\u003ca\u003eDD\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n   should be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StyleItem",
           "package": "graphviz",
@@ -19013,6 +19590,7 @@
         "index": {
           "description": "An individual style item Except for DD the String should be empty",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StyleItem",
           "package": "graphviz",
@@ -19026,6 +19604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StyleName",
           "package": "graphviz",
@@ -19034,6 +19613,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StyleName",
           "package": "graphviz",
@@ -19047,6 +19627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VerticalPlacement",
           "package": "graphviz",
@@ -19055,6 +19636,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VerticalPlacement",
           "package": "graphviz",
@@ -19068,6 +19650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ViewPort",
           "package": "graphviz",
@@ -19076,6 +19659,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ViewPort",
           "package": "graphviz",
@@ -19089,6 +19673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AType",
           "package": "graphviz",
@@ -19098,6 +19683,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AType",
           "normalized": "AType[(ArrowModifier,ArrowShape)]",
@@ -19113,6 +19699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AllLayers",
           "package": "graphviz",
@@ -19122,6 +19709,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AllLayers",
           "package": "graphviz",
@@ -19136,6 +19724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: NC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e\u003e0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: patchwork only, requires Graphviz \u003e= 2.30.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Area",
           "package": "graphviz",
@@ -19146,6 +19735,7 @@
         "index": {
           "description": "Valid for NC Default Minimum Notes patchwork only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Area",
           "package": "graphviz",
@@ -19159,6 +19749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrMod",
           "package": "graphviz",
@@ -19168,6 +19759,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrMod",
           "package": "graphviz",
@@ -19182,6 +19774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003enormal\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowHead",
           "package": "graphviz",
@@ -19192,6 +19785,7 @@
         "index": {
           "description": "Valid for Default normal",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowHead",
           "package": "graphviz",
@@ -19206,6 +19800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowSize",
           "package": "graphviz",
@@ -19216,6 +19811,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowSize",
           "package": "graphviz",
@@ -19230,6 +19826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003enormal\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowTail",
           "package": "graphviz",
@@ -19240,6 +19837,7 @@
         "index": {
           "description": "Valid for Default normal",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ArrowTail",
           "package": "graphviz",
@@ -19254,6 +19852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Aspect",
           "package": "graphviz",
@@ -19264,6 +19863,7 @@
         "index": {
           "description": "Valid for Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Aspect",
           "package": "graphviz",
@@ -19277,6 +19877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AspectRatio",
           "package": "graphviz",
@@ -19286,6 +19887,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AspectRatio",
           "package": "graphviz",
@@ -19322,6 +19924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AutoRatio",
           "package": "graphviz",
@@ -19331,6 +19934,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AutoRatio",
           "package": "graphviz",
@@ -19344,6 +19948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AvgDist",
           "package": "graphviz",
@@ -19353,6 +19958,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "AvgDist",
           "package": "graphviz",
@@ -19392,6 +19998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e[]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "BgColor",
           "package": "graphviz",
@@ -19402,6 +20009,7 @@
         "index": {
           "description": "Valid for GC Default",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "BgColor",
           "package": "graphviz",
@@ -19415,6 +20023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Bl",
           "package": "graphviz",
@@ -19424,6 +20033,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Bl",
           "package": "graphviz",
@@ -19438,6 +20048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes and Edges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Bold",
           "package": "graphviz",
@@ -19448,6 +20059,7 @@
         "index": {
           "description": "Nodes and Edges",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Bold",
           "package": "graphviz",
@@ -19486,6 +20098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "BothSides",
           "package": "graphviz",
@@ -19495,6 +20108,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "BothSides",
           "package": "graphviz",
@@ -19509,6 +20123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eNotes\u003c/em\u003e: write only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "BoundingBox",
           "package": "graphviz",
@@ -19519,6 +20134,7 @@
         "index": {
           "description": "Valid for Notes write only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "BoundingBox",
           "package": "graphviz",
@@ -19532,6 +20148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Box",
           "package": "graphviz",
@@ -19541,6 +20158,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Box",
           "package": "graphviz",
@@ -19602,6 +20220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Br",
           "package": "graphviz",
@@ -19611,6 +20230,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Br",
           "package": "graphviz",
@@ -19624,6 +20244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "BreadthFirst",
           "package": "graphviz",
@@ -19633,6 +20254,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "BreadthFirst",
           "package": "graphviz",
@@ -19670,6 +20292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Center",
           "package": "graphviz",
@@ -19680,6 +20303,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Center",
           "package": "graphviz",
@@ -19693,6 +20317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CenterPoint",
           "package": "graphviz",
@@ -19702,6 +20327,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CenterPoint",
           "package": "graphviz",
@@ -19763,6 +20389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Circuit",
           "package": "graphviz",
@@ -19772,6 +20399,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Circuit",
           "package": "graphviz",
@@ -19786,6 +20414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake node close to center of neighbor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CloseToCenter",
           "package": "graphviz",
@@ -19796,6 +20425,7 @@
         "index": {
           "description": "Make node close to center of neighbor",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CloseToCenter",
           "package": "graphviz",
@@ -19810,6 +20440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake node close to old center of neighbor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CloseToOldCenter",
           "package": "graphviz",
@@ -19820,6 +20451,7 @@
         "index": {
           "description": "Make node close to old center of neighbor",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CloseToOldCenter",
           "package": "graphviz",
@@ -19834,6 +20466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLocal\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ClusterRank",
           "package": "graphviz",
@@ -19844,6 +20477,7 @@
         "index": {
           "description": "Valid for Default Local Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ClusterRank",
           "package": "graphviz",
@@ -19858,6 +20492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eWC\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBlack\u003c/a\u003e\u003c/code\u003e) Nothing]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Color",
           "package": "graphviz",
@@ -19868,6 +20503,7 @@
         "index": {
           "description": "Valid for ENC Default WC X11Color Black Nothing",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Color",
           "package": "graphviz",
@@ -19882,6 +20518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENCG; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eX11\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ColorScheme",
           "package": "graphviz",
@@ -19892,6 +20529,7 @@
         "index": {
           "description": "Valid for ENCG Default X11",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ColorScheme",
           "package": "graphviz",
@@ -19906,6 +20544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENG; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Comment",
           "package": "graphviz",
@@ -19916,6 +20555,7 @@
         "index": {
           "description": "Valid for ENG Default",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Comment",
           "package": "graphviz",
@@ -19929,6 +20569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompassPoint",
           "package": "graphviz",
@@ -19938,6 +20579,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompassPoint",
           "package": "graphviz",
@@ -19975,6 +20617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Compound",
           "package": "graphviz",
@@ -19985,6 +20628,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Compound",
           "package": "graphviz",
@@ -19999,6 +20643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efdp only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompoundEdge",
           "package": "graphviz",
@@ -20009,6 +20654,7 @@
         "index": {
           "description": "fdp only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompoundEdge",
           "package": "graphviz",
@@ -20023,6 +20669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale layout down as much as\n   possible without introducing\n   overlaps, assuming none to begin\n   with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompressOverlap",
           "package": "graphviz",
@@ -20033,6 +20680,7 @@
         "index": {
           "description": "Scale layout down as much as possible without introducing overlaps assuming none to begin with",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompressOverlap",
           "package": "graphviz",
@@ -20046,6 +20694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompressRatio",
           "package": "graphviz",
@@ -20055,6 +20704,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "CompressRatio",
           "package": "graphviz",
@@ -20069,6 +20719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Concentrate",
           "package": "graphviz",
@@ -20079,6 +20730,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Concentrate",
           "package": "graphviz",
@@ -20093,6 +20745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Constraint",
           "package": "graphviz",
@@ -20103,6 +20756,7 @@
         "index": {
           "description": "Valid for Default True Parsing Default True Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Constraint",
           "package": "graphviz",
@@ -20116,6 +20770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Crow",
           "package": "graphviz",
@@ -20125,6 +20780,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Crow",
           "package": "graphviz",
@@ -20139,6 +20795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires Graphviz \u003e= 2.30.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Curved",
           "package": "graphviz",
@@ -20149,6 +20806,7 @@
         "index": {
           "description": "Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Curved",
           "package": "graphviz",
@@ -20163,6 +20821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice Dependent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DD",
           "package": "graphviz",
@@ -20173,6 +20832,7 @@
         "index": {
           "description": "Device Dependent",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DD",
           "package": "graphviz",
@@ -20187,6 +20847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e96.0\u003c/code\u003e, \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, bitmap output only; \"resolution\" is a synonym\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DPI",
           "package": "graphviz",
@@ -20197,6 +20858,7 @@
         "index": {
           "description": "Valid for Default Notes svg bitmap output only resolution is synonym",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DPI",
           "package": "graphviz",
@@ -20210,6 +20872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DVal",
           "package": "graphviz",
@@ -20219,6 +20882,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DVal",
           "package": "graphviz",
@@ -20233,6 +20897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.99\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Damping",
           "package": "graphviz",
@@ -20243,6 +20908,7 @@
         "index": {
           "description": "Valid for Default Minimum Notes neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Damping",
           "package": "graphviz",
@@ -20257,6 +20923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes and Edges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dashed",
           "package": "graphviz",
@@ -20267,6 +20934,7 @@
         "index": {
           "description": "Nodes and Edges",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dashed",
           "package": "graphviz",
@@ -20281,6 +20949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Decorate",
           "package": "graphviz",
@@ -20291,6 +20960,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Decorate",
           "package": "graphviz",
@@ -20305,6 +20975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1+(avg. len)*sqrt(abs(V))\u003c/code\u003e (unable to statically define); \u003cem\u003eMinimum\u003c/em\u003e: The value of \u003ccode\u003e\u003ca\u003eEpsilon\u003c/a\u003e\u003c/code\u003e.; \u003cem\u003eNotes\u003c/em\u003e: neato only, only if \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePack\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDontPack\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DefaultDist",
           "package": "graphviz",
@@ -20315,6 +20986,7 @@
         "index": {
           "description": "Valid for Default avg len sqrt abs unable to statically define Minimum The value of Epsilon Notes neato only only if Pack DontPack",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DefaultDist",
           "package": "graphviz",
@@ -20329,6 +21001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Diagonals",
           "package": "graphviz",
@@ -20339,6 +21012,7 @@
         "index": {
           "description": "Nodes only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Diagonals",
           "package": "graphviz",
@@ -20352,6 +21026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Diamond",
           "package": "graphviz",
@@ -20361,6 +21036,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Diamond",
           "package": "graphviz",
@@ -20398,6 +21074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e2\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e2\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: maximum of \u003ccode\u003e10\u003c/code\u003e; sfdp, fdp, neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dim",
           "package": "graphviz",
@@ -20408,6 +21085,7 @@
         "index": {
           "description": "Valid for Default Minimum Notes maximum of sfdp fdp neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dim",
           "package": "graphviz",
@@ -20422,6 +21100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e2\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e2\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: maximum of \u003ccode\u003e10\u003c/code\u003e; sfdp, fdp, neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dimen",
           "package": "graphviz",
@@ -20432,6 +21111,7 @@
         "index": {
           "description": "Valid for Default Minimum Notes maximum of sfdp fdp neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dimen",
           "package": "graphviz",
@@ -20446,6 +21126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eForward\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (directed), \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNoDir\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (undirected)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dir",
           "package": "graphviz",
@@ -20456,6 +21137,7 @@
         "index": {
           "description": "Valid for Default Forward directed NoDir undirected",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dir",
           "package": "graphviz",
@@ -20470,6 +21152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNoConstraints\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eEdgeConstraints\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DirEdgeConstraints",
           "package": "graphviz",
@@ -20480,6 +21163,7 @@
         "index": {
           "description": "Valid for Default NoConstraints Parsing Default EdgeConstraints Notes neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DirEdgeConstraints",
           "package": "graphviz",
@@ -20494,6 +21178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e-100.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Distortion",
           "package": "graphviz",
@@ -20504,6 +21189,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Distortion",
           "package": "graphviz",
@@ -20517,6 +21203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DoPack",
           "package": "graphviz",
@@ -20526,6 +21213,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DoPack",
           "package": "graphviz",
@@ -20539,6 +21227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DontPack",
           "package": "graphviz",
@@ -20548,6 +21237,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DontPack",
           "package": "graphviz",
@@ -20586,6 +21276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DotArrow",
           "package": "graphviz",
@@ -20595,6 +21286,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "DotArrow",
           "package": "graphviz",
@@ -20609,6 +21301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes and Edges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dotted",
           "package": "graphviz",
@@ -20619,6 +21312,7 @@
         "index": {
           "description": "Nodes and Edges",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Dotted",
           "package": "graphviz",
@@ -20679,6 +21373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDVal\u003c/a\u003e\u003c/code\u003e 3\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: not dot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ESep",
           "package": "graphviz",
@@ -20689,6 +21384,7 @@
         "index": {
           "description": "Valid for Default DVal Notes not dot",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ESep",
           "package": "graphviz",
@@ -20702,6 +21398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "East",
           "package": "graphviz",
@@ -20711,6 +21408,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "East",
           "package": "graphviz",
@@ -20724,6 +21422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeConstraints",
           "package": "graphviz",
@@ -20733,6 +21432,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeConstraints",
           "package": "graphviz",
@@ -20747,6 +21447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: none; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeTarget",
           "package": "graphviz",
@@ -20757,6 +21458,7 @@
         "index": {
           "description": "Valid for Default none Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeTarget",
           "package": "graphviz",
@@ -20771,6 +21473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, cmap only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeTooltip",
           "package": "graphviz",
@@ -20781,6 +21484,7 @@
         "index": {
           "description": "Valid for Default Notes svg cmap only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeTooltip",
           "package": "graphviz",
@@ -20795,6 +21499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeURL",
           "package": "graphviz",
@@ -20805,6 +21510,7 @@
         "index": {
           "description": "Valid for Default Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgeURL",
           "package": "graphviz",
@@ -20818,6 +21524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgesFirst",
           "package": "graphviz",
@@ -20827,6 +21534,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "EdgesFirst",
           "package": "graphviz",
@@ -20889,6 +21597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e.0001 * # nodes\u003c/code\u003e (\u003ccode\u003emode == \u003ccode\u003e\u003ca\u003eKK\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e), \u003ccode\u003e.0001\u003c/code\u003e (\u003ccode\u003emode == \u003ccode\u003e\u003ca\u003eMajor\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e); \u003cem\u003eNotes\u003c/em\u003e: neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Epsilon",
           "package": "graphviz",
@@ -20899,6 +21608,7 @@
         "index": {
           "description": "Valid for Default nodes mode KK mode Major Notes neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Epsilon",
           "package": "graphviz",
@@ -20912,6 +21622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ExpandRatio",
           "package": "graphviz",
@@ -20921,6 +21632,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ExpandRatio",
           "package": "graphviz",
@@ -20934,6 +21646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FastQT",
           "package": "graphviz",
@@ -20943,6 +21656,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FastQT",
           "package": "graphviz",
@@ -20981,6 +21695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FieldLabel",
           "package": "graphviz",
@@ -20990,6 +21705,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FieldLabel",
           "package": "graphviz",
@@ -21003,6 +21719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillBoth",
           "package": "graphviz",
@@ -21012,6 +21729,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillBoth",
           "package": "graphviz",
@@ -21026,6 +21744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: NEC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eWC\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eLightGray\u003c/code\u003e) Nothing]\u003c/code\u003e (nodes), \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eWC\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBlack\u003c/a\u003e\u003c/code\u003e) Nothing]\u003c/code\u003e (clusters)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillColor",
           "package": "graphviz",
@@ -21036,6 +21755,7 @@
         "index": {
           "description": "Valid for NEC Default WC X11Color LightGray Nothing nodes WC X11Color Black Nothing clusters",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillColor",
           "package": "graphviz",
@@ -21049,6 +21769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillHeight",
           "package": "graphviz",
@@ -21058,6 +21779,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillHeight",
           "package": "graphviz",
@@ -21071,6 +21793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillRatio",
           "package": "graphviz",
@@ -21080,6 +21803,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillRatio",
           "package": "graphviz",
@@ -21093,6 +21817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillWidth",
           "package": "graphviz",
@@ -21102,6 +21827,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FillWidth",
           "package": "graphviz",
@@ -21116,6 +21842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes and Clusters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Filled",
           "package": "graphviz",
@@ -21126,6 +21853,7 @@
         "index": {
           "description": "Nodes and Clusters",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Filled",
           "package": "graphviz",
@@ -21139,6 +21867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FilledArrow",
           "package": "graphviz",
@@ -21148,6 +21877,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FilledArrow",
           "package": "graphviz",
@@ -21185,6 +21915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FixedSize",
           "package": "graphviz",
@@ -21195,6 +21926,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FixedSize",
           "package": "graphviz",
@@ -21208,6 +21940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FlipFields",
           "package": "graphviz",
@@ -21217,6 +21950,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FlipFields",
           "package": "graphviz",
@@ -21254,6 +21988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENGC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBlack\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontColor",
           "package": "graphviz",
@@ -21264,6 +21999,7 @@
         "index": {
           "description": "Valid for ENGC Default X11Color Black",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontColor",
           "package": "graphviz",
@@ -21278,6 +22014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse fontconfig font conventions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontConfigNames",
           "package": "graphviz",
@@ -21288,6 +22025,7 @@
         "index": {
           "description": "Use fontconfig font conventions",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontConfigNames",
           "package": "graphviz",
@@ -21302,6 +22040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENGC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"Times-Roman\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontName",
           "package": "graphviz",
@@ -21312,6 +22051,7 @@
         "index": {
           "description": "Valid for ENGC Default Times-Roman",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontName",
           "package": "graphviz",
@@ -21326,6 +22066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSvgNames\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontNames",
           "package": "graphviz",
@@ -21336,6 +22077,7 @@
         "index": {
           "description": "Valid for Default SvgNames Notes svg only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontNames",
           "package": "graphviz",
@@ -21350,6 +22092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: system dependent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontPath",
           "package": "graphviz",
@@ -21360,6 +22103,7 @@
         "index": {
           "description": "Valid for Default system dependent",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontPath",
           "package": "graphviz",
@@ -21374,6 +22118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENGC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e14.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontSize",
           "package": "graphviz",
@@ -21384,6 +22129,7 @@
         "index": {
           "description": "Valid for ENGC Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FontSize",
           "package": "graphviz",
@@ -21398,6 +22144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: only for \u003ccode\u003e\u003ca\u003eXLabel\u003c/a\u003e\u003c/code\u003e attributes, requires Graphviz \u003e= 2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ForceLabels",
           "package": "graphviz",
@@ -21408,6 +22155,7 @@
         "index": {
           "description": "Valid for Default True Parsing Default True Notes only for XLabel attributes requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ForceLabels",
           "package": "graphviz",
@@ -21446,6 +22194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FromBottom",
           "package": "graphviz",
@@ -21455,6 +22204,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FromBottom",
           "package": "graphviz",
@@ -21468,6 +22218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FromLeft",
           "package": "graphviz",
@@ -21477,6 +22228,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FromLeft",
           "package": "graphviz",
@@ -21490,6 +22242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FromRight",
           "package": "graphviz",
@@ -21499,6 +22252,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FromRight",
           "package": "graphviz",
@@ -21512,6 +22266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FromTop",
           "package": "graphviz",
@@ -21521,6 +22276,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "FromTop",
           "package": "graphviz",
@@ -21534,6 +22290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GSize",
           "package": "graphviz",
@@ -21543,6 +22300,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GSize",
           "package": "graphviz",
@@ -21556,6 +22314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Global",
           "package": "graphviz",
@@ -21565,6 +22324,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Global",
           "package": "graphviz",
@@ -21579,6 +22339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: NCG; \u003cem\u003eDefault\u003c/em\u003e: 0; \u003cem\u003eNotes\u003c/em\u003e: requires Graphviz \u003e= 2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GradientAngle",
           "package": "graphviz",
@@ -21589,6 +22350,7 @@
         "index": {
           "description": "Valid for NCG Default Notes requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GradientAngle",
           "package": "graphviz",
@@ -21602,6 +22364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GraphDist",
           "package": "graphviz",
@@ -21611,6 +22374,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "GraphDist",
           "package": "graphviz",
@@ -21625,6 +22389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Group",
           "package": "graphviz",
@@ -21635,6 +22400,7 @@
         "index": {
           "description": "Valid for Default Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Group",
           "package": "graphviz",
@@ -21649,6 +22415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadClip",
           "package": "graphviz",
@@ -21659,6 +22426,7 @@
         "index": {
           "description": "Valid for Default True Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadClip",
           "package": "graphviz",
@@ -21673,6 +22441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStrLabel\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadLabel",
           "package": "graphviz",
@@ -21683,6 +22452,7 @@
         "index": {
           "description": "Valid for Default StrLabel",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadLabel",
           "package": "graphviz",
@@ -21697,6 +22467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCompassPoint\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCenterPoint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadPort",
           "package": "graphviz",
@@ -21707,6 +22478,7 @@
         "index": {
           "description": "Valid for Default CompassPoint CenterPoint",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadPort",
           "package": "graphviz",
@@ -21721,6 +22493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: none; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadTarget",
           "package": "graphviz",
@@ -21731,6 +22504,7 @@
         "index": {
           "description": "Valid for Default none Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadTarget",
           "package": "graphviz",
@@ -21745,6 +22519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, cmap only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadTooltip",
           "package": "graphviz",
@@ -21755,6 +22530,7 @@
         "index": {
           "description": "Valid for Default Notes svg cmap only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadTooltip",
           "package": "graphviz",
@@ -21769,6 +22545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadURL",
           "package": "graphviz",
@@ -21779,6 +22556,7 @@
         "index": {
           "description": "Valid for Default Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HeadURL",
           "package": "graphviz",
@@ -21793,6 +22571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eNotes\u003c/em\u003e: write only, requires Graphviz \u003e= 2.30.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Head_LP",
           "package": "graphviz",
@@ -21803,6 +22582,7 @@
         "index": {
           "description": "Valid for Notes write only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Head_LP",
           "package": "graphviz",
@@ -21817,6 +22597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.5\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.02\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Height",
           "package": "graphviz",
@@ -21827,6 +22608,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Height",
           "package": "graphviz",
@@ -21863,6 +22645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Hier",
           "package": "graphviz",
@@ -21872,6 +22655,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Hier",
           "package": "graphviz",
@@ -21885,6 +22669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HierConstraints",
           "package": "graphviz",
@@ -21894,6 +22679,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HierConstraints",
           "package": "graphviz",
@@ -21931,6 +22717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003ePlainText\u003c/a\u003e\u003c/code\u003e is used, the\n   \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e value is the entire\n   \"shape\"; if anything else\n   except \u003ccode\u003e\u003ca\u003ePointShape\u003c/a\u003e\u003c/code\u003e is used then\n   the \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e is embedded\n   within the shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HtmlLabel",
           "package": "graphviz",
@@ -21941,6 +22728,7 @@
         "index": {
           "description": "If PlainText is used the Label value is the entire shape if anything else except PointShape is used then the Label is embedded within the shape",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "HtmlLabel",
           "package": "graphviz",
@@ -21955,6 +22743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GNE; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, postscript, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ID",
           "package": "graphviz",
@@ -21965,6 +22754,7 @@
         "index": {
           "description": "Valid for GNE Default Notes svg postscript map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ID",
           "package": "graphviz",
@@ -21979,6 +22769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Image",
           "package": "graphviz",
@@ -21989,6 +22780,7 @@
         "index": {
           "description": "Valid for Default",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Image",
           "package": "graphviz",
@@ -22003,6 +22795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePaths\u003c/a\u003e\u003c/code\u003e []\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: Printing and parsing is OS-specific, requires Graphviz \u003e= 2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ImagePath",
           "package": "graphviz",
@@ -22013,6 +22806,7 @@
         "index": {
           "description": "Valid for Default Paths Notes Printing and parsing is OS-specific requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ImagePath",
           "package": "graphviz",
@@ -22027,6 +22821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNoScale\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eUniformScale\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ImageScale",
           "package": "graphviz",
@@ -22037,6 +22832,7 @@
         "index": {
           "description": "Valid for Default NoScale Parsing Default UniformScale",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ImageScale",
           "package": "graphviz",
@@ -22098,6 +22894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Inv",
           "package": "graphviz",
@@ -22107,6 +22904,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Inv",
           "package": "graphviz",
@@ -22190,6 +22988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes and Edges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Invisible",
           "package": "graphviz",
@@ -22200,6 +22999,7 @@
         "index": {
           "description": "Nodes and Edges",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Invisible",
           "package": "graphviz",
@@ -22213,6 +23013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "IpSep",
           "package": "graphviz",
@@ -22222,6 +23023,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "IpSep",
           "package": "graphviz",
@@ -22236,6 +23038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly when \u003ccode\u003emode == \u003ccode\u003e\u003ca\u003eIpSep\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "IpsepOverlap",
           "package": "graphviz",
@@ -22246,6 +23049,7 @@
         "index": {
           "description": "Only when mode IpSep",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "IpsepOverlap",
           "package": "graphviz",
@@ -22260,6 +23064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor Nodes only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "IsCentral",
           "package": "graphviz",
@@ -22270,6 +23075,7 @@
         "index": {
           "description": "For Nodes only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "IsCentral",
           "package": "graphviz",
@@ -22283,6 +23089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "JCenter",
           "package": "graphviz",
@@ -22292,6 +23099,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "JCenter",
           "package": "graphviz",
@@ -22305,6 +23113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "JLeft",
           "package": "graphviz",
@@ -22314,6 +23123,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "JLeft",
           "package": "graphviz",
@@ -22327,6 +23137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "JRight",
           "package": "graphviz",
@@ -22336,6 +23147,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "JRight",
           "package": "graphviz",
@@ -22350,6 +23162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.3\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: sfdp, fdp only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "K",
           "package": "graphviz",
@@ -22360,6 +23173,7 @@
         "index": {
           "description": "Valid for GC Default Minimum Notes sfdp fdp only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "K",
           "package": "graphviz",
@@ -22372,6 +23186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "KK",
           "package": "graphviz",
@@ -22381,6 +23196,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "KK",
           "package": "graphviz",
@@ -22394,6 +23210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "KeepOverlaps",
           "package": "graphviz",
@@ -22403,6 +23220,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "KeepOverlaps",
           "package": "graphviz",
@@ -22440,6 +23258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LHead",
           "package": "graphviz",
@@ -22450,6 +23269,7 @@
         "index": {
           "description": "Valid for Default Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LHead",
           "package": "graphviz",
@@ -22464,6 +23284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GC; \u003cem\u003eNotes\u003c/em\u003e: write only, requires Graphviz \u003e= 2.28.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LHeight",
           "package": "graphviz",
@@ -22474,6 +23295,7 @@
         "index": {
           "description": "Valid for GC Notes write only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LHeight",
           "package": "graphviz",
@@ -22487,6 +23309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LL",
           "package": "graphviz",
@@ -22496,6 +23319,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LL",
           "normalized": "LL[LayerID]",
@@ -22511,6 +23335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LLSep",
           "package": "graphviz",
@@ -22520,6 +23345,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LLSep",
           "package": "graphviz",
@@ -22534,6 +23360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: EGC; \u003cem\u003eNotes\u003c/em\u003e: write only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LPos",
           "package": "graphviz",
@@ -22544,6 +23371,7 @@
         "index": {
           "description": "Valid for EGC Notes write only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LPos",
           "package": "graphviz",
@@ -22580,6 +23408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LRID",
           "package": "graphviz",
@@ -22589,6 +23418,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LRID",
           "package": "graphviz",
@@ -22602,6 +23432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LRInt",
           "package": "graphviz",
@@ -22611,6 +23442,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LRInt",
           "package": "graphviz",
@@ -22625,6 +23457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould not be a number or \u003ccode\u003e\u003ca\u003eall\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LRName",
           "package": "graphviz",
@@ -22635,6 +23468,7 @@
         "index": {
           "description": "Should not be number or all",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LRName",
           "package": "graphviz",
@@ -22648,6 +23482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LRS",
           "package": "graphviz",
@@ -22657,6 +23492,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LRS",
           "package": "graphviz",
@@ -22670,6 +23506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LSep",
           "package": "graphviz",
@@ -22679,6 +23516,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LSep",
           "package": "graphviz",
@@ -22693,6 +23531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LTail",
           "package": "graphviz",
@@ -22703,6 +23542,7 @@
         "index": {
           "description": "Valid for Default Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LTail",
           "package": "graphviz",
@@ -22717,6 +23557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GC; \u003cem\u003eNotes\u003c/em\u003e: write only, requires Graphviz \u003e= 2.28.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LWidth",
           "package": "graphviz",
@@ -22727,6 +23568,7 @@
         "index": {
           "description": "Valid for GC Notes write only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LWidth",
           "package": "graphviz",
@@ -22741,6 +23583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENGC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStrLabel\u003c/a\u003e\u003c/code\u003e \"\\N\"\u003c/code\u003e (nodes), \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStrLabel\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e (otherwise)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Label",
           "package": "graphviz",
@@ -22751,6 +23594,7 @@
         "index": {
           "description": "Valid for ENGC Default StrLabel nodes StrLabel otherwise",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Label",
           "package": "graphviz",
@@ -22765,6 +23609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e-25.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e-180.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelAngle",
           "package": "graphviz",
@@ -22775,6 +23620,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelAngle",
           "package": "graphviz",
@@ -22789,6 +23635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelDistance",
           "package": "graphviz",
@@ -22799,6 +23646,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelDistance",
           "package": "graphviz",
@@ -22813,6 +23661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelFloat",
           "package": "graphviz",
@@ -22823,6 +23672,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelFloat",
           "package": "graphviz",
@@ -22837,6 +23687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBlack\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelFontColor",
           "package": "graphviz",
@@ -22847,6 +23698,7 @@
         "index": {
           "description": "Valid for Default X11Color Black",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelFontColor",
           "package": "graphviz",
@@ -22861,6 +23713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"Times-Roman\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelFontName",
           "package": "graphviz",
@@ -22871,6 +23724,7 @@
         "index": {
           "description": "Valid for Default Times-Roman",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelFontName",
           "package": "graphviz",
@@ -22885,6 +23739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e14.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelFontSize",
           "package": "graphviz",
@@ -22895,6 +23750,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelFontSize",
           "package": "graphviz",
@@ -22909,6 +23765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJCenter\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelJust",
           "package": "graphviz",
@@ -22919,6 +23776,7 @@
         "index": {
           "description": "Valid for GC Default JCenter",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelJust",
           "package": "graphviz",
@@ -22933,6 +23791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GCN; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eVTop\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (clusters), \u003ccode\u003e\u003ccode\u003e\u003ca\u003eVBottom\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (root graphs), \u003ccode\u003e\u003ccode\u003e\u003ca\u003eVCenter\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (nodes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelLoc",
           "package": "graphviz",
@@ -22943,6 +23802,7 @@
         "index": {
           "description": "Valid for GCN Default VTop clusters VBottom root graphs VCenter nodes",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelLoc",
           "package": "graphviz",
@@ -22957,6 +23817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNotEdgeLabel\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: sfdp only, requires Graphviz \u003e= 2.28.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelScheme",
           "package": "graphviz",
@@ -22967,6 +23828,7 @@
         "index": {
           "description": "Valid for Default NotEdgeLabel Notes sfdp only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelScheme",
           "package": "graphviz",
@@ -22981,6 +23843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: none; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelTarget",
           "package": "graphviz",
@@ -22991,6 +23854,7 @@
         "index": {
           "description": "Valid for Default none Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelTarget",
           "package": "graphviz",
@@ -23005,6 +23869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, cmap only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelTooltip",
           "package": "graphviz",
@@ -23015,6 +23880,7 @@
         "index": {
           "description": "Valid for Default Notes svg cmap only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelTooltip",
           "package": "graphviz",
@@ -23029,6 +23895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelURL",
           "package": "graphviz",
@@ -23039,6 +23906,7 @@
         "index": {
           "description": "Valid for Default Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelURL",
           "package": "graphviz",
@@ -23052,6 +23920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelledPort",
           "package": "graphviz",
@@ -23061,6 +23930,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelledPort",
           "package": "graphviz",
@@ -23074,6 +23944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelledTarget",
           "package": "graphviz",
@@ -23083,6 +23954,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LabelledTarget",
           "package": "graphviz",
@@ -23097,6 +23969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Landscape",
           "package": "graphviz",
@@ -23107,6 +23980,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Landscape",
           "package": "graphviz",
@@ -23121,6 +23995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: EN; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e[]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Layer",
           "package": "graphviz",
@@ -23131,6 +24006,7 @@
         "index": {
           "description": "Valid for EN Default",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Layer",
           "package": "graphviz",
@@ -23145,6 +24021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLLSep\u003c/a\u003e\u003c/code\u003e \",\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: requires Graphviz \u003e= 2.30.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerListSep",
           "package": "graphviz",
@@ -23155,6 +24032,7 @@
         "index": {
           "description": "Valid for Default LLSep Notes requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerListSep",
           "package": "graphviz",
@@ -23169,6 +24047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e[]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerSelect",
           "package": "graphviz",
@@ -23179,6 +24058,7 @@
         "index": {
           "description": "Valid for Default",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerSelect",
           "package": "graphviz",
@@ -23193,6 +24073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLSep\u003c/a\u003e\u003c/code\u003e \" :t\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerSep",
           "package": "graphviz",
@@ -23203,6 +24084,7 @@
         "index": {
           "description": "Valid for Default LSep",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LayerSep",
           "package": "graphviz",
@@ -23217,6 +24099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLL\u003c/a\u003e\u003c/code\u003e []\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Layers",
           "package": "graphviz",
@@ -23227,6 +24110,7 @@
         "index": {
           "description": "Valid for Default LL",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Layers",
           "package": "graphviz",
@@ -23241,6 +24125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Layout",
           "package": "graphviz",
@@ -23251,6 +24136,7 @@
         "index": {
           "description": "Valid for",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Layout",
           "package": "graphviz",
@@ -23264,6 +24150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Lb",
           "package": "graphviz",
@@ -23273,6 +24160,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Lb",
           "package": "graphviz",
@@ -23286,6 +24174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LeftSide",
           "package": "graphviz",
@@ -23295,6 +24184,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LeftSide",
           "package": "graphviz",
@@ -23309,6 +24199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e (neato), \u003ccode\u003e0.3\u003c/code\u003e (fdp); \u003cem\u003eNotes\u003c/em\u003e: fdp, neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Len",
           "package": "graphviz",
@@ -23319,6 +24210,7 @@
         "index": {
           "description": "Valid for Default neato fdp Notes fdp neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Len",
           "package": "graphviz",
@@ -23333,6 +24225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: sfdp only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Levels",
           "package": "graphviz",
@@ -23343,6 +24236,7 @@
         "index": {
           "description": "Valid for Default maxBound Minimum Notes sfdp only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Levels",
           "package": "graphviz",
@@ -23357,6 +24251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LevelsGap",
           "package": "graphviz",
@@ -23367,6 +24262,7 @@
         "index": {
           "description": "Valid for Default Notes neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LevelsGap",
           "package": "graphviz",
@@ -23380,6 +24276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LineEdges",
           "package": "graphviz",
@@ -23389,6 +24286,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "LineEdges",
           "package": "graphviz",
@@ -23402,6 +24300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Local",
           "package": "graphviz",
@@ -23411,6 +24310,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Local",
           "package": "graphviz",
@@ -23424,6 +24324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Lt",
           "package": "graphviz",
@@ -23433,6 +24334,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Lt",
           "package": "graphviz",
@@ -23447,6 +24349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MCLimit",
           "package": "graphviz",
@@ -23457,6 +24360,7 @@
         "index": {
           "description": "Valid for Default Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MCLimit",
           "package": "graphviz",
@@ -23493,6 +24397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MDS",
           "package": "graphviz",
@@ -23502,6 +24407,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MDS",
           "package": "graphviz",
@@ -23586,6 +24492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Major",
           "package": "graphviz",
@@ -23595,6 +24502,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Major",
           "package": "graphviz",
@@ -23609,6 +24517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: NG; \u003cem\u003eDefault\u003c/em\u003e: device dependent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Margin",
           "package": "graphviz",
@@ -23619,6 +24528,7 @@
         "index": {
           "description": "Valid for NG Default device dependent",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Margin",
           "package": "graphviz",
@@ -23633,6 +24543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e100 * # nodes\u003c/code\u003e (\u003ccode\u003emode == \u003ccode\u003e\u003ca\u003eKK\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e), \u003ccode\u003e200\u003c/code\u003e (\u003ccode\u003emode == \u003ccode\u003e\u003ca\u003eMajor\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e), \u003ccode\u003e600\u003c/code\u003e (fdp); \u003cem\u003eNotes\u003c/em\u003e: fdp, neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MaxIter",
           "package": "graphviz",
@@ -23643,6 +24554,7 @@
         "index": {
           "description": "Valid for Default nodes mode KK mode Major fdp Notes fdp neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MaxIter",
           "package": "graphviz",
@@ -23680,6 +24592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: circo only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MinDist",
           "package": "graphviz",
@@ -23690,6 +24603,7 @@
         "index": {
           "description": "Valid for Default Minimum Notes circo only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MinDist",
           "package": "graphviz",
@@ -23704,6 +24618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MinLen",
           "package": "graphviz",
@@ -23714,6 +24629,7 @@
         "index": {
           "description": "Valid for Default Minimum Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "MinLen",
           "package": "graphviz",
@@ -23751,6 +24667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMajor\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Mode",
           "package": "graphviz",
@@ -23761,6 +24678,7 @@
         "index": {
           "description": "Valid for Default Major Notes neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Mode",
           "package": "graphviz",
@@ -23775,6 +24693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eShortPath\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Model",
           "package": "graphviz",
@@ -23785,6 +24704,7 @@
         "index": {
           "description": "Valid for Default ShortPath Notes neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Model",
           "package": "graphviz",
@@ -23799,6 +24719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: neato only; requires the Mosek software\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Mosek",
           "package": "graphviz",
@@ -23809,6 +24730,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True Notes neato only requires the Mosek software",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Mosek",
           "package": "graphviz",
@@ -23847,6 +24769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoArrow",
           "package": "graphviz",
@@ -23856,6 +24779,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoArrow",
           "package": "graphviz",
@@ -23869,6 +24793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoCP",
           "package": "graphviz",
@@ -23878,6 +24803,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoCP",
           "package": "graphviz",
@@ -23891,6 +24817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoCluster",
           "package": "graphviz",
@@ -23900,6 +24827,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoCluster",
           "package": "graphviz",
@@ -23913,6 +24841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoConstraints",
           "package": "graphviz",
@@ -23922,6 +24851,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoConstraints",
           "package": "graphviz",
@@ -23960,6 +24890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoEdges",
           "package": "graphviz",
@@ -23969,6 +24900,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoEdges",
           "package": "graphviz",
@@ -23983,6 +24915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GCNE; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoJustify",
           "package": "graphviz",
@@ -23993,6 +24926,7 @@
         "index": {
           "description": "Valid for GCNE Default False Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoJustify",
           "package": "graphviz",
@@ -24029,6 +24963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoQT",
           "package": "graphviz",
@@ -24038,6 +24973,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoQT",
           "package": "graphviz",
@@ -24051,6 +24987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoScale",
           "package": "graphviz",
@@ -24060,6 +24997,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoScale",
           "package": "graphviz",
@@ -24073,6 +25011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoSmooth",
           "package": "graphviz",
@@ -24082,6 +25021,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NoSmooth",
           "package": "graphviz",
@@ -24095,6 +25035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NodeFocus",
           "package": "graphviz",
@@ -24104,6 +25045,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NodeFocus",
           "package": "graphviz",
@@ -24118,6 +25060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor Graphs only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NodeName",
           "package": "graphviz",
@@ -24128,6 +25071,7 @@
         "index": {
           "description": "For Graphs only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NodeName",
           "package": "graphviz",
@@ -24142,6 +25086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.25\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.02\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NodeSep",
           "package": "graphviz",
@@ -24152,6 +25097,7 @@
         "index": {
           "description": "Valid for Default Minimum Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NodeSep",
           "package": "graphviz",
@@ -24165,6 +25111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NodesFirst",
           "package": "graphviz",
@@ -24174,6 +25121,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NodesFirst",
           "package": "graphviz",
@@ -24187,6 +25135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Normal",
           "package": "graphviz",
@@ -24196,6 +25145,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Normal",
           "package": "graphviz",
@@ -24209,6 +25159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NormalQT",
           "package": "graphviz",
@@ -24218,6 +25169,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NormalQT",
           "package": "graphviz",
@@ -24232,6 +25184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: not dot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Normalize",
           "package": "graphviz",
@@ -24242,6 +25195,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True Notes not dot",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Normalize",
           "package": "graphviz",
@@ -24255,6 +25209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "North",
           "package": "graphviz",
@@ -24264,6 +25219,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "North",
           "package": "graphviz",
@@ -24277,6 +25233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NorthEast",
           "package": "graphviz",
@@ -24286,6 +25243,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NorthEast",
           "package": "graphviz",
@@ -24299,6 +25257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NorthWest",
           "package": "graphviz",
@@ -24308,6 +25267,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NorthWest",
           "package": "graphviz",
@@ -24322,6 +25282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor Nodes only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NotCentral",
           "package": "graphviz",
@@ -24332,6 +25293,7 @@
         "index": {
           "description": "For Nodes only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NotCentral",
           "package": "graphviz",
@@ -24346,6 +25308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo effect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NotEdgeLabel",
           "package": "graphviz",
@@ -24356,6 +25319,7 @@
         "index": {
           "description": "No effect",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "NotEdgeLabel",
           "package": "graphviz",
@@ -24393,6 +25357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Nslimit",
           "package": "graphviz",
@@ -24403,6 +25368,7 @@
         "index": {
           "description": "Valid for Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Nslimit",
           "package": "graphviz",
@@ -24417,6 +25383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Nslimit1",
           "package": "graphviz",
@@ -24427,6 +25394,7 @@
         "index": {
           "description": "Valid for Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Nslimit1",
           "package": "graphviz",
@@ -24463,6 +25431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "OpenArrow",
           "package": "graphviz",
@@ -24472,6 +25441,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "OpenArrow",
           "package": "graphviz",
@@ -24486,6 +25456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GN; \u003cem\u003eDefault\u003c/em\u003e: none; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Ordering",
           "package": "graphviz",
@@ -24496,6 +25467,7 @@
         "index": {
           "description": "Valid for GN Default none Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Ordering",
           "package": "graphviz",
@@ -24510,6 +25482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e360.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Orientation",
           "package": "graphviz",
@@ -24520,6 +25493,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Orientation",
           "package": "graphviz",
@@ -24534,6 +25508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes not handle ports or edge labels in dot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Ortho",
           "package": "graphviz",
@@ -24544,6 +25519,7 @@
         "index": {
           "description": "Does not handle ports or edge labels in dot",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Ortho",
           "package": "graphviz",
@@ -24608,6 +25584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBreadthFirst\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "OutputOrder",
           "package": "graphviz",
@@ -24618,6 +25595,7 @@
         "index": {
           "description": "Valid for Default BreadthFirst",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "OutputOrder",
           "package": "graphviz",
@@ -24632,6 +25610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eKeepOverlaps\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eKeepOverlaps\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: not dot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Overlap",
           "package": "graphviz",
@@ -24642,6 +25621,7 @@
         "index": {
           "description": "Valid for Default KeepOverlaps Parsing Default KeepOverlaps Notes not dot",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Overlap",
           "package": "graphviz",
@@ -24656,6 +25636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e-4\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e-1.0e10\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: prism only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "OverlapScaling",
           "package": "graphviz",
@@ -24666,6 +25647,7 @@
         "index": {
           "description": "Valid for Default Minimum e10 Notes prism only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "OverlapScaling",
           "package": "graphviz",
@@ -24679,6 +25661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PN",
           "package": "graphviz",
@@ -24688,6 +25671,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PN",
           "package": "graphviz",
@@ -24701,6 +25685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PVal",
           "package": "graphviz",
@@ -24710,6 +25695,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PVal",
           "package": "graphviz",
@@ -24724,6 +25710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDontPack\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eDoPack\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: not dot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pack",
           "package": "graphviz",
@@ -24734,6 +25721,7 @@
         "index": {
           "description": "Valid for Default DontPack Parsing Default DoPack Notes not dot",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pack",
           "package": "graphviz",
@@ -24748,6 +25736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort by cols, sort\n by user, number of\n rows/cols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackArray",
           "package": "graphviz",
@@ -24758,6 +25747,7 @@
         "index": {
           "description": "Sort by cols sort by user number of rows cols",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackArray",
           "package": "graphviz",
@@ -24771,6 +25761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackClust",
           "package": "graphviz",
@@ -24780,6 +25771,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackClust",
           "package": "graphviz",
@@ -24793,6 +25785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackGraph",
           "package": "graphviz",
@@ -24802,6 +25795,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackGraph",
           "package": "graphviz",
@@ -24816,6 +25810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf non-negative, then packs; otherwise doesn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackMargin",
           "package": "graphviz",
@@ -24826,6 +25821,7 @@
         "index": {
           "description": "If non-negative then packs otherwise doesn",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackMargin",
           "package": "graphviz",
@@ -24840,6 +25836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePackNode\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: not dot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackMode",
           "package": "graphviz",
@@ -24850,6 +25847,7 @@
         "index": {
           "description": "Valid for Default PackNode Notes not dot",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackMode",
           "package": "graphviz",
@@ -24863,6 +25861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackNode",
           "package": "graphviz",
@@ -24872,6 +25871,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PackNode",
           "package": "graphviz",
@@ -24886,6 +25886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDVal\u003c/a\u003e\u003c/code\u003e 0.0555\u003c/code\u003e (4 points)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pad",
           "package": "graphviz",
@@ -24896,6 +25897,7 @@
         "index": {
           "description": "Valid for Default DVal points",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pad",
           "package": "graphviz",
@@ -24910,6 +25912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Page",
           "package": "graphviz",
@@ -24920,6 +25923,7 @@
         "index": {
           "description": "Valid for",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Page",
           "package": "graphviz",
@@ -24934,6 +25938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBl\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PageDir",
           "package": "graphviz",
@@ -24944,6 +25949,7 @@
         "index": {
           "description": "Valid for Default Bl",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PageDir",
           "package": "graphviz",
@@ -25005,6 +26011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Paths",
           "package": "graphviz",
@@ -25014,6 +26021,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Paths",
           "package": "graphviz",
@@ -25028,6 +26036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: C; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBlack\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PenColor",
           "package": "graphviz",
@@ -25038,6 +26047,7 @@
         "index": {
           "description": "Valid for Default X11Color Black",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PenColor",
           "package": "graphviz",
@@ -25052,6 +26062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: CNE; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PenWidth",
           "package": "graphviz",
@@ -25062,6 +26073,7 @@
         "index": {
           "description": "Valid for CNE Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PenWidth",
           "package": "graphviz",
@@ -25099,6 +26111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: NC; \u003cem\u003eDefault\u003c/em\u003e: shape default (nodes), \u003ccode\u003e1\u003c/code\u003e (clusters); \u003cem\u003eMinimum\u003c/em\u003e: 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Peripheries",
           "package": "graphviz",
@@ -25109,6 +26122,7 @@
         "index": {
           "description": "Valid for NC Default shape default nodes clusters Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Peripheries",
           "package": "graphviz",
@@ -25123,6 +26137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: fdp, neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pin",
           "package": "graphviz",
@@ -25133,6 +26148,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True Notes fdp neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pin",
           "package": "graphviz",
@@ -25171,6 +26187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Point",
           "package": "graphviz",
@@ -25180,6 +26197,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Point",
           "package": "graphviz",
@@ -25193,6 +26211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PointPos",
           "package": "graphviz",
@@ -25202,6 +26221,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PointPos",
           "package": "graphviz",
@@ -25240,6 +26260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PolyLine",
           "package": "graphviz",
@@ -25249,6 +26270,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PolyLine",
           "package": "graphviz",
@@ -25288,6 +26310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill result in no label for\n   that cell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PortName",
           "package": "graphviz",
@@ -25298,6 +26321,7 @@
         "index": {
           "description": "Will result in no label for that cell",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PortName",
           "package": "graphviz",
@@ -25312,6 +26336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: EN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pos",
           "package": "graphviz",
@@ -25322,6 +26347,7 @@
         "index": {
           "description": "Valid for EN",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Pos",
           "package": "graphviz",
@@ -25336,6 +26362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse PostScript font names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PostScriptNames",
           "package": "graphviz",
@@ -25346,6 +26373,7 @@
         "index": {
           "description": "Use PostScript font names",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PostScriptNames",
           "package": "graphviz",
@@ -25359,6 +26387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PowerDist",
           "package": "graphviz",
@@ -25368,6 +26397,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PowerDist",
           "package": "graphviz",
@@ -25405,6 +26435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires the Prism\n   library to be\n   available (if not,\n   this is equivalent to\n   \u003ccode\u003e\u003ca\u003eVoronoiOverlap\u003c/a\u003e\u003c/code\u003e). \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n   is equivalent to\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e 1000\u003c/code\u003e.\n   Influenced by\n   \u003ccode\u003e\u003ca\u003eOverlapScaling\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PrismOverlap",
           "package": "graphviz",
@@ -25415,6 +26446,7 @@
         "index": {
           "description": "Requires the Prism library to be available if not this is equivalent to VoronoiOverlap Nothing is equivalent to Just Influenced by OverlapScaling",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "PrismOverlap",
           "package": "graphviz",
@@ -25498,6 +26530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNormalQT\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eNormalQT\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: sfdp only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "QuadTree",
           "package": "graphviz",
@@ -25508,6 +26541,7 @@
         "index": {
           "description": "Valid for Default NormalQT Parsing Default NormalQT Notes sfdp only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "QuadTree",
           "package": "graphviz",
@@ -25522,6 +26556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Quantum",
           "package": "graphviz",
@@ -25532,6 +26567,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Quantum",
           "package": "graphviz",
@@ -25591,6 +26627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RNG",
           "package": "graphviz",
@@ -25600,6 +26637,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RNG",
           "package": "graphviz",
@@ -25637,6 +26675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes, Clusters and Graphs, for use\n   with \u003ccode\u003e\u003ca\u003eGradientAngle\u003c/a\u003e\u003c/code\u003e; requires\n   Graphviz \u003e= 2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Radial",
           "package": "graphviz",
@@ -25647,6 +26686,7 @@
         "index": {
           "description": "Nodes Clusters and Graphs for use with GradientAngle requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Radial",
           "package": "graphviz",
@@ -25660,6 +26700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RandomStyle",
           "package": "graphviz",
@@ -25669,6 +26710,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RandomStyle",
           "package": "graphviz",
@@ -25683,6 +26725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: S; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rank",
           "package": "graphviz",
@@ -25693,6 +26736,7 @@
         "index": {
           "description": "Valid for Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rank",
           "package": "graphviz",
@@ -25707,6 +26751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFromTop\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RankDir",
           "package": "graphviz",
@@ -25717,6 +26762,7 @@
         "index": {
           "description": "Valid for Default FromTop Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RankDir",
           "package": "graphviz",
@@ -25731,6 +26777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e[0.5]\u003c/code\u003e (dot), \u003ccode\u003e[1.0]\u003c/code\u003e (twopi); \u003cem\u003eMinimum\u003c/em\u003e: [0.02]; \u003cem\u003eNotes\u003c/em\u003e: twopi, dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RankSep",
           "package": "graphviz",
@@ -25741,6 +26788,7 @@
         "index": {
           "description": "Valid for Default dot twopi Minimum Notes twopi dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RankSep",
           "normalized": "RankSep[Double]",
@@ -25757,6 +26805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Ratio",
           "package": "graphviz",
@@ -25767,6 +26816,7 @@
         "index": {
           "description": "Valid for",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Ratio",
           "package": "graphviz",
@@ -25780,6 +26830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RatioOnly",
           "package": "graphviz",
@@ -25789,6 +26840,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RatioOnly",
           "package": "graphviz",
@@ -25802,6 +26854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RatioPassCount",
           "package": "graphviz",
@@ -25811,6 +26864,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RatioPassCount",
           "package": "graphviz",
@@ -25824,6 +26878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rb",
           "package": "graphviz",
@@ -25833,6 +26888,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rb",
           "package": "graphviz",
@@ -25847,6 +26903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ReMinCross",
           "package": "graphviz",
@@ -25857,6 +26914,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ReMinCross",
           "package": "graphviz",
@@ -25896,6 +26954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor nodes only; requires\n   either \u003ccode\u003e\u003ca\u003eRecord\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003eMRecord\u003c/a\u003e\u003c/code\u003e as the shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RecordLabel",
           "package": "graphviz",
@@ -25906,6 +26965,7 @@
         "index": {
           "description": "For nodes only requires either Record or MRecord as the shape",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RecordLabel",
           "package": "graphviz",
@@ -25919,6 +26979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rect",
           "package": "graphviz",
@@ -25928,6 +26989,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rect",
           "package": "graphviz",
@@ -25942,6 +27004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eNotes\u003c/em\u003e: write only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rects",
           "package": "graphviz",
@@ -25952,6 +27015,7 @@
         "index": {
           "description": "Valid for Notes write only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rects",
           "normalized": "Rects[Rect]",
@@ -25968,6 +27032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Regular",
           "package": "graphviz",
@@ -25978,6 +27043,7 @@
         "index": {
           "description": "Valid for Default False Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Regular",
           "package": "graphviz",
@@ -25991,6 +27057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RegularStyle",
           "package": "graphviz",
@@ -26000,6 +27067,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RegularStyle",
           "package": "graphviz",
@@ -26014,6 +27082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a two-step process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RemoveAndStraighten",
           "package": "graphviz",
@@ -26024,6 +27093,7 @@
         "index": {
           "description": "Use two-step process",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RemoveAndStraighten",
           "package": "graphviz",
@@ -26038,6 +27108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: sfdp only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RepulsiveForce",
           "package": "graphviz",
@@ -26048,6 +27119,7 @@
         "index": {
           "description": "Valid for Default Minimum Notes sfdp only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RepulsiveForce",
           "package": "graphviz",
@@ -26107,6 +27179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RightSide",
           "package": "graphviz",
@@ -26116,6 +27189,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "RightSide",
           "package": "graphviz",
@@ -26130,6 +27204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GN; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNodeName\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e (graphs), \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNotCentral\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (nodes); \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eIsCentral\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: circo, twopi only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Root",
           "package": "graphviz",
@@ -26140,6 +27215,7 @@
         "index": {
           "description": "Valid for GN Default NodeName graphs NotCentral nodes Parsing Default IsCentral Notes circo twopi only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Root",
           "package": "graphviz",
@@ -26154,6 +27230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rotate",
           "package": "graphviz",
@@ -26164,6 +27241,7 @@
         "index": {
           "description": "Valid for Default",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rotate",
           "package": "graphviz",
@@ -26178,6 +27256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: sfdp only, requires Graphviz \u003e= 2.28.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rotation",
           "package": "graphviz",
@@ -26188,6 +27267,7 @@
         "index": {
           "description": "Valid for Default Notes sfdp only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rotation",
           "package": "graphviz",
@@ -26202,6 +27282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes and Clusters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rounded",
           "package": "graphviz",
@@ -26212,6 +27293,7 @@
         "index": {
           "description": "Nodes and Clusters",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rounded",
           "package": "graphviz",
@@ -26225,6 +27307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rt",
           "package": "graphviz",
@@ -26234,6 +27317,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Rt",
           "package": "graphviz",
@@ -26247,6 +27331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SItem",
           "package": "graphviz",
@@ -26256,6 +27341,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SItem",
           "normalized": "SItem StyleName[Text]",
@@ -26272,6 +27358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SameHead",
           "package": "graphviz",
@@ -26282,6 +27369,7 @@
         "index": {
           "description": "Valid for Default Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SameHead",
           "package": "graphviz",
@@ -26319,6 +27407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SameTail",
           "package": "graphviz",
@@ -26329,6 +27418,7 @@
         "index": {
           "description": "Valid for Default Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SameTail",
           "package": "graphviz",
@@ -26343,6 +27433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e8\u003c/code\u003e (output), \u003ccode\u003e20\u003c/code\u003e (overlap and image maps)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SamplePoints",
           "package": "graphviz",
@@ -26353,6 +27444,7 @@
         "index": {
           "description": "Valid for Default output overlap and image maps",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SamplePoints",
           "package": "graphviz",
@@ -26367,6 +27459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eNotes\u003c/em\u003e: twopi only, requires Graphviz \u003e= 2.28.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Scale",
           "package": "graphviz",
@@ -26377,6 +27470,7 @@
         "index": {
           "description": "Valid for Notes twopi only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Scale",
           "package": "graphviz",
@@ -26391,6 +27485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove overlaps by uniformly scaling in x and y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ScaleOverlaps",
           "package": "graphviz",
@@ -26401,6 +27496,7 @@
         "index": {
           "description": "Remove overlaps by uniformly scaling in and",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ScaleOverlaps",
           "package": "graphviz",
@@ -26415,6 +27511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove overlaps by separately scaling x and y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ScaleXYOverlaps",
           "package": "graphviz",
@@ -26425,6 +27522,7 @@
         "index": {
           "description": "Remove overlaps by separately scaling and",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ScaleXYOverlaps",
           "package": "graphviz",
@@ -26439,6 +27537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e30\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SearchSize",
           "package": "graphviz",
@@ -26449,6 +27548,7 @@
         "index": {
           "description": "Valid for Default Notes dot only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SearchSize",
           "package": "graphviz",
@@ -26462,6 +27562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SelfStyle",
           "package": "graphviz",
@@ -26471,6 +27572,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SelfStyle",
           "package": "graphviz",
@@ -26485,6 +27587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDVal\u003c/a\u003e\u003c/code\u003e 4\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: not dot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Sep",
           "package": "graphviz",
@@ -26495,6 +27598,7 @@
         "index": {
           "description": "Valid for Default DVal Notes not dot",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Sep",
           "package": "graphviz",
@@ -26557,6 +27661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEllipse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Shape",
           "package": "graphviz",
@@ -26567,6 +27672,7 @@
         "index": {
           "description": "Valid for Default Ellipse",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Shape",
           "package": "graphviz",
@@ -26580,6 +27686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ShortPath",
           "package": "graphviz",
@@ -26589,6 +27696,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ShortPath",
           "package": "graphviz",
@@ -26603,6 +27711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENG; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: dot only; used for debugging by printing PostScript guide boxes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ShowBoxes",
           "package": "graphviz",
@@ -26613,6 +27722,7 @@
         "index": {
           "description": "Valid for ENG Default Minimum Notes dot only used for debugging by printing PostScript guide boxes",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ShowBoxes",
           "package": "graphviz",
@@ -26627,6 +27737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e4\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Sides",
           "package": "graphviz",
@@ -26637,6 +27748,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Sides",
           "package": "graphviz",
@@ -26697,6 +27809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Size",
           "package": "graphviz",
@@ -26707,6 +27820,7 @@
         "index": {
           "description": "Valid for",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Size",
           "package": "graphviz",
@@ -26721,6 +27835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e-100.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Skew",
           "package": "graphviz",
@@ -26731,6 +27846,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Skew",
           "package": "graphviz",
@@ -26745,6 +27861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNoSmooth\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: sfdp only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Smoothing",
           "package": "graphviz",
@@ -26755,6 +27872,7 @@
         "index": {
           "description": "Valid for Default NoSmooth Notes sfdp only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Smoothing",
           "package": "graphviz",
@@ -26769,6 +27887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes and Edges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Solid",
           "package": "graphviz",
@@ -26779,6 +27898,7 @@
         "index": {
           "description": "Nodes and Edges",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Solid",
           "package": "graphviz",
@@ -26793,6 +27913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: GCN; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SortV",
           "package": "graphviz",
@@ -26803,6 +27924,7 @@
         "index": {
           "description": "Valid for GCN Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SortV",
           "package": "graphviz",
@@ -26839,6 +27961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "South",
           "package": "graphviz",
@@ -26848,6 +27971,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "South",
           "package": "graphviz",
@@ -26861,6 +27985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SouthEast",
           "package": "graphviz",
@@ -26870,6 +27995,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SouthEast",
           "package": "graphviz",
@@ -26883,6 +28009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SouthWest",
           "package": "graphviz",
@@ -26892,6 +28019,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SouthWest",
           "package": "graphviz",
@@ -26905,6 +28033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Spline",
           "package": "graphviz",
@@ -26914,6 +28043,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Spline",
           "package": "graphviz",
@@ -26928,6 +28058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExcept for dot, requires\n   non-overlapping nodes (see\n   \u003ccode\u003e\u003ca\u003eOverlap\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SplineEdges",
           "package": "graphviz",
@@ -26938,6 +28069,7 @@
         "index": {
           "description": "Except for dot requires non-overlapping nodes see Overlap",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SplineEdges",
           "package": "graphviz",
@@ -26951,6 +28083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SplinePos",
           "package": "graphviz",
@@ -26960,6 +28093,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SplinePos",
           "normalized": "SplinePos[Spline]",
@@ -26976,6 +28110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSplineEdges\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (dot), \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLineEdges\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (other); \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eSplineEdges\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Splines",
           "package": "graphviz",
@@ -26986,6 +28121,7 @@
         "index": {
           "description": "Valid for Default SplineEdges dot LineEdges other Parsing Default SplineEdges",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Splines",
           "package": "graphviz",
@@ -26999,6 +28135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Spring",
           "package": "graphviz",
@@ -27008,6 +28145,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Spring",
           "package": "graphviz",
@@ -27022,6 +28160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStartStyleSeed\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRandomStyle\u003c/a\u003e\u003c/code\u003e seed\u003c/code\u003e for some unknown fixed seed.; \u003cem\u003eNotes\u003c/em\u003e: fdp, neato only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Start",
           "package": "graphviz",
@@ -27032,6 +28171,7 @@
         "index": {
           "description": "Valid for Default StartStyleSeed RandomStyle seed for some unknown fixed seed Notes fdp neato only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Start",
           "package": "graphviz",
@@ -27045,6 +28185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StartSeed",
           "package": "graphviz",
@@ -27054,6 +28195,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StartSeed",
           "package": "graphviz",
@@ -27067,6 +28209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StartStyle",
           "package": "graphviz",
@@ -27076,6 +28219,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StartStyle",
           "package": "graphviz",
@@ -27089,6 +28233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StartStyleSeed",
           "package": "graphviz",
@@ -27098,6 +28243,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StartStyleSeed",
           "package": "graphviz",
@@ -27111,6 +28257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StrLabel",
           "package": "graphviz",
@@ -27120,6 +28267,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StrLabel",
           "package": "graphviz",
@@ -27134,6 +28282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangularly-shaped Nodes and\n   Clusters; requires Graphviz \u003e= 2.30.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Striped",
           "package": "graphviz",
@@ -27144,6 +28293,7 @@
         "index": {
           "description": "Rectangularly-shaped Nodes and Clusters requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Striped",
           "package": "graphviz",
@@ -27158,6 +28308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Style",
           "package": "graphviz",
@@ -27168,6 +28319,7 @@
         "index": {
           "description": "Valid for ENC",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Style",
           "normalized": "Style[StyleItem]",
@@ -27184,6 +28336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StyleSheet",
           "package": "graphviz",
@@ -27194,6 +28347,7 @@
         "index": {
           "description": "Valid for Default Notes svg only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "StyleSheet",
           "package": "graphviz",
@@ -27207,6 +28361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SubSet",
           "package": "graphviz",
@@ -27216,6 +28371,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SubSet",
           "package": "graphviz",
@@ -27230,6 +28386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the legal generic SVG font names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SvgNames",
           "package": "graphviz",
@@ -27240,6 +28397,7 @@
         "index": {
           "description": "Use the legal generic SVG font names",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "SvgNames",
           "package": "graphviz",
@@ -27277,6 +28435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailClip",
           "package": "graphviz",
@@ -27287,6 +28446,7 @@
         "index": {
           "description": "Valid for Default True Parsing Default True",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailClip",
           "package": "graphviz",
@@ -27301,6 +28461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStrLabel\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailLabel",
           "package": "graphviz",
@@ -27311,6 +28472,7 @@
         "index": {
           "description": "Valid for Default StrLabel",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailLabel",
           "package": "graphviz",
@@ -27325,6 +28487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCompassPoint\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCenterPoint\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailPort",
           "package": "graphviz",
@@ -27335,6 +28498,7 @@
         "index": {
           "description": "Valid for Default CompassPoint CenterPoint",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailPort",
           "package": "graphviz",
@@ -27349,6 +28513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: none; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailTarget",
           "package": "graphviz",
@@ -27359,6 +28524,7 @@
         "index": {
           "description": "Valid for Default none Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailTarget",
           "package": "graphviz",
@@ -27373,6 +28539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, cmap only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailTooltip",
           "package": "graphviz",
@@ -27383,6 +28550,7 @@
         "index": {
           "description": "Valid for Default Notes svg cmap only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailTooltip",
           "package": "graphviz",
@@ -27397,6 +28565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailURL",
           "package": "graphviz",
@@ -27407,6 +28576,7 @@
         "index": {
           "description": "Valid for Default Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TailURL",
           "package": "graphviz",
@@ -27421,6 +28591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eNotes\u003c/em\u003e: write only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tail_LP",
           "package": "graphviz",
@@ -27431,6 +28602,7 @@
         "index": {
           "description": "Valid for Notes write only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tail_LP",
           "package": "graphviz",
@@ -27445,6 +28617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdges only; requires Graphviz \u003e=\n   2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tapered",
           "package": "graphviz",
@@ -27455,6 +28628,7 @@
         "index": {
           "description": "Edges only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tapered",
           "package": "graphviz",
@@ -27469,6 +28643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENGC; \u003cem\u003eDefault\u003c/em\u003e: none; \u003cem\u003eNotes\u003c/em\u003e: svg, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Target",
           "package": "graphviz",
@@ -27479,6 +28654,7 @@
         "index": {
           "description": "Valid for ENGC Default none Notes svg map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Target",
           "package": "graphviz",
@@ -27492,6 +28668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tee",
           "package": "graphviz",
@@ -27501,6 +28678,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tee",
           "package": "graphviz",
@@ -27560,6 +28738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tl",
           "package": "graphviz",
@@ -27569,6 +28748,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tl",
           "package": "graphviz",
@@ -27583,6 +28763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: NEC; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: svg, cmap only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tooltip",
           "package": "graphviz",
@@ -27593,6 +28774,7 @@
         "index": {
           "description": "Valid for NEC Default Notes svg cmap only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tooltip",
           "package": "graphviz",
@@ -27606,6 +28788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tr",
           "package": "graphviz",
@@ -27615,6 +28798,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Tr",
           "package": "graphviz",
@@ -27674,6 +28858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TriangleSmooth",
           "package": "graphviz",
@@ -27683,6 +28868,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TriangleSmooth",
           "package": "graphviz",
@@ -27720,6 +28906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eParsing Default\u003c/em\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: bitmap output only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TrueColor",
           "package": "graphviz",
@@ -27730,6 +28917,7 @@
         "index": {
           "description": "Valid for Parsing Default True Notes bitmap output only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "TrueColor",
           "package": "graphviz",
@@ -27769,6 +28957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: ENGC; \u003cem\u003eDefault\u003c/em\u003e: none; \u003cem\u003eNotes\u003c/em\u003e: svg, postscript, map only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "URL",
           "package": "graphviz",
@@ -27779,6 +28968,7 @@
         "index": {
           "description": "Valid for ENGC Default none Notes svg postscript map only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "URL",
           "package": "graphviz",
@@ -27815,6 +29005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "UniformScale",
           "package": "graphviz",
@@ -27824,6 +29015,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "UniformScale",
           "package": "graphviz",
@@ -27838,6 +29030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: Assumed valid for all; the fields are \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e name and value respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "UnknownAttribute",
           "package": "graphviz",
@@ -27848,6 +29041,7 @@
         "index": {
           "description": "Valid for Assumed valid for all the fields are Attribute name and value respectively",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "UnknownAttribute",
           "package": "graphviz",
@@ -27861,6 +29055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VBottom",
           "package": "graphviz",
@@ -27870,6 +29065,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VBottom",
           "package": "graphviz",
@@ -27884,6 +29080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly valid for Nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VCenter",
           "package": "graphviz",
@@ -27894,6 +29091,7 @@
         "index": {
           "description": "Only valid for Nodes",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VCenter",
           "package": "graphviz",
@@ -27907,6 +29105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VP",
           "package": "graphviz",
@@ -27916,6 +29115,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VP",
           "package": "graphviz",
@@ -27929,6 +29129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VTop",
           "package": "graphviz",
@@ -27938,6 +29139,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VTop",
           "package": "graphviz",
@@ -27951,6 +29153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Vee",
           "package": "graphviz",
@@ -27960,6 +29163,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Vee",
           "package": "graphviz",
@@ -27974,6 +29178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eNotes\u003c/em\u003e: write only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Vertices",
           "package": "graphviz",
@@ -27984,6 +29189,7 @@
         "index": {
           "description": "Valid for Notes write only",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Vertices",
           "normalized": "Vertices[Point]",
@@ -28000,6 +29206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: none\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ViewPort",
           "package": "graphviz",
@@ -28010,6 +29217,7 @@
         "index": {
           "description": "Valid for Default none",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "ViewPort",
           "package": "graphviz",
@@ -28024,6 +29232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: G; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.05\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.0\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: not dot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VoroMargin",
           "package": "graphviz",
@@ -28034,6 +29243,7 @@
         "index": {
           "description": "Valid for Default Minimum Notes not dot",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VoroMargin",
           "package": "graphviz",
@@ -28048,6 +29258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires Graphviz \u003e= 2.30.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VoronoiOverlap",
           "package": "graphviz",
@@ -28058,6 +29269,7 @@
         "index": {
           "description": "Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VoronoiOverlap",
           "package": "graphviz",
@@ -28072,6 +29284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses quadratic optimization to\n   minimize node displacement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VpscOverlap",
           "package": "graphviz",
@@ -28082,6 +29295,7 @@
         "index": {
           "description": "Uses quadratic optimization to minimize node displacement",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "VpscOverlap",
           "package": "graphviz",
@@ -28096,6 +29310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElliptically-shaped Nodes only;\n   requires Graphviz \u003e= 2.30.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Wedged",
           "package": "graphviz",
@@ -28106,6 +29321,7 @@
         "index": {
           "description": "Elliptically-shaped Nodes only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Wedged",
           "package": "graphviz",
@@ -28120,6 +29336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: E; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e1.0\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0\u003c/code\u003e (dot), \u003ccode\u003e1\u003c/code\u003e (neato,fdp,sfdp)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Weight",
           "package": "graphviz",
@@ -28130,6 +29347,7 @@
         "index": {
           "description": "Valid for Default Minimum dot neato fdp sfdp",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Weight",
           "package": "graphviz",
@@ -28143,6 +29361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "West",
           "package": "graphviz",
@@ -28152,6 +29371,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "West",
           "package": "graphviz",
@@ -28166,6 +29386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: N; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e0.75\u003c/code\u003e; \u003cem\u003eMinimum\u003c/em\u003e: \u003ccode\u003e0.01\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Width",
           "package": "graphviz",
@@ -28176,6 +29397,7 @@
         "index": {
           "description": "Valid for Default Minimum",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "Width",
           "package": "graphviz",
@@ -28190,6 +29412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: EN; \u003cem\u003eNotes\u003c/em\u003e: write only, requires Graphviz \u003e= 2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "XLP",
           "package": "graphviz",
@@ -28200,6 +29423,7 @@
         "index": {
           "description": "Valid for EN Notes write only requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "XLP",
           "package": "graphviz",
@@ -28214,6 +29438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eValid for\u003c/em\u003e: EN; \u003cem\u003eDefault\u003c/em\u003e: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStrLabel\u003c/a\u003e\u003c/code\u003e \"\"\u003c/code\u003e; \u003cem\u003eNotes\u003c/em\u003e: requires Graphviz \u003e= 2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "XLabel",
           "package": "graphviz",
@@ -28224,6 +29449,7 @@
         "index": {
           "description": "Valid for EN Default StrLabel Notes requires Graphviz",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "XLabel",
           "package": "graphviz",
@@ -28237,6 +29463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "XY",
           "package": "graphviz",
@@ -28246,6 +29473,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "XY",
           "package": "graphviz",
@@ -28259,6 +29487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "arrowFill",
           "package": "graphviz",
@@ -28268,6 +29497,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "arrowFill",
           "package": "graphviz",
@@ -28281,6 +29511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "arrowSide",
           "package": "graphviz",
@@ -28290,6 +29521,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "arrowSide",
           "package": "graphviz",
@@ -28304,6 +29536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a point with only \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "createPoint",
           "package": "graphviz",
@@ -28314,6 +29547,7 @@
         "index": {
           "description": "Create point with only and values",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "createPoint",
           "normalized": "Double-\u003eDouble-\u003ePoint",
@@ -28330,6 +29564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a custom attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "customAttribute",
           "package": "graphviz",
@@ -28340,6 +29575,7 @@
         "index": {
           "description": "Create custom attribute",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "customAttribute",
           "normalized": "AttributeName-\u003eText-\u003eCustomAttribute",
@@ -28356,6 +29592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a custom attribute.  Will throw a\n   \u003ccode\u003e\u003ca\u003eGraphvizException\u003c/a\u003e\u003c/code\u003e if the provided \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e isn't a custom\n   one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "customName",
           "package": "graphviz",
@@ -28366,6 +29603,7 @@
         "index": {
           "description": "The name of custom attribute Will throw GraphvizException if the provided Attribute isn custom one",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "customName",
           "normalized": "CustomAttribute-\u003eAttributeName",
@@ -28382,6 +29620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of a custom attribute.  Will throw a\n   \u003ccode\u003e\u003ca\u003eGraphvizException\u003c/a\u003e\u003c/code\u003e if the provided \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e isn't a custom\n   one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "customValue",
           "package": "graphviz",
@@ -28392,6 +29631,7 @@
         "index": {
           "description": "The value of custom attribute Will throw GraphvizException if the provided Attribute isn custom one",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "customValue",
           "normalized": "CustomAttribute-\u003eText",
@@ -28408,6 +29648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the default value for a specific \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e if possible; graph\u003cem\u003ecluster values are preferred over node\u003c/em\u003eedge values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "defaultAttributeValue",
           "package": "graphviz",
@@ -28418,6 +29659,7 @@
         "index": {
           "description": "Return the default value for specific Attribute if possible graph cluster values are preferred over node edge values",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "defaultAttributeValue",
           "normalized": "Attribute-\u003eMaybe Attribute",
@@ -28434,6 +29676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all custom attributes (actually, this will delete all\n   \u003ccode\u003e\u003ca\u003eUnknownAttribute\u003c/a\u003e\u003c/code\u003e values; as such it can also be used to remove\n   legacy attributes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "deleteCustomAttributes",
           "package": "graphviz",
@@ -28444,6 +29687,7 @@
         "index": {
           "description": "Delete all custom attributes actually this will delete all UnknownAttribute values as such it can also be used to remove legacy attributes",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "deleteCustomAttributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -28460,6 +29704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves all instances of the specified custom attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "deleteSpecifiedCustom",
           "package": "graphviz",
@@ -28470,6 +29715,7 @@
         "index": {
           "description": "Removes all instances of the specified custom attribute",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "deleteSpecifiedCustom",
           "normalized": "AttributeName-\u003eAttributes-\u003eAttributes",
@@ -28486,6 +29732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf drawing is smaller than specified\n   size, this value determines whether it\n   is scaled up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "desiredSize",
           "package": "graphviz",
@@ -28496,6 +29743,7 @@
         "index": {
           "description": "If drawing is smaller than specified size this value determines whether it is scaled up",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "desiredSize",
           "package": "graphviz",
@@ -28509,6 +29757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "endPoint",
           "package": "graphviz",
@@ -28518,6 +29767,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "endPoint",
           "package": "graphviz",
@@ -28532,6 +29782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all custom attributes and the list of non-custom Attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "findCustoms",
           "package": "graphviz",
@@ -28542,6 +29793,7 @@
         "index": {
           "description": "Returns all custom attributes and the list of non-custom Attributes",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "findCustoms",
           "normalized": "Attributes-\u003e([CustomAttribute],Attributes)",
@@ -28558,6 +29810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the (first instance of the) specified custom attribute and\n   returns it along with all other Attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "findSpecifiedCustom",
           "package": "graphviz",
@@ -28568,6 +29821,7 @@
         "index": {
           "description": "Find the first instance of the specified custom attribute and returns it along with all other Attributes",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "findSpecifiedCustom",
           "normalized": "AttributeName-\u003eAttributes-\u003eMaybe(CustomAttribute,Attributes)",
@@ -28583,6 +29837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "focus",
           "package": "graphviz",
@@ -28592,6 +29847,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "focus",
           "package": "graphviz",
@@ -28605,6 +29861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput to Graphviz only: specify that the\n   node position should not change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "forcePos",
           "package": "graphviz",
@@ -28615,6 +29872,7 @@
         "index": {
           "description": "Input to Graphviz only specify that the node position should not change",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "forcePos",
           "package": "graphviz",
@@ -28628,6 +29886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "hVal",
           "package": "graphviz",
@@ -28637,6 +29896,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "hVal",
           "package": "graphviz",
@@ -28651,6 +29911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eNothing\u003c/code\u003e, then the height is the\n   same as the width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "height",
           "package": "graphviz",
@@ -28661,6 +29922,7 @@
         "index": {
           "description": "If Nothing then the height is the same as the width",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "height",
           "package": "graphviz",
@@ -28674,6 +29936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether or not this is a custom attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "isCustom",
           "package": "graphviz",
@@ -28684,6 +29947,7 @@
         "index": {
           "description": "Determines whether or not this is custom attribute",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "isCustom",
           "normalized": "Attribute-\u003eBool",
@@ -28699,6 +29963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "isSpecifiedCustom",
           "package": "graphviz",
@@ -28708,6 +29973,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "isSpecifiedCustom",
           "normalized": "AttributeName-\u003eAttribute-\u003eBool",
@@ -28724,6 +29990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply no modifications to an \u003ccode\u003e\u003ca\u003eArrowShape\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "noMods",
           "package": "graphviz",
@@ -28734,6 +30001,7 @@
         "index": {
           "description": "Apply no modifications to an ArrowShape",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "noMods",
           "package": "graphviz",
@@ -28748,6 +30016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOpenArrow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBothSides\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "openMod",
           "package": "graphviz",
@@ -28758,6 +30027,7 @@
         "index": {
           "description": "OpenArrow and BothSides",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "openMod",
           "package": "graphviz",
@@ -28771,6 +30041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "paths",
           "package": "graphviz",
@@ -28780,6 +30051,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "paths",
           "normalized": "[FilePath]",
@@ -28794,6 +30066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "portName",
           "package": "graphviz",
@@ -28803,6 +30076,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "portName",
           "package": "graphviz",
@@ -28817,6 +30091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove attributes that we don't want to consider:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Those that are defaults\n   * colorscheme (as the colors embed it anyway)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "rmUnwantedAttributes",
           "package": "graphviz",
@@ -28827,6 +30102,7 @@
         "index": {
           "description": "Remove attributes that we don want to consider Those that are defaults colorscheme as the colors embed it anyway",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "rmUnwantedAttributes",
           "normalized": "Attributes-\u003eAttributes",
@@ -28843,6 +30119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if two \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e are the same type of \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "sameAttribute",
           "package": "graphviz",
@@ -28853,6 +30130,7 @@
         "index": {
           "description": "Determine if two Attributes are the same type of Attribute",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "sameAttribute",
           "normalized": "Attribute-\u003eAttribute-\u003eBool",
@@ -28868,6 +30146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "splinePoints",
           "package": "graphviz",
@@ -28877,6 +30156,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "splinePoints",
           "normalized": "[Point]",
@@ -28892,6 +30172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "startPoint",
           "package": "graphviz",
@@ -28901,6 +30182,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "startPoint",
           "package": "graphviz",
@@ -28915,6 +30197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if this \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e is valid for use with Clusters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedByClusters",
           "package": "graphviz",
@@ -28925,6 +30208,7 @@
         "index": {
           "description": "Determine if this Attribute is valid for use with Clusters",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedByClusters",
           "normalized": "Attribute-\u003eBool",
@@ -28941,6 +30225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if this \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e is valid for use with Edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedByEdges",
           "package": "graphviz",
@@ -28951,6 +30236,7 @@
         "index": {
           "description": "Determine if this Attribute is valid for use with Edges",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedByEdges",
           "normalized": "Attribute-\u003eBool",
@@ -28967,6 +30253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if this \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e is valid for use with Graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedByGraphs",
           "package": "graphviz",
@@ -28977,6 +30264,7 @@
         "index": {
           "description": "Determine if this Attribute is valid for use with Graphs",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedByGraphs",
           "normalized": "Attribute-\u003eBool",
@@ -28993,6 +30281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if this \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e is valid for use with Nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedByNodes",
           "package": "graphviz",
@@ -29003,6 +30292,7 @@
         "index": {
           "description": "Determine if this Attribute is valid for use with Nodes",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedByNodes",
           "normalized": "Attribute-\u003eBool",
@@ -29019,6 +30309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if this \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e is valid for use with SubGraphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedBySubGraphs",
           "package": "graphviz",
@@ -29029,6 +30320,7 @@
         "index": {
           "description": "Determine if this Attribute is valid for use with SubGraphs",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "usedBySubGraphs",
           "normalized": "Attribute-\u003eBool",
@@ -29045,6 +30337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if the provided \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value is a valid name for an \u003ccode\u003e\u003ca\u003eUnknownAttribute\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "validUnknown",
           "package": "graphviz",
@@ -29055,6 +30348,7 @@
         "index": {
           "description": "Determine if the provided Text value is valid name for an UnknownAttribute",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "validUnknown",
           "normalized": "AttributeName-\u003eBool",
@@ -29070,6 +30364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "wVal",
           "package": "graphviz",
@@ -29079,6 +30374,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "wVal",
           "package": "graphviz",
@@ -29092,6 +30388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "width",
           "package": "graphviz",
@@ -29101,6 +30398,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "width",
           "package": "graphviz",
@@ -29113,6 +30411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "xCoord",
           "package": "graphviz",
@@ -29122,6 +30421,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "xCoord",
           "package": "graphviz",
@@ -29135,6 +30435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "yCoord",
           "package": "graphviz",
@@ -29144,6 +30445,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "yCoord",
           "package": "graphviz",
@@ -29158,6 +30460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan only be \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDim\u003c/a\u003e\u003c/code\u003e 3\u003c/code\u003e or greater.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "zCoord",
           "package": "graphviz",
@@ -29168,6 +30471,7 @@
         "index": {
           "description": "Can only be Just for Dim or greater",
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "zCoord",
           "package": "graphviz",
@@ -29181,6 +30485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "zVal",
           "package": "graphviz",
@@ -29190,6 +30495,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes Complete",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.Complete",
           "name": "zVal",
           "package": "graphviz",
@@ -29204,6 +30510,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is written to be imported qualified.  It defines the\n   syntax for HTML-like values for use in Graphviz.  Please note that\n   these values are \u003cem\u003enot\u003c/em\u003e really HTML, but the term \"HTML\" is used\n   throughout as it is less cumbersome than \"HTML-like\".  To be able\n   to use this, the version of Graphviz must be at least 1.10.  For\n   more information, please see:\n       \u003ca\u003ehttp://graphviz.org/doc/info/shapes.html#html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThe actual definition of the syntax specifies that these types must\n   be valid XML syntax.  As such, this assumed when printing and parsing,\n   though the correct escape/descaping for \u003ccode\u003e\"\u003c/code\u003e, \u003ccode\u003e&\u003c/code\u003e, \u003ccode\u003e\u003c\u003c/code\u003e and \u003ccode\u003e\u003e\u003c/code\u003e are\n   automatically done when printing and parsing.\n\u003c/p\u003e\u003cp\u003eDifferences from how Graphviz treats HTML-like values:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Graphviz only specifies the above-listed characters must be\n     escaped; however, internally it also escapes \u003ccode\u003e-\u003c/code\u003e, \u003ccode\u003e'\u003c/code\u003e and multiple\n     sequences of spaces.  This library attempts to match this behaviour.\n     Please let me know if this behaviour (especially about escaping\n     multiple spaces) is unwanted.\n\u003c/li\u003e\u003cli\u003e When parsing escaped HTML characters, numeric escapes are\n     converted to the corresponding character as are the various characters\n     listed above; all other escaped characters (apart from those listed\n     above) are silently ignored and removed from the input (since\n     technically these must be valid \u003cem\u003eXML\u003c/em\u003e, which doesn't recognise as many\n     named escape characters as does HTML).\n\u003c/li\u003e\u003cli\u003e All whitespace read in is kept (even if Graphviz would ignore\n     multiple whitespace characters); when printing them, however, they are\n     replaced with non-breaking spaces.  As such, if multiple literal\n     whitespace characters are used in a sequence, then the result of\n     parsing and then printing some Dot code will \u003cem\u003enot\u003c/em\u003e be the same as the\n     initial Dot code.  Furthermore, all whitespace characters are printed\n     as spaces.\n\u003c/li\u003e\u003cli\u003e It is assumed that all parsed \u003ccode\u003e&\u003c/code\u003e values are the beginning of an\n     XML escape sequence (which \u003cem\u003emust\u003c/em\u003e finish with a \u003ccode\u003e;\u003c/code\u003e character).\n\u003c/li\u003e\u003cli\u003e There should be no pre-escaped characters in values; when\n     printing, the \u003ccode\u003e&\u003c/code\u003e will get escaped without considering if that is an\n     escaped character.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HTML",
           "package": "graphviz",
@@ -29213,6 +30520,7 @@
         "index": {
           "description": "This module is written to be imported qualified It defines the syntax for HTML-like values for use in Graphviz Please note that these values are not really HTML but the term HTML is used throughout as it is less cumbersome than HTML-like To be able to use this the version of Graphviz must be at least For more information please see http graphviz.org doc info shapes.html html The actual definition of the syntax specifies that these types must be valid XML syntax As such this assumed when printing and parsing though the correct escape descaping for and are automatically done when printing and parsing Differences from how Graphviz treats HTML-like values Graphviz only specifies the above-listed characters must be escaped however internally it also escapes and multiple sequences of spaces This library attempts to match this behaviour Please let me know if this behaviour especially about escaping multiple spaces is unwanted When parsing escaped HTML characters numeric escapes are converted to the corresponding character as are the various characters listed above all other escaped characters apart from those listed above are silently ignored and removed from the input since technically these must be valid XML which doesn recognise as many named escape characters as does HTML All whitespace read in is kept even if Graphviz would ignore multiple whitespace characters when printing them however they are replaced with non-breaking spaces As such if multiple literal whitespace characters are used in sequence then the result of parsing and then printing some Dot code will not be the same as the initial Dot code Furthermore all whitespace characters are printed as spaces It is assumed that all parsed values are the beginning of an XML escape sequence which must finish with character There should be no pre-escaped characters in values when printing the will get escaped without considering if that is an escaped character",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HTML",
           "package": "graphviz",
@@ -29227,6 +30535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies horizontal placement. When an object is allocated more\n   space than required, this value determines where the extra space\n   is placed left and right of the object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Align",
           "package": "graphviz",
@@ -29236,6 +30545,7 @@
         "index": {
           "description": "Specifies horizontal placement When an object is allocated more space than required this value determines where the extra space is placed left and right of the object",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Align",
           "package": "graphviz",
@@ -29250,6 +30560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that not all \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e values are valid everywhere:\n   see the comments for each one on where it is valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Attribute",
           "package": "graphviz",
@@ -29259,6 +30570,7 @@
         "index": {
           "description": "Note that not all Attribute values are valid everywhere see the comments for each one on where it is valid",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Attribute",
           "package": "graphviz",
@@ -29273,6 +30585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe various HTML-like label-specific attributes being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Attributes",
           "package": "graphviz",
@@ -29282,6 +30595,7 @@
         "index": {
           "description": "The various HTML-like label-specific attributes being used",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Attributes",
           "package": "graphviz",
@@ -29296,6 +30610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCells either recursively contain another \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e or else a\n   path to an image file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Cell",
           "package": "graphviz",
@@ -29305,6 +30620,7 @@
         "index": {
           "description": "Cells either recursively contain another Label or else path to an image file",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Cell",
           "package": "graphviz",
@@ -29318,6 +30634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Format",
           "package": "graphviz",
@@ -29326,6 +30643,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Format",
           "package": "graphviz",
@@ -29340,6 +30658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path to an image; accepted \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e are \u003ccode\u003e\u003ca\u003eScale\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSrc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Img",
           "package": "graphviz",
@@ -29349,6 +30668,7 @@
         "index": {
           "description": "The path to an image accepted Attributes are Scale and Src",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Img",
           "package": "graphviz",
@@ -29363,6 +30683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe overall type for HTML-like labels.  Fundamentally, HTML-like\n   values in Graphviz are either textual (i.e. a single element with\n   formatting) or a table.  Note that \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e values can be\n   nested via \u003ccode\u003e\u003ca\u003eLabelCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Label",
           "package": "graphviz",
@@ -29372,6 +30693,7 @@
         "index": {
           "description": "The overall type for HTML-like labels Fundamentally HTML-like values in Graphviz are either textual i.e single element with formatting or table Note that Label values can be nested via LabelCell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Label",
           "package": "graphviz",
@@ -29386,6 +30708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA row in a \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.  The list of \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e values is\n   assumed to be non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Row",
           "package": "graphviz",
@@ -29395,6 +30718,7 @@
         "index": {
           "description": "row in Table The list of Cell values is assumed to be non-empty",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Row",
           "package": "graphviz",
@@ -29409,6 +30733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how an image will use any extra space available in its\n   cell.  If undefined, the image inherits the value of the\n   \u003ccode\u003eImageScale\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Scale",
           "package": "graphviz",
@@ -29418,6 +30743,7 @@
         "index": {
           "description": "Specifies how an image will use any extra space available in its cell If undefined the image inherits the value of the ImageScale attribute",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Scale",
           "package": "graphviz",
@@ -29432,6 +30758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table in HTML-like labels.  Tables are optionally wrapped in\n   overall \u003ccode\u003eFONT\u003c/code\u003e tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Table",
           "package": "graphviz",
@@ -29441,6 +30768,7 @@
         "index": {
           "description": "table in HTML-like labels Tables are optionally wrapped in overall FONT tags",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Table",
           "package": "graphviz",
@@ -29455,6 +30783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a textual component of an HTML-like label.  It is\n   assumed that a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e list is non-empty.  It is preferable\n   to \"group\" \u003ccode\u003e\u003ca\u003eStr\u003c/a\u003e\u003c/code\u003e values together rather than have\n   individual ones.  Note that when printing, the individual values\n   are concatenated together without spaces, and when parsing\n   anything that isn't a tag is assumed to be a \u003ccode\u003e\u003ca\u003eStr\u003c/a\u003e\u003c/code\u003e: that is,\n   something like \"\u003ccode\u003e\u003cBR/\u003e \u003cBR/\u003e\u003c/code\u003e\" is parsed as:\n\u003c/p\u003e\u003cpre\u003e [Newline [], Str \" \", Newline []]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Text",
           "package": "graphviz",
@@ -29464,6 +30793,7 @@
         "index": {
           "description": "Represents textual component of an HTML-like label It is assumed that Text list is non-empty It is preferable to group Str values together rather than have individual ones Note that when printing the individual values are concatenated together without spaces and when parsing anything that isn tag is assumed to be Str that is something like BR BR is parsed as Newline Str Newline",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Text",
           "package": "graphviz",
@@ -29478,6 +30808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTextual items in HTML-like labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "TextItem",
           "package": "graphviz",
@@ -29487,6 +30818,7 @@
         "index": {
           "description": "Textual items in HTML-like labels",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "TextItem",
           "package": "graphviz",
@@ -29501,6 +30833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies vertical placement. When an object is allocated more\n   space than required, this value determines where the extra space\n   is placed above and below the object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "VAlign",
           "package": "graphviz",
@@ -29510,6 +30843,7 @@
         "index": {
           "description": "Specifies vertical placement When an object is allocated more space than required this value determines where the extra space is placed above and below the object",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "VAlign",
           "package": "graphviz",
@@ -29524,6 +30858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for:  \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNewline\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Align",
           "package": "graphviz",
@@ -29534,6 +30869,7 @@
         "index": {
           "description": "Valid for Table Cell Newline",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Align",
           "package": "graphviz",
@@ -29548,6 +30884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "BAlign",
           "package": "graphviz",
@@ -29558,6 +30895,7 @@
         "index": {
           "description": "Valid for Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "BAlign",
           "package": "graphviz",
@@ -29572,6 +30910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e (including \u003ccode\u003e\u003ca\u003etableFontAttrs\u003c/a\u003e\u003c/code\u003e), \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFont\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "BGColor",
           "package": "graphviz",
@@ -29582,6 +30921,7 @@
         "index": {
           "description": "Valid for Table including tableFontAttrs Cell Font",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "BGColor",
           "package": "graphviz",
@@ -29595,6 +30935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Bold",
           "package": "graphviz",
@@ -29604,6 +30945,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Bold",
           "package": "graphviz",
@@ -29618,6 +30960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.  Default is \u003ccode\u003e1\u003c/code\u003e; \u003ccode\u003e0\u003c/code\u003e represents no border.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Border",
           "package": "graphviz",
@@ -29628,6 +30971,7 @@
         "index": {
           "description": "Valid for Table Cell Default is represents no border",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Border",
           "package": "graphviz",
@@ -29642,6 +30986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.  Default is \u003ccode\u003e1\u003c/code\u003e; \u003ccode\u003e0\u003c/code\u003e represents no border.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "CellBorder",
           "package": "graphviz",
@@ -29652,6 +30997,7 @@
         "index": {
           "description": "Valid for Table Default is represents no border",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "CellBorder",
           "package": "graphviz",
@@ -29666,6 +31012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.  Default is \u003ccode\u003e2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "CellPadding",
           "package": "graphviz",
@@ -29676,6 +31023,7 @@
         "index": {
           "description": "Valid for Table Cell Default is",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "CellPadding",
           "package": "graphviz",
@@ -29690,6 +31038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.  Default is \u003ccode\u003e2\u003c/code\u003e; maximum is \u003ccode\u003e127\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "CellSpacing",
           "package": "graphviz",
@@ -29700,6 +31049,7 @@
         "index": {
           "description": "Valid for Table Cell Default is maximum is",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "CellSpacing",
           "package": "graphviz",
@@ -29713,6 +31063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Cells",
           "package": "graphviz",
@@ -29722,6 +31073,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Cells",
           "normalized": "Cells[Cell]",
@@ -29738,6 +31090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.  Default is \u003ccode\u003e1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ColSpan",
           "package": "graphviz",
@@ -29748,6 +31101,7 @@
         "index": {
           "description": "Valid for Cell Default is",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ColSpan",
           "package": "graphviz",
@@ -29762,6 +31116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Color",
           "package": "graphviz",
@@ -29772,6 +31127,7 @@
         "index": {
           "description": "Valid for Table Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Color",
           "package": "graphviz",
@@ -29785,6 +31141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ExpandBoth",
           "package": "graphviz",
@@ -29794,6 +31151,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ExpandBoth",
           "package": "graphviz",
@@ -29807,6 +31165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ExpandHeight",
           "package": "graphviz",
@@ -29816,6 +31175,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ExpandHeight",
           "package": "graphviz",
@@ -29829,6 +31189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ExpandWidth",
           "package": "graphviz",
@@ -29838,6 +31199,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ExpandWidth",
           "package": "graphviz",
@@ -29852,6 +31214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003etableFontAttrs\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFont\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Face",
           "package": "graphviz",
@@ -29862,6 +31225,7 @@
         "index": {
           "description": "Valid for tableFontAttrs Font",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Face",
           "package": "graphviz",
@@ -29876,6 +31240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.  Default is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "FixedSize",
           "package": "graphviz",
@@ -29886,6 +31251,7 @@
         "index": {
           "description": "Valid for Table Cell Default is False",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "FixedSize",
           "package": "graphviz",
@@ -29899,6 +31265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Font",
           "package": "graphviz",
@@ -29908,6 +31275,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Font",
           "package": "graphviz",
@@ -29922,6 +31290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly available in Graphviz \u003e= 2.28.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Format",
           "package": "graphviz",
@@ -29932,6 +31301,7 @@
         "index": {
           "description": "Only available in Graphviz",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Format",
           "package": "graphviz",
@@ -29945,6 +31315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HBottom",
           "package": "graphviz",
@@ -29954,6 +31325,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HBottom",
           "package": "graphviz",
@@ -29968,6 +31340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HCenter",
           "package": "graphviz",
@@ -29978,6 +31351,7 @@
         "index": {
           "description": "Default value",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HCenter",
           "package": "graphviz",
@@ -29991,6 +31365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HLeft",
           "package": "graphviz",
@@ -30000,6 +31375,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HLeft",
           "package": "graphviz",
@@ -30014,6 +31390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HMiddle",
           "package": "graphviz",
@@ -30024,6 +31401,7 @@
         "index": {
           "description": "Default value",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HMiddle",
           "package": "graphviz",
@@ -30038,6 +31416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HRef",
           "package": "graphviz",
@@ -30048,6 +31427,7 @@
         "index": {
           "description": "Valid for Table Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HRef",
           "package": "graphviz",
@@ -30061,6 +31441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HRight",
           "package": "graphviz",
@@ -30070,6 +31451,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HRight",
           "package": "graphviz",
@@ -30083,6 +31465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HTable",
           "package": "graphviz",
@@ -30092,6 +31475,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HTable",
           "package": "graphviz",
@@ -30106,6 +31490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLabelCell\u003c/a\u003e\u003c/code\u003e values only; aligns lines of text\n   using the full cell width. The alignment of a\n   line is determined by its (possibly implicit)\n   associated \u003ccode\u003e\u003ca\u003eNewline\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HText",
           "package": "graphviz",
@@ -30116,6 +31501,7 @@
         "index": {
           "description": "LabelCell values only aligns lines of text using the full cell width The alignment of line is determined by its possibly implicit associated Newline element",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HText",
           "package": "graphviz",
@@ -30129,6 +31515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HTop",
           "package": "graphviz",
@@ -30138,6 +31525,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HTop",
           "package": "graphviz",
@@ -30152,6 +31540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Height",
           "package": "graphviz",
@@ -30162,6 +31551,7 @@
         "index": {
           "description": "Valid for Table Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Height",
           "package": "graphviz",
@@ -30176,6 +31566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould be between \u003ccode\u003e\u003ca\u003eCells\u003c/a\u003e\u003c/code\u003e values,\n   requires Graphviz \u003e= 2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HorizontalRule",
           "package": "graphviz",
@@ -30186,6 +31577,7 @@
         "index": {
           "description": "Should be between Cells values requires Graphviz",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "HorizontalRule",
           "package": "graphviz",
@@ -30200,6 +31592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.  Requires Graphviz \u003e= 2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ID",
           "package": "graphviz",
@@ -30210,6 +31603,7 @@
         "index": {
           "description": "Valid for Table Cell Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ID",
           "package": "graphviz",
@@ -30223,6 +31617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Img",
           "package": "graphviz",
@@ -30232,6 +31627,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Img",
           "package": "graphviz",
@@ -30245,6 +31641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ImgCell",
           "package": "graphviz",
@@ -30254,6 +31651,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ImgCell",
           "package": "graphviz",
@@ -30267,6 +31665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Italics",
           "package": "graphviz",
@@ -30276,6 +31675,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Italics",
           "package": "graphviz",
@@ -30289,6 +31689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "LabelCell",
           "package": "graphviz",
@@ -30298,6 +31699,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "LabelCell",
           "package": "graphviz",
@@ -30312,6 +31714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "NaturalSize",
           "package": "graphviz",
@@ -30322,6 +31725,7 @@
         "index": {
           "description": "Default value",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "NaturalSize",
           "package": "graphviz",
@@ -30336,6 +31740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly accepts an optional \u003ccode\u003e\u003ca\u003eAlign\u003c/a\u003e\u003c/code\u003e\n   \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e; defined this way for ease of\n   printing/parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Newline",
           "package": "graphviz",
@@ -30346,6 +31751,7 @@
         "index": {
           "description": "Only accepts an optional Align Attribute defined this way for ease of printing parsing",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Newline",
           "package": "graphviz",
@@ -30360,6 +31766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003etableFontAttrs\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFont\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "PointSize",
           "package": "graphviz",
@@ -30370,6 +31777,7 @@
         "index": {
           "description": "Valid for tableFontAttrs Font",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "PointSize",
           "package": "graphviz",
@@ -30384,6 +31792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Port",
           "package": "graphviz",
@@ -30394,6 +31803,7 @@
         "index": {
           "description": "Valid for Table Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Port",
           "package": "graphviz",
@@ -30408,6 +31818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "RowSpan",
           "package": "graphviz",
@@ -30418,6 +31829,7 @@
         "index": {
           "description": "Valid for Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "RowSpan",
           "package": "graphviz",
@@ -30432,6 +31844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eImg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Scale",
           "package": "graphviz",
@@ -30442,6 +31855,7 @@
         "index": {
           "description": "Valid for Img",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Scale",
           "package": "graphviz",
@@ -30455,6 +31869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ScaleUniformly",
           "package": "graphviz",
@@ -30464,6 +31879,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "ScaleUniformly",
           "package": "graphviz",
@@ -30478,6 +31894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eImg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Src",
           "package": "graphviz",
@@ -30488,6 +31905,7 @@
         "index": {
           "description": "Valid for Img",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Src",
           "package": "graphviz",
@@ -30501,6 +31919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Str",
           "package": "graphviz",
@@ -30510,6 +31929,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Str",
           "package": "graphviz",
@@ -30523,6 +31943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Subscript",
           "package": "graphviz",
@@ -30532,6 +31953,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Subscript",
           "package": "graphviz",
@@ -30545,6 +31967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Superscript",
           "package": "graphviz",
@@ -30554,6 +31977,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Superscript",
           "package": "graphviz",
@@ -30567,6 +31991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Table",
           "package": "graphviz",
@@ -30576,6 +32001,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Table",
           "package": "graphviz",
@@ -30590,6 +32016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Target",
           "package": "graphviz",
@@ -30600,6 +32027,7 @@
         "index": {
           "description": "Valid for Table Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Target",
           "package": "graphviz",
@@ -30613,6 +32041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Text",
           "package": "graphviz",
@@ -30622,6 +32051,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Text",
           "package": "graphviz",
@@ -30636,6 +32066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.  Has an alias of \u003ccode\u003eTOOLTIP\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Title",
           "package": "graphviz",
@@ -30646,6 +32077,7 @@
         "index": {
           "description": "Valid for Table Cell Has an alias of TOOLTIP",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Title",
           "package": "graphviz",
@@ -30659,6 +32091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Underline",
           "package": "graphviz",
@@ -30668,6 +32101,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Underline",
           "package": "graphviz",
@@ -30682,6 +32116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "VAlign",
           "package": "graphviz",
@@ -30692,6 +32127,7 @@
         "index": {
           "description": "Valid for Table Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "VAlign",
           "package": "graphviz",
@@ -30706,6 +32142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould be between \u003ccode\u003e\u003ca\u003eLabelCell\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003eImgCell\u003c/a\u003e\u003c/code\u003e values, requires Graphviz \u003e=\n   2.29.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "VerticalRule",
           "package": "graphviz",
@@ -30716,6 +32153,7 @@
         "index": {
           "description": "Should be between LabelCell or ImgCell values requires Graphviz",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "VerticalRule",
           "package": "graphviz",
@@ -30730,6 +32168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid for: \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Width",
           "package": "graphviz",
@@ -30740,6 +32179,7 @@
         "index": {
           "description": "Valid for Table Cell",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "Width",
           "package": "graphviz",
@@ -30753,6 +32193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "tableAttrs",
           "package": "graphviz",
@@ -30762,6 +32203,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "tableAttrs",
           "package": "graphviz",
@@ -30776,6 +32218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional \u003ccode\u003eFONT\u003c/code\u003e attributes.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e\n   []\u003c/code\u003e denotes empty \u003ccode\u003eFONT\u003c/code\u003e tags;\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e denotes no such tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "tableFontAttrs",
           "package": "graphviz",
@@ -30786,6 +32229,7 @@
         "index": {
           "description": "Optional FONT attributes Just denotes empty FONT tags Nothing denotes no such tags",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "tableFontAttrs",
           "package": "graphviz",
@@ -30800,6 +32244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis list is assumed to be non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "tableRows",
           "package": "graphviz",
@@ -30810,6 +32255,7 @@
         "index": {
           "description": "This list is assumed to be non-empty",
           "hierarchy": "Data GraphViz Attributes HTML",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes.HTML",
           "name": "tableRows",
           "normalized": "[Row]",
@@ -30826,6 +32272,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThere are almost 150 possible attributes available for Dot graphs, and\n   it can be difficult to know which ones to use.  This module provides\n   helper functions for the most commonly used ones.\n\u003c/p\u003e\u003cp\u003eThe complete list of all possible attributes can be found in\n   \u003ca\u003eData.GraphViz.Attributes.Complete\u003c/a\u003e; it is possible to use both of\n   these modules if you require specific extra attributes that are not\n   provided here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "Attributes",
           "package": "graphviz",
@@ -30835,6 +32282,7 @@
         "index": {
           "description": "There are almost possible attributes available for Dot graphs and it can be difficult to know which ones to use This module provides helper functions for the most commonly used ones The complete list of all possible attributes can be found in Data.GraphViz.Attributes.Complete it is possible to use both of these modules if you require specific extra attributes that are not provided here",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "Attributes",
           "package": "graphviz",
@@ -30849,6 +32297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA particular way of drawing the end of an edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "Arrow",
           "package": "graphviz",
@@ -30858,6 +32307,7 @@
         "index": {
           "description": "particular way of drawing the end of an edge",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "Arrow",
           "package": "graphviz",
@@ -30872,6 +32322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes are used to customise the layout and design of Dot\n   graphs.  Care must be taken to ensure that the attribute you use\n   is valid, as not all attributes can be used everywhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "Attribute",
           "package": "graphviz",
@@ -30881,6 +32332,7 @@
         "index": {
           "description": "Attributes are used to customise the layout and design of Dot graphs Care must be taken to ensure that the attribute you use is valid as not all attributes can be used everywhere",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "Attribute",
           "package": "graphviz",
@@ -30894,6 +32346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "Attributes",
           "package": "graphviz",
@@ -30902,6 +32355,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "Attributes",
           "package": "graphviz",
@@ -30916,6 +32370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify where to place arrow heads on an edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "DirType",
           "package": "graphviz",
@@ -30925,6 +32380,7 @@
         "index": {
           "description": "Specify where to place arrow heads on an edge",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "DirType",
           "package": "graphviz",
@@ -30939,6 +32395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience class to make it easier to create labels.  It is\n   highly recommended that you make any other types that you wish to\n   create labels from an instance of this class, preferably via the\n   \u003ccode\u003eString\u003c/code\u003e or \u003ccode\u003eText\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "Labellable",
           "package": "graphviz",
@@ -30948,6 +32405,7 @@
         "index": {
           "description": "convenience class to make it easier to create labels It is highly recommended that you make any other types that you wish to create labels from an instance of this class preferably via the String or Text instances",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "Labellable",
           "package": "graphviz",
@@ -30961,6 +32419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "Order",
           "package": "graphviz",
@@ -30969,6 +32428,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "Order",
           "package": "graphviz",
@@ -30982,6 +32442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "RankType",
           "package": "graphviz",
@@ -30990,6 +32451,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "RankType",
           "package": "graphviz",
@@ -31004,6 +32466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeometries of shapes are affected by the attributes \u003ccode\u003e\u003ca\u003eRegular\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003ePeripheries\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOrientation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "Shape",
           "package": "graphviz",
@@ -31013,6 +32476,7 @@
         "index": {
           "description": "Geometries of shapes are affected by the attributes Regular Peripheries and Orientation",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "Shape",
           "package": "graphviz",
@@ -31027,6 +32491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA particular style type to be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "Style",
           "package": "graphviz",
@@ -31036,6 +32501,7 @@
         "index": {
           "description": "particular style type to be used",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "Style",
           "package": "graphviz",
@@ -31050,6 +32516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe X11 colors that Graphviz uses.  Note that these are slightly\n   different from the \"normal\" X11 colors used (e.g. the inclusion\n   of \u003ccode\u003eCrimson\u003c/code\u003e).  Graphviz's list of colors also duplicated almost\n   all \u003ccode\u003eGray\u003c/code\u003e colors with \u003ccode\u003eGrey\u003c/code\u003e ones; parsing of an \u003ccode\u003e\u003ca\u003eX11Color\u003c/a\u003e\u003c/code\u003e\n   which is specified using \"grey\" will succeed, even for those\n   that don't have the duplicate spelling (e.g. \u003ccode\u003eDarkSlateGray1\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "X11Color",
           "package": "graphviz",
@@ -31059,6 +32526,7 @@
         "index": {
           "description": "The X11 colors that Graphviz uses Note that these are slightly different from the normal X11 colors used e.g the inclusion of Crimson Graphviz list of colors also duplicated almost all Gray colors with Grey ones parsing of an X11Color which is specified using grey will succeed even for those that don have the duplicate spelling e.g DarkSlateGray1",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "X11Color",
           "package": "graphviz",
@@ -31073,6 +32541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to draw the arrow at the node the edge is coming from.\n   Requires either \u003ccode\u003e\u003ccode\u003e\u003ca\u003eedgeEnds\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBack\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eedgeEnds\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBoth\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "arrowFrom",
           "package": "graphviz",
@@ -31083,6 +32552,7 @@
         "index": {
           "description": "How to draw the arrow at the node the edge is coming from Requires either edgeEnds Back or edgeEnds Both",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "arrowFrom",
           "normalized": "Arrow-\u003eAttribute",
@@ -31099,6 +32569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to draw the arrow at the node the edge is pointing to.  For\n   an undirected graph, requires either \u003ccode\u003e\u003ccode\u003e\u003ca\u003eedgeEnds\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eForward\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eedgeEnds\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBoth\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "arrowTo",
           "package": "graphviz",
@@ -31109,6 +32580,7 @@
         "index": {
           "description": "How to draw the arrow at the node the edge is pointing to For an undirected graph requires either edgeEnds Forward or edgeEnds Both",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "arrowTo",
           "normalized": "Arrow-\u003eAttribute",
@@ -31125,6 +32597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the background color of a graph or cluster.  For\n   clusters, if \u003ccode\u003e\u003ccode\u003e\u003ca\u003estyle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efilled\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is used, then \u003ccode\u003e\u003ca\u003efillColor\u003c/a\u003e\u003c/code\u003e will\n   override it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "bgColor",
           "package": "graphviz",
@@ -31135,6 +32608,7 @@
         "index": {
           "description": "Specify the background color of graph or cluster For clusters if style filled is used then fillColor will override it",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "bgColor",
           "normalized": "a-\u003eAttribute",
@@ -31151,6 +32625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003ebgColor\u003c/a\u003e\u003c/code\u003e, but add a second color to create a gradient\n   effect.  Requires Graphviz \u003e= 2.29.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "bgColors",
           "package": "graphviz",
@@ -31161,6 +32636,7 @@
         "index": {
           "description": "As with bgColor but add second color to create gradient effect Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "bgColors",
           "normalized": "a-\u003ea-\u003eAttribute",
@@ -31177,6 +32653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso available for edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "bold",
           "package": "graphviz",
@@ -31187,6 +32664,7 @@
         "index": {
           "description": "Also available for edges",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "bold",
           "package": "graphviz",
@@ -31199,6 +32677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "box",
           "package": "graphviz",
@@ -31208,6 +32687,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "box",
           "package": "graphviz",
@@ -31221,6 +32701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ecolor\u003c/code\u003e attribute serves several purposes.  As such care must\n   be taken when using it, and it is preferable to use those\n   alternatives that are available when they exist.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The color of edges;\n\u003c/li\u003e\u003cli\u003e The bounding color of nodes;\n\u003c/li\u003e\u003cli\u003e The bounding color of clusters (i.e. equivalent to \u003ccode\u003e\u003ca\u003epenColor\u003c/a\u003e\u003c/code\u003e);\n\u003c/li\u003e\u003cli\u003e If the \u003ccode\u003e\u003ca\u003efilled\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e is set, then it defines the\n     background color of nodes and clusters unless \u003ccode\u003e\u003ca\u003efillColor\u003c/a\u003e\u003c/code\u003e or\n     \u003ccode\u003e\u003ca\u003ebgColor\u003c/a\u003e\u003c/code\u003e respectively is set.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "color",
           "package": "graphviz",
@@ -31231,6 +32712,7 @@
         "index": {
           "description": "The color attribute serves several purposes As such care must be taken when using it and it is preferable to use those alternatives that are available when they exist The color of edges The bounding color of nodes The bounding color of clusters i.e equivalent to penColor If the filled Style is set then it defines the background color of nodes and clusters unless fillColor or bgColor respectively is set",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "color",
           "normalized": "a-\u003eAttribute",
@@ -31245,6 +32727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "crow",
           "package": "graphviz",
@@ -31254,6 +32737,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "crow",
           "package": "graphviz",
@@ -31267,6 +32751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso available for edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "dashed",
           "package": "graphviz",
@@ -31277,6 +32762,7 @@
         "index": {
           "description": "Also available for edges",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "dashed",
           "package": "graphviz",
@@ -31290,6 +32776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly available for nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "diagonals",
           "package": "graphviz",
@@ -31300,6 +32787,7 @@
         "index": {
           "description": "Only available for nodes",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "diagonals",
           "package": "graphviz",
@@ -31312,6 +32800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "diamond",
           "package": "graphviz",
@@ -31321,6 +32810,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "diamond",
           "package": "graphviz",
@@ -31333,6 +32823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "dotArrow",
           "package": "graphviz",
@@ -31342,6 +32833,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "dotArrow",
           "package": "graphviz",
@@ -31356,6 +32848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso available for edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "dotted",
           "package": "graphviz",
@@ -31366,6 +32859,7 @@
         "index": {
           "description": "Also available for edges",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "dotted",
           "package": "graphviz",
@@ -31379,6 +32873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify where to place arrows on an edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "edgeEnds",
           "package": "graphviz",
@@ -31389,6 +32884,7 @@
         "index": {
           "description": "Specify where to place arrows on an edge",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "edgeEnds",
           "normalized": "DirType-\u003eAttribute",
@@ -31405,6 +32901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the fill color of a node, cluster or arrowhead.  Requires\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003estyle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efilled\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e for nodes and clusters.  For nodes and edges,\n   if this isn't set then the \u003ccode\u003e\u003ca\u003ecolor\u003c/a\u003e\u003c/code\u003e value is used instead; for\n   clusters, \u003ccode\u003e\u003ca\u003ebgColor\u003c/a\u003e\u003c/code\u003e is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "fillColor",
           "package": "graphviz",
@@ -31415,6 +32912,7 @@
         "index": {
           "description": "Specify the fill color of node cluster or arrowhead Requires style filled for nodes and clusters For nodes and edges if this isn set then the color value is used instead for clusters bgColor is used",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "fillColor",
           "normalized": "a-\u003eAttribute",
@@ -31431,6 +32929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003efillColor\u003c/a\u003e\u003c/code\u003e, but add a second color to create a gradient\n   effect.  Requires Graphviz \u003e= 2.29.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "fillColors",
           "package": "graphviz",
@@ -31441,6 +32940,7 @@
         "index": {
           "description": "As with fillColor but add second color to create gradient effect Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "fillColors",
           "normalized": "a-\u003ea-\u003eAttribute",
@@ -31457,6 +32957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso available for clusters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "filled",
           "package": "graphviz",
@@ -31467,6 +32968,7 @@
         "index": {
           "description": "Also available for clusters",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "filled",
           "package": "graphviz",
@@ -31480,6 +32982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the color of text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "fontColor",
           "package": "graphviz",
@@ -31490,6 +32993,7 @@
         "index": {
           "description": "Specify the color of text",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "fontColor",
           "normalized": "a-\u003eAttribute",
@@ -31506,6 +33010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce the positioning of \u003ccode\u003e\u003ca\u003exLabel\u003c/a\u003e\u003c/code\u003es, even when it will cause overlaps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "forceLabels",
           "package": "graphviz",
@@ -31516,6 +33021,7 @@
         "index": {
           "description": "Force the positioning of xLabel even when it will cause overlaps",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "forceLabels",
           "package": "graphviz",
@@ -31530,6 +33036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the angle at which gradient fills are drawn; for use with\n   \u003ccode\u003e\u003ca\u003ebgColors\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efillColors\u003c/a\u003e\u003c/code\u003e.  Requires Graphviz \u003e= 2.29.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "gradientAngle",
           "package": "graphviz",
@@ -31540,6 +33047,7 @@
         "index": {
           "description": "Specify the angle at which gradient fills are drawn for use with bgColors and fillColors Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "gradientAngle",
           "normalized": "Int-\u003eAttribute",
@@ -31555,6 +33063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "inv",
           "package": "graphviz",
@@ -31564,6 +33073,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "inv",
           "package": "graphviz",
@@ -31576,6 +33086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "invDot",
           "package": "graphviz",
@@ -31585,6 +33096,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "invDot",
           "package": "graphviz",
@@ -31598,6 +33110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "invODot",
           "package": "graphviz",
@@ -31607,6 +33120,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "invODot",
           "package": "graphviz",
@@ -31621,6 +33135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso available for edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "invis",
           "package": "graphviz",
@@ -31631,6 +33146,7 @@
         "index": {
           "description": "Also available for edges",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "invis",
           "package": "graphviz",
@@ -31643,6 +33159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "noArrow",
           "package": "graphviz",
@@ -31652,6 +33169,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "noArrow",
           "package": "graphviz",
@@ -31665,6 +33183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "normal",
           "package": "graphviz",
@@ -31674,6 +33193,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "normal",
           "package": "graphviz",
@@ -31686,6 +33206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "oBox",
           "package": "graphviz",
@@ -31695,6 +33216,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "oBox",
           "package": "graphviz",
@@ -31708,6 +33230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "oDiamond",
           "package": "graphviz",
@@ -31717,6 +33240,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "oDiamond",
           "package": "graphviz",
@@ -31730,6 +33254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "oDot",
           "package": "graphviz",
@@ -31739,6 +33264,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "oDot",
           "package": "graphviz",
@@ -31753,6 +33279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify an ordering of edges of a node: either the outgoing or\n   the incoming edges of a node must appear left-to-right in the\n   same order in which they are defined in the input.\n\u003c/p\u003e\u003cp\u003eWhen specified as both a global graph or sub-graph level\n   attribute, then it takes precedence over an attribute specified\n   for an individual node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "ordering",
           "package": "graphviz",
@@ -31763,6 +33290,7 @@
         "index": {
           "description": "Specify an ordering of edges of node either the outgoing or the incoming edges of node must appear left-to-right in the same order in which they are defined in the input When specified as both global graph or sub-graph level attribute then it takes precedence over an attribute specified for an individual node",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "ordering",
           "normalized": "Order-\u003eAttribute",
@@ -31778,6 +33306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the color of the bounding box of a cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "penColor",
           "package": "graphviz",
@@ -31788,6 +33317,7 @@
         "index": {
           "description": "Specify the color of the bounding box of cluster",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "penColor",
           "normalized": "a-\u003eAttribute",
@@ -31804,6 +33334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the width of lines.  Valid for clusters, nodes and edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "penWidth",
           "package": "graphviz",
@@ -31814,6 +33345,7 @@
         "index": {
           "description": "Specify the width of lines Valid for clusters nodes and edges",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "penWidth",
           "normalized": "Double-\u003eAttribute",
@@ -31830,6 +33362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable for nodes, clusters and edges.  When using\n   \u003ccode\u003e\u003ca\u003egradientAngle\u003c/a\u003e\u003c/code\u003e, indicates that a radial gradient should be used.\n   Requires Graphviz \u003e= 2.29.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "radial",
           "package": "graphviz",
@@ -31840,6 +33373,7 @@
         "index": {
           "description": "Available for nodes clusters and edges When using gradientAngle indicates that radial gradient should be used Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "radial",
           "package": "graphviz",
@@ -31853,6 +33387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen using \u003ccode\u003edot\u003c/code\u003e, this allows you to control relative placement\n   of sub-graphs and clusters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "rank",
           "package": "graphviz",
@@ -31863,6 +33398,7 @@
         "index": {
           "description": "When using dot this allows you to control relative placement of sub-graphs and clusters",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "rank",
           "normalized": "RankType-\u003eAttribute",
@@ -31878,6 +33414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso available for clusters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "rounded",
           "package": "graphviz",
@@ -31888,6 +33425,7 @@
         "index": {
           "description": "Also available for clusters",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "rounded",
           "package": "graphviz",
@@ -31901,6 +33439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shape of a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "shape",
           "package": "graphviz",
@@ -31911,6 +33450,7 @@
         "index": {
           "description": "The shape of node",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "shape",
           "normalized": "Shape-\u003eAttribute",
@@ -31926,6 +33466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso available for edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "solid",
           "package": "graphviz",
@@ -31936,6 +33477,7 @@
         "index": {
           "description": "Also available for edges",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "solid",
           "package": "graphviz",
@@ -31949,6 +33491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly available for rectangularly-shaped nodes and\n   clusters.  Requires Graphviz \u003e= 2.30.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "striped",
           "package": "graphviz",
@@ -31959,6 +33502,7 @@
         "index": {
           "description": "Only available for rectangularly-shaped nodes and clusters Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "striped",
           "package": "graphviz",
@@ -31971,6 +33515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "style",
           "package": "graphviz",
@@ -31980,6 +33525,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "style",
           "normalized": "Style-\u003eAttribute",
@@ -31994,6 +33540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "styles",
           "package": "graphviz",
@@ -32003,6 +33550,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "styles",
           "normalized": "[Style]-\u003eAttribute",
@@ -32018,6 +33566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly available for edges; creates a tapered edge between the two\n   nodes.  Requires Graphviz \u003e= 2.29.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "tapered",
           "package": "graphviz",
@@ -32028,6 +33577,7 @@
         "index": {
           "description": "Only available for edges creates tapered edge between the two nodes Requires Graphviz",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "tapered",
           "package": "graphviz",
@@ -32040,6 +33590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "tee",
           "package": "graphviz",
@@ -32049,6 +33600,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "tee",
           "package": "graphviz",
@@ -32062,6 +33614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003etoLabel\u003c/a\u003e\u003c/code\u003e for use with the \u003ccode\u003eOverloadedStrings\u003c/code\u003e\n   extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "textLabel",
           "package": "graphviz",
@@ -32072,6 +33625,7 @@
         "index": {
           "description": "An alias for toLabel for use with the OverloadedStrings extension",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "textLabel",
           "normalized": "Text-\u003eAttribute",
@@ -32088,6 +33642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003etoLabelValue\u003c/a\u003e\u003c/code\u003e for use with the \u003ccode\u003eOverloadedStrings\u003c/code\u003e\n   extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "textLabelValue",
           "package": "graphviz",
@@ -32098,6 +33653,7 @@
         "index": {
           "description": "An alias for toLabelValue for use with the OverloadedStrings extension",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "textLabelValue",
           "normalized": "Text-\u003eLabel",
@@ -32114,6 +33670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoLabelValue\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; the most common label\n   \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "toLabel",
           "package": "graphviz",
@@ -32124,6 +33681,7 @@
         "index": {
           "description": "Equivalent to Label toLabelValue the most common label Attribute",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "toLabel",
           "normalized": "a-\u003eAttribute",
@@ -32140,6 +33698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function only creates a \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e value to enable you to use\n   it for \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e such as \u003ccode\u003e\u003ca\u003eHeadLabel\u003c/a\u003e\u003c/code\u003e, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "toLabelValue",
           "package": "graphviz",
@@ -32150,6 +33709,7 @@
         "index": {
           "description": "This function only creates Label value to enable you to use it for Attributes such as HeadLabel etc",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "toLabelValue",
           "normalized": "a-\u003eLabel",
@@ -32165,6 +33725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "vee",
           "package": "graphviz",
@@ -32174,6 +33735,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "vee",
           "package": "graphviz",
@@ -32186,6 +33748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "wedged",
           "package": "graphviz",
@@ -32195,6 +33758,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "wedged",
           "package": "graphviz",
@@ -32208,6 +33772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a label \u003cem\u003eoutside\u003c/em\u003e of a node/edge.  Currently only in the\n   Graphviz development branch (2.29.*).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "xLabel",
           "package": "graphviz",
@@ -32218,6 +33783,7 @@
         "index": {
           "description": "Create label outside of node edge Currently only in the Graphviz development branch",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "xLabel",
           "normalized": "a-\u003eAttribute",
@@ -32234,6 +33800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003exLabel\u003c/a\u003e\u003c/code\u003e for use with the \u003ccode\u003eOverloadedStrings\u003c/code\u003e extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Attributes",
           "name": "xTextLabel",
           "package": "graphviz",
@@ -32244,6 +33811,7 @@
         "index": {
           "description": "An alias for xLabel for use with the OverloadedStrings extension",
           "hierarchy": "Data GraphViz Attributes",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Attributes",
           "name": "xTextLabel",
           "normalized": "Text-\u003eAttribute",
@@ -32260,6 +33828,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious utility functions to help with custom I/O of Dot code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "IO",
           "package": "graphviz",
@@ -32269,6 +33838,7 @@
         "index": {
           "description": "Various utility functions to help with custom of Dot code",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "IO",
           "package": "graphviz",
@@ -32283,6 +33853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in and parse a \u003ccode\u003eDotRepr\u003c/code\u003e value from the specified \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "hGetDot",
           "package": "graphviz",
@@ -32293,6 +33864,7 @@
         "index": {
           "description": "Read in and parse DotRepr value from the specified Handle",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "hGetDot",
           "normalized": "Handle-\u003eIO(a b)",
@@ -32309,6 +33881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly read in a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value using an appropriate encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "hGetStrict",
           "package": "graphviz",
@@ -32319,6 +33892,7 @@
         "index": {
           "description": "Strictly read in Text value using an appropriate encoding",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "hGetStrict",
           "normalized": "Handle-\u003eIO Text",
@@ -32335,6 +33909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the \u003ccode\u003eDotRepr\u003c/code\u003e to the spcified \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e in a more compact,\n   machine-oriented form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "hPutCompactDot",
           "package": "graphviz",
@@ -32345,6 +33920,7 @@
         "index": {
           "description": "Output the DotRepr to the spcified Handle in more compact machine-oriented form",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "hPutCompactDot",
           "normalized": "Handle-\u003ea b-\u003eIO()",
@@ -32361,6 +33937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the \u003ccode\u003eDotRepr\u003c/code\u003e to the specified \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "hPutDot",
           "package": "graphviz",
@@ -32371,6 +33948,7 @@
         "index": {
           "description": "Output the DotRepr to the specified Handle",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "hPutDot",
           "normalized": "Handle-\u003ea b-\u003eIO()",
@@ -32387,6 +33965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the specified \u003ccode\u003eDotRepr\u003c/code\u003e to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "putDot",
           "package": "graphviz",
@@ -32397,6 +33976,7 @@
         "index": {
           "description": "Print the specified DotRepr to stdout",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "putDot",
           "normalized": "a b-\u003eIO()",
@@ -32413,6 +33993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in and parse a \u003ccode\u003eDotRepr\u003c/code\u003e value from \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "readDot",
           "package": "graphviz",
@@ -32423,6 +34004,7 @@
         "index": {
           "description": "Read in and parse DotRepr value from stdin",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "readDot",
           "package": "graphviz",
@@ -32437,6 +34019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in and parse a \u003ccode\u003eDotRepr\u003c/code\u003e value from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "readDotFile",
           "package": "graphviz",
@@ -32447,6 +34030,7 @@
         "index": {
           "description": "Read in and parse DotRepr value from file",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "readDotFile",
           "normalized": "FilePath-\u003eIO(a b)",
@@ -32463,6 +34047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an external command on the specified \u003ccode\u003eDotRepr\u003c/code\u003e.  Remember to\n   use \u003ccode\u003ehSetBinaryMode\u003c/code\u003e on the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e for the output function if\n   necessary.\n\u003c/p\u003e\u003cp\u003eIf the command was unsuccessful, then a \u003ccode\u003e\u003ca\u003eGraphvizException\u003c/a\u003e\u003c/code\u003e is\n   thrown.\n\u003c/p\u003e\u003cp\u003eFor performance reasons, a temporary file is used to store the\n   generated Dot code.  As such, this is only suitable for local\n   commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "runCommand",
           "package": "graphviz",
@@ -32472,6 +34057,7 @@
         "index": {
           "description": "Run an external command on the specified DotRepr Remember to use hSetBinaryMode on the Handle for the output function if necessary If the command was unsuccessful then GraphvizException is thrown For performance reasons temporary file is used to store the generated Dot code As such this is only suitable for local commands",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "runCommand",
           "normalized": "String-\u003e[String]-\u003e(Handle-\u003eIO a)-\u003eb c-\u003eIO a",
@@ -32488,6 +34074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicitly convert a (lazy) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value using\n   UTF-8 encoding, throwing a \u003ccode\u003e\u003ca\u003eGraphvizException\u003c/a\u003e\u003c/code\u003e if there is a\n   decoding error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "toUTF8",
           "package": "graphviz",
@@ -32498,6 +34085,7 @@
         "index": {
           "description": "Explicitly convert lazy ByteString to Text value using UTF-8 encoding throwing GraphvizException if there is decoding error",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "toUTF8",
           "normalized": "ByteString-\u003eText",
@@ -32514,6 +34102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the specified \u003ccode\u003eDotRepr\u003c/code\u003e to file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands.IO",
           "name": "writeDotFile",
           "package": "graphviz",
@@ -32524,6 +34113,7 @@
         "index": {
           "description": "Write the specified DotRepr to file",
           "hierarchy": "Data GraphViz Commands IO",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands.IO",
           "name": "writeDotFile",
           "normalized": "FilePath-\u003ea b-\u003eIO()",
@@ -32540,6 +34130,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines functions to call the various Graphviz\n   commands.\n\u003c/p\u003e\u003cp\u003eWhilst various output formats are supported (see \u003ccode\u003e\u003ca\u003eGraphvizOutput\u003c/a\u003e\u003c/code\u003e\n   for a complete list), it is not yet possible to choose a desired\n   renderer and formatter.  Being able to determine which renderers\n   and formatters are applicable for a specific \u003ccode\u003e\u003ca\u003eGraphvizOutput\u003c/a\u003e\u003c/code\u003e is\n   not easy (there is no listing of available renderers or formatters\n   on the Graphviz website), and for the most part the default ones do\n   the job well.\n\u003c/p\u003e\u003cp\u003ePlease note that for \u003ccode\u003e\u003ca\u003eGraphvizOutput\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGraphvizCanvas\u003c/a\u003e\u003c/code\u003e, you\n   will see that they are instances of a \u003ccode\u003eGraphvizResult\u003c/code\u003e class; this is\n   an internal class that should not be visible outside this module, but\n   Haddock is being too helpful for its own good.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Commands",
           "package": "graphviz",
@@ -32549,6 +34140,7 @@
         "index": {
           "description": "This module defines functions to call the various Graphviz commands Whilst various output formats are supported see GraphvizOutput for complete list it is not yet possible to choose desired renderer and formatter Being able to determine which renderers and formatters are applicable for specific GraphvizOutput is not easy there is no listing of available renderers or formatters on the Graphviz website and for the most part the default ones do the job well Please note that for GraphvizOutput and GraphvizCanvas you will see that they are instances of GraphvizResult class this is an internal class that should not be visible outside this module but Haddock is being too helpful for its own good",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Commands",
           "package": "graphviz",
@@ -32563,6 +34155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003eGraphvizOutput\u003c/a\u003e\u003c/code\u003e, these items do not produce an output\n   file; instead, they directly draw a canvas (i.e. a window) with\n   the resulting image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "GraphvizCanvas",
           "package": "graphviz",
@@ -32572,6 +34165,7 @@
         "index": {
           "description": "Unlike GraphvizOutput these items do not produce an output file instead they directly draw canvas i.e window with the resulting image",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "GraphvizCanvas",
           "package": "graphviz",
@@ -32586,6 +34180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe available Graphviz commands.  The following directions are\n   based upon those in the Graphviz man page (available online at\n   \u003ca\u003ehttp://graphviz.org/pdf/dot.1.pdf\u003c/a\u003e, or if installed on your\n   system \u003ccode\u003eman graphviz\u003c/code\u003e).  Note that any command can be used on\n   both directed and undirected graphs.\n\u003c/p\u003e\u003cp\u003eWhen used with the \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e attribute, it overrides any actual\n   command called on the dot graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "GraphvizCommand",
           "package": "graphviz",
@@ -32595,6 +34190,7 @@
         "index": {
           "description": "The available Graphviz commands The following directions are based upon those in the Graphviz man page available online at http graphviz.org pdf dot.1.pdf or if installed on your system man graphviz Note that any command can be used on both directed and undirected graphs When used with the Layout attribute it overrides any actual command called on the dot graph",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "GraphvizCommand",
           "package": "graphviz",
@@ -32609,6 +34205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible Graphviz output formats (that is, those that\n   actually produce a file).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "GraphvizOutput",
           "package": "graphviz",
@@ -32618,6 +34215,7 @@
         "index": {
           "description": "The possible Graphviz output formats that is those that actually produce file",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "GraphvizOutput",
           "package": "graphviz",
@@ -32632,6 +34230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindows Bitmap Format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Bmp",
           "package": "graphviz",
@@ -32642,6 +34241,7 @@
         "index": {
           "description": "Windows Bitmap Format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Bmp",
           "package": "graphviz",
@@ -32656,6 +34256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printed Dot output with no\n   layout performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Canon",
           "package": "graphviz",
@@ -32666,6 +34267,7 @@
         "index": {
           "description": "Pretty-printed Dot output with no layout performed",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Canon",
           "package": "graphviz",
@@ -32680,6 +34282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient-side imagemap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Cmapx",
           "package": "graphviz",
@@ -32690,6 +34293,7 @@
         "index": {
           "description": "Client-side imagemap",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Cmapx",
           "package": "graphviz",
@@ -32704,6 +34308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs for \u003ccode\u003e\u003ca\u003eCmapx\u003c/a\u003e\u003c/code\u003e, except only\n   rectangles are used as active\n   areas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "CmapxNP",
           "package": "graphviz",
@@ -32714,6 +34319,7 @@
         "index": {
           "description": "As for Cmapx except only rectangles are used as active areas",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "CmapxNP",
           "package": "graphviz",
@@ -32728,6 +34334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReproduces the input along with\n   layout information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "DotOutput",
           "package": "graphviz",
@@ -32738,6 +34345,7 @@
         "index": {
           "description": "Reproduces the input along with layout information",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "DotOutput",
           "package": "graphviz",
@@ -32752,6 +34360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulated PostScript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Eps",
           "package": "graphviz",
@@ -32762,6 +34371,7 @@
         "index": {
           "description": "Encapsulated PostScript",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Eps",
           "package": "graphviz",
@@ -32776,6 +34386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIG graphics language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Fig",
           "package": "graphviz",
@@ -32786,6 +34397,7 @@
         "index": {
           "description": "FIG graphics language",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Fig",
           "package": "graphviz",
@@ -32800,6 +34412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal GD library format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Gd",
           "package": "graphviz",
@@ -32810,6 +34423,7 @@
         "index": {
           "description": "Internal GD library format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Gd",
           "package": "graphviz",
@@ -32824,6 +34438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompressed version of \u003ccode\u003e\u003ca\u003eGd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Gd2",
           "package": "graphviz",
@@ -32834,6 +34449,7 @@
         "index": {
           "description": "Compressed version of Gd",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Gd2",
           "package": "graphviz",
@@ -32848,6 +34464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraphics Interchange Format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Gif",
           "package": "graphviz",
@@ -32858,6 +34475,7 @@
         "index": {
           "description": "Graphics Interchange Format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Gif",
           "package": "graphviz",
@@ -32871,6 +34489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Gtk",
           "package": "graphviz",
@@ -32880,6 +34499,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Gtk",
           "package": "graphviz",
@@ -32894,6 +34514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIcon image file format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Ico",
           "package": "graphviz",
@@ -32904,6 +34525,7 @@
         "index": {
           "description": "Icon image file format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Ico",
           "package": "graphviz",
@@ -32918,6 +34540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer-side imagemap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Imap",
           "package": "graphviz",
@@ -32928,6 +34551,7 @@
         "index": {
           "description": "Server-side imagemap",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Imap",
           "package": "graphviz",
@@ -32942,6 +34566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs for \u003ccode\u003e\u003ca\u003eImap\u003c/a\u003e\u003c/code\u003e, except only\n   rectangles are used as active\n   areas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "ImapNP",
           "package": "graphviz",
@@ -32952,6 +34577,7 @@
         "index": {
           "description": "As for Imap except only rectangles are used as active areas",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "ImapNP",
           "package": "graphviz",
@@ -32966,6 +34592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JPEG image format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Jpeg",
           "package": "graphviz",
@@ -32976,6 +34603,7 @@
         "index": {
           "description": "The JPEG image format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Jpeg",
           "package": "graphviz",
@@ -32990,6 +34618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePortable Document Format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Pdf",
           "package": "graphviz",
@@ -33000,6 +34629,7 @@
         "index": {
           "description": "Portable Document Format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Pdf",
           "package": "graphviz",
@@ -33014,6 +34644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple text format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Plain",
           "package": "graphviz",
@@ -33024,6 +34655,7 @@
         "index": {
           "description": "Simple text format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Plain",
           "package": "graphviz",
@@ -33038,6 +34670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs for \u003ccode\u003e\u003ca\u003ePlain\u003c/a\u003e\u003c/code\u003e, but provides port\n   names on head and tail nodes when\n   applicable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "PlainExt",
           "package": "graphviz",
@@ -33048,6 +34681,7 @@
         "index": {
           "description": "As for Plain but provides port names on head and tail nodes when applicable",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "PlainExt",
           "package": "graphviz",
@@ -33062,6 +34696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePortable Network Graphics format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Png",
           "package": "graphviz",
@@ -33072,6 +34707,7 @@
         "index": {
           "description": "Portable Network Graphics format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Png",
           "package": "graphviz",
@@ -33086,6 +34722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostScript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Ps",
           "package": "graphviz",
@@ -33096,6 +34733,7 @@
         "index": {
           "description": "PostScript",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Ps",
           "package": "graphviz",
@@ -33110,6 +34748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostScript for PDF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Ps2",
           "package": "graphviz",
@@ -33120,6 +34759,7 @@
         "index": {
           "description": "PostScript for PDF",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Ps2",
           "package": "graphviz",
@@ -33134,6 +34774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalable Vector Graphics format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Svg",
           "package": "graphviz",
@@ -33144,6 +34785,7 @@
         "index": {
           "description": "Scalable Vector Graphics format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Svg",
           "package": "graphviz",
@@ -33158,6 +34800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompressed SVG format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "SvgZ",
           "package": "graphviz",
@@ -33168,6 +34811,7 @@
         "index": {
           "description": "Compressed SVG format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "SvgZ",
           "package": "graphviz",
@@ -33182,6 +34826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTagged Image File Format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Tiff",
           "package": "graphviz",
@@ -33192,6 +34837,7 @@
         "index": {
           "description": "Tagged Image File Format",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Tiff",
           "package": "graphviz",
@@ -33206,6 +34852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector Markup Language; \u003ccode\u003e\u003ca\u003eSvg\u003c/a\u003e\u003c/code\u003e is\n   usually preferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Vml",
           "package": "graphviz",
@@ -33216,6 +34863,7 @@
         "index": {
           "description": "Vector Markup Language Svg is usually preferred",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Vml",
           "package": "graphviz",
@@ -33230,6 +34878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompressed VML format; \u003ccode\u003e\u003ca\u003eSvgZ\u003c/a\u003e\u003c/code\u003e is\n   usually preferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "VmlZ",
           "package": "graphviz",
@@ -33240,6 +34889,7 @@
         "index": {
           "description": "Compressed VML format SvgZ is usually preferred",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "VmlZ",
           "package": "graphviz",
@@ -33254,6 +34904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual Reality Modeling Language\n   format; requires nodes to have a\n   third dimension set via the \u003ccode\u003ePos\u003c/code\u003e\n   attribute (and with a \u003ccode\u003eDim\u003c/code\u003e value\n   of at least \u003ccode\u003e3\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Vrml",
           "package": "graphviz",
@@ -33264,6 +34915,7 @@
         "index": {
           "description": "Virtual Reality Modeling Language format requires nodes to have third dimension set via the Pos attribute and with Dim value of at least",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Vrml",
           "package": "graphviz",
@@ -33278,6 +34930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWireless BitMap format;\n   monochrome format usually used\n   for mobile computing devices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "WBmp",
           "package": "graphviz",
@@ -33288,6 +34941,7 @@
         "index": {
           "description": "Wireless BitMap format monochrome format usually used for mobile computing devices",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "WBmp",
           "package": "graphviz",
@@ -33302,6 +34956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGoogle's WebP format; requires\n   Graphviz \u003e= 2.29.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "WebP",
           "package": "graphviz",
@@ -33312,6 +34967,7 @@
         "index": {
           "description": "Google WebP format requires Graphviz",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "WebP",
           "package": "graphviz",
@@ -33326,6 +34982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003eDotOutput\u003c/a\u003e\u003c/code\u003e, but provides\n   even more information on how the\n   graph is drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "XDot",
           "package": "graphviz",
@@ -33336,6 +34993,7 @@
         "index": {
           "description": "As with DotOutput but provides even more information on how the graph is drawn",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "XDot",
           "package": "graphviz",
@@ -33349,6 +35007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "Xlib",
           "package": "graphviz",
@@ -33358,6 +35017,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "Xlib",
           "package": "graphviz",
@@ -33372,6 +35032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend the default extension for the provided \u003ccode\u003e\u003ca\u003eGraphvizOutput\u003c/a\u003e\u003c/code\u003e to\n   the provided \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e for the output file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "addExtension",
           "package": "graphviz",
@@ -33382,6 +35043,7 @@
         "index": {
           "description": "Append the default extension for the provided GraphvizOutput to the provided FilePath for the output file",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "addExtension",
           "normalized": "(GraphvizOutput-\u003eFilePath-\u003ea)-\u003eGraphvizOutput-\u003eFilePath-\u003ea",
@@ -33398,6 +35060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe appropriate (default) Graphviz command for the given graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "commandFor",
           "package": "graphviz",
@@ -33408,6 +35071,7 @@
         "index": {
           "description": "The appropriate default Graphviz command for the given graph",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "commandFor",
           "normalized": "a b-\u003eGraphvizCommand",
@@ -33424,6 +35088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default command for directed graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "dirCommand",
           "package": "graphviz",
@@ -33434,6 +35099,7 @@
         "index": {
           "description": "The default command for directed graphs",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "dirCommand",
           "package": "graphviz",
@@ -33448,6 +35114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the chosen Graphviz command on this graph, but send the\n   result to the given handle rather than to a file.\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e function \u003cem\u003emust\u003c/em\u003e fully consume\n   the input from the \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e; e.g. use strict \u003ccode\u003eByteStrings\u003c/code\u003e rather\n   than lazy ones.\n\u003c/p\u003e\u003cp\u003eIf the command was unsuccessful, then a \u003ccode\u003e\u003ca\u003eGraphvizException\u003c/a\u003e\u003c/code\u003e is\n   thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "graphvizWithHandle",
           "package": "graphviz",
@@ -33457,6 +35124,7 @@
         "index": {
           "description": "Run the chosen Graphviz command on this graph but send the result to the given handle rather than to file Note that the Handle IO function must fully consume the input from the Handle e.g use strict ByteStrings rather than lazy ones If the command was unsuccessful then GraphvizException is thrown",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "graphvizWithHandle",
           "normalized": "GraphvizCommand-\u003ea b-\u003eGraphvizOutput-\u003e(Handle-\u003eIO c)-\u003eIO c",
@@ -33473,6 +35141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the Graphviz suite of tools installed?  This is determined by\n   whether \u003ccode\u003edot\u003c/code\u003e is available in the \u003ccode\u003ePATH\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "isGraphvizInstalled",
           "package": "graphviz",
@@ -33483,6 +35152,7 @@
         "index": {
           "description": "Is the Graphviz suite of tools installed This is determined by whether dot is available in the PATH",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "isGraphvizInstalled",
           "package": "graphviz",
@@ -33497,6 +35167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf Graphviz does not seem to be available, print the provided\n   error message and then exit fatally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "quitWithoutGraphviz",
           "package": "graphviz",
@@ -33507,6 +35178,7 @@
         "index": {
           "description": "If Graphviz does not seem to be available print the provided error message and then exit fatally",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "quitWithoutGraphviz",
           "normalized": "String-\u003eIO()",
@@ -33523,6 +35195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the recommended Graphviz command on this graph, saving the result\n   to the file provided (note: file extensions are \u003cem\u003enot\u003c/em\u003e checked).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "runGraphviz",
           "package": "graphviz",
@@ -33533,6 +35206,7 @@
         "index": {
           "description": "Run the recommended Graphviz command on this graph saving the result to the file provided note file extensions are not checked",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "runGraphviz",
           "normalized": "a b-\u003eGraphvizOutput-\u003eFilePath-\u003eIO FilePath",
@@ -33549,6 +35223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the chosen Graphviz command on this graph and render it using\n   the given canvas type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "runGraphvizCanvas",
           "package": "graphviz",
@@ -33559,6 +35234,7 @@
         "index": {
           "description": "Run the chosen Graphviz command on this graph and render it using the given canvas type",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "runGraphvizCanvas",
           "normalized": "GraphvizCommand-\u003ea b-\u003eGraphvizCanvas-\u003eIO()",
@@ -33575,6 +35251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the recommended Graphviz command on this graph and render it\n   using the given canvas type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "runGraphvizCanvas'",
           "package": "graphviz",
@@ -33585,6 +35262,7 @@
         "index": {
           "description": "Run the recommended Graphviz command on this graph and render it using the given canvas type",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "runGraphvizCanvas'",
           "normalized": "a b-\u003eGraphvizCanvas-\u003eIO()",
@@ -33601,6 +35279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the chosen Graphviz command on this graph, saving the result\n   to the file provided (note: file extensions are \u003cem\u003enot\u003c/em\u003e checked).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "runGraphvizCommand",
           "package": "graphviz",
@@ -33611,6 +35290,7 @@
         "index": {
           "description": "Run the chosen Graphviz command on this graph saving the result to the file provided note file extensions are not checked",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "runGraphvizCommand",
           "normalized": "GraphvizCommand-\u003ea b-\u003eGraphvizOutput-\u003eFilePath-\u003eIO FilePath",
@@ -33627,6 +35307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default command for undirected graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Commands",
           "name": "undirCommand",
           "package": "graphviz",
@@ -33637,6 +35318,7 @@
         "index": {
           "description": "The default command for undirected graphs",
           "hierarchy": "Data GraphViz Commands",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Commands",
           "name": "undirCommand",
           "package": "graphviz",
@@ -33650,6 +35332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "Exception",
           "package": "graphviz",
@@ -33658,6 +35341,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "Exception",
           "package": "graphviz",
@@ -33672,6 +35356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions that arise from using this library fall into four\n   categories:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Unable to parse provided Dot code.\n\u003c/li\u003e\u003cli\u003e Dot code is not valid UTF-8.\n\u003c/li\u003e\u003cli\u003e An error when trying to run an external program (e.g. \u003ccode\u003edot\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e Treating a non-custom Attribute as a custom one.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "GraphvizException",
           "package": "graphviz",
@@ -33681,6 +35366,7 @@
         "index": {
           "description": "Exceptions that arise from using this library fall into four categories Unable to parse provided Dot code Dot code is not valid UTF-8 An error when trying to run an external program e.g dot Treating non-custom Attribute as custom one",
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "GraphvizException",
           "package": "graphviz",
@@ -33694,6 +35380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "GVProgramExc",
           "package": "graphviz",
@@ -33703,6 +35390,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "GVProgramExc",
           "package": "graphviz",
@@ -33716,6 +35404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "NotCustomAttr",
           "package": "graphviz",
@@ -33725,6 +35414,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "NotCustomAttr",
           "package": "graphviz",
@@ -33738,6 +35428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "NotDotCode",
           "package": "graphviz",
@@ -33747,6 +35438,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "NotDotCode",
           "package": "graphviz",
@@ -33760,6 +35452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "NotUTF8Dot",
           "package": "graphviz",
@@ -33769,6 +35462,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "NotUTF8Dot",
           "package": "graphviz",
@@ -33783,6 +35477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen you want to acquire a resource, do some work with it, and\n then release the resource, it is a good idea to use \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e,\n because \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e will install the necessary exception handler to\n release the resource in the event that an exception is raised\n during the computation.  If an exception is raised, then \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e will\n re-raise the exception (after performing the release).\n\u003c/p\u003e\u003cp\u003eA common example is opening a file:\n\u003c/p\u003e\u003cpre\u003e bracket\n   (openFile \"filename\" ReadMode)\n   (hClose)\n   (\\fileHandle -\u003e do { ... })\n\u003c/pre\u003e\u003cp\u003eThe arguments to \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e are in this order so that we can partially apply\n it, e.g.:\n\u003c/p\u003e\u003cpre\u003e withFile name mode = bracket (openFile name mode) hClose\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "bracket",
           "package": "graphviz",
@@ -33792,6 +35487,7 @@
         "index": {
           "description": "When you want to acquire resource do some work with it and then release the resource it is good idea to use bracket because bracket will install the necessary exception handler to release the resource in the event that an exception is raised during the computation If an exception is raised then bracket will re-raise the exception after performing the release common example is opening file bracket openFile filename ReadMode hClose fileHandle do The arguments to bracket are in this order so that we can partially apply it e.g withFile name mode bracket openFile name mode hClose",
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "bracket",
           "normalized": "IO a-\u003e(a-\u003eIO b)-\u003e(a-\u003eIO c)-\u003eIO c",
@@ -33807,6 +35503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e with the arguments swapped around; useful in\n situations where the code for the handler is shorter.  For example:\n\u003c/p\u003e\u003cpre\u003e   do handle (\\NonTermination -\u003e exitWith (ExitFailure 1)) $\n      ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "handle",
           "package": "graphviz",
@@ -33816,6 +35513,7 @@
         "index": {
           "description": "version of catch with the arguments swapped around useful in situations where the code for the handler is shorter For example do handle NonTermination exitWith ExitFailure",
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "handle",
           "normalized": "(a-\u003eIO b)-\u003eIO b-\u003eIO b",
@@ -33831,6 +35529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function maps one exception into another as proposed in the\n paper \"A semantics for imprecise exceptions\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "mapException",
           "package": "graphviz",
@@ -33840,6 +35539,7 @@
         "index": {
           "description": "This function maps one exception into another as proposed in the paper semantics for imprecise exceptions",
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "mapException",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -33856,6 +35556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an exception.  Exceptions may be thrown from purely\n functional code, but may only be caught within the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Exception",
           "name": "throw",
           "package": "graphviz",
@@ -33865,6 +35566,7 @@
         "index": {
           "description": "Throw an exception Exceptions may be thrown from purely functional code but may only be caught within the IO monad",
           "hierarchy": "Data GraphViz Exception",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Exception",
           "name": "throw",
           "normalized": "a-\u003eb",
@@ -33880,6 +35582,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines simple helper functions for use with\n   \u003ca\u003eText.ParserCombinators.Poly.Lazy\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003eParseDot\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e, etc. match those\n   specified for use with Graphviz (e.g. non-zero integers are\n   equivalent to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eYou should not be using this module; rather, it is here for\n   informative/documentative reasons.  If you want to parse a\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, you should use\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eparseDotGraph\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e rather than its \u003ccode\u003e\u003ca\u003eParseDot\u003c/a\u003e\u003c/code\u003e\n   instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "Parsing",
           "package": "graphviz",
@@ -33889,6 +35592,7 @@
         "index": {
           "description": "This module defines simple helper functions for use with Text.ParserCombinators.Poly.Lazy Note that the ParseDot instances for Bool etc match those specified for use with Graphviz e.g non-zero integers are equivalent to True You should not be using this module rather it is here for informative documentative reasons If you want to parse DotRepr you should use parseDotGraph rather than its ParseDot instance",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "Parsing",
           "package": "graphviz",
@@ -33903,6 +35607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eReadS\u003c/code\u003e-like type alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "Parse",
           "package": "graphviz",
@@ -33912,6 +35617,7 @@
         "index": {
           "description": "ReadS like type alias",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "Parse",
           "package": "graphviz",
@@ -33925,6 +35631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "ParseDot",
           "package": "graphviz",
@@ -33933,6 +35640,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "ParseDot",
           "package": "graphviz",
@@ -33947,6 +35655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a bracketed item, discarding the brackets.\n\u003c/p\u003e\u003cp\u003eThe definition of \u003ccode\u003ebracket\u003c/code\u003e defined in Polyparse uses\n   \u003ccode\u003e\u003ca\u003eadjustErrBad\u003c/a\u003e\u003c/code\u003e and thus doesn't allow backtracking and trying the\n   next possible parser.  This is a version of \u003ccode\u003ebracket\u003c/code\u003e that does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "bracket",
           "package": "graphviz",
@@ -33957,6 +35666,7 @@
         "index": {
           "description": "Parse bracketed item discarding the brackets The definition of bracket defined in Polyparse uses adjustErrBad and thus doesn allow backtracking and trying the next possible parser This is version of bracket that does",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "bracket",
           "normalized": "Parse a-\u003eParse b-\u003eParse c-\u003eParse c",
@@ -33971,6 +35681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "character",
           "package": "graphviz",
@@ -33980,6 +35691,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "character",
           "normalized": "Char-\u003eParse Char",
@@ -33995,6 +35707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf unable to parse \u003cem\u003eDot\u003c/em\u003e code properly, \u003ccode\u003e\u003ca\u003ethrow\u003c/a\u003e\u003c/code\u003e a\n   \u003ccode\u003e\u003ca\u003eGraphvizException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "checkValidParse",
           "package": "graphviz",
@@ -34005,6 +35718,7 @@
         "index": {
           "description": "If unable to parse Dot code properly throw GraphvizException",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "checkValidParse",
           "normalized": "Either String a-\u003ea",
@@ -34020,6 +35734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "commaSep",
           "package": "graphviz",
@@ -34029,6 +35744,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "commaSep",
           "normalized": "Parse(a,b)",
@@ -34044,6 +35760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "commaSep'",
           "package": "graphviz",
@@ -34053,6 +35770,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "commaSep'",
           "normalized": "Parse a-\u003eParse b-\u003eParse(a,b)",
@@ -34068,6 +35786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "commaSepUnqt",
           "package": "graphviz",
@@ -34077,6 +35796,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "commaSepUnqt",
           "normalized": "Parse(a,b)",
@@ -34093,6 +35813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses and returns all characters up till the end of the line,\n   but does not touch the newline characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "consumeLine",
           "package": "graphviz",
@@ -34103,6 +35824,7 @@
         "index": {
           "description": "Parses and returns all characters up till the end of the line but does not touch the newline characters",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "consumeLine",
           "package": "graphviz",
@@ -34117,6 +35839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opposite of \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "ignoreSep",
           "package": "graphviz",
@@ -34127,6 +35850,7 @@
         "index": {
           "description": "The opposite of bracket",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "ignoreSep",
           "normalized": "(a-\u003eb-\u003ec)-\u003eParse a-\u003eParse d-\u003eParse b-\u003eParse c",
@@ -34142,6 +35866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "isIntString",
           "package": "graphviz",
@@ -34151,6 +35876,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "isIntString",
           "normalized": "Text-\u003eBool",
@@ -34167,6 +35893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if this String represents a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "isNumString",
           "package": "graphviz",
@@ -34177,6 +35904,7 @@
         "index": {
           "description": "Determine if this String represents number",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "isNumString",
           "normalized": "Text-\u003eBool",
@@ -34193,6 +35921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "newline",
           "package": "graphviz",
@@ -34203,6 +35932,7 @@
         "index": {
           "description": "Parses newline",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "newline",
           "normalized": "Parse()",
@@ -34218,6 +35948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume all whitespace and newlines until a line with\n   non-whitespace is reached.  The whitespace on that line is\n   not consumed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "newline'",
           "package": "graphviz",
@@ -34228,6 +35959,7 @@
         "index": {
           "description": "Consume all whitespace and newlines until line with non-whitespace is reached The whitespace on that line is not consumed",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "newline'",
           "normalized": "Parse()",
@@ -34242,6 +35974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "noneOf",
           "package": "graphviz",
@@ -34251,6 +35984,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "noneOf",
           "normalized": "[Char]-\u003eParse Char",
@@ -34266,6 +36000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "numString",
           "package": "graphviz",
@@ -34275,6 +36010,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "numString",
           "package": "graphviz",
@@ -34289,6 +36025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this when you do not want numbers to be treated as \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "onlyBool",
           "package": "graphviz",
@@ -34299,6 +36036,7 @@
         "index": {
           "description": "Use this when you do not want numbers to be treated as Bool values",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "onlyBool",
           "package": "graphviz",
@@ -34312,6 +36050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "optionalQuoted",
           "package": "graphviz",
@@ -34321,6 +36060,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "optionalQuoted",
           "normalized": "Parse a-\u003eParse a",
@@ -34336,6 +36076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "optionalQuotedString",
           "package": "graphviz",
@@ -34345,6 +36086,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "optionalQuotedString",
           "normalized": "String-\u003eParse()",
@@ -34360,6 +36102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "orQuote",
           "package": "graphviz",
@@ -34369,6 +36112,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "orQuote",
           "normalized": "Parse Char-\u003eParse Char",
@@ -34384,6 +36128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parse",
           "package": "graphviz",
@@ -34393,6 +36138,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parse",
           "package": "graphviz",
@@ -34405,6 +36151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseAndSpace",
           "package": "graphviz",
@@ -34414,6 +36161,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseAndSpace",
           "normalized": "Parse a-\u003eParse a",
@@ -34429,6 +36177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseAngled",
           "package": "graphviz",
@@ -34438,6 +36187,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseAngled",
           "normalized": "Parse a-\u003eParse a",
@@ -34453,6 +36203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseBraced",
           "package": "graphviz",
@@ -34462,6 +36213,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseBraced",
           "normalized": "Parse a-\u003eParse a",
@@ -34477,6 +36229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseColorScheme",
           "package": "graphviz",
@@ -34486,6 +36239,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseColorScheme",
           "normalized": "Bool-\u003eParse ColorScheme",
@@ -34501,6 +36255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseComma",
           "package": "graphviz",
@@ -34510,6 +36265,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseComma",
           "normalized": "Parse()",
@@ -34525,6 +36281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseEq",
           "package": "graphviz",
@@ -34534,6 +36291,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseEq",
           "normalized": "Parse()",
@@ -34550,6 +36308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e where the provided \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es (as well as \u003ccode\u003e\"\u003c/code\u003e and\n   \u003ccode\u003e\\\u003c/code\u003e) are escaped and the second list of \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es are those that\n   are not permitted.  Note: does not parse surrounding quotes.  The\n   \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e value indicates whether empty \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es are allowed or\n   not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseEscaped",
           "package": "graphviz",
@@ -34560,6 +36319,7 @@
         "index": {
           "description": "Parse String where the provided Char as well as and are escaped and the second list of Char are those that are not permitted Note does not parse surrounding quotes The Bool value indicates whether empty String are allowed or not",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseEscaped",
           "normalized": "Bool-\u003e[Char]-\u003e[Char]-\u003eParse Text",
@@ -34576,6 +36336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the required value, returning also the rest of the input\n   \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e that hasn't been parsed (for debugging purposes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseIt",
           "package": "graphviz",
@@ -34586,6 +36347,7 @@
         "index": {
           "description": "Parse the required value returning also the rest of the input String that hasn been parsed for debugging purposes",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseIt",
           "normalized": "Text-\u003e(a,Text)",
@@ -34602,6 +36364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the required value with the assumption that it will parse\n   all of the input \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseIt'",
           "package": "graphviz",
@@ -34612,6 +36375,7 @@
         "index": {
           "description": "Parse the required value with the assumption that it will parse all of the input String",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseIt'",
           "normalized": "Text-\u003ea",
@@ -34627,6 +36391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseList",
           "package": "graphviz",
@@ -34636,6 +36401,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseList",
           "normalized": "Parse[a]",
@@ -34652,6 +36418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a floating point number that actually contains decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseStrictFloat",
           "package": "graphviz",
@@ -34662,6 +36429,7 @@
         "index": {
           "description": "Parse floating point number that actually contains decimals",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseStrictFloat",
           "package": "graphviz",
@@ -34675,6 +36443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseUnqt",
           "package": "graphviz",
@@ -34684,6 +36453,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseUnqt",
           "package": "graphviz",
@@ -34697,6 +36467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "parseUnqtList",
           "package": "graphviz",
@@ -34706,6 +36477,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "parseUnqtList",
           "normalized": "Parse[a]",
@@ -34721,6 +36493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "quoteChar",
           "package": "graphviz",
@@ -34730,6 +36503,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "quoteChar",
           "package": "graphviz",
@@ -34743,6 +36517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "quotedParse",
           "package": "graphviz",
@@ -34752,6 +36527,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "quotedParse",
           "normalized": "Parse a-\u003eParse a",
@@ -34768,6 +36544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed when quotes are explicitly required;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "quotedString",
           "package": "graphviz",
@@ -34778,6 +36555,7 @@
         "index": {
           "description": "Used when quotes are explicitly required",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "quotedString",
           "package": "graphviz",
@@ -34792,6 +36570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e that doesn't need to be quoted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "quotelessString",
           "package": "graphviz",
@@ -34802,6 +36581,7 @@
         "index": {
           "description": "Parse String that doesn need to be quoted",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "quotelessString",
           "package": "graphviz",
@@ -34815,6 +36595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "runParser",
           "package": "graphviz",
@@ -34824,6 +36605,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "runParser",
           "normalized": "Parse a-\u003eText-\u003e(Either String a,Text)",
@@ -34840,6 +36622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003erunParser\u003c/a\u003e\u003c/code\u003e where it is assumed that the provided\n   parsing function consumes all of the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e input (with the\n   exception of whitespace at the end).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "runParser'",
           "package": "graphviz",
@@ -34850,6 +36633,7 @@
         "index": {
           "description": "variant of runParser where it is assumed that the provided parsing function consumes all of the Text input with the exception of whitespace at the end",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "runParser'",
           "normalized": "Parse a-\u003eText-\u003ea",
@@ -34865,6 +36649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "string",
           "package": "graphviz",
@@ -34874,6 +36659,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "string",
           "normalized": "String-\u003eParse()",
@@ -34888,6 +36674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "stringBlock",
           "package": "graphviz",
@@ -34897,6 +36684,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "stringBlock",
           "package": "graphviz",
@@ -34910,6 +36698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "stringParse",
           "package": "graphviz",
@@ -34919,6 +36708,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "stringParse",
           "normalized": "[(String,Parse a)]-\u003eParse a",
@@ -34934,6 +36724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "stringRep",
           "package": "graphviz",
@@ -34943,6 +36734,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "stringRep",
           "normalized": "a-\u003eString-\u003eParse a",
@@ -34958,6 +36750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "stringReps",
           "package": "graphviz",
@@ -34967,6 +36760,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "stringReps",
           "normalized": "a-\u003e[String]-\u003eParse a",
@@ -34982,6 +36776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "stringValue",
           "package": "graphviz",
@@ -34991,6 +36786,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "stringValue",
           "normalized": "[(String,a)]-\u003eParse a",
@@ -35006,6 +36802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "strings",
           "package": "graphviz",
@@ -35015,6 +36812,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "strings",
           "normalized": "[String]-\u003eParse()",
@@ -35030,6 +36828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse a list of the specified type; returns an empty list\n   if parsing fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "tryParseList",
           "package": "graphviz",
@@ -35040,6 +36839,7 @@
         "index": {
           "description": "Try to parse list of the specified type returns an empty list if parsing fails",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "tryParseList",
           "normalized": "Parse[a]",
@@ -35056,6 +36856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an empty list if parsing a list fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "tryParseList'",
           "package": "graphviz",
@@ -35066,6 +36867,7 @@
         "index": {
           "description": "Return an empty list if parsing list fails",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "tryParseList'",
           "normalized": "Parse[a]-\u003eParse[a]",
@@ -35082,6 +36884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses zero or more whitespace characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "whitespace",
           "package": "graphviz",
@@ -35092,6 +36895,7 @@
         "index": {
           "description": "Parses zero or more whitespace characters",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "whitespace",
           "normalized": "Parse()",
@@ -35107,6 +36911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses at least one whitespace character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "whitespace1",
           "package": "graphviz",
@@ -35117,6 +36922,7 @@
         "index": {
           "description": "Parses at least one whitespace character",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "whitespace1",
           "normalized": "Parse()",
@@ -35132,6 +36938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and discard optional surrounding whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Parsing",
           "name": "wrapWhitespace",
           "package": "graphviz",
@@ -35142,6 +36949,7 @@
         "index": {
           "description": "Parse and discard optional surrounding whitespace",
           "hierarchy": "Data GraphViz Parsing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Parsing",
           "name": "wrapWhitespace",
           "normalized": "Parse a-\u003eParse a",
@@ -35158,6 +36966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Real life\" Dot code contains various items that are not directly\n   parseable by this library.  This module defines the \u003ccode\u003e\u003ca\u003epreProcess\u003c/a\u003e\u003c/code\u003e\n   function to remove these components, which include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Comments (both \u003ccode\u003e/* ... */\u003c/code\u003e style and \u003ccode\u003e// ... \u003c/code\u003e style);\n\u003c/li\u003e\u003cli\u003e Pre-processor lines (lines starting with a \u003ccode\u003e#\u003c/code\u003e);\n\u003c/li\u003e\u003cli\u003e Split lines (by inserting a \u003ccode\u003e\\\u003c/code\u003e the rest of that \"line\" is\n       continued on the next line).\n\u003c/li\u003e\u003cli\u003e Strings concatenated together using \u003ccode\u003e\"...\" + \"...\"\u003c/code\u003e; these\n       are concatenated into one big string.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.PreProcessing",
           "name": "PreProcessing",
           "package": "graphviz",
@@ -35167,6 +36976,7 @@
         "index": {
           "description": "Real life Dot code contains various items that are not directly parseable by this library This module defines the preProcess function to remove these components which include Comments both style and style Pre-processor lines lines starting with Split lines by inserting the rest of that line is continued on the next line Strings concatenated together using these are concatenated into one big string",
           "hierarchy": "Data GraphViz PreProcessing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.PreProcessing",
           "name": "PreProcessing",
           "package": "graphviz",
@@ -35181,6 +36991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove unparseable features of Dot, such as comments and\n   multi-line strings (which are converted to single-line strings).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.PreProcessing",
           "name": "preProcess",
           "package": "graphviz",
@@ -35191,6 +37002,7 @@
         "index": {
           "description": "Remove unparseable features of Dot such as comments and multi-line strings which are converted to single-line strings",
           "hierarchy": "Data GraphViz PreProcessing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.PreProcessing",
           "name": "preProcess",
           "normalized": "Text-\u003eText",
@@ -35207,6 +37019,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines simple helper functions for use with\n   \u003ca\u003eText.PrettyPrint\u003c/a\u003e.  It also re-exports all the pretty-printing\n   combinators from that module.\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003ePrintDot\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e, etc. match those\n   specified for use with Graphviz.\n\u003c/p\u003e\u003cp\u003eYou should only be using this module if you are writing custom node\n   types for use with \u003ca\u003eData.GraphViz.Types\u003c/a\u003e.  For actual printing of\n   code, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eprintDotGraph\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (which produces a\n   \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value).\n\u003c/p\u003e\u003cp\u003eThe Dot language specification specifies that any identifier is in\n   one of four forms:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Any string of alphabetic ([a-zA-Z\\200-\\377]) characters,\n         underscores ('_') or digits ([0-9]), not beginning with a\n         digit;\n\u003c/li\u003e\u003cli\u003e a number [-]?(.[0-9]+ | [0-9]+(.[0-9]*)? );\n\u003c/li\u003e\u003cli\u003e any double-quoted string (\"...\") possibly containing\n         escaped quotes (\\\");\n\u003c/li\u003e\u003cli\u003e an HTML string (\u003c...\u003e).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e(Note that the first restriction is referring to a byte-by-byte\n   comparison using octal values; when using UTF-8 this corresponds to\n   all characters \u003ccode\u003ec\u003c/code\u003e where \u003ccode\u003eord c \u003e= 128\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eDue to these restrictions, you should only use \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e when you are\n   sure that the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e in question is static and quotes are\n   definitely needed/unneeded; it is better to use the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n   instance for \u003ccode\u003e\u003ca\u003ePrintDot\u003c/a\u003e\u003c/code\u003e.  For more information, see the\n   specification page:\n      \u003ca\u003ehttp://graphviz.org/doc/info/lang.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "Printing",
           "package": "graphviz",
@@ -35216,6 +37029,7 @@
         "index": {
           "description": "This module defines simple helper functions for use with Text.PrettyPrint It also re-exports all the pretty-printing combinators from that module Note that the PrintDot instances for Bool etc match those specified for use with Graphviz You should only be using this module if you are writing custom node types for use with Data.GraphViz.Types For actual printing of code use printDotGraph which produces Text value The Dot language specification specifies that any identifier is in one of four forms Any string of alphabetic a-zA-Z characters underscores or digits not beginning with digit number any double-quoted string possibly containing escaped quotes an HTML string Note that the first restriction is referring to byte-by-byte comparison using octal values when using UTF-8 this corresponds to all characters where ord Due to these restrictions you should only use text when you are sure that the Text in question is static and quotes are definitely needed unneeded it is better to use the Text instance for PrintDot For more information see the specification page http graphviz.org doc info lang.html",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "Printing",
           "package": "graphviz",
@@ -35230,6 +37044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type alias to indicate what is being produced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "DotCode",
           "package": "graphviz",
@@ -35239,6 +37054,7 @@
         "index": {
           "description": "type alias to indicate what is being produced",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "DotCode",
           "package": "graphviz",
@@ -35253,6 +37069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class used to correctly print parts of the Graphviz Dot language.\n   Minimal implementation is \u003ccode\u003e\u003ca\u003eunqtDot\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "PrintDot",
           "package": "graphviz",
@@ -35262,6 +37079,7 @@
         "index": {
           "description": "class used to correctly print parts of the Graphviz Dot language Minimal implementation is unqtDot",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "PrintDot",
           "package": "graphviz",
@@ -35275,6 +37093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "addQuotes",
           "package": "graphviz",
@@ -35284,6 +37103,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "addQuotes",
           "normalized": "Text-\u003eDotCode-\u003eDotCode",
@@ -35299,6 +37119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "angled",
           "package": "graphviz",
@@ -35308,6 +37129,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "angled",
           "normalized": "DotCode-\u003eDotCode",
@@ -35322,6 +37144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "commaDel",
           "package": "graphviz",
@@ -35331,6 +37154,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "commaDel",
           "normalized": "a-\u003eb-\u003eDotCode",
@@ -35347,6 +37171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor use with \u003ccode\u003eOverloadedStrings\u003c/code\u003e to avoid ambiguous type variable errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "dotText",
           "package": "graphviz",
@@ -35357,6 +37182,7 @@
         "index": {
           "description": "For use with OverloadedStrings to avoid ambiguous type variable errors",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "dotText",
           "normalized": "Text-\u003eDotCode",
@@ -35372,6 +37198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "fslash",
           "package": "graphviz",
@@ -35381,6 +37208,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "fslash",
           "package": "graphviz",
@@ -35394,6 +37222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe quoted form of \u003ccode\u003e\u003ca\u003eunqtListToDot\u003c/a\u003e\u003c/code\u003e; defaults to wrapping double\n   quotes around the result of \u003ccode\u003e\u003ca\u003eunqtListToDot\u003c/a\u003e\u003c/code\u003e (since the default\n   implementation has characters that must be quoted).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "listToDot",
           "package": "graphviz",
@@ -35404,6 +37233,7 @@
         "index": {
           "description": "The quoted form of unqtListToDot defaults to wrapping double quotes around the result of unqtListToDot since the default implementation has characters that must be quoted",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "listToDot",
           "normalized": "[a]-\u003eDotCode",
@@ -35419,6 +37249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "printColorScheme",
           "package": "graphviz",
@@ -35428,6 +37259,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "printColorScheme",
           "normalized": "Bool-\u003eColorScheme-\u003eDotCode",
@@ -35444,6 +37276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape the specified chars as well as \u003ccode\u003e\"\u003c/code\u003e and then wrap the\n   result in quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "printEscaped",
           "package": "graphviz",
@@ -35454,6 +37287,7 @@
         "index": {
           "description": "Escape the specified chars as well as and then wrap the result in quotes",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "printEscaped",
           "normalized": "[Char]-\u003eText-\u003eDotCode",
@@ -35469,6 +37303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "printField",
           "package": "graphviz",
@@ -35478,6 +37313,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "printField",
           "normalized": "Text-\u003ea-\u003eDotCode",
@@ -35494,6 +37330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to DotCode; note that this has no indentation, as we can\n   only have one of indentation and (possibly) infinite line lengths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "printIt",
           "package": "graphviz",
@@ -35504,6 +37341,7 @@
         "index": {
           "description": "Convert to DotCode note that this has no indentation as we can only have one of indentation and possibly infinite line lengths",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "printIt",
           "normalized": "a-\u003eText",
@@ -35520,6 +37358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorrectly render Graphviz output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "renderDot",
           "package": "graphviz",
@@ -35530,6 +37369,7 @@
         "index": {
           "description": "Correctly render Graphviz output",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "renderDot",
           "normalized": "DotCode-\u003eText",
@@ -35546,6 +37386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual quoted representation; this should be quoted if it\n   contains characters not permitted a plain ID String, a number\n   or it is not an HTML string.  Defaults to \u003ccode\u003e\u003ca\u003eunqtDot\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "toDot",
           "package": "graphviz",
@@ -35556,6 +37397,7 @@
         "index": {
           "description": "The actual quoted representation this should be quoted if it contains characters not permitted plain ID String number or it is not an HTML string Defaults to unqtDot",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "toDot",
           "normalized": "a-\u003eDotCode",
@@ -35572,6 +37414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unquoted representation, for use when composing values to\n   produce a larger printing value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "unqtDot",
           "package": "graphviz",
@@ -35582,6 +37425,7 @@
         "index": {
           "description": "The unquoted representation for use when composing values to produce larger printing value",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "unqtDot",
           "normalized": "a-\u003eDotCode",
@@ -35598,6 +37442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape the specified chars as well as \u003ccode\u003e\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "unqtEscaped",
           "package": "graphviz",
@@ -35608,6 +37453,7 @@
         "index": {
           "description": "Escape the specified chars as well as",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "unqtEscaped",
           "normalized": "[Char]-\u003eText-\u003eDotCode",
@@ -35624,6 +37470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe correct way of representing a list of this value when\n   printed; not all Dot values require this to be implemented.\n   Defaults to Haskell-like list representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "unqtListToDot",
           "package": "graphviz",
@@ -35634,6 +37481,7 @@
         "index": {
           "description": "The correct way of representing list of this value when printed not all Dot values require this to be implemented Defaults to Haskell-like list representation",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "unqtListToDot",
           "normalized": "[a]-\u003eDotCode",
@@ -35650,6 +37498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor use with \u003ccode\u003eOverloadedStrings\u003c/code\u003e to avoid ambiguous type variable errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "unqtText",
           "package": "graphviz",
@@ -35660,6 +37509,7 @@
         "index": {
           "description": "For use with OverloadedStrings to avoid ambiguous type variable errors",
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "unqtText",
           "normalized": "Text-\u003eDotCode",
@@ -35675,6 +37525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Printing",
           "name": "wrap",
           "package": "graphviz",
@@ -35684,6 +37535,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Printing",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Printing",
           "name": "wrap",
           "normalized": "DotCode-\u003eDotCode-\u003eDotCode-\u003eDotCode",
@@ -35699,6 +37551,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA canonical Dot graph requires that within each graph/sub-graph,\n   the statements are in the following order:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e global attributes\n\u003c/li\u003e\u003cli\u003e sub-graphs/clusters\n\u003c/li\u003e\u003cli\u003e nodes\n\u003c/li\u003e\u003cli\u003e edges\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis Dot graph representation is ideally suited for converting\n   other data structures to Dot form (especially with the help of\n   \u003ccode\u003egraphElemsToDot\u003c/code\u003e from \u003ca\u003eData.GraphViz\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eIf you require arbitrary ordering of statements, then use\n   \u003ca\u003eData.GraphViz.Types.Generalised\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe sample graph could be implemented (this is actually the result\n   of calling \u003ccode\u003ecanonicalise\u003c/code\u003e from \u003ca\u003eData.GraphViz.Algorithms\u003c/a\u003e on the\n   generalised one) as:\n\u003c/p\u003e\u003cpre\u003e DotGraph { strictGraph = False\n          , directedGraph = True\n          , graphID = Just (Str \"G\")\n          , graphStatements = DotStmts { attrStmts = []\n                                       , subGraphs = [ DotSG { isCluster = True\n                                                             , subGraphID = Just (Int 0)\n                                                             , subGraphStmts = DotStmts { attrStmts = [ GraphAttrs [ style filled\n                                                                                                                   , color LightGray\n                                                                                                                   , textLabel \"process #1\"]\n                                                                                                      , NodeAttrs [style filled, color White]]}\n                                                                                        , subGraphs = []\n                                                                                        , nodeStmts = [ DotNode \"a0\" []\n                                                                                                      , DotNode \"a1\" []\n                                                                                                      , DotNode \"a2\" []\n                                                                                                      , DotNode \"a3\" []]\n                                                                                        , edgeStmts = [ DotEdge \"a0\" \"a1\" []\n                                                                                                      , DotEdge \"a1\" \"a2\" []\n                                                                                                      , DotEdge \"a2\" \"a3\" []\n                                                                                                      , DotEdge \"a3\" \"a0\" []]}}\n                                                     , DotSG { isCluster = True\n                                                             , subGraphID = Just (Int 1)\n                                                             , subGraphStmts = DotStmts { attrStmts = [ GraphAttrs [textLabel \"process #2\", color Blue]\n                                                                                                      , NodeAttrs [style filled]]\n                                                                                        , subGraphs = []\n                                                                                        , nodeStmts = [ DotNode \"b0\" []\n                                                                                                      , DotNode \"b1\" []\n                                                                                                      , DotNode \"b2\" []\n                                                                                                      , DotNode \"b3\" []]\n                                                                                        , edgeStmts = [ DotEdge \"b0\" \"b1\" []\n                                                                                                      , DotEdge \"b1\" \"b2\" []\n                                                                                                      , DotEdge \"b2\" \"b3\" []]}}]\n                                       , nodeStmts = [ DotNode \"end\" [shape MSquare]\n                                                     , DotNode \"start\" [shape MDiamond]]\n                                       , edgeStmts = [ DotEdge \"start\" \"a0\" []\n                                                     , DotEdge \"start\" \"b0\" []\n                                                     , DotEdge \"a1\" \"b3\" []\n                                                     , DotEdge \"b2\" \"a3\" []\n                                                     , DotEdge \"a3\" \"end\" []\n                                                     , DotEdge \"b3\" \"end\" []]}}\n\u003c/pre\u003e\u003cp\u003eNote that whilst the above graph represents the same Dot graph as\n   specified in \u003ca\u003eData.GraphViz.Types.Generalised\u003c/a\u003e, etc., it \u003cem\u003emay\u003c/em\u003e be\n   drawn slightly differently by the various Graphviz tools.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "Canonical",
           "package": "graphviz",
@@ -35708,6 +37561,7 @@
         "index": {
           "description": "canonical Dot graph requires that within each graph sub-graph the statements are in the following order global attributes sub-graphs clusters nodes edges This Dot graph representation is ideally suited for converting other data structures to Dot form especially with the help of graphElemsToDot from Data.GraphViz If you require arbitrary ordering of statements then use Data.GraphViz.Types.Generalised The sample graph could be implemented this is actually the result of calling canonicalise from Data.GraphViz.Algorithms on the generalised one as DotGraph strictGraph False directedGraph True graphID Just Str graphStatements DotStmts attrStmts subGraphs DotSG isCluster True subGraphID Just Int subGraphStmts DotStmts attrStmts GraphAttrs style filled color LightGray textLabel process NodeAttrs style filled color White subGraphs nodeStmts DotNode a0 DotNode a1 DotNode a2 DotNode a3 edgeStmts DotEdge a0 a1 DotEdge a1 a2 DotEdge a2 a3 DotEdge a3 a0 DotSG isCluster True subGraphID Just Int subGraphStmts DotStmts attrStmts GraphAttrs textLabel process color Blue NodeAttrs style filled subGraphs nodeStmts DotNode b0 DotNode b1 DotNode b2 DotNode b3 edgeStmts DotEdge b0 b1 DotEdge b1 b2 DotEdge b2 b3 nodeStmts DotNode end shape MSquare DotNode start shape MDiamond edgeStmts DotEdge start a0 DotEdge start b0 DotEdge a1 b3 DotEdge b2 a3 DotEdge a3 end DotEdge b3 end Note that whilst the above graph represents the same Dot graph as specified in Data.GraphViz.Types.Generalised etc it may be drawn slightly differently by the various Graphviz tools",
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "Canonical",
           "package": "graphviz",
@@ -35722,6 +37576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn edge in \u003ccode\u003eDotGraph\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotEdge",
           "package": "graphviz",
@@ -35731,6 +37586,7 @@
         "index": {
           "description": "An edge in DotGraph",
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotEdge",
           "package": "graphviz",
@@ -35745,6 +37601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Dot graph in canonical form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotGraph",
           "package": "graphviz",
@@ -35754,6 +37611,7 @@
         "index": {
           "description": "Dot graph in canonical form",
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotGraph",
           "package": "graphviz",
@@ -35768,6 +37626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node in \u003ccode\u003eDotGraph\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotNode",
           "package": "graphviz",
@@ -35777,6 +37636,7 @@
         "index": {
           "description": "node in DotGraph",
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotNode",
           "package": "graphviz",
@@ -35790,6 +37650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotStatements",
           "package": "graphviz",
@@ -35798,6 +37659,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotStatements",
           "package": "graphviz",
@@ -35811,6 +37673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotSubGraph",
           "package": "graphviz",
@@ -35819,6 +37682,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotSubGraph",
           "package": "graphviz",
@@ -35833,6 +37697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a list of top-level list of \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es for the\n   entire graph/sub-graph.  Note that \u003ccode\u003e\u003ca\u003eGraphAttrs\u003c/a\u003e\u003c/code\u003e also applies to\n   \u003ccode\u003eDotSubGraph\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eNote that Dot allows a single \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e to be listed on a line;\n   if this is the case then when parsing, the type of \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e it\n   is determined and that type of \u003ccode\u003eGlobalAttribute\u003c/code\u003e is created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "GlobalAttributes",
           "package": "graphviz",
@@ -35842,6 +37707,7 @@
         "index": {
           "description": "Represents list of top-level list of Attribute for the entire graph sub-graph Note that GraphAttrs also applies to DotSubGraph Note that Dot allows single Attribute to be listed on line if this is the case then when parsing the type of Attribute it is determined and that type of GlobalAttribute is created",
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "GlobalAttributes",
           "package": "graphviz",
@@ -35856,6 +37722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polymorphic type that covers all possible ID values allowed by\n   Dot syntax.  Note that whilst the \u003ccode\u003e\u003ca\u003eParseDot\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePrintDot\u003c/a\u003e\u003c/code\u003e\n   instances for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e will properly take care of the special\n   cases for numbers, they are treated differently here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "GraphID",
           "package": "graphviz",
@@ -35865,6 +37732,7 @@
         "index": {
           "description": "polymorphic type that covers all possible ID values allowed by Dot syntax Note that whilst the ParseDot and PrintDot instances for String will properly take care of the special cases for numbers they are treated differently here",
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "GraphID",
           "package": "graphviz",
@@ -35924,6 +37792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotGraph",
           "package": "graphviz",
@@ -35933,6 +37802,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotGraph",
           "package": "graphviz",
@@ -35969,6 +37839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotSG",
           "package": "graphviz",
@@ -35978,6 +37849,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotSG",
           "package": "graphviz",
@@ -35991,6 +37863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotStmts",
           "package": "graphviz",
@@ -36000,6 +37873,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "DotStmts",
           "package": "graphviz",
@@ -36128,6 +38002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "attrStmts",
           "package": "graphviz",
@@ -36137,6 +38012,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "attrStmts",
           "normalized": "[GlobalAttributes]",
@@ -36174,6 +38050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "directedGraph",
           "package": "graphviz",
@@ -36183,6 +38060,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "directedGraph",
           "package": "graphviz",
@@ -36219,6 +38097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "edgeStmts",
           "package": "graphviz",
@@ -36228,6 +38107,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "edgeStmts",
           "normalized": "[DotEdge a]",
@@ -36266,6 +38146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "graphID",
           "package": "graphviz",
@@ -36275,6 +38156,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "graphID",
           "package": "graphviz",
@@ -36288,6 +38170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "graphStatements",
           "package": "graphviz",
@@ -36297,6 +38180,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "graphStatements",
           "package": "graphviz",
@@ -36310,6 +38194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "isCluster",
           "package": "graphviz",
@@ -36319,6 +38204,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "isCluster",
           "package": "graphviz",
@@ -36378,6 +38264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "nodeStmts",
           "package": "graphviz",
@@ -36387,6 +38274,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "nodeStmts",
           "normalized": "[DotNode a]",
@@ -36403,6 +38291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, no multiple edges are drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "strictGraph",
           "package": "graphviz",
@@ -36413,6 +38302,7 @@
         "index": {
           "description": "If True no multiple edges are drawn",
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "strictGraph",
           "package": "graphviz",
@@ -36426,6 +38316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "subGraphID",
           "package": "graphviz",
@@ -36435,6 +38326,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "subGraphID",
           "package": "graphviz",
@@ -36448,6 +38340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "subGraphStmts",
           "package": "graphviz",
@@ -36457,6 +38350,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "subGraphStmts",
           "package": "graphviz",
@@ -36470,6 +38364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "subGraphs",
           "package": "graphviz",
@@ -36479,6 +38374,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Canonical",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Canonical",
           "name": "subGraphs",
           "normalized": "[DotSubGraph a]",
@@ -36518,6 +38414,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe generalised Dot representation most closely matches the\n   implementation of actual Dot code, as it places no restrictions on\n   ordering of elements, etc.  As such it should be able to parse any\n   existing Dot code (taking into account the parsing\n   limitations/assumptions).\n\u003c/p\u003e\u003cp\u003eThe sample graph could be implemented (this is actually a prettied\n   version of parsing in the Dot code) as:\n\u003c/p\u003e\u003cpre\u003e DotGraph { strictGraph = False\n          , directedGraph = True\n          , graphID = Just (Str \"G\")\n          , graphStatements = Seq.fromList [ SG $ DotSG { isCluster = True\n                                                        , subGraphID = Just (Int 0)\n                                                        , subGraphStmts = Seq.fromList [ GA $ GraphAttrs [style filled]\n                                                                                       , GA $ GraphAttrs [color LightGray]\n                                                                                       , GA $ NodeAttrs [style filled, color White]\n                                                                                       , DE $ DotEdge \"a0\" \"a1\" []\n                                                                                       , DE $ DotEdge \"a1\" \"a2\" []\n                                                                                       , DE $ DotEdge \"a2\" \"a3\" []\n                                                                                       , GA $ GraphAttrs [textLabel \"process #1\"]]}\n                                           , SG $ DotSG { isCluster = True\n                                                        , subGraphID = Just (Int 1)\n                                                        , subGraphStmts = fromList [ GA $ NodeAttrs [style filled]\n                                                                                   , DE $ DotEdge \"b0\" \"b1\" []\n                                                                                   , DE $ DotEdge \"b1\" \"b2\" []\n                                                                                   , DE $ DotEdge \"b2\" \"b3\" []\n                                                                                   , GA $ GraphAttrs [textLabel \"process #2\"]\n                                                                                   , GA $ GraphAttrs [color Blue]]}\n                                           , DE $ DotEdge \"start\" \"a0\" []\n                                           , DE $ DotEdge \"start\" \"b0\" []\n                                           , DE $ DotEdge \"a1\" \"b3\" []\n                                           , DE $ DotEdge \"b2\" \"a3\" []\n                                           , DE $ DotEdge \"a3\" \"a0\" []\n                                           , DE $ DotEdge \"a3\" \"end\" []\n                                           , DE $ DotEdge \"b3\" \"end\" []\n                                           , DN $ DotNode \"start\" [shape MDiamond]\n                                           , DN $ DotNode \"end\" [shape MSquare]]}\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "Generalised",
           "package": "graphviz",
@@ -36527,6 +38424,7 @@
         "index": {
           "description": "The generalised Dot representation most closely matches the implementation of actual Dot code as it places no restrictions on ordering of elements etc As such it should be able to parse any existing Dot code taking into account the parsing limitations assumptions The sample graph could be implemented this is actually prettied version of parsing in the Dot code as DotGraph strictGraph False directedGraph True graphID Just Str graphStatements Seq.fromList SG DotSG isCluster True subGraphID Just Int subGraphStmts Seq.fromList GA GraphAttrs style filled GA GraphAttrs color LightGray GA NodeAttrs style filled color White DE DotEdge a0 a1 DE DotEdge a1 a2 DE DotEdge a2 a3 GA GraphAttrs textLabel process SG DotSG isCluster True subGraphID Just Int subGraphStmts fromList GA NodeAttrs style filled DE DotEdge b0 b1 DE DotEdge b1 b2 DE DotEdge b2 b3 GA GraphAttrs textLabel process GA GraphAttrs color Blue DE DotEdge start a0 DE DotEdge start b0 DE DotEdge a1 b3 DE DotEdge b2 a3 DE DotEdge a3 a0 DE DotEdge a3 end DE DotEdge b3 end DN DotNode start shape MDiamond DN DotNode end shape MSquare",
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "Generalised",
           "package": "graphviz",
@@ -36541,6 +38439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn edge in \u003ccode\u003eDotGraph\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotEdge",
           "package": "graphviz",
@@ -36550,6 +38449,7 @@
         "index": {
           "description": "An edge in DotGraph",
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotEdge",
           "package": "graphviz",
@@ -36564,6 +38464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe internal representation of a generalised graph in Dot form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotGraph",
           "package": "graphviz",
@@ -36573,6 +38474,7 @@
         "index": {
           "description": "The internal representation of generalised graph in Dot form",
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotGraph",
           "package": "graphviz",
@@ -36587,6 +38489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node in \u003ccode\u003eDotGraph\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotNode",
           "package": "graphviz",
@@ -36596,6 +38499,7 @@
         "index": {
           "description": "node in DotGraph",
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotNode",
           "package": "graphviz",
@@ -36609,6 +38513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotStatement",
           "package": "graphviz",
@@ -36617,6 +38522,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotStatement",
           "package": "graphviz",
@@ -36630,6 +38536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotStatements",
           "package": "graphviz",
@@ -36638,6 +38545,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotStatements",
           "package": "graphviz",
@@ -36651,6 +38559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotSubGraph",
           "package": "graphviz",
@@ -36659,6 +38568,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotSubGraph",
           "package": "graphviz",
@@ -36673,6 +38583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a list of top-level list of \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es for the\n   entire graph/sub-graph.  Note that \u003ccode\u003e\u003ca\u003eGraphAttrs\u003c/a\u003e\u003c/code\u003e also applies to\n   \u003ccode\u003eDotSubGraph\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eNote that Dot allows a single \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e to be listed on a line;\n   if this is the case then when parsing, the type of \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e it\n   is determined and that type of \u003ccode\u003eGlobalAttribute\u003c/code\u003e is created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "GlobalAttributes",
           "package": "graphviz",
@@ -36682,6 +38593,7 @@
         "index": {
           "description": "Represents list of top-level list of Attribute for the entire graph sub-graph Note that GraphAttrs also applies to DotSubGraph Note that Dot allows single Attribute to be listed on line if this is the case then when parsing the type of Attribute it is determined and that type of GlobalAttribute is created",
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "GlobalAttributes",
           "package": "graphviz",
@@ -36696,6 +38608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polymorphic type that covers all possible ID values allowed by\n   Dot syntax.  Note that whilst the \u003ccode\u003e\u003ca\u003eParseDot\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePrintDot\u003c/a\u003e\u003c/code\u003e\n   instances for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e will properly take care of the special\n   cases for numbers, they are treated differently here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "GraphID",
           "package": "graphviz",
@@ -36705,6 +38618,7 @@
         "index": {
           "description": "polymorphic type that covers all possible ID values allowed by Dot syntax Note that whilst the ParseDot and PrintDot instances for String will properly take care of the special cases for numbers they are treated differently here",
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "GraphID",
           "package": "graphviz",
@@ -36718,6 +38632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DE",
           "package": "graphviz",
@@ -36727,6 +38642,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DE",
           "package": "graphviz",
@@ -36740,6 +38656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DN",
           "package": "graphviz",
@@ -36749,6 +38666,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DN",
           "package": "graphviz",
@@ -36762,6 +38680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotGraph",
           "package": "graphviz",
@@ -36771,6 +38690,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotGraph",
           "package": "graphviz",
@@ -36784,6 +38704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotSG",
           "package": "graphviz",
@@ -36793,6 +38714,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "DotSG",
           "package": "graphviz",
@@ -36806,6 +38728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "GA",
           "package": "graphviz",
@@ -36815,6 +38738,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "GA",
           "package": "graphviz",
@@ -36828,6 +38752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "SG",
           "package": "graphviz",
@@ -36837,6 +38762,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "SG",
           "package": "graphviz",
@@ -36850,6 +38776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "directedGraph",
           "package": "graphviz",
@@ -36859,6 +38786,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "directedGraph",
           "package": "graphviz",
@@ -36872,6 +38800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "graphID",
           "package": "graphviz",
@@ -36881,6 +38810,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "graphID",
           "package": "graphviz",
@@ -36894,6 +38824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "graphStatements",
           "package": "graphviz",
@@ -36903,6 +38834,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "graphStatements",
           "package": "graphviz",
@@ -36916,6 +38848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "isCluster",
           "package": "graphviz",
@@ -36925,6 +38858,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "isCluster",
           "package": "graphviz",
@@ -36939,6 +38873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, no multiple edges are drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "strictGraph",
           "package": "graphviz",
@@ -36949,6 +38884,7 @@
         "index": {
           "description": "If True no multiple edges are drawn",
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "strictGraph",
           "package": "graphviz",
@@ -36962,6 +38898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "subGraphID",
           "package": "graphviz",
@@ -36971,6 +38908,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "subGraphID",
           "package": "graphviz",
@@ -36984,6 +38922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "subGraphStmts",
           "package": "graphviz",
@@ -36993,6 +38932,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Generalised",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Generalised",
           "name": "subGraphStmts",
           "package": "graphviz",
@@ -37007,6 +38947,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIt is sometimes useful to be able to manipulate a Dot graph \u003cem\u003eas\u003c/em\u003e an\n   actual graph.  This representation lets you do so, using an\n   inductive approach based upon that from FGL (note that \u003ccode\u003e\u003ca\u003eDotGraph\u003c/a\u003e\u003c/code\u003e\n   is \u003cem\u003enot\u003c/em\u003e an instance of the FGL classes due to having the wrong\n   kind).  Note, however, that the API is not as complete as proper\n   graph implementations.\n\u003c/p\u003e\u003cp\u003eFor purposes of manipulation, all edges are found in the root graph\n   and not in a cluster; as such, having \u003ccode\u003e\u003ca\u003eEdgeAttrs\u003c/a\u003e\u003c/code\u003e in a cluster's\n   \u003ccode\u003e\u003ca\u003eGlobalAttributes\u003c/a\u003e\u003c/code\u003e is redundant.\n\u003c/p\u003e\u003cp\u003ePrinting is achieved via \u003ca\u003eData.GraphViz.Types.Canonical\u003c/a\u003e (using\n   \u003ccode\u003e\u003ca\u003etoCanonical\u003c/a\u003e\u003c/code\u003e) and parsing via \u003ca\u003eData.GraphViz.Types.Generalised\u003c/a\u003e\n   (so \u003cem\u003eany\u003c/em\u003e piece of Dot code can be parsed in).\n\u003c/p\u003e\u003cp\u003eThis representation doesn't allow non-cluster sub-graphs.  Also, all\n   clusters \u003cem\u003emust\u003c/em\u003e have a unique identifier.  For those functions (with\n   the exception of \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e methods) that take or return a \"\u003ccode\u003eMaybe\n   GraphID\u003c/code\u003e\", a value of \"\u003ccode\u003eNothing\u003c/code\u003e\" refers to the root graph; \"\u003ccode\u003eJust\n   clust\u003c/code\u003e\" refers to the cluster with the identifier \"\u003ccode\u003eclust\u003c/code\u003e\".\n\u003c/p\u003e\u003cp\u003eYou would not typically explicitly create these values, instead\n   converting existing Dot graphs (via \u003ccode\u003e\u003ca\u003efromDotRepr\u003c/a\u003e\u003c/code\u003e).  However, one\n   way of constructing the sample graph would be:\n\u003c/p\u003e\u003cpre\u003e setID (Str \"G\")\n . setStrictness False\n . setIsDirected True\n . setClusterAttributes (Int 0) [GraphAttrs [style filled, color LightGray, textLabel \"process #1\"], NodeAttrs [style filled, color White]]\n . setClusterAttributes (Int 1) [GraphAttrs [textLabel \"process #2\", color Blue], NodeAttrs [style filled]]\n $ composeList [ Cntxt \"a0\"    (Just $ Int 0)   []               [(\"a3\",[]),(\"start\",[])] [(\"a1\",[])]\n               , Cntxt \"a1\"    (Just $ Int 0)   []               []                       [(\"a2\",[]),(\"b3\",[])]\n               , Cntxt \"a2\"    (Just $ Int 0)   []               []                       [(\"a3\",[])]\n               , Cntxt \"a3\"    (Just $ Int 0)   []               [(\"b2\",[])]              [(\"end\",[])]\n               , Cntxt \"b0\"    (Just $ Int 1)   []               [(\"start\",[])]           [(\"b1\",[])]\n               , Cntxt \"b1\"    (Just $ Int 1)   []               []                       [(\"b2\",[])]\n               , Cntxt \"b2\"    (Just $ Int 1)   []               []                       [(\"b3\",[])]\n               , Cntxt \"b3\"    (Just $ Int 1)   []               []                       [(\"end\",[])]\n               , Cntxt \"end\"   Nothing          [shape MSquare]  []                       []\n               , Cntxt \"start\" Nothing          [shape MDiamond] []                       []]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "Graph",
           "package": "graphviz",
@@ -37016,6 +38957,7 @@
         "index": {
           "description": "It is sometimes useful to be able to manipulate Dot graph as an actual graph This representation lets you do so using an inductive approach based upon that from FGL note that DotGraph is not an instance of the FGL classes due to having the wrong kind Note however that the API is not as complete as proper graph implementations For purposes of manipulation all edges are found in the root graph and not in cluster as such having EdgeAttrs in cluster GlobalAttributes is redundant Printing is achieved via Data.GraphViz.Types.Canonical using toCanonical and parsing via Data.GraphViz.Types.Generalised so any piece of Dot code can be parsed in This representation doesn allow non-cluster sub-graphs Also all clusters must have unique identifier For those functions with the exception of DotRepr methods that take or return Maybe GraphID value of Nothing refers to the root graph Just clust refers to the cluster with the identifier clust You would not typically explicitly create these values instead converting existing Dot graphs via fromDotRepr However one way of constructing the sample graph would be setID Str setStrictness False setIsDirected True setClusterAttributes Int GraphAttrs style filled color LightGray textLabel process NodeAttrs style filled color White setClusterAttributes Int GraphAttrs textLabel process color Blue NodeAttrs style filled composeList Cntxt a0 Just Int a3 start a1 Cntxt a1 Just Int a2 b3 Cntxt a2 Just Int a3 Cntxt a3 Just Int b2 end Cntxt b0 Just Int start b1 Cntxt b1 Just Int b2 Cntxt b2 Just Int b3 Cntxt b3 Just Int end Cntxt end Nothing shape MSquare Cntxt start Nothing shape MDiamond",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "Graph",
           "package": "graphviz",
@@ -37030,6 +38972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe decomposition of a node from a dot graph.  Any loops should\n   be found in \u003ccode\u003e\u003ca\u003esuccessors\u003c/a\u003e\u003c/code\u003e rather than \u003ccode\u003e\u003ca\u003epredecessors\u003c/a\u003e\u003c/code\u003e.  Note also\n   that these are created/consumed as if for \u003cem\u003edirected\u003c/em\u003e graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "Context",
           "package": "graphviz",
@@ -37039,6 +38982,7 @@
         "index": {
           "description": "The decomposition of node from dot graph Any loops should be found in successors rather than predecessors Note also that these are created consumed as if for directed graphs",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "Context",
           "package": "graphviz",
@@ -37053,6 +38997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn edge in \u003ccode\u003eDotGraph\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "DotEdge",
           "package": "graphviz",
@@ -37062,6 +39007,7 @@
         "index": {
           "description": "An edge in DotGraph",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "DotEdge",
           "package": "graphviz",
@@ -37076,6 +39022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Dot graph that allows graph operations on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "DotGraph",
           "package": "graphviz",
@@ -37085,6 +39032,7 @@
         "index": {
           "description": "Dot graph that allows graph operations on it",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "DotGraph",
           "package": "graphviz",
@@ -37099,6 +39047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node in \u003ccode\u003eDotGraph\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "DotNode",
           "package": "graphviz",
@@ -37108,6 +39057,7 @@
         "index": {
           "description": "node in DotGraph",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "DotNode",
           "package": "graphviz",
@@ -37122,6 +39072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polymorphic type that covers all possible ID values allowed by\n   Dot syntax.  Note that whilst the \u003ccode\u003e\u003ca\u003eParseDot\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePrintDot\u003c/a\u003e\u003c/code\u003e\n   instances for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e will properly take care of the special\n   cases for numbers, they are treated differently here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "GraphID",
           "package": "graphviz",
@@ -37131,6 +39082,7 @@
         "index": {
           "description": "polymorphic type that covers all possible ID values allowed by Dot syntax Note that whilst the ParseDot and PrintDot instances for String will properly take care of the special cases for numbers they are treated differently here",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "GraphID",
           "package": "graphviz",
@@ -37145,6 +39097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge the \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e into the graph.  Assumes that the specified\n   node is not in the graph but that all endpoints in the\n   \u003ccode\u003e\u003ca\u003esuccessors\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epredecessors\u003c/a\u003e\u003c/code\u003e (with the exception of loops)\n   are.  If the cluster is not present in the graph, then it will be\n   added with no attributes with a parent of the root graph.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e&\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003edecompose\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e are \u003cem\u003enot\u003c/em\u003e quite inverses, as this\n   function will add in the cluster if it does not yet exist in the\n   graph, but \u003ccode\u003e\u003ca\u003edecompose\u003c/a\u003e\u003c/code\u003e will not delete it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "(&)",
           "package": "graphviz",
@@ -37155,6 +39108,7 @@
         "index": {
           "description": "Merge the Context into the graph Assumes that the specified node is not in the graph but that all endpoints in the successors and predecessors with the exception of loops are If the cluster is not present in the graph then it will be added with no attributes with parent of the root graph Note that and decompose are not quite inverses as this function will add in the cluster if it does not yet exist in the graph but decompose will not delete it",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "(&) &",
           "normalized": "Context a-\u003eDotGraph a-\u003eDotGraph a",
@@ -37169,6 +39123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "Cntxt",
           "package": "graphviz",
@@ -37178,6 +39133,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "Cntxt",
           "package": "graphviz",
@@ -37192,6 +39148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new cluster to the graph; throws an error if the cluster\n   already exists.  Assumes that it doesn't match the identifier of\n   the overall graph.  If the parent cluster doesn't already exist\n   in the graph then it will be added.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addCluster",
           "package": "graphviz",
@@ -37201,6 +39158,7 @@
         "index": {
           "description": "Add new cluster to the graph throws an error if the cluster already exists Assumes that it doesn match the identifier of the overall graph If the parent cluster doesn already exist in the graph then it will be added",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addCluster",
           "normalized": "GraphID-\u003eMaybe GraphID-\u003e[GlobalAttributes]-\u003eDotGraph a-\u003eDotGraph a",
@@ -37217,6 +39175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eaddEdge\u003c/a\u003e\u003c/code\u003e that takes a \u003ccode\u003e\u003ca\u003eDotEdge\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addDotEdge",
           "package": "graphviz",
@@ -37227,6 +39186,7 @@
         "index": {
           "description": "variant of addEdge that takes DotEdge value",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addDotEdge",
           "normalized": "DotEdge a-\u003eDotGraph a-\u003eDotGraph a",
@@ -37243,6 +39203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eaddNode\u003c/a\u003e\u003c/code\u003e that takes in a DotNode (not in a\n   cluster).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addDotNode",
           "package": "graphviz",
@@ -37253,6 +39214,7 @@
         "index": {
           "description": "variant of addNode that takes in DotNode not in cluster",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addDotNode",
           "normalized": "DotNode a-\u003eDotGraph a-\u003eDotGraph a",
@@ -37269,6 +39231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the specified edge to the graph; assumes both node values are\n   already present in the graph.  If the graph is undirected then\n   the order of nodes doesn't matter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addEdge",
           "package": "graphviz",
@@ -37279,6 +39242,7 @@
         "index": {
           "description": "Add the specified edge to the graph assumes both node values are already present in the graph If the graph is undirected then the order of nodes doesn matter",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addEdge",
           "normalized": "a-\u003ea-\u003eAttributes-\u003eDotGraph a-\u003eDotGraph a",
@@ -37295,6 +39259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a node to the current graph.  Throws an error if the node\n   already exists in the graph.\n\u003c/p\u003e\u003cp\u003eIf the specified cluster does not yet exist in the graph, then it\n   will be added (as a sub-graph of the overall graph and no\n   attributes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addNode",
           "package": "graphviz",
@@ -37304,6 +39269,7 @@
         "index": {
           "description": "Add node to the current graph Throws an error if the node already exists in the graph If the specified cluster does not yet exist in the graph then it will be added as sub-graph of the overall graph and no attributes",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "addNode",
           "normalized": "a-\u003eMaybe GraphID-\u003eAttributes-\u003eDotGraph a-\u003eDotGraph a",
@@ -37319,6 +39285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "adjacent",
           "package": "graphviz",
@@ -37328,6 +39295,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "adjacent",
           "normalized": "Context a-\u003e[DotEdge a]",
@@ -37343,6 +39311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll edges involving this node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "adjacentTo",
           "package": "graphviz",
@@ -37353,6 +39322,7 @@
         "index": {
           "description": "All edges involving this node",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "adjacentTo",
           "normalized": "DotGraph a-\u003ea-\u003e[DotEdge a]",
@@ -37368,6 +39338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "attributes",
           "package": "graphviz",
@@ -37377,6 +39348,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "attributes",
           "package": "graphviz",
@@ -37390,6 +39362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the attributes for the node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "attributesOf",
           "package": "graphviz",
@@ -37400,6 +39373,7 @@
         "index": {
           "description": "Return the attributes for the node",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "attributesOf",
           "normalized": "DotGraph a-\u003ea-\u003eAttributes",
@@ -37415,6 +39389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "clusterAttributes",
           "package": "graphviz",
@@ -37424,6 +39399,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "clusterAttributes",
           "normalized": "DotGraph a-\u003eGraphID-\u003e[GlobalAttributes]",
@@ -37440,6 +39416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively merge the list of contexts.\n\u003c/p\u003e\u003cpre\u003e composeList = foldr (&) emptyGraph\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "composeList",
           "package": "graphviz",
@@ -37450,6 +39427,7 @@
         "index": {
           "description": "Recursively merge the list of contexts composeList foldr emptyGraph",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "composeList",
           "normalized": "[Context a]-\u003eDotGraph a",
@@ -37466,6 +39444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA partial inverse of \u003ccode\u003e\u003ccode\u003e\u003ca\u003e&\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, in that if a node exists in a graph\n   then it will be decomposed, but will not remove the cluster that\n   it was in even if it was the only node in that cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "decompose",
           "package": "graphviz",
@@ -37476,6 +39455,7 @@
         "index": {
           "description": "partial inverse of in that if node exists in graph then it will be decomposed but will not remove the cluster that it was in even if it was the only node in that cluster",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "decompose",
           "normalized": "a-\u003eDotGraph a-\u003eMaybe(Context a,DotGraph a)",
@@ -37491,6 +39471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003edecompose\u003c/a\u003e\u003c/code\u003e, but do not specify \u003cem\u003ewhich\u003c/em\u003e node to\n   decompose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "decomposeAny",
           "package": "graphviz",
@@ -37501,6 +39482,7 @@
         "index": {
           "description": "As with decompose but do not specify which node to decompose",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "decomposeAny",
           "normalized": "DotGraph a-\u003eMaybe(Context a,DotGraph a)",
@@ -37517,6 +39499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively decompose the Dot graph into a list of contexts such\n   that if \u003ccode\u003e(c:cs) = decomposeList dg\u003c/code\u003e, then \u003ccode\u003edg = c & \u003ccode\u003e\u003ca\u003ecomposeList\u003c/a\u003e\u003c/code\u003e cs\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that all global attributes are lost, so this is \u003cem\u003enot\u003c/em\u003e\n   suitable for representing a Dot graph on its own.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "decomposeList",
           "package": "graphviz",
@@ -37527,6 +39510,7 @@
         "index": {
           "description": "Recursively decompose the Dot graph into list of contexts such that if cs decomposeList dg then dg composeList cs Note that all global attributes are lost so this is not suitable for representing Dot graph on its own",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "decomposeList",
           "normalized": "DotGraph a-\u003e[Context a]",
@@ -37543,6 +39527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all edges between the two nodes; returns the original\n   graph if there are no edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteAllEdges",
           "package": "graphviz",
@@ -37553,6 +39538,7 @@
         "index": {
           "description": "Delete all edges between the two nodes returns the original graph if there are no edges",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteAllEdges",
           "normalized": "a-\u003ea-\u003eDotGraph a-\u003eDotGraph a",
@@ -37569,6 +39555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the specified cluster, and makes any clusters or nodes\n   within it be in its root cluster (or the overall graph if\n   required).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteCluster",
           "package": "graphviz",
@@ -37579,6 +39566,7 @@
         "index": {
           "description": "Delete the specified cluster and makes any clusters or nodes within it be in its root cluster or the overall graph if required",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteCluster",
           "normalized": "GraphID-\u003eDotGraph a-\u003eDotGraph a",
@@ -37595,6 +39583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003edeleteEdge\u003c/a\u003e\u003c/code\u003e but takes a \u003ccode\u003e\u003ca\u003eDotEdge\u003c/a\u003e\u003c/code\u003e rather than individual\n   values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteDotEdge",
           "package": "graphviz",
@@ -37605,6 +39594,7 @@
         "index": {
           "description": "As with deleteEdge but takes DotEdge rather than individual values",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteDotEdge",
           "normalized": "DotEdge a-\u003eDotGraph a-\u003eDotGraph a",
@@ -37621,6 +39611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the specified edge from the DotGraph (note: for unordered\n   graphs both orientations are considered).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteEdge",
           "package": "graphviz",
@@ -37631,6 +39622,7 @@
         "index": {
           "description": "Deletes the specified edge from the DotGraph note for unordered graphs both orientations are considered",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteEdge",
           "normalized": "a-\u003ea-\u003eAttributes-\u003eDotGraph a-\u003eDotGraph a",
@@ -37647,6 +39639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the specified node from the graph; returns the original\n   graph if that node isn't present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteNode",
           "package": "graphviz",
@@ -37657,6 +39650,7 @@
         "index": {
           "description": "Delete the specified node from the graph returns the original graph if that node isn present",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "deleteNode",
           "normalized": "a-\u003eDotGraph a-\u003eDotGraph a",
@@ -37672,6 +39666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "emptyGraph",
           "package": "graphviz",
@@ -37681,6 +39676,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "emptyGraph",
           "package": "graphviz",
@@ -37695,6 +39691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the ID for the cluster the node is in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "foundInCluster",
           "package": "graphviz",
@@ -37705,6 +39702,7 @@
         "index": {
           "description": "Return the ID for the cluster the node is in",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "foundInCluster",
           "normalized": "DotGraph a-\u003ea-\u003eMaybe GraphID",
@@ -37721,6 +39719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert any existing DotRepr instance to a \u003ccode\u003e\u003ca\u003eDotGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "fromDotRepr",
           "package": "graphviz",
@@ -37731,6 +39730,7 @@
         "index": {
           "description": "Convert any existing DotRepr instance to DotGraph",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "fromDotRepr",
           "normalized": "a b-\u003eDotGraph b",
@@ -37746,6 +39746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "graphAttributes",
           "package": "graphviz",
@@ -37755,6 +39756,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "graphAttributes",
           "normalized": "DotGraph a-\u003e[GlobalAttributes]",
@@ -37771,6 +39773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes this graph have any clusters?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "hasClusters",
           "package": "graphviz",
@@ -37781,6 +39784,7 @@
         "index": {
           "description": "Does this graph have any clusters",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "hasClusters",
           "normalized": "DotGraph a-\u003eBool",
@@ -37797,6 +39801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cluster this node can be found in;\n   \u003ccode\u003eNothing\u003c/code\u003e indicates the node can be\n   found in the root graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "inCluster",
           "package": "graphviz",
@@ -37807,6 +39812,7 @@
         "index": {
           "description": "The cluster this node can be found in Nothing indicates the node can be found in the root graph",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "inCluster",
           "package": "graphviz",
@@ -37821,6 +39827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes this graph have any nodes?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "isEmpty",
           "package": "graphviz",
@@ -37831,6 +39838,7 @@
         "index": {
           "description": "Does this graph have any nodes",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "isEmpty",
           "normalized": "DotGraph a-\u003eBool",
@@ -37847,6 +39855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if this graph has nodes or clusters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "isEmptyGraph",
           "package": "graphviz",
@@ -37857,6 +39866,7 @@
         "index": {
           "description": "Determine if this graph has nodes or clusters",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "isEmptyGraph",
           "normalized": "DotGraph a-\u003eBool",
@@ -37873,6 +39883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a graph with no clusters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "mkGraph",
           "package": "graphviz",
@@ -37883,6 +39894,7 @@
         "index": {
           "description": "Create graph with no clusters",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "mkGraph",
           "normalized": "[DotNode a]-\u003e[DotEdge a]-\u003eDotGraph a",
@@ -37898,6 +39910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "node",
           "package": "graphviz",
@@ -37907,6 +39920,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "node",
           "package": "graphviz",
@@ -37920,6 +39934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich cluster (or the root graph) is this cluster in?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "parentOf",
           "package": "graphviz",
@@ -37930,6 +39945,7 @@
         "index": {
           "description": "Which cluster or the root graph is this cluster in",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "parentOf",
           "normalized": "DotGraph a-\u003eGraphID-\u003eMaybe GraphID",
@@ -37945,6 +39961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "predecessors",
           "package": "graphviz",
@@ -37954,6 +39971,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "predecessors",
           "normalized": "[(a,Attributes)]",
@@ -37969,6 +39987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredecessor edges for the specified node.  For undirected graphs\n   equivalent to \u003ccode\u003e\u003ca\u003eadjacentTo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "predecessorsOf",
           "package": "graphviz",
@@ -37979,6 +39998,7 @@
         "index": {
           "description": "Predecessor edges for the specified node For undirected graphs equivalent to adjacentTo",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "predecessorsOf",
           "normalized": "DotGraph a-\u003ea-\u003e[DotEdge a]",
@@ -37995,6 +40015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove clusters with no sub-clusters and no nodes within them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "removeEmptyClusters",
           "package": "graphviz",
@@ -38005,6 +40026,7 @@
         "index": {
           "description": "Remove clusters with no sub-clusters and no nodes within them",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "removeEmptyClusters",
           "normalized": "DotGraph a-\u003eDotGraph a",
@@ -38021,6 +40043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the attributes of the cluster; adds it if not already\n   present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "setClusterAttributes",
           "package": "graphviz",
@@ -38031,6 +40054,7 @@
         "index": {
           "description": "Specify the attributes of the cluster adds it if not already present",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "setClusterAttributes",
           "normalized": "GraphID-\u003e[GlobalAttributes]-\u003eDotGraph a-\u003eDotGraph a",
@@ -38047,6 +40071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the parent of the cluster; adds both in if not already present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "setClusterParent",
           "package": "graphviz",
@@ -38057,6 +40082,7 @@
         "index": {
           "description": "Specify the parent of the cluster adds both in if not already present",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "setClusterParent",
           "normalized": "GraphID-\u003eMaybe GraphID-\u003eDotGraph a-\u003eDotGraph a",
@@ -38072,6 +40098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "successors",
           "package": "graphviz",
@@ -38081,6 +40108,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "successors",
           "normalized": "[(a,Attributes)]",
@@ -38096,6 +40124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessor edges for the specified node.  For undirected graphs\n   equivalent to \u003ccode\u003e\u003ca\u003eadjacentTo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "successorsOf",
           "package": "graphviz",
@@ -38106,6 +40135,7 @@
         "index": {
           "description": "Successor edges for the specified node For undirected graphs equivalent to adjacentTo",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "successorsOf",
           "normalized": "DotGraph a-\u003ea-\u003e[DotEdge a]",
@@ -38122,6 +40152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert this DotGraph into canonical form.  All edges are found\n   in the outer graph rather than in clusters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "toCanonical",
           "package": "graphviz",
@@ -38132,6 +40163,7 @@
         "index": {
           "description": "Convert this DotGraph into canonical form All edges are found in the outer graph rather than in clusters",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "toCanonical",
           "normalized": "DotGraph a-\u003eDotGraph a",
@@ -38148,6 +40180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a canonical Dot graph to a graph-based one.  This assumes\n   that the canonical graph is the same format as returned by\n   \u003ccode\u003e\u003ca\u003etoCanonical\u003c/a\u003e\u003c/code\u003e.  The \"unsafeness\" is that:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e All clusters must have a unique identifier (\u003ccode\u003e\u003ca\u003eunAnonymise\u003c/a\u003e\u003c/code\u003e can\n     be used to make sure all clusters \u003cem\u003ehave\u003c/em\u003e an identifier, but it\n     doesn't ensure uniqueness).\n\u003c/li\u003e\u003cli\u003e All nodes are assumed to be explicitly listed precisely once.\n\u003c/li\u003e\u003cli\u003e Only edges found in the root graph are considered.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf this isn't the case, use \u003ccode\u003e\u003ca\u003efromCanonical\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003egraphToDot\u003c/code\u003e function from \u003ca\u003eData.GraphViz\u003c/a\u003e produces output\n   suitable for this function (assuming all clusters are provided\n   with a unique identifier); \u003ccode\u003egraphElemsToDot\u003c/code\u003e is suitable if all\n   nodes are specified in the input list (rather than just the\n   edges).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Graph",
           "name": "unsafeFromCanonical",
           "package": "graphviz",
@@ -38158,6 +40191,7 @@
         "index": {
           "description": "Convert canonical Dot graph to graph-based one This assumes that the canonical graph is the same format as returned by toCanonical The unsafeness is that All clusters must have unique identifier unAnonymise can be used to make sure all clusters have an identifier but it doesn ensure uniqueness All nodes are assumed to be explicitly listed precisely once Only edges found in the root graph are considered If this isn the case use fromCanonical instead The graphToDot function from Data.GraphViz produces output suitable for this function assuming all clusters are provided with unique identifier graphElemsToDot is suitable if all nodes are specified in the input list rather than just the edges",
           "hierarchy": "Data GraphViz Types Graph",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Graph",
           "name": "unsafeFromCanonical",
           "normalized": "DotGraph a-\u003eDotGraph a",
@@ -38174,6 +40208,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is based upon the \u003cem\u003edotgen\u003c/em\u003e library by Andy Gill:\n   \u003ca\u003ehttp://hackage.haskell.org/package/dotgen\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIt provides a monadic interface for constructing generalised Dot\n   graphs.  Note that this does \u003cem\u003enot\u003c/em\u003e have an instance for \u003ccode\u003eDotRepr\u003c/code\u003e\n   (e.g. what would be the point of the \u003ccode\u003efromCanonical\u003c/code\u003e function, as\n   you can't do anything with the result): it is purely for\n   construction purposes.  Use the generalised Dot graph instance for\n   printing, etc.\n\u003c/p\u003e\u003cp\u003eNote that the generalised Dot graph types are \u003cem\u003enot\u003c/em\u003e re-exported, in\n   case it causes a clash with other modules you may choose to import.\n\u003c/p\u003e\u003cp\u003eThe example graph in \u003ca\u003eData.GraphViz.Types\u003c/a\u003e can be written as:\n\u003c/p\u003e\u003cpre\u003e digraph (Str \"G\") $ do\n\n    cluster (Int 0) $ do\n        graphAttrs [style filled, color LightGray]\n        nodeAttrs [style filled, color White]\n        \"a0\" --\u003e \"a1\"\n        \"a1\" --\u003e \"a2\"\n        \"a2\" --\u003e \"a3\"\n        graphAttrs [textLabel \"process #1\"]\n\n    cluster (Int 1) $ do\n        nodeAttrs [style filled]\n        \"b0\" --\u003e \"b1\"\n        \"b1\" --\u003e \"b2\"\n        \"b2\" --\u003e \"b3\"\n        graphAttrs [textLabel \"process #2\", color Blue]\n\n    \"start\" --\u003e \"a0\"\n    \"start\" --\u003e \"b0\"\n    \"a1\" --\u003e \"b3\"\n    \"b2\" --\u003e \"a3\"\n    \"a3\" --\u003e \"end\"\n    \"b3\" --\u003e \"end\"\n\n    node \"start\" [shape MDiamond]\n    node \"end\" [shape MSquare]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "Monadic",
           "package": "graphviz",
@@ -38183,6 +40218,7 @@
         "index": {
           "description": "This module is based upon the dotgen library by Andy Gill http hackage.haskell.org package dotgen It provides monadic interface for constructing generalised Dot graphs Note that this does not have an instance for DotRepr e.g what would be the point of the fromCanonical function as you can do anything with the result it is purely for construction purposes Use the generalised Dot graph instance for printing etc Note that the generalised Dot graph types are not re-exported in case it causes clash with other modules you may choose to import The example graph in Data.GraphViz.Types can be written as digraph Str do cluster Int do graphAttrs style filled color LightGray nodeAttrs style filled color White a0 a1 a1 a2 a2 a3 graphAttrs textLabel process cluster Int do nodeAttrs style filled b0 b1 b1 b2 b2 b3 graphAttrs textLabel process color Blue start a0 start b0 a1 b3 b2 a3 a3 end b3 end node start shape MDiamond node end shape MSquare",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "Monadic",
           "package": "graphviz",
@@ -38197,6 +40233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic representation of a Dot graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "Dot",
           "package": "graphviz",
@@ -38206,6 +40243,7 @@
         "index": {
           "description": "The monadic representation of Dot graph",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "Dot",
           "package": "graphviz",
@@ -38220,6 +40258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual monad; as with \u003ccode\u003e\u003ca\u003eDot\u003c/a\u003e\u003c/code\u003e but allows you to return a value\n   within the do-block.  The actual implementation is based upon the\n   Writer monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "DotM",
           "package": "graphviz",
@@ -38229,6 +40268,7 @@
         "index": {
           "description": "The actual monad as with Dot but allows you to return value within the do-block The actual implementation is based upon the Writer monad",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "DotM",
           "package": "graphviz",
@@ -38243,6 +40283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polymorphic type that covers all possible ID values allowed by\n   Dot syntax.  Note that whilst the \u003ccode\u003e\u003ca\u003eParseDot\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePrintDot\u003c/a\u003e\u003c/code\u003e\n   instances for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e will properly take care of the special\n   cases for numbers, they are treated differently here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "GraphID",
           "package": "graphviz",
@@ -38252,6 +40293,7 @@
         "index": {
           "description": "polymorphic type that covers all possible ID values allowed by Dot syntax Note that whilst the ParseDot and PrintDot instances for String will properly take care of the special cases for numbers they are treated differently here",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "GraphID",
           "package": "graphviz",
@@ -38266,6 +40308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an edge with no attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "(--\u003e)",
           "package": "graphviz",
@@ -38276,6 +40319,7 @@
         "index": {
           "description": "Add an edge with no attributes",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "(--\u003e) --\u003e",
           "normalized": "a-\u003ea-\u003eDot a",
@@ -38291,6 +40335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003e--\u003e\u003c/a\u003e\u003c/code\u003e to make edges look more undirected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "(\u003c-\u003e)",
           "package": "graphviz",
@@ -38301,6 +40346,7 @@
         "index": {
           "description": "An alias for to make edges look more undirected",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003eDot a",
@@ -38316,6 +40362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a named cluster to the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "cluster",
           "package": "graphviz",
@@ -38326,6 +40373,7 @@
         "index": {
           "description": "Add named cluster to the graph",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "cluster",
           "normalized": "GraphID-\u003eDotM a b-\u003eDot a",
@@ -38341,6 +40389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a directed dot graph with the specified graph ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "digraph",
           "package": "graphviz",
@@ -38351,6 +40400,7 @@
         "index": {
           "description": "Create directed dot graph with the specified graph ID",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "digraph",
           "normalized": "GraphID-\u003eDotM a b-\u003eDotGraph a",
@@ -38366,6 +40416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a directed dot graph with no graph ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "digraph'",
           "package": "graphviz",
@@ -38376,6 +40427,7 @@
         "index": {
           "description": "Create directed dot graph with no graph ID",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "digraph'",
           "normalized": "DotM a b-\u003eDotGraph a",
@@ -38391,6 +40443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an edge to the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "edge",
           "package": "graphviz",
@@ -38401,6 +40454,7 @@
         "index": {
           "description": "Add an edge to the graph",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "edge",
           "normalized": "a-\u003ea-\u003eAttributes-\u003eDot a",
@@ -38416,6 +40470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd global edge attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "edgeAttrs",
           "package": "graphviz",
@@ -38426,6 +40481,7 @@
         "index": {
           "description": "Add global edge attributes",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "edgeAttrs",
           "normalized": "Attributes-\u003eDot a",
@@ -38442,6 +40498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a undirected dot graph with the specified graph ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "graph",
           "package": "graphviz",
@@ -38452,6 +40509,7 @@
         "index": {
           "description": "Create undirected dot graph with the specified graph ID",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "graph",
           "normalized": "GraphID-\u003eDotM a b-\u003eDotGraph a",
@@ -38467,6 +40525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a undirected dot graph with no graph ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "graph'",
           "package": "graphviz",
@@ -38477,6 +40536,7 @@
         "index": {
           "description": "Create undirected dot graph with no graph ID",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "graph'",
           "normalized": "DotM a b-\u003eDotGraph a",
@@ -38492,6 +40552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd graph\u003cem\u003esub-graph\u003c/em\u003ecluster attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "graphAttrs",
           "package": "graphviz",
@@ -38502,6 +40563,7 @@
         "index": {
           "description": "Add graph sub-graph cluster attributes",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "graphAttrs",
           "normalized": "Attributes-\u003eDot a",
@@ -38518,6 +40580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a node to the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "node",
           "package": "graphviz",
@@ -38528,6 +40591,7 @@
         "index": {
           "description": "Add node to the graph",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "node",
           "normalized": "a-\u003eAttributes-\u003eDot a",
@@ -38543,6 +40607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a node with no attributes to the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "node'",
           "package": "graphviz",
@@ -38553,6 +40618,7 @@
         "index": {
           "description": "Add node with no attributes to the graph",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "node'",
           "normalized": "a-\u003eDot a",
@@ -38568,6 +40634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd global node attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "nodeAttrs",
           "package": "graphviz",
@@ -38578,6 +40645,7 @@
         "index": {
           "description": "Add global node attributes",
           "hierarchy": "Data GraphViz Types Monadic",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types.Monadic",
           "name": "nodeAttrs",
           "normalized": "Attributes-\u003eDot a",
@@ -38594,6 +40662,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFour different representations of Dot graphs are available, all of\n   which are based loosely upon the specifications at:\n   \u003ca\u003ehttp://graphviz.org/doc/info/lang.html\u003c/a\u003e.  The \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e class\n   provides a common interface for them (the \u003ccode\u003e\u003ca\u003ePrintDotRepr\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eParseDotRepr\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePPDotRepr\u003c/a\u003e\u003c/code\u003e classes are used until class aliases\n   are implemented).\n\u003c/p\u003e\u003cp\u003eEvery representation takes in a type parameter: this indicates the\n   node type (e.g. \u003ccode\u003eDotGraph Int\u003c/code\u003e is a Dot graph with integer nodes).\n   Sum types are allowed, though care must be taken when specifying\n   their \u003ccode\u003e\u003ca\u003eParseDot\u003c/a\u003e\u003c/code\u003e instances if there is the possibility of\n   overlapping definitions.  The \u003ccode\u003e\u003ca\u003eGraphID\u003c/a\u003e\u003c/code\u003e type is an existing sum\n   type that allows textual and numeric values.\n\u003c/p\u003e\u003cp\u003eIf you require using more than one Dot representation, you will\n   most likely need to import at least one of them qualified, as they\n   typically all use the same names.\n\u003c/p\u003e\u003cp\u003eAs a comparison, all four representations provide how you would\n   define the following Dot graph (or at least one isomorphic to it)\n   (the original of which can be found at\n   \u003ca\u003ehttp://graphviz.org/content/cluster\u003c/a\u003e).  Note that in all the\n   examples, they are not necessarily done the best way (variables\n   rather than repeated constants, etc.); they are just there to\n   provide a comparison on the structure of each representation.\n\u003c/p\u003e\u003cpre\u003e digraph G {\n\n \tsubgraph cluster_0 {\n \t\tstyle=filled;\n \t\tcolor=lightgrey;\n \t\tnode [style=filled,color=white];\n \t\ta0 -\u003e a1 -\u003e a2 -\u003e a3;\n \t\tlabel = \"process #1\";\n \t}\n\n \tsubgraph cluster_1 {\n \t\tnode [style=filled];\n \t\tb0 -\u003e b1 -\u003e b2 -\u003e b3;\n \t\tlabel = \"process #2\";\n \t\tcolor=blue\n \t}\n \tstart -\u003e a0;\n \tstart -\u003e b0;\n \ta1 -\u003e b3;\n \tb2 -\u003e a3;\n \ta3 -\u003e a0;\n \ta3 -\u003e end;\n \tb3 -\u003e end;\n\n \tstart [shape=Mdiamond];\n \tend [shape=Msquare];\n }\n\u003c/pre\u003e\u003cp\u003eEach representation is suited for different things:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ca\u003eData.GraphViz.Types.Canonical\u003c/a\u003e\u003c/dt\u003e\u003cdd\u003e is ideal for converting other\n    graph-like data structures into Dot graphs (the \u003ca\u003eData.GraphViz\u003c/a\u003e\n    module provides some functions for this).  It is a structured\n    representation of Dot code.\n\u003c/dd\u003e\u003cdt\u003e\u003ca\u003eData.GraphViz.Types.Generalised\u003c/a\u003e\u003c/dt\u003e\u003cdd\u003e matches the actual structure\n    of Dot code.  As such, it is suited for parsing in existing Dot\n    code.\n\u003c/dd\u003e\u003cdt\u003e\u003ca\u003eData.GraphViz.Types.Graph\u003c/a\u003e\u003c/dt\u003e\u003cdd\u003e provides graph operations for\n    manipulating Dot graphs; this is suited when you want to edit\n    existing Dot code.  It uses generalised Dot graphs for parsing and\n    canonical Dot graphs for printing.\n\u003c/dd\u003e\u003cdt\u003e\u003ca\u003eData.GraphViz.Types.Monadic\u003c/a\u003e\u003c/dt\u003e\u003cdd\u003e is a much easier representation to\n    use when defining relatively static Dot graphs in Haskell code,\n    and looks vaguely like actual Dot code if you squint a bit.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003ePlease also read the limitations section at the end for advice on\n    how to properly use these Dot representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "Types",
           "package": "graphviz",
@@ -38603,6 +40672,7 @@
         "index": {
           "description": "Four different representations of Dot graphs are available all of which are based loosely upon the specifications at http graphviz.org doc info lang.html The DotRepr class provides common interface for them the PrintDotRepr ParseDotRepr and PPDotRepr classes are used until class aliases are implemented Every representation takes in type parameter this indicates the node type e.g DotGraph Int is Dot graph with integer nodes Sum types are allowed though care must be taken when specifying their ParseDot instances if there is the possibility of overlapping definitions The GraphID type is an existing sum type that allows textual and numeric values If you require using more than one Dot representation you will most likely need to import at least one of them qualified as they typically all use the same names As comparison all four representations provide how you would define the following Dot graph or at least one isomorphic to it the original of which can be found at http graphviz.org content cluster Note that in all the examples they are not necessarily done the best way variables rather than repeated constants etc they are just there to provide comparison on the structure of each representation digraph subgraph cluster style filled color lightgrey node style filled color white a0 a1 a2 a3 label process subgraph cluster node style filled b0 b1 b2 b3 label process color blue start a0 start b0 a1 b3 b2 a3 a3 a0 a3 end b3 end start shape Mdiamond end shape Msquare Each representation is suited for different things Data.GraphViz.Types.Canonical is ideal for converting other graph-like data structures into Dot graphs the Data.GraphViz module provides some functions for this It is structured representation of Dot code Data.GraphViz.Types.Generalised matches the actual structure of Dot code As such it is suited for parsing in existing Dot code Data.GraphViz.Types.Graph provides graph operations for manipulating Dot graphs this is suited when you want to edit existing Dot code It uses generalised Dot graphs for parsing and canonical Dot graphs for printing Data.GraphViz.Types.Monadic is much easier representation to use when defining relatively static Dot graphs in Haskell code and looks vaguely like actual Dot code if you squint bit Please also read the limitations section at the end for advice on how to properly use these Dot representations",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "Types",
           "package": "graphviz",
@@ -38617,6 +40687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe available information for each cluster; the \u003ccode\u003e[\u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e\n   denotes all locations where that particular cluster is located\n   (more than one location can indicate possible problems).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "ClusterLookup",
           "package": "graphviz",
@@ -38626,6 +40697,7 @@
         "index": {
           "description": "The available information for each cluster the Path denotes all locations where that particular cluster is located more than one location can indicate possible problems",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "ClusterLookup",
           "package": "graphviz",
@@ -38640,6 +40712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn edge in \u003ccode\u003eDotGraph\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "DotEdge",
           "package": "graphviz",
@@ -38649,6 +40722,7 @@
         "index": {
           "description": "An edge in DotGraph",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "DotEdge",
           "package": "graphviz",
@@ -38663,6 +40737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node in \u003ccode\u003eDotGraph\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "DotNode",
           "package": "graphviz",
@@ -38672,6 +40747,7 @@
         "index": {
           "description": "node in DotGraph",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "DotNode",
           "package": "graphviz",
@@ -38686,6 +40762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used to provide a common interface to different\n   ways of representing a graph in \u003cem\u003eDot\u003c/em\u003e form.\n\u003c/p\u003e\u003cp\u003eYou will most probably \u003cem\u003enot\u003c/em\u003e need to create your own instances of\n   this class.\n\u003c/p\u003e\u003cp\u003eThe type variable represents the current node type of the Dot\n   graph, and the \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e restriction is there because in practice\n   most implementations of some of these methods require it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "DotRepr",
           "package": "graphviz",
@@ -38695,6 +40772,7 @@
         "index": {
           "description": "This class is used to provide common interface to different ways of representing graph in Dot form You will most probably not need to create your own instances of this class The type variable represents the current node type of the Dot graph and the Ord restriction is there because in practice most implementations of some of these methods require it",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "DotRepr",
           "package": "graphviz",
@@ -38709,6 +40787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a list of top-level list of \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es for the\n   entire graph/sub-graph.  Note that \u003ccode\u003e\u003ca\u003eGraphAttrs\u003c/a\u003e\u003c/code\u003e also applies to\n   \u003ccode\u003eDotSubGraph\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eNote that Dot allows a single \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e to be listed on a line;\n   if this is the case then when parsing, the type of \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e it\n   is determined and that type of \u003ccode\u003eGlobalAttribute\u003c/code\u003e is created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "GlobalAttributes",
           "package": "graphviz",
@@ -38718,6 +40797,7 @@
         "index": {
           "description": "Represents list of top-level list of Attribute for the entire graph sub-graph Note that GraphAttrs also applies to DotSubGraph Note that Dot allows single Attribute to be listed on line if this is the case then when parsing the type of Attribute it is determined and that type of GlobalAttribute is created",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "GlobalAttributes",
           "package": "graphviz",
@@ -38732,6 +40812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polymorphic type that covers all possible ID values allowed by\n   Dot syntax.  Note that whilst the \u003ccode\u003e\u003ca\u003eParseDot\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePrintDot\u003c/a\u003e\u003c/code\u003e\n   instances for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e will properly take care of the special\n   cases for numbers, they are treated differently here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "GraphID",
           "package": "graphviz",
@@ -38741,6 +40822,7 @@
         "index": {
           "description": "polymorphic type that covers all possible ID values allowed by Dot syntax Note that whilst the ParseDot and PrintDot instances for String will properly take care of the special cases for numbers they are treated differently here",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "GraphID",
           "package": "graphviz",
@@ -38755,6 +40837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe available information on each \u003ccode\u003e\u003ca\u003eDotNode\u003c/a\u003e\u003c/code\u003e (both explicit and implicit).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "NodeLookup",
           "package": "graphviz",
@@ -38764,6 +40847,7 @@
         "index": {
           "description": "The available information on each DotNode both explicit and implicit",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "NodeLookup",
           "package": "graphviz",
@@ -38778,6 +40862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class exists just to make type signatures nicer; all\n   instances of \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e should also be an instance of\n   \u003ccode\u003e\u003ca\u003ePPDotRepr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "PPDotRepr",
           "package": "graphviz",
@@ -38787,6 +40872,7 @@
         "index": {
           "description": "This class exists just to make type signatures nicer all instances of DotRepr should also be an instance of PPDotRepr",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "PPDotRepr",
           "package": "graphviz",
@@ -38800,6 +40886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "ParseDot",
           "package": "graphviz",
@@ -38808,6 +40895,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "ParseDot",
           "package": "graphviz",
@@ -38822,6 +40910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class exists just to make type signatures nicer; all\n   instances of \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e should also be an instance of\n   \u003ccode\u003e\u003ca\u003eParseDotRepr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "ParseDotRepr",
           "package": "graphviz",
@@ -38831,6 +40920,7 @@
         "index": {
           "description": "This class exists just to make type signatures nicer all instances of DotRepr should also be an instance of ParseDotRepr",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "ParseDotRepr",
           "package": "graphviz",
@@ -38845,6 +40935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path of clusters that must be traversed to reach this spot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "Path",
           "package": "graphviz",
@@ -38854,6 +40945,7 @@
         "index": {
           "description": "The path of clusters that must be traversed to reach this spot",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "Path",
           "package": "graphviz",
@@ -38868,6 +40960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class used to correctly print parts of the Graphviz Dot language.\n   Minimal implementation is \u003ccode\u003e\u003ca\u003eunqtDot\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "PrintDot",
           "package": "graphviz",
@@ -38877,6 +40970,7 @@
         "index": {
           "description": "class used to correctly print parts of the Graphviz Dot language Minimal implementation is unqtDot",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "PrintDot",
           "package": "graphviz",
@@ -38891,6 +40985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class exists just to make type signatures nicer; all\n   instances of \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e should also be an instance of\n   \u003ccode\u003e\u003ca\u003ePrintDotRepr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "PrintDotRepr",
           "package": "graphviz",
@@ -38900,6 +40995,7 @@
         "index": {
           "description": "This class exists just to make type signatures nicer all instances of DotRepr should also be an instance of PrintDotRepr",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "PrintDotRepr",
           "package": "graphviz",
@@ -38914,6 +41010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience class to make it easier to convert data types to\n   \u003ccode\u003e\u003ca\u003eGraphID\u003c/a\u003e\u003c/code\u003e values, e.g. for cluster identifiers.\n\u003c/p\u003e\u003cp\u003eIn most cases, conversion would be via the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n   instances (e.g. using \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "ToGraphID",
           "package": "graphviz",
@@ -38923,6 +41020,7 @@
         "index": {
           "description": "convenience class to make it easier to convert data types to GraphID values e.g for cluster identifiers In most cases conversion would be via the Text or String instances e.g using show",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "ToGraphID",
           "package": "graphviz",
@@ -38937,6 +41035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn information on the \u003ccode\u003e\u003ca\u003eDotEdge\u003c/a\u003e\u003c/code\u003es contained within this\n   \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e.  The \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e parameter indicates if applicable\n   \u003ccode\u003e\u003ca\u003eEdgeAttrs\u003c/a\u003e\u003c/code\u003e should be included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "edgeInformation",
           "package": "graphviz",
@@ -38947,6 +41046,7 @@
         "index": {
           "description": "Return information on the DotEdge contained within this DotRepr The Bool parameter indicates if applicable EdgeAttrs should be included",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "edgeInformation",
           "normalized": "Bool-\u003ea b-\u003e[DotEdge b]",
@@ -38963,6 +41063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eedgeInformation\u003c/a\u003e\u003c/code\u003e with default attributes removed\n   and only attributes used by edges kept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "edgeInformationClean",
           "package": "graphviz",
@@ -38973,6 +41074,7 @@
         "index": {
           "description": "variant of edgeInformation with default attributes removed and only attributes used by edges kept",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "edgeInformationClean",
           "normalized": "Bool-\u003ea b-\u003e[DotEdge b]",
@@ -38989,6 +41091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a graph in canonical form.  This is especially\n   useful when using the functions from \u003ca\u003eData.GraphViz.Algorithms\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "fromCanonical",
           "package": "graphviz",
@@ -38999,6 +41102,7 @@
         "index": {
           "description": "Convert from graph in canonical form This is especially useful when using the functions from Data.GraphViz.Algorithms",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "fromCanonical",
           "normalized": "DotGraph a-\u003eb a",
@@ -39015,6 +41119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the ID of the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "getID",
           "package": "graphviz",
@@ -39025,6 +41130,7 @@
         "index": {
           "description": "Return the ID of the graph",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "getID",
           "normalized": "a b-\u003eMaybe GraphID",
@@ -39041,6 +41147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all resultant \u003ccode\u003e\u003ca\u003eDotEdge\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e (not including\n   \u003ccode\u003eEdgeAttr\u003c/code\u003es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "graphEdges",
           "package": "graphviz",
@@ -39051,6 +41158,7 @@
         "index": {
           "description": "Returns all resultant DotEdge in the DotRepr not including EdgeAttr",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "graphEdges",
           "normalized": "a b-\u003e[DotEdge b]",
@@ -39067,6 +41175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this graph directed?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "graphIsDirected",
           "package": "graphviz",
@@ -39077,6 +41186,7 @@
         "index": {
           "description": "Is this graph directed",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "graphIsDirected",
           "normalized": "a b-\u003eBool",
@@ -39093,6 +41203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this graph strict?  Strict graphs disallow multiple edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "graphIsStrict",
           "package": "graphviz",
@@ -39103,6 +41214,7 @@
         "index": {
           "description": "Is this graph strict Strict graphs disallow multiple edges",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "graphIsStrict",
           "normalized": "a b-\u003eBool",
@@ -39119,6 +41231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all resultant \u003ccode\u003e\u003ca\u003eDotNode\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e (not including\n   \u003ccode\u003eNodeAttr\u003c/code\u003es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "graphNodes",
           "package": "graphviz",
@@ -39129,6 +41242,7 @@
         "index": {
           "description": "Returns all resultant DotNode in the DotRepr not including NodeAttr",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "graphNodes",
           "normalized": "a b-\u003e[DotNode b]",
@@ -39145,6 +41259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn information on all the clusters contained within this\n   \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e, as well as the top-level \u003ccode\u003e\u003ca\u003eGraphAttrs\u003c/a\u003e\u003c/code\u003e for the\n   overall graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "graphStructureInformation",
           "package": "graphviz",
@@ -39155,6 +41270,7 @@
         "index": {
           "description": "Return information on all the clusters contained within this DotRepr as well as the top-level GraphAttrs for the overall graph",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "graphStructureInformation",
           "normalized": "a b-\u003e(GlobalAttributes,ClusterLookup)",
@@ -39171,6 +41287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003egraphStructureInformation\u003c/a\u003e\u003c/code\u003e with default attributes\n   removed and only attributes usable by graph/cluster kept (where\n   applicable).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "graphStructureInformationClean",
           "package": "graphviz",
@@ -39181,6 +41298,7 @@
         "index": {
           "description": "variant of graphStructureInformation with default attributes removed and only attributes usable by graph cluster kept where applicable",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "graphStructureInformationClean",
           "normalized": "a b-\u003e(GlobalAttributes,ClusterLookup)",
@@ -39197,6 +41315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe quoted form of \u003ccode\u003e\u003ca\u003eunqtListToDot\u003c/a\u003e\u003c/code\u003e; defaults to wrapping double\n   quotes around the result of \u003ccode\u003e\u003ca\u003eunqtListToDot\u003c/a\u003e\u003c/code\u003e (since the default\n   implementation has characters that must be quoted).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "listToDot",
           "package": "graphviz",
@@ -39207,6 +41326,7 @@
         "index": {
           "description": "The quoted form of unqtListToDot defaults to wrapping double quotes around the result of unqtListToDot since the default implementation has characters that must be quoted",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "listToDot",
           "normalized": "[a]-\u003eDotCode",
@@ -39223,6 +41343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the node values.  This function is assumed to be\n   \u003cem\u003einjective\u003c/em\u003e, otherwise the resulting graph will not be\n   identical to the original (modulo labels).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "mapDotGraph",
           "package": "graphviz",
@@ -39233,6 +41354,7 @@
         "index": {
           "description": "Change the node values This function is assumed to be injective otherwise the resulting graph will not be identical to the original modulo labels",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "mapDotGraph",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -39249,6 +41371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn information on the \u003ccode\u003e\u003ca\u003eDotNode\u003c/a\u003e\u003c/code\u003es contained within this\n   \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e.  The \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e parameter indicates if applicable\n   \u003ccode\u003e\u003ca\u003eNodeAttrs\u003c/a\u003e\u003c/code\u003e should be included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "nodeInformation",
           "package": "graphviz",
@@ -39259,6 +41382,7 @@
         "index": {
           "description": "Return information on the DotNode contained within this DotRepr The Bool parameter indicates if applicable NodeAttrs should be included",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "nodeInformation",
           "normalized": "Bool-\u003ea b-\u003eNodeLookup b",
@@ -39275,6 +41399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003enodeInformation\u003c/a\u003e\u003c/code\u003e with default attributes removed\n   and only attributes used by nodes kept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "nodeInformationClean",
           "package": "graphviz",
@@ -39285,6 +41410,7 @@
         "index": {
           "description": "variant of nodeInformation with default attributes removed and only attributes used by nodes kept",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "nodeInformationClean",
           "normalized": "Bool-\u003ea b-\u003eNodeLookup b",
@@ -39300,6 +41426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "parse",
           "package": "graphviz",
@@ -39309,6 +41436,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "parse",
           "package": "graphviz",
@@ -39322,6 +41450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a limited subset of the Dot language to form an instance of\n   \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e.  Each instance may have its own limitations on what\n   may or may not be parseable Dot code.\n\u003c/p\u003e\u003cp\u003eAlso removes any comments, etc. before parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "parseDotGraph",
           "package": "graphviz",
@@ -39332,6 +41461,7 @@
         "index": {
           "description": "Parse limited subset of the Dot language to form an instance of DotRepr Each instance may have its own limitations on what may or may not be parseable Dot code Also removes any comments etc before parsing",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "parseDotGraph",
           "normalized": "Text-\u003ea b",
@@ -39347,6 +41477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "parseList",
           "package": "graphviz",
@@ -39356,6 +41487,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "parseList",
           "normalized": "Parse[a]",
@@ -39371,6 +41503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "parseUnqt",
           "package": "graphviz",
@@ -39380,6 +41513,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "parseUnqt",
           "package": "graphviz",
@@ -39393,6 +41527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "parseUnqtList",
           "package": "graphviz",
@@ -39402,6 +41537,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "parseUnqtList",
           "normalized": "Parse[a]",
@@ -39418,6 +41554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual \u003cem\u003eDot\u003c/em\u003e code for an instance of \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e.  Note that it\n   is expected that \u003ccode\u003e\u003ccode\u003e\u003ca\u003eparseDotGraph\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eprintDotGraph\u003c/a\u003e\u003c/code\u003e == \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n   (this might not be true the other way around due to un-parseable\n   components).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "printDotGraph",
           "package": "graphviz",
@@ -39428,6 +41565,7 @@
         "index": {
           "description": "The actual Dot code for an instance of DotRepr Note that it is expected that parseDotGraph printDotGraph id this might not be true the other way around due to un-parseable components",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "printDotGraph",
           "normalized": "a b-\u003eText",
@@ -39444,6 +41582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the ID of the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "setID",
           "package": "graphviz",
@@ -39454,6 +41593,7 @@
         "index": {
           "description": "Set the ID of the graph",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "setID",
           "normalized": "GraphID-\u003ea b-\u003ea b",
@@ -39470,6 +41610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet whether a graph is directed or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "setIsDirected",
           "package": "graphviz",
@@ -39480,6 +41621,7 @@
         "index": {
           "description": "Set whether graph is directed or not",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "setIsDirected",
           "normalized": "Bool-\u003ea b-\u003ea b",
@@ -39496,6 +41638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict graph disallows multiple edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "setStrictness",
           "package": "graphviz",
@@ -39506,6 +41649,7 @@
         "index": {
           "description": "strict graph disallows multiple edges",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "setStrictness",
           "normalized": "Bool-\u003ea b-\u003ea b",
@@ -39522,6 +41666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003etoGraphID\u003c/a\u003e\u003c/code\u003e for use with the \u003ccode\u003eOverloadedStrings\u003c/code\u003e\n   extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "textGraphID",
           "package": "graphviz",
@@ -39532,6 +41677,7 @@
         "index": {
           "description": "An alias for toGraphID for use with the OverloadedStrings extension",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "textGraphID",
           "normalized": "Text-\u003eGraphID",
@@ -39548,6 +41694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual quoted representation; this should be quoted if it\n   contains characters not permitted a plain ID String, a number\n   or it is not an HTML string.  Defaults to \u003ccode\u003e\u003ca\u003eunqtDot\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "toDot",
           "package": "graphviz",
@@ -39558,6 +41705,7 @@
         "index": {
           "description": "The actual quoted representation this should be quoted if it contains characters not permitted plain ID String number or it is not an HTML string Defaults to unqtDot",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "toDot",
           "normalized": "a-\u003eDotCode",
@@ -39573,6 +41721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "toGraphID",
           "package": "graphviz",
@@ -39582,6 +41731,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "toGraphID",
           "normalized": "a-\u003eGraphID",
@@ -39598,6 +41748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive any anonymous sub-graphs or clusters a unique identifier\n   (i.e. there will be no \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e key in the \u003ccode\u003e\u003ca\u003eClusterLookup\u003c/a\u003e\u003c/code\u003e\n   from \u003ccode\u003e\u003ca\u003egraphStructureInformation\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "unAnonymise",
           "package": "graphviz",
@@ -39608,6 +41759,7 @@
         "index": {
           "description": "Give any anonymous sub-graphs or clusters unique identifier i.e there will be no Nothing key in the ClusterLookup from graphStructureInformation",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "unAnonymise",
           "normalized": "a b-\u003ea b",
@@ -39624,6 +41776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unquoted representation, for use when composing values to\n   produce a larger printing value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "unqtDot",
           "package": "graphviz",
@@ -39634,6 +41787,7 @@
         "index": {
           "description": "The unquoted representation for use when composing values to produce larger printing value",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "unqtDot",
           "normalized": "a-\u003eDotCode",
@@ -39650,6 +41804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe correct way of representing a list of this value when\n   printed; not all Dot values require this to be implemented.\n   Defaults to Haskell-like list representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz.Types",
           "name": "unqtListToDot",
           "package": "graphviz",
@@ -39660,6 +41815,7 @@
         "index": {
           "description": "The correct way of representing list of this value when printed not all Dot values require this to be implemented Defaults to Haskell-like list representation",
           "hierarchy": "Data GraphViz Types",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz.Types",
           "name": "unqtListToDot",
           "normalized": "[a]-\u003eDotCode",
@@ -39676,6 +41832,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the top-level module for the graphviz library.  It provides\n   functions to convert \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003es into the\n   \u003cem\u003eDot\u003c/em\u003e language used by the \u003cem\u003eGraphviz\u003c/em\u003e suite of programs (as well as\n   a limited ability to perform the reverse operation).\n\u003c/p\u003e\u003cp\u003eIf you wish to construct a Haskell representation of a Dot graph\n   yourself rather than using the conversion functions here, please\n   see the \u003ca\u003eData.GraphViz.Types\u003c/a\u003e module as a starting point for how to\n   do so.\n\u003c/p\u003e\u003cp\u003eInformation about Graphviz and the Dot language can be found at:\n   \u003ca\u003ehttp://graphviz.org/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "GraphViz",
           "package": "graphviz",
@@ -39685,6 +41842,7 @@
         "index": {
           "description": "This is the top-level module for the graphviz library It provides functions to convert Graph into the Dot language used by the Graphviz suite of programs as well as limited ability to perform the reverse operation If you wish to construct Haskell representation of Dot graph yourself rather than using the conversion functions here please see the Data.GraphViz.Types module as starting point for how to do so Information about Graphviz and the Dot language can be found at http graphviz.org",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "GraphViz",
           "package": "graphviz",
@@ -39699,6 +41857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAugment the current edge label type with the \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e applied\n   to that edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "AttributeEdge",
           "package": "graphviz",
@@ -39708,6 +41867,7 @@
         "index": {
           "description": "Augment the current edge label type with the Attributes applied to that edge",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "AttributeEdge",
           "package": "graphviz",
@@ -39722,6 +41882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAugment the current node label type with the \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e applied\n   to that node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "AttributeNode",
           "package": "graphviz",
@@ -39731,6 +41892,7 @@
         "index": {
           "description": "Augment the current node label type with the Attributes applied to that node",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "AttributeNode",
           "package": "graphviz",
@@ -39745,6 +41907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to augment an edge label with a unique identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "EdgeID",
           "package": "graphviz",
@@ -39754,6 +41917,7 @@
         "index": {
           "description": "Used to augment an edge label with unique identifier",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "EdgeID",
           "package": "graphviz",
@@ -39768,6 +41932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the parameters used to convert a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eGraphvizParams\u003c/a\u003e\u003c/code\u003e n nl el cl l\u003c/code\u003e indicates that\n   the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e has a node type of \u003ccode\u003en\u003c/code\u003e, node labels of type \u003ccode\u003enl\u003c/code\u003e,\n   edge labels of type \u003ccode\u003eel\u003c/code\u003e, corresponding clusters of type \u003ccode\u003ecl\u003c/code\u003e and\n   after clustering the nodes have a label of type \u003ccode\u003el\u003c/code\u003e (which may or\n   may not be the same as \u003ccode\u003enl\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThe tuples in the function types represent labelled nodes (for\n   \u003ccode\u003e(n,nl)\u003c/code\u003e and \u003ccode\u003e(n,l)\u003c/code\u003e) and labelled edges (\u003ccode\u003e(n,n,el)\u003c/code\u003e; the value\n   \u003ccode\u003e(f,t,ftl)\u003c/code\u003e is an edge from \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003el\u003c/code\u003e with a label of \u003ccode\u003eftl\u003c/code\u003e).\n   These correspond to \u003ccode\u003e\u003ca\u003eLNode\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003e in FGL graphs.\n\u003c/p\u003e\u003cp\u003eThe clustering in \u003ccode\u003e\u003ca\u003eclusterBy\u003c/a\u003e\u003c/code\u003e can be to arbitrary depth.\n\u003c/p\u003e\u003cp\u003eNote that the term \"cluster\" is slightly conflated here: in\n   terms of \u003ccode\u003eGraphvizParams\u003c/code\u003e values, a cluster is a grouping of\n   nodes; the \u003ccode\u003e\u003ca\u003eisDotCluster\u003c/a\u003e\u003c/code\u003e function lets you specify whether it is\n   a cluster in the Dot sense or just a sub-graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "GraphvizParams",
           "package": "graphviz",
@@ -39777,6 +41942,7 @@
         "index": {
           "description": "Defines the parameters used to convert Graph into DotRepr value of type GraphvizParams nl el cl indicates that the Graph has node type of node labels of type nl edge labels of type el corresponding clusters of type cl and after clustering the nodes have label of type which may or may not be the same as nl The tuples in the function types represent labelled nodes for nl and and labelled edges el the value ftl is an edge from to with label of ftl These correspond to LNode and LEdge in FGL graphs The clustering in clusterBy can be to arbitrary depth Note that the term cluster is slightly conflated here in terms of GraphvizParams values cluster is grouping of nodes the isDotCluster function lets you specify whether it is cluster in the Dot sense or just sub-graph",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "GraphvizParams",
           "package": "graphviz",
@@ -39791,6 +41957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eNodeCluster\u003c/a\u003e\u003c/code\u003e when dealing with FGL graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "LNodeCluster",
           "package": "graphviz",
@@ -39800,6 +41967,7 @@
         "index": {
           "description": "An alias for NodeCluster when dealing with FGL graphs",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "LNodeCluster",
           "package": "graphviz",
@@ -39814,6 +41982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine into which cluster a particular node belongs.\n   Clusters can be nested to arbitrary depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "NodeCluster",
           "package": "graphviz",
@@ -39823,6 +41992,7 @@
         "index": {
           "description": "Define into which cluster particular node belongs Clusters can be nested to arbitrary depth",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "NodeCluster",
           "package": "graphviz",
@@ -39837,6 +42007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates that the\n   \u003ccode\u003e\u003ca\u003eNodeCluster\u003c/a\u003e\u003c/code\u003e is in\n   the Cluster \u003cem\u003ec\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "C",
           "package": "graphviz",
@@ -39847,6 +42018,7 @@
         "index": {
           "description": "Indicates that the NodeCluster is in the Cluster",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "C",
           "package": "graphviz",
@@ -39860,6 +42032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the actual Node in the Graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "N",
           "package": "graphviz",
@@ -39870,6 +42043,7 @@
         "index": {
           "description": "Indicates the actual Node in the Graph",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "N",
           "package": "graphviz",
@@ -39882,6 +42056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "Params",
           "package": "graphviz",
@@ -39891,6 +42066,7 @@
         },
         "index": {
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "Params",
           "package": "graphviz",
@@ -39905,6 +42081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd unique edge identifiers to each label.  This is useful for\n   when multiple edges between two nodes need to be distinguished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "addEdgeIDs",
           "package": "graphviz",
@@ -39915,6 +42092,7 @@
         "index": {
           "description": "Add unique edge identifiers to each label This is useful for when multiple edges between two nodes need to be distinguished",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "addEdgeIDs",
           "normalized": "a b c-\u003ea b(EdgeID c)",
@@ -39931,6 +42109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e in the provided \u003ccode\u003e\u003ca\u003eDotGraph\u003c/a\u003e\u003c/code\u003e to augment the\n   node and edge labels in the provided \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.  The unique\n   identifiers on the edges are also stripped off.\n\u003c/p\u003e\u003cp\u003ePlease note that the behaviour for this function is undefined if\n   the \u003ccode\u003e\u003ca\u003eDotGraph\u003c/a\u003e\u003c/code\u003e does not come from the original \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e (either\n   by using a conversion function or by passing the result of a\n   conversion function through a \u003ccode\u003e\u003ca\u003eGraphvizCommand\u003c/a\u003e\u003c/code\u003e via the\n   \u003ccode\u003e\u003ca\u003eDotOutput\u003c/a\u003e\u003c/code\u003e or similar).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "augmentGraph",
           "package": "graphviz",
@@ -39941,6 +42120,7 @@
         "index": {
           "description": "Use the Attributes in the provided DotGraph to augment the node and edge labels in the provided Graph The unique identifiers on the edges are also stripped off Please note that the behaviour for this function is undefined if the DotGraph does not come from the original Graph either by using conversion function or by passing the result of conversion function through GraphvizCommand via the DotOutput or similar",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "augmentGraph",
           "normalized": "a b(EdgeID c)-\u003ed Node-\u003ea(AttributeNode b)(AttributeEdge c)",
@@ -39957,6 +42137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGraphvizParams\u003c/a\u003e\u003c/code\u003e value where every field is set to\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  This is useful when you have a function that will\n   set some of the values for you (e.g. \u003ccode\u003e\u003ca\u003esetDirectedness\u003c/a\u003e\u003c/code\u003e) but you\n   don't want to bother thinking of default values to set in the\n   meantime.  This is especially useful when you are\n   programmatically setting the clustering function (and as such do\n   not know what the types might be).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "blankParams",
           "package": "graphviz",
@@ -39967,6 +42148,7 @@
         "index": {
           "description": "GraphvizParams value where every field is set to undefined This is useful when you have function that will set some of the values for you e.g setDirectedness but you don want to bother thinking of default values to set in the meantime This is especially useful when you are programmatically setting the clustering function and as such do not know what the types might be",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "blankParams",
           "package": "graphviz",
@@ -39981,6 +42163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to specify which cluster a particular\n   node is in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "clusterBy",
           "package": "graphviz",
@@ -39991,6 +42174,7 @@
         "index": {
           "description": "function to specify which cluster particular node is in",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "clusterBy",
           "normalized": "(a,b)-\u003eNodeCluster c(a,d)",
@@ -40007,6 +42191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name/identifier for a cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "clusterID",
           "package": "graphviz",
@@ -40017,6 +42202,7 @@
         "index": {
           "description": "The name identifier for cluster",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "clusterID",
           "normalized": "a-\u003eGraphID",
@@ -40033,6 +42219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default \u003ccode\u003e\u003ca\u003eGraphvizParams\u003c/a\u003e\u003c/code\u003e value which assumes the graph is\n   directed, contains no clusters and has no \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es set.\n\u003c/p\u003e\u003cp\u003eIf you wish to have the labels of the nodes to have a different\n   type after applying \u003ccode\u003e\u003ca\u003eclusterBy\u003c/a\u003e\u003c/code\u003e from before clustering, then you\n   will have to specify your own \u003ccode\u003e\u003ca\u003eGraphvizParams\u003c/a\u003e\u003c/code\u003e value from\n   scratch (or use \u003ccode\u003e\u003ca\u003eblankParams\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eIf you use a custom \u003ccode\u003e\u003ca\u003eclusterBy\u003c/a\u003e\u003c/code\u003e function (which if you actually\n   want clusters you should) then you should also override the\n   (nonsensical) default \u003ccode\u003e\u003ca\u003eclusterID\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "defaultParams",
           "package": "graphviz",
@@ -40043,6 +42230,7 @@
         "index": {
           "description": "default GraphvizParams value which assumes the graph is directed contains no clusters and has no Attribute set If you wish to have the labels of the nodes to have different type after applying clusterBy from before clustering then you will have to specify your own GraphvizParams value from scratch or use blankParams If you use custom clusterBy function which if you actually want clusters you should then you should also override the nonsensical default clusterID",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "defaultParams",
           "package": "graphviz",
@@ -40057,6 +42245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass the \u003ccode\u003e\u003ca\u003eDotRepr\u003c/a\u003e\u003c/code\u003e through the relevant command and then augment\n   the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e that it came from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "dotAttributes",
           "package": "graphviz",
@@ -40067,6 +42256,7 @@
         "index": {
           "description": "Pass the DotRepr through the relevant command and then augment the Graph that it came from",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "dotAttributes",
           "normalized": "Bool-\u003ea b(EdgeID c)-\u003ed Node-\u003eIO(a(AttributeNode b)(AttributeEdge c))",
@@ -40083,6 +42273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pseudo-inverse to \u003ccode\u003e\u003ca\u003egraphToDot\u003c/a\u003e\u003c/code\u003e; \"pseudo\" in the sense that\n   the original node and edge labels aren't able to be\n   reconstructed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "dotToGraph",
           "package": "graphviz",
@@ -40093,6 +42284,7 @@
         "index": {
           "description": "pseudo-inverse to graphToDot pseudo in the sense that the original node and edge labels aren able to be reconstructed",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "dotToGraph",
           "normalized": "a Node-\u003eb Attributes Attributes",
@@ -40109,6 +42301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a \"quick-and-dirty\" graph augmentation function that\n   sets no \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e and thus should be referentially transparent\n   and is wrapped in \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that the provided \u003ccode\u003e\u003ca\u003eGraphvizParams\u003c/a\u003e\u003c/code\u003e is only used for\n   \u003ccode\u003e\u003ca\u003eisDirected\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eclusterBy\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eclusterID\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "dotizeGraph",
           "package": "graphviz",
@@ -40119,6 +42312,7 @@
         "index": {
           "description": "This is quick-and-dirty graph augmentation function that sets no Attributes and thus should be referentially transparent and is wrapped in unsafePerformIO Note that the provided GraphvizParams is only used for isDirected clusterBy and clusterID",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "dotizeGraph",
           "normalized": "GraphvizParams Node a b c d-\u003ee a b-\u003ee(AttributeNode a)(AttributeEdge b)",
@@ -40135,6 +42329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify which global attributes are applied in\n   the given cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "fmtCluster",
           "package": "graphviz",
@@ -40145,6 +42340,7 @@
         "index": {
           "description": "Specify which global attributes are applied in the given cluster",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "fmtCluster",
           "normalized": "a-\u003e[GlobalAttributes]",
@@ -40161,6 +42357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe specific \u003ccode\u003eAttributes\u003c/code\u003e for an edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "fmtEdge",
           "package": "graphviz",
@@ -40171,6 +42368,7 @@
         "index": {
           "description": "The specific Attributes for an edge",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "fmtEdge",
           "normalized": "(a,a,b)-\u003eAttributes",
@@ -40187,6 +42385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe specific \u003ccode\u003eAttributes\u003c/code\u003e for a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "fmtNode",
           "package": "graphviz",
@@ -40197,6 +42396,7 @@
         "index": {
           "description": "The specific Attributes for node",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "fmtNode",
           "normalized": "(a,b)-\u003eAttributes",
@@ -40213,6 +42413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top-level global \u003ccode\u003e\u003ca\u003eAttributes\u003c/a\u003e\u003c/code\u003e for the entire\n   graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "globalAttributes",
           "package": "graphviz",
@@ -40223,6 +42424,7 @@
         "index": {
           "description": "The top-level global Attributes for the entire graph",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "globalAttributes",
           "normalized": "[GlobalAttributes]",
@@ -40239,6 +42441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003egraphToDot\u003c/a\u003e\u003c/code\u003e, but this allows you to easily convert other\n   graph-like formats to a Dot graph as long as you can get a list\n   of nodes and edges from it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "graphElemsToDot",
           "package": "graphviz",
@@ -40249,6 +42452,7 @@
         "index": {
           "description": "As with graphToDot but this allows you to easily convert other graph-like formats to Dot graph as long as you can get list of nodes and edges from it",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "graphElemsToDot",
           "normalized": "GraphvizParams a b c d e-\u003e[(a,b)]-\u003e[(a,a,c)]-\u003eDotGraph a",
@@ -40265,6 +42469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a graph to \u003cem\u003eDot\u003c/em\u003e format, using the specified parameters\n   to cluster the graph, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "graphToDot",
           "package": "graphviz",
@@ -40275,6 +42480,7 @@
         "index": {
           "description": "Convert graph to Dot format using the specified parameters to cluster the graph etc",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "graphToDot",
           "normalized": "GraphvizParams Node a b c d-\u003ee a b-\u003eDotGraph Node",
@@ -40291,6 +42497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the appropriate Graphviz command on the graph to get\n   positional information and then combine that information back\n   into the original graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "graphToGraph",
           "package": "graphviz",
@@ -40301,6 +42508,7 @@
         "index": {
           "description": "Run the appropriate Graphviz command on the graph to get positional information and then combine that information back into the original graph",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "graphToGraph",
           "normalized": "GraphvizParams Node a b c d-\u003ee a b-\u003eIO(e(AttributeNode a)(AttributeEdge b))",
@@ -40317,6 +42525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e if the graph is directed; \u003ccode\u003eFalse\u003c/code\u003e\n   otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "isDirected",
           "package": "graphviz",
@@ -40327,6 +42536,7 @@
         "index": {
           "description": "True if the graph is directed False otherwise",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "isDirected",
           "package": "graphviz",
@@ -40341,6 +42551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this \"cluster\" actually a cluster, or just a\n   sub-graph?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "isDotCluster",
           "package": "graphviz",
@@ -40351,6 +42562,7 @@
         "index": {
           "description": "Is this cluster actually cluster or just sub-graph",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "isDotCluster",
           "normalized": "a-\u003eBool",
@@ -40367,6 +42579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003edefaultParams\u003c/a\u003e\u003c/code\u003e that enforces that the clustering\n   type is \u003ccode\u003e'()'\u003c/code\u003e (i.e.: no clustering); this avoids problems when\n   using \u003ccode\u003e\u003ca\u003edefaultParams\u003c/a\u003e\u003c/code\u003e internally within a function without any\n   constraint on what the clustering type is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "nonClusteredParams",
           "package": "graphviz",
@@ -40377,6 +42590,7 @@
         "index": {
           "description": "variant of defaultParams that enforces that the clustering type is i.e no clustering this avoids problems when using defaultParams internally within function without any constraint on what the clustering type is",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "nonClusteredParams",
           "normalized": "GraphvizParams a b c()b",
@@ -40393,6 +42607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickly visualise a graph using the \u003ccode\u003e\u003ca\u003eXlib\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eGraphvizCanvas\u003c/a\u003e\u003c/code\u003e.  If\n   your label types are not (and cannot) be instances of \u003ccode\u003e\u003ca\u003eLabellable\u003c/a\u003e\u003c/code\u003e,\n   you may wish to use \u003ccode\u003e\u003ca\u003egmap\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003enmap\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eemap\u003c/a\u003e\u003c/code\u003e to set them to a value\n   such as \u003ccode\u003e\"\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "preview",
           "package": "graphviz",
@@ -40403,6 +42618,7 @@
         "index": {
           "description": "Quickly visualise graph using the Xlib GraphvizCanvas If your label types are not and cannot be instances of Labellable you may wish to use gmap nmap or emap to set them to value such as",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "preview",
           "normalized": "a b c-\u003eIO()",
@@ -40418,6 +42634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if the provided \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e is directed or not and set the\n   value of \u003ccode\u003e\u003ca\u003eisDirected\u003c/a\u003e\u003c/code\u003e appropriately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "setDirectedness",
           "package": "graphviz",
@@ -40428,6 +42645,7 @@
         "index": {
           "description": "Determine if the provided Graph is directed or not and set the value of isDirected appropriately",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "setDirectedness",
           "normalized": "(GraphvizParams Node a b c d-\u003ee a b-\u003ef)-\u003eGraphvizParams Node a b c d-\u003ee a b-\u003ef",
@@ -40444,6 +42662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a custom attribute to the list of attributes containing the\n   value of the unique edge identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:04 UTC 2014",
           "module": "Data.GraphViz",
           "name": "setEdgeIDAttribute",
           "package": "graphviz",
@@ -40454,6 +42673,7 @@
         "index": {
           "description": "Add custom attribute to the list of attributes containing the value of the unique edge identifier",
           "hierarchy": "Data GraphViz",
+          "indexed": "2014-03-11T18:21:04",
           "module": "Data.GraphViz",
           "name": "setEdgeIDAttribute",
           "normalized": "(LEdge a-\u003eAttributes)-\u003eLEdge(EdgeID a)-\u003eAttributes",

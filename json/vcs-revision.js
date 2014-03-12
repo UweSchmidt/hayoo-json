@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vcs-revision"
+        "phrase": "vcs-revision",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:34 UTC 2014",
           "module": "Distribution.VcsRevision.Git",
           "name": "Git",
           "package": "vcs-revision",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Distribution VcsRevision Git",
+          "indexed": "2014-03-11T20:33:34",
           "module": "Distribution.VcsRevision.Git",
           "name": "Git",
           "package": "vcs-revision",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing if we're not in a git repo, Just (hash,modified) if we're in a repo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:34 UTC 2014",
           "module": "Distribution.VcsRevision.Git",
           "name": "getRevision",
           "package": "vcs-revision",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Nothing if we re not in git repo Just hash modified if we re in repo",
           "hierarchy": "Distribution VcsRevision Git",
+          "indexed": "2014-03-11T20:33:34",
           "module": "Distribution.VcsRevision.Git",
           "name": "getRevision",
           "normalized": "IO(Maybe(String,Bool))",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:34 UTC 2014",
           "module": "Distribution.VcsRevision.Mercurial",
           "name": "Mercurial",
           "package": "vcs-revision",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Distribution VcsRevision Mercurial",
+          "indexed": "2014-03-11T20:33:34",
           "module": "Distribution.VcsRevision.Mercurial",
           "name": "Mercurial",
           "package": "vcs-revision",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing if we're not in a mercurial repo, Just (hash,modified) if we're in a repo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:34 UTC 2014",
           "module": "Distribution.VcsRevision.Mercurial",
           "name": "getRevision",
           "package": "vcs-revision",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Nothing if we re not in mercurial repo Just hash modified if we re in repo",
           "hierarchy": "Distribution VcsRevision Mercurial",
+          "indexed": "2014-03-11T20:33:34",
           "module": "Distribution.VcsRevision.Mercurial",
           "name": "getRevision",
           "normalized": "IO(Maybe(String,Bool))",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:34 UTC 2014",
           "module": "Distribution.VcsRevision.Svn",
           "name": "Svn",
           "package": "vcs-revision",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Distribution VcsRevision Svn",
+          "indexed": "2014-03-11T20:33:34",
           "module": "Distribution.VcsRevision.Svn",
           "name": "Svn",
           "package": "vcs-revision",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing if we're not in a svn repo, Just (revision,modified) if we're in a repo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:34 UTC 2014",
           "module": "Distribution.VcsRevision.Svn",
           "name": "getRevision",
           "package": "vcs-revision",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Nothing if we re not in svn repo Just revision modified if we re in repo",
           "hierarchy": "Distribution VcsRevision Svn",
+          "indexed": "2014-03-11T20:33:34",
           "module": "Distribution.VcsRevision.Svn",
           "name": "getRevision",
           "normalized": "IO(Maybe(String,Bool))",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExample usage in a program that wants to access its own git version:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell #-}\n import Distribution.VcsRevision.Git\n import Language.Haskell.TH.Syntax\n\n showMyGitVersion :: String\n showMyGitVersion = $(do\n   v \u003c- qRunIO getRevision\n   lift $ case v of\n     Nothing           -\u003e \"\u003cnone\u003e\"\n     Just (hash,True)  -\u003e hash ++ \" (with local modifications)\"\n     Just (hash,False) -\u003e hash)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:34 UTC 2014",
           "module": "Distribution.VcsRevision",
           "name": "VcsRevision",
           "package": "vcs-revision",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Example usage in program that wants to access its own git version LANGUAGE TemplateHaskell import Distribution.VcsRevision.Git import Language.Haskell.TH.Syntax showMyGitVersion String showMyGitVersion do qRunIO getRevision lift case of Nothing none Just hash True hash with local modifications Just hash False hash",
           "hierarchy": "Distribution VcsRevision",
+          "indexed": "2014-03-11T20:33:34",
           "module": "Distribution.VcsRevision",
           "name": "VcsRevision",
           "package": "vcs-revision",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DecisionTree"
+        "phrase": "DecisionTree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:36 UTC 2014",
           "module": "Data.DecisionTree",
           "name": "Attribute",
           "package": "DecisionTree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data DecisionTree",
+          "indexed": "2014-03-11T16:38:36",
           "module": "Data.DecisionTree",
           "name": "Attribute",
           "package": "DecisionTree",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:36 UTC 2014",
           "module": "Data.DecisionTree",
           "name": "Datum",
           "package": "DecisionTree",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data DecisionTree",
+          "indexed": "2014-03-11T16:38:36",
           "module": "Data.DecisionTree",
           "name": "Datum",
           "package": "DecisionTree",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:36 UTC 2014",
           "module": "Data.DecisionTree",
           "name": "DecisionTree",
           "package": "DecisionTree",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data DecisionTree",
+          "indexed": "2014-03-11T16:38:36",
           "module": "Data.DecisionTree",
           "name": "DecisionTree",
           "package": "DecisionTree",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:36 UTC 2014",
           "module": "Data.DecisionTree",
           "name": "PreLabeled",
           "package": "DecisionTree",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data DecisionTree",
+          "indexed": "2014-03-11T16:38:36",
           "module": "Data.DecisionTree",
           "name": "PreLabeled",
           "package": "DecisionTree",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "Build a DecisionTree from the given Trainingset\n",
+          "indexed": "Tue Mar 11 16:38:36 UTC 2014",
           "module": "Data.DecisionTree",
           "name": "build",
           "package": "DecisionTree",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Build DecisionTree from the given Trainingset",
           "hierarchy": "Data DecisionTree",
+          "indexed": "2014-03-11T16:38:36",
           "module": "Data.DecisionTree",
           "name": "build",
           "normalized": "[Attribute a]-\u003e[PreLabeled a b]-\u003eDecisionTree a b",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "Decide which label belongs to this Datum\n",
+          "indexed": "Tue Mar 11 16:38:36 UTC 2014",
           "module": "Data.DecisionTree",
           "name": "decide",
           "package": "DecisionTree",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Decide which label belongs to this Datum",
           "hierarchy": "Data DecisionTree",
+          "indexed": "2014-03-11T16:38:36",
           "module": "Data.DecisionTree",
           "name": "decide",
           "normalized": "DecisionTree a b-\u003eDatum a-\u003eb",

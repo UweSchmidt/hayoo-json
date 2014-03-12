@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "InfixApplicative"
+        "phrase": "InfixApplicative",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseful functions for bracketing infix operators -- providing\n essentially infix liftA2.\n \u003ccode\u003eliftA2 (*) x y\u003c/code\u003e becomes \u003ccode\u003ex \u003ca\u003e^(*)^\u003c/a\u003e y\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:56 UTC 2014",
           "module": "Control.Applicative.Infix",
           "name": "Infix",
           "package": "InfixApplicative",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Useful functions for bracketing infix operators providing essentially infix liftA2 liftA2 becomes",
           "hierarchy": "Control Applicative Infix",
+          "indexed": "2014-03-11T16:49:56",
           "module": "Control.Applicative.Infix",
           "name": "Infix",
           "package": "InfixApplicative",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:56 UTC 2014",
           "module": "Control.Applicative.Infix",
           "name": "(\u003c^)",
           "package": "InfixApplicative",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Infix",
+          "indexed": "2014-03-11T16:49:56",
           "module": "Control.Applicative.Infix",
           "name": "(\u003c^) \u003c^",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenaming of \u003ccode\u003e(\u003ca\u003e*\u003c/a\u003e)\u003c/code\u003e.  Should be used in combination with \u003ccode\u003e(\u003c^)\u003c/code\u003e to give \n   infix \u003ccode\u003eliftA2\u003c/code\u003e:\n   \u003ccode\u003e[1,2] \u003ca\u003e^(+)^\u003c/a\u003e [2,3]\u003c/code\u003e == \u003ccode\u003e[3,4,4,5]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:56 UTC 2014",
           "module": "Control.Applicative.Infix",
           "name": "(↾)",
           "package": "InfixApplicative",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Renaming of Should be used in combination with to give infix liftA2",
           "hierarchy": "Control Applicative Infix",
+          "indexed": "2014-03-11T16:49:56",
           "module": "Control.Applicative.Infix",
           "name": "(↾) ↾",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenaming of \u003ccode\u003eflip fmap\u003c/code\u003e.  Should be used in combination with \u003ccode\u003e(^\u003e)\u003c/code\u003e to\n   give infix \u003ccode\u003eliftA2\u003c/code\u003e:\n   \u003ccode\u003e[1,2] \u003ca\u003e^(+)^\u003c/a\u003e [2,3]\u003c/code\u003e == \u003ccode\u003e[3,4,4,5]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:56 UTC 2014",
           "module": "Control.Applicative.Infix",
           "name": "(↿)",
           "package": "InfixApplicative",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Renaming of flip fmap Should be used in combination with to give infix liftA2",
           "hierarchy": "Control Applicative Infix",
+          "indexed": "2014-03-11T16:49:56",
           "module": "Control.Applicative.Infix",
           "name": "(↿) ↿",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:56 UTC 2014",
           "module": "Control.Applicative.Infix",
           "name": "(^\u003e)",
           "package": "InfixApplicative",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Infix",
+          "indexed": "2014-03-11T16:49:56",
           "module": "Control.Applicative.Infix",
           "name": "(^\u003e) ^\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",

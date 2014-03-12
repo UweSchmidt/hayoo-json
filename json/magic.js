@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "magic"
+        "phrase": "magic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eHaskell types for libmagic constants\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Data",
           "name": "Data",
           "package": "magic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Haskell types for libmagic constants Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Magic Data",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Data",
           "name": "Data",
           "package": "magic",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Data",
           "name": "MagicFlag",
           "package": "magic",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Magic Data",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Data",
           "name": "MagicFlag",
           "package": "magic",
@@ -339,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eInitialization and shutdown for magic programs\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Init",
           "name": "Init",
           "package": "magic",
@@ -348,6 +353,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Initialization and shutdown for magic programs Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Magic Init",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Init",
           "name": "Init",
           "package": "magic",
@@ -362,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad the specified magic database(s).  The given string may contain\nmultiple colon-separated pathnames. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Init",
           "name": "magicLoad",
           "package": "magic",
@@ -372,6 +379,7 @@
         "index": {
           "description": "Load the specified magic database The given string may contain multiple colon-separated pathnames",
           "hierarchy": "Magic Init",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Init",
           "name": "magicLoad",
           "normalized": "Magic-\u003eString-\u003eIO()",
@@ -388,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad the system's default magic database. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Init",
           "name": "magicLoadDefault",
           "package": "magic",
@@ -398,6 +407,7 @@
         "index": {
           "description": "Load the system default magic database",
           "hierarchy": "Magic Init",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Init",
           "name": "magicLoadDefault",
           "normalized": "Magic-\u003eIO()",
@@ -414,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Magic object.  You must call either \u003ccode\u003e\u003ca\u003emagicLoadDefault\u003c/a\u003e\u003c/code\u003e\nor \u003ccode\u003e\u003ca\u003emagicLoad\u003c/a\u003e\u003c/code\u003e after this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Init",
           "name": "magicOpen",
           "package": "magic",
@@ -424,6 +435,7 @@
         "index": {
           "description": "Create Magic object You must call either magicLoadDefault or magicLoad after this",
           "hierarchy": "Magic Init",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Init",
           "name": "magicOpen",
           "normalized": "[MagicFlag]-\u003eIO Magic",
@@ -440,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eInitialization and shutdown for magic programs\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Operations",
           "name": "Operations",
           "package": "magic",
@@ -449,6 +462,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Initialization and shutdown for magic programs Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Magic Operations",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Operations",
           "name": "Operations",
           "package": "magic",
@@ -463,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower-level function used to call the Magic system to process a C \nstring. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Operations",
           "name": "magicCString",
           "package": "magic",
@@ -473,6 +488,7 @@
         "index": {
           "description": "Lower-level function used to call the Magic system to process string",
           "hierarchy": "Magic Operations",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Operations",
           "name": "magicCString",
           "normalized": "Magic-\u003eCStringLen-\u003eIO String",
@@ -489,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile the colon-separated list of database file(s).  The compiled files\ncreated have .mgc added to the names of the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Operations",
           "name": "magicCompile",
           "package": "magic",
@@ -498,6 +515,7 @@
         "index": {
           "description": "Compile the colon-separated list of database file The compiled files created have mgc added to the names of the argument",
           "hierarchy": "Magic Operations",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Operations",
           "name": "magicCompile",
           "normalized": "Magic-\u003eMaybe String-\u003eIO()",
@@ -514,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls the Magic system on the specified file. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Operations",
           "name": "magicFile",
           "package": "magic",
@@ -524,6 +543,7 @@
         "index": {
           "description": "Calls the Magic system on the specified file",
           "hierarchy": "Magic Operations",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Operations",
           "name": "magicFile",
           "normalized": "Magic-\u003eFilePath-\u003eIO String",
@@ -540,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the flags on an already-created object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Operations",
           "name": "magicSetFlags",
           "package": "magic",
@@ -550,6 +571,7 @@
         "index": {
           "description": "Change the flags on an already-created object",
           "hierarchy": "Magic Operations",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Operations",
           "name": "magicSetFlags",
           "normalized": "Magic-\u003e[MagicFlag]-\u003eIO()",
@@ -566,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls the Magic system on stdin. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Operations",
           "name": "magicStdin",
           "package": "magic",
@@ -576,6 +599,7 @@
         "index": {
           "description": "Calls the Magic system on stdin",
           "hierarchy": "Magic Operations",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Operations",
           "name": "magicStdin",
           "normalized": "Magic-\u003eIO String",
@@ -592,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls the Magic system to process the given String.  Please note:\nit is not evaluated lazily. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Operations",
           "name": "magicString",
           "package": "magic",
@@ -602,6 +627,7 @@
         "index": {
           "description": "Calls the Magic system to process the given String Please note it is not evaluated lazily",
           "hierarchy": "Magic Operations",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Operations",
           "name": "magicString",
           "normalized": "Magic-\u003eString-\u003eIO String",
@@ -618,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eTypes for magic programs.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Types",
           "name": "Types",
           "package": "magic",
@@ -627,6 +654,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Types for magic programs Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Magic Types",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Types",
           "name": "Types",
           "package": "magic",
@@ -641,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain Magic object type.\n\u003c/p\u003e\u003cp\u003eMagic objects are automatically closed (and memory freed) when they are\ngarbage-collected by Haskell.  There is no need to explicitly close them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Types",
           "name": "Magic",
           "package": "magic",
@@ -650,6 +679,7 @@
         "index": {
           "description": "Main Magic object type Magic objects are automatically closed and memory freed when they are garbage-collected by Haskell There is no need to explicitly close them",
           "hierarchy": "Magic Types",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Types",
           "name": "Magic",
           "package": "magic",
@@ -663,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic.Types",
           "name": "MagicFlag",
           "package": "magic",
@@ -671,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Magic Types",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic.Types",
           "name": "MagicFlag",
           "package": "magic",
@@ -685,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eTop-level Magic module.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eFoo bar\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:34 UTC 2014",
           "module": "Magic",
           "name": "Magic",
           "package": "magic",
@@ -694,6 +727,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Top-level Magic module Written by John Goerzen jgoerzen@complete.org Foo bar",
           "hierarchy": "Magic",
+          "indexed": "2014-03-11T19:13:34",
           "module": "Magic",
           "name": "Magic",
           "package": "magic",

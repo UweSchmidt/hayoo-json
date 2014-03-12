@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "usb-id-database"
+        "phrase": "usb-id-database",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to acquire a database from \u003ca\u003ehttp://linux-usb.org\u003c/a\u003e. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "LinuxUsbIdRepo",
           "package": "usb-id-database",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions to acquire database from http linux-usb.org",
           "hierarchy": "System USB IDDB LinuxUsbIdRepo",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "LinuxUsbIdRepo",
           "package": "usb-id-database",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://linux-usb.org/usb.ids\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThe source of the database. Download this file for the most up-to-date\n version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "dbURL",
           "package": "usb-id-database",
@@ -52,6 +55,7 @@
         "index": {
           "description": "http linux-usb.org usb.ids The source of the database Download this file for the most up-to-date version",
           "hierarchy": "System USB IDDB LinuxUsbIdRepo",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "dbURL",
           "package": "usb-id-database",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a database from file. If the file can not be read for some reason an\n error will be thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "fromFile",
           "package": "usb-id-database",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Load database from file If the file can not be read for some reason an error will be thrown",
           "hierarchy": "System USB IDDB LinuxUsbIdRepo",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO(Maybe IDDB)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a database from a string in the format used by\n \u003ca\u003ehttp://linux-usb.org\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "parseDb",
           "package": "usb-id-database",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Construct database from string in the format used by http linux-usb.org",
           "hierarchy": "System USB IDDB LinuxUsbIdRepo",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "parseDb",
           "normalized": "String-\u003eMaybe IDDB",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a database from a snapshot of the linux-usb.org database which is\n supplied with the package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "staticDb",
           "package": "usb-id-database",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Load database from snapshot of the linux-usb.org database which is supplied with the package",
           "hierarchy": "System USB IDDB LinuxUsbIdRepo",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.LinuxUsbIdRepo",
           "name": "staticDb",
           "package": "usb-id-database",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to acquire a database from \u003ca\u003ehttp://www.usb.org\u003c/a\u003e. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "UsbDotOrg",
           "package": "usb-id-database",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Functions to acquire database from http www.usb.org",
           "hierarchy": "System USB IDDB UsbDotOrg",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "UsbDotOrg",
           "package": "usb-id-database",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://www.usb.org/developers/tools/comp_dump\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThe source of the database. Download this file for the most up-to-date\n version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "dbURL",
           "package": "usb-id-database",
@@ -175,6 +188,7 @@
         "index": {
           "description": "http www.usb.org developers tools comp dump The source of the database Download this file for the most up-to-date version",
           "hierarchy": "System USB IDDB UsbDotOrg",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "dbURL",
           "package": "usb-id-database",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a vendor database from file. If the file can not be read for\n  some reason an error will be thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "fromFile",
           "package": "usb-id-database",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Load vendor database from file If the file can not be read for some reason an error will be thrown",
           "hierarchy": "System USB IDDB UsbDotOrg",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO(Maybe IDDB)",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a database from a string in the format used by usb.org.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "parseDb",
           "package": "usb-id-database",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Construct database from string in the format used by usb.org",
           "hierarchy": "System USB IDDB UsbDotOrg",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "parseDb",
           "normalized": "String-\u003eMaybe IDDB",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a database from a snapshot of the usb.org database which is\n  supplied with the package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "staticDb",
           "package": "usb-id-database",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Load database from snapshot of the usb.org database which is supplied with the package",
           "hierarchy": "System USB IDDB UsbDotOrg",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB.UsbDotOrg",
           "name": "staticDb",
           "package": "usb-id-database",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA database of USB identifiers.\n\u003c/p\u003e\u003cp\u003eDatabases with vendor names and identifiers can be loaded from string or file.\n\u003c/p\u003e\u003cp\u003eTo get the most up-to-date database download the files directly from\n\u003ca\u003ehttp://www.usb.org\u003c/a\u003e\nor\n\u003ca\u003ehttp://linux-usb.org\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eEach database's module contains an URL to the database file.\n\u003c/p\u003e\u003cp\u003eExample usage:\n\u003c/p\u003e\u003cpre\u003e\nimport System.USB.IDDB\nimport System.USB.IDDB.LinuxUsbIdRepo (staticDb)\nimport Text.Printf (printf)\n\nmain :: IO ()\nmain = do -- Load a snapshot from the linux-usb.org database.\n          db \u003c- \u003ccode\u003estaticDb\u003c/code\u003e\n\u003c/pre\u003e\u003cpre\u003e\n          -- Print the name of vendor 0x1d6b\n          putStrLn $ maybe \"unknown VID!\" id\n                   $ \u003ccode\u003e\u003ca\u003evendorName\u003c/a\u003e\u003c/code\u003e db 0x1d6b\n\u003c/pre\u003e\u003cpre\u003e\n          -- Print the ID of \"Linux Foundation\"\n          putStrLn $ maybe \"unknown vendor name!\" (\u003ccode\u003eprintf\u003c/code\u003e \"0x%04x\")\n                   $ \u003ccode\u003e\u003ca\u003evendorId\u003c/a\u003e\u003c/code\u003e db \"Linux Foundation\"\n\u003c/pre\u003e\u003cpre\u003e\n          -- Print the name of the product with ID 0x0101 from the\n          -- vendor with ID 0x1d6b.\n          putStrLn $ maybe \"unknown PID!\" id\n                   $ \u003ccode\u003e\u003ca\u003eproductName\u003c/a\u003e\u003c/code\u003e db 0x1d6b 0x0101\n\u003c/pre\u003e\u003cpre\u003e\n          -- Print the ID of the product with the name \"Audio Gadget\"\n          -- from the vendor with ID 0x1d6b.\n          putStrLn $ maybe \"unknown product name!\" (\u003ccode\u003eprintf\u003c/code\u003e \"0x%04x\")\n                   $ \u003ccode\u003e\u003ca\u003eproductId\u003c/a\u003e\u003c/code\u003e db 0x1d6b \"Audio Gadget\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "IDDB",
           "package": "usb-id-database",
@@ -274,6 +295,7 @@
         "index": {
           "description": "database of USB identifiers Databases with vendor names and identifiers can be loaded from string or file To get the most up-to-date database download the files directly from http www.usb.org or http linux-usb.org Each database module contains an URL to the database file Example usage import System.USB.IDDB import System.USB.IDDB.LinuxUsbIdRepo staticDb import Text.Printf printf main IO main do Load snapshot from the linux-usb.org database db staticDb Print the name of vendor x1d6b putStrLn maybe unknown VID id vendorName db x1d6b Print the ID of Linux Foundation putStrLn maybe unknown vendor name printf vendorId db Linux Foundation Print the name of the product with ID x0101 from the vendor with ID x1d6b putStrLn maybe unknown PID id productName db x1d6b x0101 Print the ID of the product with the name Audio Gadget from the vendor with ID x1d6b putStrLn maybe unknown product name printf productId db x1d6b Audio Gadget",
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "IDDB",
           "package": "usb-id-database",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA database of USB identifiers. Contains both vendor identifiers and product\n identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "IDDB",
           "package": "usb-id-database",
@@ -297,6 +320,7 @@
         "index": {
           "description": "database of USB identifiers Contains both vendor identifiers and product identifiers",
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "IDDB",
           "package": "usb-id-database",
@@ -310,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "audioClassTerminalTypeName",
           "package": "usb-id-database",
@@ -318,6 +343,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "audioClassTerminalTypeName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -333,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "className",
           "package": "usb-id-database",
@@ -341,6 +368,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "className",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "emptyDb",
           "package": "usb-id-database",
@@ -367,6 +396,7 @@
         "index": {
           "description": "An empty database",
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "emptyDb",
           "package": "usb-id-database",
@@ -380,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "hidDescCountryCodeName",
           "package": "usb-id-database",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "hidDescCountryCodeName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -403,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "hidDescItemName",
           "package": "usb-id-database",
@@ -411,6 +444,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "hidDescItemName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -426,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "hidDescTypeName",
           "package": "usb-id-database",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "hidDescTypeName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -449,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "hidUsageName",
           "package": "usb-id-database",
@@ -457,6 +494,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "hidUsageName",
           "normalized": "IDDB-\u003eInt-\u003eInt-\u003eMaybe String",
@@ -472,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "hidUsagePageName",
           "package": "usb-id-database",
@@ -480,6 +519,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "hidUsagePageName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "langName",
           "package": "usb-id-database",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "langName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "physicalDescBiasName",
           "package": "usb-id-database",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "physicalDescBiasName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -541,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "physicalDescItemName",
           "package": "usb-id-database",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "physicalDescItemName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -564,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "productId",
           "package": "usb-id-database",
@@ -572,6 +619,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "productId",
           "normalized": "IDDB-\u003eInt-\u003eString-\u003eMaybe Int",
@@ -587,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "productName",
           "package": "usb-id-database",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "productName",
           "normalized": "IDDB-\u003eInt-\u003eInt-\u003eMaybe String",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "protocolName",
           "package": "usb-id-database",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "protocolName",
           "normalized": "IDDB-\u003eInt-\u003eInt-\u003eInt-\u003eMaybe String",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "subClassName",
           "package": "usb-id-database",
@@ -641,6 +694,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "subClassName",
           "normalized": "IDDB-\u003eInt-\u003eInt-\u003eMaybe String",
@@ -656,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "subLangName",
           "package": "usb-id-database",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "subLangName",
           "normalized": "IDDB-\u003eInt-\u003eInt-\u003eMaybe String",
@@ -679,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "vendorId",
           "package": "usb-id-database",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "vendorId",
           "normalized": "IDDB-\u003eString-\u003eMaybe Int",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "vendorName",
           "package": "usb-id-database",
@@ -710,6 +769,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "vendorName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",
@@ -725,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:01 UTC 2014",
           "module": "System.USB.IDDB",
           "name": "videoClassTerminalTypeName",
           "package": "usb-id-database",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "System USB IDDB",
+          "indexed": "2014-03-11T20:32:01",
           "module": "System.USB.IDDB",
           "name": "videoClassTerminalTypeName",
           "normalized": "IDDB-\u003eInt-\u003eMaybe String",

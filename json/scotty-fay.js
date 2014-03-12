@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scotty-fay"
+        "phrase": "scotty-fay",
+        "type": "phrase"
       },
       "type": "context"
     }

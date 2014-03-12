@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ZFS"
+        "phrase": "ZFS",
+        "type": "phrase"
       },
       "type": "context"
     }

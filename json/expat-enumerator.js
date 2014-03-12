@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "expat-enumerator"
+        "phrase": "expat-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "Enumerator",
           "package": "expat-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "Enumerator",
           "package": "expat-enumerator",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding types available for the document encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "Encoding",
           "package": "expat-enumerator",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Encoding types available for the document encoding",
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "Encoding",
           "package": "expat-enumerator",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA replacement for \u003ccode\u003e\u003ca\u003eXMLParseError\u003c/a\u003e\u003c/code\u003e, defined so it can be given\n a non-orphan \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "ParseError",
           "package": "expat-enumerator",
@@ -71,6 +76,7 @@
         "index": {
           "description": "replacement for XMLParseError defined so it can be given non-orphan Exception instance",
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "ParseError",
           "package": "expat-enumerator",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "ASCII",
           "package": "expat-enumerator",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "ASCII",
           "package": "expat-enumerator",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "ISO88591",
           "package": "expat-enumerator",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "ISO88591",
           "package": "expat-enumerator",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "ParseError",
           "package": "expat-enumerator",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "ParseError",
           "package": "expat-enumerator",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "UTF16",
           "package": "expat-enumerator",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "UTF16",
           "package": "expat-enumerator",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "UTF8",
           "package": "expat-enumerator",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "UTF8",
           "package": "expat-enumerator",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "parseBytesIO",
           "package": "expat-enumerator",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "parseBytesIO",
           "normalized": "Maybe Encoding-\u003eEnumeratee ByteString Event a b",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "parseErrorLocation",
           "package": "expat-enumerator",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "parseErrorLocation",
           "package": "expat-enumerator",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "parseErrorMessage",
           "package": "expat-enumerator",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "parseErrorMessage",
           "package": "expat-enumerator",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:14 UTC 2014",
           "module": "Text.XML.Expat.Enumerator",
           "name": "parseTextIO",
           "package": "expat-enumerator",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Text XML Expat Enumerator",
+          "indexed": "2014-03-11T18:05:14",
           "module": "Text.XML.Expat.Enumerator",
           "name": "parseTextIO",
           "package": "expat-enumerator",

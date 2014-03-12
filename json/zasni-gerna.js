@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zasni-gerna"
+        "phrase": "zasni-gerna",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZasniGerna",
           "package": "zasni-gerna",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZasniGerna",
           "package": "zasni-gerna",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BO",
           "package": "zasni-gerna",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BO",
           "package": "zasni-gerna",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BU",
           "package": "zasni-gerna",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BU",
           "package": "zasni-gerna",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CO",
           "package": "zasni-gerna",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CO",
           "package": "zasni-gerna",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Connective",
           "package": "zasni-gerna",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Connective",
           "package": "zasni-gerna",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Free",
           "package": "zasni-gerna",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Free",
           "package": "zasni-gerna",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Initiator",
           "package": "zasni-gerna",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Initiator",
           "package": "zasni-gerna",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Lerfu",
           "package": "zasni-gerna",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Lerfu",
           "package": "zasni-gerna",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Linkargs",
           "package": "zasni-gerna",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Linkargs",
           "package": "zasni-gerna",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Mex",
           "package": "zasni-gerna",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Mex",
           "package": "zasni-gerna",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Prefix",
           "package": "zasni-gerna",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Prefix",
           "package": "zasni-gerna",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Relative",
           "package": "zasni-gerna",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Relative",
           "package": "zasni-gerna",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Separator",
           "package": "zasni-gerna",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Separator",
           "package": "zasni-gerna",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Suffix",
           "package": "zasni-gerna",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Suffix",
           "package": "zasni-gerna",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Tag",
           "package": "zasni-gerna",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Tag",
           "package": "zasni-gerna",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Terminator",
           "package": "zasni-gerna",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Terminator",
           "package": "zasni-gerna",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Text",
           "package": "zasni-gerna",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Text",
           "package": "zasni-gerna",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Word",
           "package": "zasni-gerna",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Word",
           "package": "zasni-gerna",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZEI",
           "package": "zasni-gerna",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZEI",
           "package": "zasni-gerna",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BAI",
           "package": "zasni-gerna",
@@ -426,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BAI",
           "package": "zasni-gerna",
@@ -439,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BAIF",
           "package": "zasni-gerna",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BAIF",
           "package": "zasni-gerna",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBAI",
           "package": "zasni-gerna",
@@ -470,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBAI",
           "normalized": "BBAI[String]String",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBAIF",
           "package": "zasni-gerna",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBAIF",
           "normalized": "BBAIF[String]String Free",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBO",
           "package": "zasni-gerna",
@@ -518,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBO",
           "normalized": "BBO[String]String",
@@ -533,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBOF",
           "package": "zasni-gerna",
@@ -542,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBOF",
           "normalized": "BBOF[String]String Free",
@@ -557,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBRIVLA",
           "package": "zasni-gerna",
@@ -566,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBRIVLA",
           "normalized": "BBRIVLA[String]String",
@@ -581,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBRIVLAF",
           "package": "zasni-gerna",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BBRIVLAF",
           "normalized": "BBRIVLAF[String]String Free",
@@ -605,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCMEVLA",
           "package": "zasni-gerna",
@@ -614,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCMEVLA",
           "normalized": "BCMEVLA[String]String",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCMEVLAF",
           "package": "zasni-gerna",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCMEVLAF",
           "normalized": "BCMEVLAF[String]String Free",
@@ -653,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCO",
           "package": "zasni-gerna",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCO",
           "normalized": "BCO[String]String",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCOF",
           "package": "zasni-gerna",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCOF",
           "normalized": "BCOF[String]String Free",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCOI",
           "package": "zasni-gerna",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCOI",
           "normalized": "BCOI[String]String",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCOIF",
           "package": "zasni-gerna",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BCOIF",
           "normalized": "BCOIF[String]String Free",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BClause",
           "package": "zasni-gerna",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BClause",
           "normalized": "BClause[String]Word",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BClauseF",
           "package": "zasni-gerna",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BClauseF",
           "normalized": "BClauseF[String]Word Free",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BDOI",
           "package": "zasni-gerna",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BDOI",
           "normalized": "BDOI[String]String",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BDOIF",
           "package": "zasni-gerna",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BDOIF",
           "normalized": "BDOIF[String]String Free",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BE",
           "package": "zasni-gerna",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BE",
           "package": "zasni-gerna",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BEI",
           "package": "zasni-gerna",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BEI",
           "normalized": "BEI Initiator Text[(Separator,Text)]Terminator",
@@ -891,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BFA",
           "package": "zasni-gerna",
@@ -900,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BFA",
           "normalized": "BFA[String]String",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BFAF",
           "package": "zasni-gerna",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BFAF",
           "normalized": "BFAF[String]String Free",
@@ -939,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGA",
           "package": "zasni-gerna",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGA",
           "normalized": "BGA[String]String",
@@ -963,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGAF",
           "package": "zasni-gerna",
@@ -972,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGAF",
           "normalized": "BGAF[String]String Free",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGI",
           "package": "zasni-gerna",
@@ -996,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGI",
           "normalized": "BGI[String]String",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGIF",
           "package": "zasni-gerna",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGIF",
           "normalized": "BGIF[String]String Free",
@@ -1035,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGIhA",
           "package": "zasni-gerna",
@@ -1044,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGIhA",
           "normalized": "BGIhA[String]String",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGIhAF",
           "package": "zasni-gerna",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGIhAF",
           "normalized": "BGIhAF[String]String Free",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGOhA",
           "package": "zasni-gerna",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGOhA",
           "normalized": "BGOhA[String]String",
@@ -1107,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGOhAF",
           "package": "zasni-gerna",
@@ -1116,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BGOhAF",
           "normalized": "BGOhAF[String]String Free",
@@ -1131,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BInit",
           "package": "zasni-gerna",
@@ -1140,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BInit",
           "normalized": "BInit[String]String",
@@ -1155,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BInitF",
           "package": "zasni-gerna",
@@ -1164,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BInitF",
           "normalized": "BInitF[String]String Free",
@@ -1179,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BJAI",
           "package": "zasni-gerna",
@@ -1188,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BJAI",
           "normalized": "BJAI[String]String",
@@ -1203,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BJAIF",
           "package": "zasni-gerna",
@@ -1212,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BJAIF",
           "normalized": "BJAIF[String]String Free",
@@ -1227,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BJOI",
           "package": "zasni-gerna",
@@ -1236,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BJOI",
           "normalized": "BJOI[String]String",
@@ -1251,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BJOIF",
           "package": "zasni-gerna",
@@ -1260,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BJOIF",
           "normalized": "BJOIF[String]String Free",
@@ -1275,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BKOhA",
           "package": "zasni-gerna",
@@ -1284,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BKOhA",
           "normalized": "BKOhA[String]String",
@@ -1299,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BKOhAF",
           "package": "zasni-gerna",
@@ -1308,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BKOhAF",
           "normalized": "BKOhAF[String]String Free",
@@ -1323,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BLerfu",
           "package": "zasni-gerna",
@@ -1332,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BLerfu",
           "normalized": "BLerfu[String]Word",
@@ -1347,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BLerfuF",
           "package": "zasni-gerna",
@@ -1356,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BLerfuF",
           "normalized": "BLerfuF[String]Word Free",
@@ -1371,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BNA",
           "package": "zasni-gerna",
@@ -1380,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BNA",
           "normalized": "BNA[String]String",
@@ -1395,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BNAF",
           "package": "zasni-gerna",
@@ -1404,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BNAF",
           "normalized": "BNAF[String]String Free",
@@ -1419,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BNAhE",
           "package": "zasni-gerna",
@@ -1428,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BNAhE",
           "normalized": "BNAhE[String]String",
@@ -1443,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BNAhEF",
           "package": "zasni-gerna",
@@ -1452,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BNAhEF",
           "normalized": "BNAhEF[String]String Free",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BO",
           "package": "zasni-gerna",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BO",
           "package": "zasni-gerna",
@@ -1489,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BOF",
           "package": "zasni-gerna",
@@ -1498,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BOF",
           "package": "zasni-gerna",
@@ -1511,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BP1",
           "package": "zasni-gerna",
@@ -1520,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BP1",
           "normalized": "BP[String]String",
@@ -1535,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BP1F",
           "package": "zasni-gerna",
@@ -1544,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BP1F",
           "normalized": "BP F[String]String Free",
@@ -1559,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BRIVLA",
           "package": "zasni-gerna",
@@ -1568,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BRIVLA",
           "package": "zasni-gerna",
@@ -1581,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BRIVLAF",
           "package": "zasni-gerna",
@@ -1590,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BRIVLAF",
           "package": "zasni-gerna",
@@ -1603,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSE",
           "package": "zasni-gerna",
@@ -1612,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSE",
           "normalized": "BSE[String]String",
@@ -1627,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSEF",
           "package": "zasni-gerna",
@@ -1636,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSEF",
           "normalized": "BSEF[String]String Free",
@@ -1651,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSep",
           "package": "zasni-gerna",
@@ -1660,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSep",
           "normalized": "BSep[String]String",
@@ -1675,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSepF",
           "package": "zasni-gerna",
@@ -1684,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSepF",
           "normalized": "BSepF[String]String Free",
@@ -1699,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSuffix",
           "package": "zasni-gerna",
@@ -1708,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSuffix",
           "normalized": "BSuffix[String]String",
@@ -1723,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSuffixF",
           "package": "zasni-gerna",
@@ -1732,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BSuffixF",
           "normalized": "BSuffixF[String]String Free",
@@ -1747,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BTerm",
           "package": "zasni-gerna",
@@ -1756,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BTerm",
           "normalized": "BTerm[String]String",
@@ -1771,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BTermF",
           "package": "zasni-gerna",
@@ -1780,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BTermF",
           "normalized": "BTermF[String]String Free",
@@ -1795,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BU",
           "package": "zasni-gerna",
@@ -1804,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BU",
           "package": "zasni-gerna",
@@ -1817,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BUI",
           "package": "zasni-gerna",
@@ -1826,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BUI",
           "normalized": "BUI[String]String",
@@ -1841,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BUIF",
           "package": "zasni-gerna",
@@ -1850,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BUIF",
           "normalized": "BUIF[String]String Free",
@@ -1865,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BUStr",
           "package": "zasni-gerna",
@@ -1874,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BUStr",
           "normalized": "BUStr Word[([BU],[ZEI])][BU]",
@@ -1889,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BXI",
           "package": "zasni-gerna",
@@ -1898,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BXI",
           "normalized": "BXI[String]String",
@@ -1913,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BXIF",
           "package": "zasni-gerna",
@@ -1922,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BXIF",
           "normalized": "BXIF[String]String Free",
@@ -1937,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Bridi",
           "package": "zasni-gerna",
@@ -1946,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Bridi",
           "package": "zasni-gerna",
@@ -1959,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BridiTail",
           "package": "zasni-gerna",
@@ -1968,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "BridiTail",
           "package": "zasni-gerna",
@@ -1981,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CEI",
           "package": "zasni-gerna",
@@ -1990,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CEI",
           "package": "zasni-gerna",
@@ -2003,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CMEVLA",
           "package": "zasni-gerna",
@@ -2012,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CMEVLA",
           "package": "zasni-gerna",
@@ -2025,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CMEVLAF",
           "package": "zasni-gerna",
@@ -2034,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CMEVLAF",
           "package": "zasni-gerna",
@@ -2047,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CO",
           "package": "zasni-gerna",
@@ -2056,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "CO",
           "package": "zasni-gerna",
@@ -2069,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "COF",
           "package": "zasni-gerna",
@@ -2078,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "COF",
           "package": "zasni-gerna",
@@ -2091,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "COI",
           "package": "zasni-gerna",
@@ -2100,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "COI",
           "package": "zasni-gerna",
@@ -2113,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "COIF",
           "package": "zasni-gerna",
@@ -2122,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "COIF",
           "package": "zasni-gerna",
@@ -2135,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "COIs",
           "package": "zasni-gerna",
@@ -2144,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "COIs",
           "normalized": "COIs[Free]Terminator",
@@ -2159,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Clause",
           "package": "zasni-gerna",
@@ -2168,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Clause",
           "package": "zasni-gerna",
@@ -2181,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ClauseF",
           "package": "zasni-gerna",
@@ -2190,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ClauseF",
           "package": "zasni-gerna",
@@ -2203,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Con",
           "package": "zasni-gerna",
@@ -2212,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Con",
           "normalized": "Con Text[(Connective,Text)]",
@@ -2227,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ConBO",
           "package": "zasni-gerna",
@@ -2236,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ConBO",
           "normalized": "ConBO Text[(Connective,BO,Text)]",
@@ -2251,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "DOI",
           "package": "zasni-gerna",
@@ -2260,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "DOI",
           "package": "zasni-gerna",
@@ -2273,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "DOIF",
           "package": "zasni-gerna",
@@ -2282,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "DOIF",
           "package": "zasni-gerna",
@@ -2295,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "FA",
           "package": "zasni-gerna",
@@ -2304,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "FA",
           "package": "zasni-gerna",
@@ -2317,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "FAF",
           "package": "zasni-gerna",
@@ -2326,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "FAF",
           "package": "zasni-gerna",
@@ -2339,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "FIhO",
           "package": "zasni-gerna",
@@ -2348,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "FIhO",
           "package": "zasni-gerna",
@@ -2361,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "FXI",
           "package": "zasni-gerna",
@@ -2370,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "FXI",
           "package": "zasni-gerna",
@@ -2383,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GA",
           "package": "zasni-gerna",
@@ -2392,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GA",
           "package": "zasni-gerna",
@@ -2405,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GAF",
           "package": "zasni-gerna",
@@ -2414,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GAF",
           "package": "zasni-gerna",
@@ -2427,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GI",
           "package": "zasni-gerna",
@@ -2436,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GI",
           "package": "zasni-gerna",
@@ -2449,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GIF",
           "package": "zasni-gerna",
@@ -2458,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GIF",
           "package": "zasni-gerna",
@@ -2471,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GIJA",
           "package": "zasni-gerna",
@@ -2480,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GIJA",
           "package": "zasni-gerna",
@@ -2493,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GIhA",
           "package": "zasni-gerna",
@@ -2502,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GIhA",
           "package": "zasni-gerna",
@@ -2515,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GIhAF",
           "package": "zasni-gerna",
@@ -2524,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GIhAF",
           "package": "zasni-gerna",
@@ -2537,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GOI",
           "package": "zasni-gerna",
@@ -2546,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GOI",
           "package": "zasni-gerna",
@@ -2559,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GOhA",
           "package": "zasni-gerna",
@@ -2568,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GOhA",
           "package": "zasni-gerna",
@@ -2581,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GOhAF",
           "package": "zasni-gerna",
@@ -2590,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GOhAF",
           "package": "zasni-gerna",
@@ -2603,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Gek",
           "package": "zasni-gerna",
@@ -2612,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Gek",
           "package": "zasni-gerna",
@@ -2625,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Gihek",
           "package": "zasni-gerna",
@@ -2634,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Gihek",
           "normalized": "Gihek Text[(Connective,Text,Text)]",
@@ -2649,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GihekBO",
           "package": "zasni-gerna",
@@ -2658,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "GihekBO",
           "normalized": "GihekBO Text[(Connective,BO,Text,Text)]",
@@ -2673,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "I",
           "package": "zasni-gerna",
@@ -2682,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "I",
           "normalized": "I Text[(Separator,Text)]",
@@ -2696,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "IBO",
           "package": "zasni-gerna",
@@ -2705,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "IBO",
           "normalized": "IBO Text[(Separator,Connective,BO,Text)]",
@@ -2720,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ICon",
           "package": "zasni-gerna",
@@ -2729,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ICon",
           "normalized": "ICon Text[(Separator,Connective,Text)]",
@@ -2744,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Init",
           "package": "zasni-gerna",
@@ -2753,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Init",
           "package": "zasni-gerna",
@@ -2766,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "InitF",
           "package": "zasni-gerna",
@@ -2775,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "InitF",
           "package": "zasni-gerna",
@@ -2788,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JAI",
           "package": "zasni-gerna",
@@ -2797,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JAI",
           "package": "zasni-gerna",
@@ -2810,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JAIF",
           "package": "zasni-gerna",
@@ -2819,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JAIF",
           "package": "zasni-gerna",
@@ -2832,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JAITag",
           "package": "zasni-gerna",
@@ -2841,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JAITag",
           "package": "zasni-gerna",
@@ -2854,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JOI",
           "package": "zasni-gerna",
@@ -2863,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JOI",
           "package": "zasni-gerna",
@@ -2876,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JOIF",
           "package": "zasni-gerna",
@@ -2885,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JOIF",
           "package": "zasni-gerna",
@@ -2898,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JOIGI",
           "package": "zasni-gerna",
@@ -2907,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "JOIGI",
           "package": "zasni-gerna",
@@ -2920,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "KE",
           "package": "zasni-gerna",
@@ -2929,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "KE",
           "package": "zasni-gerna",
@@ -2942,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "KOhA",
           "package": "zasni-gerna",
@@ -2951,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "KOhA",
           "package": "zasni-gerna",
@@ -2964,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "KOhAF",
           "package": "zasni-gerna",
@@ -2973,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "KOhAF",
           "package": "zasni-gerna",
@@ -2986,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LAhE",
           "package": "zasni-gerna",
@@ -2995,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LAhE",
           "package": "zasni-gerna",
@@ -3008,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LE",
           "package": "zasni-gerna",
@@ -3017,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LE",
           "package": "zasni-gerna",
@@ -3030,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LI",
           "package": "zasni-gerna",
@@ -3039,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LI",
           "package": "zasni-gerna",
@@ -3052,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LOhU",
           "package": "zasni-gerna",
@@ -3061,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LOhU",
           "normalized": "LOhU[String]",
@@ -3076,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LU",
           "package": "zasni-gerna",
@@ -3085,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LU",
           "package": "zasni-gerna",
@@ -3098,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Lerfu",
           "package": "zasni-gerna",
@@ -3107,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Lerfu",
           "package": "zasni-gerna",
@@ -3120,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LerfuF",
           "package": "zasni-gerna",
@@ -3129,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "LerfuF",
           "package": "zasni-gerna",
@@ -3142,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Lergum",
           "package": "zasni-gerna",
@@ -3151,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Lergum",
           "normalized": "Lergum[Lerfu]Terminator",
@@ -3166,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Link",
           "package": "zasni-gerna",
@@ -3175,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Link",
           "package": "zasni-gerna",
@@ -3188,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MAI",
           "package": "zasni-gerna",
@@ -3197,6 +3476,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MAI",
           "package": "zasni-gerna",
@@ -3210,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MEJoik",
           "package": "zasni-gerna",
@@ -3219,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MEJoik",
           "package": "zasni-gerna",
@@ -3232,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MEMOI",
           "package": "zasni-gerna",
@@ -3241,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MEMOI",
           "package": "zasni-gerna",
@@ -3254,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MEMex",
           "package": "zasni-gerna",
@@ -3263,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MEMex",
           "package": "zasni-gerna",
@@ -3276,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MESumti",
           "package": "zasni-gerna",
@@ -3285,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MESumti",
           "package": "zasni-gerna",
@@ -3298,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MJoik",
           "package": "zasni-gerna",
@@ -3307,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MJoik",
           "normalized": "MJoik Mex[(Connective,Mex)]",
@@ -3322,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MLAhE",
           "package": "zasni-gerna",
@@ -3331,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MLAhE",
           "package": "zasni-gerna",
@@ -3344,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MNAhEBO",
           "package": "zasni-gerna",
@@ -3353,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MNAhEBO",
           "package": "zasni-gerna",
@@ -3366,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MOI",
           "package": "zasni-gerna",
@@ -3375,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MOI",
           "package": "zasni-gerna",
@@ -3388,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MOhE",
           "package": "zasni-gerna",
@@ -3397,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MOhE",
           "package": "zasni-gerna",
@@ -3410,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MRel",
           "package": "zasni-gerna",
@@ -3419,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MRel",
           "package": "zasni-gerna",
@@ -3432,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MexROI",
           "package": "zasni-gerna",
@@ -3441,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "MexROI",
           "package": "zasni-gerna",
@@ -3454,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Ms",
           "package": "zasni-gerna",
@@ -3463,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Ms",
           "normalized": "Ms[Mex]Terminator",
@@ -3478,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NA",
           "package": "zasni-gerna",
@@ -3487,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NA",
           "package": "zasni-gerna",
@@ -3500,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NACon",
           "package": "zasni-gerna",
@@ -3509,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NACon",
           "package": "zasni-gerna",
@@ -3522,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NAF",
           "package": "zasni-gerna",
@@ -3531,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NAF",
           "package": "zasni-gerna",
@@ -3544,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NASECon",
           "package": "zasni-gerna",
@@ -3553,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NASECon",
           "package": "zasni-gerna",
@@ -3566,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NAhE",
           "package": "zasni-gerna",
@@ -3575,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NAhE",
           "package": "zasni-gerna",
@@ -3588,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NAhEBO",
           "package": "zasni-gerna",
@@ -3597,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NAhEBO",
           "package": "zasni-gerna",
@@ -3610,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NAhEF",
           "package": "zasni-gerna",
@@ -3619,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NAhEF",
           "package": "zasni-gerna",
@@ -3632,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NC",
           "package": "zasni-gerna",
@@ -3641,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NC",
           "package": "zasni-gerna",
@@ -3654,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NF",
           "package": "zasni-gerna",
@@ -3663,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NF",
           "package": "zasni-gerna",
@@ -3676,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NIhE",
           "package": "zasni-gerna",
@@ -3685,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NIhE",
           "package": "zasni-gerna",
@@ -3698,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NIhO",
           "package": "zasni-gerna",
@@ -3707,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NIhO",
           "normalized": "NIhO Text[(Separator,Text)]",
@@ -3722,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NOI",
           "package": "zasni-gerna",
@@ -3731,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NOI",
           "package": "zasni-gerna",
@@ -3744,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NQ",
           "package": "zasni-gerna",
@@ -3753,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NQ",
           "package": "zasni-gerna",
@@ -3766,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NR",
           "package": "zasni-gerna",
@@ -3775,6 +4106,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NR",
           "package": "zasni-gerna",
@@ -3788,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NT",
           "package": "zasni-gerna",
@@ -3797,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NT",
           "package": "zasni-gerna",
@@ -3810,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NU",
           "package": "zasni-gerna",
@@ -3819,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "NU",
           "package": "zasni-gerna",
@@ -3832,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "P1",
           "package": "zasni-gerna",
@@ -3841,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "P1",
           "package": "zasni-gerna",
@@ -3853,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "P1F",
           "package": "zasni-gerna",
@@ -3862,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "P1F",
           "package": "zasni-gerna",
@@ -3874,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Prefix",
           "package": "zasni-gerna",
@@ -3883,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Prefix",
           "package": "zasni-gerna",
@@ -3896,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "PrefixTag",
           "package": "zasni-gerna",
@@ -3905,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "PrefixTag",
           "package": "zasni-gerna",
@@ -3918,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Q",
           "package": "zasni-gerna",
@@ -3927,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Q",
           "package": "zasni-gerna",
@@ -3939,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "QS",
           "package": "zasni-gerna",
@@ -3948,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "QS",
           "package": "zasni-gerna",
@@ -3961,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Rel",
           "package": "zasni-gerna",
@@ -3970,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Rel",
           "package": "zasni-gerna",
@@ -3983,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "RelSelbri",
           "package": "zasni-gerna",
@@ -3992,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "RelSelbri",
           "package": "zasni-gerna",
@@ -4005,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "RelSumti",
           "package": "zasni-gerna",
@@ -4014,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "RelSumti",
           "package": "zasni-gerna",
@@ -4027,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SE",
           "package": "zasni-gerna",
@@ -4036,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SE",
           "package": "zasni-gerna",
@@ -4049,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SECon",
           "package": "zasni-gerna",
@@ -4058,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SECon",
           "package": "zasni-gerna",
@@ -4071,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SEF",
           "package": "zasni-gerna",
@@ -4080,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SEF",
           "package": "zasni-gerna",
@@ -4093,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SEI",
           "package": "zasni-gerna",
@@ -4102,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SEI",
           "package": "zasni-gerna",
@@ -4115,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Sep",
           "package": "zasni-gerna",
@@ -4124,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Sep",
           "package": "zasni-gerna",
@@ -4137,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SepF",
           "package": "zasni-gerna",
@@ -4146,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SepF",
           "package": "zasni-gerna",
@@ -4159,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Stub",
           "package": "zasni-gerna",
@@ -4168,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Stub",
           "package": "zasni-gerna",
@@ -4181,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Suffix",
           "package": "zasni-gerna",
@@ -4190,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Suffix",
           "package": "zasni-gerna",
@@ -4203,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SuffixF",
           "package": "zasni-gerna",
@@ -4212,6 +4583,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "SuffixF",
           "package": "zasni-gerna",
@@ -4225,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TAGGI",
           "package": "zasni-gerna",
@@ -4234,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TAGGI",
           "package": "zasni-gerna",
@@ -4247,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TO",
           "package": "zasni-gerna",
@@ -4256,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TO",
           "package": "zasni-gerna",
@@ -4269,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TTagCons",
           "package": "zasni-gerna",
@@ -4278,6 +4655,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TTagCons",
           "normalized": "TTagCons Tag[(Connective,Tag)]",
@@ -4293,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TTags",
           "package": "zasni-gerna",
@@ -4302,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TTags",
           "normalized": "TTags[Tag]",
@@ -4317,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TUhE",
           "package": "zasni-gerna",
@@ -4326,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TUhE",
           "package": "zasni-gerna",
@@ -4339,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Tag",
           "package": "zasni-gerna",
@@ -4348,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Tag",
           "package": "zasni-gerna",
@@ -4361,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TagBO",
           "package": "zasni-gerna",
@@ -4370,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TagBO",
           "package": "zasni-gerna",
@@ -4383,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TagKU",
           "package": "zasni-gerna",
@@ -4392,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TagKU",
           "package": "zasni-gerna",
@@ -4405,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Tags",
           "package": "zasni-gerna",
@@ -4414,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Tags",
           "normalized": "Tags[Tag]Text",
@@ -4429,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Tanru",
           "package": "zasni-gerna",
@@ -4438,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Tanru",
           "normalized": "Tanru[Text]",
@@ -4453,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TanruBO",
           "package": "zasni-gerna",
@@ -4462,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TanruBO",
           "normalized": "TanruBO Text[(BO,Text)]",
@@ -4477,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TanruCO",
           "package": "zasni-gerna",
@@ -4486,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TanruCO",
           "normalized": "TanruCO Text[(CO,Text)]",
@@ -4501,6 +4897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Term",
           "package": "zasni-gerna",
@@ -4510,6 +4907,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Term",
           "package": "zasni-gerna",
@@ -4523,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TermF",
           "package": "zasni-gerna",
@@ -4532,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "TermF",
           "package": "zasni-gerna",
@@ -4545,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Terms",
           "package": "zasni-gerna",
@@ -4554,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Terms",
           "normalized": "Terms[Text]Terminator",
@@ -4569,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "UI",
           "package": "zasni-gerna",
@@ -4578,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "UI",
           "package": "zasni-gerna",
@@ -4591,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "UIF",
           "package": "zasni-gerna",
@@ -4600,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "UIF",
           "package": "zasni-gerna",
@@ -4613,6 +5019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "VEI",
           "package": "zasni-gerna",
@@ -4622,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "VEI",
           "package": "zasni-gerna",
@@ -4635,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "VR",
           "package": "zasni-gerna",
@@ -4644,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "VR",
           "package": "zasni-gerna",
@@ -4657,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Vocative",
           "package": "zasni-gerna",
@@ -4666,6 +5077,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Vocative",
           "normalized": "Vocative[Free]Text Terminator",
@@ -4681,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Word",
           "package": "zasni-gerna",
@@ -4690,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "Word",
           "package": "zasni-gerna",
@@ -4703,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "XI",
           "package": "zasni-gerna",
@@ -4712,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "XI",
           "package": "zasni-gerna",
@@ -4725,6 +5141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "XIF",
           "package": "zasni-gerna",
@@ -4734,6 +5151,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "XIF",
           "package": "zasni-gerna",
@@ -4747,6 +5165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZEI",
           "package": "zasni-gerna",
@@ -4756,6 +5175,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZEI",
           "package": "zasni-gerna",
@@ -4769,6 +5189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZEIStr",
           "package": "zasni-gerna",
@@ -4778,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZEIStr",
           "normalized": "ZEIStr Word[([ZEI],[BU])][ZEI]",
@@ -4793,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZIhE",
           "package": "zasni-gerna",
@@ -4802,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZIhE",
           "normalized": "ZIhE Relative[(Separator,Relative)]",
@@ -4817,6 +5241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZO",
           "package": "zasni-gerna",
@@ -4826,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZO",
           "package": "zasni-gerna",
@@ -4839,6 +5265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZOI",
           "package": "zasni-gerna",
@@ -4848,6 +5275,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZOI",
           "package": "zasni-gerna",
@@ -4861,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZOhU",
           "package": "zasni-gerna",
@@ -4870,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "ZOhU",
           "package": "zasni-gerna",
@@ -4883,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:47 UTC 2014",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "parse",
           "package": "zasni-gerna",
@@ -4892,6 +5323,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Parser ZasniGerna",
+          "indexed": "2014-03-11T20:47:47",
           "module": "Language.Lojban.Parser.ZasniGerna",
           "name": "parse",
           "normalized": "String-\u003eEither String(Free,Text,Terminator)",

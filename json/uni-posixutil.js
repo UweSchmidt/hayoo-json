@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uni-posixutil"
+        "phrase": "uni-posixutil",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule that should also compile on Windows for blocking sigPIPE on\n Unix, something you need to do to avoid the entire system crashing when\n a pipe is closed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.BlockSigPIPE",
           "name": "BlockSigPIPE",
           "package": "uni-posixutil",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module that should also compile on Windows for blocking sigPIPE on Unix something you need to do to avoid the entire system crashing when pipe is closed",
           "hierarchy": "Posixutil BlockSigPIPE",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.BlockSigPIPE",
           "name": "BlockSigPIPE",
           "package": "uni-posixutil",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.BlockSigPIPE",
           "name": "blockSigPIPE",
           "package": "uni-posixutil",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Posixutil BlockSigPIPE",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.BlockSigPIPE",
           "name": "blockSigPIPE",
           "normalized": "IO()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalling other programs.\n\u003c/p\u003e\u003cp\u003eThis module now serves basically as an interface to GHC's new\n System.Process module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "ChildProcess",
           "package": "uni-posixutil",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Calling other programs This module now serves basically as an interface to GHC new System.Process module",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "ChildProcess",
           "package": "uni-posixutil",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA running process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "ChildProcess",
           "package": "uni-posixutil",
@@ -98,6 +105,7 @@
         "index": {
           "description": "running process",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "ChildProcess",
           "package": "uni-posixutil",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus if a process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "ChildProcessStatus",
           "package": "uni-posixutil",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Status if process",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "ChildProcessStatus",
           "package": "uni-posixutil",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes configuration options for the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "PosixProcess",
           "package": "uni-posixutil",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Describes configuration options for the process",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "PosixProcess",
           "package": "uni-posixutil",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "ChildExited",
           "package": "uni-posixutil",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "ChildExited",
           "package": "uni-posixutil",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "ChildTerminated",
           "package": "uni-posixutil",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "ChildTerminated",
           "package": "uni-posixutil",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend command arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "appendArguments",
           "package": "uni-posixutil",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Append command arguments",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "appendArguments",
           "normalized": "[String]-\u003eConfig PosixProcess",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet command arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "arguments",
           "package": "uni-posixutil",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Set command arguments",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "arguments",
           "normalized": "[String]-\u003eConfig PosixProcess",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a \u003ca\u003echallenge\u003c/a\u003e and \u003ca\u003eresponse\u003c/a\u003e.  This is used as a test\n when the tool starts up, to make sure that everything is\n working properly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "challengeResponse",
           "package": "uni-posixutil",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Set challenge and response This is used as test when the tool starts up to make sure that everything is working properly",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "challengeResponse",
           "normalized": "(String,String)-\u003eConfig PosixProcess",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the process' environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "environment",
           "package": "uni-posixutil",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Set the process environment",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "environment",
           "normalized": "[(String,String)]-\u003eConfig PosixProcess",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ereadMsg\u003c/a\u003e\u003c/code\u003e returns lines, otherwise it returs the first input\n that's available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "linemode",
           "package": "uni-posixutil",
@@ -314,6 +339,7 @@
         "index": {
           "description": "If True readMsg returns lines otherwise it returs the first input that available",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "linemode",
           "normalized": "Bool-\u003eConfig PosixProcess",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarting a new \u003ccode\u003e\u003ca\u003eChildProcess\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "newChildProcess",
           "package": "uni-posixutil",
@@ -339,6 +366,7 @@
         "index": {
           "description": "Starting new ChildProcess",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "newChildProcess",
           "normalized": "FilePath-\u003e[Config PosixProcess]-\u003eIO ChildProcess",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a string from the ChildProcess\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "readMsg",
           "package": "uni-posixutil",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Reads string from the ChildProcess",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "readMsg",
           "normalized": "ChildProcess-\u003eIO String",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a String to the ChildProcess, adding a new line\n for line mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "sendMsg",
           "package": "uni-posixutil",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Sends String to the ChildProcess adding new line for line mode",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "sendMsg",
           "normalized": "ChildProcess-\u003eString-\u003eIO()",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a CStringLen\n to the child process.  It does not append a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "sendMsgRaw",
           "package": "uni-posixutil",
@@ -417,6 +450,7 @@
         "index": {
           "description": "Writes CStringLen to the child process It does not append newline",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "sendMsgRaw",
           "normalized": "ChildProcess-\u003eCStringLen-\u003eIO()",
@@ -432,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "standarderrors",
           "package": "uni-posixutil",
@@ -441,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "standarderrors",
           "normalized": "Bool-\u003eConfig PosixProcess",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the tool, used in error messages and in the debug file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "toolName",
           "package": "uni-posixutil",
@@ -466,6 +503,7 @@
         "index": {
           "description": "The name of the tool used in error messages and in the debug file",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "toolName",
           "normalized": "String-\u003eConfig PosixProcess",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits for the ChildProcess to exit or be terminated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ChildProcess",
           "name": "waitForChildProcess",
           "package": "uni-posixutil",
@@ -492,6 +531,7 @@
         "index": {
           "description": "Waits for the ChildProcess to exit or be terminated",
           "hierarchy": "Posixutil ChildProcess",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ChildProcess",
           "name": "waitForChildProcess",
           "normalized": "ChildProcess-\u003eIO ChildProcessStatus",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis contains functions for copying to and from files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "CopyFile",
           "package": "uni-posixutil",
@@ -517,6 +558,7 @@
         "index": {
           "description": "This contains functions for copying to and from files",
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "CopyFile",
           "package": "uni-posixutil",
@@ -530,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyCStringLenToFile",
           "package": "uni-posixutil",
@@ -539,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyCStringLenToFile",
           "normalized": "CStringLen-\u003eFilePath-\u003eIO()",
@@ -554,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyFile",
           "package": "uni-posixutil",
@@ -563,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyFile",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -578,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToCStringLen",
           "package": "uni-posixutil",
@@ -587,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToCStringLen",
           "normalized": "FilePath-\u003eIO CStringLen",
@@ -602,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToICStringLen",
           "package": "uni-posixutil",
@@ -611,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToICStringLen",
           "normalized": "FilePath-\u003eIO ICStringLen",
@@ -626,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToICStringLenCheck",
           "package": "uni-posixutil",
@@ -635,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToICStringLenCheck",
           "normalized": "FilePath-\u003eIO(WithError ICStringLen)",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads in a file to a String.  NB - differs from readFile in that this\n is done instantly, so we don't have to worry about semi-closed handles\n hanging around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToString",
           "package": "uni-posixutil",
@@ -661,6 +714,7 @@
         "index": {
           "description": "Reads in file to String NB differs from readFile in that this is done instantly so we don have to worry about semi-closed handles hanging around",
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToString",
           "normalized": "FilePath-\u003eIO String",
@@ -677,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a file, catching certain errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToStringCheck",
           "package": "uni-posixutil",
@@ -687,6 +742,7 @@
         "index": {
           "description": "Read in file catching certain errors",
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyFileToStringCheck",
           "normalized": "FilePath-\u003eIO(WithError String)",
@@ -702,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyFileWE",
           "package": "uni-posixutil",
@@ -711,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyFileWE",
           "normalized": "String-\u003eString-\u003eIO(WithError())",
@@ -726,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyICStringLenToFile",
           "package": "uni-posixutil",
@@ -735,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyICStringLenToFile",
           "normalized": "ICStringLen-\u003eFilePath-\u003eIO()",
@@ -750,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyStringToFile",
           "package": "uni-posixutil",
@@ -759,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyStringToFile",
           "normalized": "String-\u003eFilePath-\u003eIO()",
@@ -775,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a file, catching certain errors.\n (At the moment this is not very helpful, returning messages like\n \"system error\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.CopyFile",
           "name": "copyStringToFileCheck",
           "package": "uni-posixutil",
@@ -785,6 +848,7 @@
         "index": {
           "description": "Write to file catching certain errors At the moment this is not very helpful returning messages like system error",
           "hierarchy": "Posixutil CopyFile",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.CopyFile",
           "name": "copyStringToFileCheck",
           "normalized": "String-\u003eFilePath-\u003eIO(WithError())",
@@ -801,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProcessClasses describes some classes which tools encapsulating\n processes may instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "ProcessClasses",
           "package": "uni-posixutil",
@@ -810,6 +875,7 @@
         "index": {
           "description": "ProcessClasses describes some classes which tools encapsulating processes may instance",
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "ProcessClasses",
           "package": "uni-posixutil",
@@ -823,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "CommandTool",
           "package": "uni-posixutil",
@@ -831,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "CommandTool",
           "package": "uni-posixutil",
@@ -844,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "SingleInstanceTool",
           "package": "uni-posixutil",
@@ -852,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "SingleInstanceTool",
           "package": "uni-posixutil",
@@ -865,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "Tool",
           "package": "uni-posixutil",
@@ -873,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "Tool",
           "package": "uni-posixutil",
@@ -886,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "ToolStatus",
           "package": "uni-posixutil",
@@ -894,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "ToolStatus",
           "package": "uni-posixutil",
@@ -907,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "evalCmd",
           "package": "uni-posixutil",
@@ -916,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "evalCmd",
           "normalized": "String-\u003ea-\u003eIO String",
@@ -931,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "execCmd",
           "package": "uni-posixutil",
@@ -940,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "execCmd",
           "normalized": "String-\u003ea-\u003eIO()",
@@ -955,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "execOneWayCmd",
           "package": "uni-posixutil",
@@ -964,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "execOneWayCmd",
           "normalized": "String-\u003ea-\u003eIO()",
@@ -979,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "getToolInstance",
           "package": "uni-posixutil",
@@ -988,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "getToolInstance",
           "package": "uni-posixutil",
@@ -1001,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.ProcessClasses",
           "name": "getToolStatus",
           "package": "uni-posixutil",
@@ -1010,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Posixutil ProcessClasses",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.ProcessClasses",
           "name": "getToolStatus",
           "normalized": "a-\u003eIO ToolStatus",
@@ -1026,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSafeSystem.safeSystem executes a command (supplied as a String) and\n returns its exit code.  It differs from System.system in that it does\n NOT stop the world while doing this, so that other threads can run.\n How it works: we use ChildProcess to run the runCommand C program,\n and feed it the command over stdin.  Ugly, but is there a better way?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.SafeSystem",
           "name": "SafeSystem",
           "package": "uni-posixutil",
@@ -1035,6 +1120,7 @@
         "index": {
           "description": "SafeSystem.safeSystem executes command supplied as String and returns its exit code It differs from System.system in that it does NOT stop the world while doing this so that other threads can run How it works we use ChildProcess to run the runCommand program and feed it the command over stdin Ugly but is there better way",
           "hierarchy": "Posixutil SafeSystem",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.SafeSystem",
           "name": "SafeSystem",
           "package": "uni-posixutil",
@@ -1048,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.SafeSystem",
           "name": "safeSystem",
           "package": "uni-posixutil",
@@ -1057,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Posixutil SafeSystem",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.SafeSystem",
           "name": "safeSystem",
           "normalized": "String-\u003eIO ExitCode",
@@ -1073,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \"command\", displaying any output using the supplied\n outputSink function.  (This output had better not include\n \"EXITCODE [number]\".)\n\u003c/p\u003e\u003cp\u003eoutputSink is fed output line by line, and without the newlines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:29 UTC 2014",
           "module": "Posixutil.SafeSystem",
           "name": "safeSystemGeneral",
           "package": "uni-posixutil",
@@ -1083,6 +1172,7 @@
         "index": {
           "description": "Run command displaying any output using the supplied outputSink function This output had better not include EXITCODE number outputSink is fed output line by line and without the newlines",
           "hierarchy": "Posixutil SafeSystem",
+          "indexed": "2014-03-11T20:29:29",
           "module": "Posixutil.SafeSystem",
           "name": "safeSystemGeneral",
           "normalized": "String-\u003e(String-\u003eIO())-\u003eIO ExitCode",

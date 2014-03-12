@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hfractal"
+        "phrase": "hfractal",
+        "type": "phrase"
       },
       "type": "context"
     }

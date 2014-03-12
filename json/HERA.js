@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HERA"
+        "phrase": "HERA",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "Ball",
           "package": "HERA",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "Ball",
           "package": "HERA",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBall represents a closed interval \u003ccode\u003e[center-radius, center+radius] \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "Ball",
           "package": "HERA",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Ball represents closed interval center-radius center radius",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "Ball",
           "package": "HERA",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "Ball",
           "package": "HERA",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "Ball",
           "package": "HERA",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "absB",
           "package": "HERA",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "absB",
           "normalized": "Precision-\u003eBall-\u003eBall",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition of two balls.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e center = center a + center b\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e radius = radius a + radius b\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eRounding errors are added to the radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "add",
           "package": "HERA",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Addition of two balls center center center radius radius radius Rounding errors are added to the radius",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "add",
           "normalized": "Precision-\u003eBall-\u003eBall-\u003eBall",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if second ball is included in the first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "below",
           "package": "HERA",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Check if second ball is included in the first",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "below",
           "normalized": "Ball-\u003eBall-\u003eBool",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecenter of the ball\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "center",
           "package": "HERA",
@@ -168,6 +181,7 @@
         "index": {
           "description": "center of the ball",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "center",
           "package": "HERA",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two balls.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e if upper a \u003c lower b then Less\n\u003c/li\u003e\u003cli\u003e if upper b \u003c lower a then Greater \n\u003c/li\u003e\u003cli\u003e otherwise balls are incomparable.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "compareB",
           "package": "HERA",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Compare two balls if upper lower then Less if upper lower then Greater otherwise balls are incomparable",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "compareB",
           "normalized": "Ball-\u003eBall-\u003ePOrdering",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if dyadic is element of the ball.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "contains",
           "package": "HERA",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Check if dyadic is element of the ball",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "contains",
           "normalized": "Ball-\u003eDyadic-\u003eBool",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision of two balls\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If radius is \"large\" then divide endpoints and makeA a ball from them.\n\u003c/li\u003e\u003cli\u003e If radius is \"small\" then division can be optimized\n\u003c/li\u003e\u003cli\u003e\u003cpre\u003e center = center a / center b\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e \u003ccode\u003e (radius = radius a * center b + center a * radius b) / (center b * center b) + 2 * 2 ^ (e1 - e2 - p)\u003c/code\u003e \n  where \u003ccode\u003e p \u003c/code\u003e is precision of the result, \u003ccode\u003e e1 = getExp c1, e2 = getExp c2 \u003c/code\u003e. This way the resulting interval is \n  guaranteed to be correct.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eRounding errors are added to the radius.\n\u003c/p\u003e\u003cp\u003eIf divisor ball contains zero compuatation fails with fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "div",
           "package": "HERA",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Division of two balls If radius is large then divide endpoints and makeA ball from them If radius is small then division can be optimized center center center radius radius center center radius center center e1 e2 where is precision of the result e1 getExp c1 e2 getExp c2 This way the resulting interval is guaranteed to be correct Rounding errors are added to the radius If divisor ball contains zero compuatation fails with fail",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "div",
           "normalized": "Precision-\u003eBall-\u003eBall-\u003ea Ball",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e e ^ b\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "exp",
           "package": "HERA",
@@ -265,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "exp",
           "normalized": "Precision-\u003eBall-\u003eBall",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakeA a ball from dyadic. Radius is 0 if desired precision is not smaller\n than precision of dyadic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "fromDyadic",
           "package": "HERA",
@@ -290,6 +313,7 @@
         "index": {
           "description": "MakeA ball from dyadic Radius is if desired precision is not smaller than precision of dyadic",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "fromDyadic",
           "normalized": "Precision-\u003eDyadic-\u003eBall",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to fromDyadic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "fromInt",
           "package": "HERA",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Similar to fromDyadic",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "fromInt",
           "normalized": "Precision-\u003eInt-\u003eBall",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to fromDyadic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "fromString",
           "package": "HERA",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Similar to fromDyadic",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "fromString",
           "normalized": "Precision-\u003eString-\u003eBall",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to fromInt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "fromWord",
           "package": "HERA",
@@ -368,6 +397,7 @@
         "index": {
           "description": "Similar to fromInt",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "fromWord",
           "normalized": "Precision-\u003eWord-\u003eBall",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of two balls exactly (no precision is lost).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "intersect",
           "package": "HERA",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Intersection of two balls exactly no precision is lost",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "intersect",
           "normalized": "Ball-\u003eBall-\u003ea Ball",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an intersection of two balls. If balls are disjoint then computation fails with fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "intersectA",
           "package": "HERA",
@@ -418,6 +451,7 @@
         "index": {
           "description": "Returns an intersection of two balls If balls are disjoint then computation fails with fail",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "intersectA",
           "normalized": "Precision-\u003eBall-\u003eBall-\u003ea Ball",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural logarithm of a ball. If interval contains 0 then computation fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "log",
           "package": "HERA",
@@ -443,6 +478,7 @@
         "index": {
           "description": "Natural logarithm of ball If interval contains then computation fails",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "log",
           "normalized": "Precision-\u003eBall-\u003ea Ball",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower endpoint of the ball rounded down to specified precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "lower",
           "package": "HERA",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Lower endpoint of the ball rounded down to specified precision",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "lower",
           "normalized": "Precision-\u003eBall-\u003eDyadic",
@@ -483,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower endpoint with precision of the center\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "lower_",
           "package": "HERA",
@@ -493,6 +532,7 @@
         "index": {
           "description": "Lower endpoint with precision of the center",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "lower_",
           "normalized": "Ball-\u003eDyadic",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a ball from endpoints so that no precision is lost. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "make",
           "package": "HERA",
@@ -517,6 +558,7 @@
         "index": {
           "description": "Make ball from endpoints so that no precision is lost",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "make",
           "normalized": "Dyadic-\u003eDyadic-\u003eBall",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a ball from endpoints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "makeA",
           "package": "HERA",
@@ -541,6 +584,7 @@
         "index": {
           "description": "Make ball from endpoints",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "makeA",
           "normalized": "Precision-\u003eDyadic-\u003eDyadic-\u003eBall",
@@ -556,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of two balls, meaning:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e lower = max (lower a) (lower b) rounded down\n\u003c/li\u003e\u003cli\u003e upper = max (upper a) (upper b) rounded up\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "maxB",
           "package": "HERA",
@@ -566,6 +611,7 @@
         "index": {
           "description": "Maximum of two balls meaning lower max lower lower rounded down upper max upper upper rounded up",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "maxB",
           "normalized": "Precision-\u003eBall-\u003eBall-\u003eBall",
@@ -581,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to maxB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "minB",
           "package": "HERA",
@@ -591,6 +638,7 @@
         "index": {
           "description": "Analogous to maxB",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "minB",
           "normalized": "Precision-\u003eBall-\u003eBall-\u003eBall",
@@ -606,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication of two balls. (centers of both balls are assumed positive)\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If none of the balls contains 0 then\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e center = center a * center b + radius a * radius b\u003c/pre\u003e\u003cpre\u003e radius = center a * radius b + radius a * center b\u003c/pre\u003e\u003cul\u003e\u003cli\u003e If one of the operands (left) contains 0\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e center = center a * upper b\u003c/pre\u003e\u003cpre\u003e radius = radius a * upper b\u003c/pre\u003e\u003cul\u003e\u003cli\u003e If both of the balls contain 0\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e lower =  min ((lower a) * (upper b)) ((lower b) * (upper a))\u003c/pre\u003e\u003cpre\u003e upper =  max ((lower a) * (lower b)) ((upper b) * (upper a))\u003c/pre\u003e\u003cp\u003eRounding errors are added to the radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "mul",
           "package": "HERA",
@@ -616,6 +665,7 @@
         "index": {
           "description": "Multiplication of two balls centers of both balls are assumed positive If none of the balls contains then center center center radius radius radius center radius radius center If one of the operands left contains center center upper radius radius upper If both of the balls contain lower min lower upper lower upper upper max lower lower upper upper Rounding errors are added to the radius",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "mul",
           "normalized": "Precision-\u003eBall-\u003eBall-\u003eBall",
@@ -631,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation of the ball. \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e center = - center b rounded to specified precision.\n\u003c/li\u003e\u003cli\u003e radius is only modified for the rounding error.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "neg",
           "package": "HERA",
@@ -641,6 +692,7 @@
         "index": {
           "description": "Negation of the ball center center rounded to specified precision radius is only modified for the rounding error",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "neg",
           "normalized": "Precision-\u003eBall-\u003eBall",
@@ -656,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize the given ball's center to the specified precision.\n Resulting ball might be larger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "normalizeBall",
           "package": "HERA",
@@ -666,6 +719,7 @@
         "index": {
           "description": "Normalize the given ball center to the specified precision Resulting ball might be larger",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "normalizeBall",
           "normalized": "Precision-\u003eBall-\u003eBall",
@@ -682,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eradius of the ball \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "radius",
           "package": "HERA",
@@ -692,6 +747,7 @@
         "index": {
           "description": "radius of the ball",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "radius",
           "package": "HERA",
@@ -705,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign of lower endpoint of the ball. This should be faster than using \u003ccode\u003e signum (center b - radius b) \u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "sgnLower",
           "package": "HERA",
@@ -715,6 +772,7 @@
         "index": {
           "description": "Sign of lower endpoint of the ball This should be faster than using signum center radius",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "sgnLower",
           "normalized": "Ball-\u003eInt",
@@ -731,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to sgnLower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "sgnUpper",
           "package": "HERA",
@@ -741,6 +800,7 @@
         "index": {
           "description": "Analogous to sgnLower",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "sgnUpper",
           "normalized": "Ball-\u003eInt",
@@ -757,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare root of a ball. If interval contains 0 then computation fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "sqrt",
           "package": "HERA",
@@ -767,6 +828,7 @@
         "index": {
           "description": "Square root of ball If interval contains then computation fails",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "sqrt",
           "normalized": "Precision-\u003eBall-\u003ea Ball",
@@ -782,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtraction of two balls.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e center = center a - center b\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e radius = radius a + radius b\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eRounding errors are added to the radius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "sub",
           "package": "HERA",
@@ -792,6 +855,7 @@
         "index": {
           "description": "Subtraction of two balls center center center radius radius radius Rounding errors are added to the radius",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "sub",
           "normalized": "Precision-\u003eBall-\u003eBall-\u003eBall",
@@ -807,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper endpoint of the ball rounded up to specified precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "upper",
           "package": "HERA",
@@ -817,6 +882,7 @@
         "index": {
           "description": "Upper endpoint of the ball rounded up to specified precision",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "upper",
           "normalized": "Precision-\u003eBall-\u003eDyadic",
@@ -832,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper endpoint with precision of the center\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "upper_",
           "package": "HERA",
@@ -842,6 +909,7 @@
         "index": {
           "description": "Upper endpoint with precision of the center",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "upper_",
           "normalized": "Ball-\u003eDyadic",
@@ -857,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper bound on the width of the ball. \u003ccode\u003e 2 * radius b \u003c/code\u003e rounded up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Ball",
           "name": "width",
           "package": "HERA",
@@ -867,6 +936,7 @@
         "index": {
           "description": "Upper bound on the width of the ball radius rounded up",
           "hierarchy": "Data Number Ball",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Ball",
           "name": "width",
           "normalized": "Ball-\u003eDyadic",
@@ -881,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Dyadic",
           "name": "Dyadic",
           "package": "HERA",
@@ -889,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Data Number Dyadic",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Dyadic",
           "name": "Dyadic",
           "package": "HERA",
@@ -902,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Dyadic",
           "name": "pow2",
           "package": "HERA",
@@ -911,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Data Number Dyadic",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Dyadic",
           "name": "pow2",
           "normalized": "Int-\u003eDyadic",
@@ -925,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "DyadicInterval",
           "package": "HERA",
@@ -933,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "DyadicInterval",
           "package": "HERA",
@@ -947,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around Ball allowing the results of operations like division\n by interval containing zero to be represented and do not cause errors.\n\u003c/p\u003e\u003cp\u003eNothing represents undefined interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "Interval",
           "package": "HERA",
@@ -956,6 +1033,7 @@
         "index": {
           "description": "wrapper around Ball allowing the results of operations like division by interval containing zero to be represented and do not cause errors Nothing represents undefined interval",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "Interval",
           "package": "HERA",
@@ -970,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition. If one of the arguments is _|_, so is the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "add",
           "package": "HERA",
@@ -980,6 +1059,7 @@
         "index": {
           "description": "Addition If one of the arguments is so is the result",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "add",
           "normalized": "Precision-\u003eInterval-\u003eInterval-\u003eInterval",
@@ -995,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if second interval is inside the first. _|_ is above all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "below",
           "package": "HERA",
@@ -1005,6 +1086,7 @@
         "index": {
           "description": "Checks if second interval is inside the first is above all",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "below",
           "normalized": "Interval-\u003eInterval-\u003eBool",
@@ -1020,6 +1102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCenter of interval. Center on _|_ will result in fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "center",
           "package": "HERA",
@@ -1030,6 +1113,7 @@
         "index": {
           "description": "Center of interval Center on will result in fail",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "center",
           "normalized": "Interval-\u003ea Dyadic",
@@ -1045,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two intervals. If one of them is _|_ the result is incomparable, \n otherwise result is comparison of balls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "compareI",
           "package": "HERA",
@@ -1055,6 +1140,7 @@
         "index": {
           "description": "Compare two intervals If one of them is the result is incomparable otherwise result is comparison of balls",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "compareI",
           "normalized": "Interval-\u003eInterval-\u003ePOrdering",
@@ -1070,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if interval contains dyadic. _|_ contains everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "contains",
           "package": "HERA",
@@ -1080,6 +1167,7 @@
         "index": {
           "description": "Checks if interval contains dyadic contains everything",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "contains",
           "normalized": "Interval-\u003eDyadic-\u003eBool",
@@ -1095,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision. If one of the arguments is _|_ or divisor contains 0 then result is _|_.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "div",
           "package": "HERA",
@@ -1105,6 +1194,7 @@
         "index": {
           "description": "Division If one of the arguments is or divisor contains then result is",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "div",
           "normalized": "Precision-\u003eInterval-\u003eInterval-\u003eInterval",
@@ -1120,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e e ^ i \u003c/code\u003e If argument is _|_ so is the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "exp",
           "package": "HERA",
@@ -1130,6 +1221,7 @@
         "index": {
           "description": "If argument is so is the result",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "exp",
           "normalized": "Precision-\u003eInterval-\u003eInterval",
@@ -1145,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust make an interval from a ball.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "fromBall",
           "package": "HERA",
@@ -1155,6 +1248,7 @@
         "index": {
           "description": "Just make an interval from ball",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "fromBall",
           "normalized": "Ball-\u003eInterval",
@@ -1171,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an interval from a ball and normalize it to specified precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "fromBallA",
           "package": "HERA",
@@ -1181,6 +1276,7 @@
         "index": {
           "description": "Make an interval from ball and normalize it to specified precision",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "fromBallA",
           "normalized": "Precision-\u003eBall-\u003eInterval",
@@ -1196,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "fromDyadic",
           "package": "HERA",
@@ -1205,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "fromDyadic",
           "normalized": "Precision-\u003eDyadic-\u003eInterval",
@@ -1220,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "fromInt",
           "package": "HERA",
@@ -1229,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "fromInt",
           "normalized": "Precision-\u003eInt-\u003eInterval",
@@ -1244,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "fromString",
           "package": "HERA",
@@ -1253,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "fromString",
           "normalized": "Precision-\u003eString-\u003eInterval",
@@ -1268,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "fromWord",
           "package": "HERA",
@@ -1277,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "fromWord",
           "normalized": "Precision-\u003eWord-\u003eInterval",
@@ -1293,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns Below if second interval is inside first, Above if converse, NoInclusion otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "includes",
           "package": "HERA",
@@ -1303,6 +1408,7 @@
         "index": {
           "description": "Returns Below if second interval is inside first Above if converse NoInclusion otherwise",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "includes",
           "normalized": "Interval-\u003eInterval-\u003eInclusion",
@@ -1318,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the intersection of two intervals so that no precision is lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "intersect",
           "package": "HERA",
@@ -1328,6 +1435,7 @@
         "index": {
           "description": "Return the intersection of two intervals so that no precision is lost",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "intersect",
           "normalized": "Interval-\u003eInterval-\u003eInterval",
@@ -1343,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the intersection of two intervals. The resulting interval's center has specified precision.\n\u003c/p\u003e\u003cp\u003eIf one of the intervals is _|_ then just return the other (even if it is _|_).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "intersectA",
           "package": "HERA",
@@ -1353,6 +1462,7 @@
         "index": {
           "description": "Return the intersection of two intervals The resulting interval center has specified precision If one of the intervals is then just return the other even if it is",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "intersectA",
           "normalized": "Precision-\u003eInterval-\u003eInterval-\u003eInterval",
@@ -1368,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural logarithm. If one argument is _|_ or interval contains 0 then result is _|_.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "log",
           "package": "HERA",
@@ -1378,6 +1489,7 @@
         "index": {
           "description": "Natural logarithm If one argument is or interval contains then result is",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "log",
           "normalized": "Precision-\u003eInterval-\u003eInterval",
@@ -1393,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower endpoint of interval with precision of the center. \n Lower on _|_ will result in fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "lower",
           "package": "HERA",
@@ -1403,6 +1516,7 @@
         "index": {
           "description": "Lower endpoint of interval with precision of the center Lower on will result in fail",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "lower",
           "normalized": "Interval-\u003ea Dyadic",
@@ -1418,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an interval from two endpoints so that no precision is lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "make",
           "package": "HERA",
@@ -1428,6 +1543,7 @@
         "index": {
           "description": "Make an interval from two endpoints so that no precision is lost",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "make",
           "normalized": "Dyadic-\u003eDyadic-\u003eInterval",
@@ -1443,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an interval from two endpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "makeA",
           "package": "HERA",
@@ -1452,6 +1569,7 @@
         "index": {
           "description": "Make an interval from two endpoints",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "makeA",
           "normalized": "Precision-\u003eDyadic-\u003eDyadic-\u003eInterval",
@@ -1467,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of intervals. If one interval is _|_ so is the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "maxI",
           "package": "HERA",
@@ -1477,6 +1596,7 @@
         "index": {
           "description": "Maximum of intervals If one interval is so is the result",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "maxI",
           "normalized": "Precision-\u003eInterval-\u003eInterval-\u003eInterval",
@@ -1492,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to maxI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "minI",
           "package": "HERA",
@@ -1502,6 +1623,7 @@
         "index": {
           "description": "Similar to maxI",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "minI",
           "normalized": "Precision-\u003eInterval-\u003eInterval-\u003eInterval",
@@ -1517,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication. If one of the arguments is _|_, so is the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "mul",
           "package": "HERA",
@@ -1527,6 +1650,7 @@
         "index": {
           "description": "Multiplication If one of the arguments is so is the result",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "mul",
           "normalized": "Precision-\u003eInterval-\u003eInterval-\u003eInterval",
@@ -1542,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate the interval. neg _|_ = _|_.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "neg",
           "package": "HERA",
@@ -1552,6 +1677,7 @@
         "index": {
           "description": "Negate the interval neg",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "neg",
           "normalized": "Precision-\u003eInterval-\u003eInterval",
@@ -1567,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRadius of interval. Radius on _|_ will result in fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "radius",
           "package": "HERA",
@@ -1577,6 +1704,7 @@
         "index": {
           "description": "Radius of interval Radius on will result in fail",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "radius",
           "normalized": "Interval-\u003ea Dyadic",
@@ -1592,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare root. If one argument is _|_ or interval contains 0 then result is _|_.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "sqrt",
           "package": "HERA",
@@ -1602,6 +1731,7 @@
         "index": {
           "description": "Square root If one argument is or interval contains then result is",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "sqrt",
           "normalized": "Precision-\u003eInterval-\u003eInterval",
@@ -1617,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtraction. If one of the arguments is _|_, so is the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "sub",
           "package": "HERA",
@@ -1627,6 +1758,7 @@
         "index": {
           "description": "Subtraction If one of the arguments is so is the result",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "sub",
           "normalized": "Precision-\u003eInterval-\u003eInterval-\u003eInterval",
@@ -1641,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "toString",
           "package": "HERA",
@@ -1650,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "toString",
           "normalized": "Interval-\u003eString",
@@ -1666,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper endpoint of interval with precision of the center. \n Upper on _|_ will result in fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "upper",
           "package": "HERA",
@@ -1676,6 +1811,7 @@
         "index": {
           "description": "Upper endpoint of interval with precision of the center Upper on will result in fail",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "upper",
           "normalized": "Interval-\u003ea Dyadic",
@@ -1691,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth of the interval. Widht on _|_ will result in fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.DyadicInterval",
           "name": "width",
           "package": "HERA",
@@ -1701,6 +1838,7 @@
         "index": {
           "description": "Width of the interval Widht on will result in fail",
           "hierarchy": "Data Number DyadicInterval",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.DyadicInterval",
           "name": "width",
           "normalized": "Interval-\u003ea Dyadic",
@@ -1715,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "MPFR",
           "package": "HERA",
@@ -1723,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "MPFR",
           "package": "HERA",
@@ -1736,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Dyadic",
           "package": "HERA",
@@ -1744,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "Dyadic",
           "package": "HERA",
@@ -1757,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Precision",
           "package": "HERA",
@@ -1765,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "Precision",
           "package": "HERA",
@@ -1778,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "RoundMode",
           "package": "HERA",
@@ -1786,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "RoundMode",
           "package": "HERA",
@@ -1799,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Down",
           "package": "HERA",
@@ -1808,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "Down",
           "package": "HERA",
@@ -1821,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Near",
           "package": "HERA",
@@ -1830,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "Near",
           "package": "HERA",
@@ -1843,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Up",
           "package": "HERA",
@@ -1852,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "Up",
           "package": "HERA",
@@ -1865,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "Zero",
           "package": "HERA",
@@ -1874,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "Zero",
           "package": "HERA",
@@ -1887,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "absD",
           "package": "HERA",
@@ -1896,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "absD",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -1910,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "absD_",
           "package": "HERA",
@@ -1919,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "absD_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -1933,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "add",
           "package": "HERA",
@@ -1942,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "add",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -1956,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addPrec",
           "package": "HERA",
@@ -1965,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "addPrec",
           "normalized": "Dyadic-\u003eDyadic-\u003ePrecision",
@@ -1980,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "add_",
           "package": "HERA",
@@ -1989,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "add_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2003,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addi",
           "package": "HERA",
@@ -2012,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "addi",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003eDyadic",
@@ -2026,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addi_",
           "package": "HERA",
@@ -2035,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "addi_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003e(Dyadic,Int)",
@@ -2049,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addw",
           "package": "HERA",
@@ -2058,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "addw",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003eDyadic",
@@ -2072,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "addw_",
           "package": "HERA",
@@ -2081,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "addw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003e(Dyadic,Int)",
@@ -2095,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "catalan",
           "package": "HERA",
@@ -2104,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "catalan",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic",
@@ -2118,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "catalan_",
           "package": "HERA",
@@ -2127,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "catalan_",
           "normalized": "RoundMode-\u003ePrecision-\u003e(Dyadic,Int)",
@@ -2141,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "compose",
           "package": "HERA",
@@ -2150,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "compose",
           "normalized": "RoundMode-\u003ePrecision-\u003e(Integer,Int)-\u003eDyadic",
@@ -2164,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cosh",
           "package": "HERA",
@@ -2173,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "cosh",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -2187,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "cosh_",
           "package": "HERA",
@@ -2196,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "cosh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2210,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "decompose",
           "package": "HERA",
@@ -2219,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "decompose",
           "normalized": "Dyadic-\u003e(Integer,Int)",
@@ -2233,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dim",
           "package": "HERA",
@@ -2242,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "dim",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -2256,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dim_",
           "package": "HERA",
@@ -2265,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "dim_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2279,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div",
           "package": "HERA",
@@ -2288,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "div",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -2302,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div2i",
           "package": "HERA",
@@ -2311,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "div2i",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003eDyadic",
@@ -2325,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div2i_",
           "package": "HERA",
@@ -2334,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "div2i_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003e(Dyadic,Int)",
@@ -2348,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div2w",
           "package": "HERA",
@@ -2357,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "div2w",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003eDyadic",
@@ -2371,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div2w_",
           "package": "HERA",
@@ -2380,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "div2w_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003e(Dyadic,Int)",
@@ -2394,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "div_",
           "package": "HERA",
@@ -2403,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "div_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2417,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divi",
           "package": "HERA",
@@ -2426,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "divi",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003eDyadic",
@@ -2440,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divi_",
           "package": "HERA",
@@ -2449,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "divi_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003e(Dyadic,Int)",
@@ -2463,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divw",
           "package": "HERA",
@@ -2472,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "divw",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003eDyadic",
@@ -2486,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "divw_",
           "package": "HERA",
@@ -2495,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "divw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003e(Dyadic,Int)",
@@ -2509,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dyadicToDouble",
           "package": "HERA",
@@ -2518,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "dyadicToDouble",
           "normalized": "RoundMode-\u003eDyadic-\u003eDouble",
@@ -2533,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dyadicToInt",
           "package": "HERA",
@@ -2542,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "dyadicToInt",
           "normalized": "RoundMode-\u003eDyadic-\u003eInt",
@@ -2557,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dyadicToString",
           "package": "HERA",
@@ -2565,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "dyadicToString",
           "normalized": "RoundMode-\u003eWord-\u003eWord-\u003eDyadic-\u003e(String,Int)",
@@ -2580,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "dyadicToWord",
           "package": "HERA",
@@ -2589,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "dyadicToWord",
           "normalized": "RoundMode-\u003eDyadic-\u003eWord",
@@ -2604,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "equal",
           "package": "HERA",
@@ -2613,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "equal",
           "normalized": "Dyadic-\u003eDyadic-\u003eBool",
@@ -2627,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "euler",
           "package": "HERA",
@@ -2636,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "euler",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic",
@@ -2650,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "euler_",
           "package": "HERA",
@@ -2659,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "euler_",
           "normalized": "RoundMode-\u003ePrecision-\u003e(Dyadic,Int)",
@@ -2673,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp",
           "package": "HERA",
@@ -2682,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "exp",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -2696,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp10",
           "package": "HERA",
@@ -2705,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "exp10",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -2719,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp10_",
           "package": "HERA",
@@ -2728,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "exp10_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2742,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp2",
           "package": "HERA",
@@ -2751,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "exp2",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -2765,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp2_",
           "package": "HERA",
@@ -2774,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "exp2_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2788,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "exp_",
           "package": "HERA",
@@ -2797,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "exp_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2811,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fma",
           "package": "HERA",
@@ -2820,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fma",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -2834,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fma_",
           "package": "HERA",
@@ -2843,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fma_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2857,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fms",
           "package": "HERA",
@@ -2866,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fms",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -2880,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fms_",
           "package": "HERA",
@@ -2889,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fms_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -2903,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromDouble",
           "package": "HERA",
@@ -2912,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fromDouble",
           "normalized": "RoundMode-\u003ePrecision-\u003eDouble-\u003eDyadic",
@@ -2927,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromDouble_",
           "package": "HERA",
@@ -2936,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fromDouble_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDouble-\u003e(Dyadic,Int)",
@@ -2951,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromInt",
           "package": "HERA",
@@ -2960,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fromInt",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eDyadic",
@@ -2975,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromInt_",
           "package": "HERA",
@@ -2984,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fromInt_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003e(Dyadic,Int)",
@@ -2999,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromIntegerA",
           "package": "HERA",
@@ -3008,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fromIntegerA",
           "normalized": "RoundMode-\u003ePrecision-\u003eInteger-\u003eDyadic",
@@ -3023,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromString",
           "package": "HERA",
@@ -3032,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fromString",
           "normalized": "String-\u003ePrecision-\u003eWord-\u003eDyadic",
@@ -3047,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromWord",
           "package": "HERA",
@@ -3056,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fromWord",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eDyadic",
@@ -3071,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "fromWord_",
           "package": "HERA",
@@ -3080,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "fromWord_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003e(Dyadic,Int)",
@@ -3095,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "getExp",
           "package": "HERA",
@@ -3104,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "getExp",
           "normalized": "Dyadic-\u003eInt",
@@ -3120,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egetMantissa and getExp return values such that\n\u003c/p\u003e\u003cpre\u003e d = getMantissa d * 2^(getExp d - ceiling ((getPrec d) / bitsPerMPLimb)* bitsPerMPLimb )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "getMantissa",
           "package": "HERA",
@@ -3130,6 +3391,7 @@
         "index": {
           "description": "getMantissa and getExp return values such that getMantissa getExp ceiling getPrec bitsPerMPLimb bitsPerMPLimb",
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "getMantissa",
           "normalized": "Dyadic-\u003eInteger",
@@ -3145,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "getPrec",
           "package": "HERA",
@@ -3154,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "getPrec",
           "normalized": "Dyadic-\u003ePrecision",
@@ -3169,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "greater",
           "package": "HERA",
@@ -3178,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "greater",
           "normalized": "Dyadic-\u003eDyadic-\u003eBool",
@@ -3192,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "greatereq",
           "package": "HERA",
@@ -3201,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "greatereq",
           "normalized": "Dyadic-\u003eDyadic-\u003eBool",
@@ -3215,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "idiv",
           "package": "HERA",
@@ -3224,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "idiv",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eDyadic-\u003eDyadic",
@@ -3238,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "idiv_",
           "package": "HERA",
@@ -3247,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "idiv_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -3261,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "int2i",
           "package": "HERA",
@@ -3270,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "int2i",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eInt-\u003eDyadic",
@@ -3284,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "int2i_",
           "package": "HERA",
@@ -3293,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "int2i_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eInt-\u003e(Dyadic,Int)",
@@ -3307,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "int2w",
           "package": "HERA",
@@ -3316,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "int2w",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eInt-\u003eDyadic",
@@ -3330,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "int2w_",
           "package": "HERA",
@@ -3339,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "int2w_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eInt-\u003e(Dyadic,Int)",
@@ -3353,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "inverse",
           "package": "HERA",
@@ -3362,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "inverse",
           "normalized": "Dyadic-\u003eDyadic",
@@ -3376,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isInfinite",
           "package": "HERA",
@@ -3385,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "isInfinite",
           "normalized": "Dyadic-\u003eBool",
@@ -3400,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isNaN",
           "package": "HERA",
@@ -3409,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "isNaN",
           "normalized": "Dyadic-\u003eBool",
@@ -3424,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isNumber",
           "package": "HERA",
@@ -3433,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "isNumber",
           "normalized": "Dyadic-\u003eBool",
@@ -3448,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isZero",
           "package": "HERA",
@@ -3457,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "isZero",
           "normalized": "Dyadic-\u003eBool",
@@ -3472,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isub",
           "package": "HERA",
@@ -3481,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "isub",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eDyadic-\u003eDyadic",
@@ -3495,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "isub_",
           "package": "HERA",
@@ -3504,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "isub_",
           "normalized": "RoundMode-\u003ePrecision-\u003eInt-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -3518,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "less",
           "package": "HERA",
@@ -3527,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "less",
           "normalized": "Dyadic-\u003eDyadic-\u003eBool",
@@ -3541,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "lesseq",
           "package": "HERA",
@@ -3550,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "lesseq",
           "normalized": "Dyadic-\u003eDyadic-\u003eBool",
@@ -3564,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log",
           "package": "HERA",
@@ -3573,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "log",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -3587,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log10",
           "package": "HERA",
@@ -3596,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "log10",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -3610,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log10_",
           "package": "HERA",
@@ -3619,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "log10_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -3633,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log2",
           "package": "HERA",
@@ -3642,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "log2",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -3656,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log2_",
           "package": "HERA",
@@ -3665,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "log2_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -3679,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log2c",
           "package": "HERA",
@@ -3688,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "log2c",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic",
@@ -3702,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log2c_",
           "package": "HERA",
@@ -3711,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "log2c_",
           "normalized": "RoundMode-\u003ePrecision-\u003e(Dyadic,Int)",
@@ -3725,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "log_",
           "package": "HERA",
@@ -3734,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "log_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -3748,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "maxD",
           "package": "HERA",
@@ -3757,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "maxD",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -3771,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "maxD_",
           "package": "HERA",
@@ -3780,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "maxD_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -3794,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "minD",
           "package": "HERA",
@@ -3803,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "minD",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -3817,6 +4137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "minD_",
           "package": "HERA",
@@ -3826,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "minD_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -3840,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "minPrec",
           "package": "HERA",
@@ -3849,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "minPrec",
           "package": "HERA",
@@ -3862,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul",
           "package": "HERA",
@@ -3871,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "mul",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -3885,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul2i",
           "package": "HERA",
@@ -3894,6 +4221,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "mul2i",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003eDyadic",
@@ -3908,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul2i_",
           "package": "HERA",
@@ -3917,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "mul2i_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003e(Dyadic,Int)",
@@ -3931,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul2w",
           "package": "HERA",
@@ -3940,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "mul2w",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003eDyadic",
@@ -3954,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul2w_",
           "package": "HERA",
@@ -3963,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "mul2w_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003e(Dyadic,Int)",
@@ -3977,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mul_",
           "package": "HERA",
@@ -3986,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "mul_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4000,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "muli",
           "package": "HERA",
@@ -4009,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "muli",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003eDyadic",
@@ -4023,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "muli_",
           "package": "HERA",
@@ -4032,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "muli_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003e(Dyadic,Int)",
@@ -4046,6 +4386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mulw",
           "package": "HERA",
@@ -4055,6 +4396,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "mulw",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003eDyadic",
@@ -4069,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "mulw_",
           "package": "HERA",
@@ -4078,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "mulw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003e(Dyadic,Int)",
@@ -4092,6 +4436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "neg",
           "package": "HERA",
@@ -4101,6 +4446,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "neg",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -4115,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "neg_",
           "package": "HERA",
@@ -4124,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "neg_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4138,6 +4486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "nextBelow",
           "package": "HERA",
@@ -4147,6 +4496,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "nextBelow",
           "normalized": "Dyadic-\u003eDyadic",
@@ -4162,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "one",
           "package": "HERA",
@@ -4171,6 +4522,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "one",
           "package": "HERA",
@@ -4183,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "pi",
           "package": "HERA",
@@ -4192,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "pi",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic",
@@ -4206,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "pi_",
           "package": "HERA",
@@ -4215,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "pi_",
           "normalized": "RoundMode-\u003ePrecision-\u003e(Dyadic,Int)",
@@ -4229,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "pow",
           "package": "HERA",
@@ -4238,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "pow",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -4252,6 +4610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "pow_",
           "package": "HERA",
@@ -4261,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "pow_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4275,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "powi",
           "package": "HERA",
@@ -4284,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "powi",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003eDyadic",
@@ -4298,6 +4660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "powi_",
           "package": "HERA",
@@ -4307,6 +4670,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "powi_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003e(Dyadic,Int)",
@@ -4321,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "poww",
           "package": "HERA",
@@ -4330,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "poww",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003eDyadic",
@@ -4344,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "poww_",
           "package": "HERA",
@@ -4353,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "poww_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003e(Dyadic,Int)",
@@ -4367,6 +4735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "root",
           "package": "HERA",
@@ -4376,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "root",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003eDyadic",
@@ -4390,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "root_",
           "package": "HERA",
@@ -4399,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "root_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003e(Dyadic,Int)",
@@ -4413,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "set",
           "package": "HERA",
@@ -4422,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "set",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -4436,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "set_",
           "package": "HERA",
@@ -4445,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "set_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4459,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sgn",
           "package": "HERA",
@@ -4468,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sgn",
           "normalized": "Dyadic-\u003eInt",
@@ -4482,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sinh",
           "package": "HERA",
@@ -4491,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sinh",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -4505,6 +4885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sinh_",
           "package": "HERA",
@@ -4514,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sinh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4528,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqr",
           "package": "HERA",
@@ -4537,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sqr",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -4551,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqr_",
           "package": "HERA",
@@ -4560,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sqr_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4574,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqrt",
           "package": "HERA",
@@ -4583,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sqrt",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -4597,6 +4985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sqrt_",
           "package": "HERA",
@@ -4606,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sqrt_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4620,6 +5010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sub",
           "package": "HERA",
@@ -4629,6 +5020,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sub",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003eDyadic",
@@ -4643,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "sub_",
           "package": "HERA",
@@ -4652,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "sub_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4666,6 +5060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subi",
           "package": "HERA",
@@ -4675,6 +5070,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "subi",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003eDyadic",
@@ -4689,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subi_",
           "package": "HERA",
@@ -4698,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "subi_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eInt-\u003e(Dyadic,Int)",
@@ -4712,6 +5110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subw",
           "package": "HERA",
@@ -4721,6 +5120,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "subw",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003eDyadic",
@@ -4735,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "subw_",
           "package": "HERA",
@@ -4744,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "subw_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eWord-\u003e(Dyadic,Int)",
@@ -4758,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "tanh",
           "package": "HERA",
@@ -4767,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "tanh",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003eDyadic",
@@ -4781,6 +5185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "tanh_",
           "package": "HERA",
@@ -4790,6 +5195,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "tanh_",
           "normalized": "RoundMode-\u003ePrecision-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4804,6 +5210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "toString",
           "package": "HERA",
@@ -4813,6 +5220,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "toString",
           "normalized": "Word-\u003eDyadic-\u003eString",
@@ -4828,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "toStringExp",
           "package": "HERA",
@@ -4837,6 +5246,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "toStringExp",
           "normalized": "Word-\u003eDyadic-\u003eString",
@@ -4852,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wdiv",
           "package": "HERA",
@@ -4861,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "wdiv",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eDyadic-\u003eDyadic",
@@ -4875,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wdiv_",
           "package": "HERA",
@@ -4884,6 +5297,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "wdiv_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4898,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wpow",
           "package": "HERA",
@@ -4907,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "wpow",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eDyadic-\u003eDyadic",
@@ -4921,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wpow_",
           "package": "HERA",
@@ -4930,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "wpow_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -4944,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wpoww",
           "package": "HERA",
@@ -4953,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "wpoww",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eWord-\u003eDyadic",
@@ -4967,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wpoww_",
           "package": "HERA",
@@ -4976,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "wpoww_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eWord-\u003e(Dyadic,Int)",
@@ -4990,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wsub",
           "package": "HERA",
@@ -4999,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "wsub",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eDyadic-\u003eDyadic",
@@ -5013,6 +5437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "wsub_",
           "package": "HERA",
@@ -5022,6 +5447,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "wsub_",
           "normalized": "RoundMode-\u003ePrecision-\u003eWord-\u003eDyadic-\u003e(Dyadic,Int)",
@@ -5036,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.MPFR",
           "name": "zero",
           "package": "HERA",
@@ -5045,6 +5472,7 @@
         },
         "index": {
           "hierarchy": "Data Number MPFR",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.MPFR",
           "name": "zero",
           "package": "HERA",
@@ -5057,6 +5485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "Real",
           "package": "HERA",
@@ -5065,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "Real",
           "package": "HERA",
@@ -5079,6 +5509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal number is represented as a chain of dyadic intervals which\n are neither necessarily nested nor bounded away from 0.\n\u003c/p\u003e\u003cp\u003eOn n-th stage computations are performed with precision of n bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "CReal",
           "package": "HERA",
@@ -5088,6 +5519,7 @@
         "index": {
           "description": "Real number is represented as chain of dyadic intervals which are neither necessarily nested nor bounded away from On n-th stage computations are performed with precision of bits",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "CReal",
           "package": "HERA",
@@ -5101,6 +5533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "Chain",
           "package": "HERA",
@@ -5109,6 +5542,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "Chain",
           "package": "HERA",
@@ -5122,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "Nat",
           "package": "HERA",
@@ -5130,6 +5565,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "Nat",
           "package": "HERA",
@@ -5144,6 +5580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial booleans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "PBool",
           "package": "HERA",
@@ -5153,6 +5590,7 @@
         "index": {
           "description": "Partial booleans",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "PBool",
           "package": "HERA",
@@ -5167,6 +5605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e x \u003c. y \u003c/code\u003e is a function \u003ccode\u003e Nat -\u003e PBool \u003c/code\u003e which, when\n applied to some \u003ccode\u003e n \u003c/code\u003e, computes the approximation with precision \u003ccode\u003e n \u003c/code\u003e \n and then compares the intervals. If intervals are disjoint then result is \n either PTrue or PFalse, otherwise result is Indeterminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "(\u003c.)",
           "package": "HERA",
@@ -5177,6 +5616,7 @@
         "index": {
           "description": "is function Nat PBool which when applied to some computes the approximation with precision and then compares the intervals If intervals are disjoint then result is either PTrue or PFalse otherwise result is Indeterminate",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "(\u003c.) \u003c.",
           "normalized": "CReal-\u003eCReal-\u003eNat-\u003ePBool",
@@ -5192,6 +5632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to (\u003c.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "(\u003e.)",
           "package": "HERA",
@@ -5202,6 +5643,7 @@
         "index": {
           "description": "Similar to",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "(\u003e.) \u003e.",
           "normalized": "CReal-\u003eCReal-\u003eNat-\u003ePBool",
@@ -5292,6 +5734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e approx x n \u003c/code\u003e tries to compute a dyadic approximation to x so than \u003ccode\u003e |x - d| \u003c= 10^(-n) \u003c/code\u003e\n If it succeeds it returns \u003ccode\u003e Right d \u003c/code\u003e where d is a dyadic rational, otherwise it returns\n Left (d, n) where d is a dyadic rational and n is the number of accurate decimal places\n\u003c/p\u003e\u003cp\u003eApprox succeeds if result can be computed with precision less than the square of the number\n of required bits of precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "approx",
           "package": "HERA",
@@ -5302,6 +5745,7 @@
         "index": {
           "description": "approx tries to compute dyadic approximation to so than If it succeeds it returns Right where is dyadic rational otherwise it returns Left where is dyadic rational and is the number of accurate decimal places Approx succeeds if result can be computed with precision less than the square of the number of required bits of precision",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "approx",
           "normalized": "CReal-\u003eNat-\u003eEither(Dyadic,Word)Dyadic",
@@ -5316,6 +5760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "exp",
           "package": "HERA",
@@ -5325,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "exp",
           "normalized": "CReal-\u003eCReal",
@@ -5339,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "fromDyadic",
           "package": "HERA",
@@ -5348,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "fromDyadic",
           "normalized": "Dyadic-\u003eCReal",
@@ -5364,6 +5812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efromInt should be preferred over fromIntegral where applicable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "fromInt",
           "package": "HERA",
@@ -5374,6 +5823,7 @@
         "index": {
           "description": "fromInt should be preferred over fromIntegral where applicable",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "fromInt",
           "normalized": "Int-\u003eCReal",
@@ -5389,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "fromString",
           "package": "HERA",
@@ -5398,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "fromString",
           "normalized": "String-\u003eCReal",
@@ -5414,6 +5866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efromWord should be preferred over fromIntegral where applicable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "fromWord",
           "package": "HERA",
@@ -5424,6 +5877,7 @@
         "index": {
           "description": "fromWord should be preferred over fromIntegral where applicable",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "fromWord",
           "normalized": "Word-\u003eCReal",
@@ -5440,6 +5894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes an infinite sum of a series         \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "infSum",
           "package": "HERA",
@@ -5449,6 +5904,7 @@
         "index": {
           "description": "Computes an infinite sum of series",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "infSum",
           "normalized": "(Nat-\u003eCReal)-\u003e(Nat-\u003eCReal)-\u003eCReal",
@@ -5465,6 +5921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to infSum but can sometimes be more convenient\n Second argument is a_0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "infSumRec",
           "package": "HERA",
@@ -5475,6 +5932,7 @@
         "index": {
           "description": "Similar to infSum but can sometimes be more convenient Second argument is",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "infSumRec",
           "normalized": "CReal-\u003e(CReal-\u003eNat-\u003e(CReal,CReal))-\u003eCReal",
@@ -5491,6 +5949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic general limit which takes as arguments a sequence of reals and a sequence of \n error bounds. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "lim",
           "package": "HERA",
@@ -5500,6 +5959,7 @@
         "index": {
           "description": "basic general limit which takes as arguments sequence of reals and sequence of error bounds",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "lim",
           "normalized": "(Nat-\u003eCReal)-\u003e(Nat-\u003eCReal)-\u003eCReal",
@@ -5515,6 +5975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit of a sequence of rationals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "limRat",
           "package": "HERA",
@@ -5524,6 +5985,7 @@
         "index": {
           "description": "Limit of sequence of rationals",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "limRat",
           "normalized": "(Nat-\u003eDyadic)-\u003e(Nat-\u003eDyadic)-\u003eCReal",
@@ -5540,6 +6002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to lim, but can sometimes be more convenient for some sequences\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "limRec",
           "package": "HERA",
@@ -5549,6 +6012,7 @@
         "index": {
           "description": "Similar to lim but can sometimes be more convenient for some sequences",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "limRec",
           "normalized": "CReal-\u003e(CReal-\u003eNat-\u003e(CReal,CReal))-\u003eCReal",
@@ -5564,6 +6028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "log",
           "package": "HERA",
@@ -5573,6 +6038,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "log",
           "normalized": "CReal-\u003eCReal",
@@ -5587,6 +6053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "max",
           "package": "HERA",
@@ -5596,6 +6063,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "max",
           "normalized": "CReal-\u003eCReal-\u003eCReal",
@@ -5610,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "min",
           "package": "HERA",
@@ -5619,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "min",
           "normalized": "CReal-\u003eCReal-\u003eCReal",
@@ -5634,6 +6104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e pCompare x y \u003c/code\u003e returns a function \u003ccode\u003e Nat -\u003e POrdering \u003c/code\u003e which\n when applied to some \u003ccode\u003e n \u003c/code\u003e computes approximates with precision \u003ccode\u003e n \u003c/code\u003e\n and then compares the resulting intervals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "pCompare",
           "package": "HERA",
@@ -5644,6 +6115,7 @@
         "index": {
           "description": "pCompare returns function Nat POrdering which when applied to some computes approximates with precision and then compares the resulting intervals",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "pCompare",
           "normalized": "CReal-\u003eCReal-\u003eNat-\u003ePOrdering",
@@ -5659,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "sqrt",
           "package": "HERA",
@@ -5668,6 +6141,7 @@
         },
         "index": {
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "sqrt",
           "normalized": "CReal-\u003eCReal",
@@ -5683,6 +6157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etoString computes the result with specified precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "toString",
           "package": "HERA",
@@ -5693,6 +6168,7 @@
         "index": {
           "description": "toString computes the result with specified precision",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "toString",
           "normalized": "Nat-\u003eCReal-\u003eString",
@@ -5709,6 +6185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etoStringDec tries to compute the result to the number of specified significand digits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Number.Real",
           "name": "toStringDec",
           "package": "HERA",
@@ -5719,6 +6196,7 @@
         "index": {
           "description": "toStringDec tries to compute the result to the number of specified significand digits",
           "hierarchy": "Data Number Real",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Number.Real",
           "name": "toStringDec",
           "normalized": "Nat-\u003eCReal-\u003eString",
@@ -5734,6 +6212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Order",
           "name": "Order",
           "package": "HERA",
@@ -5742,6 +6221,7 @@
         },
         "index": {
           "hierarchy": "Data Order",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Order",
           "name": "Order",
           "package": "HERA",
@@ -5756,6 +6236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial booleans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Order",
           "name": "PBool",
           "package": "HERA",
@@ -5765,6 +6246,7 @@
         "index": {
           "description": "Partial booleans",
           "hierarchy": "Data Order",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Order",
           "name": "PBool",
           "package": "HERA",
@@ -5779,6 +6261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Order",
           "name": "POrdering",
           "package": "HERA",
@@ -5788,6 +6271,7 @@
         "index": {
           "description": "Partial ordering",
           "hierarchy": "Data Order",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Order",
           "name": "POrdering",
           "package": "HERA",
@@ -5801,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Order",
           "name": "Greater",
           "package": "HERA",
@@ -5810,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Data Order",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Order",
           "name": "Greater",
           "package": "HERA",
@@ -5823,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Order",
           "name": "Incomparable",
           "package": "HERA",
@@ -5832,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "Data Order",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Order",
           "name": "Incomparable",
           "package": "HERA",
@@ -5845,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:47 UTC 2014",
           "module": "Data.Order",
           "name": "Less",
           "package": "HERA",
@@ -5854,6 +6343,7 @@
         },
         "index": {
           "hierarchy": "Data Order",
+          "indexed": "2014-03-11T16:44:47",
           "module": "Data.Order",
           "name": "Less",
           "package": "HERA",

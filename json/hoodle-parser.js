@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoodle-parser"
+        "phrase": "hoodle-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.FromXournal",
           "name": "FromXournal",
           "package": "hoodle-parser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate FromXournal",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.FromXournal",
           "name": "FromXournal",
           "package": "hoodle-parser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.FromXournal",
           "name": "mkHoodleFromXournal",
           "package": "hoodle-parser",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate FromXournal",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.FromXournal",
           "name": "mkHoodleFromXournal",
           "normalized": "Xournal-\u003eIO Hoodle",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eattoparsec implementation of hoodle parser\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "V0_1_1_to_V0_2",
           "package": "hoodle-parser",
@@ -73,6 +78,7 @@
         "index": {
           "description": "attoparsec implementation of hoodle parser",
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "V0_1_1_to_V0_2",
           "package": "hoodle-parser",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "bkg2Bkg",
           "package": "hoodle-parser",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "bkg2Bkg",
           "normalized": "Background-\u003eBackground",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "dim2Dim",
           "package": "hoodle-parser",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "dim2Dim",
           "normalized": "Dimension-\u003eDimension",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "image2Image",
           "package": "hoodle-parser",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "image2Image",
           "normalized": "Image-\u003eImage",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "item2Item",
           "package": "hoodle-parser",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "item2Item",
           "normalized": "Item-\u003eItem",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "layer2Layer",
           "package": "hoodle-parser",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "layer2Layer",
           "normalized": "Layer-\u003eLayer",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "migrate",
           "package": "hoodle-parser",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "migrate",
           "normalized": "ByteString-\u003eIO(Either String Hoodle)",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "page2Page",
           "package": "hoodle-parser",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "page2Page",
           "normalized": "Page-\u003ePage",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "stroke2Stroke",
           "package": "hoodle-parser",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "stroke2Stroke",
           "normalized": "Stroke-\u003eStroke",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "svg2SVG",
           "package": "hoodle-parser",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Migrate V0_1_1_to_V0_2",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Migrate.V0_1_1_to_V0_2",
           "name": "svg2SVG",
           "normalized": "SVG-\u003eSVG",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eattoparsec implementation of hoodle parser\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "V0_1_1",
           "package": "hoodle-parser",
@@ -310,6 +335,7 @@
         "index": {
           "description": "attoparsec implementation of hoodle parser",
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "V0_1_1",
           "package": "hoodle-parser",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "StrokeWidth",
           "package": "hoodle-parser",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "StrokeWidth",
           "package": "hoodle-parser",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "XmlStroke",
           "package": "hoodle-parser",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "XmlStroke",
           "package": "hoodle-parser",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "SingleWidth",
           "package": "hoodle-parser",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "SingleWidth",
           "package": "hoodle-parser",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "VarWidth",
           "package": "hoodle-parser",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "VarWidth",
           "normalized": "VarWidth[Double]",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "XmlStroke",
           "package": "hoodle-parser",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "XmlStroke",
           "package": "hoodle-parser",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "alphabet",
           "package": "hoodle-parser",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "alphabet",
           "package": "hoodle-parser",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "alphanumsharp",
           "package": "hoodle-parser",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "alphanumsharp",
           "package": "hoodle-parser",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "background",
           "package": "hoodle-parser",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "background",
           "package": "hoodle-parser",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "backgroundclose",
           "package": "hoodle-parser",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "backgroundclose",
           "package": "hoodle-parser",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "backgroundheader",
           "package": "hoodle-parser",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "backgroundheader",
           "package": "hoodle-parser",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "headercontent",
           "package": "hoodle-parser",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "headercontent",
           "package": "hoodle-parser",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "headercontentWorker",
           "package": "hoodle-parser",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "headercontentWorker",
           "normalized": "ByteString-\u003eParser ByteString",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodle",
           "package": "hoodle-parser",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodle",
           "package": "hoodle-parser",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodleclose",
           "package": "hoodle-parser",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodleclose",
           "package": "hoodle-parser",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodleheader",
           "package": "hoodle-parser",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodleheader",
           "package": "hoodle-parser",
@@ -645,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodleheaderend",
           "package": "hoodle-parser",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodleheaderend",
           "package": "hoodle-parser",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodleheaderstart",
           "package": "hoodle-parser",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "hoodleheaderstart",
           "package": "hoodle-parser",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "img",
           "package": "hoodle-parser",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "img",
           "package": "hoodle-parser",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "langle",
           "package": "hoodle-parser",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "langle",
           "package": "hoodle-parser",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "layer",
           "package": "hoodle-parser",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "layer",
           "package": "hoodle-parser",
@@ -750,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "layerclose",
           "package": "hoodle-parser",
@@ -759,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "layerclose",
           "package": "hoodle-parser",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "layerheader",
           "package": "hoodle-parser",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "layerheader",
           "package": "hoodle-parser",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "mkXYZ",
           "package": "hoodle-parser",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "mkXYZ",
           "normalized": "[Pair Double Double]-\u003e[Double]-\u003e[(Double,Double,Double)]",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "onestroke",
           "package": "hoodle-parser",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "onestroke",
           "package": "hoodle-parser",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "page",
           "package": "hoodle-parser",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "page",
           "package": "hoodle-parser",
@@ -858,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "pageclose",
           "package": "hoodle-parser",
@@ -867,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "pageclose",
           "package": "hoodle-parser",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "pageheader",
           "package": "hoodle-parser",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "pageheader",
           "package": "hoodle-parser",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "pageheaderend",
           "package": "hoodle-parser",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "pageheaderend",
           "package": "hoodle-parser",
@@ -921,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "pageheaderstart",
           "package": "hoodle-parser",
@@ -930,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "pageheaderstart",
           "package": "hoodle-parser",
@@ -943,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eneed to be reimplemented\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "parseFileName",
           "package": "hoodle-parser",
@@ -953,6 +1038,7 @@
         "index": {
           "description": "need to be reimplemented",
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "parseFileName",
           "package": "hoodle-parser",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "preview",
           "package": "hoodle-parser",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "preview",
           "normalized": "Parser()",
@@ -989,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "previewclose",
           "package": "hoodle-parser",
@@ -998,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "previewclose",
           "package": "hoodle-parser",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "previewheader",
           "package": "hoodle-parser",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "previewheader",
           "package": "hoodle-parser",
@@ -1031,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "rangle",
           "package": "hoodle-parser",
@@ -1040,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "rangle",
           "package": "hoodle-parser",
@@ -1052,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "skipSpaces",
           "package": "hoodle-parser",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "skipSpaces",
           "normalized": "Parser()",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "strokewidth",
           "package": "hoodle-parser",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "strokewidth",
           "package": "hoodle-parser",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_command",
           "package": "hoodle-parser",
@@ -1106,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_command",
           "package": "hoodle-parser",
@@ -1118,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_footer",
           "package": "hoodle-parser",
@@ -1127,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_footer",
           "normalized": "Parser()",
@@ -1141,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_header",
           "package": "hoodle-parser",
@@ -1150,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_header",
           "normalized": "Parser((Double,Double),Dimension)",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_obj",
           "package": "hoodle-parser",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_obj",
           "package": "hoodle-parser",
@@ -1185,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_render",
           "package": "hoodle-parser",
@@ -1194,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_render",
           "package": "hoodle-parser",
@@ -1206,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_text",
           "package": "hoodle-parser",
@@ -1215,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "svg_text",
           "package": "hoodle-parser",
@@ -1227,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "title",
           "package": "hoodle-parser",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "title",
           "package": "hoodle-parser",
@@ -1248,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "titleclose",
           "package": "hoodle-parser",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "titleclose",
           "package": "hoodle-parser",
@@ -1269,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "titleheader",
           "package": "hoodle-parser",
@@ -1278,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "titleheader",
           "package": "hoodle-parser",
@@ -1290,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "trim",
           "package": "hoodle-parser",
@@ -1299,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "trim",
           "normalized": "Parser()",
@@ -1313,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "trim_starting_space",
           "package": "hoodle-parser",
@@ -1322,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "trim_starting_space",
           "normalized": "Parser()",
@@ -1336,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xmlheader",
           "package": "hoodle-parser",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xmlheader",
           "package": "hoodle-parser",
@@ -1357,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xmlstroke",
           "package": "hoodle-parser",
@@ -1366,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xmlstroke",
           "package": "hoodle-parser",
@@ -1378,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xmlstroketagclose",
           "package": "hoodle-parser",
@@ -1387,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xmlstroketagclose",
           "normalized": "Parser()",
@@ -1401,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xmlstroketagopen",
           "package": "hoodle-parser",
@@ -1410,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xmlstroketagopen",
           "package": "hoodle-parser",
@@ -1422,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xstrk_color",
           "package": "hoodle-parser",
@@ -1431,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xstrk_color",
           "package": "hoodle-parser",
@@ -1443,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xstrk_tool",
           "package": "hoodle-parser",
@@ -1452,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xstrk_tool",
           "package": "hoodle-parser",
@@ -1464,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xstrk_width",
           "package": "hoodle-parser",
@@ -1473,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xstrk_width",
           "package": "hoodle-parser",
@@ -1485,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xstrk_xydata",
           "package": "hoodle-parser",
@@ -1494,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec V0_1_1",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec.V0_1_1",
           "name": "xstrk_xydata",
           "normalized": "[Pair Double Double]",
@@ -1509,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eattoparsec implementation of hoodle parser\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "Attoparsec",
           "package": "hoodle-parser",
@@ -1518,6 +1655,7 @@
         "index": {
           "description": "attoparsec implementation of hoodle parser",
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "Attoparsec",
           "package": "hoodle-parser",
@@ -1531,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "StrokeWidth",
           "package": "hoodle-parser",
@@ -1539,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "StrokeWidth",
           "package": "hoodle-parser",
@@ -1552,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "XmlStroke",
           "package": "hoodle-parser",
@@ -1560,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "XmlStroke",
           "package": "hoodle-parser",
@@ -1573,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "SingleWidth",
           "package": "hoodle-parser",
@@ -1582,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "SingleWidth",
           "package": "hoodle-parser",
@@ -1595,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "VarWidth",
           "package": "hoodle-parser",
@@ -1604,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "VarWidth",
           "normalized": "VarWidth[Double]",
@@ -1619,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "XmlStroke",
           "package": "hoodle-parser",
@@ -1628,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "XmlStroke",
           "package": "hoodle-parser",
@@ -1641,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "alphabet",
           "package": "hoodle-parser",
@@ -1650,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "alphabet",
           "package": "hoodle-parser",
@@ -1662,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "alphanumsharp",
           "package": "hoodle-parser",
@@ -1671,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "alphanumsharp",
           "package": "hoodle-parser",
@@ -1683,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "background",
           "package": "hoodle-parser",
@@ -1692,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "background",
           "package": "hoodle-parser",
@@ -1704,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "backgroundclose",
           "package": "hoodle-parser",
@@ -1713,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "backgroundclose",
           "package": "hoodle-parser",
@@ -1725,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "backgroundheader",
           "package": "hoodle-parser",
@@ -1734,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "backgroundheader",
           "package": "hoodle-parser",
@@ -1746,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "checkHoodleVersion",
           "package": "hoodle-parser",
@@ -1755,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "checkHoodleVersion",
           "package": "hoodle-parser",
@@ -1768,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "commandCDATA",
           "package": "hoodle-parser",
@@ -1777,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "commandCDATA",
           "package": "hoodle-parser",
@@ -1790,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "embeddedpdf",
           "package": "hoodle-parser",
@@ -1799,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "embeddedpdf",
           "package": "hoodle-parser",
@@ -1811,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "headercontent",
           "package": "hoodle-parser",
@@ -1820,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "headercontent",
           "package": "hoodle-parser",
@@ -1832,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "headercontentWorker",
           "package": "hoodle-parser",
@@ -1841,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "headercontentWorker",
           "normalized": "ByteString-\u003eParser ByteString",
@@ -1856,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodle",
           "package": "hoodle-parser",
@@ -1865,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodle",
           "package": "hoodle-parser",
@@ -1877,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleclose",
           "package": "hoodle-parser",
@@ -1886,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleclose",
           "package": "hoodle-parser",
@@ -1898,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleheader",
           "package": "hoodle-parser",
@@ -1907,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleheader",
           "normalized": "Parser(ByteString,ByteString)",
@@ -1921,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleheaderend",
           "package": "hoodle-parser",
@@ -1930,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleheaderend",
           "package": "hoodle-parser",
@@ -1942,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleheaderstart",
           "package": "hoodle-parser",
@@ -1951,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleheaderstart",
           "package": "hoodle-parser",
@@ -1963,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleid",
           "package": "hoodle-parser",
@@ -1972,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleid",
           "package": "hoodle-parser",
@@ -1984,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleversion",
           "package": "hoodle-parser",
@@ -1993,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "hoodleversion",
           "package": "hoodle-parser",
@@ -2005,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "img",
           "package": "hoodle-parser",
@@ -2014,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "img",
           "package": "hoodle-parser",
@@ -2026,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "langle",
           "package": "hoodle-parser",
@@ -2035,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "langle",
           "package": "hoodle-parser",
@@ -2047,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "layer",
           "package": "hoodle-parser",
@@ -2056,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "layer",
           "package": "hoodle-parser",
@@ -2068,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "layerclose",
           "package": "hoodle-parser",
@@ -2077,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "layerclose",
           "package": "hoodle-parser",
@@ -2089,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "layerheader",
           "package": "hoodle-parser",
@@ -2098,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "layerheader",
           "package": "hoodle-parser",
@@ -2110,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "link",
           "package": "hoodle-parser",
@@ -2119,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "link",
           "package": "hoodle-parser",
@@ -2131,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "link_footer",
           "package": "hoodle-parser",
@@ -2140,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "link_footer",
           "normalized": "Parser()",
@@ -2154,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "link_header",
           "package": "hoodle-parser",
@@ -2163,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "link_header",
           "normalized": "Parser(ByteString,ByteString,Maybe ByteString,ByteString,(Double,Double),Dimension)",
@@ -2177,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "mkXYZ",
           "package": "hoodle-parser",
@@ -2186,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "mkXYZ",
           "normalized": "[Pair Double Double]-\u003e[Double]-\u003e[(Double,Double,Double)]",
@@ -2201,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "onestroke",
           "package": "hoodle-parser",
@@ -2210,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "onestroke",
           "package": "hoodle-parser",
@@ -2222,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "page",
           "package": "hoodle-parser",
@@ -2231,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "page",
           "package": "hoodle-parser",
@@ -2243,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "pageclose",
           "package": "hoodle-parser",
@@ -2252,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "pageclose",
           "package": "hoodle-parser",
@@ -2264,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "pageheader",
           "package": "hoodle-parser",
@@ -2273,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "pageheader",
           "package": "hoodle-parser",
@@ -2285,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "pageheaderend",
           "package": "hoodle-parser",
@@ -2294,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "pageheaderend",
           "package": "hoodle-parser",
@@ -2306,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "pageheaderstart",
           "package": "hoodle-parser",
@@ -2315,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "pageheaderstart",
           "package": "hoodle-parser",
@@ -2328,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eneed to be reimplemented\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "parseFileName",
           "package": "hoodle-parser",
@@ -2338,6 +2551,7 @@
         "index": {
           "description": "need to be reimplemented",
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "parseFileName",
           "package": "hoodle-parser",
@@ -2351,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "rangle",
           "package": "hoodle-parser",
@@ -2360,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "rangle",
           "package": "hoodle-parser",
@@ -2372,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "renderCDATA",
           "package": "hoodle-parser",
@@ -2381,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "renderCDATA",
           "package": "hoodle-parser",
@@ -2394,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "revision",
           "package": "hoodle-parser",
@@ -2403,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "revision",
           "package": "hoodle-parser",
@@ -2415,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "skipSpaces",
           "package": "hoodle-parser",
@@ -2424,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "skipSpaces",
           "normalized": "Parser()",
@@ -2439,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "strokewidth",
           "package": "hoodle-parser",
@@ -2448,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "strokewidth",
           "package": "hoodle-parser",
@@ -2460,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "svg_footer",
           "package": "hoodle-parser",
@@ -2469,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "svg_footer",
           "normalized": "Parser()",
@@ -2483,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "svg_header",
           "package": "hoodle-parser",
@@ -2492,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "svg_header",
           "normalized": "Parser((Double,Double),Dimension)",
@@ -2506,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "svg_obj",
           "package": "hoodle-parser",
@@ -2515,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "svg_obj",
           "package": "hoodle-parser",
@@ -2527,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "textCDATA",
           "package": "hoodle-parser",
@@ -2536,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "textCDATA",
           "package": "hoodle-parser",
@@ -2549,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "title",
           "package": "hoodle-parser",
@@ -2558,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "title",
           "package": "hoodle-parser",
@@ -2570,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "titleclose",
           "package": "hoodle-parser",
@@ -2579,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "titleclose",
           "package": "hoodle-parser",
@@ -2591,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "titleheader",
           "package": "hoodle-parser",
@@ -2600,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "titleheader",
           "package": "hoodle-parser",
@@ -2612,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "trim",
           "package": "hoodle-parser",
@@ -2621,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "trim",
           "normalized": "Parser()",
@@ -2635,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "trim_starting_space",
           "package": "hoodle-parser",
@@ -2644,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "trim_starting_space",
           "normalized": "Parser()",
@@ -2658,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xmlheader",
           "package": "hoodle-parser",
@@ -2667,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xmlheader",
           "package": "hoodle-parser",
@@ -2679,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xmlstroke",
           "package": "hoodle-parser",
@@ -2688,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xmlstroke",
           "package": "hoodle-parser",
@@ -2700,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xmlstroketagclose",
           "package": "hoodle-parser",
@@ -2709,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xmlstroketagclose",
           "normalized": "Parser()",
@@ -2723,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xmlstroketagopen",
           "package": "hoodle-parser",
@@ -2732,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xmlstroketagopen",
           "package": "hoodle-parser",
@@ -2744,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xstrk_color",
           "package": "hoodle-parser",
@@ -2753,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xstrk_color",
           "package": "hoodle-parser",
@@ -2765,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xstrk_tool",
           "package": "hoodle-parser",
@@ -2774,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xstrk_tool",
           "package": "hoodle-parser",
@@ -2786,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xstrk_width",
           "package": "hoodle-parser",
@@ -2795,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xstrk_width",
           "package": "hoodle-parser",
@@ -2807,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xstrk_xydata",
           "package": "hoodle-parser",
@@ -2816,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Attoparsec",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Attoparsec",
           "name": "xstrk_xydata",
           "normalized": "[Pair Double Double]",
@@ -2830,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Zlib",
           "name": "Zlib",
           "package": "hoodle-parser",
@@ -2838,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Parse Zlib",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Zlib",
           "name": "Zlib",
           "package": "hoodle-parser",
@@ -2852,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck if gzip or not\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:42 UTC 2014",
           "module": "Text.Hoodle.Parse.Zlib",
           "name": "checkIfBinary",
           "package": "hoodle-parser",
@@ -2862,6 +3123,7 @@
         "index": {
           "description": "check if gzip or not",
           "hierarchy": "Text Hoodle Parse Zlib",
+          "indexed": "2014-03-11T18:43:42",
           "module": "Text.Hoodle.Parse.Zlib",
           "name": "checkIfBinary",
           "normalized": "FilePath-\u003eIO Bool",

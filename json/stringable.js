@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stringable"
+        "phrase": "stringable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "Stringable",
           "package": "stringable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "Stringable",
           "package": "stringable",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "CStringable",
           "package": "stringable",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "CStringable",
           "package": "stringable",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "Stringable",
           "package": "stringable",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "Stringable",
           "package": "stringable",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "fromByteString",
           "package": "stringable",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "fromByteString",
           "normalized": "ByteString-\u003ea",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "fromFilePath",
           "package": "stringable",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "fromFilePath",
           "normalized": "FilePath-\u003ea",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "fromLazyByteString",
           "package": "stringable",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "fromLazyByteString",
           "normalized": "ByteString-\u003ea",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "fromLazyText",
           "package": "stringable",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "fromLazyText",
           "normalized": "Text-\u003ea",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "fromString",
           "package": "stringable",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "fromText",
           "package": "stringable",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "fromText",
           "normalized": "Text-\u003ea",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "length",
           "package": "stringable",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "toByteString",
           "package": "stringable",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "toByteString",
           "normalized": "a-\u003eByteString",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "toFilePath",
           "package": "stringable",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "toFilePath",
           "normalized": "a-\u003eFilePath",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "toLazyByteString",
           "package": "stringable",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "toLazyByteString",
           "normalized": "a-\u003eByteString",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "toLazyText",
           "package": "stringable",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "toLazyText",
           "normalized": "a-\u003eText",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "toString",
           "package": "stringable",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "toText",
           "package": "stringable",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "toText",
           "normalized": "a-\u003eText",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "withCStringLenable",
           "package": "stringable",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "withCStringLenable",
           "normalized": "a-\u003e(CString-\u003eInt-\u003eIO b)-\u003eIO b",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:47 UTC 2014",
           "module": "Data.Stringable",
           "name": "withCStringable",
           "package": "stringable",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Data Stringable",
+          "indexed": "2014-03-11T20:12:47",
           "module": "Data.Stringable",
           "name": "withCStringable",
           "normalized": "a-\u003e(CString-\u003eIO b)-\u003eIO b",

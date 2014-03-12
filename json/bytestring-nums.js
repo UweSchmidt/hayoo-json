@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-nums"
+        "phrase": "bytestring-nums",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "Float",
           "package": "bytestring-nums",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Float",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "Float",
           "package": "bytestring-nums",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that can be read from floating point strings. A floating point\n    string is taken to be a string of digits with up to one comma or period\n    mixed in with the digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "Floatable",
           "package": "bytestring-nums",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Types that can be read from floating point strings floating point string is taken to be string of digits with up to one comma or period mixed in with the digits",
           "hierarchy": "Data ByteString Nums Careless Float",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "Floatable",
           "package": "bytestring-nums",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "float",
           "package": "bytestring-nums",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Float",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "float",
           "normalized": "a-\u003eb",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "lazy_float",
           "package": "bytestring-nums",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Float",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "lazy_float",
           "normalized": "ByteString-\u003ea",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "point",
           "package": "bytestring-nums",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Float",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "point",
           "normalized": "Char-\u003eBool",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "strict_float",
           "package": "bytestring-nums",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Float",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Float",
           "name": "strict_float",
           "normalized": "ByteString-\u003ea",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "Hex",
           "package": "bytestring-nums",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Hex",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "Hex",
           "package": "bytestring-nums",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that can be read from hexadecimal strings. Characters that are not\n    hexadecimal digits are skipped over. One pleasant consequence of this is\n    that a leading \u003ccode\u003e0x\u003c/code\u003e is simply ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "Hexable",
           "package": "bytestring-nums",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Types that can be read from hexadecimal strings Characters that are not hexadecimal digits are skipped over One pleasant consequence of this is that leading is simply ignored",
           "hierarchy": "Data ByteString Nums Careless Hex",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "Hexable",
           "package": "bytestring-nums",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "hex",
           "package": "bytestring-nums",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Hex",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "hex",
           "normalized": "a-\u003eb",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "hexalize",
           "package": "bytestring-nums",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Hex",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "hexalize",
           "normalized": "a-\u003eWord-\u003ea",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "lazy_hex",
           "package": "bytestring-nums",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Hex",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "lazy_hex",
           "normalized": "ByteString-\u003ea",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "strict_hex",
           "package": "bytestring-nums",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Hex",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Hex",
           "name": "strict_hex",
           "normalized": "ByteString-\u003ea",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "Int",
           "package": "bytestring-nums",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "Int",
           "package": "bytestring-nums",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that can be read from integer strings. Parses only decimal digits.\n    Signed types can be read from strings that begin with a plus or minus;\n    unsigned types are read from strings consisting solely of decimal digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "Intable",
           "package": "bytestring-nums",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Types that can be read from integer strings Parses only decimal digits Signed types can be read from strings that begin with plus or minus unsigned types are read from strings consisting solely of decimal digits",
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "Intable",
           "package": "bytestring-nums",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "int",
           "package": "bytestring-nums",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "int",
           "normalized": "a-\u003eb",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "lazy_signed",
           "package": "bytestring-nums",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "lazy_signed",
           "normalized": "ByteString-\u003ea",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "lazy_unsigned",
           "package": "bytestring-nums",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "lazy_unsigned",
           "normalized": "ByteString-\u003ea",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "negative",
           "package": "bytestring-nums",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "negative",
           "normalized": "a-\u003eWord-\u003ea",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "positive",
           "package": "bytestring-nums",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "positive",
           "normalized": "a-\u003eWord-\u003ea",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "strict_signed",
           "package": "bytestring-nums",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "strict_signed",
           "normalized": "ByteString-\u003ea",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "strict_unsigned",
           "package": "bytestring-nums",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Nums Careless Int",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless.Int",
           "name": "strict_unsigned",
           "normalized": "ByteString-\u003ea",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCareless conversion of \u003ccode\u003eByteString\u003c/code\u003es to numbers, ignoring bytes that\n    aren't hex or decimal digits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:26:54 UTC 2014",
           "module": "Data.ByteString.Nums.Careless",
           "name": "Careless",
           "package": "bytestring-nums",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Careless conversion of ByteString to numbers ignoring bytes that aren hex or decimal digits",
           "hierarchy": "Data ByteString Nums Careless",
+          "indexed": "2014-03-11T17:26:54",
           "module": "Data.ByteString.Nums.Careless",
           "name": "Careless",
           "package": "bytestring-nums",

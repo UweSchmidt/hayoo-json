@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fedora-packages"
+        "phrase": "fedora-packages",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions and datatypes for directly calling out to the API and handling\n queries to and responses from it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "API",
           "package": "fedora-packages",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions and datatypes for directly calling out to the API and handling queries to and responses from it",
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "API",
           "package": "fedora-packages",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "Query",
           "package": "fedora-packages",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "Query",
           "package": "fedora-packages",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "StandardResults",
           "package": "fedora-packages",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "StandardResults",
           "package": "fedora-packages",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "Query",
           "package": "fedora-packages",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "Query",
           "package": "fedora-packages",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "StandardResults",
           "package": "fedora-packages",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "StandardResults",
           "package": "fedora-packages",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "_qRowsPerPage",
           "package": "fedora-packages",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "_qRowsPerPage",
           "package": "fedora-packages",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "_qSearch",
           "package": "fedora-packages",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "_qSearch",
           "package": "fedora-packages",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "_qStartRow",
           "package": "fedora-packages",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "_qStartRow",
           "package": "fedora-packages",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "_srRows",
           "package": "fedora-packages",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "_srRows",
           "normalized": "[a]",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "_srRowsPerPage",
           "package": "fedora-packages",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "_srRowsPerPage",
           "package": "fedora-packages",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "_srStartRow",
           "package": "fedora-packages",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "_srStartRow",
           "package": "fedora-packages",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "_srTotalRows",
           "package": "fedora-packages",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "_srTotalRows",
           "package": "fedora-packages",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "_srVisibleRows",
           "package": "fedora-packages",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "_srVisibleRows",
           "package": "fedora-packages",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a GET request to the API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.API",
           "name": "apiGet",
           "package": "fedora-packages",
@@ -316,6 +343,7 @@
         "index": {
           "description": "Perform GET request to the API",
           "hierarchy": "Fedora Packages API",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.API",
           "name": "apiGet",
           "normalized": "ByteString-\u003ePackagesConfig-\u003eIO a",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions and datatypes for accessing information about bugzilla\n bugs filed for Fedora packages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "Bugs",
           "package": "fedora-packages",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Provides functions and datatypes for accessing information about bugzilla bugs filed for Fedora packages",
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "Bugs",
           "package": "fedora-packages",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "Bug",
           "package": "fedora-packages",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "Bug",
           "package": "fedora-packages",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "BugsFilter",
           "package": "fedora-packages",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "BugsFilter",
           "package": "fedora-packages",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "Version",
           "package": "fedora-packages",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "Version",
           "package": "fedora-packages",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "AllVersions",
           "package": "fedora-packages",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "AllVersions",
           "package": "fedora-packages",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "Bug",
           "package": "fedora-packages",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "Bug",
           "package": "fedora-packages",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "BugsFilter",
           "package": "fedora-packages",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "BugsFilter",
           "package": "fedora-packages",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "EL5",
           "package": "fedora-packages",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "EL5",
           "package": "fedora-packages",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "EL6",
           "package": "fedora-packages",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "EL6",
           "package": "fedora-packages",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "EL7",
           "package": "fedora-packages",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "EL7",
           "package": "fedora-packages",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "F18",
           "package": "fedora-packages",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "F18",
           "package": "fedora-packages",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "F19",
           "package": "fedora-packages",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "F19",
           "package": "fedora-packages",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "F20",
           "package": "fedora-packages",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "F20",
           "package": "fedora-packages",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "Rawhide",
           "package": "fedora-packages",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "Rawhide",
           "package": "fedora-packages",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "_bPackage",
           "package": "fedora-packages",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "_bPackage",
           "package": "fedora-packages",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "_bVersion",
           "package": "fedora-packages",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "_bVersion",
           "package": "fedora-packages",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugClass",
           "package": "fedora-packages",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugClass",
           "package": "fedora-packages",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugDescription",
           "package": "fedora-packages",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugDescription",
           "package": "fedora-packages",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugId",
           "package": "fedora-packages",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugId",
           "package": "fedora-packages",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugLastModified",
           "package": "fedora-packages",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugLastModified",
           "package": "fedora-packages",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugRelease",
           "package": "fedora-packages",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugRelease",
           "package": "fedora-packages",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugStatus",
           "package": "fedora-packages",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "_bugStatus",
           "package": "fedora-packages",
@@ -811,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery to find bugs for a given package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Bugs",
           "name": "bugs",
           "package": "fedora-packages",
@@ -820,6 +893,7 @@
         "index": {
           "description": "Query to find bugs for given package",
           "hierarchy": "Fedora Packages Bugs",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Bugs",
           "name": "bugs",
           "normalized": "PackagesConfig-\u003eQuery BugsFilter-\u003eIO(StandardResults Bug)",
@@ -835,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions and datatypes for accessing information about Fedora\n package builds.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "Builds",
           "package": "fedora-packages",
@@ -844,6 +919,7 @@
         "index": {
           "description": "Provides functions and datatypes for accessing information about Fedora package builds",
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "Builds",
           "package": "fedora-packages",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "Build",
           "package": "fedora-packages",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "Build",
           "package": "fedora-packages",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "BuildState",
           "package": "fedora-packages",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "BuildState",
           "package": "fedora-packages",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "BuildsFilter",
           "package": "fedora-packages",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "BuildsFilter",
           "package": "fedora-packages",
@@ -920,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "CompletionTimeDisplay",
           "package": "fedora-packages",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "CompletionTimeDisplay",
           "package": "fedora-packages",
@@ -941,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "All",
           "package": "fedora-packages",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "All",
           "package": "fedora-packages",
@@ -963,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "Build",
           "package": "fedora-packages",
@@ -972,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "Build",
           "package": "fedora-packages",
@@ -985,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "Building",
           "package": "fedora-packages",
@@ -994,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "Building",
           "package": "fedora-packages",
@@ -1007,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "BuildsFilter",
           "package": "fedora-packages",
@@ -1016,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "BuildsFilter",
           "package": "fedora-packages",
@@ -1029,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "Cancelled",
           "package": "fedora-packages",
@@ -1038,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "Cancelled",
           "package": "fedora-packages",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "CompletionTimeDisplay",
           "package": "fedora-packages",
@@ -1060,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "CompletionTimeDisplay",
           "package": "fedora-packages",
@@ -1073,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "Deleted",
           "package": "fedora-packages",
@@ -1082,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "Deleted",
           "package": "fedora-packages",
@@ -1095,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "Failed",
           "package": "fedora-packages",
@@ -1104,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "Failed",
           "package": "fedora-packages",
@@ -1117,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "Success",
           "package": "fedora-packages",
@@ -1126,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "Success",
           "package": "fedora-packages",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_bfPackage",
           "package": "fedora-packages",
@@ -1148,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_bfPackage",
           "package": "fedora-packages",
@@ -1161,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_bfState",
           "package": "fedora-packages",
@@ -1170,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_bfState",
           "package": "fedora-packages",
@@ -1183,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_buildId",
           "package": "fedora-packages",
@@ -1192,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_buildId",
           "package": "fedora-packages",
@@ -1205,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_completionTime",
           "package": "fedora-packages",
@@ -1214,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_completionTime",
           "package": "fedora-packages",
@@ -1227,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_completionTimeDisplay",
           "package": "fedora-packages",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_completionTimeDisplay",
           "package": "fedora-packages",
@@ -1249,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_completionTs",
           "package": "fedora-packages",
@@ -1258,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_completionTs",
           "package": "fedora-packages",
@@ -1271,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_creationEventId",
           "package": "fedora-packages",
@@ -1280,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_creationEventId",
           "package": "fedora-packages",
@@ -1293,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_creationTime",
           "package": "fedora-packages",
@@ -1302,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_creationTime",
           "package": "fedora-packages",
@@ -1315,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_creationTs",
           "package": "fedora-packages",
@@ -1324,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_creationTs",
           "package": "fedora-packages",
@@ -1337,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_elapsed",
           "package": "fedora-packages",
@@ -1346,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_elapsed",
           "package": "fedora-packages",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_epoch",
           "package": "fedora-packages",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_epoch",
           "package": "fedora-packages",
@@ -1379,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_name'",
           "package": "fedora-packages",
@@ -1388,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_name'",
           "package": "fedora-packages",
@@ -1400,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_nvr",
           "package": "fedora-packages",
@@ -1409,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_nvr",
           "package": "fedora-packages",
@@ -1421,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_ownerId",
           "package": "fedora-packages",
@@ -1430,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_ownerId",
           "package": "fedora-packages",
@@ -1443,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_ownerName",
           "package": "fedora-packages",
@@ -1452,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_ownerName",
           "package": "fedora-packages",
@@ -1465,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_packageId",
           "package": "fedora-packages",
@@ -1474,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_packageId",
           "package": "fedora-packages",
@@ -1487,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_packageName",
           "package": "fedora-packages",
@@ -1496,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_packageName",
           "package": "fedora-packages",
@@ -1509,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_packageRelease",
           "package": "fedora-packages",
@@ -1518,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_packageRelease",
           "package": "fedora-packages",
@@ -1531,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_state",
           "package": "fedora-packages",
@@ -1540,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_state",
           "package": "fedora-packages",
@@ -1552,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_stateStr",
           "package": "fedora-packages",
@@ -1561,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_stateStr",
           "package": "fedora-packages",
@@ -1574,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_taskId",
           "package": "fedora-packages",
@@ -1583,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_taskId",
           "package": "fedora-packages",
@@ -1596,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_time",
           "package": "fedora-packages",
@@ -1605,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_time",
           "package": "fedora-packages",
@@ -1617,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_version",
           "package": "fedora-packages",
@@ -1626,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_version",
           "package": "fedora-packages",
@@ -1638,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_volumeId",
           "package": "fedora-packages",
@@ -1647,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_volumeId",
           "package": "fedora-packages",
@@ -1660,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_volumeName",
           "package": "fedora-packages",
@@ -1669,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_volumeName",
           "package": "fedora-packages",
@@ -1682,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "_when",
           "package": "fedora-packages",
@@ -1691,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "_when",
           "package": "fedora-packages",
@@ -1704,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery to find builds for a given package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Builds",
           "name": "builds",
           "package": "fedora-packages",
@@ -1713,6 +1868,7 @@
         "index": {
           "description": "Query to find builds for given package",
           "hierarchy": "Fedora Packages Builds",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Builds",
           "name": "builds",
           "normalized": "PackagesConfig-\u003eQuery BuildsFilter-\u003eIO(StandardResults Build)",
@@ -1728,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsed for configuring how to connect to the Fedora Packages API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Config",
           "name": "Config",
           "package": "fedora-packages",
@@ -1737,6 +1894,7 @@
         "index": {
           "description": "Used for configuring how to connect to the Fedora Packages API",
           "hierarchy": "Fedora Packages Config",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Config",
           "name": "Config",
           "package": "fedora-packages",
@@ -1750,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Config",
           "name": "PackagesConfig",
           "package": "fedora-packages",
@@ -1758,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Config",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Config",
           "name": "PackagesConfig",
           "package": "fedora-packages",
@@ -1771,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Config",
           "name": "PackagesConfig",
           "package": "fedora-packages",
@@ -1780,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Config",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Config",
           "name": "PackagesConfig",
           "package": "fedora-packages",
@@ -1794,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe base URL (with protocol) of Fedora Packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Config",
           "name": "_baseurl",
           "package": "fedora-packages",
@@ -1804,6 +1967,7 @@
         "index": {
           "description": "The base URL with protocol of Fedora Packages",
           "hierarchy": "Fedora Packages Config",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Config",
           "name": "_baseurl",
           "package": "fedora-packages",
@@ -1817,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default configuration, which points to the production instance of\n Fedora Packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Config",
           "name": "defaultConfig",
           "package": "fedora-packages",
@@ -1827,6 +1992,7 @@
         "index": {
           "description": "The default configuration which points to the production instance of Fedora Packages",
           "hierarchy": "Fedora Packages Config",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Config",
           "name": "defaultConfig",
           "package": "fedora-packages",
@@ -1841,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe staging configuration, which points to the staging instance of Fedora\n Packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Config",
           "name": "stagingConfig",
           "package": "fedora-packages",
@@ -1851,6 +2018,7 @@
         "index": {
           "description": "The staging configuration which points to the staging instance of Fedora Packages",
           "hierarchy": "Fedora Packages Config",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Config",
           "name": "stagingConfig",
           "package": "fedora-packages",
@@ -1865,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides lenses for data types found within Fedora.Packages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "Lens",
           "package": "fedora-packages",
@@ -1874,6 +2043,7 @@
         "index": {
           "description": "Provides lenses for data types found within Fedora.Packages",
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "Lens",
           "package": "fedora-packages",
@@ -1887,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bPackage",
           "package": "fedora-packages",
@@ -1896,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bPackage",
           "package": "fedora-packages",
@@ -1909,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bVersion",
           "package": "fedora-packages",
@@ -1918,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bVersion",
           "package": "fedora-packages",
@@ -1931,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "baseurl",
           "package": "fedora-packages",
@@ -1940,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "baseurl",
           "package": "fedora-packages",
@@ -1952,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bfPackage",
           "package": "fedora-packages",
@@ -1961,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bfPackage",
           "package": "fedora-packages",
@@ -1974,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bfState",
           "package": "fedora-packages",
@@ -1983,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bfState",
           "package": "fedora-packages",
@@ -1996,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bugClass",
           "package": "fedora-packages",
@@ -2005,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bugClass",
           "package": "fedora-packages",
@@ -2018,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bugDescription",
           "package": "fedora-packages",
@@ -2027,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bugDescription",
           "package": "fedora-packages",
@@ -2040,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bugId",
           "package": "fedora-packages",
@@ -2049,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bugId",
           "package": "fedora-packages",
@@ -2062,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bugLastModified",
           "package": "fedora-packages",
@@ -2071,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bugLastModified",
           "package": "fedora-packages",
@@ -2084,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bugRelease",
           "package": "fedora-packages",
@@ -2093,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bugRelease",
           "package": "fedora-packages",
@@ -2106,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "bugStatus",
           "package": "fedora-packages",
@@ -2115,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "bugStatus",
           "package": "fedora-packages",
@@ -2128,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "buildId",
           "package": "fedora-packages",
@@ -2137,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "buildId",
           "package": "fedora-packages",
@@ -2150,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "completionTime",
           "package": "fedora-packages",
@@ -2159,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "completionTime",
           "package": "fedora-packages",
@@ -2172,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "completionTimeDisplay",
           "package": "fedora-packages",
@@ -2181,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "completionTimeDisplay",
           "package": "fedora-packages",
@@ -2194,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "completionTs",
           "package": "fedora-packages",
@@ -2203,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "completionTs",
           "package": "fedora-packages",
@@ -2216,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "creationEventId",
           "package": "fedora-packages",
@@ -2225,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "creationEventId",
           "package": "fedora-packages",
@@ -2238,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "creationTime",
           "package": "fedora-packages",
@@ -2247,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "creationTime",
           "package": "fedora-packages",
@@ -2260,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "creationTs",
           "package": "fedora-packages",
@@ -2269,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "creationTs",
           "package": "fedora-packages",
@@ -2282,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "description",
           "package": "fedora-packages",
@@ -2291,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "description",
           "package": "fedora-packages",
@@ -2303,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "develOwner",
           "package": "fedora-packages",
@@ -2312,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "develOwner",
           "package": "fedora-packages",
@@ -2325,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "elapsed",
           "package": "fedora-packages",
@@ -2334,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "elapsed",
           "package": "fedora-packages",
@@ -2346,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "epoch",
           "package": "fedora-packages",
@@ -2355,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "epoch",
           "package": "fedora-packages",
@@ -2367,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "icon",
           "package": "fedora-packages",
@@ -2376,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "icon",
           "package": "fedora-packages",
@@ -2388,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "link",
           "package": "fedora-packages",
@@ -2397,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "link",
           "package": "fedora-packages",
@@ -2409,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "name",
           "package": "fedora-packages",
@@ -2418,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "name",
           "package": "fedora-packages",
@@ -2430,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "name'",
           "package": "fedora-packages",
@@ -2439,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "name'",
           "package": "fedora-packages",
@@ -2451,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "nvr",
           "package": "fedora-packages",
@@ -2460,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "nvr",
           "package": "fedora-packages",
@@ -2472,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "ownerId",
           "package": "fedora-packages",
@@ -2481,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "ownerId",
           "package": "fedora-packages",
@@ -2494,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "ownerName",
           "package": "fedora-packages",
@@ -2503,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "ownerName",
           "package": "fedora-packages",
@@ -2516,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "packageId",
           "package": "fedora-packages",
@@ -2525,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "packageId",
           "package": "fedora-packages",
@@ -2538,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "packageName",
           "package": "fedora-packages",
@@ -2547,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "packageName",
           "package": "fedora-packages",
@@ -2560,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "packageRelease",
           "package": "fedora-packages",
@@ -2569,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "packageRelease",
           "package": "fedora-packages",
@@ -2582,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "qRowsPerPage",
           "package": "fedora-packages",
@@ -2591,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "qRowsPerPage",
           "package": "fedora-packages",
@@ -2604,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "qSearch",
           "package": "fedora-packages",
@@ -2613,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "qSearch",
           "package": "fedora-packages",
@@ -2626,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "qStartRow",
           "package": "fedora-packages",
@@ -2635,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "qStartRow",
           "package": "fedora-packages",
@@ -2648,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "release",
           "package": "fedora-packages",
@@ -2657,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "release",
           "package": "fedora-packages",
@@ -2669,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "sfSearch",
           "package": "fedora-packages",
@@ -2678,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "sfSearch",
           "package": "fedora-packages",
@@ -2691,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "srRows",
           "package": "fedora-packages",
@@ -2700,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "srRows",
           "normalized": "a b c Lens(StandardResults b)(StandardResults b)[b][b]",
@@ -2715,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "srRowsPerPage",
           "package": "fedora-packages",
@@ -2724,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "srRowsPerPage",
           "package": "fedora-packages",
@@ -2737,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "srStartRow",
           "package": "fedora-packages",
@@ -2746,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "srStartRow",
           "package": "fedora-packages",
@@ -2759,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "srTotalRows",
           "package": "fedora-packages",
@@ -2768,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "srTotalRows",
           "package": "fedora-packages",
@@ -2781,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "srVisibleRows",
           "package": "fedora-packages",
@@ -2790,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "srVisibleRows",
           "package": "fedora-packages",
@@ -2803,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "stableVersion",
           "package": "fedora-packages",
@@ -2812,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "stableVersion",
           "package": "fedora-packages",
@@ -2825,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "state",
           "package": "fedora-packages",
@@ -2834,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "state",
           "package": "fedora-packages",
@@ -2846,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "stateStr",
           "package": "fedora-packages",
@@ -2855,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "stateStr",
           "package": "fedora-packages",
@@ -2868,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "subPackages",
           "package": "fedora-packages",
@@ -2877,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "subPackages",
           "normalized": "Lens' Package(Maybe[Subpackage])",
@@ -2892,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "summary",
           "package": "fedora-packages",
@@ -2901,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "summary",
           "package": "fedora-packages",
@@ -2913,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "taskId",
           "package": "fedora-packages",
@@ -2922,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "taskId",
           "package": "fedora-packages",
@@ -2935,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "testingVersion",
           "package": "fedora-packages",
@@ -2944,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "testingVersion",
           "package": "fedora-packages",
@@ -2957,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "time",
           "package": "fedora-packages",
@@ -2966,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "time",
           "package": "fedora-packages",
@@ -2978,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "upstreamUrl",
           "package": "fedora-packages",
@@ -2987,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "upstreamUrl",
           "package": "fedora-packages",
@@ -3000,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "version",
           "package": "fedora-packages",
@@ -3009,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "version",
           "package": "fedora-packages",
@@ -3021,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "volumeId",
           "package": "fedora-packages",
@@ -3030,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "volumeId",
           "package": "fedora-packages",
@@ -3043,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "volumeName",
           "package": "fedora-packages",
@@ -3052,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "volumeName",
           "package": "fedora-packages",
@@ -3065,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Lens",
           "name": "when",
           "package": "fedora-packages",
@@ -3074,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Lens",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Lens",
           "name": "when",
           "package": "fedora-packages",
@@ -3087,6 +3367,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions and datatypes for getting release information about Fedora\n packages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Releases",
           "name": "Releases",
           "package": "fedora-packages",
@@ -3096,6 +3377,7 @@
         "index": {
           "description": "Provides functions and datatypes for getting release information about Fedora packages",
           "hierarchy": "Fedora Packages Releases",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Releases",
           "name": "Releases",
           "package": "fedora-packages",
@@ -3109,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Releases",
           "name": "Release",
           "package": "fedora-packages",
@@ -3117,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Releases",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Releases",
           "name": "Release",
           "package": "fedora-packages",
@@ -3130,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Releases",
           "name": "Release",
           "package": "fedora-packages",
@@ -3139,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Releases",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Releases",
           "name": "Release",
           "package": "fedora-packages",
@@ -3152,6 +3438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Releases",
           "name": "_release",
           "package": "fedora-packages",
@@ -3161,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Releases",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Releases",
           "name": "_release",
           "package": "fedora-packages",
@@ -3173,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Releases",
           "name": "_stableVersion",
           "package": "fedora-packages",
@@ -3182,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Releases",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Releases",
           "name": "_stableVersion",
           "package": "fedora-packages",
@@ -3195,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Releases",
           "name": "_testingVersion",
           "package": "fedora-packages",
@@ -3204,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Releases",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Releases",
           "name": "_testingVersion",
           "package": "fedora-packages",
@@ -3218,6 +3510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain release information about a package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Releases",
           "name": "releases",
           "package": "fedora-packages",
@@ -3227,6 +3520,7 @@
         "index": {
           "description": "Obtain release information about package",
           "hierarchy": "Fedora Packages Releases",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Releases",
           "name": "releases",
           "normalized": "PackagesConfig-\u003eText-\u003eIO(StandardResults Release)",
@@ -3242,6 +3536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper method to query for release information without having to worry\n about traversing into \u003ccode\u003e\u003ca\u003eStandardResults\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is provided because this is one of the few places where the paging\n information probably really doesn't matter.\n\u003c/p\u003e\u003cp\u003eEquivalent to:\n\u003c/p\u003e\u003cpre\u003e _srRows \u003c$\u003e releases c q\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Releases",
           "name": "releases'",
           "package": "fedora-packages",
@@ -3251,6 +3546,7 @@
         "index": {
           "description": "Helper method to query for release information without having to worry about traversing into StandardResults This is provided because this is one of the few places where the paging information probably really doesn matter Equivalent to srRows releases",
           "hierarchy": "Fedora Packages Releases",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Releases",
           "name": "releases'",
           "normalized": "PackagesConfig-\u003eText-\u003eIO[Release]",
@@ -3266,6 +3562,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions and datatypes for searching Fedora Packages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "Search",
           "package": "fedora-packages",
@@ -3275,6 +3572,7 @@
         "index": {
           "description": "Provides functions and datatypes for searching Fedora Packages",
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "Search",
           "package": "fedora-packages",
@@ -3288,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "Package",
           "package": "fedora-packages",
@@ -3296,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "Package",
           "package": "fedora-packages",
@@ -3309,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "SearchFilter",
           "package": "fedora-packages",
@@ -3317,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "SearchFilter",
           "package": "fedora-packages",
@@ -3330,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "Subpackage",
           "package": "fedora-packages",
@@ -3338,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "Subpackage",
           "package": "fedora-packages",
@@ -3351,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "Package",
           "package": "fedora-packages",
@@ -3360,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "Package",
           "package": "fedora-packages",
@@ -3373,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "SearchFilter",
           "package": "fedora-packages",
@@ -3382,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "SearchFilter",
           "package": "fedora-packages",
@@ -3395,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "Subpackage",
           "package": "fedora-packages",
@@ -3404,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "Subpackage",
           "package": "fedora-packages",
@@ -3417,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_description",
           "package": "fedora-packages",
@@ -3426,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_description",
           "package": "fedora-packages",
@@ -3438,6 +3750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_develOwner",
           "package": "fedora-packages",
@@ -3447,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_develOwner",
           "package": "fedora-packages",
@@ -3460,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_icon",
           "package": "fedora-packages",
@@ -3469,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_icon",
           "package": "fedora-packages",
@@ -3481,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_link",
           "package": "fedora-packages",
@@ -3490,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_link",
           "package": "fedora-packages",
@@ -3502,6 +3820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_name",
           "package": "fedora-packages",
@@ -3511,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_name",
           "package": "fedora-packages",
@@ -3523,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_sfSearch",
           "package": "fedora-packages",
@@ -3532,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_sfSearch",
           "package": "fedora-packages",
@@ -3545,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_subDescription",
           "package": "fedora-packages",
@@ -3554,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_subDescription",
           "package": "fedora-packages",
@@ -3567,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_subIcon",
           "package": "fedora-packages",
@@ -3576,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_subIcon",
           "package": "fedora-packages",
@@ -3589,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_subLink",
           "package": "fedora-packages",
@@ -3598,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_subLink",
           "package": "fedora-packages",
@@ -3611,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_subName",
           "package": "fedora-packages",
@@ -3620,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_subName",
           "package": "fedora-packages",
@@ -3633,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_subPackages",
           "package": "fedora-packages",
@@ -3642,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_subPackages",
           "normalized": "Maybe[Subpackage]",
@@ -3657,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_subSummary",
           "package": "fedora-packages",
@@ -3666,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_subSummary",
           "package": "fedora-packages",
@@ -3679,6 +4013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_summary",
           "package": "fedora-packages",
@@ -3688,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_summary",
           "package": "fedora-packages",
@@ -3700,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "_upstreamUrl",
           "package": "fedora-packages",
@@ -3709,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "_upstreamUrl",
           "package": "fedora-packages",
@@ -3723,6 +4061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch Fedora Packages and return the package if an exact one is found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "packageInfo",
           "package": "fedora-packages",
@@ -3733,6 +4072,7 @@
         "index": {
           "description": "Search Fedora Packages and return the package if an exact one is found",
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "packageInfo",
           "normalized": "PackagesConfig-\u003eText-\u003eIO(Maybe Package)",
@@ -3749,6 +4089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch Fedora Packages for a given pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages.Search",
           "name": "search",
           "package": "fedora-packages",
@@ -3758,6 +4099,7 @@
         "index": {
           "description": "Search Fedora Packages for given pattern",
           "hierarchy": "Fedora Packages Search",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages.Search",
           "name": "search",
           "normalized": "PackagesConfig-\u003eQuery SearchFilter-\u003eIO(StandardResults Package)",
@@ -3773,6 +4115,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a Haskell interface to the\n \u003ca\u003eFedora Packages\u003c/a\u003e API.\n\u003c/p\u003e\u003cp\u003eThis module simply re-exports all public modules within the fedora-packages\n project.\n\u003c/p\u003e\u003cp\u003eDepending on usecase, it might be easiest to import this and Lens, as below:\n\u003c/p\u003e\u003cpre\u003e import Fedora.Packages\n import Fedora.Packages.Lens\n import Control.Lens\n\u003c/pre\u003e\u003cp\u003eBut keep in mind that this will clutter your namespace pretty badly, and\n might not be ideal for all situations.\n\u003c/p\u003e\u003cp\u003eIf you don't want to use lenses (but you should because they are awesome),\n you can do this instead:\n\u003c/p\u003e\u003cpre\u003e import qualified Fedora.Packages as FedPackages\n\u003c/pre\u003e\u003cp\u003e...and then access everything using understored record-style getters, e.g.\n \u003ccode\u003e_packageName theBuild\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOr you can import specific pieces of \u003ccode\u003eFedora.Packages.\u003cwhatever\u003e\u003c/code\u003e instead\n of importing \u003ccode\u003eFedora.Packages\u003c/code\u003e which re-exports everything.\n\u003c/p\u003e\u003cp\u003eIf you do that, however, you'll want to import \u003ccode\u003eFedora.Packages.API\u003c/code\u003e and\n \u003ccode\u003eFedora.Packages.Config\u003c/code\u003e as well, so that you have the necessary data types\n for interacting with the API.\n\u003c/p\u003e\u003cp\u003eTL;DR: This is written to be very modular, and you are free to use it however\n it best fits in with the rest of your project. Have fun!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:23 UTC 2014",
           "module": "Fedora.Packages",
           "name": "Packages",
           "package": "fedora-packages",
@@ -3782,6 +4125,7 @@
         "index": {
           "description": "Provides Haskell interface to the Fedora Packages API This module simply re-exports all public modules within the fedora-packages project Depending on usecase it might be easiest to import this and Lens as below import Fedora.Packages import Fedora.Packages.Lens import Control.Lens But keep in mind that this will clutter your namespace pretty badly and might not be ideal for all situations If you don want to use lenses but you should because they are awesome you can do this instead import qualified Fedora.Packages as FedPackages and then access everything using understored record-style getters e.g packageName theBuild Or you can import specific pieces of Fedora.Packages whatever instead of importing Fedora.Packages which re-exports everything If you do that however you ll want to import Fedora.Packages.API and Fedora.Packages.Config as well so that you have the necessary data types for interacting with the API TL DR This is written to be very modular and you are free to use it however it best fits in with the rest of your project Have fun",
           "hierarchy": "Fedora Packages",
+          "indexed": "2014-03-11T18:07:23",
           "module": "Fedora.Packages",
           "name": "Packages",
           "package": "fedora-packages",

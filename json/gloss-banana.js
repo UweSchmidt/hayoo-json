@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gloss-banana"
+        "phrase": "gloss-banana",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:18 UTC 2014",
           "module": "Graphics.Gloss.Interface.FRP.ReactiveBanana",
           "name": "ReactiveBanana",
           "package": "gloss-banana",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Interface FRP ReactiveBanana",
+          "indexed": "2014-03-11T18:18:18",
           "module": "Graphics.Gloss.Interface.FRP.ReactiveBanana",
           "name": "ReactiveBanana",
           "package": "gloss-banana",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA useful type synonym for Gloss event values, to avoid confusion between\n   Gloss and ReactiveBanana.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:18 UTC 2014",
           "module": "Graphics.Gloss.Interface.FRP.ReactiveBanana",
           "name": "InputEvent",
           "package": "gloss-banana",
@@ -49,6 +52,7 @@
         "index": {
           "description": "useful type synonym for Gloss event values to avoid confusion between Gloss and ReactiveBanana",
           "hierarchy": "Graphics Gloss Interface FRP ReactiveBanana",
+          "indexed": "2014-03-11T18:18:18",
           "module": "Graphics.Gloss.Interface.FRP.ReactiveBanana",
           "name": "InputEvent",
           "package": "gloss-banana",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay the game in a window, updating when the value of the provided\n   Behavior t Picture changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:18 UTC 2014",
           "module": "Graphics.Gloss.Interface.FRP.ReactiveBanana",
           "name": "playBanana",
           "package": "gloss-banana",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Play the game in window updating when the value of the provided Behavior Picture changes",
           "hierarchy": "Graphics Gloss Interface FRP ReactiveBanana",
+          "indexed": "2014-03-11T18:18:18",
           "module": "Graphics.Gloss.Interface.FRP.ReactiveBanana",
           "name": "playBanana",
           "normalized": "Event a Float-\u003eEvent a InputEvent-\u003eMoment a(Behavior a Picture))-\u003eIO()",

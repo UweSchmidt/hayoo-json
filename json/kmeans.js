@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kmeans"
+        "phrase": "kmeans",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple implementation of the standard k-means clustering algorithm: \u003ca\u003ehttp://en.wikipedia.org/wiki/K-means_clustering\u003c/a\u003e. K-means clustering partitions points into clusters, with each point belonging to the cluster with th nearest mean. As the general problem is NP hard, the standard algorithm, which is relatively rapid, is heuristic and not guaranteed to converge to a global optimum. Varying the input order, from which the initial clusters are generated, can yield different results. For degenerate and malicious cases, the algorithm may take exponential time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:14 UTC 2014",
           "module": "Data.KMeans",
           "name": "KMeans",
           "package": "kmeans",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple implementation of the standard k-means clustering algorithm http en.wikipedia.org wiki K-means clustering K-means clustering partitions points into clusters with each point belonging to the cluster with th nearest mean As the general problem is NP hard the standard algorithm which is relatively rapid is heuristic and not guaranteed to converge to global optimum Varying the input order from which the initial clusters are generated can yield different results For degenerate and malicious cases the algorithm may take exponential time",
           "hierarchy": "Data KMeans",
+          "indexed": "2014-03-11T19:03:14",
           "module": "Data.KMeans",
           "name": "KMeans",
           "package": "kmeans",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecluster points\n\u003c/p\u003e\u003cp\u003eCluster points in a Euclidian space, represented as lists of Doubles, into at most k clusters.\n The initial clusters are chosen arbitrarily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:14 UTC 2014",
           "module": "Data.KMeans",
           "name": "kmeans",
           "package": "kmeans",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Recluster points Cluster points in Euclidian space represented as lists of Doubles into at most clusters The initial clusters are chosen arbitrarily",
           "hierarchy": "Data KMeans",
+          "indexed": "2014-03-11T19:03:14",
           "module": "Data.KMeans",
           "name": "kmeans",
           "normalized": "Int-\u003e[[Double]]-\u003e[[[Double]]]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalized kmeans function. This function operates not on points, but an arbitrary type which may be projected into a Euclidian space. Since the projection may be chosen freely, this allows for weighting dimensions to different degrees, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:14 UTC 2014",
           "module": "Data.KMeans",
           "name": "kmeansGen",
           "package": "kmeans",
@@ -77,6 +82,7 @@
         "index": {
           "description": "generalized kmeans function This function operates not on points but an arbitrary type which may be projected into Euclidian space Since the projection may be chosen freely this allows for weighting dimensions to different degrees etc",
           "hierarchy": "Data KMeans",
+          "indexed": "2014-03-11T19:03:14",
           "module": "Data.KMeans",
           "name": "kmeansGen",
           "normalized": "(a-\u003e[Double])-\u003eInt-\u003e[a]-\u003e[[a]]",

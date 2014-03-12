@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zippo"
+        "phrase": "zippo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "Zipper",
           "package": "zippo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "Zipper",
           "package": "zippo",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": ":\u003e",
           "package": "zippo",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": ":\u003e",
           "package": "zippo",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "Hist",
           "package": "zippo",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "Hist",
           "package": "zippo",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "Top",
           "package": "zippo",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "Top",
           "package": "zippo",
@@ -102,6 +110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOur zipper type, parameterized by a \u003ccode\u003e\u003ca\u003efocus\u003c/a\u003e\u003c/code\u003e and \"history stack\",\n supporting completely type-checked zipper operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "Zipper",
           "package": "zippo",
@@ -111,6 +120,7 @@
         "index": {
           "description": "Our zipper type parameterized by focus and history stack supporting completely type-checked zipper operations",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "Zipper",
           "package": "zippo",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "Snoc",
           "package": "zippo",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "Snoc",
           "normalized": "Snoc(a b)(c-\u003eb)",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "Top",
           "package": "zippo",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "Top",
           "package": "zippo",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "Zipper",
           "package": "zippo",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "Zipper",
           "package": "zippo",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexit the zipper, rebuilding the structure \u003ccode\u003ea\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e close (Zipper st b) = runHist st b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "close",
           "package": "zippo",
@@ -203,6 +220,7 @@
         "index": {
           "description": "exit the zipper rebuilding the structure close Zipper st runHist st",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "close",
           "normalized": "Zipper a b-\u003ec",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens on the focus of the zipper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "focus",
           "package": "zippo",
@@ -228,6 +247,7 @@
         "index": {
           "description": "lens on the focus of the zipper",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "focus",
           "normalized": "Zipper a b-\u003eb",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "hist",
           "package": "zippo",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "hist",
           "package": "zippo",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the zipper focus\n\u003c/p\u003e\u003cpre\u003e modf = modify focus\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "modf",
           "package": "zippo",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Modify the zipper focus modf modify focus",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "modf",
           "normalized": "(a-\u003ea)-\u003eZipper b a-\u003eZipper b a",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enavigate to a child element indicated by the passed lens, returning the\n new Zipper in the monad \u003ccode\u003em\u003c/code\u003e. This will be \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e when the standard (\u003ccode\u003e\u003ca\u003e:~\u003e\u003c/a\u003e\u003c/code\u003e)\n Lens is used. For pure lenses, use \u003ccode\u003e\u003ca\u003emoveP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "move",
           "package": "zippo",
@@ -299,6 +324,7 @@
         "index": {
           "description": "navigate to child element indicated by the passed lens returning the new Zipper in the monad This will be Maybe when the standard Lens is used For pure lenses use moveP",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "move",
           "normalized": "LensM a b c-\u003eZipper d b-\u003ea(Zipper(d b)c)",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enavigate to a child element indicated by the passed pure lens\n\u003c/p\u003e\u003cpre\u003e moveP l = runIdentity . move l\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "moveP",
           "package": "zippo",
@@ -324,6 +351,7 @@
         "index": {
           "description": "navigate to child element indicated by the passed pure lens moveP runIdentity move",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "moveP",
           "normalized": "(a-\u003eb)-\u003eZipper c a-\u003eZipper(c a)b",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enavigate up a level in a zipper not already at \u003ccode\u003e\u003ca\u003eTop\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e moveUp (Zipper (Snoc st cont) c) = Zipper st $ cont c\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "moveUp",
           "package": "zippo",
@@ -349,6 +378,7 @@
         "index": {
           "description": "navigate up level in zipper not already at Top moveUp Zipper Snoc st cont Zipper st cont",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "moveUp",
           "normalized": "Zipper(a b)c-\u003eZipper a b",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "runHist",
           "package": "zippo",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "runHist",
           "normalized": "a b-\u003eb-\u003ec",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the zipper focus\n\u003c/p\u003e\u003cpre\u003e setf = set focus\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "setf",
           "package": "zippo",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Set the zipper focus setf set focus",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "setf",
           "normalized": "Zipper a b-\u003eb-\u003eZipper a b",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "viewf",
           "package": "zippo",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "viewf",
           "package": "zippo",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"enter\" a data type. Move the \u003ccode\u003e\u003ca\u003efocus\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003emove\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emoveUp\u003c/a\u003e\u003c/code\u003e. Exit\n the zipper with \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e zipper = Zipper Top\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:18 UTC 2014",
           "module": "Data.Lens.Zipper",
           "name": "zipper",
           "package": "zippo",
@@ -445,6 +482,7 @@
         "index": {
           "description": "enter data type Move the focus with move and moveUp Exit the zipper with close zipper Zipper Top",
           "hierarchy": "Data Lens Zipper",
+          "indexed": "2014-03-11T20:48:18",
           "module": "Data.Lens.Zipper",
           "name": "zipper",
           "normalized": "a-\u003eZipper Top a",

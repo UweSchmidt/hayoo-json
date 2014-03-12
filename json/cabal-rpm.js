@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-rpm"
+        "phrase": "cabal-rpm",
+        "type": "phrase"
       },
       "type": "context"
     }

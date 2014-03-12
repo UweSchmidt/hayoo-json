@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dimensional"
+        "phrase": "dimensional",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "CGS",
           "package": "dimensional",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "CGS",
           "package": "dimensional",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "CGSDim",
           "package": "dimensional",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "CGSDim",
           "package": "dimensional",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DCharge",
           "package": "dimensional",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DCharge",
           "package": "dimensional",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DElectricCurrent",
           "package": "dimensional",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DElectricCurrent",
           "package": "dimensional",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DLength",
           "package": "dimensional",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DLength",
           "package": "dimensional",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DMass",
           "package": "dimensional",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DMass",
           "package": "dimensional",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DTime",
           "package": "dimensional",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "DTime",
           "package": "dimensional",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "ampere",
           "package": "dimensional",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "ampere",
           "package": "dimensional",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "c",
           "package": "dimensional",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "c",
           "package": "dimensional",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "c'",
           "package": "dimensional",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "c'",
           "package": "dimensional",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "c''",
           "package": "dimensional",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "c''",
           "package": "dimensional",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "c_cgs",
           "package": "dimensional",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "c_cgs",
           "package": "dimensional",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "f_cgs",
           "package": "dimensional",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "f_cgs",
           "package": "dimensional",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "f_si",
           "package": "dimensional",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "f_si",
           "package": "dimensional",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "f_si'",
           "package": "dimensional",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "f_si'",
           "package": "dimensional",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "franklin",
           "package": "dimensional",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "franklin",
           "package": "dimensional",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "fromSI",
           "package": "dimensional",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "fromSI",
           "normalized": "Quantity(Dim a b c d Zero Zero Zero)e-\u003eQuantity(CGSDim f g h)e",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "gram",
           "package": "dimensional",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "gram",
           "package": "dimensional",
@@ -401,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "meter",
           "package": "dimensional",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "meter",
           "package": "dimensional",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "q_cgs",
           "package": "dimensional",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "q_cgs",
           "package": "dimensional",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "q_si",
           "package": "dimensional",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "q_si",
           "package": "dimensional",
@@ -464,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "r_cgs",
           "package": "dimensional",
@@ -473,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "r_cgs",
           "package": "dimensional",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "r_si",
           "package": "dimensional",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "r_si",
           "package": "dimensional",
@@ -506,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "second",
           "package": "dimensional",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "second",
           "package": "dimensional",
@@ -527,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "toSI",
           "package": "dimensional",
@@ -536,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "toSI",
           "normalized": "Quantity(CGSDim a b c)d-\u003eQuantity(Dim e f g h Zero Zero Zero)d",
@@ -551,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "unit_CGS",
           "package": "dimensional",
@@ -560,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "unit_CGS",
           "normalized": "Quantity(Dim a b c d Zero Zero Zero)e-\u003eUnit(CGSDim f g h)e",
@@ -575,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "unit_SI",
           "package": "dimensional",
@@ -584,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional CGS",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.CGS",
           "name": "unit_SI",
           "normalized": "Quantity(Dim a b c d e f g)h-\u003eUnit(Dim a b c d e f g)h",
@@ -600,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Extensible",
           "name": "Extensible",
           "package": "dimensional",
@@ -609,6 +664,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional Extensible",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Extensible",
           "name": "Extensible",
           "package": "dimensional",
@@ -622,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Extensible",
           "name": "DExt",
           "package": "dimensional",
@@ -630,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Extensible",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Extensible",
           "name": "DExt",
           "package": "dimensional",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Extensible",
           "name": "showDExt",
           "package": "dimensional",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Extensible",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Extensible",
           "name": "showDExt",
           "normalized": "String-\u003eDExt a b c-\u003eString",
@@ -668,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "NonSI",
           "package": "dimensional",
@@ -677,6 +738,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "NonSI",
           "package": "dimensional",
@@ -690,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "atmosphere",
           "package": "dimensional",
@@ -699,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "atmosphere",
           "package": "dimensional",
@@ -711,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "bar",
           "package": "dimensional",
@@ -720,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "bar",
           "package": "dimensional",
@@ -732,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "century",
           "package": "dimensional",
@@ -741,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "century",
           "package": "dimensional",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "electronVolt",
           "package": "dimensional",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "electronVolt",
           "package": "dimensional",
@@ -775,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "foot",
           "package": "dimensional",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "foot",
           "package": "dimensional",
@@ -796,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "gee",
           "package": "dimensional",
@@ -805,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "gee",
           "package": "dimensional",
@@ -817,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialCup",
           "package": "dimensional",
@@ -826,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialCup",
           "package": "dimensional",
@@ -839,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialFluidOunce",
           "package": "dimensional",
@@ -848,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialFluidOunce",
           "package": "dimensional",
@@ -861,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialGallon",
           "package": "dimensional",
@@ -870,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialGallon",
           "package": "dimensional",
@@ -883,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialGill",
           "package": "dimensional",
@@ -892,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialGill",
           "package": "dimensional",
@@ -905,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialPint",
           "package": "dimensional",
@@ -914,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialPint",
           "package": "dimensional",
@@ -927,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialQuart",
           "package": "dimensional",
@@ -936,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "imperialQuart",
           "package": "dimensional",
@@ -949,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "inch",
           "package": "dimensional",
@@ -958,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "inch",
           "package": "dimensional",
@@ -970,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "mil",
           "package": "dimensional",
@@ -979,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "mil",
           "package": "dimensional",
@@ -991,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "mile",
           "package": "dimensional",
@@ -1000,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "mile",
           "package": "dimensional",
@@ -1012,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "mmHg",
           "package": "dimensional",
@@ -1021,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "mmHg",
           "package": "dimensional",
@@ -1034,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "nauticalMile",
           "package": "dimensional",
@@ -1043,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "nauticalMile",
           "package": "dimensional",
@@ -1056,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "ounce",
           "package": "dimensional",
@@ -1065,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "ounce",
           "package": "dimensional",
@@ -1077,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "poundForce",
           "package": "dimensional",
@@ -1086,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "poundForce",
           "package": "dimensional",
@@ -1099,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "poundMass",
           "package": "dimensional",
@@ -1108,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "poundMass",
           "package": "dimensional",
@@ -1121,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "psi",
           "package": "dimensional",
@@ -1130,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "psi",
           "package": "dimensional",
@@ -1142,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "rad",
           "package": "dimensional",
@@ -1151,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "rad",
           "package": "dimensional",
@@ -1163,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "revolution",
           "package": "dimensional",
@@ -1172,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "revolution",
           "package": "dimensional",
@@ -1184,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "solid",
           "package": "dimensional",
@@ -1193,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "solid",
           "package": "dimensional",
@@ -1205,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "stokes",
           "package": "dimensional",
@@ -1214,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "stokes",
           "package": "dimensional",
@@ -1226,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "teaspoon",
           "package": "dimensional",
@@ -1235,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "teaspoon",
           "package": "dimensional",
@@ -1247,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "technicalAtmosphere",
           "package": "dimensional",
@@ -1256,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "technicalAtmosphere",
           "package": "dimensional",
@@ -1269,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "torr",
           "package": "dimensional",
@@ -1278,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "torr",
           "package": "dimensional",
@@ -1290,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "unifiedAtomicMassUnit",
           "package": "dimensional",
@@ -1299,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "unifiedAtomicMassUnit",
           "package": "dimensional",
@@ -1312,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "yard",
           "package": "dimensional",
@@ -1321,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "yard",
           "package": "dimensional",
@@ -1333,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "year",
           "package": "dimensional",
@@ -1342,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional NonSI",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.NonSI",
           "name": "year",
           "package": "dimensional",
@@ -1354,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Prelude",
           "name": "Prelude",
           "package": "dimensional",
@@ -1362,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Prelude",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Prelude",
           "name": "Prelude",
           "package": "dimensional",
@@ -1376,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Quantities",
           "package": "dimensional",
@@ -1385,6 +1512,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Quantities",
           "package": "dimensional",
@@ -1398,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AbsorbedDose",
           "package": "dimensional",
@@ -1406,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AbsorbedDose",
           "package": "dimensional",
@@ -1419,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AbsorbedDoseRate",
           "package": "dimensional",
@@ -1427,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AbsorbedDoseRate",
           "package": "dimensional",
@@ -1440,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Acceleration",
           "package": "dimensional",
@@ -1448,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Acceleration",
           "package": "dimensional",
@@ -1461,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Activity",
           "package": "dimensional",
@@ -1469,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Activity",
           "package": "dimensional",
@@ -1482,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AmbientDoseEquivalent",
           "package": "dimensional",
@@ -1490,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AmbientDoseEquivalent",
           "package": "dimensional",
@@ -1503,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AmountOfSubstanceConcentration",
           "package": "dimensional",
@@ -1511,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AmountOfSubstanceConcentration",
           "package": "dimensional",
@@ -1524,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Angle",
           "package": "dimensional",
@@ -1532,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Angle",
           "package": "dimensional",
@@ -1545,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AngularAcceleration",
           "package": "dimensional",
@@ -1553,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AngularAcceleration",
           "package": "dimensional",
@@ -1566,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AngularMomentum",
           "package": "dimensional",
@@ -1574,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AngularMomentum",
           "package": "dimensional",
@@ -1587,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AngularVelocity",
           "package": "dimensional",
@@ -1595,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "AngularVelocity",
           "package": "dimensional",
@@ -1608,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Area",
           "package": "dimensional",
@@ -1616,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Area",
           "package": "dimensional",
@@ -1629,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Capacitance",
           "package": "dimensional",
@@ -1637,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Capacitance",
           "package": "dimensional",
@@ -1650,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "CelsiusTemperature",
           "package": "dimensional",
@@ -1658,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "CelsiusTemperature",
           "package": "dimensional",
@@ -1671,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Concentration",
           "package": "dimensional",
@@ -1679,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Concentration",
           "package": "dimensional",
@@ -1692,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "CurrentDensity",
           "package": "dimensional",
@@ -1700,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "CurrentDensity",
           "package": "dimensional",
@@ -1713,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAbsorbedDose",
           "package": "dimensional",
@@ -1721,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAbsorbedDose",
           "package": "dimensional",
@@ -1734,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAbsorbedDoseRate",
           "package": "dimensional",
@@ -1742,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAbsorbedDoseRate",
           "package": "dimensional",
@@ -1755,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAcceleration",
           "package": "dimensional",
@@ -1763,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAcceleration",
           "package": "dimensional",
@@ -1776,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DActivity",
           "package": "dimensional",
@@ -1784,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DActivity",
           "package": "dimensional",
@@ -1797,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAmbientDoseEquivalent",
           "package": "dimensional",
@@ -1805,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAmbientDoseEquivalent",
           "package": "dimensional",
@@ -1818,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAmountOfSubstanceConcentration",
           "package": "dimensional",
@@ -1826,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAmountOfSubstanceConcentration",
           "package": "dimensional",
@@ -1839,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAngle",
           "package": "dimensional",
@@ -1847,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAngle",
           "package": "dimensional",
@@ -1860,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAngularAcceleration",
           "package": "dimensional",
@@ -1868,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAngularAcceleration",
           "package": "dimensional",
@@ -1881,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAngularMomentum",
           "package": "dimensional",
@@ -1889,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAngularMomentum",
           "package": "dimensional",
@@ -1902,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAngularVelocity",
           "package": "dimensional",
@@ -1910,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DAngularVelocity",
           "package": "dimensional",
@@ -1923,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DArea",
           "package": "dimensional",
@@ -1931,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DArea",
           "package": "dimensional",
@@ -1944,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DCapacitance",
           "package": "dimensional",
@@ -1952,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DCapacitance",
           "package": "dimensional",
@@ -1965,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DCelsiusTemperature",
           "package": "dimensional",
@@ -1973,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DCelsiusTemperature",
           "package": "dimensional",
@@ -1986,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DCurrentDensity",
           "package": "dimensional",
@@ -1994,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DCurrentDensity",
           "package": "dimensional",
@@ -2007,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DDirectionalDoseEquivalent",
           "package": "dimensional",
@@ -2015,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DDirectionalDoseEquivalent",
           "package": "dimensional",
@@ -2028,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DDoseEquivalent",
           "package": "dimensional",
@@ -2036,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DDoseEquivalent",
           "package": "dimensional",
@@ -2049,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DDynamicViscosity",
           "package": "dimensional",
@@ -2057,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DDynamicViscosity",
           "package": "dimensional",
@@ -2070,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricCharge",
           "package": "dimensional",
@@ -2078,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricCharge",
           "package": "dimensional",
@@ -2091,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricChargeDensity",
           "package": "dimensional",
@@ -2099,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricChargeDensity",
           "package": "dimensional",
@@ -2112,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricConductance",
           "package": "dimensional",
@@ -2120,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricConductance",
           "package": "dimensional",
@@ -2133,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricFieldStrength",
           "package": "dimensional",
@@ -2141,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricFieldStrength",
           "package": "dimensional",
@@ -2154,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricFluxDensity",
           "package": "dimensional",
@@ -2162,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricFluxDensity",
           "package": "dimensional",
@@ -2175,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricPotential",
           "package": "dimensional",
@@ -2183,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricPotential",
           "package": "dimensional",
@@ -2196,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricResistance",
           "package": "dimensional",
@@ -2204,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectricResistance",
           "package": "dimensional",
@@ -2217,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectromotiveForce",
           "package": "dimensional",
@@ -2225,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DElectromotiveForce",
           "package": "dimensional",
@@ -2238,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEnergy",
           "package": "dimensional",
@@ -2246,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEnergy",
           "package": "dimensional",
@@ -2259,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEnergyDensity",
           "package": "dimensional",
@@ -2267,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEnergyDensity",
           "package": "dimensional",
@@ -2280,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEnergyPerUnitMass",
           "package": "dimensional",
@@ -2288,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEnergyPerUnitMass",
           "package": "dimensional",
@@ -2301,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEntropy",
           "package": "dimensional",
@@ -2309,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEntropy",
           "package": "dimensional",
@@ -2322,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEquivalentDose",
           "package": "dimensional",
@@ -2330,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DEquivalentDose",
           "package": "dimensional",
@@ -2343,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DExposure",
           "package": "dimensional",
@@ -2351,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DExposure",
           "package": "dimensional",
@@ -2364,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DFirstMassMoment",
           "package": "dimensional",
@@ -2372,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DFirstMassMoment",
           "package": "dimensional",
@@ -2385,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DForce",
           "package": "dimensional",
@@ -2393,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DForce",
           "package": "dimensional",
@@ -2406,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DFrequency",
           "package": "dimensional",
@@ -2414,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DFrequency",
           "package": "dimensional",
@@ -2427,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DGravitationalParameter",
           "package": "dimensional",
@@ -2435,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DGravitationalParameter",
           "package": "dimensional",
@@ -2448,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DHeatCapacity",
           "package": "dimensional",
@@ -2456,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DHeatCapacity",
           "package": "dimensional",
@@ -2469,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DHeatFluxDensity",
           "package": "dimensional",
@@ -2477,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DHeatFluxDensity",
           "package": "dimensional",
@@ -2490,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DIlluminance",
           "package": "dimensional",
@@ -2498,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DIlluminance",
           "package": "dimensional",
@@ -2511,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DImpulse",
           "package": "dimensional",
@@ -2519,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DImpulse",
           "package": "dimensional",
@@ -2532,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DInductance",
           "package": "dimensional",
@@ -2540,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DInductance",
           "package": "dimensional",
@@ -2553,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DIrradiance",
           "package": "dimensional",
@@ -2561,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DIrradiance",
           "package": "dimensional",
@@ -2574,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DKerma",
           "package": "dimensional",
@@ -2582,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DKerma",
           "package": "dimensional",
@@ -2595,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DKinematicViscosity",
           "package": "dimensional",
@@ -2603,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DKinematicViscosity",
           "package": "dimensional",
@@ -2616,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DLuminance",
           "package": "dimensional",
@@ -2624,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DLuminance",
           "package": "dimensional",
@@ -2637,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DLuminousFlux",
           "package": "dimensional",
@@ -2645,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DLuminousFlux",
           "package": "dimensional",
@@ -2658,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMagneticFieldStrength",
           "package": "dimensional",
@@ -2666,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMagneticFieldStrength",
           "package": "dimensional",
@@ -2679,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMagneticFlux",
           "package": "dimensional",
@@ -2687,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMagneticFlux",
           "package": "dimensional",
@@ -2700,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMagneticFluxDensity",
           "package": "dimensional",
@@ -2708,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMagneticFluxDensity",
           "package": "dimensional",
@@ -2721,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMassDensity",
           "package": "dimensional",
@@ -2729,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMassDensity",
           "package": "dimensional",
@@ -2742,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMassFlow",
           "package": "dimensional",
@@ -2750,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMassFlow",
           "package": "dimensional",
@@ -2763,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMolarEnergy",
           "package": "dimensional",
@@ -2771,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMolarEnergy",
           "package": "dimensional",
@@ -2784,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMolarEntropy",
           "package": "dimensional",
@@ -2792,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMolarEntropy",
           "package": "dimensional",
@@ -2805,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMolarHeatCapacity",
           "package": "dimensional",
@@ -2813,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMolarHeatCapacity",
           "package": "dimensional",
@@ -2826,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMomentOfForce",
           "package": "dimensional",
@@ -2834,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMomentOfForce",
           "package": "dimensional",
@@ -2847,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMomentOfInertia",
           "package": "dimensional",
@@ -2855,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DMomentOfInertia",
           "package": "dimensional",
@@ -2868,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPermeability",
           "package": "dimensional",
@@ -2876,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPermeability",
           "package": "dimensional",
@@ -2889,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPermittivity",
           "package": "dimensional",
@@ -2897,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPermittivity",
           "package": "dimensional",
@@ -2910,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPersonalDoseEquivalent",
           "package": "dimensional",
@@ -2918,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPersonalDoseEquivalent",
           "package": "dimensional",
@@ -2931,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPlaneAngle",
           "package": "dimensional",
@@ -2939,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPlaneAngle",
           "package": "dimensional",
@@ -2952,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPotentialDifference",
           "package": "dimensional",
@@ -2960,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPotentialDifference",
           "package": "dimensional",
@@ -2973,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPower",
           "package": "dimensional",
@@ -2981,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPower",
           "package": "dimensional",
@@ -2994,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPressure",
           "package": "dimensional",
@@ -3002,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DPressure",
           "package": "dimensional",
@@ -3015,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DQuantityOfElectricity",
           "package": "dimensional",
@@ -3023,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DQuantityOfElectricity",
           "package": "dimensional",
@@ -3036,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DQuantityOfHeat",
           "package": "dimensional",
@@ -3044,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DQuantityOfHeat",
           "package": "dimensional",
@@ -3057,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DRadiance",
           "package": "dimensional",
@@ -3065,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DRadiance",
           "package": "dimensional",
@@ -3078,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DRadiantFlux",
           "package": "dimensional",
@@ -3086,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DRadiantFlux",
           "package": "dimensional",
@@ -3099,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DRadiantIntensity",
           "package": "dimensional",
@@ -3107,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DRadiantIntensity",
           "package": "dimensional",
@@ -3120,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSolidAngle",
           "package": "dimensional",
@@ -3128,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSolidAngle",
           "package": "dimensional",
@@ -3141,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSpecificEnergy",
           "package": "dimensional",
@@ -3149,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSpecificEnergy",
           "package": "dimensional",
@@ -3162,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSpecificEntropy",
           "package": "dimensional",
@@ -3170,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSpecificEntropy",
           "package": "dimensional",
@@ -3183,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSpecificHeatCapacity",
           "package": "dimensional",
@@ -3191,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSpecificHeatCapacity",
           "package": "dimensional",
@@ -3204,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSpecificVolume",
           "package": "dimensional",
@@ -3212,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSpecificVolume",
           "package": "dimensional",
@@ -3225,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DStress",
           "package": "dimensional",
@@ -3233,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DStress",
           "package": "dimensional",
@@ -3246,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSurfaceTension",
           "package": "dimensional",
@@ -3254,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DSurfaceTension",
           "package": "dimensional",
@@ -3267,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DThermalConductivity",
           "package": "dimensional",
@@ -3275,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DThermalConductivity",
           "package": "dimensional",
@@ -3288,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DThrust",
           "package": "dimensional",
@@ -3296,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DThrust",
           "package": "dimensional",
@@ -3309,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DTorque",
           "package": "dimensional",
@@ -3317,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DTorque",
           "package": "dimensional",
@@ -3330,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DVelocity",
           "package": "dimensional",
@@ -3338,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DVelocity",
           "package": "dimensional",
@@ -3351,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DVolume",
           "package": "dimensional",
@@ -3359,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DVolume",
           "package": "dimensional",
@@ -3372,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DWaveNumber",
           "package": "dimensional",
@@ -3380,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DWaveNumber",
           "package": "dimensional",
@@ -3393,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DWork",
           "package": "dimensional",
@@ -3401,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DWork",
           "package": "dimensional",
@@ -3414,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Density",
           "package": "dimensional",
@@ -3422,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Density",
           "package": "dimensional",
@@ -3435,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DirectionalDoseEquivalent",
           "package": "dimensional",
@@ -3443,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DirectionalDoseEquivalent",
           "package": "dimensional",
@@ -3456,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DoseEquivalent",
           "package": "dimensional",
@@ -3464,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DoseEquivalent",
           "package": "dimensional",
@@ -3477,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DynamicViscosity",
           "package": "dimensional",
@@ -3485,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "DynamicViscosity",
           "package": "dimensional",
@@ -3498,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricCharge",
           "package": "dimensional",
@@ -3506,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricCharge",
           "package": "dimensional",
@@ -3519,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricChargeDensity",
           "package": "dimensional",
@@ -3527,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricChargeDensity",
           "package": "dimensional",
@@ -3540,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricConductance",
           "package": "dimensional",
@@ -3548,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricConductance",
           "package": "dimensional",
@@ -3561,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricFieldStrength",
           "package": "dimensional",
@@ -3569,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricFieldStrength",
           "package": "dimensional",
@@ -3582,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricFluxDensity",
           "package": "dimensional",
@@ -3590,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricFluxDensity",
           "package": "dimensional",
@@ -3603,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricPotential",
           "package": "dimensional",
@@ -3611,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricPotential",
           "package": "dimensional",
@@ -3624,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricResistance",
           "package": "dimensional",
@@ -3632,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectricResistance",
           "package": "dimensional",
@@ -3645,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectromotiveForce",
           "package": "dimensional",
@@ -3653,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ElectromotiveForce",
           "package": "dimensional",
@@ -3666,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Energy",
           "package": "dimensional",
@@ -3674,6 +4019,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Energy",
           "package": "dimensional",
@@ -3687,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "EnergyDensity",
           "package": "dimensional",
@@ -3695,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "EnergyDensity",
           "package": "dimensional",
@@ -3708,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "EnergyPerUnitMass",
           "package": "dimensional",
@@ -3716,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "EnergyPerUnitMass",
           "package": "dimensional",
@@ -3729,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Entropy",
           "package": "dimensional",
@@ -3737,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Entropy",
           "package": "dimensional",
@@ -3750,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "EquivalentDose",
           "package": "dimensional",
@@ -3758,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "EquivalentDose",
           "package": "dimensional",
@@ -3771,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Exposure",
           "package": "dimensional",
@@ -3779,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Exposure",
           "package": "dimensional",
@@ -3792,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "FirstMassMoment",
           "package": "dimensional",
@@ -3800,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "FirstMassMoment",
           "package": "dimensional",
@@ -3813,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Force",
           "package": "dimensional",
@@ -3821,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Force",
           "package": "dimensional",
@@ -3834,6 +4194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Frequency",
           "package": "dimensional",
@@ -3842,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Frequency",
           "package": "dimensional",
@@ -3855,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "GravitationalParameter",
           "package": "dimensional",
@@ -3863,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "GravitationalParameter",
           "package": "dimensional",
@@ -3876,6 +4240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "HeatCapacity",
           "package": "dimensional",
@@ -3884,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "HeatCapacity",
           "package": "dimensional",
@@ -3897,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "HeatFluxDensity",
           "package": "dimensional",
@@ -3905,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "HeatFluxDensity",
           "package": "dimensional",
@@ -3918,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Illuminance",
           "package": "dimensional",
@@ -3926,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Illuminance",
           "package": "dimensional",
@@ -3939,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Impulse",
           "package": "dimensional",
@@ -3947,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Impulse",
           "package": "dimensional",
@@ -3960,6 +4332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Inductance",
           "package": "dimensional",
@@ -3968,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Inductance",
           "package": "dimensional",
@@ -3981,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Irradiance",
           "package": "dimensional",
@@ -3989,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Irradiance",
           "package": "dimensional",
@@ -4002,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Kerma",
           "package": "dimensional",
@@ -4010,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Kerma",
           "package": "dimensional",
@@ -4023,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "KinematicViscosity",
           "package": "dimensional",
@@ -4031,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "KinematicViscosity",
           "package": "dimensional",
@@ -4044,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Luminance",
           "package": "dimensional",
@@ -4052,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Luminance",
           "package": "dimensional",
@@ -4065,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "LuminousFlux",
           "package": "dimensional",
@@ -4073,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "LuminousFlux",
           "package": "dimensional",
@@ -4086,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MagneticFieldStrength",
           "package": "dimensional",
@@ -4094,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MagneticFieldStrength",
           "package": "dimensional",
@@ -4107,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MagneticFlux",
           "package": "dimensional",
@@ -4115,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MagneticFlux",
           "package": "dimensional",
@@ -4128,6 +4516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MagneticFluxDensity",
           "package": "dimensional",
@@ -4136,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MagneticFluxDensity",
           "package": "dimensional",
@@ -4149,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MassDensity",
           "package": "dimensional",
@@ -4157,6 +4548,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MassDensity",
           "package": "dimensional",
@@ -4170,6 +4562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MassFlow",
           "package": "dimensional",
@@ -4178,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MassFlow",
           "package": "dimensional",
@@ -4191,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MolarEnergy",
           "package": "dimensional",
@@ -4199,6 +4594,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MolarEnergy",
           "package": "dimensional",
@@ -4212,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MolarEntropy",
           "package": "dimensional",
@@ -4220,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MolarEntropy",
           "package": "dimensional",
@@ -4233,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MolarHeatCapacity",
           "package": "dimensional",
@@ -4241,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MolarHeatCapacity",
           "package": "dimensional",
@@ -4254,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MomentOfForce",
           "package": "dimensional",
@@ -4262,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MomentOfForce",
           "package": "dimensional",
@@ -4275,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MomentOfInertia",
           "package": "dimensional",
@@ -4283,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "MomentOfInertia",
           "package": "dimensional",
@@ -4296,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Permeability",
           "package": "dimensional",
@@ -4304,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Permeability",
           "package": "dimensional",
@@ -4317,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Permittivity",
           "package": "dimensional",
@@ -4325,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Permittivity",
           "package": "dimensional",
@@ -4338,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "PersonalDoseEquivalent",
           "package": "dimensional",
@@ -4346,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "PersonalDoseEquivalent",
           "package": "dimensional",
@@ -4359,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "PlaneAngle",
           "package": "dimensional",
@@ -4367,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "PlaneAngle",
           "package": "dimensional",
@@ -4380,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "PotentialDifference",
           "package": "dimensional",
@@ -4388,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "PotentialDifference",
           "package": "dimensional",
@@ -4401,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Power",
           "package": "dimensional",
@@ -4409,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Power",
           "package": "dimensional",
@@ -4422,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Pressure",
           "package": "dimensional",
@@ -4430,6 +4847,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Pressure",
           "package": "dimensional",
@@ -4443,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "QuantityOfElectricity",
           "package": "dimensional",
@@ -4451,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "QuantityOfElectricity",
           "package": "dimensional",
@@ -4464,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "QuantityOfHeat",
           "package": "dimensional",
@@ -4472,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "QuantityOfHeat",
           "package": "dimensional",
@@ -4485,6 +4907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Radiance",
           "package": "dimensional",
@@ -4493,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Radiance",
           "package": "dimensional",
@@ -4506,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "RadiantFlux",
           "package": "dimensional",
@@ -4514,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "RadiantFlux",
           "package": "dimensional",
@@ -4527,6 +4953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "RadiantIntensity",
           "package": "dimensional",
@@ -4535,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "RadiantIntensity",
           "package": "dimensional",
@@ -4548,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SolidAngle",
           "package": "dimensional",
@@ -4556,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SolidAngle",
           "package": "dimensional",
@@ -4569,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SpecificEnergy",
           "package": "dimensional",
@@ -4577,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SpecificEnergy",
           "package": "dimensional",
@@ -4590,6 +5022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SpecificEntropy",
           "package": "dimensional",
@@ -4598,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SpecificEntropy",
           "package": "dimensional",
@@ -4611,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SpecificHeatCapacity",
           "package": "dimensional",
@@ -4619,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SpecificHeatCapacity",
           "package": "dimensional",
@@ -4632,6 +5068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SpecificVolume",
           "package": "dimensional",
@@ -4640,6 +5077,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SpecificVolume",
           "package": "dimensional",
@@ -4653,6 +5091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Stress",
           "package": "dimensional",
@@ -4661,6 +5100,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Stress",
           "package": "dimensional",
@@ -4674,6 +5114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SurfaceTension",
           "package": "dimensional",
@@ -4682,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "SurfaceTension",
           "package": "dimensional",
@@ -4695,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ThermalConductivity",
           "package": "dimensional",
@@ -4703,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "ThermalConductivity",
           "package": "dimensional",
@@ -4716,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Thrust",
           "package": "dimensional",
@@ -4724,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Thrust",
           "package": "dimensional",
@@ -4737,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Torque",
           "package": "dimensional",
@@ -4745,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Torque",
           "package": "dimensional",
@@ -4758,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Velocity",
           "package": "dimensional",
@@ -4766,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Velocity",
           "package": "dimensional",
@@ -4779,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Volume",
           "package": "dimensional",
@@ -4787,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Volume",
           "package": "dimensional",
@@ -4800,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "WaveNumber",
           "package": "dimensional",
@@ -4808,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "WaveNumber",
           "package": "dimensional",
@@ -4821,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Work",
           "package": "dimensional",
@@ -4829,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "Work",
           "package": "dimensional",
@@ -4842,6 +5298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "cubic",
           "package": "dimensional",
@@ -4851,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "cubic",
           "normalized": "Unit DLength a-\u003eUnit DVolume a",
@@ -4865,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "square",
           "package": "dimensional",
@@ -4874,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional Quantities",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.Quantities",
           "name": "square",
           "normalized": "Unit DLength a-\u003eUnit DArea a",
@@ -4889,6 +5349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "SIUnits",
           "package": "dimensional",
@@ -4898,6 +5359,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "SIUnits",
           "package": "dimensional",
@@ -4911,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "ampere",
           "package": "dimensional",
@@ -4920,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "ampere",
           "package": "dimensional",
@@ -4932,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "arcminute",
           "package": "dimensional",
@@ -4941,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "arcminute",
           "package": "dimensional",
@@ -4953,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "arcsecond",
           "package": "dimensional",
@@ -4962,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "arcsecond",
           "package": "dimensional",
@@ -4974,6 +5442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "astronomicalUnit",
           "package": "dimensional",
@@ -4983,6 +5452,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "astronomicalUnit",
           "package": "dimensional",
@@ -4996,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "atto",
           "package": "dimensional",
@@ -5005,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "atto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5019,6 +5491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "becquerel",
           "package": "dimensional",
@@ -5028,6 +5501,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "becquerel",
           "package": "dimensional",
@@ -5040,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "candela",
           "package": "dimensional",
@@ -5049,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "candela",
           "package": "dimensional",
@@ -5061,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "centi",
           "package": "dimensional",
@@ -5070,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "centi",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5084,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "coulomb",
           "package": "dimensional",
@@ -5093,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "coulomb",
           "package": "dimensional",
@@ -5105,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "day",
           "package": "dimensional",
@@ -5114,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "day",
           "package": "dimensional",
@@ -5126,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "deca",
           "package": "dimensional",
@@ -5135,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "deca",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5149,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "deci",
           "package": "dimensional",
@@ -5158,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "deci",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5172,6 +5658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "degree",
           "package": "dimensional",
@@ -5181,6 +5668,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "degree",
           "package": "dimensional",
@@ -5193,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "degreeCelsius",
           "package": "dimensional",
@@ -5202,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "degreeCelsius",
           "package": "dimensional",
@@ -5215,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "degreeOfArc",
           "package": "dimensional",
@@ -5224,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "degreeOfArc",
           "package": "dimensional",
@@ -5237,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "deka",
           "package": "dimensional",
@@ -5246,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "deka",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5260,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "exa",
           "package": "dimensional",
@@ -5269,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "exa",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5283,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "farad",
           "package": "dimensional",
@@ -5292,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "farad",
           "package": "dimensional",
@@ -5304,6 +5802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "femto",
           "package": "dimensional",
@@ -5313,6 +5812,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "femto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5327,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "fromDegreeCelsiusAbsolute",
           "package": "dimensional",
@@ -5336,6 +5837,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "fromDegreeCelsiusAbsolute",
           "normalized": "a-\u003eThermodynamicTemperature a",
@@ -5351,6 +5853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "fromDiffTime",
           "package": "dimensional",
@@ -5360,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "fromDiffTime",
           "normalized": "DiffTime-\u003eTime a",
@@ -5375,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "giga",
           "package": "dimensional",
@@ -5384,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "giga",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5398,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "gram",
           "package": "dimensional",
@@ -5407,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "gram",
           "package": "dimensional",
@@ -5419,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "gray",
           "package": "dimensional",
@@ -5428,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "gray",
           "package": "dimensional",
@@ -5440,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "hecto",
           "package": "dimensional",
@@ -5449,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "hecto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5463,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "henry",
           "package": "dimensional",
@@ -5472,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "henry",
           "package": "dimensional",
@@ -5484,6 +5998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "hertz",
           "package": "dimensional",
@@ -5493,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "hertz",
           "package": "dimensional",
@@ -5505,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "hour",
           "package": "dimensional",
@@ -5514,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "hour",
           "package": "dimensional",
@@ -5526,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "joule",
           "package": "dimensional",
@@ -5535,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "joule",
           "package": "dimensional",
@@ -5547,6 +6067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "kelvin",
           "package": "dimensional",
@@ -5556,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "kelvin",
           "package": "dimensional",
@@ -5568,6 +6090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "kilo",
           "package": "dimensional",
@@ -5577,6 +6100,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "kilo",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5591,6 +6115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "liter",
           "package": "dimensional",
@@ -5600,6 +6125,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "liter",
           "package": "dimensional",
@@ -5612,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "litre",
           "package": "dimensional",
@@ -5621,6 +6148,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "litre",
           "package": "dimensional",
@@ -5633,6 +6161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "lumen",
           "package": "dimensional",
@@ -5642,6 +6171,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "lumen",
           "package": "dimensional",
@@ -5654,6 +6184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "lux",
           "package": "dimensional",
@@ -5663,6 +6194,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "lux",
           "package": "dimensional",
@@ -5675,6 +6207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "mega",
           "package": "dimensional",
@@ -5684,6 +6217,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "mega",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5698,6 +6232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "meter",
           "package": "dimensional",
@@ -5707,6 +6242,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "meter",
           "package": "dimensional",
@@ -5719,6 +6255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "metre",
           "package": "dimensional",
@@ -5728,6 +6265,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "metre",
           "package": "dimensional",
@@ -5740,6 +6278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "metricTon",
           "package": "dimensional",
@@ -5749,6 +6288,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "metricTon",
           "package": "dimensional",
@@ -5762,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "micro",
           "package": "dimensional",
@@ -5771,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "micro",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5785,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "milli",
           "package": "dimensional",
@@ -5794,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "milli",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5808,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "minute",
           "package": "dimensional",
@@ -5817,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "minute",
           "package": "dimensional",
@@ -5829,6 +6375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "minuteOfArc",
           "package": "dimensional",
@@ -5838,6 +6385,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "minuteOfArc",
           "package": "dimensional",
@@ -5851,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "mole",
           "package": "dimensional",
@@ -5860,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "mole",
           "package": "dimensional",
@@ -5872,6 +6422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "nano",
           "package": "dimensional",
@@ -5881,6 +6432,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "nano",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5895,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "newton",
           "package": "dimensional",
@@ -5904,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "newton",
           "package": "dimensional",
@@ -5916,6 +6470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "ohm",
           "package": "dimensional",
@@ -5925,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "ohm",
           "package": "dimensional",
@@ -5937,6 +6493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "pascal",
           "package": "dimensional",
@@ -5946,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "pascal",
           "package": "dimensional",
@@ -5958,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "peta",
           "package": "dimensional",
@@ -5967,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "peta",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -5981,6 +6541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "pico",
           "package": "dimensional",
@@ -5990,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "pico",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -6004,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "radian",
           "package": "dimensional",
@@ -6013,6 +6576,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "radian",
           "package": "dimensional",
@@ -6025,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "second",
           "package": "dimensional",
@@ -6034,6 +6599,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "second",
           "package": "dimensional",
@@ -6046,6 +6612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "secondOfArc",
           "package": "dimensional",
@@ -6055,6 +6622,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "secondOfArc",
           "package": "dimensional",
@@ -6068,6 +6636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "siemens",
           "package": "dimensional",
@@ -6077,6 +6646,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "siemens",
           "package": "dimensional",
@@ -6089,6 +6659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "sievert",
           "package": "dimensional",
@@ -6098,6 +6669,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "sievert",
           "package": "dimensional",
@@ -6110,6 +6682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "steradian",
           "package": "dimensional",
@@ -6119,6 +6692,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "steradian",
           "package": "dimensional",
@@ -6131,6 +6705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "tera",
           "package": "dimensional",
@@ -6140,6 +6715,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "tera",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -6154,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "tesla",
           "package": "dimensional",
@@ -6163,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "tesla",
           "package": "dimensional",
@@ -6175,6 +6753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "toDegreeCelsiusAbsolute",
           "package": "dimensional",
@@ -6184,6 +6763,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "toDegreeCelsiusAbsolute",
           "normalized": "ThermodynamicTemperature a-\u003ea",
@@ -6199,6 +6779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "toDiffTime",
           "package": "dimensional",
@@ -6208,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "toDiffTime",
           "normalized": "Time a-\u003eDiffTime",
@@ -6223,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "tonne",
           "package": "dimensional",
@@ -6232,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "tonne",
           "package": "dimensional",
@@ -6244,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "volt",
           "package": "dimensional",
@@ -6253,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "volt",
           "package": "dimensional",
@@ -6265,6 +6851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "watt",
           "package": "dimensional",
@@ -6274,6 +6861,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "watt",
           "package": "dimensional",
@@ -6286,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "weber",
           "package": "dimensional",
@@ -6295,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "weber",
           "package": "dimensional",
@@ -6307,6 +6897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "yocto",
           "package": "dimensional",
@@ -6316,6 +6907,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "yocto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -6330,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "yotta",
           "package": "dimensional",
@@ -6339,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "yotta",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -6353,6 +6947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "zepto",
           "package": "dimensional",
@@ -6362,6 +6957,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "zepto",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -6376,6 +6972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "zetta",
           "package": "dimensional",
@@ -6385,6 +6982,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional SIUnits",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional.SIUnits",
           "name": "zetta",
           "normalized": "Unit a b-\u003eUnit a b",
@@ -6400,6 +6998,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlease refer to the literate Haskell code for documentation of both API\n  and implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Dimensional",
           "package": "dimensional",
@@ -6409,6 +7008,7 @@
         "index": {
           "description": "Please refer to the literate Haskell code for documentation of both API and implementation",
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Dimensional",
           "package": "dimensional",
@@ -6422,6 +7022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "AmountOfSubstance",
           "package": "dimensional",
@@ -6430,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "AmountOfSubstance",
           "package": "dimensional",
@@ -6443,6 +7045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DAmountOfSubstance",
           "package": "dimensional",
@@ -6451,6 +7054,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DAmountOfSubstance",
           "package": "dimensional",
@@ -6464,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DElectricCurrent",
           "package": "dimensional",
@@ -6472,6 +7077,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DElectricCurrent",
           "package": "dimensional",
@@ -6485,6 +7091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DLength",
           "package": "dimensional",
@@ -6493,6 +7100,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DLength",
           "package": "dimensional",
@@ -6506,6 +7114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DLuminousIntensity",
           "package": "dimensional",
@@ -6514,6 +7123,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DLuminousIntensity",
           "package": "dimensional",
@@ -6527,6 +7137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DMass",
           "package": "dimensional",
@@ -6535,6 +7146,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DMass",
           "package": "dimensional",
@@ -6548,6 +7160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DOne",
           "package": "dimensional",
@@ -6556,6 +7169,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DOne",
           "package": "dimensional",
@@ -6569,6 +7183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DQuantity",
           "package": "dimensional",
@@ -6577,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DQuantity",
           "package": "dimensional",
@@ -6590,6 +7206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DThermodynamicTemperature",
           "package": "dimensional",
@@ -6598,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DThermodynamicTemperature",
           "package": "dimensional",
@@ -6611,6 +7229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DTime",
           "package": "dimensional",
@@ -6619,6 +7238,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DTime",
           "package": "dimensional",
@@ -6632,6 +7252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "DUnit",
           "package": "dimensional",
@@ -6640,6 +7261,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "DUnit",
           "package": "dimensional",
@@ -6653,6 +7275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Dim",
           "package": "dimensional",
@@ -6661,6 +7284,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Dim",
           "package": "dimensional",
@@ -6674,6 +7298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Dimensional",
           "package": "dimensional",
@@ -6682,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Dimensional",
           "package": "dimensional",
@@ -6695,6 +7321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Dimensionless",
           "package": "dimensional",
@@ -6703,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Dimensionless",
           "package": "dimensional",
@@ -6716,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Div",
           "package": "dimensional",
@@ -6724,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Div",
           "package": "dimensional",
@@ -6737,6 +7367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "ElectricCurrent",
           "package": "dimensional",
@@ -6745,6 +7376,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "ElectricCurrent",
           "package": "dimensional",
@@ -6758,6 +7390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Length",
           "package": "dimensional",
@@ -6766,6 +7399,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Length",
           "package": "dimensional",
@@ -6779,6 +7413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "LuminousIntensity",
           "package": "dimensional",
@@ -6787,6 +7422,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "LuminousIntensity",
           "package": "dimensional",
@@ -6800,6 +7436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Mass",
           "package": "dimensional",
@@ -6808,6 +7445,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Mass",
           "package": "dimensional",
@@ -6821,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Mul",
           "package": "dimensional",
@@ -6829,6 +7468,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Mul",
           "package": "dimensional",
@@ -6842,6 +7482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Pow",
           "package": "dimensional",
@@ -6850,6 +7491,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Pow",
           "package": "dimensional",
@@ -6863,6 +7505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Quantity",
           "package": "dimensional",
@@ -6871,6 +7514,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Quantity",
           "package": "dimensional",
@@ -6884,6 +7528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Root",
           "package": "dimensional",
@@ -6892,6 +7537,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Root",
           "package": "dimensional",
@@ -6905,6 +7551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "ThermodynamicTemperature",
           "package": "dimensional",
@@ -6913,6 +7560,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "ThermodynamicTemperature",
           "package": "dimensional",
@@ -6926,6 +7574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Time",
           "package": "dimensional",
@@ -6934,6 +7583,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Time",
           "package": "dimensional",
@@ -6947,6 +7597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Unit",
           "package": "dimensional",
@@ -6955,6 +7606,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Unit",
           "package": "dimensional",
@@ -6968,6 +7620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(*)",
           "package": "dimensional",
@@ -6977,6 +7630,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(*) *",
           "normalized": "Dimensional a b c-\u003eDimensional a d c-\u003eDimensional a e c",
@@ -6991,6 +7645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(*~)",
           "package": "dimensional",
@@ -7000,6 +7655,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(*~) *~",
           "normalized": "a-\u003eUnit b a-\u003eQuantity b a",
@@ -7014,6 +7670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(*~~)",
           "package": "dimensional",
@@ -7023,6 +7680,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(*~~) *~~",
           "normalized": "a b-\u003eUnit c b-\u003ea(Quantity c b)",
@@ -7037,6 +7695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(**)",
           "package": "dimensional",
@@ -7046,6 +7705,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(**) **",
           "normalized": "Dimensionless a-\u003eDimensionless a-\u003eDimensionless a",
@@ -7060,6 +7720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(+)",
           "package": "dimensional",
@@ -7069,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(+) +",
           "normalized": "Quantity a b-\u003eQuantity a b-\u003eQuantity a b",
@@ -7083,6 +7745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(-)",
           "package": "dimensional",
@@ -7092,6 +7755,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(-) -",
           "normalized": "Quantity a b-\u003eQuantity a b-\u003eQuantity a b",
@@ -7106,6 +7770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(/)",
           "package": "dimensional",
@@ -7115,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(/) /",
           "normalized": "Dimensional a b c-\u003eDimensional a d c-\u003eDimensional a e c",
@@ -7129,6 +7795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(/~)",
           "package": "dimensional",
@@ -7138,6 +7805,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(/~) /~",
           "normalized": "Quantity a b-\u003eUnit a b-\u003eb",
@@ -7152,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(/~~)",
           "package": "dimensional",
@@ -7161,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(/~~) /~~",
           "normalized": "a(Quantity b c)-\u003eUnit b c-\u003ea c",
@@ -7175,6 +7845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(^)",
           "package": "dimensional",
@@ -7184,6 +7855,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(^) ^",
           "normalized": "Dimensional a b c-\u003ed-\u003eDimensional a e c",
@@ -7198,6 +7870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(^+)",
           "package": "dimensional",
@@ -7207,6 +7880,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(^+) ^+",
           "normalized": "Dimensional a b c-\u003ed-\u003eDimensional a e c",
@@ -7221,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "(^/)",
           "package": "dimensional",
@@ -7230,6 +7905,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "(^/) ^/",
           "normalized": "Dimensional a b c-\u003ed-\u003eDimensional a e c",
@@ -7244,6 +7920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "Dimensional",
           "package": "dimensional",
@@ -7253,6 +7930,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "Dimensional",
           "package": "dimensional",
@@ -7266,6 +7944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_0",
           "package": "dimensional",
@@ -7275,6 +7954,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_0",
           "package": "dimensional",
@@ -7287,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_1",
           "package": "dimensional",
@@ -7296,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_1",
           "package": "dimensional",
@@ -7308,6 +7990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_2",
           "package": "dimensional",
@@ -7317,6 +8000,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_2",
           "package": "dimensional",
@@ -7329,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_3",
           "package": "dimensional",
@@ -7338,6 +8023,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_3",
           "package": "dimensional",
@@ -7350,6 +8036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_4",
           "package": "dimensional",
@@ -7359,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_4",
           "package": "dimensional",
@@ -7371,6 +8059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_5",
           "package": "dimensional",
@@ -7380,6 +8069,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_5",
           "package": "dimensional",
@@ -7392,6 +8082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_6",
           "package": "dimensional",
@@ -7401,6 +8092,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_6",
           "package": "dimensional",
@@ -7413,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_7",
           "package": "dimensional",
@@ -7422,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_7",
           "package": "dimensional",
@@ -7434,6 +8128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_8",
           "package": "dimensional",
@@ -7443,6 +8138,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_8",
           "package": "dimensional",
@@ -7455,6 +8151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "_9",
           "package": "dimensional",
@@ -7464,6 +8161,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "_9",
           "package": "dimensional",
@@ -7476,6 +8174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "abs",
           "package": "dimensional",
@@ -7485,6 +8184,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "abs",
           "normalized": "Quantity a b-\u003eQuantity a b",
@@ -7499,6 +8199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "acos",
           "package": "dimensional",
@@ -7508,6 +8209,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "acos",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7522,6 +8224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "acosh",
           "package": "dimensional",
@@ -7531,6 +8234,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "acosh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7545,6 +8249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "asin",
           "package": "dimensional",
@@ -7554,6 +8259,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "asin",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7568,6 +8274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "asinh",
           "package": "dimensional",
@@ -7577,6 +8284,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "asinh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7591,6 +8299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "atan",
           "package": "dimensional",
@@ -7600,6 +8309,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "atan",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7614,6 +8324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "atan2",
           "package": "dimensional",
@@ -7623,6 +8334,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "atan2",
           "normalized": "Quantity a b-\u003eQuantity a b-\u003eDimensionless b",
@@ -7637,6 +8349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "atanh",
           "package": "dimensional",
@@ -7646,6 +8359,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "atanh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7660,6 +8374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "cbrt",
           "package": "dimensional",
@@ -7669,6 +8384,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "cbrt",
           "normalized": "Dimensional a b c-\u003eDimensional a d c",
@@ -7683,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "cos",
           "package": "dimensional",
@@ -7692,6 +8409,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "cos",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7706,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "cosh",
           "package": "dimensional",
@@ -7715,6 +8434,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "cosh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7729,6 +8449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "dimUnit",
           "package": "dimensional",
@@ -7738,6 +8459,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "dimUnit",
           "normalized": "String-\u003ea-\u003eMaybe String",
@@ -7753,6 +8475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "dimensionlessLength",
           "package": "dimensional",
@@ -7762,6 +8485,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "dimensionlessLength",
           "normalized": "[Dimensional a b c]-\u003eDimensionless c",
@@ -7777,6 +8501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "exp",
           "package": "dimensional",
@@ -7786,6 +8511,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "exp",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7800,6 +8526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "log",
           "package": "dimensional",
@@ -7809,6 +8536,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "log",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7823,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "negate",
           "package": "dimensional",
@@ -7832,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "negate",
           "normalized": "Quantity a b-\u003eQuantity a b",
@@ -7846,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "nroot",
           "package": "dimensional",
@@ -7855,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "nroot",
           "normalized": "a-\u003eDimensional b c d-\u003eDimensional b e d",
@@ -7869,6 +8601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "one",
           "package": "dimensional",
@@ -7878,6 +8611,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "one",
           "package": "dimensional",
@@ -7890,6 +8624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "pi",
           "package": "dimensional",
@@ -7899,6 +8634,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "pi",
           "package": "dimensional",
@@ -7911,6 +8647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "prefix",
           "package": "dimensional",
@@ -7920,6 +8657,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "prefix",
           "normalized": "a-\u003eUnit b a-\u003eUnit b a",
@@ -7934,6 +8672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "sin",
           "package": "dimensional",
@@ -7943,6 +8682,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "sin",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7957,6 +8697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "sinh",
           "package": "dimensional",
@@ -7966,6 +8707,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "sinh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -7980,6 +8722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "sqrt",
           "package": "dimensional",
@@ -7989,6 +8732,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "sqrt",
           "normalized": "Dimensional a b c-\u003eDimensional a d c",
@@ -8003,6 +8747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "sum",
           "package": "dimensional",
@@ -8012,6 +8757,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "sum",
           "normalized": "[Quantity a b]-\u003eQuantity a b",
@@ -8026,6 +8772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "tan",
           "package": "dimensional",
@@ -8035,6 +8782,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "tan",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -8049,6 +8797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "tanh",
           "package": "dimensional",
@@ -8058,6 +8807,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "tanh",
           "normalized": "Dimensionless a-\u003eDimensionless a",
@@ -8072,6 +8822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:39 UTC 2014",
           "module": "Numeric.Units.Dimensional",
           "name": "tau",
           "package": "dimensional",
@@ -8081,6 +8832,7 @@
         },
         "index": {
           "hierarchy": "Numeric Units Dimensional",
+          "indexed": "2014-03-11T17:55:39",
           "module": "Numeric.Units.Dimensional",
           "name": "tau",
           "package": "dimensional",

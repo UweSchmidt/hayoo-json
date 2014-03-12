@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-processmanager"
+        "phrase": "manatee-processmanager",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ot"
+        "phrase": "ot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "Client",
           "package": "ot",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "Client",
           "package": "ot",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt every moment, the client is in one of three states.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "ClientState",
           "package": "ot",
@@ -49,6 +52,7 @@
         "index": {
           "description": "At every moment the client is in one of three states",
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "ClientState",
           "package": "ot",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the client's operations have been acknowledged by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "ClientSynchronized",
           "package": "ot",
@@ -73,6 +78,7 @@
         "index": {
           "description": "All of the client operations have been acknowledged by the server",
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "ClientSynchronized",
           "package": "ot",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe client has sent an operation to the server and it is still waiting\n for an acknowledgement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "ClientWaiting",
           "package": "ot",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The client has sent an operation to the server and it is still waiting for an acknowledgement",
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "ClientWaiting",
           "package": "ot",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe client is waiting for an acknowledgement for a pending operation and\n the client is buffering local changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "ClientWaitingWithBuffer",
           "package": "ot",
@@ -121,6 +130,7 @@
         "index": {
           "description": "The client is waiting for an acknowledgement for pending operation and the client is buffering local changes",
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "ClientWaitingWithBuffer",
           "package": "ot",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle user-generated operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "applyClient",
           "package": "ot",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Handle user-generated operations",
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "applyClient",
           "normalized": "ClientState a-\u003ea-\u003eEither String(Bool,ClientState a)",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle incoming operations from the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "applyServer",
           "package": "ot",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Handle incoming operations from the server",
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "applyServer",
           "normalized": "ClientState a-\u003ea-\u003eEither String(a,ClientState a)",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state a newly connected client starts in (synonym for\n \u003ccode\u003e\u003ca\u003eClientSynchronized\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "initialClientState",
           "package": "ot",
@@ -195,6 +210,7 @@
         "index": {
           "description": "The state newly connected client starts in synonym for ClientSynchronized",
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "initialClientState",
           "package": "ot",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle acknowledgements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Client",
           "name": "serverAck",
           "package": "ot",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Handle acknowledgements",
           "hierarchy": "Control OperationalTransformation Client",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Client",
           "name": "serverAck",
           "normalized": "ClientState a-\u003eMaybe(Maybe a,ClientState a)",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Properties",
           "name": "Properties",
           "package": "ot",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Properties",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Properties",
           "name": "Properties",
           "package": "ot",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(b &#8728; a)(d) = a(b(d))\u003c/code\u003e where \u003cem\u003ea\u003c/em\u003e and \u003cem\u003eb\u003c/em\u003e are two consecutive operations\n and \u003cem\u003ed\u003c/em\u003e is the initial document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Properties",
           "name": "prop_compose_apply",
           "package": "ot",
@@ -265,6 +286,7 @@
         "index": {
           "description": "where and are two consecutive operations and is the initial document",
           "hierarchy": "Control OperationalTransformation Properties",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Properties",
           "name": "prop_compose_apply",
           "normalized": "(a-\u003eGen b)-\u003eProperty",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eb'(a(d)) = b'(a(d))\u003c/code\u003e&#160;where \u003cem\u003ea\u003c/em\u003e and \u003cem\u003eb\u003c/em\u003e are random operations, \u003cem\u003ed\u003c/em\u003e is the\n initial document and \u003ccode\u003e(a', b') = transform(a, b)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Properties",
           "name": "prop_transform_apply",
           "package": "ot",
@@ -290,6 +313,7 @@
         "index": {
           "description": "where and are random operations is the initial document and transform",
           "hierarchy": "Control OperationalTransformation Properties",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Properties",
           "name": "prop_transform_apply",
           "normalized": "(a-\u003eGen b)-\u003eProperty",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Server",
           "name": "Server",
           "package": "ot",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Server",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Server",
           "name": "Server",
           "package": "ot",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Server",
           "name": "Revision",
           "package": "ot",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Server",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Server",
           "name": "Revision",
           "package": "ot",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server keeps the current revision number and a list of previous\n operations to transform incoming operations against.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Server",
           "name": "ServerState",
           "package": "ot",
@@ -356,6 +385,7 @@
         "index": {
           "description": "The server keeps the current revision number and list of previous operations to transform incoming operations against",
           "hierarchy": "Control OperationalTransformation Server",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Server",
           "name": "ServerState",
           "package": "ot",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Server",
           "name": "ServerState",
           "package": "ot",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Server",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Server",
           "name": "ServerState",
           "normalized": "ServerState Revision a[b]",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandles incoming operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Server",
           "name": "applyOperation",
           "package": "ot",
@@ -403,6 +436,7 @@
         "index": {
           "description": "Handles incoming operations",
           "hierarchy": "Control OperationalTransformation Server",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Server",
           "name": "applyOperation",
           "normalized": "ServerState a b-\u003eRevision-\u003eb-\u003eEither String(b,ServerState a b)",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Server",
           "name": "initialServerState",
           "package": "ot",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Server",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Server",
           "name": "initialServerState",
           "normalized": "a-\u003eServerState a b",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "Text",
           "package": "ot",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "Text",
           "package": "ot",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action changes the text at the current position or advances the cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "Action",
           "package": "ot",
@@ -473,6 +512,7 @@
         "index": {
           "description": "An action changes the text at the current position or advances the cursor",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "Action",
           "package": "ot",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operation bundled with the cursor position after the operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "AugmentedTextOperation",
           "package": "ot",
@@ -496,6 +537,7 @@
         "index": {
           "description": "An operation bundled with the cursor position after the operation",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "AugmentedTextOperation",
           "package": "ot",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cursor has a \u003ccode\u003e\u003ca\u003ecursorPosition\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003ecursorSelectionEnd\u003c/a\u003e\u003c/code\u003e. Both are\n zero-based indexes into the document. When nothing is selected,\n \u003ccode\u003e\u003ca\u003ecursorSelectionEnd\u003c/a\u003e\u003c/code\u003e is equal to \u003ccode\u003e\u003ca\u003ecursorPosition\u003c/a\u003e\u003c/code\u003e. When there is a selection,\n \u003ccode\u003e\u003ca\u003ecursorPosition\u003c/a\u003e\u003c/code\u003e is always the side of the selection that would move if you\n pressed an arrow key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "Cursor",
           "package": "ot",
@@ -519,6 +562,7 @@
         "index": {
           "description": "cursor has cursorPosition and cursorSelectionEnd Both are zero-based indexes into the document When nothing is selected cursorSelectionEnd is equal to cursorPosition When there is selection cursorPosition is always the side of the selection that would move if you pressed an arrow key",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "Cursor",
           "package": "ot",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn edit on plain text documents. An operation consists of multiple actions\n that change the document at the current cursor position or advance the\n cursor. After applying all actions, the cursor must be at the end of the\n document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "TextOperation",
           "package": "ot",
@@ -542,6 +587,7 @@
         "index": {
           "description": "An edit on plain text documents An operation consists of multiple actions that change the document at the current cursor position or advance the cursor After applying all actions the cursor must be at the end of the document",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "TextOperation",
           "package": "ot",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "AugmentedTextOperation",
           "package": "ot",
@@ -564,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "AugmentedTextOperation",
           "package": "ot",
@@ -577,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "Cursor",
           "package": "ot",
@@ -586,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "Cursor",
           "package": "ot",
@@ -600,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the next n characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "Delete",
           "package": "ot",
@@ -610,6 +661,7 @@
         "index": {
           "description": "Delete the next characters",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "Delete",
           "package": "ot",
@@ -624,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert the given text at the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "Insert",
           "package": "ot",
@@ -634,6 +687,7 @@
         "index": {
           "description": "Insert the given text at the current position",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "Insert",
           "package": "ot",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip the next n characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "Retain",
           "package": "ot",
@@ -658,6 +713,7 @@
         "index": {
           "description": "Skip the next characters",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "Retain",
           "package": "ot",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "TextOperation",
           "package": "ot",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "TextOperation",
           "normalized": "TextOperation[Action]",
@@ -695,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "augmentedCursor",
           "package": "ot",
@@ -704,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "augmentedCursor",
           "package": "ot",
@@ -717,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "augmentedOperation",
           "package": "ot",
@@ -726,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "augmentedOperation",
           "package": "ot",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "cursorPosition",
           "package": "ot",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "cursorPosition",
           "package": "ot",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "cursorSelectionEnd",
           "package": "ot",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "cursorSelectionEnd",
           "package": "ot",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the inverse of an operation. Useful for implementing undo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "invertOperation",
           "package": "ot",
@@ -793,6 +860,7 @@
         "index": {
           "description": "Computes the inverse of an operation Useful for implementing undo",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "invertOperation",
           "normalized": "TextOperation-\u003eText-\u003eEither String TextOperation",
@@ -809,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate cursor with respect to an operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation.Text",
           "name": "updateCursor",
           "package": "ot",
@@ -819,6 +888,7 @@
         "index": {
           "description": "Update cursor with respect to an operation",
           "hierarchy": "Control OperationalTransformation Text",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation.Text",
           "name": "updateCursor",
           "normalized": "Cursor-\u003eTextOperation-\u003eCursor",
@@ -834,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation",
           "name": "OperationalTransformation",
           "package": "ot",
@@ -842,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation",
           "name": "OperationalTransformation",
           "package": "ot",
@@ -855,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation",
           "name": "OTComposableOperation",
           "package": "ot",
@@ -863,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation",
           "name": "OTComposableOperation",
           "package": "ot",
@@ -876,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation",
           "name": "OTOperation",
           "package": "ot",
@@ -884,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation",
           "name": "OTOperation",
           "package": "ot",
@@ -897,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation",
           "name": "OTSystem",
           "package": "ot",
@@ -905,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Control OperationalTransformation",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation",
           "name": "OTSystem",
           "package": "ot",
@@ -919,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an operation to a document, producing a new document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation",
           "name": "apply",
           "package": "ot",
@@ -929,6 +1008,7 @@
         "index": {
           "description": "Apply an operation to document producing new document",
           "hierarchy": "Control OperationalTransformation",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation",
           "name": "apply",
           "normalized": "a-\u003eb-\u003eEither String b",
@@ -944,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposes two operations \u003cem\u003ea\u003c/em\u003e and \u003cem\u003eb\u003c/em\u003e, producing \u003cem\u003ec\u003c/em\u003e, such that \u003cem\u003ec\u003c/em\u003e has the\n same effect when applied to a document as applying \u003cem\u003ea\u003c/em\u003e and \u003cem\u003eb\u003c/em\u003e one after\n another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation",
           "name": "compose",
           "package": "ot",
@@ -954,6 +1035,7 @@
         "index": {
           "description": "Composes two operations and producing such that has the same effect when applied to document as applying and one after another",
           "hierarchy": "Control OperationalTransformation",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation",
           "name": "compose",
           "normalized": "a-\u003ea-\u003eEither String a",
@@ -969,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms two concurrent operations \u003cem\u003ea\u003c/em\u003e and \u003cem\u003eb\u003c/em\u003e, producing \u003cem\u003ea'\u003c/em\u003e and \u003cem\u003eb'\u003c/em\u003e \n such that \u003ccode\u003eb' &#8728; a == a' &#8728; b\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:14 UTC 2014",
           "module": "Control.OperationalTransformation",
           "name": "transform",
           "package": "ot",
@@ -979,6 +1062,7 @@
         "index": {
           "description": "Transforms two concurrent operations and producing and such that",
           "hierarchy": "Control OperationalTransformation",
+          "indexed": "2014-03-11T19:33:14",
           "module": "Control.OperationalTransformation",
           "name": "transform",
           "normalized": "a-\u003ea-\u003eEither String(a,a)",

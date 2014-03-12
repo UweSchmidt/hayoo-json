@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-src-meta"
+        "phrase": "haskell-src-meta",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the tools to handle operator fixities in infix expressions correctly.\n\u003c/p\u003e\u003cp\u003eThe problem we solve is the following. Consider making a quasiquoter which antiquotes to Haskell - for instance, the quasiquoter in \u003ca\u003ehttp://hackage.haskell.org/package/hmatrix-static\u003c/a\u003e allows me to write\n\u003c/p\u003e\u003cpre\u003e myVec :: Vector Double\n myVec = [vec| 2+3*4, 5-4-3 |]\n\u003c/pre\u003e\u003cp\u003eTo correctly parse such expressions, we need to know the fixities and precedences of the operators, so that the above is parsed the same way as\n\u003c/p\u003e\u003cpre\u003e myVec = [vec| 2+(3*4), (5-4)-3 |]\n\u003c/pre\u003e\u003cp\u003eThere is a danger, if we are not careful in parsing, that the above expression instead parses as\n\u003c/p\u003e\u003cpre\u003e myVec = [vec| (2+3)*4, 5-(4-3) |]\n\u003c/pre\u003e\u003cp\u003ewhich is a surprising bug, and would only be detected through testing at runtime, rather than at compile time.\n\u003c/p\u003e\u003cp\u003eWhen this danger arises, we use this \"careful\" module. It handles \"unresolved infix\" expressions such as \u003ccode\u003e2+3*4\u003c/code\u003e in two ways, depending on the version of GHC:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e in GHC 7.4 and above (where support for \"unresolved infix\" was added in Template Haskell), resolution of the infix expression is deferred to the compiler, which has all fixities available to it.\n\u003c/li\u003e\u003cli\u003e prior to GHC 7.4, any ambiguous infix expression is flagged as a parse error at compile time, and the user is advised to resolve the ambiguity by adding parentheses.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "Careful",
           "package": "haskell-src-meta",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the tools to handle operator fixities in infix expressions correctly The problem we solve is the following Consider making quasiquoter which antiquotes to Haskell for instance the quasiquoter in http hackage.haskell.org package hmatrix-static allows me to write myVec Vector Double myVec vec To correctly parse such expressions we need to know the fixities and precedences of the operators so that the above is parsed the same way as myVec vec There is danger if we are not careful in parsing that the above expression instead parses as myVec vec which is surprising bug and would only be detected through testing at runtime rather than at compile time When this danger arises we use this careful module It handles unresolved infix expressions such as in two ways depending on the version of GHC in GHC and above where support for unresolved infix was added in Template Haskell resolution of the infix expression is deferred to the compiler which has all fixities available to it prior to GHC any ambiguous infix expression is flagged as parse error at compile time and the user is advised to resolve the ambiguity by adding parentheses",
           "hierarchy": "Language Haskell Meta Parse Careful",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "Careful",
           "package": "haskell-src-meta",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "parseDecs",
           "package": "haskell-src-meta",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse Careful",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "parseDecs",
           "normalized": "String-\u003eEither String[Dec]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "parseExp",
           "package": "haskell-src-meta",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse Careful",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "parseExp",
           "normalized": "String-\u003eEither String Exp",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "parsePat",
           "package": "haskell-src-meta",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse Careful",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "parsePat",
           "normalized": "String-\u003eEither String Pat",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "parseType",
           "package": "haskell-src-meta",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse Careful",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse.Careful",
           "name": "parseType",
           "normalized": "String-\u003eEither String Type",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "Parse",
           "package": "haskell-src-meta",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "Parse",
           "package": "haskell-src-meta",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "emptyHsModule",
           "package": "haskell-src-meta",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "emptyHsModule",
           "normalized": "String-\u003eModule",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "emptySrcLoc",
           "package": "haskell-src-meta",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "emptySrcLoc",
           "package": "haskell-src-meta",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "moduleDecls",
           "package": "haskell-src-meta",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "moduleDecls",
           "normalized": "Module-\u003e[Decl]",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: The provided ParseModes aren't very meaningful, use your own instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "myDefaultExtensions",
           "package": "haskell-src-meta",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Deprecated The provided ParseModes aren very meaningful use your own instead",
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "myDefaultExtensions",
           "normalized": "[KnownExtension]",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: The provided ParseModes aren't very meaningful, use your own instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "myDefaultParseMode",
           "package": "haskell-src-meta",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Deprecated The provided ParseModes aren very meaningful use your own instead",
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "myDefaultParseMode",
           "package": "haskell-src-meta",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseDecs",
           "package": "haskell-src-meta",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseDecs",
           "normalized": "String-\u003eEither String[Dec]",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseExp",
           "package": "haskell-src-meta",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseExp",
           "normalized": "String-\u003eEither String Exp",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsDecls",
           "package": "haskell-src-meta",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsDecls",
           "normalized": "String-\u003eEither String[Decl]",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsExp",
           "package": "haskell-src-meta",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsExp",
           "normalized": "String-\u003eEither String Exp",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsModule",
           "package": "haskell-src-meta",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsModule",
           "normalized": "String-\u003eEither String Module",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsPat",
           "package": "haskell-src-meta",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsPat",
           "normalized": "String-\u003eEither String Pat",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsType",
           "package": "haskell-src-meta",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseHsType",
           "normalized": "String-\u003eEither String Type",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parsePat",
           "package": "haskell-src-meta",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parsePat",
           "normalized": "String-\u003eEither String Pat",
@@ -470,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseResultToEither",
           "package": "haskell-src-meta",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseResultToEither",
           "normalized": "ParseResult a-\u003eEither String a",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseType",
           "package": "haskell-src-meta",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "parseType",
           "normalized": "String-\u003eEither String Type",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Parse",
           "name": "pprHsModule",
           "package": "haskell-src-meta",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Parse",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Parse",
           "name": "pprHsModule",
           "normalized": "Module-\u003eString",
@@ -542,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "Translate",
           "package": "haskell-src-meta",
@@ -550,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "Translate",
           "package": "haskell-src-meta",
@@ -563,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToDec",
           "package": "haskell-src-meta",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToDec",
           "package": "haskell-src-meta",
@@ -584,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToDecs",
           "package": "haskell-src-meta",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToDecs",
           "package": "haskell-src-meta",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToExp",
           "package": "haskell-src-meta",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToExp",
           "package": "haskell-src-meta",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToLit",
           "package": "haskell-src-meta",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToLit",
           "package": "haskell-src-meta",
@@ -647,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToLoc",
           "package": "haskell-src-meta",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToLoc",
           "package": "haskell-src-meta",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToName",
           "package": "haskell-src-meta",
@@ -676,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToName",
           "package": "haskell-src-meta",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToPat",
           "package": "haskell-src-meta",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToPat",
           "package": "haskell-src-meta",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToStmt",
           "package": "haskell-src-meta",
@@ -718,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToStmt",
           "package": "haskell-src-meta",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToType",
           "package": "haskell-src-meta",
@@ -739,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "ToType",
           "package": "haskell-src-meta",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "(.-\u003e.)",
           "package": "haskell-src-meta",
@@ -761,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "(.-\u003e.) .-\u003e.",
           "normalized": "Type-\u003eType-\u003eType",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "bangToStrictType",
           "package": "haskell-src-meta",
@@ -784,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "bangToStrictType",
           "normalized": "BangType-\u003eStrictType",
@@ -799,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "bangToVarStrictTypes",
           "package": "haskell-src-meta",
@@ -808,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "bangToVarStrictTypes",
           "normalized": "[Name]-\u003eBangType-\u003e[VarStrictType]",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "collectVars",
           "package": "haskell-src-meta",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "collectVars",
           "normalized": "Type-\u003e[TyVarBndr]",
@@ -847,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "conDeclToCon",
           "package": "haskell-src-meta",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "conDeclToCon",
           "normalized": "ConDecl-\u003eCon",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "fixForall",
           "package": "haskell-src-meta",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "fixForall",
           "normalized": "Type-\u003eType",
@@ -895,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "foldAppT",
           "package": "haskell-src-meta",
@@ -904,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "foldAppT",
           "normalized": "Type-\u003e[Type]-\u003eType",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsBangTypeToStrictType",
           "package": "haskell-src-meta",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsBangTypeToStrictType",
           "normalized": "BangType-\u003e(Strict,Type)",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsBindsToDecs",
           "package": "haskell-src-meta",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsBindsToDecs",
           "normalized": "Binds-\u003e[Dec]",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsGuardedRhsToBody",
           "package": "haskell-src-meta",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsGuardedRhsToBody",
           "normalized": "GuardedRhs-\u003eBody",
@@ -991,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsMatchToClause",
           "package": "haskell-src-meta",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsMatchToClause",
           "normalized": "Match-\u003eClause",
@@ -1015,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsMatchesToFunD",
           "package": "haskell-src-meta",
@@ -1024,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsMatchesToFunD",
           "normalized": "[Match]-\u003eDec",
@@ -1039,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsRhsToBody",
           "package": "haskell-src-meta",
@@ -1048,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsRhsToBody",
           "normalized": "Rhs-\u003eBody",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsStmtToGuard",
           "package": "haskell-src-meta",
@@ -1072,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "hsStmtToGuard",
           "normalized": "Stmt-\u003eGuard",
@@ -1087,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "moduleName",
           "package": "haskell-src-meta",
@@ -1096,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "moduleName",
           "normalized": "[Char]",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "noTH",
           "package": "haskell-src-meta",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "noTH",
           "normalized": "String-\u003ea-\u003eb",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "noTHyet",
           "package": "haskell-src-meta",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "noTHyet",
           "normalized": "String-\u003eString-\u003ea-\u003eb",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "nonsense",
           "package": "haskell-src-meta",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "nonsense",
           "normalized": "String-\u003eString-\u003ea-\u003eb",
@@ -1182,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "qualConDeclToCon",
           "package": "haskell-src-meta",
@@ -1191,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "qualConDeclToCon",
           "normalized": "QualConDecl-\u003eCon",
@@ -1206,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toBody",
           "package": "haskell-src-meta",
@@ -1215,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toBody",
           "normalized": "GuardedAlts-\u003eBody",
@@ -1230,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toCxt",
           "package": "haskell-src-meta",
@@ -1239,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toCxt",
           "normalized": "Context-\u003eCxt",
@@ -1254,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toDec",
           "package": "haskell-src-meta",
@@ -1263,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toDec",
           "normalized": "a-\u003eDec",
@@ -1278,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toDecs",
           "package": "haskell-src-meta",
@@ -1287,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toDecs",
           "normalized": "a-\u003e[Dec]",
@@ -1302,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toExp",
           "package": "haskell-src-meta",
@@ -1311,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toExp",
           "normalized": "a-\u003eExp",
@@ -1326,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toFieldExp",
           "package": "haskell-src-meta",
@@ -1335,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toFieldExp",
           "normalized": "FieldUpdate-\u003eFieldExp",
@@ -1350,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toGuard",
           "package": "haskell-src-meta",
@@ -1359,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toGuard",
           "normalized": "GuardedAlt-\u003e(Guard,Exp)",
@@ -1374,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toKind",
           "package": "haskell-src-meta",
@@ -1383,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toKind",
           "normalized": "Kind-\u003eKind",
@@ -1398,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toLit",
           "package": "haskell-src-meta",
@@ -1407,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toLit",
           "normalized": "a-\u003eLit",
@@ -1422,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toLoc",
           "package": "haskell-src-meta",
@@ -1431,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toLoc",
           "normalized": "a-\u003eLoc",
@@ -1446,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toMatch",
           "package": "haskell-src-meta",
@@ -1455,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toMatch",
           "normalized": "Alt-\u003eMatch",
@@ -1470,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toName",
           "package": "haskell-src-meta",
@@ -1479,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toName",
           "normalized": "a-\u003eName",
@@ -1494,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toPat",
           "package": "haskell-src-meta",
@@ -1503,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toPat",
           "normalized": "a-\u003ePat",
@@ -1518,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toStmt",
           "package": "haskell-src-meta",
@@ -1527,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toStmt",
           "normalized": "a-\u003eStmt",
@@ -1542,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toTyVar",
           "package": "haskell-src-meta",
@@ -1551,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toTyVar",
           "normalized": "TyVarBind-\u003eTyVarBndr",
@@ -1566,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toType",
           "package": "haskell-src-meta",
@@ -1575,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "toType",
           "normalized": "a-\u003eType",
@@ -1590,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "todo",
           "package": "haskell-src-meta",
@@ -1599,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "todo",
           "normalized": "String-\u003ea-\u003eb",
@@ -1613,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "transAct",
           "package": "haskell-src-meta",
@@ -1622,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Syntax Translate",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Syntax.Translate",
           "name": "transAct",
           "normalized": "Activation-\u003ePhases",
@@ -1638,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a staging ground\n for to-be-organized-and-merged-nicely code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "Utils",
           "package": "haskell-src-meta",
@@ -1647,6 +1786,7 @@
         "index": {
           "description": "This module is staging ground for to-be-organized-and-merged-nicely code",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "Utils",
           "package": "haskell-src-meta",
@@ -1660,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "(|$|)",
           "package": "haskell-src-meta",
@@ -1669,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "(|$|) |$|",
           "normalized": "ExpQ-\u003eExpQ-\u003eExpQ",
@@ -1683,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "(|-\u003e|)",
           "package": "haskell-src-meta",
@@ -1692,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "(|-\u003e|) |-\u003e|",
           "normalized": "TypeQ-\u003eTypeQ-\u003eTypeQ",
@@ -1706,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "(|.|)",
           "package": "haskell-src-meta",
@@ -1715,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "(|.|) |.|",
           "normalized": "ExpQ-\u003eExpQ-\u003eExpQ",
@@ -1729,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "applyT",
           "package": "haskell-src-meta",
@@ -1738,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "applyT",
           "normalized": "Type-\u003eType-\u003eType",
@@ -1753,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arity of a Type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "arityT",
           "package": "haskell-src-meta",
@@ -1763,6 +1912,7 @@
         "index": {
           "description": "The arity of Type",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "arityT",
           "normalized": "Type-\u003eInt",
@@ -1777,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "cleanNames",
           "package": "haskell-src-meta",
@@ -1786,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "cleanNames",
           "normalized": "a-\u003ea",
@@ -1801,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "conName",
           "package": "haskell-src-meta",
@@ -1810,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "conName",
           "normalized": "Con-\u003eName",
@@ -1825,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "conToConType",
           "package": "haskell-src-meta",
@@ -1834,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "conToConType",
           "normalized": "Type-\u003eCon-\u003eType",
@@ -1849,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "conTypes",
           "package": "haskell-src-meta",
@@ -1858,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "conTypes",
           "normalized": "Con-\u003e[Type]",
@@ -1873,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "dataDCons",
           "package": "haskell-src-meta",
@@ -1882,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "dataDCons",
           "normalized": "Dec-\u003e[Con]",
@@ -1897,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "decCons",
           "package": "haskell-src-meta",
@@ -1906,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "decCons",
           "normalized": "Dec-\u003e[Con]",
@@ -1921,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "decName",
           "package": "haskell-src-meta",
@@ -1930,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "decName",
           "normalized": "Dec-\u003eMaybe Name",
@@ -1945,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "decTyVars",
           "package": "haskell-src-meta",
@@ -1954,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "decTyVars",
           "normalized": "Dec-\u003e[TyVarBndr]",
@@ -1969,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "eitherQ",
           "package": "haskell-src-meta",
@@ -1978,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "eitherQ",
           "normalized": "(a-\u003eString)-\u003eEither a b-\u003eQ b",
@@ -1992,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "foreignName",
           "package": "haskell-src-meta",
@@ -2001,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "foreignName",
           "normalized": "Foreign-\u003eName",
@@ -2016,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "fromDataConI",
           "package": "haskell-src-meta",
@@ -2025,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "fromDataConI",
           "normalized": "Info-\u003eQ(Maybe Exp)",
@@ -2040,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "fromTyConI",
           "package": "haskell-src-meta",
@@ -2049,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "fromTyConI",
           "normalized": "Info-\u003eMaybe Dec",
@@ -2064,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "functionT",
           "package": "haskell-src-meta",
@@ -2073,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "functionT",
           "normalized": "[TypeQ]-\u003eTypeQ",
@@ -2087,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "gpretty",
           "package": "haskell-src-meta",
@@ -2096,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "gpretty",
           "normalized": "a-\u003eString",
@@ -2110,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "mkClauseQ",
           "package": "haskell-src-meta",
@@ -2119,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "mkClauseQ",
           "normalized": "[PatQ]-\u003eExpQ-\u003eClauseQ",
@@ -2134,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "mkFunD",
           "package": "haskell-src-meta",
@@ -2143,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "mkFunD",
           "normalized": "Name-\u003e[Pat]-\u003eExp-\u003eDec",
@@ -2158,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "mkVarT",
           "package": "haskell-src-meta",
@@ -2167,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "mkVarT",
           "normalized": "String-\u003eTypeQ",
@@ -2183,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinite list of names composed of lowercase letters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "myNames",
           "package": "haskell-src-meta",
@@ -2193,6 +2378,7 @@
         "index": {
           "description": "Infinite list of names composed of lowercase letters",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "myNames",
           "normalized": "[Name]",
@@ -2209,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "nameSpaceOf",
           "package": "haskell-src-meta",
@@ -2219,6 +2406,7 @@
         "index": {
           "description": "Randomly useful",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "nameSpaceOf",
           "normalized": "Name-\u003eMaybe NameSpace",
@@ -2234,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "nameToRawCodeStr",
           "package": "haskell-src-meta",
@@ -2243,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "nameToRawCodeStr",
           "normalized": "Name-\u003eString",
@@ -2259,6 +2449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove qualification, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "normaliseName",
           "package": "haskell-src-meta",
@@ -2269,6 +2460,7 @@
         "index": {
           "description": "Remove qualification etc",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "normaliseName",
           "normalized": "Name-\u003eName",
@@ -2284,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "normalizeT",
           "package": "haskell-src-meta",
@@ -2293,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "normalizeT",
           "normalized": "a-\u003ea",
@@ -2307,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "pp",
           "package": "haskell-src-meta",
@@ -2316,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "pp",
           "normalized": "a-\u003eString",
@@ -2330,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "ppDoc",
           "package": "haskell-src-meta",
@@ -2339,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "ppDoc",
           "normalized": "a-\u003eDoc",
@@ -2355,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type passed in must have a \u003ccode\u003eShow\u003c/code\u003e instance which\n  produces a valid Haskell expression. Returns an empty\n  \u003ccode\u003eString\u003c/code\u003e if this is not the case. This is not TH-specific,\n  but useful in general.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "pretty",
           "package": "haskell-src-meta",
@@ -2365,6 +2564,7 @@
         "index": {
           "description": "The type passed in must have Show instance which produces valid Haskell expression Returns an empty String if this is not the case This is not TH-specific but useful in general",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "pretty",
           "normalized": "a-\u003eString",
@@ -2379,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "recCName",
           "package": "haskell-src-meta",
@@ -2388,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "recCName",
           "normalized": "Con-\u003eMaybe Name",
@@ -2404,6 +2606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename type variables in the Type according to the given association\n list. Normalise constructor names (remove qualification, etc.)\n If a name is not found in the association list, replace it with one from\n the fresh names list, and add this translation to the returned list.\n The fresh names list should be infinite; myNames is a good example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "renameT",
           "package": "haskell-src-meta",
@@ -2414,6 +2617,7 @@
         "index": {
           "description": "Rename type variables in the Type according to the given association list Normalise constructor names remove qualification etc If name is not found in the association list replace it with one from the fresh names list and add this translation to the returned list The fresh names list should be infinite myNames is good example",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "renameT",
           "normalized": "[(Name,Name)]-\u003e[Name]-\u003eType-\u003e(Type,[(Name,Name)],[Name])",
@@ -2429,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralisation of renameTs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "renameThings",
           "package": "haskell-src-meta",
@@ -2439,6 +2644,7 @@
         "index": {
           "description": "Generalisation of renameTs",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "renameThings",
           "normalized": "(a-\u003ea-\u003ea-\u003e(b,a,a))-\u003ea-\u003ea-\u003e[b]-\u003e[a]-\u003e([b],a,a)",
@@ -2455,6 +2661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erenameT applied to a list of types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "renameTs",
           "package": "haskell-src-meta",
@@ -2465,6 +2672,7 @@
         "index": {
           "description": "renameT applied to list of types",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "renameTs",
           "normalized": "[(Name,Name)]-\u003e[Name]-\u003e[Type]-\u003e[Type]-\u003e([Type],[(Name,Name)],[Name])",
@@ -2480,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "showToPatQ",
           "package": "haskell-src-meta",
@@ -2489,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "showToPatQ",
           "normalized": "a-\u003ePatQ",
@@ -2504,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "splitCon",
           "package": "haskell-src-meta",
@@ -2513,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "splitCon",
           "normalized": "Con-\u003e(Name,[Type])",
@@ -2528,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "strictTypeTy",
           "package": "haskell-src-meta",
@@ -2537,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "strictTypeTy",
           "normalized": "StrictType-\u003eType",
@@ -2552,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "substT",
           "package": "haskell-src-meta",
@@ -2561,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "substT",
           "normalized": "[(Name,Type)]-\u003e[Name]-\u003eType-\u003eType",
@@ -2576,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strategy for producing QuasiQuoters which\n  this datatype aims to facilitate is as follows.\n  Given a collection of datatypes which make up\n  the to-be-quasiquoted languages AST, make each\n  type in this collection an instance of at least\n  \u003ccode\u003eShow\u003c/code\u003e and \u003ccode\u003eLift\u003c/code\u003e. Now, assuming \u003ccode\u003eparsePat\u003c/code\u003e and\n  \u003ccode\u003eparseExp\u003c/code\u003e, both of type \u003ccode\u003eString -\u003e Q a\u003c/code\u003e (where \u003ccode\u003ea\u003c/code\u003e\n  is the top level type of the AST), are the pair of\n  functions you wish to use for parsing in pattern and\n  expression context respectively, put them inside\n  a \u003ccode\u003eQuoter\u003c/code\u003e datatype and pass this to quasify.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "toExpQ",
           "package": "haskell-src-meta",
@@ -2586,6 +2803,7 @@
         "index": {
           "description": "The strategy for producing QuasiQuoters which this datatype aims to facilitate is as follows Given collection of datatypes which make up the to-be-quasiquoted languages AST make each type in this collection an instance of at least Show and Lift Now assuming parsePat and parseExp both of type String where is the top level type of the AST are the pair of functions you wish to use for parsing in pattern and expression context respectively put them inside Quoter datatype and pass this to quasify",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "toExpQ",
           "normalized": "(String-\u003eQ a)-\u003eString-\u003eExpQ",
@@ -2601,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "toPatQ",
           "package": "haskell-src-meta",
@@ -2610,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "toPatQ",
           "normalized": "(String-\u003eQ a)-\u003eString-\u003ePatQ",
@@ -2625,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "typeToName",
           "package": "haskell-src-meta",
@@ -2634,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "typeToName",
           "normalized": "Type-\u003eMaybe Name",
@@ -2649,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "unForall",
           "package": "haskell-src-meta",
@@ -2658,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "unForall",
           "normalized": "Type-\u003eType",
@@ -2674,6 +2898,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eunsafeRunQ = unsafePerformIO . runQ\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "unsafeRunQ",
           "package": "haskell-src-meta",
@@ -2684,6 +2909,7 @@
         "index": {
           "description": "unsafeRunQ unsafePerformIO runQ",
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "unsafeRunQ",
           "normalized": "Q a-\u003ea",
@@ -2699,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "unwindE",
           "package": "haskell-src-meta",
@@ -2708,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "unwindE",
           "normalized": "Exp-\u003e[Exp]",
@@ -2722,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "unwindT",
           "package": "haskell-src-meta",
@@ -2731,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "unwindT",
           "normalized": "Type-\u003e[Type]",
@@ -2745,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta.Utils",
           "name": "varStrictTypeTy",
           "package": "haskell-src-meta",
@@ -2754,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta Utils",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta.Utils",
           "name": "varStrictTypeTy",
           "normalized": "VarStrictType-\u003eType",
@@ -2769,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.Meta",
           "name": "Meta",
           "package": "haskell-src-meta",
@@ -2777,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Meta",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.Meta",
           "name": "Meta",
           "package": "haskell-src-meta",
@@ -2791,6 +3025,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the th-orphans package instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eThis module is exported for backwards-compatibility purposes.\n  All it does is re-export the instances defined in \n  \u003ca\u003eLanguage.Haskell.TH.Instances\u003c/a\u003e, from the th-orphans package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:34 UTC 2014",
           "module": "Language.Haskell.TH.Instances.Lift",
           "name": "Lift",
           "package": "haskell-src-meta",
@@ -2800,6 +3035,7 @@
         "index": {
           "description": "Deprecated Use the th-orphans package instead This module is exported for backwards-compatibility purposes All it does is re-export the instances defined in Language.Haskell.TH.Instances from the th-orphans package",
           "hierarchy": "Language Haskell TH Instances Lift",
+          "indexed": "2014-03-11T18:31:34",
           "module": "Language.Haskell.TH.Instances.Lift",
           "name": "Lift",
           "package": "haskell-src-meta",

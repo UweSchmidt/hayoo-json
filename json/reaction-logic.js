@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reaction-logic"
+        "phrase": "reaction-logic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eResizable dependency graph.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "MinimalGraph",
           "package": "reaction-logic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Resizable dependency graph",
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "MinimalGraph",
           "package": "reaction-logic",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "Index",
           "package": "reaction-logic",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "Index",
           "package": "reaction-logic",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimalGraph object definition. Add and resisze are splitted to permit new index to be used in computation of new constraint group .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "MinimalGraph",
           "package": "reaction-logic",
@@ -72,6 +77,7 @@
         "index": {
           "description": "MinimalGraph object definition Add and resisze are splitted to permit new index to be used in computation of new constraint group",
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "MinimalGraph",
           "package": "reaction-logic",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "MinimalGraph",
           "package": "reaction-logic",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "MinimalGraph",
           "package": "reaction-logic",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eappend a new value given its minimalendencies. Return its index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "add",
           "package": "reaction-logic",
@@ -118,6 +127,7 @@
         "index": {
           "description": "append new value given its minimalendencies Return its index",
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "add",
           "normalized": "(a,[Index])-\u003e(Index,MinimalGraph a)",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty minimal graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "mkMinimalGraph",
           "package": "reaction-logic",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Create an empty minimal graph",
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "mkMinimalGraph",
           "package": "reaction-logic",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "prop_data_reactor_minimalgraph",
           "package": "reaction-logic",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "prop_data_reactor_minimalgraph",
           "package": "reaction-logic",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epossibly reduce the object as to contain only the subgraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "resize",
           "package": "reaction-logic",
@@ -188,6 +203,7 @@
         "index": {
           "description": "possibly reduce the object as to contain only the subgraph",
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "resize",
           "normalized": "[Index]-\u003eMaybe(MinimalGraph a)",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eelements in the graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.MinimalGraph",
           "name": "values",
           "package": "reaction-logic",
@@ -213,6 +230,7 @@
         "index": {
           "description": "elements in the graph",
           "hierarchy": "Data Reactor MinimalGraph",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.MinimalGraph",
           "name": "values",
           "normalized": "[a]",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperational values wrap reactions with some historical tag. Index is taken from \u003ca\u003eData.Reactor.MinimalGraph\u003c/a\u003e and is a key to an happened External event.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Operational",
           "name": "Operational",
           "package": "reaction-logic",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Operational values wrap reactions with some historical tag Index is taken from Data.Reactor.MinimalGraph and is key to an happened External event",
           "hierarchy": "Data Reactor Operational",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Operational",
           "name": "Operational",
           "package": "reaction-logic",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eReaction\u003c/a\u003e\u003c/code\u003e contextualized with its history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Operational",
           "name": "Operational",
           "package": "reaction-logic",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Reaction contextualized with its history",
           "hierarchy": "Data Reactor Operational",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Operational",
           "name": "Operational",
           "package": "reaction-logic",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operational transformer. For reactions to react we store the index to external event and the actual internal event in the reader and store the new events produced by reactions in the writer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Operational",
           "name": "OperationalLayer",
           "package": "reaction-logic",
@@ -283,6 +306,7 @@
         "index": {
           "description": "The operational transformer For reactions to react we store the index to external event and the actual internal event in the reader and store the new events produced by reactions in the writer",
           "hierarchy": "Data Reactor Operational",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Operational",
           "name": "OperationalLayer",
           "package": "reaction-logic",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Operational",
           "name": "Operational",
           "package": "reaction-logic",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Operational",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Operational",
           "name": "Operational",
           "package": "reaction-logic",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean index to the event that killed the reaction or the alive reaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Operational",
           "name": "alive",
           "package": "reaction-logic",
@@ -329,6 +356,7 @@
         "index": {
           "description": "an index to the event that killed the reaction or the alive reaction",
           "hierarchy": "Data Reactor Operational",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Operational",
           "name": "alive",
           "package": "reaction-logic",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing if the reaction is a base reaction  or just an index to the contextualized event which borned it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Operational",
           "name": "borned",
           "package": "reaction-logic",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Nothing if the reaction is base reaction or just an index to the contextualized event which borned it",
           "hierarchy": "Data Reactor Operational",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Operational",
           "name": "borned",
           "package": "reaction-logic",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePruned object builder for \u003ccode\u003e\u003ca\u003eOperational\u003c/a\u003e\u003c/code\u003e values \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Operational",
           "name": "mkOperationalPruned",
           "package": "reaction-logic",
@@ -374,6 +405,7 @@
         "index": {
           "description": "Pruned object builder for Operational values",
           "hierarchy": "Data Reactor Operational",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Operational",
           "name": "mkOperationalPruned",
           "normalized": "Operational a-\u003ePruned(OperationalLayer a)(Maybe Serial,[Index])",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Pruned",
           "name": "Pruned",
           "package": "reaction-logic",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Pruned",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Pruned",
           "name": "Pruned",
           "package": "reaction-logic",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pruned object keeps a pruned tree of values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Pruned",
           "name": "Pruned",
           "package": "reaction-logic",
@@ -420,6 +455,7 @@
         "index": {
           "description": "pruned object keeps pruned tree of values",
           "hierarchy": "Data Reactor Pruned",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Pruned",
           "name": "Pruned",
           "package": "reaction-logic",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Pruned",
           "name": "Pruned",
           "package": "reaction-logic",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Pruned",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Pruned",
           "name": "Pruned",
           "package": "reaction-logic",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpand the pruned , Nothing if nothing in it at the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Pruned",
           "name": "expand",
           "package": "reaction-logic",
@@ -466,6 +505,7 @@
         "index": {
           "description": "expand the pruned Nothing if nothing in it at the end",
           "hierarchy": "Data Reactor Pruned",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Pruned",
           "name": "expand",
           "package": "reaction-logic",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild a pruned given some functions and a value \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Pruned",
           "name": "mkPruned",
           "package": "reaction-logic",
@@ -488,6 +529,7 @@
         "index": {
           "description": "build pruned given some functions and value",
           "hierarchy": "Data Reactor Pruned",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Pruned",
           "name": "mkPruned",
           "normalized": "(a-\u003eb(a,[a]))-\u003e(a-\u003eBool)-\u003e(a-\u003ec-\u003ea)-\u003e(a-\u003ec)-\u003ea-\u003ePruned b c",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Pruned",
           "name": "prop_data_reactor_pruned",
           "package": "reaction-logic",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Pruned",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Pruned",
           "name": "prop_data_reactor_pruned",
           "package": "reaction-logic",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erestore the pruned given it's values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Pruned",
           "name": "restore",
           "package": "reaction-logic",
@@ -535,6 +580,7 @@
         "index": {
           "description": "restore the pruned given it values",
           "hierarchy": "Data Reactor Pruned",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Pruned",
           "name": "restore",
           "normalized": "[a]-\u003ePruned b a",
@@ -550,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecollect the pruned values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Pruned",
           "name": "serialize",
           "package": "reaction-logic",
@@ -560,6 +607,7 @@
         "index": {
           "description": "collect the pruned values",
           "hierarchy": "Data Reactor Pruned",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Pruned",
           "name": "serialize",
           "normalized": "[a]",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReaction box and stepping function. \u003ccode\u003e\u003ca\u003eReaction\u003c/a\u003e\u003c/code\u003es leave the monad parameter free for the programmer. Around m a state transformer gives them the chance to use per reaction state.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "Reaction",
           "package": "reaction-logic",
@@ -584,6 +633,7 @@
         "index": {
           "description": "Reaction box and stepping function Reaction leave the monad parameter free for the programmer Around state transformer gives them the chance to use per reaction state",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "Reaction",
           "package": "reaction-logic",
@@ -598,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal event, it must be serializable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "External",
           "package": "reaction-logic",
@@ -607,6 +658,7 @@
         "index": {
           "description": "External event it must be serializable",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "External",
           "package": "reaction-logic",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal event, don't need to be serializable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "Internal",
           "package": "reaction-logic",
@@ -630,6 +683,7 @@
         "index": {
           "description": "Internal event don need to be serializable",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "Internal",
           "package": "reaction-logic",
@@ -644,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Reaction object is a container for a reaction. It's free in the type of value to react and in its internal state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "Reaction",
           "package": "reaction-logic",
@@ -653,6 +708,7 @@
         "index": {
           "description": "Reaction object is container for reaction It free in the type of value to react and in its internal state",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "Reaction",
           "package": "reaction-logic",
@@ -667,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal state serializations, it must be serializable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "Recover",
           "package": "reaction-logic",
@@ -676,6 +733,7 @@
         "index": {
           "description": "Internal state serializations it must be serializable",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "Recover",
           "package": "reaction-logic",
@@ -690,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value reactions compute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "Response",
           "package": "reaction-logic",
@@ -699,6 +758,7 @@
         "index": {
           "description": "The value reactions compute",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "Response",
           "package": "reaction-logic",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "Reaction",
           "package": "reaction-logic",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "Reaction",
           "package": "reaction-logic",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "Response",
           "package": "reaction-logic",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "Response",
           "package": "reaction-logic",
@@ -757,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue to continue the reaction, or False if reaction if dead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "continue",
           "package": "reaction-logic",
@@ -767,6 +832,7 @@
         "index": {
           "description": "True to continue the reaction or False if reaction if dead",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "continue",
           "package": "reaction-logic",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esome events to broadcast now as effects of the reaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "newevents",
           "package": "reaction-logic",
@@ -790,6 +857,7 @@
         "index": {
           "description": "some events to broadcast now as effects of the reaction",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "newevents",
           "normalized": "[Internal]",
@@ -805,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea list of new reactions, just borned ready for the next event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "newreas",
           "package": "reaction-logic",
@@ -815,6 +884,7 @@
         "index": {
           "description": "list of new reactions just borned ready for the next event",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "newreas",
           "normalized": "[Reaction a]",
@@ -829,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "prop_data_reactor_reaction",
           "package": "reaction-logic",
@@ -838,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "prop_data_reactor_reaction",
           "package": "reaction-logic",
@@ -851,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reaction to an event of type \u003ccode\u003ea\u003c/code\u003e. It can modify its individual state in the outer monad layer. There are no constraint on the inner monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "reaction",
           "package": "reaction-logic",
@@ -861,6 +934,7 @@
         "index": {
           "description": "The reaction to an event of type It can modify its individual state in the outer monad layer There are no constraint on the inner monad",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "reaction",
           "normalized": "a-\u003eStateT b c(Response c)",
@@ -876,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal state of the reaction. Upon creation it must contatin the initial state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "reastate",
           "package": "reaction-logic",
@@ -886,6 +961,7 @@
         "index": {
           "description": "Internal state of the reaction Upon creation it must contatin the initial state",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "reastate",
           "package": "reaction-logic",
@@ -899,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry a reaction of a Reaction, given an event in an Untyped box. If the event is not of the right type, the result is Nothing, otherwise an action in the monad m returning a modified \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e, with Bool mapped to Maybe (Reaction m).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Reaction",
           "name": "step",
           "package": "reaction-logic",
@@ -908,6 +985,7 @@
         "index": {
           "description": "Try reaction of Reaction given an event in an Untyped box If the event is not of the right type the result is Nothing otherwise an action in the monad returning modified Response with Bool mapped to Maybe Reaction",
           "hierarchy": "Data Reactor Reaction",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Reaction",
           "name": "step",
           "normalized": "Reaction a-\u003eInternal-\u003eMaybe(a([Reaction a],[Internal],Maybe(Reaction a)))",
@@ -922,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Serialization",
           "name": "Serialization",
           "package": "reaction-logic",
@@ -930,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Serialization",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Serialization",
           "name": "Serialization",
           "package": "reaction-logic",
@@ -944,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epassive serialization of a reactor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Serialization",
           "name": "SerialReactor",
           "package": "reaction-logic",
@@ -953,6 +1034,7 @@
         "index": {
           "description": "passive serialization of reactor",
           "hierarchy": "Data Reactor Serialization",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Serialization",
           "name": "SerialReactor",
           "package": "reaction-logic",
@@ -967,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eactive serialization of a reactor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Serialization",
           "name": "Serialization",
           "package": "reaction-logic",
@@ -976,6 +1059,7 @@
         "index": {
           "description": "active serialization of reactor",
           "hierarchy": "Data Reactor Serialization",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Serialization",
           "name": "Serialization",
           "package": "reaction-logic",
@@ -990,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea SerialReactor parser. It tries to fix the existentials, in the Recover and External boxes. Possible templates must be given for the task.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Serialization",
           "name": "parseSerialReactor",
           "package": "reaction-logic",
@@ -1000,6 +1085,7 @@
         "index": {
           "description": "SerialReactor parser It tries to fix the existentials in the Recover and External boxes Possible templates must be given for the task",
           "hierarchy": "Data Reactor Serialization",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Serialization",
           "name": "parseSerialReactor",
           "package": "reaction-logic",
@@ -1013,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "Untypeds",
           "package": "reaction-logic",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "Untypeds",
           "package": "reaction-logic",
@@ -1034,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "ParseSerial",
           "package": "reaction-logic",
@@ -1042,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "ParseSerial",
           "package": "reaction-logic",
@@ -1056,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA box to contain a serializable \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "Serial",
           "package": "reaction-logic",
@@ -1065,6 +1156,7 @@
         "index": {
           "description": "box to contain serializable",
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "Serial",
           "package": "reaction-logic",
@@ -1079,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA box to contain any value \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "Untyped",
           "package": "reaction-logic",
@@ -1088,6 +1181,7 @@
         "index": {
           "description": "box to contain any value",
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "Untyped",
           "package": "reaction-logic",
@@ -1101,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "Serial",
           "package": "reaction-logic",
@@ -1110,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "Serial",
           "package": "reaction-logic",
@@ -1123,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "Untyped",
           "package": "reaction-logic",
@@ -1132,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "Untyped",
           "package": "reaction-logic",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "casting",
           "package": "reaction-logic",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "casting",
           "normalized": "(a-\u003eb)-\u003ec-\u003eMaybe b",
@@ -1169,6 +1269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse a string into a Serial box. It needs some hints on which types could go inside the box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "parseSerial",
           "package": "reaction-logic",
@@ -1179,6 +1280,7 @@
         "index": {
           "description": "Try to parse string into Serial box It needs some hints on which types could go inside the box",
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "parseSerial",
           "normalized": "[Serial]-\u003eSerial-\u003eMaybe Serial",
@@ -1194,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor.Untypeds",
           "name": "toUntyped",
           "package": "reaction-logic",
@@ -1203,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor Untypeds",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor.Untypeds",
           "name": "toUntyped",
           "normalized": "Serial-\u003eUntyped",
@@ -1219,6 +1323,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA reactor is an object to hold a bunch of reactions, which create other reactions and events and respond to events.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor",
           "name": "Reactor",
           "package": "reaction-logic",
@@ -1228,6 +1333,7 @@
         "index": {
           "description": "reactor is an object to hold bunch of reactions which create other reactions and events and respond to events",
           "hierarchy": "Data Reactor",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor",
           "name": "Reactor",
           "package": "reaction-logic",
@@ -1242,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reactor object. Once created this closures control its lifecycle. Updaters return Nothing when the reactor is wrapped around no reactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor",
           "name": "Reactor",
           "package": "reaction-logic",
@@ -1251,6 +1358,7 @@
         "index": {
           "description": "The reactor object Once created this closures control its lifecycle Updaters return Nothing when the reactor is wrapped around no reactions",
           "hierarchy": "Data Reactor",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor",
           "name": "Reactor",
           "package": "reaction-logic",
@@ -1264,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor",
           "name": "Reactor",
           "package": "reaction-logic",
@@ -1273,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Data Reactor",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor",
           "name": "Reactor",
           "package": "reaction-logic",
@@ -1287,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate itself digesting a new event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor",
           "name": "insertExternals",
           "package": "reaction-logic",
@@ -1297,6 +1408,7 @@
         "index": {
           "description": "Update itself digesting new event",
           "hierarchy": "Data Reactor",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor",
           "name": "insertExternals",
           "normalized": "[External]-\u003ea(Maybe(Reactor a b))",
@@ -1313,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild a reactor object  from a list of basic reactions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor",
           "name": "mkReactor",
           "package": "reaction-logic",
@@ -1322,6 +1435,7 @@
         "index": {
           "description": "build reactor object from list of basic reactions",
           "hierarchy": "Data Reactor",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor",
           "name": "mkReactor",
           "normalized": "[Reaction a]-\u003eReactor a b",
@@ -1338,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegenerate itself from a serialization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor",
           "name": "restoreReactor",
           "package": "reaction-logic",
@@ -1348,6 +1463,7 @@
         "index": {
           "description": "Regenerate itself from serialization",
           "hierarchy": "Data Reactor",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor",
           "name": "restoreReactor",
           "normalized": "SerialReactor a-\u003eb(Maybe(Reactor b a))",
@@ -1364,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize its internals, for later restoring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:06 UTC 2014",
           "module": "Data.Reactor",
           "name": "serializeReactor",
           "package": "reaction-logic",
@@ -1374,6 +1491,7 @@
         "index": {
           "description": "Serialize its internals for later restoring",
           "hierarchy": "Data Reactor",
+          "indexed": "2014-03-11T19:49:06",
           "module": "Data.Reactor",
           "name": "serializeReactor",
           "package": "reaction-logic",

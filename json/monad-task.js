@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-task"
+        "phrase": "monad-task",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe MonadTask class that defines the set of combinators to work with Task monad.\n\u003c/p\u003e\u003cp\u003eThe operations for MonadTask are similar to those of co-routines, with the\n   addition of watching and signaling events. \n\u003c/p\u003e\u003cp\u003eWe also define a set of auto lifting for common transformers. Note that we \n   purposely leave a case undefined where a state transformer goes on top of \n   a task monad, because such an operation is either unsound or has to roll\n   back the state (see \u003ccode\u003e\u003ccode\u003e\u003ca\u003eliftCallCC\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e). So it's \n   recommended to keep TaskT on top of all StateT in a transformer stack.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task.Class",
           "name": "Class",
           "package": "monad-task",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The MonadTask class that defines the set of combinators to work with Task monad The operations for MonadTask are similar to those of co-routines with the addition of watching and signaling events We also define set of auto lifting for common transformers Note that we purposely leave case undefined where state transformer goes on top of task monad because such an operation is either unsound or has to roll back the state see liftCallCC So it recommended to keep TaskT on top of all StateT in transformer stack",
           "hierarchy": "Control Monad Task Class",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task.Class",
           "name": "Class",
           "package": "monad-task",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMonadTask\u003c/code\u003e specifies a task monad \u003ccode\u003em\u003c/code\u003e over an event type \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task.Class",
           "name": "MonadTask",
           "package": "monad-task",
@@ -51,6 +54,7 @@
         "index": {
           "description": "MonadTask specifies task monad over an event type",
           "hierarchy": "Control Monad Task Class",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task.Class",
           "name": "MonadTask",
           "package": "monad-task",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eexit\u003c/code\u003e ends all tasks and return immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task.Class",
           "name": "exit",
           "package": "monad-task",
@@ -75,6 +80,7 @@
         "index": {
           "description": "exit ends all tasks and return immediately",
           "hierarchy": "Control Monad Task Class",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task.Class",
           "name": "exit",
           "normalized": "a()",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efork\u003c/code\u003e spawns a task and runs it immediate until it ends or \n   suspends before returning to current task.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task.Class",
           "name": "fork",
           "package": "monad-task",
@@ -100,6 +107,7 @@
         "index": {
           "description": "fork spawns task and runs it immediate until it ends or suspends before returning to current task",
           "hierarchy": "Control Monad Task Class",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task.Class",
           "name": "fork",
           "normalized": "a b-\u003ea()",
@@ -142,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esignal\u003c/code\u003e broadcasts an event to all other tasks that are watching,\n   and give those who wake up the priority to run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task.Class",
           "name": "signal",
           "package": "monad-task",
@@ -152,6 +161,7 @@
         "index": {
           "description": "signal broadcasts an event to all other tasks that are watching and give those who wake up the priority to run",
           "hierarchy": "Control Monad Task Class",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task.Class",
           "name": "signal",
           "normalized": "a-\u003eb()",
@@ -167,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewatch\u003c/code\u003e suspends current task to wait for future events, and will\n   resume execution when an event triggers its watching function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task.Class",
           "name": "watch",
           "package": "monad-task",
@@ -177,6 +188,7 @@
         "index": {
           "description": "watch suspends current task to wait for future events and will resume execution when an event triggers its watching function",
           "hierarchy": "Control Monad Task Class",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task.Class",
           "name": "watch",
           "normalized": "(a-\u003eMaybe b)-\u003ec b",
@@ -192,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eyield\u003c/code\u003e temporarily suspends current task to let others run. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task.Class",
           "name": "yield",
           "package": "monad-task",
@@ -202,6 +215,7 @@
         "index": {
           "description": "yield temporarily suspends current task to let others run",
           "hierarchy": "Control Monad Task Class",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task.Class",
           "name": "yield",
           "normalized": "a()",
@@ -217,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTask monad transformer can help refactor event and callback heavy\nprograms into monads via co-routines. The idea is loosely\nbased on \u003cem\u003eCombining Events And Threads For Scalable Network Services\u003c/em\u003e,\nby Peng Li and Steve Zdancewic, in \u003cem\u003ePLDI\u003c/em\u003e, 2007.\n(\u003ca\u003ehttp://www.cis.upenn.edu/~stevez/papers/abstracts.html#LZ07\u003c/a\u003e), but \nwith deterministic and co-oprative lightweight threads, \nalso known as co-routines, so that the base monad can be anything ranging \nfrom IO to state monads, or your favorite monad transformer stack.\n\u003c/p\u003e\u003cp\u003eBesides, Task monad transformer also provides a simple mechanism to signal\nand watch for events, which allows complex event processing logic to be\nexpressed as streamlined monadic co-routines.\n\u003c/p\u003e\u003cp\u003eTask monad transformer is essentially a ContT, or continuation transformer,\ndefined to extract the control flow of monadic programs with co-operative\nmulti-threading. After the CPS transformation, the program trace is then\nexecuted with a simple round-robin scheduler.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task",
           "name": "Task",
           "package": "monad-task",
@@ -226,6 +241,7 @@
         "index": {
           "description": "Task monad transformer can help refactor event and callback heavy programs into monads via co-routines The idea is loosely based on Combining Events And Threads For Scalable Network Services by Peng Li and Steve Zdancewic in PLDI http www.cis.upenn.edu stevez papers abstracts.html LZ07 but with deterministic and co-oprative lightweight threads also known as co-routines so that the base monad can be anything ranging from IO to state monads or your favorite monad transformer stack Besides Task monad transformer also provides simple mechanism to signal and watch for events which allows complex event processing logic to be expressed as streamlined monadic co-routines Task monad transformer is essentially ContT or continuation transformer defined to extract the control flow of monadic programs with co-operative multi-threading After the CPS transformation the program trace is then executed with simple round-robin scheduler",
           "hierarchy": "Control Monad Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task",
           "name": "Task",
           "package": "monad-task",
@@ -240,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMonadTask\u003c/code\u003e specifies a task monad \u003ccode\u003em\u003c/code\u003e over an event type \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task",
           "name": "MonadTask",
           "package": "monad-task",
@@ -249,6 +266,7 @@
         "index": {
           "description": "MonadTask specifies task monad over an event type",
           "hierarchy": "Control Monad Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task",
           "name": "MonadTask",
           "package": "monad-task",
@@ -263,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTask monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task",
           "name": "TaskT",
           "package": "monad-task",
@@ -272,6 +291,7 @@
         "index": {
           "description": "Task monad transformer",
           "hierarchy": "Control Monad Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task",
           "name": "TaskT",
           "package": "monad-task",
@@ -309,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eexit\u003c/code\u003e ends all tasks and return immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task",
           "name": "exit",
           "package": "monad-task",
@@ -319,6 +340,7 @@
         "index": {
           "description": "exit ends all tasks and return immediately",
           "hierarchy": "Control Monad Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task",
           "name": "exit",
           "normalized": "a()",
@@ -334,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efork\u003c/code\u003e spawns a task and runs it immediate until it ends or \n   suspends before returning to current task.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task",
           "name": "fork",
           "package": "monad-task",
@@ -344,6 +367,7 @@
         "index": {
           "description": "fork spawns task and runs it immediate until it ends or suspends before returning to current task",
           "hierarchy": "Control Monad Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task",
           "name": "fork",
           "normalized": "a b-\u003ea()",
@@ -409,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esignal\u003c/code\u003e broadcasts an event to all other tasks that are watching,\n   and give those who wake up the priority to run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task",
           "name": "signal",
           "package": "monad-task",
@@ -419,6 +444,7 @@
         "index": {
           "description": "signal broadcasts an event to all other tasks that are watching and give those who wake up the priority to run",
           "hierarchy": "Control Monad Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task",
           "name": "signal",
           "normalized": "a-\u003eb()",
@@ -434,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewatch\u003c/code\u003e suspends current task to wait for future events, and will\n   resume execution when an event triggers its watching function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task",
           "name": "watch",
           "package": "monad-task",
@@ -444,6 +471,7 @@
         "index": {
           "description": "watch suspends current task to wait for future events and will resume execution when an event triggers its watching function",
           "hierarchy": "Control Monad Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task",
           "name": "watch",
           "normalized": "(a-\u003eMaybe b)-\u003ec b",
@@ -459,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eyield\u003c/code\u003e temporarily suspends current task to let others run. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Task",
           "name": "yield",
           "package": "monad-task",
@@ -469,6 +498,7 @@
         "index": {
           "description": "yield temporarily suspends current task to let others run",
           "hierarchy": "Control Monad Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Task",
           "name": "yield",
           "normalized": "a()",
@@ -483,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "Task",
           "package": "monad-task",
@@ -491,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "Task",
           "package": "monad-task",
@@ -505,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTask monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "TaskT",
           "package": "monad-task",
@@ -514,6 +547,7 @@
         "index": {
           "description": "Task monad transformer",
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "TaskT",
           "package": "monad-task",
@@ -528,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eTrace m e\u003c/code\u003e represents the control flow of a mult-threaded task monad\n   defined over a base monad \u003ccode\u003em\u003c/code\u003e and event type \u003ccode\u003ee\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "Trace",
           "package": "monad-task",
@@ -537,6 +572,7 @@
         "index": {
           "description": "Trace represents the control flow of mult-threaded task monad defined over base monad and event type",
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "Trace",
           "package": "monad-task",
@@ -550,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "EXIT",
           "package": "monad-task",
@@ -559,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "EXIT",
           "package": "monad-task",
@@ -572,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "FORK",
           "package": "monad-task",
@@ -581,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "FORK",
           "normalized": "a(Trace a b)-\u003ea(Trace a b)-\u003eTrace a b",
@@ -596,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "RET",
           "package": "monad-task",
@@ -605,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "RET",
           "package": "monad-task",
@@ -618,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "SIGNAL",
           "package": "monad-task",
@@ -627,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "SIGNAL",
           "normalized": "a-\u003eb(Trace b a)-\u003eTrace b a",
@@ -642,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "WATCH",
           "package": "monad-task",
@@ -651,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "WATCH",
           "normalized": "(a-\u003eMaybe b)-\u003e(b-\u003ec(Trace c a))-\u003eTrace c a",
@@ -666,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "YIELD",
           "package": "monad-task",
@@ -675,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "YIELD",
           "normalized": "a(Trace a b)-\u003eTrace a b",
@@ -691,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erunTrace\u003c/code\u003e runs a trace to its completion in the base monad with a simple \n   round-robin scheduler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "runTrace",
           "package": "monad-task",
@@ -701,6 +750,7 @@
         "index": {
           "description": "runTrace runs trace to its completion in the base monad with simple round-robin scheduler",
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "runTrace",
           "normalized": "a(Trace a b)-\u003ea()",
@@ -717,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etasktoTrace\u003c/code\u003e CPS-converts a task monad into a trace in its base monad. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:54 UTC 2014",
           "module": "Control.Monad.Trans.Task",
           "name": "taskToTrace",
           "package": "monad-task",
@@ -727,6 +778,7 @@
         "index": {
           "description": "tasktoTrace CPS-converts task monad into trace in its base monad",
           "hierarchy": "Control Monad Trans Task",
+          "indexed": "2014-03-11T19:20:54",
           "module": "Control.Monad.Trans.Task",
           "name": "taskToTrace",
           "normalized": "TaskT a b c-\u003eb(Trace b a)",

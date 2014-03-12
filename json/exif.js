@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "exif"
+        "phrase": "exif",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "Internals",
           "package": "exif",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "Internals",
           "package": "exif",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "ExifContent",
           "package": "exif",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "ExifContent",
           "package": "exif",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "ExifData",
           "package": "exif",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "ExifData",
           "package": "exif",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "ExifEntry",
           "package": "exif",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "ExifEntry",
           "package": "exif",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "ExifTag",
           "package": "exif",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "ExifTag",
           "package": "exif",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "contentGetEntries",
           "package": "exif",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "contentGetEntries",
           "normalized": "Ptr ExifContent-\u003eIO[Ptr ExifEntry]",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "dataFree",
           "package": "exif",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "dataFree",
           "normalized": "FunPtr(Ptr ExifData-\u003eIO())",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "dataFromData",
           "package": "exif",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "dataFromData",
           "normalized": "Ptr a-\u003eInt-\u003eIO(Ptr ExifData)",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "dataFromFile",
           "package": "exif",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "dataFromFile",
           "normalized": "FilePath-\u003eIO(Ptr ExifData)",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "dataGetContents",
           "package": "exif",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "dataGetContents",
           "normalized": "Ptr ExifData-\u003eIO[Ptr ExifContent]",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "entryGetTag",
           "package": "exif",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "entryGetTag",
           "normalized": "Ptr ExifEntry-\u003eIO ExifTag",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "entryGetValue",
           "package": "exif",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "entryGetValue",
           "normalized": "Ptr ExifEntry-\u003eIO String",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "tagDescription",
           "package": "exif",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "tagDescription",
           "normalized": "ExifTag-\u003eIO String",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "tagFromName",
           "package": "exif",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "tagFromName",
           "normalized": "String-\u003eIO ExifTag",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "tagName",
           "package": "exif",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "tagName",
           "normalized": "ExifTag-\u003eIO String",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif.Internals",
           "name": "tagTitle",
           "package": "exif",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif Internals",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif.Internals",
           "name": "tagTitle",
           "normalized": "ExifTag-\u003eIO String",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif",
           "name": "Exif",
           "package": "exif",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif",
           "name": "Exif",
           "package": "exif",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif",
           "name": "Exif",
           "package": "exif",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif",
           "name": "Exif",
           "package": "exif",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif",
           "name": "allTags",
           "package": "exif",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif",
           "name": "allTags",
           "normalized": "Exif-\u003eIO[(String,String)]",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif",
           "name": "fromData",
           "package": "exif",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif",
           "name": "fromData",
           "normalized": "Ptr()-\u003eInt-\u003eIO Exif",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif",
           "name": "fromFile",
           "package": "exif",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO Exif",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:04 UTC 2014",
           "module": "Graphics.Exif",
           "name": "getTag",
           "package": "exif",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Graphics Exif",
+          "indexed": "2014-03-11T18:05:04",
           "module": "Graphics.Exif",
           "name": "getTag",
           "normalized": "Exif-\u003eString-\u003eIO(Maybe String)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ftshell"
+        "phrase": "ftshell",
+        "type": "phrase"
       },
       "type": "context"
     }

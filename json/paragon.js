@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "paragon"
+        "phrase": "paragon",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-handler-devel"
+        "phrase": "wai-handler-devel",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Application.Devel",
           "name": "Devel",
           "package": "wai-handler-devel",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Devel",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Application.Devel",
           "name": "Devel",
           "package": "wai-handler-devel",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Application.Devel",
           "name": "AppHolder",
           "package": "wai-handler-devel",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Devel",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Application.Devel",
           "name": "AppHolder",
           "package": "wai-handler-devel",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Application.Devel",
           "name": "AppRunner",
           "package": "wai-handler-devel",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Devel",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Application.Devel",
           "name": "AppRunner",
           "package": "wai-handler-devel",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Application.Devel",
           "name": "WithAppRunner",
           "package": "wai-handler-devel",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Devel",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Application.Devel",
           "name": "WithAppRunner",
           "package": "wai-handler-devel",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Application.Devel",
           "name": "initAppHolder",
           "package": "wai-handler-devel",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Devel",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Application.Devel",
           "name": "initAppHolder",
           "package": "wai-handler-devel",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Application.Devel",
           "name": "swapApp",
           "package": "wai-handler-devel",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Devel",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Application.Devel",
           "name": "swapApp",
           "normalized": "WithAppRunner-\u003eAppHolder-\u003eIO()",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Application.Devel",
           "name": "swapAppSimple",
           "package": "wai-handler-devel",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Devel",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Application.Devel",
           "name": "swapAppSimple",
           "normalized": "Application-\u003eAppHolder-\u003eIO()",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Application.Devel",
           "name": "toApp",
           "package": "wai-handler-devel",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Devel",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Application.Devel",
           "name": "toApp",
           "normalized": "AppHolder-\u003eApplication",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "DevelServer",
           "package": "wai-handler-devel",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler DevelServer",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "DevelServer",
           "package": "wai-handler-devel",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "run",
           "package": "wai-handler-devel",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler DevelServer",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "run",
           "normalized": "Int-\u003eModuleName-\u003eFunctionName-\u003e(FilePath-\u003eIO[FilePath])-\u003eMaybe(MVar())-\u003eIO()",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "runNoWatch",
           "package": "wai-handler-devel",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler DevelServer",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "runNoWatch",
           "normalized": "Int-\u003eModuleName-\u003eFunctionName-\u003e(FilePath-\u003eIO[FilePath])-\u003eIO()",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "runQuit",
           "package": "wai-handler-devel",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler DevelServer",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "runQuit",
           "normalized": "Int-\u003eModuleName-\u003eFunctionName-\u003e(FilePath-\u003eIO[FilePath])-\u003eIO()",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "runQuitWithReloadActions",
           "package": "wai-handler-devel",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler DevelServer",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "runQuitWithReloadActions",
           "normalized": "Int-\u003eModuleName-\u003eFunctionName-\u003e(FilePath-\u003eIO[FilePath])-\u003e[IO(IO())]-\u003eIO()",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:07 UTC 2014",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "runWithReloadActions",
           "package": "wai-handler-devel",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler DevelServer",
+          "indexed": "2014-03-11T20:36:07",
           "module": "Network.Wai.Handler.DevelServer",
           "name": "runWithReloadActions",
           "normalized": "Int-\u003eModuleName-\u003eFunctionName-\u003e(FilePath-\u003eIO[FilePath])-\u003eMaybe(MVar())-\u003e[IO(IO())]-\u003eIO()",

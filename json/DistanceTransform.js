@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DistanceTransform"
+        "phrase": "DistanceTransform",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eN-dimensional parallel Euclidean distance transform using an\n approach derived from: Meijster et al., \u003cem\u003e\"A general algorithm for\u003c/em\u003e\n \u003cem\u003ecomputing distance transforms in linear time.\"\u003c/em\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Euclidean",
           "name": "Euclidean",
           "package": "DistanceTransform",
@@ -28,6 +29,7 @@
         "index": {
           "description": "N-dimensional parallel Euclidean distance transform using an approach derived from Meijster et al general algorithm for computing distance transforms in linear time",
           "hierarchy": "DistanceTransform Euclidean",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Euclidean",
           "name": "Euclidean",
           "package": "DistanceTransform",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the Euclidean distance transform of an N-dimensional\n array. Dimensions given as \u003ccode\u003e[width,height,depth...]\u003c/code\u003e. The left-most\n dimension is the inner-most. For an array representing a 2D\n collection in row-major format, we would give \u003ccode\u003e[width,height]\u003c/code\u003e or\n \u003ccode\u003e[columns,rows]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Euclidean",
           "name": "edt",
           "package": "DistanceTransform",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Compute the Euclidean distance transform of an N-dimensional array Dimensions given as width height depth The left-most dimension is the inner-most For an array representing collection in row-major format we would give width height or columns rows",
           "hierarchy": "DistanceTransform Euclidean",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Euclidean",
           "name": "edt",
           "normalized": "[Int]-\u003ea b-\u003ea c",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the Euclidean distance transform of an N-dimensional array\n using multiple processor cores. Dimensions given as\n \u003ccode\u003e[width,height,depth...]\u003c/code\u003e. The left-most dimension is the\n inner-most. For an array representing a 2D collection in row-major\n format, we would give \u003ccode\u003e[width,height]\u003c/code\u003e or \u003ccode\u003e[columns,rows]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Euclidean",
           "name": "edtPar",
           "package": "DistanceTransform",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Compute the Euclidean distance transform of an N-dimensional array using multiple processor cores Dimensions given as width height depth The left-most dimension is the inner-most For an array representing collection in row-major format we would give width height or columns rows",
           "hierarchy": "DistanceTransform Euclidean",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Euclidean",
           "name": "edtPar",
           "normalized": "[Int]-\u003ea b-\u003ea c",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the squared Euclidean distance transform of an\n N-dimensional array. Dimensions given as\n \u003ccode\u003e[width,height,depth...]\u003c/code\u003e. The left-most dimension is the\n inner-most.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Euclidean",
           "name": "sedt",
           "package": "DistanceTransform",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Compute the squared Euclidean distance transform of an N-dimensional array Dimensions given as width height depth The left-most dimension is the inner-most",
           "hierarchy": "DistanceTransform Euclidean",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Euclidean",
           "name": "sedt",
           "normalized": "[Int]-\u003ea b-\u003ea Int",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the squared Euclidean distance transform of an\n N-dimensional array using multiple processor cores. Dimensions\n given as \u003ccode\u003e[width,height,depth...]\u003c/code\u003e. The left-most dimension is the\n inner-most.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Euclidean",
           "name": "sedtPar",
           "package": "DistanceTransform",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Compute the squared Euclidean distance transform of an N-dimensional array using multiple processor cores Dimensions given as width height depth The left-most dimension is the inner-most",
           "hierarchy": "DistanceTransform Euclidean",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Euclidean",
           "name": "sedtPar",
           "normalized": "[Int]-\u003ea b-\u003ea Int",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelpers for performing nested loop iteration. Includes variants\n for parallel computation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "Indexer",
           "package": "DistanceTransform",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Helpers for performing nested loop iteration Includes variants for parallel computation",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "Indexer",
           "package": "DistanceTransform",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe use a zipper on list to walk over dimensions of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "Zipper",
           "package": "DistanceTransform",
@@ -176,6 +189,7 @@
         "index": {
           "description": "We use zipper on list to walk over dimensions of an array",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "Zipper",
           "package": "DistanceTransform",
@@ -189,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "Zip",
           "package": "DistanceTransform",
@@ -198,6 +213,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "Zip",
           "normalized": "Zip[a]a[a]",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComonadic coreturn: produce the value a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e is currently\n focused upon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "focus",
           "package": "DistanceTransform",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Comonadic coreturn produce the value Zipper is currently focused upon",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "focus",
           "normalized": "Zipper a-\u003ea",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "fromZipper",
           "package": "DistanceTransform",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Convert Zipper to list",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "fromZipper",
           "normalized": "Zipper a-\u003e[a]",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "left",
           "package": "DistanceTransform",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Move Zipper to the left",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "left",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",
@@ -289,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "parChunkMapM_",
           "package": "DistanceTransform",
@@ -298,6 +321,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "parChunkMapM_",
           "normalized": "(a-\u003eIO())-\u003e[a]-\u003eIO()",
@@ -313,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "parZipFoldM",
           "package": "DistanceTransform",
@@ -322,6 +347,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "parZipFoldM",
           "normalized": "Zipper Int-\u003e(a-\u003eInt-\u003eIO a)-\u003ea-\u003e[Int]-\u003eIO()",
@@ -337,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "parZipFoldMAsYouDo",
           "package": "DistanceTransform",
@@ -346,6 +373,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "parZipFoldMAsYouDo",
           "normalized": "Zipper Int-\u003e(Int-\u003eInt-\u003eIO())-\u003eIO()",
@@ -361,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "right",
           "package": "DistanceTransform",
@@ -370,6 +399,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "right",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlide a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e over until focused on its rightmost element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "rightmost",
           "package": "DistanceTransform",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Slide Zipper over until focused on its rightmost element",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "rightmost",
           "normalized": "Zipper a-\u003eZipper a",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e from a non-empty list, with the cursor on the\n leftmost element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "toZipper",
           "package": "DistanceTransform",
@@ -420,6 +453,7 @@
         "index": {
           "description": "Create Zipper from non-empty list with the cursor on the leftmost element",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "toZipper",
           "normalized": "a-\u003e[a]-\u003eZipper a",
@@ -435,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "unsafeLeft",
           "package": "DistanceTransform",
@@ -444,6 +479,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "unsafeLeft",
           "normalized": "Zipper a-\u003eZipper a",
@@ -460,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e from a non-empty list, with the cursor on the\n leftmost element. An exception is thrown if the given list is\n empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "unsafeToZipper",
           "package": "DistanceTransform",
@@ -470,6 +507,7 @@
         "index": {
           "description": "Create Zipper from non-empty list with the cursor on the leftmost element An exception is thrown if the given list is empty",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "unsafeToZipper",
           "normalized": "[a]-\u003eZipper a",
@@ -485,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipFoldM",
           "package": "DistanceTransform",
@@ -494,6 +533,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipFoldM",
           "normalized": "Zipper Int-\u003e(a-\u003eInt-\u003eb a)-\u003ea-\u003e[Int]-\u003eb()",
@@ -509,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipFoldMAsYouDo",
           "package": "DistanceTransform",
@@ -518,6 +559,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipFoldMAsYouDo",
           "normalized": "Zipper Int-\u003e(Int-\u003eInt-\u003ea())-\u003ea()",
@@ -533,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipMapM_",
           "package": "DistanceTransform",
@@ -542,6 +585,7 @@
         },
         "index": {
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipMapM_",
           "normalized": "Zipper Int-\u003e(Int-\u003ea())-\u003e[Int]-\u003ea()",
@@ -558,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the step between consective elements at the currently\n focused dimension. This involves stepping over all nested\n dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipStep",
           "package": "DistanceTransform",
@@ -568,6 +613,7 @@
         "index": {
           "description": "Computes the step between consective elements at the currently focused dimension This involves stepping over all nested dimensions",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipStep",
           "normalized": "Zipper a-\u003ea",
@@ -584,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the stride between rows at the currently focused\n dimension. This involves stepping over the rest of the current row\n along all nested dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipStride",
           "package": "DistanceTransform",
@@ -594,6 +641,7 @@
         "index": {
           "description": "Computes the stride between rows at the currently focused dimension This involves stepping over the rest of the current row along all nested dimensions",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipStride",
           "normalized": "Zipper a-\u003ea",
@@ -610,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince we are using \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003es to track the size of\n multidemensional arrays, the sum of all zipper elements gives the\n size of the entire array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:05 UTC 2014",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipSum",
           "package": "DistanceTransform",
@@ -620,6 +669,7 @@
         "index": {
           "description": "Since we are using Zipper to track the size of multidemensional arrays the sum of all zipper elements gives the size of the entire array",
           "hierarchy": "DistanceTransform Internal Indexer",
+          "indexed": "2014-03-11T16:39:05",
           "module": "DistanceTransform.Internal.Indexer",
           "name": "zipSum",
           "normalized": "Zipper a-\u003ea",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "theoremquest"
+        "phrase": "theoremquest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Logic",
           "package": "theoremquest",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Logic",
           "package": "theoremquest",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Axiom",
           "package": "theoremquest",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Axiom",
           "package": "theoremquest",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Inference",
           "package": "theoremquest",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Inference",
           "package": "theoremquest",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA boolean term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Proposition",
           "package": "theoremquest",
@@ -91,6 +98,7 @@
         "index": {
           "description": "boolean term",
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Proposition",
           "package": "theoremquest",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Term",
           "package": "theoremquest",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Term",
           "package": "theoremquest",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Theorem",
           "package": "theoremquest",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Theorem",
           "package": "theoremquest",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Type",
           "package": "theoremquest",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Type",
           "package": "theoremquest",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "TypeOf",
           "package": "theoremquest",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "TypeOf",
           "package": "theoremquest",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Variable",
           "package": "theoremquest",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Variable",
           "package": "theoremquest",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "(=.)",
           "package": "theoremquest",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "(=.) =.",
           "normalized": "Term-\u003eTerm-\u003eTerm",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": ":-\u003e",
           "package": "theoremquest",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": ":-\u003e",
           "normalized": "Type-\u003eType",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "ABS",
           "package": "theoremquest",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "ABS",
           "package": "theoremquest",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "ASSUME",
           "package": "theoremquest",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "ASSUME",
           "package": "theoremquest",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "AXIOM",
           "package": "theoremquest",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "AXIOM",
           "package": "theoremquest",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Abs",
           "package": "theoremquest",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Abs",
           "package": "theoremquest",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Axiom",
           "package": "theoremquest",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Axiom",
           "package": "theoremquest",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "BETA",
           "package": "theoremquest",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "BETA",
           "package": "theoremquest",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Bool",
           "package": "theoremquest",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Bool",
           "package": "theoremquest",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Comb",
           "package": "theoremquest",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Comb",
           "package": "theoremquest",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Const",
           "package": "theoremquest",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Const",
           "package": "theoremquest",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "DEDUCT_ANTISYM",
           "package": "theoremquest",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "DEDUCT_ANTISYM",
           "package": "theoremquest",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "EQ_MP",
           "package": "theoremquest",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "EQ_MP",
           "package": "theoremquest",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "INST",
           "package": "theoremquest",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "INST",
           "normalized": "INST[(Variable,Term)]a",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "INST_TYPE",
           "package": "theoremquest",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "INST_TYPE",
           "normalized": "INST_TYPE[(Type,Type)]a",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "MK_COMB",
           "package": "theoremquest",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "MK_COMB",
           "package": "theoremquest",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "REFL",
           "package": "theoremquest",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "REFL",
           "package": "theoremquest",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "TRANS",
           "package": "theoremquest",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "TRANS",
           "package": "theoremquest",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Var",
           "package": "theoremquest",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Var",
           "package": "theoremquest",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "Variable",
           "package": "theoremquest",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "Variable",
           "package": "theoremquest",
@@ -656,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssumptions of a \u003ccode\u003e\u003ca\u003eTheorem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "assumptions",
           "package": "theoremquest",
@@ -666,6 +725,7 @@
         "index": {
           "description": "Assumptions of Theorem",
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "assumptions",
           "normalized": "Theorem-\u003e[Proposition]",
@@ -681,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConclusion of a \u003ccode\u003e\u003ca\u003eTheorem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "conclusion",
           "package": "theoremquest",
@@ -691,6 +752,7 @@
         "index": {
           "description": "Conclusion of Theorem",
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "conclusion",
           "normalized": "Theorem-\u003eProposition",
@@ -706,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if a variable is free in a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "freeIn",
           "package": "theoremquest",
@@ -716,6 +779,7 @@
         "index": {
           "description": "Checks if variable is free in term",
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "freeIn",
           "normalized": "Variable-\u003eTerm-\u003eBool",
@@ -732,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll free variables in a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "freeVariables",
           "package": "theoremquest",
@@ -742,6 +807,7 @@
         "index": {
           "description": "All free variables in term",
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "freeVariables",
           "normalized": "Term-\u003e[Variable]",
@@ -758,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eTheorem\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eInference\u003c/a\u003e\u003c/code\u003e rule application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "inference",
           "package": "theoremquest",
@@ -768,6 +835,7 @@
         "index": {
           "description": "Creates Theorem from an Inference rule application",
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "inference",
           "normalized": "Inference Theorem-\u003eMaybe Theorem",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "typeOf",
           "package": "theoremquest",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "typeOf",
           "normalized": "a-\u003eType",
@@ -807,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if a term is well-typed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Logic",
           "name": "wellTyped",
           "package": "theoremquest",
@@ -817,6 +888,7 @@
         "index": {
           "description": "Checks if term is well-typed",
           "hierarchy": "TheoremQuest Logic",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Logic",
           "name": "wellTyped",
           "normalized": "Term-\u003eBool",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Transactions",
           "package": "theoremquest",
@@ -840,6 +913,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Transactions",
           "package": "theoremquest",
@@ -853,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Email",
           "package": "theoremquest",
@@ -861,6 +936,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Email",
           "package": "theoremquest",
@@ -875,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequests from client to server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Req",
           "package": "theoremquest",
@@ -884,6 +961,7 @@
         "index": {
           "description": "Requests from client to server",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Req",
           "package": "theoremquest",
@@ -898,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponses to client requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Rsp",
           "package": "theoremquest",
@@ -907,6 +986,7 @@
         "index": {
           "description": "Responses to client requests",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Rsp",
           "package": "theoremquest",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "TheoremId",
           "package": "theoremquest",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "TheoremId",
           "package": "theoremquest",
@@ -941,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "User",
           "package": "theoremquest",
@@ -949,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "User",
           "package": "theoremquest",
@@ -963,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcknowledge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Ack",
           "package": "theoremquest",
@@ -973,6 +1058,7 @@
         "index": {
           "description": "Acknowledge",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Ack",
           "package": "theoremquest",
@@ -987,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA warning to clients that the associated \u003ccode\u003e\u003ca\u003eReq\u003c/a\u003e\u003c/code\u003e will soon be obsolete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "DeprecatedReq",
           "package": "theoremquest",
@@ -997,6 +1084,7 @@
         "index": {
           "description": "warning to clients that the associated Req will soon be obsolete",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "DeprecatedReq",
           "package": "theoremquest",
@@ -1011,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique id.  Usually a \u003ccode\u003e\u003ca\u003eTheoremId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Id",
           "package": "theoremquest",
@@ -1021,6 +1110,7 @@
         "index": {
           "description": "unique id Usually TheoremId",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Id",
           "package": "theoremquest",
@@ -1035,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of unique ids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Ids",
           "package": "theoremquest",
@@ -1045,6 +1136,7 @@
         "index": {
           "description": "list of unique ids",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Ids",
           "normalized": "Ids[Int]",
@@ -1061,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmit an inference.  Server will validate the inference and return a theorem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Inference",
           "package": "theoremquest",
@@ -1071,6 +1164,7 @@
         "index": {
           "description": "Submit an inference Server will validate the inference and return theorem",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Inference",
           "package": "theoremquest",
@@ -1085,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo acknowledge with reason.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Nack",
           "package": "theoremquest",
@@ -1095,6 +1190,7 @@
         "index": {
           "description": "No acknowledge with reason",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Nack",
           "package": "theoremquest",
@@ -1109,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew user: username, email.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "NewUser",
           "package": "theoremquest",
@@ -1119,6 +1216,7 @@
         "index": {
           "description": "New user username email",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "NewUser",
           "package": "theoremquest",
@@ -1133,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePing server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Ping",
           "package": "theoremquest",
@@ -1143,6 +1242,7 @@
         "index": {
           "description": "Ping server",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Ping",
           "package": "theoremquest",
@@ -1157,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend response in JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "RspInJSON",
           "package": "theoremquest",
@@ -1167,6 +1268,7 @@
         "index": {
           "description": "Send response in JSON",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "RspInJSON",
           "package": "theoremquest",
@@ -1181,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Term",
           "package": "theoremquest",
@@ -1191,6 +1294,7 @@
         "index": {
           "description": "term",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Term",
           "package": "theoremquest",
@@ -1205,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "Terms",
           "package": "theoremquest",
@@ -1215,6 +1320,7 @@
         "index": {
           "description": "list of terms",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "Terms",
           "normalized": "Terms[Term]",
@@ -1231,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest a theorem's assumptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "TheoremAssumptions",
           "package": "theoremquest",
@@ -1241,6 +1348,7 @@
         "index": {
           "description": "Request theorem assumptions",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "TheoremAssumptions",
           "package": "theoremquest",
@@ -1255,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest a theorem's conclusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "TheoremConclusion",
           "package": "theoremquest",
@@ -1265,6 +1374,7 @@
         "index": {
           "description": "Request theorem conclusion",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "TheoremConclusion",
           "package": "theoremquest",
@@ -1279,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for a theorem similar to a term.  Return a list of ids starting at the given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "TheoremSearch",
           "package": "theoremquest",
@@ -1289,6 +1400,7 @@
         "index": {
           "description": "Search for theorem similar to term Return list of ids starting at the given index",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "TheoremSearch",
           "package": "theoremquest",
@@ -1303,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer did not recognize \u003ccode\u003e\u003ca\u003eReq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "UnknownReq",
           "package": "theoremquest",
@@ -1313,6 +1426,7 @@
         "index": {
           "description": "Server did not recognize Req",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "UnknownReq",
           "package": "theoremquest",
@@ -1327,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP headers and body for shown Haskell type transfer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "formatHaskell",
           "package": "theoremquest",
@@ -1337,6 +1452,7 @@
         "index": {
           "description": "HTTP headers and body for shown Haskell type transfer",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "formatHaskell",
           "normalized": "a-\u003e([Header],String)",
@@ -1353,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP headers and body for JSON transfer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "formatJSON",
           "package": "theoremquest",
@@ -1363,6 +1480,7 @@
         "index": {
           "description": "HTTP headers and body for JSON transfer",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "formatJSON",
           "normalized": "a-\u003e([Header],String)",
@@ -1379,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP headers and body for text transfer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "formatText",
           "package": "theoremquest",
@@ -1389,6 +1508,7 @@
         "index": {
           "description": "HTTP headers and body for text transfer",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "formatText",
           "normalized": "String-\u003e([Header],String)",
@@ -1405,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe read, on parse errors return Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest.Transactions",
           "name": "maybeRead",
           "package": "theoremquest",
@@ -1415,6 +1536,7 @@
         "index": {
           "description": "Maybe read on parse errors return Nothing",
           "hierarchy": "TheoremQuest Transactions",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest.Transactions",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe a",
@@ -1430,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:27 UTC 2014",
           "module": "TheoremQuest",
           "name": "TheoremQuest",
           "package": "theoremquest",
@@ -1438,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "TheoremQuest",
+          "indexed": "2014-03-11T20:21:27",
           "module": "TheoremQuest",
           "name": "TheoremQuest",
           "package": "theoremquest",

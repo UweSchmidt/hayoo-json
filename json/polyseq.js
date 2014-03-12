@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "polyseq"
+        "phrase": "polyseq",
+        "type": "phrase"
       },
       "type": "context"
     }

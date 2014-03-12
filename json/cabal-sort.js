@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-sort"
+        "phrase": "cabal-sort",
+        "type": "phrase"
       },
       "type": "context"
     }

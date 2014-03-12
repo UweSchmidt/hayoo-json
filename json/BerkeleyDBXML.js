@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BerkeleyDBXML"
+        "phrase": "BerkeleyDBXML",
+        "type": "phrase"
       },
       "type": "context"
     }

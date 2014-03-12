@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-sophia"
+        "phrase": "bindings-sophia",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "Sophia",
           "package": "bindings-sophia",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "Sophia",
           "package": "bindings-sophia",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "C'sporder",
           "package": "bindings-sophia",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "C'sporder",
           "package": "bindings-sophia",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "Cursor",
           "package": "bindings-sophia",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "Cursor",
           "package": "bindings-sophia",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "Db",
           "package": "bindings-sophia",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "Db",
           "package": "bindings-sophia",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "Env",
           "package": "bindings-sophia",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "Env",
           "package": "bindings-sophia",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "ErrorCode",
           "package": "bindings-sophia",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "ErrorCode",
           "package": "bindings-sophia",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "Flags",
           "package": "bindings-sophia",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "Flags",
           "package": "bindings-sophia",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "Handle",
           "package": "bindings-sophia",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "Handle",
           "package": "bindings-sophia",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "Key",
           "package": "bindings-sophia",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "Key",
           "package": "bindings-sophia",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "SpCmpF",
           "package": "bindings-sophia",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "SpCmpF",
           "package": "bindings-sophia",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "Val",
           "package": "bindings-sophia",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "Val",
           "package": "bindings-sophia",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "c'SPGT",
           "package": "bindings-sophia",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "c'SPGT",
           "package": "bindings-sophia",
@@ -271,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "c'SPGTE",
           "package": "bindings-sophia",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "c'SPGTE",
           "package": "bindings-sophia",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "c'SPLT",
           "package": "bindings-sophia",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "c'SPLT",
           "package": "bindings-sophia",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "c'SPLTE",
           "package": "bindings-sophia",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "c'SPLTE",
           "package": "bindings-sophia",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "c'SPO_CREAT",
           "package": "bindings-sophia",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "c'SPO_CREAT",
           "package": "bindings-sophia",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "c'SPO_RDONLY",
           "package": "bindings-sophia",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "c'SPO_RDONLY",
           "package": "bindings-sophia",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "c'SPO_RDWR",
           "package": "bindings-sophia",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "c'SPO_RDWR",
           "package": "bindings-sophia",
@@ -403,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "c'SPO_SYNC",
           "package": "bindings-sophia",
@@ -412,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "c'SPO_SYNC",
           "package": "bindings-sophia",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_cursor",
           "package": "bindings-sophia",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_cursor",
           "normalized": "Db-\u003eC'sporder-\u003eKey-\u003eCSize-\u003eIO Cursor",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_delete",
           "package": "bindings-sophia",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_delete",
           "normalized": "Db-\u003eKey-\u003eCSize-\u003eIO ErrorCode",
@@ -471,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_destroy",
           "package": "bindings-sophia",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_destroy",
           "normalized": "Handle-\u003eIO ErrorCode",
@@ -494,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_dir",
           "package": "bindings-sophia",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_dir",
           "normalized": "Env-\u003eFlags-\u003eCString-\u003eIO ErrorCode",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_env",
           "package": "bindings-sophia",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_env",
           "package": "bindings-sophia",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_error",
           "package": "bindings-sophia",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_error",
           "normalized": "Handle-\u003eIO CString",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_fetch",
           "package": "bindings-sophia",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_fetch",
           "normalized": "Cursor-\u003eIO CInt",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_get",
           "package": "bindings-sophia",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_get",
           "normalized": "Db-\u003eKey-\u003eCSize-\u003ePtr Val-\u003ePtr CSize-\u003eIO ErrorCode",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_get_version",
           "package": "bindings-sophia",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_get_version",
           "normalized": "Env-\u003ePtr Word-\u003ePtr Word-\u003eIO ErrorCode",
@@ -630,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_grow",
           "package": "bindings-sophia",
@@ -639,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_grow",
           "normalized": "Env-\u003eWord-\u003eCDouble-\u003eIO ErrorCode",
@@ -653,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_key",
           "package": "bindings-sophia",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_key",
           "normalized": "Cursor-\u003eIO Key",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_keysize",
           "package": "bindings-sophia",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_keysize",
           "normalized": "Cursor-\u003eIO CSize",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_open",
           "package": "bindings-sophia",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_open",
           "normalized": "Env-\u003eIO Db",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set",
           "package": "bindings-sophia",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set",
           "normalized": "Db-\u003eKey-\u003eCSize-\u003eVal-\u003eCSize-\u003eIO ErrorCode",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_gc_enabled",
           "package": "bindings-sophia",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_gc_enabled",
           "normalized": "Env-\u003eCInt-\u003eIO ErrorCode",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_gcf",
           "package": "bindings-sophia",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_gcf",
           "normalized": "Env-\u003eCDouble-\u003eIO ErrorCode",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_key_comparison",
           "package": "bindings-sophia",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_key_comparison",
           "normalized": "Env-\u003eSpCmpF-\u003ePtr()-\u003eIO ErrorCode",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_keys_per_page",
           "package": "bindings-sophia",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_keys_per_page",
           "normalized": "Env-\u003eWord-\u003eIO ErrorCode",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_merge_enabled",
           "package": "bindings-sophia",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_merge_enabled",
           "normalized": "Env-\u003eCInt-\u003eIO ErrorCode",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_merge_watermark",
           "package": "bindings-sophia",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_set_merge_watermark",
           "normalized": "Env-\u003eWord-\u003eIO ErrorCode",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_value",
           "package": "bindings-sophia",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_value",
           "normalized": "Cursor-\u003eIO Val",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_valuesize",
           "package": "bindings-sophia",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'c'sp_valuesize",
           "normalized": "Cursor-\u003eIO CSize",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_cursor",
           "package": "bindings-sophia",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_cursor",
           "normalized": "FunPtr(Db-\u003eC'sporder-\u003eKey-\u003eCSize-\u003eIO Cursor)",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_delete",
           "package": "bindings-sophia",
@@ -961,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_delete",
           "normalized": "FunPtr(Db-\u003eKey-\u003eCSize-\u003eIO ErrorCode)",
@@ -975,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_destroy",
           "package": "bindings-sophia",
@@ -984,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_destroy",
           "normalized": "FunPtr(Handle-\u003eIO ErrorCode)",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_dir",
           "package": "bindings-sophia",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_dir",
           "normalized": "FunPtr(Env-\u003eFlags-\u003eCString-\u003eIO ErrorCode)",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_env",
           "package": "bindings-sophia",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_env",
           "package": "bindings-sophia",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_error",
           "package": "bindings-sophia",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_error",
           "normalized": "FunPtr(Handle-\u003eIO CString)",
@@ -1065,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_fetch",
           "package": "bindings-sophia",
@@ -1074,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_fetch",
           "normalized": "FunPtr(Cursor-\u003eIO CInt)",
@@ -1088,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_get",
           "package": "bindings-sophia",
@@ -1097,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_get",
           "normalized": "FunPtr(Db-\u003eKey-\u003eCSize-\u003ePtr Val-\u003ePtr CSize-\u003eIO ErrorCode)",
@@ -1111,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_get_version",
           "package": "bindings-sophia",
@@ -1120,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_get_version",
           "normalized": "FunPtr(Env-\u003ePtr Word-\u003ePtr Word-\u003eIO ErrorCode)",
@@ -1134,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_grow",
           "package": "bindings-sophia",
@@ -1143,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_grow",
           "normalized": "FunPtr(Env-\u003eWord-\u003eCDouble-\u003eIO ErrorCode)",
@@ -1157,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_key",
           "package": "bindings-sophia",
@@ -1166,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_key",
           "normalized": "FunPtr(Cursor-\u003eIO Key)",
@@ -1180,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_keysize",
           "package": "bindings-sophia",
@@ -1189,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_keysize",
           "normalized": "FunPtr(Cursor-\u003eIO CSize)",
@@ -1203,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_open",
           "package": "bindings-sophia",
@@ -1212,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_open",
           "normalized": "FunPtr(Env-\u003eIO Db)",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set",
           "package": "bindings-sophia",
@@ -1235,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set",
           "normalized": "FunPtr(Db-\u003eKey-\u003eCSize-\u003eVal-\u003eCSize-\u003eIO ErrorCode)",
@@ -1249,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_gc_enabled",
           "package": "bindings-sophia",
@@ -1258,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_gc_enabled",
           "normalized": "FunPtr(Env-\u003eCInt-\u003eIO ErrorCode)",
@@ -1272,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_gcf",
           "package": "bindings-sophia",
@@ -1281,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_gcf",
           "normalized": "FunPtr(Env-\u003eCDouble-\u003eIO ErrorCode)",
@@ -1295,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_key_comparison",
           "package": "bindings-sophia",
@@ -1304,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_key_comparison",
           "normalized": "FunPtr(Env-\u003eSpCmpF-\u003ePtr()-\u003eIO ErrorCode)",
@@ -1318,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_keys_per_page",
           "package": "bindings-sophia",
@@ -1327,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_keys_per_page",
           "normalized": "FunPtr(Env-\u003eWord-\u003eIO ErrorCode)",
@@ -1341,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_merge_enabled",
           "package": "bindings-sophia",
@@ -1350,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_merge_enabled",
           "normalized": "FunPtr(Env-\u003eCInt-\u003eIO ErrorCode)",
@@ -1364,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_merge_watermark",
           "package": "bindings-sophia",
@@ -1373,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_set_merge_watermark",
           "normalized": "FunPtr(Env-\u003eWord-\u003eIO ErrorCode)",
@@ -1387,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_value",
           "package": "bindings-sophia",
@@ -1396,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_value",
           "normalized": "FunPtr(Cursor-\u003eIO Val)",
@@ -1410,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:46 UTC 2014",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_valuesize",
           "package": "bindings-sophia",
@@ -1419,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Bindings Sophia",
+          "indexed": "2014-03-11T17:21:46",
           "module": "Bindings.Sophia",
           "name": "unsafe'p'sp_valuesize",
           "normalized": "FunPtr(Cursor-\u003eIO CSize)",

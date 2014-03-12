@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cryptsy-api"
+        "phrase": "cryptsy-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRequest for a single market by market id.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Market",
           "name": "Market",
           "package": "cryptsy-api",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Request for single market by market id",
           "hierarchy": "Cryptsy API Public Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Market",
           "name": "Market",
           "package": "cryptsy-api",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle market API request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Market",
           "name": "singleMarket",
           "package": "cryptsy-api",
@@ -51,6 +54,7 @@
         "index": {
           "description": "single market API request",
           "hierarchy": "Cryptsy API Public Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Market",
           "name": "singleMarket",
           "normalized": "Text-\u003ePubCryptsy(GMarket a b c d)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRequest for new-style market data, without ambiguous keys\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.MarketData.New",
           "name": "New",
           "package": "cryptsy-api",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Request for new-style market data without ambiguous keys",
           "hierarchy": "Cryptsy API Public MarketData New",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.MarketData.New",
           "name": "New",
           "package": "cryptsy-api",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest all markets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.MarketData.New",
           "name": "marketData",
           "package": "cryptsy-api",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Request all markets",
           "hierarchy": "Cryptsy API Public MarketData New",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.MarketData.New",
           "name": "marketData",
           "package": "cryptsy-api",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRequest for market data in old format, with ambiguous keys\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.MarketData.Old",
           "name": "Old",
           "package": "cryptsy-api",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Request for market data in old format with ambiguous keys",
           "hierarchy": "Cryptsy API Public MarketData Old",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.MarketData.Old",
           "name": "Old",
           "package": "cryptsy-api",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest all markets in old format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.MarketData.Old",
           "name": "oldMarketData",
           "package": "cryptsy-api",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Request all markets in old format",
           "hierarchy": "Cryptsy API Public MarketData Old",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.MarketData.Old",
           "name": "oldMarketData",
           "package": "cryptsy-api",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRequest for a single order book by market id.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderBook",
           "name": "OrderBook",
           "package": "cryptsy-api",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Request for single order book by market id",
           "hierarchy": "Cryptsy API Public OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderBook",
           "name": "OrderBook",
           "package": "cryptsy-api",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle orderbook API request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderBook",
           "name": "singleOrderBook",
           "package": "cryptsy-api",
@@ -193,6 +208,7 @@
         "index": {
           "description": "single orderbook API request",
           "hierarchy": "Cryptsy API Public OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderBook",
           "name": "singleOrderBook",
           "normalized": "Text-\u003ePubCryptsy(GOrderBook a b c)",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType and request for order book for all markets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "OrderData",
           "package": "cryptsy-api",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Type and request for order book for all markets",
           "hierarchy": "Cryptsy API Public OrderData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "OrderData",
           "package": "cryptsy-api",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral order data parameterized by types for prices, quantities,\n and totals (price * quantity)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "GOrderData",
           "package": "cryptsy-api",
@@ -241,6 +260,7 @@
         "index": {
           "description": "general order data parameterized by types for prices quantities and totals price quantity",
           "hierarchy": "Cryptsy API Public OrderData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "GOrderData",
           "package": "cryptsy-api",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault order data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "OrderData",
           "package": "cryptsy-api",
@@ -264,6 +285,7 @@
         "index": {
           "description": "default order data",
           "hierarchy": "Cryptsy API Public OrderData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "OrderData",
           "package": "cryptsy-api",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "OrderData",
           "package": "cryptsy-api",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public OrderData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "OrderData",
           "package": "cryptsy-api",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "orderBooks",
           "package": "cryptsy-api",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public OrderData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "orderBooks",
           "package": "cryptsy-api",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest full order book for all markets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "orderData",
           "package": "cryptsy-api",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Request full order book for all markets",
           "hierarchy": "Cryptsy API Public OrderData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "orderData",
           "package": "cryptsy-api",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild parser for multiple orderbooks from parser for single orderbook.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "parseOrderData",
           "package": "cryptsy-api",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Build parser for multiple orderbooks from parser for single orderbook",
           "hierarchy": "Cryptsy API Public OrderData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.OrderData",
           "name": "parseOrderData",
           "normalized": "(Value-\u003eParser(GOrderBook a b c))-\u003eValue-\u003eParser(GOrderData a b c)",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSum type for any error conditions in a API request.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "Error",
           "package": "cryptsy-api",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Sum type for any error conditions in API request",
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "Error",
           "package": "cryptsy-api",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror conditions w/ debugging information for an API request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "CryptsyError",
           "package": "cryptsy-api",
@@ -403,6 +436,7 @@
         "index": {
           "description": "error conditions debugging information for an API request",
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "CryptsyError",
           "package": "cryptsy-api",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "BadResponse",
           "package": "cryptsy-api",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "BadResponse",
           "package": "cryptsy-api",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "BadURL",
           "package": "cryptsy-api",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "BadURL",
           "package": "cryptsy-api",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "ErrorResponse",
           "package": "cryptsy-api",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "ErrorResponse",
           "package": "cryptsy-api",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "FailParseResponse",
           "package": "cryptsy-api",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "FailParseResponse",
           "package": "cryptsy-api",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "FailParseReturn",
           "package": "cryptsy-api",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "FailParseReturn",
           "package": "cryptsy-api",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "UnsuccessfulResponse",
           "package": "cryptsy-api",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "UnsuccessfulResponse",
           "package": "cryptsy-api",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "badResponse",
           "package": "cryptsy-api",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "badResponse",
           "package": "cryptsy-api",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "badURL",
           "package": "cryptsy-api",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "badURL",
           "package": "cryptsy-api",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "dataValue",
           "package": "cryptsy-api",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "dataValue",
           "package": "cryptsy-api",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "errorMessage",
           "package": "cryptsy-api",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "errorMessage",
           "package": "cryptsy-api",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "errorValue",
           "package": "cryptsy-api",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "errorValue",
           "package": "cryptsy-api",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "jsonResponse",
           "package": "cryptsy-api",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "jsonResponse",
           "package": "cryptsy-api",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "responseBody",
           "package": "cryptsy-api",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Error",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Error",
           "name": "responseBody",
           "package": "cryptsy-api",
@@ -703,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType for individual market information returned from API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "Market",
           "package": "cryptsy-api",
@@ -712,6 +773,7 @@
         "index": {
           "description": "Type for individual market information returned from API",
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "Market",
           "package": "cryptsy-api",
@@ -726,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneralized market\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "GMarket",
           "package": "cryptsy-api",
@@ -735,6 +798,7 @@
         "index": {
           "description": "generalized market",
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "GMarket",
           "package": "cryptsy-api",
@@ -749,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault market\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "Market",
           "package": "cryptsy-api",
@@ -758,6 +823,7 @@
         "index": {
           "description": "default market",
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "Market",
           "package": "cryptsy-api",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "Market",
           "package": "cryptsy-api",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "Market",
           "package": "cryptsy-api",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktBuyOrders",
           "package": "cryptsy-api",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktBuyOrders",
           "package": "cryptsy-api",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktLabel",
           "package": "cryptsy-api",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktLabel",
           "package": "cryptsy-api",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktLastTradePrice",
           "package": "cryptsy-api",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktLastTradePrice",
           "package": "cryptsy-api",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktLastTradeTime",
           "package": "cryptsy-api",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktLastTradeTime",
           "package": "cryptsy-api",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktMarketid",
           "package": "cryptsy-api",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktMarketid",
           "package": "cryptsy-api",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktPrimaryCode",
           "package": "cryptsy-api",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktPrimaryCode",
           "package": "cryptsy-api",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktPrimaryName",
           "package": "cryptsy-api",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktPrimaryName",
           "package": "cryptsy-api",
@@ -947,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktRecentTrades",
           "package": "cryptsy-api",
@@ -956,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktRecentTrades",
           "package": "cryptsy-api",
@@ -969,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktSecondaryCode",
           "package": "cryptsy-api",
@@ -978,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktSecondaryCode",
           "package": "cryptsy-api",
@@ -991,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktSecondaryName",
           "package": "cryptsy-api",
@@ -1000,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktSecondaryName",
           "package": "cryptsy-api",
@@ -1013,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktSellOrders",
           "package": "cryptsy-api",
@@ -1022,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktSellOrders",
           "package": "cryptsy-api",
@@ -1035,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktVolume",
           "package": "cryptsy-api",
@@ -1044,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "mktVolume",
           "package": "cryptsy-api",
@@ -1058,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine component parsers into JSON Object parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "parseMarket",
           "package": "cryptsy-api",
@@ -1067,6 +1160,7 @@
         "index": {
           "description": "Combine component parsers into JSON Object parser",
           "hierarchy": "Cryptsy API Public Types Market",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Market",
           "name": "parseMarket",
           "normalized": "(Value-\u003eParser a)-\u003e(Value-\u003eParser b)-\u003e(Value-\u003eParser c)-\u003e(Value-\u003eParser d)-\u003eValue-\u003eParser(GMarket a b c d)",
@@ -1083,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType for all data returned by a market data request.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "MarketData",
           "package": "cryptsy-api",
@@ -1092,6 +1187,7 @@
         "index": {
           "description": "Type for all data returned by market data request",
           "hierarchy": "Cryptsy API Public Types MarketData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "MarketData",
           "package": "cryptsy-api",
@@ -1106,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral market data parameterized by types for prices, quantities,\n date/time values, and totals (price * quantity)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "GMarketData",
           "package": "cryptsy-api",
@@ -1115,6 +1212,7 @@
         "index": {
           "description": "general market data parameterized by types for prices quantities date time values and totals price quantity",
           "hierarchy": "Cryptsy API Public Types MarketData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "GMarketData",
           "package": "cryptsy-api",
@@ -1129,6 +1227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault market data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "MarketData",
           "package": "cryptsy-api",
@@ -1138,6 +1237,7 @@
         "index": {
           "description": "default market data",
           "hierarchy": "Cryptsy API Public Types MarketData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "MarketData",
           "package": "cryptsy-api",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "MarketData",
           "package": "cryptsy-api",
@@ -1160,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types MarketData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "MarketData",
           "package": "cryptsy-api",
@@ -1173,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "markets",
           "package": "cryptsy-api",
@@ -1182,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types MarketData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "markets",
           "package": "cryptsy-api",
@@ -1195,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild parser for multiple markets from parser for single market.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "parseMarketData",
           "package": "cryptsy-api",
@@ -1204,6 +1309,7 @@
         "index": {
           "description": "Build parser for multiple markets from parser for single market",
           "hierarchy": "Cryptsy API Public Types MarketData",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.MarketData",
           "name": "parseMarketData",
           "normalized": "(Value-\u003eParser(GMarket a b c d))-\u003eValue-\u003eParser(GMarketData a b c d)",
@@ -1220,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad in which public API requests occur.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Monad",
           "name": "Monad",
           "package": "cryptsy-api",
@@ -1229,6 +1336,7 @@
         "index": {
           "description": "Monad in which public API requests occur",
           "hierarchy": "Cryptsy API Public Types Monad",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Monad",
           "name": "Monad",
           "package": "cryptsy-api",
@@ -1243,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erequest monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Monad",
           "name": "PubCryptsy",
           "package": "cryptsy-api",
@@ -1252,6 +1361,7 @@
         "index": {
           "description": "request monad",
           "hierarchy": "Cryptsy API Public Types Monad",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Monad",
           "name": "PubCryptsy",
           "package": "cryptsy-api",
@@ -1266,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault numeric type for prices, quanities, and total returned from the\n API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "Num",
           "package": "cryptsy-api",
@@ -1275,6 +1386,7 @@
         "index": {
           "description": "Default numeric type for prices quanities and total returned from the API",
           "hierarchy": "Cryptsy API Public Types Num",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "Num",
           "package": "cryptsy-api",
@@ -1289,6 +1401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative number type for the API, newtype for custom FromJSON instance, which\n only accepts JSON strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "CryptsyNum",
           "package": "cryptsy-api",
@@ -1298,6 +1411,7 @@
         "index": {
           "description": "Native number type for the API newtype for custom FromJSON instance which only accepts JSON strings",
           "hierarchy": "Cryptsy API Public Types Num",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "CryptsyNum",
           "package": "cryptsy-api",
@@ -1312,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom resolution for \u003ccode\u003e\u003ca\u003eFixed\u003c/a\u003e\u003c/code\u003e; 1e8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "E8",
           "package": "cryptsy-api",
@@ -1321,6 +1436,7 @@
         "index": {
           "description": "Custom resolution for Fixed e8",
           "hierarchy": "Cryptsy API Public Types Num",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "E8",
           "package": "cryptsy-api",
@@ -1333,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "CryptsyNum",
           "package": "cryptsy-api",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Num",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "CryptsyNum",
           "package": "cryptsy-api",
@@ -1355,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "toFixed",
           "package": "cryptsy-api",
@@ -1364,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Num",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Num",
           "name": "toFixed",
           "package": "cryptsy-api",
@@ -1378,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType for individual orders (order book entries) from the API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "Order",
           "package": "cryptsy-api",
@@ -1387,6 +1508,7 @@
         "index": {
           "description": "Type for individual orders order book entries from the API",
           "hierarchy": "Cryptsy API Public Types Order",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "Order",
           "package": "cryptsy-api",
@@ -1401,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneralized order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "GOrder",
           "package": "cryptsy-api",
@@ -1410,6 +1533,7 @@
         "index": {
           "description": "generalized order",
           "hierarchy": "Cryptsy API Public Types Order",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "GOrder",
           "package": "cryptsy-api",
@@ -1424,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "Order",
           "package": "cryptsy-api",
@@ -1433,6 +1558,7 @@
         "index": {
           "description": "default order",
           "hierarchy": "Cryptsy API Public Types Order",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "Order",
           "package": "cryptsy-api",
@@ -1446,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "Order",
           "package": "cryptsy-api",
@@ -1455,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Order",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "Order",
           "package": "cryptsy-api",
@@ -1468,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "orderPrice",
           "package": "cryptsy-api",
@@ -1477,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Order",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "orderPrice",
           "package": "cryptsy-api",
@@ -1490,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "orderQuantity",
           "package": "cryptsy-api",
@@ -1499,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Order",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "orderQuantity",
           "package": "cryptsy-api",
@@ -1512,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "orderTotal",
           "package": "cryptsy-api",
@@ -1521,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Order",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "orderTotal",
           "package": "cryptsy-api",
@@ -1535,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine component parsers into JSON Object parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "parseOrder",
           "package": "cryptsy-api",
@@ -1544,6 +1679,7 @@
         "index": {
           "description": "Combine component parsers into JSON Object parser",
           "hierarchy": "Cryptsy API Public Types Order",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Order",
           "name": "parseOrder",
           "normalized": "(Value-\u003eParser a)-\u003e(Value-\u003eParser b)-\u003e(Value-\u003eParser c)-\u003eValue-\u003eParser(GOrder a b c)",
@@ -1560,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType for order books returned from the API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "OrderBook",
           "package": "cryptsy-api",
@@ -1569,6 +1706,7 @@
         "index": {
           "description": "Type for order books returned from the API",
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "OrderBook",
           "package": "cryptsy-api",
@@ -1583,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral order book\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "GOrderBook",
           "package": "cryptsy-api",
@@ -1592,6 +1731,7 @@
         "index": {
           "description": "general order book",
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "GOrderBook",
           "package": "cryptsy-api",
@@ -1606,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault order book\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "OrderBook",
           "package": "cryptsy-api",
@@ -1615,6 +1756,7 @@
         "index": {
           "description": "default order book",
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "OrderBook",
           "package": "cryptsy-api",
@@ -1628,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "OrderBook",
           "package": "cryptsy-api",
@@ -1637,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "OrderBook",
           "package": "cryptsy-api",
@@ -1650,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obBuyOrders",
           "package": "cryptsy-api",
@@ -1659,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obBuyOrders",
           "package": "cryptsy-api",
@@ -1672,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obLabel",
           "package": "cryptsy-api",
@@ -1681,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obLabel",
           "package": "cryptsy-api",
@@ -1694,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obMarketId",
           "package": "cryptsy-api",
@@ -1703,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obMarketId",
           "package": "cryptsy-api",
@@ -1716,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obPrimaryCode",
           "package": "cryptsy-api",
@@ -1725,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obPrimaryCode",
           "package": "cryptsy-api",
@@ -1738,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obPrimaryName",
           "package": "cryptsy-api",
@@ -1747,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obPrimaryName",
           "package": "cryptsy-api",
@@ -1760,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obSecondaryCode",
           "package": "cryptsy-api",
@@ -1769,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obSecondaryCode",
           "package": "cryptsy-api",
@@ -1782,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obSecondaryName",
           "package": "cryptsy-api",
@@ -1791,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obSecondaryName",
           "package": "cryptsy-api",
@@ -1804,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obSellOrders",
           "package": "cryptsy-api",
@@ -1813,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "obSellOrders",
           "package": "cryptsy-api",
@@ -1827,6 +1987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild parser for orderbook from parser for a single order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "parseOrderBook",
           "package": "cryptsy-api",
@@ -1836,6 +1997,7 @@
         "index": {
           "description": "Build parser for orderbook from parser for single order",
           "hierarchy": "Cryptsy API Public Types OrderBook",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.OrderBook",
           "name": "parseOrderBook",
           "normalized": "(Value-\u003eParser(GOrder a b c))-\u003eValue-\u003eParser(GOrderBook a b c)",
@@ -1852,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault type for times returned by the API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Time",
           "name": "Time",
           "package": "cryptsy-api",
@@ -1861,6 +2024,7 @@
         "index": {
           "description": "Default type for times returned by the API",
           "hierarchy": "Cryptsy API Public Types Time",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Time",
           "name": "Time",
           "package": "cryptsy-api",
@@ -1875,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative date/time type for the API, newtype for custom FromJSON instance,\n which only accepts JSON strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Time",
           "name": "CryptsyTime",
           "package": "cryptsy-api",
@@ -1884,6 +2049,7 @@
         "index": {
           "description": "Native date time type for the API newtype for custom FromJSON instance which only accepts JSON strings",
           "hierarchy": "Cryptsy API Public Types Time",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Time",
           "name": "CryptsyTime",
           "package": "cryptsy-api",
@@ -1897,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Time",
           "name": "CryptsyTime",
           "package": "cryptsy-api",
@@ -1906,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Time",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Time",
           "name": "CryptsyTime",
           "package": "cryptsy-api",
@@ -1919,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Time",
           "name": "toLocalTime",
           "package": "cryptsy-api",
@@ -1928,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Time",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Time",
           "name": "toLocalTime",
           "package": "cryptsy-api",
@@ -1942,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType for individual executed trades from the API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "Trade",
           "package": "cryptsy-api",
@@ -1951,6 +2122,7 @@
         "index": {
           "description": "Type for individual executed trades from the API",
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "Trade",
           "package": "cryptsy-api",
@@ -1965,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneralized trade\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "GTrade",
           "package": "cryptsy-api",
@@ -1974,6 +2147,7 @@
         "index": {
           "description": "generalized trade",
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "GTrade",
           "package": "cryptsy-api",
@@ -1988,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estandard trade\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "Trade",
           "package": "cryptsy-api",
@@ -1997,6 +2172,7 @@
         "index": {
           "description": "standard trade",
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "Trade",
           "package": "cryptsy-api",
@@ -2010,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "Trade",
           "package": "cryptsy-api",
@@ -2019,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "Trade",
           "package": "cryptsy-api",
@@ -2033,6 +2211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine component parsers into JSON Object parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "parseTrade",
           "package": "cryptsy-api",
@@ -2042,6 +2221,7 @@
         "index": {
           "description": "Combine component parsers into JSON Object parser",
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "parseTrade",
           "normalized": "(Value-\u003eParser a)-\u003e(Value-\u003eParser b)-\u003e(Value-\u003eParser c)-\u003e(Value-\u003eParser d)-\u003eValue-\u003eParser(GTrade a b c d)",
@@ -2057,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradeId",
           "package": "cryptsy-api",
@@ -2066,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradeId",
           "package": "cryptsy-api",
@@ -2079,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradePrice",
           "package": "cryptsy-api",
@@ -2088,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradePrice",
           "package": "cryptsy-api",
@@ -2101,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradeQuantity",
           "package": "cryptsy-api",
@@ -2110,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradeQuantity",
           "package": "cryptsy-api",
@@ -2123,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradeTime",
           "package": "cryptsy-api",
@@ -2132,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradeTime",
           "package": "cryptsy-api",
@@ -2145,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradeTotal",
           "package": "cryptsy-api",
@@ -2154,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Cryptsy API Public Types Trade",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types.Trade",
           "name": "tradeTotal",
           "package": "cryptsy-api",
@@ -2168,6 +2358,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-exports the entire Cryptsy.API.Public.Types.* heirarchy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public.Types",
           "name": "Types",
           "package": "cryptsy-api",
@@ -2177,6 +2368,7 @@
         "index": {
           "description": "Re-exports the entire Cryptsy.API.Public.Types heirarchy",
           "hierarchy": "Cryptsy API Public Types",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public.Types",
           "name": "Types",
           "package": "cryptsy-api",
@@ -2191,6 +2383,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-exports the entire Cryptsy.API.Public.* heirarchy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:16 UTC 2014",
           "module": "Cryptsy.API.Public",
           "name": "Public",
           "package": "cryptsy-api",
@@ -2200,6 +2393,7 @@
         "index": {
           "description": "Re-exports the entire Cryptsy.API.Public heirarchy",
           "hierarchy": "Cryptsy API Public",
+          "indexed": "2014-03-11T17:44:16",
           "module": "Cryptsy.API.Public",
           "name": "Public",
           "package": "cryptsy-api",

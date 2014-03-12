@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-install-ghc72"
+        "phrase": "cabal-install-ghc72",
+        "type": "phrase"
       },
       "type": "context"
     }

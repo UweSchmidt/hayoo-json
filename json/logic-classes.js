@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "logic-classes"
+        "phrase": "logic-classes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Haskell library provides an implementation of the\n Davis-Putnam-Logemann-Loveland algorithm\n (cf. \u003ca\u003ehttp://en.wikipedia.org/wiki/DPLL_algorithm\u003c/a\u003e) for the boolean\n satisfiability problem. It not only allows to solve boolean\n formulas in one go but also to add constraints and query bindings\n of variables incrementally.\n\u003c/p\u003e\u003cp\u003eThe implementation is not sophisticated at all but uses the basic\n DPLL algorithm with unit propagation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "SatSolver",
           "package": "logic-classes",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This Haskell library provides an implementation of the Davis-Putnam-Logemann-Loveland algorithm cf http en.wikipedia.org wiki DPLL algorithm for the boolean satisfiability problem It not only allows to solve boolean formulas in one go but also to add constraints and query bindings of variables incrementally The implementation is not sophisticated at all but uses the basic DPLL algorithm with unit propagation",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "SatSolver",
           "package": "logic-classes",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean formulas are represented as values of type \u003ccode\u003eBoolean\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "Boolean",
           "package": "logic-classes",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Boolean formulas are represented as values of type Boolean",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "Boolean",
           "package": "logic-classes",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunctive normalforms are lists of lists of literals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "CNF",
           "package": "logic-classes",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Conjunctive normalforms are lists of lists of literals",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "CNF",
           "package": "logic-classes",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "Clause",
           "package": "logic-classes",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "Clause",
           "package": "logic-classes",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiterals are variables that occur either positively or negatively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "Literal",
           "package": "logic-classes",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Literals are variables that occur either positively or negatively",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "Literal",
           "package": "logic-classes",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eSatSolver\u003c/code\u003e can be used to solve boolean formulas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "SatSolver",
           "package": "logic-classes",
@@ -141,6 +152,7 @@
         "index": {
           "description": "SatSolver can be used to solve boolean formulas",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "SatSolver",
           "package": "logic-classes",
@@ -349,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe can assert boolean formulas to update a \u003ccode\u003eSatSolver\u003c/code\u003e. The\n assertion may fail if the resulting constraints are unsatisfiable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "assertTrue",
           "package": "logic-classes",
@@ -359,6 +372,7 @@
         "index": {
           "description": "We can assert boolean formulas to update SatSolver The assertion may fail if the resulting constraints are unsatisfiable",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "assertTrue",
           "normalized": "Boolean-\u003eSatSolver-\u003ea SatSolver",
@@ -374,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "assertTrue'",
           "package": "logic-classes",
@@ -383,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "assertTrue'",
           "normalized": "CNF-\u003eSatSolver-\u003ea SatSolver",
@@ -426,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function guesses a value for the given variable, if it is\n currently unbound. As this is a non-deterministic operation, the\n resulting solvers are returned in an instance of \u003ccode\u003eMonadPlus\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "branchOnVar",
           "package": "logic-classes",
@@ -436,6 +453,7 @@
         "index": {
           "description": "This function guesses value for the given variable if it is currently unbound As this is non-deterministic operation the resulting solvers are returned in an instance of MonadPlus",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "branchOnVar",
           "normalized": "Int-\u003eSatSolver-\u003ea SatSolver",
@@ -506,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis predicate tells whether the stored constraints are\n solvable. Use with care! This might be an inefficient operation. It\n tries to find a solution using backtracking and returns \u003ccode\u003eTrue\u003c/code\u003e if\n and only if that fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "isSolvable",
           "package": "logic-classes",
@@ -516,6 +535,7 @@
         "index": {
           "description": "This predicate tells whether the stored constraints are solvable Use with care This might be an inefficient operation It tries to find solution using backtracking and returns True if and only if that fails",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "isSolvable",
           "normalized": "SatSolver-\u003eBool",
@@ -532,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis predicate tells whether all constraints are solved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "isSolved",
           "package": "logic-classes",
@@ -542,6 +563,7 @@
         "index": {
           "description": "This predicate tells whether all constraints are solved",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "isSolved",
           "normalized": "SatSolver-\u003eBool",
@@ -585,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe can lookup the binding of a variable according to the currently\n stored constraints. If the variable is unbound, the result is\n \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "lookupVar",
           "package": "logic-classes",
@@ -595,6 +618,7 @@
         "index": {
           "description": "We can lookup the binding of variable according to the currently stored constraints If the variable is unbound the result is Nothing",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "lookupVar",
           "normalized": "Int-\u003eSatSolver-\u003eMaybe Bool",
@@ -611,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new SAT solver without stored constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "newSatSolver",
           "package": "logic-classes",
@@ -621,6 +646,7 @@
         "index": {
           "description": "new SAT solver without stored constraints",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "newSatSolver",
           "package": "logic-classes",
@@ -635,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe select a variable from the shortest clause hoping to produce a\n unit clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "selectBranchVar",
           "package": "logic-classes",
@@ -645,6 +672,7 @@
         "index": {
           "description": "We select variable from the shortest clause hoping to produce unit clause",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "selectBranchVar",
           "normalized": "SatSolver-\u003eInt",
@@ -661,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function guesses values for variables such that the stored\n constraints are satisfied. The result may be non-deterministic and\n is, hence, returned in an instance of \u003ccode\u003eMonadPlus\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean.SatSolver",
           "name": "solve",
           "package": "logic-classes",
@@ -671,6 +700,7 @@
         "index": {
           "description": "This function guesses values for variables such that the stored constraints are satisfied The result may be non-deterministic and is hence returned in an instance of MonadPlus",
           "hierarchy": "Data Boolean SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean.SatSolver",
           "name": "solve",
           "normalized": "SatSolver-\u003ea SatSolver",
@@ -686,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides a representation of boolean formulas that is\n used by the solver in \u003ca\u003eData.Boolean.SatSolver\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eWe also define a function to simplify formulas, a type for\n conjunctive normalforms, and a function that creates them from\n boolean formulas.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean",
           "name": "Boolean",
           "package": "logic-classes",
@@ -695,6 +726,7 @@
         "index": {
           "description": "This library provides representation of boolean formulas that is used by the solver in Data.Boolean.SatSolver We also define function to simplify formulas type for conjunctive normalforms and function that creates them from boolean formulas",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean",
           "name": "Boolean",
           "package": "logic-classes",
@@ -709,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean formulas are represented as values of type \u003ccode\u003eBoolean\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean",
           "name": "Boolean",
           "package": "logic-classes",
@@ -718,6 +751,7 @@
         "index": {
           "description": "Boolean formulas are represented as values of type Boolean",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean",
           "name": "Boolean",
           "package": "logic-classes",
@@ -732,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunctive normalforms are lists of lists of literals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean",
           "name": "CNF",
           "package": "logic-classes",
@@ -741,6 +776,7 @@
         "index": {
           "description": "Conjunctive normalforms are lists of lists of literals",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean",
           "name": "CNF",
           "package": "logic-classes",
@@ -754,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean",
           "name": "Clause",
           "package": "logic-classes",
@@ -762,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean",
           "name": "Clause",
           "package": "logic-classes",
@@ -776,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiterals are variables that occur either positively or negatively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Boolean",
           "name": "Literal",
           "package": "logic-classes",
@@ -785,6 +824,7 @@
         "index": {
           "description": "Literals are variables that occur either positively or negatively",
           "hierarchy": "Data Boolean",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Boolean",
           "name": "Literal",
           "package": "logic-classes",
@@ -799,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Apply class represents a type of atom the only supports predicate application.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "Apply",
           "package": "logic-classes",
@@ -808,6 +849,7 @@
         "index": {
           "description": "The Apply class represents type of atom the only supports predicate application",
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "Apply",
           "package": "logic-classes",
@@ -821,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "Apply",
           "package": "logic-classes",
@@ -829,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "Apply",
           "package": "logic-classes",
@@ -842,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "Predicate",
           "package": "logic-classes",
@@ -850,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "Predicate",
           "package": "logic-classes",
@@ -864,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply' with an arity check - clients should always call this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply",
           "package": "logic-classes",
@@ -874,6 +921,7 @@
         "index": {
           "description": "apply with an arity check clients should always call this",
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply",
           "normalized": "a-\u003e[b]-\u003ec",
@@ -888,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply'",
           "package": "logic-classes",
@@ -897,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply'",
           "normalized": "a-\u003e[b]-\u003ec",
@@ -911,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply0",
           "package": "logic-classes",
@@ -920,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply0",
           "normalized": "a-\u003eb",
@@ -934,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply1",
           "package": "logic-classes",
@@ -943,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply1",
           "normalized": "a-\u003eb-\u003ec",
@@ -957,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply2",
           "package": "logic-classes",
@@ -966,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply2",
           "normalized": "a-\u003eb-\u003eb-\u003ec",
@@ -980,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply3",
           "package": "logic-classes",
@@ -989,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply3",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -1003,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply4",
           "package": "logic-classes",
@@ -1012,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply4",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -1026,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply5",
           "package": "logic-classes",
@@ -1035,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply5",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -1049,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply6",
           "package": "logic-classes",
@@ -1058,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply6",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -1072,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply7",
           "package": "logic-classes",
@@ -1081,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "apply7",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -1095,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "foldApply",
           "package": "logic-classes",
@@ -1104,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "foldApply",
           "normalized": "(a-\u003e[b]-\u003ec)-\u003e(Bool-\u003ec)-\u003ed-\u003ec",
@@ -1119,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "prettyApply",
           "package": "logic-classes",
@@ -1128,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "prettyApply",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003e(c-\u003eDoc)-\u003eInt-\u003ed-\u003eDoc",
@@ -1143,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "showApply",
           "package": "logic-classes",
@@ -1152,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "showApply",
           "normalized": "a-\u003eString",
@@ -1167,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "substApply",
           "package": "logic-classes",
@@ -1176,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "substApply",
           "normalized": "Map a b-\u003ec-\u003ec",
@@ -1192,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the variables that occur in an instance of Apply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "varApply",
           "package": "logic-classes",
@@ -1202,6 +1277,7 @@
         "index": {
           "description": "Return the variables that occur in an instance of Apply",
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "varApply",
           "normalized": "a-\u003eSet b",
@@ -1217,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Apply",
           "name": "zipApplys",
           "package": "logic-classes",
@@ -1226,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Apply",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Apply",
           "name": "zipApplys",
           "normalized": "(a-\u003e[b]-\u003ea-\u003e[b]-\u003eMaybe c)-\u003e(Bool-\u003eBool-\u003eMaybe c)-\u003ed-\u003ed-\u003eMaybe c",
@@ -1241,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Arity",
           "name": "Arity",
           "package": "logic-classes",
@@ -1249,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Arity",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Arity",
           "name": "Arity",
           "package": "logic-classes",
@@ -1263,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class that characterizes how many arguments a predicate or\n function takes.  Depending on the context, a result of Nothing may\n mean that the arity is undetermined or unknown.  However, even if\n this returns Nothing, the same number of arguments must be passed\n to all uses of a given predicate or function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Arity",
           "name": "Arity",
           "package": "logic-classes",
@@ -1272,6 +1353,7 @@
         "index": {
           "description": "class that characterizes how many arguments predicate or function takes Depending on the context result of Nothing may mean that the arity is undetermined or unknown However even if this returns Nothing the same number of arguments must be passed to all uses of given predicate or function",
           "hierarchy": "Data Logic Classes Arity",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Arity",
           "name": "Arity",
           "package": "logic-classes",
@@ -1285,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Arity",
           "name": "arity",
           "package": "logic-classes",
@@ -1294,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Arity",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Arity",
           "name": "arity",
           "normalized": "a-\u003eMaybe Int",
@@ -1309,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubstitution and finding variables are two basic operations on\n formulas that contain terms and variables.  If a formula type\n supports quantifiers we can also find free variables, otherwise all\n variables are considered free.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "Atom",
           "package": "logic-classes",
@@ -1318,6 +1403,7 @@
         "index": {
           "description": "Substitution and finding variables are two basic operations on formulas that contain terms and variables If formula type supports quantifiers we can also find free variables otherwise all variables are considered free",
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "Atom",
           "package": "logic-classes",
@@ -1331,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "Atom",
           "package": "logic-classes",
@@ -1339,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "Atom",
           "package": "logic-classes",
@@ -1352,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "allVariables",
           "package": "logic-classes",
@@ -1361,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "allVariables",
           "normalized": "a-\u003eSet b",
@@ -1376,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "foldTerms",
           "package": "logic-classes",
@@ -1385,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "foldTerms",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec-\u003eb",
@@ -1400,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "freeVariables",
           "package": "logic-classes",
@@ -1409,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "freeVariables",
           "normalized": "a-\u003eSet b",
@@ -1424,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "getSubst",
           "package": "logic-classes",
@@ -1433,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "getSubst",
           "normalized": "Map a b-\u003ec-\u003eMap a b",
@@ -1448,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "isRename",
           "package": "logic-classes",
@@ -1457,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "isRename",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1473,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery similar to unify, not quite sure if there is a difference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "match",
           "package": "logic-classes",
@@ -1483,6 +1582,7 @@
         "index": {
           "description": "Very similar to unify not quite sure if there is difference",
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "match",
           "normalized": "Map a b-\u003ec-\u003ec-\u003eFailing(Map a b)",
@@ -1497,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "substitute",
           "package": "logic-classes",
@@ -1506,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "substitute",
           "normalized": "Map a b-\u003ec-\u003ec",
@@ -1520,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Atom",
           "name": "unify",
           "package": "logic-classes",
@@ -1529,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Atom",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Atom",
           "name": "unify",
           "normalized": "Map a b-\u003ec-\u003ec-\u003eFailing(Map a b)",
@@ -1543,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "ClauseNormalForm",
           "package": "logic-classes",
@@ -1551,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes ClauseNormalForm",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "ClauseNormalForm",
           "package": "logic-classes",
@@ -1565,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to represent formulas in CNF, which is the conjunction of\n a set of disjuncted literals each which may or may not be negated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "ClauseNormalFormula",
           "package": "logic-classes",
@@ -1574,6 +1681,7 @@
         "index": {
           "description": "class to represent formulas in CNF which is the conjunction of set of disjuncted literals each which may or may not be negated",
           "hierarchy": "Data Logic Classes ClauseNormalForm",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "ClauseNormalFormula",
           "package": "logic-classes",
@@ -1587,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "clauses",
           "package": "logic-classes",
@@ -1596,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes ClauseNormalForm",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "clauses",
           "normalized": "a-\u003eSet(Set b)",
@@ -1610,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "makeCNF",
           "package": "logic-classes",
@@ -1619,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes ClauseNormalForm",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "makeCNF",
           "normalized": "Set(Set a)-\u003eb",
@@ -1634,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "satisfiable",
           "package": "logic-classes",
@@ -1643,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes ClauseNormalForm",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.ClauseNormalForm",
           "name": "satisfiable",
           "normalized": "a-\u003eb Bool",
@@ -1658,6 +1772,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClass Logic defines the basic boolean logic operations,\n AND, OR, NOT, and so on.  Definitions which pertain to both\n propositional and first order logic are here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "Combine",
           "package": "logic-classes",
@@ -1667,6 +1782,7 @@
         "index": {
           "description": "Class Logic defines the basic boolean logic operations AND OR NOT and so on Definitions which pertain to both propositional and first order logic are here",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "Combine",
           "package": "logic-classes",
@@ -1681,6 +1797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the boolean logic binary operations, used in the\n Combination type above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "BinOp",
           "package": "logic-classes",
@@ -1690,6 +1807,7 @@
         "index": {
           "description": "Represents the boolean logic binary operations used in the Combination type above",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "BinOp",
           "package": "logic-classes",
@@ -1704,6 +1822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for logical formulas.  Minimal implementation:\n \u003ccode\u003e\n  (.|.)\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "Combinable",
           "package": "logic-classes",
@@ -1713,6 +1832,7 @@
         "index": {
           "description": "type class for logical formulas Minimal implementation",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "Combinable",
           "package": "logic-classes",
@@ -1727,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCombination\u003c/a\u003e\u003c/code\u003e is a helper type used in the signatures of the\n \u003ccode\u003efoldPropositional\u003c/code\u003e and \u003ccode\u003efoldFirstOrder\u003c/code\u003e methods so can represent\n all the ways that formulas can be combined using boolean logic -\n negation, logical And, and so forth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "Combination",
           "package": "logic-classes",
@@ -1736,6 +1857,7 @@
         "index": {
           "description": "Combination is helper type used in the signatures of the foldPropositional and foldFirstOrder methods so can represent all the ways that formulas can be combined using boolean logic negation logical And and so forth",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "Combination",
           "package": "logic-classes",
@@ -1749,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(\u003c=\u003e)",
           "package": "logic-classes",
@@ -1758,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(\u003c=\u003e) \u003c=\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1772,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(==\u003e)",
           "package": "logic-classes",
@@ -1781,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(==\u003e) ==\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1796,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#8658; can't be a function when -XUnicodeSyntax is enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(⇒)",
           "package": "logic-classes",
@@ -1806,6 +1933,7 @@
         "index": {
           "description": "can be function when XUnicodeSyntax is enabled",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(⇒) ⇒",
           "normalized": "a-\u003ea-\u003ea",
@@ -1820,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(⇔)",
           "package": "logic-classes",
@@ -1829,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(⇔) ⇔",
           "normalized": "a-\u003ea-\u003ea",
@@ -1843,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(∧)",
           "package": "logic-classes",
@@ -1852,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(∧) ∧",
           "normalized": "a-\u003ea-\u003ea",
@@ -1866,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(∨)",
           "package": "logic-classes",
@@ -1875,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(∨) ∨",
           "normalized": "a-\u003ea-\u003ea",
@@ -1890,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction/OR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.|.)",
           "package": "logic-classes",
@@ -1900,6 +2035,7 @@
         "index": {
           "description": "Disjunction OR",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.|.) .|.",
           "normalized": "a-\u003ea-\u003ea",
@@ -1915,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.~|.)",
           "package": "logic-classes",
@@ -1925,6 +2062,7 @@
         "index": {
           "description": "Nor",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.~|.) .~|.",
           "normalized": "a-\u003ea-\u003ea",
@@ -1940,6 +2078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.~&.)",
           "package": "logic-classes",
@@ -1950,6 +2089,7 @@
         "index": {
           "description": "Nand",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.~&.) .~&.",
           "normalized": "a-\u003ea-\u003ea",
@@ -1965,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerived formula combinators.  These could (and should!) be\n overridden with expressions native to the instance.\n\u003c/p\u003e\u003cp\u003e| Conjunction/AND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.&.)",
           "package": "logic-classes",
@@ -1975,6 +2116,7 @@
         "index": {
           "description": "Derived formula combinators These could and should be overridden with expressions native to the instance Conjunction AND",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.&.) .&.",
           "normalized": "a-\u003ea-\u003ea",
@@ -1990,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExclusive or\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.\u003c~\u003e.)",
           "package": "logic-classes",
@@ -2000,6 +2143,7 @@
         "index": {
           "description": "Exclusive or",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.\u003c~\u003e.) .\u003c~\u003e.",
           "normalized": "a-\u003ea-\u003ea",
@@ -2015,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormula combinators: Equivalence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.\u003c=\u003e.)",
           "package": "logic-classes",
@@ -2025,6 +2170,7 @@
         "index": {
           "description": "Formula combinators Equivalence",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.\u003c=\u003e.) .\u003c=\u003e.",
           "normalized": "a-\u003ea-\u003ea",
@@ -2040,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse implication:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.\u003c=.)",
           "package": "logic-classes",
@@ -2050,6 +2197,7 @@
         "index": {
           "description": "Reverse implication",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.\u003c=.) .\u003c=.",
           "normalized": "a-\u003ea-\u003ea",
@@ -2065,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.=\u003e.)",
           "package": "logic-classes",
@@ -2075,6 +2224,7 @@
         "index": {
           "description": "Implication",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "(.=\u003e.) .=\u003e.",
           "normalized": "a-\u003ea-\u003ea",
@@ -2090,6 +2240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": ":|:",
           "package": "logic-classes",
@@ -2100,6 +2251,7 @@
         "index": {
           "description": "OR",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": ":|:",
           "package": "logic-classes",
@@ -2112,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": ":~:",
           "package": "logic-classes",
@@ -2121,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": ":~:",
           "package": "logic-classes",
@@ -2134,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": ":&:",
           "package": "logic-classes",
@@ -2144,6 +2299,7 @@
         "index": {
           "description": "AND",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": ":&:",
           "package": "logic-classes",
@@ -2157,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": ":\u003c=\u003e:",
           "package": "logic-classes",
@@ -2167,6 +2324,7 @@
         "index": {
           "description": "Equivalence",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": ":\u003c=\u003e:",
           "package": "logic-classes",
@@ -2180,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": ":=\u003e:",
           "package": "logic-classes",
@@ -2190,6 +2349,7 @@
         "index": {
           "description": "Implication",
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": ":=\u003e:",
           "package": "logic-classes",
@@ -2202,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "BinOp",
           "package": "logic-classes",
@@ -2211,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "BinOp",
           "package": "logic-classes",
@@ -2224,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "binop",
           "package": "logic-classes",
@@ -2233,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "binop",
           "normalized": "a-\u003eBinOp-\u003ea-\u003ea",
@@ -2273,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Combine",
           "name": "prettyBinOp",
           "package": "logic-classes",
@@ -2282,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Combine",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Combine",
           "name": "prettyBinOp",
           "normalized": "BinOp-\u003eDoc",
@@ -2297,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "Constants",
           "package": "logic-classes",
@@ -2305,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "Constants",
           "package": "logic-classes",
@@ -2319,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome types in the Logic class heirarchy need to have True and\n False elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "Constants",
           "package": "logic-classes",
@@ -2328,6 +2497,7 @@
         "index": {
           "description": "Some types in the Logic class heirarchy need to have True and False elements",
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "Constants",
           "package": "logic-classes",
@@ -2341,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "(⊨)",
           "package": "logic-classes",
@@ -2350,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "(⊨) ⊨",
           "package": "logic-classes",
@@ -2362,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "(⊭)",
           "package": "logic-classes",
@@ -2371,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "(⊭) ⊭",
           "package": "logic-classes",
@@ -2383,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "asBool",
           "package": "logic-classes",
@@ -2392,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "asBool",
           "normalized": "a-\u003eMaybe Bool",
@@ -2407,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "false",
           "package": "logic-classes",
@@ -2416,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "false",
           "package": "logic-classes",
@@ -2428,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "fromBool",
           "package": "logic-classes",
@@ -2437,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "fromBool",
           "normalized": "Bool-\u003ea",
@@ -2452,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "ifElse",
           "package": "logic-classes",
@@ -2461,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "ifElse",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -2476,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "prettyBool",
           "package": "logic-classes",
@@ -2485,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "prettyBool",
           "normalized": "Bool-\u003eDoc",
@@ -2500,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Constants",
           "name": "true",
           "package": "logic-classes",
@@ -2509,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Constants",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Constants",
           "name": "true",
           "package": "logic-classes",
@@ -2522,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for equality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "Equals",
           "package": "logic-classes",
@@ -2531,6 +2718,7 @@
         "index": {
           "description": "Support for equality",
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "Equals",
           "package": "logic-classes",
@@ -2545,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIts not safe to make Atom a superclass of AtomEq, because the Atom methods will fail on AtomEq instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "AtomEq",
           "package": "logic-classes",
@@ -2554,6 +2743,7 @@
         "index": {
           "description": "Its not safe to make Atom superclass of AtomEq because the Atom methods will fail on AtomEq instances",
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "AtomEq",
           "package": "logic-classes",
@@ -2568,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA way to represent any predicate's name.  Frequently the equality\n predicate has no standalone representation in the p type, it is\n just a constructor in the atom type, or even the formula type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "PredicateName",
           "package": "logic-classes",
@@ -2577,6 +2768,7 @@
         "index": {
           "description": "way to represent any predicate name Frequently the equality predicate has no standalone representation in the type it is just constructor in the atom type or even the formula type",
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "PredicateName",
           "package": "logic-classes",
@@ -2590,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "(≡)",
           "package": "logic-classes",
@@ -2599,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "(≡) ≡",
           "normalized": "a-\u003ea-\u003eb",
@@ -2613,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "(≢)",
           "package": "logic-classes",
@@ -2622,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "(≢) ≢",
           "normalized": "a-\u003ea-\u003eb",
@@ -2636,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "(.!=.)",
           "package": "logic-classes",
@@ -2645,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "(.!=.) .!=.",
           "normalized": "a-\u003ea-\u003eb",
@@ -2659,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "(.=.)",
           "package": "logic-classes",
@@ -2668,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "(.=.) .=.",
           "normalized": "a-\u003ea-\u003eb",
@@ -2682,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "Equals",
           "package": "logic-classes",
@@ -2691,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "Equals",
           "package": "logic-classes",
@@ -2704,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "Named",
           "package": "logic-classes",
@@ -2713,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "Named",
           "package": "logic-classes",
@@ -2726,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply0",
           "package": "logic-classes",
@@ -2735,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply0",
           "normalized": "a-\u003eb",
@@ -2749,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply1",
           "package": "logic-classes",
@@ -2758,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply1",
           "normalized": "a-\u003eb-\u003ec",
@@ -2772,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply2",
           "package": "logic-classes",
@@ -2781,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply2",
           "normalized": "a-\u003eb-\u003eb-\u003ec",
@@ -2795,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply3",
           "package": "logic-classes",
@@ -2804,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply3",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -2818,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply4",
           "package": "logic-classes",
@@ -2827,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply4",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -2841,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply5",
           "package": "logic-classes",
@@ -2850,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply5",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -2864,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply6",
           "package": "logic-classes",
@@ -2873,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply6",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -2887,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply7",
           "package": "logic-classes",
@@ -2896,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "apply7",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -2911,6 +3131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplyEq' with an arity check - clients should always call this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "applyEq",
           "package": "logic-classes",
@@ -2921,6 +3142,7 @@
         "index": {
           "description": "applyEq with an arity check clients should always call this",
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "applyEq",
           "normalized": "a-\u003e[b]-\u003ec",
@@ -2936,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "applyEq'",
           "package": "logic-classes",
@@ -2945,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "applyEq'",
           "normalized": "a-\u003e[b]-\u003ec",
@@ -2960,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "equals",
           "package": "logic-classes",
@@ -2969,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "equals",
           "normalized": "a-\u003ea-\u003eb",
@@ -2983,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "foldAtomEq",
           "package": "logic-classes",
@@ -2992,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "foldAtomEq",
           "normalized": "(a-\u003e[b]-\u003ec)-\u003e(Bool-\u003ec)-\u003e(b-\u003eb-\u003ec)-\u003ed-\u003ec",
@@ -3007,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "fromAtomEq",
           "package": "logic-classes",
@@ -3016,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "fromAtomEq",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003e(c-\u003ec)-\u003ed-\u003ed",
@@ -3031,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "funcsAtomEq",
           "package": "logic-classes",
@@ -3040,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "funcsAtomEq",
           "normalized": "a-\u003eSet(b,Int)",
@@ -3055,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp",
           "package": "logic-classes",
@@ -3064,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp",
           "normalized": "a-\u003e[b]-\u003ec",
@@ -3080,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersions of pApp specialized for different argument counts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp0",
           "package": "logic-classes",
@@ -3090,6 +3325,7 @@
         "index": {
           "description": "Versions of pApp specialized for different argument counts",
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp0",
           "normalized": "a-\u003eb",
@@ -3105,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp1",
           "package": "logic-classes",
@@ -3114,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp1",
           "normalized": "a-\u003eb-\u003ec",
@@ -3129,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp2",
           "package": "logic-classes",
@@ -3138,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp2",
           "normalized": "a-\u003eb-\u003eb-\u003ec",
@@ -3153,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp3",
           "package": "logic-classes",
@@ -3162,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp3",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -3177,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp4",
           "package": "logic-classes",
@@ -3186,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp4",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -3201,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp5",
           "package": "logic-classes",
@@ -3210,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp5",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -3225,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp6",
           "package": "logic-classes",
@@ -3234,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp6",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -3249,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp7",
           "package": "logic-classes",
@@ -3258,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "pApp7",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -3273,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "prettyAtomEq",
           "package": "logic-classes",
@@ -3282,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "prettyAtomEq",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003e(c-\u003eDoc)-\u003eInt-\u003ed-\u003eDoc",
@@ -3297,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "showAtomEq",
           "package": "logic-classes",
@@ -3306,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "showAtomEq",
           "normalized": "a-\u003eString",
@@ -3321,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "showFirstOrderFormulaEq",
           "package": "logic-classes",
@@ -3330,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "showFirstOrderFormulaEq",
           "normalized": "a-\u003eString",
@@ -3345,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "substAtomEq",
           "package": "logic-classes",
@@ -3354,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "substAtomEq",
           "normalized": "Map a b-\u003ec-\u003ec",
@@ -3370,6 +3628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the variables that occur in an instance of AtomEq.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "varAtomEq",
           "package": "logic-classes",
@@ -3380,6 +3639,7 @@
         "index": {
           "description": "Return the variables that occur in an instance of AtomEq",
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "varAtomEq",
           "normalized": "a-\u003eSet b",
@@ -3395,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Equals",
           "name": "zipAtomsEq",
           "package": "logic-classes",
@@ -3404,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Equals",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Equals",
           "name": "zipAtomsEq",
           "normalized": "(a-\u003e[b]-\u003ea-\u003e[b]-\u003eMaybe c)-\u003e(Bool-\u003eBool-\u003eMaybe c)-\u003e(b-\u003eb-\u003eb-\u003eb-\u003eMaybe c)-\u003ed-\u003ed-\u003eMaybe c",
@@ -3419,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "FirstOrder",
           "package": "logic-classes",
@@ -3427,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "FirstOrder",
           "package": "logic-classes",
@@ -3441,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFirstOrderFormula\u003c/a\u003e\u003c/code\u003e type class.  Minimal implementation:\n \u003ccode\u003efor_all, exists, foldFirstOrder, foldTerm, (.=.), pApp0-pApp7, fApp, var\u003c/code\u003e.  The\n functional dependencies are necessary here so we can write\n functions that don't fix all of the type parameters.  For example,\n without them the univquant_free_vars function gives the error \u003ccode\u003eNo\n instance for (FirstOrderFormula Formula atom V)\u003c/code\u003e because the\n function doesn't mention the Term type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "FirstOrderFormula",
           "package": "logic-classes",
@@ -3450,6 +3715,7 @@
         "index": {
           "description": "The FirstOrderFormula type class Minimal implementation for all exists foldFirstOrder foldTerm pApp0-pApp7 fApp var The functional dependencies are necessary here so we can write functions that don fix all of the type parameters For example without them the univquant free vars function gives the error No instance for FirstOrderFormula Formula atom because the function doesn mention the Term type",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "FirstOrderFormula",
           "package": "logic-classes",
@@ -3464,6 +3730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eQuant\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eInfixPred\u003c/code\u003e types, like the BinOp type in\n \u003ccode\u003e\u003ca\u003ePropositional\u003c/a\u003e\u003c/code\u003e, could be additional parameters to the type\n class, but it would add additional complexity with unclear\n benefits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "Quant",
           "package": "logic-classes",
@@ -3473,6 +3740,7 @@
         "index": {
           "description": "The Quant and InfixPred types like the BinOp type in Propositional could be additional parameters to the type class but it would add additional complexity with unclear benefits",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "Quant",
           "package": "logic-classes",
@@ -3487,6 +3755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames for for_all and exists inspired by the conventions of the\n TPTP project.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "(!)",
           "package": "logic-classes",
@@ -3497,6 +3766,7 @@
         "index": {
           "description": "Names for for all and exists inspired by the conventions of the TPTP project",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "(!) !",
           "normalized": "a-\u003eb-\u003eb",
@@ -3511,6 +3781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "(?)",
           "package": "logic-classes",
@@ -3520,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "(?) ?",
           "normalized": "a-\u003eb-\u003eb",
@@ -3535,6 +3807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#8704; can't be a function when -XUnicodeSyntax is enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "(∀)",
           "package": "logic-classes",
@@ -3545,6 +3818,7 @@
         "index": {
           "description": "can be function when XUnicodeSyntax is enabled",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "(∀) ∀",
           "normalized": "a-\u003eb-\u003eb",
@@ -3559,6 +3833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "(∃)",
           "package": "logic-classes",
@@ -3568,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "(∃) ∃",
           "normalized": "a-\u003eb-\u003eb",
@@ -3582,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "Exists",
           "package": "logic-classes",
@@ -3591,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "Exists",
           "package": "logic-classes",
@@ -3604,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "Forall",
           "package": "logic-classes",
@@ -3613,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "Forall",
           "package": "logic-classes",
@@ -3626,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "atom_union",
           "package": "logic-classes",
@@ -3635,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "atom_union",
           "normalized": "(a-\u003eSet b)-\u003ec-\u003eSet b",
@@ -3649,6 +3931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "convertFOF",
           "package": "logic-classes",
@@ -3658,6 +3941,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "convertFOF",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003ec-\u003ec",
@@ -3674,6 +3958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential quantification - there exists x such that (formula x)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "exists",
           "package": "logic-classes",
@@ -3684,6 +3969,7 @@
         "index": {
           "description": "Existential quantification there exists such that formula",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "exists",
           "normalized": "a-\u003eb-\u003eb",
@@ -3699,6 +3985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexists with a list of variables, for backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "exists'",
           "package": "logic-classes",
@@ -3709,6 +3996,7 @@
         "index": {
           "description": "exists with list of variables for backwards compatibility",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "exists'",
           "normalized": "[a]-\u003eb-\u003eb",
@@ -3723,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "fixityFirstOrder",
           "package": "logic-classes",
@@ -3732,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "fixityFirstOrder",
           "normalized": "a-\u003eFixity",
@@ -3747,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "foldAtomsFirstOrder",
           "package": "logic-classes",
@@ -3756,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "foldAtomsFirstOrder",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -3772,6 +4064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fold function similar to the one in \u003ccode\u003ePropositionalFormula\u003c/code\u003e\n but extended to cover both the existing formula types and the\n ones introduced here.  \u003ccode\u003efoldFirstOrder (.~.) quant binOp infixPred pApp\u003c/code\u003e\n is a no op.  The argument order is taken from Logic-TPTP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "foldFirstOrder",
           "package": "logic-classes",
@@ -3782,6 +4075,7 @@
         "index": {
           "description": "fold function similar to the one in PropositionalFormula but extended to cover both the existing formula types and the ones introduced here foldFirstOrder quant binOp infixPred pApp is no op The argument order is taken from Logic-TPTP",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "foldFirstOrder",
           "normalized": "(Quant-\u003ea-\u003eb-\u003ec)-\u003e(Combination b-\u003ec)-\u003e(Bool-\u003ec)-\u003e(d-\u003ec)-\u003eb-\u003ec",
@@ -3798,6 +4092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversal quantification - for all x (formula x)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "for_all",
           "package": "logic-classes",
@@ -3808,6 +4103,7 @@
         "index": {
           "description": "Universal quantification for all formula",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "for_all",
           "normalized": "a-\u003eb-\u003eb",
@@ -3823,6 +4119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor_all with a list of variables, for backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "for_all'",
           "package": "logic-classes",
@@ -3833,6 +4130,7 @@
         "index": {
           "description": "for all with list of variables for backwards compatibility",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "for_all'",
           "normalized": "[a]-\u003eb-\u003eb",
@@ -3848,6 +4146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like Logic.FirstOrder.convertFOF except it rejects anything\n with a construct unsupported in a normal logic formula,\n i.e. quantifiers and formula combinators other than negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "fromFirstOrder",
           "package": "logic-classes",
@@ -3858,6 +4157,7 @@
         "index": {
           "description": "Just like Logic.FirstOrder.convertFOF except it rejects anything with construct unsupported in normal logic formula i.e quantifiers and formula combinators other than negation",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "fromFirstOrder",
           "normalized": "(a-\u003ea)-\u003eb-\u003eFailing c",
@@ -3873,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "fromLiteral",
           "package": "logic-classes",
@@ -3882,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "fromLiteral",
           "normalized": "(a-\u003ea)-\u003eb-\u003ec",
@@ -3897,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "mapAtomsFirstOrder",
           "package": "logic-classes",
@@ -3906,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "mapAtomsFirstOrder",
           "normalized": "(a-\u003eb)-\u003eb-\u003eb",
@@ -3922,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated - use mapAtoms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "onatoms",
           "package": "logic-classes",
@@ -3932,6 +4237,7 @@
         "index": {
           "description": "Deprecated use mapAtoms",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "onatoms",
           "normalized": "(a-\u003eb)-\u003eb-\u003eb",
@@ -3947,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated - use foldAtoms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "overatoms",
           "package": "logic-classes",
@@ -3957,6 +4264,7 @@
         "index": {
           "description": "Deprecated use foldAtoms",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "overatoms",
           "normalized": "(a-\u003eb-\u003eb)-\u003ec-\u003eb-\u003eb",
@@ -3971,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp",
           "package": "logic-classes",
@@ -3980,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp",
           "normalized": "a-\u003e[b]-\u003ec",
@@ -3996,6 +4306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersions of pApp specialized for different argument counts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp0",
           "package": "logic-classes",
@@ -4006,6 +4317,7 @@
         "index": {
           "description": "Versions of pApp specialized for different argument counts",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp0",
           "normalized": "a-\u003eb",
@@ -4021,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp1",
           "package": "logic-classes",
@@ -4030,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp1",
           "normalized": "a-\u003eb-\u003ec",
@@ -4045,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp2",
           "package": "logic-classes",
@@ -4054,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp2",
           "normalized": "a-\u003eb-\u003eb-\u003ec",
@@ -4069,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp3",
           "package": "logic-classes",
@@ -4078,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp3",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -4093,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp4",
           "package": "logic-classes",
@@ -4102,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp4",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -4117,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp5",
           "package": "logic-classes",
@@ -4126,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp5",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -4141,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp6",
           "package": "logic-classes",
@@ -4150,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp6",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -4165,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp7",
           "package": "logic-classes",
@@ -4174,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "pApp7",
           "normalized": "a-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb-\u003ec",
@@ -4189,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "prettyFirstOrder",
           "package": "logic-classes",
@@ -4198,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "prettyFirstOrder",
           "normalized": "(Int-\u003ea-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eInt-\u003ec-\u003eDoc",
@@ -4214,6 +4542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for building folds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "quant",
           "package": "logic-classes",
@@ -4224,6 +4553,7 @@
         "index": {
           "description": "Helper function for building folds",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "quant",
           "normalized": "Quant-\u003ea-\u003eb-\u003eb",
@@ -4239,6 +4569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLegacy version of quant from when we supported lists of quantified\n variables.  It also has the virtue of eliding quantifications with\n empty variable lists (by calling for_all' and exists'.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "quant'",
           "package": "logic-classes",
@@ -4249,6 +4580,7 @@
         "index": {
           "description": "Legacy version of quant from when we supported lists of quantified variables It also has the virtue of eliding quantifications with empty variable lists by calling for all and exists",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "quant'",
           "normalized": "Quant-\u003e[a]-\u003eb-\u003eb",
@@ -4264,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a formula in a format that can be read into the interpreter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "showFirstOrder",
           "package": "logic-classes",
@@ -4274,6 +4607,7 @@
         "index": {
           "description": "Display formula in format that can be read into the interpreter",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "showFirstOrder",
           "normalized": "(a-\u003eString)-\u003eb-\u003eString",
@@ -4290,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to convert a first order logic formula to propositional.  This\n will return Nothing if there are any quantifiers, or if it runs\n into an atom that it is unable to convert.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "toPropositional",
           "package": "logic-classes",
@@ -4300,6 +4635,7 @@
         "index": {
           "description": "Try to convert first order logic formula to propositional This will return Nothing if there are any quantifiers or if it runs into an atom that it is unable to convert",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "toPropositional",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -4316,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamine the formula to find the list of outermost universally\n quantified variables, and call a function with that list and the\n formula after the quantifiers are removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "withUnivQuants",
           "package": "logic-classes",
@@ -4326,6 +4663,7 @@
         "index": {
           "description": "Examine the formula to find the list of outermost universally quantified variables and call function with that list and the formula after the quantifiers are removed",
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "withUnivQuants",
           "normalized": "([a]-\u003eb-\u003ec)-\u003eb-\u003ec",
@@ -4341,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "zipFirstOrder",
           "package": "logic-classes",
@@ -4350,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.FirstOrder",
           "name": "zipFirstOrder",
           "normalized": "(Quant-\u003ea-\u003eb-\u003eQuant-\u003ea-\u003eb-\u003eMaybe c)-\u003e(Combination b-\u003eCombination b-\u003eMaybe c)-\u003e(Bool-\u003eBool-\u003eMaybe c)-\u003e(d-\u003ed-\u003eMaybe c)-\u003eb-\u003eb-\u003eMaybe c",
@@ -4365,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Formula",
           "name": "Formula",
           "package": "logic-classes",
@@ -4373,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Formula",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Formula",
           "name": "Formula",
           "package": "logic-classes",
@@ -4386,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Formula",
           "name": "Formula",
           "package": "logic-classes",
@@ -4394,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Formula",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Formula",
           "name": "Formula",
           "package": "logic-classes",
@@ -4407,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Formula",
           "name": "atomic",
           "package": "logic-classes",
@@ -4416,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Formula",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Formula",
           "name": "atomic",
           "normalized": "a-\u003eb",
@@ -4430,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Formula",
           "name": "foldAtoms",
           "package": "logic-classes",
@@ -4439,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Formula",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Formula",
           "name": "foldAtoms",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -4454,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Formula",
           "name": "mapAtoms",
           "package": "logic-classes",
@@ -4463,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Formula",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Formula",
           "name": "mapAtoms",
           "normalized": "(a-\u003eb)-\u003eb-\u003eb",
@@ -4478,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Literal",
           "name": "Literal",
           "package": "logic-classes",
@@ -4486,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Literal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Literal",
           "name": "Literal",
           "package": "logic-classes",
@@ -4500,6 +4852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiterals are the building blocks of the clause and implicative normal\n |forms.  They support negation and must include True and False elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Literal",
           "name": "Literal",
           "package": "logic-classes",
@@ -4509,6 +4862,7 @@
         "index": {
           "description": "Literals are the building blocks of the clause and implicative normal forms They support negation and must include True and False elements",
           "hierarchy": "Data Logic Classes Literal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Literal",
           "name": "Literal",
           "package": "logic-classes",
@@ -4522,6 +4876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Literal",
           "name": "foldAtomsLiteral",
           "package": "logic-classes",
@@ -4531,6 +4886,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Literal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Literal",
           "name": "foldAtomsLiteral",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -4546,6 +4902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Literal",
           "name": "foldLiteral",
           "package": "logic-classes",
@@ -4555,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Literal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Literal",
           "name": "foldLiteral",
           "normalized": "(a-\u003eb)-\u003e(Bool-\u003eb)-\u003e(c-\u003eb)-\u003ea-\u003eb",
@@ -4570,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Literal",
           "name": "prettyLit",
           "package": "logic-classes",
@@ -4579,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Literal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Literal",
           "name": "prettyLit",
           "normalized": "(Int-\u003ea-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eInt-\u003ec-\u003eDoc",
@@ -4594,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Literal",
           "name": "toPropositional",
           "package": "logic-classes",
@@ -4603,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Literal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Literal",
           "name": "toPropositional",
           "normalized": "(a-\u003ea)-\u003eb-\u003ec",
@@ -4618,6 +4980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Literal",
           "name": "zipLiterals",
           "package": "logic-classes",
@@ -4627,6 +4990,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Literal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Literal",
           "name": "zipLiterals",
           "normalized": "(a-\u003ea-\u003eMaybe b)-\u003e(Bool-\u003eBool-\u003eMaybe b)-\u003e(c-\u003ec-\u003eMaybe b)-\u003ea-\u003ea-\u003eMaybe b",
@@ -4642,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "Negate",
           "package": "logic-classes",
@@ -4650,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "Negate",
           "package": "logic-classes",
@@ -4664,6 +5030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of formulas that can be negated.  There are some types\n that can be negated but do not support the other Boolean Logic\n operators, such as the \u003ccode\u003eLiteral\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "Negatable",
           "package": "logic-classes",
@@ -4673,6 +5040,7 @@
         "index": {
           "description": "The class of formulas that can be negated There are some types that can be negated but do not support the other Boolean Logic operators such as the Literal class",
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "Negatable",
           "package": "logic-classes",
@@ -4686,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "(¬)",
           "package": "logic-classes",
@@ -4695,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "(¬) ¬",
           "normalized": "a-\u003ea",
@@ -4710,6 +5080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate the formula, avoiding double negation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "(.~.)",
           "package": "logic-classes",
@@ -4720,6 +5091,7 @@
         "index": {
           "description": "Negate the formula avoiding double negation",
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "(.~.) .~.",
           "normalized": "a-\u003ea",
@@ -4735,6 +5107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a formula is negated or normal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "foldNegation",
           "package": "logic-classes",
@@ -4745,6 +5118,7 @@
         "index": {
           "description": "Test whether formula is negated or normal",
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "foldNegation",
           "package": "logic-classes",
@@ -4759,6 +5133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate a formula in a naive fashion, the operators below\n prevent double negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "negatePrivate",
           "package": "logic-classes",
@@ -4769,6 +5144,7 @@
         "index": {
           "description": "Negate formula in naive fashion the operators below prevent double negation",
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "negatePrivate",
           "normalized": "a-\u003ea",
@@ -4785,6 +5161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this formula negated at the top level?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "negated",
           "package": "logic-classes",
@@ -4795,6 +5172,7 @@
         "index": {
           "description": "Is this formula negated at the top level",
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "negated",
           "normalized": "a-\u003eBool",
@@ -4809,6 +5187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "negative",
           "package": "logic-classes",
@@ -4818,6 +5197,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "negative",
           "normalized": "a-\u003eBool",
@@ -4832,6 +5212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Negate",
           "name": "positive",
           "package": "logic-classes",
@@ -4841,6 +5222,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Negate",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Negate",
           "name": "positive",
           "normalized": "a-\u003eBool",
@@ -4855,6 +5237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "Pretty",
           "package": "logic-classes",
@@ -4863,6 +5246,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "Pretty",
           "package": "logic-classes",
@@ -4876,6 +5260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "Fixity",
           "package": "logic-classes",
@@ -4883,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "Fixity",
           "package": "logic-classes",
@@ -4896,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "FixityDirection",
           "package": "logic-classes",
@@ -4903,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "FixityDirection",
           "package": "logic-classes",
@@ -4917,6 +5305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class used to do proper parenthesization of formulas.  If we\n nest a higher precedence formula inside a lower one parentheses can\n be omitted.  Because \u003ccode\u003e|\u003c/code\u003e has lower precedence than \u003ccode\u003e&\u003c/code\u003e, the formula\n \u003ccode\u003ea | (b & c)\u003c/code\u003e appears as \u003ccode\u003ea | b & c\u003c/code\u003e, while \u003ccode\u003e(a | b) & c\u003c/code\u003e appears\n unchanged.  (Name Precedence chosen because Fixity was taken.)\n\u003c/p\u003e\u003cp\u003eThe second field of Fixity is the FixityDirection, which can be\n left, right, or non.  A left associative operator like \u003ccode\u003e/\u003c/code\u003e is\n grouped left to right, so parenthese can be omitted from \u003ccode\u003e(a \u003cem\u003e b) \u003c/em\u003e\n c\u003c/code\u003e but not from \u003ccode\u003ea \u003cem\u003e (b \u003c/em\u003e c)\u003c/code\u003e.  It is a syntax error to omit\n parentheses when formatting a non-associative operator.\n\u003c/p\u003e\u003cp\u003eThe Haskell FixityDirection type is concerned with how to interpret\n a formula formatted in a certain way, but here we are concerned\n with how to format a formula given its interpretation.  As such,\n one case the Haskell type does not capture is whether the operator\n follows the associative law, so we can omit parentheses in an\n expression such as \u003ccode\u003ea & b & c\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "HasFixity",
           "package": "logic-classes",
@@ -4926,6 +5315,7 @@
         "index": {
           "description": "class used to do proper parenthesization of formulas If we nest higher precedence formula inside lower one parentheses can be omitted Because has lower precedence than the formula appears as while appears unchanged Name Precedence chosen because Fixity was taken The second field of Fixity is the FixityDirection which can be left right or non left associative operator like is grouped left to right so parenthese can be omitted from but not from It is syntax error to omit parentheses when formatting non-associative operator The Haskell FixityDirection type is concerned with how to interpret formula formatted in certain way but here we are concerned with how to format formula given its interpretation As such one case the Haskell type does not capture is whether the operator follows the associative law so we can omit parentheses in an expression such as",
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "HasFixity",
           "package": "logic-classes",
@@ -4940,6 +5330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intent of this class is to be similar to Show, but only one\n way, with no corresponding Read class.  It doesn't really belong\n here in logic-classes.  To put something in a pretty printing class\n implies that there is only one way to pretty print it, which is not\n an assumption made by Text.PrettyPrint.  But in practice this is\n often good enough.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "Pretty",
           "package": "logic-classes",
@@ -4949,6 +5340,7 @@
         "index": {
           "description": "The intent of this class is to be similar to Show but only one way with no corresponding Read class It doesn really belong here in logic-classes To put something in pretty printing class implies that there is only one way to pretty print it which is not an assumption made by Text.PrettyPrint But in practice this is often good enough",
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "Pretty",
           "package": "logic-classes",
@@ -4962,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "Fixity",
           "package": "logic-classes",
@@ -4970,6 +5363,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "Fixity",
           "package": "logic-classes",
@@ -4983,6 +5377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "InfixL",
           "package": "logic-classes",
@@ -4991,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "InfixL",
           "package": "logic-classes",
@@ -5004,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "InfixN",
           "package": "logic-classes",
@@ -5012,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "InfixN",
           "package": "logic-classes",
@@ -5025,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "InfixR",
           "package": "logic-classes",
@@ -5033,6 +5432,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "InfixR",
           "package": "logic-classes",
@@ -5047,6 +5447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used as the fixity for things that never need\n parenthesization, such as function application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "botFixity",
           "package": "logic-classes",
@@ -5057,6 +5458,7 @@
         "index": {
           "description": "This is used as the fixity for things that never need parenthesization such as function application",
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "botFixity",
           "package": "logic-classes",
@@ -5070,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "fixity",
           "package": "logic-classes",
@@ -5079,6 +5482,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "fixity",
           "normalized": "a-\u003eFixity",
@@ -5093,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "pretty",
           "package": "logic-classes",
@@ -5102,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -5117,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used as the initial value for the parent fixity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Pretty",
           "name": "topFixity",
           "package": "logic-classes",
@@ -5127,6 +5534,7 @@
         "index": {
           "description": "This is used as the initial value for the parent fixity",
           "hierarchy": "Data Logic Classes Pretty",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Pretty",
           "name": "topFixity",
           "package": "logic-classes",
@@ -5141,6 +5549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePropositionalFormula is a multi-parameter type class for\n representing instance of propositional (aka zeroth order) logic\n datatypes.  These are formulas which have truth values, but no \u003ca\u003efor\n all\u003c/a\u003e or \u003ca\u003ethere exists\u003c/a\u003e quantifiers and thus no variables or terms\n as we have in first order or predicate logic.  It is intended that\n we will be able to write instances for various different\n implementations to allow these systems to interoperate.  The\n operator names were adopted from the Logic-TPTP package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "Propositional",
           "package": "logic-classes",
@@ -5150,6 +5559,7 @@
         "index": {
           "description": "PropositionalFormula is multi-parameter type class for representing instance of propositional aka zeroth order logic datatypes These are formulas which have truth values but no for all or there exists quantifiers and thus no variables or terms as we have in first order or predicate logic It is intended that we will be able to write instances for various different implementations to allow these systems to interoperate The operator names were adopted from the Logic-TPTP package",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "Propositional",
           "package": "logic-classes",
@@ -5164,6 +5574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for propositional logic.  If the type we are writing\n an instance for is a zero-order (aka propositional) logic type\n there will generally by a type or a type parameter corresponding to\n atom.  For first order or predicate logic types, it is generally\n easiest to just use the formula type itself as the atom type, and\n raise errors in the implementation if a non-atomic formula somehow\n appears where an atomic formula is expected (i.e. as an argument to\n atomic or to the third argument of foldPropositional.)\n\u003c/p\u003e\u003cp\u003eThe Ord superclass is required so we can put formulas in sets\n during the normal form computations.  Negatable and Combinable are\n also considered basic operations that we can't build this package\n without.  It is less obvious whether Constants is always required,\n but the implementation of functions like simplify would be more\n elaborate if we didn't have it, so we will require it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "PropositionalFormula",
           "package": "logic-classes",
@@ -5173,6 +5584,7 @@
         "index": {
           "description": "type class for propositional logic If the type we are writing an instance for is zero-order aka propositional logic type there will generally by type or type parameter corresponding to atom For first order or predicate logic types it is generally easiest to just use the formula type itself as the atom type and raise errors in the implementation if non-atomic formula somehow appears where an atomic formula is expected i.e as an argument to atomic or to the third argument of foldPropositional The Ord superclass is required so we can put formulas in sets during the normal form computations Negatable and Combinable are also considered basic operations that we can build this package without It is less obvious whether Constants is always required but the implementation of functions like simplify would be more elaborate if we didn have it so we will require it",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "PropositionalFormula",
           "package": "logic-classes",
@@ -5186,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "clauseNormalForm",
           "package": "logic-classes",
@@ -5195,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "clauseNormalForm",
           "normalized": "a-\u003ea",
@@ -5210,6 +5624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "clauseNormalForm'",
           "package": "logic-classes",
@@ -5219,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "clauseNormalForm'",
           "normalized": "a-\u003eSet(Set a)",
@@ -5234,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "clauseNormalFormAlt",
           "package": "logic-classes",
@@ -5243,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "clauseNormalFormAlt",
           "normalized": "a-\u003ea",
@@ -5259,6 +5677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI'm not sure of the clauseNormalForm functions above are wrong or just different.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "clauseNormalFormAlt'",
           "package": "logic-classes",
@@ -5269,6 +5688,7 @@
         "index": {
           "description": "not sure of the clauseNormalForm functions above are wrong or just different",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "clauseNormalFormAlt'",
           "normalized": "a-\u003eSet(Set a)",
@@ -5285,6 +5705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert any instance of a propositional logic expression to any\n other using the supplied atom conversion function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "convertProp",
           "package": "logic-classes",
@@ -5295,6 +5716,7 @@
         "index": {
           "description": "Convert any instance of propositional logic expression to any other using the supplied atom conversion function",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "convertProp",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -5310,6 +5732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "disjunctiveNormalForm",
           "package": "logic-classes",
@@ -5319,6 +5742,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "disjunctiveNormalForm",
           "normalized": "a-\u003ea",
@@ -5334,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "disjunctiveNormalForm'",
           "package": "logic-classes",
@@ -5343,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "disjunctiveNormalForm'",
           "normalized": "a-\u003eSet(Set a)",
@@ -5358,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "fixityPropositional",
           "package": "logic-classes",
@@ -5367,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "fixityPropositional",
           "normalized": "a-\u003eFixity",
@@ -5383,6 +5811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this to implement foldAtoms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "foldAtomsPropositional",
           "package": "logic-classes",
@@ -5393,6 +5822,7 @@
         "index": {
           "description": "Use this to implement foldAtoms",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "foldAtomsPropositional",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -5409,6 +5839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an atomic formula from the atom type.\n | A fold function that distributes different sorts of formula\n to its parameter functions, one to handle binary operators, one\n for negations, and one for atomic formulas.  See examples of its\n use to implement the polymorphic functions below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "foldPropositional",
           "package": "logic-classes",
@@ -5419,6 +5850,7 @@
         "index": {
           "description": "Build an atomic formula from the atom type fold function that distributes different sorts of formula to its parameter functions one to handle binary operators one for negations and one for atomic formulas See examples of its use to implement the polymorphic functions below",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "foldPropositional",
           "normalized": "(Combination a-\u003eb)-\u003e(Bool-\u003eb)-\u003e(c-\u003eb)-\u003ea-\u003eb",
@@ -5434,6 +5866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "mapAtomsPropositional",
           "package": "logic-classes",
@@ -5443,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "mapAtomsPropositional",
           "normalized": "(a-\u003eb)-\u003eb-\u003eb",
@@ -5459,6 +5893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplify and recursively apply nnf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "negationNormalForm",
           "package": "logic-classes",
@@ -5469,6 +5904,7 @@
         "index": {
           "description": "Simplify and recursively apply nnf",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "negationNormalForm",
           "normalized": "a-\u003ea",
@@ -5485,6 +5921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated - use foldAtoms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "overatoms",
           "package": "logic-classes",
@@ -5495,6 +5932,7 @@
         "index": {
           "description": "Deprecated use foldAtoms",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "overatoms",
           "normalized": "(a-\u003eb-\u003eb)-\u003ec-\u003eb-\u003eb",
@@ -5510,6 +5948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a formula in a visually pleasing format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "prettyPropositional",
           "package": "logic-classes",
@@ -5519,6 +5958,7 @@
         "index": {
           "description": "Show formula in visually pleasing format",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "prettyPropositional",
           "normalized": "(a-\u003eDoc)-\u003eFixity-\u003eb-\u003eDoc",
@@ -5535,6 +5975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a formula in a format that can be evaluated \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Propositional",
           "name": "showPropositional",
           "package": "logic-classes",
@@ -5545,6 +5986,7 @@
         "index": {
           "description": "Show formula in format that can be evaluated",
           "hierarchy": "Data Logic Classes Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Propositional",
           "name": "showPropositional",
           "normalized": "(a-\u003eString)-\u003eb-\u003eString",
@@ -5560,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Skolem",
           "name": "Skolem",
           "package": "logic-classes",
@@ -5568,6 +6011,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Skolem",
           "name": "Skolem",
           "package": "logic-classes",
@@ -5582,6 +6026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class shows how to convert between atomic Skolem functions\n and Ints.  We include a variable type as a parameter because we\n create skolem functions to replace an existentially quantified\n variable, and it can be helpful to retain a reference to the\n variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Skolem",
           "name": "Skolem",
           "package": "logic-classes",
@@ -5591,6 +6036,7 @@
         "index": {
           "description": "This class shows how to convert between atomic Skolem functions and Ints We include variable type as parameter because we create skolem functions to replace an existentially quantified variable and it can be helpful to retain reference to the variable",
           "hierarchy": "Data Logic Classes Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Skolem",
           "name": "Skolem",
           "package": "logic-classes",
@@ -5604,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Skolem",
           "name": "isSkolem",
           "package": "logic-classes",
@@ -5613,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Skolem",
           "name": "isSkolem",
           "normalized": "a-\u003eBool",
@@ -5629,6 +6077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilt a Skolem function from the given variable and number.\n The number is generally obtained from the skolem monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Skolem",
           "name": "toSkolem",
           "package": "logic-classes",
@@ -5639,6 +6088,7 @@
         "index": {
           "description": "Built Skolem function from the given variable and number The number is generally obtained from the skolem monad",
           "hierarchy": "Data Logic Classes Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Skolem",
           "name": "toSkolem",
           "normalized": "a-\u003eb",
@@ -5654,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "Term",
           "package": "logic-classes",
@@ -5662,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "Term",
           "package": "logic-classes",
@@ -5675,6 +6127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "Function",
           "package": "logic-classes",
@@ -5683,6 +6136,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "Function",
           "package": "logic-classes",
@@ -5696,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "Term",
           "package": "logic-classes",
@@ -5704,6 +6159,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "Term",
           "package": "logic-classes",
@@ -5717,6 +6173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "convertTerm",
           "package": "logic-classes",
@@ -5726,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "convertTerm",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003ec-\u003ec",
@@ -5742,6 +6200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a term by applying terms to an atomic function.  \u003ccode\u003ef\u003c/code\u003e\n (atomic function) is one of the type parameters, this package\n is mostly indifferent to its internal structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "fApp",
           "package": "logic-classes",
@@ -5752,6 +6211,7 @@
         "index": {
           "description": "Build term by applying terms to an atomic function atomic function is one of the type parameters this package is mostly indifferent to its internal structure",
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "fApp",
           "normalized": "a-\u003e[b]-\u003eb",
@@ -5768,6 +6228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fold for the term data type, which understands terms built\n from a variable and a term built from the application of a\n primitive function to other terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "foldTerm",
           "package": "logic-classes",
@@ -5778,6 +6239,7 @@
         "index": {
           "description": "fold for the term data type which understands terms built from variable and term built from the application of primitive function to other terms",
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "foldTerm",
           "normalized": "(a-\u003eb)-\u003e(c-\u003e[d]-\u003eb)-\u003ed-\u003eb",
@@ -5793,6 +6255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "funcs",
           "package": "logic-classes",
@@ -5802,6 +6265,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "funcs",
           "normalized": "a-\u003eSet(b,Int)",
@@ -5816,6 +6280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "fvt",
           "package": "logic-classes",
@@ -5825,6 +6290,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "fvt",
           "normalized": "a-\u003eSet b",
@@ -5839,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "prettyTerm",
           "package": "logic-classes",
@@ -5848,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "prettyTerm",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003ec-\u003eDoc",
@@ -5863,6 +6331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "showTerm",
           "package": "logic-classes",
@@ -5872,6 +6341,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "showTerm",
           "normalized": "a-\u003eString",
@@ -5887,6 +6357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "tsubst",
           "package": "logic-classes",
@@ -5896,6 +6367,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "tsubst",
           "normalized": "Map a b-\u003eb-\u003eb",
@@ -5911,6 +6383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a term which is a variable reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "vt",
           "package": "logic-classes",
@@ -5921,6 +6394,7 @@
         "index": {
           "description": "Build term which is variable reference",
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "vt",
           "normalized": "a-\u003eb",
@@ -5935,6 +6409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Term",
           "name": "zipTerms",
           "package": "logic-classes",
@@ -5944,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Term",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Term",
           "name": "zipTerms",
           "normalized": "(a-\u003ea-\u003eMaybe b)-\u003e(c-\u003e[d]-\u003ec-\u003e[d]-\u003eMaybe b)-\u003ed-\u003ed-\u003eMaybe b",
@@ -5959,6 +6435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Variable",
           "name": "Variable",
           "package": "logic-classes",
@@ -5967,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Variable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Variable",
           "name": "Variable",
           "package": "logic-classes",
@@ -5980,6 +6458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Variable",
           "name": "Variable",
           "package": "logic-classes",
@@ -5988,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Variable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Variable",
           "name": "Variable",
           "package": "logic-classes",
@@ -6002,6 +6482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a variable by adding a prefix.  This unfortunately\n assumes that v is \u003ca\u003estring-like\u003c/a\u003e but at least one algorithm in\n Harrison currently requires this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Variable",
           "name": "prefix",
           "package": "logic-classes",
@@ -6012,6 +6493,7 @@
         "index": {
           "description": "Modify variable by adding prefix This unfortunately assumes that is string-like but at least one algorithm in Harrison currently requires this",
           "hierarchy": "Data Logic Classes Variable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Variable",
           "name": "prefix",
           "normalized": "String-\u003ea-\u003ea",
@@ -6027,6 +6509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Variable",
           "name": "prettyVariable",
           "package": "logic-classes",
@@ -6037,6 +6520,7 @@
         "index": {
           "description": "Pretty print variable",
           "hierarchy": "Data Logic Classes Variable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Variable",
           "name": "prettyVariable",
           "normalized": "a-\u003eDoc",
@@ -6052,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Variable",
           "name": "showVariable",
           "package": "logic-classes",
@@ -6061,6 +6546,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Classes Variable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Variable",
           "name": "showVariable",
           "normalized": "a-\u003eString",
@@ -6077,6 +6563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a variable based on v but different from any set\n element.  The result may be v itself if v is not a member of\n the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Variable",
           "name": "variant",
           "package": "logic-classes",
@@ -6087,6 +6574,7 @@
         "index": {
           "description": "Return variable based on but different from any set element The result may be itself if is not member of the set",
           "hierarchy": "Data Logic Classes Variable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Variable",
           "name": "variant",
           "normalized": "a-\u003eSet a-\u003ea",
@@ -6102,6 +6590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an infinite list of variations on v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Classes.Variable",
           "name": "variants",
           "package": "logic-classes",
@@ -6112,6 +6601,7 @@
         "index": {
           "description": "Return an infinite list of variations on",
           "hierarchy": "Data Logic Classes Variable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Classes.Variable",
           "name": "variants",
           "normalized": "a-\u003e[a]",
@@ -6126,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Failing",
           "name": "Failing",
           "package": "logic-classes",
@@ -6134,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Failing",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Failing",
           "name": "Failing",
           "package": "logic-classes",
@@ -6148,6 +6640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error idiom.  Rather like the error monad, but collect all\n | errors together \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Failing",
           "name": "Failing",
           "package": "logic-classes",
@@ -6156,6 +6649,7 @@
         "index": {
           "description": "An error idiom Rather like the error monad but collect all errors together",
           "hierarchy": "Data Logic Failing",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Failing",
           "name": "Failing",
           "package": "logic-classes",
@@ -6169,6 +6663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Failing",
           "name": "Failure",
           "package": "logic-classes",
@@ -6177,6 +6672,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Failing",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Failing",
           "name": "Failure",
           "normalized": "Failure[ErrorMsg]",
@@ -6192,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Failing",
           "name": "Success",
           "package": "logic-classes",
@@ -6200,6 +6697,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Failing",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Failing",
           "name": "Success",
           "package": "logic-classes",
@@ -6213,6 +6711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Failing",
           "name": "failing",
           "package": "logic-classes",
@@ -6222,6 +6721,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Failing",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Failing",
           "name": "failing",
           "normalized": "([String]-\u003ea)-\u003e(b-\u003ea)-\u003eFailing b-\u003ea",
@@ -6236,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DP",
           "name": "DP",
           "package": "logic-classes",
@@ -6244,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DP",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DP",
           "name": "DP",
           "package": "logic-classes",
@@ -6257,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DP",
           "name": "dpll",
           "package": "logic-classes",
@@ -6266,6 +6769,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DP",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DP",
           "name": "dpll",
           "normalized": "Set(Set a)-\u003eFailing Bool",
@@ -6280,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DP",
           "name": "tests",
           "package": "logic-classes",
@@ -6289,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DP",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DP",
           "name": "tests",
           "package": "logic-classes",
@@ -6301,6 +6807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "DefCNF",
           "package": "logic-classes",
@@ -6309,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "DefCNF",
           "package": "logic-classes",
@@ -6322,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "Atom",
           "package": "logic-classes",
@@ -6330,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "Atom",
           "package": "logic-classes",
@@ -6343,6 +6853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "NumAtom",
           "package": "logic-classes",
@@ -6351,6 +6862,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "NumAtom",
           "package": "logic-classes",
@@ -6364,6 +6876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "P",
           "package": "logic-classes",
@@ -6373,6 +6886,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "P",
           "package": "logic-classes",
@@ -6385,6 +6899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "ai",
           "package": "logic-classes",
@@ -6394,6 +6909,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "ai",
           "normalized": "a-\u003eN",
@@ -6408,6 +6924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "andcnf",
           "package": "logic-classes",
@@ -6417,6 +6934,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "andcnf",
           "normalized": "(a,Map a a,Int)-\u003e(a,Map a a,Int)",
@@ -6431,6 +6949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "andcnf3",
           "package": "logic-classes",
@@ -6440,6 +6959,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "andcnf3",
           "normalized": "(a,Map a a,Int)-\u003e(a,Map a a,Int)",
@@ -6454,6 +6974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defcnf1",
           "package": "logic-classes",
@@ -6463,6 +6984,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defcnf1",
           "normalized": "a-\u003ea",
@@ -6477,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defcnf2",
           "package": "logic-classes",
@@ -6486,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defcnf2",
           "normalized": "a-\u003ea",
@@ -6500,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defcnf3",
           "package": "logic-classes",
@@ -6509,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defcnf3",
           "normalized": "a-\u003ea",
@@ -6523,6 +7049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defcnfs",
           "package": "logic-classes",
@@ -6532,6 +7059,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defcnfs",
           "normalized": "a-\u003eSet(Set b)",
@@ -6546,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defstep",
           "package": "logic-classes",
@@ -6555,6 +7084,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "defstep",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a,a)-\u003e(a,Map a a,Int)-\u003e(a,Map a a,Int)",
@@ -6569,6 +7099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "ma",
           "package": "logic-classes",
@@ -6578,6 +7109,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "ma",
           "normalized": "N-\u003ea",
@@ -6592,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "maincnf",
           "package": "logic-classes",
@@ -6601,6 +7134,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "maincnf",
           "normalized": "(a,Map a a,Int)-\u003e(a,Map a a,Int)",
@@ -6615,6 +7149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "max_varindex",
           "package": "logic-classes",
@@ -6624,6 +7159,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "max_varindex",
           "normalized": "a-\u003eInt-\u003eInt",
@@ -6638,6 +7174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "mk_defcnf",
           "package": "logic-classes",
@@ -6647,6 +7184,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "mk_defcnf",
           "normalized": "((a,Map a a,Int)-\u003e(a,Map a a,Int))-\u003ea-\u003eSet(Set b)",
@@ -6661,6 +7199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "mkprop",
           "package": "logic-classes",
@@ -6670,6 +7209,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "mkprop",
           "normalized": "N-\u003e(a,N)",
@@ -6684,6 +7224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "orcnf",
           "package": "logic-classes",
@@ -6693,6 +7234,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "orcnf",
           "normalized": "(a,Map a a,Int)-\u003e(a,Map a a,Int)",
@@ -6707,6 +7249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "subcnf",
           "package": "logic-classes",
@@ -6716,6 +7259,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison DefCNF",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.DefCNF",
           "name": "subcnf",
           "normalized": "((a,Map a a,Int)-\u003e(a,Map a a,Int))-\u003e(a-\u003ea-\u003ea)-\u003ea-\u003ea-\u003e(a,Map a a,Int)-\u003e(a,Map a a,Int)",
@@ -6730,6 +7274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Equal",
           "name": "Equal",
           "package": "logic-classes",
@@ -6738,6 +7283,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Equal",
           "name": "Equal",
           "package": "logic-classes",
@@ -6751,6 +7297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Equal",
           "name": "equalitize",
           "package": "logic-classes",
@@ -6760,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Equal",
           "name": "equalitize",
           "normalized": "a-\u003ea",
@@ -6774,6 +7322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Equal",
           "name": "equivalence_axioms",
           "package": "logic-classes",
@@ -6783,6 +7332,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Equal",
           "name": "equivalence_axioms",
           "package": "logic-classes",
@@ -6795,6 +7345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Equal",
           "name": "function_congruence",
           "package": "logic-classes",
@@ -6804,6 +7355,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Equal",
           "name": "function_congruence",
           "normalized": "(a,Int)-\u003eSet b",
@@ -6818,6 +7370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Equal",
           "name": "functions'",
           "package": "logic-classes",
@@ -6827,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Equal",
           "name": "functions'",
           "normalized": "(a-\u003eSet(b,Int))-\u003ec-\u003eSet(b,Int)",
@@ -6841,6 +7395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Equal",
           "name": "predicate_congruence",
           "package": "logic-classes",
@@ -6850,6 +7405,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Equal",
           "name": "predicate_congruence",
           "normalized": "PredicateName a-\u003eSet b",
@@ -6864,6 +7420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Equal",
           "name": "predicates",
           "package": "logic-classes",
@@ -6873,6 +7430,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Equal",
           "name": "predicates",
           "normalized": "a-\u003eSet(PredicateName b)",
@@ -6887,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.FOL",
           "name": "FOL",
           "package": "logic-classes",
@@ -6895,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.FOL",
           "name": "FOL",
           "package": "logic-classes",
@@ -6908,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.FOL",
           "name": "eval",
           "package": "logic-classes",
@@ -6917,6 +7478,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.FOL",
           "name": "eval",
           "normalized": "a-\u003e(b-\u003eBool)-\u003eBool",
@@ -6932,6 +7494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the variables that occur free in a formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.FOL",
           "name": "fv",
           "package": "logic-classes",
@@ -6942,6 +7505,7 @@
         "index": {
           "description": "Return the variables that occur free in formula",
           "hierarchy": "Data Logic Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.FOL",
           "name": "fv",
           "normalized": "a-\u003eSet b",
@@ -6956,6 +7520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.FOL",
           "name": "generalize",
           "package": "logic-classes",
@@ -6965,6 +7530,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.FOL",
           "name": "generalize",
           "normalized": "a-\u003ea",
@@ -6979,6 +7545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.FOL",
           "name": "list_conj",
           "package": "logic-classes",
@@ -6988,6 +7555,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.FOL",
           "name": "list_conj",
           "normalized": "Set a-\u003ea",
@@ -7002,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.FOL",
           "name": "list_disj",
           "package": "logic-classes",
@@ -7011,6 +7580,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.FOL",
           "name": "list_disj",
           "normalized": "Set a-\u003ea",
@@ -7025,6 +7595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.FOL",
           "name": "subst",
           "package": "logic-classes",
@@ -7034,6 +7605,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.FOL",
           "name": "subst",
           "normalized": "Map a b-\u003ec-\u003ec",
@@ -7049,6 +7621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all variables occurring in a formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.FOL",
           "name": "var",
           "package": "logic-classes",
@@ -7059,6 +7632,7 @@
         "index": {
           "description": "Return all variables occurring in formula",
           "hierarchy": "Data Logic Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.FOL",
           "name": "var",
           "normalized": "a-\u003eSet b",
@@ -7073,6 +7647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "FirstOrder",
           "package": "logic-classes",
@@ -7081,6 +7656,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "FirstOrder",
           "package": "logic-classes",
@@ -7094,6 +7670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "antecedent",
           "package": "logic-classes",
@@ -7103,6 +7680,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "antecedent",
           "normalized": "a-\u003ea",
@@ -7117,6 +7695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "atom_union",
           "package": "logic-classes",
@@ -7126,6 +7705,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "atom_union",
           "normalized": "(a-\u003eSet b)-\u003ec-\u003eSet b",
@@ -7140,6 +7720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "consequent",
           "package": "logic-classes",
@@ -7149,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "consequent",
           "normalized": "a-\u003ea",
@@ -7163,6 +7745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "on_atoms",
           "package": "logic-classes",
@@ -7172,6 +7755,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "on_atoms",
           "normalized": "(a-\u003eb)-\u003eb-\u003eb",
@@ -7186,6 +7770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "over_atoms",
           "package": "logic-classes",
@@ -7195,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.FirstOrder",
           "name": "over_atoms",
           "normalized": "(a-\u003eb-\u003eb)-\u003ec-\u003eb-\u003eb",
@@ -7209,6 +7795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "Propositional",
           "package": "logic-classes",
@@ -7217,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "Propositional",
           "package": "logic-classes",
@@ -7230,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "antecedent",
           "package": "logic-classes",
@@ -7239,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "antecedent",
           "normalized": "a-\u003ea",
@@ -7253,6 +7843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "atom_union",
           "package": "logic-classes",
@@ -7262,6 +7853,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "atom_union",
           "normalized": "(a-\u003eSet b)-\u003ec-\u003eSet b",
@@ -7276,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "consequent",
           "package": "logic-classes",
@@ -7285,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "consequent",
           "normalized": "a-\u003ea",
@@ -7299,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "on_atoms",
           "package": "logic-classes",
@@ -7308,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "on_atoms",
           "normalized": "(a-\u003eb)-\u003eb-\u003eb",
@@ -7322,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "over_atoms",
           "package": "logic-classes",
@@ -7331,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Formulas.Propositional",
           "name": "over_atoms",
           "normalized": "(a-\u003eb-\u003eb)-\u003ec-\u003eb-\u003eb",
@@ -7345,6 +7943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "Herbrand",
           "package": "logic-classes",
@@ -7353,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "Herbrand",
           "package": "logic-classes",
@@ -7366,6 +7966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "davisputnam",
           "package": "logic-classes",
@@ -7375,6 +7976,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "davisputnam",
           "normalized": "(a-\u003eSet(b,Int))-\u003ec-\u003eFailing Int",
@@ -7389,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "davisputnam'",
           "package": "logic-classes",
@@ -7398,6 +8001,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "davisputnam'",
           "normalized": "(a-\u003eSet(b,Int))-\u003ec-\u003eFailing Int",
@@ -7412,6 +8016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "dp_loop",
           "package": "logic-classes",
@@ -7421,6 +8026,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "dp_loop",
           "normalized": "Set(Set a)-\u003eSet b-\u003eSet(c,Int)-\u003e[d]-\u003eInt-\u003eSet(Set a)-\u003eSet[b]-\u003eSet[b]-\u003eFailing(Set[b])",
@@ -7435,6 +8041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "dp_mfn",
           "package": "logic-classes",
@@ -7444,6 +8051,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "dp_mfn",
           "normalized": "Set(Set a)-\u003e(a-\u003eb)-\u003eSet(Set b)-\u003eSet(Set b)",
@@ -7458,6 +8066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "dp_refine",
           "package": "logic-classes",
@@ -7467,6 +8076,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "dp_refine",
           "normalized": "Set(Set a)-\u003e[b]-\u003eSet[c]-\u003eSet[c]-\u003eFailing(Set[c])",
@@ -7481,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "dp_refine_loop",
           "package": "logic-classes",
@@ -7490,6 +8101,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "dp_refine_loop",
           "normalized": "Set(Set a)-\u003eSet b-\u003eSet(c,Int)-\u003e[d]-\u003eInt-\u003eSet(Set a)-\u003eSet[b]-\u003eSet[b]-\u003eFailing(Set[b])",
@@ -7504,6 +8116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "gilmore",
           "package": "logic-classes",
@@ -7513,6 +8126,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "gilmore",
           "normalized": "(a-\u003eSet(b,Int))-\u003ec-\u003eFailing Int",
@@ -7527,6 +8141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "gilmore_loop",
           "package": "logic-classes",
@@ -7536,6 +8151,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "gilmore_loop",
           "normalized": "Set(Set a)-\u003eSet b-\u003eSet(c,Int)-\u003e[d]-\u003eInt-\u003eSet(Set a)-\u003eSet[b]-\u003eSet[b]-\u003eFailing(Set[b])",
@@ -7550,6 +8166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "groundterms",
           "package": "logic-classes",
@@ -7559,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "groundterms",
           "normalized": "Set a-\u003eSet(b,Int)-\u003eInt-\u003eSet a",
@@ -7573,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "groundtuples",
           "package": "logic-classes",
@@ -7582,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "groundtuples",
           "normalized": "Set a-\u003eSet(b,Int)-\u003eInt-\u003eInt-\u003eSet[a]",
@@ -7596,6 +8216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "herbfuns",
           "package": "logic-classes",
@@ -7605,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "herbfuns",
           "normalized": "(a-\u003eSet(b,Int))-\u003ec-\u003e(Set(b,Int),Set(b,Int))",
@@ -7619,6 +8241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "herbloop",
           "package": "logic-classes",
@@ -7628,6 +8251,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "herbloop",
           "normalized": "(Set(Set a)-\u003e(a-\u003ea)-\u003eSet(Set a)-\u003eSet(Set a))-\u003e(Set(Set a)-\u003eFailing Bool)-\u003eSet(Set a)-\u003eSet b-\u003eSet(c,Int)-\u003e[d]-\u003eInt-\u003eSet(Set a)-\u003eSet[b]-\u003eSet[b]-\u003eFailing(Set[b])",
@@ -7642,6 +8266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "pholds",
           "package": "logic-classes",
@@ -7651,6 +8276,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "pholds",
           "normalized": "Map a Bool-\u003eb-\u003eBool",
@@ -7665,6 +8291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "subst'",
           "package": "logic-classes",
@@ -7674,6 +8301,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Herbrand",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Herbrand",
           "name": "subst'",
           "normalized": "Map a b-\u003ec-\u003ec",
@@ -7688,6 +8316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "Lib",
           "package": "logic-classes",
@@ -7696,6 +8325,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "Lib",
           "package": "logic-classes",
@@ -7709,6 +8339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "(|-\u003e)",
           "package": "logic-classes",
@@ -7718,6 +8349,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "(|-\u003e) |-\u003e",
           "normalized": "a-\u003eb-\u003eMap a b-\u003eMap a b",
@@ -7732,6 +8364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "(|=\u003e)",
           "package": "logic-classes",
@@ -7741,6 +8374,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "(|=\u003e) |=\u003e",
           "normalized": "a-\u003eb-\u003eMap a b",
@@ -7755,6 +8389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "(∅)",
           "package": "logic-classes",
@@ -7764,6 +8399,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "(∅) ∅",
           "package": "logic-classes",
@@ -7776,6 +8412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "allnonemptysubsets",
           "package": "logic-classes",
@@ -7785,6 +8422,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "allnonemptysubsets",
           "normalized": "Set a-\u003eSet(Set a)",
@@ -7799,6 +8437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "allpairs",
           "package": "logic-classes",
@@ -7808,6 +8447,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "allpairs",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSet a-\u003eSet b-\u003eSet c",
@@ -7822,6 +8462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "allsets",
           "package": "logic-classes",
@@ -7831,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "allsets",
           "normalized": "a-\u003eSet b-\u003eSet(Set b)",
@@ -7845,6 +8487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "allsubsets",
           "package": "logic-classes",
@@ -7854,6 +8497,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "allsubsets",
           "normalized": "Set a-\u003eSet(Set a)",
@@ -7868,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "apply",
           "package": "logic-classes",
@@ -7877,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "apply",
           "normalized": "Map a b-\u003ea-\u003eMaybe b",
@@ -7891,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "can",
           "package": "logic-classes",
@@ -7900,6 +8547,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "can",
           "normalized": "(a-\u003eFailing b)-\u003ea-\u003eBool",
@@ -7914,6 +8562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "defined",
           "package": "logic-classes",
@@ -7923,6 +8572,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "defined",
           "normalized": "Map a b-\u003ea-\u003eBool",
@@ -7937,6 +8587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "distrib'",
           "package": "logic-classes",
@@ -7946,6 +8597,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "distrib'",
           "normalized": "Set(Set a)-\u003eSet(Set a)-\u003eSet(Set a)",
@@ -7960,6 +8612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "exists",
           "package": "logic-classes",
@@ -7969,6 +8622,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "exists",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eBool",
@@ -7983,6 +8637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "fpf",
           "package": "logic-classes",
@@ -7992,6 +8647,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "fpf",
           "normalized": "Map a b-\u003ea-\u003eMaybe b",
@@ -8006,6 +8662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "image",
           "package": "logic-classes",
@@ -8015,6 +8672,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "image",
           "normalized": "(a-\u003eb)-\u003eSet a-\u003eSet b",
@@ -8029,6 +8687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "mapfilter",
           "package": "logic-classes",
@@ -8038,6 +8697,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "mapfilter",
           "normalized": "(a-\u003eFailing b)-\u003e[a]-\u003e[b]",
@@ -8052,6 +8712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "maximize",
           "package": "logic-classes",
@@ -8061,6 +8722,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "maximize",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eMaybe a",
@@ -8075,6 +8737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "maximize'",
           "package": "logic-classes",
@@ -8084,6 +8747,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "maximize'",
           "normalized": "(a-\u003eb)-\u003eSet a-\u003eMaybe a",
@@ -8098,6 +8762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "minimize",
           "package": "logic-classes",
@@ -8107,6 +8772,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "minimize",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eMaybe a",
@@ -8121,6 +8787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "minimize'",
           "package": "logic-classes",
@@ -8130,6 +8797,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "minimize'",
           "normalized": "(a-\u003eb)-\u003eSet a-\u003eMaybe a",
@@ -8144,6 +8812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "optimize",
           "package": "logic-classes",
@@ -8153,6 +8822,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "optimize",
           "normalized": "a b c(d-\u003ed-\u003eBool)-\u003e(b-\u003ed)-\u003e[b]-\u003eMaybe b",
@@ -8167,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "optimize'",
           "package": "logic-classes",
@@ -8176,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "optimize'",
           "normalized": "a b c(d-\u003ed-\u003eBool)-\u003e(b-\u003ed)-\u003eSet b-\u003eMaybe b",
@@ -8190,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "setAll",
           "package": "logic-classes",
@@ -8199,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "setAll",
           "normalized": "(a-\u003eBool)-\u003eSet a-\u003eBool",
@@ -8214,6 +8888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "setAny",
           "package": "logic-classes",
@@ -8223,6 +8898,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "setAny",
           "normalized": "(a-\u003eBool)-\u003eSet a-\u003eBool",
@@ -8238,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "setmapfilter",
           "package": "logic-classes",
@@ -8247,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "setmapfilter",
           "normalized": "(a-\u003eFailing b)-\u003eSet a-\u003eSet b",
@@ -8261,6 +8939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "settryfind",
           "package": "logic-classes",
@@ -8270,6 +8949,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "settryfind",
           "normalized": "(a-\u003eFailing b)-\u003eSet a-\u003eFailing b",
@@ -8284,6 +8964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "tests",
           "package": "logic-classes",
@@ -8293,6 +8974,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "tests",
           "package": "logic-classes",
@@ -8305,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "tryApplyD",
           "package": "logic-classes",
@@ -8314,6 +8997,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "tryApplyD",
           "normalized": "Map a b-\u003ea-\u003eb-\u003eb",
@@ -8329,6 +9013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Lib",
           "name": "tryfind",
           "package": "logic-classes",
@@ -8338,6 +9023,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Lib",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Lib",
           "name": "tryfind",
           "normalized": "(a-\u003eFailing b)-\u003e[a]-\u003eFailing b",
@@ -8352,6 +9038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Meson",
           "name": "Meson",
           "package": "logic-classes",
@@ -8360,6 +9047,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Meson",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Meson",
           "name": "Meson",
           "package": "logic-classes",
@@ -8373,6 +9061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Meson",
           "name": "contrapositives",
           "package": "logic-classes",
@@ -8382,6 +9071,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Meson",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Meson",
           "name": "contrapositives",
           "normalized": "Set a-\u003eSet(Set a,a)",
@@ -8396,6 +9086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Meson",
           "name": "meson",
           "package": "logic-classes",
@@ -8405,6 +9096,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Meson",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Meson",
           "name": "meson",
           "normalized": "Maybe Int-\u003ea-\u003eSkolemT b c d(Set(Failing((Map b c,Int,Int),Int)))",
@@ -8419,6 +9111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Meson",
           "name": "mexpand",
           "package": "logic-classes",
@@ -8428,6 +9121,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Meson",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Meson",
           "name": "mexpand",
           "normalized": "Set(Set a,a)-\u003eSet a-\u003ea-\u003e((Map b c,Int,Int)-\u003eFailing(Map b c,Int,Int))-\u003e(Map b c,Int,Int)-\u003eFailing(Map b c,Int,Int)",
@@ -8442,6 +9136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Meson",
           "name": "puremeson",
           "package": "logic-classes",
@@ -8451,6 +9146,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Meson",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Meson",
           "name": "puremeson",
           "normalized": "Maybe Int-\u003ea-\u003eFailing((Map b c,Int,Int),Int)",
@@ -8466,6 +9162,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersions of the normal form functions in Prop for FirstOrderFormula.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Normal",
           "name": "Normal",
           "package": "logic-classes",
@@ -8475,6 +9172,7 @@
         "index": {
           "description": "Versions of the normal form functions in Prop for FirstOrderFormula",
           "hierarchy": "Data Logic Harrison Normal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Normal",
           "name": "Normal",
           "package": "logic-classes",
@@ -8488,6 +9186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Normal",
           "name": "simpcnf",
           "package": "logic-classes",
@@ -8497,6 +9196,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Normal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Normal",
           "name": "simpcnf",
           "normalized": "a-\u003eSet(Set a)",
@@ -8511,6 +9211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Normal",
           "name": "simpcnf'",
           "package": "logic-classes",
@@ -8520,6 +9221,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Normal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Normal",
           "name": "simpcnf'",
           "normalized": "a-\u003eSet(Set b)",
@@ -8534,6 +9236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Normal",
           "name": "simpdnf",
           "package": "logic-classes",
@@ -8543,6 +9246,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Normal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Normal",
           "name": "simpdnf",
           "normalized": "a-\u003eSet(Set a)",
@@ -8557,6 +9261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Normal",
           "name": "simpdnf'",
           "package": "logic-classes",
@@ -8566,6 +9271,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Normal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Normal",
           "name": "simpdnf'",
           "normalized": "a-\u003eSet(Set b)",
@@ -8580,6 +9286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Normal",
           "name": "trivial",
           "package": "logic-classes",
@@ -8589,6 +9296,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Normal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Normal",
           "name": "trivial",
           "normalized": "Set a-\u003eBool",
@@ -8603,6 +9311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prolog",
           "name": "Prolog",
           "package": "logic-classes",
@@ -8611,6 +9320,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prolog",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prolog",
           "name": "Prolog",
           "package": "logic-classes",
@@ -8624,6 +9334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prolog",
           "name": "renamerule",
           "package": "logic-classes",
@@ -8633,6 +9344,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prolog",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prolog",
           "name": "renamerule",
           "normalized": "Int-\u003e(Set a,a)-\u003e((Set a,a),Int)",
@@ -8647,6 +9359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "Prop",
           "package": "logic-classes",
@@ -8655,6 +9368,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "Prop",
           "package": "logic-classes",
@@ -8668,6 +9382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "TruthTable",
           "package": "logic-classes",
@@ -8676,6 +9391,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "TruthTable",
           "package": "logic-classes",
@@ -8689,6 +9405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "TruthTableRow",
           "package": "logic-classes",
@@ -8697,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "TruthTableRow",
           "package": "logic-classes",
@@ -8710,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "allSatValuations",
           "package": "logic-classes",
@@ -8719,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "allSatValuations",
           "normalized": "(Map a Bool-\u003eBool)-\u003eMap a Bool-\u003eSet a-\u003e[Map a Bool]",
@@ -8734,6 +9454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "atoms",
           "package": "logic-classes",
@@ -8743,6 +9464,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "atoms",
           "normalized": "a-\u003eSet b",
@@ -8757,6 +9479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "cnf",
           "package": "logic-classes",
@@ -8766,6 +9489,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "cnf",
           "normalized": "Set(Set a)-\u003eb",
@@ -8780,6 +9504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "cnf'",
           "package": "logic-classes",
@@ -8789,6 +9514,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "cnf'",
           "normalized": "a-\u003ea",
@@ -8803,6 +9529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "distrib",
           "package": "logic-classes",
@@ -8812,6 +9539,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "distrib",
           "normalized": "a-\u003ea",
@@ -8826,6 +9554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "dnf",
           "package": "logic-classes",
@@ -8835,6 +9564,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "dnf",
           "normalized": "Set(Set a)-\u003eb",
@@ -8849,6 +9579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "dnf'",
           "package": "logic-classes",
@@ -8858,6 +9589,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "dnf'",
           "normalized": "a-\u003ea",
@@ -8872,6 +9604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "dnf0",
           "package": "logic-classes",
@@ -8881,6 +9614,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "dnf0",
           "normalized": "a-\u003ea",
@@ -8895,6 +9629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "dual",
           "package": "logic-classes",
@@ -8904,6 +9639,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "dual",
           "normalized": "a-\u003ea",
@@ -8918,6 +9654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "eval",
           "package": "logic-classes",
@@ -8927,6 +9664,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "eval",
           "normalized": "a-\u003eMap b Bool-\u003eBool",
@@ -8941,6 +9679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "list_conj",
           "package": "logic-classes",
@@ -8950,6 +9689,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "list_conj",
           "normalized": "Set a-\u003ea",
@@ -8964,6 +9704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "list_disj",
           "package": "logic-classes",
@@ -8973,6 +9714,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "list_disj",
           "normalized": "Set a-\u003ea",
@@ -8987,6 +9729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "mkLits",
           "package": "logic-classes",
@@ -8996,6 +9739,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "mkLits",
           "normalized": "Set a-\u003eMap b Bool-\u003ea",
@@ -9011,6 +9755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "negate",
           "package": "logic-classes",
@@ -9020,6 +9765,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "negate",
           "normalized": "a-\u003ea",
@@ -9034,6 +9780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "negative",
           "package": "logic-classes",
@@ -9043,6 +9790,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "negative",
           "normalized": "a-\u003eBool",
@@ -9057,6 +9805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "nenf",
           "package": "logic-classes",
@@ -9066,6 +9815,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "nenf",
           "normalized": "a-\u003ea",
@@ -9080,6 +9830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "nnf",
           "package": "logic-classes",
@@ -9089,6 +9840,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "nnf",
           "normalized": "a-\u003ea",
@@ -9103,6 +9855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "onAllValuations",
           "package": "logic-classes",
@@ -9111,6 +9864,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "onAllValuations",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(Map b Bool-\u003ea)-\u003eMap b Bool-\u003eSet b-\u003ea",
@@ -9126,6 +9880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "pSubst",
           "package": "logic-classes",
@@ -9135,6 +9890,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "pSubst",
           "normalized": "Map a b-\u003eb-\u003eb",
@@ -9150,6 +9906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "positive",
           "package": "logic-classes",
@@ -9159,6 +9916,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "positive",
           "normalized": "a-\u003eBool",
@@ -9173,6 +9931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "psimplify",
           "package": "logic-classes",
@@ -9182,6 +9941,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "psimplify",
           "normalized": "a-\u003ea",
@@ -9196,6 +9956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "purednf",
           "package": "logic-classes",
@@ -9205,6 +9966,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "purednf",
           "normalized": "a-\u003eSet(Set b)",
@@ -9219,6 +9981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "rawdnf",
           "package": "logic-classes",
@@ -9228,6 +9991,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "rawdnf",
           "normalized": "a-\u003ea",
@@ -9242,6 +10006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "satisfiable",
           "package": "logic-classes",
@@ -9251,6 +10016,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "satisfiable",
           "normalized": "a-\u003eBool",
@@ -9265,6 +10031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "simpcnf",
           "package": "logic-classes",
@@ -9274,6 +10041,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "simpcnf",
           "normalized": "a-\u003eSet(Set b)",
@@ -9288,6 +10056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "simpdnf",
           "package": "logic-classes",
@@ -9297,6 +10066,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "simpdnf",
           "normalized": "a-\u003eSet(Set b)",
@@ -9311,6 +10081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "tautology",
           "package": "logic-classes",
@@ -9320,6 +10091,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "tautology",
           "normalized": "a-\u003eBool",
@@ -9334,6 +10106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "trivial",
           "package": "logic-classes",
@@ -9343,6 +10116,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "trivial",
           "normalized": "Set a-\u003eBool",
@@ -9357,6 +10131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "truthTable",
           "package": "logic-classes",
@@ -9366,6 +10141,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "truthTable",
           "normalized": "a-\u003eTruthTable b",
@@ -9381,6 +10157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Prop",
           "name": "unsatisfiable",
           "package": "logic-classes",
@@ -9390,6 +10167,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Prop",
           "name": "unsatisfiable",
           "normalized": "a-\u003eBool",
@@ -9404,6 +10182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "PropExamples",
           "package": "logic-classes",
@@ -9412,6 +10191,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison PropExamples",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "PropExamples",
           "package": "logic-classes",
@@ -9425,6 +10205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "Atom",
           "package": "logic-classes",
@@ -9433,6 +10214,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison PropExamples",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "Atom",
           "package": "logic-classes",
@@ -9446,6 +10228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "N",
           "package": "logic-classes",
@@ -9454,6 +10237,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison PropExamples",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "N",
           "package": "logic-classes",
@@ -9466,6 +10250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "P",
           "package": "logic-classes",
@@ -9475,6 +10260,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison PropExamples",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "P",
           "package": "logic-classes",
@@ -9487,6 +10273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "prime",
           "package": "logic-classes",
@@ -9496,6 +10283,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison PropExamples",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "prime",
           "normalized": "N-\u003ea",
@@ -9510,6 +10298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "ramsey",
           "package": "logic-classes",
@@ -9519,6 +10308,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison PropExamples",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "ramsey",
           "normalized": "Int-\u003eInt-\u003eN-\u003ea",
@@ -9533,6 +10323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "tests",
           "package": "logic-classes",
@@ -9542,6 +10333,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison PropExamples",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.PropExamples",
           "name": "tests",
           "package": "logic-classes",
@@ -9554,6 +10346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "Resolution",
           "package": "logic-classes",
@@ -9562,6 +10355,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "Resolution",
           "package": "logic-classes",
@@ -9575,6 +10369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "matchAtomsEq",
           "package": "logic-classes",
@@ -9584,6 +10379,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "matchAtomsEq",
           "normalized": "Map a b-\u003ec-\u003ec-\u003eFailing(Map a b)",
@@ -9599,6 +10395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "presolution",
           "package": "logic-classes",
@@ -9608,6 +10405,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "presolution",
           "normalized": "a-\u003eSkolemT b c d(Set(Failing Bool))",
@@ -9622,6 +10420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "resolution1",
           "package": "logic-classes",
@@ -9631,6 +10430,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "resolution1",
           "normalized": "a-\u003eSkolemT b c d(Set(Failing Bool))",
@@ -9645,6 +10445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "resolution2",
           "package": "logic-classes",
@@ -9654,6 +10455,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "resolution2",
           "normalized": "a-\u003eSkolemT b c d(Set(Failing Bool))",
@@ -9668,6 +10470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "resolution3",
           "package": "logic-classes",
@@ -9677,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Resolution",
           "name": "resolution3",
           "normalized": "a-\u003eSkolemT b c d(Set(Failing Bool))",
@@ -9691,6 +10495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "Skolem",
           "package": "logic-classes",
@@ -9699,6 +10504,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "Skolem",
           "package": "logic-classes",
@@ -9713,6 +10519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Skolem monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "Skolem",
           "package": "logic-classes",
@@ -9722,6 +10529,7 @@
         "index": {
           "description": "The Skolem monad",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "Skolem",
           "package": "logic-classes",
@@ -9736,6 +10544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Skolem monad transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "SkolemT",
           "package": "logic-classes",
@@ -9745,6 +10554,7 @@
         "index": {
           "description": "The Skolem monad transformer",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "SkolemT",
           "package": "logic-classes",
@@ -9759,6 +10569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI need to consult the Harrison book for the reasons why we don't\n |just Skolemize the result of prenexNormalForm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "askolemize",
           "package": "logic-classes",
@@ -9769,6 +10580,7 @@
         "index": {
           "description": "need to consult the Harrison book for the reasons why we don just Skolemize the result of prenexNormalForm",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "askolemize",
           "normalized": "a-\u003eSkolemT b c d a",
@@ -9783,6 +10595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "functions",
           "package": "logic-classes",
@@ -9792,6 +10605,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "functions",
           "normalized": "(a-\u003eSet(b,Int))-\u003ec-\u003eSet(b,Int)",
@@ -9807,6 +10621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust looks for double negatives and negated constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "lsimplify",
           "package": "logic-classes",
@@ -9817,6 +10632,7 @@
         "index": {
           "description": "Just looks for double negatives and negated constants",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "lsimplify",
           "normalized": "a-\u003ea",
@@ -9831,6 +10647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "nnf",
           "package": "logic-classes",
@@ -9840,6 +10657,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "nnf",
           "normalized": "a-\u003ea",
@@ -9855,6 +10673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to Prenex normal form, with all quantifiers at the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "pnf",
           "package": "logic-classes",
@@ -9865,6 +10684,7 @@
         "index": {
           "description": "Convert to Prenex normal form with all quantifiers at the left",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "pnf",
           "normalized": "a-\u003ea",
@@ -9880,6 +10700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation in the Skolem monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "runSkolem",
           "package": "logic-classes",
@@ -9890,6 +10711,7 @@
         "index": {
           "description": "Run computation in the Skolem monad",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "runSkolem",
           "normalized": "SkolemT a b Identity c-\u003ec",
@@ -9906,6 +10728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation in a stacked invocation of the Skolem monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "runSkolemT",
           "package": "logic-classes",
@@ -9916,6 +10739,7 @@
         "index": {
           "description": "Run computation in stacked invocation of the Skolem monad",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "runSkolemT",
           "normalized": "SkolemT a b c d-\u003ec d",
@@ -9931,6 +10755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "simplify",
           "package": "logic-classes",
@@ -9940,6 +10765,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "simplify",
           "normalized": "a-\u003ea",
@@ -9955,6 +10781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkolemize the formula by removing the existential quantifiers and\n replacing the variables they quantify with skolem functions (and\n constants, which are functions of zero variables.)  The Skolem\n functions are new functions (obtained from the SkolemT monad) which\n are applied to the list of variables which are universally\n quantified in the context where the existential quantifier\n appeared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "skolem",
           "package": "logic-classes",
@@ -9965,6 +10792,7 @@
         "index": {
           "description": "Skolemize the formula by removing the existential quantifiers and replacing the variables they quantify with skolem functions and constants which are functions of zero variables The Skolem functions are new functions obtained from the SkolemT monad which are applied to the list of variables which are universally quantified in the context where the existential quantifier appeared",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "skolem",
           "normalized": "a-\u003eSkolemT b c d a",
@@ -9980,6 +10808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe get Skolem Normal Form by skolemizing and then converting to\n Prenex Normal Form, and finally eliminating the remaining quantifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "skolemNormalForm",
           "package": "logic-classes",
@@ -9990,6 +10819,7 @@
         "index": {
           "description": "We get Skolem Normal Form by skolemizing and then converting to Prenex Normal Form and finally eliminating the remaining quantifiers",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "skolemNormalForm",
           "normalized": "(a-\u003ea)-\u003eb-\u003eSkolemT c d e f",
@@ -10006,6 +10836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkolemize and then specialize.  Because we know all quantifiers\n are gone we can convert to any instance of PropositionalFormula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "skolemize",
           "package": "logic-classes",
@@ -10016,6 +10847,7 @@
         "index": {
           "description": "Skolemize and then specialize Because we know all quantifiers are gone we can convert to any instance of PropositionalFormula",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "skolemize",
           "normalized": "(a-\u003ea)-\u003eb-\u003eSkolemT c d e f",
@@ -10031,6 +10863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the leading universal quantifiers.  After a call to pnf\n this will be all the universal quantifiers, and the skolemization\n will have already turned all the existential quantifiers into\n skolem functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "specialize",
           "package": "logic-classes",
@@ -10041,6 +10874,7 @@
         "index": {
           "description": "Remove the leading universal quantifiers After call to pnf this will be all the universal quantifiers and the skolemization will have already turned all the existential quantifiers into skolem functions",
           "hierarchy": "Data Logic Harrison Skolem",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Skolem",
           "name": "specialize",
           "normalized": "a-\u003ea",
@@ -10055,6 +10889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Tableaux",
           "name": "Tableaux",
           "package": "logic-classes",
@@ -10063,6 +10898,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Tableaux",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Tableaux",
           "name": "Tableaux",
           "package": "logic-classes",
@@ -10077,6 +10913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry f with higher and higher values of n until it succeeds, or\n optional maximum depth limit is exceeded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Tableaux",
           "name": "deepen",
           "package": "logic-classes",
@@ -10087,6 +10924,7 @@
         "index": {
           "description": "Try with higher and higher values of until it succeeds or optional maximum depth limit is exceeded",
           "hierarchy": "Data Logic Harrison Tableaux",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Tableaux",
           "name": "deepen",
           "normalized": "(Int-\u003eFailing a)-\u003eInt-\u003eMaybe Int-\u003eFailing(a,Int)",
@@ -10101,6 +10939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Tableaux",
           "name": "unifyAtomsEq",
           "package": "logic-classes",
@@ -10110,6 +10949,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Tableaux",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Tableaux",
           "name": "unifyAtomsEq",
           "normalized": "Map a b-\u003ec-\u003ec-\u003eFailing(Map a b)",
@@ -10125,6 +10965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Tableaux",
           "name": "unify_literals",
           "package": "logic-classes",
@@ -10134,6 +10975,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Tableaux",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Tableaux",
           "name": "unify_literals",
           "normalized": "Map a b-\u003ec-\u003ec-\u003eFailing(Map a b)",
@@ -10148,6 +10990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Unif",
           "name": "Unif",
           "package": "logic-classes",
@@ -10156,6 +10999,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Unif",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Unif",
           "name": "Unif",
           "package": "logic-classes",
@@ -10169,6 +11013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Unif",
           "name": "fullUnify",
           "package": "logic-classes",
@@ -10178,6 +11023,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Unif",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Unif",
           "name": "fullUnify",
           "normalized": "[(a,a)]-\u003eFailing(Map b a)",
@@ -10193,6 +11039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Unif",
           "name": "solve",
           "package": "logic-classes",
@@ -10202,6 +11049,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Unif",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Unif",
           "name": "solve",
           "normalized": "Map a b-\u003eMap a b",
@@ -10216,6 +11064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Unif",
           "name": "unify",
           "package": "logic-classes",
@@ -10225,6 +11074,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Unif",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Unif",
           "name": "unify",
           "normalized": "Map a b-\u003e[(b,b)]-\u003eFailing(Map a b)",
@@ -10239,6 +11089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Harrison.Unif",
           "name": "unifyAndApply",
           "package": "logic-classes",
@@ -10248,6 +11099,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Harrison Unif",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Harrison.Unif",
           "name": "unifyAndApply",
           "normalized": "[(a,a)]-\u003eFailing[(a,a)]",
@@ -10263,6 +11115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Chiou",
           "package": "logic-classes",
@@ -10271,6 +11124,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Chiou",
           "package": "logic-classes",
@@ -10284,6 +11138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "CTerm",
           "package": "logic-classes",
@@ -10292,6 +11147,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "CTerm",
           "package": "logic-classes",
@@ -10305,6 +11161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "ConjunctiveNormalForm",
           "package": "logic-classes",
@@ -10313,6 +11170,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "ConjunctiveNormalForm",
           "package": "logic-classes",
@@ -10326,6 +11184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Connective",
           "package": "logic-classes",
@@ -10334,6 +11193,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Connective",
           "package": "logic-classes",
@@ -10347,6 +11207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NormalSentence",
           "package": "logic-classes",
@@ -10355,6 +11216,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NormalSentence",
           "package": "logic-classes",
@@ -10368,6 +11230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NormalTerm",
           "package": "logic-classes",
@@ -10376,6 +11239,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NormalTerm",
           "package": "logic-classes",
@@ -10389,6 +11253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Quantifier",
           "package": "logic-classes",
@@ -10397,6 +11262,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Quantifier",
           "package": "logic-classes",
@@ -10410,6 +11276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Sentence",
           "package": "logic-classes",
@@ -10418,6 +11285,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Sentence",
           "package": "logic-classes",
@@ -10431,6 +11299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "And",
           "package": "logic-classes",
@@ -10440,6 +11309,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "And",
           "package": "logic-classes",
@@ -10453,6 +11323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "CNF",
           "package": "logic-classes",
@@ -10462,6 +11333,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "CNF",
           "normalized": "CNF[Sentence a b c]",
@@ -10477,6 +11349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Connective",
           "package": "logic-classes",
@@ -10486,6 +11359,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Connective",
           "package": "logic-classes",
@@ -10499,6 +11373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Equal",
           "package": "logic-classes",
@@ -10508,6 +11383,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Equal",
           "package": "logic-classes",
@@ -10521,6 +11397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Equiv",
           "package": "logic-classes",
@@ -10530,6 +11407,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Equiv",
           "package": "logic-classes",
@@ -10543,6 +11421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "ExistsCh",
           "package": "logic-classes",
@@ -10552,6 +11431,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "ExistsCh",
           "package": "logic-classes",
@@ -10565,6 +11445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "ForAll",
           "package": "logic-classes",
@@ -10574,6 +11455,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "ForAll",
           "package": "logic-classes",
@@ -10587,6 +11469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Function",
           "package": "logic-classes",
@@ -10596,6 +11479,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Function",
           "normalized": "Function a[CTerm b a]",
@@ -10611,6 +11495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Imply",
           "package": "logic-classes",
@@ -10620,6 +11505,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Imply",
           "package": "logic-classes",
@@ -10633,6 +11519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NFEqual",
           "package": "logic-classes",
@@ -10642,6 +11529,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NFEqual",
           "package": "logic-classes",
@@ -10655,6 +11543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NFNot",
           "package": "logic-classes",
@@ -10664,6 +11553,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NFNot",
           "package": "logic-classes",
@@ -10677,6 +11567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NFPredicate",
           "package": "logic-classes",
@@ -10686,6 +11577,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NFPredicate",
           "normalized": "NFPredicate a[NormalTerm b c]",
@@ -10701,6 +11593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NormalFunction",
           "package": "logic-classes",
@@ -10710,6 +11603,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NormalFunction",
           "normalized": "NormalFunction a[NormalTerm b a]",
@@ -10725,6 +11619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NormalVariable",
           "package": "logic-classes",
@@ -10734,6 +11629,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "NormalVariable",
           "package": "logic-classes",
@@ -10747,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Not",
           "package": "logic-classes",
@@ -10756,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Not",
           "package": "logic-classes",
@@ -10769,6 +11667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Or",
           "package": "logic-classes",
@@ -10778,6 +11677,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Or",
           "package": "logic-classes",
@@ -10791,6 +11691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Predicate",
           "package": "logic-classes",
@@ -10800,6 +11701,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Predicate",
           "normalized": "Predicate a[CTerm b c]",
@@ -10815,6 +11717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Quantifier",
           "package": "logic-classes",
@@ -10824,6 +11727,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Quantifier",
           "normalized": "Quantifier Quantifier[a](Sentence a b c)",
@@ -10839,6 +11743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Variable",
           "package": "logic-classes",
@@ -10848,6 +11753,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "Variable",
           "package": "logic-classes",
@@ -10861,6 +11767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "fromSentence",
           "package": "logic-classes",
@@ -10870,6 +11777,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "fromSentence",
           "normalized": "Sentence a b c-\u003eNormalSentence a b c",
@@ -10885,6 +11793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.Chiou",
           "name": "toSentence",
           "package": "logic-classes",
@@ -10894,6 +11803,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances Chiou",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.Chiou",
           "name": "toSentence",
           "normalized": "NormalSentence a b c-\u003eSentence a b c",
@@ -10909,6 +11819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.PropLogic",
           "name": "PropLogic",
           "package": "logic-classes",
@@ -10917,6 +11828,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances PropLogic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.PropLogic",
           "name": "PropLogic",
           "package": "logic-classes",
@@ -10930,6 +11842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.PropLogic",
           "name": "flatten",
           "package": "logic-classes",
@@ -10939,6 +11852,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances PropLogic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.PropLogic",
           "name": "flatten",
           "normalized": "PropForm a-\u003ePropForm a",
@@ -10953,6 +11867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.PropLogic",
           "name": "plSat",
           "package": "logic-classes",
@@ -10962,6 +11877,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances PropLogic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.PropLogic",
           "name": "plSat",
           "normalized": "a-\u003eSkolemT b c d Bool",
@@ -10977,6 +11893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.PropLogic",
           "name": "plSat0",
           "package": "logic-classes",
@@ -10986,6 +11903,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances PropLogic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.PropLogic",
           "name": "plSat0",
           "normalized": "PropForm a-\u003eBool",
@@ -11001,6 +11919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.SatSolver",
           "name": "SatSolver",
           "package": "logic-classes",
@@ -11009,6 +11928,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.SatSolver",
           "name": "SatSolver",
           "package": "logic-classes",
@@ -11022,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.SatSolver",
           "name": "toCNF",
           "package": "logic-classes",
@@ -11031,6 +11952,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Instances SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.SatSolver",
           "name": "toCNF",
           "normalized": "a-\u003eNormalT a b c d CNF",
@@ -11047,6 +11969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a [[formula]] to CNF, which means building a map from\n formula to Literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Instances.SatSolver",
           "name": "toLiteral",
           "package": "logic-classes",
@@ -11057,6 +11980,7 @@
         "index": {
           "description": "Convert formula to CNF which means building map from formula to Literal",
           "hierarchy": "Data Logic Instances SatSolver",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Instances.SatSolver",
           "name": "toLiteral",
           "normalized": "a-\u003eLiteralMapT a b Literal",
@@ -11072,6 +11996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "KnowledgeBase",
           "package": "logic-classes",
@@ -11080,6 +12005,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "KnowledgeBase",
           "package": "logic-classes",
@@ -11093,6 +12019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Proof",
           "package": "logic-classes",
@@ -11101,6 +12028,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Proof",
           "package": "logic-classes",
@@ -11114,6 +12042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "ProofResult",
           "package": "logic-classes",
@@ -11122,6 +12051,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "ProofResult",
           "package": "logic-classes",
@@ -11136,6 +12066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for running the knowledge base.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "ProverT",
           "package": "logic-classes",
@@ -11145,6 +12076,7 @@
         "index": {
           "description": "monad for running the knowledge base",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "ProverT",
           "package": "logic-classes",
@@ -11158,6 +12090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "WithId",
           "package": "logic-classes",
@@ -11166,6 +12099,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "WithId",
           "package": "logic-classes",
@@ -11180,6 +12114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe conjecture is unsatisfiable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Disproved",
           "package": "logic-classes",
@@ -11190,6 +12125,7 @@
         "index": {
           "description": "The conjecture is unsatisfiable",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Disproved",
           "package": "logic-classes",
@@ -11204,6 +12140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoth are satisfiable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Invalid",
           "package": "logic-classes",
@@ -11214,6 +12151,7 @@
         "index": {
           "description": "Both are satisfiable",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Invalid",
           "package": "logic-classes",
@@ -11227,6 +12165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Proof",
           "package": "logic-classes",
@@ -11236,6 +12175,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Proof",
           "package": "logic-classes",
@@ -11250,6 +12190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe negated conjecture is unsatisfiable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Proved",
           "package": "logic-classes",
@@ -11260,6 +12201,7 @@
         "index": {
           "description": "The negated conjecture is unsatisfiable",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "Proved",
           "package": "logic-classes",
@@ -11273,6 +12215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "WithId",
           "package": "logic-classes",
@@ -11282,6 +12225,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "WithId",
           "package": "logic-classes",
@@ -11296,6 +12240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to prove a sentence, return the result and the proof.\n askKB should be in KnowledgeBase module. However, since resolution\n is here functions are here, it is also placed in this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "askKB",
           "package": "logic-classes",
@@ -11306,6 +12251,7 @@
         "index": {
           "description": "Try to prove sentence return the result and the proof askKB should be in KnowledgeBase module However since resolution is here functions are here it is also placed in this module",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "askKB",
           "normalized": "a-\u003eProverT' b c(ImplicativeForm d)e Bool",
@@ -11322,6 +12268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the contents of the knowledgebase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "getKB",
           "package": "logic-classes",
@@ -11332,6 +12279,7 @@
         "index": {
           "description": "Return the contents of the knowledgebase",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "getKB",
           "package": "logic-classes",
@@ -11346,6 +12294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a flag indicating whether sentence was disproved, along\n with a disproof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "inconsistantKB",
           "package": "logic-classes",
@@ -11356,6 +12305,7 @@
         "index": {
           "description": "Return flag indicating whether sentence was disproved along with disproof",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "inconsistantKB",
           "normalized": "a-\u003eProverT' b c(ImplicativeForm d)e(Bool,SetOfSupport d b c)",
@@ -11371,6 +12321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "loadKB",
           "package": "logic-classes",
@@ -11380,6 +12331,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "loadKB",
           "normalized": "[a]-\u003eProverT' b c(ImplicativeForm d)e[Proof d]",
@@ -11395,6 +12347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "proof",
           "package": "logic-classes",
@@ -11404,6 +12357,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "proof",
           "package": "logic-classes",
@@ -11416,6 +12370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "proofResult",
           "package": "logic-classes",
@@ -11425,6 +12380,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "proofResult",
           "package": "logic-classes",
@@ -11438,6 +12394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "runProver'",
           "package": "logic-classes",
@@ -11447,6 +12404,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "runProver'",
           "normalized": "Maybe Int-\u003eProverT' a b c Identity d-\u003ed",
@@ -11462,6 +12420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "runProverT'",
           "package": "logic-classes",
@@ -11471,6 +12430,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "runProverT'",
           "normalized": "Maybe Int-\u003eProverT' a b c d e-\u003ed e",
@@ -11487,6 +12447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an entry from the KB.\n\u003c/p\u003e\u003cp\u003eReturn a text description of the contents of the knowledgebase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "showKB",
           "package": "logic-classes",
@@ -11497,6 +12458,7 @@
         "index": {
           "description": "Delete an entry from the KB Return text description of the contents of the knowledgebase",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "showKB",
           "package": "logic-classes",
@@ -11511,6 +12473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate a sentence and insert it into the knowledgebase.  Returns\n the INF sentences derived from the new sentence, or Nothing if the\n new sentence is inconsistant with the current knowledgebase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "tellKB",
           "package": "logic-classes",
@@ -11521,6 +12484,7 @@
         "index": {
           "description": "Validate sentence and insert it into the knowledgebase Returns the INF sentences derived from the new sentence or Nothing if the new sentence is inconsistant with the current knowledgebase",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "tellKB",
           "normalized": "a-\u003eProverT' b c(ImplicativeForm d)e(Proof d)",
@@ -11537,6 +12501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a flag indicating whether sentence was proved, along with a\n proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "theoremKB",
           "package": "logic-classes",
@@ -11547,6 +12512,7 @@
         "index": {
           "description": "Return flag indicating whether sentence was proved along with proof",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "theoremKB",
           "normalized": "a-\u003eProverT' b c(ImplicativeForm d)e(Bool,SetOfSupport d b c)",
@@ -11563,6 +12529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a particular sentence from the knowledge base\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "unloadKB",
           "package": "logic-classes",
@@ -11573,6 +12540,7 @@
         "index": {
           "description": "Remove particular sentence from the knowledge base",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "unloadKB",
           "normalized": "SentenceCount-\u003eProverT a b(Maybe(KnowledgeBase a))",
@@ -11589,6 +12557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee whether the sentence is true, false or invalid.  Return proofs\n for truth and falsity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "validKB",
           "package": "logic-classes",
@@ -11599,6 +12568,7 @@
         "index": {
           "description": "See whether the sentence is true false or invalid Return proofs for truth and falsity",
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "validKB",
           "normalized": "a-\u003eProverT' b c(ImplicativeForm d)e(ProofResult,SetOfSupport d b c,SetOfSupport d b c)",
@@ -11614,6 +12584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "wiIdent",
           "package": "logic-classes",
@@ -11623,6 +12594,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "wiIdent",
           "package": "logic-classes",
@@ -11636,6 +12608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.KnowledgeBase",
           "name": "wiItem",
           "package": "logic-classes",
@@ -11645,6 +12618,7 @@
         },
         "index": {
           "hierarchy": "Data Logic KnowledgeBase",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.KnowledgeBase",
           "name": "wiItem",
           "package": "logic-classes",
@@ -11659,6 +12633,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA series of transformations to convert first order logic formulas\n into (ultimately) Clause Normal Form.\n\u003c/p\u003e\u003cpre\u003e\n 1st order formula:\n   &#8704;Y (&#8704;X (taller(Y,X) | wise(X)) =\u003e wise(Y))\n\nSimplify\n   &#8704;Y (~&#8704;X (taller(Y,X) | wise(X)) | wise(Y))\n\nMove negations in - Negation Normal Form\n   &#8704;Y (&#8707;X (~taller(Y,X) & ~wise(X)) | wise(Y))\n\nMove quantifiers out - Prenex Normal Form\n   &#8704;Y (&#8707;X ((~taller(Y,X) & ~wise(X)) | wise(Y)))\n\nDistribute disjunctions\n   &#8704;Y &#8707;X ((~taller(Y,X) | wise(Y)) & (~wise(X) | wise(Y)))\n\nSkolemize  - Skolem Normal Form\n   &#8704;Y (~taller(Y,x(Y)) | wise(Y)) & (~wise(x(Y)) | wise(Y))\n\nConvert to CNF\n   { ~taller(Y,x(Y)) | wise(Y),\n     ~wise(x(Y)) | wise(Y) } \n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Clause",
           "name": "Clause",
           "package": "logic-classes",
@@ -11668,6 +12643,7 @@
         "index": {
           "description": "series of transformations to convert first order logic formulas into ultimately Clause Normal Form st order formula taller wise wise Simplify taller wise wise Move negations in Negation Normal Form taller wise wise Move quantifiers out Prenex Normal Form taller wise wise Distribute disjunctions taller wise wise wise Skolemize Skolem Normal Form taller wise wise wise Convert to CNF taller wise wise wise",
           "hierarchy": "Data Logic Normal Clause",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Clause",
           "name": "Clause",
           "package": "logic-classes",
@@ -11682,6 +12658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to Skolem Normal Form and then distribute the disjunctions over the conjunctions:\n\u003c/p\u003e\u003cpre\u003e\n Formula      Rewrites to\n P | (Q & R)  (P | Q) & (P | R)\n (Q & R) | P  (Q | P) & (R | P)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Clause",
           "name": "clauseNormalForm",
           "package": "logic-classes",
@@ -11692,6 +12669,7 @@
         "index": {
           "description": "Convert to Skolem Normal Form and then distribute the disjunctions over the conjunctions Formula Rewrites to",
           "hierarchy": "Data Logic Normal Clause",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Clause",
           "name": "clauseNormalForm",
           "normalized": "a-\u003eSkolemT b c d(Set(Set e))",
@@ -11707,6 +12685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Clause",
           "name": "cnfTrace",
           "package": "logic-classes",
@@ -11716,6 +12695,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Clause",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Clause",
           "name": "cnfTrace",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003e(c-\u003eDoc)-\u003ed-\u003eSkolemT a e f(String,Set(Set g))",
@@ -11731,6 +12711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "Implicative",
           "package": "logic-classes",
@@ -11739,6 +12720,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "Implicative",
           "package": "logic-classes",
@@ -11753,6 +12735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type to represent a formula in Implicative Normal Form.  Such a\n formula has the form \u003ccode\u003ea & b & c .=\u003e. d | e | f\u003c/code\u003e, where a thru f are\n literals.  One more restriction that is not implied by the type is\n that no literal can appear in both the pos set and the neg set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "ImplicativeForm",
           "package": "logic-classes",
@@ -11762,6 +12745,7 @@
         "index": {
           "description": "type to represent formula in Implicative Normal Form Such formula has the form where thru are literals One more restriction that is not implied by the type is that no literal can appear in both the pos set and the neg set",
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "ImplicativeForm",
           "package": "logic-classes",
@@ -11775,6 +12759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "LiteralMapT",
           "package": "logic-classes",
@@ -11783,6 +12768,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "LiteralMapT",
           "package": "logic-classes",
@@ -11797,6 +12783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombination of Normal monad and LiteralMap monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "NormalT",
           "package": "logic-classes",
@@ -11806,6 +12793,7 @@
         "index": {
           "description": "Combination of Normal monad and LiteralMap monad",
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "NormalT",
           "package": "logic-classes",
@@ -11819,6 +12807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "INF",
           "package": "logic-classes",
@@ -11828,6 +12817,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "INF",
           "package": "logic-classes",
@@ -11842,6 +12832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the clause normal form, and turn it into implicative form,\n where each clauses becomes an (LHS, RHS) pair with the negated\n literals on the LHS and the non-negated literals on the RHS:\n \u003ccode\u003e\n   (a | ~b | c | ~d) becomes (b & d) =\u003e (a | c)\n   (~b | ~d) | (a | c)\n   ~~(~b | ~d) | (a | c)\n   ~(b & d) | (a | c)\n \u003c/code\u003e\n If there are skolem functions on the RHS, split the formula using\n this identity:\n \u003ccode\u003e\n   (a | b | c) =\u003e (d & e & f)\n \u003c/code\u003e\n becomes\n \u003ccode\u003e\n    a | b | c =\u003e d\n    a | b | c =\u003e e\n    a | b | c =\u003e f\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "implicativeNormalForm",
           "package": "logic-classes",
@@ -11852,6 +12843,7 @@
         "index": {
           "description": "Take the clause normal form and turn it into implicative form where each clauses becomes an LHS RHS pair with the negated literals on the LHS and the non-negated literals on the RHS becomes If there are skolem functions on the RHS split the formula using this identity becomes",
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "implicativeNormalForm",
           "normalized": "a-\u003eSkolemT b c d(Set(ImplicativeForm e))",
@@ -11868,6 +12860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of MakeINF that takes lists instead of sets, used for\n implementing a more attractive show method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "makeINF'",
           "package": "logic-classes",
@@ -11878,6 +12871,7 @@
         "index": {
           "description": "version of MakeINF that takes lists instead of sets used for implementing more attractive show method",
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "makeINF'",
           "normalized": "[a]-\u003e[a]-\u003eImplicativeForm a",
@@ -11893,6 +12887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "neg",
           "package": "logic-classes",
@@ -11902,6 +12897,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "neg",
           "package": "logic-classes",
@@ -11914,6 +12910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "pos",
           "package": "logic-classes",
@@ -11923,6 +12920,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "pos",
           "package": "logic-classes",
@@ -11935,6 +12933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "prettyINF",
           "package": "logic-classes",
@@ -11944,6 +12943,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "prettyINF",
           "normalized": "(a-\u003eDoc)-\u003eImplicativeForm a-\u003eDoc",
@@ -11959,6 +12959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "prettyProof",
           "package": "logic-classes",
@@ -11968,6 +12969,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "prettyProof",
           "normalized": "(a-\u003eDoc)-\u003eSet(ImplicativeForm a)-\u003eDoc",
@@ -11983,6 +12985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "runNormal",
           "package": "logic-classes",
@@ -11992,6 +12995,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "runNormal",
           "normalized": "NormalT a b c Identity d-\u003ed",
@@ -12007,6 +13011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Normal.Implicative",
           "name": "runNormalT",
           "package": "logic-classes",
@@ -12016,6 +13021,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Normal Implicative",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Normal.Implicative",
           "name": "runNormalT",
           "normalized": "NormalT a b c d e-\u003ed e",
@@ -12031,6 +13037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Resolution",
           "name": "Resolution",
           "package": "logic-classes",
@@ -12039,6 +13046,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Resolution",
           "name": "Resolution",
           "package": "logic-classes",
@@ -12052,6 +13060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Resolution",
           "name": "SetOfSupport",
           "package": "logic-classes",
@@ -12060,6 +13069,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Resolution",
           "name": "SetOfSupport",
           "package": "logic-classes",
@@ -12073,6 +13083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Resolution",
           "name": "Unification",
           "package": "logic-classes",
@@ -12081,6 +13092,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Resolution",
           "name": "Unification",
           "package": "logic-classes",
@@ -12095,6 +13107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the \u003ca\u003equestion\u003c/a\u003e to a set of support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Resolution",
           "name": "getSetOfSupport",
           "package": "logic-classes",
@@ -12105,6 +13118,7 @@
         "index": {
           "description": "Convert the question to set of support",
           "hierarchy": "Data Logic Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Resolution",
           "name": "getSetOfSupport",
           "normalized": "Set(ImplicativeForm a)-\u003eSet(ImplicativeForm a,Map b c)",
@@ -12120,6 +13134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Resolution",
           "name": "getSubstAtomEq",
           "package": "logic-classes",
@@ -12129,6 +13144,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Resolution",
           "name": "getSubstAtomEq",
           "normalized": "Map a b-\u003ec-\u003eMap a b",
@@ -12144,6 +13160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Resolution",
           "name": "isRenameOfAtomEq",
           "package": "logic-classes",
@@ -12153,6 +13170,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Resolution",
           "name": "isRenameOfAtomEq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -12168,6 +13186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Resolution",
           "name": "prove",
           "package": "logic-classes",
@@ -12176,6 +13195,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Resolution",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Resolution",
           "name": "prove",
           "normalized": "Maybe Int-\u003eSetOfSupport a b c-\u003eSetOfSupport a b c-\u003eSet(ImplicativeForm a)-\u003e(Bool,SetOfSupport a b c)",
@@ -12191,6 +13211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDo satisfiability computations on any FirstOrderFormula formula by\n converting it to a convenient instance of PropositionalFormula and\n using the satisfiable function from that instance.  Currently we\n use the satisfiable function from the PropLogic package, by the\n Bucephalus project.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Satisfiable",
           "name": "Satisfiable",
           "package": "logic-classes",
@@ -12200,6 +13221,7 @@
         "index": {
           "description": "Do satisfiability computations on any FirstOrderFormula formula by converting it to convenient instance of PropositionalFormula and using the satisfiable function from that instance Currently we use the satisfiable function from the PropLogic package by the Bucephalus project",
           "hierarchy": "Data Logic Satisfiable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Satisfiable",
           "name": "Satisfiable",
           "package": "logic-classes",
@@ -12214,6 +13236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the formula always false?  (Not satisfiable.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Satisfiable",
           "name": "inconsistant",
           "package": "logic-classes",
@@ -12224,6 +13247,7 @@
         "index": {
           "description": "Is the formula always false Not satisfiable",
           "hierarchy": "Data Logic Satisfiable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Satisfiable",
           "name": "inconsistant",
           "normalized": "a-\u003eSkolemT b c d Bool",
@@ -12239,6 +13263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA formula is invalid if it is neither a theorem nor inconsistent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Satisfiable",
           "name": "invalid",
           "package": "logic-classes",
@@ -12249,6 +13274,7 @@
         "index": {
           "description": "formula is invalid if it is neither theorem nor inconsistent",
           "hierarchy": "Data Logic Satisfiable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Satisfiable",
           "name": "invalid",
           "normalized": "a-\u003eSkolemT b c d Bool",
@@ -12264,6 +13290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs there any variable assignment that makes the formula true?\n satisfiable :: forall formula atom term v f m. (Monad m, FirstOrderFormula formula atom v, Formula atom term v, Term term v f, Ord formula, Literal formula atom v, Ord atom) =\u003e\n                 formula -\u003e SkolemT v term m Bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Satisfiable",
           "name": "satisfiable",
           "package": "logic-classes",
@@ -12274,6 +13301,7 @@
         "index": {
           "description": "Is there any variable assignment that makes the formula true satisfiable forall formula atom term Monad FirstOrderFormula formula atom Formula atom term Term term Ord formula Literal formula atom Ord atom formula SkolemT term Bool",
           "hierarchy": "Data Logic Satisfiable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Satisfiable",
           "name": "satisfiable",
           "normalized": "a-\u003eSkolemT b c d Bool",
@@ -12289,6 +13317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the negation of the formula inconsistant?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Satisfiable",
           "name": "theorem",
           "package": "logic-classes",
@@ -12299,6 +13328,7 @@
         "index": {
           "description": "Is the negation of the formula inconsistant",
           "hierarchy": "Data Logic Satisfiable",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Satisfiable",
           "name": "theorem",
           "normalized": "a-\u003eSkolemT b c d Bool",
@@ -12313,6 +13343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "HUnit",
           "package": "logic-classes",
@@ -12321,6 +13352,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "HUnit",
           "package": "logic-classes",
@@ -12334,6 +13366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "Assertion",
           "package": "logic-classes",
@@ -12342,6 +13375,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "Assertion",
           "package": "logic-classes",
@@ -12356,6 +13390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHUnit Test type with an added phantom type parameter.  To run\n such a test you use the convert function below:\n \u003ccode\u003e\n   :load Data.Logic.Tests.Harrison.Meson\n   :m +Data.Logic.Tests.HUnit\n   :m +Test.HUnit\n   runTestTT (convert tests)\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "Test",
           "package": "logic-classes",
@@ -12365,6 +13400,7 @@
         "index": {
           "description": "HUnit Test type with an added phantom type parameter To run such test you use the convert function below load Data.Logic.Tests.Harrison.Meson Data.Logic.Tests.HUnit Test.HUnit runTestTT convert tests",
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "Test",
           "package": "logic-classes",
@@ -12378,6 +13414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestFormula",
           "package": "logic-classes",
@@ -12386,6 +13423,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestFormula",
           "package": "logic-classes",
@@ -12399,6 +13437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestFormulaEq",
           "package": "logic-classes",
@@ -12407,6 +13446,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestFormulaEq",
           "package": "logic-classes",
@@ -12420,6 +13460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "Test0",
           "package": "logic-classes",
@@ -12429,6 +13470,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "Test0",
           "package": "logic-classes",
@@ -12442,6 +13484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestCase",
           "package": "logic-classes",
@@ -12451,6 +13494,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestCase",
           "package": "logic-classes",
@@ -12464,6 +13508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestLabel",
           "package": "logic-classes",
@@ -12473,6 +13518,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestLabel",
           "package": "logic-classes",
@@ -12486,6 +13532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestList",
           "package": "logic-classes",
@@ -12495,6 +13542,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "TestList",
           "normalized": "TestList[Test a]",
@@ -12511,6 +13559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsserts that the specified actual value is equal to the expected value.\n The output message will contain the prefix, the expected value, and the \n actual value.\n\u003c/p\u003e\u003cp\u003eIf the prefix is the empty string (i.e., \u003ccode\u003e\"\"\u003c/code\u003e), then the prefix is omitted\n and only the expected and actual values are output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "assertEqual",
           "package": "logic-classes",
@@ -12520,6 +13569,7 @@
         "index": {
           "description": "Asserts that the specified actual value is equal to the expected value The output message will contain the prefix the expected value and the actual value If the prefix is the empty string i.e then the prefix is omitted and only the expected and actual values are output",
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "assertEqual",
           "normalized": "String-\u003ea-\u003ea-\u003eAssertion",
@@ -12535,6 +13585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Tests.HUnit",
           "name": "convert",
           "package": "logic-classes",
@@ -12544,6 +13595,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Tests HUnit",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Tests.HUnit",
           "name": "convert",
           "normalized": "Test a-\u003eTest",
@@ -12558,6 +13610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Common",
           "name": "Common",
           "package": "logic-classes",
@@ -12566,6 +13619,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Common",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Common",
           "name": "Common",
           "package": "logic-classes",
@@ -12580,6 +13634,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types which are instances of the Logic type class for use\n when you just want to use the classes and you don't have a\n particular representation you need to use.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "FirstOrder",
           "package": "logic-classes",
@@ -12589,6 +13644,7 @@
         "index": {
           "description": "Data types which are instances of the Logic type class for use when you just want to use the classes and you don have particular representation you need to use",
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "FirstOrder",
           "package": "logic-classes",
@@ -12603,6 +13659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range of a formula is {True, False} when it has no free variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Formula",
           "package": "logic-classes",
@@ -12612,6 +13669,7 @@
         "index": {
           "description": "The range of formula is True False when it has no free variables",
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Formula",
           "package": "logic-classes",
@@ -12626,6 +13684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range of a term is an element of a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "PTerm",
           "package": "logic-classes",
@@ -12635,6 +13694,7 @@
         "index": {
           "description": "The range of term is an element of set",
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "PTerm",
           "package": "logic-classes",
@@ -12649,6 +13709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA temporary type used in the fold method to represent the\n combination of a predicate and its arguments.  This reduces the\n number of arguments to foldFirstOrder and makes it easier to manage the\n mapping of the different instances to the class methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Predicate",
           "package": "logic-classes",
@@ -12658,6 +13719,7 @@
         "index": {
           "description": "temporary type used in the fold method to represent the combination of predicate and its arguments This reduces the number of arguments to foldFirstOrder and makes it easier to manage the mapping of the different instances to the class methods",
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Predicate",
           "package": "logic-classes",
@@ -12671,6 +13733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Apply",
           "package": "logic-classes",
@@ -12680,6 +13743,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Apply",
           "normalized": "Apply a[b]",
@@ -12695,6 +13759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Combine",
           "package": "logic-classes",
@@ -12704,6 +13769,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Combine",
           "package": "logic-classes",
@@ -12717,6 +13783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Equal",
           "package": "logic-classes",
@@ -12726,6 +13793,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Equal",
           "package": "logic-classes",
@@ -12740,6 +13808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction application.\n Constants are encoded as\n nullary functions.  The result\n is another term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "FunApp",
           "package": "logic-classes",
@@ -12750,6 +13819,7 @@
         "index": {
           "description": "Function application Constants are encoded as nullary functions The result is another term",
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "FunApp",
           "normalized": "FunApp a[PTerm b a]",
@@ -12765,6 +13835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Predicate",
           "package": "logic-classes",
@@ -12774,6 +13845,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Predicate",
           "package": "logic-classes",
@@ -12787,6 +13859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Quant",
           "package": "logic-classes",
@@ -12796,6 +13869,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Quant",
           "package": "logic-classes",
@@ -12810,6 +13884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable, either free or\n bound by an enclosing quantifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Var",
           "package": "logic-classes",
@@ -12820,6 +13895,7 @@
         "index": {
           "description": "variable either free or bound by an enclosing quantifier",
           "hierarchy": "Data Logic Types FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrder",
           "name": "Var",
           "package": "logic-classes",
@@ -12834,6 +13910,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn instance of FirstOrderFormula which implements Eq and Ord by comparing\n after conversion to normal form.  This helps us notice that formula which\n only differ in ways that preserve identity, e.g. swapped arguments to a\n commutative operator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "FirstOrderPublic",
           "package": "logic-classes",
@@ -12843,6 +13920,7 @@
         "index": {
           "description": "An instance of FirstOrderFormula which implements Eq and Ord by comparing after conversion to normal form This helps us notice that formula which only differ in ways that preserve identity e.g swapped arguments to commutative operator",
           "hierarchy": "Data Logic Types FirstOrderPublic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "FirstOrderPublic",
           "package": "logic-classes",
@@ -12857,6 +13935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between the public and internal representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "Bijection",
           "package": "logic-classes",
@@ -12866,6 +13945,7 @@
         "index": {
           "description": "Convert between the public and internal representations",
           "hierarchy": "Data Logic Types FirstOrderPublic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "Bijection",
           "package": "logic-classes",
@@ -12880,6 +13960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe new Formula type is just a wrapper around the Native instance\n (which eventually should be renamed the Internal instance.)  No\n derived Eq or Ord instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "Formula",
           "package": "logic-classes",
@@ -12889,6 +13970,7 @@
         "index": {
           "description": "The new Formula type is just wrapper around the Native instance which eventually should be renamed the Internal instance No derived Eq or Ord instances",
           "hierarchy": "Data Logic Types FirstOrderPublic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "Formula",
           "package": "logic-classes",
@@ -12902,6 +13984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "Formula",
           "package": "logic-classes",
@@ -12911,6 +13994,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrderPublic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "Formula",
           "package": "logic-classes",
@@ -12924,6 +14008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "intern",
           "package": "logic-classes",
@@ -12933,6 +14018,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrderPublic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "intern",
           "normalized": "a-\u003eb",
@@ -12947,6 +14033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "public",
           "package": "logic-classes",
@@ -12956,6 +14043,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrderPublic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "public",
           "normalized": "a-\u003eb",
@@ -12970,6 +14058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "unFormula",
           "package": "logic-classes",
@@ -12979,6 +14068,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types FirstOrderPublic",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.FirstOrderPublic",
           "name": "unFormula",
           "package": "logic-classes",
@@ -12992,6 +14082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "Equal",
           "package": "logic-classes",
@@ -13000,6 +14091,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "Equal",
           "package": "logic-classes",
@@ -13013,6 +14105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "FOLEQ",
           "package": "logic-classes",
@@ -13021,6 +14114,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "FOLEQ",
           "package": "logic-classes",
@@ -13034,6 +14128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "PredName",
           "package": "logic-classes",
@@ -13042,6 +14137,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "PredName",
           "package": "logic-classes",
@@ -13055,6 +14151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": ":=:",
           "package": "logic-classes",
@@ -13064,6 +14161,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": ":=:",
           "package": "logic-classes",
@@ -13076,6 +14174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "EQUALS",
           "package": "logic-classes",
@@ -13085,6 +14184,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "EQUALS",
           "package": "logic-classes",
@@ -13098,6 +14198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "Named",
           "package": "logic-classes",
@@ -13107,6 +14208,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "Named",
           "package": "logic-classes",
@@ -13120,6 +14222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "R",
           "package": "logic-classes",
@@ -13129,6 +14232,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Equal",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Equal",
           "name": "R",
           "normalized": "R String[TermType]",
@@ -13143,6 +14247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "FOL",
           "package": "logic-classes",
@@ -13151,6 +14256,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "FOL",
           "package": "logic-classes",
@@ -13164,6 +14270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "FOL",
           "package": "logic-classes",
@@ -13172,6 +14279,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "FOL",
           "package": "logic-classes",
@@ -13186,6 +14294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Harrison book uses String for atomic function, but we need\n something a little more type safe because of our Skolem class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "Function",
           "package": "logic-classes",
@@ -13195,6 +14304,7 @@
         "index": {
           "description": "The Harrison book uses String for atomic function but we need something little more type safe because of our Skolem class",
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "Function",
           "package": "logic-classes",
@@ -13208,6 +14318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "TermType",
           "package": "logic-classes",
@@ -13216,6 +14327,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "TermType",
           "package": "logic-classes",
@@ -13229,6 +14341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "FName",
           "package": "logic-classes",
@@ -13238,6 +14351,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "FName",
           "package": "logic-classes",
@@ -13251,6 +14365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "Fn",
           "package": "logic-classes",
@@ -13260,6 +14375,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "Fn",
           "normalized": "Fn Function[TermType]",
@@ -13275,6 +14391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "R",
           "package": "logic-classes",
@@ -13284,6 +14401,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "R",
           "normalized": "R String[TermType]",
@@ -13298,6 +14416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "Skolem",
           "package": "logic-classes",
@@ -13307,6 +14426,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "Skolem",
           "package": "logic-classes",
@@ -13320,6 +14440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "Var",
           "package": "logic-classes",
@@ -13329,6 +14450,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison FOL",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.FOL",
           "name": "Var",
           "package": "logic-classes",
@@ -13342,6 +14464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "FirstOrder",
           "package": "logic-classes",
@@ -13350,6 +14473,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "FirstOrder",
           "package": "logic-classes",
@@ -13363,6 +14487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Formula",
           "package": "logic-classes",
@@ -13371,6 +14496,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Formula",
           "package": "logic-classes",
@@ -13384,6 +14510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "And",
           "package": "logic-classes",
@@ -13393,6 +14520,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "And",
           "package": "logic-classes",
@@ -13406,6 +14534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Atom",
           "package": "logic-classes",
@@ -13415,6 +14544,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Atom",
           "package": "logic-classes",
@@ -13428,6 +14558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Exists",
           "package": "logic-classes",
@@ -13437,6 +14568,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Exists",
           "package": "logic-classes",
@@ -13450,6 +14582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "F",
           "package": "logic-classes",
@@ -13459,6 +14592,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "F",
           "package": "logic-classes",
@@ -13471,6 +14605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Forall",
           "package": "logic-classes",
@@ -13480,6 +14615,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Forall",
           "package": "logic-classes",
@@ -13493,6 +14629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Iff",
           "package": "logic-classes",
@@ -13502,6 +14639,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Iff",
           "package": "logic-classes",
@@ -13515,6 +14653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Imp",
           "package": "logic-classes",
@@ -13524,6 +14663,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Imp",
           "package": "logic-classes",
@@ -13537,6 +14677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Not",
           "package": "logic-classes",
@@ -13546,6 +14687,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Not",
           "package": "logic-classes",
@@ -13559,6 +14701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Or",
           "package": "logic-classes",
@@ -13568,6 +14711,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "Or",
           "package": "logic-classes",
@@ -13581,6 +14725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "T",
           "package": "logic-classes",
@@ -13590,6 +14735,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas FirstOrder",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.FirstOrder",
           "name": "T",
           "package": "logic-classes",
@@ -13602,6 +14748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Propositional",
           "package": "logic-classes",
@@ -13610,6 +14757,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Propositional",
           "package": "logic-classes",
@@ -13623,6 +14771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Formula",
           "package": "logic-classes",
@@ -13631,6 +14780,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Formula",
           "package": "logic-classes",
@@ -13644,6 +14794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "And",
           "package": "logic-classes",
@@ -13653,6 +14804,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "And",
           "package": "logic-classes",
@@ -13666,6 +14818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Atom",
           "package": "logic-classes",
@@ -13675,6 +14828,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Atom",
           "package": "logic-classes",
@@ -13688,6 +14842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "F",
           "package": "logic-classes",
@@ -13697,6 +14852,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "F",
           "package": "logic-classes",
@@ -13709,6 +14865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Iff",
           "package": "logic-classes",
@@ -13718,6 +14875,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Iff",
           "package": "logic-classes",
@@ -13731,6 +14889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Imp",
           "package": "logic-classes",
@@ -13740,6 +14899,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Imp",
           "package": "logic-classes",
@@ -13753,6 +14913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Not",
           "package": "logic-classes",
@@ -13762,6 +14923,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Not",
           "package": "logic-classes",
@@ -13775,6 +14937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Or",
           "package": "logic-classes",
@@ -13784,6 +14947,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "Or",
           "package": "logic-classes",
@@ -13797,6 +14961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "T",
           "package": "logic-classes",
@@ -13806,6 +14971,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Formulas Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Formulas.Propositional",
           "name": "T",
           "package": "logic-classes",
@@ -13818,6 +14984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Prop",
           "name": "Prop",
           "package": "logic-classes",
@@ -13826,6 +14993,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Prop",
           "name": "Prop",
           "package": "logic-classes",
@@ -13839,6 +15007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Prop",
           "name": "Prop",
           "package": "logic-classes",
@@ -13847,6 +15016,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Prop",
           "name": "Prop",
           "package": "logic-classes",
@@ -13860,6 +15030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Prop",
           "name": "P",
           "package": "logic-classes",
@@ -13869,6 +15040,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Prop",
           "name": "P",
           "package": "logic-classes",
@@ -13881,6 +15053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Harrison.Prop",
           "name": "pname",
           "package": "logic-classes",
@@ -13890,6 +15063,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Harrison Prop",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Harrison.Prop",
           "name": "pname",
           "package": "logic-classes",
@@ -13902,6 +15076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Propositional",
           "name": "Propositional",
           "package": "logic-classes",
@@ -13910,6 +15085,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Propositional",
           "name": "Propositional",
           "package": "logic-classes",
@@ -13924,6 +15100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range of a formula is {True, False} when it has no free variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Propositional",
           "name": "Formula",
           "package": "logic-classes",
@@ -13933,6 +15110,7 @@
         "index": {
           "description": "The range of formula is True False when it has no free variables",
           "hierarchy": "Data Logic Types Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Propositional",
           "name": "Formula",
           "package": "logic-classes",
@@ -13946,6 +15124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Propositional",
           "name": "Atom",
           "package": "logic-classes",
@@ -13955,6 +15134,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Propositional",
           "name": "Atom",
           "package": "logic-classes",
@@ -13968,6 +15148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Propositional",
           "name": "Combine",
           "package": "logic-classes",
@@ -13977,6 +15158,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Propositional",
           "name": "Combine",
           "package": "logic-classes",
@@ -13990,6 +15172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Propositional",
           "name": "F",
           "package": "logic-classes",
@@ -13999,6 +15182,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Propositional",
           "name": "F",
           "package": "logic-classes",
@@ -14011,6 +15195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:06 UTC 2014",
           "module": "Data.Logic.Types.Propositional",
           "name": "T",
           "package": "logic-classes",
@@ -14020,6 +15205,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Types Propositional",
+          "indexed": "2014-03-11T19:12:06",
           "module": "Data.Logic.Types.Propositional",
           "name": "T",
           "package": "logic-classes",

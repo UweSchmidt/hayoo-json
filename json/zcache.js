@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zcache"
+        "phrase": "zcache",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZobrist keys compactly represent the state of perfect information games. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "ZCache",
           "package": "zcache",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Zobrist keys compactly represent the state of perfect information games",
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "ZCache",
           "package": "zcache",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps from board states, indexed by zobrist keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "ZMap",
           "package": "zcache",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Maps from board states indexed by zobrist keys",
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "ZMap",
           "package": "zcache",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets of board states, indexed by zobrist keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "ZSet",
           "package": "zcache",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Sets of board states indexed by zobrist keys",
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "ZSet",
           "package": "zcache",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "ZMap",
           "package": "zcache",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "ZMap",
           "package": "zcache",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "ZSet",
           "package": "zcache",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "ZSet",
           "package": "zcache",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "flipPos",
           "package": "zcache",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "flipPos",
           "normalized": "a-\u003eZSet a-\u003eMaybe(ZSet a)",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the internal array used for the zobrist key creation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "zArray",
           "package": "zcache",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Create the internal array used for the zobrist key creation",
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "zArray",
           "normalized": "Word-\u003e(a,a)-\u003eInt-\u003eZArray a",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a ZMap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "zMap",
           "package": "zcache",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Construct ZMap",
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "zMap",
           "normalized": "Word-\u003e(a,a)-\u003eInt-\u003eZMap a b",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a ZSet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:49 UTC 2014",
           "module": "Data.ZCache",
           "name": "zSet",
           "package": "zcache",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Construct ZSet",
           "hierarchy": "Data ZCache",
+          "indexed": "2014-03-11T20:47:49",
           "module": "Data.ZCache",
           "name": "zSet",
           "normalized": "Word-\u003e(a,a)-\u003eInt-\u003eZSet a",

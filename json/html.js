@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "html"
+        "phrase": "html",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn Html combinator library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "BlockTable",
           "package": "html",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An Html combinator library",
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "BlockTable",
           "package": "html",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "BlockTable",
           "package": "html",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "BlockTable",
           "package": "html",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "above",
           "package": "html",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "above",
           "normalized": "BlockTable a-\u003eBlockTable a-\u003eBlockTable a",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "beside",
           "package": "html",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "beside",
           "normalized": "BlockTable a-\u003eBlockTable a-\u003eBlockTable a",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "empty",
           "package": "html",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "empty",
           "package": "html",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "getMatrix",
           "package": "html",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "getMatrix",
           "normalized": "BlockTable a-\u003e[[(a,(Int,Int))]]",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "showTable",
           "package": "html",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "showTable",
           "normalized": "BlockTable a-\u003eString",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "showsTable",
           "package": "html",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "showsTable",
           "normalized": "BlockTable a-\u003eShowS",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html.BlockTable",
           "name": "single",
           "package": "html",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Text Html BlockTable",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html.BlockTable",
           "name": "single",
           "normalized": "a-\u003eBlockTable a",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn Html combinator library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "Html",
           "package": "html",
@@ -234,6 +253,7 @@
         "index": {
           "description": "An Html combinator library",
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "Html",
           "package": "html",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "ADDATTRS",
           "package": "html",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "ADDATTRS",
           "package": "html",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HTML",
           "package": "html",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HTML",
           "package": "html",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HTMLTABLE",
           "package": "html",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HTMLTABLE",
           "package": "html",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HotLink",
           "package": "html",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HotLink",
           "package": "html",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "Html",
           "package": "html",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "Html",
           "package": "html",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlAttr",
           "package": "html",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlAttr",
           "package": "html",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlElement",
           "package": "html",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlElement",
           "package": "html",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlTable",
           "package": "html",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlTable",
           "package": "html",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlTree",
           "package": "html",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlTree",
           "package": "html",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "URL",
           "package": "html",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "URL",
           "package": "html",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "(!)",
           "package": "html",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "(!) !",
           "normalized": "a-\u003e[HtmlAttr]-\u003ea",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "(+++)",
           "package": "html",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "(+++) +++",
           "normalized": "a-\u003eb-\u003eHtml",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "(\u003c-\u003e)",
           "package": "html",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003eHtmlTable",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "(\u003c/\u003e)",
           "package": "html",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "a-\u003ea-\u003eHtmlTable",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "(\u003c\u003c)",
           "package": "html",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "(\u003c\u003c) \u003c\u003c",
           "normalized": "(Html-\u003ea)-\u003eb-\u003ea",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HotLink",
           "package": "html",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HotLink",
           "package": "html",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "Html",
           "package": "html",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "Html",
           "package": "html",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlAttr",
           "package": "html",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlAttr",
           "package": "html",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlLeaf",
           "package": "html",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlLeaf",
           "package": "html",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlNode",
           "package": "html",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlNode",
           "normalized": "HtmlNode Html[HtmlTree]Html",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlString",
           "package": "html",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlString",
           "package": "html",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlTable",
           "package": "html",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlTable",
           "normalized": "HtmlTable(BlockTable(Int-\u003eInt-\u003eHtml))",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "HtmlTag",
           "package": "html",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "HtmlTag",
           "package": "html",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "above",
           "package": "html",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "above",
           "normalized": "a-\u003ea-\u003eHtmlTable",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "aboves",
           "package": "html",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "aboves",
           "normalized": "[a]-\u003eHtmlTable",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "action",
           "package": "html",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "action",
           "normalized": "String-\u003eHtmlAttr",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "address",
           "package": "html",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "address",
           "normalized": "Html-\u003eHtml",
@@ -844,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "afile",
           "package": "html",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "afile",
           "normalized": "String-\u003eHtml",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "align",
           "package": "html",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "align",
           "normalized": "String-\u003eHtmlAttr",
@@ -890,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "alink",
           "package": "html",
@@ -899,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "alink",
           "normalized": "String-\u003eHtmlAttr",
@@ -913,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "alt",
           "package": "html",
@@ -922,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "alt",
           "normalized": "String-\u003eHtmlAttr",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "altcode",
           "package": "html",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "altcode",
           "normalized": "String-\u003eHtmlAttr",
@@ -959,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "anchor",
           "package": "html",
@@ -968,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "anchor",
           "normalized": "Html-\u003eHtml",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "applet",
           "package": "html",
@@ -991,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "applet",
           "normalized": "Html-\u003eHtml",
@@ -1005,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "aqua",
           "package": "html",
@@ -1014,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "aqua",
           "package": "html",
@@ -1026,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "archive",
           "package": "html",
@@ -1035,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "archive",
           "normalized": "String-\u003eHtmlAttr",
@@ -1049,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "area",
           "package": "html",
@@ -1058,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "area",
           "package": "html",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "background",
           "package": "html",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "background",
           "normalized": "String-\u003eHtmlAttr",
@@ -1093,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "base",
           "package": "html",
@@ -1102,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "base",
           "normalized": "String-\u003eHtmlAttr",
@@ -1116,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "basefont",
           "package": "html",
@@ -1125,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "basefont",
           "package": "html",
@@ -1137,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "beside",
           "package": "html",
@@ -1146,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "beside",
           "normalized": "a-\u003ea-\u003eHtmlTable",
@@ -1160,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "besides",
           "package": "html",
@@ -1169,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "besides",
           "normalized": "[a]-\u003eHtmlTable",
@@ -1183,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "bgcolor",
           "package": "html",
@@ -1192,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "bgcolor",
           "normalized": "String-\u003eHtmlAttr",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "big",
           "package": "html",
@@ -1215,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "big",
           "normalized": "Html-\u003eHtml",
@@ -1229,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "black",
           "package": "html",
@@ -1238,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "black",
           "package": "html",
@@ -1250,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "blockquote",
           "package": "html",
@@ -1259,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "blockquote",
           "normalized": "Html-\u003eHtml",
@@ -1273,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "blue",
           "package": "html",
@@ -1282,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "blue",
           "package": "html",
@@ -1294,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "body",
           "package": "html",
@@ -1303,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "body",
           "normalized": "Html-\u003eHtml",
@@ -1317,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "bold",
           "package": "html",
@@ -1326,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "bold",
           "normalized": "Html-\u003eHtml",
@@ -1340,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "border",
           "package": "html",
@@ -1349,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "border",
           "normalized": "Int-\u003eHtmlAttr",
@@ -1363,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "bordercolor",
           "package": "html",
@@ -1372,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "bordercolor",
           "normalized": "String-\u003eHtmlAttr",
@@ -1386,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "br",
           "package": "html",
@@ -1395,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "br",
           "package": "html",
@@ -1407,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "bullet",
           "package": "html",
@@ -1416,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "bullet",
           "package": "html",
@@ -1428,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "caption",
           "package": "html",
@@ -1437,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "caption",
           "normalized": "Html-\u003eHtml",
@@ -1451,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "cell",
           "package": "html",
@@ -1460,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "cell",
           "normalized": "a-\u003eHtmlTable",
@@ -1474,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "cellpadding",
           "package": "html",
@@ -1483,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "cellpadding",
           "normalized": "Int-\u003eHtmlAttr",
@@ -1497,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "cellspacing",
           "package": "html",
@@ -1506,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "cellspacing",
           "normalized": "Int-\u003eHtmlAttr",
@@ -1520,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "center",
           "package": "html",
@@ -1529,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "center",
           "normalized": "Html-\u003eHtml",
@@ -1543,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "checkbox",
           "package": "html",
@@ -1552,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "checkbox",
           "normalized": "String-\u003eString-\u003eHtml",
@@ -1566,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "checked",
           "package": "html",
@@ -1575,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "checked",
           "package": "html",
@@ -1587,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "cite",
           "package": "html",
@@ -1596,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "cite",
           "normalized": "Html-\u003eHtml",
@@ -1610,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "clear",
           "package": "html",
@@ -1619,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "clear",
           "normalized": "String-\u003eHtmlAttr",
@@ -1633,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "clickmap",
           "package": "html",
@@ -1642,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "clickmap",
           "normalized": "String-\u003eHtml",
@@ -1656,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "code",
           "package": "html",
@@ -1665,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "code",
           "normalized": "String-\u003eHtmlAttr",
@@ -1679,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "codebase",
           "package": "html",
@@ -1688,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "codebase",
           "normalized": "String-\u003eHtmlAttr",
@@ -1702,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "color",
           "package": "html",
@@ -1711,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "color",
           "normalized": "String-\u003eHtmlAttr",
@@ -1725,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "cols",
           "package": "html",
@@ -1734,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "cols",
           "normalized": "String-\u003eHtmlAttr",
@@ -1748,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "colspan",
           "package": "html",
@@ -1757,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "colspan",
           "normalized": "Int-\u003eHtmlAttr",
@@ -1771,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "compact",
           "package": "html",
@@ -1780,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "compact",
           "package": "html",
@@ -1792,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "concatHtml",
           "package": "html",
@@ -1801,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "concatHtml",
           "normalized": "[a]-\u003eHtml",
@@ -1816,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "content",
           "package": "html",
@@ -1825,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "content",
           "normalized": "String-\u003eHtmlAttr",
@@ -1839,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "coords",
           "package": "html",
@@ -1848,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "coords",
           "normalized": "String-\u003eHtmlAttr",
@@ -1862,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "copyright",
           "package": "html",
@@ -1871,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "copyright",
           "package": "html",
@@ -1883,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "ddef",
           "package": "html",
@@ -1892,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "ddef",
           "normalized": "Html-\u003eHtml",
@@ -1906,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "debugHtml",
           "package": "html",
@@ -1915,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "debugHtml",
           "normalized": "a-\u003eHtml",
@@ -1930,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "defList",
           "package": "html",
@@ -1939,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "defList",
           "normalized": "[(a,b)]-\u003eHtml",
@@ -1954,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "define",
           "package": "html",
@@ -1963,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "define",
           "normalized": "Html-\u003eHtml",
@@ -1977,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "dlist",
           "package": "html",
@@ -1986,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "dlist",
           "normalized": "Html-\u003eHtml",
@@ -2000,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "dterm",
           "package": "html",
@@ -2009,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "dterm",
           "normalized": "Html-\u003eHtml",
@@ -2023,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "emphasize",
           "package": "html",
@@ -2032,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "emphasize",
           "normalized": "Html-\u003eHtml",
@@ -2046,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "emptyAttr",
           "package": "html",
@@ -2055,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "emptyAttr",
           "normalized": "String-\u003eHtmlAttr",
@@ -2070,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "enctype",
           "package": "html",
@@ -2079,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "enctype",
           "normalized": "String-\u003eHtmlAttr",
@@ -2093,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "face",
           "package": "html",
@@ -2102,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "face",
           "normalized": "String-\u003eHtmlAttr",
@@ -2116,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "fieldset",
           "package": "html",
@@ -2125,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "fieldset",
           "normalized": "Html-\u003eHtml",
@@ -2139,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "font",
           "package": "html",
@@ -2148,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "font",
           "normalized": "Html-\u003eHtml",
@@ -2162,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "form",
           "package": "html",
@@ -2171,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "form",
           "normalized": "Html-\u003eHtml",
@@ -2185,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "frame",
           "package": "html",
@@ -2194,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "frame",
           "normalized": "Html-\u003eHtml",
@@ -2208,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "frameborder",
           "package": "html",
@@ -2217,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "frameborder",
           "normalized": "Int-\u003eHtmlAttr",
@@ -2231,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "frameset",
           "package": "html",
@@ -2240,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "frameset",
           "normalized": "Html-\u003eHtml",
@@ -2254,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "fuchsia",
           "package": "html",
@@ -2263,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "fuchsia",
           "package": "html",
@@ -2275,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "getHtmlElements",
           "package": "html",
@@ -2284,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "getHtmlElements",
           "normalized": "[HtmlElement]",
@@ -2299,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "gray",
           "package": "html",
@@ -2308,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "gray",
           "package": "html",
@@ -2320,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "green",
           "package": "html",
@@ -2329,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "green",
           "package": "html",
@@ -2341,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "gui",
           "package": "html",
@@ -2350,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "gui",
           "normalized": "String-\u003eHtml-\u003eHtml",
@@ -2364,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "h1",
           "package": "html",
@@ -2373,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "h1",
           "normalized": "Html-\u003eHtml",
@@ -2387,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "h2",
           "package": "html",
@@ -2396,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "h2",
           "normalized": "Html-\u003eHtml",
@@ -2410,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "h3",
           "package": "html",
@@ -2419,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "h3",
           "normalized": "Html-\u003eHtml",
@@ -2433,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "h4",
           "package": "html",
@@ -2442,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "h4",
           "normalized": "Html-\u003eHtml",
@@ -2456,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "h5",
           "package": "html",
@@ -2465,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "h5",
           "normalized": "Html-\u003eHtml",
@@ -2479,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "h6",
           "package": "html",
@@ -2488,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "h6",
           "normalized": "Html-\u003eHtml",
@@ -2502,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "header",
           "package": "html",
@@ -2511,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "header",
           "normalized": "Html-\u003eHtml",
@@ -2525,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "height",
           "package": "html",
@@ -2534,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "height",
           "normalized": "Int-\u003eHtmlAttr",
@@ -2548,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "hidden",
           "package": "html",
@@ -2557,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "hidden",
           "normalized": "String-\u003eString-\u003eHtml",
@@ -2571,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "hotLinkAttributes",
           "package": "html",
@@ -2580,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "hotLinkAttributes",
           "normalized": "[HtmlAttr]",
@@ -2595,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "hotLinkContents",
           "package": "html",
@@ -2604,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "hotLinkContents",
           "normalized": "[Html]",
@@ -2619,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "hotLinkURL",
           "package": "html",
@@ -2628,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "hotLinkURL",
           "package": "html",
@@ -2641,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "hotlink",
           "package": "html",
@@ -2650,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "hotlink",
           "normalized": "URL-\u003e[Html]-\u003eHotLink",
@@ -2664,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "hr",
           "package": "html",
@@ -2673,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "hr",
           "package": "html",
@@ -2685,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "href",
           "package": "html",
@@ -2694,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "href",
           "normalized": "String-\u003eHtmlAttr",
@@ -2708,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "hspace",
           "package": "html",
@@ -2717,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "hspace",
           "normalized": "Int-\u003eHtmlAttr",
@@ -2731,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "httpequiv",
           "package": "html",
@@ -2740,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "httpequiv",
           "normalized": "String-\u003eHtmlAttr",
@@ -2754,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "identifier",
           "package": "html",
@@ -2763,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "identifier",
           "normalized": "String-\u003eHtmlAttr",
@@ -2777,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "image",
           "package": "html",
@@ -2786,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "image",
           "package": "html",
@@ -2798,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "input",
           "package": "html",
@@ -2807,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "input",
           "package": "html",
@@ -2819,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "intAttr",
           "package": "html",
@@ -2828,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "intAttr",
           "normalized": "String-\u003eInt-\u003eHtmlAttr",
@@ -2843,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "ismap",
           "package": "html",
@@ -2852,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "ismap",
           "package": "html",
@@ -2864,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "itag",
           "package": "html",
@@ -2873,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "itag",
           "normalized": "String-\u003eHtml",
@@ -2887,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "italics",
           "package": "html",
@@ -2896,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "italics",
           "normalized": "Html-\u003eHtml",
@@ -2910,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "keyboard",
           "package": "html",
@@ -2919,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "keyboard",
           "normalized": "Html-\u003eHtml",
@@ -2933,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "lang",
           "package": "html",
@@ -2942,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "lang",
           "normalized": "String-\u003eHtmlAttr",
@@ -2956,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "legend",
           "package": "html",
@@ -2965,6 +3226,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "legend",
           "normalized": "Html-\u003eHtml",
@@ -2979,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "li",
           "package": "html",
@@ -2988,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "li",
           "normalized": "Html-\u003eHtml",
@@ -3002,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "lime",
           "package": "html",
@@ -3011,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "lime",
           "package": "html",
@@ -3023,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "lineToHtml",
           "package": "html",
@@ -3032,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "lineToHtml",
           "normalized": "String-\u003eHtml",
@@ -3047,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "linesToHtml",
           "package": "html",
@@ -3056,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "linesToHtml",
           "normalized": "[String]-\u003eHtml",
@@ -3071,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "link",
           "package": "html",
@@ -3080,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "link",
           "normalized": "String-\u003eHtmlAttr",
@@ -3094,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "marginheight",
           "package": "html",
@@ -3103,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "marginheight",
           "normalized": "Int-\u003eHtmlAttr",
@@ -3117,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "marginwidth",
           "package": "html",
@@ -3126,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "marginwidth",
           "normalized": "Int-\u003eHtmlAttr",
@@ -3140,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "markupAttrs",
           "package": "html",
@@ -3149,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "markupAttrs",
           "normalized": "[HtmlAttr]",
@@ -3164,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "markupContent",
           "package": "html",
@@ -3173,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "markupContent",
           "package": "html",
@@ -3186,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "markupTag",
           "package": "html",
@@ -3195,6 +3476,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "markupTag",
           "package": "html",
@@ -3208,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "maroon",
           "package": "html",
@@ -3217,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "maroon",
           "package": "html",
@@ -3229,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "maxlength",
           "package": "html",
@@ -3238,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "maxlength",
           "normalized": "Int-\u003eHtmlAttr",
@@ -3252,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "menu",
           "package": "html",
@@ -3261,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "menu",
           "normalized": "String-\u003e[Html]-\u003eHtml",
@@ -3275,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "meta",
           "package": "html",
@@ -3284,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "meta",
           "package": "html",
@@ -3296,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "method",
           "package": "html",
@@ -3305,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "method",
           "normalized": "String-\u003eHtmlAttr",
@@ -3319,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "mkHtmlTable",
           "package": "html",
@@ -3328,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "mkHtmlTable",
           "normalized": "BlockTable(Int-\u003eInt-\u003eHtml)-\u003eHtmlTable",
@@ -3343,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "multiple",
           "package": "html",
@@ -3352,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "multiple",
           "package": "html",
@@ -3364,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "name",
           "package": "html",
@@ -3373,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "name",
           "normalized": "String-\u003eHtmlAttr",
@@ -3387,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "navy",
           "package": "html",
@@ -3396,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "navy",
           "package": "html",
@@ -3408,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "noHtml",
           "package": "html",
@@ -3417,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "noHtml",
           "package": "html",
@@ -3430,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "noframes",
           "package": "html",
@@ -3439,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "noframes",
           "normalized": "Html-\u003eHtml",
@@ -3453,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "nohref",
           "package": "html",
@@ -3462,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "nohref",
           "package": "html",
@@ -3474,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "noresize",
           "package": "html",
@@ -3483,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "noresize",
           "package": "html",
@@ -3495,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "noshade",
           "package": "html",
@@ -3504,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "noshade",
           "package": "html",
@@ -3516,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "nowrap",
           "package": "html",
@@ -3525,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "nowrap",
           "package": "html",
@@ -3537,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "olist",
           "package": "html",
@@ -3546,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "olist",
           "normalized": "Html-\u003eHtml",
@@ -3560,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "olive",
           "package": "html",
@@ -3569,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "olive",
           "package": "html",
@@ -3581,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "option",
           "package": "html",
@@ -3590,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "option",
           "normalized": "Html-\u003eHtml",
@@ -3604,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "ordList",
           "package": "html",
@@ -3613,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "ordList",
           "normalized": "[a]-\u003eHtml",
@@ -3628,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "p",
           "package": "html",
@@ -3637,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "p",
           "normalized": "Html-\u003eHtml",
@@ -3651,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "paragraph",
           "package": "html",
@@ -3660,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "paragraph",
           "normalized": "Html-\u003eHtml",
@@ -3674,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "param",
           "package": "html",
@@ -3683,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "param",
           "package": "html",
@@ -3695,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "password",
           "package": "html",
@@ -3704,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "password",
           "normalized": "String-\u003eHtml",
@@ -3718,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "pre",
           "package": "html",
@@ -3727,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "pre",
           "normalized": "Html-\u003eHtml",
@@ -3741,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "prettyHtml",
           "package": "html",
@@ -3750,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "prettyHtml",
           "normalized": "a-\u003eString",
@@ -3765,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "prettyHtml'",
           "package": "html",
@@ -3774,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "prettyHtml'",
           "normalized": "HtmlElement-\u003e[String]",
@@ -3789,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "primHtml",
           "package": "html",
@@ -3798,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "primHtml",
           "normalized": "String-\u003eHtml",
@@ -3813,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "primHtmlChar",
           "package": "html",
@@ -3822,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "primHtmlChar",
           "normalized": "String-\u003eHtml",
@@ -3837,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "purple",
           "package": "html",
@@ -3846,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "purple",
           "package": "html",
@@ -3858,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "radio",
           "package": "html",
@@ -3867,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "radio",
           "normalized": "String-\u003eString-\u003eHtml",
@@ -3881,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "red",
           "package": "html",
@@ -3890,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "red",
           "package": "html",
@@ -3902,6 +4246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "rel",
           "package": "html",
@@ -3911,6 +4256,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "rel",
           "normalized": "String-\u003eHtmlAttr",
@@ -3925,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "renderHtml",
           "package": "html",
@@ -3934,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "renderHtml",
           "normalized": "a-\u003eString",
@@ -3949,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "renderHtml'",
           "package": "html",
@@ -3958,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "renderHtml'",
           "normalized": "Int-\u003eHtmlElement-\u003eShowS",
@@ -3973,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "renderTable",
           "package": "html",
@@ -3982,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "renderTable",
           "normalized": "BlockTable(Int-\u003eInt-\u003eHtml)-\u003eHtml",
@@ -3997,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "renderTag",
           "package": "html",
@@ -4006,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "renderTag",
           "normalized": "Bool-\u003eString-\u003e[HtmlAttr]-\u003eInt-\u003eShowS",
@@ -4021,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "reset",
           "package": "html",
@@ -4030,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "reset",
           "normalized": "String-\u003eString-\u003eHtml",
@@ -4044,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "rev",
           "package": "html",
@@ -4053,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "rev",
           "normalized": "String-\u003eHtmlAttr",
@@ -4067,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "rows",
           "package": "html",
@@ -4076,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "rows",
           "normalized": "String-\u003eHtmlAttr",
@@ -4090,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "rowspan",
           "package": "html",
@@ -4099,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "rowspan",
           "normalized": "Int-\u003eHtmlAttr",
@@ -4113,6 +4475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "rules",
           "package": "html",
@@ -4122,6 +4485,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "rules",
           "normalized": "String-\u003eHtmlAttr",
@@ -4136,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "sample",
           "package": "html",
@@ -4145,6 +4510,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "sample",
           "normalized": "Html-\u003eHtml",
@@ -4159,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "scrolling",
           "package": "html",
@@ -4168,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "scrolling",
           "normalized": "String-\u003eHtmlAttr",
@@ -4182,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "select",
           "package": "html",
@@ -4191,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "select",
           "normalized": "Html-\u003eHtml",
@@ -4205,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "selected",
           "package": "html",
@@ -4214,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "selected",
           "package": "html",
@@ -4226,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "shape",
           "package": "html",
@@ -4235,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "shape",
           "normalized": "String-\u003eHtmlAttr",
@@ -4249,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "silver",
           "package": "html",
@@ -4258,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "silver",
           "package": "html",
@@ -4270,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "simpleTable",
           "package": "html",
@@ -4279,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "simpleTable",
           "normalized": "[HtmlAttr]-\u003e[HtmlAttr]-\u003e[[Html]]-\u003eHtml",
@@ -4294,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "size",
           "package": "html",
@@ -4303,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "size",
           "normalized": "String-\u003eHtmlAttr",
@@ -4317,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "small",
           "package": "html",
@@ -4326,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "small",
           "normalized": "Html-\u003eHtml",
@@ -4340,6 +4722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "spaceHtml",
           "package": "html",
@@ -4349,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "spaceHtml",
           "package": "html",
@@ -4362,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "src",
           "package": "html",
@@ -4371,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "src",
           "normalized": "String-\u003eHtmlAttr",
@@ -4385,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "start",
           "package": "html",
@@ -4394,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "start",
           "normalized": "Int-\u003eHtmlAttr",
@@ -4408,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "strAttr",
           "package": "html",
@@ -4417,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "strAttr",
           "normalized": "String-\u003eString-\u003eHtmlAttr",
@@ -4432,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "stringToHtml",
           "package": "html",
@@ -4441,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "stringToHtml",
           "normalized": "String-\u003eHtml",
@@ -4456,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "stringToHtmlString",
           "package": "html",
@@ -4465,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "stringToHtmlString",
           "normalized": "String-\u003eString",
@@ -4480,6 +4874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "strong",
           "package": "html",
@@ -4489,6 +4884,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "strong",
           "normalized": "Html-\u003eHtml",
@@ -4503,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "style",
           "package": "html",
@@ -4512,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "style",
           "normalized": "Html-\u003eHtml",
@@ -4526,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "sub",
           "package": "html",
@@ -4535,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "sub",
           "normalized": "Html-\u003eHtml",
@@ -4549,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "submit",
           "package": "html",
@@ -4558,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "submit",
           "normalized": "String-\u003eString-\u003eHtml",
@@ -4572,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "sup",
           "package": "html",
@@ -4581,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "sup",
           "normalized": "Html-\u003eHtml",
@@ -4595,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "table",
           "package": "html",
@@ -4604,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "table",
           "normalized": "Html-\u003eHtml",
@@ -4618,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "tag",
           "package": "html",
@@ -4627,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "tag",
           "normalized": "String-\u003eHtml-\u003eHtml",
@@ -4641,6 +5049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "target",
           "package": "html",
@@ -4650,6 +5059,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "target",
           "normalized": "String-\u003eHtmlAttr",
@@ -4664,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "td",
           "package": "html",
@@ -4673,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "td",
           "normalized": "Html-\u003eHtml",
@@ -4687,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "teal",
           "package": "html",
@@ -4696,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "teal",
           "package": "html",
@@ -4708,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "text",
           "package": "html",
@@ -4717,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "text",
           "normalized": "String-\u003eHtmlAttr",
@@ -4731,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "textarea",
           "package": "html",
@@ -4740,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "textarea",
           "normalized": "Html-\u003eHtml",
@@ -4754,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "textfield",
           "package": "html",
@@ -4763,6 +5182,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "textfield",
           "normalized": "String-\u003eHtml",
@@ -4777,6 +5197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "th",
           "package": "html",
@@ -4786,6 +5207,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "th",
           "normalized": "Html-\u003eHtml",
@@ -4800,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thebase",
           "package": "html",
@@ -4809,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thebase",
           "package": "html",
@@ -4821,6 +5245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "theclass",
           "package": "html",
@@ -4830,6 +5255,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "theclass",
           "normalized": "String-\u003eHtmlAttr",
@@ -4844,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thecode",
           "package": "html",
@@ -4853,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thecode",
           "normalized": "Html-\u003eHtml",
@@ -4867,6 +5295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thediv",
           "package": "html",
@@ -4876,6 +5305,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thediv",
           "normalized": "Html-\u003eHtml",
@@ -4890,6 +5320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thehtml",
           "package": "html",
@@ -4899,6 +5330,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thehtml",
           "normalized": "Html-\u003eHtml",
@@ -4913,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thelink",
           "package": "html",
@@ -4922,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thelink",
           "normalized": "Html-\u003eHtml",
@@ -4936,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "themap",
           "package": "html",
@@ -4945,6 +5380,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "themap",
           "normalized": "Html-\u003eHtml",
@@ -4959,6 +5395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thespan",
           "package": "html",
@@ -4968,6 +5405,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thespan",
           "normalized": "Html-\u003eHtml",
@@ -4982,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thestyle",
           "package": "html",
@@ -4991,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thestyle",
           "normalized": "String-\u003eHtmlAttr",
@@ -5005,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thetitle",
           "package": "html",
@@ -5014,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thetitle",
           "normalized": "Html-\u003eHtml",
@@ -5028,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "thetype",
           "package": "html",
@@ -5037,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "thetype",
           "normalized": "String-\u003eHtmlAttr",
@@ -5051,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "title",
           "package": "html",
@@ -5060,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "title",
           "normalized": "String-\u003eHtmlAttr",
@@ -5074,6 +5520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "toHtml",
           "package": "html",
@@ -5083,6 +5530,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "toHtml",
           "normalized": "a-\u003eHtml",
@@ -5098,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "toHtmlFromList",
           "package": "html",
@@ -5107,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "toHtmlFromList",
           "normalized": "[a]-\u003eHtml",
@@ -5122,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "tr",
           "package": "html",
@@ -5131,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "tr",
           "normalized": "Html-\u003eHtml",
@@ -5145,6 +5597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "treeHtml",
           "package": "html",
@@ -5154,6 +5607,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "treeHtml",
           "normalized": "[String]-\u003eHtmlTree-\u003eHtml",
@@ -5169,6 +5623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "tt",
           "package": "html",
@@ -5178,6 +5633,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "tt",
           "normalized": "Html-\u003eHtml",
@@ -5192,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "ulist",
           "package": "html",
@@ -5201,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "ulist",
           "normalized": "Html-\u003eHtml",
@@ -5215,6 +5673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "underline",
           "package": "html",
@@ -5224,6 +5683,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "underline",
           "normalized": "Html-\u003eHtml",
@@ -5238,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "unordList",
           "package": "html",
@@ -5247,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "unordList",
           "normalized": "[a]-\u003eHtml",
@@ -5262,6 +5724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "usemap",
           "package": "html",
@@ -5271,6 +5734,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "usemap",
           "normalized": "String-\u003eHtmlAttr",
@@ -5285,6 +5749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "validHtmlAttrs",
           "package": "html",
@@ -5294,6 +5759,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "validHtmlAttrs",
           "normalized": "[String]",
@@ -5309,6 +5775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "validHtmlITags",
           "package": "html",
@@ -5318,6 +5785,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "validHtmlITags",
           "normalized": "[String]",
@@ -5333,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "validHtmlTags",
           "package": "html",
@@ -5342,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "validHtmlTags",
           "normalized": "[String]",
@@ -5357,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "valign",
           "package": "html",
@@ -5366,6 +5837,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "valign",
           "normalized": "String-\u003eHtmlAttr",
@@ -5380,6 +5852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "value",
           "package": "html",
@@ -5389,6 +5862,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "value",
           "normalized": "String-\u003eHtmlAttr",
@@ -5403,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "variable",
           "package": "html",
@@ -5412,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "variable",
           "normalized": "Html-\u003eHtml",
@@ -5426,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "version",
           "package": "html",
@@ -5435,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "version",
           "normalized": "String-\u003eHtmlAttr",
@@ -5449,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "vlink",
           "package": "html",
@@ -5458,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "vlink",
           "normalized": "String-\u003eHtmlAttr",
@@ -5472,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "vspace",
           "package": "html",
@@ -5481,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "vspace",
           "normalized": "Int-\u003eHtmlAttr",
@@ -5495,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "white",
           "package": "html",
@@ -5504,6 +5987,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "white",
           "package": "html",
@@ -5516,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "widget",
           "package": "html",
@@ -5525,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "widget",
           "normalized": "String-\u003eString-\u003e[HtmlAttr]-\u003eHtml",
@@ -5539,6 +6025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "width",
           "package": "html",
@@ -5548,6 +6035,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "width",
           "normalized": "String-\u003eHtmlAttr",
@@ -5562,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:38 UTC 2014",
           "module": "Text.Html",
           "name": "yellow",
           "package": "html",
@@ -5571,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "Text Html",
+          "indexed": "2014-03-11T18:51:38",
           "module": "Text.Html",
           "name": "yellow",
           "package": "html",

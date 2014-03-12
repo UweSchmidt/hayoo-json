@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uri"
+        "phrase": "uri",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "URI",
           "package": "uri",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "URI",
           "package": "uri",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a general universal resource identifier using\n  its component parts.\n\u003c/p\u003e\u003cp\u003eFor example, for the URI\n\u003c/p\u003e\u003cpre\u003e   foo://anonymous@www.haskell.org:42/ghc?query#frag\n\u003c/pre\u003e\u003cp\u003ethe components are:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "URI",
           "package": "uri",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents general universal resource identifier using its component parts For example for the URI foo anonymous@www.haskell.org ghc query frag the components are",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "URI",
           "package": "uri",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "URI",
           "package": "uri",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "URI",
           "package": "uri",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves \u003ca\u003e..\u003c/a\u003e and \u003ca\u003e.\u003c/a\u003e from path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "dereferencePath",
           "package": "uri",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Removes and from path",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "dereferencePath",
           "normalized": "[String]-\u003e[String]",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edereferencePath for strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "dereferencePathString",
           "package": "uri",
@@ -121,6 +130,7 @@
         "index": {
           "description": "dereferencePath for strings",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "dereferencePathString",
           "normalized": "String-\u003eString",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscapes string, using predicate to determine whether character is allowed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "escapeString",
           "package": "uri",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Escapes string using predicate to determine whether character is allowed",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "escapeString",
           "normalized": "(Char-\u003eBool)-\u003eString-\u003eString",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if uri is a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "isReference",
           "package": "uri",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Checks if uri is reference",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "isReference",
           "normalized": "URI-\u003eBool",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if uri is relative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "isRelative",
           "package": "uri",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Checks if uri is relative",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "isRelative",
           "normalized": "URI-\u003eBool",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emergePaths for strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "mergePathStrings",
           "package": "uri",
@@ -225,6 +242,7 @@
         "index": {
           "description": "mergePaths for strings",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "mergePathStrings",
           "normalized": "String-\u003eString-\u003eString",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two paths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "mergePaths",
           "package": "uri",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Merges two paths",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "mergePaths",
           "normalized": "[String]-\u003e[String]-\u003e[String]",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emergeURIs for strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "mergeURIStrings",
           "package": "uri",
@@ -277,6 +298,7 @@
         "index": {
           "description": "mergeURIs for strings",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "mergeURIStrings",
           "normalized": "String-\u003eString-\u003eString",
@@ -293,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two URIs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "mergeURIs",
           "package": "uri",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Merges two URIs",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "mergeURIs",
           "normalized": "URI-\u003eURI-\u003eURI",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlank URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "nullURI",
           "package": "uri",
@@ -328,6 +353,7 @@
         "index": {
           "description": "Blank URI",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "nullURI",
           "package": "uri",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if character is OK in fragment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "okInFragment",
           "package": "uri",
@@ -352,6 +379,7 @@
         "index": {
           "description": "Checks if character is OK in fragment",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "okInFragment",
           "normalized": "Char-\u003eBool",
@@ -368,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if character is OK in path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "okInPath",
           "package": "uri",
@@ -378,6 +407,7 @@
         "index": {
           "description": "Checks if character is OK in path",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "okInPath",
           "normalized": "Char-\u003eBool",
@@ -394,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if character is OK in query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "okInQuery",
           "package": "uri",
@@ -404,6 +435,7 @@
         "index": {
           "description": "Checks if character is OK in query",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "okInQuery",
           "normalized": "Char-\u003eBool",
@@ -420,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if character is OK in urlencoded query item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "okInQueryItem",
           "package": "uri",
@@ -430,6 +463,7 @@
         "index": {
           "description": "Checks if character is OK in urlencoded query item",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "okInQueryItem",
           "normalized": "Char-\u003eBool",
@@ -446,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if character is OK in userinfo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "okInUserinfo",
           "package": "uri",
@@ -456,6 +491,7 @@
         "index": {
           "description": "Checks if character is OK in userinfo",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "okInUserinfo",
           "normalized": "Char-\u003eBool",
@@ -472,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposes www-urlencoded query from key-value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "pairsToQuery",
           "package": "uri",
@@ -482,6 +519,7 @@
         "index": {
           "description": "Composes www-urlencoded query from key-value pairs",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "pairsToQuery",
           "normalized": "[(String,String)]-\u003eString",
@@ -498,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "parseURI",
           "package": "uri",
@@ -508,6 +547,7 @@
         "index": {
           "description": "Parses URI",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "parseURI",
           "normalized": "String-\u003eMaybe URI",
@@ -524,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits path to segments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "pathToSegments",
           "package": "uri",
@@ -534,6 +575,7 @@
         "index": {
           "description": "Splits path to segments",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "pathToSegments",
           "normalized": "String-\u003e[String]",
@@ -550,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses www-urlencoded string to key-value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "queryToPairs",
           "package": "uri",
@@ -560,6 +603,7 @@
         "index": {
           "description": "Parses www-urlencoded string to key-value pairs",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "queryToPairs",
           "normalized": "String-\u003e[(String,String)]",
@@ -576,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoins path segments, with escaping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "segmentsToPath",
           "package": "uri",
@@ -586,6 +631,7 @@
         "index": {
           "description": "Joins path segments with escaping",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "segmentsToPath",
           "normalized": "[String]-\u003eString",
@@ -602,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnescapes percent-sequences\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "unescapeString",
           "package": "uri",
@@ -612,6 +659,7 @@
         "index": {
           "description": "Unescapes percent-sequences",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "unescapeString",
           "normalized": "String-\u003eString",
@@ -628,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003efrag\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriFragment",
           "package": "uri",
@@ -638,6 +687,7 @@
         "index": {
           "description": "frag",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriFragment",
           "package": "uri",
@@ -652,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e/ghc\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriPath",
           "package": "uri",
@@ -662,6 +713,7 @@
         "index": {
           "description": "ghc",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriPath",
           "package": "uri",
@@ -676,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for extracting path segments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriPathSegments",
           "package": "uri",
@@ -686,6 +739,7 @@
         "index": {
           "description": "Convenience function for extracting path segments",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriPathSegments",
           "normalized": "URI-\u003e[String]",
@@ -702,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e42\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriPort",
           "package": "uri",
@@ -711,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriPort",
           "package": "uri",
@@ -725,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003equery\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriQuery",
           "package": "uri",
@@ -735,6 +792,7 @@
         "index": {
           "description": "query",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriQuery",
           "package": "uri",
@@ -749,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for extracting www-urlencoded data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriQueryItems",
           "package": "uri",
@@ -759,6 +818,7 @@
         "index": {
           "description": "Convenience function for extracting www-urlencoded data",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriQueryItems",
           "normalized": "URI-\u003e[(String,String)]",
@@ -775,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ewww.haskell.org\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriRegName",
           "package": "uri",
@@ -785,6 +846,7 @@
         "index": {
           "description": "www.haskell.org",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriRegName",
           "package": "uri",
@@ -799,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003efoo\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriScheme",
           "package": "uri",
@@ -809,6 +872,7 @@
         "index": {
           "description": "foo",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriScheme",
           "package": "uri",
@@ -823,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eanonymous\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:31:28 UTC 2014",
           "module": "Text.URI",
           "name": "uriUserInfo",
           "package": "uri",
@@ -833,6 +898,7 @@
         "index": {
           "description": "anonymous",
           "hierarchy": "Text URI",
+          "indexed": "2014-03-11T20:31:28",
           "module": "Text.URI",
           "name": "uriUserInfo",
           "package": "uri",

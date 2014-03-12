@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hinduce-examples"
+        "phrase": "hinduce-examples",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn example of association rule mining:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erules transactions items (top ((take 40) . (filter (\\(_,a)-\u003ea\u003e= 60))))\n\u003c/code\u003e\u003c/strong\u003e\u003e fromList [((fromList [32],fromList [947]),0.1694915254237288),((fromList [39],fromList [145]),0.17238139971817754),((fromList [39],fromList [145,419]),8.266791921089714e-2),((fromList [39],fromList [368]),0.1326914044152184),((fromList [39],fromList [419]),0.1200093940817285),\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.Associations",
           "name": "Associations",
           "package": "hinduce-examples",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An example of association rule mining rules transactions items top take filter fromList fromList fromList fromList fromList fromList fromList e-2 fromList fromList fromList fromList",
           "hierarchy": "Data HInduce Examples Associations",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.Associations",
           "name": "Associations",
           "package": "hinduce-examples",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe items in the T10I4D100K.dat data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.Associations",
           "name": "items",
           "package": "hinduce-examples",
@@ -52,6 +55,7 @@
         "index": {
           "description": "The items in the T10I4D100K.dat data set",
           "hierarchy": "Data HInduce Examples Associations",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.Associations",
           "name": "items",
           "package": "hinduce-examples",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transactions in the T10I4D100K.dat data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.Associations",
           "name": "transactions",
           "package": "hinduce-examples",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The transactions in the T10I4D100K.dat data set",
           "hierarchy": "Data HInduce Examples Associations",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.Associations",
           "name": "transactions",
           "package": "hinduce-examples",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "DecisionTree",
           "package": "hinduce-examples",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "DecisionTree",
           "package": "hinduce-examples",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Iris",
           "package": "hinduce-examples",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Iris",
           "package": "hinduce-examples",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "IrisClass",
           "package": "hinduce-examples",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "IrisClass",
           "package": "hinduce-examples",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Iris",
           "package": "hinduce-examples",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Iris",
           "package": "hinduce-examples",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Setosa",
           "package": "hinduce-examples",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Setosa",
           "package": "hinduce-examples",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Versicolor",
           "package": "hinduce-examples",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Versicolor",
           "package": "hinduce-examples",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Virginica",
           "package": "hinduce-examples",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "Virginica",
           "package": "hinduce-examples",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "iris",
           "package": "hinduce-examples",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "iris",
           "normalized": "[Iris]",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "irisAttrs",
           "package": "hinduce-examples",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "irisAttrs",
           "normalized": "Iris-\u003e[Double]",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "irisAttrs'",
           "package": "hinduce-examples",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "irisAttrs'",
           "normalized": "Iris-\u003e((Double,Double),(Double,Double))",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "irisClass",
           "package": "hinduce-examples",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "irisClass",
           "package": "hinduce-examples",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "petalLength",
           "package": "hinduce-examples",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "petalLength",
           "package": "hinduce-examples",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "petalWidth",
           "package": "hinduce-examples",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "petalWidth",
           "package": "hinduce-examples",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "readCSV",
           "package": "hinduce-examples",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "readCSV",
           "normalized": "[Char]-\u003eIO(Either ParseError CSV)",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "readIris",
           "package": "hinduce-examples",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "readIris",
           "normalized": "IO[Iris]",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "sepalLength",
           "package": "hinduce-examples",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "sepalLength",
           "package": "hinduce-examples",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "sepalWidth",
           "package": "hinduce-examples",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Examples DecisionTree",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples.DecisionTree",
           "name": "sepalWidth",
           "package": "hinduce-examples",
@@ -468,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package / module provides example data and example code to help you\n get started with HInduce. You are advised to import this module (ghci: \n \u003ccode\u003e:m + Data.HInduce.Examples\u003c/code\u003e), not the individual ones below, because\n \u003ccode\u003eData.HInduce.Examples\u003c/code\u003e re-exports modules that are required to run the\n examples yourself.\n\u003c/p\u003e\u003cp\u003eClick on a module below to view the examples you're interested in. Also note\n the grey \u003ca\u003eSource\u003c/a\u003e links at the right hand site of the webpage.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:37 UTC 2014",
           "module": "Data.HInduce.Examples",
           "name": "Examples",
           "package": "hinduce-examples",
@@ -477,6 +518,7 @@
         "index": {
           "description": "This package module provides example data and example code to help you get started with HInduce You are advised to import this module ghci Data.HInduce.Examples not the individual ones below because Data.HInduce.Examples re-exports modules that are required to run the examples yourself Click on module below to view the examples you re interested in Also note the grey Source links at the right hand site of the webpage",
           "hierarchy": "Data HInduce Examples",
+          "indexed": "2014-03-11T18:39:37",
           "module": "Data.HInduce.Examples",
           "name": "Examples",
           "package": "hinduce-examples",

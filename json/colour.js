@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "colour"
+        "phrase": "colour",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard illuminants defined by the International Commission on \n Illumination (CIE).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "Illuminant",
           "package": "colour",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Standard illuminants defined by the International Commission on Illumination CIE",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "Illuminant",
           "package": "colour",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncandescent / Tungsten\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "a",
           "package": "colour",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Incandescent Tungsten",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "a",
           "package": "colour",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e{obsolete} Direct sunlight at noon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "b",
           "package": "colour",
@@ -75,6 +80,7 @@
         "index": {
           "description": "obsolete Direct sunlight at noon",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "b",
           "package": "colour",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e{obsolete} Average / North sky Daylight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "c",
           "package": "colour",
@@ -98,6 +105,7 @@
         "index": {
           "description": "obsolete Average North sky Daylight",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "c",
           "package": "colour",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizon Light. ICC profile PCS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "d50",
           "package": "colour",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Horizon Light ICC profile PCS",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "d50",
           "package": "colour",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMid-morning / Mid-afternoon Daylight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "d55",
           "package": "colour",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Mid-morning Mid-afternoon Daylight",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "d55",
           "package": "colour",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNoon Daylight: Television, sRGB color space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "d65",
           "package": "colour",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Noon Daylight Television sRGB color space",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "d65",
           "package": "colour",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNorth sky Daylight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "d75",
           "package": "colour",
@@ -190,6 +205,7 @@
         "index": {
           "description": "North sky Daylight",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "d75",
           "package": "colour",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqual energy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "e",
           "package": "colour",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Equal energy",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "e",
           "package": "colour",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDaylight Fluorescent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f1",
           "package": "colour",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Daylight Fluorescent",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f1",
           "package": "colour",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhilips TL85, Ultralume 50\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f10",
           "package": "colour",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Philips TL85 Ultralume",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f10",
           "package": "colour",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhilips TL84, Ultralume 40\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f11",
           "package": "colour",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Philips TL84 Ultralume",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f11",
           "package": "colour",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhilips TL83, Ultralume 30\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f12",
           "package": "colour",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Philips TL83 Ultralume",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f12",
           "package": "colour",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCool White Fluorescent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f2",
           "package": "colour",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Cool White Fluorescent",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f2",
           "package": "colour",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite Fluorescent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f3",
           "package": "colour",
@@ -351,6 +380,7 @@
         "index": {
           "description": "White Fluorescent",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f3",
           "package": "colour",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarm White Fluorescent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f4",
           "package": "colour",
@@ -374,6 +405,7 @@
         "index": {
           "description": "Warm White Fluorescent",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f4",
           "package": "colour",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDaylight Fluorescent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f5",
           "package": "colour",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Daylight Fluorescent",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f5",
           "package": "colour",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLite White Fluorescent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f6",
           "package": "colour",
@@ -420,6 +455,7 @@
         "index": {
           "description": "Lite White Fluorescent",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f6",
           "package": "colour",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eD65 simulator, Daylight simulator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f7",
           "package": "colour",
@@ -443,6 +480,7 @@
         "index": {
           "description": "D65 simulator Daylight simulator",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f7",
           "package": "colour",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eD50 simulator, Sylvania F40 Design 50\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f8",
           "package": "colour",
@@ -466,6 +505,7 @@
         "index": {
           "description": "D50 simulator Sylvania F40 Design",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f8",
           "package": "colour",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCool White Deluxe Fluorescent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f9",
           "package": "colour",
@@ -489,6 +530,7 @@
         "index": {
           "description": "Cool White Deluxe Fluorescent",
           "hierarchy": "Data Colour CIE Illuminant",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE.Illuminant",
           "name": "f9",
           "package": "colour",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eColour operations defined by the International Commission on \n Illumination (CIE).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "CIE",
           "package": "colour",
@@ -511,6 +554,7 @@
         "index": {
           "description": "Colour operations defined by the International Commission on Illumination CIE",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "CIE",
           "package": "colour",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "Chromaticity",
           "package": "colour",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "Chromaticity",
           "package": "colour",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents the human preception of colour.\n The \u003ccode\u003ea\u003c/code\u003e parameter is a numeric type used internally for the\n representation.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance allows one to add colours, but beware that adding\n colours can take you out of gamut.  Consider using \u003ccode\u003e\u003ca\u003eblend\u003c/a\u003e\u003c/code\u003e whenever\n possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "Colour",
           "package": "colour",
@@ -555,6 +602,7 @@
         "index": {
           "description": "This type represents the human preception of colour The parameter is numeric type used internally for the representation The Monoid instance allows one to add colours but beware that adding colours can take you out of gamut Consider using blend whenever possible",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "Colour",
           "package": "colour",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a colour from the given \u003ccode\u003e\u003ca\u003eChromaticity\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eluminance\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "chromaColour",
           "package": "colour",
@@ -578,6 +627,7 @@
         "index": {
           "description": "Constructs colour from the given Chromaticity and luminance",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "chromaColour",
           "normalized": "Chromaticity a-\u003ea-\u003eColour a",
@@ -594,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the type used to represent the chromaticity coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "chromaConvert",
           "package": "colour",
@@ -604,6 +655,7 @@
         "index": {
           "description": "Change the type used to represent the chromaticity coordinates",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "chromaConvert",
           "normalized": "Chromaticity a-\u003eChromaticity b",
@@ -620,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the CIE little \u003cem\u003ex\u003c/em\u003e, little \u003cem\u003ey\u003c/em\u003e, little \u003cem\u003ez\u003c/em\u003e coordinates\n for the 2&#176; standard (colourimetric) observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "chromaCoords",
           "package": "colour",
@@ -630,6 +683,7 @@
         "index": {
           "description": "Returns the CIE little little little coordinates for the standard colourimetric observer",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "chromaCoords",
           "normalized": "Chromaticity a-\u003e(a,a,a)",
@@ -646,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the CIE little \u003cem\u003ex\u003c/em\u003e coordinate\n for the 2&#176; standard (colourimetric) observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "chromaX",
           "package": "colour",
@@ -656,6 +711,7 @@
         "index": {
           "description": "Returns the CIE little coordinate for the standard colourimetric observer",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "chromaX",
           "normalized": "Chromaticity a-\u003ea",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the CIE little \u003cem\u003ey\u003c/em\u003e coordinate\n for the 2&#176; standard (colourimetric) observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "chromaY",
           "package": "colour",
@@ -681,6 +738,7 @@
         "index": {
           "description": "Returns the CIE little coordinate for the standard colourimetric observer",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "chromaY",
           "normalized": "Chromaticity a-\u003ea",
@@ -696,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the CIE little \u003cem\u003ez\u003c/em\u003e coordinate\n for the 2&#176; standard (colourimetric) observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "chromaZ",
           "package": "colour",
@@ -706,6 +765,7 @@
         "index": {
           "description": "Returns the CIE little coordinate for the standard colourimetric observer",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "chromaZ",
           "normalized": "Chromaticity a-\u003ea",
@@ -721,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the colour for given CIELAB coordinates, which is a\n perceptually uniform colour space.\n If you don't know what white point to use, use\n \u003ccode\u003eData.Colour.CIE.Illuminant.d65\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "cieLAB",
           "package": "colour",
@@ -730,6 +791,7 @@
         "index": {
           "description": "Returns the colour for given CIELAB coordinates which is perceptually uniform colour space If you don know what white point to use use Data.Colour.CIE.Illuminant.d65",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "cieLAB",
           "normalized": "Chromaticity a-\u003ea-\u003ea-\u003ea-\u003eColour a",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the CIELAB coordinates of a colour, which is a\n perceptually uniform colour space.\n The first coordinate is \u003ccode\u003e\u003ca\u003elightness\u003c/a\u003e\u003c/code\u003e.\n If you don't know what white point to use, use\n \u003ccode\u003eData.Colour.CIE.Illuminant.d65\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "cieLABView",
           "package": "colour",
@@ -755,6 +818,7 @@
         "index": {
           "description": "Returns the CIELAB coordinates of colour which is perceptually uniform colour space The first coordinate is lightness If you don know what white point to use use Data.Colour.CIE.Illuminant.d65",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "cieLABView",
           "normalized": "Chromaticity a-\u003eColour a-\u003e(a,a,a)",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e from XYZ coordinates for the 2&#176; standard\n (colourimetric) observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "cieXYZ",
           "package": "colour",
@@ -781,6 +846,7 @@
         "index": {
           "description": "Construct Colour from XYZ coordinates for the standard colourimetric observer",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "cieXYZ",
           "normalized": "a-\u003ea-\u003ea-\u003eColour a",
@@ -797,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the XYZ colour coordinates for the 2&#176; standard\n (colourimetric) observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "cieXYZView",
           "package": "colour",
@@ -807,6 +874,7 @@
         "index": {
           "description": "Returns the XYZ colour coordinates for the standard colourimetric observer",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "cieXYZView",
           "normalized": "Colour a-\u003e(a,a,a)",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the lightness of a colour with respect to a given white point.\n Lightness is a perceptually uniform measure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "lightness",
           "package": "colour",
@@ -832,6 +901,7 @@
         "index": {
           "description": "Returns the lightness of colour with respect to given white point Lightness is perceptually uniform measure",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "lightness",
           "normalized": "Chromaticity a-\u003eColour a-\u003ea",
@@ -847,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the Y colour coordinate (luminance) for the 2&#176; standard\n (colourimetric) observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "luminance",
           "package": "colour",
@@ -857,6 +928,7 @@
         "index": {
           "description": "Returns the colour coordinate luminance for the standard colourimetric observer",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "luminance",
           "normalized": "Colour a-\u003ea",
@@ -872,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs \u003ccode\u003e\u003ca\u003eChromaticity\u003c/a\u003e\u003c/code\u003e from the CIE little \u003cem\u003ex\u003c/em\u003e, little \u003cem\u003ey\u003c/em\u003e\n coordinates for the 2&#176; standard (colourimetric) observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "mkChromaticity",
           "package": "colour",
@@ -882,6 +955,7 @@
         "index": {
           "description": "Constructs Chromaticity from the CIE little little coordinates for the standard colourimetric observer",
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "mkChromaticity",
           "normalized": "a-\u003ea-\u003eChromaticity a",
@@ -897,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.CIE",
           "name": "toCIEXYZ",
           "package": "colour",
@@ -906,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data Colour CIE",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.CIE",
           "name": "toCIEXYZ",
           "normalized": "Colour a-\u003e(a,a,a)",
@@ -922,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNames for colours.\n Names taken from SVG 1.1 specification,\n \u003ca\u003ehttp://www.w3.org/TR/SVG11/types.html#ColorKeywords\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ereadColourName\u003c/a\u003e\u003c/code\u003e takes a string naming a colour (must be all lowercase)\n and returns the colour.\n Fails if the name is not recognized.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "Names",
           "package": "colour",
@@ -931,6 +1008,7 @@
         "index": {
           "description": "Names for colours Names taken from SVG specification http www.w3.org TR SVG11 types.html ColorKeywords readColourName takes string naming colour must be all lowercase and returns the colour Fails if the name is not recognized",
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "Names",
           "package": "colour",
@@ -944,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "aliceblue",
           "package": "colour",
@@ -953,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "aliceblue",
           "package": "colour",
@@ -965,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "antiquewhite",
           "package": "colour",
@@ -974,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "antiquewhite",
           "package": "colour",
@@ -986,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "aqua",
           "package": "colour",
@@ -995,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "aqua",
           "package": "colour",
@@ -1007,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "aquamarine",
           "package": "colour",
@@ -1016,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "aquamarine",
           "package": "colour",
@@ -1028,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "azure",
           "package": "colour",
@@ -1037,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "azure",
           "package": "colour",
@@ -1049,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "beige",
           "package": "colour",
@@ -1058,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "beige",
           "package": "colour",
@@ -1070,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "bisque",
           "package": "colour",
@@ -1079,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "bisque",
           "package": "colour",
@@ -1113,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "blanchedalmond",
           "package": "colour",
@@ -1122,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "blanchedalmond",
           "package": "colour",
@@ -1134,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "blue",
           "package": "colour",
@@ -1143,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "blue",
           "package": "colour",
@@ -1155,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "blueviolet",
           "package": "colour",
@@ -1164,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "blueviolet",
           "package": "colour",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "brown",
           "package": "colour",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "brown",
           "package": "colour",
@@ -1197,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "burlywood",
           "package": "colour",
@@ -1206,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "burlywood",
           "package": "colour",
@@ -1218,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "cadetblue",
           "package": "colour",
@@ -1227,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "cadetblue",
           "package": "colour",
@@ -1239,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "chartreuse",
           "package": "colour",
@@ -1248,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "chartreuse",
           "package": "colour",
@@ -1260,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "chocolate",
           "package": "colour",
@@ -1269,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "chocolate",
           "package": "colour",
@@ -1281,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "coral",
           "package": "colour",
@@ -1290,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "coral",
           "package": "colour",
@@ -1302,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "cornflowerblue",
           "package": "colour",
@@ -1311,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "cornflowerblue",
           "package": "colour",
@@ -1323,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "cornsilk",
           "package": "colour",
@@ -1332,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "cornsilk",
           "package": "colour",
@@ -1344,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "crimson",
           "package": "colour",
@@ -1353,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "crimson",
           "package": "colour",
@@ -1365,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "cyan",
           "package": "colour",
@@ -1374,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "cyan",
           "package": "colour",
@@ -1386,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkblue",
           "package": "colour",
@@ -1395,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkblue",
           "package": "colour",
@@ -1407,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkcyan",
           "package": "colour",
@@ -1416,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkcyan",
           "package": "colour",
@@ -1428,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkgoldenrod",
           "package": "colour",
@@ -1437,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkgoldenrod",
           "package": "colour",
@@ -1449,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkgray",
           "package": "colour",
@@ -1458,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkgray",
           "package": "colour",
@@ -1470,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkgreen",
           "package": "colour",
@@ -1479,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkgreen",
           "package": "colour",
@@ -1491,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkgrey",
           "package": "colour",
@@ -1500,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkgrey",
           "package": "colour",
@@ -1512,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkkhaki",
           "package": "colour",
@@ -1521,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkkhaki",
           "package": "colour",
@@ -1533,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkmagenta",
           "package": "colour",
@@ -1542,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkmagenta",
           "package": "colour",
@@ -1554,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkolivegreen",
           "package": "colour",
@@ -1563,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkolivegreen",
           "package": "colour",
@@ -1575,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkorange",
           "package": "colour",
@@ -1584,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkorange",
           "package": "colour",
@@ -1596,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkorchid",
           "package": "colour",
@@ -1605,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkorchid",
           "package": "colour",
@@ -1617,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkred",
           "package": "colour",
@@ -1626,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkred",
           "package": "colour",
@@ -1638,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darksalmon",
           "package": "colour",
@@ -1647,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darksalmon",
           "package": "colour",
@@ -1659,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkseagreen",
           "package": "colour",
@@ -1668,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkseagreen",
           "package": "colour",
@@ -1680,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkslateblue",
           "package": "colour",
@@ -1689,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkslateblue",
           "package": "colour",
@@ -1701,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkslategray",
           "package": "colour",
@@ -1710,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkslategray",
           "package": "colour",
@@ -1722,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkslategrey",
           "package": "colour",
@@ -1731,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkslategrey",
           "package": "colour",
@@ -1743,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkturquoise",
           "package": "colour",
@@ -1752,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkturquoise",
           "package": "colour",
@@ -1764,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "darkviolet",
           "package": "colour",
@@ -1773,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "darkviolet",
           "package": "colour",
@@ -1785,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "deeppink",
           "package": "colour",
@@ -1794,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "deeppink",
           "package": "colour",
@@ -1806,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "deepskyblue",
           "package": "colour",
@@ -1815,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "deepskyblue",
           "package": "colour",
@@ -1827,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "dimgray",
           "package": "colour",
@@ -1836,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "dimgray",
           "package": "colour",
@@ -1848,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "dimgrey",
           "package": "colour",
@@ -1857,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "dimgrey",
           "package": "colour",
@@ -1869,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "dodgerblue",
           "package": "colour",
@@ -1878,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "dodgerblue",
           "package": "colour",
@@ -1890,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "firebrick",
           "package": "colour",
@@ -1899,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "firebrick",
           "package": "colour",
@@ -1911,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "floralwhite",
           "package": "colour",
@@ -1920,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "floralwhite",
           "package": "colour",
@@ -1932,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "forestgreen",
           "package": "colour",
@@ -1941,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "forestgreen",
           "package": "colour",
@@ -1953,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "fuchsia",
           "package": "colour",
@@ -1962,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "fuchsia",
           "package": "colour",
@@ -1974,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "gainsboro",
           "package": "colour",
@@ -1983,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "gainsboro",
           "package": "colour",
@@ -1995,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "ghostwhite",
           "package": "colour",
@@ -2004,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "ghostwhite",
           "package": "colour",
@@ -2016,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "gold",
           "package": "colour",
@@ -2025,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "gold",
           "package": "colour",
@@ -2037,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "goldenrod",
           "package": "colour",
@@ -2046,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "goldenrod",
           "package": "colour",
@@ -2058,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "gray",
           "package": "colour",
@@ -2067,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "gray",
           "package": "colour",
@@ -2079,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "green",
           "package": "colour",
@@ -2088,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "green",
           "package": "colour",
@@ -2100,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "greenyellow",
           "package": "colour",
@@ -2109,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "greenyellow",
           "package": "colour",
@@ -2121,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "grey",
           "package": "colour",
@@ -2130,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "grey",
           "package": "colour",
@@ -2142,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "honeydew",
           "package": "colour",
@@ -2151,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "honeydew",
           "package": "colour",
@@ -2163,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "hotpink",
           "package": "colour",
@@ -2172,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "hotpink",
           "package": "colour",
@@ -2184,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "indianred",
           "package": "colour",
@@ -2193,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "indianred",
           "package": "colour",
@@ -2205,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "indigo",
           "package": "colour",
@@ -2214,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "indigo",
           "package": "colour",
@@ -2226,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "ivory",
           "package": "colour",
@@ -2235,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "ivory",
           "package": "colour",
@@ -2247,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "khaki",
           "package": "colour",
@@ -2256,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "khaki",
           "package": "colour",
@@ -2268,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lavender",
           "package": "colour",
@@ -2277,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lavender",
           "package": "colour",
@@ -2289,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lavenderblush",
           "package": "colour",
@@ -2298,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lavenderblush",
           "package": "colour",
@@ -2310,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lawngreen",
           "package": "colour",
@@ -2319,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lawngreen",
           "package": "colour",
@@ -2331,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lemonchiffon",
           "package": "colour",
@@ -2340,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lemonchiffon",
           "package": "colour",
@@ -2352,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightblue",
           "package": "colour",
@@ -2361,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightblue",
           "package": "colour",
@@ -2373,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightcoral",
           "package": "colour",
@@ -2382,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightcoral",
           "package": "colour",
@@ -2394,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightcyan",
           "package": "colour",
@@ -2403,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightcyan",
           "package": "colour",
@@ -2415,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightgoldenrodyellow",
           "package": "colour",
@@ -2424,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightgoldenrodyellow",
           "package": "colour",
@@ -2436,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightgray",
           "package": "colour",
@@ -2445,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightgray",
           "package": "colour",
@@ -2457,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightgreen",
           "package": "colour",
@@ -2466,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightgreen",
           "package": "colour",
@@ -2478,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightgrey",
           "package": "colour",
@@ -2487,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightgrey",
           "package": "colour",
@@ -2499,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightpink",
           "package": "colour",
@@ -2508,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightpink",
           "package": "colour",
@@ -2520,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightsalmon",
           "package": "colour",
@@ -2529,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightsalmon",
           "package": "colour",
@@ -2541,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightseagreen",
           "package": "colour",
@@ -2550,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightseagreen",
           "package": "colour",
@@ -2562,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightskyblue",
           "package": "colour",
@@ -2571,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightskyblue",
           "package": "colour",
@@ -2583,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightslategray",
           "package": "colour",
@@ -2592,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightslategray",
           "package": "colour",
@@ -2604,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightslategrey",
           "package": "colour",
@@ -2613,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightslategrey",
           "package": "colour",
@@ -2625,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightsteelblue",
           "package": "colour",
@@ -2634,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightsteelblue",
           "package": "colour",
@@ -2646,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lightyellow",
           "package": "colour",
@@ -2655,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lightyellow",
           "package": "colour",
@@ -2667,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "lime",
           "package": "colour",
@@ -2676,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "lime",
           "package": "colour",
@@ -2688,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "limegreen",
           "package": "colour",
@@ -2697,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "limegreen",
           "package": "colour",
@@ -2709,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "linen",
           "package": "colour",
@@ -2718,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "linen",
           "package": "colour",
@@ -2730,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "magenta",
           "package": "colour",
@@ -2739,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "magenta",
           "package": "colour",
@@ -2751,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "maroon",
           "package": "colour",
@@ -2760,6 +3009,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "maroon",
           "package": "colour",
@@ -2772,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumaquamarine",
           "package": "colour",
@@ -2781,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumaquamarine",
           "package": "colour",
@@ -2793,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumblue",
           "package": "colour",
@@ -2802,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumblue",
           "package": "colour",
@@ -2814,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumorchid",
           "package": "colour",
@@ -2823,6 +3078,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumorchid",
           "package": "colour",
@@ -2835,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumpurple",
           "package": "colour",
@@ -2844,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumpurple",
           "package": "colour",
@@ -2856,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumseagreen",
           "package": "colour",
@@ -2865,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumseagreen",
           "package": "colour",
@@ -2877,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumslateblue",
           "package": "colour",
@@ -2886,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumslateblue",
           "package": "colour",
@@ -2898,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumspringgreen",
           "package": "colour",
@@ -2907,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumspringgreen",
           "package": "colour",
@@ -2919,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumturquoise",
           "package": "colour",
@@ -2928,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumturquoise",
           "package": "colour",
@@ -2940,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mediumvioletred",
           "package": "colour",
@@ -2949,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mediumvioletred",
           "package": "colour",
@@ -2961,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "midnightblue",
           "package": "colour",
@@ -2970,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "midnightblue",
           "package": "colour",
@@ -2982,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mintcream",
           "package": "colour",
@@ -2991,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mintcream",
           "package": "colour",
@@ -3003,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "mistyrose",
           "package": "colour",
@@ -3012,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "mistyrose",
           "package": "colour",
@@ -3024,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "moccasin",
           "package": "colour",
@@ -3033,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "moccasin",
           "package": "colour",
@@ -3045,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "navajowhite",
           "package": "colour",
@@ -3054,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "navajowhite",
           "package": "colour",
@@ -3066,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "navy",
           "package": "colour",
@@ -3075,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "navy",
           "package": "colour",
@@ -3087,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "oldlace",
           "package": "colour",
@@ -3096,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "oldlace",
           "package": "colour",
@@ -3108,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "olive",
           "package": "colour",
@@ -3117,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "olive",
           "package": "colour",
@@ -3129,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "olivedrab",
           "package": "colour",
@@ -3138,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "olivedrab",
           "package": "colour",
@@ -3150,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "orange",
           "package": "colour",
@@ -3159,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "orange",
           "package": "colour",
@@ -3171,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "orangered",
           "package": "colour",
@@ -3180,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "orangered",
           "package": "colour",
@@ -3192,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "orchid",
           "package": "colour",
@@ -3201,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "orchid",
           "package": "colour",
@@ -3213,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "palegoldenrod",
           "package": "colour",
@@ -3222,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "palegoldenrod",
           "package": "colour",
@@ -3234,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "palegreen",
           "package": "colour",
@@ -3243,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "palegreen",
           "package": "colour",
@@ -3255,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "paleturquoise",
           "package": "colour",
@@ -3264,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "paleturquoise",
           "package": "colour",
@@ -3276,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "palevioletred",
           "package": "colour",
@@ -3285,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "palevioletred",
           "package": "colour",
@@ -3297,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "papayawhip",
           "package": "colour",
@@ -3306,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "papayawhip",
           "package": "colour",
@@ -3318,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "peachpuff",
           "package": "colour",
@@ -3327,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "peachpuff",
           "package": "colour",
@@ -3339,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "peru",
           "package": "colour",
@@ -3348,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "peru",
           "package": "colour",
@@ -3360,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "pink",
           "package": "colour",
@@ -3369,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "pink",
           "package": "colour",
@@ -3381,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "plum",
           "package": "colour",
@@ -3390,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "plum",
           "package": "colour",
@@ -3402,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "powderblue",
           "package": "colour",
@@ -3411,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "powderblue",
           "package": "colour",
@@ -3423,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "purple",
           "package": "colour",
@@ -3432,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "purple",
           "package": "colour",
@@ -3444,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "readColourName",
           "package": "colour",
@@ -3453,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "readColourName",
           "normalized": "String-\u003ea(Colour b)",
@@ -3468,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "red",
           "package": "colour",
@@ -3477,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "red",
           "package": "colour",
@@ -3489,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "rosybrown",
           "package": "colour",
@@ -3498,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "rosybrown",
           "package": "colour",
@@ -3510,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "royalblue",
           "package": "colour",
@@ -3519,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "royalblue",
           "package": "colour",
@@ -3531,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "saddlebrown",
           "package": "colour",
@@ -3540,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "saddlebrown",
           "package": "colour",
@@ -3552,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "salmon",
           "package": "colour",
@@ -3561,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "salmon",
           "package": "colour",
@@ -3573,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "sandybrown",
           "package": "colour",
@@ -3582,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "sandybrown",
           "package": "colour",
@@ -3594,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "seagreen",
           "package": "colour",
@@ -3603,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "seagreen",
           "package": "colour",
@@ -3615,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "seashell",
           "package": "colour",
@@ -3624,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "seashell",
           "package": "colour",
@@ -3636,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "sienna",
           "package": "colour",
@@ -3645,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "sienna",
           "package": "colour",
@@ -3657,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "silver",
           "package": "colour",
@@ -3666,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "silver",
           "package": "colour",
@@ -3678,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "skyblue",
           "package": "colour",
@@ -3687,6 +4024,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "skyblue",
           "package": "colour",
@@ -3699,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "slateblue",
           "package": "colour",
@@ -3708,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "slateblue",
           "package": "colour",
@@ -3720,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "slategray",
           "package": "colour",
@@ -3729,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "slategray",
           "package": "colour",
@@ -3741,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "slategrey",
           "package": "colour",
@@ -3750,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "slategrey",
           "package": "colour",
@@ -3762,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "snow",
           "package": "colour",
@@ -3771,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "snow",
           "package": "colour",
@@ -3783,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "springgreen",
           "package": "colour",
@@ -3792,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "springgreen",
           "package": "colour",
@@ -3804,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "steelblue",
           "package": "colour",
@@ -3813,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "steelblue",
           "package": "colour",
@@ -3825,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "tan",
           "package": "colour",
@@ -3834,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "tan",
           "package": "colour",
@@ -3846,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "teal",
           "package": "colour",
@@ -3855,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "teal",
           "package": "colour",
@@ -3867,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "thistle",
           "package": "colour",
@@ -3876,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "thistle",
           "package": "colour",
@@ -3888,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "tomato",
           "package": "colour",
@@ -3897,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "tomato",
           "package": "colour",
@@ -3909,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "turquoise",
           "package": "colour",
@@ -3918,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "turquoise",
           "package": "colour",
@@ -3930,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "violet",
           "package": "colour",
@@ -3939,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "violet",
           "package": "colour",
@@ -3951,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "wheat",
           "package": "colour",
@@ -3960,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "wheat",
           "package": "colour",
@@ -3972,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "white",
           "package": "colour",
@@ -3981,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "white",
           "package": "colour",
@@ -3993,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "whitesmoke",
           "package": "colour",
@@ -4002,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "whitesmoke",
           "package": "colour",
@@ -4014,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "yellow",
           "package": "colour",
@@ -4023,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "yellow",
           "package": "colour",
@@ -4035,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.Names",
           "name": "yellowgreen",
           "package": "colour",
@@ -4044,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Names",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.Names",
           "name": "yellowgreen",
           "package": "colour",
@@ -4056,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "HSL",
           "package": "colour",
@@ -4064,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace HSL",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "HSL",
           "package": "colour",
@@ -4078,6 +4452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RGB triple for an unspecified colour space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "RGB",
           "package": "colour",
@@ -4087,6 +4462,7 @@
         "index": {
           "description": "An RGB triple for an unspecified colour space",
           "hierarchy": "Data Colour RGBSpace HSL",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "RGB",
           "package": "colour",
@@ -4101,6 +4477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert HSL (hue-saturation-lightness) coordinates to an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e value.\n Hue is expected to be measured in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "hsl",
           "package": "colour",
@@ -4111,6 +4488,7 @@
         "index": {
           "description": "Convert HSL hue-saturation-lightness coordinates to an RGB value Hue is expected to be measured in degrees",
           "hierarchy": "Data Colour RGBSpace HSL",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "hsl",
           "normalized": "a-\u003ea-\u003ea-\u003eRGB a",
@@ -4126,6 +4504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the HSL (hue-saturation-lightness) coordinates of an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e triple.\n See \u003ccode\u003e\u003ca\u003ehue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esaturation\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003elightness\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "hslView",
           "package": "colour",
@@ -4136,6 +4515,7 @@
         "index": {
           "description": "Returns the HSL hue-saturation-lightness coordinates of an RGB triple See hue saturation and lightness",
           "hierarchy": "Data Colour RGBSpace HSL",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "hslView",
           "normalized": "RGB a-\u003e(a,a,a)",
@@ -4178,6 +4558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the lightness coordinate of an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e triple for the HSL\n (hue-saturation-lightness) system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "lightness",
           "package": "colour",
@@ -4188,6 +4569,7 @@
         "index": {
           "description": "Returns the lightness coordinate of an RGB triple for the HSL hue-saturation-lightness system",
           "hierarchy": "Data Colour RGBSpace HSL",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "lightness",
           "normalized": "RGB a-\u003ea",
@@ -4203,6 +4585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the saturation coordinate of an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e triple for the HSL\n (hue-saturation-lightness) system.\n Note: This is different from \u003ccode\u003eData.Colour.RGBSpace.HSV.saturation\u003c/code\u003e for\n the \u003ca\u003eData.Colour.RGBSpace.HSV\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "saturation",
           "package": "colour",
@@ -4213,6 +4596,7 @@
         "index": {
           "description": "Returns the saturation coordinate of an RGB triple for the HSL hue-saturation-lightness system Note This is different from Data.Colour.RGBSpace.HSV.saturation for the Data.Colour.RGBSpace.HSV",
           "hierarchy": "Data Colour RGBSpace HSL",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSL",
           "name": "saturation",
           "normalized": "RGB a-\u003ea",
@@ -4227,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "HSV",
           "package": "colour",
@@ -4235,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace HSV",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "HSV",
           "package": "colour",
@@ -4249,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RGB triple for an unspecified colour space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "RGB",
           "package": "colour",
@@ -4258,6 +4645,7 @@
         "index": {
           "description": "An RGB triple for an unspecified colour space",
           "hierarchy": "Data Colour RGBSpace HSV",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "RGB",
           "package": "colour",
@@ -4272,6 +4660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert HSV (hue-saturation-value) coordinates to an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e value.\n Hue is expected to be measured in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "hsv",
           "package": "colour",
@@ -4282,6 +4671,7 @@
         "index": {
           "description": "Convert HSV hue-saturation-value coordinates to an RGB value Hue is expected to be measured in degrees",
           "hierarchy": "Data Colour RGBSpace HSV",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "hsv",
           "normalized": "a-\u003ea-\u003ea-\u003eRGB a",
@@ -4297,6 +4687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the HSV (hue-saturation-value) coordinates of an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e triple.\n See \u003ccode\u003e\u003ca\u003ehue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esaturation\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003evalue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "hsvView",
           "package": "colour",
@@ -4307,6 +4698,7 @@
         "index": {
           "description": "Returns the HSV hue-saturation-value coordinates of an RGB triple See hue saturation and value",
           "hierarchy": "Data Colour RGBSpace HSV",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "hsvView",
           "normalized": "RGB a-\u003e(a,a,a)",
@@ -4323,6 +4715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the saturation coordinate of an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e triple for the HSV\n (hue-saturation-value) system.\n Note: This is different from \u003ccode\u003eData.Colour.RGBSpace.HSL.saturation\u003c/code\u003e for\n the \u003ca\u003eData.Colour.RGBSpace.HSL\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "saturation",
           "package": "colour",
@@ -4333,6 +4726,7 @@
         "index": {
           "description": "Returns the saturation coordinate of an RGB triple for the HSV hue-saturation-value system Note This is different from Data.Colour.RGBSpace.HSL.saturation for the Data.Colour.RGBSpace.HSL",
           "hierarchy": "Data Colour RGBSpace HSV",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "saturation",
           "normalized": "RGB a-\u003ea",
@@ -4348,6 +4742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value coordinate of an \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e triple for the HSV\n (hue-saturation-value) system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "value",
           "package": "colour",
@@ -4358,6 +4753,7 @@
         "index": {
           "description": "Returns the value coordinate of an RGB triple for the HSV hue-saturation-value system",
           "hierarchy": "Data Colour RGBSpace HSV",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace.HSV",
           "name": "value",
           "normalized": "RGB a-\u003ea",
@@ -4373,6 +4769,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eRGBSpace\u003c/a\u003e\u003c/code\u003e is characterized by \u003ccode\u003e\u003ca\u003eChromaticity\u003c/a\u003e\u003c/code\u003e for red, green, and\n blue, the \u003ccode\u003e\u003ca\u003eChromaticity\u003c/a\u003e\u003c/code\u003e of the white point, and it's\n \u003ccode\u003e\u003ca\u003eTransferFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "RGBSpace",
           "package": "colour",
@@ -4382,6 +4779,7 @@
         "index": {
           "description": "An RGBSpace is characterized by Chromaticity for red green and blue the Chromaticity of the white point and it TransferFunction",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "RGBSpace",
           "package": "colour",
@@ -4396,6 +4794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents the human preception of colour.\n The \u003ccode\u003ea\u003c/code\u003e parameter is a numeric type used internally for the\n representation.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance allows one to add colours, but beware that adding\n colours can take you out of gamut.  Consider using \u003ccode\u003e\u003ca\u003eblend\u003c/a\u003e\u003c/code\u003e whenever\n possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "Colour",
           "package": "colour",
@@ -4405,6 +4804,7 @@
         "index": {
           "description": "This type represents the human preception of colour The parameter is numeric type used internally for the representation The Monoid instance allows one to add colours but beware that adding colours can take you out of gamut Consider using blend whenever possible",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "Colour",
           "package": "colour",
@@ -4419,6 +4819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RGB triple for an unspecified colour space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "RGB",
           "package": "colour",
@@ -4428,6 +4829,7 @@
         "index": {
           "description": "An RGB triple for an unspecified colour space",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "RGB",
           "package": "colour",
@@ -4442,6 +4844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eRGBGamut\u003c/a\u003e\u003c/code\u003e is a 3-D colour &#8220;cube&#8221; that contains all the\n colours that can be displayed by a RGB device.\n The &#8220;cube&#8221; is normalized so that white has\n \u003ccode\u003eData.Colour.CIE.luminance\u003c/code\u003e 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "RGBGamut",
           "package": "colour",
@@ -4451,6 +4854,7 @@
         "index": {
           "description": "An RGBGamut is colour cube that contains all the colours that can be displayed by RGB device The cube is normalized so that white has Data.Colour.CIE.luminance",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "RGBGamut",
           "package": "colour",
@@ -4465,6 +4869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eRGBSpace\u003c/a\u003e\u003c/code\u003e is a colour coordinate system for colours laying\n \u003ccode\u003e\u003ca\u003einGamut\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003egamut\u003c/a\u003e\u003c/code\u003e.\n Linear coordinates are passed through a \u003ccode\u003e\u003ca\u003etransferFunction\u003c/a\u003e\u003c/code\u003e to\n produce non-linear \u003ccode\u003e\u003ca\u003eRGB\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "RGBSpace",
           "package": "colour",
@@ -4474,6 +4879,7 @@
         "index": {
           "description": "An RGBSpace is colour coordinate system for colours laying inGamut of gamut Linear coordinates are passed through transferFunction to produce non-linear RGB values",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "RGBSpace",
           "package": "colour",
@@ -4488,6 +4894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003etransfer\u003c/a\u003e\u003c/code\u003e function is a function that typically translates linear\n colour space coordinates into non-linear coordinates.\n The \u003ccode\u003e\u003ca\u003etransferInverse\u003c/a\u003e\u003c/code\u003e function reverses this by translating non-linear\n colour space coordinates into linear coordinates.\n It is required that\n\u003c/p\u003e\u003cpre\u003e transfer . transferInverse === id === transferInverse . inverse\n\u003c/pre\u003e\u003cp\u003e(or that this law holds up to floating point rounding errors).\n\u003c/p\u003e\u003cp\u003eWe also require that \u003ccode\u003e\u003ca\u003etransfer\u003c/a\u003e\u003c/code\u003e is approximately \u003ccode\u003e(**transferGamma)\u003c/code\u003e\n (and hence \u003ccode\u003e\u003ca\u003etransferInverse\u003c/a\u003e\u003c/code\u003e is approximately\n \u003ccode\u003e(**(recip transferGamma))\u003c/code\u003e).\n The value \u003ccode\u003e\u003ca\u003etransferGamma\u003c/a\u003e\u003c/code\u003e is for informational purposes only, so there\n is no bound on how good this approximation needs to be.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "TransferFunction",
           "package": "colour",
@@ -4497,6 +4904,7 @@
         "index": {
           "description": "transfer function is function that typically translates linear colour space coordinates into non-linear coordinates The transferInverse function reverses this by translating non-linear colour space coordinates into linear coordinates It is required that transfer transferInverse id transferInverse inverse or that this law holds up to floating point rounding errors We also require that transfer is approximately transferGamma and hence transferInverse is approximately recip transferGamma The value transferGamma is for informational purposes only so there is no bound on how good this approximation needs to be",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "TransferFunction",
           "package": "colour",
@@ -4533,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "TransferFunction",
           "package": "colour",
@@ -4542,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "TransferFunction",
           "package": "colour",
@@ -4625,6 +5035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurries a function expecting one RGB parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "curryRGB",
           "package": "colour",
@@ -4635,6 +5046,7 @@
         "index": {
           "description": "Curries function expecting one RGB parameter",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "curryRGB",
           "normalized": "(RGB a-\u003eb)-\u003ea-\u003ea-\u003ea-\u003eb",
@@ -4650,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "gamut",
           "package": "colour",
@@ -4659,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "gamut",
           "normalized": "RGBSpace a-\u003eRGBGamut",
@@ -4674,6 +5088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the given colour lies inside the given gamut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "inGamut",
           "package": "colour",
@@ -4684,6 +5099,7 @@
         "index": {
           "description": "Returns True if the given colour lies inside the given gamut",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "inGamut",
           "normalized": "RGBGamut-\u003eColour a-\u003eBool",
@@ -4700,6 +5116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis reverses a \u003ccode\u003e\u003ca\u003eTransferFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "inverseTransferFunction",
           "package": "colour",
@@ -4710,6 +5127,7 @@
         "index": {
           "description": "This reverses TransferFunction",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "inverseTransferFunction",
           "normalized": "TransferFunction a-\u003eTransferFunction a",
@@ -4726,6 +5144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a linear colour space from an \u003ccode\u003e\u003ca\u003eRGBGamut\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "linearRGBSpace",
           "package": "colour",
@@ -4736,6 +5155,7 @@
         "index": {
           "description": "Produce linear colour space from an RGBGamut",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "linearRGBSpace",
           "normalized": "RGBGamut-\u003eRGBSpace a",
@@ -4752,6 +5172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the identity \u003ccode\u003e\u003ca\u003eTransferFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "linearTransferFunction",
           "package": "colour",
@@ -4762,6 +5183,7 @@
         "index": {
           "description": "This is the identity TransferFunction",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "linearTransferFunction",
           "package": "colour",
@@ -4776,6 +5198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RGB gamut is specified by three primary colours (red, green, and \n blue) and a white point (often \u003ccode\u003eData.Colour.CIE.Illuminant.d65\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "mkRGBGamut",
           "package": "colour",
@@ -4785,6 +5208,7 @@
         "index": {
           "description": "An RGB gamut is specified by three primary colours red green and blue and white point often Data.Colour.CIE.Illuminant.d65",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "mkRGBGamut",
           "normalized": "RGB(Chromaticity Rational)-\u003eChromaticity Rational-\u003eRGBGamut",
@@ -4801,6 +5225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RGBSpace is specified by an \u003ccode\u003e\u003ca\u003eRGBGamut\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eTransferFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "mkRGBSpace",
           "package": "colour",
@@ -4811,6 +5236,7 @@
         "index": {
           "description": "An RGBSpace is specified by an RGBGamut and TransferFunction",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "mkRGBSpace",
           "normalized": "RGBGamut-\u003eTransferFunction a-\u003eRGBSpace a",
@@ -4827,6 +5253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the \u003ccode\u003e(**gamma)\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTransferFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "powerTransferFunction",
           "package": "colour",
@@ -4837,6 +5264,7 @@
         "index": {
           "description": "This is the gamma TransferFunction",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "powerTransferFunction",
           "normalized": "a-\u003eTransferFunction a",
@@ -4852,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "primaries",
           "package": "colour",
@@ -4861,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "primaries",
           "normalized": "RGBGamut-\u003eRGB(Chromaticity Rational)",
@@ -4876,6 +5306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e from red, green, and blue coordinates given in a\n general \u003ccode\u003e\u003ca\u003eRGBSpace\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "rgbUsingSpace",
           "package": "colour",
@@ -4886,6 +5317,7 @@
         "index": {
           "description": "Create Colour from red green and blue coordinates given in general RGBSpace",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "rgbUsingSpace",
           "normalized": "RGBSpace a-\u003ea-\u003ea-\u003ea-\u003eColour a",
@@ -4902,6 +5334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the coordinates of a given \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e for a general \u003ccode\u003e\u003ca\u003eRGBSpace\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "toRGBUsingSpace",
           "package": "colour",
@@ -4912,6 +5345,7 @@
         "index": {
           "description": "Return the coordinates of given Colour for general RGBSpace",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "toRGBUsingSpace",
           "normalized": "RGBSpace a-\u003eColour a-\u003eRGB a",
@@ -4927,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "transfer",
           "package": "colour",
@@ -4936,6 +5371,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "transfer",
           "normalized": "a-\u003ea",
@@ -4950,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "transferFunction",
           "package": "colour",
@@ -4959,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "transferFunction",
           "normalized": "RGBSpace a-\u003eTransferFunction a",
@@ -4974,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "transferGamma",
           "package": "colour",
@@ -4983,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "transferGamma",
           "package": "colour",
@@ -4996,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "transferInverse",
           "package": "colour",
@@ -5005,6 +5446,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "transferInverse",
           "normalized": "a-\u003ea",
@@ -5021,6 +5463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUncurries a function expecting three r, g, b parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "uncurryRGB",
           "package": "colour",
@@ -5031,6 +5474,7 @@
         "index": {
           "description": "Uncurries function expecting three parameters",
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "uncurryRGB",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003eRGB a-\u003eb",
@@ -5046,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.RGBSpace",
           "name": "whitePoint",
           "package": "colour",
@@ -5055,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Data Colour RGBSpace",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.RGBSpace",
           "name": "whitePoint",
           "normalized": "RGBGamut-\u003eChromaticity Rational",
@@ -5071,6 +5517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a \u003cem\u003elinear\u003c/em\u003e colour space with the same gamut as\n \u003ca\u003eData.Colour.SRGB\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB.Linear",
           "name": "Linear",
           "package": "colour",
@@ -5080,6 +5527,7 @@
         "index": {
           "description": "Provides linear colour space with the same gamut as Data.Colour.SRGB",
           "hierarchy": "Data Colour SRGB Linear",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB.Linear",
           "name": "Linear",
           "package": "colour",
@@ -5094,6 +5542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents the human preception of colour.\n The \u003ccode\u003ea\u003c/code\u003e parameter is a numeric type used internally for the\n representation.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance allows one to add colours, but beware that adding\n colours can take you out of gamut.  Consider using \u003ccode\u003e\u003ca\u003eblend\u003c/a\u003e\u003c/code\u003e whenever\n possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB.Linear",
           "name": "Colour",
           "package": "colour",
@@ -5103,6 +5552,7 @@
         "index": {
           "description": "This type represents the human preception of colour The parameter is numeric type used internally for the representation The Monoid instance allows one to add colours but beware that adding colours can take you out of gamut Consider using blend whenever possible",
           "hierarchy": "Data Colour SRGB Linear",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB.Linear",
           "name": "Colour",
           "package": "colour",
@@ -5117,6 +5567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RGB triple for an unspecified colour space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB.Linear",
           "name": "RGB",
           "package": "colour",
@@ -5126,6 +5577,7 @@
         "index": {
           "description": "An RGB triple for an unspecified colour space",
           "hierarchy": "Data Colour SRGB Linear",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB.Linear",
           "name": "RGB",
           "package": "colour",
@@ -5140,6 +5592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e from RGB values using the \u003cem\u003elinear\u003c/em\u003e RGB colour\n with the same gamut as sRGB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB.Linear",
           "name": "rgb",
           "package": "colour",
@@ -5150,6 +5603,7 @@
         "index": {
           "description": "Constructs Colour from RGB values using the linear RGB colour with the same gamut as sRGB",
           "hierarchy": "Data Colour SRGB Linear",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB.Linear",
           "name": "rgb",
           "normalized": "a-\u003ea-\u003ea-\u003eColour a",
@@ -5165,6 +5619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the gamut for the sRGB colour space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB.Linear",
           "name": "sRGBGamut",
           "package": "colour",
@@ -5175,6 +5630,7 @@
         "index": {
           "description": "This is the gamut for the sRGB colour space",
           "hierarchy": "Data Colour SRGB Linear",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB.Linear",
           "name": "sRGBGamut",
           "package": "colour",
@@ -5189,6 +5645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn RGB values using the \u003cem\u003elinear\u003c/em\u003e RGB colour with the same gamut\n as sRGB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB.Linear",
           "name": "toRGB",
           "package": "colour",
@@ -5199,6 +5656,7 @@
         "index": {
           "description": "Return RGB values using the linear RGB colour with the same gamut as sRGB",
           "hierarchy": "Data Colour SRGB Linear",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB.Linear",
           "name": "toRGB",
           "normalized": "Colour a-\u003eRGB a",
@@ -5215,6 +5673,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpecifies \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003es in accordance with the sRGB standard.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "SRGB",
           "package": "colour",
@@ -5224,6 +5683,7 @@
         "index": {
           "description": "Specifies Colour in accordance with the sRGB standard",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "SRGB",
           "package": "colour",
@@ -5238,6 +5698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents the human preception of colour.\n The \u003ccode\u003ea\u003c/code\u003e parameter is a numeric type used internally for the\n representation.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance allows one to add colours, but beware that adding\n colours can take you out of gamut.  Consider using \u003ccode\u003e\u003ca\u003eblend\u003c/a\u003e\u003c/code\u003e whenever\n possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "Colour",
           "package": "colour",
@@ -5247,6 +5708,7 @@
         "index": {
           "description": "This type represents the human preception of colour The parameter is numeric type used internally for the representation The Monoid instance allows one to add colours but beware that adding colours can take you out of gamut Consider using blend whenever possible",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "Colour",
           "package": "colour",
@@ -5261,6 +5723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RGB triple for an unspecified colour space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "RGB",
           "package": "colour",
@@ -5270,6 +5733,7 @@
         "index": {
           "description": "An RGB triple for an unspecified colour space",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "RGB",
           "package": "colour",
@@ -5284,6 +5748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a colour from an sRGB specification.\n Input components are expected to be in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "sRGB",
           "package": "colour",
@@ -5294,6 +5759,7 @@
         "index": {
           "description": "Construct colour from an sRGB specification Input components are expected to be in the range",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "sRGB",
           "normalized": "a-\u003ea-\u003ea-\u003eColour a",
@@ -5310,6 +5776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a colour from a 24-bit (three 8-bit words) sRGB\n specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24",
           "package": "colour",
@@ -5320,6 +5787,7 @@
         "index": {
           "description": "Construct colour from bit three bit words sRGB specification",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eColour a",
@@ -5336,6 +5804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a colour in hexadecimal form, e.g. \"#00aaff\" or \"00aaff\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24read",
           "package": "colour",
@@ -5346,6 +5815,7 @@
         "index": {
           "description": "Read colour in hexadecimal form e.g aaff or aaff",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24read",
           "normalized": "String-\u003eColour a",
@@ -5362,6 +5832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a colour in hexadecimal form, e.g. \"#00aaff\" or \"00aaff\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24reads",
           "package": "colour",
@@ -5372,6 +5843,7 @@
         "index": {
           "description": "Read colour in hexadecimal form e.g aaff or aaff",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24reads",
           "package": "colour",
@@ -5386,6 +5858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a colour in hexadecimal form, e.g. \"#00aaff\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24show",
           "package": "colour",
@@ -5396,6 +5869,7 @@
         "index": {
           "description": "Show colour in hexadecimal form e.g aaff",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24show",
           "normalized": "Colour a-\u003eString",
@@ -5412,6 +5886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a colour in hexadecimal form, e.g. \"#00aaff\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24shows",
           "package": "colour",
@@ -5422,6 +5897,7 @@
         "index": {
           "description": "Show colour in hexadecimal form e.g aaff",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "sRGB24shows",
           "normalized": "Colour a-\u003eShowS",
@@ -5438,6 +5914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a colour from an sRGB specification.\n Input components are expected to be in the range [0..\u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "sRGBBounded",
           "package": "colour",
@@ -5448,6 +5925,7 @@
         "index": {
           "description": "Construct colour from an sRGB specification Input components are expected to be in the range maxBound",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "sRGBBounded",
           "normalized": "a-\u003ea-\u003ea-\u003eColour b",
@@ -5464,6 +5942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sRGB colour space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "sRGBSpace",
           "package": "colour",
@@ -5474,6 +5953,7 @@
         "index": {
           "description": "The sRGB colour space",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "sRGBSpace",
           "package": "colour",
@@ -5488,6 +5968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the sRGB colour components in the range [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "toSRGB",
           "package": "colour",
@@ -5498,6 +5979,7 @@
         "index": {
           "description": "Return the sRGB colour components in the range",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "toSRGB",
           "normalized": "Colour a-\u003eRGB a",
@@ -5514,6 +5996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the approximate 24-bit sRGB colour components as three 8-bit\n components.\n Out of range values are clamped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "toSRGB24",
           "package": "colour",
@@ -5524,6 +6007,7 @@
         "index": {
           "description": "Return the approximate bit sRGB colour components as three bit components Out of range values are clamped",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "toSRGB24",
           "normalized": "Colour a-\u003eRGB Word",
@@ -5540,6 +6024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the approximate sRGB colour components in the range\n [0..\u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e].\n Out of range values are clamped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour.SRGB",
           "name": "toSRGBBounded",
           "package": "colour",
@@ -5550,6 +6035,7 @@
         "index": {
           "description": "Return the approximate sRGB colour components in the range maxBound Out of range values are clamped",
           "hierarchy": "Data Colour SRGB",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour.SRGB",
           "name": "toSRGBBounded",
           "normalized": "Colour a-\u003eRGB b",
@@ -5566,6 +6052,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes for representing the human perception of colour.\n Includes common operations for blending and compositing colours.\n The most common way of creating colours is either by name\n (see \u003ca\u003eData.Colour.Names\u003c/a\u003e) or by giving an sRGB triple \n (see \u003ca\u003eData.Colour.SRGB\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eMethods of specifying Colours can be found in \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Colour.SRGB\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Colour.SRGB.Linear\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Colour.CIE\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eColours can be specified in a generic \u003ccode\u003eData.Colour.RGBSpace.RGBSpace\u003c/code\u003e\n by using\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Colour.RGBSpace\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "Colour",
           "package": "colour",
@@ -5575,6 +6062,7 @@
         "index": {
           "description": "Datatypes for representing the human perception of colour Includes common operations for blending and compositing colours The most common way of creating colours is either by name see Data.Colour.Names or by giving an sRGB triple see Data.Colour.SRGB Methods of specifying Colours can be found in Data.Colour.SRGB Data.Colour.SRGB.Linear Data.Colour.CIE Colours can be specified in generic Data.Colour.RGBSpace.RGBSpace by using Data.Colour.RGBSpace",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "Colour",
           "package": "colour",
@@ -5588,6 +6076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "AffineSpace",
           "package": "colour",
@@ -5596,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "AffineSpace",
           "package": "colour",
@@ -5610,6 +6100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e that may be semi-transparent.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance allows you to composite colours.\n\u003c/p\u003e\u003cpre\u003ex `mappend` y == x `over` y\n\u003c/pre\u003e\u003cp\u003eTo get the (pre-multiplied) colour channel of an \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e,\n simply composite \u003ccode\u003ec\u003c/code\u003e over black.\n\u003c/p\u003e\u003cpre\u003ec `over` black\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "AlphaColour",
           "package": "colour",
@@ -5619,6 +6110,7 @@
         "index": {
           "description": "This type represents Colour that may be semi-transparent The Monoid instance allows you to composite colours mappend over To get the pre-multiplied colour channel of an AlphaColour simply composite over black over black",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "AlphaColour",
           "package": "colour",
@@ -5633,6 +6125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents the human preception of colour.\n The \u003ccode\u003ea\u003c/code\u003e parameter is a numeric type used internally for the\n representation.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance allows one to add colours, but beware that adding\n colours can take you out of gamut.  Consider using \u003ccode\u003e\u003ca\u003eblend\u003c/a\u003e\u003c/code\u003e whenever\n possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "Colour",
           "package": "colour",
@@ -5642,6 +6135,7 @@
         "index": {
           "description": "This type represents the human preception of colour The parameter is numeric type used internally for the representation The Monoid instance allows one to add colours but beware that adding colours can take you out of gamut Consider using blend whenever possible",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "Colour",
           "package": "colour",
@@ -5655,6 +6149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "ColourOps",
           "package": "colour",
@@ -5663,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "ColourOps",
           "package": "colour",
@@ -5677,6 +6173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a affine Combination (weighted-average) of points.\n The last parameter will get the remaining weight.\n e.g.\n\u003c/p\u003e\u003cpre\u003eaffineCombo [(0.2,a), (0.3,b)] c == 0.2*a + 0.3*b + 0.5*c\n\u003c/pre\u003e\u003cp\u003eWeights can be negative, or greater than 1.0; however, be aware\n that non-convex combinations may lead to out of gamut colours.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "affineCombo",
           "package": "colour",
@@ -5687,6 +6184,7 @@
         "index": {
           "description": "Compute affine Combination weighted-average of points The last parameter will get the remaining weight e.g affineCombo Weights can be negative or greater than however be aware that non-convex combinations may lead to out of gamut colours",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "affineCombo",
           "normalized": "[(a,b a)]-\u003eb a-\u003eb a",
@@ -5703,6 +6201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the opacity of an \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "alphaChannel",
           "package": "colour",
@@ -5713,6 +6212,7 @@
         "index": {
           "description": "Returns the opacity of an AlphaColour",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "alphaChannel",
           "normalized": "AlphaColour a-\u003ea",
@@ -5729,6 +6229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the type used to represent the colour coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "alphaColourConvert",
           "package": "colour",
@@ -5739,6 +6240,7 @@
         "index": {
           "description": "Change the type used to represent the colour coordinates",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "alphaColourConvert",
           "normalized": "AlphaColour a-\u003eAlphaColour b",
@@ -5755,6 +6257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ec1 `atop` c2\u003c/code\u003e returns the \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e produced by covering\n the portion of \u003ccode\u003ec2\u003c/code\u003e visible by \u003ccode\u003ec1\u003c/code\u003e.\n The resulting alpha channel is always the same as the alpha channel\n of \u003ccode\u003ec2\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003ec1 `atop` (opaque c2) == c1 `over` (opaque c2)\nAlphaChannel (c1 `atop` c2) == AlphaChannel c2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "atop",
           "package": "colour",
@@ -5765,6 +6268,7 @@
         "index": {
           "description": "c1 atop c2 returns the AlphaColour produced by covering the portion of c2 visible by c1 The resulting alpha channel is always the same as the alpha channel of c2 c1 atop opaque c2 c1 over opaque c2 AlphaChannel c1 atop c2 AlphaChannel c2",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "atop",
           "normalized": "AlphaColour a-\u003eAlphaColour a-\u003eAlphaColour a",
@@ -5780,6 +6284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the weighted average of two points.\n e.g.\n\u003c/p\u003e\u003cpre\u003eblend 0.4 a b = 0.4*a + 0.6*b\n\u003c/pre\u003e\u003cp\u003eThe weight can be negative, or greater than 1.0; however, be aware\n that non-convex combinations may lead to out of gamut colours.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "blend",
           "package": "colour",
@@ -5790,6 +6295,7 @@
         "index": {
           "description": "Compute the weighted average of two points e.g blend The weight can be negative or greater than however be aware that non-convex combinations may lead to out of gamut colours",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "blend",
           "normalized": "a-\u003eb a-\u003eb a-\u003eb a",
@@ -5805,6 +6311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the type used to represent the colour coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "colourConvert",
           "package": "colour",
@@ -5815,6 +6322,7 @@
         "index": {
           "description": "Change the type used to represent the colour coordinates",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "colourConvert",
           "normalized": "Colour a-\u003eColour b",
@@ -5831,6 +6339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edarken s c\u003c/code\u003e blends a colour with black without changing it's opacity.\n\u003c/p\u003e\u003cp\u003eFor \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003edarken s c = blend s c mempty\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "darken",
           "package": "colour",
@@ -5841,6 +6350,7 @@
         "index": {
           "description": "darken blends colour with black without changing it opacity For Colour darken blend mempty",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "darken",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -5856,6 +6366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e more transparent by a factor of \u003ccode\u003eo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "dissolve",
           "package": "colour",
@@ -5866,6 +6377,7 @@
         "index": {
           "description": "Returns an AlphaColour more transparent by factor of",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "dissolve",
           "normalized": "a-\u003eAlphaColour a-\u003eAlphaColour a",
@@ -5881,6 +6393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an opaque \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "opaque",
           "package": "colour",
@@ -5891,6 +6404,7 @@
         "index": {
           "description": "Creates an opaque AlphaColour from Colour",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "opaque",
           "normalized": "Colour a-\u003eAlphaColour a",
@@ -5906,6 +6420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ec1 `over` c2\u003c/code\u003e returns the \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e created by compositing the\n \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec1\u003c/code\u003e over \u003ccode\u003ec2\u003c/code\u003e, which may be either a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "over",
           "package": "colour",
@@ -5916,6 +6431,7 @@
         "index": {
           "description": "c1 over c2 returns the Colour created by compositing the AlphaColour c1 over c2 which may be either Colour or AlphaColour",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "over",
           "normalized": "AlphaColour a-\u003eb a-\u003eb a",
@@ -5931,6 +6447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e is entirely transparent and has no associated\n colour channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "transparent",
           "package": "colour",
@@ -5941,6 +6458,7 @@
         "index": {
           "description": "This AlphaColour is entirely transparent and has no associated colour channel",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "transparent",
           "package": "colour",
@@ -5954,6 +6472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an \u003ccode\u003e\u003ca\u003eAlphaColour\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e with a given opacity.\n\u003c/p\u003e\u003cpre\u003ec `withOpacity` o == dissolve o (opaque c) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:06 UTC 2014",
           "module": "Data.Colour",
           "name": "withOpacity",
           "package": "colour",
@@ -5964,6 +6483,7 @@
         "index": {
           "description": "Creates an AlphaColour from Colour with given opacity withOpacity dissolve opaque",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T17:36:06",
           "module": "Data.Colour",
           "name": "withOpacity",
           "normalized": "Colour a-\u003ea-\u003eAlphaColour a",

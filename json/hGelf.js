@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hGelf"
+        "phrase": "hGelf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:24 UTC 2014",
           "module": "Network.Gelf",
           "name": "Gelf",
           "package": "hGelf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Gelf",
+          "indexed": "2014-03-11T18:24:24",
           "module": "Network.Gelf",
           "name": "Gelf",
           "package": "hGelf",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a log message as a GELF message.\n\u003c/p\u003e\u003cp\u003eThis function wraps a given log message in a GELF structure. It creates the\n JSON object, converts it to a ByteString and GZips the result.\n If the resulting ByteString is longer than the maximal chunk size,\n the GELF message is split up into chunks, each at most chunk size in length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:24 UTC 2014",
           "module": "Network.Gelf",
           "name": "encode",
           "package": "hGelf",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Encode log message as GELF message This function wraps given log message in GELF structure It creates the JSON object converts it to ByteString and GZips the result If the resulting ByteString is longer than the maximal chunk size the GELF message is split up into chunks each at most chunk size in length",
           "hierarchy": "Network Gelf",
+          "indexed": "2014-03-11T18:24:24",
           "module": "Network.Gelf",
           "name": "encode",
           "normalized": "Int-\u003eText-\u003eMaybe Text-\u003eString-\u003eInteger-\u003eMaybe Text-\u003eMaybe Integer-\u003e[(Text,Maybe Text)]-\u003e[ByteString]",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a log message to a server accepting Graylog2 messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:24 UTC 2014",
           "module": "Network.Gelf",
           "name": "send",
           "package": "hGelf",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Send log message to server accepting Graylog2 messages",
           "hierarchy": "Network Gelf",
+          "indexed": "2014-03-11T18:24:24",
           "module": "Network.Gelf",
           "name": "send",
           "normalized": "HostName-\u003eString-\u003eInt-\u003eText-\u003eMaybe Text-\u003eMaybe Text-\u003eMaybe Integer-\u003e[(Text,Maybe Text)]-\u003eIO()",

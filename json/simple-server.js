@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-server"
+        "phrase": "simple-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer.Examples.ChatClient",
           "name": "ChatClient",
           "package": "simple-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleServer Examples ChatClient",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer.Examples.ChatClient",
           "name": "ChatClient",
           "package": "simple-server",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer.Examples.ChatClient",
           "name": "main",
           "package": "simple-server",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleServer Examples ChatClient",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer.Examples.ChatClient",
           "name": "main",
           "normalized": "IO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer.Examples.ChatClient",
           "name": "run",
           "package": "simple-server",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleServer Examples ChatClient",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer.Examples.ChatClient",
           "name": "run",
           "normalized": "HostName-\u003eInt-\u003eIO()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer.Examples.ChatServer",
           "name": "ChatServer",
           "package": "simple-server",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleServer Examples ChatServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer.Examples.ChatServer",
           "name": "ChatServer",
           "package": "simple-server",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer.Examples.ChatServer",
           "name": "main",
           "package": "simple-server",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleServer Examples ChatServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer.Examples.ChatServer",
           "name": "main",
           "normalized": "IO()",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer.Examples.ChatServer",
           "name": "run",
           "package": "simple-server",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleServer Examples ChatServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer.Examples.ChatServer",
           "name": "run",
           "normalized": "Int-\u003eIO()",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe goal of SimpleServer, as its name implies, is to make it easy to build\nsimple message passing servers by puting a layer between the programmer and\nthe concurrent operations between it and the network layer connecting\nit to multiple clients.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "SimpleServer",
           "package": "simple-server",
@@ -162,6 +175,7 @@
         "index": {
           "description": "The goal of SimpleServer as its name implies is to make it easy to build simple message passing servers by puting layer between the programmer and the concurrent operations between it and the network layer connecting it to multiple clients",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "SimpleServer",
           "package": "simple-server",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a Clients connection and provides an interface for\nstoring data associated with the client. Each client will be given\na unique cid and are Eq if their cid's are Eq.\n\u003c/p\u003e\u003cp\u003eA ClientConn comes packaged with two functions for storing additional\ninformation in Strings, lookup and modify. The lookup function\ntakes a key and returns the current value of the key or the empty\nstring if it has never been set. The modify function\ntakes a key and value and updates it such that the next call to\nlookup with that key will return the value provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "ClientConn",
           "package": "simple-server",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Describes Clients connection and provides an interface for storing data associated with the client Each client will be given unique cid and are Eq if their cid are Eq ClientConn comes packaged with two functions for storing additional information in Strings lookup and modify The lookup function takes key and returns the current value of the key or the empty string if it has never been set The modify function takes key and value and updates it such that the next call to lookup with that key will return the value provided",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "ClientConn",
           "package": "simple-server",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA server may have any number of CmdHandlers. When a CmdHandler is called it\nis passed a list of strings representing the message the server received, the\nserver that received it, and the client that send the message. The first\npart element of the list is the string that triggered the CmdHandler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "CmdHandler",
           "package": "simple-server",
@@ -208,6 +225,7 @@
         "index": {
           "description": "server may have any number of CmdHandlers When CmdHandler is called it is passed list of strings representing the message the server received the server that received it and the client that send the message The first part element of the list is the string that triggered the CmdHandler",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "CmdHandler",
           "package": "simple-server",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach server has one ConnectionHandler that is called each time a client connects to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "ConnectionHandler",
           "package": "simple-server",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Each server has one ConnectionHandler that is called each time client connects to the server",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "ConnectionHandler",
           "package": "simple-server",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DisconnectHandler is called each time a client is disconnected from the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "DisconnectHandler",
           "package": "simple-server",
@@ -254,6 +275,7 @@
         "index": {
           "description": "DisconnectHandler is called each time client is disconnected from the server",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "DisconnectHandler",
           "package": "simple-server",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Simple Server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "Server",
           "package": "simple-server",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Simple Server",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "Server",
           "package": "simple-server",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a server, a command, and a command handler, adds the command to the\nserver. If the command already exists, it will be overwritten.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "addCommand",
           "package": "simple-server",
@@ -301,6 +326,7 @@
         "index": {
           "description": "Given server command and command handler adds the command to the server If the command already exists it will be overwritten",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "addCommand",
           "normalized": "Server-\u003eString-\u003eCmdHandler-\u003eIO()",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a message to all clients message queue to be handled eventually.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "broadcast",
           "package": "simple-server",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Adds message to all clients message queue to be handled eventually",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "broadcast",
           "normalized": "Server-\u003eString-\u003eIO()",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Unique ID for this client\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "cid",
           "package": "simple-server",
@@ -352,6 +381,7 @@
         "index": {
           "description": "The Unique ID for this client",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "cid",
           "normalized": "ClientConn-\u003eInteger",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all clients that are currently connected to the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "clientList",
           "package": "simple-server",
@@ -377,6 +408,7 @@
         "index": {
           "description": "Returns list of all clients that are currently connected to the server",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "clientList",
           "normalized": "Server-\u003eIO[ClientConn]",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisconnects the client if they are still connected to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "disconnect",
           "package": "simple-server",
@@ -403,6 +436,7 @@
         "index": {
           "description": "Disconnects the client if they are still connected to the server",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "disconnect",
           "normalized": "ClientConn-\u003eIO()",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks up a property for this client. By default, all properties are the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "lookup",
           "package": "simple-server",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Looks up property for this client By default all properties are the empty string",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "lookup",
           "normalized": "ClientConn-\u003eString-\u003eIO String",
@@ -443,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies a client property. Given a property string, and a value string, the next call to lookup for the given property will result in the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "modify",
           "package": "simple-server",
@@ -453,6 +490,7 @@
         "index": {
           "description": "Modifies client property Given property string and value string the next call to lookup for the given property will result in the value",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "modify",
           "normalized": "ClientConn-\u003eString-\u003eString-\u003eIO()",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new server with the specified ConnectionHandler and DisconnectHandler.\nOn a call to start, the server will attempt to connect on the specified Port.\nIf a client does not talk to a server for more than 60 seconds\nit will be disconnected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "new",
           "package": "simple-server",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Creates new server with the specified ConnectionHandler and DisconnectHandler On call to start the server will attempt to connect on the specified Port If client does not talk to server for more than seconds it will be disconnected",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "new",
           "normalized": "ConnectionHandler-\u003eDisconnectHandler-\u003eInt-\u003eIO Server",
@@ -493,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a message to the clients message queue to be handled eventually.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "respond",
           "package": "simple-server",
@@ -503,6 +544,7 @@
         "index": {
           "description": "Adds message to the clients message queue to be handled eventually",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "respond",
           "normalized": "ClientConn-\u003eString-\u003eIO()",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a server if it is currently not started. Otherwise, does nothing. The\nserver will be started on a new thread and control will be returned to the\nthread that called this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "start",
           "package": "simple-server",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Starts server if it is currently not started Otherwise does nothing The server will be started on new thread and control will be returned to the thread that called this function",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "start",
           "normalized": "Server-\u003eIO()",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops a server if it is running sending a disconnect message\nto all clients and killing any threads that have been spawned. \nOtherwise, does nothing.\nAny shutdown operations should be run before this is called. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:06 UTC 2014",
           "module": "Network.SimpleServer",
           "name": "stop",
           "package": "simple-server",
@@ -553,6 +598,7 @@
         "index": {
           "description": "Stops server if it is running sending disconnect message to all clients and killing any threads that have been spawned Otherwise does nothing Any shutdown operations should be run before this is called",
           "hierarchy": "Network SimpleServer",
+          "indexed": "2014-03-11T20:03:06",
           "module": "Network.SimpleServer",
           "name": "stop",
           "normalized": "Server-\u003eIO()",

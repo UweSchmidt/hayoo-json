@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-templates"
+        "phrase": "simple-templates",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple templating system with variable substitution, function invokation, for\nloops and conditionals. Most callers should use \u003ccode\u003e\u003ca\u003ecompileTemplate\u003c/a\u003e\u003c/code\u003e and invoke\nthe template with \u003ccode\u003e\u003ca\u003erenderTemplate\u003c/a\u003e\u003c/code\u003e. E.g.:\n\u003c/p\u003e\u003cpre\u003e let myTemplate = compileTemplate \"Hello, $@$!\"\n print $ renderTemplate myTemplate mempty \"World\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Language",
           "name": "Language",
           "package": "simple-templates",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple templating system with variable substitution function invokation for loops and conditionals Most callers should use compileTemplate and invoke the template with renderTemplate E.g let myTemplate compileTemplate Hello print renderTemplate myTemplate mempty World",
           "hierarchy": "Web Simple Templates Language",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Language",
           "name": "Language",
           "package": "simple-templates",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Language",
           "name": "compileTemplate",
           "package": "simple-templates",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Language",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Language",
           "name": "compileTemplate",
           "normalized": "Text-\u003eEither String Template",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Language",
           "name": "evaluate",
           "package": "simple-templates",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Language",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Language",
           "name": "evaluate",
           "normalized": "AST-\u003eTemplate",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Language",
           "name": "evaluateAST",
           "package": "simple-templates",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Language",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Language",
           "name": "evaluateAST",
           "normalized": "FunctionMap-\u003eValue-\u003eAST-\u003eValue",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Language",
           "name": "replaceVar",
           "package": "simple-templates",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Language",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Language",
           "name": "replaceVar",
           "normalized": "Value-\u003eIdentifier-\u003eValue-\u003eValue",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Language",
           "name": "valueToText",
           "package": "simple-templates",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Language",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Language",
           "name": "valueToText",
           "normalized": "Value-\u003eText",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLanguage parser \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "Parser",
           "package": "simple-templates",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Language parser",
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "Parser",
           "package": "simple-templates",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pAST",
           "package": "simple-templates",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Parse an AST",
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pAST",
           "package": "simple-templates",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pArray",
           "package": "simple-templates",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pArray",
           "package": "simple-templates",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pBoolean",
           "package": "simple-templates",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pBoolean",
           "package": "simple-templates",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pEscapedDollar",
           "package": "simple-templates",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pEscapedDollar",
           "package": "simple-templates",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pEscapedExpr",
           "package": "simple-templates",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pEscapedExpr",
           "package": "simple-templates",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnything that can be evaluated: for, if or value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pExpr",
           "package": "simple-templates",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Anything that can be evaluated for if or value",
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pExpr",
           "package": "simple-templates",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pFor",
           "package": "simple-templates",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pFor",
           "package": "simple-templates",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pFunc",
           "package": "simple-templates",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pFunc",
           "package": "simple-templates",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pIdentifier",
           "package": "simple-templates",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pIdentifier",
           "package": "simple-templates",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pIf",
           "package": "simple-templates",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pIf",
           "package": "simple-templates",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pIndex",
           "package": "simple-templates",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pIndex",
           "package": "simple-templates",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pLiteral",
           "package": "simple-templates",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pLiteral",
           "package": "simple-templates",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pNull",
           "package": "simple-templates",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pNull",
           "package": "simple-templates",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pNumber",
           "package": "simple-templates",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pNumber",
           "package": "simple-templates",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pRaw",
           "package": "simple-templates",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pRaw",
           "package": "simple-templates",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pString",
           "package": "simple-templates",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pString",
           "package": "simple-templates",
@@ -539,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable, function call, literal, etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pValue",
           "package": "simple-templates",
@@ -549,6 +596,7 @@
         "index": {
           "description": "variable function call literal etc",
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pValue",
           "package": "simple-templates",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "pVar",
           "package": "simple-templates",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "pVar",
           "package": "simple-templates",
@@ -585,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved words: for, endfor, sep, if, else, endif, true, false\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Parser",
           "name": "reservedWords",
           "package": "simple-templates",
@@ -595,6 +646,7 @@
         "index": {
           "description": "Reserved words for endfor sep if else endif true false",
           "hierarchy": "Web Simple Templates Parser",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Parser",
           "name": "reservedWords",
           "normalized": "[Text]",
@@ -611,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and helpers to encode the language AST \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "Types",
           "package": "simple-templates",
@@ -620,6 +673,7 @@
         "index": {
           "description": "Types and helpers to encode the language AST",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "Types",
           "package": "simple-templates",
@@ -634,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003es encode the various types of expressions in the language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "AST",
           "package": "simple-templates",
@@ -643,6 +698,7 @@
         "index": {
           "description": "AST encode the various types of expressions in the language",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "AST",
           "package": "simple-templates",
@@ -657,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA funcation that's callable from inside a template\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "Function",
           "package": "simple-templates",
@@ -666,6 +723,7 @@
         "index": {
           "description": "funcation that callable from inside template",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "Function",
           "package": "simple-templates",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "FunctionMap",
           "package": "simple-templates",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "FunctionMap",
           "package": "simple-templates",
@@ -701,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol identifier following the format [a-z][a-zA-Z0-9_-]*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "Identifier",
           "package": "simple-templates",
@@ -710,6 +771,7 @@
         "index": {
           "description": "symbol identifier following the format a-z a-zA-Z0-9",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "Identifier",
           "package": "simple-templates",
@@ -724,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled template is a function that takes a \u003ccode\u003e\u003ca\u003eFunctionMap\u003c/a\u003e\u003c/code\u003e and a global\n aeson \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e and renders the template.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "Template",
           "package": "simple-templates",
@@ -733,6 +796,7 @@
         "index": {
           "description": "compiled template is function that takes FunctionMap and global aeson Value and renders the template",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "Template",
           "package": "simple-templates",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ToFunction",
           "package": "simple-templates",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ToFunction",
           "package": "simple-templates",
@@ -768,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal array (may contain non-literals)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTArray",
           "package": "simple-templates",
@@ -778,6 +845,7 @@
         "index": {
           "description": "literal array may contain non-literals",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTArray",
           "package": "simple-templates",
@@ -792,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor([k,]v in expr) body separator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTFor",
           "package": "simple-templates",
@@ -802,6 +871,7 @@
         "index": {
           "description": "for in expr body separator",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTFor",
           "package": "simple-templates",
@@ -816,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function call and list of arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTFunc",
           "package": "simple-templates",
@@ -826,6 +897,7 @@
         "index": {
           "description": "function call and list of arguments",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTFunc",
           "normalized": "ASTFunc Identifier[AST]",
@@ -842,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf - condition, true branch and optional false branch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTIf",
           "package": "simple-templates",
@@ -852,6 +925,7 @@
         "index": {
           "description": "If condition true branch and optional false branch",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTIf",
           "package": "simple-templates",
@@ -866,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested index into an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTIndex",
           "package": "simple-templates",
@@ -876,6 +951,7 @@
         "index": {
           "description": "Nested index into an object",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTIndex",
           "normalized": "ASTIndex AST[Identifier]",
@@ -892,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal that does not require evaluation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTLiteral",
           "package": "simple-templates",
@@ -902,6 +979,7 @@
         "index": {
           "description": "literal that does not require evaluation",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTLiteral",
           "package": "simple-templates",
@@ -916,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA series of sub-ASTs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTRoot",
           "package": "simple-templates",
@@ -926,6 +1005,7 @@
         "index": {
           "description": "series of sub-ASTs",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTRoot",
           "normalized": "ASTRoot[AST]",
@@ -942,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable dereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTVar",
           "package": "simple-templates",
@@ -952,6 +1033,7 @@
         "index": {
           "description": "Variable dereference",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "ASTVar",
           "package": "simple-templates",
@@ -965,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "Function",
           "package": "simple-templates",
@@ -974,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "Function",
           "package": "simple-templates",
@@ -987,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "Template",
           "package": "simple-templates",
@@ -996,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "Template",
           "package": "simple-templates",
@@ -1009,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "astListToArray",
           "package": "simple-templates",
@@ -1018,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "astListToArray",
           "normalized": "[AST]-\u003eAST",
@@ -1033,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "call",
           "package": "simple-templates",
@@ -1042,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "call",
           "normalized": "[Value]-\u003eValue",
@@ -1057,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efromJSON\u003c/a\u003e\u003c/code\u003e but throws an error if there is a parse failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "fromJSONStrict",
           "package": "simple-templates",
@@ -1067,6 +1158,7 @@
         "index": {
           "description": "Like fromJSON but throws an error if there is parse failure",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "fromJSONStrict",
           "normalized": "Value-\u003ea",
@@ -1083,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eASTLiteral\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "fromLiteral",
           "package": "simple-templates",
@@ -1093,6 +1186,7 @@
         "index": {
           "description": "Lift ToJSON to an ASTLiteral",
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "fromLiteral",
           "normalized": "a-\u003eAST",
@@ -1108,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "renderTemplate",
           "package": "simple-templates",
@@ -1117,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "renderTemplate",
           "normalized": "FunctionMap-\u003eValue-\u003eText",
@@ -1132,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:21 UTC 2014",
           "module": "Web.Simple.Templates.Types",
           "name": "toFunction",
           "package": "simple-templates",
@@ -1141,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Web Simple Templates Types",
+          "indexed": "2014-03-11T20:03:21",
           "module": "Web.Simple.Templates.Types",
           "name": "toFunction",
           "normalized": "a-\u003eFunction",

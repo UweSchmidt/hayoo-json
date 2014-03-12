@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cqrs-example"
+        "phrase": "cqrs-example",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monoid-statistics"
+        "phrase": "monoid-statistics",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Numeric",
           "package": "monoid-statistics",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Numeric",
           "package": "monoid-statistics",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistics which could count number of elements in the sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "CalcCount",
           "package": "monoid-statistics",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Statistics which could count number of elements in the sample",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "CalcCount",
           "package": "monoid-statistics",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistics which could estimate mean of sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "CalcMean",
           "package": "monoid-statistics",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Statistics which could estimate mean of sample",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "CalcMean",
           "package": "monoid-statistics",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistics which could estimate variance of sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "CalcVariance",
           "package": "monoid-statistics",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Statistics which could estimate variance of sample",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "CalcVariance",
           "package": "monoid-statistics",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplest statistics. Number of elements in the sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Count",
           "package": "monoid-statistics",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Simplest statistics Number of elements in the sample",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Count",
           "package": "monoid-statistics",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate maximum of sample. For empty sample returns NaN. Any\n NaN encountedred will be ignored. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Max",
           "package": "monoid-statistics",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Calculate maximum of sample For empty sample returns NaN Any NaN encountedred will be ignored",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Max",
           "package": "monoid-statistics",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMean of sample. Samples of Double,Float and bui;t-in integral\n   types are supported\n\u003c/p\u003e\u003cp\u003eNumeric stability of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e is not proven.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Mean",
           "package": "monoid-statistics",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Mean of sample Samples of Double Float and bui t-in integral types are supported Numeric stability of mappend is not proven",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Mean",
           "package": "monoid-statistics",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate minimum of sample. For empty sample returns NaN. Any\n NaN encountedred will be ignored. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Min",
           "package": "monoid-statistics",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Calculate minimum of sample For empty sample returns NaN Any NaN encountedred will be ignored",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Min",
           "package": "monoid-statistics",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntermediate quantities to calculate the standard deviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Variance",
           "package": "monoid-statistics",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Intermediate quantities to calculate the standard deviation",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Variance",
           "package": "monoid-statistics",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Count",
           "package": "monoid-statistics",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Count",
           "package": "monoid-statistics",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Max",
           "package": "monoid-statistics",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Max",
           "package": "monoid-statistics",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Mean",
           "package": "monoid-statistics",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Mean",
           "package": "monoid-statistics",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Min",
           "package": "monoid-statistics",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Min",
           "package": "monoid-statistics",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Variance",
           "package": "monoid-statistics",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "Variance",
           "package": "monoid-statistics",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFix type of monoid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "asCount",
           "package": "monoid-statistics",
@@ -344,6 +373,7 @@
         "index": {
           "description": "Fix type of monoid",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "asCount",
           "normalized": "Count a-\u003eCount a",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFix type of monoid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "asMean",
           "package": "monoid-statistics",
@@ -370,6 +401,7 @@
         "index": {
           "description": "Fix type of monoid",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "asMean",
           "normalized": "Mean-\u003eMean",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFix type of monoid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "asVariance",
           "package": "monoid-statistics",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Fix type of monoid",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "asVariance",
           "normalized": "Variance-\u003eVariance",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcCount",
           "package": "monoid-statistics",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Number of elements in sample",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcCount",
           "normalized": "a-\u003eInt",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcCountI",
           "package": "monoid-statistics",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcCountI",
           "package": "monoid-statistics",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcMax",
           "package": "monoid-statistics",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcMax",
           "package": "monoid-statistics",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate esimate of mean of a sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcMean",
           "package": "monoid-statistics",
@@ -492,6 +533,7 @@
         "index": {
           "description": "Calculate esimate of mean of sample",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcMean",
           "normalized": "a-\u003eDouble",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcMin",
           "package": "monoid-statistics",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcMin",
           "package": "monoid-statistics",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate sample standard deviation (biased estimator, $s$, where\n   the denominator is $n-1$).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcStddev",
           "package": "monoid-statistics",
@@ -540,6 +585,7 @@
         "index": {
           "description": "Calculate sample standard deviation biased estimator where the denominator is n-1",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcStddev",
           "normalized": "a-\u003eDouble",
@@ -556,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate standard deviation of the sample\n (unbiased estimator, $sigma$, where the denominator is $n$).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcStddevUnbiased",
           "package": "monoid-statistics",
@@ -566,6 +613,7 @@
         "index": {
           "description": "Calculate standard deviation of the sample unbiased estimator sigma where the denominator is",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcStddevUnbiased",
           "normalized": "a-\u003eDouble",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate biased estimate of variance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcVariance",
           "package": "monoid-statistics",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Calculate biased estimate of variance",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcVariance",
           "normalized": "a-\u003eDouble",
@@ -608,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate unbiased estimate of the variance, where the\n   denominator is $n-1$.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcVarianceUnbiased",
           "package": "monoid-statistics",
@@ -618,6 +669,7 @@
         "index": {
           "description": "Calculate unbiased estimate of the variance where the denominator is n-1",
           "hierarchy": "Data Monoid Statistics Numeric",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics.Numeric",
           "name": "calcVarianceUnbiased",
           "normalized": "a-\u003eDouble",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics",
           "name": "Statistics",
           "package": "monoid-statistics",
@@ -641,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics",
           "name": "Statistics",
           "package": "monoid-statistics",
@@ -655,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid which corresponds to some stattics. In order to do so it\n   must be commutative. In many cases it's not practical to\n   construct monoids for each element so \u003ccode\u003epapennd\u003c/code\u003e was added.\n   First parameter of type class is monoidal accumulator. Second is\n   type of element over which statistic is calculated. \n\u003c/p\u003e\u003cp\u003eStatistic could be calculated with fold over sample. Since\n   accumulator is \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e such fold could be easily parralelized.\n   Check examples section for more information.\n\u003c/p\u003e\u003cp\u003eInstance must satisfy following law:\n\u003c/p\u003e\u003cpre\u003e pappend x (pappend y mempty) == pappend x mempty `mappend` pappend y mempty\n mappend x y == mappend y x\n\u003c/pre\u003e\u003cp\u003eIt is very similar to Reducer type class from monoids package but\n   require commutative monoids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics",
           "name": "StatMonoid",
           "package": "monoid-statistics",
@@ -664,6 +719,7 @@
         "index": {
           "description": "Monoid which corresponds to some stattics In order to do so it must be commutative In many cases it not practical to construct monoids for each element so papennd was added First parameter of type class is monoidal accumulator Second is type of element over which statistic is calculated Statistic could be calculated with fold over sample Since accumulator is Monoid such fold could be easily parralelized Check examples section for more information Instance must satisfy following law pappend pappend mempty pappend mempty mappend pappend mempty mappend mappend It is very similar to Reducer type class from monoids package but require commutative monoids",
           "hierarchy": "Data Monoid Statistics",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics",
           "name": "StatMonoid",
           "package": "monoid-statistics",
@@ -678,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid which allows to calculate two statistics in parralel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics",
           "name": "TwoStats",
           "package": "monoid-statistics",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Monoid which allows to calculate two statistics in parralel",
           "hierarchy": "Data Monoid Statistics",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics",
           "name": "TwoStats",
           "package": "monoid-statistics",
@@ -700,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics",
           "name": "TwoStats",
           "package": "monoid-statistics",
@@ -709,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics",
           "name": "TwoStats",
           "package": "monoid-statistics",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics",
           "name": "calcStat1",
           "package": "monoid-statistics",
@@ -731,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics",
           "name": "calcStat1",
           "package": "monoid-statistics",
@@ -744,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics",
           "name": "calcStat2",
           "package": "monoid-statistics",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Statistics",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics",
           "name": "calcStat2",
           "package": "monoid-statistics",
@@ -767,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate statistic over \u003ccode\u003eFoldable\u003c/code\u003e. It's implemented in terms of\n   foldl'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics",
           "name": "evalStatistic",
           "package": "monoid-statistics",
@@ -777,6 +842,7 @@
         "index": {
           "description": "Calculate statistic over Foldable It implemented in terms of foldl",
           "hierarchy": "Data Monoid Statistics",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics",
           "name": "evalStatistic",
           "normalized": "a b-\u003ec",
@@ -793,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd one element to monoid accumulator. P stands for point in\n   analogy for Pointed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:16 UTC 2014",
           "module": "Data.Monoid.Statistics",
           "name": "pappend",
           "package": "monoid-statistics",
@@ -803,6 +870,7 @@
         "index": {
           "description": "Add one element to monoid accumulator stands for point in analogy for Pointed",
           "hierarchy": "Data Monoid Statistics",
+          "indexed": "2014-03-11T19:22:16",
           "module": "Data.Monoid.Statistics",
           "name": "pappend",
           "normalized": "a-\u003eb-\u003eb",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pugs-hsregex"
+        "phrase": "pugs-hsregex",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.PCRE",
           "name": "PCRE",
           "package": "pugs-hsregex",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "RRegex PCRE",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.PCRE",
           "name": "PCRE",
           "package": "pugs-hsregex",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.PCRE",
           "name": "Regex",
           "package": "pugs-hsregex",
@@ -49,6 +52,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "RRegex PCRE",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.PCRE",
           "name": "Regex",
           "package": "pugs-hsregex",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles a regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.PCRE",
           "name": "compile",
           "package": "pugs-hsregex",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Compiles regular expression",
           "hierarchy": "RRegex PCRE",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.PCRE",
           "name": "compile",
           "normalized": "String-\u003eInt-\u003eIO(Either(Int,String)Regex)",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a regular expression against a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.PCRE",
           "name": "execute",
           "package": "pugs-hsregex",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Matches regular expression against string",
           "hierarchy": "RRegex PCRE",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.PCRE",
           "name": "execute",
           "normalized": "Regex-\u003eString-\u003eInt-\u003eIO(Maybe(Array Int(Int,Int)))",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecute match and extract substrings rather than just offsets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.PCRE",
           "name": "executeExtract",
           "package": "pugs-hsregex",
@@ -120,6 +129,7 @@
         "index": {
           "description": "execute match and extract substrings rather than just offsets",
           "hierarchy": "RRegex PCRE",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.PCRE",
           "name": "executeExtract",
           "normalized": "Regex-\u003eString-\u003eInt-\u003eIO(Maybe(String,String,Array Int String))",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn version of pcre used or Nothing if pcre is not available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.PCRE",
           "name": "getVersion",
           "package": "pugs-hsregex",
@@ -146,6 +157,7 @@
         "index": {
           "description": "return version of pcre used or Nothing if pcre is not available",
           "hierarchy": "RRegex PCRE",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.PCRE",
           "name": "getVersion",
           "package": "pugs-hsregex",
@@ -461,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ebasic usage:\n\u003c/p\u003e\u003cp\u003estring =~ 'regular expression' returns different things depending on context\n\u003c/p\u003e\u003cp\u003etype - what it evaluates to\n---------------------------\nInt - number of times the regular expression matches\nString -  matching portion of string\n(String,String,String) - (text before match, matching text, text after match)\n[Either String String] - list of matching and nonmatching strings, if concated, the original string results.  Left = notmatching, Right = matching.\nBool - whether the string matches\n() - always returns () (useful in monad context, see below)\n[String] - list of matches\nArray Int String - list of substring matches for first match \n(String, Array Int String) - full matching text and substring matches\n[(String, Array Int String)] - all matches, full match plus substrings\n[Array Int String] - all substrings from all matches\n\u003c/p\u003e\u003cp\u003ealso, there is the monadic version (=~~) which always behaves exactly the same\nas (=~) except when the match fails, instead of returning a default value, the\nmonad fails. \n\u003c/p\u003e\u003cp\u003eregular expressions:\n\u003c/p\u003e\u003cp\u003ethese may be strings, which are interpreted as regular expressions, or Regex's\nfrom the Text.Regex module. or any other instance of the RegexLike class. \n\u003c/p\u003e\u003cp\u003ewhen using strings, you may prefix the regex by \u003ca\u003e(?flags)\u003c/a\u003e where flags is one\nof \u003ccode\u003ei\u003c/code\u003e for a case insensitive match and \u003ccode\u003em\u003c/code\u003e means a multi-line match. other \nflags may be available depending on your implementation\n\u003c/p\u003e\u003cp\u003eadvanced features:\n\u003c/p\u003e\u003cp\u003enot just strings can be matched, but rather lists of anything a matcher is\ndefined for.  RegexLikeImp data class can be used for in-place code generated\nby template haskell for compile-time checked regular expresions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "Syntax",
           "package": "pugs-hsregex",
@@ -470,6 +483,7 @@
         "index": {
           "description": "basic usage string regular expression returns different things depending on context type what it evaluates to Int number of times the regular expression matches String matching portion of string String String String text before match matching text text after match Either String String list of matching and nonmatching strings if concated the original string results Left notmatching Right matching Bool whether the string matches always returns useful in monad context see below String list of matches Array Int String list of substring matches for first match String Array Int String full matching text and substring matches String Array Int String all matches full match plus substrings Array Int String all substrings from all matches also there is the monadic version which always behaves exactly the same as except when the match fails instead of returning default value the monad fails regular expressions these may be strings which are interpreted as regular expressions or Regex from the Text.Regex module or any other instance of the RegexLike class when using strings you may prefix the regex by flags where flags is one of for case insensitive match and means multi-line match other flags may be available depending on your implementation advanced features not just strings can be matched but rather lists of anything matcher is defined for RegexLikeImp data class can be used for in-place code generated by template haskell for compile-time checked regular expresions",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "Syntax",
           "package": "pugs-hsregex",
@@ -483,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "MatchResult",
           "package": "pugs-hsregex",
@@ -491,6 +506,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "MatchResult",
           "package": "pugs-hsregex",
@@ -504,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "RegexContext",
           "package": "pugs-hsregex",
@@ -512,6 +529,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "RegexContext",
           "package": "pugs-hsregex",
@@ -526,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einstances of this class may be used as regular expressions with this syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "RegexLike",
           "package": "pugs-hsregex",
@@ -535,6 +554,7 @@
         "index": {
           "description": "instances of this class may be used as regular expressions with this syntax",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "RegexLike",
           "package": "pugs-hsregex",
@@ -549,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck if regular expression does not match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "(!~~)",
           "package": "pugs-hsregex",
@@ -559,6 +580,7 @@
         "index": {
           "description": "check if regular expression does not match",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "(!~~) !~~",
           "normalized": "[a]-\u003eb-\u003eBool",
@@ -574,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a list against a regular expression, changing its behavior based on its result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "(=~)",
           "package": "pugs-hsregex",
@@ -584,6 +607,7 @@
         "index": {
           "description": "match list against regular expression changing its behavior based on its result type",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "(=~) =~",
           "normalized": "[a]-\u003eb-\u003ec",
@@ -599,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of (=~). behaves identically, except it causes the monad to fail when the expression does not match, rather than returning a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "(=~~)",
           "package": "pugs-hsregex",
@@ -609,6 +634,7 @@
         "index": {
           "description": "Monadic version of behaves identically except it causes the monad to fail when the expression does not match rather than returning default value",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "(=~~) =~~",
           "normalized": "[a]-\u003eb-\u003ec d",
@@ -623,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "MR",
           "package": "pugs-hsregex",
@@ -632,6 +659,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "MR",
           "package": "pugs-hsregex",
@@ -646,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn all matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "matchAll",
           "package": "pugs-hsregex",
@@ -656,6 +685,7 @@
         "index": {
           "description": "return all matches",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "matchAll",
           "normalized": "a-\u003e[b]-\u003e[Array Int(Int,Int)]",
@@ -672,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of times the regex matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "matchCount",
           "package": "pugs-hsregex",
@@ -682,6 +713,7 @@
         "index": {
           "description": "Count the number of times the regex matches",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "matchCount",
           "normalized": "a-\u003e[b]-\u003eInt",
@@ -698,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch once\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "matchOnce",
           "package": "pugs-hsregex",
@@ -708,6 +741,7 @@
         "index": {
           "description": "match once",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "matchOnce",
           "package": "pugs-hsregex",
@@ -721,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "matchShow",
           "package": "pugs-hsregex",
@@ -730,6 +765,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "matchShow",
           "package": "pugs-hsregex",
@@ -744,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the regex matches at all\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "matchTest",
           "package": "pugs-hsregex",
@@ -754,6 +791,7 @@
         "index": {
           "description": "Test whether the regex matches at all",
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "matchTest",
           "normalized": "a-\u003e[b]-\u003eBool",
@@ -769,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "mrAfter",
           "package": "pugs-hsregex",
@@ -778,6 +817,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "mrAfter",
           "normalized": "[a]",
@@ -793,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "mrBefore",
           "package": "pugs-hsregex",
@@ -802,6 +843,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "mrBefore",
           "normalized": "[a]",
@@ -817,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "mrMatch",
           "package": "pugs-hsregex",
@@ -826,6 +869,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "mrMatch",
           "normalized": "[a]",
@@ -841,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "mrSubList",
           "package": "pugs-hsregex",
@@ -850,6 +895,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "mrSubList",
           "normalized": "[[a]]",
@@ -865,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex.Syntax",
           "name": "mrSubs",
           "package": "pugs-hsregex",
@@ -874,6 +921,7 @@
         },
         "index": {
           "hierarchy": "RRegex Syntax",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex.Syntax",
           "name": "mrSubs",
           "normalized": "Array Int[a]",
@@ -890,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRegular expressions, based on PCRE.\n\u003c/p\u003e\u003cpre\u003e   A king he was on carven throne\n   In many-pillared halls of stone\n   With golden roof and silver floor,\n   And runes of power upon the door...\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex",
           "name": "RRegex",
           "package": "pugs-hsregex",
@@ -899,6 +948,7 @@
         "index": {
           "description": "Regular expressions based on PCRE king he was on carven throne In many-pillared halls of stone With golden roof and silver floor And runes of power upon the door",
           "hierarchy": "RRegex",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex",
           "name": "RRegex",
           "package": "pugs-hsregex",
@@ -913,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex",
           "name": "Regex",
           "package": "pugs-hsregex",
@@ -922,6 +973,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "RRegex",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex",
           "name": "Regex",
           "package": "pugs-hsregex",
@@ -936,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a regular expression against a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex",
           "name": "matchRegex",
           "package": "pugs-hsregex",
@@ -945,6 +998,7 @@
         "index": {
           "description": "Match regular expression against string",
           "hierarchy": "RRegex",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex",
           "name": "matchRegex",
           "normalized": "Regex-\u003eString-\u003eMaybe[String]",
@@ -961,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a regular expression against a string, returning more information\n about the match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex",
           "name": "matchRegexAll",
           "package": "pugs-hsregex",
@@ -970,6 +1025,7 @@
         "index": {
           "description": "Match regular expression against string returning more information about the match",
           "hierarchy": "RRegex",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex",
           "name": "matchRegexAll",
           "normalized": "Regex-\u003eString-\u003eMaybe(String,String,String,[String])",
@@ -985,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex",
           "name": "matchRegexWithPCRE",
           "package": "pugs-hsregex",
@@ -993,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "RRegex",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex",
           "name": "matchRegexWithPCRE",
           "normalized": "Regex-\u003eString-\u003eInt-\u003eIO(Maybe(Array Int(Int,Int)))",
@@ -1009,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a regular expression with the default options (multi-line,\n case-sensitive).  The syntax of regular expressions is\n otherwise that of \u003ccode\u003eegrep\u003c/code\u003e (i.e. POSIX \"extended\" regular\n expressions). Note: this is arguably the incorrect default. single line \n is the default everywhere else.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex",
           "name": "mkRegex",
           "package": "pugs-hsregex",
@@ -1019,6 +1078,7 @@
         "index": {
           "description": "Makes regular expression with the default options multi-line case-sensitive The syntax of regular expressions is otherwise that of egrep i.e POSIX extended regular expressions Note this is arguably the incorrect default single line is the default everywhere else",
           "hierarchy": "RRegex",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex",
           "name": "mkRegex",
           "normalized": "String-\u003eRegex",
@@ -1035,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a regular expression, where the multi-line and\n case-sensitve options can be changed from the default settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex",
           "name": "mkRegexWithOpts",
           "package": "pugs-hsregex",
@@ -1044,6 +1105,7 @@
         "index": {
           "description": "Makes regular expression where the multi-line and case-sensitve options can be changed from the default settings",
           "hierarchy": "RRegex",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex",
           "name": "mkRegexWithOpts",
           "normalized": "String-\u003eBool-\u003eBool-\u003eRegex",
@@ -1060,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a regular expression with PCRE flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:01 UTC 2014",
           "module": "RRegex",
           "name": "mkRegexWithPCRE",
           "package": "pugs-hsregex",
@@ -1069,6 +1132,7 @@
         "index": {
           "description": "Makes regular expression with PCRE flags",
           "hierarchy": "RRegex",
+          "indexed": "2014-03-11T19:46:01",
           "module": "RRegex",
           "name": "mkRegexWithPCRE",
           "normalized": "String-\u003e[Int]-\u003eRegex",

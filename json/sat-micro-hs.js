@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sat-micro-hs"
+        "phrase": "sat-micro-hs",
+        "type": "phrase"
       },
       "type": "context"
     }

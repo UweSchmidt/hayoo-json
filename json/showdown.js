@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "showdown"
+        "phrase": "showdown",
+        "type": "phrase"
       },
       "type": "context"
     }

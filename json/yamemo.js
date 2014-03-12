@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yamemo"
+        "phrase": "yamemo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMemo table classes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "MemoTableClasses",
           "package": "yamemo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Memo table classes",
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "MemoTableClasses",
           "package": "yamemo",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "MemoTable",
           "package": "yamemo",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "MemoTable",
           "package": "yamemo",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "MemoTableT",
           "package": "yamemo",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "MemoTableT",
           "package": "yamemo",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "emptyMemoTable",
           "package": "yamemo",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "emptyMemoTable",
           "package": "yamemo",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "emptyMemoTableT",
           "package": "yamemo",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "emptyMemoTableT",
           "package": "yamemo",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "insertMemoTable",
           "package": "yamemo",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "insertMemoTable",
           "normalized": "a-\u003eb-\u003ec a b-\u003ec a b",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "insertMemoTableT",
           "package": "yamemo",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "insertMemoTableT",
           "normalized": "a-\u003eb c-\u003ed a(b c)-\u003ed a(b c)",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "lookupMemoTable",
           "package": "yamemo",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "lookupMemoTable",
           "normalized": "a-\u003eb a c-\u003eMaybe c",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "lookupMemoTableT",
           "package": "yamemo",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo MemoTableClasses",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableClasses",
           "name": "lookupMemoTableT",
           "normalized": "a-\u003eb a(c d)-\u003eMaybe(c d)",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMemo table instances\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.MemoTableInstances",
           "name": "MemoTableInstances",
           "package": "yamemo",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Memo table instances",
           "hierarchy": "Data Function YaMemo MemoTableInstances",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.MemoTableInstances",
           "name": "MemoTableInstances",
           "package": "yamemo",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility instances for memoisation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo.NumInstances",
           "name": "NumInstances",
           "package": "yamemo",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Utility instances for memoisation",
           "hierarchy": "Data Function YaMemo NumInstances",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo.NumInstances",
           "name": "NumInstances",
           "package": "yamemo",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMemoisation.\n It's useful for dynamic programming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo",
           "name": "YaMemo",
           "package": "yamemo",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Memoisation It useful for dynamic programming",
           "hierarchy": "Data Function YaMemo",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo",
           "name": "YaMemo",
           "package": "yamemo",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo",
           "name": "Memo",
           "package": "yamemo",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Function YaMemo",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo",
           "name": "Memo",
           "package": "yamemo",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emakes memo function from functional specified by the second argument.\n   The first argument is only for imforming type of memo table will be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo",
           "name": "memo",
           "package": "yamemo",
@@ -324,6 +351,7 @@
         "index": {
           "description": "makes memo function from functional specified by the second argument The first argument is only for imforming type of memo table will be used",
           "hierarchy": "Data Function YaMemo",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo",
           "name": "memo",
           "normalized": "(a-\u003eState(b a c)c)-\u003e((a-\u003eState(b a c)c)-\u003eMemo b a c)-\u003ea-\u003ec",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emakes memo function which also takes and returns memo table\n , which can be reused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:22 UTC 2014",
           "module": "Data.Function.YaMemo",
           "name": "memo'",
           "package": "yamemo",
@@ -349,6 +378,7 @@
         "index": {
           "description": "makes memo function which also takes and returns memo table which can be reused",
           "hierarchy": "Data Function YaMemo",
+          "indexed": "2014-03-11T20:44:22",
           "module": "Data.Function.YaMemo",
           "name": "memo'",
           "normalized": "((a-\u003eState(b a c)c)-\u003eMemo b a c)-\u003eb a c-\u003ea-\u003e(b a c,c)",

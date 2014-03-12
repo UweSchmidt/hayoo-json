@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "error-message"
+        "phrase": "error-message",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "ErrorMessage",
           "package": "error-message",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "ErrorMessage",
           "package": "error-message",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "ErrorMessage",
           "package": "error-message",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "ErrorMessage",
           "package": "error-message",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "ErrorMessageOr",
           "package": "error-message",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "ErrorMessageOr",
           "package": "error-message",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "ErrorMessage",
           "package": "error-message",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "ErrorMessage",
           "package": "error-message",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "errorMessage",
           "package": "error-message",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "errorMessage",
           "normalized": "String-\u003eDoc-\u003eErrorMessage",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "errorMessageText",
           "package": "error-message",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "errorMessageText",
           "normalized": "String-\u003eString-\u003eErrorMessage",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "errorMessageTextFromMultilineString",
           "package": "error-message",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "errorMessageTextFromMultilineString",
           "normalized": "String-\u003eString-\u003eErrorMessage",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "formatErrorMessage",
           "package": "error-message",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "formatErrorMessage",
           "normalized": "ErrorMessage-\u003eDoc",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "formatMessageWithHeading",
           "package": "error-message",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "formatMessageWithHeading",
           "normalized": "String-\u003eDoc-\u003eDoc",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "gatherResultsOrError",
           "package": "error-message",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "gatherResultsOrError",
           "normalized": "[Either a b]-\u003eEither a[b]",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "gatherResultsOrErrors",
           "package": "error-message",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "gatherResultsOrErrors",
           "normalized": "[Either a b]-\u003eEither[a][b]",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "leftErrorMessage",
           "package": "error-message",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "leftErrorMessage",
           "normalized": "String-\u003eDoc-\u003eEither ErrorMessage a",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "leftErrorMessageText",
           "package": "error-message",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "leftErrorMessageText",
           "normalized": "String-\u003eString-\u003eEither ErrorMessage a",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "leftErrorMessageTextFromMultilineString",
           "package": "error-message",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "leftErrorMessageTextFromMultilineString",
           "normalized": "String-\u003eString-\u003eEither ErrorMessage a",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:55 UTC 2014",
           "module": "Data.ErrorMessage",
           "name": "unwrapErrorMessage",
           "package": "error-message",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Data ErrorMessage",
+          "indexed": "2014-03-11T18:03:55",
           "module": "Data.ErrorMessage",
           "name": "unwrapErrorMessage",
           "package": "error-message",

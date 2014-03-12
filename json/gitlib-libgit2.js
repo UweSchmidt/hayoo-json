@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitlib-libgit2"
+        "phrase": "gitlib-libgit2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "Backend",
           "package": "gitlib-libgit2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "Backend",
           "package": "gitlib-libgit2",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_exists_callback",
           "package": "gitlib-libgit2",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_exists_callback",
           "package": "gitlib-libgit2",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_foreach_callback",
           "package": "gitlib-libgit2",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_foreach_callback",
           "package": "gitlib-libgit2",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_free_callback",
           "package": "gitlib-libgit2",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_free_callback",
           "package": "gitlib-libgit2",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_read_callback",
           "package": "gitlib-libgit2",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_read_callback",
           "package": "gitlib-libgit2",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_read_header_callback",
           "package": "gitlib-libgit2",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_read_header_callback",
           "package": "gitlib-libgit2",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_read_prefix_callback",
           "package": "gitlib-libgit2",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_read_prefix_callback",
           "package": "gitlib-libgit2",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_readstream_callback",
           "package": "gitlib-libgit2",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_readstream_callback",
           "package": "gitlib-libgit2",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_refresh_callback",
           "package": "gitlib-libgit2",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_refresh_callback",
           "package": "gitlib-libgit2",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_write_callback",
           "package": "gitlib-libgit2",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_write_callback",
           "package": "gitlib-libgit2",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_writepack_callback",
           "package": "gitlib-libgit2",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_writepack_callback",
           "package": "gitlib-libgit2",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_writestream_callback",
           "package": "gitlib-libgit2",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_backend_writestream_callback",
           "package": "gitlib-libgit2",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_writepack_add_callback",
           "package": "gitlib-libgit2",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_writepack_add_callback",
           "package": "gitlib-libgit2",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_writepack_commit_callback",
           "package": "gitlib-libgit2",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_writepack_commit_callback",
           "package": "gitlib-libgit2",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_writepack_free_callback",
           "package": "gitlib-libgit2",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "F'git_odb_writepack_free_callback",
           "package": "gitlib-libgit2",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Backend",
           "name": "odbBackendAdd",
           "package": "gitlib-libgit2",
@@ -342,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Backend",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Backend",
           "name": "odbBackendAdd",
           "normalized": "LgRepo-\u003ePtr C'git_odb_backend-\u003eInt-\u003eIO(Either String LgRepo)",
@@ -357,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Internal",
           "name": "Internal",
           "package": "gitlib-libgit2",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Internal",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Internal",
           "name": "Internal",
           "package": "gitlib-libgit2",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Internal",
           "name": "coidPtrToOid",
           "package": "gitlib-libgit2",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Internal",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Internal",
           "name": "coidPtrToOid",
           "normalized": "Ptr C'git_oid-\u003eIO(ForeignPtr C'git_oid)",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Internal",
           "name": "lookupObject'",
           "package": "gitlib-libgit2",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Internal",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Internal",
           "name": "lookupObject'",
           "normalized": "ForeignPtr C'git_oid-\u003eInt-\u003e(Ptr(Ptr a)-\u003ePtr C'git_repository-\u003ePtr C'git_oid-\u003eIO CInt)-\u003e(Ptr(Ptr a)-\u003ePtr C'git_repository-\u003ePtr C'git_oid-\u003eCSize-\u003eIO CInt)-\u003e(ForeignPtr C'git_oid-\u003eForeignPtr a-\u003ePtr a-\u003eb c)-\u003eb c",
@@ -476,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Internal",
           "name": "packGitTime",
           "package": "gitlib-libgit2",
@@ -485,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Internal",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Internal",
           "name": "packGitTime",
           "normalized": "ZonedTime-\u003eC'git_time",
@@ -500,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Internal",
           "name": "packSignature",
           "package": "gitlib-libgit2",
@@ -509,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Internal",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Internal",
           "name": "packSignature",
           "normalized": "Converter-\u003ePtr C'git_signature-\u003eIO Signature",
@@ -524,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Internal",
           "name": "peekGitTime",
           "package": "gitlib-libgit2",
@@ -533,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Internal",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Internal",
           "name": "peekGitTime",
           "normalized": "Ptr C'git_time-\u003eIO ZonedTime",
@@ -548,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Internal",
           "name": "withSignature",
           "package": "gitlib-libgit2",
@@ -557,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Internal",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Internal",
           "name": "withSignature",
           "normalized": "Converter-\u003eSignature-\u003e(Ptr C'git_signature-\u003eIO a)-\u003eIO a",
@@ -572,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "Trace",
           "package": "gitlib-libgit2",
@@ -580,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "Trace",
           "package": "gitlib-libgit2",
@@ -593,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "TraceBackend",
           "package": "gitlib-libgit2",
@@ -601,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "TraceBackend",
           "package": "gitlib-libgit2",
@@ -614,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "TraceBackend",
           "package": "gitlib-libgit2",
@@ -623,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "TraceBackend",
           "package": "gitlib-libgit2",
@@ -636,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackend",
           "package": "gitlib-libgit2",
@@ -645,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackend",
           "normalized": "Ptr C'git_odb_backend-\u003eIO(Ptr C'git_odb_backend)",
@@ -660,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendExistsCallback",
           "package": "gitlib-libgit2",
@@ -669,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendExistsCallback",
           "package": "gitlib-libgit2",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendFreeCallback",
           "package": "gitlib-libgit2",
@@ -691,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendFreeCallback",
           "package": "gitlib-libgit2",
@@ -704,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendFreeCallbackPtr",
           "package": "gitlib-libgit2",
@@ -713,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendFreeCallbackPtr",
           "package": "gitlib-libgit2",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendReadCallback",
           "package": "gitlib-libgit2",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendReadCallback",
           "package": "gitlib-libgit2",
@@ -748,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendReadHeaderCallback",
           "package": "gitlib-libgit2",
@@ -757,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendReadHeaderCallback",
           "package": "gitlib-libgit2",
@@ -770,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendReadPrefixCallback",
           "package": "gitlib-libgit2",
@@ -779,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendReadPrefixCallback",
           "package": "gitlib-libgit2",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendWriteCallback",
           "package": "gitlib-libgit2",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceBackendWriteCallback",
           "package": "gitlib-libgit2",
@@ -814,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceNext",
           "package": "gitlib-libgit2",
@@ -823,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceNext",
           "package": "gitlib-libgit2",
@@ -836,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Trace",
           "name": "traceParent",
           "package": "gitlib-libgit2",
@@ -845,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Trace",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Trace",
           "name": "traceParent",
           "package": "gitlib-libgit2",
@@ -858,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "Types",
           "package": "gitlib-libgit2",
@@ -866,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "Types",
           "package": "gitlib-libgit2",
@@ -879,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "BlobOid",
           "package": "gitlib-libgit2",
@@ -887,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "BlobOid",
           "package": "gitlib-libgit2",
@@ -900,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "Commit",
           "package": "gitlib-libgit2",
@@ -908,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "Commit",
           "package": "gitlib-libgit2",
@@ -921,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "CommitOid",
           "package": "gitlib-libgit2",
@@ -929,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "CommitOid",
           "package": "gitlib-libgit2",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "LgRepo",
           "package": "gitlib-libgit2",
@@ -950,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "LgRepo",
           "package": "gitlib-libgit2",
@@ -963,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "MonadLg",
           "package": "gitlib-libgit2",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "MonadLg",
           "package": "gitlib-libgit2",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "Object",
           "package": "gitlib-libgit2",
@@ -992,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "Object",
           "package": "gitlib-libgit2",
@@ -1005,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "ObjectOid",
           "package": "gitlib-libgit2",
@@ -1013,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "ObjectOid",
           "package": "gitlib-libgit2",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "Options",
           "package": "gitlib-libgit2",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "Options",
           "package": "gitlib-libgit2",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "RefTarget",
           "package": "gitlib-libgit2",
@@ -1055,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "RefTarget",
           "package": "gitlib-libgit2",
@@ -1068,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "Tag",
           "package": "gitlib-libgit2",
@@ -1076,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "Tag",
           "package": "gitlib-libgit2",
@@ -1089,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "Tree",
           "package": "gitlib-libgit2",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "Tree",
           "package": "gitlib-libgit2",
@@ -1110,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "TreeBuilder",
           "package": "gitlib-libgit2",
@@ -1118,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "TreeBuilder",
           "package": "gitlib-libgit2",
@@ -1131,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "TreeEntry",
           "package": "gitlib-libgit2",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "TreeEntry",
           "package": "gitlib-libgit2",
@@ -1152,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2.Types",
           "name": "TreeOid",
           "package": "gitlib-libgit2",
@@ -1160,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2 Types",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2.Types",
           "name": "TreeOid",
           "package": "gitlib-libgit2",
@@ -1291,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface for opening and creating repositories.  Repository objects are\n   immutable, and serve only to refer to the given repository.  Any data\n   associated with the repository &#8212; such as the list of branches &#8212; is\n   queried as needed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "Libgit2",
           "package": "gitlib-libgit2",
@@ -1300,6 +1403,7 @@
         "index": {
           "description": "Interface for opening and creating repositories Repository objects are immutable and serve only to refer to the given repository Any data associated with the repository such as the list of branches is queried as needed",
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "Libgit2",
           "package": "gitlib-libgit2",
@@ -1313,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "BlobOid",
           "package": "gitlib-libgit2",
@@ -1321,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "BlobOid",
           "package": "gitlib-libgit2",
@@ -1334,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "Commit",
           "package": "gitlib-libgit2",
@@ -1342,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "Commit",
           "package": "gitlib-libgit2",
@@ -1355,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "CommitOid",
           "package": "gitlib-libgit2",
@@ -1363,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "CommitOid",
           "package": "gitlib-libgit2",
@@ -1376,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "LgRepo",
           "package": "gitlib-libgit2",
@@ -1384,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "LgRepo",
           "package": "gitlib-libgit2",
@@ -1397,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "MonadLg",
           "package": "gitlib-libgit2",
@@ -1405,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "MonadLg",
           "package": "gitlib-libgit2",
@@ -1418,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "Oid",
           "package": "gitlib-libgit2",
@@ -1426,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "Oid",
           "package": "gitlib-libgit2",
@@ -1439,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "OidPtr",
           "package": "gitlib-libgit2",
@@ -1447,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "OidPtr",
           "package": "gitlib-libgit2",
@@ -1460,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "Tree",
           "package": "gitlib-libgit2",
@@ -1468,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "Tree",
           "package": "gitlib-libgit2",
@@ -1481,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "TreeOid",
           "package": "gitlib-libgit2",
@@ -1489,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "TreeOid",
           "package": "gitlib-libgit2",
@@ -1502,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "OidPtr",
           "package": "gitlib-libgit2",
@@ -1511,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "OidPtr",
           "package": "gitlib-libgit2",
@@ -1524,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "checkResult",
           "package": "gitlib-libgit2",
@@ -1533,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "checkResult",
           "normalized": "a-\u003eText-\u003eb()",
@@ -1548,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "getOid",
           "package": "gitlib-libgit2",
@@ -1557,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "getOid",
           "package": "gitlib-libgit2",
@@ -1570,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "getOidLen",
           "package": "gitlib-libgit2",
@@ -1579,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "getOidLen",
           "package": "gitlib-libgit2",
@@ -1592,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgBuildPackFile",
           "package": "gitlib-libgit2",
@@ -1601,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgBuildPackFile",
           "normalized": "FilePath-\u003e[Either CommitOid TreeOid]-\u003eReaderT LgRepo a FilePath",
@@ -1616,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgBuildPackIndex",
           "package": "gitlib-libgit2",
@@ -1625,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgBuildPackIndex",
           "normalized": "FilePath-\u003eByteString-\u003ea(Text,FilePath,FilePath)",
@@ -1640,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgCopyPackFile",
           "package": "gitlib-libgit2",
@@ -1649,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgCopyPackFile",
           "normalized": "FilePath-\u003eReaderT LgRepo a()",
@@ -1664,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgDebug",
           "package": "gitlib-libgit2",
@@ -1673,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgDebug",
           "normalized": "String-\u003ea()",
@@ -1688,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgDiffContentsWithTree",
           "package": "gitlib-libgit2",
@@ -1697,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgDiffContentsWithTree",
           "normalized": "Source(ReaderT LgRepo a)(Either TreeFilePath(Either SHA ByteString))-\u003eTree-\u003eProducer(ReaderT LgRepo a)ByteString",
@@ -1712,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgExcTrap",
           "package": "gitlib-libgit2",
@@ -1721,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgExcTrap",
           "package": "gitlib-libgit2",
@@ -1734,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgFactory",
           "package": "gitlib-libgit2",
@@ -1743,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgFactory",
           "package": "gitlib-libgit2",
@@ -1756,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgFactoryLogger",
           "package": "gitlib-libgit2",
@@ -1765,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgFactoryLogger",
           "package": "gitlib-libgit2",
@@ -1778,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgForEachObject",
           "package": "gitlib-libgit2",
@@ -1787,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgForEachObject",
           "normalized": "Ptr C'git_odb-\u003e(Ptr C'git_oid-\u003ePtr()-\u003eIO CInt)-\u003ePtr()-\u003eIO CInt",
@@ -1802,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgReadFromPack",
           "package": "gitlib-libgit2",
@@ -1811,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgReadFromPack",
           "normalized": "FilePath-\u003eSHA-\u003eBool-\u003ea(Maybe(C'git_otype,CSize,ByteString))",
@@ -1826,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgWarn",
           "package": "gitlib-libgit2",
@@ -1835,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgWarn",
           "normalized": "String-\u003ea()",
@@ -1850,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgWithPackFile",
           "package": "gitlib-libgit2",
@@ -1859,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgWithPackFile",
           "normalized": "FilePath-\u003e(Ptr C'git_odb-\u003eResourceT a b)-\u003ea b",
@@ -1874,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "lgWrap",
           "package": "gitlib-libgit2",
@@ -1883,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "lgWrap",
           "normalized": "ReaderT LgRepo a b-\u003eReaderT LgRepo a b",
@@ -1898,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "mkOid",
           "package": "gitlib-libgit2",
@@ -1907,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "mkOid",
           "normalized": "ForeignPtr C'git_oid-\u003eOidPtr",
@@ -1922,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "oidToSha",
           "package": "gitlib-libgit2",
@@ -1931,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "oidToSha",
           "normalized": "Ptr C'git_oid-\u003eIO SHA",
@@ -1946,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "openLgRepository",
           "package": "gitlib-libgit2",
@@ -1955,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "openLgRepository",
           "normalized": "RepositoryOptions-\u003ea LgRepo",
@@ -1970,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "runLgRepository",
           "package": "gitlib-libgit2",
@@ -1979,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "runLgRepository",
           "normalized": "LgRepo-\u003eReaderT LgRepo a b-\u003ea b",
@@ -1994,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "shaToCOid",
           "package": "gitlib-libgit2",
@@ -2003,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "shaToCOid",
           "normalized": "SHA-\u003eIO(ForeignPtr C'git_oid)",
@@ -2018,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:37 UTC 2014",
           "module": "Git.Libgit2",
           "name": "shaToOid",
           "package": "gitlib-libgit2",
@@ -2027,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Git Libgit2",
+          "indexed": "2014-03-11T18:17:37",
           "module": "Git.Libgit2",
           "name": "shaToOid",
           "normalized": "SHA-\u003eIO OidPtr",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zeno"
+        "phrase": "zeno",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-sign"
+        "phrase": "cabal-sign",
+        "type": "phrase"
       },
       "type": "context"
     }

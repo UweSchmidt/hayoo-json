@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hlcm"
+        "phrase": "hlcm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:52 UTC 2014",
           "module": "HLCM",
           "name": "Frequency",
           "package": "hlcm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HLCM",
+          "indexed": "2014-03-11T18:40:52",
           "module": "HLCM",
           "name": "Frequency",
           "package": "hlcm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:52 UTC 2014",
           "module": "HLCM",
           "name": "Item",
           "package": "hlcm",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HLCM",
+          "indexed": "2014-03-11T18:40:52",
           "module": "HLCM",
           "name": "Item",
           "package": "hlcm",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "The transaction database as a big string. Transactions are separated by newlines, items are separated by spaces\nMinimum frequency threshold for the frequent itemsets\nvalue for parBuffer\ndepth for cutting parallelism\nOutput: list of closed frequent itemsets\n",
+          "indexed": "Tue Mar 11 18:40:52 UTC 2014",
           "module": "HLCM",
           "name": "benchLCM_parBuffer",
           "package": "hlcm",
@@ -71,6 +76,7 @@
         "index": {
           "description": "The transaction database as big string Transactions are separated by newlines items are separated by spaces Minimum frequency threshold for the frequent itemsets value for parBuffer depth for cutting parallelism Output list of closed frequent itemsets",
           "hierarchy": "HLCM",
+          "indexed": "2014-03-11T18:40:52",
           "module": "HLCM",
           "name": "benchLCM_parBuffer",
           "normalized": "ByteString-\u003eFrequency-\u003eInt-\u003eInt-\u003e[[Item]]",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "The transaction database as a big string. Transactions are separated by newlines, items are separated by spaces\nMinimum frequency threshold for the frequent itemsets\ndepth for cutting parallelism\nOutput: list of closed frequent itemsets\n",
+          "indexed": "Tue Mar 11 18:40:52 UTC 2014",
           "module": "HLCM",
           "name": "benchLCM_parMap",
           "package": "hlcm",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The transaction database as big string Transactions are separated by newlines items are separated by spaces Minimum frequency threshold for the frequent itemsets depth for cutting parallelism Output list of closed frequent itemsets",
           "hierarchy": "HLCM",
+          "indexed": "2014-03-11T18:40:52",
           "module": "HLCM",
           "name": "benchLCM_parMap",
           "normalized": "ByteString-\u003eFrequency-\u003eInt-\u003e[[Item]]",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "The transaction database as matrix of items (List of List)\nMinimum frequency threshold for the frequent itemsets\nOutput: list of closed frequent itemsets\n",
+          "indexed": "Tue Mar 11 18:40:52 UTC 2014",
           "module": "HLCM",
           "name": "runLCMmatrix",
           "package": "hlcm",
@@ -123,6 +132,7 @@
         "index": {
           "description": "The transaction database as matrix of items List of List Minimum frequency threshold for the frequent itemsets Output list of closed frequent itemsets",
           "hierarchy": "HLCM",
+          "indexed": "2014-03-11T18:40:52",
           "module": "HLCM",
           "name": "runLCMmatrix",
           "normalized": "[[Item]]-\u003eFrequency-\u003e[[Item]]",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "The transaction database as a big string. Transactions are separated by newlines, items are separated by spaces\nMinimum frequency threshold for the frequent itemsets\nOutput: list of closed frequent itemsets\n",
+          "indexed": "Tue Mar 11 18:40:52 UTC 2014",
           "module": "HLCM",
           "name": "runLCMstring",
           "package": "hlcm",
@@ -149,6 +160,7 @@
         "index": {
           "description": "The transaction database as big string Transactions are separated by newlines items are separated by spaces Minimum frequency threshold for the frequent itemsets Output list of closed frequent itemsets",
           "hierarchy": "HLCM",
+          "indexed": "2014-03-11T18:40:52",
           "module": "HLCM",
           "name": "runLCMstring",
           "normalized": "ByteString-\u003eFrequency-\u003e[[Item]]",

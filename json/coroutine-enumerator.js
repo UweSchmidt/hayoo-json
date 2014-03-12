@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "coroutine-enumerator"
+        "phrase": "coroutine-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a bridge between the Control.Monad.Coroutine and the Data.Enumerator monad transformers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:28 UTC 2014",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "Enumerator",
           "package": "coroutine-enumerator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides bridge between the Control.Monad.Coroutine and the Data.Enumerator monad transformers",
           "hierarchy": "Control Monad Coroutine Enumerator",
+          "indexed": "2014-03-11T17:41:28",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "Enumerator",
           "package": "coroutine-enumerator",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eCoroutine\u003c/a\u003e\u003c/code\u003e parameterized with the \u003ccode\u003e\u003ca\u003eYield\u003c/a\u003e\u003c/code\u003e functor into an \u003ccode\u003e\u003ca\u003eEnumerator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:28 UTC 2014",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "coroutineEnumerator",
           "package": "coroutine-enumerator",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Converts Coroutine parameterized with the Yield functor into an Enumerator",
           "hierarchy": "Control Monad Coroutine Enumerator",
+          "indexed": "2014-03-11T17:41:28",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "coroutineEnumerator",
           "normalized": "Coroutine(Yield[a])b c-\u003eEnumerator a b d",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eCoroutine\u003c/a\u003e\u003c/code\u003e parameterized with the \u003ccode\u003e\u003ca\u003eAwait\u003c/a\u003e\u003c/code\u003e [x] functor, treating an empty input chunk as \u003ccode\u003e\u003ca\u003eEOF\u003c/a\u003e\u003c/code\u003e, into an\n \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:28 UTC 2014",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "coroutineIteratee",
           "package": "coroutine-enumerator",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Converts Coroutine parameterized with the Await functor treating an empty input chunk as EOF into an Iteratee",
           "hierarchy": "Control Monad Coroutine Enumerator",
+          "indexed": "2014-03-11T17:41:28",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "coroutineIteratee",
           "normalized": "Coroutine(Await[a])b(Either SomeException(c,[a]))-\u003eIteratee a b c",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eEnumerator\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eCoroutine\u003c/a\u003e\u003c/code\u003e parameterized with the \u003ccode\u003e\u003ca\u003eYield\u003c/a\u003e\u003c/code\u003e functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:28 UTC 2014",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "enumeratorCoroutine",
           "package": "coroutine-enumerator",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Converts an Enumerator into Coroutine parameterized with the Yield functor",
           "hierarchy": "Control Monad Coroutine Enumerator",
+          "indexed": "2014-03-11T17:41:28",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "enumeratorCoroutine",
           "normalized": "Enumerator a(Coroutine(Yield[a])b)()-\u003eCoroutine(Yield[a])b()",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eCoroutine\u003c/a\u003e\u003c/code\u003e parameterized with the \u003ccode\u003e\u003ca\u003eAwait\u003c/a\u003e\u003c/code\u003e [x] functor. The coroutine treats an empty\n input chunk as \u003ccode\u003e\u003ca\u003eEOF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:28 UTC 2014",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "iterateeCoroutine",
           "package": "coroutine-enumerator",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Converts an Iteratee into Coroutine parameterized with the Await functor The coroutine treats an empty input chunk as EOF",
           "hierarchy": "Control Monad Coroutine Enumerator",
+          "indexed": "2014-03-11T17:41:28",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "iterateeCoroutine",
           "normalized": "Iteratee a b c-\u003eCoroutine(Await[a])b(Either SomeException(c,[a]))",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eCoroutine\u003c/a\u003e\u003c/code\u003e parameterized with the \u003ccode\u003e\u003ca\u003eAwait\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e x) functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:28 UTC 2014",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "iterateeStreamCoroutine",
           "package": "coroutine-enumerator",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Converts an Iteratee into Coroutine parameterized with the Await Stream functor",
           "hierarchy": "Control Monad Coroutine Enumerator",
+          "indexed": "2014-03-11T17:41:28",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "iterateeStreamCoroutine",
           "normalized": "Iteratee a b c-\u003eCoroutine(Await(Stream a))b(Either SomeException(c,Stream a))",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eCoroutine\u003c/a\u003e\u003c/code\u003e parameterized with the \u003ccode\u003e\u003ca\u003eAwait\u003c/a\u003e\u003c/code\u003e functor into an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:28 UTC 2014",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "streamCoroutineIteratee",
           "package": "coroutine-enumerator",
@@ -182,6 +195,7 @@
         "index": {
           "description": "Converts Coroutine parameterized with the Await functor into an Iteratee",
           "hierarchy": "Control Monad Coroutine Enumerator",
+          "indexed": "2014-03-11T17:41:28",
           "module": "Control.Monad.Coroutine.Enumerator",
           "name": "streamCoroutineIteratee",
           "normalized": "Coroutine(Await(Stream a))b(Either SomeException(c,Stream a))-\u003eIteratee a b c",

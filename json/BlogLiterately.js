@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BlogLiterately"
+        "phrase": "BlogLiterately",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with code blocks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Block",
           "name": "Block",
           "package": "BlogLiterately",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Utilities for working with code blocks",
           "hierarchy": "Text BlogLiterately Block",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Block",
           "name": "Block",
           "package": "BlogLiterately",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given function on the attributes and source code of code\n   blocks with a tag matching the given tag (case insensitive).  On\n   any other blocks (which don't have a matching tag, or are not code\n   blocks), run the other function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Block",
           "name": "onTag",
           "package": "BlogLiterately",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Run the given function on the attributes and source code of code blocks with tag matching the given tag case insensitive On any other blocks which don have matching tag or are not code blocks run the other function",
           "hierarchy": "Text BlogLiterately Block",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Block",
           "name": "onTag",
           "normalized": "String-\u003e(Attr-\u003eString-\u003ea)-\u003e(Block-\u003ea)-\u003eBlock-\u003ea",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a block, if begins with a tag in square brackets, strip off\n   the tag and return a pair consisting of the tag and de-tagged\n   block.  Otherwise, return \u003ccode\u003eNothing\u003c/code\u003e and the unchanged block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Block",
           "name": "unTag",
           "package": "BlogLiterately",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Given block if begins with tag in square brackets strip off the tag and return pair consisting of the tag and de-tagged block Otherwise return Nothing and the unchanged block",
           "hierarchy": "Text BlogLiterately Block",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Block",
           "name": "unTag",
           "normalized": "String-\u003e(Maybe String,String)",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormat specially marked blocks as interactive ghci sessions.  Uses\n some ugly but effective code for interacting with an external ghci\n process taken from lhs2TeX.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "Ghci",
           "package": "BlogLiterately",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Format specially marked blocks as interactive ghci sessions Uses some ugly but effective code for interacting with an external ghci process taken from lhs2TeX",
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "Ghci",
           "package": "BlogLiterately",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a running process: stdin, stdout, stderr, and a\n   handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "ProcessInfo",
           "package": "BlogLiterately",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Information about running process stdin stdout stderr and handle",
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "ProcessInfo",
           "package": "BlogLiterately",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "breaks",
           "package": "BlogLiterately",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "breaks",
           "normalized": "([a]-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "extract",
           "package": "BlogLiterately",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "extract",
           "normalized": "String-\u003eString",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "extract'",
           "package": "BlogLiterately",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "extract'",
           "normalized": "Handle-\u003eIO String",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the path to the \u003ccode\u003e.lhs\u003c/code\u003e source and its representation as a\n   \u003ccode\u003ePandoc\u003c/code\u003e document, \u003ccode\u003eformatInlineGhci\u003c/code\u003e finds any \u003ccode\u003e[ghci]\u003c/code\u003e blocks\n   in it, runs them through \u003ccode\u003eghci\u003c/code\u003e, and formats the results as an\n   interactive \u003ccode\u003eghci\u003c/code\u003e session.\n\u003c/p\u003e\u003cp\u003eLines beginning in the first column of the block are interpreted\n   as inputs.  Lines indented by one or more space are interpreted\n   as \u003cem\u003eexpected outputs\u003c/em\u003e.  Consecutive indented lines are\n   interpreted as one multi-line expected output, with a number of\n   spaces removed from the beginning of each line equal to the\n   number of spaces at the start of the first indented line.\n\u003c/p\u003e\u003cp\u003eIf the output for a given input is the same as the expected\n   output (or if no expected output is given), the result is typeset\n   normally.  If the actual and expected outputs differ, the actual\n   output is typeset first in red, then the expected output in blue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "formatInlineGhci",
           "package": "BlogLiterately",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Given the path to the lhs source and its representation as Pandoc document formatInlineGhci finds any ghci blocks in it runs them through ghci and formats the results as an interactive ghci session Lines beginning in the first column of the block are interpreted as inputs Lines indented by one or more space are interpreted as expected outputs Consecutive indented lines are interpreted as one multi-line expected output with number of spaces removed from the beginning of each line equal to the number of spaces at the start of the first indented line If the output for given input is the same as the expected output or if no expected output is given the result is typeset normally If the actual and expected outputs differ the actual output is typeset first in red then the expected output in blue",
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "formatInlineGhci",
           "normalized": "FilePath-\u003ePandoc-\u003eIO Pandoc",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an expression using an external \u003ccode\u003eghci\u003c/code\u003e process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "ghciEval",
           "package": "BlogLiterately",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Evaluate an expression using an external ghci process",
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "ghciEval",
           "normalized": "GhciInput-\u003eReaderT ProcessInfo IO GhciOutput",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoor man's check to see whether we have a literate Haskell file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "isLiterate",
           "package": "BlogLiterately",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Poor man check to see whether we have literate Haskell file",
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "isLiterate",
           "normalized": "String-\u003eBool",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is nothing magic about the magic string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "magic",
           "package": "BlogLiterately",
@@ -297,6 +320,7 @@
         "index": {
           "description": "There is nothing magic about the magic string",
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "magic",
           "package": "BlogLiterately",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop a ghci process by passing it \u003ccode\u003e:q\u003c/code\u003e and waiting for it to exit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "stopGhci",
           "package": "BlogLiterately",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Stop ghci process by passing it and waiting for it to exit",
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "stopGhci",
           "normalized": "ProcessInfo-\u003eIO()",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart an external ghci process, run a computation with access to\n   it, and finally stop the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Ghci",
           "name": "withGhciProcess",
           "package": "BlogLiterately",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Start an external ghci process run computation with access to it and finally stop the process",
           "hierarchy": "Text BlogLiterately Ghci",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Ghci",
           "name": "withGhciProcess",
           "normalized": "FilePath-\u003eReaderT ProcessInfo IO a-\u003eIO a",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSyntax highlighting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "Highlight",
           "package": "BlogLiterately",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Syntax highlighting",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "Highlight",
           "package": "BlogLiterately",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour modes for highlighting Haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsHighlight",
           "package": "BlogLiterately",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Four modes for highlighting Haskell",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsHighlight",
           "package": "BlogLiterately",
@@ -408,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle preferences are specified as a list of mappings from class\n   attributes to CSS style attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "StylePrefs",
           "package": "BlogLiterately",
@@ -417,6 +450,7 @@
         "index": {
           "description": "Style preferences are specified as list of mappings from class attributes to CSS style attributes",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "StylePrefs",
           "package": "BlogLiterately",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse hscolour in conjunction with\n   an external CSS style sheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsColourCSS",
           "package": "BlogLiterately",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Use hscolour in conjunction with an external CSS style sheet",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsColourCSS",
           "package": "BlogLiterately",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse hscolour and inline the styles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsColourInline",
           "package": "BlogLiterately",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Use hscolour and inline the styles",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsColourInline",
           "package": "BlogLiterately",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse highlighting-kate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsKate",
           "package": "BlogLiterately",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Use highlighting-kate",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsKate",
           "package": "BlogLiterately",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not highlight Haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsNoHighlight",
           "package": "BlogLiterately",
@@ -513,6 +554,7 @@
         "index": {
           "description": "Do not highlight Haskell",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "HsNoHighlight",
           "package": "BlogLiterately",
@@ -526,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "_HsColourInline",
           "package": "BlogLiterately",
@@ -535,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "_HsColourInline",
           "package": "BlogLiterately",
@@ -549,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a \u003ccode\u003eString\u003c/code\u003e of HTML produced by hscolour, and \"bake\" styles\n   into it by replacing class attributes with appropriate style\n   attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "bakeStyles",
           "package": "BlogLiterately",
@@ -559,6 +604,7 @@
         "index": {
           "description": "Take String of HTML produced by hscolour and bake styles into it by replacing class attributes with appropriate style attributes",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "bakeStyles",
           "normalized": "StylePrefs-\u003eString-\u003eString",
@@ -575,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse hscolour to syntax highlight some Haskell code.  The first\n argument indicates whether the code is literate Haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "colourIt",
           "package": "BlogLiterately",
@@ -585,6 +632,7 @@
         "index": {
           "description": "Use hscolour to syntax highlight some Haskell code The first argument indicates whether the code is literate Haskell",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "colourIt",
           "normalized": "Bool-\u003eString-\u003eString",
@@ -601,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a \u003ccode\u003eCodeBlock\u003c/code\u003e into a \u003ccode\u003eRawHtml\u003c/code\u003e block, where\n   the content contains marked up Haskell (possibly with literate\n   markers), or marked up non-Haskell, if highlighting of non-Haskell has\n   been selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "colouriseCodeBlock",
           "package": "BlogLiterately",
@@ -611,6 +660,7 @@
         "index": {
           "description": "Transform CodeBlock into RawHtml block where the content contains marked up Haskell possibly with literate markers or marked up non-Haskell if highlighting of non-Haskell has been selected",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "colouriseCodeBlock",
           "normalized": "HsHighlight-\u003eBool-\u003eBlock-\u003eBlock",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform syntax highlighting on an entire Pandoc document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "colourisePandoc",
           "package": "BlogLiterately",
@@ -637,6 +688,7 @@
         "index": {
           "description": "Perform syntax highlighting on an entire Pandoc document",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "colourisePandoc",
           "normalized": "HsHighlight-\u003eBool-\u003ePandoc-\u003ePandoc",
@@ -653,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default style that produces something that looks like the\n   source listings on Hackage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "defaultStylePrefs",
           "package": "BlogLiterately",
@@ -663,6 +716,7 @@
         "index": {
           "description": "default style that produces something that looks like the source listings on Hackage",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "defaultStylePrefs",
           "package": "BlogLiterately",
@@ -677,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead style preferences in from a file using the \u003ccode\u003eRead\u003c/code\u003e instance\n   for \u003ccode\u003eStylePrefs\u003c/code\u003e, or return the default style if the file name is\n   empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "getStylePrefs",
           "package": "BlogLiterately",
@@ -687,6 +742,7 @@
         "index": {
           "description": "Read style preferences in from file using the Read instance for StylePrefs or return the default style if the file name is empty",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "getStylePrefs",
           "normalized": "Maybe FilePath-\u003eIO StylePrefs",
@@ -703,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend literate Haskell markers to some source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "litify",
           "package": "BlogLiterately",
@@ -713,6 +770,7 @@
         "index": {
           "description": "Prepend literate Haskell markers to some source code",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "litify",
           "normalized": "String-\u003eString",
@@ -728,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace \u003ccode\u003e\u003cbr/\u003e\u003c/code\u003e tags with newlines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Highlight",
           "name": "replaceBreaks",
           "package": "BlogLiterately",
@@ -738,6 +797,7 @@
         "index": {
           "description": "Replace br tags with newlines",
           "hierarchy": "Text BlogLiterately Highlight",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Highlight",
           "name": "replaceBreaks",
           "normalized": "String-\u003eString",
@@ -754,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUploading images embedded in posts to the server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Image",
           "name": "Image",
           "package": "BlogLiterately",
@@ -763,6 +824,7 @@
         "index": {
           "description": "Uploading images embedded in posts to the server",
           "hierarchy": "Text BlogLiterately Image",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Image",
           "name": "Image",
           "package": "BlogLiterately",
@@ -777,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a file for upload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Image",
           "name": "mkMediaObject",
           "package": "BlogLiterately",
@@ -787,6 +850,7 @@
         "index": {
           "description": "Prepare file for upload",
           "hierarchy": "Text BlogLiterately Image",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Image",
           "name": "mkMediaObject",
           "normalized": "FilePath-\u003eIO(Maybe Value)",
@@ -803,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a document by uploading any \"local\" images to the\n   server, and replacing their filenames with the URLs returned by\n   the server.  Only upload any given image once (determined by file\n   name), even across runs: uploaded images and their associated URL\n   on the server is tracked in a special dotfile,\n   \u003ccode\u003e.BlogLiterately-uploaded-images\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Image",
           "name": "uploadAllImages",
           "package": "BlogLiterately",
@@ -813,6 +878,7 @@
         "index": {
           "description": "Transform document by uploading any local images to the server and replacing their filenames with the URLs returned by the server Only upload any given image once determined by file name even across runs uploaded images and their associated URL on the server is tracked in special dotfile BlogLiterately-uploaded-images",
           "hierarchy": "Text BlogLiterately Image",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Image",
           "name": "uploadAllImages",
           "normalized": "BlogLiterately-\u003ePandoc-\u003eIO Pandoc",
@@ -829,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpload a file using the \u003ccode\u003emetaWeblog.newMediaObject\u003c/code\u003e XML-RPC method\n   call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Image",
           "name": "uploadIt",
           "package": "BlogLiterately",
@@ -839,6 +906,7 @@
         "index": {
           "description": "Upload file using the metaWeblog.newMediaObject XML-RPC method call",
           "hierarchy": "Text BlogLiterately Image",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Image",
           "name": "uploadIt",
           "normalized": "String-\u003eFilePath-\u003eBlogLiterately-\u003eIO(Maybe Value)",
@@ -855,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with embedded LaTeX.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.LaTeX",
           "name": "LaTeX",
           "package": "BlogLiterately",
@@ -864,6 +933,7 @@
         "index": {
           "description": "Utilities for working with embedded LaTeX",
           "hierarchy": "Text BlogLiterately LaTeX",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.LaTeX",
           "name": "LaTeX",
           "package": "BlogLiterately",
@@ -878,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWordPress can render LaTeX, but expects it in a special non-standard\n   format (\u003ccode\u003e$latex foo$\u003c/code\u003e).  The \u003ccode\u003ewpTeXify\u003c/code\u003e function formats LaTeX code\n   using this format so that it can be processed by WordPress.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.LaTeX",
           "name": "wpTeXify",
           "package": "BlogLiterately",
@@ -888,6 +959,7 @@
         "index": {
           "description": "WordPress can render LaTeX but expects it in special non-standard format latex foo The wpTeXify function formats LaTeX code using this format so that it can be processed by WordPress",
           "hierarchy": "Text BlogLiterately LaTeX",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.LaTeX",
           "name": "wpTeXify",
           "normalized": "Pandoc-\u003ePandoc",
@@ -904,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing configuration options from special \u003ccode\u003e[BLOpts]\u003c/code\u003e blocks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options.Parse",
           "name": "Parse",
           "package": "BlogLiterately",
@@ -913,6 +986,7 @@
         "index": {
           "description": "Parsing configuration options from special BLOpts blocks",
           "hierarchy": "Text BlogLiterately Options Parse",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options.Parse",
           "name": "Parse",
           "package": "BlogLiterately",
@@ -927,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single line from a \u003ccode\u003e[BLOpts]\u003c/code\u003e block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options.Parse",
           "name": "parseBLOption",
           "package": "BlogLiterately",
@@ -937,6 +1012,7 @@
         "index": {
           "description": "Parse single line from BLOpts block",
           "hierarchy": "Text BlogLiterately Options Parse",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options.Parse",
           "name": "parseBLOption",
           "package": "BlogLiterately",
@@ -951,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single line from a \u003ccode\u003e[BLOpts]\u003c/code\u003e block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options.Parse",
           "name": "readBLOption",
           "package": "BlogLiterately",
@@ -961,6 +1038,7 @@
         "index": {
           "description": "Read single line from BLOpts block",
           "hierarchy": "Text BlogLiterately Options Parse",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options.Parse",
           "name": "readBLOption",
           "normalized": "String-\u003eEither ParseError BlogLiterately",
@@ -977,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the contents of a \u003ccode\u003e[BLOpts]\u003c/code\u003e block into an options record\n   and a list of parse errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options.Parse",
           "name": "readBLOptions",
           "package": "BlogLiterately",
@@ -987,6 +1066,7 @@
         "index": {
           "description": "Convert the contents of BLOpts block into an options record and list of parse errors",
           "hierarchy": "Text BlogLiterately Options Parse",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options.Parse",
           "name": "readBLOptions",
           "normalized": "String-\u003e([ParseError],BlogLiterately)",
@@ -1003,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConfiguation and command-line options.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "Options",
           "package": "BlogLiterately",
@@ -1012,6 +1093,7 @@
         "index": {
           "description": "Configuation and command-line options",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "Options",
           "package": "BlogLiterately",
@@ -1026,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration record (and command-line options) for \u003ccode\u003eBlogLiterately\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "BlogLiterately",
           "package": "BlogLiterately",
@@ -1035,6 +1118,7 @@
         "index": {
           "description": "Configuration record and command-line options for BlogLiterately",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "BlogLiterately",
           "package": "BlogLiterately",
@@ -1048,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "BlogLiterately",
           "package": "BlogLiterately",
@@ -1057,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "BlogLiterately",
           "package": "BlogLiterately",
@@ -1071,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlog xmlrpc URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_blog",
           "package": "BlogLiterately",
@@ -1081,6 +1168,7 @@
         "index": {
           "description": "Blog xmlrpc URL",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_blog",
           "package": "BlogLiterately",
@@ -1094,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlog-specific identifier\n   (e.g. for blogging software\n   handling multiple blogs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_blogid",
           "package": "BlogLiterately",
@@ -1104,6 +1193,7 @@
         "index": {
           "description": "Blog-specific identifier e.g for blogging software handling multiple blogs",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_blogid",
           "package": "BlogLiterately",
@@ -1117,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategories for the post\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_categories",
           "package": "BlogLiterately",
@@ -1127,6 +1218,7 @@
         "index": {
           "description": "Categories for the post",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_categories",
           "normalized": "[String]",
@@ -1142,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess citations? (default: true)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_citations",
           "package": "BlogLiterately",
@@ -1152,6 +1245,7 @@
         "index": {
           "description": "Process citations default true",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_citations",
           "package": "BlogLiterately",
@@ -1165,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile to post\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_file",
           "package": "BlogLiterately",
@@ -1175,6 +1270,7 @@
         "index": {
           "description": "File to post",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_file",
           "package": "BlogLiterately",
@@ -1188,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat of the file\n   (currently supported:\n   markdown, rst)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_format",
           "package": "BlogLiterately",
@@ -1198,6 +1295,7 @@
         "index": {
           "description": "Format of the file currently supported markdown rst",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_format",
           "package": "BlogLiterately",
@@ -1211,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomatically process ghci sessions?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_ghci",
           "package": "BlogLiterately",
@@ -1221,6 +1320,7 @@
         "index": {
           "description": "Automatically process ghci sessions",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_ghci",
           "package": "BlogLiterately",
@@ -1234,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell highlighting mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_hsHighlight",
           "package": "BlogLiterately",
@@ -1244,6 +1345,7 @@
         "index": {
           "description": "Haskell highlighting mode",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_hsHighlight",
           "package": "BlogLiterately",
@@ -1258,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't upload anything;\n   just output HTML to\n   stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_htmlOnly",
           "package": "BlogLiterately",
@@ -1268,6 +1371,7 @@
         "index": {
           "description": "Don upload anything just output HTML to stdout",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_htmlOnly",
           "package": "BlogLiterately",
@@ -1282,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate how to format math\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_math",
           "package": "BlogLiterately",
@@ -1292,6 +1397,7 @@
         "index": {
           "description": "Indicate how to format math",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_math",
           "package": "BlogLiterately",
@@ -1305,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse highlighting-kate for\n   non-Haskell?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_otherHighlight",
           "package": "BlogLiterately",
@@ -1315,6 +1422,7 @@
         "index": {
           "description": "Use highlighting-kate for non-Haskell",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_otherHighlight",
           "package": "BlogLiterately",
@@ -1329,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \"page\" instead of a post\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_page",
           "package": "BlogLiterately",
@@ -1339,6 +1448,7 @@
         "index": {
           "description": "Create page instead of post",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_page",
           "package": "BlogLiterately",
@@ -1352,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlog password (omit to be interactively prompted)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_password",
           "package": "BlogLiterately",
@@ -1362,6 +1473,7 @@
         "index": {
           "description": "Blog password omit to be interactively prompted",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_password",
           "package": "BlogLiterately",
@@ -1375,6 +1487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of a post to update\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_postid",
           "package": "BlogLiterately",
@@ -1385,6 +1498,7 @@
         "index": {
           "description": "ID of post to update",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_postid",
           "package": "BlogLiterately",
@@ -1398,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of profile to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_profile",
           "package": "BlogLiterately",
@@ -1408,6 +1523,7 @@
         "index": {
           "description": "Name of profile to use",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_profile",
           "package": "BlogLiterately",
@@ -1421,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould the post be published?\n   (Otherwise it is uploaded as a draft.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_publish",
           "package": "BlogLiterately",
@@ -1431,6 +1548,7 @@
         "index": {
           "description": "Should the post be published Otherwise it is uploaded as draft",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_publish",
           "package": "BlogLiterately",
@@ -1444,6 +1562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of a style file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_style",
           "package": "BlogLiterately",
@@ -1454,6 +1573,7 @@
         "index": {
           "description": "Name of style file",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_style",
           "package": "BlogLiterately",
@@ -1467,6 +1587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTags for the post\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_tags",
           "package": "BlogLiterately",
@@ -1477,6 +1598,7 @@
         "index": {
           "description": "Tags for the post",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_tags",
           "normalized": "[String]",
@@ -1492,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_title",
           "package": "BlogLiterately",
@@ -1502,6 +1625,7 @@
         "index": {
           "description": "Post title",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_title",
           "package": "BlogLiterately",
@@ -1515,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a table of contents?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_toc",
           "package": "BlogLiterately",
@@ -1525,6 +1650,7 @@
         "index": {
           "description": "Generate table of contents",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_toc",
           "package": "BlogLiterately",
@@ -1538,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomatically upload images?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_uploadImages",
           "package": "BlogLiterately",
@@ -1548,6 +1675,7 @@
         "index": {
           "description": "Automatically upload images",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_uploadImages",
           "package": "BlogLiterately",
@@ -1562,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlog user name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_user",
           "package": "BlogLiterately",
@@ -1572,6 +1701,7 @@
         "index": {
           "description": "Blog user name",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_user",
           "package": "BlogLiterately",
@@ -1585,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat LaTeX for WordPress?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_wplatex",
           "package": "BlogLiterately",
@@ -1595,6 +1726,7 @@
         "index": {
           "description": "Format LaTeX for WordPress",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_wplatex",
           "package": "BlogLiterately",
@@ -1608,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtension arguments, for use e.g. by\n   custom transforms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "_xtra",
           "package": "BlogLiterately",
@@ -1618,6 +1751,7 @@
         "index": {
           "description": "Extension arguments for use e.g by custom transforms",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "_xtra",
           "normalized": "[String]",
@@ -1633,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand-line configuration for use with \u003ccode\u003ecmdargs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "blOpts",
           "package": "BlogLiterately",
@@ -1643,6 +1778,7 @@
         "index": {
           "description": "Command-line configuration for use with cmdargs",
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "blOpts",
           "package": "BlogLiterately",
@@ -1656,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "blog",
           "package": "BlogLiterately",
@@ -1665,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "blog",
           "package": "BlogLiterately",
@@ -1677,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "blog'",
           "package": "BlogLiterately",
@@ -1686,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "blog'",
           "normalized": "BlogLiterately-\u003eString",
@@ -1700,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "blogid",
           "package": "BlogLiterately",
@@ -1709,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "blogid",
           "package": "BlogLiterately",
@@ -1721,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "blogid'",
           "package": "BlogLiterately",
@@ -1730,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "blogid'",
           "normalized": "BlogLiterately-\u003eString",
@@ -1744,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "categories",
           "package": "BlogLiterately",
@@ -1753,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "categories",
           "normalized": "Lens' BlogLiterately[String]",
@@ -1767,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "citations",
           "package": "BlogLiterately",
@@ -1776,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "citations",
           "package": "BlogLiterately",
@@ -1788,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "citations'",
           "package": "BlogLiterately",
@@ -1797,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "citations'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -1811,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "file",
           "package": "BlogLiterately",
@@ -1820,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "file",
           "package": "BlogLiterately",
@@ -1832,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "file'",
           "package": "BlogLiterately",
@@ -1841,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "file'",
           "normalized": "BlogLiterately-\u003eString",
@@ -1855,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "format",
           "package": "BlogLiterately",
@@ -1864,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "format",
           "package": "BlogLiterately",
@@ -1876,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "format'",
           "package": "BlogLiterately",
@@ -1885,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "format'",
           "normalized": "BlogLiterately-\u003eString",
@@ -1899,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "ghci",
           "package": "BlogLiterately",
@@ -1908,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "ghci",
           "package": "BlogLiterately",
@@ -1920,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "ghci'",
           "package": "BlogLiterately",
@@ -1929,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "ghci'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -1943,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "hsHighlight",
           "package": "BlogLiterately",
@@ -1952,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "hsHighlight",
           "package": "BlogLiterately",
@@ -1965,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "hsHighlight'",
           "package": "BlogLiterately",
@@ -1974,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "hsHighlight'",
           "normalized": "BlogLiterately-\u003eHsHighlight",
@@ -1989,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "htmlOnly",
           "package": "BlogLiterately",
@@ -1998,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "htmlOnly",
           "package": "BlogLiterately",
@@ -2011,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "htmlOnly'",
           "package": "BlogLiterately",
@@ -2020,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "htmlOnly'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -2035,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "math",
           "package": "BlogLiterately",
@@ -2044,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "math",
           "package": "BlogLiterately",
@@ -2056,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "math'",
           "package": "BlogLiterately",
@@ -2065,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "math'",
           "normalized": "BlogLiterately-\u003eString",
@@ -2079,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "otherHighlight",
           "package": "BlogLiterately",
@@ -2088,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "otherHighlight",
           "package": "BlogLiterately",
@@ -2101,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "otherHighlight'",
           "package": "BlogLiterately",
@@ -2110,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "otherHighlight'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -2125,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "page",
           "package": "BlogLiterately",
@@ -2134,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "page",
           "package": "BlogLiterately",
@@ -2146,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "page'",
           "package": "BlogLiterately",
@@ -2155,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "page'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -2169,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "password",
           "package": "BlogLiterately",
@@ -2178,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "password",
           "package": "BlogLiterately",
@@ -2190,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "password'",
           "package": "BlogLiterately",
@@ -2199,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "password'",
           "normalized": "BlogLiterately-\u003eString",
@@ -2213,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "postid",
           "package": "BlogLiterately",
@@ -2222,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "postid",
           "package": "BlogLiterately",
@@ -2234,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "postid'",
           "package": "BlogLiterately",
@@ -2243,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "postid'",
           "normalized": "BlogLiterately-\u003eString",
@@ -2257,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "profile",
           "package": "BlogLiterately",
@@ -2266,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "profile",
           "package": "BlogLiterately",
@@ -2278,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "profile'",
           "package": "BlogLiterately",
@@ -2287,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "profile'",
           "normalized": "BlogLiterately-\u003eString",
@@ -2301,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "publish",
           "package": "BlogLiterately",
@@ -2310,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "publish",
           "package": "BlogLiterately",
@@ -2322,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "publish'",
           "package": "BlogLiterately",
@@ -2331,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "publish'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -2345,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "style",
           "package": "BlogLiterately",
@@ -2354,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "style",
           "package": "BlogLiterately",
@@ -2366,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "style'",
           "package": "BlogLiterately",
@@ -2375,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "style'",
           "normalized": "BlogLiterately-\u003eString",
@@ -2389,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "tags",
           "package": "BlogLiterately",
@@ -2398,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "tags",
           "normalized": "Lens' BlogLiterately[String]",
@@ -2412,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "title",
           "package": "BlogLiterately",
@@ -2421,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "title",
           "package": "BlogLiterately",
@@ -2433,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "title'",
           "package": "BlogLiterately",
@@ -2442,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "title'",
           "normalized": "BlogLiterately-\u003eString",
@@ -2456,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "toc",
           "package": "BlogLiterately",
@@ -2465,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "toc",
           "package": "BlogLiterately",
@@ -2477,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "toc'",
           "package": "BlogLiterately",
@@ -2486,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "toc'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -2500,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "uploadImages",
           "package": "BlogLiterately",
@@ -2509,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "uploadImages",
           "package": "BlogLiterately",
@@ -2522,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "uploadImages'",
           "package": "BlogLiterately",
@@ -2531,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "uploadImages'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -2546,6 +2762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "user",
           "package": "BlogLiterately",
@@ -2555,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "user",
           "package": "BlogLiterately",
@@ -2567,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "user'",
           "package": "BlogLiterately",
@@ -2576,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "user'",
           "normalized": "BlogLiterately-\u003eString",
@@ -2590,6 +2810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "wplatex",
           "package": "BlogLiterately",
@@ -2599,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "wplatex",
           "package": "BlogLiterately",
@@ -2611,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "wplatex'",
           "package": "BlogLiterately",
@@ -2620,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "wplatex'",
           "normalized": "BlogLiterately-\u003eBool",
@@ -2634,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Options",
           "name": "xtra",
           "package": "BlogLiterately",
@@ -2643,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Options",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Options",
           "name": "xtra",
           "normalized": "Lens' BlogLiterately[String]",
@@ -2658,6 +2884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUploading posts to the server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Post",
           "name": "Post",
           "package": "BlogLiterately",
@@ -2667,6 +2894,7 @@
         "index": {
           "description": "Uploading posts to the server",
           "hierarchy": "Text BlogLiterately Post",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Post",
           "name": "Post",
           "package": "BlogLiterately",
@@ -2681,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a name and a list of values, create a named \"array\" field\n   suitable for inclusion in an XML-RPC struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Post",
           "name": "mkArray",
           "package": "BlogLiterately",
@@ -2691,6 +2920,7 @@
         "index": {
           "description": "Given name and list of values create named array field suitable for inclusion in an XML-RPC struct",
           "hierarchy": "Text BlogLiterately Post",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Post",
           "name": "mkArray",
           "normalized": "String-\u003e[a]-\u003e[(String,Value)]",
@@ -2707,6 +2937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a post for uploading by creating something of the proper\n   form to be an argument to an XML-RPC call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Post",
           "name": "mkPost",
           "package": "BlogLiterately",
@@ -2716,6 +2947,7 @@
         "index": {
           "description": "Prepare post for uploading by creating something of the proper form to be an argument to an XML-RPC call",
           "hierarchy": "Text BlogLiterately Post",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Post",
           "name": "mkPost",
           "normalized": "String-\u003eString-\u003e[String]-\u003e[String]-\u003eBool-\u003e[(String,Value)]",
@@ -2732,6 +2964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a configuration and a formatted post, upload it to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Post",
           "name": "postIt",
           "package": "BlogLiterately",
@@ -2742,6 +2975,7 @@
         "index": {
           "description": "Given configuration and formatted post upload it to the server",
           "hierarchy": "Text BlogLiterately Post",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Post",
           "name": "postIt",
           "normalized": "BlogLiterately-\u003eString-\u003eIO()",
@@ -2758,6 +2992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for creating \u003ccode\u003eBlogLiterately\u003c/code\u003e executables.  By default,\n installing this library results in the installation of a standard\n executable, called \u003ccode\u003eBlogLiterately\u003c/code\u003e, which corresponds to\n \u003ccode\u003e\u003ca\u003eblogLiterately\u003c/a\u003e\u003c/code\u003e from this module.  However, you can create your\n own custom executables with extra custom functionality using\n \u003ccode\u003e\u003ca\u003eblogLiteratelyWith\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eblogLiteratelyCustom\u003c/a\u003e\u003c/code\u003e.  For example:\n\u003c/p\u003e\u003cpre\u003e module Main where\n import Text.BlogLiterately\n\n myCustomXF1 = pureTransform ...\n myCustomXF2 = Transform ...\n main = blogLiteratelyWith [myCustomXF1, myCustomXF2]\n\u003c/pre\u003e\u003cp\u003eSee \u003ca\u003eText.BlogLiterately.Transform\u003c/a\u003e for examples of transforms,\n additional transforms which are not enabled by default, and help in\n creating your own.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Run",
           "name": "Run",
           "package": "BlogLiterately",
@@ -2767,6 +3002,7 @@
         "index": {
           "description": "Functions for creating BlogLiterately executables By default installing this library results in the installation of standard executable called BlogLiterately which corresponds to blogLiterately from this module However you can create your own custom executables with extra custom functionality using blogLiteratelyWith or blogLiteratelyCustom For example module Main where import Text.BlogLiterately myCustomXF1 pureTransform myCustomXF2 Transform main blogLiteratelyWith myCustomXF1 myCustomXF2 See Text.BlogLiterately.Transform for examples of transforms additional transforms which are not enabled by default and help in creating your own",
           "hierarchy": "Text BlogLiterately Run",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Run",
           "name": "Run",
           "package": "BlogLiterately",
@@ -2781,6 +3017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default BlogLiterately application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Run",
           "name": "blogLiterately",
           "package": "BlogLiterately",
@@ -2791,6 +3028,7 @@
         "index": {
           "description": "The default BlogLiterately application",
           "hierarchy": "Text BlogLiterately Run",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Run",
           "name": "blogLiterately",
           "normalized": "IO()",
@@ -2807,6 +3045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eblogLiterately\u003c/a\u003e\u003c/code\u003e, but with the ability to \u003cem\u003ereplace\u003c/em\u003e the\n   standard \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003es.  Use this to implement custom interleaving\n   orders of the standard transforms and your own, to exclude some\n   or all of the standard transforms, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Run",
           "name": "blogLiteratelyCustom",
           "package": "BlogLiterately",
@@ -2817,6 +3056,7 @@
         "index": {
           "description": "Like blogLiterately but with the ability to replace the standard Transform Use this to implement custom interleaving orders of the standard transforms and your own to exclude some or all of the standard transforms etc",
           "hierarchy": "Text BlogLiterately Run",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Run",
           "name": "blogLiteratelyCustom",
           "normalized": "[Transform]-\u003eIO()",
@@ -2833,6 +3073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eblogLiterately\u003c/a\u003e\u003c/code\u003e, but with the ability to specify additional\n \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003es which will be applied \u003cem\u003eafter\u003c/em\u003e the standard ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Run",
           "name": "blogLiteratelyWith",
           "package": "BlogLiterately",
@@ -2843,6 +3084,7 @@
         "index": {
           "description": "Like blogLiterately but with the ability to specify additional Transform which will be applied after the standard ones",
           "hierarchy": "Text BlogLiterately Run",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Run",
           "name": "blogLiteratelyWith",
           "normalized": "[Transform]-\u003eIO()",
@@ -2859,6 +3101,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools for putting together a pipeline transforming the source for a\n post into a completely formatted HTML document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "Transform",
           "package": "BlogLiterately",
@@ -2868,6 +3111,7 @@
         "index": {
           "description": "Tools for putting together pipeline transforming the source for post into completely formatted HTML document",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "Transform",
           "package": "BlogLiterately",
@@ -2882,6 +3126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document transformation consists of two parts: an actual\n   transformation, expressed as a function over Pandoc documents, and\n   a condition specifying whether the transformation should actually\n   be applied.\n\u003c/p\u003e\u003cp\u003eThe transformation itself takes a \u003ccode\u003e\u003ca\u003eBlogLiterately\u003c/a\u003e\u003c/code\u003e configuration\n   as an argument.  You may of course ignore it if you do not need\n   to know anything about the configuration.  The \u003ccode\u003e--xtra\u003c/code\u003e (or \u003ccode\u003e-x\u003c/code\u003e)\n   flag is also provided especially as a method of getting\n   information from the command-line to custom extensions. Arguments\n   passed via \u003ccode\u003e-x\u003c/code\u003e on the command line are available from the \u003ccode\u003e\u003ca\u003extra\u003c/a\u003e\u003c/code\u003e\n   field of the \u003ccode\u003e\u003ca\u003eBlogLiterately\u003c/a\u003e\u003c/code\u003e configuration.\n\u003c/p\u003e\u003cp\u003eThe transformation is then specified as a stateful computation\n   over both a \u003ccode\u003eBlogLiterately\u003c/code\u003e options record, and a \u003ccode\u003ePandoc\u003c/code\u003e\n   document.  It may also have effects in the \u003ccode\u003eIO\u003c/code\u003e monad.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If you have a pure function of type \u003ccode\u003eBlogLiterately -\u003e Pandoc\n     -\u003e Pandoc\u003c/code\u003e, you can use the \u003ccode\u003e\u003ca\u003epureTransform\u003c/a\u003e\u003c/code\u003e function to create a\n     \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If you have a function of type \u003ccode\u003eBlogLiterately -\u003e Pandoc -\u003e IO\n     Pandoc\u003c/code\u003e, you can use \u003ccode\u003e\u003ca\u003eioTransform\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Otherwise you can directly create something of type \u003ccode\u003eStateT\n     (BlogLiterately, Pandoc) IO ()\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor examples, see the implementations of the standard transforms\n   below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "Transform",
           "package": "BlogLiterately",
@@ -2891,6 +3136,7 @@
         "index": {
           "description": "document transformation consists of two parts an actual transformation expressed as function over Pandoc documents and condition specifying whether the transformation should actually be applied The transformation itself takes BlogLiterately configuration as an argument You may of course ignore it if you do not need to know anything about the configuration The xtra or flag is also provided especially as method of getting information from the command-line to custom extensions Arguments passed via on the command line are available from the xtra field of the BlogLiterately configuration The transformation is then specified as stateful computation over both BlogLiterately options record and Pandoc document It may also have effects in the IO monad If you have pure function of type BlogLiterately Pandoc Pandoc you can use the pureTransform function to create Transform If you have function of type BlogLiterately Pandoc IO Pandoc you can use ioTransform Otherwise you can directly create something of type StateT BlogLiterately Pandoc IO For examples see the implementations of the standard transforms below",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "Transform",
           "package": "BlogLiterately",
@@ -2904,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "Transform",
           "package": "BlogLiterately",
@@ -2913,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "Transform",
           "package": "BlogLiterately",
@@ -2927,6 +3175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCenter any images which occur in a paragraph by themselves.\n   Inline images are not affected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "centerImagesXF",
           "package": "BlogLiterately",
@@ -2937,6 +3186,7 @@
         "index": {
           "description": "Center any images which occur in paragraph by themselves Inline images are not affected",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "centerImagesXF",
           "package": "BlogLiterately",
@@ -2951,6 +3201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat citations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "citationsXF",
           "package": "BlogLiterately",
@@ -2961,6 +3212,7 @@
         "index": {
           "description": "Format citations",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "citationsXF",
           "package": "BlogLiterately",
@@ -2975,6 +3227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn \u003ccode\u003eCRLF\u003c/code\u003e pairs into a single \u003ccode\u003eLF\u003c/code\u003e.  This is necessary since\n   \u003ccode\u003e\u003ca\u003ereadMarkdown\u003c/a\u003e\u003c/code\u003e is picky about line endings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "fixLineEndings",
           "package": "BlogLiterately",
@@ -2985,6 +3238,7 @@
         "index": {
           "description": "Turn CRLF pairs into single LF This is necessary since readMarkdown is picky about line endings",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "fixLineEndings",
           "normalized": "String-\u003eString",
@@ -3001,6 +3255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA document transformation, which can transform\n   both the document and the options and have\n   effects in the IO monad.  The options record\n   can be transformed because the document itself\n   may contain information which affects the options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "getTransform",
           "package": "BlogLiterately",
@@ -3011,6 +3266,7 @@
         "index": {
           "description": "document transformation which can transform both the document and the options and have effects in the IO monad The options record can be transformed because the document itself may contain information which affects the options",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "getTransform",
           "normalized": "StateT(BlogLiterately,Pandoc)IO()",
@@ -3027,6 +3283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat embedded \u003ccode\u003eghci\u003c/code\u003e sessions (if the \u003ccode\u003eghci\u003c/code\u003e flag is set).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "ghciXF",
           "package": "BlogLiterately",
@@ -3037,6 +3294,7 @@
         "index": {
           "description": "Format embedded ghci sessions if the ghci flag is set",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "ghciXF",
           "package": "BlogLiterately",
@@ -3051,6 +3309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a user-supplied style file and add its contents to the\n   highlighting options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "highlightOptsXF",
           "package": "BlogLiterately",
@@ -3061,6 +3320,7 @@
         "index": {
           "description": "Read user-supplied style file and add its contents to the highlighting options",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "highlightOptsXF",
           "package": "BlogLiterately",
@@ -3075,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform syntax highlighting on code blocks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "highlightXF",
           "package": "BlogLiterately",
@@ -3085,6 +3346,7 @@
         "index": {
           "description": "Perform syntax highlighting on code blocks",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "highlightXF",
           "package": "BlogLiterately",
@@ -3099,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a transformation from a function in the \u003ccode\u003eIO\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "ioTransform",
           "package": "BlogLiterately",
@@ -3109,6 +3372,7 @@
         "index": {
           "description": "Construct transformation from function in the IO monad",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "ioTransform",
           "normalized": "(BlogLiterately-\u003ePandoc-\u003eIO Pandoc)-\u003e(BlogLiterately-\u003eBool)-\u003eTransform",
@@ -3125,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract blocks tagged with \u003ccode\u003e[BLOpts]\u003c/code\u003e and use their contents as\n   options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "optionsXF",
           "package": "BlogLiterately",
@@ -3135,6 +3400,7 @@
         "index": {
           "description": "Extract blocks tagged with BLOpts and use their contents as options",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "optionsXF",
           "package": "BlogLiterately",
@@ -3149,6 +3415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrompt the user for a password if the \u003ccode\u003eblog\u003c/code\u003e field is set but no\n   password has been provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "passwordXF",
           "package": "BlogLiterately",
@@ -3159,6 +3426,7 @@
         "index": {
           "description": "Prompt the user for password if the blog field is set but no password has been provided",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "passwordXF",
           "package": "BlogLiterately",
@@ -3173,6 +3441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad options from a profile if one is specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "profileXF",
           "package": "BlogLiterately",
@@ -3183,6 +3452,7 @@
         "index": {
           "description": "Load options from profile if one is specified",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "profileXF",
           "package": "BlogLiterately",
@@ -3197,6 +3467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a transformation from a pure function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "pureTransform",
           "package": "BlogLiterately",
@@ -3207,6 +3478,7 @@
         "index": {
           "description": "Construct transformation from pure function",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "pureTransform",
           "normalized": "(BlogLiterately-\u003ePandoc-\u003ePandoc)-\u003e(BlogLiterately-\u003eBool)-\u003eTransform",
@@ -3223,6 +3495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003e (if its condition is met).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "runTransform",
           "package": "BlogLiterately",
@@ -3233,6 +3506,7 @@
         "index": {
           "description": "Run Transform if its condition is met",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "runTransform",
           "normalized": "Transform-\u003eStateT(BlogLiterately,Pandoc)IO()",
@@ -3249,6 +3523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a pipeline of \u003ccode\u003e\u003ca\u003eTransform\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "runTransforms",
           "package": "BlogLiterately",
@@ -3259,6 +3534,7 @@
         "index": {
           "description": "Run pipeline of Transform",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "runTransforms",
           "normalized": "[Transform]-\u003eBlogLiterately-\u003ePandoc-\u003eIO(BlogLiterately,Pandoc)",
@@ -3275,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard set of transforms that are run by default (in order\n   from top to bottom):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eoptionsXF\u003c/a\u003e\u003c/code\u003e: extract options specified in \u003ccode\u003e[BLOpts]\u003c/code\u003e blocks in the file\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eprofileXF\u003c/a\u003e\u003c/code\u003e: load the requested profile (if any)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003epasswordXF\u003c/a\u003e\u003c/code\u003e: prompt the user for a password if needed\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003etitleXF\u003c/a\u003e\u003c/code\u003e: extract the title from a special title block\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ewptexifyXF\u003c/a\u003e\u003c/code\u003e: turn LaTeX into WordPress format if requested\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eghciXF\u003c/a\u003e\u003c/code\u003e: run and typeset ghci sessions if requested\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003euploadImagesXF\u003c/a\u003e\u003c/code\u003e: upload images if requested\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ecenterImagesXF\u003c/a\u003e\u003c/code\u003e: center images occurring in their own paragraph\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ehighlightOptsXF\u003c/a\u003e\u003c/code\u003e: load the requested highlighting style file\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ehighlightXF\u003c/a\u003e\u003c/code\u003e: perform syntax highlighting\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ecitationsXF\u003c/a\u003e\u003c/code\u003e: process citations\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "standardTransforms",
           "package": "BlogLiterately",
@@ -3285,6 +3562,7 @@
         "index": {
           "description": "The standard set of transforms that are run by default in order from top to bottom optionsXF extract options specified in BLOpts blocks in the file profileXF load the requested profile if any passwordXF prompt the user for password if needed titleXF extract the title from special title block wptexifyXF turn LaTeX into WordPress format if requested ghciXF run and typeset ghci sessions if requested uploadImagesXF upload images if requested centerImagesXF center images occurring in their own paragraph highlightOptsXF load the requested highlighting style file highlightXF perform syntax highlighting citationsXF process citations",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "standardTransforms",
           "normalized": "[Transform]",
@@ -3301,6 +3579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePotentially extract a title from the metadata block, and set it\n   in the options record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "titleXF",
           "package": "BlogLiterately",
@@ -3311,6 +3590,7 @@
         "index": {
           "description": "Potentially extract title from the metadata block and set it in the options record",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "titleXF",
           "package": "BlogLiterately",
@@ -3325,6 +3605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpload embedded local images to the server (if the \u003ccode\u003euploadImages\u003c/code\u003e\n   flag is set).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "uploadImagesXF",
           "package": "BlogLiterately",
@@ -3335,6 +3616,7 @@
         "index": {
           "description": "Upload embedded local images to the server if the uploadImages flag is set",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "uploadImagesXF",
           "package": "BlogLiterately",
@@ -3349,6 +3631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat embedded LaTeX for WordPress (if the \u003ccode\u003ewplatex\u003c/code\u003e flag is set).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "wptexifyXF",
           "package": "BlogLiterately",
@@ -3359,6 +3642,7 @@
         "index": {
           "description": "Format embedded LaTeX for WordPress if the wplatex flag is set",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "wptexifyXF",
           "package": "BlogLiterately",
@@ -3373,6 +3657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA condition under which to run the transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "xfCond",
           "package": "BlogLiterately",
@@ -3383,6 +3668,7 @@
         "index": {
           "description": "condition under which to run the transformation",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "xfCond",
           "normalized": "BlogLiterately-\u003eBool",
@@ -3399,6 +3685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a complete input document string to an HTML output\n   string, given a list of transformation passes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately.Transform",
           "name": "xformDoc",
           "package": "BlogLiterately",
@@ -3409,6 +3696,7 @@
         "index": {
           "description": "Transform complete input document string to an HTML output string given list of transformation passes",
           "hierarchy": "Text BlogLiterately Transform",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately.Transform",
           "name": "xformDoc",
           "normalized": "BlogLiterately-\u003e[Transform]-\u003eString-\u003eIO(BlogLiterately,String)",
@@ -3425,6 +3713,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is provided as a convenient wrapper which re-exports\n all the other \u003ccode\u003eText.BlogLiterately.*\u003c/code\u003e modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:54 UTC 2014",
           "module": "Text.BlogLiterately",
           "name": "BlogLiterately",
           "package": "BlogLiterately",
@@ -3434,6 +3723,7 @@
         "index": {
           "description": "This module is provided as convenient wrapper which re-exports all the other Text.BlogLiterately modules",
           "hierarchy": "Text BlogLiterately",
+          "indexed": "2014-03-11T16:34:54",
           "module": "Text.BlogLiterately",
           "name": "BlogLiterately",
           "package": "BlogLiterately",

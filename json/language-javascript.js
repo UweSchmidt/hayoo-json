@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-javascript"
+        "phrase": "language-javascript",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.AST",
           "name": "AST",
           "package": "language-javascript",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser AST",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.AST",
           "name": "AST",
           "package": "language-javascript",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSNode is the building block of the AST.\n Each has a syntactic part \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e. In addition, the leaf elements\n (terminals) have a position \u003ccode\u003e\u003ca\u003eTokenPosn\u003c/a\u003e\u003c/code\u003e, as well as an array of comments\n and/or whitespace that was collected while parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.AST",
           "name": "JSNode",
           "package": "language-javascript",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The JSNode is the building block of the AST Each has syntactic part Node In addition the leaf elements terminals have position TokenPosn as well as an array of comments and or whitespace that was collected while parsing",
           "hierarchy": "Language JavaScript Parser AST",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.AST",
           "name": "JSNode",
           "package": "language-javascript",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.AST",
           "name": "Node",
           "package": "language-javascript",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser AST",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.AST",
           "name": "Node",
           "package": "language-javascript",
@@ -1385,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.AST",
           "name": "showStripped",
           "package": "language-javascript",
@@ -1394,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser AST",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.AST",
           "name": "showStripped",
           "normalized": "JSNode-\u003eString",
@@ -1409,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "Grammar5",
           "package": "language-javascript",
@@ -1417,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Grammar5",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "Grammar5",
           "package": "language-javascript",
@@ -1430,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "fp",
           "package": "language-javascript",
@@ -1439,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Grammar5",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "fp",
           "normalized": "JSNode-\u003eJSNode",
@@ -1453,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "parseLiteral",
           "package": "language-javascript",
@@ -1462,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Grammar5",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "parseLiteral",
           "package": "language-javascript",
@@ -1475,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "parsePrimaryExpression",
           "package": "language-javascript",
@@ -1484,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Grammar5",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "parsePrimaryExpression",
           "package": "language-javascript",
@@ -1497,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "parseProgram",
           "package": "language-javascript",
@@ -1506,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Grammar5",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "parseProgram",
           "package": "language-javascript",
@@ -1519,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "parseStatement",
           "package": "language-javascript",
@@ -1528,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Grammar5",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Grammar5",
           "name": "parseStatement",
           "package": "language-javascript",
@@ -1541,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "Lexer",
           "package": "language-javascript",
@@ -1549,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "Lexer",
           "package": "language-javascript",
@@ -1562,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "Alex",
           "package": "language-javascript",
@@ -1570,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "Alex",
           "package": "language-javascript",
@@ -1583,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "AlexPosn",
           "package": "language-javascript",
@@ -1591,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "AlexPosn",
           "package": "language-javascript",
@@ -1605,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexical tokens.\n Each may be annotated with any comment occuring between the prior token and this one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "Token",
           "package": "language-javascript",
@@ -1614,6 +1641,7 @@
         "index": {
           "description": "Lexical tokens Each may be annotated with any comment occuring between the prior token and this one",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "Token",
           "package": "language-javascript",
@@ -1627,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "AlexPn",
           "package": "language-javascript",
@@ -1636,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "AlexPn",
           "package": "language-javascript",
@@ -1649,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "AndToken",
           "package": "language-javascript",
@@ -1658,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "AndToken",
           "package": "language-javascript",
@@ -1671,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "AssignToken",
           "package": "language-javascript",
@@ -1680,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "AssignToken",
           "package": "language-javascript",
@@ -1693,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BitwiseAndToken",
           "package": "language-javascript",
@@ -1702,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BitwiseAndToken",
           "package": "language-javascript",
@@ -1715,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BitwiseNotToken",
           "package": "language-javascript",
@@ -1724,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BitwiseNotToken",
           "package": "language-javascript",
@@ -1737,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BitwiseOrToken",
           "package": "language-javascript",
@@ -1746,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BitwiseOrToken",
           "package": "language-javascript",
@@ -1759,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BitwiseXorToken",
           "package": "language-javascript",
@@ -1768,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BitwiseXorToken",
           "package": "language-javascript",
@@ -1781,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BreakToken",
           "package": "language-javascript",
@@ -1790,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "BreakToken",
           "package": "language-javascript",
@@ -1803,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CaseToken",
           "package": "language-javascript",
@@ -1812,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CaseToken",
           "package": "language-javascript",
@@ -1825,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CatchToken",
           "package": "language-javascript",
@@ -1834,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CatchToken",
           "package": "language-javascript",
@@ -1847,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ColonToken",
           "package": "language-javascript",
@@ -1856,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ColonToken",
           "package": "language-javascript",
@@ -1869,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CommaToken",
           "package": "language-javascript",
@@ -1878,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CommaToken",
           "package": "language-javascript",
@@ -1892,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle line comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CommentToken",
           "package": "language-javascript",
@@ -1902,6 +1955,7 @@
         "index": {
           "description": "Single line comment",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CommentToken",
           "package": "language-javascript",
@@ -1915,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CondcommentEndToken",
           "package": "language-javascript",
@@ -1924,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "CondcommentEndToken",
           "package": "language-javascript",
@@ -1937,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ConstToken",
           "package": "language-javascript",
@@ -1946,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ConstToken",
           "package": "language-javascript",
@@ -1959,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ContinueToken",
           "package": "language-javascript",
@@ -1968,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ContinueToken",
           "package": "language-javascript",
@@ -1981,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DebuggerToken",
           "package": "language-javascript",
@@ -1990,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DebuggerToken",
           "package": "language-javascript",
@@ -2004,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: Decimal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DecimalToken",
           "package": "language-javascript",
@@ -2014,6 +2077,7 @@
         "index": {
           "description": "Literal Decimal",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DecimalToken",
           "package": "language-javascript",
@@ -2027,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DecrementToken",
           "package": "language-javascript",
@@ -2036,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DecrementToken",
           "package": "language-javascript",
@@ -2049,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DefaultToken",
           "package": "language-javascript",
@@ -2058,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DefaultToken",
           "package": "language-javascript",
@@ -2071,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DeleteToken",
           "package": "language-javascript",
@@ -2080,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DeleteToken",
           "package": "language-javascript",
@@ -2093,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DivToken",
           "package": "language-javascript",
@@ -2102,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DivToken",
           "package": "language-javascript",
@@ -2115,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DoToken",
           "package": "language-javascript",
@@ -2124,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DoToken",
           "package": "language-javascript",
@@ -2137,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DotToken",
           "package": "language-javascript",
@@ -2146,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "DotToken",
           "package": "language-javascript",
@@ -2160,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd of file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "EOFToken",
           "package": "language-javascript",
@@ -2170,6 +2247,7 @@
         "index": {
           "description": "End of file",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "EOFToken",
           "package": "language-javascript",
@@ -2183,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ElseToken",
           "package": "language-javascript",
@@ -2192,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ElseToken",
           "package": "language-javascript",
@@ -2205,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "EnumToken",
           "package": "language-javascript",
@@ -2214,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "EnumToken",
           "package": "language-javascript",
@@ -2227,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "EqToken",
           "package": "language-javascript",
@@ -2236,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "EqToken",
           "package": "language-javascript",
@@ -2249,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "FalseToken",
           "package": "language-javascript",
@@ -2258,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "FalseToken",
           "package": "language-javascript",
@@ -2271,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "FinallyToken",
           "package": "language-javascript",
@@ -2280,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "FinallyToken",
           "package": "language-javascript",
@@ -2293,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ForToken",
           "package": "language-javascript",
@@ -2302,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ForToken",
           "package": "language-javascript",
@@ -2315,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "FunctionToken",
           "package": "language-javascript",
@@ -2324,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "FunctionToken",
           "package": "language-javascript",
@@ -2337,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "FutureToken",
           "package": "language-javascript",
@@ -2346,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "FutureToken",
           "package": "language-javascript",
@@ -2359,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "GeToken",
           "package": "language-javascript",
@@ -2368,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "GeToken",
           "package": "language-javascript",
@@ -2381,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "GetToken",
           "package": "language-javascript",
@@ -2390,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "GetToken",
           "package": "language-javascript",
@@ -2403,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "GtToken",
           "package": "language-javascript",
@@ -2412,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "GtToken",
           "package": "language-javascript",
@@ -2426,6 +2526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: Hexadecimal Integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "HexIntegerToken",
           "package": "language-javascript",
@@ -2436,6 +2537,7 @@
         "index": {
           "description": "Literal Hexadecimal Integer",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "HexIntegerToken",
           "package": "language-javascript",
@@ -2449,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "HookToken",
           "package": "language-javascript",
@@ -2458,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "HookToken",
           "package": "language-javascript",
@@ -2472,6 +2576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "IdentifierToken",
           "package": "language-javascript",
@@ -2482,6 +2587,7 @@
         "index": {
           "description": "Identifier",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "IdentifierToken",
           "package": "language-javascript",
@@ -2495,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "IfToken",
           "package": "language-javascript",
@@ -2504,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "IfToken",
           "package": "language-javascript",
@@ -2517,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "InToken",
           "package": "language-javascript",
@@ -2526,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "InToken",
           "package": "language-javascript",
@@ -2539,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "IncrementToken",
           "package": "language-javascript",
@@ -2548,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "IncrementToken",
           "package": "language-javascript",
@@ -2561,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "InstanceofToken",
           "package": "language-javascript",
@@ -2570,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "InstanceofToken",
           "package": "language-javascript",
@@ -2583,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LeToken",
           "package": "language-javascript",
@@ -2592,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LeToken",
           "package": "language-javascript",
@@ -2605,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LeftBracketToken",
           "package": "language-javascript",
@@ -2614,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LeftBracketToken",
           "package": "language-javascript",
@@ -2627,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LeftCurlyToken",
           "package": "language-javascript",
@@ -2636,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LeftCurlyToken",
           "package": "language-javascript",
@@ -2649,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LeftParenToken",
           "package": "language-javascript",
@@ -2658,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LeftParenToken",
           "package": "language-javascript",
@@ -2671,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LshToken",
           "package": "language-javascript",
@@ -2680,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LshToken",
           "package": "language-javascript",
@@ -2693,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LtToken",
           "package": "language-javascript",
@@ -2702,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "LtToken",
           "package": "language-javascript",
@@ -2715,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "MinusToken",
           "package": "language-javascript",
@@ -2724,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "MinusToken",
           "package": "language-javascript",
@@ -2737,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ModToken",
           "package": "language-javascript",
@@ -2746,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ModToken",
           "package": "language-javascript",
@@ -2759,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "MulToken",
           "package": "language-javascript",
@@ -2768,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "MulToken",
           "package": "language-javascript",
@@ -2781,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "NeToken",
           "package": "language-javascript",
@@ -2790,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "NeToken",
           "package": "language-javascript",
@@ -2803,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "NewToken",
           "package": "language-javascript",
@@ -2812,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "NewToken",
           "package": "language-javascript",
@@ -2825,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "NotToken",
           "package": "language-javascript",
@@ -2834,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "NotToken",
           "package": "language-javascript",
@@ -2847,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "NullToken",
           "package": "language-javascript",
@@ -2856,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "NullToken",
           "package": "language-javascript",
@@ -2870,6 +3010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: Octal Integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "OctalToken",
           "package": "language-javascript",
@@ -2880,6 +3021,7 @@
         "index": {
           "description": "Literal Octal Integer",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "OctalToken",
           "package": "language-javascript",
@@ -2893,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "OrToken",
           "package": "language-javascript",
@@ -2902,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "OrToken",
           "package": "language-javascript",
@@ -2915,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "PlusToken",
           "package": "language-javascript",
@@ -2924,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "PlusToken",
           "package": "language-javascript",
@@ -2938,6 +3084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: Regular Expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RegExToken",
           "package": "language-javascript",
@@ -2948,6 +3095,7 @@
         "index": {
           "description": "Literal Regular Expression",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RegExToken",
           "package": "language-javascript",
@@ -2961,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ReturnToken",
           "package": "language-javascript",
@@ -2970,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ReturnToken",
           "package": "language-javascript",
@@ -2983,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RightBracketToken",
           "package": "language-javascript",
@@ -2992,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RightBracketToken",
           "package": "language-javascript",
@@ -3005,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RightCurlyToken",
           "package": "language-javascript",
@@ -3014,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RightCurlyToken",
           "package": "language-javascript",
@@ -3027,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RightParenToken",
           "package": "language-javascript",
@@ -3036,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RightParenToken",
           "package": "language-javascript",
@@ -3049,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RshToken",
           "package": "language-javascript",
@@ -3058,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "RshToken",
           "package": "language-javascript",
@@ -3071,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "SemiColonToken",
           "package": "language-javascript",
@@ -3080,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "SemiColonToken",
           "package": "language-javascript",
@@ -3093,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "SetToken",
           "package": "language-javascript",
@@ -3102,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "SetToken",
           "package": "language-javascript",
@@ -3115,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "SimpleAssignToken",
           "package": "language-javascript",
@@ -3124,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "SimpleAssignToken",
           "package": "language-javascript",
@@ -3137,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "StrictEqToken",
           "package": "language-javascript",
@@ -3146,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "StrictEqToken",
           "package": "language-javascript",
@@ -3159,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "StrictNeToken",
           "package": "language-javascript",
@@ -3168,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "StrictNeToken",
           "package": "language-javascript",
@@ -3182,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: string, delimited by either single or double quotes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "StringToken",
           "package": "language-javascript",
@@ -3192,6 +3361,7 @@
         "index": {
           "description": "Literal string delimited by either single or double quotes",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "StringToken",
           "package": "language-javascript",
@@ -3205,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "SwitchToken",
           "package": "language-javascript",
@@ -3214,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "SwitchToken",
           "package": "language-javascript",
@@ -3228,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStuff between last JS and EOF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "TailToken",
           "package": "language-javascript",
@@ -3238,6 +3411,7 @@
         "index": {
           "description": "Stuff between last JS and EOF",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "TailToken",
           "package": "language-javascript",
@@ -3251,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ThisToken",
           "package": "language-javascript",
@@ -3260,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ThisToken",
           "package": "language-javascript",
@@ -3273,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ThrowToken",
           "package": "language-javascript",
@@ -3282,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "ThrowToken",
           "package": "language-javascript",
@@ -3295,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "TrueToken",
           "package": "language-javascript",
@@ -3304,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "TrueToken",
           "package": "language-javascript",
@@ -3317,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "TryToken",
           "package": "language-javascript",
@@ -3326,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "TryToken",
           "package": "language-javascript",
@@ -3339,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "TypeofToken",
           "package": "language-javascript",
@@ -3348,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "TypeofToken",
           "package": "language-javascript",
@@ -3361,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "UrshToken",
           "package": "language-javascript",
@@ -3370,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "UrshToken",
           "package": "language-javascript",
@@ -3383,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "VarToken",
           "package": "language-javascript",
@@ -3392,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "VarToken",
           "package": "language-javascript",
@@ -3405,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "VoidToken",
           "package": "language-javascript",
@@ -3414,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "VoidToken",
           "package": "language-javascript",
@@ -3427,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "WhileToken",
           "package": "language-javascript",
@@ -3436,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "WhileToken",
           "package": "language-javascript",
@@ -3449,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "WithToken",
           "package": "language-javascript",
@@ -3458,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "WithToken",
           "package": "language-javascript",
@@ -3472,6 +3666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite space, for preservation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "WsToken",
           "package": "language-javascript",
@@ -3482,6 +3677,7 @@
         "index": {
           "description": "White space for preservation",
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "WsToken",
           "package": "language-javascript",
@@ -3495,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "alexError",
           "package": "language-javascript",
@@ -3504,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "alexError",
           "normalized": "String-\u003eAlex a",
@@ -3519,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "lexCont",
           "package": "language-javascript",
@@ -3528,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "lexCont",
           "normalized": "(Token-\u003eAlex a)-\u003eAlex a",
@@ -3543,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "runAlex",
           "package": "language-javascript",
@@ -3552,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "runAlex",
           "normalized": "String-\u003eAlex a-\u003eEither String a",
@@ -3567,6 +3769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "token_comment",
           "package": "language-javascript",
@@ -3576,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "token_comment",
           "normalized": "[CommentAnnotation]",
@@ -3590,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "token_delimiter",
           "package": "language-javascript",
@@ -3599,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "token_delimiter",
           "package": "language-javascript",
@@ -3611,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "token_literal",
           "package": "language-javascript",
@@ -3620,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "token_literal",
           "package": "language-javascript",
@@ -3632,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "token_span",
           "package": "language-javascript",
@@ -3641,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Lexer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Lexer",
           "name": "token_span",
           "package": "language-javascript",
@@ -3653,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Parser",
           "name": "Parser",
           "package": "language-javascript",
@@ -3661,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Parser",
           "name": "Parser",
           "package": "language-javascript",
@@ -3754,6 +3966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one compound statement, or a sequence of simple statements.\n Generally used for interactive input, such as from the command line of an interpreter.\n Return comments in addition to the parsed statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.Parser",
           "name": "parseUsing",
           "package": "language-javascript",
@@ -3763,6 +3976,7 @@
         "index": {
           "description": "Parse one compound statement or sequence of simple statements Generally used for interactive input such as from the command line of an interpreter Return comments in addition to the parsed statements",
           "hierarchy": "Language JavaScript Parser Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.Parser",
           "name": "parseUsing",
           "normalized": "Alex JSNode-\u003eString-\u003eString-\u003eEither String JSNode",
@@ -3853,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.SrcLocation",
           "name": "SrcLocation",
           "package": "language-javascript",
@@ -3861,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser SrcLocation",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.SrcLocation",
           "name": "SrcLocation",
           "package": "language-javascript",
@@ -3875,6 +4091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTokenPosn\u003c/a\u003e\u003c/code\u003e records the location of a token in the input text.  It has three\n fields: the address (number of characters preceding the token), line number\n and column of a token within the file.\n Note: The lexer assumes the usual eight character tab stops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser.SrcLocation",
           "name": "TokenPosn",
           "package": "language-javascript",
@@ -3884,6 +4101,7 @@
         "index": {
           "description": "TokenPosn records the location of token in the input text It has three fields the address number of characters preceding the token line number and column of token within the file Note The lexer assumes the usual eight character tab stops",
           "hierarchy": "Language JavaScript Parser SrcLocation",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser.SrcLocation",
           "name": "TokenPosn",
           "package": "language-javascript",
@@ -3943,6 +4161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser",
           "name": "Parser",
           "package": "language-javascript",
@@ -3951,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser",
           "name": "Parser",
           "package": "language-javascript",
@@ -3964,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser",
           "name": "CommentAnnotation",
           "package": "language-javascript",
@@ -3972,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser",
           "name": "CommentAnnotation",
           "package": "language-javascript",
@@ -3986,6 +4208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSNode is the building block of the AST.\n Each has a syntactic part \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e. In addition, the leaf elements\n (terminals) have a position \u003ccode\u003e\u003ca\u003eTokenPosn\u003c/a\u003e\u003c/code\u003e, as well as an array of comments\n and/or whitespace that was collected while parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser",
           "name": "JSNode",
           "package": "language-javascript",
@@ -3995,6 +4218,7 @@
         "index": {
           "description": "The JSNode is the building block of the AST Each has syntactic part Node In addition the leaf elements terminals have position TokenPosn as well as an array of comments and or whitespace that was collected while parsing",
           "hierarchy": "Language JavaScript Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser",
           "name": "JSNode",
           "package": "language-javascript",
@@ -4008,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser",
           "name": "Node",
           "package": "language-javascript",
@@ -4016,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser",
           "name": "Node",
           "package": "language-javascript",
@@ -4030,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTokenPosn\u003c/a\u003e\u003c/code\u003e records the location of a token in the input text.  It has three\n fields: the address (number of characters preceding the token), line number\n and column of a token within the file.\n Note: The lexer assumes the usual eight character tab stops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser",
           "name": "TokenPosn",
           "package": "language-javascript",
@@ -4039,6 +4266,7 @@
         "index": {
           "description": "TokenPosn records the location of token in the input text It has three fields the address number of characters preceding the token line number and column of token within the file Note The lexer assumes the usual eight character tab stops",
           "hierarchy": "Language JavaScript Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser",
           "name": "TokenPosn",
           "package": "language-javascript",
@@ -4052,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser",
           "name": "CommentA",
           "package": "language-javascript",
@@ -4061,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser",
           "name": "CommentA",
           "package": "language-javascript",
@@ -4074,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser",
           "name": "NoComment",
           "package": "language-javascript",
@@ -4083,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser",
           "name": "NoComment",
           "package": "language-javascript",
@@ -4096,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Parser",
           "name": "WhiteSpace",
           "package": "language-javascript",
@@ -4105,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Parser",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Parser",
           "name": "WhiteSpace",
           "package": "language-javascript",
@@ -4168,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:43 UTC 2014",
           "module": "Language.JavaScript.Pretty.Printer",
           "name": "Printer",
           "package": "language-javascript",
@@ -4176,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Language JavaScript Pretty Printer",
+          "indexed": "2014-03-11T19:05:43",
           "module": "Language.JavaScript.Pretty.Printer",
           "name": "Printer",
           "package": "language-javascript",

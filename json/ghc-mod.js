@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-mod"
+        "phrase": "ghc-mod",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow level access to the ghc-mod library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "Internal",
           "package": "ghc-mod",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Low level access to the ghc-mod library",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "Internal",
           "package": "ghc-mod",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOption information for GHC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "CompilerOptions",
           "package": "ghc-mod",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Option information for GHC",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "CompilerOptions",
           "package": "ghc-mod",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single GHC command line option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "GHCOption",
           "package": "ghc-mod",
@@ -74,6 +79,7 @@
         "index": {
           "description": "single GHC command line option",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "GHCOption",
           "package": "ghc-mod",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn include directory for modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "IncludeDir",
           "package": "ghc-mod",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An include directory for modules",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "IncludeDir",
           "package": "ghc-mod",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA means to read the log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "LogReader",
           "package": "ghc-mod",
@@ -120,6 +129,7 @@
         "index": {
           "description": "means to read the log",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "LogReader",
           "package": "ghc-mod",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA package name and its ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "Package",
           "package": "ghc-mod",
@@ -143,6 +154,7 @@
         "index": {
           "description": "package name and its ID",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "Package",
           "package": "ghc-mod",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry the left \u003ccode\u003e\u003ca\u003eGhcMonad\u003c/a\u003e\u003c/code\u003e action. If \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e occurs, try\n   the right \u003ccode\u003e\u003ca\u003eGhcMonad\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "(|||\u003e)",
           "package": "ghc-mod",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Try the left GhcMonad action If IOException occurs try the right GhcMonad action",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "(|||\u003e) |||\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry the left \u003ccode\u003e\u003ca\u003eGhc\u003c/a\u003e\u003c/code\u003e action. If \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e occurs, try\n   the right \u003ccode\u003e\u003ca\u003eGhc\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "(||\u003e)",
           "package": "ghc-mod",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Try the left Ghc action If IOException occurs try the right Ghc action",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "(||\u003e) ||\u003e",
           "normalized": "Ghc a-\u003eGhc a-\u003eGhc a",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "CompilerOptions",
           "package": "ghc-mod",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "CompilerOptions",
           "package": "ghc-mod",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracting all \u003ccode\u003e\u003ca\u003eBuildInfo\u003c/a\u003e\u003c/code\u003e for libraries, executables, tests and benchmarks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "cabalAllBuildInfo",
           "package": "ghc-mod",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Extracting all BuildInfo for libraries executables tests and benchmarks",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "cabalAllBuildInfo",
           "normalized": "PackageDescription-\u003e[BuildInfo]",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracting all \u003ccode\u003eModule\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es for libraries, executables,\n tests and benchmarks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "cabalAllTargets",
           "package": "ghc-mod",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Extracting all Module FilePath for libraries executables tests and benchmarks",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "cabalAllTargets",
           "normalized": "PackageDescription-\u003eIO([String],[String],[String],[String])",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracting package names of dependency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "cabalDependPackages",
           "package": "ghc-mod",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Extracting package names of dependency",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "cabalDependPackages",
           "normalized": "[BuildInfo]-\u003e[PackageBaseName]",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracting include directories for modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "cabalSourceDirs",
           "package": "ghc-mod",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Extracting include directories for modules",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "cabalSourceDirs",
           "normalized": "[BuildInfo]-\u003e[IncludeDir]",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking if Template Haskell or quasi quotes are used.\n   If not, the process can be faster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "canCheckFast",
           "package": "ghc-mod",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Checking if Template Haskell or quasi quotes are used If not the process can be faster",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "canCheckFast",
           "normalized": "ModuleGraph-\u003eBool",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo check TH, a session module graph is necessary.\n \u003ca\u003eload\u003c/a\u003e sets a session module graph using \u003ca\u003edepanal\u003c/a\u003e.\n But we have to set \u003ca\u003e-fno-code\u003c/a\u003e to DynFlags before \u003ca\u003eload\u003c/a\u003e.\n So, this is necessary redundancy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "checkSlowAndSet",
           "package": "ghc-mod",
@@ -369,6 +398,7 @@
         "index": {
           "description": "To check TH session module graph is necessary load sets session module graph using depanal But we have to set fno-code to DynFlags before load So this is necessary redundancy",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "checkSlowAndSet",
           "normalized": "a()",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDependent package names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "depPackages",
           "package": "ghc-mod",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Dependent package names",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "depPackages",
           "normalized": "[Package]",
@@ -411,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting necessary \u003ccode\u003e\u003ca\u003eCompilerOptions\u003c/a\u003e\u003c/code\u003e from three information sources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "getCompilerOptions",
           "package": "ghc-mod",
@@ -421,6 +454,7 @@
         "index": {
           "description": "Getting necessary CompilerOptions from three information sources",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "getCompilerOptions",
           "normalized": "[GHCOption]-\u003eCradle-\u003ePackageDescription-\u003eIO CompilerOptions",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003ccode\u003e\u003ca\u003eDynFlags\u003c/a\u003e\u003c/code\u003e currently in use in the GHC session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "getDynamicFlags",
           "package": "ghc-mod",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Return the DynFlags currently in use in the GHC session",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "getDynamicFlags",
           "package": "ghc-mod",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand line options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "ghcOptions",
           "package": "ghc-mod",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Command line options",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "ghcOptions",
           "normalized": "[GHCOption]",
@@ -487,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGo to the next \u003ccode\u003e\u003ca\u003eGhc\u003c/a\u003e\u003c/code\u003e monad by throwing \u003ccode\u003eAltGhcgoNext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "goNext",
           "package": "ghc-mod",
@@ -497,6 +536,7 @@
         "index": {
           "description": "Go to the next Ghc monad by throwing AltGhcgoNext",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "goNext",
           "package": "ghc-mod",
@@ -511,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude directories for modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "includeDirs",
           "package": "ghc-mod",
@@ -521,6 +562,7 @@
         "index": {
           "description": "Include directories for modules",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "includeDirs",
           "normalized": "[IncludeDir]",
@@ -537,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the \u003ccode\u003e\u003ca\u003eDynFlags\u003c/a\u003e\u003c/code\u003e relating to the compilation of a single\n file or GHC session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "initializeFlags",
           "package": "ghc-mod",
@@ -547,6 +590,7 @@
         "index": {
           "description": "Initialize the DynFlags relating to the compilation of single file or GHC session",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "initializeFlags",
           "normalized": "Options-\u003ea()",
@@ -563,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the \u003ccode\u003e\u003ca\u003eDynFlags\u003c/a\u003e\u003c/code\u003e relating to the compilation of a single\n file or GHC session according to the \u003ccode\u003e\u003ca\u003eCradle\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e\n provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "initializeFlagsWithCradle",
           "package": "ghc-mod",
@@ -573,6 +618,7 @@
         "index": {
           "description": "Initialize the DynFlags relating to the compilation of single file or GHC session according to the Cradle and Options provided",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "initializeFlagsWithCradle",
           "normalized": "Options-\u003eCradle-\u003e[GHCOption]-\u003eBool-\u003ea(LogReader,Maybe PackageDescription)",
@@ -589,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing a cabal file and returns \u003ccode\u003e\u003ca\u003ePackageDescription\u003c/a\u003e\u003c/code\u003e.\n   \u003ccode\u003eIOException\u003c/code\u003e is thrown if parsing fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "parseCabalFile",
           "package": "ghc-mod",
@@ -599,6 +646,7 @@
         "index": {
           "description": "Parsing cabal file and returns PackageDescription IOException is thrown if parsing fails",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "parseCabalFile",
           "normalized": "FilePath-\u003eIO PackageDescription",
@@ -615,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun any one \u003ccode\u003e\u003ca\u003eGhc\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "runAnyOne",
           "package": "ghc-mod",
@@ -625,6 +674,7 @@
         "index": {
           "description": "Run any one Ghc monad",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "runAnyOne",
           "normalized": "[Ghc a]-\u003eGhc a",
@@ -641,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the files that GHC will load / compile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "setTargetFiles",
           "package": "ghc-mod",
@@ -651,6 +702,7 @@
         "index": {
           "description": "Set the files that GHC will load compile",
           "hierarchy": "Language Haskell GhcMod Internal",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod.Internal",
           "name": "setTargetFiles",
           "normalized": "[FilePath]-\u003ea()",
@@ -667,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe ghc-mod library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "GhcMod",
           "package": "ghc-mod",
@@ -676,6 +729,7 @@
         "index": {
           "description": "The ghc-mod library",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "GhcMod",
           "package": "ghc-mod",
@@ -690,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe environment where this library is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "Cradle",
           "package": "ghc-mod",
@@ -699,6 +754,7 @@
         "index": {
           "description": "The environment where this library is used",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "Cradle",
           "package": "ghc-mod",
@@ -713,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "Expression",
           "package": "ghc-mod",
@@ -722,6 +779,7 @@
         "index": {
           "description": "Haskell expression",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "Expression",
           "package": "ghc-mod",
@@ -736,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for line separator. Historically, a Null string is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "LineSeparator",
           "package": "ghc-mod",
@@ -745,6 +804,7 @@
         "index": {
           "description": "The type for line separator Historically Null string is used",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "LineSeparator",
           "package": "ghc-mod",
@@ -759,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "ModuleString",
           "package": "ghc-mod",
@@ -768,6 +829,7 @@
         "index": {
           "description": "Module name",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "ModuleString",
           "package": "ghc-mod",
@@ -781,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "Options",
           "package": "ghc-mod",
@@ -789,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "Options",
           "package": "ghc-mod",
@@ -803,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "OutputStyle",
           "package": "ghc-mod",
@@ -812,6 +877,7 @@
         "index": {
           "description": "Output style",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "OutputStyle",
           "package": "ghc-mod",
@@ -825,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "Cradle",
           "package": "ghc-mod",
@@ -834,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "Cradle",
           "package": "ghc-mod",
@@ -847,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "LineSeparator",
           "package": "ghc-mod",
@@ -856,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "LineSeparator",
           "package": "ghc-mod",
@@ -870,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eS expression style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "LispStyle",
           "package": "ghc-mod",
@@ -880,6 +951,7 @@
         "index": {
           "description": "expression style",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "LispStyle",
           "package": "ghc-mod",
@@ -893,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "Options",
           "package": "ghc-mod",
@@ -902,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "Options",
           "package": "ghc-mod",
@@ -916,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain textstyle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "PlainStyle",
           "package": "ghc-mod",
@@ -926,6 +1001,7 @@
         "index": {
           "description": "Plain textstyle",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "PlainStyle",
           "package": "ghc-mod",
@@ -940,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting functions, classes, etc from a module.\n   If \u003ccode\u003e\u003ca\u003edetailed\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, their types are also obtained.\n   If \u003ccode\u003e\u003ca\u003eoperators\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, operators are also returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "browse",
           "package": "ghc-mod",
@@ -949,6 +1026,7 @@
         "index": {
           "description": "Getting functions classes etc from module If detailed is True their types are also obtained If operators is True operators are also returned",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "browse",
           "normalized": "Options-\u003eCradle-\u003eModuleString-\u003eGhc[String]",
@@ -964,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting functions, classes, etc from a module.\n   If \u003ccode\u003e\u003ca\u003edetailed\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, their types are also obtained.\n   If \u003ccode\u003e\u003ca\u003eoperators\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, operators are also returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "browseModule",
           "package": "ghc-mod",
@@ -973,6 +1052,7 @@
         "index": {
           "description": "Getting functions classes etc from module If detailed is True their types are also obtained If operators is True operators are also returned",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "browseModule",
           "normalized": "Options-\u003eCradle-\u003eModuleString-\u003eIO String",
@@ -989,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking syntax of a target file using GHC.\n   Warnings and errors are returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "check",
           "package": "ghc-mod",
@@ -998,6 +1079,7 @@
         "index": {
           "description": "Checking syntax of target file using GHC Warnings and errors are returned",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "check",
           "normalized": "Options-\u003eCradle-\u003e[FilePath]-\u003eGhc[String]",
@@ -1013,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking syntax of a target file using GHC.\n   Warnings and errors are returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "checkSyntax",
           "package": "ghc-mod",
@@ -1022,6 +1105,7 @@
         "index": {
           "description": "Checking syntax of target file using GHC Warnings and errors are returned",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "checkSyntax",
           "normalized": "Options-\u003eCradle-\u003e[FilePath]-\u003eIO String",
@@ -1038,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe directory where a cabal file is found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "cradleCabalDir",
           "package": "ghc-mod",
@@ -1048,6 +1133,7 @@
         "index": {
           "description": "The directory where cabal file is found",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "cradleCabalDir",
           "package": "ghc-mod",
@@ -1062,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file name of the found cabal file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "cradleCabalFile",
           "package": "ghc-mod",
@@ -1072,6 +1159,7 @@
         "index": {
           "description": "The file name of the found cabal file",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "cradleCabalFile",
           "package": "ghc-mod",
@@ -1086,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe directory where this library is executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "cradleCurrentDir",
           "package": "ghc-mod",
@@ -1096,6 +1185,7 @@
         "index": {
           "description": "The directory where this library is executed",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "cradleCurrentDir",
           "package": "ghc-mod",
@@ -1110,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe package db options. ([\"-no-user-package-db\",\"-package-db\",\"/foo/bar/i386-osx-ghc-7.6.3-packages.conf.d\"])\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "cradlePackageDbOpts",
           "package": "ghc-mod",
@@ -1120,6 +1211,7 @@
         "index": {
           "description": "The package db options no-user-package-db package-db foo bar i386-osx-ghc-7.6.3-packages.conf.d",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "cradlePackageDbOpts",
           "normalized": "[GHCOption]",
@@ -1135,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "cradlePackages",
           "package": "ghc-mod",
@@ -1144,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "cradlePackages",
           "normalized": "[Package]",
@@ -1160,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining debug information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "debug",
           "package": "ghc-mod",
@@ -1169,6 +1264,7 @@
         "index": {
           "description": "Obtaining debug information",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "debug",
           "normalized": "Options-\u003eCradle-\u003eFilePath-\u003eGhc[String]",
@@ -1184,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining debug information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "debugInfo",
           "package": "ghc-mod",
@@ -1193,6 +1290,7 @@
         "index": {
           "description": "Obtaining debug information",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "debugInfo",
           "normalized": "Options-\u003eCradle-\u003eFilePath-\u003eIO String",
@@ -1209,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "defaultOptions",
           "package": "ghc-mod",
@@ -1219,6 +1318,7 @@
         "index": {
           "description": "default Options",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "defaultOptions",
           "package": "ghc-mod",
@@ -1233,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003ebrowse\u003c/code\u003e also returns types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "detailed",
           "package": "ghc-mod",
@@ -1243,6 +1344,7 @@
         "index": {
           "description": "If True browse also returns types",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "detailed",
           "package": "ghc-mod",
@@ -1256,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not Template Haskell should be expanded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "expandSplice",
           "package": "ghc-mod",
@@ -1266,6 +1369,7 @@
         "index": {
           "description": "Whether or not Template Haskell should be expanded",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "expandSplice",
           "package": "ghc-mod",
@@ -1280,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinding \u003ccode\u003e\u003ca\u003eCradle\u003c/a\u003e\u003c/code\u003e.\n   Find a cabal file by tracing ancestor directories.\n   Find a sandbox according to a cabal sandbox config\n   in a cabal directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "findCradle",
           "package": "ghc-mod",
@@ -1290,6 +1395,7 @@
         "index": {
           "description": "Finding Cradle Find cabal file by tracing ancestor directories Find sandbox according to cabal sandbox config in cabal directory",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "findCradle",
           "package": "ghc-mod",
@@ -1303,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "ghcOpts",
           "package": "ghc-mod",
@@ -1312,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "ghcOpts",
           "normalized": "[String]",
@@ -1327,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "hlintOpts",
           "package": "ghc-mod",
@@ -1336,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "hlintOpts",
           "normalized": "[String]",
@@ -1352,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining information of a target expression. (GHCi's info:)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "info",
           "package": "ghc-mod",
@@ -1361,6 +1472,7 @@
         "index": {
           "description": "Obtaining information of target expression GHCi info",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "info",
           "normalized": "Options-\u003eCradle-\u003eFilePath-\u003eModuleString-\u003eExpression-\u003eGhc String",
@@ -1376,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining information of a target expression. (GHCi's info:)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "infoExpr",
           "package": "ghc-mod",
@@ -1385,6 +1498,7 @@
         "index": {
           "description": "Obtaining information of target expression GHCi info",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "infoExpr",
           "normalized": "Options-\u003eCradle-\u003eFilePath-\u003eModuleString-\u003eExpression-\u003eIO String",
@@ -1401,6 +1515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine separator string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "lineSeparator",
           "package": "ghc-mod",
@@ -1411,6 +1526,7 @@
         "index": {
           "description": "Line separator string",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "lineSeparator",
           "package": "ghc-mod",
@@ -1425,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking syntax of a target file using hlint.\n   Warnings and errors are returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "lintSyntax",
           "package": "ghc-mod",
@@ -1434,6 +1551,7 @@
         "index": {
           "description": "Checking syntax of target file using hlint Warnings and errors are returned",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "lintSyntax",
           "normalized": "Options-\u003eFilePath-\u003eIO String",
@@ -1450,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListing GHC flags. (e.g -fno-warn-orphans)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "listFlags",
           "package": "ghc-mod",
@@ -1460,6 +1579,7 @@
         "index": {
           "description": "Listing GHC flags e.g fno-warn-orphans",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "listFlags",
           "normalized": "Options-\u003eIO String",
@@ -1476,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListing language extensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "listLanguages",
           "package": "ghc-mod",
@@ -1486,6 +1607,7 @@
         "index": {
           "description": "Listing language extensions",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "listLanguages",
           "normalized": "Options-\u003eIO String",
@@ -1502,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListing installed modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "listMods",
           "package": "ghc-mod",
@@ -1512,6 +1635,7 @@
         "index": {
           "description": "Listing installed modules",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "listMods",
           "normalized": "Options-\u003eCradle-\u003eGhc[(String,String)]",
@@ -1528,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListing installed modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "listModules",
           "package": "ghc-mod",
@@ -1538,6 +1663,7 @@
         "index": {
           "description": "Listing installed modules",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "listModules",
           "normalized": "Options-\u003eCradle-\u003eIO String",
@@ -1554,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003ebrowse\u003c/code\u003e also returns operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "operators",
           "package": "ghc-mod",
@@ -1564,6 +1691,7 @@
         "index": {
           "description": "If True browse also returns operators",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "operators",
           "package": "ghc-mod",
@@ -1576,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "outputStyle",
           "package": "ghc-mod",
@@ -1585,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "outputStyle",
           "package": "ghc-mod",
@@ -1599,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage id of module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "packageId",
           "package": "ghc-mod",
@@ -1609,6 +1740,7 @@
         "index": {
           "description": "Package id of module",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "packageId",
           "package": "ghc-mod",
@@ -1623,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003ebrowse\u003c/code\u003e will return fully qualified name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "qualified",
           "package": "ghc-mod",
@@ -1633,6 +1766,7 @@
         "index": {
           "description": "If True browse will return fully qualified name",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "qualified",
           "package": "ghc-mod",
@@ -1646,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining type of a target expression. (GHCi's type:)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "typeExpr",
           "package": "ghc-mod",
@@ -1655,6 +1790,7 @@
         "index": {
           "description": "Obtaining type of target expression GHCi type",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "typeExpr",
           "normalized": "Options-\u003eCradle-\u003eFilePath-\u003eModuleString-\u003eInt-\u003eInt-\u003eIO String",
@@ -1671,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining type of a target expression. (GHCi's type:)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "typeOf",
           "package": "ghc-mod",
@@ -1680,6 +1817,7 @@
         "index": {
           "description": "Obtaining type of target expression GHCi type",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "typeOf",
           "normalized": "Options-\u003eCradle-\u003eFilePath-\u003eModuleString-\u003eInt-\u003eInt-\u003eGhc String",
@@ -1696,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting the \u003ccode\u003e\u003ca\u003eGhc\u003c/a\u003e\u003c/code\u003e monad to the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "withGHC",
           "package": "ghc-mod",
@@ -1705,6 +1844,7 @@
         "index": {
           "description": "Converting the Ghc monad to the IO monad",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "withGHC",
           "normalized": "FilePath-\u003eGhc(a b)-\u003eIO(a b)",
@@ -1721,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting the \u003ccode\u003e\u003ca\u003eGhc\u003c/a\u003e\u003c/code\u003e monad to the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:14 UTC 2014",
           "module": "Language.Haskell.GhcMod",
           "name": "withGHCDummyFile",
           "package": "ghc-mod",
@@ -1730,6 +1871,7 @@
         "index": {
           "description": "Converting the Ghc monad to the IO monad",
           "hierarchy": "Language Haskell GhcMod",
+          "indexed": "2014-03-11T18:16:14",
           "module": "Language.Haskell.GhcMod",
           "name": "withGHCDummyFile",
           "normalized": "Ghc(a b)-\u003eIO(a b)",

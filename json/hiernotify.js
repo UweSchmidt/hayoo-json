@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hiernotify"
+        "phrase": "hiernotify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "Polling",
           "package": "hiernotify",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "Polling",
           "package": "hiernotify",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for notifiers. Minimal configuration to build a notifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "Configuration",
           "package": "hiernotify",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Configuration for notifiers Minimal configuration to build notifier",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "Configuration",
           "package": "hiernotify",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "Difference",
           "package": "hiernotify",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "Difference",
           "package": "hiernotify",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference datatype containing a difference as three sets of paths. This datatype is the core content of a notification of changes in a hierarchy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "DifferenceP",
           "package": "hiernotify",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Difference datatype containing difference as three sets of paths This datatype is the core content of notification of changes in hierarchy",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "DifferenceP",
           "package": "hiernotify",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract notifiers. A Notifier is an object controlling a hierarchy. \n\u003c/p\u003e\u003cp\u003eIts difference method will block until a Difference is available and at least a time of peace has elapsed.\n\u003c/p\u003e\u003cp\u003eReading a difference must result internally in deleting the difference and updating the list of paths. \n The list of paths read together with the difference is always the list of paths to which the difference will be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "Notifier",
           "package": "hiernotify",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Abstract notifiers Notifier is an object controlling hierarchy Its difference method will block until Difference is available and at least time of peace has elapsed Reading difference must result internally in deleting the difference and updating the list of paths The list of paths read together with the difference is always the list of paths to which the difference will be applied",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "Notifier",
           "package": "hiernotify",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "Configuration",
           "package": "hiernotify",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "Configuration",
           "package": "hiernotify",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "DifferenceP",
           "package": "hiernotify",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "DifferenceP",
           "package": "hiernotify",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "Notifier",
           "package": "hiernotify",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "Notifier",
           "package": "hiernotify",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFiles appeared\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "created",
           "package": "hiernotify",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Files appeared",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "created",
           "normalized": "[a]",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFiles disappeared\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "deleted",
           "package": "hiernotify",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Files disappeared",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "deleted",
           "normalized": "[a]",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock until next difference \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "difference",
           "package": "hiernotify",
@@ -256,6 +277,7 @@
         "index": {
           "description": "block until next difference",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "difference",
           "normalized": "IO(Difference,[FilePath])",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a polling notifier , given an interval in seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "mkPollNotifier",
           "package": "hiernotify",
@@ -280,6 +303,7 @@
         "index": {
           "description": "make polling notifier given an interval in seconds",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "mkPollNotifier",
           "normalized": "Int-\u003eConfiguration-\u003eIO Notifier",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFiles modified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "modified",
           "package": "hiernotify",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Files modified",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "modified",
           "normalized": "[a]",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilter for file paths, positive must be included \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "select",
           "package": "hiernotify",
@@ -331,6 +358,7 @@
         "index": {
           "description": "filter for file paths positive must be included",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "select",
           "normalized": "FilePath-\u003eBool",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimum time lapse in seconds where nothing changes before a difference is released\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "silence",
           "package": "hiernotify",
@@ -356,6 +385,7 @@
         "index": {
           "description": "minimum time lapse in seconds where nothing changes before difference is released",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "silence",
           "package": "hiernotify",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estop the notification daemon \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "stop",
           "package": "hiernotify",
@@ -379,6 +410,7 @@
         "index": {
           "description": "stop the notification daemon",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "stop",
           "normalized": "IO()",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edirectory at the top of the hierarchy under control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:04 UTC 2014",
           "module": "System.Hiernotify.Polling",
           "name": "top",
           "package": "hiernotify",
@@ -404,6 +437,7 @@
         "index": {
           "description": "directory at the top of the hierarchy under control",
           "hierarchy": "System Hiernotify Polling",
+          "indexed": "2014-03-11T18:39:04",
           "module": "System.Hiernotify.Polling",
           "name": "top",
           "package": "hiernotify",

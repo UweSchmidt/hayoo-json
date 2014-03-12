@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-upload"
+        "phrase": "cabal-upload",
+        "type": "phrase"
       },
       "type": "context"
     }

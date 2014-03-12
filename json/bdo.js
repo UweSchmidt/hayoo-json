@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bdo"
+        "phrase": "bdo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccepts polling requests and such.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:34 UTC 2014",
           "module": "Bdo",
           "name": "Bdo",
           "package": "bdo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Accepts polling requests and such",
           "hierarchy": "Bdo",
+          "indexed": "2014-03-11T17:17:34",
           "module": "Bdo",
           "name": "Bdo",
           "package": "bdo",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:34 UTC 2014",
           "module": "Bdo",
           "name": "startServer",
           "package": "bdo",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Bdo",
+          "indexed": "2014-03-11T17:17:34",
           "module": "Bdo",
           "name": "startServer",
           "normalized": "Int-\u003eIO()",

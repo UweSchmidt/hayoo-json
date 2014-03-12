@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "byteable"
+        "phrase": "byteable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:22 UTC 2014",
           "module": "Data.Byteable",
           "name": "Byteable",
           "package": "byteable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Byteable",
+          "indexed": "2014-03-11T17:26:22",
           "module": "Data.Byteable",
           "name": "Byteable",
           "package": "byteable",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things that can generate sequence of bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:22 UTC 2014",
           "module": "Data.Byteable",
           "name": "Byteable",
           "package": "byteable",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Class of things that can generate sequence of bytes",
           "hierarchy": "Data Byteable",
+          "indexed": "2014-03-11T17:26:22",
           "module": "Data.Byteable",
           "name": "Byteable",
           "package": "byteable",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size of the byteable .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:22 UTC 2014",
           "module": "Data.Byteable",
           "name": "byteableLength",
           "package": "byteable",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Return the size of the byteable",
           "hierarchy": "Data Byteable",
+          "indexed": "2014-03-11T17:26:22",
           "module": "Data.Byteable",
           "name": "byteableLength",
           "normalized": "a-\u003eInt",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constant time equality test for 2 byteable objects.\n\u003c/p\u003e\u003cp\u003eIf objects are of 2 different sizes, the function will abort early\n without comparing any bytes.\n\u003c/p\u003e\u003cp\u003ecompared to == , this function will go over all the bytes\n present before yielding a result even when knowing the\n overall result early in the processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:22 UTC 2014",
           "module": "Data.Byteable",
           "name": "constEqBytes",
           "package": "byteable",
@@ -99,6 +106,7 @@
         "index": {
           "description": "constant time equality test for byteable objects If objects are of different sizes the function will abort early without comparing any bytes compared to this function will go over all the bytes present before yielding result even when knowing the overall result early in the processing",
           "hierarchy": "Data Byteable",
+          "indexed": "2014-03-11T17:26:22",
           "module": "Data.Byteable",
           "name": "constEqBytes",
           "normalized": "a-\u003ea-\u003eBool",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a byteable type to a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:22 UTC 2014",
           "module": "Data.Byteable",
           "name": "toBytes",
           "package": "byteable",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Convert byteable type to bytestring",
           "hierarchy": "Data Byteable",
+          "indexed": "2014-03-11T17:26:22",
           "module": "Data.Byteable",
           "name": "toBytes",
           "normalized": "a-\u003eByteString",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a way to look at the data of a byteable type with a ptr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:22 UTC 2014",
           "module": "Data.Byteable",
           "name": "withBytePtr",
           "package": "byteable",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Provide way to look at the data of byteable type with ptr",
           "hierarchy": "Data Byteable",
+          "indexed": "2014-03-11T17:26:22",
           "module": "Data.Byteable",
           "name": "withBytePtr",
           "normalized": "a-\u003e(Ptr Word-\u003eIO b)-\u003eIO b",

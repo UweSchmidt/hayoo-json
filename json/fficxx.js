@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fficxx"
+        "phrase": "fficxx",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cabal",
           "name": "Cabal",
           "package": "fficxx",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cabal",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cabal",
           "name": "Cabal",
           "package": "fficxx",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cabal",
           "name": "cabalIndentation",
           "package": "fficxx",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cabal",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cabal",
           "name": "cabalIndentation",
           "package": "fficxx",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate exposed module list in cabal file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cabal",
           "name": "genExposedModules",
           "package": "fficxx",
@@ -72,6 +77,7 @@
         "index": {
           "description": "generate exposed module list in cabal file",
           "hierarchy": "FFICXX Generate Code Cabal",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cabal",
           "name": "genExposedModules",
           "normalized": "String-\u003e[ClassModule]-\u003eString",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate other modules in cabal file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cabal",
           "name": "genOtherModules",
           "package": "fficxx",
@@ -98,6 +105,7 @@
         "index": {
           "description": "generate other modules in cabal file",
           "hierarchy": "FFICXX Generate Code Cabal",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cabal",
           "name": "genOtherModules",
           "normalized": "[ClassModule]-\u003eString",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "Cpp",
           "package": "fficxx",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "Cpp",
           "package": "fficxx",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppDefInstNonVirtual",
           "package": "fficxx",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppDefInstNonVirtual",
           "normalized": "[Class]-\u003eString",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppDefTmplNonVirtual",
           "package": "fficxx",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppDefTmplNonVirtual",
           "normalized": "[Class]-\u003eString",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppDefTmplVirtual",
           "package": "fficxx",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppDefTmplVirtual",
           "normalized": "[Class]-\u003eString",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderInclude",
           "package": "fficxx",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderInclude",
           "normalized": "ClassImportHeader-\u003eString",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderInstNonVirtual",
           "package": "fficxx",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderInstNonVirtual",
           "normalized": "[Class]-\u003eString",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderTmplNonVirtual",
           "package": "fficxx",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderTmplNonVirtual",
           "normalized": "[Class]-\u003eString",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderTmplType",
           "package": "fficxx",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderTmplType",
           "normalized": "[Class]-\u003eString",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderTmplVirtual",
           "package": "fficxx",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genAllCppHeaderTmplVirtual",
           "normalized": "[Class]-\u003eString",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppDefInstNonVirtual",
           "package": "fficxx",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppDefInstNonVirtual",
           "normalized": "Class-\u003eString",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppDefInstVirtual",
           "package": "fficxx",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppDefInstVirtual",
           "normalized": "(Class,Class)-\u003eString",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppDefTmplNonVirtual",
           "package": "fficxx",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppDefTmplNonVirtual",
           "normalized": "Class-\u003eString",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppDefTmplVirtual",
           "package": "fficxx",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppDefTmplVirtual",
           "normalized": "Class-\u003eString",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppFiles",
           "package": "fficxx",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppFiles",
           "normalized": "[ClassModule]-\u003eString",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderInstNonVirtual",
           "package": "fficxx",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderInstNonVirtual",
           "normalized": "Class-\u003eString",
@@ -470,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderInstVirtual",
           "package": "fficxx",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderInstVirtual",
           "normalized": "(Class,Class)-\u003eString",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderTmplNonVirtual",
           "package": "fficxx",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderTmplNonVirtual",
           "normalized": "Class-\u003eString",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderTmplType",
           "package": "fficxx",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderTmplType",
           "normalized": "Class-\u003eString",
@@ -542,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderTmplVirtual",
           "package": "fficxx",
@@ -551,6 +596,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCppHeaderTmplVirtual",
           "normalized": "Class-\u003eString",
@@ -566,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCsrcFiles",
           "package": "fficxx",
@@ -575,6 +622,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genCsrcFiles",
           "normalized": "[ClassModule]-\u003eString",
@@ -590,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genIncludeFiles",
           "package": "fficxx",
@@ -598,6 +647,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genIncludeFiles",
           "normalized": "String-\u003e[ClassModule]-\u003eString",
@@ -613,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genModuleIncludeHeader",
           "package": "fficxx",
@@ -622,6 +673,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Cpp",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Cpp",
           "name": "genModuleIncludeHeader",
           "normalized": "[ClassImportHeader]-\u003eString",
@@ -637,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "Dependency",
           "package": "fficxx",
@@ -645,6 +698,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "Dependency",
           "package": "fficxx",
@@ -659,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclass dependency for a given function \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "Dep4Func",
           "package": "fficxx",
@@ -668,6 +723,7 @@
         "index": {
           "description": "class dependency for given function",
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "Dep4Func",
           "package": "fficxx",
@@ -681,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "Dep4Func",
           "package": "fficxx",
@@ -690,6 +747,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "Dep4Func",
           "package": "fficxx",
@@ -703,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "argumentDependency",
           "package": "fficxx",
@@ -712,6 +771,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "argumentDependency",
           "normalized": "[Class]",
@@ -727,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "extractClassDep",
           "package": "fficxx",
@@ -736,6 +797,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "extractClassDep",
           "normalized": "Function-\u003eDep Func",
@@ -751,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "extractClassFromType",
           "package": "fficxx",
@@ -760,6 +823,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "extractClassFromType",
           "normalized": "Types-\u003eMaybe Class",
@@ -775,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkAllClassModulesAndCIH",
           "package": "fficxx",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkAllClassModulesAndCIH",
           "normalized": "(String,Class-\u003e([Namespace],[String]))-\u003e[Class]-\u003e([ClassModule],[ClassImportHeader])",
@@ -798,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkCIH",
           "package": "fficxx",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkCIH",
           "normalized": "(Class-\u003e([Namespace],[String]))-\u003eClass-\u003eClassImportHeader",
@@ -821,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkClassModule",
           "package": "fficxx",
@@ -830,6 +899,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkClassModule",
           "normalized": "(String,Class-\u003e([Namespace],[String]))-\u003eClass-\u003eClassModule",
@@ -845,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkHSBOOTCandidateList",
           "package": "fficxx",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkHSBOOTCandidateList",
           "normalized": "[ClassModule]-\u003e[String]",
@@ -869,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepCpp",
           "package": "fficxx",
@@ -878,6 +951,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepCpp",
           "normalized": "Class-\u003e[Class]",
@@ -893,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepFFI",
           "package": "fficxx",
@@ -902,6 +977,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepFFI",
           "normalized": "Class-\u003e[Class]",
@@ -917,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepFFI4One",
           "package": "fficxx",
@@ -926,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepFFI4One",
           "normalized": "Class-\u003e[Class]",
@@ -941,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepHighNonSource",
           "package": "fficxx",
@@ -950,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepHighNonSource",
           "normalized": "Class-\u003e[Class]",
@@ -965,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepHighSource",
           "package": "fficxx",
@@ -974,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepHighSource",
           "normalized": "Class-\u003e[Class]",
@@ -989,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepRaw",
           "package": "fficxx",
@@ -998,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkModuleDepRaw",
           "normalized": "Class-\u003e[Class]",
@@ -1013,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkPkgCppFileName",
           "package": "fficxx",
@@ -1022,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkPkgCppFileName",
           "normalized": "Class-\u003eString",
@@ -1037,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkPkgHeaderFileName",
           "package": "fficxx",
@@ -1046,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkPkgHeaderFileName",
           "normalized": "Class-\u003eString",
@@ -1061,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkPkgIncludeHeadersInCPP",
           "package": "fficxx",
@@ -1070,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkPkgIncludeHeadersInCPP",
           "normalized": "Class-\u003e[String]",
@@ -1085,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkPkgIncludeHeadersInH",
           "package": "fficxx",
@@ -1094,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "mkPkgIncludeHeadersInH",
           "normalized": "Class-\u003e[String]",
@@ -1109,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "returnDependency",
           "package": "fficxx",
@@ -1118,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code Dependency",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.Dependency",
           "name": "returnDependency",
           "package": "fficxx",
@@ -1131,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "HsFFI",
           "package": "fficxx",
@@ -1139,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFFI",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "HsFFI",
           "package": "fficxx",
@@ -1152,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "ffistub",
           "package": "fficxx",
@@ -1161,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFFI",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "ffistub",
           "package": "fficxx",
@@ -1173,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "genAllHsFFI",
           "package": "fficxx",
@@ -1182,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFFI",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "genAllHsFFI",
           "normalized": "[ClassImportHeader]-\u003eString",
@@ -1197,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "genHsFFI",
           "package": "fficxx",
@@ -1206,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFFI",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "genHsFFI",
           "normalized": "ClassImportHeader-\u003eString",
@@ -1221,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "hsFFIClassFunc",
           "package": "fficxx",
@@ -1230,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFFI",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFFI",
           "name": "hsFFIClassFunc",
           "normalized": "FilePath-\u003eClass-\u003eFunction-\u003eString",
@@ -1245,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "HsFrontEnd",
           "package": "fficxx",
@@ -1253,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "HsFrontEnd",
           "package": "fficxx",
@@ -1266,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "classprefix",
           "package": "fficxx",
@@ -1275,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "classprefix",
           "normalized": "Class-\u003eString",
@@ -1289,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "existableInstance",
           "package": "fficxx",
@@ -1298,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "existableInstance",
           "package": "fficxx",
@@ -1311,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontDecl",
           "package": "fficxx",
@@ -1320,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontDecl",
           "normalized": "[Class]-\u003eReader AnnotateMap String",
@@ -1335,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontDowncastClass",
           "package": "fficxx",
@@ -1344,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontDowncastClass",
           "normalized": "[Class]-\u003eReader AnnotateMap String",
@@ -1359,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstCastable",
           "package": "fficxx",
@@ -1368,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstCastable",
           "normalized": "[Class]-\u003eString",
@@ -1383,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstExistCommon",
           "package": "fficxx",
@@ -1392,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstExistCommon",
           "normalized": "[Class]-\u003eString",
@@ -1407,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstExistVirtual",
           "package": "fficxx",
@@ -1416,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstExistVirtual",
           "normalized": "[Class]-\u003eDaughterMap-\u003eString",
@@ -1431,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstNew",
           "package": "fficxx",
@@ -1439,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstNew",
           "normalized": "[Class]-\u003eReader AnnotateMap String",
@@ -1454,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstNonVirtual",
           "package": "fficxx",
@@ -1463,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontInstNonVirtual",
           "normalized": "[Class]-\u003eString",
@@ -1478,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontUpcastClass",
           "package": "fficxx",
@@ -1487,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genAllHsFrontUpcastClass",
           "normalized": "[Class]-\u003eReader AnnotateMap String",
@@ -1502,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genExport",
           "package": "fficxx",
@@ -1511,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genExport",
           "normalized": "Class-\u003eString",
@@ -1527,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructor and non-virtual function \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genExportConstructorAndNonvirtual",
           "package": "fficxx",
@@ -1537,6 +1666,7 @@
         "index": {
           "description": "constructor and non-virtual function",
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genExportConstructorAndNonvirtual",
           "normalized": "Class-\u003eString",
@@ -1552,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genExportList",
           "package": "fficxx",
@@ -1561,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genExportList",
           "normalized": "[Class]-\u003eString",
@@ -1577,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estaic function export list \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genExportStatic",
           "package": "fficxx",
@@ -1587,6 +1720,7 @@
         "index": {
           "description": "staic function export list",
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genExportStatic",
           "normalized": "Class-\u003eString",
@@ -1602,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontDecl",
           "package": "fficxx",
@@ -1611,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontDecl",
           "normalized": "Class-\u003eReader AnnotateMap String",
@@ -1626,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontDowncastClass",
           "package": "fficxx",
@@ -1635,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontDowncastClass",
           "normalized": "Class-\u003eReader AnnotateMap String",
@@ -1650,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInst",
           "package": "fficxx",
@@ -1659,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInst",
           "normalized": "Class-\u003eClass-\u003eString",
@@ -1674,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstCastable",
           "package": "fficxx",
@@ -1683,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstCastable",
           "normalized": "Class-\u003eString",
@@ -1698,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstCastableSelf",
           "package": "fficxx",
@@ -1707,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstCastableSelf",
           "normalized": "Class-\u003eString",
@@ -1722,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstExistCommon",
           "package": "fficxx",
@@ -1731,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstExistCommon",
           "normalized": "Class-\u003eString",
@@ -1746,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstExistVirtual",
           "package": "fficxx",
@@ -1755,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstExistVirtual",
           "normalized": "Class-\u003eClass-\u003eString",
@@ -1770,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstExistVirtualMethod",
           "package": "fficxx",
@@ -1779,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstExistVirtualMethod",
           "normalized": "Class-\u003eClass-\u003eFunction-\u003eString",
@@ -1794,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstNew",
           "package": "fficxx",
@@ -1802,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstNew",
           "normalized": "Class-\u003eReader AnnotateMap(Maybe String)",
@@ -1817,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstNonVirtual",
           "package": "fficxx",
@@ -1826,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstNonVirtual",
           "normalized": "Class-\u003eMaybe String",
@@ -1841,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstStatic",
           "package": "fficxx",
@@ -1850,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontInstStatic",
           "normalized": "Class-\u003eMaybe String",
@@ -1865,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontUpcastClass",
           "package": "fficxx",
@@ -1874,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genHsFrontUpcastClass",
           "normalized": "Class-\u003eReader AnnotateMap String",
@@ -1889,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInCast",
           "package": "fficxx",
@@ -1898,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInCast",
           "normalized": "ClassModule-\u003eString",
@@ -1913,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInExistential",
           "package": "fficxx",
@@ -1922,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInExistential",
           "normalized": "DaughterMap-\u003eClassModule-\u003eString",
@@ -1937,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInFFI",
           "package": "fficxx",
@@ -1946,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInFFI",
           "normalized": "ClassModule-\u003eString",
@@ -1961,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInImplementation",
           "package": "fficxx",
@@ -1970,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInImplementation",
           "normalized": "ClassModule-\u003eString",
@@ -1985,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInInterface",
           "package": "fficxx",
@@ -1994,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInInterface",
           "normalized": "ClassModule-\u003eString",
@@ -2009,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInModule",
           "package": "fficxx",
@@ -2018,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genImportInModule",
           "normalized": "[Class]-\u003eString",
@@ -2033,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genModuleDecl",
           "package": "fficxx",
@@ -2042,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "genModuleDecl",
           "normalized": "Module-\u003eReader AnnotateMap String",
@@ -2057,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsArgs",
           "package": "fficxx",
@@ -2066,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsArgs",
           "normalized": "Class-\u003eArgs-\u003eString",
@@ -2081,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassDeclFuncTmpl",
           "package": "fficxx",
@@ -2090,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassDeclFuncTmpl",
           "package": "fficxx",
@@ -2103,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassDeclHeaderTmpl",
           "package": "fficxx",
@@ -2112,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassDeclHeaderTmpl",
           "package": "fficxx",
@@ -2125,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassExistType",
           "package": "fficxx",
@@ -2134,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassExistType",
           "normalized": "Class-\u003eString",
@@ -2149,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassInstExistCommonTmpl",
           "package": "fficxx",
@@ -2158,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassInstExistCommonTmpl",
           "package": "fficxx",
@@ -2171,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassInstExistVirtualMethodNoSelfTmpl",
           "package": "fficxx",
@@ -2180,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassInstExistVirtualMethodNoSelfTmpl",
           "package": "fficxx",
@@ -2193,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassInstExistVirtualMethodSelfTmpl",
           "package": "fficxx",
@@ -2202,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassInstExistVirtualMethodSelfTmpl",
           "package": "fficxx",
@@ -2215,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassInstExistVirtualTmpl",
           "package": "fficxx",
@@ -2224,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassInstExistVirtualTmpl",
           "package": "fficxx",
@@ -2237,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassRawType",
           "package": "fficxx",
@@ -2246,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsClassRawType",
           "normalized": "Class-\u003eString",
@@ -2261,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsDowncastClassTmpl",
           "package": "fficxx",
@@ -2270,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsDowncastClassTmpl",
           "package": "fficxx",
@@ -2283,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsExistentialCastBodyTmpl",
           "package": "fficxx",
@@ -2292,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsExistentialCastBodyTmpl",
           "package": "fficxx",
@@ -2305,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsExistentialGADTBodyTmpl",
           "package": "fficxx",
@@ -2314,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsExistentialGADTBodyTmpl",
           "package": "fficxx",
@@ -2327,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsInterfaceCastableInstanceSelfTmpl",
           "package": "fficxx",
@@ -2336,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsInterfaceCastableInstanceSelfTmpl",
           "package": "fficxx",
@@ -2349,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsInterfaceCastableInstanceTmpl",
           "package": "fficxx",
@@ -2358,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsInterfaceCastableInstanceTmpl",
           "package": "fficxx",
@@ -2371,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsModuleDeclTmpl",
           "package": "fficxx",
@@ -2380,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsModuleDeclTmpl",
           "package": "fficxx",
@@ -2393,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsUpcastClassTmpl",
           "package": "fficxx",
@@ -2402,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "hsUpcastClassTmpl",
           "package": "fficxx",
@@ -2415,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "importOneClass",
           "package": "fficxx",
@@ -2424,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "importOneClass",
           "normalized": "String-\u003eString-\u003eString",
@@ -2439,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "importSOURCEOneClass",
           "package": "fficxx",
@@ -2448,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "importSOURCEOneClass",
           "normalized": "String-\u003eString-\u003eString",
@@ -2463,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "mkComment",
           "package": "fficxx",
@@ -2472,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "mkComment",
           "normalized": "Int-\u003eString-\u003eString",
@@ -2487,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "mkHsFuncArgType",
           "package": "fficxx",
@@ -2496,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "mkHsFuncArgType",
           "normalized": "Class-\u003eArgs-\u003e([String],[String])",
@@ -2511,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "mkHsFuncRetType",
           "package": "fficxx",
@@ -2520,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "mkHsFuncRetType",
           "normalized": "Class-\u003eFunction-\u003e(String,[String])",
@@ -2535,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "mkPostComment",
           "package": "fficxx",
@@ -2544,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "mkPostComment",
           "normalized": "String-\u003eString",
@@ -2559,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "rawToHighDecl",
           "package": "fficxx",
@@ -2568,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "rawToHighDecl",
           "package": "fficxx",
@@ -2581,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "rawToHighInstance",
           "package": "fficxx",
@@ -2590,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code HsFrontEnd",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.HsFrontEnd",
           "name": "rawToHighInstance",
           "package": "fficxx",
@@ -2603,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "MethodDef",
           "package": "fficxx",
@@ -2611,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code MethodDef",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "MethodDef",
           "package": "fficxx",
@@ -2624,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "funcToDecl",
           "package": "fficxx",
@@ -2633,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code MethodDef",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "funcToDecl",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -2648,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "funcToDef",
           "package": "fficxx",
@@ -2657,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code MethodDef",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "funcToDef",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -2672,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "funcsToDecls",
           "package": "fficxx",
@@ -2681,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code MethodDef",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "funcsToDecls",
           "normalized": "Class-\u003e[Function]-\u003eString",
@@ -2696,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "funcsToDefs",
           "package": "fficxx",
@@ -2705,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Code MethodDef",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Code.MethodDef",
           "name": "funcsToDefs",
           "normalized": "Class-\u003e[Function]-\u003eString",
@@ -2720,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Config",
           "name": "Config",
           "package": "fficxx",
@@ -2728,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Config",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Config",
           "name": "Config",
           "package": "fficxx",
@@ -2741,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Config",
           "name": "FFICXXConfig",
           "package": "fficxx",
@@ -2749,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Config",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Config",
           "name": "FFICXXConfig",
           "package": "fficxx",
@@ -2762,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Config",
           "name": "FFICXXConfig",
           "package": "fficxx",
@@ -2771,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Config",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Config",
           "name": "FFICXXConfig",
           "package": "fficxx",
@@ -2784,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Config",
           "name": "fficxxconfig_installBaseDir",
           "package": "fficxx",
@@ -2793,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Config",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Config",
           "name": "fficxxconfig_installBaseDir",
           "package": "fficxx",
@@ -2806,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Config",
           "name": "fficxxconfig_scriptBaseDir",
           "package": "fficxx",
@@ -2815,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Config",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Config",
           "name": "fficxxconfig_scriptBaseDir",
           "package": "fficxx",
@@ -2828,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Config",
           "name": "fficxxconfig_workingDir",
           "package": "fficxx",
@@ -2837,6 +3078,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Config",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Config",
           "name": "fficxxconfig_workingDir",
           "package": "fficxx",
@@ -2850,6 +3092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "ContentMaker",
           "package": "fficxx",
@@ -2858,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "ContentMaker",
           "package": "fficxx",
@@ -2871,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "castHsFileName",
           "package": "fficxx",
@@ -2880,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "castHsFileName",
           "package": "fficxx",
@@ -2893,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "classDefTemplate",
           "package": "fficxx",
@@ -2902,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "classDefTemplate",
           "package": "fficxx",
@@ -2915,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "cppFileName",
           "package": "fficxx",
@@ -2924,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "cppFileName",
           "package": "fficxx",
@@ -2937,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "csrcDir",
           "package": "fficxx",
@@ -2946,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "csrcDir",
           "normalized": "FilePath-\u003eFilePath",
@@ -2961,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "declarationTemplate",
           "package": "fficxx",
@@ -2970,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "declarationTemplate",
           "package": "fficxx",
@@ -2983,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "declbodyTemplate",
           "package": "fficxx",
@@ -2992,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "declbodyTemplate",
           "package": "fficxx",
@@ -3005,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "definitionTemplate",
           "package": "fficxx",
@@ -3014,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "definitionTemplate",
           "package": "fficxx",
@@ -3027,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "existHsFileName",
           "package": "fficxx",
@@ -3036,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "existHsFileName",
           "package": "fficxx",
@@ -3049,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "existentialHsFileName",
           "package": "fficxx",
@@ -3058,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "existentialHsFileName",
           "package": "fficxx",
@@ -3071,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "ffiHscFileName",
           "package": "fficxx",
@@ -3080,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "ffiHscFileName",
           "package": "fficxx",
@@ -3093,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "funcbodyTemplate",
           "package": "fficxx",
@@ -3102,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "funcbodyTemplate",
           "package": "fficxx",
@@ -3115,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "funcdeclTemplate",
           "package": "fficxx",
@@ -3124,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "funcdeclTemplate",
           "package": "fficxx",
@@ -3137,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "functionTemplate",
           "package": "fficxx",
@@ -3146,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "functionTemplate",
           "package": "fficxx",
@@ -3159,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "headerFileName",
           "package": "fficxx",
@@ -3168,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "headerFileName",
           "package": "fficxx",
@@ -3181,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "hsFileName",
           "package": "fficxx",
@@ -3190,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "hsFileName",
           "package": "fficxx",
@@ -3203,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "hsbootTemplate",
           "package": "fficxx",
@@ -3212,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "hsbootTemplate",
           "package": "fficxx",
@@ -3225,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "hscFileName",
           "package": "fficxx",
@@ -3234,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "hscFileName",
           "package": "fficxx",
@@ -3247,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "implementationHsFileName",
           "package": "fficxx",
@@ -3256,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "implementationHsFileName",
           "package": "fficxx",
@@ -3269,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "interfaceHsFileName",
           "package": "fficxx",
@@ -3278,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "interfaceHsFileName",
           "package": "fficxx",
@@ -3291,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkCastHs",
           "package": "fficxx",
@@ -3300,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkCastHs",
           "normalized": "STGroup String-\u003eClassModule-\u003eString",
@@ -3315,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkDaughterDef",
           "package": "fficxx",
@@ -3324,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkDaughterDef",
           "normalized": "((String,[Class])-\u003eString)-\u003eDaughterMap-\u003eString",
@@ -3339,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkDeclHeader",
           "package": "fficxx",
@@ -3347,6 +3634,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkDeclHeader",
           "normalized": "STGroup String-\u003eTypeMacro-\u003eString-\u003eClassImportHeader-\u003eString",
@@ -3362,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkDefMain",
           "package": "fficxx",
@@ -3371,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkDefMain",
           "normalized": "STGroup String-\u003eClassImportHeader-\u003eString",
@@ -3386,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkExistentialEach",
           "package": "fficxx",
@@ -3395,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkExistentialEach",
           "normalized": "STGroup String-\u003eClass-\u003e[Class]-\u003eString",
@@ -3410,6 +3702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkExistentialHs",
           "package": "fficxx",
@@ -3419,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkExistentialHs",
           "normalized": "STGroup String-\u003eClassGlobal-\u003eClassModule-\u003eString",
@@ -3434,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkFFIHsc",
           "package": "fficxx",
@@ -3443,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkFFIHsc",
           "normalized": "STGroup String-\u003eClassModule-\u003eString",
@@ -3458,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkGlobal",
           "package": "fficxx",
@@ -3467,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkGlobal",
           "normalized": "[Class]-\u003eClassGlobal",
@@ -3482,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkImplementationHs",
           "package": "fficxx",
@@ -3490,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkImplementationHs",
           "normalized": "AnnotateMap-\u003eSTGroup String-\u003eClassModule-\u003eString",
@@ -3505,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkInterfaceHSBOOT",
           "package": "fficxx",
@@ -3514,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkInterfaceHSBOOT",
           "normalized": "STGroup String-\u003eString-\u003eString",
@@ -3529,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkInterfaceHs",
           "package": "fficxx",
@@ -3538,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkInterfaceHs",
           "normalized": "AnnotateMap-\u003eSTGroup String-\u003eClassModule-\u003eString",
@@ -3553,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkModuleHs",
           "package": "fficxx",
@@ -3562,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkModuleHs",
           "normalized": "STGroup String-\u003eClassModule-\u003eString",
@@ -3577,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkPackageInterface",
           "package": "fficxx",
@@ -3586,6 +3893,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkPackageInterface",
           "normalized": "PackageInterface-\u003ePackageName-\u003e[ClassImportHeader]-\u003ePackageInterface",
@@ -3601,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkParentDef",
           "package": "fficxx",
@@ -3610,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkParentDef",
           "normalized": "((Class,Class)-\u003eString)-\u003eClass-\u003eString",
@@ -3625,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkProtectedFunctionList",
           "package": "fficxx",
@@ -3634,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkProtectedFunctionList",
           "normalized": "Class-\u003eString",
@@ -3649,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkRawTypeHs",
           "package": "fficxx",
@@ -3658,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkRawTypeHs",
           "normalized": "STGroup String-\u003eClassModule-\u003eString",
@@ -3673,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkTypeDeclHeader",
           "package": "fficxx",
@@ -3681,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "mkTypeDeclHeader",
           "normalized": "STGroup String-\u003eTypeMacro-\u003e[Class]-\u003eString",
@@ -3696,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "moduleTemplate",
           "package": "fficxx",
@@ -3705,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "moduleTemplate",
           "package": "fficxx",
@@ -3718,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "rawtypeHsFileName",
           "package": "fficxx",
@@ -3727,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "rawtypeHsFileName",
           "package": "fficxx",
@@ -3740,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "srcDir",
           "package": "fficxx",
@@ -3749,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "srcDir",
           "normalized": "FilePath-\u003eFilePath",
@@ -3764,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "typeDeclHeaderFileName",
           "package": "fficxx",
@@ -3773,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "typeDeclHeaderFileName",
           "package": "fficxx",
@@ -3786,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "typeHsFileName",
           "package": "fficxx",
@@ -3795,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator ContentMaker",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.ContentMaker",
           "name": "typeHsFileName",
           "package": "fficxx",
@@ -3808,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "Driver",
           "package": "fficxx",
@@ -3816,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "Driver",
           "package": "fficxx",
@@ -3829,6 +4157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "copyCppFiles",
           "package": "fficxx",
@@ -3838,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "copyCppFiles",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003eClassImportHeader-\u003eIO()",
@@ -3853,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "copyFileWithMD5Check",
           "package": "fficxx",
@@ -3862,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "copyFileWithMD5Check",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -3877,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "copyModule",
           "package": "fficxx",
@@ -3886,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "copyModule",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003eClassModule-\u003eIO()",
@@ -3901,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "notExistThenCreate",
           "package": "fficxx",
@@ -3910,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "notExistThenCreate",
           "normalized": "FilePath-\u003eIO()",
@@ -3925,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeCastHs",
           "package": "fficxx",
@@ -3934,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeCastHs",
           "normalized": "STGroup String-\u003eFilePath-\u003eClassModule-\u003eIO()",
@@ -3949,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeCppDef",
           "package": "fficxx",
@@ -3958,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeCppDef",
           "normalized": "STGroup String-\u003eFilePath-\u003eClassImportHeader-\u003eIO()",
@@ -3973,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeDeclHeaders",
           "package": "fficxx",
@@ -3981,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeDeclHeaders",
           "normalized": "STGroup String-\u003eFilePath-\u003eTypeMacro-\u003eString-\u003eClassImportHeader-\u003eIO()",
@@ -3996,6 +4338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeExistentialHs",
           "package": "fficxx",
@@ -4005,6 +4348,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeExistentialHs",
           "normalized": "STGroup String-\u003eClassGlobal-\u003eFilePath-\u003eClassModule-\u003eIO()",
@@ -4020,6 +4364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeFFIHsc",
           "package": "fficxx",
@@ -4029,6 +4374,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeFFIHsc",
           "normalized": "STGroup String-\u003eFilePath-\u003eClassModule-\u003eIO()",
@@ -4044,6 +4390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeImplementationHs",
           "package": "fficxx",
@@ -4053,6 +4400,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeImplementationHs",
           "normalized": "AnnotateMap-\u003eSTGroup String-\u003eFilePath-\u003eClassModule-\u003eIO()",
@@ -4068,6 +4416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeInterfaceHSBOOT",
           "package": "fficxx",
@@ -4077,6 +4426,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeInterfaceHSBOOT",
           "normalized": "STGroup String-\u003eFilePath-\u003eString-\u003eIO()",
@@ -4092,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeInterfaceHs",
           "package": "fficxx",
@@ -4101,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeInterfaceHs",
           "normalized": "AnnotateMap-\u003eSTGroup String-\u003eFilePath-\u003eClassModule-\u003eIO()",
@@ -4116,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeModuleHs",
           "package": "fficxx",
@@ -4125,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeModuleHs",
           "normalized": "STGroup String-\u003eFilePath-\u003eClassModule-\u003eIO()",
@@ -4140,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writePkgHs",
           "package": "fficxx",
@@ -4148,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writePkgHs",
           "normalized": "String-\u003eSTGroup String-\u003eFilePath-\u003e[ClassModule]-\u003eIO()",
@@ -4163,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeRawTypeHs",
           "package": "fficxx",
@@ -4172,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeRawTypeHs",
           "normalized": "STGroup String-\u003eFilePath-\u003eClassModule-\u003eIO()",
@@ -4187,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeTypeDeclHeaders",
           "package": "fficxx",
@@ -4195,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Generator Driver",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Generator.Driver",
           "name": "writeTypeDeclHeaders",
           "normalized": "STGroup String-\u003eFilePath-\u003eTypeMacro-\u003eString-\u003e[ClassImportHeader]-\u003eIO()",
@@ -4210,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.QQ.Verbatim",
           "name": "Verbatim",
           "package": "fficxx",
@@ -4218,6 +4579,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate QQ Verbatim",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.QQ.Verbatim",
           "name": "Verbatim",
           "package": "fficxx",
@@ -4231,6 +4593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.QQ.Verbatim",
           "name": "verbatim",
           "package": "fficxx",
@@ -4240,6 +4603,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate QQ Verbatim",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.QQ.Verbatim",
           "name": "verbatim",
           "package": "fficxx",
@@ -4252,6 +4616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "Annotate",
           "package": "fficxx",
@@ -4260,6 +4625,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Annotate",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "Annotate",
           "package": "fficxx",
@@ -4273,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "AnnotateMap",
           "package": "fficxx",
@@ -4281,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Annotate",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "AnnotateMap",
           "package": "fficxx",
@@ -4294,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "PkgType",
           "package": "fficxx",
@@ -4302,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Annotate",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "PkgType",
           "package": "fficxx",
@@ -4315,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "PkgClass",
           "package": "fficxx",
@@ -4324,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Annotate",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "PkgClass",
           "package": "fficxx",
@@ -4337,6 +4709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "PkgMethod",
           "package": "fficxx",
@@ -4346,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Annotate",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "PkgMethod",
           "package": "fficxx",
@@ -4359,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "PkgModule",
           "package": "fficxx",
@@ -4368,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Annotate",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Annotate",
           "name": "PkgModule",
           "package": "fficxx",
@@ -4381,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Class",
           "package": "fficxx",
@@ -4389,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Class",
           "package": "fficxx",
@@ -4402,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Args",
           "package": "fficxx",
@@ -4410,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Args",
           "package": "fficxx",
@@ -4423,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CPPTypes",
           "package": "fficxx",
@@ -4431,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CPPTypes",
           "package": "fficxx",
@@ -4444,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTypes",
           "package": "fficxx",
@@ -4452,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTypes",
           "package": "fficxx",
@@ -4465,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Cabal",
           "package": "fficxx",
@@ -4473,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Cabal",
           "package": "fficxx",
@@ -4486,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Class",
           "package": "fficxx",
@@ -4494,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Class",
           "package": "fficxx",
@@ -4507,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassGlobal",
           "package": "fficxx",
@@ -4515,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassGlobal",
           "package": "fficxx",
@@ -4528,6 +4918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassImportHeader",
           "package": "fficxx",
@@ -4536,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassImportHeader",
           "package": "fficxx",
@@ -4549,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassModule",
           "package": "fficxx",
@@ -4557,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassModule",
           "package": "fficxx",
@@ -4570,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "DaughterMap",
           "package": "fficxx",
@@ -4578,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "DaughterMap",
           "package": "fficxx",
@@ -4591,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Function",
           "package": "fficxx",
@@ -4599,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Function",
           "package": "fficxx",
@@ -4612,6 +5010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "IsConst",
           "package": "fficxx",
@@ -4620,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "IsConst",
           "package": "fficxx",
@@ -4633,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Namespace",
           "package": "fficxx",
@@ -4641,6 +5042,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Namespace",
           "package": "fficxx",
@@ -4654,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ProtectedMethod",
           "package": "fficxx",
@@ -4662,6 +5065,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ProtectedMethod",
           "package": "fficxx",
@@ -4675,6 +5079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Types",
           "package": "fficxx",
@@ -4683,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Types",
           "package": "fficxx",
@@ -4696,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "AbstractClass",
           "package": "fficxx",
@@ -4705,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "AbstractClass",
           "package": "fficxx",
@@ -4718,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "AliasVirtual",
           "package": "fficxx",
@@ -4727,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "AliasVirtual",
           "package": "fficxx",
@@ -4740,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CPT",
           "package": "fficxx",
@@ -4749,6 +5160,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CPT",
           "package": "fficxx",
@@ -4762,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CPTClass",
           "package": "fficxx",
@@ -4771,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CPTClass",
           "package": "fficxx",
@@ -4784,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CPTClassRef",
           "package": "fficxx",
@@ -4793,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CPTClassRef",
           "package": "fficxx",
@@ -4806,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CT",
           "package": "fficxx",
@@ -4815,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CT",
           "package": "fficxx",
@@ -4828,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTBool",
           "package": "fficxx",
@@ -4837,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTBool",
           "package": "fficxx",
@@ -4850,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTCharStarStar",
           "package": "fficxx",
@@ -4859,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTCharStarStar",
           "package": "fficxx",
@@ -4872,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTDouble",
           "package": "fficxx",
@@ -4881,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTDouble",
           "package": "fficxx",
@@ -4894,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTDoubleStar",
           "package": "fficxx",
@@ -4903,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTDoubleStar",
           "package": "fficxx",
@@ -4916,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTInt",
           "package": "fficxx",
@@ -4925,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTInt",
           "package": "fficxx",
@@ -4938,6 +5366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTIntStar",
           "package": "fficxx",
@@ -4947,6 +5376,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTIntStar",
           "package": "fficxx",
@@ -4960,6 +5390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTString",
           "package": "fficxx",
@@ -4969,6 +5400,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTString",
           "package": "fficxx",
@@ -4982,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTUInt",
           "package": "fficxx",
@@ -4991,6 +5424,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTUInt",
           "package": "fficxx",
@@ -5004,6 +5438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTVoidStar",
           "package": "fficxx",
@@ -5013,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "CTVoidStar",
           "package": "fficxx",
@@ -5026,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Cabal",
           "package": "fficxx",
@@ -5035,6 +5472,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Cabal",
           "package": "fficxx",
@@ -5048,6 +5486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Class",
           "package": "fficxx",
@@ -5057,6 +5496,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Class",
           "package": "fficxx",
@@ -5070,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassGlobal",
           "package": "fficxx",
@@ -5079,6 +5520,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassGlobal",
           "package": "fficxx",
@@ -5092,6 +5534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassImportHeader",
           "package": "fficxx",
@@ -5101,6 +5544,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassImportHeader",
           "package": "fficxx",
@@ -5114,6 +5558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassModule",
           "package": "fficxx",
@@ -5123,6 +5568,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ClassModule",
           "package": "fficxx",
@@ -5136,6 +5582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Const",
           "package": "fficxx",
@@ -5145,6 +5592,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Const",
           "package": "fficxx",
@@ -5158,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Constructor",
           "package": "fficxx",
@@ -5167,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Constructor",
           "package": "fficxx",
@@ -5180,6 +5630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Destructor",
           "package": "fficxx",
@@ -5189,6 +5640,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Destructor",
           "package": "fficxx",
@@ -5202,6 +5654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "NS",
           "package": "fficxx",
@@ -5211,6 +5664,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "NS",
           "package": "fficxx",
@@ -5224,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "NoConst",
           "package": "fficxx",
@@ -5233,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "NoConst",
           "package": "fficxx",
@@ -5246,6 +5702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "NonVirtual",
           "package": "fficxx",
@@ -5255,6 +5712,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "NonVirtual",
           "package": "fficxx",
@@ -5268,6 +5726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Protected",
           "package": "fficxx",
@@ -5277,6 +5736,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Protected",
           "package": "fficxx",
@@ -5290,6 +5750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "SelfType",
           "package": "fficxx",
@@ -5299,6 +5760,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "SelfType",
           "package": "fficxx",
@@ -5312,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Static",
           "package": "fficxx",
@@ -5321,6 +5784,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Static",
           "package": "fficxx",
@@ -5334,6 +5798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Virtual",
           "package": "fficxx",
@@ -5343,6 +5808,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Virtual",
           "package": "fficxx",
@@ -5356,6 +5822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Void",
           "package": "fficxx",
@@ -5365,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "Void",
           "package": "fficxx",
@@ -5378,6 +5846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "aliasedFuncName",
           "package": "fficxx",
@@ -5387,6 +5856,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "aliasedFuncName",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -5402,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argToCallString",
           "package": "fficxx",
@@ -5411,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argToCallString",
           "normalized": "(Types,String)-\u003eString",
@@ -5426,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argToString",
           "package": "fficxx",
@@ -5435,6 +5908,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argToString",
           "normalized": "(Types,String)-\u003eString",
@@ -5450,6 +5924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argsToCallString",
           "package": "fficxx",
@@ -5459,6 +5934,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argsToCallString",
           "normalized": "Args-\u003eString",
@@ -5474,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argsToString",
           "package": "fficxx",
@@ -5483,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argsToString",
           "normalized": "Args-\u003eString",
@@ -5498,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argsToStringNoSelf",
           "package": "fficxx",
@@ -5507,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "argsToStringNoSelf",
           "normalized": "Args-\u003eString",
@@ -5522,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "bool",
           "package": "fficxx",
@@ -5531,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "bool",
           "normalized": "String-\u003e(Types,String)",
@@ -5545,6 +6027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "bool_",
           "package": "fficxx",
@@ -5554,6 +6037,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "bool_",
           "package": "fficxx",
@@ -5566,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cabal_cheaderprefix",
           "package": "fficxx",
@@ -5575,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cabal_cheaderprefix",
           "package": "fficxx",
@@ -5587,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cabal_moduleprefix",
           "package": "fficxx",
@@ -5596,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cabal_moduleprefix",
           "package": "fficxx",
@@ -5608,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cabal_pkgname",
           "package": "fficxx",
@@ -5617,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cabal_pkgname",
           "package": "fficxx",
@@ -5629,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cdouble",
           "package": "fficxx",
@@ -5638,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cdouble",
           "normalized": "String-\u003e(Types,String)",
@@ -5652,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cdouble_",
           "package": "fficxx",
@@ -5661,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cdouble_",
           "package": "fficxx",
@@ -5673,6 +6167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cgDaughterMap",
           "package": "fficxx",
@@ -5682,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cgDaughterMap",
           "package": "fficxx",
@@ -5695,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cgDaughterSelfMap",
           "package": "fficxx",
@@ -5704,6 +6201,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cgDaughterSelfMap",
           "package": "fficxx",
@@ -5717,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "charpp",
           "package": "fficxx",
@@ -5726,6 +6225,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "charpp",
           "normalized": "String-\u003e(Types,String)",
@@ -5740,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "charpp_",
           "package": "fficxx",
@@ -5749,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "charpp_",
           "package": "fficxx",
@@ -5761,6 +6263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihClass",
           "package": "fficxx",
@@ -5770,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihClass",
           "package": "fficxx",
@@ -5783,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihIncludedCPkgHeaders",
           "package": "fficxx",
@@ -5792,6 +6297,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihIncludedCPkgHeaders",
           "normalized": "[String]",
@@ -5807,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihIncludedHPkgHeadersInCPP",
           "package": "fficxx",
@@ -5816,6 +6323,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihIncludedHPkgHeadersInCPP",
           "normalized": "[String]",
@@ -5831,6 +6339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihIncludedHPkgHeadersInH",
           "package": "fficxx",
@@ -5840,6 +6349,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihIncludedHPkgHeadersInH",
           "normalized": "[String]",
@@ -5855,6 +6365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihNamespace",
           "package": "fficxx",
@@ -5864,6 +6375,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihNamespace",
           "normalized": "[Namespace]",
@@ -5879,6 +6391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihSelfCpp",
           "package": "fficxx",
@@ -5888,6 +6401,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihSelfCpp",
           "package": "fficxx",
@@ -5901,6 +6415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihSelfHeader",
           "package": "fficxx",
@@ -5910,6 +6425,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cihSelfHeader",
           "package": "fficxx",
@@ -5923,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cint",
           "package": "fficxx",
@@ -5932,6 +6449,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cint",
           "normalized": "String-\u003e(Types,String)",
@@ -5946,6 +6464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cint_",
           "package": "fficxx",
@@ -5955,6 +6474,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cint_",
           "package": "fficxx",
@@ -5967,6 +6487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_allparents",
           "package": "fficxx",
@@ -5976,6 +6497,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_allparents",
           "normalized": "Class-\u003e[Class]",
@@ -5990,6 +6512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_cabal",
           "package": "fficxx",
@@ -5999,6 +6522,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_cabal",
           "package": "fficxx",
@@ -6011,6 +6535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_funcs",
           "package": "fficxx",
@@ -6020,6 +6545,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_funcs",
           "normalized": "[Function]",
@@ -6034,6 +6560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_name",
           "package": "fficxx",
@@ -6043,6 +6570,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_name",
           "package": "fficxx",
@@ -6055,6 +6583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_parents",
           "package": "fficxx",
@@ -6064,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_parents",
           "normalized": "[Class]",
@@ -6078,6 +6608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_protected",
           "package": "fficxx",
@@ -6087,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "class_protected",
           "package": "fficxx",
@@ -6099,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmCIH",
           "package": "fficxx",
@@ -6108,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmCIH",
           "normalized": "[ClassImportHeader]",
@@ -6123,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmClass",
           "package": "fficxx",
@@ -6132,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmClass",
           "normalized": "[Class]",
@@ -6147,6 +6683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmImportedModulesForFFI",
           "package": "fficxx",
@@ -6156,6 +6693,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmImportedModulesForFFI",
           "normalized": "[String]",
@@ -6171,6 +6709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmImportedModulesHighNonSource",
           "package": "fficxx",
@@ -6180,6 +6719,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmImportedModulesHighNonSource",
           "normalized": "[String]",
@@ -6195,6 +6735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmImportedModulesHighSource",
           "package": "fficxx",
@@ -6204,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmImportedModulesHighSource",
           "normalized": "[String]",
@@ -6219,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmImportedModulesRaw",
           "package": "fficxx",
@@ -6228,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmImportedModulesRaw",
           "normalized": "[String]",
@@ -6243,6 +6787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmModule",
           "package": "fficxx",
@@ -6252,6 +6797,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cmModule",
           "package": "fficxx",
@@ -6265,6 +6811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "constructorFuncs",
           "package": "fficxx",
@@ -6274,6 +6821,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "constructorFuncs",
           "normalized": "[Function]-\u003e[Function]",
@@ -6289,6 +6837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "constructorName",
           "package": "fficxx",
@@ -6298,6 +6847,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "constructorName",
           "normalized": "Class-\u003eString",
@@ -6313,6 +6863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppFuncName",
           "package": "fficxx",
@@ -6322,6 +6873,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppFuncName",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -6337,6 +6889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppStaticName",
           "package": "fficxx",
@@ -6346,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppStaticName",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -6361,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclass",
           "package": "fficxx",
@@ -6370,6 +6925,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclass",
           "normalized": "Class-\u003eString-\u003e(Types,String)",
@@ -6384,6 +6940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclass_",
           "package": "fficxx",
@@ -6393,6 +6950,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclass_",
           "normalized": "Class-\u003eTypes",
@@ -6407,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclassconst",
           "package": "fficxx",
@@ -6416,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclassconst",
           "normalized": "Class-\u003eString-\u003e(Types,String)",
@@ -6430,6 +6990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclassref",
           "package": "fficxx",
@@ -6439,6 +7000,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclassref",
           "normalized": "Class-\u003eString-\u003e(Types,String)",
@@ -6453,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclassref_",
           "package": "fficxx",
@@ -6462,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cppclassref_",
           "normalized": "Class-\u003eTypes",
@@ -6476,6 +7040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cstring",
           "package": "fficxx",
@@ -6485,6 +7050,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cstring",
           "normalized": "String-\u003e(Types,String)",
@@ -6499,6 +7065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cstring_",
           "package": "fficxx",
@@ -6508,6 +7075,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cstring_",
           "package": "fficxx",
@@ -6520,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ctypToStr",
           "package": "fficxx",
@@ -6529,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ctypToStr",
           "normalized": "CTypes-\u003eIsConst-\u003eString",
@@ -6544,6 +7114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ctypeToHsType",
           "package": "fficxx",
@@ -6553,6 +7124,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "ctypeToHsType",
           "normalized": "Class-\u003eTypes-\u003eString",
@@ -6568,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cvarToStr",
           "package": "fficxx",
@@ -6577,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "cvarToStr",
           "normalized": "CTypes-\u003eIsConst-\u003eString-\u003eString",
@@ -6592,6 +7166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "destructorName",
           "package": "fficxx",
@@ -6601,6 +7176,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "destructorName",
           "package": "fficxx",
@@ -6614,6 +7190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "double",
           "package": "fficxx",
@@ -6623,6 +7200,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "double",
           "normalized": "String-\u003e(Types,String)",
@@ -6637,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "double_",
           "package": "fficxx",
@@ -6646,6 +7225,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "double_",
           "package": "fficxx",
@@ -6658,6 +7238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "doublep",
           "package": "fficxx",
@@ -6667,6 +7248,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "doublep",
           "normalized": "String-\u003e(Types,String)",
@@ -6681,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "doublep_",
           "package": "fficxx",
@@ -6690,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "doublep_",
           "package": "fficxx",
@@ -6702,6 +7286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "existConstructorName",
           "package": "fficxx",
@@ -6711,6 +7296,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "existConstructorName",
           "normalized": "Class-\u003eString",
@@ -6726,6 +7312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "float",
           "package": "fficxx",
@@ -6735,6 +7322,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "float",
           "normalized": "String-\u003e(Types,String)",
@@ -6749,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "float_",
           "package": "fficxx",
@@ -6758,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "float_",
           "package": "fficxx",
@@ -6770,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "func_alias",
           "package": "fficxx",
@@ -6779,6 +7370,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "func_alias",
           "package": "fficxx",
@@ -6791,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "func_args",
           "package": "fficxx",
@@ -6800,6 +7393,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "func_args",
           "package": "fficxx",
@@ -6812,6 +7406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "func_name",
           "package": "fficxx",
@@ -6821,6 +7416,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "func_name",
           "package": "fficxx",
@@ -6833,6 +7429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "func_ret",
           "package": "fficxx",
@@ -6842,6 +7439,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "func_ret",
           "package": "fficxx",
@@ -6854,6 +7452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "genericFuncArgs",
           "package": "fficxx",
@@ -6863,6 +7462,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "genericFuncArgs",
           "normalized": "Function-\u003eArgs",
@@ -6878,6 +7478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "genericFuncRet",
           "package": "fficxx",
@@ -6887,6 +7488,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "genericFuncRet",
           "normalized": "Function-\u003eTypes",
@@ -6902,6 +7504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "getClassModuleBase",
           "package": "fficxx",
@@ -6911,6 +7514,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "getClassModuleBase",
           "normalized": "Class-\u003eString",
@@ -6926,6 +7530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsCTypeName",
           "package": "fficxx",
@@ -6935,6 +7540,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsCTypeName",
           "normalized": "CTypes-\u003eString",
@@ -6950,6 +7556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsClassName",
           "package": "fficxx",
@@ -6958,6 +7565,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsClassName",
           "normalized": "Class-\u003e(String,String)",
@@ -6973,6 +7581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsCppTypeName",
           "package": "fficxx",
@@ -6982,6 +7591,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsCppTypeName",
           "normalized": "CPPTypes-\u003eString",
@@ -6997,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsFuncName",
           "package": "fficxx",
@@ -7006,6 +7617,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsFuncName",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -7021,6 +7633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsFuncTyp",
           "package": "fficxx",
@@ -7030,6 +7643,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsFuncTyp",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -7045,6 +7659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsFuncTypNoSelf",
           "package": "fficxx",
@@ -7054,6 +7669,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsFuncTypNoSelf",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -7069,6 +7685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsFuncXformer",
           "package": "fficxx",
@@ -7078,6 +7695,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hsFuncXformer",
           "normalized": "Function-\u003eString",
@@ -7093,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hscFuncName",
           "package": "fficxx",
@@ -7102,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "hscFuncName",
           "normalized": "Class-\u003eFunction-\u003eString",
@@ -7117,6 +7737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "int",
           "package": "fficxx",
@@ -7126,6 +7747,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "int",
           "normalized": "String-\u003e(Types,String)",
@@ -7140,6 +7762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "int_",
           "package": "fficxx",
@@ -7149,6 +7772,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "int_",
           "package": "fficxx",
@@ -7161,6 +7785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "intp",
           "package": "fficxx",
@@ -7170,6 +7795,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "intp",
           "normalized": "String-\u003e(Types,String)",
@@ -7184,6 +7810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "intp_",
           "package": "fficxx",
@@ -7193,6 +7820,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "intp_",
           "package": "fficxx",
@@ -7206,6 +7834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck abstract class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isAbstractClass",
           "package": "fficxx",
@@ -7216,6 +7845,7 @@
         "index": {
           "description": "Check abstract class",
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isAbstractClass",
           "normalized": "Class-\u003eBool",
@@ -7231,6 +7861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isDeleteFunc",
           "package": "fficxx",
@@ -7240,6 +7871,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isDeleteFunc",
           "normalized": "Function-\u003eBool",
@@ -7255,6 +7887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isNewFunc",
           "package": "fficxx",
@@ -7264,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isNewFunc",
           "normalized": "Function-\u003eBool",
@@ -7279,6 +7913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isStaticFunc",
           "package": "fficxx",
@@ -7288,6 +7923,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isStaticFunc",
           "normalized": "Function-\u003eBool",
@@ -7303,6 +7939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isVirtualFunc",
           "package": "fficxx",
@@ -7312,6 +7949,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "isVirtualFunc",
           "normalized": "Function-\u003eBool",
@@ -7328,6 +7966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDaughter map not including itself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "mkDaughterMap",
           "package": "fficxx",
@@ -7338,6 +7977,7 @@
         "index": {
           "description": "Daughter map not including itself",
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "mkDaughterMap",
           "normalized": "[Class]-\u003eDaughterMap",
@@ -7354,6 +7994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDaughter Map including itself as a daughter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "mkDaughterSelfMap",
           "package": "fficxx",
@@ -7364,6 +8005,7 @@
         "index": {
           "description": "Daughter Map including itself as daughter",
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "mkDaughterSelfMap",
           "normalized": "[Class]-\u003eDaughterMap",
@@ -7379,6 +8021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "nonVirtualNotNewFuncs",
           "package": "fficxx",
@@ -7388,6 +8031,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "nonVirtualNotNewFuncs",
           "normalized": "[Function]-\u003e[Function]",
@@ -7403,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "nonvirtualName",
           "package": "fficxx",
@@ -7412,6 +8057,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "nonvirtualName",
           "normalized": "Class-\u003eString-\u003eString",
@@ -7427,6 +8073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "rettypeToString",
           "package": "fficxx",
@@ -7436,6 +8083,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "rettypeToString",
           "normalized": "Types-\u003eString",
@@ -7451,6 +8099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "self",
           "package": "fficxx",
@@ -7460,6 +8109,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "self",
           "normalized": "String-\u003e(Types,String)",
@@ -7474,6 +8124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "self_",
           "package": "fficxx",
@@ -7483,6 +8134,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "self_",
           "package": "fficxx",
@@ -7495,6 +8147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "short",
           "package": "fficxx",
@@ -7504,6 +8157,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "short",
           "normalized": "String-\u003e(Types,String)",
@@ -7518,6 +8172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "short_",
           "package": "fficxx",
@@ -7527,6 +8182,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "short_",
           "package": "fficxx",
@@ -7539,6 +8195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "staticFuncs",
           "package": "fficxx",
@@ -7548,6 +8205,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "staticFuncs",
           "normalized": "[Function]-\u003e[Function]",
@@ -7563,6 +8221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "typeclassName",
           "package": "fficxx",
@@ -7572,6 +8231,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "typeclassName",
           "normalized": "Class-\u003eString",
@@ -7587,6 +8247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "typeclassNameFromStr",
           "package": "fficxx",
@@ -7596,6 +8257,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "typeclassNameFromStr",
           "normalized": "String-\u003eString",
@@ -7611,6 +8273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "uint",
           "package": "fficxx",
@@ -7620,6 +8283,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "uint",
           "normalized": "String-\u003e(Types,String)",
@@ -7634,6 +8298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "uint_",
           "package": "fficxx",
@@ -7643,6 +8308,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "uint_",
           "package": "fficxx",
@@ -7655,6 +8321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "unNamespace",
           "package": "fficxx",
@@ -7664,6 +8331,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "unNamespace",
           "package": "fficxx",
@@ -7677,6 +8345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "unProtected",
           "package": "fficxx",
@@ -7686,6 +8355,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "unProtected",
           "normalized": "[String]",
@@ -7701,6 +8371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "virtualFuncs",
           "package": "fficxx",
@@ -7710,6 +8381,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "virtualFuncs",
           "normalized": "[Function]-\u003e[Function]",
@@ -7725,6 +8397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "void_",
           "package": "fficxx",
@@ -7734,6 +8407,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "void_",
           "package": "fficxx",
@@ -7746,6 +8420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "voidp",
           "package": "fficxx",
@@ -7755,6 +8430,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "voidp",
           "normalized": "String-\u003e(Types,String)",
@@ -7769,6 +8445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Class",
           "name": "voidp_",
           "package": "fficxx",
@@ -7778,6 +8455,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Class",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Class",
           "name": "voidp_",
           "package": "fficxx",
@@ -7790,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Module",
           "name": "Module",
           "package": "fficxx",
@@ -7798,6 +8477,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Module",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Module",
           "name": "Module",
           "package": "fficxx",
@@ -7811,6 +8491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Module",
           "name": "Module",
           "package": "fficxx",
@@ -7819,6 +8500,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Module",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Module",
           "name": "Module",
           "package": "fficxx",
@@ -7832,6 +8514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Module",
           "name": "Module",
           "package": "fficxx",
@@ -7841,6 +8524,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Module",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Module",
           "name": "Module",
           "package": "fficxx",
@@ -7854,6 +8538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Module",
           "name": "mkModuleExports",
           "package": "fficxx",
@@ -7863,6 +8548,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Module",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Module",
           "name": "mkModuleExports",
           "normalized": "Module-\u003eString",
@@ -7878,6 +8564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Module",
           "name": "module_exports",
           "package": "fficxx",
@@ -7887,6 +8574,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Module",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Module",
           "name": "module_exports",
           "normalized": "[String]",
@@ -7901,6 +8589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.Module",
           "name": "module_name",
           "package": "fficxx",
@@ -7910,6 +8599,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type Module",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.Module",
           "name": "module_name",
           "package": "fficxx",
@@ -7922,6 +8612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "PackageInterface",
           "package": "fficxx",
@@ -7930,6 +8621,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "PackageInterface",
           "package": "fficxx",
@@ -7943,6 +8635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "ClassName",
           "package": "fficxx",
@@ -7951,6 +8644,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "ClassName",
           "package": "fficxx",
@@ -7964,6 +8658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "HeaderName",
           "package": "fficxx",
@@ -7972,6 +8667,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "HeaderName",
           "package": "fficxx",
@@ -7985,6 +8681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "PackageInterface",
           "package": "fficxx",
@@ -7993,6 +8690,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "PackageInterface",
           "package": "fficxx",
@@ -8006,6 +8704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "PackageName",
           "package": "fficxx",
@@ -8014,6 +8713,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "PackageName",
           "package": "fficxx",
@@ -8027,6 +8727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "TypeMacro",
           "package": "fficxx",
@@ -8035,6 +8736,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "TypeMacro",
           "package": "fficxx",
@@ -8048,6 +8750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "ClsName",
           "package": "fficxx",
@@ -8057,6 +8760,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "ClsName",
           "package": "fficxx",
@@ -8070,6 +8774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "HdrName",
           "package": "fficxx",
@@ -8079,6 +8784,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "HdrName",
           "package": "fficxx",
@@ -8092,6 +8798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "PkgName",
           "package": "fficxx",
@@ -8101,6 +8808,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "PkgName",
           "package": "fficxx",
@@ -8114,6 +8822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "TypMcro",
           "package": "fficxx",
@@ -8123,6 +8832,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "TypMcro",
           "package": "fficxx",
@@ -8136,6 +8846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "unTypMcro",
           "package": "fficxx",
@@ -8145,6 +8856,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Type PackageInterface",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Type.PackageInterface",
           "name": "unTypMcro",
           "package": "fficxx",
@@ -8158,6 +8870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "Util",
           "package": "fficxx",
@@ -8166,6 +8879,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "Util",
           "package": "fficxx",
@@ -8179,6 +8893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "conn",
           "package": "fficxx",
@@ -8188,6 +8903,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "conn",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -8202,6 +8918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "connArrow",
           "package": "fficxx",
@@ -8211,6 +8928,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "connArrow",
           "normalized": "String-\u003eString-\u003eString",
@@ -8226,6 +8944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "connBSlash",
           "package": "fficxx",
@@ -8235,6 +8954,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "connBSlash",
           "normalized": "String-\u003eString-\u003eString",
@@ -8250,6 +8970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "connRet",
           "package": "fficxx",
@@ -8259,6 +8980,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "connRet",
           "normalized": "String-\u003eString-\u003eString",
@@ -8274,6 +8996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "connRet2",
           "package": "fficxx",
@@ -8283,6 +9006,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "connRet2",
           "normalized": "String-\u003eString-\u003eString",
@@ -8298,6 +9022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "connSemicolonBSlash",
           "package": "fficxx",
@@ -8307,6 +9032,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "connSemicolonBSlash",
           "normalized": "String-\u003eString-\u003eString",
@@ -8322,6 +9048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "conncomma",
           "package": "fficxx",
@@ -8331,6 +9058,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "conncomma",
           "normalized": "String-\u003eString-\u003eString",
@@ -8345,6 +9073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "connspace",
           "package": "fficxx",
@@ -8354,6 +9083,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "connspace",
           "normalized": "String-\u003eString-\u003eString",
@@ -8368,6 +9098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "firstLower",
           "package": "fficxx",
@@ -8377,6 +9108,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "firstLower",
           "normalized": "String-\u003eString",
@@ -8392,6 +9124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "hline",
           "package": "fficxx",
@@ -8401,6 +9134,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "hline",
           "normalized": "IO()",
@@ -8415,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "intercalateWith",
           "package": "fficxx",
@@ -8424,6 +9159,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "intercalateWith",
           "normalized": "(String-\u003eString-\u003eString)-\u003e(a-\u003eString)-\u003e[a]-\u003eString",
@@ -8439,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "intercalateWithM",
           "package": "fficxx",
@@ -8448,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "intercalateWithM",
           "normalized": "(String-\u003eString-\u003eString)-\u003e(a-\u003eb String)-\u003e[a]-\u003eb String",
@@ -8463,6 +9201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "moduleDirFile",
           "package": "fficxx",
@@ -8472,6 +9211,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "moduleDirFile",
           "normalized": "String-\u003e(String,String)",
@@ -8487,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "render",
           "package": "fficxx",
@@ -8496,6 +9237,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "render",
           "normalized": "String-\u003e[(String,String)]-\u003eString",
@@ -8510,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "renderTemplateGroup",
           "package": "fficxx",
@@ -8519,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "renderTemplateGroup",
           "normalized": "STGroup String-\u003e[(String,a)]-\u003e[Char]-\u003eString",
@@ -8534,6 +9278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "setManyAttribSafer",
           "package": "fficxx",
@@ -8543,6 +9288,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "setManyAttribSafer",
           "normalized": "[(String,a)]-\u003eStringTemplate b-\u003eStringTemplate b",
@@ -8558,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "toLowers",
           "package": "fficxx",
@@ -8567,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "toLowers",
           "normalized": "String-\u003eString",
@@ -8582,6 +9330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Generate.Util",
           "name": "toUppers",
           "package": "fficxx",
@@ -8591,6 +9340,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Generate Util",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Generate.Util",
           "name": "toUppers",
           "normalized": "String-\u003eString",
@@ -8606,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Paths_fficxx",
           "name": "Paths_fficxx",
           "package": "fficxx",
@@ -8614,6 +9365,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Paths_fficxx",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Paths_fficxx",
           "name": "Paths_fficxx",
           "package": "fficxx",
@@ -8627,6 +9379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Paths_fficxx",
           "name": "getBinDir",
           "package": "fficxx",
@@ -8636,6 +9389,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Paths_fficxx",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Paths_fficxx",
           "name": "getBinDir",
           "package": "fficxx",
@@ -8649,6 +9403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Paths_fficxx",
           "name": "getDataDir",
           "package": "fficxx",
@@ -8658,6 +9413,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Paths_fficxx",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Paths_fficxx",
           "name": "getDataDir",
           "package": "fficxx",
@@ -8671,6 +9427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Paths_fficxx",
           "name": "getDataFileName",
           "package": "fficxx",
@@ -8680,6 +9437,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Paths_fficxx",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Paths_fficxx",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -8695,6 +9453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Paths_fficxx",
           "name": "getLibDir",
           "package": "fficxx",
@@ -8704,6 +9463,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Paths_fficxx",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Paths_fficxx",
           "name": "getLibDir",
           "package": "fficxx",
@@ -8717,6 +9477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Paths_fficxx",
           "name": "getLibexecDir",
           "package": "fficxx",
@@ -8726,6 +9487,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Paths_fficxx",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Paths_fficxx",
           "name": "getLibexecDir",
           "package": "fficxx",
@@ -8739,6 +9501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:18 UTC 2014",
           "module": "FFICXX.Paths_fficxx",
           "name": "version",
           "package": "fficxx",
@@ -8748,6 +9511,7 @@
         },
         "index": {
           "hierarchy": "FFICXX Paths_fficxx",
+          "indexed": "2014-03-11T18:08:18",
           "module": "FFICXX.Paths_fficxx",
           "name": "version",
           "package": "fficxx",

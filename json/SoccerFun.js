@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SoccerFun"
+        "phrase": "SoccerFun",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hosc"
+        "phrase": "hosc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypeclass for encoding and decoding OSC packets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Class",
           "name": "Class",
           "package": "hosc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Typeclass for encoding and decoding OSC packets",
           "hierarchy": "Sound OSC Class",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Class",
           "name": "Class",
           "package": "hosc",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type-class for values that can be translated to and from OSC\n \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Class",
           "name": "OSC",
           "package": "hosc",
@@ -51,6 +54,7 @@
         "index": {
           "description": "type-class for values that can be translated to and from OSC Packet",
           "hierarchy": "Sound OSC Class",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Class",
           "name": "OSC",
           "package": "hosc",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromPacket\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edecodePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Class",
           "name": "decodeOSC",
           "package": "hosc",
@@ -75,6 +80,7 @@
         "index": {
           "description": "fromPacket decodePacket",
           "hierarchy": "Sound OSC Class",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Class",
           "name": "decodeOSC",
           "normalized": "a-\u003eMaybe b",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eencodePacket\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etoPacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Class",
           "name": "encodeOSC",
           "package": "hosc",
@@ -101,6 +108,7 @@
         "index": {
           "description": "encodePacket toPacket",
           "hierarchy": "Sound OSC Class",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Class",
           "name": "encodeOSC",
           "normalized": "a-\u003eb",
@@ -116,6 +124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Class",
           "name": "fromPacket",
           "package": "hosc",
@@ -125,6 +134,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Class",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Class",
           "name": "fromPacket",
           "package": "hosc",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Class",
           "name": "toPacket",
           "package": "hosc",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Class",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Class",
           "name": "toPacket",
           "package": "hosc",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eByte-level coding utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "Byte",
           "package": "hosc",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Byte-level coding utility functions",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "Byte",
           "package": "hosc",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of bytes required to align an OSC value to the next\n   4-byte boundary.\n\u003c/p\u003e\u003cpre\u003e map align [0::Int .. 7] == [0,3,2,1,0,3,2,1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "align",
           "package": "hosc",
@@ -194,6 +209,7 @@
         "index": {
           "description": "The number of bytes required to align an OSC value to the next byte boundary map align Int",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "align",
           "normalized": "a-\u003ea",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBundle header as a lazy ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "bundleHeader",
           "package": "hosc",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Bundle header as lazy ByteString",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "bundleHeader",
           "package": "hosc",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBundle header as a (strict) \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "bundleHeader_strict",
           "package": "hosc",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Bundle header as strict ByteString",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "bundleHeader_strict",
           "package": "hosc",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a 32-bit IEEE floating point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_f32",
           "package": "hosc",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Decode bit IEEE floating point number",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_f32",
           "normalized": "ByteString-\u003eFloat",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a 64-bit IEEE floating point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_f64",
           "package": "hosc",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Decode bit IEEE floating point number",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_f64",
           "normalized": "ByteString-\u003eDouble",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a signed 16-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_i16",
           "package": "hosc",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Decode signed bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_i16",
           "normalized": "ByteString-\u003eInt",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a signed 32-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_i32",
           "package": "hosc",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Decode signed bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_i32",
           "normalized": "ByteString-\u003eInt",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a signed 64-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_i64",
           "package": "hosc",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Decode signed bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_i64",
           "normalized": "ByteString-\u003eInt",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a signed 8-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_i8",
           "package": "hosc",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Decode signed bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_i8",
           "normalized": "ByteString-\u003eInt",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an ASCII string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_str",
           "package": "hosc",
@@ -417,6 +450,7 @@
         "index": {
           "description": "Decode an ASCII string",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_str",
           "normalized": "ByteString-\u003eASCII",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an unsigned 32-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_u32",
           "package": "hosc",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Decode an unsigned bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_u32",
           "normalized": "ByteString-\u003eInt",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an unsigned 64-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_u64",
           "package": "hosc",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Decode an unsigned bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "decode_u64",
           "normalized": "ByteString-\u003eWord",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a 32-bit IEEE floating point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_f32",
           "package": "hosc",
@@ -492,6 +531,7 @@
         "index": {
           "description": "Encode bit IEEE floating point number",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_f32",
           "normalized": "Float-\u003eByteString",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a 64-bit IEEE floating point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_f64",
           "package": "hosc",
@@ -517,6 +558,7 @@
         "index": {
           "description": "Encode bit IEEE floating point number",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_f64",
           "normalized": "Double-\u003eByteString",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a signed 16-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_i16",
           "package": "hosc",
@@ -542,6 +585,7 @@
         "index": {
           "description": "Encode signed bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_i16",
           "normalized": "Int-\u003eByteString",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a signed 32-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_i32",
           "package": "hosc",
@@ -567,6 +612,7 @@
         "index": {
           "description": "Encode signed bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_i32",
           "normalized": "Int-\u003eByteString",
@@ -582,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a signed 64-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_i64",
           "package": "hosc",
@@ -592,6 +639,7 @@
         "index": {
           "description": "Encode signed bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_i64",
           "normalized": "Int-\u003eByteString",
@@ -607,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a signed 8-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_i8",
           "package": "hosc",
@@ -617,6 +666,7 @@
         "index": {
           "description": "Encode signed bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_i8",
           "normalized": "Int-\u003eByteString",
@@ -632,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an ASCII string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_str",
           "package": "hosc",
@@ -642,6 +693,7 @@
         "index": {
           "description": "Encode an ASCII string",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_str",
           "normalized": "ASCII-\u003eByteString",
@@ -657,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an unsigned 16-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_u32",
           "package": "hosc",
@@ -667,6 +720,7 @@
         "index": {
           "description": "Encode an unsigned bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_u32",
           "normalized": "Int-\u003eByteString",
@@ -682,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an unsigned 64-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_u64",
           "package": "hosc",
@@ -692,6 +747,7 @@
         "index": {
           "description": "Encode an unsigned bit integer",
           "hierarchy": "Sound OSC Coding Byte",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Byte",
           "name": "encode_u64",
           "normalized": "Word-\u003eByteString",
@@ -707,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBit-level type casts and byte layout string typecasts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "Cast",
           "package": "hosc",
@@ -716,6 +773,7 @@
         "index": {
           "description": "Bit-level type casts and byte layout string typecasts",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "Cast",
           "package": "hosc",
@@ -730,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003estr_cstr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "cstr_str",
           "package": "hosc",
@@ -740,6 +799,7 @@
         "index": {
           "description": "Inverse of str cstr",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "cstr_str",
           "normalized": "[Word]-\u003eString",
@@ -755,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe IEEE byte representation of a float.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "f32_w32",
           "package": "hosc",
@@ -765,6 +826,7 @@
         "index": {
           "description": "The IEEE byte representation of float",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "f32_w32",
           "normalized": "Float-\u003eWord",
@@ -780,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe IEEE byte representation of a double.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "f64_w64",
           "package": "hosc",
@@ -790,6 +853,7 @@
         "index": {
           "description": "The IEEE byte representation of double",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "f64_w64",
           "normalized": "Double-\u003eWord",
@@ -805,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003estr_pstr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "pstr_str",
           "package": "hosc",
@@ -815,6 +880,7 @@
         "index": {
           "description": "Inverse of str pstr",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "pstr_str",
           "normalized": "[Word]-\u003eString",
@@ -830,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a haskell string into a C string (a null suffixed byte\n   string).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "str_cstr",
           "package": "hosc",
@@ -840,6 +907,7 @@
         "index": {
           "description": "Transform haskell string into string null suffixed byte string",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "str_cstr",
           "normalized": "String-\u003e[Word]",
@@ -855,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a haskell string to a pascal string (a length prefixed\n   byte string).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "str_pstr",
           "package": "hosc",
@@ -865,6 +934,7 @@
         "index": {
           "description": "Transform haskell string to pascal string length prefixed byte string",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "str_pstr",
           "normalized": "String-\u003e[Word]",
@@ -880,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003ef32_w32\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "w32_f32",
           "package": "hosc",
@@ -890,6 +961,7 @@
         "index": {
           "description": "Inverse of f32 w32",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "w32_f32",
           "normalized": "Word-\u003eFloat",
@@ -905,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003ef64_i64\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Cast",
           "name": "w64_f64",
           "package": "hosc",
@@ -915,6 +988,7 @@
         "index": {
           "description": "Inverse of f64 i64",
           "hierarchy": "Sound OSC Coding Cast",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Cast",
           "name": "w64_f64",
           "normalized": "Word-\u003eDouble",
@@ -930,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase-level decode function for OSC packets (slow).  For ordinary\n   use see \u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Decode.Base",
           "name": "Base",
           "package": "hosc",
@@ -939,6 +1014,7 @@
         "index": {
           "description": "Base-level decode function for OSC packets slow For ordinary use see Binary",
           "hierarchy": "Sound OSC Coding Decode Base",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Decode.Base",
           "name": "Base",
           "package": "hosc",
@@ -953,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an OSC \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Decode.Base",
           "name": "decodeBundle",
           "package": "hosc",
@@ -963,6 +1040,7 @@
         "index": {
           "description": "Decode an OSC Bundle",
           "hierarchy": "Sound OSC Coding Decode Base",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Decode.Base",
           "name": "decodeBundle",
           "normalized": "ByteString-\u003eBundle",
@@ -979,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an OSC \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Decode.Base",
           "name": "decodeMessage",
           "package": "hosc",
@@ -989,6 +1068,7 @@
         "index": {
           "description": "Decode an OSC Message",
           "hierarchy": "Sound OSC Coding Decode Base",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Decode.Base",
           "name": "decodeMessage",
           "normalized": "ByteString-\u003eMessage",
@@ -1005,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an OSC \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let b = B.pack [47,103,95,102,114,101,101,0,44,105,0,0,0,0,0,0]\n in decodePacket b == Message \"/g_free\" [Int 0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Decode.Base",
           "name": "decodePacket",
           "package": "hosc",
@@ -1015,6 +1096,7 @@
         "index": {
           "description": "Decode an OSC Packet let B.pack in decodePacket Message free Int",
           "hierarchy": "Sound OSC Coding Decode Base",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Decode.Base",
           "name": "decodePacket",
           "normalized": "ByteString-\u003ePacket",
@@ -1031,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOptimised decode function for OSC packets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Decode.Binary",
           "name": "Binary",
           "package": "hosc",
@@ -1040,6 +1123,7 @@
         "index": {
           "description": "Optimised decode function for OSC packets",
           "hierarchy": "Sound OSC Coding Decode Binary",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Decode.Binary",
           "name": "Binary",
           "package": "hosc",
@@ -1054,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an OSC packet from a lazy ByteString.\n\u003c/p\u003e\u003cpre\u003e let b = B.pack [47,103,95,102,114,101,101,0,44,105,0,0,0,0,0,0]\n in decodeOSC b == Message \"/g_free\" [Int 0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Decode.Binary",
           "name": "decodePacket",
           "package": "hosc",
@@ -1064,6 +1149,7 @@
         "index": {
           "description": "Decode an OSC packet from lazy ByteString let B.pack in decodeOSC Message free Int",
           "hierarchy": "Sound OSC Coding Decode Binary",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Decode.Binary",
           "name": "decodePacket",
           "normalized": "ByteString-\u003ePacket",
@@ -1080,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an OSC packet from a strict ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Decode.Binary",
           "name": "decodePacket_strict",
           "package": "hosc",
@@ -1090,6 +1177,7 @@
         "index": {
           "description": "Decode an OSC packet from strict ByteString",
           "hierarchy": "Sound OSC Coding Decode Binary",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Decode.Binary",
           "name": "decodePacket_strict",
           "normalized": "ByteString-\u003ePacket",
@@ -1106,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an OSC \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Decode.Binary",
           "name": "getPacket",
           "package": "hosc",
@@ -1116,6 +1205,7 @@
         "index": {
           "description": "Get an OSC Packet",
           "hierarchy": "Sound OSC Coding Decode Binary",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Decode.Binary",
           "name": "getPacket",
           "package": "hosc",
@@ -1130,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase-level encode function for OSC packets (slow).  For ordinary\n   use see \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Base",
           "name": "Base",
           "package": "hosc",
@@ -1139,6 +1230,7 @@
         "index": {
           "description": "Base-level encode function for OSC packets slow For ordinary use see Builder",
           "hierarchy": "Sound OSC Coding Encode Base",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Base",
           "name": "Base",
           "package": "hosc",
@@ -1153,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an OSC \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Base",
           "name": "encodeBundle",
           "package": "hosc",
@@ -1163,6 +1256,7 @@
         "index": {
           "description": "Encode an OSC Bundle",
           "hierarchy": "Sound OSC Coding Encode Base",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Base",
           "name": "encodeBundle",
           "normalized": "Bundle-\u003eByteString",
@@ -1179,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an OSC \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Base",
           "name": "encodeMessage",
           "package": "hosc",
@@ -1189,6 +1284,7 @@
         "index": {
           "description": "Encode an OSC Message",
           "hierarchy": "Sound OSC Coding Encode Base",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Base",
           "name": "encodeMessage",
           "normalized": "Message-\u003eByteString",
@@ -1205,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an OSC \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Base",
           "name": "encodePacket",
           "package": "hosc",
@@ -1215,6 +1312,7 @@
         "index": {
           "description": "Encode an OSC Packet",
           "hierarchy": "Sound OSC Coding Encode Base",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Base",
           "name": "encodePacket",
           "normalized": "Packet-\u003eByteString",
@@ -1231,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOptimised encode function for OSC packets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "Builder",
           "package": "hosc",
@@ -1240,6 +1339,7 @@
         "index": {
           "description": "Optimised encode function for OSC packets",
           "hierarchy": "Sound OSC Coding Encode Builder",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "Builder",
           "package": "hosc",
@@ -1254,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilder monoid for an OSC \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "build_packet",
           "package": "hosc",
@@ -1264,6 +1365,7 @@
         "index": {
           "description": "Builder monoid for an OSC Packet",
           "hierarchy": "Sound OSC Coding Encode Builder",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "build_packet",
           "normalized": "Packet-\u003eBuilder",
@@ -1279,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an OSC \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "encodeBundle",
           "package": "hosc",
@@ -1289,6 +1392,7 @@
         "index": {
           "description": "Encode an OSC Bundle",
           "hierarchy": "Sound OSC Coding Encode Builder",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "encodeBundle",
           "normalized": "Bundle-\u003eByteString",
@@ -1305,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an OSC \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "encodeMessage",
           "package": "hosc",
@@ -1315,6 +1420,7 @@
         "index": {
           "description": "Encode an OSC Message",
           "hierarchy": "Sound OSC Coding Encode Builder",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "encodeMessage",
           "normalized": "Message-\u003eByteString",
@@ -1331,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an OSC \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e to a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let b = L.pack [47,103,95,102,114,101,101,0,44,105,0,0,0,0,0,0]\n in encodeOSC (Message \"/g_free\" [Int 0]) == b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "encodePacket",
           "package": "hosc",
@@ -1341,6 +1448,7 @@
         "index": {
           "description": "Encode an OSC Packet to lazy ByteString let L.pack in encodeOSC Message free Int",
           "hierarchy": "Sound OSC Coding Encode Builder",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "encodePacket",
           "normalized": "Packet-\u003eByteString",
@@ -1357,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an Packet packet to a strict ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "encodePacket_strict",
           "package": "hosc",
@@ -1367,6 +1476,7 @@
         "index": {
           "description": "Encode an Packet packet to strict ByteString",
           "hierarchy": "Sound OSC Coding Encode Builder",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding.Encode.Builder",
           "name": "encodePacket_strict",
           "normalized": "Packet-\u003eByteString",
@@ -1383,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type-class to provide coding operations to different data types\n   using the same function names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "Coding",
           "package": "hosc",
@@ -1392,6 +1503,7 @@
         "index": {
           "description": "type-class to provide coding operations to different data types using the same function names",
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "Coding",
           "package": "hosc",
@@ -1406,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eencodePacket\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edecodePacket\u003c/a\u003e\u003c/code\u003e pair over \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "Coder",
           "package": "hosc",
@@ -1415,6 +1528,7 @@
         "index": {
           "description": "An encodePacket and decodePacket pair over ByteString",
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "Coder",
           "package": "hosc",
@@ -1429,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting from and to binary packet representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "Coding",
           "package": "hosc",
@@ -1438,6 +1553,7 @@
         "index": {
           "description": "Converting from and to binary packet representations",
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "Coding",
           "package": "hosc",
@@ -1452,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epacket_to_bundle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edecodePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "decodeBundle",
           "package": "hosc",
@@ -1462,6 +1579,7 @@
         "index": {
           "description": "packet to bundle decodePacket",
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "decodeBundle",
           "normalized": "a-\u003eBundle",
@@ -1478,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epacket_to_message\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edecodePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "decodeMessage",
           "package": "hosc",
@@ -1488,6 +1607,7 @@
         "index": {
           "description": "packet to message decodePacket",
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "decodeMessage",
           "normalized": "a-\u003eMaybe Message",
@@ -1503,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "decodePacket",
           "package": "hosc",
@@ -1512,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "decodePacket",
           "package": "hosc",
@@ -1526,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eencodePacket\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ePacket_Bundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "encodeBundle",
           "package": "hosc",
@@ -1536,6 +1659,7 @@
         "index": {
           "description": "encodePacket Packet Bundle",
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "encodeBundle",
           "normalized": "Bundle-\u003ea",
@@ -1552,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eencodePacket\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ePacket_Message\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "encodeMessage",
           "package": "hosc",
@@ -1562,6 +1687,7 @@
         "index": {
           "description": "encodePacket Packet Message",
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "encodeMessage",
           "normalized": "Message-\u003ea",
@@ -1577,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Coding",
           "name": "encodePacket",
           "package": "hosc",
@@ -1586,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Coding",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Coding",
           "name": "encodePacket",
           "package": "hosc",
@@ -1600,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of non-transport related modules.\n\u003c/p\u003e\u003cp\u003eProvides the \u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e types and\n the \u003ccode\u003e\u003ca\u003eDatem\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOSC\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCoding\u003c/a\u003e\u003c/code\u003e type-classes.\n\u003c/p\u003e\u003cp\u003eThe basic constructors are \u003ccode\u003e\u003ca\u003emessage\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ebundle\u003c/a\u003e\u003c/code\u003e, the basic coding\n functions are \u003ccode\u003e\u003ca\u003eencodePacket\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edecodePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e import Sound.OSC.Core\n\n let {o = bundle immediately [message \"/g_free\" [Int32 0]]\n     ;e = encodeBundle o :: String}\n in decodeBundle e == o\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Core",
           "name": "Core",
           "package": "hosc",
@@ -1609,6 +1738,7 @@
         "index": {
           "description": "Composite of non-transport related modules Provides the Datum Message Bundle and Packet types and the Datem OSC and Coding type-classes The basic constructors are message and bundle the basic coding functions are encodePacket and decodePacket import Sound.OSC.Core let bundle immediately message free Int32 encodeBundle String in decodeBundle",
           "hierarchy": "Sound OSC Core",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Core",
           "name": "Core",
           "package": "hosc",
@@ -1623,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e related functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "Datum",
           "package": "hosc",
@@ -1632,6 +1763,7 @@
         "index": {
           "description": "Datum related functions",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "Datum",
           "package": "hosc",
@@ -1646,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialised \u003ccode\u003e\u003ca\u003ed_get\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e datum_ascii (d_put (C.pack \"string\")) == Just (C.pack \"string\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_ascii",
           "package": "hosc",
@@ -1656,6 +1789,7 @@
         "index": {
           "description": "Type specialised get datum ascii put C.pack string Just C.pack string",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_ascii",
           "normalized": "Datum-\u003eMaybe ASCII",
@@ -1671,6 +1805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialised \u003ccode\u003e\u003ca\u003ed_get\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_blob",
           "package": "hosc",
@@ -1681,6 +1816,7 @@
         "index": {
           "description": "Type specialised get",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_blob",
           "normalized": "Datum-\u003eMaybe ByteString",
@@ -1696,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialised \u003ccode\u003e\u003ca\u003ed_get\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_double",
           "package": "hosc",
@@ -1706,6 +1843,7 @@
         "index": {
           "description": "Type specialised get",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_double",
           "normalized": "Datum-\u003eMaybe Double",
@@ -1721,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialised \u003ccode\u003e\u003ca\u003ed_get\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_float",
           "package": "hosc",
@@ -1731,6 +1870,7 @@
         "index": {
           "description": "Type specialised get",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_float",
           "normalized": "Datum-\u003eMaybe Float",
@@ -1746,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialised \u003ccode\u003e\u003ca\u003ed_get\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e map datum_int32 [Int32 1,Float 1] == [Just 1,Nothing]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_int32",
           "package": "hosc",
@@ -1756,6 +1897,7 @@
         "index": {
           "description": "Type specialised get map datum int32 Int32 Float Just Nothing",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_int32",
           "normalized": "Datum-\u003eMaybe Int",
@@ -1771,6 +1913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialised \u003ccode\u003e\u003ca\u003ed_get\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_int64",
           "package": "hosc",
@@ -1781,6 +1924,7 @@
         "index": {
           "description": "Type specialised get",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_int64",
           "normalized": "Datum-\u003eMaybe Int",
@@ -1796,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialised \u003ccode\u003e\u003ca\u003ed_get\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_midi",
           "package": "hosc",
@@ -1806,6 +1951,7 @@
         "index": {
           "description": "Type specialised get",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_midi",
           "normalized": "Datum-\u003eMaybe MIDI",
@@ -1821,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e as sequence of \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eASCII_String\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBlob\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMidi\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let d = [string \"5\",Blob (B.pack [53]),midi (0x00,0x90,0x40,0x60)]\n in Data.Maybe.mapMaybe datum_sequence d == [[53],[53],[0,144,64,96]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_sequence",
           "package": "hosc",
@@ -1831,6 +1978,7 @@
         "index": {
           "description": "Datum as sequence of Word8 if ASCII String Blob or Midi let string Blob B.pack midi x00 x90 x40 x60 in Data.Maybe.mapMaybe datum sequence",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_sequence",
           "normalized": "Datum-\u003eMaybe[Word]",
@@ -1846,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunpack\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ed_get\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e datum_string (d_put (C.pack \"string\")) == Just \"string\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_string",
           "package": "hosc",
@@ -1856,6 +2005,7 @@
         "index": {
           "description": "unpack of get datum string put C.pack string Just string",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_string",
           "normalized": "Datum-\u003eMaybe String",
@@ -1871,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003ed_timestamp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Datum",
           "name": "datum_timestamp",
           "package": "hosc",
@@ -1881,6 +2032,7 @@
         "index": {
           "description": "Maybe variant of timestamp",
           "hierarchy": "Sound OSC Datum",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Datum",
           "name": "datum_timestamp",
           "normalized": "Datum-\u003eMaybe Time",
@@ -1896,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.OSC.Core\u003c/a\u003e and \u003ca\u003eSound.OSC.Transport.FD\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.FD",
           "name": "FD",
           "package": "hosc",
@@ -1905,6 +2058,7 @@
         "index": {
           "description": "Composite of Sound.OSC.Core and Sound.OSC.Transport.FD",
           "hierarchy": "Sound OSC FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.FD",
           "name": "FD",
           "package": "hosc",
@@ -1919,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatum normalisation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Normalise",
           "name": "Normalise",
           "package": "hosc",
@@ -1928,6 +2083,7 @@
         "index": {
           "description": "Datum normalisation",
           "hierarchy": "Sound OSC Normalise",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Normalise",
           "name": "Normalise",
           "package": "hosc",
@@ -1942,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a normalising function over datum at an OSC \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Normalise",
           "name": "bundle_coerce",
           "package": "hosc",
@@ -1952,6 +2109,7 @@
         "index": {
           "description": "Map normalising function over datum at an OSC Bundle",
           "hierarchy": "Sound OSC Normalise",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Normalise",
           "name": "bundle_coerce",
           "normalized": "(Datum-\u003eDatum)-\u003eBundle-\u003eBundle",
@@ -1967,6 +2125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let d = [Int32 5,Int64 5,Float 5.5,Double 5.5,string \"5\"]\n in map datum_floor d == [Int64 5,Int64 5,Int64 5,Int64 5,string \"5\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Normalise",
           "name": "datum_floor",
           "package": "hosc",
@@ -1977,6 +2136,7 @@
         "index": {
           "description": "Datum as Int64 if Int32 Int64 Float or Double let Int32 Int64 Float Double string in map datum floor Int64 Int64 Int64 Int64 string",
           "hierarchy": "Sound OSC Normalise",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Normalise",
           "name": "datum_floor",
           "normalized": "Datum-\u003eDatum",
@@ -1992,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerce \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e map datum_promote [Int32 5,Float 5] == [Double 5,Double 5]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Normalise",
           "name": "datum_promote",
           "package": "hosc",
@@ -2002,6 +2163,7 @@
         "index": {
           "description": "Coerce Int32 Int64 and Float to Double map datum promote Int32 Float Double Double",
           "hierarchy": "Sound OSC Normalise",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Normalise",
           "name": "datum_promote",
           "normalized": "Datum-\u003eDatum",
@@ -2017,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a normalising function over datum at an OSC \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Normalise",
           "name": "message_coerce",
           "package": "hosc",
@@ -2027,6 +2190,7 @@
         "index": {
           "description": "Map normalising function over datum at an OSC Message",
           "hierarchy": "Sound OSC Normalise",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Normalise",
           "name": "message_coerce",
           "normalized": "(Datum-\u003eDatum)-\u003eMessage-\u003eMessage",
@@ -2042,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA normalised \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e has only \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e\n numerical values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Normalise",
           "name": "normalise_bundle",
           "package": "hosc",
@@ -2052,6 +2217,7 @@
         "index": {
           "description": "normalised Bundle has only Int64 and Double numerical values",
           "hierarchy": "Sound OSC Normalise",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Normalise",
           "name": "normalise_bundle",
           "normalized": "Bundle-\u003eBundle",
@@ -2067,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e map normalise_datum [Int32 1,Float 1] == [Int64 1,Double 1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Normalise",
           "name": "normalise_datum",
           "package": "hosc",
@@ -2077,6 +2244,7 @@
         "index": {
           "description": "Lift Int32 to Int64 and Float to Double map normalise datum Int32 Float Int64 Double",
           "hierarchy": "Sound OSC Normalise",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Normalise",
           "name": "normalise_datum",
           "normalized": "Datum-\u003eDatum",
@@ -2092,6 +2260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA normalised \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e has only \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e\n numerical values.\n\u003c/p\u003e\u003cpre\u003e let m = message \"/m\" [Int32 0,Float 0]\n in normalise_message m == message \"/m\" [Int64 0,Double 0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Normalise",
           "name": "normalise_message",
           "package": "hosc",
@@ -2102,6 +2271,7 @@
         "index": {
           "description": "normalised Message has only Int64 and Double numerical values let message Int32 Float in normalise message message Int64 Double",
           "hierarchy": "Sound OSC Normalise",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Normalise",
           "name": "normalise_message",
           "normalized": "Message-\u003eMessage",
@@ -2117,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOSC related timing functions.  OSC timestamps are \u003ccode\u003eNTP\u003c/code\u003e values,\n \u003ca\u003ehttp://ntp.org/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "Time",
           "package": "hosc",
@@ -2126,6 +2297,7 @@
         "index": {
           "description": "OSC related timing functions OSC timestamps are NTP values http ntp.org",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "Time",
           "package": "hosc",
@@ -2140,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for integer (binary) representation of \u003ccode\u003eNTP\u003c/code\u003e time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "NTPi",
           "package": "hosc",
@@ -2149,6 +2322,7 @@
         "index": {
           "description": "Type for integer binary representation of NTP time",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "NTPi",
           "package": "hosc",
@@ -2163,6 +2337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eUnix/Posix\u003c/code\u003e epoch time in real-valued (fractional) form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "UT",
           "package": "hosc",
@@ -2172,6 +2347,7 @@
         "index": {
           "description": "Unix Posix epoch time in real-valued fractional form",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "UT",
           "package": "hosc",
@@ -2186,6 +2362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference (in seconds) between \u003cem\u003eNTP\u003c/em\u003e and \u003cem\u003eUT\u003c/em\u003e epochs.\n\u003c/p\u003e\u003cpre\u003e ntp_ut_epoch_diff / (24 * 60 * 60) == 25567\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "ntp_ut_epoch_diff",
           "package": "hosc",
@@ -2196,6 +2373,7 @@
         "index": {
           "description": "Difference in seconds between NTP and UT epochs ntp ut epoch diff",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "ntp_ut_epoch_diff",
           "package": "hosc",
@@ -2209,6 +2387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eNTPi\u003c/a\u003e\u003c/code\u003e timestamp to a real-valued NTP timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "ntpi_to_ntpr",
           "package": "hosc",
@@ -2219,6 +2398,7 @@
         "index": {
           "description": "Convert an NTPi timestamp to real-valued NTP timestamp",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "ntpi_to_ntpr",
           "normalized": "NTPi-\u003ea",
@@ -2234,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eNTPi\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003eUnix/Posix\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "ntpi_to_ut",
           "package": "hosc",
@@ -2244,6 +2425,7 @@
         "index": {
           "description": "Convert NTPi to Unix Posix",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "ntpi_to_ut",
           "normalized": "NTPi-\u003eUT",
@@ -2259,6 +2441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a real-valued NTP timestamp to an \u003ccode\u003e\u003ca\u003eNTPi\u003c/a\u003e\u003c/code\u003e timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "ntpr_to_ntpi",
           "package": "hosc",
@@ -2269,6 +2452,7 @@
         "index": {
           "description": "Convert real-valued NTP timestamp to an NTPi timestamp",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "ntpr_to_ntpi",
           "normalized": "a-\u003eNTPi",
@@ -2284,6 +2468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003eNTP\u003c/code\u003e to \u003ccode\u003eUnix/Posix\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "ntpr_to_ut",
           "package": "hosc",
@@ -2294,6 +2479,7 @@
         "index": {
           "description": "Convert NTP to Unix Posix",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "ntpr_to_ut",
           "normalized": "a-\u003ea",
@@ -2309,6 +2495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePause current thread for the indicated duration (in seconds), see\n   \u003ccode\u003e\u003ca\u003epauseThreadLimit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "pauseThread",
           "package": "hosc",
@@ -2319,6 +2506,7 @@
         "index": {
           "description": "Pause current thread for the indicated duration in seconds see pauseThreadLimit",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "pauseThread",
           "normalized": "a-\u003eb()",
@@ -2335,6 +2523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epauseThread\u003c/a\u003e\u003c/code\u003e limit (in seconds).  Values larger than this\n require a different thread delay mechanism, see \u003ccode\u003e\u003ca\u003esleepThread\u003c/a\u003e\u003c/code\u003e.  The\n value is the number of microseconds in \u003ccode\u003emaxBound::Int\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "pauseThreadLimit",
           "package": "hosc",
@@ -2345,6 +2534,7 @@
         "index": {
           "description": "The pauseThread limit in seconds Values larger than this require different thread delay mechanism see sleepThread The value is the number of microseconds in maxBound Int",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "pauseThreadLimit",
           "package": "hosc",
@@ -2359,6 +2549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePause current thread until the given \u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e, see\n \u003ccode\u003e\u003ca\u003epauseThreadLimit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "pauseThreadUntil",
           "package": "hosc",
@@ -2369,6 +2560,7 @@
         "index": {
           "description": "Pause current thread until the given Time see pauseThreadLimit",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "pauseThreadUntil",
           "normalized": "Time-\u003ea()",
@@ -2385,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep current thread for the indicated duration (in seconds).\n   Divides long sleeps into parts smaller than \u003ccode\u003e\u003ca\u003epauseThreadLimit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "sleepThread",
           "package": "hosc",
@@ -2395,6 +2588,7 @@
         "index": {
           "description": "Sleep current thread for the indicated duration in seconds Divides long sleeps into parts smaller than pauseThreadLimit",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "sleepThread",
           "normalized": "a-\u003eb()",
@@ -2411,6 +2605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep current thread until the given \u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e.  Divides long sleeps\n into parts smaller than \u003ccode\u003e\u003ca\u003epauseThreadLimit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "sleepThreadUntil",
           "package": "hosc",
@@ -2421,6 +2616,7 @@
         "index": {
           "description": "Sleep current thread until the given Time Divides long sleeps into parts smaller than pauseThreadLimit",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "sleepThreadUntil",
           "normalized": "Time-\u003ea()",
@@ -2437,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead current real-valued \u003ccode\u003eNTP\u003c/code\u003e timestamp.\n\u003c/p\u003e\u003cpre\u003e do {ct \u003c- fmap utc_to_ut T.getCurrentTime\n    ;pt \u003c- fmap realToFrac T.getPOSIXTime\n    ;print (pt - ct,pt - ct \u003c 1e-5)}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "time",
           "package": "hosc",
@@ -2447,6 +2644,7 @@
         "index": {
           "description": "Read current real-valued NTP timestamp do ct fmap utc to ut T.getCurrentTime pt fmap realToFrac T.getPOSIXTime print pt ct pt ct e-5",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "time",
           "package": "hosc",
@@ -2460,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe time at 1970-01-01:00:00:00.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "ut_epoch",
           "package": "hosc",
@@ -2470,6 +2669,7 @@
         "index": {
           "description": "The time at",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "ut_epoch",
           "package": "hosc",
@@ -2483,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eUT\u003c/a\u003e\u003c/code\u003e timestamp to an \u003ccode\u003e\u003ca\u003eNTPi\u003c/a\u003e\u003c/code\u003e timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "ut_to_ntpi",
           "package": "hosc",
@@ -2493,6 +2694,7 @@
         "index": {
           "description": "Convert UT timestamp to an NTPi timestamp",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "ut_to_ntpi",
           "normalized": "UT-\u003eNTPi",
@@ -2508,6 +2710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003eUnix/Posix\u003c/code\u003e to \u003ccode\u003eNTP\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "ut_to_ntpr",
           "package": "hosc",
@@ -2518,6 +2721,7 @@
         "index": {
           "description": "Convert Unix Posix to NTP",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "ut_to_ntpr",
           "normalized": "a-\u003ea",
@@ -2533,6 +2737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003eUnix/Posix\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "utc_to_ut",
           "package": "hosc",
@@ -2543,6 +2748,7 @@
         "index": {
           "description": "Convert UTCTime to Unix Posix",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "utc_to_ut",
           "normalized": "UTCTime-\u003ea",
@@ -2558,6 +2764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType restricted \u003ccode\u003e\u003ca\u003epauseThread\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Time",
           "name": "wait",
           "package": "hosc",
@@ -2568,6 +2775,7 @@
         "index": {
           "description": "Type restricted pauseThread",
           "hierarchy": "Sound OSC Time",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Time",
           "name": "wait",
           "normalized": "Double-\u003ea()",
@@ -2583,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOSC over TCP implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "TCP",
           "package": "hosc",
@@ -2592,6 +2801,7 @@
         "index": {
           "description": "OSC over TCP implementation",
           "hierarchy": "Sound OSC Transport FD TCP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "TCP",
           "package": "hosc",
@@ -2606,6 +2816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TCP transport handle data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "TCP",
           "package": "hosc",
@@ -2615,6 +2826,7 @@
         "index": {
           "description": "The TCP transport handle data type",
           "hierarchy": "Sound OSC Transport FD TCP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "TCP",
           "package": "hosc",
@@ -2628,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "TCP",
           "package": "hosc",
@@ -2637,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Transport FD TCP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "TCP",
           "package": "hosc",
@@ -2651,6 +2865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eTCP\u003c/a\u003e\u003c/code\u003e connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "openTCP",
           "package": "hosc",
@@ -2661,6 +2876,7 @@
         "index": {
           "description": "Make TCP connection",
           "hierarchy": "Sound OSC Transport FD TCP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "openTCP",
           "normalized": "String-\u003eInt-\u003eIO TCP",
@@ -2676,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "tcpHandle",
           "package": "hosc",
@@ -2685,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Transport FD TCP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "tcpHandle",
           "package": "hosc",
@@ -2699,6 +2917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA trivial \u003ccode\u003e\u003ca\u003eTCP\u003c/a\u003e\u003c/code\u003e \u003cem\u003eOSC\u003c/em\u003e server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "tcpServer'",
           "package": "hosc",
@@ -2709,6 +2928,7 @@
         "index": {
           "description": "trivial TCP OSC server",
           "hierarchy": "Sound OSC Transport FD TCP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.TCP",
           "name": "tcpServer'",
           "normalized": "Int-\u003e(TCP-\u003eIO())-\u003eIO()",
@@ -2725,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOSC over UDP implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "UDP",
           "package": "hosc",
@@ -2734,6 +2955,7 @@
         "index": {
           "description": "OSC over UDP implementation",
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "UDP",
           "package": "hosc",
@@ -2748,6 +2970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe UDP transport handle data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "UDP",
           "package": "hosc",
@@ -2757,6 +2980,7 @@
         "index": {
           "description": "The UDP transport handle data type",
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "UDP",
           "package": "hosc",
@@ -2770,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "UDP",
           "package": "hosc",
@@ -2779,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "UDP",
           "package": "hosc",
@@ -2793,6 +3019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eUDP\u003c/a\u003e\u003c/code\u003e connection.\n\u003c/p\u003e\u003cpre\u003e let t = openUDP \"127.0.0.1\" 57110\n in withTransport t (\\fd -\u003e recvT 0.5 fd \u003e\u003e= print)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "openUDP",
           "package": "hosc",
@@ -2803,6 +3030,7 @@
         "index": {
           "description": "Make UDP connection let openUDP in withTransport fd recvT fd print",
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "openUDP",
           "normalized": "String-\u003eInt-\u003eIO UDP",
@@ -2819,6 +3047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecv variant to collect message source address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "recvFrom",
           "package": "hosc",
@@ -2829,6 +3058,7 @@
         "index": {
           "description": "Recv variant to collect message source address",
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "recvFrom",
           "normalized": "UDP-\u003eIO(Packet,SockAddr)",
@@ -2845,6 +3075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend variant to send to specified address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "sendTo",
           "package": "hosc",
@@ -2855,6 +3086,7 @@
         "index": {
           "description": "Send variant to send to specified address",
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "sendTo",
           "normalized": "UDP-\u003ea-\u003eSockAddr-\u003eIO()",
@@ -2871,6 +3103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the port number associated with the UDP socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "udpPort",
           "package": "hosc",
@@ -2881,6 +3114,7 @@
         "index": {
           "description": "Return the port number associated with the UDP socket",
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "udpPort",
           "normalized": "UDP-\u003eIO a",
@@ -2897,6 +3131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrivial \u003ccode\u003e\u003ca\u003eUDP\u003c/a\u003e\u003c/code\u003e server socket.\n\u003c/p\u003e\u003cpre\u003e import Control.Concurrent\n\u003c/pre\u003e\u003cpre\u003e let {f fd = forever (recvMessage fd \u003e\u003e= print)\n     ;t = udpServer \"127.0.0.1\" 57300}\n in void (forkIO (withTransport t f))\n\u003c/pre\u003e\u003cpre\u003e let t = openUDP \"127.0.0.1\" 57300\n in withTransport t (\\fd -\u003e sendMessage fd (message \"/n\" []))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "udpServer",
           "package": "hosc",
@@ -2907,6 +3142,7 @@
         "index": {
           "description": "Trivial UDP server socket import Control.Concurrent let fd forever recvMessage fd print udpServer in void forkIO withTransport let openUDP in withTransport fd sendMessage fd message",
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "udpServer",
           "normalized": "String-\u003eInt-\u003eIO UDP",
@@ -2922,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "udpSocket",
           "package": "hosc",
@@ -2931,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "udpSocket",
           "package": "hosc",
@@ -2945,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and initialise UDP socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "udp_socket",
           "package": "hosc",
@@ -2955,6 +3194,7 @@
         "index": {
           "description": "Create and initialise UDP socket",
           "hierarchy": "Sound OSC Transport FD UDP",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD.UDP",
           "name": "udp_socket",
           "normalized": "(Socket-\u003eSockAddr-\u003eIO())-\u003eString-\u003eInt-\u003eIO UDP",
@@ -2970,6 +3210,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn abstract transport layer with implementations for \u003ccode\u003eUDP\u003c/code\u003e and\n \u003ccode\u003eTCP\u003c/code\u003e transport.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "FD",
           "package": "hosc",
@@ -2979,6 +3220,7 @@
         "index": {
           "description": "An abstract transport layer with implementations for UDP and TCP transport",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "FD",
           "package": "hosc",
@@ -2993,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract over the underlying transport protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "Transport",
           "package": "hosc",
@@ -3002,6 +3245,7 @@
         "index": {
           "description": "Abstract over the underlying transport protocol",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "Transport",
           "package": "hosc",
@@ -3016,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an existing connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "close",
           "package": "hosc",
@@ -3026,6 +3271,7 @@
         "index": {
           "description": "Close an existing connection",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "close",
           "normalized": "a-\u003eIO()",
@@ -3041,6 +3287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003epacket_to_bundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvBundle",
           "package": "hosc",
@@ -3051,6 +3298,7 @@
         "index": {
           "description": "Variant of recvPacket that runs packet to bundle",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvBundle",
           "normalized": "a-\u003eIO Bundle",
@@ -3067,6 +3315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003epacket_to_message\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvMessage",
           "package": "hosc",
@@ -3077,6 +3326,7 @@
         "index": {
           "description": "Variant of recvPacket that runs packet to message",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvMessage",
           "normalized": "a-\u003eIO(Maybe Message)",
@@ -3093,6 +3343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003epacketMessages\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvMessages",
           "package": "hosc",
@@ -3103,6 +3354,7 @@
         "index": {
           "description": "Variant of recvPacket that runs packetMessages",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvMessages",
           "normalized": "a-\u003eIO[Message]",
@@ -3119,6 +3371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003efromPacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvOSC",
           "package": "hosc",
@@ -3129,6 +3382,7 @@
         "index": {
           "description": "Variant of recvPacket that runs fromPacket",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvOSC",
           "normalized": "a-\u003eIO(Maybe b)",
@@ -3145,6 +3399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive and decode an OSC packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvPacket",
           "package": "hosc",
@@ -3155,6 +3410,7 @@
         "index": {
           "description": "Receive and decode an OSC packet",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvPacket",
           "normalized": "a-\u003eIO Packet",
@@ -3171,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that implements an \u003cem\u003en\u003c/em\u003e second \u003ccode\u003etimeout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvPacketTimeout",
           "package": "hosc",
@@ -3181,6 +3438,7 @@
         "index": {
           "description": "Variant of recvPacket that implements an second timeout",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "recvPacketTimeout",
           "normalized": "Double-\u003ea-\u003eIO(Maybe Packet)",
@@ -3197,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType restricted synonym for \u003ccode\u003e\u003ca\u003esendOSC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "sendBundle",
           "package": "hosc",
@@ -3207,6 +3466,7 @@
         "index": {
           "description": "Type restricted synonym for sendOSC",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "sendBundle",
           "normalized": "a-\u003eBundle-\u003eIO()",
@@ -3223,6 +3483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType restricted synonym for \u003ccode\u003e\u003ca\u003esendOSC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "sendMessage",
           "package": "hosc",
@@ -3233,6 +3494,7 @@
         "index": {
           "description": "Type restricted synonym for sendOSC",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "sendMessage",
           "normalized": "a-\u003eMessage-\u003eIO()",
@@ -3249,6 +3511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode and send an OSC packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "sendOSC",
           "package": "hosc",
@@ -3259,6 +3522,7 @@
         "index": {
           "description": "Encode and send an OSC packet",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "sendOSC",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -3275,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ewaitFor\u003c/a\u003e\u003c/code\u003e for variant using \u003ccode\u003e\u003ca\u003epacket_has_address\u003c/a\u003e\u003c/code\u003e to match on\n the \u003ccode\u003e\u003ca\u003eAddress_Pattern\u003c/a\u003e\u003c/code\u003e of incoming \u003ccode\u003ePackets\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitAddress",
           "package": "hosc",
@@ -3285,6 +3550,7 @@
         "index": {
           "description": "waitFor for variant using packet has address to match on the Address Pattern of incoming Packets",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitAddress",
           "normalized": "a-\u003eAddress_Pattern-\u003eIO Packet",
@@ -3301,6 +3567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003ewaitReply\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003emessageDatum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitDatum",
           "package": "hosc",
@@ -3311,6 +3578,7 @@
         "index": {
           "description": "Variant of waitReply that runs messageDatum",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitDatum",
           "normalized": "a-\u003eAddress_Pattern-\u003eIO[Datum]",
@@ -3327,6 +3595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e where the supplied function does not give\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, discarding intervening packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitFor",
           "package": "hosc",
@@ -3337,6 +3606,7 @@
         "index": {
           "description": "Wait for Packet where the supplied function does not give Nothing discarding intervening packets",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitFor",
           "normalized": "a-\u003e(Packet-\u003eMaybe b)-\u003eIO b",
@@ -3353,6 +3623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewaitUntil\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003epacket_is_immediate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitImmediate",
           "package": "hosc",
@@ -3363,6 +3634,7 @@
         "index": {
           "description": "waitUntil packet is immediate",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitImmediate",
           "normalized": "a-\u003eIO Packet",
@@ -3379,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewaitFor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003epacket_to_message\u003c/a\u003e\u003c/code\u003e, ie. an incoming \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e or\n immediate mode \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e with one element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitMessage",
           "package": "hosc",
@@ -3389,6 +3662,7 @@
         "index": {
           "description": "waitFor packet to message ie an incoming Message or immediate mode Bundle with one element",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitMessage",
           "normalized": "a-\u003eIO Message",
@@ -3405,6 +3679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003ewaitAddress\u003c/a\u003e\u003c/code\u003e that returns matching \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitReply",
           "package": "hosc",
@@ -3415,6 +3690,7 @@
         "index": {
           "description": "Variant on waitAddress that returns matching Message",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitReply",
           "normalized": "a-\u003eAddress_Pattern-\u003eIO Message",
@@ -3431,6 +3707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e where the supplied predicate is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\n discarding intervening packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitUntil",
           "package": "hosc",
@@ -3441,6 +3718,7 @@
         "index": {
           "description": "Wait for Packet where the supplied predicate is True discarding intervening packets",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "waitUntil",
           "normalized": "a-\u003e(Packet-\u003eBool)-\u003eIO Packet",
@@ -3457,6 +3735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket OSC communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.FD",
           "name": "withTransport",
           "package": "hosc",
@@ -3467,6 +3746,7 @@
         "index": {
           "description": "Bracket OSC communication",
           "hierarchy": "Sound OSC Transport FD",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.FD",
           "name": "withTransport",
           "normalized": "IO a-\u003e(a-\u003eIO b)-\u003eIO b",
@@ -3483,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad class implementing an Open Sound Control transport.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "Monad",
           "package": "hosc",
@@ -3492,6 +3773,7 @@
         "index": {
           "description": "Monad class implementing an Open Sound Control transport",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "Monad",
           "package": "hosc",
@@ -3506,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransport connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "Connection",
           "package": "hosc",
@@ -3515,6 +3798,7 @@
         "index": {
           "description": "Transport connection",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "Connection",
           "package": "hosc",
@@ -3529,6 +3813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDuplexOSC\u003c/a\u003e\u003c/code\u003e is the union of \u003ccode\u003e\u003ca\u003eSendOSC\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRecvOSC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "DuplexOSC",
           "package": "hosc",
@@ -3538,6 +3823,7 @@
         "index": {
           "description": "DuplexOSC is the union of SendOSC and RecvOSC",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "DuplexOSC",
           "package": "hosc",
@@ -3552,6 +3838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceiver monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "RecvOSC",
           "package": "hosc",
@@ -3561,6 +3848,7 @@
         "index": {
           "description": "Receiver monad",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "RecvOSC",
           "package": "hosc",
@@ -3575,6 +3863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSender monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "SendOSC",
           "package": "hosc",
@@ -3584,6 +3873,7 @@
         "index": {
           "description": "Sender monad",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "SendOSC",
           "package": "hosc",
@@ -3598,6 +3888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTransport\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eDuplexOSC\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "Transport",
           "package": "hosc",
@@ -3607,6 +3898,7 @@
         "index": {
           "description": "Transport is DuplexOSC with MonadIO constraint",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "Transport",
           "package": "hosc",
@@ -3621,6 +3913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003epacket_to_bundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvBundle",
           "package": "hosc",
@@ -3631,6 +3924,7 @@
         "index": {
           "description": "Variant of recvPacket that runs packet to bundle",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvBundle",
           "package": "hosc",
@@ -3645,6 +3939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003epacket_to_message\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvMessage",
           "package": "hosc",
@@ -3655,6 +3950,7 @@
         "index": {
           "description": "Variant of recvPacket that runs packet to message",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvMessage",
           "package": "hosc",
@@ -3669,6 +3965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003epacketMessages\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvMessages",
           "package": "hosc",
@@ -3679,6 +3976,7 @@
         "index": {
           "description": "Variant of recvPacket that runs packetMessages",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvMessages",
           "normalized": "a[Message]",
@@ -3695,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erecvPacket\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003efromPacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvOSC",
           "package": "hosc",
@@ -3705,6 +4004,7 @@
         "index": {
           "description": "Variant of recvPacket that runs fromPacket",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvOSC",
           "package": "hosc",
@@ -3719,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive and decode an OSC packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvPacket",
           "package": "hosc",
@@ -3729,6 +4030,7 @@
         "index": {
           "description": "Receive and decode an OSC packet",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "recvPacket",
           "package": "hosc",
@@ -3743,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType restricted synonym for \u003ccode\u003e\u003ca\u003esendOSC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "sendBundle",
           "package": "hosc",
@@ -3753,6 +4056,7 @@
         "index": {
           "description": "Type restricted synonym for sendOSC",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "sendBundle",
           "normalized": "Bundle-\u003ea()",
@@ -3769,6 +4073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType restricted synonym for \u003ccode\u003e\u003ca\u003esendOSC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "sendMessage",
           "package": "hosc",
@@ -3779,6 +4084,7 @@
         "index": {
           "description": "Type restricted synonym for sendOSC",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "sendMessage",
           "normalized": "Message-\u003ea()",
@@ -3795,6 +4101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode and send an OSC packet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "sendOSC",
           "package": "hosc",
@@ -3805,6 +4112,7 @@
         "index": {
           "description": "Encode and send an OSC packet",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "sendOSC",
           "normalized": "a-\u003eb()",
@@ -3821,6 +4129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ewaitFor\u003c/a\u003e\u003c/code\u003e for variant using \u003ccode\u003e\u003ca\u003epacket_has_address\u003c/a\u003e\u003c/code\u003e to match on\n the \u003ccode\u003e\u003ca\u003eAddress_Pattern\u003c/a\u003e\u003c/code\u003e of incoming \u003ccode\u003ePackets\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitAddress",
           "package": "hosc",
@@ -3831,6 +4140,7 @@
         "index": {
           "description": "waitFor for variant using packet has address to match on the Address Pattern of incoming Packets",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitAddress",
           "normalized": "Address_Pattern-\u003ea Packet",
@@ -3847,6 +4157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003ewaitReply\u003c/a\u003e\u003c/code\u003e that runs \u003ccode\u003e\u003ca\u003emessageDatum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitDatum",
           "package": "hosc",
@@ -3857,6 +4168,7 @@
         "index": {
           "description": "Variant of waitReply that runs messageDatum",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitDatum",
           "normalized": "Address_Pattern-\u003ea[Datum]",
@@ -3873,6 +4185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e where the supplied function does not give\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, discarding intervening packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitFor",
           "package": "hosc",
@@ -3883,6 +4196,7 @@
         "index": {
           "description": "Wait for Packet where the supplied function does not give Nothing discarding intervening packets",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitFor",
           "normalized": "(Packet-\u003eMaybe a)-\u003eb a",
@@ -3899,6 +4213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewaitUntil\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003epacket_is_immediate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitImmediate",
           "package": "hosc",
@@ -3909,6 +4224,7 @@
         "index": {
           "description": "waitUntil packet is immediate",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitImmediate",
           "package": "hosc",
@@ -3923,6 +4239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewaitFor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003epacket_to_message\u003c/a\u003e\u003c/code\u003e, ie. an incoming \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e or\n immediate mode \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e with one element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitMessage",
           "package": "hosc",
@@ -3933,6 +4250,7 @@
         "index": {
           "description": "waitFor packet to message ie an incoming Message or immediate mode Bundle with one element",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitMessage",
           "package": "hosc",
@@ -3947,6 +4265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003ewaitAddress\u003c/a\u003e\u003c/code\u003e that returns matching \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitReply",
           "package": "hosc",
@@ -3957,6 +4276,7 @@
         "index": {
           "description": "Variant on waitAddress that returns matching Message",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitReply",
           "normalized": "Address_Pattern-\u003ea Message",
@@ -3973,6 +4293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e where the supplied predicate is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\n discarding intervening packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitUntil",
           "package": "hosc",
@@ -3983,6 +4304,7 @@
         "index": {
           "description": "Wait for Packet where the supplied predicate is True discarding intervening packets",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "waitUntil",
           "normalized": "(Packet-\u003eBool)-\u003ea Packet",
@@ -3999,6 +4321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket Open Sound Control communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Transport.Monad",
           "name": "withTransport",
           "package": "hosc",
@@ -4009,6 +4332,7 @@
         "index": {
           "description": "Bracket Open Sound Control communication",
           "hierarchy": "Sound OSC Transport Monad",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Transport.Monad",
           "name": "withTransport",
           "normalized": "IO a-\u003eConnection a b-\u003eIO b",
@@ -4025,6 +4349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlegbraic data types for OSC datum and packets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Type",
           "package": "hosc",
@@ -4034,6 +4359,7 @@
         "index": {
           "description": "Alegbraic data types for OSC datum and packets",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Type",
           "package": "hosc",
@@ -4048,6 +4374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for ASCII strings (strict \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e8 \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "ASCII",
           "package": "hosc",
@@ -4057,6 +4384,7 @@
         "index": {
           "description": "Type for ASCII strings strict Char ByteString",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "ASCII",
           "package": "hosc",
@@ -4071,6 +4399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOSC address pattern.  This is strictly an ASCII value, but it is\n very common to pattern match on addresses and matching on\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e requires \u003ccode\u003eOverloadedStrings\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Address_Pattern",
           "package": "hosc",
@@ -4080,6 +4409,7 @@
         "index": {
           "description": "OSC address pattern This is strictly an ASCII value but it is very common to pattern match on addresses and matching on ByteString requires OverloadedStrings",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Address_Pattern",
           "package": "hosc",
@@ -4094,6 +4424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OSC bundle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Bundle",
           "package": "hosc",
@@ -4103,6 +4434,7 @@
         "index": {
           "description": "An OSC bundle",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Bundle",
           "package": "hosc",
@@ -4117,6 +4449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for translating to and from \u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e.  There are instances\n for the direct \u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e field types.\n\u003c/p\u003e\u003cpre\u003e d_put (1::Int32) == Int32 1\n d_put (1::Int64) == Int64 1\n d_put (1::Float) == Float 1\n d_put (1::Double) == Double 1\n d_put (C.pack \"str\") == ASCII_String (C.pack \"str\")\n d_put (B.pack [37,37]) == Blob (B.pack [37,37])\n d_put (MIDI 0 0 0 0) == Midi (MIDI 0 0 0 0)\n\u003c/pre\u003e\u003cp\u003eThere are also instances for standard Haskell types.\n\u003c/p\u003e\u003cpre\u003e d_put (1::Int) == Int64 1\n d_put (1::Integer) == Int64 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Datem",
           "package": "hosc",
@@ -4126,6 +4459,7 @@
         "index": {
           "description": "Class for translating to and from Datum There are instances for the direct Datum field types put Int32 Int32 put Int64 Int64 put Float Float put Double Double put C.pack str ASCII String C.pack str put B.pack Blob B.pack put MIDI Midi MIDI There are also instances for standard Haskell types put Int Int64 put Integer Int64",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Datem",
           "package": "hosc",
@@ -4140,6 +4474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic elements of OSC messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Datum",
           "package": "hosc",
@@ -4149,6 +4484,7 @@
         "index": {
           "description": "The basic elements of OSC messages",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Datum",
           "package": "hosc",
@@ -4163,6 +4499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType enumerating Datum categories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Datum_Type",
           "package": "hosc",
@@ -4172,6 +4509,7 @@
         "index": {
           "description": "Type enumerating Datum categories",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Datum_Type",
           "package": "hosc",
@@ -4186,6 +4524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour-byte midi message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "MIDI",
           "package": "hosc",
@@ -4195,6 +4534,7 @@
         "index": {
           "description": "Four-byte midi message",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "MIDI",
           "package": "hosc",
@@ -4209,6 +4549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OSC message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Message",
           "package": "hosc",
@@ -4218,6 +4559,7 @@
         "index": {
           "description": "An OSC message",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Message",
           "package": "hosc",
@@ -4232,6 +4574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OSC \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e is either a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Packet",
           "package": "hosc",
@@ -4241,6 +4584,7 @@
         "index": {
           "description": "An OSC Packet is either Message or Bundle",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Packet",
           "package": "hosc",
@@ -4255,6 +4599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNTP\u003c/code\u003e time in real-valued (fractional) form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Time",
           "package": "hosc",
@@ -4264,6 +4609,7 @@
         "index": {
           "description": "NTP time in real-valued fractional form",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Time",
           "package": "hosc",
@@ -4277,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "ASCII_String",
           "package": "hosc",
@@ -4286,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "ASCII_String",
           "package": "hosc",
@@ -4299,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Blob",
           "package": "hosc",
@@ -4308,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Blob",
           "package": "hosc",
@@ -4321,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Bundle",
           "package": "hosc",
@@ -4330,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Bundle",
           "package": "hosc",
@@ -4343,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Double",
           "package": "hosc",
@@ -4352,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Double",
           "package": "hosc",
@@ -4365,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Float",
           "package": "hosc",
@@ -4374,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Float",
           "package": "hosc",
@@ -4387,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Int32",
           "package": "hosc",
@@ -4396,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Int32",
           "package": "hosc",
@@ -4409,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Int64",
           "package": "hosc",
@@ -4418,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Int64",
           "package": "hosc",
@@ -4431,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "MIDI",
           "package": "hosc",
@@ -4440,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "MIDI",
           "package": "hosc",
@@ -4453,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Message",
           "package": "hosc",
@@ -4462,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Message",
           "package": "hosc",
@@ -4475,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Midi",
           "package": "hosc",
@@ -4484,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Midi",
           "package": "hosc",
@@ -4497,6 +4863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Packet_Bundle",
           "package": "hosc",
@@ -4506,6 +4873,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Packet_Bundle",
           "package": "hosc",
@@ -4519,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "Packet_Message",
           "package": "hosc",
@@ -4528,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "Packet_Message",
           "package": "hosc",
@@ -4541,6 +4911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "TimeStamp",
           "package": "hosc",
@@ -4550,6 +4921,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "TimeStamp",
           "package": "hosc",
@@ -4564,6 +4936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eeither\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "at_packet",
           "package": "hosc",
@@ -4574,6 +4947,7 @@
         "index": {
           "description": "Variant of either for Packet",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "at_packet",
           "normalized": "(Message-\u003ea)-\u003e(Bundle-\u003ea)-\u003ePacket-\u003ea",
@@ -4589,6 +4963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e constructor. It is an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e if the \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e list is\n empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "bundle",
           "package": "hosc",
@@ -4599,6 +4974,7 @@
         "index": {
           "description": "Bundle constructor It is an error if the Message list is empty",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "bundle",
           "normalized": "Time-\u003e[Message]-\u003eBundle",
@@ -4613,6 +4989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "bundleMessages",
           "package": "hosc",
@@ -4622,6 +4999,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "bundleMessages",
           "normalized": "[Message]",
@@ -4638,6 +5016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printer for \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "bundlePP",
           "package": "hosc",
@@ -4648,6 +5027,7 @@
         "index": {
           "description": "Pretty printer for Bundle",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "bundlePP",
           "normalized": "Bundle-\u003eString",
@@ -4663,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "bundleTime",
           "package": "hosc",
@@ -4672,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "bundleTime",
           "package": "hosc",
@@ -4686,6 +5068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo any of the \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003es at \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e have the specified\n \u003ccode\u003e\u003ca\u003eAddress_Pattern\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "bundle_has_address",
           "package": "hosc",
@@ -4696,6 +5079,7 @@
         "index": {
           "description": "Do any of the Message at Bundle have the specified Address Pattern",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "bundle_has_address",
           "normalized": "Address_Pattern-\u003eBundle-\u003eBool",
@@ -4710,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_ascii_string",
           "package": "hosc",
@@ -4719,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_ascii_string",
           "package": "hosc",
@@ -4731,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_blob",
           "package": "hosc",
@@ -4740,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_blob",
           "package": "hosc",
@@ -4752,6 +5140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_double",
           "package": "hosc",
@@ -4761,6 +5150,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_double",
           "package": "hosc",
@@ -4773,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_float",
           "package": "hosc",
@@ -4782,6 +5173,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_float",
           "package": "hosc",
@@ -4794,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_get",
           "package": "hosc",
@@ -4803,6 +5196,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_get",
           "normalized": "Datum-\u003eMaybe a",
@@ -4817,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_int32",
           "package": "hosc",
@@ -4826,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_int32",
           "package": "hosc",
@@ -4838,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_int64",
           "package": "hosc",
@@ -4847,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_int64",
           "package": "hosc",
@@ -4859,6 +5257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_midi",
           "package": "hosc",
@@ -4868,6 +5267,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_midi",
           "package": "hosc",
@@ -4880,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_put",
           "package": "hosc",
@@ -4889,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_put",
           "normalized": "a-\u003eDatum",
@@ -4903,6 +5305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "d_timestamp",
           "package": "hosc",
@@ -4912,6 +5315,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "d_timestamp",
           "package": "hosc",
@@ -4925,6 +5329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printer for \u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let d = [Int32 1,Float 1.2,string \"str\",midi (0,0x90,0x40,0x60)]\n in map datumPP d ==  [\"1\",\"1.2\",\"\\\"str\\\"\",\"\u003c0,144,64,96\u003e\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "datumPP",
           "package": "hosc",
@@ -4935,6 +5340,7 @@
         "index": {
           "description": "Pretty printer for Datum let Int32 Float string str midi x90 x40 x60 in map datumPP str",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "datumPP",
           "normalized": "Datum-\u003eString",
@@ -4951,6 +5357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eTimeStamp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let d = [Int32 5,Int64 5,Float 5,Double 5,TimeStamp 5]\n in Data.Maybe.mapMaybe datum_floating d == replicate 5 (5::Double)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "datum_floating",
           "package": "hosc",
@@ -4961,6 +5368,7 @@
         "index": {
           "description": "Datum as Floating if Int32 Int64 Float Double or TimeStamp let Int32 Int64 Float Double TimeStamp in Data.Maybe.mapMaybe datum floating replicate Double",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "datum_floating",
           "normalized": "Datum-\u003eMaybe a",
@@ -4976,6 +5384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let d = [Int32 5,Int64 5,Float 5.5,Double 5.5]\n in map datum_integral d == [Just (5::Int),Just 5,Nothing,Nothing]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "datum_integral",
           "package": "hosc",
@@ -4986,6 +5395,7 @@
         "index": {
           "description": "Datum as Integral if Int32 or Int64 let Int32 Int64 Float Double in map datum integral Just Int Just Nothing Nothing",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "datum_integral",
           "normalized": "Datum-\u003eMaybe a",
@@ -5001,6 +5411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle character identifier of an OSC datum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "datum_tag",
           "package": "hosc",
@@ -5011,6 +5422,7 @@
         "index": {
           "description": "Single character identifier of an OSC datum",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "datum_tag",
           "normalized": "Datum-\u003eDatum_Type",
@@ -5026,6 +5438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage argument types are given by a descriptor.\n\u003c/p\u003e\u003cpre\u003e C.unpack (descriptor [Int32 1,Float 1,string \"1\"]) == \",ifs\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "descriptor",
           "package": "hosc",
@@ -5036,6 +5449,7 @@
         "index": {
           "description": "Message argument types are given by descriptor C.unpack descriptor Int32 Float string ifs",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "descriptor",
           "normalized": "[Datum]-\u003eASCII",
@@ -5051,6 +5465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescriptor tags are \u003ccode\u003ecomma\u003c/code\u003e prefixed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "descriptor_tags",
           "package": "hosc",
@@ -5061,6 +5476,7 @@
         "index": {
           "description": "Descriptor tags are comma prefixed",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "descriptor_tags",
           "normalized": "ASCII-\u003eASCII",
@@ -5076,6 +5492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType generalised \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e double (1::Int) == double (1::Double)\n double (encodeFloat 1 256 :: Double) == Double 1.157920892373162e77\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "double",
           "package": "hosc",
@@ -5086,6 +5503,7 @@
         "index": {
           "description": "Type generalised Double double Int double Double double encodeFloat Double Double e77",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "double",
           "normalized": "a-\u003eDatum",
@@ -5101,6 +5519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType generalised \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e float (1::Int) == float (1::Double)\n floatRange (undefined::Float) == (-125,128)\n isInfinite (d_float (float (encodeFloat 1 256 :: Double))) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "float",
           "package": "hosc",
@@ -5111,6 +5530,7 @@
         "index": {
           "description": "Type generalised Float float Int float Double floatRange undefined Float isInfinite float float encodeFloat Double True",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "float",
           "normalized": "a-\u003eDatum",
@@ -5126,6 +5546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant indicating a bundle to be executed immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "immediately",
           "package": "hosc",
@@ -5136,6 +5557,7 @@
         "index": {
           "description": "Constant indicating bundle to be executed immediately",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "immediately",
           "package": "hosc",
@@ -5149,6 +5571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType generalised \u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e int32 (1::Int32) == int32 (1::Integer)\n d_int32 (int32 (maxBound::Int32)) == maxBound\n int32 (((2::Int) ^ (64::Int))::Int) == Int32 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "int32",
           "package": "hosc",
@@ -5159,6 +5582,7 @@
         "index": {
           "description": "Type generalised Int32 int32 Int32 int32 Integer int32 int32 maxBound Int32 maxBound int32 Int Int Int Int32",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "int32",
           "normalized": "a-\u003eDatum",
@@ -5174,6 +5598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType generalised \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e int64 (1::Int32) == int64 (1::Integer)\n d_int64 (int64 (maxBound::Int64)) == maxBound\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "int64",
           "package": "hosc",
@@ -5184,6 +5609,7 @@
         "index": {
           "description": "Type generalised Int64 int64 Int32 int64 Integer int64 int64 maxBound Int64 maxBound",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "int64",
           "normalized": "a-\u003eDatum",
@@ -5199,6 +5625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e constructor.  It is an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e if the \u003ccode\u003e\u003ca\u003eAddress_Pattern\u003c/a\u003e\u003c/code\u003e\n doesn't conform to the OSC specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "message",
           "package": "hosc",
@@ -5209,6 +5636,7 @@
         "index": {
           "description": "Message constructor It is an error if the Address Pattern doesn conform to the OSC specification",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "message",
           "normalized": "Address_Pattern-\u003e[Datum]-\u003eMessage",
@@ -5223,6 +5651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "messageAddress",
           "package": "hosc",
@@ -5232,6 +5661,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "messageAddress",
           "package": "hosc",
@@ -5245,6 +5675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "messageDatum",
           "package": "hosc",
@@ -5254,6 +5685,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "messageDatum",
           "normalized": "[Datum]",
@@ -5270,6 +5702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printer for \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "messagePP",
           "package": "hosc",
@@ -5280,6 +5713,7 @@
         "index": {
           "description": "Pretty printer for Message",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "messagePP",
           "normalized": "Message-\u003eString",
@@ -5296,6 +5730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e have the specified \u003ccode\u003e\u003ca\u003eAddress_Pattern\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "message_has_address",
           "package": "hosc",
@@ -5306,6 +5741,7 @@
         "index": {
           "description": "Does Message have the specified Address Pattern",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "message_has_address",
           "normalized": "Address_Pattern-\u003eMessage-\u003eBool",
@@ -5321,6 +5757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour-tuple variant of \u003ccode\u003e\u003ca\u003eMidi\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMIDI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e midi (0,0,0,0) == Midi (MIDI 0 0 0 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "midi",
           "package": "hosc",
@@ -5331,6 +5768,7 @@
         "index": {
           "description": "Four-tuple variant of Midi MIDI midi Midi MIDI",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "midi",
           "normalized": "(Word,Word,Word,Word)-\u003eDatum",
@@ -5346,6 +5784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePacket_Bundle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ebundle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "p_bundle",
           "package": "hosc",
@@ -5356,6 +5795,7 @@
         "index": {
           "description": "Packet Bundle bundle",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "p_bundle",
           "normalized": "Time-\u003e[Message]-\u003ePacket",
@@ -5371,6 +5811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePacket_Message\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "p_message",
           "package": "hosc",
@@ -5381,6 +5822,7 @@
         "index": {
           "description": "Packet Message message",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "p_message",
           "normalized": "Address_Pattern-\u003e[Datum]-\u003ePacket",
@@ -5395,6 +5837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packetBundle",
           "package": "hosc",
@@ -5404,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packetBundle",
           "package": "hosc",
@@ -5417,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packetMessage",
           "package": "hosc",
@@ -5426,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packetMessage",
           "package": "hosc",
@@ -5440,6 +5886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the set of \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003es from a \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packetMessages",
           "package": "hosc",
@@ -5450,6 +5897,7 @@
         "index": {
           "description": "Retrieve the set of Message from Packet",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packetMessages",
           "normalized": "Packet-\u003e[Message]",
@@ -5466,6 +5914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printer for \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packetPP",
           "package": "hosc",
@@ -5476,6 +5925,7 @@
         "index": {
           "description": "Pretty printer for Packet",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packetPP",
           "normalized": "Packet-\u003eString",
@@ -5492,6 +5942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e, if the \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e this is\n \u003ccode\u003e\u003ca\u003eimmediately\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packetTime",
           "package": "hosc",
@@ -5502,6 +5953,7 @@
         "index": {
           "description": "The Time of Packet if the Packet is Message this is immediately",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packetTime",
           "normalized": "Packet-\u003eTime",
@@ -5518,6 +5970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e have the specified \u003ccode\u003e\u003ca\u003eAddress_Pattern\u003c/a\u003e\u003c/code\u003e, ie.\n \u003ccode\u003e\u003ca\u003emessage_has_address\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ebundle_has_address\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packet_has_address",
           "package": "hosc",
@@ -5528,6 +5981,7 @@
         "index": {
           "description": "Does Packet have the specified Address Pattern ie message has address or bundle has address",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packet_has_address",
           "normalized": "Address_Pattern-\u003ePacket-\u003eBool",
@@ -5543,6 +5997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e immediate, ie. a \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e with timestamp\n \u003ccode\u003e\u003ca\u003eimmediately\u003c/a\u003e\u003c/code\u003e, or a plain Message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packet_is_immediate",
           "package": "hosc",
@@ -5553,6 +6008,7 @@
         "index": {
           "description": "Is Packet immediate ie Bundle with timestamp immediately or plain Message",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packet_is_immediate",
           "normalized": "Packet-\u003eBool",
@@ -5568,6 +6024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e add \u003ccode\u003e\u003ca\u003eimmediately\u003c/a\u003e\u003c/code\u003e timestamp, else \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packet_to_bundle",
           "package": "hosc",
@@ -5578,6 +6035,7 @@
         "index": {
           "description": "If Packet is Message add immediately timestamp else id",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packet_to_bundle",
           "normalized": "Packet-\u003eBundle",
@@ -5593,6 +6051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003ePacket\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003e with an \u003cem\u003eimmediate\u003c/em\u003e time\n tag and with one element, return the \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e, else \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "packet_to_message",
           "package": "hosc",
@@ -5603,6 +6062,7 @@
         "index": {
           "description": "If Packet is Message or Bundle with an immediate time tag and with one element return the Message else Nothing",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "packet_to_message",
           "normalized": "Packet-\u003eMaybe Message",
@@ -5618,6 +6078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003e\u003ca\u003eDatum_Type\u003c/a\u003e\u003c/code\u003e attempt to parse \u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e parse_datum 'i' \"42\" == Just (Int32 42)\n parse_datum 'h' \"42\" == Just (Int64 42)\n parse_datum 'f' \"3.14159\" == Just (Float 3.14159)\n parse_datum 'd' \"3.14159\" == Just (Double 3.14159)\n parse_datum 's' \"\\\"pi\\\"\" == Just (string \"pi\")\n parse_datum 'b' \"[112,105]\" == Just (Blob (B.pack [112,105]))\n parse_datum 'm' \"(0,144,60,90)\" == Just (midi (0,144,60,90))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "parse_datum",
           "package": "hosc",
@@ -5628,6 +6089,7 @@
         "index": {
           "description": "Given Datum Type attempt to parse Datum at String parse datum Just Int32 parse datum Just Int64 parse datum Just Float parse datum Just Double parse datum pi Just string pi parse datum Just Blob B.pack parse datum Just midi",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "parse_datum",
           "normalized": "Datum_Type-\u003eString-\u003eMaybe Datum",
@@ -5643,6 +6105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "readMaybe",
           "package": "hosc",
@@ -5653,6 +6116,7 @@
         "index": {
           "description": "Variant of read",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "readMaybe",
           "normalized": "String-\u003eMaybe a",
@@ -5669,6 +6133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eASCII_String\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003epack\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e string \"string\" == ASCII_String (C.pack \"string\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "string",
           "package": "hosc",
@@ -5679,6 +6144,7 @@
         "index": {
           "description": "ASCII String of pack string string ASCII String C.pack string",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "string",
           "normalized": "String-\u003eDatum",
@@ -5694,6 +6160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printer for \u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e (truncate to 4 decimal places).\n\u003c/p\u003e\u003cpre\u003e timePP (1/3) == \"0.3333\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "timePP",
           "package": "hosc",
@@ -5704,6 +6171,7 @@
         "index": {
           "description": "Pretty printer for Time truncate to decimal places timePP",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "timePP",
           "normalized": "Time-\u003eString",
@@ -5720,6 +6188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printer for vectors.\n\u003c/p\u003e\u003cpre\u003e vecPP [1::Int,2,3] == \"\u003c1,2,3\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Type",
           "name": "vecPP",
           "package": "hosc",
@@ -5730,6 +6199,7 @@
         "index": {
           "description": "Pretty printer for vectors vecPP Int",
           "hierarchy": "Sound OSC Type",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Type",
           "name": "vecPP",
           "normalized": "[a]-\u003eString",
@@ -5746,6 +6216,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWaiting (for replies).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Wait",
           "name": "Wait",
           "package": "hosc",
@@ -5755,6 +6226,7 @@
         "index": {
           "description": "Waiting for replies",
           "hierarchy": "Sound OSC Wait",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Wait",
           "name": "Wait",
           "package": "hosc",
@@ -5769,6 +6241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal valued variant of \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Wait",
           "name": "timeout_r",
           "package": "hosc",
@@ -5779,6 +6252,7 @@
         "index": {
           "description": "Real valued variant of timeout",
           "hierarchy": "Sound OSC Wait",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Wait",
           "name": "timeout_r",
           "normalized": "Double-\u003eIO a-\u003eIO(Maybe a)",
@@ -5794,6 +6268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat action until \u003cem\u003ef\u003c/em\u003e does not give \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e when applied to\n result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Wait",
           "name": "untilMaybe",
           "package": "hosc",
@@ -5804,6 +6279,7 @@
         "index": {
           "description": "Repeat action until does not give Nothing when applied to result",
           "hierarchy": "Sound OSC Wait",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Wait",
           "name": "untilMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003ec a-\u003ec b",
@@ -5820,6 +6296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat action until predicate \u003cem\u003ef\u003c/em\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when applied to\n result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC.Wait",
           "name": "untilPredicate",
           "package": "hosc",
@@ -5830,6 +6307,7 @@
         "index": {
           "description": "Repeat action until predicate is True when applied to result",
           "hierarchy": "Sound OSC Wait",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC.Wait",
           "name": "untilPredicate",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -5846,6 +6324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.OSC.Core\u003c/a\u003e and \u003ca\u003eSound.OSC.Transport.Monad\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:13 UTC 2014",
           "module": "Sound.OSC",
           "name": "OSC",
           "package": "hosc",
@@ -5855,6 +6334,7 @@
         "index": {
           "description": "Composite of Sound.OSC.Core and Sound.OSC.Transport.Monad",
           "hierarchy": "Sound OSC",
+          "indexed": "2014-03-11T18:44:13",
           "module": "Sound.OSC",
           "name": "OSC",
           "package": "hosc",

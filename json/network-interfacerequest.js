@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-interfacerequest"
+        "phrase": "network-interfacerequest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceRequest",
           "package": "network-interfacerequest",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceRequest",
           "package": "network-interfacerequest",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceFlags",
           "package": "network-interfacerequest",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceFlags",
           "package": "network-interfacerequest",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceRequest",
           "package": "network-interfacerequest",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceRequest",
           "package": "network-interfacerequest",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetInterfaceFlags",
           "package": "network-interfacerequest",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetInterfaceFlags",
           "package": "network-interfacerequest",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetInterfaceMTU",
           "package": "network-interfacerequest",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetInterfaceMTU",
           "package": "network-interfacerequest",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetNoCSum",
           "package": "network-interfacerequest",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetNoCSum",
           "package": "network-interfacerequest",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceFlags",
           "package": "network-interfacerequest",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceFlags",
           "package": "network-interfacerequest",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceRequest",
           "package": "network-interfacerequest",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "InterfaceRequest",
           "package": "network-interfacerequest",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetInterfaceFlags",
           "package": "network-interfacerequest",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetInterfaceFlags",
           "package": "network-interfacerequest",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetInterfaceMTU",
           "package": "network-interfacerequest",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetInterfaceMTU",
           "package": "network-interfacerequest",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetNoCSum",
           "package": "network-interfacerequest",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "SetNoCSum",
           "package": "network-interfacerequest",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "ifaceDefaultFlags",
           "package": "network-interfacerequest",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "ifaceDefaultFlags",
           "package": "network-interfacerequest",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "ifaceRunning",
           "package": "network-interfacerequest",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "ifaceRunning",
           "package": "network-interfacerequest",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "ifaceUp",
           "package": "network-interfacerequest",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "ifaceUp",
           "package": "network-interfacerequest",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "irIface",
           "package": "network-interfacerequest",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "irIface",
           "package": "network-interfacerequest",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "irValue",
           "package": "network-interfacerequest",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "irValue",
           "package": "network-interfacerequest",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "setInterfaceFlags",
           "package": "network-interfacerequest",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "setInterfaceFlags",
           "normalized": "Socket-\u003eString-\u003eInterfaceFlags-\u003eIO()",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:01 UTC 2014",
           "module": "Network.Socket.InterfaceRequest",
           "name": "setInterfaceMTU",
           "package": "network-interfacerequest",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Network Socket InterfaceRequest",
+          "indexed": "2014-03-11T19:28:01",
           "module": "Network.Socket.InterfaceRequest",
           "name": "setInterfaceMTU",
           "normalized": "Socket-\u003eString-\u003eInt-\u003eIO()",

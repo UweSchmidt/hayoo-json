@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cgi-utils"
+        "phrase": "cgi-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExample usage:\n\u003c/p\u003e\u003cpre\u003e module Main where\n \n import Data.Maybe\n import Network.CGI\n import Network.CGI.Session\n import Network.FastCGI\n \n main = do\n   runSessionCGI \"myapp\" runFastCGI $ do\n     n \u003c- fmap (fromMaybe 0) $ sessionGet \"age\"\n     sessionIns \"age\" 1 (+)\n     output $ show n ++ \" visits to this page.\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "Session",
           "package": "cgi-utils",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Example usage module Main where import Data.Maybe import Network.CGI import Network.CGI.Session import Network.FastCGI main do runSessionCGI myapp runFastCGI do fmap fromMaybe sessionGet age sessionIns age output show visits to this page",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "Session",
           "package": "cgi-utils",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA session consists of a unique id and a map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "Session",
           "package": "cgi-utils",
@@ -51,6 +54,7 @@
         "index": {
           "description": "session consists of unique id and map",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "Session",
           "package": "cgi-utils",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple Session monad. Recommend you define your own.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "SessionM",
           "package": "cgi-utils",
@@ -74,6 +79,7 @@
         "index": {
           "description": "simple Session monad Recommend you define your own",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "SessionM",
           "package": "cgi-utils",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cookie prefix (e.g. MYHASKELLCOOKIE).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "SessionName",
           "package": "cgi-utils",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The cookie prefix e.g MYHASKELLCOOKIE",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "SessionName",
           "package": "cgi-utils",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSessions and unique ids are stored in an MVar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "Sessions",
           "package": "cgi-utils",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Sessions and unique ids are stored in an MVar",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "Sessions",
           "package": "cgi-utils",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "Session",
           "package": "cgi-utils",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "Session",
           "package": "cgi-utils",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to get the current session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "getSession",
           "package": "cgi-utils",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Try to get the current session",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "getSession",
           "normalized": "SessionName-\u003eSessions-\u003eCGI(Maybe Session)",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab the session or create a new one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "initSession",
           "package": "cgi-utils",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Grab the session or create new one",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "initSession",
           "normalized": "SessionName-\u003eSessions-\u003eCGI Session",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new session and update the Mvar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "makeSession",
           "package": "cgi-utils",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Create new session and update the Mvar",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "makeSession",
           "normalized": "SessionName-\u003eSessions-\u003eCGI Session",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the sessions state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "makeSessions",
           "package": "cgi-utils",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Make the sessions state",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "makeSessions",
           "package": "cgi-utils",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple session runner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "runSession",
           "package": "cgi-utils",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Simple session runner",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "runSession",
           "normalized": "Sessions-\u003eSessionM a-\u003eSession-\u003eCGI a",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise a session state and start a F/CGI process. This is a\n   bit of a pattern so I've included it here for convenience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "runSessionCGI",
           "package": "cgi-utils",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Initialise session state and start CGI process This is bit of pattern so ve included it here for convenience",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "runSessionCGI",
           "normalized": "SessionName-\u003e(CGI CGIResult-\u003eIO())-\u003eSessionM CGIResult-\u003eIO()",
@@ -309,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "sess_id",
           "package": "cgi-utils",
@@ -318,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "sess_id",
           "package": "cgi-utils",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "sess_values",
           "package": "cgi-utils",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "sess_values",
           "package": "cgi-utils",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession value deleter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "sessionDel",
           "package": "cgi-utils",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Session value deleter",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "sessionDel",
           "normalized": "String-\u003eSessionM()",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession value getter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "sessionGet",
           "package": "cgi-utils",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Session value getter",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "sessionGet",
           "normalized": "String-\u003eSessionM(Maybe a)",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession value getter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "sessionId",
           "package": "cgi-utils",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Session value getter",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "sessionId",
           "package": "cgi-utils",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession value inserter/updater.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "sessionIns",
           "package": "cgi-utils",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Session value inserter updater",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "sessionIns",
           "normalized": "String-\u003ea-\u003e(a-\u003ea-\u003ea)-\u003eSessionM()",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a session in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:24 UTC 2014",
           "module": "Network.CGI.Session",
           "name": "updateSession",
           "package": "cgi-utils",
@@ -464,6 +501,7 @@
         "index": {
           "description": "Update session in the map",
           "hierarchy": "Network CGI Session",
+          "indexed": "2014-03-11T17:31:24",
           "module": "Network.CGI.Session",
           "name": "updateSession",
           "normalized": "Sessions-\u003eSession-\u003eCGI()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ruby-qq"
+        "phrase": "ruby-qq",
+        "type": "phrase"
       },
       "type": "context"
     }

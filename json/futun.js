@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "futun"
+        "phrase": "futun",
+        "type": "phrase"
       },
       "type": "context"
     }

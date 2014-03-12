@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dotgen"
+        "phrase": "dotgen",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a simple interface for building .dot graph files, for input into the dot and graphviz tools. \n It includes a monadic interface for building graphs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "Dot",
           "package": "dotgen",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides simple interface for building dot graph files for input into the dot and graphviz tools It includes monadic interface for building graphs",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "Dot",
           "package": "dotgen",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "Dot",
           "package": "dotgen",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "Dot",
           "package": "dotgen",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "NodeId",
           "package": "dotgen",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "NodeId",
           "package": "dotgen",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "(.-\u003e.)",
           "package": "dotgen",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "(.-\u003e.) .-\u003e.",
           "normalized": "NodeId-\u003eNodeId-\u003eDot()",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eattribute\u003c/a\u003e\u003c/code\u003e gives a attribute to the current scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "attribute",
           "package": "dotgen",
@@ -117,6 +126,7 @@
         "index": {
           "description": "attribute gives attribute to the current scope",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "attribute",
           "normalized": "(String,String)-\u003eDot()",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecluster\u003c/a\u003e\u003c/code\u003e builds an explicit, internally named subgraph (called cluster). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "cluster",
           "package": "dotgen",
@@ -142,6 +153,7 @@
         "index": {
           "description": "cluster builds an explicit internally named subgraph called cluster",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "cluster",
           "normalized": "Dot a-\u003eDot(NodeId,a)",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eedge\u003c/a\u003e\u003c/code\u003e generates an edge between two \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003es, with attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "edge",
           "package": "dotgen",
@@ -167,6 +180,7 @@
         "index": {
           "description": "edge generates an edge between two NodeId with attributes",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "edge",
           "normalized": "NodeId-\u003eNodeId-\u003e[(String,String)]-\u003eDot()",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eedge\u003c/a\u003e\u003c/code\u003e generates an edge between two \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003es, with optional node sub-labels, and attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "edge'",
           "package": "dotgen",
@@ -192,6 +207,7 @@
         "index": {
           "description": "edge generates an edge between two NodeId with optional node sub-labels and attributes",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "edge'",
           "normalized": "NodeId-\u003eMaybe String-\u003eNodeId-\u003eMaybe String-\u003e[(String,String)]-\u003eDot()",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enetlistGraph\u003c/a\u003e\u003c/code\u003e generates a simple graph from a netlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "netlistGraph",
           "package": "dotgen",
@@ -216,6 +233,7 @@
         "index": {
           "description": "netlistGraph generates simple graph from netlist",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "netlistGraph",
           "normalized": "(a-\u003e[(String,String)])-\u003e(a-\u003e[b])-\u003e[(b,a)]-\u003eDot()",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enode\u003c/a\u003e\u003c/code\u003e takes a list of attributes, generates a new node, and gives a \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "node",
           "package": "dotgen",
@@ -242,6 +261,7 @@
         "index": {
           "description": "node takes list of attributes generates new node and gives NodeId",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "node",
           "normalized": "[(String,String)]-\u003eDot NodeId",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esame\u003c/a\u003e\u003c/code\u003e provides a combinator for a common pattern; a set of \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003es with the same rank.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "same",
           "package": "dotgen",
@@ -267,6 +288,7 @@
         "index": {
           "description": "same provides combinator for common pattern set of NodeId with the same rank",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "same",
           "normalized": "[NodeId]-\u003eDot()",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e.-\u003e.\u003c/a\u003e\u003c/code\u003e generates an edge between two \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003escope\u003c/a\u003e\u003c/code\u003e groups a subgraph together; in dot these are the subgraphs inside \u003ca\u003e{\u003c/a\u003e and \u003ca\u003e}\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "scope",
           "package": "dotgen",
@@ -292,6 +315,7 @@
         "index": {
           "description": "generates an edge between two NodeId scope groups subgraph together in dot these are the subgraphs inside and",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "scope",
           "normalized": "Dot a-\u003eDot a",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eshare\u003c/a\u003e\u003c/code\u003e is when a set of nodes share specific attributes. Usually used for layout tweaking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "share",
           "package": "dotgen",
@@ -317,6 +342,7 @@
         "index": {
           "description": "share is when set of nodes share specific attributes Usually used for layout tweaking",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "share",
           "normalized": "[(String,String)]-\u003e[NodeId]-\u003eDot()",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "showDot",
           "package": "dotgen",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "showDot",
           "normalized": "Dot a-\u003eString",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003euserNode\u003c/a\u003e\u003c/code\u003e takes a NodeId, and adds some attributes to that node. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "userNode",
           "package": "dotgen",
@@ -366,6 +395,7 @@
         "index": {
           "description": "userNode takes NodeId and adds some attributes to that node",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "userNode",
           "normalized": "NodeId-\u003e[(String,String)]-\u003eDot()",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003euserNodeId\u003c/a\u003e\u003c/code\u003e allows a user to use their own (Int-based) node id's, without needing to remap them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:06 UTC 2014",
           "module": "Text.Dot",
           "name": "userNodeId",
           "package": "dotgen",
@@ -392,6 +423,7 @@
         "index": {
           "description": "userNodeId allows user to use their own Int-based node id without needing to remap them",
           "hierarchy": "Text Dot",
+          "indexed": "2014-03-11T17:58:06",
           "module": "Text.Dot",
           "name": "userNodeId",
           "normalized": "Int-\u003eNodeId",

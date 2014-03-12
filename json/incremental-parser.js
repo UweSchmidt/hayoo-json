@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "incremental-parser"
+        "phrase": "incremental-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the AlternativeMonoid class\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Control.Applicative.Monoid",
           "name": "Monoid",
           "package": "incremental-parser",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the AlternativeMonoid class",
           "hierarchy": "Control Applicative Monoid",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Control.Applicative.Monoid",
           "name": "Monoid",
           "package": "incremental-parser",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Control.Applicative.Monoid",
           "name": "MonoidAlternative",
           "package": "incremental-parser",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Monoid",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Control.Applicative.Monoid",
           "name": "MonoidAlternative",
           "package": "incremental-parser",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Control.Applicative.Monoid",
           "name": "MonoidApplicative",
           "package": "incremental-parser",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Monoid",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Control.Applicative.Monoid",
           "name": "MonoidApplicative",
           "package": "incremental-parser",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted and potentially optimized monoid \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e operation from the parameter type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Control.Applicative.Monoid",
           "name": "(\u003e\u003c)",
           "package": "incremental-parser",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Lifted and potentially optimized monoid mappend operation from the parameter type",
           "hierarchy": "Control Applicative Monoid",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Control.Applicative.Monoid",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero or more argument occurrences like \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e, but concatenated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Control.Applicative.Monoid",
           "name": "concatMany",
           "package": "incremental-parser",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Zero or more argument occurrences like many but concatenated",
           "hierarchy": "Control Applicative Monoid",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Control.Applicative.Monoid",
           "name": "concatMany",
           "normalized": "a b-\u003ea b",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne or more argument occurrences like \u003ccode\u003e\u003ca\u003esome\u003c/a\u003e\u003c/code\u003e, but concatenated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Control.Applicative.Monoid",
           "name": "concatSome",
           "package": "incremental-parser",
@@ -145,6 +156,7 @@
         "index": {
           "description": "One or more argument occurrences like some but concatenated",
           "hierarchy": "Control Applicative Monoid",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Control.Applicative.Monoid",
           "name": "concatSome",
           "normalized": "a b-\u003ea b",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003eoptional\u003c/code\u003e, but restricted to \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Control.Applicative.Monoid",
           "name": "moptional",
           "package": "incremental-parser",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Like optional but restricted to Monoid results",
           "hierarchy": "Control Applicative Monoid",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Control.Applicative.Monoid",
           "name": "moptional",
           "normalized": "a b-\u003ea b",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines incremental parsers. \n\u003c/p\u003e\u003cp\u003eThe exported \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e type can provide partial parsing results from partial input, as long as the output is a\n \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. Construct a parser using the primitives and combinators, supply it with input using functions \u003ccode\u003e\u003ca\u003efeed\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efeedEof\u003c/a\u003e\u003c/code\u003e, and extract the parsed output using \u003ccode\u003e\u003ca\u003eresults\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eImplementation is based on Brzozowski derivatives.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental.LeftBiasedLocal",
           "name": "LeftBiasedLocal",
           "package": "incremental-parser",
@@ -195,6 +210,7 @@
         "index": {
           "description": "This module defines incremental parsers The exported Parser type can provide partial parsing results from partial input as long as the output is Monoid Construct parser using the primitives and combinators supply it with input using functions feed and feedEof and extract the parsed output using results Implementation is based on Brzozowski derivatives",
           "hierarchy": "Text ParserCombinators Incremental LeftBiasedLocal",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental.LeftBiasedLocal",
           "name": "LeftBiasedLocal",
           "package": "incremental-parser",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty type to specialize \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e for the left-biased \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental.LeftBiasedLocal",
           "name": "LeftBiasedLocal",
           "package": "incremental-parser",
@@ -218,6 +235,7 @@
         "index": {
           "description": "An empty type to specialize Parser for the left-biased Alternative instance",
           "hierarchy": "Text ParserCombinators Incremental LeftBiasedLocal",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental.LeftBiasedLocal",
           "name": "LeftBiasedLocal",
           "package": "incremental-parser",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental.LeftBiasedLocal",
           "name": "Parser",
           "package": "incremental-parser",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental LeftBiasedLocal",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental.LeftBiasedLocal",
           "name": "Parser",
           "package": "incremental-parser",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental.LeftBiasedLocal",
           "name": "leftmost",
           "package": "incremental-parser",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental LeftBiasedLocal",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental.LeftBiasedLocal",
           "name": "leftmost",
           "normalized": "Parser a b-\u003eParser c a b",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines incremental parsers. \n\u003c/p\u003e\u003cp\u003eThe exported \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e type can provide partial parsing results from partial input, as long as the output is a\n \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. Construct a parser using the primitives and combinators, supply it with input using functions \u003ccode\u003e\u003ca\u003efeed\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efeedEof\u003c/a\u003e\u003c/code\u003e, and extract the parsed output using \u003ccode\u003e\u003ca\u003eresults\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eImplementation is based on Brzozowski derivatives.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental.Symmetric",
           "name": "Symmetric",
           "package": "incremental-parser",
@@ -285,6 +308,7 @@
         "index": {
           "description": "This module defines incremental parsers The exported Parser type can provide partial parsing results from partial input as long as the output is Monoid Construct parser using the primitives and combinators supply it with input using functions feed and feedEof and extract the parsed output using results Implementation is based on Brzozowski derivatives",
           "hierarchy": "Text ParserCombinators Incremental Symmetric",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental.Symmetric",
           "name": "Symmetric",
           "package": "incremental-parser",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental.Symmetric",
           "name": "Parser",
           "package": "incremental-parser",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental Symmetric",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental.Symmetric",
           "name": "Parser",
           "package": "incremental-parser",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty type to specialize \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e for the symmetric \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental.Symmetric",
           "name": "Symmetric",
           "package": "incremental-parser",
@@ -329,6 +356,7 @@
         "index": {
           "description": "An empty type to specialize Parser for the symmetric Alternative instance",
           "hierarchy": "Text ParserCombinators Incremental Symmetric",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental.Symmetric",
           "name": "Symmetric",
           "package": "incremental-parser",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental.Symmetric",
           "name": "allOf",
           "package": "incremental-parser",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental Symmetric",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental.Symmetric",
           "name": "allOf",
           "normalized": "Parser a b-\u003eParser c a b",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines incremental parsers. \n\u003c/p\u003e\u003cp\u003eThe exported \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e type can provide partial parsing results from partial input, as long as the output is a\n \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. Construct a parser using the primitives and combinators, supply it with input using functions \u003ccode\u003e\u003ca\u003efeed\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efeedEof\u003c/a\u003e\u003c/code\u003e, and extract the parsed output using \u003ccode\u003e\u003ca\u003eresults\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eImplementation is based on Brzozowski derivatives.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "Incremental",
           "package": "incremental-parser",
@@ -376,6 +407,7 @@
         "index": {
           "description": "This module defines incremental parsers The exported Parser type can provide partial parsing results from partial input as long as the output is Monoid Construct parser using the primitives and combinators supply it with input using functions feed and feedEof and extract the parsed output using results Implementation is based on Brzozowski derivatives",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "Incremental",
           "package": "incremental-parser",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe central parser type. Its first parameter is the input monoid, the second the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "Parser",
           "package": "incremental-parser",
@@ -399,6 +432,7 @@
         "index": {
           "description": "The central parser type Its first parameter is the input monoid the second the output",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "Parser",
           "package": "incremental-parser",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "(\u003c||\u003e)",
           "package": "incremental-parser",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "Parser a b c-\u003eParser a b c-\u003eParser a b c",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "(\u003c\u003c|\u003e)",
           "package": "incremental-parser",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "(\u003c\u003c|\u003e) \u003c\u003c|\u003e",
           "normalized": "Parser a b c-\u003eParser a b c-\u003eParser a b c",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted and potentially optimized monoid \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e operation from the parameter type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "(\u003e\u003c)",
           "package": "incremental-parser",
@@ -469,6 +508,7 @@
         "index": {
           "description": "Lifted and potentially optimized monoid mappend operation from the parameter type",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser that accepts all input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "acceptAll",
           "package": "incremental-parser",
@@ -494,6 +535,7 @@
         "index": {
           "description": "parser that accepts all input",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "acceptAll",
           "package": "incremental-parser",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel parser conjunction: the combined parser keeps accepting input as long as both arguments do.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "and",
           "package": "incremental-parser",
@@ -518,6 +561,7 @@
         "index": {
           "description": "Parallel parser conjunction the combined parser keeps accepting input as long as both arguments do",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "and",
           "normalized": "Parser a b c-\u003eParser a b c-\u003eParser a b(c,c)",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence parser that preserves incremental results, otherwise equivalent to \u003ccode\u003e\u003ca\u003eliftA2\u003c/a\u003e\u003c/code\u003e (,)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "andThen",
           "package": "incremental-parser",
@@ -543,6 +588,7 @@
         "index": {
           "description": "sequence parser that preserves incremental results otherwise equivalent to liftA2",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "andThen",
           "normalized": "Parser a b c-\u003eParser a b c-\u003eParser a b(c,c)",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser that accepts any single input atom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "anyToken",
           "package": "incremental-parser",
@@ -569,6 +616,7 @@
         "index": {
           "description": "parser that accepts any single input atom",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "anyToken",
           "package": "incremental-parser",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eresults\u003c/a\u003e\u003c/code\u003e, but returns only the complete results with the corresponding unconsumed inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "completeResults",
           "package": "incremental-parser",
@@ -593,6 +642,7 @@
         "index": {
           "description": "Like results but returns only the complete results with the corresponding unconsumed inputs",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "completeResults",
           "normalized": "Parser a b c-\u003e[(c,b)]",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero or more argument occurrences like \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e, but concatenated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "concatMany",
           "package": "incremental-parser",
@@ -619,6 +670,7 @@
         "index": {
           "description": "Zero or more argument occurrences like many but concatenated",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "concatMany",
           "normalized": "a b-\u003ea b",
@@ -635,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne or more argument occurrences like \u003ccode\u003e\u003ca\u003esome\u003c/a\u003e\u003c/code\u003e, but concatenated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "concatSome",
           "package": "incremental-parser",
@@ -645,6 +698,7 @@
         "index": {
           "description": "One or more argument occurrences like some but concatenated",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "concatSome",
           "normalized": "a b-\u003ea b",
@@ -661,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccepts the given number of occurrences of the argument parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "count",
           "package": "incremental-parser",
@@ -671,6 +726,7 @@
         "index": {
           "description": "Accepts the given number of occurrences of the argument parser",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "count",
           "normalized": "Int-\u003eParser a b c-\u003eParser a b c",
@@ -686,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser that fails on any input and succeeds at its end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "eof",
           "package": "incremental-parser",
@@ -696,6 +753,7 @@
         "index": {
           "description": "parser that fails on any input and succeeds at its end",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "eof",
           "package": "incremental-parser",
@@ -708,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "failure",
           "package": "incremental-parser",
@@ -717,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "failure",
           "package": "incremental-parser",
@@ -730,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeeds a chunk of the input to the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "feed",
           "package": "incremental-parser",
@@ -740,6 +801,7 @@
         "index": {
           "description": "Feeds chunk of the input to the parser",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "feed",
           "normalized": "a-\u003eParser b a c-\u003eParser b a c",
@@ -755,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignals the end of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "feedEof",
           "package": "incremental-parser",
@@ -765,6 +828,7 @@
         "index": {
           "description": "Signals the end of the input",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "feedEof",
           "normalized": "Parser a b c-\u003eParser a b c",
@@ -781,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eresults\u003c/a\u003e\u003c/code\u003e, but more general: doesn't assume that the result type is a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "inspect",
           "package": "incremental-parser",
@@ -791,6 +856,7 @@
         "index": {
           "description": "Like results but more general doesn assume that the result type is Monoid",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "inspect",
           "normalized": "Parser a b c-\u003e([(c,b)],Maybe(Maybe(c-\u003ec),Parser a b c))",
@@ -805,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "isInfallible",
           "package": "incremental-parser",
@@ -814,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "isInfallible",
           "normalized": "Parser a b c-\u003eBool",
@@ -830,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehaves like the argument parser, but without consuming any input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "lookAhead",
           "package": "incremental-parser",
@@ -840,6 +909,7 @@
         "index": {
           "description": "Behaves like the argument parser but without consuming any input",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "lookAhead",
           "normalized": "Parser a b c-\u003eParser a b c",
@@ -856,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeats matching the first argument until the second one succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "manyTill",
           "package": "incremental-parser",
@@ -866,6 +937,7 @@
         "index": {
           "description": "Repeats matching the first argument until the second one succeeds",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "manyTill",
           "normalized": "Parser a b c-\u003eParser a b d-\u003eParser a b c",
@@ -882,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e, but capable of mapping partial results, being restricted to \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e types only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "mapIncremental",
           "package": "incremental-parser",
@@ -892,6 +965,7 @@
         "index": {
           "description": "Like fmap but capable of mapping partial results being restricted to Monoid types only",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "mapIncremental",
           "normalized": "(a-\u003eb)-\u003eParser c d a-\u003eParser c d b",
@@ -907,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "mapType",
           "package": "incremental-parser",
@@ -916,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "mapType",
           "normalized": "(Parser a b c-\u003eParser d b c)-\u003eParser a b c-\u003eParser d b c",
@@ -932,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003eoptional\u003c/code\u003e, but restricted to \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "moptional",
           "package": "incremental-parser",
@@ -942,6 +1019,7 @@
         "index": {
           "description": "Like optional but restricted to Monoid results",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "moptional",
           "normalized": "a b-\u003ea b",
@@ -956,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "more",
           "package": "incremental-parser",
@@ -965,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "more",
           "normalized": "(a-\u003eParser b a c)-\u003eParser b a c",
@@ -980,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes not consume any input; succeeds (with \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e result) iff the argument parser fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "notFollowedBy",
           "package": "incremental-parser",
@@ -990,6 +1071,7 @@
         "index": {
           "description": "Does not consume any input succeeds with mempty result iff the argument parser fails",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "notFollowedBy",
           "normalized": "Parser a b c-\u003eParser a b d",
@@ -1006,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eresults\u003c/a\u003e\u003c/code\u003e, but returns only the partial result prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "resultPrefix",
           "package": "incremental-parser",
@@ -1016,6 +1099,7 @@
         "index": {
           "description": "Like results but returns only the partial result prefix",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "resultPrefix",
           "normalized": "Parser a b c-\u003e(c,Parser a b c)",
@@ -1032,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts all available parsing results from a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e. The first component of the result pair is a list of\n complete results together with the unconsumed remainder of the input. If the parsing can continue further, the second\n component of the pair provides the partial result prefix together with the parser for the rest of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "results",
           "package": "incremental-parser",
@@ -1042,6 +1127,7 @@
         "index": {
           "description": "Extracts all available parsing results from Parser The first component of the result pair is list of complete results together with the unconsumed remainder of the input If the parsing can continue further the second component of the pair provides the partial result prefix together with the parser for the rest of the input",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "results",
           "normalized": "Parser a b c-\u003e([(c,b)],Maybe(c,Parser a b c))",
@@ -1057,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser that accepts an input atom only if it satisfies the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "satisfy",
           "package": "incremental-parser",
@@ -1067,6 +1154,7 @@
         "index": {
           "description": "parser that accepts an input atom only if it satisfies the given predicate",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParser b a a",
@@ -1082,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialization of \u003ccode\u003e\u003ca\u003esatisfy\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eTextualMonoid\u003c/a\u003e\u003c/code\u003e inputs, accepting an input character only if it satisfies the given\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "satisfyChar",
           "package": "incremental-parser",
@@ -1092,6 +1181,7 @@
         "index": {
           "description": "Specialization of satisfy on TextualMonoid inputs accepting an input character only if it satisfies the given predicate",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "satisfyChar",
           "normalized": "(Char-\u003eBool)-\u003eParser a b b",
@@ -1107,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "showWith",
           "package": "incremental-parser",
@@ -1116,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "showWith",
           "normalized": "((a-\u003eParser b a c)-\u003eString)-\u003e(c-\u003eString)-\u003eParser b a c-\u003eString",
@@ -1132,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscards the results of the argument parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "skip",
           "package": "incremental-parser",
@@ -1142,6 +1235,7 @@
         "index": {
           "description": "Discards the results of the argument parser",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "skip",
           "normalized": "Parser a b c-\u003eParser a b d",
@@ -1157,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser that consumes and returns the given prefix of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "string",
           "package": "incremental-parser",
@@ -1167,6 +1262,7 @@
         "index": {
           "description": "parser that consumes and returns the given prefix of the input",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "string",
           "normalized": "a-\u003eParser b a a",
@@ -1182,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialization of \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eTextualMonoid\u003c/a\u003e\u003c/code\u003e inputs, accepting the longest sequence of input characters that\n match the given predicate; an optimized version of 'concatMany . satisfyChar'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "takeCharsWhile",
           "package": "incremental-parser",
@@ -1192,6 +1289,7 @@
         "index": {
           "description": "Specialization of takeWhile on TextualMonoid inputs accepting the longest sequence of input characters that match the given predicate an optimized version of concatMany satisfyChar",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "takeCharsWhile",
           "normalized": "(Char-\u003eBool)-\u003eParser a b b",
@@ -1208,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialization of \u003ccode\u003e\u003ca\u003etakeWhile1\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eTextualMonoid\u003c/a\u003e\u003c/code\u003e inputs, accepting the longest non-empty sequence of input atoms\n that match the given predicate; an optimized version of 'concatSome . satisfyChar'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "takeCharsWhile1",
           "package": "incremental-parser",
@@ -1218,6 +1317,7 @@
         "index": {
           "description": "Specialization of takeWhile1 on TextualMonoid inputs accepting the longest non-empty sequence of input atoms that match the given predicate an optimized version of concatSome satisfyChar",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "takeCharsWhile1",
           "normalized": "(Char-\u003eBool)-\u003eParser a b b",
@@ -1234,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser accepting the longest sequence of input atoms that match the given predicate; an optimized version of\n 'concatMany . satisfy'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "takeWhile",
           "package": "incremental-parser",
@@ -1244,6 +1345,7 @@
         "index": {
           "description": "parser accepting the longest sequence of input atoms that match the given predicate an optimized version of concatMany satisfy",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eParser b a a",
@@ -1260,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser accepting the longest non-empty sequence of input atoms that match the given predicate; an optimized\n version of 'concatSome . satisfy'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "takeWhile1",
           "package": "incremental-parser",
@@ -1270,6 +1373,7 @@
         "index": {
           "description": "parser accepting the longest non-empty sequence of input atoms that match the given predicate an optimized version of concatSome satisfy",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "takeWhile1",
           "normalized": "(a-\u003eBool)-\u003eParser b a a",
@@ -1286,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser that accepts a specific input atom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:16 UTC 2014",
           "module": "Text.ParserCombinators.Incremental",
           "name": "token",
           "package": "incremental-parser",
@@ -1296,6 +1401,7 @@
         "index": {
           "description": "parser that accepts specific input atom",
           "hierarchy": "Text ParserCombinators Incremental",
+          "indexed": "2014-03-11T18:57:16",
           "module": "Text.ParserCombinators.Incremental",
           "name": "token",
           "normalized": "a-\u003eParser b a a",

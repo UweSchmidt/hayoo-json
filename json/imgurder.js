@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "imgurder"
+        "phrase": "imgurder",
+        "type": "phrase"
       },
       "type": "context"
     }

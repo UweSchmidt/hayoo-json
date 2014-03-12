@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "macho"
+        "phrase": "macho",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData.Macho is a module for parsing a ByteString of a Mach-O file into a Macho record.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "Macho",
           "package": "macho",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data.Macho is module for parsing ByteString of Mach-O file into Macho record",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "Macho",
           "package": "macho",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE",
           "package": "macho",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE",
           "package": "macho",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_TYPE",
           "package": "macho",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_TYPE",
           "package": "macho",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "DylibModule",
           "package": "macho",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "DylibModule",
           "package": "macho",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_COMMAND",
           "package": "macho",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_COMMAND",
           "package": "macho",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_FILETYPE",
           "package": "macho",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_FILETYPE",
           "package": "macho",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_FLAGS",
           "package": "macho",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_FLAGS",
           "package": "macho",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "Macho",
           "package": "macho",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "Macho",
           "package": "macho",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoDynamicSymbolTable",
           "package": "macho",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoDynamicSymbolTable",
           "package": "macho",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoHeader",
           "package": "macho",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoHeader",
           "package": "macho",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoSection",
           "package": "macho",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoSection",
           "package": "macho",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoSegment",
           "package": "macho",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoSegment",
           "package": "macho",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoSymbol",
           "package": "macho",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoSymbol",
           "package": "macho",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_TYPE",
           "package": "macho",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_TYPE",
           "package": "macho",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG",
           "package": "macho",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG",
           "package": "macho",
@@ -336,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlatform-specific relocation types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "R_TYPE",
           "package": "macho",
@@ -345,6 +376,7 @@
         "index": {
           "description": "Platform-specific relocation types",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "R_TYPE",
           "package": "macho",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "Relocation",
           "package": "macho",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "Relocation",
           "package": "macho",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "SG_FLAG",
           "package": "macho",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "SG_FLAG",
           "package": "macho",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_SYS_ATTR",
           "package": "macho",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_SYS_ATTR",
           "package": "macho",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_TYPE",
           "package": "macho",
@@ -429,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_TYPE",
           "package": "macho",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_USER_ATTR",
           "package": "macho",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_USER_ATTR",
           "package": "macho",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "VM_PROT",
           "package": "macho",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "VM_PROT",
           "package": "macho",
@@ -484,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_386",
           "package": "macho",
@@ -493,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_386",
           "package": "macho",
@@ -506,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_486",
           "package": "macho",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_486",
           "package": "macho",
@@ -528,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_486SX",
           "package": "macho",
@@ -537,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_486SX",
           "package": "macho",
@@ -550,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ARM_ALL",
           "package": "macho",
@@ -559,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ARM_ALL",
           "package": "macho",
@@ -572,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ARM_V4T",
           "package": "macho",
@@ -581,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ARM_V4T",
           "package": "macho",
@@ -594,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ARM_V6",
           "package": "macho",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ARM_V6",
           "package": "macho",
@@ -616,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_CELERON",
           "package": "macho",
@@ -625,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_CELERON",
           "package": "macho",
@@ -638,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_CELERON_MOBILE",
           "package": "macho",
@@ -647,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_CELERON_MOBILE",
           "package": "macho",
@@ -660,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_I386_ALL",
           "package": "macho",
@@ -669,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_I386_ALL",
           "package": "macho",
@@ -682,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL",
           "package": "macho",
@@ -691,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL",
           "package": "macho",
@@ -704,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL_FAMILY",
           "package": "macho",
@@ -713,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL_FAMILY",
           "package": "macho",
@@ -726,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL_FAMILY_MAX",
           "package": "macho",
@@ -735,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL_FAMILY_MAX",
           "package": "macho",
@@ -748,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL_MODEL",
           "package": "macho",
@@ -757,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL_MODEL",
           "package": "macho",
@@ -770,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL_MODEL_ALL",
           "package": "macho",
@@ -779,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_INTEL_MODEL_ALL",
           "package": "macho",
@@ -792,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ITANIUM",
           "package": "macho",
@@ -801,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ITANIUM",
           "package": "macho",
@@ -814,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ITANIUM_2",
           "package": "macho",
@@ -823,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_ITANIUM_2",
           "package": "macho",
@@ -836,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENT",
           "package": "macho",
@@ -845,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENT",
           "package": "macho",
@@ -858,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTII_M3",
           "package": "macho",
@@ -867,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTII_M3",
           "package": "macho",
@@ -880,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTII_M5",
           "package": "macho",
@@ -889,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTII_M5",
           "package": "macho",
@@ -902,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_3",
           "package": "macho",
@@ -911,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_3",
           "package": "macho",
@@ -924,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_3_M",
           "package": "macho",
@@ -933,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_3_M",
           "package": "macho",
@@ -946,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_3_XEON",
           "package": "macho",
@@ -955,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_3_XEON",
           "package": "macho",
@@ -968,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_4",
           "package": "macho",
@@ -977,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_4",
           "package": "macho",
@@ -990,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_4_M",
           "package": "macho",
@@ -999,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_4_M",
           "package": "macho",
@@ -1012,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_M",
           "package": "macho",
@@ -1021,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTIUM_M",
           "package": "macho",
@@ -1034,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTPRO",
           "package": "macho",
@@ -1043,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_PENTPRO",
           "package": "macho",
@@ -1056,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_601",
           "package": "macho",
@@ -1065,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_601",
           "package": "macho",
@@ -1078,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_602",
           "package": "macho",
@@ -1087,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_602",
           "package": "macho",
@@ -1100,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_603",
           "package": "macho",
@@ -1109,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_603",
           "package": "macho",
@@ -1122,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_603e",
           "package": "macho",
@@ -1131,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_603e",
           "package": "macho",
@@ -1144,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_603ev",
           "package": "macho",
@@ -1153,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_603ev",
           "package": "macho",
@@ -1166,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_604",
           "package": "macho",
@@ -1175,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_604",
           "package": "macho",
@@ -1188,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_604e",
           "package": "macho",
@@ -1197,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_604e",
           "package": "macho",
@@ -1210,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_620",
           "package": "macho",
@@ -1219,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_620",
           "package": "macho",
@@ -1232,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_7400",
           "package": "macho",
@@ -1241,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_7400",
           "package": "macho",
@@ -1254,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_7450",
           "package": "macho",
@@ -1263,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_7450",
           "package": "macho",
@@ -1276,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_750",
           "package": "macho",
@@ -1285,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_750",
           "package": "macho",
@@ -1298,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_970",
           "package": "macho",
@@ -1307,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_970",
           "package": "macho",
@@ -1320,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_ALL",
           "package": "macho",
@@ -1329,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_POWERPC_ALL",
           "package": "macho",
@@ -1342,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_X86_64_ALL",
           "package": "macho",
@@ -1351,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_X86_64_ALL",
           "package": "macho",
@@ -1364,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_X86_ALL",
           "package": "macho",
@@ -1373,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_X86_ALL",
           "package": "macho",
@@ -1386,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_X86_ARCH1",
           "package": "macho",
@@ -1395,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_X86_ARCH1",
           "package": "macho",
@@ -1408,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_XEON",
           "package": "macho",
@@ -1417,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_XEON",
           "package": "macho",
@@ -1430,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_XEON_MP",
           "package": "macho",
@@ -1439,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_SUBTYPE_XEON_MP",
           "package": "macho",
@@ -1452,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_TYPE_ARM",
           "package": "macho",
@@ -1461,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_TYPE_ARM",
           "package": "macho",
@@ -1474,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_TYPE_POWERPC",
           "package": "macho",
@@ -1483,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_TYPE_POWERPC",
           "package": "macho",
@@ -1496,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_TYPE_POWERPC64",
           "package": "macho",
@@ -1505,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_TYPE_POWERPC64",
           "package": "macho",
@@ -1518,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_TYPE_X86",
           "package": "macho",
@@ -1527,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_TYPE_X86",
           "package": "macho",
@@ -1540,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "CPU_TYPE_X86_64",
           "package": "macho",
@@ -1549,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "CPU_TYPE_X86_64",
           "package": "macho",
@@ -1562,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "DylibModule",
           "package": "macho",
@@ -1571,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "DylibModule",
           "package": "macho",
@@ -1584,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_LOCAL_SECTDIFF",
           "package": "macho",
@@ -1593,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_LOCAL_SECTDIFF",
           "package": "macho",
@@ -1606,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_PAIR",
           "package": "macho",
@@ -1615,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_PAIR",
           "package": "macho",
@@ -1628,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_PB_LA_PTR",
           "package": "macho",
@@ -1637,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_PB_LA_PTR",
           "package": "macho",
@@ -1650,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_SECTDIFF",
           "package": "macho",
@@ -1659,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_SECTDIFF",
           "package": "macho",
@@ -1672,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_VANILLA",
           "package": "macho",
@@ -1681,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "GENERIC_RELOC_VANILLA",
           "package": "macho",
@@ -1695,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal of code signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_CODE_SIGNATURE",
           "package": "macho",
@@ -1705,6 +1860,7 @@
         "index": {
           "description": "local of code signature",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_CODE_SIGNATURE",
           "package": "macho",
@@ -1719,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edynamic link-edit symbol table info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_DYSYMTAB",
           "package": "macho",
@@ -1729,6 +1886,7 @@
         "index": {
           "description": "dynamic link-edit symbol table info",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_DYSYMTAB",
           "package": "macho",
@@ -1743,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edynamically linked shared lib ident (name, timestamp, current version, compatibility version)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_ID_DYLIB",
           "package": "macho",
@@ -1753,6 +1912,7 @@
         "index": {
           "description": "dynamically linked shared lib ident name timestamp current version compatibility version",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_ID_DYLIB",
           "package": "macho",
@@ -1767,6 +1927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edynamic linker identification (name of dynamic linker)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_ID_DYLINKER",
           "package": "macho",
@@ -1777,6 +1938,7 @@
         "index": {
           "description": "dynamic linker identification name of dynamic linker",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_ID_DYLINKER",
           "package": "macho",
@@ -1791,6 +1953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eload a dynamically linked shared library (name, timestamp, current version, compatibility version)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_LOAD_DYLIB",
           "package": "macho",
@@ -1801,6 +1964,7 @@
         "index": {
           "description": "load dynamically linked shared library name timestamp current version compatibility version",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_LOAD_DYLIB",
           "package": "macho",
@@ -1815,6 +1979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eload a dynamic linker (name of dynamic linker)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_LOAD_DYLINKER",
           "package": "macho",
@@ -1825,6 +1990,7 @@
         "index": {
           "description": "load dynamic linker name of dynamic linker",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_LOAD_DYLINKER",
           "package": "macho",
@@ -1839,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eload a dynamically linked shared library that is allowed to be missing (symbols are weak imported) (name, timestamp, current version, compatibility version)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_LOAD_WEAK_DYLIB",
           "package": "macho",
@@ -1849,6 +2016,7 @@
         "index": {
           "description": "load dynamically linked shared library that is allowed to be missing symbols are weak imported name timestamp current version compatibility version",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_LOAD_WEAK_DYLIB",
           "package": "macho",
@@ -1863,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprebind checksum (checksum)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_PREBIND_CKSUM",
           "package": "macho",
@@ -1873,6 +2042,7 @@
         "index": {
           "description": "prebind checksum checksum",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_PREBIND_CKSUM",
           "package": "macho",
@@ -1887,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodules prebound for a dynamically linked shared library (name, list of module indices)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_PREBOUND_DYLIB",
           "package": "macho",
@@ -1897,6 +2068,7 @@
         "index": {
           "description": "modules prebound for dynamically linked shared library name list of module indices",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_PREBOUND_DYLIB",
           "normalized": "LC_PREBOUND_DYLIB String[Word]",
@@ -1913,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimage routines (virtual address of initialization routine, module index where it resides)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_ROUTINES",
           "package": "macho",
@@ -1923,6 +2096,7 @@
         "index": {
           "description": "image routines virtual address of initialization routine module index where it resides",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_ROUTINES",
           "package": "macho",
@@ -1937,6 +2111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit image routines (virtual address of initialization routine, module index where it resides)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_ROUTINES_64",
           "package": "macho",
@@ -1947,6 +2122,7 @@
         "index": {
           "description": "bit image routines virtual address of initialization routine module index where it resides",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_ROUTINES_64",
           "package": "macho",
@@ -1961,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erunpath additions (path)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_RPATH",
           "package": "macho",
@@ -1971,6 +2148,7 @@
         "index": {
           "description": "runpath additions path",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_RPATH",
           "package": "macho",
@@ -1985,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esegment of this file to be mapped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_SEGMENT",
           "package": "macho",
@@ -1995,6 +2174,7 @@
         "index": {
           "description": "segment of this file to be mapped",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_SEGMENT",
           "package": "macho",
@@ -2009,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit segment of this file to mapped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_SEGMENT_64",
           "package": "macho",
@@ -2019,6 +2200,7 @@
         "index": {
           "description": "bit segment of this file to mapped",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_SEGMENT_64",
           "package": "macho",
@@ -2033,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal of info to split segments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_SEGMENT_SPLIT_INFO",
           "package": "macho",
@@ -2043,6 +2226,7 @@
         "index": {
           "description": "local of info to split segments",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_SEGMENT_SPLIT_INFO",
           "package": "macho",
@@ -2057,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esub client (name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_SUB_CLIENT",
           "package": "macho",
@@ -2067,6 +2252,7 @@
         "index": {
           "description": "sub client name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_SUB_CLIENT",
           "package": "macho",
@@ -2081,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esub framework (name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_SUB_FRAMEWORK",
           "package": "macho",
@@ -2091,6 +2278,7 @@
         "index": {
           "description": "sub framework name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_SUB_FRAMEWORK",
           "package": "macho",
@@ -2105,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esub library (name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_SUB_LIBRARY",
           "package": "macho",
@@ -2115,6 +2304,7 @@
         "index": {
           "description": "sub library name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_SUB_LIBRARY",
           "package": "macho",
@@ -2129,6 +2319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esub umbrella (name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_SUB_UMBRELLA",
           "package": "macho",
@@ -2139,6 +2330,7 @@
         "index": {
           "description": "sub umbrella name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_SUB_UMBRELLA",
           "package": "macho",
@@ -2153,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatic link-edit symbol table and stab info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_SYMTAB",
           "package": "macho",
@@ -2163,6 +2356,7 @@
         "index": {
           "description": "static link-edit symbol table and stab info",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_SYMTAB",
           "normalized": "LC_SYMTAB[MachoSymbol]ByteString",
@@ -2179,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethread state information (list of (flavor, [long]) pairs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_THREAD",
           "package": "macho",
@@ -2189,6 +2384,7 @@
         "index": {
           "description": "thread state information list of flavor long pairs",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_THREAD",
           "normalized": "LC_THREAD[(Word,[Word])]",
@@ -2205,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etwo-level namespace lookup hints (list of (subimage index, symbol table index) pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_TWOLEVEL_HINTS",
           "package": "macho",
@@ -2215,6 +2412,7 @@
         "index": {
           "description": "two-level namespace lookup hints list of subimage index symbol table index pairs",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_TWOLEVEL_HINTS",
           "normalized": "LC_TWOLEVEL_HINTS[(Word,Word)]",
@@ -2231,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunix thread state information (includes a stack) (list of (flavor, [long] pairs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_UNIXTHREAD",
           "package": "macho",
@@ -2241,6 +2440,7 @@
         "index": {
           "description": "unix thread state information includes stack list of flavor long pairs",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_UNIXTHREAD",
           "normalized": "LC_UNIXTHREAD[(Word,[Word])]",
@@ -2257,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe uuid for an image or its corresponding dsym file (8 element list of bytes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LC_UUID",
           "package": "macho",
@@ -2267,6 +2468,7 @@
         "index": {
           "description": "the uuid for an image or its corresponding dsym file element list of bytes",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LC_UUID",
           "normalized": "LC_UUID[Word]",
@@ -2283,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor two-level mach-o objects, specifies the index of the library in which this symbol is defined. zero specifies current image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "LIBRARY_ORDINAL",
           "package": "macho",
@@ -2293,6 +2496,7 @@
         "index": {
           "description": "for two-level mach-o objects specifies the index of the library in which this symbol is defined zero specifies current image",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "LIBRARY_ORDINAL",
           "package": "macho",
@@ -2307,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates that this binary binds to all two-level namespace modules of its dependent libraries. only used when MH_PREBINDABLE and MH_TWOLEVEL are both set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_ALLMODSBOUND",
           "package": "macho",
@@ -2317,6 +2522,7 @@
         "index": {
           "description": "indicates that this binary binds to all two-level namespace modules of its dependent libraries only used when MH PREBINDABLE and MH TWOLEVEL are both set",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_ALLMODSBOUND",
           "package": "macho",
@@ -2331,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen this bit is set, all stacks  in the task will be given stack execution privilege.  Only used in MH_EXECUTE filetypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_ALLOW_STACK_EXECUTION",
           "package": "macho",
@@ -2341,6 +2548,7 @@
         "index": {
           "description": "When this bit is set all stacks in the task will be given stack execution privilege Only used in MH EXECUTE filetypes",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_ALLOW_STACK_EXECUTION",
           "package": "macho",
@@ -2355,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe object file's undefined references are bound by the dynamic linker when loaded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_BINDATLOAD",
           "package": "macho",
@@ -2365,6 +2574,7 @@
         "index": {
           "description": "the object file undefined references are bound by the dynamic linker when loaded",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_BINDATLOAD",
           "package": "macho",
@@ -2379,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe final linked image uses weak symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_BINDS_TO_WEAK",
           "package": "macho",
@@ -2389,6 +2600,7 @@
         "index": {
           "description": "the final linked image uses weak symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_BINDS_TO_WEAK",
           "package": "macho",
@@ -2403,6 +2615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edynamically bound bundle file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_BUNDLE",
           "package": "macho",
@@ -2413,6 +2626,7 @@
         "index": {
           "description": "dynamically bound bundle file",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_BUNDLE",
           "package": "macho",
@@ -2427,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe binary has been canonicalized via the unprebind operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_CANONICAL",
           "package": "macho",
@@ -2437,6 +2652,7 @@
         "index": {
           "description": "the binary has been canonicalized via the unprebind operation",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_CANONICAL",
           "package": "macho",
@@ -2451,6 +2667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecore file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_CORE",
           "package": "macho",
@@ -2461,6 +2678,7 @@
         "index": {
           "description": "core file",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_CORE",
           "package": "macho",
@@ -2475,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompanion file with only debug. sections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_DSYM",
           "package": "macho",
@@ -2485,6 +2704,7 @@
         "index": {
           "description": "companion file with only debug sections",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_DSYM",
           "package": "macho",
@@ -2499,6 +2719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe object file is input for the dynamic linker and can't be staticly link edited again\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_DYLDLINK",
           "package": "macho",
@@ -2509,6 +2730,7 @@
         "index": {
           "description": "the object file is input for the dynamic linker and can be staticly link edited again",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_DYLDLINK",
           "package": "macho",
@@ -2523,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edynamically bound shared library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_DYLIB",
           "package": "macho",
@@ -2533,6 +2756,7 @@
         "index": {
           "description": "dynamically bound shared library",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_DYLIB",
           "package": "macho",
@@ -2547,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshared library stub for static. linking only, no section contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_DYLIB_STUB",
           "package": "macho",
@@ -2557,6 +2782,7 @@
         "index": {
           "description": "shared library stub for static linking only no section contents",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_DYLIB_STUB",
           "package": "macho",
@@ -2571,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edynamic link editor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_DYLINKER",
           "package": "macho",
@@ -2581,6 +2808,7 @@
         "index": {
           "description": "dynamic link editor",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_DYLINKER",
           "package": "macho",
@@ -2595,6 +2823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edemand paged executable file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_EXECUTE",
           "package": "macho",
@@ -2605,6 +2834,7 @@
         "index": {
           "description": "demand paged executable file",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_EXECUTE",
           "package": "macho",
@@ -2619,6 +2849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe executable is forcing all images to use flat name space bindings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_FORCE_FLAT",
           "package": "macho",
@@ -2629,6 +2860,7 @@
         "index": {
           "description": "the executable is forcing all images to use flat name space bindings",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_FORCE_FLAT",
           "package": "macho",
@@ -2643,6 +2875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe object file is the output of an incremental link against a base file and can't be link edited again\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_INCRLINK",
           "package": "macho",
@@ -2653,6 +2886,7 @@
         "index": {
           "description": "the object file is the output of an incremental link against base file and can be link edited again",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_INCRLINK",
           "package": "macho",
@@ -2667,6 +2901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edo not have dyld notify the prebinding agent about this executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_NOFIXPREBINDING",
           "package": "macho",
@@ -2677,6 +2912,7 @@
         "index": {
           "description": "do not have dyld notify the prebinding agent about this executable",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_NOFIXPREBINDING",
           "package": "macho",
@@ -2691,6 +2927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis umbrella guarantees no multiple defintions of symbols in its sub-images so the two-level namespace hints can always be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_NOMULTIDEFS",
           "package": "macho",
@@ -2701,6 +2938,7 @@
         "index": {
           "description": "this umbrella guarantees no multiple defintions of symbols in its sub-images so the two-level namespace hints can always be used",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_NOMULTIDEFS",
           "package": "macho",
@@ -2715,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe object file has no undefined references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_NOUNDEFS",
           "package": "macho",
@@ -2725,6 +2964,7 @@
         "index": {
           "description": "the object file has no undefined references",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_NOUNDEFS",
           "package": "macho",
@@ -2739,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen this bit is set on a dylib,  the static linker does not need to examine dependent dylibs to see if any are re-exported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_NO_REEXPORTED_DYLIBS",
           "package": "macho",
@@ -2749,6 +2990,7 @@
         "index": {
           "description": "When this bit is set on dylib the static linker does not need to examine dependent dylibs to see if any are re-exported",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_NO_REEXPORTED_DYLIBS",
           "package": "macho",
@@ -2763,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelocatable object file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_OBJECT",
           "package": "macho",
@@ -2773,6 +3016,7 @@
         "index": {
           "description": "relocatable object file",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_OBJECT",
           "package": "macho",
@@ -2787,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen this bit is set, the OS will load the main executable at a random address.  Only used in MH_EXECUTE filetypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_PIE",
           "package": "macho",
@@ -2797,6 +3042,7 @@
         "index": {
           "description": "When this bit is set the OS will load the main executable at random address Only used in MH EXECUTE filetypes",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_PIE",
           "package": "macho",
@@ -2811,6 +3057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe binary is not prebound but can have its prebinding redone. only used when MH_PREBOUND is not set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_PREBINDABLE",
           "package": "macho",
@@ -2821,6 +3068,7 @@
         "index": {
           "description": "the binary is not prebound but can have its prebinding redone only used when MH PREBOUND is not set",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_PREBINDABLE",
           "package": "macho",
@@ -2835,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe file has its dynamic undefined references prebound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_PREBOUND",
           "package": "macho",
@@ -2845,6 +3094,7 @@
         "index": {
           "description": "the file has its dynamic undefined references prebound",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_PREBOUND",
           "package": "macho",
@@ -2859,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epreloaded executable file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_PRELOAD",
           "package": "macho",
@@ -2869,6 +3120,7 @@
         "index": {
           "description": "preloaded executable file",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_PRELOAD",
           "package": "macho",
@@ -2883,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen this bit is set, the binary  declares it is safe for use in processes with uid zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_ROOT_SAFE",
           "package": "macho",
@@ -2893,6 +3146,7 @@
         "index": {
           "description": "When this bit is set the binary declares it is safe for use in processes with uid zero",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_ROOT_SAFE",
           "package": "macho",
@@ -2907,6 +3161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen this bit is set, the binary  declares it is safe for use in processes when issetugid() is true\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_SETUID_SAFE",
           "package": "macho",
@@ -2917,6 +3172,7 @@
         "index": {
           "description": "When this bit is set the binary declares it is safe for use in processes when issetugid is true",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_SETUID_SAFE",
           "package": "macho",
@@ -2931,6 +3187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe file has its read-only and read-write segments split\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_SPLIT_SEGS",
           "package": "macho",
@@ -2941,6 +3198,7 @@
         "index": {
           "description": "the file has its read-only and read-write segments split",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_SPLIT_SEGS",
           "package": "macho",
@@ -2955,6 +3213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esafe to divide up the sections into sub-sections via symbols for dead code stripping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_SUBSECTIONS_VIA_SYMBOLS",
           "package": "macho",
@@ -2965,6 +3224,7 @@
         "index": {
           "description": "safe to divide up the sections into sub-sections via symbols for dead code stripping",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_SUBSECTIONS_VIA_SYMBOLS",
           "package": "macho",
@@ -2979,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe image is using two-level name space bindings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_TWOLEVEL",
           "package": "macho",
@@ -2989,6 +3250,7 @@
         "index": {
           "description": "the image is using two-level name space bindings",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_TWOLEVEL",
           "package": "macho",
@@ -3003,6 +3265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe final linked image contains external weak symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MH_WEAK_DEFINES",
           "package": "macho",
@@ -3013,6 +3276,7 @@
         "index": {
           "description": "the final linked image contains external weak symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MH_WEAK_DEFINES",
           "package": "macho",
@@ -3026,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "Macho",
           "package": "macho",
@@ -3035,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "Macho",
           "package": "macho",
@@ -3048,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoDynamicSymbolTable",
           "package": "macho",
@@ -3057,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoDynamicSymbolTable",
           "package": "macho",
@@ -3070,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoHeader",
           "package": "macho",
@@ -3079,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoHeader",
           "package": "macho",
@@ -3092,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoSection",
           "package": "macho",
@@ -3101,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoSection",
           "package": "macho",
@@ -3114,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoSegment",
           "package": "macho",
@@ -3123,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoSegment",
           "package": "macho",
@@ -3136,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "MachoSymbol",
           "package": "macho",
@@ -3145,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "MachoSymbol",
           "package": "macho",
@@ -3159,6 +3435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eabsolute symbol, does not need relocation, n_sect is 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_ABS",
           "package": "macho",
@@ -3169,6 +3446,7 @@
         "index": {
           "description": "absolute symbol does not need relocation sect is",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_ABS",
           "package": "macho",
@@ -3183,6 +3461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab begin common: name,,0,0,0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_BCOMM",
           "package": "macho",
@@ -3193,6 +3472,7 @@
         "index": {
           "description": "stab begin common name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_BCOMM",
           "package": "macho",
@@ -3207,6 +3487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab include file beginning: name,,0,0,sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_BINCL",
           "package": "macho",
@@ -3217,6 +3498,7 @@
         "index": {
           "description": "stab include file beginning name sum",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_BINCL",
           "package": "macho",
@@ -3231,6 +3513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab begin nsect sym: 0,,n_sect,0,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_BNSYM",
           "package": "macho",
@@ -3241,6 +3524,7 @@
         "index": {
           "description": "stab begin nsect sym sect address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_BNSYM",
           "package": "macho",
@@ -3255,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab end common (local name): 0,,n_sect,0,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_ECOML",
           "package": "macho",
@@ -3265,6 +3550,7 @@
         "index": {
           "description": "stab end common local name sect address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_ECOML",
           "package": "macho",
@@ -3279,6 +3565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab end common: name,,n_sect,0,0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_ECOMM",
           "package": "macho",
@@ -3289,6 +3576,7 @@
         "index": {
           "description": "stab end common name sect",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_ECOMM",
           "package": "macho",
@@ -3303,6 +3591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab include file end: name,,0,0,0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_EINCL",
           "package": "macho",
@@ -3313,6 +3602,7 @@
         "index": {
           "description": "stab include file end name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_EINCL",
           "package": "macho",
@@ -3327,6 +3617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab end nsect sym: 0,,n_sect,0,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_ENSYM",
           "package": "macho",
@@ -3337,6 +3628,7 @@
         "index": {
           "description": "stab end nsect sym sect address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_ENSYM",
           "package": "macho",
@@ -3351,6 +3643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab alternate entry: name,,n_sect,linenumber,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_ENTRY",
           "package": "macho",
@@ -3361,6 +3654,7 @@
         "index": {
           "description": "stab alternate entry name sect linenumber address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_ENTRY",
           "package": "macho",
@@ -3375,6 +3669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab deleted include file: name,,0,0,sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_EXCL",
           "package": "macho",
@@ -3385,6 +3680,7 @@
         "index": {
           "description": "stab deleted include file name sum",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_EXCL",
           "package": "macho",
@@ -3399,6 +3695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab procedure name (f77 kludge): name,,0,0,0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_FNAME",
           "package": "macho",
@@ -3409,6 +3706,7 @@
         "index": {
           "description": "stab procedure name f77 kludge name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_FNAME",
           "package": "macho",
@@ -3423,6 +3721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab procedure: name,,n_sect,linenumber,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_FUN",
           "package": "macho",
@@ -3433,6 +3732,7 @@
         "index": {
           "description": "stab procedure name sect linenumber address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_FUN",
           "package": "macho",
@@ -3447,6 +3747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab global symbol: name,,0,type,0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_GSYM",
           "package": "macho",
@@ -3457,6 +3758,7 @@
         "index": {
           "description": "stab global symbol name type",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_GSYM",
           "package": "macho",
@@ -3471,6 +3773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol is defined to be the same as another symbol. n_value is a string table offset indicating the name of that symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_INDR",
           "package": "macho",
@@ -3481,6 +3784,7 @@
         "index": {
           "description": "symbol is defined to be the same as another symbol value is string table offset indicating the name of that symbol",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_INDR",
           "package": "macho",
@@ -3495,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab left bracket: 0,,0,nesting level,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_LBRAC",
           "package": "macho",
@@ -3505,6 +3810,7 @@
         "index": {
           "description": "stab left bracket nesting level address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_LBRAC",
           "package": "macho",
@@ -3519,6 +3825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab .lcomm symbol: name,,n_sect,type,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_LCSYM",
           "package": "macho",
@@ -3529,6 +3836,7 @@
         "index": {
           "description": "stab lcomm symbol name sect type address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_LCSYM",
           "package": "macho",
@@ -3543,6 +3851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab second stab entry with length information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_LENG",
           "package": "macho",
@@ -3553,6 +3862,7 @@
         "index": {
           "description": "stab second stab entry with length information",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_LENG",
           "package": "macho",
@@ -3567,6 +3877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab local sym: name,,0,type,offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_LSYM",
           "package": "macho",
@@ -3577,6 +3888,7 @@
         "index": {
           "description": "stab local sym name type offset",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_LSYM",
           "package": "macho",
@@ -3591,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab compiler -O level: name,,0,0,0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_OLEVEL",
           "package": "macho",
@@ -3601,6 +3914,7 @@
         "index": {
           "description": "stab compiler level name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_OLEVEL",
           "package": "macho",
@@ -3615,6 +3929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab emitted with gcc2_compiled and in gcc source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_OPT",
           "package": "macho",
@@ -3625,6 +3940,7 @@
         "index": {
           "description": "stab emitted with gcc2 compiled and in gcc source",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_OPT",
           "package": "macho",
@@ -3639,6 +3955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab object file name: name,,0,0,st_mtime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_OSO",
           "package": "macho",
@@ -3649,6 +3966,7 @@
         "index": {
           "description": "stab object file name name st mtime",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_OSO",
           "package": "macho",
@@ -3663,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab compiler parameters: name,,0,0,0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_PARAMS",
           "package": "macho",
@@ -3673,6 +3992,7 @@
         "index": {
           "description": "stab compiler parameters name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_PARAMS",
           "package": "macho",
@@ -3687,6 +4007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol is undefined and the image is using a prebound value for the symbol, n_sect is 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_PBUD",
           "package": "macho",
@@ -3697,6 +4018,7 @@
         "index": {
           "description": "symbol is undefined and the image is using prebound value for the symbol sect is",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_PBUD",
           "package": "macho",
@@ -3711,6 +4033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab global pascal symbol: name,,0,subtype,line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_PC",
           "package": "macho",
@@ -3721,6 +4044,7 @@
         "index": {
           "description": "stab global pascal symbol name subtype line",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_PC",
           "package": "macho",
@@ -3735,6 +4059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab parameter: name,,0,type,offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_PSYM",
           "package": "macho",
@@ -3745,6 +4070,7 @@
         "index": {
           "description": "stab parameter name type offset",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_PSYM",
           "package": "macho",
@@ -3759,6 +4085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab right bracket: 0,,0,nesting level,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_RBRAC",
           "package": "macho",
@@ -3769,6 +4096,7 @@
         "index": {
           "description": "stab right bracket nesting level address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_RBRAC",
           "package": "macho",
@@ -3783,6 +4111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab register sym: name,,0,type,register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_RSYM",
           "package": "macho",
@@ -3793,6 +4122,7 @@
         "index": {
           "description": "stab register sym name type register",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_RSYM",
           "package": "macho",
@@ -3807,6 +4137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol is defined in section n_sect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_SECT",
           "package": "macho",
@@ -3817,6 +4148,7 @@
         "index": {
           "description": "symbol is defined in section sect",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_SECT",
           "package": "macho",
@@ -3831,6 +4163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab src line: 0,,n_sect,linenumber,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_SLINE",
           "package": "macho",
@@ -3841,6 +4174,7 @@
         "index": {
           "description": "stab src line sect linenumber address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_SLINE",
           "package": "macho",
@@ -3855,6 +4189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab source file name: name,,n_sect,0,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_SO",
           "package": "macho",
@@ -3865,6 +4200,7 @@
         "index": {
           "description": "stab source file name name sect address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_SO",
           "package": "macho",
@@ -3879,6 +4215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab #included file name: name,,n_sect,0,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_SOL",
           "package": "macho",
@@ -3889,6 +4226,7 @@
         "index": {
           "description": "stab included file name name sect address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_SOL",
           "package": "macho",
@@ -3903,6 +4241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab structure elt: name,,0,type,struct_offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_SSYM",
           "package": "macho",
@@ -3913,6 +4252,7 @@
         "index": {
           "description": "stab structure elt name type struct offset",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_SSYM",
           "package": "macho",
@@ -3927,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab static symbol: name,,n_sect,type,address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_STSYM",
           "package": "macho",
@@ -3937,6 +4278,7 @@
         "index": {
           "description": "stab static symbol name sect type address",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_STSYM",
           "package": "macho",
@@ -3951,6 +4293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eundefined symbol, n_sect is 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_UNDF",
           "package": "macho",
@@ -3961,6 +4304,7 @@
         "index": {
           "description": "undefined symbol sect is",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_UNDF",
           "package": "macho",
@@ -3975,6 +4319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estab compiler version: name,,0,0,0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_VERSION",
           "package": "macho",
@@ -3985,6 +4330,7 @@
         "index": {
           "description": "stab compiler version name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_VERSION",
           "package": "macho",
@@ -3999,6 +4345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates the symbol is a weak definition, will be overridden by a strong definition at link-time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_WEAK_DEF",
           "package": "macho",
@@ -4009,6 +4356,7 @@
         "index": {
           "description": "indicates the symbol is weak definition will be overridden by strong definition at link-time",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_WEAK_DEF",
           "package": "macho",
@@ -4023,6 +4371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates the symbol is a weak reference, set to 0 if definition cannot be found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "N_WEAK_REF",
           "package": "macho",
@@ -4033,6 +4382,7 @@
         "index": {
           "description": "indicates the symbol is weak reference set to if definition cannot be found",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "N_WEAK_REF",
           "package": "macho",
@@ -4046,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_BR14",
           "package": "macho",
@@ -4055,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_BR14",
           "package": "macho",
@@ -4068,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_BR24",
           "package": "macho",
@@ -4077,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_BR24",
           "package": "macho",
@@ -4090,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_HA16",
           "package": "macho",
@@ -4099,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_HA16",
           "package": "macho",
@@ -4112,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_HA16_SECTDIFF",
           "package": "macho",
@@ -4121,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_HA16_SECTDIFF",
           "package": "macho",
@@ -4134,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_HI16",
           "package": "macho",
@@ -4143,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_HI16",
           "package": "macho",
@@ -4156,6 +4516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_HI16_SECTDIFF",
           "package": "macho",
@@ -4165,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_HI16_SECTDIFF",
           "package": "macho",
@@ -4178,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_JBSR",
           "package": "macho",
@@ -4187,6 +4550,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_JBSR",
           "package": "macho",
@@ -4200,6 +4564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LO14",
           "package": "macho",
@@ -4209,6 +4574,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LO14",
           "package": "macho",
@@ -4222,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LO14_SECTDIFF",
           "package": "macho",
@@ -4231,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LO14_SECTDIFF",
           "package": "macho",
@@ -4244,6 +4612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LO16",
           "package": "macho",
@@ -4253,6 +4622,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LO16",
           "package": "macho",
@@ -4266,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LO16_SECTDIFF",
           "package": "macho",
@@ -4275,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LO16_SECTDIFF",
           "package": "macho",
@@ -4288,6 +4660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LOCAL_SECTDIFF",
           "package": "macho",
@@ -4297,6 +4670,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_LOCAL_SECTDIFF",
           "package": "macho",
@@ -4310,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_PAIR",
           "package": "macho",
@@ -4319,6 +4694,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_PAIR",
           "package": "macho",
@@ -4332,6 +4708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_PB_LA_PTR",
           "package": "macho",
@@ -4341,6 +4718,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_PB_LA_PTR",
           "package": "macho",
@@ -4354,6 +4732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_SECTDIFF",
           "package": "macho",
@@ -4363,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_SECTDIFF",
           "package": "macho",
@@ -4376,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "PPC_RELOC_VANILLA",
           "package": "macho",
@@ -4385,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "PPC_RELOC_VANILLA",
           "package": "macho",
@@ -4399,6 +4781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset for all symbols referenced by dynamic loader APIs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "REFERENCED_DYNAMICALLY",
           "package": "macho",
@@ -4409,6 +4792,7 @@
         "index": {
           "description": "set for all symbols referenced by dynamic loader APIs",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "REFERENCED_DYNAMICALLY",
           "package": "macho",
@@ -4423,6 +4807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol is defined in this module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_DEFINED",
           "package": "macho",
@@ -4433,6 +4818,7 @@
         "index": {
           "description": "symbol is defined in this module",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_DEFINED",
           "package": "macho",
@@ -4447,6 +4833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol is defined in this module and visible only to modules within this shared library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_PRIVATE_DEFINED",
           "package": "macho",
@@ -4457,6 +4844,7 @@
         "index": {
           "description": "symbol is defined in this module and visible only to modules within this shared library",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_PRIVATE_DEFINED",
           "package": "macho",
@@ -4471,6 +4859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference to an external lazy symbol and visible only to modules within this shared library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_PRIVATE_UNDEFINED_LAZY",
           "package": "macho",
@@ -4481,6 +4870,7 @@
         "index": {
           "description": "reference to an external lazy symbol and visible only to modules within this shared library",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_PRIVATE_UNDEFINED_LAZY",
           "package": "macho",
@@ -4495,6 +4885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference to an external non-lazy symbol and visible only to modules within this shared library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_PRIVATE_UNDEFINED_NON_LAZY",
           "package": "macho",
@@ -4505,6 +4896,7 @@
         "index": {
           "description": "reference to an external non-lazy symbol and visible only to modules within this shared library",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_PRIVATE_UNDEFINED_NON_LAZY",
           "package": "macho",
@@ -4519,6 +4911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference to an external lazy symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_UNDEFINED_LAZY",
           "package": "macho",
@@ -4529,6 +4922,7 @@
         "index": {
           "description": "reference to an external lazy symbol",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_UNDEFINED_LAZY",
           "package": "macho",
@@ -4543,6 +4937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference to an external non-lazy symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_UNDEFINED_NON_LAZY",
           "package": "macho",
@@ -4553,6 +4948,7 @@
         "index": {
           "description": "reference to an external non-lazy symbol",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "REFERENCE_FLAG_UNDEFINED_NON_LAZY",
           "package": "macho",
@@ -4566,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "RelocationInfo",
           "package": "macho",
@@ -4575,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "RelocationInfo",
           "package": "macho",
@@ -4589,6 +4987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file contents for this segment is for the high part of the VM space, the low part is zero filled (for stacks in core files).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "SG_HIGHVM",
           "package": "macho",
@@ -4599,6 +4998,7 @@
         "index": {
           "description": "The file contents for this segment is for the high part of the VM space the low part is zero filled for stacks in core files",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "SG_HIGHVM",
           "package": "macho",
@@ -4613,6 +5013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis segment has nothing that was relocated in it and nothing relocated to it, that is it may be safely replaced without relocation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "SG_NORELOC",
           "package": "macho",
@@ -4623,6 +5024,7 @@
         "index": {
           "description": "This segment has nothing that was relocated in it and nothing relocated to it that is it may be safely replaced without relocation",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "SG_NORELOC",
           "package": "macho",
@@ -4637,6 +5039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only 16 byte literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_16BYTE_LITERALS",
           "package": "macho",
@@ -4647,6 +5050,7 @@
         "index": {
           "description": "section with only byte literals",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_16BYTE_LITERALS",
           "package": "macho",
@@ -4661,6 +5065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only 4 byte literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_4BYTE_LITERALS",
           "package": "macho",
@@ -4671,6 +5076,7 @@
         "index": {
           "description": "section with only byte literals",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_4BYTE_LITERALS",
           "package": "macho",
@@ -4685,6 +5091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only 8 byte literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_8BYTE_LITERALS",
           "package": "macho",
@@ -4695,6 +5102,7 @@
         "index": {
           "description": "section with only byte literals",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_8BYTE_LITERALS",
           "package": "macho",
@@ -4709,6 +5117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea debug section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_DEBUG",
           "package": "macho",
@@ -4719,6 +5128,7 @@
         "index": {
           "description": "debug section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_DEBUG",
           "package": "macho",
@@ -4733,6 +5143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection has external relocation entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_EXT_RELOC",
           "package": "macho",
@@ -4743,6 +5154,7 @@
         "index": {
           "description": "section has external relocation entries",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_EXT_RELOC",
           "package": "macho",
@@ -4757,6 +5169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblocks are live if they reference live blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_LIVE_SUPPORT",
           "package": "macho",
@@ -4767,6 +5180,7 @@
         "index": {
           "description": "blocks are live if they reference live blocks",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_LIVE_SUPPORT",
           "package": "macho",
@@ -4781,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection has local relocation entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_LOC_RELOC",
           "package": "macho",
@@ -4791,6 +5206,7 @@
         "index": {
           "description": "section has local relocation entries",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_LOC_RELOC",
           "package": "macho",
@@ -4805,6 +5221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno dead stripping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_NO_DEAD_STRIP",
           "package": "macho",
@@ -4815,6 +5232,7 @@
         "index": {
           "description": "no dead stripping",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_NO_DEAD_STRIP",
           "package": "macho",
@@ -4829,6 +5247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esetion contains coalesced symbols that are not to be in a ranlib table of contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_NO_TOC",
           "package": "macho",
@@ -4839,6 +5258,7 @@
         "index": {
           "description": "setion contains coalesced symbols that are not to be in ranlib table of contents",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_NO_TOC",
           "package": "macho",
@@ -4853,6 +5273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection contains only true machine instructions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_PURE_INSTRUCTIONS",
           "package": "macho",
@@ -4863,6 +5284,7 @@
         "index": {
           "description": "section contains only true machine instructions",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_PURE_INSTRUCTIONS",
           "package": "macho",
@@ -4877,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused with i386 code stubs written on by dyld\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_SELF_MODIFYING_CODE",
           "package": "macho",
@@ -4887,6 +5310,7 @@
         "index": {
           "description": "used with i386 code stubs written on by dyld",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_SELF_MODIFYING_CODE",
           "package": "macho",
@@ -4901,6 +5325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection contains soem machine instructions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_SOME_INSTRUCTIONS",
           "package": "macho",
@@ -4911,6 +5336,7 @@
         "index": {
           "description": "section contains soem machine instructions",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_SOME_INSTRUCTIONS",
           "package": "macho",
@@ -4925,6 +5351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eok to strip static symbols in this section in files with the MH_DYLDLINK flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ATTR_STRIP_STATIC_SYMS",
           "package": "macho",
@@ -4935,6 +5362,7 @@
         "index": {
           "description": "ok to strip static symbols in this section in files with the MH DYLDLINK flag",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ATTR_STRIP_STATIC_SYMS",
           "package": "macho",
@@ -4949,6 +5377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection contains symbols that are to be coalesced\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_COALESCED",
           "package": "macho",
@@ -4959,6 +5388,7 @@
         "index": {
           "description": "section contains symbols that are to be coalesced",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_COALESCED",
           "package": "macho",
@@ -4973,6 +5403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only literal C strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_CSTRING_LITERALS",
           "package": "macho",
@@ -4983,6 +5414,7 @@
         "index": {
           "description": "section with only literal strings",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_CSTRING_LITERALS",
           "package": "macho",
@@ -4997,6 +5429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection contains DTrace Object Format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_DTRACE_DOF",
           "package": "macho",
@@ -5007,6 +5440,7 @@
         "index": {
           "description": "section contains DTrace Object Format",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_DTRACE_DOF",
           "package": "macho",
@@ -5021,6 +5455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezero fill on demand section (that can be larger than 4 gigabytes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_GB_ZEROFILL",
           "package": "macho",
@@ -5031,6 +5466,7 @@
         "index": {
           "description": "zero fill on demand section that can be larger than gigabytes",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_GB_ZEROFILL",
           "package": "macho",
@@ -5045,6 +5481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only pairs of function pointers for interposing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_INTERPOSING",
           "package": "macho",
@@ -5055,6 +5492,7 @@
         "index": {
           "description": "section with only pairs of function pointers for interposing",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_INTERPOSING",
           "package": "macho",
@@ -5069,6 +5507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only lazy symbol pointers to lazy loaded dylibs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_LAZY_DYLIB_SYMBOL_POINTERS",
           "package": "macho",
@@ -5079,6 +5518,7 @@
         "index": {
           "description": "section with only lazy symbol pointers to lazy loaded dylibs",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_LAZY_DYLIB_SYMBOL_POINTERS",
           "package": "macho",
@@ -5093,6 +5533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only lazy symbol pointers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_LAZY_SYMBOL_POINTERS",
           "package": "macho",
@@ -5103,6 +5544,7 @@
         "index": {
           "description": "section with only lazy symbol pointers",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_LAZY_SYMBOL_POINTERS",
           "package": "macho",
@@ -5117,6 +5559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only pointers to literals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_LITERAL_POINTERS",
           "package": "macho",
@@ -5127,6 +5570,7 @@
         "index": {
           "description": "section with only pointers to literals",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_LITERAL_POINTERS",
           "package": "macho",
@@ -5141,6 +5585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only function pointers for initialization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_MOD_INIT_FUNC_POINTERS",
           "package": "macho",
@@ -5151,6 +5596,7 @@
         "index": {
           "description": "section with only function pointers for initialization",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_MOD_INIT_FUNC_POINTERS",
           "package": "macho",
@@ -5165,6 +5611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only function pointers for termination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_MOD_TERM_FUNC_POINTERS",
           "package": "macho",
@@ -5175,6 +5622,7 @@
         "index": {
           "description": "section with only function pointers for termination",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_MOD_TERM_FUNC_POINTERS",
           "package": "macho",
@@ -5189,6 +5637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only non-lazy symbol pointers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_NON_LAZY_SYMBOL_POINTERS",
           "package": "macho",
@@ -5199,6 +5648,7 @@
         "index": {
           "description": "section with only non-lazy symbol pointers",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_NON_LAZY_SYMBOL_POINTERS",
           "package": "macho",
@@ -5213,6 +5663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregular section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_REGULAR",
           "package": "macho",
@@ -5223,6 +5674,7 @@
         "index": {
           "description": "regular section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_REGULAR",
           "package": "macho",
@@ -5237,6 +5689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection with only symbol stubs, bte size of stub in the reserved2 field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_SYMBOL_STUBS",
           "package": "macho",
@@ -5247,6 +5700,7 @@
         "index": {
           "description": "section with only symbol stubs bte size of stub in the reserved2 field",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_SYMBOL_STUBS",
           "package": "macho",
@@ -5261,6 +5715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezero fill on demand section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "S_ZEROFILL",
           "package": "macho",
@@ -5271,6 +5726,7 @@
         "index": {
           "description": "zero fill on demand section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "S_ZEROFILL",
           "package": "macho",
@@ -5284,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "ScatteredRelocationInfo",
           "package": "macho",
@@ -5293,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "ScatteredRelocationInfo",
           "package": "macho",
@@ -5307,6 +5765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecute permission\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "VM_PROT_EXECUTE",
           "package": "macho",
@@ -5317,6 +5776,7 @@
         "index": {
           "description": "execute permission",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "VM_PROT_EXECUTE",
           "package": "macho",
@@ -5331,6 +5791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread permission\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "VM_PROT_READ",
           "package": "macho",
@@ -5341,6 +5802,7 @@
         "index": {
           "description": "read permission",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "VM_PROT_READ",
           "package": "macho",
@@ -5355,6 +5817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite permission\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "VM_PROT_WRITE",
           "package": "macho",
@@ -5365,6 +5828,7 @@
         "index": {
           "description": "write permission",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "VM_PROT_WRITE",
           "package": "macho",
@@ -5378,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_BRANCH",
           "package": "macho",
@@ -5387,6 +5852,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_BRANCH",
           "package": "macho",
@@ -5400,6 +5866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_GOT",
           "package": "macho",
@@ -5409,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_GOT",
           "package": "macho",
@@ -5422,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_GOT_LOAD",
           "package": "macho",
@@ -5431,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_GOT_LOAD",
           "package": "macho",
@@ -5444,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SIGNED",
           "package": "macho",
@@ -5453,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SIGNED",
           "package": "macho",
@@ -5466,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SIGNED_1",
           "package": "macho",
@@ -5475,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SIGNED_1",
           "package": "macho",
@@ -5488,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SIGNED_2",
           "package": "macho",
@@ -5497,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SIGNED_2",
           "package": "macho",
@@ -5510,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SIGNED_4",
           "package": "macho",
@@ -5519,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SIGNED_4",
           "package": "macho",
@@ -5532,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SUBTRACTOR",
           "package": "macho",
@@ -5541,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_SUBTRACTOR",
           "package": "macho",
@@ -5554,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_UNSIGNED",
           "package": "macho",
@@ -5563,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "X86_64_RELOC_UNSIGNED",
           "package": "macho",
@@ -5577,6 +6059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(initial, count) pair of symbol table indices for externally defined symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_ext_def_sym",
           "package": "macho",
@@ -5587,6 +6070,7 @@
         "index": {
           "description": "initial count pair of symbol table indices for externally defined symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_ext_def_sym",
           "normalized": "(Word,Word)",
@@ -5602,6 +6086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(initial, count) pair of symbol table indices for externally referenced symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_ext_rel",
           "package": "macho",
@@ -5612,6 +6097,7 @@
         "index": {
           "description": "initial count pair of symbol table indices for externally referenced symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_ext_rel",
           "normalized": "(Word,Word)",
@@ -5627,6 +6113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(initial, count) pair of symbol table indices for the index of the module init section and the number of init pointers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_init",
           "package": "macho",
@@ -5637,6 +6124,7 @@
         "index": {
           "description": "initial count pair of symbol table indices for the index of the module init section and the number of init pointers",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_init",
           "normalized": "(Word,Word)",
@@ -5652,6 +6140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(initial, count) pair of symbol table indices for local symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_local_sym",
           "package": "macho",
@@ -5662,6 +6151,7 @@
         "index": {
           "description": "initial count pair of symbol table indices for local symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_local_sym",
           "normalized": "(Word,Word)",
@@ -5677,6 +6167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodule name string table offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_module_name_offset",
           "package": "macho",
@@ -5687,6 +6178,7 @@
         "index": {
           "description": "module name string table offset",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_module_name_offset",
           "package": "macho",
@@ -5700,6 +6192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatically linked address of the start of the data for this module in the __module_info section in the __OBJC segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_objc_module_info_addr",
           "package": "macho",
@@ -5710,6 +6203,7 @@
         "index": {
           "description": "statically linked address of the start of the data for this module in the module info section in the OBJC segment",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_objc_module_info_addr",
           "package": "macho",
@@ -5723,6 +6217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of bytes of data for this module that are used in the __module_info section in the __OBJC segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_objc_module_info_size",
           "package": "macho",
@@ -5733,6 +6228,7 @@
         "index": {
           "description": "number of bytes of data for this module that are used in the module info section in the OBJC segment",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_objc_module_info_size",
           "package": "macho",
@@ -5746,6 +6242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(initial, count) pair of symbol table indices for referenced symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_ref_sym",
           "package": "macho",
@@ -5756,6 +6253,7 @@
         "index": {
           "description": "initial count pair of symbol table indices for referenced symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_ref_sym",
           "normalized": "(Word,Word)",
@@ -5771,6 +6269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(initial, count) pair of symbol table indices for the index of the module term section and the number of term pointers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "dylib_term",
           "package": "macho",
@@ -5781,6 +6280,7 @@
         "index": {
           "description": "initial count pair of symbol table indices for the index of the module term section and the number of term pointers",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "dylib_term",
           "normalized": "(Word,Word)",
@@ -5796,6 +6296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol table index and count for externally defined symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "extDefSyms",
           "package": "macho",
@@ -5806,6 +6307,7 @@
         "index": {
           "description": "symbol table index and count for externally defined symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "extDefSyms",
           "normalized": "(Word,Word)",
@@ -5822,6 +6324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of external reference symbol indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "extRefSyms",
           "package": "macho",
@@ -5832,6 +6335,7 @@
         "index": {
           "description": "list of external reference symbol indices",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "extRefSyms",
           "normalized": "[Word]",
@@ -5848,6 +6352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexternal locations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "extRels",
           "package": "macho",
@@ -5858,6 +6363,7 @@
         "index": {
           "description": "external locations",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "extRels",
           "normalized": "[Relocation]",
@@ -5874,6 +6380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of indirect symbol indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "indirectSyms",
           "package": "macho",
@@ -5884,6 +6391,7 @@
         "index": {
           "description": "list of indirect symbol indices",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "indirectSyms",
           "normalized": "[Word]",
@@ -5900,6 +6408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal relocations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "locRels",
           "package": "macho",
@@ -5910,6 +6419,7 @@
         "index": {
           "description": "local relocations",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "locRels",
           "normalized": "[Relocation]",
@@ -5926,6 +6436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol table index and count for local symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "localSyms",
           "package": "macho",
@@ -5936,6 +6447,7 @@
         "index": {
           "description": "symbol table index and count for local symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "localSyms",
           "normalized": "(Word,Word)",
@@ -5952,6 +6464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of load commands describing Mach-O contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "m_commands",
           "package": "macho",
@@ -5962,6 +6475,7 @@
         "index": {
           "description": "List of load commands describing Mach-O contents",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "m_commands",
           "normalized": "[LC_COMMAND]",
@@ -5977,6 +6491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "m_header",
           "package": "macho",
@@ -5987,6 +6502,7 @@
         "index": {
           "description": "Header information",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "m_header",
           "package": "macho",
@@ -6000,6 +6516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific CPU type the Mach-O executes on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "mh_cpusubtype",
           "package": "macho",
@@ -6010,6 +6527,7 @@
         "index": {
           "description": "Specific CPU type the Mach-O executes on",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "mh_cpusubtype",
           "package": "macho",
@@ -6023,6 +6541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCPU family the Mach-O executes on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "mh_cputype",
           "package": "macho",
@@ -6033,6 +6552,7 @@
         "index": {
           "description": "CPU family the Mach-O executes on",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "mh_cputype",
           "package": "macho",
@@ -6046,6 +6566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of Mach-o file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "mh_filetype",
           "package": "macho",
@@ -6056,6 +6577,7 @@
         "index": {
           "description": "Type of Mach-o file",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "mh_filetype",
           "package": "macho",
@@ -6069,6 +6591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "mh_flags",
           "package": "macho",
@@ -6079,6 +6602,7 @@
         "index": {
           "description": "Flags",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "mh_flags",
           "normalized": "[MH_FLAGS]",
@@ -6094,6 +6618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "modules",
           "package": "macho",
@@ -6104,6 +6629,7 @@
         "index": {
           "description": "modules",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "modules",
           "normalized": "[DylibModule]",
@@ -6119,6 +6645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a ByteString of a Mach-O object into a Macho record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "parseMacho",
           "package": "macho",
@@ -6129,6 +6656,7 @@
         "index": {
           "description": "Parse ByteString of Mach-O object into Macho record",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "parseMacho",
           "normalized": "ByteString-\u003eMacho",
@@ -6145,6 +6673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoffset from start of section to place to be relocated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "ri_address",
           "package": "macho",
@@ -6155,6 +6684,7 @@
         "index": {
           "description": "offset from start of section to place to be relocated",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "ri_address",
           "package": "macho",
@@ -6168,6 +6698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates whether symbolnum is an index into the symbol table (True) or section table (False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "ri_extern",
           "package": "macho",
@@ -6178,6 +6709,7 @@
         "index": {
           "description": "indicates whether symbolnum is an index into the symbol table True or section table False",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "ri_extern",
           "package": "macho",
@@ -6191,6 +6723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elength of item containing address to be relocated (literal form (4) instead of power of two (2))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "ri_length",
           "package": "macho",
@@ -6201,6 +6734,7 @@
         "index": {
           "description": "length of item containing address to be relocated literal form instead of power of two",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "ri_length",
           "package": "macho",
@@ -6214,6 +6748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates if the item to be relocated is part of an instruction containing PC-relative addressing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "ri_pcrel",
           "package": "macho",
@@ -6224,6 +6759,7 @@
         "index": {
           "description": "indicates if the item to be relocated is part of an instruction containing PC-relative addressing",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "ri_pcrel",
           "package": "macho",
@@ -6237,6 +6773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindex into symbol or section table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "ri_symbolnum",
           "package": "macho",
@@ -6247,6 +6784,7 @@
         "index": {
           "description": "index into symbol or section table",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "ri_symbolnum",
           "package": "macho",
@@ -6260,6 +6798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelocation type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "ri_type",
           "package": "macho",
@@ -6270,6 +6809,7 @@
         "index": {
           "description": "relocation type",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "ri_type",
           "package": "macho",
@@ -6283,6 +6823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoffset from start of section to place to be relocated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "rs_address",
           "package": "macho",
@@ -6293,6 +6834,7 @@
         "index": {
           "description": "offset from start of section to place to be relocated",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "rs_address",
           "package": "macho",
@@ -6306,6 +6848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elength of item containing address to be relocated (literal form (4) instead of power of two (2))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "rs_length",
           "package": "macho",
@@ -6316,6 +6859,7 @@
         "index": {
           "description": "length of item containing address to be relocated literal form instead of power of two",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "rs_length",
           "package": "macho",
@@ -6329,6 +6873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates if the item to be relocated is part of an instruction containing PC-relative addressing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "rs_pcrel",
           "package": "macho",
@@ -6339,6 +6884,7 @@
         "index": {
           "description": "indicates if the item to be relocated is part of an instruction containing PC-relative addressing",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "rs_pcrel",
           "package": "macho",
@@ -6352,6 +6898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelocation type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "rs_type",
           "package": "macho",
@@ -6362,6 +6909,7 @@
         "index": {
           "description": "relocation type",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "rs_type",
           "package": "macho",
@@ -6375,6 +6923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaddress of the relocatable expression for the item in the file that needs to be updated if the address is changed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "rs_value",
           "package": "macho",
@@ -6385,6 +6934,7 @@
         "index": {
           "description": "address of the relocatable expression for the item in the file that needs to be updated if the address is changed",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "rs_value",
           "package": "macho",
@@ -6398,6 +6948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evirtual memoy address for section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_addr",
           "package": "macho",
@@ -6408,6 +6959,7 @@
         "index": {
           "description": "virtual memoy address for section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_addr",
           "package": "macho",
@@ -6421,6 +6973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealignment required by section (literal form, not power of two, e.g. 8 not 3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_align",
           "package": "macho",
@@ -6431,6 +6984,7 @@
         "index": {
           "description": "alignment required by section literal form not power of two e.g not",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_align",
           "package": "macho",
@@ -6444,6 +6998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelocations for this section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_relocs",
           "package": "macho",
@@ -6454,6 +7009,7 @@
         "index": {
           "description": "relocations for this section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_relocs",
           "normalized": "[Relocation]",
@@ -6469,6 +7025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_sectname",
           "package": "macho",
@@ -6479,6 +7036,7 @@
         "index": {
           "description": "name of section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_sectname",
           "package": "macho",
@@ -6492,6 +7050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of segment that should own this section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_segname",
           "package": "macho",
@@ -6502,6 +7061,7 @@
         "index": {
           "description": "name of segment that should own this section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_segname",
           "package": "macho",
@@ -6515,6 +7075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esize of section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_size",
           "package": "macho",
@@ -6525,6 +7086,7 @@
         "index": {
           "description": "size of section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_size",
           "package": "macho",
@@ -6538,6 +7100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esystem attibutes of section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_sys_attrs",
           "package": "macho",
@@ -6548,6 +7111,7 @@
         "index": {
           "description": "system attibutes of section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_sys_attrs",
           "normalized": "[S_SYS_ATTR]",
@@ -6563,6 +7127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_type",
           "package": "macho",
@@ -6573,6 +7138,7 @@
         "index": {
           "description": "type of section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_type",
           "package": "macho",
@@ -6586,6 +7152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser attributes of section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sec_user_attrs",
           "package": "macho",
@@ -6596,6 +7163,7 @@
         "index": {
           "description": "user attributes of section",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sec_user_attrs",
           "normalized": "[S_USER_ATTR]",
@@ -6611,6 +7179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile offset of the segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_fileoff",
           "package": "macho",
@@ -6621,6 +7190,7 @@
         "index": {
           "description": "file offset of the segment",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_fileoff",
           "package": "macho",
@@ -6634,6 +7204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esize of segment in file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_filesize",
           "package": "macho",
@@ -6644,6 +7215,7 @@
         "index": {
           "description": "size of segment in file",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_filesize",
           "package": "macho",
@@ -6657,6 +7229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esegment flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_flags",
           "package": "macho",
@@ -6667,6 +7240,7 @@
         "index": {
           "description": "segment flags",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_flags",
           "normalized": "[SG_FLAG]",
@@ -6682,6 +7256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitial virtual memory protection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_initprot",
           "package": "macho",
@@ -6692,6 +7267,7 @@
         "index": {
           "description": "initial virtual memory protection",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_initprot",
           "normalized": "[VM_PROT]",
@@ -6707,6 +7283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximum virtual memory protection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_maxprot",
           "package": "macho",
@@ -6717,6 +7294,7 @@
         "index": {
           "description": "maximum virtual memory protection",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_maxprot",
           "normalized": "[VM_PROT]",
@@ -6732,6 +7310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esections owned by this segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_sections",
           "package": "macho",
@@ -6742,6 +7321,7 @@
         "index": {
           "description": "sections owned by this segment",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_sections",
           "normalized": "[MachoSection]",
@@ -6757,6 +7337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esegment name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_segname",
           "package": "macho",
@@ -6767,6 +7348,7 @@
         "index": {
           "description": "segment name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_segname",
           "package": "macho",
@@ -6780,6 +7362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evirtual address where the segment is loaded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_vmaddr",
           "package": "macho",
@@ -6790,6 +7373,7 @@
         "index": {
           "description": "virtual address where the segment is loaded",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_vmaddr",
           "package": "macho",
@@ -6803,6 +7387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esize of segment at runtime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "seg_vmsize",
           "package": "macho",
@@ -6813,6 +7398,7 @@
         "index": {
           "description": "size of segment at runtime",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "seg_vmsize",
           "package": "macho",
@@ -6826,6 +7412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrue if external symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sym_ext",
           "package": "macho",
@@ -6836,6 +7423,7 @@
         "index": {
           "description": "true if external symbol",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sym_ext",
           "package": "macho",
@@ -6849,6 +7437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor stab entries, Left Word16 is the uninterpreted flags field, otherwise Right [REFERENCE_FLAG] are the symbol flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sym_flags",
           "package": "macho",
@@ -6859,6 +7448,7 @@
         "index": {
           "description": "for stab entries Left Word16 is the uninterpreted flags field otherwise Right REFERENCE FLAG are the symbol flags",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sym_flags",
           "normalized": "Either Word[REFERENCE_FLAG]",
@@ -6874,6 +7464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sym_name",
           "package": "macho",
@@ -6884,6 +7475,7 @@
         "index": {
           "description": "symbol name",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sym_name",
           "package": "macho",
@@ -6897,6 +7489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrue if limited global scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sym_pext",
           "package": "macho",
@@ -6907,6 +7500,7 @@
         "index": {
           "description": "true if limited global scope",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sym_pext",
           "package": "macho",
@@ -6920,6 +7514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esection index where the symbol can be found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sym_sect",
           "package": "macho",
@@ -6930,6 +7525,7 @@
         "index": {
           "description": "section index where the symbol can be found",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sym_sect",
           "package": "macho",
@@ -6943,6 +7539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sym_type",
           "package": "macho",
@@ -6953,6 +7550,7 @@
         "index": {
           "description": "symbol type",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sym_type",
           "package": "macho",
@@ -6966,6 +7564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol value, 32-bit symbol values are promoted to 64-bit for simpliciy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "sym_value",
           "package": "macho",
@@ -6976,6 +7575,7 @@
         "index": {
           "description": "symbol value bit symbol values are promoted to bit for simpliciy",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "sym_value",
           "package": "macho",
@@ -6989,6 +7589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of symbol index and module index pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "tocEntries",
           "package": "macho",
@@ -6999,6 +7600,7 @@
         "index": {
           "description": "list of symbol index and module index pairs",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "tocEntries",
           "normalized": "[(Word,Word)]",
@@ -7015,6 +7617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymbol table index and count for undefined symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:27 UTC 2014",
           "module": "Data.Macho",
           "name": "undefSyms",
           "package": "macho",
@@ -7025,6 +7628,7 @@
         "index": {
           "description": "symbol table index and count for undefined symbols",
           "hierarchy": "Data Macho",
+          "indexed": "2014-03-11T19:13:27",
           "module": "Data.Macho",
           "name": "undefSyms",
           "normalized": "(Word,Word)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "chalkboard-viewer"
+        "phrase": "chalkboard-viewer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:29 UTC 2014",
           "module": "Graphics.Chalkboard.Viewer",
           "name": "BoardViewerInit",
           "package": "chalkboard-viewer",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Chalkboard Viewer",
+          "indexed": "2014-03-11T17:31:29",
           "module": "Graphics.Chalkboard.Viewer",
           "name": "BoardViewerInit",
           "package": "chalkboard-viewer",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003ctt\u003e\u003ca\u003einitBoardViewer\u003c/a\u003e\u003c/tt\u003e never returns, and must be run from the main thread.\n Two arguments should be provided; the inital window setup, and the MVar that\n will contain the Board to be displayed.\n",
+          "indexed": "Tue Mar 11 17:31:29 UTC 2014",
           "module": "Graphics.Chalkboard.Viewer",
           "name": "initBoardViewer",
           "package": "chalkboard-viewer",
@@ -50,6 +53,7 @@
         "index": {
           "description": "initBoardViewer never returns and must be run from the main thread Two arguments should be provided the inital window setup and the MVar that will contain the Board to be displayed",
           "hierarchy": "Graphics Chalkboard Viewer",
+          "indexed": "2014-03-11T17:31:29",
           "module": "Graphics.Chalkboard.Viewer",
           "name": "initBoardViewer",
           "normalized": "[BoardViewerInit]-\u003eMVar(Board RGB)-\u003eIO()",

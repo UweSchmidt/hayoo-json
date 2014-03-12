@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cqrs-test"
+        "phrase": "cqrs-test",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:26 UTC 2014",
           "module": "Data.CQRS.Test.EventStore.BackendTest",
           "name": "BackendTest",
           "package": "cqrs-test",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS Test EventStore BackendTest",
+          "indexed": "2014-03-11T17:42:26",
           "module": "Data.CQRS.Test.EventStore.BackendTest",
           "name": "BackendTest",
           "package": "cqrs-test",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:26 UTC 2014",
           "module": "Data.CQRS.Test.EventStore.BackendTest",
           "name": "testBackend",
           "package": "cqrs-test",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS Test EventStore BackendTest",
+          "indexed": "2014-03-11T17:42:26",
           "module": "Data.CQRS.Test.EventStore.BackendTest",
           "name": "testBackend",
           "normalized": "IO(Pool a)-\u003eIO()-\u003eSpec",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "byteorder"
+        "phrase": "byteorder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:27 UTC 2014",
           "module": "System.ByteOrder",
           "name": "ByteOrder",
           "package": "byteorder",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System ByteOrder",
+          "indexed": "2014-03-11T17:26:27",
           "module": "System.ByteOrder",
           "name": "ByteOrder",
           "package": "byteorder",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the byte-ordering for a 4-byte value, where '1'\n indicates the most-significant byte and '4' indicates the\n least significant byte.\n\u003c/p\u003e\u003cp\u003eIn this format, big endian byte order would be represented as:\n (1,2,3,4).\n\u003c/p\u003e\u003cp\u003eFor convinience, the most common cases (BigEndian and LittleEndian)\n are provided their own constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:27 UTC 2014",
           "module": "System.ByteOrder",
           "name": "ByteOrder",
           "package": "byteorder",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Indicates the byte-ordering for byte value where indicates the most-significant byte and indicates the least significant byte In this format big endian byte order would be represented as For convinience the most common cases BigEndian and LittleEndian are provided their own constructors",
           "hierarchy": "System ByteOrder",
+          "indexed": "2014-03-11T17:26:27",
           "module": "System.ByteOrder",
           "name": "ByteOrder",
           "package": "byteorder",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:27 UTC 2014",
           "module": "System.ByteOrder",
           "name": "BigEndian",
           "package": "byteorder",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System ByteOrder",
+          "indexed": "2014-03-11T17:26:27",
           "module": "System.ByteOrder",
           "name": "BigEndian",
           "package": "byteorder",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:27 UTC 2014",
           "module": "System.ByteOrder",
           "name": "LittleEndian",
           "package": "byteorder",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System ByteOrder",
+          "indexed": "2014-03-11T17:26:27",
           "module": "System.ByteOrder",
           "name": "LittleEndian",
           "package": "byteorder",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:27 UTC 2014",
           "module": "System.ByteOrder",
           "name": "Mixed",
           "package": "byteorder",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "System ByteOrder",
+          "indexed": "2014-03-11T17:26:27",
           "module": "System.ByteOrder",
           "name": "Mixed",
           "normalized": "Mixed(Word,Word,Word,Word)",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the native byte ordering of the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:27 UTC 2014",
           "module": "System.ByteOrder",
           "name": "byteOrder",
           "package": "byteorder",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Returns the native byte ordering of the system",
           "hierarchy": "System ByteOrder",
+          "indexed": "2014-03-11T17:26:27",
           "module": "System.ByteOrder",
           "name": "byteOrder",
           "package": "byteorder",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mpdmate"
+        "phrase": "mpdmate",
+        "type": "phrase"
       },
       "type": "context"
     }

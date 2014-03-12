@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cake"
+        "phrase": "cake",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "Actions",
           "package": "cake",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "Actions",
           "package": "cake",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "(++?)",
           "package": "cake",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "(++?) ++?",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "_bibtex",
           "package": "cake",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "_bibtex",
           "normalized": "String-\u003eAct()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "_lhs2TeX",
           "package": "cake",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "_lhs2TeX",
           "normalized": "String-\u003eString-\u003eAct()",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "_pdflatex",
           "package": "cake",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "_pdflatex",
           "normalized": "String-\u003eAct()",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument of a latex macro\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "argsOf",
           "package": "cake",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Argument of latex macro",
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "argsOf",
           "normalized": "[Char]-\u003e[[Char]]-\u003e[[Char]]",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "chaseDeps",
           "package": "cake",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "chaseDeps",
           "normalized": "(a-\u003eb[a])-\u003ea-\u003eb()",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "copy",
           "package": "cake",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "copy",
           "normalized": "FilePath-\u003eFilePath-\u003eAct()",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "dropSpaces",
           "package": "cake",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "dropSpaces",
           "normalized": "[Char]-\u003e[Char]",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the bib files used in a tex file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "getBibFiles",
           "package": "cake",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Find the bib files used in tex file",
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "getBibFiles",
           "normalized": "String-\u003eAct Answer",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "graphviz",
           "package": "cake",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "graphviz",
           "normalized": "String-\u003e[Char]-\u003e[Char]-\u003e[String]-\u003eAct()",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "includedLhs",
           "package": "cake",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "includedLhs",
           "normalized": "FilePath-\u003eAct[[Char]]",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "includedTex",
           "package": "cake",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "includedTex",
           "normalized": "FilePath-\u003eAct[[Char]]",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "lhs2tex",
           "package": "cake",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "lhs2tex",
           "normalized": "[Char]-\u003eAct()",
@@ -349,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "mkdir",
           "package": "cake",
@@ -358,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "mkdir",
           "normalized": "FilePath-\u003eAct()",
@@ -372,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "pandoc",
           "package": "cake",
@@ -381,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "pandoc",
           "normalized": "[Char]-\u003e[Char]-\u003e[String]-\u003eAct()",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "pdflatexBibtex",
           "package": "cake",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "pdflatexBibtex",
           "normalized": "[Char]-\u003eAct()",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "readFile",
           "package": "cake",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "readFile",
           "normalized": "FilePath-\u003eAct String",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Actions",
           "name": "touch",
           "package": "cake",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Cake Actions",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Actions",
           "name": "touch",
           "normalized": "FilePath-\u003eAct()",
@@ -466,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Core",
           "package": "cake",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Core",
           "package": "cake",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Act",
           "package": "cake",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Act",
           "package": "cake",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Answer",
           "package": "cake",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Answer",
           "package": "cake",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Failure",
           "package": "cake",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Failure",
           "package": "cake",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "P",
           "package": "cake",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "P",
           "package": "cake",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Question",
           "package": "cake",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Question",
           "package": "cake",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRules map names of files to actions building them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Rule",
           "package": "cake",
@@ -601,6 +652,7 @@
         "index": {
           "description": "Rules map names of files to actions building them",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Rule",
           "package": "cake",
@@ -615,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitve for rule construction. The given action must produce\n files matched by the pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "(==\u003e)",
           "package": "cake",
@@ -625,6 +678,7 @@
         "index": {
           "description": "Primitve for rule construction The given action must produce files matched by the pattern",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "(==\u003e) ==\u003e",
           "normalized": "P a-\u003e(a-\u003eAct b)-\u003eRule",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "CakeError",
           "package": "cake",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "CakeError",
           "package": "cake",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Custom",
           "package": "cake",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Custom",
           "normalized": "Custom[String]",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Failed",
           "package": "cake",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Failed",
           "package": "cake",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "FileContents",
           "package": "cake",
@@ -716,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "FileContents",
           "package": "cake",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Listing",
           "package": "cake",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Listing",
           "package": "cake",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Panic",
           "package": "cake",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Panic",
           "package": "cake",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "ProcessError",
           "package": "cake",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "ProcessError",
           "package": "cake",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Stamp",
           "package": "cake",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Stamp",
           "package": "cake",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "Text",
           "package": "cake",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "Text",
           "normalized": "Text[String]",
@@ -842,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action in the context of a set of rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "cake",
           "package": "cake",
@@ -852,6 +925,7 @@
         "index": {
           "description": "Run an action in the context of set of rules",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "cake",
           "normalized": "Rule-\u003eAct()-\u003eIO()",
@@ -867,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the action in only in a clobbered state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "cut",
           "package": "cake",
@@ -877,6 +952,7 @@
         "index": {
           "description": "Run the action in only in clobbered state",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "cut",
           "normalized": "Act()-\u003eAct()",
@@ -891,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "debug",
           "package": "cake",
@@ -900,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "debug",
           "normalized": "String-\u003eAct()",
@@ -915,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer a question using the action given.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "distill",
           "package": "cake",
@@ -925,6 +1004,7 @@
         "index": {
           "description": "Answer question using the action given",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "distill",
           "normalized": "Question-\u003eAct Answer-\u003eAct Answer",
@@ -940,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a stamp (hash) for a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "fileStamp",
           "package": "cake",
@@ -950,6 +1031,7 @@
         "index": {
           "description": "Return stamp hash for file",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "fileStamp",
           "normalized": "FilePath-\u003eAct Answer",
@@ -965,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "independently",
           "package": "cake",
@@ -974,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "independently",
           "normalized": "[Act a]-\u003eAct()",
@@ -989,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList directory contents by extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "list",
           "package": "cake",
@@ -999,6 +1084,7 @@
         "index": {
           "description": "List directory contents by extension",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "list",
           "normalized": "FilePath-\u003e[Char]-\u003eAct[String]",
@@ -1014,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to build a file using known rules; then mark it as used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "need",
           "package": "cake",
@@ -1024,6 +1111,7 @@
         "index": {
           "description": "Try to build file using known rules then mark it as used",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "need",
           "normalized": "FilePath-\u003eAct()",
@@ -1038,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "needs",
           "package": "cake",
@@ -1047,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "needs",
           "normalized": "[FilePath]-\u003eAct()",
@@ -1061,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "produce",
           "package": "cake",
@@ -1070,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "produce",
           "normalized": "FilePath-\u003eAct()-\u003eAct()",
@@ -1085,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a file, using the given action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "produces",
           "package": "cake",
@@ -1095,6 +1188,7 @@
         "index": {
           "description": "Produce file using the given action",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "produces",
           "normalized": "[FilePath]-\u003eAct()-\u003eAct()",
@@ -1110,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the argument in a clean context, and do not clobber the state\n even if the argument does that.  To use when the construction of\n the argument actually does not depend on the previous questions\n asked, and the constructed thing is \u003ca\u003eatomic\u003c/a\u003e for the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "shielded",
           "package": "cake",
@@ -1120,6 +1215,7 @@
         "index": {
           "description": "Run the argument in clean context and do not clobber the state even if the argument does that To use when the construction of the argument actually does not depend on the previous questions asked and the constructed thing is atomic for the environment",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "shielded",
           "normalized": "Act a-\u003eAct a",
@@ -1135,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs used within a monadic computation to begin exception processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "throwError",
           "package": "cake",
@@ -1144,6 +1241,7 @@
         "index": {
           "description": "Is used within monadic computation to begin exception processing",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "throwError",
           "normalized": "a b c-\u003ed e",
@@ -1160,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a file, using with the given action.  BUT: no problem to\n produce the same file multiple times.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "updates",
           "package": "cake",
@@ -1170,6 +1269,7 @@
         "index": {
           "description": "Produce file using with the given action BUT no problem to produce the same file multiple times",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "updates",
           "normalized": "[FilePath]-\u003eAct()-\u003eAct()",
@@ -1185,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark that a file is used. Do not chase dependencies on this file\n though. (To be used eg. if a command uses an optional file).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Core",
           "name": "use",
           "package": "cake",
@@ -1195,6 +1296,7 @@
         "index": {
           "description": "Mark that file is used Do not chase dependencies on this file though To be used eg if command uses an optional file",
           "hierarchy": "Cake Core",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Core",
           "name": "use",
           "normalized": "FilePath-\u003eAct Answer",
@@ -1209,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Marxup",
           "name": "Marxup",
           "package": "cake",
@@ -1217,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Cake Marxup",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Marxup",
           "name": "Marxup",
           "package": "cake",
@@ -1230,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Marxup",
           "name": "ghcMake",
           "package": "cake",
@@ -1239,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Cake Marxup",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Marxup",
           "name": "ghcMake",
           "normalized": "FilePath-\u003eAct()",
@@ -1254,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Marxup",
           "name": "marxup",
           "package": "cake",
@@ -1263,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Cake Marxup",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Marxup",
           "name": "marxup",
           "normalized": "FilePath-\u003eAct()",
@@ -1277,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Marxup",
           "name": "mpost",
           "package": "cake",
@@ -1286,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Cake Marxup",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Marxup",
           "name": "mpost",
           "normalized": "String-\u003eAct()",
@@ -1300,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Marxup",
           "name": "pdf_marxup",
           "package": "cake",
@@ -1309,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Cake Marxup",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Marxup",
           "name": "pdf_marxup",
           "normalized": "FilePath-\u003eAct()",
@@ -1323,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Marxup",
           "name": "remove",
           "package": "cake",
@@ -1332,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Cake Marxup",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Marxup",
           "name": "remove",
           "normalized": "String-\u003eAct()",
@@ -1346,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Process",
           "name": "Process",
           "package": "cake",
@@ -1354,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Cake Process",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Process",
           "name": "Process",
           "package": "cake",
@@ -1367,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Process",
           "name": "processIO",
           "package": "cake",
@@ -1376,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Cake Process",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Process",
           "name": "processIO",
           "normalized": "FilePath-\u003e[String]-\u003eMaybe FilePath-\u003eMaybe FilePath-\u003eAct()",
@@ -1391,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Process",
           "name": "system",
           "package": "cake",
@@ -1400,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Cake Process",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Process",
           "name": "system",
           "normalized": "[String]-\u003eAct()",
@@ -1414,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Rules",
           "name": "Rules",
           "package": "cake",
@@ -1422,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Cake Rules",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Rules",
           "name": "Rules",
           "package": "cake",
@@ -1435,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Rules",
           "name": "allRules",
           "package": "cake",
@@ -1444,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Cake Rules",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Rules",
           "name": "allRules",
           "normalized": "Parser Char(Act())",
@@ -1459,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Rules",
           "name": "anyExtension",
           "package": "cake",
@@ -1468,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Cake Rules",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Rules",
           "name": "anyExtension",
           "normalized": "[String]-\u003eP(String,String)",
@@ -1483,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Rules",
           "name": "extension",
           "package": "cake",
@@ -1492,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Cake Rules",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Rules",
           "name": "extension",
           "normalized": "String-\u003eP(String,String)",
@@ -1506,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Rules",
           "name": "pdf_tex",
           "package": "cake",
@@ -1515,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Cake Rules",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Rules",
           "name": "pdf_tex",
           "package": "cake",
@@ -1527,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Rules",
           "name": "simple",
           "package": "cake",
@@ -1536,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Cake Rules",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Rules",
           "name": "simple",
           "normalized": "String-\u003e[Char]-\u003e(String-\u003e[Char]-\u003eAct())-\u003eRule",
@@ -1550,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Rules",
           "name": "tex_lhs",
           "package": "cake",
@@ -1559,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Cake Rules",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Rules",
           "name": "tex_lhs",
           "package": "cake",
@@ -1571,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake.Rules",
           "name": "tex_markdown_standalone",
           "package": "cake",
@@ -1580,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Cake Rules",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake.Rules",
           "name": "tex_markdown_standalone",
           "package": "cake",
@@ -1592,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Cake",
           "name": "Cake",
           "package": "cake",
@@ -1600,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Cake",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Cake",
           "name": "Cake",
           "package": "cake",
@@ -1614,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the \u003cem\u003eParsek\u003c/em\u003e library developed by Koen Claessen in his\n functional pearl article \u003cem\u003eParallel Parsing Processes\u003c/em\u003e, Journal of Functional\n Programming, 14(6), 741&#150;757, Cambridge University Press, 2004:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.cs.chalmers.se/~koen/pubs/entry-jfp04-parser.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.cs.chalmers.se/Cs/Grundutb/Kurser/afp/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.cs.chalmers.se/Cs/Grundutb/Kurser/afp/code/week3/Parsek.hs\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eCopyright (C) 2003  Koen Claessen\n\u003c/p\u003e\u003cp\u003eThis program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2 of the License, or\n   (at your option) any later version.\n\u003c/p\u003e\u003cp\u003eThis program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\u003c/p\u003e\u003cp\u003eYou should have received a copy of the GNU General Public License along\n   with this program; if not, write to the Free Software Foundation, Inc.,\n   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ePureFP.Parsers.Stream\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "Parsek",
           "package": "cake",
@@ -1623,6 +1762,7 @@
         "index": {
           "description": "This module provides the Parsek library developed by Koen Claessen in his functional pearl article Parallel Parsing Processes Journal of Functional Programming Cambridge University Press http www.cs.chalmers.se koen pubs entry-jfp04-parser.html http www.cs.chalmers.se Cs Grundutb Kurser afp http www.cs.chalmers.se Cs Grundutb Kurser afp code week3 Parsek.hs Copyright Koen Claessen This program is free software you can redistribute it and or modify it under the terms of the GNU General Public License as published by the Free Software Foundation either version of the License or at your option any later version This program is distributed in the hope that it will be useful but WITHOUT ANY WARRANTY without even the implied warranty of MERCHANTABILITY or FITNESS FOR PARTICULAR PURPOSE See the GNU General Public License for more details You should have received copy of the GNU General Public License along with this program if not write to the Free Software Foundation Inc Franklin Street Fifth Floor Boston MA USA PureFP.Parsers.Stream",
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "Parsek",
           "package": "cake",
@@ -1636,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "Expect",
           "package": "cake",
@@ -1644,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "Expect",
           "package": "cake",
@@ -1657,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "ParseMethod",
           "package": "cake",
@@ -1665,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "ParseMethod",
           "package": "cake",
@@ -1678,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "ParseResult",
           "package": "cake",
@@ -1686,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "ParseResult",
           "package": "cake",
@@ -1699,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "Parser",
           "package": "cake",
@@ -1707,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "Parser",
           "package": "cake",
@@ -1720,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "Unexpect",
           "package": "cake",
@@ -1728,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "Unexpect",
           "package": "cake",
@@ -1741,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "(\u003c|\u003e)",
           "package": "cake",
@@ -1750,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Parser a b-\u003eParser a b-\u003eParser a b",
@@ -1764,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "(\u003c\u003c|\u003e)",
           "package": "cake",
@@ -1773,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "(\u003c\u003c|\u003e) \u003c\u003c|\u003e",
           "normalized": "Parser a b-\u003eParser a b-\u003eParser a b",
@@ -1787,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "(\u003c?\u003e)",
           "package": "cake",
@@ -1796,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "Parser a b-\u003eString-\u003eParser a b",
@@ -1810,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "allResults",
           "package": "cake",
@@ -1819,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "allResults",
           "normalized": "ParseMethod a b(Maybe a)[b]",
@@ -1834,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "allResultsStaged",
           "package": "cake",
@@ -1843,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "allResultsStaged",
           "normalized": "ParseMethod a b(Maybe a)[[b]]",
@@ -1858,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "allResultsWithLeftover",
           "package": "cake",
@@ -1867,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "allResultsWithLeftover",
           "normalized": "ParseMethod a b(Maybe a)[(b,[a])]",
@@ -1882,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "alphaNum",
           "package": "cake",
@@ -1891,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "alphaNum",
           "package": "cake",
@@ -1904,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "anyChar",
           "package": "cake",
@@ -1913,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "anyChar",
           "package": "cake",
@@ -1926,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "anySymbol",
           "package": "cake",
@@ -1935,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "anySymbol",
           "package": "cake",
@@ -1948,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "between",
           "package": "cake",
@@ -1957,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "between",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a d-\u003eParser a d",
@@ -1971,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "chainl",
           "package": "cake",
@@ -1980,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "chainl",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eb-\u003eParser a b",
@@ -1994,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "chainl1",
           "package": "cake",
@@ -2003,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "chainl1",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -2017,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "chainr",
           "package": "cake",
@@ -2026,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "chainr",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eb-\u003eParser a b",
@@ -2040,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "chainr1",
           "package": "cake",
@@ -2049,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "chainr1",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -2063,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "char",
           "package": "cake",
@@ -2072,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "char",
           "normalized": "a-\u003eParser a a",
@@ -2086,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "choice",
           "package": "cake",
@@ -2095,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "choice",
           "normalized": "[Parser a b]-\u003eParser a b",
@@ -2109,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "completeResults",
           "package": "cake",
@@ -2118,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "completeResults",
           "normalized": "ParseMethod a b(Maybe a)[b]",
@@ -2133,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "completeResultsWithLine",
           "package": "cake",
@@ -2142,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "completeResultsWithLine",
           "normalized": "ParseMethod Char a Int[a]",
@@ -2157,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "count",
           "package": "cake",
@@ -2166,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "count",
           "normalized": "Int-\u003eParser a b-\u003eParser a[b]",
@@ -2180,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "digit",
           "package": "cake",
@@ -2189,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "digit",
           "package": "cake",
@@ -2201,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "hexDigit",
           "package": "cake",
@@ -2210,6 +2401,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "hexDigit",
           "package": "cake",
@@ -2223,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "label",
           "package": "cake",
@@ -2232,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "label",
           "normalized": "Parser a b-\u003eString-\u003eParser a b",
@@ -2246,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "letter",
           "package": "cake",
@@ -2255,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "letter",
           "package": "cake",
@@ -2267,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "longestResult",
           "package": "cake",
@@ -2276,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "longestResult",
           "package": "cake",
@@ -2289,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "longestResultWithLeftover",
           "package": "cake",
@@ -2298,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "longestResultWithLeftover",
           "normalized": "ParseMethod a b(Maybe a)(b,[a])",
@@ -2313,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "longestResults",
           "package": "cake",
@@ -2322,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "longestResults",
           "normalized": "ParseMethod a b(Maybe a)[b]",
@@ -2337,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "longestResultsWithLeftover",
           "package": "cake",
@@ -2346,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "longestResultsWithLeftover",
           "normalized": "ParseMethod a b(Maybe a)([b],Maybe[a])",
@@ -2361,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "look",
           "package": "cake",
@@ -2370,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "look",
           "normalized": "Parser a[a]",
@@ -2384,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "lower",
           "package": "cake",
@@ -2393,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "lower",
           "package": "cake",
@@ -2405,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "many",
           "package": "cake",
@@ -2414,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "many",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -2428,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "many1",
           "package": "cake",
@@ -2437,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "many1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -2451,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "munch",
           "package": "cake",
@@ -2460,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "munch",
           "normalized": "(a-\u003eBool)-\u003eParser a[a]",
@@ -2474,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "munch1",
           "package": "cake",
@@ -2483,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "munch1",
           "normalized": "(a-\u003eBool)-\u003eParser a[a]",
@@ -2497,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "newline",
           "package": "cake",
@@ -2506,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "newline",
           "package": "cake",
@@ -2518,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "noneOf",
           "package": "cake",
@@ -2527,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "noneOf",
           "normalized": "[a]-\u003eParser a a",
@@ -2542,6 +2762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "octDigit",
           "package": "cake",
@@ -2551,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "octDigit",
           "package": "cake",
@@ -2564,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "oneOf",
           "package": "cake",
@@ -2573,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "oneOf",
           "normalized": "[a]-\u003eParser a a",
@@ -2588,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "option",
           "package": "cake",
@@ -2597,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "option",
           "normalized": "a-\u003eParser b a-\u003eParser b a",
@@ -2611,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "optional",
           "package": "cake",
@@ -2620,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "optional",
           "normalized": "Parser a b-\u003eParser a()",
@@ -2634,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "parse",
           "package": "cake",
@@ -2643,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "parse",
           "normalized": "Parser a b-\u003eParseMethod a b c d-\u003e[a]-\u003eParseResult c d",
@@ -2657,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "parseFromFile",
           "package": "cake",
@@ -2666,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "parseFromFile",
           "normalized": "Parser Char a-\u003eParseMethod Char a b c-\u003eFilePath-\u003eIO(ParseResult b c)",
@@ -2681,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "pzero",
           "package": "cake",
@@ -2690,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "pzero",
           "package": "cake",
@@ -2702,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "satisfy",
           "package": "cake",
@@ -2711,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParser a a",
@@ -2725,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "sepBy",
           "package": "cake",
@@ -2734,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "sepBy",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -2749,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "sepBy1",
           "package": "cake",
@@ -2758,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "sepBy1",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -2773,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "shortestResult",
           "package": "cake",
@@ -2782,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "shortestResult",
           "package": "cake",
@@ -2795,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "shortestResultWithLeftover",
           "package": "cake",
@@ -2804,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "shortestResultWithLeftover",
           "normalized": "ParseMethod a b(Maybe a)(b,[a])",
@@ -2819,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "skipMany",
           "package": "cake",
@@ -2828,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "skipMany",
           "normalized": "Parser a b-\u003eParser a()",
@@ -2843,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "skipMany1",
           "package": "cake",
@@ -2852,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "skipMany1",
           "normalized": "Parser a b-\u003eParser a()",
@@ -2867,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "space",
           "package": "cake",
@@ -2876,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "space",
           "package": "cake",
@@ -2888,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "spaces",
           "package": "cake",
@@ -2897,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "spaces",
           "normalized": "Parser Char()",
@@ -2911,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "string",
           "package": "cake",
@@ -2920,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "string",
           "normalized": "[a]-\u003eParser a[a]",
@@ -2934,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "succeeds",
           "package": "cake",
@@ -2943,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "succeeds",
           "normalized": "Parser a b-\u003eParser a(Maybe b)",
@@ -2957,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "tab",
           "package": "cake",
@@ -2966,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "tab",
           "package": "cake",
@@ -2978,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "try",
           "package": "cake",
@@ -2987,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "try",
           "normalized": "Parser a b-\u003eParser a b",
@@ -3001,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:14 UTC 2014",
           "module": "Parsek",
           "name": "upper",
           "package": "cake",
@@ -3010,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T17:29:14",
           "module": "Parsek",
           "name": "upper",
           "package": "cake",

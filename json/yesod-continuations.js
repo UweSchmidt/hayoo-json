@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-continuations"
+        "phrase": "yesod-continuations",
+        "type": "phrase"
       },
       "type": "context"
     }

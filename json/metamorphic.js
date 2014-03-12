@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "metamorphic"
+        "phrase": "metamorphic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "A",
           "package": "metamorphic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "A",
           "package": "metamorphic",
@@ -40,6 +42,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "A",
           "package": "metamorphic",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "A",
           "package": "metamorphic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "BinA",
           "package": "metamorphic",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "BinA",
           "package": "metamorphic",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "I",
           "package": "metamorphic",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "I",
           "package": "metamorphic",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "II",
           "package": "metamorphic",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "II",
           "package": "metamorphic",
@@ -123,6 +133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard Bifunctor, but with a Roman Numeral naming scheme:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003cem\u003eII\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e instead of \u003ccode\u003eBi\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003efmapII\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e instead of \u003ccode\u003ebimap\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003efmapLI\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e instead of \u003ccode\u003efirst\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003cem\u003efmapIR\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e instead of \u003ccode\u003esecond\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThis is to remind us that the other column remains intact\n   when focus on one (L or R).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "IIFunctor",
           "package": "metamorphic",
@@ -132,6 +143,7 @@
         "index": {
           "description": "standard Bifunctor but with Roman Numeral naming scheme II instead of Bi fmapII instead of bimap fmapLI instead of first fmapIR instead of second This is to remind us that the other column remains intact when focus on one or",
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "IIFunctor",
           "package": "metamorphic",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "IIV",
           "package": "metamorphic",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "IIV",
           "package": "metamorphic",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "Id",
           "package": "metamorphic",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "Id",
           "package": "metamorphic",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "JoinA",
           "package": "metamorphic",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "JoinA",
           "package": "metamorphic",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "PowA",
           "package": "metamorphic",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "PowA",
           "package": "metamorphic",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "Power",
           "package": "metamorphic",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "Power",
           "package": "metamorphic",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "SymA",
           "package": "metamorphic",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "SymA",
           "package": "metamorphic",
@@ -271,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "A",
           "package": "metamorphic",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "A",
           "normalized": "A(a-\u003eb)(b-\u003ec b)",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "I",
           "package": "metamorphic",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "I",
           "package": "metamorphic",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "II",
           "package": "metamorphic",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "II",
           "package": "metamorphic",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "IIV",
           "package": "metamorphic",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "IIV",
           "package": "metamorphic",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "Id",
           "package": "metamorphic",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "Id",
           "package": "metamorphic",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "Many",
           "package": "metamorphic",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "Many",
           "normalized": "Many a[b]",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "UIIVU",
           "package": "metamorphic",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "UIIVU",
           "package": "metamorphic",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "UII_U",
           "package": "metamorphic",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "UII_U",
           "package": "metamorphic",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "U_I_U",
           "package": "metamorphic",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "U_I_U",
           "package": "metamorphic",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "UnitP",
           "package": "metamorphic",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "UnitP",
           "package": "metamorphic",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "con",
           "package": "metamorphic",
@@ -501,6 +546,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "con",
           "normalized": "A a a a-\u003ea-\u003ea",
@@ -515,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "des",
           "package": "metamorphic",
@@ -524,6 +571,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "des",
           "normalized": "A a a a-\u003ea-\u003ea a",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fmapII",
           "package": "metamorphic",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fmapII",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee a c-\u003ee b d",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fmapIR",
           "package": "metamorphic",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fmapIR",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fmapLI",
           "package": "metamorphic",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fmapLI",
           "normalized": "(a-\u003eb)-\u003ec a d-\u003ec b d",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fold",
           "package": "metamorphic",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fold",
           "normalized": "(a b-\u003eb)-\u003eA c a d-\u003ed-\u003eb",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fromB",
           "package": "metamorphic",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fromB",
           "normalized": "a-\u003e(b-\u003ec-\u003ea)-\u003eII b c-\u003ea",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fromId",
           "package": "metamorphic",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fromId",
           "normalized": "(a-\u003eb)-\u003eId a-\u003eb",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fromP",
           "package": "metamorphic",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fromP",
           "normalized": "a-\u003e(b-\u003e[c]-\u003ea)-\u003ePower b c-\u003ea",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fromT",
           "package": "metamorphic",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fromT",
           "normalized": "a-\u003e(b-\u003ec-\u003ec-\u003ea)-\u003eIIV b c-\u003ea",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "fromU",
           "package": "metamorphic",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "fromU",
           "normalized": "a-\u003e(b-\u003ea)-\u003eI b-\u003ea",
@@ -750,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple Stream ADT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "h",
           "package": "metamorphic",
@@ -760,6 +827,7 @@
         "index": {
           "description": "simple Stream ADT",
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "h",
           "normalized": "(a b-\u003ec b)-\u003e(c b-\u003ed b)-\u003e(d b-\u003ee b)-\u003e(e b-\u003eb)-\u003e(f-\u003ea f)-\u003ef-\u003eb",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "hhh",
           "package": "metamorphic",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "hhh",
           "normalized": "(a b-\u003ec b)-\u003e(c b-\u003ed b)-\u003e(d b-\u003eb)-\u003e(e-\u003ea e)-\u003ee-\u003eb",
@@ -798,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHylomorphisms in binary and triplet form (just for completeness)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "hylo",
           "package": "metamorphic",
@@ -808,6 +879,7 @@
         "index": {
           "description": "Hylomorphisms in binary and triplet form just for completeness",
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "hylo",
           "normalized": "(a b-\u003eb)-\u003e(c-\u003ea c)-\u003ec-\u003eb",
@@ -822,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "hylot",
           "package": "metamorphic",
@@ -831,6 +904,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "hylot",
           "normalized": "(a b-\u003ec b)-\u003e(c b-\u003eb)-\u003e(d-\u003ea d)-\u003ed-\u003eb",
@@ -846,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquip an A having linear constructor with a join view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "joinView",
           "package": "metamorphic",
@@ -856,6 +931,7 @@
         "index": {
           "description": "Equip an having linear constructor with join view",
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "joinView",
           "normalized": "A(II a b)c b-\u003eA(II[a]b)c b",
@@ -871,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "maybeView",
           "package": "metamorphic",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "maybeView",
           "normalized": "A(II a b)c b-\u003eA(II(Maybe a)b)c b",
@@ -895,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "ntBU",
           "package": "metamorphic",
@@ -904,6 +983,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "ntBU",
           "normalized": "(a-\u003eb-\u003ec)-\u003eII a b-\u003eI c",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "ntPB",
           "package": "metamorphic",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "ntPB",
           "normalized": "(a-\u003eb)-\u003e([c]-\u003ed)-\u003ePower a c-\u003eII b d",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "ntTB",
           "package": "metamorphic",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "ntTB",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ec-\u003ed)-\u003eIIV a c-\u003eII b d",
@@ -967,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "stream",
           "package": "metamorphic",
@@ -976,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "stream",
           "normalized": "[SymA a b]-\u003eb-\u003eb",
@@ -990,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "toB",
           "package": "metamorphic",
@@ -999,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "toB",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003e(a-\u003ec)-\u003ea-\u003eII b c",
@@ -1013,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "toB'",
           "package": "metamorphic",
@@ -1022,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "toB'",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003e(b,c))-\u003ea-\u003eII b c",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "toId",
           "package": "metamorphic",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "toId",
           "normalized": "(a-\u003eb)-\u003ea-\u003eId b",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "toP",
           "package": "metamorphic",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "toP",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003e(a-\u003e[c])-\u003ea-\u003ePower b c",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "toP'",
           "package": "metamorphic",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "toP'",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003e(b,[c]))-\u003ea-\u003ePower b c",
@@ -1108,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "toT",
           "package": "metamorphic",
@@ -1117,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "toT",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003e(a-\u003ec)-\u003e(a-\u003ec)-\u003ea-\u003eIIV b c",
@@ -1131,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "toU",
           "package": "metamorphic",
@@ -1140,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "toU",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003ea-\u003eI b",
@@ -1154,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "trans",
           "package": "metamorphic",
@@ -1163,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "trans",
           "normalized": "(a b-\u003ec)-\u003eA d a e-\u003eA c f b-\u003ee-\u003eb",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "transit",
           "package": "metamorphic",
@@ -1186,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "transit",
           "normalized": "A a b c-\u003eA(b d)e d-\u003ec-\u003ed",
@@ -1200,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "unfold",
           "package": "metamorphic",
@@ -1209,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "unfold",
           "normalized": "(a-\u003eb a)-\u003eA(b c)d c-\u003ea-\u003ec",
@@ -1223,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "A",
           "name": "via",
           "package": "metamorphic",
@@ -1232,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "A",
+          "indexed": "2014-03-11T19:17:10",
           "module": "A",
           "name": "via",
           "normalized": "A a b c-\u003eA(b d)e d-\u003eA(e f)g f-\u003ec-\u003ef",
@@ -1247,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "Alib",
           "package": "metamorphic",
@@ -1256,6 +1365,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "Alib",
           "package": "metamorphic",
@@ -1269,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "Forest",
           "package": "metamorphic",
@@ -1277,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "Forest",
           "package": "metamorphic",
@@ -1290,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "IxI",
           "package": "metamorphic",
@@ -1298,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "IxI",
           "package": "metamorphic",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "LinGraph",
           "package": "metamorphic",
@@ -1319,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "LinGraph",
           "package": "metamorphic",
@@ -1332,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "NoK",
           "package": "metamorphic",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "NoK",
           "package": "metamorphic",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "Rose",
           "package": "metamorphic",
@@ -1361,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "Rose",
           "package": "metamorphic",
@@ -1374,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "(/\\)",
           "package": "metamorphic",
@@ -1383,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "(/\\) /\\",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003ea-\u003e(a,a)",
@@ -1397,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "(\u003e\u003c)",
           "package": "metamorphic",
@@ -1406,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -1420,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "Nd",
           "package": "metamorphic",
@@ -1429,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "Nd",
           "normalized": "Nd a[Rose a]",
@@ -1444,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "No",
           "package": "metamorphic",
@@ -1453,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "No",
           "package": "metamorphic",
@@ -1466,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "Null",
           "package": "metamorphic",
@@ -1475,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "Null",
           "package": "metamorphic",
@@ -1488,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "OK",
           "package": "metamorphic",
@@ -1497,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "OK",
           "package": "metamorphic",
@@ -1510,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "accum",
           "package": "metamorphic",
@@ -1519,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "accum",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(b,a)-\u003eFiniteMap b a-\u003eFiniteMap b a",
@@ -1533,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "add",
           "package": "metamorphic",
@@ -1542,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "add",
           "normalized": "a-\u003eFiniteMap a b-\u003eFiniteMap a b",
@@ -1556,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "append213",
           "package": "metamorphic",
@@ -1565,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "append213",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -1579,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "arr",
           "package": "metamorphic",
@@ -1588,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "arr",
           "normalized": "(a-\u003ea-\u003ea)-\u003eBinA(b,a)(FiniteMap b a)",
@@ -1602,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "bag",
           "package": "metamorphic",
@@ -1611,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "bag",
           "package": "metamorphic",
@@ -1623,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "bool",
           "package": "metamorphic",
@@ -1632,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "bool",
           "package": "metamorphic",
@@ -1644,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "boolAnd",
           "package": "metamorphic",
@@ -1653,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "boolAnd",
           "package": "metamorphic",
@@ -1666,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "bufGraph",
           "package": "metamorphic",
@@ -1675,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "bufGraph",
           "normalized": "JoinA a b-\u003e(a-\u003eNode)-\u003e(a-\u003eContext c d-\u003e[a])-\u003eA()(II(MContext c d))(b a,Graph c d)",
@@ -1690,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "cGraph",
           "package": "metamorphic",
@@ -1699,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "cGraph",
           "normalized": "LinGraph a b-\u003eGraph a b",
@@ -1714,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "cList",
           "package": "metamorphic",
@@ -1723,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "cList",
           "normalized": "II a[a]-\u003e[a]",
@@ -1739,6 +1891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct (resp. destroy) a \u003ccode\u003e\u003ca\u003eI\u003c/a\u003e\u003c/code\u003e of Naturals using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "cNat",
           "package": "metamorphic",
@@ -1749,6 +1902,7 @@
         "index": {
           "description": "construct resp destroy of Naturals using Int",
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "cNat",
           "normalized": "I Int-\u003eInt",
@@ -1764,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "cProd",
           "package": "metamorphic",
@@ -1773,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "cProd",
           "normalized": "II Int Int-\u003eInt",
@@ -1788,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "cRose",
           "package": "metamorphic",
@@ -1797,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "cRose",
           "package": "metamorphic",
@@ -1810,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "combine",
           "package": "metamorphic",
@@ -1819,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "combine",
           "normalized": "A(IIV[a][a])(II a)[a]",
@@ -1833,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "count",
           "package": "metamorphic",
@@ -1842,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "count",
           "package": "metamorphic",
@@ -1854,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "cut",
           "package": "metamorphic",
@@ -1863,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "cut",
           "normalized": "Rose a-\u003e(a,[Rose a])",
@@ -1878,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct (resp. destroy) a \u003ccode\u003e\u003ca\u003eII\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003ea\u003c/code\u003es using base Lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "dList",
           "package": "metamorphic",
@@ -1888,6 +2053,7 @@
         "index": {
           "description": "construct resp destroy II of using base Lists",
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "dList",
           "normalized": "[a]-\u003eII a[a]",
@@ -1904,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct (resp. destroy) a \u003ccode\u003e\u003ca\u003eI\u003c/a\u003e\u003c/code\u003e  of Naturals using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n |                                                         construct (resp. destroy) a \u003ccode\u003e\u003ca\u003eII\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003ea\u003c/code\u003es using Lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "dNat",
           "package": "metamorphic",
@@ -1914,6 +2081,7 @@
         "index": {
           "description": "construct resp destroy of Naturals using Int construct resp destroy II of using Lists",
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "dNat",
           "normalized": "Int-\u003eI Int",
@@ -1930,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edestroy priority queue (a \u003ccode\u003e\u003ca\u003eII\u003c/a\u003e\u003c/code\u003e over base Lists)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "dPqueue",
           "package": "metamorphic",
@@ -1940,6 +2109,7 @@
         "index": {
           "description": "destroy priority queue II over base Lists",
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "dPqueue",
           "normalized": "[a]-\u003eII a[a]",
@@ -1956,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edestroy priority queue heap (a \u003ccode\u003e\u003ca\u003eII\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eBifunctor\u003c/code\u003e) over \u003ccode\u003e\u003ca\u003eHeap\u003c/a\u003e\u003c/code\u003es)\n |                                                         construct (resp. destroy) a \u003ccode\u003e\u003ca\u003eII\u003c/a\u003e\u003c/code\u003e of two Naturals using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "dPqueueH",
           "package": "metamorphic",
@@ -1966,6 +2137,7 @@
         "index": {
           "description": "destroy priority queue heap II Bifunctor over Heap construct resp destroy II of two Naturals using Int",
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "dPqueueH",
           "normalized": "Heap a-\u003eII a(Heap a)",
@@ -1982,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct (resp. destroy) a \u003ccode\u003e\u003ca\u003eII\u003c/a\u003e\u003c/code\u003e of two Naturals using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "dProd",
           "package": "metamorphic",
@@ -1992,6 +2165,7 @@
         "index": {
           "description": "construct resp destroy II of two Naturals using Int",
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "dProd",
           "normalized": "Int-\u003eII Int Int",
@@ -2007,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "dRose",
           "package": "metamorphic",
@@ -2016,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "dRose",
           "package": "metamorphic",
@@ -2029,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "evn",
           "package": "metamorphic",
@@ -2038,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "evn",
           "package": "metamorphic",
@@ -2050,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "final",
           "package": "metamorphic",
@@ -2059,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "final",
           "package": "metamorphic",
@@ -2071,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "forest",
           "package": "metamorphic",
@@ -2080,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "forest",
           "normalized": "A(Id[Rose a])(II[a])[Rose a]",
@@ -2094,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "forest'",
           "package": "metamorphic",
@@ -2103,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "forest'",
           "package": "metamorphic",
@@ -2115,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "fork",
           "package": "metamorphic",
@@ -2124,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "fork",
           "normalized": "A(II a[a])(IIV[a])[a]",
@@ -2138,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "graph",
           "package": "metamorphic",
@@ -2147,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "graph",
           "package": "metamorphic",
@@ -2159,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "halves",
           "package": "metamorphic",
@@ -2168,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "halves",
           "package": "metamorphic",
@@ -2180,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "isNull",
           "package": "metamorphic",
@@ -2189,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "isNull",
           "normalized": "Rose a-\u003eBool",
@@ -2204,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "jList",
           "package": "metamorphic",
@@ -2213,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "jList",
           "normalized": "JoinA a[]",
@@ -2228,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "jPqueue",
           "package": "metamorphic",
@@ -2237,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "jPqueue",
           "normalized": "JoinA a[]",
@@ -2252,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "jPqueueH",
           "package": "metamorphic",
@@ -2261,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "jPqueueH",
           "package": "metamorphic",
@@ -2274,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "jQueue",
           "package": "metamorphic",
@@ -2283,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "jQueue",
           "normalized": "JoinA a[]",
@@ -2298,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "jStack",
           "package": "metamorphic",
@@ -2307,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "jStack",
           "normalized": "JoinA a[]",
@@ -2322,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "kids",
           "package": "metamorphic",
@@ -2331,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "kids",
           "normalized": "Rose a-\u003e[Rose a]",
@@ -2345,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "list",
           "package": "metamorphic",
@@ -2354,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "list",
           "normalized": "BinA a[a]",
@@ -2368,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "nat",
           "package": "metamorphic",
@@ -2377,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "nat",
           "package": "metamorphic",
@@ -2389,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "nat2",
           "package": "metamorphic",
@@ -2398,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "nat2",
           "normalized": "(IxI-\u003eBool)-\u003e(IxI-\u003eIxI)-\u003eA()(II Int)IxI",
@@ -2413,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurried composition\n\u003c/p\u003e\u003cp\u003eo      :: forall a f g b. (b -\u003e a) -\u003e (f -\u003e g -\u003e b) -\u003e f -\u003e g -\u003e a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "o",
           "package": "metamorphic",
@@ -2423,6 +2634,7 @@
         "index": {
           "description": "curried composition forall",
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "o",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea-\u003ea)-\u003ec-\u003ea-\u003eb",
@@ -2437,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "pqueue",
           "package": "metamorphic",
@@ -2446,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "pqueue",
           "normalized": "BinA a[a]",
@@ -2460,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "pqueueH",
           "package": "metamorphic",
@@ -2469,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "pqueueH",
           "package": "metamorphic",
@@ -2481,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "prod",
           "package": "metamorphic",
@@ -2490,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "prod",
           "package": "metamorphic",
@@ -2502,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "q1",
           "package": "metamorphic",
@@ -2511,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "q1",
           "normalized": "(a,b,c,d)-\u003ea",
@@ -2525,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "q2",
           "package": "metamorphic",
@@ -2534,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "q2",
           "normalized": "(a,b,c,d)-\u003eb",
@@ -2548,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "q23",
           "package": "metamorphic",
@@ -2557,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "q23",
           "normalized": "(a,b,c,d)-\u003e(b,c)",
@@ -2571,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "q4",
           "package": "metamorphic",
@@ -2580,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "q4",
           "normalized": "(a,b,c,d)-\u003ed",
@@ -2594,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "queue",
           "package": "metamorphic",
@@ -2603,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "queue",
           "normalized": "BinA a[a]",
@@ -2617,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "rest",
           "package": "metamorphic",
@@ -2626,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "rest",
           "normalized": "[a]-\u003e[a]",
@@ -2640,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "rng",
           "package": "metamorphic",
@@ -2649,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "rng",
           "package": "metamorphic",
@@ -2661,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "rng'",
           "package": "metamorphic",
@@ -2670,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "rng'",
           "normalized": "A()(II Int)Int",
@@ -2684,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "root",
           "package": "metamorphic",
@@ -2693,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "root",
           "normalized": "Rose a-\u003ea",
@@ -2707,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "rose",
           "package": "metamorphic",
@@ -2716,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "rose",
           "package": "metamorphic",
@@ -2728,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "sel",
           "package": "metamorphic",
@@ -2737,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "sel",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -2751,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "set",
           "package": "metamorphic",
@@ -2760,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "set",
           "normalized": "BinA a[a]",
@@ -2774,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "split_arr",
           "package": "metamorphic",
@@ -2783,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "split_arr",
           "normalized": "FiniteMap a b-\u003e((a,b),FiniteMap a b)",
@@ -2797,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "split_bag",
           "package": "metamorphic",
@@ -2806,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "split_bag",
           "normalized": "FiniteMap a b-\u003e(a,FiniteMap a b)",
@@ -2820,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "stack",
           "package": "metamorphic",
@@ -2829,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "stack",
           "normalized": "BinA a[a]",
@@ -2843,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "summ",
           "package": "metamorphic",
@@ -2852,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "summ",
           "package": "metamorphic",
@@ -2864,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Alib",
           "name": "tree",
           "package": "metamorphic",
@@ -2873,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Alib",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Alib",
           "name": "tree",
           "package": "metamorphic",
@@ -2886,6 +3138,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "Aprog",
           "package": "metamorphic",
@@ -2895,6 +3148,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "Aprog",
           "package": "metamorphic",
@@ -2908,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "all2",
           "package": "metamorphic",
@@ -2917,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "all2",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eBool",
@@ -2931,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "any2",
           "package": "metamorphic",
@@ -2940,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "any2",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eBool",
@@ -2954,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "bfs",
           "package": "metamorphic",
@@ -2963,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "bfs",
           "normalized": "Node-\u003eGraph a b-\u003e[Node]",
@@ -2977,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "bfsr",
           "package": "metamorphic",
@@ -2986,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "bfsr",
           "normalized": "[Rose a]-\u003e[a]",
@@ -3000,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "binSearch",
           "package": "metamorphic",
@@ -3009,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "binSearch",
           "normalized": "a-\u003eTree a-\u003eBool",
@@ -3024,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "bucketsort",
           "package": "metamorphic",
@@ -3033,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "bucketsort",
           "normalized": "[a]-\u003e[a]",
@@ -3047,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "bucketsort'",
           "package": "metamorphic",
@@ -3056,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "bucketsort'",
           "normalized": "[a]-\u003e[a]",
@@ -3070,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "build",
           "package": "metamorphic",
@@ -3079,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "build",
           "normalized": "[Context a b]-\u003eGraph a b",
@@ -3093,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "card",
           "package": "metamorphic",
@@ -3102,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "card",
           "normalized": "[a]-\u003eInt",
@@ -3116,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "card_alt",
           "package": "metamorphic",
@@ -3125,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "card_alt",
           "normalized": "[a]-\u003eInt",
@@ -3139,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "countdown",
           "package": "metamorphic",
@@ -3148,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "countdown",
           "normalized": "Int-\u003e[Int]",
@@ -3162,6 +3438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "dfs",
           "package": "metamorphic",
@@ -3171,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "dfs",
           "normalized": "Graph a b-\u003e[Node]",
@@ -3185,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "dfsn",
           "package": "metamorphic",
@@ -3194,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "dfsn",
           "normalized": "[Node]-\u003eGraph a b-\u003e[Node]",
@@ -3208,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "dfsr",
           "package": "metamorphic",
@@ -3217,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "dfsr",
           "normalized": "Rose a-\u003e[a]",
@@ -3231,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "double",
           "package": "metamorphic",
@@ -3240,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "double",
           "normalized": "Int-\u003eInt",
@@ -3254,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "edges",
           "package": "metamorphic",
@@ -3263,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "edges",
           "normalized": "Graph a b-\u003e[(Node,Node)]",
@@ -3277,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "eq0",
           "package": "metamorphic",
@@ -3286,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "eq0",
           "normalized": "(a,b)-\u003eBool",
@@ -3300,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "eq0'",
           "package": "metamorphic",
@@ -3309,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "eq0'",
           "normalized": "(a,a)-\u003eBool",
@@ -3323,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "fac1",
           "package": "metamorphic",
@@ -3332,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "fac1",
           "normalized": "Int-\u003eInt",
@@ -3346,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "fac2",
           "package": "metamorphic",
@@ -3355,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "fac2",
           "normalized": "Int-\u003eInt",
@@ -3369,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "fac3",
           "package": "metamorphic",
@@ -3378,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "fac3",
           "normalized": "Int-\u003eInt",
@@ -3392,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "flipTree",
           "package": "metamorphic",
@@ -3401,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "flipTree",
           "normalized": "Tree a-\u003eTree a",
@@ -3416,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "forceList",
           "package": "metamorphic",
@@ -3425,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "forceList",
           "normalized": "[a]-\u003ea",
@@ -3440,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "gcd'",
           "package": "metamorphic",
@@ -3449,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "gcd'",
           "normalized": "IxI-\u003eMaybe Int",
@@ -3463,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "gmap",
           "package": "metamorphic",
@@ -3472,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "gmap",
           "normalized": "(Context a b-\u003eContext c d)-\u003eGraph a b-\u003eGraph c d",
@@ -3486,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "grev",
           "package": "metamorphic",
@@ -3495,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "grev",
           "normalized": "Graph a b-\u003eGraph a b",
@@ -3509,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "heapsort",
           "package": "metamorphic",
@@ -3518,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "heapsort",
           "normalized": "[a]-\u003e[a]",
@@ -3532,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "histogram",
           "package": "metamorphic",
@@ -3541,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "histogram",
           "normalized": "[a]-\u003eFiniteMap a Int",
@@ -3555,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "l",
           "package": "metamorphic",
@@ -3564,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "l",
           "normalized": "[Integer]",
@@ -3578,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "l1",
           "package": "metamorphic",
@@ -3587,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "l1",
           "normalized": "[Integer]",
@@ -3601,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "l2",
           "package": "metamorphic",
@@ -3610,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "l2",
           "normalized": "[Integer]",
@@ -3624,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "l3",
           "package": "metamorphic",
@@ -3633,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "l3",
           "normalized": "[Integer]",
@@ -3647,6 +3965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "l4",
           "package": "metamorphic",
@@ -3656,6 +3975,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "l4",
           "normalized": "[Integer]",
@@ -3670,6 +3990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "labEdges",
           "package": "metamorphic",
@@ -3679,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "labEdges",
           "normalized": "Graph a b-\u003e[(Node,Node,b)]",
@@ -3694,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "labNodes",
           "package": "metamorphic",
@@ -3703,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "labNodes",
           "normalized": "Graph a b-\u003e[(Node,a)]",
@@ -3718,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "labSucs",
           "package": "metamorphic",
@@ -3727,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "labSucs",
           "normalized": "(a,a)-\u003e(a,a,a,[(a,a)])-\u003e[(a,a)]",
@@ -3742,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "labnl",
           "package": "metamorphic",
@@ -3751,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "labnl",
           "normalized": "a-\u003eInt-\u003e[(b,a)]",
@@ -3765,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "length1",
           "package": "metamorphic",
@@ -3774,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "length1",
           "normalized": "[a]-\u003eInt",
@@ -3788,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "length2",
           "package": "metamorphic",
@@ -3797,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "length2",
           "normalized": "[a]-\u003eInt",
@@ -3811,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "length3",
           "package": "metamorphic",
@@ -3820,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "length3",
           "normalized": "[a]-\u003eInt",
@@ -3834,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "length4",
           "package": "metamorphic",
@@ -3843,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "length4",
           "normalized": "[a]-\u003eInt",
@@ -3857,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "listToTree",
           "package": "metamorphic",
@@ -3866,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "listToTree",
           "normalized": "[a]-\u003eTree a",
@@ -3881,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "log2",
           "package": "metamorphic",
@@ -3890,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "log2",
           "normalized": "Int-\u003eInt",
@@ -3904,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "lt0'",
           "package": "metamorphic",
@@ -3913,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "lt0'",
           "normalized": "(a,a)-\u003eBool",
@@ -3927,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "mapEdges",
           "package": "metamorphic",
@@ -3936,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "mapEdges",
           "normalized": "(a-\u003eb)-\u003eGraph c a-\u003eGraph c b",
@@ -3951,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "mapNodes",
           "package": "metamorphic",
@@ -3960,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "mapNodes",
           "normalized": "(a-\u003eb)-\u003eGraph a c-\u003eGraph b c",
@@ -3975,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "mapset",
           "package": "metamorphic",
@@ -3984,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "mapset",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -3998,6 +4346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "member",
           "package": "metamorphic",
@@ -4007,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "member",
           "normalized": "Node-\u003eGraph a b-\u003eBool",
@@ -4021,6 +4371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "minus",
           "package": "metamorphic",
@@ -4030,6 +4381,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "minus",
           "normalized": "(a,a)-\u003ea",
@@ -4044,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "mlist",
           "package": "metamorphic",
@@ -4053,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "mlist",
           "normalized": "A(II(Maybe a)[a])(II a)[a]",
@@ -4067,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "mod'",
           "package": "metamorphic",
@@ -4076,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "mod'",
           "normalized": "IxI-\u003eMaybe Int",
@@ -4090,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "mult",
           "package": "metamorphic",
@@ -4099,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "mult",
           "normalized": "IxI-\u003eInt",
@@ -4113,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "nats",
           "package": "metamorphic",
@@ -4122,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "nats",
           "normalized": "[Integer]",
@@ -4136,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "noEdges",
           "package": "metamorphic",
@@ -4145,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "noEdges",
           "normalized": "Graph a b-\u003eInt",
@@ -4160,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "noLab",
           "package": "metamorphic",
@@ -4169,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "noLab",
           "normalized": "(a,a)-\u003e(a,a,())",
@@ -4184,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "nodeId",
           "package": "metamorphic",
@@ -4193,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "nodeId",
           "normalized": "II(MContext a b)c-\u003eII(Maybe Node)c",
@@ -4208,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "nodes",
           "package": "metamorphic",
@@ -4217,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "nodes",
           "normalized": "Graph a b-\u003e[Node]",
@@ -4231,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "power",
           "package": "metamorphic",
@@ -4240,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "power",
           "normalized": "IxI-\u003eInt",
@@ -4254,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "preorder",
           "package": "metamorphic",
@@ -4263,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "preorder",
           "normalized": "Tree a-\u003e[a]",
@@ -4277,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "quicksort",
           "package": "metamorphic",
@@ -4286,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "quicksort",
           "normalized": "[a]-\u003e[a]",
@@ -4300,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "remdup",
           "package": "metamorphic",
@@ -4309,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "remdup",
           "normalized": "[a]-\u003e[a]",
@@ -4323,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "rev",
           "package": "metamorphic",
@@ -4332,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "rev",
           "normalized": "[a]-\u003e[a]",
@@ -4346,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "rose1",
           "package": "metamorphic",
@@ -4355,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "rose1",
           "package": "metamorphic",
@@ -4367,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "rose2",
           "package": "metamorphic",
@@ -4376,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "rose2",
           "package": "metamorphic",
@@ -4388,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "size",
           "package": "metamorphic",
@@ -4397,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "size",
           "normalized": "A a(II b)c-\u003ec-\u003eInt",
@@ -4411,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "sp",
           "package": "metamorphic",
@@ -4420,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "sp",
           "normalized": "Node-\u003eGraph a b-\u003e[Node]",
@@ -4434,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "sp1",
           "package": "metamorphic",
@@ -4443,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "sp1",
           "normalized": "Node-\u003eGraph a b-\u003e[Node]",
@@ -4457,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "sucs",
           "package": "metamorphic",
@@ -4466,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "sucs",
           "normalized": "a-\u003e(a,a,a,b(c,d))-\u003eb d",
@@ -4480,6 +4870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "sum'",
           "package": "metamorphic",
@@ -4489,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "sum'",
           "normalized": "[a]-\u003ea",
@@ -4503,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "sumset",
           "package": "metamorphic",
@@ -4512,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "sumset",
           "normalized": "[a]-\u003ea",
@@ -4526,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "t",
           "package": "metamorphic",
@@ -4535,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "t",
           "package": "metamorphic",
@@ -4547,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "t1",
           "package": "metamorphic",
@@ -4556,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "t1",
           "package": "metamorphic",
@@ -4568,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "t2",
           "package": "metamorphic",
@@ -4577,6 +4976,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "t2",
           "package": "metamorphic",
@@ -4589,6 +4989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "t3",
           "package": "metamorphic",
@@ -4598,6 +4999,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "t3",
           "package": "metamorphic",
@@ -4610,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "t4",
           "package": "metamorphic",
@@ -4619,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "t4",
           "package": "metamorphic",
@@ -4631,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Aprog",
           "name": "tree'",
           "package": "metamorphic",
@@ -4640,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Aprog",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Aprog",
           "name": "tree'",
           "normalized": "(Tree a-\u003eb)-\u003e(Tree a-\u003eTree a)-\u003eA()(II b)(Tree a)",
@@ -4655,6 +5061,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "Graph",
           "package": "metamorphic",
@@ -4664,6 +5071,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "Graph",
           "package": "metamorphic",
@@ -4677,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "Adj",
           "package": "metamorphic",
@@ -4685,6 +5094,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "Adj",
           "package": "metamorphic",
@@ -4698,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "Context",
           "package": "metamorphic",
@@ -4706,6 +5117,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "Context",
           "package": "metamorphic",
@@ -4719,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "Decomp",
           "package": "metamorphic",
@@ -4727,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "Decomp",
           "package": "metamorphic",
@@ -4740,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "Edge",
           "package": "metamorphic",
@@ -4748,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "Edge",
           "package": "metamorphic",
@@ -4761,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "Graph",
           "package": "metamorphic",
@@ -4769,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "Graph",
           "package": "metamorphic",
@@ -4782,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "MContext",
           "package": "metamorphic",
@@ -4790,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "MContext",
           "package": "metamorphic",
@@ -4803,6 +5223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "Node",
           "package": "metamorphic",
@@ -4811,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "Node",
           "package": "metamorphic",
@@ -4824,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "(\\\\)",
           "package": "metamorphic",
@@ -4833,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "(\\\\) \\\\",
           "normalized": "Graph a b-\u003e[Node]-\u003eGraph a b",
@@ -4847,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "buildGr",
           "package": "metamorphic",
@@ -4856,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "buildGr",
           "normalized": "[Context a b]-\u003eGraph a b",
@@ -4871,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "context",
           "package": "metamorphic",
@@ -4880,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "context",
           "normalized": "Node-\u003eGraph a b-\u003eContext a b",
@@ -4894,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "deg",
           "package": "metamorphic",
@@ -4903,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "deg",
           "normalized": "Graph a b-\u003eNode-\u003eInt",
@@ -4917,6 +5347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "deg'",
           "package": "metamorphic",
@@ -4926,6 +5357,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "deg'",
           "normalized": "([a],b,b,[a])-\u003eInt",
@@ -4940,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "edges",
           "package": "metamorphic",
@@ -4949,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "edges",
           "normalized": "Graph a a-\u003e[(Node,Node)]",
@@ -4963,6 +5397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "embed",
           "package": "metamorphic",
@@ -4972,6 +5407,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "embed",
           "normalized": "Context a b-\u003eGraph a b-\u003eGraph a b",
@@ -4986,6 +5422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "empty",
           "package": "metamorphic",
@@ -4995,6 +5432,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "empty",
           "package": "metamorphic",
@@ -5007,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "gfold",
           "package": "metamorphic",
@@ -5016,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "gfold",
           "normalized": "Dir a b-\u003eDagg a b c d-\u003eBagg d c-\u003e[Node]-\u003eGraph a b-\u003ec",
@@ -5030,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "indeg",
           "package": "metamorphic",
@@ -5039,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "indeg",
           "normalized": "Graph a b-\u003eNode-\u003eInt",
@@ -5053,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "indeg'",
           "package": "metamorphic",
@@ -5062,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "indeg'",
           "normalized": "([a],b,b,b)-\u003eInt",
@@ -5076,6 +5520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "inn",
           "package": "metamorphic",
@@ -5085,6 +5530,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "inn",
           "normalized": "Graph a b-\u003eNode-\u003e[Edge b]",
@@ -5099,6 +5545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "inn'",
           "package": "metamorphic",
@@ -5108,6 +5555,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "inn'",
           "normalized": "(a,a,a,a)-\u003ea",
@@ -5122,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "insEdge",
           "package": "metamorphic",
@@ -5131,6 +5580,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "insEdge",
           "normalized": "Graph a b-\u003e(Node,Node,b)-\u003eGraph a b",
@@ -5146,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "insEdges",
           "package": "metamorphic",
@@ -5155,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "insEdges",
           "normalized": "Graph a b-\u003e[(Node,Node,b)]-\u003eGraph a b",
@@ -5170,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "insNode",
           "package": "metamorphic",
@@ -5179,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "insNode",
           "normalized": "Graph a b-\u003e(Node,a)-\u003eGraph a b",
@@ -5194,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "insNodes",
           "package": "metamorphic",
@@ -5203,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "insNodes",
           "normalized": "Graph a b-\u003e[(Node,a)]-\u003eGraph a b",
@@ -5218,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "isEmpty",
           "package": "metamorphic",
@@ -5227,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "isEmpty",
           "normalized": "Graph a b-\u003eBool",
@@ -5242,6 +5700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "lab'",
           "package": "metamorphic",
@@ -5251,6 +5710,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "lab'",
           "normalized": "(a,a,a,a)-\u003ea",
@@ -5265,6 +5725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "labEdges",
           "package": "metamorphic",
@@ -5274,6 +5735,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "labEdges",
           "normalized": "Graph a b-\u003e[Edge b]",
@@ -5289,6 +5751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "labNodes",
           "package": "metamorphic",
@@ -5298,6 +5761,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "labNodes",
           "normalized": "Graph a b-\u003e[(Node,a)]",
@@ -5313,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "match",
           "package": "metamorphic",
@@ -5322,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "match",
           "normalized": "Node-\u003eGraph a b-\u003eDecomp a b",
@@ -5336,6 +5802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "matchAny",
           "package": "metamorphic",
@@ -5345,6 +5812,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "matchAny",
           "normalized": "Graph a b-\u003e(Context a b,Graph a b)",
@@ -5360,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "matchSome",
           "package": "metamorphic",
@@ -5369,6 +5838,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "matchSome",
           "normalized": "(Graph a b-\u003eNode-\u003eBool)-\u003eGraph a b-\u003e(Context a b,Graph a b)",
@@ -5384,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "matchThe",
           "package": "metamorphic",
@@ -5393,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "matchThe",
           "normalized": "(Graph a b-\u003eNode-\u003eBool)-\u003eGraph a b-\u003e(Context a b,Graph a b)",
@@ -5408,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "mkGraph",
           "package": "metamorphic",
@@ -5417,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "mkGraph",
           "normalized": "[(Node,a)]-\u003e[(Node,Node,b)]-\u003eGraph a b",
@@ -5432,6 +5906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "neighbors",
           "package": "metamorphic",
@@ -5441,6 +5916,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "neighbors",
           "normalized": "Graph a b-\u003eNode-\u003e[Node]",
@@ -5455,6 +5931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "neighbors'",
           "package": "metamorphic",
@@ -5464,6 +5941,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "neighbors'",
           "normalized": "([(a,a)],b,b,[(a,a)])-\u003e[a]",
@@ -5478,6 +5956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "newNodes",
           "package": "metamorphic",
@@ -5487,6 +5966,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "newNodes",
           "normalized": "Int-\u003eGraph a b-\u003e[Node]",
@@ -5502,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "noNodes",
           "package": "metamorphic",
@@ -5511,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "noNodes",
           "normalized": "Graph a b-\u003eInt",
@@ -5526,6 +6008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "node'",
           "package": "metamorphic",
@@ -5535,6 +6018,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "node'",
           "normalized": "(a,a,a,a)-\u003ea",
@@ -5549,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "nodeRange",
           "package": "metamorphic",
@@ -5558,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "nodeRange",
           "normalized": "Graph a b-\u003e(Node,Node)",
@@ -5573,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "nodes",
           "package": "metamorphic",
@@ -5582,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "nodes",
           "normalized": "Graph a b-\u003e[Node]",
@@ -5596,6 +6084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "out",
           "package": "metamorphic",
@@ -5605,6 +6094,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "out",
           "normalized": "Graph a b-\u003eNode-\u003e[Edge b]",
@@ -5619,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "out'",
           "package": "metamorphic",
@@ -5628,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "out'",
           "normalized": "(a,a,a,a)-\u003ea",
@@ -5642,6 +6134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "outdeg",
           "package": "metamorphic",
@@ -5651,6 +6144,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "outdeg",
           "normalized": "Graph a b-\u003eNode-\u003eInt",
@@ -5665,6 +6159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "outdeg'",
           "package": "metamorphic",
@@ -5674,6 +6169,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "outdeg'",
           "normalized": "(a,a,a,[b])-\u003eInt",
@@ -5688,6 +6184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "pre",
           "package": "metamorphic",
@@ -5697,6 +6194,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "pre",
           "normalized": "Graph a b-\u003eNode-\u003e[Node]",
@@ -5711,6 +6209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "pre'",
           "package": "metamorphic",
@@ -5720,6 +6219,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "pre'",
           "normalized": "([(a,b)],c,c,c)-\u003e[b]",
@@ -5734,6 +6234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "suc",
           "package": "metamorphic",
@@ -5743,6 +6244,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "suc",
           "normalized": "Graph a b-\u003eNode-\u003e[Node]",
@@ -5757,6 +6259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "suc'",
           "package": "metamorphic",
@@ -5766,6 +6269,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "suc'",
           "normalized": "(a,a,a,[(b,c)])-\u003e[c]",
@@ -5780,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "ufold",
           "package": "metamorphic",
@@ -5789,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "ufold",
           "normalized": "(Context a b-\u003ec-\u003ec)-\u003ec-\u003eGraph a b-\u003ec",
@@ -5803,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Graph",
           "name": "undir",
           "package": "metamorphic",
@@ -5812,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "Graph",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Graph",
           "name": "undir",
           "normalized": "Graph a()-\u003eGraph a()",
@@ -5827,6 +6335,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "GraphData",
           "package": "metamorphic",
@@ -5836,6 +6345,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "GraphData",
           "package": "metamorphic",
@@ -5849,6 +6359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "a",
           "package": "metamorphic",
@@ -5858,6 +6369,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "a",
           "normalized": "Graph Char()",
@@ -5872,6 +6384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "ab",
           "package": "metamorphic",
@@ -5881,6 +6394,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "ab",
           "normalized": "Graph Char()",
@@ -5895,6 +6409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "b",
           "package": "metamorphic",
@@ -5904,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "b",
           "normalized": "Graph Char()",
@@ -5918,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "c",
           "package": "metamorphic",
@@ -5927,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "c",
           "normalized": "Graph Char()",
@@ -5941,6 +6459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "clr479",
           "package": "metamorphic",
@@ -5950,6 +6469,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "clr479",
           "normalized": "Graph Char()",
@@ -5964,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "clr486",
           "package": "metamorphic",
@@ -5973,6 +6494,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "clr486",
           "normalized": "Graph[Char]()",
@@ -5987,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "clr489",
           "package": "metamorphic",
@@ -5996,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "clr489",
           "normalized": "Graph Char()",
@@ -6010,6 +6534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "clr528",
           "package": "metamorphic",
@@ -6019,6 +6544,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "clr528",
           "package": "metamorphic",
@@ -6031,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "cyc3",
           "package": "metamorphic",
@@ -6040,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "cyc3",
           "normalized": "Graph Char[Char]",
@@ -6054,6 +6582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "dag3",
           "package": "metamorphic",
@@ -6063,6 +6592,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "dag3",
           "normalized": "Graph Char()",
@@ -6077,6 +6607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "dag4",
           "package": "metamorphic",
@@ -6086,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "dag4",
           "normalized": "Graph Integer()",
@@ -6100,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "e",
           "package": "metamorphic",
@@ -6109,6 +6642,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "e",
           "normalized": "Graph Char()",
@@ -6123,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "kin248",
           "package": "metamorphic",
@@ -6132,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "kin248",
           "normalized": "Graph Integer()",
@@ -6146,6 +6682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "GraphData",
           "name": "loop",
           "package": "metamorphic",
@@ -6155,6 +6692,7 @@
         },
         "index": {
           "hierarchy": "GraphData",
+          "indexed": "2014-03-11T19:17:10",
           "module": "GraphData",
           "name": "loop",
           "normalized": "Graph Char()",
@@ -6170,6 +6708,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "Heap",
           "package": "metamorphic",
@@ -6179,6 +6718,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "Heap",
           "package": "metamorphic",
@@ -6192,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "Heap",
           "package": "metamorphic",
@@ -6200,6 +6741,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "Heap",
           "package": "metamorphic",
@@ -6213,6 +6755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "Empty",
           "package": "metamorphic",
@@ -6222,6 +6765,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "Empty",
           "package": "metamorphic",
@@ -6235,6 +6779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "Node",
           "package": "metamorphic",
@@ -6244,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "Node",
           "normalized": "Node a[Heap a]",
@@ -6259,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "deleteMin",
           "package": "metamorphic",
@@ -6268,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "deleteMin",
           "normalized": "Heap a-\u003eHeap a",
@@ -6283,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "empty",
           "package": "metamorphic",
@@ -6292,6 +6841,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "empty",
           "package": "metamorphic",
@@ -6304,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "findMin",
           "package": "metamorphic",
@@ -6313,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "findMin",
           "normalized": "Heap a-\u003ea",
@@ -6328,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "insert",
           "package": "metamorphic",
@@ -6337,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "insert",
           "normalized": "a-\u003eHeap a-\u003eHeap a",
@@ -6351,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "isEmpty",
           "package": "metamorphic",
@@ -6360,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "isEmpty",
           "normalized": "Heap a-\u003eBool",
@@ -6375,6 +6931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "merge",
           "package": "metamorphic",
@@ -6384,6 +6941,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "merge",
           "normalized": "Heap a-\u003eHeap a-\u003eHeap a",
@@ -6398,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "splitMin",
           "package": "metamorphic",
@@ -6407,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "splitMin",
           "normalized": "Heap a-\u003e(a,Heap a)",
@@ -6422,6 +6982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Heap",
           "name": "unit",
           "package": "metamorphic",
@@ -6431,6 +6992,7 @@
         },
         "index": {
           "hierarchy": "Heap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Heap",
           "name": "unit",
           "normalized": "a-\u003eHeap a",
@@ -6446,6 +7008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "SimpleMap",
           "package": "metamorphic",
@@ -6455,6 +7018,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "SimpleMap",
           "package": "metamorphic",
@@ -6468,6 +7032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "FiniteMap",
           "package": "metamorphic",
@@ -6476,6 +7041,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "FiniteMap",
           "package": "metamorphic",
@@ -6489,6 +7055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "Empty",
           "package": "metamorphic",
@@ -6498,6 +7065,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "Empty",
           "package": "metamorphic",
@@ -6511,6 +7079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "Node",
           "package": "metamorphic",
@@ -6520,6 +7089,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "Node",
           "normalized": "Node(FiniteMap a b)(a,b)(FiniteMap a b)",
@@ -6535,6 +7105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "accumFM",
           "package": "metamorphic",
@@ -6544,6 +7115,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "accumFM",
           "normalized": "FiniteMap a b-\u003ea-\u003e(b-\u003eb-\u003eb)-\u003eb-\u003eFiniteMap a b",
@@ -6559,6 +7131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "addToFM",
           "package": "metamorphic",
@@ -6568,6 +7141,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "addToFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eb-\u003eFiniteMap a b",
@@ -6583,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "delFromFM",
           "package": "metamorphic",
@@ -6592,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "delFromFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eFiniteMap a b",
@@ -6607,6 +7183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "elemFM",
           "package": "metamorphic",
@@ -6616,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "elemFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eBool",
@@ -6631,6 +7209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "emptyFM",
           "package": "metamorphic",
@@ -6640,6 +7219,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "emptyFM",
           "package": "metamorphic",
@@ -6653,6 +7233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "fmToList",
           "package": "metamorphic",
@@ -6662,6 +7243,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "fmToList",
           "normalized": "FiniteMap a b-\u003e[(a,b)]",
@@ -6677,6 +7259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "isEmptyFM",
           "package": "metamorphic",
@@ -6686,6 +7269,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "isEmptyFM",
           "normalized": "FiniteMap a b-\u003eBool",
@@ -6701,6 +7285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "lookupFM",
           "package": "metamorphic",
@@ -6710,6 +7295,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "lookupFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe b",
@@ -6725,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "maxFM",
           "package": "metamorphic",
@@ -6734,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "maxFM",
           "normalized": "FiniteMap a b-\u003eMaybe(a,b)",
@@ -6749,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "minFM",
           "package": "metamorphic",
@@ -6758,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "minFM",
           "normalized": "FiniteMap a b-\u003eMaybe(a,b)",
@@ -6773,6 +7363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "predFM",
           "package": "metamorphic",
@@ -6782,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "predFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe(a,b)",
@@ -6797,6 +7389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "rangeFM",
           "package": "metamorphic",
@@ -6806,6 +7399,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "rangeFM",
           "normalized": "FiniteMap a b-\u003ea-\u003ea-\u003e[b]",
@@ -6821,6 +7415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "sizeFM",
           "package": "metamorphic",
@@ -6830,6 +7425,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "sizeFM",
           "normalized": "FiniteMap a b-\u003eInt",
@@ -6845,6 +7441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "splitFM",
           "package": "metamorphic",
@@ -6854,6 +7451,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "splitFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe(FiniteMap a b,(a,b))",
@@ -6869,6 +7467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "splitMinFM",
           "package": "metamorphic",
@@ -6878,6 +7477,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "splitMinFM",
           "normalized": "FiniteMap a b-\u003eMaybe(FiniteMap a b,(a,b))",
@@ -6893,6 +7493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "succFM",
           "package": "metamorphic",
@@ -6902,6 +7503,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "succFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe(a,b)",
@@ -6917,6 +7519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "SimpleMap",
           "name": "updFM",
           "package": "metamorphic",
@@ -6926,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "SimpleMap",
+          "indexed": "2014-03-11T19:17:10",
           "module": "SimpleMap",
           "name": "updFM",
           "normalized": "FiniteMap a b-\u003ea-\u003e(b-\u003eb)-\u003eFiniteMap a b",
@@ -6942,6 +7546,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "Thread",
           "package": "metamorphic",
@@ -6951,6 +7556,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "Thread",
           "package": "metamorphic",
@@ -6964,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "Collect",
           "package": "metamorphic",
@@ -6972,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "Collect",
           "package": "metamorphic",
@@ -6985,6 +7593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "Split",
           "package": "metamorphic",
@@ -6993,6 +7602,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "Split",
           "package": "metamorphic",
@@ -7006,6 +7616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "SplitM",
           "package": "metamorphic",
@@ -7014,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "SplitM",
           "package": "metamorphic",
@@ -7027,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "Thread",
           "package": "metamorphic",
@@ -7035,6 +7648,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "Thread",
           "package": "metamorphic",
@@ -7048,6 +7662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "splitPar",
           "package": "metamorphic",
@@ -7057,6 +7672,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "splitPar",
           "normalized": "Split a b c-\u003eSplit d e f-\u003eSplit(a,d)(b,e)(c,f)",
@@ -7072,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "splitParM",
           "package": "metamorphic",
@@ -7081,6 +7698,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "splitParM",
           "normalized": "SplitM a b c-\u003eSplit d e f-\u003eSplitM(a,d)(b,e)(c,f)",
@@ -7096,6 +7714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "threadList",
           "package": "metamorphic",
@@ -7105,6 +7724,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "threadList",
           "normalized": "Collect a b-\u003eSplit c d a-\u003e[d]-\u003ec-\u003e(b,c)",
@@ -7120,6 +7740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "threadList'",
           "package": "metamorphic",
@@ -7129,6 +7750,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "threadList'",
           "normalized": "Collect a b-\u003eSplit c d a-\u003e[d]-\u003ec-\u003e(b,c)",
@@ -7144,6 +7766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "threadMaybe",
           "package": "metamorphic",
@@ -7153,6 +7776,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "threadMaybe",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSplit d a b-\u003eSplitM d e a-\u003eSplitM d e c",
@@ -7168,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Thread",
           "name": "threadMaybe'",
           "package": "metamorphic",
@@ -7177,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Thread",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Thread",
           "name": "threadMaybe'",
           "normalized": "(a-\u003eb)-\u003eSplit c d a-\u003eSplit c e(Maybe d)-\u003eSplit c e(Maybe b)",
@@ -7193,6 +7819,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode adapted from: \n \u003ca\u003ehttp://web.engr.oregonstate.edu/~erwig/meta/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eDocumentation (and further updates in technique) forthcoming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "Tree",
           "package": "metamorphic",
@@ -7202,6 +7829,7 @@
         "index": {
           "description": "Code adapted from http web.engr.oregonstate.edu erwig meta Documentation and further updates in technique forthcoming",
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "Tree",
           "package": "metamorphic",
@@ -7215,6 +7843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "Tree",
           "package": "metamorphic",
@@ -7223,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "Tree",
           "package": "metamorphic",
@@ -7236,6 +7866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "Branch",
           "package": "metamorphic",
@@ -7245,6 +7876,7 @@
         },
         "index": {
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "Branch",
           "package": "metamorphic",
@@ -7258,6 +7890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "Leaf",
           "package": "metamorphic",
@@ -7267,6 +7900,7 @@
         },
         "index": {
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "Leaf",
           "package": "metamorphic",
@@ -7280,6 +7914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "isLeaf",
           "package": "metamorphic",
@@ -7289,6 +7924,7 @@
         },
         "index": {
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "isLeaf",
           "normalized": "Tree a-\u003eBool",
@@ -7304,6 +7940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "key",
           "package": "metamorphic",
@@ -7313,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "key",
           "package": "metamorphic",
@@ -7325,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "left",
           "package": "metamorphic",
@@ -7334,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "left",
           "package": "metamorphic",
@@ -7346,6 +7986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "right",
           "package": "metamorphic",
@@ -7355,6 +7996,7 @@
         },
         "index": {
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "right",
           "package": "metamorphic",
@@ -7367,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:10 UTC 2014",
           "module": "Tree",
           "name": "showsTree",
           "package": "metamorphic",
@@ -7376,6 +8019,7 @@
         },
         "index": {
           "hierarchy": "Tree",
+          "indexed": "2014-03-11T19:17:10",
           "module": "Tree",
           "name": "showsTree",
           "normalized": "Tree a-\u003eShowS",

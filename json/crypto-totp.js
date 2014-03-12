@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crypto-totp"
+        "phrase": "crypto-totp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "Factory",
           "package": "crypto-totp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "Factory",
           "package": "crypto-totp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "Factory",
           "package": "crypto-totp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "Factory",
           "package": "crypto-totp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "Factory",
           "package": "crypto-totp",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "Factory",
           "package": "crypto-totp",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "authenticate",
           "package": "crypto-totp",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "authenticate",
           "normalized": "Factory-\u003ea-\u003eByteString",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "authenticateBS",
           "package": "crypto-totp",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "authenticateBS",
           "normalized": "Factory-\u003e(a-\u003eByteString)-\u003ea-\u003eByteString",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "blockSize",
           "package": "crypto-totp",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "blockSize",
           "package": "crypto-totp",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "count",
           "package": "crypto-totp",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "count",
           "package": "crypto-totp",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "epochEq",
           "package": "crypto-totp",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "epochEq",
           "normalized": "Factory-\u003eCTime-\u003eFactory-\u003eBool",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "getMessages",
           "package": "crypto-totp",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "getMessages",
           "normalized": "Int-\u003eFactory-\u003e(Factory,[ByteString])",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "getMessagesIO",
           "package": "crypto-totp",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "getMessagesIO",
           "normalized": "IORef Factory-\u003eInt-\u003eIO[ByteString]",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "getNext",
           "package": "crypto-totp",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "getNext",
           "normalized": "Factory-\u003e(Factory,ByteString)",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "getNextIO",
           "package": "crypto-totp",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "getNextIO",
           "normalized": "IORef Factory-\u003eIO ByteString",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "hashMethod",
           "package": "crypto-totp",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "hashMethod",
           "normalized": "ByteString-\u003eByteString",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "initGrace",
           "package": "crypto-totp",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "initGrace",
           "normalized": "Factory-\u003eCTime-\u003eFactory",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "initialize",
           "package": "crypto-totp",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "initialize",
           "normalized": "(ByteString-\u003eByteString)-\u003eInt-\u003eInt-\u003eByteString-\u003eCTime-\u003eFactory",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "initializeIO",
           "package": "crypto-totp",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "initializeIO",
           "normalized": "(ByteString-\u003eByteString)-\u003eInt-\u003eInt-\u003eByteString-\u003eCTime-\u003eIO Factory",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "prefix",
           "package": "crypto-totp",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "prefix",
           "normalized": "ByteString-\u003eByteString",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "refresh",
           "package": "crypto-totp",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "refresh",
           "normalized": "EpochTime-\u003eFactory-\u003eFactory",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "refreshEpoch",
           "package": "crypto-totp",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "refreshEpoch",
           "package": "crypto-totp",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "refreshIO",
           "package": "crypto-totp",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "refreshIO",
           "normalized": "Factory-\u003eIO Factory",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "roundTime",
           "package": "crypto-totp",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "roundTime",
           "normalized": "CTime-\u003eCTime-\u003eCTime",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "secret",
           "package": "crypto-totp",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "secret",
           "package": "crypto-totp",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "secretInit",
           "package": "crypto-totp",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "secretInit",
           "package": "crypto-totp",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "setTime",
           "package": "crypto-totp",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "setTime",
           "normalized": "CTime-\u003eFactory-\u003eFactory",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "shouldRefresh",
           "package": "crypto-totp",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "shouldRefresh",
           "normalized": "Factory-\u003eEpochTime-\u003eBool",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "startRefreshThread",
           "package": "crypto-totp",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "startRefreshThread",
           "normalized": "Int-\u003eFactory-\u003eIO(ThreadId,IORef Factory)",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "tryRefreshEvery",
           "package": "crypto-totp",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "tryRefreshEvery",
           "normalized": "Int-\u003eIORef Factory-\u003eIO()",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "validSeconds",
           "package": "crypto-totp",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "validSeconds",
           "package": "crypto-totp",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "validUntil",
           "package": "crypto-totp",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Factory",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Factory",
           "name": "validUntil",
           "normalized": "Factory-\u003eEpochTime",
@@ -687,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "Verifier",
           "package": "crypto-totp",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "Verifier",
           "package": "crypto-totp",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "Verifier",
           "package": "crypto-totp",
@@ -716,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "Verifier",
           "package": "crypto-totp",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "Verifier",
           "package": "crypto-totp",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "Verifier",
           "package": "crypto-totp",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "factory",
           "package": "crypto-totp",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "factory",
           "package": "crypto-totp",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "getMessages",
           "package": "crypto-totp",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "getMessages",
           "normalized": "Int-\u003eVerifier-\u003e(Verifier,[ByteString])",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "getMessagesIO",
           "package": "crypto-totp",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "getMessagesIO",
           "normalized": "Int-\u003eIORef Verifier-\u003eIO[ByteString]",
@@ -820,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "getNext",
           "package": "crypto-totp",
@@ -829,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "getNext",
           "normalized": "Verifier-\u003e(Verifier,ByteString)",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "getNextIO",
           "package": "crypto-totp",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "getNextIO",
           "normalized": "IORef Verifier-\u003eIO ByteString",
@@ -868,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "grace",
           "package": "crypto-totp",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "grace",
           "normalized": "[GraceVerifier]",
@@ -891,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "graceSeconds",
           "package": "crypto-totp",
@@ -900,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "graceSeconds",
           "package": "crypto-totp",
@@ -913,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "initialize",
           "package": "crypto-totp",
@@ -922,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "initialize",
           "normalized": "EpochTime-\u003e(ByteString-\u003eByteString)-\u003eInt-\u003eInt-\u003eByteString-\u003eCTime-\u003eCTime-\u003eVerifier",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "initializeIO",
           "package": "crypto-totp",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "initializeIO",
           "normalized": "(ByteString-\u003eByteString)-\u003eInt-\u003eInt-\u003eByteString-\u003eCTime-\u003eCTime-\u003eIO Verifier",
@@ -960,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "isAuthentic",
           "package": "crypto-totp",
@@ -969,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "isAuthentic",
           "normalized": "EpochTime-\u003eByteString-\u003eByteString-\u003eVerifier-\u003e(Verifier,Bool)",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "isAuthenticIO",
           "package": "crypto-totp",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "isAuthenticIO",
           "normalized": "ByteString-\u003eByteString-\u003eIORef Verifier-\u003eIO Bool",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "refresh",
           "package": "crypto-totp",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "refresh",
           "normalized": "EpochTime-\u003eVerifier-\u003eVerifier",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "startRefreshThread",
           "package": "crypto-totp",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "startRefreshThread",
           "normalized": "Int-\u003eVerifier-\u003eIO(ThreadId,IORef Verifier)",
@@ -1055,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "tryRefreshEvery",
           "package": "crypto-totp",
@@ -1064,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "tryRefreshEvery",
           "normalized": "Verifier-\u003eInt-\u003eIORef Verifier-\u003eIO()",
@@ -1079,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:04 UTC 2014",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "usedTokens",
           "package": "crypto-totp",
@@ -1088,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC TOTP Verifier",
+          "indexed": "2014-03-11T17:44:04",
           "module": "Crypto.MAC.TOTP.Verifier",
           "name": "usedTokens",
           "package": "crypto-totp",

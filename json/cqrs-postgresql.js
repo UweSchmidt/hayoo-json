@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cqrs-postgresql"
+        "phrase": "cqrs-postgresql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of a PostgreSQL-based backend pool. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQL",
           "name": "PostgreSQL",
           "package": "cqrs-postgresql",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of PostgreSQL-based backend pool",
           "hierarchy": "Data CQRS EventStore Backend PostgreSQL",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQL",
           "name": "PostgreSQL",
           "package": "cqrs-postgresql",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a pool of PostgreSQL-based event store backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQL",
           "name": "createBackendPool",
           "package": "cqrs-postgresql",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Create pool of PostgreSQL-based event store backends",
           "hierarchy": "Data CQRS EventStore Backend PostgreSQL",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQL",
           "name": "createBackendPool",
           "normalized": "Int-\u003eByteString-\u003eIO(Pool PostgreSQLEventStoreBackend)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of a PostgreSQL-based event store. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "PostgreSQLUtils",
           "package": "cqrs-postgresql",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Implementation of PostgreSQL-based event store",
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "PostgreSQLUtils",
           "package": "cqrs-postgresql",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKnown field types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlValue",
           "package": "cqrs-postgresql",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Known field types",
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlValue",
           "package": "cqrs-postgresql",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlBlankPaddedString",
           "package": "cqrs-postgresql",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlBlankPaddedString",
           "package": "cqrs-postgresql",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlBool",
           "package": "cqrs-postgresql",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlBool",
           "package": "cqrs-postgresql",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlByteArray",
           "package": "cqrs-postgresql",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlByteArray",
           "package": "cqrs-postgresql",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlDate",
           "package": "cqrs-postgresql",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlDate",
           "package": "cqrs-postgresql",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlFloating",
           "package": "cqrs-postgresql",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlFloating",
           "package": "cqrs-postgresql",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlInt16",
           "package": "cqrs-postgresql",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlInt16",
           "package": "cqrs-postgresql",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlInt32",
           "package": "cqrs-postgresql",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlInt32",
           "package": "cqrs-postgresql",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlInt64",
           "package": "cqrs-postgresql",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlInt64",
           "package": "cqrs-postgresql",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlText",
           "package": "cqrs-postgresql",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlText",
           "package": "cqrs-postgresql",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlVarChar",
           "package": "cqrs-postgresql",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "SqlVarChar",
           "package": "cqrs-postgresql",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "Unmatched",
           "package": "cqrs-postgresql",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "Unmatched",
           "normalized": "Unmatched(Oid,Maybe ByteString)",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a query with no result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "run",
           "package": "cqrs-postgresql",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Execute query with no result",
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "run",
           "normalized": "Connection-\u003eByteString-\u003e[SqlValue]-\u003eIO()",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource for traversing all the results of a PostgreSQL query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "sourceQuery",
           "package": "cqrs-postgresql",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Source for traversing all the results of PostgreSQL query",
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "sourceQuery",
           "normalized": "Connection-\u003eByteString-\u003e[SqlValue]-\u003eSource(ResourceT IO)[SqlValue]",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an IO action with an active transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:21 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "withTransaction",
           "package": "cqrs-postgresql",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Execute an IO action with an active transaction",
           "hierarchy": "Data CQRS EventStore Backend PostgreSQLUtils",
+          "indexed": "2014-03-11T17:42:21",
           "module": "Data.CQRS.EventStore.Backend.PostgreSQLUtils",
           "name": "withTransaction",
           "normalized": "Connection-\u003eIO a-\u003eIO a",

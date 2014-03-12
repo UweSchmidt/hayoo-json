@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmatrix-static"
+        "phrase": "hmatrix-static",
+        "type": "phrase"
       },
       "type": "context"
     }

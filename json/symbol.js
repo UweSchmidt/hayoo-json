@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "symbol"
+        "phrase": "symbol",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:49 UTC 2014",
           "module": "Data.Symbol.Unsafe",
           "name": "Unsafe",
           "package": "symbol",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Symbol Unsafe",
+          "indexed": "2014-03-11T20:14:49",
           "module": "Data.Symbol.Unsafe",
           "name": "Unsafe",
           "package": "symbol",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:49 UTC 2014",
           "module": "Data.Symbol.Unsafe",
           "name": "Symbol",
           "package": "symbol",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Symbol Unsafe",
+          "indexed": "2014-03-11T20:14:49",
           "module": "Data.Symbol.Unsafe",
           "name": "Symbol",
           "package": "symbol",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier and the string itself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:49 UTC 2014",
           "module": "Data.Symbol.Unsafe",
           "name": "Symbol",
           "package": "symbol",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Unique identifier and the string itself",
           "hierarchy": "Data Symbol Unsafe",
+          "indexed": "2014-03-11T20:14:49",
           "module": "Data.Symbol.Unsafe",
           "name": "Symbol",
           "package": "symbol",
@@ -136,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:49 UTC 2014",
           "module": "Data.Symbol",
           "name": "Symbol",
           "package": "symbol",
@@ -144,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Symbol",
+          "indexed": "2014-03-11T20:14:49",
           "module": "Data.Symbol",
           "name": "Symbol",
           "package": "symbol",
@@ -157,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:49 UTC 2014",
           "module": "Data.Symbol",
           "name": "Symbol",
           "package": "symbol",
@@ -165,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Symbol",
+          "indexed": "2014-03-11T20:14:49",
           "module": "Data.Symbol",
           "name": "Symbol",
           "package": "symbol",

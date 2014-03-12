@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pontarius-xmpp"
+        "phrase": "pontarius-xmpp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRFC 6121: Instant Messaging and Presence\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "IM",
           "package": "pontarius-xmpp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "RFC Instant Messaging and Presence",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "IM",
           "package": "pontarius-xmpp",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "IMPresence",
           "package": "pontarius-xmpp",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "IMPresence",
           "package": "pontarius-xmpp",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe instant message (IM) specific part of a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "InstantMessage",
           "package": "pontarius-xmpp",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The instant message IM specific part of message",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "InstantMessage",
           "package": "pontarius-xmpp",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoster Items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "Item",
           "package": "pontarius-xmpp",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Roster Items",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "Item",
           "package": "pontarius-xmpp",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "MessageBody",
           "package": "pontarius-xmpp",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "MessageBody",
           "package": "pontarius-xmpp",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "MessageSubject",
           "package": "pontarius-xmpp",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "MessageSubject",
           "package": "pontarius-xmpp",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "MessageThread",
           "package": "pontarius-xmpp",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "MessageThread",
           "package": "pontarius-xmpp",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "Roster",
           "package": "pontarius-xmpp",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "Roster",
           "package": "pontarius-xmpp",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "ShowStatus",
           "package": "pontarius-xmpp",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "ShowStatus",
           "package": "pontarius-xmpp",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "Subscription",
           "package": "pontarius-xmpp",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "Subscription",
           "package": "pontarius-xmpp",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "Both",
           "package": "pontarius-xmpp",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "Both",
           "package": "pontarius-xmpp",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "From",
           "package": "pontarius-xmpp",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "From",
           "package": "pontarius-xmpp",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "IMP",
           "package": "pontarius-xmpp",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "IMP",
           "package": "pontarius-xmpp",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "InstantMessage",
           "package": "pontarius-xmpp",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "InstantMessage",
           "package": "pontarius-xmpp",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "Item",
           "package": "pontarius-xmpp",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "Item",
           "package": "pontarius-xmpp",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "MessageBody",
           "package": "pontarius-xmpp",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "MessageBody",
           "package": "pontarius-xmpp",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "MessageSubject",
           "package": "pontarius-xmpp",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "MessageSubject",
           "package": "pontarius-xmpp",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "MessageThread",
           "package": "pontarius-xmpp",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "MessageThread",
           "package": "pontarius-xmpp",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "None",
           "package": "pontarius-xmpp",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "None",
           "package": "pontarius-xmpp",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "Roster",
           "package": "pontarius-xmpp",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "Roster",
           "package": "pontarius-xmpp",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "StatusAway",
           "package": "pontarius-xmpp",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "StatusAway",
           "package": "pontarius-xmpp",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "StatusChat",
           "package": "pontarius-xmpp",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "StatusChat",
           "package": "pontarius-xmpp",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "StatusDnd",
           "package": "pontarius-xmpp",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "StatusDnd",
           "package": "pontarius-xmpp",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "StatusXa",
           "package": "pontarius-xmpp",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "StatusXa",
           "package": "pontarius-xmpp",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "To",
           "package": "pontarius-xmpp",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "To",
           "package": "pontarius-xmpp",
@@ -565,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an answer from a received message. The recepient is\n taken from the original sender, the sender is set to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n message ID, language tag, message type as well as subject and\n thread are inherited.\n\u003c/p\u003e\u003cp\u003eAdditional IM bodies with the same Langtag are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "answerIM",
           "package": "pontarius-xmpp",
@@ -575,6 +626,7 @@
         "index": {
           "description": "Generate an answer from received message The recepient is taken from the original sender the sender is set to Nothing message ID language tag message type as well as subject and thread are inherited Additional IM bodies with the same Langtag are discarded",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "answerIM",
           "normalized": "[MessageBody]-\u003eMessage-\u003eMaybe Message",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "bodyContent",
           "package": "pontarius-xmpp",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "bodyContent",
           "package": "pontarius-xmpp",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "bodyLang",
           "package": "pontarius-xmpp",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "bodyLang",
           "package": "pontarius-xmpp",
@@ -635,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the IM specific parts of a message. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e when the received\n payload is not valid IM data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "getIM",
           "package": "pontarius-xmpp",
@@ -645,6 +702,7 @@
         "index": {
           "description": "Get the IM specific parts of message Returns Nothing when the received payload is not valid IM data",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "getIM",
           "normalized": "Message-\u003eMaybe InstantMessage",
@@ -661,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to extract RFC6121 IM presence information from presence stanza.\n Returns Nothing when the data is malformed, (Just IMPresence) otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "getIMPresence",
           "package": "pontarius-xmpp",
@@ -671,6 +730,7 @@
         "index": {
           "description": "Try to extract RFC6121 IM presence information from presence stanza Returns Nothing when the data is malformed Just IMPresence otherwise",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "getIMPresence",
           "normalized": "Presence-\u003eMaybe IMPresence",
@@ -687,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current Roster state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "getRoster",
           "package": "pontarius-xmpp",
@@ -697,6 +758,7 @@
         "index": {
           "description": "Retrieve the current Roster state",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "getRoster",
           "normalized": "Session-\u003eIO Roster",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "imBody",
           "package": "pontarius-xmpp",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "imBody",
           "normalized": "[MessageBody]",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "imPresence",
           "package": "pontarius-xmpp",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "imPresence",
           "package": "pontarius-xmpp",
@@ -758,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "imSubject",
           "package": "pontarius-xmpp",
@@ -767,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "imSubject",
           "normalized": "[MessageSubject]",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "imThread",
           "package": "pontarius-xmpp",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "imThread",
           "package": "pontarius-xmpp",
@@ -805,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty instant message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "instantMessage",
           "package": "pontarius-xmpp",
@@ -815,6 +886,7 @@
         "index": {
           "description": "Empty instant message",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "instantMessage",
           "package": "pontarius-xmpp",
@@ -828,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "items",
           "package": "pontarius-xmpp",
@@ -837,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "items",
           "package": "pontarius-xmpp",
@@ -849,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "priority",
           "package": "pontarius-xmpp",
@@ -858,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "priority",
           "package": "pontarius-xmpp",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "riApproved",
           "package": "pontarius-xmpp",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "riApproved",
           "package": "pontarius-xmpp",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "riAsk",
           "package": "pontarius-xmpp",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "riAsk",
           "package": "pontarius-xmpp",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "riGroups",
           "package": "pontarius-xmpp",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "riGroups",
           "normalized": "[Text]",
@@ -938,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "riJid",
           "package": "pontarius-xmpp",
@@ -947,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "riJid",
           "package": "pontarius-xmpp",
@@ -960,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "riName",
           "package": "pontarius-xmpp",
@@ -969,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "riName",
           "package": "pontarius-xmpp",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "riSubscription",
           "package": "pontarius-xmpp",
@@ -991,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "riSubscription",
           "package": "pontarius-xmpp",
@@ -1005,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd or update an item to the roster.\n\u003c/p\u003e\u003cp\u003eTo update the item just send the complete set of new data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "rosterAdd",
           "package": "pontarius-xmpp",
@@ -1014,6 +1103,7 @@
         "index": {
           "description": "Add or update an item to the roster To update the item just send the complete set of new data",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "rosterAdd",
           "normalized": "Jid-\u003eMaybe Text-\u003e[Text]-\u003eSession-\u003eIO(Either IQSendError(Annotated IQResponse))",
@@ -1030,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an item from the roster. Return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when the item is sucessfully\n removed or if it wasn't in the roster to begin with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "rosterRemove",
           "package": "pontarius-xmpp",
@@ -1040,6 +1131,7 @@
         "index": {
           "description": "Remove an item from the roster Return True when the item is sucessfully removed or if it wasn in the roster to begin with",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "rosterRemove",
           "normalized": "Jid-\u003eSession-\u003eIO Bool",
@@ -1055,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "showStatus",
           "package": "pontarius-xmpp",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "showStatus",
           "package": "pontarius-xmpp",
@@ -1078,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a simple message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "simpleIM",
           "package": "pontarius-xmpp",
@@ -1087,6 +1182,7 @@
         "index": {
           "description": "Generate simple message",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "simpleIM",
           "normalized": "Jid-\u003eText-\u003eMessage",
@@ -1102,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "status",
           "package": "pontarius-xmpp",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "status",
           "package": "pontarius-xmpp",
@@ -1123,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "subjectContent",
           "package": "pontarius-xmpp",
@@ -1132,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "subjectContent",
           "package": "pontarius-xmpp",
@@ -1145,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "subjectLang",
           "package": "pontarius-xmpp",
@@ -1154,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "subjectLang",
           "package": "pontarius-xmpp",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "threadID",
           "package": "pontarius-xmpp",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "threadID",
           "package": "pontarius-xmpp",
@@ -1189,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "threadParent",
           "package": "pontarius-xmpp",
@@ -1198,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "threadParent",
           "package": "pontarius-xmpp",
@@ -1211,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "ver",
           "package": "pontarius-xmpp",
@@ -1220,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "ver",
           "package": "pontarius-xmpp",
@@ -1233,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend IM data to a message. Additional IM bodies with the same Langtag are\n discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "withIM",
           "package": "pontarius-xmpp",
@@ -1243,6 +1352,7 @@
         "index": {
           "description": "Append IM data to message Additional IM bodies with the same Langtag are discarded",
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "withIM",
           "normalized": "Message-\u003eInstantMessage-\u003eMessage",
@@ -1258,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.IM",
           "name": "withIMPresence",
           "package": "pontarius-xmpp",
@@ -1267,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp IM",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.IM",
           "name": "withIMPresence",
           "normalized": "IMPresence-\u003ePresence-\u003ePresence",
@@ -1283,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows for low-level access to Pontarius XMPP. Generally, the\n \u003ca\u003eNetwork.Xmpp\u003c/a\u003e module should be used instead.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e object provides the most low-level access to the XMPP\n stream: a simple and single-threaded interface which exposes the conduit\n \u003ccode\u003eEvent\u003c/code\u003e source, as well as the input and output byte streams. Custom stateful\n \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e functions can be executed using \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe TLS, SASL, and \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e functionalities of Pontarius XMPP are built on\n top of this API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "Internal",
           "package": "pontarius-xmpp",
@@ -1292,6 +1405,7 @@
         "index": {
           "description": "This module allows for low-level access to Pontarius XMPP Generally the Network.Xmpp module should be used instead The Stream object provides the most low-level access to the XMPP stream simple and single-threaded interface which exposes the conduit Event source as well as the input and output byte streams Custom stateful Stream functions can be executed using withStream The TLS SASL and Session functionalities of Pontarius XMPP are built on top of this API",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "Internal",
           "package": "pontarius-xmpp",
@@ -1306,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotations are auxiliary data attached to received stanzas by \u003ccode\u003e\u003ca\u003ePlugin\u003c/a\u003e\u003c/code\u003es to\n convey information regarding their operation. For example, a plugin for\n encryption might attach information about whether a received stanza was\n encrypted and which algorithm was used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "Annotation",
           "package": "pontarius-xmpp",
@@ -1315,6 +1430,7 @@
         "index": {
           "description": "Annotations are auxiliary data attached to received stanzas by Plugin to convey information regarding their operation For example plugin for encryption might attach information about whether received stanza was encrypted and which algorithm was used",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "Annotation",
           "package": "pontarius-xmpp",
@@ -1328,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "Plugin",
           "package": "pontarius-xmpp",
@@ -1336,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "Plugin",
           "package": "pontarius-xmpp",
@@ -1349,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "Plugin'",
           "package": "pontarius-xmpp",
@@ -1357,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "Plugin'",
           "package": "pontarius-xmpp",
@@ -1371,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple defining the SASL Handler's name, and a SASL mechanism computation.\n The SASL mechanism is a stateful \u003ccode\u003eStream\u003c/code\u003e computation, which has the\n possibility of resulting in an authentication error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "SaslHandler",
           "package": "pontarius-xmpp",
@@ -1380,6 +1501,7 @@
         "index": {
           "description": "Tuple defining the SASL Handler name and SASL mechanism computation The SASL mechanism is stateful Stream computation which has the possibility of resulting in an authentication error",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "SaslHandler",
           "package": "pontarius-xmpp",
@@ -1394,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Xmpp communication primities (Message, Presence and Info/Query) are\n called stanzas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "Stanza",
           "package": "pontarius-xmpp",
@@ -1403,6 +1526,7 @@
         "index": {
           "description": "The Xmpp communication primities Message Presence and Info Query are called stanzas",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "Stanza",
           "package": "pontarius-xmpp",
@@ -1416,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "Stream",
           "package": "pontarius-xmpp",
@@ -1424,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "Stream",
           "package": "pontarius-xmpp",
@@ -1438,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration settings related to the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "StreamConfiguration",
           "package": "pontarius-xmpp",
@@ -1447,6 +1574,7 @@
         "index": {
           "description": "Configuration settings related to the stream",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "StreamConfiguration",
           "package": "pontarius-xmpp",
@@ -1460,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "StreamFeatures",
           "package": "pontarius-xmpp",
@@ -1468,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "StreamFeatures",
           "package": "pontarius-xmpp",
@@ -1482,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines operations for sending, receiving, flushing, and closing on a\n stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "StreamHandle",
           "package": "pontarius-xmpp",
@@ -1491,6 +1622,7 @@
         "index": {
           "description": "Defines operations for sending receiving flushing and closing on stream",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "StreamHandle",
           "package": "pontarius-xmpp",
@@ -1504,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "StreamState",
           "package": "pontarius-xmpp",
@@ -1512,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "StreamState",
           "package": "pontarius-xmpp",
@@ -1526,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow the client should behave in regards to TLS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "TlsBehaviour",
           "package": "pontarius-xmpp",
@@ -1535,6 +1670,7 @@
         "index": {
           "description": "How the client should behave in regards to TLS",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "TlsBehaviour",
           "package": "pontarius-xmpp",
@@ -1571,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "IQErrorS",
           "package": "pontarius-xmpp",
@@ -1580,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "IQErrorS",
           "package": "pontarius-xmpp",
@@ -1593,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "IQRequestS",
           "package": "pontarius-xmpp",
@@ -1602,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "IQRequestS",
           "package": "pontarius-xmpp",
@@ -1615,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "IQResultS",
           "package": "pontarius-xmpp",
@@ -1624,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "IQResultS",
           "package": "pontarius-xmpp",
@@ -1637,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "MessageErrorS",
           "package": "pontarius-xmpp",
@@ -1646,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "MessageErrorS",
           "package": "pontarius-xmpp",
@@ -1659,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "MessageS",
           "package": "pontarius-xmpp",
@@ -1668,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "MessageS",
           "package": "pontarius-xmpp",
@@ -1705,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegotitate TLS only if the server requires\n it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "PreferPlain",
           "package": "pontarius-xmpp",
@@ -1715,6 +1862,7 @@
         "index": {
           "description": "Negotitate TLS only if the server requires it",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "PreferPlain",
           "package": "pontarius-xmpp",
@@ -1729,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegotitate TLS if it's available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "PreferTls",
           "package": "pontarius-xmpp",
@@ -1739,6 +1888,7 @@
         "index": {
           "description": "Negotitate TLS if it available",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "PreferTls",
           "package": "pontarius-xmpp",
@@ -1752,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "PresenceErrorS",
           "package": "pontarius-xmpp",
@@ -1761,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "PresenceErrorS",
           "package": "pontarius-xmpp",
@@ -1774,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "PresenceS",
           "package": "pontarius-xmpp",
@@ -1783,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "PresenceS",
           "package": "pontarius-xmpp",
@@ -1797,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNever secure the stream with TLS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "RefuseTls",
           "package": "pontarius-xmpp",
@@ -1807,6 +1962,7 @@
         "index": {
           "description": "Never secure the stream with TLS",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "RefuseTls",
           "package": "pontarius-xmpp",
@@ -1821,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire the use of TLS; disconnect if it's\n not offered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "RequireTls",
           "package": "pontarius-xmpp",
@@ -1831,6 +1988,7 @@
         "index": {
           "description": "Require the use of TLS disconnect if it not offered",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "RequireTls",
           "package": "pontarius-xmpp",
@@ -1844,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "Stream",
           "package": "pontarius-xmpp",
@@ -1853,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "Stream",
           "package": "pontarius-xmpp",
@@ -1889,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "StreamFeatures",
           "package": "pontarius-xmpp",
@@ -1898,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "StreamFeatures",
           "package": "pontarius-xmpp",
@@ -1911,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "StreamHandle",
           "package": "pontarius-xmpp",
@@ -1920,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "StreamHandle",
           "package": "pontarius-xmpp",
@@ -1933,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "StreamState",
           "package": "pontarius-xmpp",
@@ -1942,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "StreamState",
           "package": "pontarius-xmpp",
@@ -1983,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthenticate to the server using the first matching method and bind a\n resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "auth",
           "package": "pontarius-xmpp",
@@ -1993,6 +2160,7 @@
         "index": {
           "description": "Authenticate to the server using the first matching method and bind resource",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "auth",
           "normalized": "[SaslHandler]-\u003eMaybe Text-\u003eStream-\u003eIO(Either XmppFailure(Maybe AuthFailure))",
@@ -2134,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an IQ error response to an IQ request using the given condition. The\n error type is derived from the condition using \u003ccode\u003e\u003ca\u003eassociatedErrorType\u003c/a\u003e\u003c/code\u003e and\n both text and the application specific condition are left empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "iqError",
           "package": "pontarius-xmpp",
@@ -2144,6 +2313,7 @@
         "index": {
           "description": "Create an IQ error response to an IQ request using the given condition The error type is derived from the condition using associatedErrorType and both text and the application specific condition are left empty",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "iqError",
           "normalized": "StanzaErrorCondition-\u003eIQRequest-\u003eIQError",
@@ -2214,6 +2384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects to the XMPP server and opens the XMPP stream against the given\n realm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "openStream",
           "package": "pontarius-xmpp",
@@ -2224,6 +2395,7 @@
         "index": {
           "description": "Connects to the XMPP server and opens the XMPP stream against the given realm",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "openStream",
           "normalized": "HostName-\u003eStreamConfiguration-\u003eIO(Either XmppFailure Stream)",
@@ -2290,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePulls a stanza (or stream error) from the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "pullStanza",
           "package": "pontarius-xmpp",
@@ -2300,6 +2473,7 @@
         "index": {
           "description": "Pulls stanza or stream error from the stream",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "pullStanza",
           "normalized": "Stream-\u003eIO(Either XmppFailure Stanza)",
@@ -2315,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "pushIQ",
           "package": "pontarius-xmpp",
@@ -2324,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "pushIQ",
           "normalized": "Text-\u003eMaybe Jid-\u003eIQRequestType-\u003eMaybe LangTag-\u003eElement-\u003eStream-\u003eIO(Either XmppFailure(Either IQError IQResult))",
@@ -2340,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode and send stanza\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "pushStanza",
           "package": "pontarius-xmpp",
@@ -2350,6 +2527,7 @@
         "index": {
           "description": "Encode and send stanza",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "pushStanza",
           "normalized": "Stanza-\u003eStream-\u003eIO(Either XmppFailure())",
@@ -2391,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNothing\u003c/code\u003e for no roster\n versioning, \u003ccode\u003eJust False\u003c/code\u003e for\n roster versioning and \u003ccode\u003eJust True\u003c/code\u003e\n when the server sends the\n non-standard \u003ca\u003eoptional\u003c/a\u003e element\n (observed with prosody).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "rosterVer",
           "package": "pontarius-xmpp",
@@ -2401,6 +2580,7 @@
         "index": {
           "description": "Nothing for no roster versioning Just False for roster versioning and Just True when the server sends the non-standard optional element observed with prosody",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "rosterVer",
           "package": "pontarius-xmpp",
@@ -2415,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hostname or IP specified for the connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamAddress",
           "package": "pontarius-xmpp",
@@ -2425,6 +2606,7 @@
         "index": {
           "description": "The hostname or IP specified for the connection",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamAddress",
           "package": "pontarius-xmpp",
@@ -2438,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamClose",
           "package": "pontarius-xmpp",
@@ -2447,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamClose",
           "normalized": "IO()",
@@ -2463,6 +2647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration settings for the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamConfiguration",
           "package": "pontarius-xmpp",
@@ -2473,6 +2658,7 @@
         "index": {
           "description": "Configuration settings for the stream",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamConfiguration",
           "package": "pontarius-xmpp",
@@ -2487,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of the stream - \u003ccode\u003e\u003ca\u003eClosed\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ePlain\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eSecured\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamConnectionState",
           "package": "pontarius-xmpp",
@@ -2497,6 +2684,7 @@
         "index": {
           "description": "State of the stream Closed Plain or Secured",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamConnectionState",
           "package": "pontarius-xmpp",
@@ -2511,6 +2699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent conduit source, and its associated finalizer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamEventSource",
           "package": "pontarius-xmpp",
@@ -2521,6 +2710,7 @@
         "index": {
           "description": "Event conduit source and its associated finalizer",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamEventSource",
           "package": "pontarius-xmpp",
@@ -2535,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream features advertised by the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamFeatures",
           "package": "pontarius-xmpp",
@@ -2545,6 +2736,7 @@
         "index": {
           "description": "Stream features advertised by the server",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamFeatures",
           "package": "pontarius-xmpp",
@@ -2558,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamFlush",
           "package": "pontarius-xmpp",
@@ -2567,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamFlush",
           "normalized": "IO()",
@@ -2583,6 +2777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hostname specified in the server's stream element's\n \u003ccode\u003efrom\u003c/code\u003e attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamFrom",
           "package": "pontarius-xmpp",
@@ -2593,6 +2788,7 @@
         "index": {
           "description": "The hostname specified in the server stream element from attribute",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamFrom",
           "package": "pontarius-xmpp",
@@ -2607,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions to send, receive, flush, and close the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamHandle",
           "package": "pontarius-xmpp",
@@ -2617,6 +2814,7 @@
         "index": {
           "description": "Functions to send receive flush and close the stream",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamHandle",
           "package": "pontarius-xmpp",
@@ -2631,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identifier specified in the server's stream element's\n \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamId",
           "package": "pontarius-xmpp",
@@ -2641,6 +2840,7 @@
         "index": {
           "description": "The identifier specified in the server stream element id attribute",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamId",
           "package": "pontarius-xmpp",
@@ -2655,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOur JID as assigned by the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamJid",
           "package": "pontarius-xmpp",
@@ -2665,6 +2866,7 @@
         "index": {
           "description": "Our JID as assigned by the server",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamJid",
           "package": "pontarius-xmpp",
@@ -2679,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe language tag value specified in the server's stream\n element's \u003ccode\u003elangtag\u003c/code\u003e attribute; will be a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value once\n connected to the server\n TODO: Verify\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamLang",
           "package": "pontarius-xmpp",
@@ -2689,6 +2892,7 @@
         "index": {
           "description": "The language tag value specified in the server stream element langtag attribute will be Just value once connected to the server TODO Verify",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamLang",
           "package": "pontarius-xmpp",
@@ -2702,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamOtherFeatures",
           "package": "pontarius-xmpp",
@@ -2711,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamOtherFeatures",
           "normalized": "[Element]",
@@ -2726,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamReceive",
           "package": "pontarius-xmpp",
@@ -2735,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamReceive",
           "normalized": "Int-\u003eIO(Either XmppFailure ByteString)",
@@ -2750,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamSaslMechanisms",
           "package": "pontarius-xmpp",
@@ -2759,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamSaslMechanisms",
           "normalized": "[Text]",
@@ -2775,6 +2985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends may not\n interleave\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamSend",
           "package": "pontarius-xmpp",
@@ -2785,6 +2996,7 @@
         "index": {
           "description": "Sends may not interleave",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamSend",
           "normalized": "ByteString-\u003eIO(Either XmppFailure())",
@@ -2800,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "streamTls",
           "package": "pontarius-xmpp",
@@ -2809,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "streamTls",
           "package": "pontarius-xmpp",
@@ -2823,6 +3037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks for TLS support and run starttls procedure if applicable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "tls",
           "package": "pontarius-xmpp",
@@ -2833,6 +3048,7 @@
         "index": {
           "description": "Checks for TLS support and run starttls procedure if applicable",
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "tls",
           "normalized": "Stream-\u003eIO(Either XmppFailure())",
@@ -2924,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "unStream",
           "package": "pontarius-xmpp",
@@ -2933,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "unStream",
           "package": "pontarius-xmpp",
@@ -2946,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "withStream",
           "package": "pontarius-xmpp",
@@ -2955,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "withStream",
           "normalized": "StateT StreamState IO a-\u003eStream-\u003eIO a",
@@ -2970,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Internal",
           "name": "writeStanza",
           "package": "pontarius-xmpp",
@@ -2979,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Internal",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Internal",
           "name": "writeStanza",
           "normalized": "WriteSemaphore-\u003eStanza-\u003eIO(Either XmppFailure())",
@@ -2995,6 +3217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVan Laarhoven lenses for XMPP types. The lenses are designed to work with\n the lens library. This module also provides a few simple accessors (\u003ccode\u003e\u003ca\u003eview\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egetAll\u003c/a\u003e\u003c/code\u003e) so you don't need to pull in the\n lens library to get some use out of them.\n\u003c/p\u003e\u003cp\u003eThe name of the lenses corresponds to the field name of the data types with\n an upper-case L appended. For documentation of the fields refer to the documentation of the data types (linked in the section header)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "Lens",
           "package": "pontarius-xmpp",
@@ -3004,6 +3227,7 @@
         "index": {
           "description": "Van Laarhoven lenses for XMPP types The lenses are designed to work with the lens library This module also provides few simple accessors view modify set and getAll so you don need to pull in the lens library to get some use out of them The name of the lenses corresponds to the field name of the data types with an upper-case appended For documentation of the fields refer to the documentation of the data types linked in the section header",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "Lens",
           "package": "pontarius-xmpp",
@@ -3017,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "HasStanzaPayload",
           "package": "pontarius-xmpp",
@@ -3025,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "HasStanzaPayload",
           "package": "pontarius-xmpp",
@@ -3038,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "IsErrorStanza",
           "package": "pontarius-xmpp",
@@ -3046,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "IsErrorStanza",
           "package": "pontarius-xmpp",
@@ -3059,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "IsStanza",
           "package": "pontarius-xmpp",
@@ -3067,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "IsStanza",
           "package": "pontarius-xmpp",
@@ -3081,6 +3311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVan-Laarhoven lenses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "Lens",
           "package": "pontarius-xmpp",
@@ -3090,6 +3321,7 @@
         "index": {
           "description": "Van-Laarhoven lenses",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "Lens",
           "package": "pontarius-xmpp",
@@ -3103,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "Traversal",
           "package": "pontarius-xmpp",
@@ -3111,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "Traversal",
           "package": "pontarius-xmpp",
@@ -3124,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "bodyContentL",
           "package": "pontarius-xmpp",
@@ -3133,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "bodyContentL",
           "package": "pontarius-xmpp",
@@ -3146,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "bodyLangL",
           "package": "pontarius-xmpp",
@@ -3155,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "bodyLangL",
           "package": "pontarius-xmpp",
@@ -3168,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "connectionDetailsL",
           "package": "pontarius-xmpp",
@@ -3177,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "connectionDetailsL",
           "package": "pontarius-xmpp",
@@ -3190,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "ensableRosterL",
           "package": "pontarius-xmpp",
@@ -3199,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "ensableRosterL",
           "package": "pontarius-xmpp",
@@ -3212,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "establishSessionL",
           "package": "pontarius-xmpp",
@@ -3221,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "establishSessionL",
           "package": "pontarius-xmpp",
@@ -3235,6 +3479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom-attribute of the stanza\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "from",
           "package": "pontarius-xmpp",
@@ -3245,6 +3490,7 @@
         "index": {
           "description": "From-attribute of the stanza",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "from",
           "package": "pontarius-xmpp",
@@ -3258,6 +3504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all the values a Traversal is pointing to in a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "getAll",
           "package": "pontarius-xmpp",
@@ -3268,6 +3515,7 @@
         "index": {
           "description": "Return all the values Traversal is pointing to in list",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "getAll",
           "normalized": "Traversal a b-\u003ea-\u003e[b]",
@@ -3283,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "imBodyL",
           "package": "pontarius-xmpp",
@@ -3292,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "imBodyL",
           "normalized": "Lens InstantMessage[MessageBody]",
@@ -3307,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "imSubjectL",
           "package": "pontarius-xmpp",
@@ -3316,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "imSubjectL",
           "normalized": "Lens InstantMessage[MessageSubject]",
@@ -3331,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "imThreadL",
           "package": "pontarius-xmpp",
@@ -3340,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "imThreadL",
           "package": "pontarius-xmpp",
@@ -3353,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "iqRequestTypeL",
           "package": "pontarius-xmpp",
@@ -3362,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "iqRequestTypeL",
           "package": "pontarius-xmpp",
@@ -3375,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "itemsL",
           "package": "pontarius-xmpp",
@@ -3384,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "itemsL",
           "package": "pontarius-xmpp",
@@ -3397,6 +3655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLangtag of the stanza\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "lang",
           "package": "pontarius-xmpp",
@@ -3407,6 +3666,7 @@
         "index": {
           "description": "Langtag of the stanza",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "lang",
           "package": "pontarius-xmpp",
@@ -3419,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "messageTypeL",
           "package": "pontarius-xmpp",
@@ -3428,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "messageTypeL",
           "package": "pontarius-xmpp",
@@ -3442,6 +3704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodify the Value(s) a Lens or Traversal is pointing to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "modify",
           "package": "pontarius-xmpp",
@@ -3452,6 +3715,7 @@
         "index": {
           "description": "modify the Value Lens or Traversal is pointing to",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "modify",
           "normalized": "Traversal a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -3466,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "onConnectionClosedL",
           "package": "pontarius-xmpp",
@@ -3475,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "onConnectionClosedL",
           "normalized": "Lens SessionConfiguration(Session-\u003eXmppFailure-\u003eIO())",
@@ -3491,6 +3757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePayload element(s) of the stanza. Since the amount of elements possible\n in a stanza vary by type, this lens can't be used with a general\n \u003ccode\u003e\u003ca\u003eStanza\u003c/a\u003e\u003c/code\u003e. There is, however, a more general Traversable that works with\n all stanzas (including \u003ccode\u003e\u003ca\u003eStanza\u003c/a\u003e\u003c/code\u003e): \u003ccode\u003e\u003ca\u003epayloadT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "payload",
           "package": "pontarius-xmpp",
@@ -3501,6 +3768,7 @@
         "index": {
           "description": "Payload element of the stanza Since the amount of elements possible in stanza vary by type this lens can be used with general Stanza There is however more general Traversable that works with all stanzas including Stanza payloadT",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "payload",
           "package": "pontarius-xmpp",
@@ -3514,6 +3782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraversal over the payload elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "payloadT",
           "package": "pontarius-xmpp",
@@ -3524,6 +3793,7 @@
         "index": {
           "description": "Traversal over the payload elements",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "payloadT",
           "package": "pontarius-xmpp",
@@ -3536,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "pluginsL",
           "package": "pontarius-xmpp",
@@ -3545,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "pluginsL",
           "normalized": "Lens SessionConfiguration[Plugin]",
@@ -3559,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "preferredLangL",
           "package": "pontarius-xmpp",
@@ -3568,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "preferredLangL",
           "package": "pontarius-xmpp",
@@ -3581,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "presenceTypeL",
           "package": "pontarius-xmpp",
@@ -3590,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "presenceTypeL",
           "package": "pontarius-xmpp",
@@ -3603,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "priorityL",
           "package": "pontarius-xmpp",
@@ -3612,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "priorityL",
           "package": "pontarius-xmpp",
@@ -3624,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "qiApprovedL",
           "package": "pontarius-xmpp",
@@ -3633,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "qiApprovedL",
           "package": "pontarius-xmpp",
@@ -3646,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "qiAskL",
           "package": "pontarius-xmpp",
@@ -3655,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "qiAskL",
           "package": "pontarius-xmpp",
@@ -3668,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "qiGroupsL",
           "package": "pontarius-xmpp",
@@ -3677,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "qiGroupsL",
           "normalized": "Lens QueryItem[Text]",
@@ -3692,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "qiJidL",
           "package": "pontarius-xmpp",
@@ -3701,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "qiJidL",
           "package": "pontarius-xmpp",
@@ -3714,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "qiNameL",
           "package": "pontarius-xmpp",
@@ -3723,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "qiNameL",
           "package": "pontarius-xmpp",
@@ -3736,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "qiSubscriptionL",
           "package": "pontarius-xmpp",
@@ -3745,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "qiSubscriptionL",
           "package": "pontarius-xmpp",
@@ -3758,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "queryItemsL",
           "package": "pontarius-xmpp",
@@ -3767,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "queryItemsL",
           "normalized": "Lens Query[QueryItem]",
@@ -3782,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "queryVerL",
           "package": "pontarius-xmpp",
@@ -3791,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "queryVerL",
           "package": "pontarius-xmpp",
@@ -3804,6 +4098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "resolvConfL",
           "package": "pontarius-xmpp",
@@ -3813,6 +4108,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "resolvConfL",
           "package": "pontarius-xmpp",
@@ -3826,6 +4122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "riApprovedL",
           "package": "pontarius-xmpp",
@@ -3835,6 +4132,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "riApprovedL",
           "package": "pontarius-xmpp",
@@ -3848,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "riAskL",
           "package": "pontarius-xmpp",
@@ -3857,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "riAskL",
           "package": "pontarius-xmpp",
@@ -3870,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "riGroupsL",
           "package": "pontarius-xmpp",
@@ -3879,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "riGroupsL",
           "normalized": "Lens Item[Text]",
@@ -3894,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "riJidL",
           "package": "pontarius-xmpp",
@@ -3903,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "riJidL",
           "package": "pontarius-xmpp",
@@ -3916,6 +4220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "riNameL",
           "package": "pontarius-xmpp",
@@ -3925,6 +4230,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "riNameL",
           "package": "pontarius-xmpp",
@@ -3938,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "riSubscriptionL",
           "package": "pontarius-xmpp",
@@ -3947,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "riSubscriptionL",
           "package": "pontarius-xmpp",
@@ -3960,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "sessionStanzaIDsL",
           "package": "pontarius-xmpp",
@@ -3969,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "sessionStanzaIDsL",
           "package": "pontarius-xmpp",
@@ -3983,6 +4293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the value the lens is pointing to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "set",
           "package": "pontarius-xmpp",
@@ -3993,6 +4304,7 @@
         "index": {
           "description": "Replace the value the lens is pointing to",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "set",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -4007,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "showStatusL",
           "package": "pontarius-xmpp",
@@ -4016,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "showStatusL",
           "package": "pontarius-xmpp",
@@ -4030,6 +4344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStanza ID. Setting this to \u003cem\u003eNothing\u003c/em\u003e for IQ* stanzas will set the id to\n the empty Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "sid",
           "package": "pontarius-xmpp",
@@ -4040,6 +4355,7 @@
         "index": {
           "description": "Stanza ID Setting this to Nothing for IQ stanzas will set the id to the empty Text",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "sid",
           "package": "pontarius-xmpp",
@@ -4053,6 +4369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError element of the stanza\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaError",
           "package": "pontarius-xmpp",
@@ -4063,6 +4380,7 @@
         "index": {
           "description": "Error element of the stanza",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaError",
           "package": "pontarius-xmpp",
@@ -4076,6 +4394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaErrorApplL",
           "package": "pontarius-xmpp",
@@ -4085,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaErrorApplL",
           "package": "pontarius-xmpp",
@@ -4098,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaErrorConditionL",
           "package": "pontarius-xmpp",
@@ -4107,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaErrorConditionL",
           "package": "pontarius-xmpp",
@@ -4120,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaErrorTextL",
           "package": "pontarius-xmpp",
@@ -4129,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaErrorTextL",
           "normalized": "Lens StanzaError(Maybe(Maybe LangTag,NonemptyText))",
@@ -4144,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaErrorTypeL",
           "package": "pontarius-xmpp",
@@ -4153,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "stanzaErrorTypeL",
           "package": "pontarius-xmpp",
@@ -4166,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "statusL",
           "package": "pontarius-xmpp",
@@ -4175,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "statusL",
           "package": "pontarius-xmpp",
@@ -4187,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "streamConfigurationL",
           "package": "pontarius-xmpp",
@@ -4196,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "streamConfigurationL",
           "package": "pontarius-xmpp",
@@ -4209,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "subjectContentL",
           "package": "pontarius-xmpp",
@@ -4218,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "subjectContentL",
           "package": "pontarius-xmpp",
@@ -4231,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "subjectLangL",
           "package": "pontarius-xmpp",
@@ -4240,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "subjectLangL",
           "package": "pontarius-xmpp",
@@ -4253,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "threadIdL",
           "package": "pontarius-xmpp",
@@ -4262,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "threadIdL",
           "package": "pontarius-xmpp",
@@ -4275,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "threadParentL",
           "package": "pontarius-xmpp",
@@ -4284,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "threadParentL",
           "package": "pontarius-xmpp",
@@ -4297,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "tlsBehaviourL",
           "package": "pontarius-xmpp",
@@ -4306,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "tlsBehaviourL",
           "package": "pontarius-xmpp",
@@ -4319,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "tlsParamsL",
           "package": "pontarius-xmpp",
@@ -4328,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "tlsParamsL",
           "package": "pontarius-xmpp",
@@ -4342,6 +4684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo-attribute of the stanza\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "to",
           "package": "pontarius-xmpp",
@@ -4352,6 +4695,7 @@
         "index": {
           "description": "To-attribute of the stanza",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "to",
           "package": "pontarius-xmpp",
@@ -4364,6 +4708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "toJidL",
           "package": "pontarius-xmpp",
@@ -4373,6 +4718,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "toJidL",
           "normalized": "Lens StreamConfiguration(Maybe(Jid,Bool))",
@@ -4388,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "verL",
           "package": "pontarius-xmpp",
@@ -4397,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "verL",
           "package": "pontarius-xmpp",
@@ -4410,6 +4758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the value the lens is pointing to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp.Lens",
           "name": "view",
           "package": "pontarius-xmpp",
@@ -4420,6 +4769,7 @@
         "index": {
           "description": "Read the value the lens is pointing to",
           "hierarchy": "Network Xmpp Lens",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp.Lens",
           "name": "view",
           "normalized": "Lens a b-\u003ea-\u003eb",
@@ -4435,6 +4785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Extensible Messaging and Presence Protocol (XMPP) is an open technology\n for near-real-time communication, which powers a wide range of applications\n including instant messaging, presence, multi-party chat, voice and video\n calls, collaboration, lightweight middleware, content syndication, and\n generalized routing of XML data. XMPP provides a technology for the\n asynchronous, end-to-end exchange of structured data by means of direct,\n persistent XML streams among a distributed network of globally addressable,\n presence-aware clients and servers.\n\u003c/p\u003e\u003cp\u003ePontarius XMPP is an XMPP client library, implementing the core capabilities\n of XMPP (RFC 6120): setup and tear-down of XML streams, channel encryption,\n authentication, error handling, and communication primitives for messaging.\n\u003c/p\u003e\u003cp\u003eFor low-level access to Pontarius XMPP, see the \u003ca\u003eNetwork.Xmpp.Internal\u003c/a\u003e\n module.\n\u003c/p\u003e\u003cp\u003eGetting Started\n\u003c/p\u003e\u003cp\u003eWe use \u003ccode\u003e\u003ca\u003esession\u003c/a\u003e\u003c/code\u003e to create a session object and connect to a server. Here we\n use the default \u003ccode\u003e\u003ca\u003eSessionConfiguration\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n sess \u003c- session realm (simpleAuth \"myUsername\" \"mypassword\") def\n\u003c/pre\u003e\u003cp\u003eDefining \u003ccode\u003e\u003ca\u003eAuthData\u003c/a\u003e\u003c/code\u003e can be a bit unwieldy, so \u003ccode\u003e\u003ca\u003esimpleAuth\u003c/a\u003e\u003c/code\u003e gives us a\n reasonable default. Though, for improved security, we should consider\n restricting the mechanisms to \u003ccode\u003e\u003ca\u003escramSha1\u003c/a\u003e\u003c/code\u003e whenever we can.\n\u003c/p\u003e\u003cp\u003eNext we have to set the presence to online, otherwise we won't be able to\n send or receive stanzas to/from other entities.\n\u003c/p\u003e\u003cpre\u003e\n sendPresence presenceOnline sess\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Xmpp",
           "package": "pontarius-xmpp",
@@ -4444,6 +4795,7 @@
         "index": {
           "description": "The Extensible Messaging and Presence Protocol XMPP is an open technology for near-real-time communication which powers wide range of applications including instant messaging presence multi-party chat voice and video calls collaboration lightweight middleware content syndication and generalized routing of XML data XMPP provides technology for the asynchronous end-to-end exchange of structured data by means of direct persistent XML streams among distributed network of globally addressable presence-aware clients and servers Pontarius XMPP is an XMPP client library implementing the core capabilities of XMPP RFC setup and tear-down of XML streams channel encryption authentication error handling and communication primitives for messaging For low-level access to Pontarius XMPP see the Network.Xmpp.Internal module Getting Started We use session to create session object and connect to server Here we use the default SessionConfiguration sess session realm simpleAuth myUsername mypassword def Defining AuthData can be bit unwieldy so simpleAuth gives us reasonable default Though for improved security we should consider restricting the mechanisms to scramSha1 whenever we can Next we have to set the presence to online otherwise we won be able to send or receive stanzas to from other entities sendPresence presenceOnline sess",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Xmpp",
           "package": "pontarius-xmpp",
@@ -4457,6 +4809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Annotated",
           "package": "pontarius-xmpp",
@@ -4465,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Annotated",
           "package": "pontarius-xmpp",
@@ -4479,6 +4833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotations are auxiliary data attached to received stanzas by \u003ccode\u003e\u003ca\u003ePlugin\u003c/a\u003e\u003c/code\u003es to\n convey information regarding their operation. For example, a plugin for\n encryption might attach information about whether a received stanza was\n encrypted and which algorithm was used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Annotation",
           "package": "pontarius-xmpp",
@@ -4488,6 +4843,7 @@
         "index": {
           "description": "Annotations are auxiliary data attached to received stanzas by Plugin to convey information regarding their operation For example plugin for encryption might attach information about whether received stanza was encrypted and which algorithm was used",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Annotation",
           "package": "pontarius-xmpp",
@@ -4502,6 +4858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSASL handlers and the desired JID resource\n\u003c/p\u003e\u003cp\u003eNothing to disable authentication\n\u003c/p\u003e\u003cp\u003eThe allowed SASL mecahnism can depend on the connection state. For example,\n \u003ccode\u003eplain\u003c/code\u003e should be avoided unless the connection state is \u003ccode\u003e\u003ca\u003eSecured\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIt is recommended to leave the resource up to the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "AuthData",
           "package": "pontarius-xmpp",
@@ -4511,6 +4868,7 @@
         "index": {
           "description": "SASL handlers and the desired JID resource Nothing to disable authentication The allowed SASL mecahnism can depend on the connection state For example plain should be avoided unless the connection state is Secured It is recommended to leave the resource up to the server",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "AuthData",
           "package": "pontarius-xmpp",
@@ -4525,6 +4883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignals a SASL authentication error condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "AuthFailure",
           "package": "pontarius-xmpp",
@@ -4534,6 +4893,7 @@
         "index": {
           "description": "Signals SASL authentication error condition",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "AuthFailure",
           "package": "pontarius-xmpp",
@@ -4547,6 +4907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "AuthZID",
           "package": "pontarius-xmpp",
@@ -4555,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "AuthZID",
           "package": "pontarius-xmpp",
@@ -4569,6 +4931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the method with which the connection is (re-)established\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "ConnectionDetails",
           "package": "pontarius-xmpp",
@@ -4578,6 +4941,7 @@
         "index": {
           "description": "Specify the method with which the connection is re established",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "ConnectionDetails",
           "package": "pontarius-xmpp",
@@ -4592,6 +4956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignals the state of the stream connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "ConnectionState",
           "package": "pontarius-xmpp",
@@ -4601,6 +4966,7 @@
         "index": {
           "description": "Signals the state of the stream connection",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "ConnectionState",
           "package": "pontarius-xmpp",
@@ -4615,6 +4981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe answer to an IQ request that generated an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQError",
           "package": "pontarius-xmpp",
@@ -4624,6 +4991,7 @@
         "index": {
           "description": "The answer to an IQ request that generated an error",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQError",
           "package": "pontarius-xmpp",
@@ -4638,6 +5006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ca\u003erequest\u003c/a\u003e Info/Query (IQ) stanza is one with either \u003ca\u003eget\u003c/a\u003e or \u003ca\u003eset\u003c/a\u003e as\n type. It always contains an xml payload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQRequest",
           "package": "pontarius-xmpp",
@@ -4647,6 +5016,7 @@
         "index": {
           "description": "request Info Query IQ stanza is one with either get or set as type It always contains an xml payload",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQRequest",
           "package": "pontarius-xmpp",
@@ -4661,6 +5031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA received and wrapped up IQ request. Prevents you from (illegally)\n answering a single IQ request multiple times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQRequestTicket",
           "package": "pontarius-xmpp",
@@ -4670,6 +5041,7 @@
         "index": {
           "description": "received and wrapped up IQ request Prevents you from illegally answering single IQ request multiple times",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQRequestTicket",
           "package": "pontarius-xmpp",
@@ -4684,6 +5056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of IQ request that is made.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQRequestType",
           "package": "pontarius-xmpp",
@@ -4693,6 +5066,7 @@
         "index": {
           "description": "The type of IQ request that is made",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQRequestType",
           "package": "pontarius-xmpp",
@@ -4707,6 +5081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ca\u003eresponse\u003c/a\u003e Info/Query (IQ) stanza is either an \u003ccode\u003e\u003ca\u003eIQError\u003c/a\u003e\u003c/code\u003e, an IQ stanza\n of  type \u003ca\u003eresult\u003c/a\u003e (\u003ccode\u003e\u003ca\u003eIQResult\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQResponse",
           "package": "pontarius-xmpp",
@@ -4716,6 +5091,7 @@
         "index": {
           "description": "response Info Query IQ stanza is either an IQError an IQ stanza of type result IQResult",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQResponse",
           "package": "pontarius-xmpp",
@@ -4730,6 +5106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (non-error) answer to an IQ request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQResult",
           "package": "pontarius-xmpp",
@@ -4739,6 +5116,7 @@
         "index": {
           "description": "The non-error answer to an IQ request",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQResult",
           "package": "pontarius-xmpp",
@@ -4753,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError that can occur during sendIQ'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQSendError",
           "package": "pontarius-xmpp",
@@ -4762,6 +5141,7 @@
         "index": {
           "description": "Error that can occur during sendIQ",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQSendError",
           "package": "pontarius-xmpp",
@@ -4776,6 +5156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JID is XMPP's native format for addressing entities in the network. It\n is somewhat similar to an e-mail address but contains three parts instead of\n two: localpart, domainpart, and resourcepart.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003elocalpart\u003c/code\u003e of a JID is an optional identifier placed\n before the domainpart and separated from the latter by a\n '@' character. Typically a localpart uniquely identifies\n the entity requesting and using network access provided by a\n server (i.e., a local account), although it can also\n represent other kinds of entities (e.g., a chat room\n associated with a multi-user chat service). The entity\n represented by an XMPP localpart is addressed within the\n context of a specific domain (i.e.,\n \u003ccode\u003elocalpart@domainpart\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThe domainpart typically identifies the \u003cem\u003ehome\u003c/em\u003e server to\n which clients connect for XML routing and data management\n functionality. However, it is not necessary for an XMPP\n domainpart to identify an entity that provides core XMPP\n server functionality (e.g., a domainpart can identify an\n entity such as a multi-user chat service, a\n publish-subscribe service, or a user directory).\n\u003c/p\u003e\u003cp\u003eThe resourcepart of a JID is an optional identifier placed\n after the domainpart and separated from the latter by the\n '/' character. A resourcepart can modify either a\n \u003ccode\u003elocalpart@domainpart\u003c/code\u003e address or a mere \u003ccode\u003edomainpart\u003c/code\u003e\n address. Typically a resourcepart uniquely identifies a\n specific connection (e.g., a device or location) or object\n (e.g., an occupant in a multi-user chat room) belonging to\n the entity associated with an XMPP localpart at a domain\n (i.e., \u003ccode\u003elocalpart@domainpart/resourcepart\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eFor more details see RFC 6122 \u003ca\u003ehttp://xmpp.org/rfcs/rfc6122.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Jid",
           "package": "pontarius-xmpp",
@@ -4785,6 +5166,7 @@
         "index": {
           "description": "JID is XMPP native format for addressing entities in the network It is somewhat similar to an e-mail address but contains three parts instead of two localpart domainpart and resourcepart The localpart of JID is an optional identifier placed before the domainpart and separated from the latter by character Typically localpart uniquely identifies the entity requesting and using network access provided by server i.e local account although it can also represent other kinds of entities e.g chat room associated with multi-user chat service The entity represented by an XMPP localpart is addressed within the context of specific domain i.e localpart@domainpart The domainpart typically identifies the home server to which clients connect for XML routing and data management functionality However it is not necessary for an XMPP domainpart to identify an entity that provides core XMPP server functionality e.g domainpart can identify an entity such as multi-user chat service publish-subscribe service or user directory The resourcepart of JID is an optional identifier placed after the domainpart and separated from the latter by the character resourcepart can modify either localpart@domainpart address or mere domainpart address Typically resourcepart uniquely identifies specific connection e.g device or location or object e.g an occupant in multi-user chat room belonging to the entity associated with an XMPP localpart at domain i.e localpart@domainpart resourcepart For more details see RFC http xmpp.org rfcs rfc6122.html",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Jid",
           "package": "pontarius-xmpp",
@@ -4799,6 +5181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe language tag in accordance with RFC 5646 (in the form of \u003ca\u003een-US\u003c/a\u003e). It\n has a primary tag and a number of subtags. Two language tags are considered\n equal if and only if they contain the same tags (case-insensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "LangTag",
           "package": "pontarius-xmpp",
@@ -4808,6 +5191,7 @@
         "index": {
           "description": "The language tag in accordance with RFC in the form of en-US It has primary tag and number of subtags Two language tags are considered equal if and only if they contain the same tags case-insensitive",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "LangTag",
           "package": "pontarius-xmpp",
@@ -4822,6 +5206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message stanza. Used for \u003cem\u003epush\u003c/em\u003e type communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Message",
           "package": "pontarius-xmpp",
@@ -4831,6 +5216,7 @@
         "index": {
           "description": "The message stanza Used for push type communication",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Message",
           "package": "pontarius-xmpp",
@@ -4845,6 +5231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error stanza generated in response to a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "MessageError",
           "package": "pontarius-xmpp",
@@ -4854,6 +5241,7 @@
         "index": {
           "description": "An error stanza generated in response to Message",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "MessageError",
           "package": "pontarius-xmpp",
@@ -4868,6 +5256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a Message being sent\n (\u003ca\u003ehttp://xmpp.org/rfcs/rfc6121.html#message-syntax-type\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "MessageType",
           "package": "pontarius-xmpp",
@@ -4877,6 +5266,7 @@
         "index": {
           "description": "The type of Message being sent http xmpp.org rfcs rfc6121.html message-syntax-type",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "MessageType",
           "package": "pontarius-xmpp",
@@ -4890,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Password",
           "package": "pontarius-xmpp",
@@ -4898,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Password",
           "package": "pontarius-xmpp",
@@ -4911,6 +5303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Plugin",
           "package": "pontarius-xmpp",
@@ -4919,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Plugin",
           "package": "pontarius-xmpp",
@@ -4932,6 +5326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Plugin'",
           "package": "pontarius-xmpp",
@@ -4940,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Plugin'",
           "package": "pontarius-xmpp",
@@ -4954,6 +5350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe presence stanza. Used for communicating status updates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Presence",
           "package": "pontarius-xmpp",
@@ -4963,6 +5360,7 @@
         "index": {
           "description": "The presence stanza Used for communicating status updates",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Presence",
           "package": "pontarius-xmpp",
@@ -4977,6 +5375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error stanza generated in response to a \u003ccode\u003e\u003ca\u003ePresence\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "PresenceError",
           "package": "pontarius-xmpp",
@@ -4986,6 +5385,7 @@
         "index": {
           "description": "An error stanza generated in response to Presence",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "PresenceError",
           "package": "pontarius-xmpp",
@@ -5000,6 +5400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePresenceType\u003c/code\u003e holds Xmpp presence types. The \u003ca\u003eerror\u003c/a\u003e message type is left\n out as errors are using \u003ccode\u003ePresenceError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "PresenceType",
           "package": "pontarius-xmpp",
@@ -5009,6 +5410,7 @@
         "index": {
           "description": "PresenceType holds Xmpp presence types The error message type is left out as errors are using PresenceError",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "PresenceType",
           "package": "pontarius-xmpp",
@@ -5022,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "SaslFailure",
           "package": "pontarius-xmpp",
@@ -5030,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "SaslFailure",
           "package": "pontarius-xmpp",
@@ -5044,6 +5448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple defining the SASL Handler's name, and a SASL mechanism computation.\n The SASL mechanism is a stateful \u003ccode\u003eStream\u003c/code\u003e computation, which has the\n possibility of resulting in an authentication error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "SaslHandler",
           "package": "pontarius-xmpp",
@@ -5053,6 +5458,7 @@
         "index": {
           "description": "Tuple defining the SASL Handler name and SASL mechanism computation The SASL mechanism is stateful Stream computation which has the possibility of resulting in an authentication error",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "SaslHandler",
           "package": "pontarius-xmpp",
@@ -5067,6 +5473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Session object represents a single session with an XMPP server. You can\n use \u003ccode\u003esession\u003c/code\u003e to establish a session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Session",
           "package": "pontarius-xmpp",
@@ -5076,6 +5483,7 @@
         "index": {
           "description": "The Session object represents single session with an XMPP server You can use session to establish session",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Session",
           "package": "pontarius-xmpp",
@@ -5090,6 +5498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for the \u003ccode\u003eSession\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "SessionConfiguration",
           "package": "pontarius-xmpp",
@@ -5099,6 +5508,7 @@
         "index": {
           "description": "Configuration for the Session object",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "SessionConfiguration",
           "package": "pontarius-xmpp",
@@ -5113,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll stanzas (IQ, message, presence) can cause errors, which in the Xmpp\n stream looks like \u003ccode\u003e\u003cstanza-kind to='sender' type='error'\u003e\u003c/code\u003e . These\n errors are wrapped in the \u003ccode\u003eStanzaError\u003c/code\u003e type.  TODO: Sender XML is (optional\n and is) not yet included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StanzaError",
           "package": "pontarius-xmpp",
@@ -5122,6 +5533,7 @@
         "index": {
           "description": "All stanzas IQ message presence can cause errors which in the Xmpp stream looks like stanza-kind to sender type error These errors are wrapped in the StanzaError type TODO Sender XML is optional and is not yet included",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StanzaError",
           "package": "pontarius-xmpp",
@@ -5136,6 +5548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStanza errors are accommodated with one of the error conditions listed\n below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StanzaErrorCondition",
           "package": "pontarius-xmpp",
@@ -5145,6 +5558,7 @@
         "index": {
           "description": "Stanza errors are accommodated with one of the error conditions listed below",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StanzaErrorCondition",
           "package": "pontarius-xmpp",
@@ -5159,6 +5573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eStanzaError\u003c/code\u003es always have one of these types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StanzaErrorType",
           "package": "pontarius-xmpp",
@@ -5168,6 +5583,7 @@
         "index": {
           "description": "StanzaError always have one of these types",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StanzaErrorType",
           "package": "pontarius-xmpp",
@@ -5182,6 +5598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration settings related to the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamConfiguration",
           "package": "pontarius-xmpp",
@@ -5191,6 +5608,7 @@
         "index": {
           "description": "Configuration settings related to the stream",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamConfiguration",
           "package": "pontarius-xmpp",
@@ -5204,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamErrorCondition",
           "package": "pontarius-xmpp",
@@ -5212,6 +5631,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamErrorCondition",
           "package": "pontarius-xmpp",
@@ -5226,6 +5646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates information about an XMPP stream error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamErrorInfo",
           "package": "pontarius-xmpp",
@@ -5235,6 +5656,7 @@
         "index": {
           "description": "Encapsulates information about an XMPP stream error",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamErrorInfo",
           "package": "pontarius-xmpp",
@@ -5248,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Username",
           "package": "pontarius-xmpp",
@@ -5256,6 +5679,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Username",
           "package": "pontarius-xmpp",
@@ -5270,6 +5694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignals an XMPP stream error or another unpredicted stream-related\n situation. This error is fatal, and closes the XMPP stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "XmppFailure",
           "package": "pontarius-xmpp",
@@ -5279,6 +5704,7 @@
         "index": {
           "description": "Signals an XMPP stream error or another unpredicted stream-related situation This error is fatal and closes the XMPP stream",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "XmppFailure",
           "package": "pontarius-xmpp",
@@ -5293,6 +5719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide credentials and retry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Auth",
           "package": "pontarius-xmpp",
@@ -5303,6 +5730,7 @@
         "index": {
           "description": "Provide credentials and retry",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Auth",
           "package": "pontarius-xmpp",
@@ -5317,6 +5745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe credentials provided did not conform to\n the SASLprep Stringprep profile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "AuthIllegalCredentials",
           "package": "pontarius-xmpp",
@@ -5327,6 +5756,7 @@
         "index": {
           "description": "The credentials provided did not conform to the SASLprep Stringprep profile",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "AuthIllegalCredentials",
           "package": "pontarius-xmpp",
@@ -5341,6 +5771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo mechanism offered by the server was matched\n by the provided acceptable mechanisms; wraps the\n mechanisms offered by the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "AuthNoAcceptableMechanism",
           "package": "pontarius-xmpp",
@@ -5351,6 +5782,7 @@
         "index": {
           "description": "No mechanism offered by the server was matched by the provided acceptable mechanisms wraps the mechanisms offered by the server",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "AuthNoAcceptableMechanism",
           "normalized": "AuthNoAcceptableMechanism[Text]",
@@ -5367,6 +5799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther failure; more information is available\n in the log\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "AuthOtherFailure",
           "package": "pontarius-xmpp",
@@ -5377,6 +5810,7 @@
         "index": {
           "description": "Other failure more information is available in the log",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "AuthOtherFailure",
           "package": "pontarius-xmpp",
@@ -5391,6 +5825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SASL failure element was encountered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "AuthSaslFailure",
           "package": "pontarius-xmpp",
@@ -5401,6 +5836,7 @@
         "index": {
           "description": "SASL failure element was encountered",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "AuthSaslFailure",
           "package": "pontarius-xmpp",
@@ -5415,6 +5851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSender wants to express availability\n   (no type attribute is defined)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Available",
           "package": "pontarius-xmpp",
@@ -5425,6 +5862,7 @@
         "index": {
           "description": "Sender wants to express availability no type attribute is defined",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Available",
           "package": "pontarius-xmpp",
@@ -5439,6 +5877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMalformed XML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "BadRequest",
           "package": "pontarius-xmpp",
@@ -5449,6 +5888,7 @@
         "index": {
           "description": "Malformed XML",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "BadRequest",
           "package": "pontarius-xmpp",
@@ -5463,6 +5903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError is unrecoverable - do not retry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Cancel",
           "package": "pontarius-xmpp",
@@ -5473,6 +5914,7 @@
         "index": {
           "description": "Error is unrecoverable do not retry",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Cancel",
           "package": "pontarius-xmpp",
@@ -5487,6 +5929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message is sent in the context of a one-to-one chat\n session. Typically an interactive client will present a\n message of type \u003cem\u003echat\u003c/em\u003e in an interface that enables\n one-to-one chat between the two parties, including an\n appropriate conversation history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Chat",
           "package": "pontarius-xmpp",
@@ -5497,6 +5940,7 @@
         "index": {
           "description": "The message is sent in the context of one-to-one chat session Typically an interactive client will present message of type chat in an interface that enables one-to-one chat between the two parties including an appropriate conversation history",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Chat",
           "package": "pontarius-xmpp",
@@ -5511,6 +5955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo stream has been established\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Closed",
           "package": "pontarius-xmpp",
@@ -5521,6 +5966,7 @@
         "index": {
           "description": "No stream has been established",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Closed",
           "package": "pontarius-xmpp",
@@ -5535,6 +5981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource or session with\n   name already exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Conflict",
           "package": "pontarius-xmpp",
@@ -5545,6 +5992,7 @@
         "index": {
           "description": "Resource or session with name already exists",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Conflict",
           "package": "pontarius-xmpp",
@@ -5559,6 +6007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditition was a warning - proceed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Continue",
           "package": "pontarius-xmpp",
@@ -5569,6 +6018,7 @@
         "index": {
           "description": "Conditition was warning proceed",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Continue",
           "package": "pontarius-xmpp",
@@ -5582,6 +6032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "FeatureNotImplemented",
           "package": "pontarius-xmpp",
@@ -5591,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "FeatureNotImplemented",
           "package": "pontarius-xmpp",
@@ -5605,6 +6057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream is closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Finished",
           "package": "pontarius-xmpp",
@@ -5615,6 +6068,7 @@
         "index": {
           "description": "Stream is closed",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Finished",
           "package": "pontarius-xmpp",
@@ -5629,6 +6083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsufficient permissions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Forbidden",
           "package": "pontarius-xmpp",
@@ -5639,6 +6094,7 @@
         "index": {
           "description": "Insufficient permissions",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Forbidden",
           "package": "pontarius-xmpp",
@@ -5652,6 +6108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Get",
           "package": "pontarius-xmpp",
@@ -5661,6 +6118,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Get",
           "package": "pontarius-xmpp",
@@ -5675,6 +6133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity can no longer\n be contacted at this\n address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Gone",
           "package": "pontarius-xmpp",
@@ -5685,6 +6144,7 @@
         "index": {
           "description": "Entity can no longer be contacted at this address",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Gone",
           "package": "pontarius-xmpp",
@@ -5699,6 +6159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message is sent in the context of a multi-user chat\n environment (similar to that of \u003ccode\u003eIRC\u003c/code\u003e). Typically a\n receiving client will present a message of type\n \u003cem\u003egroupchat\u003c/em\u003e in an interface that enables many-to-many\n chat between the parties, including a roster of parties\n in the chatroom and an appropriate conversation history.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "GroupChat",
           "package": "pontarius-xmpp",
@@ -5709,6 +6170,7 @@
         "index": {
           "description": "The message is sent in the context of multi-user chat environment similar to that of IRC Typically receiving client will present message of type groupchat in an interface that enables many-to-many chat between the parties including roster of parties in the chatroom and an appropriate conversation history",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "GroupChat",
           "package": "pontarius-xmpp",
@@ -5723,6 +6185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message provides an alert, a notification, or other\n transient information to which no reply is expected\n (e.g., news headlines, sports updates, near-real-time\n market data, or syndicated content). Because no reply to\n the message is expected, typically a receiving client\n will present a message of type \u003cem\u003eheadline\u003c/em\u003e in an interface\n that appropriately differentiates the message from\n standalone messages, chat messages, and groupchat\n messages (e.g., by not providing the recipient with the\n ability to reply).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Headline",
           "package": "pontarius-xmpp",
@@ -5733,6 +6196,7 @@
         "index": {
           "description": "The message provides an alert notification or other transient information to which no reply is expected e.g news headlines sports updates near-real-time market data or syndicated content Because no reply to the message is expected typically receiving client will present message of type headline in an interface that appropriately differentiates the message from standalone messages chat messages and groupchat messages e.g by not providing the recipient with the ability to reply",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Headline",
           "package": "pontarius-xmpp",
@@ -5746,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQError",
           "package": "pontarius-xmpp",
@@ -5755,6 +6220,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQError",
           "package": "pontarius-xmpp",
@@ -5768,6 +6234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQRequest",
           "package": "pontarius-xmpp",
@@ -5777,6 +6244,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQRequest",
           "package": "pontarius-xmpp",
@@ -5790,6 +6258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQResponseError",
           "package": "pontarius-xmpp",
@@ -5799,6 +6268,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQResponseError",
           "package": "pontarius-xmpp",
@@ -5812,6 +6282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQResponseResult",
           "package": "pontarius-xmpp",
@@ -5821,6 +6292,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQResponseResult",
           "package": "pontarius-xmpp",
@@ -5834,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQResult",
           "package": "pontarius-xmpp",
@@ -5843,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQResult",
           "package": "pontarius-xmpp",
@@ -5856,6 +6330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQSendError",
           "package": "pontarius-xmpp",
@@ -5865,6 +6340,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQSendError",
           "package": "pontarius-xmpp",
@@ -5878,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "IQTimeOut",
           "package": "pontarius-xmpp",
@@ -5887,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "IQTimeOut",
           "package": "pontarius-xmpp",
@@ -5900,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "InternalServerError",
           "package": "pontarius-xmpp",
@@ -5909,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "InternalServerError",
           "package": "pontarius-xmpp",
@@ -5922,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "ItemNotFound",
           "package": "pontarius-xmpp",
@@ -5931,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "ItemNotFound",
           "package": "pontarius-xmpp",
@@ -5944,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "JidMalformed",
           "package": "pontarius-xmpp",
@@ -5953,6 +6436,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "JidMalformed",
           "package": "pontarius-xmpp",
@@ -5966,6 +6450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Message",
           "package": "pontarius-xmpp",
@@ -5975,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Message",
           "package": "pontarius-xmpp",
@@ -5988,6 +6474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "MessageError",
           "package": "pontarius-xmpp",
@@ -5997,6 +6484,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "MessageError",
           "package": "pontarius-xmpp",
@@ -6011,6 +6499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the data and retry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Modify",
           "package": "pontarius-xmpp",
@@ -6021,6 +6510,7 @@
         "index": {
           "description": "Change the data and retry",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Modify",
           "package": "pontarius-xmpp",
@@ -6035,6 +6525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message is a standalone message that is sent outside\n the context of a one-to-one conversation or groupchat, and\n to which it is expected that the recipient will reply.\n Typically a receiving client will present a message of\n type \u003cem\u003enormal\u003c/em\u003e in an interface that enables the recipient\n to reply, but without a conversation history.\n\u003c/p\u003e\u003cp\u003eThis is the \u003cem\u003edefault\u003c/em\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Normal",
           "package": "pontarius-xmpp",
@@ -6045,6 +6536,7 @@
         "index": {
           "description": "The message is standalone message that is sent outside the context of one-to-one conversation or groupchat and to which it is expected that the recipient will reply Typically receiving client will present message of type normal in an interface that enables the recipient to reply but without conversation history This is the default value",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Normal",
           "package": "pontarius-xmpp",
@@ -6059,6 +6551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes not meet policy\n   criteria.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "NotAcceptable",
           "package": "pontarius-xmpp",
@@ -6069,6 +6562,7 @@
         "index": {
           "description": "Does not meet policy criteria",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "NotAcceptable",
           "package": "pontarius-xmpp",
@@ -6083,6 +6577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo entity may perform\n   this action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "NotAllowed",
           "package": "pontarius-xmpp",
@@ -6093,6 +6588,7 @@
         "index": {
           "description": "No entity may perform this action",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "NotAllowed",
           "package": "pontarius-xmpp",
@@ -6107,6 +6603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust provide proper\n   credentials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "NotAuthorized",
           "package": "pontarius-xmpp",
@@ -6117,6 +6614,7 @@
         "index": {
           "description": "Must provide proper credentials",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "NotAuthorized",
           "package": "pontarius-xmpp",
@@ -6131,6 +6629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream established, but not secured via TLS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Plain",
           "package": "pontarius-xmpp",
@@ -6141,6 +6640,7 @@
         "index": {
           "description": "Stream established but not secured via TLS",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Plain",
           "package": "pontarius-xmpp",
@@ -6155,6 +6655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe entity has violated\n some local service policy\n (e.g., a message contains\n words that are prohibited\n by the service)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "PolicyViolation",
           "package": "pontarius-xmpp",
@@ -6165,6 +6666,7 @@
         "index": {
           "description": "The entity has violated some local service policy e.g message contains words that are prohibited by the service",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "PolicyViolation",
           "package": "pontarius-xmpp",
@@ -6178,6 +6680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Presence",
           "package": "pontarius-xmpp",
@@ -6187,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Presence",
           "package": "pontarius-xmpp",
@@ -6200,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "PresenceError",
           "package": "pontarius-xmpp",
@@ -6209,6 +6714,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "PresenceError",
           "package": "pontarius-xmpp",
@@ -6223,6 +6729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSender requests current presence;\n   should only be used by servers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Probe",
           "package": "pontarius-xmpp",
@@ -6233,6 +6740,7 @@
         "index": {
           "description": "Sender requests current presence should only be used by servers",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Probe",
           "package": "pontarius-xmpp",
@@ -6247,6 +6755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporarily unavailable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "RecipientUnavailable",
           "package": "pontarius-xmpp",
@@ -6257,6 +6766,7 @@
         "index": {
           "description": "Temporarily unavailable",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "RecipientUnavailable",
           "package": "pontarius-xmpp",
@@ -6271,6 +6781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirecting to\n other entity,\n usually\n temporarily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Redirect",
           "package": "pontarius-xmpp",
@@ -6281,6 +6792,7 @@
         "index": {
           "description": "Redirecting to other entity usually temporarily",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Redirect",
           "package": "pontarius-xmpp",
@@ -6294,6 +6806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "RegistrationRequired",
           "package": "pontarius-xmpp",
@@ -6303,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "RegistrationRequired",
           "package": "pontarius-xmpp",
@@ -6316,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "RemoteServerNotFound",
           "package": "pontarius-xmpp",
@@ -6325,6 +6840,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "RemoteServerNotFound",
           "package": "pontarius-xmpp",
@@ -6338,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "RemoteServerTimeout",
           "package": "pontarius-xmpp",
@@ -6347,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "RemoteServerTimeout",
           "package": "pontarius-xmpp",
@@ -6361,6 +6879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity lacks the\n   necessary system\n   resources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "ResourceConstraint",
           "package": "pontarius-xmpp",
@@ -6371,6 +6890,7 @@
         "index": {
           "description": "Entity lacks the necessary system resources",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "ResourceConstraint",
           "package": "pontarius-xmpp",
@@ -6384,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "SaslFailure",
           "package": "pontarius-xmpp",
@@ -6393,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "SaslFailure",
           "package": "pontarius-xmpp",
@@ -6407,6 +6929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream established and secured via TLS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Secured",
           "package": "pontarius-xmpp",
@@ -6417,6 +6940,7 @@
         "index": {
           "description": "Stream established and secured via TLS",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Secured",
           "package": "pontarius-xmpp",
@@ -6430,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "ServiceUnavailable",
           "package": "pontarius-xmpp",
@@ -6439,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "ServiceUnavailable",
           "package": "pontarius-xmpp",
@@ -6452,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "SessionConfiguration",
           "package": "pontarius-xmpp",
@@ -6461,6 +6988,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "SessionConfiguration",
           "package": "pontarius-xmpp",
@@ -6474,6 +7002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Set",
           "package": "pontarius-xmpp",
@@ -6483,6 +7012,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Set",
           "package": "pontarius-xmpp",
@@ -6496,6 +7026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StanzaError",
           "package": "pontarius-xmpp",
@@ -6505,6 +7036,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StanzaError",
           "package": "pontarius-xmpp",
@@ -6519,6 +7051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe entity has sent XML that cannot be processed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamBadFormat",
           "package": "pontarius-xmpp",
@@ -6529,6 +7062,7 @@
         "index": {
           "description": "The entity has sent XML that cannot be processed",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamBadFormat",
           "package": "pontarius-xmpp",
@@ -6543,6 +7077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe entity has sent a namespace prefix that\n is unsupported, or has sent no namespace\n prefix on an element that needs such a prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamBadNamespacePrefix",
           "package": "pontarius-xmpp",
@@ -6553,6 +7088,7 @@
         "index": {
           "description": "The entity has sent namespace prefix that is unsupported or has sent no namespace prefix on an element that needs such prefix",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamBadNamespacePrefix",
           "package": "pontarius-xmpp",
@@ -6567,6 +7103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen an XmppFailure\n is encountered in\n closeStreams, this\n constructor wraps the\n elements collected so\n far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamCloseError",
           "package": "pontarius-xmpp",
@@ -6577,6 +7114,7 @@
         "index": {
           "description": "When an XmppFailure is encountered in closeStreams this constructor wraps the elements collected so far",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamCloseError",
           "normalized": "StreamCloseError([Element],XmppFailure)",
@@ -6593,6 +7131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server either (1) is closing the existing stream\n for this entity because a new stream has been initiated\n that conflicts with the existing stream, or (2) is\n refusing a new stream for this entity because allowing\n the new stream would conflict with an existing stream\n (e.g., because the server allows only a certain number\n of connections from the same IP address or allows only\n one server-to-server stream for a given domain pair as a\n way of helping to ensure in-order processing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamConflict",
           "package": "pontarius-xmpp",
@@ -6603,6 +7142,7 @@
         "index": {
           "description": "The server either is closing the existing stream for this entity because new stream has been initiated that conflicts with the existing stream or is refusing new stream for this entity because allowing the new stream would conflict with an existing stream e.g because the server allows only certain number of connections from the same IP address or allows only one server-to-server stream for given domain pair as way of helping to ensure in-order processing",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamConflict",
           "package": "pontarius-xmpp",
@@ -6617,6 +7157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne party is closing the stream because it\n has reason to believe that the other party has\n permanently lost the ability to communicate\n over the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamConnectionTimeout",
           "package": "pontarius-xmpp",
@@ -6627,6 +7168,7 @@
         "index": {
           "description": "One party is closing the stream because it has reason to believe that the other party has permanently lost the ability to communicate over the stream",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamConnectionTimeout",
           "package": "pontarius-xmpp",
@@ -6641,6 +7183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe stream has been closed.\n This exception is caught by the\n concurrent implementation, and\n will thus not be visible\n through use of \u003ccode\u003eSession\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamEndFailure",
           "package": "pontarius-xmpp",
@@ -6651,6 +7194,7 @@
         "index": {
           "description": "The stream has been closed This exception is caught by the concurrent implementation and will thus not be visible through use of Session",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamEndFailure",
           "package": "pontarius-xmpp",
@@ -6665,6 +7209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error XML stream\n element has been\n encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamErrorFailure",
           "package": "pontarius-xmpp",
@@ -6675,6 +7220,7 @@
         "index": {
           "description": "An error XML stream element has been encountered",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamErrorFailure",
           "package": "pontarius-xmpp",
@@ -6688,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamErrorInfo",
           "package": "pontarius-xmpp",
@@ -6697,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamErrorInfo",
           "package": "pontarius-xmpp",
@@ -6711,6 +7259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of the \u003ccode\u003eto\u003c/code\u003e attribute provided in the\n initial stream header corresponds to an FQDN that is no\n longer serviced by the receiving entity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamHostGone",
           "package": "pontarius-xmpp",
@@ -6721,6 +7270,7 @@
         "index": {
           "description": "The value of the to attribute provided in the initial stream header corresponds to an FQDN that is no longer serviced by the receiving entity",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamHostGone",
           "package": "pontarius-xmpp",
@@ -6735,6 +7285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of the \u003ccode\u003eto\u003c/code\u003e attribute provided in the\n initial stream header does not correspond to an FQDN\n that is serviced by the receiving entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamHostUnknown",
           "package": "pontarius-xmpp",
@@ -6745,6 +7296,7 @@
         "index": {
           "description": "The value of the to attribute provided in the initial stream header does not correspond to an FQDN that is serviced by the receiving entity",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamHostUnknown",
           "package": "pontarius-xmpp",
@@ -6759,6 +7311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stanza sent between two servers lacks a\n \u003ccode\u003eto\u003c/code\u003e or \u003ccode\u003efrom\u003c/code\u003e attribute, the \u003ccode\u003efrom\u003c/code\u003e or \u003ccode\u003eto\u003c/code\u003e\n attribute has no value, or the value violates\n the rules for XMPP addresses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamImproperAddressing",
           "package": "pontarius-xmpp",
@@ -6769,6 +7322,7 @@
         "index": {
           "description": "stanza sent between two servers lacks to or from attribute the from or to attribute has no value or the value violates the rules for XMPP addresses",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamImproperAddressing",
           "package": "pontarius-xmpp",
@@ -6783,6 +7337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server has experienced a\n misconfiguration or other internal error that\n prevents it from servicing the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamInternalServerError",
           "package": "pontarius-xmpp",
@@ -6793,6 +7348,7 @@
         "index": {
           "description": "The server has experienced misconfiguration or other internal error that prevents it from servicing the stream",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamInternalServerError",
           "package": "pontarius-xmpp",
@@ -6807,6 +7363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data provided in a \u003ccode\u003efrom\u003c/code\u003e attribute does not\n match an authorized JID or validated domain as\n negotiated (1) between two servers using SASL or\n Server Dialback, or (2) between a client and a server\n via SASL authentication and resource binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamInvalidFrom",
           "package": "pontarius-xmpp",
@@ -6817,6 +7374,7 @@
         "index": {
           "description": "The data provided in from attribute does not match an authorized JID or validated domain as negotiated between two servers using SASL or Server Dialback or between client and server via SASL authentication and resource binding",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamInvalidFrom",
           "package": "pontarius-xmpp",
@@ -6831,6 +7389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe stream namespace name is something other\n than \"http:\u003cem/\u003eetherx.jabber.org/streams\" (see\n Section 11.2) or the content namespace declared\n as the default namespace is not supported (e.g.,\n something other than \"jabber:client\" or\n \"jabber:server\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamInvalidNamespace",
           "package": "pontarius-xmpp",
@@ -6841,6 +7400,7 @@
         "index": {
           "description": "The stream namespace name is something other than http etherx.jabber.org streams see Section or the content namespace declared as the default namespace is not supported e.g something other than jabber client or jabber server",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamInvalidNamespace",
           "package": "pontarius-xmpp",
@@ -6855,6 +7415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe entity has sent invalid XML over the stream to a\n server that performs validation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamInvalidXml",
           "package": "pontarius-xmpp",
@@ -6865,6 +7426,7 @@
         "index": {
           "description": "The entity has sent invalid XML over the stream to server that performs validation",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamInvalidXml",
           "package": "pontarius-xmpp",
@@ -6879,6 +7441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe entity has attempted to send XML stanzas or\n other outbound data before the stream has been\n authenticated, or otherwise is not authorized to\n perform an action related to stream negotiation;\n the receiving entity MUST NOT process the offending\n data before sending the stream error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamNotAuthorized",
           "package": "pontarius-xmpp",
@@ -6889,6 +7452,7 @@
         "index": {
           "description": "The entity has attempted to send XML stanzas or other outbound data before the stream has been authenticated or otherwise is not authorized to perform an action related to stream negotiation the receiving entity MUST NOT process the offending data before sending the stream error",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamNotAuthorized",
           "package": "pontarius-xmpp",
@@ -6903,6 +7467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initiating entity has sent XML that violates\n the well-formedness rules of [XML] or [XML&#8209;NAMES].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamNotWellFormed",
           "package": "pontarius-xmpp",
@@ -6913,6 +7478,7 @@
         "index": {
           "description": "The initiating entity has sent XML that violates the well-formedness rules of XML or XML NAMES",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamNotWellFormed",
           "package": "pontarius-xmpp",
@@ -6927,6 +7493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe entity has violated some local service\n policy (e.g., a stanza exceeds a configured size\n limit); the server MAY choose to specify the\n policy in the \u003ctext/\u003e element or in an\n application-specific condition element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamPolicyViolation",
           "package": "pontarius-xmpp",
@@ -6937,6 +7504,7 @@
         "index": {
           "description": "The entity has violated some local service policy e.g stanza exceeds configured size limit the server MAY choose to specify the policy in the text element or in an application-specific condition element",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamPolicyViolation",
           "package": "pontarius-xmpp",
@@ -6951,6 +7519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server is unable to properly connect\n to a remote entity that is needed for\n authentication or authorization (e.g., in\n certain scenarios related to Server\n Dialback [XEP&#8209;0220]); this condition is\n not to be used when the cause of the error\n is within the administrative domain of the\n XMPP service provider, in which case the\n \u003cinternal-server-error /\u003e condition is\n more appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamRemoteConnectionFailed",
           "package": "pontarius-xmpp",
@@ -6961,6 +7530,7 @@
         "index": {
           "description": "The server is unable to properly connect to remote entity that is needed for authentication or authorization e.g in certain scenarios related to Server Dialback XEP this condition is not to be used when the cause of the error is within the administrative domain of the XMPP service provider in which case the internal-server-error condition is more appropriate",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamRemoteConnectionFailed",
           "package": "pontarius-xmpp",
@@ -6975,6 +7545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server is closing the stream because it has new\n (typically security-critical) features to offer, because\n the keys or certificates used to establish a secure context\n for the stream have expired or have been revoked during the\n life of the stream , because the TLS sequence number has\n wrapped, etc. The reset applies to the stream and to any\n security context established for that stream (e.g., via TLS\n and SASL), which means that encryption and authentication\n need to be negotiated again for the new stream (e.g., TLS\n session resumption cannot be used)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamReset",
           "package": "pontarius-xmpp",
@@ -6985,6 +7556,7 @@
         "index": {
           "description": "The server is closing the stream because it has new typically security-critical features to offer because the keys or certificates used to establish secure context for the stream have expired or have been revoked during the life of the stream because the TLS sequence number has wrapped etc The reset applies to the stream and to any security context established for that stream e.g via TLS and SASL which means that encryption and authentication need to be negotiated again for the new stream e.g TLS session resumption cannot be used",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamReset",
           "package": "pontarius-xmpp",
@@ -6999,6 +7571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server lacks the system resources\n necessary to service the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamResourceConstraint",
           "package": "pontarius-xmpp",
@@ -7009,6 +7582,7 @@
         "index": {
           "description": "The server lacks the system resources necessary to service the stream",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamResourceConstraint",
           "package": "pontarius-xmpp",
@@ -7023,6 +7597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehe entity has attempted to send restricted XML\n features such as a comment, processing instruction,\n DTD subset, or XML entity reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamRestrictedXml",
           "package": "pontarius-xmpp",
@@ -7033,6 +7608,7 @@
         "index": {
           "description": "he entity has attempted to send restricted XML features such as comment processing instruction DTD subset or XML entity reference",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamRestrictedXml",
           "package": "pontarius-xmpp",
@@ -7047,6 +7623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server will not provide service to the\n initiating entity but is redirecting traffic to\n another host under the administrative control of the\n same service provider.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamSeeOtherHost",
           "package": "pontarius-xmpp",
@@ -7057,6 +7634,7 @@
         "index": {
           "description": "The server will not provide service to the initiating entity but is redirecting traffic to another host under the administrative control of the same service provider",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamSeeOtherHost",
           "package": "pontarius-xmpp",
@@ -7071,6 +7649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server is being shut down and all active\n streams are being closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamSystemShutdown",
           "package": "pontarius-xmpp",
@@ -7081,6 +7660,7 @@
         "index": {
           "description": "The server is being shut down and all active streams are being closed",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamSystemShutdown",
           "package": "pontarius-xmpp",
@@ -7095,6 +7675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe error condition is not one of those\n defined by the other conditions in this list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamUndefinedCondition",
           "package": "pontarius-xmpp",
@@ -7105,6 +7686,7 @@
         "index": {
           "description": "The error condition is not one of those defined by the other conditions in this list",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamUndefinedCondition",
           "package": "pontarius-xmpp",
@@ -7119,6 +7701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initiating entity has encoded the\n stream in an encoding that is not supported\n by the server or has otherwise improperly\n encoded the stream (e.g., by violating the\n rules of the [UTF&#8209;8] encoding).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamUnsupportedEncoding",
           "package": "pontarius-xmpp",
@@ -7129,6 +7712,7 @@
         "index": {
           "description": "The initiating entity has encoded the stream in an encoding that is not supported by the server or has otherwise improperly encoded the stream e.g by violating the rules of the UTF encoding",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamUnsupportedEncoding",
           "package": "pontarius-xmpp",
@@ -7143,6 +7727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe receiving entity has advertised a\n mandatory-to-negotiate stream feature that the\n initiating entity does not support, and has\n offered no other mandatory-to-negotiate\n feature alongside the unsupported feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamUnsupportedFeature",
           "package": "pontarius-xmpp",
@@ -7153,6 +7738,7 @@
         "index": {
           "description": "The receiving entity has advertised mandatory-to-negotiate stream feature that the initiating entity does not support and has offered no other mandatory-to-negotiate feature alongside the unsupported feature",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamUnsupportedFeature",
           "package": "pontarius-xmpp",
@@ -7167,6 +7753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initiating entity has sent a\n first-level child of the stream that is not\n supported by the server, either because the\n receiving entity does not understand the\n namespace or because the receiving entity\n does not understand the element name for\n the applicable namespace (which might be\n the content namespace declared as the\n default namespace)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamUnsupportedStanzaType",
           "package": "pontarius-xmpp",
@@ -7177,6 +7764,7 @@
         "index": {
           "description": "The initiating entity has sent first-level child of the stream that is not supported by the server either because the receiving entity does not understand the namespace or because the receiving entity does not understand the element name for the applicable namespace which might be the content namespace declared as the default namespace",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamUnsupportedStanzaType",
           "package": "pontarius-xmpp",
@@ -7191,6 +7779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eversion\u003c/code\u003e attribute provided by the\n initiating entity in the stream header\n specifies a version of XMPP that is not\n supported by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "StreamUnsupportedVersion",
           "package": "pontarius-xmpp",
@@ -7201,6 +7790,7 @@
         "index": {
           "description": "The version attribute provided by the initiating entity in the stream header specifies version of XMPP that is not supported by the server",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "StreamUnsupportedVersion",
           "package": "pontarius-xmpp",
@@ -7215,6 +7805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSender wants to subscribe to presence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Subscribe",
           "package": "pontarius-xmpp",
@@ -7225,6 +7816,7 @@
         "index": {
           "description": "Sender wants to subscribe to presence",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Subscribe",
           "package": "pontarius-xmpp",
@@ -7239,6 +7831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSender has approved the subscription\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Subscribed",
           "package": "pontarius-xmpp",
@@ -7249,6 +7842,7 @@
         "index": {
           "description": "Sender has approved the subscription",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Subscribed",
           "package": "pontarius-xmpp",
@@ -7262,6 +7856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "SubscriptionRequired",
           "package": "pontarius-xmpp",
@@ -7271,6 +7866,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "SubscriptionRequired",
           "package": "pontarius-xmpp",
@@ -7285,6 +7881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll attempts to TCP\n connect to the server\n failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "TcpConnectionFailure",
           "package": "pontarius-xmpp",
@@ -7295,6 +7892,7 @@
         "index": {
           "description": "All attempts to TCP connect to the server failed",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "TcpConnectionFailure",
           "package": "pontarius-xmpp",
@@ -7309,6 +7907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error occurred in the\n TLS layer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "TlsError",
           "package": "pontarius-xmpp",
@@ -7319,6 +7918,7 @@
         "index": {
           "description": "An error occurred in the TLS layer",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "TlsError",
           "package": "pontarius-xmpp",
@@ -7333,6 +7933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server does not support\n the use of TLS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "TlsNoServerSupport",
           "package": "pontarius-xmpp",
@@ -7343,6 +7944,7 @@
         "index": {
           "description": "The server does not support the use of TLS",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "TlsNoServerSupport",
           "package": "pontarius-xmpp",
@@ -7357,6 +7959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection already secured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "TlsStreamSecured",
           "package": "pontarius-xmpp",
@@ -7367,6 +7970,7 @@
         "index": {
           "description": "Connection already secured",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "TlsStreamSecured",
           "package": "pontarius-xmpp",
@@ -7380,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Unavailable",
           "package": "pontarius-xmpp",
@@ -7389,6 +7994,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Unavailable",
           "package": "pontarius-xmpp",
@@ -7403,6 +8009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication-specific\n   condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "UndefinedCondition",
           "package": "pontarius-xmpp",
@@ -7413,6 +8020,7 @@
         "index": {
           "description": "Application-specific condition",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "UndefinedCondition",
           "package": "pontarius-xmpp",
@@ -7427,6 +8035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBadly timed request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "UnexpectedRequest",
           "package": "pontarius-xmpp",
@@ -7437,6 +8046,7 @@
         "index": {
           "description": "Badly timed request",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "UnexpectedRequest",
           "package": "pontarius-xmpp",
@@ -7451,6 +8061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSender is unsubscribing from presence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Unsubscribe",
           "package": "pontarius-xmpp",
@@ -7461,6 +8072,7 @@
         "index": {
           "description": "Sender is unsubscribing from presence",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Unsubscribe",
           "package": "pontarius-xmpp",
@@ -7475,6 +8087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSender has denied or cancelled a\n   subscription\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Unsubscribed",
           "package": "pontarius-xmpp",
@@ -7485,6 +8098,7 @@
         "index": {
           "description": "Sender has denied or cancelled subscription",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Unsubscribed",
           "package": "pontarius-xmpp",
@@ -7499,6 +8113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse custom method to create a StreamHandle. This\n will also be used by reconnect. For example, to\n establish TLS before starting the stream as done by\n GCM, see \u003ccode\u003econnectTls\u003c/code\u003e. You can also return an\n already established connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "UseConnection",
           "package": "pontarius-xmpp",
@@ -7509,6 +8124,7 @@
         "index": {
           "description": "Use custom method to create StreamHandle This will also be used by reconnect For example to establish TLS before starting the stream as done by GCM see connectTls You can also return an already established connection",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "UseConnection",
           "package": "pontarius-xmpp",
@@ -7523,6 +8139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse specified host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "UseHost",
           "package": "pontarius-xmpp",
@@ -7533,6 +8150,7 @@
         "index": {
           "description": "Use specified host",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "UseHost",
           "package": "pontarius-xmpp",
@@ -7547,6 +8165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse realm to resolv host. This is the\n default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "UseRealm",
           "package": "pontarius-xmpp",
@@ -7557,6 +8176,7 @@
         "index": {
           "description": "Use realm to resolv host This is the default",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "UseRealm",
           "package": "pontarius-xmpp",
@@ -7571,6 +8191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this hostname for a SRV lookup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "UseSrv",
           "package": "pontarius-xmpp",
@@ -7581,6 +8202,7 @@
         "index": {
           "description": "Use this hostname for SRV lookup",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "UseSrv",
           "package": "pontarius-xmpp",
@@ -7595,6 +8217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError is temporary - wait and retry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "Wait",
           "package": "pontarius-xmpp",
@@ -7605,6 +8228,7 @@
         "index": {
           "description": "Error is temporary wait and retry",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "Wait",
           "package": "pontarius-xmpp",
@@ -7619,6 +8243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentication with the\n server failed (unrecoverably)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "XmppAuthFailure",
           "package": "pontarius-xmpp",
@@ -7629,6 +8254,7 @@
         "index": {
           "description": "Authentication with the server failed unrecoverably",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "XmppAuthFailure",
           "package": "pontarius-xmpp",
@@ -7643,6 +8269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e\n occurred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "XmppIOException",
           "package": "pontarius-xmpp",
@@ -7653,6 +8280,7 @@
         "index": {
           "description": "An IOException occurred",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "XmppIOException",
           "package": "pontarius-xmpp",
@@ -7667,6 +8295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TCP details provided did not\n validate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "XmppIllegalTcpDetails",
           "package": "pontarius-xmpp",
@@ -7677,6 +8306,7 @@
         "index": {
           "description": "The TCP details provided did not validate",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "XmppIllegalTcpDetails",
           "package": "pontarius-xmpp",
@@ -7691,6 +8321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceived data is not valid XML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "XmppInvalidXml",
           "package": "pontarius-xmpp",
@@ -7701,6 +8332,7 @@
         "index": {
           "description": "Received data is not valid XML",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "XmppInvalidXml",
           "package": "pontarius-xmpp",
@@ -7715,6 +8347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action that required an active\n stream were performed when the\n \u003ccode\u003e\u003ca\u003eStreamState\u003c/a\u003e\u003c/code\u003e was \u003ccode\u003e\u003ca\u003eClosed\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "XmppNoStream",
           "package": "pontarius-xmpp",
@@ -7725,6 +8358,7 @@
         "index": {
           "description": "An action that required an active stream were performed when the StreamState was Closed",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "XmppNoStream",
           "package": "pontarius-xmpp",
@@ -7739,6 +8373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndefined condition. More\n information should be available in\n the log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "XmppOtherFailure",
           "package": "pontarius-xmpp",
@@ -7749,6 +8384,7 @@
         "index": {
           "description": "Undefined condition More information should be available in the log",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "XmppOtherFailure",
           "package": "pontarius-xmpp",
@@ -7763,6 +8399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer an IQ request. Only the first answer ist sent and Just True is\n returned when the answer is sucessfully sent. If an error occured during\n sending Just False is returned (and another attempt can be\n undertaken). Subsequent answers after the first sucessful one are dropped and\n (False is returned in that case)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "answerIQ",
           "package": "pontarius-xmpp",
@@ -7773,6 +8410,7 @@
         "index": {
           "description": "Answer an IQ request Only the first answer ist sent and Just True is returned when the answer is sucessfully sent If an error occured during sending Just False is returned and another attempt can be undertaken Subsequent answers after the first sucessful one are dropped and False is returned in that case",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "answerIQ",
           "normalized": "IQRequestTicket-\u003eEither StanzaError(Maybe Element)-\u003eIO(Maybe(Either XmppFailure()))",
@@ -7789,6 +8427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce an answer message with the given payload, setting \u003ca\u003efrom\u003c/a\u003e to the\n \u003ca\u003eto\u003c/a\u003e attributes in the original message. Produces a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e value of the\n provided message message has no \u003ca\u003efrom\u003c/a\u003e attribute. Sets the \u003ca\u003efrom\u003c/a\u003e attribute\n to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e to let the server assign one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "answerMessage",
           "package": "pontarius-xmpp",
@@ -7799,6 +8438,7 @@
         "index": {
           "description": "Produce an answer message with the given payload setting from to the to attributes in the original message Produces Nothing value of the provided message message has no from attribute Sets the from attribute to Nothing to let the server assign one",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "answerMessage",
           "normalized": "Message-\u003e[Element]-\u003eMaybe Message",
@@ -7815,6 +8455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the connection to the server. Closes the stream (by enforcing a\n write lock and sending a \u003c/stream:stream\u003e element), waits (blocks) for\n three seconds, and then closes the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "closeConnection",
           "package": "pontarius-xmpp",
@@ -7825,6 +8466,7 @@
         "index": {
           "description": "Close the connection to the server Closes the stream by enforcing write lock and sending stream stream element waits blocks for three seconds and then closes the connection",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "closeConnection",
           "normalized": "Session-\u003eIO()",
@@ -7841,6 +8483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "def",
           "package": "pontarius-xmpp",
@@ -7850,6 +8493,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "def",
           "package": "pontarius-xmpp",
@@ -7862,6 +8506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "digestMd5",
           "package": "pontarius-xmpp",
@@ -7870,6 +8515,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "digestMd5",
           "normalized": "Username-\u003eMaybe AuthZID-\u003ePassword-\u003eSaslHandler",
@@ -7886,6 +8532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the domainpart of the \u003ccode\u003eJid\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edomainpart [jid|foo@bar/quux|]\n\u003c/code\u003e\u003c/strong\u003e\"bar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "domainpart",
           "package": "pontarius-xmpp",
@@ -7896,6 +8543,7 @@
         "index": {
           "description": "Returns the domainpart of the Jid domainpart jid foo@bar quux bar",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "domainpart",
           "normalized": "Jid-\u003eText",
@@ -7911,6 +8559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuplicate the inbound channel of the session object. Most receiving\n functions discard stanzas they are not interested in from the inbound\n channel. Duplicating the channel ensures that those stanzas can aren't lost\n and can still be handled somewhere else.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "dupSession",
           "package": "pontarius-xmpp",
@@ -7921,6 +8570,7 @@
         "index": {
           "description": "Duplicate the inbound channel of the session object Most receiving functions discard stanzas they are not interested in from the inbound channel Duplicating the channel ensures that those stanzas can aren lost and can still be handled somewhere else",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "dupSession",
           "normalized": "Session-\u003eIO Session",
@@ -7937,6 +8587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable roster handling according to rfc 6121. See \u003ccode\u003egetRoster\u003c/code\u003e to\n acquire the current roster\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "enableRoster",
           "package": "pontarius-xmpp",
@@ -7947,6 +8598,7 @@
         "index": {
           "description": "Enable roster handling according to rfc See getRoster to acquire the current roster",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "enableRoster",
           "package": "pontarius-xmpp",
@@ -7961,6 +8613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd the current XMPP session. Kills the associated threads and closes the\n connection.\n\u003c/p\u003e\u003cp\u003eNote that XMPP clients (that have signalled availability) should send\n \"Unavailable\" presence prior to disconnecting.\n\u003c/p\u003e\u003cp\u003eThe connectionClosedHandler will not be called (to avoid possibly\n reestablishing the connection).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "endSession",
           "package": "pontarius-xmpp",
@@ -7971,6 +8624,7 @@
         "index": {
           "description": "End the current XMPP session Kills the associated threads and closes the connection Note that XMPP clients that have signalled availability should send Unavailable presence prior to disconnecting The connectionClosedHandler will not be called to avoid possibly reestablishing the connection",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "endSession",
           "normalized": "Session-\u003eIO()",
@@ -7986,6 +8640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "errorCondition",
           "package": "pontarius-xmpp",
@@ -7995,6 +8650,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "errorCondition",
           "package": "pontarius-xmpp",
@@ -8008,6 +8664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "errorText",
           "package": "pontarius-xmpp",
@@ -8017,6 +8674,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "errorText",
           "normalized": "(Maybe(Maybe LangTag,NonemptyText))",
@@ -8032,6 +8690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "errorXml",
           "package": "pontarius-xmpp",
@@ -8041,6 +8700,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "errorXml",
           "package": "pontarius-xmpp",
@@ -8055,6 +8715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message or\n message error matching the given respective predicate is found. Returns the\n matching message or message error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "filterMessages",
           "package": "pontarius-xmpp",
@@ -8065,6 +8726,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message or message error matching the given respective predicate is found Returns the matching message or message error",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "filterMessages",
           "normalized": "(MessageError-\u003eBool)-\u003e(Message-\u003eBool)-\u003eSession-\u003eIO(Either MessageError Message)",
@@ -8081,6 +8743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message or\n message error matching the given respective predicate is found. Returns the\n matching message or message error with annotations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "filterMessagesA",
           "package": "pontarius-xmpp",
@@ -8091,6 +8754,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message or message error matching the given respective predicate is found Returns the matching message or message error with annotations",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "filterMessagesA",
           "normalized": "(Annotated MessageError-\u003eBool)-\u003e(Annotated Message-\u003eBool)-\u003eSession-\u003eIO(Either(Annotated MessageError)(Annotated Message))",
@@ -8107,6 +8771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the JID assigned to us by the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "getJid",
           "package": "pontarius-xmpp",
@@ -8117,6 +8782,7 @@
         "index": {
           "description": "Return the JID assigned to us by the server",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "getJid",
           "normalized": "Session-\u003eIO(Maybe Jid)",
@@ -8133,6 +8799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message is\n found. Returns the message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "getMessage",
           "package": "pontarius-xmpp",
@@ -8143,6 +8810,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message is found Returns the message",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "getMessage",
           "normalized": "Session-\u003eIO Message",
@@ -8159,6 +8827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message is\n found. Returns the message with annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "getMessageA",
           "package": "pontarius-xmpp",
@@ -8169,6 +8838,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message is found Returns the message with annotations",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "getMessageA",
           "normalized": "Session-\u003eIO(Annotated Message)",
@@ -8185,6 +8855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next incoming stanza\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "getStanza",
           "package": "pontarius-xmpp",
@@ -8195,6 +8866,7 @@
         "index": {
           "description": "Get the next incoming stanza",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "getStanza",
           "normalized": "Session-\u003eIO(Stanza,[Annotation])",
@@ -8211,6 +8883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the channel of incoming stanzas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "getStanzaChan",
           "package": "pontarius-xmpp",
@@ -8221,6 +8894,7 @@
         "index": {
           "description": "Get the channel of incoming stanzas",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "getStanzaChan",
           "normalized": "Session-\u003eTChan(Stanza,[Annotation])",
@@ -8236,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqErrorFrom",
           "package": "pontarius-xmpp",
@@ -8245,6 +8920,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqErrorFrom",
           "package": "pontarius-xmpp",
@@ -8258,6 +8934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqErrorID",
           "package": "pontarius-xmpp",
@@ -8267,6 +8944,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqErrorID",
           "package": "pontarius-xmpp",
@@ -8280,6 +8958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqErrorLangTag",
           "package": "pontarius-xmpp",
@@ -8289,6 +8968,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqErrorLangTag",
           "package": "pontarius-xmpp",
@@ -8302,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqErrorPayload",
           "package": "pontarius-xmpp",
@@ -8311,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqErrorPayload",
           "package": "pontarius-xmpp",
@@ -8324,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqErrorStanzaError",
           "package": "pontarius-xmpp",
@@ -8333,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqErrorStanzaError",
           "package": "pontarius-xmpp",
@@ -8346,6 +9030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqErrorTo",
           "package": "pontarius-xmpp",
@@ -8355,6 +9040,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqErrorTo",
           "package": "pontarius-xmpp",
@@ -8369,6 +9055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual IQ request that created this ticket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqRequestBody",
           "package": "pontarius-xmpp",
@@ -8379,6 +9066,7 @@
         "index": {
           "description": "The actual IQ request that created this ticket",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqRequestBody",
           "normalized": "IQRequestTicket-\u003eIQRequest",
@@ -8394,6 +9082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqRequestFrom",
           "package": "pontarius-xmpp",
@@ -8403,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqRequestFrom",
           "package": "pontarius-xmpp",
@@ -8416,6 +9106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqRequestID",
           "package": "pontarius-xmpp",
@@ -8425,6 +9116,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqRequestID",
           "package": "pontarius-xmpp",
@@ -8438,6 +9130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqRequestLangTag",
           "package": "pontarius-xmpp",
@@ -8447,6 +9140,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqRequestLangTag",
           "package": "pontarius-xmpp",
@@ -8460,6 +9154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqRequestPayload",
           "package": "pontarius-xmpp",
@@ -8469,6 +9164,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqRequestPayload",
           "package": "pontarius-xmpp",
@@ -8482,6 +9178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqRequestTo",
           "package": "pontarius-xmpp",
@@ -8491,6 +9188,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqRequestTo",
           "package": "pontarius-xmpp",
@@ -8504,6 +9202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqRequestType",
           "package": "pontarius-xmpp",
@@ -8513,6 +9212,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqRequestType",
           "package": "pontarius-xmpp",
@@ -8526,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqResultFrom",
           "package": "pontarius-xmpp",
@@ -8535,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqResultFrom",
           "package": "pontarius-xmpp",
@@ -8548,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqResultID",
           "package": "pontarius-xmpp",
@@ -8557,6 +9260,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqResultID",
           "package": "pontarius-xmpp",
@@ -8570,6 +9274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqResultLangTag",
           "package": "pontarius-xmpp",
@@ -8579,6 +9284,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqResultLangTag",
           "package": "pontarius-xmpp",
@@ -8592,6 +9298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqResultPayload",
           "package": "pontarius-xmpp",
@@ -8601,6 +9308,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqResultPayload",
           "package": "pontarius-xmpp",
@@ -8614,6 +9322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "iqResultTo",
           "package": "pontarius-xmpp",
@@ -8623,6 +9332,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "iqResultTo",
           "package": "pontarius-xmpp",
@@ -8637,6 +9347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the JID is \u003cem\u003ebare\u003c/em\u003e, that is, it doesn't have a resource\n part, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eisBare [jid|foo@bar|]\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eisBare [jid|foo@bar/quux|]\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "isBare",
           "package": "pontarius-xmpp",
@@ -8647,6 +9358,7 @@
         "index": {
           "description": "Returns True if the JID is bare that is it doesn have resource part and False otherwise isBare jid foo@bar True isBare jid foo@bar quux False",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "isBare",
           "normalized": "Jid-\u003eBool",
@@ -8663,6 +9375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the JID is \u003cem\u003efull\u003c/em\u003e, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e\u003cpre\u003eisFull = not . isBare\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eisBare [jid|foo@bar|]\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eisBare [jid|foo@bar/quux|]\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "isFull",
           "package": "pontarius-xmpp",
@@ -8673,6 +9386,7 @@
         "index": {
           "description": "Returns True if the JID is full and False otherwise isFull not isBare isBare jid foo@bar True isBare jid foo@bar quux False",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "isFull",
           "normalized": "Jid-\u003eBool",
@@ -8689,6 +9403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs and validates a \u003ccode\u003eJid\u003c/code\u003e at compile time.\n\u003c/p\u003e\u003cp\u003eSyntax:\n \u003ccode\u003e\n     [jid|localpart@domainpart/resourcepart|]\n \u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e[jid|foo@bar/quux|]\n\u003c/code\u003e\u003c/strong\u003eparseJid \"foo@bar/quux\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eJust [jid|foo@bar/quux|] == jidFromTexts (Just \"foo\") \"bar\" (Just \"quux\")\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eJust [jid|foo@bar/quux|] == jidFromText \"foo@bar/quux\"\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003ejidFromText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "jid",
           "package": "pontarius-xmpp",
@@ -8699,6 +9414,7 @@
         "index": {
           "description": "Constructs and validates Jid at compile time Syntax jid localpart@domainpart resourcepart jid foo@bar quux parseJid foo@bar quux Just jid foo@bar quux jidFromTexts Just foo bar Just quux True Just jid foo@bar quux jidFromText foo@bar quux True See also jidFromText",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "jid",
           "package": "pontarius-xmpp",
@@ -8712,6 +9428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a JID\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elocalpart \u003c$\u003e jidFromText \"foo@bar/quux\"\n\u003c/code\u003e\u003c/strong\u003eJust (Just \"foo\")\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edomainpart \u003c$\u003e jidFromText \"foo@bar/quux\"\n\u003c/code\u003e\u003c/strong\u003eJust \"bar\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eresourcepart \u003c$\u003e jidFromText \"foo@bar/quux\"\n\u003c/code\u003e\u003c/strong\u003eJust (Just \"quux\")\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e Counterexamples\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eA JID must only have one '@':\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidFromText \"foo@bar@quux\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cp\u003e'@' must come before '/':\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidFromText \"foo/bar@quux\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cp\u003eThe domain part can't be empty:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidFromText \"foo@/quux\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cp\u003eBoth the local part and the resource part can be omitted (but the\n '@' and '/', must also be removed):\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidToTexts \u003c$\u003e jidFromText \"bar\"\n\u003c/code\u003e\u003c/strong\u003eJust (Nothing,\"bar\",Nothing)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidToTexts \u003c$\u003e jidFromText \"@bar\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidToTexts \u003c$\u003e jidFromText \"bar/\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "jidFromText",
           "package": "pontarius-xmpp",
@@ -8722,6 +9439,7 @@
         "index": {
           "description": "Parse JID localpart jidFromText foo@bar quux Just Just foo domainpart jidFromText foo@bar quux Just bar resourcepart jidFromText foo@bar quux Just Just quux Counterexamples JID must only have one jidFromText foo@bar@quux Nothing must come before jidFromText foo bar@quux Nothing The domain part can be empty jidFromText foo quux Nothing Both the local part and the resource part can be omitted but the and must also be removed jidToTexts jidFromText bar Just Nothing bar Nothing jidToTexts jidFromText bar Nothing jidToTexts jidFromText bar Nothing",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "jidFromText",
           "normalized": "Text-\u003eMaybe Jid",
@@ -8738,6 +9456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert localpart, domainpart, and resourcepart to a JID. Runs the\n appropriate stringprep profiles and validates the parts.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidFromTexts (Just \"foo\") \"bar\" (Just \"baz\") == jidFromText \"foo@bar/baz\"\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre\u003ejidFromTexts (localpart j) (domainpart j) (resourcepart j) == Just j\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "jidFromTexts",
           "package": "pontarius-xmpp",
@@ -8748,6 +9467,7 @@
         "index": {
           "description": "Convert localpart domainpart and resourcepart to JID Runs the appropriate stringprep profiles and validates the parts jidFromTexts Just foo bar Just baz jidFromText foo@bar baz True jidFromTexts localpart domainpart resourcepart Just",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "jidFromTexts",
           "normalized": "Maybe Text-\u003eText-\u003eMaybe Text-\u003eMaybe Jid",
@@ -8764,6 +9484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003ejid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "jidQ",
           "package": "pontarius-xmpp",
@@ -8774,6 +9495,7 @@
         "index": {
           "description": "Synonym for jid",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "jidQ",
           "package": "pontarius-xmpp",
@@ -8787,6 +9509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a JID to a Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "jidToText",
           "package": "pontarius-xmpp",
@@ -8797,6 +9520,7 @@
         "index": {
           "description": "Converts JID to Text",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "jidToText",
           "normalized": "Jid-\u003eText",
@@ -8813,6 +9537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a JID to up to three Text values: (the optional) localpart, the\n domainpart, and (the optional) resourcepart.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidToTexts [jid|foo@bar/quux|]\n\u003c/code\u003e\u003c/strong\u003e(Just \"foo\",\"bar\",Just \"quux\")\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidToTexts [jid|bar/quux|]\n\u003c/code\u003e\u003c/strong\u003e(Nothing,\"bar\",Just \"quux\")\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ejidToTexts [jid|foo@bar|]\n\u003c/code\u003e\u003c/strong\u003e(Just \"foo\",\"bar\",Nothing)\n\u003c/pre\u003e\u003cpre\u003ejidToTexts j == (localpart j, domainpart j, resourcepart j)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "jidToTexts",
           "package": "pontarius-xmpp",
@@ -8823,6 +9548,7 @@
         "index": {
           "description": "Converts JID to up to three Text values the optional localpart the domainpart and the optional resourcepart jidToTexts jid foo@bar quux Just foo bar Just quux jidToTexts jid bar quux Nothing bar Just quux jidToTexts jid foo@bar Just foo bar Nothing jidToTexts localpart domainpart resourcepart",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "jidToTexts",
           "normalized": "Jid-\u003e(Maybe Text,Text,Maybe Text)",
@@ -8839,6 +9565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses, validates, and possibly constructs a \u003ca\u003eLangTag\u003c/a\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "langTagFromText",
           "package": "pontarius-xmpp",
@@ -8849,6 +9576,7 @@
         "index": {
           "description": "Parses validates and possibly constructs LangTag object",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "langTagFromText",
           "normalized": "Text-\u003eMaybe LangTag",
@@ -8864,6 +9592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "langTagToText",
           "package": "pontarius-xmpp",
@@ -8873,6 +9602,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "langTagToText",
           "normalized": "LangTag-\u003eText",
@@ -8889,6 +9619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister your interest in inbound IQ stanzas of a specific type and\n namespace. The returned STM action yields the received, matching IQ stanzas.\n\u003c/p\u003e\u003cp\u003eIf a handler for IQ stanzas with the given type and namespace is already\n registered, the producer will be wrapped in Left. In this case the returned\n request tickets may already be processed elsewhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "listenIQ",
           "package": "pontarius-xmpp",
@@ -8898,6 +9629,7 @@
         "index": {
           "description": "Register your interest in inbound IQ stanzas of specific type and namespace The returned STM action yields the received matching IQ stanzas If handler for IQ stanzas with the given type and namespace is already registered the producer will be wrapped in Left In this case the returned request tickets may already be processed elsewhere",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "listenIQ",
           "normalized": "IQRequestType-\u003eText-\u003eSession-\u003eIO(Either(STM IQRequestTicket)(STM IQRequestTicket))",
@@ -8914,6 +9646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the localpart of the \u003ccode\u003eJid\u003c/code\u003e (if any).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elocalpart [jid|foo@bar/quux|]\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "localpart",
           "package": "pontarius-xmpp",
@@ -8924,6 +9657,7 @@
         "index": {
           "description": "Returns the localpart of the Jid if any localpart jid foo@bar quux Just foo",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "localpart",
           "normalized": "Jid-\u003eMaybe Text",
@@ -8939,6 +9673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty message\n\u003c/p\u003e\u003cpre\u003e\n message = Message { messageID      = Nothing\n                   , messageFrom    = Nothing\n                   , messageTo      = Nothing\n                   , messageLangTag = Nothing\n                   , messageType    = Normal\n                   , messagePayload = []\n                   }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "message",
           "package": "pontarius-xmpp",
@@ -8949,6 +9684,7 @@
         "index": {
           "description": "An empty message message Message messageID Nothing messageFrom Nothing messageTo Nothing messageLangTag Nothing messageType Normal messagePayload",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "message",
           "package": "pontarius-xmpp",
@@ -8961,6 +9697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageErrorFrom",
           "package": "pontarius-xmpp",
@@ -8970,6 +9707,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageErrorFrom",
           "package": "pontarius-xmpp",
@@ -8983,6 +9721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageErrorID",
           "package": "pontarius-xmpp",
@@ -8992,6 +9731,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageErrorID",
           "package": "pontarius-xmpp",
@@ -9005,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageErrorLangTag",
           "package": "pontarius-xmpp",
@@ -9014,6 +9755,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageErrorLangTag",
           "package": "pontarius-xmpp",
@@ -9027,6 +9769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageErrorPayload",
           "package": "pontarius-xmpp",
@@ -9036,6 +9779,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageErrorPayload",
           "normalized": "[Element]",
@@ -9051,6 +9795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageErrorStanzaError",
           "package": "pontarius-xmpp",
@@ -9060,6 +9805,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageErrorStanzaError",
           "package": "pontarius-xmpp",
@@ -9073,6 +9819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageErrorTo",
           "package": "pontarius-xmpp",
@@ -9082,6 +9829,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageErrorTo",
           "package": "pontarius-xmpp",
@@ -9095,6 +9843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageFrom",
           "package": "pontarius-xmpp",
@@ -9104,6 +9853,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageFrom",
           "package": "pontarius-xmpp",
@@ -9117,6 +9867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageID",
           "package": "pontarius-xmpp",
@@ -9126,6 +9877,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageID",
           "package": "pontarius-xmpp",
@@ -9139,6 +9891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageLangTag",
           "package": "pontarius-xmpp",
@@ -9148,6 +9901,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageLangTag",
           "package": "pontarius-xmpp",
@@ -9161,6 +9915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messagePayload",
           "package": "pontarius-xmpp",
@@ -9170,6 +9925,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messagePayload",
           "normalized": "[Element]",
@@ -9185,6 +9941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageTo",
           "package": "pontarius-xmpp",
@@ -9194,6 +9951,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageTo",
           "package": "pontarius-xmpp",
@@ -9207,6 +9965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "messageType",
           "package": "pontarius-xmpp",
@@ -9216,6 +9975,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "messageType",
           "package": "pontarius-xmpp",
@@ -9230,6 +9990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a StanzaError with \u003ccode\u003econdition\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eassociatedErrorType\u003c/a\u003e\u003c/code\u003e. Leave\n the error text and the application specific condition empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "mkStanzaError",
           "package": "pontarius-xmpp",
@@ -9239,6 +10000,7 @@
         "index": {
           "description": "Create StanzaError with condition and the associatedErrorType Leave the error text and the application specific condition empty",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "mkStanzaError",
           "normalized": "StanzaErrorCondition-\u003eStanzaError",
@@ -9255,6 +10017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a new stanza identifier based on the \u003ccode\u003e\u003ca\u003esessionStanzaIDs\u003c/a\u003e\u003c/code\u003e field of\n \u003ccode\u003e\u003ca\u003eSessionConfiguration\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "newStanzaID",
           "package": "pontarius-xmpp",
@@ -9265,6 +10028,7 @@
         "index": {
           "description": "Generates new stanza identifier based on the sessionStanzaIDs field of SessionConfiguration",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "newStanzaID",
           "normalized": "Session-\u003eIO Text",
@@ -9281,6 +10045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandler to be run when the conection to the XMPP server is\n closed. See also \u003ccode\u003ereconnect\u003c/code\u003e and 'reconnect\\'' for easy\n reconnection. The default does nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "onConnectionClosed",
           "package": "pontarius-xmpp",
@@ -9291,6 +10056,7 @@
         "index": {
           "description": "Handler to be run when the conection to the XMPP server is closed See also reconnect and reconnect for easy reconnection The default does nothing",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "onConnectionClosed",
           "normalized": "Session-\u003eXmppFailure-\u003eIO()",
@@ -9307,6 +10073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a JID string.\n\u003c/p\u003e\u003cp\u003eNote: This function is only meant to be used to reverse \u003ccode\u003eJid\u003c/code\u003e Show\n operations; it will produce an \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e value if the JID does not\n validate; please refer to \u003ccode\u003ejidFromText\u003c/code\u003e for a safe equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "parseJid",
           "package": "pontarius-xmpp",
@@ -9317,6 +10084,7 @@
         "index": {
           "description": "Parses JID string Note This function is only meant to be used to reverse Jid Show operations it will produce an undefined value if the JID does not validate please refer to jidFromText for safe equivalent",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "parseJid",
           "normalized": "String-\u003eJid",
@@ -9332,6 +10100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "parseLangTag",
           "package": "pontarius-xmpp",
@@ -9341,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "parseLangTag",
           "normalized": "String-\u003eLangTag",
@@ -9356,6 +10126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "plain",
           "package": "pontarius-xmpp",
@@ -9364,6 +10135,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "plain",
           "normalized": "Username-\u003eMaybe AuthZID-\u003ePassword-\u003eSaslHandler",
@@ -9379,6 +10151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlugins can modify incoming and outgoing stanzas, for example to en-\n and decrypt them, respectively\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "plugins",
           "package": "pontarius-xmpp",
@@ -9389,6 +10162,7 @@
         "index": {
           "description": "Plugins can modify incoming and outgoing stanzas for example to en and decrypt them respectively",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "plugins",
           "normalized": "[Plugin]",
@@ -9404,6 +10178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a recipient to a presence notification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presTo",
           "package": "pontarius-xmpp",
@@ -9414,6 +10189,7 @@
         "index": {
           "description": "Add recipient to presence notification",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presTo",
           "normalized": "Presence-\u003eJid-\u003ePresence",
@@ -9430,6 +10206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty presence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presence",
           "package": "pontarius-xmpp",
@@ -9440,6 +10217,7 @@
         "index": {
           "description": "An empty presence",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presence",
           "package": "pontarius-xmpp",
@@ -9452,6 +10230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceErrorFrom",
           "package": "pontarius-xmpp",
@@ -9461,6 +10240,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceErrorFrom",
           "package": "pontarius-xmpp",
@@ -9474,6 +10254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceErrorID",
           "package": "pontarius-xmpp",
@@ -9483,6 +10264,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceErrorID",
           "package": "pontarius-xmpp",
@@ -9496,6 +10278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceErrorLangTag",
           "package": "pontarius-xmpp",
@@ -9505,6 +10288,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceErrorLangTag",
           "package": "pontarius-xmpp",
@@ -9518,6 +10302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceErrorPayload",
           "package": "pontarius-xmpp",
@@ -9527,6 +10312,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceErrorPayload",
           "normalized": "[Element]",
@@ -9542,6 +10328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceErrorStanzaError",
           "package": "pontarius-xmpp",
@@ -9551,6 +10338,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceErrorStanzaError",
           "package": "pontarius-xmpp",
@@ -9564,6 +10352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceErrorTo",
           "package": "pontarius-xmpp",
@@ -9573,6 +10362,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceErrorTo",
           "package": "pontarius-xmpp",
@@ -9586,6 +10376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceFrom",
           "package": "pontarius-xmpp",
@@ -9595,6 +10386,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceFrom",
           "package": "pontarius-xmpp",
@@ -9608,6 +10400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceID",
           "package": "pontarius-xmpp",
@@ -9617,6 +10410,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceID",
           "package": "pontarius-xmpp",
@@ -9630,6 +10424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceLangTag",
           "package": "pontarius-xmpp",
@@ -9639,6 +10434,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceLangTag",
           "package": "pontarius-xmpp",
@@ -9653,6 +10449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal to the server that the client is no longer available for\n communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceOffline",
           "package": "pontarius-xmpp",
@@ -9663,6 +10460,7 @@
         "index": {
           "description": "Signal to the server that the client is no longer available for communication",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceOffline",
           "package": "pontarius-xmpp",
@@ -9677,6 +10475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal to the server that the client is available for communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceOnline",
           "package": "pontarius-xmpp",
@@ -9687,6 +10486,7 @@
         "index": {
           "description": "Signal to the server that the client is available for communication",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceOnline",
           "package": "pontarius-xmpp",
@@ -9700,6 +10500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presencePayload",
           "package": "pontarius-xmpp",
@@ -9709,6 +10510,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presencePayload",
           "normalized": "[Element]",
@@ -9725,6 +10527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest subscription with an entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceSubscribe",
           "package": "pontarius-xmpp",
@@ -9735,6 +10538,7 @@
         "index": {
           "description": "Request subscription with an entity",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceSubscribe",
           "normalized": "Jid-\u003ePresence",
@@ -9751,6 +10555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApprove a subscripton of an entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceSubscribed",
           "package": "pontarius-xmpp",
@@ -9761,6 +10566,7 @@
         "index": {
           "description": "Approve subscripton of an entity",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceSubscribed",
           "normalized": "Jid-\u003ePresence",
@@ -9776,6 +10582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceTo",
           "package": "pontarius-xmpp",
@@ -9785,6 +10592,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceTo",
           "package": "pontarius-xmpp",
@@ -9798,6 +10606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceType",
           "package": "pontarius-xmpp",
@@ -9807,6 +10616,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceType",
           "package": "pontarius-xmpp",
@@ -9821,6 +10631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd a subscription with an entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceUnsubscribe",
           "package": "pontarius-xmpp",
@@ -9831,6 +10642,7 @@
         "index": {
           "description": "End subscription with an entity",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceUnsubscribe",
           "normalized": "Jid-\u003ePresence",
@@ -9847,6 +10659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeny a not-yet approved or terminate a previously approved subscription of\n an entity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "presenceUnsubscribed",
           "package": "pontarius-xmpp",
@@ -9857,6 +10670,7 @@
         "index": {
           "description": "Deny not-yet approved or terminate previously approved subscription of an entity",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "presenceUnsubscribed",
           "normalized": "Jid-\u003ePresence",
@@ -9873,6 +10687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message or\n message error is found. Returns the message or message error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "pullMessage",
           "package": "pontarius-xmpp",
@@ -9883,6 +10698,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message or message error is found Returns the message or message error",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "pullMessage",
           "normalized": "Session-\u003eIO(Either MessageError Message)",
@@ -9899,6 +10715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a presence stanza from the inbound stanza channel, discards any other\n stanzas. Returns the presence stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "pullPresence",
           "package": "pontarius-xmpp",
@@ -9909,6 +10726,7 @@
         "index": {
           "description": "Read presence stanza from the inbound stanza channel discards any other stanzas Returns the presence stanza",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "pullPresence",
           "normalized": "Session-\u003eIO(Either PresenceError Presence)",
@@ -9925,6 +10743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReconnect with the stored settings.\n\u003c/p\u003e\u003cp\u003eWaits a random amount of seconds (between 0 and 60 inclusive) before the\n first attempt and an increasing amount after each attempt after that. Caps\n out at 2-5 minutes.\n\u003c/p\u003e\u003cp\u003eThis function does not set your presence to online, so you will have to do\n this yourself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "reconnect",
           "package": "pontarius-xmpp",
@@ -9934,6 +10753,7 @@
         "index": {
           "description": "Reconnect with the stored settings Waits random amount of seconds between and inclusive before the first attempt and an increasing amount after each attempt after that Caps out at minutes This function does not set your presence to online so you will have to do this yourself",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "reconnect",
           "normalized": "Integer-\u003eSession-\u003eIO(Bool,[XmppFailure])",
@@ -9949,6 +10769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReconnect with the stored settings with an unlimited number of retries.\n\u003c/p\u003e\u003cp\u003eWaits a random amount of seconds (between 0 and 60 inclusive) before the\n first attempt and an increasing amount after each attempt after that. Caps\n out at 2-5 minutes.\n\u003c/p\u003e\u003cp\u003eThis function does not set your presence to online, so you will have to do\n this yourself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "reconnect'",
           "package": "pontarius-xmpp",
@@ -9958,6 +10779,7 @@
         "index": {
           "description": "Reconnect with the stored settings with an unlimited number of retries Waits random amount of seconds between and inclusive before the first attempt and an increasing amount after each attempt after that Caps out at minutes This function does not set your presence to online so you will have to do this yourself",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "reconnect'",
           "normalized": "Session-\u003eIO Integer",
@@ -9973,6 +10795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReconnect immediately with the stored settings. Returns \u003ccode\u003eJust\u003c/code\u003e the error\n when the reconnect attempt fails and Nothing when no failure was encountered.\n\u003c/p\u003e\u003cp\u003eThis function does not set your presence to online, so you will have to do\n this yourself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "reconnectNow",
           "package": "pontarius-xmpp",
@@ -9982,6 +10805,7 @@
         "index": {
           "description": "Reconnect immediately with the stored settings Returns Just the error when the reconnect attempt fails and Nothing when no failure was encountered This function does not set your presence to online so you will have to do this yourself",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "reconnectNow",
           "normalized": "Session-\u003eIO(Maybe XmppFailure)",
@@ -9998,6 +10822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the resourcepart of the \u003ccode\u003eJid\u003c/code\u003e (if any).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eresourcepart [jid|foo@bar/quux|]\n\u003c/code\u003e\u003c/strong\u003eJust \"quux\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "resourcepart",
           "package": "pontarius-xmpp",
@@ -10008,6 +10833,7 @@
         "index": {
           "description": "Returns the resourcepart of the Jid if any resourcepart jid foo@bar quux Just quux",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "resourcepart",
           "normalized": "Jid-\u003eMaybe Text",
@@ -10022,6 +10848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "saslFailureCondition",
           "package": "pontarius-xmpp",
@@ -10031,6 +10858,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "saslFailureCondition",
           "package": "pontarius-xmpp",
@@ -10044,6 +10872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "saslFailureText",
           "package": "pontarius-xmpp",
@@ -10053,6 +10882,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "saslFailureText",
           "normalized": "Maybe(Maybe LangTag,Text)",
@@ -10068,6 +10898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "scramSha1",
           "package": "pontarius-xmpp",
@@ -10076,6 +10907,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "scramSha1",
           "normalized": "Username-\u003eMaybe AuthZID-\u003ePassword-\u003eSaslHandler",
@@ -10092,6 +10924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends an IQ, returns an STM action that returns the first inbound IQ with a\n matching ID that has type \u003ccode\u003eresult\u003c/code\u003e or \u003ccode\u003eerror\u003c/code\u003e or Nothing if the timeout was\n reached.\n\u003c/p\u003e\u003cp\u003eWhen sending the action fails, an XmppFailure is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "sendIQ",
           "package": "pontarius-xmpp",
@@ -10101,6 +10934,7 @@
         "index": {
           "description": "Sends an IQ returns an STM action that returns the first inbound IQ with matching ID that has type result or error or Nothing if the timeout was reached When sending the action fails an XmppFailure is returned",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "sendIQ",
           "normalized": "Maybe Integer-\u003eMaybe Jid-\u003eIQRequestType-\u003eMaybe LangTag-\u003eElement-\u003eSession-\u003eIO(Either XmppFailure(STM(Maybe(Annotated IQResponse))))",
@@ -10117,6 +10951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esendIQ\u003c/a\u003e\u003c/code\u003e, but waits for the answer IQ. Discards plugin Annotations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "sendIQ'",
           "package": "pontarius-xmpp",
@@ -10127,6 +10962,7 @@
         "index": {
           "description": "Like sendIQ but waits for the answer IQ Discards plugin Annotations",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "sendIQ'",
           "normalized": "Maybe Integer-\u003eMaybe Jid-\u003eIQRequestType-\u003eMaybe LangTag-\u003eElement-\u003eSession-\u003eIO(Either IQSendError IQResponse)",
@@ -10143,6 +10979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message stanza. Returns \u003ccode\u003eFalse\u003c/code\u003e when the \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e could not be\n sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "sendMessage",
           "package": "pontarius-xmpp",
@@ -10153,6 +10990,7 @@
         "index": {
           "description": "Send message stanza Returns False when the Message could not be sent",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "sendMessage",
           "normalized": "Message-\u003eSession-\u003eIO(Either XmppFailure())",
@@ -10169,6 +11007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a presence stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "sendPresence",
           "package": "pontarius-xmpp",
@@ -10179,6 +11018,7 @@
         "index": {
           "description": "Send presence stanza",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "sendPresence",
           "normalized": "Presence-\u003eSession-\u003eIO(Either XmppFailure())",
@@ -10195,6 +11035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e object by setting up a connection with an XMPP server.\n\u003c/p\u003e\u003cp\u003eWill connect to the specified host with the provided configuration. If the\n third parameter is a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value, \u003ccode\u003esession\u003c/code\u003e will attempt to authenticate and\n acquire an XMPP resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "session",
           "package": "pontarius-xmpp",
@@ -10204,6 +11045,7 @@
         "index": {
           "description": "Creates Session object by setting up connection with an XMPP server Will connect to the specified host with the provided configuration If the third parameter is Just value session will attempt to authenticate and acquire an XMPP resource",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "session",
           "normalized": "HostName-\u003eAuthData-\u003eSessionConfiguration-\u003eIO(Either XmppFailure Session)",
@@ -10219,6 +11061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to generate new stanza identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "sessionStanzaIDs",
           "package": "pontarius-xmpp",
@@ -10229,6 +11072,7 @@
         "index": {
           "description": "Function to generate new stanza identifiers",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "sessionStanzaIDs",
           "package": "pontarius-xmpp",
@@ -10243,6 +11087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for the \u003ccode\u003eStream\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "sessionStreamConfiguration",
           "package": "pontarius-xmpp",
@@ -10253,6 +11098,7 @@
         "index": {
           "description": "Configuration for the Stream object",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "sessionStreamConfiguration",
           "package": "pontarius-xmpp",
@@ -10267,6 +11113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the handler to be executed when the server connection is closed. To\n avoid race conditions the initial value should be set in the configuration\n when creating the session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "setConnectionClosedHandler",
           "package": "pontarius-xmpp",
@@ -10277,6 +11124,7 @@
         "index": {
           "description": "Changes the handler to be executed when the server connection is closed To avoid race conditions the initial value should be set in the configuration when creating the session",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "setConnectionClosedHandler",
           "normalized": "(XmppFailure-\u003eSession-\u003eIO())-\u003eSession-\u003eIO()",
@@ -10293,6 +11141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthenticate using, in order of preference, \u003ccode\u003e\u003ca\u003escramSha1\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edigestMd5\u003c/a\u003e\u003c/code\u003e and\n finally, if both of those are not support and the stream is \u003ccode\u003e\u003ca\u003eSecured\u003c/a\u003e\u003c/code\u003e with\n TLS, try \u003ccode\u003e\u003ca\u003eplain\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe resource will be decided by the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "simpleAuth",
           "package": "pontarius-xmpp",
@@ -10303,6 +11152,7 @@
         "index": {
           "description": "Authenticate using in order of preference scramSha1 digestMd5 and finally if both of those are not support and the stream is Secured with TLS try plain The resource will be decided by the server",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "simpleAuth",
           "normalized": "Username-\u003ePassword-\u003eAuthData",
@@ -10318,6 +11168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "stanzaErrorApplicationSpecificCondition",
           "package": "pontarius-xmpp",
@@ -10327,6 +11178,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "stanzaErrorApplicationSpecificCondition",
           "package": "pontarius-xmpp",
@@ -10340,6 +11192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "stanzaErrorCondition",
           "package": "pontarius-xmpp",
@@ -10349,6 +11202,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "stanzaErrorCondition",
           "package": "pontarius-xmpp",
@@ -10362,6 +11216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "stanzaErrorText",
           "package": "pontarius-xmpp",
@@ -10371,6 +11226,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "stanzaErrorText",
           "normalized": "Maybe(Maybe LangTag,NonemptyText)",
@@ -10386,6 +11242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "stanzaErrorType",
           "package": "pontarius-xmpp",
@@ -10395,6 +11252,7 @@
         },
         "index": {
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "stanzaErrorType",
           "package": "pontarius-xmpp",
@@ -10409,6 +11267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003eJid\u003c/code\u003e without the resourcepart (if any).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoBare [jid|foo@bar/quux|] == [jid|foo@bar|]\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "toBare",
           "package": "pontarius-xmpp",
@@ -10419,6 +11278,7 @@
         "index": {
           "description": "Returns the Jid without the resourcepart if any toBare jid foo@bar quux jid foo@bar True",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "toBare",
           "normalized": "Jid-\u003eJid",
@@ -10435,6 +11295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnregister a previously registered IQ handler. No more IQ stanzas will be\n delivered to any of the returned producers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "unlistenIQ",
           "package": "pontarius-xmpp",
@@ -10444,6 +11305,7 @@
         "index": {
           "description": "Unregister previously registered IQ handler No more IQ stanzas will be delivered to any of the returned producers",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "unlistenIQ",
           "normalized": "IQRequestType-\u003eText-\u003eSession-\u003eIO()",
@@ -10460,6 +11322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message matching\n the given predicate is found. Returns the matching message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "waitForMessage",
           "package": "pontarius-xmpp",
@@ -10470,6 +11333,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message matching the given predicate is found Returns the matching message",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "waitForMessage",
           "normalized": "(Message-\u003eBool)-\u003eSession-\u003eIO Message",
@@ -10486,6 +11350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message matching\n the given predicate is found. Returns the matching message with annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "waitForMessageA",
           "package": "pontarius-xmpp",
@@ -10496,6 +11361,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message matching the given predicate is found Returns the matching message with annotations",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "waitForMessageA",
           "normalized": "(Annotated Message-\u003eBool)-\u003eSession-\u003eIO(Annotated Message)",
@@ -10512,6 +11378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message error\n matching the given predicate is found. Returns the matching message error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "waitForMessageError",
           "package": "pontarius-xmpp",
@@ -10522,6 +11389,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message error matching the given predicate is found Returns the matching message error",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "waitForMessageError",
           "normalized": "(MessageError-\u003eBool)-\u003eSession-\u003eIO MessageError",
@@ -10538,6 +11406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a message error\n matching the given predicate is found. Returns the matching message error with\n annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "waitForMessageErrorA",
           "package": "pontarius-xmpp",
@@ -10548,6 +11417,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until message error matching the given predicate is found Returns the matching message error with annotations",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "waitForMessageErrorA",
           "normalized": "(Annotated MessageError-\u003eBool)-\u003eSession-\u003eIO(Annotated MessageError)",
@@ -10564,6 +11434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw and discard stanzas from the inbound channel until a presence stanza matching the given predicate is found. Return the presence stanza with annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "waitForPresence",
           "package": "pontarius-xmpp",
@@ -10574,6 +11445,7 @@
         "index": {
           "description": "Draw and discard stanzas from the inbound channel until presence stanza matching the given predicate is found Return the presence stanza with annotations",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "waitForPresence",
           "normalized": "(Presence-\u003eBool)-\u003eSession-\u003eIO Presence",
@@ -10590,6 +11462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until the connection of the stream is re-established\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:28 UTC 2014",
           "module": "Network.Xmpp",
           "name": "waitForStream",
           "package": "pontarius-xmpp",
@@ -10600,6 +11473,7 @@
         "index": {
           "description": "Wait until the connection of the stream is re-established",
           "hierarchy": "Network Xmpp",
+          "indexed": "2014-03-11T19:41:28",
           "module": "Network.Xmpp",
           "name": "waitForStream",
           "normalized": "Session-\u003eIO()",

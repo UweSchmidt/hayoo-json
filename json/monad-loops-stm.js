@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-loops-stm"
+        "phrase": "monad-loops-stm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:03 UTC 2014",
           "module": "Control.Monad.Loops.STM",
           "name": "STM",
           "package": "monad-loops-stm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Loops STM",
+          "indexed": "2014-03-11T19:20:03",
           "module": "Control.Monad.Loops.STM",
           "name": "STM",
           "package": "monad-loops-stm",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eforever\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eatomically\u003c/a\u003e\u003c/code\u003e rolled\n into one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:03 UTC 2014",
           "module": "Control.Monad.Loops.STM",
           "name": "atomLoop",
           "package": "monad-loops-stm",
@@ -50,6 +53,7 @@
         "index": {
           "description": "forever and atomically rolled into one",
           "hierarchy": "Control Monad Loops STM",
+          "indexed": "2014-03-11T19:20:03",
           "module": "Control.Monad.Loops.STM",
           "name": "atomLoop",
           "normalized": "STM a-\u003eIO()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eatomLoop\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:03 UTC 2014",
           "module": "Control.Monad.Loops.STM",
           "name": "forkAtomLoop",
           "package": "monad-loops-stm",
@@ -76,6 +81,7 @@
         "index": {
           "description": "atomLoop with forkIO",
           "hierarchy": "Control Monad Loops STM",
+          "indexed": "2014-03-11T19:20:03",
           "module": "Control.Monad.Loops.STM",
           "name": "forkAtomLoop",
           "normalized": "STM a-\u003eIO ThreadId",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eretry\u003c/a\u003e\u003c/code\u003e until the given condition is true of\n the given value.  Then return the value that satisfied the condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:03 UTC 2014",
           "module": "Control.Monad.Loops.STM",
           "name": "waitFor",
           "package": "monad-loops-stm",
@@ -102,6 +109,7 @@
         "index": {
           "description": "retry until the given condition is true of the given value Then return the value that satisfied the condition",
           "hierarchy": "Control Monad Loops STM",
+          "indexed": "2014-03-11T19:20:03",
           "module": "Control.Monad.Loops.STM",
           "name": "waitFor",
           "normalized": "(a-\u003eBool)-\u003eSTM a-\u003eSTM a",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewaitFor\u003c/a\u003e\u003c/code\u003e a value satisfying a condition to come out of a\n \u003ccode\u003e\u003ca\u003eTChan\u003c/a\u003e\u003c/code\u003e, reading and discarding everything else.\n Returns the winner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:03 UTC 2014",
           "module": "Control.Monad.Loops.STM",
           "name": "waitForEvent",
           "package": "monad-loops-stm",
@@ -128,6 +137,7 @@
         "index": {
           "description": "waitFor value satisfying condition to come out of TChan reading and discarding everything else Returns the winner",
           "hierarchy": "Control Monad Loops STM",
+          "indexed": "2014-03-11T19:20:03",
           "module": "Control.Monad.Loops.STM",
           "name": "waitForEvent",
           "normalized": "(a-\u003eBool)-\u003eTChan a-\u003eSTM a",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eretry\u003c/a\u003e\u003c/code\u003e until the given value is \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e _, returning\n the contained value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:03 UTC 2014",
           "module": "Control.Monad.Loops.STM",
           "name": "waitForJust",
           "package": "monad-loops-stm",
@@ -154,6 +165,7 @@
         "index": {
           "description": "retry until the given value is Just returning the contained value",
           "hierarchy": "Control Monad Loops STM",
+          "indexed": "2014-03-11T19:20:03",
           "module": "Control.Monad.Loops.STM",
           "name": "waitForJust",
           "normalized": "STM(Maybe a)-\u003eSTM a",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eretry\u003c/a\u003e\u003c/code\u003e until the given value is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:03 UTC 2014",
           "module": "Control.Monad.Loops.STM",
           "name": "waitForTrue",
           "package": "monad-loops-stm",
@@ -180,6 +193,7 @@
         "index": {
           "description": "retry until the given value is True",
           "hierarchy": "Control Monad Loops STM",
+          "indexed": "2014-03-11T19:20:03",
           "module": "Control.Monad.Loops.STM",
           "name": "waitForTrue",
           "normalized": "STM Bool-\u003eSTM()",

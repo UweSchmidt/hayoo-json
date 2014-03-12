@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zsh-battery"
+        "phrase": "zsh-battery",
+        "type": "phrase"
       },
       "type": "context"
     }

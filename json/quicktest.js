@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quicktest"
+        "phrase": "quicktest",
+        "type": "phrase"
       },
       "type": "context"
     }

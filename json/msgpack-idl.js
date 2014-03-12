@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "msgpack-idl"
+        "phrase": "msgpack-idl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Check",
           "name": "Check",
           "package": "msgpack-idl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Check",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Check",
           "name": "Check",
           "package": "msgpack-idl",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Check",
           "name": "check",
           "package": "msgpack-idl",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Check",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Check",
           "name": "check",
           "normalized": "Spec-\u003eBool",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "Cpp",
           "package": "msgpack-idl",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Cpp",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "Cpp",
           "package": "msgpack-idl",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "Config",
           "package": "msgpack-idl",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Cpp",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "Config",
           "package": "msgpack-idl",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "Config",
           "package": "msgpack-idl",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Cpp",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "Config",
           "package": "msgpack-idl",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Cpp",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "configNameSpace",
           "package": "msgpack-idl",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Cpp",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "configNameSpace",
           "package": "msgpack-idl",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "configPFICommon",
           "package": "msgpack-idl",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Cpp",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "configPFICommon",
           "package": "msgpack-idl",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "generate",
           "package": "msgpack-idl",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Cpp",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Cpp",
           "name": "generate",
           "normalized": "Config-\u003eSpec-\u003eIO()",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "Erlang",
           "package": "msgpack-idl",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Erlang",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "Erlang",
           "package": "msgpack-idl",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "Config",
           "package": "msgpack-idl",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Erlang",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "Config",
           "package": "msgpack-idl",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "Config",
           "package": "msgpack-idl",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Erlang",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "Config",
           "package": "msgpack-idl",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Erlang",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "generate",
           "package": "msgpack-idl",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Erlang",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Erlang",
           "name": "generate",
           "normalized": "Config-\u003eSpec-\u003eIO()",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "Haskell",
           "package": "msgpack-idl",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Haskell",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "Haskell",
           "package": "msgpack-idl",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "Config",
           "package": "msgpack-idl",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Haskell",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "Config",
           "package": "msgpack-idl",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "Config",
           "package": "msgpack-idl",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Haskell",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "Config",
           "package": "msgpack-idl",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Haskell",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "generate",
           "package": "msgpack-idl",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Haskell",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Haskell",
           "name": "generate",
           "normalized": "Config-\u003eSpec-\u003eIO()",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "Java",
           "package": "msgpack-idl",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Java",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "Java",
           "package": "msgpack-idl",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "Config",
           "package": "msgpack-idl",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Java",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "Config",
           "package": "msgpack-idl",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "Config",
           "package": "msgpack-idl",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Java",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "Config",
           "package": "msgpack-idl",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Java",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "configPackage",
           "package": "msgpack-idl",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Java",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "configPackage",
           "package": "msgpack-idl",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "generate",
           "package": "msgpack-idl",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Java",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Java",
           "name": "generate",
           "normalized": "Config-\u003eSpec-\u003eIO()",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "Perl",
           "package": "msgpack-idl",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Perl",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "Perl",
           "package": "msgpack-idl",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "Config",
           "package": "msgpack-idl",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Perl",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "Config",
           "package": "msgpack-idl",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "Config",
           "package": "msgpack-idl",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Perl",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "Config",
           "package": "msgpack-idl",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Perl",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "configNameSpace",
           "package": "msgpack-idl",
@@ -659,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Perl",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "configNameSpace",
           "package": "msgpack-idl",
@@ -672,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "generate",
           "package": "msgpack-idl",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Perl",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Perl",
           "name": "generate",
           "normalized": "Config-\u003eSpec-\u003eIO()",
@@ -695,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "Php",
           "package": "msgpack-idl",
@@ -703,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Php",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "Php",
           "package": "msgpack-idl",
@@ -716,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "Config",
           "package": "msgpack-idl",
@@ -724,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Php",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "Config",
           "package": "msgpack-idl",
@@ -737,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "Config",
           "package": "msgpack-idl",
@@ -746,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Php",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "Config",
           "package": "msgpack-idl",
@@ -759,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -768,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Php",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -781,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "generate",
           "package": "msgpack-idl",
@@ -790,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Php",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Php",
           "name": "generate",
           "normalized": "Config-\u003eSpec-\u003eIO()",
@@ -804,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "Python",
           "package": "msgpack-idl",
@@ -812,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Python",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "Python",
           "package": "msgpack-idl",
@@ -825,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "Config",
           "package": "msgpack-idl",
@@ -833,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Python",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "Config",
           "package": "msgpack-idl",
@@ -846,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "Config",
           "package": "msgpack-idl",
@@ -855,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Python",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "Config",
           "package": "msgpack-idl",
@@ -868,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -877,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Python",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -890,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "generate",
           "package": "msgpack-idl",
@@ -899,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Python",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Python",
           "name": "generate",
           "normalized": "Config-\u003eSpec-\u003eIO()",
@@ -913,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "Ruby",
           "package": "msgpack-idl",
@@ -921,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Ruby",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "Ruby",
           "package": "msgpack-idl",
@@ -934,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "Config",
           "package": "msgpack-idl",
@@ -942,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Ruby",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "Config",
           "package": "msgpack-idl",
@@ -955,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "Config",
           "package": "msgpack-idl",
@@ -964,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Ruby",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "Config",
           "package": "msgpack-idl",
@@ -977,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -986,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Ruby",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "configFilePath",
           "package": "msgpack-idl",
@@ -999,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "configModule",
           "package": "msgpack-idl",
@@ -1008,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Ruby",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "configModule",
           "package": "msgpack-idl",
@@ -1021,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "generate",
           "package": "msgpack-idl",
@@ -1030,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL CodeGen Ruby",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.CodeGen.Ruby",
           "name": "generate",
           "normalized": "Config-\u003eSpec-\u003eIO()",
@@ -1044,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Internal",
           "name": "Internal",
           "package": "msgpack-idl",
@@ -1052,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Internal",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Internal",
           "name": "Internal",
           "package": "msgpack-idl",
@@ -1065,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Internal",
           "name": "withDirectory",
           "package": "msgpack-idl",
@@ -1074,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Internal",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Internal",
           "name": "withDirectory",
           "normalized": "FilePath-\u003eIO a-\u003eIO a",
@@ -1089,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Parser",
           "name": "Parser",
           "package": "msgpack-idl",
@@ -1097,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Parser",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Parser",
           "name": "Parser",
           "package": "msgpack-idl",
@@ -1110,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Parser",
           "name": "idl",
           "package": "msgpack-idl",
@@ -1119,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Parser",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Parser",
           "name": "idl",
           "package": "msgpack-idl",
@@ -1131,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Syntax",
           "package": "msgpack-idl",
@@ -1139,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Syntax",
           "package": "msgpack-idl",
@@ -1152,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Decl",
           "package": "msgpack-idl",
@@ -1160,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Decl",
           "package": "msgpack-idl",
@@ -1173,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Field",
           "package": "msgpack-idl",
@@ -1181,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Field",
           "package": "msgpack-idl",
@@ -1194,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Literal",
           "package": "msgpack-idl",
@@ -1202,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Literal",
           "package": "msgpack-idl",
@@ -1215,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Method",
           "package": "msgpack-idl",
@@ -1223,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Method",
           "package": "msgpack-idl",
@@ -1236,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Spec",
           "package": "msgpack-idl",
@@ -1244,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Spec",
           "package": "msgpack-idl",
@@ -1257,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Type",
           "package": "msgpack-idl",
@@ -1265,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Type",
           "package": "msgpack-idl",
@@ -1278,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Field",
           "package": "msgpack-idl",
@@ -1287,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Field",
           "package": "msgpack-idl",
@@ -1300,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Function",
           "package": "msgpack-idl",
@@ -1309,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "Function",
           "package": "msgpack-idl",
@@ -1322,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "InheritAll",
           "package": "msgpack-idl",
@@ -1331,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "InheritAll",
           "package": "msgpack-idl",
@@ -1344,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "InheritName",
           "package": "msgpack-idl",
@@ -1353,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "InheritName",
           "package": "msgpack-idl",
@@ -1366,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LBool",
           "package": "msgpack-idl",
@@ -1375,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LBool",
           "package": "msgpack-idl",
@@ -1388,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LFloat",
           "package": "msgpack-idl",
@@ -1397,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LFloat",
           "package": "msgpack-idl",
@@ -1410,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LInt",
           "package": "msgpack-idl",
@@ -1419,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LInt",
           "package": "msgpack-idl",
@@ -1432,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LNull",
           "package": "msgpack-idl",
@@ -1441,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LNull",
           "package": "msgpack-idl",
@@ -1454,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LString",
           "package": "msgpack-idl",
@@ -1463,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "LString",
           "package": "msgpack-idl",
@@ -1476,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPEnum",
           "package": "msgpack-idl",
@@ -1485,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPEnum",
           "package": "msgpack-idl",
@@ -1498,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPException",
           "package": "msgpack-idl",
@@ -1507,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPException",
           "package": "msgpack-idl",
@@ -1520,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPMessage",
           "package": "msgpack-idl",
@@ -1529,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPMessage",
           "package": "msgpack-idl",
@@ -1542,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPService",
           "package": "msgpack-idl",
@@ -1551,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPService",
           "package": "msgpack-idl",
@@ -1564,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPType",
           "package": "msgpack-idl",
@@ -1573,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "MPType",
           "package": "msgpack-idl",
@@ -1586,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TBool",
           "package": "msgpack-idl",
@@ -1595,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TBool",
           "package": "msgpack-idl",
@@ -1608,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TFloat",
           "package": "msgpack-idl",
@@ -1617,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TFloat",
           "package": "msgpack-idl",
@@ -1630,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TInt",
           "package": "msgpack-idl",
@@ -1639,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TInt",
           "package": "msgpack-idl",
@@ -1652,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TList",
           "package": "msgpack-idl",
@@ -1661,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TList",
           "package": "msgpack-idl",
@@ -1674,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TMap",
           "package": "msgpack-idl",
@@ -1683,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TMap",
           "package": "msgpack-idl",
@@ -1696,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TNullable",
           "package": "msgpack-idl",
@@ -1705,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TNullable",
           "package": "msgpack-idl",
@@ -1718,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TObject",
           "package": "msgpack-idl",
@@ -1727,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TObject",
           "package": "msgpack-idl",
@@ -1740,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TRaw",
           "package": "msgpack-idl",
@@ -1749,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TRaw",
           "package": "msgpack-idl",
@@ -1762,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TString",
           "package": "msgpack-idl",
@@ -1771,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TString",
           "package": "msgpack-idl",
@@ -1784,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TTuple",
           "package": "msgpack-idl",
@@ -1793,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TTuple",
           "normalized": "TTuple[Type]",
@@ -1808,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TUserDef",
           "package": "msgpack-idl",
@@ -1817,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "TUserDef",
           "normalized": "TUserDef Text[Type]",
@@ -1832,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "enumMem",
           "package": "msgpack-idl",
@@ -1841,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "enumMem",
           "normalized": "[(Int,Text)]",
@@ -1856,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "enumName",
           "package": "msgpack-idl",
@@ -1865,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "enumName",
           "package": "msgpack-idl",
@@ -1878,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "excFields",
           "package": "msgpack-idl",
@@ -1887,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "excFields",
           "normalized": "[Field]",
@@ -1902,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "excName",
           "package": "msgpack-idl",
@@ -1911,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "excName",
           "package": "msgpack-idl",
@@ -1924,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "excParam",
           "package": "msgpack-idl",
@@ -1933,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "excParam",
           "normalized": "[Text]",
@@ -1948,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "excSuper",
           "package": "msgpack-idl",
@@ -1957,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "excSuper",
           "package": "msgpack-idl",
@@ -1970,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "fldDefault",
           "package": "msgpack-idl",
@@ -1979,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "fldDefault",
           "package": "msgpack-idl",
@@ -1992,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "fldId",
           "package": "msgpack-idl",
@@ -2001,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "fldId",
           "package": "msgpack-idl",
@@ -2014,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "fldName",
           "package": "msgpack-idl",
@@ -2023,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "fldName",
           "package": "msgpack-idl",
@@ -2036,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "fldType",
           "package": "msgpack-idl",
@@ -2045,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "fldType",
           "package": "msgpack-idl",
@@ -2058,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "methodArgs",
           "package": "msgpack-idl",
@@ -2067,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "methodArgs",
           "normalized": "[Field]",
@@ -2082,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "methodInherit",
           "package": "msgpack-idl",
@@ -2091,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "methodInherit",
           "package": "msgpack-idl",
@@ -2104,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "methodName",
           "package": "msgpack-idl",
@@ -2113,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "methodName",
           "package": "msgpack-idl",
@@ -2126,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "methodRetType",
           "package": "msgpack-idl",
@@ -2135,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "methodRetType",
           "package": "msgpack-idl",
@@ -2148,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "msgFields",
           "package": "msgpack-idl",
@@ -2157,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "msgFields",
           "normalized": "[Field]",
@@ -2172,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "msgName",
           "package": "msgpack-idl",
@@ -2181,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "msgName",
           "package": "msgpack-idl",
@@ -2194,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "msgParam",
           "package": "msgpack-idl",
@@ -2203,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "msgParam",
           "normalized": "[Text]",
@@ -2218,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "serviceMethods",
           "package": "msgpack-idl",
@@ -2227,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "serviceMethods",
           "normalized": "[Method]",
@@ -2242,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "serviceName",
           "package": "msgpack-idl",
@@ -2251,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "serviceName",
           "package": "msgpack-idl",
@@ -2264,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "serviceVersion",
           "package": "msgpack-idl",
@@ -2273,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "serviceVersion",
           "package": "msgpack-idl",
@@ -2286,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "tyName",
           "package": "msgpack-idl",
@@ -2295,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "tyName",
           "package": "msgpack-idl",
@@ -2308,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "tyType",
           "package": "msgpack-idl",
@@ -2317,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL Syntax",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL.Syntax",
           "name": "tyType",
           "package": "msgpack-idl",
@@ -2330,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:06 UTC 2014",
           "module": "Language.MessagePack.IDL",
           "name": "IDL",
           "package": "msgpack-idl",
@@ -2338,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Language MessagePack IDL",
+          "indexed": "2014-03-11T19:23:06",
           "module": "Language.MessagePack.IDL",
           "name": "IDL",
           "package": "msgpack-idl",

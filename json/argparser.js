@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "argparser"
+        "phrase": "argparser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePreprocess args from a list of words to a pair containing positional args/flag arguments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.ArgsProcess",
           "name": "ArgsProcess",
           "package": "argparser",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Preprocess args from list of words to pair containing positional args flag arguments",
           "hierarchy": "System Console ArgParser ArgsProcess",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.ArgsProcess",
           "name": "ArgsProcess",
           "package": "argparser",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate positional arguments from flag arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.ArgsProcess",
           "name": "preprocess",
           "package": "argparser",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Separate positional arguments from flag arguments",
           "hierarchy": "System Console ArgParser ArgsProcess",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.ArgsProcess",
           "name": "preprocess",
           "normalized": "Args-\u003eNiceArgs",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase types shared by several EasyConsole modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "BaseType",
           "package": "argparser",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Base types shared by several EasyConsole modules",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "BaseType",
           "package": "argparser",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple command line arg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Arg",
           "package": "argparser",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Simple command line arg",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Arg",
           "package": "argparser",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of args provided\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Args",
           "package": "argparser",
@@ -122,6 +131,7 @@
         "index": {
           "description": "List of args provided",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Args",
           "package": "argparser",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command line application, with a parser and a description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "CmdLnInterface",
           "package": "argparser",
@@ -145,6 +156,7 @@
         "index": {
           "description": "command line application with parser and description",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "CmdLnInterface",
           "package": "argparser",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlag collection with corresponding args\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Flags",
           "package": "argparser",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Flag collection with corresponding args",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Flags",
           "package": "argparser",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructured args to be parsed.\n   Pair of (positionnal arguments, flag arguments)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "NiceArgs",
           "package": "argparser",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Structured args to be parsed Pair of positionnal arguments flag arguments",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "NiceArgs",
           "package": "argparser",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure describing a parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParamDescr",
           "package": "argparser",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Data structure describing parameter",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParamDescr",
           "package": "argparser",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing the result of the parse.\n   Right val in case of success or\n   Left msg if there was an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParseResult",
           "package": "argparser",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Type representing the result of the parse Right val in case of success or Left msg if there was an error",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParseResult",
           "package": "argparser",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser actual function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Parser",
           "package": "argparser",
@@ -260,6 +281,7 @@
         "index": {
           "description": "parser actual function",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Parser",
           "package": "argparser",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a full parameter spec\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParserSpec",
           "package": "argparser",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Represent full parameter spec",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParserSpec",
           "package": "argparser",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special action with more possibilities.\n   The full arg list will be provided,\n   with the command line spec itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "SpecialAction",
           "package": "argparser",
@@ -306,6 +331,7 @@
         "index": {
           "description": "special action with more possibilities The full arg list will be provided with the command line spec itself",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "SpecialAction",
           "package": "argparser",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special parser allowing to\n   perform standard actions.\n   Used for version\u003cem\u003ehelp\u003c/em\u003esubparsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "SpecialFlag",
           "package": "argparser",
@@ -329,6 +356,7 @@
         "index": {
           "description": "special parser allowing to perform standard actions Used for version help subparsers",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "SpecialFlag",
           "package": "argparser",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "CmdLnInterface",
           "package": "argparser",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "CmdLnInterface",
           "package": "argparser",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParamDescr",
           "package": "argparser",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParamDescr",
           "package": "argparser",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Parser",
           "package": "argparser",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "Parser",
           "normalized": "Parser(NiceArgs-\u003e(ParseResult a,NiceArgs))",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParserSpec",
           "package": "argparser",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "ParserSpec",
           "package": "argparser",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategory of parameter (optional/mandatory)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argCategory",
           "package": "argparser",
@@ -443,6 +480,7 @@
         "index": {
           "description": "Category of parameter optional mandatory",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argCategory",
           "package": "argparser",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of the parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argDescr",
           "package": "argparser",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Description of the parameter",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argDescr",
           "package": "argparser",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat of the parameter to provide\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argFormat",
           "package": "argparser",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Format of the parameter to provide",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argFormat",
           "normalized": "String-\u003eString",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of the parameter in the usage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argMetaVar",
           "package": "argparser",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Description of the parameter in the usage",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argMetaVar",
           "package": "argparser",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a short description of the input format\n   of a parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argUsage",
           "package": "argparser",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Returns short description of the input format of parameter",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argUsage",
           "normalized": "ParamDescr-\u003eString",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort description of the parameter format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argUsageFmt",
           "package": "argparser",
@@ -567,6 +614,7 @@
         "index": {
           "description": "Short description of the parameter format",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "argUsageFmt",
           "normalized": "String-\u003eString",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe argument parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "cmdArgParser",
           "package": "argparser",
@@ -593,6 +642,7 @@
         "index": {
           "description": "The argument parser",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "cmdArgParser",
           "package": "argparser",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getAppDescr",
           "package": "argparser",
@@ -617,6 +668,7 @@
         "index": {
           "description": "Optional description",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getAppDescr",
           "package": "argparser",
@@ -631,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional epilog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getAppEpilog",
           "package": "argparser",
@@ -641,6 +694,7 @@
         "index": {
           "description": "Optional epilog",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getAppEpilog",
           "package": "argparser",
@@ -655,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe application name.\n   Usally the binary name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getAppName",
           "package": "argparser",
@@ -665,6 +720,7 @@
         "index": {
           "description": "The application name Usally the binary name",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getAppName",
           "package": "argparser",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional application version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getAppVersion",
           "package": "argparser",
@@ -689,6 +746,7 @@
         "index": {
           "description": "Optional application version",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getAppVersion",
           "package": "argparser",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a long description of the input format\n   of a parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getArgFormat",
           "package": "argparser",
@@ -713,6 +772,7 @@
         "index": {
           "description": "Returns long description of the input format of parameter",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getArgFormat",
           "normalized": "ParamDescr-\u003eString",
@@ -728,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getParserFun",
           "package": "argparser",
@@ -737,6 +798,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getParserFun",
           "package": "argparser",
@@ -750,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getParserParams",
           "package": "argparser",
@@ -759,6 +822,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "getParserParams",
           "normalized": "[ParamDescr]",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe special flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.BaseType",
           "name": "specialFlags",
           "package": "argparser",
@@ -785,6 +850,7 @@
         "index": {
           "description": "The special flags",
           "hierarchy": "System Console ArgParser BaseType",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.BaseType",
           "name": "specialFlags",
           "normalized": "[SpecialFlag a]",
@@ -801,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule containing helpers to print information\nabout a parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "Format",
           "package": "argparser",
@@ -810,6 +877,7 @@
         "index": {
           "description": "Module containing helpers to print information about parser",
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "Format",
           "package": "argparser",
@@ -824,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification of the help layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "CmdLineFormat",
           "package": "argparser",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Specification of the help layout",
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "CmdLineFormat",
           "package": "argparser",
@@ -846,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "CmdLineFormat",
           "package": "argparser",
@@ -855,6 +926,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "CmdLineFormat",
           "package": "argparser",
@@ -869,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault specification for the help layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "defaultFormat",
           "package": "argparser",
@@ -879,6 +952,7 @@
         "index": {
           "description": "Default specification for the help layout",
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "defaultFormat",
           "package": "argparser",
@@ -892,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "keyIndentWidth",
           "package": "argparser",
@@ -901,6 +976,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "keyIndentWidth",
           "package": "argparser",
@@ -914,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "maxDescrWidth",
           "package": "argparser",
@@ -923,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "maxDescrWidth",
           "package": "argparser",
@@ -936,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "maxKeyWidth",
           "package": "argparser",
@@ -945,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "maxKeyWidth",
           "package": "argparser",
@@ -959,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints a long usage such as\n\u003c/p\u003e\u003cpre\u003e\n   foo bar [bay]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "showCmdLineAppUsage",
           "package": "argparser",
@@ -969,6 +1050,7 @@
         "index": {
           "description": "Prints long usage such as foo bar bay",
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "showCmdLineAppUsage",
           "normalized": "CmdLineFormat-\u003eCmdLnInterface a-\u003eString",
@@ -985,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints the application name and version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Format",
           "name": "showCmdLineVersion",
           "package": "argparser",
@@ -995,6 +1078,7 @@
         "index": {
           "description": "Prints the application name and version",
           "hierarchy": "System Console ArgParser Format",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Format",
           "name": "showCmdLineVersion",
           "normalized": "CmdLnInterface a-\u003eString",
@@ -1011,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParameters are basic building blocks of a command line parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Params",
           "package": "argparser",
@@ -1020,6 +1105,7 @@
         "index": {
           "description": "Parameters are basic building blocks of command line parser",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Params",
           "package": "argparser",
@@ -1034,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the number of args consumed by a standard parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "ArgParser",
           "package": "argparser",
@@ -1043,6 +1130,7 @@
         "index": {
           "description": "Defines the number of args consumed by standard parameter",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "ArgParser",
           "package": "argparser",
@@ -1057,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the source of a parameter: either positional or flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "ArgSrc",
           "package": "argparser",
@@ -1066,6 +1155,7 @@
         "index": {
           "description": "Defines the source of parameter either positional or flag",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "ArgSrc",
           "package": "argparser",
@@ -1080,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows the user to provide a description for a particular parameter.\n   Can be used as an infix operator:\n\u003c/p\u003e\u003cpre\u003e myparam `Descr` \"this is my description\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Descr",
           "package": "argparser",
@@ -1089,6 +1180,7 @@
         "index": {
           "description": "Allows the user to provide description for particular parameter Can be used as an infix operator myparam Descr this is my description",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Descr",
           "package": "argparser",
@@ -1103,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the format of a flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "FlagFormat",
           "package": "argparser",
@@ -1112,6 +1205,7 @@
         "index": {
           "description": "Specify the format of flag",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "FlagFormat",
           "package": "argparser",
@@ -1126,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple command line flag.\n   The parsing function will be passed True\n   if the flag is present, if the flag is provided to\n   the command line, and False otherwise.\n   For a key \u003ccode\u003efoo\u003c/code\u003e, the flag can either be \u003ccode\u003e--foo\u003c/code\u003e or \u003ccode\u003e-f\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "FlagParam",
           "package": "argparser",
@@ -1135,6 +1230,7 @@
         "index": {
           "description": "simple command line flag The parsing function will be passed True if the flag is present if the flag is provided to the command line and False otherwise For key foo the flag can either be foo or",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "FlagParam",
           "package": "argparser",
@@ -1149,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eidentifier used to specify the name of a flag\n   or a positional argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Key",
           "package": "argparser",
@@ -1158,6 +1255,7 @@
         "index": {
           "description": "identifier used to specify the name of flag or positional argument",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Key",
           "package": "argparser",
@@ -1172,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows the user to provide a description for a particular parameter.\n   Can be used as an infix operator:\n\u003c/p\u003e\u003cpre\u003e myparam `Descr` \"this is my description\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "MetaVar",
           "package": "argparser",
@@ -1181,6 +1280,7 @@
         "index": {
           "description": "Allows the user to provide description for particular parameter Can be used as an infix operator myparam Descr this is my description",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "MetaVar",
           "package": "argparser",
@@ -1195,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines whether a parameter is mandatory or optional.\n   When a parameter is marked as Optional, a default value must\n   be provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Optionality",
           "package": "argparser",
@@ -1204,6 +1305,7 @@
         "index": {
           "description": "Defines whether parameter is mandatory or optional When parameter is marked as Optional default value must be provided",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Optionality",
           "package": "argparser",
@@ -1218,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a parameter consuming arguments on the command line.\n   The source defines whether the arguments are positional:\n\u003c/p\u003e\u003cpre\u003e myprog posarg1 posarg2 ...\n\u003c/pre\u003e\u003cp\u003e... or are taken from a flag:\n\u003c/p\u003e\u003cpre\u003e myprog --myflag flagarg1 flagarg2 ...\n\u003c/pre\u003e\u003cp\u003eshort form:\n\u003c/p\u003e\u003cpre\u003e myprog -m flagarg1 flagarg2 ...\n\u003c/pre\u003e\u003cp\u003eOne can provide two signatures of parsing function using the 'ArgParser type':\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSingleArgParser\u003c/a\u003e\u003c/code\u003e means that the parameter expect exactly one arg\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMulipleArgParser\u003c/a\u003e\u003c/code\u003e means that the parameter expect any number of args\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "StdArgParam",
           "package": "argparser",
@@ -1227,6 +1330,7 @@
         "index": {
           "description": "Defines parameter consuming arguments on the command line The source defines whether the arguments are positional myprog posarg1 posarg2 or are taken from flag myprog myflag flagarg1 flagarg2 short form myprog flagarg1 flagarg2 One can provide two signatures of parsing function using the ArgParser type SingleArgParser means that the parameter expect exactly one arg MulipleArgParser means that the parameter expect any number of args",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "StdArgParam",
           "package": "argparser",
@@ -1240,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Descr",
           "package": "argparser",
@@ -1249,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Descr",
           "package": "argparser",
@@ -1262,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Flag",
           "package": "argparser",
@@ -1271,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Flag",
           "package": "argparser",
@@ -1284,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "FlagParam",
           "package": "argparser",
@@ -1293,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "FlagParam",
           "normalized": "FlagParam FlagFormat Key(Bool-\u003ea)",
@@ -1309,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly long format ie \u003ccode\u003e--foo\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Long",
           "package": "argparser",
@@ -1319,6 +1430,7 @@
         "index": {
           "description": "Only long format ie foo",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Long",
           "package": "argparser",
@@ -1332,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Mandatory",
           "package": "argparser",
@@ -1341,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Mandatory",
           "package": "argparser",
@@ -1354,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "MetaVar",
           "package": "argparser",
@@ -1363,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "MetaVar",
           "package": "argparser",
@@ -1377,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses any number of args\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "MulipleArgParser",
           "package": "argparser",
@@ -1387,6 +1504,7 @@
         "index": {
           "description": "Uses any number of args",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "MulipleArgParser",
           "normalized": "MulipleArgParser(Args-\u003eParseResult a)",
@@ -1402,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Optional",
           "package": "argparser",
@@ -1411,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Optional",
           "package": "argparser",
@@ -1424,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Pos",
           "package": "argparser",
@@ -1433,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Pos",
           "package": "argparser",
@@ -1447,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible short format ie \u003ccode\u003e-f\u003c/code\u003e or \u003ccode\u003e--foo\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "Short",
           "package": "argparser",
@@ -1457,6 +1580,7 @@
         "index": {
           "description": "Possible short format ie or foo",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "Short",
           "package": "argparser",
@@ -1471,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses exactly one arg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "SingleArgParser",
           "package": "argparser",
@@ -1481,6 +1606,7 @@
         "index": {
           "description": "Uses exactly one arg",
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "SingleArgParser",
           "normalized": "SingleArgParser(Arg-\u003eParseResult a)",
@@ -1496,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "StdArgParam",
           "package": "argparser",
@@ -1505,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "StdArgParam",
           "package": "argparser",
@@ -1518,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "getdvalue",
           "package": "argparser",
@@ -1527,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "getdvalue",
           "package": "argparser",
@@ -1539,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "getmvvalue",
           "package": "argparser",
@@ -1548,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "getmvvalue",
           "package": "argparser",
@@ -1560,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "getuserdescr",
           "package": "argparser",
@@ -1569,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "getuserdescr",
           "package": "argparser",
@@ -1581,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Params",
           "name": "getusermvar",
           "package": "argparser",
@@ -1590,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Params",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Params",
           "name": "getusermvar",
           "package": "argparser",
@@ -1603,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions used to specify a parser for command line arguments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Parser",
           "name": "Parser",
           "package": "argparser",
@@ -1612,6 +1749,7 @@
         "index": {
           "description": "Functions used to specify parser for command line arguments",
           "hierarchy": "System Console ArgParser Parser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Parser",
           "name": "Parser",
           "package": "argparser",
@@ -1626,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface allowing to define a basic block of a command line parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Parser",
           "name": "ParamSpec",
           "package": "argparser",
@@ -1635,6 +1774,7 @@
         "index": {
           "description": "interface allowing to define basic block of command line parser",
           "hierarchy": "System Console ArgParser Parser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Parser",
           "name": "ParamSpec",
           "package": "argparser",
@@ -1675,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Parser",
           "name": "getParamDescr",
           "package": "argparser",
@@ -1684,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Parser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Parser",
           "name": "getParamDescr",
           "normalized": "a b-\u003e[ParamDescr]",
@@ -1699,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Parser",
           "name": "getParser",
           "package": "argparser",
@@ -1708,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser Parser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Parser",
           "name": "getParser",
           "normalized": "a b-\u003eParser b",
@@ -1724,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts any \u003ccode\u003e\u003ca\u003eParamSpec\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eParserSpec\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Parser",
           "name": "liftParam",
           "package": "argparser",
@@ -1734,6 +1879,7 @@
         "index": {
           "description": "Converts any ParamSpec to ParserSpec",
           "hierarchy": "System Console ArgParser Parser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Parser",
           "name": "liftParam",
           "normalized": "a b-\u003eParserSpec b",
@@ -1777,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is \u003ccode\u003e\u003ca\u003eparsedBy\u003c/a\u003e\u003c/code\u003e with a different fixity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Parser",
           "name": "subParser",
           "package": "argparser",
@@ -1787,6 +1934,7 @@
         "index": {
           "description": "This is parsedBy with different fixity",
           "hierarchy": "System Console ArgParser Parser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Parser",
           "name": "subParser",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eParserSpec b",
@@ -1803,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of functions which are basically shortcuts\nof \u003ca\u003eSystem.Console.EasyConsole.Params\u003c/a\u003e versions. If you\ncannot find a parameter fitting your needs, you should check this\nmodule.\n\u003c/p\u003e\u003cp\u003eValues provided to \u003ccode\u003eparsedBy\u003c/code\u003e and \u003ccode\u003eandBy\u003c/code\u003e should be created with\nthe following functions. The types are inferred. ArgParser will use\n\u003ccode\u003ereadMaybe\u003c/code\u003e to convert the arguments to haskell values, except for strings\nwhich will be passed unmodified.\n\u003c/p\u003e\u003cp\u003eFlags can be passed in long form (\u003ccode\u003e--foo\u003c/code\u003e) or short form (\u003ccode\u003e-f\u003c/code\u003e)\nYou may also provide a prefix form such as \u003ccode\u003e--fo\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMandatory parameters will fail if the argument is absent or invalid.\nOptional parameters only fail if the argument is invalid (ie \u003ccode\u003efoo\u003c/code\u003e passed\nas \u003ccode\u003eInt\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eNote that single arg parameters need exactly one arg, and that multiple args\nparameters can have any number of args (0 included).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.QuickParams",
           "name": "QuickParams",
           "package": "argparser",
@@ -1812,6 +1961,7 @@
         "index": {
           "description": "Collection of functions which are basically shortcuts of System.Console.EasyConsole.Params versions If you cannot find parameter fitting your needs you should check this module Values provided to parsedBy and andBy should be created with the following functions The types are inferred ArgParser will use readMaybe to convert the arguments to haskell values except for strings which will be passed unmodified Flags can be passed in long form foo or short form You may also provide prefix form such as fo Mandatory parameters will fail if the argument is absent or invalid Optional parameters only fail if the argument is invalid ie foo passed as Int Note that single arg parameters need exactly one arg and that multiple args parameters can have any number of args included",
           "hierarchy": "System Console ArgParser QuickParams",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.QuickParams",
           "name": "QuickParams",
           "package": "argparser",
@@ -1826,6 +1976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass used to define a way a converting\n   string to specific types. It is similar to read.\n   The main difference is that strings are parsed\n   without quotes.\n\u003c/p\u003e\u003cpre\u003e rawRead \"foo\" :: Maybe String == Just \"foo\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.QuickParams",
           "name": "RawRead",
           "package": "argparser",
@@ -1835,6 +1986,7 @@
         "index": {
           "description": "typeclass used to define way converting string to specific types It is similar to read The main difference is that strings are parsed without quotes rawRead foo Maybe String Just foo",
           "hierarchy": "System Console ArgParser QuickParams",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.QuickParams",
           "name": "RawRead",
           "package": "argparser",
@@ -2057,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions used to build and run command line applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Run",
           "name": "Run",
           "package": "argparser",
@@ -2066,6 +2219,7 @@
         "index": {
           "description": "Functions used to build and run command line applications",
           "hierarchy": "System Console ArgParser Run",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Run",
           "name": "Run",
           "package": "argparser",
@@ -2080,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault version and help special actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Run",
           "name": "defaultSpecialFlags",
           "package": "argparser",
@@ -2090,6 +2245,7 @@
         "index": {
           "description": "default version and help special actions",
           "hierarchy": "System Console ArgParser Run",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Run",
           "name": "defaultSpecialFlags",
           "normalized": "[SpecialFlag a]",
@@ -2186,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the arguments with the parser\n   provided to the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Run",
           "name": "parseNiceArgs",
           "package": "argparser",
@@ -2195,6 +2352,7 @@
         "index": {
           "description": "Parse the arguments with the parser provided to the function",
           "hierarchy": "System Console ArgParser Run",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Run",
           "name": "parseNiceArgs",
           "normalized": "NiceArgs-\u003eCmdLnInterface a-\u003eParseResult a",
@@ -2291,6 +2449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the name of an interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.Run",
           "name": "setAppName",
           "package": "argparser",
@@ -2301,6 +2460,7 @@
         "index": {
           "description": "Set the name of an interface",
           "hierarchy": "System Console ArgParser Run",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.Run",
           "name": "setAppName",
           "normalized": "CmdLnInterface a-\u003eString-\u003eCmdLnInterface a",
@@ -2317,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubparsers allows the creation of complex command line\napplications organized around commands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.SubParser",
           "name": "SubParser",
           "package": "argparser",
@@ -2326,6 +2487,7 @@
         "index": {
           "description": "Subparsers allows the creation of complex command line applications organized around commands",
           "hierarchy": "System Console ArgParser SubParser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.SubParser",
           "name": "SubParser",
           "package": "argparser",
@@ -2367,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame that \u003ca\u003emkSubParser\u003c/a\u003e but allows a custom name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser.SubParser",
           "name": "mkSubParserWithName",
           "package": "argparser",
@@ -2377,6 +2540,7 @@
         "index": {
           "description": "Same that mkSubParser but allows custom name",
           "hierarchy": "System Console ArgParser SubParser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser.SubParser",
           "name": "mkSubParserWithName",
           "normalized": "String-\u003e[(Arg,CmdLnInterface a)]-\u003eCmdLnInterface a",
@@ -2393,6 +2557,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple command line parsing library. This library provides a small combinator\ndsl to specify a parser for a datatype. Running the parser will automatically\nconsume and convert command line arguments. Default special action such as\nhelp/usage are automatically built from the parser specification.\n\u003c/p\u003e\u003cp\u003eHere is a quick example. \n\u003c/p\u003e\u003cpre\u003e\ndata MyTest =  -- First, we need a datatype\n  MyTest Int Int\n  deriving (Show) -- we will print the values\n\nmyTestParser -- Then, we define a parser \n  :: ParserSpec MyTest\nmyTestParser = MyTest\n  `parsedBy` reqPos \"pos1\"\n  `andBy` optPos 0 \"pos2\"\n\nmain = do -- We proceed to build an interface and run it:\n  interface \u003c- mkApp myTestParser\n  runApp interface print\n\u003c/pre\u003e\u003cp\u003eBuilding this app will produce an executable \u003ccode\u003efoo\u003c/code\u003e which will behave like this:\n\u003c/p\u003e\u003cpre\u003e\n$ foo 1 2\nMyTest 1 2\n$ foo 3\nMyTest 3 0\n$ foo -h\nfoo\nusage : foo pos1 [pos2] [-h] [--version]\n\nmandatory arguments:\n pos1\n\noptional arguments:\n pos2\n -h, --help                    show this help message and exit\n --version                     print the program version and exit\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser",
           "name": "ArgParser",
           "package": "argparser",
@@ -2402,6 +2567,7 @@
         "index": {
           "description": "Simple command line parsing library This library provides small combinator dsl to specify parser for datatype Running the parser will automatically consume and convert command line arguments Default special action such as help usage are automatically built from the parser specification Here is quick example data MyTest First we need datatype MyTest Int Int deriving Show we will print the values myTestParser Then we define parser ParserSpec MyTest myTestParser MyTest parsedBy reqPos pos1 andBy optPos pos2 main do We proceed to build an interface and run it interface mkApp myTestParser runApp interface print Building this app will produce an executable foo which will behave like this foo MyTest foo MyTest foo foo usage foo pos1 pos2 version mandatory arguments pos1 optional arguments pos2 help show this help message and exit version print the program version and exit",
           "hierarchy": "System Console ArgParser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser",
           "name": "ArgParser",
           "package": "argparser",
@@ -2416,6 +2582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows the user to provide a description for a particular parameter.\n   Can be used as an infix operator:\n\u003c/p\u003e\u003cpre\u003e myparam `Descr` \"this is my description\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser",
           "name": "Descr",
           "package": "argparser",
@@ -2425,6 +2592,7 @@
         "index": {
           "description": "Allows the user to provide description for particular parameter Can be used as an infix operator myparam Descr this is my description",
           "hierarchy": "System Console ArgParser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser",
           "name": "Descr",
           "package": "argparser",
@@ -2438,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:22 UTC 2014",
           "module": "System.Console.ArgParser",
           "name": "Descr",
           "package": "argparser",
@@ -2447,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "System Console ArgParser",
+          "indexed": "2014-03-11T17:12:22",
           "module": "System.Console.ArgParser",
           "name": "Descr",
           "package": "argparser",

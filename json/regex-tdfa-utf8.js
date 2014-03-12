@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-tdfa-utf8"
+        "phrase": "regex-tdfa-utf8",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:39 UTC 2014",
           "module": "Text.Regex.TDFA.UTF8",
           "name": "UTF8",
           "package": "regex-tdfa-utf8",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA UTF8",
+          "indexed": "2014-03-11T19:51:39",
           "module": "Text.Regex.TDFA.UTF8",
           "name": "UTF8",
           "package": "regex-tdfa-utf8",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:39 UTC 2014",
           "module": "Text.Regex.TDFA.UTF8",
           "name": "Utf8",
           "package": "regex-tdfa-utf8",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA UTF8",
+          "indexed": "2014-03-11T19:51:39",
           "module": "Text.Regex.TDFA.UTF8",
           "name": "Utf8",
           "package": "regex-tdfa-utf8",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:39 UTC 2014",
           "module": "Text.Regex.TDFA.UTF8",
           "name": "Utf8",
           "package": "regex-tdfa-utf8",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA UTF8",
+          "indexed": "2014-03-11T19:51:39",
           "module": "Text.Regex.TDFA.UTF8",
           "name": "Utf8",
           "package": "regex-tdfa-utf8",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:39 UTC 2014",
           "module": "Text.Regex.TDFA.UTF8",
           "name": "utf8",
           "package": "regex-tdfa-utf8",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA UTF8",
+          "indexed": "2014-03-11T19:51:39",
           "module": "Text.Regex.TDFA.UTF8",
           "name": "utf8",
           "package": "regex-tdfa-utf8",

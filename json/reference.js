@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reference"
+        "phrase": "reference",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReference is class which generalizes references and monads they exists in. It means that IORef, STRef and others can be accessed by common interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:31 UTC 2014",
           "module": "Data.Reference",
           "name": "Reference",
           "package": "reference",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Reference is class which generalizes references and monads they exists in It means that IORef STRef and others can be accessed by common interface",
           "hierarchy": "Data Reference",
+          "indexed": "2014-03-11T19:50:31",
           "module": "Data.Reference",
           "name": "Reference",
           "package": "reference",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass connecting mutable variable and monad it exists in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:31 UTC 2014",
           "module": "Data.Reference",
           "name": "Reference",
           "package": "reference",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Class connecting mutable variable and monad it exists in",
           "hierarchy": "Data Reference",
+          "indexed": "2014-03-11T19:50:31",
           "module": "Data.Reference",
           "name": "Reference",
           "package": "reference",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the reference. Default implementation is provided but it MUST\n be overloaded if the reference is atomic to provide an atomic write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:31 UTC 2014",
           "module": "Data.Reference",
           "name": "modifyRef",
           "package": "reference",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Modify the reference Default implementation is provided but it MUST be overloaded if the reference is atomic to provide an atomic write",
           "hierarchy": "Data Reference",
+          "indexed": "2014-03-11T19:50:31",
           "module": "Data.Reference",
           "name": "modifyRef",
           "package": "reference",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:31 UTC 2014",
           "module": "Data.Reference",
           "name": "newRef",
           "package": "reference",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Create new reference",
           "hierarchy": "Data Reference",
+          "indexed": "2014-03-11T19:50:31",
           "module": "Data.Reference",
           "name": "newRef",
           "package": "reference",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:31 UTC 2014",
           "module": "Data.Reference",
           "name": "readRef",
           "package": "reference",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Reads reference",
           "hierarchy": "Data Reference",
+          "indexed": "2014-03-11T19:50:31",
           "module": "Data.Reference",
           "name": "readRef",
           "package": "reference",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:31 UTC 2014",
           "module": "Data.Reference",
           "name": "writeRef",
           "package": "reference",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Write to reference",
           "hierarchy": "Data Reference",
+          "indexed": "2014-03-11T19:50:31",
           "module": "Data.Reference",
           "name": "writeRef",
           "package": "reference",

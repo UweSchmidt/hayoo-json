@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GeBoP"
+        "phrase": "GeBoP",
+        "type": "phrase"
       },
       "type": "context"
     }

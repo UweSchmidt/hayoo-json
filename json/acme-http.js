@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-http"
+        "phrase": "acme-http",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "Request",
           "package": "acme-http",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "Request",
           "package": "acme-http",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "ParseError",
           "package": "acme-http",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "ParseError",
           "package": "acme-http",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "MalformedHeader",
           "package": "acme-http",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "MalformedHeader",
           "package": "acme-http",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "MalformedRequestLine",
           "package": "acme-http",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "MalformedRequestLine",
           "package": "acme-http",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "Unexpected",
           "package": "acme-http",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "Unexpected",
           "package": "acme-http",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "UnknownHTTPVersion",
           "package": "acme-http",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "UnknownHTTPVersion",
           "package": "acme-http",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "parseHTTPVersion",
           "package": "acme-http",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "parseHTTPVersion",
           "normalized": "ByteString-\u003eHTTPVersion",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "parseHeader",
           "package": "acme-http",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "parseHeader",
           "normalized": "ByteString-\u003e(ByteString,ByteString)",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "parseHeaders",
           "package": "acme-http",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "parseHeaders",
           "normalized": "IO ByteString-\u003eByteString-\u003eIO([(ByteString,ByteString)],ByteString)",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "parseMethod",
           "package": "acme-http",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "parseMethod",
           "normalized": "ByteString-\u003eMethod",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "parseRequest",
           "package": "acme-http",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "parseRequest",
           "normalized": "IO ByteString-\u003eByteString-\u003eBool-\u003eIO(Request,ByteString)",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "parseRequestLine",
           "package": "acme-http",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "parseRequestLine",
           "normalized": "ByteString-\u003e(Method,ByteString,HTTPVersion)",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "parseToken",
           "package": "acme-http",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "parseToken",
           "normalized": "ByteString-\u003e(ByteString,ByteString)",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efind a line terminated by a '\\r\\n'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Request",
           "name": "takeLine",
           "package": "acme-http",
@@ -327,6 +354,7 @@
         "index": {
           "description": "find line terminated by",
           "hierarchy": "Acme Request",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Request",
           "name": "takeLine",
           "normalized": "IO ByteString-\u003eByteString-\u003eIO(ByteString,ByteString)",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Response",
           "name": "Response",
           "package": "acme-http",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Acme Response",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Response",
           "name": "Response",
           "package": "acme-http",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Response",
           "name": "ok_status",
           "package": "acme-http",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Acme Response",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Response",
           "name": "ok_status",
           "package": "acme-http",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Response",
           "name": "pong",
           "package": "acme-http",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Acme Response",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Response",
           "name": "pong",
           "normalized": "(ByteString-\u003eIO())-\u003eIO()",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Response",
           "name": "sendResponse",
           "package": "acme-http",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Acme Response",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Response",
           "name": "sendResponse",
           "normalized": "(ByteString-\u003eIO())-\u003eResponse-\u003eIO()",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Response",
           "name": "statusLine",
           "package": "acme-http",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Acme Response",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Response",
           "name": "statusLine",
           "normalized": "Int-\u003eByteString",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Serve",
           "name": "Serve",
           "package": "acme-http",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Acme Serve",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Serve",
           "name": "Serve",
           "package": "acme-http",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart TCP listening on a port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Serve",
           "name": "listenOn",
           "package": "acme-http",
@@ -486,6 +527,7 @@
         "index": {
           "description": "start TCP listening on port",
           "hierarchy": "Acme Serve",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Serve",
           "name": "listenOn",
           "normalized": "Int-\u003eIO Socket",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Serve",
           "name": "requestLoop",
           "package": "acme-http",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Acme Serve",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Serve",
           "name": "requestLoop",
           "normalized": "Bool-\u003eSockAddr-\u003eIO ByteString-\u003e(ByteString-\u003eIO())-\u003e(Request-\u003eIO Response)-\u003eIO()",
@@ -526,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elisten on a port and handle \u003ccode\u003eRequests\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Serve",
           "name": "serve",
           "package": "acme-http",
@@ -535,6 +580,7 @@
         "index": {
           "description": "listen on port and handle Requests",
           "hierarchy": "Acme Serve",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Serve",
           "name": "serve",
           "normalized": "Int-\u003e(Request-\u003eIO Response)-\u003eIO()",
@@ -550,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehandle \u003ccode\u003eRequests\u003c/code\u003e from an already listening \u003ccode\u003e\u003ca\u003eSocket\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Serve",
           "name": "serveSocket",
           "package": "acme-http",
@@ -559,6 +606,7 @@
         "index": {
           "description": "handle Requests from an already listening Socket",
           "hierarchy": "Acme Serve",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Serve",
           "name": "serveSocket",
           "normalized": "Socket-\u003e(Request-\u003eIO Response)-\u003eIO()",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "Types",
           "package": "acme-http",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "Types",
           "package": "acme-http",
@@ -596,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethrown when the remote-side closes the connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "ConnectionClosed",
           "package": "acme-http",
@@ -605,6 +656,7 @@
         "index": {
           "description": "thrown when the remote-side closes the connection",
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "ConnectionClosed",
           "package": "acme-http",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "HTTPVersion",
           "package": "acme-http",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "HTTPVersion",
           "package": "acme-http",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "Method",
           "package": "acme-http",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "Method",
           "package": "acme-http",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "Request",
           "package": "acme-http",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "Request",
           "package": "acme-http",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "Response",
           "package": "acme-http",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "Response",
           "package": "acme-http",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "ByteStringResponse",
           "package": "acme-http",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "ByteStringResponse",
           "package": "acme-http",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "CONNECT",
           "package": "acme-http",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "CONNECT",
           "package": "acme-http",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "ConnectionClosed",
           "package": "acme-http",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "ConnectionClosed",
           "package": "acme-http",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "DELETE",
           "package": "acme-http",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "DELETE",
           "package": "acme-http",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "EXTENSION",
           "package": "acme-http",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "EXTENSION",
           "package": "acme-http",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "GET",
           "package": "acme-http",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "GET",
           "package": "acme-http",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "GETONLY",
           "package": "acme-http",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "GETONLY",
           "package": "acme-http",
@@ -856,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "HEAD",
           "package": "acme-http",
@@ -865,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "HEAD",
           "package": "acme-http",
@@ -878,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "HTTP10",
           "package": "acme-http",
@@ -887,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "HTTP10",
           "package": "acme-http",
@@ -900,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "HTTP11",
           "package": "acme-http",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "HTTP11",
           "package": "acme-http",
@@ -922,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "OPTIONS",
           "package": "acme-http",
@@ -931,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "OPTIONS",
           "package": "acme-http",
@@ -944,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "POST",
           "package": "acme-http",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "POST",
           "package": "acme-http",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "PUT",
           "package": "acme-http",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "PUT",
           "package": "acme-http",
@@ -989,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn PONG in the request body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "PongResponse",
           "package": "acme-http",
@@ -999,6 +1086,7 @@
         "index": {
           "description": "return PONG in the request body",
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "PongResponse",
           "package": "acme-http",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "Request",
           "package": "acme-http",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "Request",
           "package": "acme-http",
@@ -1034,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "TRACE",
           "package": "acme-http",
@@ -1043,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "TRACE",
           "package": "acme-http",
@@ -1057,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "bytestring",
           "package": "acme-http",
@@ -1067,6 +1160,7 @@
         "index": {
           "description": "render ByteString to Doc",
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "bytestring",
           "normalized": "ByteString-\u003eDoc",
@@ -1081,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "colon",
           "package": "acme-http",
@@ -1090,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "colon",
           "package": "acme-http",
@@ -1102,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "cr",
           "package": "acme-http",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "cr",
           "package": "acme-http",
@@ -1124,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender, field = value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "field",
           "package": "acme-http",
@@ -1133,6 +1232,7 @@
         "index": {
           "description": "render field value",
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "field",
           "normalized": "String-\u003eDoc-\u003eDoc",
@@ -1147,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "nl",
           "package": "acme-http",
@@ -1156,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "nl",
           "package": "acme-http",
@@ -1168,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "ppHTTPVersion",
           "package": "acme-http",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "ppHTTPVersion",
           "normalized": "HTTPVersion-\u003eDoc",
@@ -1193,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty-print an HTTP header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "ppHeader",
           "package": "acme-http",
@@ -1203,6 +1308,7 @@
         "index": {
           "description": "pretty-print an HTTP header",
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "ppHeader",
           "normalized": "(ByteString,ByteString)-\u003eDoc",
@@ -1218,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "ppMethod",
           "package": "acme-http",
@@ -1227,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "ppMethod",
           "normalized": "Method-\u003eDoc",
@@ -1242,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "ppRequest",
           "package": "acme-http",
@@ -1251,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "ppRequest",
           "normalized": "Request-\u003eDoc",
@@ -1266,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "ppResponse",
           "package": "acme-http",
@@ -1275,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "ppResponse",
           "normalized": "Response-\u003eDoc",
@@ -1290,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rqBody",
           "package": "acme-http",
@@ -1299,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rqBody",
           "package": "acme-http",
@@ -1312,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rqHTTPVersion",
           "package": "acme-http",
@@ -1321,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rqHTTPVersion",
           "package": "acme-http",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rqHeaders",
           "package": "acme-http",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rqHeaders",
           "normalized": "[(ByteString,ByteString)]",
@@ -1358,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rqMethod",
           "package": "acme-http",
@@ -1367,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rqMethod",
           "package": "acme-http",
@@ -1380,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rqSecure",
           "package": "acme-http",
@@ -1389,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rqSecure",
           "package": "acme-http",
@@ -1402,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rqURIbs",
           "package": "acme-http",
@@ -1411,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rqURIbs",
           "package": "acme-http",
@@ -1424,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rsBody",
           "package": "acme-http",
@@ -1433,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rsBody",
           "package": "acme-http",
@@ -1446,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rsCode",
           "package": "acme-http",
@@ -1455,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rsCode",
           "package": "acme-http",
@@ -1468,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "rsHeaders",
           "package": "acme-http",
@@ -1477,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "rsHeaders",
           "normalized": "[(ByteString,ByteString)]",
@@ -1492,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:11 UTC 2014",
           "module": "Acme.Types",
           "name": "space",
           "package": "acme-http",
@@ -1501,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Acme Types",
+          "indexed": "2014-03-11T17:07:11",
           "module": "Acme.Types",
           "name": "space",
           "package": "acme-http",

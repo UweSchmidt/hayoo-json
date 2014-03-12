@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "XmlHtmlWriter"
+        "phrase": "XmlHtmlWriter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome tags for writing html in a pretty format in haskell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "HtmlTags",
           "package": "XmlHtmlWriter",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Some tags for writing html in pretty format in haskell",
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "HtmlTags",
           "package": "XmlHtmlWriter",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "address",
           "package": "XmlHtmlWriter",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "address",
           "normalized": "a-\u003eHtmlWriter()",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "anchor",
           "package": "XmlHtmlWriter",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "anchor",
           "normalized": "a-\u003eHtmlWriter()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "applet",
           "package": "XmlHtmlWriter",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "applet",
           "normalized": "a-\u003eHtmlWriter()",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "big",
           "package": "XmlHtmlWriter",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "big",
           "normalized": "a-\u003eHtmlWriter()",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "blockquote",
           "package": "XmlHtmlWriter",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "blockquote",
           "normalized": "a-\u003eHtmlWriter()",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "body",
           "package": "XmlHtmlWriter",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "body",
           "normalized": "a-\u003eHtmlWriter()",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "bold",
           "package": "XmlHtmlWriter",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "bold",
           "normalized": "a-\u003eHtmlWriter()",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "caption",
           "package": "XmlHtmlWriter",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "caption",
           "normalized": "a-\u003eHtmlWriter()",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "center",
           "package": "XmlHtmlWriter",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "center",
           "normalized": "a-\u003eHtmlWriter()",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "cite",
           "package": "XmlHtmlWriter",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "cite",
           "normalized": "a-\u003eHtmlWriter()",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "ddef",
           "package": "XmlHtmlWriter",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "ddef",
           "normalized": "a-\u003eHtmlWriter()",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "define",
           "package": "XmlHtmlWriter",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "define",
           "normalized": "a-\u003eHtmlWriter()",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "dlist",
           "package": "XmlHtmlWriter",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "dlist",
           "normalized": "a-\u003eHtmlWriter()",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "dterm",
           "package": "XmlHtmlWriter",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "dterm",
           "normalized": "a-\u003eHtmlWriter()",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "emphasize",
           "package": "XmlHtmlWriter",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "emphasize",
           "normalized": "a-\u003eHtmlWriter()",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "fieldset",
           "package": "XmlHtmlWriter",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "fieldset",
           "normalized": "a-\u003eHtmlWriter()",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "font",
           "package": "XmlHtmlWriter",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "font",
           "normalized": "a-\u003eHtmlWriter()",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "form",
           "package": "XmlHtmlWriter",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "form",
           "normalized": "a-\u003eHtmlWriter()",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "frame",
           "package": "XmlHtmlWriter",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "frame",
           "normalized": "a-\u003eHtmlWriter()",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "frameset",
           "package": "XmlHtmlWriter",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "frameset",
           "normalized": "a-\u003eHtmlWriter()",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h1",
           "package": "XmlHtmlWriter",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h1",
           "normalized": "a-\u003eHtmlWriter()",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h2",
           "package": "XmlHtmlWriter",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h2",
           "normalized": "a-\u003eHtmlWriter()",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h3",
           "package": "XmlHtmlWriter",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h3",
           "normalized": "a-\u003eHtmlWriter()",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h4",
           "package": "XmlHtmlWriter",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h4",
           "normalized": "a-\u003eHtmlWriter()",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h5",
           "package": "XmlHtmlWriter",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h5",
           "normalized": "a-\u003eHtmlWriter()",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h6",
           "package": "XmlHtmlWriter",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h6",
           "normalized": "a-\u003eHtmlWriter()",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_code",
           "package": "XmlHtmlWriter",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_code",
           "normalized": "a-\u003eHtmlWriter()",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_div",
           "package": "XmlHtmlWriter",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_div",
           "normalized": "a-\u003eHtmlWriter()",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_link",
           "package": "XmlHtmlWriter",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_link",
           "normalized": "a-\u003eHtmlWriter()",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_map",
           "package": "XmlHtmlWriter",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_map",
           "normalized": "a-\u003eHtmlWriter()",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_span",
           "package": "XmlHtmlWriter",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_span",
           "normalized": "a-\u003eHtmlWriter()",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_title",
           "package": "XmlHtmlWriter",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "h_title",
           "normalized": "a-\u003eHtmlWriter()",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "header",
           "package": "XmlHtmlWriter",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "header",
           "normalized": "a-\u003eHtmlWriter()",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "href",
           "package": "XmlHtmlWriter",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "href",
           "normalized": "a-\u003ea-\u003eParam a b",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "html",
           "package": "XmlHtmlWriter",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "html",
           "normalized": "a-\u003eHtmlWriter()",
@@ -846,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "italics",
           "package": "XmlHtmlWriter",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "italics",
           "normalized": "a-\u003eHtmlWriter()",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "keyboard",
           "package": "XmlHtmlWriter",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "keyboard",
           "normalized": "a-\u003eHtmlWriter()",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "legend",
           "package": "XmlHtmlWriter",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "legend",
           "normalized": "a-\u003eHtmlWriter()",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "li",
           "package": "XmlHtmlWriter",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "li",
           "normalized": "a-\u003eHtmlWriter()",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "link",
           "package": "XmlHtmlWriter",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "link",
           "normalized": "a-\u003e[HtmlAttr]-\u003ea-\u003eHtmlWriter()",
@@ -961,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "name",
           "package": "XmlHtmlWriter",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "name",
           "normalized": "a-\u003ea-\u003eParam a b",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "noframes",
           "package": "XmlHtmlWriter",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "noframes",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "olist",
           "package": "XmlHtmlWriter",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "olist",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "option",
           "package": "XmlHtmlWriter",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "option",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "p",
           "package": "XmlHtmlWriter",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "p",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "pre",
           "package": "XmlHtmlWriter",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "pre",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "sample",
           "package": "XmlHtmlWriter",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "sample",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "select",
           "package": "XmlHtmlWriter",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "select",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "small",
           "package": "XmlHtmlWriter",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "small",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "strong",
           "package": "XmlHtmlWriter",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "strong",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "style",
           "package": "XmlHtmlWriter",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "style",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1214,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "sub",
           "package": "XmlHtmlWriter",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "sub",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "sup",
           "package": "XmlHtmlWriter",
@@ -1246,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "sup",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "table",
           "package": "XmlHtmlWriter",
@@ -1269,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "table",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "td",
           "package": "XmlHtmlWriter",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "td",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1306,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "textarea",
           "package": "XmlHtmlWriter",
@@ -1315,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "textarea",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "th",
           "package": "XmlHtmlWriter",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "th",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "tr",
           "package": "XmlHtmlWriter",
@@ -1361,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "tr",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "tt",
           "package": "XmlHtmlWriter",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "tt",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1398,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "ulist",
           "package": "XmlHtmlWriter",
@@ -1407,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "ulist",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1421,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "underline",
           "package": "XmlHtmlWriter",
@@ -1430,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "underline",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1444,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "variable",
           "package": "XmlHtmlWriter",
@@ -1453,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml HtmlTags",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.HtmlTags",
           "name": "variable",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1468,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe xml writer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "XmlWriter",
           "package": "XmlHtmlWriter",
@@ -1477,6 +1604,7 @@
         "index": {
           "description": "The xml writer",
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "XmlWriter",
           "package": "XmlHtmlWriter",
@@ -1490,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Elem",
           "package": "XmlHtmlWriter",
@@ -1498,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Elem",
           "package": "XmlHtmlWriter",
@@ -1511,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "End",
           "package": "XmlHtmlWriter",
@@ -1519,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "End",
           "package": "XmlHtmlWriter",
@@ -1532,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "HtmlAttr",
           "package": "XmlHtmlWriter",
@@ -1540,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "HtmlAttr",
           "package": "XmlHtmlWriter",
@@ -1553,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "HtmlWriter",
           "package": "XmlHtmlWriter",
@@ -1561,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "HtmlWriter",
           "package": "XmlHtmlWriter",
@@ -1574,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Par",
           "package": "XmlHtmlWriter",
@@ -1582,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Par",
           "package": "XmlHtmlWriter",
@@ -1595,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Param",
           "package": "XmlHtmlWriter",
@@ -1603,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Param",
           "package": "XmlHtmlWriter",
@@ -1616,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Printable",
           "package": "XmlHtmlWriter",
@@ -1624,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Printable",
           "package": "XmlHtmlWriter",
@@ -1637,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Attr",
           "package": "XmlHtmlWriter",
@@ -1646,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Attr",
           "package": "XmlHtmlWriter",
@@ -1659,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Elem",
           "package": "XmlHtmlWriter",
@@ -1668,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Elem",
           "normalized": "String-\u003ea-\u003eElem a b",
@@ -1683,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "HtmlWriter",
           "package": "XmlHtmlWriter",
@@ -1692,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "HtmlWriter",
           "package": "XmlHtmlWriter",
@@ -1705,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Param",
           "package": "XmlHtmlWriter",
@@ -1714,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "Param",
           "normalized": "[HtmlAttr]-\u003ea-\u003eParam a b",
@@ -1729,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "getHtml",
           "package": "XmlHtmlWriter",
@@ -1738,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "getHtml",
           "package": "XmlHtmlWriter",
@@ -1751,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "liftIO",
           "package": "XmlHtmlWriter",
@@ -1760,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "liftIO",
           "normalized": "IO a-\u003eHtmlWriter a",
@@ -1776,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003emakeHtml\u003c/code\u003e s\u003c/code\u003e currently just converts this into a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "makeXml",
           "package": "XmlHtmlWriter",
@@ -1786,6 +1941,7 @@
         "index": {
           "description": "makeHtml currently just converts this into string",
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "makeXml",
           "normalized": "a-\u003eIO String",
@@ -1801,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "printThis",
           "package": "XmlHtmlWriter",
@@ -1810,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "printThis",
           "normalized": "a-\u003eHtmlWriter()",
@@ -1825,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "showMiddle",
           "package": "XmlHtmlWriter",
@@ -1834,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "showMiddle",
           "normalized": "[a]-\u003e[Char]",
@@ -1849,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "tag",
           "package": "XmlHtmlWriter",
@@ -1858,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "tag",
           "normalized": "String-\u003ea-\u003eHtmlWriter()",
@@ -1872,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "void",
           "package": "XmlHtmlWriter",
@@ -1881,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "void",
           "normalized": "a b-\u003ea()",
@@ -1896,6 +2060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ewriteString\u003c/a\u003e\u003c/code\u003e s\u003c/code\u003e writes a string to the html writer monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:41 UTC 2014",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "writeString",
           "package": "XmlHtmlWriter",
@@ -1906,6 +2071,7 @@
         "index": {
           "description": "writeString writes string to the html writer monad",
           "hierarchy": "Language XmlHtml XmlWriter",
+          "indexed": "2014-03-11T17:05:41",
           "module": "Language.XmlHtml.XmlWriter",
           "name": "writeString",
           "normalized": "a-\u003eb()",

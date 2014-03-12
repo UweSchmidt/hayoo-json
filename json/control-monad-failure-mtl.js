@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "control-monad-failure-mtl"
+        "phrase": "control-monad-failure-mtl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:21 UTC 2014",
           "module": "Control.Monad.Failure.MTL",
           "name": "MTL",
           "package": "control-monad-failure-mtl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Failure MTL",
+          "indexed": "2014-03-11T17:40:21",
           "module": "Control.Monad.Failure.MTL",
           "name": "MTL",
           "package": "control-monad-failure-mtl",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:21 UTC 2014",
           "module": "Control.Monad.Failure",
           "name": "Failure",
           "package": "control-monad-failure-mtl",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Failure",
+          "indexed": "2014-03-11T17:40:21",
           "module": "Control.Monad.Failure",
           "name": "Failure",
           "package": "control-monad-failure-mtl",

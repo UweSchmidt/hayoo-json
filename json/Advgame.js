@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Advgame"
+        "phrase": "Advgame",
+        "type": "phrase"
       },
       "type": "context"
     }

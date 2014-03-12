@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dx9d3d"
+        "phrase": "dx9d3d",
+        "type": "phrase"
       },
       "type": "context"
     }

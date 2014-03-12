@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk-serialized-event"
+        "phrase": "gtk-serialized-event",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "SerializedEvent",
           "package": "gtk-serialized-event",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "SerializedEvent",
           "package": "gtk-serialized-event",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "SerializedEvent",
           "package": "gtk-serialized-event",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "SerializedEvent",
           "package": "gtk-serialized-event",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "SerializedEventButton",
           "package": "gtk-serialized-event",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "SerializedEventButton",
           "package": "gtk-serialized-event",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "SerializedEventKey",
           "package": "gtk-serialized-event",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "SerializedEventKey",
           "package": "gtk-serialized-event",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "deserializeEvent",
           "package": "gtk-serialized-event",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "deserializeEvent",
           "normalized": "SerializedEvent-\u003eDrawWindow-\u003eEventM a b-\u003eIO b",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventButton",
           "package": "gtk-serialized-event",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventButton",
           "package": "gtk-serialized-event",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventGroup",
           "package": "gtk-serialized-event",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventGroup",
           "package": "gtk-serialized-event",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventKeycode",
           "package": "gtk-serialized-event",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventKeycode",
           "package": "gtk-serialized-event",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventKeyval",
           "package": "gtk-serialized-event",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventKeyval",
           "package": "gtk-serialized-event",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventLength",
           "package": "gtk-serialized-event",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventLength",
           "package": "gtk-serialized-event",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventSent",
           "package": "gtk-serialized-event",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventSent",
           "package": "gtk-serialized-event",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventState",
           "package": "gtk-serialized-event",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventState",
           "package": "gtk-serialized-event",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventString",
           "package": "gtk-serialized-event",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventString",
           "package": "gtk-serialized-event",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventType",
           "package": "gtk-serialized-event",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventType",
           "package": "gtk-serialized-event",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventX",
           "package": "gtk-serialized-event",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventX",
           "package": "gtk-serialized-event",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventXRoot",
           "package": "gtk-serialized-event",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventXRoot",
           "package": "gtk-serialized-event",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventY",
           "package": "gtk-serialized-event",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventY",
           "package": "gtk-serialized-event",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventYRoot",
           "package": "gtk-serialized-event",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "sEventYRoot",
           "package": "gtk-serialized-event",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:43 UTC 2014",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "serializedEvent",
           "package": "gtk-serialized-event",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Gdk SerializedEvent",
+          "indexed": "2014-03-11T18:22:43",
           "module": "Graphics.UI.Gtk.Gdk.SerializedEvent",
           "name": "serializedEvent",
           "package": "gtk-serialized-event",

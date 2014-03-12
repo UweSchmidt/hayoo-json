@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "msu"
+        "phrase": "msu",
+        "type": "phrase"
       },
       "type": "context"
     }

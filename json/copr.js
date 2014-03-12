@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "copr"
+        "phrase": "copr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuild",
           "package": "copr",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuild",
           "package": "copr",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuild",
           "package": "copr",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuild",
           "package": "copr",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuildResponse",
           "package": "copr",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuildResponse",
           "package": "copr",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuild",
           "package": "copr",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuild",
           "package": "copr",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuildResponse",
           "package": "copr",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "CoprBuildResponse",
           "package": "copr",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "buildId",
           "package": "copr",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "buildId",
           "package": "copr",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "error",
           "package": "copr",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "error",
           "package": "copr",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "memory",
           "package": "copr",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "memory",
           "package": "copr",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "message",
           "package": "copr",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "message",
           "package": "copr",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "output",
           "package": "copr",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "output",
           "package": "copr",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "packages",
           "package": "copr",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "packages",
           "package": "copr",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprBuild",
           "name": "timeout",
           "package": "copr",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprBuild",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprBuild",
           "name": "timeout",
           "package": "copr",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "CoprProject",
           "package": "copr",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "CoprProject",
           "package": "copr",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "CoprProject",
           "package": "copr",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "CoprProject",
           "package": "copr",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "NewCoprResponse",
           "package": "copr",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "NewCoprResponse",
           "package": "copr",
@@ -336,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "CoprProject",
           "package": "copr",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "CoprProject",
           "package": "copr",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "NewCoprResponse",
           "package": "copr",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "NewCoprResponse",
           "package": "copr",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "chroots",
           "package": "copr",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "chroots",
           "package": "copr",
@@ -401,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "description",
           "package": "copr",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "description",
           "package": "copr",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "error",
           "package": "copr",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "error",
           "package": "copr",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "initialPackages",
           "package": "copr",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "initialPackages",
           "normalized": "[Text]",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "instructions",
           "package": "copr",
@@ -476,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "instructions",
           "package": "copr",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "message",
           "package": "copr",
@@ -497,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "message",
           "package": "copr",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "name",
           "package": "copr",
@@ -518,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "name",
           "package": "copr",
@@ -530,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "output",
           "package": "copr",
@@ -539,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "output",
           "package": "copr",
@@ -551,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprProject",
           "name": "repos",
           "package": "copr",
@@ -560,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprProject",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprProject",
           "name": "repos",
           "normalized": "[Text]",
@@ -574,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprStatus",
           "name": "CoprStatus",
           "package": "copr",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprStatus",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprStatus",
           "name": "CoprStatus",
           "package": "copr",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprStatus",
           "name": "CoprStatusResponse",
           "package": "copr",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprStatus",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprStatus",
           "name": "CoprStatusResponse",
           "package": "copr",
@@ -616,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprStatus",
           "name": "CoprStatusResponse",
           "package": "copr",
@@ -625,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprStatus",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprStatus",
           "name": "CoprStatusResponse",
           "package": "copr",
@@ -638,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprStatus",
           "name": "error",
           "package": "copr",
@@ -647,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprStatus",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprStatus",
           "name": "error",
           "package": "copr",
@@ -659,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprStatus",
           "name": "output",
           "package": "copr",
@@ -668,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprStatus",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprStatus",
           "name": "output",
           "package": "copr",
@@ -680,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.CoprStatus",
           "name": "status",
           "package": "copr",
@@ -689,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr CoprStatus",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.CoprStatus",
           "name": "status",
           "package": "copr",
@@ -701,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "ListCoprs",
           "package": "copr",
@@ -709,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "ListCoprs",
           "package": "copr",
@@ -722,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "Coprs",
           "package": "copr",
@@ -730,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "Coprs",
           "package": "copr",
@@ -743,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "Repo",
           "package": "copr",
@@ -751,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "Repo",
           "package": "copr",
@@ -764,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "Coprs",
           "package": "copr",
@@ -773,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "Coprs",
           "package": "copr",
@@ -786,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "Repo",
           "package": "copr",
@@ -795,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "Repo",
           "package": "copr",
@@ -808,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "additionalRepos",
           "package": "copr",
@@ -817,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "additionalRepos",
           "package": "copr",
@@ -830,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "description",
           "package": "copr",
@@ -839,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "description",
           "package": "copr",
@@ -851,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "error",
           "package": "copr",
@@ -860,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "error",
           "package": "copr",
@@ -872,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "instructions",
           "package": "copr",
@@ -881,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "instructions",
           "package": "copr",
@@ -893,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "name",
           "package": "copr",
@@ -902,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "name",
           "package": "copr",
@@ -914,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "output",
           "package": "copr",
@@ -923,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "output",
           "package": "copr",
@@ -935,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "repos",
           "package": "copr",
@@ -944,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "repos",
           "normalized": "Maybe[Repo]",
@@ -958,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr.ListCoprs",
           "name": "yumRepos",
           "package": "copr",
@@ -967,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr ListCoprs",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr.ListCoprs",
           "name": "yumRepos",
           "package": "copr",
@@ -981,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a Haskell interface to the Fedora\n \u003ca\u003eCopr\u003c/a\u003e build system\n \u003ca\u003eAPI\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "Copr",
           "package": "copr",
@@ -990,6 +1081,7 @@
         "index": {
           "description": "Provides Haskell interface to the Fedora Copr build system API",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "Copr",
           "package": "copr",
@@ -1003,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "CoprConfig",
           "package": "copr",
@@ -1011,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "CoprConfig",
           "package": "copr",
@@ -1024,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "ProjectName",
           "package": "copr",
@@ -1032,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "ProjectName",
           "package": "copr",
@@ -1045,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "Username",
           "package": "copr",
@@ -1053,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "Username",
           "package": "copr",
@@ -1066,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "CoprConfig",
           "package": "copr",
@@ -1075,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "CoprConfig",
           "package": "copr",
@@ -1089,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a build to a copr project.\n\u003c/p\u003e\u003cp\u003eThis makes use of the \u003ccode\u003e/api/coprs\u003cem\u003e[username]\\\u003c/em\u003e[project]/new_build/\u003c/code\u003e endpoint.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ewithConfig c $ addBuild \"codeblock\" \"testproject\" (CoprBuild (NEL.fromList [\"http://example.com/foo-1.0.0.src.rpm\"]) 2048 3600)\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "addBuild",
           "package": "copr",
@@ -1098,6 +1199,7 @@
         "index": {
           "description": "Add build to copr project This makes use of the api coprs username project new build endpoint withConfig addBuild codeblock testproject CoprBuild NEL.fromList http example.com foo-1.0.0.src.rpm",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "addBuild",
           "normalized": "Username-\u003eProjectName-\u003eCoprBuild-\u003eCoprConfig-\u003eIO CoprBuildResponse",
@@ -1114,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the status of a copr build.\n\u003c/p\u003e\u003cp\u003eThis makes use of the \u003ccode\u003e/api/coprs/build_status/[build_id]/\u003c/code\u003e endpoint.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ewithConfig c $ buildStatus 1033\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "buildStatus",
           "package": "copr",
@@ -1123,6 +1226,7 @@
         "index": {
           "description": "Check the status of copr build This makes use of the api coprs build status build id endpoint withConfig buildStatus",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "buildStatus",
           "normalized": "Int-\u003eCoprConfig-\u003eIO CoprStatusResponse",
@@ -1139,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a list of copr projects for an individual user.\n\u003c/p\u003e\u003cp\u003eThis makes use of the \u003ccode\u003e/api/coprs/[username]/\u003c/code\u003e endpoint.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ewithConfig c $ coprs \"codeblock\"\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "coprs",
           "package": "copr",
@@ -1148,6 +1253,7 @@
         "index": {
           "description": "Retrieve list of copr projects for an individual user This makes use of the api coprs username endpoint withConfig coprs codeblock",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "coprs",
           "normalized": "Username-\u003eCoprConfig-\u003eIO Coprs",
@@ -1162,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "defaultConfig",
           "package": "copr",
@@ -1171,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "defaultConfig",
           "package": "copr",
@@ -1185,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe domain on which Copr is hosted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "domain",
           "package": "copr",
@@ -1195,6 +1304,7 @@
         "index": {
           "description": "The domain on which Copr is hosted",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "domain",
           "package": "copr",
@@ -1208,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe API login (\u003cem\u003enot\u003c/em\u003e the same as username).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "login",
           "package": "copr",
@@ -1218,6 +1329,7 @@
         "index": {
           "description": "The API login not the same as username",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "login",
           "package": "copr",
@@ -1231,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new copr project.\n\u003c/p\u003e\u003cp\u003eThis makes use of the \u003ccode\u003e/api/coprs/[username]/new/\u003c/code\u003e endpoint.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ewithConfig c $ new \"codeblock\" (CoprProject \"testproject\" [] [] (NEL.fromList [\"fedora-20-x86_64\"]))\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "new",
           "package": "copr",
@@ -1240,6 +1353,7 @@
         "index": {
           "description": "Create new copr project This makes use of the api coprs username new endpoint withConfig new codeblock CoprProject testproject NEL.fromList fedora-20-x86",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "new",
           "normalized": "Username-\u003eCoprProject-\u003eCoprConfig-\u003eIO NewCoprResponse",
@@ -1255,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe port on which Copr operates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "port",
           "package": "copr",
@@ -1265,6 +1380,7 @@
         "index": {
           "description": "The port on which Copr operates",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "port",
           "package": "copr",
@@ -1278,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould we use SSL or Plain Text?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "ssl",
           "package": "copr",
@@ -1288,6 +1405,7 @@
         "index": {
           "description": "Should we use SSL or Plain Text",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "ssl",
           "package": "copr",
@@ -1301,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe API token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "token",
           "package": "copr",
@@ -1311,6 +1430,7 @@
         "index": {
           "description": "The API token",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "token",
           "package": "copr",
@@ -1324,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA utility wrapper for calling API methods with a \u003ccode\u003e\u003ca\u003eCoprConfig\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou can use this to do things like:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet c = defaultConfig { login = \"your_login\", token = \"your_token\" }\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ewithConfig c $ coprs \"codeblock\"\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:20 UTC 2014",
           "module": "Fedora.Copr",
           "name": "withConfig",
           "package": "copr",
@@ -1334,6 +1455,7 @@
         "index": {
           "description": "utility wrapper for calling API methods with CoprConfig You can use this to do things like let defaultConfig login your login token your token withConfig coprs codeblock",
           "hierarchy": "Fedora Copr",
+          "indexed": "2014-03-11T17:41:20",
           "module": "Fedora.Copr",
           "name": "withConfig",
           "normalized": "CoprConfig-\u003e(CoprConfig-\u003eIO a)-\u003eIO a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "freenect"
+        "phrase": "freenect",
+        "type": "phrase"
       },
       "type": "context"
     }

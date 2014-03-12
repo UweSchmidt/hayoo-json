@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tic-tac-toe"
+        "phrase": "tic-tac-toe",
+        "type": "phrase"
       },
       "type": "context"
     }

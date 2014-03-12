@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Codec-Image-DevIL"
+        "phrase": "Codec-Image-DevIL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:56 UTC 2014",
           "module": "Codec.Image.DevIL",
           "name": "DevIL",
           "package": "Codec-Image-DevIL",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Image DevIL",
+          "indexed": "2014-03-11T16:36:56",
           "module": "Codec.Image.DevIL",
           "name": "DevIL",
           "package": "Codec-Image-DevIL",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:56 UTC 2014",
           "module": "Codec.Image.DevIL",
           "name": "Word8",
           "package": "Codec-Image-DevIL",
@@ -48,6 +51,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Codec Image DevIL",
+          "indexed": "2014-03-11T16:36:56",
           "module": "Codec.Image.DevIL",
           "name": "Word8",
           "package": "Codec-Image-DevIL",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:56 UTC 2014",
           "module": "Codec.Image.DevIL",
           "name": "ilInit",
           "package": "Codec-Image-DevIL",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Codec Image DevIL",
+          "indexed": "2014-03-11T16:36:56",
           "module": "Codec.Image.DevIL",
           "name": "ilInit",
           "normalized": "IO()",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an image into an RGBA array.  Indices are (row,column,color-channel).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:56 UTC 2014",
           "module": "Codec.Image.DevIL",
           "name": "readImage",
           "package": "Codec-Image-DevIL",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Reads an image into an RGBA array Indices are row column color-channel",
           "hierarchy": "Codec Image DevIL",
+          "indexed": "2014-03-11T16:36:56",
           "module": "Codec.Image.DevIL",
           "name": "readImage",
           "normalized": "FilePath-\u003eIO(UArray(Int,Int,Int)Word)",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites an RGBA array to a file.  Indices are (row,column,color-channel).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:56 UTC 2014",
           "module": "Codec.Image.DevIL",
           "name": "writeImage",
           "package": "Codec-Image-DevIL",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Writes an RGBA array to file Indices are row column color-channel",
           "hierarchy": "Codec Image DevIL",
+          "indexed": "2014-03-11T16:36:56",
           "module": "Codec.Image.DevIL",
           "name": "writeImage",
           "normalized": "FilePath-\u003eUArray(Int,Int,Int)Word-\u003eIO()",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an image from a pointer to raw RGBA data.  Careful!  \n The size tuple is (rows, columns), not (width, height).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:56 UTC 2014",
           "module": "Codec.Image.DevIL",
           "name": "writeImageFromPtr",
           "package": "Codec-Image-DevIL",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Write an image from pointer to raw RGBA data Careful The size tuple is rows columns not width height",
           "hierarchy": "Codec Image DevIL",
+          "indexed": "2014-03-11T16:36:56",
           "module": "Codec.Image.DevIL",
           "name": "writeImageFromPtr",
           "normalized": "FilePath-\u003e(Int,Int)-\u003ePtr Word-\u003eIO()",

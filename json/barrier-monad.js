@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "barrier-monad"
+        "phrase": "barrier-monad",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "Barrier",
           "package": "barrier-monad",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "Barrier",
           "package": "barrier-monad",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "Barrier",
           "package": "barrier-monad",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "Barrier",
           "package": "barrier-monad",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "BarrierStream",
           "package": "barrier-monad",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "BarrierStream",
           "package": "barrier-monad",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "BarrierT",
           "package": "barrier-monad",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "BarrierT",
           "package": "barrier-monad",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "Barrier",
           "package": "barrier-monad",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "Barrier",
           "normalized": "Barrier a(b-\u003eBarrier a b c)",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "BarrierStream",
           "package": "barrier-monad",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "BarrierStream",
           "normalized": "BarrierStream a(b-\u003eBarrierStream b a)",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "BarrierT",
           "package": "barrier-monad",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "BarrierT",
           "package": "barrier-monad",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "Fail",
           "package": "barrier-monad",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "Fail",
           "package": "barrier-monad",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "Unit",
           "package": "barrier-monad",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "Unit",
           "package": "barrier-monad",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "approach",
           "package": "barrier-monad",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "approach",
           "normalized": "Barrier a b c-\u003eMaybe a",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "approachT",
           "package": "barrier-monad",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "approachT",
           "normalized": "BarrierT a b c d-\u003ec(Maybe a)",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "closecont",
           "package": "barrier-monad",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "closecont",
           "normalized": "Barrier(a,b-\u003eBarrier a b c)(Barrier a b c)c-\u003eBarrier a b c",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "closecontT",
           "package": "barrier-monad",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "closecontT",
           "normalized": "BarrierT(a,b-\u003eBarrierT a b c d)(BarrierT a b c d)c d-\u003eBarrierT a b c d",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "collect",
           "package": "barrier-monad",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "collect",
           "normalized": "Barrier a()b-\u003e[a]",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "collectBS",
           "package": "barrier-monad",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "collectBS",
           "normalized": "BarrierStream a b-\u003e[a]-\u003e[b]",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "collectT",
           "package": "barrier-monad",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "collectT",
           "normalized": "BarrierT a()b c-\u003eb[a]",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "continue",
           "package": "barrier-monad",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "continue",
           "normalized": "Barrier a b c-\u003eb-\u003eBarrier a b c",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "continueT",
           "package": "barrier-monad",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "continueT",
           "normalized": "BarrierT a b c d-\u003eb-\u003eBarrierT a b c d",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "convert",
           "package": "barrier-monad",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "convert",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eBarrier a d e-\u003eBarrier b c e",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "convertBS",
           "package": "barrier-monad",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "convertBS",
           "normalized": "(a-\u003eb)-\u003eBarrierStream b c-\u003eBarrierStream a c",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "convertT",
           "package": "barrier-monad",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "convertT",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eBarrierT a d e f-\u003eBarrierT b c e f",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "crosstalk",
           "package": "barrier-monad",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "crosstalk",
           "normalized": "Barrier a b c-\u003eBarrier b a c-\u003e[(a,b)]",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "crosstalkT",
           "package": "barrier-monad",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "crosstalkT",
           "normalized": "BarrierT a b c d-\u003eBarrierT b a c d-\u003ec[(a,b)]",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "displayBarrier",
           "package": "barrier-monad",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "displayBarrier",
           "normalized": "Barrier a b c-\u003eString",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "initializeBS",
           "package": "barrier-monad",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "initializeBS",
           "normalized": "a-\u003eBarrierStream a a",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "liftBarrier",
           "package": "barrier-monad",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "liftBarrier",
           "normalized": "Barrier a b c-\u003eBarrierT a b d c",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "opencont",
           "package": "barrier-monad",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "opencont",
           "normalized": "Barrier a b c-\u003eBarrier(a,b-\u003eBarrier a b c)(Barrier a b c)c",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "opencontT",
           "package": "barrier-monad",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "opencontT",
           "normalized": "BarrierT a b c d-\u003eBarrierT(a,b-\u003eBarrierT a b c d)(BarrierT a b c d)c d",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "operate",
           "package": "barrier-monad",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "operate",
           "normalized": "(a-\u003eb c)-\u003eBarrier a c d-\u003eb d",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "operateT",
           "package": "barrier-monad",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "operateT",
           "normalized": "(a-\u003eb c)-\u003eBarrierT a c b d-\u003eb d",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "operatesT",
           "package": "barrier-monad",
@@ -713,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "operatesT",
           "normalized": "(a-\u003eb-\u003ec(a,d))-\u003ea-\u003eBarrierT b d c e-\u003ec(a,e)",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "perform",
           "package": "barrier-monad",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "perform",
           "normalized": "(a-\u003eb-\u003e(c,b))-\u003e(String-\u003eb-\u003ed)-\u003e(e-\u003eb-\u003ed)-\u003eb-\u003eBarrier a c e-\u003ed",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "rebind",
           "package": "barrier-monad",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "rebind",
           "normalized": "(a-\u003eBarrier b c c)-\u003eBarrier a c d-\u003eBarrier b c d",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "runBarrierT",
           "package": "barrier-monad",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "runBarrierT",
           "normalized": "a(Either b(c,d-\u003eBarrierT c d a b))",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "streamify",
           "package": "barrier-monad",
@@ -806,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "streamify",
           "normalized": "Barrier a b c-\u003eBarrierStream b a",
@@ -820,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "uncollect",
           "package": "barrier-monad",
@@ -829,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "uncollect",
           "normalized": "[a]-\u003eBarrier a b()",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "unliftBarrier",
           "package": "barrier-monad",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "unliftBarrier",
           "normalized": "BarrierT a b c d-\u003eBarrier a b d",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "unstreamify",
           "package": "barrier-monad",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "unstreamify",
           "normalized": "BarrierStream a b-\u003eBarrier b a c",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "yield",
           "package": "barrier-monad",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "yield",
           "normalized": "a-\u003eBarrier a b b",
@@ -913,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:42 UTC 2014",
           "module": "Control.Monad.Barrier",
           "name": "yieldT",
           "package": "barrier-monad",
@@ -922,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Barrier",
+          "indexed": "2014-03-11T17:16:42",
           "module": "Control.Monad.Barrier",
           "name": "yieldT",
           "normalized": "a-\u003eBarrierT a b c b",

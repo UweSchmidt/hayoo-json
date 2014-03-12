@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aws-sdk-text-converter"
+        "phrase": "aws-sdk-text-converter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "FromText",
           "package": "aws-sdk-text-converter",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib FromText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "FromText",
           "package": "aws-sdk-text-converter",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "FromText",
           "package": "aws-sdk-text-converter",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib FromText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "FromText",
           "package": "aws-sdk-text-converter",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "deriveFromText",
           "package": "aws-sdk-text-converter",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib FromText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "deriveFromText",
           "normalized": "String-\u003e[String]-\u003eDecsQ",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "failText",
           "package": "aws-sdk-text-converter",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib FromText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "failText",
           "normalized": "Text-\u003ea b",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "fromNamedText",
           "package": "aws-sdk-text-converter",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib FromText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "fromNamedText",
           "normalized": "Text-\u003eMaybe Text-\u003ea b",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "fromText",
           "package": "aws-sdk-text-converter",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib FromText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.FromText",
           "name": "fromText",
           "normalized": "Text-\u003ea b",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.ToText",
           "name": "ToText",
           "package": "aws-sdk-text-converter",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib ToText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.ToText",
           "name": "ToText",
           "package": "aws-sdk-text-converter",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.ToText",
           "name": "ToText",
           "package": "aws-sdk-text-converter",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib ToText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.ToText",
           "name": "ToText",
           "package": "aws-sdk-text-converter",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.ToText",
           "name": "deriveToText",
           "package": "aws-sdk-text-converter",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib ToText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.ToText",
           "name": "deriveToText",
           "normalized": "String-\u003e[String]-\u003eDecsQ",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:51 UTC 2014",
           "module": "Cloud.AWS.Lib.ToText",
           "name": "toText",
           "package": "aws-sdk-text-converter",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Cloud AWS Lib ToText",
+          "indexed": "2014-03-11T17:15:51",
           "module": "Cloud.AWS.Lib.ToText",
           "name": "toText",
           "normalized": "a-\u003eText",

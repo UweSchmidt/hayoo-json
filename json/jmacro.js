@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jmacro"
+        "phrase": "jmacro",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Prelude",
           "name": "Prelude",
           "package": "jmacro",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Prelude",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Prelude",
           "name": "Prelude",
           "package": "jmacro",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis provides a set of basic functional programming primitives, a few utility functions\n and, more importantly, a decent sample of idiomatic jmacro code. View the source for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Prelude",
           "name": "jmPrelude",
           "package": "jmacro",
@@ -50,6 +53,7 @@
         "index": {
           "description": "This provides set of basic functional programming primitives few utility functions and more importantly decent sample of idiomatic jmacro code View the source for details",
           "hierarchy": "Language Javascript JMacro Prelude",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Prelude",
           "name": "jmPrelude",
           "package": "jmacro",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TypeCheck",
           "package": "jmacro",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TypeCheck",
           "package": "jmacro",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "C",
           "package": "jmacro",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "C",
           "package": "jmacro",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "Compos1",
           "package": "jmacro",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "Compos1",
           "package": "jmacro",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "JTypeCheck",
           "package": "jmacro",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "JTypeCheck",
           "package": "jmacro",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "StoreVal",
           "package": "jmacro",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "StoreVal",
           "package": "jmacro",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TCState",
           "package": "jmacro",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TCState",
           "package": "jmacro",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TMonad",
           "package": "jmacro",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TMonad",
           "package": "jmacro",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "(\u003c\u003c:\u003e)",
           "package": "jmacro",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "(\u003c\u003c:\u003e) \u003c\u003c:\u003e",
           "normalized": "TMonad JType-\u003eTMonad JType-\u003eTMonad()",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "(\u003c:)",
           "package": "jmacro",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "(\u003c:) \u003c:",
           "normalized": "JType-\u003eJType-\u003eTMonad()",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "(=.=)",
           "package": "jmacro",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "(=.=) =.=",
           "normalized": "JType-\u003eJType-\u003eTMonad JType",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "C",
           "package": "jmacro",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "C",
           "package": "jmacro",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "SVConstrained",
           "package": "jmacro",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "SVConstrained",
           "package": "jmacro",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "SVType",
           "package": "jmacro",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "SVType",
           "package": "jmacro",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TCS",
           "package": "jmacro",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TCS",
           "package": "jmacro",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TMonad",
           "package": "jmacro",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "TMonad",
           "package": "jmacro",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "addConstraint",
           "package": "jmacro",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "addConstraint",
           "normalized": "VarRef-\u003eConstraint-\u003eTMonad()",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "addEnv",
           "package": "jmacro",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "addEnv",
           "normalized": "Ident-\u003eJType-\u003eTMonad()",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "addToStack",
           "package": "jmacro",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "addToStack",
           "normalized": "a-\u003e[Set a]-\u003e[Set a]",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "cannonicalizeConstraints",
           "package": "jmacro",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "cannonicalizeConstraints",
           "normalized": "[Constraint]-\u003eTMonad[Constraint]",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "checkConstraints",
           "package": "jmacro",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "checkConstraints",
           "normalized": "JType-\u003e[Constraint]-\u003eTMonad()",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "checkEscapedVars",
           "package": "jmacro",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "checkEscapedVars",
           "normalized": "[VarRef]-\u003eJType-\u003eTMonad()",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "compos1",
           "package": "jmacro",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "compos1",
           "normalized": "(a b c-\u003ed c)-\u003e(a c e d(c-\u003ef)-\u003ed c-\u003ed f)-\u003e(g-\u003ed g)-\u003eg-\u003ed g",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "composOp1",
           "package": "jmacro",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "composOp1",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "composOpFold1",
           "package": "jmacro",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "composOpFold1",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003e(b-\u003ea)-\u003eb-\u003ea",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "composOpM1",
           "package": "jmacro",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "composOpM1",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "composOpM1_",
           "package": "jmacro",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "composOpM1_",
           "normalized": "(a-\u003eb())-\u003ea-\u003eb()",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "eitherIsLeft",
           "package": "jmacro",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "eitherIsLeft",
           "normalized": "Either a b-\u003eBool",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "evalTMonad",
           "package": "jmacro",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "evalTMonad",
           "normalized": "TMonad a-\u003eEither String a",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "evalTypecheck",
           "package": "jmacro",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "evalTypecheck",
           "normalized": "a-\u003eEither String[Map Ident String]",
@@ -722,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "frame2VarRefs",
           "package": "jmacro",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "frame2VarRefs",
           "normalized": "Set a-\u003e[(Maybe b,a)]",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "freeVars",
           "package": "jmacro",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "freeVars",
           "normalized": "JType-\u003eTMonad(Set Int)",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "freeVarsWithNames",
           "package": "jmacro",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "freeVarsWithNames",
           "normalized": "JType-\u003eTMonad(Map Int String)",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "instantiateRigidScheme",
           "package": "jmacro",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "instantiateRigidScheme",
           "normalized": "[VarRef]-\u003eJType-\u003eTMonad JType",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "instantiateScheme",
           "package": "jmacro",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "instantiateScheme",
           "normalized": "[VarRef]-\u003eJType-\u003eTMonad JType",
@@ -842,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "instantiateVarRef",
           "package": "jmacro",
@@ -851,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "instantiateVarRef",
           "normalized": "VarRef-\u003eJType-\u003eTMonad()",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "integrateLocalType",
           "package": "jmacro",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "integrateLocalType",
           "normalized": "JLocalType-\u003eTMonad JType",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "intersectionWithM",
           "package": "jmacro",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "intersectionWithM",
           "normalized": "(a-\u003ea-\u003eb c)-\u003eMap d a-\u003eMap d a-\u003eb(Map d c)",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "lookupConstraintsList",
           "package": "jmacro",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "lookupConstraintsList",
           "normalized": "VarRef-\u003eTMonad[Constraint]",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "lookupEnv",
           "package": "jmacro",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "lookupEnv",
           "normalized": "Ident-\u003eTMonad JType",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "mapConstraint",
           "package": "jmacro",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "mapConstraint",
           "normalized": "(JType-\u003ea JType)-\u003eConstraint-\u003ea Constraint",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "newTyVar",
           "package": "jmacro",
@@ -995,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "newTyVar",
           "package": "jmacro",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "newVarDecl",
           "package": "jmacro",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "newVarDecl",
           "normalized": "Ident-\u003eTMonad JType",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "newVarRef",
           "package": "jmacro",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "newVarRef",
           "package": "jmacro",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "occursCheck",
           "package": "jmacro",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "occursCheck",
           "normalized": "Int-\u003eJType-\u003eTMonad()",
@@ -1078,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "partitionCs",
           "package": "jmacro",
@@ -1087,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "partitionCs",
           "normalized": "[Constraint]-\u003e([JType],[JType])",
@@ -1102,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "partitionOut",
           "package": "jmacro",
@@ -1111,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "partitionOut",
           "normalized": "(a-\u003eMaybe b)-\u003e[a]-\u003e([b],[a])",
@@ -1126,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "prettyEnv",
           "package": "jmacro",
@@ -1135,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "prettyEnv",
           "normalized": "TMonad[Map Ident String]",
@@ -1150,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "prettyType",
           "package": "jmacro",
@@ -1159,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "prettyType",
           "normalized": "JType-\u003eTMonad String",
@@ -1174,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "resolveType",
           "package": "jmacro",
@@ -1183,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "resolveType",
           "normalized": "JType-\u003eTMonad JType",
@@ -1198,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "resolveTypeGen",
           "package": "jmacro",
@@ -1207,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "resolveTypeGen",
           "normalized": "((JType-\u003eTMonad JType)-\u003eJType-\u003eTMonad JType)-\u003eJType-\u003eTMonad JType",
@@ -1222,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "resolveTypeShallow",
           "package": "jmacro",
@@ -1231,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "resolveTypeShallow",
           "normalized": "JType-\u003eTMonad JType",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "runTMonad",
           "package": "jmacro",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "runTMonad",
           "normalized": "TMonad a-\u003e(Either String a,TCState)",
@@ -1270,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "runTypecheck",
           "package": "jmacro",
@@ -1279,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "runTypecheck",
           "normalized": "a-\u003eEither String String",
@@ -1294,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "runTypecheckFull",
           "package": "jmacro",
@@ -1303,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "runTypecheckFull",
           "normalized": "a-\u003e(Either String(String,[Map Ident String]),TCState)",
@@ -1318,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "runTypecheckRaw",
           "package": "jmacro",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "runTypecheckRaw",
           "normalized": "a-\u003e(Either String JType,TCState)",
@@ -1342,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "setFrozen",
           "package": "jmacro",
@@ -1351,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "setFrozen",
           "normalized": "Set Int-\u003eTMonad()",
@@ -1366,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "someLowerBound",
           "package": "jmacro",
@@ -1375,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "someLowerBound",
           "normalized": "[JType]-\u003eTMonad JType",
@@ -1390,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "someUpperBound",
           "package": "jmacro",
@@ -1399,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "someUpperBound",
           "normalized": "[JType]-\u003eTMonad JType",
@@ -1414,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tcStateEmpty",
           "package": "jmacro",
@@ -1423,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tcStateEmpty",
           "package": "jmacro",
@@ -1436,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_context",
           "package": "jmacro",
@@ -1445,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_context",
           "normalized": "[TMonad String]",
@@ -1459,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_env",
           "package": "jmacro",
@@ -1468,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_env",
           "normalized": "[Map Ident JType]",
@@ -1482,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_frozen",
           "package": "jmacro",
@@ -1491,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_frozen",
           "package": "jmacro",
@@ -1503,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_stack",
           "package": "jmacro",
@@ -1512,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_stack",
           "normalized": "[Set Int]",
@@ -1526,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_varCt",
           "package": "jmacro",
@@ -1535,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_varCt",
           "package": "jmacro",
@@ -1548,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_vars",
           "package": "jmacro",
@@ -1557,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tc_vars",
           "package": "jmacro",
@@ -1569,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "traversem_",
           "package": "jmacro",
@@ -1578,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "traversem_",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb()",
@@ -1592,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tryCloseFrozenVars",
           "package": "jmacro",
@@ -1601,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tryCloseFrozenVars",
           "normalized": "TMonad()",
@@ -1616,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tyErr0",
           "package": "jmacro",
@@ -1625,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tyErr0",
           "normalized": "String-\u003eTMonad a",
@@ -1640,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tyErr1",
           "package": "jmacro",
@@ -1649,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tyErr1",
           "normalized": "String-\u003eJType-\u003eTMonad a",
@@ -1664,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tyErr2Sub",
           "package": "jmacro",
@@ -1673,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tyErr2Sub",
           "normalized": "JType-\u003eJType-\u003eTMonad a",
@@ -1688,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tyErr2ext",
           "package": "jmacro",
@@ -1697,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "tyErr2ext",
           "normalized": "String-\u003eString-\u003eString-\u003eJType-\u003eJType-\u003eTMonad a",
@@ -1712,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "typecheck",
           "package": "jmacro",
@@ -1721,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "typecheck",
           "normalized": "a-\u003eTMonad JType",
@@ -1735,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "typecheckMain",
           "package": "jmacro",
@@ -1744,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "typecheckMain",
           "normalized": "a-\u003eTMonad JType",
@@ -1759,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "typecheckWithBlock",
           "package": "jmacro",
@@ -1768,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "typecheckWithBlock",
           "normalized": "a-\u003eTMonad JType",
@@ -1783,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "unC",
           "package": "jmacro",
@@ -1792,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "unC",
           "package": "jmacro",
@@ -1804,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "unionWithM",
           "package": "jmacro",
@@ -1813,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "unionWithM",
           "normalized": "(a-\u003ea-\u003eb a)-\u003eMap c a-\u003eMap c a-\u003eb(Map c a)",
@@ -1828,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "withContext",
           "package": "jmacro",
@@ -1837,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "withContext",
           "normalized": "TMonad a-\u003eTMonad String-\u003eTMonad a",
@@ -1852,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "withLocalScope",
           "package": "jmacro",
@@ -1861,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "withLocalScope",
           "normalized": "TMonad a-\u003eTMonad(a,Set Int)",
@@ -1876,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "zipWithOrChange",
           "package": "jmacro",
@@ -1885,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "zipWithOrChange",
           "normalized": "(a-\u003ea-\u003eb)-\u003e(a-\u003eb)-\u003e[a]-\u003e[a]-\u003e[b]",
@@ -1900,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "zipWithOrIdM",
           "package": "jmacro",
@@ -1909,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro TypeCheck",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.TypeCheck",
           "name": "zipWithOrIdM",
           "normalized": "(a-\u003ea-\u003eb a)-\u003e[a]-\u003e[a]-\u003eb[a]",
@@ -1924,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "Types",
           "package": "jmacro",
@@ -1932,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "Types",
           "package": "jmacro",
@@ -1945,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "Constraint",
           "package": "jmacro",
@@ -1953,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "Constraint",
           "package": "jmacro",
@@ -1966,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JLocalType",
           "package": "jmacro",
@@ -1974,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JLocalType",
           "package": "jmacro",
@@ -1987,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JType",
           "package": "jmacro",
@@ -1995,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JType",
           "package": "jmacro",
@@ -2008,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "VarRef",
           "package": "jmacro",
@@ -2016,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "VarRef",
           "package": "jmacro",
@@ -2029,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTBool",
           "package": "jmacro",
@@ -2038,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTBool",
           "package": "jmacro",
@@ -2051,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTForall",
           "package": "jmacro",
@@ -2060,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTForall",
           "normalized": "JTForall[VarRef]JType",
@@ -2075,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTFree",
           "package": "jmacro",
@@ -2084,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTFree",
           "package": "jmacro",
@@ -2097,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTFunc",
           "package": "jmacro",
@@ -2106,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTFunc",
           "normalized": "JTFunc[JType]JType",
@@ -2121,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTImpossible",
           "package": "jmacro",
@@ -2130,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTImpossible",
           "package": "jmacro",
@@ -2143,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTList",
           "package": "jmacro",
@@ -2152,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTList",
           "package": "jmacro",
@@ -2165,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTMap",
           "package": "jmacro",
@@ -2174,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTMap",
           "package": "jmacro",
@@ -2187,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTNum",
           "package": "jmacro",
@@ -2196,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTNum",
           "package": "jmacro",
@@ -2209,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTRecord",
           "package": "jmacro",
@@ -2218,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTRecord",
           "package": "jmacro",
@@ -2231,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTRigid",
           "package": "jmacro",
@@ -2240,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTRigid",
           "package": "jmacro",
@@ -2253,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTStat",
           "package": "jmacro",
@@ -2262,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTStat",
           "package": "jmacro",
@@ -2275,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTString",
           "package": "jmacro",
@@ -2284,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "JTString",
           "package": "jmacro",
@@ -2297,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "Sub",
           "package": "jmacro",
@@ -2306,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "Sub",
           "package": "jmacro",
@@ -2319,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "Super",
           "package": "jmacro",
@@ -2328,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "Super",
           "package": "jmacro",
@@ -2341,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "anyType",
           "package": "jmacro",
@@ -2350,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "anyType",
           "package": "jmacro",
@@ -2363,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "parseType",
           "package": "jmacro",
@@ -2372,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "parseType",
           "normalized": "String-\u003eEither ParseError JType",
@@ -2387,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Types",
           "name": "runTypeParser",
           "package": "jmacro",
@@ -2396,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Types",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Types",
           "name": "runTypeParser",
           "package": "jmacro",
@@ -2409,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "Util",
           "package": "jmacro",
@@ -2417,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "Util",
           "package": "jmacro",
@@ -2430,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(!=)",
           "package": "jmacro",
@@ -2439,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(!=) !=",
           "normalized": "JExpr-\u003eJExpr-\u003eJExpr",
@@ -2453,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "($)",
           "package": "jmacro",
@@ -2462,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "($) $",
           "normalized": "a-\u003eb-\u003eJExpr",
@@ -2476,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "($$)",
           "package": "jmacro",
@@ -2485,6 +2700,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "($$) $$",
           "normalized": "a-\u003eb-\u003eJStat",
@@ -2499,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(&&)",
           "package": "jmacro",
@@ -2508,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(&&) &&",
           "normalized": "JExpr-\u003eJExpr-\u003eJExpr",
@@ -2522,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(\u003c)",
           "package": "jmacro",
@@ -2531,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(\u003c) \u003c",
           "normalized": "JExpr-\u003eJExpr-\u003eJExpr",
@@ -2545,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(\u003c\u003e)",
           "package": "jmacro",
@@ -2554,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "JExpr-\u003ea-\u003eJExpr",
@@ -2568,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(==)",
           "package": "jmacro",
@@ -2577,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(==) ==",
           "normalized": "JExpr-\u003eJExpr-\u003eJExpr",
@@ -2591,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(=:)",
           "package": "jmacro",
@@ -2600,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(=:) =:",
           "normalized": "JExpr-\u003ea-\u003eJStat",
@@ -2614,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(.)",
           "package": "jmacro",
@@ -2623,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "(.) .",
           "normalized": "JExpr-\u003eString-\u003eJExpr",
@@ -2637,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "if'",
           "package": "jmacro",
@@ -2646,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "if'",
           "normalized": "a-\u003eb-\u003eJStat",
@@ -2660,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "ifElse",
           "package": "jmacro",
@@ -2669,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "ifElse",
           "normalized": "a-\u003eb-\u003ec-\u003eJStat",
@@ -2684,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "jstr",
           "package": "jmacro",
@@ -2693,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "jstr",
           "normalized": "String-\u003eJExpr",
@@ -2707,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "new",
           "package": "jmacro",
@@ -2716,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "new",
           "normalized": "a-\u003eJExpr",
@@ -2730,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "null",
           "package": "jmacro",
@@ -2739,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "null",
           "package": "jmacro",
@@ -2751,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "return",
           "package": "jmacro",
@@ -2760,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "return",
           "normalized": "a-\u003eJStat",
@@ -2774,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "toJExprList",
           "package": "jmacro",
@@ -2783,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "toJExprList",
           "normalized": "a-\u003e[JExpr]",
@@ -2798,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro.Util",
           "name": "while",
           "package": "jmacro",
@@ -2807,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro Util",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro.Util",
           "name": "while",
           "normalized": "a-\u003eJStat-\u003eJStat",
@@ -2822,6 +3066,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple DSL for lightweight (untyped) programmatic generation of Javascript.\n\u003c/p\u003e\u003cp\u003eA number of examples are available in the source of \u003ca\u003eLanguage.Javascript.JMacro.Prelude\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eFunctions to generate generic RPC wrappers (using json serialization) are available in\n\u003ca\u003eLanguage.Javascript.JMacro.Rpc\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eusage:\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacro|fun id x -\u003e x|]\n\u003c/pre\u003e\u003cp\u003eThe above produces the id function at the top level.\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacro|var id = \\x -\u003e x;|]\n\u003c/pre\u003e\u003cp\u003eSo does the above here. However, as id is brought into scope by the keyword var, you do not get a variable named id in the generated javascript, but a variable with an arbitrary unique identifier.\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacro|var !id = \\x -\u003e x;|]\n\u003c/pre\u003e\u003cp\u003eThe above, by using the bang special form in a var declaration, produces a variable that really is named id.\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacro|function id(x) {return x;}|]\n\u003c/pre\u003e\u003cp\u003eThe above is also id.\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacro|function !id(x) {return x;}|]\n\u003c/pre\u003e\u003cp\u003eAs is the above (with the correct name).\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacro|fun id x {return x;}|]\n\u003c/pre\u003e\u003cp\u003eAs is the above.\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacroE|foo(x,y)|]\n\u003c/pre\u003e\u003cp\u003eThe above is an expression representing the application of foo to x and y.\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacroE|foo x y|]]\n\u003c/pre\u003e\u003cp\u003eAs is the above.\n\u003c/p\u003e\u003cpre\u003e renderJs [$jmacroE|foo (x,y)|]\n\u003c/pre\u003e\u003cp\u003eWhile the above is an error. (i.e. standard javascript function application cannot seperate the leading parenthesis of the argument from the function being applied)\n\u003c/p\u003e\u003cpre\u003e \\x -\u003e [$jmacroE|foo `(x)`|]\n\u003c/pre\u003e\u003cp\u003eThe above is a haskell expression that provides a function that takes an x, and yields an expression representing the application of foo to the value of x as transformed to a Javascript expression.\n\u003c/p\u003e\u003cpre\u003e [$jmacroE|\\x -\u003e`(foo x)`|]\n\u003c/pre\u003e\u003cp\u003eMeanwhile, the above lambda is in Javascript, and brings the variable into scope both in javascript and in the enclosed antiquotes. The expression is a Javascript function that takes an x, and yields an expression produced by the application of the Haskell function foo as applied to the identifier x (which is of type JExpr -- i.e. a Javascript expression).\n\u003c/p\u003e\u003cp\u003eOther than that, the language is essentially Javascript (1.5). Note however that one must use semicolons in a principled fashion -- i.e. to end statements consistently. Otherwise, the parser will mistake the whitespace for a whitespace application, and odd things will occur. A further gotcha exists in regex literals, whicch cannot begin with a space. \u003ccode\u003ex \u003cem\u003e 5 \u003c/em\u003e 4\u003c/code\u003e parses as ((x \u003cem\u003e 5) \u003c/em\u003e 4). However, \u003ccode\u003ex \u003cem\u003e5 \u003c/em\u003e 4\u003c/code\u003e will parse as x(\u003cem\u003e5 \u003c/em\u003e, 4). Such are the perils of operators used as delimeters in the presence of whitespace application.\n\u003c/p\u003e\u003cp\u003eAdditional features in jmacro (documented on the wiki) include an infix application operator, and an enhanced destructuring bind.  \n\u003c/p\u003e\u003cp\u003eAdditional datatypes can be marshalled to Javascript by proper instance declarations for the ToJExpr class.\n\u003c/p\u003e\u003cp\u003eAn experimental typechecker is available in the \u003ca\u003eLanguage.Javascript.JMacro.Typed\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JMacro",
           "package": "jmacro",
@@ -2831,6 +3076,7 @@
         "index": {
           "description": "Simple DSL for lightweight untyped programmatic generation of Javascript number of examples are available in the source of Language.Javascript.JMacro.Prelude Functions to generate generic RPC wrappers using json serialization are available in Language.Javascript.JMacro.Rpc usage renderJs jmacro fun id The above produces the id function at the top level renderJs jmacro var id So does the above here However as id is brought into scope by the keyword var you do not get variable named id in the generated javascript but variable with an arbitrary unique identifier renderJs jmacro var id The above by using the bang special form in var declaration produces variable that really is named id renderJs jmacro function id return The above is also id renderJs jmacro function id return As is the above with the correct name renderJs jmacro fun id return As is the above renderJs jmacroE foo The above is an expression representing the application of foo to and renderJs jmacroE foo As is the above renderJs jmacroE foo While the above is an error i.e standard javascript function application cannot seperate the leading parenthesis of the argument from the function being applied jmacroE foo The above is haskell expression that provides function that takes an and yields an expression representing the application of foo to the value of as transformed to Javascript expression jmacroE foo Meanwhile the above lambda is in Javascript and brings the variable into scope both in javascript and in the enclosed antiquotes The expression is Javascript function that takes an and yields an expression produced by the application of the Haskell function foo as applied to the identifier which is of type JExpr i.e Javascript expression Other than that the language is essentially Javascript Note however that one must use semicolons in principled fashion i.e to end statements consistently Otherwise the parser will mistake the whitespace for whitespace application and odd things will occur further gotcha exists in regex literals whicch cannot begin with space parses as However will parse as Such are the perils of operators used as delimeters in the presence of whitespace application Additional features in jmacro documented on the wiki include an infix application operator and an enhanced destructuring bind Additional datatypes can be marshalled to Javascript by proper instance declarations for the ToJExpr class An experimental typechecker is available in the Language.Javascript.JMacro.Typed module",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JMacro",
           "package": "jmacro",
@@ -2844,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "Compos",
           "package": "jmacro",
@@ -2852,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "Compos",
           "package": "jmacro",
@@ -2866,6 +3114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "Ident",
           "package": "jmacro",
@@ -2875,6 +3124,7 @@
         "index": {
           "description": "Identifiers",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "Ident",
           "package": "jmacro",
@@ -2888,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "IdentSupply",
           "package": "jmacro",
@@ -2896,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "IdentSupply",
           "package": "jmacro",
@@ -2910,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JExpr",
           "package": "jmacro",
@@ -2919,6 +3172,7 @@
         "index": {
           "description": "Expressions",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JExpr",
           "package": "jmacro",
@@ -2933,6 +3187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion type to allow regular traversal by compos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JMGadt",
           "package": "jmacro",
@@ -2942,6 +3197,7 @@
         "index": {
           "description": "Union type to allow regular traversal by compos",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JMGadt",
           "package": "jmacro",
@@ -2956,6 +3212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompos and ops for generic traversal as defined over\n the JMacro ADT.\n\u003c/p\u003e\u003cp\u003eUtility class to coerce the ADT into a regular structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JMacro",
           "package": "jmacro",
@@ -2965,6 +3222,7 @@
         "index": {
           "description": "Compos and ops for generic traversal as defined over the JMacro ADT Utility class to coerce the ADT into regular structure",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JMacro",
           "package": "jmacro",
@@ -2979,6 +3237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JStat",
           "package": "jmacro",
@@ -2988,6 +3247,7 @@
         "index": {
           "description": "Statements",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JStat",
           "package": "jmacro",
@@ -3002,6 +3262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JVal",
           "package": "jmacro",
@@ -3011,6 +3272,7 @@
         "index": {
           "description": "Values",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JVal",
           "package": "jmacro",
@@ -3024,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JsLabel",
           "package": "jmacro",
@@ -3032,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JsLabel",
           "package": "jmacro",
@@ -3045,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JsToDoc",
           "package": "jmacro",
@@ -3053,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JsToDoc",
           "package": "jmacro",
@@ -3066,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "SaneDouble",
           "package": "jmacro",
@@ -3074,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "SaneDouble",
           "package": "jmacro",
@@ -3088,6 +3356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that can be marshalled into javascript values.\n Instantiate for any necessary data structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ToJExpr",
           "package": "jmacro",
@@ -3097,6 +3366,7 @@
         "index": {
           "description": "Things that can be marshalled into javascript values Instantiate for any necessary data structures",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ToJExpr",
           "package": "jmacro",
@@ -3110,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ToStat",
           "package": "jmacro",
@@ -3118,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ToStat",
           "package": "jmacro",
@@ -3131,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "AntiExpr",
           "package": "jmacro",
@@ -3140,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "AntiExpr",
           "package": "jmacro",
@@ -3153,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "AntiStat",
           "package": "jmacro",
@@ -3162,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "AntiStat",
           "package": "jmacro",
@@ -3175,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ApplExpr",
           "package": "jmacro",
@@ -3184,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ApplExpr",
           "normalized": "ApplExpr JExpr[JExpr]",
@@ -3199,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ApplStat",
           "package": "jmacro",
@@ -3208,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ApplStat",
           "normalized": "ApplStat JExpr[JExpr]",
@@ -3223,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "AssignStat",
           "package": "jmacro",
@@ -3232,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "AssignStat",
           "package": "jmacro",
@@ -3245,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "BlockStat",
           "package": "jmacro",
@@ -3254,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "BlockStat",
           "normalized": "BlockStat[JStat]",
@@ -3269,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "BreakStat",
           "package": "jmacro",
@@ -3278,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "BreakStat",
           "package": "jmacro",
@@ -3291,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ContinueStat",
           "package": "jmacro",
@@ -3300,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ContinueStat",
           "package": "jmacro",
@@ -3313,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "DeclStat",
           "package": "jmacro",
@@ -3322,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "DeclStat",
           "package": "jmacro",
@@ -3335,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ForInStat",
           "package": "jmacro",
@@ -3344,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ForInStat",
           "package": "jmacro",
@@ -3357,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ForeignStat",
           "package": "jmacro",
@@ -3366,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ForeignStat",
           "package": "jmacro",
@@ -3379,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "IS",
           "package": "jmacro",
@@ -3388,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "IS",
           "package": "jmacro",
@@ -3401,6 +3697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "IdxExpr",
           "package": "jmacro",
@@ -3410,6 +3707,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "IdxExpr",
           "package": "jmacro",
@@ -3423,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "IfExpr",
           "package": "jmacro",
@@ -3432,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "IfExpr",
           "package": "jmacro",
@@ -3445,6 +3745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "IfStat",
           "package": "jmacro",
@@ -3454,6 +3755,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "IfStat",
           "package": "jmacro",
@@ -3467,6 +3769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "InfixExpr",
           "package": "jmacro",
@@ -3476,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "InfixExpr",
           "package": "jmacro",
@@ -3489,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JDouble",
           "package": "jmacro",
@@ -3498,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JDouble",
           "package": "jmacro",
@@ -3511,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JFunc",
           "package": "jmacro",
@@ -3520,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JFunc",
           "normalized": "JFunc[Ident]JStat",
@@ -3535,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JHash",
           "package": "jmacro",
@@ -3544,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JHash",
           "package": "jmacro",
@@ -3557,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JInt",
           "package": "jmacro",
@@ -3566,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JInt",
           "package": "jmacro",
@@ -3579,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JList",
           "package": "jmacro",
@@ -3588,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JList",
           "normalized": "JList[JExpr]",
@@ -3603,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JMGExpr",
           "package": "jmacro",
@@ -3612,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JMGExpr",
           "normalized": "JExpr-\u003eJMGadt JExpr",
@@ -3627,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JMGId",
           "package": "jmacro",
@@ -3636,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JMGId",
           "normalized": "Ident-\u003eJMGadt Ident",
@@ -3651,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JMGStat",
           "package": "jmacro",
@@ -3660,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JMGStat",
           "normalized": "JStat-\u003eJMGadt JStat",
@@ -3675,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JMGVal",
           "package": "jmacro",
@@ -3684,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JMGVal",
           "normalized": "JVal-\u003eJMGadt JVal",
@@ -3699,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JRegEx",
           "package": "jmacro",
@@ -3708,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JRegEx",
           "package": "jmacro",
@@ -3721,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JStr",
           "package": "jmacro",
@@ -3730,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JStr",
           "package": "jmacro",
@@ -3743,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "JVar",
           "package": "jmacro",
@@ -3752,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "JVar",
           "package": "jmacro",
@@ -3765,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "LabelStat",
           "package": "jmacro",
@@ -3774,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "LabelStat",
           "package": "jmacro",
@@ -3787,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "NewExpr",
           "package": "jmacro",
@@ -3796,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "NewExpr",
           "package": "jmacro",
@@ -3809,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "PPostExpr",
           "package": "jmacro",
@@ -3818,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "PPostExpr",
           "package": "jmacro",
@@ -3831,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "PPostStat",
           "package": "jmacro",
@@ -3840,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "PPostStat",
           "package": "jmacro",
@@ -3853,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ReturnStat",
           "package": "jmacro",
@@ -3862,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ReturnStat",
           "package": "jmacro",
@@ -3875,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "SaneDouble",
           "package": "jmacro",
@@ -3884,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "SaneDouble",
           "package": "jmacro",
@@ -3897,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "SelExpr",
           "package": "jmacro",
@@ -3906,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "SelExpr",
           "package": "jmacro",
@@ -3919,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "StrI",
           "package": "jmacro",
@@ -3928,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "StrI",
           "package": "jmacro",
@@ -3941,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "SwitchStat",
           "package": "jmacro",
@@ -3950,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "SwitchStat",
           "normalized": "SwitchStat JExpr[(JExpr,JStat)]JStat",
@@ -3965,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "TryStat",
           "package": "jmacro",
@@ -3974,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "TryStat",
           "package": "jmacro",
@@ -3987,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "TypeExpr",
           "package": "jmacro",
@@ -3996,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "TypeExpr",
           "package": "jmacro",
@@ -4009,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "UnsatBlock",
           "package": "jmacro",
@@ -4018,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "UnsatBlock",
           "package": "jmacro",
@@ -4031,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "UnsatExpr",
           "package": "jmacro",
@@ -4040,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "UnsatExpr",
           "package": "jmacro",
@@ -4053,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "UnsatVal",
           "package": "jmacro",
@@ -4062,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "UnsatVal",
           "package": "jmacro",
@@ -4075,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "ValExpr",
           "package": "jmacro",
@@ -4084,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "ValExpr",
           "package": "jmacro",
@@ -4097,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "WhileStat",
           "package": "jmacro",
@@ -4106,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "WhileStat",
           "package": "jmacro",
@@ -4119,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "compos",
           "package": "jmacro",
@@ -4128,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "compos",
           "normalized": "(a b c-\u003ed c)-\u003e(a c e d(c-\u003ef)-\u003ed c-\u003ed f)-\u003e(a b g c-\u003ed(g c))-\u003eg h-\u003ed(g h)",
@@ -4142,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "composOp",
           "package": "jmacro",
@@ -4151,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "composOp",
           "normalized": "(a b c d-\u003ec d)-\u003ec e-\u003ec e",
@@ -4166,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "composOpFold",
           "package": "jmacro",
@@ -4175,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "composOpFold",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003e(b c d e-\u003ea)-\u003ed f-\u003ea",
@@ -4190,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "composOpM",
           "package": "jmacro",
@@ -4199,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "composOpM",
           "normalized": "(a b c d-\u003ee(c d))-\u003ec f-\u003ee(c f)",
@@ -4214,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "composOpM_",
           "package": "jmacro",
@@ -4223,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "composOpM_",
           "normalized": "(a b c d-\u003ee())-\u003ec f-\u003ee()",
@@ -4238,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "expr2stat",
           "package": "jmacro",
@@ -4247,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "expr2stat",
           "normalized": "JExpr-\u003eJStat",
@@ -4261,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jFor",
           "package": "jmacro",
@@ -4270,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jFor",
           "normalized": "JStat-\u003ea-\u003eJStat-\u003eb-\u003eJStat",
@@ -4286,6 +4660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ca\u003ejForIn\u003c/a\u003e but creating a \"for each in\" statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jForEachIn",
           "package": "jmacro",
@@ -4296,6 +4671,7 @@
         "index": {
           "description": "As with jForIn but creating for each in statement",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jForEachIn",
           "normalized": "JExpr-\u003e(JExpr-\u003ea)-\u003eJStat",
@@ -4312,6 +4688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a for in statement.\n Usage:\n \u003ccode\u003ejForIn {expression} $ x -\u003e {block involving x}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jForIn",
           "package": "jmacro",
@@ -4322,6 +4699,7 @@
         "index": {
           "description": "Create for in statement Usage jForIn expression block involving",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jForIn",
           "normalized": "JExpr-\u003e(JExpr-\u003ea)-\u003eJStat",
@@ -4338,6 +4716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new anonymous function. The result is an expression.\n Usage:\n \u003ccode\u003ejLam $  x y -\u003e {JExpr involving x and y}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jLam",
           "package": "jmacro",
@@ -4348,6 +4727,7 @@
         "index": {
           "description": "Create new anonymous function The result is an expression Usage jLam JExpr involving and",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jLam",
           "normalized": "a-\u003eJExpr",
@@ -4363,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jTryCatchFinally",
           "package": "jmacro",
@@ -4372,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jTryCatchFinally",
           "normalized": "JStat-\u003ea-\u003eJStat-\u003eJStat",
@@ -4388,6 +4770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce a new variable into scope for the duration\n of the enclosed expression. The result is a block statement.\n Usage:\n \u003ccode\u003ejVar $  x y -\u003e {JExpr involving x and y}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jVar",
           "package": "jmacro",
@@ -4398,6 +4781,7 @@
         "index": {
           "description": "Introduce new variable into scope for the duration of the enclosed expression The result is block statement Usage jVar JExpr involving and",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jVar",
           "normalized": "a-\u003eJStat",
@@ -4414,6 +4798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce a new variable with optional type into scope for the duration\n of the enclosed expression. The result is a block statement.\n Usage:\n \u003ccode\u003ejVar $  x y -\u003e {JExpr involving x and y}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jVarTy",
           "package": "jmacro",
@@ -4424,6 +4809,7 @@
         "index": {
           "description": "Introduce new variable with optional type into scope for the duration of the enclosed expression The result is block statement Usage jVar JExpr involving and",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jVarTy",
           "normalized": "a-\u003eMaybe JLocalType-\u003eJStat",
@@ -4439,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jfromGADT",
           "package": "jmacro",
@@ -4448,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jfromGADT",
           "normalized": "JMGadt a-\u003ea",
@@ -4463,6 +4851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jhAdd",
           "package": "jmacro",
@@ -4472,6 +4861,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jhAdd",
           "normalized": "String-\u003ea-\u003eMap String JExpr-\u003eMap String JExpr",
@@ -4487,6 +4877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jhEmpty",
           "package": "jmacro",
@@ -4496,6 +4887,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jhEmpty",
           "package": "jmacro",
@@ -4509,6 +4901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jhFromList",
           "package": "jmacro",
@@ -4518,6 +4911,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jhFromList",
           "normalized": "[(String,JExpr)]-\u003eJVal",
@@ -4533,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jhSingle",
           "package": "jmacro",
@@ -4542,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jhSingle",
           "normalized": "String-\u003ea-\u003eMap String JExpr",
@@ -4558,6 +4954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiQuoter for a block of JMacro statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jmacro",
           "package": "jmacro",
@@ -4568,6 +4965,7 @@
         "index": {
           "description": "QuasiQuoter for block of JMacro statements",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jmacro",
           "package": "jmacro",
@@ -4581,6 +4979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiQuoter for a JMacro expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jmacroE",
           "package": "jmacro",
@@ -4591,6 +4990,7 @@
         "index": {
           "description": "QuasiQuoter for JMacro expression",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jmacroE",
           "package": "jmacro",
@@ -4604,6 +5004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an optional prefix, fills in all free variable names with a supply\n of names generated by the prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jsSaturate",
           "package": "jmacro",
@@ -4614,6 +5015,7 @@
         "index": {
           "description": "Given an optional prefix fills in all free variable names with supply of names generated by the prefix",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jsSaturate",
           "normalized": "Maybe String-\u003ea-\u003ea",
@@ -4629,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jsToDoc",
           "package": "jmacro",
@@ -4638,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jsToDoc",
           "normalized": "a-\u003eDoc",
@@ -4653,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jsv",
           "package": "jmacro",
@@ -4662,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jsv",
           "normalized": "String-\u003eJExpr",
@@ -4676,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jtFromList",
           "package": "jmacro",
@@ -4685,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jtFromList",
           "normalized": "JType-\u003e[(String,JType)]-\u003eJType",
@@ -4700,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "jtoGADT",
           "package": "jmacro",
@@ -4709,6 +5118,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "jtoGADT",
           "normalized": "a-\u003eJMGadt a",
@@ -4724,6 +5134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "nullStat",
           "package": "jmacro",
@@ -4733,6 +5144,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "nullStat",
           "package": "jmacro",
@@ -4746,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "parseJM",
           "package": "jmacro",
@@ -4755,6 +5168,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "parseJM",
           "normalized": "String-\u003eEither ParseError JStat",
@@ -4770,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "parseJME",
           "package": "jmacro",
@@ -4779,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "parseJME",
           "normalized": "String-\u003eEither ParseError JExpr",
@@ -4795,6 +5211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a syntax tree as a pretty-printable document\n (simply showing the resultant doc produces a nice,\n well formatted String).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "renderJs",
           "package": "jmacro",
@@ -4805,6 +5222,7 @@
         "index": {
           "description": "Render syntax tree as pretty-printable document simply showing the resultant doc produces nice well formatted String",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "renderJs",
           "normalized": "a-\u003eDoc",
@@ -4821,6 +5239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a syntax tree as a pretty-printable document, using a given prefix to all generated names. Use this with distinct prefixes to ensure distinct generated names between independent calls to render(Prefix)Js.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "renderPrefixJs",
           "package": "jmacro",
@@ -4831,6 +5250,7 @@
         "index": {
           "description": "Render syntax tree as pretty-printable document using given prefix to all generated names Use this with distinct prefixes to ensure distinct generated names between independent calls to render Prefix Js",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "renderPrefixJs",
           "normalized": "String-\u003ea-\u003eDoc",
@@ -4846,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "runIdentSupply",
           "package": "jmacro",
@@ -4855,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "runIdentSupply",
           "normalized": "State[Ident]a",
@@ -4871,6 +5293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a fully saturated expression and transforms it to use unique variables that respect scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "scopify",
           "package": "jmacro",
@@ -4881,6 +5304,7 @@
         "index": {
           "description": "Takes fully saturated expression and transforms it to use unique variables that respect scope",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "scopify",
           "normalized": "JStat-\u003eJStat",
@@ -4895,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "toJExpr",
           "package": "jmacro",
@@ -4904,6 +5329,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "toJExpr",
           "normalized": "a-\u003eJExpr",
@@ -4919,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "toJExprFromList",
           "package": "jmacro",
@@ -4928,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "toJExprFromList",
           "normalized": "[a]-\u003eJExpr",
@@ -4943,6 +5371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "toStat",
           "package": "jmacro",
@@ -4952,6 +5381,7 @@
         },
         "index": {
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "toStat",
           "normalized": "a-\u003eJStat",
@@ -4968,6 +5398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation to a fully saturated syntax tree,\n taking care to return any free variables back to their free state\n following the transformation. As the transformation preserves\n free variables, it is hygienic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:23 UTC 2014",
           "module": "Language.Javascript.JMacro",
           "name": "withHygiene",
           "package": "jmacro",
@@ -4978,6 +5409,7 @@
         "index": {
           "description": "Apply transformation to fully saturated syntax tree taking care to return any free variables back to their free state following the transformation As the transformation preserves free variables it is hygienic",
           "hierarchy": "Language Javascript JMacro",
+          "indexed": "2014-03-11T19:01:23",
           "module": "Language.Javascript.JMacro",
           "name": "withHygiene",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",

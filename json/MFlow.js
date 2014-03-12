@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MFlow"
+        "phrase": "MFlow",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Cookies",
           "name": "Cookies",
           "package": "MFlow",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "MFlow Cookies",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Cookies",
           "name": "Cookies",
           "package": "MFlow",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Cookies",
           "name": "Cookie",
           "package": "MFlow",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "MFlow Cookies",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Cookies",
           "name": "Cookie",
           "package": "MFlow",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Cookies",
           "name": "contentHtml",
           "package": "MFlow",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "MFlow Cookies",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Cookies",
           "name": "contentHtml",
           "normalized": "(ByteString,ByteString)",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Cookies",
           "name": "cookieHeaders",
           "package": "MFlow",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "MFlow Cookies",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Cookies",
           "name": "cookieHeaders",
           "normalized": "[Cookie]-\u003e[(a,ByteString)]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Cookies",
           "name": "cookieuser",
           "package": "MFlow",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "MFlow Cookies",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Cookies",
           "name": "cookieuser",
           "package": "MFlow",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Cookies",
           "name": "getCookies",
           "package": "MFlow",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "MFlow Cookies",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Cookies",
           "name": "getCookies",
           "normalized": "[(a,ByteString)]-\u003e[(ByteString,ByteString)]",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Admin",
           "name": "Admin",
           "package": "MFlow",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Admin",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Admin",
           "name": "Admin",
           "package": "MFlow",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstall the admin flow in the list of flows handled by \u003ccode\u003eHackMessageFlow\u003c/code\u003e\n this gives access to an administrator page. It is necessary to\n create an admin user with \u003ccode\u003e\u003ca\u003esetAdminUser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe administration page is reached with the path \"adminserv\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Admin",
           "name": "addAdminWF",
           "package": "MFlow",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Install the admin flow in the list of flows handled by HackMessageFlow this gives access to an administrator page It is necessary to create an admin user with setAdminUser The administration page is reached with the path adminserv",
           "hierarchy": "MFlow Forms Admin",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Admin",
           "name": "addAdminWF",
           "normalized": "IO()",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA small console interpreter with some commands:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003esync\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Synchronize the cache with persistent storage (see \u003ccode\u003e\u003ca\u003esyncCache\u003c/a\u003e\u003c/code\u003e)\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eflush\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Flush the cache\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eend\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Synchronize and exit\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eabort\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Exit. Do not synchronize\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eon exception, for example Control-c, it sync and exits.\n It must be used as the last statement of the main procedure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Admin",
           "name": "adminLoop",
           "package": "MFlow",
@@ -211,6 +228,7 @@
         "index": {
           "description": "small console interpreter with some commands sync Synchronize the cache with persistent storage see syncCache flush Flush the cache end Synchronize and exit abort Exit Do not synchronize on exception for example Control-c it sync and exits It must be used as the last statement of the main procedure",
           "hierarchy": "MFlow Forms Admin",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Admin",
           "name": "adminLoop",
           "normalized": "IO()",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecute the process and wait for its finalization.\n  then it synchronizes the cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Admin",
           "name": "wait",
           "package": "MFlow",
@@ -237,6 +256,7 @@
         "index": {
           "description": "execute the process and wait for its finalization then it synchronizes the cache",
           "hierarchy": "MFlow Forms Admin",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Admin",
           "name": "wait",
           "normalized": "IO a-\u003eIO Bool",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstantiation of the \u003ccode\u003e\u003ca\u003eFormInput\u003c/a\u003e\u003c/code\u003e class for blaze-html \u003ca\u003ehttp://hackage.haskell.org/package/blaze-html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis package is included in \u003ca\u003eMFlow.Wai.Blaze.Hml.All\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eUse it to create applicaitons with this kind of formatting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Blaze.Html",
           "name": "Html",
           "package": "MFlow",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Instantiation of the FormInput class for blaze-html http hackage.haskell.org package blaze-html This package is included in MFlow.Wai.Blaze.Hml.All Use it to create applicaitons with this kind of formatting",
           "hierarchy": "MFlow Forms Blaze Html",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Blaze.Html",
           "name": "Html",
           "package": "MFlow",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused to insert html elements within a tag with the appropriate infix priority for the\n other operators used in MFlow. Also it can be used for adding markup to\n widgets with this signature such are \u003ccode\u003e\u003ca\u003ewlink\u003c/a\u003e\u003c/code\u003e ad \u003ccode\u003e\u003ca\u003esetOption\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Blaze.Html",
           "name": "(\u003c\u003c)",
           "package": "MFlow",
@@ -285,6 +308,7 @@
         "index": {
           "description": "used to insert html elements within tag with the appropriate infix priority for the other operators used in MFlow Also it can be used for adding markup to widgets with this signature such are wlink ad setOption",
           "hierarchy": "MFlow Forms Blaze Html",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Blaze.Html",
           "name": "(\u003c\u003c) \u003c\u003c",
           "normalized": "(Markup-\u003ea)-\u003eb-\u003ea",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Internals",
           "package": "MFlow",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Internals",
           "package": "MFlow",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Checked",
           "package": "MFlow",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Checked",
           "package": "MFlow",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "FailBack",
           "package": "MFlow",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "FailBack",
           "package": "MFlow",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe FlowM monad executes the page navigation. It perform Backtracking when necessary to syncronize\n when the user press the back button or when the user enter an arbitrary URL. The instruction pointer\n is moved to the right position within the procedure to handle the request.\n\u003c/p\u003e\u003cp\u003eHowever this is transparent to the programmer, who codify in the style of a console application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "FlowM",
           "package": "MFlow",
@@ -372,6 +403,7 @@
         "index": {
           "description": "the FlowM monad executes the page navigation It perform Backtracking when necessary to syncronize when the user press the back button or when the user enter an arbitrary URL The instruction pointer is moved to the right position within the procedure to handle the request However this is transparent to the programmer who codify in the style of console application",
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "FlowM",
           "package": "MFlow",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "FlowMM",
           "package": "MFlow",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "FlowMM",
           "package": "MFlow",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "FormElm",
           "package": "MFlow",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "FormElm",
           "package": "MFlow",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "FormInput",
           "package": "MFlow",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "FormInput",
           "package": "MFlow",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Lang",
           "package": "MFlow",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Lang",
           "package": "MFlow",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "MFlowState",
           "package": "MFlow",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "MFlowState",
           "package": "MFlow",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Name",
           "package": "MFlow",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Name",
           "package": "MFlow",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "OnClick",
           "package": "MFlow",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "OnClick",
           "package": "MFlow",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "ParamResult",
           "package": "MFlow",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "ParamResult",
           "package": "MFlow",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Requirement",
           "package": "MFlow",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Requirement",
           "package": "MFlow",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Requirements",
           "package": "MFlow",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Requirements",
           "package": "MFlow",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Sup",
           "package": "MFlow",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Sup",
           "package": "MFlow",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Supervise",
           "package": "MFlow",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Supervise",
           "package": "MFlow",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Type",
           "package": "MFlow",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Type",
           "package": "MFlow",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Value",
           "package": "MFlow",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Value",
           "package": "MFlow",
@@ -680,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eView v m a\u003c/code\u003e is a widget (formlet)  with formatting \u003ccode\u003ev\u003c/code\u003e  running the monad \u003ccode\u003em\u003c/code\u003e (usually \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e) and which return a value of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIt has \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003cp\u003eThings to know about these instances:\n\u003c/p\u003e\u003cp\u003eIf the View expression does not validate, ask will present the page again.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eAlternative instance\u003c/em\u003e: Both alternatives are executed. The rest is as usual\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eMonad Instance\u003c/em\u003e:\n\u003c/p\u003e\u003cp\u003eThe rendering of each statement is added to the previous. If you want to avoid this, use \u003ccode\u003e\u003ca\u003ewcallback\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe execution is stopped when the statement has a formlet-widget that does not validate and\n return an invalid response (So it will present the page again if no other widget in the expression validates).\n\u003c/p\u003e\u003cp\u003eThe monadic code is executed from the beginning each time the page is presented or refreshed\n\u003c/p\u003e\u003cp\u003euse \u003ccode\u003epageFlow\u003c/code\u003e if your page has more than one monadic computation with dynamic behaviour\n\u003c/p\u003e\u003cp\u003euse \u003ccode\u003epageFlow\u003c/code\u003e to identify each subflow branch of a conditional\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e pageFlow \"myid\" $ do\n      r \u003c- formlet1\n      liftIO $ ioaction1 r\n      s \u003c- formlet2\n      liftIO $ ioaction2 s\n      case s of\n       True  -\u003e pageFlow \"idtrue\" $ do ....\n       False -\u003e paeFlow \"idfalse\" $ do ...\n      ...\n\u003c/pre\u003e\u003cp\u003eHere if  \u003ccode\u003eformlet2\u003c/code\u003e do not validate, \u003ccode\u003eioaction2\u003c/code\u003e is not executed. But if \u003ccode\u003eformLet1\u003c/code\u003e validates and the\n  page is refreshed two times (because \u003ccode\u003eformlet2\u003c/code\u003e has failed, see above),then \u003ccode\u003eioaction1\u003c/code\u003e is executed two times.\n  use \u003ccode\u003e\u003ca\u003ecachedByKey\u003c/a\u003e\u003c/code\u003e if you want to avoid repeated IO executions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "View",
           "package": "MFlow",
@@ -689,6 +750,7 @@
         "index": {
           "description": "View is widget formlet with formatting running the monad usually IO and which return value of type It has Applicative Alternative and Monad instances Things to know about these instances If the View expression does not validate ask will present the page again Alternative instance Both alternatives are executed The rest is as usual Monad Instance The rendering of each statement is added to the previous If you want to avoid this use wcallback The execution is stopped when the statement has formlet-widget that does not validate and return an invalid response So it will present the page again if no other widget in the expression validates The monadic code is executed from the beginning each time the page is presented or refreshed use pageFlow if your page has more than one monadic computation with dynamic behaviour use pageFlow to identify each subflow branch of conditional For example pageFlow myid do formlet1 liftIO ioaction1 formlet2 liftIO ioaction2 case of True pageFlow idtrue do False paeFlow idfalse do Here if formlet2 do not validate ioaction2 is not executed But if formLet1 validates and the page is refreshed two times because formlet2 has failed see above then ioaction1 is executed two times use cachedByKey if you want to avoid repeated IO executions",
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "View",
           "package": "MFlow",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Void",
           "package": "MFlow",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Void",
           "package": "MFlow",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "WState",
           "package": "MFlow",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "WState",
           "package": "MFlow",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "WebRequirement",
           "package": "MFlow",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "WebRequirement",
           "package": "MFlow",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "BackPoint",
           "package": "MFlow",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "BackPoint",
           "package": "MFlow",
@@ -837,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "FlowM",
           "package": "MFlow",
@@ -846,6 +917,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "FlowM",
           "package": "MFlow",
@@ -884,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "GoBack",
           "package": "MFlow",
@@ -893,6 +966,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "GoBack",
           "package": "MFlow",
@@ -958,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "MFlowState",
           "package": "MFlow",
@@ -967,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "MFlowState",
           "package": "MFlow",
@@ -980,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "NoBack",
           "package": "MFlow",
@@ -989,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "NoBack",
           "package": "MFlow",
@@ -1002,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "NoParam",
           "package": "MFlow",
@@ -1011,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "NoParam",
           "package": "MFlow",
@@ -1024,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "NotValidated",
           "package": "MFlow",
@@ -1033,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "NotValidated",
           "package": "MFlow",
@@ -1046,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Requirement",
           "package": "MFlow",
@@ -1055,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Requirement",
           "package": "MFlow",
@@ -1095,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Sup",
           "package": "MFlow",
@@ -1104,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Sup",
           "package": "MFlow",
@@ -1117,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "Validated",
           "package": "MFlow",
@@ -1126,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "Validated",
           "package": "MFlow",
@@ -1189,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "ajaxScript",
           "package": "MFlow",
@@ -1198,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "ajaxScript",
           "normalized": "[Char]",
@@ -1213,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "attrs",
           "package": "MFlow",
@@ -1222,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "attrs",
           "normalized": "a-\u003eAttribs-\u003ea",
@@ -1366,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "currentPath",
           "package": "MFlow",
@@ -1375,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "currentPath",
           "normalized": "Bool-\u003eInt-\u003e[[Char]]-\u003e[Char]-\u003e[Char]",
@@ -1415,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "finput",
           "package": "MFlow",
@@ -1424,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "finput",
           "normalized": "Name-\u003eType-\u003eValue-\u003eChecked-\u003eOnClick-\u003ea",
@@ -1438,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "flink",
           "package": "MFlow",
@@ -1447,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "flink",
           "normalized": "String-\u003ea-\u003ea",
@@ -1461,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "flink1",
           "package": "MFlow",
@@ -1470,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "flink1",
           "normalized": "String-\u003ea",
@@ -1484,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "flowM",
           "package": "MFlow",
@@ -1493,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "flowM",
           "normalized": "FlowMM a b c-\u003eFlowM a b c",
@@ -1507,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "foption",
           "package": "MFlow",
@@ -1516,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "foption",
           "normalized": "String-\u003ea-\u003eBool-\u003ea",
@@ -1530,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "foption1",
           "package": "MFlow",
@@ -1539,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "foption1",
           "normalized": "String-\u003eBool-\u003ea",
@@ -1553,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "formAction",
           "package": "MFlow",
@@ -1562,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "formAction",
           "normalized": "String-\u003ea-\u003ea",
@@ -1577,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "formPrefix",
           "package": "MFlow",
@@ -1586,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "formPrefix",
           "normalized": "Int-\u003e[Char]-\u003eMFlowState a-\u003e[b]-\u003eBool-\u003ec b",
@@ -1626,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "fromStr",
           "package": "MFlow",
@@ -1635,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "fromStr",
           "normalized": "String-\u003ea",
@@ -1650,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "fromStrNoEncode",
           "package": "MFlow",
@@ -1659,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "fromStrNoEncode",
           "normalized": "String-\u003ea",
@@ -1674,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "fromValidated",
           "package": "MFlow",
@@ -1683,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "fromValidated",
           "normalized": "ParamResult a a-\u003ea",
@@ -1698,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "fselect",
           "package": "MFlow",
@@ -1707,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "fselect",
           "normalized": "String-\u003ea-\u003ea",
@@ -1721,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "ftag",
           "package": "MFlow",
@@ -1730,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "ftag",
           "normalized": "String-\u003ea-\u003ea",
@@ -1744,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "ftextarea",
           "package": "MFlow",
@@ -1753,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "ftextarea",
           "normalized": "String-\u003eText-\u003ea",
@@ -1815,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "getEnv",
           "package": "MFlow",
@@ -1824,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "getEnv",
           "package": "MFlow",
@@ -1914,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "getParam1",
           "package": "MFlow",
@@ -1923,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "getParam1",
           "normalized": "String-\u003eParams-\u003ea(ParamResult b c)",
@@ -1963,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "getToken",
           "package": "MFlow",
@@ -1972,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "getToken",
           "package": "MFlow",
@@ -1985,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "getWFName",
           "package": "MFlow",
@@ -1994,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "getWFName",
           "package": "MFlow",
@@ -2032,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "iCanFailBack",
           "package": "MFlow",
@@ -2041,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "iCanFailBack",
           "normalized": "[Char]",
@@ -2056,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "inSync",
           "package": "MFlow",
@@ -2065,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "inSync",
           "package": "MFlow",
@@ -2078,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "inred",
           "package": "MFlow",
@@ -2087,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "inred",
           "normalized": "a-\u003ea",
@@ -2128,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "installAllRequirements",
           "package": "MFlow",
@@ -2137,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "installAllRequirements",
           "package": "MFlow",
@@ -2150,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "installRequirements",
           "package": "MFlow",
@@ -2159,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "installRequirements",
           "normalized": "[a]-\u003eb c",
@@ -2174,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "installWebRequirements",
           "package": "MFlow",
@@ -2183,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "installWebRequirements",
           "normalized": "[WebRequirement]-\u003ea b",
@@ -2198,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "isValidated",
           "package": "MFlow",
@@ -2207,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "isValidated",
           "normalized": "ParamResult a a-\u003eBool",
@@ -2222,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "jsRequirements",
           "package": "MFlow",
@@ -2231,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "jsRequirements",
           "normalized": "[WebRequirement]-\u003e[Char]",
@@ -2246,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "liftSup",
           "package": "MFlow",
@@ -2255,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "liftSup",
           "normalized": "a b-\u003eSup a b",
@@ -2270,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "linkMatched",
           "package": "MFlow",
@@ -2279,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "linkMatched",
           "package": "MFlow",
@@ -2292,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "loadcss",
           "package": "MFlow",
@@ -2301,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "loadcss",
           "normalized": "[Char]-\u003e[Char]",
@@ -2315,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "loadcssfile",
           "package": "MFlow",
@@ -2324,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "loadcssfile",
           "normalized": "[Char]-\u003e[Char]",
@@ -2338,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "loadjs",
           "package": "MFlow",
@@ -2347,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "loadjs",
           "normalized": "a-\u003ea",
@@ -2361,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "loadjsfile",
           "package": "MFlow",
@@ -2370,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "loadjsfile",
           "normalized": "[Char]-\u003e[[Char]]-\u003e[Char]",
@@ -2384,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mFlowState0",
           "package": "MFlow",
@@ -2393,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mFlowState0",
           "package": "MFlow",
@@ -2406,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfAjax",
           "package": "MFlow",
@@ -2415,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfAjax",
           "package": "MFlow",
@@ -2428,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfAutorefresh",
           "package": "MFlow",
@@ -2437,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfAutorefresh",
           "package": "MFlow",
@@ -2450,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfCached",
           "package": "MFlow",
@@ -2459,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfCached",
           "package": "MFlow",
@@ -2472,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfClear",
           "package": "MFlow",
@@ -2481,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfClear",
           "package": "MFlow",
@@ -2494,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfCookies",
           "package": "MFlow",
@@ -2503,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfCookies",
           "normalized": "[Cookie]",
@@ -2518,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfData",
           "package": "MFlow",
@@ -2527,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfData",
           "package": "MFlow",
@@ -2540,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfDebug",
           "package": "MFlow",
@@ -2549,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfDebug",
           "package": "MFlow",
@@ -2562,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfEnv",
           "package": "MFlow",
@@ -2571,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfEnv",
           "package": "MFlow",
@@ -2584,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfHeader",
           "package": "MFlow",
@@ -2593,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfHeader",
           "normalized": "a-\u003ea",
@@ -2608,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfHttpHeaders",
           "package": "MFlow",
@@ -2617,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfHttpHeaders",
           "normalized": "[(ByteString,ByteString)]",
@@ -2632,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfLang",
           "package": "MFlow",
@@ -2641,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfLang",
           "package": "MFlow",
@@ -2654,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfLinks",
           "package": "MFlow",
@@ -2663,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfLinks",
           "package": "MFlow",
@@ -2676,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfPIndex",
           "package": "MFlow",
@@ -2685,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfPIndex",
           "package": "MFlow",
@@ -2698,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfPageIndex",
           "package": "MFlow",
@@ -2707,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfPageIndex",
           "package": "MFlow",
@@ -2720,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfPath",
           "package": "MFlow",
@@ -2729,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfPath",
           "normalized": "[String]",
@@ -2744,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfPrefix",
           "package": "MFlow",
@@ -2753,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfPrefix",
           "package": "MFlow",
@@ -2766,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfRequirements",
           "package": "MFlow",
@@ -2775,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfRequirements",
           "normalized": "[Requirement]",
@@ -2790,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfSeqCache",
           "package": "MFlow",
@@ -2799,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfSeqCache",
           "package": "MFlow",
@@ -2812,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfSequence",
           "package": "MFlow",
@@ -2821,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfSequence",
           "package": "MFlow",
@@ -2834,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfSessionTime",
           "package": "MFlow",
@@ -2843,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfSessionTime",
           "package": "MFlow",
@@ -2856,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfToken",
           "package": "MFlow",
@@ -2865,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfToken",
           "package": "MFlow",
@@ -2878,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfTrace",
           "package": "MFlow",
@@ -2887,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfTrace",
           "normalized": "[String]",
@@ -2902,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "mfkillTime",
           "package": "MFlow",
@@ -2911,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "mfkillTime",
           "package": "MFlow",
@@ -2924,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "needForm",
           "package": "MFlow",
@@ -2933,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "needForm",
           "package": "MFlow",
@@ -2946,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "newAsk",
           "package": "MFlow",
@@ -2955,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "newAsk",
           "package": "MFlow",
@@ -2968,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "noFailBack",
           "package": "MFlow",
@@ -2977,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "noFailBack",
           "normalized": "[Char]",
@@ -3016,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "notSyncInAction",
           "package": "MFlow",
@@ -3025,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "notSyncInAction",
           "package": "MFlow",
@@ -3065,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "readParam",
           "package": "MFlow",
@@ -3074,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "readParam",
           "normalized": "String-\u003ea(ParamResult b c)",
@@ -3089,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "repeatPlease",
           "package": "MFlow",
@@ -3098,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "repeatPlease",
           "normalized": "[Char]",
@@ -3220,6 +3438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "runFlowM",
           "package": "MFlow",
@@ -3229,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "runFlowM",
           "package": "MFlow",
@@ -3267,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "runFlowOnce1",
           "package": "MFlow",
@@ -3276,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "runFlowOnce1",
           "normalized": "FlowM a b c-\u003eToken-\u003eb Token",
@@ -3291,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "runSup",
           "package": "MFlow",
@@ -3300,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "runSup",
           "package": "MFlow",
@@ -3390,6 +3614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an HTTP Response header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "setHttpHeader",
           "package": "MFlow",
@@ -3399,6 +3624,7 @@
         "index": {
           "description": "Set an HTTP Response header",
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "setHttpHeader",
           "normalized": "ByteString-\u003eByteString-\u003ea()",
@@ -3468,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "stdHeader",
           "package": "MFlow",
@@ -3477,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "stdHeader",
           "normalized": "a-\u003ea",
@@ -3518,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "strRequirement",
           "package": "MFlow",
@@ -3527,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "strRequirement",
           "normalized": "WebRequirement-\u003e[Char]",
@@ -3542,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "supBack",
           "package": "MFlow",
@@ -3551,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "supBack",
           "normalized": "a-\u003eb()",
@@ -3566,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "supervise",
           "package": "MFlow",
@@ -3575,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "supervise",
           "normalized": "a(FailBack b)-\u003ea(FailBack b)",
@@ -3589,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "toByteString",
           "package": "MFlow",
@@ -3598,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "toByteString",
           "normalized": "a-\u003eByteString",
@@ -3638,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "toHttpData",
           "package": "MFlow",
@@ -3647,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "toHttpData",
           "normalized": "a-\u003eHttpData",
@@ -3689,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Internals",
           "name": "valToMaybe",
           "package": "MFlow",
@@ -3698,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Internals",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Internals",
           "name": "valToMaybe",
           "normalized": "ParamResult a b-\u003eMaybe b",
@@ -3789,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "Test",
           "package": "MFlow",
@@ -3797,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "Test",
           "package": "MFlow",
@@ -3810,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "Generate",
           "package": "MFlow",
@@ -3818,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "Generate",
           "package": "MFlow",
@@ -3832,6 +4076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea simulated ask that generate  simulated user input of the type expected.\n\u003c/p\u003e\u003cp\u003eIt forces the web page rendering, since it is monadic and can contain\n side effects and load effects to be tested.\n\u003c/p\u003e\u003cp\u003eit is a substitute of \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e from \u003ca\u003eMFlow.Forms\u003c/a\u003e for testing purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "ask",
           "package": "MFlow",
@@ -3842,6 +4087,7 @@
         "index": {
           "description": "simulated ask that generate simulated user input of the type expected It forces the web page rendering since it is monadic and can contain side effects and load effects to be tested it is substitute of ask from MFlow.Forms for testing purposes",
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "ask",
           "normalized": "View a b c-\u003eFlowM a b c",
@@ -3857,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einstead of generating a result like \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e, the result is given as the first parameter\n so it does not need a Generate instance.\n\u003c/p\u003e\u003cp\u003eIt forces the web page rendering, since it is monadic so it can contain\n side effects and load effects to be tested.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "askt",
           "package": "MFlow",
@@ -3867,6 +4114,7 @@
         "index": {
           "description": "instead of generating result like ask the result is given as the first parameter so it does not need Generate instance It forces the web page rendering since it is monadic so it can contain side effects and load effects to be tested",
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "askt",
           "normalized": "(Int-\u003ea)-\u003eView b c a-\u003eFlowM b c a",
@@ -3881,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "generate",
           "package": "MFlow",
@@ -3890,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "generate",
           "package": "MFlow",
@@ -3902,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "getUser",
           "package": "MFlow",
@@ -3911,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "getUser",
           "normalized": "Maybe String-\u003eView a b(Maybe(String,String),Maybe String)-\u003eFlowM a b String",
@@ -3926,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "getUserSimple",
           "package": "MFlow",
@@ -3935,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "getUserSimple",
           "package": "MFlow",
@@ -3949,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einject substitutes an expression by other. It may be used to override\n ask interaction with the user. It should bee used infix for greater readability:\n\u003c/p\u003e\u003cpre\u003e ask something    `inject` const someother\n\u003c/pre\u003e\u003cp\u003eThe parameter passed is the test number\n if the flow has not been executed by runTest, inject return the original\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "inject",
           "package": "MFlow",
@@ -3959,6 +4214,7 @@
         "index": {
           "description": "inject substitutes an expression by other It may be used to override ask interaction with the user It should bee used infix for greater readability ask something inject const someother The parameter passed is the test number if the flow has not been executed by runTest inject return the original",
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "inject",
           "normalized": "a b-\u003e(Int-\u003eb)-\u003ea b",
@@ -3974,6 +4230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a list of flows with a number of simultaneous threads\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "runTest",
           "package": "MFlow",
@@ -3984,6 +4241,7 @@
         "index": {
           "description": "run list of flows with number of simultaneous threads",
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "runTest",
           "normalized": "[(Int,Flow)]-\u003eIO()",
@@ -3999,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "runTest1",
           "package": "MFlow",
@@ -4008,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "runTest1",
           "normalized": "(Token-\u003eWorkflow IO a)-\u003eIO(Either WFErrors a)",
@@ -4023,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "userWidget",
           "package": "MFlow",
@@ -4032,6 +4293,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "userWidget",
           "normalized": "Maybe String-\u003eView a b(Maybe(String,String),Maybe String)-\u003eView a b String",
@@ -4048,6 +4310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea pure version of verifyM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Test",
           "name": "verify",
           "package": "MFlow",
@@ -4058,6 +4321,7 @@
         "index": {
           "description": "pure version of verifyM",
           "hierarchy": "MFlow Forms Test",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Test",
           "name": "verify",
           "normalized": "a-\u003e(Bool,String)-\u003ea",
@@ -4073,6 +4337,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome dynamic widgets, widgets that dynamically edit content in other widgets,\nwidgets for templating, content management and multilanguage. And some primitives\nto create other active widgets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "Widgets",
           "package": "MFlow",
@@ -4082,6 +4347,7 @@
         "index": {
           "description": "Some dynamic widgets widgets that dynamically edit content in other widgets widgets for templating content management and multilanguage And some primitives to create other active widgets",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "Widgets",
           "package": "MFlow",
@@ -4095,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "UpdateMethod",
           "package": "MFlow",
@@ -4103,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "UpdateMethod",
           "package": "MFlow",
@@ -4116,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "Append",
           "package": "MFlow",
@@ -4125,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "Append",
           "package": "MFlow",
@@ -4138,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "Html",
           "package": "MFlow",
@@ -4147,6 +4418,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "Html",
           "package": "MFlow",
@@ -4160,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "Prepend",
           "package": "MFlow",
@@ -4169,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "Prepend",
           "package": "MFlow",
@@ -4183,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoes the same than autoRefresh but append the result of each request to the bottom of the widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "appendUpdate",
           "package": "MFlow",
@@ -4193,6 +4468,7 @@
         "index": {
           "description": "does the same than autoRefresh but append the result of each request to the bottom of the widget",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "appendUpdate",
           "normalized": "View a b c-\u003eView a b c",
@@ -4209,6 +4485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eprependWidget\u003c/a\u003e\u003c/code\u003e but append the widget instead of prepend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "appendWidget",
           "package": "MFlow",
@@ -4219,6 +4496,7 @@
         "index": {
           "description": "Like prependWidget but append the widget instead of prepend",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "appendWidget",
           "normalized": "ByteString-\u003eView a Identity b-\u003eView a c ByteString",
@@ -4235,6 +4513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture the form submissions and the links of the enclosed widget and send them via jQuery AJAX.\n The response is the new presentation of the widget, that is updated. No new page is generated\n but the functionality is equivalent. Only the activated widget is executed in the server and updated\n in the client, so a widget with autoRefresh can be used in heavyweight pages.\n If AJAX/JavaScript are not available, the widget is refreshed normally, via a new page.\n If has form elements, the enclosed widget must be a complete form and it must include the form action tag.\n For this purpose, autoRefresh encloses the widget in a form tag if there are form elements on it\n and the programmer has not enclosed them in a \u003ccode\u003e\u003ca\u003ewform\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "autoRefresh",
           "package": "MFlow",
@@ -4245,6 +4524,7 @@
         "index": {
           "description": "Capture the form submissions and the links of the enclosed widget and send them via jQuery AJAX The response is the new presentation of the widget that is updated No new page is generated but the functionality is equivalent Only the activated widget is executed in the server and updated in the client so widget with autoRefresh can be used in heavyweight pages If AJAX JavaScript are not available the widget is refreshed normally via new page If has form elements the enclosed widget must be complete form and it must include the form action tag For this purpose autoRefresh encloses the widget in form tag if there are form elements on it and the programmer has not enclosed them in wform element",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "autoRefresh",
           "normalized": "View a b c-\u003eView a b c",
@@ -4260,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "dField",
           "package": "MFlow",
@@ -4269,6 +4550,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "dField",
           "normalized": "View a b c-\u003eView a b c",
@@ -4285,6 +4567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epresent the JQuery datepicker calendar to choose a date.\n The second parameter is the configuration. Use \"()\" by default.\n See http:\u003cem/\u003ejqueryui.com\u003cem\u003edatepicker\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "datePicker",
           "package": "MFlow",
@@ -4295,6 +4578,7 @@
         "index": {
           "description": "present the JQuery datepicker calendar to choose date The second parameter is the configuration Use by default See http jqueryui.com datepicker",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "datePicker",
           "normalized": "String-\u003eMaybe String-\u003eView a b(Int,Int,Int)",
@@ -4311,6 +4595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the list of edited widgets for a certain identifier and with the type of the witness widget parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "delEdited",
           "package": "MFlow",
@@ -4320,6 +4605,7 @@
         "index": {
           "description": "Deletes the list of edited widgets for certain identifier and with the type of the witness widget parameter",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "delEdited",
           "normalized": "ByteString-\u003e[View a b c]-\u003eb()",
@@ -4336,6 +4622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eload a template with the name equal to the second parameter in the texts folder. If no template\n exist, it uses the widget rendering. If the first parameter match the name of the logged user,\n the template will be editable at runtime. edTemplate will present an edition bar on the top of\n the template. The changes in the template will be effective inmediately for all the users.\n\u003c/p\u003e\u003cp\u003eThe return value is the one returned by the internal widget each time it is executed.\n\u003c/p\u003e\u003cp\u003eedTemplate can be used to enrich the content and layout of a widget, for example, by adding\n extra links, text and formatting. Widgets with form fields work well with an \u003ccode\u003e\u003ca\u003eedTemplate\u003c/a\u003e\u003c/code\u003e mask\n as long as the tags created by the widget are not deleted, but the validation messages will not appear\n\u003c/p\u003e\u003cp\u003eTo add dynamic elements to the template for data presentation and\u003cem/\u003eor input field validation\n messages, combine it with \u003ccode\u003e\u003ca\u003ewiterate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edField\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "edTemplate",
           "package": "MFlow",
@@ -4346,6 +4633,7 @@
         "index": {
           "description": "load template with the name equal to the second parameter in the texts folder If no template exist it uses the widget rendering If the first parameter match the name of the logged user the template will be editable at runtime edTemplate will present an edition bar on the top of the template The changes in the template will be effective inmediately for all the users The return value is the one returned by the internal widget each time it is executed edTemplate can be used to enrich the content and layout of widget for example by adding extra links text and formatting Widgets with form fields work well with an edTemplate mask as long as the tags created by the widget are not deleted but the validation messages will not appear To add dynamic elements to the template for data presentation and or input field validation messages combine it with witerate and dField",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "edTemplate",
           "normalized": "UserStr-\u003eKey-\u003eView a b c-\u003eView a b c",
@@ -4362,6 +4650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the list of edited widgets (added by the active widgets) for a given identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "getEdited",
           "package": "MFlow",
@@ -4372,6 +4661,7 @@
         "index": {
           "description": "Return the list of edited widgets added by the active widgets for given identifier",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "getEdited",
           "normalized": "ByteString-\u003ea[View b a c]",
@@ -4388,6 +4678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshow the jQuery spinner widget. the first parameter is the configuration . Use \"()\" by default.\n See http:\u003cem/\u003ejqueryui.com/spinner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "getSpinner",
           "package": "MFlow",
@@ -4398,6 +4689,7 @@
         "index": {
           "description": "show the jQuery spinner widget the first parameter is the configuration Use by default See http jqueryui.com spinner",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "getSpinner",
           "normalized": "String-\u003eMaybe a-\u003eView b c a",
@@ -4413,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "htmlEdit",
           "package": "MFlow",
@@ -4422,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "htmlEdit",
           "normalized": "[String]-\u003eUserStr-\u003eView a b c-\u003eView a b c",
@@ -4438,6 +4732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multilanguage version of tField\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "mField",
           "package": "MFlow",
@@ -4448,6 +4743,7 @@
         "index": {
           "description": "multilanguage version of tField",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "mField",
           "normalized": "[Char]-\u003eView a b()",
@@ -4464,6 +4760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multilanguage version of tFieldEd. For a field with \u003ccode\u003ekey\u003c/code\u003e it add a suffix with the\n two characters of the language used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "mFieldEd",
           "package": "MFlow",
@@ -4474,6 +4771,7 @@
         "index": {
           "description": "multilanguage version of tFieldEd For field with key it add suffix with the two characters of the language used",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "mFieldEd",
           "normalized": "UserStr-\u003e[Char]-\u003ea-\u003eView a b()",
@@ -4490,6 +4788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a logout link if the user is logged. Nothing otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "maybeLogout",
           "package": "MFlow",
@@ -4500,6 +4799,7 @@
         "index": {
           "description": "Display logout link if the user is logged Nothing otherwise",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "maybeLogout",
           "normalized": "View a b()",
@@ -4516,6 +4816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn some cases, it is neccessary that a link or form inside a \u003ccode\u003e\u003ca\u003eautoRefresh\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003eupdate\u003c/code\u003e block\n should not be autorefreshed, since it produces side effects in the rest of the page that\n affect to the rendering of the whole. If you like to refresh the whole page, simply add\n noAutoRefresh attribute to the widget to force the refresh of the whole page when it is activated.\n\u003c/p\u003e\u003cp\u003eThat behaviour is common at the last sentence of the \u003ccode\u003e\u003ca\u003eautoRefresh\u003c/a\u003e\u003c/code\u003e block.\n\u003c/p\u003e\u003cp\u003eThis is a cascade menu example.\n\u003c/p\u003e\u003cpre\u003e r \u003c- page $ autoRefresh $ ul \u003c\u003c\u003c do\n        li \u003c\u003c\u003c wlink OptionA \u003c\u003c \"option A\"\n        ul \u003c\u003c\u003c li \u003c\u003c\u003c (wlink OptionA1 \u003c\u003c \"Option A1\" \u003c! noAutoRefresh)\n           \u003c|\u003e li \u003c\u003c\u003c (wlink OptionA2 \u003c\u003c \"Option A2\" \u003c! noAutoRefresh)\n        \u003c|\u003e...\n           maybe other content\n\n case r of\n    OptionA1 -\u003e pageA1\n    OptionA2 -\u003e pageA2\n\u003c/pre\u003e\u003cp\u003ewhen \u003ccode\u003eoption A\u003c/code\u003e is clicked, the two sub-options appear with autorefresh. Only the two\n lines are returned by the server using AJAX. but when Option A1-2 is pressed we want to\n present other pages, so we add the noAutorefresh attribute.\n\u003c/p\u003e\u003cp\u003eNOTE: the noAutoRefresh attribute should be added to the \u003ca\u003ea/\u003c/a\u003e or \u003ca\u003eform/\u003c/a\u003e tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "noAutoRefresh",
           "package": "MFlow",
@@ -4526,6 +4827,7 @@
         "index": {
           "description": "In some cases it is neccessary that link or form inside autoRefresh or update block should not be autorefreshed since it produces side effects in the rest of the page that affect to the rendering of the whole If you like to refresh the whole page simply add noAutoRefresh attribute to the widget to force the refresh of the whole page when it is activated That behaviour is common at the last sentence of the autoRefresh block This is cascade menu example page autoRefresh ul do li wlink OptionA option ul li wlink OptionA1 Option A1 noAutoRefresh li wlink OptionA2 Option A2 noAutoRefresh maybe other content case of OptionA1 pageA1 OptionA2 pageA2 when option is clicked the two sub-options appear with autorefresh Only the two lines are returned by the server using AJAX but when Option A1-2 is pressed we want to present other pages so we add the noAutorefresh attribute NOTE the noAutoRefresh attribute should be added to the or form tags",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "noAutoRefresh",
           "normalized": "[(String,String)]",
@@ -4542,6 +4844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoes the same than autoRefresh but prepend the result of each request before the current widget content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "prependUpdate",
           "package": "MFlow",
@@ -4552,6 +4855,7 @@
         "index": {
           "description": "does the same than autoRefresh but prepend the result of each request before the current widget content",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "prependUpdate",
           "normalized": "View a b c-\u003eView a b c",
@@ -4568,6 +4872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the javascript to be executed on the browser to prepend a widget to the location\n identified by the selector (the bytestring parameter), The selector must have the form of a jquery expression\n . It stores the added widgets in the edited list, that is accessed with \u003ccode\u003e\u003ca\u003egetEdited\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe resulting string can be executed in the browser. \u003ccode\u003e\u003ca\u003eajax\u003c/a\u003e\u003c/code\u003e will return the code to\n execute the complete ajax roundtrip. This code returned by ajax must be in an eventhabdler.\n\u003c/p\u003e\u003cp\u003eThis example  will insert a widget in the div  when the element with identifier\n \u003cem\u003eclickelem\u003c/em\u003e  is clicked. when the form is sbmitted, the widget values are returned\n and the list of edited widgets are deleted.\n\u003c/p\u003e\u003cpre\u003e    id1\u003c- genNewId\n    let sel= \"$('#\" \u003c\u003e  B.pack id1 \u003c\u003e \"')\"\n    callAjax \u003c- ajax . const $ prependWidget sel wn\n    let installevents= \"$(document).ready(function(){\\\n              \\$('#clickelem').click(function(){\"++callAjax \"''\"++\"});})\"\n\n    requires [JScriptFile jqueryScript [installevents] ]\n    ws \u003c- getEdited sel\n    r \u003c-  (div \u003c\u003c\u003c manyOf ws) \u003c! [(\"id\",id1)]\n    delEdited sel ws'\n    return  r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "prependWidget",
           "package": "MFlow",
@@ -4577,6 +4882,7 @@
         "index": {
           "description": "Return the javascript to be executed on the browser to prepend widget to the location identified by the selector the bytestring parameter The selector must have the form of jquery expression It stores the added widgets in the edited list that is accessed with getEdited The resulting string can be executed in the browser ajax will return the code to execute the complete ajax roundtrip This code returned by ajax must be in an eventhabdler This example will insert widget in the div when the element with identifier clickelem is clicked when the form is sbmitted the widget values are returned and the list of edited widgets are deleted id1 genNewId let sel B.pack id1 callAjax ajax const prependWidget sel wn let installevents document ready function clickelem click function callAjax requires JScriptFile jqueryScript installevents ws getEdited sel div manyOf ws id id1 delEdited sel ws return",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "prependWidget",
           "normalized": "ByteString-\u003eView a Identity b-\u003eView a c ByteString",
@@ -4593,6 +4899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtinously execute a widget and update the content.\n The update method specify how the update is done. \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e means a substitution of content.\n The second parameter is the delay for the next retry in case of disconnection, in milliseconds.\n\u003c/p\u003e\u003cp\u003eIt can be used to show data updates in the server. The widget is executed in a different process than\n  the one of the rest of the page. Although the process is initiated with the session context,\n updates in the session context are not seen by the push widget\n To communicate with te widget, use DBRef's or TVar and the\n STM semantics for waiting updates using \u003ccode\u003e\u003ca\u003eretry\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWidgets in a push can have links and forms, but since they are asunchonous, they can not\n return inputs. but they can modify the server state.\n push ever return an invalid response to the calling widget, so it never\n triggers the advance of the navigation.\n\u003c/p\u003e\u003cp\u003eThis example is a counter increased each second:\n\u003c/p\u003e\u003cpre\u003e pushIncrease= do\n   tv \u003c- liftIO $ newTVarIO 0\n   page $ push 0 Html $ do\n       n \u003c- atomic $ readTVar tv\n       atomic $ writeTVar tv $ n + 1\n       liftIO $ threadDelay 1000000\n       b \u003c\u003c (show n) ++\u003e noWidget\n\u003c/pre\u003e\u003cp\u003eThis other  simulates a console output that echoes what is entered in a text box\n below. It has two widgets: a push output in append mode and a text box input.\n The communication it uses a TVar. The push widget wait for updates in the TVar.\n because the second widget uses autoRefresh, all happens in the same page.\n\u003c/p\u003e\u003cp\u003eIt is recommended to add a timeout to the push widget, like in the example:\n\u003c/p\u003e\u003cpre\u003e  pushSample=  do\n   tv \u003c- liftIO $ newTVarIO $ Just \"init\"\n   page $ push Append 1000 (disp tv) \u003c** input tv\n\n   where\n   disp tv= do\n       setTimeouts 100 0\n       line \u003c- tget tv\n       p \u003c\u003c  line ++\u003e noWidget\n\n   input tv= autoRefresh $ do\n       line \u003c- getString Nothing \u003c** submitButton \"Enter\"\n       tput tv line\n\n   tput tv x = atomic $ writeTVar  tv ( Just x)  !\u003e \"WRITE\"\n\n   tget tv= atomic $ do\n       mr \u003c- readTVar tv\n       case mr of\n          Nothing -\u003e retry\n          Just r -\u003e do\n           writeTVar tv Nothing\n           return r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "push",
           "package": "MFlow",
@@ -4603,6 +4910,7 @@
         "index": {
           "description": "continously execute widget and update the content The update method specify how the update is done Html means substitution of content The second parameter is the delay for the next retry in case of disconnection in milliseconds It can be used to show data updates in the server The widget is executed in different process than the one of the rest of the page Although the process is initiated with the session context updates in the session context are not seen by the push widget To communicate with te widget use DBRef or TVar and the STM semantics for waiting updates using retry Widgets in push can have links and forms but since they are asunchonous they can not return inputs but they can modify the server state push ever return an invalid response to the calling widget so it never triggers the advance of the navigation This example is counter increased each second pushIncrease do tv liftIO newTVarIO page push Html do atomic readTVar tv atomic writeTVar tv liftIO threadDelay show noWidget This other simulates console output that echoes what is entered in text box below It has two widgets push output in append mode and text box input The communication it uses TVar The push widget wait for updates in the TVar because the second widget uses autoRefresh all happens in the same page It is recommended to add timeout to the push widget like in the example pushSample do tv liftIO newTVarIO Just init page push Append disp tv input tv where disp tv do setTimeouts line tget tv line noWidget input tv autoRefresh do line getString Nothing submitButton Enter tput tv line tput tv atomic writeTVar tv Just WRITE tget tv atomic do mr readTVar tv case mr of Nothing retry Just do writeTVar tv Nothing return",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "push",
           "normalized": "UpdateMethod-\u003eInt-\u003eView a IO()-\u003eView a IO()",
@@ -4618,6 +4926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eL  ike \u003ccode\u003e\u003ca\u003eprependWidget\u003c/a\u003e\u003c/code\u003e but set the entire content of the selector instead of prepending an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "setWidget",
           "package": "MFlow",
@@ -4628,6 +4937,7 @@
         "index": {
           "description": "ike prependWidget but set the entire content of the selector instead of prepending an element",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "setWidget",
           "normalized": "ByteString-\u003eView a Identity b-\u003eView a c ByteString",
@@ -4644,6 +4954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea text field. Read the cached  field value and present it without edition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "tField",
           "package": "MFlow",
@@ -4654,6 +4965,7 @@
         "index": {
           "description": "text field Read the cached field value and present it without edition",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "tField",
           "normalized": "Key-\u003eView a b()",
@@ -4670,6 +4982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget that display the content of an  html, But if the user has edition privileges,\n it permits to edit it in place. So the editor could see the final appearance\n of what he writes.\n\u003c/p\u003e\u003cp\u003eWhen the user  click the save, the content is saved and\n identified by the key. Then, from now on, all the users will see the saved\n content instead of the code content.\n\u003c/p\u003e\u003cp\u003eThe content is saved in a file by default (\u003cem\u003etexts\u003c/em\u003e in this versions), but there is\n a configurable version (\u003ccode\u003etFieldGen\u003c/code\u003e). The content of the element and the formatting\n is cached in memory, so the display is, theoretically, very fast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "tFieldEd",
           "package": "MFlow",
@@ -4680,6 +4993,7 @@
         "index": {
           "description": "widget that display the content of an html But if the user has edition privileges it permits to edit it in place So the editor could see the final appearance of what he writes When the user click the save the content is saved and identified by the key Then from now on all the users will see the saved content instead of the code content The content is saved in file by default texts in this versions but there is configurable version tFieldGen The content of the element and the formatting is cached in memory so the display is theoretically very fast",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "tFieldEd",
           "normalized": "UserStr-\u003eKey-\u003ea-\u003eView a b()",
@@ -4696,6 +5010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the same than template but without the edition facility\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "template",
           "package": "MFlow",
@@ -4706,6 +5021,7 @@
         "index": {
           "description": "Does the same than template but without the edition facility",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "template",
           "normalized": "[Char]-\u003eView a b c-\u003eView a b c",
@@ -4720,6 +5036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "tfieldKey",
           "package": "MFlow",
@@ -4729,6 +5046,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "tfieldKey",
           "normalized": "TField-\u003eKey",
@@ -4745,6 +5063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePresent a user form if not logged in. Otherwise, the user name and a logout link is presented.\n The paremeters and the behaviour are the same as \u003ccode\u003e\u003ca\u003euserWidget\u003c/a\u003e\u003c/code\u003e.\n Only the display is different\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "userFormOrName",
           "package": "MFlow",
@@ -4755,6 +5074,7 @@
         "index": {
           "description": "Present user form if not logged in Otherwise the user name and logout link is presented The paremeters and the behaviour are the same as userWidget Only the display is different",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "userFormOrName",
           "normalized": "Maybe String-\u003eView a b(Maybe(UserStr,PasswdStr),Maybe String)-\u003eView a b String",
@@ -4771,6 +5091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInside a tag, it add and delete widgets of the same type. When the form is submitted\n or a wlink is pressed, this widget return the list of validated widgets.\n the event for adding a new widget is attached , as a click event to the element of the page with the identifier \u003cem\u003ewEditListAdd\u003c/em\u003e\n that the user will choose.\n\u003c/p\u003e\u003cp\u003eThis example add or delete editable text boxes, with two initial boxes   with\n \u003cem\u003ehi\u003c/em\u003e, \u003cem\u003ehow are you\u003c/em\u003e as values. Tt uses blaze-html:\n\u003c/p\u003e\u003cpre\u003e  r \u003c-  ask  $   addLink\n              ++\u003e br\n              ++\u003e (El.div `wEditList`  getString1 $  [\"hi\", \"how are you\"]) \"addid\"\n              \u003c++ br\n              \u003c** submitButton \"send\"\n\n  ask $   p \u003c\u003c (show r ++ \" returned\")\n      ++\u003e wlink () (p \u003c\u003c text \" back to menu\")\n  mainmenu\n  where\n  addLink = a ! At.id  \"addid\"\n              ! href \"#\"\n              $ text \"add\"\n  delBox  =  input ! type_   \"checkbox\"\n                   ! checked \"\"\n                   ! onclick \"this.parentNode.parentNode.removeChild(this.parentNode)\"\n  getString1 mx= El.div  \u003c\u003c\u003c delBox ++\u003e getString  mx \u003c++ br\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "wEditList",
           "package": "MFlow",
@@ -4780,6 +5101,7 @@
         "index": {
           "description": "Inside tag it add and delete widgets of the same type When the form is submitted or wlink is pressed this widget return the list of validated widgets the event for adding new widget is attached as click event to the element of the page with the identifier wEditListAdd that the user will choose This example add or delete editable text boxes with two initial boxes with hi how are you as values Tt uses blaze-html ask addLink br El.div wEditList getString1 hi how are you addid br submitButton send ask show returned wlink text back to menu mainmenu where addLink At.id addid href text add delBox input type checkbox checked onclick this.parentNode.parentNode.removeChild this.parentNode getString1 mx El.div delBox getString mx br",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "wEditList",
           "normalized": "(a-\u003ea)-\u003e(Maybe String-\u003eView a Identity b)-\u003e[String]-\u003eString-\u003eView a c[b]",
@@ -4796,6 +5118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePresent the JQuery autocompletion list, from a procedure defined by the programmer, to a text box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "wautocomplete",
           "package": "MFlow",
@@ -4805,6 +5128,7 @@
         "index": {
           "description": "Present the JQuery autocompletion list from procedure defined by the programmer to text box",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "wautocomplete",
           "normalized": "Maybe String-\u003e(String-\u003eIO a)-\u003eView b c String",
@@ -4820,6 +5144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a text box. It gives a autocompletion list to the textbox. When return\n is pressed in the textbox, the box content is used to create a widget of a kind defined\n by the user, which will be situated above of the textbox. When submitted, the result is the content\n of the created widgets (the validated ones).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ewautocompleteList\u003c/a\u003e\u003c/code\u003e is an specialization of this widget, where\n the widget parameter is fixed, with a checkbox that delete the eleement when unselected\n . This fixed widget is as such (using generic \u003ccode\u003eFormElem\u003c/code\u003e class tags):\n\u003c/p\u003e\u003cpre\u003e ftag \"div\"    \u003c\u003c\u003c ftag \"input\" mempty\n                               `attrs` [(\"type\",\"checkbox\")\n                                       ,(\"checked\",\"\")\n                                       ,(\"onclick\",\"this.parentNode.parentNode.removeChild(this.parentNode)\")]\n               ++\u003e ftag \"span\" (fromStr $ fromJust x )\n               ++\u003e whidden( fromJust x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "wautocompleteEdit",
           "package": "MFlow",
@@ -4829,6 +5154,7 @@
         "index": {
           "description": "Produces text box It gives autocompletion list to the textbox When return is pressed in the textbox the box content is used to create widget of kind defined by the user which will be situated above of the textbox When submitted the result is the content of the created widgets the validated ones wautocompleteList is an specialization of this widget where the widget parameter is fixed with checkbox that delete the eleement when unselected This fixed widget is as such using generic FormElem class tags ftag div ftag input mempty attrs type checkbox checked onclick this.parentNode.parentNode.removeChild this.parentNode ftag span fromStr fromJust whidden fromJust",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "wautocompleteEdit",
           "normalized": "String-\u003e(String-\u003eIO[String])-\u003e(Maybe String-\u003eView a Identity b)-\u003e[String]-\u003eView a c[b]",
@@ -4845,6 +5171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialization of \u003ccode\u003ewutocompleteEdit\u003c/code\u003e which make appear each chosen option with\n a checkbox that deletes the element when uncheched. The result, when submitted, is the list of selected elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "wautocompleteList",
           "package": "MFlow",
@@ -4855,6 +5182,7 @@
         "index": {
           "description": "specialization of wutocompleteEdit which make appear each chosen option with checkbox that deletes the element when uncheched The result when submitted is the list of selected elements",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "wautocompleteList",
           "normalized": "String-\u003e(String-\u003eIO[String])-\u003e[String]-\u003eView a b[String]",
@@ -4870,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "wdialog",
           "package": "MFlow",
@@ -4879,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "wdialog",
           "normalized": "String-\u003eString-\u003eView a b c-\u003eView a b c",
@@ -4894,6 +5224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermits to iterate the presentation of data and\u003cem/\u003eor input fields and widgets within\n a web page that does not change. The placeholders are created with dField.  Both are widget\n modifiers: The latter gets a widget and create a placeholder in the page that is updated\n via ajax. The content of the update is the rendering of the widget at each iteration.\n The former gets a wider widget which contains dField elements and permit the iteration.\n Whenever a link or a form within the witerate widget is activated, the result is the\n placeholders filled with the new  html content.  This content can be data, a input field,\n a link or a widget. No navigation happens.\n\u003c/p\u003e\u003cp\u003eThis permits even faster updates than autoRefresh.  since the latter refresh the whole\n widget and it does not permits modifications of the layout at runtime.\n\u003c/p\u003e\u003cp\u003eWhen edTemplate or template is used on top of witerate, the result is editable at runtime,\n and the span placeholders generated, that are updated via ajax can be relocated within\n the layout of the template.\n\u003c/p\u003e\u003cp\u003eAdditionally, contrary to some javascript frameworks, the pages generated with this\n mechanism are searchable by web crawlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "witerate",
           "package": "MFlow",
@@ -4904,6 +5235,7 @@
         "index": {
           "description": "Permits to iterate the presentation of data and or input fields and widgets within web page that does not change The placeholders are created with dField Both are widget modifiers The latter gets widget and create placeholder in the page that is updated via ajax The content of the update is the rendering of the widget at each iteration The former gets wider widget which contains dField elements and permit the iteration Whenever link or form within the witerate widget is activated the result is the placeholders filled with the new html content This content can be data input field link or widget No navigation happens This permits even faster updates than autoRefresh since the latter refresh the whole widget and it does not permits modifications of the layout at runtime When edTemplate or template is used on top of witerate the result is editable at runtime and the span placeholders generated that are updated via ajax can be relocated within the layout of the template Additionally contrary to some javascript frameworks the pages generated with this mechanism are searchable by web crawlers",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "witerate",
           "normalized": "View a b c-\u003eView a b c",
@@ -4919,6 +5251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf not logged, it present a page flow which askm  for the user name, then the password if not logged\n\u003c/p\u003e\u003cp\u003eIf logged, it present the user name and a link to logout\n\u003c/p\u003e\u003cp\u003enormally to be used with autoRefresh and pageFlow when used with other widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.Widgets",
           "name": "wlogin",
           "package": "MFlow",
@@ -4929,6 +5262,7 @@
         "index": {
           "description": "If not logged it present page flow which askm for the user name then the password if not logged If logged it present the user name and link to logout normally to be used with autoRefresh and pageFlow when used with other widgets",
           "hierarchy": "MFlow Forms Widgets",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.Widgets",
           "name": "wlogin",
           "normalized": "View a b()",
@@ -4944,6 +5278,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eFormInput\u003c/a\u003e\u003c/code\u003e  for  the \u003ccode\u003e\u003ca\u003eXHtml\u003c/a\u003e\u003c/code\u003e module of the xhtml package\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms.XHtml",
           "name": "XHtml",
           "package": "MFlow",
@@ -4953,6 +5288,7 @@
         "index": {
           "description": "Instances of FormInput for the XHtml module of the xhtml package",
           "hierarchy": "MFlow Forms XHtml",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms.XHtml",
           "name": "XHtml",
           "package": "MFlow",
@@ -4967,6 +5303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMFlow run stateful server processes. This version is the first stateful web framework\nthat is as RESTful as a web framework can be.\n\u003c/p\u003e\u003cp\u003eThe routes are expressed as normal, monadic haskell code in the FlowM monad. Local links\npoint to alternative routes within this monadic computation just like a textual menu\nin a console application. Any GET page is directly reachable by means of a RESTful URL.\n\u003c/p\u003e\u003cp\u003eAt any moment the flow can respond to the back button or to any RESTful path that the user may paste in the navigation bar.\nIf the procedure is waiting for another different page, the FlowM monad backtrack until the path partially match\n. From this position the execution goes forward until the rest of the path match. This way the\nstatelessness is optional. However, it is possible to store a session state, which may backtrack or\nnot when the navigation goes back and forth. It is upto the programmer.\n\u003c/p\u003e\u003cp\u003eAll the flow of requests and responses are coded by the programmer in a single procedure.\nAllthoug single request-response flows are possible. Therefore, the code is\nmore understandable. It is not continuation based. It uses a log for thread state persistence and backtracking for\nhandling the back button. Back button state syncronization is supported out-of-the-box\n\u003c/p\u003e\u003cp\u003eThe MFlow architecture is scalable, since the state is serializable and small\n\u003c/p\u003e\u003cp\u003eThe processes are stopped and restarted by the\napplication server on demand, including the execution state (if the Wokflow monad is used).\nTherefore session management is automatic. State consistence and transactions are given by the TCache package.\n\u003c/p\u003e\u003cp\u003eThe processes interact trough widgets, that are an extension of formlets with\nadditional applicative combinators, formatting, link management, callbacks, modifiers, caching,\nbyteString conversion and AJAX. All is coded in pure haskell.\n\u003c/p\u003e\u003cp\u003eThe interfaces and communications are abstract, but there are bindings for blaze-html, HSP, Text.XHtml and byteString\n, Hack and WAI but it can be extended to non Web based architectures.\n\u003c/p\u003e\u003cp\u003eBindings for hack, and hsp \u003e= 0.8,  are not compiled by Hackage, and do not appear, but are included in the package files.\nTo use them, add then to the exported modules and execute cabal install\n\u003c/p\u003e\u003cp\u003eIt is designed for applications that can be run with no deployment with runghc in order\nto speed up the development process. see \u003ca\u003ehttp://haskell-web.blogspot.com.es/2013/05/a-web-application-in-tweet.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis module implement  stateful processes (flows) that are optionally persistent.\nThis means that they automatically store and recover his execution state. They are executed by the MFlow app server.\ndefined in the \u003ca\u003eMFlow\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eThese processses interact with the user trough user interfaces made of widgets (see below) that return back statically typed responses to\nthe calling process. Because flows are stateful, not request-response, the code is more understandable, because\nall the flow of request and responses is coded by the programmer in a single procedure in the FlowM monad. Allthoug\nsingle request-response flows and callbacks are possible.\n\u003c/p\u003e\u003cp\u003eThis module is abstract with respect to the formatting (here referred with the type variable \u003ccode\u003eview\u003c/code\u003e) . For an\ninstantiation for \u003ca\u003eText.XHtml\u003c/a\u003e  import \u003ca\u003eMFlow.Forms.XHtml\u003c/a\u003e, \u003ca\u003eMFlow.Hack.XHtml.All\u003c/a\u003e  or \u003ca\u003eMFlow.Wai.XHtml.All\u003c/a\u003e .\nTo use Haskell Server Pages import \u003ca\u003eMFlow.Forms.HSP\u003c/a\u003e. However the functionalities are documented here.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e is the only method for user interaction. It run in the \u003ccode\u003eMFlow view m\u003c/code\u003e monad, with \u003ccode\u003em\u003c/code\u003e the monad chosen by the user, usually IO.\nIt send user interfaces (in the \u003ccode\u003eView view m\u003c/code\u003e monad) and return statically\ntyped responses. The user interface definitions are  based on a extension of\nformLets (\u003ca\u003ehttp://www.haskell.org/haskellwiki/Formlets\u003c/a\u003e) with the addition of caching, links, formatting, attributes,\n extra combinators, callbaks and modifiers.\nThe interaction with the user is  stateful. In the same computation there may be  many\nrequest-response interactions, in the same way than in the case of a console applications. \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e APPLICATION SERVER\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTherefore, session and state management is simple and transparent: it is in the haskell\nstructures in the scope of the computation. \u003ccode\u003e\u003ca\u003etransient\u003c/a\u003e\u003c/code\u003e (normal) procedures have no persistent session state\nand \u003ccode\u003e\u003ca\u003estateless\u003c/a\u003e\u003c/code\u003e procedures accept a single request and return a single response.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003estep\u003c/a\u003e\u003c/code\u003e is a lifting monad transformer that permit persistent server procedures that\nremember the execution state even after system shutdowns by using the package workflow (\u003ca\u003ehttp://hackage.haskell.org/package/Workflow\u003c/a\u003e) internally.\nThis state management is transparent. There is no programer interface for session management.\n\u003c/p\u003e\u003cp\u003eThe programmer set the process timeout and the session timeout with \u003ccode\u003e\u003ca\u003esetTimeouts\u003c/a\u003e\u003c/code\u003e.\nIf the procedure has been stopped due to the process timeout or due to a system shutdowm,\nthe procedure restart in the last state when a request for this procedure arrives\n(if the procedure uses the \u003ccode\u003e\u003ca\u003estep\u003c/a\u003e\u003c/code\u003e monad transformer)\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e WIDGETS\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe correctness of the web responses is assured by the use of formLets.\nBut unlike formLets in its current form, it permits the definition of widgets.\n\u003cem\u003eA widget is a combination of formLets and links within its own formatting template\u003c/em\u003e, all in\nthe same definition in the same source file, in plain declarative Haskell style.\n\u003c/p\u003e\u003cp\u003eThe formatting is abstract. It has to implement the \u003ccode\u003e\u003ca\u003eFormInput\u003c/a\u003e\u003c/code\u003e class.\nThere are instances for Text.XHtml (\u003ca\u003eMFlow.Forms.XHtml\u003c/a\u003e), Haskell Server Pages (\u003ca\u003eMFlow.Forms.HSP\u003c/a\u003e)\nand ByteString. So widgets\ncan use any formatting that is instance of \u003ccode\u003e\u003ca\u003eFormInput\u003c/a\u003e\u003c/code\u003e.\nIt is possible to use more than one format in the same widget.\n\u003c/p\u003e\u003cp\u003eLinks defined with \u003ccode\u003e\u003ca\u003ewlink\u003c/a\u003e\u003c/code\u003e are treated the same way than forms. They are type safe and return values\n to the same flow of execution.\nIt is posssible to combine links and forms in the same widget by using applicative combinators  but also\nadditional applicative combinators like  \u003c+\u003e !*\u003e , |*|. Widgets are also monoids, so they can\nbe combined as such.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e NEW IN THIS RELEASE\n\u003c/li\u003e\u003c/ul\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eRuntime templates\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e  \u003ccode\u003etemplate\u003c/code\u003e, \u003ccode\u003eedTemplate\u003c/code\u003e, \u003ccode\u003ewiterate\u003c/code\u003e and \u003ccode\u003edField\u003c/code\u003e permit the edition of\nthe widget content at runtime, and the management of placeholders with input fields and data fields\nwithin the template with no navigation in the client, little bandwidth usage and little server load. Enven less\nthan using \u003ccode\u003eautoRefresh\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003cul\u003e\u003cli\u003e IN PREVIOUS RELEASES\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e{\u003ccode\u003eAutoRefresh\u003c/code\u003e] Using \u003ccode\u003eautoRefresh\u003c/code\u003e, Dynamic widgets can refresh themselves with new information without forcing a refresh of the whole page\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003ePush\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e  With \u003ccode\u003epush\u003c/code\u003e a widget can push new content to the browser when something in the server happens\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eError traces\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e using the monadloc package, now each runtime error (in a monadic statement) has a complete execution trace.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eRESTful URLs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Now each page is directly reachable by means of a intuitive, RESTful url, whose path is composed by the sucession\nof links clicked to reach such page and such point in the procedure. Just what you would expect.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003ePage flows\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e each widget-formlet can have its own independent behaviour within the page. They can\nrefresh independently trough AJAX by means of \u003ccode\u003eautoRefresh\u003c/code\u003e. Additionally, \u003ccode\u003e\u003ca\u003epageFlow\u003c/a\u003e\u003c/code\u003e initiates the page flow mode or a\nsubpage flow by adding a well know indetifier prefix for links and form parameters.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eModal Dialogs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003ewdialog\u003c/code\u003e present a widget within a modal or non modal jQuery dialog. while a monadic\nwidget-formlet can add different form elements depending on the user responses, \u003ccode\u003e\u003ca\u003ewcallback\u003c/a\u003e\u003c/code\u003e can\nsubstitute the widget by other. (See 'Demos/demos.blaze.hs' for some examples)\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJQuery widgets\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e with MFlow interface: \u003ccode\u003egetSpinner\u003c/code\u003e, \u003ccode\u003edatePicker\u003c/code\u003e, \u003ccode\u003ewdialog\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eWAI interface\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Now MFlow works with Snap and other WAI developments. Include \u003ca\u003eMFlow.Wai\u003c/a\u003e or \u003ca\u003eMFlow.Wai.Blaze.Html.All\u003c/a\u003e to use it.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eblaze-html support\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e see \u003ca\u003ehttp://hackage.haskell.org/package/blaze-html\u003c/a\u003e import \u003ca\u003eMFlow.Forms.Blaze.Html\u003c/a\u003e or \u003ca\u003eMFlow.Wai.Blaze.Html.All\u003c/a\u003e to use Blaze-Html\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eAJAX\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Now an ajax procedures (defined with \u003ccode\u003e\u003ca\u003eajax\u003c/a\u003e\u003c/code\u003e can perform many interactions with the browser widgets, instead\nof a single request-response (see \u003ccode\u003e\u003ca\u003eajaxSend\u003c/a\u003e\u003c/code\u003e).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eActive widgets\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ca\u003eMFlow.Forms.Widgets\u003c/a\u003e contains active widgets that interact with the\nserver via Ajax and dynamically control other widgets: \u003ccode\u003ewEditList\u003c/code\u003e, \u003ccode\u003eautocomplete\u003c/code\u003e \u003ccode\u003eautocompleteEdit\u003c/code\u003e and others.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eRequirements\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e a widget can specify javaScript files, JavasScript online scipts, CSS files, online CSS and server processes\n and any other instance of the \u003ccode\u003eRequrement\u003c/code\u003e class. See \u003ccode\u003e\u003ca\u003erequires\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eWebRequirements\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003econtent-management\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e for templating and online edition of the content template. See \u003ccode\u003etFieldEd\u003c/code\u003e \u003ccode\u003etFieldGen\u003c/code\u003e and \u003ccode\u003etField\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003emultilanguage\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e see \u003ccode\u003emField\u003c/code\u003e and \u003ccode\u003emFieldEd\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eURLs to internal states\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e if the web navigation is trough GET forms or links,\n an URL can express a direct path to the n-th step of a flow, So this URL can be shared with other users.\nJust like in the case of an ordinary stateless application.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eBack Button\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e This is probably the first implementation in any language where the navigation\ncan be expressed procedurally and still it works well with the back button, thanks\nto monad magic. (See \u003ca\u003ehttp://haskell-web.blogspot.com.es/2012/03//failback-monad.html\u003c/a\u003e)\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eCached widgets\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e with \u003ccode\u003e\u003ca\u003ecachedWidget\u003c/a\u003e\u003c/code\u003e it is possible to cache the rendering of a widget as a ByteString (maintaining type safety)\n, the caching can be permanent or for a certain time. this is very useful for complex widgets that present information. Specially if\nthe widget content comes from a database and it is  shared by all users.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eCallbacks\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003ewaction\u003c/a\u003e\u003c/code\u003e add a callback to a widget. It is executed when its input is validated.\nThe callback may initate a flow of interactions with the user or simply executes an internal computation.\nCallbacks are necessary for the creation of abstract container\nwidgets that may not know the behaviour of its content. with callbacks, the widget manages its content as  black boxes.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eModifiers\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003ewmodify\u003c/a\u003e\u003c/code\u003e change the visualization and result returned by the widget. For example it may hide a\nlogin form and substitute it by the username if already logged.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e ask $ wform userloginform `\u003ccode\u003e\u003ca\u003evalidate\u003c/a\u003e\u003c/code\u003e` valdateProc `\u003ccode\u003e\u003ca\u003ewaction\u003c/a\u003e\u003c/code\u003e` loginProc `\u003ccode\u003e\u003ca\u003ewmodify\u003c/a\u003e\u003c/code\u003e` hideIfLogged\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eattributes for formLet elements\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e  to add atributes to widgets. See the  \u003ccode\u003e\u003ca\u003e\u003c!\u003c/a\u003e\u003c/code\u003e op&#232;rator\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eByteString normalization and hetereogeneous formatting\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e For caching the rendering of widgets at the\n ByteString level, and to permit many formatring styles\nin the same page, there are operators that combine different formats which are converted to ByteStrings.\nFor example the header and footer may be coded in XML, while the formlets may be formatted using Text.XHtml.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eFile Server\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e With file caching. See \u003ca\u003eMFlow.FileServer\u003c/a\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "Forms",
           "package": "MFlow",
@@ -4976,6 +5313,7 @@
         "index": {
           "description": "MFlow run stateful server processes This version is the first stateful web framework that is as RESTful as web framework can be The routes are expressed as normal monadic haskell code in the FlowM monad Local links point to alternative routes within this monadic computation just like textual menu in console application Any GET page is directly reachable by means of RESTful URL At any moment the flow can respond to the back button or to any RESTful path that the user may paste in the navigation bar If the procedure is waiting for another different page the FlowM monad backtrack until the path partially match From this position the execution goes forward until the rest of the path match This way the statelessness is optional However it is possible to store session state which may backtrack or not when the navigation goes back and forth It is upto the programmer All the flow of requests and responses are coded by the programmer in single procedure Allthoug single request-response flows are possible Therefore the code is more understandable It is not continuation based It uses log for thread state persistence and backtracking for handling the back button Back button state syncronization is supported out-of-the-box The MFlow architecture is scalable since the state is serializable and small The processes are stopped and restarted by the application server on demand including the execution state if the Wokflow monad is used Therefore session management is automatic State consistence and transactions are given by the TCache package The processes interact trough widgets that are an extension of formlets with additional applicative combinators formatting link management callbacks modifiers caching byteString conversion and AJAX All is coded in pure haskell The interfaces and communications are abstract but there are bindings for blaze-html HSP Text.XHtml and byteString Hack and WAI but it can be extended to non Web based architectures Bindings for hack and hsp are not compiled by Hackage and do not appear but are included in the package files To use them add then to the exported modules and execute cabal install It is designed for applications that can be run with no deployment with runghc in order to speed up the development process see http haskell-web.blogspot.com.es a-web-application-in-tweet.html This module implement stateful processes flows that are optionally persistent This means that they automatically store and recover his execution state They are executed by the MFlow app server defined in the MFlow module These processses interact with the user trough user interfaces made of widgets see below that return back statically typed responses to the calling process Because flows are stateful not request-response the code is more understandable because all the flow of request and responses is coded by the programmer in single procedure in the FlowM monad Allthoug single request-response flows and callbacks are possible This module is abstract with respect to the formatting here referred with the type variable view For an instantiation for Text.XHtml import MFlow.Forms.XHtml MFlow.Hack.XHtml.All or MFlow.Wai.XHtml.All To use Haskell Server Pages import MFlow.Forms.HSP However the functionalities are documented here ask is the only method for user interaction It run in the MFlow view monad with the monad chosen by the user usually IO It send user interfaces in the View view monad and return statically typed responses The user interface definitions are based on extension of formLets http www.haskell.org haskellwiki Formlets with the addition of caching links formatting attributes extra combinators callbaks and modifiers The interaction with the user is stateful In the same computation there may be many request-response interactions in the same way than in the case of console applications APPLICATION SERVER Therefore session and state management is simple and transparent it is in the haskell structures in the scope of the computation transient normal procedures have no persistent session state and stateless procedures accept single request and return single response step is lifting monad transformer that permit persistent server procedures that remember the execution state even after system shutdowns by using the package workflow http hackage.haskell.org package Workflow internally This state management is transparent There is no programer interface for session management The programmer set the process timeout and the session timeout with setTimeouts If the procedure has been stopped due to the process timeout or due to system shutdowm the procedure restart in the last state when request for this procedure arrives if the procedure uses the step monad transformer WIDGETS The correctness of the web responses is assured by the use of formLets But unlike formLets in its current form it permits the definition of widgets widget is combination of formLets and links within its own formatting template all in the same definition in the same source file in plain declarative Haskell style The formatting is abstract It has to implement the FormInput class There are instances for Text.XHtml MFlow.Forms.XHtml Haskell Server Pages MFlow.Forms.HSP and ByteString So widgets can use any formatting that is instance of FormInput It is possible to use more than one format in the same widget Links defined with wlink are treated the same way than forms They are type safe and return values to the same flow of execution It is posssible to combine links and forms in the same widget by using applicative combinators but also additional applicative combinators like Widgets are also monoids so they can be combined as such NEW IN THIS RELEASE Runtime templates template edTemplate witerate and dField permit the edition of the widget content at runtime and the management of placeholders with input fields and data fields within the template with no navigation in the client little bandwidth usage and little server load Enven less than using autoRefresh IN PREVIOUS RELEASES AutoRefresh Using autoRefresh Dynamic widgets can refresh themselves with new information without forcing refresh of the whole page Push With push widget can push new content to the browser when something in the server happens Error traces using the monadloc package now each runtime error in monadic statement has complete execution trace RESTful URLs Now each page is directly reachable by means of intuitive RESTful url whose path is composed by the sucession of links clicked to reach such page and such point in the procedure Just what you would expect Page flows each widget-formlet can have its own independent behaviour within the page They can refresh independently trough AJAX by means of autoRefresh Additionally pageFlow initiates the page flow mode or subpage flow by adding well know indetifier prefix for links and form parameters Modal Dialogs wdialog present widget within modal or non modal jQuery dialog while monadic widget-formlet can add different form elements depending on the user responses wcallback can substitute the widget by other See Demos demos.blaze.hs for some examples JQuery widgets with MFlow interface getSpinner datePicker wdialog WAI interface Now MFlow works with Snap and other WAI developments Include MFlow.Wai or MFlow.Wai.Blaze.Html.All to use it blaze-html support see http hackage.haskell.org package blaze-html import MFlow.Forms.Blaze.Html or MFlow.Wai.Blaze.Html.All to use Blaze-Html AJAX Now an ajax procedures defined with ajax can perform many interactions with the browser widgets instead of single request-response see ajaxSend Active widgets MFlow.Forms.Widgets contains active widgets that interact with the server via Ajax and dynamically control other widgets wEditList autocomplete autocompleteEdit and others Requirements widget can specify javaScript files JavasScript online scipts CSS files online CSS and server processes and any other instance of the Requrement class See requires and WebRequirements content-management for templating and online edition of the content template See tFieldEd tFieldGen and tField multilanguage see mField and mFieldEd URLs to internal states if the web navigation is trough GET forms or links an URL can express direct path to the n-th step of flow So this URL can be shared with other users Just like in the case of an ordinary stateless application Back Button This is probably the first implementation in any language where the navigation can be expressed procedurally and still it works well with the back button thanks to monad magic See http haskell-web.blogspot.com.es failback-monad.html Cached widgets with cachedWidget it is possible to cache the rendering of widget as ByteString maintaining type safety the caching can be permanent or for certain time this is very useful for complex widgets that present information Specially if the widget content comes from database and it is shared by all users Callbacks waction add callback to widget It is executed when its input is validated The callback may initate flow of interactions with the user or simply executes an internal computation Callbacks are necessary for the creation of abstract container widgets that may not know the behaviour of its content with callbacks the widget manages its content as black boxes Modifiers wmodify change the visualization and result returned by the widget For example it may hide login form and substitute it by the username if already logged Example ask wform userloginform validate valdateProc waction loginProc wmodify hideIfLogged attributes for formLet elements to add atributes to widgets See the op rator ByteString normalization and hetereogeneous formatting For caching the rendering of widgets at the ByteString level and to permit many formatring styles in the same page there are operators that combine different formats which are converted to ByteStrings For example the header and footer may be coded in XML while the formlets may be formatted using Text.XHtml File Server With file caching See MFlow.FileServer",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "Forms",
           "package": "MFlow",
@@ -4989,6 +5327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "Auth",
           "package": "MFlow",
@@ -4997,6 +5336,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "Auth",
           "package": "MFlow",
@@ -5010,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "FailBack",
           "package": "MFlow",
@@ -5018,6 +5359,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "FailBack",
           "package": "MFlow",
@@ -5032,6 +5374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe FlowM monad executes the page navigation. It perform Backtracking when necessary to syncronize\n when the user press the back button or when the user enter an arbitrary URL. The instruction pointer\n is moved to the right position within the procedure to handle the request.\n\u003c/p\u003e\u003cp\u003eHowever this is transparent to the programmer, who codify in the style of a console application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "FlowM",
           "package": "MFlow",
@@ -5041,6 +5384,7 @@
         "index": {
           "description": "the FlowM monad executes the page navigation It perform Backtracking when necessary to syncronize when the user press the back button or when the user enter an arbitrary URL The instruction pointer is moved to the right position within the procedure to handle the request However this is transparent to the programmer who codify in the style of console application",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "FlowM",
           "package": "MFlow",
@@ -5054,6 +5398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "FormElm",
           "package": "MFlow",
@@ -5062,6 +5407,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "FormElm",
           "package": "MFlow",
@@ -5075,6 +5421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "FormInput",
           "package": "MFlow",
@@ -5083,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "FormInput",
           "package": "MFlow",
@@ -5096,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "Requirements",
           "package": "MFlow",
@@ -5104,6 +5453,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "Requirements",
           "package": "MFlow",
@@ -5118,6 +5468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eView v m a\u003c/code\u003e is a widget (formlet)  with formatting \u003ccode\u003ev\u003c/code\u003e  running the monad \u003ccode\u003em\u003c/code\u003e (usually \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e) and which return a value of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIt has \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003cp\u003eThings to know about these instances:\n\u003c/p\u003e\u003cp\u003eIf the View expression does not validate, ask will present the page again.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eAlternative instance\u003c/em\u003e: Both alternatives are executed. The rest is as usual\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eMonad Instance\u003c/em\u003e:\n\u003c/p\u003e\u003cp\u003eThe rendering of each statement is added to the previous. If you want to avoid this, use \u003ccode\u003e\u003ca\u003ewcallback\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe execution is stopped when the statement has a formlet-widget that does not validate and\n return an invalid response (So it will present the page again if no other widget in the expression validates).\n\u003c/p\u003e\u003cp\u003eThe monadic code is executed from the beginning each time the page is presented or refreshed\n\u003c/p\u003e\u003cp\u003euse \u003ccode\u003epageFlow\u003c/code\u003e if your page has more than one monadic computation with dynamic behaviour\n\u003c/p\u003e\u003cp\u003euse \u003ccode\u003epageFlow\u003c/code\u003e to identify each subflow branch of a conditional\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e pageFlow \"myid\" $ do\n      r \u003c- formlet1\n      liftIO $ ioaction1 r\n      s \u003c- formlet2\n      liftIO $ ioaction2 s\n      case s of\n       True  -\u003e pageFlow \"idtrue\" $ do ....\n       False -\u003e paeFlow \"idfalse\" $ do ...\n      ...\n\u003c/pre\u003e\u003cp\u003eHere if  \u003ccode\u003eformlet2\u003c/code\u003e do not validate, \u003ccode\u003eioaction2\u003c/code\u003e is not executed. But if \u003ccode\u003eformLet1\u003c/code\u003e validates and the\n  page is refreshed two times (because \u003ccode\u003eformlet2\u003c/code\u003e has failed, see above),then \u003ccode\u003eioaction1\u003c/code\u003e is executed two times.\n  use \u003ccode\u003e\u003ca\u003ecachedByKey\u003c/a\u003e\u003c/code\u003e if you want to avoid repeated IO executions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "View",
           "package": "MFlow",
@@ -5127,6 +5478,7 @@
         "index": {
           "description": "View is widget formlet with formatting running the monad usually IO and which return value of type It has Applicative Alternative and Monad instances Things to know about these instances If the View expression does not validate ask will present the page again Alternative instance Both alternatives are executed The rest is as usual Monad Instance The rendering of each statement is added to the previous If you want to avoid this use wcallback The execution is stopped when the statement has formlet-widget that does not validate and return an invalid response So it will present the page again if no other widget in the expression validates The monadic code is executed from the beginning each time the page is presented or refreshed use pageFlow if your page has more than one monadic computation with dynamic behaviour use pageFlow to identify each subflow branch of conditional For example pageFlow myid do formlet1 liftIO ioaction1 formlet2 liftIO ioaction2 case of True pageFlow idtrue do False paeFlow idfalse do Here if formlet2 do not validate ioaction2 is not executed But if formLet1 validates and the page is refreshed two times because formlet2 has failed see above then ioaction1 is executed two times use cachedByKey if you want to avoid repeated IO executions",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "View",
           "package": "MFlow",
@@ -5140,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "WebRequirement",
           "package": "MFlow",
@@ -5148,6 +5501,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "WebRequirement",
           "package": "MFlow",
@@ -5162,6 +5516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersperse a widget in a list of widgets. the results is a 2-tuple of both types.\n\u003c/p\u003e\u003cp\u003eit has a infix priority \u003ccode\u003einfixr 5\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(|*\u003e)",
           "package": "MFlow",
@@ -5172,6 +5527,7 @@
         "index": {
           "description": "Intersperse widget in list of widgets the results is tuple of both types it has infix priority infixr",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(|*\u003e) |*\u003e",
           "normalized": "View a b c-\u003e[View a b d]-\u003eView a b(Maybe c,Maybe d)",
@@ -5187,6 +5543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a widget before and after other. Useful for navigation links in a page that appears at toAdd\n and at the bottom of a page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(|+|)",
           "package": "MFlow",
@@ -5197,6 +5554,7 @@
         "index": {
           "description": "Put widget before and after other Useful for navigation links in page that appears at toAdd and at the bottom of page",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(|+|) |+|",
           "normalized": "View a b c-\u003eView a b d-\u003eView a b(Maybe c,Maybe d)",
@@ -5212,6 +5570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first elem result (even if it is not validated) is discarded, and the secod is returned\n . This contrast with the applicative operator \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e which fails the whole validation if\n the validation of the first elem fails.\n\u003c/p\u003e\u003cp\u003eThe first element is displayed however, as happens in the case of \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e .\n\u003c/p\u003e\u003cp\u003eHere \u003ccode\u003ew's\u003c/code\u003e are widgets and \u003ccode\u003er's\u003c/code\u003e are returned values\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e(w1 \u003c* w2)\u003c/code\u003e  will return \u003ccode\u003eJust r1\u003c/code\u003e only if w1 and w2 are validated\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e(w1 \u003c** w2)\u003c/code\u003e will return \u003ccode\u003eJust r1\u003c/code\u003e even if w2 is not validated\n\u003c/p\u003e\u003cp\u003eit has a low infix priority: \u003ccode\u003einfixr 1\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(**\u003e)",
           "package": "MFlow",
@@ -5222,6 +5581,7 @@
         "index": {
           "description": "The first elem result even if it is not validated is discarded and the secod is returned This contrast with the applicative operator which fails the whole validation if the validation of the first elem fails The first element is displayed however as happens in the case of Here are widgets and are returned values w1 w2 will return Just r1 only if w1 and w2 are validated w1 w2 will return Just r1 even if w2 is not validated it has low infix priority infixr",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(**\u003e) **\u003e",
           "normalized": "View a b c-\u003eView a b d-\u003eView a b d",
@@ -5237,6 +5597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend formatting code to a widget\n\u003c/p\u003e\u003cpre\u003ebold \u003ca\u003e\"enter name\" ++\u003c/a\u003e getString Nothing\u003c/pre\u003e\u003cp\u003eIt has a infix prority: \u003ccode\u003einfixr 6\u003c/code\u003e higuer that \u003ccode\u003e\u003ca\u003e\u003c\u003c\u003c\u003c/a\u003e\u003c/code\u003e and most other operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(++\u003e)",
           "package": "MFlow",
@@ -5247,6 +5608,7 @@
         "index": {
           "description": "Prepend formatting code to widget bold enter name getString Nothing It has infix prority infixr higuer that and most other operators",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(++\u003e) ++\u003e",
           "normalized": "a-\u003eView a b c-\u003eView a b c",
@@ -5262,6 +5624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative binary operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c|\u003e)",
           "package": "MFlow",
@@ -5271,6 +5634,7 @@
         "index": {
           "description": "An associative binary operation",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b c d-\u003ec d-\u003ec d",
@@ -5286,6 +5650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd attributes to the topmost tag of a widget\n\u003c/p\u003e\u003cp\u003eit has a fixity \u003ccode\u003einfix 8\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c!)",
           "package": "MFlow",
@@ -5296,6 +5661,7 @@
         "index": {
           "description": "Add attributes to the topmost tag of widget it has fixity infix",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c!) \u003c!",
           "normalized": "View a b c-\u003eAttribs-\u003eView a b c",
@@ -5311,6 +5677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c$\u003e)",
           "package": "MFlow",
@@ -5320,6 +5687,7 @@
         "index": {
           "description": "An infix synonym for fmap",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -5335,6 +5703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence actions, discarding the value of the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c*)",
           "package": "MFlow",
@@ -5344,6 +5713,7 @@
         "index": {
           "description": "Sequence actions discarding the value of the second argument",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b c d b-\u003ed e-\u003ed b",
@@ -5359,6 +5729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe second elem result (even if it is not validated) is discarded, and the first is returned\n . This contrast with the applicative operator \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e which fails the whole validation if\n the validation of the second elem fails.\n The second element is displayed however, as in the case of \u003ccode\u003e\u003ca\u003e\u003c*\u003c/a\u003e\u003c/code\u003e.\n see the \u003ccode\u003e\u003ca\u003e\u003c**\u003c/a\u003e\u003c/code\u003e examples\n\u003c/p\u003e\u003cp\u003eit has a low infix priority: \u003ccode\u003einfixr 1\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c**)",
           "package": "MFlow",
@@ -5369,6 +5740,7 @@
         "index": {
           "description": "The second elem result even if it is not validated is discarded and the first is returned This contrast with the applicative operator which fails the whole validation if the validation of the second elem fails The second element is displayed however as in the case of see the examples it has low infix priority infixr",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c**) \u003c**",
           "normalized": "View a b c-\u003eView a b d-\u003eView a b c",
@@ -5384,6 +5756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c*\u003e)",
           "package": "MFlow",
@@ -5393,6 +5766,7 @@
         "index": {
           "description": "Sequential application",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a b c d(b-\u003ee)-\u003ed b-\u003ed e",
@@ -5408,6 +5782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend formatting code to a widget\n\u003c/p\u003e\u003cpre\u003e getString \u003ca\u003ehi\u003c/a\u003e \u003c++ H1 \u003c\u003c \u003ca\u003ehi there\u003c/a\u003e\u003c/pre\u003e\u003cp\u003eIt has a infix prority: \u003ccode\u003einfixr 6\u003c/code\u003e higuer that \u003ccode\u003e\u003ca\u003e\u003c\u003c\u003c\u003c/a\u003e\u003c/code\u003e and most other operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c++)",
           "package": "MFlow",
@@ -5418,6 +5793,7 @@
         "index": {
           "description": "Append formatting code to widget getString hi H1 hi there It has infix prority infixr higuer that and most other operators",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c++) \u003c++",
           "normalized": "View a b c-\u003ea-\u003eView a b c",
@@ -5433,6 +5809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin two widgets in the same page\n the resulting widget, when \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003eed with it, return a 2 tuple of their validation results\n if both return Noting, the widget return \u003ccode\u003eNothing\u003c/code\u003e (invalid).\n\u003c/p\u003e\u003cp\u003eit has a low infix priority: \u003ccode\u003einfixr 2\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e r \u003c- ask  widget1 \u003c+\u003e  widget2\n case r of (Just x, Nothing) -\u003e ..\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c+\u003e)",
           "package": "MFlow",
@@ -5443,6 +5820,7 @@
         "index": {
           "description": "Join two widgets in the same page the resulting widget when ask ed with it return tuple of their validation results if both return Noting the widget return Nothing invalid it has low infix priority infixr ask widget1 widget2 case of Just Nothing",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "View a b c-\u003eView a b d-\u003eView a b(Maybe c,Maybe d)",
@@ -5458,6 +5836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose Widgets within some formating.\n \u003ccode\u003eview\u003c/code\u003e is intended to be instantiated to a particular format\n\u003c/p\u003e\u003cp\u003eNOTE: It has a infix priority : \u003ccode\u003einfixr 5\u003c/code\u003e less than the one of \u003ccode\u003e++\u003e\u003c/code\u003e and \u003ccode\u003e\u003c++\u003c/code\u003e of the operators, so use parentheses when appropriate,\n unless the we want to enclose all the widgets in the right side.\n Most of the type errors in the DSL are due to the low priority of this operator.\n\u003c/p\u003e\u003cp\u003eThis is a widget, which is a table with some links. it returns an Int\n\u003c/p\u003e\u003cpre\u003e import MFlow.Forms.Blaze.Html\n\n tableLinks :: View Html Int\n table ! At.style \"border:1;width:20%;margin-left:auto;margin-right:auto\"\n            \u003c\u003c\u003c caption \u003c\u003c text \"choose an item\"\n            ++\u003e thead \u003c\u003c tr \u003c\u003c ( th \u003c\u003c b \u003c\u003c text  \"item\" \u003c\u003e th \u003c\u003c b \u003c\u003c text \"times chosen\")\n            ++\u003e (tbody\n                 \u003c\u003c\u003c tr ! rowspan \"2\" \u003c\u003c td \u003c\u003c linkHome\n                 ++\u003e (tr \u003c\u003c\u003c td \u003c\u003c\u003c wlink  IPhone (b \u003c\u003c text \"iphone\") \u003c++  td \u003c\u003c ( b \u003c\u003c text (fromString $ show ( cart V.! 0)))\n                 \u003c|\u003e  tr \u003c\u003c\u003c td \u003c\u003c\u003c wlink  IPod (b \u003c\u003c text \"ipad\")     \u003c++  td \u003c\u003c ( b \u003c\u003c text (fromString $ show ( cart V.! 1)))\n                 \u003c|\u003e  tr \u003c\u003c\u003c td \u003c\u003c\u003c wlink  IPad (b \u003c\u003c text \"ipod\")     \u003c++  td \u003c\u003c ( b \u003c\u003c text (fromString $ show ( cart V.! 2))))\n                 )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003c\u003c\u003c)",
           "package": "MFlow",
@@ -5468,6 +5847,7 @@
         "index": {
           "description": "Enclose Widgets within some formating view is intended to be instantiated to particular format NOTE It has infix priority infixr less than the one of and of the operators so use parentheses when appropriate unless the we want to enclose all the widgets in the right side Most of the type errors in the DSL are due to the low priority of this operator This is widget which is table with some links it returns an Int import MFlow.Forms.Blaze.Html tableLinks View Html Int table At.style border width margin-left auto margin-right auto caption text choose an item thead tr th text item th text times chosen tbody tr rowspan td linkHome tr td wlink IPhone text iphone td text fromString show cart tr td wlink IPod text ipad td text fromString show cart tr td wlink IPad text ipod td text fromString show cart",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "(a-\u003ea)-\u003eView a b c-\u003eView a b c",
@@ -5482,6 +5862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(\u003e:\u003e)",
           "package": "MFlow",
@@ -5491,6 +5872,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(\u003e:\u003e) \u003e:\u003e",
           "normalized": "View a b c-\u003eView a b[c]-\u003eView a b[c]",
@@ -5506,6 +5888,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.|*\u003e.) x y = normalize x |*\u003e map normalize y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.|*\u003e.)",
           "package": "MFlow",
@@ -5516,6 +5899,7 @@
         "index": {
           "description": "normalize map normalize",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.|*\u003e.) .|*\u003e.",
           "normalized": "View a b c-\u003e[View a b d]-\u003eView ByteString b(Maybe c,Maybe d)",
@@ -5531,6 +5915,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.|+|.) x y = normalize x |+| normalize y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.|+|.)",
           "package": "MFlow",
@@ -5541,6 +5926,7 @@
         "index": {
           "description": "normalize normalize",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.|+|.) .|+|.",
           "normalized": "View a b c-\u003eView a b d-\u003eView ByteString b(Maybe c,Maybe d)",
@@ -5556,6 +5942,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.**\u003e.) x y = normalize x **\u003e normalize y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.**\u003e.)",
           "package": "MFlow",
@@ -5566,6 +5953,7 @@
         "index": {
           "description": "normalize normalize",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.**\u003e.) .**\u003e.",
           "normalized": "View a b c-\u003eView a b d-\u003eView ByteString b d",
@@ -5581,6 +5969,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.++\u003e.) v x= toByteString v ++\u003e normalize x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.++\u003e.)",
           "package": "MFlow",
@@ -5591,6 +5980,7 @@
         "index": {
           "description": "toByteString normalize",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.++\u003e.) .++\u003e.",
           "normalized": "a-\u003eView b c d-\u003eView ByteString c d",
@@ -5606,6 +5996,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.\u003c|\u003e.) x y= normalize x \u003c|\u003e normalize y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.\u003c|\u003e.)",
           "package": "MFlow",
@@ -5616,6 +6007,7 @@
         "index": {
           "description": "normalize normalize",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.\u003c|\u003e.) .\u003c|\u003e.",
           "normalized": "View a b c-\u003eView a b c-\u003eView ByteString b c",
@@ -5631,6 +6023,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.\u003c**.) x y = normalize x \u003c** normalize y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.\u003c**.)",
           "package": "MFlow",
@@ -5641,6 +6034,7 @@
         "index": {
           "description": "normalize normalize",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.\u003c**.) .\u003c**.",
           "normalized": "View a b c-\u003eView a b d-\u003eView ByteString b c",
@@ -5656,6 +6050,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.\u003c++.) x v= normalize x \u003c++ toByteString v\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.\u003c++.)",
           "package": "MFlow",
@@ -5666,6 +6061,7 @@
         "index": {
           "description": "normalize toByteString",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.\u003c++.) .\u003c++.",
           "normalized": "View a b c-\u003ed-\u003eView ByteString b c",
@@ -5681,6 +6077,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.\u003c+\u003e.) x y = normalize x \u003c+\u003e normalize y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.\u003c+\u003e.)",
           "package": "MFlow",
@@ -5691,6 +6088,7 @@
         "index": {
           "description": "normalize normalize",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.\u003c+\u003e.) .\u003c+\u003e.",
           "normalized": "View a b c-\u003eView a b d-\u003eView ByteString b(Maybe c,Maybe d)",
@@ -5706,6 +6104,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e (.\u003c\u003c.) w x = w $ toByteString x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "(.\u003c\u003c.)",
           "package": "MFlow",
@@ -5716,6 +6115,7 @@
         "index": {
           "description": "toByteString",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "(.\u003c\u003c.) .\u003c\u003c.",
           "normalized": "(ByteString-\u003eByteString)-\u003ea-\u003eByteString",
@@ -5754,6 +6154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstall the server code and return the client code for an AJAX interaction.\n It is very lightweight, It does no t need jQuery.\n\u003c/p\u003e\u003cp\u003eThis example increases the value of a text box each time the box is clicked\n\u003c/p\u003e\u003cpre\u003e  ask $ do\n        let elemval= \"document.getElementById('text1').value\"\n        ajaxc \u003c- ajax $ \\n -\u003e return $ elemval \u003c\u003e \"='\" \u003c\u003e B.pack(show(read  n +1)) \u003c\u003e \"'\"\n        b \u003c\u003c  text \"click the box\"\n          ++\u003e getInt (Just 0) \u003c! [(\"id\",\"text1\"),(\"onclick\", ajaxc elemval)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "ajax",
           "package": "MFlow",
@@ -5763,6 +6164,7 @@
         "index": {
           "description": "Install the server code and return the client code for an AJAX interaction It is very lightweight It does no need jQuery This example increases the value of text box each time the box is clicked ask do let elemval document.getElementById text1 value ajaxc ajax return elemval B.pack show read text click the box getInt Just id text1 onclick ajaxc elemval",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "ajax",
           "normalized": "(String-\u003eView a b ByteString)-\u003eView a b(String-\u003eString)",
@@ -5778,6 +6180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the javascript expression, generated by the procedure parameter as a ByteString, execute it in the browser and the result is returned back\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eajaxSend\u003c/code\u003e invocation must be inside a ajax procedure or else a \u003cem\u003eNo ajax session set\u003c/em\u003e error will be produced\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "ajaxSend",
           "package": "MFlow",
@@ -5788,6 +6191,7 @@
         "index": {
           "description": "Send the javascript expression generated by the procedure parameter as ByteString execute it in the browser and the result is returned back The ajaxSend invocation must be inside ajax procedure or else No ajax session set error will be produced",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "ajaxSend",
           "normalized": "View a b ByteString-\u003eView a b c",
@@ -5804,6 +6208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003eajaxSend\u003c/code\u003e but the result is ignored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "ajaxSend_",
           "package": "MFlow",
@@ -5814,6 +6219,7 @@
         "index": {
           "description": "Like ajaxSend but the result is ignored",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "ajaxSend_",
           "normalized": "View a b ByteString-\u003eView a b()",
@@ -5829,6 +6235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "ask",
           "package": "MFlow",
@@ -5838,6 +6245,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "ask",
           "normalized": "View a IO b-\u003eFlowM a IO b",
@@ -5853,6 +6261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor compatibility with the same procedure in \u003ccode\u003e\u003ca\u003easkt\u003c/a\u003e\u003c/code\u003e.\n This is the non testing version\n\u003c/p\u003e\u003cpre\u003e askt v w= ask w\n\u003c/pre\u003e\u003cp\u003ehide one or the other\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "askt",
           "package": "MFlow",
@@ -5863,6 +6272,7 @@
         "index": {
           "description": "for compatibility with the same procedure in askt This is the non testing version askt ask hide one or the other",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "askt",
           "normalized": "(Int-\u003ea)-\u003eView b IO a-\u003eFlowM b IO a",
@@ -5877,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "attrs",
           "package": "MFlow",
@@ -5886,6 +6297,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "attrs",
           "normalized": "a-\u003eAttribs-\u003ea",
@@ -5978,6 +6390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "finput",
           "package": "MFlow",
@@ -5987,6 +6400,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "finput",
           "normalized": "Name-\u003eType-\u003eValue-\u003eChecked-\u003eOnClick-\u003ea",
@@ -6002,6 +6416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcat a list of widgets of the same type, return a the first validated result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "firstOf",
           "package": "MFlow",
@@ -6012,6 +6427,7 @@
         "index": {
           "description": "Concat list of widgets of the same type return the first validated result",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "firstOf",
           "normalized": "[View a b c]-\u003eView a b c",
@@ -6028,6 +6444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a binary tree of tuples of Maybe results produced by the \u003c+\u003e operator\n into a single tuple with the same elements in the same order.\n This is useful for easing matching. For example:\n\u003c/p\u003e\u003cpre\u003e res \u003c- ask $ wlink1 \u003c+\u003e wlink2 wform \u003c+\u003e wlink3 \u003c+\u003e wlink4\u003c/pre\u003e\u003cp\u003e\u003ccode\u003eres\u003c/code\u003e  has type:\n\u003c/p\u003e\u003cpre\u003eMaybe (Maybe (Maybe (Maybe (Maybe a,Maybe b),Maybe c),Maybe d),Maybe e)\u003c/pre\u003e\u003cp\u003ebut \u003ccode\u003eflatten res\u003c/code\u003e has type:\n\u003c/p\u003e\u003cpre\u003e (Maybe a, Maybe b, Maybe c, Maybe d, Maybe e)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "flatten",
           "package": "MFlow",
@@ -6038,6 +6455,7 @@
         "index": {
           "description": "Flatten binary tree of tuples of Maybe results produced by the operator into single tuple with the same elements in the same order This is useful for easing matching For example res ask wlink1 wlink2 wform wlink3 wlink4 res has type Maybe Maybe Maybe Maybe Maybe Maybe Maybe Maybe Maybe but flatten res has type Maybe Maybe Maybe Maybe Maybe",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "flatten",
           "normalized": "a-\u003eb",
@@ -6052,6 +6470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "flink",
           "package": "MFlow",
@@ -6061,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "flink",
           "normalized": "String-\u003ea-\u003ea",
@@ -6075,6 +6495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "flink1",
           "package": "MFlow",
@@ -6084,6 +6505,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "flink1",
           "normalized": "String-\u003ea",
@@ -6098,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "foption",
           "package": "MFlow",
@@ -6107,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "foption",
           "normalized": "String-\u003ea-\u003eBool-\u003ea",
@@ -6121,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "foption1",
           "package": "MFlow",
@@ -6130,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "foption1",
           "normalized": "String-\u003eBool-\u003ea",
@@ -6144,6 +6570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "formAction",
           "package": "MFlow",
@@ -6153,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "formAction",
           "normalized": "String-\u003ea-\u003ea",
@@ -6168,6 +6596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "fromStr",
           "package": "MFlow",
@@ -6177,6 +6606,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "fromStr",
           "normalized": "String-\u003ea",
@@ -6192,6 +6622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "fromStrNoEncode",
           "package": "MFlow",
@@ -6201,6 +6632,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "fromStrNoEncode",
           "normalized": "String-\u003ea",
@@ -6216,6 +6648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "fselect",
           "package": "MFlow",
@@ -6225,6 +6658,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "fselect",
           "normalized": "String-\u003ea-\u003ea",
@@ -6239,6 +6673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "ftag",
           "package": "MFlow",
@@ -6248,6 +6683,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "ftag",
           "normalized": "String-\u003ea-\u003ea",
@@ -6262,6 +6698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "ftextarea",
           "package": "MFlow",
@@ -6271,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "ftextarea",
           "normalized": "String-\u003eText-\u003ea",
@@ -6286,6 +6724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the checkboxes dinamically created by JavaScript within the view parameter\n see for example \u003ccode\u003eselectAutocomplete\u003c/code\u003e in \u003ca\u003eMFlow.Forms.Widgets\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "genCheckBoxes",
           "package": "MFlow",
@@ -6296,6 +6735,7 @@
         "index": {
           "description": "Read the checkboxes dinamically created by JavaScript within the view parameter see for example selectAutocomplete in MFlow.Forms.Widgets",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "genCheckBoxes",
           "normalized": "a-\u003eView a b CheckBoxes",
@@ -6335,6 +6775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a dropdown box with the two values (second (true) and third parameter(false))\n . With the value of the first parameter selected.                  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getBool",
           "package": "MFlow",
@@ -6345,6 +6786,7 @@
         "index": {
           "description": "Display dropdown box with the two values second true and third parameter false With the value of the first parameter selected",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getBool",
           "normalized": "Bool-\u003eString-\u003eString-\u003eView a b Bool",
@@ -6360,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getCheckBoxes",
           "package": "MFlow",
@@ -6369,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getCheckBoxes",
           "normalized": "View a b CheckBoxes-\u003eView a b[String]",
@@ -6385,6 +6829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a text box and return a Int (if the value entered is not an Int, fails the validation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getInt",
           "package": "MFlow",
@@ -6395,6 +6840,7 @@
         "index": {
           "description": "Display text box and return Int if the value entered is not an Int fails the validation",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getInt",
           "normalized": "Maybe Int-\u003eView a b Int",
@@ -6411,6 +6857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a text box and return an Integer (if the value entered is not an Integer, fails the validation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getInteger",
           "package": "MFlow",
@@ -6421,6 +6868,7 @@
         "index": {
           "description": "Display text box and return an Integer if the value entered is not an Integer fails the validation",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getInteger",
           "normalized": "Maybe Integer-\u003eView a b Integer",
@@ -6437,6 +6885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a multiline text box and return its content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getMultilineText",
           "package": "MFlow",
@@ -6447,6 +6896,7 @@
         "index": {
           "description": "Display multiline text box and return its content",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getMultilineText",
           "normalized": "Text-\u003eView a b Text",
@@ -6463,6 +6913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a password box \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getPassword",
           "package": "MFlow",
@@ -6473,6 +6924,7 @@
         "index": {
           "description": "Display password box",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getPassword",
           "package": "MFlow",
@@ -6487,6 +6939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencloses a set of Radio boxes. Return the option selected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getRadio",
           "package": "MFlow",
@@ -6497,6 +6950,7 @@
         "index": {
           "description": "encloses set of Radio boxes Return the option selected",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getRadio",
           "normalized": "[String-\u003eView a b(Radio c)]-\u003eView a b c",
@@ -6513,6 +6967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the value of a parameter from the environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getRawParam",
           "package": "MFlow",
@@ -6523,6 +6978,7 @@
         "index": {
           "description": "return the value of parameter from the environment",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getRawParam",
           "normalized": "String-\u003ea(Maybe b)",
@@ -6538,6 +6994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getRestParam",
           "package": "MFlow",
@@ -6547,6 +7004,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getRestParam",
           "package": "MFlow",
@@ -6561,6 +7019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a dropdown box with the options in the first parameter is optionally selected\n . It returns the selected option. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getSelect",
           "package": "MFlow",
@@ -6571,6 +7030,7 @@
         "index": {
           "description": "Display dropdown box with the options in the first parameter is optionally selected It returns the selected option",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getSelect",
           "normalized": "View a b(MFOption c)-\u003eView a b c",
@@ -6587,6 +7047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a text box and return a non empty String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getString",
           "package": "MFlow",
@@ -6597,6 +7058,7 @@
         "index": {
           "description": "Display text box and return non empty String",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getString",
           "normalized": "Maybe String-\u003eView a b String",
@@ -6612,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getTextBox",
           "package": "MFlow",
@@ -6621,6 +7084,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getTextBox",
           "normalized": "Maybe a-\u003eView b c a",
@@ -6637,6 +7101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery basic user authentication. The user is stored in a cookie.\n it looks for the cookie. If no cookie, it ask to the user for a \u003ccode\u003e\u003ca\u003euserRegister\u003c/a\u003e\u003c/code\u003eed\n user-password combination.\n The user-password combination is only asked if the user has not logged already\n otherwise, the stored username is returned.\n\u003c/p\u003e\u003cpre\u003egetUser mu form= ask $ userWidget mu form\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getUser",
           "package": "MFlow",
@@ -6647,6 +7112,7 @@
         "index": {
           "description": "Very basic user authentication The user is stored in cookie it looks for the cookie If no cookie it ask to the user for userRegister ed user-password combination The user-password combination is only asked if the user has not logged already otherwise the stored username is returned getUser mu form ask userWidget mu form",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getUser",
           "normalized": "Maybe String-\u003eView a IO(Maybe(UserStr,PasswdStr),Maybe String)-\u003eFlowM a IO String",
@@ -6663,6 +7129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf not logged, perform login. otherwise return the user\n\u003c/p\u003e\u003cpre\u003egetUserSimple= getUser Nothing userFormLine\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "getUserSimple",
           "package": "MFlow",
@@ -6673,6 +7140,7 @@
         "index": {
           "description": "If not logged perform login otherwise return the user getUserSimple getUser Nothing userFormLine",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "getUserSimple",
           "package": "MFlow",
@@ -6686,6 +7154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "inred",
           "package": "MFlow",
@@ -6695,6 +7164,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "inred",
           "normalized": "a-\u003ea",
@@ -6709,6 +7179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "installRequirements",
           "package": "MFlow",
@@ -6718,6 +7189,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "installRequirements",
           "normalized": "[a]-\u003eb c",
@@ -6734,6 +7206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWether the user is logged or is anonymous\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "isLogged",
           "package": "MFlow",
@@ -6744,6 +7217,7 @@
         "index": {
           "description": "Wether the user is logged or is anonymous",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "isLogged",
           "package": "MFlow",
@@ -6758,6 +7232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the user\n\u003c/p\u003e\u003cp\u003eIt is supposed that the user has been validated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "login",
           "package": "MFlow",
@@ -6768,6 +7243,7 @@
         "index": {
           "description": "change the user It is supposed that the user has been validated",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "login",
           "normalized": "String-\u003ea()",
@@ -6783,6 +7259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elogout. The user is reset to the \u003ccode\u003e\u003ca\u003eanonymous\u003c/a\u003e\u003c/code\u003e user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "logout",
           "package": "MFlow",
@@ -6793,6 +7270,7 @@
         "index": {
           "description": "logout The user is reset to the anonymous user",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "logout",
           "normalized": "a()",
@@ -6808,6 +7286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom a list of widgets, it return the validated ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "manyOf",
           "package": "MFlow",
@@ -6818,6 +7297,7 @@
         "index": {
           "description": "from list of widgets it return the validated ones",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "manyOf",
           "normalized": "[View a b c]-\u003eView a b[c]",
@@ -6834,6 +7314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty widget that return Nothing. May be used as \"empty boxes\" inside larger widgets.\n\u003c/p\u003e\u003cp\u003eIt returns a non valid value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "noWidget",
           "package": "MFlow",
@@ -6844,6 +7325,7 @@
         "index": {
           "description": "Empty widget that return Nothing May be used as empty boxes inside larger widgets It returns non valid value",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "noWidget",
           "package": "MFlow",
@@ -6857,6 +7339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "notValid",
           "package": "MFlow",
@@ -6866,6 +7349,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "notValid",
           "normalized": "a-\u003eView a b c",
@@ -6882,6 +7366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym of ask.\n\u003c/p\u003e\u003cp\u003eMaybe more appropiate for pages with long interactions with the user\n while the result has little importance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "page",
           "package": "MFlow",
@@ -6892,6 +7377,7 @@
         "index": {
           "description": "synonym of ask Maybe more appropiate for pages with long interactions with the user while the result has little importance",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "page",
           "normalized": "View a IO b-\u003eFlowM a IO b",
@@ -6906,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "pageFlow",
           "package": "MFlow",
@@ -6915,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "pageFlow",
           "normalized": "String-\u003eView a b c-\u003eView a b c",
@@ -6930,6 +7418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "resetButton",
           "package": "MFlow",
@@ -6939,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "resetButton",
           "normalized": "String-\u003eView a b()",
@@ -6955,6 +7445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eforces backtracking if the widget validates, because a previous page handle this widget response\n . This is useful for recurrent cached widgets that are present in multiple pages. For example\n in the case of menus or common options. The active elements of this widget must be cached with no timeout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "retry",
           "package": "MFlow",
@@ -6965,6 +7456,7 @@
         "index": {
           "description": "forces backtracking if the widget validates because previous page handle this widget response This is useful for recurrent cached widgets that are present in multiple pages For example in the case of menus or common options The active elements of this widget must be cached with no timeout",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "retry",
           "normalized": "View a b c-\u003eView a b()",
@@ -6980,6 +7472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the result if going forward\n\u003c/p\u003e\u003cp\u003eIf the process is backtraking, it does not validate,\n in order to continue the backtracking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "returnIfForward",
           "package": "MFlow",
@@ -6990,6 +7483,7 @@
         "index": {
           "description": "return the result if going forward If the process is backtraking it does not validate in order to continue the backtracking",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "returnIfForward",
           "normalized": "a-\u003eView b c a",
@@ -7006,6 +7500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen some user interface return some response to the server, but it is not produced by\n a form or a link, but for example by an script, \u003ccode\u003ereturning\u003c/code\u003e  convert this code into a\n widget.\n\u003c/p\u003e\u003cp\u003eAt runtime the parameter is read from the environment and validated.\n\u003c/p\u003e\u003cp\u003e. The parameter is the visualization code, that accept a serialization function that generate\n the server invocation string, used by the visualization to return the value by means\n of an script, usually.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "returning",
           "package": "MFlow",
@@ -7016,6 +7511,7 @@
         "index": {
           "description": "When some user interface return some response to the server but it is not produced by form or link but for example by an script returning convert this code into widget At runtime the parameter is read from the environment and validated The parameter is the visualization code that accept serialization function that generate the server invocation string used by the visualization to return the value by means of an script usually",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "returning",
           "normalized": "((a-\u003eString)-\u003eb)-\u003eView b c a",
@@ -7083,6 +7579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a text box and return the value entered if it is readable( Otherwise, fail the validation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "setCheckBox",
           "package": "MFlow",
@@ -7093,6 +7590,7 @@
         "index": {
           "description": "Display text box and return the value entered if it is readable Otherwise fail the validation",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "setCheckBox",
           "normalized": "Bool-\u003eString-\u003eView a b CheckBoxes",
@@ -7109,6 +7607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the option for getSelect. Options are concatenated with \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "setOption",
           "package": "MFlow",
@@ -7119,6 +7618,7 @@
         "index": {
           "description": "Set the option for getSelect Options are concatenated with",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "setOption",
           "normalized": "a-\u003eb-\u003eView b c(MFOption a)",
@@ -7135,6 +7635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplement a radio button\n the parameter is the name of the radio group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "setRadio",
           "package": "MFlow",
@@ -7145,6 +7646,7 @@
         "index": {
           "description": "Implement radio button the parameter is the name of the radio group",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "setRadio",
           "normalized": "a-\u003eString-\u003eView b c(Radio a)",
@@ -7161,6 +7663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplement a radio button that perform a submit when pressed.\n the parameter is the name of the radio group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "setRadioActive",
           "package": "MFlow",
@@ -7171,6 +7674,7 @@
         "index": {
           "description": "Implement radio button that perform submit when pressed the parameter is the name of the radio group",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "setRadioActive",
           "normalized": "a-\u003eString-\u003eView b c(Radio a)",
@@ -7187,6 +7691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the selected option for getSelect. Options are concatenated with \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "setSelectedOption",
           "package": "MFlow",
@@ -7197,6 +7702,7 @@
         "index": {
           "description": "Set the selected option for getSelect Options are concatenated with",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "setSelectedOption",
           "normalized": "a-\u003eb-\u003eView b c(MFOption a)",
@@ -7212,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "submitButton",
           "package": "MFlow",
@@ -7221,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "submitButton",
           "normalized": "String-\u003eView a b String",
@@ -7236,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "toByteString",
           "package": "MFlow",
@@ -7245,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "toByteString",
           "normalized": "a-\u003eByteString",
@@ -7260,6 +7770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "toHttpData",
           "package": "MFlow",
@@ -7269,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "toHttpData",
           "normalized": "a-\u003eHttpData",
@@ -7309,6 +7821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs an example of login/register validation form needed by \u003ccode\u003e\u003ca\u003euserWidget\u003c/a\u003e\u003c/code\u003e. In this case\n the form field appears in a single line. it shows, in sequence, entries for the username,\n password, a button for loging, a entry to repeat password necesary for registering\n and a button for registering.\n The user can build its own user login/validation forms by modifying this example\n\u003c/p\u003e\u003cpre\u003e userFormLine=\n     (User \u003c$\u003e getString (Just \"enter user\") \u003c*\u003e getPassword \u003c+\u003e submitButton \"login\")\n     \u003c+\u003e fromStr \"  password again\" +\u003e getPassword \u003c* submitButton \"register\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "userFormLine",
           "package": "MFlow",
@@ -7319,6 +7832,7 @@
         "index": {
           "description": "Is an example of login register validation form needed by userWidget In this case the form field appears in single line it shows in sequence entries for the username password button for loging entry to repeat password necesary for registering and button for registering The user can build its own user login validation forms by modifying this example userFormLine User getString Just enter user getPassword submitButton login fromStr password again getPassword submitButton register",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "userFormLine",
           "normalized": "View a b(Maybe(UserStr,PasswdStr),Maybe PasswdStr)",
@@ -7335,6 +7849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample of user/password form (no validation) to be used with \u003ccode\u003e\u003ca\u003euserWidget\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "userLogin",
           "package": "MFlow",
@@ -7345,6 +7860,7 @@
         "index": {
           "description": "Example of user password form no validation to be used with userWidget",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "userLogin",
           "normalized": "View a b(Maybe(UserStr,PasswdStr),Maybe String)",
@@ -7360,6 +7876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "userName",
           "package": "MFlow",
@@ -7369,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "userName",
           "normalized": "User-\u003eString",
@@ -7410,6 +7928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentication against \u003ccode\u003e\u003ca\u003euserRegister\u003c/a\u003e\u003c/code\u003eed users.\n to be used with \u003ccode\u003e\u003ca\u003evalidate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "userValidate",
           "package": "MFlow",
@@ -7420,6 +7939,7 @@
         "index": {
           "description": "Authentication against userRegister ed users to be used with validate",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "userValidate",
           "normalized": "(UserStr,PasswdStr)-\u003ea(Maybe b)",
@@ -7436,6 +7956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt creates a widget for user login/registering. If a user name is specified\n in the first parameter, it is forced to login/password as this specific user.\n If this user was already logged, the widget return the user without asking.\n If the user press the register button, the new user-password is registered and the\n user logged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "userWidget",
           "package": "MFlow",
@@ -7446,6 +7967,7 @@
         "index": {
           "description": "It creates widget for user login registering If user name is specified in the first parameter it is forced to login password as this specific user If this user was already logged the widget return the user without asking If the user press the register button the new user-password is registered and the user logged",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "userWidget",
           "normalized": "Maybe String-\u003eView a b(Maybe(UserStr,PasswdStr),Maybe String)-\u003eView a b String",
@@ -7486,6 +8008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidates a form or widget result against a validating procedure\n\u003c/p\u003e\u003cpre\u003egetOdd= getInt Nothing \u003ccode\u003e\u003ca\u003evalidate\u003c/a\u003e\u003c/code\u003e (x -\u003e return $ if mod x 2==0 then  Nothing else Just \u003ca\u003eonly odd numbers, please\u003c/a\u003e)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "validate",
           "package": "MFlow",
@@ -7496,6 +8019,7 @@
         "index": {
           "description": "Validates form or widget result against validating procedure getOdd getInt Nothing validate return if mod then Nothing else Just only odd numbers please",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "validate",
           "normalized": "View a b c-\u003e(c-\u003eWState a b(Maybe a))-\u003eView a b c",
@@ -7511,6 +8035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActions are callbacks that are executed when a widget is validated.\n A action may be a complete flow in the flowM monad. It takes complete control of the navigation\n while it is executed. At the end it return the result to the caller and display the original\n calling page.\n It is useful when the widget is inside widget containers that may treat it as a black box.\n\u003c/p\u003e\u003cp\u003eIt returns a result  that can be significative or, else, be ignored with \u003ccode\u003e\u003ca\u003e\u003c**\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e**\u003e\u003c/a\u003e\u003c/code\u003e.\n An action may or may not initiate his own dialog with the user via \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "waction",
           "package": "MFlow",
@@ -7521,6 +8046,7 @@
         "index": {
           "description": "Actions are callbacks that are executed when widget is validated action may be complete flow in the flowM monad It takes complete control of the navigation while it is executed At the end it return the result to the caller and display the original calling page It is useful when the widget is inside widget containers that may treat it as black box It returns result that can be significative or else be ignored with and An action may or may not initiate his own dialog with the user via ask",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "waction",
           "normalized": "View a b c-\u003e(c-\u003eFlowM a b d)-\u003eView a b d",
@@ -7536,6 +8062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a widget with form element within a form-action element.\n Usually this is not necessary since this wrapping is done automatically by the \u003ccode\u003eWiew\u003c/code\u003e monad, unless\n there are more than one form in the page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "wform",
           "package": "MFlow",
@@ -7546,6 +8073,7 @@
         "index": {
           "description": "Wrap widget with form element within form-action element Usually this is not necessary since this wrapping is done automatically by the Wiew monad unless there are more than one form in the page",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "wform",
           "normalized": "View a b c-\u003eView a b c",
@@ -7560,6 +8088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "whidden",
           "package": "MFlow",
@@ -7569,6 +8098,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "whidden",
           "normalized": "a-\u003eView b c a",
@@ -7583,6 +8113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "wlabel",
           "package": "MFlow",
@@ -7592,6 +8123,7 @@
         },
         "index": {
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "wlabel",
           "normalized": "a-\u003eView a b c-\u003eView a b c",
@@ -7607,6 +8139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a link wiget. A link can be composed with other widget elements,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "wlink",
           "package": "MFlow",
@@ -7617,6 +8150,7 @@
         "index": {
           "description": "Creates link wiget link can be composed with other widget elements",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "wlink",
           "normalized": "a-\u003eb-\u003eView b c a",
@@ -7632,6 +8166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the rendering and the return value of a page. This is superseeded by page flows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "wmodify",
           "package": "MFlow",
@@ -7642,6 +8177,7 @@
         "index": {
           "description": "change the rendering and the return value of page This is superseeded by page flows",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "wmodify",
           "normalized": "View a b c-\u003e([a]-\u003eMaybe c-\u003eWState a b([a],Maybe d))-\u003eView a b d",
@@ -7657,6 +8193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender raw view formatting. It is useful for displaying information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "wraw",
           "package": "MFlow",
@@ -7667,6 +8204,7 @@
         "index": {
           "description": "Render raw view formatting It is useful for displaying information",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "wraw",
           "normalized": "a-\u003eView a b()",
@@ -7682,6 +8220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a Show-able  value and return it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "wrender",
           "package": "MFlow",
@@ -7692,6 +8231,7 @@
         "index": {
           "description": "Render Show-able value and return it",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "wrender",
           "normalized": "a-\u003eView b c a",
@@ -7707,6 +8247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a stateless flow (see \u003ccode\u003e\u003ca\u003estateless\u003c/a\u003e\u003c/code\u003e) whose behaviour is defined as a widget. It is a\n higuer level form of the latter \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Forms",
           "name": "wstateless",
           "package": "MFlow",
@@ -7717,6 +8258,7 @@
         "index": {
           "description": "Creates stateless flow see stateless whose behaviour is defined as widget It is higuer level form of the latter",
           "hierarchy": "MFlow Forms",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Forms",
           "name": "wstateless",
           "normalized": "View a IO()-\u003eFlow",
@@ -7731,6 +8273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Wai.Blaze.Html.All",
           "name": "All",
           "package": "MFlow",
@@ -7739,6 +8282,7 @@
         },
         "index": {
           "hierarchy": "MFlow Wai Blaze Html All",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Wai.Blaze.Html.All",
           "name": "All",
           "package": "MFlow",
@@ -7753,6 +8297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a persistent flow. It uses \u003ccode\u003egetPort\u003c/code\u003e to get the port\n The first parameter is the first element in the URL path.\n It also set the home page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Wai.Blaze.Html.All",
           "name": "runNavigation",
           "package": "MFlow",
@@ -7763,6 +8308,7 @@
         "index": {
           "description": "run persistent flow It uses getPort to get the port The first parameter is the first element in the URL path It also set the home page",
           "hierarchy": "MFlow Wai Blaze Html All",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Wai.Blaze.Html.All",
           "name": "runNavigation",
           "normalized": "String-\u003eFlowM Html(Workflow IO)()-\u003eIO Bool",
@@ -7778,6 +8324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Wai.XHtml.All",
           "name": "All",
           "package": "MFlow",
@@ -7786,6 +8333,7 @@
         },
         "index": {
           "hierarchy": "MFlow Wai XHtml All",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Wai.XHtml.All",
           "name": "All",
           "package": "MFlow",
@@ -7799,6 +8347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Wai",
           "name": "Wai",
           "package": "MFlow",
@@ -7807,6 +8356,7 @@
         },
         "index": {
           "hierarchy": "MFlow Wai",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Wai",
           "name": "Wai",
           "package": "MFlow",
@@ -7820,6 +8370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow.Wai",
           "name": "waiMessageFlow",
           "package": "MFlow",
@@ -7829,6 +8380,7 @@
         },
         "index": {
           "hierarchy": "MFlow Wai",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow.Wai",
           "name": "waiMessageFlow",
           "package": "MFlow",
@@ -7843,6 +8395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNon monadic low level primitives that implement the MFlow application server.\nSee \u003ca\u003eMFlow.Form\u003c/a\u003e for the higher level interface that you may use.\n\u003c/p\u003e\u003cp\u003eit implements an scheduler of  \u003ccode\u003e\u003ca\u003eProcessable\u003c/a\u003e\u003c/code\u003e  messages that are served according with\nthe source identification and the verb invoked.\nThe scheduler executed the appropriate workflow (using the workflow package).\nThe workflow will send additional messages to the source and wait for the responses.\nThe diaglog is identified by a \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e, which is associated to the flow.\n. The computation state is optionally logged. On timeout, the process is killed. When invoked again,\nthe execution state is recovered as if no interruption took place.\n\u003c/p\u003e\u003cp\u003eThere is no asumption about message codification, so instantiations\nof this scheduler for different infrastructures is possible,\nincluding non-Web based ones as long as they support or emulate cookies.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eMFlow.Hack\u003c/a\u003e is an instantiation for the Hack interface in a Web context.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eMFlow.Wai\u003c/a\u003e is a instantiation for the WAI interface.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eMFlow.Forms\u003c/a\u003e implements a monadic type safe interface with composabe widgets and and applicative\ncombinator as well as an higher comunication interface.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eMFlow.Forms.XHtml\u003c/a\u003e is an instantiation for the Text.XHtml format\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eMFlow.Forms.Blaze.Html\u003c/a\u003e is an instantaiation for  blaze-html\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eMFlow.Forms.HSP\u003c/a\u003e  is an instantiation for the Haskell Server Pages  format\n\u003c/p\u003e\u003cp\u003eThere are some \u003ccode\u003e*.All\u003c/code\u003e packages that contain a mix of these instantiations.\nFor exmaple, \u003ca\u003eMFlow.Wai.Blaze.Html.All\u003c/a\u003e includes most of all necessary for using MFlow with\nWai \u003ca\u003ehttp://hackage.haskell.org/package/wai\u003c/a\u003e and\nBlaze-html \u003ca\u003ehttp://hackage.haskell.org/package/blaze-html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIn order to manage resources, there are primitives that kill the process and its state after a timeout.\n\u003c/p\u003e\u003cp\u003eAll these details are hidden in the monad of \u003ca\u003eMFlow.Forms\u003c/a\u003e that provides an higher level interface.\n\u003c/p\u003e\u003cp\u003eFragment based streaming: \u003ccode\u003e\u003ca\u003esendFragment\u003c/a\u003e\u003c/code\u003e  are  provided only at this level.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003estateless\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etransient\u003c/a\u003e\u003c/code\u003e server processeses are also possible. the first are request-response\n . \u003ccode\u003e\u003ca\u003etransient\u003c/a\u003e\u003c/code\u003e processes do not persist after timeout, so they restart anew after a timeout or a crash.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "MFlow",
           "package": "MFlow",
@@ -7852,6 +8405,7 @@
         "index": {
           "description": "Non monadic low level primitives that implement the MFlow application server See MFlow.Form for the higher level interface that you may use it implements an scheduler of Processable messages that are served according with the source identification and the verb invoked The scheduler executed the appropriate workflow using the workflow package The workflow will send additional messages to the source and wait for the responses The diaglog is identified by Token which is associated to the flow The computation state is optionally logged On timeout the process is killed When invoked again the execution state is recovered as if no interruption took place There is no asumption about message codification so instantiations of this scheduler for different infrastructures is possible including non-Web based ones as long as they support or emulate cookies MFlow.Hack is an instantiation for the Hack interface in Web context MFlow.Wai is instantiation for the WAI interface MFlow.Forms implements monadic type safe interface with composabe widgets and and applicative combinator as well as an higher comunication interface MFlow.Forms.XHtml is an instantiation for the Text.XHtml format MFlow.Forms.Blaze.Html is an instantaiation for blaze-html MFlow.Forms.HSP is an instantiation for the Haskell Server Pages format There are some All packages that contain mix of these instantiations For exmaple MFlow.Wai.Blaze.Html.All includes most of all necessary for using MFlow with Wai http hackage.haskell.org package wai and Blaze-html http hackage.haskell.org package blaze-html In order to manage resources there are primitives that kill the process and its state after timeout All these details are hidden in the monad of MFlow.Forms that provides an higher level interface Fragment based streaming sendFragment are provided only at this level stateless and transient server processeses are also possible the first are request-response transient processes do not persist after timeout so they restart anew after timeout or crash",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "MFlow",
           "package": "MFlow",
@@ -7865,6 +8419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "Attribs",
           "package": "MFlow",
@@ -7873,6 +8428,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "Attribs",
           "package": "MFlow",
@@ -7886,6 +8442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "Auth",
           "package": "MFlow",
@@ -7894,6 +8451,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "Auth",
           "package": "MFlow",
@@ -7907,6 +8465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "Flow",
           "package": "MFlow",
@@ -7915,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "Flow",
           "package": "MFlow",
@@ -7928,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "HttpData",
           "package": "MFlow",
@@ -7936,6 +8497,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "HttpData",
           "package": "MFlow",
@@ -7949,6 +8511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "Params",
           "package": "MFlow",
@@ -7957,6 +8520,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "Params",
           "package": "MFlow",
@@ -7970,6 +8534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "PasswdStr",
           "package": "MFlow",
@@ -7978,6 +8543,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "PasswdStr",
           "package": "MFlow",
@@ -7992,6 +8558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of (wfname, workflow) pairs, to be scheduled depending on the message's pwfname\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "ProcList",
           "package": "MFlow",
@@ -8001,6 +8568,7 @@
         "index": {
           "description": "List of wfname workflow pairs to be scheduled depending on the message pwfname",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "ProcList",
           "package": "MFlow",
@@ -8014,6 +8582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "Processable",
           "package": "MFlow",
@@ -8022,6 +8591,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "Processable",
           "package": "MFlow",
@@ -8036,6 +8606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea Token identifies a flow that handle messages. The scheduler compose a Token with every \u003ccode\u003e\u003ca\u003eProcessable\u003c/a\u003e\u003c/code\u003e\n message that arrives and send the mesage to the appropriate flow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "Token",
           "package": "MFlow",
@@ -8045,6 +8616,7 @@
         "index": {
           "description": "Token identifies flow that handle messages The scheduler compose Token with every Processable message that arrives and send the mesage to the appropriate flow",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "Token",
           "package": "MFlow",
@@ -8058,6 +8630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "User",
           "package": "MFlow",
@@ -8066,6 +8639,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "User",
           "package": "MFlow",
@@ -8079,6 +8653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "UserStr",
           "package": "MFlow",
@@ -8087,6 +8662,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "UserStr",
           "package": "MFlow",
@@ -8100,6 +8676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "Error",
           "package": "MFlow",
@@ -8109,6 +8686,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "Error",
           "package": "MFlow",
@@ -8122,6 +8700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "HttpData",
           "package": "MFlow",
@@ -8131,6 +8710,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "HttpData",
           "normalized": "HttpData[(ByteString,ByteString)][Cookie]ByteString",
@@ -8146,6 +8726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "Token",
           "package": "MFlow",
@@ -8155,6 +8736,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "Token",
           "package": "MFlow",
@@ -8168,6 +8750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "User",
           "package": "MFlow",
@@ -8177,6 +8760,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "User",
           "package": "MFlow",
@@ -8190,6 +8774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "addAttrs",
           "package": "MFlow",
@@ -8199,6 +8784,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "addAttrs",
           "normalized": "ByteString-\u003eAttribs-\u003eByteString",
@@ -8215,6 +8801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a list of flows to be scheduled. Each entry in the list is a pair \u003ccode\u003e(path, flow)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "addMessageFlows",
           "package": "MFlow",
@@ -8225,6 +8812,7 @@
         "index": {
           "description": "add list of flows to be scheduled Each entry in the list is pair path flow",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "addMessageFlows",
           "normalized": "[([Char],Token-\u003eWorkflow IO())]-\u003eIO()",
@@ -8240,6 +8828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "addTokenToList",
           "package": "MFlow",
@@ -8249,6 +8838,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "addTokenToList",
           "normalized": "Token-\u003eIO()",
@@ -8265,6 +8855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe anonymous user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "anonymous",
           "package": "MFlow",
@@ -8275,6 +8866,7 @@
         "index": {
           "description": "The anonymous user",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "anonymous",
           "normalized": "[Char]",
@@ -8289,6 +8881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "delMessageFlow",
           "package": "MFlow",
@@ -8298,6 +8891,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "delMessageFlow",
           "normalized": "String-\u003eIO()",
@@ -8313,6 +8907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "deleteTokenInList",
           "package": "MFlow",
@@ -8322,6 +8917,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "deleteTokenInList",
           "normalized": "Token-\u003eIO()",
@@ -8337,6 +8933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "eUser",
           "package": "MFlow",
@@ -8346,6 +8943,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "eUser",
           "package": "MFlow",
@@ -8359,6 +8957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "flushRec",
           "package": "MFlow",
@@ -8368,6 +8967,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "flushRec",
           "normalized": "Token-\u003eIO()",
@@ -8383,6 +8983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "getAuthMethod",
           "package": "MFlow",
@@ -8392,6 +8993,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "getAuthMethod",
           "package": "MFlow",
@@ -8406,6 +9008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the list of the scheduler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "getMessageFlows",
           "package": "MFlow",
@@ -8416,6 +9019,7 @@
         "index": {
           "description": "return the list of the scheduler",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "getMessageFlows",
           "normalized": "IO(WorkflowList IO Token())",
@@ -8431,6 +9035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "getNotFoundResponse",
           "package": "MFlow",
@@ -8440,6 +9045,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "getNotFoundResponse",
           "normalized": "IO(Bool-\u003e[Char]-\u003eByteString)",
@@ -8455,6 +9061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "getParams",
           "package": "MFlow",
@@ -8464,6 +9071,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "getParams",
           "normalized": "a-\u003eParams",
@@ -8480,6 +9088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe handler of the error log\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "hlog",
           "package": "MFlow",
@@ -8490,6 +9099,7 @@
         "index": {
           "description": "The handler of the error log",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "hlog",
           "package": "MFlow",
@@ -8503,6 +9113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe scheduler creates a Token with every \u003ccode\u003e\u003ca\u003eProcessable\u003c/a\u003e\u003c/code\u003e\n message that arrives and send the mesage to the appropriate flow, then waht for the response\n and return it.\n\u003c/p\u003e\u003cp\u003eIt is the core of the application server. \u003ca\u003eMFLow.Wai\u003c/a\u003e and \u003ca\u003eMFlow.Hack\u003c/a\u003e use it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "msgScheduler",
           "package": "MFlow",
@@ -8513,6 +9124,7 @@
         "index": {
           "description": "The scheduler creates Token with every Processable message that arrives and send the mesage to the appropriate flow then waht for the response and return it It is the core of the application server MFLow.Wai and MFlow.Hack use it",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "msgScheduler",
           "normalized": "a-\u003eIO(HttpData,ThreadId)",
@@ -8528,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "newFlow",
           "package": "MFlow",
@@ -8537,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "newFlow",
           "package": "MFlow",
@@ -8550,6 +9164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "noScript",
           "package": "MFlow",
@@ -8559,6 +9174,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "noScript",
           "normalized": "[Char]",
@@ -8574,6 +9190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "pind",
           "package": "MFlow",
@@ -8583,6 +9200,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "pind",
           "normalized": "a-\u003eString",
@@ -8597,6 +9215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "puser",
           "package": "MFlow",
@@ -8606,6 +9225,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "puser",
           "normalized": "a-\u003eString",
@@ -8620,6 +9240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "pwfPath",
           "package": "MFlow",
@@ -8629,6 +9250,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "pwfPath",
           "normalized": "a-\u003e[String]",
@@ -8644,6 +9266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "pwfname",
           "package": "MFlow",
@@ -8653,6 +9276,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "pwfname",
           "normalized": "a-\u003eString",
@@ -8667,6 +9291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "receive",
           "package": "MFlow",
@@ -8676,6 +9301,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "receive",
           "normalized": "Token-\u003eIO a",
@@ -8690,6 +9316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "receiveReq",
           "package": "MFlow",
@@ -8699,6 +9326,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "receiveReq",
           "normalized": "Token-\u003eIO Req",
@@ -8714,6 +9342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "receiveReqTimeout",
           "package": "MFlow",
@@ -8723,6 +9352,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "receiveReqTimeout",
           "normalized": "Int-\u003eInteger-\u003eToken-\u003eIO Req",
@@ -8739,6 +9369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend a complete response \nsend ::   Token  -\u003e HttpData -\u003e IO()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "send",
           "package": "MFlow",
@@ -8749,6 +9380,7 @@
         "index": {
           "description": "send complete response send Token HttpData IO",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "send",
           "normalized": "Token-\u003eHttpData-\u003eIO()",
@@ -8764,6 +9396,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use \u003ca\u003esend\u003c/a\u003e to end a fragmented response instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "sendEndFragment",
           "package": "MFlow",
@@ -8774,6 +9407,7 @@
         "index": {
           "description": "Deprecated use send to end fragmented response instead",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "sendEndFragment",
           "normalized": "Token-\u003eHttpData-\u003eIO()",
@@ -8789,6 +9423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "sendFlush",
           "package": "MFlow",
@@ -8798,6 +9433,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "sendFlush",
           "normalized": "Token-\u003eHttpData-\u003eIO()",
@@ -8814,6 +9450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend a response fragment. Useful for streaming. the last packet must sent trough \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "sendFragment",
           "package": "MFlow",
@@ -8824,6 +9461,7 @@
         "index": {
           "description": "send response fragment Useful for streaming the last packet must sent trough send",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "sendFragment",
           "normalized": "Token-\u003eHttpData-\u003eIO()",
@@ -8839,6 +9477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "sendToMF",
           "package": "MFlow",
@@ -8848,6 +9487,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "sendToMF",
           "normalized": "Token-\u003ea-\u003eIO()",
@@ -8863,6 +9503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "serveFile",
           "package": "MFlow",
@@ -8872,6 +9513,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "serveFile",
           "normalized": "[Char]-\u003eIO HttpData",
@@ -8888,6 +9530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the path of the files in the web server. The links to the files are relative to it.\n The files are cached (memoized) according with the \u003ca\u003eData.TCache\u003c/a\u003e policies in the program space. This avoid the blocking of\n the efficient GHC threads by frequent IO calls.So it enhances the performance\n in the context of heavy concurrence.\n It uses \u003ccode\u003e\u003ca\u003eMemoization\u003c/a\u003e\u003c/code\u003e. \n The caching-uncaching follows the \u003ccode\u003e\u003ca\u003esetPersist\u003c/a\u003e\u003c/code\u003e criteria\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "setFilesPath",
           "package": "MFlow",
@@ -8898,6 +9541,7 @@
         "index": {
           "description": "Set the path of the files in the web server The links to the files are relative to it The files are cached memoized according with the Data.TCache policies in the program space This avoid the blocking of the efficient GHC threads by frequent IO calls.So it enhances the performance in the context of heavy concurrence It uses Memoization The caching-uncaching follows the setPersist criteria",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "setFilesPath",
           "normalized": "String-\u003ea()",
@@ -8914,6 +9558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the flow to be executed when the URL has no path. The home page.\n\u003c/p\u003e\u003cp\u003eBy default it is \u003ca\u003enoscript\u003c/a\u003e.\n Although it is changed by \u003ccode\u003erunNavigation\u003c/code\u003e to his own flow name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "setNoScript",
           "package": "MFlow",
@@ -8924,6 +9569,7 @@
         "index": {
           "description": "set the flow to be executed when the URL has no path The home page By default it is noscript Although it is changed by runNavigation to his own flow name",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "setNoScript",
           "normalized": "[Char]-\u003eIO()",
@@ -8940,6 +9586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the  404 \u003ca\u003enot found\u003c/a\u003e response.\n\u003c/p\u003e\u003cp\u003eThe parameter is as follows:\n    (Bool        Either if the user is Administrator or not\n  -\u003e String      The error string\n  -\u003e HttpData)   The response. See \u003ccode\u003edefNotFoundResponse\u003c/code\u003e code for an example\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "setNotFoundResponse",
           "package": "MFlow",
@@ -8950,6 +9597,7 @@
         "index": {
           "description": "set the not found response The parameter is as follows Bool Either if the user is Administrator or not String The error string HttpData The response See defNotFoundResponse code for an example",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "setNotFoundResponse",
           "normalized": "(Bool-\u003eString-\u003eByteString)-\u003eIO()",
@@ -8966,6 +9614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecutes a simple request-response computation that receive the params and return a response\n\u003c/p\u003e\u003cp\u003eIt is used with \u003ccode\u003e\u003ca\u003eaddMessageFlows\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThere is a higuer level version \u003ccode\u003ewstateless\u003c/code\u003e in \u003ca\u003eMFLow.Forms\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "stateless",
           "package": "MFlow",
@@ -8976,6 +9625,7 @@
         "index": {
           "description": "executes simple request-response computation that receive the params and return response It is used with addMessageFlows There is higuer level version wstateless in MFLow.Forms",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "stateless",
           "normalized": "(Params-\u003eIO HttpData)-\u003eFlow",
@@ -8990,6 +9640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "tenv",
           "package": "MFlow",
@@ -8999,6 +9650,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "tenv",
           "package": "MFlow",
@@ -9011,6 +9663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "tind",
           "package": "MFlow",
@@ -9020,6 +9673,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "tind",
           "package": "MFlow",
@@ -9032,6 +9686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "tpath",
           "package": "MFlow",
@@ -9041,6 +9696,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "tpath",
           "normalized": "[String]",
@@ -9056,6 +9712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a monadic computation that send and receive messages, but does\n not store its state in permanent storage. The process once stopped, will restart anew \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "transient",
           "package": "MFlow",
@@ -9066,6 +9723,7 @@
         "index": {
           "description": "Executes monadic computation that send and receive messages but does not store its state in permanent storage The process once stopped will restart anew",
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "transient",
           "normalized": "(Token-\u003eIO())-\u003eFlow",
@@ -9080,6 +9738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "trecq",
           "package": "MFlow",
@@ -9089,6 +9748,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "trecq",
           "package": "MFlow",
@@ -9101,6 +9761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "tsendq",
           "package": "MFlow",
@@ -9110,6 +9771,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "tsendq",
           "package": "MFlow",
@@ -9122,6 +9784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "tuser",
           "package": "MFlow",
@@ -9131,6 +9794,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "tuser",
           "package": "MFlow",
@@ -9143,6 +9807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "twfname",
           "package": "MFlow",
@@ -9152,6 +9817,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "twfname",
           "package": "MFlow",
@@ -9164,6 +9830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "upassword",
           "package": "MFlow",
@@ -9173,6 +9840,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "upassword",
           "package": "MFlow",
@@ -9185,6 +9853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:17 UTC 2014",
           "module": "MFlow",
           "name": "userName",
           "package": "MFlow",
@@ -9194,6 +9863,7 @@
         },
         "index": {
           "hierarchy": "MFlow",
+          "indexed": "2014-03-11T16:52:17",
           "module": "MFlow",
           "name": "userName",
           "package": "MFlow",

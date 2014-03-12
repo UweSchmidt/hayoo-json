@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unix"
+        "phrase": "unix",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal stuff: support for ByteString FilePaths\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "FilePath",
           "package": "unix",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internal stuff support for ByteString FilePaths",
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "FilePath",
           "package": "unix",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal POSIX file path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "RawFilePath",
           "package": "unix",
@@ -51,6 +54,7 @@
         "index": {
           "description": "literal POSIX file path",
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "RawFilePath",
           "package": "unix",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "peekFilePath",
           "package": "unix",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "peekFilePath",
           "normalized": "CString-\u003eIO RawFilePath",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "peekFilePathLen",
           "package": "unix",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "peekFilePathLen",
           "normalized": "CStringLen-\u003eIO RawFilePath",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrno\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPath",
           "package": "unix",
@@ -123,6 +132,7 @@
         "index": {
           "description": "as throwErrno but exceptions include the given path when appropriate",
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPath",
           "normalized": "String-\u003eRawFilePath-\u003eIO a",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIf\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIf",
           "package": "unix",
@@ -149,6 +160,7 @@
         "index": {
           "description": "as throwErrnoIf but exceptions include the given path when appropriate",
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIf",
           "normalized": "(a-\u003eBool)-\u003eString-\u003eRawFilePath-\u003eIO a-\u003eIO a",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIfMinus1\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfMinus1",
           "package": "unix",
@@ -175,6 +188,7 @@
         "index": {
           "description": "as throwErrnoIfMinus1 but exceptions include the given path when appropriate",
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfMinus1",
           "normalized": "String-\u003eRawFilePath-\u003eIO a-\u003eIO a",
@@ -190,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfMinus1Retry",
           "package": "unix",
@@ -199,6 +214,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfMinus1Retry",
           "normalized": "String-\u003eRawFilePath-\u003eIO a-\u003eIO a",
@@ -214,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfMinus1Retry_",
           "package": "unix",
@@ -223,6 +240,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfMinus1Retry_",
           "normalized": "String-\u003eRawFilePath-\u003eIO a-\u003eIO()",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIfMinus1_\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfMinus1_",
           "package": "unix",
@@ -249,6 +268,7 @@
         "index": {
           "description": "as throwErrnoIfMinus1 but exceptions include the given path when appropriate",
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfMinus1_",
           "normalized": "String-\u003eRawFilePath-\u003eIO a-\u003eIO()",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIfNull\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfNull",
           "package": "unix",
@@ -275,6 +296,7 @@
         "index": {
           "description": "as throwErrnoIfNull but exceptions include the given path when appropriate",
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfNull",
           "normalized": "String-\u003eRawFilePath-\u003eIO(Ptr a)-\u003eIO(Ptr a)",
@@ -290,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfNullRetry",
           "package": "unix",
@@ -299,6 +322,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfNullRetry",
           "normalized": "String-\u003eRawFilePath-\u003eIO(Ptr a)-\u003eIO(Ptr a)",
@@ -314,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfRetry",
           "package": "unix",
@@ -323,6 +348,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIfRetry",
           "normalized": "(a-\u003eBool)-\u003eString-\u003eRawFilePath-\u003eIO a-\u003eIO a",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIf_\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIf_",
           "package": "unix",
@@ -349,6 +376,7 @@
         "index": {
           "description": "as throwErrnoIf but exceptions include the given path when appropriate",
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "throwErrnoPathIf_",
           "normalized": "(a-\u003eBool)-\u003eString-\u003eRawFilePath-\u003eIO a-\u003eIO()",
@@ -364,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString.FilePath",
           "name": "withFilePath",
           "package": "unix",
@@ -373,6 +402,7 @@
         },
         "index": {
           "hierarchy": "System Posix ByteString FilePath",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString.FilePath",
           "name": "withFilePath",
           "normalized": "RawFilePath-\u003e(CString-\u003eIO a)-\u003eIO a",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX support with ByteString file paths and environment strings.\n\u003c/p\u003e\u003cp\u003eThis module exports exactly the same API as \u003ca\u003eSystem.Posix\u003c/a\u003e, except\n that all file paths and environment strings are represented by\n \u003ccode\u003eByteString\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.  The \u003ca\u003eSystem.Posix\u003c/a\u003e API\n implicitly translates all file paths and environment strings using\n the locale encoding, whereas this version of the API does no\n encoding or decoding and works directly in terms of raw bytes.\n\u003c/p\u003e\u003cp\u003eNote that if you do need to interpret file paths or environment\n strings as text, then some Unicode encoding or decoding should be\n applied first.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -398,6 +429,7 @@
         "index": {
           "description": "POSIX support with ByteString file paths and environment strings This module exports exactly the same API as System.Posix except that all file paths and environment strings are represented by ByteString instead of String The System.Posix API implicitly translates all file paths and environment strings using the locale encoding whereas this version of the API does no encoding or decoding and works directly in terms of raw bytes Note that if you do need to interpret file paths or environment strings as text then some Unicode encoding or decoding should be applied first",
           "hierarchy": "System Posix ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal POSIX file path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.ByteString",
           "name": "RawFilePath",
           "package": "unix",
@@ -421,6 +454,7 @@
         "index": {
           "description": "literal POSIX file path",
           "hierarchy": "System Posix ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.ByteString",
           "name": "RawFilePath",
           "package": "unix",
@@ -435,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eString-based POSIX directory support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -444,6 +479,7 @@
         "index": {
           "description": "String-based POSIX directory support",
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -457,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "DirStream",
           "package": "unix",
@@ -465,6 +502,7 @@
         },
         "index": {
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "DirStream",
           "package": "unix",
@@ -478,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "DirStreamOffset",
           "package": "unix",
@@ -486,6 +525,7 @@
         },
         "index": {
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "DirStreamOffset",
           "package": "unix",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echangeWorkingDirectory dir\u003c/code\u003e calls \u003ccode\u003echdir\u003c/code\u003e to change\n   the current working directory to \u003ccode\u003edir\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "changeWorkingDirectory",
           "package": "unix",
@@ -510,6 +551,7 @@
         "index": {
           "description": "changeWorkingDirectory dir calls chdir to change the current working directory to dir",
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "changeWorkingDirectory",
           "normalized": "RawFilePath-\u003eIO()",
@@ -578,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateDirectory dir mode\u003c/code\u003e calls \u003ccode\u003emkdir\u003c/code\u003e to\n   create a new directory, \u003ccode\u003edir\u003c/code\u003e, with permissions based on\n  \u003ccode\u003emode\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "createDirectory",
           "package": "unix",
@@ -588,6 +631,7 @@
         "index": {
           "description": "createDirectory dir mode calls mkdir to create new directory dir with permissions based on mode",
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "createDirectory",
           "normalized": "RawFilePath-\u003eFileMode-\u003eIO()",
@@ -604,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetWorkingDirectory\u003c/code\u003e calls \u003ccode\u003egetcwd\u003c/code\u003e to obtain the name\n   of the current working directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "getWorkingDirectory",
           "package": "unix",
@@ -614,6 +659,7 @@
         "index": {
           "description": "getWorkingDirectory calls getcwd to obtain the name of the current working directory",
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "getWorkingDirectory",
           "package": "unix",
@@ -628,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenDirStream dir\u003c/code\u003e calls \u003ccode\u003eopendir\u003c/code\u003e to obtain a\n   directory stream for \u003ccode\u003edir\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "openDirStream",
           "package": "unix",
@@ -638,6 +685,7 @@
         "index": {
           "description": "openDirStream dir calls opendir to obtain directory stream for dir",
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "openDirStream",
           "normalized": "RawFilePath-\u003eIO DirStream",
@@ -654,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereadDirStream dp\u003c/code\u003e calls \u003ccode\u003ereaddir\u003c/code\u003e to obtain the\n   next directory entry (\u003ccode\u003estruct dirent\u003c/code\u003e) for the open directory\n   stream \u003ccode\u003edp\u003c/code\u003e, and returns the \u003ccode\u003ed_name\u003c/code\u003e member of that\n  structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "readDirStream",
           "package": "unix",
@@ -664,6 +713,7 @@
         "index": {
           "description": "readDirStream dp calls readdir to obtain the next directory entry struct dirent for the open directory stream dp and returns the name member of that structure",
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "readDirStream",
           "normalized": "DirStream-\u003eIO RawFilePath",
@@ -679,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory.ByteString",
           "name": "removeDirectory",
           "package": "unix",
@@ -688,6 +739,7 @@
         },
         "index": {
           "hierarchy": "System Posix Directory ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory.ByteString",
           "name": "removeDirectory",
           "normalized": "RawFilePath-\u003eIO()",
@@ -781,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eString-based POSIX directory support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "Directory",
           "package": "unix",
@@ -790,6 +843,7 @@
         "index": {
           "description": "String-based POSIX directory support",
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "Directory",
           "package": "unix",
@@ -803,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "DirStream",
           "package": "unix",
@@ -811,6 +866,7 @@
         },
         "index": {
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "DirStream",
           "package": "unix",
@@ -824,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "DirStreamOffset",
           "package": "unix",
@@ -832,6 +889,7 @@
         },
         "index": {
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "DirStreamOffset",
           "package": "unix",
@@ -846,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echangeWorkingDirectory dir\u003c/code\u003e calls \u003ccode\u003echdir\u003c/code\u003e to change\n   the current working directory to \u003ccode\u003edir\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "changeWorkingDirectory",
           "package": "unix",
@@ -856,6 +915,7 @@
         "index": {
           "description": "changeWorkingDirectory dir calls chdir to change the current working directory to dir",
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "changeWorkingDirectory",
           "normalized": "FilePath-\u003eIO()",
@@ -872,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateDirectory dir mode\u003c/code\u003e calls \u003ccode\u003emkdir\u003c/code\u003e to \n   create a new directory, \u003ccode\u003edir\u003c/code\u003e, with permissions based on\n  \u003ccode\u003emode\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "createDirectory",
           "package": "unix",
@@ -882,6 +943,7 @@
         "index": {
           "description": "createDirectory dir mode calls mkdir to create new directory dir with permissions based on mode",
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "createDirectory",
           "normalized": "FilePath-\u003eFileMode-\u003eIO()",
@@ -898,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetWorkingDirectory\u003c/code\u003e calls \u003ccode\u003egetcwd\u003c/code\u003e to obtain the name\n   of the current working directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "getWorkingDirectory",
           "package": "unix",
@@ -908,6 +971,7 @@
         "index": {
           "description": "getWorkingDirectory calls getcwd to obtain the name of the current working directory",
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "getWorkingDirectory",
           "package": "unix",
@@ -922,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenDirStream dir\u003c/code\u003e calls \u003ccode\u003eopendir\u003c/code\u003e to obtain a\n   directory stream for \u003ccode\u003edir\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "openDirStream",
           "package": "unix",
@@ -932,6 +997,7 @@
         "index": {
           "description": "openDirStream dir calls opendir to obtain directory stream for dir",
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "openDirStream",
           "normalized": "FilePath-\u003eIO DirStream",
@@ -948,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereadDirStream dp\u003c/code\u003e calls \u003ccode\u003ereaddir\u003c/code\u003e to obtain the\n   next directory entry (\u003ccode\u003estruct dirent\u003c/code\u003e) for the open directory\n   stream \u003ccode\u003edp\u003c/code\u003e, and returns the \u003ccode\u003ed_name\u003c/code\u003e member of that\n  structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "readDirStream",
           "package": "unix",
@@ -958,6 +1025,7 @@
         "index": {
           "description": "readDirStream dp calls readdir to obtain the next directory entry struct dirent for the open directory stream dp and returns the name member of that structure",
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "readDirStream",
           "normalized": "DirStream-\u003eIO FilePath",
@@ -973,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Directory",
           "name": "removeDirectory",
           "package": "unix",
@@ -982,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "System Posix Directory",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Directory",
           "name": "removeDirectory",
           "normalized": "FilePath-\u003eIO()",
@@ -998,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDynamic linker support through dlopen()\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -1007,6 +1078,7 @@
         "index": {
           "description": "Dynamic linker support through dlopen",
           "hierarchy": "System Posix DynamicLinker ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -1066,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.ByteString",
           "name": "dlopen",
           "package": "unix",
@@ -1075,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.ByteString",
           "name": "dlopen",
           "normalized": "RawFilePath-\u003e[RTLDFlags]-\u003eIO DL",
@@ -1141,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.ByteString",
           "name": "withDL",
           "package": "unix",
@@ -1150,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.ByteString",
           "name": "withDL",
           "normalized": "RawFilePath-\u003e[RTLDFlags]-\u003e(DL-\u003eIO a)-\u003eIO a",
@@ -1165,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.ByteString",
           "name": "withDL_",
           "package": "unix",
@@ -1174,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.ByteString",
           "name": "withDL_",
           "normalized": "RawFilePath-\u003e[RTLDFlags]-\u003e(DL-\u003eIO a)-\u003eIO()",
@@ -1190,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDLOpen support, old API\n  Derived from GModule.chs by M.Weber & M.Chakravarty which is part of c2hs\n  I left the API more or less the same, mostly the flags are different.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Module.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -1199,6 +1278,7 @@
         "index": {
           "description": "DLOpen support old API Derived from GModule.chs by M.Weber M.Chakravarty which is part of c2hs left the API more or less the same mostly the flags are different",
           "hierarchy": "System Posix DynamicLinker Module ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Module.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -1212,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Module.ByteString",
           "name": "Module",
           "package": "unix",
@@ -1220,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Module ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Module.ByteString",
           "name": "Module",
           "package": "unix",
@@ -1281,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Module.ByteString",
           "name": "moduleOpen",
           "package": "unix",
@@ -1290,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Module ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Module.ByteString",
           "name": "moduleOpen",
           "normalized": "RawFilePath-\u003e[RTLDFlags]-\u003eIO Module",
@@ -1381,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDLOpen support, old API\n  Derived from GModule.chs by M.Weber & M.Chakravarty which is part of c2hs\n  I left the API more or less the same, mostly the flags are different.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Module",
           "name": "Module",
           "package": "unix",
@@ -1390,6 +1475,7 @@
         "index": {
           "description": "DLOpen support old API Derived from GModule.chs by M.Weber M.Chakravarty which is part of c2hs left the API more or less the same mostly the flags are different",
           "hierarchy": "System Posix DynamicLinker Module",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Module",
           "name": "Module",
           "package": "unix",
@@ -1403,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Module",
           "name": "Module",
           "package": "unix",
@@ -1411,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Module",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Module",
           "name": "Module",
           "package": "unix",
@@ -1424,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Module",
           "name": "moduleOpen",
           "package": "unix",
@@ -1433,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Module",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Module",
           "name": "moduleOpen",
           "normalized": "String-\u003e[RTLDFlags]-\u003eIO Module",
@@ -1449,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDLOpen and friend\n  Derived from GModule.chs by M.Weber & M.Chakravarty which is part of c2hs\n  I left the API more or less the same, mostly the flags are different.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "Prim",
           "package": "unix",
@@ -1458,6 +1549,7 @@
         "index": {
           "description": "DLOpen and friend Derived from GModule.chs by M.Weber M.Chakravarty which is part of c2hs left the API more or less the same mostly the flags are different",
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "Prim",
           "package": "unix",
@@ -1472,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags for \u003ccode\u003e\u003ca\u003edlsym\u003c/a\u003e\u003c/code\u003e. Notice that \u003ccode\u003e\u003ca\u003eNext\u003c/a\u003e\u003c/code\u003e\n might not be available on your particular platform!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "DL",
           "package": "unix",
@@ -1481,6 +1574,7 @@
         "index": {
           "description": "Flags for dlsym Notice that Next might not be available on your particular platform",
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "DL",
           "package": "unix",
@@ -1494,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLDFlags",
           "package": "unix",
@@ -1502,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLDFlags",
           "package": "unix",
@@ -1515,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "DLHandle",
           "package": "unix",
@@ -1524,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "DLHandle",
           "normalized": "DLHandle(Ptr())",
@@ -1539,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "Default",
           "package": "unix",
@@ -1548,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "Default",
           "package": "unix",
@@ -1561,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "Next",
           "package": "unix",
@@ -1570,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "Next",
           "package": "unix",
@@ -1583,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "Null",
           "package": "unix",
@@ -1592,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "Null",
           "package": "unix",
@@ -1605,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLD_GLOBAL",
           "package": "unix",
@@ -1614,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLD_GLOBAL",
           "package": "unix",
@@ -1627,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLD_LAZY",
           "package": "unix",
@@ -1636,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLD_LAZY",
           "package": "unix",
@@ -1649,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLD_LOCAL",
           "package": "unix",
@@ -1658,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLD_LOCAL",
           "package": "unix",
@@ -1671,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLD_NOW",
           "package": "unix",
@@ -1680,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "RTLD_NOW",
           "package": "unix",
@@ -1693,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "c_dlclose",
           "package": "unix",
@@ -1702,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "c_dlclose",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -1716,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "c_dlerror",
           "package": "unix",
@@ -1725,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "c_dlerror",
           "package": "unix",
@@ -1737,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "c_dlopen",
           "package": "unix",
@@ -1746,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "c_dlopen",
           "normalized": "CString-\u003eCInt-\u003eIO(Ptr())",
@@ -1760,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "c_dlsym",
           "package": "unix",
@@ -1769,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "c_dlsym",
           "normalized": "Ptr()-\u003eCString-\u003eIO(FunPtr a)",
@@ -1783,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "haveRtldLocal",
           "package": "unix",
@@ -1792,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "haveRtldLocal",
           "package": "unix",
@@ -1805,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "haveRtldNext",
           "package": "unix",
@@ -1814,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "haveRtldNext",
           "package": "unix",
@@ -1827,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "packDL",
           "package": "unix",
@@ -1836,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "packDL",
           "normalized": "DL-\u003ePtr()",
@@ -1851,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "packRTLDFlags",
           "package": "unix",
@@ -1860,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker Prim",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker.Prim",
           "name": "packRTLDFlags",
           "normalized": "[RTLDFlags]-\u003eCInt",
@@ -1876,6 +2004,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDynamic linker support through dlopen()\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker",
           "name": "DynamicLinker",
           "package": "unix",
@@ -1885,6 +2014,7 @@
         "index": {
           "description": "Dynamic linker support through dlopen",
           "hierarchy": "System Posix DynamicLinker",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker",
           "name": "DynamicLinker",
           "package": "unix",
@@ -1898,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker",
           "name": "dlopen",
           "package": "unix",
@@ -1907,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker",
           "name": "dlopen",
           "normalized": "FilePath-\u003e[RTLDFlags]-\u003eIO DL",
@@ -1921,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker",
           "name": "withDL",
           "package": "unix",
@@ -1930,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker",
           "name": "withDL",
           "normalized": "String-\u003e[RTLDFlags]-\u003e(DL-\u003eIO a)-\u003eIO a",
@@ -1945,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.DynamicLinker",
           "name": "withDL_",
           "package": "unix",
@@ -1954,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "System Posix DynamicLinker",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.DynamicLinker",
           "name": "withDL_",
           "normalized": "String-\u003e[RTLDFlags]-\u003e(DL-\u003eIO a)-\u003eIO()",
@@ -1970,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX environment support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -1979,6 +2116,7 @@
         "index": {
           "description": "POSIX environment support",
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -1993,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003egetArgs\u003c/a\u003e\u003c/code\u003e returns a list of the program's command\n line arguments (not including the program name), as \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003egetArgs\u003c/a\u003e\u003c/code\u003e, this function does no Unicode\n decoding of the arguments; you get the exact bytes that were passed\n to the program by the OS.  To interpret the arguments as text, some\n Unicode decoding should be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "getArgs",
           "package": "unix",
@@ -2003,6 +2142,7 @@
         "index": {
           "description": "Computation getArgs returns list of the program command line arguments not including the program name as ByteString Unlike getArgs this function does no Unicode decoding of the arguments you get the exact bytes that were passed to the program by the OS To interpret the arguments as text some Unicode decoding should be applied",
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "getArgs",
           "normalized": "IO[ByteString]",
@@ -2019,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetEnv\u003c/a\u003e\u003c/code\u003e looks up a variable in the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "getEnv",
           "package": "unix",
@@ -2029,6 +2170,7 @@
         "index": {
           "description": "getEnv looks up variable in the environment",
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "getEnv",
           "normalized": "ByteString-\u003eIO(Maybe ByteString)",
@@ -2045,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetEnvDefault\u003c/a\u003e\u003c/code\u003e is a wrapper around \u003ccode\u003e\u003ca\u003egetEnv\u003c/a\u003e\u003c/code\u003e where the\n programmer can specify a fallback if the variable is not found\n in the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "getEnvDefault",
           "package": "unix",
@@ -2055,6 +2198,7 @@
         "index": {
           "description": "getEnvDefault is wrapper around getEnv where the programmer can specify fallback if the variable is not found in the environment",
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "getEnvDefault",
           "normalized": "ByteString-\u003eByteString-\u003eIO ByteString",
@@ -2071,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetEnvironment\u003c/a\u003e\u003c/code\u003e retrieves the entire environment as a\n list of \u003ccode\u003e(key,value)\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "getEnvironment",
           "package": "unix",
@@ -2081,6 +2226,7 @@
         "index": {
           "description": "getEnvironment retrieves the entire environment as list of key value pairs",
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "getEnvironment",
           "normalized": "IO[(ByteString,ByteString)]",
@@ -2096,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "getEnvironmentPrim",
           "package": "unix",
@@ -2105,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "getEnvironmentPrim",
           "normalized": "IO[ByteString]",
@@ -2121,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eputEnv\u003c/a\u003e\u003c/code\u003e function takes an argument of the form \u003ccode\u003ename=value\u003c/code\u003e\n and is equivalent to \u003ccode\u003esetEnv(key,value,True{-overwrite-})\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "putEnv",
           "package": "unix",
@@ -2131,6 +2280,7 @@
         "index": {
           "description": "putEnv function takes an argument of the form name value and is equivalent to setEnv key value True overwrite",
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "putEnv",
           "normalized": "ByteString-\u003eIO()",
@@ -2147,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esetEnv\u003c/a\u003e\u003c/code\u003e function inserts or resets the environment variable name in\n     the current environment list.  If the variable \u003ccode\u003ename\u003c/code\u003e does not exist in the\n     list, it is inserted with the given value.  If the variable does exist,\n     the argument \u003ccode\u003eoverwrite\u003c/code\u003e is tested; if \u003ccode\u003eoverwrite\u003c/code\u003e is \u003ccode\u003eFalse\u003c/code\u003e, the variable is\n     not reset, otherwise it is reset to the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "setEnv",
           "package": "unix",
@@ -2157,6 +2308,7 @@
         "index": {
           "description": "The setEnv function inserts or resets the environment variable name in the current environment list If the variable name does not exist in the list it is inserted with the given value If the variable does exist the argument overwrite is tested if overwrite is False the variable is not reset otherwise it is reset to the given value",
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "setEnv",
           "normalized": "ByteString-\u003eByteString-\u003eBool-\u003eIO()",
@@ -2173,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunsetEnv\u003c/a\u003e\u003c/code\u003e function deletes all instances of the variable name\n from the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env.ByteString",
           "name": "unsetEnv",
           "package": "unix",
@@ -2183,6 +2336,7 @@
         "index": {
           "description": "The unsetEnv function deletes all instances of the variable name from the environment",
           "hierarchy": "System Posix Env ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env.ByteString",
           "name": "unsetEnv",
           "normalized": "ByteString-\u003eIO()",
@@ -2199,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX environment support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "Env",
           "package": "unix",
@@ -2208,6 +2363,7 @@
         "index": {
           "description": "POSIX environment support",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "Env",
           "package": "unix",
@@ -2222,6 +2378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eclearEnv\u003c/a\u003e\u003c/code\u003e function clears the environment of all name-value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "clearEnv",
           "package": "unix",
@@ -2232,6 +2389,7 @@
         "index": {
           "description": "The clearEnv function clears the environment of all name-value pairs",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "clearEnv",
           "normalized": "IO()",
@@ -2248,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetEnv\u003c/a\u003e\u003c/code\u003e looks up a variable in the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "getEnv",
           "package": "unix",
@@ -2258,6 +2417,7 @@
         "index": {
           "description": "getEnv looks up variable in the environment",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "getEnv",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -2274,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetEnvDefault\u003c/a\u003e\u003c/code\u003e is a wrapper around \u003ccode\u003e\u003ca\u003egetEnv\u003c/a\u003e\u003c/code\u003e where the\n programmer can specify a fallback if the variable is not found\n in the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "getEnvDefault",
           "package": "unix",
@@ -2284,6 +2445,7 @@
         "index": {
           "description": "getEnvDefault is wrapper around getEnv where the programmer can specify fallback if the variable is not found in the environment",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "getEnvDefault",
           "normalized": "String-\u003eString-\u003eIO String",
@@ -2300,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetEnvironment\u003c/a\u003e\u003c/code\u003e retrieves the entire environment as a\n list of \u003ccode\u003e(key,value)\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "getEnvironment",
           "package": "unix",
@@ -2310,6 +2473,7 @@
         "index": {
           "description": "getEnvironment retrieves the entire environment as list of key value pairs",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "getEnvironment",
           "normalized": "IO[(String,String)]",
@@ -2325,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "getEnvironmentPrim",
           "package": "unix",
@@ -2334,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "getEnvironmentPrim",
           "normalized": "IO[String]",
@@ -2350,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eputEnv\u003c/a\u003e\u003c/code\u003e function takes an argument of the form \u003ccode\u003ename=value\u003c/code\u003e\n and is equivalent to \u003ccode\u003esetEnv(key,value,True{-overwrite-})\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "putEnv",
           "package": "unix",
@@ -2360,6 +2527,7 @@
         "index": {
           "description": "putEnv function takes an argument of the form name value and is equivalent to setEnv key value True overwrite",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "putEnv",
           "normalized": "String-\u003eIO()",
@@ -2376,6 +2544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esetEnv\u003c/a\u003e\u003c/code\u003e function inserts or resets the environment variable name in\n     the current environment list.  If the variable \u003ccode\u003ename\u003c/code\u003e does not exist in the\n     list, it is inserted with the given value.  If the variable does exist,\n     the argument \u003ccode\u003eoverwrite\u003c/code\u003e is tested; if \u003ccode\u003eoverwrite\u003c/code\u003e is \u003ccode\u003eFalse\u003c/code\u003e, the variable is\n     not reset, otherwise it is reset to the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "setEnv",
           "package": "unix",
@@ -2386,6 +2555,7 @@
         "index": {
           "description": "The setEnv function inserts or resets the environment variable name in the current environment list If the variable name does not exist in the list it is inserted with the given value If the variable does exist the argument overwrite is tested if overwrite is False the variable is not reset otherwise it is reset to the given value",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "setEnv",
           "normalized": "String-\u003eString-\u003eBool-\u003eIO()",
@@ -2402,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esetEnvironment\u003c/a\u003e\u003c/code\u003e resets the entire environment to the given list of\n \u003ccode\u003e(key,value)\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "setEnvironment",
           "package": "unix",
@@ -2412,6 +2583,7 @@
         "index": {
           "description": "setEnvironment resets the entire environment to the given list of key value pairs",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "setEnvironment",
           "normalized": "[(String,String)]-\u003eIO()",
@@ -2428,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunsetEnv\u003c/a\u003e\u003c/code\u003e function deletes all instances of the variable name\n from the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Env",
           "name": "unsetEnv",
           "package": "unix",
@@ -2438,6 +2611,7 @@
         "index": {
           "description": "The unsetEnv function deletes all instances of the variable name from the environment",
           "hierarchy": "System Posix Env",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Env",
           "name": "unsetEnv",
           "normalized": "String-\u003eIO()",
@@ -2454,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX error support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "Error",
           "package": "unix",
@@ -2463,6 +2638,7 @@
         "index": {
           "description": "POSIX error support",
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "Error",
           "package": "unix",
@@ -2477,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrno\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPath",
           "package": "unix",
@@ -2486,6 +2663,7 @@
         "index": {
           "description": "as throwErrno but exceptions include the given path when appropriate",
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPath",
           "normalized": "String-\u003eFilePath-\u003eIO a",
@@ -2502,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIf\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIf",
           "package": "unix",
@@ -2511,6 +2690,7 @@
         "index": {
           "description": "as throwErrnoIf but exceptions include the given path when appropriate",
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIf",
           "normalized": "(a-\u003eBool)-\u003eString-\u003eFilePath-\u003eIO a-\u003eIO a",
@@ -2527,6 +2707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIfMinus1\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfMinus1",
           "package": "unix",
@@ -2536,6 +2717,7 @@
         "index": {
           "description": "as throwErrnoIfMinus1 but exceptions include the given path when appropriate",
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfMinus1",
           "normalized": "String-\u003eFilePath-\u003eIO a-\u003eIO a",
@@ -2551,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfMinus1Retry",
           "package": "unix",
@@ -2560,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfMinus1Retry",
           "normalized": "String-\u003eFilePath-\u003eIO a-\u003eIO a",
@@ -2575,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfMinus1Retry_",
           "package": "unix",
@@ -2584,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfMinus1Retry_",
           "normalized": "String-\u003eFilePath-\u003eIO a-\u003eIO()",
@@ -2600,6 +2786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIfMinus1_\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfMinus1_",
           "package": "unix",
@@ -2609,6 +2796,7 @@
         "index": {
           "description": "as throwErrnoIfMinus1 but exceptions include the given path when appropriate",
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfMinus1_",
           "normalized": "String-\u003eFilePath-\u003eIO a-\u003eIO()",
@@ -2625,6 +2813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIfNull\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfNull",
           "package": "unix",
@@ -2634,6 +2823,7 @@
         "index": {
           "description": "as throwErrnoIfNull but exceptions include the given path when appropriate",
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfNull",
           "normalized": "String-\u003eFilePath-\u003eIO(Ptr a)-\u003eIO(Ptr a)",
@@ -2649,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfNullRetry",
           "package": "unix",
@@ -2658,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfNullRetry",
           "normalized": "String-\u003eFilePath-\u003eIO(Ptr a)-\u003eIO(Ptr a)",
@@ -2673,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfRetry",
           "package": "unix",
@@ -2682,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIfRetry",
           "normalized": "(a-\u003eBool)-\u003eString-\u003eFilePath-\u003eIO a-\u003eIO a",
@@ -2698,6 +2892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas \u003ccode\u003e\u003ca\u003ethrowErrnoIf_\u003c/a\u003e\u003c/code\u003e, but exceptions include the given path when\n   appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIf_",
           "package": "unix",
@@ -2707,6 +2902,7 @@
         "index": {
           "description": "as throwErrnoIf but exceptions include the given path when appropriate",
           "hierarchy": "System Posix Error",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Error",
           "name": "throwErrnoPathIf_",
           "normalized": "(a-\u003eBool)-\u003eString-\u003eFilePath-\u003eIO a-\u003eIO()",
@@ -2723,6 +2919,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions defined by the POSIX standards for manipulating and querying the\n file system. Names of underlying POSIX functions are indicated whenever\n possible. A more complete documentation of the POSIX functions together\n with a more detailed description of different error conditions are usually\n available in the system's manual pages or from\n \u003ca\u003ehttp://www.unix.org/version3/online.html\u003c/a\u003e (free registration required).\n\u003c/p\u003e\u003cp\u003eWhen a function that calls an underlying POSIX function fails, the errno\n code is converted to an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eerrnoToIOError\u003c/a\u003e\u003c/code\u003e.\n For a list of which errno codes may be generated, consult the POSIX\n documentation for the underlying function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -2732,6 +2929,7 @@
         "index": {
           "description": "Functions defined by the POSIX standards for manipulating and querying the file system Names of underlying POSIX functions are indicated whenever possible more complete documentation of the POSIX functions together with more detailed description of different error conditions are usually available in the system manual pages or from http www.unix.org version3 online.html free registration required When function that calls an underlying POSIX function fails the errno code is converted to an IOError using errnoToIOError For list of which errno codes may be generated consult the POSIX documentation for the underlying function",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -2746,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePOSIX defines operations to get information, such as owner, permissions,\n size and access times, about a file. This information is represented by the\n \u003ccode\u003e\u003ca\u003eFileStatus\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cp\u003eNote: see \u003ccode\u003echmod\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "FileStatus",
           "package": "unix",
@@ -2755,6 +2954,7 @@
         "index": {
           "description": "POSIX defines operations to get information such as owner permissions size and access times about file This information is represented by the FileStatus type Note see chmod",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "FileStatus",
           "package": "unix",
@@ -2768,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "PathVar",
           "package": "unix",
@@ -2776,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "PathVar",
           "package": "unix",
@@ -3237,6 +3439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateDevice path mode dev\u003c/code\u003e creates either a regular or a special file\n depending on the value of \u003ccode\u003emode\u003c/code\u003e (and \u003ccode\u003edev\u003c/code\u003e).  \u003ccode\u003emode\u003c/code\u003e will normally be either\n \u003ccode\u003e\u003ca\u003eblockSpecialMode\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003echaracterSpecialMode\u003c/a\u003e\u003c/code\u003e.  May fail with\n \u003ccode\u003e\u003ca\u003ethrowErrnoPathIfMinus1_\u003c/a\u003e\u003c/code\u003e if a file named \u003ccode\u003ename\u003c/code\u003e already exists or if the\n effective user ID of the current process doesn't have permission to create\n the file.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003emknod\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "createDevice",
           "package": "unix",
@@ -3247,6 +3450,7 @@
         "index": {
           "description": "createDevice path mode dev creates either regular or special file depending on the value of mode and dev mode will normally be either blockSpecialMode or characterSpecialMode May fail with throwErrnoPathIfMinus1 if file named name already exists or if the effective user ID of the current process doesn have permission to create the file Note calls mknod",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "createDevice",
           "normalized": "RawFilePath-\u003eFileMode-\u003eDeviceID-\u003eIO()",
@@ -3263,6 +3467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateLink old new\u003c/code\u003e creates a new path, \u003ccode\u003enew\u003c/code\u003e, linked to an existing file,\n \u003ccode\u003eold\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003elink\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "createLink",
           "package": "unix",
@@ -3273,6 +3478,7 @@
         "index": {
           "description": "createLink old new creates new path new linked to an existing file old Note calls link",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "createLink",
           "normalized": "RawFilePath-\u003eRawFilePath-\u003eIO()",
@@ -3289,6 +3495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateNamedPipe fifo mode\u003c/code\u003e\n creates a new named pipe, \u003ccode\u003efifo\u003c/code\u003e, with permissions based on\n \u003ccode\u003emode\u003c/code\u003e. May fail with \u003ccode\u003e\u003ca\u003ethrowErrnoPathIfMinus1_\u003c/a\u003e\u003c/code\u003e if a file named \u003ccode\u003ename\u003c/code\u003e\n already exists or if the effective user ID of the current process doesn't\n have permission to create the pipe.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003emkfifo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "createNamedPipe",
           "package": "unix",
@@ -3299,6 +3506,7 @@
         "index": {
           "description": "createNamedPipe fifo mode creates new named pipe fifo with permissions based on mode May fail with throwErrnoPathIfMinus1 if file named name already exists or if the effective user ID of the current process doesn have permission to create the pipe Note calls mkfifo",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "createNamedPipe",
           "normalized": "RawFilePath-\u003eFileMode-\u003eIO()",
@@ -3315,6 +3523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateSymbolicLink file1 file2\u003c/code\u003e creates a symbolic link named \u003ccode\u003efile2\u003c/code\u003e\n which points to the file \u003ccode\u003efile1\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSymbolic links are interpreted at run-time as if the contents of the link\n had been substituted into the path being followed to find a file or directory.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003esymlink\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "createSymbolicLink",
           "package": "unix",
@@ -3325,6 +3534,7 @@
         "index": {
           "description": "createSymbolicLink file1 file2 creates symbolic link named file2 which points to the file file1 Symbolic links are interpreted at run-time as if the contents of the link had been substituted into the path being followed to find file or directory Note calls symlink",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "createSymbolicLink",
           "normalized": "RawFilePath-\u003eRawFilePath-\u003eIO()",
@@ -3391,6 +3601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efileAccess name read write exec\u003c/code\u003e checks if the file (or other file system\n object) \u003ccode\u003ename\u003c/code\u003e can be accessed for reading, writing and/or executing. To\n check a permission set the corresponding argument to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eaccess\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "fileAccess",
           "package": "unix",
@@ -3401,6 +3612,7 @@
         "index": {
           "description": "fileAccess name read write exec checks if the file or other file system object name can be accessed for reading writing and or executing To check permission set the corresponding argument to True Note calls access",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "fileAccess",
           "normalized": "RawFilePath-\u003eBool-\u003eBool-\u003eBool-\u003eIO Bool",
@@ -3417,6 +3629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks for the existence of the file.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eaccess\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "fileExist",
           "package": "unix",
@@ -3427,6 +3640,7 @@
         "index": {
           "description": "Checks for the existence of the file Note calls access",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "fileExist",
           "normalized": "RawFilePath-\u003eIO Bool",
@@ -3655,6 +3869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetFileStatus path\u003c/code\u003e calls gets the \u003ccode\u003eFileStatus\u003c/code\u003e information (user ID,\n size, access times, etc.) for the file \u003ccode\u003epath\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003estat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "getFileStatus",
           "package": "unix",
@@ -3665,6 +3880,7 @@
         "index": {
           "description": "getFileStatus path calls gets the FileStatus information user ID size access times etc for the file path Note calls stat",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "getFileStatus",
           "normalized": "RawFilePath-\u003eIO FileStatus",
@@ -3681,6 +3897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetPathVar var path\u003c/code\u003e obtains the dynamic value of the requested\n configurable file limit or option associated with file or directory \u003ccode\u003epath\u003c/code\u003e.\n For defined file limits, \u003ccode\u003egetPathVar\u003c/code\u003e returns the associated\n value.  For defined file options, the result of \u003ccode\u003egetPathVar\u003c/code\u003e\n is undefined, but not failure.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003epathconf\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "getPathVar",
           "package": "unix",
@@ -3691,6 +3908,7 @@
         "index": {
           "description": "getPathVar var path obtains the dynamic value of the requested configurable file limit or option associated with file or directory path For defined file limits getPathVar returns the associated value For defined file options the result of getPathVar is undefined but not failure Note calls pathconf",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "getPathVar",
           "normalized": "RawFilePath-\u003ePathVar-\u003eIO Limit",
@@ -3707,6 +3925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActs as \u003ccode\u003e\u003ca\u003egetFileStatus\u003c/a\u003e\u003c/code\u003e except when the \u003ccode\u003e\u003ca\u003eRawFilePath\u003c/a\u003e\u003c/code\u003e refers to a symbolic\n link. In that case the \u003ccode\u003eFileStatus\u003c/code\u003e information of the symbolic link itself\n is returned instead of that of the file it points to.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003elstat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "getSymbolicLinkStatus",
           "package": "unix",
@@ -3717,6 +3936,7 @@
         "index": {
           "description": "Acts as getFileStatus except when the RawFilePath refers to symbolic link In that case the FileStatus information of the symbolic link itself is returned instead of that of the file it points to Note calls lstat",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "getSymbolicLinkStatus",
           "normalized": "RawFilePath-\u003eIO FileStatus",
@@ -4378,6 +4598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads the \u003ccode\u003eRawFilePath\u003c/code\u003e pointed to by the symbolic link and returns it.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003ereadlink\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "readSymbolicLink",
           "package": "unix",
@@ -4388,6 +4609,7 @@
         "index": {
           "description": "Reads the RawFilePath pointed to by the symbolic link and returns it Note calls readlink",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "readSymbolicLink",
           "normalized": "RawFilePath-\u003eIO RawFilePath",
@@ -4427,6 +4649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eremoveLink path\u003c/code\u003e removes the link named \u003ccode\u003epath\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eunlink\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "removeLink",
           "package": "unix",
@@ -4437,6 +4660,7 @@
         "index": {
           "description": "removeLink path removes the link named path Note calls unlink",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "removeLink",
           "normalized": "RawFilePath-\u003eIO()",
@@ -4453,6 +4677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erename old new\u003c/code\u003e renames a file or directory from \u003ccode\u003eold\u003c/code\u003e to \u003ccode\u003enew\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003erename\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "rename",
           "package": "unix",
@@ -4463,6 +4688,7 @@
         "index": {
           "description": "rename old new renames file or directory from old to new Note calls rename",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "rename",
           "normalized": "RawFilePath-\u003eRawFilePath-\u003eIO()",
@@ -4613,6 +4839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetFileMode path mode\u003c/code\u003e changes permission of the file given by \u003ccode\u003epath\u003c/code\u003e\n to \u003ccode\u003emode\u003c/code\u003e. This operation may fail with \u003ccode\u003e\u003ca\u003ethrowErrnoPathIfMinus1_\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003epath\u003c/code\u003e\n doesn't exist or if the effective user ID of the current process is not that\n of the file's owner.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003echmod\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "setFileMode",
           "package": "unix",
@@ -4623,6 +4850,7 @@
         "index": {
           "description": "setFileMode path mode changes permission of the file given by path to mode This operation may fail with throwErrnoPathIfMinus1 if path doesn exist or if the effective user ID of the current process is not that of the file owner Note calls chmod",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "setFileMode",
           "normalized": "RawFilePath-\u003eFileMode-\u003eIO()",
@@ -4639,6 +4867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncates the file down to the specified length. If the file was larger\n than the given length before this operation was performed the extra is lost.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003etruncate\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "setFileSize",
           "package": "unix",
@@ -4649,6 +4878,7 @@
         "index": {
           "description": "Truncates the file down to the specified length If the file was larger than the given length before this operation was performed the extra is lost Note calls truncate",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "setFileSize",
           "normalized": "RawFilePath-\u003eFileOffset-\u003eIO()",
@@ -4665,6 +4895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetFileTimes path atime mtime\u003c/code\u003e sets the access and modification times\n associated with file \u003ccode\u003epath\u003c/code\u003e to \u003ccode\u003eatime\u003c/code\u003e and \u003ccode\u003emtime\u003c/code\u003e, respectively.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eutime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "setFileTimes",
           "package": "unix",
@@ -4675,6 +4906,7 @@
         "index": {
           "description": "setFileTimes path atime mtime sets the access and modification times associated with file path to atime and mtime respectively Note calls utime",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "setFileTimes",
           "normalized": "RawFilePath-\u003eEpochTime-\u003eEpochTime-\u003eIO()",
@@ -4691,6 +4923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esetFileTimes\u003c/a\u003e\u003c/code\u003e but timestamps can have sub-second resolution.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eutimensat\u003c/code\u003e or \u003ccode\u003eutimes\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "setFileTimesHiRes",
           "package": "unix",
@@ -4701,6 +4934,7 @@
         "index": {
           "description": "Like setFileTimes but timestamps can have sub-second resolution Note calls utimensat or utimes",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "setFileTimesHiRes",
           "normalized": "RawFilePath-\u003ePOSIXTime-\u003ePOSIXTime-\u003eIO()",
@@ -4742,6 +4976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetOwnerAndGroup path uid gid\u003c/code\u003e changes the owner and group of \u003ccode\u003epath\u003c/code\u003e to\n \u003ccode\u003euid\u003c/code\u003e and \u003ccode\u003egid\u003c/code\u003e, respectively.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003euid\u003c/code\u003e or \u003ccode\u003egid\u003c/code\u003e is specified as -1, then that ID is not changed.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003echown\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "setOwnerAndGroup",
           "package": "unix",
@@ -4752,6 +4987,7 @@
         "index": {
           "description": "setOwnerAndGroup path uid gid changes the owner and group of path to uid and gid respectively If uid or gid is specified as then that ID is not changed Note calls chown",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "setOwnerAndGroup",
           "normalized": "RawFilePath-\u003eUserID-\u003eGroupID-\u003eIO()",
@@ -4768,6 +5004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActs as \u003ccode\u003e\u003ca\u003esetOwnerAndGroup\u003c/a\u003e\u003c/code\u003e but does not follow symlinks (and thus\n changes permissions on the link itself).\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003elchown\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "setSymbolicLinkOwnerAndGroup",
           "package": "unix",
@@ -4778,6 +5015,7 @@
         "index": {
           "description": "Acts as setOwnerAndGroup but does not follow symlinks and thus changes permissions on the link itself Note calls lchown",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "setSymbolicLinkOwnerAndGroup",
           "normalized": "RawFilePath-\u003eUserID-\u003eGroupID-\u003eIO()",
@@ -4794,6 +5032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esetFileTimesHiRes\u003c/a\u003e\u003c/code\u003e but does not follow symbolic links.\n This operation is not supported on all platforms. On these platforms,\n this function will raise an exception.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eutimensat\u003c/code\u003e or \u003ccode\u003elutimes\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "setSymbolicLinkTimesHiRes",
           "package": "unix",
@@ -4804,6 +5043,7 @@
         "index": {
           "description": "Like setFileTimesHiRes but does not follow symbolic links This operation is not supported on all platforms On these platforms this function will raise an exception Note calls utimensat or lutimes",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "setSymbolicLinkTimesHiRes",
           "normalized": "RawFilePath-\u003ePOSIXTime-\u003ePOSIXTime-\u003eIO()",
@@ -5024,6 +5264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etouchFile path\u003c/code\u003e sets the access and modification times associated with\n file \u003ccode\u003epath\u003c/code\u003e to the current time.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eutime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "touchFile",
           "package": "unix",
@@ -5034,6 +5275,7 @@
         "index": {
           "description": "touchFile path sets the access and modification times associated with file path to the current time Note calls utime",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "touchFile",
           "normalized": "RawFilePath-\u003eIO()",
@@ -5050,6 +5292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etouchFile\u003c/a\u003e\u003c/code\u003e but does not follow symbolic links.\n This operation is not supported on all platforms. On these platforms,\n this function will raise an exception.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003elutimes\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files.ByteString",
           "name": "touchSymbolicLink",
           "package": "unix",
@@ -5060,6 +5303,7 @@
         "index": {
           "description": "Like touchFile but does not follow symbolic links This operation is not supported on all platforms On these platforms this function will raise an exception Note calls lutimes",
           "hierarchy": "System Posix Files ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files.ByteString",
           "name": "touchSymbolicLink",
           "normalized": "RawFilePath-\u003eIO()",
@@ -5103,6 +5347,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions defined by the POSIX standards for manipulating and querying the\n file system. Names of underlying POSIX functions are indicated whenever\n possible. A more complete documentation of the POSIX functions together\n with a more detailed description of different error conditions are usually\n available in the system's manual pages or from\n \u003ca\u003ehttp://www.unix.org/version3/online.html\u003c/a\u003e (free registration required).\n\u003c/p\u003e\u003cp\u003eWhen a function that calls an underlying POSIX function fails, the errno\n code is converted to an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eerrnoToIOError\u003c/a\u003e\u003c/code\u003e.\n For a list of which errno codes may be generated, consult the POSIX\n documentation for the underlying function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "Files",
           "package": "unix",
@@ -5112,6 +5357,7 @@
         "index": {
           "description": "Functions defined by the POSIX standards for manipulating and querying the file system Names of underlying POSIX functions are indicated whenever possible more complete documentation of the POSIX functions together with more detailed description of different error conditions are usually available in the system manual pages or from http www.unix.org version3 online.html free registration required When function that calls an underlying POSIX function fails the errno code is converted to an IOError using errnoToIOError For list of which errno codes may be generated consult the POSIX documentation for the underlying function",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "Files",
           "package": "unix",
@@ -5126,6 +5372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePOSIX defines operations to get information, such as owner, permissions,\n size and access times, about a file. This information is represented by the\n \u003ccode\u003e\u003ca\u003eFileStatus\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cp\u003eNote: see \u003ccode\u003echmod\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "FileStatus",
           "package": "unix",
@@ -5135,6 +5382,7 @@
         "index": {
           "description": "POSIX defines operations to get information such as owner permissions size and access times about file This information is represented by the FileStatus type Note see chmod",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "FileStatus",
           "package": "unix",
@@ -5148,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "PathVar",
           "package": "unix",
@@ -5156,6 +5405,7 @@
         },
         "index": {
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "PathVar",
           "package": "unix",
@@ -5170,6 +5420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateDevice path mode dev\u003c/code\u003e creates either a regular or a special file\n depending on the value of \u003ccode\u003emode\u003c/code\u003e (and \u003ccode\u003edev\u003c/code\u003e).  \u003ccode\u003emode\u003c/code\u003e will normally be either\n \u003ccode\u003e\u003ca\u003eblockSpecialMode\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003echaracterSpecialMode\u003c/a\u003e\u003c/code\u003e.  May fail with\n \u003ccode\u003e\u003ca\u003ethrowErrnoPathIfMinus1_\u003c/a\u003e\u003c/code\u003e if a file named \u003ccode\u003ename\u003c/code\u003e already exists or if the\n effective user ID of the current process doesn't have permission to create\n the file.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003emknod\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "createDevice",
           "package": "unix",
@@ -5180,6 +5431,7 @@
         "index": {
           "description": "createDevice path mode dev creates either regular or special file depending on the value of mode and dev mode will normally be either blockSpecialMode or characterSpecialMode May fail with throwErrnoPathIfMinus1 if file named name already exists or if the effective user ID of the current process doesn have permission to create the file Note calls mknod",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "createDevice",
           "normalized": "FilePath-\u003eFileMode-\u003eDeviceID-\u003eIO()",
@@ -5196,6 +5448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateLink old new\u003c/code\u003e creates a new path, \u003ccode\u003enew\u003c/code\u003e, linked to an existing file,\n \u003ccode\u003eold\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003elink\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "createLink",
           "package": "unix",
@@ -5206,6 +5459,7 @@
         "index": {
           "description": "createLink old new creates new path new linked to an existing file old Note calls link",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "createLink",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -5222,6 +5476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateNamedPipe fifo mode\u003c/code\u003e\n creates a new named pipe, \u003ccode\u003efifo\u003c/code\u003e, with permissions based on\n \u003ccode\u003emode\u003c/code\u003e. May fail with \u003ccode\u003e\u003ca\u003ethrowErrnoPathIfMinus1_\u003c/a\u003e\u003c/code\u003e if a file named \u003ccode\u003ename\u003c/code\u003e\n already exists or if the effective user ID of the current process doesn't\n have permission to create the pipe.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003emkfifo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "createNamedPipe",
           "package": "unix",
@@ -5232,6 +5487,7 @@
         "index": {
           "description": "createNamedPipe fifo mode creates new named pipe fifo with permissions based on mode May fail with throwErrnoPathIfMinus1 if file named name already exists or if the effective user ID of the current process doesn have permission to create the pipe Note calls mkfifo",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "createNamedPipe",
           "normalized": "FilePath-\u003eFileMode-\u003eIO()",
@@ -5248,6 +5504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecreateSymbolicLink file1 file2\u003c/code\u003e creates a symbolic link named \u003ccode\u003efile2\u003c/code\u003e\n which points to the file \u003ccode\u003efile1\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSymbolic links are interpreted at run-time as if the contents of the link\n had been substituted into the path being followed to find a file or directory.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003esymlink\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "createSymbolicLink",
           "package": "unix",
@@ -5258,6 +5515,7 @@
         "index": {
           "description": "createSymbolicLink file1 file2 creates symbolic link named file2 which points to the file file1 Symbolic links are interpreted at run-time as if the contents of the link had been substituted into the path being followed to find file or directory Note calls symlink",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "createSymbolicLink",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -5274,6 +5532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efileAccess name read write exec\u003c/code\u003e checks if the file (or other file system\n object) \u003ccode\u003ename\u003c/code\u003e can be accessed for reading, writing and/or executing. To\n check a permission set the corresponding argument to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eaccess\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "fileAccess",
           "package": "unix",
@@ -5284,6 +5543,7 @@
         "index": {
           "description": "fileAccess name read write exec checks if the file or other file system object name can be accessed for reading writing and or executing To check permission set the corresponding argument to True Note calls access",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "fileAccess",
           "normalized": "FilePath-\u003eBool-\u003eBool-\u003eBool-\u003eIO Bool",
@@ -5300,6 +5560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks for the existence of the file.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eaccess\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "fileExist",
           "package": "unix",
@@ -5310,6 +5571,7 @@
         "index": {
           "description": "Checks for the existence of the file Note calls access",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "fileExist",
           "normalized": "FilePath-\u003eIO Bool",
@@ -5326,6 +5588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetFileStatus path\u003c/code\u003e calls gets the \u003ccode\u003eFileStatus\u003c/code\u003e information (user ID,\n size, access times, etc.) for the file \u003ccode\u003epath\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003estat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "getFileStatus",
           "package": "unix",
@@ -5336,6 +5599,7 @@
         "index": {
           "description": "getFileStatus path calls gets the FileStatus information user ID size access times etc for the file path Note calls stat",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "getFileStatus",
           "normalized": "FilePath-\u003eIO FileStatus",
@@ -5352,6 +5616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetPathVar var path\u003c/code\u003e obtains the dynamic value of the requested\n configurable file limit or option associated with file or directory \u003ccode\u003epath\u003c/code\u003e.\n For defined file limits, \u003ccode\u003egetPathVar\u003c/code\u003e returns the associated\n value.  For defined file options, the result of \u003ccode\u003egetPathVar\u003c/code\u003e\n is undefined, but not failure.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003epathconf\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "getPathVar",
           "package": "unix",
@@ -5362,6 +5627,7 @@
         "index": {
           "description": "getPathVar var path obtains the dynamic value of the requested configurable file limit or option associated with file or directory path For defined file limits getPathVar returns the associated value For defined file options the result of getPathVar is undefined but not failure Note calls pathconf",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "getPathVar",
           "normalized": "FilePath-\u003ePathVar-\u003eIO Limit",
@@ -5378,6 +5644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActs as \u003ccode\u003e\u003ca\u003egetFileStatus\u003c/a\u003e\u003c/code\u003e except when the \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e refers to a symbolic\n link. In that case the \u003ccode\u003eFileStatus\u003c/code\u003e information of the symbolic link itself\n is returned instead of that of the file it points to.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003elstat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "getSymbolicLinkStatus",
           "package": "unix",
@@ -5388,6 +5655,7 @@
         "index": {
           "description": "Acts as getFileStatus except when the FilePath refers to symbolic link In that case the FileStatus information of the symbolic link itself is returned instead of that of the file it points to Note calls lstat",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "getSymbolicLinkStatus",
           "normalized": "FilePath-\u003eIO FileStatus",
@@ -5404,6 +5672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads the \u003ccode\u003eFilePath\u003c/code\u003e pointed to by the symbolic link and returns it.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003ereadlink\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "readSymbolicLink",
           "package": "unix",
@@ -5414,6 +5683,7 @@
         "index": {
           "description": "Reads the FilePath pointed to by the symbolic link and returns it Note calls readlink",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "readSymbolicLink",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -5430,6 +5700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eremoveLink path\u003c/code\u003e removes the link named \u003ccode\u003epath\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eunlink\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "removeLink",
           "package": "unix",
@@ -5440,6 +5711,7 @@
         "index": {
           "description": "removeLink path removes the link named path Note calls unlink",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "removeLink",
           "normalized": "FilePath-\u003eIO()",
@@ -5456,6 +5728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erename old new\u003c/code\u003e renames a file or directory from \u003ccode\u003eold\u003c/code\u003e to \u003ccode\u003enew\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003erename\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "rename",
           "package": "unix",
@@ -5466,6 +5739,7 @@
         "index": {
           "description": "rename old new renames file or directory from old to new Note calls rename",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "rename",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -5481,6 +5755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetFileMode path mode\u003c/code\u003e changes permission of the file given by \u003ccode\u003epath\u003c/code\u003e\n to \u003ccode\u003emode\u003c/code\u003e. This operation may fail with \u003ccode\u003e\u003ca\u003ethrowErrnoPathIfMinus1_\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003epath\u003c/code\u003e\n doesn't exist or if the effective user ID of the current process is not that\n of the file's owner.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003echmod\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "setFileMode",
           "package": "unix",
@@ -5491,6 +5766,7 @@
         "index": {
           "description": "setFileMode path mode changes permission of the file given by path to mode This operation may fail with throwErrnoPathIfMinus1 if path doesn exist or if the effective user ID of the current process is not that of the file owner Note calls chmod",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "setFileMode",
           "normalized": "FilePath-\u003eFileMode-\u003eIO()",
@@ -5507,6 +5783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncates the file down to the specified length. If the file was larger\n than the given length before this operation was performed the extra is lost.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003etruncate\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "setFileSize",
           "package": "unix",
@@ -5517,6 +5794,7 @@
         "index": {
           "description": "Truncates the file down to the specified length If the file was larger than the given length before this operation was performed the extra is lost Note calls truncate",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "setFileSize",
           "normalized": "FilePath-\u003eFileOffset-\u003eIO()",
@@ -5533,6 +5811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetFileTimes path atime mtime\u003c/code\u003e sets the access and modification times\n associated with file \u003ccode\u003epath\u003c/code\u003e to \u003ccode\u003eatime\u003c/code\u003e and \u003ccode\u003emtime\u003c/code\u003e, respectively.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eutime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "setFileTimes",
           "package": "unix",
@@ -5543,6 +5822,7 @@
         "index": {
           "description": "setFileTimes path atime mtime sets the access and modification times associated with file path to atime and mtime respectively Note calls utime",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "setFileTimes",
           "normalized": "FilePath-\u003eEpochTime-\u003eEpochTime-\u003eIO()",
@@ -5559,6 +5839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esetFileTimes\u003c/a\u003e\u003c/code\u003e but timestamps can have sub-second resolution.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eutimensat\u003c/code\u003e or \u003ccode\u003eutimes\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 2.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "setFileTimesHiRes",
           "package": "unix",
@@ -5569,6 +5850,7 @@
         "index": {
           "description": "Like setFileTimes but timestamps can have sub-second resolution Note calls utimensat or utimes Since",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "setFileTimesHiRes",
           "normalized": "FilePath-\u003ePOSIXTime-\u003ePOSIXTime-\u003eIO()",
@@ -5585,6 +5867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetOwnerAndGroup path uid gid\u003c/code\u003e changes the owner and group of \u003ccode\u003epath\u003c/code\u003e to\n \u003ccode\u003euid\u003c/code\u003e and \u003ccode\u003egid\u003c/code\u003e, respectively.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003euid\u003c/code\u003e or \u003ccode\u003egid\u003c/code\u003e is specified as -1, then that ID is not changed.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003echown\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "setOwnerAndGroup",
           "package": "unix",
@@ -5595,6 +5878,7 @@
         "index": {
           "description": "setOwnerAndGroup path uid gid changes the owner and group of path to uid and gid respectively If uid or gid is specified as then that ID is not changed Note calls chown",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "setOwnerAndGroup",
           "normalized": "FilePath-\u003eUserID-\u003eGroupID-\u003eIO()",
@@ -5611,6 +5895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActs as \u003ccode\u003e\u003ca\u003esetOwnerAndGroup\u003c/a\u003e\u003c/code\u003e but does not follow symlinks (and thus\n changes permissions on the link itself).\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003elchown\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "setSymbolicLinkOwnerAndGroup",
           "package": "unix",
@@ -5621,6 +5906,7 @@
         "index": {
           "description": "Acts as setOwnerAndGroup but does not follow symlinks and thus changes permissions on the link itself Note calls lchown",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "setSymbolicLinkOwnerAndGroup",
           "normalized": "FilePath-\u003eUserID-\u003eGroupID-\u003eIO()",
@@ -5637,6 +5923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esetFileTimesHiRes\u003c/a\u003e\u003c/code\u003e but does not follow symbolic links.\n This operation is not supported on all platforms. On these platforms,\n this function will raise an exception.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eutimensat\u003c/code\u003e or \u003ccode\u003elutimes\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 2.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "setSymbolicLinkTimesHiRes",
           "package": "unix",
@@ -5647,6 +5934,7 @@
         "index": {
           "description": "Like setFileTimesHiRes but does not follow symbolic links This operation is not supported on all platforms On these platforms this function will raise an exception Note calls utimensat or lutimes Since",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "setSymbolicLinkTimesHiRes",
           "normalized": "FilePath-\u003ePOSIXTime-\u003ePOSIXTime-\u003eIO()",
@@ -5663,6 +5951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etouchFile path\u003c/code\u003e sets the access and modification times associated with\n file \u003ccode\u003epath\u003c/code\u003e to the current time.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003eutime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "touchFile",
           "package": "unix",
@@ -5673,6 +5962,7 @@
         "index": {
           "description": "touchFile path sets the access and modification times associated with file path to the current time Note calls utime",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "touchFile",
           "normalized": "FilePath-\u003eIO()",
@@ -5689,6 +5979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etouchFile\u003c/a\u003e\u003c/code\u003e but does not follow symbolic links.\n This operation is not supported on all platforms. On these platforms,\n this function will raise an exception.\n\u003c/p\u003e\u003cp\u003eNote: calls \u003ccode\u003elutimes\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 2.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Files",
           "name": "touchSymbolicLink",
           "package": "unix",
@@ -5699,6 +5990,7 @@
         "index": {
           "description": "Like touchFile but does not follow symbolic links This operation is not supported on all platforms On these platforms this function will raise an exception Note calls lutimes Since",
           "hierarchy": "System Posix Files",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Files",
           "name": "touchSymbolicLink",
           "normalized": "FilePath-\u003eIO()",
@@ -5715,6 +6007,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX IO support.  These types and functions correspond to the unix\n functions open(2), close(2), etc.  For more portable functions\n which are more like fopen(3) and friends from stdio.h, see\n \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -5724,6 +6017,7 @@
         "index": {
           "description": "POSIX IO support These types and functions correspond to the unix functions open close etc For more portable functions which are more like fopen and friends from stdio.h see System.IO",
           "hierarchy": "System Posix IO ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -5737,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO.ByteString",
           "name": "FdOption",
           "package": "unix",
@@ -5745,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO.ByteString",
           "name": "FdOption",
           "package": "unix",
@@ -5758,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO.ByteString",
           "name": "FileLock",
           "package": "unix",
@@ -5766,6 +6063,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO.ByteString",
           "name": "FileLock",
           "package": "unix",
@@ -5779,6 +6077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO.ByteString",
           "name": "LockRequest",
           "package": "unix",
@@ -5787,6 +6086,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO.ByteString",
           "name": "LockRequest",
           "package": "unix",
@@ -5801,6 +6101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorrespond to some of the int flags from C's fcntl.h.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO.ByteString",
           "name": "OpenFileFlags",
           "package": "unix",
@@ -5810,6 +6111,7 @@
         "index": {
           "description": "Correspond to some of the int flags from fcntl.h",
           "hierarchy": "System Posix IO ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO.ByteString",
           "name": "OpenFileFlags",
           "package": "unix",
@@ -5823,6 +6125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO.ByteString",
           "name": "OpenMode",
           "package": "unix",
@@ -5831,6 +6134,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO.ByteString",
           "name": "OpenMode",
           "package": "unix",
@@ -6157,6 +6461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and open this file in WriteOnly mode.  A special case of\n \u003ccode\u003e\u003ca\u003eopenFd\u003c/a\u003e\u003c/code\u003e.  See \u003ccode\u003e\u003ca\u003eFiles\u003c/a\u003e\u003c/code\u003e for information on how to use\n the \u003ccode\u003e\u003ca\u003eFileMode\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO.ByteString",
           "name": "createFile",
           "package": "unix",
@@ -6167,6 +6472,7 @@
         "index": {
           "description": "Create and open this file in WriteOnly mode special case of openFd See Files for information on how to use the FileMode type",
           "hierarchy": "System Posix IO ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO.ByteString",
           "name": "createFile",
           "normalized": "RawFilePath-\u003eFileMode-\u003eIO Fd",
@@ -6574,6 +6880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen and optionally create this file.  See \u003ccode\u003e\u003ca\u003eFiles\u003c/a\u003e\u003c/code\u003e\n for information on how to use the \u003ccode\u003e\u003ca\u003eFileMode\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO.ByteString",
           "name": "openFd",
           "package": "unix",
@@ -6583,6 +6890,7 @@
         "index": {
           "description": "Open and optionally create this file See Files for information on how to use the FileMode type",
           "hierarchy": "System Posix IO ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO.ByteString",
           "name": "openFd",
           "normalized": "RawFilePath-\u003eOpenMode-\u003eMaybe FileMode-\u003eOpenFileFlags-\u003eIO Fd",
@@ -6800,6 +7108,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX IO support.  These types and functions correspond to the unix\n functions open(2), close(2), etc.  For more portable functions\n which are more like fopen(3) and friends from stdio.h, see\n \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO",
           "name": "IO",
           "package": "unix",
@@ -6809,6 +7118,7 @@
         "index": {
           "description": "POSIX IO support These types and functions correspond to the unix functions open close etc For more portable functions which are more like fopen and friends from stdio.h see System.IO",
           "hierarchy": "System Posix IO",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO",
           "name": "IO",
           "package": "unix",
@@ -6822,6 +7132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO",
           "name": "FdOption",
           "package": "unix",
@@ -6830,6 +7141,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO",
           "name": "FdOption",
           "package": "unix",
@@ -6843,6 +7155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO",
           "name": "FileLock",
           "package": "unix",
@@ -6851,6 +7164,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO",
           "name": "FileLock",
           "package": "unix",
@@ -6864,6 +7178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO",
           "name": "LockRequest",
           "package": "unix",
@@ -6872,6 +7187,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO",
           "name": "LockRequest",
           "package": "unix",
@@ -6886,6 +7202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorrespond to some of the int flags from C's fcntl.h.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO",
           "name": "OpenFileFlags",
           "package": "unix",
@@ -6895,6 +7212,7 @@
         "index": {
           "description": "Correspond to some of the int flags from fcntl.h",
           "hierarchy": "System Posix IO",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO",
           "name": "OpenFileFlags",
           "package": "unix",
@@ -6908,6 +7226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO",
           "name": "OpenMode",
           "package": "unix",
@@ -6916,6 +7235,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO",
           "name": "OpenMode",
           "package": "unix",
@@ -6930,6 +7250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and open this file in WriteOnly mode.  A special case of\n \u003ccode\u003e\u003ca\u003eopenFd\u003c/a\u003e\u003c/code\u003e.  See \u003ccode\u003e\u003ca\u003eFiles\u003c/a\u003e\u003c/code\u003e for information on how to use\n the \u003ccode\u003e\u003ca\u003eFileMode\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO",
           "name": "createFile",
           "package": "unix",
@@ -6940,6 +7261,7 @@
         "index": {
           "description": "Create and open this file in WriteOnly mode special case of openFd See Files for information on how to use the FileMode type",
           "hierarchy": "System Posix IO",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO",
           "name": "createFile",
           "normalized": "FilePath-\u003eFileMode-\u003eIO Fd",
@@ -6956,6 +7278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen and optionally create this file.  See \u003ccode\u003e\u003ca\u003eFiles\u003c/a\u003e\u003c/code\u003e\n for information on how to use the \u003ccode\u003e\u003ca\u003eFileMode\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.IO",
           "name": "openFd",
           "package": "unix",
@@ -6965,6 +7288,7 @@
         "index": {
           "description": "Open and optionally create this file See Files for information on how to use the FileMode type",
           "hierarchy": "System Posix IO",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.IO",
           "name": "openFd",
           "normalized": "FilePath-\u003eOpenMode-\u003eMaybe FileMode-\u003eOpenFileFlags-\u003eIO Fd",
@@ -6981,6 +7305,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX process support.  See also the System.Cmd and System.Process\n modules in the process package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -6990,6 +7315,7 @@
         "index": {
           "description": "POSIX process support See also the System.Cmd and System.Process modules in the process package",
           "hierarchy": "System Posix Process ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -7004,6 +7330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exit status of a process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.ByteString",
           "name": "ProcessStatus",
           "package": "unix",
@@ -7013,6 +7340,7 @@
         "index": {
           "description": "The exit status of process",
           "hierarchy": "System Posix Process ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.ByteString",
           "name": "ProcessStatus",
           "package": "unix",
@@ -7026,6 +7354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.ByteString",
           "name": "ProcessTimes",
           "package": "unix",
@@ -7034,6 +7363,7 @@
         },
         "index": {
           "hierarchy": "System Posix Process ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.ByteString",
           "name": "ProcessTimes",
           "package": "unix",
@@ -7294,6 +7624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eexecuteFile\u003c/a\u003e\u003c/code\u003e cmd args env\u003c/code\u003e calls one of the\n   \u003ccode\u003eexecv*\u003c/code\u003e family, depending on whether or not the current\n   PATH is to be searched for the command, and whether or not an\n   environment is provided to supersede the process's current\n   environment.  The basename (leading directory names suppressed) of\n   the command is passed to \u003ccode\u003eexecv*\u003c/code\u003e as \u003ccode\u003earg[0]\u003c/code\u003e;\n   the argument list passed to \u003ccode\u003e\u003ca\u003eexecuteFile\u003c/a\u003e\u003c/code\u003e therefore\n   begins with \u003ccode\u003earg[1]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.ByteString",
           "name": "executeFile",
           "package": "unix",
@@ -7303,6 +7634,7 @@
         "index": {
           "description": "executeFile cmd args env calls one of the execv family depending on whether or not the current PATH is to be searched for the command and whether or not an environment is provided to supersede the process current environment The basename leading directory names suppressed of the command is passed to execv as arg the argument list passed to executeFile therefore begins with arg",
           "hierarchy": "System Posix Process ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.ByteString",
           "name": "executeFile",
           "normalized": "RawFilePath-\u003eBool-\u003e[ByteString]-\u003eMaybe[(ByteString,ByteString)]-\u003eIO a",
@@ -7908,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.Internals",
           "name": "Internals",
           "package": "unix",
@@ -7916,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "System Posix Process Internals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.Internals",
           "name": "Internals",
           "package": "unix",
@@ -7930,6 +8264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exit status of a process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.Internals",
           "name": "ProcessStatus",
           "package": "unix",
@@ -7939,6 +8274,7 @@
         "index": {
           "description": "The exit status of process",
           "hierarchy": "System Posix Process Internals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.Internals",
           "name": "ProcessStatus",
           "package": "unix",
@@ -7952,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.Internals",
           "name": "c_execvpe",
           "package": "unix",
@@ -7961,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "System Posix Process Internals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.Internals",
           "name": "c_execvpe",
           "normalized": "CString-\u003ePtr CString-\u003ePtr CString-\u003eIO CInt",
@@ -7975,6 +8313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.Internals",
           "name": "decipherWaitStatus",
           "package": "unix",
@@ -7984,6 +8323,7 @@
         },
         "index": {
           "hierarchy": "System Posix Process Internals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.Internals",
           "name": "decipherWaitStatus",
           "normalized": "CInt-\u003eIO ProcessStatus",
@@ -7999,6 +8339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process.Internals",
           "name": "pPrPr_disableITimers",
           "package": "unix",
@@ -8008,6 +8349,7 @@
         },
         "index": {
           "hierarchy": "System Posix Process Internals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process.Internals",
           "name": "pPrPr_disableITimers",
           "normalized": "IO()",
@@ -8024,6 +8366,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX process support.  See also the System.Cmd and System.Process\n modules in the process package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process",
           "name": "Process",
           "package": "unix",
@@ -8033,6 +8376,7 @@
         "index": {
           "description": "POSIX process support See also the System.Cmd and System.Process modules in the process package",
           "hierarchy": "System Posix Process",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process",
           "name": "Process",
           "package": "unix",
@@ -8047,6 +8391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exit status of a process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process",
           "name": "ProcessStatus",
           "package": "unix",
@@ -8056,6 +8401,7 @@
         "index": {
           "description": "The exit status of process",
           "hierarchy": "System Posix Process",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process",
           "name": "ProcessStatus",
           "package": "unix",
@@ -8069,6 +8415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process",
           "name": "ProcessTimes",
           "package": "unix",
@@ -8077,6 +8424,7 @@
         },
         "index": {
           "hierarchy": "System Posix Process",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process",
           "name": "ProcessTimes",
           "package": "unix",
@@ -8091,6 +8439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eexecuteFile\u003c/a\u003e\u003c/code\u003e cmd args env\u003c/code\u003e calls one of the\n   \u003ccode\u003eexecv*\u003c/code\u003e family, depending on whether or not the current\n   PATH is to be searched for the command, and whether or not an\n   environment is provided to supersede the process's current\n   environment.  The basename (leading directory names suppressed) of\n   the command is passed to \u003ccode\u003eexecv*\u003c/code\u003e as \u003ccode\u003earg[0]\u003c/code\u003e;\n   the argument list passed to \u003ccode\u003e\u003ca\u003eexecuteFile\u003c/a\u003e\u003c/code\u003e therefore \n   begins with \u003ccode\u003earg[1]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Process",
           "name": "executeFile",
           "package": "unix",
@@ -8100,6 +8449,7 @@
         "index": {
           "description": "executeFile cmd args env calls one of the execv family depending on whether or not the current PATH is to be searched for the command and whether or not an environment is provided to supersede the process current environment The basename leading directory names suppressed of the command is passed to execv as arg the argument list passed to executeFile therefore begins with arg",
           "hierarchy": "System Posix Process",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Process",
           "name": "executeFile",
           "normalized": "FilePath-\u003eBool-\u003e[String]-\u003eMaybe[(String,String)]-\u003eIO a",
@@ -8116,6 +8466,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX resource support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "Resource",
           "package": "unix",
@@ -8125,6 +8476,7 @@
         "index": {
           "description": "POSIX resource support",
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "Resource",
           "package": "unix",
@@ -8138,6 +8490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "Resource",
           "package": "unix",
@@ -8146,6 +8499,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "Resource",
           "package": "unix",
@@ -8159,6 +8513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceLimit",
           "package": "unix",
@@ -8167,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceLimit",
           "package": "unix",
@@ -8180,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceLimits",
           "package": "unix",
@@ -8188,6 +8545,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceLimits",
           "package": "unix",
@@ -8201,6 +8559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceCPUTime",
           "package": "unix",
@@ -8210,6 +8569,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceCPUTime",
           "package": "unix",
@@ -8223,6 +8583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceCoreFileSize",
           "package": "unix",
@@ -8232,6 +8593,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceCoreFileSize",
           "package": "unix",
@@ -8245,6 +8607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceDataSize",
           "package": "unix",
@@ -8254,6 +8617,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceDataSize",
           "package": "unix",
@@ -8267,6 +8631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceFileSize",
           "package": "unix",
@@ -8276,6 +8641,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceFileSize",
           "package": "unix",
@@ -8289,6 +8655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceLimit",
           "package": "unix",
@@ -8298,6 +8665,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceLimit",
           "package": "unix",
@@ -8311,6 +8679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceLimitInfinity",
           "package": "unix",
@@ -8320,6 +8689,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceLimitInfinity",
           "package": "unix",
@@ -8333,6 +8703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceLimitUnknown",
           "package": "unix",
@@ -8342,6 +8713,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceLimitUnknown",
           "package": "unix",
@@ -8355,6 +8727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceLimits",
           "package": "unix",
@@ -8364,6 +8737,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceLimits",
           "package": "unix",
@@ -8377,6 +8751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceOpenFiles",
           "package": "unix",
@@ -8386,6 +8761,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceOpenFiles",
           "package": "unix",
@@ -8399,6 +8775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceStackSize",
           "package": "unix",
@@ -8408,6 +8785,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceStackSize",
           "package": "unix",
@@ -8421,6 +8799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "ResourceTotalMemory",
           "package": "unix",
@@ -8430,6 +8809,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "ResourceTotalMemory",
           "package": "unix",
@@ -8443,6 +8823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "getResourceLimit",
           "package": "unix",
@@ -8452,6 +8833,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "getResourceLimit",
           "normalized": "Resource-\u003eIO ResourceLimits",
@@ -8467,6 +8849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "hardLimit",
           "package": "unix",
@@ -8476,6 +8859,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "hardLimit",
           "package": "unix",
@@ -8489,6 +8873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "setResourceLimit",
           "package": "unix",
@@ -8498,6 +8883,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "setResourceLimit",
           "normalized": "Resource-\u003eResourceLimits-\u003eIO()",
@@ -8513,6 +8899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Resource",
           "name": "softLimit",
           "package": "unix",
@@ -8522,6 +8909,7 @@
         },
         "index": {
           "hierarchy": "System Posix Resource",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Resource",
           "name": "softLimit",
           "package": "unix",
@@ -8536,6 +8924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX named semaphore support.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "Semaphore",
           "package": "unix",
@@ -8545,6 +8934,7 @@
         "index": {
           "description": "POSIX named semaphore support",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "Semaphore",
           "package": "unix",
@@ -8558,6 +8948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "OpenSemFlags",
           "package": "unix",
@@ -8566,6 +8957,7 @@
         },
         "index": {
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "OpenSemFlags",
           "package": "unix",
@@ -8579,6 +8971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "Semaphore",
           "package": "unix",
@@ -8587,6 +8980,7 @@
         },
         "index": {
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "Semaphore",
           "package": "unix",
@@ -8600,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "OpenSemFlags",
           "package": "unix",
@@ -8609,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "OpenSemFlags",
           "package": "unix",
@@ -8623,6 +9019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, create the semaphore if it\n   does not yet exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semCreate",
           "package": "unix",
@@ -8633,6 +9030,7 @@
         "index": {
           "description": "If true create the semaphore if it does not yet exist",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semCreate",
           "package": "unix",
@@ -8647,6 +9045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, throw an exception if the\n   semaphore already exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semExclusive",
           "package": "unix",
@@ -8657,6 +9056,7 @@
         "index": {
           "description": "If true throw an exception if the semaphore already exists",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semExclusive",
           "package": "unix",
@@ -8671,6 +9071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the semaphore's current value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semGetValue",
           "package": "unix",
@@ -8681,6 +9082,7 @@
         "index": {
           "description": "Return the semaphore current value",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semGetValue",
           "normalized": "Semaphore-\u003eIO Int",
@@ -8697,6 +9099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a named semaphore with the given name, flags, mode, and initial \n   value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semOpen",
           "package": "unix",
@@ -8707,6 +9110,7 @@
         "index": {
           "description": "Open named semaphore with the given name flags mode and initial value",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semOpen",
           "normalized": "String-\u003eOpenSemFlags-\u003eFileMode-\u003eInt-\u003eIO Semaphore",
@@ -8723,6 +9127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlock the semaphore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semPost",
           "package": "unix",
@@ -8733,6 +9138,7 @@
         "index": {
           "description": "Unlock the semaphore",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semPost",
           "normalized": "Semaphore-\u003eIO()",
@@ -8749,6 +9155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoll the semaphore until it is available, then lock it.  Unlike \n   semWait, this will block only the current thread rather than the\n   entire process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semThreadWait",
           "package": "unix",
@@ -8759,6 +9166,7 @@
         "index": {
           "description": "Poll the semaphore until it is available then lock it Unlike semWait this will block only the current thread rather than the entire process",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semThreadWait",
           "normalized": "Semaphore-\u003eIO()",
@@ -8775,6 +9183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to lock the semaphore without blocking.  Immediately return\n   False if it is not available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semTryWait",
           "package": "unix",
@@ -8785,6 +9194,7 @@
         "index": {
           "description": "Attempt to lock the semaphore without blocking Immediately return False if it is not available",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semTryWait",
           "normalized": "Semaphore-\u003eIO Bool",
@@ -8801,6 +9211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the semaphore with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semUnlink",
           "package": "unix",
@@ -8811,6 +9222,7 @@
         "index": {
           "description": "Delete the semaphore with the given name",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semUnlink",
           "normalized": "String-\u003eIO()",
@@ -8827,6 +9239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLock the semaphore, blocking until it becomes available.  Since this\n   is done through a system call, this will block the *entire runtime*,\n   not just the current thread.  If this is not the behaviour you want,\n   use semThreadWait instead. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Semaphore",
           "name": "semWait",
           "package": "unix",
@@ -8837,6 +9250,7 @@
         "index": {
           "description": "Lock the semaphore blocking until it becomes available Since this is done through system call this will block the entire runtime not just the current thread If this is not the behaviour you want use semThreadWait instead",
           "hierarchy": "System Posix Semaphore",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Semaphore",
           "name": "semWait",
           "normalized": "Semaphore-\u003eIO()",
@@ -8853,6 +9267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX shared memory support.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "SharedMem",
           "package": "unix",
@@ -8862,6 +9277,7 @@
         "index": {
           "description": "POSIX shared memory support",
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "SharedMem",
           "package": "unix",
@@ -8875,6 +9291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "ShmOpenFlags",
           "package": "unix",
@@ -8883,6 +9300,7 @@
         },
         "index": {
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "ShmOpenFlags",
           "package": "unix",
@@ -8896,6 +9314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "ShmOpenFlags",
           "package": "unix",
@@ -8905,6 +9324,7 @@
         },
         "index": {
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "ShmOpenFlags",
           "package": "unix",
@@ -8919,6 +9339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, create the shm object if it does not exist. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "shmCreate",
           "package": "unix",
@@ -8929,6 +9350,7 @@
         "index": {
           "description": "If true create the shm object if it does not exist",
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "shmCreate",
           "package": "unix",
@@ -8943,6 +9365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, throw an exception if the shm object already exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "shmExclusive",
           "package": "unix",
@@ -8953,6 +9376,7 @@
         "index": {
           "description": "If true throw an exception if the shm object already exists",
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "shmExclusive",
           "package": "unix",
@@ -8967,6 +9391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a shared memory object with the given name, flags, and mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "shmOpen",
           "package": "unix",
@@ -8977,6 +9402,7 @@
         "index": {
           "description": "Open shared memory object with the given name flags and mode",
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "shmOpen",
           "normalized": "String-\u003eShmOpenFlags-\u003eFileMode-\u003eIO Fd",
@@ -8993,6 +9419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, open the shm object read-write rather than read-only. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "shmReadWrite",
           "package": "unix",
@@ -9003,6 +9430,7 @@
         "index": {
           "description": "If true open the shm object read-write rather than read-only",
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "shmReadWrite",
           "package": "unix",
@@ -9017,6 +9445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, wipe the contents of the shm object after opening it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "shmTrunc",
           "package": "unix",
@@ -9027,6 +9456,7 @@
         "index": {
           "description": "If true wipe the contents of the shm object after opening it",
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "shmTrunc",
           "package": "unix",
@@ -9041,6 +9471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the shared memory object with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.SharedMem",
           "name": "shmUnlink",
           "package": "unix",
@@ -9051,6 +9482,7 @@
         "index": {
           "description": "Delete the shared memory object with the given name",
           "hierarchy": "System Posix SharedMem",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.SharedMem",
           "name": "shmUnlink",
           "normalized": "String-\u003eIO()",
@@ -9067,6 +9499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003enon-POSIX signal support commonly available\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals.Exts",
           "name": "Exts",
           "package": "unix",
@@ -9076,6 +9509,7 @@
         "index": {
           "description": "non-POSIX signal support commonly available",
           "hierarchy": "System Posix Signals Exts",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals.Exts",
           "name": "Exts",
           "package": "unix",
@@ -9089,6 +9523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals.Exts",
           "name": "sigWINCH",
           "package": "unix",
@@ -9098,6 +9533,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals Exts",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals.Exts",
           "name": "sigWINCH",
           "package": "unix",
@@ -9111,6 +9547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals.Exts",
           "name": "windowChange",
           "package": "unix",
@@ -9120,6 +9557,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals Exts",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals.Exts",
           "name": "windowChange",
           "package": "unix",
@@ -9134,6 +9572,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX signal support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "Signals",
           "package": "unix",
@@ -9143,6 +9582,7 @@
         "index": {
           "description": "POSIX signal support",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "Signals",
           "package": "unix",
@@ -9157,6 +9597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actions to perform when a signal is received.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "Handler",
           "package": "unix",
@@ -9166,6 +9607,7 @@
         "index": {
           "description": "The actions to perform when signal is received",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "Handler",
           "package": "unix",
@@ -9179,6 +9621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "Signal",
           "package": "unix",
@@ -9187,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "Signal",
           "package": "unix",
@@ -9201,6 +9645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a received signal (derived from \u003ccode\u003esiginfo_t\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 2.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "SignalInfo",
           "package": "unix",
@@ -9210,6 +9655,7 @@
         "index": {
           "description": "Information about received signal derived from siginfo Since",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "SignalInfo",
           "package": "unix",
@@ -9223,6 +9669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "SignalSet",
           "package": "unix",
@@ -9231,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "SignalSet",
           "package": "unix",
@@ -9245,6 +9693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation specific to a particular type of signal\n (derived from \u003ccode\u003esiginfo_t\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 2.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "SignalSpecificInfo",
           "package": "unix",
@@ -9254,6 +9703,7 @@
         "index": {
           "description": "Information specific to particular type of signal derived from siginfo Since",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "SignalSpecificInfo",
           "package": "unix",
@@ -9267,6 +9717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "Catch",
           "package": "unix",
@@ -9276,6 +9727,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "Catch",
           "normalized": "Catch(IO())",
@@ -9292,6 +9744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eSince: 2.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "CatchInfo",
           "package": "unix",
@@ -9302,6 +9755,7 @@
         "index": {
           "description": "Since",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "CatchInfo",
           "normalized": "CatchInfo(SignalInfo-\u003eIO())",
@@ -9318,6 +9772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eSince: 2.7.0.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "CatchInfoOnce",
           "package": "unix",
@@ -9328,6 +9783,7 @@
         "index": {
           "description": "Since",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "CatchInfoOnce",
           "normalized": "CatchInfoOnce(SignalInfo-\u003eIO())",
@@ -9343,6 +9799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "CatchOnce",
           "package": "unix",
@@ -9352,6 +9809,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "CatchOnce",
           "normalized": "CatchOnce(IO())",
@@ -9367,6 +9825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "Default",
           "package": "unix",
@@ -9376,6 +9835,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "Default",
           "package": "unix",
@@ -9389,6 +9849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "Ignore",
           "package": "unix",
@@ -9398,6 +9859,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "Ignore",
           "package": "unix",
@@ -9411,6 +9873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "NoSignalSpecificInfo",
           "package": "unix",
@@ -9420,6 +9883,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "NoSignalSpecificInfo",
           "package": "unix",
@@ -9433,6 +9897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "SigChldInfo",
           "package": "unix",
@@ -9442,6 +9907,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "SigChldInfo",
           "package": "unix",
@@ -9455,6 +9921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "SignalInfo",
           "package": "unix",
@@ -9464,6 +9931,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "SignalInfo",
           "package": "unix",
@@ -9477,6 +9945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "addSignal",
           "package": "unix",
@@ -9486,6 +9955,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "addSignal",
           "normalized": "Signal-\u003eSignalSet-\u003eSignalSet",
@@ -9502,6 +9972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eawaitSignal iset\u003c/code\u003e suspends execution until an interrupt is received.\n If \u003ccode\u003eiset\u003c/code\u003e is \u003ccode\u003eJust s\u003c/code\u003e, \u003ccode\u003eawaitSignal\u003c/code\u003e calls \u003ccode\u003esigsuspend\u003c/code\u003e, installing\n \u003ccode\u003es\u003c/code\u003e as the new signal mask before suspending execution; otherwise, it\n calls \u003ccode\u003esigsuspend\u003c/code\u003e with current signal mask. Note that RTS\n scheduler signal (either \u003ccode\u003e\u003ca\u003evirtualTimerExpired\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erealTimeAlarm\u003c/a\u003e\u003c/code\u003e)\n could cause premature termination of this call. It might be necessary to block that\n signal before invocation of \u003ccode\u003eawaitSignal\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eblockSignals\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ereservedSignals\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eawaitSignal\u003c/code\u003e returns when signal was received and processed by a\n signal handler, or if the signal could not be caught. If you have\n installed any signal handlers with \u003ccode\u003einstallHandler\u003c/code\u003e, it may be wise\n to call \u003ccode\u003eyield\u003c/code\u003e directly after \u003ccode\u003eawaitSignal\u003c/code\u003e to ensure that the\n signal handler runs as promptly as possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "awaitSignal",
           "package": "unix",
@@ -9512,6 +9983,7 @@
         "index": {
           "description": "awaitSignal iset suspends execution until an interrupt is received If iset is Just awaitSignal calls sigsuspend installing as the new signal mask before suspending execution otherwise it calls sigsuspend with current signal mask Note that RTS scheduler signal either virtualTimerExpired or realTimeAlarm could cause premature termination of this call It might be necessary to block that signal before invocation of awaitSignal with blockSignals reservedSignals awaitSignal returns when signal was received and processed by signal handler or if the signal could not be caught If you have installed any signal handlers with installHandler it may be wise to call yield directly after awaitSignal to ensure that the signal handler runs as promptly as possible",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "awaitSignal",
           "normalized": "Maybe SignalSet-\u003eIO()",
@@ -9527,6 +9999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "backgroundRead",
           "package": "unix",
@@ -9536,6 +10009,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "backgroundRead",
           "package": "unix",
@@ -9549,6 +10023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "backgroundWrite",
           "package": "unix",
@@ -9558,6 +10033,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "backgroundWrite",
           "package": "unix",
@@ -9571,6 +10047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "badSystemCall",
           "package": "unix",
@@ -9580,6 +10057,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "badSystemCall",
           "package": "unix",
@@ -9594,6 +10072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eblockSignals mask\u003c/code\u003e calls \u003ccode\u003esigprocmask\u003c/code\u003e with\n   \u003ccode\u003eSIG_BLOCK\u003c/code\u003e to add all interrupts in \u003ccode\u003emask\u003c/code\u003e to the\n  set of blocked interrupts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "blockSignals",
           "package": "unix",
@@ -9604,6 +10083,7 @@
         "index": {
           "description": "blockSignals mask calls sigprocmask with SIG BLOCK to add all interrupts in mask to the set of blocked interrupts",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "blockSignals",
           "normalized": "SignalSet-\u003eIO()",
@@ -9619,6 +10099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "breakpointTrap",
           "package": "unix",
@@ -9628,6 +10109,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "breakpointTrap",
           "package": "unix",
@@ -9641,6 +10123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "busError",
           "package": "unix",
@@ -9650,6 +10133,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "busError",
           "package": "unix",
@@ -9663,6 +10147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "continueProcess",
           "package": "unix",
@@ -9672,6 +10157,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "continueProcess",
           "package": "unix",
@@ -9685,6 +10171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "cpuTimeLimitExceeded",
           "package": "unix",
@@ -9694,6 +10181,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "cpuTimeLimitExceeded",
           "package": "unix",
@@ -9707,6 +10195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "deleteSignal",
           "package": "unix",
@@ -9716,6 +10205,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "deleteSignal",
           "normalized": "Signal-\u003eSignalSet-\u003eSignalSet",
@@ -9731,6 +10221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "emptySignalSet",
           "package": "unix",
@@ -9740,6 +10231,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "emptySignalSet",
           "package": "unix",
@@ -9753,6 +10245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "fileSizeLimitExceeded",
           "package": "unix",
@@ -9762,6 +10255,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "fileSizeLimitExceeded",
           "package": "unix",
@@ -9775,6 +10269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "floatingPointException",
           "package": "unix",
@@ -9784,6 +10279,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "floatingPointException",
           "package": "unix",
@@ -9797,6 +10293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "fullSignalSet",
           "package": "unix",
@@ -9806,6 +10303,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "fullSignalSet",
           "package": "unix",
@@ -9820,6 +10318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetPendingSignals\u003c/code\u003e calls \u003ccode\u003esigpending\u003c/code\u003e to obtain\n   the set of interrupts which have been received but are currently blocked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "getPendingSignals",
           "package": "unix",
@@ -9830,6 +10329,7 @@
         "index": {
           "description": "getPendingSignals calls sigpending to obtain the set of interrupts which have been received but are currently blocked",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "getPendingSignals",
           "package": "unix",
@@ -9844,6 +10344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetSignalMask\u003c/code\u003e calls \u003ccode\u003esigprocmask\u003c/code\u003e to determine the\n   set of interrupts which are currently being blocked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "getSignalMask",
           "package": "unix",
@@ -9854,6 +10355,7 @@
         "index": {
           "description": "getSignalMask calls sigprocmask to determine the set of interrupts which are currently being blocked",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "getSignalMask",
           "package": "unix",
@@ -9867,6 +10369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "illegalInstruction",
           "package": "unix",
@@ -9876,6 +10379,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "illegalInstruction",
           "package": "unix",
@@ -9889,6 +10393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "inSignalSet",
           "package": "unix",
@@ -9898,6 +10403,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "inSignalSet",
           "normalized": "Signal-\u003eSignalSet-\u003eBool",
@@ -9914,6 +10420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einstallHandler int handler iset\u003c/code\u003e calls \u003ccode\u003esigaction\u003c/code\u003e to install an\n   interrupt handler for signal \u003ccode\u003eint\u003c/code\u003e.  If \u003ccode\u003ehandler\u003c/code\u003e is \u003ccode\u003eDefault\u003c/code\u003e,\n   \u003ccode\u003eSIG_DFL\u003c/code\u003e is installed; if \u003ccode\u003ehandler\u003c/code\u003e is \u003ccode\u003eIgnore\u003c/code\u003e, \u003ccode\u003eSIG_IGN\u003c/code\u003e is\n   installed; if \u003ccode\u003ehandler\u003c/code\u003e is \u003ccode\u003eCatch action\u003c/code\u003e, a handler is installed\n   which will invoke \u003ccode\u003eaction\u003c/code\u003e in a new thread when (or shortly after) the\n   signal is received.\n   If \u003ccode\u003eiset\u003c/code\u003e is \u003ccode\u003eJust s\u003c/code\u003e, then the \u003ccode\u003esa_mask\u003c/code\u003e of the \u003ccode\u003esigaction\u003c/code\u003e structure\n   is set to \u003ccode\u003es\u003c/code\u003e; otherwise it is cleared.  The previously installed\n   signal handler for \u003ccode\u003eint\u003c/code\u003e is returned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "installHandler",
           "package": "unix",
@@ -9923,6 +10430,7 @@
         "index": {
           "description": "installHandler int handler iset calls sigaction to install an interrupt handler for signal int If handler is Default SIG DFL is installed if handler is Ignore SIG IGN is installed if handler is Catch action handler is installed which will invoke action in new thread when or shortly after the signal is received If iset is Just then the sa mask of the sigaction structure is set to otherwise it is cleared The previously installed signal handler for int is returned",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "installHandler",
           "normalized": "Signal-\u003eHandler-\u003eMaybe SignalSet-\u003eIO Handler",
@@ -9938,6 +10446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "internalAbort",
           "package": "unix",
@@ -9947,6 +10456,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "internalAbort",
           "package": "unix",
@@ -9960,6 +10470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "keyboardSignal",
           "package": "unix",
@@ -9969,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "keyboardSignal",
           "package": "unix",
@@ -9982,6 +10494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "keyboardStop",
           "package": "unix",
@@ -9991,6 +10504,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "keyboardStop",
           "package": "unix",
@@ -10004,6 +10518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "keyboardTermination",
           "package": "unix",
@@ -10013,6 +10528,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "keyboardTermination",
           "package": "unix",
@@ -10026,6 +10542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "killProcess",
           "package": "unix",
@@ -10035,6 +10552,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "killProcess",
           "package": "unix",
@@ -10048,6 +10566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "lostConnection",
           "package": "unix",
@@ -10057,6 +10576,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "lostConnection",
           "package": "unix",
@@ -10070,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "nullSignal",
           "package": "unix",
@@ -10079,6 +10600,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "nullSignal",
           "package": "unix",
@@ -10092,6 +10614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "openEndedPipe",
           "package": "unix",
@@ -10101,6 +10624,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "openEndedPipe",
           "package": "unix",
@@ -10114,6 +10638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "pollableEvent",
           "package": "unix",
@@ -10123,6 +10648,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "pollableEvent",
           "package": "unix",
@@ -10136,6 +10662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "processStatusChanged",
           "package": "unix",
@@ -10145,6 +10672,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "processStatusChanged",
           "package": "unix",
@@ -10158,6 +10686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "profilingTimerExpired",
           "package": "unix",
@@ -10167,6 +10696,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "profilingTimerExpired",
           "package": "unix",
@@ -10181,6 +10711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries the current state of the stopped child flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "queryStoppedChildFlag",
           "package": "unix",
@@ -10191,6 +10722,7 @@
         "index": {
           "description": "Queries the current state of the stopped child flag",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "queryStoppedChildFlag",
           "package": "unix",
@@ -10205,6 +10737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eraiseSignal int\u003c/code\u003e calls \u003ccode\u003ekill\u003c/code\u003e to signal the current process\n   with interrupt signal \u003ccode\u003eint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "raiseSignal",
           "package": "unix",
@@ -10215,6 +10748,7 @@
         "index": {
           "description": "raiseSignal int calls kill to signal the current process with interrupt signal int",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "raiseSignal",
           "normalized": "Signal-\u003eIO()",
@@ -10230,6 +10764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "realTimeAlarm",
           "package": "unix",
@@ -10239,6 +10774,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "realTimeAlarm",
           "package": "unix",
@@ -10253,6 +10789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of signals reserved for use by the implementation.  In GHC, this will normally\n include either \u003ccode\u003e\u003ca\u003esigVTALRM\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esigALRM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "reservedSignals",
           "package": "unix",
@@ -10263,6 +10800,7 @@
         "index": {
           "description": "set of signals reserved for use by the implementation In GHC this will normally include either sigVTALRM or sigALRM",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "reservedSignals",
           "package": "unix",
@@ -10277,6 +10815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003escheduleAlarm i\u003c/code\u003e calls \u003ccode\u003ealarm\u003c/code\u003e to schedule a real time\n   alarm at least \u003ccode\u003ei\u003c/code\u003e seconds in the future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "scheduleAlarm",
           "package": "unix",
@@ -10287,6 +10826,7 @@
         "index": {
           "description": "scheduleAlarm calls alarm to schedule real time alarm at least seconds in the future",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "scheduleAlarm",
           "normalized": "Int-\u003eIO Int",
@@ -10302,6 +10842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "segmentationViolation",
           "package": "unix",
@@ -10311,6 +10852,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "segmentationViolation",
           "package": "unix",
@@ -10325,6 +10867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetSignalMask mask\u003c/code\u003e calls \u003ccode\u003esigprocmask\u003c/code\u003e with\n   \u003ccode\u003eSIG_SETMASK\u003c/code\u003e to block all interrupts in \u003ccode\u003emask\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "setSignalMask",
           "package": "unix",
@@ -10335,6 +10878,7 @@
         "index": {
           "description": "setSignalMask mask calls sigprocmask with SIG SETMASK to block all interrupts in mask",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "setSignalMask",
           "normalized": "SignalSet-\u003eIO()",
@@ -10351,6 +10895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTells the system whether or not to set the \u003ccode\u003eSA_NOCLDSTOP\u003c/code\u003e flag when\n installing new signal handlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "setStoppedChildFlag",
           "package": "unix",
@@ -10361,6 +10906,7 @@
         "index": {
           "description": "Tells the system whether or not to set the SA NOCLDSTOP flag when installing new signal handlers",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "setStoppedChildFlag",
           "normalized": "Bool-\u003eIO Bool",
@@ -10376,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigABRT",
           "package": "unix",
@@ -10385,6 +10932,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigABRT",
           "package": "unix",
@@ -10398,6 +10946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigALRM",
           "package": "unix",
@@ -10407,6 +10956,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigALRM",
           "package": "unix",
@@ -10420,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigBUS",
           "package": "unix",
@@ -10429,6 +10980,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigBUS",
           "package": "unix",
@@ -10442,6 +10994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigCHLD",
           "package": "unix",
@@ -10451,6 +11004,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigCHLD",
           "package": "unix",
@@ -10464,6 +11018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigCONT",
           "package": "unix",
@@ -10473,6 +11028,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigCONT",
           "package": "unix",
@@ -10486,6 +11042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigFPE",
           "package": "unix",
@@ -10495,6 +11052,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigFPE",
           "package": "unix",
@@ -10508,6 +11066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigHUP",
           "package": "unix",
@@ -10517,6 +11076,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigHUP",
           "package": "unix",
@@ -10530,6 +11090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigILL",
           "package": "unix",
@@ -10539,6 +11100,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigILL",
           "package": "unix",
@@ -10552,6 +11114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigINT",
           "package": "unix",
@@ -10561,6 +11124,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigINT",
           "package": "unix",
@@ -10574,6 +11138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigKILL",
           "package": "unix",
@@ -10583,6 +11148,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigKILL",
           "package": "unix",
@@ -10596,6 +11162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigPIPE",
           "package": "unix",
@@ -10605,6 +11172,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigPIPE",
           "package": "unix",
@@ -10618,6 +11186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigPOLL",
           "package": "unix",
@@ -10627,6 +11196,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigPOLL",
           "package": "unix",
@@ -10640,6 +11210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigPROF",
           "package": "unix",
@@ -10649,6 +11220,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigPROF",
           "package": "unix",
@@ -10662,6 +11234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigQUIT",
           "package": "unix",
@@ -10671,6 +11244,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigQUIT",
           "package": "unix",
@@ -10684,6 +11258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigSEGV",
           "package": "unix",
@@ -10693,6 +11268,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigSEGV",
           "package": "unix",
@@ -10706,6 +11282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigSTOP",
           "package": "unix",
@@ -10715,6 +11292,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigSTOP",
           "package": "unix",
@@ -10728,6 +11306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigSYS",
           "package": "unix",
@@ -10737,6 +11316,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigSYS",
           "package": "unix",
@@ -10750,6 +11330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigTERM",
           "package": "unix",
@@ -10759,6 +11340,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigTERM",
           "package": "unix",
@@ -10772,6 +11354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigTRAP",
           "package": "unix",
@@ -10781,6 +11364,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigTRAP",
           "package": "unix",
@@ -10794,6 +11378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigTSTP",
           "package": "unix",
@@ -10803,6 +11388,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigTSTP",
           "package": "unix",
@@ -10816,6 +11402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigTTIN",
           "package": "unix",
@@ -10825,6 +11412,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigTTIN",
           "package": "unix",
@@ -10838,6 +11426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigTTOU",
           "package": "unix",
@@ -10847,6 +11436,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigTTOU",
           "package": "unix",
@@ -10860,6 +11450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigURG",
           "package": "unix",
@@ -10869,6 +11460,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigURG",
           "package": "unix",
@@ -10882,6 +11474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigUSR1",
           "package": "unix",
@@ -10891,6 +11484,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigUSR1",
           "package": "unix",
@@ -10904,6 +11498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigUSR2",
           "package": "unix",
@@ -10913,6 +11508,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigUSR2",
           "package": "unix",
@@ -10926,6 +11522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigVTALRM",
           "package": "unix",
@@ -10935,6 +11532,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigVTALRM",
           "package": "unix",
@@ -10948,6 +11546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigXCPU",
           "package": "unix",
@@ -10957,6 +11556,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigXCPU",
           "package": "unix",
@@ -10970,6 +11570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "sigXFSZ",
           "package": "unix",
@@ -10979,6 +11580,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "sigXFSZ",
           "package": "unix",
@@ -10992,6 +11594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "siginfoError",
           "package": "unix",
@@ -11001,6 +11604,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "siginfoError",
           "package": "unix",
@@ -11014,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "siginfoPid",
           "package": "unix",
@@ -11023,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "siginfoPid",
           "package": "unix",
@@ -11036,6 +11642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "siginfoSignal",
           "package": "unix",
@@ -11045,6 +11652,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "siginfoSignal",
           "package": "unix",
@@ -11058,6 +11666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "siginfoSpecific",
           "package": "unix",
@@ -11067,6 +11676,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "siginfoSpecific",
           "package": "unix",
@@ -11080,6 +11690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "siginfoStatus",
           "package": "unix",
@@ -11089,6 +11700,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "siginfoStatus",
           "package": "unix",
@@ -11102,6 +11714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "siginfoUid",
           "package": "unix",
@@ -11111,6 +11724,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "siginfoUid",
           "package": "unix",
@@ -11125,6 +11739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esignalProcess int pid\u003c/code\u003e calls \u003ccode\u003ekill\u003c/code\u003e to signal process \u003ccode\u003epid\u003c/code\u003e\n   with interrupt signal \u003ccode\u003eint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "signalProcess",
           "package": "unix",
@@ -11135,6 +11750,7 @@
         "index": {
           "description": "signalProcess int pid calls kill to signal process pid with interrupt signal int",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "signalProcess",
           "normalized": "Signal-\u003eProcessID-\u003eIO()",
@@ -11151,6 +11767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esignalProcessGroup int pgid\u003c/code\u003e calls \u003ccode\u003ekill\u003c/code\u003e to signal\n  all processes in group \u003ccode\u003epgid\u003c/code\u003e with interrupt signal \u003ccode\u003eint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "signalProcessGroup",
           "package": "unix",
@@ -11161,6 +11778,7 @@
         "index": {
           "description": "signalProcessGroup int pgid calls kill to signal all processes in group pgid with interrupt signal int",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "signalProcessGroup",
           "normalized": "Signal-\u003eProcessGroupID-\u003eIO()",
@@ -11176,6 +11794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "softwareStop",
           "package": "unix",
@@ -11185,6 +11804,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "softwareStop",
           "package": "unix",
@@ -11198,6 +11818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "softwareTermination",
           "package": "unix",
@@ -11207,6 +11828,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "softwareTermination",
           "package": "unix",
@@ -11221,6 +11843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunblockSignals mask\u003c/code\u003e calls \u003ccode\u003esigprocmask\u003c/code\u003e with\n   \u003ccode\u003eSIG_UNBLOCK\u003c/code\u003e to remove all interrupts in \u003ccode\u003emask\u003c/code\u003e from the\n   set of blocked interrupts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "unblockSignals",
           "package": "unix",
@@ -11231,6 +11854,7 @@
         "index": {
           "description": "unblockSignals mask calls sigprocmask with SIG UNBLOCK to remove all interrupts in mask from the set of blocked interrupts",
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "unblockSignals",
           "normalized": "SignalSet-\u003eIO()",
@@ -11246,6 +11870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "urgentDataAvailable",
           "package": "unix",
@@ -11255,6 +11880,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "urgentDataAvailable",
           "package": "unix",
@@ -11268,6 +11894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "userDefinedSignal1",
           "package": "unix",
@@ -11277,6 +11904,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "userDefinedSignal1",
           "package": "unix",
@@ -11290,6 +11918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "userDefinedSignal2",
           "package": "unix",
@@ -11299,6 +11928,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "userDefinedSignal2",
           "package": "unix",
@@ -11312,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Signals",
           "name": "virtualTimerExpired",
           "package": "unix",
@@ -11321,6 +11952,7 @@
         },
         "index": {
           "hierarchy": "System Posix Signals",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Signals",
           "name": "virtualTimerExpired",
           "package": "unix",
@@ -11335,6 +11967,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX temporary file and directory creation functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Temp.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -11344,6 +11977,7 @@
         "index": {
           "description": "POSIX temporary file and directory creation functions",
           "hierarchy": "System Posix Temp ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Temp.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -11358,6 +11992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique directory. The returned \u003ccode\u003e\u003ca\u003eRawFilePath\u003c/a\u003e\u003c/code\u003e is the path of the\n created directory, which is padded with 6 random characters. The argument is\n the desired prefix of the filepath of the temporary directory to be created.\n\u003c/p\u003e\u003cp\u003eIf you aren't using GHC or Hugs then this function simply wraps mktemp and\n so shouldn't be considered safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Temp.ByteString",
           "name": "mkdtemp",
           "package": "unix",
@@ -11368,6 +12003,7 @@
         "index": {
           "description": "Make unique directory The returned RawFilePath is the path of the created directory which is padded with random characters The argument is the desired prefix of the filepath of the temporary directory to be created If you aren using GHC or Hugs then this function simply wraps mktemp and so shouldn be considered safe",
           "hierarchy": "System Posix Temp ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Temp.ByteString",
           "name": "mkdtemp",
           "normalized": "ByteString-\u003eIO RawFilePath",
@@ -11383,6 +12019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique filename and open it for reading/writing. The returned\n \u003ccode\u003e\u003ca\u003eRawFilePath\u003c/a\u003e\u003c/code\u003e is the (possibly relative) path of the created file, which is\n padded with 6 random characters. The argument is the desired prefix of the\n filepath of the temporary file to be created.\n\u003c/p\u003e\u003cp\u003eIf you aren't using GHC or Hugs then this function simply wraps mktemp and\n so shouldn't be considered safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Temp.ByteString",
           "name": "mkstemp",
           "package": "unix",
@@ -11393,6 +12030,7 @@
         "index": {
           "description": "Make unique filename and open it for reading writing The returned RawFilePath is the possibly relative path of the created file which is padded with random characters The argument is the desired prefix of the filepath of the temporary file to be created If you aren using GHC or Hugs then this function simply wraps mktemp and so shouldn be considered safe",
           "hierarchy": "System Posix Temp ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Temp.ByteString",
           "name": "mkstemp",
           "normalized": "ByteString-\u003eIO(RawFilePath,Handle)",
@@ -11408,6 +12046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emkstemps\u003c/a\u003e\u003c/code\u003e - make a unique filename with a given prefix and suffix \n and open it for reading/writing (only safe on GHC & Hugs).\n The returned \u003ccode\u003e\u003ca\u003eRawFilePath\u003c/a\u003e\u003c/code\u003e is the (possibly relative) path of\n the created file, which contains  6 random characters in between\n the prefix and suffix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Temp.ByteString",
           "name": "mkstemps",
           "package": "unix",
@@ -11418,6 +12057,7 @@
         "index": {
           "description": "mkstemps make unique filename with given prefix and suffix and open it for reading writing only safe on GHC Hugs The returned RawFilePath is the possibly relative path of the created file which contains random characters in between the prefix and suffix",
           "hierarchy": "System Posix Temp ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Temp.ByteString",
           "name": "mkstemps",
           "normalized": "ByteString-\u003eByteString-\u003eIO(RawFilePath,Handle)",
@@ -11433,6 +12073,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX temporary file and directory creation functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Temp",
           "name": "Temp",
           "package": "unix",
@@ -11442,6 +12083,7 @@
         "index": {
           "description": "POSIX temporary file and directory creation functions",
           "hierarchy": "System Posix Temp",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Temp",
           "name": "Temp",
           "package": "unix",
@@ -11456,6 +12098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique directory. The returned \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is the path of the\n created directory, which is padded with 6 random characters. The argument is\n the desired prefix of the filepath of the temporary directory to be created.\n\u003c/p\u003e\u003cp\u003eIf you are using as system that doesn't support the mkdtemp glibc function\n (supported in glibc \u003e 2.1.91) then this function uses mktemp and so\n shouldn't be considered safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Temp",
           "name": "mkdtemp",
           "package": "unix",
@@ -11466,6 +12109,7 @@
         "index": {
           "description": "Make unique directory The returned FilePath is the path of the created directory which is padded with random characters The argument is the desired prefix of the filepath of the temporary directory to be created If you are using as system that doesn support the mkdtemp glibc function supported in glibc then this function uses mktemp and so shouldn be considered safe",
           "hierarchy": "System Posix Temp",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Temp",
           "name": "mkdtemp",
           "normalized": "String-\u003eIO FilePath",
@@ -11481,6 +12125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique filename and open it for reading/writing. The returned\n \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is the (possibly relative) path of the created file, which is\n padded with 6 random characters. The argument is the desired prefix of the\n filepath of the temporary file to be created.\n\u003c/p\u003e\u003cp\u003eIf you aren't using GHC or Hugs then this function simply wraps mktemp and\n so shouldn't be considered safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Temp",
           "name": "mkstemp",
           "package": "unix",
@@ -11491,6 +12136,7 @@
         "index": {
           "description": "Make unique filename and open it for reading writing The returned FilePath is the possibly relative path of the created file which is padded with random characters The argument is the desired prefix of the filepath of the temporary file to be created If you aren using GHC or Hugs then this function simply wraps mktemp and so shouldn be considered safe",
           "hierarchy": "System Posix Temp",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Temp",
           "name": "mkstemp",
           "normalized": "String-\u003eIO(FilePath,Handle)",
@@ -11506,6 +12152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unique filename with a given prefix and suffix and open it for\n reading/writing. The returned \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is the (possibly relative) path of\n the created file, which contains  6 random characters in between the prefix\n and suffix. The first argument is the desired prefix of the filepath of the\n temporary file to be created. The second argument is the suffix of the\n temporary file to be created.\n\u003c/p\u003e\u003cp\u003eIf you are using as system that doesn't support the mkstemps glibc function\n (supported in glibc \u003e 2.11) then this function simply throws an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Temp",
           "name": "mkstemps",
           "package": "unix",
@@ -11516,6 +12163,7 @@
         "index": {
           "description": "Make unique filename with given prefix and suffix and open it for reading writing The returned FilePath is the possibly relative path of the created file which contains random characters in between the prefix and suffix The first argument is the desired prefix of the filepath of the temporary file to be created The second argument is the suffix of the temporary file to be created If you are using as system that doesn support the mkstemps glibc function supported in glibc then this function simply throws an error",
           "hierarchy": "System Posix Temp",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Temp",
           "name": "mkstemps",
           "normalized": "String-\u003eString-\u003eIO(FilePath,Handle)",
@@ -11531,6 +12179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX Terminal support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -11540,6 +12189,7 @@
         "index": {
           "description": "POSIX Terminal support",
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "ByteString",
           "package": "unix",
@@ -11553,6 +12203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "BaudRate",
           "package": "unix",
@@ -11561,6 +12212,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "BaudRate",
           "package": "unix",
@@ -11574,6 +12226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "ControlCharacter",
           "package": "unix",
@@ -11582,6 +12235,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "ControlCharacter",
           "package": "unix",
@@ -11595,6 +12249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "FlowAction",
           "package": "unix",
@@ -11603,6 +12258,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "FlowAction",
           "package": "unix",
@@ -11616,6 +12272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "QueueSelector",
           "package": "unix",
@@ -11624,6 +12281,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "QueueSelector",
           "package": "unix",
@@ -11637,6 +12295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "TerminalAttributes",
           "package": "unix",
@@ -11645,6 +12304,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "TerminalAttributes",
           "package": "unix",
@@ -11658,6 +12318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "TerminalMode",
           "package": "unix",
@@ -11666,6 +12327,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "TerminalMode",
           "package": "unix",
@@ -11679,6 +12341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "TerminalState",
           "package": "unix",
@@ -11687,6 +12350,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "TerminalState",
           "package": "unix",
@@ -13294,6 +13958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetControllingTerminalName\u003c/code\u003e calls \u003ccode\u003ectermid\u003c/code\u003e to obtain\n   a name associated with the controlling terminal for the process.  If a\n   controlling terminal exists,\n   \u003ccode\u003egetControllingTerminalName\u003c/code\u003e returns the name of the\n   controlling terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "getControllingTerminalName",
           "package": "unix",
@@ -13304,6 +13969,7 @@
         "index": {
           "description": "getControllingTerminalName calls ctermid to obtain name associated with the controlling terminal for the process If controlling terminal exists getControllingTerminalName returns the name of the controlling terminal",
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "getControllingTerminalName",
           "package": "unix",
@@ -13318,6 +13984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetSlaveTerminalName\u003c/code\u003e calls \u003ccode\u003eptsname\u003c/code\u003e to obtain the name of the\n slave terminal associated with a pseudoterminal pair.  The file\n descriptor to pass in must be that of the master.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "getSlaveTerminalName",
           "package": "unix",
@@ -13328,6 +13995,7 @@
         "index": {
           "description": "getSlaveTerminalName calls ptsname to obtain the name of the slave terminal associated with pseudoterminal pair The file descriptor to pass in must be that of the master",
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "getSlaveTerminalName",
           "normalized": "Fd-\u003eIO RawFilePath",
@@ -13371,6 +14039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetTerminalName fd\u003c/code\u003e calls \u003ccode\u003ettyname\u003c/code\u003e to obtain a name associated\n   with the terminal for \u003ccode\u003eFd\u003c/code\u003e \u003ccode\u003efd\u003c/code\u003e. If \u003ccode\u003efd\u003c/code\u003e is associated\n   with a terminal, \u003ccode\u003egetTerminalName\u003c/code\u003e returns the name of the\n   terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "getTerminalName",
           "package": "unix",
@@ -13381,6 +14050,7 @@
         "index": {
           "description": "getTerminalName fd calls ttyname to obtain name associated with the terminal for Fd fd If fd is associated with terminal getTerminalName returns the name of the terminal",
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "getTerminalName",
           "normalized": "Fd-\u003eIO RawFilePath",
@@ -13499,6 +14169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenPseudoTerminal\u003c/code\u003e creates a pseudoterminal (pty) pair, and\n returns the newly created pair as a (\u003ccode\u003emaster\u003c/code\u003e, \u003ccode\u003eslave\u003c/code\u003e) tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal.ByteString",
           "name": "openPseudoTerminal",
           "package": "unix",
@@ -13509,6 +14180,7 @@
         "index": {
           "description": "openPseudoTerminal creates pseudoterminal pty pair and returns the newly created pair as master slave tuple",
           "hierarchy": "System Posix Terminal ByteString",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal.ByteString",
           "name": "openPseudoTerminal",
           "normalized": "IO(Fd,Fd)",
@@ -13908,6 +14580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX Terminal support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "Terminal",
           "package": "unix",
@@ -13917,6 +14590,7 @@
         "index": {
           "description": "POSIX Terminal support",
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "Terminal",
           "package": "unix",
@@ -13930,6 +14604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "BaudRate",
           "package": "unix",
@@ -13938,6 +14613,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "BaudRate",
           "package": "unix",
@@ -13951,6 +14627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "ControlCharacter",
           "package": "unix",
@@ -13959,6 +14636,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "ControlCharacter",
           "package": "unix",
@@ -13972,6 +14650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "FlowAction",
           "package": "unix",
@@ -13980,6 +14659,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "FlowAction",
           "package": "unix",
@@ -13993,6 +14673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "QueueSelector",
           "package": "unix",
@@ -14001,6 +14682,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "QueueSelector",
           "package": "unix",
@@ -14014,6 +14696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "TerminalAttributes",
           "package": "unix",
@@ -14022,6 +14705,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "TerminalAttributes",
           "package": "unix",
@@ -14035,6 +14719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "TerminalMode",
           "package": "unix",
@@ -14043,6 +14728,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "TerminalMode",
           "package": "unix",
@@ -14056,6 +14742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "TerminalState",
           "package": "unix",
@@ -14064,6 +14751,7 @@
         },
         "index": {
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "TerminalState",
           "package": "unix",
@@ -14078,6 +14766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetControllingTerminalName\u003c/code\u003e calls \u003ccode\u003ectermid\u003c/code\u003e to obtain\n   a name associated with the controlling terminal for the process.  If a\n   controlling terminal exists,\n   \u003ccode\u003egetControllingTerminalName\u003c/code\u003e returns the name of the\n   controlling terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "getControllingTerminalName",
           "package": "unix",
@@ -14088,6 +14777,7 @@
         "index": {
           "description": "getControllingTerminalName calls ctermid to obtain name associated with the controlling terminal for the process If controlling terminal exists getControllingTerminalName returns the name of the controlling terminal",
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "getControllingTerminalName",
           "package": "unix",
@@ -14102,6 +14792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetSlaveTerminalName\u003c/code\u003e calls \u003ccode\u003eptsname\u003c/code\u003e to obtain the name of the\n slave terminal associated with a pseudoterminal pair.  The file\n descriptor to pass in must be that of the master.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "getSlaveTerminalName",
           "package": "unix",
@@ -14112,6 +14803,7 @@
         "index": {
           "description": "getSlaveTerminalName calls ptsname to obtain the name of the slave terminal associated with pseudoterminal pair The file descriptor to pass in must be that of the master",
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "getSlaveTerminalName",
           "normalized": "Fd-\u003eIO FilePath",
@@ -14128,6 +14820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetTerminalName fd\u003c/code\u003e calls \u003ccode\u003ettyname\u003c/code\u003e to obtain a name associated\n   with the terminal for \u003ccode\u003eFd\u003c/code\u003e \u003ccode\u003efd\u003c/code\u003e. If \u003ccode\u003efd\u003c/code\u003e is associated\n   with a terminal, \u003ccode\u003egetTerminalName\u003c/code\u003e returns the name of the\n   terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "getTerminalName",
           "package": "unix",
@@ -14138,6 +14831,7 @@
         "index": {
           "description": "getTerminalName fd calls ttyname to obtain name associated with the terminal for Fd fd If fd is associated with terminal getTerminalName returns the name of the terminal",
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "getTerminalName",
           "normalized": "Fd-\u003eIO FilePath",
@@ -14154,6 +14848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenPseudoTerminal\u003c/code\u003e creates a pseudoterminal (pty) pair, and\n returns the newly created pair as a (\u003ccode\u003emaster\u003c/code\u003e, \u003ccode\u003eslave\u003c/code\u003e) tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Terminal",
           "name": "openPseudoTerminal",
           "package": "unix",
@@ -14164,6 +14859,7 @@
         "index": {
           "description": "openPseudoTerminal creates pseudoterminal pty pair and returns the newly created pair as master slave tuple",
           "hierarchy": "System Posix Terminal",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Terminal",
           "name": "openPseudoTerminal",
           "normalized": "IO(Fd,Fd)",
@@ -14180,6 +14876,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX Time support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Time",
           "name": "Time",
           "package": "unix",
@@ -14189,6 +14886,7 @@
         "index": {
           "description": "POSIX Time support",
           "hierarchy": "System Posix Time",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Time",
           "name": "Time",
           "package": "unix",
@@ -14203,6 +14901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eepochTime\u003c/code\u003e calls \u003ccode\u003etime\u003c/code\u003e to obtain the number of \n   seconds that have elapsed since the epoch (Jan 01 00:00:00 GMT 1970).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Time",
           "name": "epochTime",
           "package": "unix",
@@ -14213,6 +14912,7 @@
         "index": {
           "description": "epochTime calls time to obtain the number of seconds that have elapsed since the epoch Jan GMT",
           "hierarchy": "System Posix Time",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Time",
           "name": "epochTime",
           "package": "unix",
@@ -14227,6 +14927,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX miscellaneous stuff, mostly from unistd.h\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "Unistd",
           "package": "unix",
@@ -14236,6 +14937,7 @@
         "index": {
           "description": "POSIX miscellaneous stuff mostly from unistd.h",
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "Unistd",
           "package": "unix",
@@ -14249,6 +14951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "SysVar",
           "package": "unix",
@@ -14257,6 +14960,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "SysVar",
           "package": "unix",
@@ -14270,6 +14974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "SystemID",
           "package": "unix",
@@ -14278,6 +14983,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "SystemID",
           "package": "unix",
@@ -14291,6 +14997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "ArgumentLimit",
           "package": "unix",
@@ -14300,6 +15007,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "ArgumentLimit",
           "package": "unix",
@@ -14313,6 +15021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "ChildLimit",
           "package": "unix",
@@ -14322,6 +15031,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "ChildLimit",
           "package": "unix",
@@ -14335,6 +15045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "ClockTick",
           "package": "unix",
@@ -14344,6 +15055,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "ClockTick",
           "package": "unix",
@@ -14357,6 +15069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "GroupLimit",
           "package": "unix",
@@ -14366,6 +15079,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "GroupLimit",
           "package": "unix",
@@ -14379,6 +15093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "HasJobControl",
           "package": "unix",
@@ -14388,6 +15103,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "HasJobControl",
           "package": "unix",
@@ -14401,6 +15117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "HasSavedIDs",
           "package": "unix",
@@ -14410,6 +15127,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "HasSavedIDs",
           "package": "unix",
@@ -14423,6 +15141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "OpenFileLimit",
           "package": "unix",
@@ -14432,6 +15151,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "OpenFileLimit",
           "package": "unix",
@@ -14445,6 +15165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "PosixVersion",
           "package": "unix",
@@ -14454,6 +15175,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "PosixVersion",
           "package": "unix",
@@ -14467,6 +15189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "SystemID",
           "package": "unix",
@@ -14476,6 +15199,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "SystemID",
           "package": "unix",
@@ -14489,6 +15213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "getSysVar",
           "package": "unix",
@@ -14498,6 +15223,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "getSysVar",
           "normalized": "SysVar-\u003eIO Integer",
@@ -14513,6 +15239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "getSystemID",
           "package": "unix",
@@ -14522,6 +15249,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "getSystemID",
           "package": "unix",
@@ -14535,6 +15263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "machine",
           "package": "unix",
@@ -14544,6 +15273,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "machine",
           "package": "unix",
@@ -14557,6 +15287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep for the specified duration (in nanoseconds)\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eGHC Note\u003c/em\u003e: the comment for \u003ccode\u003e\u003ca\u003eusleep\u003c/a\u003e\u003c/code\u003e also applies here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "nanosleep",
           "package": "unix",
@@ -14567,6 +15298,7 @@
         "index": {
           "description": "Sleep for the specified duration in nanoseconds GHC Note the comment for usleep also applies here",
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "nanosleep",
           "normalized": "Integer-\u003eIO()",
@@ -14581,6 +15313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "nodeName",
           "package": "unix",
@@ -14590,6 +15323,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "nodeName",
           "package": "unix",
@@ -14603,6 +15337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "release",
           "package": "unix",
@@ -14612,6 +15347,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "release",
           "package": "unix",
@@ -14625,6 +15361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eWarning: This function has several shortcomings (see documentation). Please consider using Control.Concurrent.threadDelay instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eSleep for the specified duration (in seconds).  Returns the time remaining\n (if the sleep was interrupted by a signal, for example).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eGHC Note\u003c/em\u003e: \u003ccode\u003e\u003ca\u003ethreadDelay\u003c/a\u003e\u003c/code\u003e is a better choice.  Since GHC\n uses signals for its internal clock, a call to \u003ccode\u003e\u003ca\u003esleep\u003c/a\u003e\u003c/code\u003e will usually be\n interrupted immediately.  That makes \u003ccode\u003e\u003ca\u003esleep\u003c/a\u003e\u003c/code\u003e unusable in a program compiled\n with GHC, unless the RTS timer is disabled (with \u003ccode\u003e+RTS -V0\u003c/code\u003e).  Furthermore,\n without the \u003ccode\u003e-threaded\u003c/code\u003e option, \u003ccode\u003e\u003ca\u003esleep\u003c/a\u003e\u003c/code\u003e will block all other user threads.\n Even with the \u003ccode\u003e-threaded\u003c/code\u003e option, \u003ccode\u003e\u003ca\u003esleep\u003c/a\u003e\u003c/code\u003e requires a full OS thread to\n itself.  \u003ccode\u003e\u003ca\u003ethreadDelay\u003c/a\u003e\u003c/code\u003e has none of these shortcomings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "sleep",
           "package": "unix",
@@ -14635,6 +15372,7 @@
         "index": {
           "description": "Warning This function has several shortcomings see documentation Please consider using Control.Concurrent.threadDelay instead Sleep for the specified duration in seconds Returns the time remaining if the sleep was interrupted by signal for example GHC Note threadDelay is better choice Since GHC uses signals for its internal clock call to sleep will usually be interrupted immediately That makes sleep unusable in program compiled with GHC unless the RTS timer is disabled with RTS V0 Furthermore without the threaded option sleep will block all other user threads Even with the threaded option sleep requires full OS thread to itself threadDelay has none of these shortcomings",
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "sleep",
           "normalized": "Int-\u003eIO Int",
@@ -14649,6 +15387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "systemName",
           "package": "unix",
@@ -14658,6 +15397,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "systemName",
           "package": "unix",
@@ -14672,6 +15412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep for the specified duration (in microseconds).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eGHC Note\u003c/em\u003e: \u003ccode\u003e\u003ca\u003ethreadDelay\u003c/a\u003e\u003c/code\u003e is a better choice.\n Without the \u003ccode\u003e-threaded\u003c/code\u003e option, \u003ccode\u003e\u003ca\u003eusleep\u003c/a\u003e\u003c/code\u003e will block all other user\n threads.  Even with the \u003ccode\u003e-threaded\u003c/code\u003e option, \u003ccode\u003e\u003ca\u003eusleep\u003c/a\u003e\u003c/code\u003e requires a\n full OS thread to itself.  \u003ccode\u003e\u003ca\u003ethreadDelay\u003c/a\u003e\u003c/code\u003e has\n neither of these shortcomings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "usleep",
           "package": "unix",
@@ -14682,6 +15423,7 @@
         "index": {
           "description": "Sleep for the specified duration in microseconds GHC Note threadDelay is better choice Without the threaded option usleep will block all other user threads Even with the threaded option usleep requires full OS thread to itself threadDelay has neither of these shortcomings",
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "usleep",
           "normalized": "Int-\u003eIO()",
@@ -14696,6 +15438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.Unistd",
           "name": "version",
           "package": "unix",
@@ -14705,6 +15448,7 @@
         },
         "index": {
           "hierarchy": "System Posix Unistd",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.Unistd",
           "name": "version",
           "package": "unix",
@@ -14718,6 +15462,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX user/group support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "User",
           "package": "unix",
@@ -14727,6 +15472,7 @@
         "index": {
           "description": "POSIX user group support",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "User",
           "package": "unix",
@@ -14740,6 +15486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "GroupEntry",
           "package": "unix",
@@ -14748,6 +15495,7 @@
         },
         "index": {
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "GroupEntry",
           "package": "unix",
@@ -14761,6 +15509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "UserEntry",
           "package": "unix",
@@ -14769,6 +15518,7 @@
         },
         "index": {
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "UserEntry",
           "package": "unix",
@@ -14782,6 +15532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "GroupEntry",
           "package": "unix",
@@ -14791,6 +15542,7 @@
         },
         "index": {
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "GroupEntry",
           "package": "unix",
@@ -14804,6 +15556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "UserEntry",
           "package": "unix",
@@ -14813,6 +15566,7 @@
         },
         "index": {
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "UserEntry",
           "package": "unix",
@@ -14827,6 +15581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetAllGroupEntries\u003c/code\u003e returns all group entries on the system by\n   repeatedly calling \u003ccode\u003egetgrent\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getAllGroupEntries",
           "package": "unix",
@@ -14837,6 +15592,7 @@
         "index": {
           "description": "getAllGroupEntries returns all group entries on the system by repeatedly calling getgrent",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getAllGroupEntries",
           "normalized": "IO[GroupEntry]",
@@ -14853,6 +15609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetAllUserEntries\u003c/code\u003e returns all user entries on the system by \n   repeatedly calling \u003ccode\u003egetpwent\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getAllUserEntries",
           "package": "unix",
@@ -14863,6 +15620,7 @@
         "index": {
           "description": "getAllUserEntries returns all user entries on the system by repeatedly calling getpwent",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getAllUserEntries",
           "normalized": "IO[UserEntry]",
@@ -14879,6 +15637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetEffectiveGroupID\u003c/code\u003e calls \u003ccode\u003egetegid\u003c/code\u003e to obtain the effective\n   \u003ccode\u003eGroupID\u003c/code\u003e associated with the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getEffectiveGroupID",
           "package": "unix",
@@ -14889,6 +15648,7 @@
         "index": {
           "description": "getEffectiveGroupID calls getegid to obtain the effective GroupID associated with the current process",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getEffectiveGroupID",
           "package": "unix",
@@ -14903,6 +15663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetEffectiveUserID\u003c/code\u003e calls \u003ccode\u003egeteuid\u003c/code\u003e to obtain the effective\n   \u003ccode\u003eUserID\u003c/code\u003e associated with the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getEffectiveUserID",
           "package": "unix",
@@ -14913,6 +15674,7 @@
         "index": {
           "description": "getEffectiveUserID calls geteuid to obtain the effective UserID associated with the current process",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getEffectiveUserID",
           "package": "unix",
@@ -14927,6 +15689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetEffectiveUserName\u003c/code\u003e gets the name\n   associated with the effective \u003ccode\u003eUserID\u003c/code\u003e of the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getEffectiveUserName",
           "package": "unix",
@@ -14937,6 +15700,7 @@
         "index": {
           "description": "getEffectiveUserName gets the name associated with the effective UserID of the process",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getEffectiveUserName",
           "package": "unix",
@@ -14951,6 +15715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetGroupEntryForID gid\u003c/code\u003e calls \u003ccode\u003egetgrgid_r\u003c/code\u003e to obtain\n   the \u003ccode\u003eGroupEntry\u003c/code\u003e information associated with \u003ccode\u003eGroupID\u003c/code\u003e\n   \u003ccode\u003egid\u003c/code\u003e. This operation may fail with \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e\n   if no such group exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getGroupEntryForID",
           "package": "unix",
@@ -14961,6 +15726,7 @@
         "index": {
           "description": "getGroupEntryForID gid calls getgrgid to obtain the GroupEntry information associated with GroupID gid This operation may fail with isDoesNotExistError if no such group exists",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getGroupEntryForID",
           "normalized": "GroupID-\u003eIO GroupEntry",
@@ -14977,6 +15743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetGroupEntryForName name\u003c/code\u003e calls \u003ccode\u003egetgrnam_r\u003c/code\u003e to obtain\n   the \u003ccode\u003eGroupEntry\u003c/code\u003e information associated with the group called\n   \u003ccode\u003ename\u003c/code\u003e. This operation may fail with \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e\n   if no such group exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getGroupEntryForName",
           "package": "unix",
@@ -14987,6 +15754,7 @@
         "index": {
           "description": "getGroupEntryForName name calls getgrnam to obtain the GroupEntry information associated with the group called name This operation may fail with isDoesNotExistError if no such group exists",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getGroupEntryForName",
           "normalized": "String-\u003eIO GroupEntry",
@@ -15003,6 +15771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetGroups\u003c/code\u003e calls \u003ccode\u003egetgroups\u003c/code\u003e to obtain the list of\n   supplementary \u003ccode\u003eGroupID\u003c/code\u003es associated with the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getGroups",
           "package": "unix",
@@ -15013,6 +15782,7 @@
         "index": {
           "description": "getGroups calls getgroups to obtain the list of supplementary GroupID associated with the current process",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getGroups",
           "normalized": "IO[GroupID]",
@@ -15029,6 +15799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetLoginName\u003c/code\u003e calls \u003ccode\u003egetlogin\u003c/code\u003e to obtain the login name\n   associated with the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getLoginName",
           "package": "unix",
@@ -15039,6 +15810,7 @@
         "index": {
           "description": "getLoginName calls getlogin to obtain the login name associated with the current process",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getLoginName",
           "package": "unix",
@@ -15053,6 +15825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetRealGroupID\u003c/code\u003e calls \u003ccode\u003egetgid\u003c/code\u003e to obtain the real \u003ccode\u003eGroupID\u003c/code\u003e\n   associated with the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getRealGroupID",
           "package": "unix",
@@ -15063,6 +15836,7 @@
         "index": {
           "description": "getRealGroupID calls getgid to obtain the real GroupID associated with the current process",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getRealGroupID",
           "package": "unix",
@@ -15077,6 +15851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetRealUserID\u003c/code\u003e calls \u003ccode\u003egetuid\u003c/code\u003e to obtain the real \u003ccode\u003eUserID\u003c/code\u003e\n   associated with the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getRealUserID",
           "package": "unix",
@@ -15087,6 +15862,7 @@
         "index": {
           "description": "getRealUserID calls getuid to obtain the real UserID associated with the current process",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getRealUserID",
           "package": "unix",
@@ -15101,6 +15877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetUserEntryForID gid\u003c/code\u003e calls \u003ccode\u003egetpwuid_r\u003c/code\u003e to obtain\n   the \u003ccode\u003eUserEntry\u003c/code\u003e information associated with \u003ccode\u003eUserID\u003c/code\u003e\n   \u003ccode\u003euid\u003c/code\u003e. This operation may fail with \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e\n   if no such user exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getUserEntryForID",
           "package": "unix",
@@ -15111,6 +15888,7 @@
         "index": {
           "description": "getUserEntryForID gid calls getpwuid to obtain the UserEntry information associated with UserID uid This operation may fail with isDoesNotExistError if no such user exists",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getUserEntryForID",
           "normalized": "UserID-\u003eIO UserEntry",
@@ -15127,6 +15905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egetUserEntryForName name\u003c/code\u003e calls \u003ccode\u003egetpwnam_r\u003c/code\u003e to obtain\n   the \u003ccode\u003eUserEntry\u003c/code\u003e information associated with the user login\n   \u003ccode\u003ename\u003c/code\u003e. This operation may fail with \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e\n   if no such user exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "getUserEntryForName",
           "package": "unix",
@@ -15137,6 +15916,7 @@
         "index": {
           "description": "getUserEntryForName name calls getpwnam to obtain the UserEntry information associated with the user login name This operation may fail with isDoesNotExistError if no such user exists",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "getUserEntryForName",
           "normalized": "String-\u003eIO UserEntry",
@@ -15153,6 +15933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unique numeric ID for this group (gr_gid)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "groupID",
           "package": "unix",
@@ -15163,6 +15944,7 @@
         "index": {
           "description": "The unique numeric ID for this group gr gid",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "groupID",
           "package": "unix",
@@ -15177,6 +15959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of zero or more usernames that are members (gr_mem)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "groupMembers",
           "package": "unix",
@@ -15187,6 +15970,7 @@
         "index": {
           "description": "list of zero or more usernames that are members gr mem",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "groupMembers",
           "normalized": "[String]",
@@ -15203,6 +15987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of this group (gr_name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "groupName",
           "package": "unix",
@@ -15213,6 +15998,7 @@
         "index": {
           "description": "The name of this group gr name",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "groupName",
           "package": "unix",
@@ -15227,6 +16013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe password for this group (gr_passwd)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "groupPassword",
           "package": "unix",
@@ -15237,6 +16024,7 @@
         "index": {
           "description": "The password for this group gr passwd",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "groupPassword",
           "package": "unix",
@@ -15251,6 +16039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHome directory (pw_dir)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "homeDirectory",
           "package": "unix",
@@ -15261,6 +16050,7 @@
         "index": {
           "description": "Home directory pw dir",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "homeDirectory",
           "package": "unix",
@@ -15275,6 +16065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetEffectiveGroupID uid\u003c/code\u003e calls \u003ccode\u003esetegid\u003c/code\u003e to set the effective\n   group-id associated with the current process to \u003ccode\u003egid\u003c/code\u003e. This\n   does not update the real group-id or set-group-id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "setEffectiveGroupID",
           "package": "unix",
@@ -15285,6 +16076,7 @@
         "index": {
           "description": "setEffectiveGroupID uid calls setegid to set the effective group-id associated with the current process to gid This does not update the real group-id or set-group-id",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "setEffectiveGroupID",
           "normalized": "GroupID-\u003eIO()",
@@ -15301,6 +16093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetEffectiveUserID uid\u003c/code\u003e calls \u003ccode\u003eseteuid\u003c/code\u003e to set the effective\n   user-id associated with the current process to \u003ccode\u003euid\u003c/code\u003e. This\n   does not update the real user-id or set-user-id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "setEffectiveUserID",
           "package": "unix",
@@ -15311,6 +16104,7 @@
         "index": {
           "description": "setEffectiveUserID uid calls seteuid to set the effective user-id associated with the current process to uid This does not update the real user-id or set-user-id",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "setEffectiveUserID",
           "normalized": "UserID-\u003eIO()",
@@ -15327,6 +16121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetGroupID gid\u003c/code\u003e calls \u003ccode\u003esetgid\u003c/code\u003e to set the real, effective, and\n   saved set-group-id associated with the current process to \u003ccode\u003egid\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "setGroupID",
           "package": "unix",
@@ -15337,6 +16132,7 @@
         "index": {
           "description": "setGroupID gid calls setgid to set the real effective and saved set-group-id associated with the current process to gid",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "setGroupID",
           "normalized": "GroupID-\u003eIO()",
@@ -15353,6 +16149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetGroups\u003c/code\u003e calls \u003ccode\u003esetgroups\u003c/code\u003e to set the list of\n   supplementary \u003ccode\u003eGroupID\u003c/code\u003es associated with the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "setGroups",
           "package": "unix",
@@ -15363,6 +16160,7 @@
         "index": {
           "description": "setGroups calls setgroups to set the list of supplementary GroupID associated with the current process",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "setGroups",
           "normalized": "[GroupID]-\u003eIO()",
@@ -15379,6 +16177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esetUserID uid\u003c/code\u003e calls \u003ccode\u003esetuid\u003c/code\u003e to set the real, effective, and\n   saved set-user-id associated with the current process to \u003ccode\u003euid\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "setUserID",
           "package": "unix",
@@ -15389,6 +16188,7 @@
         "index": {
           "description": "setUserID uid calls setuid to set the real effective and saved set-user-id associated with the current process to uid",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "setUserID",
           "normalized": "UserID-\u003eIO()",
@@ -15405,6 +16205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsually the real name for the user (pw_gecos)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "userGecos",
           "package": "unix",
@@ -15415,6 +16216,7 @@
         "index": {
           "description": "Usually the real name for the user pw gecos",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "userGecos",
           "package": "unix",
@@ -15429,6 +16231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimary group ID (pw_gid)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "userGroupID",
           "package": "unix",
@@ -15439,6 +16242,7 @@
         "index": {
           "description": "Primary group ID pw gid",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "userGroupID",
           "package": "unix",
@@ -15453,6 +16257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric ID for this user (pw_uid)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "userID",
           "package": "unix",
@@ -15463,6 +16268,7 @@
         "index": {
           "description": "Numeric ID for this user pw uid",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "userID",
           "package": "unix",
@@ -15477,6 +16283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTextual name of this user (pw_name)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "userName",
           "package": "unix",
@@ -15487,6 +16294,7 @@
         "index": {
           "description": "Textual name of this user pw name",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "userName",
           "package": "unix",
@@ -15501,6 +16309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePassword -- may be empty or fake if shadow is in use (pw_passwd)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "userPassword",
           "package": "unix",
@@ -15511,6 +16320,7 @@
         "index": {
           "description": "Password may be empty or fake if shadow is in use pw passwd",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "userPassword",
           "package": "unix",
@@ -15525,6 +16335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault shell (pw_shell)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix.User",
           "name": "userShell",
           "package": "unix",
@@ -15535,6 +16346,7 @@
         "index": {
           "description": "Default shell pw shell",
           "hierarchy": "System Posix User",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix.User",
           "name": "userShell",
           "package": "unix",
@@ -15549,6 +16361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX support\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:31 UTC 2014",
           "module": "System.Posix",
           "name": "Posix",
           "package": "unix",
@@ -15558,6 +16371,7 @@
         "index": {
           "description": "POSIX support",
           "hierarchy": "System Posix",
+          "indexed": "2014-03-11T20:30:31",
           "module": "System.Posix",
           "name": "Posix",
           "package": "unix",

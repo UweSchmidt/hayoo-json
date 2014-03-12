@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SFML-control"
+        "phrase": "SFML-control",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "Audio",
           "package": "SFML-control",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "Audio",
           "package": "SFML-control",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "copySound",
           "package": "SFML-control",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "copySound",
           "normalized": "Sound-\u003eSFML Sound",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "copySoundBuffer",
           "package": "SFML-control",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "copySoundBuffer",
           "normalized": "SoundBuffer-\u003eSFML SoundBuffer",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "createSound",
           "package": "SFML-control",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "createSound",
           "package": "SFML-control",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "createSoundBufferRecorder",
           "package": "SFML-control",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "createSoundBufferRecorder",
           "package": "SFML-control",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "createSoundRecorder",
           "package": "SFML-control",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "createSoundRecorder",
           "normalized": "Ptr(SoundRecorderStartCallback a)-\u003ePtr(SoundRecorderProcessCallback a)-\u003ePtr(SoundRecorderStopCallback a)-\u003ePtr a-\u003eSFML SoundRecorder",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "createSoundStream",
           "package": "SFML-control",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "createSoundStream",
           "normalized": "Ptr(SoundStreamGetDataCallback a)-\u003ePtr(SoundStreamSeekCallback a)-\u003eInt-\u003eInt-\u003ePtr a-\u003eSFML SoundStream",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getAttenuation",
           "package": "SFML-control",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getAttenuation",
           "normalized": "a-\u003eSFML Float",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getChannelCount",
           "package": "SFML-control",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getChannelCount",
           "normalized": "a-\u003eSFML Int",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getDuration",
           "package": "SFML-control",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getDuration",
           "normalized": "a-\u003eSFML Time",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getGlobalVolume",
           "package": "SFML-control",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getGlobalVolume",
           "package": "SFML-control",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getListenerDirection",
           "package": "SFML-control",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getListenerDirection",
           "package": "SFML-control",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getListenerPosition",
           "package": "SFML-control",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getListenerPosition",
           "package": "SFML-control",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getLoop",
           "package": "SFML-control",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getLoop",
           "normalized": "a-\u003eSFML Bool",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getMinDistance",
           "package": "SFML-control",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getMinDistance",
           "normalized": "a-\u003eSFML Float",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getPitch",
           "package": "SFML-control",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getPitch",
           "normalized": "a-\u003eSFML Float",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getPlayingOffset",
           "package": "SFML-control",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getPlayingOffset",
           "normalized": "a-\u003eSFML Time",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getPosition",
           "package": "SFML-control",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getPosition",
           "normalized": "a-\u003eSFML Vec b",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getSampleCount",
           "package": "SFML-control",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getSampleCount",
           "normalized": "SoundBuffer-\u003eSFML Int",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getSampleRate",
           "package": "SFML-control",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getSampleRate",
           "normalized": "a-\u003eSFML Int",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getSamples",
           "package": "SFML-control",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getSamples",
           "normalized": "SoundBuffer-\u003eSFML(Ptr a)",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getSoundBuffer",
           "package": "SFML-control",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getSoundBuffer",
           "normalized": "Sound-\u003eSFML SoundBuffer",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getStatus",
           "package": "SFML-control",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getStatus",
           "normalized": "a-\u003eSFML SoundStatus",
@@ -557,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "getVolume",
           "package": "SFML-control",
@@ -566,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "getVolume",
           "normalized": "a-\u003eSFML Float",
@@ -581,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "isRelativeToListener",
           "package": "SFML-control",
@@ -590,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "isRelativeToListener",
           "normalized": "a-\u003eSFML Bool",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "isSoundRecorderAvailable",
           "package": "SFML-control",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "isSoundRecorderAvailable",
           "package": "SFML-control",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "musicFromFile",
           "package": "SFML-control",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "musicFromFile",
           "normalized": "FilePath-\u003eSFML Music",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "musicFromMemory",
           "package": "SFML-control",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "musicFromMemory",
           "normalized": "Ptr a-\u003eInt-\u003eSFML Music",
@@ -675,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "musicFromStream",
           "package": "SFML-control",
@@ -684,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "musicFromStream",
           "normalized": "InputStream-\u003eSFML Music",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "pause",
           "package": "SFML-control",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "pause",
           "normalized": "a-\u003eSFML()",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "play",
           "package": "SFML-control",
@@ -731,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "play",
           "normalized": "a-\u003eSFML()",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "saveSoundBufferToFile",
           "package": "SFML-control",
@@ -754,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "saveSoundBufferToFile",
           "normalized": "SoundBuffer-\u003eFilePath-\u003eSFML Bool",
@@ -769,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setAttenuation",
           "package": "SFML-control",
@@ -778,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setAttenuation",
           "normalized": "a-\u003eFloat-\u003eSFML()",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setGlobalVolume",
           "package": "SFML-control",
@@ -802,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setGlobalVolume",
           "normalized": "Float-\u003eSFML()",
@@ -817,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setListenerDirection",
           "package": "SFML-control",
@@ -826,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setListenerDirection",
           "normalized": "Vec a-\u003eSFML()",
@@ -841,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setListenerPosition",
           "package": "SFML-control",
@@ -850,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setListenerPosition",
           "normalized": "Vec a-\u003eSFML()",
@@ -865,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setLoop",
           "package": "SFML-control",
@@ -874,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setLoop",
           "normalized": "a-\u003eBool-\u003eSFML()",
@@ -889,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setMinDistance",
           "package": "SFML-control",
@@ -898,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setMinDistance",
           "normalized": "a-\u003eFloat-\u003eSFML()",
@@ -913,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setPitch",
           "package": "SFML-control",
@@ -922,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setPitch",
           "normalized": "a-\u003eFloat-\u003eSFML()",
@@ -937,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setPlayingOffset",
           "package": "SFML-control",
@@ -946,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setPlayingOffset",
           "normalized": "a-\u003eTime-\u003eSFML()",
@@ -961,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setPosition",
           "package": "SFML-control",
@@ -970,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setPosition",
           "normalized": "a-\u003eVec b-\u003eSFML()",
@@ -985,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setRelativeToListener",
           "package": "SFML-control",
@@ -994,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setRelativeToListener",
           "normalized": "a-\u003eBool-\u003eSFML()",
@@ -1009,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setSoundBuffer",
           "package": "SFML-control",
@@ -1018,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setSoundBuffer",
           "normalized": "Sound-\u003eSoundBuffer-\u003eSFML()",
@@ -1033,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "setVolume",
           "package": "SFML-control",
@@ -1042,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "setVolume",
           "normalized": "a-\u003eFloat-\u003eSFML()",
@@ -1057,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "soundBufferFromFile",
           "package": "SFML-control",
@@ -1066,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "soundBufferFromFile",
           "normalized": "FilePath-\u003eSFML SoundBuffer",
@@ -1081,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "soundBufferFromMemory",
           "package": "SFML-control",
@@ -1090,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "soundBufferFromMemory",
           "normalized": "Ptr a-\u003eInt-\u003eSFML SoundBuffer",
@@ -1105,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "soundBufferFromSamples",
           "package": "SFML-control",
@@ -1114,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "soundBufferFromSamples",
           "normalized": "Ptr a-\u003eInt-\u003eInt-\u003eInt-\u003eSFML SoundBuffer",
@@ -1129,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "soundBufferFromStream",
           "package": "SFML-control",
@@ -1138,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "soundBufferFromStream",
           "normalized": "InputStream-\u003eSFML SoundBuffer",
@@ -1153,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "startRecording",
           "package": "SFML-control",
@@ -1162,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "startRecording",
           "normalized": "a-\u003eInt-\u003eSFML()",
@@ -1177,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "stop",
           "package": "SFML-control",
@@ -1186,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "stop",
           "normalized": "a-\u003eSFML()",
@@ -1200,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Audio",
           "name": "stopRecording",
           "package": "SFML-control",
@@ -1209,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Audio",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Audio",
           "name": "stopRecording",
           "normalized": "a-\u003eSFML()",
@@ -1224,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "Graphics",
           "package": "SFML-control",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "Graphics",
           "package": "SFML-control",
@@ -1245,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "appendVA",
           "package": "SFML-control",
@@ -1254,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "appendVA",
           "normalized": "VertexArray-\u003eVertex-\u003eSFML()",
@@ -1269,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "bind",
           "package": "SFML-control",
@@ -1278,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "bind",
           "normalized": "a-\u003eSFML()",
@@ -1292,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "captureRenderWindow",
           "package": "SFML-control",
@@ -1301,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "captureRenderWindow",
           "normalized": "RenderWindow-\u003eSFML Image",
@@ -1316,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "clear",
           "package": "SFML-control",
@@ -1325,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "clear",
           "normalized": "RenderTexture-\u003eColor-\u003eSFML()",
@@ -1339,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "clearRenderWindow",
           "package": "SFML-control",
@@ -1348,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "clearRenderWindow",
           "normalized": "RenderWindow-\u003eColor-\u003eSFML()",
@@ -1363,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "clearVA",
           "package": "SFML-control",
@@ -1372,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "clearVA",
           "normalized": "VertexArray-\u003eSFML()",
@@ -1387,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "close",
           "package": "SFML-control",
@@ -1396,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "close",
           "normalized": "a-\u003eSFML()",
@@ -1410,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "copy",
           "package": "SFML-control",
@@ -1419,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "copy",
           "normalized": "a-\u003eSFML a",
@@ -1433,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "copyImage'",
           "package": "SFML-control",
@@ -1442,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "copyImage'",
           "normalized": "Image-\u003eImage-\u003eInt-\u003eInt-\u003eIntRect-\u003eBool-\u003eSFML()",
@@ -1457,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "copyTextureToImage",
           "package": "SFML-control",
@@ -1466,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "copyTextureToImage",
           "normalized": "Texture-\u003eSFML Image",
@@ -1481,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "copyView",
           "package": "SFML-control",
@@ -1490,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "copyView",
           "normalized": "View-\u003eSFML View",
@@ -1505,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createCircleShape",
           "package": "SFML-control",
@@ -1514,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createCircleShape",
           "package": "SFML-control",
@@ -1527,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createConvexShape",
           "package": "SFML-control",
@@ -1536,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createConvexShape",
           "package": "SFML-control",
@@ -1549,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createImage",
           "package": "SFML-control",
@@ -1558,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createImage",
           "normalized": "Int-\u003eInt-\u003eSFML Image",
@@ -1573,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createMaskFromColor",
           "package": "SFML-control",
@@ -1582,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createMaskFromColor",
           "normalized": "Image-\u003eColor-\u003eInt-\u003eSFML()",
@@ -1597,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createRectangleShape",
           "package": "SFML-control",
@@ -1606,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createRectangleShape",
           "package": "SFML-control",
@@ -1619,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createRenderTexture",
           "package": "SFML-control",
@@ -1628,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createRenderTexture",
           "normalized": "Int-\u003eInt-\u003eBool-\u003eSFML RenderTexture",
@@ -1643,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createRenderWindow",
           "package": "SFML-control",
@@ -1652,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createRenderWindow",
           "normalized": "VideoMode-\u003eString-\u003e[WindowStyle]-\u003eMaybe ContextSettings-\u003eSFML RenderWindow",
@@ -1667,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createShape",
           "package": "SFML-control",
@@ -1676,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createShape",
           "normalized": "Ptr a-\u003ePtr b-\u003ePtr c-\u003eSFML Shape",
@@ -1691,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createSprite",
           "package": "SFML-control",
@@ -1700,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createSprite",
           "package": "SFML-control",
@@ -1713,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createText",
           "package": "SFML-control",
@@ -1722,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createText",
           "package": "SFML-control",
@@ -1735,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createTexture",
           "package": "SFML-control",
@@ -1744,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createTexture",
           "normalized": "Int-\u003eInt-\u003eSFML Texture",
@@ -1759,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createVA",
           "package": "SFML-control",
@@ -1768,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createVA",
           "package": "SFML-control",
@@ -1781,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createView",
           "package": "SFML-control",
@@ -1790,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "createView",
           "package": "SFML-control",
@@ -1803,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "destroy",
           "package": "SFML-control",
@@ -1812,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "destroy",
           "normalized": "a-\u003eSFML()",
@@ -1826,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "display",
           "package": "SFML-control",
@@ -1835,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "display",
           "normalized": "a-\u003eSFML()",
@@ -1849,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawCircle",
           "package": "SFML-control",
@@ -1858,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawCircle",
           "normalized": "a-\u003eCircleShape-\u003eMaybe RenderStates-\u003eSFML()",
@@ -1873,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawConvexShape",
           "package": "SFML-control",
@@ -1882,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawConvexShape",
           "normalized": "a-\u003eConvexShape-\u003eMaybe RenderStates-\u003eSFML()",
@@ -1897,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawPrimitives",
           "package": "SFML-control",
@@ -1906,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawPrimitives",
           "normalized": "a-\u003e[Vertex]-\u003ePrimitiveType-\u003eMaybe RenderStates-\u003eSFML()",
@@ -1921,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawPrimitives'",
           "package": "SFML-control",
@@ -1930,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawPrimitives'",
           "normalized": "a-\u003ePtr Vertex-\u003eInt-\u003ePrimitiveType-\u003eMaybe RenderStates-\u003eSFML()",
@@ -1945,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawRectangle",
           "package": "SFML-control",
@@ -1954,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawRectangle",
           "normalized": "a-\u003eRectangleShape-\u003eMaybe RenderStates-\u003eSFML()",
@@ -1969,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawShape",
           "package": "SFML-control",
@@ -1978,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawShape",
           "normalized": "a-\u003eShape-\u003eMaybe RenderStates-\u003eSFML()",
@@ -1993,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawSprite",
           "package": "SFML-control",
@@ -2002,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawSprite",
           "normalized": "a-\u003eSprite-\u003eMaybe RenderStates-\u003eSFML()",
@@ -2017,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawText",
           "package": "SFML-control",
@@ -2026,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawText",
           "normalized": "a-\u003eText-\u003eMaybe RenderStates-\u003eSFML()",
@@ -2041,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawVertexArray",
           "package": "SFML-control",
@@ -2050,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "drawVertexArray",
           "normalized": "a-\u003eVertexArray-\u003eMaybe RenderStates-\u003eSFML()",
@@ -2065,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "findTextCharacterPos",
           "package": "SFML-control",
@@ -2074,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "findTextCharacterPos",
           "normalized": "Text-\u003eInt-\u003eSFML Vec a",
@@ -2089,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "flipHorizontally",
           "package": "SFML-control",
@@ -2098,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "flipHorizontally",
           "normalized": "Image-\u003eSFML()",
@@ -2113,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "flipVertically",
           "package": "SFML-control",
@@ -2122,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "flipVertically",
           "normalized": "Image-\u003eSFML()",
@@ -2137,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "fontFromFile",
           "package": "SFML-control",
@@ -2146,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "fontFromFile",
           "normalized": "FilePath-\u003eSFML Font",
@@ -2161,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "fontFromMemory",
           "package": "SFML-control",
@@ -2170,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "fontFromMemory",
           "normalized": "Ptr Char-\u003eInt-\u003eSFML Font",
@@ -2185,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "fontFromStream",
           "package": "SFML-control",
@@ -2194,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "fontFromStream",
           "normalized": "InputStream-\u003eSFML Font",
@@ -2209,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getColor",
           "package": "SFML-control",
@@ -2218,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getColor",
           "normalized": "Sprite-\u003eSFML Color",
@@ -2233,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getDefaultView",
           "package": "SFML-control",
@@ -2242,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getDefaultView",
           "normalized": "a-\u003eSFML View",
@@ -2257,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getFillColor",
           "package": "SFML-control",
@@ -2266,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getFillColor",
           "normalized": "a-\u003eSFML Color",
@@ -2281,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getFontTexture",
           "package": "SFML-control",
@@ -2290,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getFontTexture",
           "normalized": "Font-\u003eInt-\u003eSFML Texture",
@@ -2305,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getGlobalBounds",
           "package": "SFML-control",
@@ -2314,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getGlobalBounds",
           "normalized": "a-\u003eSFML FloatRect",
@@ -2329,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getGlyph",
           "package": "SFML-control",
@@ -2338,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getGlyph",
           "normalized": "Font-\u003eInt-\u003eInt-\u003eBool-\u003eSFML Glyph",
@@ -2353,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getInverseTransform",
           "package": "SFML-control",
@@ -2362,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getInverseTransform",
           "normalized": "a-\u003eSFML Transform",
@@ -2377,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getKerning",
           "package": "SFML-control",
@@ -2386,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getKerning",
           "normalized": "Font-\u003eInt-\u003eInt-\u003eInt-\u003eSFML Int",
@@ -2401,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getLineSpacing",
           "package": "SFML-control",
@@ -2410,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getLineSpacing",
           "normalized": "Font-\u003eInt-\u003eSFML Int",
@@ -2425,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getLocalBounds",
           "package": "SFML-control",
@@ -2434,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getLocalBounds",
           "normalized": "a-\u003eSFML FloatRect",
@@ -2449,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getMousePosition",
           "package": "SFML-control",
@@ -2458,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getMousePosition",
           "normalized": "Maybe a-\u003eSFML Vec b",
@@ -2473,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getOrigin",
           "package": "SFML-control",
@@ -2482,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getOrigin",
           "normalized": "a-\u003eSFML Vec b",
@@ -2497,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getOutlineColor",
           "package": "SFML-control",
@@ -2506,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getOutlineColor",
           "normalized": "a-\u003eSFML Color",
@@ -2521,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getOutlineThickness",
           "package": "SFML-control",
@@ -2530,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getOutlineThickness",
           "normalized": "a-\u003eSFML Float",
@@ -2545,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPixel",
           "package": "SFML-control",
@@ -2554,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPixel",
           "normalized": "Image-\u003eInt-\u003eInt-\u003eSFML Color",
@@ -2569,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPixels",
           "package": "SFML-control",
@@ -2578,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPixels",
           "normalized": "Image-\u003eSFML(Ptr a)",
@@ -2593,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPoint",
           "package": "SFML-control",
@@ -2602,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPoint",
           "normalized": "a-\u003eInt-\u003eSFML Vec b",
@@ -2617,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPointCount",
           "package": "SFML-control",
@@ -2626,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPointCount",
           "normalized": "a-\u003eSFML Int",
@@ -2641,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPrimitiveType",
           "package": "SFML-control",
@@ -2650,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getPrimitiveType",
           "normalized": "VertexArray-\u003eSFML PrimitiveType",
@@ -2665,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getRadius",
           "package": "SFML-control",
@@ -2674,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getRadius",
           "normalized": "CircleShape-\u003eSFML Float",
@@ -2689,6 +2915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getRenderTexture",
           "package": "SFML-control",
@@ -2698,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getRenderTexture",
           "normalized": "RenderTexture-\u003eSFML Texture",
@@ -2713,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getRotation",
           "package": "SFML-control",
@@ -2722,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getRotation",
           "normalized": "a-\u003eSFML Float",
@@ -2737,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getScale",
           "package": "SFML-control",
@@ -2746,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getScale",
           "normalized": "a-\u003eSFML Vec b",
@@ -2761,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getSize",
           "package": "SFML-control",
@@ -2770,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getSize",
           "normalized": "RectangleShape-\u003eSFML Vec a",
@@ -2785,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getSystemHandle",
           "package": "SFML-control",
@@ -2794,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getSystemHandle",
           "normalized": "a-\u003eSFML WindowHandle",
@@ -2809,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextCharacterSize",
           "package": "SFML-control",
@@ -2818,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextCharacterSize",
           "normalized": "Text-\u003eSFML Int",
@@ -2833,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextColor",
           "package": "SFML-control",
@@ -2842,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextColor",
           "normalized": "Text-\u003eSFML Color",
@@ -2857,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextFont",
           "package": "SFML-control",
@@ -2866,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextFont",
           "normalized": "Text-\u003eSFML(Maybe Font)",
@@ -2881,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextGlobalBounds",
           "package": "SFML-control",
@@ -2890,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextGlobalBounds",
           "normalized": "Text-\u003eSFML FloatRect",
@@ -2905,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextLocalBounds",
           "package": "SFML-control",
@@ -2914,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextLocalBounds",
           "normalized": "Text-\u003eSFML FloatRect",
@@ -2929,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextString",
           "package": "SFML-control",
@@ -2938,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextString",
           "normalized": "Text-\u003eSFML String",
@@ -2953,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextStyle",
           "package": "SFML-control",
@@ -2962,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextStyle",
           "normalized": "Text-\u003eSFML TextStyle",
@@ -2977,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextUnicodeString",
           "package": "SFML-control",
@@ -2986,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextUnicodeString",
           "normalized": "Text-\u003eSFML String",
@@ -3001,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTexture",
           "package": "SFML-control",
@@ -3010,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTexture",
           "normalized": "a-\u003eSFML(Maybe Texture)",
@@ -3025,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextureRect",
           "package": "SFML-control",
@@ -3034,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextureRect",
           "normalized": "a-\u003eSFML IntRect",
@@ -3049,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextureSize",
           "package": "SFML-control",
@@ -3058,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTextureSize",
           "normalized": "RenderTexture-\u003eSFML Vec a",
@@ -3073,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTransform",
           "package": "SFML-control",
@@ -3082,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getTransform",
           "normalized": "a-\u003eSFML Transform",
@@ -3097,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getVABounds",
           "package": "SFML-control",
@@ -3106,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getVABounds",
           "normalized": "VertexArray-\u003eSFML FloatRect",
@@ -3121,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getVertex",
           "package": "SFML-control",
@@ -3130,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getVertex",
           "normalized": "VertexArray-\u003eInt-\u003eSFML(Ptr Vertex)",
@@ -3145,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getVertexCount",
           "package": "SFML-control",
@@ -3154,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getVertexCount",
           "normalized": "VertexArray-\u003eSFML Int",
@@ -3169,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getView",
           "package": "SFML-control",
@@ -3178,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getView",
           "normalized": "a-\u003eSFML View",
@@ -3193,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewCenter",
           "package": "SFML-control",
@@ -3202,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewCenter",
           "normalized": "View-\u003eSFML Vec a",
@@ -3217,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewRotation",
           "package": "SFML-control",
@@ -3226,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewRotation",
           "normalized": "View-\u003eSFML Float",
@@ -3241,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewSize",
           "package": "SFML-control",
@@ -3250,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewSize",
           "normalized": "View-\u003eSFML Vec a",
@@ -3265,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewViewport",
           "package": "SFML-control",
@@ -3274,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewViewport",
           "normalized": "View-\u003eSFML FloatRect",
@@ -3289,6 +3565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewport",
           "package": "SFML-control",
@@ -3298,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getViewport",
           "normalized": "a-\u003eView-\u003eSFML IntRect",
@@ -3313,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getWindowPosition",
           "package": "SFML-control",
@@ -3322,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getWindowPosition",
           "normalized": "a-\u003eSFML Vec b",
@@ -3337,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getWindowSettings",
           "package": "SFML-control",
@@ -3346,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getWindowSettings",
           "normalized": "a-\u003eSFML ContextSettings",
@@ -3361,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getWindowSize",
           "package": "SFML-control",
@@ -3370,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "getWindowSize",
           "normalized": "a-\u003eSFML Vec b",
@@ -3385,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromColor",
           "package": "SFML-control",
@@ -3394,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromColor",
           "normalized": "Int-\u003eInt-\u003eColor-\u003eSFML Image",
@@ -3409,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromFile",
           "package": "SFML-control",
@@ -3418,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromFile",
           "normalized": "FilePath-\u003eSFML Image",
@@ -3433,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromMemory",
           "package": "SFML-control",
@@ -3442,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromMemory",
           "normalized": "Ptr a-\u003eInt-\u003eSFML Image",
@@ -3457,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromPixels",
           "package": "SFML-control",
@@ -3466,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromPixels",
           "normalized": "Int-\u003eInt-\u003ePtr a-\u003eSFML Image",
@@ -3481,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromStream",
           "package": "SFML-control",
@@ -3490,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageFromStream",
           "normalized": "InputStream-\u003eSFML Image",
@@ -3505,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageSize",
           "package": "SFML-control",
@@ -3514,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "imageSize",
           "normalized": "Image-\u003eSFML Vec a",
@@ -3529,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "isRepeated",
           "package": "SFML-control",
@@ -3538,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "isRepeated",
           "normalized": "Texture-\u003eSFML Bool",
@@ -3553,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "isShaderAvailable",
           "package": "SFML-control",
@@ -3562,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "isShaderAvailable",
           "package": "SFML-control",
@@ -3575,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "isSmooth",
           "package": "SFML-control",
@@ -3584,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "isSmooth",
           "normalized": "a-\u003eSFML Bool",
@@ -3599,6 +3901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "isWindowOpen",
           "package": "SFML-control",
@@ -3608,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "isWindowOpen",
           "normalized": "a-\u003eSFML Bool",
@@ -3623,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "mapPixelToCoords",
           "package": "SFML-control",
@@ -3632,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "mapPixelToCoords",
           "normalized": "a-\u003eVec b-\u003eMaybe View-\u003eSFML Vec c",
@@ -3647,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "move",
           "package": "SFML-control",
@@ -3656,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "move",
           "normalized": "a-\u003eVec b-\u003eSFML()",
@@ -3670,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "moveView",
           "package": "SFML-control",
@@ -3679,6 +3988,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "moveView",
           "normalized": "View-\u003eVec a-\u003eSFML()",
@@ -3694,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "pollEvent",
           "package": "SFML-control",
@@ -3703,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "pollEvent",
           "normalized": "a-\u003eSFML(Maybe SFEvent)",
@@ -3718,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "popGLStates",
           "package": "SFML-control",
@@ -3727,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "popGLStates",
           "normalized": "a-\u003eSFML()",
@@ -3742,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "pushGLStates",
           "package": "SFML-control",
@@ -3751,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "pushGLStates",
           "normalized": "a-\u003eSFML()",
@@ -3766,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "renderWindowFromHandle",
           "package": "SFML-control",
@@ -3775,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "renderWindowFromHandle",
           "normalized": "WindowHandle-\u003eMaybe ContextSettings-\u003eSFML RenderWindow",
@@ -3790,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "resetGLStates",
           "package": "SFML-control",
@@ -3799,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "resetGLStates",
           "normalized": "a-\u003eSFML()",
@@ -3814,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "resetView",
           "package": "SFML-control",
@@ -3823,6 +4144,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "resetView",
           "normalized": "View-\u003eFloatRect-\u003eSFML()",
@@ -3838,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "resizeVA",
           "package": "SFML-control",
@@ -3847,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "resizeVA",
           "normalized": "VertexArray-\u003eInt-\u003eSFML()",
@@ -3862,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "rotate",
           "package": "SFML-control",
@@ -3871,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "rotate",
           "normalized": "a-\u003eFloat-\u003eSFML()",
@@ -3885,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "rotateView",
           "package": "SFML-control",
@@ -3894,6 +4221,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "rotateView",
           "normalized": "View-\u003eFloat-\u003eSFML()",
@@ -3909,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "saveImage",
           "package": "SFML-control",
@@ -3918,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "saveImage",
           "normalized": "Image-\u003eFilePath-\u003eSFML Bool",
@@ -3933,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "scale",
           "package": "SFML-control",
@@ -3942,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "scale",
           "normalized": "a-\u003eVec b-\u003eSFML()",
@@ -3956,6 +4288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setActive",
           "package": "SFML-control",
@@ -3965,6 +4298,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setActive",
           "normalized": "RenderTexture-\u003eBool-\u003eSFML Bool",
@@ -3980,6 +4314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setColor",
           "package": "SFML-control",
@@ -3989,6 +4324,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setColor",
           "normalized": "Sprite-\u003eColor-\u003eSFML()",
@@ -4004,6 +4340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setColorParameter",
           "package": "SFML-control",
@@ -4013,6 +4350,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setColorParameter",
           "normalized": "Shader-\u003eString-\u003eColor-\u003eSFML()",
@@ -4028,6 +4366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setCurrentTextureParameter",
           "package": "SFML-control",
@@ -4037,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setCurrentTextureParameter",
           "normalized": "Shader-\u003eString-\u003eSFML()",
@@ -4052,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFillColor",
           "package": "SFML-control",
@@ -4061,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFillColor",
           "normalized": "a-\u003eColor-\u003eSFML()",
@@ -4076,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFloat2Parameter",
           "package": "SFML-control",
@@ -4085,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFloat2Parameter",
           "normalized": "Shader-\u003eString-\u003eFloat-\u003eFloat-\u003eSFML()",
@@ -4100,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFloat3Parameter",
           "package": "SFML-control",
@@ -4109,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFloat3Parameter",
           "normalized": "Shader-\u003eString-\u003eFloat-\u003eFloat-\u003eFloat-\u003eSFML()",
@@ -4124,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFloat4Parameter",
           "package": "SFML-control",
@@ -4133,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFloat4Parameter",
           "normalized": "Shader-\u003eString-\u003eFloat-\u003eFloat-\u003eFloat-\u003eFloat-\u003eSFML()",
@@ -4148,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFloatParameter",
           "package": "SFML-control",
@@ -4157,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFloatParameter",
           "normalized": "Shader-\u003eString-\u003eFloat-\u003eSFML()",
@@ -4172,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFramerateLimit",
           "package": "SFML-control",
@@ -4181,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setFramerateLimit",
           "normalized": "a-\u003eInt-\u003eSFML()",
@@ -4196,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setJoystickThreshold",
           "package": "SFML-control",
@@ -4205,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setJoystickThreshold",
           "normalized": "a-\u003eFloat-\u003eSFML()",
@@ -4220,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setKeyRepeat",
           "package": "SFML-control",
@@ -4229,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setKeyRepeat",
           "normalized": "a-\u003eBool-\u003eSFML()",
@@ -4244,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setMousePosition",
           "package": "SFML-control",
@@ -4253,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setMousePosition",
           "normalized": "Vec a-\u003eMaybe b-\u003eSFML()",
@@ -4268,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setMouseVisible",
           "package": "SFML-control",
@@ -4277,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setMouseVisible",
           "normalized": "a-\u003eBool-\u003eSFML()",
@@ -4292,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setOrigin",
           "package": "SFML-control",
@@ -4301,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setOrigin",
           "normalized": "a-\u003eVec b-\u003eSFML()",
@@ -4316,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setOutlineColor",
           "package": "SFML-control",
@@ -4325,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setOutlineColor",
           "normalized": "a-\u003eColor-\u003eSFML()",
@@ -4340,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setOutlineThickness",
           "package": "SFML-control",
@@ -4349,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setOutlineThickness",
           "normalized": "a-\u003eFloat-\u003eSFML()",
@@ -4364,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPixel",
           "package": "SFML-control",
@@ -4373,6 +4740,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPixel",
           "normalized": "Image-\u003eInt-\u003eInt-\u003eColor-\u003eSFML()",
@@ -4388,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPoint",
           "package": "SFML-control",
@@ -4397,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPoint",
           "normalized": "ConvexShape-\u003eInt-\u003eVec a-\u003eSFML()",
@@ -4412,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPointCount",
           "package": "SFML-control",
@@ -4421,6 +4792,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPointCount",
           "normalized": "a-\u003eInt-\u003eSFML()",
@@ -4436,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPosition",
           "package": "SFML-control",
@@ -4445,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPosition",
           "normalized": "a-\u003eVec b-\u003eSFML()",
@@ -4460,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPrimitiveType",
           "package": "SFML-control",
@@ -4469,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setPrimitiveType",
           "normalized": "VertexArray-\u003ePrimitiveType-\u003eSFML()",
@@ -4484,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setRadius",
           "package": "SFML-control",
@@ -4493,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setRadius",
           "normalized": "CircleShape-\u003eFloat-\u003eSFML()",
@@ -4508,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setRepeated",
           "package": "SFML-control",
@@ -4517,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setRepeated",
           "normalized": "Texture-\u003eBool-\u003eSFML()",
@@ -4532,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setRotation",
           "package": "SFML-control",
@@ -4541,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setRotation",
           "normalized": "a-\u003eFloat-\u003eSFML()",
@@ -4556,6 +4938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setScale",
           "package": "SFML-control",
@@ -4565,6 +4948,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setScale",
           "normalized": "a-\u003eVec b-\u003eSFML()",
@@ -4580,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setSize",
           "package": "SFML-control",
@@ -4589,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setSize",
           "normalized": "RectangleShape-\u003eVec a-\u003eSFML()",
@@ -4604,6 +4990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setSmooth",
           "package": "SFML-control",
@@ -4613,6 +5000,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setSmooth",
           "normalized": "a-\u003eBool-\u003eSFML()",
@@ -4628,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextCharacterSize",
           "package": "SFML-control",
@@ -4637,6 +5026,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextCharacterSize",
           "normalized": "Text-\u003eInt-\u003eSFML()",
@@ -4652,6 +5042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextColor",
           "package": "SFML-control",
@@ -4661,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextColor",
           "normalized": "Text-\u003eColor-\u003eSFML()",
@@ -4676,6 +5068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextFont",
           "package": "SFML-control",
@@ -4685,6 +5078,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextFont",
           "normalized": "Text-\u003eFont-\u003eSFML()",
@@ -4700,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextString",
           "package": "SFML-control",
@@ -4709,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextString",
           "normalized": "Text-\u003eString-\u003eSFML()",
@@ -4724,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextStringU",
           "package": "SFML-control",
@@ -4733,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextStringU",
           "normalized": "Text-\u003eString-\u003eSFML()",
@@ -4748,6 +5146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextStyle",
           "package": "SFML-control",
@@ -4757,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextStyle",
           "normalized": "Text-\u003e[TextStyle]-\u003eSFML()",
@@ -4772,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTexture",
           "package": "SFML-control",
@@ -4781,6 +5182,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTexture",
           "normalized": "a-\u003eTexture-\u003eBool-\u003eSFML()",
@@ -4796,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextureParameter",
           "package": "SFML-control",
@@ -4805,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextureParameter",
           "normalized": "Shader-\u003eString-\u003eTexture-\u003eSFML()",
@@ -4820,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextureRect",
           "package": "SFML-control",
@@ -4829,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTextureRect",
           "normalized": "a-\u003eIntRect-\u003eSFML()",
@@ -4844,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTransformParameter",
           "package": "SFML-control",
@@ -4853,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setTransformParameter",
           "normalized": "Shader-\u003eString-\u003eTransform-\u003eSFML()",
@@ -4868,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setVSync",
           "package": "SFML-control",
@@ -4877,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setVSync",
           "normalized": "a-\u003eBool-\u003eSFML()",
@@ -4892,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setVector2Parameter",
           "package": "SFML-control",
@@ -4901,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setVector2Parameter",
           "normalized": "Shader-\u003eString-\u003eVec a-\u003eSFML()",
@@ -4916,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setVector3Parameter",
           "package": "SFML-control",
@@ -4925,6 +5338,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setVector3Parameter",
           "normalized": "Shader-\u003eString-\u003eVec a-\u003eSFML()",
@@ -4940,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setView",
           "package": "SFML-control",
@@ -4949,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setView",
           "normalized": "a-\u003eView-\u003eSFML()",
@@ -4964,6 +5380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setViewCenter",
           "package": "SFML-control",
@@ -4973,6 +5390,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setViewCenter",
           "normalized": "View-\u003eVec a-\u003eSFML()",
@@ -4988,6 +5406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setViewRotation",
           "package": "SFML-control",
@@ -4997,6 +5416,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setViewRotation",
           "normalized": "View-\u003eFloat-\u003eSFML()",
@@ -5012,6 +5432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setViewSize",
           "package": "SFML-control",
@@ -5021,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setViewSize",
           "normalized": "View-\u003eVec a-\u003eSFML()",
@@ -5036,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setViewport",
           "package": "SFML-control",
@@ -5045,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setViewport",
           "normalized": "View-\u003eFloatRect-\u003eSFML()",
@@ -5060,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowActive",
           "package": "SFML-control",
@@ -5069,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowActive",
           "normalized": "a-\u003eBool-\u003eSFML()",
@@ -5084,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowIcon",
           "package": "SFML-control",
@@ -5093,6 +5520,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowIcon",
           "normalized": "a-\u003eInt-\u003eInt-\u003ePtr b-\u003eSFML()",
@@ -5108,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowPosition",
           "package": "SFML-control",
@@ -5117,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowPosition",
           "normalized": "a-\u003eVec b-\u003eSFML()",
@@ -5132,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowSize",
           "package": "SFML-control",
@@ -5141,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowSize",
           "normalized": "a-\u003eVec b-\u003eSFML()",
@@ -5156,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowTitle",
           "package": "SFML-control",
@@ -5165,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowTitle",
           "normalized": "a-\u003eString-\u003eSFML()",
@@ -5180,6 +5614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowVisible",
           "package": "SFML-control",
@@ -5189,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "setWindowVisible",
           "normalized": "a-\u003eBool-\u003eSFML()",
@@ -5204,6 +5640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "shaderFromFile",
           "package": "SFML-control",
@@ -5213,6 +5650,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "shaderFromFile",
           "normalized": "Maybe FilePath-\u003eMaybe FilePath-\u003eSFML Shader",
@@ -5228,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "shaderFromMemory",
           "package": "SFML-control",
@@ -5237,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "shaderFromMemory",
           "normalized": "Maybe String-\u003eMaybe String-\u003eSFML Shader",
@@ -5252,6 +5692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "shaderFromStream",
           "package": "SFML-control",
@@ -5261,6 +5702,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "shaderFromStream",
           "normalized": "Maybe InputStream-\u003eMaybe InputStream-\u003eSFML Shader",
@@ -5276,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureFromFile",
           "package": "SFML-control",
@@ -5285,6 +5728,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureFromFile",
           "normalized": "FilePath-\u003eMaybe IntRect-\u003eSFML Texture",
@@ -5300,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureFromImage",
           "package": "SFML-control",
@@ -5309,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureFromImage",
           "normalized": "Image-\u003eMaybe IntRect-\u003eSFML Texture",
@@ -5324,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureFromMemory",
           "package": "SFML-control",
@@ -5333,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureFromMemory",
           "normalized": "Ptr a-\u003eInt-\u003eMaybe IntRect-\u003eSFML Texture",
@@ -5348,6 +5796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureFromStream",
           "package": "SFML-control",
@@ -5357,6 +5806,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureFromStream",
           "normalized": "InputStream-\u003eMaybe IntRect-\u003eSFML Texture",
@@ -5372,6 +5822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureSize",
           "package": "SFML-control",
@@ -5381,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "textureSize",
           "normalized": "Texture-\u003eSFML Vec a",
@@ -5396,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateShape",
           "package": "SFML-control",
@@ -5405,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateShape",
           "normalized": "Shape-\u003eSFML()",
@@ -5420,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateTextureFromImage",
           "package": "SFML-control",
@@ -5429,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateTextureFromImage",
           "normalized": "Texture-\u003eImage-\u003eInt-\u003eInt-\u003eSFML()",
@@ -5444,6 +5900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateTextureFromPixels",
           "package": "SFML-control",
@@ -5453,6 +5910,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateTextureFromPixels",
           "normalized": "Texture-\u003ePtr a-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eSFML()",
@@ -5468,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateTextureFromRenderWindow",
           "package": "SFML-control",
@@ -5477,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateTextureFromRenderWindow",
           "normalized": "Texture-\u003eRenderWindow-\u003eInt-\u003eInt-\u003eSFML()",
@@ -5492,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateTextureFromWindow",
           "package": "SFML-control",
@@ -5501,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "updateTextureFromWindow",
           "normalized": "Texture-\u003eWindow-\u003eInt-\u003eInt-\u003eSFML()",
@@ -5516,6 +5978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "viewFromRect",
           "package": "SFML-control",
@@ -5525,6 +5988,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "viewFromRect",
           "normalized": "FloatRect-\u003eSFML View",
@@ -5540,6 +6004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "waitEvent",
           "package": "SFML-control",
@@ -5549,6 +6014,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "waitEvent",
           "normalized": "a-\u003eSFML(Maybe SFEvent)",
@@ -5564,6 +6030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Graphics",
           "name": "zoomView",
           "package": "SFML-control",
@@ -5573,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Graphics",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Graphics",
           "name": "zoomView",
           "normalized": "View-\u003eFloat-\u003eSFML()",
@@ -5588,6 +6056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.System",
           "name": "System",
           "package": "SFML-control",
@@ -5596,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML System",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.System",
           "name": "System",
           "package": "SFML-control",
@@ -5609,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.System",
           "name": "createClock",
           "package": "SFML-control",
@@ -5618,6 +6089,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML System",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.System",
           "name": "createClock",
           "package": "SFML-control",
@@ -5631,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.System",
           "name": "getElapsedTime",
           "package": "SFML-control",
@@ -5640,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML System",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.System",
           "name": "getElapsedTime",
           "normalized": "Clock-\u003eSFML Time",
@@ -5655,6 +6129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.System",
           "name": "restartClock",
           "package": "SFML-control",
@@ -5664,6 +6139,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML System",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.System",
           "name": "restartClock",
           "normalized": "Clock-\u003eSFML Time",
@@ -5679,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.System",
           "name": "sfSleep",
           "package": "SFML-control",
@@ -5688,6 +6165,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML System",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.System",
           "name": "sfSleep",
           "normalized": "Time-\u003eSFML()",
@@ -5703,6 +6181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Types",
           "name": "Types",
           "package": "SFML-control",
@@ -5711,6 +6190,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Types",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Types",
           "name": "Types",
           "package": "SFML-control",
@@ -5724,6 +6204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Types",
           "name": "SFML",
           "package": "SFML-control",
@@ -5732,6 +6213,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Types",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Types",
           "name": "SFML",
           "package": "SFML-control",
@@ -5746,6 +6228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the SFML monad, calling all the destructors appropriately.\n The library is designed to force you to call this function to get back into\n the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad, so that every object is appropriately destroyed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Types",
           "name": "runSFML",
           "package": "SFML-control",
@@ -5756,6 +6239,7 @@
         "index": {
           "description": "Run the SFML monad calling all the destructors appropriately The library is designed to force you to call this function to get back into the IO monad so that every object is appropriately destroyed",
           "hierarchy": "Control Monad SFML Types",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Types",
           "name": "runSFML",
           "normalized": "SFML a-\u003eIO()",
@@ -5771,6 +6255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "Window",
           "package": "SFML-control",
@@ -5779,6 +6264,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "Window",
           "package": "SFML-control",
@@ -5792,6 +6278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "createContext",
           "package": "SFML-control",
@@ -5801,6 +6288,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "createContext",
           "package": "SFML-control",
@@ -5814,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "createWindow",
           "package": "SFML-control",
@@ -5823,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "createWindow",
           "normalized": "VideoMode-\u003eString-\u003e[WindowStyle]-\u003eMaybe ContextSettings-\u003eSFML Window",
@@ -5838,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "getAxisPosition",
           "package": "SFML-control",
@@ -5847,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "getAxisPosition",
           "normalized": "Int-\u003eInt-\u003eSFML Float",
@@ -5862,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "getButtonCount",
           "package": "SFML-control",
@@ -5871,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "getButtonCount",
           "normalized": "Int-\u003eSFML Int",
@@ -5886,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "getDesktopMode",
           "package": "SFML-control",
@@ -5895,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "getDesktopMode",
           "package": "SFML-control",
@@ -5908,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "getFullscreenModes",
           "package": "SFML-control",
@@ -5917,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "getFullscreenModes",
           "normalized": "SFML[VideoMode]",
@@ -5932,6 +6430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "hasAxis",
           "package": "SFML-control",
@@ -5941,6 +6440,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "hasAxis",
           "normalized": "Int-\u003eInt-\u003eSFML Bool",
@@ -5956,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "isJoystickButtonPressed",
           "package": "SFML-control",
@@ -5965,6 +6466,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "isJoystickButtonPressed",
           "normalized": "Int-\u003eInt-\u003eSFML Bool",
@@ -5980,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "isJoystickConnected",
           "package": "SFML-control",
@@ -5989,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "isJoystickConnected",
           "normalized": "Int-\u003eSFML Bool",
@@ -6004,6 +6508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "isKeyPressed",
           "package": "SFML-control",
@@ -6013,6 +6518,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "isKeyPressed",
           "normalized": "KeyCode-\u003eSFML Bool",
@@ -6028,6 +6534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "isMouseButtonPressed",
           "package": "SFML-control",
@@ -6037,6 +6544,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "isMouseButtonPressed",
           "normalized": "MouseButton-\u003eSFML Bool",
@@ -6052,6 +6560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "isValid",
           "package": "SFML-control",
@@ -6061,6 +6570,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "isValid",
           "normalized": "VideoMode-\u003eSFML Bool",
@@ -6076,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "setActiveContext",
           "package": "SFML-control",
@@ -6085,6 +6596,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "setActiveContext",
           "normalized": "Context-\u003eBool-\u003eSFML()",
@@ -6100,6 +6612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "updateJoystick",
           "package": "SFML-control",
@@ -6109,6 +6622,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "updateJoystick",
           "normalized": "SFML()",
@@ -6124,6 +6638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML.Window",
           "name": "windowFromHandle",
           "package": "SFML-control",
@@ -6133,6 +6648,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SFML Window",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML.Window",
           "name": "windowFromHandle",
           "normalized": "WindowHandle-\u003eMaybe ContextSettings-\u003eSFML Window",
@@ -6149,6 +6665,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package builds on top of \u003ccode\u003eSFML\u003c/code\u003e and offers an higher level of\nabstraction over the original library, mainly exposing the \u003ccode\u003e\u003ca\u003eSFML\u003c/a\u003e\u003c/code\u003e monad,\nwhich is responsible for allocating and running the destructors for your\nmanaged objects. This allow us to program at an higher level of abstraction:\n\u003c/p\u003e\u003cpre\u003e import Control.Monad.SFML\n import qualified SFML.Graphics as G\n import qualified SFML.Window as W\n import SFML.Graphics.Color\n \n import Paths_SFMLExamples\n \n main :: IO ()\n main = runSFML $ do\n     let ctxSettings = Just $ W.ContextSettings 24 8 0 1 2\n     wnd \u003c- createRenderWindow (W.VideoMode 640 480 32)\n            \"SFML-Control Demo\" [W.SFDefaultStyle] ctxSettings\n     logoPath  \u003c- liftIO $ getDataFileName \"Haskell-Logo.png\"\n     fontPath  \u003c- liftIO $ getDataFileName \"Vera.ttf\"\n     musicPath \u003c- liftIO $ getDataFileName \"DST-BreakOut.ogg\"\n     tex \u003c- textureFromFile logoPath Nothing\n     spr \u003c- createSprite\n     fnt \u003c- fontFromFile fontPath\n     txt \u003c- createText\n     setTextString txt \"Haskell-Control\\nhandles memory\\nfor you\"\n     setTextFont txt fnt\n     setTextCharacterSize txt 20\n     setTextColor txt blue\n     msc \u003c- musicFromFile musicPath\n     play msc\n     setTexture spr tex True\n     loop wnd spr txt\n \n \n loop :: G.RenderWindow -\u003e G.Sprite -\u003e G.Text -\u003e SFML ()\n loop wnd spr txt = do\n     drawSprite wnd spr Nothing\n     drawText   wnd txt $ Just (G.renderStates { G.transform = G.translation 460 40 })\n     display wnd\n     evt \u003c- waitEvent wnd\n     case evt of\n         Nothing -\u003e return ()\n         Just W.SFEvtClosed -\u003e return ()\n         _ -\u003e loop wnd spr txt\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML",
           "name": "SFML",
           "package": "SFML-control",
@@ -6158,6 +6675,7 @@
         "index": {
           "description": "This package builds on top of SFML and offers an higher level of abstraction over the original library mainly exposing the SFML monad which is responsible for allocating and running the destructors for your managed objects This allow us to program at an higher level of abstraction import Control.Monad.SFML import qualified SFML.Graphics as import qualified SFML.Window as import SFML.Graphics.Color import Paths SFMLExamples main IO main runSFML do let ctxSettings Just W.ContextSettings wnd createRenderWindow W.VideoMode SFML-Control Demo W.SFDefaultStyle ctxSettings logoPath liftIO getDataFileName Haskell-Logo.png fontPath liftIO getDataFileName Vera.ttf musicPath liftIO getDataFileName DST-BreakOut.ogg tex textureFromFile logoPath Nothing spr createSprite fnt fontFromFile fontPath txt createText setTextString txt Haskell-Control nhandles memory nfor you setTextFont txt fnt setTextCharacterSize txt setTextColor txt blue msc musicFromFile musicPath play msc setTexture spr tex True loop wnd spr txt loop G.RenderWindow G.Sprite G.Text SFML loop wnd spr txt do drawSprite wnd spr Nothing drawText wnd txt Just G.renderStates G.transform G.translation display wnd evt waitEvent wnd case evt of Nothing return Just W.SFEvtClosed return loop wnd spr txt",
           "hierarchy": "Control Monad SFML",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML",
           "name": "SFML",
           "package": "SFML-control",
@@ -6172,6 +6690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:26 UTC 2014",
           "module": "Control.Monad.SFML",
           "name": "liftIO",
           "package": "SFML-control",
@@ -6181,6 +6700,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Control Monad SFML",
+          "indexed": "2014-03-11T16:59:26",
           "module": "Control.Monad.SFML",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",

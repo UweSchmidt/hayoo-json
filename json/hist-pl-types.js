@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hist-pl-types"
+        "phrase": "hist-pl-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA data type hierarchy provided by this module mirrors\n the hierarchy of elements present in the original, LMF\n representation of the historical dictionary of Polish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Types",
           "package": "hist-pl-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "data type hierarchy provided by this module mirrors the hierarchy of elements present in the original LMF representation of the historical dictionary of Polish",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Types",
           "package": "hist-pl-types",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context in which a given sense is illustrated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Context",
           "package": "hist-pl-types",
@@ -51,6 +54,7 @@
         "index": {
           "description": "context in which given sense is illustrated",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Context",
           "package": "hist-pl-types",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA definition of the lexeme sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Definition",
           "package": "hist-pl-types",
@@ -74,6 +79,7 @@
         "index": {
           "description": "definition of the lexeme sense",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Definition",
           "package": "hist-pl-types",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of objects with a written representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "HasRepr",
           "package": "hist-pl-types",
@@ -97,6 +104,7 @@
         "index": {
           "description": "class of objects with written representation",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "HasRepr",
           "package": "hist-pl-types",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lemma (base) form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Lemma",
           "package": "hist-pl-types",
@@ -120,6 +129,7 @@
         "index": {
           "description": "lemma base form",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Lemma",
           "package": "hist-pl-types",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of a lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "LexEntry",
           "package": "hist-pl-types",
@@ -143,6 +154,7 @@
         "index": {
           "description": "description of lexeme",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "LexEntry",
           "package": "hist-pl-types",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA related form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "RelForm",
           "package": "hist-pl-types",
@@ -166,6 +179,7 @@
         "index": {
           "description": "related form",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "RelForm",
           "package": "hist-pl-types",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWritten representation of a form or a text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Repr",
           "package": "hist-pl-types",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Written representation of form or text",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Repr",
           "package": "hist-pl-types",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA potential sense of a given lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Sense",
           "package": "hist-pl-types",
@@ -212,6 +229,7 @@
         "index": {
           "description": "potential sense of given lexeme",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Sense",
           "package": "hist-pl-types",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of a syntactic behaviour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "SynBehaviour",
           "package": "hist-pl-types",
@@ -235,6 +254,7 @@
         "index": {
           "description": "description of syntactic behaviour",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "SynBehaviour",
           "package": "hist-pl-types",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "WordForm",
           "package": "hist-pl-types",
@@ -258,6 +279,7 @@
         "index": {
           "description": "word form",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "WordForm",
           "package": "hist-pl-types",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Context",
           "package": "hist-pl-types",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Context",
           "normalized": "Context[Repr]",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Definition",
           "package": "hist-pl-types",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Definition",
           "normalized": "Definition[Repr]",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Lemma",
           "package": "hist-pl-types",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Lemma",
           "normalized": "Lemma[Repr]",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "LexEntry",
           "package": "hist-pl-types",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "LexEntry",
           "package": "hist-pl-types",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "RelForm",
           "package": "hist-pl-types",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "RelForm",
           "package": "hist-pl-types",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Repr",
           "package": "hist-pl-types",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Repr",
           "package": "hist-pl-types",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "Sense",
           "package": "hist-pl-types",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "Sense",
           "package": "hist-pl-types",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "SynBehaviour",
           "package": "hist-pl-types",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "SynBehaviour",
           "package": "hist-pl-types",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "WordForm",
           "package": "hist-pl-types",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "WordForm",
           "normalized": "WordForm[Repr]",
@@ -478,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of component identifiers (only when the entry\n represents a compound lexeme).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "components",
           "package": "hist-pl-types",
@@ -488,6 +529,7 @@
         "index": {
           "description": "list of component identifiers only when the entry represents compound lexeme",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "components",
           "normalized": "[Text]",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "cxts",
           "package": "hist-pl-types",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "cxts",
           "normalized": "[Context]",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "defs",
           "package": "hist-pl-types",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "defs",
           "normalized": "[Definition]",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord forms of the lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "forms",
           "package": "hist-pl-types",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Word forms of the lexeme",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "forms",
           "normalized": "[WordForm]",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "language",
           "package": "hist-pl-types",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "language",
           "package": "hist-pl-types",
@@ -595,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA base form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "lemma",
           "package": "hist-pl-types",
@@ -605,6 +656,7 @@
         "index": {
           "description": "base form",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "lemma",
           "package": "hist-pl-types",
@@ -618,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ID of the lexical entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "lexID",
           "package": "hist-pl-types",
@@ -628,6 +681,7 @@
         "index": {
           "description": "An ID of the lexical entry",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "lexID",
           "package": "hist-pl-types",
@@ -642,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line reference number.  Provisional field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "lineRef",
           "package": "hist-pl-types",
@@ -652,6 +707,7 @@
         "index": {
           "description": "line reference number Provisional field",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "lineRef",
           "package": "hist-pl-types",
@@ -666,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePotential parts of speech.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "pos",
           "package": "hist-pl-types",
@@ -676,6 +733,7 @@
         "index": {
           "description": "Potential parts of speech",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "pos",
           "normalized": "[Text]",
@@ -690,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "relRepr",
           "package": "hist-pl-types",
@@ -699,6 +758,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "relRepr",
           "normalized": "[Repr]",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "relTo",
           "package": "hist-pl-types",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "relTo",
           "package": "hist-pl-types",
@@ -737,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForma related to the lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "related",
           "package": "hist-pl-types",
@@ -747,6 +810,7 @@
         "index": {
           "description": "Forma related to the lexeme",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "related",
           "normalized": "[RelForm]",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "repr",
           "package": "hist-pl-types",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "repr",
           "normalized": "a-\u003e[Repr]",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "senseId",
           "package": "hist-pl-types",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "senseId",
           "package": "hist-pl-types",
@@ -807,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of potential semantic descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "senses",
           "package": "hist-pl-types",
@@ -817,6 +886,7 @@
         "index": {
           "description": "list of potential semantic descriptions",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "senses",
           "normalized": "[Sense]",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "sourceID",
           "package": "hist-pl-types",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "sourceID",
           "package": "hist-pl-types",
@@ -854,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA status of the lexeme.  Provisional field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "status",
           "package": "hist-pl-types",
@@ -864,6 +937,7 @@
         "index": {
           "description": "status of the lexeme Provisional field",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "status",
           "package": "hist-pl-types",
@@ -876,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "style",
           "package": "hist-pl-types",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "style",
           "normalized": "[Text]",
@@ -899,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "synRepr",
           "package": "hist-pl-types",
@@ -908,6 +985,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "synRepr",
           "normalized": "[Repr]",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "synSenseIds",
           "package": "hist-pl-types",
@@ -932,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "synSenseIds",
           "normalized": "[Text]",
@@ -948,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of potential syntactic behaviours of the lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "syntactic",
           "package": "hist-pl-types",
@@ -958,6 +1039,7 @@
         "index": {
           "description": "list of potential syntactic behaviours of the lexeme",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "syntactic",
           "normalized": "[SynBehaviour]",
@@ -973,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet textual representations of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "text",
           "package": "hist-pl-types",
@@ -983,6 +1066,7 @@
         "index": {
           "description": "Get textual representations of an object",
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "text",
           "normalized": "a-\u003e[Text]",
@@ -997,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:21 UTC 2014",
           "module": "NLP.HistPL.Types",
           "name": "writtenForm",
           "package": "hist-pl-types",
@@ -1006,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Types",
+          "indexed": "2014-03-11T18:40:21",
           "module": "NLP.HistPL.Types",
           "name": "writtenForm",
           "package": "hist-pl-types",

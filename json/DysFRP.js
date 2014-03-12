@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DysFRP"
+        "phrase": "DysFRP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "Internal",
           "package": "DysFRP",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "Internal",
           "package": "DysFRP",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContinuous time functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "Behavior",
           "package": "DysFRP",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Continuous time functions",
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "Behavior",
           "package": "DysFRP",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime functions with an additional time parameter, corresponding to a starting point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "BehaviorGen",
           "package": "DysFRP",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Time functions with an additional time parameter corresponding to starting point",
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "BehaviorGen",
           "package": "DysFRP",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscrete events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "Event",
           "package": "DysFRP",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Discrete events",
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "Event",
           "package": "DysFRP",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "Handler",
           "package": "DysFRP",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "Handler",
           "package": "DysFRP",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "ReactM",
           "package": "DysFRP",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "ReactM",
           "package": "DysFRP",
@@ -174,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "addHandler",
           "package": "DysFRP",
@@ -183,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "addHandler",
           "normalized": "Event a-\u003eHandler a-\u003eIO()",
@@ -198,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "alterE",
           "package": "DysFRP",
@@ -207,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "alterE",
           "normalized": "(Handler a-\u003eHandler b)-\u003eEvent b-\u003eEvent a",
@@ -393,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "contramapH",
           "package": "DysFRP",
@@ -402,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "contramapH",
           "normalized": "(a-\u003eReactM b)-\u003eHandler b-\u003eHandler a",
@@ -639,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "ioMapE",
           "package": "DysFRP",
@@ -648,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "ioMapE",
           "normalized": "(a-\u003eIO b)-\u003eEvent a-\u003eEvent b",
@@ -712,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "mkBG",
           "package": "DysFRP",
@@ -721,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "mkBG",
           "normalized": "ReactM(ReactM a)-\u003eBehaviorGen a",
@@ -762,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "mkH",
           "package": "DysFRP",
@@ -771,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "mkH",
           "normalized": "a-\u003e(b-\u003eReactM())-\u003eIO(Handler b)",
@@ -785,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "mksH",
           "package": "DysFRP",
@@ -794,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "mksH",
           "normalized": "(a-\u003eReactM())-\u003eIO(Handler a)",
@@ -808,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "newReactRef",
           "package": "DysFRP",
@@ -817,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "newReactRef",
           "normalized": "a-\u003eReactM(ReactRef a)",
@@ -854,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "reactMapE",
           "package": "DysFRP",
@@ -863,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "reactMapE",
           "normalized": "(a-\u003eReactM b)-\u003eEvent a-\u003eEvent b",
@@ -878,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "readReactRef",
           "package": "DysFRP",
@@ -887,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "readReactRef",
           "normalized": "ReactRef a-\u003eReactM a",
@@ -929,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "runHandler",
           "package": "DysFRP",
@@ -938,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "runHandler",
           "normalized": "Handler a-\u003eIO(Maybe(a-\u003eReactM()))",
@@ -1077,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "updateReactRef",
           "package": "DysFRP",
@@ -1086,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "updateReactRef",
           "normalized": "ReactRef a-\u003eReactM a-\u003eReactM()",
@@ -1175,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP.Internal",
           "name": "writeReactRef",
           "package": "DysFRP",
@@ -1184,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Internal",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP.Internal",
           "name": "writeReactRef",
           "normalized": "ReactRef a-\u003ea-\u003eReactM()",
@@ -1199,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP",
           "name": "DysFRP",
           "package": "DysFRP",
@@ -1207,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP",
           "name": "DysFRP",
           "package": "DysFRP",
@@ -1221,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContinuous time functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP",
           "name": "Behavior",
           "package": "DysFRP",
@@ -1230,6 +1271,7 @@
         "index": {
           "description": "Continuous time functions",
           "hierarchy": "Control DysFRP",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP",
           "name": "Behavior",
           "package": "DysFRP",
@@ -1244,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime functions with an additional time parameter, corresponding to a starting point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP",
           "name": "BehaviorGen",
           "package": "DysFRP",
@@ -1253,6 +1296,7 @@
         "index": {
           "description": "Time functions with an additional time parameter corresponding to starting point",
           "hierarchy": "Control DysFRP",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP",
           "name": "BehaviorGen",
           "package": "DysFRP",
@@ -1267,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscrete events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:33 UTC 2014",
           "module": "Control.DysFRP",
           "name": "Event",
           "package": "DysFRP",
@@ -1276,6 +1321,7 @@
         "index": {
           "description": "Discrete events",
           "hierarchy": "Control DysFRP",
+          "indexed": "2014-03-11T16:39:33",
           "module": "Control.DysFRP",
           "name": "Event",
           "package": "DysFRP",

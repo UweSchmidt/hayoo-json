@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fclabels-monadlib"
+        "phrase": "fclabels-monadlib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:09 UTC 2014",
           "module": "Data.Label.MonadLib",
           "name": "MonadLib",
           "package": "fclabels-monadlib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Label MonadLib",
+          "indexed": "2014-03-11T18:07:09",
           "module": "Data.Label.MonadLib",
           "name": "MonadLib",
           "package": "fclabels-monadlib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:09 UTC 2014",
           "module": "Data.Label.MonadLib",
           "name": "getM",
           "package": "fclabels-monadlib",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Label MonadLib",
+          "indexed": "2014-03-11T18:07:09",
           "module": "Data.Label.MonadLib",
           "name": "getM",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:09 UTC 2014",
           "module": "Data.Label.MonadLib",
           "name": "modM",
           "package": "fclabels-monadlib",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Label MonadLib",
+          "indexed": "2014-03-11T18:07:09",
           "module": "Data.Label.MonadLib",
           "name": "modM",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb)-\u003ec()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:09 UTC 2014",
           "module": "Data.Label.MonadLib",
           "name": "setM",
           "package": "fclabels-monadlib",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Label MonadLib",
+          "indexed": "2014-03-11T18:07:09",
           "module": "Data.Label.MonadLib",
           "name": "setM",
           "normalized": "(a-\u003eb)-\u003eb-\u003ec()",

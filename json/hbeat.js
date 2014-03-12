@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hbeat"
+        "phrase": "hbeat",
+        "type": "phrase"
       },
       "type": "context"
     }

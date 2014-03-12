@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pipes-postgresql-simple"
+        "phrase": "pipes-postgresql-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple.SafeT",
           "name": "SafeT",
           "package": "pipes-postgresql-simple",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Pipes PostgreSQL Simple SafeT",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple.SafeT",
           "name": "SafeT",
           "package": "pipes-postgresql-simple",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PostgreSQL file format, used by the \u003ccode\u003eCOPY\u003c/code\u003e command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple.SafeT",
           "name": "Format",
           "package": "pipes-postgresql-simple",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The PostgreSQL file format used by the COPY command",
           "hierarchy": "Pipes PostgreSQL Simple SafeT",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple.SafeT",
           "name": "Format",
           "package": "pipes-postgresql-simple",
@@ -131,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple.SafeT",
           "name": "toTable",
           "package": "pipes-postgresql-simple",
@@ -140,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Pipes PostgreSQL Simple SafeT",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple.SafeT",
           "name": "toTable",
           "normalized": "Connection-\u003eFormat-\u003eString-\u003eConsumer ByteString a b",
@@ -156,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePipes utilities built on top of \u003ccode\u003epostgresql-simple\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "Simple",
           "package": "pipes-postgresql-simple",
@@ -165,6 +172,7 @@
         "index": {
           "description": "Pipes utilities built on top of postgresql-simple",
           "hierarchy": "Pipes PostgreSQL Simple",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "Simple",
           "package": "pipes-postgresql-simple",
@@ -179,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PostgreSQL file format, used by the \u003ccode\u003eCOPY\u003c/code\u003e command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "Format",
           "package": "pipes-postgresql-simple",
@@ -188,6 +197,7 @@
         "index": {
           "description": "The PostgreSQL file format used by the COPY command",
           "hierarchy": "Pipes PostgreSQL Simple",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "Format",
           "package": "pipes-postgresql-simple",
@@ -202,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a table to a byte stream. This is equivilent to a PostgreSQL\n \u003ccode\u003eCOPY ... TO\u003c/code\u003e statement.\n\u003c/p\u003e\u003cp\u003eReturns the number of rows processed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "fromTable",
           "package": "pipes-postgresql-simple",
@@ -212,6 +223,7 @@
         "index": {
           "description": "Convert table to byte stream This is equivilent to PostgreSQL COPY TO statement Returns the number of rows processed",
           "hierarchy": "Pipes PostgreSQL Simple",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "fromTable",
           "normalized": "Connection-\u003eFormat-\u003eString-\u003eProducer ByteString a Int",
@@ -228,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a query to a \u003ccode\u003eProducer\u003c/code\u003e of rows.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre\u003e pg \u003c- connectToPostgresql\n query pg \"SELECT * FROM widgets WHERE ID = ?\" (Only widgetId) \u003e-\u003e print\n\u003c/pre\u003e\u003cp\u003eWill select all widgets for a given \u003ccode\u003ewidgetId\u003c/code\u003e, and then print each row to\n standard output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "query",
           "package": "pipes-postgresql-simple",
@@ -238,6 +251,7 @@
         "index": {
           "description": "Convert query to Producer of rows For example pg connectToPostgresql query pg SELECT FROM widgets WHERE ID Only widgetId print Will select all widgets for given widgetId and then print each row to standard output",
           "hierarchy": "Pipes PostgreSQL Simple",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "query",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eProducer b c()",
@@ -253,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e, but it doesn't perform any query parameter substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "query_",
           "package": "pipes-postgresql-simple",
@@ -263,6 +278,7 @@
         "index": {
           "description": "Like query but it doesn perform any query parameter substitution",
           "hierarchy": "Pipes PostgreSQL Simple",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "query_",
           "normalized": "Connection-\u003eQuery-\u003eProducer a b()",
@@ -278,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a byte stream to a table. This is equivilent to a PostgreSQL\n \u003ccode\u003eCOPY ... FROM\u003c/code\u003e statement.\n\u003c/p\u003e\u003cp\u003eReturns the number of rows processed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:31 UTC 2014",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "toTable",
           "package": "pipes-postgresql-simple",
@@ -288,6 +305,7 @@
         "index": {
           "description": "Convert byte stream to table This is equivilent to PostgreSQL COPY FROM statement Returns the number of rows processed",
           "hierarchy": "Pipes PostgreSQL Simple",
+          "indexed": "2014-03-11T19:39:31",
           "module": "Pipes.PostgreSQL.Simple",
           "name": "toTable",
           "normalized": "Connection-\u003eFormat-\u003eString-\u003eProducer ByteString a()-\u003ea Int",

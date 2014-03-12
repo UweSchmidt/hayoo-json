@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nymphaea"
+        "phrase": "nymphaea",
+        "type": "phrase"
       },
       "type": "context"
     }

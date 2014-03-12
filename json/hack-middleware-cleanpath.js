@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-middleware-cleanpath"
+        "phrase": "hack-middleware-cleanpath",
+        "type": "phrase"
       },
       "type": "context"
     }

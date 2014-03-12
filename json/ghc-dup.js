@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-dup"
+        "phrase": "ghc-dup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides two new operations, \u003ccode\u003e\u003ca\u003edup\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edeepDup\u003c/a\u003e\u003c/code\u003e,\nthat allow you to prevent the result of two evaluations of the same\nexpression to be shared.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:54 UTC 2014",
           "module": "GHC.Dup",
           "name": "Dup",
           "package": "ghc-dup",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides two new operations dup and deepDup that allow you to prevent the result of two evaluations of the same expression to be shared",
           "hierarchy": "GHC Dup",
+          "indexed": "2014-03-11T18:15:54",
           "module": "GHC.Dup",
           "name": "Dup",
           "package": "ghc-dup",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Box datatype allows you to control the time of evaluations of \u003ccode\u003e\u003ca\u003edup\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003edeepDup\u003c/a\u003e\u003c/code\u003e, by pattern-matching on the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:54 UTC 2014",
           "module": "GHC.Dup",
           "name": "Box",
           "package": "ghc-dup",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Box datatype allows you to control the time of evaluations of dup or deepDup by pattern-matching on the result",
           "hierarchy": "GHC Dup",
+          "indexed": "2014-03-11T18:15:54",
           "module": "GHC.Dup",
           "name": "Box",
           "package": "ghc-dup",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:54 UTC 2014",
           "module": "GHC.Dup",
           "name": "Box",
           "package": "ghc-dup",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "GHC Dup",
+          "indexed": "2014-03-11T18:15:54",
           "module": "GHC.Dup",
           "name": "Box",
           "package": "ghc-dup",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis copies the parameter and changes all references therein so that when\n they are evaluated, they are copied again. This ensures that everything put on the heap by a function that wraps all is parameters in \u003ccode\u003e\u003ca\u003edeepDup\u003c/a\u003e\u003c/code\u003e can be freed after the evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:54 UTC 2014",
           "module": "GHC.Dup",
           "name": "deepDup",
           "package": "ghc-dup",
@@ -97,6 +104,7 @@
         "index": {
           "description": "This copies the parameter and changes all references therein so that when they are evaluated they are copied again This ensures that everything put on the heap by function that wraps all is parameters in deepDup can be freed after the evaluation",
           "hierarchy": "GHC Dup",
+          "indexed": "2014-03-11T18:15:54",
           "module": "GHC.Dup",
           "name": "deepDup",
           "normalized": "a-\u003eBox a",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDup copies a the parameter and returns it. The copy is shallow, i.e.\n referenced thunks are still shared between the parameter and its copy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:54 UTC 2014",
           "module": "GHC.Dup",
           "name": "dup",
           "package": "ghc-dup",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Dup copies the parameter and returns it The copy is shallow i.e referenced thunks are still shared between the parameter and its copy",
           "hierarchy": "GHC Dup",
+          "indexed": "2014-03-11T18:15:54",
           "module": "GHC.Dup",
           "name": "dup",
           "normalized": "a-\u003eBox a",

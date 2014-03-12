@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sonic-visualiser"
+        "phrase": "sonic-visualiser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "SonicVisualiser",
           "package": "sonic-visualiser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "SonicVisualiser",
           "package": "sonic-visualiser",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Data container, either a file on disk or a sparse matrix (a list of\n \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003es).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Data",
           "package": "sonic-visualiser",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The Data container either file on disk or sparse matrix list of Point",
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Data",
           "package": "sonic-visualiser",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Derivation links a source \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e derived by some kind of\n analysis procedure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Derivation",
           "package": "sonic-visualiser",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Derivation links source Model with Model derived by some kind of analysis procedure",
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Derivation",
           "package": "sonic-visualiser",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Sonic Visualiser document.\n Documents contain \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003es with their corresponding \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eLayer\u003c/a\u003e\u003c/code\u003es and\n \u003ccode\u003e\u003ca\u003eDerivation\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Document",
           "package": "sonic-visualiser",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Sonic Visualiser document Documents contain Model with their corresponding Data Layer and Derivation",
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Document",
           "package": "sonic-visualiser",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Frame",
           "package": "sonic-visualiser",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Frame",
           "package": "sonic-visualiser",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "FrameCount",
           "package": "sonic-visualiser",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "FrameCount",
           "package": "sonic-visualiser",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Layer",
           "package": "sonic-visualiser",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Layer",
           "package": "sonic-visualiser",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Layer defines the visual layout of a `Model'\\'s data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "LayerType",
           "package": "sonic-visualiser",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Layer defines the visual layout of Model data set",
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "LayerType",
           "package": "sonic-visualiser",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Model describes a particular dataset in the Sonic Visualiser project\n file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Model",
           "package": "sonic-visualiser",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Model describes particular dataset in the Sonic Visualiser project file",
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Model",
           "package": "sonic-visualiser",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "ModelType",
           "package": "sonic-visualiser",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "ModelType",
           "package": "sonic-visualiser",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Point specifies a coordinate in a time-series sparse matrix, with an\n optional value and label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Point",
           "package": "sonic-visualiser",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Point specifies coordinate in time-series sparse matrix with an optional value and label",
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Point",
           "package": "sonic-visualiser",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "DataSet",
           "package": "sonic-visualiser",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "DataSet",
           "normalized": "DataSet[Point]",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Derivation",
           "package": "sonic-visualiser",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Derivation",
           "package": "sonic-visualiser",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Document",
           "package": "sonic-visualiser",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Document",
           "package": "sonic-visualiser",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "File",
           "package": "sonic-visualiser",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "File",
           "package": "sonic-visualiser",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Layer",
           "package": "sonic-visualiser",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Layer",
           "package": "sonic-visualiser",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Model",
           "package": "sonic-visualiser",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Model",
           "package": "sonic-visualiser",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "Point",
           "package": "sonic-visualiser",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "Point",
           "package": "sonic-visualiser",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "SparseMatrix",
           "package": "sonic-visualiser",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "SparseMatrix",
           "package": "sonic-visualiser",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "TimeInstants",
           "package": "sonic-visualiser",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "TimeInstants",
           "package": "sonic-visualiser",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "TimeRuler",
           "package": "sonic-visualiser",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "TimeRuler",
           "package": "sonic-visualiser",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "WaveFile",
           "package": "sonic-visualiser",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "WaveFile",
           "package": "sonic-visualiser",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "WaveForm",
           "package": "sonic-visualiser",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "WaveForm",
           "package": "sonic-visualiser",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "derivationBlockSize",
           "package": "sonic-visualiser",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "derivationBlockSize",
           "package": "sonic-visualiser",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "derivationChannel",
           "package": "sonic-visualiser",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "derivationChannel",
           "package": "sonic-visualiser",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "derivationDomain",
           "package": "sonic-visualiser",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "derivationDomain",
           "package": "sonic-visualiser",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "derivationModel",
           "package": "sonic-visualiser",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "derivationModel",
           "package": "sonic-visualiser",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "derivationSource",
           "package": "sonic-visualiser",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "derivationSource",
           "package": "sonic-visualiser",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "derivationStepSize",
           "package": "sonic-visualiser",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "derivationStepSize",
           "package": "sonic-visualiser",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "derivationTransform",
           "package": "sonic-visualiser",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "derivationTransform",
           "package": "sonic-visualiser",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "derivationWindowType",
           "package": "sonic-visualiser",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "derivationWindowType",
           "package": "sonic-visualiser",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "docDerivations",
           "package": "sonic-visualiser",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "docDerivations",
           "normalized": "[Derivation]",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "docLayers",
           "package": "sonic-visualiser",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "docLayers",
           "normalized": "[Layer]",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "docModels",
           "package": "sonic-visualiser",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "docModels",
           "normalized": "[Model]",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "layerModel",
           "package": "sonic-visualiser",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "layerModel",
           "package": "sonic-visualiser",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "layerName",
           "package": "sonic-visualiser",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "layerName",
           "package": "sonic-visualiser",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelData",
           "package": "sonic-visualiser",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelData",
           "package": "sonic-visualiser",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelDimensions",
           "package": "sonic-visualiser",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelDimensions",
           "package": "sonic-visualiser",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelEndFrame",
           "package": "sonic-visualiser",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelEndFrame",
           "package": "sonic-visualiser",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelIsMain",
           "package": "sonic-visualiser",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelIsMain",
           "package": "sonic-visualiser",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelName",
           "package": "sonic-visualiser",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelName",
           "package": "sonic-visualiser",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelResolution",
           "package": "sonic-visualiser",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelResolution",
           "package": "sonic-visualiser",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelSampleRate",
           "package": "sonic-visualiser",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelSampleRate",
           "package": "sonic-visualiser",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelStartFrame",
           "package": "sonic-visualiser",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelStartFrame",
           "package": "sonic-visualiser",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "modelType",
           "package": "sonic-visualiser",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "modelType",
           "package": "sonic-visualiser",
@@ -1017,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "pointFrame",
           "package": "sonic-visualiser",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "pointFrame",
           "package": "sonic-visualiser",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "pointLabel",
           "package": "sonic-visualiser",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "pointLabel",
           "package": "sonic-visualiser",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "pointValue",
           "package": "sonic-visualiser",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "pointValue",
           "package": "sonic-visualiser",
@@ -1084,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a compressed Sonic-Visualiser Document from a lazy ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "read",
           "package": "sonic-visualiser",
@@ -1094,6 +1191,7 @@
         "index": {
           "description": "Read compressed Sonic-Visualiser Document from lazy ByteString",
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "read",
           "normalized": "ByteString-\u003eIO Document",
@@ -1109,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Sonic-Visualiser Document from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:12 UTC 2014",
           "module": "Sound.SonicVisualiser",
           "name": "readFile",
           "package": "sonic-visualiser",
@@ -1119,6 +1218,7 @@
         "index": {
           "description": "Read Sonic-Visualiser Document from file",
           "hierarchy": "Sound SonicVisualiser",
+          "indexed": "2014-03-11T20:07:12",
           "module": "Sound.SonicVisualiser",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO Document",

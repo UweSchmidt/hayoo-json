@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Eternal10Seconds"
+        "phrase": "Eternal10Seconds",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TicTacToe"
+        "phrase": "TicTacToe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA tic-tac-toe board is one of nine positions, each position occupied by either player 1, player 2 or neither and with invariants specific to the rules of tic-tac-toe.\n\u003c/p\u003e\u003cp\u003eFor example, the number of positions occupied by player 1 is equal to, or one more, than the positions occupied by player 2.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "Board",
           "package": "TicTacToe",
@@ -28,6 +29,7 @@
         "index": {
           "description": "tic-tac-toe board is one of nine positions each position occupied by either player player or neither and with invariants specific to the rules of tic-tac-toe For example the number of positions occupied by player is equal to or one more than the positions occupied by player",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "Board",
           "package": "TicTacToe",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tic-tac-toe board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "Board",
           "package": "TicTacToe",
@@ -51,6 +54,7 @@
         "index": {
           "description": "tic-tac-toe board",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "Board",
           "package": "TicTacToe",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions that work on boards that are in play or have completed.\n\u003c/p\u003e\u003cp\u003eThis class specifically does not specify moving on a board, since this is illegal on a completed board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "BoardLike",
           "package": "TicTacToe",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Functions that work on boards that are in play or have completed This class specifically does not specify moving on board since this is illegal on completed board",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "BoardLike",
           "package": "TicTacToe",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "EmptyBoard",
           "package": "TicTacToe",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "EmptyBoard",
           "package": "TicTacToe",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA finished board is a completed tic-tac-toe game and does not accept any more moves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "FinishedBoard",
           "package": "TicTacToe",
@@ -118,6 +127,7 @@
         "index": {
           "description": "finished board is completed tic-tac-toe game and does not accept any more moves",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "FinishedBoard",
           "package": "TicTacToe",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "Move",
           "package": "TicTacToe",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "Move",
           "package": "TicTacToe",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of making a move on a tic-tac-toe board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "MoveResult",
           "package": "TicTacToe",
@@ -162,6 +175,7 @@
         "index": {
           "description": "The result of making move on tic-tac-toe board",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "MoveResult",
           "package": "TicTacToe",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "TakeBack",
           "package": "TicTacToe",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "TakeBack",
           "package": "TicTacToe",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "TakenBack",
           "package": "TicTacToe",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "TakenBack",
           "package": "TicTacToe",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "(--\u003e)",
           "package": "TicTacToe",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "(--\u003e) --\u003e",
           "normalized": "Position-\u003ea-\u003eb",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "(-?-\u003e)",
           "package": "TicTacToe",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "(-?-\u003e) -?-\u003e",
           "normalized": "Position-\u003eMoveResult-\u003eMoveResult",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart an empty tic-tac-toe board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "empty",
           "package": "TicTacToe",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Start an empty tic-tac-toe board",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "empty",
           "package": "TicTacToe",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruct a move result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "foldMoveResult",
           "package": "TicTacToe",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Deconstruct move result",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "foldMoveResult",
           "normalized": "a-\u003e(Board-\u003ea)-\u003e(FinishedBoard-\u003ea)-\u003eMoveResult-\u003ea",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "foldTakenBack",
           "package": "TicTacToe",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "foldTakenBack",
           "normalized": "a-\u003e(Board-\u003ea)-\u003eTakenBack-\u003ea",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the result of a completed tic-tac-toe game.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "getResult",
           "package": "TicTacToe",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Return the result of completed tic-tac-toe game",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "getResult",
           "normalized": "FinishedBoard-\u003eGameResult",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the board is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "isEmpty",
           "package": "TicTacToe",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Returns whether or not the board is empty",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "isEmpty",
           "normalized": "a-\u003eBool",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the given position is occupied on the board. \u003ccode\u003efalse\u003c/code\u003e if occupied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "isNotOccupied",
           "package": "TicTacToe",
@@ -398,6 +431,7 @@
         "index": {
           "description": "Returns whether or not the given position is occupied on the board false if occupied",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "isNotOccupied",
           "normalized": "a-\u003ePosition-\u003eBool",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the given position is occupied on the board. \u003ccode\u003etrue\u003c/code\u003e if occupied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "isOccupied",
           "package": "TicTacToe",
@@ -424,6 +459,7 @@
         "index": {
           "description": "Returns whether or not the given position is occupied on the board true if occupied",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "isOccupied",
           "normalized": "a-\u003ePosition-\u003eBool",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the first given board can transition to the second given board and they are inequal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "isProperSubboardOf",
           "package": "TicTacToe",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Returns whether or not the first given board can transition to the second given board and they are inequal",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "isProperSubboardOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the first given board can transition to the second given board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "isSubboardOf",
           "package": "TicTacToe",
@@ -476,6 +515,7 @@
         "index": {
           "description": "Returns whether or not the first given board can transition to the second given board",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "isSubboardOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the possible board from a move result. A board is returned if the result is to continue play.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "keepPlaying",
           "package": "TicTacToe",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Return the possible board from move result board is returned if the result is to continue play",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "keepPlaying",
           "normalized": "MoveResult-\u003eMaybe Board",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value after function application to the board to keep playing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "keepPlayingOr",
           "package": "TicTacToe",
@@ -527,6 +570,7 @@
         "index": {
           "description": "Return the value after function application to the board to keep playing",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "keepPlayingOr",
           "normalized": "a-\u003e(Board-\u003ea)-\u003eMoveResult-\u003ea",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of moves that have been played.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "moves",
           "package": "TicTacToe",
@@ -553,6 +598,7 @@
         "index": {
           "description": "Returns the number of moves that have been played",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "moves",
           "normalized": "a-\u003eInt",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns positions that are occupied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "occupiedPositions",
           "package": "TicTacToe",
@@ -578,6 +625,7 @@
         "index": {
           "description": "Returns positions that are occupied",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "occupiedPositions",
           "normalized": "a-\u003eSet Position",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the player at the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "playerAt",
           "package": "TicTacToe",
@@ -604,6 +653,7 @@
         "index": {
           "description": "Returns the player at the given position",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "playerAt",
           "normalized": "a-\u003ePosition-\u003eMaybe Player",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the player at the given position or the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "playerAtOr",
           "package": "TicTacToe",
@@ -630,6 +681,7 @@
         "index": {
           "description": "Returns the player at the given position or the given default",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "playerAtOr",
           "normalized": "a-\u003ePosition-\u003ePlayer-\u003ePlayer",
@@ -646,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints the board to standard output using an ASCII grid representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "printBoard",
           "package": "TicTacToe",
@@ -656,6 +709,7 @@
         "index": {
           "description": "Prints the board to standard output using an ASCII grid representation",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "printBoard",
           "normalized": "a-\u003eIO()",
@@ -672,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints out a board using ASCII notation and substituting the returned string for each position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "printEachPosition",
           "package": "TicTacToe",
@@ -681,6 +736,7 @@
         "index": {
           "description": "Prints out board using ASCII notation and substituting the returned string for each position",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "printEachPosition",
           "normalized": "(Position-\u003eString)-\u003eIO()",
@@ -696,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "takeBack",
           "package": "TicTacToe",
@@ -705,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "takeBack",
           "normalized": "a-\u003eb",
@@ -720,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "takenBackBoard",
           "package": "TicTacToe",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "takenBackBoard",
           "normalized": "TakenBack-\u003eMaybe Board",
@@ -745,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whose turn it is not on a tic-tac-toe board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "whoseNotTurn",
           "package": "TicTacToe",
@@ -755,6 +816,7 @@
         "index": {
           "description": "Returns whose turn it is not on tic-tac-toe board",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "whoseNotTurn",
           "normalized": "a-\u003ePlayer",
@@ -771,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whose turn it is on a tic-tac-toe board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Board",
           "name": "whoseTurn",
           "package": "TicTacToe",
@@ -781,6 +844,7 @@
         "index": {
           "description": "Returns whose turn it is on tic-tac-toe board",
           "hierarchy": "Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Board",
           "name": "whoseTurn",
           "normalized": "a-\u003ePlayer",
@@ -797,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA game result is one of\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Player 1 wins\n\u003c/li\u003e\u003cli\u003e Player 2 wins\n\u003c/li\u003e\u003cli\u003e Neither player wins (draw)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "GameResult",
           "package": "TicTacToe",
@@ -806,6 +871,7 @@
         "index": {
           "description": "game result is one of Player wins Player wins Neither player wins draw",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "GameResult",
           "package": "TicTacToe",
@@ -820,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA game result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "GameResult",
           "package": "TicTacToe",
@@ -829,6 +896,7 @@
         "index": {
           "description": "game result",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "GameResult",
           "package": "TicTacToe",
@@ -843,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a game result that is a draw.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "draw",
           "package": "TicTacToe",
@@ -853,6 +922,7 @@
         "index": {
           "description": "Construct game result that is draw",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "draw",
           "package": "TicTacToe",
@@ -866,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a game result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "gameResult",
           "package": "TicTacToe",
@@ -875,6 +946,7 @@
         "index": {
           "description": "Fold game result",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "gameResult",
           "normalized": "(Player-\u003ea)-\u003ea-\u003eGameResult-\u003ea",
@@ -891,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the game result is a draw.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "isDraw",
           "package": "TicTacToe",
@@ -901,6 +974,7 @@
         "index": {
           "description": "Returns whether the game result is draw",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "isDraw",
           "normalized": "GameResult-\u003eBool",
@@ -917,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not player 1 won for the game result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "isPlayer1Wins",
           "package": "TicTacToe",
@@ -927,6 +1002,7 @@
         "index": {
           "description": "Returns whether or not player won for the game result",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "isPlayer1Wins",
           "normalized": "GameResult-\u003eBool",
@@ -943,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not player 2 won for the game result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "isPlayer2Wins",
           "package": "TicTacToe",
@@ -953,6 +1030,7 @@
         "index": {
           "description": "Returns whether or not player won for the game result",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "isPlayer2Wins",
           "normalized": "GameResult-\u003eBool",
@@ -969,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a game result with a win for player 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "player1Wins",
           "package": "TicTacToe",
@@ -979,6 +1058,7 @@
         "index": {
           "description": "Construct game result with win for player",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "player1Wins",
           "package": "TicTacToe",
@@ -993,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a game result with a win for player 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "player2Wins",
           "package": "TicTacToe",
@@ -1003,6 +1084,7 @@
         "index": {
           "description": "Construct game result with win for player",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "player2Wins",
           "package": "TicTacToe",
@@ -1017,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a game result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "playerGameResult",
           "package": "TicTacToe",
@@ -1026,6 +1109,7 @@
         "index": {
           "description": "Fold game result",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "playerGameResult",
           "normalized": "a-\u003ea-\u003ea-\u003eGameResult-\u003ea",
@@ -1042,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a game result with a win for the given player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.GameResult",
           "name": "win",
           "package": "TicTacToe",
@@ -1051,6 +1136,7 @@
         "index": {
           "description": "Construct game result with win for the given player",
           "hierarchy": "Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.GameResult",
           "name": "win",
           "normalized": "Player-\u003eGameResult",
@@ -1066,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlay tic-tac-toe interactively.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Interact",
           "name": "Interact",
           "package": "TicTacToe",
@@ -1075,6 +1162,7 @@
         "index": {
           "description": "Play tic-tac-toe interactively",
           "hierarchy": "Data TicTacToe Interact",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Interact",
           "name": "Interact",
           "package": "TicTacToe",
@@ -1089,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay tic-tac-toe interactively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Interact",
           "name": "tictactoe",
           "package": "TicTacToe",
@@ -1099,6 +1188,7 @@
         "index": {
           "description": "Play tic-tac-toe interactively",
           "hierarchy": "Data TicTacToe Interact",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Interact",
           "name": "tictactoe",
           "normalized": "IO()",
@@ -1114,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA player is either player 1 or player 2 \u003cem\u003e(isomorphic to Bool)\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "Player",
           "package": "TicTacToe",
@@ -1123,6 +1214,7 @@
         "index": {
           "description": "player is either player or player isomorphic to Bool",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "Player",
           "package": "TicTacToe",
@@ -1137,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "Player",
           "package": "TicTacToe",
@@ -1146,6 +1239,7 @@
         "index": {
           "description": "player",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "Player",
           "package": "TicTacToe",
@@ -1160,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitches a player from player 1 to player 2 or vice versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "alternate",
           "package": "TicTacToe",
@@ -1169,6 +1264,7 @@
         "index": {
           "description": "Switches player from player to player or vice versa",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "alternate",
           "normalized": "Player-\u003ePlayer",
@@ -1184,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the player is player 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "isPlayer1",
           "package": "TicTacToe",
@@ -1194,6 +1291,7 @@
         "index": {
           "description": "Returns whether or not the player is player",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "isPlayer1",
           "normalized": "Player-\u003eBool",
@@ -1210,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not the player is player 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "isPlayer2",
           "package": "TicTacToe",
@@ -1220,6 +1319,7 @@
         "index": {
           "description": "Returns whether or not the player is player",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "isPlayer2",
           "normalized": "Player-\u003eBool",
@@ -1236,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolds a player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "player",
           "package": "TicTacToe",
@@ -1245,6 +1346,7 @@
         "index": {
           "description": "Folds player",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "player",
           "normalized": "a-\u003ea-\u003ePlayer-\u003ea",
@@ -1260,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayer 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "player1",
           "package": "TicTacToe",
@@ -1270,6 +1373,7 @@
         "index": {
           "description": "Player",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "player1",
           "package": "TicTacToe",
@@ -1283,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayer 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "player2",
           "package": "TicTacToe",
@@ -1293,6 +1398,7 @@
         "index": {
           "description": "Player",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "player2",
           "package": "TicTacToe",
@@ -1306,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a character symbol denoting each player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Player",
           "name": "toSymbol",
           "package": "TicTacToe",
@@ -1316,6 +1423,7 @@
         "index": {
           "description": "Returns character symbol denoting each player",
           "hierarchy": "Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Player",
           "name": "toSymbol",
           "normalized": "Player-\u003eChar",
@@ -1332,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA position is one of the nine places on a tic-tac-toe grid.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "Position",
           "package": "TicTacToe",
@@ -1341,6 +1450,7 @@
         "index": {
           "description": "position is one of the nine places on tic-tac-toe grid",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "Position",
           "package": "TicTacToe",
@@ -1354,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "Position",
           "package": "TicTacToe",
@@ -1362,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "Position",
           "package": "TicTacToe",
@@ -1376,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentre.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "C",
           "package": "TicTacToe",
@@ -1386,6 +1499,7 @@
         "index": {
           "description": "Centre",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "C",
           "package": "TicTacToe",
@@ -1399,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEast (middle right)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "E",
           "package": "TicTacToe",
@@ -1409,6 +1524,7 @@
         "index": {
           "description": "East middle right",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "E",
           "package": "TicTacToe",
@@ -1422,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNorth (top centre).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "N",
           "package": "TicTacToe",
@@ -1432,6 +1549,7 @@
         "index": {
           "description": "North top centre",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "N",
           "package": "TicTacToe",
@@ -1445,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNorth-east (top right).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "NE",
           "package": "TicTacToe",
@@ -1455,6 +1574,7 @@
         "index": {
           "description": "North-east top right",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "NE",
           "package": "TicTacToe",
@@ -1469,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNorth-west (top left).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "NW",
           "package": "TicTacToe",
@@ -1479,6 +1600,7 @@
         "index": {
           "description": "North-west top left",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "NW",
           "package": "TicTacToe",
@@ -1493,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSouth (bottom centre).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "S",
           "package": "TicTacToe",
@@ -1503,6 +1626,7 @@
         "index": {
           "description": "South bottom centre",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "S",
           "package": "TicTacToe",
@@ -1516,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSouth-east (bottom right).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "SE",
           "package": "TicTacToe",
@@ -1526,6 +1651,7 @@
         "index": {
           "description": "South-east bottom right",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "SE",
           "package": "TicTacToe",
@@ -1540,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSouth-west (bottom left).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "SW",
           "package": "TicTacToe",
@@ -1550,6 +1677,7 @@
         "index": {
           "description": "South-west bottom left",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "SW",
           "package": "TicTacToe",
@@ -1564,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWest (middle left).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe.Position",
           "name": "W",
           "package": "TicTacToe",
@@ -1574,6 +1703,7 @@
         "index": {
           "description": "West middle left",
           "hierarchy": "Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe.Position",
           "name": "W",
           "package": "TicTacToe",
@@ -1586,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Data.TicTacToe",
           "name": "TicTacToe",
           "package": "TicTacToe",
@@ -1594,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Data TicTacToe",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Data.TicTacToe",
           "name": "TicTacToe",
           "package": "TicTacToe",
@@ -1607,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Board",
           "name": "Board",
           "package": "TicTacToe",
@@ -1615,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Board",
           "name": "Board",
           "package": "TicTacToe",
@@ -1628,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Board",
           "name": "boardTests",
           "package": "TicTacToe",
@@ -1637,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Board",
           "name": "boardTests",
           "normalized": "[Test]",
@@ -1652,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Board",
           "name": "main",
           "package": "TicTacToe",
@@ -1661,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Board",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Board",
           "name": "main",
           "normalized": "IO()",
@@ -1675,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.GameResult",
           "name": "GameResult",
           "package": "TicTacToe",
@@ -1683,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.GameResult",
           "name": "GameResult",
           "package": "TicTacToe",
@@ -1696,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.GameResult",
           "name": "gameResultTests",
           "package": "TicTacToe",
@@ -1705,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.GameResult",
           "name": "gameResultTests",
           "normalized": "[Test]",
@@ -1720,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.GameResult",
           "name": "main",
           "package": "TicTacToe",
@@ -1729,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe GameResult",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.GameResult",
           "name": "main",
           "normalized": "IO()",
@@ -1743,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Player",
           "name": "Player",
           "package": "TicTacToe",
@@ -1751,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Player",
           "name": "Player",
           "package": "TicTacToe",
@@ -1764,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Player",
           "name": "main",
           "package": "TicTacToe",
@@ -1773,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Player",
           "name": "main",
           "normalized": "IO()",
@@ -1787,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Player",
           "name": "playerTests",
           "package": "TicTacToe",
@@ -1796,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Player",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Player",
           "name": "playerTests",
           "normalized": "[Test]",
@@ -1811,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Position",
           "name": "Position",
           "package": "TicTacToe",
@@ -1819,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Position",
           "name": "Position",
           "package": "TicTacToe",
@@ -1832,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Position",
           "name": "main",
           "package": "TicTacToe",
@@ -1841,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Position",
           "name": "main",
           "normalized": "IO()",
@@ -1855,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe.Position",
           "name": "positionTests",
           "package": "TicTacToe",
@@ -1864,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe Position",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe.Position",
           "name": "positionTests",
           "normalized": "[Test]",
@@ -1879,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe",
           "name": "TicTacToe",
           "package": "TicTacToe",
@@ -1887,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe",
           "name": "TicTacToe",
           "package": "TicTacToe",
@@ -1900,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe",
           "name": "main",
           "package": "TicTacToe",
@@ -1909,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe",
           "name": "main",
           "normalized": "IO()",
@@ -1923,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:23 UTC 2014",
           "module": "Test.Data.TicTacToe",
           "name": "tictactoeTests",
           "package": "TicTacToe",
@@ -1932,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Test Data TicTacToe",
+          "indexed": "2014-03-11T17:02:23",
           "module": "Test.Data.TicTacToe",
           "name": "tictactoeTests",
           "normalized": "[Test]",

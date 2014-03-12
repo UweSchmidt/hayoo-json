@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Bookshelf"
+        "phrase": "Bookshelf",
+        "type": "phrase"
       },
       "type": "context"
     }

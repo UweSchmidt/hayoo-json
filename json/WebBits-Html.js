@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WebBits-Html"
+        "phrase": "WebBits-Html",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Instances",
           "name": "Instances",
           "package": "WebBits-Html",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Instances",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Instances",
           "name": "Instances",
           "package": "WebBits-Html",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA structure-recovering parser for malformed documents.\n\u003c/p\u003e\u003cp\u003eCopyright 2007-2008 Arjun Guha.\n Based on HtmlPrag 0.16 Copyright (C) 2003 - 2005 Neil W. Van Dyke.  \n\u003c/p\u003e\u003cp\u003eThis program is Free Software; you can redistribute it and/or modify it under\n the terms of the GNU Lesser General Public License as published by the Free\n Software Foundation; either version 2.1 of the License, or (at your option)\n any later version.  This program is distributed in the hope that it will be\n useful, but without any warranty; without even the implied warranty of\n merchantability or fitness for a particular purpose.  See \n \u003ca\u003ehttp://www.gnu.org/copyleft/lesser.html\u003c/a\u003e for details.  For other license\n options and consulting, contact the author.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "PermissiveParser",
           "package": "WebBits-Html",
@@ -49,6 +52,7 @@
         "index": {
           "description": "structure-recovering parser for malformed documents Copyright Arjun Guha Based on HtmlPrag Copyright Neil Van Dyke This program is Free Software you can redistribute it and or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation either version of the License or at your option any later version This program is distributed in the hope that it will be useful but without any warranty without even the implied warranty of merchantability or fitness for particular purpose See http www.gnu.org copyleft lesser.html for details For other license options and consulting contact the author",
           "hierarchy": "BrownPLT Html PermissiveParser",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "PermissiveParser",
           "package": "WebBits-Html",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "Token",
           "package": "WebBits-Html",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html PermissiveParser",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "Token",
           "package": "WebBits-Html",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "Warning",
           "package": "WebBits-Html",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html PermissiveParser",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "Warning",
           "package": "WebBits-Html",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "StringWarning",
           "package": "WebBits-Html",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html PermissiveParser",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "StringWarning",
           "package": "WebBits-Html",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "html",
           "package": "WebBits-Html",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html PermissiveParser",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "html",
           "normalized": "CharParser[Warning](Html SourcePos a)",
@@ -199,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "tokens",
           "package": "WebBits-Html",
@@ -208,6 +221,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html PermissiveParser",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.PermissiveParser",
           "name": "tokens",
           "normalized": "CharParser[Warning][Token a]",
@@ -223,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-printer for HTML.  This modules exports no names.  It only defines\n instances of \u003ccode\u003ePrettyPrintable\u003c/code\u003e for HTML. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.PrettyPrint",
           "name": "PrettyPrint",
           "package": "WebBits-Html",
@@ -232,6 +247,7 @@
         "index": {
           "description": "Pretty-printer for HTML This modules exports no names It only defines instances of PrettyPrintable for HTML",
           "hierarchy": "BrownPLT Html PrettyPrint",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.PrettyPrint",
           "name": "PrettyPrint",
           "package": "WebBits-Html",
@@ -245,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.PrettyPrint",
           "name": "html",
           "package": "WebBits-Html",
@@ -254,6 +271,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html PrettyPrint",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.PrettyPrint",
           "name": "html",
           "normalized": "Html a b-\u003eDoc",
@@ -293,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.RawScript",
           "name": "RawScript",
           "package": "WebBits-Html",
@@ -301,6 +320,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html RawScript",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.RawScript",
           "name": "RawScript",
           "package": "WebBits-Html",
@@ -314,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.RawScript",
           "name": "RawHtml",
           "package": "WebBits-Html",
@@ -322,6 +343,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html RawScript",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.RawScript",
           "name": "RawHtml",
           "package": "WebBits-Html",
@@ -335,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.RawScript",
           "name": "RawScript",
           "package": "WebBits-Html",
@@ -343,6 +366,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html RawScript",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.RawScript",
           "name": "RawScript",
           "package": "WebBits-Html",
@@ -356,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.RawScript",
           "name": "RawScript",
           "package": "WebBits-Html",
@@ -365,6 +390,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html RawScript",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.RawScript",
           "name": "RawScript",
           "package": "WebBits-Html",
@@ -378,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.RawScript",
           "name": "parseFromFile",
           "package": "WebBits-Html",
@@ -386,6 +413,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html RawScript",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.RawScript",
           "name": "parseFromFile",
           "normalized": "Parser a-\u003eSourceName-\u003eIO(Either ParseError a)",
@@ -401,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.RawScript",
           "name": "parseFromString",
           "package": "WebBits-Html",
@@ -410,6 +439,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html RawScript",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.RawScript",
           "name": "parseFromString",
           "normalized": "String-\u003eRawHtml",
@@ -426,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes for HTML parameterized over an annotation type and a script type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Syntax",
           "package": "WebBits-Html",
@@ -435,6 +466,7 @@
         "index": {
           "description": "Datatypes for HTML parameterized over an annotation type and script type",
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Syntax",
           "package": "WebBits-Html",
@@ -448,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Attribute",
           "package": "WebBits-Html",
@@ -456,6 +489,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Attribute",
           "package": "WebBits-Html",
@@ -469,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "AttributeValue",
           "package": "WebBits-Html",
@@ -477,6 +512,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "AttributeValue",
           "package": "WebBits-Html",
@@ -490,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Html",
           "package": "WebBits-Html",
@@ -498,6 +535,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Html",
           "package": "WebBits-Html",
@@ -511,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "HtmlId",
           "package": "WebBits-Html",
@@ -519,6 +558,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "HtmlId",
           "package": "WebBits-Html",
@@ -533,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type \u003ccode\u003et\u003c/code\u003e of the \u003ccode\u003e\u003ca\u003eScript\u003c/a\u003e\u003c/code\u003e class can be parsed using \u003ccode\u003eParsec\u003c/code\u003e.  \u003ccode\u003et\u003c/code\u003e is of\n kind '* -\u003e *', as the parsed AST should be annotated with souce locations\n (see \u003ccode\u003e\u003ca\u003eSourcePos\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThe big deal here is that we can embed a parser for some scripting language,\n (e.g. Javascript) into this HTML parser with ease, while preserving source\n locations.  The Html datatype is parameterized over a script parser (an\n instance of Script).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Script",
           "package": "WebBits-Html",
@@ -542,6 +583,7 @@
         "index": {
           "description": "type of the Script class can be parsed using Parsec is of kind as the parsed AST should be annotated with souce locations see SourcePos The big deal here is that we can embed parser for some scripting language e.g Javascript into this HTML parser with ease while preserving source locations The Html datatype is parameterized over script parser an instance of Script",
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Script",
           "package": "WebBits-Html",
@@ -555,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Attribute",
           "package": "WebBits-Html",
@@ -564,6 +607,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Attribute",
           "package": "WebBits-Html",
@@ -577,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "AttributeExpr",
           "package": "WebBits-Html",
@@ -586,6 +631,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "AttributeExpr",
           "package": "WebBits-Html",
@@ -599,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Comment",
           "package": "WebBits-Html",
@@ -608,6 +655,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Comment",
           "package": "WebBits-Html",
@@ -621,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Element",
           "package": "WebBits-Html",
@@ -630,6 +679,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Element",
           "normalized": "Element HtmlId[Attribute a b][Html a b]a",
@@ -646,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emust be a non-empty list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "HtmlSeq",
           "package": "WebBits-Html",
@@ -656,6 +707,7 @@
         "index": {
           "description": "must be non-empty list",
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "HtmlSeq",
           "normalized": "HtmlSeq[Html a b]",
@@ -671,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "InlineScript",
           "package": "WebBits-Html",
@@ -680,6 +733,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "InlineScript",
           "package": "WebBits-Html",
@@ -693,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "ProcessingInstruction",
           "package": "WebBits-Html",
@@ -702,6 +757,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "ProcessingInstruction",
           "package": "WebBits-Html",
@@ -715,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Script",
           "package": "WebBits-Html",
@@ -724,6 +781,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Script",
           "package": "WebBits-Html",
@@ -737,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "Text",
           "package": "WebBits-Html",
@@ -746,6 +805,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "Text",
           "package": "WebBits-Html",
@@ -759,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "attributeSet",
           "package": "WebBits-Html",
@@ -768,6 +829,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "attributeSet",
           "normalized": "HtmlId-\u003eString-\u003e[Attribute a b]-\u003e[Attribute a b]",
@@ -783,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "attributeUpdate",
           "package": "WebBits-Html",
@@ -792,6 +855,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "attributeUpdate",
           "normalized": "HtmlId-\u003e(String-\u003eString)-\u003e[Attribute a b]-\u003e[Attribute a b]",
@@ -808,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value of the attribute in the list, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it doesn't\n exist of the value is an inline-expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "attributeValue",
           "package": "WebBits-Html",
@@ -818,6 +883,7 @@
         "index": {
           "description": "Returns the value of the attribute in the list or Nothing if it doesn exist of the value is an inline-expression",
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "attributeValue",
           "normalized": "HtmlId-\u003e[Attribute a b]-\u003eMaybe String",
@@ -833,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "isAttributeExpr",
           "package": "WebBits-Html",
@@ -842,6 +909,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "isAttributeExpr",
           "normalized": "Attribute a a-\u003eBool",
@@ -857,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "parseAttributeScript",
           "package": "WebBits-Html",
@@ -866,6 +935,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "parseAttributeScript",
           "package": "WebBits-Html",
@@ -879,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "parseInlineScript",
           "package": "WebBits-Html",
@@ -888,6 +959,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "parseInlineScript",
           "package": "WebBits-Html",
@@ -901,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "parseScriptBlock",
           "package": "WebBits-Html",
@@ -910,6 +983,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "parseScriptBlock",
           "normalized": "[Attribute SourcePos a]-\u003eCharParser b a",
@@ -925,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html.Syntax",
           "name": "prettyPrintScript",
           "package": "WebBits-Html",
@@ -934,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT Html Syntax",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html.Syntax",
           "name": "prettyPrintScript",
           "normalized": "a-\u003eDoc",
@@ -950,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRexports various modules of the HTML library.  It's best to use this in lieu\n of selectively importing the following libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.Html",
           "name": "Html",
           "package": "WebBits-Html",
@@ -959,6 +1036,7 @@
         "index": {
           "description": "Rexports various modules of the HTML library It best to use this in lieu of selectively importing the following libraries",
           "hierarchy": "BrownPLT Html",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.Html",
           "name": "Html",
           "package": "WebBits-Html",
@@ -973,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCrawls an HTML page for JavaScript\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.JavaScript.Crawl",
           "name": "Crawl",
           "package": "WebBits-Html",
@@ -982,6 +1061,7 @@
         "index": {
           "description": "Crawls an HTML page for JavaScript",
           "hierarchy": "BrownPLT JavaScript Crawl",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.JavaScript.Crawl",
           "name": "Crawl",
           "package": "WebBits-Html",
@@ -995,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.JavaScript.Crawl",
           "name": "getPageJavaScript",
           "package": "WebBits-Html",
@@ -1004,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Crawl",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.JavaScript.Crawl",
           "name": "getPageJavaScript",
           "normalized": "ParsedJsHtml-\u003eIO[ParsedStatement]",
@@ -1019,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "HtmlEmbedding",
           "package": "WebBits-Html",
@@ -1027,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript HtmlEmbedding",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "HtmlEmbedding",
           "package": "WebBits-Html",
@@ -1040,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "JsHtml",
           "package": "WebBits-Html",
@@ -1048,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript HtmlEmbedding",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "JsHtml",
           "package": "WebBits-Html",
@@ -1061,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "ParsedJavaScript",
           "package": "WebBits-Html",
@@ -1069,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript HtmlEmbedding",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "ParsedJavaScript",
           "package": "WebBits-Html",
@@ -1082,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "ParsedJsHtml",
           "package": "WebBits-Html",
@@ -1090,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript HtmlEmbedding",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "ParsedJsHtml",
           "package": "WebBits-Html",
@@ -1103,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:17 UTC 2014",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "ParsedStatement",
           "package": "WebBits-Html",
@@ -1111,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript HtmlEmbedding",
+          "indexed": "2014-03-11T17:04:17",
           "module": "BrownPLT.JavaScript.HtmlEmbedding",
           "name": "ParsedStatement",
           "package": "WebBits-Html",

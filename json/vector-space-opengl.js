@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-space-opengl"
+        "phrase": "vector-space-opengl",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "void"
+        "phrase": "void",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:25 UTC 2014",
           "module": "Data.Void.Unsafe",
           "name": "Unsafe",
           "package": "void",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Void Unsafe",
+          "indexed": "2014-03-11T20:35:25",
           "module": "Data.Void.Unsafe",
           "name": "Unsafe",
           "package": "void",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e is uninhabited than any \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e that holds only values of the type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e\n is holding no values.\n\u003c/p\u003e\u003cp\u003eThis is only safe for valid functors that do not perform GADT-like analysis on the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:25 UTC 2014",
           "module": "Data.Void.Unsafe",
           "name": "unsafeVacuous",
           "package": "void",
@@ -50,6 +53,7 @@
         "index": {
           "description": "If Void is uninhabited than any Functor that holds only values of the type Void is holding no values This is only safe for valid functors that do not perform GADT-like analysis on the argument",
           "hierarchy": "Data Void Unsafe",
+          "indexed": "2014-03-11T20:35:25",
           "module": "Data.Void.Unsafe",
           "name": "unsafeVacuous",
           "normalized": "a Void-\u003ea b",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e is uninhabited then any \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e that holds values of type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e\n is holding no values.\n\u003c/p\u003e\u003cp\u003eThis is only safe for valid monads that do not perform GADT-like analysis on the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:25 UTC 2014",
           "module": "Data.Void.Unsafe",
           "name": "unsafeVacuousM",
           "package": "void",
@@ -76,6 +81,7 @@
         "index": {
           "description": "If Void is uninhabited then any Monad that holds values of type Void is holding no values This is only safe for valid monads that do not perform GADT-like analysis on the argument",
           "hierarchy": "Data Void Unsafe",
+          "indexed": "2014-03-11T20:35:25",
           "module": "Data.Void.Unsafe",
           "name": "unsafeVacuousM",
           "normalized": "a Void-\u003ea b",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:25 UTC 2014",
           "module": "Data.Void",
           "name": "Void",
           "package": "void",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Data Void",
+          "indexed": "2014-03-11T20:35:25",
           "module": "Data.Void",
           "name": "Void",
           "package": "void",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logically uninhabited data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:25 UTC 2014",
           "module": "Data.Void",
           "name": "Void",
           "package": "void",
@@ -122,6 +131,7 @@
         "index": {
           "description": "logically uninhabited data type",
           "hierarchy": "Data Void",
+          "indexed": "2014-03-11T20:35:25",
           "module": "Data.Void",
           "name": "Void",
           "package": "void",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e values logically don't exist, this witnesses the logical\n reasoning tool of \"ex falso quodlibet\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:25 UTC 2014",
           "module": "Data.Void",
           "name": "absurd",
           "package": "void",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Since Void values logically don exist this witnesses the logical reasoning tool of ex falso quodlibet",
           "hierarchy": "Data Void",
+          "indexed": "2014-03-11T20:35:25",
           "module": "Data.Void",
           "name": "absurd",
           "normalized": "Void-\u003ea",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e is uninhabited then any \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e that holds only values of type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e\n is holding no values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:25 UTC 2014",
           "module": "Data.Void",
           "name": "vacuous",
           "package": "void",
@@ -171,6 +184,7 @@
         "index": {
           "description": "If Void is uninhabited then any Functor that holds only values of type Void is holding no values",
           "hierarchy": "Data Void",
+          "indexed": "2014-03-11T20:35:25",
           "module": "Data.Void",
           "name": "vacuous",
           "normalized": "a Void-\u003ea b",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e is uninhabited then any \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e that holds values of type \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e\n is holding no values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:25 UTC 2014",
           "module": "Data.Void",
           "name": "vacuousM",
           "package": "void",
@@ -196,6 +211,7 @@
         "index": {
           "description": "If Void is uninhabited then any Monad that holds values of type Void is holding no values",
           "hierarchy": "Data Void",
+          "indexed": "2014-03-11T20:35:25",
           "module": "Data.Void",
           "name": "vacuousM",
           "normalized": "a Void-\u003ea b",

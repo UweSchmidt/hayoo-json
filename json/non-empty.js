@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "non-empty"
+        "phrase": "non-empty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Empty",
           "name": "Empty",
           "package": "non-empty",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Empty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Empty",
           "name": "Empty",
           "package": "non-empty",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Empty",
           "name": "T",
           "package": "non-empty",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Empty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Empty",
           "name": "T",
           "package": "non-empty",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Empty",
           "name": "Cons",
           "package": "non-empty",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Empty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Empty",
           "name": "Cons",
           "package": "non-empty",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Class",
           "package": "non-empty",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Class",
           "package": "non-empty",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Append",
           "package": "non-empty",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Append",
           "package": "non-empty",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Arbitrary",
           "package": "non-empty",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Arbitrary",
           "package": "non-empty",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Cons",
           "package": "non-empty",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Cons",
           "package": "non-empty",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Empty",
           "package": "non-empty",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Empty",
           "package": "non-empty",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Repeat",
           "package": "non-empty",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Repeat",
           "package": "non-empty",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Reverse",
           "package": "non-empty",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Reverse",
           "package": "non-empty",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Show",
           "package": "non-empty",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Show",
           "package": "non-empty",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Singleton",
           "package": "non-empty",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Singleton",
           "package": "non-empty",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Sort",
           "package": "non-empty",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Sort",
           "package": "non-empty",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "View",
           "package": "non-empty",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "View",
           "package": "non-empty",
@@ -313,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt must hold:\n\u003c/p\u003e\u003cpre\u003e fmap f xs\n    = zipWith (\\x _ -\u003e f x) xs xs\n    = zipWith (\\_ x -\u003e f x) xs xs\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "Zip",
           "package": "non-empty",
@@ -322,6 +351,7 @@
         "index": {
           "description": "It must hold fmap xs zipWith xs xs zipWith xs xs",
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "Zip",
           "package": "non-empty",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "append",
           "package": "non-empty",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "append",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "arbitrary",
           "package": "non-empty",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "arbitrary",
           "package": "non-empty",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "cons",
           "package": "non-empty",
@@ -388,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "cons",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "empty",
           "package": "non-empty",
@@ -411,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "empty",
           "package": "non-empty",
@@ -424,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a container with as many copies as possible of a given value.\n   That is, for a container with fixed size \u003ccode\u003en\u003c/code\u003e,\n   the call \u003ccode\u003erepeat x\u003c/code\u003e will generate a container with \u003ccode\u003en\u003c/code\u003e copies of \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "repeat",
           "package": "non-empty",
@@ -434,6 +473,7 @@
         "index": {
           "description": "Create container with as many copies as possible of given value That is for container with fixed size the call repeat will generate container with copies of",
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "repeat",
           "normalized": "a-\u003eb a",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "reverse",
           "package": "non-empty",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "reverse",
           "normalized": "a b-\u003ea b",
@@ -471,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "showsPrec",
           "package": "non-empty",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "showsPrec",
           "normalized": "Int-\u003ea b-\u003eShowS",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "shrink",
           "package": "non-empty",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "shrink",
           "normalized": "a b-\u003e[a b]",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "singleton",
           "package": "non-empty",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "singleton",
           "normalized": "a-\u003eb a",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "sort",
           "package": "non-empty",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "sort",
           "normalized": "a b-\u003ea b",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "sortBy",
           "package": "non-empty",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "sortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eb a-\u003eb a",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "viewL",
           "package": "non-empty",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "viewL",
           "normalized": "a b-\u003eMaybe(b,a b)",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "zip",
           "package": "non-empty",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "zip",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Class",
           "name": "zipWith",
           "package": "non-empty",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Class",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Class",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -659,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions that cope both with plain and non-empty structures.\n\u003c/p\u003e\u003cp\u003eIf there are two versions of a function,\nwhere one works on fixed-length lists,\nthe place the fixed-length list variant to NonEmpty\nand the other one here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Mixed",
           "name": "Mixed",
           "package": "non-empty",
@@ -668,6 +727,7 @@
         "index": {
           "description": "Functions that cope both with plain and non-empty structures If there are two versions of function where one works on fixed-length lists the place the fixed-length list variant to NonEmpty and the other one here",
           "hierarchy": "Data NonEmpty Mixed",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Mixed",
           "name": "Mixed",
           "package": "non-empty",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Mixed",
           "name": "appendLeft",
           "package": "non-empty",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Mixed",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Mixed",
           "name": "appendLeft",
           "normalized": "[a]-\u003eb a-\u003eb a",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Mixed",
           "name": "groupBy",
           "package": "non-empty",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Mixed",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Mixed",
           "name": "groupBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eb a-\u003e[T[]a]",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Mixed",
           "name": "inits",
           "package": "non-empty",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Mixed",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Mixed",
           "name": "inits",
           "normalized": "a b-\u003eT[](a b)",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Mixed",
           "name": "mapAdjacent",
           "package": "non-empty",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Mixed",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Mixed",
           "name": "mapAdjacent",
           "normalized": "(a-\u003ea-\u003eb)-\u003eT c a-\u003ec b",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Mixed",
           "name": "segmentBefore",
           "package": "non-empty",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Mixed",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Mixed",
           "name": "segmentBefore",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003e([a],[T[]a])",
@@ -800,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty.Mixed",
           "name": "tails",
           "package": "non-empty",
@@ -809,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty Mixed",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty.Mixed",
           "name": "tails",
           "normalized": "a b-\u003eT[](a b)",
@@ -823,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "NonEmpty",
           "package": "non-empty",
@@ -831,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "NonEmpty",
           "package": "non-empty",
@@ -844,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "Insert",
           "package": "non-empty",
@@ -852,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "Insert",
           "package": "non-empty",
@@ -865,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "RemoveEach",
           "package": "non-empty",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "RemoveEach",
           "package": "non-empty",
@@ -887,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e can be used for many kinds of list-like structures\nwith restrictions on the size.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eT [] a\u003c/code\u003e is a lazy list containing at least one element.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eT (T []) a\u003c/code\u003e is a lazy list containing at least two elements.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eT Vector a\u003c/code\u003e is a vector with at least one element.\n  You may also use unboxed vectors but the first element will be stored in a box\n  and you will not be able to use many functions from this module.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eT Maybe a\u003c/code\u003e is a list that contains one or two elements.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eMaybe\u003c/code\u003e is isomorphic to \u003ccode\u003eOptional Empty\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eT Empty a\u003c/code\u003e is a list that contains exactly one element.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eT (T Empty) a\u003c/code\u003e is a list that contains exactly two elements.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eOptional (T Empty) a\u003c/code\u003e is a list that contains zero or two elements.\n\u003c/li\u003e\u003cli\u003e You can create a list type for every finite set of allowed list length\n  by nesting Optional and NonEmpty constructors.\n  If list length \u003ccode\u003en\u003c/code\u003e is allowed, then place \u003ccode\u003eOptional\u003c/code\u003e at depth \u003ccode\u003en\u003c/code\u003e,\n  if it is disallowed then place \u003ccode\u003eNonEmpty\u003c/code\u003e.\n  The maximm length is marked by \u003ccode\u003eEmpty\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "T",
           "package": "non-empty",
@@ -896,6 +975,7 @@
         "index": {
           "description": "The type can be used for many kinds of list-like structures with restrictions on the size is lazy list containing at least one element is lazy list containing at least two elements Vector is vector with at least one element You may also use unboxed vectors but the first element will be stored in box and you will not be able to use many functions from this module Maybe is list that contains one or two elements Maybe is isomorphic to Optional Empty Empty is list that contains exactly one element Empty is list that contains exactly two elements Optional Empty is list that contains zero or two elements You can create list type for every finite set of allowed list length by nesting Optional and NonEmpty constructors If list length is allowed then place Optional at depth if it is disallowed then place NonEmpty The maximm length is marked by Empty",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "T",
           "package": "non-empty",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "Tails",
           "package": "non-empty",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "Tails",
           "package": "non-empty",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "(!:)",
           "package": "non-empty",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "(!:) !:",
           "normalized": "a-\u003eb a-\u003eT b a",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "Cons",
           "package": "non-empty",
@@ -961,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "Cons",
           "package": "non-empty",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "append",
           "package": "non-empty",
@@ -983,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "append",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -997,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "appendLeft",
           "package": "non-empty",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "appendLeft",
           "normalized": "a b-\u003eT a b-\u003eT a b",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "appendRight",
           "package": "non-empty",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "appendRight",
           "normalized": "T a b-\u003ea b-\u003eT a b",
@@ -1046,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e without the \u003ccode\u003e\u003ca\u003eEmpty\u003c/a\u003e\u003c/code\u003e constraint\nthat is needed for \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "apply",
           "package": "non-empty",
@@ -1056,6 +1149,7 @@
         "index": {
           "description": "Implementation of without the Empty constraint that is needed for pure",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "apply",
           "normalized": "T a(b-\u003ec)-\u003eT a b-\u003eT a c",
@@ -1071,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e without the \u003ccode\u003e\u003ca\u003eEmpty\u003c/a\u003e\u003c/code\u003e constraint\nthat is needed for \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "bind",
           "package": "non-empty",
@@ -1081,6 +1176,7 @@
         "index": {
           "description": "Implementation of without the Empty constraint that is needed for return",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "bind",
           "normalized": "T a b-\u003e(b-\u003eT a c)-\u003eT a c",
@@ -1095,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "cons",
           "package": "non-empty",
@@ -1104,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "cons",
           "normalized": "a-\u003eT b a-\u003eT b a",
@@ -1119,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric variants:\n\u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e or better \u003ccode\u003eSemigroup.cycle\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "cycle",
           "package": "non-empty",
@@ -1129,6 +1228,7 @@
         "index": {
           "description": "generic variants cycle or better Semigroup.cycle",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "cycle",
           "normalized": "T a b-\u003eT a b",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "fetch",
           "package": "non-empty",
@@ -1152,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "fetch",
           "normalized": "a b-\u003eMaybe(T a b)",
@@ -1166,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "flatten",
           "package": "non-empty",
@@ -1175,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "flatten",
           "normalized": "T a b-\u003ea b",
@@ -1189,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "foldl1",
           "package": "non-empty",
@@ -1198,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eT b a-\u003ea",
@@ -1213,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce immediate generation of Cons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "force",
           "package": "non-empty",
@@ -1223,6 +1330,7 @@
         "index": {
           "description": "Force immediate generation of Cons",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "force",
           "normalized": "T a b-\u003eT a b",
@@ -1237,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "head",
           "package": "non-empty",
@@ -1246,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "head",
           "package": "non-empty",
@@ -1258,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "init",
           "package": "non-empty",
@@ -1267,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "init",
           "normalized": "T a b-\u003ea b",
@@ -1282,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an element into an ordered list while preserving the order.\nThe first element of the resulting list is returned individually.\nWe need this for construction of a non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "insert",
           "package": "non-empty",
@@ -1292,6 +1405,7 @@
         "index": {
           "description": "Insert an element into an ordered list while preserving the order The first element of the resulting list is returned individually We need this for construction of non-empty list",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "insert",
           "normalized": "a-\u003eb a-\u003eT b a",
@@ -1306,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "insertBy",
           "package": "non-empty",
@@ -1315,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "insertBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003eb a-\u003eT b a",
@@ -1330,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "last",
           "package": "non-empty",
@@ -1339,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "last",
           "normalized": "T a b-\u003eb",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "mapAdjacent",
           "package": "non-empty",
@@ -1362,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "mapAdjacent",
           "normalized": "(a-\u003ea-\u003eb)-\u003eT c a-\u003ec b",
@@ -1377,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "mapHead",
           "package": "non-empty",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "mapHead",
           "normalized": "(a-\u003ea)-\u003eT b a-\u003eT b a",
@@ -1401,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "mapTail",
           "package": "non-empty",
@@ -1410,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "mapTail",
           "normalized": "(a b-\u003ec b)-\u003eT a b-\u003eT c b",
@@ -1426,6 +1550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximum is a total function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "maximum",
           "package": "non-empty",
@@ -1436,6 +1561,7 @@
         "index": {
           "description": "maximum is total function",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "maximum",
           "normalized": "T a b-\u003eb",
@@ -1451,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximumBy is a total function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "maximumBy",
           "package": "non-empty",
@@ -1461,6 +1588,7 @@
         "index": {
           "description": "maximumBy is total function",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eT b a-\u003ea",
@@ -1477,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximumKey is a total function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "maximumKey",
           "package": "non-empty",
@@ -1487,6 +1616,7 @@
         "index": {
           "description": "maximumKey is total function",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "maximumKey",
           "normalized": "(a-\u003eb)-\u003eT c a-\u003ea",
@@ -1503,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimum is a total function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "minimum",
           "package": "non-empty",
@@ -1513,6 +1644,7 @@
         "index": {
           "description": "minimum is total function",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "minimum",
           "normalized": "T a b-\u003eb",
@@ -1528,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimumBy is a total function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "minimumBy",
           "package": "non-empty",
@@ -1538,6 +1671,7 @@
         "index": {
           "description": "minimumBy is total function",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "minimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eT b a-\u003ea",
@@ -1554,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimumKey is a total function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "minimumKey",
           "package": "non-empty",
@@ -1564,6 +1699,7 @@
         "index": {
           "description": "minimumKey is total function",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "minimumKey",
           "normalized": "(a-\u003eb)-\u003eT c a-\u003ea",
@@ -1580,6 +1716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproduct does not need a one for initialization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "product",
           "package": "non-empty",
@@ -1590,6 +1727,7 @@
         "index": {
           "description": "product does not need one for initialization",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "product",
           "normalized": "T a b-\u003eb",
@@ -1604,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "removeEach",
           "package": "non-empty",
@@ -1613,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "removeEach",
           "normalized": "T a b-\u003eT a(b,a b)",
@@ -1628,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "reverse",
           "package": "non-empty",
@@ -1637,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "reverse",
           "normalized": "T a b-\u003eT a b",
@@ -1651,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "scanl",
           "package": "non-empty",
@@ -1660,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "scanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003eT c a",
@@ -1674,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "scanr",
           "package": "non-empty",
@@ -1683,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "scanr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eT c b",
@@ -1697,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "singleton",
           "package": "non-empty",
@@ -1706,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "singleton",
           "normalized": "a-\u003eT b a",
@@ -1720,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "sort",
           "package": "non-empty",
@@ -1729,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "sort",
           "normalized": "T a b-\u003eT a b",
@@ -1744,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you nest too many non-empty lists\nthen the efficient merge-sort (linear-logarithmic runtime)\nwill degenerate to an inefficient insert-sort (quadratic runtime).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "sortBy",
           "package": "non-empty",
@@ -1754,6 +1905,7 @@
         "index": {
           "description": "If you nest too many non-empty lists then the efficient merge-sort linear-logarithmic runtime will degenerate to an inefficient insert-sort quadratic runtime",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "sortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eT b a-\u003eT b a",
@@ -1770,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esum does not need a zero for initialization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "sum",
           "package": "non-empty",
@@ -1780,6 +1933,7 @@
         "index": {
           "description": "sum does not need zero for initialization",
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "sum",
           "normalized": "T a b-\u003eb",
@@ -1794,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "tail",
           "package": "non-empty",
@@ -1803,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "tail",
           "package": "non-empty",
@@ -1815,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "tails",
           "package": "non-empty",
@@ -1824,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "tails",
           "normalized": "a b-\u003eT a(c b)",
@@ -1838,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "toList",
           "package": "non-empty",
@@ -1847,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "toList",
           "normalized": "T a b-\u003e[b]",
@@ -1889,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.NonEmpty",
           "name": "zipWith",
           "package": "non-empty",
@@ -1898,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Data NonEmpty",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.NonEmpty",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eT d a-\u003eT d b-\u003eT d c",
@@ -1913,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Optional",
           "name": "Optional",
           "package": "non-empty",
@@ -1921,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Data Optional",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Optional",
           "name": "Optional",
           "package": "non-empty",
@@ -1934,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Optional",
           "name": "T",
           "package": "non-empty",
@@ -1942,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Data Optional",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Optional",
           "name": "T",
           "package": "non-empty",
@@ -1954,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Optional",
           "name": "(?:)",
           "package": "non-empty",
@@ -1963,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Data Optional",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Optional",
           "name": "(?:) ?:",
           "normalized": "a-\u003eb a-\u003eT b a",
@@ -1977,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Optional",
           "name": "Cons",
           "package": "non-empty",
@@ -1986,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Data Optional",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Optional",
           "name": "Cons",
           "package": "non-empty",
@@ -1999,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Optional",
           "name": "Nil",
           "package": "non-empty",
@@ -2008,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Data Optional",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Optional",
           "name": "Nil",
           "package": "non-empty",
@@ -2021,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Optional",
           "name": "fromEmpty",
           "package": "non-empty",
@@ -2030,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Data Optional",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Optional",
           "name": "fromEmpty",
           "normalized": "T a-\u003eT b a",
@@ -2045,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Optional",
           "name": "fromNonEmpty",
           "package": "non-empty",
@@ -2054,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Data Optional",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Optional",
           "name": "fromNonEmpty",
           "normalized": "T a b-\u003eT a b",
@@ -2069,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Zip",
           "name": "Zip",
           "package": "non-empty",
@@ -2077,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Data Zip",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Zip",
           "name": "Zip",
           "package": "non-empty",
@@ -2091,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a container such that its Applicative instance is based on zip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Zip",
           "name": "T",
           "package": "non-empty",
@@ -2100,6 +2279,7 @@
         "index": {
           "description": "Wrap container such that its Applicative instance is based on zip",
           "hierarchy": "Data Zip",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Zip",
           "name": "T",
           "package": "non-empty",
@@ -2112,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Zip",
           "name": "Cons",
           "package": "non-empty",
@@ -2121,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Data Zip",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Zip",
           "name": "Cons",
           "package": "non-empty",
@@ -2134,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:35 UTC 2014",
           "module": "Data.Zip",
           "name": "decons",
           "package": "non-empty",
@@ -2143,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Data Zip",
+          "indexed": "2014-03-11T19:29:35",
           "module": "Data.Zip",
           "name": "decons",
           "package": "non-empty",

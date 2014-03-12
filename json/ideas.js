@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ideas"
+        "phrase": "ideas",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "Boolean",
           "package": "ideas",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "Boolean",
           "package": "ideas",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "And",
           "package": "ideas",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "And",
           "package": "ideas",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "BoolValue",
           "package": "ideas",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "BoolValue",
           "package": "ideas",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "Boolean",
           "package": "ideas",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "Boolean",
           "package": "ideas",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "CoBoolean",
           "package": "ideas",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "CoBoolean",
           "package": "ideas",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "DualMonoid",
           "package": "ideas",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "DualMonoid",
           "package": "ideas",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "Or",
           "package": "ideas",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "Or",
           "package": "ideas",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "(\u003c||\u003e)",
           "package": "ideas",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "(\u003c&&\u003e)",
           "package": "ideas",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "(\u003c&&\u003e) \u003c&&\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "(\u003e\u003c)",
           "package": "ideas",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a-\u003ea-\u003ea",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "And",
           "package": "ideas",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "And",
           "package": "ideas",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "Or",
           "package": "ideas",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "Or",
           "package": "ideas",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "complement",
           "package": "ideas",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "complement",
           "normalized": "a-\u003ea",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "conjunctions",
           "package": "ideas",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "conjunctions",
           "normalized": "a-\u003e[a]",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "disjunctions",
           "package": "ideas",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "disjunctions",
           "normalized": "a-\u003e[a]",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "dualCompl",
           "package": "ideas",
@@ -380,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "dualCompl",
           "normalized": "a-\u003ea",
@@ -419,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "false",
           "package": "ideas",
@@ -428,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "false",
           "package": "ideas",
@@ -440,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "fromAnd",
           "package": "ideas",
@@ -449,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "fromAnd",
           "package": "ideas",
@@ -462,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "fromBool",
           "package": "ideas",
@@ -471,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "fromBool",
           "normalized": "Bool-\u003ea",
@@ -486,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "fromOr",
           "package": "ideas",
@@ -495,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "fromOr",
           "package": "ideas",
@@ -532,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isAnd",
           "package": "ideas",
@@ -541,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isAnd",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -556,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isComplement",
           "package": "ideas",
@@ -565,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isComplement",
           "normalized": "a-\u003eMaybe a",
@@ -580,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isFalse",
           "package": "ideas",
@@ -589,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isFalse",
           "normalized": "a-\u003eBool",
@@ -604,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isOr",
           "package": "ideas",
@@ -613,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isOr",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -628,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isTrue",
           "package": "ideas",
@@ -637,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "isTrue",
           "normalized": "a-\u003eBool",
@@ -676,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "true",
           "package": "ideas",
@@ -685,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Boolean",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Boolean",
           "name": "true",
           "package": "ideas",
@@ -697,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "BooleanLaws",
           "package": "ideas",
@@ -705,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "BooleanLaws",
           "package": "ideas",
@@ -718,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "absorptionAndLaws",
           "package": "ideas",
@@ -727,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "absorptionAndLaws",
           "normalized": "[Law a]",
@@ -742,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "absorptionOrLaws",
           "package": "ideas",
@@ -751,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "absorptionOrLaws",
           "normalized": "[Law a]",
@@ -766,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "andOverOrLaws",
           "package": "ideas",
@@ -775,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "andOverOrLaws",
           "normalized": "[Law a]",
@@ -790,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "booleanLaws",
           "package": "ideas",
@@ -799,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "booleanLaws",
           "normalized": "[Law a]",
@@ -814,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "complementAndLaws",
           "package": "ideas",
@@ -823,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "complementAndLaws",
           "normalized": "[Law a]",
@@ -838,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "complementFalse",
           "package": "ideas",
@@ -847,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "complementFalse",
           "package": "ideas",
@@ -860,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "complementOrLaws",
           "package": "ideas",
@@ -869,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "complementOrLaws",
           "normalized": "[Law a]",
@@ -884,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "complementTrue",
           "package": "ideas",
@@ -893,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "complementTrue",
           "package": "ideas",
@@ -906,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "deMorganAnd",
           "package": "ideas",
@@ -915,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "deMorganAnd",
           "package": "ideas",
@@ -928,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "deMorganOr",
           "package": "ideas",
@@ -937,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "deMorganOr",
           "package": "ideas",
@@ -950,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "doubleComplement",
           "package": "ideas",
@@ -959,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "doubleComplement",
           "package": "ideas",
@@ -972,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "fromAndLaw",
           "package": "ideas",
@@ -981,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "fromAndLaw",
           "normalized": "Law(And a)-\u003eLaw a",
@@ -996,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "fromOrLaw",
           "package": "ideas",
@@ -1005,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "fromOrLaw",
           "normalized": "Law(Or a)-\u003eLaw a",
@@ -1020,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "orOverAndLaws",
           "package": "ideas",
@@ -1029,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "orOverAndLaws",
           "normalized": "[Law a]",
@@ -1044,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "propsBoolean",
           "package": "ideas",
@@ -1053,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra BooleanLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.BooleanLaws",
           "name": "propsBoolean",
           "normalized": "[Property]",
@@ -1068,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Field",
           "package": "ideas",
@@ -1076,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Field",
           "package": "ideas",
@@ -1089,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Additive",
           "package": "ideas",
@@ -1097,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Additive",
           "package": "ideas",
@@ -1110,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "CoField",
           "package": "ideas",
@@ -1118,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "CoField",
           "package": "ideas",
@@ -1131,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "CoRing",
           "package": "ideas",
@@ -1139,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "CoRing",
           "package": "ideas",
@@ -1152,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "CoSemiRing",
           "package": "ideas",
@@ -1160,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "CoSemiRing",
           "package": "ideas",
@@ -1173,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Field",
           "package": "ideas",
@@ -1181,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Field",
           "package": "ideas",
@@ -1194,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Multiplicative",
           "package": "ideas",
@@ -1202,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Multiplicative",
           "package": "ideas",
@@ -1215,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Ring",
           "package": "ideas",
@@ -1223,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Ring",
           "package": "ideas",
@@ -1236,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "SafeNum",
           "package": "ideas",
@@ -1244,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "SafeNum",
           "package": "ideas",
@@ -1257,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "SemiRing",
           "package": "ideas",
@@ -1265,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "SemiRing",
           "package": "ideas",
@@ -1278,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "(\u003c*\u003e)",
           "package": "ideas",
@@ -1287,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1301,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "(\u003c+\u003e)",
           "package": "ideas",
@@ -1310,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1324,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "(\u003c-\u003e)",
           "package": "ideas",
@@ -1333,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1347,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "(\u003c/\u003e)",
           "package": "ideas",
@@ -1356,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1370,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Additive",
           "package": "ideas",
@@ -1379,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Additive",
           "package": "ideas",
@@ -1392,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Multiplicative",
           "package": "ideas",
@@ -1401,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "Multiplicative",
           "package": "ideas",
@@ -1414,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "fromAdditive",
           "package": "ideas",
@@ -1423,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "fromAdditive",
           "package": "ideas",
@@ -1436,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "fromMultiplicative",
           "package": "ideas",
@@ -1445,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "fromMultiplicative",
           "package": "ideas",
@@ -1458,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isDivision",
           "package": "ideas",
@@ -1467,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isDivision",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -1482,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isMinus",
           "package": "ideas",
@@ -1491,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isMinus",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -1506,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isNegate",
           "package": "ideas",
@@ -1515,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isNegate",
           "normalized": "a-\u003eMaybe a",
@@ -1530,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isOne",
           "package": "ideas",
@@ -1539,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isOne",
           "normalized": "a-\u003eBool",
@@ -1554,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isPlus",
           "package": "ideas",
@@ -1563,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isPlus",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -1578,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isRecip",
           "package": "ideas",
@@ -1587,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isRecip",
           "normalized": "a-\u003eMaybe a",
@@ -1602,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isTimes",
           "package": "ideas",
@@ -1611,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isTimes",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -1626,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isZero",
           "package": "ideas",
@@ -1635,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "isZero",
           "normalized": "a-\u003eBool",
@@ -1650,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "one",
           "package": "ideas",
@@ -1659,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "one",
           "package": "ideas",
@@ -1671,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "plusInverse",
           "package": "ideas",
@@ -1680,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "plusInverse",
           "normalized": "a-\u003ea",
@@ -1695,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "product",
           "package": "ideas",
@@ -1704,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "product",
           "normalized": "[a]-\u003ea",
@@ -1718,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "safeNum",
           "package": "ideas",
@@ -1727,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "safeNum",
           "normalized": "SafeNum a-\u003eEither String a",
@@ -1742,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "sum",
           "package": "ideas",
@@ -1751,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "sum",
           "normalized": "[a]-\u003ea",
@@ -1765,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "timesInverse",
           "package": "ideas",
@@ -1774,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "timesInverse",
           "normalized": "a-\u003ea",
@@ -1789,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Field",
           "name": "zero",
           "package": "ideas",
@@ -1798,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Field",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Field",
           "name": "zero",
           "package": "ideas",
@@ -1810,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "FieldLaws",
           "package": "ideas",
@@ -1818,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "FieldLaws",
           "package": "ideas",
@@ -1831,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "commutativeRingLaws",
           "package": "ideas",
@@ -1840,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "commutativeRingLaws",
           "normalized": "[Law a]",
@@ -1855,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "distributiveLaws",
           "package": "ideas",
@@ -1864,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "distributiveLaws",
           "normalized": "[Law a]",
@@ -1879,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "distributiveSubtractionLaws",
           "package": "ideas",
@@ -1888,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "distributiveSubtractionLaws",
           "normalized": "[Law a]",
@@ -1903,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "exchangeInverses",
           "package": "ideas",
@@ -1912,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "exchangeInverses",
           "package": "ideas",
@@ -1925,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "fieldLaws",
           "package": "ideas",
@@ -1934,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "fieldLaws",
           "normalized": "[Law a]",
@@ -1949,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "fromAdditiveLaw",
           "package": "ideas",
@@ -1958,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "fromAdditiveLaw",
           "normalized": "Law(Additive a)-\u003eLaw a",
@@ -1973,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "fromMultiplicativeLaw",
           "package": "ideas",
@@ -1982,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "fromMultiplicativeLaw",
           "normalized": "Law(Multiplicative a)-\u003eLaw a",
@@ -1997,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "leftDistributive",
           "package": "ideas",
@@ -2006,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "leftDistributive",
           "package": "ideas",
@@ -2019,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "leftNegateTimes",
           "package": "ideas",
@@ -2028,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "leftNegateTimes",
           "package": "ideas",
@@ -2041,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "negateTimesLaws",
           "package": "ideas",
@@ -2050,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "negateTimesLaws",
           "normalized": "[Law a]",
@@ -2065,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "propsField",
           "package": "ideas",
@@ -2074,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "propsField",
           "normalized": "[Property]",
@@ -2089,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "rightDistributive",
           "package": "ideas",
@@ -2098,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "rightDistributive",
           "package": "ideas",
@@ -2111,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "rightNegateTimes",
           "package": "ideas",
@@ -2120,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "rightNegateTimes",
           "package": "ideas",
@@ -2133,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "ringLaws",
           "package": "ideas",
@@ -2142,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "ringLaws",
           "normalized": "[Law a]",
@@ -2157,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "semiRingLaws",
           "package": "ideas",
@@ -2166,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra FieldLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.FieldLaws",
           "name": "semiRingLaws",
           "normalized": "[Law a]",
@@ -2181,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "Group",
           "package": "ideas",
@@ -2189,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "Group",
           "package": "ideas",
@@ -2202,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "CoGroup",
           "package": "ideas",
@@ -2210,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "CoGroup",
           "package": "ideas",
@@ -2223,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "CoMonoid",
           "package": "ideas",
@@ -2231,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "CoMonoid",
           "package": "ideas",
@@ -2244,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "CoMonoidZero",
           "package": "ideas",
@@ -2252,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "CoMonoidZero",
           "package": "ideas",
@@ -2266,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal complete definition: inverse or appendInverse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "Group",
           "package": "ideas",
@@ -2275,6 +2466,7 @@
         "index": {
           "description": "Minimal complete definition inverse or appendInverse",
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "Group",
           "package": "ideas",
@@ -2289,6 +2481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monoids (types with an associative binary operation that\n has an identity).  Instances should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emappend mempty x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x mempty = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x (mappend y z) = mappend (mappend x y) z\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emconcat = \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e mappend mempty\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe method names refer to the monoid of lists under concatenation,\n but there are many other instances.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome types can be viewed as a monoid in more than one way,\n e.g. both addition and multiplication on numbers.\n In such cases we often define \u003ccode\u003enewtype\u003c/code\u003es and make those instances\n of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eProduct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "Monoid",
           "package": "ideas",
@@ -2297,6 +2490,7 @@
         "index": {
           "description": "The class of monoids types with an associative binary operation that has an identity Instances should satisfy the following laws mappend mempty mappend mempty mappend mappend mappend mappend mconcat foldr mappend mempty The method names refer to the monoid of lists under concatenation but there are many other instances Minimal complete definition mempty and mappend Some types can be viewed as monoid in more than one way e.g both addition and multiplication on numbers In such cases we often define newtype and make those instances of Monoid e.g Sum and Product",
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "Monoid",
           "package": "ideas",
@@ -2310,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "MonoidZero",
           "package": "ideas",
@@ -2318,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "MonoidZero",
           "package": "ideas",
@@ -2331,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "WithZero",
           "package": "ideas",
@@ -2339,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "WithZero",
           "package": "ideas",
@@ -2353,6 +2551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "(\u003c\u003e)",
           "package": "ideas",
@@ -2362,6 +2561,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -2376,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "(\u003c\u003e-)",
           "package": "ideas",
@@ -2385,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "(\u003c\u003e-) \u003c\u003e-",
           "normalized": "a-\u003ea-\u003ea",
@@ -2399,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "appendInv",
           "package": "ideas",
@@ -2408,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "appendInv",
           "normalized": "a-\u003ea-\u003ea",
@@ -2423,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "associativeList",
           "package": "ideas",
@@ -2432,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "associativeList",
           "normalized": "a-\u003e[a]",
@@ -2447,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "fromWithZero",
           "package": "ideas",
@@ -2456,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "fromWithZero",
           "normalized": "WithZero a-\u003eMaybe a",
@@ -2471,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "inverse",
           "package": "ideas",
@@ -2480,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "inverse",
           "normalized": "a-\u003ea",
@@ -2494,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isAppend",
           "package": "ideas",
@@ -2503,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isAppend",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -2518,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isAppendInv",
           "package": "ideas",
@@ -2527,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isAppendInv",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -2542,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isEmpty",
           "package": "ideas",
@@ -2551,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isEmpty",
           "normalized": "a-\u003eBool",
@@ -2566,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isInverse",
           "package": "ideas",
@@ -2575,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isInverse",
           "normalized": "a-\u003eMaybe a",
@@ -2590,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isMonoidZero",
           "package": "ideas",
@@ -2599,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "isMonoidZero",
           "normalized": "a-\u003eBool",
@@ -2615,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "mappend",
           "package": "ideas",
@@ -2624,6 +2845,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -2639,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "mconcat",
           "package": "ideas",
@@ -2648,6 +2871,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -2663,6 +2887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "mempty",
           "package": "ideas",
@@ -2672,6 +2897,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "mempty",
           "package": "ideas",
@@ -2684,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Group",
           "name": "mzero",
           "package": "ideas",
@@ -2693,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Group",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Group",
           "name": "mzero",
           "package": "ideas",
@@ -2705,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "GroupLaws",
           "package": "ideas",
@@ -2713,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "GroupLaws",
           "package": "ideas",
@@ -2726,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "abelianGroupLaws",
           "package": "ideas",
@@ -2735,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "abelianGroupLaws",
           "normalized": "[Law a]",
@@ -2750,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "appendInverseLaws",
           "package": "ideas",
@@ -2759,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "appendInverseLaws",
           "normalized": "[Law a]",
@@ -2774,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "associative",
           "package": "ideas",
@@ -2783,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "associative",
           "package": "ideas",
@@ -2795,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "associativeFor",
           "package": "ideas",
@@ -2804,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "associativeFor",
           "normalized": "(a-\u003ea-\u003ea)-\u003eLaw a",
@@ -2819,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "commutative",
           "package": "ideas",
@@ -2828,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "commutative",
           "package": "ideas",
@@ -2840,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "commutativeFor",
           "package": "ideas",
@@ -2849,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "commutativeFor",
           "normalized": "(a-\u003ea-\u003ea)-\u003eLaw a",
@@ -2864,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "commutativeMonoidLaws",
           "package": "ideas",
@@ -2873,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "commutativeMonoidLaws",
           "normalized": "[Law a]",
@@ -2888,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "doubleInverse",
           "package": "ideas",
@@ -2897,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "doubleInverse",
           "package": "ideas",
@@ -2910,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "groupLaws",
           "package": "ideas",
@@ -2919,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "groupLaws",
           "normalized": "[Law a]",
@@ -2935,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot all monoids are idempotent (see: idempotentFor)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "idempotent",
           "package": "ideas",
@@ -2945,6 +3194,7 @@
         "index": {
           "description": "Not all monoids are idempotent see idempotentFor",
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "idempotent",
           "package": "ideas",
@@ -2957,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "idempotentFor",
           "package": "ideas",
@@ -2966,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "idempotentFor",
           "normalized": "(a-\u003ea-\u003ea)-\u003eLaw a",
@@ -2981,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "identityLaws",
           "package": "ideas",
@@ -2990,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "identityLaws",
           "normalized": "[Law a]",
@@ -3005,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "inverseDistr",
           "package": "ideas",
@@ -3014,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "inverseDistr",
           "package": "ideas",
@@ -3027,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "inverseDistrFlipped",
           "package": "ideas",
@@ -3036,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "inverseDistrFlipped",
           "package": "ideas",
@@ -3049,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "inverseIdentity",
           "package": "ideas",
@@ -3058,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "inverseIdentity",
           "package": "ideas",
@@ -3071,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "inverseLaws",
           "package": "ideas",
@@ -3080,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "inverseLaws",
           "normalized": "[Law a]",
@@ -3095,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "leftDistributiveFor",
           "package": "ideas",
@@ -3104,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "leftDistributiveFor",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003eLaw a",
@@ -3119,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "leftIdentity",
           "package": "ideas",
@@ -3128,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "leftIdentity",
           "package": "ideas",
@@ -3141,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "leftInverse",
           "package": "ideas",
@@ -3150,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "leftInverse",
           "package": "ideas",
@@ -3163,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "leftZero",
           "package": "ideas",
@@ -3172,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "leftZero",
           "package": "ideas",
@@ -3185,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "monoidLaws",
           "package": "ideas",
@@ -3194,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "monoidLaws",
           "normalized": "[Law a]",
@@ -3209,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "monoidZeroLaws",
           "package": "ideas",
@@ -3218,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "monoidZeroLaws",
           "normalized": "[Law a]",
@@ -3233,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "rightDistributiveFor",
           "package": "ideas",
@@ -3242,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "rightDistributiveFor",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003eLaw a",
@@ -3257,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "rightIdentity",
           "package": "ideas",
@@ -3266,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "rightIdentity",
           "package": "ideas",
@@ -3279,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "rightInverse",
           "package": "ideas",
@@ -3288,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "rightInverse",
           "package": "ideas",
@@ -3301,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "rightZero",
           "package": "ideas",
@@ -3310,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "rightZero",
           "package": "ideas",
@@ -3323,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "zeroLaws",
           "package": "ideas",
@@ -3332,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra GroupLaws",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.GroupLaws",
           "name": "zeroLaws",
           "normalized": "[Law a]",
@@ -3347,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Law",
           "name": "Law",
           "package": "ideas",
@@ -3355,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Law",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Law",
           "name": "Law",
           "package": "ideas",
@@ -3368,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Law",
           "name": "Law",
           "package": "ideas",
@@ -3376,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Law",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Law",
           "name": "Law",
           "package": "ideas",
@@ -3389,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Law",
           "name": "LawSpec",
           "package": "ideas",
@@ -3397,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Law",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Law",
           "name": "LawSpec",
           "package": "ideas",
@@ -3410,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Law",
           "name": ":==:",
           "package": "ideas",
@@ -3419,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Law",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Law",
           "name": ":==:",
           "package": "ideas",
@@ -3431,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Law",
           "name": "law",
           "package": "ideas",
@@ -3440,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Law",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Law",
           "name": "law",
           "normalized": "String-\u003ea-\u003eLaw b",
@@ -3454,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Law",
           "name": "mapLaw",
           "package": "ideas",
@@ -3463,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Law",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Law",
           "name": "mapLaw",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eLaw b-\u003eLaw a",
@@ -3478,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Law",
           "name": "propertyLaw",
           "package": "ideas",
@@ -3487,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Law",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Law",
           "name": "propertyLaw",
           "normalized": "(a-\u003ea-\u003eb)-\u003eLaw a-\u003eProperty",
@@ -3502,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.Law",
           "name": "rewriteLaw",
           "package": "ideas",
@@ -3511,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra Law",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.Law",
           "name": "rewriteLaw",
           "normalized": "Law a-\u003eRewriteRule a",
@@ -3526,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartGroup",
           "package": "ideas",
@@ -3534,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartGroup",
           "package": "ideas",
@@ -3547,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "Smart",
           "package": "ideas",
@@ -3555,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "Smart",
           "package": "ideas",
@@ -3568,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartField",
           "package": "ideas",
@@ -3576,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartField",
           "package": "ideas",
@@ -3589,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartGroup",
           "package": "ideas",
@@ -3597,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartGroup",
           "package": "ideas",
@@ -3610,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartZero",
           "package": "ideas",
@@ -3618,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartZero",
           "package": "ideas",
@@ -3631,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.||.)",
           "package": "ideas",
@@ -3640,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.||.) .||.",
           "normalized": "a-\u003ea-\u003ea",
@@ -3654,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.&&.)",
           "package": "ideas",
@@ -3663,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.&&.) .&&.",
           "normalized": "a-\u003ea-\u003ea",
@@ -3677,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.*.)",
           "package": "ideas",
@@ -3686,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.*.) .*.",
           "normalized": "a-\u003ea-\u003ea",
@@ -3700,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.+.)",
           "package": "ideas",
@@ -3709,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.+.) .+.",
           "normalized": "a-\u003ea-\u003ea",
@@ -3723,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.-.)",
           "package": "ideas",
@@ -3732,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(.-.) .-.",
           "normalized": "a-\u003ea-\u003ea",
@@ -3746,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(./.)",
           "package": "ideas",
@@ -3755,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "(./.) ./.",
           "normalized": "a-\u003ea-\u003ea",
@@ -3769,6 +4091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "Smart",
           "package": "ideas",
@@ -3778,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "Smart",
           "package": "ideas",
@@ -3791,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartField",
           "package": "ideas",
@@ -3800,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartField",
           "package": "ideas",
@@ -3813,6 +4139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartGroup",
           "package": "ideas",
@@ -3822,6 +4149,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartGroup",
           "package": "ideas",
@@ -3835,6 +4163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartZero",
           "package": "ideas",
@@ -3844,6 +4173,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "SmartZero",
           "package": "ideas",
@@ -3857,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "fromSmart",
           "package": "ideas",
@@ -3866,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "fromSmart",
           "package": "ideas",
@@ -3879,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "fromSmartField",
           "package": "ideas",
@@ -3888,6 +4221,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "fromSmartField",
           "package": "ideas",
@@ -3901,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "fromSmartGroup",
           "package": "ideas",
@@ -3910,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "fromSmartGroup",
           "package": "ideas",
@@ -3923,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "fromSmartZero",
           "package": "ideas",
@@ -3932,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "fromSmartZero",
           "package": "ideas",
@@ -3945,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "neg",
           "package": "ideas",
@@ -3954,6 +4293,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Algebra SmartGroup",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Algebra.SmartGroup",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -3969,6 +4309,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType classes and instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "Classes",
           "package": "ideas",
@@ -3978,6 +4319,7 @@
         "index": {
           "description": "Type classes and instances",
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "Classes",
           "package": "ideas",
@@ -3992,6 +4334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for functors that can be applied to a value. Transformation,\n Rule, and Strategy are all instances of this type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "Apply",
           "package": "ideas",
@@ -4001,6 +4344,7 @@
         "index": {
           "description": "type class for functors that can be applied to value Transformation Rule and Strategy are all instances of this type class",
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "Apply",
           "package": "ideas",
@@ -4015,6 +4359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for bi-directional arrows. \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e should be used instead of\n \u003ccode\u003earr\u003c/code\u003e from the arrow interface. Minimal complete definition: \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "BiArrow",
           "package": "ideas",
@@ -4024,6 +4369,7 @@
         "index": {
           "description": "Type class for bi-directional arrows should be used instead of arr from the arrow interface Minimal complete definition",
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "BiArrow",
           "package": "ideas",
@@ -4037,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "BiFunctor",
           "package": "ideas",
@@ -4045,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "BiFunctor",
           "package": "ideas",
@@ -4058,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "Buggy",
           "package": "ideas",
@@ -4066,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "Buggy",
           "package": "ideas",
@@ -4080,6 +4430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances should satisfy the following law: \u003ccode\u003egetSingleton . singleton == Just\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "Container",
           "package": "ideas",
@@ -4089,6 +4440,7 @@
         "index": {
           "description": "Instances should satisfy the following law getSingleton singleton Just",
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "Container",
           "package": "ideas",
@@ -4102,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "Minor",
           "package": "ideas",
@@ -4110,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "Minor",
           "package": "ideas",
@@ -4123,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "(!-\u003e)",
           "package": "ideas",
@@ -4132,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "(!-\u003e) !-\u003e",
           "normalized": "(a-\u003eb)-\u003ec a b",
@@ -4146,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "(\u003c-!)",
           "package": "ideas",
@@ -4155,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "(\u003c-!) \u003c-!",
           "normalized": "(a-\u003eb)-\u003ec b a",
@@ -4169,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "(\u003c-\u003e)",
           "package": "ideas",
@@ -4178,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003ec a b",
@@ -4193,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the functor is applicable (at least one result)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "applicable",
           "package": "ideas",
@@ -4203,6 +4564,7 @@
         "index": {
           "description": "Checks whether the functor is applicable at least one result",
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "applicable",
           "normalized": "a b-\u003eb-\u003eBool",
@@ -4218,6 +4580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns zero or one results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "apply",
           "package": "ideas",
@@ -4228,6 +4591,7 @@
         "index": {
           "description": "Returns zero or one results",
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "apply",
           "normalized": "a b-\u003eb-\u003eMaybe b",
@@ -4242,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "applyAll",
           "package": "ideas",
@@ -4251,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "applyAll",
           "package": "ideas",
@@ -4265,6 +4631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf not applicable, return the current value (as default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "applyD",
           "package": "ideas",
@@ -4275,6 +4642,7 @@
         "index": {
           "description": "If not applicable return the current value as default",
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "applyD",
           "normalized": "a b-\u003eb-\u003eb",
@@ -4289,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "applyList",
           "package": "ideas",
@@ -4298,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "applyList",
           "normalized": "[a b]-\u003eb-\u003eMaybe b",
@@ -4314,6 +4684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as apply, except that the result (at most one) is returned in some monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "applyM",
           "package": "ideas",
@@ -4324,6 +4695,7 @@
         "index": {
           "description": "Same as apply except that the result at most one is returned in some monad",
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "applyM",
           "normalized": "a b-\u003eb-\u003ec b",
@@ -4338,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "biMap",
           "package": "ideas",
@@ -4347,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "biMap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee a c-\u003ee b d",
@@ -4362,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "buggy",
           "package": "ideas",
@@ -4371,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "buggy",
           "normalized": "a-\u003ea",
@@ -4385,6 +4761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "getSingleton",
           "package": "ideas",
@@ -4394,6 +4771,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "getSingleton",
           "normalized": "a b-\u003eMaybe b",
@@ -4409,6 +4787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "isBuggy",
           "package": "ideas",
@@ -4418,6 +4797,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "isBuggy",
           "normalized": "a-\u003eBool",
@@ -4433,6 +4813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "isMajor",
           "package": "ideas",
@@ -4442,6 +4823,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "isMajor",
           "normalized": "a-\u003eBool",
@@ -4457,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "isMinor",
           "package": "ideas",
@@ -4466,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "isMinor",
           "normalized": "a-\u003eBool",
@@ -4481,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "mapBoth",
           "package": "ideas",
@@ -4490,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "mapBoth",
           "normalized": "(a-\u003eb)-\u003ec a a-\u003ec b b",
@@ -4505,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "mapFirst",
           "package": "ideas",
@@ -4514,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "mapFirst",
           "normalized": "(a-\u003eb)-\u003ec a d-\u003ec b d",
@@ -4529,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "mapSecond",
           "package": "ideas",
@@ -4538,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "mapSecond",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -4553,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "minor",
           "package": "ideas",
@@ -4562,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "minor",
           "normalized": "a-\u003ea",
@@ -4576,6 +4968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "setBuggy",
           "package": "ideas",
@@ -4585,6 +4978,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "setBuggy",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -4600,6 +4994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "setMinor",
           "package": "ideas",
@@ -4609,6 +5004,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "setMinor",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -4624,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Classes",
           "name": "singleton",
           "package": "ideas",
@@ -4633,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Classes",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Classes",
           "name": "singleton",
           "normalized": "a-\u003eb a",
@@ -4648,6 +5046,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA context for a term that maintains an environment of\n key-value pairs. A context is both showable and parsable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "Context",
           "package": "ideas",
@@ -4657,6 +5056,7 @@
         "index": {
           "description": "context for term that maintains an environment of key-value pairs context is both showable and parsable",
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "Context",
           "package": "ideas",
@@ -4671,6 +5071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for a context: a context stores an envrionent\n (key-value pairs) and a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "Context",
           "package": "ideas",
@@ -4680,6 +5081,7 @@
         "index": {
           "description": "Abstract data type for context context stores an envrionent key-value pairs and value",
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "Context",
           "package": "ideas",
@@ -4693,6 +5095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "ContextNavigator",
           "package": "ideas",
@@ -4701,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "ContextNavigator",
           "package": "ideas",
@@ -4714,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "Location",
           "package": "ideas",
@@ -4722,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "Location",
           "package": "ideas",
@@ -4736,6 +5142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function at top-level. Afterwards, try to return the focus\n to the old position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "applyTop",
           "package": "ideas",
@@ -4746,6 +5153,7 @@
         "index": {
           "description": "Apply function at top-level Afterwards try to return the focus to the old position",
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "applyTop",
           "normalized": "(a-\u003ea)-\u003eContext a-\u003eContext a",
@@ -4761,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "changeInContext",
           "package": "ideas",
@@ -4770,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "changeInContext",
           "normalized": "(a-\u003ea)-\u003eContext a-\u003eContext a",
@@ -4785,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "changeTerm",
           "package": "ideas",
@@ -4794,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "changeTerm",
           "normalized": "(Term-\u003eMaybe Term)-\u003eContext a-\u003eMaybe(Context a)",
@@ -4809,6 +5221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "contextView",
           "package": "ideas",
@@ -4818,6 +5231,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "contextView",
           "normalized": "View(Context a)(a,Context a)",
@@ -4833,6 +5247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "currentInContext",
           "package": "ideas",
@@ -4842,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "currentInContext",
           "normalized": "Context a-\u003eMaybe a",
@@ -4857,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "currentTerm",
           "package": "ideas",
@@ -4866,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "currentTerm",
           "normalized": "Context a-\u003eMaybe Term",
@@ -4881,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "fromContext",
           "package": "ideas",
@@ -4890,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "fromContext",
           "normalized": "Context a-\u003eb a",
@@ -4905,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "fromContextWith",
           "package": "ideas",
@@ -4914,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "fromContextWith",
           "normalized": "(a-\u003eb)-\u003eContext a-\u003ec b",
@@ -4929,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "fromContextWith2",
           "package": "ideas",
@@ -4938,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "fromContextWith2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eContext a-\u003eContext b-\u003ed c",
@@ -4954,6 +5378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a rule to operate on a term in a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "liftToContext",
           "package": "ideas",
@@ -4964,6 +5389,7 @@
         "index": {
           "description": "Lift rule to operate on term in context",
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "liftToContext",
           "normalized": "a b-\u003ea(Context b)",
@@ -4979,6 +5405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "location",
           "package": "ideas",
@@ -4988,6 +5415,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "location",
           "normalized": "a-\u003eLocation",
@@ -5002,6 +5430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "navigator",
           "package": "ideas",
@@ -5011,6 +5440,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "navigator",
           "normalized": "a-\u003eContextNavigator a",
@@ -5026,6 +5456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "newContext",
           "package": "ideas",
@@ -5036,6 +5467,7 @@
         "index": {
           "description": "Construct context",
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "newContext",
           "normalized": "Environment-\u003eContextNavigator a-\u003eContext a",
@@ -5051,6 +5483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "noNavigator",
           "package": "ideas",
@@ -5060,6 +5493,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "noNavigator",
           "normalized": "a-\u003eContextNavigator a",
@@ -5075,6 +5509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "replaceInContext",
           "package": "ideas",
@@ -5084,6 +5519,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "replaceInContext",
           "normalized": "a-\u003eContext a-\u003eContext a",
@@ -5099,6 +5535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "termNavigator",
           "package": "ideas",
@@ -5108,6 +5545,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "termNavigator",
           "normalized": "a-\u003eContextNavigator a",
@@ -5123,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "use",
           "package": "ideas",
@@ -5132,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "use",
           "normalized": "a b-\u003ea(Context c)",
@@ -5146,6 +5586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Context",
           "name": "useC",
           "package": "ideas",
@@ -5155,6 +5596,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Context",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Context",
           "name": "useC",
           "normalized": "a(Context b)-\u003ea(Context c)",
@@ -5170,6 +5612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatype for representing a derivation (parameterized both in the terms\n and the steps)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "Derivation",
           "package": "ideas",
@@ -5179,6 +5622,7 @@
         "index": {
           "description": "Datatype for representing derivation parameterized both in the terms and the steps",
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "Derivation",
           "package": "ideas",
@@ -5192,6 +5636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "Derivation",
           "package": "ideas",
@@ -5200,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "Derivation",
           "package": "ideas",
@@ -5214,6 +5660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of steps in a derivation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "derivationLength",
           "package": "ideas",
@@ -5224,6 +5671,7 @@
         "index": {
           "description": "Returns the number of steps in derivation",
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "derivationLength",
           "normalized": "Derivation a b-\u003eInt",
@@ -5240,6 +5688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic function to each term, and to each step\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "derivationM",
           "package": "ideas",
@@ -5250,6 +5699,7 @@
         "index": {
           "description": "Apply monadic function to each term and to each step",
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "derivationM",
           "normalized": "(a-\u003eb())-\u003e(c-\u003eb())-\u003eDerivation a c-\u003eb()",
@@ -5264,6 +5714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "emptyDerivation",
           "package": "ideas",
@@ -5273,6 +5724,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "emptyDerivation",
           "normalized": "a-\u003eDerivation b a",
@@ -5288,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "extend",
           "package": "ideas",
@@ -5297,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "extend",
           "normalized": "Derivation a b-\u003e(a,b)-\u003eDerivation a b",
@@ -5311,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "firstTerm",
           "package": "ideas",
@@ -5320,6 +5775,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "firstTerm",
           "normalized": "Derivation a b-\u003eb",
@@ -5336,6 +5792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether the derivation is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "isEmpty",
           "package": "ideas",
@@ -5346,6 +5803,7 @@
         "index": {
           "description": "Tests whether the derivation is empty",
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "isEmpty",
           "normalized": "Derivation a b-\u003eBool",
@@ -5361,6 +5819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "lastStep",
           "package": "ideas",
@@ -5370,6 +5829,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "lastStep",
           "normalized": "Derivation a b-\u003eMaybe a",
@@ -5385,6 +5845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "lastTerm",
           "package": "ideas",
@@ -5394,6 +5855,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "lastTerm",
           "normalized": "Derivation a b-\u003eb",
@@ -5409,6 +5871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "prepend",
           "package": "ideas",
@@ -5418,6 +5881,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "prepend",
           "normalized": "(a,b)-\u003eDerivation b a-\u003eDerivation b a",
@@ -5433,6 +5897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll steps in a derivation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "steps",
           "package": "ideas",
@@ -5443,6 +5908,7 @@
         "index": {
           "description": "All steps in derivation",
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "steps",
           "normalized": "Derivation a b-\u003e[a]",
@@ -5458,6 +5924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll terms in a derivation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "terms",
           "package": "ideas",
@@ -5468,6 +5935,7 @@
         "index": {
           "description": "All terms in derivation",
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "terms",
           "normalized": "Derivation a b-\u003e[b]",
@@ -5483,6 +5951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe triples of a derivation, consisting of the before term, the\n step, and the after term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "triples",
           "package": "ideas",
@@ -5493,6 +5962,7 @@
         "index": {
           "description": "The triples of derivation consisting of the before term the step and the after term",
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "triples",
           "normalized": "Derivation a b-\u003e[(b,a,b)]",
@@ -5507,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "updateSteps",
           "package": "ideas",
@@ -5516,6 +5987,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "updateSteps",
           "normalized": "(a-\u003eb-\u003ea-\u003ec)-\u003eDerivation b a-\u003eDerivation c a",
@@ -5531,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Derivation",
           "name": "withoutLast",
           "package": "ideas",
@@ -5540,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Derivation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Derivation",
           "name": "withoutLast",
           "normalized": "Derivation a b-\u003eDerivation a b",
@@ -5556,6 +6030,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatype for representing derivations as a tree. The datatype stores all\n intermediate results as well as annotations for the steps.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "DerivationTree",
           "package": "ideas",
@@ -5565,6 +6040,7 @@
         "index": {
           "description": "Datatype for representing derivations as tree The datatype stores all intermediate results as well as annotations for the steps",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "DerivationTree",
           "package": "ideas",
@@ -5578,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "DerivationTree",
           "package": "ideas",
@@ -5586,6 +6063,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "DerivationTree",
           "package": "ideas",
@@ -5600,6 +6078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBranches are attached after the existing ones (order matters)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "addBranches",
           "package": "ideas",
@@ -5610,6 +6089,7 @@
         "index": {
           "description": "Branches are attached after the existing ones order matters",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "addBranches",
           "normalized": "[(a,DerivationTree a b)]-\u003eDerivationTree a b-\u003eDerivationTree a b",
@@ -5626,6 +6106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll branches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "branches",
           "package": "ideas",
@@ -5636,6 +6117,7 @@
         "index": {
           "description": "All branches",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "branches",
           "normalized": "DerivationTree a b-\u003e[(a,DerivationTree a b)]",
@@ -5650,6 +6132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "cutOnStep",
           "package": "ideas",
@@ -5659,6 +6142,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "cutOnStep",
           "normalized": "(a-\u003eBool)-\u003eDerivationTree a b-\u003eDerivationTree a b",
@@ -5674,6 +6158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "cutOnTerm",
           "package": "ideas",
@@ -5683,6 +6168,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "cutOnTerm",
           "normalized": "(a-\u003eBool)-\u003eDerivationTree b a-\u003eDerivationTree b a",
@@ -5699,6 +6185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first derivation (if any)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "derivation",
           "package": "ideas",
@@ -5709,6 +6196,7 @@
         "index": {
           "description": "The first derivation if any",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "derivation",
           "normalized": "DerivationTree a b-\u003eMaybe(Derivation a b)",
@@ -5724,6 +6212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll possible derivations (returned in a list)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "derivations",
           "package": "ideas",
@@ -5734,6 +6223,7 @@
         "index": {
           "description": "All possible derivations returned in list",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "derivations",
           "normalized": "DerivationTree a b-\u003e[Derivation a b]",
@@ -5749,6 +6239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this node an endpoint?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "endpoint",
           "package": "ideas",
@@ -5759,6 +6250,7 @@
         "index": {
           "description": "Is this node an endpoint",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "endpoint",
           "normalized": "DerivationTree a b-\u003eBool",
@@ -5774,6 +6266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all leafs, i.e., final results in derivation. Be careful:\n the returned list may be very long\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "leafs",
           "package": "ideas",
@@ -5784,6 +6277,7 @@
         "index": {
           "description": "Returns all leafs i.e final results in derivation Be careful the returned list may be very long",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "leafs",
           "normalized": "DerivationTree a b-\u003e[b]",
@@ -5799,6 +6293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe argument supplied is the maximum number of steps; if more steps are\n needed, Nothing is returned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "lengthMax",
           "package": "ideas",
@@ -5809,6 +6304,7 @@
         "index": {
           "description": "The argument supplied is the maximum number of steps if more steps are needed Nothing is returned",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "lengthMax",
           "normalized": "Int-\u003eDerivationTree a b-\u003eMaybe Int",
@@ -5824,6 +6320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "makeTree",
           "package": "ideas",
@@ -5833,6 +6330,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "makeTree",
           "normalized": "(a-\u003e(Bool,[(b,a)]))-\u003ea-\u003eDerivationTree b a",
@@ -5848,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "mergeMaybeSteps",
           "package": "ideas",
@@ -5857,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "mergeMaybeSteps",
           "normalized": "DerivationTree(Maybe a)b-\u003eDerivationTree a b",
@@ -5873,6 +6373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn  a random derivation (if any exists at all)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "randomDerivation",
           "package": "ideas",
@@ -5883,6 +6384,7 @@
         "index": {
           "description": "Return random derivation if any exists at all",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "randomDerivation",
           "normalized": "a-\u003eDerivationTree b c-\u003eMaybe(Derivation b c)",
@@ -5899,6 +6401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict the height of the tree (by cutting off branches at a certain depth).\n Nodes at this particular depth are turned into endpoints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "restrictHeight",
           "package": "ideas",
@@ -5909,6 +6412,7 @@
         "index": {
           "description": "Restrict the height of the tree by cutting off branches at certain depth Nodes at this particular depth are turned into endpoints",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "restrictHeight",
           "normalized": "Int-\u003eDerivationTree a b-\u003eDerivationTree a b",
@@ -5925,6 +6429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict the width of the tree (by cutting off branches).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "restrictWidth",
           "package": "ideas",
@@ -5935,6 +6440,7 @@
         "index": {
           "description": "Restrict the width of the tree by cutting off branches",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "restrictWidth",
           "normalized": "Int-\u003eDerivationTree a b-\u003eDerivationTree a b",
@@ -5951,6 +6457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe root of the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "root",
           "package": "ideas",
@@ -5961,6 +6468,7 @@
         "index": {
           "description": "The root of the tree",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "root",
           "normalized": "DerivationTree a b-\u003eb",
@@ -5976,6 +6484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a node without branches; the boolean indicates whether the\n node is an endpoint or not\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "singleNode",
           "package": "ideas",
@@ -5986,6 +6495,7 @@
         "index": {
           "description": "Constructs node without branches the boolean indicates whether the node is an endpoint or not",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "singleNode",
           "normalized": "a-\u003eBool-\u003eDerivationTree b a",
@@ -6001,6 +6511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "sortTree",
           "package": "ideas",
@@ -6010,6 +6521,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "sortTree",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eDerivationTree a b-\u003eDerivationTree a b",
@@ -6026,6 +6538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all subtrees at a given node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "subtrees",
           "package": "ideas",
@@ -6036,6 +6549,7 @@
         "index": {
           "description": "Returns all subtrees at given node",
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "subtrees",
           "normalized": "DerivationTree a b-\u003e[DerivationTree a b]",
@@ -6050,6 +6564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.DerivationTree",
           "name": "updateAnnotations",
           "package": "ideas",
@@ -6059,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common DerivationTree",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.DerivationTree",
           "name": "updateAnnotations",
           "normalized": "(a-\u003eb-\u003ea-\u003ec)-\u003eDerivationTree b a-\u003eDerivationTree c a",
@@ -6075,6 +6591,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences, bindings, and heterogenous environments\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "Environment",
           "package": "ideas",
@@ -6084,6 +6601,7 @@
         "index": {
           "description": "References bindings and heterogenous environments",
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "Environment",
           "package": "ideas",
@@ -6097,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "Binding",
           "package": "ideas",
@@ -6105,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "Binding",
           "package": "ideas",
@@ -6118,6 +6638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "Environment",
           "package": "ideas",
@@ -6126,6 +6647,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "Environment",
           "package": "ideas",
@@ -6139,6 +6661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "HasEnvironment",
           "package": "ideas",
@@ -6147,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "HasEnvironment",
           "package": "ideas",
@@ -6160,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "HasRefs",
           "package": "ideas",
@@ -6168,6 +6693,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "HasRefs",
           "package": "ideas",
@@ -6182,6 +6708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type for references (without a value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "Ref",
           "package": "ideas",
@@ -6191,6 +6718,7 @@
         "index": {
           "description": "data type for references without value",
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "Ref",
           "package": "ideas",
@@ -6205,6 +6733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for types as references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "Reference",
           "package": "ideas",
@@ -6214,6 +6743,7 @@
         "index": {
           "description": "type class for types as references",
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "Reference",
           "package": "ideas",
@@ -6227,6 +6757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "(?)",
           "package": "ideas",
@@ -6236,6 +6767,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "(?) ?",
           "normalized": "Ref a-\u003eb-\u003eMaybe a",
@@ -6250,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "allRefs",
           "package": "ideas",
@@ -6259,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "allRefs",
           "normalized": "a-\u003e[Some Ref]",
@@ -6274,6 +6808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "bindings",
           "package": "ideas",
@@ -6283,6 +6818,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "bindings",
           "normalized": "a-\u003e[Binding]",
@@ -6297,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "changeRef",
           "package": "ideas",
@@ -6306,6 +6843,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "changeRef",
           "normalized": "Ref a-\u003e(a-\u003ea)-\u003eb-\u003eb",
@@ -6321,6 +6859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "deleteRef",
           "package": "ideas",
@@ -6330,6 +6869,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "deleteRef",
           "normalized": "Ref a-\u003eb-\u003eb",
@@ -6345,6 +6885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "environment",
           "package": "ideas",
@@ -6354,6 +6895,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "environment",
           "normalized": "a-\u003eEnvironment",
@@ -6368,6 +6910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "fromBinding",
           "package": "ideas",
@@ -6377,6 +6920,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "fromBinding",
           "normalized": "Binding-\u003eMaybe(Ref a,a)",
@@ -6392,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "getRefIds",
           "package": "ideas",
@@ -6401,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "getRefIds",
           "normalized": "a-\u003e[Id]",
@@ -6416,6 +6962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "getRefs",
           "package": "ideas",
@@ -6425,6 +6972,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "getRefs",
           "normalized": "a-\u003e[Some Ref]",
@@ -6440,6 +6988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "getTermValue",
           "package": "ideas",
@@ -6449,6 +6998,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "getTermValue",
           "normalized": "Binding-\u003eTerm",
@@ -6464,6 +7014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "insertRef",
           "package": "ideas",
@@ -6473,6 +7024,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "insertRef",
           "normalized": "Ref a-\u003ea-\u003eb-\u003eb",
@@ -6488,6 +7040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "makeBinding",
           "package": "ideas",
@@ -6497,6 +7050,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "makeBinding",
           "normalized": "Ref a-\u003ea-\u003eBinding",
@@ -6512,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "makeEnvironment",
           "package": "ideas",
@@ -6521,6 +7076,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "makeEnvironment",
           "normalized": "[Binding]-\u003eEnvironment",
@@ -6536,6 +7092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "makeRef",
           "package": "ideas",
@@ -6545,6 +7102,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "makeRef",
           "normalized": "a-\u003eRef b",
@@ -6560,6 +7118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "makeRefList",
           "package": "ideas",
@@ -6569,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "makeRefList",
           "normalized": "a-\u003eRef[b]",
@@ -6584,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "noBindings",
           "package": "ideas",
@@ -6593,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "noBindings",
           "normalized": "a-\u003eBool",
@@ -6608,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "setEnvironment",
           "package": "ideas",
@@ -6617,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "setEnvironment",
           "normalized": "Environment-\u003ea-\u003ea",
@@ -6632,6 +7196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "showValue",
           "package": "ideas",
@@ -6641,6 +7206,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "showValue",
           "normalized": "Binding-\u003eString",
@@ -6656,6 +7222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Environment",
           "name": "singleBinding",
           "package": "ideas",
@@ -6665,6 +7232,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Environment",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Environment",
           "name": "singleBinding",
           "normalized": "Ref a-\u003ea-\u003eEnvironment",
@@ -6681,6 +7249,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the concept of an exercise\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Exercise",
           "package": "ideas",
@@ -6690,6 +7259,7 @@
         "index": {
           "description": "This module defines the concept of an exercise",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Exercise",
           "package": "ideas",
@@ -6703,6 +7273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Difficulty",
           "package": "ideas",
@@ -6711,6 +7282,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Difficulty",
           "package": "ideas",
@@ -6724,6 +7296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Examples",
           "package": "ideas",
@@ -6732,6 +7305,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Examples",
           "package": "ideas",
@@ -6745,6 +7319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Exercise",
           "package": "ideas",
@@ -6753,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Exercise",
           "package": "ideas",
@@ -6766,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "ExerciseDerivation",
           "package": "ideas",
@@ -6774,6 +7351,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "ExerciseDerivation",
           "package": "ideas",
@@ -6787,6 +7365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Status",
           "package": "ideas",
@@ -6795,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Status",
           "package": "ideas",
@@ -6809,6 +7389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exercise that is under development\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Alpha",
           "package": "ideas",
@@ -6819,6 +7400,7 @@
         "index": {
           "description": "An exercise that is under development",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Alpha",
           "package": "ideas",
@@ -6832,6 +7414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Difficult",
           "package": "ideas",
@@ -6841,6 +7424,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Difficult",
           "package": "ideas",
@@ -6854,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Easy",
           "package": "ideas",
@@ -6863,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Easy",
           "package": "ideas",
@@ -6877,6 +7463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exercise for experimentation purposes only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Experimental",
           "package": "ideas",
@@ -6887,6 +7474,7 @@
         "index": {
           "description": "An exercise for experimentation purposes only",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Experimental",
           "package": "ideas",
@@ -6900,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Medium",
           "package": "ideas",
@@ -6909,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Medium",
           "package": "ideas",
@@ -6923,6 +7513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA released exercise, possibly with some deficiencies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Provisional",
           "package": "ideas",
@@ -6933,6 +7524,7 @@
         "index": {
           "description": "released exercise possibly with some deficiencies",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Provisional",
           "package": "ideas",
@@ -6947,6 +7539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA released exercise that has undergone some thorough testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "Stable",
           "package": "ideas",
@@ -6957,6 +7550,7 @@
         "index": {
           "description": "released exercise that has undergone some thorough testing",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "Stable",
           "package": "ideas",
@@ -6970,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "VeryDifficult",
           "package": "ideas",
@@ -6979,6 +7574,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "VeryDifficult",
           "package": "ideas",
@@ -6992,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "VeryEasy",
           "package": "ideas",
@@ -7001,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "VeryEasy",
           "package": "ideas",
@@ -7014,6 +7612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "canBeRestarted",
           "package": "ideas",
@@ -7023,6 +7622,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "canBeRestarted",
           "normalized": "Exercise a-\u003eBool",
@@ -7038,6 +7638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "castFrom",
           "package": "ideas",
@@ -7047,6 +7648,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "castFrom",
           "normalized": "Exercise a-\u003ea-\u003eMaybe b",
@@ -7062,6 +7664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "castTo",
           "package": "ideas",
@@ -7071,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "castTo",
           "normalized": "Exercise a-\u003eb-\u003eMaybe a",
@@ -7086,6 +7690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "checkExamples",
           "package": "ideas",
@@ -7095,6 +7700,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "checkExamples",
           "normalized": "Exercise a-\u003eTestSuite",
@@ -7110,6 +7716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "checkExercise",
           "package": "ideas",
@@ -7119,6 +7726,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "checkExercise",
           "normalized": "Exercise a-\u003eIO()",
@@ -7134,6 +7742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "checkParserPretty",
           "package": "ideas",
@@ -7143,6 +7752,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "checkParserPretty",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e(String-\u003eEither String a)-\u003e(a-\u003eString)-\u003ea-\u003eBool",
@@ -7158,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "defaultDerivation",
           "package": "ideas",
@@ -7167,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "defaultDerivation",
           "normalized": "Exercise a-\u003ea-\u003eExerciseDerivation a",
@@ -7182,6 +7794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "derivationDiffEnv",
           "package": "ideas",
@@ -7191,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "derivationDiffEnv",
           "normalized": "Derivation a(Context b)-\u003eDerivation(a,Environment)(Context b)",
@@ -7206,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "difference",
           "package": "ideas",
@@ -7215,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "difference",
           "normalized": "Exercise a-\u003ea-\u003ea-\u003eMaybe(a,a)",
@@ -7229,6 +7845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "differenceEqual",
           "package": "ideas",
@@ -7238,6 +7855,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "differenceEqual",
           "normalized": "Exercise a-\u003ea-\u003ea-\u003eMaybe(a,a)",
@@ -7253,6 +7871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "emptyExercise",
           "package": "ideas",
@@ -7262,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "emptyExercise",
           "package": "ideas",
@@ -7275,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "equivalence",
           "package": "ideas",
@@ -7284,6 +7905,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "equivalence",
           "normalized": "Exercise a-\u003eContext a-\u003eContext a-\u003eBool",
@@ -7298,6 +7920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "examples",
           "package": "ideas",
@@ -7307,6 +7930,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "examples",
           "normalized": "Exercise a-\u003e[(Difficulty,a)]",
@@ -7321,6 +7945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "examplesContext",
           "package": "ideas",
@@ -7330,6 +7955,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "examplesContext",
           "normalized": "Exercise a-\u003eExamples(Context a)",
@@ -7345,6 +7971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "exerciseId",
           "package": "ideas",
@@ -7354,6 +7981,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "exerciseId",
           "normalized": "Exercise a-\u003eId",
@@ -7369,6 +7997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "exerciseTestSuite",
           "package": "ideas",
@@ -7378,6 +8007,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "exerciseTestSuite",
           "normalized": "Exercise a-\u003eTestSuite",
@@ -7393,6 +8023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "extraRules",
           "package": "ideas",
@@ -7402,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "extraRules",
           "normalized": "Exercise a-\u003e[Rule(Context a)]",
@@ -7417,6 +8049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "getRule",
           "package": "ideas",
@@ -7426,6 +8059,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "getRule",
           "normalized": "Exercise a-\u003eId-\u003eb(Rule(Context a))",
@@ -7441,6 +8075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "hasTermView",
           "package": "ideas",
@@ -7450,6 +8085,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "hasTermView",
           "normalized": "Exercise a-\u003eMaybe(View Term a)",
@@ -7465,6 +8101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "hasTypeable",
           "package": "ideas",
@@ -7474,6 +8111,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "hasTypeable",
           "normalized": "Exercise a-\u003eMaybe(IsTypeable a)",
@@ -7490,6 +8128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a value into an empty environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "inContext",
           "package": "ideas",
@@ -7500,6 +8139,7 @@
         "index": {
           "description": "Put value into an empty environment",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "inContext",
           "normalized": "Exercise a-\u003ea-\u003eContext a",
@@ -7516,6 +8156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exercise that is not public\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "isPrivate",
           "package": "ideas",
@@ -7526,6 +8167,7 @@
         "index": {
           "description": "An exercise that is not public",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "isPrivate",
           "normalized": "Exercise a-\u003eBool",
@@ -7542,6 +8184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exercise with the status \u003ccode\u003eStable\u003c/code\u003e or \u003ccode\u003eProvisional\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "isPublic",
           "package": "ideas",
@@ -7552,6 +8195,7 @@
         "index": {
           "description": "An exercise with the status Stable or Provisional",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "isPublic",
           "normalized": "Exercise a-\u003eBool",
@@ -7567,6 +8211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "isReady",
           "package": "ideas",
@@ -7576,6 +8221,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "isReady",
           "normalized": "Exercise a-\u003ea-\u003eBool",
@@ -7591,6 +8237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "isSuitable",
           "package": "ideas",
@@ -7600,6 +8247,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "isSuitable",
           "normalized": "Exercise a-\u003ea-\u003eBool",
@@ -7615,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "level",
           "package": "ideas",
@@ -7624,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "level",
           "normalized": "Difficulty-\u003e[a]-\u003eExamples a",
@@ -7638,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "makeContext",
           "package": "ideas",
@@ -7647,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "makeContext",
           "normalized": "Exercise a-\u003eEnvironment-\u003ea-\u003eContext a",
@@ -7662,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "makeExercise",
           "package": "ideas",
@@ -7671,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "makeExercise",
           "package": "ideas",
@@ -7684,6 +8338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "mapExamples",
           "package": "ideas",
@@ -7693,6 +8348,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "mapExamples",
           "normalized": "(a-\u003eb)-\u003eExamples a-\u003eExamples b",
@@ -7708,6 +8364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "navigation",
           "package": "ideas",
@@ -7717,6 +8374,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "navigation",
           "normalized": "Exercise a-\u003ea-\u003eContextNavigator a",
@@ -7731,6 +8389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "parser",
           "package": "ideas",
@@ -7740,6 +8399,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "parser",
           "normalized": "Exercise a-\u003eString-\u003eEither String a",
@@ -7754,6 +8414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "prettyPrinter",
           "package": "ideas",
@@ -7763,6 +8424,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "prettyPrinter",
           "normalized": "Exercise a-\u003ea-\u003eString",
@@ -7778,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "prettyPrinterContext",
           "package": "ideas",
@@ -7787,6 +8450,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "prettyPrinterContext",
           "normalized": "Exercise a-\u003eContext a-\u003eString",
@@ -7802,6 +8466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "printDerivation",
           "package": "ideas",
@@ -7811,6 +8476,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "printDerivation",
           "normalized": "Exercise a-\u003ea-\u003eIO()",
@@ -7826,6 +8492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "randomExercise",
           "package": "ideas",
@@ -7835,6 +8502,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "randomExercise",
           "normalized": "Exercise a-\u003eMaybe(StdGen-\u003eMaybe Difficulty-\u003ea)",
@@ -7850,6 +8518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "randomTerm",
           "package": "ideas",
@@ -7859,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "randomTerm",
           "normalized": "Exercise a-\u003eMaybe Difficulty-\u003eIO a",
@@ -7874,6 +8544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "randomTermWith",
           "package": "ideas",
@@ -7883,6 +8554,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "randomTermWith",
           "normalized": "StdGen-\u003eExercise a-\u003eMaybe Difficulty-\u003eMaybe a",
@@ -7898,6 +8570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "readDifficulty",
           "package": "ideas",
@@ -7907,6 +8580,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "readDifficulty",
           "normalized": "String-\u003eMaybe Difficulty",
@@ -7922,6 +8596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "ready",
           "package": "ideas",
@@ -7931,6 +8606,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "ready",
           "normalized": "Exercise a-\u003ePredicate a",
@@ -7945,6 +8621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "recognizeRule",
           "package": "ideas",
@@ -7954,6 +8631,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "recognizeRule",
           "normalized": "Exercise a-\u003eRule(Context a)-\u003eContext a-\u003eContext a-\u003e[(Location,Environment)]",
@@ -7969,6 +8647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "restrictGenerator",
           "package": "ideas",
@@ -7978,6 +8657,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "restrictGenerator",
           "normalized": "(a-\u003eBool)-\u003eGen a-\u003eGen a",
@@ -7993,6 +8673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "ruleOrdering",
           "package": "ideas",
@@ -8002,6 +8683,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "ruleOrdering",
           "normalized": "Exercise a-\u003eRule(Context a)-\u003eRule(Context a)-\u003eOrdering",
@@ -8017,6 +8699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "ruleOrderingWith",
           "package": "ideas",
@@ -8026,6 +8709,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "ruleOrderingWith",
           "normalized": "[Rule a]-\u003eRule a-\u003eRule a-\u003eOrdering",
@@ -8041,6 +8725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "ruleOrderingWithId",
           "package": "ideas",
@@ -8050,6 +8735,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "ruleOrderingWithId",
           "normalized": "[a]-\u003eRule b-\u003eRule b-\u003eOrdering",
@@ -8065,6 +8751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "ruleset",
           "package": "ideas",
@@ -8074,6 +8761,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "ruleset",
           "normalized": "Exercise a-\u003e[Rule(Context a)]",
@@ -8089,6 +8777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows a derivation for a given start term. The specified rule ordering\n is used for selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "showDerivation",
           "package": "ideas",
@@ -8099,6 +8788,7 @@
         "index": {
           "description": "Shows derivation for given start term The specified rule ordering is used for selection",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "showDerivation",
           "normalized": "Exercise a-\u003ea-\u003eString",
@@ -8114,6 +8804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "similarity",
           "package": "ideas",
@@ -8123,6 +8814,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "similarity",
           "normalized": "Exercise a-\u003eContext a-\u003eContext a-\u003eBool",
@@ -8138,6 +8830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalence on terms without a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "simpleEquivalence",
           "package": "ideas",
@@ -8148,6 +8841,7 @@
         "index": {
           "description": "Equivalence on terms without context",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "simpleEquivalence",
           "normalized": "Exercise a-\u003ea-\u003ea-\u003eBool",
@@ -8163,6 +8857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "simpleGenerator",
           "package": "ideas",
@@ -8172,6 +8867,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "simpleGenerator",
           "normalized": "Gen a-\u003eMaybe(StdGen-\u003eMaybe Difficulty-\u003ea)",
@@ -8188,6 +8884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilarity on terms without a context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "simpleSimilarity",
           "package": "ideas",
@@ -8198,6 +8895,7 @@
         "index": {
           "description": "Similarity on terms without context",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "simpleSimilarity",
           "normalized": "Exercise a-\u003ea-\u003ea-\u003eBool",
@@ -8213,6 +8911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "status",
           "package": "ideas",
@@ -8222,6 +8921,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "status",
           "normalized": "Exercise a-\u003eStatus",
@@ -8236,6 +8936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "strategy",
           "package": "ideas",
@@ -8245,6 +8946,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "strategy",
           "normalized": "Exercise a-\u003eLabeledStrategy(Context a)",
@@ -8259,6 +8961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "suitable",
           "package": "ideas",
@@ -8268,6 +8971,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "suitable",
           "normalized": "Exercise a-\u003ePredicate a",
@@ -8282,6 +8986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "testGenerator",
           "package": "ideas",
@@ -8291,6 +8996,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "testGenerator",
           "normalized": "Exercise a-\u003eMaybe(Gen a)",
@@ -8306,6 +9012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "useGenerator",
           "package": "ideas",
@@ -8315,6 +9022,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "useGenerator",
           "normalized": "(a-\u003eBool)-\u003e(Maybe Difficulty-\u003eGen a)-\u003eMaybe(StdGen-\u003eMaybe Difficulty-\u003ea)",
@@ -8330,6 +9038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "useTypeable",
           "package": "ideas",
@@ -8339,6 +9048,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "useTypeable",
           "package": "ideas",
@@ -8353,6 +9063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction for defining equivalence or similarity without taking\n the context into account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Exercise",
           "name": "withoutContext",
           "package": "ideas",
@@ -8363,6 +9074,7 @@
         "index": {
           "description": "Function for defining equivalence or similarity without taking the context into account",
           "hierarchy": "Ideas Common Exercise",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Exercise",
           "name": "withoutContext",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eContext a-\u003eContext a-\u003eBool",
@@ -8379,6 +9091,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIdentification of entities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "Id",
           "package": "ideas",
@@ -8388,6 +9101,7 @@
         "index": {
           "description": "Identification of entities",
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "Id",
           "package": "ideas",
@@ -8401,6 +9115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "HasId",
           "package": "ideas",
@@ -8409,6 +9124,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "HasId",
           "package": "ideas",
@@ -8422,6 +9138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "Id",
           "package": "ideas",
@@ -8430,6 +9147,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "Id",
           "package": "ideas",
@@ -8443,6 +9161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "Identify",
           "package": "ideas",
@@ -8451,6 +9170,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "Identify",
           "package": "ideas",
@@ -8464,6 +9184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "IsId",
           "package": "ideas",
@@ -8472,6 +9193,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "IsId",
           "package": "ideas",
@@ -8485,6 +9207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "(#)",
           "package": "ideas",
@@ -8494,6 +9217,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "(#) #",
           "normalized": "a-\u003eb-\u003eId",
@@ -8508,6 +9232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "(@\u003e)",
           "package": "ideas",
@@ -8517,6 +9242,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "(@\u003e) @\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -8531,6 +9257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "changeId",
           "package": "ideas",
@@ -8540,6 +9267,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "changeId",
           "normalized": "(Id-\u003eId)-\u003ea-\u003ea",
@@ -8555,6 +9283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "compareId",
           "package": "ideas",
@@ -8564,6 +9293,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "compareId",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -8579,6 +9309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "concatId",
           "package": "ideas",
@@ -8588,6 +9319,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "concatId",
           "normalized": "[a]-\u003eId",
@@ -8603,6 +9335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "describe",
           "package": "ideas",
@@ -8612,6 +9345,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "describe",
           "normalized": "String-\u003ea-\u003ea",
@@ -8626,6 +9360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "description",
           "package": "ideas",
@@ -8635,6 +9370,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "description",
           "normalized": "a-\u003eString",
@@ -8649,6 +9385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "getId",
           "package": "ideas",
@@ -8658,6 +9395,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "getId",
           "normalized": "a-\u003eId",
@@ -8673,6 +9411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "isEmptyId",
           "package": "ideas",
@@ -8682,6 +9421,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "isEmptyId",
           "normalized": "Id-\u003eBool",
@@ -8697,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "listQualify",
           "package": "ideas",
@@ -8706,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "listQualify",
           "normalized": "[a]-\u003eb-\u003eId",
@@ -8722,6 +9464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "mempty",
           "package": "ideas",
@@ -8731,6 +9474,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "mempty",
           "package": "ideas",
@@ -8743,6 +9487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "newId",
           "package": "ideas",
@@ -8752,6 +9497,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "newId",
           "normalized": "a-\u003eId",
@@ -8767,6 +9513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "qualification",
           "package": "ideas",
@@ -8776,6 +9523,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "qualification",
           "normalized": "a-\u003eString",
@@ -8790,6 +9538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "qualifiers",
           "package": "ideas",
@@ -8799,6 +9548,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "qualifiers",
           "normalized": "a-\u003e[String]",
@@ -8813,6 +9563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "sameId",
           "package": "ideas",
@@ -8822,6 +9573,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "sameId",
           "normalized": "a-\u003eb-\u003eBool",
@@ -8837,6 +9589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "showId",
           "package": "ideas",
@@ -8846,6 +9599,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "showId",
           "normalized": "a-\u003eString",
@@ -8861,6 +9615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Id",
           "name": "unqualified",
           "package": "ideas",
@@ -8870,6 +9625,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Id",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Id",
           "name": "unqualified",
           "normalized": "a-\u003eString",
@@ -8885,6 +9641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExports most from package Common\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Library",
           "name": "Library",
           "package": "ideas",
@@ -8894,6 +9651,7 @@
         "index": {
           "description": "Exports most from package Common",
           "hierarchy": "Ideas Common Library",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Library",
           "name": "Library",
           "package": "ideas",
@@ -8908,6 +9666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for strategy combinator \u003ccode\u003efail\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Library",
           "name": "failS",
           "package": "ideas",
@@ -8918,6 +9677,7 @@
         "index": {
           "description": "Alias for strategy combinator fail",
           "hierarchy": "Ideas Common Library",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Library",
           "name": "failS",
           "package": "ideas",
@@ -8931,6 +9691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for strategy combinator \u003ccode\u003enot\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Library",
           "name": "notS",
           "package": "ideas",
@@ -8941,6 +9702,7 @@
         "index": {
           "description": "Alias for strategy combinator not",
           "hierarchy": "Ideas Common Library",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Library",
           "name": "notS",
           "normalized": "a b-\u003eStrategy b",
@@ -8956,6 +9718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for strategy combinator \u003ccode\u003erepeat\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Library",
           "name": "repeatS",
           "package": "ideas",
@@ -8966,6 +9729,7 @@
         "index": {
           "description": "Alias for strategy combinator repeat",
           "hierarchy": "Ideas Common Library",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Library",
           "name": "repeatS",
           "normalized": "a b-\u003eStrategy b",
@@ -8981,6 +9745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for strategy combinator \u003ccode\u003ereplicate\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Library",
           "name": "replicateS",
           "package": "ideas",
@@ -8991,6 +9756,7 @@
         "index": {
           "description": "Alias for strategy combinator replicate",
           "hierarchy": "Ideas Common Library",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Library",
           "name": "replicateS",
           "normalized": "Int-\u003ea b-\u003eStrategy b",
@@ -9006,6 +9772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for strategy combinator \u003ccode\u003esequence\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Library",
           "name": "sequenceS",
           "package": "ideas",
@@ -9016,6 +9783,7 @@
         "index": {
           "description": "Alias for strategy combinator sequence",
           "hierarchy": "Ideas Common Library",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Library",
           "name": "sequenceS",
           "normalized": "[a b]-\u003eStrategy b",
@@ -9031,6 +9799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for strategy combinator \u003ccode\u003euntil\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Library",
           "name": "untilS",
           "package": "ideas",
@@ -9041,6 +9810,7 @@
         "index": {
           "description": "Alias for strategy combinator until",
           "hierarchy": "Ideas Common Library",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Library",
           "name": "untilS",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eStrategy a",
@@ -9056,6 +9826,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation for predicates\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "Predicate",
           "package": "ideas",
@@ -9065,6 +9836,7 @@
         "index": {
           "description": "Representation for predicates",
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "Predicate",
           "package": "ideas",
@@ -9078,6 +9850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "BoolValue",
           "package": "ideas",
@@ -9086,6 +9859,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "BoolValue",
           "package": "ideas",
@@ -9099,6 +9873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "Boolean",
           "package": "ideas",
@@ -9107,6 +9882,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "Boolean",
           "package": "ideas",
@@ -9120,6 +9896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "Predicate",
           "package": "ideas",
@@ -9128,6 +9905,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "Predicate",
           "package": "ideas",
@@ -9141,6 +9919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "(\u003c||\u003e)",
           "package": "ideas",
@@ -9150,6 +9929,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -9164,6 +9944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "(\u003c&&\u003e)",
           "package": "ideas",
@@ -9173,6 +9954,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "(\u003c&&\u003e) \u003c&&\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -9187,6 +9969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "complement",
           "package": "ideas",
@@ -9196,6 +9979,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "complement",
           "normalized": "a-\u003ea",
@@ -9210,6 +9994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "evalPredicate",
           "package": "ideas",
@@ -9219,6 +10004,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "evalPredicate",
           "normalized": "Predicate a-\u003ea-\u003eBool",
@@ -9234,6 +10020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "false",
           "package": "ideas",
@@ -9243,6 +10030,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "false",
           "package": "ideas",
@@ -9255,6 +10043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "fromBool",
           "package": "ideas",
@@ -9264,6 +10053,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "fromBool",
           "normalized": "Bool-\u003ea",
@@ -9279,6 +10069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "isFalse",
           "package": "ideas",
@@ -9288,6 +10079,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "isFalse",
           "normalized": "a-\u003eBool",
@@ -9303,6 +10095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "isTrue",
           "package": "ideas",
@@ -9312,6 +10105,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "isTrue",
           "normalized": "a-\u003eBool",
@@ -9327,6 +10121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "predicate",
           "package": "ideas",
@@ -9336,6 +10131,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "predicate",
           "normalized": "(a-\u003eBool)-\u003ePredicate a",
@@ -9350,6 +10146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "predicateView",
           "package": "ideas",
@@ -9359,6 +10156,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "predicateView",
           "normalized": "View a b-\u003ePredicate a",
@@ -9374,6 +10172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Predicate",
           "name": "true",
           "package": "ideas",
@@ -9383,6 +10182,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Predicate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Predicate",
           "name": "true",
           "package": "ideas",
@@ -9395,6 +10195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "AC",
           "package": "ideas",
@@ -9403,6 +10204,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "AC",
           "package": "ideas",
@@ -9416,6 +10218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "Pairings",
           "package": "ideas",
@@ -9424,6 +10227,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "Pairings",
           "package": "ideas",
@@ -9437,6 +10241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "PairingsList",
           "package": "ideas",
@@ -9445,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "PairingsList",
           "package": "ideas",
@@ -9458,6 +10264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "PairingsPair",
           "package": "ideas",
@@ -9466,6 +10273,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "PairingsPair",
           "package": "ideas",
@@ -9479,6 +10287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsA",
           "package": "ideas",
@@ -9488,6 +10297,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsA",
           "normalized": "Bool-\u003ePairingsList a b",
@@ -9502,6 +10312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsAC",
           "package": "ideas",
@@ -9511,6 +10322,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsAC",
           "normalized": "Bool-\u003ePairingsList a b",
@@ -9526,6 +10338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsC",
           "package": "ideas",
@@ -9535,6 +10348,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsC",
           "package": "ideas",
@@ -9547,6 +10361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsMatchA",
           "package": "ideas",
@@ -9556,6 +10371,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsMatchA",
           "normalized": "(a-\u003e[b]-\u003ec)-\u003e[a]-\u003e[b]-\u003e[[c]]",
@@ -9571,6 +10387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsNone",
           "package": "ideas",
@@ -9580,6 +10397,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting AC",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.AC",
           "name": "pairingsNone",
           "package": "ideas",
@@ -9593,6 +10411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "Confluence",
           "package": "ideas",
@@ -9601,6 +10420,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "Confluence",
           "package": "ideas",
@@ -9614,6 +10434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "Config",
           "package": "ideas",
@@ -9622,6 +10443,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "Config",
           "package": "ideas",
@@ -9635,6 +10457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "checkConfluence",
           "package": "ideas",
@@ -9644,6 +10467,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "checkConfluence",
           "normalized": "[RewriteRule a]-\u003eIO()",
@@ -9659,6 +10483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "checkConfluenceWith",
           "package": "ideas",
@@ -9668,6 +10493,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "checkConfluenceWith",
           "normalized": "Config-\u003e[RewriteRule a]-\u003eIO()",
@@ -9683,6 +10509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "complexity",
           "package": "ideas",
@@ -9692,6 +10519,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "complexity",
           "normalized": "Config-\u003eTerm-\u003eInt",
@@ -9706,6 +10534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "defaultConfig",
           "package": "ideas",
@@ -9715,6 +10544,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "defaultConfig",
           "package": "ideas",
@@ -9728,6 +10558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "isConfluent",
           "package": "ideas",
@@ -9737,6 +10568,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "isConfluent",
           "normalized": "[RewriteRule a]-\u003eBool",
@@ -9752,6 +10584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "showTerm",
           "package": "ideas",
@@ -9761,6 +10594,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "showTerm",
           "normalized": "Config-\u003eTerm-\u003eString",
@@ -9776,6 +10610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "somewhereM",
           "package": "ideas",
@@ -9785,6 +10620,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "somewhereM",
           "normalized": "(a-\u003e[a])-\u003ea-\u003e[a]",
@@ -9799,6 +10635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "termEquality",
           "package": "ideas",
@@ -9808,6 +10645,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Confluence",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Confluence",
           "name": "termEquality",
           "normalized": "Config-\u003eTerm-\u003eTerm-\u003eBool",
@@ -9824,6 +10662,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute the difference of two terms generically, taking associativity\n into account.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "Difference",
           "package": "ideas",
@@ -9833,6 +10672,7 @@
         "index": {
           "description": "Compute the difference of two terms generically taking associativity into account",
           "hierarchy": "Ideas Common Rewriting Difference",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "Difference",
           "package": "ideas",
@@ -9846,6 +10686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "difference",
           "package": "ideas",
@@ -9855,6 +10696,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Difference",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "difference",
           "normalized": "a-\u003ea-\u003eMaybe(a,a)",
@@ -9870,6 +10712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function returns the difference, except that the\n returned terms should be logically equivalent. Nothing can signal that\n there is no difference, or that the terms to start with are not equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "differenceEqual",
           "package": "ideas",
@@ -9880,6 +10723,7 @@
         "index": {
           "description": "This function returns the difference except that the returned terms should be logically equivalent Nothing can signal that there is no difference or that the terms to start with are not equivalent",
           "hierarchy": "Ideas Common Rewriting Difference",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "differenceEqual",
           "normalized": "(a-\u003ea-\u003eBool)-\u003ea-\u003ea-\u003eMaybe(a,a)",
@@ -9895,6 +10739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "differenceEqualWith",
           "package": "ideas",
@@ -9904,6 +10749,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Difference",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "differenceEqualWith",
           "normalized": "View Term a-\u003e(a-\u003ea-\u003eBool)-\u003ea-\u003ea-\u003eMaybe(a,a)",
@@ -9919,6 +10765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "differenceWith",
           "package": "ideas",
@@ -9928,6 +10775,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Difference",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Difference",
           "name": "differenceWith",
           "normalized": "View Term a-\u003ea-\u003ea-\u003eMaybe(a,a)",
@@ -9943,6 +10791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "RewriteRule",
           "package": "ideas",
@@ -9951,6 +10800,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "RewriteRule",
           "package": "ideas",
@@ -9964,6 +10814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "Different",
           "package": "ideas",
@@ -9972,6 +10823,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "Different",
           "package": "ideas",
@@ -9985,6 +10837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "RewriteRule",
           "package": "ideas",
@@ -9993,6 +10846,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "RewriteRule",
           "package": "ideas",
@@ -10006,6 +10860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "RuleBuilder",
           "package": "ideas",
@@ -10014,6 +10869,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "RuleBuilder",
           "package": "ideas",
@@ -10027,6 +10883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "RuleSpec",
           "package": "ideas",
@@ -10035,6 +10892,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "RuleSpec",
           "package": "ideas",
@@ -10048,6 +10906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": ":~\u003e",
           "package": "ideas",
@@ -10057,6 +10916,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": ":~\u003e",
           "package": "ideas",
@@ -10069,6 +10929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "buildRuleSpec",
           "package": "ideas",
@@ -10078,6 +10939,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "buildRuleSpec",
           "normalized": "Int-\u003ea-\u003eRuleSpec Term",
@@ -10093,6 +10955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "different",
           "package": "ideas",
@@ -10102,6 +10965,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "different",
           "normalized": "(a,a)",
@@ -10116,6 +10980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "makeRewriteRule",
           "package": "ideas",
@@ -10125,6 +10990,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "makeRewriteRule",
           "normalized": "a-\u003eb-\u003eRewriteRule c",
@@ -10140,6 +11006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "metaInRewriteRule",
           "package": "ideas",
@@ -10149,6 +11016,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "metaInRewriteRule",
           "normalized": "RewriteRule a-\u003e[Int]",
@@ -10164,6 +11032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "renumberRewriteRule",
           "package": "ideas",
@@ -10173,6 +11042,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "renumberRewriteRule",
           "normalized": "Int-\u003eRewriteRule a-\u003eRewriteRule a",
@@ -10188,6 +11058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "ruleSpecTerm",
           "package": "ideas",
@@ -10197,6 +11068,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "ruleSpecTerm",
           "normalized": "RewriteRule a-\u003eRuleSpec Term",
@@ -10212,6 +11084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "showRewriteRule",
           "package": "ideas",
@@ -10221,6 +11094,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "showRewriteRule",
           "normalized": "Bool-\u003eRewriteRule a-\u003eMaybe String",
@@ -10236,6 +11110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "symbolBuilder",
           "package": "ideas",
@@ -10245,6 +11120,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "symbolBuilder",
           "normalized": "Symbol-\u003e([Term]-\u003eTerm)-\u003eRewriteRule a-\u003eRewriteRule a",
@@ -10260,6 +11136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "symbolMatcher",
           "package": "ideas",
@@ -10269,6 +11146,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting RewriteRule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.RewriteRule",
           "name": "symbolMatcher",
           "normalized": "Symbol-\u003eSymbolMatch-\u003eRewriteRule a-\u003eRewriteRule a",
@@ -10285,6 +11163,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSubstitutions on terms. Substitutions are idempotent, and non-cyclic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "Substitution",
           "package": "ideas",
@@ -10294,6 +11173,7 @@
         "index": {
           "description": "Substitutions on terms Substitutions are idempotent and non-cyclic",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "Substitution",
           "package": "ideas",
@@ -10308,6 +11188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for substitutions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "Substitution",
           "package": "ideas",
@@ -10317,6 +11198,7 @@
         "index": {
           "description": "Abstract data type for substitutions",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "Substitution",
           "package": "ideas",
@@ -10331,6 +11213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "(|-\u003e)",
           "package": "ideas",
@@ -10341,6 +11224,7 @@
         "index": {
           "description": "Apply the substitution",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "(|-\u003e) |-\u003e",
           "normalized": "Substitution-\u003eTerm-\u003eTerm",
@@ -10355,6 +11239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "(@+@)",
           "package": "ideas",
@@ -10364,6 +11249,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "(@+@) @+@",
           "normalized": "Substitution-\u003eSubstitution-\u003eMaybe Substitution",
@@ -10379,6 +11265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines two substitutions. The left-hand side substitution is first applied to\n the co-domain of the right-hand side substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "(@@)",
           "package": "ideas",
@@ -10389,6 +11276,7 @@
         "index": {
           "description": "Combines two substitutions The left-hand side substitution is first applied to the co-domain of the right-hand side substitution",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "(@@) @@",
           "normalized": "Substitution-\u003eSubstitution-\u003eSubstitution",
@@ -10403,6 +11291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "composable",
           "package": "ideas",
@@ -10412,6 +11301,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "composable",
           "normalized": "Substitution-\u003eSubstitution-\u003eBool",
@@ -10427,6 +11317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the domain of a substitution (as a set)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "dom",
           "package": "ideas",
@@ -10437,6 +11328,7 @@
         "index": {
           "description": "Returns the domain of substitution as set",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "dom",
           "normalized": "Substitution-\u003eIntSet",
@@ -10452,6 +11344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the empty substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "emptySubst",
           "package": "ideas",
@@ -10462,6 +11355,7 @@
         "index": {
           "description": "Returns the empty substitution",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "emptySubst",
           "package": "ideas",
@@ -10476,6 +11370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a list into a substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "listToSubst",
           "package": "ideas",
@@ -10486,6 +11381,7 @@
         "index": {
           "description": "Turns list into substitution",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "listToSubst",
           "normalized": "[(Int,Term)]-\u003eSubstitution",
@@ -10502,6 +11398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookups a variable in a substitution. Nothing indicates that the variable is\n not in the domain of the substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "lookupVar",
           "package": "ideas",
@@ -10512,6 +11409,7 @@
         "index": {
           "description": "Lookups variable in substitution Nothing indicates that the variable is not in the domain of the substitution",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "lookupVar",
           "normalized": "Int-\u003eSubstitution-\u003eMaybe Term",
@@ -10528,6 +11426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a singleton substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "singletonSubst",
           "package": "ideas",
@@ -10538,6 +11437,7 @@
         "index": {
           "description": "Returns singleton substitution",
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "singletonSubst",
           "normalized": "Int-\u003eTerm-\u003eSubstitution",
@@ -10553,6 +11453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "tests",
           "package": "ideas",
@@ -10562,6 +11463,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Substitution",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Substitution",
           "name": "tests",
           "package": "ideas",
@@ -10575,6 +11477,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple data type for term rewriting\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "Term",
           "package": "ideas",
@@ -10584,6 +11487,7 @@
         "index": {
           "description": "simple data type for term rewriting",
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "Term",
           "package": "ideas",
@@ -10597,6 +11501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "IsTerm",
           "package": "ideas",
@@ -10605,6 +11510,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "IsTerm",
           "package": "ideas",
@@ -10618,6 +11524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "Symbol",
           "package": "ideas",
@@ -10626,6 +11533,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "Symbol",
           "package": "ideas",
@@ -10639,6 +11547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "Term",
           "package": "ideas",
@@ -10647,6 +11556,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "Term",
           "package": "ideas",
@@ -10660,6 +11570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "WithFunctions",
           "package": "ideas",
@@ -10668,6 +11579,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "WithFunctions",
           "package": "ideas",
@@ -10681,6 +11593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "WithMetaVars",
           "package": "ideas",
@@ -10689,6 +11602,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "WithMetaVars",
           "package": "ideas",
@@ -10702,6 +11616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "WithVars",
           "package": "ideas",
@@ -10710,6 +11625,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "WithVars",
           "package": "ideas",
@@ -10723,6 +11639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TCon",
           "package": "ideas",
@@ -10732,6 +11649,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TCon",
           "normalized": "TCon Symbol[Term]",
@@ -10747,6 +11665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TFloat",
           "package": "ideas",
@@ -10756,6 +11675,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TFloat",
           "package": "ideas",
@@ -10769,6 +11689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TList",
           "package": "ideas",
@@ -10778,6 +11699,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TList",
           "normalized": "TList[Term]",
@@ -10793,6 +11715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TMeta",
           "package": "ideas",
@@ -10802,6 +11725,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TMeta",
           "package": "ideas",
@@ -10815,6 +11739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TNum",
           "package": "ideas",
@@ -10824,6 +11749,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TNum",
           "package": "ideas",
@@ -10837,6 +11763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TVar",
           "package": "ideas",
@@ -10846,6 +11773,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "TVar",
           "package": "ideas",
@@ -10859,6 +11787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "binary",
           "package": "ideas",
@@ -10868,6 +11797,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "binary",
           "normalized": "Symbol-\u003ea-\u003ea-\u003ea",
@@ -10882,6 +11812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "fromTerm",
           "package": "ideas",
@@ -10891,6 +11822,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "fromTerm",
           "normalized": "Term-\u003ea b",
@@ -10906,6 +11838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "fromTermM",
           "package": "ideas",
@@ -10915,6 +11848,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "fromTermM",
           "normalized": "Term-\u003ea b",
@@ -10930,6 +11864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "fromTermWith",
           "package": "ideas",
@@ -10939,6 +11874,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "fromTermWith",
           "normalized": "(Symbol-\u003e[a]-\u003eb a)-\u003eTerm-\u003eb a",
@@ -10954,6 +11890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "function",
           "package": "ideas",
@@ -10963,6 +11900,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "function",
           "normalized": "Symbol-\u003e[a]-\u003ea",
@@ -10977,6 +11915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "getFunction",
           "package": "ideas",
@@ -10986,6 +11925,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "getFunction",
           "normalized": "a-\u003eb(Symbol,[a])",
@@ -11001,6 +11941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "getMetaVar",
           "package": "ideas",
@@ -11010,6 +11951,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "getMetaVar",
           "normalized": "a-\u003eb Int",
@@ -11025,6 +11967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "getSymbol",
           "package": "ideas",
@@ -11034,6 +11977,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "getSymbol",
           "normalized": "a-\u003eb Symbol",
@@ -11049,6 +11993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "getVariable",
           "package": "ideas",
@@ -11058,6 +12003,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "getVariable",
           "normalized": "a-\u003eb String",
@@ -11073,6 +12019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "hasMetaVar",
           "package": "ideas",
@@ -11082,6 +12029,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "hasMetaVar",
           "normalized": "Int-\u003ea-\u003eBool",
@@ -11097,6 +12045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "hasNoVar",
           "package": "ideas",
@@ -11106,6 +12055,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "hasNoVar",
           "normalized": "a-\u003eBool",
@@ -11121,6 +12071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "hasSomeVar",
           "package": "ideas",
@@ -11130,6 +12081,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "hasSomeVar",
           "normalized": "a-\u003eBool",
@@ -11145,6 +12097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "hasVar",
           "package": "ideas",
@@ -11154,6 +12107,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "hasVar",
           "normalized": "String-\u003ea-\u003eBool",
@@ -11169,6 +12123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isAssociative",
           "package": "ideas",
@@ -11178,6 +12133,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isAssociative",
           "normalized": "Symbol-\u003eBool",
@@ -11193,6 +12149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isBinary",
           "package": "ideas",
@@ -11202,6 +12159,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isBinary",
           "normalized": "Symbol-\u003ea-\u003eb(a,a)",
@@ -11217,6 +12175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isFunction",
           "package": "ideas",
@@ -11226,6 +12185,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isFunction",
           "normalized": "Symbol-\u003ea-\u003eb[a]",
@@ -11241,6 +12201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isMetaVar",
           "package": "ideas",
@@ -11250,6 +12211,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isMetaVar",
           "normalized": "a-\u003eBool",
@@ -11265,6 +12227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isSymbol",
           "package": "ideas",
@@ -11274,6 +12237,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isSymbol",
           "normalized": "Symbol-\u003ea-\u003eBool",
@@ -11289,6 +12253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isUnary",
           "package": "ideas",
@@ -11298,6 +12263,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isUnary",
           "normalized": "Symbol-\u003ea-\u003eb a",
@@ -11313,6 +12279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isVariable",
           "package": "ideas",
@@ -11322,6 +12289,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "isVariable",
           "normalized": "a-\u003eBool",
@@ -11337,6 +12305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "makeAssociative",
           "package": "ideas",
@@ -11346,6 +12315,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "makeAssociative",
           "normalized": "Symbol-\u003eSymbol",
@@ -11361,6 +12331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "metaVar",
           "package": "ideas",
@@ -11370,6 +12341,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "metaVar",
           "normalized": "Int-\u003ea",
@@ -11385,6 +12357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "metaVarSet",
           "package": "ideas",
@@ -11394,6 +12367,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "metaVarSet",
           "normalized": "a-\u003eIntSet",
@@ -11409,6 +12383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "metaVars",
           "package": "ideas",
@@ -11418,6 +12393,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "metaVars",
           "normalized": "a-\u003e[Int]",
@@ -11433,6 +12409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "newSymbol",
           "package": "ideas",
@@ -11442,6 +12419,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "newSymbol",
           "normalized": "a-\u003eSymbol",
@@ -11457,6 +12435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "nextMetaVar",
           "package": "ideas",
@@ -11466,6 +12445,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "nextMetaVar",
           "normalized": "a-\u003eInt",
@@ -11481,6 +12461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "symbol",
           "package": "ideas",
@@ -11490,6 +12471,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "symbol",
           "normalized": "Symbol-\u003ea",
@@ -11504,6 +12486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "termView",
           "package": "ideas",
@@ -11513,6 +12496,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "termView",
           "package": "ideas",
@@ -11526,6 +12510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "toTerm",
           "package": "ideas",
@@ -11535,6 +12520,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "toTerm",
           "normalized": "a-\u003eTerm",
@@ -11550,6 +12536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "unary",
           "package": "ideas",
@@ -11559,6 +12546,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "unary",
           "normalized": "Symbol-\u003ea-\u003ea",
@@ -11573,6 +12561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "varSet",
           "package": "ideas",
@@ -11582,6 +12571,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "varSet",
           "normalized": "a-\u003eSet String",
@@ -11597,6 +12587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "variable",
           "package": "ideas",
@@ -11606,6 +12597,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "variable",
           "normalized": "String-\u003ea",
@@ -11620,6 +12612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "variableView",
           "package": "ideas",
@@ -11629,6 +12622,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "variableView",
           "package": "ideas",
@@ -11642,6 +12636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "vars",
           "package": "ideas",
@@ -11651,6 +12646,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "vars",
           "normalized": "a-\u003e[String]",
@@ -11665,6 +12661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "withoutVar",
           "package": "ideas",
@@ -11674,6 +12671,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Term",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Term",
           "name": "withoutVar",
           "normalized": "String-\u003ea-\u003eBool",
@@ -11689,6 +12687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "Unification",
           "package": "ideas",
@@ -11697,6 +12696,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Unification",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "Unification",
           "package": "ideas",
@@ -11710,6 +12710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "Match",
           "package": "ideas",
@@ -11718,6 +12719,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Unification",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "Match",
           "package": "ideas",
@@ -11731,6 +12733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "SymbolMatch",
           "package": "ideas",
@@ -11739,6 +12742,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Unification",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "SymbolMatch",
           "package": "ideas",
@@ -11752,6 +12756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "match",
           "package": "ideas",
@@ -11761,6 +12766,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Unification",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "match",
           "normalized": "Term-\u003eTerm-\u003ea Substitution",
@@ -11775,6 +12781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "matchExtended",
           "package": "ideas",
@@ -11784,6 +12791,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Unification",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "matchExtended",
           "normalized": "Map Symbol SymbolMatch-\u003eTerm-\u003eTerm-\u003e[(Substitution,Maybe Term,Maybe Term)]",
@@ -11799,6 +12807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "matchList",
           "package": "ideas",
@@ -11808,6 +12817,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Unification",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "matchList",
           "normalized": "Match Term-\u003eMatch[Term]",
@@ -11823,6 +12833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "unificationTests",
           "package": "ideas",
@@ -11832,6 +12843,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Unification",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "unificationTests",
           "package": "ideas",
@@ -11845,6 +12857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "unify",
           "package": "ideas",
@@ -11854,6 +12867,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting Unification",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting.Unification",
           "name": "unify",
           "normalized": "Term-\u003eTerm-\u003eMaybe Substitution",
@@ -11868,6 +12882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rewriting",
           "name": "Rewriting",
           "package": "ideas",
@@ -11876,6 +12891,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rewriting",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rewriting",
           "name": "Rewriting",
           "package": "ideas",
@@ -11890,6 +12906,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA rule is just a transformation with some meta-information, such as a name\n (which should be unique) and properties such as \u003ca\u003ebuggy\u003c/a\u003e or \u003ca\u003eminor\u003c/a\u003e. Rules\n can be lifted with a view using the LiftView type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "Abstract",
           "package": "ideas",
@@ -11899,6 +12916,7 @@
         "index": {
           "description": "rule is just transformation with some meta-information such as name which should be unique and properties such as buggy or minor Rules can be lifted with view using the LiftView type class",
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "Abstract",
           "package": "ideas",
@@ -11913,6 +12931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for representing rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "Rule",
           "package": "ideas",
@@ -11922,6 +12941,7 @@
         "index": {
           "description": "Abstract data type for representing rules",
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "Rule",
           "package": "ideas",
@@ -11935,6 +12955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "addRecognizer",
           "package": "ideas",
@@ -11944,6 +12965,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "addRecognizer",
           "normalized": "Recognizer a-\u003eRule a-\u003eRule a",
@@ -11959,6 +12981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "addRecognizerBool",
           "package": "ideas",
@@ -11968,6 +12991,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "addRecognizerBool",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eRule a-\u003eRule a",
@@ -11983,6 +13007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "addRecognizerEnvMonad",
           "package": "ideas",
@@ -11992,6 +13017,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "addRecognizerEnvMonad",
           "normalized": "(a-\u003ea-\u003eEnvMonad())-\u003eRule a-\u003eRule a",
@@ -12007,6 +13033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "addTransRecognizer",
           "package": "ideas",
@@ -12016,6 +13043,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "addTransRecognizer",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eRule a-\u003eRule a",
@@ -12031,6 +13059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "buggyRule",
           "package": "ideas",
@@ -12040,6 +13069,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "buggyRule",
           "normalized": "a-\u003e(b-\u003ec b)-\u003eRule b",
@@ -12055,6 +13085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "checkReferences",
           "package": "ideas",
@@ -12064,6 +13095,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "checkReferences",
           "normalized": "Rule a-\u003eEnvironment-\u003eMaybe String",
@@ -12080,6 +13112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special (minor) rule that checks a predicate (and returns the identity\n if the predicate holds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "checkRule",
           "package": "ideas",
@@ -12090,6 +13123,7 @@
         "index": {
           "description": "special minor rule that checks predicate and returns the identity if the predicate holds",
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "checkRule",
           "normalized": "a-\u003e(b-\u003eBool)-\u003eRule b",
@@ -12106,6 +13140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the function after the rule has been fired\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "doAfter",
           "package": "ideas",
@@ -12116,6 +13151,7 @@
         "index": {
           "description": "Perform the function after the rule has been fired",
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "doAfter",
           "normalized": "(a-\u003ea)-\u003eRule a-\u003eRule a",
@@ -12132,6 +13168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special (minor) rule that is never applicable (i.e., this rule always fails)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "emptyRule",
           "package": "ideas",
@@ -12142,6 +13179,7 @@
         "index": {
           "description": "special minor rule that is never applicable i.e this rule always fails",
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "emptyRule",
           "normalized": "a-\u003eRule b",
@@ -12158,6 +13196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special (minor) rule that always returns the identity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "idRule",
           "package": "ideas",
@@ -12168,6 +13207,7 @@
         "index": {
           "description": "special minor rule that always returns the identity",
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "idRule",
           "normalized": "a-\u003eRule b",
@@ -12183,6 +13223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "isRecognizer",
           "package": "ideas",
@@ -12192,6 +13233,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "isRecognizer",
           "normalized": "Rule a-\u003eBool",
@@ -12207,6 +13249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "isRewriteRule",
           "package": "ideas",
@@ -12216,6 +13259,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "isRewriteRule",
           "normalized": "Rule a-\u003eBool",
@@ -12231,6 +13275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "makeRule",
           "package": "ideas",
@@ -12240,6 +13285,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "makeRule",
           "normalized": "a-\u003e(b-\u003ec b)-\u003eRule b",
@@ -12255,6 +13301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "minorRule",
           "package": "ideas",
@@ -12264,6 +13311,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "minorRule",
           "normalized": "a-\u003e(b-\u003ec b)-\u003eRule b",
@@ -12279,6 +13327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "recognizer",
           "package": "ideas",
@@ -12288,6 +13337,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "recognizer",
           "normalized": "a b-\u003eRecognizer b",
@@ -12302,6 +13352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "rewriteRule",
           "package": "ideas",
@@ -12311,6 +13362,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "rewriteRule",
           "normalized": "a-\u003eb-\u003eRule c",
@@ -12326,6 +13378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "rewriteRules",
           "package": "ideas",
@@ -12335,6 +13388,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "rewriteRules",
           "normalized": "a-\u003e[b]-\u003eRule c",
@@ -12350,6 +13404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleList",
           "package": "ideas",
@@ -12359,6 +13414,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleList",
           "normalized": "a-\u003e(b-\u003e[b])-\u003eRule b",
@@ -12374,6 +13430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleMaybe",
           "package": "ideas",
@@ -12383,6 +13440,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleMaybe",
           "normalized": "a-\u003e(b-\u003eMaybe b)-\u003eRule b",
@@ -12398,6 +13456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleRewrite",
           "package": "ideas",
@@ -12407,6 +13466,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleRewrite",
           "normalized": "RewriteRule a-\u003eRule a",
@@ -12422,6 +13482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleSiblings",
           "package": "ideas",
@@ -12431,6 +13492,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleSiblings",
           "normalized": "Rule a-\u003e[Id]",
@@ -12446,6 +13508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleTrans",
           "package": "ideas",
@@ -12455,6 +13518,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "ruleTrans",
           "normalized": "a-\u003eTransformation b-\u003eRule b",
@@ -12470,6 +13534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "siblingOf",
           "package": "ideas",
@@ -12479,6 +13544,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "siblingOf",
           "normalized": "a-\u003eRule b-\u003eRule b",
@@ -12494,6 +13560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "transformation",
           "package": "ideas",
@@ -12503,6 +13570,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Abstract",
           "name": "transformation",
           "normalized": "Rule a-\u003eTransformation a",
@@ -12518,6 +13586,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eState monad for environments\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "EnvironmentMonad",
           "package": "ideas",
@@ -12527,6 +13596,7 @@
         "index": {
           "description": "State monad for environments",
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "EnvironmentMonad",
           "package": "ideas",
@@ -12540,6 +13610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "EnvMonad",
           "package": "ideas",
@@ -12548,6 +13619,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "EnvMonad",
           "package": "ideas",
@@ -12561,6 +13633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": ":~",
           "package": "ideas",
@@ -12570,6 +13643,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": ":~",
           "normalized": "Ref a-\u003e(a-\u003ea)-\u003eEnvMonad()",
@@ -12584,6 +13658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": ":=",
           "package": "ideas",
@@ -12593,6 +13668,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": ":=",
           "normalized": "Ref a-\u003ea-\u003eEnvMonad()",
@@ -12607,6 +13683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": ":?",
           "package": "ideas",
@@ -12616,6 +13693,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": ":?",
           "normalized": "Ref a-\u003ea-\u003eEnvMonad a",
@@ -12630,6 +13708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "envMonadFunctionRefs",
           "package": "ideas",
@@ -12639,6 +13718,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "envMonadFunctionRefs",
           "normalized": "(a-\u003eEnvMonad b)-\u003e[Some Ref]",
@@ -12654,6 +13734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "envMonadRefs",
           "package": "ideas",
@@ -12663,6 +13744,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "envMonadRefs",
           "normalized": "EnvMonad a-\u003e[Some Ref]",
@@ -12678,6 +13760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "evalEnvMonad",
           "package": "ideas",
@@ -12687,6 +13770,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "evalEnvMonad",
           "normalized": "EnvMonad a-\u003eEnvironment-\u003e[a]",
@@ -12702,6 +13786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "execEnvMonad",
           "package": "ideas",
@@ -12711,6 +13796,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "execEnvMonad",
           "normalized": "EnvMonad a-\u003eEnvironment-\u003e[Environment]",
@@ -12726,6 +13812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "getRef",
           "package": "ideas",
@@ -12735,6 +13822,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "getRef",
           "normalized": "Ref a-\u003eEnvMonad a",
@@ -12750,6 +13838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "runEnvMonad",
           "package": "ideas",
@@ -12759,6 +13848,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "runEnvMonad",
           "normalized": "EnvMonad a-\u003eEnvironment-\u003e[(a,Environment)]",
@@ -12774,6 +13864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "updateRefs",
           "package": "ideas",
@@ -12783,6 +13874,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule EnvironmentMonad",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.EnvironmentMonad",
           "name": "updateRefs",
           "normalized": "[EnvMonad a]-\u003eEnvironment-\u003eb Environment",
@@ -12799,6 +13891,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines transformations. Given a term, a transformation returns\n a list of results (often a singleton list or the empty list). A\n transformation can be parameterized with one or more Bindables.\n Transformations rules can be lifted to work on more complex domains with\n the LiftView type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "Parameter",
           "package": "ideas",
@@ -12808,6 +13901,7 @@
         "index": {
           "description": "This module defines transformations Given term transformation returns list of results often singleton list or the empty list transformation can be parameterized with one or more Bindables Transformations rules can be lifted to work on more complex domains with the LiftView type class",
           "hierarchy": "Ideas Common Rule Parameter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "Parameter",
           "package": "ideas",
@@ -12821,6 +13915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "ParamTrans",
           "package": "ideas",
@@ -12829,6 +13924,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Parameter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "ParamTrans",
           "package": "ideas",
@@ -12842,6 +13938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "parameter1",
           "package": "ideas",
@@ -12851,6 +13948,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Parameter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "parameter1",
           "normalized": "a-\u003e(b-\u003eTransformation c)-\u003eParamTrans b c",
@@ -12865,6 +13963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "parameter2",
           "package": "ideas",
@@ -12874,6 +13973,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Parameter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "parameter2",
           "normalized": "a-\u003ea-\u003e(b-\u003ec-\u003eTransformation d)-\u003eParamTrans(b,c)d",
@@ -12888,6 +13988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "parameter3",
           "package": "ideas",
@@ -12897,6 +13998,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Parameter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "parameter3",
           "normalized": "a-\u003ea-\u003ea-\u003e(b-\u003ec-\u003ed-\u003eTransformation e)-\u003eParamTrans(b,c,d)e",
@@ -12911,6 +14013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "supplyContextParameters",
           "package": "ideas",
@@ -12920,6 +14023,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Parameter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "supplyContextParameters",
           "normalized": "ParamTrans a b-\u003e(b-\u003eEnvMonad a)-\u003eTransformation(Context b)",
@@ -12935,6 +14039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "supplyParameters",
           "package": "ideas",
@@ -12944,6 +14049,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Parameter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Parameter",
           "name": "supplyParameters",
           "normalized": "ParamTrans a b-\u003e(b-\u003eMaybe a)-\u003eTransformation b",
@@ -12959,6 +14065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "Recognizer",
           "package": "ideas",
@@ -12967,6 +14074,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "Recognizer",
           "package": "ideas",
@@ -12980,6 +14088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "Recognizable",
           "package": "ideas",
@@ -12988,6 +14097,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "Recognizable",
           "package": "ideas",
@@ -13001,6 +14111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "Recognizer",
           "package": "ideas",
@@ -13009,6 +14120,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "Recognizer",
           "package": "ideas",
@@ -13022,6 +14134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "makeRecognizer",
           "package": "ideas",
@@ -13031,6 +14144,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "makeRecognizer",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eRecognizer a",
@@ -13046,6 +14160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "makeRecognizerEnvMonad",
           "package": "ideas",
@@ -13055,6 +14170,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "makeRecognizerEnvMonad",
           "normalized": "(a-\u003ea-\u003eEnvMonad())-\u003eRecognizer a",
@@ -13070,6 +14186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "makeRecognizerTrans",
           "package": "ideas",
@@ -13079,6 +14196,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "makeRecognizerTrans",
           "normalized": "Trans(a,a)()-\u003eRecognizer a",
@@ -13094,6 +14212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "recognize",
           "package": "ideas",
@@ -13103,6 +14222,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "recognize",
           "normalized": "a b-\u003eb-\u003eb-\u003eMaybe Environment",
@@ -13117,6 +14237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "recognizeAll",
           "package": "ideas",
@@ -13126,6 +14247,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "recognizeAll",
           "normalized": "a b-\u003eb-\u003eb-\u003e[Environment]",
@@ -13141,6 +14263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "recognizeTrans",
           "package": "ideas",
@@ -13150,6 +14273,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "recognizeTrans",
           "normalized": "a b-\u003eTrans(b,b)()",
@@ -13165,6 +14289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "recognizer",
           "package": "ideas",
@@ -13174,6 +14299,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Recognizer",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Recognizer",
           "name": "recognizer",
           "normalized": "a b-\u003eRecognizer b",
@@ -13189,6 +14315,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines transformations. Given a term, a transformation returns\n a list of results (often a singleton list or the empty list).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "Transformation",
           "package": "ideas",
@@ -13198,6 +14325,7 @@
         "index": {
           "description": "This module defines transformations Given term transformation returns list of results often singleton list or the empty list",
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "Transformation",
           "package": "ideas",
@@ -13212,6 +14340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for constructing a transformation. If possible, \u003ccode\u003emakeTrans\u003c/code\u003e\n should be used. Use specialized constructor functions for disambiguation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "MakeTrans",
           "package": "ideas",
@@ -13221,6 +14350,7 @@
         "index": {
           "description": "type class for constructing transformation If possible makeTrans should be used Use specialized constructor functions for disambiguation",
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "MakeTrans",
           "package": "ideas",
@@ -13234,6 +14364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "Trans",
           "package": "ideas",
@@ -13242,6 +14373,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "Trans",
           "package": "ideas",
@@ -13255,6 +14387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "Transformation",
           "package": "ideas",
@@ -13263,6 +14396,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "Transformation",
           "package": "ideas",
@@ -13276,6 +14410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "getRewriteRules",
           "package": "ideas",
@@ -13285,6 +14420,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "getRewriteRules",
           "normalized": "Trans a b-\u003e[Some RewriteRule]",
@@ -13300,6 +14436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "isZeroTrans",
           "package": "ideas",
@@ -13309,6 +14446,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "isZeroTrans",
           "normalized": "Trans a b-\u003eBool",
@@ -13324,6 +14462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "makeTrans",
           "package": "ideas",
@@ -13333,6 +14472,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "makeTrans",
           "normalized": "(a-\u003eb c)-\u003eTrans a c",
@@ -13349,6 +14489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverloaded variant of \u003ccode\u003etransLiftContext\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "makeTransLiftContext",
           "package": "ideas",
@@ -13359,6 +14500,7 @@
         "index": {
           "description": "Overloaded variant of transLiftContext",
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "makeTransLiftContext",
           "normalized": "(a-\u003eb a)-\u003eTransformation(Context a)",
@@ -13375,6 +14517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverloaded variant of \u003ccode\u003etransLiftContext\u003c/code\u003e; ignores result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "makeTransLiftContext_",
           "package": "ideas",
@@ -13385,6 +14528,7 @@
         "index": {
           "description": "Overloaded variant of transLiftContext ignores result",
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "makeTransLiftContext_",
           "normalized": "(a-\u003eb())-\u003eTransformation(Context a)",
@@ -13400,6 +14544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transApply",
           "package": "ideas",
@@ -13409,6 +14554,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transApply",
           "normalized": "Trans a b-\u003ea-\u003e[(b,Environment)]",
@@ -13424,6 +14570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transApplyWith",
           "package": "ideas",
@@ -13433,6 +14580,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transApplyWith",
           "normalized": "Environment-\u003eTrans a b-\u003ea-\u003e[(b,Environment)]",
@@ -13448,6 +14596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transEnvMonad",
           "package": "ideas",
@@ -13457,6 +14606,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transEnvMonad",
           "normalized": "(a-\u003eEnvMonad b)-\u003eTrans a b",
@@ -13472,6 +14622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transLiftContext",
           "package": "ideas",
@@ -13481,6 +14632,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transLiftContext",
           "normalized": "Transformation a-\u003eTransformation(Context a)",
@@ -13496,6 +14648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transLiftContextIn",
           "package": "ideas",
@@ -13505,6 +14658,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transLiftContextIn",
           "normalized": "Transformation(a,Environment)-\u003eTransformation(Context a)",
@@ -13520,6 +14674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transLiftView",
           "package": "ideas",
@@ -13529,6 +14684,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transLiftView",
           "normalized": "View a b-\u003eTransformation b-\u003eTransformation a",
@@ -13544,6 +14700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transLiftViewIn",
           "package": "ideas",
@@ -13553,6 +14710,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transLiftViewIn",
           "normalized": "View a(b,c)-\u003eTransformation b-\u003eTransformation a",
@@ -13568,6 +14726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transList",
           "package": "ideas",
@@ -13577,6 +14736,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transList",
           "normalized": "(a-\u003e[b])-\u003eTrans a b",
@@ -13592,6 +14752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transMaybe",
           "package": "ideas",
@@ -13601,6 +14762,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eTrans a b",
@@ -13616,6 +14778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transPure",
           "package": "ideas",
@@ -13625,6 +14788,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transPure",
           "normalized": "(a-\u003eb)-\u003eTrans a b",
@@ -13640,6 +14804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transRef",
           "package": "ideas",
@@ -13649,6 +14814,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transRef",
           "normalized": "Ref a-\u003eTrans a a",
@@ -13664,6 +14830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transRewrite",
           "package": "ideas",
@@ -13673,6 +14840,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transRewrite",
           "normalized": "RewriteRule a-\u003eTrans a a",
@@ -13688,6 +14856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transUseEnvironment",
           "package": "ideas",
@@ -13697,6 +14866,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule Transformation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule.Transformation",
           "name": "transUseEnvironment",
           "normalized": "Trans a b-\u003eTrans(a,Environment)(b,Environment)",
@@ -13712,6 +14882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Rule",
           "name": "Rule",
           "package": "ideas",
@@ -13720,6 +14891,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Rule",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Rule",
           "name": "Rule",
           "package": "ideas",
@@ -13733,6 +14905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "Abstract",
           "package": "ideas",
@@ -13741,6 +14914,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "Abstract",
           "package": "ideas",
@@ -13754,6 +14928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "IsLabeled",
           "package": "ideas",
@@ -13762,6 +14937,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "IsLabeled",
           "package": "ideas",
@@ -13776,6 +14952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class to turn values into strategies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "IsStrategy",
           "package": "ideas",
@@ -13785,6 +14962,7 @@
         "index": {
           "description": "Type class to turn values into strategies",
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "IsStrategy",
           "package": "ideas",
@@ -13798,6 +14976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "LabelInfo",
           "package": "ideas",
@@ -13806,6 +14985,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "LabelInfo",
           "package": "ideas",
@@ -13820,6 +15000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strategy which is labeled with a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "LabeledStrategy",
           "package": "ideas",
@@ -13829,6 +15010,7 @@
         "index": {
           "description": "strategy which is labeled with string",
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "LabeledStrategy",
           "package": "ideas",
@@ -13843,6 +15025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for strategies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "Strategy",
           "package": "ideas",
@@ -13852,6 +15035,7 @@
         "index": {
           "description": "Abstract data type for strategies",
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "Strategy",
           "package": "ideas",
@@ -13865,6 +15049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "changeInfo",
           "package": "ideas",
@@ -13874,6 +15059,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "changeInfo",
           "normalized": "(LabelInfo-\u003eLabelInfo)-\u003ea b-\u003eLabeledStrategy b",
@@ -13943,6 +15129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "collapsed",
           "package": "ideas",
@@ -13952,6 +15139,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "collapsed",
           "normalized": "LabelInfo-\u003eBool",
@@ -13993,6 +15181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "fromCore",
           "package": "ideas",
@@ -14002,6 +15191,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "fromCore",
           "normalized": "Core LabelInfo a-\u003eStrategy a",
@@ -14044,6 +15234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "hidden",
           "package": "ideas",
@@ -14053,6 +15244,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "hidden",
           "normalized": "LabelInfo-\u003eBool",
@@ -14093,6 +15285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "liftCore",
           "package": "ideas",
@@ -14102,6 +15295,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "liftCore",
           "normalized": "(Core LabelInfo a-\u003eCore LabelInfo a)-\u003eb a-\u003eStrategy a",
@@ -14117,6 +15311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "liftCore2",
           "package": "ideas",
@@ -14126,6 +15321,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "liftCore2",
           "normalized": "(Core LabelInfo a-\u003eCore LabelInfo a-\u003eCore LabelInfo a)-\u003eb a-\u003ec a-\u003eStrategy a",
@@ -14141,6 +15337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "makeInfo",
           "package": "ideas",
@@ -14150,6 +15347,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "makeInfo",
           "normalized": "a-\u003eLabelInfo",
@@ -14165,6 +15363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "makeLabeledStrategy",
           "package": "ideas",
@@ -14174,6 +15373,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "makeLabeledStrategy",
           "normalized": "LabelInfo-\u003ea b-\u003eLabeledStrategy b",
@@ -14190,6 +15390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to all the rules that make up a labeled strategy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "mapRules",
           "package": "ideas",
@@ -14200,6 +15401,7 @@
         "index": {
           "description": "Apply function to all the rules that make up labeled strategy",
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "mapRules",
           "normalized": "(Rule a-\u003eRule b)-\u003eLabeledStrategy a-\u003eLabeledStrategy b",
@@ -14215,6 +15417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "mapRulesS",
           "package": "ideas",
@@ -14224,6 +15427,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "mapRulesS",
           "normalized": "(Rule a-\u003eRule b)-\u003eStrategy a-\u003eStrategy b",
@@ -14239,6 +15443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "noInterleaving",
           "package": "ideas",
@@ -14248,6 +15453,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "noInterleaving",
           "normalized": "a b-\u003eStrategy b",
@@ -14263,6 +15469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "processLabelInfo",
           "package": "ideas",
@@ -14272,6 +15479,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "processLabelInfo",
           "normalized": "(a-\u003eLabelInfo)-\u003eCore a b-\u003eCore a b",
@@ -14287,6 +15495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "removed",
           "package": "ideas",
@@ -14296,6 +15505,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "removed",
           "normalized": "LabelInfo-\u003eBool",
@@ -14337,6 +15547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "toCore",
           "package": "ideas",
@@ -14346,6 +15557,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "toCore",
           "normalized": "Strategy a-\u003eCore LabelInfo a",
@@ -14361,6 +15573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "toLabeled",
           "package": "ideas",
@@ -14370,6 +15583,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "toLabeled",
           "normalized": "a b-\u003eLabeledStrategy b",
@@ -14385,6 +15599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "toLabeledStrategy",
           "package": "ideas",
@@ -14394,6 +15609,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "toLabeledStrategy",
           "normalized": "Strategy a-\u003eb(LabeledStrategy a)",
@@ -14409,6 +15625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "toStrategy",
           "package": "ideas",
@@ -14418,6 +15635,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "toStrategy",
           "normalized": "a b-\u003eStrategy b",
@@ -14434,6 +15652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the label from a strategy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "unlabel",
           "package": "ideas",
@@ -14444,6 +15663,7 @@
         "index": {
           "description": "Removes the label from strategy",
           "hierarchy": "Ideas Common Strategy Abstract",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Abstract",
           "name": "unlabel",
           "normalized": "LabeledStrategy a-\u003eStrategy a",
@@ -14459,6 +15679,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of strategy combinators: all lifted to work on different\n data types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Combinators",
           "name": "Combinators",
           "package": "ideas",
@@ -14468,6 +15689,7 @@
         "index": {
           "description": "collection of strategy combinators all lifted to work on different data types",
           "hierarchy": "Ideas Common Strategy Combinators",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Combinators",
           "name": "Combinators",
           "package": "ideas",
@@ -15127,6 +16349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Configuration",
           "package": "ideas",
@@ -15135,6 +16358,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Configuration",
           "package": "ideas",
@@ -15148,6 +16372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "ConfigAction",
           "package": "ideas",
@@ -15156,6 +16381,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "ConfigAction",
           "package": "ideas",
@@ -15169,6 +16395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "ConfigItem",
           "package": "ideas",
@@ -15177,6 +16404,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "ConfigItem",
           "package": "ideas",
@@ -15190,6 +16418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "ConfigLocation",
           "package": "ideas",
@@ -15198,6 +16427,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "ConfigLocation",
           "package": "ideas",
@@ -15211,6 +16441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "StrategyConfiguration",
           "package": "ideas",
@@ -15219,6 +16450,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "StrategyConfiguration",
           "package": "ideas",
@@ -15232,6 +16464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Collapse",
           "package": "ideas",
@@ -15241,6 +16474,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Collapse",
           "package": "ideas",
@@ -15254,6 +16488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Expand",
           "package": "ideas",
@@ -15263,6 +16498,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Expand",
           "package": "ideas",
@@ -15276,6 +16512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Hide",
           "package": "ideas",
@@ -15285,6 +16522,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Hide",
           "package": "ideas",
@@ -15298,6 +16536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Reinsert",
           "package": "ideas",
@@ -15307,6 +16546,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Reinsert",
           "package": "ideas",
@@ -15320,6 +16560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Remove",
           "package": "ideas",
@@ -15329,6 +16570,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Remove",
           "package": "ideas",
@@ -15342,6 +16584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Reveal",
           "package": "ideas",
@@ -15351,6 +16594,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "Reveal",
           "package": "ideas",
@@ -15364,6 +16608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "byGroup",
           "package": "ideas",
@@ -15373,6 +16618,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "byGroup",
           "normalized": "a-\u003eConfigLocation",
@@ -15388,6 +16634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "byName",
           "package": "ideas",
@@ -15397,6 +16644,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "byName",
           "normalized": "a-\u003eConfigLocation",
@@ -15412,6 +16660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "collapse",
           "package": "ideas",
@@ -15421,6 +16670,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "collapse",
           "normalized": "a b-\u003eLabeledStrategy b",
@@ -15435,6 +16685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "configActions",
           "package": "ideas",
@@ -15444,6 +16695,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "configActions",
           "normalized": "[ConfigAction]",
@@ -15459,6 +16711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "configure",
           "package": "ideas",
@@ -15468,6 +16721,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "configure",
           "normalized": "StrategyConfiguration-\u003eLabeledStrategy a-\u003eLabeledStrategy a",
@@ -15482,6 +16736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "configureNow",
           "package": "ideas",
@@ -15491,6 +16746,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "configureNow",
           "normalized": "LabeledStrategy a-\u003eLabeledStrategy a",
@@ -15506,6 +16762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "expand",
           "package": "ideas",
@@ -15515,6 +16772,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "expand",
           "normalized": "a b-\u003eLabeledStrategy b",
@@ -15529,6 +16787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "hide",
           "package": "ideas",
@@ -15538,6 +16797,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "hide",
           "normalized": "a b-\u003eLabeledStrategy b",
@@ -15552,6 +16812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "makeStrategyConfiguration",
           "package": "ideas",
@@ -15561,6 +16822,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "makeStrategyConfiguration",
           "normalized": "[ConfigItem]-\u003eStrategyConfiguration",
@@ -15576,6 +16838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "reinsert",
           "package": "ideas",
@@ -15585,6 +16848,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "reinsert",
           "normalized": "a b-\u003eLabeledStrategy b",
@@ -15599,6 +16863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "remove",
           "package": "ideas",
@@ -15608,6 +16873,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "remove",
           "normalized": "a b-\u003eLabeledStrategy b",
@@ -15622,6 +16888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "reveal",
           "package": "ideas",
@@ -15631,6 +16898,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Configuration",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Configuration",
           "name": "reveal",
           "normalized": "a b-\u003eLabeledStrategy b",
@@ -15646,6 +16914,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe core strategy combinators. This module defines the interal data\n structure of a strategy, and some utility functions that operate\n directly on it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Core",
           "package": "ideas",
@@ -15655,6 +16924,7 @@
         "index": {
           "description": "The core strategy combinators This module defines the interal data structure of strategy and some utility functions that operate directly on it",
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Core",
           "package": "ideas",
@@ -15669,6 +16939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCore expression, with rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Core",
           "package": "ideas",
@@ -15678,6 +16949,7 @@
         "index": {
           "description": "Core expression with rules",
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Core",
           "package": "ideas",
@@ -15692,6 +16964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalized Core expression, not restricted to rules. This makes GCore\n a (traversable and foldable) functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "GCore",
           "package": "ideas",
@@ -15701,6 +16974,7 @@
         "index": {
           "description": "generalized Core expression not restricted to rules This makes GCore traversable and foldable functor",
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "GCore",
           "package": "ideas",
@@ -15714,6 +16988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "(.|.)",
           "package": "ideas",
@@ -15723,6 +16998,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "(.|.) .|.",
           "normalized": "GCore a b-\u003eGCore a b-\u003eGCore a b",
@@ -15737,6 +17013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "(.%.)",
           "package": "ideas",
@@ -15746,6 +17023,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "(.%.) .%.",
           "normalized": "GCore a b-\u003eGCore a b-\u003eGCore a b",
@@ -15760,6 +17038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "(.*.)",
           "package": "ideas",
@@ -15769,6 +17048,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "(.*.) .*.",
           "normalized": "GCore a b-\u003eGCore a b-\u003eGCore a b",
@@ -15783,6 +17063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":|\u003e:",
           "package": "ideas",
@@ -15792,6 +17073,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":|\u003e:",
           "package": "ideas",
@@ -15804,6 +17086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":|:",
           "package": "ideas",
@@ -15813,6 +17096,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":|:",
           "package": "ideas",
@@ -15825,6 +17109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":!%:",
           "package": "ideas",
@@ -15834,6 +17119,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":!%:",
           "package": "ideas",
@@ -15846,6 +17132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":%:",
           "package": "ideas",
@@ -15855,6 +17142,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":%:",
           "package": "ideas",
@@ -15867,6 +17155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":*:",
           "package": "ideas",
@@ -15876,6 +17165,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": ":*:",
           "package": "ideas",
@@ -15888,6 +17178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Atomic",
           "package": "ideas",
@@ -15897,6 +17188,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Atomic",
           "package": "ideas",
@@ -15910,6 +17202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Fail",
           "package": "ideas",
@@ -15919,6 +17212,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Fail",
           "package": "ideas",
@@ -15932,6 +17226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Label",
           "package": "ideas",
@@ -15941,6 +17236,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Label",
           "package": "ideas",
@@ -15954,6 +17250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Many",
           "package": "ideas",
@@ -15963,6 +17260,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Many",
           "package": "ideas",
@@ -15976,6 +17274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Not",
           "package": "ideas",
@@ -15985,6 +17284,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Not",
           "package": "ideas",
@@ -15998,6 +17298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Rec",
           "package": "ideas",
@@ -16007,6 +17308,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Rec",
           "package": "ideas",
@@ -16020,6 +17322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Repeat",
           "package": "ideas",
@@ -16029,6 +17332,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Repeat",
           "package": "ideas",
@@ -16043,6 +17347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized constructor (not restricted to rules)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Rule",
           "package": "ideas",
@@ -16053,6 +17358,7 @@
         "index": {
           "description": "Generalized constructor not restricted to rules",
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Rule",
           "package": "ideas",
@@ -16066,6 +17372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Succeed",
           "package": "ideas",
@@ -16075,6 +17382,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Succeed",
           "package": "ideas",
@@ -16088,6 +17396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Var",
           "package": "ideas",
@@ -16097,6 +17406,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "Var",
           "package": "ideas",
@@ -16110,6 +17420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "coreFix",
           "package": "ideas",
@@ -16119,6 +17430,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "coreFix",
           "normalized": "(GCore a b-\u003eGCore a b)-\u003eGCore a b",
@@ -16134,6 +17446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "coreMany",
           "package": "ideas",
@@ -16143,6 +17456,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "coreMany",
           "normalized": "GCore a b-\u003eGCore a b",
@@ -16158,6 +17472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "coreOrElse",
           "package": "ideas",
@@ -16167,6 +17482,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "coreOrElse",
           "normalized": "GCore a b-\u003eGCore a b-\u003eGCore a b",
@@ -16182,6 +17498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "coreRepeat",
           "package": "ideas",
@@ -16191,6 +17508,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "coreRepeat",
           "normalized": "GCore a b-\u003eGCore a b",
@@ -16206,6 +17524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "noLabels",
           "package": "ideas",
@@ -16215,6 +17534,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "noLabels",
           "normalized": "GCore a b-\u003eGCore a b",
@@ -16230,6 +17550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Core",
           "name": "substCoreVar",
           "package": "ideas",
@@ -16239,6 +17560,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Core",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Core",
           "name": "substCoreVar",
           "normalized": "Int-\u003eGCore a b-\u003eGCore a b-\u003eGCore a b",
@@ -16255,6 +17577,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLocations in a strategy\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Location",
           "name": "Location",
           "package": "ideas",
@@ -16264,6 +17587,7 @@
         "index": {
           "description": "Locations in strategy",
           "hierarchy": "Ideas Common Strategy Location",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Location",
           "name": "Location",
           "package": "ideas",
@@ -16382,6 +17706,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic machinery for executing a core strategy expression.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Parsing",
           "package": "ideas",
@@ -16391,6 +17716,7 @@
         "index": {
           "description": "Basic machinery for executing core strategy expression",
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Parsing",
           "package": "ideas",
@@ -16404,6 +17730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Result",
           "package": "ideas",
@@ -16412,6 +17739,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Result",
           "package": "ideas",
@@ -16425,6 +17753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "State",
           "package": "ideas",
@@ -16433,6 +17762,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "State",
           "package": "ideas",
@@ -16446,6 +17776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Step",
           "package": "ideas",
@@ -16454,6 +17785,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Step",
           "package": "ideas",
@@ -16513,6 +17845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Ready",
           "package": "ideas",
@@ -16522,6 +17855,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Ready",
           "package": "ideas",
@@ -16535,6 +17869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Result",
           "package": "ideas",
@@ -16544,6 +17879,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "Result",
           "package": "ideas",
@@ -16580,6 +17916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "choices",
           "package": "ideas",
@@ -16589,6 +17926,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "choices",
           "normalized": "State a b-\u003e[Bool]",
@@ -16603,6 +17941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "firsts",
           "package": "ideas",
@@ -16612,6 +17951,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "firsts",
           "normalized": "Bool-\u003eState a b-\u003e[(Result(Step a b),State a b)]",
@@ -16626,6 +17966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "isReady",
           "package": "ideas",
@@ -16635,6 +17976,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "isReady",
           "normalized": "Result a-\u003eBool",
@@ -16650,6 +17992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "makeState",
           "package": "ideas",
@@ -16659,6 +18002,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "makeState",
           "normalized": "Core a b-\u003eb-\u003eState a b",
@@ -16674,6 +18018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "parseDerivationTree",
           "package": "ideas",
@@ -16683,6 +18028,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "parseDerivationTree",
           "normalized": "Bool-\u003eState a b-\u003eDerivationTree(Step a b)(State a b)",
@@ -16698,6 +18044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "replay",
           "package": "ideas",
@@ -16707,6 +18054,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "replay",
           "normalized": "Int-\u003e[Bool]-\u003eCore a b-\u003ec(State a b)",
@@ -16721,6 +18069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "runCore",
           "package": "ideas",
@@ -16730,6 +18079,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "runCore",
           "normalized": "Core a b-\u003eb-\u003e[b]",
@@ -16745,6 +18095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "stack",
           "package": "ideas",
@@ -16754,6 +18105,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "stack",
           "normalized": "State a b-\u003eStack a b",
@@ -16768,6 +18120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "trace",
           "package": "ideas",
@@ -16777,6 +18130,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "trace",
           "normalized": "State a b-\u003e[Step a b]",
@@ -16791,6 +18145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "value",
           "package": "ideas",
@@ -16800,6 +18155,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Parsing",
           "name": "value",
           "normalized": "State a b-\u003eb",
@@ -16815,6 +18171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA prefix encodes a sequence of steps already performed (a so-called trace),\n and allows to continue the derivation at that particular point.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Prefix",
           "name": "Prefix",
           "package": "ideas",
@@ -16824,6 +18181,7 @@
         "index": {
           "description": "prefix encodes sequence of steps already performed so-called trace and allows to continue the derivation at that particular point",
           "hierarchy": "Ideas Common Strategy Prefix",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Prefix",
           "name": "Prefix",
           "package": "ideas",
@@ -16838,6 +18196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for a (labeled) strategy with a prefix (a sequence of\n executed rules). A prefix is still \u003ca\u003eaware\u003c/a\u003e of the labels that appear in the\n strategy. A prefix is encoded as a list of integers (and can be reconstructed\n from such a list: see \u003ccode\u003emakePrefix\u003c/code\u003e). The list is stored in reversed order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Prefix",
           "name": "Prefix",
           "package": "ideas",
@@ -16847,6 +18206,7 @@
         "index": {
           "description": "Abstract data type for labeled strategy with prefix sequence of executed rules prefix is still aware of the labels that appear in the strategy prefix is encoded as list of integers and can be reconstructed from such list see makePrefix The list is stored in reversed order",
           "hierarchy": "Ideas Common Strategy Prefix",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Prefix",
           "name": "Prefix",
           "package": "ideas",
@@ -16861,6 +18221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the active labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Prefix",
           "name": "activeLabels",
           "package": "ideas",
@@ -16871,6 +18232,7 @@
         "index": {
           "description": "Calculate the active labels",
           "hierarchy": "Ideas Common Strategy Prefix",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Prefix",
           "name": "activeLabels",
           "normalized": "Prefix a-\u003e[LabelInfo]",
@@ -17047,6 +18409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTesting strategy combinator properties\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Tests",
           "name": "Tests",
           "package": "ideas",
@@ -17056,6 +18419,7 @@
         "index": {
           "description": "Testing strategy combinator properties",
           "hierarchy": "Ideas Common Strategy Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Tests",
           "name": "Tests",
           "package": "ideas",
@@ -17069,6 +18433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Tests",
           "name": "tests",
           "package": "ideas",
@@ -17078,6 +18443,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Tests",
           "name": "tests",
           "package": "ideas",
@@ -17090,6 +18456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "Traversal",
           "package": "ideas",
@@ -17098,6 +18465,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "Traversal",
           "package": "ideas",
@@ -17111,6 +18479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "Option",
           "package": "ideas",
@@ -17119,6 +18488,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "Option",
           "package": "ideas",
@@ -17132,6 +18502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "bottomup",
           "package": "ideas",
@@ -17141,6 +18512,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "bottomup",
           "package": "ideas",
@@ -17153,6 +18525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "full",
           "package": "ideas",
@@ -17162,6 +18535,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "full",
           "package": "ideas",
@@ -17174,6 +18548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "fullbu",
           "package": "ideas",
@@ -17183,6 +18558,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "fullbu",
           "normalized": "a b-\u003eStrategy b",
@@ -17197,6 +18573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "fulltd",
           "package": "ideas",
@@ -17206,6 +18583,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "fulltd",
           "normalized": "a b-\u003eStrategy b",
@@ -17220,6 +18598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "innermost",
           "package": "ideas",
@@ -17229,6 +18608,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "innermost",
           "normalized": "a b-\u003eStrategy b",
@@ -17243,6 +18623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "layer",
           "package": "ideas",
@@ -17252,6 +18633,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "layer",
           "normalized": "[Option a]-\u003eb a-\u003eStrategy a",
@@ -17266,6 +18648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "leftToRight",
           "package": "ideas",
@@ -17275,6 +18658,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "leftToRight",
           "package": "ideas",
@@ -17288,6 +18672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "once",
           "package": "ideas",
@@ -17297,6 +18682,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "once",
           "package": "ideas",
@@ -17309,6 +18695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "oncebu",
           "package": "ideas",
@@ -17318,6 +18705,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "oncebu",
           "normalized": "a b-\u003eStrategy b",
@@ -17332,6 +18720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "oncetd",
           "package": "ideas",
@@ -17341,6 +18730,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "oncetd",
           "normalized": "a b-\u003eStrategy b",
@@ -17355,6 +18745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "outermost",
           "package": "ideas",
@@ -17364,6 +18755,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "outermost",
           "normalized": "a b-\u003eStrategy b",
@@ -17378,6 +18770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "parentFilter",
           "package": "ideas",
@@ -17387,6 +18780,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "parentFilter",
           "normalized": "(a-\u003e[Int])-\u003eOption a",
@@ -17402,6 +18796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "rightToLeft",
           "package": "ideas",
@@ -17411,6 +18806,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "rightToLeft",
           "package": "ideas",
@@ -17424,6 +18820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "somewhere",
           "package": "ideas",
@@ -17433,6 +18830,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "somewhere",
           "normalized": "a b-\u003eStrategy b",
@@ -17447,6 +18845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "spine",
           "package": "ideas",
@@ -17456,6 +18855,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "spine",
           "package": "ideas",
@@ -17468,6 +18868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "stop",
           "package": "ideas",
@@ -17477,6 +18878,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "stop",
           "package": "ideas",
@@ -17489,6 +18891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "topdown",
           "package": "ideas",
@@ -17498,6 +18901,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "topdown",
           "package": "ideas",
@@ -17510,6 +18914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "traversalFilter",
           "package": "ideas",
@@ -17519,6 +18924,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "traversalFilter",
           "normalized": "(a-\u003eBool)-\u003eOption a",
@@ -17534,6 +18940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "traverse",
           "package": "ideas",
@@ -17543,6 +18950,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy Traversal",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy.Traversal",
           "name": "traverse",
           "normalized": "[Option a]-\u003eb a-\u003eStrategy a",
@@ -17558,6 +18966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA strategy is a context-free grammar with rules as symbols. Strategies can be\n labeled with strings. A type class is introduced to lift all the combinators\n that work on strategies, only to prevent that you have to insert these lifting\n functions yourself.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy",
           "name": "Strategy",
           "package": "ideas",
@@ -17567,6 +18976,7 @@
         "index": {
           "description": "strategy is context-free grammar with rules as symbols Strategies can be labeled with strings type class is introduced to lift all the combinators that work on strategies only to prevent that you have to insert these lifting functions yourself",
           "hierarchy": "Ideas Common Strategy",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy",
           "name": "Strategy",
           "package": "ideas",
@@ -17581,6 +18991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class to turn values into strategies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy",
           "name": "IsStrategy",
           "package": "ideas",
@@ -17590,6 +19001,7 @@
         "index": {
           "description": "Type class to turn values into strategies",
           "hierarchy": "Ideas Common Strategy",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy",
           "name": "IsStrategy",
           "package": "ideas",
@@ -17604,6 +19016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strategy which is labeled with a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy",
           "name": "LabeledStrategy",
           "package": "ideas",
@@ -17613,6 +19026,7 @@
         "index": {
           "description": "strategy which is labeled with string",
           "hierarchy": "Ideas Common Strategy",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy",
           "name": "LabeledStrategy",
           "package": "ideas",
@@ -17627,6 +19041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for a (labeled) strategy with a prefix (a sequence of\n executed rules). A prefix is still \u003ca\u003eaware\u003c/a\u003e of the labels that appear in the\n strategy. A prefix is encoded as a list of integers (and can be reconstructed\n from such a list: see \u003ccode\u003emakePrefix\u003c/code\u003e). The list is stored in reversed order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy",
           "name": "Prefix",
           "package": "ideas",
@@ -17636,6 +19051,7 @@
         "index": {
           "description": "Abstract data type for labeled strategy with prefix sequence of executed rules prefix is still aware of the labels that appear in the strategy prefix is encoded as list of integers and can be reconstructed from such list see makePrefix The list is stored in reversed order",
           "hierarchy": "Ideas Common Strategy",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy",
           "name": "Prefix",
           "package": "ideas",
@@ -17649,6 +19065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy",
           "name": "Step",
           "package": "ideas",
@@ -17657,6 +19074,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy",
           "name": "Step",
           "package": "ideas",
@@ -17671,6 +19089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for strategies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy",
           "name": "Strategy",
           "package": "ideas",
@@ -17680,6 +19099,7 @@
         "index": {
           "description": "Abstract data type for strategies",
           "hierarchy": "Ideas Common Strategy",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy",
           "name": "Strategy",
           "package": "ideas",
@@ -17693,6 +19113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Strategy",
           "name": "toStrategy",
           "package": "ideas",
@@ -17702,6 +19123,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Strategy",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Strategy",
           "name": "toStrategy",
           "normalized": "a b-\u003eStrategy b",
@@ -17717,6 +19139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "Iterator",
           "package": "ideas",
@@ -17725,6 +19148,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "Iterator",
           "package": "ideas",
@@ -17738,6 +19162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "Iterator",
           "package": "ideas",
@@ -17746,6 +19171,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "Iterator",
           "package": "ideas",
@@ -17759,6 +19185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "ListIterator",
           "package": "ideas",
@@ -17767,6 +19194,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "ListIterator",
           "package": "ideas",
@@ -17780,6 +19208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "final",
           "package": "ideas",
@@ -17789,6 +19218,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "final",
           "normalized": "a-\u003ea",
@@ -17803,6 +19233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "first",
           "package": "ideas",
@@ -17812,6 +19243,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "first",
           "normalized": "a-\u003ea",
@@ -17826,6 +19258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "hasNext",
           "package": "ideas",
@@ -17835,6 +19268,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "hasNext",
           "normalized": "a-\u003eBool",
@@ -17850,6 +19284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "hasPrevious",
           "package": "ideas",
@@ -17859,6 +19294,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "hasPrevious",
           "normalized": "a-\u003eBool",
@@ -17874,6 +19310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "isFinal",
           "package": "ideas",
@@ -17883,6 +19320,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "isFinal",
           "normalized": "a-\u003eBool",
@@ -17898,6 +19336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "isFirst",
           "package": "ideas",
@@ -17907,6 +19346,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "isFirst",
           "normalized": "a-\u003eBool",
@@ -17922,6 +19362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "next",
           "package": "ideas",
@@ -17931,6 +19372,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "next",
           "normalized": "a-\u003eMaybe a",
@@ -17945,6 +19387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "position",
           "package": "ideas",
@@ -17954,6 +19397,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "position",
           "normalized": "a-\u003eInt",
@@ -17968,6 +19412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "previous",
           "package": "ideas",
@@ -17977,6 +19422,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "previous",
           "normalized": "a-\u003eMaybe a",
@@ -17991,6 +19437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchBackward",
           "package": "ideas",
@@ -18000,6 +19447,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchBackward",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -18015,6 +19463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchForward",
           "package": "ideas",
@@ -18024,6 +19473,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchForward",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -18039,6 +19489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchNext",
           "package": "ideas",
@@ -18048,6 +19499,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchNext",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -18063,6 +19515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchPrevious",
           "package": "ideas",
@@ -18072,6 +19525,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchPrevious",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -18087,6 +19541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchWith",
           "package": "ideas",
@@ -18096,6 +19551,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Iterator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Iterator",
           "name": "searchWith",
           "normalized": "(a-\u003eMaybe a)-\u003e(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -18111,6 +19567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Navigator",
           "package": "ideas",
@@ -18119,6 +19576,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Navigator",
           "package": "ideas",
@@ -18132,6 +19590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Horizontal",
           "package": "ideas",
@@ -18140,6 +19599,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Horizontal",
           "package": "ideas",
@@ -18153,6 +19613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Leafs",
           "package": "ideas",
@@ -18161,6 +19622,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Leafs",
           "package": "ideas",
@@ -18174,6 +19636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "LevelOrder",
           "package": "ideas",
@@ -18182,6 +19645,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "LevelOrder",
           "package": "ideas",
@@ -18195,6 +19659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Location",
           "package": "ideas",
@@ -18203,6 +19668,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Location",
           "package": "ideas",
@@ -18217,6 +19683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a minimal complete definition, provide an implemention for downs or\n allDowns. All other functions need an implementation as well, except for\n change. Note that a constructor (a -\u003e f a) is not included in the type class\n to allow additional type class constraints on type a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Navigator",
           "package": "ideas",
@@ -18226,6 +19693,7 @@
         "index": {
           "description": "For minimal complete definition provide an implemention for downs or allDowns All other functions need an implementation as well except for change Note that constructor is not included in the type class to allow additional type class constraints on type",
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "Navigator",
           "package": "ideas",
@@ -18239,6 +19707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "PostOrder",
           "package": "ideas",
@@ -18247,6 +19716,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "PostOrder",
           "package": "ideas",
@@ -18260,6 +19730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "PreOrder",
           "package": "ideas",
@@ -18268,6 +19739,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "PreOrder",
           "package": "ideas",
@@ -18281,6 +19753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "UniplateNavigator",
           "package": "ideas",
@@ -18289,6 +19762,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "UniplateNavigator",
           "package": "ideas",
@@ -18302,6 +19776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "arity",
           "package": "ideas",
@@ -18311,6 +19786,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "arity",
           "normalized": "a-\u003eInt",
@@ -18325,6 +19801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "childnr",
           "package": "ideas",
@@ -18334,6 +19811,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "childnr",
           "normalized": "a-\u003eInt",
@@ -18348,6 +19826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "depth",
           "package": "ideas",
@@ -18357,6 +19836,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "depth",
           "normalized": "a-\u003eInt",
@@ -18371,6 +19851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "down",
           "package": "ideas",
@@ -18380,6 +19861,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "down",
           "normalized": "a-\u003eMaybe a",
@@ -18394,6 +19876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "downLast",
           "package": "ideas",
@@ -18403,6 +19886,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "downLast",
           "normalized": "a-\u003eMaybe a",
@@ -18418,6 +19902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "downTo",
           "package": "ideas",
@@ -18427,6 +19912,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "downTo",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -18442,6 +19928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "downs",
           "package": "ideas",
@@ -18451,6 +19938,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "downs",
           "normalized": "a-\u003e[a]",
@@ -18465,6 +19953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "fromLocation",
           "package": "ideas",
@@ -18474,6 +19963,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "fromLocation",
           "normalized": "Location-\u003e[Int]",
@@ -18489,6 +19979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "hasDown",
           "package": "ideas",
@@ -18498,6 +19989,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "hasDown",
           "normalized": "a-\u003eBool",
@@ -18513,6 +20005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "hasLeft",
           "package": "ideas",
@@ -18522,6 +20015,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "hasLeft",
           "normalized": "a-\u003eBool",
@@ -18537,6 +20031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "hasRight",
           "package": "ideas",
@@ -18546,6 +20041,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "hasRight",
           "normalized": "a-\u003eBool",
@@ -18561,6 +20057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "hasUp",
           "package": "ideas",
@@ -18570,6 +20067,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "hasUp",
           "normalized": "a-\u003eBool",
@@ -18585,6 +20083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "isLeaf",
           "package": "ideas",
@@ -18594,6 +20093,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "isLeaf",
           "normalized": "a-\u003eBool",
@@ -18609,6 +20109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "isTop",
           "package": "ideas",
@@ -18618,6 +20119,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "isTop",
           "normalized": "a-\u003eBool",
@@ -18633,6 +20135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "left",
           "package": "ideas",
@@ -18642,6 +20145,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "left",
           "normalized": "a-\u003eMaybe a",
@@ -18656,6 +20160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "leftMost",
           "package": "ideas",
@@ -18665,6 +20170,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "leftMost",
           "normalized": "a-\u003ea",
@@ -18680,6 +20186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "leftMostAt",
           "package": "ideas",
@@ -18689,6 +20196,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "leftMostAt",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -18704,6 +20212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "leftMostLeaf",
           "package": "ideas",
@@ -18713,6 +20222,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "leftMostLeaf",
           "normalized": "a-\u003ea",
@@ -18728,6 +20238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "level",
           "package": "ideas",
@@ -18737,6 +20248,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "level",
           "normalized": "a-\u003eInt",
@@ -18751,6 +20263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "levelNext",
           "package": "ideas",
@@ -18760,6 +20273,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "levelNext",
           "normalized": "a-\u003eMaybe a",
@@ -18775,6 +20289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "levelPrevious",
           "package": "ideas",
@@ -18784,6 +20299,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "levelPrevious",
           "normalized": "a-\u003eMaybe a",
@@ -18799,6 +20315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "location",
           "package": "ideas",
@@ -18808,6 +20325,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "location",
           "normalized": "a-\u003eLocation",
@@ -18822,6 +20340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makeHorizontal",
           "package": "ideas",
@@ -18831,6 +20350,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makeHorizontal",
           "normalized": "a-\u003eHorizontal a",
@@ -18846,6 +20366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makeLeafs",
           "package": "ideas",
@@ -18855,6 +20376,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makeLeafs",
           "normalized": "a-\u003eLeafs a",
@@ -18870,6 +20392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makeLevelOrder",
           "package": "ideas",
@@ -18879,6 +20402,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makeLevelOrder",
           "normalized": "a-\u003eLevelOrder a",
@@ -18894,6 +20418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makePostOrder",
           "package": "ideas",
@@ -18903,6 +20428,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makePostOrder",
           "normalized": "a-\u003ePostOrder a",
@@ -18918,6 +20444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makePreOrder",
           "package": "ideas",
@@ -18927,6 +20454,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "makePreOrder",
           "normalized": "a-\u003ePreOrder a",
@@ -18942,6 +20470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "navigateTo",
           "package": "ideas",
@@ -18951,6 +20480,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "navigateTo",
           "normalized": "Location-\u003ea-\u003eMaybe a",
@@ -18966,6 +20496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "navigateTowards",
           "package": "ideas",
@@ -18975,6 +20506,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "navigateTowards",
           "normalized": "Location-\u003ea-\u003ea",
@@ -18990,6 +20522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "right",
           "package": "ideas",
@@ -18999,6 +20532,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "right",
           "normalized": "a-\u003eMaybe a",
@@ -19013,6 +20547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "rightMost",
           "package": "ideas",
@@ -19022,6 +20557,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "rightMost",
           "normalized": "a-\u003ea",
@@ -19037,6 +20573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "rightMostAt",
           "package": "ideas",
@@ -19046,6 +20583,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "rightMostAt",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -19061,6 +20599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "rightMostLeaf",
           "package": "ideas",
@@ -19070,6 +20609,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "rightMostLeaf",
           "normalized": "a-\u003ea",
@@ -19085,6 +20625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "toLocation",
           "package": "ideas",
@@ -19094,6 +20635,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "toLocation",
           "normalized": "[Int]-\u003eLocation",
@@ -19109,6 +20651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "top",
           "package": "ideas",
@@ -19118,6 +20661,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "top",
           "normalized": "a-\u003ea",
@@ -19132,6 +20676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "up",
           "package": "ideas",
@@ -19141,6 +20686,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Navigator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Navigator",
           "name": "up",
           "normalized": "a-\u003eMaybe a",
@@ -19155,6 +20701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "Tests",
           "package": "ideas",
@@ -19163,6 +20710,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "Tests",
           "package": "ideas",
@@ -19176,6 +20724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "listGen",
           "package": "ideas",
@@ -19185,6 +20734,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "listGen",
           "package": "ideas",
@@ -19198,6 +20748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "testIterator",
           "package": "ideas",
@@ -19207,6 +20758,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "testIterator",
           "normalized": "String-\u003eGen a-\u003eTestSuite",
@@ -19222,6 +20774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "testNavigator",
           "package": "ideas",
@@ -19231,6 +20784,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "testNavigator",
           "normalized": "String-\u003eGen a-\u003eTestSuite",
@@ -19246,6 +20800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "tests",
           "package": "ideas",
@@ -19255,6 +20810,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "tests",
           "package": "ideas",
@@ -19267,6 +20823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "uniGen",
           "package": "ideas",
@@ -19276,6 +20833,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Tests",
           "name": "uniGen",
           "package": "ideas",
@@ -19289,6 +20847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Utils",
           "package": "ideas",
@@ -19297,6 +20856,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Utils",
           "package": "ideas",
@@ -19310,6 +20870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Focus",
           "package": "ideas",
@@ -19318,6 +20879,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Focus",
           "package": "ideas",
@@ -19331,6 +20893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Mirror",
           "package": "ideas",
@@ -19339,6 +20902,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Mirror",
           "package": "ideas",
@@ -19352,6 +20916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Update",
           "package": "ideas",
@@ -19360,6 +20925,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Update",
           "package": "ideas",
@@ -19373,6 +20939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Wrapper",
           "package": "ideas",
@@ -19381,6 +20948,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "Wrapper",
           "package": "ideas",
@@ -19394,6 +20962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "(\u003e|\u003c)",
           "package": "ideas",
@@ -19403,6 +20972,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "(\u003e|\u003c) \u003e|\u003c",
           "normalized": "(a-\u003eMaybe a)-\u003e(a-\u003eMaybe a)-\u003ea-\u003eMaybe a",
@@ -19418,6 +20988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right Kleisli composition of monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "(\u003e=\u003e)",
           "package": "ideas",
@@ -19427,6 +20998,7 @@
         "index": {
           "description": "Left-to-right Kleisli composition of monads",
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "(\u003e=\u003e) \u003e=\u003e",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -19441,6 +21013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "change",
           "package": "ideas",
@@ -19450,6 +21023,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "change",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -19464,6 +21038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "changeG",
           "package": "ideas",
@@ -19473,6 +21048,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "changeG",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -19487,6 +21063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "changeM",
           "package": "ideas",
@@ -19496,6 +21073,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "changeM",
           "normalized": "(a-\u003eMaybe a)-\u003eb a-\u003eMaybe(b a)",
@@ -19510,6 +21088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "current",
           "package": "ideas",
@@ -19519,6 +21098,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "current",
           "normalized": "a b-\u003eb",
@@ -19533,6 +21113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "fixp",
           "package": "ideas",
@@ -19542,6 +21123,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "fixp",
           "normalized": "(a-\u003eMaybe a)-\u003ea-\u003ea",
@@ -19556,6 +21138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "fixpl",
           "package": "ideas",
@@ -19565,6 +21148,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "fixpl",
           "normalized": "(a-\u003eMaybe a)-\u003ea-\u003e[a]",
@@ -19579,6 +21163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "focus",
           "package": "ideas",
@@ -19588,6 +21173,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "focus",
           "normalized": "Unfocus a-\u003ea",
@@ -19602,6 +21188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "focusM",
           "package": "ideas",
@@ -19611,6 +21198,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "focusM",
           "normalized": "Unfocus a-\u003eMaybe a",
@@ -19625,6 +21213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "liftFocus",
           "package": "ideas",
@@ -19634,6 +21223,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "liftFocus",
           "normalized": "(Unfocus a-\u003eMaybe(Unfocus a))-\u003ea-\u003eMaybe a",
@@ -19649,6 +21239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "liftWrapper",
           "package": "ideas",
@@ -19658,6 +21249,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "liftWrapper",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -19673,6 +21265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "makeMirror",
           "package": "ideas",
@@ -19682,6 +21275,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "makeMirror",
           "normalized": "a-\u003eMirror a",
@@ -19697,6 +21291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "mapWrapper",
           "package": "ideas",
@@ -19706,6 +21301,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "mapWrapper",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -19722,6 +21318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "mplus",
           "package": "ideas",
@@ -19731,6 +21328,7 @@
         "index": {
           "description": "an associative operation",
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "mplus",
           "normalized": "a b c d-\u003ec d-\u003ec d",
@@ -19745,6 +21343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "replace",
           "package": "ideas",
@@ -19754,6 +21353,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "replace",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -19768,6 +21368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "safe",
           "package": "ideas",
@@ -19777,6 +21378,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "safe",
           "normalized": "(a-\u003eMaybe a)-\u003ea-\u003ea",
@@ -19791,6 +21393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "unfocus",
           "package": "ideas",
@@ -19800,6 +21403,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "unfocus",
           "normalized": "a-\u003eUnfocus a",
@@ -19814,6 +21418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "unliftFocus",
           "package": "ideas",
@@ -19823,6 +21428,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "unliftFocus",
           "normalized": "(a-\u003eMaybe a)-\u003eUnfocus a-\u003eMaybe(Unfocus a)",
@@ -19838,6 +21444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "unliftWrapper",
           "package": "ideas",
@@ -19847,6 +21454,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "unliftWrapper",
           "normalized": "(a b-\u003ec(a b))-\u003eb-\u003ec b",
@@ -19862,6 +21470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "unwrap",
           "package": "ideas",
@@ -19871,6 +21480,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "unwrap",
           "normalized": "a b-\u003eb",
@@ -19885,6 +21495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "update",
           "package": "ideas",
@@ -19894,6 +21505,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "update",
           "normalized": "a b-\u003e(b,b-\u003ea b)",
@@ -19908,6 +21520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "wrap",
           "package": "ideas",
@@ -19917,6 +21530,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Traversal Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Traversal.Utils",
           "name": "wrap",
           "normalized": "a-\u003eb a",
@@ -19932,6 +21546,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtensions to the QuickCheck library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "QuickCheck",
           "package": "ideas",
@@ -19941,6 +21556,7 @@
         "index": {
           "description": "Extensions to the QuickCheck library",
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "QuickCheck",
           "package": "ideas",
@@ -19954,6 +21570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "ArbGen",
           "package": "ideas",
@@ -19962,6 +21579,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "ArbGen",
           "package": "ideas",
@@ -19975,6 +21593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "arbGen",
           "package": "ideas",
@@ -19984,6 +21603,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "arbGen",
           "normalized": "(a-\u003eb)-\u003eArbGen b",
@@ -19999,6 +21619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "binaryGen",
           "package": "ideas",
@@ -20008,6 +21629,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "binaryGen",
           "normalized": "(a-\u003ea-\u003ea)-\u003eArbGen a",
@@ -20023,6 +21645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "binaryGens",
           "package": "ideas",
@@ -20032,6 +21655,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "binaryGens",
           "normalized": "[a-\u003ea-\u003ea]-\u003eArbGen a",
@@ -20047,6 +21671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "changeFrequency",
           "package": "ideas",
@@ -20056,6 +21681,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "changeFrequency",
           "normalized": "Rational-\u003eArbGen a-\u003eArbGen a",
@@ -20071,6 +21697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "common",
           "package": "ideas",
@@ -20080,6 +21707,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "common",
           "normalized": "ArbGen a-\u003eArbGen a",
@@ -20094,6 +21722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "constGen",
           "package": "ideas",
@@ -20103,6 +21732,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "constGen",
           "normalized": "a-\u003eArbGen a",
@@ -20118,6 +21748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "constGens",
           "package": "ideas",
@@ -20127,6 +21758,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "constGens",
           "normalized": "[a]-\u003eArbGen a",
@@ -20142,6 +21774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "generator",
           "package": "ideas",
@@ -20151,6 +21784,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "generator",
           "normalized": "ArbGen a-\u003eGen a",
@@ -20165,6 +21799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "generators",
           "package": "ideas",
@@ -20174,6 +21809,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "generators",
           "normalized": "[ArbGen a]-\u003eGen a",
@@ -20188,6 +21824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "rare",
           "package": "ideas",
@@ -20197,6 +21834,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "rare",
           "normalized": "ArbGen a-\u003eArbGen a",
@@ -20211,6 +21849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "toArbGen",
           "package": "ideas",
@@ -20220,6 +21859,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "toArbGen",
           "normalized": "Gen a-\u003eArbGen a",
@@ -20235,6 +21875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "unaryArbGen",
           "package": "ideas",
@@ -20244,6 +21885,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "unaryArbGen",
           "normalized": "(a-\u003eb-\u003eb)-\u003eArbGen b",
@@ -20259,6 +21901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "unaryGen",
           "package": "ideas",
@@ -20268,6 +21911,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "unaryGen",
           "normalized": "(a-\u003ea)-\u003eArbGen a",
@@ -20283,6 +21927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "unaryGens",
           "package": "ideas",
@@ -20292,6 +21937,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "unaryGens",
           "normalized": "[a-\u003ea]-\u003eArbGen a",
@@ -20307,6 +21953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "uncommon",
           "package": "ideas",
@@ -20316,6 +21963,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils QuickCheck",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.QuickCheck",
           "name": "uncommon",
           "normalized": "ArbGen a-\u003eArbGen a",
@@ -20331,6 +21979,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReferences to Strings, proving a fast comparison implementation (Eq and\n Ord) that uses a hash function. Code is based on Daan Leijen's Lazy\n Virutal Machine (LVM) identifiers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "StringRef",
           "package": "ideas",
@@ -20340,6 +21989,7 @@
         "index": {
           "description": "References to Strings proving fast comparison implementation Eq and Ord that uses hash function Code is based on Daan Leijen Lazy Virutal Machine LVM identifiers",
           "hierarchy": "Ideas Common Utils StringRef",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "StringRef",
           "package": "ideas",
@@ -20353,6 +22003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "StringRef",
           "package": "ideas",
@@ -20361,6 +22012,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils StringRef",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "StringRef",
           "package": "ideas",
@@ -20374,6 +22026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "stringRef",
           "package": "ideas",
@@ -20383,6 +22036,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils StringRef",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "stringRef",
           "normalized": "String-\u003eStringRef",
@@ -20398,6 +22052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "tableStatus",
           "package": "ideas",
@@ -20407,6 +22062,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils StringRef",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "tableStatus",
           "package": "ideas",
@@ -20420,6 +22076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "toString",
           "package": "ideas",
@@ -20429,6 +22086,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils StringRef",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.StringRef",
           "name": "toString",
           "normalized": "StringRef-\u003eString",
@@ -20445,6 +22103,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA lightweight wrapper around the QuickCheck library. It introduces the\n notion of a test suite, and it stores the test results for later inspection\n (e.g., for the generation of a test report). A test suite has a monadic\n interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "TestSuite",
           "package": "ideas",
@@ -20454,6 +22113,7 @@
         "index": {
           "description": "lightweight wrapper around the QuickCheck library It introduces the notion of test suite and it stores the test results for later inspection e.g for the generation of test report test suite has monadic interface",
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "TestSuite",
           "package": "ideas",
@@ -20467,6 +22127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "Message",
           "package": "ideas",
@@ -20475,6 +22136,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "Message",
           "package": "ideas",
@@ -20489,6 +22151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads in which \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations may be embedded.\n Any monad built by applying a sequence of monad transformers to the\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad will be an instance of this class.\n\u003c/p\u003e\u003cp\u003eInstances should satisfy the following laws, which state that \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e\n is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "MonadIO",
           "package": "ideas",
@@ -20497,6 +22160,7 @@
         "index": {
           "description": "Monads in which IO computations may be embedded Any monad built by applying sequence of monad transformers to the IO monad will be an instance of this class Instances should satisfy the following laws which state that liftIO is transformer of monads liftIO return return liftIO liftIO liftIO",
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "MonadIO",
           "package": "ideas",
@@ -20510,6 +22174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "TestSuite",
           "package": "ideas",
@@ -20518,6 +22183,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "TestSuite",
           "package": "ideas",
@@ -20531,6 +22197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "TestSuiteResult",
           "package": "ideas",
@@ -20539,6 +22206,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "TestSuiteResult",
           "package": "ideas",
@@ -20553,6 +22221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a QuickCheck property to the test suite. The first argument is\n a label for the property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "addProperty",
           "package": "ideas",
@@ -20563,6 +22232,7 @@
         "index": {
           "description": "Add QuickCheck property to the test suite The first argument is label for the property",
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "addProperty",
           "normalized": "String-\u003ea-\u003eTestSuite",
@@ -20579,6 +22249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a QuickCheck property to the test suite, also providing a test\n configuration (Args)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "addPropertyWith",
           "package": "ideas",
@@ -20589,6 +22260,7 @@
         "index": {
           "description": "Add QuickCheck property to the test suite also providing test configuration Args",
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "addPropertyWith",
           "normalized": "String-\u003eArgs-\u003ea-\u003eTestSuite",
@@ -20604,6 +22276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "assertEquals",
           "package": "ideas",
@@ -20613,6 +22286,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "assertEquals",
           "normalized": "String-\u003ea-\u003ea-\u003eTestSuite",
@@ -20628,6 +22302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "assertIO",
           "package": "ideas",
@@ -20637,6 +22312,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "assertIO",
           "normalized": "String-\u003eIO Bool-\u003eTestSuite",
@@ -20652,6 +22328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "assertNull",
           "package": "ideas",
@@ -20661,6 +22338,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "assertNull",
           "normalized": "String-\u003e[a]-\u003eTestSuite",
@@ -20676,6 +22354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "assertTrue",
           "package": "ideas",
@@ -20685,6 +22364,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "assertTrue",
           "normalized": "String-\u003eBool-\u003eTestSuite",
@@ -20700,6 +22380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "findSubResult",
           "package": "ideas",
@@ -20709,6 +22390,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "findSubResult",
           "normalized": "String-\u003eTestSuiteResult-\u003eMaybe TestSuiteResult",
@@ -20724,6 +22406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "isError",
           "package": "ideas",
@@ -20733,6 +22416,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "isError",
           "normalized": "Message-\u003eBool",
@@ -20749,6 +22433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "liftIO",
           "package": "ideas",
@@ -20758,6 +22443,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "liftIO",
           "normalized": "IO a-\u003eb a",
@@ -20773,6 +22459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "makeSummary",
           "package": "ideas",
@@ -20782,6 +22469,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "makeSummary",
           "normalized": "TestSuiteResult-\u003eString",
@@ -20797,6 +22485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "messageLabel",
           "package": "ideas",
@@ -20806,6 +22495,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "messageLabel",
           "normalized": "Message-\u003eMaybe String",
@@ -20821,6 +22511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "messages",
           "package": "ideas",
@@ -20830,6 +22521,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "messages",
           "normalized": "TestSuiteResult-\u003e[Message]",
@@ -20844,6 +22536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "newMessage",
           "package": "ideas",
@@ -20853,6 +22546,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "newMessage",
           "normalized": "String-\u003eMessage",
@@ -20868,6 +22562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "numberOfTests",
           "package": "ideas",
@@ -20877,6 +22572,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "numberOfTests",
           "normalized": "TestSuiteResult-\u003eInt",
@@ -20892,6 +22588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "printSummary",
           "package": "ideas",
@@ -20901,6 +22598,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "printSummary",
           "normalized": "TestSuiteResult-\u003eIO()",
@@ -20916,6 +22614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "runTestSuite",
           "package": "ideas",
@@ -20925,6 +22624,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "runTestSuite",
           "normalized": "TestSuite-\u003eIO()",
@@ -20940,6 +22640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "runTestSuiteResult",
           "package": "ideas",
@@ -20949,6 +22650,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "runTestSuiteResult",
           "normalized": "TestSuite-\u003eIO TestSuiteResult",
@@ -20964,6 +22666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "subResults",
           "package": "ideas",
@@ -20973,6 +22676,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "subResults",
           "normalized": "TestSuiteResult-\u003e[(String,TestSuiteResult)]",
@@ -20989,6 +22693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a (named) test suite containing tests and other suites\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "suite",
           "package": "ideas",
@@ -20999,6 +22704,7 @@
         "index": {
           "description": "Construct named test suite containing tests and other suites",
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "suite",
           "normalized": "String-\u003eTestSuite-\u003eTestSuite",
@@ -21013,6 +22719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "topMessages",
           "package": "ideas",
@@ -21022,6 +22729,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "topMessages",
           "normalized": "TestSuiteResult-\u003e[Message]",
@@ -21037,6 +22745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "warn",
           "package": "ideas",
@@ -21046,6 +22755,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "warn",
           "normalized": "String-\u003eTestSuite",
@@ -21060,6 +22770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "warning",
           "package": "ideas",
@@ -21069,6 +22780,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils TestSuite",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.TestSuite",
           "name": "warning",
           "normalized": "Message-\u003eMessage",
@@ -21084,6 +22796,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExports a subset of Data.Generics.Uniplate.Direct (the \u003ccode\u003eUniplate\u003c/code\u003e type\n class and its utility plus constructor functions)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "Uniplate",
           "package": "ideas",
@@ -21093,6 +22806,7 @@
         "index": {
           "description": "Exports subset of Data.Generics.Uniplate.Direct the Uniplate type class and its utility plus constructor functions",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "Uniplate",
           "package": "ideas",
@@ -21107,6 +22821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard Uniplate class, all operations require this. All definitions must\n   define \u003ccode\u003e\u003ca\u003euniplate\u003c/a\u003e\u003c/code\u003e, while \u003ccode\u003e\u003ca\u003edescend\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edescendM\u003c/a\u003e\u003c/code\u003e are optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "Uniplate",
           "package": "ideas",
@@ -21115,6 +22830,7 @@
         "index": {
           "description": "The standard Uniplate class all operations require this All definitions must define uniplate while descend and descendM are optional",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "Uniplate",
           "package": "ideas",
@@ -21129,6 +22845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe field to the right is a list of the type of the target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "(||*)",
           "package": "ideas",
@@ -21138,6 +22855,7 @@
         "index": {
           "description": "The field to the right is list of the type of the target",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "(||*) ||*",
           "normalized": "Type([a]-\u003eb)a-\u003e[a]-\u003eType b a",
@@ -21153,6 +22871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe field to the right is the target.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "(|*)",
           "package": "ideas",
@@ -21162,6 +22881,7 @@
         "index": {
           "description": "The field to the right is the target",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "(|*) |*",
           "normalized": "Type(a-\u003eb)a-\u003ea-\u003eType b a",
@@ -21177,6 +22897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe field to the right \u003cem\u003edoes not\u003c/em\u003e contain the target.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "(|-)",
           "package": "ideas",
@@ -21186,6 +22907,7 @@
         "index": {
           "description": "The field to the right does not contain the target",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "(|-) |-",
           "normalized": "Type(a-\u003eb)c-\u003ea-\u003eType b c",
@@ -21201,6 +22923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the direct children of a node. Usually using \u003ccode\u003e\u003ca\u003euniverse\u003c/a\u003e\u003c/code\u003e is more appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "children",
           "package": "ideas",
@@ -21210,6 +22933,7 @@
         "index": {
           "description": "Get the direct children of node Usually using universe is more appropriate",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "children",
           "normalized": "a-\u003e[a]",
@@ -21225,6 +22949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all the contexts and holes.\n\u003c/p\u003e\u003cpre\u003e universe x == map fst (contexts x)\n all (== x) [b a | (a,b) \u003c- contexts x]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "contexts",
           "package": "ideas",
@@ -21234,6 +22959,7 @@
         "index": {
           "description": "Return all the contexts and holes universe map fst contexts all contexts",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "contexts",
           "normalized": "a-\u003e[(a,a-\u003ea)]",
@@ -21249,6 +22975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a transformation on all the immediate children, then combine them back.\n   This operation allows additional information to be passed downwards, and can be\n   used to provide a top-down transformation. This function can be defined explicitly,\n   or can be provided by automatically in terms of \u003ccode\u003e\u003ca\u003euniplate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example, on the sample type, we could write:\n\u003c/p\u003e\u003cpre\u003e descend f (Val i  ) = Val i\n descend f (Neg a  ) = Neg (f a)\n descend f (Add a b) = Add (f a) (f b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "descend",
           "package": "ideas",
@@ -21258,6 +22985,7 @@
         "index": {
           "description": "Perform transformation on all the immediate children then combine them back This operation allows additional information to be passed downwards and can be used to provide top-down transformation This function can be defined explicitly or can be provided by automatically in terms of uniplate For example on the sample type we could write descend Val Val descend Neg Neg descend Add Add",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "descend",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -21273,6 +23001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variant of \u003ccode\u003e\u003ca\u003edescend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "descendM",
           "package": "ideas",
@@ -21282,6 +23011,7 @@
         "index": {
           "description": "Monadic variant of descend",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "descendM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -21297,6 +23027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe one depth version of \u003ccode\u003e\u003ca\u003econtexts\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e children x == map fst (holes x)\n all (== x) [b a | (a,b) \u003c- holes x]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "holes",
           "package": "ideas",
@@ -21306,6 +23037,7 @@
         "index": {
           "description": "The one depth version of contexts children map fst holes all holes",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "holes",
           "normalized": "a-\u003e[(a,a-\u003ea)]",
@@ -21321,6 +23053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a fold-like computation on each value,\n   technically a paramorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "para",
           "package": "ideas",
@@ -21330,6 +23063,7 @@
         "index": {
           "description": "Perform fold-like computation on each value technically paramorphism",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "para",
           "normalized": "(a-\u003e[b]-\u003eb)-\u003ea-\u003eb",
@@ -21345,6 +23079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main combinator used to start the chain.\n\u003c/p\u003e\u003cp\u003eThe following rule can be used for optimisation:\n\u003c/p\u003e\u003cpre\u003e plate Ctor |- x == plate (Ctor x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "plate",
           "package": "ideas",
@@ -21354,6 +23089,7 @@
         "index": {
           "description": "The main combinator used to start the chain The following rule can be used for optimisation plate Ctor plate Ctor",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "plate",
           "normalized": "a-\u003eType a b",
@@ -21369,6 +23105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite by applying a rule everywhere you can. Ensures that the rule cannot\n be applied anywhere in the result:\n\u003c/p\u003e\u003cpre\u003e propRewrite r x = all (isNothing . r) (universe (rewrite r x))\n\u003c/pre\u003e\u003cp\u003eUsually \u003ccode\u003e\u003ca\u003etransform\u003c/a\u003e\u003c/code\u003e is more appropriate, but \u003ccode\u003e\u003ca\u003erewrite\u003c/a\u003e\u003c/code\u003e can give better\n compositionality. Given two single transformations \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e, you can\n construct \u003ccode\u003ef \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e which performs both rewrites until a fixed point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "rewrite",
           "package": "ideas",
@@ -21378,6 +23115,7 @@
         "index": {
           "description": "Rewrite by applying rule everywhere you can Ensures that the rule cannot be applied anywhere in the result propRewrite all isNothing universe rewrite Usually transform is more appropriate but rewrite can give better compositionality Given two single transformations and you can construct mplus which performs both rewrites until fixed point",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "rewrite",
           "normalized": "(a-\u003eMaybe a)-\u003ea-\u003ea",
@@ -21393,6 +23131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variant of \u003ccode\u003e\u003ca\u003erewrite\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "rewriteM",
           "package": "ideas",
@@ -21402,6 +23141,7 @@
         "index": {
           "description": "Monadic variant of rewrite",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "rewriteM",
           "normalized": "(a-\u003eb(Maybe a))-\u003ea-\u003eb a",
@@ -21417,6 +23157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform every element in the tree, in a bottom-up manner.\n\u003c/p\u003e\u003cp\u003eFor example, replacing negative literals with literals:\n\u003c/p\u003e\u003cpre\u003e negLits = transform f\n    where f (Neg (Lit i)) = Lit (negate i)\n          f x = x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "transform",
           "package": "ideas",
@@ -21426,6 +23167,7 @@
         "index": {
           "description": "Transform every element in the tree in bottom-up manner For example replacing negative literals with literals negLits transform where Neg Lit Lit negate",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "transform",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -21441,6 +23183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variant of \u003ccode\u003e\u003ca\u003etransform\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "transformM",
           "package": "ideas",
@@ -21450,6 +23193,7 @@
         "index": {
           "description": "Monadic variant of transform",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "transformM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -21465,6 +23209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe underlying method in the class.\n   Taking a value, the function should return all the immediate children\n   of the same type, and a function to replace them.\n\u003c/p\u003e\u003cp\u003eGiven \u003ccode\u003euniplate x = (cs, gen)\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ecs\u003c/code\u003e should be a \u003ccode\u003eStr on\u003c/code\u003e, constructed of \u003ccode\u003eZero\u003c/code\u003e, \u003ccode\u003eOne\u003c/code\u003e and \u003ccode\u003eTwo\u003c/code\u003e,\n   containing all \u003ccode\u003ex\u003c/code\u003e's direct children of the same type as \u003ccode\u003ex\u003c/code\u003e. \u003ccode\u003egen\u003c/code\u003e\n   should take a \u003ccode\u003eStr on\u003c/code\u003e with exactly the same structure as \u003ccode\u003ecs\u003c/code\u003e,\n   and generate a new element with the children replaced.\n\u003c/p\u003e\u003cp\u003eExample instance:\n\u003c/p\u003e\u003cpre\u003e instance Uniplate Expr where\n     uniplate (Val i  ) = (Zero               , \\Zero                  -\u003e Val i  )\n     uniplate (Neg a  ) = (One a              , \\(One a)               -\u003e Neg a  )\n     uniplate (Add a b) = (Two (One a) (One b), \\(Two (One a) (One b)) -\u003e Add a b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "uniplate",
           "package": "ideas",
@@ -21474,6 +23219,7 @@
         "index": {
           "description": "The underlying method in the class Taking value the function should return all the immediate children of the same type and function to replace them Given uniplate cs gen cs should be Str on constructed of Zero One and Two containing all direct children of the same type as gen should take Str on with exactly the same structure as cs and generate new element with the children replaced Example instance instance Uniplate Expr where uniplate Val Zero Zero Val uniplate Neg One One Neg uniplate Add Two One One Two One One Add",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "uniplate",
           "normalized": "a-\u003e(Str a,Str a-\u003ea)",
@@ -21489,6 +23235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all the children of a node, including itself and all children.\n\u003c/p\u003e\u003cpre\u003e universe (Add (Val 1) (Neg (Val 2))) =\n     [Add (Val 1) (Neg (Val 2)), Val 1, Neg (Val 2), Val 2]\n\u003c/pre\u003e\u003cp\u003eThis method is often combined with a list comprehension, for example:\n\u003c/p\u003e\u003cpre\u003e vals x = [i | Val i \u003c- universe x]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "universe",
           "package": "ideas",
@@ -21498,6 +23245,7 @@
         "index": {
           "description": "Get all the children of node including itself and all children universe Add Val Neg Val Add Val Neg Val Val Neg Val Val This method is often combined with list comprehension for example vals Val universe",
           "hierarchy": "Ideas Common Utils Uniplate",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils.Uniplate",
           "name": "universe",
           "normalized": "a-\u003e[a]",
@@ -21513,6 +23261,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of general utility functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "Utils",
           "package": "ideas",
@@ -21522,6 +23271,7 @@
         "index": {
           "description": "collection of general utility functions",
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "Utils",
           "package": "ideas",
@@ -21535,6 +23285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "ShowString",
           "package": "ideas",
@@ -21543,6 +23294,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "ShowString",
           "package": "ideas",
@@ -21556,6 +23308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "Some",
           "package": "ideas",
@@ -21564,6 +23317,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "Some",
           "package": "ideas",
@@ -21577,6 +23331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "ShowString",
           "package": "ideas",
@@ -21586,6 +23341,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "ShowString",
           "package": "ideas",
@@ -21599,6 +23355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "Some",
           "package": "ideas",
@@ -21608,6 +23365,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "Some",
           "package": "ideas",
@@ -21621,6 +23379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "allsame",
           "package": "ideas",
@@ -21630,6 +23389,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "allsame",
           "normalized": "[a]-\u003eBool",
@@ -21644,6 +23404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "cartesian",
           "package": "ideas",
@@ -21653,6 +23414,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "cartesian",
           "normalized": "[a]-\u003e[b]-\u003e[(a,b)]",
@@ -21667,6 +23429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "changeAt",
           "package": "ideas",
@@ -21676,6 +23439,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "changeAt",
           "normalized": "Int-\u003e(a-\u003ea)-\u003e[a]-\u003eb[a]",
@@ -21691,6 +23455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "distinct",
           "package": "ideas",
@@ -21700,6 +23465,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "distinct",
           "normalized": "[a]-\u003eBool",
@@ -21714,6 +23480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "elementAt",
           "package": "ideas",
@@ -21723,6 +23490,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "elementAt",
           "normalized": "Int-\u003e[a]-\u003eb a",
@@ -21738,6 +23506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "findIndexM",
           "package": "ideas",
@@ -21747,6 +23516,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "findIndexM",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eb Int",
@@ -21762,6 +23532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "fixpoint",
           "package": "ideas",
@@ -21771,6 +23542,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "fixpoint",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -21785,6 +23557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "fromShowString",
           "package": "ideas",
@@ -21794,6 +23567,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "fromShowString",
           "package": "ideas",
@@ -21807,6 +23581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "fst3",
           "package": "ideas",
@@ -21816,6 +23591,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -21830,6 +23606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "headM",
           "package": "ideas",
@@ -21839,6 +23616,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "headM",
           "normalized": "[a]-\u003eb a",
@@ -21853,6 +23631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "isSubsetOf",
           "package": "ideas",
@@ -21862,6 +23641,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "isSubsetOf",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -21877,6 +23657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "list",
           "package": "ideas",
@@ -21886,6 +23667,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "list",
           "normalized": "a-\u003e([b]-\u003ea)-\u003e[b]-\u003ea",
@@ -21900,6 +23682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "readInt",
           "package": "ideas",
@@ -21909,6 +23692,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "readInt",
           "normalized": "String-\u003eMaybe Int",
@@ -21924,6 +23708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "readM",
           "package": "ideas",
@@ -21933,6 +23718,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "readM",
           "normalized": "String-\u003ea b",
@@ -21947,6 +23733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "replaceAt",
           "package": "ideas",
@@ -21956,6 +23743,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "replaceAt",
           "normalized": "Int-\u003ea-\u003e[a]-\u003eb[a]",
@@ -21971,6 +23759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "snd3",
           "package": "ideas",
@@ -21980,6 +23769,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -21994,6 +23784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "splitAtElem",
           "package": "ideas",
@@ -22003,6 +23794,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "splitAtElem",
           "normalized": "a-\u003e[a]-\u003eMaybe([a],[a])",
@@ -22018,6 +23810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "splitsWithElem",
           "package": "ideas",
@@ -22027,6 +23820,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "splitsWithElem",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -22042,6 +23836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "subsets",
           "package": "ideas",
@@ -22051,6 +23846,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "subsets",
           "normalized": "[a]-\u003e[[a]]",
@@ -22065,6 +23861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "thd3",
           "package": "ideas",
@@ -22074,6 +23871,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "thd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -22088,6 +23886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "timedSeconds",
           "package": "ideas",
@@ -22097,6 +23896,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "timedSeconds",
           "normalized": "Int-\u003eIO a-\u003eIO a",
@@ -22113,6 +23913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a fixed standard \u003ca\u003erandom\u003c/a\u003e number generator. This generator is\n accessible by calling System.Random.getStdGen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.Utils",
           "name": "useFixedStdGen",
           "package": "ideas",
@@ -22123,6 +23924,7 @@
         "index": {
           "description": "Use fixed standard random number generator This generator is accessible by calling System.Random.getStdGen",
           "hierarchy": "Ideas Common Utils",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.Utils",
           "name": "useFixedStdGen",
           "normalized": "IO()",
@@ -22139,6 +23941,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines views on data-types, as described in \u003ca\u003eCanonical Forms\n in Interactive Exercise Assistants\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "View",
           "package": "ideas",
@@ -22148,6 +23951,7 @@
         "index": {
           "description": "This module defines views on data-types as described in Canonical Forms in Interactive Exercise Assistants",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "View",
           "package": "ideas",
@@ -22162,6 +23966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic arrow class.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e, satisfying the laws\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e id = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (f \u003e\u003e\u003e g) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e f) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e (f \u003e\u003e\u003e g) = \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e \u003e\u003e\u003e f\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e *** g) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e *** g) \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f) \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eassoc\u003c/code\u003e = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eassoc\u003c/code\u003e \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cpre\u003e assoc ((a,b),c) = (a,(b,c))\n\u003c/pre\u003e\u003cp\u003eThe other combinators have sensible default definitions,\n which may be overridden for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "Arrow",
           "package": "ideas",
@@ -22170,6 +23975,7 @@
         "index": {
           "description": "The basic arrow class Minimal complete definition arr and first satisfying the laws arr id id arr arr arr first arr arr first first first first first arr fst arr fst first arr id arr id first first first arr assoc arr assoc first where assoc The other combinators have sensible default definitions which may be overridden for efficiency",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "Arrow",
           "package": "ideas",
@@ -22184,6 +23990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoice, for arrows that support it.  This class underlies the\n \u003ccode\u003eif\u003c/code\u003e and \u003ccode\u003ecase\u003c/code\u003e constructs in arrow notation.\n Minimal complete definition: \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e, satisfying the laws\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e f) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e f)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e (f \u003e\u003e\u003e g) = \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ef \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e f \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e +++ g) = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e +++ g) \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e f) \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eassocsum\u003c/code\u003e = \u003ccode\u003e\u003ca\u003earr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eassocsum\u003c/code\u003e \u003e\u003e\u003e \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cpre\u003e assocsum (Left (Left x)) = Left x\n assocsum (Left (Right y)) = Right (Left y)\n assocsum (Right z) = Right (Right z)\n\u003c/pre\u003e\u003cp\u003eThe other combinators have sensible default definitions, which may\n be overridden for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "ArrowChoice",
           "package": "ideas",
@@ -22192,6 +23999,7 @@
         "index": {
           "description": "Choice for arrows that support it This class underlies the if and case constructs in arrow notation Minimal complete definition left satisfying the laws left arr arr left left left left arr Left arr Left left left arr id arr id left left left arr assocsum arr assocsum left where assocsum Left Left Left assocsum Left Right Right Left assocsum Right Right Right The other combinators have sensible default definitions which may be overridden for efficiency",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "ArrowChoice",
           "package": "ideas",
@@ -22206,6 +24014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monoid on arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "ArrowPlus",
           "package": "ideas",
@@ -22214,6 +24023,7 @@
         "index": {
           "description": "monoid on arrows",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "ArrowPlus",
           "package": "ideas",
@@ -22227,6 +24037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "ArrowZero",
           "package": "ideas",
@@ -22234,6 +24045,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "ArrowZero",
           "package": "ideas",
@@ -22247,6 +24059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "IsMatcher",
           "package": "ideas",
@@ -22255,6 +24068,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "IsMatcher",
           "package": "ideas",
@@ -22269,6 +24083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal complete definition: \u003ccode\u003etoView\u003c/code\u003e or both \u003ccode\u003ematch\u003c/code\u003e and \u003ccode\u003ebuild\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "IsView",
           "package": "ideas",
@@ -22278,6 +24093,7 @@
         "index": {
           "description": "Minimal complete definition toView or both match and build",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "IsView",
           "package": "ideas",
@@ -22291,6 +24107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "Isomorphism",
           "package": "ideas",
@@ -22299,6 +24116,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "Isomorphism",
           "package": "ideas",
@@ -22312,6 +24130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "LiftView",
           "package": "ideas",
@@ -22320,6 +24139,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "LiftView",
           "package": "ideas",
@@ -22333,6 +24153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "Matcher",
           "package": "ideas",
@@ -22341,6 +24162,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "Matcher",
           "package": "ideas",
@@ -22354,6 +24176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "View",
           "package": "ideas",
@@ -22362,6 +24185,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "View",
           "package": "ideas",
@@ -22375,6 +24199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "ViewPackage",
           "package": "ideas",
@@ -22383,6 +24208,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "ViewPackage",
           "package": "ideas",
@@ -22397,6 +24223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFanin: Split the input between the two argument arrows and\n   merge their outputs.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "(|||)",
           "package": "ideas",
@@ -22406,6 +24233,7 @@
         "index": {
           "description": "Fanin Split the input between the two argument arrows and merge their outputs The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "(|||) |||",
           "normalized": "a b c-\u003ea d c-\u003ea(Either b d)c",
@@ -22420,6 +24248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "($\u003c)",
           "package": "ideas",
@@ -22429,6 +24258,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "($\u003c) $\u003c",
           "normalized": "View a(b c)-\u003eView c d-\u003eView a(b d)",
@@ -22444,6 +24274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFanout: send the input to both argument arrows and combine\n   their output.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "(&&&)",
           "package": "ideas",
@@ -22453,6 +24284,7 @@
         "index": {
           "description": "Fanout send the input to both argument arrows and combine their output The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "(&&&) &&&",
           "normalized": "a b c-\u003ea b d-\u003ea b(c,d)",
@@ -22468,6 +24300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the input between the two argument arrows and combine\n   their output.  Note that this is in general not a functor.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "(***)",
           "package": "ideas",
@@ -22477,6 +24310,7 @@
         "index": {
           "description": "Split the input between the two argument arrows and combine their output Note that this is in general not functor The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "(***) ***",
           "normalized": "a b c-\u003ea d e-\u003ea(b,d)(c,e)",
@@ -22492,6 +24326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the input between the two argument arrows, retagging\n   and merging their outputs.\n   Note that this is in general not a functor.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "(+++)",
           "package": "ideas",
@@ -22501,6 +24336,7 @@
         "index": {
           "description": "Split the input between the two argument arrows retagging and merging their outputs Note that this is in general not functor The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "(+++) +++",
           "normalized": "a b c-\u003ea d e-\u003ea(Either b d)(Either c e)",
@@ -22516,6 +24352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation with identity \u003ccode\u003e\u003ca\u003ezeroArrow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "(\u003c+\u003e)",
           "package": "ideas",
@@ -22525,6 +24362,7 @@
         "index": {
           "description": "An associative operation with identity zeroArrow",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a b c-\u003ea b c-\u003ea b c",
@@ -22540,6 +24378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-to-left composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "(\u003c\u003c\u003c)",
           "package": "ideas",
@@ -22549,6 +24388,7 @@
         "index": {
           "description": "Right-to-left composition",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -22564,6 +24404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-to-right composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "(\u003e\u003e\u003e)",
           "package": "ideas",
@@ -22573,6 +24414,7 @@
         "index": {
           "description": "Left-to-right composition",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -22587,6 +24429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "ViewPackage",
           "package": "ideas",
@@ -22596,6 +24439,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "ViewPackage",
           "normalized": "(String-\u003eMaybe a)-\u003eView a b-\u003eViewPackage",
@@ -22612,6 +24456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function to an arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "arr",
           "package": "ideas",
@@ -22621,6 +24466,7 @@
         "index": {
           "description": "Lift function to an arrow",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "arr",
           "normalized": "(a-\u003eb)-\u003ec a b",
@@ -22635,6 +24481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "belongsTo",
           "package": "ideas",
@@ -22644,6 +24491,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "belongsTo",
           "normalized": "a-\u003eb a c-\u003eBool",
@@ -22659,6 +24507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "build",
           "package": "ideas",
@@ -22668,6 +24517,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "build",
           "normalized": "a b c-\u003ec-\u003eb",
@@ -22682,6 +24532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "canonical",
           "package": "ideas",
@@ -22691,6 +24542,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "canonical",
           "normalized": "a b c-\u003eb-\u003eMaybe b",
@@ -22705,6 +24557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "canonicalWith",
           "package": "ideas",
@@ -22714,6 +24567,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "canonicalWith",
           "normalized": "(a-\u003ea)-\u003eb c a-\u003ec-\u003eMaybe c",
@@ -22729,6 +24583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "canonicalWithM",
           "package": "ideas",
@@ -22738,6 +24593,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "canonicalWithM",
           "normalized": "(a-\u003eMaybe a)-\u003eb c a-\u003ec-\u003eMaybe c",
@@ -22754,6 +24610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the first component of the input through the argument\n   arrow, and copy the rest unchanged to the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "first",
           "package": "ideas",
@@ -22763,6 +24620,7 @@
         "index": {
           "description": "Send the first component of the input through the argument arrow and copy the rest unchanged to the output",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "first",
           "normalized": "a b c-\u003ea(b,d)(c,d)",
@@ -22777,6 +24635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "from",
           "package": "ideas",
@@ -22786,6 +24645,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "from",
           "normalized": "Isomorphism a b-\u003ea-\u003eb",
@@ -22800,6 +24660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "identity",
           "package": "ideas",
@@ -22809,6 +24670,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "identity",
           "package": "ideas",
@@ -22821,6 +24683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "inverse",
           "package": "ideas",
@@ -22830,6 +24693,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "inverse",
           "normalized": "Isomorphism a b-\u003eIsomorphism b a",
@@ -22844,6 +24708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "isCanonical",
           "package": "ideas",
@@ -22853,6 +24718,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "isCanonical",
           "normalized": "a b c-\u003eb-\u003eBool",
@@ -22868,6 +24734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "isCanonicalWith",
           "package": "ideas",
@@ -22877,6 +24744,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "isCanonicalWith",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eb a c-\u003ea-\u003eBool",
@@ -22893,6 +24761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed marked inputs through the argument arrow, passing the\n   rest through unchanged to the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "left",
           "package": "ideas",
@@ -22902,6 +24771,7 @@
         "index": {
           "description": "Feed marked inputs through the argument arrow passing the rest through unchanged to the output",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "left",
           "normalized": "a b c-\u003ea(Either b d)(Either c d)",
@@ -22916,6 +24786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "liftView",
           "package": "ideas",
@@ -22925,6 +24796,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "liftView",
           "normalized": "View a b-\u003ec b-\u003ec a",
@@ -22940,6 +24812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "liftViewIn",
           "package": "ideas",
@@ -22949,6 +24822,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "liftViewIn",
           "normalized": "View a(b,c)-\u003ed b-\u003ed a",
@@ -22965,6 +24839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized version of traverseView\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "listView",
           "package": "ideas",
@@ -22975,6 +24850,7 @@
         "index": {
           "description": "Specialized version of traverseView",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "listView",
           "normalized": "View a b-\u003eView[a][b]",
@@ -22990,6 +24866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "makeMatcher",
           "package": "ideas",
@@ -22999,6 +24876,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "makeMatcher",
           "normalized": "(a-\u003eMaybe b)-\u003eMatcher a b",
@@ -23014,6 +24892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "makeView",
           "package": "ideas",
@@ -23023,6 +24902,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "makeView",
           "normalized": "(a-\u003eMaybe b)-\u003e(b-\u003ea)-\u003eView a b",
@@ -23038,6 +24918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "match",
           "package": "ideas",
@@ -23047,6 +24928,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "match",
           "normalized": "a b c-\u003eb-\u003eMaybe c",
@@ -23062,6 +24944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneralized monadic variant of \u003ccode\u003ematch\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "matchM",
           "package": "ideas",
@@ -23072,6 +24955,7 @@
         "index": {
           "description": "generalized monadic variant of match",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "matchM",
           "normalized": "a b c-\u003eb-\u003ed c",
@@ -23086,6 +24970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "matcher",
           "package": "ideas",
@@ -23095,6 +24980,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "matcher",
           "normalized": "a b c-\u003eMatcher b c",
@@ -23109,6 +24995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "matcherView",
           "package": "ideas",
@@ -23118,6 +25005,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "matcherView",
           "normalized": "Matcher a b-\u003e(b-\u003ea)-\u003eView a b",
@@ -23133,6 +25021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "propIdempotence",
           "package": "ideas",
@@ -23142,6 +25031,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "propIdempotence",
           "normalized": "Gen a-\u003eView a b-\u003eProperty",
@@ -23157,6 +25047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "propNormalForm",
           "package": "ideas",
@@ -23166,6 +25057,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "propNormalForm",
           "normalized": "Gen a-\u003eView a b-\u003eProperty",
@@ -23181,6 +25073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "propSoundness",
           "package": "ideas",
@@ -23190,6 +25083,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "propSoundness",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eGen a-\u003eView a b-\u003eProperty",
@@ -23206,6 +25100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mirror image of \u003ccode\u003e\u003ca\u003eleft\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "right",
           "package": "ideas",
@@ -23215,6 +25110,7 @@
         "index": {
           "description": "mirror image of left The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "right",
           "normalized": "a b c-\u003ea(Either d b)(Either d c)",
@@ -23230,6 +25126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mirror image of \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "second",
           "package": "ideas",
@@ -23239,6 +25136,7 @@
         "index": {
           "description": "mirror image of first The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "second",
           "normalized": "a b c-\u003ea(d,b)(d,c)",
@@ -23253,6 +25151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "simplify",
           "package": "ideas",
@@ -23262,6 +25161,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "simplify",
           "normalized": "a b c-\u003eb-\u003eb",
@@ -23276,6 +25176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "simplifyWith",
           "package": "ideas",
@@ -23285,6 +25186,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "simplifyWith",
           "normalized": "(a-\u003ea)-\u003eb c a-\u003ec-\u003ec",
@@ -23300,6 +25202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "simplifyWithM",
           "package": "ideas",
@@ -23309,6 +25212,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "simplifyWithM",
           "normalized": "(a-\u003eMaybe a)-\u003eb c a-\u003ec-\u003ec",
@@ -23324,6 +25228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "swapView",
           "package": "ideas",
@@ -23333,6 +25238,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "swapView",
           "normalized": "Isomorphism(a,b)(b,a)",
@@ -23348,6 +25254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "to",
           "package": "ideas",
@@ -23357,6 +25264,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "to",
           "normalized": "Isomorphism a b-\u003eb-\u003ea",
@@ -23371,6 +25279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "toView",
           "package": "ideas",
@@ -23380,6 +25289,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "toView",
           "normalized": "a b c-\u003eView b c",
@@ -23395,6 +25305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "traverseView",
           "package": "ideas",
@@ -23404,6 +25315,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "traverseView",
           "normalized": "View a b-\u003eView(c a)(c b)",
@@ -23419,6 +25331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "viewEquivalent",
           "package": "ideas",
@@ -23428,6 +25341,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "viewEquivalent",
           "normalized": "a b c-\u003eb-\u003eb-\u003eBool",
@@ -23443,6 +25357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "viewEquivalentWith",
           "package": "ideas",
@@ -23452,6 +25367,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "viewEquivalentWith",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eb c a-\u003ec-\u003ec-\u003eBool",
@@ -23467,6 +25383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Common.View",
           "name": "zeroArrow",
           "package": "ideas",
@@ -23475,6 +25392,7 @@
         },
         "index": {
           "hierarchy": "Ideas Common View",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Common.View",
           "name": "zeroArrow",
           "package": "ideas",
@@ -23489,6 +25407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServices using JSON notation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "DecoderJSON",
           "package": "ideas",
@@ -23498,6 +25417,7 @@
         "index": {
           "description": "Services using JSON notation",
           "hierarchy": "Ideas Encoding DecoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "DecoderJSON",
           "package": "ideas",
@@ -23511,6 +25431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "JSONDecoder",
           "package": "ideas",
@@ -23519,6 +25440,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "JSONDecoder",
           "package": "ideas",
@@ -23532,6 +25454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "JSONDecoderState",
           "package": "ideas",
@@ -23540,6 +25463,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "JSONDecoderState",
           "package": "ideas",
@@ -23553,6 +25477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "JSONDecoderState",
           "package": "ideas",
@@ -23562,6 +25487,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "JSONDecoderState",
           "package": "ideas",
@@ -23575,6 +25501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "getExercise",
           "package": "ideas",
@@ -23584,6 +25511,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "getExercise",
           "package": "ideas",
@@ -23597,6 +25525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "getScript",
           "package": "ideas",
@@ -23606,6 +25535,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "getScript",
           "package": "ideas",
@@ -23619,6 +25549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "getStdGen",
           "package": "ideas",
@@ -23628,6 +25559,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "getStdGen",
           "package": "ideas",
@@ -23641,6 +25573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "jsonDecoder",
           "package": "ideas",
@@ -23650,6 +25583,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderJSON",
           "name": "jsonDecoder",
           "normalized": "Type a b-\u003eJSONDecoder a b",
@@ -23666,6 +25600,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServices using XML notation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "DecoderXML",
           "package": "ideas",
@@ -23675,6 +25610,7 @@
         "index": {
           "description": "Services using XML notation",
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "DecoderXML",
           "package": "ideas",
@@ -23688,6 +25624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "XMLDecoder",
           "package": "ideas",
@@ -23696,6 +25633,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "XMLDecoder",
           "package": "ideas",
@@ -23709,6 +25647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "XMLDecoderState",
           "package": "ideas",
@@ -23717,6 +25656,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "XMLDecoderState",
           "package": "ideas",
@@ -23730,6 +25670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "XMLDecoderState",
           "package": "ideas",
@@ -23739,6 +25680,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "XMLDecoderState",
           "package": "ideas",
@@ -23752,6 +25694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "decodeTerm",
           "package": "ideas",
@@ -23761,6 +25704,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "decodeTerm",
           "normalized": "XML-\u003eEither String a",
@@ -23776,6 +25720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "getExercise",
           "package": "ideas",
@@ -23785,6 +25730,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "getExercise",
           "package": "ideas",
@@ -23798,6 +25744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "getScript",
           "package": "ideas",
@@ -23807,6 +25754,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "getScript",
           "package": "ideas",
@@ -23820,6 +25768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "getStdGen",
           "package": "ideas",
@@ -23829,6 +25778,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "getStdGen",
           "package": "ideas",
@@ -23842,6 +25792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "isOpenMath",
           "package": "ideas",
@@ -23851,6 +25802,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "isOpenMath",
           "package": "ideas",
@@ -23864,6 +25816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "xmlDecoder",
           "package": "ideas",
@@ -23873,6 +25826,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding DecoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.DecoderXML",
           "name": "xmlDecoder",
           "normalized": "Type a b-\u003eXMLDecoder a b",
@@ -23889,6 +25843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncoding in HTML\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderHTML",
           "name": "EncoderHTML",
           "package": "ideas",
@@ -23898,6 +25853,7 @@
         "index": {
           "description": "Encoding in HTML",
           "hierarchy": "Ideas Encoding EncoderHTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderHTML",
           "name": "EncoderHTML",
           "package": "ideas",
@@ -23911,6 +25867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderHTML",
           "name": "htmlEncoder",
           "package": "ideas",
@@ -23920,6 +25877,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderHTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderHTML",
           "name": "htmlEncoder",
           "normalized": "LinkManager-\u003eDomainReasoner-\u003eExercise a-\u003eTypedValue(Type a)-\u003eHTMLPage",
@@ -23936,6 +25894,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServices using JSON notation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderJSON",
           "name": "EncoderJSON",
           "package": "ideas",
@@ -23945,6 +25904,7 @@
         "index": {
           "description": "Services using JSON notation",
           "hierarchy": "Ideas Encoding EncoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderJSON",
           "name": "EncoderJSON",
           "package": "ideas",
@@ -23958,6 +25918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderJSON",
           "name": "jsonEncoder",
           "package": "ideas",
@@ -23967,6 +25928,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderJSON",
           "name": "jsonEncoder",
           "package": "ideas",
@@ -23981,6 +25943,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServices using XML notation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "EncoderXML",
           "package": "ideas",
@@ -23990,6 +25953,7 @@
         "index": {
           "description": "Services using XML notation",
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "EncoderXML",
           "package": "ideas",
@@ -24003,6 +25967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "XMLEncoder",
           "package": "ideas",
@@ -24011,6 +25976,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "XMLEncoder",
           "package": "ideas",
@@ -24024,6 +25990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "XMLEncoderState",
           "package": "ideas",
@@ -24032,6 +25999,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "XMLEncoderState",
           "package": "ideas",
@@ -24045,6 +26013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "XMLEncoderState",
           "package": "ideas",
@@ -24054,6 +26023,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "XMLEncoderState",
           "package": "ideas",
@@ -24067,6 +26037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "encodeState",
           "package": "ideas",
@@ -24076,6 +26047,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "encodeState",
           "package": "ideas",
@@ -24089,6 +26061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "encodeTerm",
           "package": "ideas",
@@ -24098,6 +26071,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "encodeTerm",
           "normalized": "a-\u003eXMLBuilder",
@@ -24113,6 +26087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "getExercise",
           "package": "ideas",
@@ -24122,6 +26097,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "getExercise",
           "package": "ideas",
@@ -24135,6 +26111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "isOpenMath",
           "package": "ideas",
@@ -24144,6 +26121,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "isOpenMath",
           "package": "ideas",
@@ -24157,6 +26135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "xmlEncoder",
           "package": "ideas",
@@ -24166,6 +26145,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding EncoderXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.EncoderXML",
           "name": "xmlEncoder",
           "package": "ideas",
@@ -24179,6 +26159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "Evaluator",
           "package": "ideas",
@@ -24187,6 +26168,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "Evaluator",
           "package": "ideas",
@@ -24200,6 +26182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "EncoderState",
           "package": "ideas",
@@ -24208,6 +26191,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "EncoderState",
           "package": "ideas",
@@ -24221,6 +26205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "Evaluator",
           "package": "ideas",
@@ -24229,6 +26214,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "Evaluator",
           "package": "ideas",
@@ -24242,6 +26228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "(//)",
           "package": "ideas",
@@ -24251,6 +26238,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "(//) //",
           "normalized": "EncoderState a b c-\u003eb-\u003eEncoderState a d c",
@@ -24315,6 +26303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "Evaluator",
           "package": "ideas",
@@ -24324,6 +26313,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "Evaluator",
           "normalized": "(TypedValue(Type a)-\u003eb c)-\u003e(d e Type a f-\u003eb f)-\u003eEvaluator a b c",
@@ -24339,6 +26329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "eitherEncoder",
           "package": "ideas",
@@ -24348,6 +26339,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "eitherEncoder",
           "normalized": "(a-\u003eEither String b)-\u003eEncoderState c a b",
@@ -24363,6 +26355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "encodeTyped",
           "package": "ideas",
@@ -24372,6 +26365,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "encodeTyped",
           "normalized": "EncoderState a b c-\u003eEncoderState a(TypedValue(Type d))c",
@@ -24387,6 +26381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "encoderFor",
           "package": "ideas",
@@ -24396,6 +26391,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "encoderFor",
           "normalized": "(a-\u003eEncoderState b a c)-\u003eEncoderState b a c",
@@ -24411,6 +26407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "encoderStateFor",
           "package": "ideas",
@@ -24420,6 +26417,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "encoderStateFor",
           "normalized": "(a-\u003eb-\u003eEncoderState a b c)-\u003eEncoderState a b c",
@@ -24435,6 +26433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "evalService",
           "package": "ideas",
@@ -24444,6 +26443,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "evalService",
           "normalized": "Evaluator a b c-\u003eService-\u003eb c",
@@ -24459,6 +26459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "getState",
           "package": "ideas",
@@ -24468,6 +26469,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "getState",
           "package": "ideas",
@@ -24482,6 +26484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a binary function to actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "liftA2",
           "package": "ideas",
@@ -24491,6 +26494,7 @@
         "index": {
           "description": "Lift binary function to actions",
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "liftA2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -24505,6 +26509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "maybeEncoder",
           "package": "ideas",
@@ -24514,6 +26519,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "maybeEncoder",
           "normalized": "(a-\u003eMaybe b)-\u003eEncoderState c a b",
@@ -24530,6 +26536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "pure",
           "package": "ideas",
@@ -24539,6 +26546,7 @@
         "index": {
           "description": "Lift value",
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "pure",
           "normalized": "a b c-\u003ed c",
@@ -24553,6 +26561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "runEncoderState",
           "package": "ideas",
@@ -24562,6 +26571,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "runEncoderState",
           "normalized": "EncoderState a b c-\u003ea-\u003eb-\u003eEither String c",
@@ -24577,6 +26587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "runEncoderStateM",
           "package": "ideas",
@@ -24586,6 +26597,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "runEncoderStateM",
           "normalized": "EncoderState a b c-\u003ea-\u003eb-\u003ed c",
@@ -24601,6 +26613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "simpleEncoder",
           "package": "ideas",
@@ -24610,6 +26623,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "simpleEncoder",
           "normalized": "(a-\u003eb)-\u003eEncoderState c a b",
@@ -24625,6 +26639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.Evaluator",
           "name": "withState",
           "package": "ideas",
@@ -24634,6 +26649,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding Evaluator",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.Evaluator",
           "name": "withState",
           "normalized": "(a-\u003eb)-\u003eEncoderState a c b",
@@ -24650,6 +26666,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManages links to information\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "LinkManager",
           "package": "ideas",
@@ -24659,6 +26676,7 @@
         "index": {
           "description": "Manages links to information",
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "LinkManager",
           "package": "ideas",
@@ -24672,6 +26690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "LinkManager",
           "package": "ideas",
@@ -24680,6 +26699,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "LinkManager",
           "package": "ideas",
@@ -24693,6 +26713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "(\u003c/\u003e)",
           "package": "ideas",
@@ -24702,6 +26723,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "String-\u003eFilePath-\u003eFilePath",
@@ -24716,6 +26738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "LinkManager",
           "package": "ideas",
@@ -24725,6 +26748,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "LinkManager",
           "package": "ideas",
@@ -24738,6 +26762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "dynamicLinks",
           "package": "ideas",
@@ -24747,6 +26772,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "dynamicLinks",
           "normalized": "String-\u003eLinkManager",
@@ -24762,6 +26788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "isStatic",
           "package": "ideas",
@@ -24771,6 +26798,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "isStatic",
           "package": "ideas",
@@ -24784,6 +26812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToApplications",
           "package": "ideas",
@@ -24793,6 +26822,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToApplications",
           "normalized": "LinkManager-\u003eState a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -24808,6 +26838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToDerivation",
           "package": "ideas",
@@ -24817,6 +26848,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToDerivation",
           "normalized": "LinkManager-\u003eState a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -24832,6 +26864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToDerivations",
           "package": "ideas",
@@ -24841,6 +26874,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToDerivations",
           "normalized": "LinkManager-\u003eExercise a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -24856,6 +26890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToExamples",
           "package": "ideas",
@@ -24865,6 +26900,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToExamples",
           "normalized": "LinkManager-\u003eExercise a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -24880,6 +26916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToExercise",
           "package": "ideas",
@@ -24889,6 +26926,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToExercise",
           "normalized": "LinkManager-\u003eExercise a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -24904,6 +26942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToExercises",
           "package": "ideas",
@@ -24913,6 +26952,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToExercises",
           "normalized": "LinkManager-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -24928,6 +26968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToFirsts",
           "package": "ideas",
@@ -24937,6 +26978,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToFirsts",
           "normalized": "LinkManager-\u003eState a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -24952,6 +26994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToIndex",
           "package": "ideas",
@@ -24961,6 +27004,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToIndex",
           "normalized": "LinkManager-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -24976,6 +27020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToRandomExample",
           "package": "ideas",
@@ -24985,6 +27030,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToRandomExample",
           "normalized": "LinkManager-\u003eExercise a-\u003eDifficulty-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -25000,6 +27046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToRule",
           "package": "ideas",
@@ -25009,6 +27056,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToRule",
           "normalized": "LinkManager-\u003eExercise a-\u003eRule(Context a)-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -25024,6 +27072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToRules",
           "package": "ideas",
@@ -25033,6 +27082,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToRules",
           "normalized": "LinkManager-\u003eExercise a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -25048,6 +27098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToService",
           "package": "ideas",
@@ -25057,6 +27108,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToService",
           "normalized": "LinkManager-\u003eService-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -25072,6 +27124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToServices",
           "package": "ideas",
@@ -25081,6 +27134,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToServices",
           "normalized": "LinkManager-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -25096,6 +27150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToState",
           "package": "ideas",
@@ -25105,6 +27160,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToState",
           "normalized": "LinkManager-\u003eState a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -25120,6 +27176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToStrategy",
           "package": "ideas",
@@ -25129,6 +27186,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linkToStrategy",
           "normalized": "LinkManager-\u003eExercise a-\u003eHTMLBuilder-\u003eHTMLBuilder",
@@ -25144,6 +27202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linksUp",
           "package": "ideas",
@@ -25153,6 +27212,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "linksUp",
           "normalized": "Int-\u003eLinkManager-\u003eLinkManager",
@@ -25168,6 +27228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "pathLevel",
           "package": "ideas",
@@ -25177,6 +27238,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "pathLevel",
           "normalized": "FilePath-\u003eInt",
@@ -25192,6 +27254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "stateToXML",
           "package": "ideas",
@@ -25201,6 +27264,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "stateToXML",
           "normalized": "State a-\u003eXMLBuilder",
@@ -25216,6 +27280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "staticLinks",
           "package": "ideas",
@@ -25225,6 +27290,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "staticLinks",
           "package": "ideas",
@@ -25238,6 +27304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForApplications",
           "package": "ideas",
@@ -25247,6 +27314,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForApplications",
           "normalized": "a b State c-\u003eString",
@@ -25262,6 +27330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForDerivation",
           "package": "ideas",
@@ -25271,6 +27340,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForDerivation",
           "normalized": "a b State c-\u003eString",
@@ -25286,6 +27356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForDerivations",
           "package": "ideas",
@@ -25295,6 +27366,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForDerivations",
           "normalized": "a b Exercise c-\u003eString",
@@ -25310,6 +27382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForExamples",
           "package": "ideas",
@@ -25319,6 +27392,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForExamples",
           "normalized": "a b Exercise c-\u003eString",
@@ -25334,6 +27408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForExercise",
           "package": "ideas",
@@ -25343,6 +27418,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForExercise",
           "normalized": "a b Exercise c-\u003eString",
@@ -25358,6 +27434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForExercises",
           "package": "ideas",
@@ -25367,6 +27444,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForExercises",
           "package": "ideas",
@@ -25380,6 +27458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForFirsts",
           "package": "ideas",
@@ -25389,6 +27468,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForFirsts",
           "normalized": "a b State c-\u003eString",
@@ -25404,6 +27484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForIndex",
           "package": "ideas",
@@ -25413,6 +27494,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForIndex",
           "package": "ideas",
@@ -25426,6 +27508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForRandomExample",
           "package": "ideas",
@@ -25435,6 +27518,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForRandomExample",
           "normalized": "a b Exercise c-\u003eDifficulty-\u003eString",
@@ -25450,6 +27534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForRequest",
           "package": "ideas",
@@ -25459,6 +27544,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForRequest",
           "package": "ideas",
@@ -25472,6 +27558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForResource",
           "package": "ideas",
@@ -25481,6 +27568,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForResource",
           "normalized": "String-\u003eString",
@@ -25496,6 +27584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForRule",
           "package": "ideas",
@@ -25505,6 +27594,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForRule",
           "normalized": "a b Exercise c-\u003eRule(Context c)-\u003eString",
@@ -25520,6 +27610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForRules",
           "package": "ideas",
@@ -25529,6 +27620,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForRules",
           "normalized": "a b Exercise c-\u003eString",
@@ -25544,6 +27636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForService",
           "package": "ideas",
@@ -25553,6 +27646,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForService",
           "normalized": "Service-\u003eString",
@@ -25568,6 +27662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForServices",
           "package": "ideas",
@@ -25577,6 +27672,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForServices",
           "package": "ideas",
@@ -25590,6 +27686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForState",
           "package": "ideas",
@@ -25599,6 +27696,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForState",
           "normalized": "a b State c-\u003eString",
@@ -25614,6 +27712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForStrategy",
           "package": "ideas",
@@ -25623,6 +27722,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding LinkManager",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.LinkManager",
           "name": "urlForStrategy",
           "normalized": "a b Exercise c-\u003eString",
@@ -25639,6 +27739,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServices using JSON notation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.ModeJSON",
           "name": "ModeJSON",
           "package": "ideas",
@@ -25648,6 +27749,7 @@
         "index": {
           "description": "Services using JSON notation",
           "hierarchy": "Ideas Encoding ModeJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.ModeJSON",
           "name": "ModeJSON",
           "package": "ideas",
@@ -25661,6 +27763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.ModeJSON",
           "name": "processJSON",
           "package": "ideas",
@@ -25670,6 +27773,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding ModeJSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.ModeJSON",
           "name": "processJSON",
           "normalized": "Bool-\u003eDomainReasoner-\u003eString-\u003eIO(Request,String,String)",
@@ -25686,6 +27790,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServices using XML notation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.ModeXML",
           "name": "ModeXML",
           "package": "ideas",
@@ -25695,6 +27800,7 @@
         "index": {
           "description": "Services using XML notation",
           "hierarchy": "Ideas Encoding ModeXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.ModeXML",
           "name": "ModeXML",
           "package": "ideas",
@@ -25708,6 +27814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.ModeXML",
           "name": "processXML",
           "package": "ideas",
@@ -25717,6 +27824,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding ModeXML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.ModeXML",
           "name": "processXML",
           "normalized": "DomainReasoner-\u003eMaybe String-\u003eString-\u003eIO(Request,String,String)",
@@ -25732,6 +27840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "OpenMathSupport",
           "package": "ideas",
@@ -25740,6 +27849,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding OpenMathSupport",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "OpenMathSupport",
           "package": "ideas",
@@ -25753,6 +27863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "fromOMOBJ",
           "package": "ideas",
@@ -25762,6 +27873,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding OpenMathSupport",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "fromOMOBJ",
           "normalized": "OMOBJ-\u003ea b",
@@ -25777,6 +27889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "fromOpenMath",
           "package": "ideas",
@@ -25786,6 +27899,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding OpenMathSupport",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "fromOpenMath",
           "normalized": "Exercise a-\u003eOMOBJ-\u003eb a",
@@ -25801,6 +27915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "noMixedFractions",
           "package": "ideas",
@@ -25810,6 +27925,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding OpenMathSupport",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "noMixedFractions",
           "normalized": "OMOBJ-\u003eOMOBJ",
@@ -25825,6 +27941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "toOMOBJ",
           "package": "ideas",
@@ -25834,6 +27951,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding OpenMathSupport",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "toOMOBJ",
           "normalized": "a-\u003eOMOBJ",
@@ -25849,6 +27967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "toOpenMath",
           "package": "ideas",
@@ -25858,6 +27977,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding OpenMathSupport",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.OpenMathSupport",
           "name": "toOpenMath",
           "normalized": "Exercise a-\u003ea-\u003eb OMOBJ",
@@ -25873,6 +27993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.RulePresenter",
           "name": "RulePresenter",
           "package": "ideas",
@@ -25881,6 +28002,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding RulePresenter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.RulePresenter",
           "name": "RulePresenter",
           "package": "ideas",
@@ -25894,6 +28016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.RulePresenter",
           "name": "ruleToHTML",
           "package": "ideas",
@@ -25903,6 +28026,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding RulePresenter",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.RulePresenter",
           "name": "ruleToHTML",
           "normalized": "Some Exercise-\u003eRule a-\u003eHTMLBuilder",
@@ -25918,6 +28042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "RulesInfo",
           "package": "ideas",
@@ -25926,6 +28051,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding RulesInfo",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "RulesInfo",
           "package": "ideas",
@@ -25939,6 +28065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "ExampleMap",
           "package": "ideas",
@@ -25947,6 +28074,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding RulesInfo",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "ExampleMap",
           "package": "ideas",
@@ -25960,6 +28088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "collectExamples",
           "package": "ideas",
@@ -25969,6 +28098,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding RulesInfo",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "collectExamples",
           "normalized": "Exercise a-\u003eExampleMap a",
@@ -25984,6 +28114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "rewriteRuleToFMP",
           "package": "ideas",
@@ -25993,6 +28124,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding RulesInfo",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "rewriteRuleToFMP",
           "normalized": "Bool-\u003eRewriteRule a-\u003eFMP",
@@ -26008,6 +28140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "rulesInfoXML",
           "package": "ideas",
@@ -26017,6 +28150,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding RulesInfo",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.RulesInfo",
           "name": "rulesInfoXML",
           "normalized": "Exercise a-\u003e(a-\u003eXMLBuilder)-\u003eXMLBuilder",
@@ -26033,6 +28167,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConverting a strategy to XML, and the other way around.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.StrategyInfo",
           "name": "StrategyInfo",
           "package": "ideas",
@@ -26042,6 +28177,7 @@
         "index": {
           "description": "Converting strategy to XML and the other way around",
           "hierarchy": "Ideas Encoding StrategyInfo",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.StrategyInfo",
           "name": "StrategyInfo",
           "package": "ideas",
@@ -26055,6 +28191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.StrategyInfo",
           "name": "strategyToXML",
           "package": "ideas",
@@ -26064,6 +28201,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding StrategyInfo",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.StrategyInfo",
           "name": "strategyToXML",
           "normalized": "a b-\u003eXML",
@@ -26079,6 +28217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Encoding.StrategyInfo",
           "name": "xmlToStrategy",
           "package": "ideas",
@@ -26088,6 +28227,7 @@
         },
         "index": {
           "hierarchy": "Ideas Encoding StrategyInfo",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Encoding.StrategyInfo",
           "name": "xmlToStrategy",
           "normalized": "(String-\u003eMaybe(Rule a))-\u003eXML-\u003eb(Strategy a)",
@@ -26103,6 +28243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.BlackBoxTests",
           "name": "BlackBoxTests",
           "package": "ideas",
@@ -26111,6 +28252,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main BlackBoxTests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.BlackBoxTests",
           "name": "BlackBoxTests",
           "package": "ideas",
@@ -26124,6 +28266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.BlackBoxTests",
           "name": "blackBoxTests",
           "package": "ideas",
@@ -26133,6 +28276,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main BlackBoxTests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.BlackBoxTests",
           "name": "blackBoxTests",
           "normalized": "DomainReasoner-\u003eString-\u003eIO TestSuite",
@@ -26149,6 +28293,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain module for feedback services\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Default",
           "name": "Default",
           "package": "ideas",
@@ -26158,6 +28303,7 @@
         "index": {
           "description": "Main module for feedback services",
           "hierarchy": "Ideas Main Default",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Default",
           "name": "Default",
           "package": "ideas",
@@ -26171,6 +28317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Default",
           "name": "defaultMain",
           "package": "ideas",
@@ -26180,6 +28327,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Default",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Default",
           "name": "defaultMain",
           "normalized": "DomainReasoner-\u003eIO()",
@@ -26195,6 +28343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Default",
           "name": "newDomainReasoner",
           "package": "ideas",
@@ -26204,6 +28353,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Default",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Default",
           "name": "newDomainReasoner",
           "normalized": "a-\u003eDomainReasoner",
@@ -26220,6 +28370,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManages links to information\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Documentation",
           "name": "Documentation",
           "package": "ideas",
@@ -26229,6 +28380,7 @@
         "index": {
           "description": "Manages links to information",
           "hierarchy": "Ideas Main Documentation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Documentation",
           "name": "Documentation",
           "package": "ideas",
@@ -26242,6 +28394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Documentation",
           "name": "makeDocumentation",
           "package": "ideas",
@@ -26251,6 +28404,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Documentation",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Documentation",
           "name": "makeDocumentation",
           "normalized": "DomainReasoner-\u003eString-\u003eIO()",
@@ -26267,6 +28421,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFacilities to create a log database\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.LoggingDatabase",
           "name": "LoggingDatabase",
           "package": "ideas",
@@ -26276,6 +28431,7 @@
         "index": {
           "description": "Facilities to create log database",
           "hierarchy": "Ideas Main LoggingDatabase",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.LoggingDatabase",
           "name": "LoggingDatabase",
           "package": "ideas",
@@ -26289,6 +28445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.LoggingDatabase",
           "name": "logEnabled",
           "package": "ideas",
@@ -26298,6 +28455,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main LoggingDatabase",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.LoggingDatabase",
           "name": "logEnabled",
           "package": "ideas",
@@ -26311,6 +28469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.LoggingDatabase",
           "name": "logMessage",
           "package": "ideas",
@@ -26320,6 +28479,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main LoggingDatabase",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.LoggingDatabase",
           "name": "logMessage",
           "normalized": "Request-\u003eString-\u003eString-\u003eString-\u003eUTCTime-\u003eIO()",
@@ -26336,6 +28496,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOptions and command-line flags for services\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "Options",
           "package": "ideas",
@@ -26345,6 +28506,7 @@
         "index": {
           "description": "Options and command-line flags for services",
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "Options",
           "package": "ideas",
@@ -26358,6 +28520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "Flag",
           "package": "ideas",
@@ -26366,6 +28529,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "Flag",
           "package": "ideas",
@@ -26379,6 +28543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "AnalyzeScript",
           "package": "ideas",
@@ -26388,6 +28553,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "AnalyzeScript",
           "package": "ideas",
@@ -26401,6 +28567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "Help",
           "package": "ideas",
@@ -26410,6 +28577,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "Help",
           "package": "ideas",
@@ -26423,6 +28591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "InputFile",
           "package": "ideas",
@@ -26432,6 +28601,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "InputFile",
           "package": "ideas",
@@ -26445,6 +28615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "MakePages",
           "package": "ideas",
@@ -26454,6 +28625,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "MakePages",
           "package": "ideas",
@@ -26467,6 +28639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "MakeScriptFor",
           "package": "ideas",
@@ -26476,6 +28649,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "MakeScriptFor",
           "package": "ideas",
@@ -26489,6 +28663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "Test",
           "package": "ideas",
@@ -26498,6 +28673,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "Test",
           "package": "ideas",
@@ -26511,6 +28687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "Version",
           "package": "ideas",
@@ -26520,6 +28697,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "Version",
           "package": "ideas",
@@ -26533,6 +28711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "fullVersion",
           "package": "ideas",
@@ -26542,6 +28721,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "fullVersion",
           "package": "ideas",
@@ -26555,6 +28735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "getFlags",
           "package": "ideas",
@@ -26564,6 +28745,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "getFlags",
           "normalized": "IO[Flag]",
@@ -26579,6 +28761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "helpText",
           "package": "ideas",
@@ -26588,6 +28771,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "helpText",
           "package": "ideas",
@@ -26601,6 +28785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "shortVersion",
           "package": "ideas",
@@ -26610,6 +28795,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "shortVersion",
           "package": "ideas",
@@ -26623,6 +28809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Options",
           "name": "versionText",
           "package": "ideas",
@@ -26632,6 +28819,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Options",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Options",
           "name": "versionText",
           "package": "ideas",
@@ -26645,6 +28833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Revision",
           "name": "Revision",
           "package": "ideas",
@@ -26653,6 +28842,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Revision",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Revision",
           "name": "Revision",
           "package": "ideas",
@@ -26666,6 +28856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Revision",
           "name": "ideasLastChanged",
           "package": "ideas",
@@ -26675,6 +28866,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Revision",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Revision",
           "name": "ideasLastChanged",
           "package": "ideas",
@@ -26688,6 +28880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Revision",
           "name": "ideasRevision",
           "package": "ideas",
@@ -26697,6 +28890,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Revision",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Revision",
           "name": "ideasRevision",
           "package": "ideas",
@@ -26710,6 +28904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Main.Revision",
           "name": "ideasVersion",
           "package": "ideas",
@@ -26719,6 +28914,7 @@
         },
         "index": {
           "hierarchy": "Ideas Main Revision",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Main.Revision",
           "name": "ideasVersion",
           "package": "ideas",
@@ -26732,6 +28928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "BasicServices",
           "package": "ideas",
@@ -26740,6 +28937,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "BasicServices",
           "package": "ideas",
@@ -26753,6 +28951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "StepInfo",
           "package": "ideas",
@@ -26761,6 +28960,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "StepInfo",
           "package": "ideas",
@@ -26774,6 +28974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "allapplications",
           "package": "ideas",
@@ -26783,6 +28984,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "allapplications",
           "normalized": "State a-\u003e[(Rule(Context a),Location,State a)]",
@@ -26797,6 +28999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "allfirsts",
           "package": "ideas",
@@ -26806,6 +29009,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "allfirsts",
           "normalized": "State a-\u003eEither String[(StepInfo a,State a)]",
@@ -26820,6 +29024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "applicable",
           "package": "ideas",
@@ -26829,6 +29034,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "applicable",
           "normalized": "Location-\u003eState a-\u003e[Rule(Context a)]",
@@ -26843,6 +29049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "apply",
           "package": "ideas",
@@ -26852,6 +29059,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "apply",
           "normalized": "Rule(Context a)-\u003eLocation-\u003eEnvironment-\u003eState a-\u003eEither String(State a)",
@@ -26866,6 +29074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "derivation",
           "package": "ideas",
@@ -26875,6 +29084,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "derivation",
           "normalized": "Maybe StrategyConfiguration-\u003eState a-\u003eEither String(Derivation(Rule(Context a),Environment)(Context a))",
@@ -26889,6 +29099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "exampleDerivations",
           "package": "ideas",
@@ -26898,6 +29109,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "exampleDerivations",
           "normalized": "Exercise a-\u003eEither String[Derivation(Rule(Context a),Environment)(Context a)]",
@@ -26913,6 +29125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "findbuggyrules",
           "package": "ideas",
@@ -26922,6 +29135,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "findbuggyrules",
           "normalized": "State a-\u003eContext a-\u003e[(Rule(Context a),Location,Environment)]",
@@ -26936,6 +29150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "generate",
           "package": "ideas",
@@ -26945,6 +29160,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "generate",
           "normalized": "Exercise a-\u003eMaybe Difficulty-\u003eIO(State a)",
@@ -26959,6 +29175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "generateWith",
           "package": "ideas",
@@ -26968,6 +29185,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "generateWith",
           "normalized": "StdGen-\u003eExercise a-\u003eMaybe Difficulty-\u003eEither String(State a)",
@@ -26983,6 +29201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "onefirst",
           "package": "ideas",
@@ -26992,6 +29211,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "onefirst",
           "normalized": "State a-\u003eEither String(StepInfo a,State a)",
@@ -27006,6 +29226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "ready",
           "package": "ideas",
@@ -27015,6 +29236,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "ready",
           "normalized": "State a-\u003eBool",
@@ -27029,6 +29251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.BasicServices",
           "name": "stepsremaining",
           "package": "ideas",
@@ -27038,6 +29261,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service BasicServices",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.BasicServices",
           "name": "stepsremaining",
           "normalized": "State a-\u003eEither String Int",
@@ -27053,6 +29277,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiagnose a term submitted by a student\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "Diagnose",
           "package": "ideas",
@@ -27062,6 +29287,7 @@
         "index": {
           "description": "Diagnose term submitted by student",
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "Diagnose",
           "package": "ideas",
@@ -27075,6 +29301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "Diagnosis",
           "package": "ideas",
@@ -27083,6 +29310,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "Diagnosis",
           "package": "ideas",
@@ -27096,6 +29324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "Buggy",
           "package": "ideas",
@@ -27105,6 +29334,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "Buggy",
           "package": "ideas",
@@ -27118,6 +29348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "Correct",
           "package": "ideas",
@@ -27127,6 +29358,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "Correct",
           "package": "ideas",
@@ -27140,6 +29372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "Detour",
           "package": "ideas",
@@ -27149,6 +29382,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "Detour",
           "package": "ideas",
@@ -27162,6 +29396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "Expected",
           "package": "ideas",
@@ -27171,6 +29406,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "Expected",
           "package": "ideas",
@@ -27184,6 +29420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "NotEquivalent",
           "package": "ideas",
@@ -27193,6 +29430,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "NotEquivalent",
           "package": "ideas",
@@ -27206,6 +29444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "Similar",
           "package": "ideas",
@@ -27215,6 +29454,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "Similar",
           "package": "ideas",
@@ -27228,6 +29468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "diagnose",
           "package": "ideas",
@@ -27237,6 +29478,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "diagnose",
           "normalized": "State a-\u003eContext a-\u003eDiagnosis a",
@@ -27251,6 +29493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "newState",
           "package": "ideas",
@@ -27260,6 +29503,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "newState",
           "normalized": "Diagnosis a-\u003eMaybe(State a)",
@@ -27275,6 +29519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Diagnose",
           "name": "restartIfNeeded",
           "package": "ideas",
@@ -27284,6 +29529,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Diagnose",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Diagnose",
           "name": "restartIfNeeded",
           "normalized": "State a-\u003eState a",
@@ -27299,6 +29545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "DomainReasoner",
           "package": "ideas",
@@ -27307,6 +29554,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "DomainReasoner",
           "package": "ideas",
@@ -27320,6 +29568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "DomainReasoner",
           "package": "ideas",
@@ -27328,6 +29577,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "DomainReasoner",
           "package": "ideas",
@@ -27341,6 +29591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "DR",
           "package": "ideas",
@@ -27350,6 +29601,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "DR",
           "package": "ideas",
@@ -27363,6 +29615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "aliases",
           "package": "ideas",
@@ -27372,6 +29625,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "aliases",
           "normalized": "[(Id,Id)]",
@@ -27386,6 +29640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "defaultScript",
           "package": "ideas",
@@ -27395,6 +29650,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "defaultScript",
           "normalized": "DomainReasoner-\u003eId-\u003eIO Script",
@@ -27410,6 +29666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "exercises",
           "package": "ideas",
@@ -27419,6 +29676,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "exercises",
           "normalized": "[Some Exercise]",
@@ -27433,6 +29691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "exercisesSorted",
           "package": "ideas",
@@ -27442,6 +29701,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "exercisesSorted",
           "normalized": "DomainReasoner-\u003e[Some Exercise]",
@@ -27457,6 +29717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "findExercise",
           "package": "ideas",
@@ -27466,6 +29727,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "findExercise",
           "normalized": "DomainReasoner-\u003eId-\u003ea(Some Exercise)",
@@ -27481,6 +29743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "findService",
           "package": "ideas",
@@ -27490,6 +29753,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "findService",
           "normalized": "DomainReasoner-\u003eId-\u003ea Service",
@@ -27505,6 +29769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "fullVersion",
           "package": "ideas",
@@ -27514,6 +29779,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "fullVersion",
           "package": "ideas",
@@ -27527,6 +29793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "reasonerId",
           "package": "ideas",
@@ -27536,6 +29803,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "reasonerId",
           "package": "ideas",
@@ -27549,6 +29817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "scripts",
           "package": "ideas",
@@ -27558,6 +29827,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "scripts",
           "normalized": "[(Id,FilePath)]",
@@ -27572,6 +29842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "services",
           "package": "ideas",
@@ -27581,6 +29852,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "services",
           "normalized": "[Service]",
@@ -27595,6 +29867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "servicesSorted",
           "package": "ideas",
@@ -27604,6 +29877,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "servicesSorted",
           "normalized": "DomainReasoner-\u003e[Service]",
@@ -27619,6 +29893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "testSuite",
           "package": "ideas",
@@ -27628,6 +29903,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "testSuite",
           "package": "ideas",
@@ -27641,6 +29917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "version",
           "package": "ideas",
@@ -27650,6 +29927,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "version",
           "package": "ideas",
@@ -27662,6 +29940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.DomainReasoner",
           "name": "views",
           "package": "ideas",
@@ -27671,6 +29950,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service DomainReasoner",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.DomainReasoner",
           "name": "views",
           "normalized": "[ViewPackage]",
@@ -27686,6 +29966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnalysis of a feedbackscript\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "Analysis",
           "package": "ideas",
@@ -27695,6 +29976,7 @@
         "index": {
           "description": "Analysis of feedbackscript",
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "Analysis",
           "package": "ideas",
@@ -27708,6 +29990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "Message",
           "package": "ideas",
@@ -27716,6 +29999,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "Message",
           "package": "ideas",
@@ -27729,6 +30013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "FeedbackUndefined",
           "package": "ideas",
@@ -27738,6 +30023,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "FeedbackUndefined",
           "package": "ideas",
@@ -27751,6 +30037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "NoTextForRule",
           "package": "ideas",
@@ -27760,6 +30047,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "NoTextForRule",
           "package": "ideas",
@@ -27773,6 +30061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "UnknownAttribute",
           "package": "ideas",
@@ -27782,6 +30071,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "UnknownAttribute",
           "package": "ideas",
@@ -27795,6 +30085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "UnknownCondAttr",
           "package": "ideas",
@@ -27804,6 +30095,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "UnknownCondAttr",
           "package": "ideas",
@@ -27817,6 +30109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "UnknownExercise",
           "package": "ideas",
@@ -27826,6 +30119,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "UnknownExercise",
           "package": "ideas",
@@ -27839,6 +30133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "UnknownFeedback",
           "package": "ideas",
@@ -27848,6 +30143,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "UnknownFeedback",
           "package": "ideas",
@@ -27861,6 +30157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "analyzeScript",
           "package": "ideas",
@@ -27870,6 +30167,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "analyzeScript",
           "normalized": "[Some Exercise]-\u003eScript-\u003e[Message]",
@@ -27885,6 +30183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "makeScriptFor",
           "package": "ideas",
@@ -27894,6 +30193,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "makeScriptFor",
           "normalized": "DomainReasoner-\u003ea-\u003eIO()",
@@ -27909,6 +30209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "parseAndAnalyzeScript",
           "package": "ideas",
@@ -27918,6 +30219,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Analysis",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Analysis",
           "name": "parseAndAnalyzeScript",
           "normalized": "DomainReasoner-\u003eFilePath-\u003eIO()",
@@ -27934,6 +30236,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple parser for feedback scripts\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Parser",
           "name": "Parser",
           "package": "ideas",
@@ -27943,6 +30246,7 @@
         "index": {
           "description": "Simple parser for feedback scripts",
           "hierarchy": "Ideas Service FeedbackScript Parser",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Parser",
           "name": "Parser",
           "package": "ideas",
@@ -27956,6 +30260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Parser",
           "name": "Script",
           "package": "ideas",
@@ -27964,6 +30269,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Parser",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Parser",
           "name": "Script",
           "package": "ideas",
@@ -27977,6 +30283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Parser",
           "name": "parseScript",
           "package": "ideas",
@@ -27986,6 +30293,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Parser",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Parser",
           "name": "parseScript",
           "normalized": "FilePath-\u003eIO Script",
@@ -28001,6 +30309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Parser",
           "name": "parseScriptSafe",
           "package": "ideas",
@@ -28010,6 +30319,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Parser",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Parser",
           "name": "parseScriptSafe",
           "normalized": "FilePath-\u003eIO Script",
@@ -28026,6 +30336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRun a feedbackscript\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "Run",
           "package": "ideas",
@@ -28035,6 +30346,7 @@
         "index": {
           "description": "Run feedbackscript",
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "Run",
           "package": "ideas",
@@ -28048,6 +30360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "Environment",
           "package": "ideas",
@@ -28056,6 +30369,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "Environment",
           "package": "ideas",
@@ -28069,6 +30383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "Script",
           "package": "ideas",
@@ -28077,6 +30392,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "Script",
           "package": "ideas",
@@ -28090,6 +30406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "Env",
           "package": "ideas",
@@ -28099,6 +30416,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "Env",
           "package": "ideas",
@@ -28112,6 +30430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "actives",
           "package": "ideas",
@@ -28121,6 +30440,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "actives",
           "normalized": "Maybe[LabelInfo]",
@@ -28135,6 +30455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "after",
           "package": "ideas",
@@ -28144,6 +30465,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "after",
           "package": "ideas",
@@ -28156,6 +30478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "afterText",
           "package": "ideas",
@@ -28165,6 +30488,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "afterText",
           "package": "ideas",
@@ -28178,6 +30502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "attributeIds",
           "package": "ideas",
@@ -28187,6 +30512,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "attributeIds",
           "normalized": "[Id]",
@@ -28202,6 +30528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "before",
           "package": "ideas",
@@ -28211,6 +30538,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "before",
           "package": "ideas",
@@ -28223,6 +30551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "conditionIds",
           "package": "ideas",
@@ -28232,6 +30561,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "conditionIds",
           "normalized": "[Id]",
@@ -28247,6 +30577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "diffPair",
           "package": "ideas",
@@ -28256,6 +30587,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "diffPair",
           "normalized": "Maybe(String,String)",
@@ -28271,6 +30603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "eval",
           "package": "ideas",
@@ -28280,6 +30613,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "eval",
           "normalized": "Environment a-\u003eScript-\u003eEither Id Text-\u003eMaybe Text",
@@ -28294,6 +30628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "expected",
           "package": "ideas",
@@ -28303,6 +30638,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "expected",
           "package": "ideas",
@@ -28315,6 +30651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "feedbackDiagnosis",
           "package": "ideas",
@@ -28324,6 +30661,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "feedbackDiagnosis",
           "normalized": "Diagnosis a-\u003eEnvironment a-\u003eScript-\u003eText",
@@ -28339,6 +30677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "feedbackHint",
           "package": "ideas",
@@ -28348,6 +30687,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "feedbackHint",
           "normalized": "Id-\u003eEnvironment a-\u003eScript-\u003eText",
@@ -28363,6 +30703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "feedbackHints",
           "package": "ideas",
@@ -28372,6 +30713,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "feedbackHints",
           "normalized": "Id-\u003e[((Rule(Context a),b,c),State a)]-\u003eState a-\u003eScript-\u003e[Text]",
@@ -28387,6 +30729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "feedbackIds",
           "package": "ideas",
@@ -28396,6 +30739,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "feedbackIds",
           "normalized": "[Id]",
@@ -28411,6 +30755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "newEnvironment",
           "package": "ideas",
@@ -28420,6 +30765,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "newEnvironment",
           "normalized": "State a-\u003eEnvironment a",
@@ -28435,6 +30781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "oldReady",
           "package": "ideas",
@@ -28444,6 +30791,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "oldReady",
           "package": "ideas",
@@ -28457,6 +30805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "recognized",
           "package": "ideas",
@@ -28466,6 +30815,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "recognized",
           "package": "ideas",
@@ -28478,6 +30828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "ruleToString",
           "package": "ideas",
@@ -28487,6 +30838,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Run",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Run",
           "name": "ruleToString",
           "normalized": "Environment a-\u003eScript-\u003eRule b-\u003eString",
@@ -28503,6 +30855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract syntax for feedback scripts, and pretty-printer (Show instance)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Syntax",
           "package": "ideas",
@@ -28512,6 +30865,7 @@
         "index": {
           "description": "Abstract syntax for feedback scripts and pretty-printer Show instance",
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Syntax",
           "package": "ideas",
@@ -28525,6 +30879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Condition",
           "package": "ideas",
@@ -28533,6 +30888,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Condition",
           "package": "ideas",
@@ -28546,6 +30902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Decl",
           "package": "ideas",
@@ -28554,6 +30911,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Decl",
           "package": "ideas",
@@ -28567,6 +30925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "DeclType",
           "package": "ideas",
@@ -28575,6 +30934,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "DeclType",
           "package": "ideas",
@@ -28588,6 +30948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Script",
           "package": "ideas",
@@ -28596,6 +30957,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Script",
           "package": "ideas",
@@ -28609,6 +30971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Text",
           "package": "ideas",
@@ -28617,6 +30980,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Text",
           "package": "ideas",
@@ -28630,6 +30994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": ":\u003c\u003e:",
           "package": "ideas",
@@ -28639,6 +31004,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": ":\u003c\u003e:",
           "package": "ideas",
@@ -28651,6 +31017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "CondConst",
           "package": "ideas",
@@ -28660,6 +31027,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "CondConst",
           "package": "ideas",
@@ -28673,6 +31041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "CondNot",
           "package": "ideas",
@@ -28682,6 +31051,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "CondNot",
           "package": "ideas",
@@ -28695,6 +31065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "CondRef",
           "package": "ideas",
@@ -28704,6 +31075,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "CondRef",
           "package": "ideas",
@@ -28717,6 +31089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Feedback",
           "package": "ideas",
@@ -28726,6 +31099,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Feedback",
           "package": "ideas",
@@ -28739,6 +31113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Guarded",
           "package": "ideas",
@@ -28748,6 +31123,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Guarded",
           "normalized": "Guarded DeclType[Id][(Condition,Text)]",
@@ -28763,6 +31139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Include",
           "package": "ideas",
@@ -28772,6 +31149,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Include",
           "normalized": "Include[FilePath]",
@@ -28787,6 +31165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "NameSpace",
           "package": "ideas",
@@ -28796,6 +31175,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "NameSpace",
           "normalized": "NameSpace[Id]",
@@ -28811,6 +31191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "RecognizedIs",
           "package": "ideas",
@@ -28820,6 +31201,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "RecognizedIs",
           "package": "ideas",
@@ -28833,6 +31215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Simple",
           "package": "ideas",
@@ -28842,6 +31225,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Simple",
           "normalized": "Simple DeclType[Id]Text",
@@ -28857,6 +31241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "StringDecl",
           "package": "ideas",
@@ -28866,6 +31251,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "StringDecl",
           "package": "ideas",
@@ -28879,6 +31265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Supports",
           "package": "ideas",
@@ -28888,6 +31275,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "Supports",
           "normalized": "Supports[Id]",
@@ -28903,6 +31291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextEmpty",
           "package": "ideas",
@@ -28912,6 +31301,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextEmpty",
           "package": "ideas",
@@ -28925,6 +31315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextForId",
           "package": "ideas",
@@ -28934,6 +31325,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextForId",
           "package": "ideas",
@@ -28947,6 +31339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextRef",
           "package": "ideas",
@@ -28956,6 +31349,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextRef",
           "package": "ideas",
@@ -28969,6 +31363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextString",
           "package": "ideas",
@@ -28978,6 +31373,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextString",
           "package": "ideas",
@@ -28991,6 +31387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextTerm",
           "package": "ideas",
@@ -29000,6 +31397,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "TextTerm",
           "package": "ideas",
@@ -29013,6 +31411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "feedbackDecl",
           "package": "ideas",
@@ -29022,6 +31421,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "feedbackDecl",
           "normalized": "a-\u003eText-\u003eDecl",
@@ -29037,6 +31437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "includes",
           "package": "ideas",
@@ -29046,6 +31447,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "includes",
           "normalized": "Script-\u003e[FilePath]",
@@ -29060,6 +31462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "makeScript",
           "package": "ideas",
@@ -29069,6 +31472,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "makeScript",
           "normalized": "[Decl]-\u003eScript",
@@ -29084,6 +31488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "makeText",
           "package": "ideas",
@@ -29093,6 +31498,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "makeText",
           "normalized": "String-\u003eText",
@@ -29108,6 +31514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "scriptDecls",
           "package": "ideas",
@@ -29117,6 +31524,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "scriptDecls",
           "normalized": "Script-\u003e[Decl]",
@@ -29132,6 +31540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "textForIdDecl",
           "package": "ideas",
@@ -29141,6 +31550,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "textForIdDecl",
           "normalized": "a-\u003eText-\u003eDecl",
@@ -29156,6 +31566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "textItems",
           "package": "ideas",
@@ -29165,6 +31576,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackScript Syntax",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackScript.Syntax",
           "name": "textItems",
           "normalized": "Text-\u003e[Text]",
@@ -29180,6 +31592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackText",
           "name": "FeedbackText",
           "package": "ideas",
@@ -29188,6 +31601,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackText",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackText",
           "name": "FeedbackText",
           "package": "ideas",
@@ -29201,6 +31615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackText",
           "name": "Message",
           "package": "ideas",
@@ -29209,6 +31624,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackText",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackText",
           "name": "Message",
           "package": "ideas",
@@ -29222,6 +31638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackText",
           "name": "accept",
           "package": "ideas",
@@ -29231,6 +31648,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackText",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackText",
           "name": "accept",
           "normalized": "Message-\u003eMaybe Bool",
@@ -29245,6 +31663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackText",
           "name": "derivationtext",
           "package": "ideas",
@@ -29254,6 +31673,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackText",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackText",
           "name": "derivationtext",
           "normalized": "Script-\u003eState a-\u003eEither String(Derivation String(Context a))",
@@ -29268,6 +31688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackText",
           "name": "feedbacktext",
           "package": "ideas",
@@ -29277,6 +31698,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackText",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackText",
           "name": "feedbacktext",
           "normalized": "Script-\u003eState a-\u003eContext a-\u003e(Message,State a)",
@@ -29291,6 +31713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackText",
           "name": "onefirsttext",
           "package": "ideas",
@@ -29300,6 +31723,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackText",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackText",
           "name": "onefirsttext",
           "normalized": "Script-\u003eState a-\u003eMaybe String-\u003e(Message,Maybe(State a))",
@@ -29314,6 +31738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackText",
           "name": "submittext",
           "package": "ideas",
@@ -29323,6 +31748,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackText",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackText",
           "name": "submittext",
           "normalized": "Script-\u003eState a-\u003eString-\u003e(Message,State a)",
@@ -29337,6 +31763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.FeedbackText",
           "name": "text",
           "package": "ideas",
@@ -29346,6 +31773,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service FeedbackText",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.FeedbackText",
           "name": "text",
           "normalized": "Message-\u003eText",
@@ -29360,6 +31788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "ProblemDecomposition",
           "package": "ideas",
@@ -29368,6 +31797,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service ProblemDecomposition",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "ProblemDecomposition",
           "package": "ideas",
@@ -29381,6 +31811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "Reply",
           "package": "ideas",
@@ -29389,6 +31820,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service ProblemDecomposition",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "Reply",
           "package": "ideas",
@@ -29402,6 +31834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "Incorrect",
           "package": "ideas",
@@ -29411,6 +31844,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service ProblemDecomposition",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "Incorrect",
           "package": "ideas",
@@ -29424,6 +31858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "Ok",
           "package": "ideas",
@@ -29433,6 +31868,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service ProblemDecomposition",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "Ok",
           "package": "ideas",
@@ -29446,6 +31882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "problemDecomposition",
           "package": "ideas",
@@ -29455,6 +31892,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service ProblemDecomposition",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.ProblemDecomposition",
           "name": "problemDecomposition",
           "normalized": "Maybe Id-\u003eState a-\u003eMaybe(Answer a)-\u003eEither String(Reply a)",
@@ -29470,6 +31908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "Request",
           "package": "ideas",
@@ -29478,6 +31917,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "Request",
           "package": "ideas",
@@ -29491,6 +31931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "DataFormat",
           "package": "ideas",
@@ -29499,6 +31940,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "DataFormat",
           "package": "ideas",
@@ -29512,6 +31954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "Encoding",
           "package": "ideas",
@@ -29520,6 +31963,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "Encoding",
           "package": "ideas",
@@ -29533,6 +31977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "Request",
           "package": "ideas",
@@ -29541,6 +31986,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "Request",
           "package": "ideas",
@@ -29554,6 +32000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "HTMLEncoding",
           "package": "ideas",
@@ -29563,6 +32010,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "HTMLEncoding",
           "package": "ideas",
@@ -29576,6 +32024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "JSON",
           "package": "ideas",
@@ -29585,6 +32034,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "JSON",
           "package": "ideas",
@@ -29598,6 +32048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "OpenMath",
           "package": "ideas",
@@ -29607,6 +32058,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "OpenMath",
           "package": "ideas",
@@ -29620,6 +32072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "Request",
           "package": "ideas",
@@ -29629,6 +32082,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "Request",
           "package": "ideas",
@@ -29642,6 +32096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "StringEncoding",
           "package": "ideas",
@@ -29651,6 +32106,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "StringEncoding",
           "package": "ideas",
@@ -29664,6 +32120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "XML",
           "package": "ideas",
@@ -29673,6 +32130,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "XML",
           "package": "ideas",
@@ -29686,6 +32144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "dataformat",
           "package": "ideas",
@@ -29695,6 +32154,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "dataformat",
           "package": "ideas",
@@ -29707,6 +32167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "discoverDataFormat",
           "package": "ideas",
@@ -29716,6 +32177,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "discoverDataFormat",
           "normalized": "String-\u003ea DataFormat",
@@ -29731,6 +32193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "encoding",
           "package": "ideas",
@@ -29740,6 +32203,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "encoding",
           "package": "ideas",
@@ -29752,6 +32216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "exerciseId",
           "package": "ideas",
@@ -29761,6 +32226,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "exerciseId",
           "package": "ideas",
@@ -29774,6 +32240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "readEncoding",
           "package": "ideas",
@@ -29783,6 +32250,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "readEncoding",
           "normalized": "String-\u003ea Encoding",
@@ -29798,6 +32266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "service",
           "package": "ideas",
@@ -29807,6 +32276,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "service",
           "package": "ideas",
@@ -29819,6 +32289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Request",
           "name": "source",
           "package": "ideas",
@@ -29828,6 +32299,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Request",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Request",
           "name": "source",
           "package": "ideas",
@@ -29840,6 +32312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.ServiceList",
           "name": "ServiceList",
           "package": "ideas",
@@ -29848,6 +32321,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service ServiceList",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.ServiceList",
           "name": "ServiceList",
           "package": "ideas",
@@ -29861,6 +32335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.ServiceList",
           "name": "metaServiceList",
           "package": "ideas",
@@ -29870,6 +32345,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service ServiceList",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.ServiceList",
           "name": "metaServiceList",
           "normalized": "DomainReasoner-\u003e[Service]",
@@ -29885,6 +32361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.ServiceList",
           "name": "serviceList",
           "package": "ideas",
@@ -29894,6 +32371,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service ServiceList",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.ServiceList",
           "name": "serviceList",
           "normalized": "[Service]",
@@ -29910,6 +32388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe information maintained for a learner trying to complete a\n derivation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "State",
           "package": "ideas",
@@ -29919,6 +32398,7 @@
         "index": {
           "description": "The information maintained for learner trying to complete derivation",
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "State",
           "package": "ideas",
@@ -29932,6 +32412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "State",
           "package": "ideas",
@@ -29940,6 +32421,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "State",
           "package": "ideas",
@@ -29953,6 +32435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "emptyState",
           "package": "ideas",
@@ -29962,6 +32445,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "emptyState",
           "normalized": "Exercise a-\u003ea-\u003eState a",
@@ -29977,6 +32461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "emptyStateContext",
           "package": "ideas",
@@ -29986,6 +32471,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "emptyStateContext",
           "normalized": "Exercise a-\u003eContext a-\u003eState a",
@@ -30001,6 +32487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "exercise",
           "package": "ideas",
@@ -30010,6 +32497,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "exercise",
           "normalized": "State a-\u003eExercise a",
@@ -30024,6 +32512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "makeNoState",
           "package": "ideas",
@@ -30033,6 +32522,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "makeNoState",
           "normalized": "Exercise a-\u003eContext a-\u003eState a",
@@ -30048,6 +32538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "makeState",
           "package": "ideas",
@@ -30057,6 +32548,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "makeState",
           "normalized": "Exercise a-\u003e[Prefix(Context a)]-\u003eContext a-\u003eState a",
@@ -30072,6 +32564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "stateContext",
           "package": "ideas",
@@ -30081,6 +32574,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "stateContext",
           "normalized": "State a-\u003eContext a",
@@ -30096,6 +32590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "stateLabels",
           "package": "ideas",
@@ -30105,6 +32600,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "stateLabels",
           "normalized": "State a-\u003e[[LabelInfo]]",
@@ -30120,6 +32616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "statePrefixes",
           "package": "ideas",
@@ -30129,6 +32626,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "statePrefixes",
           "normalized": "State a-\u003e[Prefix(Context a)]",
@@ -30144,6 +32642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.State",
           "name": "stateTerm",
           "package": "ideas",
@@ -30153,6 +32652,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service State",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.State",
           "name": "stateTerm",
           "normalized": "State a-\u003ea",
@@ -30169,6 +32669,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiagnose a term submitted by a student. Deprecated (see diagnose service).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Submit",
           "name": "Submit",
           "package": "ideas",
@@ -30178,6 +32679,7 @@
         "index": {
           "description": "Diagnose term submitted by student Deprecated see diagnose service",
           "hierarchy": "Ideas Service Submit",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Submit",
           "name": "Submit",
           "package": "ideas",
@@ -30191,6 +32693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Submit",
           "name": "Result",
           "package": "ideas",
@@ -30199,6 +32702,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Submit",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Submit",
           "name": "Result",
           "package": "ideas",
@@ -30212,6 +32716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Submit",
           "name": "Buggy",
           "package": "ideas",
@@ -30221,6 +32726,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Submit",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Submit",
           "name": "Buggy",
           "normalized": "Buggy[Rule(Context a)]",
@@ -30236,6 +32742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Submit",
           "name": "Detour",
           "package": "ideas",
@@ -30245,6 +32752,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Submit",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Submit",
           "name": "Detour",
           "normalized": "Detour[Rule(Context a)](State a)",
@@ -30260,6 +32768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Submit",
           "name": "NotEquivalent",
           "package": "ideas",
@@ -30269,6 +32778,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Submit",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Submit",
           "name": "NotEquivalent",
           "package": "ideas",
@@ -30282,6 +32792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Submit",
           "name": "Ok",
           "package": "ideas",
@@ -30291,6 +32802,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Submit",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Submit",
           "name": "Ok",
           "normalized": "Ok[Rule(Context a)](State a)",
@@ -30306,6 +32818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Submit",
           "name": "Unknown",
           "package": "ideas",
@@ -30315,6 +32828,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Submit",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Submit",
           "name": "Unknown",
           "package": "ideas",
@@ -30328,6 +32842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Submit",
           "name": "submit",
           "package": "ideas",
@@ -30337,6 +32852,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Submit",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Submit",
           "name": "submit",
           "normalized": "State a-\u003eContext a-\u003eResult a",
@@ -30351,6 +32867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Types",
           "package": "ideas",
@@ -30359,6 +32876,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Types",
           "package": "ideas",
@@ -30372,6 +32890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Const",
           "package": "ideas",
@@ -30380,6 +32899,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Const",
           "package": "ideas",
@@ -30393,6 +32913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Equal",
           "package": "ideas",
@@ -30401,6 +32922,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Equal",
           "package": "ideas",
@@ -30414,6 +32936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Service",
           "package": "ideas",
@@ -30422,6 +32945,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Service",
           "package": "ideas",
@@ -30435,6 +32959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "ShowF",
           "package": "ideas",
@@ -30443,6 +32968,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "ShowF",
           "package": "ideas",
@@ -30456,6 +32982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Type",
           "package": "ideas",
@@ -30464,6 +32991,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Type",
           "package": "ideas",
@@ -30477,6 +33005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "TypeRep",
           "package": "ideas",
@@ -30485,6 +33014,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "TypeRep",
           "package": "ideas",
@@ -30498,6 +33028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Typed",
           "package": "ideas",
@@ -30506,6 +33037,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Typed",
           "package": "ideas",
@@ -30519,6 +33051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "TypedValue",
           "package": "ideas",
@@ -30527,6 +33060,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "TypedValue",
           "package": "ideas",
@@ -30540,6 +33074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": ":|:",
           "package": "ideas",
@@ -30549,6 +33084,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": ":|:",
           "normalized": "TypeRep a b-\u003eTypeRep a b-\u003eTypeRep a(Either b b)",
@@ -30563,6 +33099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": ":-\u003e",
           "package": "ideas",
@@ -30572,6 +33109,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": ":-\u003e",
           "normalized": "TypeRep a b-\u003eTypeRep a b-\u003eTypeRep a(b-\u003eb)",
@@ -30586,6 +33124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": ":::",
           "package": "ideas",
@@ -30595,6 +33134,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": ":::",
           "normalized": "a-\u003eb a-\u003eTypedValue b",
@@ -30609,6 +33149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Bool",
           "package": "ideas",
@@ -30618,6 +33159,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Bool",
           "package": "ideas",
@@ -30631,6 +33173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Const",
           "package": "ideas",
@@ -30640,6 +33183,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Const",
           "normalized": "a b-\u003eTypeRep a b",
@@ -30655,6 +33199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Context",
           "package": "ideas",
@@ -30664,6 +33209,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Context",
           "package": "ideas",
@@ -30677,6 +33223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Environment",
           "package": "ideas",
@@ -30686,6 +33233,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Environment",
           "package": "ideas",
@@ -30699,6 +33247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Exercise",
           "package": "ideas",
@@ -30708,6 +33257,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Exercise",
           "package": "ideas",
@@ -30721,6 +33271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Id",
           "package": "ideas",
@@ -30730,6 +33281,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Id",
           "package": "ideas",
@@ -30743,6 +33295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Int",
           "package": "ideas",
@@ -30752,6 +33305,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Int",
           "package": "ideas",
@@ -30765,6 +33319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Iso",
           "package": "ideas",
@@ -30774,6 +33329,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Iso",
           "normalized": "Isomorphism a a-\u003eTypeRep b a-\u003eTypeRep b a",
@@ -30789,6 +33345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "List",
           "package": "ideas",
@@ -30798,6 +33355,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "List",
           "normalized": "TypeRep a b-\u003eTypeRep a[b]",
@@ -30813,6 +33371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Location",
           "package": "ideas",
@@ -30822,6 +33381,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Location",
           "package": "ideas",
@@ -30835,6 +33395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Pair",
           "package": "ideas",
@@ -30844,6 +33405,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Pair",
           "normalized": "TypeRep a b-\u003eTypeRep a b-\u003eTypeRep a(b,b)",
@@ -30859,6 +33421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Rule",
           "package": "ideas",
@@ -30868,6 +33431,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Rule",
           "package": "ideas",
@@ -30881,6 +33445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Script",
           "package": "ideas",
@@ -30890,6 +33455,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Script",
           "package": "ideas",
@@ -30903,6 +33469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Service",
           "package": "ideas",
@@ -30912,6 +33479,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Service",
           "package": "ideas",
@@ -30925,6 +33493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "SomeExercise",
           "package": "ideas",
@@ -30934,6 +33503,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "SomeExercise",
           "package": "ideas",
@@ -30947,6 +33517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "State",
           "package": "ideas",
@@ -30956,6 +33527,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "State",
           "package": "ideas",
@@ -30969,6 +33541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "StdGen",
           "package": "ideas",
@@ -30978,6 +33551,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "StdGen",
           "package": "ideas",
@@ -30991,6 +33565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "StratCfg",
           "package": "ideas",
@@ -31000,6 +33575,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "StratCfg",
           "package": "ideas",
@@ -31013,6 +33589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Strategy",
           "package": "ideas",
@@ -31022,6 +33599,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Strategy",
           "package": "ideas",
@@ -31035,6 +33613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "String",
           "package": "ideas",
@@ -31044,6 +33623,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "String",
           "package": "ideas",
@@ -31057,6 +33637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Tag",
           "package": "ideas",
@@ -31066,6 +33647,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Tag",
           "normalized": "String-\u003eTypeRep a b-\u003eTypeRep a b",
@@ -31081,6 +33663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Text",
           "package": "ideas",
@@ -31090,6 +33673,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Text",
           "package": "ideas",
@@ -31103,6 +33687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "Unit",
           "package": "ideas",
@@ -31112,6 +33697,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "Unit",
           "normalized": "TypeRep a()",
@@ -31127,6 +33713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "deprecate",
           "package": "ideas",
@@ -31136,6 +33723,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "deprecate",
           "normalized": "Service-\u003eService",
@@ -31150,6 +33738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "equal",
           "package": "ideas",
@@ -31159,6 +33748,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "equal",
           "normalized": "a b-\u003ea c-\u003eMaybe(b-\u003ec)",
@@ -31173,6 +33763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "equalM",
           "package": "ideas",
@@ -31182,6 +33773,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "equalM",
           "normalized": "Type a b-\u003eType a b-\u003ec(b-\u003eb)",
@@ -31196,6 +33788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "makeService",
           "package": "ideas",
@@ -31205,6 +33798,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "makeService",
           "normalized": "String-\u003eString-\u003e(a b TypedValue(Type c))-\u003eService",
@@ -31220,6 +33814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "serviceDeprecated",
           "package": "ideas",
@@ -31229,6 +33824,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "serviceDeprecated",
           "normalized": "Service-\u003eBool",
@@ -31244,6 +33840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "serviceFunction",
           "package": "ideas",
@@ -31253,6 +33850,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "serviceFunction",
           "normalized": "Service-\u003ea b TypedValue(Type c)",
@@ -31268,6 +33866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "showF",
           "package": "ideas",
@@ -31277,6 +33876,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "showF",
           "normalized": "a b-\u003eString",
@@ -31291,6 +33891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "typeOf",
           "package": "ideas",
@@ -31300,6 +33901,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "typeOf",
           "normalized": "a-\u003eType b a",
@@ -31315,6 +33917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "typed",
           "package": "ideas",
@@ -31324,6 +33927,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "typed",
           "package": "ideas",
@@ -31336,6 +33940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Service.Types",
           "name": "typedList",
           "package": "ideas",
@@ -31345,6 +33950,7 @@
         },
         "index": {
           "hierarchy": "Ideas Service Types",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Service.Types",
           "name": "typedList",
           "normalized": "Type a[b]",
@@ -31361,6 +33967,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA minimal interface for constructing simple HTML pages\n See http:\u003cem/\u003ewww.w3.org\u003cem\u003eTR\u003c/em\u003ehtml4/\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "HTML",
           "package": "ideas",
@@ -31370,6 +33977,7 @@
         "index": {
           "description": "minimal interface for constructing simple HTML pages See http www.w3.org TR html4",
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "HTML",
           "package": "ideas",
@@ -31383,6 +33991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "HTMLBuilder",
           "package": "ideas",
@@ -31391,6 +34000,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "HTMLBuilder",
           "package": "ideas",
@@ -31404,6 +34014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "HTMLPage",
           "package": "ideas",
@@ -31412,6 +34023,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "HTMLPage",
           "package": "ideas",
@@ -31425,6 +34037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "addCSS",
           "package": "ideas",
@@ -31434,6 +34047,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "addCSS",
           "normalized": "FilePath-\u003eHTMLPage-\u003eHTMLPage",
@@ -31449,6 +34063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "addScript",
           "package": "ideas",
@@ -31458,6 +34073,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "addScript",
           "normalized": "FilePath-\u003eHTMLPage-\u003eHTMLPage",
@@ -31473,6 +34089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "big",
           "package": "ideas",
@@ -31482,6 +34099,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "big",
           "normalized": "a-\u003ea",
@@ -31497,6 +34115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders as bold text style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "bold",
           "package": "ideas",
@@ -31507,6 +34126,7 @@
         "index": {
           "description": "Renders as bold text style",
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "bold",
           "normalized": "a-\u003ea",
@@ -31521,6 +34141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "br",
           "package": "ideas",
@@ -31530,6 +34151,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "br",
           "package": "ideas",
@@ -31542,6 +34164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "bullet",
           "package": "ideas",
@@ -31551,6 +34174,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "bullet",
           "package": "ideas",
@@ -31563,6 +34187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "classA",
           "package": "ideas",
@@ -31572,6 +34197,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "classA",
           "normalized": "String-\u003ea",
@@ -31586,6 +34212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "divClass",
           "package": "ideas",
@@ -31595,6 +34222,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "divClass",
           "normalized": "String-\u003ea-\u003ea",
@@ -31610,6 +34238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "h1",
           "package": "ideas",
@@ -31619,6 +34248,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "h1",
           "normalized": "String-\u003ea",
@@ -31633,6 +34263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "h2",
           "package": "ideas",
@@ -31642,6 +34273,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "h2",
           "normalized": "String-\u003ea",
@@ -31656,6 +34288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "h3",
           "package": "ideas",
@@ -31665,6 +34298,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "h3",
           "normalized": "String-\u003ea",
@@ -31679,6 +34313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "h4",
           "package": "ideas",
@@ -31688,6 +34323,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "h4",
           "normalized": "String-\u003ea",
@@ -31702,6 +34338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "h5",
           "package": "ideas",
@@ -31711,6 +34348,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "h5",
           "normalized": "String-\u003ea",
@@ -31725,6 +34363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "h6",
           "package": "ideas",
@@ -31734,6 +34373,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "h6",
           "normalized": "String-\u003ea",
@@ -31748,6 +34388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "highlightXML",
           "package": "ideas",
@@ -31757,6 +34398,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "highlightXML",
           "normalized": "Bool-\u003eXML-\u003eHTMLBuilder",
@@ -31772,6 +34414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "hr",
           "package": "ideas",
@@ -31781,6 +34424,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "hr",
           "package": "ideas",
@@ -31793,6 +34437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "htmlPage",
           "package": "ideas",
@@ -31802,6 +34447,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "htmlPage",
           "normalized": "String-\u003eHTMLBuilder-\u003eHTMLPage",
@@ -31817,6 +34463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "idA",
           "package": "ideas",
@@ -31826,6 +34473,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "idA",
           "normalized": "String-\u003ea",
@@ -31840,6 +34488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "image",
           "package": "ideas",
@@ -31849,6 +34498,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "image",
           "normalized": "String-\u003ea",
@@ -31864,6 +34514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders as italic text style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "italic",
           "package": "ideas",
@@ -31874,6 +34525,7 @@
         "index": {
           "description": "Renders as italic text style",
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "italic",
           "normalized": "a-\u003ea",
@@ -31888,6 +34540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "keyValueTable",
           "package": "ideas",
@@ -31897,6 +34550,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "keyValueTable",
           "normalized": "[(String,a)]-\u003ea",
@@ -31912,6 +34566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "link",
           "package": "ideas",
@@ -31921,6 +34576,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "link",
           "normalized": "String-\u003ea-\u003ea",
@@ -31935,6 +34591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "para",
           "package": "ideas",
@@ -31944,6 +34601,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "para",
           "normalized": "a-\u003ea",
@@ -31958,6 +34616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "pre",
           "package": "ideas",
@@ -31967,6 +34626,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "pre",
           "normalized": "a-\u003ea",
@@ -31981,6 +34641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "preText",
           "package": "ideas",
@@ -31990,6 +34651,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "preText",
           "normalized": "String-\u003ea",
@@ -32005,6 +34667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "showHTML",
           "package": "ideas",
@@ -32014,6 +34677,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "showHTML",
           "normalized": "HTMLPage-\u003eString",
@@ -32029,6 +34693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "small",
           "package": "ideas",
@@ -32038,6 +34703,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "small",
           "normalized": "a-\u003ea",
@@ -32052,6 +34718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "space",
           "package": "ideas",
@@ -32061,6 +34728,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "space",
           "package": "ideas",
@@ -32073,6 +34741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "spaces",
           "package": "ideas",
@@ -32082,6 +34751,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "spaces",
           "normalized": "Int-\u003ea",
@@ -32096,6 +34766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "spanClass",
           "package": "ideas",
@@ -32105,6 +34776,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "spanClass",
           "normalized": "String-\u003ea-\u003ea",
@@ -32120,6 +34792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "string",
           "package": "ideas",
@@ -32129,6 +34802,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "string",
           "normalized": "String-\u003ea",
@@ -32143,6 +34817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "styleA",
           "package": "ideas",
@@ -32152,6 +34827,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "styleA",
           "normalized": "String-\u003ea",
@@ -32167,6 +34843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst argument indicates whether the table has a header or not\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "table",
           "package": "ideas",
@@ -32177,6 +34854,7 @@
         "index": {
           "description": "First argument indicates whether the table has header or not",
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "table",
           "normalized": "Bool-\u003e[[a]]-\u003ea",
@@ -32191,6 +34869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "text",
           "package": "ideas",
@@ -32200,6 +34879,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "text",
           "normalized": "a-\u003eb",
@@ -32214,6 +34894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "titleA",
           "package": "ideas",
@@ -32223,6 +34904,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "titleA",
           "normalized": "String-\u003ea",
@@ -32238,6 +34920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders as teletype or monospaced Ideas.Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "tt",
           "package": "ideas",
@@ -32248,6 +34931,7 @@
         "index": {
           "description": "Renders as teletype or monospaced Ideas.Text",
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "tt",
           "normalized": "a-\u003ea",
@@ -32262,6 +34946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "ttText",
           "package": "ideas",
@@ -32271,6 +34956,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "ttText",
           "normalized": "String-\u003ea",
@@ -32286,6 +34972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.HTML",
           "name": "ul",
           "package": "ideas",
@@ -32295,6 +34982,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text HTML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.HTML",
           "name": "ul",
           "normalized": "[a]-\u003ea",
@@ -32310,6 +34998,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for JavaScript Object Notation (JSON) and remote procedure calls using\n JSON. JSON is a lightweight alternative for XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "JSON",
           "package": "ideas",
@@ -32319,6 +35008,7 @@
         "index": {
           "description": "Support for JavaScript Object Notation JSON and remote procedure calls using JSON JSON is lightweight alternative for XML",
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "JSON",
           "package": "ideas",
@@ -32332,6 +35022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "InJSON",
           "package": "ideas",
@@ -32340,6 +35031,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "InJSON",
           "package": "ideas",
@@ -32353,6 +35045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "JSON",
           "package": "ideas",
@@ -32361,6 +35054,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "JSON",
           "package": "ideas",
@@ -32374,6 +35068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "Key",
           "package": "ideas",
@@ -32382,6 +35077,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "Key",
           "package": "ideas",
@@ -32395,6 +35091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "Number",
           "package": "ideas",
@@ -32403,6 +35100,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "Number",
           "package": "ideas",
@@ -32416,6 +35114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "RPCHandler",
           "package": "ideas",
@@ -32424,6 +35123,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "RPCHandler",
           "package": "ideas",
@@ -32437,6 +35137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "Array",
           "package": "ideas",
@@ -32446,6 +35147,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "Array",
           "normalized": "Array[JSON]",
@@ -32461,6 +35163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "Boolean",
           "package": "ideas",
@@ -32470,6 +35173,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "Boolean",
           "package": "ideas",
@@ -32483,6 +35187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "D",
           "package": "ideas",
@@ -32492,6 +35197,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "D",
           "package": "ideas",
@@ -32504,6 +35210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "I",
           "package": "ideas",
@@ -32513,6 +35220,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "I",
           "package": "ideas",
@@ -32525,6 +35233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "Null",
           "package": "ideas",
@@ -32534,6 +35243,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "Null",
           "package": "ideas",
@@ -32547,6 +35257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "Number",
           "package": "ideas",
@@ -32556,6 +35267,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "Number",
           "package": "ideas",
@@ -32569,6 +35281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "Object",
           "package": "ideas",
@@ -32578,6 +35291,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "Object",
           "normalized": "Object[(Key,JSON)]",
@@ -32593,6 +35307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "String",
           "package": "ideas",
@@ -32602,6 +35317,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "String",
           "package": "ideas",
@@ -32615,6 +35331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "fromJSON",
           "package": "ideas",
@@ -32624,6 +35341,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "fromJSON",
           "normalized": "JSON-\u003ea b",
@@ -32639,6 +35357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "jsonRPC",
           "package": "ideas",
@@ -32648,6 +35367,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "jsonRPC",
           "normalized": "JSON-\u003eRPCHandler a-\u003ea RPCResponse",
@@ -32663,6 +35383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "listFromJSON",
           "package": "ideas",
@@ -32672,6 +35393,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "listFromJSON",
           "normalized": "JSON-\u003ea[b]",
@@ -32687,6 +35409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "listToJSON",
           "package": "ideas",
@@ -32696,6 +35419,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "listToJSON",
           "normalized": "[a]-\u003eJSON",
@@ -32711,6 +35435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "lookupM",
           "package": "ideas",
@@ -32720,6 +35445,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "lookupM",
           "normalized": "String-\u003eJSON-\u003ea JSON",
@@ -32734,6 +35460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "parseJSON",
           "package": "ideas",
@@ -32743,6 +35470,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "parseJSON",
           "normalized": "String-\u003eEither String JSON",
@@ -32758,6 +35486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "propEncoding",
           "package": "ideas",
@@ -32767,6 +35496,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "propEncoding",
           "package": "ideas",
@@ -32780,6 +35510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "showCompact",
           "package": "ideas",
@@ -32789,6 +35520,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "showCompact",
           "normalized": "JSON-\u003eString",
@@ -32804,6 +35536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "showPretty",
           "package": "ideas",
@@ -32813,6 +35546,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "showPretty",
           "normalized": "JSON-\u003eString",
@@ -32828,6 +35562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.JSON",
           "name": "toJSON",
           "package": "ideas",
@@ -32837,6 +35572,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text JSON",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.JSON",
           "name": "toJSON",
           "normalized": "a-\u003eJSON",
@@ -32852,6 +35588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "Arith1",
           "package": "ideas",
@@ -32860,6 +35597,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "Arith1",
           "package": "ideas",
@@ -32874,6 +35612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unary operator which represents the absolute value of its argument. The\nargument should be numerically valued. In the complex case this is often\nreferred to as the modulus. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "absSymbol",
           "package": "ideas",
@@ -32884,6 +35623,7 @@
         "index": {
           "description": "unary operator which represents the absolute value of its argument The argument should be numerically valued In the complex case this is often referred to as the modulus",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "absSymbol",
           "package": "ideas",
@@ -32898,6 +35638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in arith1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "arith1List",
           "package": "ideas",
@@ -32908,6 +35649,7 @@
         "index": {
           "description": "List of symbols defined in arith1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "arith1List",
           "normalized": "[Symbol]",
@@ -32924,6 +35666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents a (binary) division function denoting the first\nargument right-divided by the second, i.e. divide(a,b)=a*inverse(b). It is the\ninverse of the multiplication function defined by the symbol times in this CD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "divideSymbol",
           "package": "ideas",
@@ -32934,6 +35677,7 @@
         "index": {
           "description": "This symbol represents binary division function denoting the first argument right-divided by the second i.e divide inverse It is the inverse of the multiplication function defined by the symbol times in this CD",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "divideSymbol",
           "package": "ideas",
@@ -32948,6 +35692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol to represent the n-ary function to return the gcd (greatest\ncommon divisor) of its arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "gcdSymbol",
           "package": "ideas",
@@ -32958,6 +35703,7 @@
         "index": {
           "description": "The symbol to represent the n-ary function to return the gcd greatest common divisor of its arguments",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "gcdSymbol",
           "package": "ideas",
@@ -32972,6 +35718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol to represent the n-ary function to return the least common\nmultiple of its arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "lcmSymbol",
           "package": "ideas",
@@ -32982,6 +35729,7 @@
         "index": {
           "description": "The symbol to represent the n-ary function to return the least common multiple of its arguments",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "lcmSymbol",
           "package": "ideas",
@@ -32996,6 +35744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol representing a binary minus function. This is equivalent to\nadding the additive inverse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "minusSymbol",
           "package": "ideas",
@@ -33006,6 +35755,7 @@
         "index": {
           "description": "The symbol representing binary minus function This is equivalent to adding the additive inverse",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "minusSymbol",
           "package": "ideas",
@@ -33020,6 +35770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol representing an n-ary commutative function plus. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "plusSymbol",
           "package": "ideas",
@@ -33030,6 +35781,7 @@
         "index": {
           "description": "The symbol representing an n-ary commutative function plus",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "plusSymbol",
           "package": "ideas",
@@ -33044,6 +35796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents a power function. The first argument is raised to\nthe power of the second argument. When the second argument is not an integer,\npowering is defined in terms of exponentials and logarithms for the complex\nand real numbers. This operator can represent general powering. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "powerSymbol",
           "package": "ideas",
@@ -33054,6 +35807,7 @@
         "index": {
           "description": "This symbol represents power function The first argument is raised to the power of the second argument When the second argument is not an integer powering is defined in terms of exponentials and logarithms for the complex and real numbers This operator can represent general powering",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "powerSymbol",
           "package": "ideas",
@@ -33068,6 +35822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operator taking two arguments, the first being the range of\nmultiplication e.g. an integral interval, the second being the function to be\nmultiplied. Note that the product may be over an infinite interval. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "productSymbol",
           "package": "ideas",
@@ -33078,6 +35833,7 @@
         "index": {
           "description": "An operator taking two arguments the first being the range of multiplication e.g an integral interval the second being the function to be multiplied Note that the product may be over an infinite interval",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "productSymbol",
           "package": "ideas",
@@ -33092,6 +35848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary operator which represents its first argument \u003ca\u003elowered\u003c/a\u003e to its\nn'th root where n is the second argument. This is the inverse of the operation\nrepresented by the power symbol defined in this CD. Care should be taken as to\nthe precise meaning of this operator, in particular which root is represented,\nhowever it is here to represent the general notion of taking n'th roots. As\ninferred by the signature relevant to this symbol, the function represented by\nthis symbol is the single valued function, the specific root returned is the\none indicated by the first CMP. Note also that the converse of the second CMP\nis not valid in general. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "rootSymbol",
           "package": "ideas",
@@ -33102,6 +35859,7 @@
         "index": {
           "description": "binary operator which represents its first argument lowered to its th root where is the second argument This is the inverse of the operation represented by the power symbol defined in this CD Care should be taken as to the precise meaning of this operator in particular which root is represented however it is here to represent the general notion of taking th roots As inferred by the signature relevant to this symbol the function represented by this symbol is the single valued function the specific root returned is the one indicated by the first CMP Note also that the converse of the second CMP is not valid in general",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "rootSymbol",
           "package": "ideas",
@@ -33116,6 +35874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operator taking two arguments, the first being the range of summation,\ne.g. an integral interval, the second being the function to be summed. Note\nthat the sum may be over an infinite interval. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "sumSymbol",
           "package": "ideas",
@@ -33126,6 +35885,7 @@
         "index": {
           "description": "An operator taking two arguments the first being the range of summation e.g an integral interval the second being the function to be summed Note that the sum may be over an infinite interval",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "sumSymbol",
           "package": "ideas",
@@ -33140,6 +35900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol representing an n-ary multiplication function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "timesSymbol",
           "package": "ideas",
@@ -33150,6 +35911,7 @@
         "index": {
           "description": "The symbol representing an n-ary multiplication function",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "timesSymbol",
           "package": "ideas",
@@ -33164,6 +35926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol denotes unary minus, i.e. the additive inverse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "unaryMinusSymbol",
           "package": "ideas",
@@ -33174,6 +35937,7 @@
         "index": {
           "description": "This symbol denotes unary minus i.e the additive inverse",
           "hierarchy": "Ideas Text OpenMath Dictionary Arith1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Arith1",
           "name": "unaryMinusSymbol",
           "package": "ideas",
@@ -33187,6 +35951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "Calculus1",
           "package": "ideas",
@@ -33195,6 +35960,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Calculus1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "Calculus1",
           "package": "ideas",
@@ -33209,6 +35975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in calculus1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "calculus1List",
           "package": "ideas",
@@ -33219,6 +35986,7 @@
         "index": {
           "description": "List of symbols defined in calculus1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Calculus1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "calculus1List",
           "normalized": "[Symbol]",
@@ -33235,6 +36003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to represent definite integration of unary functions.\nIt takes two arguments; the first being the range (e.g. a set) of integration,\nand the second the function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "defintSymbol",
           "package": "ideas",
@@ -33245,6 +36014,7 @@
         "index": {
           "description": "This symbol is used to represent definite integration of unary functions It takes two arguments the first being the range e.g set of integration and the second the function",
           "hierarchy": "Ideas Text OpenMath Dictionary Calculus1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "defintSymbol",
           "package": "ideas",
@@ -33259,6 +36029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to express ordinary differentiation of a unary\nfunction. The single argument is the unary function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "diffSymbol",
           "package": "ideas",
@@ -33269,6 +36040,7 @@
         "index": {
           "description": "This symbol is used to express ordinary differentiation of unary function The single argument is the unary function",
           "hierarchy": "Ideas Text OpenMath Dictionary Calculus1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "diffSymbol",
           "package": "ideas",
@@ -33283,6 +36055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to represent indefinite integration of unary\nfunctions. The argument is the unary function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "intSymbol",
           "package": "ideas",
@@ -33293,6 +36066,7 @@
         "index": {
           "description": "This symbol is used to represent indefinite integration of unary functions The argument is the unary function",
           "hierarchy": "Ideas Text OpenMath Dictionary Calculus1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "intSymbol",
           "package": "ideas",
@@ -33307,6 +36081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to express the nth-iterated ordinary differentiation\nof a unary function. The first argument is n, and the second the unary\nfunction. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "nthdiffSymbol",
           "package": "ideas",
@@ -33317,6 +36092,7 @@
         "index": {
           "description": "This symbol is used to express the nth-iterated ordinary differentiation of unary function The first argument is and the second the unary function",
           "hierarchy": "Ideas Text OpenMath Dictionary Calculus1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "nthdiffSymbol",
           "package": "ideas",
@@ -33331,6 +36107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to express partial differentiation of a function of\nmore than one variable. It has two arguments, the first is a list of integers\nwhich index the variables of the function, the second is the function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "partialdiffSymbol",
           "package": "ideas",
@@ -33341,6 +36118,7 @@
         "index": {
           "description": "This symbol is used to express partial differentiation of function of more than one variable It has two arguments the first is list of integers which index the variables of the function the second is the function",
           "hierarchy": "Ideas Text OpenMath Dictionary Calculus1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Calculus1",
           "name": "partialdiffSymbol",
           "package": "ideas",
@@ -33354,6 +36132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "Fns1",
           "package": "ideas",
@@ -33362,6 +36141,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "Fns1",
           "package": "ideas",
@@ -33376,6 +36156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol denotes the domain of a given function, which is the set of\nvalues it is defined over. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "domainSymbol",
           "package": "ideas",
@@ -33386,6 +36167,7 @@
         "index": {
           "description": "This symbol denotes the domain of given function which is the set of values it is defined over",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "domainSymbol",
           "package": "ideas",
@@ -33400,6 +36182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe domainofapplication element denotes the domain over which a given\nfunction is being applied. It is intended in MathML to be a more general\nalternative to specification of this domain using such quantifier elements as\nbvar, lowlimit or condition. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "domainofapplicationSymbol",
           "package": "ideas",
@@ -33410,6 +36193,7 @@
         "index": {
           "description": "The domainofapplication element denotes the domain over which given function is being applied It is intended in MathML to be more general alternative to specification of this domain using such quantifier elements as bvar lowlimit or condition",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "domainofapplicationSymbol",
           "package": "ideas",
@@ -33424,6 +36208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in fns1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "fns1List",
           "package": "ideas",
@@ -33434,6 +36219,7 @@
         "index": {
           "description": "List of symbols defined in fns1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "fns1List",
           "normalized": "[Symbol]",
@@ -33450,6 +36236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity function, it takes one argument and returns the same value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "identitySymbol",
           "package": "ideas",
@@ -33460,6 +36247,7 @@
         "index": {
           "description": "The identity function it takes one argument and returns the same value",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "identitySymbol",
           "package": "ideas",
@@ -33474,6 +36262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol denotes the image of a given function, which is the set of\nvalues the domain of the given function maps to. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "imageSymbol",
           "package": "ideas",
@@ -33484,6 +36273,7 @@
         "index": {
           "description": "This symbol denotes the image of given function which is the set of values the domain of the given function maps to",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "imageSymbol",
           "package": "ideas",
@@ -33498,6 +36288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to describe the inverse of its argument (a function).\nThis inverse may only be partially defined because the function may not have\nbeen surjective. If the function is not surjective the inverse function is\nill-defined without further stipulations. No assumptions are made on the\nsemantics of this inverse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "inverseSymbol",
           "package": "ideas",
@@ -33508,6 +36299,7 @@
         "index": {
           "description": "This symbol is used to describe the inverse of its argument function This inverse may only be partially defined because the function may not have been surjective If the function is not surjective the inverse function is ill-defined without further stipulations No assumptions are made on the semantics of this inverse",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "inverseSymbol",
           "package": "ideas",
@@ -33522,6 +36314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to represent anonymous functions as lambda expansions.\nIt is used in a binder that takes two further arguments, the first of which is\na list of variables, and the second of which is an expression, and it forms\nthe function which is the lambda extraction of the expression \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "lambdaSymbol",
           "package": "ideas",
@@ -33532,6 +36325,7 @@
         "index": {
           "description": "This symbol is used to represent anonymous functions as lambda expansions It is used in binder that takes two further arguments the first of which is list of variables and the second of which is an expression and it forms the function which is the lambda extraction of the expression",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "lambdaSymbol",
           "package": "ideas",
@@ -33546,6 +36340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the function which forms the left-composition of\nits two (function) arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "leftComposeSymbol",
           "package": "ideas",
@@ -33556,6 +36351,7 @@
         "index": {
           "description": "This symbol represents the function which forms the left-composition of its two function arguments",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "leftComposeSymbol",
           "package": "ideas",
@@ -33570,6 +36366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to describe the left inverse of its argument (a\nfunction). This inverse may only be partially defined because the function may\nnot have been surjective. If the function is not surjective the left inverse\nfunction is ill-defined without further stipulations. No other assumptions are\nmade on the semantics of this left inverse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "leftInverseSymbol",
           "package": "ideas",
@@ -33580,6 +36377,7 @@
         "index": {
           "description": "This symbol is used to describe the left inverse of its argument function This inverse may only be partially defined because the function may not have been surjective If the function is not surjective the left inverse function is ill-defined without further stipulations No other assumptions are made on the semantics of this left inverse",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "leftInverseSymbol",
           "package": "ideas",
@@ -33594,6 +36392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol denotes the range of a function, that is a set that the\nfunction will map to. The single argument should be the function whos range is\nbeing queried. It should be noted that this is not necessarily equal to the\nimage, it is merely required to contain the image. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "rangeSymbol",
           "package": "ideas",
@@ -33604,6 +36403,7 @@
         "index": {
           "description": "This symbol denotes the range of function that is set that the function will map to The single argument should be the function whos range is being queried It should be noted that this is not necessarily equal to the image it is merely required to contain the image",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "rangeSymbol",
           "package": "ideas",
@@ -33618,6 +36418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to describe the right inverse of its argument (a\nfunction). This inverse may only be partially defined because the function may\nnot have been surjective. If the function is not surjective the right inverse\nfunction is ill-defined without further stipulations. No other assumptions are\nmade on the semantics of this right inverse. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "rightInverseSymbol",
           "package": "ideas",
@@ -33628,6 +36429,7 @@
         "index": {
           "description": "This symbol is used to describe the right inverse of its argument function This inverse may only be partially defined because the function may not have been surjective If the function is not surjective the right inverse function is ill-defined without further stipulations No other assumptions are made on the semantics of this right inverse",
           "hierarchy": "Ideas Text OpenMath Dictionary Fns1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Fns1",
           "name": "rightInverseSymbol",
           "package": "ideas",
@@ -33641,6 +36443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "Linalg2",
           "package": "ideas",
@@ -33649,6 +36452,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Linalg2",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "Linalg2",
           "package": "ideas",
@@ -33663,6 +36467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in linalg2 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "linalg2List",
           "package": "ideas",
@@ -33673,6 +36478,7 @@
         "index": {
           "description": "List of symbols defined in linalg2 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Linalg2",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "linalg2List",
           "normalized": "[Symbol]",
@@ -33689,6 +36495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is an n-ary matrix constructor which requires matrixrow's as\narguments. It is used to represent matrices. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "matrixSymbol",
           "package": "ideas",
@@ -33699,6 +36506,7 @@
         "index": {
           "description": "This symbol is an n-ary matrix constructor which requires matrixrow as arguments It is used to represent matrices",
           "hierarchy": "Ideas Text OpenMath Dictionary Linalg2",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "matrixSymbol",
           "package": "ideas",
@@ -33713,6 +36521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is an n-ary constructor used to represent rows of matrices.\nIts arguments should be members of a ring. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "matrixrowSymbol",
           "package": "ideas",
@@ -33723,6 +36532,7 @@
         "index": {
           "description": "This symbol is an n-ary constructor used to represent rows of matrices Its arguments should be members of ring",
           "hierarchy": "Ideas Text OpenMath Dictionary Linalg2",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "matrixrowSymbol",
           "package": "ideas",
@@ -33737,6 +36547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents an n-ary function used to construct (or describe)\nvectors. Vectors in this CD are considered to be row vectors and must\ntherefore be transposed to be considered as column vectors. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "vectorSymbol",
           "package": "ideas",
@@ -33747,6 +36558,7 @@
         "index": {
           "description": "This symbol represents an n-ary function used to construct or describe vectors Vectors in this CD are considered to be row vectors and must therefore be transposed to be considered as column vectors",
           "hierarchy": "Ideas Text OpenMath Dictionary Linalg2",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Linalg2",
           "name": "vectorSymbol",
           "package": "ideas",
@@ -33760,6 +36572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "List1",
           "package": "ideas",
@@ -33768,6 +36581,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary List1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "List1",
           "package": "ideas",
@@ -33782,6 +36596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in list1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "list1List",
           "package": "ideas",
@@ -33792,6 +36607,7 @@
         "index": {
           "description": "List of symbols defined in list1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary List1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "list1List",
           "normalized": "[Symbol]",
@@ -33808,6 +36624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol denotes the list construct which is an n-ary function. The\nlist entries must be given explicitly. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "listSymbol",
           "package": "ideas",
@@ -33818,6 +36635,7 @@
         "index": {
           "description": "This symbol denotes the list construct which is an n-ary function The list entries must be given explicitly",
           "hierarchy": "Ideas Text OpenMath Dictionary List1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "listSymbol",
           "package": "ideas",
@@ -33832,6 +36650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents a mapping function which may be used to construct\nlists, it takes as arguments a function from X to Y and a list over X in that\norder. The value that is returned is a list of values in Y. The argument list\nmay be a set or an integer_interval. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "mapSymbol",
           "package": "ideas",
@@ -33842,6 +36661,7 @@
         "index": {
           "description": "This symbol represents mapping function which may be used to construct lists it takes as arguments function from to and list over in that order The value that is returned is list of values in The argument list may be set or an integer interval",
           "hierarchy": "Ideas Text OpenMath Dictionary List1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "mapSymbol",
           "package": "ideas",
@@ -33856,6 +36676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the suchthat function which may be used to\nconstruct lists, it takes two arguments. The first argument should be the set\nwhich contains the elements of the list, the second argument should be a\npredicate, that is a function from the set to the booleans which describes if\nan element is to be in the list returned. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "suchthatSymbol",
           "package": "ideas",
@@ -33866,6 +36687,7 @@
         "index": {
           "description": "This symbol represents the suchthat function which may be used to construct lists it takes two arguments The first argument should be the set which contains the elements of the list the second argument should be predicate that is function from the set to the booleans which describes if an element is to be in the list returned",
           "hierarchy": "Ideas Text OpenMath Dictionary List1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.List1",
           "name": "suchthatSymbol",
           "package": "ideas",
@@ -33879,6 +36701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "Logic1",
           "package": "ideas",
@@ -33887,6 +36710,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "Logic1",
           "package": "ideas",
@@ -33901,6 +36725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the logical and function which is an n-ary function\ntaking boolean arguments and returning a boolean value. It is true if all\narguments are true or false otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "andSymbol",
           "package": "ideas",
@@ -33911,6 +36736,7 @@
         "index": {
           "description": "This symbol represents the logical and function which is an n-ary function taking boolean arguments and returning boolean value It is true if all arguments are true or false otherwise",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "andSymbol",
           "package": "ideas",
@@ -33925,6 +36751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to show that two boolean expressions are logically\nequivalent, that is have the same boolean value for any inputs. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "equivalentSymbol",
           "package": "ideas",
@@ -33935,6 +36762,7 @@
         "index": {
           "description": "This symbol is used to show that two boolean expressions are logically equivalent that is have the same boolean value for any inputs",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "equivalentSymbol",
           "package": "ideas",
@@ -33949,6 +36777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the boolean value false. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "falseSymbol",
           "package": "ideas",
@@ -33959,6 +36788,7 @@
         "index": {
           "description": "This symbol represents the boolean value false",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "falseSymbol",
           "package": "ideas",
@@ -33973,6 +36803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the logical implies function which takes two\nboolean expressions as arguments. It evaluates to false if the first argument\nis true and the second argument is false, otherwise it evaluates to true. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "impliesSymbol",
           "package": "ideas",
@@ -33983,6 +36814,7 @@
         "index": {
           "description": "This symbol represents the logical implies function which takes two boolean expressions as arguments It evaluates to false if the first argument is true and the second argument is false otherwise it evaluates to true",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "impliesSymbol",
           "package": "ideas",
@@ -33997,6 +36829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in logic1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "logic1List",
           "package": "ideas",
@@ -34007,6 +36840,7 @@
         "index": {
           "description": "List of symbols defined in logic1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "logic1List",
           "normalized": "[Symbol]",
@@ -34023,6 +36857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the logical not function which takes one boolean\nargument, and returns the opposite boolean value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "notSymbol",
           "package": "ideas",
@@ -34033,6 +36868,7 @@
         "index": {
           "description": "This symbol represents the logical not function which takes one boolean argument and returns the opposite boolean value",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "notSymbol",
           "package": "ideas",
@@ -34047,6 +36883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the logical or function which is an n-ary function\ntaking boolean arguments and returning a boolean value. It is true if any of\nthe arguments are true or false otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "orSymbol",
           "package": "ideas",
@@ -34057,6 +36894,7 @@
         "index": {
           "description": "This symbol represents the logical or function which is an n-ary function taking boolean arguments and returning boolean value It is true if any of the arguments are true or false otherwise",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "orSymbol",
           "package": "ideas",
@@ -34071,6 +36909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the boolean value true. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "trueSymbol",
           "package": "ideas",
@@ -34081,6 +36920,7 @@
         "index": {
           "description": "This symbol represents the boolean value true",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "trueSymbol",
           "package": "ideas",
@@ -34095,6 +36935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the logical xor function which is an n-ary function\ntaking boolean arguments and returning a boolean value. It is true if there\nare an odd number of true arguments or false otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "xorSymbol",
           "package": "ideas",
@@ -34105,6 +36946,7 @@
         "index": {
           "description": "This symbol represents the logical xor function which is an n-ary function taking boolean arguments and returning boolean value It is true if there are an odd number of true arguments or false otherwise",
           "hierarchy": "Ideas Text OpenMath Dictionary Logic1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Logic1",
           "name": "xorSymbol",
           "package": "ideas",
@@ -34118,6 +36960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "Nums1",
           "package": "ideas",
@@ -34126,6 +36969,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "Nums1",
           "package": "ideas",
@@ -34140,6 +36984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the constructor function for integers, specifying\nthe base. It takes two arguments, the first is a positive integer to denote\nthe base to which the number is represented, the second argument is a string\nwhich contains an optional sign and the digits of the integer, using 0-9a-z\n(as a consequence of this no radix greater than 35 is supported). Base 16 and\nbase 10 are already covered in the encodings of integers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "basedIntegerSymbol",
           "package": "ideas",
@@ -34150,6 +36995,7 @@
         "index": {
           "description": "This symbol represents the constructor function for integers specifying the base It takes two arguments the first is positive integer to denote the base to which the number is represented the second argument is string which contains an optional sign and the digits of the integer using a-z as consequence of this no radix greater than is supported Base and base are already covered in the encodings of integers",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "basedIntegerSymbol",
           "package": "ideas",
@@ -34164,6 +37010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the base of the natural logarithm, approximately\n2.718. See Abramowitz and Stegun, Handbook of Mathematical Functions, section\n4.1. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "eSymbol",
           "package": "ideas",
@@ -34174,6 +37021,7 @@
         "index": {
           "description": "This symbol represents the base of the natural logarithm approximately See Abramowitz and Stegun Handbook of Mathematical Functions section",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "eSymbol",
           "package": "ideas",
@@ -34188,6 +37036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol to convey the notion of the gamma constant as defined in\nAbramowitz and Stegun, Handbook of Mathematical Functions, section 6.1.3. It\nis the limit of 1 + 1\u003cem\u003e2 + 1\u003c/em\u003e3 + ... + 1/m - ln m as m tends to infinity, this\nis approximately 0.5772 15664. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "gammaSymbol",
           "package": "ideas",
@@ -34198,6 +37047,7 @@
         "index": {
           "description": "symbol to convey the notion of the gamma constant as defined in Abramowitz and Stegun Handbook of Mathematical Functions section It is the limit of ln as tends to infinity this is approximately",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "gammaSymbol",
           "package": "ideas",
@@ -34212,6 +37062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the square root of -1. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "iSymbol",
           "package": "ideas",
@@ -34222,6 +37073,7 @@
         "index": {
           "description": "This symbol represents the square root of",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "iSymbol",
           "package": "ideas",
@@ -34236,6 +37088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol to represent the notion of infinity. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "infinitySymbol",
           "package": "ideas",
@@ -34246,6 +37099,7 @@
         "index": {
           "description": "symbol to represent the notion of infinity",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "infinitySymbol",
           "package": "ideas",
@@ -34260,6 +37114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol to convey the notion of not-a-number. The result of an ill-posed\nfloating computation. See IEEE standard for floating point representations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "naNSymbol",
           "package": "ideas",
@@ -34270,6 +37125,7 @@
         "index": {
           "description": "symbol to convey the notion of not-a-number The result of an ill-posed floating computation See IEEE standard for floating point representations",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "naNSymbol",
           "package": "ideas",
@@ -34284,6 +37140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in nums1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "nums1List",
           "package": "ideas",
@@ -34294,6 +37151,7 @@
         "index": {
           "description": "List of symbols defined in nums1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "nums1List",
           "normalized": "[Symbol]",
@@ -34310,6 +37168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol to convey the notion of pi, approximately 3.142. The ratio of the\ncircumference of a circle to its diameter. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "piSymbol",
           "package": "ideas",
@@ -34320,6 +37179,7 @@
         "index": {
           "description": "symbol to convey the notion of pi approximately The ratio of the circumference of circle to its diameter",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "piSymbol",
           "package": "ideas",
@@ -34334,6 +37194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the constructor function for rational numbers. It\ntakes two arguments, the first is an integer p to denote the numerator and the\nsecond a nonzero integer q to denote the denominator of the rational p/q. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "rationalSymbol",
           "package": "ideas",
@@ -34344,6 +37205,7 @@
         "index": {
           "description": "This symbol represents the constructor function for rational numbers It takes two arguments the first is an integer to denote the numerator and the second nonzero integer to denote the denominator of the rational",
           "hierarchy": "Ideas Text OpenMath Dictionary Nums1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Nums1",
           "name": "rationalSymbol",
           "package": "ideas",
@@ -34357,6 +37219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Quant1",
           "name": "Quant1",
           "package": "ideas",
@@ -34365,6 +37228,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Quant1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Quant1",
           "name": "Quant1",
           "package": "ideas",
@@ -34379,6 +37243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the existential (\u003ca\u003ethere exists\u003c/a\u003e) quantifier which\ntakes two arguments. It must be placed within an OMBIND element. The first\nargument is the bound variables (placed within an OMBVAR element), and the\nsecond is an expression. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Quant1",
           "name": "existsSymbol",
           "package": "ideas",
@@ -34389,6 +37254,7 @@
         "index": {
           "description": "This symbol represents the existential there exists quantifier which takes two arguments It must be placed within an OMBIND element The first argument is the bound variables placed within an OMBVAR element and the second is an expression",
           "hierarchy": "Ideas Text OpenMath Dictionary Quant1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Quant1",
           "name": "existsSymbol",
           "package": "ideas",
@@ -34403,6 +37269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the universal (\u003ca\u003efor all\u003c/a\u003e) quantifier which takes\ntwo arguments. It must be placed within an OMBIND element. The first argument\nis the bound variables (placed within an OMBVAR element), and the second is an\nexpression. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Quant1",
           "name": "forallSymbol",
           "package": "ideas",
@@ -34413,6 +37280,7 @@
         "index": {
           "description": "This symbol represents the universal for all quantifier which takes two arguments It must be placed within an OMBIND element The first argument is the bound variables placed within an OMBVAR element and the second is an expression",
           "hierarchy": "Ideas Text OpenMath Dictionary Quant1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Quant1",
           "name": "forallSymbol",
           "package": "ideas",
@@ -34427,6 +37295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in quant1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Quant1",
           "name": "quant1List",
           "package": "ideas",
@@ -34437,6 +37306,7 @@
         "index": {
           "description": "List of symbols defined in quant1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Quant1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Quant1",
           "name": "quant1List",
           "normalized": "[Symbol]",
@@ -34452,6 +37322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "Relation1",
           "package": "ideas",
@@ -34460,6 +37331,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "Relation1",
           "package": "ideas",
@@ -34474,6 +37346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol is used to denote the approximate equality of its two\narguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "approxSymbol",
           "package": "ideas",
@@ -34484,6 +37357,7 @@
         "index": {
           "description": "This symbol is used to denote the approximate equality of its two arguments",
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "approxSymbol",
           "package": "ideas",
@@ -34498,6 +37372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the binary equality function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "eqSymbol",
           "package": "ideas",
@@ -34508,6 +37383,7 @@
         "index": {
           "description": "This symbol represents the binary equality function",
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "eqSymbol",
           "package": "ideas",
@@ -34522,6 +37398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the binary greater than or equal to function which\nreturns true if the first argument is greater than or equal to the second, it\nreturns false otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "geqSymbol",
           "package": "ideas",
@@ -34532,6 +37409,7 @@
         "index": {
           "description": "This symbol represents the binary greater than or equal to function which returns true if the first argument is greater than or equal to the second it returns false otherwise",
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "geqSymbol",
           "package": "ideas",
@@ -34546,6 +37424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the binary greater than function which returns true\nif the first argument is greater than the second, it returns false otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "gtSymbol",
           "package": "ideas",
@@ -34556,6 +37435,7 @@
         "index": {
           "description": "This symbol represents the binary greater than function which returns true if the first argument is greater than the second it returns false otherwise",
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "gtSymbol",
           "package": "ideas",
@@ -34570,6 +37450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the binary less than or equal to function which\nreturns true if the first argument is less than or equal to the second, it\nreturns false otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "leqSymbol",
           "package": "ideas",
@@ -34580,6 +37461,7 @@
         "index": {
           "description": "This symbol represents the binary less than or equal to function which returns true if the first argument is less than or equal to the second it returns false otherwise",
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "leqSymbol",
           "package": "ideas",
@@ -34594,6 +37476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the binary less than function which returns true if\nthe first argument is less than the second, it returns false otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "ltSymbol",
           "package": "ideas",
@@ -34604,6 +37487,7 @@
         "index": {
           "description": "This symbol represents the binary less than function which returns true if the first argument is less than the second it returns false otherwise",
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "ltSymbol",
           "package": "ideas",
@@ -34618,6 +37502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the binary inequality function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "neqSymbol",
           "package": "ideas",
@@ -34628,6 +37513,7 @@
         "index": {
           "description": "This symbol represents the binary inequality function",
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "neqSymbol",
           "package": "ideas",
@@ -34642,6 +37528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in relation1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "relation1List",
           "package": "ideas",
@@ -34652,6 +37539,7 @@
         "index": {
           "description": "List of symbols defined in relation1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Relation1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Relation1",
           "name": "relation1List",
           "normalized": "[Symbol]",
@@ -34667,6 +37555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "Transc1",
           "package": "ideas",
@@ -34675,6 +37564,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "Transc1",
           "package": "ideas",
@@ -34689,6 +37579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arccos function. This is the inverse of the cos\nfunction as described in Abramowitz and Stegun, section 4.4. It takes one\nargument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccosSymbol",
           "package": "ideas",
@@ -34699,6 +37590,7 @@
         "index": {
           "description": "This symbol represents the arccos function This is the inverse of the cos function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccosSymbol",
           "package": "ideas",
@@ -34713,6 +37605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arccosh function as described in Abramowitz and\nStegun, section 4.6. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccoshSymbol",
           "package": "ideas",
@@ -34723,6 +37616,7 @@
         "index": {
           "description": "This symbol represents the arccosh function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccoshSymbol",
           "package": "ideas",
@@ -34737,6 +37631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arccot function as described in Abramowitz and\nStegun, section 4.4. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccotSymbol",
           "package": "ideas",
@@ -34747,6 +37642,7 @@
         "index": {
           "description": "This symbol represents the arccot function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccotSymbol",
           "package": "ideas",
@@ -34761,6 +37657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arccoth function as described in Abramowitz and\nStegun, section 4.6. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccothSymbol",
           "package": "ideas",
@@ -34771,6 +37668,7 @@
         "index": {
           "description": "This symbol represents the arccoth function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccothSymbol",
           "package": "ideas",
@@ -34785,6 +37683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arccsc function as described in Abramowitz and\nStegun, section 4.4. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccscSymbol",
           "package": "ideas",
@@ -34795,6 +37694,7 @@
         "index": {
           "description": "This symbol represents the arccsc function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccscSymbol",
           "package": "ideas",
@@ -34809,6 +37709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arccsch function as described in Abramowitz and\nStegun, section 4.6. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccschSymbol",
           "package": "ideas",
@@ -34819,6 +37720,7 @@
         "index": {
           "description": "This symbol represents the arccsch function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arccschSymbol",
           "package": "ideas",
@@ -34833,6 +37735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arcsec function as described in Abramowitz and\nStegun, section 4.4. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arcsecSymbol",
           "package": "ideas",
@@ -34843,6 +37746,7 @@
         "index": {
           "description": "This symbol represents the arcsec function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arcsecSymbol",
           "package": "ideas",
@@ -34857,6 +37761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arcsech function as described in Abramowitz and\nStegun, section 4.6. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arcsechSymbol",
           "package": "ideas",
@@ -34867,6 +37772,7 @@
         "index": {
           "description": "This symbol represents the arcsech function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arcsechSymbol",
           "package": "ideas",
@@ -34881,6 +37787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arcsin function. This is the inverse of the sin\nfunction as described in Abramowitz and Stegun, section 4.4. It takes one\nargument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arcsinSymbol",
           "package": "ideas",
@@ -34891,6 +37798,7 @@
         "index": {
           "description": "This symbol represents the arcsin function This is the inverse of the sin function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arcsinSymbol",
           "package": "ideas",
@@ -34905,6 +37813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arcsinh function as described in Abramowitz and\nStegun, section 4.6. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arcsinhSymbol",
           "package": "ideas",
@@ -34915,6 +37824,7 @@
         "index": {
           "description": "This symbol represents the arcsinh function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arcsinhSymbol",
           "package": "ideas",
@@ -34929,6 +37839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arctan function. This is the inverse of the tan\nfunction as described in Abramowitz and Stegun, section 4.4. It takes one\nargument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arctanSymbol",
           "package": "ideas",
@@ -34939,6 +37850,7 @@
         "index": {
           "description": "This symbol represents the arctan function This is the inverse of the tan function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arctanSymbol",
           "package": "ideas",
@@ -34953,6 +37865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the arctanh function as described in Abramowitz and\nStegun, section 4.6. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arctanhSymbol",
           "package": "ideas",
@@ -34963,6 +37876,7 @@
         "index": {
           "description": "This symbol represents the arctanh function as described in Abramowitz and Stegun section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "arctanhSymbol",
           "package": "ideas",
@@ -34977,6 +37891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the cos function as described in Abramowitz and\nStegun, section 4.3. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cosSymbol",
           "package": "ideas",
@@ -34987,6 +37902,7 @@
         "index": {
           "description": "This symbol represents the cos function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cosSymbol",
           "package": "ideas",
@@ -35001,6 +37917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the cosh function as described in Abramowitz and\nStegun, section 4.5. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "coshSymbol",
           "package": "ideas",
@@ -35011,6 +37928,7 @@
         "index": {
           "description": "This symbol represents the cosh function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "coshSymbol",
           "package": "ideas",
@@ -35025,6 +37943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the cot function as described in Abramowitz and\nStegun, section 4.3. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cotSymbol",
           "package": "ideas",
@@ -35035,6 +37954,7 @@
         "index": {
           "description": "This symbol represents the cot function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cotSymbol",
           "package": "ideas",
@@ -35049,6 +37969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the coth function as described in Abramowitz and\nStegun, section 4.5. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cothSymbol",
           "package": "ideas",
@@ -35059,6 +37980,7 @@
         "index": {
           "description": "This symbol represents the coth function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cothSymbol",
           "package": "ideas",
@@ -35073,6 +37995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the csc function as described in Abramowitz and\nStegun, section 4.3. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cscSymbol",
           "package": "ideas",
@@ -35083,6 +38006,7 @@
         "index": {
           "description": "This symbol represents the csc function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cscSymbol",
           "package": "ideas",
@@ -35097,6 +38021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the csch function as described in Abramowitz and\nStegun, section 4.5. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cschSymbol",
           "package": "ideas",
@@ -35107,6 +38032,7 @@
         "index": {
           "description": "This symbol represents the csch function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "cschSymbol",
           "package": "ideas",
@@ -35121,6 +38047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the exponentiation function as described in\nAbramowitz and Stegun, section 4.2. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "expSymbol",
           "package": "ideas",
@@ -35131,6 +38058,7 @@
         "index": {
           "description": "This symbol represents the exponentiation function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "expSymbol",
           "package": "ideas",
@@ -35145,6 +38073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the ln function (natural logarithm) as described in\nAbramowitz and Stegun, section 4.1. It takes one argument. Note the\ndescription in the CMP/FMP of the branch cut. If signed zeros are in use, the\ninequality needs to be non-strict. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "lnSymbol",
           "package": "ideas",
@@ -35155,6 +38084,7 @@
         "index": {
           "description": "This symbol represents the ln function natural logarithm as described in Abramowitz and Stegun section It takes one argument Note the description in the CMP FMP of the branch cut If signed zeros are in use the inequality needs to be non-strict",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "lnSymbol",
           "package": "ideas",
@@ -35169,6 +38099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents a binary log function; the first argument is the\nbase, to which the second argument is log'ed. It is defined in Abramowitz and\nStegun, Handbook of Mathematical Functions, section 4.1 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "logSymbol",
           "package": "ideas",
@@ -35179,6 +38110,7 @@
         "index": {
           "description": "This symbol represents binary log function the first argument is the base to which the second argument is log ed It is defined in Abramowitz and Stegun Handbook of Mathematical Functions section",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "logSymbol",
           "package": "ideas",
@@ -35193,6 +38125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the sec function as described in Abramowitz and\nStegun, section 4.3. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "secSymbol",
           "package": "ideas",
@@ -35203,6 +38136,7 @@
         "index": {
           "description": "This symbol represents the sec function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "secSymbol",
           "package": "ideas",
@@ -35217,6 +38151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the sech function as described in Abramowitz and\nStegun, section 4.5. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "sechSymbol",
           "package": "ideas",
@@ -35227,6 +38162,7 @@
         "index": {
           "description": "This symbol represents the sech function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "sechSymbol",
           "package": "ideas",
@@ -35241,6 +38177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the sin function as described in Abramowitz and\nStegun, section 4.3. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "sinSymbol",
           "package": "ideas",
@@ -35251,6 +38188,7 @@
         "index": {
           "description": "This symbol represents the sin function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "sinSymbol",
           "package": "ideas",
@@ -35265,6 +38203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the sinh function as described in Abramowitz and\nStegun, section 4.5. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "sinhSymbol",
           "package": "ideas",
@@ -35275,6 +38214,7 @@
         "index": {
           "description": "This symbol represents the sinh function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "sinhSymbol",
           "package": "ideas",
@@ -35289,6 +38229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the tan function as described in Abramowitz and\nStegun, section 4.3. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "tanSymbol",
           "package": "ideas",
@@ -35299,6 +38240,7 @@
         "index": {
           "description": "This symbol represents the tan function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "tanSymbol",
           "package": "ideas",
@@ -35313,6 +38255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis symbol represents the tanh function as described in Abramowitz and\nStegun, section 4.5. It takes one argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "tanhSymbol",
           "package": "ideas",
@@ -35323,6 +38266,7 @@
         "index": {
           "description": "This symbol represents the tanh function as described in Abramowitz and Stegun section It takes one argument",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "tanhSymbol",
           "package": "ideas",
@@ -35337,6 +38281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of symbols defined in transc1 dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "transc1List",
           "package": "ideas",
@@ -35347,6 +38292,7 @@
         "index": {
           "description": "List of symbols defined in transc1 dictionary",
           "hierarchy": "Ideas Text OpenMath Dictionary Transc1",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Dictionary.Transc1",
           "name": "transc1List",
           "normalized": "[Symbol]",
@@ -35363,6 +38309,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormal mathematical properties (FMP)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "FMP",
           "package": "ideas",
@@ -35372,6 +38319,7 @@
         "index": {
           "description": "Formal mathematical properties FMP",
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "FMP",
           "package": "ideas",
@@ -35385,6 +38333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "FMP",
           "package": "ideas",
@@ -35393,6 +38342,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "FMP",
           "package": "ideas",
@@ -35406,6 +38356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "FMP",
           "package": "ideas",
@@ -35415,6 +38366,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "FMP",
           "package": "ideas",
@@ -35429,6 +38381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a common misconception. In certain (most) situations,\n the two objects are not the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "buggyFMP",
           "package": "ideas",
@@ -35439,6 +38392,7 @@
         "index": {
           "description": "Represents common misconception In certain most situations the two objects are not the same",
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "buggyFMP",
           "normalized": "OMOBJ-\u003eOMOBJ-\u003eFMP",
@@ -35454,6 +38408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "eqFMP",
           "package": "ideas",
@@ -35463,6 +38418,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "eqFMP",
           "normalized": "OMOBJ-\u003eOMOBJ-\u003eFMP",
@@ -35478,6 +38434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "leftHandSide",
           "package": "ideas",
@@ -35487,6 +38444,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "leftHandSide",
           "package": "ideas",
@@ -35500,6 +38458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "metaVariables",
           "package": "ideas",
@@ -35509,6 +38468,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "metaVariables",
           "normalized": "[String]",
@@ -35524,6 +38484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "quantor",
           "package": "ideas",
@@ -35533,6 +38494,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "quantor",
           "package": "ideas",
@@ -35545,6 +38507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "relation",
           "package": "ideas",
@@ -35554,6 +38517,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "relation",
           "package": "ideas",
@@ -35566,6 +38530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "rightHandSide",
           "package": "ideas",
@@ -35575,6 +38540,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "rightHandSide",
           "package": "ideas",
@@ -35588,6 +38554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "toObject",
           "package": "ideas",
@@ -35597,6 +38564,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath FMP",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.FMP",
           "name": "toObject",
           "normalized": "FMP-\u003eOMOBJ",
@@ -35612,6 +38580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "Object",
           "package": "ideas",
@@ -35620,6 +38589,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "Object",
           "package": "ideas",
@@ -35633,6 +38603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMOBJ",
           "package": "ideas",
@@ -35641,6 +38612,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMOBJ",
           "package": "ideas",
@@ -35654,6 +38626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMA",
           "package": "ideas",
@@ -35663,6 +38636,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMA",
           "normalized": "OMA[OMOBJ]",
@@ -35678,6 +38652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMBIND",
           "package": "ideas",
@@ -35687,6 +38662,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMBIND",
           "normalized": "OMBIND OMOBJ[String]OMOBJ",
@@ -35702,6 +38678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMF",
           "package": "ideas",
@@ -35711,6 +38688,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMF",
           "package": "ideas",
@@ -35724,6 +38702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMI",
           "package": "ideas",
@@ -35733,6 +38712,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMI",
           "package": "ideas",
@@ -35746,6 +38726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMS",
           "package": "ideas",
@@ -35755,6 +38736,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMS",
           "package": "ideas",
@@ -35768,6 +38750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMV",
           "package": "ideas",
@@ -35777,6 +38760,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "OMV",
           "package": "ideas",
@@ -35790,6 +38774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "getOMVs",
           "package": "ideas",
@@ -35799,6 +38784,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "getOMVs",
           "normalized": "OMOBJ-\u003e[String]",
@@ -35814,6 +38800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "omobj2xml",
           "package": "ideas",
@@ -35823,6 +38810,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "omobj2xml",
           "normalized": "OMOBJ-\u003eXML",
@@ -35837,6 +38825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "xml2omobj",
           "package": "ideas",
@@ -35846,6 +38835,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Object",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Object",
           "name": "xml2omobj",
           "normalized": "XML-\u003eEither String OMOBJ",
@@ -35860,6 +38850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "Symbol",
           "package": "ideas",
@@ -35868,6 +38859,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Symbol",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "Symbol",
           "package": "ideas",
@@ -35881,6 +38873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "Symbol",
           "package": "ideas",
@@ -35889,6 +38882,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Symbol",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "Symbol",
           "package": "ideas",
@@ -35902,6 +38896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "dictionary",
           "package": "ideas",
@@ -35911,6 +38906,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Symbol",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "dictionary",
           "normalized": "Symbol-\u003eMaybe String",
@@ -35925,6 +38921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "extraSymbol",
           "package": "ideas",
@@ -35934,6 +38931,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Symbol",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "extraSymbol",
           "normalized": "String-\u003eSymbol",
@@ -35949,6 +38947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "makeSymbol",
           "package": "ideas",
@@ -35958,6 +38957,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Symbol",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "makeSymbol",
           "normalized": "String-\u003eString-\u003eSymbol",
@@ -35973,6 +38973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "showSymbol",
           "package": "ideas",
@@ -35982,6 +38983,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Symbol",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "showSymbol",
           "normalized": "Symbol-\u003eString",
@@ -35997,6 +38999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "symbolName",
           "package": "ideas",
@@ -36006,6 +39009,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Symbol",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Symbol",
           "name": "symbolName",
           "normalized": "Symbol-\u003eString",
@@ -36021,6 +39025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Tests",
           "name": "Tests",
           "package": "ideas",
@@ -36029,6 +39034,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Tests",
           "name": "Tests",
           "package": "ideas",
@@ -36042,6 +39048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.OpenMath.Tests",
           "name": "propEncoding",
           "package": "ideas",
@@ -36051,6 +39058,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text OpenMath Tests",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.OpenMath.Tests",
           "name": "propEncoding",
           "package": "ideas",
@@ -36065,6 +39073,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions for parsing with Parsec library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "Parsing",
           "package": "ideas",
@@ -36074,6 +39083,7 @@
         "index": {
           "description": "Utility functions for parsing with Parsec library",
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "Parsing",
           "package": "ideas",
@@ -36087,6 +39097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "UnbalancedError",
           "package": "ideas",
@@ -36095,6 +39106,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "UnbalancedError",
           "package": "ideas",
@@ -36109,6 +39121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence actions, discarding the value of the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "(*\u003e)",
           "package": "ideas",
@@ -36118,6 +39131,7 @@
         "index": {
           "description": "Sequence actions discarding the value of the first argument",
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "(*\u003e) *\u003e",
           "normalized": "a b c d b-\u003ed e-\u003ed e",
@@ -36133,6 +39147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all locations in the input with the same value.\n The default definition is \u003ccode\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, but this may be\n overridden with a more efficient version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "(\u003c$)",
           "package": "ideas",
@@ -36142,6 +39157,7 @@
         "index": {
           "description": "Replace all locations in the input with the same value The default definition is fmap const but this may be overridden with more efficient version",
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "(\u003c$) \u003c$",
           "normalized": "a b c b-\u003ed e-\u003ed b",
@@ -36157,6 +39173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence actions, discarding the value of the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "(\u003c*)",
           "package": "ideas",
@@ -36166,6 +39183,7 @@
         "index": {
           "description": "Sequence actions discarding the value of the second argument",
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b c d b-\u003ed e-\u003ed b",
@@ -36181,6 +39199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "(\u003c*\u003e)",
           "package": "ideas",
@@ -36190,6 +39209,7 @@
         "index": {
           "description": "Sequential application",
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a b c d(b-\u003ee)-\u003ed b-\u003ed e",
@@ -36204,6 +39224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "(\u003c..\u003e)",
           "package": "ideas",
@@ -36213,6 +39234,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "(\u003c..\u003e) \u003c..\u003e",
           "normalized": "Char-\u003eChar-\u003eParser Char",
@@ -36227,6 +39249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "NotClosed",
           "package": "ideas",
@@ -36236,6 +39259,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "NotClosed",
           "package": "ideas",
@@ -36249,6 +39273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "NotOpened",
           "package": "ideas",
@@ -36258,6 +39283,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "NotOpened",
           "package": "ideas",
@@ -36271,6 +39297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "balanced",
           "package": "ideas",
@@ -36280,6 +39307,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "balanced",
           "normalized": "[(Char,Char)]-\u003eString-\u003eMaybe UnbalancedError",
@@ -36294,6 +39322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "complete",
           "package": "ideas",
@@ -36303,6 +39332,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "complete",
           "normalized": "Parser a-\u003eParser a",
@@ -36317,6 +39347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "float",
           "package": "ideas",
@@ -36326,6 +39357,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "float",
           "package": "ideas",
@@ -36338,6 +39370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "naturalOrFloat",
           "package": "ideas",
@@ -36347,6 +39380,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "naturalOrFloat",
           "package": "ideas",
@@ -36360,6 +39394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "parseSimple",
           "package": "ideas",
@@ -36369,6 +39404,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "parseSimple",
           "normalized": "Parser a-\u003eString-\u003eEither String a",
@@ -36384,6 +39420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "ranges",
           "package": "ideas",
@@ -36393,6 +39430,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "ranges",
           "normalized": "[(Char,Char)]-\u003eParser Char",
@@ -36407,6 +39445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "skip",
           "package": "ideas",
@@ -36416,6 +39455,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "skip",
           "normalized": "Parser a-\u003eParser()",
@@ -36430,6 +39470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.Parsing",
           "name": "stopOn",
           "package": "ideas",
@@ -36439,6 +39480,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text Parsing",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.Parsing",
           "name": "stopOn",
           "normalized": "[String]-\u003eParser String",
@@ -36455,6 +39497,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for the UTF8 encoding\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.UTF8",
           "name": "UTF8",
           "package": "ideas",
@@ -36464,6 +39507,7 @@
         "index": {
           "description": "Support for the UTF8 encoding",
           "hierarchy": "Ideas Text UTF8",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.UTF8",
           "name": "UTF8",
           "package": "ideas",
@@ -36478,6 +39522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether all characters are in the range 0-255\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.UTF8",
           "name": "allBytes",
           "package": "ideas",
@@ -36488,6 +39533,7 @@
         "index": {
           "description": "Test whether all characters are in the range",
           "hierarchy": "Ideas Text UTF8",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.UTF8",
           "name": "allBytes",
           "normalized": "String-\u003eBool",
@@ -36504,6 +39550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an UTF8 format string to unicode points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.UTF8",
           "name": "decode",
           "package": "ideas",
@@ -36514,6 +39561,7 @@
         "index": {
           "description": "Decode an UTF8 format string to unicode points",
           "hierarchy": "Ideas Text UTF8",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.UTF8",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -36529,6 +39577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an UTF8 format string to unicode points (monadic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.UTF8",
           "name": "decodeM",
           "package": "ideas",
@@ -36539,6 +39588,7 @@
         "index": {
           "description": "Decode an UTF8 format string to unicode points monadic",
           "hierarchy": "Ideas Text UTF8",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.UTF8",
           "name": "decodeM",
           "normalized": "String-\u003ea String",
@@ -36554,6 +39604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string to UTF8 format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.UTF8",
           "name": "encode",
           "package": "ideas",
@@ -36564,6 +39615,7 @@
         "index": {
           "description": "Encode string to UTF8 format",
           "hierarchy": "Ideas Text UTF8",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.UTF8",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -36579,6 +39631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string to UTF8 format (monadic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.UTF8",
           "name": "encodeM",
           "package": "ideas",
@@ -36589,6 +39642,7 @@
         "index": {
           "description": "Encode string to UTF8 format monadic",
           "hierarchy": "Ideas Text UTF8",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.UTF8",
           "name": "encodeM",
           "normalized": "String-\u003ea String",
@@ -36604,6 +39658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the argument is a proper UTF8 string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.UTF8",
           "name": "isUTF8",
           "package": "ideas",
@@ -36614,6 +39669,7 @@
         "index": {
           "description": "Test whether the argument is proper UTF8 string",
           "hierarchy": "Ideas Text UTF8",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.UTF8",
           "name": "isUTF8",
           "normalized": "String-\u003eBool",
@@ -36630,6 +39686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickCheck internal encoding/decoding functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.UTF8",
           "name": "propEncoding",
           "package": "ideas",
@@ -36640,6 +39697,7 @@
         "index": {
           "description": "QuickCheck internal encoding decoding functions",
           "hierarchy": "Ideas Text UTF8",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.UTF8",
           "name": "propEncoding",
           "package": "ideas",
@@ -36654,6 +39712,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatype for representing XML documents\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Document",
           "package": "ideas",
@@ -36663,6 +39722,7 @@
         "index": {
           "description": "Datatype for representing XML documents",
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Document",
           "package": "ideas",
@@ -36676,6 +39736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "AttDef",
           "package": "ideas",
@@ -36684,6 +39745,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "AttDef",
           "package": "ideas",
@@ -36697,6 +39759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "AttType",
           "package": "ideas",
@@ -36705,6 +39768,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "AttType",
           "package": "ideas",
@@ -36718,6 +39782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "AttValue",
           "package": "ideas",
@@ -36726,6 +39791,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "AttValue",
           "package": "ideas",
@@ -36739,6 +39805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Attribute",
           "package": "ideas",
@@ -36747,6 +39814,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Attribute",
           "package": "ideas",
@@ -36760,6 +39828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Attributes",
           "package": "ideas",
@@ -36768,6 +39837,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Attributes",
           "package": "ideas",
@@ -36781,6 +39851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "CP",
           "package": "ideas",
@@ -36789,6 +39860,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "CP",
           "package": "ideas",
@@ -36802,6 +39874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Conditional",
           "package": "ideas",
@@ -36810,6 +39883,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Conditional",
           "package": "ideas",
@@ -36823,6 +39897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Content",
           "package": "ideas",
@@ -36831,6 +39906,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Content",
           "package": "ideas",
@@ -36844,6 +39920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "ContentSpec",
           "package": "ideas",
@@ -36852,6 +39929,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "ContentSpec",
           "package": "ideas",
@@ -36865,6 +39943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "DTD",
           "package": "ideas",
@@ -36873,6 +39952,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "DTD",
           "package": "ideas",
@@ -36886,6 +39966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "DefaultDecl",
           "package": "ideas",
@@ -36894,6 +39975,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "DefaultDecl",
           "package": "ideas",
@@ -36907,6 +39989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "DocTypeDecl",
           "package": "ideas",
@@ -36915,6 +39998,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "DocTypeDecl",
           "package": "ideas",
@@ -36928,6 +40012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Element",
           "package": "ideas",
@@ -36936,6 +40021,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Element",
           "package": "ideas",
@@ -36949,6 +40035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityDef",
           "package": "ideas",
@@ -36957,6 +40044,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityDef",
           "package": "ideas",
@@ -36970,6 +40058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityValue",
           "package": "ideas",
@@ -36978,6 +40067,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityValue",
           "package": "ideas",
@@ -36991,6 +40081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "External",
           "package": "ideas",
@@ -36999,6 +40090,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "External",
           "package": "ideas",
@@ -37012,6 +40104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "ExternalID",
           "package": "ideas",
@@ -37020,6 +40113,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "ExternalID",
           "package": "ideas",
@@ -37033,6 +40127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Name",
           "package": "ideas",
@@ -37041,6 +40136,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Name",
           "package": "ideas",
@@ -37054,6 +40150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Parameter",
           "package": "ideas",
@@ -37062,6 +40159,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Parameter",
           "package": "ideas",
@@ -37075,6 +40173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "PublicID",
           "package": "ideas",
@@ -37083,6 +40182,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "PublicID",
           "package": "ideas",
@@ -37096,6 +40196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Reference",
           "package": "ideas",
@@ -37104,6 +40205,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Reference",
           "package": "ideas",
@@ -37117,6 +40219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "TextDecl",
           "package": "ideas",
@@ -37125,6 +40228,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "TextDecl",
           "package": "ideas",
@@ -37138,6 +40242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "XML",
           "package": "ideas",
@@ -37146,6 +40251,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "XML",
           "package": "ideas",
@@ -37159,6 +40265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "XMLDoc",
           "package": "ideas",
@@ -37167,6 +40274,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "XMLDoc",
           "package": "ideas",
@@ -37180,6 +40288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": ":=",
           "package": "ideas",
@@ -37189,6 +40298,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": ":=",
           "package": "ideas",
@@ -37201,6 +40311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Any",
           "package": "ideas",
@@ -37210,6 +40321,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Any",
           "package": "ideas",
@@ -37223,6 +40335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "AttListDecl",
           "package": "ideas",
@@ -37232,6 +40345,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "AttListDecl",
           "normalized": "AttListDecl Name[AttDef]",
@@ -37247,6 +40361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "CDATA",
           "package": "ideas",
@@ -37256,6 +40371,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "CDATA",
           "package": "ideas",
@@ -37269,6 +40385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "CPName",
           "package": "ideas",
@@ -37278,6 +40395,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "CPName",
           "package": "ideas",
@@ -37291,6 +40409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "CharData",
           "package": "ideas",
@@ -37300,6 +40419,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "CharData",
           "package": "ideas",
@@ -37313,6 +40433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "CharRef",
           "package": "ideas",
@@ -37322,6 +40443,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "CharRef",
           "package": "ideas",
@@ -37335,6 +40457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Children",
           "package": "ideas",
@@ -37344,6 +40467,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Children",
           "package": "ideas",
@@ -37357,6 +40481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Choice",
           "package": "ideas",
@@ -37366,6 +40491,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Choice",
           "normalized": "Choice[CP]",
@@ -37381,6 +40507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "DTD",
           "package": "ideas",
@@ -37390,6 +40517,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "DTD",
           "normalized": "DTD Name(Maybe ExternalID)[DocTypeDecl]",
@@ -37405,6 +40533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "DTDConditional",
           "package": "ideas",
@@ -37414,6 +40543,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "DTDConditional",
           "package": "ideas",
@@ -37427,6 +40557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "DTDParameter",
           "package": "ideas",
@@ -37436,6 +40567,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "DTDParameter",
           "package": "ideas",
@@ -37449,6 +40581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Element",
           "package": "ideas",
@@ -37458,6 +40591,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Element",
           "package": "ideas",
@@ -37471,6 +40605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "ElementDecl",
           "package": "ideas",
@@ -37480,6 +40615,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "ElementDecl",
           "package": "ideas",
@@ -37493,6 +40629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Empty",
           "package": "ideas",
@@ -37502,6 +40639,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Empty",
           "package": "ideas",
@@ -37515,6 +40653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "EntitiesType",
           "package": "ideas",
@@ -37524,6 +40663,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "EntitiesType",
           "package": "ideas",
@@ -37537,6 +40677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityDecl",
           "package": "ideas",
@@ -37546,6 +40687,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityDecl",
           "package": "ideas",
@@ -37559,6 +40701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityRef",
           "package": "ideas",
@@ -37568,6 +40711,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityRef",
           "package": "ideas",
@@ -37581,6 +40725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityType",
           "package": "ideas",
@@ -37590,6 +40735,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "EntityType",
           "package": "ideas",
@@ -37603,6 +40749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "EnumerationType",
           "package": "ideas",
@@ -37612,6 +40759,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "EnumerationType",
           "normalized": "EnumerationType[String]",
@@ -37627,6 +40775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Fixed",
           "package": "ideas",
@@ -37636,6 +40785,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Fixed",
           "package": "ideas",
@@ -37649,6 +40799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "IdRefType",
           "package": "ideas",
@@ -37658,6 +40809,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "IdRefType",
           "package": "ideas",
@@ -37671,6 +40823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "IdRefsType",
           "package": "ideas",
@@ -37680,6 +40833,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "IdRefsType",
           "package": "ideas",
@@ -37693,6 +40847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "IdType",
           "package": "ideas",
@@ -37702,6 +40857,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "IdType",
           "package": "ideas",
@@ -37715,6 +40871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Ignore",
           "package": "ideas",
@@ -37724,6 +40881,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Ignore",
           "normalized": "Ignore[String]",
@@ -37739,6 +40897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Implied",
           "package": "ideas",
@@ -37748,6 +40907,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Implied",
           "package": "ideas",
@@ -37761,6 +40921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Include",
           "package": "ideas",
@@ -37770,6 +40931,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Include",
           "normalized": "Include[DocTypeDecl]",
@@ -37785,6 +40947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Mixed",
           "package": "ideas",
@@ -37794,6 +40957,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Mixed",
           "normalized": "Mixed Bool[Name]",
@@ -37809,6 +40973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "NmTokenType",
           "package": "ideas",
@@ -37818,6 +40983,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "NmTokenType",
           "package": "ideas",
@@ -37831,6 +40997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "NmTokensType",
           "package": "ideas",
@@ -37840,6 +41007,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "NmTokensType",
           "package": "ideas",
@@ -37853,6 +41021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "NotationDecl",
           "package": "ideas",
@@ -37862,6 +41031,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "NotationDecl",
           "package": "ideas",
@@ -37875,6 +41045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "NotationType",
           "package": "ideas",
@@ -37884,6 +41055,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "NotationType",
           "normalized": "NotationType[String]",
@@ -37899,6 +41071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Parameter",
           "package": "ideas",
@@ -37908,6 +41081,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Parameter",
           "package": "ideas",
@@ -37921,6 +41095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Plus",
           "package": "ideas",
@@ -37930,6 +41105,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Plus",
           "package": "ideas",
@@ -37943,6 +41119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Public",
           "package": "ideas",
@@ -37952,6 +41129,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Public",
           "package": "ideas",
@@ -37965,6 +41143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "QuestionMark",
           "package": "ideas",
@@ -37974,6 +41153,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "QuestionMark",
           "package": "ideas",
@@ -37987,6 +41167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Reference",
           "package": "ideas",
@@ -37996,6 +41177,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Reference",
           "package": "ideas",
@@ -38009,6 +41191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Required",
           "package": "ideas",
@@ -38018,6 +41201,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Required",
           "package": "ideas",
@@ -38031,6 +41215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Sequence",
           "package": "ideas",
@@ -38040,6 +41225,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Sequence",
           "normalized": "Sequence[CP]",
@@ -38055,6 +41241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Star",
           "package": "ideas",
@@ -38064,6 +41251,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Star",
           "package": "ideas",
@@ -38077,6 +41265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "StringType",
           "package": "ideas",
@@ -38086,6 +41275,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "StringType",
           "package": "ideas",
@@ -38099,6 +41289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "System",
           "package": "ideas",
@@ -38108,6 +41299,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "System",
           "package": "ideas",
@@ -38121,6 +41313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Tagged",
           "package": "ideas",
@@ -38130,6 +41323,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Tagged",
           "package": "ideas",
@@ -38143,6 +41337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "Value",
           "package": "ideas",
@@ -38152,6 +41347,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "Value",
           "package": "ideas",
@@ -38165,6 +41361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "XMLDoc",
           "package": "ideas",
@@ -38174,6 +41371,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "XMLDoc",
           "package": "ideas",
@@ -38187,6 +41385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "attributes",
           "package": "ideas",
@@ -38196,6 +41395,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "attributes",
           "package": "ideas",
@@ -38208,6 +41408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "content",
           "package": "ideas",
@@ -38217,6 +41418,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "content",
           "package": "ideas",
@@ -38229,6 +41431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "dtd",
           "package": "ideas",
@@ -38238,6 +41441,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "dtd",
           "package": "ideas",
@@ -38250,6 +41454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "encoding",
           "package": "ideas",
@@ -38259,6 +41464,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "encoding",
           "package": "ideas",
@@ -38271,6 +41477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "externals",
           "package": "ideas",
@@ -38280,6 +41487,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "externals",
           "normalized": "[(String,External)]",
@@ -38294,6 +41502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "name",
           "package": "ideas",
@@ -38303,6 +41512,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "name",
           "package": "ideas",
@@ -38315,6 +41525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "root",
           "package": "ideas",
@@ -38324,6 +41535,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "root",
           "package": "ideas",
@@ -38336,6 +41548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "standalone",
           "package": "ideas",
@@ -38345,6 +41558,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "standalone",
           "package": "ideas",
@@ -38357,6 +41571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Document",
           "name": "versionInfo",
           "package": "ideas",
@@ -38366,6 +41581,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Document",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Document",
           "name": "versionInfo",
           "package": "ideas",
@@ -38380,6 +41596,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of common operation on XML documents\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Interface",
           "name": "Interface",
           "package": "ideas",
@@ -38389,6 +41606,7 @@
         "index": {
           "description": "Collection of common operation on XML documents",
           "hierarchy": "Ideas Text XML Interface",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Interface",
           "name": "Interface",
           "package": "ideas",
@@ -38402,6 +41620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Interface",
           "name": "Attribute",
           "package": "ideas",
@@ -38410,6 +41629,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Interface",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Interface",
           "name": "Attribute",
           "package": "ideas",
@@ -38423,6 +41643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Interface",
           "name": "Attributes",
           "package": "ideas",
@@ -38431,6 +41652,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Interface",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Interface",
           "name": "Attributes",
           "package": "ideas",
@@ -38444,6 +41666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Interface",
           "name": "Content",
           "package": "ideas",
@@ -38452,6 +41675,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Interface",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Interface",
           "name": "Content",
           "package": "ideas",
@@ -38465,6 +41689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Interface",
           "name": "Element",
           "package": "ideas",
@@ -38473,6 +41698,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Interface",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Interface",
           "name": "Element",
           "package": "ideas",
@@ -38696,6 +41922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Interface",
           "name": "normalize",
           "package": "ideas",
@@ -38705,6 +41932,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Interface",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Interface",
           "name": "normalize",
           "normalized": "XMLDoc-\u003eElement",
@@ -38719,6 +41947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Interface",
           "name": "parseXML",
           "package": "ideas",
@@ -38728,6 +41957,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Interface",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Interface",
           "name": "parseXML",
           "normalized": "String-\u003eEither String Element",
@@ -38744,6 +41974,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser for XML documents, directly derived from the specification:\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Parser",
           "name": "Parser",
           "package": "ideas",
@@ -38753,6 +41984,7 @@
         "index": {
           "description": "parser for XML documents directly derived from the specification",
           "hierarchy": "Ideas Text XML Parser",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Parser",
           "name": "Parser",
           "package": "ideas",
@@ -38766,6 +41998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Parser",
           "name": "document",
           "package": "ideas",
@@ -38775,6 +42008,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Parser",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Parser",
           "name": "document",
           "package": "ideas",
@@ -38787,6 +42021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Parser",
           "name": "extParsedEnt",
           "package": "ideas",
@@ -38796,6 +42031,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Parser",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Parser",
           "name": "extParsedEnt",
           "normalized": "Parser(Maybe TextDecl,Content)",
@@ -38811,6 +42047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Parser",
           "name": "extSubset",
           "package": "ideas",
@@ -38820,6 +42057,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Parser",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Parser",
           "name": "extSubset",
           "normalized": "Parser(Maybe TextDecl,[DocTypeDecl])",
@@ -38836,6 +42074,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for Unicode\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "Unicode",
           "package": "ideas",
@@ -38845,6 +42084,7 @@
         "index": {
           "description": "Support for Unicode",
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "Unicode",
           "package": "ideas",
@@ -38858,6 +42098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "combiningCharMap",
           "package": "ideas",
@@ -38867,6 +42108,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "combiningCharMap",
           "normalized": "[(Char,Char)]",
@@ -38882,6 +42124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "decoding",
           "package": "ideas",
@@ -38891,6 +42134,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "decoding",
           "normalized": "String-\u003ea String",
@@ -38905,6 +42149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "digitMap",
           "package": "ideas",
@@ -38914,6 +42159,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "digitMap",
           "normalized": "[(Char,Char)]",
@@ -38929,6 +42175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "extenderMap",
           "package": "ideas",
@@ -38938,6 +42185,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "extenderMap",
           "normalized": "[(Char,Char)]",
@@ -38953,6 +42201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "isCombiningChar",
           "package": "ideas",
@@ -38962,6 +42211,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "isCombiningChar",
           "normalized": "Char-\u003eBool",
@@ -38977,6 +42227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "isDigit",
           "package": "ideas",
@@ -38986,6 +42237,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "isDigit",
           "normalized": "Char-\u003eBool",
@@ -39001,6 +42253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "isExtender",
           "package": "ideas",
@@ -39010,6 +42263,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "isExtender",
           "normalized": "Char-\u003eBool",
@@ -39025,6 +42279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "isLetter",
           "package": "ideas",
@@ -39034,6 +42289,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "isLetter",
           "normalized": "Char-\u003eBool",
@@ -39049,6 +42305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML.Unicode",
           "name": "letterMap",
           "package": "ideas",
@@ -39058,6 +42315,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML Unicode",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML.Unicode",
           "name": "letterMap",
           "normalized": "[(Char,Char)]",
@@ -39074,6 +42332,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA datatype, parser, and pretty printer for XML documents. Re-exports\n functions defined elsewhere.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "XML",
           "package": "ideas",
@@ -39083,6 +42342,7 @@
         "index": {
           "description": "datatype parser and pretty printer for XML documents Re-exports functions defined elsewhere",
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "XML",
           "package": "ideas",
@@ -39096,6 +42356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "Attr",
           "package": "ideas",
@@ -39104,6 +42365,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "Attr",
           "package": "ideas",
@@ -39117,6 +42379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "AttrList",
           "package": "ideas",
@@ -39125,6 +42388,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "AttrList",
           "package": "ideas",
@@ -39138,6 +42402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "Attribute",
           "package": "ideas",
@@ -39146,6 +42411,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "Attribute",
           "package": "ideas",
@@ -39159,6 +42425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "BuildXML",
           "package": "ideas",
@@ -39167,6 +42434,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "BuildXML",
           "package": "ideas",
@@ -39180,6 +42448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "Element",
           "package": "ideas",
@@ -39188,6 +42457,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "Element",
           "package": "ideas",
@@ -39201,6 +42471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "InXML",
           "package": "ideas",
@@ -39209,6 +42480,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "InXML",
           "package": "ideas",
@@ -39222,6 +42494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "XML",
           "package": "ideas",
@@ -39230,6 +42503,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "XML",
           "package": "ideas",
@@ -39243,6 +42517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "XMLBuilder",
           "package": "ideas",
@@ -39251,6 +42526,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "XMLBuilder",
           "package": "ideas",
@@ -39264,6 +42540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "(.=.)",
           "package": "ideas",
@@ -39273,6 +42550,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "(.=.) .=.",
           "normalized": "String-\u003eString-\u003ea",
@@ -39287,6 +42565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "builder",
           "package": "ideas",
@@ -39296,6 +42575,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "builder",
           "normalized": "Element-\u003ea",
@@ -39310,6 +42590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "compactXML",
           "package": "ideas",
@@ -39319,6 +42600,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "compactXML",
           "normalized": "XML-\u003eString",
@@ -39334,6 +42616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "element",
           "package": "ideas",
@@ -39343,6 +42626,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "element",
           "normalized": "String-\u003e[a]-\u003ea",
@@ -39357,6 +42641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "emptyTag",
           "package": "ideas",
@@ -39366,6 +42651,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "emptyTag",
           "normalized": "String-\u003ea",
@@ -39381,6 +42667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "fromBuilder",
           "package": "ideas",
@@ -39390,6 +42677,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "fromBuilder",
           "normalized": "XMLBuilder-\u003eMaybe Element",
@@ -39405,6 +42693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "fromXML",
           "package": "ideas",
@@ -39414,6 +42703,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "fromXML",
           "normalized": "XML-\u003ea b",
@@ -39429,6 +42719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "listFromXML",
           "package": "ideas",
@@ -39438,6 +42729,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "listFromXML",
           "normalized": "XML-\u003ea[b]",
@@ -39453,6 +42745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "listToXML",
           "package": "ideas",
@@ -39462,6 +42755,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "listToXML",
           "normalized": "[a]-\u003eXML",
@@ -39477,6 +42771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "makeXML",
           "package": "ideas",
@@ -39486,6 +42781,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "makeXML",
           "normalized": "String-\u003eXMLBuilder-\u003eXML",
@@ -39501,6 +42797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "munless",
           "package": "ideas",
@@ -39510,6 +42807,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "munless",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -39524,6 +42822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "mwhen",
           "package": "ideas",
@@ -39533,6 +42832,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "mwhen",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -39547,6 +42847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "parseXML",
           "package": "ideas",
@@ -39556,6 +42857,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "parseXML",
           "normalized": "String-\u003eEither String XML",
@@ -39571,6 +42873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "showXML",
           "package": "ideas",
@@ -39580,6 +42883,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "showXML",
           "normalized": "XML-\u003eString",
@@ -39595,6 +42899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "string",
           "package": "ideas",
@@ -39604,6 +42909,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "string",
           "normalized": "String-\u003ea",
@@ -39618,6 +42924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "tag",
           "package": "ideas",
@@ -39627,6 +42934,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "tag",
           "normalized": "String-\u003ea-\u003ea",
@@ -39641,6 +42949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "text",
           "package": "ideas",
@@ -39650,6 +42959,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "text",
           "normalized": "a-\u003eb",
@@ -39664,6 +42974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "toXML",
           "package": "ideas",
@@ -39673,6 +42984,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "toXML",
           "normalized": "a-\u003eXML",
@@ -39688,6 +43000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:44 UTC 2014",
           "module": "Ideas.Text.XML",
           "name": "unescaped",
           "package": "ideas",
@@ -39697,6 +43010,7 @@
         },
         "index": {
           "hierarchy": "Ideas Text XML",
+          "indexed": "2014-03-11T18:55:44",
           "module": "Ideas.Text.XML",
           "name": "unescaped",
           "normalized": "String-\u003ea",

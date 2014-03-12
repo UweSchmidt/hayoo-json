@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "applicative-extras"
+        "phrase": "applicative-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Backwards",
           "name": "Backwards",
           "package": "applicative-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Backwards",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Backwards",
           "name": "Backwards",
           "package": "applicative-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Backwards",
           "name": "Backwards",
           "package": "applicative-extras",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Backwards",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Backwards",
           "name": "Backwards",
           "package": "applicative-extras",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Backwards",
           "name": "Backwards",
           "package": "applicative-extras",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Backwards",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Backwards",
           "name": "Backwards",
           "package": "applicative-extras",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Backwards",
           "name": "forwards",
           "package": "applicative-extras",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Backwards",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Backwards",
           "name": "forwards",
           "package": "applicative-extras",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Compose",
           "name": "Compose",
           "package": "applicative-extras",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Compose",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Compose",
           "name": "Compose",
           "package": "applicative-extras",
@@ -125,6 +135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Compose",
           "name": ":+:",
           "package": "applicative-extras",
@@ -134,6 +145,7 @@
         "index": {
           "description": "Type-level composition",
           "hierarchy": "Control Applicative Compose",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Compose",
           "name": ":+:",
           "package": "applicative-extras",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Compose",
           "name": "Compose",
           "package": "applicative-extras",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Compose",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Compose",
           "name": "Compose",
           "package": "applicative-extras",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Compose",
           "name": "decompose",
           "package": "applicative-extras",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Compose",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Compose",
           "name": "decompose",
           "package": "applicative-extras",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "Error",
           "package": "applicative-extras",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "Error",
           "package": "applicative-extras",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "ErrorMsg",
           "package": "applicative-extras",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "ErrorMsg",
           "package": "applicative-extras",
@@ -232,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error idiom.  Rather like the error monad, but collect all\n | errors together \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "Failing",
           "package": "applicative-extras",
@@ -241,6 +262,7 @@
         "index": {
           "description": "An error idiom Rather like the error monad but collect all errors together",
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "Failing",
           "package": "applicative-extras",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "Failure",
           "package": "applicative-extras",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "Failure",
           "normalized": "Failure[ErrorMsg]",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "Success",
           "package": "applicative-extras",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "Success",
           "package": "applicative-extras",
@@ -301,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to read an Integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "asInteger",
           "package": "applicative-extras",
@@ -311,6 +338,7 @@
         "index": {
           "description": "Tries to read an Integer",
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "asInteger",
           "normalized": "String-\u003eFailing Integer",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "maybeRead",
           "package": "applicative-extras",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe a",
@@ -351,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to read a value. Shows an error message when reading fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "maybeRead'",
           "package": "applicative-extras",
@@ -361,6 +392,7 @@
         "index": {
           "description": "Tries to read value Shows an error message when reading fails",
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "maybeRead'",
           "normalized": "String-\u003eString-\u003eFailing a",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries conversion to an enum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:43 UTC 2014",
           "module": "Control.Applicative.Error",
           "name": "tryToEnum",
           "package": "applicative-extras",
@@ -387,6 +420,7 @@
         "index": {
           "description": "Tries conversion to an enum",
           "hierarchy": "Control Applicative Error",
+          "indexed": "2014-03-11T17:11:43",
           "module": "Control.Applicative.Error",
           "name": "tryToEnum",
           "normalized": "Int-\u003eFailing a",

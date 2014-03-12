@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "text-xml-generic"
+        "phrase": "text-xml-generic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:34 UTC 2014",
           "module": "Text.XML.Generic",
           "name": "Generic",
           "package": "text-xml-generic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML Generic",
+          "indexed": "2014-03-11T20:20:34",
           "module": "Text.XML.Generic",
           "name": "Generic",
           "package": "text-xml-generic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:34 UTC 2014",
           "module": "Text.XML.Generic",
           "name": "decodeXML",
           "package": "text-xml-generic",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text XML Generic",
+          "indexed": "2014-03-11T20:20:34",
           "module": "Text.XML.Generic",
           "name": "decodeXML",
           "normalized": "String-\u003eEither String a",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:34 UTC 2014",
           "module": "Text.XML.Generic",
           "name": "encodeXML",
           "package": "text-xml-generic",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text XML Generic",
+          "indexed": "2014-03-11T20:20:34",
           "module": "Text.XML.Generic",
           "name": "encodeXML",
           "normalized": "a-\u003eString",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:34 UTC 2014",
           "module": "Text.XML.Generic",
           "name": "fromXML",
           "package": "text-xml-generic",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text XML Generic",
+          "indexed": "2014-03-11T20:20:34",
           "module": "Text.XML.Generic",
           "name": "fromXML",
           "normalized": "Element-\u003eEither String a",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize to XML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:34 UTC 2014",
           "module": "Text.XML.Generic",
           "name": "toXML",
           "package": "text-xml-generic",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Serialize to XML",
           "hierarchy": "Text XML Generic",
+          "indexed": "2014-03-11T20:20:34",
           "module": "Text.XML.Generic",
           "name": "toXML",
           "normalized": "a-\u003eElement",

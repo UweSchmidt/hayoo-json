@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dominion"
+        "phrase": "dominion",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "Base",
           "package": "dominion",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "Base",
           "package": "dominion",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "copper",
           "package": "dominion",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "copper",
           "package": "dominion",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "curse",
           "package": "dominion",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "curse",
           "package": "dominion",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "duchy",
           "package": "dominion",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "duchy",
           "package": "dominion",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "estate",
           "package": "dominion",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "estate",
           "package": "dominion",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "gold",
           "package": "dominion",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "gold",
           "package": "dominion",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "province",
           "package": "dominion",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "province",
           "package": "dominion",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "silver",
           "package": "dominion",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "silver",
           "package": "dominion",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "treasureCards",
           "package": "dominion",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "treasureCards",
           "normalized": "[Card]",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Base",
           "name": "victoryCards",
           "package": "dominion",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Base",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Base",
           "name": "victoryCards",
           "normalized": "[Card]",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Intrigue",
           "name": "Intrigue",
           "package": "dominion",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Intrigue",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Intrigue",
           "name": "Intrigue",
           "package": "dominion",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Intrigue",
           "name": "greatHall",
           "package": "dominion",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Intrigue",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Intrigue",
           "name": "greatHall",
           "package": "dominion",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Intrigue",
           "name": "intrigueCards",
           "package": "dominion",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Intrigue",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Intrigue",
           "name": "intrigueCards",
           "normalized": "[Card]",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "Original",
           "package": "dominion",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "Original",
           "package": "dominion",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "adventurer",
           "package": "dominion",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "adventurer",
           "package": "dominion",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "bureaucrat",
           "package": "dominion",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "bureaucrat",
           "package": "dominion",
@@ -365,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e playerId `plays` cellar `with` (Cellar [list of cards to discard])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "cellar",
           "package": "dominion",
@@ -375,6 +408,7 @@
         "index": {
           "description": "playerId plays cellar with Cellar list of cards to discard",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "cellar",
           "package": "dominion",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "chancellor",
           "package": "dominion",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "chancellor",
           "package": "dominion",
@@ -409,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e playerId `plays` chapel `with` (Chapel [list of cards to trash])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "chapel",
           "package": "dominion",
@@ -419,6 +456,7 @@
         "index": {
           "description": "playerId plays chapel with Chapel list of cards to trash",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "chapel",
           "package": "dominion",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "councilRoom",
           "package": "dominion",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "councilRoom",
           "package": "dominion",
@@ -454,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo gain a market, for example:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` feast `with` (Feast market)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "feast",
           "package": "dominion",
@@ -464,6 +505,7 @@
         "index": {
           "description": "To gain market for example playerId plays feast with Feast market",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "feast",
           "package": "dominion",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "festival",
           "package": "dominion",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "festival",
           "package": "dominion",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "gardens",
           "package": "dominion",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "gardens",
           "package": "dominion",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "laboratory",
           "package": "dominion",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "laboratory",
           "package": "dominion",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "library",
           "package": "dominion",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "library",
           "package": "dominion",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "market",
           "package": "dominion",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "market",
           "package": "dominion",
@@ -581,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "militia",
           "package": "dominion",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "militia",
           "package": "dominion",
@@ -603,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e playerId `plays` mine `with` (Mine copper)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "mine",
           "package": "dominion",
@@ -613,6 +668,7 @@
         "index": {
           "description": "playerId plays mine with Mine copper",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "mine",
           "package": "dominion",
@@ -625,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "moat",
           "package": "dominion",
@@ -634,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "moat",
           "package": "dominion",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "moneylender",
           "package": "dominion",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "moneylender",
           "package": "dominion",
@@ -667,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "originalCards",
           "package": "dominion",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "originalCards",
           "normalized": "[Card]",
@@ -692,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo turn a gold into a province:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` remodel `with` (Remodel (gold, province))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "remodel",
           "package": "dominion",
@@ -702,6 +765,7 @@
         "index": {
           "description": "To turn gold into province playerId plays remodel with Remodel gold province",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "remodel",
           "package": "dominion",
@@ -714,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "smithy",
           "package": "dominion",
@@ -723,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "smithy",
           "package": "dominion",
@@ -736,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSpy\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFollowupAction\u003c/a\u003e\u003c/code\u003e takes two lists: a list of cards you would\n discard for yourself, and a list of cards you would discard for others:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` spy `with` ([estate, duchy, province], [silver, gold])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "spy",
           "package": "dominion",
@@ -746,6 +813,7 @@
         "index": {
           "description": "The Spy FollowupAction takes two lists list of cards you would discard for yourself and list of cards you would discard for others playerId plays spy with estate duchy province silver gold",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "spy",
           "package": "dominion",
@@ -759,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou need to provide a function that takes a list of treasure cards and\n picks one to trash. You can either return a \u003ccode\u003e\u003ca\u003eTrashOnly\u003c/a\u003e\u003c/code\u003e to trash the\n card, or a \u003ccode\u003e\u003ca\u003eGainTrashedCard\u003c/a\u003e\u003c/code\u003e to put it into your discard pile.\n\u003c/p\u003e\u003cpre\u003e playerId `plays` thief `with` (Thief (GainTrashedCard . sortBy (comparing coinValue)))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "thief",
           "package": "dominion",
@@ -769,6 +838,7 @@
         "index": {
           "description": "You need to provide function that takes list of treasure cards and picks one to trash You can either return TrashOnly to trash the card or GainTrashedCard to put it into your discard pile playerId plays thief with Thief GainTrashedCard sortBy comparing coinValue",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "thief",
           "package": "dominion",
@@ -782,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e playerId `plays` throneRoom `with` (ThroneRoom market)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "throneRoom",
           "package": "dominion",
@@ -792,6 +863,7 @@
         "index": {
           "description": "playerId plays throneRoom with ThroneRoom market",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "throneRoom",
           "package": "dominion",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "village",
           "package": "dominion",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "village",
           "package": "dominion",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "witch",
           "package": "dominion",
@@ -835,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "witch",
           "package": "dominion",
@@ -847,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "woodcutter",
           "package": "dominion",
@@ -856,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "woodcutter",
           "package": "dominion",
@@ -869,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e playerId `plays` workshop `with` (Workshop gardens)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards.Original",
           "name": "workshop",
           "package": "dominion",
@@ -879,6 +958,7 @@
         "index": {
           "description": "playerId plays workshop with Workshop gardens",
           "hierarchy": "Dominion Cards Original",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards.Original",
           "name": "workshop",
           "package": "dominion",
@@ -891,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards",
           "name": "Cards",
           "package": "dominion",
@@ -899,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Dominion Cards",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards",
           "name": "Cards",
           "package": "dominion",
@@ -913,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll action cards available for use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Cards",
           "name": "allCards",
           "package": "dominion",
@@ -923,6 +1006,7 @@
         "index": {
           "description": "All action cards available for use",
           "hierarchy": "Dominion Cards",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Cards",
           "name": "allCards",
           "normalized": "[Card]",
@@ -938,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "Internal",
           "package": "dominion",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "Internal",
           "package": "dominion",
@@ -987,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat this card is worth in money.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "coinValue",
           "package": "dominion",
@@ -997,6 +1084,7 @@
         "index": {
           "description": "What this card is worth in money",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "coinValue",
           "normalized": "Card-\u003eInt",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "countPoints",
           "package": "dominion",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "countPoints",
           "normalized": "Player-\u003eInt",
@@ -1036,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "discardHand",
           "package": "dominion",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "discardHand",
           "normalized": "PlayerId-\u003eDominion()",
@@ -1060,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "discardTopCard",
           "package": "dominion",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "discardTopCard",
           "normalized": "[Card]-\u003ePlayer-\u003ePlayer",
@@ -1085,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayer discards the given card.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "discardsCard",
           "package": "dominion",
@@ -1095,6 +1190,7 @@
         "index": {
           "description": "Player discards the given card",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "discardsCard",
           "normalized": "PlayerId-\u003eCard-\u003eDominion()",
@@ -1111,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayer discards down to x cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "discardsTo",
           "package": "dominion",
@@ -1121,6 +1218,7 @@
         "index": {
           "description": "Player discards down to cards",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "discardsTo",
           "normalized": "Player-\u003eInt-\u003ePlayer",
@@ -1137,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a player id and a number of cards to draw, draws that many cards\n from the deck, shuffling if necessary.\n TODO if the deck doesn't have enough cards, we should draw the cards in\n the deck before shuffling and drawing the rest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "drawFromDeck",
           "package": "dominion",
@@ -1147,6 +1246,7 @@
         "index": {
           "description": "Given player id and number of cards to draw draws that many cards from the deck shuffling if necessary TODO if the deck doesn have enough cards we should draw the cards in the deck before shuffling and drawing the rest",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "drawFromDeck",
           "normalized": "PlayerId-\u003eInt-\u003eDominion[Card]",
@@ -1162,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "drawFromFull",
           "package": "dominion",
@@ -1171,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "drawFromFull",
           "normalized": "PlayerId-\u003eInt-\u003eDominion[Card]",
@@ -1187,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep drawing a card until the provided function returns true.\n The function gets a list of the cards drawn so far,\n most recent first. Returns a list of all the cards drawn (these cards\n are also placed into the player's hand)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "drawsUntil",
           "package": "dominion",
@@ -1197,6 +1300,7 @@
         "index": {
           "description": "Keep drawing card until the provided function returns true The function gets list of the cards drawn so far most recent first Returns list of all the cards drawn these cards are also placed into the player hand",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "drawsUntil",
           "normalized": "PlayerId-\u003e([Card]-\u003eDominion Bool)-\u003eDominion[Card]",
@@ -1212,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "drawsUntil_",
           "package": "dominion",
@@ -1221,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "drawsUntil_",
           "normalized": "[Card]-\u003ePlayerId-\u003e([Card]-\u003eDominion Bool)-\u003eDominion[Card]",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "eitherToBool",
           "package": "dominion",
@@ -1245,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "eitherToBool",
           "normalized": "Either String()-\u003eBool",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "findCards",
           "package": "dominion",
@@ -1269,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "findCards",
           "normalized": "[Option]-\u003eMaybe[Card]",
@@ -1284,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "findIteration",
           "package": "dominion",
@@ -1293,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "findIteration",
           "normalized": "[Option]-\u003eMaybe Int",
@@ -1308,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "findLog",
           "package": "dominion",
@@ -1317,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "findLog",
           "normalized": "[Option]-\u003eMaybe Bool",
@@ -1332,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "gainCardUpTo",
           "package": "dominion",
@@ -1341,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "gainCardUpTo",
           "normalized": "PlayerId-\u003eInt-\u003eCard-\u003eDominion(PlayResult(Maybe[Followup]))",
@@ -1356,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "game",
           "package": "dominion",
@@ -1365,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "game",
           "normalized": "[Strategy]-\u003eDominion()",
@@ -1379,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "gameOver",
           "package": "dominion",
@@ -1388,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "gameOver",
           "normalized": "[Card]-\u003eBool",
@@ -1404,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the card, or Nothing if that pile is empty.\n Useful because it automatically checks whether the pile is empty, and\n modifies state to subtract a card from the pile correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "getCard",
           "package": "dominion",
@@ -1414,6 +1535,7 @@
         "index": {
           "description": "Returns the card or Nothing if that pile is empty Useful because it automatically checks whether the pile is empty and modifies state to subtract card from the pile correctly",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "getCard",
           "normalized": "Card-\u003eDominion(Maybe Card)",
@@ -1534,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "isAction",
           "package": "dominion",
@@ -1543,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "isAction",
           "normalized": "Card-\u003eBool",
@@ -1558,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "isAttack",
           "package": "dominion",
@@ -1567,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "isAttack",
           "normalized": "Card-\u003eBool",
@@ -1582,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "isReaction",
           "package": "dominion",
@@ -1591,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "isReaction",
           "normalized": "Card-\u003eBool",
@@ -1606,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "isTreasure",
           "package": "dominion",
@@ -1615,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "isTreasure",
           "normalized": "Card-\u003eBool",
@@ -1630,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "isVictory",
           "package": "dominion",
@@ -1639,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "isVictory",
           "normalized": "Card-\u003eBool",
@@ -1655,6 +1787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function. Prints out a line if verbose, AND prints out\n info about the related player...name, money, \u003ca name=\" of buys, \"/\u003e of actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "log",
           "package": "dominion",
@@ -1665,6 +1798,7 @@
         "index": {
           "description": "Convenience function Prints out line if verbose AND prints out info about the related player...name money of actions",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "log",
           "normalized": "PlayerId-\u003eString-\u003eDominion()",
@@ -1680,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elog\u003c/a\u003e\u003c/code\u003e but doesn't print out info about a player\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "log_",
           "package": "dominion",
@@ -1690,6 +1825,7 @@
         "index": {
           "description": "Like log but doesn print out info about player",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "log_",
           "normalized": "String-\u003eDominion()",
@@ -1705,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a name, creates a player with that name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "makePlayer",
           "package": "dominion",
@@ -1715,6 +1852,7 @@
         "index": {
           "description": "Given name creates player with that name",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "makePlayer",
           "normalized": "String-\u003ePlayer",
@@ -1731,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emodifyPlayer\u003c/a\u003e\u003c/code\u003e, but modifies every player *except* the one specified with the player id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "modifyOtherPlayers",
           "package": "dominion",
@@ -1741,6 +1880,7 @@
         "index": {
           "description": "Like modifyPlayer but modifies every player except the one specified with the player id",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "modifyOtherPlayers",
           "normalized": "PlayerId-\u003e(Player-\u003ePlayer)-\u003eDominion()",
@@ -1757,6 +1897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e monad, but works on players.\n Takes a player id and a function that modifies the player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "modifyPlayer",
           "package": "dominion",
@@ -1767,6 +1908,7 @@
         "index": {
           "description": "Like modify for the State monad but works on players Takes player id and function that modifies the player",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "modifyPlayer",
           "normalized": "PlayerId-\u003e(Player-\u003ePlayer)-\u003eDominion()",
@@ -1809,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "pileOf",
           "package": "dominion",
@@ -1818,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "pileOf",
           "normalized": "a-\u003e[a]",
@@ -1833,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "playTurn",
           "package": "dominion",
@@ -1842,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "playTurn",
           "normalized": "PlayerId-\u003eStrategy-\u003eDominion()",
@@ -1857,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "returnResults",
           "package": "dominion",
@@ -1866,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "returnResults",
           "normalized": "GameState-\u003eIO Result",
@@ -1881,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "returnVPCard",
           "package": "dominion",
@@ -1890,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "returnVPCard",
           "normalized": "Player-\u003ePlayer",
@@ -1905,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "returnsCard",
           "package": "dominion",
@@ -1914,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "returnsCard",
           "normalized": "PlayerId-\u003eCard-\u003eDominion()",
@@ -1929,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "run",
           "package": "dominion",
@@ -1938,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "run",
           "normalized": "GameState-\u003e[Strategy]-\u003eIO Result",
@@ -1952,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "setupForTurn",
           "package": "dominion",
@@ -1961,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "setupForTurn",
           "normalized": "PlayerId-\u003eDominion()",
@@ -1977,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove this players discards + hand into his deck and shuffle the deck.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "shuffleDeck",
           "package": "dominion",
@@ -1987,6 +2144,7 @@
         "index": {
           "description": "Move this players discards hand into his deck and shuffle the deck",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "shuffleDeck",
           "normalized": "PlayerId-\u003eDominion()",
@@ -2002,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "shuffleDeck_",
           "package": "dominion",
@@ -2011,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "shuffleDeck_",
           "normalized": "Player-\u003ePlayer",
@@ -2026,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "trashThisCard",
           "package": "dominion",
@@ -2035,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "trashThisCard",
           "normalized": "Card-\u003eBool",
@@ -2051,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayer trashes the given card.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "trashesCard",
           "package": "dominion",
@@ -2061,6 +2224,7 @@
         "index": {
           "description": "Player trashes the given card",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "trashesCard",
           "normalized": "PlayerId-\u003eCard-\u003eDominion()",
@@ -2077,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed internally by the \u003ccode\u003eplays\u003c/code\u003e function. Each card has a list of\n effects (like smithy has `PlusCard 3`). This function applies the given\n effect. It returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the effect doesn't need a \u003ccode\u003eFollowup\u003c/code\u003e,\n or it returns a `Just Followup`.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Internal",
           "name": "usesEffect",
           "package": "dominion",
@@ -2087,6 +2252,7 @@
         "index": {
           "description": "Used internally by the plays function Each card has list of effects like smithy has PlusCard This function applies the given effect It returns Nothing if the effect doesn need Followup or it returns Just Followup",
           "hierarchy": "Dominion Internal",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Internal",
           "name": "usesEffect",
           "normalized": "PlayerId-\u003eCardEffect-\u003eDominion(Maybe Followup)",
@@ -2156,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Strategies",
           "name": "Strategies",
           "package": "dominion",
@@ -2164,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Dominion Strategies",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Strategies",
           "name": "Strategies",
           "package": "dominion",
@@ -2178,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuy the most expensive victory or treasure card you can.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Strategies",
           "name": "bigMoney",
           "package": "dominion",
@@ -2188,6 +2357,7 @@
         "index": {
           "description": "Buy the most expensive victory or treasure card you can",
           "hierarchy": "Dominion Strategies",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Strategies",
           "name": "bigMoney",
           "normalized": "PlayerId-\u003eDominion()",
@@ -2204,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ebigMoney\u003c/a\u003e\u003c/code\u003e but also buy a \u003ccode\u003e\u003ca\u003esmithy\u003c/a\u003e\u003c/code\u003e whenever you can.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Strategies",
           "name": "bigMoneySmithy",
           "package": "dominion",
@@ -2214,6 +2385,7 @@
         "index": {
           "description": "Same as bigMoney but also buy smithy whenever you can",
           "hierarchy": "Dominion Strategies",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Strategies",
           "name": "bigMoneySmithy",
           "normalized": "PlayerId-\u003eStateT GameState IO()",
@@ -2230,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strategy that should never win: buy only provinces and golds\n exclusively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Strategies",
           "name": "stupidStrategy",
           "package": "dominion",
@@ -2240,6 +2413,7 @@
         "index": {
           "description": "strategy that should never win buy only provinces and golds exclusively",
           "hierarchy": "Dominion Strategies",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Strategies",
           "name": "stupidStrategy",
           "normalized": "PlayerId-\u003eDominion()",
@@ -2255,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Types",
           "package": "dominion",
@@ -2263,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Types",
           "package": "dominion",
@@ -2276,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Card",
           "package": "dominion",
@@ -2284,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Card",
           "package": "dominion",
@@ -2297,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "CardEffect",
           "package": "dominion",
@@ -2305,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "CardEffect",
           "package": "dominion",
@@ -2318,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "CardType",
           "package": "dominion",
@@ -2326,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "CardType",
           "package": "dominion",
@@ -2339,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Dominion",
           "package": "dominion",
@@ -2347,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Dominion",
           "package": "dominion",
@@ -2361,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen you play an action card that needs a decision on your part,\n \u003ccode\u003eplays\u003c/code\u003e will return a Followup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Followup",
           "package": "dominion",
@@ -2370,6 +2555,7 @@
         "index": {
           "description": "When you play an action card that needs decision on your part plays will return Followup",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Followup",
           "package": "dominion",
@@ -2384,6 +2570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome cards have a followup action associated with them. For example,\n when you play a \u003ccode\u003eworkshop\u003c/code\u003e, you need to choose what card you're going to\n get. To use the followup action, you need to use the relevant data\n constructor. See the documentation for each card to find out how to use\n each type of \u003ccode\u003e\u003ca\u003eFollowupAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "FollowupAction",
           "package": "dominion",
@@ -2393,6 +2580,7 @@
         "index": {
           "description": "Some cards have followup action associated with them For example when you play workshop you need to choose what card you re going to get To use the followup action you need to use the relevant data constructor See the documentation for each card to find out how to use each type of FollowupAction",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "FollowupAction",
           "package": "dominion",
@@ -2407,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is what keeps track of all the state in the whole game.\n Get the round number like this:\n\u003c/p\u003e\u003cpre\u003e state \u003c- get\n let roundNum = state ^. round\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "GameState",
           "package": "dominion",
@@ -2416,6 +2605,7 @@
         "index": {
           "description": "This is what keeps track of all the state in the whole game Get the round number like this state get let roundNum state round",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "GameState",
           "package": "dominion",
@@ -2430,6 +2620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can set these options if you use \u003ccode\u003edominionWithOpts\u003c/code\u003e. Example:\n\u003c/p\u003e\u003cpre\u003e main = dominionWithOpts [Iterations 1, Log True, Cards [smithy]] ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Option",
           "package": "dominion",
@@ -2439,6 +2630,7 @@
         "index": {
           "description": "You can set these options if you use dominionWithOpts Example main dominionWithOpts Iterations Log True Cards smithy",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Option",
           "package": "dominion",
@@ -2453,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen you use a card (either you play it or you buy something),\n you get a \u003ccode\u003e\u003ca\u003ePlayResult\u003c/a\u003e\u003c/code\u003e. A \u003ccode\u003e\u003ca\u003ePlayResult\u003c/a\u003e\u003c/code\u003e is either a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e with an error message,\n or a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e with a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "PlayResult",
           "package": "dominion",
@@ -2462,6 +2655,7 @@
         "index": {
           "description": "When you use card either you play it or you buy something you get PlayResult PlayResult is either Left with an error message or Right with value",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "PlayResult",
           "package": "dominion",
@@ -2475,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Player",
           "package": "dominion",
@@ -2483,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Player",
           "package": "dominion",
@@ -2496,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "PlayerId",
           "package": "dominion",
@@ -2504,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "PlayerId",
           "package": "dominion",
@@ -2518,6 +2716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach \u003ccode\u003e\u003ca\u003ePlayerResult\u003c/a\u003e\u003c/code\u003e is a tuple of a player and their final score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "PlayerResult",
           "package": "dominion",
@@ -2527,6 +2726,7 @@
         "index": {
           "description": "Each PlayerResult is tuple of player and their final score",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "PlayerResult",
           "package": "dominion",
@@ -2541,6 +2741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayers and their scores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Result",
           "package": "dominion",
@@ -2550,6 +2751,7 @@
         "index": {
           "description": "Players and their scores",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Result",
           "package": "dominion",
@@ -2564,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a playerId, run some actions for this player. Example:\n\u003c/p\u003e\u003cpre\u003e bigMoney playerId = playerId `buysByPreference` [province, gold, duchy, silver, copper]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Strategy",
           "package": "dominion",
@@ -2573,6 +2776,7 @@
         "index": {
           "description": "Given playerId run some actions for this player Example bigMoney playerId playerId buysByPreference province gold duchy silver copper",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Strategy",
           "package": "dominion",
@@ -2587,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed with the \u003ccode\u003ethief\u003c/code\u003e card.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "ThiefTrashAction",
           "package": "dominion",
@@ -2596,6 +2801,7 @@
         "index": {
           "description": "Used with the thief card",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "ThiefTrashAction",
           "package": "dominion",
@@ -2609,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Action",
           "package": "dominion",
@@ -2618,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Action",
           "package": "dominion",
@@ -2631,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "AdventurerEffect",
           "package": "dominion",
@@ -2640,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "AdventurerEffect",
           "package": "dominion",
@@ -2653,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Attack",
           "package": "dominion",
@@ -2662,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Attack",
           "package": "dominion",
@@ -2675,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "BureaucratEffect",
           "package": "dominion",
@@ -2684,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "BureaucratEffect",
           "package": "dominion",
@@ -2697,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Card",
           "package": "dominion",
@@ -2706,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Card",
           "package": "dominion",
@@ -2747,6 +2963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of cards to discard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Cellar",
           "package": "dominion",
@@ -2757,6 +2974,7 @@
         "index": {
           "description": "Takes list of cards to discard",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Cellar",
           "normalized": "Cellar[Card]",
@@ -2772,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "CellarEffect",
           "package": "dominion",
@@ -2781,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "CellarEffect",
           "package": "dominion",
@@ -2795,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean value representing whether you want to\n move your deck into the discard pile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Chancellor",
           "package": "dominion",
@@ -2805,6 +3026,7 @@
         "index": {
           "description": "Boolean value representing whether you want to move your deck into the discard pile",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Chancellor",
           "package": "dominion",
@@ -2818,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "ChancellorEffect",
           "package": "dominion",
@@ -2827,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "ChancellorEffect",
           "package": "dominion",
@@ -2841,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of cards to trash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Chapel",
           "package": "dominion",
@@ -2851,6 +3076,7 @@
         "index": {
           "description": "Takes list of cards to trash",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Chapel",
           "normalized": "Chapel[Card]",
@@ -2866,6 +3092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "CoinValue",
           "package": "dominion",
@@ -2875,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "CoinValue",
           "package": "dominion",
@@ -2888,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Duration",
           "package": "dominion",
@@ -2897,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Duration",
           "package": "dominion",
@@ -2910,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "DurationAction",
           "package": "dominion",
@@ -2919,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "DurationAction",
           "package": "dominion",
@@ -2932,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "DurationBuy",
           "package": "dominion",
@@ -2941,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "DurationBuy",
           "package": "dominion",
@@ -2954,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "DurationCoin",
           "package": "dominion",
@@ -2963,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "DurationCoin",
           "package": "dominion",
@@ -2976,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "DurationDraw",
           "package": "dominion",
@@ -2985,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "DurationDraw",
           "package": "dominion",
@@ -2999,6 +3237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the card you want to gain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Feast",
           "package": "dominion",
@@ -3009,6 +3248,7 @@
         "index": {
           "description": "Takes the card you want to gain",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Feast",
           "package": "dominion",
@@ -3022,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "GainCardUpto",
           "package": "dominion",
@@ -3031,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "GainCardUpto",
           "package": "dominion",
@@ -3044,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "GainTrashedCard",
           "package": "dominion",
@@ -3053,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "GainTrashedCard",
           "package": "dominion",
@@ -3066,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "GameState",
           "package": "dominion",
@@ -3075,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "GameState",
           "package": "dominion",
@@ -3088,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "GardensEffect",
           "package": "dominion",
@@ -3097,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "GardensEffect",
           "package": "dominion",
@@ -3135,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "LibraryEffect",
           "package": "dominion",
@@ -3144,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "LibraryEffect",
           "package": "dominion",
@@ -3183,6 +3433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the card you want to trash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Mine",
           "package": "dominion",
@@ -3193,6 +3444,7 @@
         "index": {
           "description": "Takes the card you want to trash",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Mine",
           "package": "dominion",
@@ -3206,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "MineEffect",
           "package": "dominion",
@@ -3215,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "MineEffect",
           "package": "dominion",
@@ -3228,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "MoneylenderEffect",
           "package": "dominion",
@@ -3237,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "MoneylenderEffect",
           "package": "dominion",
@@ -3250,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "OthersDiscardTo",
           "package": "dominion",
@@ -3259,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "OthersDiscardTo",
           "package": "dominion",
@@ -3272,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "OthersGainCurse",
           "package": "dominion",
@@ -3281,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "OthersGainCurse",
           "package": "dominion",
@@ -3294,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "OthersPlusCard",
           "package": "dominion",
@@ -3303,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "OthersPlusCard",
           "package": "dominion",
@@ -3316,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "PlayActionCard",
           "package": "dominion",
@@ -3325,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "PlayActionCard",
           "package": "dominion",
@@ -3338,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Player",
           "package": "dominion",
@@ -3347,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Player",
           "package": "dominion",
@@ -3360,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "PlusAction",
           "package": "dominion",
@@ -3369,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "PlusAction",
           "package": "dominion",
@@ -3382,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "PlusBuy",
           "package": "dominion",
@@ -3391,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "PlusBuy",
           "package": "dominion",
@@ -3404,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "PlusCard",
           "package": "dominion",
@@ -3413,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "PlusCard",
           "package": "dominion",
@@ -3426,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "PlusCoin",
           "package": "dominion",
@@ -3435,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "PlusCoin",
           "package": "dominion",
@@ -3448,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Reaction",
           "package": "dominion",
@@ -3457,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Reaction",
           "package": "dominion",
@@ -3471,6 +3747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first card is the card you are trashing, the\n second card is the card you are gaining.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Remodel",
           "package": "dominion",
@@ -3481,6 +3758,7 @@
         "index": {
           "description": "The first card is the card you are trashing the second card is the card you are gaining",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Remodel",
           "normalized": "Remodel(Card,Card)",
@@ -3496,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "RemodelEffect",
           "package": "dominion",
@@ -3505,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "RemodelEffect",
           "package": "dominion",
@@ -3518,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Result",
           "package": "dominion",
@@ -3527,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Result",
           "package": "dominion",
@@ -3541,6 +3823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first element is the list of cards you would discard for yourself,\n the second is the lsit of cards you want others to discard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Spy",
           "package": "dominion",
@@ -3551,6 +3834,7 @@
         "index": {
           "description": "The first element is the list of cards you would discard for yourself the second is the lsit of cards you want others to discard",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Spy",
           "normalized": "Spy([Card],[Card])",
@@ -3566,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "SpyEffect",
           "package": "dominion",
@@ -3575,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "SpyEffect",
           "package": "dominion",
@@ -3589,6 +3875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function gets a list of treasure cards.\n had. You return either \u003ccode\u003e\u003ca\u003eTrashOnly\u003c/a\u003e\u003c/code\u003e to have the player\n trash a card, or \u003ccode\u003e\u003ca\u003eGainTrashedCard\u003c/a\u003e\u003c/code\u003e to gain the trashed\n card. This function is called for every other\n player in the game.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Thief",
           "package": "dominion",
@@ -3599,6 +3886,7 @@
         "index": {
           "description": "The function gets list of treasure cards had You return either TrashOnly to have the player trash card or GainTrashedCard to gain the trashed card This function is called for every other player in the game",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Thief",
           "normalized": "Thief([Card]-\u003eThiefTrashAction)",
@@ -3614,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "ThiefEffect",
           "package": "dominion",
@@ -3623,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "ThiefEffect",
           "package": "dominion",
@@ -3636,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "ThroneRoom",
           "package": "dominion",
@@ -3645,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "ThroneRoom",
           "package": "dominion",
@@ -3658,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "TrashCards",
           "package": "dominion",
@@ -3667,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "TrashCards",
           "package": "dominion",
@@ -3680,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "TrashOnly",
           "package": "dominion",
@@ -3689,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "TrashOnly",
           "package": "dominion",
@@ -3702,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "TrashThisCard",
           "package": "dominion",
@@ -3711,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "TrashThisCard",
           "package": "dominion",
@@ -3724,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Treasure",
           "package": "dominion",
@@ -3733,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Treasure",
           "package": "dominion",
@@ -3746,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "VPValue",
           "package": "dominion",
@@ -3755,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "VPValue",
           "package": "dominion",
@@ -3768,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Victory",
           "package": "dominion",
@@ -3777,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Victory",
           "package": "dominion",
@@ -3791,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the card you want to gain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "Workshop",
           "package": "dominion",
@@ -3801,6 +4106,7 @@
         "index": {
           "description": "Takes the card you want to gain",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "Workshop",
           "package": "dominion",
@@ -3814,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_actions",
           "package": "dominion",
@@ -3823,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_actions",
           "package": "dominion",
@@ -3835,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_buys",
           "package": "dominion",
@@ -3844,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_buys",
           "package": "dominion",
@@ -3856,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_cardType",
           "package": "dominion",
@@ -3865,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_cardType",
           "normalized": "[CardType]",
@@ -3881,6 +4193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of all the cards still in play.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_cards",
           "package": "dominion",
@@ -3891,6 +4204,7 @@
         "index": {
           "description": "list of all the cards still in play",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_cards",
           "normalized": "[Card]",
@@ -3905,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_cost",
           "package": "dominion",
@@ -3914,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_cost",
           "package": "dominion",
@@ -3926,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_deck",
           "package": "dominion",
@@ -3935,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_deck",
           "normalized": "[Card]",
@@ -3949,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_discard",
           "package": "dominion",
@@ -3958,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_discard",
           "normalized": "[Card]",
@@ -3972,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_effects",
           "package": "dominion",
@@ -3981,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_effects",
           "normalized": "[CardEffect]",
@@ -3996,6 +4318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra money gained from an action card (like +1 money\n from market).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_extraMoney",
           "package": "dominion",
@@ -4006,6 +4329,7 @@
         "index": {
           "description": "Extra money gained from an action card like money from market",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_extraMoney",
           "package": "dominion",
@@ -4019,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_hand",
           "package": "dominion",
@@ -4028,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_hand",
           "normalized": "[Card]",
@@ -4042,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_name",
           "package": "dominion",
@@ -4051,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_name",
           "package": "dominion",
@@ -4063,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_playerName",
           "package": "dominion",
@@ -4072,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_playerName",
           "package": "dominion",
@@ -4085,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_players",
           "package": "dominion",
@@ -4094,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_players",
           "normalized": "[Player]",
@@ -4109,6 +4441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eround number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_round",
           "package": "dominion",
@@ -4119,6 +4452,7 @@
         "index": {
           "description": "round number",
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_round",
           "package": "dominion",
@@ -4131,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "_verbose",
           "package": "dominion",
@@ -4140,6 +4475,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "_verbose",
           "package": "dominion",
@@ -4152,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "actions",
           "package": "dominion",
@@ -4161,6 +4498,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "actions",
           "package": "dominion",
@@ -4173,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "buys",
           "package": "dominion",
@@ -4182,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "buys",
           "package": "dominion",
@@ -4194,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "cardType",
           "package": "dominion",
@@ -4203,6 +4544,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "cardType",
           "normalized": "Lens' Card[CardType]",
@@ -4218,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "cards",
           "package": "dominion",
@@ -4227,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "cards",
           "normalized": "Lens' GameState[Card]",
@@ -4241,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "cost",
           "package": "dominion",
@@ -4250,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "cost",
           "package": "dominion",
@@ -4262,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "deck",
           "package": "dominion",
@@ -4271,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "deck",
           "normalized": "Lens' Player[Card]",
@@ -4285,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "discard",
           "package": "dominion",
@@ -4294,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "discard",
           "normalized": "Lens' Player[Card]",
@@ -4308,6 +4658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "effects",
           "package": "dominion",
@@ -4317,6 +4668,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "effects",
           "normalized": "Lens' Card[CardEffect]",
@@ -4331,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "extraMoney",
           "package": "dominion",
@@ -4340,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "extraMoney",
           "package": "dominion",
@@ -4353,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "hand",
           "package": "dominion",
@@ -4362,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "hand",
           "normalized": "Lens' Player[Card]",
@@ -4376,6 +4732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "name",
           "package": "dominion",
@@ -4385,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "name",
           "package": "dominion",
@@ -4397,6 +4755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "playerName",
           "package": "dominion",
@@ -4406,6 +4765,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "playerName",
           "package": "dominion",
@@ -4419,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "playerResults",
           "package": "dominion",
@@ -4428,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "playerResults",
           "normalized": "[PlayerResult]",
@@ -4443,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "players",
           "package": "dominion",
@@ -4452,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "players",
           "normalized": "Lens' GameState[Player]",
@@ -4466,6 +4830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "round",
           "package": "dominion",
@@ -4475,6 +4840,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "round",
           "package": "dominion",
@@ -4487,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "verbose",
           "package": "dominion",
@@ -4496,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "verbose",
           "package": "dominion",
@@ -4508,6 +4876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion.Types",
           "name": "winner",
           "package": "dominion",
@@ -4517,6 +4886,7 @@
         },
         "index": {
           "hierarchy": "Dominion Types",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion.Types",
           "name": "winner",
           "package": "dominion",
@@ -4529,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "Dominion",
           "package": "dominion",
@@ -4537,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "Dominion",
           "package": "dominion",
@@ -4551,6 +4923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can set these options if you use \u003ccode\u003edominionWithOpts\u003c/code\u003e. Example:\n\u003c/p\u003e\u003cpre\u003e main = dominionWithOpts [Iterations 1, Log True, Cards [smithy]] ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "Option",
           "package": "dominion",
@@ -4560,6 +4933,7 @@
         "index": {
           "description": "You can set these options if you use dominionWithOpts Example main dominionWithOpts Iterations Log True Cards smithy",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "Option",
           "package": "dominion",
@@ -4574,6 +4948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ewithMulti\u003c/a\u003e\u003c/code\u003e automatically extract the \u003ccode\u003eFollowup\u003c/code\u003e out of the\n result of \u003ccode\u003e\u003ca\u003eplays\u003c/a\u003e\u003c/code\u003e. If you have a \u003ccode\u003eFollowup\u003c/code\u003e already, or you want more\n control, you can use this instead.\n\u003c/p\u003e\u003cpre\u003e result \u003c- playerId `plays` throneRoom\n case result of\n   Left str -\u003e return . Left $ str\n   Right followup -\u003e followup `_with` (ThroneRoom market)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "_with",
           "package": "dominion",
@@ -4584,6 +4959,7 @@
         "index": {
           "description": "with and withMulti automatically extract the Followup out of the result of plays If you have Followup already or you want more control you can use this instead result playerId plays throneRoom case result of Left str return Left str Right followup followup with ThroneRoom market",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "_with",
           "normalized": "Followup-\u003eFollowupAction-\u003eDominion(PlayResult(Maybe[Followup]))",
@@ -4599,6 +4975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayer buys a card. Example:\n\u003c/p\u003e\u003cpre\u003e playerId `buys` smithy\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "buys",
           "package": "dominion",
@@ -4609,6 +4986,7 @@
         "index": {
           "description": "Player buys card Example playerId buys smithy",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "buys",
           "normalized": "PlayerId-\u003eCard-\u003eDominion(PlayResult())",
@@ -4624,6 +5002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive an array of cards, in order of preference.\n This function will buy as many cards as possible, in order of\n preference. For example, suppose you use:\n\u003c/p\u003e\u003cpre\u003e playerId `buysByPreference` [province, duchy]\n\u003c/pre\u003e\u003cp\u003eAnd you have 16 money and two buys. You will buy two provinces.\n This runs all the same validations as \u003ccode\u003e\u003ca\u003ebuys\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "buysByPreference",
           "package": "dominion",
@@ -4634,6 +5013,7 @@
         "index": {
           "description": "Give an array of cards in order of preference This function will buy as many cards as possible in order of preference For example suppose you use playerId buysByPreference province duchy And you have money and two buys You will buy two provinces This runs all the same validations as buys",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "buysByPreference",
           "normalized": "PlayerId-\u003e[Card]-\u003eDominion()",
@@ -4650,6 +5030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main method to simulate a dominion game. Example:\n\u003c/p\u003e\u003cpre\u003e import Dominion\n import Dominion.Strategies\n\n main = dominion [\"adit\" `uses` bigMoney, \"maggie\" `uses` bigMoney]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "dominion",
           "package": "dominion",
@@ -4660,6 +5041,7 @@
         "index": {
           "description": "The main method to simulate dominion game Example import Dominion import Dominion.Strategies main dominion adit uses bigMoney maggie uses bigMoney",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "dominion",
           "normalized": "[(Player,Strategy)]-\u003eIO[Result]",
@@ -4675,6 +5057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edominion\u003c/a\u003e\u003c/code\u003e, but allows you to pass in some options. Example:\n\u003c/p\u003e\u003cpre\u003e dominionWithOpts [Iterations 5, Log True] [\"adit\" `uses` bigMoney, \"maggie\" `uses` bigMoney]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "dominionWithOpts",
           "package": "dominion",
@@ -4685,6 +5068,7 @@
         "index": {
           "description": "Same as dominion but allows you to pass in some options Example dominionWithOpts Iterations Log True adit uses bigMoney maggie uses bigMoney",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "dominionWithOpts",
           "normalized": "[Option]-\u003e[(Player,Strategy)]-\u003eIO[Result]",
@@ -4701,6 +5085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the simplest case, this lets you play a card, like this:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` smithy\n\u003c/pre\u003e\u003cp\u003eYou can just use this function blindly, without checking to see if you\n have enough actions, or whether you have a smithy in your hand.\n \u003ccode\u003e\u003ca\u003eplays\u003c/a\u003e\u003c/code\u003e will perform those  validations for you. It returns a \u003ccode\u003ePlayResult\u003c/code\u003e,\n which is an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e with an error message or a return value.  \n\u003c/p\u003e\u003cp\u003eSome cards require an additional action. For example, if you use\n a workshop, you need to specify what card you're going to get. In that\n case, this function returns a \u003ccode\u003eFollowup\u003c/code\u003e. A \u003ccode\u003eFollowup\u003c/code\u003e just contains some information about the card you used.\n You can use the extra action of the card like this:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` workshop `with` (Workshop gardens)\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e takes a \u003ccode\u003eFollowUp\u003c/code\u003e and a \u003ccode\u003eFollowupAction\u003c/code\u003e, and applies the\n \u003ccode\u003eFollowupAction\u003c/code\u003e.\n Here's another example:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` throneRoom `with` (ThroneRoom market)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "plays",
           "package": "dominion",
@@ -4711,6 +5096,7 @@
         "index": {
           "description": "In the simplest case this lets you play card like this playerId plays smithy You can just use this function blindly without checking to see if you have enough actions or whether you have smithy in your hand plays will perform those validations for you It returns PlayResult which is an Either with an error message or return value Some cards require an additional action For example if you use workshop you need to specify what card you re going to get In that case this function returns Followup Followup just contains some information about the card you used You can use the extra action of the card like this playerId plays workshop with Workshop gardens with takes FollowUp and FollowupAction and applies the FollowupAction Here another example playerId plays throneRoom with ThroneRoom market",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "plays",
           "normalized": "PlayerId-\u003eCard-\u003eDominion(PlayResult(Maybe Followup))",
@@ -4726,6 +5112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive an array of cards, in order of preference.\n This function will try to play as many cards as possible, in order of preference.\n Note: if any card requires a \u003ccode\u003eFollowup\u003c/code\u003e (like \u003ccode\u003ecellar\u003c/code\u003e or\n \u003ccode\u003echapel\u003c/code\u003e), you need to use \u003ccode\u003e\u003ca\u003eplays\u003c/a\u003e\u003c/code\u003e instead. This runs all the same\n validations as \u003ccode\u003e\u003ca\u003eplays\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "playsByPreference",
           "package": "dominion",
@@ -4736,6 +5123,7 @@
         "index": {
           "description": "Give an array of cards in order of preference This function will try to play as many cards as possible in order of preference Note if any card requires Followup like cellar or chapel you need to use plays instead This runs all the same validations as plays",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "playsByPreference",
           "normalized": "PlayerId-\u003e[Card]-\u003eDominion()",
@@ -4752,6 +5140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function. \u003ccode\u003e name `uses` strategy \u003c/code\u003e is the same as writing\n \u003ccode\u003e (name, strategy) \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "uses",
           "package": "dominion",
@@ -4762,6 +5151,7 @@
         "index": {
           "description": "Convenience function name uses strategy is the same as writing name strategy",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "uses",
           "normalized": "String-\u003eStrategy-\u003e(Player,Strategy)",
@@ -4777,6 +5167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can use \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e to play an FollowupAction. For example:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` chapel `with` (Chapel [4 `cardsOf` estate])\n\u003c/pre\u003e\u003cp\u003eThis will trash up to four estates from your hand (depending on how many\n you have). The input of this function is directly the output of \u003ccode\u003e\u003ca\u003eplays\u003c/a\u003e\u003c/code\u003e, so you can\n chain these functions together easily. This automatically handles\n checking whether the \u003ccode\u003ePlayResult\u003c/code\u003e was a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e, and whether there is\n a \u003ccode\u003eFollowup\u003c/code\u003e, and whether the \u003ccode\u003eFollowupAction\u003c/code\u003e you gave matches the \u003ccode\u003eFollowup\u003c/code\u003e,\n and applies the \u003ccode\u003eFollowupAction\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eFollowupAction\u003c/code\u003e needs to match the \u003ccode\u003eFollowup\u003c/code\u003e. You can't do this, for\n example:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` throneRoom `with` (Workshop village)\n\u003c/pre\u003e\u003cp\u003eYou need this instead:\n\u003c/p\u003e\u003cpre\u003e playerId `plays` throneRoom `with` (ThroneRoom village)\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e might lead to more \u003ccode\u003eFollowup\u003c/code\u003es, in which case you can chain calls\n using \u003ccode\u003e\u003ca\u003ewithMulti\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "with",
           "package": "dominion",
@@ -4787,6 +5178,7 @@
         "index": {
           "description": "You can use with to play an FollowupAction For example playerId plays chapel with Chapel cardsOf estate This will trash up to four estates from your hand depending on how many you have The input of this function is directly the output of plays so you can chain these functions together easily This automatically handles checking whether the PlayResult was Right and whether there is Followup and whether the FollowupAction you gave matches the Followup and applies the FollowupAction The FollowupAction needs to match the Followup You can do this for example playerId plays throneRoom with Workshop village You need this instead playerId plays throneRoom with ThroneRoom village with might lead to more Followup in which case you can chain calls using withMulti",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "with",
           "normalized": "Dominion(PlayResult(Maybe Followup))-\u003eFollowupAction-\u003eDominion(PlayResult(Maybe[Followup]))",
@@ -4802,6 +5194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just like \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e, except you can give it an array of\n \u003ccode\u003eFollowup\u003c/code\u003es, and another array of \u003ccode\u003eFollowupAction\u003c/code\u003es. Most cards will\n only generate one \u003ccode\u003eFollowup\u003c/code\u003e. There's only one case I know about that\n would generate multiple \u003ccode\u003eFollowup\u003c/code\u003es: playing a throne room on a throne\n room.\n\u003c/p\u003e\u003cpre\u003e playerId `plays` throneRoom `with` (ThroneRoom throneRoom) `withMulti` [ThroneRoom market, ThroneRoom smithy]\n\u003c/pre\u003e\u003cp\u003eHere, someone plays a throne room on a throne room. Now you have to\n follow up with two action cards: the two cards you want to play twice.\n The player passes in \u003ccode\u003emarket\u003c/code\u003e and \u003ccode\u003esmithy\u003c/code\u003e, and they both get played twice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:57 UTC 2014",
           "module": "Dominion",
           "name": "withMulti",
           "package": "dominion",
@@ -4812,6 +5205,7 @@
         "index": {
           "description": "This is just like with except you can give it an array of Followup and another array of FollowupAction Most cards will only generate one Followup There only one case know about that would generate multiple Followup playing throne room on throne room playerId plays throneRoom with ThroneRoom throneRoom withMulti ThroneRoom market ThroneRoom smithy Here someone plays throne room on throne room Now you have to follow up with two action cards the two cards you want to play twice The player passes in market and smithy and they both get played twice",
           "hierarchy": "Dominion",
+          "indexed": "2014-03-11T17:57:57",
           "module": "Dominion",
           "name": "withMulti",
           "normalized": "Dominion(PlayResult(Maybe[Followup]))-\u003e[FollowupAction]-\u003eDominion(PlayResult(Maybe[Followup]))",

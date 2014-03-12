@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsx-xhtml"
+        "phrase": "hsx-xhtml",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.Layout",
           "name": "Layout",
           "package": "hsx-xhtml",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HSX Layout",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.Layout",
           "name": "Layout",
           "package": "hsx-xhtml",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.Layout",
           "name": "\u003c\u003e",
           "package": "hsx-xhtml",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "HSX Layout",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.Layout",
           "name": "\u003c\u003e",
           "normalized": "a-\u003eb-\u003eLayout c",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.Layout",
           "name": "IsLayout",
           "package": "hsx-xhtml",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "HSX Layout",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.Layout",
           "name": "IsLayout",
           "package": "hsx-xhtml",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.Layout",
           "name": "^^",
           "package": "hsx-xhtml",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "HSX Layout",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.Layout",
           "name": "^^",
           "normalized": "a-\u003eb-\u003eLayout c",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.Layout",
           "name": "above",
           "package": "hsx-xhtml",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "HSX Layout",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.Layout",
           "name": "above",
           "normalized": "a-\u003eb-\u003eLayout c",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.Layout",
           "name": "beside",
           "package": "hsx-xhtml",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "HSX Layout",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.Layout",
           "name": "beside",
           "normalized": "a-\u003eb-\u003eLayout c",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.Layout",
           "name": "toLayout",
           "package": "hsx-xhtml",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "HSX Layout",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.Layout",
           "name": "toLayout",
           "normalized": "a-\u003eLayout b",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "CInput",
           "package": "hsx-xhtml",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "CInput",
           "package": "hsx-xhtml",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "Caption",
           "package": "hsx-xhtml",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "Caption",
           "package": "hsx-xhtml",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "Checked",
           "package": "hsx-xhtml",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "Checked",
           "package": "hsx-xhtml",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "HTTPEquiv",
           "package": "hsx-xhtml",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "HTTPEquiv",
           "package": "hsx-xhtml",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "Input",
           "package": "hsx-xhtml",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "Input",
           "package": "hsx-xhtml",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "JavaScript",
           "package": "hsx-xhtml",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "JavaScript",
           "package": "hsx-xhtml",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "MetaName",
           "package": "hsx-xhtml",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "MetaName",
           "package": "hsx-xhtml",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "OptGroup",
           "package": "hsx-xhtml",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "OptGroup",
           "package": "hsx-xhtml",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "Option",
           "package": "hsx-xhtml",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "Option",
           "package": "hsx-xhtml",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "SInput",
           "package": "hsx-xhtml",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "SInput",
           "package": "hsx-xhtml",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "BoolType",
           "package": "hsx-xhtml",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "BoolType",
           "package": "hsx-xhtml",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "CaptionType",
           "package": "hsx-xhtml",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "CaptionType",
           "package": "hsx-xhtml",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "CheckedType",
           "package": "hsx-xhtml",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "CheckedType",
           "package": "hsx-xhtml",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "DirType",
           "package": "hsx-xhtml",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "DirType",
           "package": "hsx-xhtml",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "HTTPEquivType",
           "package": "hsx-xhtml",
@@ -478,6 +521,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "HTTPEquivType",
           "package": "hsx-xhtml",
@@ -491,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "InputType",
           "package": "hsx-xhtml",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "InputType",
           "package": "hsx-xhtml",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "IntType",
           "package": "hsx-xhtml",
@@ -520,6 +567,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "IntType",
           "package": "hsx-xhtml",
@@ -533,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "LegendType",
           "package": "hsx-xhtml",
@@ -541,6 +590,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "LegendType",
           "package": "hsx-xhtml",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "MetaNameType",
           "package": "hsx-xhtml",
@@ -562,6 +613,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "MetaNameType",
           "package": "hsx-xhtml",
@@ -575,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "OptionType",
           "package": "hsx-xhtml",
@@ -583,6 +636,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "OptionType",
           "package": "hsx-xhtml",
@@ -596,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "ScriptType",
           "package": "hsx-xhtml",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "ScriptType",
           "package": "hsx-xhtml",
@@ -617,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "ShapeType",
           "package": "hsx-xhtml",
@@ -625,6 +682,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "ShapeType",
           "package": "hsx-xhtml",
@@ -638,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "StringType",
           "package": "hsx-xhtml",
@@ -646,6 +705,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "StringType",
           "package": "hsx-xhtml",
@@ -659,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "abbr",
           "package": "hsx-xhtml",
@@ -668,6 +729,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "abbr",
           "normalized": "a-\u003ea-\u003eGenXML b",
@@ -682,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "acronym",
           "package": "hsx-xhtml",
@@ -691,6 +754,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "acronym",
           "normalized": "a-\u003ea-\u003eGenXML b",
@@ -705,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "address",
           "package": "hsx-xhtml",
@@ -714,6 +779,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "address",
           "normalized": "[a]-\u003eGenXML b",
@@ -728,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "anchor",
           "package": "hsx-xhtml",
@@ -737,6 +804,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "anchor",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -751,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "area",
           "package": "hsx-xhtml",
@@ -760,6 +829,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "area",
           "normalized": "a-\u003eb-\u003ec-\u003eGenXML d",
@@ -774,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "base",
           "package": "hsx-xhtml",
@@ -783,6 +854,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "base",
           "normalized": "a-\u003eGenXML b",
@@ -797,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "bdo",
           "package": "hsx-xhtml",
@@ -806,6 +879,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "bdo",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -820,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "blockquote",
           "package": "hsx-xhtml",
@@ -829,6 +904,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "blockquote",
           "normalized": "a-\u003eGenXML b",
@@ -843,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "br",
           "package": "hsx-xhtml",
@@ -852,6 +929,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "br",
           "package": "hsx-xhtml",
@@ -864,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "button",
           "package": "hsx-xhtml",
@@ -873,6 +952,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "button",
           "normalized": "a-\u003eGenXML b",
@@ -887,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "capt",
           "package": "hsx-xhtml",
@@ -896,6 +977,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "capt",
           "normalized": "a-\u003eCaption a",
@@ -910,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "caption",
           "package": "hsx-xhtml",
@@ -919,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "caption",
           "normalized": "a-\u003eGenXML b",
@@ -933,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "checkbox",
           "package": "hsx-xhtml",
@@ -942,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "checkbox",
           "normalized": "a-\u003eb-\u003eb-\u003eGenXMLList c",
@@ -956,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "col",
           "package": "hsx-xhtml",
@@ -965,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "col",
           "normalized": "[a]-\u003eGenXML b",
@@ -979,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "colgroup",
           "package": "hsx-xhtml",
@@ -988,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "colgroup",
           "normalized": "a-\u003e[[b]]-\u003eGenXML c",
@@ -1002,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "del",
           "package": "hsx-xhtml",
@@ -1011,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "del",
           "normalized": "a-\u003eGenXML b",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "div",
           "package": "hsx-xhtml",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "div",
           "normalized": "a-\u003eGenXML b",
@@ -1048,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "dl",
           "package": "hsx-xhtml",
@@ -1057,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "dl",
           "normalized": "[(a,[b])]-\u003eGenXML c",
@@ -1071,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "fieldset",
           "package": "hsx-xhtml",
@@ -1080,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "fieldset",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1094,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "form",
           "package": "hsx-xhtml",
@@ -1103,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "form",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1117,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "groupSelect",
           "package": "hsx-xhtml",
@@ -1126,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "groupSelect",
           "normalized": "[OptGroup a b]-\u003eGenXML c",
@@ -1141,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "h",
           "package": "hsx-xhtml",
@@ -1150,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "h",
           "normalized": "Int-\u003ea-\u003eGenXML b",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "h1",
           "package": "hsx-xhtml",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "h1",
           "normalized": "a-\u003eGenXML b",
@@ -1187,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "h2",
           "package": "hsx-xhtml",
@@ -1196,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "h2",
           "normalized": "a-\u003eGenXML b",
@@ -1210,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "h3",
           "package": "hsx-xhtml",
@@ -1219,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "h3",
           "normalized": "a-\u003eGenXML b",
@@ -1233,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "h4",
           "package": "hsx-xhtml",
@@ -1242,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "h4",
           "normalized": "a-\u003eGenXML b",
@@ -1256,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "h5",
           "package": "hsx-xhtml",
@@ -1265,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "h5",
           "normalized": "a-\u003eGenXML b",
@@ -1279,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "h6",
           "package": "hsx-xhtml",
@@ -1288,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "h6",
           "normalized": "a-\u003eGenXML b",
@@ -1302,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "head",
           "package": "hsx-xhtml",
@@ -1311,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "head",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1325,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "headFootTable",
           "package": "hsx-xhtml",
@@ -1334,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "headFootTable",
           "normalized": "a-\u003e[[b]]-\u003ec-\u003eGenXML d",
@@ -1349,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "hr",
           "package": "hsx-xhtml",
@@ -1358,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "hr",
           "package": "hsx-xhtml",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "httpEquiv",
           "package": "hsx-xhtml",
@@ -1379,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "httpEquiv",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1394,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "img",
           "package": "hsx-xhtml",
@@ -1403,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "img",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1417,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "imgmap",
           "package": "hsx-xhtml",
@@ -1426,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "imgmap",
           "normalized": "a-\u003eb-\u003e(c,[(d,e,f)])-\u003eGenXMLList g",
@@ -1440,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "input",
           "package": "hsx-xhtml",
@@ -1449,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "input",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1463,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "ins",
           "package": "hsx-xhtml",
@@ -1472,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "ins",
           "normalized": "a-\u003eGenXML b",
@@ -1486,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "label",
           "package": "hsx-xhtml",
@@ -1495,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "label",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1509,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "link",
           "package": "hsx-xhtml",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "link",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1532,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "listItem",
           "package": "hsx-xhtml",
@@ -1541,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "listItem",
           "normalized": "a-\u003eGenXML b",
@@ -1556,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "meta",
           "package": "hsx-xhtml",
@@ -1565,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "meta",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1579,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "mkOption",
           "package": "hsx-xhtml",
@@ -1588,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "mkOption",
           "normalized": "a-\u003ea-\u003eBool-\u003eOption a",
@@ -1603,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "multiSelect",
           "package": "hsx-xhtml",
@@ -1612,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "multiSelect",
           "normalized": "[a]-\u003eGenXML b",
@@ -1627,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "noCapt",
           "package": "hsx-xhtml",
@@ -1636,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "noCapt",
           "package": "hsx-xhtml",
@@ -1649,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "object",
           "package": "hsx-xhtml",
@@ -1658,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "object",
           "normalized": "[(a,a)]-\u003eb-\u003eGenXML c",
@@ -1672,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "ol",
           "package": "hsx-xhtml",
@@ -1681,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "ol",
           "normalized": "[a]-\u003eGenXML b",
@@ -1695,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "optgroup",
           "package": "hsx-xhtml",
@@ -1704,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "optgroup",
           "normalized": "a-\u003e[b]-\u003eGenXML c",
@@ -1718,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "option",
           "package": "hsx-xhtml",
@@ -1727,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "option",
           "normalized": "a-\u003eGenXML b",
@@ -1741,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "orderedList",
           "package": "hsx-xhtml",
@@ -1750,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "orderedList",
           "normalized": "[a]-\u003eGenXML b",
@@ -1765,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "p",
           "package": "hsx-xhtml",
@@ -1774,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "p",
           "normalized": "a-\u003eGenXML b",
@@ -1788,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "page",
           "package": "hsx-xhtml",
@@ -1797,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "page",
           "normalized": "a-\u003e[b]-\u003ec-\u003eGenXML d",
@@ -1811,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "param",
           "package": "hsx-xhtml",
@@ -1820,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "param",
           "normalized": "a-\u003ea-\u003eGenXML b",
@@ -1834,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "pre",
           "package": "hsx-xhtml",
@@ -1843,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "pre",
           "normalized": "a-\u003eGenXML b",
@@ -1857,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "q",
           "package": "hsx-xhtml",
@@ -1866,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "q",
           "normalized": "a-\u003eGenXML b",
@@ -1880,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "resetButton",
           "package": "hsx-xhtml",
@@ -1889,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "resetButton",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -1904,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "script",
           "package": "hsx-xhtml",
@@ -1913,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "script",
           "normalized": "a-\u003eb-\u003eGenXMLList c",
@@ -1927,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "select",
           "package": "hsx-xhtml",
@@ -1936,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "select",
           "normalized": "[a]-\u003eGenXML b",
@@ -1950,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "select'",
           "package": "hsx-xhtml",
@@ -1959,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "select'",
           "normalized": "[GenAttributeList a]-\u003e[b]-\u003eGenXML a",
@@ -1973,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "sizedMultiSelect",
           "package": "hsx-xhtml",
@@ -1982,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "sizedMultiSelect",
           "normalized": "a-\u003e[b]-\u003eGenXML c",
@@ -1997,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "sizedSelect",
           "package": "hsx-xhtml",
@@ -2006,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "sizedSelect",
           "normalized": "a-\u003e[b]-\u003eGenXML c",
@@ -2021,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "span",
           "package": "hsx-xhtml",
@@ -2030,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "span",
           "normalized": "a-\u003eGenXML b",
@@ -2044,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "sub",
           "package": "hsx-xhtml",
@@ -2053,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "sub",
           "normalized": "a-\u003eGenXML b",
@@ -2067,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "submitButton",
           "package": "hsx-xhtml",
@@ -2076,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "submitButton",
           "normalized": "a-\u003eb-\u003eGenXML c",
@@ -2091,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "sup",
           "package": "hsx-xhtml",
@@ -2100,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "sup",
           "normalized": "a-\u003eGenXML b",
@@ -2114,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "table",
           "package": "hsx-xhtml",
@@ -2123,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "table",
           "normalized": "a-\u003e[[b]]-\u003eGenXML c",
@@ -2137,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "tableCell",
           "package": "hsx-xhtml",
@@ -2146,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "tableCell",
           "normalized": "a-\u003eGenXML b",
@@ -2161,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "tableRow",
           "package": "hsx-xhtml",
@@ -2170,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "tableRow",
           "normalized": "[a]-\u003eGenXML b",
@@ -2185,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "ul",
           "package": "hsx-xhtml",
@@ -2194,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "ul",
           "normalized": "[a]-\u003eGenXML b",
@@ -2208,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:18 UTC 2014",
           "module": "HSX.XHTML",
           "name": "unorderedList",
           "package": "hsx-xhtml",
@@ -2217,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "HSX XHTML",
+          "indexed": "2014-03-11T18:51:18",
           "module": "HSX.XHTML",
           "name": "unorderedList",
           "normalized": "[a]-\u003eGenXML b",

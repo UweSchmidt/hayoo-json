@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "temporal-music-notation-demo"
+        "phrase": "temporal-music-notation-demo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral MIDI names\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "GeneralMidi",
           "package": "temporal-music-notation-demo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "General MIDI names",
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "GeneralMidi",
           "package": "temporal-music-notation-demo",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "accordion",
           "package": "temporal-music-notation-demo",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "accordion",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticBass",
           "package": "temporal-music-notation-demo",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticBass",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticBassDrum",
           "package": "temporal-music-notation-demo",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticBassDrum",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticGrandPiano",
           "package": "temporal-music-notation-demo",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticGrandPiano",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticGuitarNylon",
           "package": "temporal-music-notation-demo",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticGuitarNylon",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticGuitarSteel",
           "package": "temporal-music-notation-demo",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticGuitarSteel",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticSnare",
           "package": "temporal-music-notation-demo",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "acousticSnare",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "agogo",
           "package": "temporal-music-notation-demo",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "agogo",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "altoSax",
           "package": "temporal-music-notation-demo",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "altoSax",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "applause",
           "package": "temporal-music-notation-demo",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "applause",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "bagpipe",
           "package": "temporal-music-notation-demo",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "bagpipe",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "banjo",
           "package": "temporal-music-notation-demo",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "banjo",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "baritoneSax",
           "package": "temporal-music-notation-demo",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "baritoneSax",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "bassDrum1",
           "package": "temporal-music-notation-demo",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "bassDrum1",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -372,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "bassoon",
           "package": "temporal-music-notation-demo",
@@ -381,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "bassoon",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "birdTweet",
           "package": "temporal-music-notation-demo",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "birdTweet",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "blownBottle",
           "package": "temporal-music-notation-demo",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "blownBottle",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "brassSection",
           "package": "temporal-music-notation-demo",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "brassSection",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "breathNoise",
           "package": "temporal-music-notation-demo",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "breathNoise",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -491,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "brightAcousticPiano",
           "package": "temporal-music-notation-demo",
@@ -500,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "brightAcousticPiano",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -515,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "cabasa",
           "package": "temporal-music-notation-demo",
@@ -524,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "cabasa",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "celesta",
           "package": "temporal-music-notation-demo",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "celesta",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "cello",
           "package": "temporal-music-notation-demo",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "cello",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -584,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "chineseCymbal",
           "package": "temporal-music-notation-demo",
@@ -593,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "chineseCymbal",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -608,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "choirAahs",
           "package": "temporal-music-notation-demo",
@@ -617,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "choirAahs",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -632,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "chorusedPiano",
           "package": "temporal-music-notation-demo",
@@ -641,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "chorusedPiano",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -656,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "churchOrgan",
           "package": "temporal-music-notation-demo",
@@ -665,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "churchOrgan",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -680,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "clarinet",
           "package": "temporal-music-notation-demo",
@@ -689,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "clarinet",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -703,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "claves",
           "package": "temporal-music-notation-demo",
@@ -712,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "claves",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "clavinet",
           "package": "temporal-music-notation-demo",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "clavinet",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "closedHiHat",
           "package": "temporal-music-notation-demo",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "closedHiHat",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -773,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "contrabass",
           "package": "temporal-music-notation-demo",
@@ -782,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "contrabass",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -796,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "cowbell",
           "package": "temporal-music-notation-demo",
@@ -805,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "cowbell",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -819,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "crashCymbal1",
           "package": "temporal-music-notation-demo",
@@ -828,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "crashCymbal1",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -843,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "crashCymbal2",
           "package": "temporal-music-notation-demo",
@@ -852,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "crashCymbal2",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "distortionGuitar",
           "package": "temporal-music-notation-demo",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "distortionGuitar",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -891,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "dulcimer",
           "package": "temporal-music-notation-demo",
@@ -900,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "dulcimer",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -914,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricBassFingered",
           "package": "temporal-music-notation-demo",
@@ -923,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricBassFingered",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -938,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricBassPicked",
           "package": "temporal-music-notation-demo",
@@ -947,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricBassPicked",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -962,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricGrandPiano",
           "package": "temporal-music-notation-demo",
@@ -971,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricGrandPiano",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -986,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricGuitarClean",
           "package": "temporal-music-notation-demo",
@@ -995,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricGuitarClean",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1010,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricGuitarJazz",
           "package": "temporal-music-notation-demo",
@@ -1019,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricGuitarJazz",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1034,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricGuitarMuted",
           "package": "temporal-music-notation-demo",
@@ -1043,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricGuitarMuted",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1058,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricSnare",
           "package": "temporal-music-notation-demo",
@@ -1067,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "electricSnare",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1082,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "englishHorn",
           "package": "temporal-music-notation-demo",
@@ -1091,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "englishHorn",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1106,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fiddle",
           "package": "temporal-music-notation-demo",
@@ -1115,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fiddle",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1129,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "flute",
           "package": "temporal-music-notation-demo",
@@ -1138,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "flute",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1152,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "frenchHorn",
           "package": "temporal-music-notation-demo",
@@ -1161,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "frenchHorn",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fretlessBass",
           "package": "temporal-music-notation-demo",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fretlessBass",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1200,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx1Train",
           "package": "temporal-music-notation-demo",
@@ -1209,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx1Train",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1224,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx2Soundtrack",
           "package": "temporal-music-notation-demo",
@@ -1233,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx2Soundtrack",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1248,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx3Crystal",
           "package": "temporal-music-notation-demo",
@@ -1257,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx3Crystal",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1272,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx4Atmosphere",
           "package": "temporal-music-notation-demo",
@@ -1281,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx4Atmosphere",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1296,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx5Brightness",
           "package": "temporal-music-notation-demo",
@@ -1305,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx5Brightness",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1320,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx6Goblins",
           "package": "temporal-music-notation-demo",
@@ -1329,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx6Goblins",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1344,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx7Echoes",
           "package": "temporal-music-notation-demo",
@@ -1353,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx7Echoes",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1368,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx8SciFi",
           "package": "temporal-music-notation-demo",
@@ -1377,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "fx8SciFi",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1392,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "glockenspiel",
           "package": "temporal-music-notation-demo",
@@ -1401,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "glockenspiel",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1415,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "guitarFretNoise",
           "package": "temporal-music-notation-demo",
@@ -1424,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "guitarFretNoise",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1439,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "guitarHarmonics",
           "package": "temporal-music-notation-demo",
@@ -1448,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "guitarHarmonics",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1463,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "gunshot",
           "package": "temporal-music-notation-demo",
@@ -1472,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "gunshot",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1486,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "hammondOrgan",
           "package": "temporal-music-notation-demo",
@@ -1495,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "hammondOrgan",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1510,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "handClap",
           "package": "temporal-music-notation-demo",
@@ -1519,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "handClap",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1534,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "harmonica",
           "package": "temporal-music-notation-demo",
@@ -1543,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "harmonica",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1557,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "harpsichord",
           "package": "temporal-music-notation-demo",
@@ -1566,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "harpsichord",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1580,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "helicopter",
           "package": "temporal-music-notation-demo",
@@ -1589,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "helicopter",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1603,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "hiBongo",
           "package": "temporal-music-notation-demo",
@@ -1612,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "hiBongo",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1627,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "hiMidTom",
           "package": "temporal-music-notation-demo",
@@ -1636,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "hiMidTom",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1651,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "hiWoodBlock",
           "package": "temporal-music-notation-demo",
@@ -1660,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "hiWoodBlock",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1675,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "highAgogo",
           "package": "temporal-music-notation-demo",
@@ -1684,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "highAgogo",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1699,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "highFloorTom",
           "package": "temporal-music-notation-demo",
@@ -1708,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "highFloorTom",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1723,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "highTimbale",
           "package": "temporal-music-notation-demo",
@@ -1732,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "highTimbale",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1747,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "highTom",
           "package": "temporal-music-notation-demo",
@@ -1756,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "highTom",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -1771,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "honkyTonkPiano",
           "package": "temporal-music-notation-demo",
@@ -1780,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "honkyTonkPiano",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1795,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "kalimba",
           "package": "temporal-music-notation-demo",
@@ -1804,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "kalimba",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1818,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "koto",
           "package": "temporal-music-notation-demo",
@@ -1827,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "koto",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1841,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead1Square",
           "package": "temporal-music-notation-demo",
@@ -1850,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead1Square",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1865,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead2Sawtooth",
           "package": "temporal-music-notation-demo",
@@ -1874,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead2Sawtooth",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1889,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead3Calliope",
           "package": "temporal-music-notation-demo",
@@ -1898,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead3Calliope",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1913,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead4Chiff",
           "package": "temporal-music-notation-demo",
@@ -1922,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead4Chiff",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1937,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead5Charang",
           "package": "temporal-music-notation-demo",
@@ -1946,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead5Charang",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1961,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead6Voice",
           "package": "temporal-music-notation-demo",
@@ -1970,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead6Voice",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -1985,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead7Fifths",
           "package": "temporal-music-notation-demo",
@@ -1994,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead7Fifths",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2009,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead8BassLead",
           "package": "temporal-music-notation-demo",
@@ -2018,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lead8BassLead",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2033,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "longGuiro",
           "package": "temporal-music-notation-demo",
@@ -2042,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "longGuiro",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2057,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "longWhistle",
           "package": "temporal-music-notation-demo",
@@ -2066,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "longWhistle",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2081,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowAgogo",
           "package": "temporal-music-notation-demo",
@@ -2090,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowAgogo",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2105,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowBongo",
           "package": "temporal-music-notation-demo",
@@ -2114,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowBongo",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2129,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowConga",
           "package": "temporal-music-notation-demo",
@@ -2138,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowConga",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2153,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowFloorTom",
           "package": "temporal-music-notation-demo",
@@ -2162,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowFloorTom",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2177,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowMidTom",
           "package": "temporal-music-notation-demo",
@@ -2186,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowMidTom",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2201,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowTimbale",
           "package": "temporal-music-notation-demo",
@@ -2210,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowTimbale",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2225,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowTom",
           "package": "temporal-music-notation-demo",
@@ -2234,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowTom",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2249,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowWoodBlock",
           "package": "temporal-music-notation-demo",
@@ -2258,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "lowWoodBlock",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2273,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "maracas",
           "package": "temporal-music-notation-demo",
@@ -2282,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "maracas",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2296,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "marimba",
           "package": "temporal-music-notation-demo",
@@ -2305,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "marimba",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2319,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "melodicDrum",
           "package": "temporal-music-notation-demo",
@@ -2328,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "melodicDrum",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2343,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "musicBox",
           "package": "temporal-music-notation-demo",
@@ -2352,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "musicBox",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2367,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "muteCuica",
           "package": "temporal-music-notation-demo",
@@ -2376,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "muteCuica",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2391,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "muteHiConga",
           "package": "temporal-music-notation-demo",
@@ -2400,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "muteHiConga",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2415,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "muteTriangle",
           "package": "temporal-music-notation-demo",
@@ -2424,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "muteTriangle",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2439,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "mutedTrumpet",
           "package": "temporal-music-notation-demo",
@@ -2448,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "mutedTrumpet",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2463,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "oboe",
           "package": "temporal-music-notation-demo",
@@ -2472,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "oboe",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2486,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "ocarina",
           "package": "temporal-music-notation-demo",
@@ -2495,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "ocarina",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2509,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "openCuica",
           "package": "temporal-music-notation-demo",
@@ -2518,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "openCuica",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2533,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "openHiConga",
           "package": "temporal-music-notation-demo",
@@ -2542,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "openHiConga",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2557,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "openHiHat",
           "package": "temporal-music-notation-demo",
@@ -2566,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "openHiHat",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2581,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "openTriangle",
           "package": "temporal-music-notation-demo",
@@ -2590,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "openTriangle",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2605,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "orchestraHit",
           "package": "temporal-music-notation-demo",
@@ -2614,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "orchestraHit",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2629,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "orchestralHarp",
           "package": "temporal-music-notation-demo",
@@ -2638,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "orchestralHarp",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2653,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "overdrivenGuitar",
           "package": "temporal-music-notation-demo",
@@ -2662,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "overdrivenGuitar",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2677,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad1NewAge",
           "package": "temporal-music-notation-demo",
@@ -2686,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad1NewAge",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2701,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad2Warm",
           "package": "temporal-music-notation-demo",
@@ -2710,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad2Warm",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2725,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad3Polysynth",
           "package": "temporal-music-notation-demo",
@@ -2734,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad3Polysynth",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2749,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad4Choir",
           "package": "temporal-music-notation-demo",
@@ -2758,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad4Choir",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2773,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad5Bowed",
           "package": "temporal-music-notation-demo",
@@ -2782,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad5Bowed",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2797,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad6Metallic",
           "package": "temporal-music-notation-demo",
@@ -2806,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad6Metallic",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2821,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad7Halo",
           "package": "temporal-music-notation-demo",
@@ -2830,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad7Halo",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2845,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad8Sweep",
           "package": "temporal-music-notation-demo",
@@ -2854,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pad8Sweep",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2869,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "panFlute",
           "package": "temporal-music-notation-demo",
@@ -2878,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "panFlute",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2893,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pedalHiHat",
           "package": "temporal-music-notation-demo",
@@ -2902,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pedalHiHat",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -2917,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "percussiveOrgan",
           "package": "temporal-music-notation-demo",
@@ -2926,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "percussiveOrgan",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2941,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "piccolo",
           "package": "temporal-music-notation-demo",
@@ -2950,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "piccolo",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2964,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pizzicatoStrings",
           "package": "temporal-music-notation-demo",
@@ -2973,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "pizzicatoStrings",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -2988,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "recorder",
           "package": "temporal-music-notation-demo",
@@ -2997,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "recorder",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3011,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "reedOrgan",
           "package": "temporal-music-notation-demo",
@@ -3020,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "reedOrgan",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3035,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "reverseCymbal",
           "package": "temporal-music-notation-demo",
@@ -3044,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "reverseCymbal",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3059,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rhodesPiano",
           "package": "temporal-music-notation-demo",
@@ -3068,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rhodesPiano",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3083,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rideBell",
           "package": "temporal-music-notation-demo",
@@ -3092,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rideBell",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -3107,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rideCymbal1",
           "package": "temporal-music-notation-demo",
@@ -3116,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rideCymbal1",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -3131,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rideCymbal2",
           "package": "temporal-music-notation-demo",
@@ -3140,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rideCymbal2",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -3155,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rockOrgan",
           "package": "temporal-music-notation-demo",
@@ -3164,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "rockOrgan",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3179,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "seashore",
           "package": "temporal-music-notation-demo",
@@ -3188,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "seashore",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3202,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shakuhachi",
           "package": "temporal-music-notation-demo",
@@ -3211,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shakuhachi",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3225,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shamisen",
           "package": "temporal-music-notation-demo",
@@ -3234,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shamisen",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3248,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shanai",
           "package": "temporal-music-notation-demo",
@@ -3257,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shanai",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3271,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shortGuiro",
           "package": "temporal-music-notation-demo",
@@ -3280,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shortGuiro",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -3295,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shortWhistle",
           "package": "temporal-music-notation-demo",
@@ -3304,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "shortWhistle",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -3319,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "sideStick",
           "package": "temporal-music-notation-demo",
@@ -3328,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "sideStick",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -3343,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "sitar",
           "package": "temporal-music-notation-demo",
@@ -3352,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "sitar",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3366,6 +3648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "slapBass1",
           "package": "temporal-music-notation-demo",
@@ -3375,6 +3658,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "slapBass1",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3390,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "slapBass2",
           "package": "temporal-music-notation-demo",
@@ -3399,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "slapBass2",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3414,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "sopranoSax",
           "package": "temporal-music-notation-demo",
@@ -3423,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "sopranoSax",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3438,6 +3726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "splashCymbal",
           "package": "temporal-music-notation-demo",
@@ -3447,6 +3736,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "splashCymbal",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -3462,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "steelDrums",
           "package": "temporal-music-notation-demo",
@@ -3471,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "steelDrums",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3486,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "stringEnsemble1",
           "package": "temporal-music-notation-demo",
@@ -3495,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "stringEnsemble1",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3510,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "stringEnsemble2",
           "package": "temporal-music-notation-demo",
@@ -3519,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "stringEnsemble2",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3534,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthBass1",
           "package": "temporal-music-notation-demo",
@@ -3543,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthBass1",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3558,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthBass2",
           "package": "temporal-music-notation-demo",
@@ -3567,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthBass2",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3582,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthBrass1",
           "package": "temporal-music-notation-demo",
@@ -3591,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthBrass1",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3606,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthBrass2",
           "package": "temporal-music-notation-demo",
@@ -3615,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthBrass2",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3630,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthDrum",
           "package": "temporal-music-notation-demo",
@@ -3639,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthDrum",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3654,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthStrings1",
           "package": "temporal-music-notation-demo",
@@ -3663,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthStrings1",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3678,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthStrings2",
           "package": "temporal-music-notation-demo",
@@ -3687,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthStrings2",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3702,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthVoice",
           "package": "temporal-music-notation-demo",
@@ -3711,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "synthVoice",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3726,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "taikoDrum",
           "package": "temporal-music-notation-demo",
@@ -3735,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "taikoDrum",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3750,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tambourine",
           "package": "temporal-music-notation-demo",
@@ -3759,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tambourine",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -3773,6 +4089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tangoAccordion",
           "package": "temporal-music-notation-demo",
@@ -3782,6 +4099,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tangoAccordion",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3797,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "telephoneRing",
           "package": "temporal-music-notation-demo",
@@ -3806,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "telephoneRing",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3821,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tenorSax",
           "package": "temporal-music-notation-demo",
@@ -3830,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tenorSax",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3845,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "timpani",
           "package": "temporal-music-notation-demo",
@@ -3854,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "timpani",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3868,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tinkleBell",
           "package": "temporal-music-notation-demo",
@@ -3877,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tinkleBell",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3892,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tremoloStrings",
           "package": "temporal-music-notation-demo",
@@ -3901,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tremoloStrings",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3916,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "trombone",
           "package": "temporal-music-notation-demo",
@@ -3925,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "trombone",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3939,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "trumpet",
           "package": "temporal-music-notation-demo",
@@ -3948,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "trumpet",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3962,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tuba",
           "package": "temporal-music-notation-demo",
@@ -3971,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tuba",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -3985,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tubularBells",
           "package": "temporal-music-notation-demo",
@@ -3994,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "tubularBells",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -4009,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "vibraphone",
           "package": "temporal-music-notation-demo",
@@ -4018,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "vibraphone",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -4032,6 +4370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "vibraslap",
           "package": "temporal-music-notation-demo",
@@ -4041,6 +4380,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "vibraslap",
           "normalized": "Score(Drum a)-\u003eScore MidiNote",
@@ -4055,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "viola",
           "package": "temporal-music-notation-demo",
@@ -4064,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "viola",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -4078,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "violin",
           "package": "temporal-music-notation-demo",
@@ -4087,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "violin",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -4101,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "voiceOohs",
           "package": "temporal-music-notation-demo",
@@ -4110,6 +4455,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "voiceOohs",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -4125,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "whistle",
           "package": "temporal-music-notation-demo",
@@ -4134,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "whistle",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -4148,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "woodblock",
           "package": "temporal-music-notation-demo",
@@ -4157,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "woodblock",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -4171,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "xylophone",
           "package": "temporal-music-notation-demo",
@@ -4180,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo GeneralMidi",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo.GeneralMidi",
           "name": "xylophone",
           "normalized": "Score(Note a)-\u003eScore MidiNote",
@@ -4195,6 +4547,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary provides functions to render \u003ccode\u003e\u003ca\u003eScore\u003c/a\u003e\u003c/code\u003e \n made with the library 'temporal-music-notation' to \n midi file with the package \u003ccode\u003eHCodecs\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo",
           "name": "Demo",
           "package": "temporal-music-notation-demo",
@@ -4204,6 +4557,7 @@
         "index": {
           "description": "Library provides functions to render Score made with the library temporal-music-notation to midi file with the package HCodecs",
           "hierarchy": "Temporal Music Demo",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo",
           "name": "Demo",
           "package": "temporal-music-notation-demo",
@@ -4218,6 +4572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile and directory names are values of type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, whose precise\n meaning is operating system dependent. Files can be opened, yielding a\n handle which can then be used to operate on the contents of that file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo",
           "name": "FilePath",
           "package": "temporal-music-notation-demo",
@@ -4226,6 +4581,7 @@
         "index": {
           "description": "File and directory names are values of type String whose precise meaning is operating system dependent Files can be opened yielding handle which can then be used to operate on the contents of that file",
           "hierarchy": "Temporal Music Demo",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo",
           "name": "FilePath",
           "package": "temporal-music-notation-demo",
@@ -4239,6 +4595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo",
           "name": "Instr",
           "package": "temporal-music-notation-demo",
@@ -4247,6 +4604,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo",
           "name": "Instr",
           "package": "temporal-music-notation-demo",
@@ -4260,6 +4618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo",
           "name": "MidiNote",
           "package": "temporal-music-notation-demo",
@@ -4268,6 +4627,7 @@
         },
         "index": {
           "hierarchy": "Temporal Music Demo",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo",
           "name": "MidiNote",
           "package": "temporal-music-notation-demo",
@@ -4282,6 +4642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply midi drum instrument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo",
           "name": "drumInstr",
           "package": "temporal-music-notation-demo",
@@ -4292,6 +4653,7 @@
         "index": {
           "description": "Apply midi drum instrument",
           "hierarchy": "Temporal Music Demo",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo",
           "name": "drumInstr",
           "normalized": "Instr-\u003eScore(Drum a)-\u003eScore MidiNote",
@@ -4308,6 +4670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003eTrack\u003c/code\u003e to midi file and save \n results in current directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo",
           "name": "exportMidi",
           "package": "temporal-music-notation-demo",
@@ -4318,6 +4681,7 @@
         "index": {
           "description": "Render Track to midi file and save results in current directory",
           "hierarchy": "Temporal Music Demo",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo",
           "name": "exportMidi",
           "normalized": "FilePath-\u003eScore MidiNote-\u003eIO()",
@@ -4334,6 +4698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply midi instrument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo",
           "name": "instr",
           "package": "temporal-music-notation-demo",
@@ -4344,6 +4709,7 @@
         "index": {
           "description": "Apply midi instrument",
           "hierarchy": "Temporal Music Demo",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo",
           "name": "instr",
           "normalized": "Instr-\u003eScore(Note a)-\u003eScore MidiNote",
@@ -4359,6 +4725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender to \u003ccode\u003eMidi\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:32 UTC 2014",
           "module": "Temporal.Music.Demo",
           "name": "renderMidi",
           "package": "temporal-music-notation-demo",
@@ -4369,6 +4736,7 @@
         "index": {
           "description": "Render to Midi",
           "hierarchy": "Temporal Music Demo",
+          "indexed": "2014-03-11T20:18:32",
           "module": "Temporal.Music.Demo",
           "name": "renderMidi",
           "normalized": "Score MidiNote-\u003eMidi",

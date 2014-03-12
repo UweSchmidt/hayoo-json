@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "herringbone"
+        "phrase": "herringbone",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone.Preprocessor.CoffeeScript",
           "name": "CoffeeScript",
           "package": "herringbone",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone Preprocessor CoffeeScript",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone.Preprocessor.CoffeeScript",
           "name": "CoffeeScript",
           "package": "herringbone",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone.Preprocessor.CoffeeScript",
           "name": "coffeeScript",
           "package": "herringbone",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone Preprocessor CoffeeScript",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone.Preprocessor.CoffeeScript",
           "name": "coffeeScript",
           "package": "herringbone",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone.Preprocessor.Sass",
           "name": "Sass",
           "package": "herringbone",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone Preprocessor Sass",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone.Preprocessor.Sass",
           "name": "Sass",
           "package": "herringbone",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA preprocessor for the sass mode of Sass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone.Preprocessor.Sass",
           "name": "sass",
           "package": "herringbone",
@@ -93,6 +100,7 @@
         "index": {
           "description": "preprocessor for the sass mode of Sass",
           "hierarchy": "Web Herringbone Preprocessor Sass",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone.Preprocessor.Sass",
           "name": "sass",
           "package": "herringbone",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA preprocessor for the scss mode of Sass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone.Preprocessor.Sass",
           "name": "scss",
           "package": "herringbone",
@@ -116,6 +125,7 @@
         "index": {
           "description": "preprocessor for the scss mode of Sass",
           "hierarchy": "Web Herringbone Preprocessor Sass",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone.Preprocessor.Sass",
           "name": "scss",
           "package": "herringbone",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone.Preprocessor.StdIO",
           "name": "StdIO",
           "package": "herringbone",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone Preprocessor StdIO",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone.Preprocessor.StdIO",
           "name": "StdIO",
           "package": "herringbone",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a preprocessor which works over standard IO; reading input from\n stdin, and writing output to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone.Preprocessor.StdIO",
           "name": "makeStdIOPP",
           "package": "herringbone",
@@ -159,6 +172,7 @@
         "index": {
           "description": "Make preprocessor which works over standard IO reading input from stdin and writing output to stdout",
           "hierarchy": "Web Herringbone Preprocessor StdIO",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone.Preprocessor.StdIO",
           "name": "makeStdIOPP",
           "normalized": "Text-\u003eString-\u003e[String]-\u003ePP",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eherringbone is a Haskell library for compiling and serving web assets.\nIt aims to make it dead simple to create a \u003ccode\u003e\u003ca\u003eMiddleware\u003c/a\u003e\u003c/code\u003e or\n\u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e which deals with all of your static assets, including\npreprocessing for languages like Fay, CoffeeScript, Sass, and LESS.\n\u003c/p\u003e\u003cp\u003eIt takes most of its inspiration from the Ruby library,\n\u003ca\u003eSprockets\u003c/a\u003e, hence the name.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e import Web.Herringbone\n\n fay, sass :: PP\n\n hb = Herringbone\n hb = herringbone\n     ( addSourceDir \"assets\"\n     . setDestDir   \"compiled_assets\"\n     . addPreprocessors [fay, sass]\n     )\n\n -- You can now access assets programmatically\n asset \u003c- findAsset hb (fromJust . makeLogicalPath $ [\"application.js\"])\n\n -- Or serve them with a Wai application\n app = toApplication hb\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "Herringbone",
           "package": "herringbone",
@@ -184,6 +199,7 @@
         "index": {
           "description": "herringbone is Haskell library for compiling and serving web assets It aims to make it dead simple to create Middleware or Application which deals with all of your static assets including preprocessing for languages like Fay CoffeeScript Sass and LESS It takes most of its inspiration from the Ruby library Sprockets hence the name Example import Web.Herringbone fay sass PP hb Herringbone hb herringbone addSourceDir assets setDestDir compiled assets addPreprocessors fay sass You can now access assets programmatically asset findAsset hb fromJust makeLogicalPath application.js Or serve them with Wai application app toApplication hb",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "Herringbone",
           "package": "herringbone",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA preprocessed asset. Any function that returns this will already have\n done the preprocessing (if necessary).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "Asset",
           "package": "herringbone",
@@ -207,6 +224,7 @@
         "index": {
           "description": "preprocessed asset Any function that returns this will already have done the preprocessing if necessary",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "Asset",
           "package": "herringbone",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "AssetError",
           "package": "herringbone",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "AssetError",
           "package": "herringbone",
@@ -242,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string which should contain information about why an asset failed to\n compile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "CompileError",
           "package": "herringbone",
@@ -251,6 +272,7 @@
         "index": {
           "description": "string which should contain information about why an asset failed to compile",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "CompileError",
           "package": "herringbone",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "ConfigBuilder",
           "package": "herringbone",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "ConfigBuilder",
           "package": "herringbone",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 'main' datatype in this library. Just a container for the\n configuration. All of the important functions will take a \u003ccode\u003e\u003ca\u003eHerringbone\u003c/a\u003e\u003c/code\u003e as\n their first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "Herringbone",
           "package": "herringbone",
@@ -295,6 +320,7 @@
         "index": {
           "description": "The main datatype in this library Just container for the configuration All of the important functions will take Herringbone as their first argument",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "Herringbone",
           "package": "herringbone",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll assets in Herringbone are referenced by their logical path. This is\n the path to an asset, relative to any of the source directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "LogicalPath",
           "package": "herringbone",
@@ -318,6 +345,7 @@
         "index": {
           "description": "All assets in Herringbone are referenced by their logical path This is the path to an asset relative to any of the source directories",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "LogicalPath",
           "package": "herringbone",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA preprocessor something which is run on the asset before it is served.\n Preprocessors are run when a file extension matches the preprocessor\n extension. For example, if you have a preprocessor for \"coffee\" files, you\n request \"application.js\", and there is a file named\n \"application.js.coffee\", Herringbone will run the coffee preprocessor on\n that file and serve you the result.\n\u003c/p\u003e\u003cp\u003eYou can add more preprocessors by adding more file extensions;\n \"application.js.coffee.erb\" will be preprocessed first by \"erb\", then by\n \"coffee\" (assuming you have registered preprocessors for those files).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "PP",
           "package": "herringbone",
@@ -341,6 +370,7 @@
         "index": {
           "description": "preprocessor something which is run on the asset before it is served Preprocessors are run when file extension matches the preprocessor extension For example if you have preprocessor for coffee files you request application.js and there is file named application.js.coffee Herringbone will run the coffee preprocessor on that file and serve you the result You can add more preprocessors by adding more file extensions application.js.coffee.erb will be preprocessed first by erb then by coffee assuming you have registered preprocessors for those files",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "PP",
           "package": "herringbone",
@@ -355,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad in which preprocessor actions happen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "PPM",
           "package": "herringbone",
@@ -364,6 +395,7 @@
         "index": {
           "description": "monad in which preprocessor actions happen",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "PPM",
           "package": "herringbone",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData which is given to preprocessors on the off-chance that they need it\n (eg, Fay)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "PPReader",
           "package": "herringbone",
@@ -387,6 +420,7 @@
         "index": {
           "description": "Data which is given to preprocessors on the off-chance that they need it eg Fay",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "PPReader",
           "package": "herringbone",
@@ -401,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of preprocessors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "PPs",
           "package": "herringbone",
@@ -410,6 +445,7 @@
         "index": {
           "description": "collection of preprocessors",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "PPs",
           "package": "herringbone",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "AmbiguousSources",
           "package": "herringbone",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "AmbiguousSources",
           "normalized": "AmbiguousSources[FilePath]",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "Asset",
           "package": "herringbone",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "Asset",
           "package": "herringbone",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "AssetCompileError",
           "package": "herringbone",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "AssetCompileError",
           "package": "herringbone",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "AssetNotFound",
           "package": "herringbone",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "AssetNotFound",
           "package": "herringbone",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "Herringbone",
           "package": "herringbone",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "Herringbone",
           "package": "herringbone",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "PP",
           "package": "herringbone",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "PP",
           "package": "herringbone",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "PPReader",
           "package": "herringbone",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "PPReader",
           "package": "herringbone",
@@ -580,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the preprocessors in the list to the preprocessor collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "addPreprocessors",
           "package": "herringbone",
@@ -590,6 +641,7 @@
         "index": {
           "description": "Add the preprocessors in the list to the preprocessor collection",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "addPreprocessors",
           "normalized": "[PP]-\u003eConfigBuilder",
@@ -606,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a directory to the list of source directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "addSourceDir",
           "package": "herringbone",
@@ -616,6 +669,7 @@
         "index": {
           "description": "Adds directory to the list of source directories",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "addSourceDir",
           "normalized": "FilePath-\u003eConfigBuilder",
@@ -632,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to the preprocessed asset on disk. Note that assets which do not\n require preprocessing will still be copied to the destination directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "assetFilePath",
           "package": "herringbone",
@@ -642,6 +697,7 @@
         "index": {
           "description": "Path to the preprocessed asset on disk Note that assets which do not require preprocessing will still be copied to the destination directory",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "assetFilePath",
           "package": "herringbone",
@@ -656,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical path referencing this asset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "assetLogicalPath",
           "package": "herringbone",
@@ -666,6 +723,7 @@
         "index": {
           "description": "The logical path referencing this asset",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "assetLogicalPath",
           "package": "herringbone",
@@ -680,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModification time of the asset's source file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "assetModifiedTime",
           "package": "herringbone",
@@ -690,6 +749,7 @@
         "index": {
           "description": "Modification time of the asset source file",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "assetModifiedTime",
           "package": "herringbone",
@@ -704,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the asset in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "assetSize",
           "package": "herringbone",
@@ -714,6 +775,7 @@
         "index": {
           "description": "Size of the asset in bytes",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "assetSize",
           "package": "herringbone",
@@ -728,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to the asset's source file on disk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "assetSourcePath",
           "package": "herringbone",
@@ -738,6 +801,7 @@
         "index": {
           "description": "Path to the asset source file on disk",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "assetSourcePath",
           "package": "herringbone",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "defaultHerringbone",
           "package": "herringbone",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "defaultHerringbone",
           "package": "herringbone",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "findAsset",
           "package": "herringbone",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "findAsset",
           "normalized": "Herringbone-\u003eLogicalPath-\u003eIO(Either AssetError Asset)",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "fromLogicalPath",
           "package": "herringbone",
@@ -806,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "fromLogicalPath",
           "normalized": "LogicalPath-\u003e[Text]",
@@ -822,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to copy assets to after they've been compiled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "hbDestDir",
           "package": "herringbone",
@@ -832,6 +903,7 @@
         "index": {
           "description": "Where to copy assets to after they ve been compiled",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "hbDestDir",
           "package": "herringbone",
@@ -846,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreprocessors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "hbPPs",
           "package": "herringbone",
@@ -856,6 +929,7 @@
         "index": {
           "description": "Preprocessors",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "hbPPs",
           "package": "herringbone",
@@ -870,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of source directories; this is where assets should be placed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "hbSourceDirs",
           "package": "herringbone",
@@ -880,6 +955,7 @@
         "index": {
           "description": "list of source directories this is where assets should be placed",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "hbSourceDirs",
           "normalized": "[FilePath]",
@@ -896,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreferred way of creating \u003ccode\u003e\u003ca\u003eHerringbone\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "herringbone",
           "package": "herringbone",
@@ -906,6 +983,7 @@
         "index": {
           "description": "Preferred way of creating Herringbone instances",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "herringbone",
           "normalized": "ConfigBuilder-\u003eHerringbone",
@@ -921,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a LogicalPath from a list of Text values. This returns Nothing if\n the path would be unsafe (that is, if it contains \"..\"), to prevent\n directory traversal attacks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "makeLogicalPath",
           "package": "herringbone",
@@ -931,6 +1010,7 @@
         "index": {
           "description": "Create LogicalPath from list of Text values This returns Nothing if the path would be unsafe that is if it contains to prevent directory traversal attacks",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "makeLogicalPath",
           "normalized": "[Text]-\u003eMaybe LogicalPath",
@@ -947,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the preprocessing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "ppAction",
           "package": "herringbone",
@@ -957,6 +1038,7 @@
         "index": {
           "description": "Perform the preprocessing",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "ppAction",
           "normalized": "ByteString-\u003ePPM(Either CompileError ByteString)",
@@ -973,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file extension this preprocessor acts upon, eg \"sass\" or\n \"hamlet\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "ppExtension",
           "package": "herringbone",
@@ -983,6 +1066,7 @@
         "index": {
           "description": "The file extension this preprocessor acts upon eg sass or hamlet",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "ppExtension",
           "package": "herringbone",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "ppReaderFileName",
           "package": "herringbone",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "ppReaderFileName",
           "normalized": "PPReader-\u003eFilePath",
@@ -1021,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Herringbone which was used to build the asset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "ppReaderHb",
           "package": "herringbone",
@@ -1031,6 +1118,7 @@
         "index": {
           "description": "The Herringbone which was used to build the asset",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "ppReaderHb",
           "package": "herringbone",
@@ -1045,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Logical path of the requested asset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "ppReaderLogicalPath",
           "package": "herringbone",
@@ -1055,6 +1144,7 @@
         "index": {
           "description": "The Logical path of the requested asset",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "ppReaderLogicalPath",
           "package": "herringbone",
@@ -1069,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreprocessors being invoked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "ppReaderPPs",
           "package": "herringbone",
@@ -1079,6 +1170,7 @@
         "index": {
           "description": "Preprocessors being invoked",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "ppReaderPPs",
           "normalized": "[PP]",
@@ -1095,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file path to the source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "ppReaderSourcePath",
           "package": "herringbone",
@@ -1105,6 +1198,7 @@
         "index": {
           "description": "The file path to the source file",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "ppReaderSourcePath",
           "package": "herringbone",
@@ -1119,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the destination directory. Note that this will overwrite the\n destination directory if one is already set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "setDestDir",
           "package": "herringbone",
@@ -1129,6 +1224,7 @@
         "index": {
           "description": "Sets the destination directory Note that this will overwrite the destination directory if one is already set",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "setDestDir",
           "normalized": "FilePath-\u003eConfigBuilder",
@@ -1145,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eHerringbone\u003c/a\u003e\u003c/code\u003e to a WAI \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "toApplication",
           "package": "herringbone",
@@ -1155,6 +1252,7 @@
         "index": {
           "description": "Convert Herringbone to WAI Application",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "toApplication",
           "normalized": "Herringbone-\u003eApplication",
@@ -1170,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "toFilePath",
           "package": "herringbone",
@@ -1179,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "toFilePath",
           "normalized": "LogicalPath-\u003eFilePath",
@@ -1195,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a LogicalPath without checking any of the values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:20 UTC 2014",
           "module": "Web.Herringbone",
           "name": "unsafeMakeLogicalPath",
           "package": "herringbone",
@@ -1205,6 +1306,7 @@
         "index": {
           "description": "Create LogicalPath without checking any of the values",
           "hierarchy": "Web Herringbone",
+          "indexed": "2014-03-11T18:37:20",
           "module": "Web.Herringbone",
           "name": "unsafeMakeLogicalPath",
           "normalized": "[Text]-\u003eLogicalPath",

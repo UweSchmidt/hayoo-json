@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shell-escape"
+        "phrase": "shell-escape",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTyped shell escaping for Bourne Shell and Bash.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "ShellEscape",
           "package": "shell-escape",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Typed shell escaping for Bourne Shell and Bash",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "ShellEscape",
           "package": "shell-escape",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bash escaped \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. The strings are wrapped in \u003ccode\u003e$'...'\u003c/code\u003e if any\n    bytes within them must be escaped; otherwise, they are left as is.\n    Newlines and other control characters are represented as ANSI escape\n    sequences. High bytes are represented as hex codes. Thus Bash escaped\n    strings will always fit on one line and never contain non-ASCII bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "Bash",
           "package": "shell-escape",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Bash escaped ByteString The strings are wrapped in if any bytes within them must be escaped otherwise they are left as is Newlines and other control characters are represented as ANSI escape sequences High bytes are represented as hex codes Thus Bash escaped strings will always fit on one line and never contain non-ASCII bytes",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "Bash",
           "package": "shell-escape",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for objects that represent an intermediate state of\n    escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "Escape",
           "package": "shell-escape",
@@ -74,6 +79,7 @@
         "index": {
           "description": "type class for objects that represent an intermediate state of escaping",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "Escape",
           "package": "shell-escape",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bourne Shell escaped \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. An oddity of Bourne shell escaping is\n    the absence of escape codes for newline and other ASCII control\n    characters. These bytes are simply placed literally in single quotes; the\n    effect is that a Bourne Shell escaped string may cover several lines and\n    contain non-ASCII bytes. Runs of bytes that must be escaped are wrapped in\n    \u003ccode\u003e'...'\u003c/code\u003e; bytes that are acceptable as literals in Bourne Shell are left\n    as is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "Sh",
           "package": "shell-escape",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Bourne Shell escaped ByteString An oddity of Bourne shell escaping is the absence of escape codes for newline and other ASCII control characters These bytes are simply placed literally in single quotes the effect is that Bourne Shell escaped string may cover several lines and contain non-ASCII bytes Runs of bytes that must be escaped are wrapped in bytes that are acceptable as literals in Bourne Shell are left as is",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "Sh",
           "package": "shell-escape",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a Bash escaped intermediate form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "bash",
           "package": "shell-escape",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Construct Bash escaped intermediate form",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "bash",
           "normalized": "ByteString-\u003eBash",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the escaped \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "bytes",
           "package": "shell-escape",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Yield the escaped ByteString",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "bytes",
           "normalized": "a-\u003eByteString",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into the escaped intermediate form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "escape",
           "package": "shell-escape",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Transform ByteString into the escaped intermediate form",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "escape",
           "normalized": "ByteString-\u003ea",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a Bourne Shell escaped intermediate form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "sh",
           "package": "shell-escape",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Construct Bourne Shell escaped intermediate form",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "sh",
           "normalized": "ByteString-\u003eSh",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecover the original \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:27 UTC 2014",
           "module": "Text.ShellEscape",
           "name": "unescape",
           "package": "shell-escape",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Recover the original ByteString",
           "hierarchy": "Text ShellEscape",
+          "indexed": "2014-03-11T20:01:27",
           "module": "Text.ShellEscape",
           "name": "unescape",
           "normalized": "a-\u003eByteString",

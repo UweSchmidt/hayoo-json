@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wordexp"
+        "phrase": "wordexp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple wordexp (and wordfree) Haskell wrapper\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp.Simple",
           "name": "Simple",
           "package": "wordexp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple wordexp and wordfree Haskell wrapper",
           "hierarchy": "System Wordexp Simple",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp.Simple",
           "name": "Simple",
           "package": "wordexp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible wordexp errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp.Simple",
           "name": "WordexpError",
           "package": "wordexp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Possible wordexp errors",
           "hierarchy": "System Wordexp Simple",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp.Simple",
           "name": "WordexpError",
           "package": "wordexp",
@@ -180,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple wordexp wrapper\n\u003c/p\u003e\u003cp\u003eReturn expanded strings or throw an exception if any error is encountered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp.Simple",
           "name": "wordexp",
           "package": "wordexp",
@@ -190,6 +195,7 @@
         "index": {
           "description": "Simple wordexp wrapper Return expanded strings or throw an exception if any error is encountered",
           "hierarchy": "System Wordexp Simple",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp.Simple",
           "name": "wordexp",
           "normalized": "String-\u003eIO[String]",
@@ -205,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ewordexp (and wordfree) Haskell wrapper\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp",
           "name": "Wordexp",
           "package": "wordexp",
@@ -214,6 +221,7 @@
         "index": {
           "description": "wordexp and wordfree Haskell wrapper",
           "hierarchy": "System Wordexp",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp",
           "name": "Wordexp",
           "package": "wordexp",
@@ -228,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewordexp flags\n\u003c/p\u003e\u003cp\u003eNot every flag is supported since some of them do not make much sense in Haskell anyway\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp",
           "name": "Flags",
           "package": "wordexp",
@@ -237,6 +246,7 @@
         "index": {
           "description": "wordexp flags Not every flag is supported since some of them do not make much sense in Haskell anyway",
           "hierarchy": "System Wordexp",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp",
           "name": "Flags",
           "package": "wordexp",
@@ -251,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible wordexp errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp",
           "name": "WordexpError",
           "package": "wordexp",
@@ -260,6 +271,7 @@
         "index": {
           "description": "Possible wordexp errors",
           "hierarchy": "System Wordexp",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp",
           "name": "WordexpError",
           "package": "wordexp",
@@ -274,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not hide shell error messages in \u003cem\u003edev\u003c/em\u003enull, print them right away\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp",
           "name": "errors",
           "package": "wordexp",
@@ -284,6 +297,7 @@
         "index": {
           "description": "Do not hide shell error messages in dev null print them right away",
           "hierarchy": "System Wordexp",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp",
           "name": "errors",
           "package": "wordexp",
@@ -297,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable command substitution in patterns, treat them as errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp",
           "name": "nosubst",
           "package": "wordexp",
@@ -307,6 +322,7 @@
         "index": {
           "description": "Disable command substitution in patterns treat them as errors",
           "hierarchy": "System Wordexp",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp",
           "name": "nosubst",
           "package": "wordexp",
@@ -320,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not accept undefined shell variables, treat them as errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp",
           "name": "noundef",
           "package": "wordexp",
@@ -330,6 +347,7 @@
         "index": {
           "description": "Do not accept undefined shell variables treat them as errors",
           "hierarchy": "System Wordexp",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp",
           "name": "noundef",
           "package": "wordexp",
@@ -343,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewordexp wrapper\n\u003c/p\u003e\u003cp\u003eAllows to specify desired flags, return expanded strings or encountered error if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:40 UTC 2014",
           "module": "System.Wordexp",
           "name": "wordexp",
           "package": "wordexp",
@@ -353,6 +372,7 @@
         "index": {
           "description": "wordexp wrapper Allows to specify desired flags return expanded strings or encountered error if any",
           "hierarchy": "System Wordexp",
+          "indexed": "2014-03-11T20:39:40",
           "module": "System.Wordexp",
           "name": "wordexp",
           "normalized": "Flags-\u003eString-\u003eIO(Either WordexpError[String])",

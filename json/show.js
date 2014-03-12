@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "show"
+        "phrase": "show",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:52 UTC 2014",
           "module": "ShowFun",
           "name": "ShowFun",
           "package": "show",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ShowFun",
+          "indexed": "2014-03-11T20:01:52",
           "module": "ShowFun",
           "name": "ShowFun",
           "package": "show",

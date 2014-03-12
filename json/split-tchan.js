@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "split-tchan"
+        "phrase": "split-tchan",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "Split",
           "package": "split-tchan",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "Split",
           "package": "split-tchan",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "ReceivePort",
           "package": "split-tchan",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "ReceivePort",
           "package": "split-tchan",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "SendPort",
           "package": "split-tchan",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "SendPort",
           "package": "split-tchan",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "duplicate",
           "package": "split-tchan",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "duplicate",
           "normalized": "ReceivePort a-\u003eSTM(ReceivePort a)",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "isEmpty",
           "package": "split-tchan",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "isEmpty",
           "normalized": "ReceivePort a-\u003eSTM Bool",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "listen",
           "package": "split-tchan",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "listen",
           "normalized": "SendPort a-\u003eSTM(ReceivePort a)",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "new",
           "package": "split-tchan",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "new",
           "normalized": "STM(SendPort a,ReceivePort a)",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "newSendPort",
           "package": "split-tchan",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "newSendPort",
           "package": "split-tchan",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "peek",
           "package": "split-tchan",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "peek",
           "normalized": "ReceivePort a-\u003eSTM a",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "receive",
           "package": "split-tchan",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "receive",
           "normalized": "ReceivePort a-\u003eSTM a",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "send",
           "package": "split-tchan",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "send",
           "normalized": "SendPort a-\u003ea-\u003eSTM()",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "split",
           "package": "split-tchan",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "split",
           "normalized": "SendPort a-\u003eSTM(ReceivePort a,SendPort a)",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "tryPeek",
           "package": "split-tchan",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "tryPeek",
           "normalized": "ReceivePort a-\u003eSTM(Maybe a)",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "tryReceive",
           "package": "split-tchan",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "tryReceive",
           "normalized": "ReceivePort a-\u003eSTM(Maybe a)",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:41 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "unget",
           "package": "split-tchan",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan Split",
+          "indexed": "2014-03-11T20:08:41",
           "module": "Control.Concurrent.STM.TChan.Split",
           "name": "unget",
           "normalized": "ReceivePort a-\u003ea-\u003eSTM()",

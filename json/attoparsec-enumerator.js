@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "attoparsec-enumerator"
+        "phrase": "attoparsec-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:38 UTC 2014",
           "module": "Data.Attoparsec.Enumerator",
           "name": "Enumerator",
           "package": "attoparsec-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Attoparsec Enumerator",
+          "indexed": "2014-03-11T17:14:38",
           "module": "Data.Attoparsec.Enumerator",
           "name": "Enumerator",
           "package": "attoparsec-enumerator",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of types which may be consumed by an Attoparsec parser.\n\u003c/p\u003e\u003cp\u003eSince: 0.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:38 UTC 2014",
           "module": "Data.Attoparsec.Enumerator",
           "name": "AttoparsecInput",
           "package": "attoparsec-enumerator",
@@ -49,6 +52,7 @@
         "index": {
           "description": "class of types which may be consumed by an Attoparsec parser Since",
           "hierarchy": "Data Attoparsec Enumerator",
+          "indexed": "2014-03-11T17:14:38",
           "module": "Data.Attoparsec.Enumerator",
           "name": "AttoparsecInput",
           "package": "attoparsec-enumerator",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe context and message from a \u003ccode\u003e\u003ca\u003eFail\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:38 UTC 2014",
           "module": "Data.Attoparsec.Enumerator",
           "name": "ParseError",
           "package": "attoparsec-enumerator",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The context and message from Fail value",
           "hierarchy": "Data Attoparsec Enumerator",
+          "indexed": "2014-03-11T17:14:38",
           "module": "Data.Attoparsec.Enumerator",
           "name": "ParseError",
           "package": "attoparsec-enumerator",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:38 UTC 2014",
           "module": "Data.Attoparsec.Enumerator",
           "name": "ParseError",
           "package": "attoparsec-enumerator",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Attoparsec Enumerator",
+          "indexed": "2014-03-11T17:14:38",
           "module": "Data.Attoparsec.Enumerator",
           "name": "ParseError",
           "package": "attoparsec-enumerator",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:38 UTC 2014",
           "module": "Data.Attoparsec.Enumerator",
           "name": "errorContexts",
           "package": "attoparsec-enumerator",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Attoparsec Enumerator",
+          "indexed": "2014-03-11T17:14:38",
           "module": "Data.Attoparsec.Enumerator",
           "name": "errorContexts",
           "normalized": "[String]",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:38 UTC 2014",
           "module": "Data.Attoparsec.Enumerator",
           "name": "errorMessage",
           "package": "attoparsec-enumerator",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Attoparsec Enumerator",
+          "indexed": "2014-03-11T17:14:38",
           "module": "Data.Attoparsec.Enumerator",
           "name": "errorMessage",
           "package": "attoparsec-enumerator",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an Attoparsec \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e into an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e. The parser will\n be streamed bytes until it returns \u003ccode\u003e\u003ca\u003eDone\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf parsing fails, a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e will be thrown with \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e. Use\n \u003ccode\u003e\u003ca\u003ecatchError\u003c/a\u003e\u003c/code\u003e to catch it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:38 UTC 2014",
           "module": "Data.Attoparsec.Enumerator",
           "name": "iterParser",
           "package": "attoparsec-enumerator",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Convert an Attoparsec Parser into an Iteratee The parser will be streamed bytes until it returns Done or Fail If parsing fails ParseError will be thrown with throwError Use catchError to catch it",
           "hierarchy": "Data Attoparsec Enumerator",
+          "indexed": "2014-03-11T17:14:38",
           "module": "Data.Attoparsec.Enumerator",
           "name": "iterParser",
           "normalized": "Parser a b-\u003eIteratee a c b",

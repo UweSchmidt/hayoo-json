@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "queue"
+        "phrase": "queue",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "Classes",
           "package": "queue",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "Classes",
           "package": "queue",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class carrying an altered set of functional dependencies used to\n  constrain queues when the type of the queue never escapes far enough for\n  a more deliberate choice to be made.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "DefaultFifo",
           "package": "queue",
@@ -49,6 +52,7 @@
         "index": {
           "description": "type class carrying an altered set of functional dependencies used to constrain queues when the type of the queue never escapes far enough for more deliberate choice to be made",
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "DefaultFifo",
           "package": "queue",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "Dequeue",
           "package": "queue",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "Dequeue",
           "package": "queue",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "DequeueWhere",
           "package": "queue",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "DequeueWhere",
           "package": "queue",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "Enqueue",
           "package": "queue",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "Enqueue",
           "package": "queue",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new FIFO queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "NewFifo",
           "package": "queue",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Construct new FIFO queue",
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "NewFifo",
           "package": "queue",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "PeekQueue",
           "package": "queue",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "PeekQueue",
           "package": "queue",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "QueueSize",
           "package": "queue",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "QueueSize",
           "package": "queue",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull an item out of a queue.  Should not block.  No ordering\n  constraints are implied other than that any item that went into\n  the queue \u003ca\u003ereally ought to\u003c/a\u003e come out before \u003ccode\u003e\u003ca\u003edequeue\u003c/a\u003e\u003c/code\u003e returns\n  \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "dequeue",
           "package": "queue",
@@ -201,6 +218,7 @@
         "index": {
           "description": "Pull an item out of queue Should not block No ordering constraints are implied other than that any item that went into the queue really ought to come out before dequeue returns Nothing",
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "dequeue",
           "normalized": "a-\u003eb(Maybe c)",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "dequeueBatch",
           "package": "queue",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "dequeueBatch",
           "normalized": "a-\u003eb[c]",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull an item matching the given predicate out of a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "dequeueWhere",
           "package": "queue",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Pull an item matching the given predicate out of queue",
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "dequeueWhere",
           "normalized": "a-\u003e(b-\u003eBool)-\u003ec(Maybe b)",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut an item into a queue.  May block while trying to do so.\n  No constraint is placed on the behavior of the queue except that\n  every item put in \u003ca\u003ereally ought to\u003c/a\u003e come out sometime before\n  \u003ccode\u003e\u003ca\u003edequeue\u003c/a\u003e\u003c/code\u003e returns a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "enqueue",
           "package": "queue",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Put an item into queue May block while trying to do so No constraint is placed on the behavior of the queue except that every item put in really ought to come out sometime before dequeue returns Nothing",
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "enqueue",
           "normalized": "a-\u003eb-\u003ec()",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "enqueueBatch",
           "package": "queue",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "enqueueBatch",
           "normalized": "a-\u003e[b]-\u003ec()",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "newFifo",
           "package": "queue",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "newFifo",
           "package": "queue",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the whole contents of the queue (if possible) without \n  altering the queue's contents.  Obviously in cases where this\n  can't be done lazily this can be a very expensive operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "peekQueue",
           "package": "queue",
@@ -347,6 +376,7 @@
         "index": {
           "description": "return the whole contents of the queue if possible without altering the queue contents Obviously in cases where this can be done lazily this can be very expensive operation",
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "peekQueue",
           "normalized": "a-\u003eb[c]",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epeek a specified number of items off the queue.  The default\n  implementation is hideously wasteful in cases where peekQueue is\n  not able to get the contents lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "peekQueueTaking",
           "package": "queue",
@@ -373,6 +404,7 @@
         "index": {
           "description": "peek specified number of items off the queue The default implementation is hideously wasteful in cases where peekQueue is not able to get the contents lazily",
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "peekQueueTaking",
           "normalized": "Int-\u003ea-\u003eb[c]",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the number of elements in the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Classes",
           "name": "queueSize",
           "package": "queue",
@@ -399,6 +432,7 @@
         "index": {
           "description": "return the number of elements in the queue",
           "hierarchy": "Data Queue Classes",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Classes",
           "name": "queueSize",
           "normalized": "a-\u003eb Int",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Instances",
           "name": "Instances",
           "package": "queue",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Instances",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Instances",
           "name": "Instances",
           "package": "queue",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e is an abstract type representing an unbounded FIFO channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Instances",
           "name": "Chan",
           "package": "queue",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Chan is an abstract type representing an unbounded FIFO channel",
           "hierarchy": "Data Queue Instances",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Instances",
           "name": "Chan",
           "package": "queue",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e (pronounced \"em-var\") is a synchronising variable, used\nfor communication between concurrent threads.  It can be thought of\nas a a box, which may be empty or full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Instances",
           "name": "MVar",
           "package": "queue",
@@ -466,6 +505,7 @@
         "index": {
           "description": "An MVar pronounced em-var is synchronising variable used for communication between concurrent threads It can be thought of as box which may be empty or full",
           "hierarchy": "Data Queue Instances",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Instances",
           "name": "MVar",
           "package": "queue",
@@ -480,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad supporting atomic memory transactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Instances",
           "name": "STM",
           "package": "queue",
@@ -488,6 +529,7 @@
         "index": {
           "description": "monad supporting atomic memory transactions",
           "hierarchy": "Data Queue Instances",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Instances",
           "name": "STM",
           "package": "queue",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTChan\u003c/a\u003e\u003c/code\u003e is an abstract type representing an unbounded FIFO channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Instances",
           "name": "TChan",
           "package": "queue",
@@ -510,6 +553,7 @@
         "index": {
           "description": "TChan is an abstract type representing an unbounded FIFO channel",
           "hierarchy": "Data Queue Instances",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Instances",
           "name": "TChan",
           "package": "queue",
@@ -524,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTMVar\u003c/a\u003e\u003c/code\u003e is a synchronising variable, used\nfor communication between concurrent threads.  It can be thought of\nas a box, which may be empty or full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Instances",
           "name": "TMVar",
           "package": "queue",
@@ -532,6 +577,7 @@
         "index": {
           "description": "TMVar is synchronising variable used for communication between concurrent threads It can be thought of as box which may be empty or full",
           "hierarchy": "Data Queue Instances",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Instances",
           "name": "TMVar",
           "package": "queue",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a series of STM actions atomically.\n\u003c/p\u003e\u003cp\u003eYou cannot use \u003ccode\u003e\u003ca\u003eatomically\u003c/a\u003e\u003c/code\u003e inside an \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eunsafeInterleaveIO\u003c/a\u003e\u003c/code\u003e.\n Any attempt to do so will result in a runtime error.  (Reason: allowing\n this would effectively allow a transaction inside a transaction, depending\n on exactly when the thunk is evaluated.)\n\u003c/p\u003e\u003cp\u003eHowever, see \u003ccode\u003e\u003ca\u003enewTVarIO\u003c/a\u003e\u003c/code\u003e, which can be called inside \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e,\n and which allows top-level TVars to be allocated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue.Instances",
           "name": "atomically",
           "package": "queue",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Perform series of STM actions atomically You cannot use atomically inside an unsafePerformIO or unsafeInterleaveIO Any attempt to do so will result in runtime error Reason allowing this would effectively allow transaction inside transaction depending on exactly when the thunk is evaluated However see newTVarIO which can be called inside unsafePerformIO and which allows top-level TVars to be allocated",
           "hierarchy": "Data Queue Instances",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue.Instances",
           "name": "atomically",
           "normalized": "STM a-\u003eIO a",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "Queue",
           "package": "queue",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "Queue",
           "package": "queue",
@@ -591,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class carrying an altered set of functional dependencies used to\n  constrain queues when the type of the queue never escapes far enough for\n  a more deliberate choice to be made.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "DefaultFifo",
           "package": "queue",
@@ -600,6 +651,7 @@
         "index": {
           "description": "type class carrying an altered set of functional dependencies used to constrain queues when the type of the queue never escapes far enough for more deliberate choice to be made",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "DefaultFifo",
           "package": "queue",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "Dequeue",
           "package": "queue",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "Dequeue",
           "package": "queue",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "DequeueWhere",
           "package": "queue",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "DequeueWhere",
           "package": "queue",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "Enqueue",
           "package": "queue",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "Enqueue",
           "package": "queue",
@@ -677,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new FIFO queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "NewFifo",
           "package": "queue",
@@ -686,6 +745,7 @@
         "index": {
           "description": "Construct new FIFO queue",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "NewFifo",
           "package": "queue",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "PeekQueue",
           "package": "queue",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "PeekQueue",
           "package": "queue",
@@ -720,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "QueueSize",
           "package": "queue",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "QueueSize",
           "package": "queue",
@@ -742,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRQueue\u003c/a\u003e\u003c/code\u003e : read-only newtype wrapper for arbitrary queues\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "RQueue",
           "package": "queue",
@@ -751,6 +816,7 @@
         "index": {
           "description": "RQueue read-only newtype wrapper for arbitrary queues",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "RQueue",
           "package": "queue",
@@ -765,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWQueue\u003c/a\u003e\u003c/code\u003e : write-only newtype wrapper for arbitrary queues\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "WQueue",
           "package": "queue",
@@ -774,6 +841,7 @@
         "index": {
           "description": "WQueue write-only newtype wrapper for arbitrary queues",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "WQueue",
           "package": "queue",
@@ -788,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull an item out of a queue.  Should not block.  No ordering\n  constraints are implied other than that any item that went into\n  the queue \u003ca\u003ereally ought to\u003c/a\u003e come out before \u003ccode\u003e\u003ca\u003edequeue\u003c/a\u003e\u003c/code\u003e returns\n  \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "dequeue",
           "package": "queue",
@@ -798,6 +867,7 @@
         "index": {
           "description": "Pull an item out of queue Should not block No ordering constraints are implied other than that any item that went into the queue really ought to come out before dequeue returns Nothing",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "dequeue",
           "normalized": "a-\u003eb(Maybe c)",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "dequeueBatch",
           "package": "queue",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "dequeueBatch",
           "normalized": "a-\u003eb[c]",
@@ -837,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull an item matching the given predicate out of a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "dequeueWhere",
           "package": "queue",
@@ -847,6 +920,7 @@
         "index": {
           "description": "Pull an item matching the given predicate out of queue",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "dequeueWhere",
           "normalized": "a-\u003e(b-\u003eBool)-\u003ec(Maybe b)",
@@ -863,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut an item into a queue.  May block while trying to do so.\n  No constraint is placed on the behavior of the queue except that\n  every item put in \u003ca\u003ereally ought to\u003c/a\u003e come out sometime before\n  \u003ccode\u003e\u003ca\u003edequeue\u003c/a\u003e\u003c/code\u003e returns a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "enqueue",
           "package": "queue",
@@ -873,6 +948,7 @@
         "index": {
           "description": "Put an item into queue May block while trying to do so No constraint is placed on the behavior of the queue except that every item put in really ought to come out sometime before dequeue returns Nothing",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "enqueue",
           "normalized": "a-\u003eb-\u003ec()",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "enqueueBatch",
           "package": "queue",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "enqueueBatch",
           "normalized": "a-\u003e[b]-\u003ec()",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "mkRQueue",
           "package": "queue",
@@ -920,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "mkRQueue",
           "normalized": "a-\u003eRQueue a",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "mkWQueue",
           "package": "queue",
@@ -944,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "mkWQueue",
           "normalized": "a-\u003eWQueue a",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "newFifo",
           "package": "queue",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "newFifo",
           "package": "queue",
@@ -982,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the whole contents of the queue (if possible) without \n  altering the queue's contents.  Obviously in cases where this\n  can't be done lazily this can be a very expensive operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "peekQueue",
           "package": "queue",
@@ -992,6 +1077,7 @@
         "index": {
           "description": "return the whole contents of the queue if possible without altering the queue contents Obviously in cases where this can be done lazily this can be very expensive operation",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "peekQueue",
           "normalized": "a-\u003eb[c]",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epeek a specified number of items off the queue.  The default\n  implementation is hideously wasteful in cases where peekQueue is\n  not able to get the contents lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "peekQueueTaking",
           "package": "queue",
@@ -1018,6 +1105,7 @@
         "index": {
           "description": "peek specified number of items off the queue The default implementation is hideously wasteful in cases where peekQueue is not able to get the contents lazily",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "peekQueueTaking",
           "normalized": "Int-\u003ea-\u003eb[c]",
@@ -1034,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the number of elements in the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:09 UTC 2014",
           "module": "Data.Queue",
           "name": "queueSize",
           "package": "queue",
@@ -1044,6 +1133,7 @@
         "index": {
           "description": "return the number of elements in the queue",
           "hierarchy": "Data Queue",
+          "indexed": "2014-03-11T19:47:09",
           "module": "Data.Queue",
           "name": "queueSize",
           "normalized": "a-\u003eb Int",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "plot-gtk"
+        "phrase": "plot-gtk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnables the display of \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003es interactively through GHCi\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "Gtk",
           "package": "plot-gtk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Enables the display of Figure interactively through GHCi",
           "hierarchy": "Graphics Rendering Plot Gtk",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "Gtk",
           "package": "plot-gtk",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "PlotHandle",
           "package": "plot-gtk",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Gtk",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "PlotHandle",
           "package": "plot-gtk",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose a plot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "destroy",
           "package": "plot-gtk",
@@ -73,6 +78,7 @@
         "index": {
           "description": "close plot",
           "hierarchy": "Graphics Rendering Plot Gtk",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "destroy",
           "normalized": "PlotHandle-\u003eIO()",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new figure and display the plot\n     click on the window to save\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "display",
           "package": "plot-gtk",
@@ -98,6 +105,7 @@
         "index": {
           "description": "create new figure and display the plot click on the window to save",
           "hierarchy": "Graphics Rendering Plot Gtk",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "display",
           "normalized": "Figure()-\u003eIO PlotHandle",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform some actions on the supplied \u003ccode\u003e\u003ca\u003ePlotHandle\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "withPlotHandle",
           "package": "plot-gtk",
@@ -123,6 +132,7 @@
         "index": {
           "description": "perform some actions on the supplied PlotHandle",
           "hierarchy": "Graphics Rendering Plot Gtk",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "withPlotHandle",
           "normalized": "PlotHandle-\u003eFigure()-\u003eIO()",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite the \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e to disk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "writePlotHandle",
           "package": "plot-gtk",
@@ -149,6 +160,7 @@
         "index": {
           "description": "write the Figure to disk",
           "hierarchy": "Graphics Rendering Plot Gtk",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.Gtk",
           "name": "writePlotHandle",
           "normalized": "PlotHandle-\u003eOutputType-\u003eFilePath-\u003e(Int,Int)-\u003eIO()",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompatability module to replace \u003ca\u003eGraphics.Plot\u003c/a\u003e of the \u003ccode\u003ehmatrix\u003c/code\u003e module\n\u003c/p\u003e\u003cp\u003eProvides all functions from hmatrix's \u003ca\u003eGraphics.Plot\u003c/a\u003e as well as \n those functions appended with \u003ccode\u003eH\u003c/code\u003e which return a \u003ccode\u003e\u003ca\u003ePlotHandle\u003c/a\u003e\u003c/code\u003e for\n interactive update.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "HMatrix",
           "package": "plot-gtk",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Compatability module to replace Graphics.Plot of the hmatrix module Provides all functions from hmatrix Graphics.Plot as well as those functions appended with which return PlotHandle for interactive update",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "HMatrix",
           "package": "plot-gtk",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egreyscaleH shows a representation of a matrix as a gray level image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "greyscaleH",
           "package": "plot-gtk",
@@ -198,6 +213,7 @@
         "index": {
           "description": "greyscaleH shows representation of matrix as gray level image",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "greyscaleH",
           "normalized": "Matrix Double-\u003eIO PlotHandle",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimshow shows a representation of a matrix as a gray level image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "imshow",
           "package": "plot-gtk",
@@ -223,6 +240,7 @@
         "index": {
           "description": "imshow shows representation of matrix as gray level image",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "imshow",
           "normalized": "Matrix Double-\u003eIO()",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrites a matrix to pgm image file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "matrixToPGM",
           "package": "plot-gtk",
@@ -248,6 +267,7 @@
         "index": {
           "description": "writes matrix to pgm image file",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "matrixToPGM",
           "normalized": "Matrix Double-\u003eString",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a 3D surface representation of a real matrix.\n\u003c/p\u003e\u003cpre\u003e \u003e mesh (hilb 20)\n\u003c/pre\u003e\u003cp\u003eIn certain versions you can interactively rotate the graphic using the mouse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "mesh",
           "package": "plot-gtk",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Draws surface representation of real matrix mesh hilb In certain versions you can interactively rotate the graphic using the mouse",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "mesh",
           "normalized": "Matrix Double-\u003eIO()",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom vectors x and y, it generates a pair of matrices to be used as x and y arguments for matrix functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "meshdom",
           "package": "plot-gtk",
@@ -299,6 +322,7 @@
         "index": {
           "description": "From vectors and it generates pair of matrices to be used as and arguments for matrix functions",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "meshdom",
           "normalized": "Vector Double-\u003eVector Double-\u003e(Matrix Double,Matrix Double)",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplot several vectors against the first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "mplot",
           "package": "plot-gtk",
@@ -324,6 +349,7 @@
         "index": {
           "description": "plot several vectors against the first",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "mplot",
           "normalized": "[Vector Double]-\u003eIO()",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplot several vectors against the first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "mplotH",
           "package": "plot-gtk",
@@ -349,6 +376,7 @@
         "index": {
           "description": "plot several vectors against the first",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "mplotH",
           "normalized": "[Vector Double]-\u003eIO PlotHandle",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a parametric curve. For instance, to draw a spiral we can do something like:\n\u003c/p\u003e\u003cpre\u003e \u003e parametricPlot (\\t-\u003e(t * sin t, t * cos t)) (0,10*pi) 1000\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "parametricPlot",
           "package": "plot-gtk",
@@ -374,6 +403,7 @@
         "index": {
           "description": "Draws parametric curve For instance to draw spiral we can do something like parametricPlot sin cos pi",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "parametricPlot",
           "normalized": "(Vector Double-\u003e(Vector Double,Vector Double))-\u003e(Double,Double)-\u003eInt-\u003eIO()",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a parametric curve. For instance, to draw a spiral we can do something like:\n\u003c/p\u003e\u003cpre\u003e \u003e parametricPlot (\\t-\u003e(t * sin t, t * cos t)) (0,10*pi) 1000\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "parametricPlotH",
           "package": "plot-gtk",
@@ -400,6 +431,7 @@
         "index": {
           "description": "Draws parametric curve For instance to draw spiral we can do something like parametricPlot sin cos pi",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "parametricPlotH",
           "normalized": "(Vector Double-\u003e(Vector Double,Vector Double))-\u003e(Double,Double)-\u003eInt-\u003eIO PlotHandle",
@@ -416,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a list of functions over a desired range and with a desired number of points \n\u003c/p\u003e\u003cpre\u003e \u003e plot [sin, cos, sin.(3*)] (0,2*pi) 1000\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "plot",
           "package": "plot-gtk",
@@ -426,6 +459,7 @@
         "index": {
           "description": "Draws list of functions over desired range and with desired number of points plot sin cos sin pi",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "plot",
           "normalized": "[Vector Double-\u003eVector Double]-\u003e(Double,Double)-\u003eInt-\u003eIO()",
@@ -441,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a list of functions over a desired range and with a desired number of points \n\u003c/p\u003e\u003cpre\u003e \u003e plot [sin, cos, sin.(3*)] (0,2*pi) 1000\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "plotH",
           "package": "plot-gtk",
@@ -451,6 +486,7 @@
         "index": {
           "description": "Draws list of functions over desired range and with desired number of points plot sin cos sin pi",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "plotH",
           "normalized": "[Vector Double-\u003eVector Double]-\u003e(Double,Double)-\u003eInt-\u003eIO PlotHandle",
@@ -466,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws the surface represented by the function f in the desired ranges and number of points, internally using \u003ccode\u003e\u003ca\u003emesh\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e \u003e let f x y = cos (x + y) \n \u003e splot f (0,pi) (0,2*pi) 50    \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "splot",
           "package": "plot-gtk",
@@ -476,6 +513,7 @@
         "index": {
           "description": "Draws the surface represented by the function in the desired ranges and number of points internally using mesh let cos splot pi pi",
           "hierarchy": "Graphics Rendering Plot HMatrix",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.Rendering.Plot.HMatrix",
           "name": "splot",
           "normalized": "(Matrix Double-\u003eMatrix Double-\u003eMatrix Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003eInt-\u003eIO()",
@@ -491,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDrawingArea\u003c/a\u003e\u003c/code\u003e widget that displays \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.UI.Gtk.Plot",
           "name": "Plot",
           "package": "plot-gtk",
@@ -500,6 +539,7 @@
         "index": {
           "description": "DrawingArea widget that displays Figure",
           "hierarchy": "Graphics UI Gtk Plot",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.UI.Gtk.Plot",
           "name": "Plot",
           "package": "plot-gtk",
@@ -513,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.UI.Gtk.Plot",
           "name": "FigureHandle",
           "package": "plot-gtk",
@@ -521,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Plot",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.UI.Gtk.Plot",
           "name": "FigureHandle",
           "package": "plot-gtk",
@@ -535,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe figure attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.UI.Gtk.Plot",
           "name": "figure",
           "package": "plot-gtk",
@@ -545,6 +588,7 @@
         "index": {
           "description": "the figure attribute",
           "hierarchy": "Graphics UI Gtk Plot",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.UI.Gtk.Plot",
           "name": "figure",
           "package": "plot-gtk",
@@ -558,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e plot\n     click on the window to save\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:13 UTC 2014",
           "module": "Graphics.UI.Gtk.Plot",
           "name": "plotNew",
           "package": "plot-gtk",
@@ -568,6 +613,7 @@
         "index": {
           "description": "create new Figure plot click on the window to save",
           "hierarchy": "Graphics UI Gtk Plot",
+          "indexed": "2014-03-11T19:40:13",
           "module": "Graphics.UI.Gtk.Plot",
           "name": "plotNew",
           "normalized": "FigureHandle-\u003eIO DrawingArea",

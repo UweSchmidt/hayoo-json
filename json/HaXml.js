@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaXml"
+        "phrase": "HaXml",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a fast non-pretty-printer for turning the internal representation\n   of generic structured XML documents into Lazy ByteStrings.\n   Like in Text.Xml.HaXml.Pretty, there is one pp function for each type in\n   Text.Xml.HaXml.Types, so you can pretty-print as much or as little\n   of the document as you wish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "ByteStringPP",
           "package": "HaXml",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is fast non-pretty-printer for turning the internal representation of generic structured XML documents into Lazy ByteStrings Like in Text.Xml.HaXml.Pretty there is one pp function for each type in Text.Xml.HaXml.Types so you can pretty-print as much or as little of the document as you wish",
           "hierarchy": "Text XML HaXml ByteStringPP",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "ByteStringPP",
           "package": "HaXml",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "content",
           "package": "HaXml",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ByteStringPP",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "content",
           "normalized": "Content a-\u003eByteString",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "cp",
           "package": "HaXml",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ByteStringPP",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "cp",
           "normalized": "CP-\u003eByteString",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "doctypedecl",
           "package": "HaXml",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ByteStringPP",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "doctypedecl",
           "normalized": "DocTypeDecl-\u003eByteString",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "document",
           "package": "HaXml",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ByteStringPP",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "document",
           "normalized": "Document a-\u003eByteString",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "element",
           "package": "HaXml",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ByteStringPP",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "element",
           "normalized": "Element a-\u003eByteString",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "prolog",
           "package": "HaXml",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ByteStringPP",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ByteStringPP",
           "name": "prolog",
           "normalized": "Prolog-\u003eByteString",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the notion of filters and filter combinators\n   for processing XML documents.\n\u003c/p\u003e\u003cp\u003eThese XML transformation combinators are described in the paper\n   ``Haskell and XML: Generic Combinators or Type-Based Translation?''\n   Malcolm Wallace and Colin Runciman, Proceedings ICFP'99.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "Combinators",
           "package": "HaXml",
@@ -189,6 +204,7 @@
         "index": {
           "description": "This module defines the notion of filters and filter combinators for processing XML documents These XML transformation combinators are described in the paper Haskell and XML Generic Combinators or Type-Based Translation Malcolm Wallace and Colin Runciman Proceedings ICFP",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "Combinators",
           "package": "HaXml",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll document transformations are \u003cem\u003econtent filters\u003c/em\u003e.\n   A filter takes a single XML \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e value and returns a sequence\n   of \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e values, possibly empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "CFilter",
           "package": "HaXml",
@@ -212,6 +229,7 @@
         "index": {
           "description": "All document transformations are content filters filter takes single XML Content value and returns sequence of Content values possibly empty",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "CFilter",
           "package": "HaXml",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA LabelFilter is like a CFilter except that it pairs up a polymorphic\n   value (label) with each of its results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "LabelFilter",
           "package": "HaXml",
@@ -235,6 +254,7 @@
         "index": {
           "description": "LabelFilter is like CFilter except that it pairs up polymorphic value label with each of its results",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "LabelFilter",
           "package": "HaXml",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjoin the two branches of a conditional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "ThenElse",
           "package": "HaXml",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Conjoin the two branches of conditional",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "ThenElse",
           "package": "HaXml",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectional choice:\n   in \u003ccode\u003ef |\u003e| g\u003c/code\u003e give g-productions only if no f-productions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "(|\u003e|)",
           "package": "HaXml",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Directional choice in give g-productions only if no f-productions",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "(|\u003e|) |\u003e|",
           "normalized": "(a-\u003e[b])-\u003e(a-\u003e[b])-\u003ea-\u003e[b]",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePronounced \u003cem\u003eslash\u003c/em\u003e, \u003ccode\u003ef /\u003e g\u003c/code\u003e means g inside f\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "(/\u003e)",
           "package": "HaXml",
@@ -307,6 +332,7 @@
         "index": {
           "description": "Pronounced slash means inside",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "(/\u003e) /\u003e",
           "normalized": "CFilter a-\u003eCFilter a-\u003eCFilter a",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePronounced \u003cem\u003eoutside\u003c/em\u003e, \u003ccode\u003ef \u003c/ g\u003c/code\u003e means f containing g\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "(\u003c/)",
           "package": "HaXml",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Pronounced outside means containing",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "(\u003c/) \u003c/",
           "normalized": "CFilter a-\u003eCFilter a-\u003eCFilter a",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect between the two branches of a joined conditional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "(?\u003e)",
           "package": "HaXml",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Select between the two branches of joined conditional",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "(?\u003e) ?\u003e",
           "normalized": "(a-\u003e[b])-\u003eThenElse(a-\u003e[b])-\u003ea-\u003e[b]",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": ":\u003e",
           "package": "HaXml",
@@ -380,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": ":\u003e",
           "package": "HaXml",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special form of filter composition where the second filter\n   works over the same data as the first, but also uses the\n   first's result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "andThen",
           "package": "HaXml",
@@ -403,6 +436,7 @@
         "index": {
           "description": "special form of filter composition where the second filter works over the same data as the first but also uses the first result",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "andThen",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ec)-\u003ea-\u003ec",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "attr",
           "package": "HaXml",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "attr",
           "normalized": "String-\u003eCFilter a",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel each element in the result with the value of the named attribute.\n   Elements without the attribute, and non-element results, get an\n   empty string label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "attributed",
           "package": "HaXml",
@@ -452,6 +489,7 @@
         "index": {
           "description": "Label each element in the result with the value of the named attribute Elements without the attribute and non-element results get an empty string label",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "attributed",
           "normalized": "String-\u003eCFilter a-\u003eLabelFilter a String",
@@ -466,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "attrval",
           "package": "HaXml",
@@ -475,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "attrval",
           "normalized": "Attribute-\u003eCFilter a",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlue a list of filters together.  (A list version of union;\n   also has a more general type than just CFilter.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "cat",
           "package": "HaXml",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Glue list of filters together list version of union also has more general type than just CFilter",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "cat",
           "normalized": "[a-\u003e[b]]-\u003ea-\u003e[b]",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild some CDATA content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "cdata",
           "package": "HaXml",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Build some CDATA content",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "cdata",
           "normalized": "String-\u003eCFilter a",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow away current node, keep just the (unprocessed) children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "children",
           "package": "HaXml",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Throw away current node keep just the unprocessed children",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "children",
           "package": "HaXml",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess children using specified filters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "childrenBy",
           "package": "HaXml",
@@ -573,6 +620,7 @@
         "index": {
           "description": "Process children using specified filters",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "childrenBy",
           "normalized": "CFilter a-\u003eCFilter a",
@@ -589,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess CHildren In Place.  The filter is applied to any children\n   of an element content, and the element rebuilt around the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "chip",
           "package": "HaXml",
@@ -599,6 +648,7 @@
         "index": {
           "description": "Process CHildren In Place The filter is applied to any children of an element content and the element rebuilt around the results",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "chip",
           "normalized": "CFilter a-\u003eCFilter a",
@@ -613,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "deep",
           "package": "HaXml",
@@ -622,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "deep",
           "normalized": "CFilter a-\u003eCFilter a",
@@ -636,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "deepest",
           "package": "HaXml",
@@ -645,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "deepest",
           "normalized": "CFilter a-\u003eCFilter a",
@@ -659,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "elm",
           "package": "HaXml",
@@ -668,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "elm",
           "package": "HaXml",
@@ -681,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin an element-matching filter with a text-only filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "et",
           "package": "HaXml",
@@ -691,6 +748,7 @@
         "index": {
           "description": "Join an element-matching filter with text-only filter",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "et",
           "normalized": "(String-\u003eCFilter a)-\u003eCFilter a-\u003eCFilter a",
@@ -706,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel each content with some information extracted from itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "extracted",
           "package": "HaXml",
@@ -716,6 +775,7 @@
         "index": {
           "description": "Label each content with some information extracted from itself",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "extracted",
           "normalized": "(Content a-\u003eb)-\u003eCFilter a-\u003eLabelFilter a b",
@@ -731,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a mandatory attribute field, \u003ccode\u003efind key cont\u003c/code\u003e looks up the value of\n   the attribute name \u003ccode\u003ekey\u003c/code\u003e, and applies the continuation \u003ccode\u003econt\u003c/code\u003e to\n   the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "find",
           "package": "HaXml",
@@ -741,6 +802,7 @@
         "index": {
           "description": "For mandatory attribute field find key cont looks up the value of the attribute name key and applies the continuation cont to the value",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "find",
           "normalized": "String-\u003e(String-\u003eCFilter a)-\u003eCFilter a",
@@ -756,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive application of filters: a fold-like operator.  Defined\n   as \u003ccode\u003ef \u003ccode\u003e\u003ca\u003eo\u003c/a\u003e\u003c/code\u003e chip (foldXml f)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "foldXml",
           "package": "HaXml",
@@ -766,6 +829,7 @@
         "index": {
           "description": "Recursive application of filters fold-like operator Defined as chip foldXml",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "foldXml",
           "normalized": "CFilter a-\u003eCFilter a",
@@ -782,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterior editing:\n   \u003ccode\u003eg \u003ccode\u003e\u003ca\u003eguards\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003ccode\u003ef\u003c/code\u003e only when the predicate \u003ccode\u003eg\u003c/code\u003e succeeds,\n   otherwise the content is discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "guards",
           "package": "HaXml",
@@ -792,6 +857,7 @@
         "index": {
           "description": "Interior editing guards applies only when the predicate succeeds otherwise the content is discarded",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "guards",
           "normalized": "CFilter a-\u003eCFilter a-\u003eCFilter a",
@@ -807,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eifTxt yes no\u003c/code\u003e processes any textual content with the \u003ccode\u003eyes\u003c/code\u003e filter,\n   but otherwise is the same as the \u003ccode\u003eno\u003c/code\u003e filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "ifTxt",
           "package": "HaXml",
@@ -817,6 +884,7 @@
         "index": {
           "description": "ifTxt yes no processes any textual content with the yes filter but otherwise is the same as the no filter",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "ifTxt",
           "normalized": "(String-\u003eCFilter a)-\u003eCFilter a-\u003eCFilter a",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen an attribute field may be absent, use \u003ccode\u003eiffind key yes no\u003c/code\u003e to lookup\n   its value.  If the attribute is absent, it acts as the \u003ccode\u003eno\u003c/code\u003e filter,\n   otherwise it applies the \u003ccode\u003eyes\u003c/code\u003e filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "iffind",
           "package": "HaXml",
@@ -843,6 +912,7 @@
         "index": {
           "description": "When an attribute field may be absent use iffind key yes no to lookup its value If the attribute is absent it acts as the no filter otherwise it applies the yes filter",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "iffind",
           "normalized": "String-\u003e(String-\u003eCFilter a)-\u003eCFilter a-\u003eCFilter a",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess an element In Place.  The filter is applied to the element\n   itself, and then the original element rebuilt around the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "inplace",
           "package": "HaXml",
@@ -868,6 +939,7 @@
         "index": {
           "description": "Process an element In Place The filter is applied to the element itself and then the original element rebuilt around the results",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "inplace",
           "normalized": "CFilter a-\u003eCFilter a",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn \u003ccode\u003einterspersed a f b\u003c/code\u003e, label each result of \u003ccode\u003ef\u003c/code\u003e with the string \u003ccode\u003ea\u003c/code\u003e,\n   except for the last one which is labelled with the string \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "interspersed",
           "package": "HaXml",
@@ -893,6 +966,7 @@
         "index": {
           "description": "In interspersed label each result of with the string except for the last one which is labelled with the string",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "interspersed",
           "normalized": "String-\u003eCFilter a-\u003eString-\u003eLabelFilter a String",
@@ -907,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "keep",
           "package": "HaXml",
@@ -916,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "keep",
           "normalized": "a-\u003e[a]",
@@ -931,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild some textual content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "literal",
           "package": "HaXml",
@@ -941,6 +1018,7 @@
         "index": {
           "description": "Build some textual content",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "literal",
           "normalized": "String-\u003eCFilter a",
@@ -956,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an element with the given tag name - its content is the results\n   of the given list of filters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "mkElem",
           "package": "HaXml",
@@ -966,6 +1045,7 @@
         "index": {
           "description": "Build an element with the given tag name its content is the results of the given list of filters",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "mkElem",
           "normalized": "String-\u003e[CFilter a]-\u003eCFilter a",
@@ -982,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an element with the given name, attributes, and content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "mkElemAttr",
           "package": "HaXml",
@@ -992,6 +1073,7 @@
         "index": {
           "description": "Build an element with the given name attributes and content",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "mkElemAttr",
           "normalized": "String-\u003e[(String,CFilter a)]-\u003e[CFilter a]-\u003eCFilter a",
@@ -1007,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "multi",
           "package": "HaXml",
@@ -1016,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "multi",
           "normalized": "CFilter a-\u003eCFilter a",
@@ -1030,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "none",
           "package": "HaXml",
@@ -1039,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "none",
           "normalized": "a-\u003e[b]",
@@ -1054,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber the results from 1 upwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "numbered",
           "package": "HaXml",
@@ -1064,6 +1151,7 @@
         "index": {
           "description": "Number the results from upwards",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "numbered",
           "normalized": "CFilter a-\u003eLabelFilter a Int",
@@ -1079,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential (\u003cem\u003eIrish\u003c/em\u003e,\u003cem\u003ebackwards\u003c/em\u003e) composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "o",
           "package": "HaXml",
@@ -1089,6 +1178,7 @@
         "index": {
           "description": "Sequential Irish backwards composition",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "o",
           "normalized": "CFilter a-\u003eCFilter a-\u003eCFilter a",
@@ -1104,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a label-processing filter with a label-generating filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "oo",
           "package": "HaXml",
@@ -1114,6 +1205,7 @@
         "index": {
           "description": "Compose label-processing filter with label-generating filter",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "oo",
           "normalized": "(a-\u003eCFilter b)-\u003eLabelFilter b a-\u003eCFilter b",
@@ -1129,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpress a list of filters like an XPath query, e.g.\n   \u003ccode\u003epath [children, tag \"name1\", attr \"attr1\", children, tag \"name2\"]\u003c/code\u003e\n   is like the XPath query \u003ccode\u003e/name1[@attr1]/name2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "path",
           "package": "HaXml",
@@ -1139,6 +1232,7 @@
         "index": {
           "description": "Express list of filters like an XPath query e.g path children tag name1 attr attr1 children tag name2 is like the XPath query name1 attr1 name2",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "path",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -1154,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect the \u003ccode\u003en\u003c/code\u003e'th positional result of a filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "position",
           "package": "HaXml",
@@ -1164,6 +1259,7 @@
         "index": {
           "description": "Select the th positional result of filter",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "position",
           "normalized": "Int-\u003eCFilter a-\u003eCFilter a",
@@ -1179,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the attributes of an element (leaving tag the same).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "replaceAttrs",
           "package": "HaXml",
@@ -1189,6 +1286,7 @@
         "index": {
           "description": "Replace the attributes of an element leaving tag the same",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "replaceAttrs",
           "normalized": "[(String,String)]-\u003eCFilter a",
@@ -1205,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename an element tag (leaving attributes in place).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "replaceTag",
           "package": "HaXml",
@@ -1215,6 +1314,7 @@
         "index": {
           "description": "Rename an element tag leaving attributes in place",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "replaceTag",
           "normalized": "String-\u003eCFilter a",
@@ -1230,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "tag",
           "package": "HaXml",
@@ -1239,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "tag",
           "normalized": "String-\u003eCFilter a",
@@ -1253,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "tagWith",
           "package": "HaXml",
@@ -1262,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "tagWith",
           "normalized": "(String-\u003eBool)-\u003eCFilter a",
@@ -1278,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel each element in the result with its tag name.  Non-element\n   results get an empty string label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "tagged",
           "package": "HaXml",
@@ -1288,6 +1393,7 @@
         "index": {
           "description": "Label each element in the result with its tag name Non-element results get an empty string label",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "tagged",
           "normalized": "CFilter a-\u003eLabelFilter a String",
@@ -1303,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel each textual part of the result with its text.  Element\n   results get an empty string label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "textlabelled",
           "package": "HaXml",
@@ -1313,6 +1420,7 @@
         "index": {
           "description": "Label each textual part of the result with its text Element results get an empty string label",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "textlabelled",
           "normalized": "CFilter a-\u003eLabelFilter a(Maybe String)",
@@ -1327,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "txt",
           "package": "HaXml",
@@ -1336,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "txt",
           "package": "HaXml",
@@ -1349,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary parallel composition.  Each filter uses a copy of the input,\n rather than one filter using the result of the other.\n   (Has a more general type than just CFilter.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "union",
           "package": "HaXml",
@@ -1359,6 +1470,7 @@
         "index": {
           "description": "Binary parallel composition Each filter uses copy of the input rather than one filter using the result of the other Has more general type than just CFilter",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "union",
           "normalized": "(a-\u003e[b])-\u003e(a-\u003e[b])-\u003ea-\u003e[b]",
@@ -1374,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterior editing:\n   \u003ccode\u003ef \u003ccode\u003e\u003ca\u003ewhen\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e applies \u003ccode\u003ef\u003c/code\u003e only when the predicate \u003ccode\u003eg\u003c/code\u003e succeeds,\n   otherwise the content is unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "when",
           "package": "HaXml",
@@ -1384,6 +1497,7 @@
         "index": {
           "description": "Interior editing when applies only when the predicate succeeds otherwise the content is unchanged",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "when",
           "normalized": "CFilter a-\u003eCFilter a-\u003eCFilter a",
@@ -1399,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePruning: in \u003ccode\u003ef \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e,\n   keep only those f-productions which have at least one g-production\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "with",
           "package": "HaXml",
@@ -1409,6 +1524,7 @@
         "index": {
           "description": "Pruning in with keep only those f-productions which have at least one g-production",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "with",
           "normalized": "CFilter a-\u003eCFilter a-\u003eCFilter a",
@@ -1424,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePruning: in \u003ccode\u003ef \u003ccode\u003e\u003ca\u003ewithout\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e,\n   keep only those f-productions which have no g-productions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "without",
           "package": "HaXml",
@@ -1434,6 +1551,7 @@
         "index": {
           "description": "Pruning in without keep only those f-productions which have no g-productions",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "without",
           "normalized": "CFilter a-\u003eCFilter a-\u003eCFilter a",
@@ -1449,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine labels.  Think of this as a pair-wise zip on labels.\n   e.g. \u003ccode\u003e(numbered \u003ccode\u003e\u003ca\u003ex\u003c/a\u003e\u003c/code\u003e tagged)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Combinators",
           "name": "x",
           "package": "HaXml",
@@ -1459,6 +1578,7 @@
         "index": {
           "description": "Combine labels Think of this as pair-wise zip on labels e.g numbered tagged",
           "hierarchy": "Text XML HaXml Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Combinators",
           "name": "x",
           "normalized": "(CFilter a-\u003eLabelFilter a b)-\u003e(CFilter a-\u003eLabelFilter a c)-\u003eCFilter a-\u003eLabelFilter a(b,c)",
@@ -1474,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module performs the translation of a parsed XML DTD into the\n   internal representation of corresponding Haskell data/newtypes.\n\u003c/p\u003e\u003cp\u003eNote that dtdToTypeDef is partial - it will crash if you resolve\n   qualified names (namespaces) to URIs beforehand.  It will only work\n   on the original literal name forms \u003ca\u003eprefix:name\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.Convert",
           "name": "Convert",
           "package": "HaXml",
@@ -1483,6 +1604,7 @@
         "index": {
           "description": "This module performs the translation of parsed XML DTD into the internal representation of corresponding Haskell data newtypes Note that dtdToTypeDef is partial it will crash if you resolve qualified names namespaces to URIs beforehand It will only work on the original literal name forms prefix name",
           "hierarchy": "Text XML HaXml DtdToHaskell Convert",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.Convert",
           "name": "Convert",
           "package": "HaXml",
@@ -1496,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.Convert",
           "name": "dtd2TypeDef",
           "package": "HaXml",
@@ -1505,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell Convert",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.Convert",
           "name": "dtd2TypeDef",
           "normalized": "[MarkupDecl]-\u003e[TypeDef]",
@@ -1520,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.Instance",
           "name": "Instance",
           "package": "HaXml",
@@ -1528,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell Instance",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.Instance",
           "name": "Instance",
           "package": "HaXml",
@@ -1542,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert typedef to appropriate instance declaration, either \u003ccode\u003eXmlContent\u003c/code\u003e,\n   \u003ccode\u003eXmlAttributes\u003c/code\u003e, or \u003ccode\u003eXmlAttrType\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.Instance",
           "name": "mkInstance",
           "package": "HaXml",
@@ -1552,6 +1679,7 @@
         "index": {
           "description": "Convert typedef to appropriate instance declaration either XmlContent XmlAttributes or XmlAttrType",
           "hierarchy": "Text XML HaXml DtdToHaskell Instance",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.Instance",
           "name": "mkInstance",
           "normalized": "TypeDef-\u003eDoc",
@@ -1568,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines an internal representation of Haskell data/newtype definitions\n   that correspond to the XML DTD types, and provides pretty-printers to\n   convert these types into the \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e type of \u003ca\u003eText.PrettyPrint.HughesPJ\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "TypeDef",
           "package": "HaXml",
@@ -1577,6 +1706,7 @@
         "index": {
           "description": "Defines an internal representation of Haskell data newtype definitions that correspond to the XML DTD types and provides pretty-printers to convert these types into the Doc type of Text.PrettyPrint.HughesPJ",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "TypeDef",
           "package": "HaXml",
@@ -1590,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "AttrFields",
           "package": "HaXml",
@@ -1598,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "AttrFields",
           "package": "HaXml",
@@ -1611,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Constructors",
           "package": "HaXml",
@@ -1619,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Constructors",
           "package": "HaXml",
@@ -1633,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeed to keep both the XML and Haskell versions of a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Name",
           "package": "HaXml",
@@ -1642,6 +1777,7 @@
         "index": {
           "description": "Need to keep both the XML and Haskell versions of name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Name",
           "package": "HaXml",
@@ -1655,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "StructType",
           "package": "HaXml",
@@ -1663,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "StructType",
           "package": "HaXml",
@@ -1676,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "TypeDef",
           "package": "HaXml",
@@ -1684,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "TypeDef",
           "package": "HaXml",
@@ -1698,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML's contentspec allows ANY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Any",
           "package": "HaXml",
@@ -1708,6 +1849,7 @@
         "index": {
           "description": "XML contentspec allows ANY",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Any",
           "package": "HaXml",
@@ -1722,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBool for main/aux.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "DataDef",
           "package": "HaXml",
@@ -1732,6 +1875,7 @@
         "index": {
           "description": "Bool for main aux",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "DataDef",
           "package": "HaXml",
@@ -1746,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString holds default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Defaultable",
           "package": "HaXml",
@@ -1756,6 +1901,7 @@
         "index": {
           "description": "String holds default value",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Defaultable",
           "package": "HaXml",
@@ -1769,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Defined",
           "package": "HaXml",
@@ -1778,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Defined",
           "package": "HaXml",
@@ -1791,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "EnumDef",
           "package": "HaXml",
@@ -1800,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "EnumDef",
           "normalized": "EnumDef Name[Name]",
@@ -1815,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "List",
           "package": "HaXml",
@@ -1824,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "List",
           "package": "HaXml",
@@ -1838,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-empty lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "List1",
           "package": "HaXml",
@@ -1848,6 +2001,7 @@
         "index": {
           "description": "Non-empty lists",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "List1",
           "package": "HaXml",
@@ -1861,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Maybe",
           "package": "HaXml",
@@ -1870,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Maybe",
           "package": "HaXml",
@@ -1883,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Name",
           "package": "HaXml",
@@ -1892,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Name",
           "package": "HaXml",
@@ -1905,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "OneOf",
           "package": "HaXml",
@@ -1914,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "OneOf",
           "normalized": "OneOf[StructType]",
@@ -1930,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring only (#PCDATA)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "String",
           "package": "HaXml",
@@ -1940,6 +2101,7 @@
         "index": {
           "description": "string only PCDATA",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "String",
           "package": "HaXml",
@@ -1954,6 +2116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emixed (#PCDATA | ... )*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "StringMixed",
           "package": "HaXml",
@@ -1964,6 +2127,7 @@
         "index": {
           "description": "mixed PCDATA",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "StringMixed",
           "package": "HaXml",
@@ -1977,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Tuple",
           "package": "HaXml",
@@ -1986,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "Tuple",
           "normalized": "Tuple[StructType]",
@@ -2002,6 +2168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emangled Haskell name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "hName",
           "package": "HaXml",
@@ -2012,6 +2179,7 @@
         "index": {
           "description": "mangled Haskell name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "hName",
           "package": "HaXml",
@@ -2026,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an XML name to a Haskell conid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "mangle",
           "package": "HaXml",
@@ -2036,6 +2205,7 @@
         "index": {
           "description": "Convert an XML name to Haskell conid",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "mangle",
           "normalized": "String-\u003eString",
@@ -2051,6 +2221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an XML name to a Haskell varid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "manglef",
           "package": "HaXml",
@@ -2061,6 +2232,7 @@
         "index": {
           "description": "Convert an XML name to Haskell varid",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "manglef",
           "normalized": "String-\u003eString",
@@ -2076,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a type name valid in both XML and Haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name",
           "package": "HaXml",
@@ -2086,6 +2259,7 @@
         "index": {
           "description": "Make type name valid in both XML and Haskell",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name",
           "normalized": "String-\u003eName",
@@ -2101,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend an underscore to the Haskell version of the name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name_",
           "package": "HaXml",
@@ -2111,6 +2286,7 @@
         "index": {
           "description": "Append an underscore to the Haskell version of the name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name_",
           "normalized": "String-\u003eName",
@@ -2126,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix an attribute enumeration type name with its containing element\n   name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name_a",
           "package": "HaXml",
@@ -2136,6 +2313,7 @@
         "index": {
           "description": "Prefix an attribute enumeration type name with its containing element name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name_a",
           "normalized": "String-\u003eString-\u003eName",
@@ -2151,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix an attribute enumeration constructor with its element-tag name,\n   and its enumeration type name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name_ac",
           "package": "HaXml",
@@ -2161,6 +2340,7 @@
         "index": {
           "description": "Prefix an attribute enumeration constructor with its element-tag name and its enumeration type name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name_ac",
           "normalized": "String-\u003eString-\u003eString-\u003eName",
@@ -2176,6 +2356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix a field name with its enclosing element name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name_f",
           "package": "HaXml",
@@ -2186,6 +2367,7 @@
         "index": {
           "description": "Prefix field name with its enclosing element name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "name_f",
           "normalized": "String-\u003eString-\u003eName",
@@ -2201,6 +2383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print Haskell attributes name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "ppAName",
           "package": "HaXml",
@@ -2211,6 +2394,7 @@
         "index": {
           "description": "Pretty print Haskell attributes name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "ppAName",
           "normalized": "Name-\u003eDoc",
@@ -2227,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print Haskell name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "ppHName",
           "package": "HaXml",
@@ -2237,6 +2422,7 @@
         "index": {
           "description": "Pretty print Haskell name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "ppHName",
           "normalized": "Name-\u003eDoc",
@@ -2252,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "ppTypeDef",
           "package": "HaXml",
@@ -2261,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "ppTypeDef",
           "normalized": "TypeDef-\u003eDoc",
@@ -2277,6 +2465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print XML name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "ppXName",
           "package": "HaXml",
@@ -2287,6 +2476,7 @@
         "index": {
           "description": "Pretty print XML name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "ppXName",
           "normalized": "Name-\u003eDoc",
@@ -2303,6 +2493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoriginal XML name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "xName",
           "package": "HaXml",
@@ -2313,6 +2504,7 @@
         "index": {
           "description": "original XML name",
           "hierarchy": "Text XML HaXml DtdToHaskell TypeDef",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.DtdToHaskell.TypeDef",
           "name": "xName",
           "package": "HaXml",
@@ -2326,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Escape",
           "name": "Escape",
           "package": "HaXml",
@@ -2334,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Escape",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Escape",
           "name": "Escape",
           "package": "HaXml",
@@ -2347,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Escape",
           "name": "XmlEscaper",
           "package": "HaXml",
@@ -2355,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Escape",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Escape",
           "name": "XmlEscaper",
           "package": "HaXml",
@@ -2368,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Escape",
           "name": "mkXmlEscaper",
           "package": "HaXml",
@@ -2377,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Escape",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Escape",
           "name": "mkXmlEscaper",
           "normalized": "[(Char,String)]-\u003e(Char-\u003eBool)-\u003eXmlEscaper",
@@ -2392,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Escape",
           "name": "stdXmlEscaper",
           "package": "HaXml",
@@ -2401,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Escape",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Escape",
           "name": "stdXmlEscaper",
           "package": "HaXml",
@@ -2414,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Escape",
           "name": "xmlEscape",
           "package": "HaXml",
@@ -2423,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Escape",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Escape",
           "name": "xmlEscape",
           "normalized": "XmlEscaper-\u003eElement a-\u003eElement a",
@@ -2438,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Escape",
           "name": "xmlEscapeContent",
           "package": "HaXml",
@@ -2447,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Escape",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Escape",
           "name": "xmlEscapeContent",
           "normalized": "XmlEscaper-\u003e[Content a]-\u003e[Content a]",
@@ -2462,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Escape",
           "name": "xmlUnEscape",
           "package": "HaXml",
@@ -2471,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Escape",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Escape",
           "name": "xmlUnEscape",
           "normalized": "XmlEscaper-\u003eElement a-\u003eElement a",
@@ -2486,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Escape",
           "name": "xmlUnEscapeContent",
           "package": "HaXml",
@@ -2495,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Escape",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Escape",
           "name": "xmlUnEscapeContent",
           "normalized": "XmlEscaper-\u003e[Content a]-\u003e[Content a]",
@@ -2511,6 +2719,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese are just some common abbreviations for generating HTML\n   content within the XML transformation framework defined\n   by \u003ca\u003eText.Xml.HaXml.Combinators\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "Generate",
           "package": "HaXml",
@@ -2520,6 +2729,7 @@
         "index": {
           "description": "These are just some common abbreviations for generating HTML content within the XML transformation framework defined by Text.Xml.HaXml.Combinators",
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "Generate",
           "package": "HaXml",
@@ -2533,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "(!)",
           "package": "HaXml",
@@ -2542,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "(!) !",
           "normalized": "String-\u003eCFilter a",
@@ -2556,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "(?)",
           "package": "HaXml",
@@ -2565,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "(?) ?",
           "normalized": "String-\u003eCFilter a",
@@ -2579,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "anchor",
           "package": "HaXml",
@@ -2588,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "anchor",
           "normalized": "[(String,CFilter a)]-\u003e[CFilter a]-\u003eCFilter a",
@@ -2602,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "anchorname",
           "package": "HaXml",
@@ -2611,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "anchorname",
           "normalized": "CFilter a-\u003e[CFilter a]-\u003eCFilter a",
@@ -2625,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "bullet",
           "package": "HaXml",
@@ -2634,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "bullet",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2648,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "h1",
           "package": "HaXml",
@@ -2657,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "h1",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2671,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "h2",
           "package": "HaXml",
@@ -2680,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "h2",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2694,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "h3",
           "package": "HaXml",
@@ -2703,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "h3",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2717,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "h4",
           "package": "HaXml",
@@ -2726,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "h4",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2740,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hbody",
           "package": "HaXml",
@@ -2749,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hbody",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2763,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hbold",
           "package": "HaXml",
@@ -2772,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hbold",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2786,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hbr",
           "package": "HaXml",
@@ -2795,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hbr",
           "package": "HaXml",
@@ -2807,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hcentre",
           "package": "HaXml",
@@ -2816,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hcentre",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2830,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hcol",
           "package": "HaXml",
@@ -2839,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hcol",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2853,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hdiv",
           "package": "HaXml",
@@ -2862,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hdiv",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2876,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hem",
           "package": "HaXml",
@@ -2885,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hem",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2899,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hhead",
           "package": "HaXml",
@@ -2908,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hhead",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2922,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hhr",
           "package": "HaXml",
@@ -2931,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hhr",
           "package": "HaXml",
@@ -2943,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hpara",
           "package": "HaXml",
@@ -2952,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hpara",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2966,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hpre",
           "package": "HaXml",
@@ -2975,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hpre",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -2989,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hrow",
           "package": "HaXml",
@@ -2998,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hrow",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -3012,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hspan",
           "package": "HaXml",
@@ -3021,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "hspan",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -3035,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "htable",
           "package": "HaXml",
@@ -3044,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "htable",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -3058,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "htitle",
           "package": "HaXml",
@@ -3067,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "htitle",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -3081,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "html",
           "package": "HaXml",
@@ -3090,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "html",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -3104,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "htmlprint",
           "package": "HaXml",
@@ -3113,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "htmlprint",
           "normalized": "[Content a]-\u003eDoc",
@@ -3127,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "htt",
           "package": "HaXml",
@@ -3136,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "htt",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -3150,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "makehref",
           "package": "HaXml",
@@ -3159,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "makehref",
           "normalized": "CFilter a-\u003e[CFilter a]-\u003eCFilter a",
@@ -3173,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "margin",
           "package": "HaXml",
@@ -3182,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "margin",
           "normalized": "[CFilter a]-\u003eCFilter a",
@@ -3196,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "parens",
           "package": "HaXml",
@@ -3205,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "parens",
           "normalized": "CFilter a-\u003eCFilter a",
@@ -3219,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "showattr",
           "package": "HaXml",
@@ -3228,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Generate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Generate",
           "name": "showattr",
           "normalized": "String-\u003eCFilter a",
@@ -3243,6 +3515,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a parser for HTML documents.  Unlike for XML documents, it\n   must include a certain amount of error-correction to account for\n   HTML features like self-terminating tags, unterminated tags, and\n   incorrect nesting.  The input is tokenised by the\n   XML lexer (a separate lexer is not required for HTML).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Parse",
           "name": "Parse",
           "package": "HaXml",
@@ -3252,6 +3525,7 @@
         "index": {
           "description": "This is parser for HTML documents Unlike for XML documents it must include certain amount of error-correction to account for HTML features like self-terminating tags unterminated tags and incorrect nesting The input is tokenised by the XML lexer separate lexer is not required for HTML",
           "hierarchy": "Text XML HaXml Html Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Parse",
           "name": "Parse",
           "package": "HaXml",
@@ -3266,6 +3540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument is the name of the file, the second is the string\n   contents of the file.  The result is the generic representation of\n   an XML document.  Any errors cause program failure with message to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Parse",
           "name": "htmlParse",
           "package": "HaXml",
@@ -3276,6 +3551,7 @@
         "index": {
           "description": "The first argument is the name of the file the second is the string contents of the file The result is the generic representation of an XML document Any errors cause program failure with message to stderr",
           "hierarchy": "Text XML HaXml Html Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Parse",
           "name": "htmlParse",
           "normalized": "String-\u003eString-\u003eDocument Posn",
@@ -3292,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument is the name of the file, the second is the string\n   contents of the file.  The result is the generic representation of\n   an XML document.  Any parsing errors are returned in the \u003ccode\u003eEither\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Parse",
           "name": "htmlParse'",
           "package": "HaXml",
@@ -3302,6 +3579,7 @@
         "index": {
           "description": "The first argument is the name of the file the second is the string contents of the file The result is the generic representation of an XML document Any parsing errors are returned in the Either type",
           "hierarchy": "Text XML HaXml Html Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Parse",
           "name": "htmlParse'",
           "normalized": "String-\u003eString-\u003eEither String(Document Posn)",
@@ -3318,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a parser for HTML documents.  Unlike for XML documents, it\n   must include a certain amount of error-correction to account for\n   HTML features like self-terminating tags, unterminated tags, and\n   incorrect nesting.  The input is tokenised by the\n   XML lexer (a separate lexer is not required for HTML).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.ParseLazy",
           "name": "ParseLazy",
           "package": "HaXml",
@@ -3327,6 +3606,7 @@
         "index": {
           "description": "This is parser for HTML documents Unlike for XML documents it must include certain amount of error-correction to account for HTML features like self-terminating tags unterminated tags and incorrect nesting The input is tokenised by the XML lexer separate lexer is not required for HTML",
           "hierarchy": "Text XML HaXml Html ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.ParseLazy",
           "name": "ParseLazy",
           "package": "HaXml",
@@ -3341,6 +3621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument is the name of the file, the second is the string\n   contents of the file.  The result is the generic representation of\n   an XML document.  Any errors cause program failure with message to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.ParseLazy",
           "name": "htmlParse",
           "package": "HaXml",
@@ -3351,6 +3632,7 @@
         "index": {
           "description": "The first argument is the name of the file the second is the string contents of the file The result is the generic representation of an XML document Any errors cause program failure with message to stderr",
           "hierarchy": "Text XML HaXml Html ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.ParseLazy",
           "name": "htmlParse",
           "normalized": "String-\u003eString-\u003eDocument Posn",
@@ -3367,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a separate pretty-printer for HTML documents, recognising\n   some of the differences between HTML and true XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "Pretty",
           "package": "HaXml",
@@ -3376,6 +3659,7 @@
         "index": {
           "description": "This is separate pretty-printer for HTML documents recognising some of the differences between HTML and true XML",
           "hierarchy": "Text XML HaXml Html Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "Pretty",
           "package": "HaXml",
@@ -3389,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "attribute",
           "package": "HaXml",
@@ -3398,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "attribute",
           "normalized": "Attribute-\u003eDoc",
@@ -3412,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "content",
           "package": "HaXml",
@@ -3421,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "content",
           "normalized": "Content a-\u003eDoc",
@@ -3435,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "document",
           "package": "HaXml",
@@ -3444,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "document",
           "normalized": "Document a-\u003eDoc",
@@ -3458,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "element",
           "package": "HaXml",
@@ -3467,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Html Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Html.Pretty",
           "name": "element",
           "normalized": "Element a-\u003eDoc",
@@ -3482,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYou don't normally need to use this Lex module directly - it is\n   called automatically by the parser.  (This interface is only exposed\n   for debugging purposes.)\n\u003c/p\u003e\u003cp\u003eThis is a hand-written lexer for tokenising the text of an XML\n document so that it is ready for parsing.  It attaches position\n information in (line,column) format to every token.  The main\n entry point is \u003ccode\u003e\u003ca\u003exmlLex\u003c/a\u003e\u003c/code\u003e.  A secondary entry point, \u003ccode\u003e\u003ca\u003exmlReLex\u003c/a\u003e\u003c/code\u003e, is\n provided for when the parser needs to stuff a string back onto\n the front of the text and re-tokenise it (typically when expanding\n macros).\n\u003c/p\u003e\u003cp\u003eAs one would expect, the lexer is essentially a small finite\n state machine.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "Lex",
           "package": "HaXml",
@@ -3491,6 +3784,7 @@
         "index": {
           "description": "You don normally need to use this Lex module directly it is called automatically by the parser This interface is only exposed for debugging purposes This is hand-written lexer for tokenising the text of an XML document so that it is ready for parsing It attaches position information in line column format to every token The main entry point is xmlLex secondary entry point xmlReLex is provided for when the parser needs to stuff string back onto the front of the text and re-tokenise it typically when expanding macros As one would expect the lexer is essentially small finite state machine",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "Lex",
           "package": "HaXml",
@@ -3504,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "Section",
           "package": "HaXml",
@@ -3512,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "Section",
           "package": "HaXml",
@@ -3525,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "Special",
           "package": "HaXml",
@@ -3533,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "Special",
           "package": "HaXml",
@@ -3547,6 +3845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll tokens are paired up with a source position.\n   Lexical errors are passed back as a special \u003ccode\u003eTokenT\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "Token",
           "package": "HaXml",
@@ -3556,6 +3855,7 @@
         "index": {
           "description": "All tokens are paired up with source position Lexical errors are passed back as special TokenT value",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "Token",
           "package": "HaXml",
@@ -3570,6 +3870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic token type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokenT",
           "package": "HaXml",
@@ -3579,6 +3880,7 @@
         "index": {
           "description": "The basic token type",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokenT",
           "package": "HaXml",
@@ -3592,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "ATTLISTx",
           "package": "HaXml",
@@ -3601,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "ATTLISTx",
           "package": "HaXml",
@@ -3614,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "CDATAx",
           "package": "HaXml",
@@ -3623,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "CDATAx",
           "package": "HaXml",
@@ -3636,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "DOCTYPEx",
           "package": "HaXml",
@@ -3645,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "DOCTYPEx",
           "package": "HaXml",
@@ -3658,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "ELEMENTx",
           "package": "HaXml",
@@ -3667,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "ELEMENTx",
           "package": "HaXml",
@@ -3680,6 +3990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "ENTITYx",
           "package": "HaXml",
@@ -3689,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "ENTITYx",
           "package": "HaXml",
@@ -3702,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "IGNOREx",
           "package": "HaXml",
@@ -3711,6 +4024,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "IGNOREx",
           "package": "HaXml",
@@ -3724,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "INCLUDEx",
           "package": "HaXml",
@@ -3733,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "INCLUDEx",
           "package": "HaXml",
@@ -3746,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "NOTATIONx",
           "package": "HaXml",
@@ -3755,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "NOTATIONx",
           "package": "HaXml",
@@ -3769,6 +4087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokAmp",
           "package": "HaXml",
@@ -3778,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokAmp",
           "package": "HaXml",
@@ -3792,6 +4112,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokAnyClose",
           "package": "HaXml",
@@ -3801,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokAnyClose",
           "package": "HaXml",
@@ -3815,6 +4137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokAnyOpen",
           "package": "HaXml",
@@ -3824,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokAnyOpen",
           "package": "HaXml",
@@ -3838,6 +4162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokBraClose",
           "package": "HaXml",
@@ -3847,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokBraClose",
           "package": "HaXml",
@@ -3861,6 +4187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokBraOpen",
           "package": "HaXml",
@@ -3870,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokBraOpen",
           "package": "HaXml",
@@ -3884,6 +4212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokComma",
           "package": "HaXml",
@@ -3893,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokComma",
           "package": "HaXml",
@@ -3907,6 +4237,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e-\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokCommentClose",
           "package": "HaXml",
@@ -3916,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokCommentClose",
           "package": "HaXml",
@@ -3930,6 +4262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c!--\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokCommentOpen",
           "package": "HaXml",
@@ -3939,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokCommentOpen",
           "package": "HaXml",
@@ -3953,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokEndClose",
           "package": "HaXml",
@@ -3962,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokEndClose",
           "package": "HaXml",
@@ -3976,6 +4312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c/\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokEndOpen",
           "package": "HaXml",
@@ -3985,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokEndOpen",
           "package": "HaXml",
@@ -3999,6 +4337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e=\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokEqual",
           "package": "HaXml",
@@ -4008,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokEqual",
           "package": "HaXml",
@@ -4022,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elexical error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokError",
           "package": "HaXml",
@@ -4032,6 +4373,7 @@
         "index": {
           "description": "lexical error",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokError",
           "package": "HaXml",
@@ -4046,6 +4388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eany character data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokFreeText",
           "package": "HaXml",
@@ -4056,6 +4399,7 @@
         "index": {
           "description": "any character data",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokFreeText",
           "package": "HaXml",
@@ -4070,6 +4414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e#\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokHash",
           "package": "HaXml",
@@ -4079,6 +4424,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokHash",
           "package": "HaXml",
@@ -4093,6 +4439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebegins with letter, no spaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokName",
           "package": "HaXml",
@@ -4103,6 +4450,7 @@
         "index": {
           "description": "begins with letter no spaces",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokName",
           "package": "HaXml",
@@ -4117,6 +4465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efake token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokNull",
           "package": "HaXml",
@@ -4127,6 +4476,7 @@
         "index": {
           "description": "fake token",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokNull",
           "package": "HaXml",
@@ -4141,6 +4491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e?\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPIClose",
           "package": "HaXml",
@@ -4150,6 +4501,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPIClose",
           "package": "HaXml",
@@ -4164,6 +4516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPIOpen",
           "package": "HaXml",
@@ -4173,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPIOpen",
           "package": "HaXml",
@@ -4187,6 +4541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e%\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPercent",
           "package": "HaXml",
@@ -4196,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPercent",
           "package": "HaXml",
@@ -4210,6 +4566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPipe",
           "package": "HaXml",
@@ -4219,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPipe",
           "package": "HaXml",
@@ -4233,6 +4591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPlus",
           "package": "HaXml",
@@ -4242,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokPlus",
           "package": "HaXml",
@@ -4256,6 +4616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokQuery",
           "package": "HaXml",
@@ -4265,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokQuery",
           "package": "HaXml",
@@ -4279,6 +4641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'' or \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokQuote",
           "package": "HaXml",
@@ -4289,6 +4652,7 @@
         "index": {
           "description": "or",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokQuote",
           "package": "HaXml",
@@ -4303,6 +4667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCDATA INCLUDE IGNORE etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSection",
           "package": "HaXml",
@@ -4313,6 +4678,7 @@
         "index": {
           "description": "CDATA INCLUDE IGNORE etc",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSection",
           "package": "HaXml",
@@ -4327,6 +4693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e]]\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSectionClose",
           "package": "HaXml",
@@ -4336,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSectionClose",
           "package": "HaXml",
@@ -4350,6 +4718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c![\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSectionOpen",
           "package": "HaXml",
@@ -4359,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSectionOpen",
           "package": "HaXml",
@@ -4373,6 +4743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSemi",
           "package": "HaXml",
@@ -4382,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSemi",
           "package": "HaXml",
@@ -4396,6 +4768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDOCTYPE ELEMENT ATTLIST etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSpecial",
           "package": "HaXml",
@@ -4406,6 +4779,7 @@
         "index": {
           "description": "DOCTYPE ELEMENT ATTLIST etc",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSpecial",
           "package": "HaXml",
@@ -4420,6 +4794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003c!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSpecialOpen",
           "package": "HaXml",
@@ -4429,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSpecialOpen",
           "package": "HaXml",
@@ -4443,6 +4819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSqClose",
           "package": "HaXml",
@@ -4452,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSqClose",
           "package": "HaXml",
@@ -4466,6 +4844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e[\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSqOpen",
           "package": "HaXml",
@@ -4475,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokSqOpen",
           "package": "HaXml",
@@ -4489,6 +4869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokStar",
           "package": "HaXml",
@@ -4498,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "TokStar",
           "package": "HaXml",
@@ -4512,6 +4894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereLexEntityValue\u003c/a\u003e\u003c/code\u003e is used solely within parsing an entityvalue.\n   Normally, a PERef is logically separated from its surroundings by\n   whitespace.  But in an entityvalue, a PERef can be juxtaposed to\n   an identifier, so the expansion forms a new identifier.\n   Thus the need to rescan the whole text for possible PERefs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "reLexEntityValue",
           "package": "HaXml",
@@ -4522,6 +4905,7 @@
         "index": {
           "description": "reLexEntityValue is used solely within parsing an entityvalue Normally PERef is logically separated from its surroundings by whitespace But in an entityvalue PERef can be juxtaposed to an identifier so the expansion forms new identifier Thus the need to rescan the whole text for possible PERefs",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "reLexEntityValue",
           "normalized": "(String-\u003eMaybe String)-\u003ePosn-\u003eString-\u003e[Token]",
@@ -4538,6 +4922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument to \u003ccode\u003e\u003ca\u003exmlLex\u003c/a\u003e\u003c/code\u003e is the filename (used for source positions,\n   especially in error messages), and the second is the string content of\n   the XML file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "xmlLex",
           "package": "HaXml",
@@ -4548,6 +4933,7 @@
         "index": {
           "description": "The first argument to xmlLex is the filename used for source positions especially in error messages and the second is the string content of the XML file",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "xmlLex",
           "normalized": "String-\u003eString-\u003e[Token]",
@@ -4564,6 +4950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003exmlReLex\u003c/a\u003e\u003c/code\u003e is used when the parser expands a macro (PE reference).\n    The expansion of the macro must be re-lexed as if for the first time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Lex",
           "name": "xmlReLex",
           "package": "HaXml",
@@ -4574,6 +4961,7 @@
         "index": {
           "description": "xmlReLex is used when the parser expands macro PE reference The expansion of the macro must be re-lexed as if for the first time",
           "hierarchy": "Text XML HaXml Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Lex",
           "name": "xmlReLex",
           "normalized": "Posn-\u003eString-\u003e[Token]",
@@ -4589,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "Namespaces",
           "package": "HaXml",
@@ -4597,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "Namespaces",
           "package": "HaXml",
@@ -4611,6 +5001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a fresh Namespace into the Namespace environment.  It is not\n   permitted to rebind the prefixes \u003ccode\u003exml\u003c/code\u003e or \u003ccode\u003exmlns\u003c/code\u003e, but that is not\n   checked here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "augmentNamespaceEnv",
           "package": "HaXml",
@@ -4621,6 +5012,7 @@
         "index": {
           "description": "Add fresh Namespace into the Namespace environment It is not permitted to rebind the prefixes xml or xmlns but that is not checked here",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "augmentNamespaceEnv",
           "normalized": "Namespace-\u003eMap String Namespace-\u003eMap String Namespace",
@@ -4637,6 +5029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edeQualify\u003c/a\u003e\u003c/code\u003e has the same signature as \u003ccode\u003e\u003ca\u003equalify\u003c/a\u003e\u003c/code\u003e, but ignores the\n   arguments for default namespace and environment, and simply removes any\n   pre-existing qualification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "deQualify",
           "package": "HaXml",
@@ -4647,6 +5040,7 @@
         "index": {
           "description": "deQualify has the same signature as qualify but ignores the arguments for default namespace and environment and simply removes any pre-existing qualification",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "deQualify",
           "normalized": "Maybe Namespace-\u003eMap String Namespace-\u003eQName-\u003eQName",
@@ -4663,6 +5057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery Name can be split into a Namespace and local Name.  The Namespace\n   might of course be missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "expandedName",
           "package": "HaXml",
@@ -4673,6 +5068,7 @@
         "index": {
           "description": "Every Name can be split into Namespace and local Name The Namespace might of course be missing",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "expandedName",
           "normalized": "QName-\u003e(Maybe Namespace,String)",
@@ -4689,6 +5085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial Namespace environment.  It always has bindings for the\n   prefixes \u003ccode\u003exml\u003c/code\u003e and \u003ccode\u003exmlns\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "initNamespaceEnv",
           "package": "HaXml",
@@ -4699,6 +5096,7 @@
         "index": {
           "description": "The initial Namespace environment It always has bindings for the prefixes xml and xmlns",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "initNamespaceEnv",
           "package": "HaXml",
@@ -4713,6 +5111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the local component of a Name, without its Namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "localName",
           "package": "HaXml",
@@ -4723,6 +5122,7 @@
         "index": {
           "description": "Return the local component of Name without its Namespace",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "localName",
           "normalized": "QName-\u003eString",
@@ -4739,6 +5139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the (possibly absent) Namespace component of a Name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "namespaceName",
           "package": "HaXml",
@@ -4749,6 +5150,7 @@
         "index": {
           "description": "Return the possibly absent Namespace component of Name",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "namespaceName",
           "normalized": "QName-\u003eMaybe Namespace",
@@ -4765,6 +5167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null Namespace (no prefix, no URI).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "nullNamespace",
           "package": "HaXml",
@@ -4775,6 +5178,7 @@
         "index": {
           "description": "The null Namespace no prefix no URI",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "nullNamespace",
           "package": "HaXml",
@@ -4789,6 +5193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the printable string for a Name, i.e. attaching a prefix\n   for its namespace (if it has one).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "printableName",
           "package": "HaXml",
@@ -4799,6 +5204,7 @@
         "index": {
           "description": "Return the printable string for Name i.e attaching prefix for its namespace if it has one",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "printableName",
           "normalized": "QName-\u003eString",
@@ -4815,6 +5221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003equalify\u003c/a\u003e\u003c/code\u003e splits a Name of the form \u003ca\u003epr:nm\u003c/a\u003e into the\n   prefix \u003ca\u003epr\u003c/a\u003e and local name \u003ca\u003enm\u003c/a\u003e, and looks up the prefix in the\n   given environment to determine its Namespace.  There may also be a\n   default namespace (the first argument) for unqualified names.\n   In the absence of a default Namespace, a Name that does not have\n   a prefix remains unqualified.  A prefix that is not known in the\n   environment becomes a fresh namespace with null URI.  A Name that is\n   already qualified is passed unchanged, unless its URI was null, in\n   which case we check afresh for that prefix in the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "qualify",
           "package": "HaXml",
@@ -4825,6 +5232,7 @@
         "index": {
           "description": "qualify splits Name of the form pr nm into the prefix pr and local name nm and looks up the prefix in the given environment to determine its Namespace There may also be default namespace the first argument for unqualified names In the absence of default Namespace Name that does not have prefix remains unqualified prefix that is not known in the environment becomes fresh namespace with null URI Name that is already qualified is passed unchanged unless its URI was null in which case we check afresh for that prefix in the environment",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "qualify",
           "normalized": "Maybe Namespace-\u003eMap String Namespace-\u003eQName-\u003eQName",
@@ -4840,6 +5248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003equalifyExceptLocal\u003c/a\u003e\u003c/code\u003e converts names to qualified names, except where\n   an existing qualification matches the default namespace, in which case\n   the qualification is removed.  (This is useful when translating QNames\n   to Haskell, because Haskell qualified names cannot use the current\n   module name.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "qualifyExceptLocal",
           "package": "HaXml",
@@ -4850,6 +5259,7 @@
         "index": {
           "description": "qualifyExceptLocal converts names to qualified names except where an existing qualification matches the default namespace in which case the qualification is removed This is useful when translating QNames to Haskell because Haskell qualified names cannot use the current module name",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "qualifyExceptLocal",
           "normalized": "Maybe Namespace-\u003eMap String Namespace-\u003eQName-\u003eQName",
@@ -4866,6 +5276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresolveAllNames in a document, causes every name to be properly\n   qualified with its namespace.  There is a default namespace for any\n   name that was originally unqualified.  This is likely only useful when\n   dealing with parsed document, less useful when generating a document\n   from scratch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "resolveAllNames",
           "package": "HaXml",
@@ -4876,6 +5287,7 @@
         "index": {
           "description": "resolveAllNames in document causes every name to be properly qualified with its namespace There is default namespace for any name that was originally unqualified This is likely only useful when dealing with parsed document less useful when generating document from scratch",
           "hierarchy": "Text XML HaXml Namespaces",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Namespaces",
           "name": "resolveAllNames",
           "normalized": "(Maybe Namespace-\u003eMap String Namespace-\u003eQName-\u003eQName)-\u003eDocument a-\u003eDocument a",
@@ -4891,6 +5303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOfN",
           "package": "HaXml",
@@ -4899,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOfN",
           "package": "HaXml",
@@ -4913,6 +5327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomewhat of a nonsense - a choice of a single item.  But sometimes it\n   occurs in auto-generated code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf1",
           "package": "HaXml",
@@ -4922,6 +5337,7 @@
         "index": {
           "description": "Somewhat of nonsense choice of single item But sometimes it occurs in auto-generated code",
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf1",
           "package": "HaXml",
@@ -4935,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf10",
           "package": "HaXml",
@@ -4943,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf10",
           "package": "HaXml",
@@ -4956,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf11",
           "package": "HaXml",
@@ -4964,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf11",
           "package": "HaXml",
@@ -4977,6 +5397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf12",
           "package": "HaXml",
@@ -4985,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf12",
           "package": "HaXml",
@@ -4998,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf13",
           "package": "HaXml",
@@ -5006,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf13",
           "package": "HaXml",
@@ -5019,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf14",
           "package": "HaXml",
@@ -5027,6 +5452,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf14",
           "package": "HaXml",
@@ -5040,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf15",
           "package": "HaXml",
@@ -5048,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf15",
           "package": "HaXml",
@@ -5061,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf16",
           "package": "HaXml",
@@ -5069,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf16",
           "package": "HaXml",
@@ -5082,6 +5512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf17",
           "package": "HaXml",
@@ -5090,6 +5521,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf17",
           "package": "HaXml",
@@ -5103,6 +5535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf18",
           "package": "HaXml",
@@ -5111,6 +5544,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf18",
           "package": "HaXml",
@@ -5124,6 +5558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf19",
           "package": "HaXml",
@@ -5132,6 +5567,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf19",
           "package": "HaXml",
@@ -5146,6 +5582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to the Either type, but using the regular naming\n   scheme of this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf2",
           "package": "HaXml",
@@ -5155,6 +5592,7 @@
         "index": {
           "description": "Equivalent to the Either type but using the regular naming scheme of this module",
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf2",
           "package": "HaXml",
@@ -5168,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf20",
           "package": "HaXml",
@@ -5176,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf20",
           "package": "HaXml",
@@ -5189,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf3",
           "package": "HaXml",
@@ -5197,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf3",
           "package": "HaXml",
@@ -5210,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf4",
           "package": "HaXml",
@@ -5218,6 +5661,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf4",
           "package": "HaXml",
@@ -5231,6 +5675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf5",
           "package": "HaXml",
@@ -5239,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf5",
           "package": "HaXml",
@@ -5252,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf6",
           "package": "HaXml",
@@ -5260,6 +5707,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf6",
           "package": "HaXml",
@@ -5273,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf7",
           "package": "HaXml",
@@ -5281,6 +5730,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf7",
           "package": "HaXml",
@@ -5294,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf8",
           "package": "HaXml",
@@ -5302,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf8",
           "package": "HaXml",
@@ -5315,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf9",
           "package": "HaXml",
@@ -5323,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf9",
           "package": "HaXml",
@@ -5336,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf10",
           "package": "HaXml",
@@ -5345,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf10",
           "package": "HaXml",
@@ -5358,6 +5814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf11",
           "package": "HaXml",
@@ -5367,6 +5824,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf11",
           "package": "HaXml",
@@ -5380,6 +5838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf12",
           "package": "HaXml",
@@ -5389,6 +5848,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf12",
           "package": "HaXml",
@@ -5402,6 +5862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf13",
           "package": "HaXml",
@@ -5411,6 +5872,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf13",
           "package": "HaXml",
@@ -5424,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf14",
           "package": "HaXml",
@@ -5433,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf14",
           "package": "HaXml",
@@ -5446,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf15",
           "package": "HaXml",
@@ -5455,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf15",
           "package": "HaXml",
@@ -5468,6 +5934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf16",
           "package": "HaXml",
@@ -5477,6 +5944,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf16",
           "package": "HaXml",
@@ -5490,6 +5958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf17",
           "package": "HaXml",
@@ -5499,6 +5968,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf17",
           "package": "HaXml",
@@ -5512,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf18",
           "package": "HaXml",
@@ -5521,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf18",
           "package": "HaXml",
@@ -5534,6 +6006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf19",
           "package": "HaXml",
@@ -5543,6 +6016,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf19",
           "package": "HaXml",
@@ -5556,6 +6030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf20",
           "package": "HaXml",
@@ -5565,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf20",
           "package": "HaXml",
@@ -5578,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf8",
           "package": "HaXml",
@@ -5587,6 +6064,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf8",
           "package": "HaXml",
@@ -5600,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf9",
           "package": "HaXml",
@@ -5609,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EightOf9",
           "package": "HaXml",
@@ -5622,6 +6102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EighteenOf18",
           "package": "HaXml",
@@ -5631,6 +6112,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EighteenOf18",
           "package": "HaXml",
@@ -5644,6 +6126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EighteenOf19",
           "package": "HaXml",
@@ -5653,6 +6136,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EighteenOf19",
           "package": "HaXml",
@@ -5666,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EighteenOf20",
           "package": "HaXml",
@@ -5675,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "EighteenOf20",
           "package": "HaXml",
@@ -5688,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf11",
           "package": "HaXml",
@@ -5697,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf11",
           "package": "HaXml",
@@ -5710,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf12",
           "package": "HaXml",
@@ -5719,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf12",
           "package": "HaXml",
@@ -5732,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf13",
           "package": "HaXml",
@@ -5741,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf13",
           "package": "HaXml",
@@ -5754,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf14",
           "package": "HaXml",
@@ -5763,6 +6256,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf14",
           "package": "HaXml",
@@ -5776,6 +6270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf15",
           "package": "HaXml",
@@ -5785,6 +6280,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf15",
           "package": "HaXml",
@@ -5798,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf16",
           "package": "HaXml",
@@ -5807,6 +6304,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf16",
           "package": "HaXml",
@@ -5820,6 +6318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf17",
           "package": "HaXml",
@@ -5829,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf17",
           "package": "HaXml",
@@ -5842,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf18",
           "package": "HaXml",
@@ -5851,6 +6352,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf18",
           "package": "HaXml",
@@ -5864,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf19",
           "package": "HaXml",
@@ -5873,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf19",
           "package": "HaXml",
@@ -5886,6 +6390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf20",
           "package": "HaXml",
@@ -5895,6 +6400,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ElevenOf20",
           "package": "HaXml",
@@ -5908,6 +6414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf15",
           "package": "HaXml",
@@ -5917,6 +6424,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf15",
           "package": "HaXml",
@@ -5930,6 +6438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf16",
           "package": "HaXml",
@@ -5939,6 +6448,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf16",
           "package": "HaXml",
@@ -5952,6 +6462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf17",
           "package": "HaXml",
@@ -5961,6 +6472,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf17",
           "package": "HaXml",
@@ -5974,6 +6486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf18",
           "package": "HaXml",
@@ -5983,6 +6496,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf18",
           "package": "HaXml",
@@ -5996,6 +6510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf19",
           "package": "HaXml",
@@ -6005,6 +6520,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf19",
           "package": "HaXml",
@@ -6018,6 +6534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf20",
           "package": "HaXml",
@@ -6027,6 +6544,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FifteenOf20",
           "package": "HaXml",
@@ -6040,6 +6558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf10",
           "package": "HaXml",
@@ -6049,6 +6568,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf10",
           "package": "HaXml",
@@ -6062,6 +6582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf11",
           "package": "HaXml",
@@ -6071,6 +6592,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf11",
           "package": "HaXml",
@@ -6084,6 +6606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf12",
           "package": "HaXml",
@@ -6093,6 +6616,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf12",
           "package": "HaXml",
@@ -6106,6 +6630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf13",
           "package": "HaXml",
@@ -6115,6 +6640,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf13",
           "package": "HaXml",
@@ -6128,6 +6654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf14",
           "package": "HaXml",
@@ -6137,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf14",
           "package": "HaXml",
@@ -6150,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf15",
           "package": "HaXml",
@@ -6159,6 +6688,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf15",
           "package": "HaXml",
@@ -6172,6 +6702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf16",
           "package": "HaXml",
@@ -6181,6 +6712,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf16",
           "package": "HaXml",
@@ -6194,6 +6726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf17",
           "package": "HaXml",
@@ -6203,6 +6736,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf17",
           "package": "HaXml",
@@ -6216,6 +6750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf18",
           "package": "HaXml",
@@ -6225,6 +6760,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf18",
           "package": "HaXml",
@@ -6238,6 +6774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf19",
           "package": "HaXml",
@@ -6247,6 +6784,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf19",
           "package": "HaXml",
@@ -6260,6 +6798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf20",
           "package": "HaXml",
@@ -6269,6 +6808,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf20",
           "package": "HaXml",
@@ -6282,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf5",
           "package": "HaXml",
@@ -6291,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf5",
           "package": "HaXml",
@@ -6304,6 +6846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf6",
           "package": "HaXml",
@@ -6313,6 +6856,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf6",
           "package": "HaXml",
@@ -6326,6 +6870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf7",
           "package": "HaXml",
@@ -6335,6 +6880,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf7",
           "package": "HaXml",
@@ -6348,6 +6894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf8",
           "package": "HaXml",
@@ -6357,6 +6904,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf8",
           "package": "HaXml",
@@ -6370,6 +6918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf9",
           "package": "HaXml",
@@ -6379,6 +6928,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FiveOf9",
           "package": "HaXml",
@@ -6392,6 +6942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf10",
           "package": "HaXml",
@@ -6401,6 +6952,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf10",
           "package": "HaXml",
@@ -6414,6 +6966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf11",
           "package": "HaXml",
@@ -6423,6 +6976,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf11",
           "package": "HaXml",
@@ -6436,6 +6990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf12",
           "package": "HaXml",
@@ -6445,6 +7000,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf12",
           "package": "HaXml",
@@ -6458,6 +7014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf13",
           "package": "HaXml",
@@ -6467,6 +7024,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf13",
           "package": "HaXml",
@@ -6480,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf14",
           "package": "HaXml",
@@ -6489,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf14",
           "package": "HaXml",
@@ -6502,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf15",
           "package": "HaXml",
@@ -6511,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf15",
           "package": "HaXml",
@@ -6524,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf16",
           "package": "HaXml",
@@ -6533,6 +7096,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf16",
           "package": "HaXml",
@@ -6546,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf17",
           "package": "HaXml",
@@ -6555,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf17",
           "package": "HaXml",
@@ -6568,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf18",
           "package": "HaXml",
@@ -6577,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf18",
           "package": "HaXml",
@@ -6590,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf19",
           "package": "HaXml",
@@ -6599,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf19",
           "package": "HaXml",
@@ -6612,6 +7182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf20",
           "package": "HaXml",
@@ -6621,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf20",
           "package": "HaXml",
@@ -6634,6 +7206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf4",
           "package": "HaXml",
@@ -6643,6 +7216,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf4",
           "package": "HaXml",
@@ -6656,6 +7230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf5",
           "package": "HaXml",
@@ -6665,6 +7240,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf5",
           "package": "HaXml",
@@ -6678,6 +7254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf6",
           "package": "HaXml",
@@ -6687,6 +7264,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf6",
           "package": "HaXml",
@@ -6700,6 +7278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf7",
           "package": "HaXml",
@@ -6709,6 +7288,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf7",
           "package": "HaXml",
@@ -6722,6 +7302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf8",
           "package": "HaXml",
@@ -6731,6 +7312,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf8",
           "package": "HaXml",
@@ -6744,6 +7326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf9",
           "package": "HaXml",
@@ -6753,6 +7336,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourOf9",
           "package": "HaXml",
@@ -6766,6 +7350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf14",
           "package": "HaXml",
@@ -6775,6 +7360,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf14",
           "package": "HaXml",
@@ -6788,6 +7374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf15",
           "package": "HaXml",
@@ -6797,6 +7384,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf15",
           "package": "HaXml",
@@ -6810,6 +7398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf16",
           "package": "HaXml",
@@ -6819,6 +7408,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf16",
           "package": "HaXml",
@@ -6832,6 +7422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf17",
           "package": "HaXml",
@@ -6841,6 +7432,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf17",
           "package": "HaXml",
@@ -6854,6 +7446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf18",
           "package": "HaXml",
@@ -6863,6 +7456,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf18",
           "package": "HaXml",
@@ -6876,6 +7470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf19",
           "package": "HaXml",
@@ -6885,6 +7480,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf19",
           "package": "HaXml",
@@ -6898,6 +7494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf20",
           "package": "HaXml",
@@ -6907,6 +7504,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "FourteenOf20",
           "package": "HaXml",
@@ -6920,6 +7518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf10",
           "package": "HaXml",
@@ -6929,6 +7528,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf10",
           "package": "HaXml",
@@ -6942,6 +7542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf11",
           "package": "HaXml",
@@ -6951,6 +7552,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf11",
           "package": "HaXml",
@@ -6964,6 +7566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf12",
           "package": "HaXml",
@@ -6973,6 +7576,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf12",
           "package": "HaXml",
@@ -6986,6 +7590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf13",
           "package": "HaXml",
@@ -6995,6 +7600,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf13",
           "package": "HaXml",
@@ -7008,6 +7614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf14",
           "package": "HaXml",
@@ -7017,6 +7624,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf14",
           "package": "HaXml",
@@ -7030,6 +7638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf15",
           "package": "HaXml",
@@ -7039,6 +7648,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf15",
           "package": "HaXml",
@@ -7052,6 +7662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf16",
           "package": "HaXml",
@@ -7061,6 +7672,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf16",
           "package": "HaXml",
@@ -7074,6 +7686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf17",
           "package": "HaXml",
@@ -7083,6 +7696,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf17",
           "package": "HaXml",
@@ -7096,6 +7710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf18",
           "package": "HaXml",
@@ -7105,6 +7720,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf18",
           "package": "HaXml",
@@ -7118,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf19",
           "package": "HaXml",
@@ -7127,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf19",
           "package": "HaXml",
@@ -7140,6 +7758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf20",
           "package": "HaXml",
@@ -7149,6 +7768,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf20",
           "package": "HaXml",
@@ -7162,6 +7782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf9",
           "package": "HaXml",
@@ -7171,6 +7792,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineOf9",
           "package": "HaXml",
@@ -7184,6 +7806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineteenOf19",
           "package": "HaXml",
@@ -7193,6 +7816,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineteenOf19",
           "package": "HaXml",
@@ -7206,6 +7830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineteenOf20",
           "package": "HaXml",
@@ -7215,6 +7840,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "NineteenOf20",
           "package": "HaXml",
@@ -7228,6 +7854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf1",
           "package": "HaXml",
@@ -7237,6 +7864,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf1",
           "package": "HaXml",
@@ -7250,6 +7878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf10",
           "package": "HaXml",
@@ -7259,6 +7888,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf10",
           "package": "HaXml",
@@ -7272,6 +7902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf11",
           "package": "HaXml",
@@ -7281,6 +7912,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf11",
           "package": "HaXml",
@@ -7294,6 +7926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf12",
           "package": "HaXml",
@@ -7303,6 +7936,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf12",
           "package": "HaXml",
@@ -7316,6 +7950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf13",
           "package": "HaXml",
@@ -7325,6 +7960,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf13",
           "package": "HaXml",
@@ -7338,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf14",
           "package": "HaXml",
@@ -7347,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf14",
           "package": "HaXml",
@@ -7360,6 +7998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf15",
           "package": "HaXml",
@@ -7369,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf15",
           "package": "HaXml",
@@ -7382,6 +8022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf16",
           "package": "HaXml",
@@ -7391,6 +8032,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf16",
           "package": "HaXml",
@@ -7404,6 +8046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf17",
           "package": "HaXml",
@@ -7413,6 +8056,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf17",
           "package": "HaXml",
@@ -7426,6 +8070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf18",
           "package": "HaXml",
@@ -7435,6 +8080,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf18",
           "package": "HaXml",
@@ -7448,6 +8094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf19",
           "package": "HaXml",
@@ -7457,6 +8104,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf19",
           "package": "HaXml",
@@ -7470,6 +8118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf2",
           "package": "HaXml",
@@ -7479,6 +8128,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf2",
           "package": "HaXml",
@@ -7492,6 +8142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf20",
           "package": "HaXml",
@@ -7501,6 +8152,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf20",
           "package": "HaXml",
@@ -7514,6 +8166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf3",
           "package": "HaXml",
@@ -7523,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf3",
           "package": "HaXml",
@@ -7536,6 +8190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf4",
           "package": "HaXml",
@@ -7545,6 +8200,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf4",
           "package": "HaXml",
@@ -7558,6 +8214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf5",
           "package": "HaXml",
@@ -7567,6 +8224,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf5",
           "package": "HaXml",
@@ -7580,6 +8238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf6",
           "package": "HaXml",
@@ -7589,6 +8248,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf6",
           "package": "HaXml",
@@ -7602,6 +8262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf7",
           "package": "HaXml",
@@ -7611,6 +8272,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf7",
           "package": "HaXml",
@@ -7624,6 +8286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf8",
           "package": "HaXml",
@@ -7633,6 +8296,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf8",
           "package": "HaXml",
@@ -7646,6 +8310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf9",
           "package": "HaXml",
@@ -7655,6 +8320,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "OneOf9",
           "package": "HaXml",
@@ -7668,6 +8334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf10",
           "package": "HaXml",
@@ -7677,6 +8344,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf10",
           "package": "HaXml",
@@ -7690,6 +8358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf11",
           "package": "HaXml",
@@ -7699,6 +8368,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf11",
           "package": "HaXml",
@@ -7712,6 +8382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf12",
           "package": "HaXml",
@@ -7721,6 +8392,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf12",
           "package": "HaXml",
@@ -7734,6 +8406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf13",
           "package": "HaXml",
@@ -7743,6 +8416,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf13",
           "package": "HaXml",
@@ -7756,6 +8430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf14",
           "package": "HaXml",
@@ -7765,6 +8440,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf14",
           "package": "HaXml",
@@ -7778,6 +8454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf15",
           "package": "HaXml",
@@ -7787,6 +8464,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf15",
           "package": "HaXml",
@@ -7800,6 +8478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf16",
           "package": "HaXml",
@@ -7809,6 +8488,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf16",
           "package": "HaXml",
@@ -7822,6 +8502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf17",
           "package": "HaXml",
@@ -7831,6 +8512,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf17",
           "package": "HaXml",
@@ -7844,6 +8526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf18",
           "package": "HaXml",
@@ -7853,6 +8536,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf18",
           "package": "HaXml",
@@ -7866,6 +8550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf19",
           "package": "HaXml",
@@ -7875,6 +8560,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf19",
           "package": "HaXml",
@@ -7888,6 +8574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf20",
           "package": "HaXml",
@@ -7897,6 +8584,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf20",
           "package": "HaXml",
@@ -7910,6 +8598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf7",
           "package": "HaXml",
@@ -7919,6 +8608,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf7",
           "package": "HaXml",
@@ -7932,6 +8622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf8",
           "package": "HaXml",
@@ -7941,6 +8632,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf8",
           "package": "HaXml",
@@ -7954,6 +8646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf9",
           "package": "HaXml",
@@ -7963,6 +8656,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SevenOf9",
           "package": "HaXml",
@@ -7976,6 +8670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SeventeenOf17",
           "package": "HaXml",
@@ -7985,6 +8680,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SeventeenOf17",
           "package": "HaXml",
@@ -7998,6 +8694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SeventeenOf18",
           "package": "HaXml",
@@ -8007,6 +8704,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SeventeenOf18",
           "package": "HaXml",
@@ -8020,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SeventeenOf19",
           "package": "HaXml",
@@ -8029,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SeventeenOf19",
           "package": "HaXml",
@@ -8042,6 +8742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SeventeenOf20",
           "package": "HaXml",
@@ -8051,6 +8752,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SeventeenOf20",
           "package": "HaXml",
@@ -8064,6 +8766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf10",
           "package": "HaXml",
@@ -8073,6 +8776,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf10",
           "package": "HaXml",
@@ -8086,6 +8790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf11",
           "package": "HaXml",
@@ -8095,6 +8800,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf11",
           "package": "HaXml",
@@ -8108,6 +8814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf12",
           "package": "HaXml",
@@ -8117,6 +8824,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf12",
           "package": "HaXml",
@@ -8130,6 +8838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf13",
           "package": "HaXml",
@@ -8139,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf13",
           "package": "HaXml",
@@ -8152,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf14",
           "package": "HaXml",
@@ -8161,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf14",
           "package": "HaXml",
@@ -8174,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf15",
           "package": "HaXml",
@@ -8183,6 +8896,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf15",
           "package": "HaXml",
@@ -8196,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf16",
           "package": "HaXml",
@@ -8205,6 +8920,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf16",
           "package": "HaXml",
@@ -8218,6 +8934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf17",
           "package": "HaXml",
@@ -8227,6 +8944,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf17",
           "package": "HaXml",
@@ -8240,6 +8958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf18",
           "package": "HaXml",
@@ -8249,6 +8968,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf18",
           "package": "HaXml",
@@ -8262,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf19",
           "package": "HaXml",
@@ -8271,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf19",
           "package": "HaXml",
@@ -8284,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf20",
           "package": "HaXml",
@@ -8293,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf20",
           "package": "HaXml",
@@ -8306,6 +9030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf6",
           "package": "HaXml",
@@ -8315,6 +9040,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf6",
           "package": "HaXml",
@@ -8328,6 +9054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf7",
           "package": "HaXml",
@@ -8337,6 +9064,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf7",
           "package": "HaXml",
@@ -8350,6 +9078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf8",
           "package": "HaXml",
@@ -8359,6 +9088,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf8",
           "package": "HaXml",
@@ -8372,6 +9102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf9",
           "package": "HaXml",
@@ -8381,6 +9112,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixOf9",
           "package": "HaXml",
@@ -8394,6 +9126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf16",
           "package": "HaXml",
@@ -8403,6 +9136,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf16",
           "package": "HaXml",
@@ -8416,6 +9150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf17",
           "package": "HaXml",
@@ -8425,6 +9160,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf17",
           "package": "HaXml",
@@ -8438,6 +9174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf18",
           "package": "HaXml",
@@ -8447,6 +9184,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf18",
           "package": "HaXml",
@@ -8460,6 +9198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf19",
           "package": "HaXml",
@@ -8469,6 +9208,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf19",
           "package": "HaXml",
@@ -8482,6 +9222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf20",
           "package": "HaXml",
@@ -8491,6 +9232,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "SixteenOf20",
           "package": "HaXml",
@@ -8504,6 +9246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf10",
           "package": "HaXml",
@@ -8513,6 +9256,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf10",
           "package": "HaXml",
@@ -8526,6 +9270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf11",
           "package": "HaXml",
@@ -8535,6 +9280,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf11",
           "package": "HaXml",
@@ -8548,6 +9294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf12",
           "package": "HaXml",
@@ -8557,6 +9304,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf12",
           "package": "HaXml",
@@ -8570,6 +9318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf13",
           "package": "HaXml",
@@ -8579,6 +9328,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf13",
           "package": "HaXml",
@@ -8592,6 +9342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf14",
           "package": "HaXml",
@@ -8601,6 +9352,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf14",
           "package": "HaXml",
@@ -8614,6 +9366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf15",
           "package": "HaXml",
@@ -8623,6 +9376,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf15",
           "package": "HaXml",
@@ -8636,6 +9390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf16",
           "package": "HaXml",
@@ -8645,6 +9400,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf16",
           "package": "HaXml",
@@ -8658,6 +9414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf17",
           "package": "HaXml",
@@ -8667,6 +9424,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf17",
           "package": "HaXml",
@@ -8680,6 +9438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf18",
           "package": "HaXml",
@@ -8689,6 +9448,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf18",
           "package": "HaXml",
@@ -8702,6 +9462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf19",
           "package": "HaXml",
@@ -8711,6 +9472,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf19",
           "package": "HaXml",
@@ -8724,6 +9486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf20",
           "package": "HaXml",
@@ -8733,6 +9496,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TenOf20",
           "package": "HaXml",
@@ -8746,6 +9510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf13",
           "package": "HaXml",
@@ -8755,6 +9520,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf13",
           "package": "HaXml",
@@ -8768,6 +9534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf14",
           "package": "HaXml",
@@ -8777,6 +9544,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf14",
           "package": "HaXml",
@@ -8790,6 +9558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf15",
           "package": "HaXml",
@@ -8799,6 +9568,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf15",
           "package": "HaXml",
@@ -8812,6 +9582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf16",
           "package": "HaXml",
@@ -8821,6 +9592,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf16",
           "package": "HaXml",
@@ -8834,6 +9606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf17",
           "package": "HaXml",
@@ -8843,6 +9616,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf17",
           "package": "HaXml",
@@ -8856,6 +9630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf18",
           "package": "HaXml",
@@ -8865,6 +9640,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf18",
           "package": "HaXml",
@@ -8878,6 +9654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf19",
           "package": "HaXml",
@@ -8887,6 +9664,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf19",
           "package": "HaXml",
@@ -8900,6 +9678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf20",
           "package": "HaXml",
@@ -8909,6 +9688,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThirteenOf20",
           "package": "HaXml",
@@ -8922,6 +9702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf10",
           "package": "HaXml",
@@ -8931,6 +9712,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf10",
           "package": "HaXml",
@@ -8944,6 +9726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf11",
           "package": "HaXml",
@@ -8953,6 +9736,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf11",
           "package": "HaXml",
@@ -8966,6 +9750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf12",
           "package": "HaXml",
@@ -8975,6 +9760,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf12",
           "package": "HaXml",
@@ -8988,6 +9774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf13",
           "package": "HaXml",
@@ -8997,6 +9784,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf13",
           "package": "HaXml",
@@ -9010,6 +9798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf14",
           "package": "HaXml",
@@ -9019,6 +9808,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf14",
           "package": "HaXml",
@@ -9032,6 +9822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf15",
           "package": "HaXml",
@@ -9041,6 +9832,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf15",
           "package": "HaXml",
@@ -9054,6 +9846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf16",
           "package": "HaXml",
@@ -9063,6 +9856,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf16",
           "package": "HaXml",
@@ -9076,6 +9870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf17",
           "package": "HaXml",
@@ -9085,6 +9880,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf17",
           "package": "HaXml",
@@ -9098,6 +9894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf18",
           "package": "HaXml",
@@ -9107,6 +9904,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf18",
           "package": "HaXml",
@@ -9120,6 +9918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf19",
           "package": "HaXml",
@@ -9129,6 +9928,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf19",
           "package": "HaXml",
@@ -9142,6 +9942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf20",
           "package": "HaXml",
@@ -9151,6 +9952,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf20",
           "package": "HaXml",
@@ -9164,6 +9966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf3",
           "package": "HaXml",
@@ -9173,6 +9976,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf3",
           "package": "HaXml",
@@ -9186,6 +9990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf4",
           "package": "HaXml",
@@ -9195,6 +10000,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf4",
           "package": "HaXml",
@@ -9208,6 +10014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf5",
           "package": "HaXml",
@@ -9217,6 +10024,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf5",
           "package": "HaXml",
@@ -9230,6 +10038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf6",
           "package": "HaXml",
@@ -9239,6 +10048,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf6",
           "package": "HaXml",
@@ -9252,6 +10062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf7",
           "package": "HaXml",
@@ -9261,6 +10072,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf7",
           "package": "HaXml",
@@ -9274,6 +10086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf8",
           "package": "HaXml",
@@ -9283,6 +10096,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf8",
           "package": "HaXml",
@@ -9296,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf9",
           "package": "HaXml",
@@ -9305,6 +10120,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "ThreeOf9",
           "package": "HaXml",
@@ -9318,6 +10134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf12",
           "package": "HaXml",
@@ -9327,6 +10144,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf12",
           "package": "HaXml",
@@ -9340,6 +10158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf13",
           "package": "HaXml",
@@ -9349,6 +10168,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf13",
           "package": "HaXml",
@@ -9362,6 +10182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf14",
           "package": "HaXml",
@@ -9371,6 +10192,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf14",
           "package": "HaXml",
@@ -9384,6 +10206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf15",
           "package": "HaXml",
@@ -9393,6 +10216,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf15",
           "package": "HaXml",
@@ -9406,6 +10230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf16",
           "package": "HaXml",
@@ -9415,6 +10240,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf16",
           "package": "HaXml",
@@ -9428,6 +10254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf17",
           "package": "HaXml",
@@ -9437,6 +10264,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf17",
           "package": "HaXml",
@@ -9450,6 +10278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf18",
           "package": "HaXml",
@@ -9459,6 +10288,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf18",
           "package": "HaXml",
@@ -9472,6 +10302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf19",
           "package": "HaXml",
@@ -9481,6 +10312,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf19",
           "package": "HaXml",
@@ -9494,6 +10326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf20",
           "package": "HaXml",
@@ -9503,6 +10336,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwelveOf20",
           "package": "HaXml",
@@ -9516,6 +10350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwentyOf20",
           "package": "HaXml",
@@ -9525,6 +10360,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwentyOf20",
           "package": "HaXml",
@@ -9538,6 +10374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf10",
           "package": "HaXml",
@@ -9547,6 +10384,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf10",
           "package": "HaXml",
@@ -9560,6 +10398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf11",
           "package": "HaXml",
@@ -9569,6 +10408,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf11",
           "package": "HaXml",
@@ -9582,6 +10422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf12",
           "package": "HaXml",
@@ -9591,6 +10432,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf12",
           "package": "HaXml",
@@ -9604,6 +10446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf13",
           "package": "HaXml",
@@ -9613,6 +10456,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf13",
           "package": "HaXml",
@@ -9626,6 +10470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf14",
           "package": "HaXml",
@@ -9635,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf14",
           "package": "HaXml",
@@ -9648,6 +10494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf15",
           "package": "HaXml",
@@ -9657,6 +10504,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf15",
           "package": "HaXml",
@@ -9670,6 +10518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf16",
           "package": "HaXml",
@@ -9679,6 +10528,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf16",
           "package": "HaXml",
@@ -9692,6 +10542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf17",
           "package": "HaXml",
@@ -9701,6 +10552,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf17",
           "package": "HaXml",
@@ -9714,6 +10566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf18",
           "package": "HaXml",
@@ -9723,6 +10576,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf18",
           "package": "HaXml",
@@ -9736,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf19",
           "package": "HaXml",
@@ -9745,6 +10600,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf19",
           "package": "HaXml",
@@ -9758,6 +10614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf2",
           "package": "HaXml",
@@ -9767,6 +10624,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf2",
           "package": "HaXml",
@@ -9780,6 +10638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf20",
           "package": "HaXml",
@@ -9789,6 +10648,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf20",
           "package": "HaXml",
@@ -9802,6 +10662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf3",
           "package": "HaXml",
@@ -9811,6 +10672,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf3",
           "package": "HaXml",
@@ -9824,6 +10686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf4",
           "package": "HaXml",
@@ -9833,6 +10696,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf4",
           "package": "HaXml",
@@ -9846,6 +10710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf5",
           "package": "HaXml",
@@ -9855,6 +10720,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf5",
           "package": "HaXml",
@@ -9868,6 +10734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf6",
           "package": "HaXml",
@@ -9877,6 +10744,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf6",
           "package": "HaXml",
@@ -9890,6 +10758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf7",
           "package": "HaXml",
@@ -9899,6 +10768,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf7",
           "package": "HaXml",
@@ -9912,6 +10782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf8",
           "package": "HaXml",
@@ -9921,6 +10792,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf8",
           "package": "HaXml",
@@ -9934,6 +10806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf9",
           "package": "HaXml",
@@ -9943,6 +10816,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "TwoOf9",
           "package": "HaXml",
@@ -9956,6 +10830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf1",
           "package": "HaXml",
@@ -9965,6 +10840,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf1",
           "normalized": "(a-\u003eb)-\u003eOneOf a-\u003eb",
@@ -9980,6 +10856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf10",
           "package": "HaXml",
@@ -9989,6 +10866,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf10",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003eOneOf a c d e f g h i j k-\u003eb",
@@ -10004,6 +10882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf11",
           "package": "HaXml",
@@ -10013,6 +10892,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf11",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003eOneOf a c d e f g h i j k l-\u003eb",
@@ -10028,6 +10908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf12",
           "package": "HaXml",
@@ -10037,6 +10918,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf12",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003eOneOf a c d e f g h i j k l m-\u003eb",
@@ -10052,6 +10934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf13",
           "package": "HaXml",
@@ -10061,6 +10944,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf13",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003e(n-\u003eb)-\u003eOneOf a c d e f g h i j k l m n-\u003eb",
@@ -10076,6 +10960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf14",
           "package": "HaXml",
@@ -10085,6 +10970,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf14",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003e(n-\u003eb)-\u003e(o-\u003eb)-\u003eOneOf a c d e f g h i j k l m n o-\u003eb",
@@ -10100,6 +10986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf15",
           "package": "HaXml",
@@ -10109,6 +10996,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf15",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003e(n-\u003eb)-\u003e(o-\u003eb)-\u003e(p-\u003eb)-\u003eOneOf a c d e f g h i j k l m n o p-\u003eb",
@@ -10124,6 +11012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf16",
           "package": "HaXml",
@@ -10133,6 +11022,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf16",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003e(n-\u003eb)-\u003e(o-\u003eb)-\u003e(p-\u003eb)-\u003e(q-\u003eb)-\u003eOneOf a c d e f g h i j k l m n o p q-\u003eb",
@@ -10148,6 +11038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf17",
           "package": "HaXml",
@@ -10157,6 +11048,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf17",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003e(n-\u003eb)-\u003e(o-\u003eb)-\u003e(p-\u003eb)-\u003e(q-\u003eb)-\u003e(r-\u003eb)-\u003eOneOf a c d e f g h i j k l m n o p q r-\u003eb",
@@ -10172,6 +11064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf18",
           "package": "HaXml",
@@ -10181,6 +11074,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf18",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003e(n-\u003eb)-\u003e(o-\u003eb)-\u003e(p-\u003eb)-\u003e(q-\u003eb)-\u003e(r-\u003eb)-\u003e(s-\u003eb)-\u003eOneOf a c d e f g h i j k l m n o p q r s-\u003eb",
@@ -10196,6 +11090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf19",
           "package": "HaXml",
@@ -10205,6 +11100,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf19",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003e(n-\u003eb)-\u003e(o-\u003eb)-\u003e(p-\u003eb)-\u003e(q-\u003eb)-\u003e(r-\u003eb)-\u003e(s-\u003eb)-\u003e(t-\u003eb)-\u003eOneOf a c d e f g h i j k l m n o p q r s t-\u003eb",
@@ -10220,6 +11116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf2",
           "package": "HaXml",
@@ -10229,6 +11126,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf2",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eOneOf a c-\u003eb",
@@ -10244,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf20",
           "package": "HaXml",
@@ -10253,6 +11152,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf20",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003e(k-\u003eb)-\u003e(l-\u003eb)-\u003e(m-\u003eb)-\u003e(n-\u003eb)-\u003e(o-\u003eb)-\u003e(p-\u003eb)-\u003e(q-\u003eb)-\u003e(r-\u003eb)-\u003e(s-\u003eb)-\u003e(t-\u003eb)-\u003e(u-\u003eb)-\u003eOneOf a c d e f g h i j k l m n o p q r s t u-\u003eb",
@@ -10268,6 +11168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf3",
           "package": "HaXml",
@@ -10277,6 +11178,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf3",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003eOneOf a c d-\u003eb",
@@ -10292,6 +11194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf4",
           "package": "HaXml",
@@ -10301,6 +11204,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf4",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003eOneOf a c d e-\u003eb",
@@ -10316,6 +11220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf5",
           "package": "HaXml",
@@ -10325,6 +11230,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf5",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003eOneOf a c d e f-\u003eb",
@@ -10340,6 +11246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf6",
           "package": "HaXml",
@@ -10349,6 +11256,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf6",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003eOneOf a c d e f g-\u003eb",
@@ -10364,6 +11272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf7",
           "package": "HaXml",
@@ -10373,6 +11282,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf7",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003eOneOf a c d e f g h-\u003eb",
@@ -10388,6 +11298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf8",
           "package": "HaXml",
@@ -10397,6 +11308,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf8",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003eOneOf a c d e f g h i-\u003eb",
@@ -10412,6 +11324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf9",
           "package": "HaXml",
@@ -10421,6 +11334,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml OneOfN",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.OneOfN",
           "name": "foldOneOf9",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003e(f-\u003eb)-\u003e(g-\u003eb)-\u003e(h-\u003eb)-\u003e(i-\u003eb)-\u003e(j-\u003eb)-\u003eOneOf a c d e f g h i j-\u003eb",
@@ -10437,6 +11351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA non-validating XML parser.  For the input grammar, see\n   \u003ca\u003ehttp://www.w3.org/TR/REC-xml\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "Parse",
           "package": "HaXml",
@@ -10446,6 +11361,7 @@
         "index": {
           "description": "non-validating XML parser For the input grammar see http www.w3.org TR REC-xml",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "Parse",
           "package": "HaXml",
@@ -10460,6 +11376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXParser is just a specialisation of the PolyState parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "XParser",
           "package": "HaXml",
@@ -10469,6 +11386,7 @@
         "index": {
           "description": "XParser is just specialisation of the PolyState parser",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "XParser",
           "package": "HaXml",
@@ -10482,6 +11400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "cdsect",
           "package": "HaXml",
@@ -10491,6 +11410,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "cdsect",
           "package": "HaXml",
@@ -10504,6 +11424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn parsed freetext (i.e. until the next markup)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "chardata",
           "package": "HaXml",
@@ -10514,6 +11435,7 @@
         "index": {
           "description": "Return parsed freetext i.e until the next markup",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "chardata",
           "package": "HaXml",
@@ -10527,6 +11449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an XML comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "comment",
           "package": "HaXml",
@@ -10537,6 +11460,7 @@
         "index": {
           "description": "Return an XML comment",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "comment",
           "package": "HaXml",
@@ -10550,6 +11474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a content particle, e.g. text, element, reference, etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "content",
           "package": "HaXml",
@@ -10560,6 +11485,7 @@
         "index": {
           "description": "Return content particle e.g text element reference etc",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "content",
           "package": "HaXml",
@@ -10573,6 +11499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a DOCTYPE decl, indicating a DTD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "doctypedecl",
           "package": "HaXml",
@@ -10583,6 +11510,7 @@
         "index": {
           "description": "Return DOCTYPE decl indicating DTD",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "doctypedecl",
           "package": "HaXml",
@@ -10596,6 +11524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an entire XML document including prolog and trailing junk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "document",
           "package": "HaXml",
@@ -10606,6 +11535,7 @@
         "index": {
           "description": "Return an entire XML document including prolog and trailing junk",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "document",
           "package": "HaXml",
@@ -10619,6 +11549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo parse just a DTD, \u003ccode\u003edtdParse file content\u003c/code\u003e takes a filename\n   (for generating error reports) and the string content of that\n   file.  If no DTD was found, you get \u003ccode\u003eNothing\u003c/code\u003e rather than an error.\n   However, if a DTD is found but contains errors, the program crashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "dtdParse",
           "package": "HaXml",
@@ -10629,6 +11560,7 @@
         "index": {
           "description": "To parse just DTD dtdParse file content takes filename for generating error reports and the string content of that file If no DTD was found you get Nothing rather than an error However if DTD is found but contains errors the program crashes",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "dtdParse",
           "normalized": "String-\u003eString-\u003eMaybe DocTypeDecl",
@@ -10645,6 +11577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo parse just a DTD, \u003ccode\u003edtdParse' file content\u003c/code\u003e takes a filename\n   (for generating error reports) and the string content of that\n   file.  If no DTD was found, you get \u003ccode\u003eRight Nothing\u003c/code\u003e.\n   If a DTD was found but contains errors, you get a \u003ccode\u003eLeft message\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "dtdParse'",
           "package": "HaXml",
@@ -10655,6 +11588,7 @@
         "index": {
           "description": "To parse just DTD dtdParse file content takes filename for generating error reports and the string content of that file If no DTD was found you get Right Nothing If DTD was found but contains errors you get Left message",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "dtdParse'",
           "normalized": "String-\u003eString-\u003eEither String(Maybe DocTypeDecl)",
@@ -10671,6 +11605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor use with stream parsers - accepts a closing tag, provided it\n   matches the given element name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "elemCloseTag",
           "package": "HaXml",
@@ -10681,6 +11616,7 @@
         "index": {
           "description": "For use with stream parsers accepts closing tag provided it matches the given element name",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "elemCloseTag",
           "normalized": "QName-\u003eXParser()",
@@ -10697,6 +11633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor use with stream parsers - returns the complete opening element tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "elemOpenTag",
           "package": "HaXml",
@@ -10707,6 +11644,7 @@
         "index": {
           "description": "For use with stream parsers returns the complete opening element tag",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "elemOpenTag",
           "package": "HaXml",
@@ -10721,6 +11659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a complete element including all its inner content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "element",
           "package": "HaXml",
@@ -10731,6 +11670,7 @@
         "index": {
           "description": "Return complete element including all its inner content",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "element",
           "package": "HaXml",
@@ -10744,6 +11684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse only the parts between angle brackets in an element tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "elemtag",
           "package": "HaXml",
@@ -10754,6 +11695,7 @@
         "index": {
           "description": "Parse only the parts between angle brackets in an element tag",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "elemtag",
           "package": "HaXml",
@@ -10767,6 +11709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome empty symbol tables for GE and PE references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "emptySTs",
           "package": "HaXml",
@@ -10777,6 +11720,7 @@
         "index": {
           "description": "Some empty symbol tables for GE and PE references",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "emptySTs",
           "package": "HaXml",
@@ -10790,6 +11734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "fst3",
           "package": "HaXml",
@@ -10799,6 +11744,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -10814,6 +11760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn just a name, e.g. element name, attribute name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "name",
           "package": "HaXml",
@@ -10824,6 +11771,7 @@
         "index": {
           "description": "Return just name e.g element name attribute name",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "name",
           "package": "HaXml",
@@ -10837,6 +11785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a processing instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "processinginstruction",
           "package": "HaXml",
@@ -10847,6 +11796,7 @@
         "index": {
           "description": "Parse processing instruction",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "processinginstruction",
           "package": "HaXml",
@@ -10860,6 +11810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a qualified name (although the namespace qualification is not\n   processed here; this is merely to get the correct type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "qname",
           "package": "HaXml",
@@ -10870,6 +11821,7 @@
         "index": {
           "description": "Return qualified name although the namespace qualification is not processed here this is merely to get the correct type",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "qname",
           "package": "HaXml",
@@ -10883,6 +11835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn either a general entity reference, or a character reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "reference",
           "package": "HaXml",
@@ -10893,6 +11846,7 @@
         "index": {
           "description": "Return either general entity reference or character reference",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "reference",
           "package": "HaXml",
@@ -10905,6 +11859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "snd3",
           "package": "HaXml",
@@ -10914,6 +11869,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -10928,6 +11884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "thd3",
           "package": "HaXml",
@@ -10937,6 +11894,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "thd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -10952,6 +11910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next token from the input only if it matches the given token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "tok",
           "package": "HaXml",
@@ -10962,6 +11921,7 @@
         "index": {
           "description": "Return the next token from the input only if it matches the given token",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "tok",
           "normalized": "TokenT-\u003eXParser TokenT",
@@ -10977,6 +11937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo parse a whole document, \u003ccode\u003exmlParse file content\u003c/code\u003e takes a filename\n   (for generating error reports) and the string content of that file.\n   A parse error causes program failure, with message to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "xmlParse",
           "package": "HaXml",
@@ -10987,6 +11948,7 @@
         "index": {
           "description": "To parse whole document xmlParse file content takes filename for generating error reports and the string content of that file parse error causes program failure with message to stderr",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "xmlParse",
           "normalized": "String-\u003eString-\u003eDocument Posn",
@@ -11003,6 +11965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo parse a whole document, \u003ccode\u003exmlParse' file content\u003c/code\u003e takes a filename\n   (for generating error reports) and the string content of that file.\n   Any parse error message is passed back to the caller through the\n   \u003ccode\u003eEither\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "xmlParse'",
           "package": "HaXml",
@@ -11013,6 +11976,7 @@
         "index": {
           "description": "To parse whole document xmlParse file content takes filename for generating error reports and the string content of that file Any parse error message is passed back to the caller through the Either type",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "xmlParse'",
           "normalized": "String-\u003eString-\u003eEither String(Document Posn)",
@@ -11029,6 +11993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo parse a partial document, e.g. from an XML-based stream protocol,\n   where you may later want to get more document elements from the same\n   stream.  Arguments are: a parser for the item you want, and the\n   already-lexed input to parse from.  Returns the item you wanted\n   (or an error message), plus the remainder of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Parse",
           "name": "xmlParseWith",
           "package": "HaXml",
@@ -11039,6 +12004,7 @@
         "index": {
           "description": "To parse partial document e.g from an XML-based stream protocol where you may later want to get more document elements from the same stream Arguments are parser for the item you want and the already-lexed input to parse from Returns the item you wanted or an error message plus the remainder of the input",
           "hierarchy": "Text XML HaXml Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Parse",
           "name": "xmlParseWith",
           "normalized": "XParser a-\u003e[(Posn,TokenT)]-\u003e(Either String a,[(Posn,TokenT)])",
@@ -11055,6 +12021,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA non-validating XML parser.  For the input grammar, see\n   \u003ca\u003ehttp://www.w3.org/TR/REC-xml\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "ParseLazy",
           "package": "HaXml",
@@ -11064,6 +12031,7 @@
         "index": {
           "description": "non-validating XML parser For the input grammar see http www.w3.org TR REC-xml",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "ParseLazy",
           "package": "HaXml",
@@ -11078,6 +12046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXParser is just a specialisation of the PolyStateLazy parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "XParser",
           "package": "HaXml",
@@ -11087,6 +12056,7 @@
         "index": {
           "description": "XParser is just specialisation of the PolyStateLazy parser",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "XParser",
           "package": "HaXml",
@@ -11101,6 +12071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn parsed freetext (i.e. until the next markup)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "chardata",
           "package": "HaXml",
@@ -11111,6 +12082,7 @@
         "index": {
           "description": "Return parsed freetext i.e until the next markup",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "chardata",
           "package": "HaXml",
@@ -11124,6 +12096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an XML comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "comment",
           "package": "HaXml",
@@ -11134,6 +12107,7 @@
         "index": {
           "description": "Return an XML comment",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "comment",
           "package": "HaXml",
@@ -11147,6 +12121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a content particle, e.g. text, element, reference, etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "content",
           "package": "HaXml",
@@ -11157,6 +12132,7 @@
         "index": {
           "description": "Return content particle e.g text element reference etc",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "content",
           "package": "HaXml",
@@ -11170,6 +12146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a DOCTYPE decl, indicating a DTD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "doctypedecl",
           "package": "HaXml",
@@ -11180,6 +12157,7 @@
         "index": {
           "description": "Return DOCTYPE decl indicating DTD",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "doctypedecl",
           "package": "HaXml",
@@ -11193,6 +12171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an entire XML document including prolog and trailing junk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "document",
           "package": "HaXml",
@@ -11203,6 +12182,7 @@
         "index": {
           "description": "Return an entire XML document including prolog and trailing junk",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "document",
           "package": "HaXml",
@@ -11216,6 +12196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo parse just a DTD, \u003ccode\u003edtdParse file content\u003c/code\u003e takes a filename\n   (for generating error reports) and the string content of that\n   file.  If no DTD was found, you get \u003ccode\u003eNothing\u003c/code\u003e rather than an error.\n   However, if a DTD is found but contains errors, the program crashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "dtdParse",
           "package": "HaXml",
@@ -11226,6 +12207,7 @@
         "index": {
           "description": "To parse just DTD dtdParse file content takes filename for generating error reports and the string content of that file If no DTD was found you get Nothing rather than an error However if DTD is found but contains errors the program crashes",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "dtdParse",
           "normalized": "String-\u003eString-\u003eMaybe DocTypeDecl",
@@ -11242,6 +12224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor use with stream parsers - accepts a closing tag, provided it\n   matches the given element name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "elemCloseTag",
           "package": "HaXml",
@@ -11252,6 +12235,7 @@
         "index": {
           "description": "For use with stream parsers accepts closing tag provided it matches the given element name",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "elemCloseTag",
           "normalized": "QName-\u003eXParser()",
@@ -11268,6 +12252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor use with stream parsers - returns the complete opening element tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "elemOpenTag",
           "package": "HaXml",
@@ -11278,6 +12263,7 @@
         "index": {
           "description": "For use with stream parsers returns the complete opening element tag",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "elemOpenTag",
           "package": "HaXml",
@@ -11292,6 +12278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a complete element including all its inner content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "element",
           "package": "HaXml",
@@ -11302,6 +12289,7 @@
         "index": {
           "description": "Return complete element including all its inner content",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "element",
           "package": "HaXml",
@@ -11315,6 +12303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse only the parts between angle brackets in an element tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "elemtag",
           "package": "HaXml",
@@ -11325,6 +12314,7 @@
         "index": {
           "description": "Parse only the parts between angle brackets in an element tag",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "elemtag",
           "package": "HaXml",
@@ -11338,6 +12328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome empty symbol tables for GE and PE references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "emptySTs",
           "package": "HaXml",
@@ -11348,6 +12339,7 @@
         "index": {
           "description": "Some empty symbol tables for GE and PE references",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "emptySTs",
           "package": "HaXml",
@@ -11361,6 +12353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "fst3",
           "package": "HaXml",
@@ -11370,6 +12363,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -11385,6 +12379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn just a name, e.g. element name, attribute name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "name",
           "package": "HaXml",
@@ -11395,6 +12390,7 @@
         "index": {
           "description": "Return just name e.g element name attribute name",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "name",
           "package": "HaXml",
@@ -11408,6 +12404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a processing instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "processinginstruction",
           "package": "HaXml",
@@ -11418,6 +12415,7 @@
         "index": {
           "description": "Parse processing instruction",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "processinginstruction",
           "package": "HaXml",
@@ -11431,6 +12429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a qualified name (although the namespace qualification is not\n   processed here; this is merely to get the correct type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "qname",
           "package": "HaXml",
@@ -11441,6 +12440,7 @@
         "index": {
           "description": "Return qualified name although the namespace qualification is not processed here this is merely to get the correct type",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "qname",
           "package": "HaXml",
@@ -11454,6 +12454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn either a general entity reference, or a character reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "reference",
           "package": "HaXml",
@@ -11464,6 +12465,7 @@
         "index": {
           "description": "Return either general entity reference or character reference",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "reference",
           "package": "HaXml",
@@ -11476,6 +12478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "snd3",
           "package": "HaXml",
@@ -11485,6 +12488,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -11499,6 +12503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "thd3",
           "package": "HaXml",
@@ -11508,6 +12513,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "thd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -11523,6 +12529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the next token from the input only if it matches the given token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "tok",
           "package": "HaXml",
@@ -11533,6 +12540,7 @@
         "index": {
           "description": "Return the next token from the input only if it matches the given token",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "tok",
           "normalized": "TokenT-\u003eXParser TokenT",
@@ -11548,6 +12556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo parse a whole document, \u003ccode\u003exmlParse file content\u003c/code\u003e takes a filename\n   (for generating error reports) and the string content of that file.\n   A parse error causes program failure, with message to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "xmlParse",
           "package": "HaXml",
@@ -11558,6 +12567,7 @@
         "index": {
           "description": "To parse whole document xmlParse file content takes filename for generating error reports and the string content of that file parse error causes program failure with message to stderr",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "xmlParse",
           "normalized": "String-\u003eString-\u003eDocument Posn",
@@ -11574,6 +12584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo parse a partial document, e.g. from an XML-based stream protocol,\n   where you may later want to get more document elements from the same\n   stream.  Arguments are: a parser for the item you want, and the\n   already-lexed input to parse from.  Returns the item you wanted\n   (or an error message), plus the remainder of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "xmlParseWith",
           "package": "HaXml",
@@ -11584,6 +12595,7 @@
         "index": {
           "description": "To parse partial document e.g from an XML-based stream protocol where you may later want to get more document elements from the same stream Arguments are parser for the item you want and the already-lexed input to parse from Returns the item you wanted or an error message plus the remainder of the input",
           "hierarchy": "Text XML HaXml ParseLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ParseLazy",
           "name": "xmlParseWith",
           "normalized": "XParser a-\u003e[(Posn,TokenT)]-\u003e(Either String a,[(Posn,TokenT)])",
@@ -11600,6 +12612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefine a position datatype for giving locations in error messages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "Posn",
           "package": "HaXml",
@@ -11609,6 +12622,7 @@
         "index": {
           "description": "Define position datatype for giving locations in error messages",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "Posn",
           "package": "HaXml",
@@ -11623,6 +12637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource positions contain a filename, line, column, and an\n   inclusion point, which is itself another source position,\n   recursively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "Posn",
           "package": "HaXml",
@@ -11632,6 +12647,7 @@
         "index": {
           "description": "Source positions contain filename line column and an inclusion point which is itself another source position recursively",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "Posn",
           "package": "HaXml",
@@ -11646,6 +12662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd n character positions to the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "addcol",
           "package": "HaXml",
@@ -11656,6 +12673,7 @@
         "index": {
           "description": "Add character positions to the given position",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "addcol",
           "normalized": "Int-\u003ePosn-\u003ePosn",
@@ -11671,6 +12689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust used to strictify the internal values of a position, to avoid\n   space leaks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "forcep",
           "package": "HaXml",
@@ -11681,6 +12700,7 @@
         "index": {
           "description": "Just used to strictify the internal values of position to avoid space leaks",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "forcep",
           "normalized": "Posn-\u003eInt",
@@ -11696,6 +12716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a newline or tab to the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "newline",
           "package": "HaXml",
@@ -11706,6 +12727,7 @@
         "index": {
           "description": "Add newline or tab to the given position",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "newline",
           "normalized": "Posn-\u003ePosn",
@@ -11721,6 +12743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy value for generated data, where a true source position does\n   not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "noPos",
           "package": "HaXml",
@@ -11731,6 +12754,7 @@
         "index": {
           "description": "Dummy value for generated data where true source position does not exist",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "noPos",
           "package": "HaXml",
@@ -11745,6 +12769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eposInNewCxt name pos\u003c/code\u003e creates a new source position from an old one.\n   It is used when opening a new file (e.g. a DTD inclusion), to denote\n   the start of the file \u003ccode\u003ename\u003c/code\u003e, but retain the stacked information that\n   it was included from the old \u003ccode\u003epos\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "posInNewCxt",
           "package": "HaXml",
@@ -11755,6 +12780,7 @@
         "index": {
           "description": "posInNewCxt name pos creates new source position from an old one It is used when opening new file e.g DTD inclusion to denote the start of the file name but retain the stacked information that it was included from the old pos",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "posInNewCxt",
           "normalized": "String-\u003eMaybe Posn-\u003ePosn",
@@ -11770,6 +12796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "posnColumn",
           "package": "HaXml",
@@ -11779,6 +12806,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "posnColumn",
           "normalized": "Posn-\u003eInt",
@@ -11794,6 +12822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "posnFilename",
           "package": "HaXml",
@@ -11803,6 +12832,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "posnFilename",
           "normalized": "Posn-\u003eFilePath",
@@ -11818,6 +12848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "posnLine",
           "package": "HaXml",
@@ -11827,6 +12858,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "posnLine",
           "normalized": "Posn-\u003eInt",
@@ -11843,6 +12875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a newline or tab to the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "tab",
           "package": "HaXml",
@@ -11853,6 +12886,7 @@
         "index": {
           "description": "Add newline or tab to the given position",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "tab",
           "normalized": "Posn-\u003ePosn",
@@ -11868,6 +12902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the given whitespace char to the given position.\n   Precondition: \u003ccode\u003ewhite c | isSpace c = True\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Posn",
           "name": "white",
           "package": "HaXml",
@@ -11878,6 +12913,7 @@
         "index": {
           "description": "Add the given whitespace char to the given position Precondition white isSpace True",
           "hierarchy": "Text XML HaXml Posn",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Posn",
           "name": "white",
           "normalized": "Char-\u003ePosn-\u003ePosn",
@@ -11893,6 +12929,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a pretty-printer for turning the internal representation\n   of generic structured XML documents into the Doc type (which can\n   later be rendered using Text.PrettyPrint.HughesPJ.render).\n   Essentially there is one pp function for each type in\n   Text.Xml.HaXml.Types, so you can pretty-print as much or as little\n   of the document as you wish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Pretty",
           "name": "Pretty",
           "package": "HaXml",
@@ -11902,6 +12939,7 @@
         "index": {
           "description": "This is pretty-printer for turning the internal representation of generic structured XML documents into the Doc type which can later be rendered using Text.PrettyPrint.HughesPJ.render Essentially there is one pp function for each type in Text.Xml.HaXml.Types so you can pretty-print as much or as little of the document as you wish",
           "hierarchy": "Text XML HaXml Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Pretty",
           "name": "Pretty",
           "package": "HaXml",
@@ -11915,6 +12953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Pretty",
           "name": "content",
           "package": "HaXml",
@@ -11924,6 +12963,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Pretty",
           "name": "content",
           "normalized": "Content a-\u003eDoc",
@@ -11938,6 +12978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Pretty",
           "name": "cp",
           "package": "HaXml",
@@ -11947,6 +12988,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Pretty",
           "name": "cp",
           "normalized": "CP-\u003eDoc",
@@ -11961,6 +13003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Pretty",
           "name": "doctypedecl",
           "package": "HaXml",
@@ -11970,6 +13013,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Pretty",
           "name": "doctypedecl",
           "normalized": "DocTypeDecl-\u003eDoc",
@@ -11984,6 +13028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Pretty",
           "name": "document",
           "package": "HaXml",
@@ -11993,6 +13038,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Pretty",
           "name": "document",
           "normalized": "Document a-\u003eDoc",
@@ -12007,6 +13053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Pretty",
           "name": "element",
           "package": "HaXml",
@@ -12016,6 +13063,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Pretty",
           "name": "element",
           "normalized": "Element a-\u003eDoc",
@@ -12030,6 +13078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Pretty",
           "name": "prolog",
           "package": "HaXml",
@@ -12039,6 +13088,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Pretty",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Pretty",
           "name": "prolog",
           "normalized": "Prolog-\u003eDoc",
@@ -12054,6 +13104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA streaming XML parser, using a method known as SAX. SAX isn't really a\n   standard, but an implementation, so it's just an \"SAX-like\" parser.\n   This module allows you parse an XML document without having to evaluate\n   it as a whole. This is needed for protocols like jabber, which use xml\n   streams for communication.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SAX",
           "package": "HaXml",
@@ -12063,6 +13114,7 @@
         "index": {
           "description": "streaming XML parser using method known as SAX SAX isn really standard but an implementation so it just an SAX-like parser This module allows you parse an XML document without having to evaluate it as whole This is needed for protocols like jabber which use xml streams for communication",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SAX",
           "package": "HaXml",
@@ -12076,6 +13128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxElement",
           "package": "HaXml",
@@ -12084,6 +13137,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxElement",
           "package": "HaXml",
@@ -12098,6 +13152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome string data occured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxCharData",
           "package": "HaXml",
@@ -12108,6 +13163,7 @@
         "index": {
           "description": "Some string data occured",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxCharData",
           "package": "HaXml",
@@ -12122,6 +13178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment occured (\u003c!-- --\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxComment",
           "package": "HaXml",
@@ -12132,6 +13189,7 @@
         "index": {
           "description": "comment occured",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxComment",
           "package": "HaXml",
@@ -12146,6 +13204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA doctype declaration occured(\u003c!DOCTYPE\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxDocTypeDecl",
           "package": "HaXml",
@@ -12156,6 +13215,7 @@
         "index": {
           "description": "doctype declaration occured DOCTYPE",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxDocTypeDecl",
           "package": "HaXml",
@@ -12170,6 +13230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn element was closed (\u003c/\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxElementClose",
           "package": "HaXml",
@@ -12180,6 +13241,7 @@
         "index": {
           "description": "An element was closed",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxElementClose",
           "package": "HaXml",
@@ -12194,6 +13256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn element was opened (\u003c\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxElementOpen",
           "package": "HaXml",
@@ -12204,6 +13267,7 @@
         "index": {
           "description": "An element was opened",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxElementOpen",
           "normalized": "SaxElementOpen Name[Attribute]",
@@ -12220,6 +13284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn element without content occured (\u003c/\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxElementTag",
           "package": "HaXml",
@@ -12230,6 +13295,7 @@
         "index": {
           "description": "An element without content occured",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxElementTag",
           "normalized": "SaxElementTag Name[Attribute]",
@@ -12246,6 +13312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA processing instruction occured (\u003c??\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxProcessingInstruction",
           "package": "HaXml",
@@ -12256,6 +13323,7 @@
         "index": {
           "description": "processing instruction occured",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxProcessingInstruction",
           "package": "HaXml",
@@ -12270,6 +13338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference occured\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxReference",
           "package": "HaXml",
@@ -12280,6 +13349,7 @@
         "index": {
           "description": "reference occured",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "SaxReference",
           "package": "HaXml",
@@ -12294,6 +13364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esaxParse file content\u003c/code\u003e takes a filename and the string content of that\n   file and generates a stream of \u003ccode\u003eSaxElement\u003c/code\u003es. If an error occurs, the\n   parsing stops and a string is returned using the \u003ccode\u003eMaybe\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.SAX",
           "name": "saxParse",
           "package": "HaXml",
@@ -12303,6 +13374,7 @@
         "index": {
           "description": "saxParse file content takes filename and the string content of that file and generates stream of SaxElement If an error occurs the parsing stops and string is returned using the Maybe type",
           "hierarchy": "Text XML HaXml SAX",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.SAX",
           "name": "saxParse",
           "normalized": "String-\u003eString-\u003e([SaxElement],Maybe String)",
@@ -12318,6 +13390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "Environment",
           "package": "HaXml",
@@ -12326,6 +13399,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "Environment",
           "package": "HaXml",
@@ -12339,6 +13413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "Environment",
           "package": "HaXml",
@@ -12347,6 +13422,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "Environment",
           "package": "HaXml",
@@ -12360,6 +13436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "Environment",
           "package": "HaXml",
@@ -12369,6 +13446,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "Environment",
           "package": "HaXml",
@@ -12383,6 +13461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two environments (e.g. read from different interface files)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "combineEnv",
           "package": "HaXml",
@@ -12393,6 +13472,7 @@
         "index": {
           "description": "Combine two environments e.g read from different interface files",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "combineEnv",
           "normalized": "Environment-\u003eEnvironment-\u003eEnvironment",
@@ -12409,6 +13489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty environment of XSD type mappings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "emptyEnv",
           "package": "HaXml",
@@ -12419,6 +13500,7 @@
         "index": {
           "description": "An empty environment of XSD type mappings",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "emptyEnv",
           "package": "HaXml",
@@ -12433,6 +13515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall type definitions, regardless of scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_allTypes",
           "package": "HaXml",
@@ -12443,6 +13526,7 @@
         "index": {
           "description": "all type definitions regardless of scope",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_allTypes",
           "package": "HaXml",
@@ -12456,6 +13540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_attrgroup",
           "package": "HaXml",
@@ -12465,6 +13550,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_attrgroup",
           "package": "HaXml",
@@ -12477,6 +13563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_attribute",
           "package": "HaXml",
@@ -12486,6 +13573,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_attribute",
           "package": "HaXml",
@@ -12498,6 +13586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_element",
           "package": "HaXml",
@@ -12507,6 +13596,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_element",
           "package": "HaXml",
@@ -12520,6 +13610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esupertype -\u003e subtypes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_extendty",
           "package": "HaXml",
@@ -12530,6 +13621,7 @@
         "index": {
           "description": "supertype subtypes",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_extendty",
           "normalized": "Map QName[(QName,FilePath)]",
@@ -12544,6 +13636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_group",
           "package": "HaXml",
@@ -12553,6 +13646,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_group",
           "package": "HaXml",
@@ -12565,6 +13659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_namespace",
           "package": "HaXml",
@@ -12574,6 +13669,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_namespace",
           "package": "HaXml",
@@ -12587,6 +13683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubstitution groups\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_substGrp",
           "package": "HaXml",
@@ -12597,6 +13694,7 @@
         "index": {
           "description": "substitution groups",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_substGrp",
           "normalized": "Map QName[(QName,FilePath)]",
@@ -12613,6 +13711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype definitions in scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_type",
           "package": "HaXml",
@@ -12623,6 +13722,7 @@
         "index": {
           "description": "type definitions in scope",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_type",
           "package": "HaXml",
@@ -12636,6 +13736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhere type is defined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_typeloc",
           "package": "HaXml",
@@ -12646,6 +13747,7 @@
         "index": {
           "description": "where type is defined",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "env_typeloc",
           "package": "HaXml",
@@ -12659,6 +13761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all direct module dependencies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "gatherImports",
           "package": "HaXml",
@@ -12669,6 +13772,7 @@
         "index": {
           "description": "Find all direct module dependencies",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "gatherImports",
           "normalized": "Schema-\u003e[(FilePath,Maybe String)]",
@@ -12685,6 +13789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an environment of XSD type mappings from a schema module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "mkEnvironment",
           "package": "HaXml",
@@ -12695,6 +13800,7 @@
         "index": {
           "description": "Build an environment of XSD type mappings from schema module",
           "hierarchy": "Text XML HaXml Schema Environment",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Environment",
           "name": "mkEnvironment",
           "normalized": "FilePath-\u003eSchema-\u003eEnvironment-\u003eEnvironment",
@@ -12711,6 +13817,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type model for Haskell datatypes that bears a reasonable correspondence\n   to the XSD type model.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "HaskellTypeModel",
           "package": "HaXml",
@@ -12720,6 +13827,7 @@
         "index": {
           "description": "type model for Haskell datatypes that bears reasonable correspondence to the XSD type model",
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "HaskellTypeModel",
           "package": "HaXml",
@@ -12733,6 +13841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Attribute",
           "package": "HaXml",
@@ -12741,6 +13850,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Attribute",
           "package": "HaXml",
@@ -12755,6 +13865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComments can be attached to most things, but not all of them will exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Comment",
           "package": "HaXml",
@@ -12764,6 +13875,7 @@
         "index": {
           "description": "Comments can be attached to most things but not all of them will exist",
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Comment",
           "package": "HaXml",
@@ -12778,6 +13890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are essentially simple types, and complex types, each of which\n   can be either restricted or extended.  There are four kinds of complex\n   type: choices, sequences, named groups, or a simple element with content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Decl",
           "package": "HaXml",
@@ -12787,6 +13900,7 @@
         "index": {
           "description": "There are essentially simple types and complex types each of which can be either restricted or extended There are four kinds of complex type choices sequences named groups or simple element with content",
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Decl",
           "package": "HaXml",
@@ -12800,6 +13914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Element",
           "package": "HaXml",
@@ -12808,6 +13923,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Element",
           "package": "HaXml",
@@ -12821,6 +13937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Modifier",
           "package": "HaXml",
@@ -12829,6 +13946,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Modifier",
           "package": "HaXml",
@@ -12843,6 +13961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe whole Haskell module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Module",
           "package": "HaXml",
@@ -12852,6 +13971,7 @@
         "index": {
           "description": "The whole Haskell module",
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Module",
           "package": "HaXml",
@@ -12866,6 +13986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrictions on simpleType\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Restrict",
           "package": "HaXml",
@@ -12875,6 +13996,7 @@
         "index": {
           "description": "Restrictions on simpleType",
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Restrict",
           "package": "HaXml",
@@ -12888,6 +14010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "AnyElem",
           "package": "HaXml",
@@ -12897,6 +14020,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "AnyElem",
           "package": "HaXml",
@@ -12910,6 +14034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Attribute",
           "package": "HaXml",
@@ -12919,6 +14044,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Attribute",
           "package": "HaXml",
@@ -12932,6 +14058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Choice",
           "package": "HaXml",
@@ -12941,6 +14068,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Choice",
           "normalized": "Choice XName[Element]Comment",
@@ -12956,6 +14084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Element",
           "package": "HaXml",
@@ -12965,6 +14094,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Element",
           "package": "HaXml",
@@ -12978,6 +14108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ElementAbstractOfType",
           "package": "HaXml",
@@ -12987,6 +14118,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ElementAbstractOfType",
           "normalized": "ElementAbstractOfType XName XName[(XName,Maybe XName)]Comment",
@@ -13002,6 +14134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ElementOfType",
           "package": "HaXml",
@@ -13011,6 +14144,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ElementOfType",
           "package": "HaXml",
@@ -13024,6 +14158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ElementsAttrs",
           "package": "HaXml",
@@ -13033,6 +14168,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ElementsAttrs",
           "normalized": "ElementsAttrs XName[Element][Attribute]Comment",
@@ -13048,6 +14184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ElementsAttrsAbstract",
           "package": "HaXml",
@@ -13057,6 +14194,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ElementsAttrsAbstract",
           "normalized": "ElementsAttrsAbstract XName[(XName,Maybe XName)]Comment",
@@ -13072,6 +14210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "EnumSimpleType",
           "package": "HaXml",
@@ -13081,6 +14220,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "EnumSimpleType",
           "normalized": "EnumSimpleType XName[(XName,Comment)]Comment",
@@ -13096,6 +14236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Enumeration",
           "package": "HaXml",
@@ -13105,6 +14246,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Enumeration",
           "normalized": "Enumeration[(String,Comment)]",
@@ -13120,6 +14262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ExtendComplexType",
           "package": "HaXml",
@@ -13129,6 +14272,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ExtendComplexType",
           "normalized": "ExtendComplexType XName XName[Element][Attribute][Element][Attribute](Maybe XName)Bool[XName]Comment",
@@ -13144,6 +14288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ExtendComplexTypeAbstract",
           "package": "HaXml",
@@ -13153,6 +14298,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ExtendComplexTypeAbstract",
           "normalized": "ExtendComplexTypeAbstract XName XName[(XName,Maybe XName)](Maybe XName)[XName]Comment",
@@ -13168,6 +14314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ExtendSimpleType",
           "package": "HaXml",
@@ -13177,6 +14324,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "ExtendSimpleType",
           "normalized": "ExtendSimpleType XName XName[Attribute]Comment",
@@ -13192,6 +14340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Group",
           "package": "HaXml",
@@ -13201,6 +14350,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Group",
           "normalized": "Group XName[Element]Comment",
@@ -13216,6 +14366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Module",
           "package": "HaXml",
@@ -13225,6 +14376,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Module",
           "package": "HaXml",
@@ -13238,6 +14390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "NamedSimpleType",
           "package": "HaXml",
@@ -13247,6 +14400,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "NamedSimpleType",
           "package": "HaXml",
@@ -13260,6 +14414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "OneOf",
           "package": "HaXml",
@@ -13269,6 +14424,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "OneOf",
           "package": "HaXml",
@@ -13282,6 +14438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Optional",
           "package": "HaXml",
@@ -13291,6 +14448,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Optional",
           "package": "HaXml",
@@ -13304,6 +14462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Pattern",
           "package": "HaXml",
@@ -13313,6 +14472,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Pattern",
           "package": "HaXml",
@@ -13326,6 +14486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Range",
           "package": "HaXml",
@@ -13335,6 +14496,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Range",
           "package": "HaXml",
@@ -13348,6 +14510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "RangeR",
           "package": "HaXml",
@@ -13357,6 +14520,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "RangeR",
           "package": "HaXml",
@@ -13370,6 +14534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "RestrictComplexType",
           "package": "HaXml",
@@ -13379,6 +14544,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "RestrictComplexType",
           "package": "HaXml",
@@ -13392,6 +14558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "RestrictSimpleType",
           "package": "HaXml",
@@ -13401,6 +14568,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "RestrictSimpleType",
           "normalized": "RestrictSimpleType XName XName[Restrict]Comment",
@@ -13416,6 +14584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Single",
           "package": "HaXml",
@@ -13425,6 +14594,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Single",
           "package": "HaXml",
@@ -13438,6 +14608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "StrLength",
           "package": "HaXml",
@@ -13447,6 +14618,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "StrLength",
           "package": "HaXml",
@@ -13460,6 +14632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Text",
           "package": "HaXml",
@@ -13469,6 +14642,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "Text",
           "package": "HaXml",
@@ -13482,6 +14656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "UnionSimpleTypes",
           "package": "HaXml",
@@ -13491,6 +14666,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "UnionSimpleTypes",
           "normalized": "UnionSimpleTypes XName[XName]Comment",
@@ -13506,6 +14682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "XSDComment",
           "package": "HaXml",
@@ -13515,6 +14692,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "XSDComment",
           "package": "HaXml",
@@ -13528,6 +14706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "XSDImport",
           "package": "HaXml",
@@ -13537,6 +14716,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "XSDImport",
           "package": "HaXml",
@@ -13550,6 +14730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "XSDInclude",
           "package": "HaXml",
@@ -13559,6 +14740,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "XSDInclude",
           "package": "HaXml",
@@ -13572,6 +14754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "attr_comment",
           "package": "HaXml",
@@ -13581,6 +14764,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "attr_comment",
           "package": "HaXml",
@@ -13593,6 +14777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "attr_name",
           "package": "HaXml",
@@ -13602,6 +14787,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "attr_name",
           "package": "HaXml",
@@ -13614,6 +14800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "attr_required",
           "package": "HaXml",
@@ -13623,6 +14810,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "attr_required",
           "package": "HaXml",
@@ -13635,6 +14823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "attr_type",
           "package": "HaXml",
@@ -13644,6 +14833,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "attr_type",
           "package": "HaXml",
@@ -13656,6 +14846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_byRef",
           "package": "HaXml",
@@ -13665,6 +14856,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_byRef",
           "package": "HaXml",
@@ -13678,6 +14870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_comment",
           "package": "HaXml",
@@ -13687,6 +14880,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_comment",
           "package": "HaXml",
@@ -13699,6 +14893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_locals",
           "package": "HaXml",
@@ -13708,6 +14903,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_locals",
           "normalized": "[Decl]",
@@ -13722,6 +14918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_modifier",
           "package": "HaXml",
@@ -13731,6 +14928,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_modifier",
           "package": "HaXml",
@@ -13743,6 +14941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_name",
           "package": "HaXml",
@@ -13752,6 +14951,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_name",
           "package": "HaXml",
@@ -13764,6 +14964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_oneOf",
           "package": "HaXml",
@@ -13773,6 +14974,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_oneOf",
           "normalized": "[[Element]]",
@@ -13788,6 +14990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_substs",
           "package": "HaXml",
@@ -13797,6 +15000,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_substs",
           "normalized": "Maybe[XName]",
@@ -13811,6 +15015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_type",
           "package": "HaXml",
@@ -13820,6 +15025,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "elem_type",
           "package": "HaXml",
@@ -13833,6 +15039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper for building the formal Module structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "mkModule",
           "package": "HaXml",
@@ -13843,6 +15050,7 @@
         "index": {
           "description": "helper for building the formal Module structure",
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "mkModule",
           "normalized": "String-\u003eSchema-\u003e[Decl]-\u003eModule",
@@ -13858,6 +15066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_decls",
           "package": "HaXml",
@@ -13867,6 +15076,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_decls",
           "normalized": "[Decl]",
@@ -13881,6 +15091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_import_only",
           "package": "HaXml",
@@ -13890,6 +15101,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_import_only",
           "normalized": "[Decl]",
@@ -13904,6 +15116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_name",
           "package": "HaXml",
@@ -13913,6 +15126,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_name",
           "package": "HaXml",
@@ -13925,6 +15139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_re_exports",
           "package": "HaXml",
@@ -13934,6 +15149,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_re_exports",
           "normalized": "[Decl]",
@@ -13948,6 +15164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_xsd_ns",
           "package": "HaXml",
@@ -13957,6 +15174,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema HaskellTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.HaskellTypeModel",
           "name": "module_xsd_ns",
           "package": "HaXml",
@@ -13970,6 +15188,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type model for Haskell datatypes that bears a reasonable correspondence\n   to the XSD type model.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "NameConversion",
           "package": "HaXml",
@@ -13979,6 +15198,7 @@
         "index": {
           "description": "type model for Haskell datatypes that bears reasonable correspondence to the XSD type model",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "NameConversion",
           "package": "HaXml",
@@ -13993,6 +15213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HName is a resolved version of an XName.  It should conform to\n   the various namespace rules, and may already include a module\n   qualifier if appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "HName",
           "package": "HaXml",
@@ -14002,6 +15223,7 @@
         "index": {
           "description": "An HName is resolved version of an XName It should conform to the various namespace rules and may already include module qualifier if appropriate",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "HName",
           "package": "HaXml",
@@ -14016,6 +15238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA NameConverter is a collection of functions that convert an XName\n   into an HName, for various Haskell namespaces.  You can define your\n   own arbitrary resolver, but should ensure that you abide by the\n   Haskell rules for conid, varid, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "NameConverter",
           "package": "HaXml",
@@ -14025,6 +15248,7 @@
         "index": {
           "description": "NameConverter is collection of functions that convert an XName into an HName for various Haskell namespaces You can define your own arbitrary resolver but should ensure that you abide by the Haskell rules for conid varid etc",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "NameConverter",
           "package": "HaXml",
@@ -14039,6 +15263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XName just holds the original XSD qualified name.  It does not\n   ensure that the string conforms to any rules of the various Haskell\n   namespaces.  Use a NameConverter to define how you would like names\n   to be mangled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "XName",
           "package": "HaXml",
@@ -14048,6 +15273,7 @@
         "index": {
           "description": "An XName just holds the original XSD qualified name It does not ensure that the string conforms to any rules of the various Haskell namespaces Use NameConverter to define how you would like names to be mangled",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "XName",
           "package": "HaXml",
@@ -14061,6 +15287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "HName",
           "package": "HaXml",
@@ -14070,6 +15297,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "HName",
           "package": "HaXml",
@@ -14083,6 +15311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "NameConverter",
           "package": "HaXml",
@@ -14092,6 +15321,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "NameConverter",
           "package": "HaXml",
@@ -14105,6 +15335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "XName",
           "package": "HaXml",
@@ -14114,6 +15345,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "XName",
           "package": "HaXml",
@@ -14128,6 +15360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that a string does not match a Haskell keyword.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "avoidKeywords",
           "package": "HaXml",
@@ -14138,6 +15371,7 @@
         "index": {
           "description": "Ensure that string does not match Haskell keyword",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "avoidKeywords",
           "normalized": "String-\u003eString",
@@ -14154,6 +15388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove any prefix directory names, and given suffix extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "basename",
           "package": "HaXml",
@@ -14164,6 +15399,7 @@
         "index": {
           "description": "Remove any prefix directory names and given suffix extension",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "basename",
           "normalized": "String-\u003eString-\u003eString",
@@ -14178,6 +15414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "conid",
           "package": "HaXml",
@@ -14187,6 +15424,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "conid",
           "normalized": "XName-\u003eHName",
@@ -14201,6 +15439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "fieldid",
           "package": "HaXml",
@@ -14210,6 +15449,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "fieldid",
           "normalized": "XName-\u003eXName-\u003eHName",
@@ -14225,6 +15465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialised module-name converter for FpML module names with\n   multiple dashes, including version numbers,\n   e.g. fpml-dividend-swaps-4-7.xsd      becomes FpML.V47.Swaps.Dividend\n   but  fpml-posttrade-execution-4-7.xsd becomes FpML.V47.PostTrade.Execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "fpml",
           "package": "HaXml",
@@ -14235,6 +15476,7 @@
         "index": {
           "description": "specialised module-name converter for FpML module names with multiple dashes including version numbers e.g fpml-dividend-swaps-4-7.xsd becomes FpML.V47.Swaps.Dividend but fpml-posttrade-execution-4-7.xsd becomes FpML.V47.PostTrade.Execution",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "fpml",
           "normalized": "String-\u003eString",
@@ -14249,6 +15491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "fpmlNameConverter",
           "package": "HaXml",
@@ -14258,6 +15501,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "fpmlNameConverter",
           "package": "HaXml",
@@ -14272,6 +15516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor forward type decls\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "fwdconid",
           "package": "HaXml",
@@ -14282,6 +15527,7 @@
         "index": {
           "description": "for forward type decls",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "fwdconid",
           "normalized": "XName-\u003eHName",
@@ -14296,6 +15542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "modid",
           "package": "HaXml",
@@ -14305,6 +15552,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "modid",
           "normalized": "XName-\u003eHName",
@@ -14320,6 +15568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple default set of rules for resolving XNames into HNames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "simpleNameConverter",
           "package": "HaXml",
@@ -14330,6 +15579,7 @@
         "index": {
           "description": "simple default set of rules for resolving XNames into HNames",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "simpleNameConverter",
           "package": "HaXml",
@@ -14343,6 +15593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "unqconid",
           "package": "HaXml",
@@ -14352,6 +15603,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "unqconid",
           "normalized": "XName-\u003eHName",
@@ -14366,6 +15618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "unqvarid",
           "package": "HaXml",
@@ -14375,6 +15628,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "unqvarid",
           "normalized": "XName-\u003eHName",
@@ -14389,6 +15643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "varid",
           "package": "HaXml",
@@ -14398,6 +15653,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "varid",
           "normalized": "XName-\u003eHName",
@@ -14413,6 +15669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChop a list into segments, at separators identified by the predicate.\n   The separator items are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "wordsBy",
           "package": "HaXml",
@@ -14423,6 +15680,7 @@
         "index": {
           "description": "Chop list into segments at separators identified by the predicate The separator items are discarded",
           "hierarchy": "Text XML HaXml Schema NameConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.NameConversion",
           "name": "wordsBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -14438,6 +15696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "Parse",
           "package": "HaXml",
@@ -14446,6 +15705,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "Parse",
           "package": "HaXml",
@@ -14460,6 +15720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need a Parser monad for reading from a sequence of generic XML\n   Contents into specific datatypes that model the structure of XSD\n   descriptions.  This is a specialisation of the polyparse combinators,\n   fixing the input token type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "XsdParser",
           "package": "HaXml",
@@ -14469,6 +15730,7 @@
         "index": {
           "description": "We need Parser monad for reading from sequence of generic XML Contents into specific datatypes that model the structure of XSD descriptions This is specialisation of the polyparse combinators fixing the input token type",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "XsdParser",
           "package": "HaXml",
@@ -14483,6 +15745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift boolean \u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e over predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "(|||)",
           "package": "HaXml",
@@ -14493,6 +15756,7 @@
         "index": {
           "description": "Lift boolean or over predicates",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "(|||) |||",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003ea-\u003eBool",
@@ -14507,6 +15771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "aFacet",
           "package": "HaXml",
@@ -14516,6 +15781,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "aFacet",
           "package": "HaXml",
@@ -14530,6 +15796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab and parse any and all children of the next element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "allChildren",
           "package": "HaXml",
@@ -14540,6 +15807,7 @@
         "index": {
           "description": "Grab and parse any and all children of the next element",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "allChildren",
           "normalized": "XsdParser a-\u003eXsdParser a",
@@ -14556,6 +15824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a (possibly missing) \u003ca\u003exsd:annotation\u003c/a\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "annotation",
           "package": "HaXml",
@@ -14566,6 +15835,7 @@
         "index": {
           "description": "Parse possibly missing xsd annotation element",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "annotation",
           "package": "HaXml",
@@ -14579,6 +15849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:anyAttribute\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "anyAttr",
           "package": "HaXml",
@@ -14589,6 +15860,7 @@
         "index": {
           "description": "Parse an xsd anyAttribute",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "anyAttr",
           "package": "HaXml",
@@ -14603,6 +15875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next content element, whatever it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "anyElement",
           "package": "HaXml",
@@ -14613,6 +15886,7 @@
         "index": {
           "description": "Get the next content element whatever it is",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "anyElement",
           "package": "HaXml",
@@ -14627,6 +15901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:any\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "any_",
           "package": "HaXml",
@@ -14637,6 +15912,7 @@
         "index": {
           "description": "Parse an xsd any",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "any_",
           "package": "HaXml",
@@ -14650,6 +15926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck for the presence (and value) of an attribute in the given element.\n   Absence results in failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "attribute",
           "package": "HaXml",
@@ -14660,6 +15937,7 @@
         "index": {
           "description": "Check for the presence and value of an attribute in the given element Absence results in failure",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "attribute",
           "normalized": "QName-\u003eTextParser a-\u003eElement Posn-\u003eXsdParser a",
@@ -14675,6 +15953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:attribute\u003c/a\u003e decl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "attributeDecl",
           "package": "HaXml",
@@ -14685,6 +15964,7 @@
         "index": {
           "description": "Parse an xsd attribute decl",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "attributeDecl",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser AttributeDecl",
@@ -14701,6 +15981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:attributegroup\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "attributeGroup",
           "package": "HaXml",
@@ -14711,6 +15992,7 @@
         "index": {
           "description": "Parse an xsd attributegroup",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "attributeGroup",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser AttrGroup",
@@ -14726,6 +16008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "block",
           "package": "HaXml",
@@ -14735,6 +16018,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "block",
           "package": "HaXml",
@@ -14748,6 +16032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a textual boolean, i.e. \u003ca\u003etrue\u003c/a\u003e, \u003ca\u003efalse\u003c/a\u003e, \u003ca\u003e0\u003c/a\u003e, or \u003ca\u003e1\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "bool",
           "package": "HaXml",
@@ -14758,6 +16043,7 @@
         "index": {
           "description": "Parse textual boolean i.e true false or",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "bool",
           "package": "HaXml",
@@ -14771,6 +16057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:all\u003c/a\u003e, \u003ca\u003exsd:choice\u003c/a\u003e, or \u003ca\u003exsd:sequence\u003c/a\u003e decl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "choiceOrSeq",
           "package": "HaXml",
@@ -14781,6 +16068,7 @@
         "index": {
           "description": "Parse an xsd all xsd choice or xsd sequence decl",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "choiceOrSeq",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser ChoiceOrSeq",
@@ -14797,6 +16085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the alternative contents of a \u003ca\u003exsd:complexType\u003c/a\u003e decl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "complexItem",
           "package": "HaXml",
@@ -14807,6 +16096,7 @@
         "index": {
           "description": "Parse the alternative contents of xsd complexType decl",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "complexItem",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser ComplexItem",
@@ -14823,6 +16113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:complexType\u003c/a\u003e decl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "complexType",
           "package": "HaXml",
@@ -14833,6 +16124,7 @@
         "index": {
           "description": "Parse xsd complexType decl",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "complexType",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser ComplexType",
@@ -14849,6 +16141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a definitely-occurring \u003ca\u003exsd:annotation\u003c/a\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "definiteAnnotation",
           "package": "HaXml",
@@ -14859,6 +16152,7 @@
         "index": {
           "description": "Parse definitely-occurring xsd annotation element",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "definiteAnnotation",
           "package": "HaXml",
@@ -14873,6 +16167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:element\u003c/a\u003e decl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "elementDecl",
           "package": "HaXml",
@@ -14883,6 +16178,7 @@
         "index": {
           "description": "Parse an xsd element decl",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "elementDecl",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser ElementDecl",
@@ -14899,6 +16195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:element\u003c/a\u003e, \u003ca\u003exsd:group\u003c/a\u003e, \u003ca\u003exsd:all\u003c/a\u003e, \u003ca\u003exsd:choice\u003c/a\u003e,\n   \u003ca\u003exsd:sequence\u003c/a\u003e or \u003ca\u003exsd:any\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "elementEtc",
           "package": "HaXml",
@@ -14909,6 +16206,7 @@
         "index": {
           "description": "Parse an xsd element xsd group xsd all xsd choice xsd sequence or xsd any",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "elementEtc",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser ElementEtc",
@@ -14924,6 +16222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "facet",
           "package": "HaXml",
@@ -14933,6 +16232,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "facet",
           "normalized": "String-\u003eFacetType-\u003eXsdParser Facet",
@@ -14948,6 +16248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:field\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "field_",
           "package": "HaXml",
@@ -14958,6 +16259,7 @@
         "index": {
           "description": "Parse xsd field",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "field_",
           "package": "HaXml",
@@ -14971,6 +16273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Final or Block attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "final",
           "package": "HaXml",
@@ -14981,6 +16284,7 @@
         "index": {
           "description": "Parse Final or Block attribute",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "final",
           "package": "HaXml",
@@ -14994,6 +16298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:group\u003c/a\u003e decl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "group_",
           "package": "HaXml",
@@ -15004,6 +16309,7 @@
         "index": {
           "description": "Parse xsd group decl",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "group_",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser Group",
@@ -15019,6 +16325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:import\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "import_",
           "package": "HaXml",
@@ -15029,6 +16336,7 @@
         "index": {
           "description": "Parse an xsd import",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "import_",
           "package": "HaXml",
@@ -15042,6 +16350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ca\u003exsd:include\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "include",
           "package": "HaXml",
@@ -15052,6 +16361,7 @@
         "index": {
           "description": "Parse an xsd include",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "include",
           "package": "HaXml",
@@ -15065,6 +16375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an XsdParser on the child contents of the given element (i.e. not\n   in the current monadic content sequence), filtering the children\n   before parsing, and checking that the contents are exhausted, before\n   returning the calculated value within the current parser context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "interiorWith",
           "package": "HaXml",
@@ -15075,6 +16386,7 @@
         "index": {
           "description": "Run an XsdParser on the child contents of the given element i.e not in the current monadic content sequence filtering the children before parsing and checking that the contents are exhausted before returning the calculated value within the current parser context",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "interiorWith",
           "normalized": "(Content Posn-\u003eBool)-\u003eXsdParser a-\u003eElement Posn-\u003eXsdParser a",
@@ -15091,6 +16403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:key\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "key",
           "package": "HaXml",
@@ -15101,6 +16414,7 @@
         "index": {
           "description": "Parse xsd key",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "key",
           "package": "HaXml",
@@ -15114,6 +16428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:keyref\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "keyRef",
           "package": "HaXml",
@@ -15124,6 +16439,7 @@
         "index": {
           "description": "Parse xsd keyref",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "keyRef",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser KeyRef",
@@ -15140,6 +16456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn auxiliary you might expect to find in Data.List\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "lookupBy",
           "package": "HaXml",
@@ -15150,6 +16467,7 @@
         "index": {
           "description": "An auxiliary you might expect to find in Data.List",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "lookupBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eMaybe a",
@@ -15166,6 +16484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate for whether an attribute belongs to a given namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "matchNamespace",
           "package": "HaXml",
@@ -15176,6 +16495,7 @@
         "index": {
           "description": "Predicate for whether an attribute belongs to given namespace",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "matchNamespace",
           "normalized": "String-\u003eAttribute-\u003eBool",
@@ -15192,6 +16512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an attribute value that should be a simple Name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "name",
           "package": "HaXml",
@@ -15202,6 +16523,7 @@
         "index": {
           "description": "Parse an attribute value that should be simple Name",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "name",
           "package": "HaXml",
@@ -15215,6 +16537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse name and type attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "nameAndType",
           "package": "HaXml",
@@ -15225,6 +16548,7 @@
         "index": {
           "description": "Parse name and type attributes",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "nameAndType",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eElement Posn-\u003eXsdParser NameAndType",
@@ -15241,6 +16565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab any attributes that declare a locally-used prefix for a\n   specific namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "namespaceAttrs",
           "package": "HaXml",
@@ -15251,6 +16576,7 @@
         "index": {
           "description": "Grab any attributes that declare locally-used prefix for specific namespace",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "namespaceAttrs",
           "normalized": "Element Posn-\u003eXsdParser[Namespace]",
@@ -15267,6 +16593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an occurrence range from attributes of given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "occurs",
           "package": "HaXml",
@@ -15277,6 +16604,7 @@
         "index": {
           "description": "Parse an occurrence range from attributes of given element",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "occurs",
           "normalized": "Element Posn-\u003eXsdParser Occurs",
@@ -15292,6 +16620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a particle decl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "particle",
           "package": "HaXml",
@@ -15302,6 +16631,7 @@
         "index": {
           "description": "Parse particle decl",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "particle",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser Particle",
@@ -15317,6 +16647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a particle decl with optional attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "particleAttrs",
           "package": "HaXml",
@@ -15327,6 +16658,7 @@
         "index": {
           "description": "Parse particle decl with optional attributes",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "particleAttrs",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser ParticleAttrs",
@@ -15343,6 +16675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next content element, checking that it matches some criterion\n   given by the predicate.\n   (Skips over comments and whitespace, rejects text and refs.\n    Also returns position of element.)\n   The list of strings argument is for error reporting - it usually\n   represents a list of expected tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "posnElementWith",
           "package": "HaXml",
@@ -15353,6 +16686,7 @@
         "index": {
           "description": "Get the next content element checking that it matches some criterion given by the predicate Skips over comments and whitespace rejects text and refs Also returns position of element The list of strings argument is for error reporting it usually represents list of expected tags",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "posnElementWith",
           "normalized": "(Content Posn-\u003eBool)-\u003e[String]-\u003eXsdParser(Posn,Element Posn)",
@@ -15369,6 +16703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003eprocessContents\u003c/a\u003e attribute, i.e. \u003ca\u003eskip\u003c/a\u003e, \u003ca\u003elax\u003c/a\u003e, or \u003ca\u003estrict\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "processContents",
           "package": "HaXml",
@@ -15379,6 +16714,7 @@
         "index": {
           "description": "Parse processContents attribute i.e skip lax or strict",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "processContents",
           "package": "HaXml",
@@ -15393,6 +16729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a FormDefault attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "qform",
           "package": "HaXml",
@@ -15403,6 +16740,7 @@
         "index": {
           "description": "Parse FormDefault attribute",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "qform",
           "package": "HaXml",
@@ -15416,6 +16754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an attribute value that should be a QName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "qname",
           "package": "HaXml",
@@ -15426,6 +16765,7 @@
         "index": {
           "description": "Parse an attribute value that should be QName",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "qname",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eTextParser QName",
@@ -15441,6 +16781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a qualified attribute value (two strings) into a qualified name\n   (QName), but excluding the case where the namespace prefix corresponds\n   to the targetNamespace of the current schema document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "qual",
           "package": "HaXml",
@@ -15451,6 +16792,7 @@
         "index": {
           "description": "Turn qualified attribute value two strings into qualified name QName but excluding the case where the namespace prefix corresponds to the targetNamespace of the current schema document",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "qual",
           "normalized": "Maybe TargetNamespace-\u003e[Namespace]-\u003eString-\u003eString-\u003eQName",
@@ -15466,6 +16808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:redefine\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "redefine",
           "package": "HaXml",
@@ -15476,6 +16819,7 @@
         "index": {
           "description": "Parse xsd redefine",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "redefine",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser SchemaItem",
@@ -15491,6 +16835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Schema declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "schema",
           "package": "HaXml",
@@ -15501,6 +16846,7 @@
         "index": {
           "description": "Parse Schema declaration",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "schema",
           "package": "HaXml",
@@ -15514,6 +16860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a schema item (just under the toplevel \u003ca\u003exsd:schema\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "schemaItem",
           "package": "HaXml",
@@ -15524,6 +16871,7 @@
         "index": {
           "description": "Parse schema item just under the toplevel xsd schema",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "schemaItem",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser SchemaItem",
@@ -15540,6 +16888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:selector\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "selector",
           "package": "HaXml",
@@ -15550,6 +16899,7 @@
         "index": {
           "description": "Parse xsd selector",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "selector",
           "package": "HaXml",
@@ -15563,6 +16913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:simpleType\u003c/a\u003e decl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "simpleType",
           "package": "HaXml",
@@ -15573,6 +16924,7 @@
         "index": {
           "description": "Parse xsd simpleType decl",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "simpleType",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser SimpleType",
@@ -15589,6 +16941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText parser for an arbitrary string consisting of possibly multiple tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "string",
           "package": "HaXml",
@@ -15599,6 +16952,7 @@
         "index": {
           "description": "Text parser for an arbitrary string consisting of possibly multiple tokens",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "string",
           "package": "HaXml",
@@ -15612,6 +16966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a URI for a targetNamespace, and a list of Namespaces, tell\n   me the prefix corresponding to the targetNamespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "targetPrefix",
           "package": "HaXml",
@@ -15622,6 +16977,7 @@
         "index": {
           "description": "Given URI for targetNamespace and list of Namespaces tell me the prefix corresponding to the targetNamespace",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "targetPrefix",
           "normalized": "Maybe TargetNamespace-\u003e[Namespace]-\u003eMaybe String",
@@ -15638,6 +16994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTidy up the parsing context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "tidy",
           "package": "HaXml",
@@ -15648,6 +17005,7 @@
         "index": {
           "description": "Tidy up the parsing context",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "tidy",
           "normalized": "a-\u003eResult b c-\u003eResult a c",
@@ -15663,6 +17021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:unique\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "unique",
           "package": "HaXml",
@@ -15673,6 +17032,7 @@
         "index": {
           "description": "Parse xsd unique",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "unique",
           "package": "HaXml",
@@ -15686,6 +17046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003exsd:unique\u003c/a\u003e, \u003ca\u003exsd:key\u003c/a\u003e, or \u003ca\u003exsd:keyref\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "uniqueKeyOrKeyRef",
           "package": "HaXml",
@@ -15696,6 +17057,7 @@
         "index": {
           "description": "Parse xsd unique xsd key or xsd keyref",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "uniqueKeyOrKeyRef",
           "normalized": "(String-\u003eString-\u003eQName)-\u003eXsdParser UniqueKeyOrKeyRef",
@@ -15712,6 +17074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText parser for a URI (very simple, non-validating, probably incorrect).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "uri",
           "package": "HaXml",
@@ -15722,6 +17085,7 @@
         "index": {
           "description": "Text parser for URI very simple non-validating probably incorrect",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "uri",
           "package": "HaXml",
@@ -15735,6 +17099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ca\u003euse\u003c/a\u003e attribute value, i.e. \u003ca\u003erequired\u003c/a\u003e, \u003ca\u003eoptional\u003c/a\u003e, or \u003ca\u003eprohibited\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "use",
           "package": "HaXml",
@@ -15745,6 +17110,7 @@
         "index": {
           "description": "Parse use attribute value i.e required optional or prohibited",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "use",
           "package": "HaXml",
@@ -15758,6 +17124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualify an ordinary name with the XSD namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "xsd",
           "package": "HaXml",
@@ -15768,6 +17135,7 @@
         "index": {
           "description": "Qualify an ordinary name with the XSD namespace",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "xsd",
           "normalized": "Name-\u003eQName",
@@ -15783,6 +17151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next content element, checking that it has the required tag\n   belonging to the XSD namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "xsdElement",
           "package": "HaXml",
@@ -15793,6 +17162,7 @@
         "index": {
           "description": "Get the next content element checking that it has the required tag belonging to the XSD namespace",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "xsdElement",
           "normalized": "Name-\u003eXsdParser(Element Posn)",
@@ -15809,6 +17179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate for comparing against an XSD-qualified name.  (Also accepts\n   unqualified names, but this is probably a bit too lax.  Doing it right\n   would require checking to see whether the current schema module's default\n   namespace is XSD or not.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "xsdTag",
           "package": "HaXml",
@@ -15819,6 +17190,7 @@
         "index": {
           "description": "Predicate for comparing against an XSD-qualified name Also accepts unqualified names but this is probably bit too lax Doing it right would require checking to see whether the current schema module default namespace is XSD or not",
           "hierarchy": "Text XML HaXml Schema Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Parse",
           "name": "xsdTag",
           "normalized": "String-\u003eContent Posn-\u003eBool",
@@ -15835,6 +17207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-print the internal Haskell model of XSD datatypes to a real\n   Haskell module containing type declarations, and instances for parsing\n   (and printing - though not yet implemented) values of those datatypes\n   from(/to) XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "PrettyHaskell",
           "package": "HaXml",
@@ -15844,6 +17217,7 @@
         "index": {
           "description": "Pretty-print the internal Haskell model of XSD datatypes to real Haskell module containing type declarations and instances for parsing and printing though not yet implemented values of those datatypes from to XML",
           "hierarchy": "Text XML HaXml Schema PrettyHaskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "PrettyHaskell",
           "package": "HaXml",
@@ -15858,6 +17232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate aligned haddock-style documentation.\n   (but without escapes in comment text yet)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppComment",
           "package": "HaXml",
@@ -15868,6 +17243,7 @@
         "index": {
           "description": "Generate aligned haddock-style documentation but without escapes in comment text yet",
           "hierarchy": "Text XML HaXml Schema PrettyHaskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppComment",
           "normalized": "CommentPosition-\u003eComment-\u003eDoc",
@@ -15884,6 +17260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a single Haskell Decl into Haskell source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppHighLevelDecl",
           "package": "HaXml",
@@ -15894,6 +17271,7 @@
         "index": {
           "description": "Convert single Haskell Decl into Haskell source text",
           "hierarchy": "Text XML HaXml Schema PrettyHaskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppHighLevelDecl",
           "normalized": "NameConverter-\u003eDecl-\u003eDoc",
@@ -15910,6 +17288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert multiple HaskellTypeModel Decls to Haskell source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppHighLevelDecls",
           "package": "HaXml",
@@ -15920,6 +17299,7 @@
         "index": {
           "description": "Convert multiple HaskellTypeModel Decls to Haskell source text",
           "hierarchy": "Text XML HaXml Schema PrettyHaskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppHighLevelDecls",
           "normalized": "NameConverter-\u003e[Decl]-\u003eDoc",
@@ -15936,6 +17316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a whole document from HaskellTypeModel to Haskell source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppModule",
           "package": "HaXml",
@@ -15946,6 +17327,7 @@
         "index": {
           "description": "Convert whole document from HaskellTypeModel to Haskell source text",
           "hierarchy": "Text XML HaXml Schema PrettyHaskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppModule",
           "normalized": "NameConverter-\u003eModule-\u003eDoc",
@@ -15962,6 +17344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertically pretty-print a list of things, with open and close brackets,\n   and separators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppvList",
           "package": "HaXml",
@@ -15972,6 +17355,7 @@
         "index": {
           "description": "Vertically pretty-print list of things with open and close brackets and separators",
           "hierarchy": "Text XML HaXml Schema PrettyHaskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHaskell",
           "name": "ppvList",
           "normalized": "String-\u003eString-\u003eString-\u003e(a-\u003eDoc)-\u003e[a]-\u003eDoc",
@@ -15988,6 +17372,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-print the internal Haskell model of XSD datatypes to a\n   Haskell hs-boot module containing only stub type declarations.\n   This approach is intended to work around issues of mutually recursive\n   datatype definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "PrettyHsBoot",
           "package": "HaXml",
@@ -15997,6 +17382,7 @@
         "index": {
           "description": "Pretty-print the internal Haskell model of XSD datatypes to Haskell hs-boot module containing only stub type declarations This approach is intended to work around issues of mutually recursive datatype definitions",
           "hierarchy": "Text XML HaXml Schema PrettyHsBoot",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "PrettyHsBoot",
           "package": "HaXml",
@@ -16011,6 +17397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate aligned haddock-style documentation.\n   (but without escapes in comment text yet)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppComment",
           "package": "HaXml",
@@ -16021,6 +17408,7 @@
         "index": {
           "description": "Generate aligned haddock-style documentation but without escapes in comment text yet",
           "hierarchy": "Text XML HaXml Schema PrettyHsBoot",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppComment",
           "normalized": "CommentPosition-\u003eComment-\u003eDoc",
@@ -16037,6 +17425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a single Haskell Decl into Haskell source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppHighLevelDecl",
           "package": "HaXml",
@@ -16047,6 +17436,7 @@
         "index": {
           "description": "Convert single Haskell Decl into Haskell source text",
           "hierarchy": "Text XML HaXml Schema PrettyHsBoot",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppHighLevelDecl",
           "normalized": "NameConverter-\u003eDecl-\u003eDoc",
@@ -16063,6 +17453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert multiple HaskellTypeModel Decls to Haskell source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppHighLevelDecls",
           "package": "HaXml",
@@ -16073,6 +17464,7 @@
         "index": {
           "description": "Convert multiple HaskellTypeModel Decls to Haskell source text",
           "hierarchy": "Text XML HaXml Schema PrettyHsBoot",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppHighLevelDecls",
           "normalized": "NameConverter-\u003e[Decl]-\u003eDoc",
@@ -16089,6 +17481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a whole document from HaskellTypeModel to Haskell source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppModule",
           "package": "HaXml",
@@ -16099,6 +17492,7 @@
         "index": {
           "description": "Convert whole document from HaskellTypeModel to Haskell source text",
           "hierarchy": "Text XML HaXml Schema PrettyHsBoot",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppModule",
           "normalized": "NameConverter-\u003eModule-\u003eDoc",
@@ -16115,6 +17509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertically pretty-print a list of things, with open and close brackets,\n   and separators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppvList",
           "package": "HaXml",
@@ -16125,6 +17520,7 @@
         "index": {
           "description": "Vertically pretty-print list of things with open and close brackets and separators",
           "hierarchy": "Text XML HaXml Schema PrettyHsBoot",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrettyHsBoot",
           "name": "ppvList",
           "normalized": "String-\u003eString-\u003eString-\u003e(a-\u003eDoc)-\u003e[a]-\u003eDoc",
@@ -16140,6 +17536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "PrimitiveTypes",
           "package": "HaXml",
@@ -16148,6 +17545,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "PrimitiveTypes",
           "package": "HaXml",
@@ -16161,6 +17559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "AnyURI",
           "package": "HaXml",
@@ -16169,6 +17568,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "AnyURI",
           "package": "HaXml",
@@ -16182,6 +17582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Base64Binary",
           "package": "HaXml",
@@ -16190,6 +17591,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Base64Binary",
           "package": "HaXml",
@@ -16203,6 +17605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Boolean",
           "package": "HaXml",
@@ -16211,6 +17614,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Boolean",
           "package": "HaXml",
@@ -16224,6 +17628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Byte",
           "package": "HaXml",
@@ -16232,6 +17637,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Byte",
           "package": "HaXml",
@@ -16245,6 +17651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Date",
           "package": "HaXml",
@@ -16253,6 +17660,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Date",
           "package": "HaXml",
@@ -16266,6 +17674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "DateTime",
           "package": "HaXml",
@@ -16274,6 +17683,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "DateTime",
           "package": "HaXml",
@@ -16287,6 +17697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Decimal",
           "package": "HaXml",
@@ -16295,6 +17706,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Decimal",
           "package": "HaXml",
@@ -16309,6 +17721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE double-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Double",
           "package": "HaXml",
@@ -16317,6 +17730,7 @@
         "index": {
           "description": "Double-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE double-precision type",
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Double",
           "package": "HaXml",
@@ -16330,6 +17744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Duration",
           "package": "HaXml",
@@ -16338,6 +17753,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Duration",
           "package": "HaXml",
@@ -16351,6 +17767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ENTITIES",
           "package": "HaXml",
@@ -16359,6 +17776,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ENTITIES",
           "package": "HaXml",
@@ -16372,6 +17790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ENTITY",
           "package": "HaXml",
@@ -16380,6 +17799,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ENTITY",
           "package": "HaXml",
@@ -16394,6 +17814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE single-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Float",
           "package": "HaXml",
@@ -16402,6 +17823,7 @@
         "index": {
           "description": "Single-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE single-precision type",
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Float",
           "package": "HaXml",
@@ -16415,6 +17837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GDay",
           "package": "HaXml",
@@ -16423,6 +17846,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GDay",
           "package": "HaXml",
@@ -16436,6 +17860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GMonth",
           "package": "HaXml",
@@ -16444,6 +17869,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GMonth",
           "package": "HaXml",
@@ -16457,6 +17883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GMonthDay",
           "package": "HaXml",
@@ -16465,6 +17892,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GMonthDay",
           "package": "HaXml",
@@ -16478,6 +17906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GYear",
           "package": "HaXml",
@@ -16486,6 +17915,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GYear",
           "package": "HaXml",
@@ -16499,6 +17929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GYearMonth",
           "package": "HaXml",
@@ -16507,6 +17938,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GYearMonth",
           "package": "HaXml",
@@ -16520,6 +17952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "HexBinary",
           "package": "HaXml",
@@ -16528,6 +17961,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "HexBinary",
           "package": "HaXml",
@@ -16541,6 +17975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ID",
           "package": "HaXml",
@@ -16549,6 +17984,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ID",
           "package": "HaXml",
@@ -16562,6 +17998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "IDREF",
           "package": "HaXml",
@@ -16570,6 +18007,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "IDREF",
           "package": "HaXml",
@@ -16583,6 +18021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "IDREFS",
           "package": "HaXml",
@@ -16591,6 +18030,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "IDREFS",
           "package": "HaXml",
@@ -16605,6 +18045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed-precision integer type with at least the range \u003ccode\u003e[-2^29 .. 2^29-1]\u003c/code\u003e.\n The exact range for a given implementation can be determined by using\n \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Int",
           "package": "HaXml",
@@ -16613,6 +18054,7 @@
         "index": {
           "description": "fixed-precision integer type with at least the range The exact range for given implementation can be determined by using minBound and maxBound from the Bounded class",
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Int",
           "package": "HaXml",
@@ -16627,6 +18069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary-precision integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Integer",
           "package": "HaXml",
@@ -16635,6 +18078,7 @@
         "index": {
           "description": "Arbitrary-precision integers",
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Integer",
           "package": "HaXml",
@@ -16648,6 +18092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Language",
           "package": "HaXml",
@@ -16656,6 +18101,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Language",
           "package": "HaXml",
@@ -16669,6 +18115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Long",
           "package": "HaXml",
@@ -16677,6 +18124,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Long",
           "package": "HaXml",
@@ -16690,6 +18138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NCName",
           "package": "HaXml",
@@ -16698,6 +18147,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NCName",
           "package": "HaXml",
@@ -16711,6 +18161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NMTOKEN",
           "package": "HaXml",
@@ -16719,6 +18170,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NMTOKEN",
           "package": "HaXml",
@@ -16732,6 +18184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NMTOKENS",
           "package": "HaXml",
@@ -16740,6 +18193,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NMTOKENS",
           "package": "HaXml",
@@ -16753,6 +18207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NOTATION",
           "package": "HaXml",
@@ -16761,6 +18216,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NOTATION",
           "package": "HaXml",
@@ -16774,6 +18230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Name",
           "package": "HaXml",
@@ -16782,6 +18239,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Name",
           "package": "HaXml",
@@ -16795,6 +18253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NegativeInteger",
           "package": "HaXml",
@@ -16803,6 +18262,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NegativeInteger",
           "package": "HaXml",
@@ -16816,6 +18276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NonNegativeInteger",
           "package": "HaXml",
@@ -16824,6 +18285,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NonNegativeInteger",
           "package": "HaXml",
@@ -16837,6 +18299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NonPositiveInteger",
           "package": "HaXml",
@@ -16845,6 +18308,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NonPositiveInteger",
           "package": "HaXml",
@@ -16858,6 +18322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NormalizedString",
           "package": "HaXml",
@@ -16866,6 +18331,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NormalizedString",
           "package": "HaXml",
@@ -16879,6 +18345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "PositiveInteger",
           "package": "HaXml",
@@ -16887,6 +18354,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "PositiveInteger",
           "package": "HaXml",
@@ -16901,6 +18369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA QName is a (possibly) qualified name, in the sense of XML namespaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "QName",
           "package": "HaXml",
@@ -16910,6 +18379,7 @@
         "index": {
           "description": "QName is possibly qualified name in the sense of XML namespaces",
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "QName",
           "package": "HaXml",
@@ -16923,6 +18393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Short",
           "package": "HaXml",
@@ -16931,6 +18402,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Short",
           "package": "HaXml",
@@ -16945,6 +18417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUltimately, an XML parser will find some plain text as the content\n   of a simpleType, which will need to be parsed.  We use a TextParser,\n   because values of simpleTypes can also be given elsewhere, e.g. as\n   attribute values in an XSD definition, e.g. to restrict the permissible\n   values of the simpleType.  Such restrictions are therefore implemented\n   as layered parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "SimpleType",
           "package": "HaXml",
@@ -16954,6 +18427,7 @@
         "index": {
           "description": "Ultimately an XML parser will find some plain text as the content of simpleType which will need to be parsed We use TextParser because values of simpleTypes can also be given elsewhere e.g as attribute values in an XSD definition e.g to restrict the permissible values of the simpleType Such restrictions are therefore implemented as layered parsers",
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "SimpleType",
           "package": "HaXml",
@@ -16967,6 +18441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Time",
           "package": "HaXml",
@@ -16975,6 +18450,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Time",
           "package": "HaXml",
@@ -16988,6 +18464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Token",
           "package": "HaXml",
@@ -16996,6 +18473,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Token",
           "package": "HaXml",
@@ -17009,6 +18487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UnsignedByte",
           "package": "HaXml",
@@ -17017,6 +18496,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UnsignedByte",
           "package": "HaXml",
@@ -17030,6 +18510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UnsignedInt",
           "package": "HaXml",
@@ -17038,6 +18519,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UnsignedInt",
           "package": "HaXml",
@@ -17051,6 +18533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UnsignedLong",
           "package": "HaXml",
@@ -17059,6 +18542,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UnsignedLong",
           "package": "HaXml",
@@ -17072,6 +18556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UnsignedShort",
           "package": "HaXml",
@@ -17080,6 +18565,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UnsignedShort",
           "package": "HaXml",
@@ -17093,6 +18579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "XsdString",
           "package": "HaXml",
@@ -17101,6 +18588,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "XsdString",
           "package": "HaXml",
@@ -17114,6 +18602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "AnyURI",
           "package": "HaXml",
@@ -17123,6 +18612,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "AnyURI",
           "package": "HaXml",
@@ -17136,6 +18626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Base64Binary",
           "package": "HaXml",
@@ -17145,6 +18636,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Base64Binary",
           "package": "HaXml",
@@ -17158,6 +18650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Byte",
           "package": "HaXml",
@@ -17167,6 +18660,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Byte",
           "package": "HaXml",
@@ -17180,6 +18674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Date",
           "package": "HaXml",
@@ -17189,6 +18684,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Date",
           "package": "HaXml",
@@ -17202,6 +18698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "DateTime",
           "package": "HaXml",
@@ -17211,6 +18708,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "DateTime",
           "package": "HaXml",
@@ -17224,6 +18722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Decimal",
           "package": "HaXml",
@@ -17233,6 +18732,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Decimal",
           "package": "HaXml",
@@ -17246,6 +18746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Duration",
           "package": "HaXml",
@@ -17255,6 +18756,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Duration",
           "package": "HaXml",
@@ -17268,6 +18770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ENTITIES",
           "package": "HaXml",
@@ -17277,6 +18780,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ENTITIES",
           "package": "HaXml",
@@ -17290,6 +18794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ENTITY",
           "package": "HaXml",
@@ -17299,6 +18804,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ENTITY",
           "package": "HaXml",
@@ -17312,6 +18818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GDay",
           "package": "HaXml",
@@ -17321,6 +18828,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GDay",
           "package": "HaXml",
@@ -17334,6 +18842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GMonth",
           "package": "HaXml",
@@ -17343,6 +18852,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GMonth",
           "package": "HaXml",
@@ -17356,6 +18866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GMonthDay",
           "package": "HaXml",
@@ -17365,6 +18876,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GMonthDay",
           "package": "HaXml",
@@ -17378,6 +18890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GYear",
           "package": "HaXml",
@@ -17387,6 +18900,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GYear",
           "package": "HaXml",
@@ -17400,6 +18914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GYearMonth",
           "package": "HaXml",
@@ -17409,6 +18924,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "GYearMonth",
           "package": "HaXml",
@@ -17422,6 +18938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "HexBinary",
           "package": "HaXml",
@@ -17431,6 +18948,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "HexBinary",
           "package": "HaXml",
@@ -17444,6 +18962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ID",
           "package": "HaXml",
@@ -17453,6 +18972,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ID",
           "package": "HaXml",
@@ -17466,6 +18986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "IDREF",
           "package": "HaXml",
@@ -17475,6 +18996,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "IDREF",
           "package": "HaXml",
@@ -17488,6 +19010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "IDREFS",
           "package": "HaXml",
@@ -17497,6 +19020,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "IDREFS",
           "package": "HaXml",
@@ -17510,6 +19034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Language",
           "package": "HaXml",
@@ -17519,6 +19044,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Language",
           "package": "HaXml",
@@ -17532,6 +19058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Long",
           "package": "HaXml",
@@ -17541,6 +19068,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Long",
           "package": "HaXml",
@@ -17576,6 +19104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NCName",
           "package": "HaXml",
@@ -17585,6 +19114,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NCName",
           "package": "HaXml",
@@ -17598,6 +19128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NMTOKEN",
           "package": "HaXml",
@@ -17607,6 +19138,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NMTOKEN",
           "package": "HaXml",
@@ -17620,6 +19152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NMTOKENS",
           "package": "HaXml",
@@ -17629,6 +19162,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NMTOKENS",
           "package": "HaXml",
@@ -17642,6 +19176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NOTATION",
           "package": "HaXml",
@@ -17651,6 +19186,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NOTATION",
           "package": "HaXml",
@@ -17664,6 +19200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Name",
           "package": "HaXml",
@@ -17673,6 +19210,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Name",
           "package": "HaXml",
@@ -17686,6 +19224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Negative",
           "package": "HaXml",
@@ -17695,6 +19234,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Negative",
           "package": "HaXml",
@@ -17708,6 +19248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NonNeg",
           "package": "HaXml",
@@ -17717,6 +19258,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NonNeg",
           "package": "HaXml",
@@ -17730,6 +19272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NonPos",
           "package": "HaXml",
@@ -17739,6 +19282,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "NonPos",
           "package": "HaXml",
@@ -17752,6 +19296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Normalized",
           "package": "HaXml",
@@ -17761,6 +19306,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Normalized",
           "package": "HaXml",
@@ -17774,6 +19320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Positive",
           "package": "HaXml",
@@ -17783,6 +19330,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Positive",
           "package": "HaXml",
@@ -17819,6 +19367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Short",
           "package": "HaXml",
@@ -17828,6 +19377,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Short",
           "package": "HaXml",
@@ -17841,6 +19391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Time",
           "package": "HaXml",
@@ -17850,6 +19401,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Time",
           "package": "HaXml",
@@ -17863,6 +19415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Token",
           "package": "HaXml",
@@ -17872,6 +19425,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "Token",
           "package": "HaXml",
@@ -17885,6 +19439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UByte",
           "package": "HaXml",
@@ -17894,6 +19449,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UByte",
           "package": "HaXml",
@@ -17907,6 +19463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UInt",
           "package": "HaXml",
@@ -17916,6 +19473,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UInt",
           "package": "HaXml",
@@ -17929,6 +19487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ULong",
           "package": "HaXml",
@@ -17938,6 +19497,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "ULong",
           "package": "HaXml",
@@ -17951,6 +19511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UShort",
           "package": "HaXml",
@@ -17960,6 +19521,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "UShort",
           "package": "HaXml",
@@ -17973,6 +19535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "XsdString",
           "package": "HaXml",
@@ -17982,6 +19545,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "XsdString",
           "package": "HaXml",
@@ -17995,6 +19559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "acceptingParser",
           "package": "HaXml",
@@ -18004,6 +19569,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "acceptingParser",
           "package": "HaXml",
@@ -18017,6 +19583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "simpleTypeText",
           "package": "HaXml",
@@ -18026,6 +19593,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema PrimitiveTypes",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.PrimitiveTypes",
           "name": "simpleTypeText",
           "normalized": "a-\u003eString",
@@ -18041,6 +19609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Schema",
           "package": "HaXml",
@@ -18049,6 +19618,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Schema",
           "package": "HaXml",
@@ -18063,6 +19633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ca\u003exsd:any\u003c/a\u003e type.  Parsing will always produce an \u003ca\u003eUnconvertedANY\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "AnyElement",
           "package": "HaXml",
@@ -18072,6 +19643,7 @@
         "index": {
           "description": "The xsd any type Parsing will always produce an UnconvertedANY",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "AnyElement",
           "package": "HaXml",
@@ -18085,6 +19657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Content",
           "package": "HaXml",
@@ -18093,6 +19666,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Content",
           "package": "HaXml",
@@ -18107,6 +19681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type t can extend another type s by the addition of extra elements\n   and/or attributes.  s is therefore the supertype of t.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Extension",
           "package": "HaXml",
@@ -18116,6 +19691,7 @@
         "index": {
           "description": "type can extend another type by the addition of extra elements and or attributes is therefore the supertype of",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Extension",
           "package": "HaXml",
@@ -18130,6 +19706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA trick to enable forward-declaration of a type that will be defined\n   properly in another module, higher in the dependency graph. \u003ccode\u003efd\u003c/code\u003e is\n   a dummy type e.g. the empty \u003ccode\u003edata FwdA\u003c/code\u003e, where \u003ccode\u003ea\u003c/code\u003e is the proper\n   \u003ccode\u003edata A\u003c/code\u003e, not yet available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "FwdDecl",
           "package": "HaXml",
@@ -18139,6 +19716,7 @@
         "index": {
           "description": "trick to enable forward-declaration of type that will be defined properly in another module higher in the dependency graph fd is dummy type e.g the empty data FwdA where is the proper data not yet available",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "FwdDecl",
           "package": "HaXml",
@@ -18152,6 +19730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Occurs",
           "package": "HaXml",
@@ -18160,6 +19739,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Occurs",
           "package": "HaXml",
@@ -18174,6 +19754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type t can restrict another type s, that is, t admits fewer values\n   than s, but all the values t does admit also belong to the type s.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Restricts",
           "package": "HaXml",
@@ -18183,6 +19764,7 @@
         "index": {
           "description": "type can restrict another type that is admits fewer values than but all the values does admit also belong to the type",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "Restricts",
           "package": "HaXml",
@@ -18197,6 +19779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SchemaType promises to interconvert between a generic XML\n   content tree and a Haskell value, according to the rules of XSD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "SchemaType",
           "package": "HaXml",
@@ -18206,6 +19789,7 @@
         "index": {
           "description": "SchemaType promises to interconvert between generic XML content tree and Haskell value according to the rules of XSD",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "SchemaType",
           "package": "HaXml",
@@ -18220,6 +19804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUltimately, an XML parser will find some plain text as the content\n   of a simpleType, which will need to be parsed.  We use a TextParser,\n   because values of simpleTypes can also be given elsewhere, e.g. as\n   attribute values in an XSD definition, e.g. to restrict the permissible\n   values of the simpleType.  Such restrictions are therefore implemented\n   as layered parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "SimpleType",
           "package": "HaXml",
@@ -18229,6 +19814,7 @@
         "index": {
           "description": "Ultimately an XML parser will find some plain text as the content of simpleType which will need to be parsed We use TextParser because values of simpleTypes can also be given elsewhere e.g as attribute values in an XSD definition e.g to restrict the permissible values of the simpleType Such restrictions are therefore implemented as layered parsers",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "SimpleType",
           "package": "HaXml",
@@ -18243,6 +19829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need a parsing monad for reading generic XML Content into specific\n   datatypes.  This is a specialisation of the Text.ParserCombinators.Poly\n   ones, where the input token type is fixed as XML Content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "XMLParser",
           "package": "HaXml",
@@ -18252,6 +19839,7 @@
         "index": {
           "description": "We need parsing monad for reading generic XML Content into specific datatypes This is specialisation of the Text.ParserCombinators.Poly ones where the input token type is fixed as XML Content",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "XMLParser",
           "package": "HaXml",
@@ -18265,6 +19853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "ANYSchemaType",
           "package": "HaXml",
@@ -18274,6 +19863,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "ANYSchemaType",
           "package": "HaXml",
@@ -18404,6 +19994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "UnconvertedANY",
           "package": "HaXml",
@@ -18413,6 +20004,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "UnconvertedANY",
           "package": "HaXml",
@@ -18426,6 +20018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "acceptingParser",
           "package": "HaXml",
@@ -18435,6 +20028,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "acceptingParser",
           "package": "HaXml",
@@ -18449,6 +20043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a ComplexType that is an extension of a SimpleType, it is necessary to\n   convert the value to XML first, then add in the extra attributes that\n   constitute the extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "addXMLAttributes",
           "package": "HaXml",
@@ -18459,6 +20054,7 @@
         "index": {
           "description": "For ComplexType that is an extension of SimpleType it is necessary to convert the value to XML first then add in the extra attributes that constitute the extension",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "addXMLAttributes",
           "normalized": "[[Attribute]]-\u003e[Content()]-\u003e[Content()]",
@@ -18475,6 +20071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBetween is a list parser that tries to ensure that any range\n   specification (min and max elements) is obeyed when parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "between",
           "package": "HaXml",
@@ -18485,6 +20082,7 @@
         "index": {
           "description": "Between is list parser that tries to ensure that any range specification min and max elements is obeyed when parsing",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "between",
           "normalized": "Occurs-\u003ea b-\u003ea[b]",
@@ -18526,6 +20124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerated parsers will use \u003ccode\u003e\u003ca\u003egetAttribute\u003c/a\u003e\u003c/code\u003e as a convenient wrapper\n   to lift a SchemaAttribute parser into an XMLParser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "getAttribute",
           "package": "HaXml",
@@ -18536,6 +20135,7 @@
         "index": {
           "description": "Generated parsers will use getAttribute as convenient wrapper to lift SchemaAttribute parser into an XMLParser",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "getAttribute",
           "normalized": "String-\u003eElement Posn-\u003ePosn-\u003eXMLParser a",
@@ -18577,6 +20177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "parseAnyElement",
           "package": "HaXml",
@@ -18586,6 +20187,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "parseAnyElement",
           "package": "HaXml",
@@ -18599,6 +20201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "parseSchemaType",
           "package": "HaXml",
@@ -18608,6 +20211,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "parseSchemaType",
           "normalized": "String-\u003eXMLParser a",
@@ -18624,6 +20228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a TextParser for a SimpleType, make it into an XMLParser, i.e.\n   consuming textual XML content as input rather than a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "parseSimpleType",
           "package": "HaXml",
@@ -18634,6 +20239,7 @@
         "index": {
           "description": "Given TextParser for SimpleType make it into an XMLParser i.e consuming textual XML content as input rather than String",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "parseSimpleType",
           "package": "HaXml",
@@ -18648,6 +20254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the textual part of mixed content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "parseText",
           "package": "HaXml",
@@ -18658,6 +20265,7 @@
         "index": {
           "description": "Parse the textual part of mixed content",
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "parseText",
           "package": "HaXml",
@@ -18725,6 +20333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "restricts",
           "package": "HaXml",
@@ -18734,6 +20343,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "restricts",
           "normalized": "a-\u003eb",
@@ -18748,6 +20358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "schemaTypeToXML",
           "package": "HaXml",
@@ -18757,6 +20368,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "schemaTypeToXML",
           "normalized": "String-\u003ea-\u003e[Content()]",
@@ -18772,6 +20384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "simpleTypeText",
           "package": "HaXml",
@@ -18781,6 +20394,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "simpleTypeText",
           "normalized": "a-\u003eString",
@@ -18796,6 +20410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "supertype",
           "package": "HaXml",
@@ -18805,6 +20420,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "supertype",
           "normalized": "a-\u003eb",
@@ -18843,6 +20459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "toXMLAnyElement",
           "package": "HaXml",
@@ -18852,6 +20469,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "toXMLAnyElement",
           "normalized": "AnyElement-\u003e[Content()]",
@@ -18867,6 +20485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "toXMLAttribute",
           "package": "HaXml",
@@ -18876,6 +20495,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "toXMLAttribute",
           "normalized": "String-\u003ea-\u003e[Attribute]",
@@ -18891,6 +20511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "toXMLElement",
           "package": "HaXml",
@@ -18900,6 +20521,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "toXMLElement",
           "normalized": "String-\u003e[[Attribute]]-\u003e[[Content()]]-\u003e[Content()]",
@@ -18915,6 +20537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "toXMLText",
           "package": "HaXml",
@@ -18924,6 +20547,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema Schema",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.Schema",
           "name": "toXMLText",
           "normalized": "String-\u003e[Content()]",
@@ -18939,6 +20563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "TypeConversion",
           "package": "HaXml",
@@ -18947,6 +20572,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "TypeConversion",
           "package": "HaXml",
@@ -18960,6 +20586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "checkXName",
           "package": "HaXml",
@@ -18969,6 +20596,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "checkXName",
           "normalized": "Schema-\u003eQName-\u003eXName",
@@ -18984,6 +20612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "comment",
           "package": "HaXml",
@@ -18993,6 +20622,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "comment",
           "normalized": "Annotation-\u003eComment",
@@ -19008,6 +20638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsolidate a Facet occurrence into a single Occurs value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "consolidate",
           "package": "HaXml",
@@ -19018,6 +20649,7 @@
         "index": {
           "description": "Consolidate Facet occurrence into single Occurs value",
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "consolidate",
           "normalized": "Occurs-\u003e(FacetType,Annotation,String)-\u003eOccurs",
@@ -19033,6 +20665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an environment of schema type mappings, and a schema module,\n   create a bunch of Decls that describe the types in a more\n   Haskell-friendly way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "convert",
           "package": "HaXml",
@@ -19043,6 +20676,7 @@
         "index": {
           "description": "Given an environment of schema type mappings and schema module create bunch of Decls that describe the types in more Haskell-friendly way",
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "convert",
           "normalized": "Environment-\u003eSchema-\u003e[Decl]",
@@ -19057,6 +20691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "mkRestrict",
           "package": "HaXml",
@@ -19066,6 +20701,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "mkRestrict",
           "normalized": "Restriction-\u003e[Restrict]",
@@ -19081,6 +20717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "nameOfSimple",
           "package": "HaXml",
@@ -19090,6 +20727,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "nameOfSimple",
           "normalized": "SimpleType-\u003eXName",
@@ -19106,6 +20744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep applying the function to transform the value, until it yields\n   Nothing.  Returns the sequence of transformed values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "repeatedly",
           "package": "HaXml",
@@ -19116,6 +20755,7 @@
         "index": {
           "description": "Keep applying the function to transform the value until it yields Nothing Returns the sequence of transformed values",
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "repeatedly",
           "normalized": "(a-\u003eMaybe a)-\u003ea-\u003e[a]",
@@ -19130,6 +20770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "singleton",
           "package": "HaXml",
@@ -19139,6 +20780,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "singleton",
           "normalized": "a-\u003e[a]",
@@ -19154,6 +20796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the supertype (if it exists) of a given type name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "supertypeOf",
           "package": "HaXml",
@@ -19164,6 +20807,7 @@
         "index": {
           "description": "Find the supertype if it exists of given type name",
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "supertypeOf",
           "normalized": "Environment-\u003eQName-\u003eMaybe QName",
@@ -19179,6 +20823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "xname",
           "package": "HaXml",
@@ -19188,6 +20833,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema TypeConversion",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.TypeConversion",
           "name": "xname",
           "normalized": "String-\u003eXName",
@@ -19202,6 +20848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "XSDTypeModel",
           "package": "HaXml",
@@ -19210,6 +20857,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "XSDTypeModel",
           "package": "HaXml",
@@ -19223,6 +20871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Annotation",
           "package": "HaXml",
@@ -19231,6 +20880,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Annotation",
           "package": "HaXml",
@@ -19244,6 +20894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Any",
           "package": "HaXml",
@@ -19252,6 +20903,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Any",
           "package": "HaXml",
@@ -19265,6 +20917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AnyAttr",
           "package": "HaXml",
@@ -19273,6 +20926,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AnyAttr",
           "package": "HaXml",
@@ -19286,6 +20940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttrGroup",
           "package": "HaXml",
@@ -19294,6 +20949,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttrGroup",
           "package": "HaXml",
@@ -19307,6 +20963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttributeDecl",
           "package": "HaXml",
@@ -19315,6 +20972,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttributeDecl",
           "package": "HaXml",
@@ -19328,6 +20986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Block",
           "package": "HaXml",
@@ -19336,6 +20995,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Block",
           "package": "HaXml",
@@ -19349,6 +21009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ChoiceOrSeq",
           "package": "HaXml",
@@ -19357,6 +21018,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ChoiceOrSeq",
           "package": "HaXml",
@@ -19370,6 +21032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ComplexItem",
           "package": "HaXml",
@@ -19378,6 +21041,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ComplexItem",
           "package": "HaXml",
@@ -19391,6 +21055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ComplexType",
           "package": "HaXml",
@@ -19399,6 +21064,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ComplexType",
           "package": "HaXml",
@@ -19412,6 +21078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "DefaultValue",
           "package": "HaXml",
@@ -19420,6 +21087,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "DefaultValue",
           "package": "HaXml",
@@ -19433,6 +21101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ElementDecl",
           "package": "HaXml",
@@ -19441,6 +21110,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ElementDecl",
           "package": "HaXml",
@@ -19454,6 +21124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ElementEtc",
           "package": "HaXml",
@@ -19462,6 +21133,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ElementEtc",
           "package": "HaXml",
@@ -19475,6 +21147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Extension",
           "package": "HaXml",
@@ -19483,6 +21156,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Extension",
           "package": "HaXml",
@@ -19496,6 +21170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Facet",
           "package": "HaXml",
@@ -19504,6 +21179,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Facet",
           "package": "HaXml",
@@ -19517,6 +21193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "FacetType",
           "package": "HaXml",
@@ -19525,6 +21202,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "FacetType",
           "package": "HaXml",
@@ -19538,6 +21216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Field",
           "package": "HaXml",
@@ -19546,6 +21225,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Field",
           "package": "HaXml",
@@ -19559,6 +21239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Final",
           "package": "HaXml",
@@ -19567,6 +21248,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Final",
           "package": "HaXml",
@@ -19580,6 +21262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Fixed",
           "package": "HaXml",
@@ -19588,6 +21271,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Fixed",
           "package": "HaXml",
@@ -19601,6 +21285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "FixedValue",
           "package": "HaXml",
@@ -19609,6 +21294,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "FixedValue",
           "package": "HaXml",
@@ -19622,6 +21308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Group",
           "package": "HaXml",
@@ -19630,6 +21317,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Group",
           "package": "HaXml",
@@ -19643,6 +21331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Key",
           "package": "HaXml",
@@ -19651,6 +21340,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Key",
           "package": "HaXml",
@@ -19664,6 +21354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "KeyRef",
           "package": "HaXml",
@@ -19672,6 +21363,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "KeyRef",
           "package": "HaXml",
@@ -19685,6 +21377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Mixed",
           "package": "HaXml",
@@ -19693,6 +21386,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Mixed",
           "package": "HaXml",
@@ -19706,6 +21400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "MyRestriction",
           "package": "HaXml",
@@ -19714,6 +21409,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "MyRestriction",
           "package": "HaXml",
@@ -19727,6 +21423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NameAndType",
           "package": "HaXml",
@@ -19735,6 +21432,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NameAndType",
           "package": "HaXml",
@@ -19748,6 +21446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Nillable",
           "package": "HaXml",
@@ -19756,6 +21455,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Nillable",
           "package": "HaXml",
@@ -19769,6 +21469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Occurs",
           "package": "HaXml",
@@ -19777,6 +21478,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Occurs",
           "package": "HaXml",
@@ -19790,6 +21492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Particle",
           "package": "HaXml",
@@ -19798,6 +21501,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Particle",
           "package": "HaXml",
@@ -19811,6 +21515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ParticleAttrs",
           "package": "HaXml",
@@ -19819,6 +21524,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ParticleAttrs",
           "package": "HaXml",
@@ -19832,6 +21538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "PrimitiveType",
           "package": "HaXml",
@@ -19840,6 +21547,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "PrimitiveType",
           "package": "HaXml",
@@ -19853,6 +21561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ProcessContents",
           "package": "HaXml",
@@ -19861,6 +21570,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ProcessContents",
           "package": "HaXml",
@@ -19874,6 +21584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "QForm",
           "package": "HaXml",
@@ -19882,6 +21593,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "QForm",
           "package": "HaXml",
@@ -19895,6 +21607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Regexp",
           "package": "HaXml",
@@ -19903,6 +21616,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Regexp",
           "package": "HaXml",
@@ -19916,6 +21630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Restriction",
           "package": "HaXml",
@@ -19924,6 +21639,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Restriction",
           "package": "HaXml",
@@ -19937,6 +21653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Restriction1",
           "package": "HaXml",
@@ -19945,6 +21662,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Restriction1",
           "package": "HaXml",
@@ -19958,6 +21676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Schema",
           "package": "HaXml",
@@ -19966,6 +21685,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Schema",
           "package": "HaXml",
@@ -19979,6 +21699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaItem",
           "package": "HaXml",
@@ -19987,6 +21708,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaItem",
           "package": "HaXml",
@@ -20000,6 +21722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaLocation",
           "package": "HaXml",
@@ -20008,6 +21731,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaLocation",
           "package": "HaXml",
@@ -20021,6 +21745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Selector",
           "package": "HaXml",
@@ -20029,6 +21754,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Selector",
           "package": "HaXml",
@@ -20042,6 +21768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SimpleType",
           "package": "HaXml",
@@ -20050,6 +21777,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SimpleType",
           "package": "HaXml",
@@ -20063,6 +21791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "TargetNamespace",
           "package": "HaXml",
@@ -20071,6 +21800,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "TargetNamespace",
           "package": "HaXml",
@@ -20084,6 +21814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "TypeName",
           "package": "HaXml",
@@ -20092,6 +21823,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "TypeName",
           "package": "HaXml",
@@ -20105,6 +21837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "URI",
           "package": "HaXml",
@@ -20113,6 +21846,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "URI",
           "package": "HaXml",
@@ -20126,6 +21860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Unique",
           "package": "HaXml",
@@ -20134,6 +21869,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Unique",
           "package": "HaXml",
@@ -20147,6 +21883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UniqueKeyOrKeyRef",
           "package": "HaXml",
@@ -20155,6 +21892,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UniqueKeyOrKeyRef",
           "package": "HaXml",
@@ -20168,6 +21906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Use",
           "package": "HaXml",
@@ -20176,6 +21915,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Use",
           "package": "HaXml",
@@ -20189,6 +21929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "All",
           "package": "HaXml",
@@ -20198,6 +21939,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "All",
           "normalized": "All Annotation[ElementDecl]",
@@ -20213,6 +21955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AllFinal",
           "package": "HaXml",
@@ -20222,6 +21965,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AllFinal",
           "package": "HaXml",
@@ -20235,6 +21979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Annotation",
           "package": "HaXml",
@@ -20244,6 +21989,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Annotation",
           "package": "HaXml",
@@ -20257,6 +22003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Any",
           "package": "HaXml",
@@ -20266,6 +22013,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Any",
           "package": "HaXml",
@@ -20279,6 +22027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AnyAttr",
           "package": "HaXml",
@@ -20288,6 +22037,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AnyAttr",
           "package": "HaXml",
@@ -20301,6 +22051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AnyURI",
           "package": "HaXml",
@@ -20310,6 +22061,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AnyURI",
           "package": "HaXml",
@@ -20323,6 +22075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AppInfo",
           "package": "HaXml",
@@ -20332,6 +22085,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AppInfo",
           "package": "HaXml",
@@ -20345,6 +22099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttrGroup",
           "package": "HaXml",
@@ -20354,6 +22109,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttrGroup",
           "package": "HaXml",
@@ -20367,6 +22123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttributeDecl",
           "package": "HaXml",
@@ -20376,6 +22133,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttributeDecl",
           "package": "HaXml",
@@ -20389,6 +22147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttributeGroup",
           "package": "HaXml",
@@ -20398,6 +22157,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "AttributeGroup",
           "package": "HaXml",
@@ -20411,6 +22171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Base64Binary",
           "package": "HaXml",
@@ -20420,6 +22181,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Base64Binary",
           "package": "HaXml",
@@ -20433,6 +22195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Boolean",
           "package": "HaXml",
@@ -20442,6 +22205,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Boolean",
           "package": "HaXml",
@@ -20455,6 +22219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Choice",
           "package": "HaXml",
@@ -20464,6 +22229,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Choice",
           "normalized": "Choice Annotation Occurs[ElementEtc]",
@@ -20479,6 +22245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Complex",
           "package": "HaXml",
@@ -20488,6 +22255,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Complex",
           "package": "HaXml",
@@ -20501,6 +22269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ComplexContent",
           "package": "HaXml",
@@ -20510,6 +22279,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ComplexContent",
           "package": "HaXml",
@@ -20523,6 +22293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ComplexType",
           "package": "HaXml",
@@ -20532,6 +22303,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ComplexType",
           "package": "HaXml",
@@ -20545,6 +22317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Date",
           "package": "HaXml",
@@ -20554,6 +22327,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Date",
           "package": "HaXml",
@@ -20567,6 +22341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "DateTime",
           "package": "HaXml",
@@ -20576,6 +22351,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "DateTime",
           "package": "HaXml",
@@ -20589,6 +22365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Decimal",
           "package": "HaXml",
@@ -20598,6 +22375,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Decimal",
           "package": "HaXml",
@@ -20611,6 +22389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Documentation",
           "package": "HaXml",
@@ -20620,6 +22399,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Documentation",
           "package": "HaXml",
@@ -20633,6 +22413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Double",
           "package": "HaXml",
@@ -20642,6 +22423,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Double",
           "package": "HaXml",
@@ -20655,6 +22437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Duration",
           "package": "HaXml",
@@ -20664,6 +22447,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Duration",
           "package": "HaXml",
@@ -20677,6 +22461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ElementDecl",
           "package": "HaXml",
@@ -20686,6 +22471,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ElementDecl",
           "package": "HaXml",
@@ -20699,6 +22485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Enumeration",
           "package": "HaXml",
@@ -20708,6 +22495,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Enumeration",
           "normalized": "Enumeration[String]",
@@ -20723,6 +22511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Extension",
           "package": "HaXml",
@@ -20732,6 +22521,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Extension",
           "package": "HaXml",
@@ -20745,6 +22535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Facet",
           "package": "HaXml",
@@ -20754,6 +22545,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Facet",
           "package": "HaXml",
@@ -20767,6 +22559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Field",
           "package": "HaXml",
@@ -20776,6 +22569,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Field",
           "package": "HaXml",
@@ -20789,6 +22583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Float",
           "package": "HaXml",
@@ -20798,6 +22593,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Float",
           "package": "HaXml",
@@ -20811,6 +22607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GDay",
           "package": "HaXml",
@@ -20820,6 +22617,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GDay",
           "package": "HaXml",
@@ -20833,6 +22631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GMonth",
           "package": "HaXml",
@@ -20842,6 +22641,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GMonth",
           "package": "HaXml",
@@ -20855,6 +22655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GMonthDay",
           "package": "HaXml",
@@ -20864,6 +22665,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GMonthDay",
           "package": "HaXml",
@@ -20877,6 +22679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GYear",
           "package": "HaXml",
@@ -20886,6 +22689,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GYear",
           "package": "HaXml",
@@ -20899,6 +22703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GYearMonth",
           "package": "HaXml",
@@ -20908,6 +22713,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "GYearMonth",
           "package": "HaXml",
@@ -20921,6 +22727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Group",
           "package": "HaXml",
@@ -20930,6 +22737,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Group",
           "package": "HaXml",
@@ -20943,6 +22751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HasAny",
           "package": "HaXml",
@@ -20952,6 +22761,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HasAny",
           "package": "HaXml",
@@ -20965,6 +22775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HasCS",
           "package": "HaXml",
@@ -20974,6 +22785,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HasCS",
           "package": "HaXml",
@@ -20987,6 +22799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HasElement",
           "package": "HaXml",
@@ -20996,6 +22809,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HasElement",
           "package": "HaXml",
@@ -21009,6 +22823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HasGroup",
           "package": "HaXml",
@@ -21018,6 +22833,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HasGroup",
           "package": "HaXml",
@@ -21031,6 +22847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HexBinary",
           "package": "HaXml",
@@ -21040,6 +22857,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "HexBinary",
           "package": "HaXml",
@@ -21053,6 +22871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Import",
           "package": "HaXml",
@@ -21062,6 +22881,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Import",
           "package": "HaXml",
@@ -21075,6 +22895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Include",
           "package": "HaXml",
@@ -21084,6 +22905,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Include",
           "package": "HaXml",
@@ -21097,6 +22919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "K",
           "package": "HaXml",
@@ -21106,6 +22929,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "K",
           "package": "HaXml",
@@ -21118,6 +22942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "KR",
           "package": "HaXml",
@@ -21127,6 +22952,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "KR",
           "package": "HaXml",
@@ -21140,6 +22966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Key",
           "package": "HaXml",
@@ -21149,6 +22976,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Key",
           "package": "HaXml",
@@ -21162,6 +22990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "KeyRef",
           "package": "HaXml",
@@ -21171,6 +23000,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "KeyRef",
           "package": "HaXml",
@@ -21184,6 +23014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Lax",
           "package": "HaXml",
@@ -21193,6 +23024,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Lax",
           "package": "HaXml",
@@ -21206,6 +23038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ListOf",
           "package": "HaXml",
@@ -21215,6 +23048,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ListOf",
           "package": "HaXml",
@@ -21228,6 +23062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NT",
           "package": "HaXml",
@@ -21237,6 +23072,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NT",
           "package": "HaXml",
@@ -21250,6 +23086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NoAnnotation",
           "package": "HaXml",
@@ -21259,6 +23096,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NoAnnotation",
           "package": "HaXml",
@@ -21272,6 +23110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NoExtension",
           "package": "HaXml",
@@ -21281,6 +23120,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NoExtension",
           "package": "HaXml",
@@ -21294,6 +23134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NoRestriction",
           "package": "HaXml",
@@ -21303,6 +23144,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "NoRestriction",
           "package": "HaXml",
@@ -21316,6 +23158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Notation",
           "package": "HaXml",
@@ -21325,6 +23168,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Notation",
           "package": "HaXml",
@@ -21338,6 +23182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Optional",
           "package": "HaXml",
@@ -21347,6 +23192,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Optional",
           "package": "HaXml",
@@ -21360,6 +23206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedBoundsMaxExcl",
           "package": "HaXml",
@@ -21369,6 +23216,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedBoundsMaxExcl",
           "package": "HaXml",
@@ -21382,6 +23230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedBoundsMaxIncl",
           "package": "HaXml",
@@ -21391,6 +23240,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedBoundsMaxIncl",
           "package": "HaXml",
@@ -21404,6 +23254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedBoundsMinExcl",
           "package": "HaXml",
@@ -21413,6 +23264,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedBoundsMinExcl",
           "package": "HaXml",
@@ -21426,6 +23278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedBoundsMinIncl",
           "package": "HaXml",
@@ -21435,6 +23288,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedBoundsMinIncl",
           "package": "HaXml",
@@ -21448,6 +23302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedNumericFractionDigits",
           "package": "HaXml",
@@ -21457,6 +23312,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedNumericFractionDigits",
           "package": "HaXml",
@@ -21470,6 +23326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedNumericTotalDigits",
           "package": "HaXml",
@@ -21479,6 +23336,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "OrderedNumericTotalDigits",
           "package": "HaXml",
@@ -21492,6 +23350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "PA",
           "package": "HaXml",
@@ -21501,6 +23360,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "PA",
           "normalized": "PA Particle[Either AttributeDecl AttrGroup](Maybe AnyAttr)",
@@ -21516,6 +23376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Pattern",
           "package": "HaXml",
@@ -21525,6 +23386,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Pattern",
           "package": "HaXml",
@@ -21538,6 +23400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Primitive",
           "package": "HaXml",
@@ -21547,6 +23410,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Primitive",
           "package": "HaXml",
@@ -21560,6 +23424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Prohibited",
           "package": "HaXml",
@@ -21569,6 +23434,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Prohibited",
           "package": "HaXml",
@@ -21582,6 +23448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "QName",
           "package": "HaXml",
@@ -21591,6 +23458,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "QName",
           "package": "HaXml",
@@ -21604,6 +23472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Qualified",
           "package": "HaXml",
@@ -21613,6 +23482,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Qualified",
           "package": "HaXml",
@@ -21626,6 +23496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Range",
           "package": "HaXml",
@@ -21635,6 +23506,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Range",
           "package": "HaXml",
@@ -21648,6 +23520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Redefine",
           "package": "HaXml",
@@ -21657,6 +23530,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Redefine",
           "normalized": "Redefine SchemaLocation[SchemaItem]",
@@ -21672,6 +23546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Required",
           "package": "HaXml",
@@ -21681,6 +23556,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Required",
           "package": "HaXml",
@@ -21694,6 +23570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "RestrictSim1",
           "package": "HaXml",
@@ -21703,6 +23580,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "RestrictSim1",
           "package": "HaXml",
@@ -21716,6 +23594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "RestrictType",
           "package": "HaXml",
@@ -21725,6 +23604,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "RestrictType",
           "package": "HaXml",
@@ -21738,6 +23618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Restricted",
           "package": "HaXml",
@@ -21747,6 +23628,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Restricted",
           "package": "HaXml",
@@ -21760,6 +23642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Restriction1",
           "package": "HaXml",
@@ -21769,6 +23652,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Restriction1",
           "package": "HaXml",
@@ -21782,6 +23666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Schema",
           "package": "HaXml",
@@ -21791,6 +23676,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Schema",
           "package": "HaXml",
@@ -21804,6 +23690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaAttribute",
           "package": "HaXml",
@@ -21813,6 +23700,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaAttribute",
           "package": "HaXml",
@@ -21826,6 +23714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaElement",
           "package": "HaXml",
@@ -21835,6 +23724,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaElement",
           "package": "HaXml",
@@ -21848,6 +23738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaGroup",
           "package": "HaXml",
@@ -21857,6 +23748,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SchemaGroup",
           "package": "HaXml",
@@ -21870,6 +23762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Selector",
           "package": "HaXml",
@@ -21879,6 +23772,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Selector",
           "package": "HaXml",
@@ -21892,6 +23786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Sequence",
           "package": "HaXml",
@@ -21901,6 +23796,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Sequence",
           "normalized": "Sequence Annotation Occurs[ElementEtc]",
@@ -21916,6 +23812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Simple",
           "package": "HaXml",
@@ -21925,6 +23822,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Simple",
           "package": "HaXml",
@@ -21938,6 +23836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SimpleContent",
           "package": "HaXml",
@@ -21947,6 +23846,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "SimpleContent",
           "package": "HaXml",
@@ -21960,6 +23860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Skip",
           "package": "HaXml",
@@ -21969,6 +23870,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Skip",
           "package": "HaXml",
@@ -21982,6 +23884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Strict",
           "package": "HaXml",
@@ -21991,6 +23894,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Strict",
           "package": "HaXml",
@@ -22004,6 +23908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "String",
           "package": "HaXml",
@@ -22013,6 +23918,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "String",
           "package": "HaXml",
@@ -22026,6 +23932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ThisType",
           "package": "HaXml",
@@ -22035,6 +23942,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ThisType",
           "package": "HaXml",
@@ -22048,6 +23956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Time",
           "package": "HaXml",
@@ -22057,6 +23966,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Time",
           "package": "HaXml",
@@ -22070,6 +23980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "U",
           "package": "HaXml",
@@ -22079,6 +23990,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "U",
           "package": "HaXml",
@@ -22091,6 +24003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnionOf",
           "package": "HaXml",
@@ -22100,6 +24013,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnionOf",
           "package": "HaXml",
@@ -22113,6 +24027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Unique",
           "package": "HaXml",
@@ -22122,6 +24037,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Unique",
           "package": "HaXml",
@@ -22135,6 +24051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedEnumeration",
           "package": "HaXml",
@@ -22144,6 +24061,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedEnumeration",
           "package": "HaXml",
@@ -22157,6 +24075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedLength",
           "package": "HaXml",
@@ -22166,6 +24085,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedLength",
           "package": "HaXml",
@@ -22179,6 +24099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedMaxLength",
           "package": "HaXml",
@@ -22188,6 +24109,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedMaxLength",
           "package": "HaXml",
@@ -22201,6 +24123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedMinLength",
           "package": "HaXml",
@@ -22210,6 +24133,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedMinLength",
           "package": "HaXml",
@@ -22223,6 +24147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedPattern",
           "package": "HaXml",
@@ -22232,6 +24157,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedPattern",
           "package": "HaXml",
@@ -22245,6 +24171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedWhitespace",
           "package": "HaXml",
@@ -22254,6 +24181,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "UnorderedWhitespace",
           "package": "HaXml",
@@ -22267,6 +24195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Unqualified",
           "package": "HaXml",
@@ -22276,6 +24205,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "Unqualified",
           "package": "HaXml",
@@ -22289,6 +24219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "any_annotation",
           "package": "HaXml",
@@ -22298,6 +24229,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "any_annotation",
           "package": "HaXml",
@@ -22310,6 +24242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "any_namespace",
           "package": "HaXml",
@@ -22319,6 +24252,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "any_namespace",
           "package": "HaXml",
@@ -22331,6 +24265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "any_occurs",
           "package": "HaXml",
@@ -22340,6 +24275,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "any_occurs",
           "package": "HaXml",
@@ -22352,6 +24288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "any_processContents",
           "package": "HaXml",
@@ -22361,6 +24298,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "any_processContents",
           "package": "HaXml",
@@ -22374,6 +24312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "anyattr_annotation",
           "package": "HaXml",
@@ -22383,6 +24322,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "anyattr_annotation",
           "package": "HaXml",
@@ -22395,6 +24335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "anyattr_namespace",
           "package": "HaXml",
@@ -22404,6 +24345,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "anyattr_namespace",
           "package": "HaXml",
@@ -22416,6 +24358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "anyattr_processContents",
           "package": "HaXml",
@@ -22425,6 +24368,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "anyattr_processContents",
           "package": "HaXml",
@@ -22438,6 +24382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_annotation",
           "package": "HaXml",
@@ -22447,6 +24392,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_annotation",
           "package": "HaXml",
@@ -22459,6 +24405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_defFixed",
           "package": "HaXml",
@@ -22468,6 +24415,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_defFixed",
           "package": "HaXml",
@@ -22481,6 +24429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_form",
           "package": "HaXml",
@@ -22490,6 +24439,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_form",
           "package": "HaXml",
@@ -22502,6 +24452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_nameOrRef",
           "package": "HaXml",
@@ -22511,6 +24462,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_nameOrRef",
           "package": "HaXml",
@@ -22524,6 +24476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_simpleType",
           "package": "HaXml",
@@ -22533,6 +24486,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_simpleType",
           "package": "HaXml",
@@ -22546,6 +24500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_use",
           "package": "HaXml",
@@ -22555,6 +24510,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attr_use",
           "package": "HaXml",
@@ -22567,6 +24523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attrgroup_annotation",
           "package": "HaXml",
@@ -22576,6 +24533,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attrgroup_annotation",
           "package": "HaXml",
@@ -22588,6 +24546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attrgroup_nameOrRef",
           "package": "HaXml",
@@ -22597,6 +24556,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attrgroup_nameOrRef",
           "package": "HaXml",
@@ -22610,6 +24570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attrgroup_stuff",
           "package": "HaXml",
@@ -22619,6 +24580,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "attrgroup_stuff",
           "normalized": "[Either AttributeDecl AttrGroup]",
@@ -22633,6 +24595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ci_annotation",
           "package": "HaXml",
@@ -22642,6 +24605,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ci_annotation",
           "package": "HaXml",
@@ -22654,6 +24618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ci_mixed",
           "package": "HaXml",
@@ -22663,6 +24628,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ci_mixed",
           "package": "HaXml",
@@ -22675,6 +24641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ci_stuff",
           "package": "HaXml",
@@ -22684,6 +24651,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ci_stuff",
           "package": "HaXml",
@@ -22696,6 +24664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ci_thistype",
           "package": "HaXml",
@@ -22705,6 +24674,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "ci_thistype",
           "package": "HaXml",
@@ -22717,6 +24687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_abstract",
           "package": "HaXml",
@@ -22726,6 +24697,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_abstract",
           "package": "HaXml",
@@ -22738,6 +24710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_annotation",
           "package": "HaXml",
@@ -22747,6 +24720,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_annotation",
           "package": "HaXml",
@@ -22759,6 +24733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_block",
           "package": "HaXml",
@@ -22768,6 +24743,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_block",
           "package": "HaXml",
@@ -22780,6 +24756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_content",
           "package": "HaXml",
@@ -22789,6 +24766,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_content",
           "package": "HaXml",
@@ -22801,6 +24779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_final",
           "package": "HaXml",
@@ -22810,6 +24789,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_final",
           "package": "HaXml",
@@ -22822,6 +24802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_mixed",
           "package": "HaXml",
@@ -22831,6 +24812,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_mixed",
           "package": "HaXml",
@@ -22843,6 +24825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_name",
           "package": "HaXml",
@@ -22852,6 +24835,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "complex_name",
           "package": "HaXml",
@@ -22864,6 +24848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_abstract",
           "package": "HaXml",
@@ -22873,6 +24858,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_abstract",
           "package": "HaXml",
@@ -22885,6 +24871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_annotation",
           "package": "HaXml",
@@ -22894,6 +24881,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_annotation",
           "package": "HaXml",
@@ -22906,6 +24894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_block",
           "package": "HaXml",
@@ -22915,6 +24904,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_block",
           "package": "HaXml",
@@ -22927,6 +24917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_content",
           "package": "HaXml",
@@ -22936,6 +24927,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_content",
           "package": "HaXml",
@@ -22948,6 +24940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_final",
           "package": "HaXml",
@@ -22957,6 +24950,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_final",
           "package": "HaXml",
@@ -22969,6 +24963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_form",
           "package": "HaXml",
@@ -22978,6 +24973,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_form",
           "package": "HaXml",
@@ -22990,6 +24986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_nameOrRef",
           "package": "HaXml",
@@ -22999,6 +24996,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_nameOrRef",
           "package": "HaXml",
@@ -23012,6 +25010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_nillable",
           "package": "HaXml",
@@ -23021,6 +25020,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_nillable",
           "package": "HaXml",
@@ -23033,6 +25033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_occurs",
           "package": "HaXml",
@@ -23042,6 +25043,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_occurs",
           "package": "HaXml",
@@ -23054,6 +25056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_stuff",
           "package": "HaXml",
@@ -23063,6 +25066,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_stuff",
           "normalized": "[UniqueKeyOrKeyRef]",
@@ -23077,6 +25081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_substGroup",
           "package": "HaXml",
@@ -23086,6 +25091,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "elem_substGroup",
           "package": "HaXml",
@@ -23099,6 +25105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "extension_annotation",
           "package": "HaXml",
@@ -23108,6 +25115,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "extension_annotation",
           "package": "HaXml",
@@ -23120,6 +25128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "extension_base",
           "package": "HaXml",
@@ -23129,6 +25138,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "extension_base",
           "package": "HaXml",
@@ -23141,6 +25151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "extension_newstuff",
           "package": "HaXml",
@@ -23150,6 +25161,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "extension_newstuff",
           "package": "HaXml",
@@ -23162,6 +25174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "facet_annotation",
           "package": "HaXml",
@@ -23171,6 +25184,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "facet_annotation",
           "package": "HaXml",
@@ -23183,6 +25197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "facet_facetType",
           "package": "HaXml",
@@ -23192,6 +25207,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "facet_facetType",
           "package": "HaXml",
@@ -23205,6 +25221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "facet_facetValue",
           "package": "HaXml",
@@ -23214,6 +25231,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "facet_facetValue",
           "package": "HaXml",
@@ -23227,6 +25245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "facet_fixed",
           "package": "HaXml",
@@ -23236,6 +25255,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "facet_fixed",
           "package": "HaXml",
@@ -23248,6 +25268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "field_annotation",
           "package": "HaXml",
@@ -23257,6 +25278,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "field_annotation",
           "package": "HaXml",
@@ -23269,6 +25291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "field_xpath",
           "package": "HaXml",
@@ -23278,6 +25301,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "field_xpath",
           "package": "HaXml",
@@ -23290,6 +25314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "group_annotation",
           "package": "HaXml",
@@ -23299,6 +25324,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "group_annotation",
           "package": "HaXml",
@@ -23311,6 +25337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "group_nameOrRef",
           "package": "HaXml",
@@ -23320,6 +25347,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "group_nameOrRef",
           "package": "HaXml",
@@ -23333,6 +25361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "group_occurs",
           "package": "HaXml",
@@ -23342,6 +25371,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "group_occurs",
           "package": "HaXml",
@@ -23354,6 +25384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "group_stuff",
           "package": "HaXml",
@@ -23363,6 +25394,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "group_stuff",
           "package": "HaXml",
@@ -23375,6 +25407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "key_annotation",
           "package": "HaXml",
@@ -23384,6 +25417,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "key_annotation",
           "package": "HaXml",
@@ -23396,6 +25430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "key_fields",
           "package": "HaXml",
@@ -23405,6 +25440,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "key_fields",
           "normalized": "[Field]",
@@ -23419,6 +25455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "key_name",
           "package": "HaXml",
@@ -23428,6 +25465,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "key_name",
           "package": "HaXml",
@@ -23440,6 +25478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "key_selector",
           "package": "HaXml",
@@ -23449,6 +25488,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "key_selector",
           "package": "HaXml",
@@ -23461,6 +25501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_annotation",
           "package": "HaXml",
@@ -23470,6 +25511,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_annotation",
           "package": "HaXml",
@@ -23482,6 +25524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_fields",
           "package": "HaXml",
@@ -23491,6 +25534,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_fields",
           "normalized": "[Field]",
@@ -23505,6 +25549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_name",
           "package": "HaXml",
@@ -23514,6 +25559,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_name",
           "package": "HaXml",
@@ -23526,6 +25572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_refer",
           "package": "HaXml",
@@ -23535,6 +25582,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_refer",
           "package": "HaXml",
@@ -23547,6 +25595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_selector",
           "package": "HaXml",
@@ -23556,6 +25605,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "keyref_selector",
           "package": "HaXml",
@@ -23568,6 +25618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_annotation",
           "package": "HaXml",
@@ -23577,6 +25628,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_annotation",
           "package": "HaXml",
@@ -23589,6 +25641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_base",
           "package": "HaXml",
@@ -23598,6 +25651,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_base",
           "package": "HaXml",
@@ -23610,6 +25664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_facets",
           "package": "HaXml",
@@ -23619,6 +25674,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_facets",
           "normalized": "[Facet]",
@@ -23633,6 +25689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_r1",
           "package": "HaXml",
@@ -23642,6 +25699,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_r1",
           "package": "HaXml",
@@ -23654,6 +25712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_type",
           "package": "HaXml",
@@ -23663,6 +25722,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "restrict_type",
           "package": "HaXml",
@@ -23675,6 +25735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_attributeFormDefault",
           "package": "HaXml",
@@ -23684,6 +25745,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_attributeFormDefault",
           "package": "HaXml",
@@ -23697,6 +25759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_blockDefault",
           "package": "HaXml",
@@ -23706,6 +25769,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_blockDefault",
           "package": "HaXml",
@@ -23719,6 +25783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_elementFormDefault",
           "package": "HaXml",
@@ -23728,6 +25793,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_elementFormDefault",
           "package": "HaXml",
@@ -23741,6 +25807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_finalDefault",
           "package": "HaXml",
@@ -23750,6 +25817,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_finalDefault",
           "package": "HaXml",
@@ -23763,6 +25831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_items",
           "package": "HaXml",
@@ -23772,6 +25841,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_items",
           "normalized": "[SchemaItem]",
@@ -23786,6 +25856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_namespaces",
           "package": "HaXml",
@@ -23795,6 +25866,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_namespaces",
           "normalized": "[Namespace]",
@@ -23809,6 +25881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_targetNamespace",
           "package": "HaXml",
@@ -23818,6 +25891,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_targetNamespace",
           "package": "HaXml",
@@ -23831,6 +25905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_version",
           "package": "HaXml",
@@ -23840,6 +25915,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "schema_version",
           "package": "HaXml",
@@ -23852,6 +25928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "selector_annotation",
           "package": "HaXml",
@@ -23861,6 +25938,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "selector_annotation",
           "package": "HaXml",
@@ -23873,6 +25951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "selector_xpath",
           "package": "HaXml",
@@ -23882,6 +25961,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "selector_xpath",
           "package": "HaXml",
@@ -23894,6 +25974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_annotation",
           "package": "HaXml",
@@ -23903,6 +25984,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_annotation",
           "package": "HaXml",
@@ -23915,6 +25997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_final",
           "package": "HaXml",
@@ -23924,6 +26007,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_final",
           "package": "HaXml",
@@ -23936,6 +26020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_members",
           "package": "HaXml",
@@ -23945,6 +26030,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_members",
           "normalized": "[QName]",
@@ -23959,6 +26045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_name",
           "package": "HaXml",
@@ -23968,6 +26055,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_name",
           "package": "HaXml",
@@ -23980,6 +26068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_primitive",
           "package": "HaXml",
@@ -23989,6 +26078,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_primitive",
           "package": "HaXml",
@@ -24001,6 +26091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_restriction",
           "package": "HaXml",
@@ -24010,6 +26101,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_restriction",
           "package": "HaXml",
@@ -24022,6 +26114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_type",
           "package": "HaXml",
@@ -24031,6 +26124,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_type",
           "package": "HaXml",
@@ -24043,6 +26137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_union",
           "package": "HaXml",
@@ -24052,6 +26147,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "simple_union",
           "normalized": "[SimpleType]",
@@ -24066,6 +26162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "theName",
           "package": "HaXml",
@@ -24075,6 +26172,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "theName",
           "package": "HaXml",
@@ -24088,6 +26186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "theType",
           "package": "HaXml",
@@ -24097,6 +26196,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "theType",
           "package": "HaXml",
@@ -24110,6 +26210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "unique_annotation",
           "package": "HaXml",
@@ -24119,6 +26220,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "unique_annotation",
           "package": "HaXml",
@@ -24131,6 +26233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "unique_fields",
           "package": "HaXml",
@@ -24140,6 +26243,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "unique_fields",
           "normalized": "[Field]",
@@ -24154,6 +26258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "unique_name",
           "package": "HaXml",
@@ -24163,6 +26268,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "unique_name",
           "package": "HaXml",
@@ -24175,6 +26281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "unique_selector",
           "package": "HaXml",
@@ -24184,6 +26291,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Schema XSDTypeModel",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Schema.XSDTypeModel",
           "name": "unique_selector",
           "package": "HaXml",
@@ -24196,6 +26304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ShowXmlLazy",
           "name": "ShowXmlLazy",
           "package": "HaXml",
@@ -24204,6 +26313,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml ShowXmlLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ShowXmlLazy",
           "name": "ShowXmlLazy",
           "package": "HaXml",
@@ -24218,6 +26328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a fully-typed XML document to a string (without DTD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.ShowXmlLazy",
           "name": "showXmlLazy",
           "package": "HaXml",
@@ -24228,6 +26339,7 @@
         "index": {
           "description": "Convert fully-typed XML document to string without DTD",
           "hierarchy": "Text XML HaXml ShowXmlLazy",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.ShowXmlLazy",
           "name": "showXmlLazy",
           "normalized": "Bool-\u003ea-\u003eString",
@@ -24243,6 +26355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "TypeMapping",
           "package": "HaXml",
@@ -24251,6 +26364,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "TypeMapping",
           "package": "HaXml",
@@ -24265,6 +26379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concrete representation of any user-defined Haskell constructor.\n   The constructor has a name, and a sequence of component types.  The\n   first sequence of types represents the minimum set of free type\n   variables occurring in the (second) list of real component types.\n   If there are fieldnames, they are contained in the final list, and\n   correspond one-to-one with the component types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Constr",
           "package": "HaXml",
@@ -24274,6 +26389,7 @@
         "index": {
           "description": "concrete representation of any user-defined Haskell constructor The constructor has name and sequence of component types The first sequence of types represents the minimum set of free type variables occurring in the second list of real component types If there are fieldnames they are contained in the final list and correspond one-to-one with the component types",
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Constr",
           "package": "HaXml",
@@ -24288,6 +26404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concrete representation of any Haskell type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "HType",
           "package": "HaXml",
@@ -24297,6 +26414,7 @@
         "index": {
           "description": "concrete representation of any Haskell type",
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "HType",
           "package": "HaXml",
@@ -24311,6 +26429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eHTypeable\u003c/code\u003e promises that we can create an explicit representation of\n   of the type of any value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "HTypeable",
           "package": "HaXml",
@@ -24320,6 +26439,7 @@
         "index": {
           "description": "HTypeable promises that we can create an explicit representation of of the type of any value",
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "HTypeable",
           "package": "HaXml",
@@ -24333,6 +26453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Constr",
           "package": "HaXml",
@@ -24342,6 +26463,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Constr",
           "normalized": "Constr String[HType][HType]",
@@ -24358,6 +26480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user-defined type has a name, a sequence of type variables,\n   and a set of constructors.  (The variables might already be\n   instantiated to actual types.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Defined",
           "package": "HaXml",
@@ -24368,6 +26491,7 @@
         "index": {
           "description": "user-defined type has name sequence of type variables and set of constructors The variables might already be instantiated to actual types",
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Defined",
           "normalized": "Defined String[HType][Constr]",
@@ -24383,6 +26507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "List",
           "package": "HaXml",
@@ -24392,6 +26517,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "List",
           "package": "HaXml",
@@ -24405,6 +26531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Maybe",
           "package": "HaXml",
@@ -24414,6 +26541,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Maybe",
           "package": "HaXml",
@@ -24428,6 +26556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eseparate Haskell name and XML name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Prim",
           "package": "HaXml",
@@ -24438,6 +26567,7 @@
         "index": {
           "description": "separate Haskell name and XML name",
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Prim",
           "package": "HaXml",
@@ -24451,6 +26581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "String",
           "package": "HaXml",
@@ -24460,6 +26591,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "String",
           "package": "HaXml",
@@ -24473,6 +26605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Tuple",
           "package": "HaXml",
@@ -24482,6 +26615,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "Tuple",
           "normalized": "Tuple[HType]",
@@ -24498,6 +26632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the n'th constructor from an HType and convert it to a string\n   suitable for an XML tagname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "showConstr",
           "package": "HaXml",
@@ -24508,6 +26643,7 @@
         "index": {
           "description": "Project the th constructor from an HType and convert it to string suitable for an XML tagname",
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "showConstr",
           "normalized": "Int-\u003eHType-\u003eString",
@@ -24523,6 +26659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "showHType",
           "package": "HaXml",
@@ -24532,6 +26669,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "showHType",
           "normalized": "HType-\u003eShowS",
@@ -24548,6 +26686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoDTD\u003c/a\u003e\u003c/code\u003e converts a concrete representation of the Haskell type of\n   a value (obtained by the method \u003ccode\u003e\u003ca\u003etoHType\u003c/a\u003e\u003c/code\u003e) into a real DocTypeDecl.\n   It ensures that PERefs are defined before they are used, and that no\n   element or attribute-list is declared more than once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "toDTD",
           "package": "HaXml",
@@ -24558,6 +26697,7 @@
         "index": {
           "description": "toDTD converts concrete representation of the Haskell type of value obtained by the method toHType into real DocTypeDecl It ensures that PERefs are defined before they are used and that no element or attribute-list is declared more than once",
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "toDTD",
           "normalized": "HType-\u003eDocTypeDecl",
@@ -24573,6 +26713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "toHType",
           "package": "HaXml",
@@ -24582,6 +26723,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml TypeMapping",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.TypeMapping",
           "name": "toHType",
           "normalized": "a-\u003eHType",
@@ -24598,6 +26740,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an internal (generic) representation for XML\n   documents including their DTDs.\n\u003c/p\u003e\u003cp\u003eHistory:\n   The original module was derived by hand from the XML specification,\n   following the grammar precisely.  Then we simplified the types,\n   removing layers of indirection and redundancy, and generally making\n   things easier to work with.  Then we allowed PEReferences to be\n   ubiquitous, by removing them from the types and resolving all\n   PE references at parse-time.  Finally, we added a per-document\n   symbol table for GEReferences, and a whitespace-significance flag\n   for plaintext.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Types",
           "package": "HaXml",
@@ -24607,6 +26750,7 @@
         "index": {
           "description": "This module defines an internal generic representation for XML documents including their DTDs History The original module was derived by hand from the XML specification following the grammar precisely Then we simplified the types removing layers of indirection and redundancy and generally making things easier to work with Then we allowed PEReferences to be ubiquitous by removing them from the types and resolving all PE references at parse-time Finally we added per-document symbol table for GEReferences and whitespace-significance flag for plaintext",
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Types",
           "package": "HaXml",
@@ -24620,6 +26764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "AttDef",
           "package": "HaXml",
@@ -24628,6 +26773,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "AttDef",
           "package": "HaXml",
@@ -24641,6 +26787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "AttListDecl",
           "package": "HaXml",
@@ -24649,6 +26796,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "AttListDecl",
           "package": "HaXml",
@@ -24662,6 +26810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "AttType",
           "package": "HaXml",
@@ -24670,6 +26819,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "AttType",
           "package": "HaXml",
@@ -24683,6 +26833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "AttValue",
           "package": "HaXml",
@@ -24691,6 +26842,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "AttValue",
           "package": "HaXml",
@@ -24704,6 +26856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Attribute",
           "package": "HaXml",
@@ -24712,6 +26865,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Attribute",
           "package": "HaXml",
@@ -24725,6 +26879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "CDSect",
           "package": "HaXml",
@@ -24733,6 +26888,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "CDSect",
           "package": "HaXml",
@@ -24746,6 +26902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "CP",
           "package": "HaXml",
@@ -24754,6 +26911,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "CP",
           "package": "HaXml",
@@ -24767,6 +26925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "CharData",
           "package": "HaXml",
@@ -24775,6 +26934,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "CharData",
           "package": "HaXml",
@@ -24788,6 +26948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "CharRef",
           "package": "HaXml",
@@ -24796,6 +26957,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "CharRef",
           "package": "HaXml",
@@ -24809,6 +26971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Comment",
           "package": "HaXml",
@@ -24817,6 +26980,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Comment",
           "package": "HaXml",
@@ -24830,6 +26994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ConditionalSect",
           "package": "HaXml",
@@ -24838,6 +27003,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ConditionalSect",
           "package": "HaXml",
@@ -24851,6 +27017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Content",
           "package": "HaXml",
@@ -24859,6 +27026,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Content",
           "package": "HaXml",
@@ -24872,6 +27040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ContentSpec",
           "package": "HaXml",
@@ -24880,6 +27049,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ContentSpec",
           "package": "HaXml",
@@ -24893,6 +27063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "DefaultDecl",
           "package": "HaXml",
@@ -24901,6 +27072,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "DefaultDecl",
           "package": "HaXml",
@@ -24914,6 +27086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "DocTypeDecl",
           "package": "HaXml",
@@ -24922,6 +27095,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "DocTypeDecl",
           "package": "HaXml",
@@ -24936,6 +27110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol table stored in a document holds all its general entity\n   reference definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Document",
           "package": "HaXml",
@@ -24945,6 +27120,7 @@
         "index": {
           "description": "The symbol table stored in document holds all its general entity reference definitions",
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Document",
           "package": "HaXml",
@@ -24958,6 +27134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EV",
           "package": "HaXml",
@@ -24966,6 +27143,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EV",
           "package": "HaXml",
@@ -24979,6 +27157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ElemTag",
           "package": "HaXml",
@@ -24987,6 +27166,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ElemTag",
           "package": "HaXml",
@@ -25000,6 +27180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Element",
           "package": "HaXml",
@@ -25008,6 +27189,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Element",
           "package": "HaXml",
@@ -25021,6 +27203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ElementDecl",
           "package": "HaXml",
@@ -25029,6 +27212,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ElementDecl",
           "package": "HaXml",
@@ -25042,6 +27226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EncodingDecl",
           "package": "HaXml",
@@ -25050,6 +27235,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EncodingDecl",
           "package": "HaXml",
@@ -25063,6 +27249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityDecl",
           "package": "HaXml",
@@ -25071,6 +27258,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityDecl",
           "package": "HaXml",
@@ -25084,6 +27272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityDef",
           "package": "HaXml",
@@ -25092,6 +27281,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityDef",
           "package": "HaXml",
@@ -25105,6 +27295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityRef",
           "package": "HaXml",
@@ -25113,6 +27304,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityRef",
           "package": "HaXml",
@@ -25126,6 +27318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityValue",
           "package": "HaXml",
@@ -25134,6 +27327,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityValue",
           "package": "HaXml",
@@ -25147,6 +27341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EnumeratedType",
           "package": "HaXml",
@@ -25155,6 +27350,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EnumeratedType",
           "package": "HaXml",
@@ -25168,6 +27364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Enumeration",
           "package": "HaXml",
@@ -25176,6 +27373,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Enumeration",
           "package": "HaXml",
@@ -25189,6 +27387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtPE",
           "package": "HaXml",
@@ -25197,6 +27396,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtPE",
           "package": "HaXml",
@@ -25210,6 +27410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtParsedEnt",
           "package": "HaXml",
@@ -25218,6 +27419,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtParsedEnt",
           "package": "HaXml",
@@ -25231,6 +27433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtSubset",
           "package": "HaXml",
@@ -25239,6 +27442,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtSubset",
           "package": "HaXml",
@@ -25252,6 +27456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtSubsetDecl",
           "package": "HaXml",
@@ -25260,6 +27465,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtSubsetDecl",
           "package": "HaXml",
@@ -25273,6 +27479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExternalID",
           "package": "HaXml",
@@ -25281,6 +27488,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExternalID",
           "package": "HaXml",
@@ -25294,6 +27502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "FIXED",
           "package": "HaXml",
@@ -25302,6 +27511,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "FIXED",
           "package": "HaXml",
@@ -25315,6 +27525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "GEDecl",
           "package": "HaXml",
@@ -25323,6 +27534,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "GEDecl",
           "package": "HaXml",
@@ -25336,6 +27548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Ignore",
           "package": "HaXml",
@@ -25344,6 +27557,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Ignore",
           "package": "HaXml",
@@ -25357,6 +27571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IgnoreSect",
           "package": "HaXml",
@@ -25365,6 +27580,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IgnoreSect",
           "package": "HaXml",
@@ -25378,6 +27594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IgnoreSectContents",
           "package": "HaXml",
@@ -25386,6 +27603,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IgnoreSectContents",
           "package": "HaXml",
@@ -25399,6 +27617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IncludeSect",
           "package": "HaXml",
@@ -25407,6 +27626,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IncludeSect",
           "package": "HaXml",
@@ -25420,6 +27640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "MarkupDecl",
           "package": "HaXml",
@@ -25428,6 +27649,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "MarkupDecl",
           "package": "HaXml",
@@ -25441,6 +27663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Misc",
           "package": "HaXml",
@@ -25449,6 +27672,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Misc",
           "package": "HaXml",
@@ -25462,6 +27686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Mixed",
           "package": "HaXml",
@@ -25470,6 +27695,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Mixed",
           "package": "HaXml",
@@ -25483,6 +27709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Modifier",
           "package": "HaXml",
@@ -25491,6 +27718,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Modifier",
           "package": "HaXml",
@@ -25504,6 +27732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NDataDecl",
           "package": "HaXml",
@@ -25512,6 +27741,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NDataDecl",
           "package": "HaXml",
@@ -25525,6 +27755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Name",
           "package": "HaXml",
@@ -25533,6 +27764,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Name",
           "package": "HaXml",
@@ -25546,6 +27778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Names",
           "package": "HaXml",
@@ -25554,6 +27787,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Names",
           "package": "HaXml",
@@ -25568,6 +27802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespaces are not defined in the XML spec itself, but at\n       http:\u003cem/\u003ewww.w3.org\u003cem\u003eTR\u003c/em\u003exml-names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Namespace",
           "package": "HaXml",
@@ -25577,6 +27812,7 @@
         "index": {
           "description": "Namespaces are not defined in the XML spec itself but at http www.w3.org TR xml-names",
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Namespace",
           "package": "HaXml",
@@ -25590,6 +27826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NmToken",
           "package": "HaXml",
@@ -25598,6 +27835,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NmToken",
           "package": "HaXml",
@@ -25611,6 +27849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NmTokens",
           "package": "HaXml",
@@ -25619,6 +27858,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NmTokens",
           "package": "HaXml",
@@ -25632,6 +27872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NotationDecl",
           "package": "HaXml",
@@ -25640,6 +27881,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NotationDecl",
           "package": "HaXml",
@@ -25653,6 +27895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NotationType",
           "package": "HaXml",
@@ -25661,6 +27904,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NotationType",
           "package": "HaXml",
@@ -25674,6 +27918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDecl",
           "package": "HaXml",
@@ -25682,6 +27927,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDecl",
           "package": "HaXml",
@@ -25695,6 +27941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDef",
           "package": "HaXml",
@@ -25703,6 +27950,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDef",
           "package": "HaXml",
@@ -25716,6 +27964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PEReference",
           "package": "HaXml",
@@ -25724,6 +27973,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PEReference",
           "package": "HaXml",
@@ -25737,6 +27987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PITarget",
           "package": "HaXml",
@@ -25745,6 +27996,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PITarget",
           "package": "HaXml",
@@ -25758,6 +28010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ProcessingInstruction",
           "package": "HaXml",
@@ -25766,6 +28019,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ProcessingInstruction",
           "package": "HaXml",
@@ -25779,6 +28033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Prolog",
           "package": "HaXml",
@@ -25787,6 +28042,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Prolog",
           "package": "HaXml",
@@ -25800,6 +28056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PubidLiteral",
           "package": "HaXml",
@@ -25808,6 +28065,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PubidLiteral",
           "package": "HaXml",
@@ -25821,6 +28079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PublicID",
           "package": "HaXml",
@@ -25829,6 +28088,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PublicID",
           "package": "HaXml",
@@ -25843,6 +28103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA QName is a (possibly) qualified name, in the sense of XML namespaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "QName",
           "package": "HaXml",
@@ -25852,6 +28113,7 @@
         "index": {
           "description": "QName is possibly qualified name in the sense of XML namespaces",
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "QName",
           "package": "HaXml",
@@ -25865,6 +28127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Reference",
           "package": "HaXml",
@@ -25873,6 +28136,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Reference",
           "package": "HaXml",
@@ -25886,6 +28150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "SDDecl",
           "package": "HaXml",
@@ -25894,6 +28159,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "SDDecl",
           "package": "HaXml",
@@ -25907,6 +28173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "SymTab",
           "package": "HaXml",
@@ -25915,6 +28182,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "SymTab",
           "package": "HaXml",
@@ -25928,6 +28196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "SystemLiteral",
           "package": "HaXml",
@@ -25936,6 +28205,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "SystemLiteral",
           "package": "HaXml",
@@ -25949,6 +28219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "TextDecl",
           "package": "HaXml",
@@ -25957,6 +28228,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "TextDecl",
           "package": "HaXml",
@@ -25970,6 +28242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "TokenizedType",
           "package": "HaXml",
@@ -25978,6 +28251,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "TokenizedType",
           "package": "HaXml",
@@ -25991,6 +28265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "VersionInfo",
           "package": "HaXml",
@@ -25999,6 +28274,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "VersionInfo",
           "package": "HaXml",
@@ -26012,6 +28288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "XMLDecl",
           "package": "HaXml",
@@ -26020,6 +28297,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "XMLDecl",
           "package": "HaXml",
@@ -26033,6 +28311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ANY",
           "package": "HaXml",
@@ -26042,6 +28321,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ANY",
           "package": "HaXml",
@@ -26055,6 +28335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "AttDef",
           "package": "HaXml",
@@ -26064,6 +28345,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "AttDef",
           "package": "HaXml",
@@ -26077,6 +28359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "AttList",
           "package": "HaXml",
@@ -26086,6 +28369,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "AttList",
           "package": "HaXml",
@@ -26099,6 +28383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "AttListDecl",
           "package": "HaXml",
@@ -26108,6 +28393,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "AttListDecl",
           "normalized": "AttListDecl QName[AttDef]",
@@ -26148,6 +28434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Choice",
           "package": "HaXml",
@@ -26157,6 +28444,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Choice",
           "normalized": "Choice[CP]Modifier",
@@ -26172,6 +28460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Comment",
           "package": "HaXml",
@@ -26181,6 +28470,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Comment",
           "package": "HaXml",
@@ -26194,6 +28484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ContentSpec",
           "package": "HaXml",
@@ -26203,6 +28494,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ContentSpec",
           "package": "HaXml",
@@ -26216,6 +28508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "DTD",
           "package": "HaXml",
@@ -26225,6 +28518,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "DTD",
           "normalized": "DTD QName(Maybe ExternalID)[MarkupDecl]",
@@ -26240,6 +28534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "DefEntityValue",
           "package": "HaXml",
@@ -26249,6 +28544,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "DefEntityValue",
           "package": "HaXml",
@@ -26262,6 +28558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "DefExternalID",
           "package": "HaXml",
@@ -26271,6 +28568,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "DefExternalID",
           "package": "HaXml",
@@ -26284,6 +28582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "DefaultTo",
           "package": "HaXml",
@@ -26293,6 +28592,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "DefaultTo",
           "package": "HaXml",
@@ -26331,6 +28631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EMPTY",
           "package": "HaXml",
@@ -26340,6 +28641,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EMPTY",
           "package": "HaXml",
@@ -26353,6 +28655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ENTITIES",
           "package": "HaXml",
@@ -26362,6 +28665,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ENTITIES",
           "package": "HaXml",
@@ -26375,6 +28679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ENTITY",
           "package": "HaXml",
@@ -26384,6 +28689,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ENTITY",
           "package": "HaXml",
@@ -26397,6 +28703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EVRef",
           "package": "HaXml",
@@ -26406,6 +28713,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EVRef",
           "package": "HaXml",
@@ -26419,6 +28727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EVString",
           "package": "HaXml",
@@ -26428,6 +28737,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EVString",
           "package": "HaXml",
@@ -26491,6 +28801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Element",
           "package": "HaXml",
@@ -26500,6 +28811,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Element",
           "package": "HaXml",
@@ -26513,6 +28825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ElementDecl",
           "package": "HaXml",
@@ -26522,6 +28835,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ElementDecl",
           "package": "HaXml",
@@ -26535,6 +28849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EncodingDecl",
           "package": "HaXml",
@@ -26544,6 +28859,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EncodingDecl",
           "package": "HaXml",
@@ -26557,6 +28873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Entity",
           "package": "HaXml",
@@ -26566,6 +28883,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Entity",
           "package": "HaXml",
@@ -26579,6 +28897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityGEDecl",
           "package": "HaXml",
@@ -26588,6 +28907,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityGEDecl",
           "package": "HaXml",
@@ -26601,6 +28921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityPEDecl",
           "package": "HaXml",
@@ -26610,6 +28931,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityPEDecl",
           "package": "HaXml",
@@ -26623,6 +28945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityValue",
           "package": "HaXml",
@@ -26632,6 +28955,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EntityValue",
           "normalized": "EntityValue[EV]",
@@ -26647,6 +28971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "EnumeratedType",
           "package": "HaXml",
@@ -26656,6 +28981,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "EnumeratedType",
           "package": "HaXml",
@@ -26669,6 +28995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Enumeration",
           "package": "HaXml",
@@ -26678,6 +29005,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Enumeration",
           "package": "HaXml",
@@ -26691,6 +29019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtConditionalSect",
           "package": "HaXml",
@@ -26700,6 +29029,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtConditionalSect",
           "package": "HaXml",
@@ -26713,6 +29043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtMarkupDecl",
           "package": "HaXml",
@@ -26722,6 +29053,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtMarkupDecl",
           "package": "HaXml",
@@ -26735,6 +29067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtPE",
           "package": "HaXml",
@@ -26744,6 +29077,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtPE",
           "normalized": "ExtPE(Maybe TextDecl)[ExtSubsetDecl]",
@@ -26759,6 +29093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtParsedEnt",
           "package": "HaXml",
@@ -26768,6 +29103,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtParsedEnt",
           "package": "HaXml",
@@ -26781,6 +29117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtSubset",
           "package": "HaXml",
@@ -26790,6 +29127,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ExtSubset",
           "normalized": "ExtSubset(Maybe TextDecl)[ExtSubsetDecl]",
@@ -26805,6 +29143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "FIXED",
           "package": "HaXml",
@@ -26814,6 +29153,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "FIXED",
           "package": "HaXml",
@@ -26827,6 +29167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "GEDecl",
           "package": "HaXml",
@@ -26836,6 +29177,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "GEDecl",
           "package": "HaXml",
@@ -26849,6 +29191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "ID",
           "package": "HaXml",
@@ -26858,6 +29201,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "ID",
           "package": "HaXml",
@@ -26871,6 +29215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IDREF",
           "package": "HaXml",
@@ -26880,6 +29225,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IDREF",
           "package": "HaXml",
@@ -26893,6 +29239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IDREFS",
           "package": "HaXml",
@@ -26902,6 +29249,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IDREFS",
           "package": "HaXml",
@@ -26915,6 +29263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IMPLIED",
           "package": "HaXml",
@@ -26924,6 +29273,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IMPLIED",
           "package": "HaXml",
@@ -26937,6 +29287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Ignore",
           "package": "HaXml",
@@ -26946,6 +29297,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Ignore",
           "package": "HaXml",
@@ -26959,6 +29311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IgnoreSect",
           "package": "HaXml",
@@ -26968,6 +29321,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IgnoreSect",
           "package": "HaXml",
@@ -26981,6 +29335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IgnoreSectContents",
           "package": "HaXml",
@@ -26990,6 +29345,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IgnoreSectContents",
           "normalized": "IgnoreSectContents Ignore[(IgnoreSectContents,Ignore)]",
@@ -27005,6 +29361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "IncludeSect",
           "package": "HaXml",
@@ -27014,6 +29371,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "IncludeSect",
           "package": "HaXml",
@@ -27027,6 +29385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "MarkupMisc",
           "package": "HaXml",
@@ -27036,6 +29395,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "MarkupMisc",
           "package": "HaXml",
@@ -27049,6 +29409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Mixed",
           "package": "HaXml",
@@ -27058,6 +29419,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Mixed",
           "package": "HaXml",
@@ -27071,6 +29433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NDATA",
           "package": "HaXml",
@@ -27080,6 +29443,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NDATA",
           "package": "HaXml",
@@ -27093,6 +29457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NMTOKEN",
           "package": "HaXml",
@@ -27102,6 +29467,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NMTOKEN",
           "package": "HaXml",
@@ -27115,6 +29481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NMTOKENS",
           "package": "HaXml",
@@ -27124,6 +29491,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NMTOKENS",
           "package": "HaXml",
@@ -27137,6 +29505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NOTATION",
           "package": "HaXml",
@@ -27146,6 +29515,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NOTATION",
           "package": "HaXml",
@@ -27159,6 +29529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Namespace",
           "package": "HaXml",
@@ -27168,6 +29539,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Namespace",
           "package": "HaXml",
@@ -27182,6 +29554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust One\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "None",
           "package": "HaXml",
@@ -27192,6 +29565,7 @@
         "index": {
           "description": "Just One",
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "None",
           "package": "HaXml",
@@ -27205,6 +29579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Notation",
           "package": "HaXml",
@@ -27214,6 +29589,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Notation",
           "package": "HaXml",
@@ -27227,6 +29603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "NotationType",
           "package": "HaXml",
@@ -27236,6 +29613,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "NotationType",
           "package": "HaXml",
@@ -27249,6 +29627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PCDATA",
           "package": "HaXml",
@@ -27258,6 +29637,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PCDATA",
           "package": "HaXml",
@@ -27271,6 +29651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PCDATAplus",
           "package": "HaXml",
@@ -27280,6 +29661,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PCDATAplus",
           "normalized": "PCDATAplus[QName]",
@@ -27295,6 +29677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDecl",
           "package": "HaXml",
@@ -27304,6 +29687,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDecl",
           "package": "HaXml",
@@ -27317,6 +29701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDefEntityValue",
           "package": "HaXml",
@@ -27326,6 +29711,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDefEntityValue",
           "package": "HaXml",
@@ -27339,6 +29725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDefExternalID",
           "package": "HaXml",
@@ -27348,6 +29735,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PEDefExternalID",
           "package": "HaXml",
@@ -27361,6 +29749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PI",
           "package": "HaXml",
@@ -27370,6 +29759,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PI",
           "package": "HaXml",
@@ -27383,6 +29773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PUBLIC",
           "package": "HaXml",
@@ -27392,6 +29783,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PUBLIC",
           "package": "HaXml",
@@ -27405,6 +29797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PUBLICID",
           "package": "HaXml",
@@ -27414,6 +29807,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PUBLICID",
           "package": "HaXml",
@@ -27428,6 +29822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne Or More\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Plus",
           "package": "HaXml",
@@ -27438,6 +29833,7 @@
         "index": {
           "description": "One Or More",
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Plus",
           "package": "HaXml",
@@ -27476,6 +29872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "PubidLiteral",
           "package": "HaXml",
@@ -27485,6 +29882,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "PubidLiteral",
           "package": "HaXml",
@@ -27499,6 +29897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero Or One\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Query",
           "package": "HaXml",
@@ -27509,6 +29908,7 @@
         "index": {
           "description": "Zero Or One",
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Query",
           "package": "HaXml",
@@ -27522,6 +29922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "REQUIRED",
           "package": "HaXml",
@@ -27531,6 +29932,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "REQUIRED",
           "package": "HaXml",
@@ -27590,6 +29992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "SYSTEM",
           "package": "HaXml",
@@ -27599,6 +30002,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "SYSTEM",
           "package": "HaXml",
@@ -27612,6 +30016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Seq",
           "package": "HaXml",
@@ -27621,6 +30026,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Seq",
           "normalized": "Seq[CP]Modifier",
@@ -27637,6 +30043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero Or More\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "Star",
           "package": "HaXml",
@@ -27647,6 +30054,7 @@
         "index": {
           "description": "Zero Or More",
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "Star",
           "package": "HaXml",
@@ -27660,6 +30068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "StringType",
           "package": "HaXml",
@@ -27669,6 +30078,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "StringType",
           "package": "HaXml",
@@ -27682,6 +30092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "SystemLiteral",
           "package": "HaXml",
@@ -27691,6 +30102,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "SystemLiteral",
           "package": "HaXml",
@@ -27704,6 +30116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "TagName",
           "package": "HaXml",
@@ -27713,6 +30126,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "TagName",
           "package": "HaXml",
@@ -27726,6 +30140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "TextDecl",
           "package": "HaXml",
@@ -27735,6 +30150,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "TextDecl",
           "package": "HaXml",
@@ -27748,6 +30164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "TokenizedType",
           "package": "HaXml",
@@ -27757,6 +30174,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "TokenizedType",
           "package": "HaXml",
@@ -27770,6 +30188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "XMLDecl",
           "package": "HaXml",
@@ -27779,6 +30198,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "XMLDecl",
           "package": "HaXml",
@@ -27792,6 +30212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "addST",
           "package": "HaXml",
@@ -27801,6 +30222,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "addST",
           "normalized": "String-\u003ea-\u003eSymTab a-\u003eSymTab a",
@@ -27816,6 +30238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "emptyST",
           "package": "HaXml",
@@ -27825,6 +30248,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "emptyST",
           "package": "HaXml",
@@ -27838,6 +30262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "info",
           "package": "HaXml",
@@ -27847,6 +30272,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "info",
           "normalized": "Content a-\u003ea",
@@ -27861,6 +30287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "lookupST",
           "package": "HaXml",
@@ -27870,6 +30297,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "lookupST",
           "normalized": "String-\u003eSymTab a-\u003eMaybe a",
@@ -27885,6 +30313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "nsPrefix",
           "package": "HaXml",
@@ -27894,6 +30323,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "nsPrefix",
           "package": "HaXml",
@@ -27907,6 +30337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Types",
           "name": "nsURI",
           "package": "HaXml",
@@ -27916,6 +30347,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Types",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Types",
           "name": "nsURI",
           "package": "HaXml",
@@ -27930,6 +30362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cul\u003e\u003cli\u003e Only a small module containing some helper functions to extract xml content\n - I would have added this to Types but I've put it into an additional module\n - to avoid circular references (Verbatim \u003ca\u003e-\u003c/a\u003e Types)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Util",
           "name": "Util",
           "package": "HaXml",
@@ -27939,6 +30372,7 @@
         "index": {
           "description": "Only small module containing some helper functions to extract xml content would have added this to Types but ve put it into an additional module to avoid circular references Verbatim Types",
           "hierarchy": "Text XML HaXml Util",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Util",
           "name": "Util",
           "package": "HaXml",
@@ -27952,6 +30386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Util",
           "name": "attrs",
           "package": "HaXml",
@@ -27961,6 +30396,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Util",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Util",
           "name": "attrs",
           "normalized": "Element a-\u003e[Attribute]",
@@ -27976,6 +30412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you know that your CFilter returns a tag, you can use this\n   function to get the tagged Element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Util",
           "name": "contentElem",
           "package": "HaXml",
@@ -27986,6 +30423,7 @@
         "index": {
           "description": "If you know that your CFilter returns tag you can use this function to get the tagged Element",
           "hierarchy": "Text XML HaXml Util",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Util",
           "name": "contentElem",
           "normalized": "Content a-\u003eElement a",
@@ -28002,6 +30440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the main element of the document so that you can apply\n   CFilters directly.  \u003ccode\u003ei\u003c/code\u003e is typically (posInNewCxt \u003ca\u003efilename\u003c/a\u003e Nothing) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Util",
           "name": "docContent",
           "package": "HaXml",
@@ -28012,6 +30451,7 @@
         "index": {
           "description": "Get the main element of the document so that you can apply CFilters directly is typically posInNewCxt filename Nothing",
           "hierarchy": "Text XML HaXml Util",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Util",
           "name": "docContent",
           "normalized": "a-\u003eDocument a-\u003eContent a",
@@ -28027,6 +30467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Util",
           "name": "tagTextContent",
           "package": "HaXml",
@@ -28036,6 +30477,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Util",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Util",
           "name": "tagTextContent",
           "normalized": "Content a-\u003e[Char]",
@@ -28052,6 +30494,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValidate a document against a dtd.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Validate",
           "name": "Validate",
           "package": "HaXml",
@@ -28061,6 +30504,7 @@
         "index": {
           "description": "Validate document against dtd",
           "hierarchy": "Text XML HaXml Validate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Validate",
           "name": "Validate",
           "package": "HaXml",
@@ -28075,6 +30519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epartialValidate\u003c/a\u003e\u003c/code\u003e is like validate, except that it does not check that\n   the element type matches that of the DTD's root element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Validate",
           "name": "partialValidate",
           "package": "HaXml",
@@ -28085,6 +30530,7 @@
         "index": {
           "description": "partialValidate is like validate except that it does not check that the element type matches that of the DTD root element",
           "hierarchy": "Text XML HaXml Validate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Validate",
           "name": "partialValidate",
           "normalized": "DocTypeDecl-\u003eElement a-\u003e[String]",
@@ -28101,6 +30547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003evalidate\u003c/a\u003e\u003c/code\u003e takes a DTD and a tagged element, and returns a list of\n   errors in the document with respect to its DTD.\n\u003c/p\u003e\u003cp\u003eIf you have several documents to validate against a single DTD,\n   then you will gain efficiency by freezing-in the DTD through partial\n   application, e.g. \u003ccode\u003echeckMyDTD = validate myDTD\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Validate",
           "name": "validate",
           "package": "HaXml",
@@ -28111,6 +30558,7 @@
         "index": {
           "description": "validate takes DTD and tagged element and returns list of errors in the document with respect to its DTD If you have several documents to validate against single DTD then you will gain efficiency by freezing-in the DTD through partial application e.g checkMyDTD validate myDTD",
           "hierarchy": "Text XML HaXml Validate",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Validate",
           "name": "validate",
           "normalized": "DocTypeDecl-\u003eElement a-\u003e[String]",
@@ -28126,6 +30574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe preferred method for rendering a \u003ccode\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/code\u003e or single \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e\n   is by using the pretty printing facility defined in \u003ca\u003ePretty\u003c/a\u003e.\n   Pretty-printing does not work well for cases, however, where the\n   formatting in the XML document is significant. Examples of this\n   case are XHTML's \u003ccode\u003e\u003cpre\u003e\u003c/code\u003e tag, Docbook's \u003ccode\u003e\u003cliterallayout\u003e\u003c/code\u003e tag,\n   and many more.\n\u003c/p\u003e\u003cp\u003eTheoretically, the document author could avoid this problem by\n   wrapping the contents of these tags in a \u003c![CDATA[...]]\u003e section,\n   but often this is not practical, for instance when the\n   literal-layout section contains other elements. Finally, program\n   writers could manually format these elements by transforming them\n   into a \u003ccode\u003eliteral\u003c/code\u003e string in their \u003ccode\u003eCFliter\u003c/code\u003e, etc., but this is\n   annoying to do and prone to omissions and formatting errors.\n\u003c/p\u003e\u003cp\u003eAs an alternative, this module provides the function \u003ccode\u003e\u003ca\u003everbatim\u003c/a\u003e\u003c/code\u003e,\n   which will format XML \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e while retaining the\n   formatting of the input document unchanged.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eKnown problems\u003c/em\u003e:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e HaXml's parser eats line feeds between two tags.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es should be formatted by making them an instance of\n      \u003ccode\u003e\u003ca\u003eVerbatim\u003c/a\u003e\u003c/code\u003e as well, but since an \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e is just a tuple,\n      not a full data type, the helper function \u003ccode\u003e\u003ca\u003everbAttr\u003c/a\u003e\u003c/code\u003e must be\n      used instead.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eCMisc\u003c/a\u003e\u003c/code\u003e is not yet supported.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003es, which contain no content, are formatted as\n       \u003ccode\u003e\u003celement-name/\u003e\u003c/code\u003e, even if they were not defined as being of\n       type \u003ccode\u003eEMPTY\u003c/code\u003e. In XML this perfectly alright, but in SGML it is\n       not. Those, who wish to use \u003ccode\u003e\u003ca\u003everbatim\u003c/a\u003e\u003c/code\u003e to format parts of say\n       an HTML page will have to (a) replace problematic elements by\n       \u003ccode\u003eliteral\u003c/code\u003es \u003cem\u003ebefore\u003c/em\u003e running \u003ccode\u003e\u003ca\u003everbatim\u003c/a\u003e\u003c/code\u003e or (b) use a second\n       search-and-replace stage to fix this.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "Verbatim",
           "package": "HaXml",
@@ -28135,6 +30584,7 @@
         "index": {
           "description": "The preferred method for rendering Document or single Content is by using the pretty printing facility defined in Pretty Pretty-printing does not work well for cases however where the formatting in the XML document is significant Examples of this case are XHTML pre tag Docbook literallayout tag and many more Theoretically the document author could avoid this problem by wrapping the contents of these tags in CDATA section but often this is not practical for instance when the literal-layout section contains other elements Finally program writers could manually format these elements by transforming them into literal string in their CFliter etc but this is annoying to do and prone to omissions and formatting errors As an alternative this module provides the function verbatim which will format XML Content as String while retaining the formatting of the input document unchanged Known problems HaXml parser eats line feeds between two tags Attribute should be formatted by making them an instance of Verbatim as well but since an Attribute is just tuple not full data type the helper function verbAttr must be used instead CMisc is not yet supported Element which contain no content are formatted as element-name even if they were not defined as being of type EMPTY In XML this perfectly alright but in SGML it is not Those who wish to use verbatim to format parts of say an HTML page will have to replace problematic elements by literal before running verbatim or use second search-and-replace stage to fix this",
           "hierarchy": "Text XML HaXml Verbatim",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "Verbatim",
           "package": "HaXml",
@@ -28149,6 +30599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class promises that the function \u003ccode\u003e\u003ca\u003everbatim\u003c/a\u003e\u003c/code\u003e knows how to\n format this data type into a string without changing the\n formatting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "Verbatim",
           "package": "HaXml",
@@ -28158,6 +30609,7 @@
         "index": {
           "description": "This class promises that the function verbatim knows how to format this data type into string without changing the formatting",
           "hierarchy": "Text XML HaXml Verbatim",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "Verbatim",
           "package": "HaXml",
@@ -28171,6 +30623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "qname",
           "package": "HaXml",
@@ -28180,6 +30633,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Verbatim",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "qname",
           "normalized": "QName-\u003eString",
@@ -28195,6 +30649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a helper function is required because Haskell does not\n allow to make an ordinary tuple (like \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e) an instance of a\n class. The resulting output will preface the actual attribute with\n a single blank so that lists of \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es can be handled\n implicitly by the definition for lists of \u003ccode\u003e\u003ca\u003eVerbatim\u003c/a\u003e\u003c/code\u003e data types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "verbAttr",
           "package": "HaXml",
@@ -28205,6 +30660,7 @@
         "index": {
           "description": "This is helper function is required because Haskell does not allow to make an ordinary tuple like Attribute an instance of class The resulting output will preface the actual attribute with single blank so that lists of Attribute can be handled implicitly by the definition for lists of Verbatim data types",
           "hierarchy": "Text XML HaXml Verbatim",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "verbAttr",
           "normalized": "Attribute-\u003eString",
@@ -28220,6 +30676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "verbatim",
           "package": "HaXml",
@@ -28229,6 +30686,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Verbatim",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Verbatim",
           "name": "verbatim",
           "normalized": "a-\u003eString",
@@ -28243,6 +30701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Wrappers",
           "name": "Wrappers",
           "package": "HaXml",
@@ -28251,6 +30710,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Wrappers",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Wrappers",
           "name": "Wrappers",
           "package": "HaXml",
@@ -28265,6 +30725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis useful auxiliary checks the commandline arguments for two\n   filenames, the input and output file respectively.  If either\n   is missing, it is replaced by \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e, which can be interpreted by the\n   caller as stdin and/or stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Wrappers",
           "name": "fix2Args",
           "package": "HaXml",
@@ -28275,6 +30736,7 @@
         "index": {
           "description": "This useful auxiliary checks the commandline arguments for two filenames the input and output file respectively If either is missing it is replaced by which can be interpreted by the caller as stdin and or stdout",
           "hierarchy": "Text XML HaXml Wrappers",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Wrappers",
           "name": "fix2Args",
           "normalized": "IO(String,String)",
@@ -28291,6 +30753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe wrapper \u003ccode\u003eonContent\u003c/code\u003e simply applies a given content filter to a\n   document.  Ambiguous or empty results raise an error exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Wrappers",
           "name": "onContent",
           "package": "HaXml",
@@ -28301,6 +30764,7 @@
         "index": {
           "description": "The wrapper onContent simply applies given content filter to document Ambiguous or empty results raise an error exception",
           "hierarchy": "Text XML HaXml Wrappers",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Wrappers",
           "name": "onContent",
           "normalized": "CFilter a-\u003eDocument a-\u003eDocument a",
@@ -28317,6 +30781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe wrapper \u003ccode\u003eprocessXmlWith\u003c/code\u003e returns an IO () computation\n   that collects the filenames (or stdin/stdout) to use when\n   reading/writing XML documents.  Its CFilter argument\n   is applied to transform the XML document from the input and\n   write it to the output.  No DTD is attached to the output.\n\u003c/p\u003e\u003cp\u003eIf the input filename ends with .html or .htm, it is parsed using\n   the error-correcting HTML parser rather than the strict XML parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Wrappers",
           "name": "processXmlWith",
           "package": "HaXml",
@@ -28327,6 +30792,7 @@
         "index": {
           "description": "The wrapper processXmlWith returns an IO computation that collects the filenames or stdin stdout to use when reading writing XML documents Its CFilter argument is applied to transform the XML document from the input and write it to the output No DTD is attached to the output If the input filename ends with html or htm it is parsed using the error-correcting HTML parser rather than the strict XML parser",
           "hierarchy": "Text XML HaXml Wrappers",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Wrappers",
           "name": "processXmlWith",
           "normalized": "CFilter Posn-\u003eIO()",
@@ -28343,6 +30809,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eXmlContent\u003c/a\u003e\u003c/code\u003e is a kind of replacement for Read and Show:\n   it provides conversions between a generic XML tree representation\n   and your own more specialised typeful Haskell data trees.\n\u003c/p\u003e\u003cp\u003eIf you are starting with a set of Haskell datatypes, use DrIFT to\n   derive instances of this class for you:\n       http://repetae.net/john/computer/haskell/DrIFT\n   and use the current module for instances of the standard Haskell\n   datatypes list, Maybe, and so on.\n\u003c/p\u003e\u003cp\u003eIf you are starting with an XML DTD, use HaXml's tool DtdToHaskell\n   to generate both the Haskell types and the corresponding instances,\n   but _do_not_ use the current module for instances: use\n   Text.XML.HaXml.XmlContent instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "Haskell",
           "package": "HaXml",
@@ -28352,6 +30819,7 @@
         "index": {
           "description": "The class XmlContent is kind of replacement for Read and Show it provides conversions between generic XML tree representation and your own more specialised typeful Haskell data trees If you are starting with set of Haskell datatypes use DrIFT to derive instances of this class for you http repetae.net john computer haskell DrIFT and use the current module for instances of the standard Haskell datatypes list Maybe and so on If you are starting with an XML DTD use HaXml tool DtdToHaskell to generate both the Haskell types and the corresponding instances but do not use the current module for instances use Text.XML.HaXml.XmlContent instead",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "Haskell",
           "package": "HaXml",
@@ -28366,6 +30834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an XML document from a file and convert it to a fully-typed\n   Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fReadXml",
           "package": "HaXml",
@@ -28376,6 +30845,7 @@
         "index": {
           "description": "Read an XML document from file and convert it to fully-typed Haskell value",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fReadXml",
           "normalized": "FilePath-\u003eIO a",
@@ -28392,6 +30862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a fully-typed Haskell value to the given file as an XML\n   document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fWriteXml",
           "package": "HaXml",
@@ -28402,6 +30873,7 @@
         "index": {
           "description": "Write fully-typed Haskell value to the given file as an XML document",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fWriteXml",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -28418,6 +30890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a fully-typed XML document to a file handle, using the\n   FastPackedString interface (output will not be prettified).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fpsHPutXml",
           "package": "HaXml",
@@ -28428,6 +30901,7 @@
         "index": {
           "description": "Write fully-typed XML document to file handle using the FastPackedString interface output will not be prettified",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fpsHPutXml",
           "normalized": "Handle-\u003eBool-\u003ea-\u003eIO()",
@@ -28444,6 +30918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a fully-typed XML document to a ByteString (without DTD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fpsShowXml",
           "package": "HaXml",
@@ -28454,6 +30929,7 @@
         "index": {
           "description": "Convert fully-typed XML document to ByteString without DTD",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fpsShowXml",
           "normalized": "Bool-\u003ea-\u003eByteString",
@@ -28470,6 +30946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite any Haskell value to the given file as an XML document,\n   using the FastPackedString interface (output will not be prettified).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fpsWriteXml",
           "package": "HaXml",
@@ -28480,6 +30957,7 @@
         "index": {
           "description": "Write any Haskell value to the given file as an XML document using the FastPackedString interface output will not be prettified",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fpsWriteXml",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -28496,6 +30974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Haskell value from an XML document, ignoring the DTD and\n   using the Haskell result type to determine how to parse it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fromXml",
           "package": "HaXml",
@@ -28506,6 +30985,7 @@
         "index": {
           "description": "Read Haskell value from an XML document ignoring the DTD and using the Haskell result type to determine how to parse it",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "fromXml",
           "normalized": "Document Posn-\u003eEither String a",
@@ -28522,6 +31002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a fully-typed XML document from a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "hGetXml",
           "package": "HaXml",
@@ -28532,6 +31013,7 @@
         "index": {
           "description": "Read fully-typed XML document from file handle",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "hGetXml",
           "normalized": "Handle-\u003eIO a",
@@ -28548,6 +31030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a fully-typed XML document to a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "hPutXml",
           "package": "HaXml",
@@ -28558,6 +31041,7 @@
         "index": {
           "description": "Write fully-typed XML document to file handle",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "hPutXml",
           "normalized": "Handle-\u003eBool-\u003ea-\u003eIO()",
@@ -28574,6 +31058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a fully-typed XML document from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "readXml",
           "package": "HaXml",
@@ -28584,6 +31069,7 @@
         "index": {
           "description": "Read fully-typed XML document from string",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "readXml",
           "normalized": "String-\u003eEither String a",
@@ -28600,6 +31086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a fully-typed XML document to a string (without DTD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "showXml",
           "package": "HaXml",
@@ -28610,6 +31097,7 @@
         "index": {
           "description": "Convert fully-typed XML document to string without DTD",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "showXml",
           "normalized": "Bool-\u003ea-\u003eString",
@@ -28626,6 +31114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a fully-typed XML document to a string (with or without DTD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "toXml",
           "package": "HaXml",
@@ -28636,6 +31125,7 @@
         "index": {
           "description": "Convert fully-typed XML document to string with or without DTD",
           "hierarchy": "Text XML HaXml XmlContent Haskell",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Haskell",
           "name": "toXml",
           "normalized": "Bool-\u003ea-\u003eDocument()",
@@ -28652,6 +31142,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eXmlContent\u003c/a\u003e\u003c/code\u003e is a kind of replacement for Read and Show:\n   it provides conversions between a generic XML tree representation\n   and your own more specialised typeful Haskell data trees.\n\u003c/p\u003e\u003cp\u003eIf you are starting with a set of Haskell datatypes, use DrIFT to\n   derive instances of this class for you:\n       http://repetae.net/john/computer/haskell/DrIFT\n   If you are starting with an XML DTD, use HaXml's tool DtdToHaskell\n   to generate both the Haskell types and the corresponding instances.\n\u003c/p\u003e\u003cp\u003eThis unified class interface replaces two previous (somewhat similar)\n   classes: Haskell2Xml and Xml2Haskell.  There was no real reason to have\n   separate classes depending on how you originally defined your datatypes.\n   However, some instances for basic types like lists will depend on which \n   direction you are using.  See Text.XML.HaXml.XmlContent and\n   Text.XML.HaXml.XmlContent.Haskell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Parser",
           "package": "HaXml",
@@ -28661,6 +31152,7 @@
         "index": {
           "description": "The class XmlContent is kind of replacement for Read and Show it provides conversions between generic XML tree representation and your own more specialised typeful Haskell data trees If you are starting with set of Haskell datatypes use DrIFT to derive instances of this class for you http repetae.net john computer haskell DrIFT If you are starting with an XML DTD use HaXml tool DtdToHaskell to generate both the Haskell types and the corresponding instances This unified class interface replaces two previous somewhat similar classes Haskell2Xml and Xml2Haskell There was no real reason to have separate classes depending on how you originally defined your datatypes However some instances for basic types like lists will depend on which direction you are using See Text.XML.HaXml.XmlContent and Text.XML.HaXml.XmlContent.Haskell",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Parser",
           "package": "HaXml",
@@ -28675,6 +31167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type corresponding to XML's ANY contentspec.\n   It is either a list of unconverted xml \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e\n   or some \u003ccode\u003e\u003ca\u003eXmlContent\u003c/a\u003e\u003c/code\u003e-able value.\n\u003c/p\u003e\u003cp\u003eParsing functions (e.g. \u003ccode\u003e\u003ca\u003eparseContents\u003c/a\u003e\u003c/code\u003e) will always produce \u003ccode\u003e\u003ca\u003eUnConverted\u003c/a\u003e\u003c/code\u003e.\n Note: The Show instance for \u003ccode\u003e\u003ca\u003eUnConverted\u003c/a\u003e\u003c/code\u003e uses \u003ccode\u003e\u003ca\u003everbatim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "ANYContent",
           "package": "HaXml",
@@ -28684,6 +31177,7 @@
         "index": {
           "description": "type corresponding to XML ANY contentspec It is either list of unconverted xml Content or some XmlContent able value Parsing functions e.g parseContents will always produce UnConverted Note The Show instance for UnConverted uses verbatim",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "ANYContent",
           "package": "HaXml",
@@ -28697,6 +31191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "AttValue",
           "package": "HaXml",
@@ -28705,6 +31200,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "AttValue",
           "package": "HaXml",
@@ -28718,6 +31214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Attribute",
           "package": "HaXml",
@@ -28726,6 +31223,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Attribute",
           "package": "HaXml",
@@ -28739,6 +31237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Content",
           "package": "HaXml",
@@ -28747,6 +31246,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Content",
           "package": "HaXml",
@@ -28761,6 +31261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an attribute is defaultable, then it either takes the default\n   value (which is omitted from the output), or a non-default value\n   (which obviously must be printed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Defaultable",
           "package": "HaXml",
@@ -28770,6 +31271,7 @@
         "index": {
           "description": "If an attribute is defaultable then it either takes the default value which is omitted from the output or non-default value which obviously must be printed",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Defaultable",
           "package": "HaXml",
@@ -28784,6 +31286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol table stored in a document holds all its general entity\n   reference definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Document",
           "package": "HaXml",
@@ -28793,6 +31296,7 @@
         "index": {
           "description": "The symbol table stored in document holds all its general entity reference definitions",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Document",
           "package": "HaXml",
@@ -28806,6 +31310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "ElemTag",
           "package": "HaXml",
@@ -28814,6 +31319,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "ElemTag",
           "package": "HaXml",
@@ -28827,6 +31333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Element",
           "package": "HaXml",
@@ -28835,6 +31342,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Element",
           "package": "HaXml",
@@ -28849,6 +31357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe List1 type represents lists with at least one element.\n   It is required for DTD content models that use + as a modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "List1",
           "package": "HaXml",
@@ -28858,6 +31367,7 @@
         "index": {
           "description": "The List1 type represents lists with at least one element It is required for DTD content models that use as modifier",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "List1",
           "package": "HaXml",
@@ -28871,6 +31381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Prolog",
           "package": "HaXml",
@@ -28879,6 +31390,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Prolog",
           "package": "HaXml",
@@ -28892,6 +31404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Reference",
           "package": "HaXml",
@@ -28900,6 +31413,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Reference",
           "package": "HaXml",
@@ -28914,6 +31428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need a parsing monad for reading generic XML Content into specific\n   datatypes.  This is a specialisation of the Text.ParserCombinators.Poly\n   ones, where the input token type is fixed as XML Content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "XMLParser",
           "package": "HaXml",
@@ -28923,6 +31438,7 @@
         "index": {
           "description": "We need parsing monad for reading generic XML Content into specific datatypes This is specialisation of the Text.ParserCombinators.Poly ones where the input token type is fixed as XML Content",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "XMLParser",
           "package": "HaXml",
@@ -28937,6 +31453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eXmlAttrType\u003c/code\u003e class promises that an attribute taking an XML\n   enumerated type can be converted to and from a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "XmlAttrType",
           "package": "HaXml",
@@ -28946,6 +31463,7 @@
         "index": {
           "description": "The XmlAttrType class promises that an attribute taking an XML enumerated type can be converted to and from Haskell value",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "XmlAttrType",
           "package": "HaXml",
@@ -28960,6 +31478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eXmlAttributes\u003c/code\u003e class promises that a list of XML tag attributes\n   can be converted to and from a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "XmlAttributes",
           "package": "HaXml",
@@ -28969,6 +31488,7 @@
         "index": {
           "description": "The XmlAttributes class promises that list of XML tag attributes can be converted to and from Haskell value",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "XmlAttributes",
           "package": "HaXml",
@@ -28983,6 +31503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eXmlContent\u003c/code\u003e class promises that an XML Content element can be\n   converted to and from a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "XmlContent",
           "package": "HaXml",
@@ -28992,6 +31513,7 @@
         "index": {
           "description": "The XmlContent class promises that an XML Content element can be converted to and from Haskell value",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "XmlContent",
           "package": "HaXml",
@@ -29005,6 +31527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "ANYContent",
           "package": "HaXml",
@@ -29014,6 +31537,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "ANYContent",
           "package": "HaXml",
@@ -29027,6 +31551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Default",
           "package": "HaXml",
@@ -29036,6 +31561,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "Default",
           "package": "HaXml",
@@ -29049,6 +31575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "NonDefault",
           "package": "HaXml",
@@ -29058,6 +31585,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "NonDefault",
           "package": "HaXml",
@@ -29071,6 +31599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "NonEmpty",
           "package": "HaXml",
@@ -29080,6 +31609,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "NonEmpty",
           "normalized": "NonEmpty[a]",
@@ -29095,6 +31625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "UnConverted",
           "package": "HaXml",
@@ -29104,6 +31635,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "UnConverted",
           "normalized": "UnConverted[Content Posn]",
@@ -29119,6 +31651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "attr2str",
           "package": "HaXml",
@@ -29128,6 +31661,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "attr2str",
           "normalized": "AttValue-\u003eString",
@@ -29143,6 +31677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo some parsing of the attributes of the given element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "attributes",
           "package": "HaXml",
@@ -29153,6 +31688,7 @@
         "index": {
           "description": "Do some parsing of the attributes of the given element",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "attributes",
           "normalized": "Element Posn-\u003eXMLParser a",
@@ -29168,6 +31704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single attribute called \u003ca\u003evalue\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "attval",
           "package": "HaXml",
@@ -29178,6 +31715,7 @@
         "index": {
           "description": "Read single attribute called value",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "attval",
           "normalized": "Element a-\u003eb",
@@ -29193,6 +31731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecatMaybes\u003c/a\u003e\u003c/code\u003e function takes a list of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003es and returns\n a list of all the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "catMaybes",
           "package": "HaXml",
@@ -29202,6 +31741,7 @@
         "index": {
           "description": "The catMaybes function takes list of Maybe and returns list of all the Just values",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "catMaybes",
           "normalized": "[Maybe a]-\u003e[a]",
@@ -29218,6 +31758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'choice f p' means if parseContents succeeds, apply f to the result,\n   otherwise use the continuation parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "choice",
           "package": "HaXml",
@@ -29228,6 +31769,7 @@
         "index": {
           "description": "choice means if parseContents succeeds apply to the result otherwise use the continuation parser",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "choice",
           "normalized": "(a-\u003eb)-\u003eXMLParser b-\u003eXMLParser b",
@@ -29243,6 +31785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most primitive combinator for XMLParser - get one content item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "content",
           "package": "HaXml",
@@ -29253,6 +31796,7 @@
         "index": {
           "description": "The most primitive combinator for XMLParser get one content item",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "content",
           "normalized": "String-\u003eXMLParser(Content Posn)",
@@ -29267,6 +31811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "defaultA",
           "package": "HaXml",
@@ -29276,6 +31821,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "defaultA",
           "normalized": "(String-\u003eAttribute-\u003eMaybe a)-\u003ea-\u003eString-\u003e[Attribute]-\u003eDefaultable a",
@@ -29290,6 +31836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "defaultToAttr",
           "package": "HaXml",
@@ -29299,6 +31846,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "defaultToAttr",
           "normalized": "(String-\u003ea-\u003eMaybe Attribute)-\u003eString-\u003eDefaultable a-\u003eMaybe Attribute",
@@ -29315,6 +31863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot sure this is needed now.   'definite p' previously ensured that\n   an element was definitely present.  Now I think the monad might take\n   care of that for us.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "definite",
           "package": "HaXml",
@@ -29325,6 +31874,7 @@
         "index": {
           "description": "not sure this is needed now definite previously ensured that an element was definitely present Now think the monad might take care of that for us",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "definite",
           "normalized": "XMLParser a-\u003eString-\u003eString-\u003eXMLParser a",
@@ -29339,6 +31889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "definiteA",
           "package": "HaXml",
@@ -29348,6 +31899,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "definiteA",
           "normalized": "(String-\u003eAttribute-\u003eMaybe a)-\u003eString-\u003eString-\u003e[Attribute]-\u003ea",
@@ -29363,6 +31915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike element, only permits a more flexible match against the tagname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "elementWith",
           "package": "HaXml",
@@ -29373,6 +31926,7 @@
         "index": {
           "description": "Like element only permits more flexible match against the tagname",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "elementWith",
           "normalized": "(String-\u003eString-\u003eBool)-\u003e[String]-\u003eXMLParser(Element Posn)",
@@ -29388,6 +31942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "fromAttrToStr",
           "package": "HaXml",
@@ -29397,6 +31952,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "fromAttrToStr",
           "normalized": "String-\u003eAttribute-\u003eMaybe String",
@@ -29412,6 +31968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "fromAttrToTyp",
           "package": "HaXml",
@@ -29421,6 +31978,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "fromAttrToTyp",
           "normalized": "String-\u003eAttribute-\u003eMaybe a",
@@ -29436,6 +31994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "fromAttrs",
           "package": "HaXml",
@@ -29445,6 +32004,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "fromAttrs",
           "normalized": "[Attribute]-\u003ea",
@@ -29461,6 +32021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of element + interior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "inElement",
           "package": "HaXml",
@@ -29471,6 +32032,7 @@
         "index": {
           "description": "combination of element interior",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "inElement",
           "normalized": "String-\u003eXMLParser a-\u003eXMLParser a",
@@ -29487,6 +32049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of elementWith + interior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "inElementWith",
           "package": "HaXml",
@@ -29497,6 +32060,7 @@
         "index": {
           "description": "combination of elementWith interior",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "inElementWith",
           "normalized": "(String-\u003eString-\u003eBool)-\u003eString-\u003eXMLParser a-\u003eXMLParser a",
@@ -29512,6 +32076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "maybeToAttr",
           "package": "HaXml",
@@ -29521,6 +32086,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "maybeToAttr",
           "normalized": "(String-\u003ea-\u003eMaybe Attribute)-\u003eString-\u003eMaybe a-\u003eMaybe Attribute",
@@ -29537,6 +32103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a single attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "mkAttr",
           "package": "HaXml",
@@ -29547,6 +32114,7 @@
         "index": {
           "description": "Generate single attribute",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "mkAttr",
           "normalized": "String-\u003eString-\u003eAttribute",
@@ -29563,6 +32131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an element with no attributes, named for its HType.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "mkElem",
           "package": "HaXml",
@@ -29573,6 +32142,7 @@
         "index": {
           "description": "Generate an element with no attributes named for its HType",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "mkElem",
           "normalized": "a-\u003e[Content()]-\u003eContent()",
@@ -29589,6 +32159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an element with no attributes, named directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "mkElemC",
           "package": "HaXml",
@@ -29599,6 +32170,7 @@
         "index": {
           "description": "Generate an element with no attributes named directly",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "mkElemC",
           "normalized": "String-\u003e[Content()]-\u003eContent()",
@@ -29615,6 +32187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from XML to Haskell\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "parseContents",
           "package": "HaXml",
@@ -29625,6 +32198,7 @@
         "index": {
           "description": "Convert from XML to Haskell",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "parseContents",
           "package": "HaXml",
@@ -29638,6 +32212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "possibleA",
           "package": "HaXml",
@@ -29647,6 +32222,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "possibleA",
           "normalized": "(String-\u003eAttribute-\u003eMaybe a)-\u003eString-\u003e[Attribute]-\u003eMaybe a",
@@ -29661,6 +32237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "str2attr",
           "package": "HaXml",
@@ -29670,6 +32247,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "str2attr",
           "normalized": "String-\u003eAttValue",
@@ -29684,6 +32262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toAttrFrStr",
           "package": "HaXml",
@@ -29693,6 +32272,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toAttrFrStr",
           "normalized": "String-\u003eString-\u003eMaybe Attribute",
@@ -29708,6 +32288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toAttrFrTyp",
           "package": "HaXml",
@@ -29717,6 +32298,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toAttrFrTyp",
           "normalized": "String-\u003ea-\u003eMaybe Attribute",
@@ -29732,6 +32314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toAttrs",
           "package": "HaXml",
@@ -29741,6 +32324,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toAttrs",
           "normalized": "a-\u003e[Attribute]",
@@ -29757,6 +32341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a string into an XML CDATA section.\n   (i.e. special characters like \u003ccode\u003e&\u003c/code\u003e are preserved without interpretation.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toCData",
           "package": "HaXml",
@@ -29767,6 +32352,7 @@
         "index": {
           "description": "Turn string into an XML CDATA section i.e special characters like are preserved without interpretation",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toCData",
           "normalized": "String-\u003e[Content()]",
@@ -29783,6 +32369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from Haskell to XML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toContents",
           "package": "HaXml",
@@ -29793,6 +32380,7 @@
         "index": {
           "description": "Convert from Haskell to XML",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toContents",
           "normalized": "a-\u003e[Content()]",
@@ -29809,6 +32397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a simple string into XML text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toText",
           "package": "HaXml",
@@ -29819,6 +32408,7 @@
         "index": {
           "description": "Turn simple string into XML text",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "toText",
           "normalized": "String-\u003e[Content()]",
@@ -29834,6 +32424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "xFromChar",
           "package": "HaXml",
@@ -29843,6 +32434,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "xFromChar",
           "normalized": "Char-\u003ea",
@@ -29859,6 +32451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy functions (for most types): used \u003cem\u003eonly\u003c/em\u003e in the Char instance\n   for coercing lists of Char into String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "xToChar",
           "package": "HaXml",
@@ -29869,6 +32462,7 @@
         "index": {
           "description": "Dummy functions for most types used only in the Char instance for coercing lists of Char into String",
           "hierarchy": "Text XML HaXml XmlContent Parser",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent.Parser",
           "name": "xToChar",
           "normalized": "a-\u003eChar",
@@ -29885,6 +32479,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eXmlContent\u003c/a\u003e\u003c/code\u003e is a kind of replacement for Read and Show:\n   it provides conversions between a generic XML tree representation\n   and your own more specialised typeful Haskell data trees.\n\u003c/p\u003e\u003cp\u003eIf you are starting with an XML DTD, use HaXml's tool DtdToHaskell\n   to generate both the Haskell types and the corresponding instances.\n\u003c/p\u003e\u003cp\u003eIf you are starting with a set of Haskell datatypes, use DrIFT to\n   derive instances of this class for you:\n       http://repetae.net/john/computer/haskell/DrIFT\n   and _do_not_ use the current module, but rather\n   Text.XML.HaXml.XmlContent.Haskell, for the correct matching\n   instances for standard Haskell datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "XmlContent",
           "package": "HaXml",
@@ -29894,6 +32489,7 @@
         "index": {
           "description": "The class XmlContent is kind of replacement for Read and Show it provides conversions between generic XML tree representation and your own more specialised typeful Haskell data trees If you are starting with an XML DTD use HaXml tool DtdToHaskell to generate both the Haskell types and the corresponding instances If you are starting with set of Haskell datatypes use DrIFT to derive instances of this class for you http repetae.net john computer haskell DrIFT and do not use the current module but rather Text.XML.HaXml.XmlContent.Haskell for the correct matching instances for standard Haskell datatypes",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "XmlContent",
           "package": "HaXml",
@@ -29908,6 +32504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an XML document from a file and convert it to a fully-typed\n   Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fReadXml",
           "package": "HaXml",
@@ -29918,6 +32515,7 @@
         "index": {
           "description": "Read an XML document from file and convert it to fully-typed Haskell value",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fReadXml",
           "normalized": "FilePath-\u003eIO a",
@@ -29934,6 +32532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a fully-typed Haskell value to the given file as an XML\n   document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fWriteXml",
           "package": "HaXml",
@@ -29944,6 +32543,7 @@
         "index": {
           "description": "Write fully-typed Haskell value to the given file as an XML document",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fWriteXml",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -29960,6 +32560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a fully-typed XML document to a file handle, using the\n   FastPackedString interface (output will not be prettified).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fpsHPutXml",
           "package": "HaXml",
@@ -29970,6 +32571,7 @@
         "index": {
           "description": "Write fully-typed XML document to file handle using the FastPackedString interface output will not be prettified",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fpsHPutXml",
           "normalized": "Handle-\u003eBool-\u003ea-\u003eIO()",
@@ -29986,6 +32588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a fully-typed XML document to a ByteString (without DTD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fpsShowXml",
           "package": "HaXml",
@@ -29996,6 +32599,7 @@
         "index": {
           "description": "Convert fully-typed XML document to ByteString without DTD",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fpsShowXml",
           "normalized": "Bool-\u003ea-\u003eByteString",
@@ -30012,6 +32616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite any Haskell value to the given file as an XML document,\n   using the FastPackedString interface (output will not be prettified).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fpsWriteXml",
           "package": "HaXml",
@@ -30022,6 +32627,7 @@
         "index": {
           "description": "Write any Haskell value to the given file as an XML document using the FastPackedString interface output will not be prettified",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fpsWriteXml",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -30038,6 +32644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a Haskell value from an XML document, ignoring the DTD and\n   using the Haskell result type to determine how to parse it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fromXml",
           "package": "HaXml",
@@ -30048,6 +32655,7 @@
         "index": {
           "description": "Read Haskell value from an XML document ignoring the DTD and using the Haskell result type to determine how to parse it",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "fromXml",
           "normalized": "Document Posn-\u003eEither String a",
@@ -30064,6 +32672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a fully-typed XML document from a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "hGetXml",
           "package": "HaXml",
@@ -30074,6 +32683,7 @@
         "index": {
           "description": "Read fully-typed XML document from file handle",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "hGetXml",
           "normalized": "Handle-\u003eIO a",
@@ -30090,6 +32700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a fully-typed XML document to a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "hPutXml",
           "package": "HaXml",
@@ -30100,6 +32711,7 @@
         "index": {
           "description": "Write fully-typed XML document to file handle",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "hPutXml",
           "normalized": "Handle-\u003eBool-\u003ea-\u003eIO()",
@@ -30116,6 +32728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a fully-typed XML document from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "readXml",
           "package": "HaXml",
@@ -30126,6 +32739,7 @@
         "index": {
           "description": "Read fully-typed XML document from string",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "readXml",
           "normalized": "String-\u003eEither String a",
@@ -30142,6 +32756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a fully-typed XML document to a string (without DTD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "showXml",
           "package": "HaXml",
@@ -30152,6 +32767,7 @@
         "index": {
           "description": "Convert fully-typed XML document to string without DTD",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "showXml",
           "normalized": "Bool-\u003ea-\u003eString",
@@ -30168,6 +32784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a fully-typed XML document to a string (with or without DTD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "toXml",
           "package": "HaXml",
@@ -30178,6 +32795,7 @@
         "index": {
           "description": "Convert fully-typed XML document to string with or without DTD",
           "hierarchy": "Text XML HaXml XmlContent",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.XmlContent",
           "name": "toXml",
           "normalized": "Bool-\u003ea-\u003eDocument()",
@@ -30194,6 +32812,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a new set of XML combinators for Xtract, not standard,\n   but based on the standard set in \u003ca\u003eText.Xml.Haxml.Combinators\u003c/a\u003e.\n   The main difference is that the Content Filter type becomes a\n   Double Filter.  A Double Filter always takes the whole document\n   as an extra argument, so you can start to traverse it again from\n   the root, when at any inner location within the document tree.\n\u003c/p\u003e\u003cp\u003eThe new combinator definitions are derived from the old ones.\n   The same names have the equivalent meaning - use module qualification\n   on imports to distinguish between CFilter and DFilter variations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "Combinators",
           "package": "HaXml",
@@ -30203,6 +32822,7 @@
         "index": {
           "description": "This is new set of XML combinators for Xtract not standard but based on the standard set in Text.Xml.Haxml.Combinators The main difference is that the Content Filter type becomes Double Filter Double Filter always takes the whole document as an extra argument so you can start to traverse it again from the root when at any inner location within the document tree The new combinator definitions are derived from the old ones The same names have the equivalent meaning use module qualification on imports to distinguish between CFilter and DFilter variations",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "Combinators",
           "package": "HaXml",
@@ -30217,6 +32837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble content filter - takes document root + local subtree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "DFilter",
           "package": "HaXml",
@@ -30226,6 +32847,7 @@
         "index": {
           "description": "double content filter takes document root local subtree",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "DFilter",
           "package": "HaXml",
@@ -30240,6 +32862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted choice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "(|\u003e|)",
           "package": "HaXml",
@@ -30250,6 +32873,7 @@
         "index": {
           "description": "lifted choice",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "(|\u003e|) |\u003e|",
           "normalized": "(a-\u003eb-\u003e[c])-\u003e(a-\u003eb-\u003e[c])-\u003ea-\u003eb-\u003e[c]",
@@ -30264,6 +32888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "(/\u003e)",
           "package": "HaXml",
@@ -30273,6 +32898,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "(/\u003e) /\u003e",
           "normalized": "DFilter a-\u003eDFilter a-\u003eDFilter a",
@@ -30287,6 +32913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "(\u003c/)",
           "package": "HaXml",
@@ -30296,6 +32923,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "(\u003c/) \u003c/",
           "normalized": "DFilter a-\u003eDFilter a-\u003eDFilter a",
@@ -30310,6 +32938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "applypred",
           "package": "HaXml",
@@ -30319,6 +32948,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "applypred",
           "normalized": "CFilter a-\u003eDFilter a-\u003eCFilter a",
@@ -30333,6 +32963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "cat",
           "package": "HaXml",
@@ -30342,6 +32973,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "cat",
           "normalized": "[a-\u003eb-\u003e[c]]-\u003ea-\u003eb-\u003e[c]",
@@ -30357,6 +32989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrop a double filter to an ordinary content filter.\n   (Where interior access to the document root is not needed, the\n    retaining pointer to the outer element can be pruned away.\n   \u003ccode\u003e\u003ca\u003ecfilter\u003c/a\u003e\u003c/code\u003e is more space-efficient than \u003ccode\u003e\u003ca\u003edfilter\u003c/a\u003e\u003c/code\u003e in this situation.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "cfilter",
           "package": "HaXml",
@@ -30367,6 +33000,7 @@
         "index": {
           "description": "drop double filter to an ordinary content filter Where interior access to the document root is not needed the retaining pointer to the outer element can be pruned away cfilter is more space-efficient than dfilter in this situation",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "cfilter",
           "normalized": "DFilter a-\u003eCFilter a",
@@ -30381,6 +33015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "children",
           "package": "HaXml",
@@ -30390,6 +33025,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "children",
           "package": "HaXml",
@@ -30402,6 +33038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "deep",
           "package": "HaXml",
@@ -30411,6 +33048,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "deep",
           "normalized": "DFilter a-\u003eDFilter a",
@@ -30425,6 +33063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "deepest",
           "package": "HaXml",
@@ -30434,6 +33073,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "deepest",
           "normalized": "DFilter a-\u003eDFilter a",
@@ -30449,6 +33089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrop a double filter to an ordinary content filter.\n   (permitting interior access to document root)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "dfilter",
           "package": "HaXml",
@@ -30459,6 +33100,7 @@
         "index": {
           "description": "drop double filter to an ordinary content filter permitting interior access to document root",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "dfilter",
           "normalized": "DFilter a-\u003eCFilter a",
@@ -30473,6 +33115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "elm",
           "package": "HaXml",
@@ -30482,6 +33125,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "elm",
           "package": "HaXml",
@@ -30495,6 +33139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift an ordinary content filter to a double filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "global",
           "package": "HaXml",
@@ -30505,6 +33150,7 @@
         "index": {
           "description": "lift an ordinary content filter to double filter",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "global",
           "normalized": "CFilter a-\u003eDFilter a",
@@ -30519,6 +33165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "ifTxt",
           "package": "HaXml",
@@ -30528,6 +33175,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "ifTxt",
           "normalized": "(String-\u003eDFilter a)-\u003eDFilter a-\u003eDFilter a",
@@ -30543,6 +33191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "iffind",
           "package": "HaXml",
@@ -30552,6 +33201,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "iffind",
           "normalized": "String-\u003e(String-\u003eDFilter a)-\u003eDFilter a-\u003eDFilter a",
@@ -30567,6 +33217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted unit and zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "keep",
           "package": "HaXml",
@@ -30577,6 +33228,7 @@
         "index": {
           "description": "lifted unit and zero",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "keep",
           "package": "HaXml",
@@ -30590,6 +33242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift a CFilter combinator to a DFilter combinator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "liftGlobal",
           "package": "HaXml",
@@ -30600,6 +33253,7 @@
         "index": {
           "description": "lift CFilter combinator to DFilter combinator",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "liftGlobal",
           "normalized": "(CFilter a-\u003eCFilter a)-\u003eDFilter a-\u003eDFilter a",
@@ -30616,6 +33270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift a CFilter combinator to a DFilter combinator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "liftLocal",
           "package": "HaXml",
@@ -30626,6 +33281,7 @@
         "index": {
           "description": "lift CFilter combinator to DFilter combinator",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "liftLocal",
           "normalized": "(CFilter a-\u003eCFilter a)-\u003eDFilter a-\u003eDFilter a",
@@ -30642,6 +33298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift an ordinary content filter to a double filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "local",
           "package": "HaXml",
@@ -30652,6 +33309,7 @@
         "index": {
           "description": "lift an ordinary content filter to double filter",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "local",
           "normalized": "CFilter a-\u003eDFilter a",
@@ -30666,6 +33324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "multi",
           "package": "HaXml",
@@ -30675,6 +33334,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "multi",
           "normalized": "DFilter a-\u003eDFilter a",
@@ -30690,6 +33350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted unit and zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "none",
           "package": "HaXml",
@@ -30700,6 +33361,7 @@
         "index": {
           "description": "lifted unit and zero",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "none",
           "package": "HaXml",
@@ -30713,6 +33375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted composition over double filters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "o",
           "package": "HaXml",
@@ -30723,6 +33386,7 @@
         "index": {
           "description": "lifted composition over double filters",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "o",
           "normalized": "DFilter a-\u003eDFilter a-\u003eDFilter a",
@@ -30737,6 +33401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "txt",
           "package": "HaXml",
@@ -30746,6 +33411,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "txt",
           "package": "HaXml",
@@ -30759,6 +33425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted union.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "union",
           "package": "HaXml",
@@ -30769,6 +33436,7 @@
         "index": {
           "description": "lifted union",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "union",
           "normalized": "(a-\u003eb-\u003e[c])-\u003e(a-\u003eb-\u003e[c])-\u003ea-\u003eb-\u003e[c]",
@@ -30784,6 +33452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "with",
           "package": "HaXml",
@@ -30794,6 +33463,7 @@
         "index": {
           "description": "lifted predicates",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "with",
           "normalized": "DFilter a-\u003eDFilter a-\u003eDFilter a",
@@ -30809,6 +33479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elifted predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "without",
           "package": "HaXml",
@@ -30819,6 +33490,7 @@
         "index": {
           "description": "lifted predicates",
           "hierarchy": "Text XML HaXml Xtract Combinators",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Combinators",
           "name": "without",
           "normalized": "DFilter a-\u003eDFilter a-\u003eDFilter a",
@@ -30834,6 +33506,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is another hand-written lexer, this time for the Xtract\n   command-language.  The entry point is lexXtract.  You don't\n   normally need to use this module directly - the lexer is called\n   automatically by the parser.  (We only expose this interface\n   for debugging purposes.)\n\u003c/p\u003e\u003cp\u003eThe Xtract command language is very like the XPath specification.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Lex",
           "package": "HaXml",
@@ -30843,6 +33516,7 @@
         "index": {
           "description": "This is another hand-written lexer this time for the Xtract command-language The entry point is lexXtract You don normally need to use this module directly the lexer is called automatically by the parser We only expose this interface for debugging purposes The Xtract command language is very like the XPath specification",
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Lex",
           "package": "HaXml",
@@ -30856,6 +33530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Posn",
           "package": "HaXml",
@@ -30864,6 +33539,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Posn",
           "package": "HaXml",
@@ -30877,6 +33553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Token",
           "package": "HaXml",
@@ -30885,6 +33562,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Token",
           "package": "HaXml",
@@ -30898,6 +33576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "TokenT",
           "package": "HaXml",
@@ -30906,6 +33585,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "TokenT",
           "package": "HaXml",
@@ -30919,6 +33599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Pn",
           "package": "HaXml",
@@ -30928,6 +33609,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Pn",
           "package": "HaXml",
@@ -30941,6 +33623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Symbol",
           "package": "HaXml",
@@ -30950,6 +33633,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "Symbol",
           "package": "HaXml",
@@ -30963,6 +33647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "TokNum",
           "package": "HaXml",
@@ -30972,6 +33657,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "TokNum",
           "package": "HaXml",
@@ -30985,6 +33671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "TokString",
           "package": "HaXml",
@@ -30994,6 +33681,7 @@
         },
         "index": {
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "TokString",
           "package": "HaXml",
@@ -31008,6 +33696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst argument is a transformer for pattern strings, e.g. map toLower,\n   but only applying to parts of the pattern not in quotation marks.\n   (Needed to canonicalise HTML where tags are case-insensitive, but\n   attribute values are case sensitive.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "lexXtract",
           "package": "HaXml",
@@ -31018,6 +33707,7 @@
         "index": {
           "description": "First argument is transformer for pattern strings e.g map toLower but only applying to parts of the pattern not in quotation marks Needed to canonicalise HTML where tags are case-insensitive but attribute values are case sensitive",
           "hierarchy": "Text XML HaXml Xtract Lex",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Lex",
           "name": "lexXtract",
           "normalized": "(String-\u003eString)-\u003eString-\u003e[Token]",
@@ -31034,6 +33724,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser for the Xtract command-language.  (The string input is\n   tokenised internally by the lexer \u003ccode\u003e\u003ca\u003elexXtract\u003c/a\u003e\u003c/code\u003e.)\n   See \u003ca\u003ehttp://www.haskell.org/HaXml/Xtract.html\u003c/a\u003e for the grammar that\n   is accepted.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Parse",
           "name": "Parse",
           "package": "HaXml",
@@ -31043,6 +33734,7 @@
         "index": {
           "description": "parser for the Xtract command-language The string input is tokenised internally by the lexer lexXtract See http www.haskell.org HaXml Xtract.html for the grammar that is accepted",
           "hierarchy": "Text XML HaXml Xtract Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Parse",
           "name": "Parse",
           "package": "HaXml",
@@ -31057,6 +33749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cool thing is that the Xtract command parser directly builds\n   a higher-order \u003ccode\u003e\u003ca\u003eDFilter\u003c/a\u003e\u003c/code\u003e (see \u003ca\u003eText.XML.HaXml.Xtract.Combinators\u003c/a\u003e)\n   which can be applied to an XML document without further ado.\n   (\u003ccode\u003eparseXtract\u003c/code\u003e halts the program if a parse error is found.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Parse",
           "name": "parseXtract",
           "package": "HaXml",
@@ -31067,6 +33760,7 @@
         "index": {
           "description": "The cool thing is that the Xtract command parser directly builds higher-order DFilter see Text.XML.HaXml.Xtract.Combinators which can be applied to an XML document without further ado parseXtract halts the program if parse error is found",
           "hierarchy": "Text XML HaXml Xtract Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Parse",
           "name": "parseXtract",
           "normalized": "[Token]-\u003eDFilter a",
@@ -31083,6 +33777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo convert an Xtract query into an ordinary HaXml combinator expression.\n   First arg is a tag-transformation function (e.g. map toLower) applied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml.Xtract.Parse",
           "name": "xtract",
           "package": "HaXml",
@@ -31093,6 +33788,7 @@
         "index": {
           "description": "To convert an Xtract query into an ordinary HaXml combinator expression First arg is tag-transformation function e.g map toLower applied",
           "hierarchy": "Text XML HaXml Xtract Parse",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml.Xtract.Parse",
           "name": "xtract",
           "normalized": "(String-\u003eString)-\u003eString-\u003eCFilter a",
@@ -31108,6 +33804,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is just a convenient way of bunching the XML combinators\n   together with some other things you are likely to want at the\n   same time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml",
           "name": "HaXml",
           "package": "HaXml",
@@ -31117,6 +33814,7 @@
         "index": {
           "description": "This is just convenient way of bunching the XML combinators together with some other things you are likely to want at the same time",
           "hierarchy": "Text XML HaXml",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml",
           "name": "HaXml",
           "package": "HaXml",
@@ -31131,6 +33829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the \u003ccode\u003eDoc\u003c/code\u003e to a String using the default \u003ccode\u003eStyle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml",
           "name": "render",
           "package": "HaXml",
@@ -31140,6 +33839,7 @@
         "index": {
           "description": "Render the Doc to String using the default Style",
           "hierarchy": "Text XML HaXml",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml",
           "name": "render",
           "normalized": "Doc-\u003eString",
@@ -31155,6 +33855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:22 UTC 2014",
           "module": "Text.XML.HaXml",
           "name": "version",
           "package": "HaXml",
@@ -31165,6 +33866,7 @@
         "index": {
           "description": "The version of the library",
           "hierarchy": "Text XML HaXml",
+          "indexed": "2014-03-11T16:47:22",
           "module": "Text.XML.HaXml",
           "name": "version",
           "package": "HaXml",

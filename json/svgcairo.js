@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "svgcairo"
+        "phrase": "svgcairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe SVG extension to the Cairo 2D graphics library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "SVG",
           "package": "svgcairo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The SVG extension to the Cairo graphics library",
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "SVG",
           "package": "svgcairo",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "SVG",
           "package": "svgcairo",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "SVG",
           "package": "svgcairo",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the width and height of the SVG image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgGetSize",
           "package": "svgcairo",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Get the width and height of the SVG image",
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgGetSize",
           "normalized": "SVG-\u003e(Int,Int)",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgNewFromFile",
           "package": "svgcairo",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgNewFromFile",
           "normalized": "FilePath-\u003eIO SVG",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgNewFromHandle",
           "package": "svgcairo",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgNewFromHandle",
           "normalized": "Handle-\u003eIO SVG",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgNewFromString",
           "package": "svgcairo",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgNewFromString",
           "normalized": "String-\u003eIO SVG",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender an SVG file\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003eFalse\u003c/code\u003e if an error was detected.\n On librsvg before 2.22.3, \u003ccode\u003esvgRender\u003c/code\u003e always returns \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgRender",
           "package": "svgcairo",
@@ -170,6 +183,7 @@
         "index": {
           "description": "render an SVG file Returns False if an error was detected On librsvg before svgRender always returns True",
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgRender",
           "normalized": "SVG-\u003eRender Bool",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgRenderFromFile",
           "package": "svgcairo",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgRenderFromFile",
           "normalized": "FilePath-\u003eRender Bool",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgRenderFromHandle",
           "package": "svgcairo",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgRenderFromHandle",
           "normalized": "Handle-\u003eRender Bool",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgRenderFromString",
           "package": "svgcairo",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "svgRenderFromString",
           "normalized": "String-\u003eRender Bool",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "withSvgFromFile",
           "package": "svgcairo",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "withSvgFromFile",
           "normalized": "FilePath-\u003e(SVG-\u003eRender a)-\u003eRender a",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "withSvgFromHandle",
           "package": "svgcairo",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "withSvgFromHandle",
           "normalized": "Handle-\u003e(SVG-\u003eRender a)-\u003eRender a",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:10 UTC 2014",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "withSvgFromString",
           "package": "svgcairo",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Cairo SVG",
+          "indexed": "2014-03-11T20:14:10",
           "module": "Graphics.Rendering.Cairo.SVG",
           "name": "withSvgFromString",
           "normalized": "String-\u003e(SVG-\u003eRender a)-\u003eRender a",

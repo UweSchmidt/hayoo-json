@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "polyToMonoid"
+        "phrase": "polyToMonoid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreates polyvariadic functions that map their parameters into a given monoid.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "PolyToMonoid",
           "package": "polyToMonoid",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Creates polyvariadic functions that map their parameters into given monoid",
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "PolyToMonoid",
           "package": "polyToMonoid",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ectm is a composable variant of ptm.\n\u003c/p\u003e\u003cp\u003eTo actually get its value, use the terminator function trm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "CPolyVariadic",
           "package": "polyToMonoid",
@@ -51,6 +54,7 @@
         "index": {
           "description": "ctm is composable variant of ptm To actually get its value use the terminator function trm",
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "CPolyVariadic",
           "package": "polyToMonoid",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine instances of Monoidable to tell Haskell\n how to convert your parameters into values in the underlying \n monoid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "Monoidable",
           "package": "polyToMonoid",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Define instances of Monoidable to tell Haskell how to convert your parameters into values in the underlying monoid",
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "Monoidable",
           "package": "polyToMonoid",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConceptually, ptm is defined as:\n\u003c/p\u003e\u003cpre\u003e    ptm (mempty :: MyMonoid) p1 p2 ... pN =\n        (toMonoid p1) `mappend` (toMonoid p2) `mappend` ... `mappend` (toMonoid pN)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "PolyVariadic",
           "package": "polyToMonoid",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Conceptually ptm is defined as ptm mempty MyMonoid p1 p2 pN toMonoid p1 mappend toMonoid p2 mappend mappend toMonoid pN",
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "PolyVariadic",
           "package": "polyToMonoid",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "Terminate",
           "package": "polyToMonoid",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "Terminate",
           "package": "polyToMonoid",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "Terminate",
           "package": "polyToMonoid",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "Terminate",
           "package": "polyToMonoid",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "ctm",
           "package": "polyToMonoid",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "ctm",
           "normalized": "a-\u003eb",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "ptm",
           "package": "polyToMonoid",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "ptm",
           "normalized": "a-\u003eb",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "toMonoid",
           "package": "polyToMonoid",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "toMonoid",
           "normalized": "a-\u003eb",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the terminator function trm to get the value of a ctm calculation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:04 UTC 2014",
           "module": "Data.PolyToMonoid",
           "name": "trm",
           "package": "polyToMonoid",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Use the terminator function trm to get the value of ctm calculation",
           "hierarchy": "Data PolyToMonoid",
+          "indexed": "2014-03-11T19:41:04",
           "module": "Data.PolyToMonoid",
           "name": "trm",
           "package": "polyToMonoid",

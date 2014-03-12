@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseTypes"
+        "phrase": "BiobaseTypes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a converting function between different types. Most useful\n conversions are instanced here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Convert",
           "name": "Convert",
           "package": "BiobaseTypes",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides converting function between different types Most useful conversions are instanced here",
           "hierarchy": "Biobase Types Convert",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Convert",
           "name": "Convert",
           "package": "BiobaseTypes",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to convert between different values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Convert",
           "name": "Convert",
           "package": "BiobaseTypes",
@@ -51,6 +54,7 @@
         "index": {
           "description": "How to convert between different values",
           "hierarchy": "Biobase Types Convert",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Convert",
           "name": "Convert",
           "package": "BiobaseTypes",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom (Gibbs free) energy to partition function values.\n\u003c/p\u003e\u003cp\u003eTODO temperature is running around here: move to some library later on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Convert",
           "name": "Kelvin",
           "package": "BiobaseTypes",
@@ -74,6 +79,7 @@
         "index": {
           "description": "From Gibbs free energy to partition function values TODO temperature is running around here move to some library later on",
           "hierarchy": "Biobase Types Convert",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Convert",
           "name": "Kelvin",
           "package": "BiobaseTypes",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Convert",
           "name": "Kelvin",
           "package": "BiobaseTypes",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Convert",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Convert",
           "name": "Kelvin",
           "package": "BiobaseTypes",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Convert",
           "name": "convert",
           "package": "BiobaseTypes",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Convert",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Convert",
           "name": "convert",
           "normalized": "a-\u003eb-\u003ec",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Convert",
           "name": "unKelvin",
           "package": "BiobaseTypes",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Convert",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Convert",
           "name": "unKelvin",
           "package": "BiobaseTypes",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Energy",
           "name": "Energy",
           "package": "BiobaseTypes",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Energy",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Energy",
           "name": "Energy",
           "package": "BiobaseTypes",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome default instances. Left out the Num one, so that you have to\n explicitly instanciate if you want to go around the Ring structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Energy",
           "name": "Energy",
           "package": "BiobaseTypes",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Some default instances Left out the Num one so that you have to explicitly instanciate if you want to go around the Ring structure",
           "hierarchy": "Biobase Types Energy",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Energy",
           "name": "Energy",
           "package": "BiobaseTypes",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Energy",
           "name": "Energy",
           "package": "BiobaseTypes",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Energy",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Energy",
           "name": "Energy",
           "package": "BiobaseTypes",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Energy",
           "name": "unEnergy",
           "package": "BiobaseTypes",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Energy",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Energy",
           "name": "unEnergy",
           "package": "BiobaseTypes",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "Partition",
           "package": "BiobaseTypes",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "Partition",
           "package": "BiobaseTypes",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome default instances. Left out the Num one, so that you have to\n explicitly instanciate if you want to go around the Ring structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "Partition",
           "package": "BiobaseTypes",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Some default instances Left out the Num one so that you have to explicitly instanciate if you want to go around the Ring structure",
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "Partition",
           "package": "BiobaseTypes",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "Partition",
           "package": "BiobaseTypes",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "Partition",
           "package": "BiobaseTypes",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "expm1",
           "package": "BiobaseTypes",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "expm1",
           "normalized": "Double-\u003eDouble",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "log1p",
           "package": "BiobaseTypes",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "log1p",
           "normalized": "Double-\u003eDouble",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "logSum",
           "package": "BiobaseTypes",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "logSum",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "mkPartition",
           "package": "BiobaseTypes",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "mkPartition",
           "normalized": "Double-\u003ePartition",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "unPartition",
           "package": "BiobaseTypes",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "unPartition",
           "normalized": "Partition-\u003eDouble",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Partition",
           "name": "unPartition'",
           "package": "BiobaseTypes",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Partition",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Partition",
           "name": "unPartition'",
           "package": "BiobaseTypes",
@@ -449,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlgebraic ring structure. Very similar to others found throughout hackage.\n\u003c/p\u003e\u003cp\u003eTODO maybe use on of the already-written packages?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "Ring",
           "package": "BiobaseTypes",
@@ -458,6 +497,7 @@
         "index": {
           "description": "Algebraic ring structure Very similar to others found throughout hackage TODO maybe use on of the already-written packages",
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "Ring",
           "package": "BiobaseTypes",
@@ -472,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the basic operations on a ring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "Ring",
           "package": "BiobaseTypes",
@@ -481,6 +522,7 @@
         "index": {
           "description": "Define the basic operations on ring",
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "Ring",
           "package": "BiobaseTypes",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "(.*.)",
           "package": "BiobaseTypes",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "(.*.) .*.",
           "normalized": "a-\u003ea-\u003ea",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "(.+.)",
           "package": "BiobaseTypes",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "(.+.) .+.",
           "normalized": "a-\u003ea-\u003ea",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "(.^^.)",
           "package": "BiobaseTypes",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "(.^^.) .^^.",
           "normalized": "a-\u003eDouble-\u003ea",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "(.^.)",
           "package": "BiobaseTypes",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "(.^.) .^.",
           "normalized": "a-\u003eInt-\u003ea",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "isZero",
           "package": "BiobaseTypes",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "isZero",
           "package": "BiobaseTypes",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "neg",
           "package": "BiobaseTypes",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "one",
           "package": "BiobaseTypes",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "one",
           "package": "BiobaseTypes",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Ring",
           "name": "zero",
           "package": "BiobaseTypes",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Ring",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Ring",
           "name": "zero",
           "package": "BiobaseTypes",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Score",
           "name": "Score",
           "package": "BiobaseTypes",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Score",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Score",
           "name": "Score",
           "package": "BiobaseTypes",
@@ -695,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome default instances. Left out the Num one, so that you have to\n explicitly instanciate if you want to go around the Ring structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Score",
           "name": "Score",
           "package": "BiobaseTypes",
@@ -704,6 +765,7 @@
         "index": {
           "description": "Some default instances Left out the Num one so that you have to explicitly instanciate if you want to go around the Ring structure",
           "hierarchy": "Biobase Types Score",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Score",
           "name": "Score",
           "package": "BiobaseTypes",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Score",
           "name": "Score",
           "package": "BiobaseTypes",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Score",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Score",
           "name": "Score",
           "package": "BiobaseTypes",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:37 UTC 2014",
           "module": "Biobase.Types.Score",
           "name": "unScore",
           "package": "BiobaseTypes",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Biobase Types Score",
+          "indexed": "2014-03-11T16:34:37",
           "module": "Biobase.Types.Score",
           "name": "unScore",
           "package": "BiobaseTypes",

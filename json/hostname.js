@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hostname"
+        "phrase": "hostname",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:20 UTC 2014",
           "module": "Network.HostName",
           "name": "HostName",
           "package": "hostname",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HostName",
+          "indexed": "2014-03-11T18:44:20",
           "module": "Network.HostName",
           "name": "HostName",
           "package": "hostname",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:20 UTC 2014",
           "module": "Network.HostName",
           "name": "HostName",
           "package": "hostname",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network HostName",
+          "indexed": "2014-03-11T18:44:20",
           "module": "Network.HostName",
           "name": "HostName",
           "package": "hostname",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:44:20 UTC 2014",
           "module": "Network.HostName",
           "name": "getHostName",
           "package": "hostname",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network HostName",
+          "indexed": "2014-03-11T18:44:20",
           "module": "Network.HostName",
           "name": "getHostName",
           "package": "hostname",

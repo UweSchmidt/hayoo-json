@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dotfs"
+        "phrase": "dotfs",
+        "type": "phrase"
       },
       "type": "context"
     }

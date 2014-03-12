@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ois-input-manager"
+        "phrase": "ois-input-manager",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cofunctor"
+        "phrase": "cofunctor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:31 UTC 2014",
           "module": "Data.Cofunctor",
           "name": "Cofunctor",
           "package": "cofunctor",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Cofunctor",
+          "indexed": "2014-03-11T17:35:31",
           "module": "Data.Cofunctor",
           "name": "Cofunctor",
           "package": "cofunctor",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDEPRECATED: please use the \"contravariant\" package\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThe Confunctor class is useful for \"sink-like\" types, especially when\n  combined with GADTs. For instance:\n\u003c/p\u003e\u003cpre\u003e \n data StringStack a where\n     StringStack :: (a -\u003e String) -\u003e [String] -\u003e StringStack a\n\n emptyStack :: StringStack String\n emptyStack = StringStack id []\n\n push :: a -\u003e StringStack a -\u003e StringStack a\n push a (StringStack f ss) = StringStack f (f s : ss)\n\n instance Confunctor StringStack where\n     cofmap f (StringStack g ss) = StringStack (g . f) ss\n\u003c/pre\u003e\u003cp\u003eSee the \u003ca\u003esplit-chan\u003c/a\u003e package for another example.\n\u003c/p\u003e\u003cp\u003eA class for contravariant functors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:31 UTC 2014",
           "module": "Data.Cofunctor",
           "name": "Cofunctor",
           "package": "cofunctor",
@@ -49,6 +52,7 @@
         "index": {
           "description": "DEPRECATED please use the contravariant package The Confunctor class is useful for sink-like types especially when combined with GADTs For instance data StringStack where StringStack String String StringStack emptyStack StringStack String emptyStack StringStack id push StringStack StringStack push StringStack ss StringStack ss instance Confunctor StringStack where cofmap StringStack ss StringStack ss See the split-chan package for another example class for contravariant functors",
           "hierarchy": "Data Cofunctor",
+          "indexed": "2014-03-11T17:35:31",
           "module": "Data.Cofunctor",
           "name": "Cofunctor",
           "package": "cofunctor",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:31 UTC 2014",
           "module": "Data.Cofunctor",
           "name": "cofmap",
           "package": "cofunctor",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Cofunctor",
+          "indexed": "2014-03-11T17:35:31",
           "module": "Data.Cofunctor",
           "name": "cofmap",
           "normalized": "(a-\u003eb)-\u003ec b-\u003ec a",

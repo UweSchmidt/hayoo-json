@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Moe"
+        "phrase": "Moe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "Combinators",
           "package": "Moe",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "Combinators",
           "package": "Moe",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "MemOp",
           "package": "Moe",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "MemOp",
           "package": "Moe",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "Read",
           "package": "Moe",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "Read",
           "package": "Moe",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "Write",
           "package": "Moe",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "Write",
           "package": "Moe",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "broadcast",
           "package": "Moe",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "broadcast",
           "normalized": "a b-\u003ec-\u003ea(c,b)",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exs:     [x1, x2, x3]\n\u003c/p\u003e\u003cp\u003eInput:  \u003ca\u003e(), (), (), (), (), ...\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eOutput: \u003ca\u003ex1, x2, x3, x1, x2, ...\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "cycle",
           "package": "Moe",
@@ -138,6 +149,7 @@
         "index": {
           "description": "xs x1 x2 x3 Input Output x1 x2 x3 x1 x2",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "cycle",
           "normalized": "[a]-\u003eSF()a",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple integration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "integral",
           "package": "Moe",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Simple integration",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "integral",
           "package": "Moe",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput:  \u003ca\u003eRead, Write x1, Read, ...\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eOutput: \u003ca\u003ex0,   x1,       x1,   ...\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "memory",
           "package": "Moe",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Input Read Write x1 Read Output x0 x1 x1",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "memory",
           "normalized": "a-\u003eSF(MemOp a)a",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput:  \u003ca\u003ei1, i2, ...\u003c/a\u003e (ignored)\n\u003c/p\u003e\u003cp\u003eOutputs a sequence of random generated numbers using g0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "noise",
           "package": "Moe",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Input i1 i2 ignored Outputs sequence of random generated numbers using g0",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "noise",
           "normalized": "a-\u003eSF()b",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput:  \u003ca\u003ei1, i2, ...\u003c/a\u003e (ignored)\n\u003c/p\u003e\u003cp\u003eOutputs a sequence of random generated numbers using g0, with lh\n\u003c/p\u003e\u003cp\u003eindicating the minimum and maximum numbers that are allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "noiseR",
           "package": "Moe",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Input i1 i2 ignored Outputs sequence of random generated numbers using g0 with lh indicating the minimum and maximum numbers that are allowed",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "noiseR",
           "normalized": "(a,a)-\u003eb-\u003eSF()a",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erep n sf = sf \u003e\u003e\u003e sf \u003e\u003e\u003e ... \u003e\u003e\u003e sf (n times)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "rep",
           "package": "Moe",
@@ -261,6 +282,7 @@
         "index": {
           "description": "rep sf sf sf sf times",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "rep",
           "normalized": "Int-\u003eSF a a-\u003eSF a a",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput:  \u003ca\u003ei1, i2, ...\u003c/a\u003e (ignored)\n\u003c/p\u003e\u003cp\u003eOutput: \u003ca\u003ex,  x,  ...\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "sfConst",
           "package": "Moe",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Input i1 i2 ignored Output",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "sfConst",
           "normalized": "a-\u003eSF b a",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput:  \u003ca\u003e(), (), (), ...\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eOutput: \u003ca\u003ex0, f x0, f (f x0), ...\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "stateful",
           "package": "Moe",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Input Output x0 x0 x0",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "stateful",
           "normalized": "(a-\u003ea)-\u003ea-\u003eSF()a",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput:  \u003ca\u003ei1, i2, i3, ...\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eOutput: \u003ca\u003ex0, f x0 i1, f (f x0 i1) i2, ...\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "stateful2",
           "package": "Moe",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Input i1 i2 i3 Output x0 x0 i1 x0 i1 i2",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "stateful2",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSF b a",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput:  \u003ca\u003e(), (), ...\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eOutputs the sequence of the current time at each sample point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "time",
           "package": "Moe",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Input Outputs the sequence of the current time at each sample point",
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "time",
           "normalized": "SF()Double",
@@ -376,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Combinators",
           "name": "timedCycle",
           "package": "Moe",
@@ -385,6 +416,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Combinators",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Combinators",
           "name": "timedCycle",
           "normalized": "[(DTime,a)]-\u003eSF()a",
@@ -400,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "Core",
           "package": "Moe",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "Core",
           "package": "Moe",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "ArrowDelay",
           "package": "Moe",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "ArrowDelay",
           "package": "Moe",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "DTime",
           "package": "Moe",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "DTime",
           "package": "Moe",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "Event",
           "package": "Moe",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "Event",
           "package": "Moe",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSF a b can be seen as a function from [x1, x2, ...] to [y1, y2, ...], in which\n\u003c/p\u003e\u003cp\u003ex1, x2, ... have the type of a, and y1, y2, ... have the type of b. Notice that \n\u003c/p\u003e\u003cp\u003eeach value is in fact a sample of a continuous temporal function of values in \n\u003c/p\u003e\u003cp\u003esome certain time. The time stamps are omitted in most of the comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "SF",
           "package": "Moe",
@@ -494,6 +535,7 @@
         "index": {
           "description": "SF can be seen as function from x1 x2 to y1 y2 in which x1 x2 have the type of and y1 y2 have the type of Notice that each value is in fact sample of continuous temporal function of values in some certain time The time stamps are omitted in most of the comments",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "SF",
           "package": "Moe",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "Event",
           "package": "Moe",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "Event",
           "package": "Moe",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "MkSF",
           "package": "Moe",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "MkSF",
           "package": "Moe",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "NoEvent",
           "package": "Moe",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "NoEvent",
           "package": "Moe",
@@ -574,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:  [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf: [dt1, dt2, ...] (dt_i is the time interval between x_(i-1) and x_i)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "dTime",
           "package": "Moe",
@@ -584,6 +633,7 @@
         "index": {
           "description": "Input of sf x1 x2 Output of sf dt1 dt2 dt is the time interval between i-1 and",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "dTime",
           "normalized": "SF()DTime",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "delay",
           "package": "Moe",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "delay",
           "normalized": "a-\u003eb a a",
@@ -623,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:            [x1, x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf:           [y1, y2, y3, ...]\n\u003c/p\u003e\u003cp\u003eInput of sfe:           [(x1, y1), (x2, y2), (x3, y3), ...]\n\u003c/p\u003e\u003cp\u003eOutput of sfe:          [NoEvent, Event e1, NoEvent, ...]\n\u003c/p\u003e\u003cp\u003eInput of (gen sf3 e1):  [x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput of (gen sf3 e1): [y(sf3,e1)1, y(sf3,e1)2, ...]\n\u003c/p\u003e\u003cp\u003eInput:                  [x1, x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput:                 [y1, y2, y(sf3,e2)2, ...]\n\u003c/p\u003e\u003cp\u003ewhere sf1 = [x1, x2, x3, ...] -- ^\u003e [y1, y2, y3, ...]\n\u003c/p\u003e\u003cp\u003esf2 =     [x2, x3, ...] -- ^\u003e     [y2, y3, ...]\n\u003c/p\u003e\u003cp\u003esf3 =         [x3, ...] -- ^\u003e         [y3, ...]\n\u003c/p\u003e\u003cp\u003e...         \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "dkswitch",
           "package": "Moe",
@@ -633,6 +686,7 @@
         "index": {
           "description": "Input of sf x1 x2 x3 Output of sf y1 y2 y3 Input of sfe x1 y1 x2 y2 x3 y3 Output of sfe NoEvent Event e1 NoEvent Input of gen sf3 e1 x2 x3 Output of gen sf3 e1 sf3 e1 sf3 e1 Input x1 x2 x3 Output y1 y2 sf3 e2 where sf1 x1 x2 x3 y1 y2 y3 sf2 x2 x3 y2 y3 sf3 x3 y3",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "dkswitch",
           "normalized": "SF a b-\u003eSF(a,b)(Event c)-\u003e(SF a b-\u003ec-\u003eSF a b)-\u003eSF a b",
@@ -647,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "dpswitch",
           "package": "Moe",
@@ -656,6 +711,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "dpswitch",
           "normalized": "(a b c-\u003ed e-\u003ed(f,e))-\u003ed(SF f g)-\u003eSF(c,d g)(Event h)-\u003e(d(SF f g)-\u003eh-\u003eSF c(d g))-\u003eSF c(d g)",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:       [x1, x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf:      [(y1, NoEvent), (y2, Event e1), (y3, NoEvent), ...]\n\u003c/p\u003e\u003cp\u003eInput of (gen e):  [x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput of (gen e): [y(e1)1, y(e1)2, ...]\n\u003c/p\u003e\u003cp\u003eInput:             [x1, x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput:            [y1, y2, y(e1)2, ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "dswitch",
           "package": "Moe",
@@ -681,6 +738,7 @@
         "index": {
           "description": "Input of sf x1 x2 x3 Output of sf y1 NoEvent y2 Event e1 y3 NoEvent Input of gen x2 x3 Output of gen e1 e1 Input x1 x2 x3 Output y1 y2 e1",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "dswitch",
           "normalized": "SF a(b,Event c)-\u003e(c-\u003eSF a b)-\u003eSF a b",
@@ -696,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn sf into a stream function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "gen",
           "package": "Moe",
@@ -706,6 +765,7 @@
         "index": {
           "description": "Turn sf into stream function",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "gen",
           "normalized": "SF a b-\u003e[(DTime,a)]-\u003e[b]",
@@ -721,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:            [x1, x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf:           [y1, y2, y3, ...]\n\u003c/p\u003e\u003cp\u003eInput of sfe:           [(x1, y1), (x2, y2), (x3, y3), ...]\n\u003c/p\u003e\u003cp\u003eOutput of sfe:          [NoEvent, Event e1, NoEvent, ...]\n\u003c/p\u003e\u003cp\u003eInput of (gen sf3 e1):  [x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput of (gen sf3 e1): [y(sf3,e1)1, y(sf3,e1)2, ...]\n\u003c/p\u003e\u003cp\u003eInput:                  [x1, x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput:                 [y1, y(sf3,e1)1, y(sf3,e2)2, ...]\n\u003c/p\u003e\u003cp\u003ewhere sf1 = [x1, x2, x3, ...] -- ^\u003e [y1, y2, y3, ...]\n\u003c/p\u003e\u003cp\u003esf2 =     [x2, x3, ...] -- ^\u003e     [y2, y3, ...]\n\u003c/p\u003e\u003cp\u003esf3 =         [x3, ...] -- ^\u003e         [y3, ...]\n\u003c/p\u003e\u003cp\u003e...         \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "kswitch",
           "package": "Moe",
@@ -731,6 +792,7 @@
         "index": {
           "description": "Input of sf x1 x2 x3 Output of sf y1 y2 y3 Input of sfe x1 y1 x2 y2 x3 y3 Output of sfe NoEvent Event e1 NoEvent Input of gen sf3 e1 x2 x3 Output of gen sf3 e1 sf3 e1 sf3 e1 Input x1 x2 x3 Output y1 sf3 e1 sf3 e2 where sf1 x1 x2 x3 y1 y2 y3 sf2 x2 x3 y2 y3 sf3 x3 y3",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "kswitch",
           "normalized": "SF a b-\u003eSF(a,b)(Event c)-\u003e(SF a b-\u003ec-\u003eSF a b)-\u003eSF a b",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the element (x_n) the output [y1, y2, ...] of sf.\n\u003c/p\u003e\u003cp\u003eTime interval is fixed to (dt).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "nth",
           "package": "Moe",
@@ -756,6 +819,7 @@
         "index": {
           "description": "Get the element the output y1 y2 of sf Time interval is fixed to dt",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "nth",
           "normalized": "Int-\u003eDTime-\u003eSF()a-\u003ea",
@@ -770,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "pswitch",
           "package": "Moe",
@@ -779,6 +844,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "pswitch",
           "normalized": "(a b c-\u003ed e-\u003ed(f,e))-\u003ed(SF f g)-\u003eSF(c,d g)(Event h)-\u003e(d(SF f g)-\u003eh-\u003eSF c(d g))-\u003eSF c(d g)",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "runSF",
           "package": "Moe",
@@ -802,6 +869,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "runSF",
           "normalized": "DTime-\u003ea-\u003e(b,SF a b)",
@@ -818,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput: [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput: [f x1, f x2, ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfArr",
           "package": "Moe",
@@ -828,6 +897,7 @@
         "index": {
           "description": "Input x1 x2 Output x1 x2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfArr",
           "normalized": "(a-\u003eb)-\u003eSF a b",
@@ -844,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf1:  [y1, y2, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf1: [z1, z2, ...]\n\u003c/p\u003e\u003cp\u003eInput of sf2:  [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf2: [y1, y2, ...]\n\u003c/p\u003e\u003cp\u003eInput:         [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput:        [z1, z2, ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfComp",
           "package": "Moe",
@@ -854,6 +925,7 @@
         "index": {
           "description": "Input of sf1 y1 y2 Output of sf1 z1 z2 Input of sf2 x1 x2 Output of sf2 y1 y2 Input x1 x2 Output z1 z2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfComp",
           "normalized": "SF a b-\u003eSF c a-\u003eSF c b",
@@ -870,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:  [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf: [x0, x1, x2, ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfDelay",
           "package": "Moe",
@@ -880,6 +953,7 @@
         "index": {
           "description": "Input of sf x1 x2 Output of sf x0 x1 x2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfDelay",
           "normalized": "a-\u003eSF a a",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:  [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf: [y1, y2, ...]\n\u003c/p\u003e\u003cp\u003eInput:        [(x1, z1), (x2, z2), ...]\n\u003c/p\u003e\u003cp\u003eOutput:       [(y1, z1), (y2, z2), ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfFirst",
           "package": "Moe",
@@ -906,6 +981,7 @@
         "index": {
           "description": "Input of sf x1 x2 Output of sf y1 y2 Input x1 z1 x2 z2 Output y1 z1 y2 z2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfFirst",
           "normalized": "SF a b-\u003eSF(a,c)(b,c)",
@@ -922,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput:  [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput: [x1, x2, ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfId",
           "package": "Moe",
@@ -932,6 +1009,7 @@
         "index": {
           "description": "Input x1 x2 Output x1 x2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfId",
           "package": "Moe",
@@ -946,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:  [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf: [y1, y2, ...]\n\u003c/p\u003e\u003cp\u003eInput:        [Left x1, Right z1, Left x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput:       [Left y1, Right z1, Left y2, ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfLeft",
           "package": "Moe",
@@ -956,6 +1035,7 @@
         "index": {
           "description": "Input of sf x1 x2 Output of sf y1 y2 Input Left x1 Right z1 Left x2 Output Left y1 Right z1 Left y2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfLeft",
           "normalized": "SF a b-\u003eSF(Either a c)(Either b c)",
@@ -972,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a signal function that:\n\u003c/p\u003e\u003cp\u003eInput:        [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput:       [y1, y2, ...]\n\u003c/p\u003e\u003cp\u003ewhenever the following property holds for sf:\n\u003c/p\u003e\u003cp\u003eInput of sf:  [(x1, z1), (x2, z2), ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf: [(y1, z1), (y2, z2), ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfLoop",
           "package": "Moe",
@@ -982,6 +1063,7 @@
         "index": {
           "description": "Returns signal function that Input x1 x2 Output y1 y2 whenever the following property holds for sf Input of sf x1 z1 x2 z2 Output of sf y1 z1 y2 z2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfLoop",
           "normalized": "SF(a,b)(c,b)-\u003eSF a c",
@@ -998,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:  [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf: [y1, y2, ...]\n\u003c/p\u003e\u003cp\u003eInput:        [Right x1, Left z1, Right x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput:       [Right y1, Left z2, Right y2, ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfRight",
           "package": "Moe",
@@ -1008,6 +1091,7 @@
         "index": {
           "description": "Input of sf x1 x2 Output of sf y1 y2 Input Right x1 Left z1 Right x2 Output Right y1 Left z2 Right y2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfRight",
           "normalized": "SF a b-\u003eSF(Either c a)(Either c b)",
@@ -1024,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:  [x1, x2, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf: [y1, y2, ...]\n\u003c/p\u003e\u003cp\u003eInput:        [(z1, x1), (z2, x2), ...]\n\u003c/p\u003e\u003cp\u003eOutput:       [(z1, y1), (z2, y2), ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "sfSecond",
           "package": "Moe",
@@ -1034,6 +1119,7 @@
         "index": {
           "description": "Input of sf x1 x2 Output of sf y1 y2 Input z1 x1 z2 x2 Output z1 y1 z2 y2",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "sfSecond",
           "normalized": "SF a b-\u003eSF(c,a)(c,b)",
@@ -1050,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput of sf:       [x1, x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput of sf:      [(y1, NoEvent), (y2, Event e1), (y3, NoEvent), ...]\n\u003c/p\u003e\u003cp\u003eInput of (gen e):  [x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput of (gen e): [y(e1)1, y(e1)2, ...]\n\u003c/p\u003e\u003cp\u003eInput:             [x1, x2, x3, ...]\n\u003c/p\u003e\u003cp\u003eOutput:            [y1, y(e1)1, y(e1)2, ...]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe.Core",
           "name": "switch",
           "package": "Moe",
@@ -1060,6 +1147,7 @@
         "index": {
           "description": "Input of sf x1 x2 x3 Output of sf y1 NoEvent y2 Event e1 y3 NoEvent Input of gen x2 x3 Output of gen e1 e1 Input x1 x2 x3 Output y1 e1 e1",
           "hierarchy": "FRP Moe Core",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe.Core",
           "name": "switch",
           "normalized": "SF a(b,Event c)-\u003e(c-\u003eSF a b)-\u003eSF a b",
@@ -1074,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.Moe",
           "name": "Moe",
           "package": "Moe",
@@ -1082,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "FRP Moe",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.Moe",
           "name": "Moe",
           "package": "Moe",
@@ -1095,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "MoeGLUT",
           "package": "Moe",
@@ -1103,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "MoeGLUT",
           "package": "Moe",
@@ -1116,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "DisplaySetup",
           "package": "Moe",
@@ -1124,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "DisplaySetup",
           "package": "Moe",
@@ -1137,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "Handle",
           "package": "Moe",
@@ -1145,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "Handle",
           "package": "Moe",
@@ -1158,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "Input",
           "package": "Moe",
@@ -1166,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "Input",
           "package": "Moe",
@@ -1179,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "Prog",
           "package": "Moe",
@@ -1187,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "Prog",
           "package": "Moe",
@@ -1200,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "Time",
           "package": "Moe",
@@ -1208,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "Time",
           "package": "Moe",
@@ -1221,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "DisplaySetup",
           "package": "Moe",
@@ -1230,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "DisplaySetup",
           "package": "Moe",
@@ -1243,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "defaultReshape",
           "package": "Moe",
@@ -1252,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "defaultReshape",
           "package": "Moe",
@@ -1265,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "displayColor",
           "package": "Moe",
@@ -1274,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "displayColor",
           "package": "Moe",
@@ -1287,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "displayInit",
           "package": "Moe",
@@ -1296,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "displayInit",
           "normalized": "(String,[String])-\u003eIO()",
@@ -1311,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "displayMode",
           "package": "Moe",
@@ -1320,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "displayMode",
           "normalized": "[DisplayMode]",
@@ -1335,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "displayPosition",
           "package": "Moe",
@@ -1344,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "displayPosition",
           "package": "Moe",
@@ -1357,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "displayReshape",
           "package": "Moe",
@@ -1366,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "displayReshape",
           "package": "Moe",
@@ -1379,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "displaySize",
           "package": "Moe",
@@ -1388,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "displaySize",
           "package": "Moe",
@@ -1401,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "displayTitle",
           "package": "Moe",
@@ -1410,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "displayTitle",
           "package": "Moe",
@@ -1423,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "keyMouse",
           "package": "Moe",
@@ -1432,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "keyMouse",
           "normalized": "Handle a-\u003eKeyboardMouseCallback",
@@ -1447,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "startProg",
           "package": "Moe",
@@ -1456,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "startProg",
           "normalized": "DisplaySetup-\u003eInt-\u003eProg a-\u003ea-\u003e(a-\u003eIO())-\u003eIO()",
@@ -1471,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoeGLUT",
           "name": "timer",
           "package": "Moe",
@@ -1480,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "FRP MoeGLUT",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoeGLUT",
           "name": "timer",
           "normalized": "Handle a-\u003eInt-\u003e(a-\u003eIO())-\u003eIdleCallback",
@@ -1494,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:02 UTC 2014",
           "module": "FRP.MoePure",
           "name": "MoePure",
           "package": "Moe",
@@ -1502,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "FRP MoePure",
+          "indexed": "2014-03-11T16:53:02",
           "module": "FRP.MoePure",
           "name": "MoePure",
           "package": "Moe",

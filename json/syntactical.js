@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "syntactical"
+        "phrase": "syntactical",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe data structures (and associated functions) used in the\n parser. For a normal usage, it should be enough\n to import only \u003ccode\u003eText.Syntactical\u003c/code\u003e, not directly this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Data",
           "package": "syntactical",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The data structures and associated functions used in the parser For normal usage it should be enough to import only Text.Syntactical not directly this module",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Data",
           "package": "syntactical",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Ambiguity",
           "package": "syntactical",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Ambiguity",
           "package": "syntactical",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the associativity of an infix operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Associativity",
           "package": "syntactical",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Specify the associativity of an infix operator",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Associativity",
           "package": "syntactical",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "FindBegin",
           "package": "syntactical",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "FindBegin",
           "package": "syntactical",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "FindBoth",
           "package": "syntactical",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "FindBoth",
           "package": "syntactical",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Hole is used to give various behaviours when dealing\n with internal holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Hole",
           "package": "syntactical",
@@ -137,6 +148,7 @@
         "index": {
           "description": "The Hole is used to give various behaviours when dealing with internal holes",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Hole",
           "package": "syntactical",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operator representation, parametrized by the token type.\n It allows infix, prefix, postfix,\n and closed operators, with possibly multiple internal holes.\n Different holes are possible, to drive the parse in specific ways.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Op",
           "package": "syntactical",
@@ -160,6 +173,7 @@
         "index": {
           "description": "The operator representation parametrized by the token type It allows infix prefix postfix and closed operators with possibly multiple internal holes Different holes are possible to drive the parse in specific ways",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Op",
           "package": "syntactical",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Opening",
           "package": "syntactical",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Opening",
           "package": "syntactical",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Part represent a single symbol of an operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Part",
           "package": "syntactical",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Part represent single symbol of an operator",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Part",
           "package": "syntactical",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Priority",
           "package": "syntactical",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Priority",
           "package": "syntactical",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe s-expression data type used as input and output of the parser.\n The type is parametrized by the type of the token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "SExpr",
           "package": "syntactical",
@@ -248,6 +269,7 @@
         "index": {
           "description": "The s-expression data type used as input and output of the parser The type is parametrized by the type of the token",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "SExpr",
           "package": "syntactical",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the operator table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Table",
           "package": "syntactical",
@@ -271,6 +294,7 @@
         "index": {
           "description": "The type of the operator table",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Table",
           "package": "syntactical",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of the types that can be parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Token",
           "package": "syntactical",
@@ -294,6 +319,7 @@
         "index": {
           "description": "The class of the types that can be parsed",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Token",
           "package": "syntactical",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe s-expression data type augmented to represent parts (used in\n the operator stack).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Tree",
           "package": "syntactical",
@@ -317,6 +344,7 @@
         "index": {
           "description": "The s-expression data type augmented to represent parts used in the operator stack",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Tree",
           "package": "syntactical",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "AmbiguousBegin",
           "package": "syntactical",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "AmbiguousBegin",
           "package": "syntactical",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "BAmbiguous",
           "package": "syntactical",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "BAmbiguous",
           "package": "syntactical",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "BBegin",
           "package": "syntactical",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "BBegin",
           "package": "syntactical",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "BContinue",
           "package": "syntactical",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "BContinue",
           "package": "syntactical",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "BMissingBegin",
           "package": "syntactical",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "BMissingBegin",
           "normalized": "BMissingBegin[[a]]",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "BNothing",
           "package": "syntactical",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "BNothing",
           "package": "syntactical",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Begin",
           "package": "syntactical",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Begin",
           "package": "syntactical",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Branch",
           "package": "syntactical",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Branch",
           "normalized": "Branch[Tree a]",
@@ -558,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "First",
           "package": "syntactical",
@@ -567,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "First",
           "normalized": "First(Maybe(Associativity,Precedence))a[a]Hole",
@@ -582,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Higher",
           "package": "syntactical",
@@ -591,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Higher",
           "package": "syntactical",
@@ -604,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Infix",
           "package": "syntactical",
@@ -613,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Infix",
           "package": "syntactical",
@@ -626,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Last",
           "package": "syntactical",
@@ -635,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Last",
           "package": "syntactical",
@@ -648,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Leaf",
           "package": "syntactical",
@@ -657,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Leaf",
           "package": "syntactical",
@@ -718,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Lone",
           "package": "syntactical",
@@ -727,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Lone",
           "package": "syntactical",
@@ -763,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Lower",
           "package": "syntactical",
@@ -772,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Lower",
           "package": "syntactical",
@@ -785,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Middle",
           "package": "syntactical",
@@ -794,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Middle",
           "normalized": "Middle[a]a[a]Hole",
@@ -832,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "MissingBegin",
           "package": "syntactical",
@@ -841,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "MissingBegin",
           "normalized": "MissingBegin[[a]]",
@@ -879,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "NoBegin",
           "package": "syntactical",
@@ -888,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "NoBegin",
           "package": "syntactical",
@@ -901,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "NoPriority",
           "package": "syntactical",
@@ -910,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "NoPriority",
           "package": "syntactical",
@@ -992,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Op1",
           "package": "syntactical",
@@ -1001,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Op1",
           "normalized": "Op Bool a[(Hole,a)]Opening Precedence",
@@ -1016,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Op2",
           "package": "syntactical",
@@ -1025,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Op2",
           "normalized": "Op Bool a[(Hole,a)]Hole a",
@@ -1040,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Part",
           "package": "syntactical",
@@ -1049,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Part",
           "package": "syntactical",
@@ -1062,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Postfix",
           "package": "syntactical",
@@ -1071,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Postfix",
           "package": "syntactical",
@@ -1084,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "Prefix",
           "package": "syntactical",
@@ -1093,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "Prefix",
           "package": "syntactical",
@@ -1154,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "applicator",
           "package": "syntactical",
@@ -1163,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "applicator",
           "normalized": "Table a-\u003eSExpr a-\u003eBool",
@@ -1177,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "applicator'",
           "package": "syntactical",
@@ -1186,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "applicator'",
           "normalized": "Table a-\u003eTree a-\u003eBool",
@@ -1226,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "begin",
           "package": "syntactical",
@@ -1235,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "begin",
           "normalized": "Part a-\u003eBool",
@@ -1329,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest if two tokens are the same (used to find match from the\n operator table). A default definition that compares the result\n of toString is provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "consider",
           "package": "syntactical",
@@ -1339,6 +1422,7 @@
         "index": {
           "description": "test if two tokens are the same used to find match from the operator table default definition that compares the result of toString is provided",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "consider",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1353,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "continue",
           "package": "syntactical",
@@ -1362,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "continue",
           "normalized": "Part a-\u003ePart a-\u003eBool",
@@ -1403,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate an operator in its different parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "cut",
           "package": "syntactical",
@@ -1413,6 +1500,7 @@
         "index": {
           "description": "Separate an operator in its different parts",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "cut",
           "normalized": "Op a-\u003e[Part a]",
@@ -1427,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "discard",
           "package": "syntactical",
@@ -1436,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "discard",
           "normalized": "Part a-\u003eBool",
@@ -1476,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "end",
           "package": "syntactical",
@@ -1485,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "end",
           "normalized": "Part a-\u003eBool",
@@ -1499,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "findBegin",
           "package": "syntactical",
@@ -1508,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "findBegin",
           "normalized": "Table a-\u003ea-\u003eFindBegin a",
@@ -1523,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "findBoth",
           "package": "syntactical",
@@ -1532,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "findBoth",
           "normalized": "Table a-\u003ea-\u003e[Tree a]-\u003eFindBoth a",
@@ -1599,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "leftOpen",
           "package": "syntactical",
@@ -1608,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "leftOpen",
           "normalized": "Part a-\u003eBool",
@@ -1650,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate an output node from an operator and its arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "operator",
           "package": "syntactical",
@@ -1660,6 +1759,7 @@
         "index": {
           "description": "create an output node from an operator and its arguments",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "operator",
           "normalized": "Op a-\u003e[SExpr a]-\u003eSExpr a",
@@ -1674,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "original",
           "package": "syntactical",
@@ -1683,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "original",
           "normalized": "Part a-\u003eOp a",
@@ -1827,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "priority",
           "package": "syntactical",
@@ -1836,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "priority",
           "normalized": "Part a-\u003ePart a-\u003ePriority",
@@ -1850,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "rightHole",
           "package": "syntactical",
@@ -1859,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "rightHole",
           "normalized": "Part a-\u003eMaybe Hole",
@@ -1874,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "rightOpen",
           "package": "syntactical",
@@ -1883,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "rightOpen",
           "normalized": "Part a-\u003eBool",
@@ -1899,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the precedence of a given operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "setPrecedence",
           "package": "syntactical",
@@ -1909,6 +2018,7 @@
         "index": {
           "description": "Set the precedence of given operator",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "setPrecedence",
           "normalized": "Precedence-\u003eOp a-\u003eOp a",
@@ -1950,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "showPart",
           "package": "syntactical",
@@ -1959,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "showPart",
           "normalized": "Part a-\u003eString",
@@ -2001,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "showTree",
           "package": "syntactical",
@@ -2010,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "showTree",
           "normalized": "Tree a-\u003eString",
@@ -2078,6 +2192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert to a string (for showing purpose)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Data",
           "name": "toString",
           "package": "syntactical",
@@ -2088,6 +2203,7 @@
         "index": {
           "description": "convert to string for showing purpose",
           "hierarchy": "Text Syntactical Data",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Data",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -2104,6 +2220,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe modified Shunting-Yard algorithm. The modifications allow function\n application by juxtaposition (without any paren around the arguments)\n and distfix operators. For a normal usage, it should be enough\n to import only \u003ccode\u003eText.Syntactical\u003c/code\u003e, not directly this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "Yard",
           "package": "syntactical",
@@ -2113,6 +2230,7 @@
         "index": {
           "description": "The modified Shunting-Yard algorithm The modifications allow function application by juxtaposition without any paren around the arguments and distfix operators For normal usage it should be enough to import only Text.Syntactical not directly this module",
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "Yard",
           "package": "syntactical",
@@ -2127,6 +2245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different failure cases the \u003ccode\u003e\u003ca\u003eshunt\u003c/a\u003e\u003c/code\u003e function can return.\n The \u003ccode\u003e\u003ca\u003eshowFailure\u003c/a\u003e\u003c/code\u003e function can be used to give them a textual\n representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "Failure",
           "package": "syntactical",
@@ -2136,6 +2255,7 @@
         "index": {
           "description": "The different failure cases the shunt function can return The showFailure function can be used to give them textual representation",
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "Failure",
           "package": "syntactical",
@@ -2149,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "Rule",
           "package": "syntactical",
@@ -2157,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "Rule",
           "package": "syntactical",
@@ -2170,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "Shunt",
           "package": "syntactical",
@@ -2178,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "Shunt",
           "package": "syntactical",
@@ -2216,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "Application",
           "package": "syntactical",
@@ -2225,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "Application",
           "package": "syntactical",
@@ -2238,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "ApplyOp",
           "package": "syntactical",
@@ -2247,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "ApplyOp",
           "package": "syntactical",
@@ -2260,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "Argument",
           "package": "syntactical",
@@ -2269,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "Argument",
           "package": "syntactical",
@@ -2307,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "ContinueOp",
           "package": "syntactical",
@@ -2316,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "ContinueOp",
           "package": "syntactical",
@@ -2329,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "Done",
           "package": "syntactical",
@@ -2338,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "Done",
           "package": "syntactical",
@@ -2351,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "Initial",
           "package": "syntactical",
@@ -2360,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "Initial",
           "package": "syntactical",
@@ -2373,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "MatchedR",
           "package": "syntactical",
@@ -2382,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "MatchedR",
           "package": "syntactical",
@@ -2524,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "S",
           "package": "syntactical",
@@ -2533,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "S",
           "normalized": "S[SExpr a][Tree a][[SExpr a]](Rule a)",
@@ -2547,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "SExpr",
           "package": "syntactical",
@@ -2556,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "SExpr",
           "package": "syntactical",
@@ -2569,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "StackApp",
           "package": "syntactical",
@@ -2578,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "StackApp",
           "package": "syntactical",
@@ -2591,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "StackL",
           "package": "syntactical",
@@ -2600,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "StackL",
           "package": "syntactical",
@@ -2613,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "StackOp",
           "package": "syntactical",
@@ -2622,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "StackOp",
           "package": "syntactical",
@@ -2660,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "initial",
           "package": "syntactical",
@@ -2669,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "initial",
           "normalized": "[SExpr a]-\u003eShunt a",
@@ -2683,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "isDone",
           "package": "syntactical",
@@ -2692,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "isDone",
           "normalized": "Shunt a-\u003eBool",
@@ -2760,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical.Yard",
           "name": "step",
           "package": "syntactical",
@@ -2769,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical Yard",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical.Yard",
           "name": "step",
           "normalized": "Table a-\u003eShunt a-\u003eShunt a",
@@ -2810,6 +2964,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis convenience module re-exports from \u003ccode\u003eText.Syntactical.Yard\u003c/code\u003e\n and \u003ccode\u003eText.Syntactical.Data\u003c/code\u003e everything a typical usage of Syntactical\n would need.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "Syntactical",
           "package": "syntactical",
@@ -2819,6 +2974,7 @@
         "index": {
           "description": "This convenience module re-exports from Text.Syntactical.Yard and Text.Syntactical.Data everything typical usage of Syntactical would need",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "Syntactical",
           "package": "syntactical",
@@ -2832,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "Ambiguity",
           "package": "syntactical",
@@ -2840,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "Ambiguity",
           "package": "syntactical",
@@ -2854,6 +3012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the associativity of an infix operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "Associativity",
           "package": "syntactical",
@@ -2863,6 +3022,7 @@
         "index": {
           "description": "Specify the associativity of an infix operator",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "Associativity",
           "package": "syntactical",
@@ -2877,6 +3037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different failure cases the \u003ccode\u003e\u003ca\u003eshunt\u003c/a\u003e\u003c/code\u003e function can return.\n The \u003ccode\u003e\u003ca\u003eshowFailure\u003c/a\u003e\u003c/code\u003e function can be used to give them a textual\n representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "Failure",
           "package": "syntactical",
@@ -2886,6 +3047,7 @@
         "index": {
           "description": "The different failure cases the shunt function can return The showFailure function can be used to give them textual representation",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "Failure",
           "package": "syntactical",
@@ -2900,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Hole is used to give various behaviours when dealing\n with internal holes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "Hole",
           "package": "syntactical",
@@ -2909,6 +3072,7 @@
         "index": {
           "description": "The Hole is used to give various behaviours when dealing with internal holes",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "Hole",
           "package": "syntactical",
@@ -2923,6 +3087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operator representation, parametrized by the token type.\n It allows infix, prefix, postfix,\n and closed operators, with possibly multiple internal holes.\n Different holes are possible, to drive the parse in specific ways.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "Op",
           "package": "syntactical",
@@ -2932,6 +3097,7 @@
         "index": {
           "description": "The operator representation parametrized by the token type It allows infix prefix postfix and closed operators with possibly multiple internal holes Different holes are possible to drive the parse in specific ways",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "Op",
           "package": "syntactical",
@@ -2946,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe s-expression data type used as input and output of the parser.\n The type is parametrized by the type of the token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "SExpr",
           "package": "syntactical",
@@ -2955,6 +3122,7 @@
         "index": {
           "description": "The s-expression data type used as input and output of the parser The type is parametrized by the type of the token",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "SExpr",
           "package": "syntactical",
@@ -2969,6 +3137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the operator table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "Table",
           "package": "syntactical",
@@ -2978,6 +3147,7 @@
         "index": {
           "description": "The type of the operator table",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "Table",
           "package": "syntactical",
@@ -2992,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of the types that can be parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "Token",
           "package": "syntactical",
@@ -3001,6 +3172,7 @@
         "index": {
           "description": "The class of the types that can be parsed",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "Token",
           "package": "syntactical",
@@ -3015,6 +3187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest if two tokens are the same (used to find match from the\n operator table). A default definition that compares the result\n of toString is provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "consider",
           "package": "syntactical",
@@ -3025,6 +3198,7 @@
         "index": {
           "description": "test if two tokens are the same used to find match from the operator table default definition that compares the result of toString is provided",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "consider",
           "normalized": "a-\u003ea-\u003eBool",
@@ -3040,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate an output node from an operator and its arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "operator",
           "package": "syntactical",
@@ -3050,6 +3225,7 @@
         "index": {
           "description": "create an output node from an operator and its arguments",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "operator",
           "normalized": "Op a-\u003e[SExpr a]-\u003eSExpr a",
@@ -3065,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert to a string (for showing purpose)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:00 UTC 2014",
           "module": "Text.Syntactical",
           "name": "toString",
           "package": "syntactical",
@@ -3075,6 +3252,7 @@
         "index": {
           "description": "convert to string for showing purpose",
           "hierarchy": "Text Syntactical",
+          "indexed": "2014-03-11T20:15:00",
           "module": "Text.Syntactical",
           "name": "toString",
           "normalized": "a-\u003eString",

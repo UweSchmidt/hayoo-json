@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "buster-network"
+        "phrase": "buster-network",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBehaviours for HTTP requests.  Looks for Events named\n   HTTP/\u003cem\u003eMethodName\u003c/em\u003e with event data of [EString uri, EByteString senddata, EStringL headers] and consumes them.  Produces\n   Events named HTTPResponse with source httpBehaviour/\u003cem\u003eMethodName\u003c/em\u003e and the contents of the response as the event data in a ByteString.\n   They also produce Exceptions with the same source and name ConnectionError if there is no network connection or HTTP Service\n   or HTTPErrorResponseCode if the Server sent back an error code or ParseFailure if the URI didn't parse.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.HTTP",
           "name": "HTTP",
           "package": "buster-network",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Behaviours for HTTP requests Looks for Events named HTTP MethodName with event data of EString uri EByteString senddata EStringL headers and consumes them Produces Events named HTTPResponse with source httpBehaviour MethodName and the contents of the response as the event data in ByteString They also produce Exceptions with the same source and name ConnectionError if there is no network connection or HTTP Service or HTTPErrorResponseCode if the Server sent back an error code or ParseFailure if the URI didn parse",
           "hierarchy": "App Behaviours HTTP",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.HTTP",
           "name": "HTTP",
           "package": "buster-network",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.XmlRpc",
           "name": "XmlRpc",
           "package": "buster-network",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "App Behaviours XmlRpc",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.XmlRpc",
           "name": "XmlRpc",
           "package": "buster-network",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.XmlRpc",
           "name": "edata2value",
           "package": "buster-network",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "App Behaviours XmlRpc",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.XmlRpc",
           "name": "edata2value",
           "normalized": "EData a-\u003eValue",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.XmlRpc",
           "name": "edata2valueNX",
           "package": "buster-network",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "App Behaviours XmlRpc",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.XmlRpc",
           "name": "edata2valueNX",
           "normalized": "EData a-\u003eValue",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.XmlRpc",
           "name": "value2edata",
           "package": "buster-network",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "App Behaviours XmlRpc",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.XmlRpc",
           "name": "value2edata",
           "normalized": "Value-\u003eEData a",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.XmlRpc",
           "name": "xmlrpcMethodBehaviour",
           "package": "buster-network",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "App Behaviours XmlRpc",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.XmlRpc",
           "name": "xmlrpcMethodBehaviour",
           "normalized": "String-\u003eString-\u003eBehaviour[EData a]",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.XmlRpc",
           "name": "xmlrpcMethodBehaviourNX",
           "package": "buster-network",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "App Behaviours XmlRpc",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.XmlRpc",
           "name": "xmlrpcMethodBehaviourNX",
           "normalized": "String-\u003eString-\u003eBehaviour[EData a]",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.XmlRpc",
           "name": "xmlrpcServiceBehaviour",
           "package": "buster-network",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "App Behaviours XmlRpc",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.XmlRpc",
           "name": "xmlrpcServiceBehaviour",
           "normalized": "String-\u003eBehaviour[EData a]",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:15 UTC 2014",
           "module": "App.Behaviours.XmlRpc",
           "name": "xmlrpcServiceBehaviourNX",
           "package": "buster-network",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "App Behaviours XmlRpc",
+          "indexed": "2014-03-11T17:26:15",
           "module": "App.Behaviours.XmlRpc",
           "name": "xmlrpcServiceBehaviourNX",
           "normalized": "String-\u003eBehaviour[EData a]",

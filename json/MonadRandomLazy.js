@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MonadRandomLazy"
+        "phrase": "MonadRandomLazy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLicense : BSD3\n\u003c/p\u003e\u003cp\u003eA lazy monad for random-number generation.  This monad allows, for example,\ncomputation of infinite random lists.\n\u003c/p\u003e\u003cp\u003eThis monad respects the interface defined by \n\u003ccode\u003e\u003ca\u003eMonadRandom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA monadic computation is one that consumes random values.\nThe bind operation works like the \u003ccode\u003eGen\u003c/code\u003e monad in \u003ccode\u003e\u003ca\u003eQuickCheck\u003c/a\u003e\u003c/code\u003e:\nit does not thread the random seed; instead it *splits* the random seed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:53:23 UTC 2014",
           "module": "Control.Monad.LazyRandom",
           "name": "LazyRandom",
           "package": "MonadRandomLazy",
@@ -28,6 +29,7 @@
         "index": {
           "description": "License BSD3 lazy monad for random-number generation This monad allows for example computation of infinite random lists This monad respects the interface defined by MonadRandom monadic computation is one that consumes random values The bind operation works like the Gen monad in QuickCheck it does not thread the random seed instead it splits the random seed",
           "hierarchy": "Control Monad LazyRandom",
+          "indexed": "2014-03-11T16:53:23",
           "module": "Control.Monad.LazyRandom",
           "name": "LazyRandom",
           "package": "MonadRandomLazy",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:23 UTC 2014",
           "module": "Control.Monad.LazyRandom",
           "name": "Rand",
           "package": "MonadRandomLazy",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LazyRandom",
+          "indexed": "2014-03-11T16:53:23",
           "module": "Control.Monad.LazyRandom",
           "name": "Rand",
           "package": "MonadRandomLazy",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a random computation using the generator \u003ccode\u003eg\u003c/code\u003e.  The\n new \u003ccode\u003eg\u003c/code\u003e is discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:23 UTC 2014",
           "module": "Control.Monad.LazyRandom",
           "name": "evalRand",
           "package": "MonadRandomLazy",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Evaluate random computation using the generator The new is discarded",
           "hierarchy": "Control Monad LazyRandom",
+          "indexed": "2014-03-11T16:53:23",
           "module": "Control.Monad.LazyRandom",
           "name": "evalRand",
           "normalized": "Rand a b-\u003ea-\u003eb",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a random computation in the IO monad, using the random number\n generator supplied by \u003ccode\u003e\u003ca\u003egetStdRandom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:23 UTC 2014",
           "module": "Control.Monad.LazyRandom",
           "name": "evalRandIO",
           "package": "MonadRandomLazy",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Evaluate random computation in the IO monad using the random number generator supplied by getStdRandom",
           "hierarchy": "Control Monad LazyRandom",
+          "indexed": "2014-03-11T16:53:23",
           "module": "Control.Monad.LazyRandom",
           "name": "evalRandIO",
           "normalized": "Rand StdGen a-\u003eIO a",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a random computation using the generator \u003ccode\u003eg\u003c/code\u003e, returning the result\n and a new generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:23 UTC 2014",
           "module": "Control.Monad.LazyRandom",
           "name": "runRand",
           "package": "MonadRandomLazy",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Run random computation using the generator returning the result and new generator",
           "hierarchy": "Control Monad LazyRandom",
+          "indexed": "2014-03-11T16:53:23",
           "module": "Control.Monad.LazyRandom",
           "name": "runRand",
           "normalized": "Rand a b-\u003ea-\u003e(b,a)",

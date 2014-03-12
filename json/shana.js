@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shana"
+        "phrase": "shana",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.DSL.Shell",
           "name": "Shell",
           "package": "shana",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Shana DSL Shell",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.DSL.Shell",
           "name": "Shell",
           "package": "shana",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.DSL.Shell",
           "name": "grep",
           "package": "shana",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Shana DSL Shell",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.DSL.Shell",
           "name": "grep",
           "normalized": "String-\u003eShana String String",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.DSL.Shell",
           "name": "ls",
           "package": "shana",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Shana DSL Shell",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.DSL.Shell",
           "name": "ls",
           "normalized": "String-\u003eShana String String",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Type",
           "name": "Type",
           "package": "shana",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Shana Type",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Type",
           "name": "Type",
           "package": "shana",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Type",
           "name": "Shana",
           "package": "shana",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "System Shana Type",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Type",
           "name": "Shana",
           "package": "shana",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Type",
           "name": "Shana",
           "package": "shana",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "System Shana Type",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Type",
           "name": "Shana",
           "package": "shana",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Type",
           "name": "runShana",
           "package": "shana",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "System Shana Type",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Type",
           "name": "runShana",
           "normalized": "a-\u003eIO[b]",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Utils",
           "name": "Utils",
           "package": "shana",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "System Shana Utils",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Utils",
           "name": "Utils",
           "package": "shana",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Utils",
           "name": "(-)",
           "package": "shana",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "System Shana Utils",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Utils",
           "name": "(-) -",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Utils",
           "name": "(\u003c)",
           "package": "shana",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "System Shana Utils",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Utils",
           "name": "(\u003c) \u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Utils",
           "name": "(\u003c|\u003e)",
           "package": "shana",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "System Shana Utils",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Utils",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "(a-\u003eIO[b])-\u003e(b-\u003eIO[c])-\u003ea-\u003eIO[c]",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Utils",
           "name": "(\u003e)",
           "package": "shana",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "System Shana Utils",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Utils",
           "name": "(\u003e) \u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Utils",
           "name": "(^)",
           "package": "shana",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "System Shana Utils",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Utils",
           "name": "(^) ^",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Utils",
           "name": "(.)",
           "package": "shana",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "System Shana Utils",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Utils",
           "name": "(.) .",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana.Utils",
           "name": "shana",
           "package": "shana",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "System Shana Utils",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana.Utils",
           "name": "shana",
           "normalized": "Shana String a-\u003eIO[a]",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:15 UTC 2014",
           "module": "System.Shana",
           "name": "Shana",
           "package": "shana",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "System Shana",
+          "indexed": "2014-03-11T20:01:15",
           "module": "System.Shana",
           "name": "Shana",
           "package": "shana",

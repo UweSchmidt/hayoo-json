@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "html-conduit"
+        "phrase": "html-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:40 UTC 2014",
           "module": "Text.HTML.DOM",
           "name": "DOM",
           "package": "html-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML DOM",
+          "indexed": "2014-03-11T18:51:40",
           "module": "Text.HTML.DOM",
           "name": "DOM",
           "package": "html-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a stream of bytes to a stream of properly balanced \u003ccode\u003eEvent\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eNote that there may be multiple (or not) root elements. \u003ccode\u003esinkDoc\u003c/code\u003e addresses\n that case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:40 UTC 2014",
           "module": "Text.HTML.DOM",
           "name": "eventConduit",
           "package": "html-conduit",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Converts stream of bytes to stream of properly balanced Event Note that there may be multiple or not root elements sinkDoc addresses that case",
           "hierarchy": "Text HTML DOM",
+          "indexed": "2014-03-11T18:51:40",
           "module": "Text.HTML.DOM",
           "name": "eventConduit",
           "package": "html-conduit",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:40 UTC 2014",
           "module": "Text.HTML.DOM",
           "name": "parseLBS",
           "package": "html-conduit",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text HTML DOM",
+          "indexed": "2014-03-11T18:51:40",
           "module": "Text.HTML.DOM",
           "name": "parseLBS",
           "normalized": "ByteString-\u003eDocument",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:40 UTC 2014",
           "module": "Text.HTML.DOM",
           "name": "readFile",
           "package": "html-conduit",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text HTML DOM",
+          "indexed": "2014-03-11T18:51:40",
           "module": "Text.HTML.DOM",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO Document",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:40 UTC 2014",
           "module": "Text.HTML.DOM",
           "name": "sinkDoc",
           "package": "html-conduit",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Text HTML DOM",
+          "indexed": "2014-03-11T18:51:40",
           "module": "Text.HTML.DOM",
           "name": "sinkDoc",
           "package": "html-conduit",

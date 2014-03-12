@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ConfigFile"
+        "phrase": "ConfigFile",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "Monadic",
           "package": "ConfigFile",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "Monadic",
           "package": "ConfigFile",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "add_section",
           "package": "ConfigFile",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "add_section",
           "normalized": "SectionSpec-\u003eConfigParser-\u003ea ConfigParser",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "has_option",
           "package": "ConfigFile",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "has_option",
           "normalized": "SectionSpec-\u003eOptionSpec-\u003eConfigParser-\u003eBool",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "has_section",
           "package": "ConfigFile",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "has_section",
           "normalized": "SectionSpec-\u003eConfigParser-\u003eBool",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "interpolatingAccess",
           "package": "ConfigFile",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "interpolatingAccess",
           "normalized": "Int-\u003eSectionSpec-\u003eOptionSpec-\u003eConfigParser-\u003ea String",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "items",
           "package": "ConfigFile",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "items",
           "normalized": "SectionSpec-\u003eConfigParser-\u003ea[(OptionSpec,String)]",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "options",
           "package": "ConfigFile",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "options",
           "normalized": "SectionSpec-\u003eConfigParser-\u003ea[OptionSpec]",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "readfile",
           "package": "ConfigFile",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "readfile",
           "normalized": "FilePath-\u003eConfigParser-\u003eIO(a ConfigParser)",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "readhandle",
           "package": "ConfigFile",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "readhandle",
           "normalized": "Handle-\u003eConfigParser-\u003eIO(a ConfigParser)",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "readstring",
           "package": "ConfigFile",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "readstring",
           "normalized": "String-\u003eConfigParser-\u003ea ConfigParser",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "remove_option",
           "package": "ConfigFile",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "remove_option",
           "normalized": "SectionSpec-\u003eOptionSpec-\u003eConfigParser-\u003ea ConfigParser",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "remove_section",
           "package": "ConfigFile",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "remove_section",
           "normalized": "SectionSpec-\u003eConfigParser-\u003ea ConfigParser",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "set",
           "package": "ConfigFile",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "set",
           "normalized": "SectionSpec-\u003eOptionSpec-\u003eString-\u003eConfigParser-\u003ea ConfigParser",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "setshow",
           "package": "ConfigFile",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "setshow",
           "normalized": "SectionSpec-\u003eOptionSpec-\u003ea-\u003eConfigParser-\u003eb ConfigParser",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Monadic",
           "name": "simpleAccess",
           "package": "ConfigFile",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Monadic",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Monadic",
           "name": "simpleAccess",
           "normalized": "SectionSpec-\u003eOptionSpec-\u003eConfigParser-\u003ea String",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser support for \u003ca\u003eData.ConfigFile\u003c/a\u003e.  This module is not intended to be\nused directly by your programs.\n\u003c/p\u003e\u003cp\u003eCopyright (c) 2004-2008 John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Parser",
           "name": "Parser",
           "package": "ConfigFile",
@@ -373,6 +404,7 @@
         "index": {
           "description": "Parser support for Data.ConfigFile This module is not intended to be used directly by your programs Copyright John Goerzen jgoerzen@complete.org",
           "hierarchy": "Data ConfigFile Parser",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Parser",
           "name": "Parser",
           "package": "ConfigFile",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal output from parser \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Parser",
           "name": "ParseOutput",
           "package": "ConfigFile",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Internal output from parser",
           "hierarchy": "Data ConfigFile Parser",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Parser",
           "name": "ParseOutput",
           "package": "ConfigFile",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Parser",
           "name": "interpmain",
           "package": "ConfigFile",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Parser",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Parser",
           "name": "interpmain",
           "normalized": "(String-\u003eEither CPError String)-\u003eParser String",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Parser",
           "name": "parse_file",
           "package": "ConfigFile",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Parser",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Parser",
           "name": "parse_file",
           "normalized": "FilePath-\u003eIO(a ParseOutput)",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Parser",
           "name": "parse_handle",
           "package": "ConfigFile",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Parser",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Parser",
           "name": "parse_handle",
           "normalized": "Handle-\u003eIO(a ParseOutput)",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Parser",
           "name": "parse_string",
           "package": "ConfigFile",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data ConfigFile Parser",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Parser",
           "name": "parse_string",
           "normalized": "String-\u003ea ParseOutput",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal types for \u003ca\u003eData.ConfigFile\u003c/a\u003e.  This module is not intended to be\nused directly by your programs.\n\u003c/p\u003e\u003cp\u003eCopyright (c) 2004-2008 John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "Types",
           "package": "ConfigFile",
@@ -511,6 +554,7 @@
         "index": {
           "description": "Internal types for Data.ConfigFile This module is not intended to be used directly by your programs Copyright John Goerzen jgoerzen@complete.org",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "Types",
           "package": "ConfigFile",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main data storage type (storage of sections).\n\u003c/p\u003e\u003cp\u003ePLEASE NOTE: This type is exported only for use by other modules under\nData.ConfigFile.  You should NEVER access the FiniteMap in a ConfigParser\ndirectly.  This type may change in future releases of MissingH, which could\nbreak your programs.  Please retrict yourself to the interface in\n\u003ccode\u003eData.ConfigFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "CPData",
           "package": "ConfigFile",
@@ -534,6 +579,7 @@
         "index": {
           "description": "The main data storage type storage of sections PLEASE NOTE This type is exported only for use by other modules under Data.ConfigFile You should NEVER access the FiniteMap in ConfigParser directly This type may change in future releases of MissingH which could break your programs Please retrict yourself to the interface in Data.ConfigFile",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "CPData",
           "package": "ConfigFile",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates an error occurred.  The String is an explanation of the location\nof the error. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "CPError",
           "package": "ConfigFile",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Indicates an error occurred The String is an explanation of the location of the error",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "CPError",
           "package": "ConfigFile",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible ConfigParser errors. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "CPErrorData",
           "package": "ConfigFile",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Possible ConfigParser errors",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "CPErrorData",
           "package": "ConfigFile",
@@ -594,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStorage of options. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "CPOptions",
           "package": "ConfigFile",
@@ -603,6 +654,7 @@
         "index": {
           "description": "Storage of options",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "CPOptions",
           "package": "ConfigFile",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the main record that is used by \u003ccode\u003eData.ConfigFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "ConfigParser",
           "package": "ConfigFile",
@@ -626,6 +679,7 @@
         "index": {
           "description": "This is the main record that is used by Data.ConfigFile",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "ConfigParser",
           "package": "ConfigFile",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of options \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "OptionSpec",
           "package": "ConfigFile",
@@ -649,6 +704,7 @@
         "index": {
           "description": "Names of options",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "OptionSpec",
           "package": "ConfigFile",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal output from parser \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "ParseOutput",
           "package": "ConfigFile",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Internal output from parser",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "ParseOutput",
           "package": "ConfigFile",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of sections \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile.Types",
           "name": "SectionSpec",
           "package": "ConfigFile",
@@ -695,6 +754,7 @@
         "index": {
           "description": "Names of sections",
           "hierarchy": "Data ConfigFile Types",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile.Types",
           "name": "SectionSpec",
           "package": "ConfigFile",
@@ -1008,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConfiguration file parsing, generation, and manipulation\n\u003c/p\u003e\u003cp\u003eCopyright (c) 2004-2008 John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eThis module contains extensive documentation.  Please scroll down to the Introduction section to continue reading.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "ConfigFile",
           "package": "ConfigFile",
@@ -1017,6 +1078,7 @@
         "index": {
           "description": "Configuration file parsing generation and manipulation Copyright John Goerzen jgoerzen@complete.org This module contains extensive documentation Please scroll down to the Introduction section to continue reading",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "ConfigFile",
           "package": "ConfigFile",
@@ -1031,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates an error occurred.  The String is an explanation of the location\nof the error. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "CPError",
           "package": "ConfigFile",
@@ -1040,6 +1103,7 @@
         "index": {
           "description": "Indicates an error occurred The String is an explanation of the location of the error",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "CPError",
           "package": "ConfigFile",
@@ -1054,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible ConfigParser errors. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "CPErrorData",
           "package": "ConfigFile",
@@ -1063,6 +1128,7 @@
         "index": {
           "description": "Possible ConfigParser errors",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "CPErrorData",
           "package": "ConfigFile",
@@ -1077,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the main record that is used by \u003ccode\u003eData.ConfigFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "ConfigParser",
           "package": "ConfigFile",
@@ -1086,6 +1153,7 @@
         "index": {
           "description": "This is the main record that is used by Data.ConfigFile",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "ConfigParser",
           "package": "ConfigFile",
@@ -1100,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class representing the data types that can be returned by \u003ca\u003eget\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "Get_C",
           "package": "ConfigFile",
@@ -1109,6 +1178,7 @@
         "index": {
           "description": "The class representing the data types that can be returned by get",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "Get_C",
           "package": "ConfigFile",
@@ -1123,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of options \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "OptionSpec",
           "package": "ConfigFile",
@@ -1132,6 +1203,7 @@
         "index": {
           "description": "Names of options",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "OptionSpec",
           "package": "ConfigFile",
@@ -1146,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of sections \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "SectionSpec",
           "package": "ConfigFile",
@@ -1155,6 +1228,7 @@
         "index": {
           "description": "Names of sections",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "SectionSpec",
           "package": "ConfigFile",
@@ -1169,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the specified section name.  Returns a\n\u003ccode\u003e\u003ca\u003eSectionAlreadyExists\u003c/a\u003e\u003c/code\u003e error if the\nsection was already present.  Otherwise, returns the new\n\u003ccode\u003e\u003ca\u003eConfigParser\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "add_section",
           "package": "ConfigFile",
@@ -1179,6 +1254,7 @@
         "index": {
           "description": "Adds the specified section name Returns SectionAlreadyExists error if the section was already present Otherwise returns the new ConfigParser object",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "add_section",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003ea ConfigParser",
@@ -1194,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default empty \u003ccode\u003eData.ConfigFile\u003c/code\u003e object.\n\u003c/p\u003e\u003cp\u003eThe content contains only an empty mandatory \u003ccode\u003eDEFAULT\u003c/code\u003e section.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eoptionxform\u003c/a\u003e\u003c/code\u003e is set to \u003ccode\u003emap toLower\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eusedefault\u003c/a\u003e\u003c/code\u003e is set to \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eaccessfunc\u003c/a\u003e\u003c/code\u003e is set to \u003ccode\u003e\u003ca\u003esimpleAccess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "emptyCP",
           "package": "ConfigFile",
@@ -1204,6 +1281,7 @@
         "index": {
           "description": "The default empty Data.ConfigFile object The content contains only an empty mandatory DEFAULT section optionxform is set to map toLower usedefault is set to True accessfunc is set to simpleAccess",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "emptyCP",
           "package": "ConfigFile",
@@ -1218,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves a string from the configuration file.\n\u003c/p\u003e\u003cp\u003eWhen used in a context where a String is expected, returns that string verbatim.\n\u003c/p\u003e\u003cp\u003eWhen used in a context where a Bool is expected, parses the string to\na Boolean value (see logic below).\n\u003c/p\u003e\u003cp\u003eWhen used in a context where anything that is an instance of Read is expected,\ncalls read to parse the item.\n\u003c/p\u003e\u003cp\u003eAn error will be returned of no such option could be found or if it could\nnot be parsed as a boolean (when returning a Bool).\n\u003c/p\u003e\u003cp\u003eWhen parsing to a Bool, strings are case-insentively converted as follows:\n\u003c/p\u003e\u003cp\u003eThe following will produce a True value:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1\n\u003c/li\u003e\u003cli\u003e yes\n\u003c/li\u003e\u003cli\u003e on\n\u003c/li\u003e\u003cli\u003e enabled\n\u003c/li\u003e\u003cli\u003e true\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe following will produce a False value:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 0\n\u003c/li\u003e\u003cli\u003e no\n\u003c/li\u003e\u003cli\u003e off\n\u003c/li\u003e\u003cli\u003e disabled\n\u003c/li\u003e\u003cli\u003e false \n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "get",
           "package": "ConfigFile",
@@ -1228,6 +1307,7 @@
         "index": {
           "description": "Retrieves string from the configuration file When used in context where String is expected returns that string verbatim When used in context where Bool is expected parses the string to Boolean value see logic below When used in context where anything that is an instance of Read is expected calls read to parse the item An error will be returned of no such option could be found or if it could not be parsed as boolean when returning Bool When parsing to Bool strings are case-insentively converted as follows The following will produce True value yes on enabled true The following will produce False value no off disabled false",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "get",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003eOptionSpec-\u003ea b",
@@ -1243,6 +1323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the given option is present.  Returns True\nonly if the given section is present AND the given option is present\nin that section.  No special \u003ccode\u003eDEFAULT\u003c/code\u003e processing is done.  No\nexception could be raised or error returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "has_option",
           "package": "ConfigFile",
@@ -1253,6 +1334,7 @@
         "index": {
           "description": "Indicates whether the given option is present Returns True only if the given section is present AND the given option is present in that section No special DEFAULT processing is done No exception could be raised or error returned",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "has_option",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003eOptionSpec-\u003eBool",
@@ -1268,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the given section exists.\n\u003c/p\u003e\u003cp\u003eNo special \u003ccode\u003eDEFAULT\u003c/code\u003e processing is done. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "has_section",
           "package": "ConfigFile",
@@ -1278,6 +1361,7 @@
         "index": {
           "description": "Indicates whether the given section exists No special DEFAULT processing is done",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "has_section",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003eBool",
@@ -1293,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpolating access function.  Please see the Interpolation section\nabove for a background on interpolation.\n\u003c/p\u003e\u003cp\u003eAlthough the format string looks similar to one used by \u003ca\u003eText.Printf\u003c/a\u003e,\nit is not the same.  In particular, only the %(...)s format is supported.\nNo width specifiers are supported and no conversions other than s are supported.\n\u003c/p\u003e\u003cp\u003eTo use this function, you must specify a maximum recursion depth for\ninterpolation.  This is used to prevent a stack overflow in the event that\nthe configuration file contains an endless interpolation loop.  Values of 10\nor so are usually more than enough, though you could probably go into the\nhundreds or thousands before you have actual problems.\n\u003c/p\u003e\u003cp\u003eA value less than one will cause an instant error every time you attempt\na lookup.\n\u003c/p\u003e\u003cp\u003eThis access method can cause \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e and friends to return a new \u003ccode\u003e\u003ca\u003eCPError\u003c/a\u003e\u003c/code\u003e:\n\u003ccode\u003e\u003ca\u003eInterpolationError\u003c/a\u003e\u003c/code\u003e.  This error would be returned when:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The configuration file makes a reference to an option that does\n   not exist\n\u003c/li\u003e\u003cli\u003e The maximum interpolation depth is exceeded\n\u003c/li\u003e\u003cli\u003e There is a syntax error processing a %-directive in the configuration\n   file\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAn interpolation lookup name specifies an option only.  There is no provision\nto specify a section.  Interpolation variables are looked up in the current\nsection, and, if \u003ccode\u003e\u003ca\u003eusedefault\u003c/a\u003e\u003c/code\u003e is True, in \u003ccode\u003eDEFAULT\u003c/code\u003e according to the normal\nlogic.\n\u003c/p\u003e\u003cp\u003eTo use a literal percent sign, you must place \u003ccode\u003e%%\u003c/code\u003e in the configuration\nfile when interpolation is used.\n\u003c/p\u003e\u003cp\u003eHere is how you might enable interpolation:\n\u003c/p\u003e\u003cpre\u003elet cp2 = cp {accessfunc = interpolatingAccess 10}\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003ecp2\u003c/code\u003e object will now support interpolation with a maximum depth of 10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "interpolatingAccess",
           "package": "ConfigFile",
@@ -1303,6 +1388,7 @@
         "index": {
           "description": "Interpolating access function Please see the Interpolation section above for background on interpolation Although the format string looks similar to one used by Text.Printf it is not the same In particular only the format is supported No width specifiers are supported and no conversions other than are supported To use this function you must specify maximum recursion depth for interpolation This is used to prevent stack overflow in the event that the configuration file contains an endless interpolation loop Values of or so are usually more than enough though you could probably go into the hundreds or thousands before you have actual problems value less than one will cause an instant error every time you attempt lookup This access method can cause get and friends to return new CPError InterpolationError This error would be returned when The configuration file makes reference to an option that does not exist The maximum interpolation depth is exceeded There is syntax error processing directive in the configuration file An interpolation lookup name specifies an option only There is no provision to specify section Interpolation variables are looked up in the current section and if usedefault is True in DEFAULT according to the normal logic To use literal percent sign you must place in the configuration file when interpolation is used Here is how you might enable interpolation let cp2 cp accessfunc interpolatingAccess The cp2 object will now support interpolation with maximum depth of",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "interpolatingAccess",
           "normalized": "Int-\u003eConfigParser-\u003eSectionSpec-\u003eOptionSpec-\u003ea String",
@@ -1319,6 +1405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of \u003ccode\u003e(optionname, value)\u003c/code\u003e pairs representing the content\nof the given section.  Returns an error the section is invalid. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "items",
           "package": "ConfigFile",
@@ -1329,6 +1416,7 @@
         "index": {
           "description": "Returns list of optionname value pairs representing the content of the given section Returns an error the section is invalid",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "items",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003ea[(OptionSpec,String)]",
@@ -1344,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines two \u003ccode\u003e\u003ca\u003eConfigParser\u003c/a\u003e\u003c/code\u003es into one.\n\u003c/p\u003e\u003cp\u003eAny duplicate options are resolved to contain the value specified in\nthe second parser.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eConfigParser\u003c/a\u003e\u003c/code\u003e options in the resulting object will be set as they\nare in the second one passed to this function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "merge",
           "package": "ConfigFile",
@@ -1354,6 +1443,7 @@
         "index": {
           "description": "Combines two ConfigParser into one Any duplicate options are resolved to contain the value specified in the second parser The ConfigParser options in the resulting object will be set as they are in the second one passed to this function",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "merge",
           "normalized": "ConfigParser-\u003eConfigParser-\u003eConfigParser",
@@ -1369,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of the names of all the options present in the\ngiven section.\n\u003c/p\u003e\u003cp\u003eReturns an error if the given section does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "options",
           "package": "ConfigFile",
@@ -1379,6 +1470,7 @@
         "index": {
           "description": "Returns list of the names of all the options present in the given section Returns an error if the given section does not exist",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "options",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003ea[OptionSpec]",
@@ -1394,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads data from the specified file.  It is then combined with the\ngiven \u003ccode\u003e\u003ca\u003eConfigParser\u003c/a\u003e\u003c/code\u003e using the semantics documented under \u003ccode\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/code\u003e with the\nnew data taking precedence over the old.  However, unlike\n\u003ccode\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/code\u003e, all the options\nas set in the old object are preserved since the on-disk representation\ndoes not convey those options.\n\u003c/p\u003e\u003cp\u003eMay return an error if there is a syntax error.  May raise an exception if the file could not be accessed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "readfile",
           "package": "ConfigFile",
@@ -1404,6 +1497,7 @@
         "index": {
           "description": "Loads data from the specified file It is then combined with the given ConfigParser using the semantics documented under merge with the new data taking precedence over the old However unlike merge all the options as set in the old object are preserved since the on-disk representation does not convey those options May return an error if there is syntax error May raise an exception if the file could not be accessed",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "readfile",
           "normalized": "ConfigParser-\u003eFilePath-\u003eIO(a ConfigParser)",
@@ -1419,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereadfile\u003c/a\u003e\u003c/code\u003e, but uses an already-open handle.  You should\nuse \u003ccode\u003e\u003ca\u003ereadfile\u003c/a\u003e\u003c/code\u003e instead of this if possible, since it will be able to\ngenerate better error messages.\n\u003c/p\u003e\u003cp\u003eErrors would be returned on a syntax error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "readhandle",
           "package": "ConfigFile",
@@ -1429,6 +1524,7 @@
         "index": {
           "description": "Like readfile but uses an already-open handle You should use readfile instead of this if possible since it will be able to generate better error messages Errors would be returned on syntax error",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "readhandle",
           "normalized": "ConfigParser-\u003eHandle-\u003eIO(a ConfigParser)",
@@ -1444,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereadfile\u003c/a\u003e\u003c/code\u003e, but uses a string.  You should use \u003ccode\u003e\u003ca\u003ereadfile\u003c/a\u003e\u003c/code\u003e\ninstead of this if you are processing a file, since it can generate\nbetter error messages.\n\u003c/p\u003e\u003cp\u003eErrors would be returned on a syntax error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "readstring",
           "package": "ConfigFile",
@@ -1454,6 +1551,7 @@
         "index": {
           "description": "Like readfile but uses string You should use readfile instead of this if you are processing file since it can generate better error messages Errors would be returned on syntax error",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "readstring",
           "normalized": "ConfigParser-\u003eString-\u003ea ConfigParser",
@@ -1469,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the specified option.  Returns a \u003ccode\u003e\u003ca\u003eNoSection\u003c/a\u003e\u003c/code\u003e error if the\nsection does not exist and a \u003ccode\u003e\u003ca\u003eNoOption\u003c/a\u003e\u003c/code\u003e error if the option does not\nexist.  Otherwise, returns the new \u003ccode\u003e\u003ca\u003eConfigParser\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "remove_option",
           "package": "ConfigFile",
@@ -1479,6 +1578,7 @@
         "index": {
           "description": "Removes the specified option Returns NoSection error if the section does not exist and NoOption error if the option does not exist Otherwise returns the new ConfigParser object",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "remove_option",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003eOptionSpec-\u003ea ConfigParser",
@@ -1494,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the specified section.  Returns a \u003ccode\u003e\u003ca\u003eNoSection\u003c/a\u003e\u003c/code\u003e error if\nthe section does not exist; otherwise, returns the new \u003ccode\u003e\u003ca\u003eConfigParser\u003c/a\u003e\u003c/code\u003e\nobject.\n\u003c/p\u003e\u003cp\u003eThis call may not be used to remove the \u003ccode\u003eDEFAULT\u003c/code\u003e section.  Attempting to do\nso will always cause a \u003ccode\u003e\u003ca\u003eNoSection\u003c/a\u003e\u003c/code\u003e error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "remove_section",
           "package": "ConfigFile",
@@ -1504,6 +1605,7 @@
         "index": {
           "description": "Removes the specified section Returns NoSection error if the section does not exist otherwise returns the new ConfigParser object This call may not be used to remove the DEFAULT section Attempting to do so will always cause NoSection error",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "remove_section",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003ea ConfigParser",
@@ -1519,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of sections in your configuration file.  Never includes\nthe always-present section \u003ccode\u003eDEFAULT\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "sections",
           "package": "ConfigFile",
@@ -1529,6 +1632,7 @@
         "index": {
           "description": "Returns list of sections in your configuration file Never includes the always-present section DEFAULT",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "sections",
           "normalized": "ConfigParser-\u003e[SectionSpec]",
@@ -1544,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the option to a new value, replacing an existing one if it exists.\n\u003c/p\u003e\u003cp\u003eReturns an error if the section does not exist. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "set",
           "package": "ConfigFile",
@@ -1554,6 +1659,7 @@
         "index": {
           "description": "Sets the option to new value replacing an existing one if it exists Returns an error if the section does not exist",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "set",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003eOptionSpec-\u003eString-\u003ea ConfigParser",
@@ -1569,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the option to a new value, replacing an existing one if it exists.\nIt requires only a showable value as its parameter.\nThis can be used with bool values, as well as numeric ones.\n\u003c/p\u003e\u003cp\u003eReturns an error if the section does not exist. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "setshow",
           "package": "ConfigFile",
@@ -1579,6 +1686,7 @@
         "index": {
           "description": "Sets the option to new value replacing an existing one if it exists It requires only showable value as its parameter This can be used with bool values as well as numeric ones Returns an error if the section does not exist",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "setshow",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003eOptionSpec-\u003ea-\u003eb ConfigParser",
@@ -1594,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault (non-interpolating) access function \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "simpleAccess",
           "package": "ConfigFile",
@@ -1604,6 +1713,7 @@
         "index": {
           "description": "Default non-interpolating access function",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "simpleAccess",
           "normalized": "ConfigParser-\u003eSectionSpec-\u003eOptionSpec-\u003ea String",
@@ -1620,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the \u003ccode\u003e\u003ca\u003eConfigParser\u003c/a\u003e\u003c/code\u003e to a string representation that could be\nlater re-parsed by this module or modified by a human.\n\u003c/p\u003e\u003cp\u003eNote that this does not necessarily re-create a file that was originally\nloaded.  Things may occur in a different order, comments will be removed,\netc.  The conversion makes an effort to make the result human-editable,\nbut it does not make an effort to make the result identical to the original\ninput.\n\u003c/p\u003e\u003cp\u003eThe result is, however, guaranteed to parse the same as the original input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:06 UTC 2014",
           "module": "Data.ConfigFile",
           "name": "to_string",
           "package": "ConfigFile",
@@ -1630,6 +1741,7 @@
         "index": {
           "description": "Converts the ConfigParser to string representation that could be later re-parsed by this module or modified by human Note that this does not necessarily re-create file that was originally loaded Things may occur in different order comments will be removed etc The conversion makes an effort to make the result human-editable but it does not make an effort to make the result identical to the original input The result is however guaranteed to parse the same as the original input",
           "hierarchy": "Data ConfigFile",
+          "indexed": "2014-03-11T16:37:06",
           "module": "Data.ConfigFile",
           "name": "to_string",
           "normalized": "ConfigParser-\u003eString",

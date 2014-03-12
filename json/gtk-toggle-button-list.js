@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk-toggle-button-list"
+        "phrase": "gtk-toggle-button-list",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:49 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "ToggleButtonList",
           "package": "gtk-toggle-button-list",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom ToggleButtonList",
+          "indexed": "2014-03-11T18:22:49",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "ToggleButtonList",
           "package": "gtk-toggle-button-list",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:49 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "Orientation",
           "package": "gtk-toggle-button-list",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom ToggleButtonList",
+          "indexed": "2014-03-11T18:22:49",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "Orientation",
           "package": "gtk-toggle-button-list",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:49 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "ToggleButtonListUpdater",
           "package": "gtk-toggle-button-list",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom ToggleButtonList",
+          "indexed": "2014-03-11T18:22:49",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "ToggleButtonListUpdater",
           "package": "gtk-toggle-button-list",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:49 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "Horizontal",
           "package": "gtk-toggle-button-list",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom ToggleButtonList",
+          "indexed": "2014-03-11T18:22:49",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "Horizontal",
           "package": "gtk-toggle-button-list",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:49 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "Vertical",
           "package": "gtk-toggle-button-list",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom ToggleButtonList",
+          "indexed": "2014-03-11T18:22:49",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "Vertical",
           "package": "gtk-toggle-button-list",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:22:49 UTC 2014",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "toggleButtonListNew",
           "package": "gtk-toggle-button-list",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Custom ToggleButtonList",
+          "indexed": "2014-03-11T18:22:49",
           "module": "Graphics.UI.Gtk.Custom.ToggleButtonList",
           "name": "toggleButtonListNew",
           "normalized": "(String-\u003eIO a)-\u003eOrientation-\u003e(ToggleButton-\u003eIO b)-\u003e[String]-\u003eIO(Box,[String]-\u003eIO())",

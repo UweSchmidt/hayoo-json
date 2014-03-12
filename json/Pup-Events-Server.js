@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Pup-Events-Server"
+        "phrase": "Pup-Events-Server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Server module of the PupEvents framework is designed to be run from\n the file that specifies the Events that you are handling. The only thing\n that would need to be written to use this is the Events file, it does\n not depend on the application code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:46 UTC 2014",
           "module": "PupEventsServer",
           "name": "PupEventsServer",
           "package": "Pup-Events-Server",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Server module of the PupEvents framework is designed to be run from the file that specifies the Events that you are handling The only thing that would need to be written to use this is the Events file it does not depend on the application code",
           "hierarchy": "PupEventsServer",
+          "indexed": "2014-03-11T16:57:46",
           "module": "PupEventsServer",
           "name": "PupEventsServer",
           "package": "Pup-Events-Server",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:46 UTC 2014",
           "module": "PupEventsServer",
           "name": "acceptCon",
           "package": "Pup-Events-Server",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "PupEventsServer",
+          "indexed": "2014-03-11T16:57:46",
           "module": "PupEventsServer",
           "name": "acceptCon",
           "normalized": "Socket-\u003eInt-\u003e(a-\u003eInt)-\u003e(a-\u003ea-\u003eString)-\u003e(a-\u003ea-\u003eIO a)-\u003e[ParsecT[Char]()Identity a]-\u003eMaybe a-\u003eIO ThreadId",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:46 UTC 2014",
           "module": "PupEventsServer",
           "name": "handleEvents",
           "package": "Pup-Events-Server",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "PupEventsServer",
+          "indexed": "2014-03-11T16:57:46",
           "module": "PupEventsServer",
           "name": "handleEvents",
           "normalized": "Handle-\u003ePQueue a-\u003e(a-\u003ea-\u003eString)-\u003e(a-\u003ea-\u003eIO a)-\u003eIO()",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:46 UTC 2014",
           "module": "PupEventsServer",
           "name": "recvEvents",
           "package": "Pup-Events-Server",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "PupEventsServer",
+          "indexed": "2014-03-11T16:57:46",
           "module": "PupEventsServer",
           "name": "recvEvents",
           "normalized": "Handle-\u003ePQueue a-\u003e(a-\u003eInt)-\u003e[ParsecT[Char]()Identity a]-\u003eMaybe a-\u003eIO()",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main entry point of the program. This ends by forever calling \u003ccode\u003e\u003ca\u003eacceptCon\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:46 UTC 2014",
           "module": "PupEventsServer",
           "name": "server",
           "package": "Pup-Events-Server",
@@ -123,6 +132,7 @@
         "index": {
           "description": "The main entry point of the program This ends by forever calling acceptCon",
           "hierarchy": "PupEventsServer",
+          "indexed": "2014-03-11T16:57:46",
           "module": "PupEventsServer",
           "name": "server",
           "normalized": "Maybe[Char]-\u003eInt-\u003eString-\u003e(a-\u003eInt)-\u003e(a-\u003ea-\u003eString)-\u003e(a-\u003ea-\u003eIO a)-\u003e[ParsecT[Char]()Identity a]-\u003eMaybe a-\u003eIO b",

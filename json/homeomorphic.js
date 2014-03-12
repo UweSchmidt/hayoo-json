@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "homeomorphic"
+        "phrase": "homeomorphic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Check",
           "name": "Check",
           "package": "homeomorphic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Check",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Check",
           "name": "Check",
           "package": "homeomorphic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Check",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Check",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Check",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Check",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Check",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Check",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Check",
           "name": "empty",
           "package": "homeomorphic",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Check",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Check",
           "name": "empty",
           "package": "homeomorphic",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Check",
           "name": "find",
           "package": "homeomorphic",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Check",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Check",
           "name": "find",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003e[b]",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Check",
           "name": "findOne",
           "package": "homeomorphic",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Check",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Check",
           "name": "findOne",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003eMaybe b",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Check",
           "name": "insert",
           "package": "homeomorphic",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Check",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Check",
           "name": "insert",
           "normalized": "Shell a-\u003eb-\u003eHomeomorphic a b-\u003eHomeomorphic a b",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash1",
           "name": "Hash1",
           "package": "homeomorphic",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash1",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash1",
           "name": "Hash1",
           "package": "homeomorphic",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash1",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash1",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash1",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash1",
           "name": "empty",
           "package": "homeomorphic",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash1",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash1",
           "name": "empty",
           "package": "homeomorphic",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash1",
           "name": "find",
           "package": "homeomorphic",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash1",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash1",
           "name": "find",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003e[b]",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash1",
           "name": "findOne",
           "package": "homeomorphic",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash1",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash1",
           "name": "findOne",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003eMaybe b",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash1",
           "name": "insert",
           "package": "homeomorphic",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash1",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash1",
           "name": "insert",
           "normalized": "Shell a-\u003eb-\u003eHomeomorphic a b-\u003eHomeomorphic a b",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash2",
           "name": "Hash2",
           "package": "homeomorphic",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash2",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash2",
           "name": "Hash2",
           "package": "homeomorphic",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash2",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash2",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash2",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash2",
           "name": "empty",
           "package": "homeomorphic",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash2",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash2",
           "name": "empty",
           "package": "homeomorphic",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash2",
           "name": "find",
           "package": "homeomorphic",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash2",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash2",
           "name": "find",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003e[b]",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash2",
           "name": "findOne",
           "package": "homeomorphic",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash2",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash2",
           "name": "findOne",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003eMaybe b",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Hash2",
           "name": "insert",
           "package": "homeomorphic",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Hash2",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Hash2",
           "name": "insert",
           "normalized": "Shell a-\u003eb-\u003eHomeomorphic a b-\u003eHomeomorphic a b",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Internal",
           "name": "Internal",
           "package": "homeomorphic",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Internal",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Internal",
           "name": "Internal",
           "package": "homeomorphic",
@@ -461,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe central data type. All data structures must be converted so they\n   consist of \u003ccode\u003eShell\u003c/code\u003e's, which split a value into a component at this\n   level and the children. Create a \u003ccode\u003eShell\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eshell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Internal",
           "name": "Shell",
           "package": "homeomorphic",
@@ -470,6 +511,7 @@
         "index": {
           "description": "The central data type All data structures must be converted so they consist of Shell which split value into component at this level and the children Create Shell with shell",
           "hierarchy": "Data Homeomorphic Internal",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Internal",
           "name": "Shell",
           "package": "homeomorphic",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Internal",
           "name": "Shell",
           "package": "homeomorphic",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Internal",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Internal",
           "name": "Shell",
           "normalized": "Shell a Int[Shell a]",
@@ -611,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "Memo",
           "package": "homeomorphic",
@@ -619,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "Memo",
           "package": "homeomorphic",
@@ -632,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "Cache",
           "package": "homeomorphic",
@@ -640,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "Cache",
           "package": "homeomorphic",
@@ -653,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -661,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -674,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -683,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "Homeomorphic",
           "normalized": "Homeomorphic(IORef(Cache a))[(Shell a,b)]",
@@ -698,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "addCache",
           "package": "homeomorphic",
@@ -707,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "addCache",
           "normalized": "Shell a-\u003eShell a-\u003eBool-\u003eState(Cache a)()",
@@ -722,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "coupleM",
           "package": "homeomorphic",
@@ -731,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "coupleM",
           "normalized": "Shell a-\u003eShell a-\u003eState(Cache a)Bool",
@@ -745,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "diveM",
           "package": "homeomorphic",
@@ -754,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "diveM",
           "normalized": "Shell a-\u003eShell a-\u003eState(Cache a)Bool",
@@ -768,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "empty",
           "package": "homeomorphic",
@@ -777,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "empty",
           "package": "homeomorphic",
@@ -789,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "find",
           "package": "homeomorphic",
@@ -798,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "find",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003e[b]",
@@ -812,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "findOne",
           "package": "homeomorphic",
@@ -821,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "findOne",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003eMaybe b",
@@ -836,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "getCache",
           "package": "homeomorphic",
@@ -845,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "getCache",
           "normalized": "Shell a-\u003eShell a-\u003eState(Cache a)(Maybe Bool)",
@@ -860,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "insert",
           "package": "homeomorphic",
@@ -869,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "insert",
           "normalized": "Shell a-\u003eb-\u003eHomeomorphic a b-\u003eHomeomorphic a b",
@@ -883,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Memo",
           "name": "test",
           "package": "homeomorphic",
@@ -892,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Memo",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Memo",
           "name": "test",
           "normalized": "Shell a-\u003eShell a-\u003eState(Cache a)Bool",
@@ -906,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "MemoCache",
           "package": "homeomorphic",
@@ -914,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "MemoCache",
           "package": "homeomorphic",
@@ -927,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "Cache",
           "package": "homeomorphic",
@@ -935,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "Cache",
           "package": "homeomorphic",
@@ -948,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -956,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -969,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -978,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "Homeomorphic",
           "normalized": "Homeomorphic(IORef Cache)[(ShellId,a)](IORef(ShellIds b))",
@@ -993,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "addCache",
           "package": "homeomorphic",
@@ -1002,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "addCache",
           "normalized": "ShellId-\u003eShellId-\u003eBool-\u003eState Cache()",
@@ -1017,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "coupleM",
           "package": "homeomorphic",
@@ -1026,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "coupleM",
           "normalized": "ShellId-\u003eShellId-\u003eState Cache Bool",
@@ -1040,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "diveM",
           "package": "homeomorphic",
@@ -1049,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "diveM",
           "normalized": "ShellId-\u003eShellId-\u003eState Cache Bool",
@@ -1063,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "empty",
           "package": "homeomorphic",
@@ -1072,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "empty",
           "package": "homeomorphic",
@@ -1084,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "find",
           "package": "homeomorphic",
@@ -1093,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "find",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003e[b]",
@@ -1107,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "findOne",
           "package": "homeomorphic",
@@ -1116,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "findOne",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003eMaybe b",
@@ -1131,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "getCache",
           "package": "homeomorphic",
@@ -1140,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "getCache",
           "normalized": "ShellId-\u003eShellId-\u003eState Cache(Maybe Bool)",
@@ -1155,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "insert",
           "package": "homeomorphic",
@@ -1164,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "insert",
           "normalized": "Shell a-\u003eb-\u003eHomeomorphic a b-\u003eHomeomorphic a b",
@@ -1178,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "test",
           "package": "homeomorphic",
@@ -1187,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic MemoCache",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.MemoCache",
           "name": "test",
           "normalized": "ShellId-\u003eShellId-\u003eState Cache Bool",
@@ -1201,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "ShellId",
           "package": "homeomorphic",
@@ -1209,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "ShellId",
           "package": "homeomorphic",
@@ -1222,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "ShellId",
           "package": "homeomorphic",
@@ -1230,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "ShellId",
           "package": "homeomorphic",
@@ -1243,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "ShellIds",
           "package": "homeomorphic",
@@ -1251,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "ShellIds",
           "package": "homeomorphic",
@@ -1264,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "ShellId",
           "package": "homeomorphic",
@@ -1273,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "ShellId",
           "package": "homeomorphic",
@@ -1286,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "allId",
           "package": "homeomorphic",
@@ -1295,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "allId",
           "package": "homeomorphic",
@@ -1308,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "empty",
           "package": "homeomorphic",
@@ -1317,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "empty",
           "package": "homeomorphic",
@@ -1329,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "headId",
           "package": "homeomorphic",
@@ -1338,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "headId",
           "package": "homeomorphic",
@@ -1351,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "restId",
           "package": "homeomorphic",
@@ -1360,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "restId",
           "normalized": "[ShellId]",
@@ -1375,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.ShellId",
           "name": "retrieve",
           "package": "homeomorphic",
@@ -1384,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic ShellId",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.ShellId",
           "name": "retrieve",
           "normalized": "Shell a-\u003eShellIds a-\u003e(ShellIds a,ShellId)",
@@ -1398,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Simple",
           "name": "Simple",
           "package": "homeomorphic",
@@ -1406,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Simple",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Simple",
           "name": "Simple",
           "package": "homeomorphic",
@@ -1419,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Simple",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1427,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Simple",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Simple",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1440,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Simple",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1449,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Simple",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Simple",
           "name": "Homeomorphic",
           "normalized": "Homeomorphic[(Shell a,b)]",
@@ -1464,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Simple",
           "name": "empty",
           "package": "homeomorphic",
@@ -1473,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Simple",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Simple",
           "name": "empty",
           "package": "homeomorphic",
@@ -1485,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Simple",
           "name": "find",
           "package": "homeomorphic",
@@ -1494,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Simple",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Simple",
           "name": "find",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003e[b]",
@@ -1508,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Simple",
           "name": "findOne",
           "package": "homeomorphic",
@@ -1517,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Simple",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Simple",
           "name": "findOne",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003eMaybe b",
@@ -1532,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Simple",
           "name": "insert",
           "package": "homeomorphic",
@@ -1541,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Simple",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Simple",
           "name": "insert",
           "normalized": "Shell a-\u003eb-\u003eHomeomorphic a b-\u003eHomeomorphic a b",
@@ -1555,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "SimpleParallel",
           "package": "homeomorphic",
@@ -1563,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "SimpleParallel",
           "package": "homeomorphic",
@@ -1576,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "H",
           "package": "homeomorphic",
@@ -1584,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "H",
           "package": "homeomorphic",
@@ -1596,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1604,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1617,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "H",
           "package": "homeomorphic",
@@ -1626,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "H",
           "normalized": "H[Int](Map(Int,a)(H a))",
@@ -1640,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1649,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1662,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "empty",
           "package": "homeomorphic",
@@ -1671,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "empty",
           "package": "homeomorphic",
@@ -1683,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "find",
           "package": "homeomorphic",
@@ -1692,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "find",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003e[b]",
@@ -1706,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "findIds",
           "package": "homeomorphic",
@@ -1715,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "findIds",
           "normalized": "[Shell a]-\u003eH a-\u003e[Int]",
@@ -1730,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "findOne",
           "package": "homeomorphic",
@@ -1739,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "findOne",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003eMaybe b",
@@ -1754,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "insert",
           "package": "homeomorphic",
@@ -1763,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic SimpleParallel",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.SimpleParallel",
           "name": "insert",
           "normalized": "Shell a-\u003eb-\u003eHomeomorphic a b-\u003eHomeomorphic a b",
@@ -1777,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Test",
           "name": "Test",
           "package": "homeomorphic",
@@ -1785,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Test",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Test",
           "name": "Test",
           "package": "homeomorphic",
@@ -1798,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Test",
           "name": "AB",
           "package": "homeomorphic",
@@ -1806,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Test",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Test",
           "name": "AB",
           "package": "homeomorphic",
@@ -1819,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Test",
           "name": "Command",
           "package": "homeomorphic",
@@ -1827,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Test",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Test",
           "name": "Command",
           "package": "homeomorphic",
@@ -1840,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Test",
           "name": "A",
           "package": "homeomorphic",
@@ -1849,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Test",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Test",
           "name": "A",
           "package": "homeomorphic",
@@ -1861,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Test",
           "name": "B",
           "package": "homeomorphic",
@@ -1870,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Test",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Test",
           "name": "B",
           "package": "homeomorphic",
@@ -1882,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Test",
           "name": "Find",
           "package": "homeomorphic",
@@ -1891,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Test",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Test",
           "name": "Find",
           "package": "homeomorphic",
@@ -1904,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Test",
           "name": "Insert",
           "package": "homeomorphic",
@@ -1913,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Test",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Test",
           "name": "Insert",
           "package": "homeomorphic",
@@ -1926,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic.Test",
           "name": "tester",
           "package": "homeomorphic",
@@ -1935,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic Test",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic.Test",
           "name": "tester",
           "normalized": "[Command]-\u003eBool",
@@ -1949,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1957,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Data Homeomorphic",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1971,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype to store a homemorphic embedding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1980,6 +2147,7 @@
         "index": {
           "description": "Datatype to store homemorphic embedding",
           "hierarchy": "Data Homeomorphic",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic",
           "name": "Homeomorphic",
           "package": "homeomorphic",
@@ -1994,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe central data type. All data structures must be converted so they\n   consist of \u003ccode\u003eShell\u003c/code\u003e's, which split a value into a component at this\n   level and the children. Create a \u003ccode\u003eShell\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eshell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic",
           "name": "Shell",
           "package": "homeomorphic",
@@ -2003,6 +2172,7 @@
         "index": {
           "description": "The central data type All data structures must be converted so they consist of Shell which split value into component at this level and the children Create Shell with shell",
           "hierarchy": "Data Homeomorphic",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic",
           "name": "Shell",
           "package": "homeomorphic",
@@ -2017,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty embedding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic",
           "name": "empty",
           "package": "homeomorphic",
@@ -2027,6 +2198,7 @@
         "index": {
           "description": "An empty embedding",
           "hierarchy": "Data Homeomorphic",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic",
           "name": "empty",
           "package": "homeomorphic",
@@ -2040,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes any relation xs \u003c| y hold, given y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic",
           "name": "find",
           "package": "homeomorphic",
@@ -2050,6 +2223,7 @@
         "index": {
           "description": "Does any relation xs hold given",
           "hierarchy": "Data Homeomorphic",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic",
           "name": "find",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003e[b]",
@@ -2065,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003efindOne y = listToMaybe . find y\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic",
           "name": "findOne",
           "package": "homeomorphic",
@@ -2075,6 +2250,7 @@
         "index": {
           "description": "findOne listToMaybe find",
           "hierarchy": "Data Homeomorphic",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic",
           "name": "findOne",
           "normalized": "Shell a-\u003eHomeomorphic a b-\u003eMaybe b",
@@ -2091,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new key (coded as a shell) and an associated value\n   into an embedding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:18 UTC 2014",
           "module": "Data.Homeomorphic",
           "name": "insert",
           "package": "homeomorphic",
@@ -2101,6 +2278,7 @@
         "index": {
           "description": "Insert new key coded as shell and an associated value into an embedding",
           "hierarchy": "Data Homeomorphic",
+          "indexed": "2014-03-11T18:43:18",
           "module": "Data.Homeomorphic",
           "name": "insert",
           "normalized": "Shell a-\u003eb-\u003eHomeomorphic a b-\u003eHomeomorphic a b",

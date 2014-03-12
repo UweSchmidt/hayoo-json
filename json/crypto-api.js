@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crypto-api"
+        "phrase": "crypto-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module mirrors \u003ccode\u003e\u003ca\u003eClasses\u003c/a\u003e\u003c/code\u003e except that errors are thrown as\n exceptions instead of having returning types of \u003ccode\u003eEither error result\u003c/code\u003e\n or \u003ccode\u003eMaybe result\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNB This module is experimental and might go away or be re-arranged.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "Exceptions",
           "package": "crypto-api",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The module mirrors Classes except that errors are thrown as exceptions instead of having returning types of Either error result or Maybe result NB This module is experimental and might go away or be re-arranged",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "Exceptions",
           "package": "crypto-api",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsymetric ciphers (common ones being RSA or EC based)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "AsymCipher",
           "package": "crypto-api",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Asymetric ciphers common ones being RSA or EC based",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "AsymCipher",
           "package": "crypto-api",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe BlockCipher class is intended as the generic interface\n targeted by maintainers of Haskell cipher implementations.\n\u003c/p\u003e\u003cp\u003eMinimum complete definition: blockSize, encryptBlock, decryptBlock,\n buildKey, and keyLength.\n\u003c/p\u003e\u003cp\u003eInstances must handle unaligned data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "BlockCipher",
           "package": "crypto-api",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The BlockCipher class is intended as the generic interface targeted by maintainers of Haskell cipher implementations Minimum complete definition blockSize encryptBlock decryptBlock buildKey and keyLength Instances must handle unaligned data",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "BlockCipher",
           "package": "crypto-api",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "CipherError",
           "package": "crypto-api",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "CipherError",
           "package": "crypto-api",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of random bit generators that allows for the possibility\n of failure, reseeding, providing entropy at the same time as\n requesting bytes\n\u003c/p\u003e\u003cp\u003eMinimum complete definition: \u003ccode\u003e\u003ca\u003enewGen\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egenSeedLength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egenBytes\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003ereseed\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ereseedInfo\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ereseedPeriod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "CryptoRandomGen",
           "package": "crypto-api",
@@ -118,6 +127,7 @@
         "index": {
           "description": "class of random bit generators that allows for the possibility of failure reseeding providing entropy at the same time as requesting bytes Minimum complete definition newGen genSeedLength genBytes reseed reseedInfo reseedPeriod",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "CryptoRandomGen",
           "package": "crypto-api",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerator failures should always return the appropriate GenError.\n Note \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e in an instance of exception but wether or not an\n exception is thrown depends on if the selected generator (read:\n if you don't want execptions from code that uses \u003ccode\u003e\u003ca\u003ethrow\u003c/a\u003e\u003c/code\u003e then\n pass in a generator that never has an error for the used functions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "GenError",
           "package": "crypto-api",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Generator failures should always return the appropriate GenError Note GenError in an instance of exception but wether or not an exception is thrown depends on if the selected generator read if you don want execptions from code that uses throw then pass in generator that never has an error for the used functions",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "GenError",
           "package": "crypto-api",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Hash class is intended as the generic interface\n targeted by maintainers of Haskell digest implementations.\n Using this generic interface, higher level functions\n such as \u003ccode\u003e\u003ca\u003ehash\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ehash'\u003c/a\u003e\u003c/code\u003e provide a useful API\n for comsumers of hash implementations.\n\u003c/p\u003e\u003cp\u003eAny instantiated implementation must handle unaligned data.\n\u003c/p\u003e\u003cp\u003eMinimum complete definition: \u003ccode\u003e\u003ca\u003eoutputLength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eblockLength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003einitialCtx\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eupdateCtx\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003efinalize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "Hash",
           "package": "crypto-api",
@@ -164,6 +177,7 @@
         "index": {
           "description": "The Hash class is intended as the generic interface targeted by maintainers of Haskell digest implementations Using this generic interface higher level functions such as hash and hash provide useful API for comsumers of hash implementations Any instantiated implementation must handle unaligned data Minimum complete definition outputLength blockLength initialCtx updateCtx and finalize",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "Hash",
           "package": "crypto-api",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "ReseedInfo",
           "package": "crypto-api",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "ReseedInfo",
           "package": "crypto-api",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for signing operations which inherently can not be as generic\n as asymetric ciphers (ex: DSA).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "Signing",
           "package": "crypto-api",
@@ -208,6 +225,7 @@
         "index": {
           "description": "class for signing operations which inherently can not be as generic as asymetric ciphers ex DSA",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "Signing",
           "package": "crypto-api",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "GenError",
           "package": "crypto-api",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "GenError",
           "package": "crypto-api",
@@ -318,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "KeyGenFailure",
           "package": "crypto-api",
@@ -327,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "KeyGenFailure",
           "package": "crypto-api",
@@ -515,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "blockLength",
           "package": "crypto-api",
@@ -524,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "blockLength",
           "package": "crypto-api",
@@ -537,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "blockSize",
           "package": "crypto-api",
@@ -546,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "blockSize",
           "package": "crypto-api",
@@ -585,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey construction from raw material (typically including key expansion)\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw a \u003ccode\u003e\u003ca\u003eCipherError\u003c/a\u003e\u003c/code\u003e on exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "buildKey",
           "package": "crypto-api",
@@ -595,6 +622,7 @@
         "index": {
           "description": "Key construction from raw material typically including key expansion This is wrapper that can throw CipherError on exception",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "buildKey",
           "normalized": "ByteString-\u003ea",
@@ -611,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric key generation\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw a \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e on exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "buildKeyGen",
           "package": "crypto-api",
@@ -621,6 +650,7 @@
         "index": {
           "description": "Symmetric key generation This is wrapper that can throw GenError on exception",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "buildKeyGen",
           "normalized": "a-\u003e(b,a)",
@@ -662,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsymetric key generation\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw a \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e on exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "buildKeyPair",
           "package": "crypto-api",
@@ -672,6 +703,7 @@
         "index": {
           "description": "Asymetric key generation This is wrapper that can throw GenError on exception",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "buildKeyPair",
           "normalized": "a-\u003eBitLength-\u003e((b,c),a)",
@@ -715,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipherblock Chaining (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "cbc",
           "package": "crypto-api",
@@ -725,6 +758,7 @@
         "index": {
           "description": "Cipherblock Chaining encryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "cbc",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -740,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher block chaining encryption for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "cbcLazy",
           "package": "crypto-api",
@@ -750,6 +785,7 @@
         "index": {
           "description": "Cipher block chaining encryption for lazy bytestrings",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "cbcLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -766,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feedback (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "cfb",
           "package": "crypto-api",
@@ -776,6 +813,7 @@
         "index": {
           "description": "Ciphertext feedback encryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "cfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -791,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feed-back encryption mode for lazy bytestrings (with s\n == blockSize)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "cfbLazy",
           "package": "crypto-api",
@@ -801,6 +840,7 @@
         "index": {
           "description": "Ciphertext feed-back encryption mode for lazy bytestrings with blockSize",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "cfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -817,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "ctr",
           "package": "crypto-api",
@@ -827,6 +868,7 @@
         "index": {
           "description": "Counter encryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "ctr",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -842,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "ctrLazy",
           "package": "crypto-api",
@@ -852,6 +895,7 @@
         "index": {
           "description": "Counter encryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "ctrLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -868,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsymmetric decryption\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw a GenError on exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "decryptAsym",
           "package": "crypto-api",
@@ -878,6 +923,7 @@
         "index": {
           "description": "Asymmetric decryption This is wrapper that can throw GenError on exception",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "decryptAsym",
           "normalized": "a-\u003eb-\u003eByteString-\u003e(ByteString,a)",
@@ -893,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "decryptBlock",
           "package": "crypto-api",
@@ -902,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "decryptBlock",
           "package": "crypto-api",
@@ -916,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectronic Cookbook (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "ecb",
           "package": "crypto-api",
@@ -926,6 +975,7 @@
         "index": {
           "description": "Electronic Cookbook encryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "ecb",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -941,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCook book mode - not really a mode at all.  If you don't know what you're doing, don't use this mode^H^H^H^H library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "ecbLazy",
           "package": "crypto-api",
@@ -951,6 +1002,7 @@
         "index": {
           "description": "Cook book mode not really mode at all If you don know what you re doing don use this mode library",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "ecbLazy",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -967,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsymmetric encryption\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw a \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e on exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "encryptAsym",
           "package": "crypto-api",
@@ -977,6 +1030,7 @@
         "index": {
           "description": "Asymmetric encryption This is wrapper that can throw GenError on exception",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "encryptAsym",
           "normalized": "a-\u003eb-\u003eByteString-\u003e(ByteString,a)",
@@ -992,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "encryptBlock",
           "package": "crypto-api",
@@ -1001,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "encryptBlock",
           "package": "crypto-api",
@@ -1014,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "finalize",
           "package": "crypto-api",
@@ -1023,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "finalize",
           "package": "crypto-api",
@@ -1036,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egenBytes len g\u003c/code\u003e generates a random ByteString of length\n \u003ccode\u003elen\u003c/code\u003e and new generator.  The \u003ccode\u003eMonadCryptoRandom\u003c/code\u003e package\n has routines useful for converting the ByteString to\n commonly needed values (but \u003ccode\u003ecereal\u003c/code\u003e or other\n deserialization libraries would also work).\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e types as exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "genBytes",
           "package": "crypto-api",
@@ -1046,6 +1105,7 @@
         "index": {
           "description": "genBytes len generates random ByteString of length len and new generator The MonadCryptoRandom package has routines useful for converting the ByteString to commonly needed values but cereal or other deserialization libraries would also work This is wrapper that can throw GenError types as exceptions",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "genBytes",
           "normalized": "ByteLength-\u003ea-\u003e(ByteString,a)",
@@ -1062,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egenBytesWithEntropy g i entropy\u003c/code\u003e generates \u003ccode\u003ei\u003c/code\u003e random bytes and use\n the additional input \u003ccode\u003eentropy\u003c/code\u003e in the generation of the requested data\n to increase the confidence our generated data is a secure random stream.\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e types as exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "genBytesWithEntropy",
           "package": "crypto-api",
@@ -1072,6 +1133,7 @@
         "index": {
           "description": "genBytesWithEntropy entropy generates random bytes and use the additional input entropy in the generation of the requested data to increase the confidence our generated data is secure random stream This is wrapper that can throw GenError types as exceptions",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "genBytesWithEntropy",
           "normalized": "ByteLength-\u003eByteString-\u003ea-\u003e(ByteString,a)",
@@ -1088,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of input entropy necessary to instantiate or reseed\n a generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "genSeedLength",
           "package": "crypto-api",
@@ -1098,6 +1161,7 @@
         "index": {
           "description": "Length of input entropy necessary to instantiate or reseed generator",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "genSeedLength",
           "package": "crypto-api",
@@ -1112,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom \u003ccode\u003e\u003ca\u003eIV\u003c/a\u003e\u003c/code\u003e generation\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw a \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e on exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "getIV",
           "package": "crypto-api",
@@ -1122,6 +1187,7 @@
         "index": {
           "description": "Random IV generation This is wrapper that can throw GenError on exception",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "getIV",
           "normalized": "a-\u003e(IV b,a)",
@@ -1163,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a lazy ByteString, creating a digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "hash",
           "package": "crypto-api",
@@ -1173,6 +1240,7 @@
         "index": {
           "description": "Hash lazy ByteString creating digest",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "hash",
           "normalized": "ByteString-\u003ea",
@@ -1188,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a strict ByteString, creating a digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "hash'",
           "package": "crypto-api",
@@ -1198,6 +1267,7 @@
         "index": {
           "description": "Hash strict ByteString creating digest",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "hash'",
           "normalized": "ByteString-\u003ea",
@@ -1293,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "initialCtx",
           "package": "crypto-api",
@@ -1302,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "initialCtx",
           "package": "crypto-api",
@@ -1315,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "keyLength",
           "package": "crypto-api",
@@ -1324,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "keyLength",
           "package": "crypto-api",
@@ -1363,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstantiate a new random bit generator.  The provided\n bytestring should be of length \u003e= genSeedLength.  If the\n bytestring is shorter then the call may fail (suggested\n error: \u003ccode\u003eNotEnoughEntropy\u003c/code\u003e).  If the bytestring is of\n sufficent length the call should always succeed.\n\u003c/p\u003e\u003cp\u003eThis is a wrapper that can throw \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e types as exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "newGen",
           "package": "crypto-api",
@@ -1373,6 +1448,7 @@
         "index": {
           "description": "Instantiate new random bit generator The provided bytestring should be of length genSeedLength If the bytestring is shorter then the call may fail suggested error NotEnoughEntropy If the bytestring is of sufficent length the call should always succeed This is wrapper that can throw GenError types as exceptions",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "newGen",
           "normalized": "ByteString-\u003ea",
@@ -1389,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default this uses \u003ca\u003eSystem.Crypto.Random\u003c/a\u003e to obtain\n entropy for \u003ccode\u003e\u003ca\u003enewGen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "newGenIO",
           "package": "crypto-api",
@@ -1399,6 +1476,7 @@
         "index": {
           "description": "By default this uses System.Crypto.Random to obtain entropy for newGen",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "newGenIO",
           "package": "crypto-api",
@@ -1413,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "ofb",
           "package": "crypto-api",
@@ -1423,6 +1502,7 @@
         "index": {
           "description": "Output feedback encryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "ofb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1438,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback mode for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "ofbLazy",
           "package": "crypto-api",
@@ -1448,6 +1529,7 @@
         "index": {
           "description": "Output feedback mode for lazy bytestrings",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "ofbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1463,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "outputLength",
           "package": "crypto-api",
@@ -1472,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "outputLength",
           "package": "crypto-api",
@@ -1485,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "privateKeyLength",
           "package": "crypto-api",
@@ -1494,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "privateKeyLength",
           "normalized": "a-\u003eBitLength",
@@ -1509,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "publicKeyLength",
           "package": "crypto-api",
@@ -1518,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "publicKeyLength",
           "normalized": "a-\u003eBitLength",
@@ -1534,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the generator has produced too many random bytes on its existing\n seed it will throw a \u003ccode\u003eNeedReseed\u003c/code\u003e exception.  In that case, reseed the\n generator using this function and a new high-entropy seed of length \u003e=\n \u003ccode\u003egenSeedLength\u003c/code\u003e.  Using bytestrings that are too short can result in an\n exception (\u003ccode\u003eNotEnoughEntropy\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "reseed",
           "package": "crypto-api",
@@ -1544,6 +1633,7 @@
         "index": {
           "description": "If the generator has produced too many random bytes on its existing seed it will throw NeedReseed exception In that case reseed the generator using this function and new high-entropy seed of length genSeedLength Using bytestrings that are too short can result in an exception NotEnoughEntropy",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "reseed",
           "normalized": "ByteString-\u003ea-\u003ea",
@@ -1559,6 +1649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates how soon a reseed is needed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "reseedInfo",
           "package": "crypto-api",
@@ -1569,6 +1660,7 @@
         "index": {
           "description": "Indicates how soon reseed is needed",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "reseedInfo",
           "normalized": "a-\u003eReseedInfo",
@@ -1585,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the period between reseeds (constant for most generators).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "reseedPeriod",
           "package": "crypto-api",
@@ -1595,6 +1688,7 @@
         "index": {
           "description": "Indicates the period between reseeds constant for most generators",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "reseedPeriod",
           "normalized": "a-\u003eReseedInfo",
@@ -1610,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "signingKeyLength",
           "package": "crypto-api",
@@ -1619,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "signingKeyLength",
           "normalized": "a-\u003eBitLength",
@@ -1635,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) mode for strict bytestrings.  First argument is\n the optional list of bytestrings to be authenticated but not\n encrypted.  As required by the specification this algorithm may\n return nothing when certain constraints aren't met.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "siv",
           "package": "crypto-api",
@@ -1645,6 +1742,7 @@
         "index": {
           "description": "SIV Synthetic IV mode for strict bytestrings First argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when certain constraints aren met",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "siv",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -1660,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) mode for lazy bytestrings. The third argument is\n the optional list of bytestrings to be authenticated but not\n encrypted As required by the specification this algorithm may\n return nothing when certain constraints aren't met.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "sivLazy",
           "package": "crypto-api",
@@ -1670,6 +1769,7 @@
         "index": {
           "description": "SIV Synthetic IV mode for lazy bytestrings The third argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when certain constraints aren met",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "sivLazy",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -1686,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile the safety and wisdom of a splitting function depends on the\n properties of the generator being split, several arguments from\n informed people indicate such a function is safe for NIST SP 800-90\n generators.  (see libraries@haskell.org discussion around Sept, Oct\n 2010).  You can find implementations of such generators in the \u003ccode\u003eDRBG\u003c/code\u003e\n package.\n\u003c/p\u003e\u003cp\u003eThis is a wrapper for \u003ccode\u003e\u003ca\u003esplitGen\u003c/a\u003e\u003c/code\u003e which throws errors as\n exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "splitGen",
           "package": "crypto-api",
@@ -1696,6 +1797,7 @@
         "index": {
           "description": "While the safety and wisdom of splitting function depends on the properties of the generator being split several arguments from informed people indicate such function is safe for NIST SP generators see libraries@haskell.org discussion around Sept Oct You can find implementations of such generators in the DRBG package This is wrapper for splitGen which throws errors as exceptions",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "splitGen",
           "normalized": "a-\u003e(a,a)",
@@ -1712,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipherblock Chaining (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCbc",
           "package": "crypto-api",
@@ -1722,6 +1825,7 @@
         "index": {
           "description": "Cipherblock Chaining decryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCbc",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1738,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher block chaining decryption for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCbcLazy",
           "package": "crypto-api",
@@ -1748,6 +1853,7 @@
         "index": {
           "description": "Cipher block chaining decryption for lazy bytestrings",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCbcLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1764,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feedback (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCfb",
           "package": "crypto-api",
@@ -1774,6 +1881,7 @@
         "index": {
           "description": "Ciphertext feedback decryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1790,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feed-back decryption mode for lazy bytestrings (with s\n == blockSize)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCfbLazy",
           "package": "crypto-api",
@@ -1800,6 +1909,7 @@
         "index": {
           "description": "Ciphertext feed-back decryption mode for lazy bytestrings with blockSize",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1816,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCtr",
           "package": "crypto-api",
@@ -1826,6 +1937,7 @@
         "index": {
           "description": "Counter decryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCtr",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1842,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCtrLazy",
           "package": "crypto-api",
@@ -1852,6 +1965,7 @@
         "index": {
           "description": "Counter decryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unCtrLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1868,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectronic Cookbook (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unEcb",
           "package": "crypto-api",
@@ -1878,6 +1993,7 @@
         "index": {
           "description": "Electronic Cookbook decryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unEcb",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1894,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eECB decrypt, complementary to \u003ccode\u003e\u003ca\u003eecb\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unEcbLazy",
           "package": "crypto-api",
@@ -1904,6 +2021,7 @@
         "index": {
           "description": "ECB decrypt complementary to ecb",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unEcbLazy",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1920,6 +2038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unOfb",
           "package": "crypto-api",
@@ -1930,6 +2049,7 @@
         "index": {
           "description": "Output feedback decryption",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unOfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1946,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback mode for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unOfbLazy",
           "package": "crypto-api",
@@ -1956,6 +2077,7 @@
         "index": {
           "description": "Output feedback mode for lazy bytestrings",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unOfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1972,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) for strict bytestrings First argument is the\n optional list of bytestrings to be authenticated but not encrypted\n As required by the specification this algorithm may return nothing\n when authentication fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unSiv",
           "package": "crypto-api",
@@ -1982,6 +2105,7 @@
         "index": {
           "description": "SIV Synthetic IV for strict bytestrings First argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when authentication fails",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unSiv",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -1998,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) for lazy bytestrings.  The third argument is the\n optional list of bytestrings to be authenticated but not encrypted.\n As required by the specification this algorithm may return nothing\n when authentication fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "unSivLazy",
           "package": "crypto-api",
@@ -2008,6 +2133,7 @@
         "index": {
           "description": "SIV Synthetic IV for lazy bytestrings The third argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when authentication fails",
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "unSivLazy",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -2023,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "updateCtx",
           "package": "crypto-api",
@@ -2032,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "updateCtx",
           "package": "crypto-api",
@@ -2045,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "verify",
           "package": "crypto-api",
@@ -2054,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "verify",
           "normalized": "a-\u003eByteString-\u003eByteString-\u003eBool",
@@ -2068,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes.Exceptions",
           "name": "verifyingKeyLength",
           "package": "crypto-api",
@@ -2077,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes Exceptions",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes.Exceptions",
           "name": "verifyingKeyLength",
           "normalized": "a-\u003eBitLength",
@@ -2118,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the heart of the crypto-api package.  By making (or having) \nan instance of Hash, AsymCipher, BlockCipher or StreamCipher you provide (or obtain)\naccess to any infrastructure built on these primitives include block cipher modes\nof operation, hashing, hmac, signing, etc.  These classes allow users to build\nroutines that are agnostic to the algorithm used so changing algorithms is as simple\nas changing a type signature.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "Classes",
           "package": "crypto-api",
@@ -2127,6 +2260,7 @@
         "index": {
           "description": "This is the heart of the crypto-api package By making or having an instance of Hash AsymCipher BlockCipher or StreamCipher you provide or obtain access to any infrastructure built on these primitives include block cipher modes of operation hashing hmac signing etc These classes allow users to build routines that are agnostic to the algorithm used so changing algorithms is as simple as changing type signature",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "Classes",
           "package": "crypto-api",
@@ -2141,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsymetric ciphers (common ones being RSA or EC based)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "AsymCipher",
           "package": "crypto-api",
@@ -2150,6 +2285,7 @@
         "index": {
           "description": "Asymetric ciphers common ones being RSA or EC based",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "AsymCipher",
           "package": "crypto-api",
@@ -2164,6 +2300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe BlockCipher class is intended as the generic interface\n targeted by maintainers of Haskell cipher implementations.\n\u003c/p\u003e\u003cp\u003eMinimum complete definition: blockSize, encryptBlock, decryptBlock,\n buildKey, and keyLength.\n\u003c/p\u003e\u003cp\u003eInstances must handle unaligned data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "BlockCipher",
           "package": "crypto-api",
@@ -2173,6 +2310,7 @@
         "index": {
           "description": "The BlockCipher class is intended as the generic interface targeted by maintainers of Haskell cipher implementations Minimum complete definition blockSize encryptBlock decryptBlock buildKey and keyLength Instances must handle unaligned data",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "BlockCipher",
           "package": "crypto-api",
@@ -2187,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Hash class is intended as the generic interface\n targeted by maintainers of Haskell digest implementations.\n Using this generic interface, higher level functions\n such as \u003ccode\u003e\u003ca\u003ehash\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ehash'\u003c/a\u003e\u003c/code\u003e provide a useful API\n for comsumers of hash implementations.\n\u003c/p\u003e\u003cp\u003eAny instantiated implementation must handle unaligned data.\n\u003c/p\u003e\u003cp\u003eMinimum complete definition: \u003ccode\u003e\u003ca\u003eoutputLength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eblockLength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003einitialCtx\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eupdateCtx\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003efinalize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "Hash",
           "package": "crypto-api",
@@ -2196,6 +2335,7 @@
         "index": {
           "description": "The Hash class is intended as the generic interface targeted by maintainers of Haskell digest implementations Using this generic interface higher level functions such as hash and hash provide useful API for comsumers of hash implementations Any instantiated implementation must handle unaligned data Minimum complete definition outputLength blockLength initialCtx updateCtx and finalize",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "Hash",
           "package": "crypto-api",
@@ -2210,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for signing operations which inherently can not be as generic\n as asymetric ciphers (ex: DSA).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "Signing",
           "package": "crypto-api",
@@ -2219,6 +2360,7 @@
         "index": {
           "description": "class for signing operations which inherently can not be as generic as asymetric ciphers ex DSA",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "Signing",
           "package": "crypto-api",
@@ -2233,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream cipher class.  Instance are expected to work on messages as small as one byte\n The length of the resulting cipher text should be equal\n to the length of the input message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "StreamCipher",
           "package": "crypto-api",
@@ -2242,6 +2385,7 @@
         "index": {
           "description": "stream cipher class Instance are expected to work on messages as small as one byte The length of the resulting cipher text should be equal to the length of the input message",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "StreamCipher",
           "package": "crypto-api",
@@ -2255,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "blockLength",
           "package": "crypto-api",
@@ -2264,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "blockLength",
           "package": "crypto-api",
@@ -2277,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "blockSize",
           "package": "crypto-api",
@@ -2286,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "blockSize",
           "package": "crypto-api",
@@ -2299,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildKey",
           "package": "crypto-api",
@@ -2308,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildKey",
           "package": "crypto-api",
@@ -2322,6 +2472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a symmetric key using a given \u003ccode\u003e\u003ca\u003eCryptoRandomGen\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildKeyGen",
           "package": "crypto-api",
@@ -2332,6 +2483,7 @@
         "index": {
           "description": "Build symmetric key using given CryptoRandomGen",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildKeyGen",
           "normalized": "a-\u003eEither GenError(b,a)",
@@ -2347,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildKeyPair",
           "package": "crypto-api",
@@ -2356,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildKeyPair",
           "package": "crypto-api",
@@ -2370,6 +2524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlipped \u003ccode\u003e\u003ca\u003ebuildKeyPair\u003c/a\u003e\u003c/code\u003e for ease of use with state monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildKeyPairGen",
           "package": "crypto-api",
@@ -2380,6 +2535,7 @@
         "index": {
           "description": "Flipped buildKeyPair for ease of use with state monads",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildKeyPairGen",
           "normalized": "BitLength-\u003ea-\u003eEither GenError((b,c),a)",
@@ -2396,6 +2552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlipped \u003ccode\u003e\u003ca\u003ebuildSigningPair\u003c/a\u003e\u003c/code\u003e for ease of use with state monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildSigningKeyPairGen",
           "package": "crypto-api",
@@ -2406,6 +2563,7 @@
         "index": {
           "description": "Flipped buildSigningPair for ease of use with state monads",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildSigningKeyPairGen",
           "normalized": "BitLength-\u003ea-\u003eEither GenError((b,c),a)",
@@ -2422,6 +2580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a signing key using the system random generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildSigningKeyPairIO",
           "package": "crypto-api",
@@ -2432,6 +2591,7 @@
         "index": {
           "description": "Build signing key using the system random generator",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildSigningKeyPairIO",
           "normalized": "BitLength-\u003eIO(Either GenError(a,b))",
@@ -2447,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildSigningPair",
           "package": "crypto-api",
@@ -2456,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildSigningPair",
           "normalized": "a-\u003eBitLength-\u003eEither GenError((b,c),a)",
@@ -2471,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildStreamKey",
           "package": "crypto-api",
@@ -2480,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildStreamKey",
           "normalized": "ByteString-\u003eMaybe a",
@@ -2496,6 +2660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a stream key using the provided random generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildStreamKeyGen",
           "package": "crypto-api",
@@ -2506,6 +2671,7 @@
         "index": {
           "description": "Build stream key using the provided random generator",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildStreamKeyGen",
           "normalized": "a-\u003eEither GenError(b,a)",
@@ -2522,6 +2688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a stream key using the system random generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "buildStreamKeyIO",
           "package": "crypto-api",
@@ -2532,6 +2699,7 @@
         "index": {
           "description": "Build stream key using the system random generator",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "buildStreamKeyIO",
           "package": "crypto-api",
@@ -2546,6 +2714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipherblock Chaining (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "cbc",
           "package": "crypto-api",
@@ -2556,6 +2725,7 @@
         "index": {
           "description": "Cipherblock Chaining encryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "cbc",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -2571,6 +2741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher block chaining encryption for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "cbcLazy",
           "package": "crypto-api",
@@ -2581,6 +2752,7 @@
         "index": {
           "description": "Cipher block chaining encryption for lazy bytestrings",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "cbcLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -2597,6 +2769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feedback (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "cfb",
           "package": "crypto-api",
@@ -2607,6 +2780,7 @@
         "index": {
           "description": "Ciphertext feedback encryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "cfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -2622,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feed-back encryption mode for lazy bytestrings (with s\n == blockSize)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "cfbLazy",
           "package": "crypto-api",
@@ -2632,6 +2807,7 @@
         "index": {
           "description": "Ciphertext feed-back encryption mode for lazy bytestrings with blockSize",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "cfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -2647,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "chunkFor",
           "package": "crypto-api",
@@ -2656,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "chunkFor",
           "normalized": "a-\u003eByteString-\u003e[ByteString]",
@@ -2671,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "chunkFor'",
           "package": "crypto-api",
@@ -2680,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "chunkFor'",
           "normalized": "a-\u003eByteString-\u003e[ByteString]",
@@ -2696,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "ctr",
           "package": "crypto-api",
@@ -2706,6 +2887,7 @@
         "index": {
           "description": "Counter encryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "ctr",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -2721,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "ctrLazy",
           "package": "crypto-api",
@@ -2731,6 +2914,7 @@
         "index": {
           "description": "Counter encryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "ctrLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -2746,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "decryptAsym",
           "package": "crypto-api",
@@ -2755,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "decryptAsym",
           "package": "crypto-api",
@@ -2768,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "decryptBlock",
           "package": "crypto-api",
@@ -2777,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "decryptBlock",
           "package": "crypto-api",
@@ -2790,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "decryptStream",
           "package": "crypto-api",
@@ -2799,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "decryptStream",
           "normalized": "a-\u003eb-\u003eByteString-\u003e(ByteString,b)",
@@ -2815,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectronic Cookbook (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "ecb",
           "package": "crypto-api",
@@ -2825,6 +3016,7 @@
         "index": {
           "description": "Electronic Cookbook encryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "ecb",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -2840,6 +3032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCook book mode - not really a mode at all.  If you don't know what you're doing, don't use this mode^H^H^H^H library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "ecbLazy",
           "package": "crypto-api",
@@ -2850,6 +3043,7 @@
         "index": {
           "description": "Cook book mode not really mode at all If you don know what you re doing don use this mode library",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "ecbLazy",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -2866,6 +3060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value using binary serialization to a strict ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "encode",
           "package": "crypto-api",
@@ -2875,6 +3070,7 @@
         "index": {
           "description": "Encode value using binary serialization to strict ByteString",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -2889,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "encryptAsym",
           "package": "crypto-api",
@@ -2898,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "encryptAsym",
           "package": "crypto-api",
@@ -2911,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "encryptBlock",
           "package": "crypto-api",
@@ -2920,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "encryptBlock",
           "package": "crypto-api",
@@ -2933,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "encryptStream",
           "package": "crypto-api",
@@ -2942,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "encryptStream",
           "normalized": "a-\u003eb-\u003eByteString-\u003e(ByteString,b)",
@@ -2957,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "finalize",
           "package": "crypto-api",
@@ -2966,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "finalize",
           "package": "crypto-api",
@@ -2979,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain an \u003ccode\u003e\u003ca\u003eIV\u003c/a\u003e\u003c/code\u003e using the provided CryptoRandomGenerator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "getIV",
           "package": "crypto-api",
@@ -2989,6 +3194,7 @@
         "index": {
           "description": "Obtain an IV using the provided CryptoRandomGenerator",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "getIV",
           "normalized": "a-\u003eEither GenError(IV b,a)",
@@ -3005,6 +3211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a lazy ByteString, creating a digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "hash",
           "package": "crypto-api",
@@ -3015,6 +3222,7 @@
         "index": {
           "description": "Hash lazy ByteString creating digest",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "hash",
           "normalized": "ByteString-\u003ea",
@@ -3030,6 +3238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash a strict ByteString, creating a digest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "hash'",
           "package": "crypto-api",
@@ -3040,6 +3249,7 @@
         "index": {
           "description": "Hash strict ByteString creating digest",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "hash'",
           "normalized": "ByteString-\u003ea",
@@ -3054,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "initialCtx",
           "package": "crypto-api",
@@ -3063,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "initialCtx",
           "package": "crypto-api",
@@ -3076,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "keyLength",
           "package": "crypto-api",
@@ -3085,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "keyLength",
           "package": "crypto-api",
@@ -3099,6 +3313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "ofb",
           "package": "crypto-api",
@@ -3109,6 +3324,7 @@
         "index": {
           "description": "Output feedback encryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "ofb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3124,6 +3340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback mode for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "ofbLazy",
           "package": "crypto-api",
@@ -3134,6 +3351,7 @@
         "index": {
           "description": "Output feedback mode for lazy bytestrings",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "ofbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3149,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "outputLength",
           "package": "crypto-api",
@@ -3158,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "outputLength",
           "package": "crypto-api",
@@ -3171,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "privateKeyLength",
           "package": "crypto-api",
@@ -3180,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "privateKeyLength",
           "normalized": "a-\u003eBitLength",
@@ -3195,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "publicKeyLength",
           "package": "crypto-api",
@@ -3204,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "publicKeyLength",
           "normalized": "a-\u003eBitLength",
@@ -3219,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "sign",
           "package": "crypto-api",
@@ -3228,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "sign",
           "normalized": "a-\u003eb-\u003eByteString-\u003eEither GenError(ByteString,a)",
@@ -3242,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "signingKeyLength",
           "package": "crypto-api",
@@ -3251,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "signingKeyLength",
           "normalized": "a-\u003eBitLength",
@@ -3267,6 +3495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) mode for strict bytestrings.  First argument is\n the optional list of bytestrings to be authenticated but not\n encrypted.  As required by the specification this algorithm may\n return nothing when certain constraints aren't met.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "siv",
           "package": "crypto-api",
@@ -3277,6 +3506,7 @@
         "index": {
           "description": "SIV Synthetic IV mode for strict bytestrings First argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when certain constraints aren met",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "siv",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -3292,6 +3522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) mode for lazy bytestrings. The third argument is\n the optional list of bytestrings to be authenticated but not\n encrypted As required by the specification this algorithm may\n return nothing when certain constraints aren't met.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "sivLazy",
           "package": "crypto-api",
@@ -3302,6 +3533,7 @@
         "index": {
           "description": "SIV Synthetic IV mode for lazy bytestrings The third argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when certain constraints aren met",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "sivLazy",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -3317,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "streamKeyLength",
           "package": "crypto-api",
@@ -3326,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "streamKeyLength",
           "package": "crypto-api",
@@ -3340,6 +3574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipherblock Chaining (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unCbc",
           "package": "crypto-api",
@@ -3350,6 +3585,7 @@
         "index": {
           "description": "Cipherblock Chaining decryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unCbc",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3366,6 +3602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher block chaining decryption for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unCbcLazy",
           "package": "crypto-api",
@@ -3376,6 +3613,7 @@
         "index": {
           "description": "Cipher block chaining decryption for lazy bytestrings",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unCbcLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3392,6 +3630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feedback (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unCfb",
           "package": "crypto-api",
@@ -3402,6 +3641,7 @@
         "index": {
           "description": "Ciphertext feedback decryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unCfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3418,6 +3658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feed-back decryption mode for lazy bytestrings (with s\n == blockSize)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unCfbLazy",
           "package": "crypto-api",
@@ -3428,6 +3669,7 @@
         "index": {
           "description": "Ciphertext feed-back decryption mode for lazy bytestrings with blockSize",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unCfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3444,6 +3686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unCtr",
           "package": "crypto-api",
@@ -3454,6 +3697,7 @@
         "index": {
           "description": "Counter decryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unCtr",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3470,6 +3714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unCtrLazy",
           "package": "crypto-api",
@@ -3480,6 +3725,7 @@
         "index": {
           "description": "Counter decryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unCtrLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3496,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectronic Cookbook (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unEcb",
           "package": "crypto-api",
@@ -3506,6 +3753,7 @@
         "index": {
           "description": "Electronic Cookbook decryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unEcb",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -3522,6 +3770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eECB decrypt, complementary to \u003ccode\u003e\u003ca\u003eecb\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unEcbLazy",
           "package": "crypto-api",
@@ -3532,6 +3781,7 @@
         "index": {
           "description": "ECB decrypt complementary to ecb",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unEcbLazy",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -3548,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unOfb",
           "package": "crypto-api",
@@ -3558,6 +3809,7 @@
         "index": {
           "description": "Output feedback decryption",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unOfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3574,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback mode for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unOfbLazy",
           "package": "crypto-api",
@@ -3584,6 +3837,7 @@
         "index": {
           "description": "Output feedback mode for lazy bytestrings",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unOfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -3600,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) for strict bytestrings First argument is the\n optional list of bytestrings to be authenticated but not encrypted\n As required by the specification this algorithm may return nothing\n when authentication fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unSiv",
           "package": "crypto-api",
@@ -3610,6 +3865,7 @@
         "index": {
           "description": "SIV Synthetic IV for strict bytestrings First argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when authentication fails",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unSiv",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -3626,6 +3882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) for lazy bytestrings.  The third argument is the\n optional list of bytestrings to be authenticated but not encrypted.\n As required by the specification this algorithm may return nothing\n when authentication fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "unSivLazy",
           "package": "crypto-api",
@@ -3636,6 +3893,7 @@
         "index": {
           "description": "SIV Synthetic IV for lazy bytestrings The third argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when authentication fails",
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "unSivLazy",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -3651,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "updateCtx",
           "package": "crypto-api",
@@ -3660,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "updateCtx",
           "package": "crypto-api",
@@ -3673,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "verify",
           "package": "crypto-api",
@@ -3682,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "verify",
           "normalized": "a-\u003eByteString-\u003eByteString-\u003eBool",
@@ -3696,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Classes",
           "name": "verifyingKeyLength",
           "package": "crypto-api",
@@ -3705,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Crypto Classes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Classes",
           "name": "verifyingKeyLength",
           "normalized": "a-\u003eBitLength",
@@ -3720,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.HMAC",
           "name": "HMAC",
           "package": "crypto-api",
@@ -3728,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Crypto HMAC",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.HMAC",
           "name": "HMAC",
           "package": "crypto-api",
@@ -3742,6 +4008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key carrying phantom types \u003ccode\u003ec\u003c/code\u003e and \u003ccode\u003ed\u003c/code\u003e, forcing the key data to only be used\n by particular hash algorithms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.HMAC",
           "name": "MacKey",
           "package": "crypto-api",
@@ -3751,6 +4018,7 @@
         "index": {
           "description": "key carrying phantom types and forcing the key data to only be used by particular hash algorithms",
           "hierarchy": "Crypto HMAC",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.HMAC",
           "name": "MacKey",
           "package": "crypto-api",
@@ -3764,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.HMAC",
           "name": "MacKey",
           "package": "crypto-api",
@@ -3773,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Crypto HMAC",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.HMAC",
           "name": "MacKey",
           "package": "crypto-api",
@@ -3787,6 +4057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage authentication code calculation for lazy bytestrings.\n \u003ccode\u003ehmac k msg\u003c/code\u003e will compute an authentication code for \u003ccode\u003emsg\u003c/code\u003e using key \u003ccode\u003ek\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.HMAC",
           "name": "hmac",
           "package": "crypto-api",
@@ -3797,6 +4068,7 @@
         "index": {
           "description": "Message authentication code calculation for lazy bytestrings hmac msg will compute an authentication code for msg using key",
           "hierarchy": "Crypto HMAC",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.HMAC",
           "name": "hmac",
           "normalized": "MacKey a b-\u003eByteString-\u003eb",
@@ -3812,6 +4084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehmac k msg\u003c/code\u003e will compute an authentication code for \u003ccode\u003emsg\u003c/code\u003e using key \u003ccode\u003ek\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.HMAC",
           "name": "hmac'",
           "package": "crypto-api",
@@ -3822,6 +4095,7 @@
         "index": {
           "description": "hmac msg will compute an authentication code for msg using key",
           "hierarchy": "Crypto HMAC",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.HMAC",
           "name": "hmac'",
           "normalized": "MacKey a b-\u003eByteString-\u003eb",
@@ -3837,6 +4111,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthors: Thomas DuBuisson\n\u003c/p\u003e\u003cp\u003eGeneric mode implementations useable by any correct BlockCipher\n instance Be aware there are no tests for CFB mode yet.  See\n \u003ccode\u003e\u003ca\u003eCrypto\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Modes",
           "name": "Modes",
           "package": "crypto-api",
@@ -3846,6 +4121,7 @@
         "index": {
           "description": "Authors Thomas DuBuisson Generic mode implementations useable by any correct BlockCipher instance Be aware there are no tests for CFB mode yet See Crypto",
           "hierarchy": "Crypto Modes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Modes",
           "name": "Modes",
           "package": "crypto-api",
@@ -3860,6 +4136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the cmac for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Modes",
           "name": "cMac",
           "package": "crypto-api",
@@ -3870,6 +4147,7 @@
         "index": {
           "description": "Obtain the cmac for lazy bytestrings",
           "hierarchy": "Crypto Modes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Modes",
           "name": "cMac",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -3886,6 +4164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the cmac for strict bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Modes",
           "name": "cMac'",
           "package": "crypto-api",
@@ -3896,6 +4175,7 @@
         "index": {
           "description": "Obtain the cmac for strict bytestrings",
           "hierarchy": "Crypto Modes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Modes",
           "name": "cMac'",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -3911,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Modes",
           "name": "cMacStar",
           "package": "crypto-api",
@@ -3920,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Crypto Modes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Modes",
           "name": "cMacStar",
           "normalized": "a-\u003e[ByteString]-\u003eByteString",
@@ -3936,6 +4218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the CMAC* on strict bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Modes",
           "name": "cMacStar'",
           "package": "crypto-api",
@@ -3946,6 +4229,7 @@
         "index": {
           "description": "Obtain the CMAC on strict bytestrings",
           "hierarchy": "Crypto Modes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Modes",
           "name": "cMacStar'",
           "normalized": "a-\u003e[ByteString]-\u003eByteString",
@@ -3962,6 +4246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher block chaining message authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Modes",
           "name": "cbcMac",
           "package": "crypto-api",
@@ -3972,6 +4257,7 @@
         "index": {
           "description": "Cipher block chaining message authentication",
           "hierarchy": "Crypto Modes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Modes",
           "name": "cbcMac",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -3988,6 +4274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher block chaining message authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Modes",
           "name": "cbcMac'",
           "package": "crypto-api",
@@ -3998,6 +4285,7 @@
         "index": {
           "description": "Cipher block chaining message authentication",
           "hierarchy": "Crypto Modes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Modes",
           "name": "cbcMac'",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -4014,6 +4302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform doubling as defined by the CMAC and SIV papers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Modes",
           "name": "dblIV",
           "package": "crypto-api",
@@ -4024,6 +4313,7 @@
         "index": {
           "description": "Perform doubling as defined by the CMAC and SIV papers",
           "hierarchy": "Crypto Modes",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Modes",
           "name": "dblIV",
           "normalized": "IV a-\u003eIV a",
@@ -4040,6 +4330,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePKCS5 (RFC 1423) and IPSec ESP (RFC 4303)\npadding methods are implemented both as trivial functions operating on\nbytestrings and as \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e routines usable from the \u003ca\u003eData.Serialize\u003c/a\u003e\nmodule.  These methods do not work for algorithms or pad sizes in\nexcess of 255 bytes (2040 bits, so extremely large as far as cipher\nneeds are concerned).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "Padding",
           "package": "crypto-api",
@@ -4049,6 +4340,7 @@
         "index": {
           "description": "PKCS5 RFC and IPSec ESP RFC padding methods are implemented both as trivial functions operating on bytestrings and as Put routines usable from the Data.Serialize module These methods do not work for algorithms or pad sizes in excess of bytes bits so extremely large as far as cipher needs are concerned",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "Padding",
           "package": "crypto-api",
@@ -4063,6 +4355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePKCS5 (aka RFC1423) padding method using the BlockCipher instance\n to determine the pad size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "padBlockSize",
           "package": "crypto-api",
@@ -4073,6 +4366,7 @@
         "index": {
           "description": "PKCS5 aka RFC1423 padding method using the BlockCipher instance to determine the pad size",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "padBlockSize",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -4089,6 +4383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad a bytestring to the IPSEC esp specification\n\u003c/p\u003e\u003cpre\u003e padESP m payload\n\u003c/pre\u003e\u003cp\u003eis equivilent to:\n\u003c/p\u003e\u003cpre\u003e\n               (msg)       (padding)       (length field)\n     B.concat [payload, B.pack [1,2,3,4..], B.pack [padLen]]\n\u003c/pre\u003e\u003cp\u003eWhere:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the msg is any payload, including TFC.\n\u003c/li\u003e\u003cli\u003e the padding is \u003c= 255\n\u003c/li\u003e\u003cli\u003e the length field is one byte.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNotice the result bytesting length remainder \u003ccode\u003er\u003c/code\u003e equals zero.  The lack\n  of a \"next header\" field means this function is not directly useable for\n  an IPSec implementation (copy/paste the 4 line function and add in a\n  \"next header\" field if you are making IPSec ESP).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "padESP",
           "package": "crypto-api",
@@ -4099,6 +4394,7 @@
         "index": {
           "description": "Pad bytestring to the IPSEC esp specification padESP payload is equivilent to msg padding length field B.concat payload B.pack B.pack padLen Where the msg is any payload including TFC the padding is the length field is one byte Notice the result bytesting length remainder equals zero The lack of next header field means this function is not directly useable for an IPSec implementation copy paste the line function and add in next header field if you are making IPSec ESP",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "padESP",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -4115,6 +4411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike padESP but use the BlockCipher instance to determine padding size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "padESPBlockSize",
           "package": "crypto-api",
@@ -4125,6 +4422,7 @@
         "index": {
           "description": "Like padESP but use the BlockCipher instance to determine padding size",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "padESPBlockSize",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -4141,6 +4439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePKCS5 (aka RFC1423) padding method.\n This method will not work properly for pad modulos \u003e 256\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "padPKCS5",
           "package": "crypto-api",
@@ -4151,6 +4450,7 @@
         "index": {
           "description": "PKCS5 aka RFC1423 padding method This method will not work properly for pad modulos",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "padPKCS5",
           "normalized": "ByteLength-\u003eByteString-\u003eByteString",
@@ -4167,6 +4467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad a bytestring to the IPSEC ESP specification using \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e.\n This can reduce copying if you are already using \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "putPadESP",
           "package": "crypto-api",
@@ -4177,6 +4478,7 @@
         "index": {
           "description": "Pad bytestring to the IPSEC ESP specification using Put This can reduce copying if you are already using Put",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "putPadESP",
           "normalized": "Int-\u003eByteString-\u003ePut",
@@ -4193,6 +4495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike putPadESP but using the BlockCipher instance to determine padding size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "putPadESPBlockSize",
           "package": "crypto-api",
@@ -4203,6 +4506,7 @@
         "index": {
           "description": "Like putPadESP but using the BlockCipher instance to determine padding size",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "putPadESPBlockSize",
           "normalized": "a-\u003eByteString-\u003ePut",
@@ -4219,6 +4523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEx:\n\u003c/p\u003e\u003cpre\u003e\n     putPaddedPKCS5 m bs\n\u003c/pre\u003e\u003cp\u003eWill pad out \u003ccode\u003ebs\u003c/code\u003e to a byte multiple\n of \u003ccode\u003em\u003c/code\u003e and put both the bytestring and it's padding via \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e\n (this saves on copying if you are already using Cereal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "putPaddedPKCS5",
           "package": "crypto-api",
@@ -4229,6 +4534,7 @@
         "index": {
           "description": "Ex putPaddedPKCS5 bs Will pad out bs to byte multiple of and put both the bytestring and it padding via Put this saves on copying if you are already using Cereal",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "putPaddedPKCS5",
           "normalized": "ByteLength-\u003eByteString-\u003ePut",
@@ -4245,6 +4551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpad and return the padded message (\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned if the padding is invalid)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "unpadESP",
           "package": "crypto-api",
@@ -4255,6 +4562,7 @@
         "index": {
           "description": "unpad and return the padded message Nothing is returned if the padding is invalid",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "unpadESP",
           "normalized": "ByteString-\u003eMaybe ByteString",
@@ -4271,6 +4579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpad a strict bytestring without checking the pad bytes and\n length any more than necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "unpadPKCS5",
           "package": "crypto-api",
@@ -4281,6 +4590,7 @@
         "index": {
           "description": "unpad strict bytestring without checking the pad bytes and length any more than necessary",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "unpadPKCS5",
           "normalized": "ByteString-\u003eByteString",
@@ -4297,6 +4607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpad a strict bytestring padded in the typical PKCS5 manner.\n This routine verifies all pad bytes and pad length match correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Padding",
           "name": "unpadPKCS5safe",
           "package": "crypto-api",
@@ -4307,6 +4618,7 @@
         "index": {
           "description": "unpad strict bytestring padded in the typical PKCS5 manner This routine verifies all pad bytes and pad length match correctly",
           "hierarchy": "Crypto Padding",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Padding",
           "name": "unpadPKCS5safe",
           "normalized": "ByteString-\u003eMaybe ByteString",
@@ -4323,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is for instantiating cryptographicly strong\ndeterminitic random bit generators (DRBGs, aka PRNGs) For the simple\nuse case of using the system random number generator\n(\u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e) to seed the DRBG:\n\u003c/p\u003e\u003cpre\u003e   g \u003c- newGenIO\n\u003c/pre\u003e\u003cp\u003eUsers needing to provide their own entropy can call \u003ccode\u003e\u003ca\u003enewGen\u003c/a\u003e\u003c/code\u003e directly\n\u003c/p\u003e\u003cpre\u003e    entropy \u003c- getEntropy nrBytes\n    let generator = newGen entropy\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "Random",
           "package": "crypto-api",
@@ -4332,6 +4645,7 @@
         "index": {
           "description": "This module is for instantiating cryptographicly strong determinitic random bit generators DRBGs aka PRNGs For the simple use case of using the system random number generator Random to seed the DRBG newGenIO Users needing to provide their own entropy can call newGen directly entropy getEntropy nrBytes let generator newGen entropy",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "Random",
           "package": "crypto-api",
@@ -4346,6 +4660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of random bit generators that allows for the possibility\n of failure, reseeding, providing entropy at the same time as\n requesting bytes\n\u003c/p\u003e\u003cp\u003eMinimum complete definition: \u003ccode\u003e\u003ca\u003enewGen\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egenSeedLength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egenBytes\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003ereseed\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ereseedInfo\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ereseedPeriod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "CryptoRandomGen",
           "package": "crypto-api",
@@ -4355,6 +4670,7 @@
         "index": {
           "description": "class of random bit generators that allows for the possibility of failure reseeding providing entropy at the same time as requesting bytes Minimum complete definition newGen genSeedLength genBytes reseed reseedInfo reseedPeriod",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "CryptoRandomGen",
           "package": "crypto-api",
@@ -4369,6 +4685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerator failures should always return the appropriate GenError.\n Note \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e in an instance of exception but wether or not an\n exception is thrown depends on if the selected generator (read:\n if you don't want execptions from code that uses \u003ccode\u003e\u003ca\u003ethrow\u003c/a\u003e\u003c/code\u003e then\n pass in a generator that never has an error for the used functions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "GenError",
           "package": "crypto-api",
@@ -4378,6 +4695,7 @@
         "index": {
           "description": "Generator failures should always return the appropriate GenError Note GenError in an instance of exception but wether or not an exception is thrown depends on if the selected generator read if you don want execptions from code that uses throw then pass in generator that never has an error for the used functions",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "GenError",
           "package": "crypto-api",
@@ -4391,6 +4709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "ReseedInfo",
           "package": "crypto-api",
@@ -4399,6 +4718,7 @@
         },
         "index": {
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "ReseedInfo",
           "package": "crypto-api",
@@ -4413,6 +4733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot that it is technically correct as an instance of\n \u003ccode\u003e\u003ca\u003eCryptoRandomGen\u003c/a\u003e\u003c/code\u003e, but simply because it's a reasonable engineering\n choice here is a CryptoRandomGen which streams the system\n randoms. Take note:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e It uses the default definition of \u003ccode\u003egenByteWithEntropy\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewGen\u003c/a\u003e\u003c/code\u003e will always fail!\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ereseed\u003c/a\u003e\u003c/code\u003e will always fail!\n\u003c/li\u003e\u003cli\u003e the handle to the system random is never closed\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "SystemRandom",
           "package": "crypto-api",
@@ -4422,6 +4743,7 @@
         "index": {
           "description": "Not that it is technically correct as an instance of CryptoRandomGen but simply because it reasonable engineering choice here is CryptoRandomGen which streams the system randoms Take note It uses the default definition of genByteWithEntropy newGen will always fail reseed will always fail the handle to the system random is never closed",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "SystemRandom",
           "package": "crypto-api",
@@ -4436,6 +4758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egenBytes len g\u003c/code\u003e generates a random ByteString of length\n \u003ccode\u003elen\u003c/code\u003e and new generator.  The \u003ca\u003eMonadCryptoRandom\u003c/a\u003e package\n has routines useful for converting the ByteString to\n commonly needed values (but \u003ca\u003ecereal\u003c/a\u003e or other\n deserialization libraries would also work).\n\u003c/p\u003e\u003cp\u003eThis routine can fail if the generator has gone too long\n without a reseed (usually this is in the ball-park of 2^48\n requests).  Suggested error in this cases is \u003ccode\u003e\u003ca\u003eNeedReseed\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "genBytes",
           "package": "crypto-api",
@@ -4446,6 +4769,7 @@
         "index": {
           "description": "genBytes len generates random ByteString of length len and new generator The MonadCryptoRandom package has routines useful for converting the ByteString to commonly needed values but cereal or other deserialization libraries would also work This routine can fail if the generator has gone too long without reseed usually this is in the ball-park of requests Suggested error in this cases is NeedReseed",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "genBytes",
           "normalized": "ByteLength-\u003ea-\u003eEither GenError(ByteString,a)",
@@ -4462,6 +4786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egenBytesWithEntropy g i entropy\u003c/code\u003e generates \u003ccode\u003ei\u003c/code\u003e random\n bytes and use the additional input \u003ccode\u003eentropy\u003c/code\u003e in the\n generation of the requested data to increase the confidence\n our generated data is a secure random stream.\n\u003c/p\u003e\u003cp\u003eSome generators use \u003ccode\u003eentropy\u003c/code\u003e to perturb the state of the\n generator, meaning:\n\u003c/p\u003e\u003cpre\u003e\n     (_,g2') \u003c- genBytesWithEntropy len g1 ent\n     (_,g2 ) \u003c- genBytes len g1\n     g2 /= g2'\n\u003c/pre\u003e\u003cp\u003eBut this is not required.\n\u003c/p\u003e\u003cp\u003eDefault:\n\u003c/p\u003e\u003cpre\u003e\n     genBytesWithEntropy g bytes entropy = xor entropy (genBytes g bytes)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "genBytesWithEntropy",
           "package": "crypto-api",
@@ -4472,6 +4797,7 @@
         "index": {
           "description": "genBytesWithEntropy entropy generates random bytes and use the additional input entropy in the generation of the requested data to increase the confidence our generated data is secure random stream Some generators use entropy to perturb the state of the generator meaning g2 genBytesWithEntropy len g1 ent g2 genBytes len g1 g2 g2 But this is not required Default genBytesWithEntropy bytes entropy xor entropy genBytes bytes",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "genBytesWithEntropy",
           "normalized": "ByteLength-\u003eByteString-\u003ea-\u003eEither GenError(ByteString,a)",
@@ -4488,6 +4814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of input entropy necessary to instantiate or reseed\n a generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "genSeedLength",
           "package": "crypto-api",
@@ -4498,6 +4825,7 @@
         "index": {
           "description": "Length of input entropy necessary to instantiate or reseed generator",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "genSeedLength",
           "package": "crypto-api",
@@ -4512,6 +4840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstantiate a new random bit generator.  The provided\n bytestring should be of length \u003e= genSeedLength.  If the\n bytestring is shorter then the call may fail (suggested\n error: \u003ccode\u003e\u003ca\u003eNotEnoughEntropy\u003c/a\u003e\u003c/code\u003e).  If the bytestring is of\n sufficent length the call should always succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "newGen",
           "package": "crypto-api",
@@ -4522,6 +4851,7 @@
         "index": {
           "description": "Instantiate new random bit generator The provided bytestring should be of length genSeedLength If the bytestring is shorter then the call may fail suggested error NotEnoughEntropy If the bytestring is of sufficent length the call should always succeed",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "newGen",
           "normalized": "ByteString-\u003eEither GenError a",
@@ -4538,6 +4868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default this uses \u003ca\u003eSystem.Crypto.Random\u003c/a\u003e to obtain\n entropy for \u003ccode\u003e\u003ca\u003enewGen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "newGenIO",
           "package": "crypto-api",
@@ -4548,6 +4879,7 @@
         "index": {
           "description": "By default this uses System.Crypto.Random to obtain entropy for newGen",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "newGenIO",
           "package": "crypto-api",
@@ -4562,6 +4894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the generator has produced too many random bytes on its\n existing seed it will return \u003ccode\u003e\u003ca\u003eNeedReseed\u003c/a\u003e\u003c/code\u003e.  In that case,\n reseed the generator using this function and a new\n high-entropy seed of length \u003e= \u003ccode\u003e\u003ca\u003egenSeedLength\u003c/a\u003e\u003c/code\u003e.  Using\n bytestrings that are too short can result in an error\n (\u003ccode\u003e\u003ca\u003eNotEnoughEntropy\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "reseed",
           "package": "crypto-api",
@@ -4572,6 +4905,7 @@
         "index": {
           "description": "If the generator has produced too many random bytes on its existing seed it will return NeedReseed In that case reseed the generator using this function and new high-entropy seed of length genSeedLength Using bytestrings that are too short can result in an error NotEnoughEntropy",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "reseed",
           "normalized": "ByteString-\u003ea-\u003eEither GenError a",
@@ -4587,6 +4921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates how soon a reseed is needed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "reseedInfo",
           "package": "crypto-api",
@@ -4597,6 +4932,7 @@
         "index": {
           "description": "Indicates how soon reseed is needed",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "reseedInfo",
           "normalized": "a-\u003eReseedInfo",
@@ -4613,6 +4949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the period between reseeds (constant for most generators).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "reseedPeriod",
           "package": "crypto-api",
@@ -4623,6 +4960,7 @@
         "index": {
           "description": "Indicates the period between reseeds constant for most generators",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "reseedPeriod",
           "normalized": "a-\u003eReseedInfo",
@@ -4639,6 +4977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile the safety and wisdom of a splitting function depends on the\n properties of the generator being split, several arguments from\n informed people indicate such a function is safe for NIST SP 800-90\n generators.  (see libraries@haskell.org discussion around Sept, Oct\n 2010).  You can find implementations of such generators in the \u003ccode\u003eDRBG\u003c/code\u003e\n package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Random",
           "name": "splitGen",
           "package": "crypto-api",
@@ -4649,6 +4988,7 @@
         "index": {
           "description": "While the safety and wisdom of splitting function depends on the properties of the generator being split several arguments from informed people indicate such function is safe for NIST SP generators see libraries@haskell.org discussion around Sept Oct You can find implementations of such generators in the DRBG package",
           "hierarchy": "Crypto Random",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Random",
           "name": "splitGen",
           "normalized": "a-\u003eEither GenError(a,a)",
@@ -4692,6 +5032,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType aliases used throughout the crypto-api modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "Types",
           "package": "crypto-api",
@@ -4701,6 +5042,7 @@
         "index": {
           "description": "Type aliases used throughout the crypto-api modules",
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "Types",
           "package": "crypto-api",
@@ -4715,6 +5057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of a field (usually a ByteString) in bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "BitLength",
           "package": "crypto-api",
@@ -4724,6 +5067,7 @@
         "index": {
           "description": "The length of field usually ByteString in bits",
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "BitLength",
           "package": "crypto-api",
@@ -4737,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "BlockCipherError",
           "package": "crypto-api",
@@ -4745,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "BlockCipherError",
           "package": "crypto-api",
@@ -4759,6 +5105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length fo a field in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "ByteLength",
           "package": "crypto-api",
@@ -4768,6 +5115,7 @@
         "index": {
           "description": "The length fo field in bytes",
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "ByteLength",
           "package": "crypto-api",
@@ -4782,6 +5130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitilization Vectors for BlockCipher implementations (IV k) are\n used for various modes and guarrenteed to be blockSize bits long.\n The common ways to obtain an IV are to generate one (\u003ccode\u003egetIV\u003c/code\u003e or\n \u003ccode\u003egetIVIO\u003c/code\u003e) or to use one provided with the ciphertext (using the\n \u003ccode\u003eSerialize\u003c/code\u003e instance of IV).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ezeroIV\u003c/code\u003e also exists and is of particular use for starting \u003ccode\u003ectr\u003c/code\u003e\n mode with a fresh key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "IV",
           "package": "crypto-api",
@@ -4791,6 +5140,7 @@
         "index": {
           "description": "Initilization Vectors for BlockCipher implementations IV are used for various modes and guarrenteed to be blockSize bits long The common ways to obtain an IV are to generate one getIV or getIVIO or to use one provided with the ciphertext using the Serialize instance of IV zeroIV also exists and is of particular use for starting ctr mode with fresh key",
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "IV",
           "package": "crypto-api",
@@ -4804,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "AuthenticationFailed",
           "package": "crypto-api",
@@ -4813,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "AuthenticationFailed",
           "package": "crypto-api",
@@ -4826,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "IV",
           "package": "crypto-api",
@@ -4835,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "IV",
           "package": "crypto-api",
@@ -4848,6 +5202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "InputTooLong",
           "package": "crypto-api",
@@ -4857,6 +5212,7 @@
         },
         "index": {
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "InputTooLong",
           "package": "crypto-api",
@@ -4870,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "Other",
           "package": "crypto-api",
@@ -4879,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "Other",
           "package": "crypto-api",
@@ -4892,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Types",
           "name": "initializationVector",
           "package": "crypto-api",
@@ -4901,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Crypto Types",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Types",
           "name": "initializationVector",
           "package": "crypto-api",
@@ -4915,6 +5275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA small selection of utilities that might be of use to others working with bytestring/number combinations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "Util",
           "package": "crypto-api",
@@ -4924,6 +5285,7 @@
         "index": {
           "description": "small selection of utilities that might be of use to others working with bytestring number combinations",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "Util",
           "package": "crypto-api",
@@ -4938,6 +5300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix \u003ccode\u003e\u003ca\u003efor\u003c/a\u003e\u003c/code\u003e operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "(.::.)",
           "package": "crypto-api",
@@ -4948,6 +5311,7 @@
         "index": {
           "description": "Infix for operator",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "(.::.) .::.",
           "normalized": "Tagged a b-\u003ea-\u003eb",
@@ -4963,6 +5327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to convert bytestrings to integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "bs2i",
           "package": "crypto-api",
@@ -4973,6 +5338,7 @@
         "index": {
           "description": "Helper function to convert bytestrings to integers",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "bs2i",
           "normalized": "ByteString-\u003eInteger",
@@ -4987,6 +5353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "c_constTimeEq",
           "package": "crypto-api",
@@ -4996,6 +5363,7 @@
         },
         "index": {
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "c_constTimeEq",
           "normalized": "Ptr CChar-\u003ePtr CChar-\u003eCInt-\u003eIO CInt",
@@ -5011,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "collect",
           "package": "crypto-api",
@@ -5020,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "collect",
           "normalized": "Int-\u003e[ByteString]-\u003e[ByteString]",
@@ -5035,6 +5405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks two bytestrings for equality without breaches for\n timing attacks.\n\u003c/p\u003e\u003cp\u003eSemantically, \u003ccode\u003econstTimeEq = (==)\u003c/code\u003e.  However, \u003ccode\u003ex == y\u003c/code\u003e takes less\n time when the first byte is different than when the first byte\n is equal.  This side channel allows an attacker to mount a\n timing attack.  On the other hand, \u003ccode\u003econstTimeEq\u003c/code\u003e always takes the\n same time regardless of the bytestrings' contents, unless they are\n of difference size.\n\u003c/p\u003e\u003cp\u003eYou should always use \u003ccode\u003econstTimeEq\u003c/code\u003e when comparing secrets,\n otherwise you may leave a significant security hole\n (cf. \u003ca\u003ehttp://codahale.com/a-lesson-in-timing-attacks/\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "constTimeEq",
           "package": "crypto-api",
@@ -5045,6 +5416,7 @@
         "index": {
           "description": "Checks two bytestrings for equality without breaches for timing attacks Semantically constTimeEq However takes less time when the first byte is different than when the first byte is equal This side channel allows an attacker to mount timing attack On the other hand constTimeEq always takes the same time regardless of the bytestrings contents unless they are of difference size You should always use constTimeEq when comparing secrets otherwise you may leave significant security hole cf http codahale.com a-lesson-in-timing-attacks",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "constTimeEq",
           "normalized": "ByteString-\u003eByteString-\u003eBool",
@@ -5061,6 +5433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain a tagged value for a particular instantiated type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "for",
           "package": "crypto-api",
@@ -5071,6 +5444,7 @@
         "index": {
           "description": "Obtain tagged value for particular instantiated type",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "for",
           "normalized": "Tagged a b-\u003ea-\u003eb",
@@ -5086,6 +5460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ei2bs bitLen i\u003c/code\u003e converts \u003ccode\u003ei\u003c/code\u003e to a \u003ccode\u003eByteString\u003c/code\u003e of \u003ccode\u003ebitLen\u003c/code\u003e bits (must be a multiple of 8).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "i2bs",
           "package": "crypto-api",
@@ -5096,6 +5471,7 @@
         "index": {
           "description": "i2bs bitLen converts to ByteString of bitLen bits must be multiple of",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "i2bs",
           "normalized": "Int-\u003eInteger-\u003eByteString",
@@ -5111,6 +5487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ei2bs_unsized i\u003c/code\u003e converts \u003ccode\u003ei\u003c/code\u003e to a \u003ccode\u003eByteString\u003c/code\u003e of sufficient bytes to express the integer.\n The integer must be non-negative and a zero will be encoded in one byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "i2bs_unsized",
           "package": "crypto-api",
@@ -5121,6 +5498,7 @@
         "index": {
           "description": "i2bs unsized converts to ByteString of sufficient bytes to express the integer The integer must be non-negative and zero will be encoded in one byte",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "i2bs_unsized",
           "normalized": "Integer-\u003eByteString",
@@ -5136,6 +5514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eincBS bs\u003c/code\u003e inefficiently computes the value \u003ccode\u003ei2bs (8 * B.length bs) (bs2i bs + 1)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "incBS",
           "package": "crypto-api",
@@ -5146,6 +5525,7 @@
         "index": {
           "description": "incBS bs inefficiently computes the value i2bs B.length bs bs2i bs",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "incBS",
           "normalized": "ByteString-\u003eByteString",
@@ -5162,6 +5542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezipWith xor + Pack\n\u003c/p\u003e\u003cp\u003eThis is written intentionally to take advantage\n of the bytestring libraries \u003ccode\u003ezipWith'\u003c/code\u003e rewrite rule but at the\n extra cost of the resulting lazy bytestring being more fragmented\n than either of the two inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "zwp",
           "package": "crypto-api",
@@ -5172,6 +5553,7 @@
         "index": {
           "description": "zipWith xor Pack This is written intentionally to take advantage of the bytestring libraries zipWith rewrite rule but at the extra cost of the resulting lazy bytestring being more fragmented than either of the two inputs",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "zwp",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -5187,6 +5569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezipWith xor + Pack\n As a result of rewrite rules, this should automatically be\n optimized (at compile time). to use the bytestring libraries\n \u003ccode\u003ezipWith'\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:26 UTC 2014",
           "module": "Crypto.Util",
           "name": "zwp'",
           "package": "crypto-api",
@@ -5197,6 +5580,7 @@
         "index": {
           "description": "zipWith xor Pack As result of rewrite rules this should automatically be optimized at compile time to use the bytestring libraries zipWith function",
           "hierarchy": "Crypto Util",
+          "indexed": "2014-03-11T17:43:26",
           "module": "Crypto.Util",
           "name": "zwp'",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",

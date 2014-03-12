@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "huffman"
+        "phrase": "huffman",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "Huffman",
           "package": "huffman",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "Huffman",
           "package": "huffman",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "Bit",
           "package": "huffman",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "Bit",
           "package": "huffman",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "Code",
           "package": "huffman",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "Code",
           "package": "huffman",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "HuffmanTree",
           "package": "huffman",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "HuffmanTree",
           "package": "huffman",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "Empty",
           "package": "huffman",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "Empty",
           "package": "huffman",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "Leaf",
           "package": "huffman",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "Leaf",
           "package": "huffman",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "Node",
           "package": "huffman",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "Node",
           "package": "huffman",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "One",
           "package": "huffman",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "One",
           "package": "huffman",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "Zero",
           "package": "huffman",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "Zero",
           "package": "huffman",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "codewords",
           "package": "huffman",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "codewords",
           "normalized": "HuffmanTree a-\u003eCode a",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "huffman",
           "package": "huffman",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "huffman",
           "normalized": "[(a,b)]-\u003eHuffmanTree a",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "huffmanSorted",
           "package": "huffman",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "huffmanSorted",
           "normalized": "[(a,b)]-\u003eHuffmanTree a",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:26 UTC 2014",
           "module": "Data.Compression.Huffman",
           "name": "ppCode",
           "package": "huffman",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Data Compression Huffman",
+          "indexed": "2014-03-11T18:53:26",
           "module": "Data.Compression.Huffman",
           "name": "ppCode",
           "normalized": "Code a-\u003eString",

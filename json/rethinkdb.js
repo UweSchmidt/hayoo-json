@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rethinkdb"
+        "phrase": "rethinkdb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Driver",
           "name": "Driver",
           "package": "rethinkdb",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Driver",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Driver",
           "name": "Driver",
           "package": "rethinkdb",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Driver",
           "name": "JSON",
           "package": "rethinkdb",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Driver",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Driver",
           "name": "JSON",
           "package": "rethinkdb",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the raw query response into useful values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Driver",
           "name": "Result",
           "package": "rethinkdb",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Convert the raw query response into useful values",
           "hierarchy": "Database RethinkDB Driver",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Driver",
           "name": "Result",
           "package": "rethinkdb",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePer-query settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Driver",
           "name": "RunOptions",
           "package": "rethinkdb",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Per-query settings",
           "hierarchy": "Database RethinkDB Driver",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Driver",
           "name": "RunOptions",
           "package": "rethinkdb",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Driver",
           "name": "WriteResponse",
           "package": "rethinkdb",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Driver",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Driver",
           "name": "WriteResponse",
           "package": "rethinkdb",
@@ -242,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Driver",
           "name": "convertResult",
           "package": "rethinkdb",
@@ -251,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Driver",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Driver",
           "name": "convertResult",
           "normalized": "MVar Response-\u003eIO a",
@@ -578,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions from the ReQL (RethinkDB Query Language)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Functions",
           "name": "Functions",
           "package": "rethinkdb",
@@ -587,6 +600,7 @@
         "index": {
           "description": "Functions from the ReQL RethinkDB Query Language",
           "hierarchy": "Database RethinkDB Functions",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Functions",
           "name": "Functions",
           "package": "rethinkdb",
@@ -601,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdering specification for orderBy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Functions",
           "name": "Order",
           "package": "rethinkdb",
@@ -610,6 +625,7 @@
         "index": {
           "description": "Ordering specification for orderBy",
           "hierarchy": "Database RethinkDB Functions",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Functions",
           "name": "Order",
           "package": "rethinkdb",
@@ -3149,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "MapReduce",
           "package": "rethinkdb",
@@ -3157,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "MapReduce",
           "package": "rethinkdb",
@@ -3170,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "MapReduce",
           "package": "rethinkdb",
@@ -3178,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "MapReduce",
           "package": "rethinkdb",
@@ -3191,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "Map",
           "package": "rethinkdb",
@@ -3200,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "Map",
           "normalized": "Map(ReQL-\u003eReQL)",
@@ -3215,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "MapReduce",
           "package": "rethinkdb",
@@ -3224,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "MapReduce",
           "normalized": "MapReduce(ReQL-\u003eReQL)(ReQL-\u003eReQL-\u003eReQL)(Maybe(ReQL-\u003eReQL))",
@@ -3239,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "None",
           "package": "rethinkdb",
@@ -3248,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "None",
           "package": "rethinkdb",
@@ -3261,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "baseAttrToAttr",
           "package": "rethinkdb",
@@ -3270,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "baseAttrToAttr",
           "normalized": "BaseAttribute-\u003eAttribute",
@@ -3285,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "extract",
           "package": "rethinkdb",
@@ -3294,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "extract",
           "normalized": "Maybe Int-\u003eTermType-\u003e[MapReduce]-\u003e[(Key,MapReduce)]-\u003e(ReQL-\u003eReQL,[MapReduce])",
@@ -3308,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "extractOne",
           "package": "rethinkdb",
@@ -3317,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "extractOne",
           "normalized": "MapReduce-\u003eWriterT[MapReduce](State(Maybe Int))(ReQL-\u003eReQL)",
@@ -3332,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "fst3",
           "package": "rethinkdb",
@@ -3341,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -3355,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "mappableTypes",
           "package": "rethinkdb",
@@ -3364,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "mappableTypes",
           "normalized": "[TermType]",
@@ -3379,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "noRecurse",
           "package": "rethinkdb",
@@ -3388,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "noRecurse",
           "package": "rethinkdb",
@@ -3401,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "notNone",
           "package": "rethinkdb",
@@ -3410,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "notNone",
           "normalized": "MapReduce-\u003eBool",
@@ -3425,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "optargsToBase",
           "package": "rethinkdb",
@@ -3434,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "optargsToBase",
           "normalized": "[BaseAttribute]-\u003eMaybe(Maybe ReQL)",
@@ -3449,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "rebuild0",
           "package": "rethinkdb",
@@ -3458,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "rebuild0",
           "normalized": "TermType-\u003e[MapReduce]-\u003e[(Text,MapReduce)]-\u003eMapReduce",
@@ -3472,6 +3516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "rebuildx",
           "package": "rethinkdb",
@@ -3481,6 +3526,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "rebuildx",
           "normalized": "TermType-\u003e[MapReduce]-\u003e[(Key,MapReduce)]-\u003eMapReduce",
@@ -3495,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "sameVar",
           "package": "rethinkdb",
@@ -3504,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "sameVar",
           "normalized": "Int-\u003eBaseArray-\u003eBool",
@@ -3519,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "snd3",
           "package": "rethinkdb",
@@ -3528,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -3542,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "termToMapReduce",
           "package": "rethinkdb",
@@ -3551,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "termToMapReduce",
           "normalized": "(ReQL-\u003eReQL)-\u003eState QuerySettings(ReQL-\u003eReQL,ReQL-\u003eReQL-\u003eReQL,Maybe(ReQL-\u003eReQL))",
@@ -3566,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "thrd3",
           "package": "rethinkdb",
@@ -3575,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "thrd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -3589,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "toFun1",
           "package": "rethinkdb",
@@ -3598,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "toFun1",
           "normalized": "ReQL-\u003eReQL-\u003eReQL",
@@ -3613,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "toFun2",
           "package": "rethinkdb",
@@ -3622,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "toFun2",
           "normalized": "ReQL-\u003eReQL-\u003eReQL-\u003eReQL",
@@ -3637,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "toMapReduce",
           "package": "rethinkdb",
@@ -3646,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "toMapReduce",
           "normalized": "Int-\u003eBaseReQL-\u003eMapReduce",
@@ -3661,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "toReduce",
           "package": "rethinkdb",
@@ -3670,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "toReduce",
           "normalized": "MapReduce-\u003e(ReQL-\u003eReQL,ReQL-\u003eReQL-\u003eReQL,Maybe(ReQL-\u003eReQL))",
@@ -3685,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "unionReduce",
           "package": "rethinkdb",
@@ -3694,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "unionReduce",
           "normalized": "ReQL-\u003eReQL-\u003eReQL",
@@ -3709,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.MapReduce",
           "name": "wrap",
           "package": "rethinkdb",
@@ -3718,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB MapReduce",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.MapReduce",
           "name": "wrap",
           "normalized": "BaseReQL-\u003eReQL",
@@ -3732,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "Network",
           "package": "rethinkdb",
@@ -3740,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "Network",
           "package": "rethinkdb",
@@ -3753,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "Cursor",
           "package": "rethinkdb",
@@ -3761,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "Cursor",
           "package": "rethinkdb",
@@ -3774,6 +3844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "ErrorCode",
           "package": "rethinkdb",
@@ -3782,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "ErrorCode",
           "package": "rethinkdb",
@@ -3796,6 +3868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe raw response to a query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "Response",
           "package": "rethinkdb",
@@ -3805,6 +3878,7 @@
         "index": {
           "description": "The raw response to query",
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "Response",
           "package": "rethinkdb",
@@ -3818,6 +3892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBConnectionError",
           "package": "rethinkdb",
@@ -3826,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBConnectionError",
           "package": "rethinkdb",
@@ -3839,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBError",
           "package": "rethinkdb",
@@ -3847,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBError",
           "package": "rethinkdb",
@@ -3861,6 +3939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection to the database server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBHandle",
           "package": "rethinkdb",
@@ -3870,6 +3949,7 @@
         "index": {
           "description": "connection to the database server",
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBHandle",
           "package": "rethinkdb",
@@ -3883,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "SuccessCode",
           "package": "rethinkdb",
@@ -3891,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "SuccessCode",
           "package": "rethinkdb",
@@ -3950,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "ErrorResponse",
           "package": "rethinkdb",
@@ -3959,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "ErrorResponse",
           "package": "rethinkdb",
@@ -4018,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBConnectionError",
           "package": "rethinkdb",
@@ -4027,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBConnectionError",
           "package": "rethinkdb",
@@ -4063,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBHandle",
           "package": "rethinkdb",
@@ -4072,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "RethinkDBHandle",
           "package": "rethinkdb",
@@ -4131,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "SuccessResponse",
           "package": "rethinkdb",
@@ -4140,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "SuccessResponse",
           "package": "rethinkdb",
@@ -4300,6 +4390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "errorResponse",
           "package": "rethinkdb",
@@ -4309,6 +4400,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "errorResponse",
           "package": "rethinkdb",
@@ -4345,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "makeCursor",
           "package": "rethinkdb",
@@ -4354,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "makeCursor",
           "normalized": "MVar Response-\u003eIO(Cursor Datum)",
@@ -4395,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "nextResponse",
           "package": "rethinkdb",
@@ -4404,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "nextResponse",
           "normalized": "Response-\u003eIO()",
@@ -4420,6 +4516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "rdbDatabase",
           "package": "rethinkdb",
@@ -4430,6 +4527,7 @@
         "index": {
           "description": "The default database",
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "rdbDatabase",
           "package": "rethinkdb",
@@ -4443,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "rdbHandle",
           "package": "rethinkdb",
@@ -4452,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "rdbHandle",
           "package": "rethinkdb",
@@ -4465,6 +4565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "rdbThread",
           "package": "rethinkdb",
@@ -4474,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "rdbThread",
           "package": "rethinkdb",
@@ -4488,6 +4590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe next token to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "rdbToken",
           "package": "rethinkdb",
@@ -4498,6 +4601,7 @@
         "index": {
           "description": "The next token to use",
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "rdbToken",
           "package": "rethinkdb",
@@ -4511,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "rdbWait",
           "package": "rethinkdb",
@@ -4520,6 +4625,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "rdbWait",
           "normalized": "IORef(Map Token(Chan Response,BaseReQL,IO()))",
@@ -4535,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "rdbWriteLock",
           "package": "rethinkdb",
@@ -4544,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "rdbWriteLock",
           "package": "rethinkdb",
@@ -4557,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "runQLQuery",
           "package": "rethinkdb",
@@ -4566,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "runQLQuery",
           "normalized": "RethinkDBHandle-\u003eQuery-\u003eBaseReQL-\u003eIO(MVar Response)",
@@ -4581,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "successCode",
           "package": "rethinkdb",
@@ -4590,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "successCode",
           "package": "rethinkdb",
@@ -4603,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Network",
           "name": "successDatums",
           "package": "rethinkdb",
@@ -4612,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Network",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Network",
           "name": "successDatums",
           "normalized": "[Datum]",
@@ -4654,6 +4768,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports all of Database.RethinkDB except for the\n names that clash with Prelude or Data.Time\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.NoClash",
           "name": "NoClash",
           "package": "rethinkdb",
@@ -4663,6 +4778,7 @@
         "index": {
           "description": "This module exports all of Database.RethinkDB except for the names that clash with Prelude or Data.Time",
           "hierarchy": "Database RethinkDB NoClash",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.NoClash",
           "name": "NoClash",
           "package": "rethinkdb",
@@ -4676,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Objects",
           "name": "Objects",
           "package": "rethinkdb",
@@ -4684,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Objects",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Objects",
           "name": "Objects",
           "package": "rethinkdb",
@@ -4698,6 +4816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA database, referenced by name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Objects",
           "name": "Database",
           "package": "rethinkdb",
@@ -4707,6 +4826,7 @@
         "index": {
           "description": "database referenced by name",
           "hierarchy": "Database RethinkDB Objects",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Objects",
           "name": "Database",
           "package": "rethinkdb",
@@ -4720,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Objects",
           "name": "Datum",
           "package": "rethinkdb",
@@ -4728,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Objects",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Objects",
           "name": "Datum",
           "package": "rethinkdb",
@@ -4742,6 +4864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions used to create an index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Objects",
           "name": "IndexCreateOptions",
           "package": "rethinkdb",
@@ -4751,6 +4874,7 @@
         "index": {
           "description": "Options used to create an index",
           "hierarchy": "Database RethinkDB Objects",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Objects",
           "name": "IndexCreateOptions",
           "package": "rethinkdb",
@@ -4764,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Objects",
           "name": "Key",
           "package": "rethinkdb",
@@ -4772,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Objects",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Objects",
           "name": "Key",
           "package": "rethinkdb",
@@ -4786,6 +4912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Objects",
           "name": "Table",
           "package": "rethinkdb",
@@ -4795,6 +4922,7 @@
         "index": {
           "description": "table description",
           "hierarchy": "Database RethinkDB Objects",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Objects",
           "name": "Table",
           "package": "rethinkdb",
@@ -4809,6 +4937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions used to create a table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Objects",
           "name": "TableCreateOptions",
           "package": "rethinkdb",
@@ -4818,6 +4947,7 @@
         "index": {
           "description": "Options used to create table",
           "hierarchy": "Database RethinkDB Objects",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Objects",
           "name": "TableCreateOptions",
           "package": "rethinkdb",
@@ -5086,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Backtrace",
           "name": "Backtrace",
           "package": "rethinkdb",
@@ -5094,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Backtrace",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Backtrace",
           "name": "Backtrace",
           "package": "rethinkdb",
@@ -5107,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Backtrace",
           "name": "Backtrace",
           "package": "rethinkdb",
@@ -5115,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Backtrace",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Backtrace",
           "name": "Backtrace",
           "package": "rethinkdb",
@@ -5128,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Backtrace",
           "name": "Backtrace",
           "package": "rethinkdb",
@@ -5137,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Backtrace",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Backtrace",
           "name": "Backtrace",
           "package": "rethinkdb",
@@ -5150,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Backtrace",
           "name": "frames",
           "package": "rethinkdb",
@@ -5159,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Backtrace",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Backtrace",
           "name": "frames",
           "package": "rethinkdb",
@@ -5171,6 +5309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5179,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5192,6 +5332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5200,6 +5341,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5213,6 +5355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5222,6 +5365,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5235,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "key",
           "package": "rethinkdb",
@@ -5244,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "key",
           "package": "rethinkdb",
@@ -5256,6 +5402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "val",
           "package": "rethinkdb",
@@ -5265,6 +5412,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.AssocPair",
           "name": "val",
           "package": "rethinkdb",
@@ -5277,6 +5425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "DatumType",
           "package": "rethinkdb",
@@ -5285,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum DatumType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "DatumType",
           "package": "rethinkdb",
@@ -5298,6 +5448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "DatumType",
           "package": "rethinkdb",
@@ -5306,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum DatumType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "DatumType",
           "package": "rethinkdb",
@@ -5319,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_ARRAY",
           "package": "rethinkdb",
@@ -5328,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum DatumType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_ARRAY",
           "package": "rethinkdb",
@@ -5341,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_BOOL",
           "package": "rethinkdb",
@@ -5350,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum DatumType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_BOOL",
           "package": "rethinkdb",
@@ -5363,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_NULL",
           "package": "rethinkdb",
@@ -5372,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum DatumType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_NULL",
           "package": "rethinkdb",
@@ -5385,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_NUM",
           "package": "rethinkdb",
@@ -5394,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum DatumType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_NUM",
           "package": "rethinkdb",
@@ -5407,6 +5567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_OBJECT",
           "package": "rethinkdb",
@@ -5416,6 +5577,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum DatumType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_OBJECT",
           "package": "rethinkdb",
@@ -5429,6 +5591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_STR",
           "package": "rethinkdb",
@@ -5438,6 +5601,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum DatumType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum.DatumType",
           "name": "R_STR",
           "package": "rethinkdb",
@@ -5451,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "Datum",
           "package": "rethinkdb",
@@ -5459,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "Datum",
           "package": "rethinkdb",
@@ -5472,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "Datum",
           "package": "rethinkdb",
@@ -5480,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "Datum",
           "package": "rethinkdb",
@@ -5493,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "Datum",
           "package": "rethinkdb",
@@ -5502,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "Datum",
           "package": "rethinkdb",
@@ -5515,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "ext'field",
           "package": "rethinkdb",
@@ -5524,6 +5695,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "ext'field",
           "package": "rethinkdb",
@@ -5536,6 +5708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_array",
           "package": "rethinkdb",
@@ -5545,6 +5718,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_array",
           "package": "rethinkdb",
@@ -5557,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_bool",
           "package": "rethinkdb",
@@ -5566,6 +5741,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_bool",
           "package": "rethinkdb",
@@ -5578,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_num",
           "package": "rethinkdb",
@@ -5587,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_num",
           "package": "rethinkdb",
@@ -5599,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_object",
           "package": "rethinkdb",
@@ -5608,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_object",
           "package": "rethinkdb",
@@ -5620,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_str",
           "package": "rethinkdb",
@@ -5629,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "r_str",
           "package": "rethinkdb",
@@ -5641,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "type'",
           "package": "rethinkdb",
@@ -5650,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Datum",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Datum",
           "name": "type'",
           "package": "rethinkdb",
@@ -5662,6 +5846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame.FrameType",
           "name": "FrameType",
           "package": "rethinkdb",
@@ -5670,6 +5855,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame FrameType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame.FrameType",
           "name": "FrameType",
           "package": "rethinkdb",
@@ -5683,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame.FrameType",
           "name": "FrameType",
           "package": "rethinkdb",
@@ -5691,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame FrameType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame.FrameType",
           "name": "FrameType",
           "package": "rethinkdb",
@@ -5704,6 +5892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame.FrameType",
           "name": "OPT",
           "package": "rethinkdb",
@@ -5713,6 +5902,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame FrameType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame.FrameType",
           "name": "OPT",
           "package": "rethinkdb",
@@ -5726,6 +5916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame.FrameType",
           "name": "POS",
           "package": "rethinkdb",
@@ -5735,6 +5926,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame FrameType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame.FrameType",
           "name": "POS",
           "package": "rethinkdb",
@@ -5748,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "Frame",
           "package": "rethinkdb",
@@ -5756,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "Frame",
           "package": "rethinkdb",
@@ -5769,6 +5963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "Frame",
           "package": "rethinkdb",
@@ -5777,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "Frame",
           "package": "rethinkdb",
@@ -5790,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "Frame",
           "package": "rethinkdb",
@@ -5799,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "Frame",
           "package": "rethinkdb",
@@ -5812,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "opt",
           "package": "rethinkdb",
@@ -5821,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "opt",
           "package": "rethinkdb",
@@ -5833,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "pos",
           "package": "rethinkdb",
@@ -5842,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "pos",
           "package": "rethinkdb",
@@ -5854,6 +6056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "type'",
           "package": "rethinkdb",
@@ -5863,6 +6066,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Frame",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Frame",
           "name": "type'",
           "package": "rethinkdb",
@@ -5875,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5883,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5896,6 +6102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5904,6 +6111,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5917,6 +6125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5926,6 +6135,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -5939,6 +6149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "key",
           "package": "rethinkdb",
@@ -5948,6 +6159,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "key",
           "package": "rethinkdb",
@@ -5960,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "val",
           "package": "rethinkdb",
@@ -5969,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.AssocPair",
           "name": "val",
           "package": "rethinkdb",
@@ -5981,6 +6195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "QueryType",
           "package": "rethinkdb",
@@ -5989,6 +6204,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query QueryType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "QueryType",
           "package": "rethinkdb",
@@ -6002,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "QueryType",
           "package": "rethinkdb",
@@ -6010,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query QueryType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "QueryType",
           "package": "rethinkdb",
@@ -6023,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "CONTINUE",
           "package": "rethinkdb",
@@ -6032,6 +6251,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query QueryType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "CONTINUE",
           "package": "rethinkdb",
@@ -6045,6 +6265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "START",
           "package": "rethinkdb",
@@ -6054,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query QueryType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "START",
           "package": "rethinkdb",
@@ -6067,6 +6289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "STOP",
           "package": "rethinkdb",
@@ -6076,6 +6299,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query QueryType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query.QueryType",
           "name": "STOP",
           "package": "rethinkdb",
@@ -6089,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "Query",
           "package": "rethinkdb",
@@ -6097,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "Query",
           "package": "rethinkdb",
@@ -6110,6 +6336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "Query",
           "package": "rethinkdb",
@@ -6118,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "Query",
           "package": "rethinkdb",
@@ -6131,6 +6359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "Query",
           "package": "rethinkdb",
@@ -6140,6 +6369,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "Query",
           "package": "rethinkdb",
@@ -6153,6 +6383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "global_optargs",
           "package": "rethinkdb",
@@ -6162,6 +6393,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "global_optargs",
           "package": "rethinkdb",
@@ -6174,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "oBSOLETE_noreply",
           "package": "rethinkdb",
@@ -6183,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "oBSOLETE_noreply",
           "package": "rethinkdb",
@@ -6196,6 +6430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "query",
           "package": "rethinkdb",
@@ -6205,6 +6440,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "query",
           "package": "rethinkdb",
@@ -6217,6 +6453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "token",
           "package": "rethinkdb",
@@ -6226,6 +6463,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "token",
           "package": "rethinkdb",
@@ -6238,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "type'",
           "package": "rethinkdb",
@@ -6247,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Query",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Query",
           "name": "type'",
           "package": "rethinkdb",
@@ -6259,6 +6499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "ResponseType",
           "package": "rethinkdb",
@@ -6267,6 +6508,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response ResponseType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "ResponseType",
           "package": "rethinkdb",
@@ -6280,6 +6522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "ResponseType",
           "package": "rethinkdb",
@@ -6288,6 +6531,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response ResponseType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "ResponseType",
           "package": "rethinkdb",
@@ -6301,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "CLIENT_ERROR",
           "package": "rethinkdb",
@@ -6310,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response ResponseType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "CLIENT_ERROR",
           "package": "rethinkdb",
@@ -6323,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "COMPILE_ERROR",
           "package": "rethinkdb",
@@ -6332,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response ResponseType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "COMPILE_ERROR",
           "package": "rethinkdb",
@@ -6345,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "RUNTIME_ERROR",
           "package": "rethinkdb",
@@ -6354,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response ResponseType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "RUNTIME_ERROR",
           "package": "rethinkdb",
@@ -6367,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "SUCCESS_ATOM",
           "package": "rethinkdb",
@@ -6376,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response ResponseType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "SUCCESS_ATOM",
           "package": "rethinkdb",
@@ -6389,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "SUCCESS_PARTIAL",
           "package": "rethinkdb",
@@ -6398,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response ResponseType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "SUCCESS_PARTIAL",
           "package": "rethinkdb",
@@ -6411,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "SUCCESS_SEQUENCE",
           "package": "rethinkdb",
@@ -6420,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response ResponseType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response.ResponseType",
           "name": "SUCCESS_SEQUENCE",
           "package": "rethinkdb",
@@ -6433,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "Response",
           "package": "rethinkdb",
@@ -6441,6 +6698,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "Response",
           "package": "rethinkdb",
@@ -6454,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "Response",
           "package": "rethinkdb",
@@ -6462,6 +6721,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "Response",
           "package": "rethinkdb",
@@ -6475,6 +6735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "Response",
           "package": "rethinkdb",
@@ -6484,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "Response",
           "package": "rethinkdb",
@@ -6497,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "backtrace",
           "package": "rethinkdb",
@@ -6506,6 +6769,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "backtrace",
           "package": "rethinkdb",
@@ -6518,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "response",
           "package": "rethinkdb",
@@ -6527,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "response",
           "package": "rethinkdb",
@@ -6539,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "token",
           "package": "rethinkdb",
@@ -6548,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "token",
           "package": "rethinkdb",
@@ -6560,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "type'",
           "package": "rethinkdb",
@@ -6569,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Response",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Response",
           "name": "type'",
           "package": "rethinkdb",
@@ -6581,6 +6851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -6589,6 +6860,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -6602,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -6610,6 +6883,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -6623,6 +6897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -6632,6 +6907,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "AssocPair",
           "package": "rethinkdb",
@@ -6645,6 +6921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "key",
           "package": "rethinkdb",
@@ -6654,6 +6931,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "key",
           "package": "rethinkdb",
@@ -6666,6 +6944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "val",
           "package": "rethinkdb",
@@ -6675,6 +6954,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term AssocPair",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.AssocPair",
           "name": "val",
           "package": "rethinkdb",
@@ -6687,6 +6967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TermType",
           "package": "rethinkdb",
@@ -6695,6 +6976,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TermType",
           "package": "rethinkdb",
@@ -6708,6 +6990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TermType",
           "package": "rethinkdb",
@@ -6716,6 +6999,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TermType",
           "package": "rethinkdb",
@@ -6729,6 +7013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ADD",
           "package": "rethinkdb",
@@ -6738,6 +7023,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ADD",
           "package": "rethinkdb",
@@ -6751,6 +7037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ALL",
           "package": "rethinkdb",
@@ -6760,6 +7047,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ALL",
           "package": "rethinkdb",
@@ -6773,6 +7061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ANY",
           "package": "rethinkdb",
@@ -6782,6 +7071,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ANY",
           "package": "rethinkdb",
@@ -6795,6 +7085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "APPEND",
           "package": "rethinkdb",
@@ -6804,6 +7095,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "APPEND",
           "package": "rethinkdb",
@@ -6817,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "APRIL",
           "package": "rethinkdb",
@@ -6826,6 +7119,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "APRIL",
           "package": "rethinkdb",
@@ -6839,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ASC",
           "package": "rethinkdb",
@@ -6848,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ASC",
           "package": "rethinkdb",
@@ -6861,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "AUGUST",
           "package": "rethinkdb",
@@ -6870,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "AUGUST",
           "package": "rethinkdb",
@@ -6883,6 +7181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "BETWEEN",
           "package": "rethinkdb",
@@ -6892,6 +7191,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "BETWEEN",
           "package": "rethinkdb",
@@ -6905,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "BRANCH",
           "package": "rethinkdb",
@@ -6914,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "BRANCH",
           "package": "rethinkdb",
@@ -6927,6 +7229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "CHANGE_AT",
           "package": "rethinkdb",
@@ -6936,6 +7239,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "CHANGE_AT",
           "package": "rethinkdb",
@@ -6949,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "COERCE_TO",
           "package": "rethinkdb",
@@ -6958,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "COERCE_TO",
           "package": "rethinkdb",
@@ -6971,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "CONCATMAP",
           "package": "rethinkdb",
@@ -6980,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "CONCATMAP",
           "package": "rethinkdb",
@@ -6993,6 +7301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "CONTAINS",
           "package": "rethinkdb",
@@ -7002,6 +7311,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "CONTAINS",
           "package": "rethinkdb",
@@ -7015,6 +7325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "COUNT",
           "package": "rethinkdb",
@@ -7024,6 +7335,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "COUNT",
           "package": "rethinkdb",
@@ -7037,6 +7349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DATE",
           "package": "rethinkdb",
@@ -7046,6 +7359,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DATE",
           "package": "rethinkdb",
@@ -7059,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DATUM",
           "package": "rethinkdb",
@@ -7068,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DATUM",
           "package": "rethinkdb",
@@ -7081,6 +7397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DAY",
           "package": "rethinkdb",
@@ -7090,6 +7407,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DAY",
           "package": "rethinkdb",
@@ -7103,6 +7421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DAY_OF_WEEK",
           "package": "rethinkdb",
@@ -7112,6 +7431,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DAY_OF_WEEK",
           "package": "rethinkdb",
@@ -7125,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DAY_OF_YEAR",
           "package": "rethinkdb",
@@ -7134,6 +7455,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DAY_OF_YEAR",
           "package": "rethinkdb",
@@ -7147,6 +7469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DB",
           "package": "rethinkdb",
@@ -7156,6 +7479,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DB",
           "package": "rethinkdb",
@@ -7169,6 +7493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DB_CREATE",
           "package": "rethinkdb",
@@ -7178,6 +7503,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DB_CREATE",
           "package": "rethinkdb",
@@ -7191,6 +7517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DB_DROP",
           "package": "rethinkdb",
@@ -7200,6 +7527,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DB_DROP",
           "package": "rethinkdb",
@@ -7213,6 +7541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DB_LIST",
           "package": "rethinkdb",
@@ -7222,6 +7551,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DB_LIST",
           "package": "rethinkdb",
@@ -7235,6 +7565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DECEMBER",
           "package": "rethinkdb",
@@ -7244,6 +7575,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DECEMBER",
           "package": "rethinkdb",
@@ -7257,6 +7589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DEFAULT",
           "package": "rethinkdb",
@@ -7266,6 +7599,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DEFAULT",
           "package": "rethinkdb",
@@ -7279,6 +7613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DELETE",
           "package": "rethinkdb",
@@ -7288,6 +7623,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DELETE",
           "package": "rethinkdb",
@@ -7301,6 +7637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DELETE_AT",
           "package": "rethinkdb",
@@ -7310,6 +7647,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DELETE_AT",
           "package": "rethinkdb",
@@ -7323,6 +7661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DESC",
           "package": "rethinkdb",
@@ -7332,6 +7671,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DESC",
           "package": "rethinkdb",
@@ -7345,6 +7685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DIFFERENCE",
           "package": "rethinkdb",
@@ -7354,6 +7695,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DIFFERENCE",
           "package": "rethinkdb",
@@ -7367,6 +7709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DISTINCT",
           "package": "rethinkdb",
@@ -7376,6 +7719,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DISTINCT",
           "package": "rethinkdb",
@@ -7389,6 +7733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DIV",
           "package": "rethinkdb",
@@ -7398,6 +7743,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DIV",
           "package": "rethinkdb",
@@ -7411,6 +7757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DURING",
           "package": "rethinkdb",
@@ -7420,6 +7767,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "DURING",
           "package": "rethinkdb",
@@ -7433,6 +7781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "EPOCH_TIME",
           "package": "rethinkdb",
@@ -7442,6 +7791,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "EPOCH_TIME",
           "package": "rethinkdb",
@@ -7455,6 +7805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "EQ",
           "package": "rethinkdb",
@@ -7464,6 +7815,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "EQ",
           "package": "rethinkdb",
@@ -7477,6 +7829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "EQ_JOIN",
           "package": "rethinkdb",
@@ -7486,6 +7839,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "EQ_JOIN",
           "package": "rethinkdb",
@@ -7499,6 +7853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ERROR",
           "package": "rethinkdb",
@@ -7508,6 +7863,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ERROR",
           "package": "rethinkdb",
@@ -7521,6 +7877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FEBRUARY",
           "package": "rethinkdb",
@@ -7530,6 +7887,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FEBRUARY",
           "package": "rethinkdb",
@@ -7543,6 +7901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FILTER",
           "package": "rethinkdb",
@@ -7552,6 +7911,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FILTER",
           "package": "rethinkdb",
@@ -7565,6 +7925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FOREACH",
           "package": "rethinkdb",
@@ -7574,6 +7935,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FOREACH",
           "package": "rethinkdb",
@@ -7587,6 +7949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FRIDAY",
           "package": "rethinkdb",
@@ -7596,6 +7959,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FRIDAY",
           "package": "rethinkdb",
@@ -7609,6 +7973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FUNC",
           "package": "rethinkdb",
@@ -7618,6 +7983,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FUNC",
           "package": "rethinkdb",
@@ -7631,6 +7997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FUNCALL",
           "package": "rethinkdb",
@@ -7640,6 +8007,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "FUNCALL",
           "package": "rethinkdb",
@@ -7653,6 +8021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GE",
           "package": "rethinkdb",
@@ -7662,6 +8031,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GE",
           "package": "rethinkdb",
@@ -7675,6 +8045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GET",
           "package": "rethinkdb",
@@ -7684,6 +8055,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GET",
           "package": "rethinkdb",
@@ -7697,6 +8069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GET_ALL",
           "package": "rethinkdb",
@@ -7706,6 +8079,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GET_ALL",
           "package": "rethinkdb",
@@ -7719,6 +8093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GET_FIELD",
           "package": "rethinkdb",
@@ -7728,6 +8103,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GET_FIELD",
           "package": "rethinkdb",
@@ -7741,6 +8117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GROUPBY",
           "package": "rethinkdb",
@@ -7750,6 +8127,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GROUPBY",
           "package": "rethinkdb",
@@ -7763,6 +8141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GROUPED_MAP_REDUCE",
           "package": "rethinkdb",
@@ -7772,6 +8151,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GROUPED_MAP_REDUCE",
           "package": "rethinkdb",
@@ -7785,6 +8165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GT",
           "package": "rethinkdb",
@@ -7794,6 +8175,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "GT",
           "package": "rethinkdb",
@@ -7807,6 +8189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "HAS_FIELDS",
           "package": "rethinkdb",
@@ -7816,6 +8199,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "HAS_FIELDS",
           "package": "rethinkdb",
@@ -7829,6 +8213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "HOURS",
           "package": "rethinkdb",
@@ -7838,6 +8223,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "HOURS",
           "package": "rethinkdb",
@@ -7851,6 +8237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "IMPLICIT_VAR",
           "package": "rethinkdb",
@@ -7860,6 +8247,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "IMPLICIT_VAR",
           "package": "rethinkdb",
@@ -7873,6 +8261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INDEXES_OF",
           "package": "rethinkdb",
@@ -7882,6 +8271,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INDEXES_OF",
           "package": "rethinkdb",
@@ -7895,6 +8285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INDEX_CREATE",
           "package": "rethinkdb",
@@ -7904,6 +8295,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INDEX_CREATE",
           "package": "rethinkdb",
@@ -7917,6 +8309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INDEX_DROP",
           "package": "rethinkdb",
@@ -7926,6 +8319,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INDEX_DROP",
           "package": "rethinkdb",
@@ -7939,6 +8333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INDEX_LIST",
           "package": "rethinkdb",
@@ -7948,6 +8343,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INDEX_LIST",
           "package": "rethinkdb",
@@ -7961,6 +8357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INFO",
           "package": "rethinkdb",
@@ -7970,6 +8367,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INFO",
           "package": "rethinkdb",
@@ -7983,6 +8381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INNER_JOIN",
           "package": "rethinkdb",
@@ -7992,6 +8391,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INNER_JOIN",
           "package": "rethinkdb",
@@ -8005,6 +8405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INSERT",
           "package": "rethinkdb",
@@ -8014,6 +8415,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INSERT",
           "package": "rethinkdb",
@@ -8027,6 +8429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INSERT_AT",
           "package": "rethinkdb",
@@ -8036,6 +8439,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "INSERT_AT",
           "package": "rethinkdb",
@@ -8049,6 +8453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "IN_TIMEZONE",
           "package": "rethinkdb",
@@ -8058,6 +8463,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "IN_TIMEZONE",
           "package": "rethinkdb",
@@ -8071,6 +8477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ISO8601",
           "package": "rethinkdb",
@@ -8080,6 +8487,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ISO8601",
           "package": "rethinkdb",
@@ -8093,6 +8501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "IS_EMPTY",
           "package": "rethinkdb",
@@ -8102,6 +8511,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "IS_EMPTY",
           "package": "rethinkdb",
@@ -8115,6 +8525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JANUARY",
           "package": "rethinkdb",
@@ -8124,6 +8535,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JANUARY",
           "package": "rethinkdb",
@@ -8137,6 +8549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JAVASCRIPT",
           "package": "rethinkdb",
@@ -8146,6 +8559,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JAVASCRIPT",
           "package": "rethinkdb",
@@ -8159,6 +8573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JSON",
           "package": "rethinkdb",
@@ -8168,6 +8583,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JSON",
           "package": "rethinkdb",
@@ -8181,6 +8597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JULY",
           "package": "rethinkdb",
@@ -8190,6 +8607,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JULY",
           "package": "rethinkdb",
@@ -8203,6 +8621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JUNE",
           "package": "rethinkdb",
@@ -8212,6 +8631,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "JUNE",
           "package": "rethinkdb",
@@ -8225,6 +8645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "KEYS",
           "package": "rethinkdb",
@@ -8234,6 +8655,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "KEYS",
           "package": "rethinkdb",
@@ -8247,6 +8669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "LE",
           "package": "rethinkdb",
@@ -8256,6 +8679,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "LE",
           "package": "rethinkdb",
@@ -8269,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "LIMIT",
           "package": "rethinkdb",
@@ -8278,6 +8703,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "LIMIT",
           "package": "rethinkdb",
@@ -8291,6 +8717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "LITERAL",
           "package": "rethinkdb",
@@ -8300,6 +8727,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "LITERAL",
           "package": "rethinkdb",
@@ -8313,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "LT",
           "package": "rethinkdb",
@@ -8322,6 +8751,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "LT",
           "package": "rethinkdb",
@@ -8335,6 +8765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MAKE_ARRAY",
           "package": "rethinkdb",
@@ -8344,6 +8775,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MAKE_ARRAY",
           "package": "rethinkdb",
@@ -8357,6 +8789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MAKE_OBJ",
           "package": "rethinkdb",
@@ -8366,6 +8799,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MAKE_OBJ",
           "package": "rethinkdb",
@@ -8379,6 +8813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MAP",
           "package": "rethinkdb",
@@ -8388,6 +8823,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MAP",
           "package": "rethinkdb",
@@ -8401,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MARCH",
           "package": "rethinkdb",
@@ -8410,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MARCH",
           "package": "rethinkdb",
@@ -8423,6 +8861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MATCH",
           "package": "rethinkdb",
@@ -8432,6 +8871,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MATCH",
           "package": "rethinkdb",
@@ -8445,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MAY",
           "package": "rethinkdb",
@@ -8454,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MAY",
           "package": "rethinkdb",
@@ -8467,6 +8909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MERGE",
           "package": "rethinkdb",
@@ -8476,6 +8919,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MERGE",
           "package": "rethinkdb",
@@ -8489,6 +8933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MINUTES",
           "package": "rethinkdb",
@@ -8498,6 +8943,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MINUTES",
           "package": "rethinkdb",
@@ -8511,6 +8957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MOD",
           "package": "rethinkdb",
@@ -8520,6 +8967,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MOD",
           "package": "rethinkdb",
@@ -8533,6 +8981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MONDAY",
           "package": "rethinkdb",
@@ -8542,6 +8991,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MONDAY",
           "package": "rethinkdb",
@@ -8555,6 +9005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MONTH",
           "package": "rethinkdb",
@@ -8564,6 +9015,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MONTH",
           "package": "rethinkdb",
@@ -8577,6 +9029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MUL",
           "package": "rethinkdb",
@@ -8586,6 +9039,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "MUL",
           "package": "rethinkdb",
@@ -8599,6 +9053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NE",
           "package": "rethinkdb",
@@ -8608,6 +9063,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NE",
           "package": "rethinkdb",
@@ -8621,6 +9077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NOT",
           "package": "rethinkdb",
@@ -8630,6 +9087,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NOT",
           "package": "rethinkdb",
@@ -8643,6 +9101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NOVEMBER",
           "package": "rethinkdb",
@@ -8652,6 +9111,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NOVEMBER",
           "package": "rethinkdb",
@@ -8665,6 +9125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NOW",
           "package": "rethinkdb",
@@ -8674,6 +9135,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NOW",
           "package": "rethinkdb",
@@ -8687,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NTH",
           "package": "rethinkdb",
@@ -8696,6 +9159,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "NTH",
           "package": "rethinkdb",
@@ -8709,6 +9173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "OCTOBER",
           "package": "rethinkdb",
@@ -8718,6 +9183,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "OCTOBER",
           "package": "rethinkdb",
@@ -8731,6 +9197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ORDERBY",
           "package": "rethinkdb",
@@ -8740,6 +9207,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ORDERBY",
           "package": "rethinkdb",
@@ -8753,6 +9221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "OUTER_JOIN",
           "package": "rethinkdb",
@@ -8762,6 +9231,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "OUTER_JOIN",
           "package": "rethinkdb",
@@ -8775,6 +9245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "PLUCK",
           "package": "rethinkdb",
@@ -8784,6 +9255,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "PLUCK",
           "package": "rethinkdb",
@@ -8797,6 +9269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "PREPEND",
           "package": "rethinkdb",
@@ -8806,6 +9279,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "PREPEND",
           "package": "rethinkdb",
@@ -8819,6 +9293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "REDUCE",
           "package": "rethinkdb",
@@ -8828,6 +9303,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "REDUCE",
           "package": "rethinkdb",
@@ -8841,6 +9317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "REPLACE",
           "package": "rethinkdb",
@@ -8850,6 +9327,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "REPLACE",
           "package": "rethinkdb",
@@ -8863,6 +9341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SAMPLE",
           "package": "rethinkdb",
@@ -8872,6 +9351,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SAMPLE",
           "package": "rethinkdb",
@@ -8885,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SATURDAY",
           "package": "rethinkdb",
@@ -8894,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SATURDAY",
           "package": "rethinkdb",
@@ -8907,6 +9389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SECONDS",
           "package": "rethinkdb",
@@ -8916,6 +9399,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SECONDS",
           "package": "rethinkdb",
@@ -8929,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SEPTEMBER",
           "package": "rethinkdb",
@@ -8938,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SEPTEMBER",
           "package": "rethinkdb",
@@ -8951,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SET_DIFFERENCE",
           "package": "rethinkdb",
@@ -8960,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SET_DIFFERENCE",
           "package": "rethinkdb",
@@ -8973,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SET_INSERT",
           "package": "rethinkdb",
@@ -8982,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SET_INSERT",
           "package": "rethinkdb",
@@ -8995,6 +9485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SET_INTERSECTION",
           "package": "rethinkdb",
@@ -9004,6 +9495,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SET_INTERSECTION",
           "package": "rethinkdb",
@@ -9017,6 +9509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SET_UNION",
           "package": "rethinkdb",
@@ -9026,6 +9519,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SET_UNION",
           "package": "rethinkdb",
@@ -9039,6 +9533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SKIP",
           "package": "rethinkdb",
@@ -9048,6 +9543,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SKIP",
           "package": "rethinkdb",
@@ -9061,6 +9557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SLICE",
           "package": "rethinkdb",
@@ -9070,6 +9567,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SLICE",
           "package": "rethinkdb",
@@ -9083,6 +9581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SPLICE_AT",
           "package": "rethinkdb",
@@ -9092,6 +9591,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SPLICE_AT",
           "package": "rethinkdb",
@@ -9105,6 +9605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SUB",
           "package": "rethinkdb",
@@ -9114,6 +9615,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SUB",
           "package": "rethinkdb",
@@ -9127,6 +9629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SUNDAY",
           "package": "rethinkdb",
@@ -9136,6 +9639,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "SUNDAY",
           "package": "rethinkdb",
@@ -9149,6 +9653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TABLE",
           "package": "rethinkdb",
@@ -9158,6 +9663,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TABLE",
           "package": "rethinkdb",
@@ -9171,6 +9677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TABLE_CREATE",
           "package": "rethinkdb",
@@ -9180,6 +9687,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TABLE_CREATE",
           "package": "rethinkdb",
@@ -9193,6 +9701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TABLE_DROP",
           "package": "rethinkdb",
@@ -9202,6 +9711,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TABLE_DROP",
           "package": "rethinkdb",
@@ -9215,6 +9725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TABLE_LIST",
           "package": "rethinkdb",
@@ -9224,6 +9735,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TABLE_LIST",
           "package": "rethinkdb",
@@ -9237,6 +9749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "THURSDAY",
           "package": "rethinkdb",
@@ -9246,6 +9759,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "THURSDAY",
           "package": "rethinkdb",
@@ -9259,6 +9773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TIME",
           "package": "rethinkdb",
@@ -9268,6 +9783,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TIME",
           "package": "rethinkdb",
@@ -9281,6 +9797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TIMEZONE",
           "package": "rethinkdb",
@@ -9290,6 +9807,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TIMEZONE",
           "package": "rethinkdb",
@@ -9303,6 +9821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TIME_OF_DAY",
           "package": "rethinkdb",
@@ -9312,6 +9831,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TIME_OF_DAY",
           "package": "rethinkdb",
@@ -9325,6 +9845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TO_EPOCH_TIME",
           "package": "rethinkdb",
@@ -9334,6 +9855,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TO_EPOCH_TIME",
           "package": "rethinkdb",
@@ -9347,6 +9869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TO_ISO8601",
           "package": "rethinkdb",
@@ -9356,6 +9879,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TO_ISO8601",
           "package": "rethinkdb",
@@ -9369,6 +9893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TUESDAY",
           "package": "rethinkdb",
@@ -9378,6 +9903,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TUESDAY",
           "package": "rethinkdb",
@@ -9391,6 +9917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TYPEOF",
           "package": "rethinkdb",
@@ -9400,6 +9927,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "TYPEOF",
           "package": "rethinkdb",
@@ -9413,6 +9941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "UNION",
           "package": "rethinkdb",
@@ -9422,6 +9951,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "UNION",
           "package": "rethinkdb",
@@ -9435,6 +9965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "UPDATE",
           "package": "rethinkdb",
@@ -9444,6 +9975,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "UPDATE",
           "package": "rethinkdb",
@@ -9457,6 +9989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "VAR",
           "package": "rethinkdb",
@@ -9466,6 +9999,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "VAR",
           "package": "rethinkdb",
@@ -9479,6 +10013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "WEDNESDAY",
           "package": "rethinkdb",
@@ -9488,6 +10023,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "WEDNESDAY",
           "package": "rethinkdb",
@@ -9501,6 +10037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "WITHOUT",
           "package": "rethinkdb",
@@ -9510,6 +10047,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "WITHOUT",
           "package": "rethinkdb",
@@ -9523,6 +10061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "WITH_FIELDS",
           "package": "rethinkdb",
@@ -9532,6 +10071,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "WITH_FIELDS",
           "package": "rethinkdb",
@@ -9545,6 +10085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "YEAR",
           "package": "rethinkdb",
@@ -9554,6 +10095,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "YEAR",
           "package": "rethinkdb",
@@ -9567,6 +10109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ZIP",
           "package": "rethinkdb",
@@ -9576,6 +10119,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term TermType",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term.TermType",
           "name": "ZIP",
           "package": "rethinkdb",
@@ -9589,6 +10133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "Term",
           "package": "rethinkdb",
@@ -9597,6 +10142,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "Term",
           "package": "rethinkdb",
@@ -9610,6 +10156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "Term",
           "package": "rethinkdb",
@@ -9618,6 +10165,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "Term",
           "package": "rethinkdb",
@@ -9631,6 +10179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "Term",
           "package": "rethinkdb",
@@ -9640,6 +10189,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "Term",
           "package": "rethinkdb",
@@ -9653,6 +10203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "args",
           "package": "rethinkdb",
@@ -9662,6 +10213,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "args",
           "package": "rethinkdb",
@@ -9674,6 +10226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "datum",
           "package": "rethinkdb",
@@ -9683,6 +10236,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "datum",
           "package": "rethinkdb",
@@ -9695,6 +10249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "ext'field",
           "package": "rethinkdb",
@@ -9704,6 +10259,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "ext'field",
           "package": "rethinkdb",
@@ -9716,6 +10272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "optargs",
           "package": "rethinkdb",
@@ -9725,6 +10282,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "optargs",
           "package": "rethinkdb",
@@ -9737,6 +10295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "type'",
           "package": "rethinkdb",
@@ -9746,6 +10305,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 Term",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.Term",
           "name": "type'",
           "package": "rethinkdb",
@@ -9758,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy.Version",
           "name": "Version",
           "package": "rethinkdb",
@@ -9766,6 +10327,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 VersionDummy Version",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy.Version",
           "name": "Version",
           "package": "rethinkdb",
@@ -9779,6 +10341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy.Version",
           "name": "Version",
           "package": "rethinkdb",
@@ -9787,6 +10350,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 VersionDummy Version",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy.Version",
           "name": "Version",
           "package": "rethinkdb",
@@ -9800,6 +10364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy.Version",
           "name": "V0_1",
           "package": "rethinkdb",
@@ -9809,6 +10374,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 VersionDummy Version",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy.Version",
           "name": "V0_1",
           "package": "rethinkdb",
@@ -9821,6 +10387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy.Version",
           "name": "V0_2",
           "package": "rethinkdb",
@@ -9830,6 +10397,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 VersionDummy Version",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy.Version",
           "name": "V0_2",
           "package": "rethinkdb",
@@ -9842,6 +10410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy",
           "name": "VersionDummy",
           "package": "rethinkdb",
@@ -9850,6 +10419,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 VersionDummy",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy",
           "name": "VersionDummy",
           "package": "rethinkdb",
@@ -9863,6 +10433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy",
           "name": "VersionDummy",
           "package": "rethinkdb",
@@ -9871,6 +10442,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 VersionDummy",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy",
           "name": "VersionDummy",
           "package": "rethinkdb",
@@ -9884,6 +10456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy",
           "name": "VersionDummy",
           "package": "rethinkdb",
@@ -9893,6 +10466,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2 VersionDummy",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2.VersionDummy",
           "name": "VersionDummy",
           "package": "rethinkdb",
@@ -9906,6 +10480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2",
           "name": "Ql2",
           "package": "rethinkdb",
@@ -9914,6 +10489,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2",
           "name": "Ql2",
           "package": "rethinkdb",
@@ -9927,6 +10503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2",
           "name": "fileDescriptorProto",
           "package": "rethinkdb",
@@ -9936,6 +10513,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2",
           "name": "fileDescriptorProto",
           "package": "rethinkdb",
@@ -9949,6 +10527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Protobuf.Ql2",
           "name": "protoInfo",
           "package": "rethinkdb",
@@ -9958,6 +10537,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Protobuf Ql2",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Protobuf.Ql2",
           "name": "protoInfo",
           "package": "rethinkdb",
@@ -9972,6 +10552,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuilding RQL queries in Haskell\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "ReQL",
           "package": "rethinkdb",
@@ -9981,6 +10562,7 @@
         "index": {
           "description": "Building RQL queries in Haskell",
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "ReQL",
           "package": "rethinkdb",
@@ -9995,6 +10577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key/value pair used for building objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "Attribute",
           "package": "rethinkdb",
@@ -10004,6 +10587,7 @@
         "index": {
           "description": "key value pair used for building objects",
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "Attribute",
           "package": "rethinkdb",
@@ -10017,6 +10601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "Backtrace",
           "package": "rethinkdb",
@@ -10025,6 +10610,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "Backtrace",
           "package": "rethinkdb",
@@ -10038,6 +10624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseArray",
           "package": "rethinkdb",
@@ -10046,6 +10633,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseArray",
           "package": "rethinkdb",
@@ -10059,6 +10647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseAttribute",
           "package": "rethinkdb",
@@ -10067,6 +10656,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseAttribute",
           "package": "rethinkdb",
@@ -10080,6 +10670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseReQL",
           "package": "rethinkdb",
@@ -10088,6 +10679,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseReQL",
           "package": "rethinkdb",
@@ -10102,6 +10694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn upper or lower bound for between and during\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "Bound",
           "package": "rethinkdb",
@@ -10111,6 +10704,7 @@
         "index": {
           "description": "An upper or lower bound for between and during",
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "Bound",
           "package": "rethinkdb",
@@ -10125,6 +10719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert other types into ReqL expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "Expr",
           "package": "rethinkdb",
@@ -10134,6 +10729,7 @@
         "index": {
           "description": "Convert other types into ReqL expressions",
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "Expr",
           "package": "rethinkdb",
@@ -10148,6 +10744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert into a ReQL object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "Obj",
           "package": "rethinkdb",
@@ -10157,6 +10754,7 @@
         "index": {
           "description": "Convert into ReQL object",
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "Obj",
           "package": "rethinkdb",
@@ -10171,6 +10769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of key/value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "Object",
           "package": "rethinkdb",
@@ -10180,6 +10779,7 @@
         "index": {
           "description": "list of key value pairs",
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "Object",
           "package": "rethinkdb",
@@ -10193,6 +10793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "QuerySettings",
           "package": "rethinkdb",
@@ -10201,6 +10802,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "QuerySettings",
           "package": "rethinkdb",
@@ -10215,6 +10817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RQL term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "ReQL",
           "package": "rethinkdb",
@@ -10224,6 +10827,7 @@
         "index": {
           "description": "An RQL term",
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "ReQL",
           "package": "rethinkdb",
@@ -10259,6 +10863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseAttribute",
           "package": "rethinkdb",
@@ -10268,6 +10873,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseAttribute",
           "package": "rethinkdb",
@@ -10281,6 +10887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseReQL",
           "package": "rethinkdb",
@@ -10290,6 +10897,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "BaseReQL",
           "package": "rethinkdb",
@@ -10328,6 +10936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "Object",
           "package": "rethinkdb",
@@ -10337,6 +10946,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "Object",
           "package": "rethinkdb",
@@ -10375,6 +10985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "QuerySettings",
           "package": "rethinkdb",
@@ -10384,6 +10995,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "QuerySettings",
           "package": "rethinkdb",
@@ -10397,6 +11009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "ReQL",
           "package": "rethinkdb",
@@ -10406,6 +11019,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "ReQL",
           "package": "rethinkdb",
@@ -10419,6 +11033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "arr",
           "package": "rethinkdb",
@@ -10428,6 +11043,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "arr",
           "normalized": "a-\u003eArray",
@@ -10442,6 +11058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "baseArray",
           "package": "rethinkdb",
@@ -10451,6 +11068,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "baseArray",
           "normalized": "Array-\u003eState QuerySettings BaseArray",
@@ -10466,6 +11084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "baseObject",
           "package": "rethinkdb",
@@ -10475,6 +11094,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "baseObject",
           "normalized": "State QuerySettings[BaseAttribute]",
@@ -10490,6 +11110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "baseReQL",
           "package": "rethinkdb",
@@ -10499,6 +11120,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "baseReQL",
           "package": "rethinkdb",
@@ -10512,6 +11134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "buildQuery",
           "package": "rethinkdb",
@@ -10521,6 +11144,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "buildQuery",
           "normalized": "ReQL-\u003eInt-\u003eDatabase-\u003e(Query,BaseReQL)",
@@ -10536,6 +11160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "canNonAtomic",
           "package": "rethinkdb",
@@ -10545,6 +11170,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "canNonAtomic",
           "normalized": "ReQL-\u003eReQL",
@@ -10560,6 +11186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "canReturnVals",
           "package": "rethinkdb",
@@ -10569,6 +11196,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "canReturnVals",
           "normalized": "ReQL-\u003eReQL",
@@ -10584,6 +11212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "closedOrOpen",
           "package": "rethinkdb",
@@ -10593,6 +11222,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "closedOrOpen",
           "normalized": "Bound a-\u003eText",
@@ -10608,6 +11238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "cons",
           "package": "rethinkdb",
@@ -10617,6 +11248,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "cons",
           "normalized": "a-\u003eArray-\u003eArray",
@@ -10631,6 +11263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "convertBacktrace",
           "package": "rethinkdb",
@@ -10640,6 +11273,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "convertBacktrace",
           "normalized": "Backtrace-\u003eBacktrace",
@@ -10655,6 +11289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "expr",
           "package": "rethinkdb",
@@ -10664,6 +11299,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "expr",
           "normalized": "a-\u003eReQL",
@@ -10701,6 +11337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "newVarId",
           "package": "rethinkdb",
@@ -10710,6 +11347,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "newVarId",
           "package": "rethinkdb",
@@ -10776,6 +11414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "obj",
           "package": "rethinkdb",
@@ -10785,6 +11424,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "obj",
           "normalized": "a-\u003eObject",
@@ -10800,6 +11440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "op",
           "package": "rethinkdb",
@@ -10810,6 +11451,7 @@
         "index": {
           "description": "Build term",
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "op",
           "normalized": "TermType-\u003ea-\u003eb-\u003eReQL",
@@ -10824,6 +11466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryAtomic",
           "package": "rethinkdb",
@@ -10833,6 +11476,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryAtomic",
           "package": "rethinkdb",
@@ -10846,6 +11490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryDefaultDatabase",
           "package": "rethinkdb",
@@ -10855,6 +11500,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryDefaultDatabase",
           "package": "rethinkdb",
@@ -10868,6 +11514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryReturnVals",
           "package": "rethinkdb",
@@ -10877,6 +11524,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryReturnVals",
           "package": "rethinkdb",
@@ -10890,6 +11538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryToken",
           "package": "rethinkdb",
@@ -10899,6 +11548,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryToken",
           "package": "rethinkdb",
@@ -10912,6 +11562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryUseOutdated",
           "package": "rethinkdb",
@@ -10921,6 +11572,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryUseOutdated",
           "package": "rethinkdb",
@@ -10934,6 +11586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryVarIndex",
           "package": "rethinkdb",
@@ -10943,6 +11596,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "queryVarIndex",
           "package": "rethinkdb",
@@ -10956,6 +11610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "reqlToProtobuf",
           "package": "rethinkdb",
@@ -10965,6 +11620,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "reqlToProtobuf",
           "normalized": "ReQL-\u003eQuery",
@@ -11033,6 +11689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "termArgs",
           "package": "rethinkdb",
@@ -11042,6 +11699,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "termArgs",
           "package": "rethinkdb",
@@ -11055,6 +11713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "termDatum",
           "package": "rethinkdb",
@@ -11064,6 +11723,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "termDatum",
           "package": "rethinkdb",
@@ -11077,6 +11737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "termOptArgs",
           "package": "rethinkdb",
@@ -11086,6 +11747,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "termOptArgs",
           "normalized": "[BaseAttribute]",
@@ -11101,6 +11763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "termType",
           "package": "rethinkdb",
@@ -11110,6 +11773,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "termType",
           "package": "rethinkdb",
@@ -11123,6 +11787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.ReQL",
           "name": "withQuerySettings",
           "package": "rethinkdb",
@@ -11132,6 +11797,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB ReQL",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.ReQL",
           "name": "withQuerySettings",
           "normalized": "(QuerySettings-\u003eReQL)-\u003eReQL",
@@ -11147,6 +11813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Time",
           "name": "Time",
           "package": "rethinkdb",
@@ -11155,6 +11822,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Time",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Time",
           "name": "Time",
           "package": "rethinkdb",
@@ -11169,6 +11837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime with no time zone\n\u003c/p\u003e\u003cp\u003eThe default FromJSON instance for Data.Time.UTCTime is incompatible with ReQL's time type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Time",
           "name": "UTCTime",
           "package": "rethinkdb",
@@ -11178,6 +11847,7 @@
         "index": {
           "description": "Time with no time zone The default FromJSON instance for Data.Time.UTCTime is incompatible with ReQL time type",
           "hierarchy": "Database RethinkDB Time",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Time",
           "name": "UTCTime",
           "package": "rethinkdb",
@@ -11192,6 +11862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime with a time zone\n\u003c/p\u003e\u003cp\u003eThe default FromJSON instance for Data.Time.ZonedTime is incompatible with ReQL's time type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Time",
           "name": "ZonedTime",
           "package": "rethinkdb",
@@ -11201,6 +11872,7 @@
         "index": {
           "description": "Time with time zone The default FromJSON instance for Data.Time.ZonedTime is incompatible with ReQL time type",
           "hierarchy": "Database RethinkDB Time",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Time",
           "name": "ZonedTime",
           "package": "rethinkdb",
@@ -11574,6 +12246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB.Time",
           "name": "parseTimeZone",
           "package": "rethinkdb",
@@ -11583,6 +12256,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB Time",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB.Time",
           "name": "parseTimeZone",
           "normalized": "String-\u003eParser TimeZone",
@@ -11784,6 +12458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell client driver for RethinkDB \n\u003c/p\u003e\u003cp\u003eBased upon the official Javascript, Python and Ruby API: \u003ca\u003ehttp://www.rethinkdb.com/api/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eHow to use\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n import qualified Database.RethinkDB as R\n import qualified Database.RethinkDB.NoClash\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "RethinkDB",
           "package": "rethinkdb",
@@ -11793,6 +12468,7 @@
         "index": {
           "description": "Haskell client driver for RethinkDB Based upon the official Javascript Python and Ruby API http www.rethinkdb.com api How to use LANGUAGE OverloadedStrings import qualified Database.RethinkDB as import qualified Database.RethinkDB.NoClash",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "RethinkDB",
           "package": "rethinkdb",
@@ -11807,6 +12483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key/value pair used for building objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Attribute",
           "package": "rethinkdb",
@@ -11816,6 +12493,7 @@
         "index": {
           "description": "key value pair used for building objects",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Attribute",
           "package": "rethinkdb",
@@ -11830,6 +12508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn upper or lower bound for between and during\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Bound",
           "package": "rethinkdb",
@@ -11839,6 +12518,7 @@
         "index": {
           "description": "An upper or lower bound for between and during",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Bound",
           "package": "rethinkdb",
@@ -11852,6 +12532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Cursor",
           "package": "rethinkdb",
@@ -11860,6 +12541,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Cursor",
           "package": "rethinkdb",
@@ -11874,6 +12556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA database, referenced by name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Database",
           "package": "rethinkdb",
@@ -11883,6 +12566,7 @@
         "index": {
           "description": "database referenced by name",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Database",
           "package": "rethinkdb",
@@ -11896,6 +12580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "ErrorCode",
           "package": "rethinkdb",
@@ -11904,6 +12589,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "ErrorCode",
           "package": "rethinkdb",
@@ -11918,6 +12604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert other types into ReqL expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Expr",
           "package": "rethinkdb",
@@ -11927,6 +12614,7 @@
         "index": {
           "description": "Convert other types into ReqL expressions",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Expr",
           "package": "rethinkdb",
@@ -11941,6 +12629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions used to create an index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "IndexCreateOptions",
           "package": "rethinkdb",
@@ -11950,6 +12639,7 @@
         "index": {
           "description": "Options used to create an index",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "IndexCreateOptions",
           "package": "rethinkdb",
@@ -11963,6 +12653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "JSON",
           "package": "rethinkdb",
@@ -11971,6 +12662,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "JSON",
           "package": "rethinkdb",
@@ -11985,6 +12677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert into a ReQL object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Obj",
           "package": "rethinkdb",
@@ -11994,6 +12687,7 @@
         "index": {
           "description": "Convert into ReQL object",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Obj",
           "package": "rethinkdb",
@@ -12008,6 +12702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of key/value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Object",
           "package": "rethinkdb",
@@ -12017,6 +12712,7 @@
         "index": {
           "description": "list of key value pairs",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Object",
           "package": "rethinkdb",
@@ -12031,6 +12727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdering specification for orderBy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Order",
           "package": "rethinkdb",
@@ -12040,6 +12737,7 @@
         "index": {
           "description": "Ordering specification for orderBy",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Order",
           "package": "rethinkdb",
@@ -12054,6 +12752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RQL term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "ReQL",
           "package": "rethinkdb",
@@ -12063,6 +12762,7 @@
         "index": {
           "description": "An RQL term",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "ReQL",
           "package": "rethinkdb",
@@ -12077,6 +12777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe raw response to a query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Response",
           "package": "rethinkdb",
@@ -12086,6 +12787,7 @@
         "index": {
           "description": "The raw response to query",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Response",
           "package": "rethinkdb",
@@ -12100,6 +12802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the raw query response into useful values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Result",
           "package": "rethinkdb",
@@ -12109,6 +12812,7 @@
         "index": {
           "description": "Convert the raw query response into useful values",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Result",
           "package": "rethinkdb",
@@ -12122,6 +12826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "RethinkDBError",
           "package": "rethinkdb",
@@ -12130,6 +12835,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "RethinkDBError",
           "package": "rethinkdb",
@@ -12144,6 +12850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection to the database server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "RethinkDBHandle",
           "package": "rethinkdb",
@@ -12153,6 +12860,7 @@
         "index": {
           "description": "connection to the database server",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "RethinkDBHandle",
           "package": "rethinkdb",
@@ -12167,6 +12875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePer-query settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "RunOptions",
           "package": "rethinkdb",
@@ -12176,6 +12885,7 @@
         "index": {
           "description": "Per-query settings",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "RunOptions",
           "package": "rethinkdb",
@@ -12189,6 +12899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "SuccessCode",
           "package": "rethinkdb",
@@ -12197,6 +12908,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "SuccessCode",
           "package": "rethinkdb",
@@ -12211,6 +12923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "Table",
           "package": "rethinkdb",
@@ -12220,6 +12933,7 @@
         "index": {
           "description": "table description",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "Table",
           "package": "rethinkdb",
@@ -12234,6 +12948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions used to create a table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "TableCreateOptions",
           "package": "rethinkdb",
@@ -12243,6 +12958,7 @@
         "index": {
           "description": "Options used to create table",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "TableCreateOptions",
           "package": "rethinkdb",
@@ -12257,6 +12973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime with no time zone\n\u003c/p\u003e\u003cp\u003eThe default FromJSON instance for Data.Time.UTCTime is incompatible with ReQL's time type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "UTCTime",
           "package": "rethinkdb",
@@ -12266,6 +12983,7 @@
         "index": {
           "description": "Time with no time zone The default FromJSON instance for Data.Time.UTCTime is incompatible with ReQL time type",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "UTCTime",
           "package": "rethinkdb",
@@ -12279,6 +12997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "WriteResponse",
           "package": "rethinkdb",
@@ -12287,6 +13006,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "WriteResponse",
           "package": "rethinkdb",
@@ -12301,6 +13021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime with a time zone\n\u003c/p\u003e\u003cp\u003eThe default FromJSON instance for Data.Time.ZonedTime is incompatible with ReQL's time type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "ZonedTime",
           "package": "rethinkdb",
@@ -12310,6 +13031,7 @@
         "index": {
           "description": "Time with time zone The default FromJSON instance for Data.Time.ZonedTime is incompatible with ReQL time type",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "ZonedTime",
           "package": "rethinkdb",
@@ -12323,6 +13045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "convertResult",
           "package": "rethinkdb",
@@ -12332,6 +13055,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "convertResult",
           "normalized": "MVar Response-\u003eIO a",
@@ -12348,6 +13072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "def",
           "package": "rethinkdb",
@@ -12357,6 +13082,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "def",
           "package": "rethinkdb",
@@ -12369,6 +13095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "expr",
           "package": "rethinkdb",
@@ -12378,6 +13105,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "expr",
           "normalized": "a-\u003eReQL",
@@ -12392,6 +13120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:58 UTC 2014",
           "module": "Database.RethinkDB",
           "name": "obj",
           "package": "rethinkdb",
@@ -12401,6 +13130,7 @@
         },
         "index": {
           "hierarchy": "Database RethinkDB",
+          "indexed": "2014-03-11T19:53:58",
           "module": "Database.RethinkDB",
           "name": "obj",
           "normalized": "a-\u003eObject",

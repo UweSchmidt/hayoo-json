@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "IfElse"
+        "phrase": "IfElse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary for control flow inside of monads with anaphoric variants on if and when and a C-like \"switch\" function.\n\u003c/p\u003e\u003cp\u003eInformation: \n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAuthor\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Jeff Heard\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eCopyright\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e 2008 Jeff Heard\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eLicense\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e BSD\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eVersion\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e 1.0\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eStatus\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Alpha\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "IfElse",
           "package": "IfElse",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Library for control flow inside of monads with anaphoric variants on if and when and C-like switch function Information Author Jeff Heard Copyright Jeff Heard License BSD Version Status Alpha",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "IfElse",
           "package": "IfElse",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnaphoric when-else chain.  Like a switch statement, but less cluttered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "acond",
           "package": "IfElse",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Anaphoric when-else chain Like switch statement but less cluttered",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "acond",
           "normalized": "[(Maybe a,a-\u003eb())]-\u003eb()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnaphoric if.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "aif",
           "package": "IfElse",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Anaphoric if",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "aif",
           "normalized": "Maybe a-\u003e(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnaphoric if where the test is in Monad m.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "aifM",
           "package": "IfElse",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Anaphoric if where the test is in Monad",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "aifM",
           "normalized": "a(Maybe b)-\u003e(b-\u003ea c)-\u003ea c-\u003ea c",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChainable anaphoric when.  Takes a maybe value.  \n\u003c/p\u003e\u003cp\u003eif the value is Just x then execute \u003ccode\u003e action x \u003c/code\u003e , then return \u003ccode\u003e True \u003c/code\u003e .  otherwise return \u003ccode\u003e False \u003c/code\u003e .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "awhen",
           "package": "IfElse",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Chainable anaphoric when Takes maybe value if the value is Just then execute action then return True otherwise return False",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "awhen",
           "normalized": "Maybe a-\u003e(a-\u003eb())-\u003eb()",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChainable anaphoric whenM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "awhenM",
           "package": "IfElse",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Chainable anaphoric whenM",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "awhenM",
           "normalized": "a(Maybe b)-\u003e(b-\u003ea())-\u003ea()",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike a switch statement, and less cluttered than if else if\n\u003c/p\u003e\u003cpre\u003e cond [ (t1,a1), (t2,a2), ... ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "cond",
           "package": "IfElse",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Like switch statement and less cluttered than if else if cond t1 a1 t2 a2",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "cond",
           "normalized": "[(Bool,a())]-\u003ea()",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike a switch statement, and less cluttered than if else if \n\u003c/p\u003e\u003cpre\u003e condM [ (t1,a1), (t2,a2), ... ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "condM",
           "package": "IfElse",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Like switch statement and less cluttered than if else if condM t1 a1 t2 a2",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "condM",
           "normalized": "[(a Bool,a())]-\u003ea()",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis conversion is common enough to make a name for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "maybeMP",
           "package": "IfElse",
@@ -227,6 +244,7 @@
         "index": {
           "description": "This conversion is common enough to make name for",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "maybeMP",
           "normalized": "Maybe a-\u003eb a",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContrapositive of whenM, if not x then do y\n\u003c/p\u003e\u003cp\u003eunless-else chain.\n\u003c/p\u003e\u003cp\u003emonadic unless-else chain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "ncondM",
           "package": "IfElse",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Contrapositive of whenM if not then do unless-else chain monadic unless-else chain",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "ncondM",
           "normalized": "[(a Bool,a())]-\u003ea()",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e because usually we don't need that\n extra thunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "return'",
           "package": "IfElse",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Strict version of return because usually we don need that extra thunk",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "return'",
           "normalized": "a-\u003eb a",
@@ -293,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake an action and make it into a side-effecting \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e.\n Because I seem to keep running into \u003ccode\u003em ()\u003c/code\u003e and the like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "returning",
           "package": "IfElse",
@@ -303,6 +326,7 @@
         "index": {
           "description": "Take an action and make it into side-effecting return Because seem to keep running into and the like",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "returning",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb a",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation of \u003ccode\u003e\u003ca\u003ewhileM\u003c/a\u003e\u003c/code\u003e: execute an action so long as the boolean\n returns false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "untilM",
           "package": "IfElse",
@@ -328,6 +353,7 @@
         "index": {
           "description": "Negation of whileM execute an action so long as the boolean returns false",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "untilM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA if with no else for unit returning thunks.\n   Returns the value of the test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "whenM",
           "package": "IfElse",
@@ -353,6 +380,7 @@
         "index": {
           "description": "if with no else for unit returning thunks Returns the value of the test",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "whenM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -368,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO lifted \u003ccode\u003e && \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIO lifted \u003ccode\u003e || \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eConditionally do the right action based on the truth value of the left expression\n\u003c/p\u003e\u003cp\u003eunless the left side is true, perform the right action\n\u003c/p\u003e\u003cp\u003eunless the (monadic) left side is true, perform the right action\n\u003c/p\u003e\u003cp\u003eBind the result of the last expression in an anaphoric when.  \n\u003c/p\u003e\u003cp\u003ecomposition of \u003ccode\u003e \u003e\u003e= \u003c/code\u003e and \u003ccode\u003e \u003e\u003e? \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ecomposition of \u003ccode\u003e \u003e\u003e= \u003c/code\u003e and \u003ccode\u003e \u003e\u003e=? \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eExecute a monadic action so long as a monadic boolean returns\n true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:46 UTC 2014",
           "module": "Control.Monad.IfElse",
           "name": "whileM",
           "package": "IfElse",
@@ -378,6 +407,7 @@
         "index": {
           "description": "IO lifted IO lifted Conditionally do the right action based on the truth value of the left expression unless the left side is true perform the right action unless the monadic left side is true perform the right action Bind the result of the last expression in an anaphoric when composition of and composition of and Execute monadic action so long as monadic boolean returns true",
           "hierarchy": "Control Monad IfElse",
+          "indexed": "2014-03-11T16:49:46",
           "module": "Control.Monad.IfElse",
           "name": "whileM",
           "normalized": "a Bool-\u003ea()-\u003ea()",

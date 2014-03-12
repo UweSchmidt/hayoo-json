@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ALUT"
+        "phrase": "ALUT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Initialization",
           "name": "Initialization",
           "package": "ALUT",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Initialization",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Initialization",
           "name": "Initialization",
           "package": "ALUT",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Initialization",
           "name": "ArgumentConsumer",
           "package": "ALUT",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Initialization",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Initialization",
           "name": "ArgumentConsumer",
           "package": "ALUT",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Initialization",
           "name": "Runner",
           "package": "ALUT",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Initialization",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Initialization",
           "name": "Runner",
           "package": "ALUT",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Initialization",
           "name": "runALUT",
           "package": "ALUT",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Initialization",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Initialization",
           "name": "runALUT",
           "package": "ALUT",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Initialization",
           "name": "runALUTUsingCurrentContext",
           "package": "ALUT",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Initialization",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Initialization",
           "name": "runALUTUsingCurrentContext",
           "package": "ALUT",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Initialization",
           "name": "withProgNameAndArgs",
           "package": "ALUT",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Initialization",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Initialization",
           "name": "withProgNameAndArgs",
           "normalized": "ArgumentConsumer(Runner a)-\u003eRunner a",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "Loaders",
           "package": "ALUT",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "Loaders",
           "package": "ALUT",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "Duration",
           "package": "ALUT",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "Duration",
           "package": "ALUT",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "Phase",
           "package": "ALUT",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "Phase",
           "package": "ALUT",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "SoundDataSource",
           "package": "ALUT",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "SoundDataSource",
           "package": "ALUT",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "File",
           "package": "ALUT",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "File",
           "package": "ALUT",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "FileImage",
           "package": "ALUT",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "FileImage",
           "package": "ALUT",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "HelloWorld",
           "package": "ALUT",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "HelloWorld",
           "package": "ALUT",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "Impulse",
           "package": "ALUT",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "Impulse",
           "package": "ALUT",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "Sawtooth",
           "package": "ALUT",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "Sawtooth",
           "package": "ALUT",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "Sine",
           "package": "ALUT",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "Sine",
           "package": "ALUT",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "Square",
           "package": "ALUT",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "Square",
           "package": "ALUT",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "WhiteNoise",
           "package": "ALUT",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "WhiteNoise",
           "package": "ALUT",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "bufferDataMIMETypes",
           "package": "ALUT",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "bufferDataMIMETypes",
           "normalized": "GettableStateVar[String]",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "bufferMIMETypes",
           "package": "ALUT",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "bufferMIMETypes",
           "normalized": "GettableStateVar[String]",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "createBuffer",
           "package": "ALUT",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "createBuffer",
           "normalized": "SoundDataSource a-\u003eIO Buffer",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Loaders",
           "name": "createBufferData",
           "package": "ALUT",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Loaders",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Loaders",
           "name": "createBufferData",
           "normalized": "SoundDataSource a-\u003eIO(BufferData b)",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Sleep",
           "name": "Sleep",
           "package": "ALUT",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Sleep",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Sleep",
           "name": "Sleep",
           "package": "ALUT",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Sleep",
           "name": "sleep",
           "package": "ALUT",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Sleep",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Sleep",
           "name": "sleep",
           "normalized": "Duration-\u003eIO()",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Version",
           "name": "Version",
           "package": "ALUT",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Version",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Version",
           "name": "Version",
           "package": "ALUT",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Version",
           "name": "alutAPIVersion",
           "package": "ALUT",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Version",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Version",
           "name": "alutAPIVersion",
           "package": "ALUT",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT.Version",
           "name": "alutVersion",
           "package": "ALUT",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Sound ALUT Version",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT.Version",
           "name": "alutVersion",
           "package": "ALUT",
@@ -615,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell binding for the OpenAL Utility Toolkit, which makes managing of\n OpenAL contexts, loading sounds in various formats and creating waveforms\n very easy. For more information about the C library on which this binding is\n based, please see: \u003ca\u003ehttp://www.openal.org/openal_webstf/specs/alut.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:30 UTC 2014",
           "module": "Sound.ALUT",
           "name": "ALUT",
           "package": "ALUT",
@@ -624,6 +679,7 @@
         "index": {
           "description": "Haskell binding for the OpenAL Utility Toolkit which makes managing of OpenAL contexts loading sounds in various formats and creating waveforms very easy For more information about the library on which this binding is based please see http www.openal.org openal webstf specs alut.html",
           "hierarchy": "Sound ALUT",
+          "indexed": "2014-03-11T16:32:30",
           "module": "Sound.ALUT",
           "name": "ALUT",
           "package": "ALUT",

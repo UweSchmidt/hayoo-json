@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "musicxml2"
+        "phrase": "musicxml2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Dynamics",
           "name": "Dynamics",
           "package": "musicxml2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Dynamics",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Dynamics",
           "name": "Dynamics",
           "package": "musicxml2",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Dynamics",
           "name": "Dynamics",
           "package": "musicxml2",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Dynamics",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Dynamics",
           "name": "Dynamics",
           "package": "musicxml2",
@@ -587,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "Pitch",
           "package": "musicxml2",
@@ -595,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "Pitch",
           "package": "musicxml2",
@@ -608,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "Accidental",
           "package": "musicxml2",
@@ -616,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "Accidental",
           "package": "musicxml2",
@@ -629,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "DisplayPitch",
           "package": "musicxml2",
@@ -637,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "DisplayPitch",
           "package": "musicxml2",
@@ -650,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "Fifths",
           "package": "musicxml2",
@@ -658,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "Fifths",
           "package": "musicxml2",
@@ -671,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "Line",
           "package": "musicxml2",
@@ -679,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "Line",
           "package": "musicxml2",
@@ -692,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "Mode",
           "package": "musicxml2",
@@ -700,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "Mode",
           "package": "musicxml2",
@@ -713,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "Octaves",
           "package": "musicxml2",
@@ -721,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "Octaves",
           "package": "musicxml2",
@@ -734,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "Pitch",
           "package": "musicxml2",
@@ -742,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "Pitch",
           "package": "musicxml2",
@@ -755,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "PitchClass",
           "package": "musicxml2",
@@ -763,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "PitchClass",
           "package": "musicxml2",
@@ -776,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "Semitones",
           "package": "musicxml2",
@@ -784,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "Semitones",
           "package": "musicxml2",
@@ -797,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "A",
           "package": "musicxml2",
@@ -806,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "A",
           "package": "musicxml2",
@@ -841,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "B",
           "package": "musicxml2",
@@ -850,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "B",
           "package": "musicxml2",
@@ -862,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "C",
           "package": "musicxml2",
@@ -871,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "C",
           "package": "musicxml2",
@@ -883,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "D",
           "package": "musicxml2",
@@ -892,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "D",
           "package": "musicxml2",
@@ -973,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "E",
           "package": "musicxml2",
@@ -982,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "E",
           "package": "musicxml2",
@@ -994,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "F",
           "package": "musicxml2",
@@ -1003,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "F",
           "package": "musicxml2",
@@ -1063,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Pitch",
           "name": "G",
           "package": "musicxml2",
@@ -1072,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Pitch",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Pitch",
           "name": "G",
           "package": "musicxml2",
@@ -1504,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Read",
           "name": "Read",
           "package": "musicxml2",
@@ -1512,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Read",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Read",
           "name": "Read",
           "package": "musicxml2",
@@ -1525,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Score",
           "package": "musicxml2",
@@ -1533,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Score",
           "package": "musicxml2",
@@ -1546,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Accidental",
           "package": "musicxml2",
@@ -1554,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Accidental",
           "package": "musicxml2",
@@ -1567,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Articulation",
           "package": "musicxml2",
@@ -1575,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Articulation",
           "package": "musicxml2",
@@ -1588,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Attributes",
           "package": "musicxml2",
@@ -1596,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Attributes",
           "package": "musicxml2",
@@ -1609,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "BeamType",
           "package": "musicxml2",
@@ -1617,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "BeamType",
           "package": "musicxml2",
@@ -1630,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Beat",
           "package": "musicxml2",
@@ -1638,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Beat",
           "package": "musicxml2",
@@ -1651,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "BeatType",
           "package": "musicxml2",
@@ -1659,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "BeatType",
           "package": "musicxml2",
@@ -1672,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "ClefSign",
           "package": "musicxml2",
@@ -1680,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "ClefSign",
           "package": "musicxml2",
@@ -1693,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Creator",
           "package": "musicxml2",
@@ -1701,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Creator",
           "package": "musicxml2",
@@ -1714,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Defaults",
           "package": "musicxml2",
@@ -1722,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Defaults",
           "package": "musicxml2",
@@ -1735,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Direction",
           "package": "musicxml2",
@@ -1743,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Direction",
           "package": "musicxml2",
@@ -1756,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "DisplayPitch",
           "package": "musicxml2",
@@ -1764,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "DisplayPitch",
           "package": "musicxml2",
@@ -1777,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Divs",
           "package": "musicxml2",
@@ -1785,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Divs",
           "package": "musicxml2",
@@ -1798,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Duration",
           "package": "musicxml2",
@@ -1806,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Duration",
           "package": "musicxml2",
@@ -1819,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Dynamics",
           "package": "musicxml2",
@@ -1827,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Dynamics",
           "package": "musicxml2",
@@ -1840,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "FermataSign",
           "package": "musicxml2",
@@ -1848,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "FermataSign",
           "package": "musicxml2",
@@ -1861,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Fifths",
           "package": "musicxml2",
@@ -1869,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Fifths",
           "package": "musicxml2",
@@ -1882,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "FullNote",
           "package": "musicxml2",
@@ -1890,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "FullNote",
           "package": "musicxml2",
@@ -1903,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupBarlines",
           "package": "musicxml2",
@@ -1911,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupBarlines",
           "package": "musicxml2",
@@ -1924,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupSymbol",
           "package": "musicxml2",
@@ -1932,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupSymbol",
           "package": "musicxml2",
@@ -1945,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Identification",
           "package": "musicxml2",
@@ -1953,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Identification",
           "package": "musicxml2",
@@ -1966,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "IsChord",
           "package": "musicxml2",
@@ -1974,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "IsChord",
           "package": "musicxml2",
@@ -1987,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Level",
           "package": "musicxml2",
@@ -1995,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Level",
           "package": "musicxml2",
@@ -2008,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Line",
           "package": "musicxml2",
@@ -2016,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Line",
           "package": "musicxml2",
@@ -2029,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "LineType",
           "package": "musicxml2",
@@ -2037,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "LineType",
           "package": "musicxml2",
@@ -2050,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Lyric",
           "package": "musicxml2",
@@ -2058,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Lyric",
           "package": "musicxml2",
@@ -2071,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "MeasureAttrs",
           "package": "musicxml2",
@@ -2079,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "MeasureAttrs",
           "package": "musicxml2",
@@ -2092,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Mode",
           "package": "musicxml2",
@@ -2100,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Mode",
           "package": "musicxml2",
@@ -2113,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Music",
           "package": "musicxml2",
@@ -2121,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Music",
           "package": "musicxml2",
@@ -2134,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "MusicElem",
           "package": "musicxml2",
@@ -2142,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "MusicElem",
           "package": "musicxml2",
@@ -2155,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Notation",
           "package": "musicxml2",
@@ -2163,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Notation",
           "package": "musicxml2",
@@ -2176,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Note",
           "package": "musicxml2",
@@ -2184,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Note",
           "package": "musicxml2",
@@ -2197,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "NoteHead",
           "package": "musicxml2",
@@ -2205,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "NoteHead",
           "package": "musicxml2",
@@ -2218,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "NoteProps",
           "package": "musicxml2",
@@ -2226,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "NoteProps",
           "package": "musicxml2",
@@ -2239,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "NoteSize",
           "package": "musicxml2",
@@ -2247,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "NoteSize",
           "package": "musicxml2",
@@ -2260,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "NoteType",
           "package": "musicxml2",
@@ -2268,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "NoteType",
           "package": "musicxml2",
@@ -2281,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "NoteVal",
           "package": "musicxml2",
@@ -2289,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "NoteVal",
           "package": "musicxml2",
@@ -2302,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Octaves",
           "package": "musicxml2",
@@ -2310,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Octaves",
           "package": "musicxml2",
@@ -2323,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Ornament",
           "package": "musicxml2",
@@ -2331,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Ornament",
           "package": "musicxml2",
@@ -2344,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "PartAttrs",
           "package": "musicxml2",
@@ -2352,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "PartAttrs",
           "package": "musicxml2",
@@ -2365,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "PartList",
           "package": "musicxml2",
@@ -2373,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "PartList",
           "package": "musicxml2",
@@ -2386,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "PartListElem",
           "package": "musicxml2",
@@ -2394,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "PartListElem",
           "package": "musicxml2",
@@ -2407,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Pitch",
           "package": "musicxml2",
@@ -2415,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Pitch",
           "package": "musicxml2",
@@ -2428,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "PitchClass",
           "package": "musicxml2",
@@ -2436,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "PitchClass",
           "package": "musicxml2",
@@ -2449,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Score",
           "package": "musicxml2",
@@ -2457,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Score",
           "package": "musicxml2",
@@ -2470,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "ScoreAttrs",
           "package": "musicxml2",
@@ -2478,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "ScoreAttrs",
           "package": "musicxml2",
@@ -2491,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "ScoreHeader",
           "package": "musicxml2",
@@ -2499,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "ScoreHeader",
           "package": "musicxml2",
@@ -2512,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Semitones",
           "package": "musicxml2",
@@ -2520,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Semitones",
           "package": "musicxml2",
@@ -2533,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "StartStop",
           "package": "musicxml2",
@@ -2541,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "StartStop",
           "package": "musicxml2",
@@ -2554,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "StartStopChange",
           "package": "musicxml2",
@@ -2562,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "StartStopChange",
           "package": "musicxml2",
@@ -2575,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "StartStopContinue",
           "package": "musicxml2",
@@ -2583,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "StartStopContinue",
           "package": "musicxml2",
@@ -2596,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "StartStopContinueChange",
           "package": "musicxml2",
@@ -2604,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "StartStopContinueChange",
           "package": "musicxml2",
@@ -2617,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "StemDirection",
           "package": "musicxml2",
@@ -2625,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "StemDirection",
           "package": "musicxml2",
@@ -2638,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Technical",
           "package": "musicxml2",
@@ -2646,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Technical",
           "package": "musicxml2",
@@ -2659,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Tie",
           "package": "musicxml2",
@@ -2667,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Tie",
           "package": "musicxml2",
@@ -2680,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "TimeSignature",
           "package": "musicxml2",
@@ -2688,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "TimeSignature",
           "package": "musicxml2",
@@ -2770,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "AngledFermata",
           "package": "musicxml2",
@@ -2779,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "AngledFermata",
           "package": "musicxml2",
@@ -4228,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupBarLines",
           "package": "musicxml2",
@@ -4237,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupBarLines",
           "package": "musicxml2",
@@ -4250,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupBrace",
           "package": "musicxml2",
@@ -4259,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupBrace",
           "package": "musicxml2",
@@ -4272,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupBracket",
           "package": "musicxml2",
@@ -4281,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupBracket",
           "package": "musicxml2",
@@ -4294,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupLine",
           "package": "musicxml2",
@@ -4303,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupLine",
           "package": "musicxml2",
@@ -4316,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupMensurstrich",
           "package": "musicxml2",
@@ -4325,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupMensurstrich",
           "package": "musicxml2",
@@ -4338,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupNoBarLines",
           "package": "musicxml2",
@@ -4347,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupNoBarLines",
           "package": "musicxml2",
@@ -4360,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "GroupSquare",
           "package": "musicxml2",
@@ -4369,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "GroupSquare",
           "package": "musicxml2",
@@ -4844,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "Music",
           "package": "musicxml2",
@@ -4853,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "Music",
           "package": "musicxml2",
@@ -5165,6 +5335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "NoGroupSymbol",
           "package": "musicxml2",
@@ -5174,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "NoGroupSymbol",
           "package": "musicxml2",
@@ -5233,6 +5405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "NormalFermata",
           "package": "musicxml2",
@@ -5242,6 +5415,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "NormalFermata",
           "package": "musicxml2",
@@ -5583,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "PartList",
           "package": "musicxml2",
@@ -5592,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "PartList",
           "package": "musicxml2",
@@ -6322,6 +6498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "SquaredFermata",
           "package": "musicxml2",
@@ -6331,6 +6508,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "SquaredFermata",
           "package": "musicxml2",
@@ -7337,6 +7515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "getMusic",
           "package": "musicxml2",
@@ -7346,6 +7525,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "getMusic",
           "normalized": "[MusicElem]",
@@ -7384,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Score",
           "name": "getPartList",
           "package": "musicxml2",
@@ -7393,6 +7574,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Score",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Score",
           "name": "getPartList",
           "normalized": "[PartListElem]",
@@ -7818,6 +8000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides smart constructors for the MusicXML representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "Simple",
           "package": "musicxml2",
@@ -7827,6 +8010,7 @@
         "index": {
           "description": "Provides smart constructors for the MusicXML representation",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "Simple",
           "package": "musicxml2",
@@ -7840,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "accent",
           "package": "musicxml2",
@@ -7849,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "accent",
           "normalized": "Music-\u003eMusic",
@@ -7863,6 +8049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "addNotation",
           "package": "musicxml2",
@@ -7872,6 +8059,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "addNotation",
           "normalized": "Notation-\u003eMusic-\u003eMusic",
@@ -7887,6 +8075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "altoClef",
           "package": "musicxml2",
@@ -7896,6 +8085,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "altoClef",
           "package": "musicxml2",
@@ -7910,6 +8100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient synonym for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "bar",
           "package": "musicxml2",
@@ -7920,6 +8111,7 @@
         "index": {
           "description": "Convenient synonym for mconcat",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "bar",
           "normalized": "[Music]-\u003eMusic",
@@ -7934,6 +8126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "bassClef",
           "package": "musicxml2",
@@ -7943,6 +8136,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "bassClef",
           "package": "musicxml2",
@@ -7956,6 +8150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "beam",
           "package": "musicxml2",
@@ -7965,6 +8160,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "beam",
           "normalized": "Music-\u003eMusic",
@@ -7979,6 +8175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "beginBeam",
           "package": "musicxml2",
@@ -7988,6 +8185,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "beginBeam",
           "normalized": "Music-\u003eMusic",
@@ -8003,6 +8201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "beginCresc",
           "package": "musicxml2",
@@ -8012,6 +8211,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "beginCresc",
           "package": "musicxml2",
@@ -8025,6 +8225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "beginDim",
           "package": "musicxml2",
@@ -8034,6 +8235,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "beginDim",
           "package": "musicxml2",
@@ -8047,6 +8249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "beginGliss",
           "package": "musicxml2",
@@ -8056,6 +8259,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "beginGliss",
           "normalized": "Music-\u003eMusic",
@@ -8071,6 +8275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "beginSlide",
           "package": "musicxml2",
@@ -8080,6 +8285,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "beginSlide",
           "normalized": "Music-\u003eMusic",
@@ -8095,6 +8301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "beginSlur",
           "package": "musicxml2",
@@ -8104,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "beginSlur",
           "normalized": "Music-\u003eMusic",
@@ -8119,6 +8327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "beginTie",
           "package": "musicxml2",
@@ -8128,6 +8337,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "beginTie",
           "normalized": "Music-\u003eMusic",
@@ -8144,6 +8354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the given parts in a brace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "brace",
           "package": "musicxml2",
@@ -8154,6 +8365,7 @@
         "index": {
           "description": "Enclose the given parts in brace",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "brace",
           "normalized": "PartList-\u003ePartList",
@@ -8169,6 +8381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the given parts in a bracket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "bracket",
           "package": "musicxml2",
@@ -8179,6 +8392,7 @@
         "index": {
           "description": "Enclose the given parts in bracket",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "bracket",
           "normalized": "PartList-\u003ePartList",
@@ -8193,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "breathMark",
           "package": "musicxml2",
@@ -8202,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "breathMark",
           "normalized": "Music-\u003eMusic",
@@ -8217,6 +8433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "caesura",
           "package": "musicxml2",
@@ -8226,6 +8443,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "caesura",
           "normalized": "Music-\u003eMusic",
@@ -8241,6 +8459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a chord.\n\u003c/p\u003e\u003cpre\u003e chord [c,eb,fs_] (3/8)\n chord [c,d,e] quarter\n chord [c,d,e] (dotted eight)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "chord",
           "package": "musicxml2",
@@ -8251,6 +8470,7 @@
         "index": {
           "description": "Create chord chord eb fs chord quarter chord dotted eight",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "chord",
           "normalized": "[Pitch]-\u003eNoteVal-\u003eMusic",
@@ -8266,6 +8486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a clef.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "clef",
           "package": "musicxml2",
@@ -8276,6 +8497,7 @@
         "index": {
           "description": "Create clef",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "clef",
           "normalized": "ClefSign-\u003eLine-\u003eMusic",
@@ -8290,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "coda",
           "package": "musicxml2",
@@ -8299,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "coda",
           "package": "musicxml2",
@@ -8311,6 +8535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "commonTime",
           "package": "musicxml2",
@@ -8320,6 +8545,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "commonTime",
           "package": "musicxml2",
@@ -8333,6 +8559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "continueBeam",
           "package": "musicxml2",
@@ -8342,6 +8569,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "continueBeam",
           "normalized": "Music-\u003eMusic",
@@ -8357,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "cresc",
           "package": "musicxml2",
@@ -8366,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "cresc",
           "normalized": "Music-\u003eMusic",
@@ -8380,6 +8610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "crescFrom",
           "package": "musicxml2",
@@ -8389,6 +8620,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "crescFrom",
           "normalized": "Dynamics-\u003eMusic-\u003eMusic",
@@ -8404,6 +8636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "crescFromTo",
           "package": "musicxml2",
@@ -8413,6 +8646,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "crescFromTo",
           "normalized": "Dynamics-\u003eDynamics-\u003eMusic-\u003eMusic",
@@ -8428,6 +8662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "crescTo",
           "package": "musicxml2",
@@ -8437,6 +8672,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "crescTo",
           "normalized": "Dynamics-\u003eMusic-\u003eMusic",
@@ -8452,6 +8688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "cutTime",
           "package": "musicxml2",
@@ -8461,6 +8698,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "cutTime",
           "package": "musicxml2",
@@ -8474,6 +8712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "defaultClef",
           "package": "musicxml2",
@@ -8483,6 +8722,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "defaultClef",
           "package": "musicxml2",
@@ -8497,6 +8737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the tick division to the default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "defaultDivisions",
           "package": "musicxml2",
@@ -8507,6 +8748,7 @@
         "index": {
           "description": "Set the tick division to the default value",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "defaultDivisions",
           "package": "musicxml2",
@@ -8520,6 +8762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "defaultKey",
           "package": "musicxml2",
@@ -8529,6 +8772,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "defaultKey",
           "package": "musicxml2",
@@ -8542,6 +8786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "dim",
           "package": "musicxml2",
@@ -8551,6 +8796,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "dim",
           "normalized": "Music-\u003eMusic",
@@ -8565,6 +8811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "dimFrom",
           "package": "musicxml2",
@@ -8574,6 +8821,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "dimFrom",
           "normalized": "Dynamics-\u003eMusic-\u003eMusic",
@@ -8589,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "dimFromTo",
           "package": "musicxml2",
@@ -8598,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "dimFromTo",
           "normalized": "Dynamics-\u003eDynamics-\u003eMusic-\u003eMusic",
@@ -8613,6 +8863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "dimTo",
           "package": "musicxml2",
@@ -8622,6 +8873,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "dimTo",
           "normalized": "Dynamics-\u003eMusic-\u003eMusic",
@@ -8638,6 +8890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the number of ticks per quarter note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "divisions",
           "package": "musicxml2",
@@ -8648,6 +8901,7 @@
         "index": {
           "description": "Define the number of ticks per quarter note",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "divisions",
           "normalized": "Divs-\u003eMusic",
@@ -8662,6 +8916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "doit",
           "package": "musicxml2",
@@ -8671,6 +8926,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "doit",
           "normalized": "Music-\u003eMusic",
@@ -8685,6 +8941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "dot",
           "package": "musicxml2",
@@ -8694,6 +8951,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "dot",
           "normalized": "Music-\u003eMusic",
@@ -8708,6 +8966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "dynamic",
           "package": "musicxml2",
@@ -8717,6 +8976,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "dynamic",
           "normalized": "Dynamics-\u003eMusic",
@@ -8731,6 +8991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "endBeam",
           "package": "musicxml2",
@@ -8740,6 +9001,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "endBeam",
           "normalized": "Music-\u003eMusic",
@@ -8755,6 +9017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "endCresc",
           "package": "musicxml2",
@@ -8764,6 +9027,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "endCresc",
           "package": "musicxml2",
@@ -8777,6 +9041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "endDim",
           "package": "musicxml2",
@@ -8786,6 +9051,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "endDim",
           "package": "musicxml2",
@@ -8799,6 +9065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "endGliss",
           "package": "musicxml2",
@@ -8808,6 +9075,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "endGliss",
           "normalized": "Music-\u003eMusic",
@@ -8823,6 +9091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "endSlide",
           "package": "musicxml2",
@@ -8832,6 +9101,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "endSlide",
           "normalized": "Music-\u003eMusic",
@@ -8847,6 +9117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "endSlur",
           "package": "musicxml2",
@@ -8856,6 +9127,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "endSlur",
           "normalized": "Music-\u003eMusic",
@@ -8871,6 +9143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "endTie",
           "package": "musicxml2",
@@ -8880,6 +9153,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "endTie",
           "normalized": "Music-\u003eMusic",
@@ -8895,6 +9169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "falloff",
           "package": "musicxml2",
@@ -8904,6 +9179,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "falloff",
           "normalized": "Music-\u003eMusic",
@@ -8918,6 +9194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "fermata",
           "package": "musicxml2",
@@ -8927,6 +9204,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "fermata",
           "normalized": "FermataSign-\u003eMusic-\u003eMusic",
@@ -8942,6 +9220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a single-part score.\n\u003c/p\u003e\u003cpre\u003e fromPart title composer partName measures\n\u003c/pre\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e \u003ccode\u003e\u003ca\u003efromPart\u003c/a\u003e\u003c/code\u003e \"Suite\" \"Bach\" \"Cello solo\" []\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "fromPart",
           "package": "musicxml2",
@@ -8952,6 +9231,7 @@
         "index": {
           "description": "Create single-part score fromPart title composer partName measures Example fromPart Suite Bach Cello solo",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "fromPart",
           "normalized": "String-\u003eString-\u003eString-\u003e[Music]-\u003eScore",
@@ -8968,6 +9248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a multi-part score.\n\u003c/p\u003e\u003cpre\u003e fromParts title composer partList parts\n\u003c/pre\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e \u003ccode\u003e\u003ca\u003efromParts\u003c/a\u003e\u003c/code\u003e \"4'33\" \"Cage\" (\u003ccode\u003e\u003ca\u003epartList\u003c/a\u003e\u003c/code\u003e [\"Violin\", \"Viola\", \"Cello\"]) [[]]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "fromParts",
           "package": "musicxml2",
@@ -8978,6 +9259,7 @@
         "index": {
           "description": "Create multi-part score fromParts title composer partList parts Example fromParts Cage partList Violin Viola Cello",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "fromParts",
           "normalized": "String-\u003eString-\u003ePartList-\u003e[[Music]]-\u003eScore",
@@ -8994,6 +9276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a key signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "key",
           "package": "musicxml2",
@@ -9004,6 +9287,7 @@
         "index": {
           "description": "Create key signature",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "key",
           "normalized": "Fifths-\u003eMode-\u003eMusic",
@@ -9019,6 +9303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient synonym for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e, allowing us to write things like\n\u003c/p\u003e\u003cpre\u003e measure [\n    beam [ \n        note c  (1/8), \n        note d  (1/8),\n        note e  (1/8),\n        note f  (1/8) \n    ],\n    tuplet 3 2 [ \n        note g  (1/4),\n        note a  (1/4),\n        note b  (1/4) \n    ]\n ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "measure",
           "package": "musicxml2",
@@ -9029,6 +9314,7 @@
         "index": {
           "description": "Convenient synonym for mconcat allowing us to write things like measure beam note note note note tuplet note note note",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "measure",
           "normalized": "[Music]-\u003eMusic",
@@ -9044,6 +9330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a metronome mark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "metronome",
           "package": "musicxml2",
@@ -9054,6 +9341,7 @@
         "index": {
           "description": "Create metronome mark",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "metronome",
           "normalized": "NoteVal-\u003eTempo-\u003eMusic",
@@ -9069,6 +9357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a metronome mark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "metronome'",
           "package": "musicxml2",
@@ -9079,6 +9368,7 @@
         "index": {
           "description": "Create metronome mark",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "metronome'",
           "normalized": "NoteVal-\u003eBool-\u003eTempo-\u003eMusic",
@@ -9093,6 +9383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "mordent",
           "package": "musicxml2",
@@ -9102,6 +9393,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "mordent",
           "normalized": "Bool-\u003eMusic-\u003eMusic",
@@ -9117,6 +9409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a single note.\n\u003c/p\u003e\u003cpre\u003e note c   (1/4)\n note fs_ (3/8)\n note c   quarter\n note (c + pure fifth) (dotted eight)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "note",
           "package": "musicxml2",
@@ -9127,6 +9420,7 @@
         "index": {
           "description": "Create single note note note fs note quarter note pure fifth dotted eight",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "note",
           "normalized": "Pitch-\u003eNoteVal-\u003eMusic",
@@ -9142,6 +9436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;\n Create a part list from instrument names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "partList",
           "package": "musicxml2",
@@ -9152,6 +9447,7 @@
         "index": {
           "description": "Create part list from instrument names",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "partList",
           "normalized": "[String]-\u003ePartList",
@@ -9168,6 +9464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;\n Create a part list from instrument names and abbreviations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "partListAbbr",
           "package": "musicxml2",
@@ -9178,6 +9475,7 @@
         "index": {
           "description": "Create part list from instrument names and abbreviations",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "partListAbbr",
           "normalized": "[(String,String)]-\u003ePartList",
@@ -9193,6 +9491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "plop",
           "package": "musicxml2",
@@ -9202,6 +9501,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "plop",
           "normalized": "Music-\u003eMusic",
@@ -9216,6 +9516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "rehearsal",
           "package": "musicxml2",
@@ -9225,6 +9526,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "rehearsal",
           "normalized": "String-\u003eMusic",
@@ -9240,6 +9542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a rest.\n\u003c/p\u003e\u003cpre\u003e rest (1/4)\n rest (3/8)\n rest quarter\n rest (dotted eight)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "rest",
           "package": "musicxml2",
@@ -9250,6 +9553,7 @@
         "index": {
           "description": "Create rest rest rest rest quarter rest dotted eight",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "rest",
           "normalized": "NoteVal-\u003eMusic",
@@ -9264,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "scoop",
           "package": "musicxml2",
@@ -9273,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "scoop",
           "normalized": "Music-\u003eMusic",
@@ -9287,6 +9593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "segno",
           "package": "musicxml2",
@@ -9296,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "segno",
           "package": "musicxml2",
@@ -9308,6 +9616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "separateDots",
           "package": "musicxml2",
@@ -9317,6 +9626,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "separateDots",
           "normalized": "NoteVal-\u003e(NoteVal,Int)",
@@ -9332,6 +9642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "setNoteHead",
           "package": "musicxml2",
@@ -9341,6 +9652,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "setNoteHead",
           "normalized": "NoteHead-\u003eMusic-\u003eMusic",
@@ -9356,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "setNoteVal",
           "package": "musicxml2",
@@ -9365,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "setNoteVal",
           "normalized": "NoteVal-\u003eMusic-\u003eMusic",
@@ -9380,6 +9694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "setVoice",
           "package": "musicxml2",
@@ -9389,6 +9704,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "setVoice",
           "normalized": "Int-\u003eMusic-\u003eMusic",
@@ -9404,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "shake",
           "package": "musicxml2",
@@ -9413,6 +9730,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "shake",
           "normalized": "Music-\u003eMusic",
@@ -9427,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "slur",
           "package": "musicxml2",
@@ -9436,6 +9755,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "slur",
           "normalized": "Music-\u003eMusic",
@@ -9450,6 +9770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "spiccato",
           "package": "musicxml2",
@@ -9459,6 +9780,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "spiccato",
           "normalized": "Music-\u003eMusic",
@@ -9473,6 +9795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "staccatissimo",
           "package": "musicxml2",
@@ -9482,6 +9805,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "staccatissimo",
           "normalized": "Music-\u003eMusic",
@@ -9496,6 +9820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "staccato",
           "package": "musicxml2",
@@ -9505,6 +9830,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "staccato",
           "normalized": "Music-\u003eMusic",
@@ -9519,6 +9845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "stress",
           "package": "musicxml2",
@@ -9528,6 +9855,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "stress",
           "normalized": "Music-\u003eMusic",
@@ -9542,6 +9870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "strongAccent",
           "package": "musicxml2",
@@ -9551,6 +9880,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "strongAccent",
           "normalized": "Music-\u003eMusic",
@@ -9566,6 +9896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "tenuto",
           "package": "musicxml2",
@@ -9575,6 +9906,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "tenuto",
           "normalized": "Music-\u003eMusic",
@@ -9589,6 +9921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "text",
           "package": "musicxml2",
@@ -9598,6 +9931,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "text",
           "normalized": "String-\u003eMusic",
@@ -9613,6 +9947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a time signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "time",
           "package": "musicxml2",
@@ -9623,6 +9958,7 @@
         "index": {
           "description": "Create time signature",
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "time",
           "normalized": "Beat-\u003eBeatType-\u003eMusic",
@@ -9637,6 +9973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "trebleClef",
           "package": "musicxml2",
@@ -9646,6 +9983,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "trebleClef",
           "package": "musicxml2",
@@ -9659,6 +9997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "tremolo",
           "package": "musicxml2",
@@ -9668,6 +10007,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "tremolo",
           "normalized": "Int-\u003eMusic-\u003eMusic",
@@ -9682,6 +10022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "trill",
           "package": "musicxml2",
@@ -9691,6 +10032,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "trill",
           "normalized": "Music-\u003eMusic",
@@ -9705,6 +10047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "tuplet",
           "package": "musicxml2",
@@ -9714,6 +10057,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "tuplet",
           "normalized": "Int-\u003eInt-\u003eMusic-\u003eMusic",
@@ -9728,6 +10072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "turn",
           "package": "musicxml2",
@@ -9737,6 +10082,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "turn",
           "normalized": "Bool-\u003eBool-\u003eMusic-\u003eMusic",
@@ -9751,6 +10097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Simple",
           "name": "unstress",
           "package": "musicxml2",
@@ -9760,6 +10107,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Simple",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Simple",
           "name": "unstress",
           "normalized": "Music-\u003eMusic",
@@ -9774,6 +10122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "Time",
           "package": "musicxml2",
@@ -9782,6 +10131,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "Time",
           "package": "musicxml2",
@@ -9795,6 +10145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "Beat",
           "package": "musicxml2",
@@ -9803,6 +10154,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "Beat",
           "package": "musicxml2",
@@ -9816,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "BeatType",
           "package": "musicxml2",
@@ -9824,6 +10177,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "BeatType",
           "package": "musicxml2",
@@ -9837,6 +10191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "Divs",
           "package": "musicxml2",
@@ -9845,6 +10200,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "Divs",
           "package": "musicxml2",
@@ -9858,6 +10214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "Duration",
           "package": "musicxml2",
@@ -9866,6 +10223,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "Duration",
           "package": "musicxml2",
@@ -9879,6 +10237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "NoteSize",
           "package": "musicxml2",
@@ -9887,6 +10246,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "NoteSize",
           "package": "musicxml2",
@@ -9900,6 +10260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "NoteType",
           "package": "musicxml2",
@@ -9908,6 +10269,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "NoteType",
           "package": "musicxml2",
@@ -9921,6 +10283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "NoteVal",
           "package": "musicxml2",
@@ -9929,6 +10292,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "NoteVal",
           "package": "musicxml2",
@@ -9942,6 +10306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "Tempo",
           "package": "musicxml2",
@@ -9950,6 +10315,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "Tempo",
           "package": "musicxml2",
@@ -9964,6 +10330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTempo in BPM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "Tempo",
           "package": "musicxml2",
@@ -9974,6 +10341,7 @@
         "index": {
           "description": "Tempo in BPM",
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "Tempo",
           "package": "musicxml2",
@@ -9987,6 +10355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Time",
           "name": "getTempo",
           "package": "musicxml2",
@@ -9996,6 +10365,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Time",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Time",
           "name": "getTempo",
           "package": "musicxml2",
@@ -10009,6 +10379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Write",
           "name": "Write",
           "package": "musicxml2",
@@ -10017,6 +10388,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Write",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Write",
           "name": "Write",
           "package": "musicxml2",
@@ -10030,6 +10402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Write",
           "name": "WriteMusicXml",
           "package": "musicxml2",
@@ -10038,6 +10411,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Write",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Write",
           "name": "WriteMusicXml",
           "package": "musicxml2",
@@ -10051,6 +10425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml.Write",
           "name": "write",
           "package": "musicxml2",
@@ -10060,6 +10435,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml Write",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml.Write",
           "name": "write",
           "normalized": "a-\u003e[Element]",
@@ -10075,6 +10451,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell representation of MusicXML.\n\u003c/p\u003e\u003cp\u003eFor an introduction, see \u003ca\u003ehttp://www.makemusic.com/musicxml/tutorial\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "MusicXml",
           "package": "musicxml2",
@@ -10084,6 +10461,7 @@
         "index": {
           "description": "Haskell representation of MusicXML For an introduction see http www.makemusic.com musicxml tutorial",
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "MusicXml",
           "package": "musicxml2",
@@ -10097,6 +10475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Accidental",
           "package": "musicxml2",
@@ -10105,6 +10484,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Accidental",
           "package": "musicxml2",
@@ -10118,6 +10498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Articulation",
           "package": "musicxml2",
@@ -10126,6 +10507,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Articulation",
           "package": "musicxml2",
@@ -10139,6 +10521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Attributes",
           "package": "musicxml2",
@@ -10147,6 +10530,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Attributes",
           "package": "musicxml2",
@@ -10160,6 +10544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "BeamType",
           "package": "musicxml2",
@@ -10168,6 +10553,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "BeamType",
           "package": "musicxml2",
@@ -10181,6 +10567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Beat",
           "package": "musicxml2",
@@ -10189,6 +10576,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Beat",
           "package": "musicxml2",
@@ -10202,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "BeatType",
           "package": "musicxml2",
@@ -10210,6 +10599,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "BeatType",
           "package": "musicxml2",
@@ -10223,6 +10613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "ClefSign",
           "package": "musicxml2",
@@ -10231,6 +10622,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "ClefSign",
           "package": "musicxml2",
@@ -10244,6 +10636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Creator",
           "package": "musicxml2",
@@ -10252,6 +10645,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Creator",
           "package": "musicxml2",
@@ -10265,6 +10659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Defaults",
           "package": "musicxml2",
@@ -10273,6 +10668,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Defaults",
           "package": "musicxml2",
@@ -10286,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Direction",
           "package": "musicxml2",
@@ -10294,6 +10691,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Direction",
           "package": "musicxml2",
@@ -10307,6 +10705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "DisplayPitch",
           "package": "musicxml2",
@@ -10315,6 +10714,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "DisplayPitch",
           "package": "musicxml2",
@@ -10328,6 +10728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Divs",
           "package": "musicxml2",
@@ -10336,6 +10737,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Divs",
           "package": "musicxml2",
@@ -10349,6 +10751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Duration",
           "package": "musicxml2",
@@ -10357,6 +10760,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Duration",
           "package": "musicxml2",
@@ -10370,6 +10774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Dynamics",
           "package": "musicxml2",
@@ -10378,6 +10783,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Dynamics",
           "package": "musicxml2",
@@ -10391,6 +10797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Fifths",
           "package": "musicxml2",
@@ -10399,6 +10806,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Fifths",
           "package": "musicxml2",
@@ -10412,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "FullNote",
           "package": "musicxml2",
@@ -10420,6 +10829,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "FullNote",
           "package": "musicxml2",
@@ -10433,6 +10843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Identification",
           "package": "musicxml2",
@@ -10441,6 +10852,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Identification",
           "package": "musicxml2",
@@ -10454,6 +10866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "IsChord",
           "package": "musicxml2",
@@ -10462,6 +10875,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "IsChord",
           "package": "musicxml2",
@@ -10475,6 +10889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Level",
           "package": "musicxml2",
@@ -10483,6 +10898,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Level",
           "package": "musicxml2",
@@ -10496,6 +10912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Line",
           "package": "musicxml2",
@@ -10504,6 +10921,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Line",
           "package": "musicxml2",
@@ -10517,6 +10935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "LineType",
           "package": "musicxml2",
@@ -10525,6 +10944,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "LineType",
           "package": "musicxml2",
@@ -10538,6 +10958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Lyric",
           "package": "musicxml2",
@@ -10546,6 +10967,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Lyric",
           "package": "musicxml2",
@@ -10559,6 +10981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "MeasureAttrs",
           "package": "musicxml2",
@@ -10567,6 +10990,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "MeasureAttrs",
           "package": "musicxml2",
@@ -10580,6 +11004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Mode",
           "package": "musicxml2",
@@ -10588,6 +11013,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Mode",
           "package": "musicxml2",
@@ -10601,6 +11027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Music",
           "package": "musicxml2",
@@ -10609,6 +11036,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Music",
           "package": "musicxml2",
@@ -10622,6 +11050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "MusicElem",
           "package": "musicxml2",
@@ -10630,6 +11059,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "MusicElem",
           "package": "musicxml2",
@@ -10643,6 +11073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Notation",
           "package": "musicxml2",
@@ -10651,6 +11082,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Notation",
           "package": "musicxml2",
@@ -10664,6 +11096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Note",
           "package": "musicxml2",
@@ -10672,6 +11105,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Note",
           "package": "musicxml2",
@@ -10685,6 +11119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "NoteHead",
           "package": "musicxml2",
@@ -10693,6 +11128,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "NoteHead",
           "package": "musicxml2",
@@ -10706,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "NoteProps",
           "package": "musicxml2",
@@ -10714,6 +11151,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "NoteProps",
           "package": "musicxml2",
@@ -10727,6 +11165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "NoteSize",
           "package": "musicxml2",
@@ -10735,6 +11174,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "NoteSize",
           "package": "musicxml2",
@@ -10748,6 +11188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "NoteType",
           "package": "musicxml2",
@@ -10756,6 +11197,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "NoteType",
           "package": "musicxml2",
@@ -10769,6 +11211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "NoteVal",
           "package": "musicxml2",
@@ -10777,6 +11220,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "NoteVal",
           "package": "musicxml2",
@@ -10790,6 +11234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Octaves",
           "package": "musicxml2",
@@ -10798,6 +11243,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Octaves",
           "package": "musicxml2",
@@ -10811,6 +11257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Ornament",
           "package": "musicxml2",
@@ -10819,6 +11266,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Ornament",
           "package": "musicxml2",
@@ -10832,6 +11280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "PartAttrs",
           "package": "musicxml2",
@@ -10840,6 +11289,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "PartAttrs",
           "package": "musicxml2",
@@ -10853,6 +11303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "PartList",
           "package": "musicxml2",
@@ -10861,6 +11312,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "PartList",
           "package": "musicxml2",
@@ -10874,6 +11326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "PartListElem",
           "package": "musicxml2",
@@ -10882,6 +11335,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "PartListElem",
           "package": "musicxml2",
@@ -10895,6 +11349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Pitch",
           "package": "musicxml2",
@@ -10903,6 +11358,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Pitch",
           "package": "musicxml2",
@@ -10916,6 +11372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "PitchClass",
           "package": "musicxml2",
@@ -10924,6 +11381,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "PitchClass",
           "package": "musicxml2",
@@ -10937,6 +11395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Score",
           "package": "musicxml2",
@@ -10945,6 +11404,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Score",
           "package": "musicxml2",
@@ -10958,6 +11418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "ScoreAttrs",
           "package": "musicxml2",
@@ -10966,6 +11427,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "ScoreAttrs",
           "package": "musicxml2",
@@ -10979,6 +11441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "ScoreHeader",
           "package": "musicxml2",
@@ -10987,6 +11450,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "ScoreHeader",
           "package": "musicxml2",
@@ -11000,6 +11464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Semitones",
           "package": "musicxml2",
@@ -11008,6 +11473,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Semitones",
           "package": "musicxml2",
@@ -11021,6 +11487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "StartStop",
           "package": "musicxml2",
@@ -11029,6 +11496,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "StartStop",
           "package": "musicxml2",
@@ -11042,6 +11510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "StartStopChange",
           "package": "musicxml2",
@@ -11050,6 +11519,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "StartStopChange",
           "package": "musicxml2",
@@ -11063,6 +11533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "StartStopContinue",
           "package": "musicxml2",
@@ -11071,6 +11542,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "StartStopContinue",
           "package": "musicxml2",
@@ -11084,6 +11556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "StartStopContinueChange",
           "package": "musicxml2",
@@ -11092,6 +11565,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "StartStopContinueChange",
           "package": "musicxml2",
@@ -11105,6 +11579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "StemDirection",
           "package": "musicxml2",
@@ -11113,6 +11588,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "StemDirection",
           "package": "musicxml2",
@@ -11126,6 +11602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Technical",
           "package": "musicxml2",
@@ -11134,6 +11611,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Technical",
           "package": "musicxml2",
@@ -11147,6 +11625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "Tie",
           "package": "musicxml2",
@@ -11155,6 +11634,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "Tie",
           "package": "musicxml2",
@@ -11168,6 +11648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "TimeSignature",
           "package": "musicxml2",
@@ -11176,6 +11657,7 @@
         },
         "index": {
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "TimeSignature",
           "package": "musicxml2",
@@ -11190,6 +11672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a score as a MusicXML string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "showXml",
           "package": "musicxml2",
@@ -11200,6 +11683,7 @@
         "index": {
           "description": "Render score as MusicXML string",
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "showXml",
           "normalized": "Score-\u003eString",
@@ -11216,6 +11700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a score as MusicXML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:58 UTC 2014",
           "module": "Music.MusicXml",
           "name": "toXml",
           "package": "musicxml2",
@@ -11226,6 +11711,7 @@
         "index": {
           "description": "Render score as MusicXML",
           "hierarchy": "Music MusicXml",
+          "indexed": "2014-03-11T19:24:58",
           "module": "Music.MusicXml",
           "name": "toXml",
           "normalized": "Score-\u003eElement",

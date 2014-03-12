@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wtk-gtk"
+        "phrase": "wtk-gtk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGtk instantiation of interface between application and GUI.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "WtkGtk",
           "package": "wtk-gtk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Gtk instantiation of interface between application and GUI",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "WtkGtk",
           "package": "wtk-gtk",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe State.\n   It contains all details that have to passed around to manage properly\n   Gtk UI and of course users state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "State",
           "package": "wtk-gtk",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The State It contains all details that have to passed around to manage properly Gtk UI and of course users state",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "State",
           "package": "wtk-gtk",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialization of inputable widgets for focus purposes. To be used in the function showing input page for \n   producing proper output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "WidgetsCollection",
           "package": "wtk-gtk",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Serialization of inputable widgets for focus purposes To be used in the function showing input page for producing proper output",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "WidgetsCollection",
           "package": "wtk-gtk",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "CBu",
           "package": "wtk-gtk",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "CBu",
           "normalized": "CBu(Int,Button)",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "CCB",
           "package": "wtk-gtk",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "CCB",
           "normalized": "CCB(Int,CheckButton)",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "CEn",
           "package": "wtk-gtk",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "CEn",
           "normalized": "CEn(Int,Entry)",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "CSL",
           "package": "wtk-gtk",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "CSL",
           "normalized": "CSL(Int,ComboBox)",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "Dummy",
           "package": "wtk-gtk",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "Dummy",
           "package": "wtk-gtk",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "St",
           "package": "wtk-gtk",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "St",
           "package": "wtk-gtk",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage number and its closing button and closing signal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "bs",
           "package": "wtk-gtk",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Page number and its closing button and closing signal",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "bs",
           "normalized": "[(Int,Button,ConnectId Button)]",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset, displays lots of debug info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "debug",
           "package": "wtk-gtk",
@@ -263,6 +284,7 @@
         "index": {
           "description": "set displays lots of debug info",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "debug",
           "package": "wtk-gtk",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eid of widget with focus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "idFocus",
           "package": "wtk-gtk",
@@ -286,6 +309,7 @@
         "index": {
           "description": "id of widget with focus",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "idFocus",
           "package": "wtk-gtk",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState initializaion                  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "initState",
           "package": "wtk-gtk",
@@ -309,6 +334,7 @@
         "index": {
           "description": "State initializaion",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "initState",
           "normalized": "Notebook-\u003eString-\u003ea-\u003e(Int-\u003eIORef(State a)-\u003eIO(VBox,[WidgetsCollection]))-\u003e(String-\u003eInt-\u003ea-\u003ea)-\u003eBool-\u003eIO(IORef(State a))",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction showing input page. Id of widget with focus, \n   state are input. vbox to be shown and \n   list of widgets to set focus are output.                  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "inputPg",
           "package": "wtk-gtk",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Function showing input page Id of widget with focus state are input vbox to be shown and list of widgets to set focus are output",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "inputPg",
           "normalized": "Int-\u003eIORef(State a)-\u003eIO(VBox,[WidgetsCollection])",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays debuging detail if switched on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "logSt",
           "package": "wtk-gtk",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Displays debuging detail if switched on",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "logSt",
           "normalized": "Bool-\u003eString-\u003eIO()",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders text output page on the notebook with closing button on the tab.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "newOutputPage",
           "package": "wtk-gtk",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Renders text output page on the notebook with closing button on the tab",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "newOutputPage",
           "normalized": "String-\u003eVBox-\u003eIORef(State a)-\u003eIO()",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders text output page on the notebook with closing button on the tab.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "newOutputText",
           "package": "wtk-gtk",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Renders text output page on the notebook with closing button on the tab",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "newOutputText",
           "normalized": "String-\u003eString-\u003eIORef(State a)-\u003eIO()",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePacks a new table into a new frame, the frame into given box and returns table.\n   Gets label for the frame, box and size of the new table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "newTable",
           "package": "wtk-gtk",
@@ -437,6 +472,7 @@
         "index": {
           "description": "Packs new table into new frame the frame into given box and returns table Gets label for the frame box and size of the new table",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "newTable",
           "normalized": "String-\u003ea-\u003eInt-\u003eInt-\u003eIO Table",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives new, user defined state, having new entry of a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "newUsrSt",
           "package": "wtk-gtk",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Gives new user defined state having new entry of widget",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "newUsrSt",
           "normalized": "String-\u003eInt-\u003ea-\u003ea",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotebook. All the GUI is embeded in a notebook.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "ntbk",
           "package": "wtk-gtk",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Notebook All the GUI is embeded in notebook",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "ntbk",
           "package": "wtk-gtk",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-shows the page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "reShowPage",
           "package": "wtk-gtk",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Re-shows the page",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "reShowPage",
           "normalized": "Int-\u003eIORef(State a)-\u003eIO Bool",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches given buttun to the given table with action and attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "showButton",
           "package": "wtk-gtk",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Attaches given buttun to the given table with action and attributes",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "showButton",
           "normalized": "InputField-\u003eInt-\u003eInt-\u003eInt-\u003ea-\u003eIORef(State b)-\u003ec-\u003e(IORef(State b)-\u003eIO b)-\u003eIO c",
@@ -553,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders and attaches new check button to the given table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "showCheckBox",
           "package": "wtk-gtk",
@@ -562,6 +607,7 @@
         "index": {
           "description": "Renders and attaches new check button to the given table",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "showCheckBox",
           "normalized": "InputField-\u003eInt-\u003eInt-\u003eInt-\u003ea-\u003eIORef(State b)-\u003eIO CheckButton",
@@ -578,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry field is rendered and attached to the given table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "showEntry",
           "package": "wtk-gtk",
@@ -587,6 +634,7 @@
         "index": {
           "description": "Entry field is rendered and attached to the given table",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "showEntry",
           "normalized": "InputField-\u003eInt-\u003eInt-\u003eInt-\u003ea-\u003eIORef(State b)-\u003eIO Entry",
@@ -603,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows combo box and sets its attributes according to input.\n   Attaches new selection list to the given table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "showSelection",
           "package": "wtk-gtk",
@@ -612,6 +661,7 @@
         "index": {
           "description": "Shows combo box and sets its attributes according to input Attaches new selection list to the given table",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "showSelection",
           "normalized": "InputField-\u003eInt-\u003eInt-\u003eInt-\u003ea-\u003eIORef(State b)-\u003eIO ComboBox",
@@ -628,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotebook's title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "titleN",
           "package": "wtk-gtk",
@@ -638,6 +689,7 @@
         "index": {
           "description": "Notebook title",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "titleN",
           "package": "wtk-gtk",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser's state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "usrSt",
           "package": "wtk-gtk",
@@ -661,6 +714,7 @@
         "index": {
           "description": "User state",
           "hierarchy": "Graphics UI Gtk WtkGtk",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtk",
           "name": "usrSt",
           "package": "wtk-gtk",
@@ -675,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGtk boilerplating useful for certain solutions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "WtkGtkBp",
           "package": "wtk-gtk",
@@ -684,6 +739,7 @@
         "index": {
           "description": "Gtk boilerplating useful for certain solutions",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "WtkGtkBp",
           "package": "wtk-gtk",
@@ -698,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSteering information for text formating while attaching to table's cell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "CellInfo",
           "package": "wtk-gtk",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Steering information for text formating while attaching to table cell",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "CellInfo",
           "package": "wtk-gtk",
@@ -721,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches given button into given table at given position. Button is linked with given action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "buttonToTable",
           "package": "wtk-gtk",
@@ -731,6 +790,7 @@
         "index": {
           "description": "Attaches given button into given table at given position Button is linked with given action",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "buttonToTable",
           "normalized": "Int-\u003eInt-\u003ea-\u003eIO()-\u003eb-\u003eIO()",
@@ -747,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches given text to give table at given position in given way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "cellToTable",
           "package": "wtk-gtk",
@@ -756,6 +817,7 @@
         "index": {
           "description": "Attaches given text to give table at given position in given way",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "cellToTable",
           "normalized": "a-\u003eInt-\u003eInt-\u003e(CellInfo a,String)-\u003eIO Int",
@@ -772,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003ecellToTable\u003c/code\u003e just tailored for usage in vertical collections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "cellToTableV",
           "package": "wtk-gtk",
@@ -782,6 +845,7 @@
         "index": {
           "description": "Like cellToTable just tailored for usage in vertical collections",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "cellToTableV",
           "normalized": "a-\u003eInt-\u003eInt-\u003e(CellInfo a,String)-\u003eIO Int",
@@ -798,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a text combo box and puts it into given table at given position.\n   Combo box contains lines given as input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "comboBoxToTable",
           "package": "wtk-gtk",
@@ -808,6 +873,7 @@
         "index": {
           "description": "Creates text combo box and puts it into given table at given position Combo box contains lines given as input",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "comboBoxToTable",
           "normalized": "Int-\u003eInt-\u003e[String]-\u003eTable-\u003eIO ComboBox",
@@ -824,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates new combo box with list of texts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "comboBoxWithText",
           "package": "wtk-gtk",
@@ -834,6 +901,7 @@
         "index": {
           "description": "Creates new combo box with list of texts",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "comboBoxWithText",
           "normalized": "[String]-\u003eIO ComboBox",
@@ -850,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttacges error message to the table.\nerrShow att left up t | isError att = textToTableCellL txt left up t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "errMsgToTable",
           "package": "wtk-gtk",
@@ -860,6 +929,7 @@
         "index": {
           "description": "Attacges error message to the table errShow att left up isError att textToTableCellL txt left up",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "errMsgToTable",
           "normalized": "InputField-\u003eInt-\u003eInt-\u003ea-\u003eIO()",
@@ -876,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches horizontal rule into table from (0,up) to (right,up+1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "hlineToTable",
           "package": "wtk-gtk",
@@ -886,6 +957,7 @@
         "index": {
           "description": "Attaches horizontal rule into table from up to right up",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "hlineToTable",
           "normalized": "Int-\u003eInt-\u003ea-\u003eIO()",
@@ -901,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "labelToTable",
           "package": "wtk-gtk",
@@ -910,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "labelToTable",
           "normalized": "a-\u003eFloat-\u003eInt-\u003eInt-\u003eInt-\u003eb-\u003eIO()",
@@ -926,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches list of Strings into given table so that each string is in separate cosecutive\n   cell of given line of table. Each cell can be attached in own way according to \u003ccode\u003eCellInfo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "lineToTable",
           "package": "wtk-gtk",
@@ -935,6 +1010,7 @@
         "index": {
           "description": "Attaches list of Strings into given table so that each string is in separate cosecutive cell of given line of table Each cell can be attached in own way according to CellInfo",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "lineToTable",
           "normalized": "a-\u003eInt-\u003eInt-\u003e(Bool,[CellInfo a],[String])-\u003eIO Int",
@@ -950,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "markUpEnd",
           "package": "wtk-gtk",
@@ -959,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "markUpEnd",
           "normalized": "[Char]-\u003e[Char]",
@@ -975,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new table, packs it into a new frame, the frame into given box and returns table.\n   Gets label for the frame, box and size of the new table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "myNewTable",
           "package": "wtk-gtk",
@@ -985,6 +1064,7 @@
         "index": {
           "description": "Creates new table packs it into new frame the frame into given box and returns table Gets label for the frame box and size of the new table",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "myNewTable",
           "normalized": "String-\u003ea-\u003eInt-\u003eInt-\u003eIO Table",
@@ -1001,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches markup text into cell (left,up)(left+1,up+1) of given table.\n   Text is left adejusted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "textToTableCellL",
           "package": "wtk-gtk",
@@ -1011,6 +1092,7 @@
         "index": {
           "description": "Attaches markup text into cell left up left up of given table Text is left adejusted",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "textToTableCellL",
           "normalized": "String-\u003eInt-\u003eInt-\u003ea-\u003eIO Label",
@@ -1027,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches markup text into cell (left,up)(left+1,up+1) of given table.\n   Text is right adejusted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "textToTableCellR",
           "package": "wtk-gtk",
@@ -1037,6 +1120,7 @@
         "index": {
           "description": "Attaches markup text into cell left up left up of given table Text is right adejusted",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "textToTableCellR",
           "normalized": "String-\u003eInt-\u003eInt-\u003ea-\u003eIO Label",
@@ -1053,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches markup text into cells (left,up)(right,up+1) of given table.\n   Text is left adejusted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "textToTableLineL",
           "package": "wtk-gtk",
@@ -1063,6 +1148,7 @@
         "index": {
           "description": "Attaches markup text into cells left up right up of given table Text is left adejusted",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "textToTableLineL",
           "normalized": "String-\u003eInt-\u003eInt-\u003eInt-\u003ea-\u003eIO Label",
@@ -1079,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches markup text into cells (left,up)(right,up+1) of given table.\n   Text is right adejusted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "textToTableLineR",
           "package": "wtk-gtk",
@@ -1089,6 +1176,7 @@
         "index": {
           "description": "Attaches markup text into cells left up right up of given table Text is right adejusted",
           "hierarchy": "Graphics UI Gtk WtkGtkBp",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGtkBp",
           "name": "textToTableLineR",
           "normalized": "String-\u003eInt-\u003eInt-\u003eInt-\u003ea-\u003eIO Label",
@@ -1105,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types being standard interface between any GUI and\n   underlying application.\n   Heavy usage of lenses, which has disadvantage of huge amount\n   of API documentation without proper comments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "WtkGui",
           "package": "wtk-gtk",
@@ -1114,6 +1203,7 @@
         "index": {
           "description": "Data types being standard interface between any GUI and underlying application Heavy usage of lenses which has disadvantage of huge amount of API documentation without proper comments",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "WtkGui",
           "package": "wtk-gtk",
@@ -1128,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes of an abstract widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Attributes",
           "package": "wtk-gtk",
@@ -1137,6 +1228,7 @@
         "index": {
           "description": "Attributes of an abstract widget",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Attributes",
           "package": "wtk-gtk",
@@ -1151,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstraction of widget. It consists of id, value with type and attributes.\n   This is main data type to use as widget field. It consist of all what needed:\n   its ID, its value of one of allowed types and attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "InputField",
           "package": "wtk-gtk",
@@ -1160,6 +1253,7 @@
         "index": {
           "description": "Abstraction of widget It consists of id value with type and attributes This is main data type to use as widget field It consist of all what needed its ID its value of one of allowed types and attributes",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "InputField",
           "package": "wtk-gtk",
@@ -1174,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract input types. Denote UI fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "InputFieldType",
           "package": "wtk-gtk",
@@ -1183,6 +1278,7 @@
         "index": {
           "description": "Abstract input types Denote UI fields",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "InputFieldType",
           "package": "wtk-gtk",
@@ -1197,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery general action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Action",
           "package": "wtk-gtk",
@@ -1207,6 +1304,7 @@
         "index": {
           "description": "Very general action",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Action",
           "package": "wtk-gtk",
@@ -1220,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Attributes",
           "package": "wtk-gtk",
@@ -1229,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Attributes",
           "package": "wtk-gtk",
@@ -1243,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck Box (no syntax validation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "CheckBox",
           "package": "wtk-gtk",
@@ -1253,6 +1354,7 @@
         "index": {
           "description": "Check Box no syntax validation",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "CheckBox",
           "package": "wtk-gtk",
@@ -1267,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Da",
           "package": "wtk-gtk",
@@ -1277,6 +1380,7 @@
         "index": {
           "description": "Date value",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Da",
           "package": "wtk-gtk",
@@ -1291,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Fl",
           "package": "wtk-gtk",
@@ -1301,6 +1406,7 @@
         "index": {
           "description": "Float value",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Fl",
           "package": "wtk-gtk",
@@ -1315,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "In",
           "package": "wtk-gtk",
@@ -1325,6 +1432,7 @@
         "index": {
           "description": "Integer value",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "In",
           "package": "wtk-gtk",
@@ -1338,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "InputField",
           "package": "wtk-gtk",
@@ -1347,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "InputField",
           "package": "wtk-gtk",
@@ -1361,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn case no data needed for a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "NoDataJustAttributes",
           "package": "wtk-gtk",
@@ -1371,6 +1482,7 @@
         "index": {
           "description": "In case no data needed for widget",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "NoDataJustAttributes",
           "package": "wtk-gtk",
@@ -1385,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection list (no syntax validation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Selection",
           "package": "wtk-gtk",
@@ -1395,6 +1508,7 @@
         "index": {
           "description": "Selection list no syntax validation",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Selection",
           "package": "wtk-gtk",
@@ -1409,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Str",
           "package": "wtk-gtk",
@@ -1419,6 +1534,7 @@
         "index": {
           "description": "String value",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "Str",
           "package": "wtk-gtk",
@@ -1432,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "action",
           "package": "wtk-gtk",
@@ -1441,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "action",
           "normalized": "StateT(IO())a b-\u003ea b",
@@ -1455,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "action_",
           "package": "wtk-gtk",
@@ -1464,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "action_",
           "normalized": "IO()",
@@ -1478,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att",
           "package": "wtk-gtk",
@@ -1487,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att",
           "normalized": "StateT Attributes a b-\u003ea b",
@@ -1501,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_",
           "package": "wtk-gtk",
@@ -1510,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_",
           "package": "wtk-gtk",
@@ -1522,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_editable",
           "package": "wtk-gtk",
@@ -1531,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_editable",
           "normalized": "StateT Bool(StateT Attributes a)b-\u003ea b",
@@ -1545,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_errMssg",
           "package": "wtk-gtk",
@@ -1554,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_errMssg",
           "normalized": "StateT String(StateT Attributes a)b-\u003ea b",
@@ -1569,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_isError",
           "package": "wtk-gtk",
@@ -1578,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_isError",
           "normalized": "StateT Bool(StateT Attributes a)b-\u003ea b",
@@ -1593,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_rawValue",
           "package": "wtk-gtk",
@@ -1602,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_rawValue",
           "normalized": "StateT String(StateT Attributes a)b-\u003ea b",
@@ -1617,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_validated",
           "package": "wtk-gtk",
@@ -1626,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_validated",
           "normalized": "StateT Bool(StateT Attributes a)b-\u003ea b",
@@ -1640,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_visible",
           "package": "wtk-gtk",
@@ -1649,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "att_visible",
           "normalized": "StateT Bool(StateT Attributes a)b-\u003ea b",
@@ -1663,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "cbValue",
           "package": "wtk-gtk",
@@ -1672,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "cbValue",
           "normalized": "StateT Bool a b-\u003ea b",
@@ -1687,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "cbValue_",
           "package": "wtk-gtk",
@@ -1696,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "cbValue_",
           "package": "wtk-gtk",
@@ -1709,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "daValue",
           "package": "wtk-gtk",
@@ -1718,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "daValue",
           "normalized": "StateT(Maybe Day)a b-\u003ea b",
@@ -1733,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "daValue_",
           "package": "wtk-gtk",
@@ -1742,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "daValue_",
           "package": "wtk-gtk",
@@ -1755,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "editable",
           "package": "wtk-gtk",
@@ -1764,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "editable",
           "normalized": "StateT Bool a b-\u003ea b",
@@ -1779,6 +1925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue editable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "editable_",
           "package": "wtk-gtk",
@@ -1789,6 +1936,7 @@
         "index": {
           "description": "value editable",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "editable_",
           "package": "wtk-gtk",
@@ -1801,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "errMssg",
           "package": "wtk-gtk",
@@ -1810,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "errMssg",
           "normalized": "StateT String a b-\u003ea b",
@@ -1826,6 +1976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "errMssg_",
           "package": "wtk-gtk",
@@ -1836,6 +1987,7 @@
         "index": {
           "description": "error message",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "errMssg_",
           "package": "wtk-gtk",
@@ -1849,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "flValue",
           "package": "wtk-gtk",
@@ -1858,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "flValue",
           "normalized": "StateT(Maybe Double)a b-\u003ea b",
@@ -1874,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparsed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "flValue_",
           "package": "wtk-gtk",
@@ -1884,6 +2039,7 @@
         "index": {
           "description": "parsed value",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "flValue_",
           "package": "wtk-gtk",
@@ -1897,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "idOf",
           "package": "wtk-gtk",
@@ -1906,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "idOf",
           "normalized": "StateT Int a b-\u003ea b",
@@ -1921,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "idOf_",
           "package": "wtk-gtk",
@@ -1930,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "idOf_",
           "package": "wtk-gtk",
@@ -1943,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "inValue",
           "package": "wtk-gtk",
@@ -1952,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "inValue",
           "normalized": "StateT(Maybe Int)a b-\u003ea b",
@@ -1967,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "inValue_",
           "package": "wtk-gtk",
@@ -1976,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "inValue_",
           "package": "wtk-gtk",
@@ -1989,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isCheckBox",
           "package": "wtk-gtk",
@@ -1998,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isCheckBox",
           "normalized": "InputFieldType-\u003eBool",
@@ -2013,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isError",
           "package": "wtk-gtk",
@@ -2022,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isError",
           "normalized": "StateT Bool a b-\u003ea b",
@@ -2038,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue when value is not correct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isError_",
           "package": "wtk-gtk",
@@ -2048,6 +2217,7 @@
         "index": {
           "description": "True when value is not correct",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isError_",
           "package": "wtk-gtk",
@@ -2061,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isInputJust",
           "package": "wtk-gtk",
@@ -2070,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isInputJust",
           "normalized": "InputFieldType-\u003eBool",
@@ -2085,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isSelectionJust",
           "package": "wtk-gtk",
@@ -2094,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "isSelectionJust",
           "normalized": "InputFieldType-\u003eBool",
@@ -2109,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "newSelection",
           "package": "wtk-gtk",
@@ -2118,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "newSelection",
           "normalized": "Int-\u003eInputFieldType-\u003eInputFieldType",
@@ -2133,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "rawValue",
           "package": "wtk-gtk",
@@ -2142,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "rawValue",
           "normalized": "StateT String a b-\u003ea b",
@@ -2158,6 +2336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eraw value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "rawValue_",
           "package": "wtk-gtk",
@@ -2168,6 +2347,7 @@
         "index": {
           "description": "raw value",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "rawValue_",
           "package": "wtk-gtk",
@@ -2181,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "selString",
           "package": "wtk-gtk",
@@ -2190,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "selString",
           "normalized": "StateT[String]a b-\u003ea b",
@@ -2206,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of avaliable values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "selString_",
           "package": "wtk-gtk",
@@ -2216,6 +2399,7 @@
         "index": {
           "description": "list of avaliable values",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "selString_",
           "normalized": "[String]",
@@ -2231,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "selValue",
           "package": "wtk-gtk",
@@ -2240,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "selValue",
           "normalized": "StateT(Maybe Int)a b-\u003ea b",
@@ -2256,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselected item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "selValue_",
           "package": "wtk-gtk",
@@ -2266,6 +2453,7 @@
         "index": {
           "description": "selected item",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "selValue_",
           "package": "wtk-gtk",
@@ -2279,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "setCheckBox",
           "package": "wtk-gtk",
@@ -2288,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "setCheckBox",
           "normalized": "Bool-\u003eInputFieldType-\u003eInputFieldType",
@@ -2303,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "stValue",
           "package": "wtk-gtk",
@@ -2312,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "stValue",
           "normalized": "StateT String a b-\u003ea b",
@@ -2327,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "stValue_",
           "package": "wtk-gtk",
@@ -2336,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "stValue_",
           "package": "wtk-gtk",
@@ -2349,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val",
           "package": "wtk-gtk",
@@ -2358,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val",
           "normalized": "StateT InputFieldType a b-\u003ea b",
@@ -2372,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_",
           "package": "wtk-gtk",
@@ -2381,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_",
           "package": "wtk-gtk",
@@ -2393,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_action",
           "package": "wtk-gtk",
@@ -2402,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_action",
           "normalized": "StateT(IO())(StateT InputFieldType a)b-\u003ea b",
@@ -2416,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_cbValue",
           "package": "wtk-gtk",
@@ -2425,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_cbValue",
           "normalized": "StateT Bool(StateT InputFieldType a)b-\u003ea b",
@@ -2440,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_daValue",
           "package": "wtk-gtk",
@@ -2449,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_daValue",
           "normalized": "StateT(Maybe Day)(StateT InputFieldType a)b-\u003ea b",
@@ -2465,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoilerplating not provided by Lenses.Template\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_flValue",
           "package": "wtk-gtk",
@@ -2475,6 +2680,7 @@
         "index": {
           "description": "Boilerplating not provided by Lenses.Template",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_flValue",
           "normalized": "StateT(Maybe Double)(StateT InputFieldType a)b-\u003ea b",
@@ -2490,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_inValue",
           "package": "wtk-gtk",
@@ -2499,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_inValue",
           "normalized": "StateT(Maybe Int)(StateT InputFieldType a)b-\u003ea b",
@@ -2514,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_selString",
           "package": "wtk-gtk",
@@ -2523,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_selString",
           "normalized": "StateT[String](StateT InputFieldType a)b-\u003ea b",
@@ -2538,6 +2748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_selValue",
           "package": "wtk-gtk",
@@ -2547,6 +2758,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_selValue",
           "normalized": "StateT(Maybe Int)(StateT InputFieldType a)b-\u003ea b",
@@ -2562,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_stValue",
           "package": "wtk-gtk",
@@ -2571,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "val_stValue",
           "normalized": "StateT String(StateT InputFieldType a)b-\u003ea b",
@@ -2586,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "validated",
           "package": "wtk-gtk",
@@ -2595,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "validated",
           "normalized": "StateT Bool a b-\u003ea b",
@@ -2610,6 +2826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue has been validated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "validated_",
           "package": "wtk-gtk",
@@ -2620,6 +2837,7 @@
         "index": {
           "description": "value has been validated",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "validated_",
           "package": "wtk-gtk",
@@ -2632,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "visible",
           "package": "wtk-gtk",
@@ -2641,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "visible",
           "normalized": "StateT Bool a b-\u003ea b",
@@ -2656,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evisibility\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:59 UTC 2014",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "visible_",
           "package": "wtk-gtk",
@@ -2666,6 +2887,7 @@
         "index": {
           "description": "visibility",
           "hierarchy": "Graphics UI Gtk WtkGui",
+          "indexed": "2014-03-11T20:39:59",
           "module": "Graphics.UI.Gtk.WtkGui",
           "name": "visible_",
           "package": "wtk-gtk",

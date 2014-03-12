@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cil"
+        "phrase": "cil",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Parse",
           "name": "Parse",
           "package": "cil",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Parse",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Parse",
           "name": "Parse",
           "package": "cil",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a merged CIL program, given a file name and contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Parse",
           "name": "parseCIL",
           "package": "cil",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Parses merged CIL program given file name and contents",
           "hierarchy": "Language CIL Parse",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Parse",
           "name": "parseCIL",
           "normalized": "String-\u003eByteString-\u003eStmt",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat the file position of something with ties to the orignial source, like a \u003ccode\u003e\u003ca\u003eStmt\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Parse",
           "name": "position",
           "package": "cil",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Format the file position of something with ties to the orignial source like Stmt or Expr",
           "hierarchy": "Language CIL Parse",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Parse",
           "name": "position",
           "normalized": "a-\u003eString",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "StmtCore",
           "package": "cil",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "StmtCore",
           "package": "cil",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Stmt",
           "package": "cil",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Statements",
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Stmt",
           "package": "cil",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "AssignApply",
           "package": "cil",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "AssignApply",
           "package": "cil",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "AssignExpr",
           "package": "cil",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "AssignExpr",
           "package": "cil",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Break",
           "package": "cil",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Break",
           "package": "cil",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Case",
           "package": "cil",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Case",
           "package": "cil",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Compound",
           "package": "cil",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Compound",
           "normalized": "Compound[Name][Stmt]Position",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Default",
           "package": "cil",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Default",
           "package": "cil",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "FunctionDef",
           "package": "cil",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "FunctionDef",
           "normalized": "FunctionDef Name Type[(Name,Type)]Stmt Position",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Goto",
           "package": "cil",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Goto",
           "package": "cil",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "If",
           "package": "cil",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "If",
           "package": "cil",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Null",
           "package": "cil",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Null",
           "package": "cil",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Return",
           "package": "cil",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Return",
           "package": "cil",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "StmtApply",
           "package": "cil",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "StmtApply",
           "package": "cil",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "Switch",
           "package": "cil",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "Switch",
           "package": "cil",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "TypeDecl",
           "package": "cil",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "TypeDecl",
           "package": "cil",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "VariableDef",
           "package": "cil",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "VariableDef",
           "package": "cil",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtCore",
           "name": "While",
           "package": "cil",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtCore",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtCore",
           "name": "While",
           "package": "cil",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "StmtGoto",
           "package": "cil",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "StmtGoto",
           "package": "cil",
@@ -512,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "Stmt",
           "package": "cil",
@@ -521,6 +566,7 @@
         "index": {
           "description": "Statements",
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "Stmt",
           "package": "cil",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "AssignExpr",
           "package": "cil",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "AssignExpr",
           "package": "cil",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "Compound",
           "package": "cil",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "Compound",
           "normalized": "Compound[Name][Stmt]Position",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "Goto",
           "package": "cil",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "Goto",
           "package": "cil",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "If",
           "package": "cil",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "If",
           "package": "cil",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "Null",
           "package": "cil",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "Null",
           "package": "cil",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "TypeDecl",
           "package": "cil",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "TypeDecl",
           "package": "cil",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.StmtGoto",
           "name": "VariableDef",
           "package": "cil",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Language CIL StmtGoto",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.StmtGoto",
           "name": "VariableDef",
           "package": "cil",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Types",
           "package": "cil",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Types",
           "package": "cil",
@@ -712,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Apply",
           "package": "cil",
@@ -721,6 +784,7 @@
         "index": {
           "description": "Function application",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Apply",
           "package": "cil",
@@ -735,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Expr",
           "package": "cil",
@@ -744,6 +809,7 @@
         "index": {
           "description": "Expressions",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Expr",
           "package": "cil",
@@ -758,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialization expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Init",
           "package": "cil",
@@ -767,6 +834,7 @@
         "index": {
           "description": "Initialization expressions",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Init",
           "package": "cil",
@@ -781,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Name",
           "package": "cil",
@@ -790,6 +859,7 @@
         "index": {
           "description": "Identifiers",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Name",
           "package": "cil",
@@ -804,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Type",
           "package": "cil",
@@ -813,6 +884,7 @@
         "index": {
           "description": "Types",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Type",
           "package": "cil",
@@ -827,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea + b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Add",
           "package": "cil",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Add",
           "package": "cil",
@@ -850,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Adr",
           "package": "cil",
@@ -859,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Adr",
           "package": "cil",
@@ -873,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea & b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "And",
           "package": "cil",
@@ -882,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "And",
           "package": "cil",
@@ -895,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Apply",
           "package": "cil",
@@ -904,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Apply",
           "normalized": "Apply Expr[Expr]",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Array",
           "package": "cil",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Array",
           "package": "cil",
@@ -941,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "BitField",
           "package": "cil",
@@ -950,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "BitField",
           "normalized": "BitField Type[(Name,Int)]",
@@ -966,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(...) a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Cast",
           "package": "cil",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Cast",
           "package": "cil",
@@ -989,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e~a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Comp",
           "package": "cil",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Comp",
           "package": "cil",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "ConstChar",
           "package": "cil",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "ConstChar",
           "package": "cil",
@@ -1033,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "ConstFloat",
           "package": "cil",
@@ -1042,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "ConstFloat",
           "package": "cil",
@@ -1055,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "ConstInt",
           "package": "cil",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "ConstInt",
           "package": "cil",
@@ -1077,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "ConstString",
           "package": "cil",
@@ -1086,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "ConstString",
           "package": "cil",
@@ -1100,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea / b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Div",
           "package": "cil",
@@ -1109,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Div",
           "package": "cil",
@@ -1122,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Double",
           "package": "cil",
@@ -1131,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Double",
           "package": "cil",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Enum",
           "package": "cil",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Enum",
           "normalized": "Enum[(Name,Int)]",
@@ -1169,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to an enum type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "EnumRef",
           "package": "cil",
@@ -1179,6 +1282,7 @@
         "index": {
           "description": "Reference to an enum type",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "EnumRef",
           "package": "cil",
@@ -1193,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea == b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Eq",
           "package": "cil",
@@ -1202,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Eq",
           "package": "cil",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Float",
           "package": "cil",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Float",
           "package": "cil",
@@ -1237,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Function",
           "package": "cil",
@@ -1246,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Function",
           "normalized": "Function Type[Type]",
@@ -1262,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003e= b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Ge",
           "package": "cil",
@@ -1271,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Ge",
           "package": "cil",
@@ -1285,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003e b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Gt",
           "package": "cil",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Gt",
           "package": "cil",
@@ -1308,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e*a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Ind",
           "package": "cil",
@@ -1317,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Ind",
           "package": "cil",
@@ -1331,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea[b]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Index",
           "package": "cil",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Index",
           "package": "cil",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Init",
           "package": "cil",
@@ -1362,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Init",
           "package": "cil",
@@ -1375,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "InitList",
           "package": "cil",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "InitList",
           "normalized": "InitList[Init]",
@@ -1399,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Int16",
           "package": "cil",
@@ -1408,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Int16",
           "package": "cil",
@@ -1421,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Int32",
           "package": "cil",
@@ -1430,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Int32",
           "package": "cil",
@@ -1443,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Int8",
           "package": "cil",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Int8",
           "package": "cil",
@@ -1466,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003c= b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Le",
           "package": "cil",
@@ -1475,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Le",
           "package": "cil",
@@ -1489,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003c b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Lt",
           "package": "cil",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Lt",
           "package": "cil",
@@ -1512,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea.name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Mem",
           "package": "cil",
@@ -1522,6 +1655,7 @@
         "index": {
           "description": "a.name",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Mem",
           "package": "cil",
@@ -1536,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea-\u003ename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "MemInd",
           "package": "cil",
@@ -1546,6 +1681,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "MemInd",
           "package": "cil",
@@ -1560,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e-a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Minus",
           "package": "cil",
@@ -1569,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Minus",
           "package": "cil",
@@ -1583,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea * b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Mul",
           "package": "cil",
@@ -1592,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Mul",
           "package": "cil",
@@ -1606,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e!a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Neg",
           "package": "cil",
@@ -1615,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Neg",
           "package": "cil",
@@ -1629,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea != b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Neq",
           "package": "cil",
@@ -1638,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Neq",
           "package": "cil",
@@ -1652,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea | b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Or",
           "package": "cil",
@@ -1661,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Or",
           "package": "cil",
@@ -1674,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Ptr",
           "package": "cil",
@@ -1683,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Ptr",
           "package": "cil",
@@ -1697,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea % b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Rmd",
           "package": "cil",
@@ -1706,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Rmd",
           "package": "cil",
@@ -1720,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003c\u003c b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Shl",
           "package": "cil",
@@ -1729,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Shl",
           "package": "cil",
@@ -1743,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003e\u003e b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Shr",
           "package": "cil",
@@ -1752,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Shr",
           "package": "cil",
@@ -1766,6 +1920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esizeof(expr)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "SizeE",
           "package": "cil",
@@ -1776,6 +1931,7 @@
         "index": {
           "description": "sizeof expr",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "SizeE",
           "package": "cil",
@@ -1790,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esizeof(type)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "SizeT",
           "package": "cil",
@@ -1800,6 +1957,7 @@
         "index": {
           "description": "sizeof type",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "SizeT",
           "package": "cil",
@@ -1813,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Struct",
           "package": "cil",
@@ -1822,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Struct",
           "normalized": "Struct[(Name,Type)]",
@@ -1838,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to a struct type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "StructRef",
           "package": "cil",
@@ -1848,6 +2009,7 @@
         "index": {
           "description": "Reference to struct type",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "StructRef",
           "package": "cil",
@@ -1862,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea - b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Sub",
           "package": "cil",
@@ -1871,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Sub",
           "package": "cil",
@@ -1884,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Typedef",
           "package": "cil",
@@ -1893,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Typedef",
           "package": "cil",
@@ -1907,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to a previously defined typedef.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "TypedefRef",
           "package": "cil",
@@ -1917,6 +2084,7 @@
         "index": {
           "description": "Reference to previously defined typedef",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "TypedefRef",
           "package": "cil",
@@ -1930,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Union",
           "package": "cil",
@@ -1939,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Union",
           "normalized": "Union[(Name,Type)]",
@@ -1955,6 +2125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to a union type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "UnionRef",
           "package": "cil",
@@ -1965,6 +2136,7 @@
         "index": {
           "description": "Reference to union type",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "UnionRef",
           "package": "cil",
@@ -1979,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Var",
           "package": "cil",
@@ -1989,6 +2162,7 @@
         "index": {
           "description": "Variable reference",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Var",
           "package": "cil",
@@ -2002,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Void",
           "package": "cil",
@@ -2011,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Void",
           "package": "cil",
@@ -2025,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA volatile qualified type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Volatile",
           "package": "cil",
@@ -2035,6 +2212,7 @@
         "index": {
           "description": "volatile qualified type",
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Volatile",
           "package": "cil",
@@ -2048,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Word16",
           "package": "cil",
@@ -2057,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Word16",
           "package": "cil",
@@ -2070,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Word32",
           "package": "cil",
@@ -2079,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Word32",
           "package": "cil",
@@ -2092,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Word8",
           "package": "cil",
@@ -2101,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Word8",
           "package": "cil",
@@ -2115,6 +2299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea ^ b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL.Types",
           "name": "Xor",
           "package": "cil",
@@ -2124,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Language CIL Types",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL.Types",
           "name": "Xor",
           "package": "cil",
@@ -2138,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing the C Intermediate Language (CIL).\n   CIL provides a manageable means to analyze and compile C code.\n\u003c/p\u003e\u003cp\u003eThe common method to reduce C to CIL is to use the cilly driver:\n\u003c/p\u003e\u003cpre\u003e cilly --merge --keepmerged { c-files-and-options }\n\u003c/pre\u003e\u003cp\u003e\u003ca\u003ehttp://cil.sourceforge.net/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:34 UTC 2014",
           "module": "Language.CIL",
           "name": "CIL",
           "package": "cil",
@@ -2147,6 +2334,7 @@
         "index": {
           "description": "Parsing the Intermediate Language CIL CIL provides manageable means to analyze and compile code The common method to reduce to CIL is to use the cilly driver cilly merge keepmerged c-files-and-options http cil.sourceforge.net",
           "hierarchy": "Language CIL",
+          "indexed": "2014-03-11T17:32:34",
           "module": "Language.CIL",
           "name": "CIL",
           "package": "cil",

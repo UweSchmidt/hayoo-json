@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixed-vector-cereal"
+        "phrase": "fixed-vector-cereal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule with cereal instances for data types defined in fixed\n   vector\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:01 UTC 2014",
           "module": "Data.Vector.Fixed.Instances.Cereal",
           "name": "Cereal",
           "package": "fixed-vector-cereal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module with cereal instances for data types defined in fixed vector",
           "hierarchy": "Data Vector Fixed Instances Cereal",
+          "indexed": "2014-03-11T18:10:01",
           "module": "Data.Vector.Fixed.Instances.Cereal",
           "name": "Cereal",
           "package": "fixed-vector-cereal",

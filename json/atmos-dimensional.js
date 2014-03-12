@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atmos-dimensional"
+        "phrase": "atmos-dimensional",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "Dimensional",
           "package": "atmos-dimensional",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "Dimensional",
           "package": "atmos-dimensional",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "Atmos",
           "package": "atmos-dimensional",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "Atmos",
           "package": "atmos-dimensional",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "Atmos",
           "package": "atmos-dimensional",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "Atmos",
           "package": "atmos-dimensional",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "atmosDensity",
           "package": "atmos-dimensional",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "atmosDensity",
           "package": "atmos-dimensional",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "atmosKinematicViscosity",
           "package": "atmos-dimensional",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "atmosKinematicViscosity",
           "package": "atmos-dimensional",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "atmosPressure",
           "package": "atmos-dimensional",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "atmosPressure",
           "package": "atmos-dimensional",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "atmosSpeedOfSound",
           "package": "atmos-dimensional",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "atmosSpeedOfSound",
           "package": "atmos-dimensional",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "atmosTemperature",
           "package": "atmos-dimensional",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "atmosTemperature",
           "package": "atmos-dimensional",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "atmosViscosity",
           "package": "atmos-dimensional",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "atmosViscosity",
           "package": "atmos-dimensional",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "atmosphere",
           "package": "atmos-dimensional",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "atmosphere",
           "normalized": "Length a-\u003e(ThermodynamicTemperature a,Pressure a,Density a,Velocity a,DynamicViscosity a,KinematicViscosity a)",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:04 UTC 2014",
           "module": "Atmosphere.Dimensional",
           "name": "atmosphere'",
           "package": "atmos-dimensional",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Atmosphere Dimensional",
+          "indexed": "2014-03-11T17:14:04",
           "module": "Atmosphere.Dimensional",
           "name": "atmosphere'",
           "normalized": "Length a-\u003eAtmos a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskoon-salvia"
+        "phrase": "haskoon-salvia",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:38 UTC 2014",
           "module": "Factis.Haskoon.WebSalvia",
           "name": "WebSalvia",
           "package": "haskoon-salvia",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSalvia",
+          "indexed": "2014-03-11T18:33:38",
           "module": "Factis.Haskoon.WebSalvia",
           "name": "WebSalvia",
           "package": "haskoon-salvia",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:38 UTC 2014",
           "module": "Factis.Haskoon.WebSalvia",
           "name": "WebSalvia",
           "package": "haskoon-salvia",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSalvia",
+          "indexed": "2014-03-11T18:33:38",
           "module": "Factis.Haskoon.WebSalvia",
           "name": "WebSalvia",
           "package": "haskoon-salvia",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:38 UTC 2014",
           "module": "Factis.Haskoon.WebSalvia",
           "name": "salviaMain",
           "package": "haskoon-salvia",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon WebSalvia",
+          "indexed": "2014-03-11T18:33:38",
           "module": "Factis.Haskoon.WebSalvia",
           "name": "salviaMain",
           "normalized": "String-\u003ePortNumber-\u003eWebSalvia(Handler())(WebRes(WebSalvia(Handler())))-\u003eIO()",

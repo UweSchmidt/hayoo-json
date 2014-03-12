@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-mmap"
+        "phrase": "vector-mmap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:30 UTC 2014",
           "module": "Data.Vector.Storable.MMap",
           "name": "MMap",
           "package": "vector-mmap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable MMap",
+          "indexed": "2014-03-11T20:34:30",
           "module": "Data.Vector.Storable.MMap",
           "name": "MMap",
           "package": "vector-mmap",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMode of mapping. Four cases are supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:30 UTC 2014",
           "module": "Data.Vector.Storable.MMap",
           "name": "Mode",
           "package": "vector-mmap",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Mode of mapping Four cases are supported",
           "hierarchy": "Data Vector Storable MMap",
+          "indexed": "2014-03-11T20:34:30",
           "module": "Data.Vector.Storable.MMap",
           "name": "Mode",
           "package": "vector-mmap",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile is mapped read-only, file must\n exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:30 UTC 2014",
           "module": "Data.Vector.Storable.MMap",
           "name": "ReadOnly",
           "package": "vector-mmap",
@@ -71,6 +76,7 @@
         "index": {
           "description": "file is mapped read-only file must exist",
           "hierarchy": "Data Vector Storable MMap",
+          "indexed": "2014-03-11T20:34:30",
           "module": "Data.Vector.Storable.MMap",
           "name": "ReadOnly",
           "package": "vector-mmap",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile is mapped read-write, file must\n exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:30 UTC 2014",
           "module": "Data.Vector.Storable.MMap",
           "name": "ReadWrite",
           "package": "vector-mmap",
@@ -94,6 +101,7 @@
         "index": {
           "description": "file is mapped read-write file must exist",
           "hierarchy": "Data Vector Storable MMap",
+          "indexed": "2014-03-11T20:34:30",
           "module": "Data.Vector.Storable.MMap",
           "name": "ReadWrite",
           "package": "vector-mmap",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile is mapped read-write, if file does\n not exist it will be created with default\n permissions, region parameter specifies\n size, if file size is lower it will be\n extended with zeros\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:30 UTC 2014",
           "module": "Data.Vector.Storable.MMap",
           "name": "ReadWriteEx",
           "package": "vector-mmap",
@@ -117,6 +126,7 @@
         "index": {
           "description": "file is mapped read-write if file does not exist it will be created with default permissions region parameter specifies size if file size is lower it will be extended with zeros",
           "hierarchy": "Data Vector Storable MMap",
+          "indexed": "2014-03-11T20:34:30",
           "module": "Data.Vector.Storable.MMap",
           "name": "ReadWriteEx",
           "package": "vector-mmap",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile is mapped read-write, but changes\n aren't propagated to disk, file must exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:30 UTC 2014",
           "module": "Data.Vector.Storable.MMap",
           "name": "WriteCopy",
           "package": "vector-mmap",
@@ -140,6 +151,7 @@
         "index": {
           "description": "file is mapped read-write but changes aren propagated to disk file must exist",
           "hierarchy": "Data Vector Storable MMap",
+          "indexed": "2014-03-11T20:34:30",
           "module": "Data.Vector.Storable.MMap",
           "name": "WriteCopy",
           "package": "vector-mmap",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a file into memory as a mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:30 UTC 2014",
           "module": "Data.Vector.Storable.MMap",
           "name": "unsafeMMapMVector",
           "package": "vector-mmap",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Map file into memory as mutable vector",
           "hierarchy": "Data Vector Storable MMap",
+          "indexed": "2014-03-11T20:34:30",
           "module": "Data.Vector.Storable.MMap",
           "name": "unsafeMMapMVector",
           "normalized": "FilePath-\u003eMode-\u003eMaybe(Int,Int)-\u003eIO(MVector(PrimState IO)a)",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a file into memory (\u003ccode\u003e\u003ca\u003eReadOnly\u003c/a\u003e\u003c/code\u003e mode) as an immutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:30 UTC 2014",
           "module": "Data.Vector.Storable.MMap",
           "name": "unsafeMMapVector",
           "package": "vector-mmap",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Map file into memory ReadOnly mode as an immutable vector",
           "hierarchy": "Data Vector Storable MMap",
+          "indexed": "2014-03-11T20:34:30",
           "module": "Data.Vector.Storable.MMap",
           "name": "unsafeMMapVector",
           "normalized": "FilePath-\u003eMaybe(Int,Int)-\u003eIO(Vector a)",

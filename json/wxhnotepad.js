@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wxhnotepad"
+        "phrase": "wxhnotepad",
+        "type": "phrase"
       },
       "type": "context"
     }

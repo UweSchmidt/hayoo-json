@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "universal-binary"
+        "phrase": "universal-binary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData.UniversalBinary is a module for parsing an OS X universal binary\n into a list of its member objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:23 UTC 2014",
           "module": "Data.UniversalBinary",
           "name": "UniversalBinary",
           "package": "universal-binary",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data.UniversalBinary is module for parsing an OS universal binary into list of its member objects",
           "hierarchy": "Data UniversalBinary",
+          "indexed": "2014-03-11T20:30:23",
           "module": "Data.UniversalBinary",
           "name": "UniversalBinary",
           "package": "universal-binary",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA member of the universal binary. Usually a Mach-O object for a given architecture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:23 UTC 2014",
           "module": "Data.UniversalBinary",
           "name": "Object",
           "package": "universal-binary",
@@ -51,6 +54,7 @@
         "index": {
           "description": "member of the universal binary Usually Mach-O object for given architecture",
           "hierarchy": "Data UniversalBinary",
+          "indexed": "2014-03-11T20:30:23",
           "module": "Data.UniversalBinary",
           "name": "Object",
           "package": "universal-binary",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:23 UTC 2014",
           "module": "Data.UniversalBinary",
           "name": "Object",
           "package": "universal-binary",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data UniversalBinary",
+          "indexed": "2014-03-11T20:30:23",
           "module": "Data.UniversalBinary",
           "name": "Object",
           "package": "universal-binary",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequired file alignment of object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:23 UTC 2014",
           "module": "Data.UniversalBinary",
           "name": "align",
           "package": "universal-binary",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Required file alignment of object",
           "hierarchy": "Data UniversalBinary",
+          "indexed": "2014-03-11T20:30:23",
           "module": "Data.UniversalBinary",
           "name": "align",
           "package": "universal-binary",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCPU subtype from \u003cem\u003eusr\u003c/em\u003einclude\u003cem\u003emach\u003c/em\u003emachine.h.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:23 UTC 2014",
           "module": "Data.UniversalBinary",
           "name": "cpusubtype",
           "package": "universal-binary",
@@ -120,6 +129,7 @@
         "index": {
           "description": "CPU subtype from usr include mach machine.h",
           "hierarchy": "Data UniversalBinary",
+          "indexed": "2014-03-11T20:30:23",
           "module": "Data.UniversalBinary",
           "name": "cpusubtype",
           "package": "universal-binary",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCPU type from \u003cem\u003eusr\u003c/em\u003einclude\u003cem\u003emach\u003c/em\u003emachine.h.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:23 UTC 2014",
           "module": "Data.UniversalBinary",
           "name": "cputype",
           "package": "universal-binary",
@@ -143,6 +154,7 @@
         "index": {
           "description": "CPU type from usr include mach machine.h",
           "hierarchy": "Data UniversalBinary",
+          "indexed": "2014-03-11T20:30:23",
           "module": "Data.UniversalBinary",
           "name": "cputype",
           "package": "universal-binary",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eByte string for object data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:23 UTC 2014",
           "module": "Data.UniversalBinary",
           "name": "object",
           "package": "universal-binary",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Byte string for object data",
           "hierarchy": "Data UniversalBinary",
+          "indexed": "2014-03-11T20:30:23",
           "module": "Data.UniversalBinary",
           "name": "object",
           "package": "universal-binary",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a universal binary ByteString into a list of contained objects. An\n error is thrown for unexpected data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:23 UTC 2014",
           "module": "Data.UniversalBinary",
           "name": "parseUniversalBinary",
           "package": "universal-binary",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Parse universal binary ByteString into list of contained objects An error is thrown for unexpected data",
           "hierarchy": "Data UniversalBinary",
+          "indexed": "2014-03-11T20:30:23",
           "module": "Data.UniversalBinary",
           "name": "parseUniversalBinary",
           "normalized": "ByteString-\u003e[Object]",

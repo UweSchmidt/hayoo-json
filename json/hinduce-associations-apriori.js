@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hinduce-associations-apriori"
+        "phrase": "hinduce-associations-apriori",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:29 UTC 2014",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "Apriori",
           "package": "hinduce-associations-apriori",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Associations Apriori",
+          "indexed": "2014-03-11T18:39:29",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "Apriori",
           "package": "hinduce-associations-apriori",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:29 UTC 2014",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "Item",
           "package": "hinduce-associations-apriori",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Associations Apriori",
+          "indexed": "2014-03-11T18:39:29",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "Item",
           "package": "hinduce-associations-apriori",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:29 UTC 2014",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "Items",
           "package": "hinduce-associations-apriori",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Associations Apriori",
+          "indexed": "2014-03-11T18:39:29",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "Items",
           "package": "hinduce-associations-apriori",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:29 UTC 2014",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "Transaction",
           "package": "hinduce-associations-apriori",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Associations Apriori",
+          "indexed": "2014-03-11T18:39:29",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "Transaction",
           "package": "hinduce-associations-apriori",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a dataset from a file, where each line represents one transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:29 UTC 2014",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "loadDataSet",
           "package": "hinduce-associations-apriori",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Load dataset from file where each line represents one transaction",
           "hierarchy": "Data HInduce Associations Apriori",
+          "indexed": "2014-03-11T18:39:29",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "loadDataSet",
           "normalized": "String-\u003eIO[Transaction Int]",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven transactions on items, derive rules for items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:29 UTC 2014",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "rules",
           "package": "hinduce-associations-apriori",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Given transactions on items derive rules for items",
           "hierarchy": "Data HInduce Associations Apriori",
+          "indexed": "2014-03-11T18:39:29",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "rules",
           "normalized": "a(Transaction b)-\u003eItems b-\u003e(Map(Items b)Int-\u003eMap(Items b)Int)-\u003eMap(Items b,Items b)Double",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:29 UTC 2014",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "test",
           "package": "hinduce-associations-apriori",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Associations Apriori",
+          "indexed": "2014-03-11T18:39:29",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "test",
           "normalized": "IO[((Items Int,Items Int),Double)]",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:29 UTC 2014",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "top",
           "package": "hinduce-associations-apriori",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data HInduce Associations Apriori",
+          "indexed": "2014-03-11T18:39:29",
           "module": "Data.HInduce.Associations.Apriori",
           "name": "top",
           "normalized": "([(Items a,Int)]-\u003e[(Items a,Int)])-\u003eMap(Items a)Int-\u003eMap(Items a)Int",

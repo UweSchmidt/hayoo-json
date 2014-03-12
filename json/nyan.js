@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nyan"
+        "phrase": "nyan",
+        "type": "phrase"
       },
       "type": "context"
     }

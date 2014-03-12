@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "minioperational"
+        "phrase": "minioperational",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA class for operational monads\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Class",
           "name": "Class",
           "package": "minioperational",
@@ -28,6 +29,7 @@
         "index": {
           "description": "class for operational monads",
           "hierarchy": "Control Monad Operational Class",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Class",
           "name": "Class",
           "package": "minioperational",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Class",
           "name": ":!",
           "package": "minioperational",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational Class",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Class",
           "name": ":!",
           "package": "minioperational",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an operational action from a single imperative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Class",
           "name": "singleton",
           "package": "minioperational",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Construct an operational action from single imperative",
           "hierarchy": "Control Monad Operational Class",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Class",
           "name": "singleton",
           "normalized": "a b-\u003ec b",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple operational monad\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "Mini",
           "package": "minioperational",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Simple operational monad",
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "Mini",
           "package": "minioperational",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram t is a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e that represents a sequence of imperatives.\n To construct imperatives, use \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e :: t a -\u003e Program t a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "Program",
           "package": "minioperational",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Program is Monad that represents sequence of imperatives To construct imperatives use singleton Program",
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "Program",
           "package": "minioperational",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReified version of \u003ccode\u003e\u003ca\u003eProgram\u003c/a\u003e\u003c/code\u003e. It is useful for testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "ReifiedProgram",
           "package": "minioperational",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Reified version of Program It is useful for testing",
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "ReifiedProgram",
           "package": "minioperational",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": ":\u003e\u003e=",
           "package": "minioperational",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": ":\u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003eReifiedProgram a c)-\u003eReifiedProgram a c",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "Program",
           "package": "minioperational",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "Program",
           "package": "minioperational",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "Return",
           "package": "minioperational",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "Return",
           "normalized": "a-\u003eReifiedProgram b a",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "cloneProgram",
           "package": "minioperational",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "cloneProgram",
           "normalized": "Program a b-\u003ec b",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "fromReified",
           "package": "minioperational",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "fromReified",
           "normalized": "ReifiedProgram a b-\u003eProgram a b",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a \u003ccode\u003e\u003ca\u003eProgram\u003c/a\u003e\u003c/code\u003e using the given transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "interpret",
           "package": "minioperational",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Interpret Program using the given transformation",
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "interpret",
           "normalized": "(a b c d-\u003ee d)-\u003eProgram c f-\u003ee f",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.Mini",
           "name": "unProgram",
           "package": "minioperational",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.Mini",
           "name": "unProgram",
           "normalized": "a b(c-\u003ed)-\u003e(a e f g-\u003e(g-\u003ed)-\u003ed)-\u003ed",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.TH",
           "name": "TH",
           "package": "minioperational",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational TH",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.TH",
           "name": "TH",
           "package": "minioperational",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Operational.TH",
           "name": "makeSingletons",
           "package": "minioperational",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Operational TH",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Operational.TH",
           "name": "makeSingletons",
           "normalized": "Name-\u003eQ[Dec]",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple operational monad transformer\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "Mini",
           "package": "minioperational",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Simple operational monad transformer",
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "Mini",
           "package": "minioperational",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "ProgramT",
           "package": "minioperational",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "ProgramT",
           "package": "minioperational",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "ReifiedProgramT",
           "package": "minioperational",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "ReifiedProgramT",
           "package": "minioperational",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": ":\u003e\u003e=",
           "package": "minioperational",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": ":\u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003eReifiedProgramT a c d)-\u003eReifiedProgramT a c d",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "Lift",
           "package": "minioperational",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "Lift",
           "normalized": "a b-\u003e(b-\u003eReifiedProgramT c a d)-\u003eReifiedProgramT c a d",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "ProgramT",
           "package": "minioperational",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "ProgramT",
           "package": "minioperational",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "Return",
           "package": "minioperational",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "Return",
           "normalized": "a-\u003eReifiedProgramT b c a",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "fromReifiedT",
           "package": "minioperational",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "fromReifiedT",
           "normalized": "ReifiedProgramT a b c-\u003eProgramT a b c",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "hoistReifiedT",
           "package": "minioperational",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "hoistReifiedT",
           "normalized": "(a b c d-\u003ee d)-\u003eReifiedProgramT c f g-\u003eReifiedProgramT e f g",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a \u003ccode\u003eProgram\u003c/code\u003e using the given transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "interpret",
           "package": "minioperational",
@@ -583,6 +632,7 @@
         "index": {
           "description": "Interpret Program using the given transformation",
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "interpret",
           "normalized": "(a b c d-\u003ee d)-\u003eProgramT c e f-\u003ee f",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "transReifiedT",
           "package": "minioperational",
@@ -606,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "transReifiedT",
           "normalized": "(a b c d-\u003ee d)-\u003eReifiedProgramT f c g-\u003eReifiedProgramT f e g",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "unProgram",
           "package": "minioperational",
@@ -630,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "unProgram",
           "normalized": "ProgramT a b c-\u003e(c-\u003eb d)-\u003e(e f a g-\u003e(g-\u003eb d)-\u003eb d)-\u003eb d",
@@ -645,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:18 UTC 2014",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "unProgramT",
           "package": "minioperational",
@@ -654,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Operational Mini",
+          "indexed": "2014-03-11T19:18:18",
           "module": "Control.Monad.Trans.Operational.Mini",
           "name": "unProgramT",
           "normalized": "a b(c-\u003ed)-\u003e(e d-\u003ed)-\u003e(a f g h-\u003e(h-\u003ed)-\u003ed)-\u003ed",

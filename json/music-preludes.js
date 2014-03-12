@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "music-preludes"
+        "phrase": "music-preludes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.Basic",
           "name": "Basic",
           "package": "music-preludes",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude Basic",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.Basic",
           "name": "Basic",
           "package": "music-preludes",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.Basic",
           "name": "BasicPart",
           "package": "music-preludes",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude Basic",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.Basic",
           "name": "BasicPart",
           "package": "music-preludes",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.Basic",
           "name": "Note",
           "package": "music-preludes",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude Basic",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.Basic",
           "name": "Note",
           "package": "music-preludes",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.Basic",
           "name": "asScore",
           "package": "music-preludes",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude Basic",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.Basic",
           "name": "asScore",
           "normalized": "Score Note-\u003eScore Note",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.Piano",
           "name": "Piano",
           "package": "music-preludes",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude Piano",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.Piano",
           "name": "Piano",
           "package": "music-preludes",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.Piano",
           "name": "Note",
           "package": "music-preludes",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude Piano",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.Piano",
           "name": "Note",
           "package": "music-preludes",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.Piano",
           "name": "PianoPart",
           "package": "music-preludes",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude Piano",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.Piano",
           "name": "PianoPart",
           "package": "music-preludes",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.Piano",
           "name": "asScore",
           "package": "music-preludes",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude Piano",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.Piano",
           "name": "asScore",
           "normalized": "Score Note-\u003eScore Note",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.StringQuartet",
           "name": "StringQuartet",
           "package": "music-preludes",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude StringQuartet",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.StringQuartet",
           "name": "StringQuartet",
           "package": "music-preludes",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.StringQuartet",
           "name": "Note",
           "package": "music-preludes",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude StringQuartet",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.StringQuartet",
           "name": "Note",
           "package": "music-preludes",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.StringQuartet",
           "name": "StringQuartetPart",
           "package": "music-preludes",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude StringQuartet",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.StringQuartet",
           "name": "StringQuartetPart",
           "package": "music-preludes",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:41 UTC 2014",
           "module": "Music.Prelude.StringQuartet",
           "name": "asScore",
           "package": "music-preludes",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Music Prelude StringQuartet",
+          "indexed": "2014-03-11T19:24:41",
           "module": "Music.Prelude.StringQuartet",
           "name": "asScore",
           "normalized": "Score Note-\u003eScore Note",

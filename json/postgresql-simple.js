@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "postgresql-simple"
+        "phrase": "postgresql-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Postgres array parser and pretty-printer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "Arrays",
           "package": "postgresql-simple",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Postgres array parser and pretty-printer",
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "Arrays",
           "package": "postgresql-simple",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "ArrayFormat",
           "package": "postgresql-simple",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "ArrayFormat",
           "package": "postgresql-simple",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "Array",
           "package": "postgresql-simple",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "Array",
           "normalized": "Array[ArrayFormat]",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "Plain",
           "package": "postgresql-simple",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "Plain",
           "package": "postgresql-simple",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "Quoted",
           "package": "postgresql-simple",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "Quoted",
           "package": "postgresql-simple",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "array",
           "package": "postgresql-simple",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "array",
           "normalized": "Char-\u003eParser[ArrayFormat]",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one of three primitive field formats: array, quoted and plain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "arrayFormat",
           "package": "postgresql-simple",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Parse one of three primitive field formats array quoted and plain",
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "arrayFormat",
           "normalized": "Char-\u003eParser ArrayFormat",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a list of array format items, inserting the appropriate delimiter\n   between them. When the items are arrays, they will be delimited with\n   commas; otherwise, they are delimited with the passed-in-delimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "delimit",
           "package": "postgresql-simple",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Format list of array format items inserting the appropriate delimiter between them When the items are arrays they will be delimited with commas otherwise they are delimited with the passed-in-delimiter",
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "delimit",
           "normalized": "Char-\u003e[ArrayFormat]-\u003eByteString",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape a string according to Postgres double-quoted string format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "esc",
           "package": "postgresql-simple",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Escape string according to Postgres double-quoted string format",
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "esc",
           "normalized": "ByteString-\u003eByteString",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat an array format item, using the delimiter character if the item is\n   itself an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "fmt",
           "package": "postgresql-simple",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Format an array format item using the delimiter character if the item is itself an array",
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "fmt",
           "normalized": "Char-\u003eArrayFormat-\u003eByteString",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat an array format item, using the delimiter character if the item is\n   itself an array, optionally applying quoting rules. Creates copies for\n   safety when used in \u003ccode\u003eFromField\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "fmt'",
           "package": "postgresql-simple",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Format an array format item using the delimiter character if the item is itself an array optionally applying quoting rules Creates copies for safety when used in FromField instances",
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "fmt'",
           "normalized": "Bool-\u003eChar-\u003eArrayFormat-\u003eByteString",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecognizes a plain string literal, not containing quotes or brackets and\n   not containing the delimiter character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "plain",
           "package": "postgresql-simple",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Recognizes plain string literal not containing quotes or brackets and not containing the delimiter character",
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "plain",
           "normalized": "Char-\u003eParser ByteString",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecognizes a quoted string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "quoted",
           "package": "postgresql-simple",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Recognizes quoted string",
           "hierarchy": "Database PostgreSQL Simple Arrays",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Arrays",
           "name": "quoted",
           "package": "postgresql-simple",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use TypeInfo instead\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "BuiltinTypes",
           "package": "postgresql-simple",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Deprecated Use TypeInfo instead",
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "BuiltinTypes",
           "package": "postgresql-simple",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "BuiltinType",
           "package": "postgresql-simple",
@@ -358,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "BuiltinType",
           "package": "postgresql-simple",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "AbsTime",
           "package": "postgresql-simple",
@@ -380,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "AbsTime",
           "package": "postgresql-simple",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Bit",
           "package": "postgresql-simple",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Bit",
           "package": "postgresql-simple",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Bool",
           "package": "postgresql-simple",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Bool",
           "package": "postgresql-simple",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Box",
           "package": "postgresql-simple",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Box",
           "package": "postgresql-simple",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "BpChar",
           "package": "postgresql-simple",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "BpChar",
           "package": "postgresql-simple",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "ByteA",
           "package": "postgresql-simple",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "ByteA",
           "package": "postgresql-simple",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Char",
           "package": "postgresql-simple",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Char",
           "package": "postgresql-simple",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Cid",
           "package": "postgresql-simple",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Cid",
           "package": "postgresql-simple",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Cidr",
           "package": "postgresql-simple",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Cidr",
           "package": "postgresql-simple",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Circle",
           "package": "postgresql-simple",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Circle",
           "package": "postgresql-simple",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Date",
           "package": "postgresql-simple",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Date",
           "package": "postgresql-simple",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Float4",
           "package": "postgresql-simple",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Float4",
           "package": "postgresql-simple",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Float8",
           "package": "postgresql-simple",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Float8",
           "package": "postgresql-simple",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Inet",
           "package": "postgresql-simple",
@@ -666,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Inet",
           "package": "postgresql-simple",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Int2",
           "package": "postgresql-simple",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Int2",
           "package": "postgresql-simple",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Int4",
           "package": "postgresql-simple",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Int4",
           "package": "postgresql-simple",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Int8",
           "package": "postgresql-simple",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Int8",
           "package": "postgresql-simple",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Interval",
           "package": "postgresql-simple",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Interval",
           "package": "postgresql-simple",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "JSON",
           "package": "postgresql-simple",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "JSON",
           "package": "postgresql-simple",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "LSeg",
           "package": "postgresql-simple",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "LSeg",
           "package": "postgresql-simple",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Line",
           "package": "postgresql-simple",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Line",
           "package": "postgresql-simple",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "MacAddr",
           "package": "postgresql-simple",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "MacAddr",
           "package": "postgresql-simple",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Money",
           "package": "postgresql-simple",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Money",
           "package": "postgresql-simple",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Name",
           "package": "postgresql-simple",
@@ -886,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Name",
           "package": "postgresql-simple",
@@ -899,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Numeric",
           "package": "postgresql-simple",
@@ -908,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Numeric",
           "package": "postgresql-simple",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Oid",
           "package": "postgresql-simple",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Oid",
           "package": "postgresql-simple",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Path",
           "package": "postgresql-simple",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Path",
           "package": "postgresql-simple",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Point",
           "package": "postgresql-simple",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Point",
           "package": "postgresql-simple",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Polygon",
           "package": "postgresql-simple",
@@ -996,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Polygon",
           "package": "postgresql-simple",
@@ -1009,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Record",
           "package": "postgresql-simple",
@@ -1018,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Record",
           "package": "postgresql-simple",
@@ -1031,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "RefCursor",
           "package": "postgresql-simple",
@@ -1040,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "RefCursor",
           "package": "postgresql-simple",
@@ -1053,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "RegProc",
           "package": "postgresql-simple",
@@ -1062,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "RegProc",
           "package": "postgresql-simple",
@@ -1075,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "RelTime",
           "package": "postgresql-simple",
@@ -1084,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "RelTime",
           "package": "postgresql-simple",
@@ -1097,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "TInterval",
           "package": "postgresql-simple",
@@ -1106,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "TInterval",
           "package": "postgresql-simple",
@@ -1119,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Text",
           "package": "postgresql-simple",
@@ -1128,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Text",
           "package": "postgresql-simple",
@@ -1141,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Tid",
           "package": "postgresql-simple",
@@ -1150,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Tid",
           "package": "postgresql-simple",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Time",
           "package": "postgresql-simple",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Time",
           "package": "postgresql-simple",
@@ -1185,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "TimeTZ",
           "package": "postgresql-simple",
@@ -1194,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "TimeTZ",
           "package": "postgresql-simple",
@@ -1207,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Timestamp",
           "package": "postgresql-simple",
@@ -1216,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Timestamp",
           "package": "postgresql-simple",
@@ -1229,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "TimestampTZ",
           "package": "postgresql-simple",
@@ -1238,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "TimestampTZ",
           "package": "postgresql-simple",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "UUID",
           "package": "postgresql-simple",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "UUID",
           "package": "postgresql-simple",
@@ -1273,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Unknown",
           "package": "postgresql-simple",
@@ -1282,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Unknown",
           "package": "postgresql-simple",
@@ -1295,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "VarBit",
           "package": "postgresql-simple",
@@ -1304,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "VarBit",
           "package": "postgresql-simple",
@@ -1317,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "VarChar",
           "package": "postgresql-simple",
@@ -1326,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "VarChar",
           "package": "postgresql-simple",
@@ -1339,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Void",
           "package": "postgresql-simple",
@@ -1348,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Void",
           "package": "postgresql-simple",
@@ -1361,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Xid",
           "package": "postgresql-simple",
@@ -1370,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Xid",
           "package": "postgresql-simple",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Xml",
           "package": "postgresql-simple",
@@ -1392,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "Xml",
           "package": "postgresql-simple",
@@ -1405,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "builtin2oid",
           "package": "postgresql-simple",
@@ -1414,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "builtin2oid",
           "normalized": "BuiltinType-\u003eOid",
@@ -1428,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "builtin2typname",
           "package": "postgresql-simple",
@@ -1437,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "builtin2typname",
           "normalized": "BuiltinType-\u003eByteString",
@@ -1451,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "oid2builtin",
           "package": "postgresql-simple",
@@ -1460,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "oid2builtin",
           "normalized": "Oid-\u003eMaybe BuiltinType",
@@ -1474,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "oid2typname",
           "package": "postgresql-simple",
@@ -1483,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple BuiltinTypes",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.BuiltinTypes",
           "name": "oid2typname",
           "normalized": "Oid-\u003eMaybe ByteString",
@@ -1498,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003emid-level support for COPY IN and COPY OUT.   See\n \u003ca\u003ehttp://www.postgresql.org/docs/9.2/static/sql-copy.html\u003c/a\u003e for\n more information.\n\u003c/p\u003e\u003cp\u003eTo use this binding,  first call \u003ccode\u003e\u003ca\u003ecopy\u003c/a\u003e\u003c/code\u003e with an appropriate\n query as documented in the link above.  Then, in the case of a\n \u003ccode\u003eCOPY TO STDOUT\u003c/code\u003e query,  call \u003ccode\u003e\u003ca\u003egetCopyData\u003c/a\u003e\u003c/code\u003e repeatedly until it\n returns \u003ccode\u003e\u003ca\u003eCopyOutDone\u003c/a\u003e\u003c/code\u003e.   In the case of a \u003ccode\u003eCOPY FROM STDIN\u003c/code\u003e\n query,  call \u003ccode\u003e\u003ca\u003eputCopyData\u003c/a\u003e\u003c/code\u003e repeatedly and then finish by calling\n either \u003ccode\u003e\u003ca\u003eputCopyEnd\u003c/a\u003e\u003c/code\u003e to proceed or \u003ccode\u003e\u003ca\u003eputCopyError\u003c/a\u003e\u003c/code\u003e to abort.\n\u003c/p\u003e\u003cp\u003eYou cannot issue another query on the same connection while a copy\n is ongoing; this will result in an exception.   It is harmless to\n concurrently call \u003ccode\u003egetNotification\u003c/code\u003e on a connection while it is in\n a \u003ccode\u003eCopyIn\u003c/code\u003e or \u003ccode\u003eCopyOut\u003c/code\u003e state,  however be aware that current versions\n of the PostgreSQL backend will not deliver notifications to a client\n while a transaction is ongoing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "Copy",
           "package": "postgresql-simple",
@@ -1507,6 +1640,7 @@
         "index": {
           "description": "mid-level support for COPY IN and COPY OUT See http www.postgresql.org docs static sql-copy.html for more information To use this binding first call copy with an appropriate query as documented in the link above Then in the case of COPY TO STDOUT query call getCopyData repeatedly until it returns CopyOutDone In the case of COPY FROM STDIN query call putCopyData repeatedly and then finish by calling either putCopyEnd to proceed or putCopyError to abort You cannot issue another query on the same connection while copy is ongoing this will result in an exception It is harmless to concurrently call getNotification on connection while it is in CopyIn or CopyOut state however be aware that current versions of the PostgreSQL backend will not deliver notifications to client while transaction is ongoing",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "Copy",
           "package": "postgresql-simple",
@@ -1520,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "CopyOutResult",
           "package": "postgresql-simple",
@@ -1528,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "CopyOutResult",
           "package": "postgresql-simple",
@@ -1542,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo more rows, and a count of the\n   number of rows returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "CopyOutDone",
           "package": "postgresql-simple",
@@ -1552,6 +1689,7 @@
         "index": {
           "description": "No more rows and count of the number of rows returned",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "CopyOutDone",
           "package": "postgresql-simple",
@@ -1566,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData representing either exactly\n   one row of the result,  or header\n   or footer data depending on format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "CopyOutRow",
           "package": "postgresql-simple",
@@ -1576,6 +1715,7 @@
         "index": {
           "description": "Data representing either exactly one row of the result or header or footer data depending on format",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "CopyOutRow",
           "package": "postgresql-simple",
@@ -1590,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssue a \u003ccode\u003eCOPY FROM STDIN\u003c/code\u003e or \u003ccode\u003eCOPY TO STDOUT\u003c/code\u003e query.   In the former\n   case, the connection's state will change to \u003ccode\u003eCopyIn\u003c/code\u003e;  in the latter,\n   \u003ccode\u003eCopyOut\u003c/code\u003e.  The connection must be in the ready state in order\n   to call this function.  Performs parameter subsitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "copy",
           "package": "postgresql-simple",
@@ -1600,6 +1741,7 @@
         "index": {
           "description": "Issue COPY FROM STDIN or COPY TO STDOUT query In the former case the connection state will change to CopyIn in the latter CopyOut The connection must be in the ready state in order to call this function Performs parameter subsitution",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "copy",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eIO()",
@@ -1615,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssue a \u003ccode\u003eCOPY FROM STDIN\u003c/code\u003e or \u003ccode\u003eCOPY TO STDOUT\u003c/code\u003e query.   In the former\n   case, the connection's state will change to \u003ccode\u003eCopyIn\u003c/code\u003e;  in the latter,\n   \u003ccode\u003eCopyOut\u003c/code\u003e.  The connection must be in the ready state in order\n   to call this function.  Does not perform parameter subsitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "copy_",
           "package": "postgresql-simple",
@@ -1625,6 +1768,7 @@
         "index": {
           "description": "Issue COPY FROM STDIN or COPY TO STDOUT query In the former case the connection state will change to CopyIn in the latter CopyOut The connection must be in the ready state in order to call this function Does not perform parameter subsitution",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "copy_",
           "normalized": "Connection-\u003eQuery-\u003eIO()",
@@ -1640,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve some data from a \u003ccode\u003eCOPY TO STDOUT\u003c/code\u003e query.   A connection\n   must be in the \u003ccode\u003eCopyOut\u003c/code\u003e state in order to call this function.  If this\n   returns a \u003ccode\u003e\u003ca\u003eCopyOutRow\u003c/a\u003e\u003c/code\u003e, the connection remains in the \u003ccode\u003eCopyOut\u003c/code\u003e state,\n   if it returns \u003ccode\u003e\u003ca\u003eCopyOutDone\u003c/a\u003e\u003c/code\u003e, then the connection has reverted to the\n   ready state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "getCopyData",
           "package": "postgresql-simple",
@@ -1650,6 +1795,7 @@
         "index": {
           "description": "Retrieve some data from COPY TO STDOUT query connection must be in the CopyOut state in order to call this function If this returns CopyOutRow the connection remains in the CopyOut state if it returns CopyOutDone then the connection has reverted to the ready state",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "getCopyData",
           "normalized": "Connection-\u003eIO CopyOutResult",
@@ -1666,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed some data to a \u003ccode\u003eCOPY FROM STDIN\u003c/code\u003e query.  Note that\n   the data does not need to represent a single row,  or even an\n   integral number of rows.  The net result of\n   \u003ccode\u003eputCopyData conn a \u003e\u003e putCopyData conn b\u003c/code\u003e\n   is the same as \u003ccode\u003eputCopyData conn c\u003c/code\u003e whenever \u003ccode\u003ec == BS.append a b\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA connection must be in the \u003ccode\u003eCopyIn\u003c/code\u003e state in order to call this\n   function,  otherwise a \u003ccode\u003e\u003ca\u003eSqlError\u003c/a\u003e\u003c/code\u003e exception will result.  The\n   connection remains in the \u003ccode\u003eCopyIn\u003c/code\u003e state after this function\n   is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "putCopyData",
           "package": "postgresql-simple",
@@ -1676,6 +1823,7 @@
         "index": {
           "description": "Feed some data to COPY FROM STDIN query Note that the data does not need to represent single row or even an integral number of rows The net result of putCopyData conn putCopyData conn is the same as putCopyData conn whenever BS.append connection must be in the CopyIn state in order to call this function otherwise SqlError exception will result The connection remains in the CopyIn state after this function is called",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "putCopyData",
           "normalized": "Connection-\u003eByteString-\u003eIO()",
@@ -1692,6 +1840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompletes a \u003ccode\u003eCOPY FROM STDIN\u003c/code\u003e query.  Returns the number of rows\n   processed.\n\u003c/p\u003e\u003cp\u003eA connection must be in the \u003ccode\u003eCopyIn\u003c/code\u003e state in order to call this\n   function,  otherwise a \u003ccode\u003e\u003ca\u003eSqlError\u003c/a\u003e\u003c/code\u003e exception will result.  The\n   connection's state changes back to ready after this function\n   is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "putCopyEnd",
           "package": "postgresql-simple",
@@ -1702,6 +1851,7 @@
         "index": {
           "description": "Completes COPY FROM STDIN query Returns the number of rows processed connection must be in the CopyIn state in order to call this function otherwise SqlError exception will result The connection state changes back to ready after this function is called",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "putCopyEnd",
           "normalized": "Connection-\u003eIO Int",
@@ -1718,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAborts a \u003ccode\u003eCOPY FROM STDIN\u003c/code\u003e query.  The string parameter is simply\n   an arbitrary error message that may show up in the PostgreSQL\n   server's log.\n\u003c/p\u003e\u003cp\u003eA connection must be in the \u003ccode\u003eCopyIn\u003c/code\u003e state in order to call this\n   function,  otherwise a \u003ccode\u003e\u003ca\u003eSqlError\u003c/a\u003e\u003c/code\u003e exception will result.  The\n   connection's state changes back to ready after this function\n   is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "putCopyError",
           "package": "postgresql-simple",
@@ -1728,6 +1879,7 @@
         "index": {
           "description": "Aborts COPY FROM STDIN query The string parameter is simply an arbitrary error message that may show up in the PostgreSQL server log connection must be in the CopyIn state in order to call this function otherwise SqlError exception will result The connection state changes back to ready after this function is called",
           "hierarchy": "Database PostgreSQL Simple Copy",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Copy",
           "name": "putCopyError",
           "normalized": "Connection-\u003eByteString-\u003eIO()",
@@ -1744,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e| Module for parsing errors from postgresql error messages.\n  Currently only parses integrity violation errors (class 23).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote: Success of parsing may depend on language settings.\u003c/em\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "Errors",
           "package": "postgresql-simple",
@@ -1753,6 +1906,7 @@
         "index": {
           "description": "Module for parsing errors from postgresql error messages Currently only parses integrity violation errors class Note Success of parsing may depend on language settings",
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "Errors",
           "package": "postgresql-simple",
@@ -1766,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "ConstraintViolation",
           "package": "postgresql-simple",
@@ -1774,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "ConstraintViolation",
           "package": "postgresql-simple",
@@ -1788,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelation name (usually table), constraint name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "CheckViolation",
           "package": "postgresql-simple",
@@ -1798,6 +1955,7 @@
         "index": {
           "description": "Relation name usually table constraint name",
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "CheckViolation",
           "package": "postgresql-simple",
@@ -1812,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable name and name of violated constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "ForeignKeyViolation",
           "package": "postgresql-simple",
@@ -1822,6 +1981,7 @@
         "index": {
           "description": "Table name and name of violated constraint",
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "ForeignKeyViolation",
           "package": "postgresql-simple",
@@ -1836,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe field is a column name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "NotNullViolation",
           "package": "postgresql-simple",
@@ -1846,6 +2007,7 @@
         "index": {
           "description": "The field is column name",
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "NotNullViolation",
           "package": "postgresql-simple",
@@ -1860,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of violated constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "UniqueViolation",
           "package": "postgresql-simple",
@@ -1870,6 +2033,7 @@
         "index": {
           "description": "Name of violated constraint",
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "UniqueViolation",
           "package": "postgresql-simple",
@@ -1884,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatches SqlError, tries to convert to ConstraintViolation, re-throws\n on fail. Provides alternative interface to catchJust\n\u003c/p\u003e\u003cpre\u003e createUser = catchViolation catcher $ execute conn ...\n   where\n     catcher _ (UniqueViolation \"user_login_key\") = ...\n     catcher e _ = throwIO e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "catchViolation",
           "package": "postgresql-simple",
@@ -1894,6 +2059,7 @@
         "index": {
           "description": "Catches SqlError tries to convert to ConstraintViolation re-throws on fail Provides alternative interface to catchJust createUser catchViolation catcher execute conn where catcher UniqueViolation user login key catcher throwIO",
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "catchViolation",
           "normalized": "(SqlError-\u003eConstraintViolation-\u003eIO a)-\u003eIO a-\u003eIO a",
@@ -1910,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to convert \u003ccode\u003e\u003ca\u003eSqlError\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003eConstrainViolation\u003c/code\u003e, checks sqlState and\n succeedes only if able to parse sqlErrorMsg.\n\u003c/p\u003e\u003cpre\u003e createUser = catchJust constraintViolation catcher $ execute conn ...\n   where\n     catcher UniqueViolation \"user_login_key\" = ...\n     catcher _ = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "constraintViolation",
           "package": "postgresql-simple",
@@ -1920,6 +2087,7 @@
         "index": {
           "description": "Tries to convert SqlError to ConstrainViolation checks sqlState and succeedes only if able to parse sqlErrorMsg createUser catchJust constraintViolation catcher execute conn where catcher UniqueViolation user login key catcher",
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "constraintViolation",
           "normalized": "SqlError-\u003eMaybe ConstraintViolation",
@@ -1936,6 +2104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike constraintViolation, but also packs original SqlError.\n\u003c/p\u003e\u003cpre\u003e createUser = catchJust constraintViolationE catcher $ execute conn ...\n   where\n     catcher (_, UniqueViolation \"user_login_key\") = ...\n     catcher (e, _) = throwIO e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "constraintViolationE",
           "package": "postgresql-simple",
@@ -1946,6 +2115,7 @@
         "index": {
           "description": "Like constraintViolation but also packs original SqlError createUser catchJust constraintViolationE catcher execute conn where catcher UniqueViolation user login key catcher throwIO",
           "hierarchy": "Database PostgreSQL Simple Errors",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Errors",
           "name": "constraintViolationE",
           "normalized": "SqlError-\u003eMaybe(SqlError,ConstraintViolation)",
@@ -2037,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFromField\u003c/a\u003e\u003c/code\u003e typeclass, for converting a single value in a row\nreturned by a SQL query into a more useful Haskell representation.\nNote that each instance of \u003ccode\u003e\u003ca\u003eFromField\u003c/a\u003e\u003c/code\u003e is documented by a list of\ncompatible postgresql types.\n\u003c/p\u003e\u003cp\u003eA Haskell numeric type is considered to be compatible with all\nPostgreSQL numeric types that are less accurate than it. For instance,\nthe Haskell \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e type is compatible with the PostgreSQL's 32-bit\n\u003ccode\u003eint\u003c/code\u003e type because it can represent a \u003ccode\u003eint\u003c/code\u003e exactly.  On the other hand,\nsince a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e might lose precision if representing PostgreSQL's 64-bit\n\u003ccode\u003ebigint\u003c/code\u003e, the two are \u003cem\u003enot\u003c/em\u003e considered compatible.\n\u003c/p\u003e\u003cp\u003eBecause \u003ccode\u003e\u003ca\u003eFromField\u003c/a\u003e\u003c/code\u003e is a typeclass,  one may provide conversions to\nadditional Haskell types without modifying postgresql-simple.  This is\nparticularly useful for supporting PostgreSQL types that postgresql-simple\ndoes not support out-of-box.  Here's an example of what such an instance\nmight look like for a UUID type that implements the \u003ccode\u003eRead\u003c/code\u003e class:\n\u003c/p\u003e\u003cpre\u003e\nimport Data.UUID ( UUID )\nimport Database.PostgreSQL.Simple.FromField\n       ( FromField (fromField) , typeOid, returnError, ResultError (..) )\nimport Database.PostgreSQL.Simple.TypeInfo.Static (typoid, uuid)\nimport qualified Data.ByteString.Char8 as B\n\ninstance FromField UUID where\n   fromField f mdata =\n      if typeOid f /= typoid uuid\n        then returnError Incompatible f \"\"\n        else case B.unpack `fmap` mdata of\n               Nothing  -\u003e returnError UnexpectedNull f \"\"\n               Just dat -\u003e\n                  case [ x | (x,t) \u003c- reads dat, (\"\",\"\") \u003c- lex t ] of\n                    [x] -\u003e return x\n                    _   -\u003e returnError ConversionFailed f dat\n\u003c/pre\u003e\u003cp\u003eNote that because PostgreSQL's \u003ccode\u003euuid\u003c/code\u003e type is built into postgres and is\nnot provided by an extension,  the \u003ccode\u003e\u003ca\u003etypeOid\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003euuid\u003c/code\u003e does not change and\nthus we can examine it directly.  One could hard-code the type oid,  or\nobtain it by other means, but in this case we simply pull it out of the\nstatic table provided by postgresql-simple.\n\u003c/p\u003e\u003cp\u003eOn the other hand if the type is provided by an extension,  such as\n\u003ccode\u003ePostGIS\u003c/code\u003e or \u003ccode\u003ehstore\u003c/code\u003e,  then the \u003ccode\u003e\u003ca\u003etypeOid\u003c/a\u003e\u003c/code\u003e is not stable and can vary from\ndatabase to database. In this case it is recommended that FromField\ninstances use \u003ccode\u003e\u003ca\u003etypename\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "FromField",
           "package": "postgresql-simple",
@@ -2046,6 +2217,7 @@
         "index": {
           "description": "The FromField typeclass for converting single value in row returned by SQL query into more useful Haskell representation Note that each instance of FromField is documented by list of compatible postgresql types Haskell numeric type is considered to be compatible with all PostgreSQL numeric types that are less accurate than it For instance the Haskell Double type is compatible with the PostgreSQL bit int type because it can represent int exactly On the other hand since Double might lose precision if representing PostgreSQL bit bigint the two are not considered compatible Because FromField is typeclass one may provide conversions to additional Haskell types without modifying postgresql-simple This is particularly useful for supporting PostgreSQL types that postgresql-simple does not support out-of-box Here an example of what such an instance might look like for UUID type that implements the Read class import Data.UUID UUID import Database.PostgreSQL.Simple.FromField FromField fromField typeOid returnError ResultError import Database.PostgreSQL.Simple.TypeInfo.Static typoid uuid import qualified Data.ByteString.Char8 as instance FromField UUID where fromField mdata if typeOid typoid uuid then returnError Incompatible else case B.unpack fmap mdata of Nothing returnError UnexpectedNull Just dat case reads dat lex of return returnError ConversionFailed dat Note that because PostgreSQL uuid type is built into postgres and is not provided by an extension the typeOid of uuid does not change and thus we can examine it directly One could hard-code the type oid or obtain it by other means but in this case we simply pull it out of the static table provided by postgresql-simple On the other hand if the type is provided by an extension such as PostGIS or hstore then the typeOid is not stable and can vary from database to database In this case it is recommended that FromField instances use typename instead",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "FromField",
           "package": "postgresql-simple",
@@ -2059,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Attribute",
           "package": "postgresql-simple",
@@ -2067,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Attribute",
           "package": "postgresql-simple",
@@ -2080,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Conversion",
           "package": "postgresql-simple",
@@ -2088,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Conversion",
           "package": "postgresql-simple",
@@ -2102,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Field represents metadata about a particular field\n\u003c/p\u003e\u003cp\u003eYou don't particularly want to retain these structures for a long\n period of time,  as they will retain the entire query result,  not\n just the field metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Field",
           "package": "postgresql-simple",
@@ -2111,6 +2288,7 @@
         "index": {
           "description": "Field represents metadata about particular field You don particularly want to retain these structures for long period of time as they will retain the entire query result not just the field metadata",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Field",
           "package": "postgresql-simple",
@@ -2124,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "FieldParser",
           "package": "postgresql-simple",
@@ -2132,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "FieldParser",
           "package": "postgresql-simple",
@@ -2145,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Format",
           "package": "postgresql-simple",
@@ -2152,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Format",
           "package": "postgresql-simple",
@@ -2166,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that may be converted from a SQL type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "FromField",
           "package": "postgresql-simple",
@@ -2175,6 +2358,7 @@
         "index": {
           "description": "type that may be converted from SQL type",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "FromField",
           "package": "postgresql-simple",
@@ -2188,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Oid",
           "package": "postgresql-simple",
@@ -2195,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Oid",
           "package": "postgresql-simple",
@@ -2209,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if conversion from a SQL value to a Haskell\n value fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "ResultError",
           "package": "postgresql-simple",
@@ -2218,6 +2405,7 @@
         "index": {
           "description": "Exception thrown if conversion from SQL value to Haskell value fails",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "ResultError",
           "package": "postgresql-simple",
@@ -2232,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure representing some of the metadata regarding a PostgreSQL\n   type,  mostly taken from the \u003ccode\u003epg_type\u003c/code\u003e table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "TypeInfo",
           "package": "postgresql-simple",
@@ -2241,6 +2430,7 @@
         "index": {
           "description": "structure representing some of the metadata regarding PostgreSQL type mostly taken from the pg type table",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "TypeInfo",
           "package": "postgresql-simple",
@@ -2323,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Binary",
           "package": "postgresql-simple",
@@ -2331,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Binary",
           "package": "postgresql-simple",
@@ -2368,6 +2560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SQL value could not be parsed, or could not\n be represented as a valid Haskell value, or an\n unexpected low-level error occurred (e.g. mismatch\n between metadata and actual data in a row).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "ConversionFailed",
           "package": "postgresql-simple",
@@ -2378,6 +2571,7 @@
         "index": {
           "description": "The SQL value could not be parsed or could not be represented as valid Haskell value or an unexpected low-level error occurred e.g mismatch between metadata and actual data in row",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "ConversionFailed",
           "package": "postgresql-simple",
@@ -2392,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SQL and Haskell types are not compatible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Incompatible",
           "package": "postgresql-simple",
@@ -2402,6 +2597,7 @@
         "index": {
           "description": "The SQL and Haskell types are not compatible",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Incompatible",
           "package": "postgresql-simple",
@@ -2460,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Text",
           "package": "postgresql-simple",
@@ -2468,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "Text",
           "package": "postgresql-simple",
@@ -2482,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SQL \u003ccode\u003eNULL\u003c/code\u003e was encountered when the Haskell\n type did not permit it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "UnexpectedNull",
           "package": "postgresql-simple",
@@ -2492,6 +2691,7 @@
         "index": {
           "description": "SQL NULL was encountered when the Haskell type did not permit it",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "UnexpectedNull",
           "package": "postgresql-simple",
@@ -2621,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errHaskellType",
           "package": "postgresql-simple",
@@ -2630,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errHaskellType",
           "package": "postgresql-simple",
@@ -2643,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errMessage",
           "package": "postgresql-simple",
@@ -2652,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errMessage",
           "package": "postgresql-simple",
@@ -2665,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errSQLField",
           "package": "postgresql-simple",
@@ -2674,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errSQLField",
           "package": "postgresql-simple",
@@ -2687,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errSQLTableOid",
           "package": "postgresql-simple",
@@ -2696,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errSQLTableOid",
           "package": "postgresql-simple",
@@ -2709,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errSQLType",
           "package": "postgresql-simple",
@@ -2718,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "errSQLType",
           "package": "postgresql-simple",
@@ -2732,6 +2942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis returns whether the data was returned in a binary or textual format.\n   Analogous to libpq's \u003ccode\u003ePQfformat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "format",
           "package": "postgresql-simple",
@@ -2742,6 +2953,7 @@
         "index": {
           "description": "This returns whether the data was returned in binary or textual format Analogous to libpq PQfformat",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "format",
           "normalized": "Field-\u003eFormat",
@@ -2757,6 +2969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a SQL value to a Haskell value.\n\u003c/p\u003e\u003cp\u003eReturns a list of exceptions if the conversion fails.  In the case of\n library instances,  this will usually be a single \u003ccode\u003e\u003ca\u003eResultError\u003c/a\u003e\u003c/code\u003e,  but\n may be a \u003ccode\u003eUnicodeException\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that retaining any reference to the \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e argument causes\n the entire \u003ccode\u003eLibPQ.\u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to be retained.  Thus, implementations\n of \u003ccode\u003e\u003ca\u003efromField\u003c/a\u003e\u003c/code\u003e should return results that do not refer to this value\n after the result have been evaluated to WHNF.\n\u003c/p\u003e\u003cp\u003eNote that as of \u003ccode\u003epostgresql-simple-0.4.0.0\u003c/code\u003e,  the \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e value\n has already been copied out of the \u003ccode\u003eLibPQ.\u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e before it has\n been passed to \u003ccode\u003e\u003ca\u003efromField\u003c/a\u003e\u003c/code\u003e.  This is because for short strings, it's\n cheaper to copy the string than to set up a finalizer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "fromField",
           "package": "postgresql-simple",
@@ -2767,6 +2980,7 @@
         "index": {
           "description": "Convert SQL value to Haskell value Returns list of exceptions if the conversion fails In the case of library instances this will usually be single ResultError but may be UnicodeException Note that retaining any reference to the Field argument causes the entire LibPQ Result to be retained Thus implementations of fromField should return results that do not refer to this value after the result have been evaluated to WHNF Note that as of postgresql-simple-0.4.0.0 the ByteString value has already been copied out of the LibPQ Result before it has been passed to fromField This is because for short strings it cheaper to copy the string than to set up finalizer",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "fromField",
           "package": "postgresql-simple",
@@ -2781,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a field to a JSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e and convert that into a\n Haskell value using \u003ccode\u003e\u003ca\u003efromJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis can be used as the default implementation for the \u003ccode\u003e\u003ca\u003efromField\u003c/a\u003e\u003c/code\u003e\n method for Haskell types that have a JSON representation in\n PostgreSQL.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e constraint is required to show more informative\n error messages when parsing fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "fromJSONField",
           "package": "postgresql-simple",
@@ -2791,6 +3006,7 @@
         "index": {
           "description": "Parse field to JSON Value and convert that into Haskell value using fromJSON This can be used as the default implementation for the fromField method for Haskell types that have JSON representation in PostgreSQL The Typeable constraint is required to show more informative error messages when parsing fails",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "fromJSONField",
           "package": "postgresql-simple",
@@ -2805,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the name of the column.  This is often determined by a table\n   definition,  but it can be set using an \u003ccode\u003eas\u003c/code\u003e clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "name",
           "package": "postgresql-simple",
@@ -2815,6 +3032,7 @@
         "index": {
           "description": "Returns the name of the column This is often determined by table definition but it can be set using an as clause",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "name",
           "normalized": "Field-\u003eMaybe ByteString",
@@ -2830,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven one of the constructors from \u003ccode\u003e\u003ca\u003eResultError\u003c/a\u003e\u003c/code\u003e,  the field,\n   and an \u003ccode\u003e\u003ca\u003eerrMessage\u003c/a\u003e\u003c/code\u003e,  this fills in the other fields in the\n   exception value and returns it in a 'Left . SomeException'\n   constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "returnError",
           "package": "postgresql-simple",
@@ -2840,6 +3059,7 @@
         "index": {
           "description": "Given one of the constructors from ResultError the field and an errMessage this fills in the other fields in the exception value and returns it in Left SomeException constructor",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "returnError",
           "normalized": "(String-\u003eMaybe Oid-\u003eString-\u003eString-\u003eString-\u003ea)-\u003eField-\u003eString-\u003eConversion b",
@@ -2877,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "runConversion",
           "package": "postgresql-simple",
@@ -2886,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "runConversion",
           "normalized": "Conversion a-\u003eConnection-\u003eIO(Ok a)",
@@ -2902,6 +3124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the column has a table associated with it,  this returns the number\n   off the associated table column.   Numbering starts from 0.  Analogous\n   to libpq's \u003ccode\u003ePQftablecol\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "tableColumn",
           "package": "postgresql-simple",
@@ -2912,6 +3135,7 @@
         "index": {
           "description": "If the column has table associated with it this returns the number off the associated table column Numbering starts from Analogous to libpq PQftablecol",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "tableColumn",
           "normalized": "Field-\u003eInt",
@@ -2928,6 +3152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the name of the object id of the \u003ccode\u003etable\u003c/code\u003e associated with the\n   column,  if any.  Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e when there is no such table;\n   for example a computed column does not have a table associated with it.\n   Analogous to libpq's \u003ccode\u003ePQftable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "tableOid",
           "package": "postgresql-simple",
@@ -2938,6 +3163,7 @@
         "index": {
           "description": "Returns the name of the object id of the table associated with the column if any Returns Nothing when there is no such table for example computed column does not have table associated with it Analogous to libpq PQftable",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "tableOid",
           "normalized": "Field-\u003eMaybe Oid",
@@ -2997,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "typeInfo",
           "package": "postgresql-simple",
@@ -3006,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "typeInfo",
           "normalized": "Field-\u003eConversion TypeInfo",
@@ -3021,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "typeInfoByOid",
           "package": "postgresql-simple",
@@ -3030,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "typeInfoByOid",
           "normalized": "Oid-\u003eConversion TypeInfo",
@@ -3046,6 +3276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis returns the type oid associated with the column.  Analogous\n   to libpq's \u003ccode\u003ePQftype\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "typeOid",
           "package": "postgresql-simple",
@@ -3056,6 +3287,7 @@
         "index": {
           "description": "This returns the type oid associated with the column Analogous to libpq PQftype",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "typeOid",
           "normalized": "Field-\u003eOid",
@@ -3094,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the data type name.  This is the preferred way of identifying\n   types that do not have a stable type oid, such as types provided by\n   extensions to PostgreSQL.\n\u003c/p\u003e\u003cp\u003eMore concretely,  it returns the \u003ccode\u003etypname\u003c/code\u003e column associated with the\n   type oid in the \u003ccode\u003epg_type\u003c/code\u003e table.  First, postgresql-simple will check\n   the built-in, static table.   If the type oid is not there,\n   postgresql-simple will check a per-connection cache,  and then\n   finally query the database's meta-schema.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "typename",
           "package": "postgresql-simple",
@@ -3104,6 +3337,7 @@
         "index": {
           "description": "Returns the data type name This is the preferred way of identifying types that do not have stable type oid such as types provided by extensions to PostgreSQL More concretely it returns the typname column associated with the type oid in the pg type table First postgresql-simple will check the built-in static table If the type oid is not there postgresql-simple will check per-connection cache and then finally query the database meta-schema",
           "hierarchy": "Database PostgreSQL Simple FromField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromField",
           "name": "typename",
           "normalized": "Field-\u003eConversion ByteString",
@@ -3185,6 +3419,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFromRow\u003c/a\u003e\u003c/code\u003e typeclass, for converting a row of results\n returned by a SQL query into a more useful Haskell representation.\n\u003c/p\u003e\u003cp\u003ePredefined instances are provided for tuples containing up to ten\n elements.  The instances for \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e types return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if all\n the columns that would have been otherwise consumed are null,  otherwise\n it attempts a regular conversion.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "FromRow",
           "package": "postgresql-simple",
@@ -3194,6 +3429,7 @@
         "index": {
           "description": "The FromRow typeclass for converting row of results returned by SQL query into more useful Haskell representation Predefined instances are provided for tuples containing up to ten elements The instances for Maybe types return Nothing if all the columns that would have been otherwise consumed are null otherwise it attempts regular conversion",
           "hierarchy": "Database PostgreSQL Simple FromRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "FromRow",
           "package": "postgresql-simple",
@@ -3208,6 +3444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be converted from a sequence of fields.\n Instances are provided for tuples up to 10 elements and lists of any length.\n\u003c/p\u003e\u003cp\u003eNote that instances can be defined outside of postgresql-simple,  which is\n often useful.   For example, here's an instance for a user-defined pair:\n\u003c/p\u003e\u003cpre\u003edata User = User { name :: String, fileQuota :: Int }\n\ninstance \u003ccode\u003e\u003ca\u003eFromRow\u003c/a\u003e\u003c/code\u003e User where\n     fromRow = User \u003c$\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e \u003c*\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThe number of calls to \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e must match the number of fields returned\n in a single row of the query result.  Otherwise,  a \u003ccode\u003e\u003ca\u003eConversionFailed\u003c/a\u003e\u003c/code\u003e\n exception will be thrown.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e evaluates it's result to WHNF, so the caveats listed in\n mysql-simple and very early versions of postgresql-simple no longer apply.\n Instead, look at the caveats associated with user-defined implementations\n of \u003ccode\u003e\u003ca\u003efromField\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "FromRow",
           "package": "postgresql-simple",
@@ -3217,6 +3454,7 @@
         "index": {
           "description": "collection type that can be converted from sequence of fields Instances are provided for tuples up to elements and lists of any length Note that instances can be defined outside of postgresql-simple which is often useful For example here an instance for user-defined pair data User User name String fileQuota Int instance FromRow User where fromRow User field field The number of calls to field must match the number of fields returned in single row of the query result Otherwise ConversionFailed exception will be thrown Note that field evaluates it result to WHNF so the caveats listed in mysql-simple and very early versions of postgresql-simple no longer apply Instead look at the caveats associated with user-defined implementations of fromField",
           "hierarchy": "Database PostgreSQL Simple FromRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "FromRow",
           "package": "postgresql-simple",
@@ -3230,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "RowParser",
           "package": "postgresql-simple",
@@ -3238,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "RowParser",
           "package": "postgresql-simple",
@@ -3251,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "field",
           "package": "postgresql-simple",
@@ -3260,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "field",
           "package": "postgresql-simple",
@@ -3272,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "fieldWith",
           "package": "postgresql-simple",
@@ -3281,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "fieldWith",
           "normalized": "FieldParser a-\u003eRowParser a",
@@ -3296,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "fromRow",
           "package": "postgresql-simple",
@@ -3305,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "fromRow",
           "package": "postgresql-simple",
@@ -3318,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "numFieldsRemaining",
           "package": "postgresql-simple",
@@ -3327,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple FromRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.FromRow",
           "name": "numFieldsRemaining",
           "package": "postgresql-simple",
@@ -3341,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsers and printers for hstore,  a extended type bundled with\n PostgreSQL providing finite maps from text strings to text strings.\n See \u003ca\u003ehttp://www.postgresql.org/docs/9.2/static/hstore.html\u003c/a\u003e for more\n information.\n\u003c/p\u003e\u003cp\u003eNote that in order to use this type,  a database superuser must\n install it by running a sql script in the share directory.  This\n can be done on PostgreSQL 9.1 and later with the command\n \u003ccode\u003eCREATE EXTENSION hstore\u003c/code\u003e.  See\n \u003ca\u003ehttp://www.postgresql.org/docs/9.2/static/contrib.html\u003c/a\u003e for more\n information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStore",
           "package": "postgresql-simple",
@@ -3350,6 +3599,7 @@
         "index": {
           "description": "Parsers and printers for hstore extended type bundled with PostgreSQL providing finite maps from text strings to text strings See http www.postgresql.org docs static hstore.html for more information Note that in order to use this type database superuser must install it by running sql script in the share directory This can be done on PostgreSQL and later with the command CREATE EXTENSION hstore See http www.postgresql.org docs static contrib.html for more information",
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStore",
           "package": "postgresql-simple",
@@ -3364,6 +3614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents valid hstore syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreBuilder",
           "package": "postgresql-simple",
@@ -3373,6 +3624,7 @@
         "index": {
           "description": "Represents valid hstore syntax",
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreBuilder",
           "package": "postgresql-simple",
@@ -3386,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreList",
           "package": "postgresql-simple",
@@ -3394,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreList",
           "package": "postgresql-simple",
@@ -3407,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreMap",
           "package": "postgresql-simple",
@@ -3415,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreMap",
           "package": "postgresql-simple",
@@ -3429,6 +3685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents escape text, ready to be the key or value to a hstore value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreText",
           "package": "postgresql-simple",
@@ -3438,6 +3695,7 @@
         "index": {
           "description": "Represents escape text ready to be the key or value to hstore value",
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreText",
           "package": "postgresql-simple",
@@ -3451,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "ToHStore",
           "package": "postgresql-simple",
@@ -3459,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "ToHStore",
           "package": "postgresql-simple",
@@ -3472,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "ToHStoreText",
           "package": "postgresql-simple",
@@ -3480,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "ToHStoreText",
           "package": "postgresql-simple",
@@ -3493,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreList",
           "package": "postgresql-simple",
@@ -3502,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreList",
           "package": "postgresql-simple",
@@ -3515,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreMap",
           "package": "postgresql-simple",
@@ -3524,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "HStoreMap",
           "package": "postgresql-simple",
@@ -3537,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "fromHStoreList",
           "package": "postgresql-simple",
@@ -3546,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "fromHStoreList",
           "normalized": "[(Text,Text)]",
@@ -3561,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "fromHStoreMap",
           "package": "postgresql-simple",
@@ -3570,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "fromHStoreMap",
           "package": "postgresql-simple",
@@ -3583,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "hstore",
           "package": "postgresql-simple",
@@ -3592,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "hstore",
           "normalized": "a-\u003eb-\u003eHStoreBuilder",
@@ -3606,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "toBuilder",
           "package": "postgresql-simple",
@@ -3615,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "toBuilder",
           "normalized": "HStoreBuilder-\u003eBuilder",
@@ -3630,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "toHStore",
           "package": "postgresql-simple",
@@ -3639,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "toHStore",
           "normalized": "a-\u003eHStoreBuilder",
@@ -3654,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "toHStoreText",
           "package": "postgresql-simple",
@@ -3663,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "toHStoreText",
           "normalized": "a-\u003eHStoreText",
@@ -3678,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "toLazyByteString",
           "package": "postgresql-simple",
@@ -3687,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple HStore",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.HStore",
           "name": "toLazyByteString",
           "normalized": "HStoreBuilder-\u003eByteString",
@@ -3703,6 +3983,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal bits.  This interface is less stable and can change at any time.\n In particular this means that while the rest of the postgresql-simple\n package endeavors to follow the package versioning policy,  this module\n does not.  Also, at the moment there are things in here that aren't\n particularly internal and are exported elsewhere;  these will eventually\n disappear from this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Internal",
           "package": "postgresql-simple",
@@ -3712,6 +3993,7 @@
         "index": {
           "description": "Internal bits This interface is less stable and can change at any time In particular this means that while the rest of the postgresql-simple package endeavors to follow the package versioning policy this module does not Also at the moment there are things in here that aren particularly internal and are exported elsewhere these will eventually disappear from this module",
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Internal",
           "package": "postgresql-simple",
@@ -3725,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "ConnectInfo",
           "package": "postgresql-simple",
@@ -3733,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "ConnectInfo",
           "package": "postgresql-simple",
@@ -3746,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Connection",
           "package": "postgresql-simple",
@@ -3754,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Connection",
           "package": "postgresql-simple",
@@ -3767,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Conversion",
           "package": "postgresql-simple",
@@ -3775,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Conversion",
           "package": "postgresql-simple",
@@ -3789,6 +4077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Field represents metadata about a particular field\n\u003c/p\u003e\u003cp\u003eYou don't particularly want to retain these structures for a long\n period of time,  as they will retain the entire query result,  not\n just the field metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Field",
           "package": "postgresql-simple",
@@ -3798,6 +4087,7 @@
         "index": {
           "description": "Field represents metadata about particular field You don particularly want to retain these structures for long period of time as they will retain the entire query result not just the field metadata",
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Field",
           "package": "postgresql-simple",
@@ -3812,6 +4102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if \u003ccode\u003equery\u003c/code\u003e is used to perform an \u003ccode\u003eINSERT\u003c/code\u003e-like\n operation, or \u003ccode\u003eexecute\u003c/code\u003e is used to perform a \u003ccode\u003eSELECT\u003c/code\u003e-like operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "QueryError",
           "package": "postgresql-simple",
@@ -3821,6 +4112,7 @@
         "index": {
           "description": "Exception thrown if query is used to perform an INSERT like operation or execute is used to perform SELECT like operation",
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "QueryError",
           "package": "postgresql-simple",
@@ -3834,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Row",
           "package": "postgresql-simple",
@@ -3842,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Row",
           "package": "postgresql-simple",
@@ -3855,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "RowParser",
           "package": "postgresql-simple",
@@ -3863,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "RowParser",
           "package": "postgresql-simple",
@@ -3876,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "SqlError",
           "package": "postgresql-simple",
@@ -3884,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "SqlError",
           "package": "postgresql-simple",
@@ -3897,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "TypeInfoCache",
           "package": "postgresql-simple",
@@ -3905,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "TypeInfoCache",
           "package": "postgresql-simple",
@@ -3941,6 +4241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Connection",
           "package": "postgresql-simple",
@@ -3950,6 +4251,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Connection",
           "package": "postgresql-simple",
@@ -3963,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Conversion",
           "package": "postgresql-simple",
@@ -3972,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Conversion",
           "package": "postgresql-simple",
@@ -3985,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Field",
           "package": "postgresql-simple",
@@ -3994,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Field",
           "package": "postgresql-simple",
@@ -4007,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "QueryError",
           "package": "postgresql-simple",
@@ -4016,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "QueryError",
           "package": "postgresql-simple",
@@ -4029,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "RP",
           "package": "postgresql-simple",
@@ -4038,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "RP",
           "package": "postgresql-simple",
@@ -4051,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Row",
           "package": "postgresql-simple",
@@ -4060,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "Row",
           "package": "postgresql-simple",
@@ -4120,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "column",
           "package": "postgresql-simple",
@@ -4129,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "column",
           "package": "postgresql-simple",
@@ -4309,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "connectionHandle",
           "package": "postgresql-simple",
@@ -4318,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "connectionHandle",
           "package": "postgresql-simple",
@@ -4331,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "connectionObjects",
           "package": "postgresql-simple",
@@ -4340,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "connectionObjects",
           "package": "postgresql-simple",
@@ -4353,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "connectionTempNameCounter",
           "package": "postgresql-simple",
@@ -4362,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "connectionTempNameCounter",
           "package": "postgresql-simple",
@@ -4400,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "disconnectedError",
           "package": "postgresql-simple",
@@ -4409,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "disconnectedError",
           "package": "postgresql-simple",
@@ -4422,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "exec",
           "package": "postgresql-simple",
@@ -4431,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "exec",
           "normalized": "Connection-\u003eByteString-\u003eIO Result",
@@ -4471,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "fatalError",
           "package": "postgresql-simple",
@@ -4480,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "fatalError",
           "normalized": "ByteString-\u003eSqlError",
@@ -4495,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "fdError",
           "package": "postgresql-simple",
@@ -4504,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "fdError",
           "normalized": "ByteString-\u003eIOError",
@@ -4519,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "finishExecute",
           "package": "postgresql-simple",
@@ -4528,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "finishExecute",
           "normalized": "Connection-\u003eQuery-\u003eResult-\u003eIO Int",
@@ -4543,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "liftConversion",
           "package": "postgresql-simple",
@@ -4552,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "liftConversion",
           "normalized": "IO a-\u003eConversion a",
@@ -4567,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "liftRowParser",
           "package": "postgresql-simple",
@@ -4576,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "liftRowParser",
           "normalized": "IO a-\u003eRowParser a",
@@ -4591,6 +4925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "newNullConnection",
           "package": "postgresql-simple",
@@ -4600,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "newNullConnection",
           "package": "postgresql-simple",
@@ -4613,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "newTempName",
           "package": "postgresql-simple",
@@ -4622,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "newTempName",
           "normalized": "Connection-\u003eIO Query",
@@ -4637,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "oid2int",
           "package": "postgresql-simple",
@@ -4646,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "oid2int",
           "normalized": "Oid-\u003eInt",
@@ -4687,6 +5027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "qeMessage",
           "package": "postgresql-simple",
@@ -4696,6 +5037,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "qeMessage",
           "package": "postgresql-simple",
@@ -4709,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "qeQuery",
           "package": "postgresql-simple",
@@ -4718,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "qeQuery",
           "package": "postgresql-simple",
@@ -4731,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "result",
           "package": "postgresql-simple",
@@ -4740,6 +5085,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "result",
           "package": "postgresql-simple",
@@ -4752,6 +5098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "row",
           "package": "postgresql-simple",
@@ -4761,6 +5108,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "row",
           "package": "postgresql-simple",
@@ -4773,6 +5121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "rowresult",
           "package": "postgresql-simple",
@@ -4782,6 +5131,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "rowresult",
           "package": "postgresql-simple",
@@ -4794,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "runConversion",
           "package": "postgresql-simple",
@@ -4803,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "runConversion",
           "normalized": "Connection-\u003eIO(Ok a)",
@@ -4933,6 +5285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "throwResultError",
           "package": "postgresql-simple",
@@ -4942,6 +5295,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "throwResultError",
           "normalized": "ByteString-\u003eResult-\u003eExecStatus-\u003eIO a",
@@ -4958,6 +5312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis returns the type oid associated with the column.  Analogous\n   to libpq's \u003ccode\u003ePQftype\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "typeOid",
           "package": "postgresql-simple",
@@ -4968,6 +5323,7 @@
         "index": {
           "description": "This returns the type oid associated with the column Analogous to libpq PQftype",
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "typeOid",
           "package": "postgresql-simple",
@@ -4981,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "unRP",
           "package": "postgresql-simple",
@@ -4990,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "unRP",
           "package": "postgresql-simple",
@@ -5004,6 +5362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomically perform an action with the database handle, if there is one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "withConnection",
           "package": "postgresql-simple",
@@ -5014,6 +5373,7 @@
         "index": {
           "description": "Atomically perform an action with the database handle if there is one",
           "hierarchy": "Database PostgreSQL Simple Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Internal",
           "name": "withConnection",
           "normalized": "Connection-\u003e(Connection-\u003eIO a)-\u003eIO a",
@@ -5030,6 +5390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for PostgreSQL's Large Objects;  see\n \u003ca\u003ehttp://www.postgresql.org/docs/9.1/static/largeobjects.html\u003c/a\u003e for more\n information.\n\u003c/p\u003e\u003cp\u003eNote that Large Object File Descriptors are only valid within a single\n database transaction,  so if you are interested in using anything beyond\n \u003ccode\u003e\u003ca\u003eloCreat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eloCreate\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eloUnlink\u003c/a\u003e\u003c/code\u003e,  you will need to run the entire\n sequence of functions in a transaction.   As \u003ccode\u003e\u003ca\u003eloImport\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eloExport\u003c/a\u003e\u003c/code\u003e\n are simply C functions that call \u003ccode\u003e\u003ca\u003eloCreat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eloOpen\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eloRead\u003c/a\u003e\u003c/code\u003e, and \n \u003ccode\u003e\u003ca\u003eloWrite\u003c/a\u003e\u003c/code\u003e,  and do not perform any transaction handling themselves,\n they also need to be wrapped in an explicit transaction.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "LargeObjects",
           "package": "postgresql-simple",
@@ -5039,6 +5400,7 @@
         "index": {
           "description": "Support for PostgreSQL Large Objects see http www.postgresql.org docs static largeobjects.html for more information Note that Large Object File Descriptors are only valid within single database transaction so if you are interested in using anything beyond loCreat loCreate and loUnlink you will need to run the entire sequence of functions in transaction As loImport and loExport are simply functions that call loCreat loOpen loRead and loWrite and do not perform any transaction handling themselves they also need to be wrapped in an explicit transaction",
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "LargeObjects",
           "package": "postgresql-simple",
@@ -5053,6 +5415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "IOMode",
           "package": "postgresql-simple",
@@ -5061,6 +5424,7 @@
         "index": {
           "description": "See openFile",
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "IOMode",
           "package": "postgresql-simple",
@@ -5075,6 +5439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoFd is a Large Object (pseudo) File Descriptor.  It is understood by\n libpq but not by operating system calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "LoFd",
           "package": "postgresql-simple",
@@ -5083,6 +5448,7 @@
         "index": {
           "description": "LoFd is Large Object pseudo File Descriptor It is understood by libpq but not by operating system calls",
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "LoFd",
           "package": "postgresql-simple",
@@ -5096,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "Oid",
           "package": "postgresql-simple",
@@ -5103,6 +5470,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "Oid",
           "package": "postgresql-simple",
@@ -5117,6 +5485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mode that determines the effect of \u003ccode\u003ehSeek\u003c/code\u003e \u003ccode\u003ehdl mode i\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "SeekMode",
           "package": "postgresql-simple",
@@ -5125,6 +5494,7 @@
         "index": {
           "description": "mode that determines the effect of hSeek hdl mode",
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "SeekMode",
           "package": "postgresql-simple",
@@ -5139,6 +5509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of \u003ccode\u003ehdl\u003c/code\u003e is set to \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "AbsoluteSeek",
           "package": "postgresql-simple",
@@ -5148,6 +5519,7 @@
         "index": {
           "description": "the position of hdl is set to",
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "AbsoluteSeek",
           "package": "postgresql-simple",
@@ -5161,6 +5533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "AppendMode",
           "package": "postgresql-simple",
@@ -5169,6 +5542,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "AppendMode",
           "package": "postgresql-simple",
@@ -5182,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "ReadMode",
           "package": "postgresql-simple",
@@ -5190,6 +5565,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "ReadMode",
           "package": "postgresql-simple",
@@ -5203,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "ReadWriteMode",
           "package": "postgresql-simple",
@@ -5211,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "ReadWriteMode",
           "package": "postgresql-simple",
@@ -5225,6 +5603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of \u003ccode\u003ehdl\u003c/code\u003e is set to offset \u003ccode\u003ei\u003c/code\u003e\n from the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "RelativeSeek",
           "package": "postgresql-simple",
@@ -5234,6 +5613,7 @@
         "index": {
           "description": "the position of hdl is set to offset from the current position",
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "RelativeSeek",
           "package": "postgresql-simple",
@@ -5248,6 +5628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of \u003ccode\u003ehdl\u003c/code\u003e is set to offset \u003ccode\u003ei\u003c/code\u003e\n from the end of the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "SeekFromEnd",
           "package": "postgresql-simple",
@@ -5257,6 +5638,7 @@
         "index": {
           "description": "the position of hdl is set to offset from the end of the file",
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "SeekFromEnd",
           "package": "postgresql-simple",
@@ -5270,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "WriteMode",
           "package": "postgresql-simple",
@@ -5278,6 +5661,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "WriteMode",
           "package": "postgresql-simple",
@@ -5291,6 +5675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loClose",
           "package": "postgresql-simple",
@@ -5300,6 +5685,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loClose",
           "normalized": "Connection-\u003eLoFd-\u003eIO()",
@@ -5315,6 +5701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loCreat",
           "package": "postgresql-simple",
@@ -5324,6 +5711,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loCreat",
           "normalized": "Connection-\u003eIO Oid",
@@ -5339,6 +5727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loCreate",
           "package": "postgresql-simple",
@@ -5348,6 +5737,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loCreate",
           "normalized": "Connection-\u003eOid-\u003eIO Oid",
@@ -5363,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loExport",
           "package": "postgresql-simple",
@@ -5372,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loExport",
           "normalized": "Connection-\u003eOid-\u003eFilePath-\u003eIO()",
@@ -5387,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loImport",
           "package": "postgresql-simple",
@@ -5396,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loImport",
           "normalized": "Connection-\u003eFilePath-\u003eIO Oid",
@@ -5411,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loImportWithOid",
           "package": "postgresql-simple",
@@ -5420,6 +5815,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loImportWithOid",
           "normalized": "Connection-\u003eFilePath-\u003eOid-\u003eIO Oid",
@@ -5435,6 +5831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loOpen",
           "package": "postgresql-simple",
@@ -5444,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loOpen",
           "normalized": "Connection-\u003eOid-\u003eIOMode-\u003eIO LoFd",
@@ -5459,6 +5857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loRead",
           "package": "postgresql-simple",
@@ -5468,6 +5867,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loRead",
           "normalized": "Connection-\u003eLoFd-\u003eInt-\u003eIO ByteString",
@@ -5483,6 +5883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loSeek",
           "package": "postgresql-simple",
@@ -5492,6 +5893,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loSeek",
           "normalized": "Connection-\u003eLoFd-\u003eSeekMode-\u003eInt-\u003eIO Int",
@@ -5507,6 +5909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loTell",
           "package": "postgresql-simple",
@@ -5516,6 +5919,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loTell",
           "normalized": "Connection-\u003eLoFd-\u003eIO Int",
@@ -5531,6 +5935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loTruncate",
           "package": "postgresql-simple",
@@ -5540,6 +5945,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loTruncate",
           "normalized": "Connection-\u003eLoFd-\u003eInt-\u003eIO()",
@@ -5555,6 +5961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loUnlink",
           "package": "postgresql-simple",
@@ -5564,6 +5971,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loUnlink",
           "normalized": "Connection-\u003eOid-\u003eIO()",
@@ -5579,6 +5987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loWrite",
           "package": "postgresql-simple",
@@ -5588,6 +5997,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple LargeObjects",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.LargeObjects",
           "name": "loWrite",
           "normalized": "Connection-\u003eLoFd-\u003eByteString-\u003eIO Int",
@@ -5604,6 +6014,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for receiving asynchronous notifications via PostgreSQL's\n Listen/Notify mechanism.  See\n \u003ca\u003ehttp://www.postgresql.org/docs/9.1/static/sql-notify.html\u003c/a\u003e for more\n information.\n\u003c/p\u003e\u003cp\u003eNote that on Windows,  \u003ccode\u003egetNotification\u003c/code\u003e currently uses a polling loop\n of 1 second to check for more notifications,  due to some inadequacies\n in GHC's IO implementation and interface on that platform.   See GHC\n issue #7353 for more information.  While this workaround is less than\n ideal,  notifications are still better than polling the database directly.\n Notifications do not create any extra work for the backend,  and are\n likely cheaper on the client side as well.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://hackage.haskell.org/trac/ghc/ticket/7353\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "Notification",
           "package": "postgresql-simple",
@@ -5613,6 +6024,7 @@
         "index": {
           "description": "Support for receiving asynchronous notifications via PostgreSQL Listen Notify mechanism See http www.postgresql.org docs static sql-notify.html for more information Note that on Windows getNotification currently uses polling loop of second to check for more notifications due to some inadequacies in GHC IO implementation and interface on that platform See GHC issue for more information While this workaround is less than ideal notifications are still better than polling the database directly Notifications do not create any extra work for the backend and are likely cheaper on the client side as well http hackage.haskell.org trac ghc ticket",
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "Notification",
           "package": "postgresql-simple",
@@ -5626,6 +6038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "Notification",
           "package": "postgresql-simple",
@@ -5634,6 +6047,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "Notification",
           "package": "postgresql-simple",
@@ -5647,6 +6061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "Notification",
           "package": "postgresql-simple",
@@ -5656,6 +6071,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "Notification",
           "package": "postgresql-simple",
@@ -5670,6 +6086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the process \u003ccode\u003e\u003ca\u003eCPid\u003c/a\u003e\u003c/code\u003e of the backend server process\n handling this connection.\n\u003c/p\u003e\u003cp\u003eThe backend PID is useful for debugging purposes and for comparison\n to NOTIFY messages (which include the PID of the notifying backend\n process). Note that the PID belongs to a process executing on the\n database server host, not the local host!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "getBackendPID",
           "package": "postgresql-simple",
@@ -5680,6 +6097,7 @@
         "index": {
           "description": "Returns the process CPid of the backend server process handling this connection The backend PID is useful for debugging purposes and for comparison to NOTIFY messages which include the PID of the notifying backend process Note that the PID belongs to process executing on the database server host not the local host",
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "getBackendPID",
           "normalized": "Connection-\u003eIO CPid",
@@ -5696,6 +6114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a single notification.   If no notifications are available,\n   \u003ccode\u003e\u003ca\u003egetNotification\u003c/a\u003e\u003c/code\u003e blocks until one arrives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "getNotification",
           "package": "postgresql-simple",
@@ -5706,6 +6125,7 @@
         "index": {
           "description": "Returns single notification If no notifications are available getNotification blocks until one arrives",
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "getNotification",
           "normalized": "Connection-\u003eIO Notification",
@@ -5722,6 +6142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-blocking variant of \u003ccode\u003e\u003ca\u003egetNotification\u003c/a\u003e\u003c/code\u003e.   Returns a single notification,\n if available.   If no notifications are available,  returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "getNotificationNonBlocking",
           "package": "postgresql-simple",
@@ -5732,6 +6153,7 @@
         "index": {
           "description": "Non-blocking variant of getNotification Returns single notification if available If no notifications are available returns Nothing",
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "getNotificationNonBlocking",
           "normalized": "Connection-\u003eIO(Maybe Notification)",
@@ -5747,6 +6169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "notificationChannel",
           "package": "postgresql-simple",
@@ -5756,6 +6179,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "notificationChannel",
           "package": "postgresql-simple",
@@ -5769,6 +6193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "notificationData",
           "package": "postgresql-simple",
@@ -5778,6 +6203,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "notificationData",
           "package": "postgresql-simple",
@@ -5791,6 +6217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "notificationPid",
           "package": "postgresql-simple",
@@ -5800,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Notification",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Notification",
           "name": "notificationPid",
           "package": "postgresql-simple",
@@ -5814,6 +6242,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eOk\u003c/a\u003e\u003c/code\u003e type is a simple error handler,  basically equivalent to\n \u003ccode\u003eEither [SomeException]\u003c/code\u003e.   This type (without the list) was used to\n handle conversion errors in early versions of postgresql-simple.\n\u003c/p\u003e\u003cp\u003eOne of the primary reasons why this type  was introduced is that\n \u003ccode\u003eEither SomeException\u003c/code\u003e had not been provided an instance for \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e,\n and it would have been a bad idea to provide an orphaned instance for a\n commonly-used type and typeclass included in \u003ccode\u003ebase\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExtending the failure case to a list of \u003ccode\u003e\u003ca\u003eSomeException\u003c/a\u003e\u003c/code\u003es enables a\n more sensible \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance definitions:   \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e concatinates\n the list of exceptions when both cases fail,  and \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e is defined as\n 'Errors []'.   Though \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e one could pick one of two exceptions, and\n throw away the other,  and have \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e provide a generic exception,\n this avoids cases where \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e overrides a more informative exception\n and allows you to see all the different ways your computation has failed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "Ok",
           "package": "postgresql-simple",
@@ -5823,6 +6252,7 @@
         "index": {
           "description": "The Ok type is simple error handler basically equivalent to Either SomeException This type without the list was used to handle conversion errors in early versions of postgresql-simple One of the primary reasons why this type was introduced is that Either SomeException had not been provided an instance for Alternative and it would have been bad idea to provide an orphaned instance for commonly-used type and typeclass included in base Extending the failure case to list of SomeException enables more sensible Alternative instance definitions concatinates the list of exceptions when both cases fail and empty is defined as Errors Though one could pick one of two exceptions and throw away the other and have empty provide generic exception this avoids cases where empty overrides more informative exception and allows you to see all the different ways your computation has failed",
           "hierarchy": "Database PostgreSQL Simple Ok",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "Ok",
           "package": "postgresql-simple",
@@ -5837,6 +6267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea way to reify a list of exceptions into a single exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "ManyErrors",
           "package": "postgresql-simple",
@@ -5846,6 +6277,7 @@
         "index": {
           "description": "way to reify list of exceptions into single exception",
           "hierarchy": "Database PostgreSQL Simple Ok",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "ManyErrors",
           "package": "postgresql-simple",
@@ -5859,6 +6291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "Ok",
           "package": "postgresql-simple",
@@ -5867,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Ok",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "Ok",
           "package": "postgresql-simple",
@@ -5880,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "Errors",
           "package": "postgresql-simple",
@@ -5889,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Ok",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "Errors",
           "normalized": "Errors[SomeException]",
@@ -5904,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "ManyErrors",
           "package": "postgresql-simple",
@@ -5913,6 +6350,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Ok",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "ManyErrors",
           "normalized": "ManyErrors[SomeException]",
@@ -5928,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "Ok",
           "package": "postgresql-simple",
@@ -5937,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Ok",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Ok",
           "name": "Ok",
           "package": "postgresql-simple",
@@ -5950,6 +6390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.SqlQQ",
           "name": "SqlQQ",
           "package": "postgresql-simple",
@@ -5958,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple SqlQQ",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.SqlQQ",
           "name": "SqlQQ",
           "package": "postgresql-simple",
@@ -5972,6 +6414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esql\u003c/a\u003e\u003c/code\u003e is a quasiquoter that eases the syntactic burden\n of writing big sql statements in Haskell source code.  For example:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE QuasiQuotes #-}\n\n query conn [sql| SELECT column_a, column_b\n                    FROM table1 NATURAL JOIN table2\n                   WHERE ? \u003c= time AND time \u003c ?\n                     AND name LIKE ?\n                   ORDER BY size DESC\n                   LIMIT 100                        |]\n            (beginTime,endTime,string)\n\u003c/pre\u003e\u003cp\u003eThis quasiquoter attempts to mimimize whitespace;  otherwise the\n above query would consist of approximately half whitespace when sent\n to the database backend.  It also recognizes and strips out standard\n sql comments \u003ca\u003e--\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe implementation of the whitespace reducer is currently incomplete.\n Thus it can mess up your syntax in cases where whitespace should be\n preserved as-is.  It does preserve whitespace inside standard SQL string\n literals.  But it can get confused by the non-standard PostgreSQL string\n literal syntax (which is the default setting in PostgreSQL 8 and below),\n the extended escape string syntax,  quoted identifiers,  and other similar\n constructs.\n\u003c/p\u003e\u003cp\u003eOf course, this caveat only applies to text written inside the SQL\n quasiquoter; whitespace reduction is a compile-time computation and\n thus will not touch the \u003ccode\u003estring\u003c/code\u003e parameter above,  which is a run-time\n value.\n\u003c/p\u003e\u003cp\u003eAlso note that this will not work if the substring \u003ccode\u003e|]\u003c/code\u003e is contained\n in the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.SqlQQ",
           "name": "sql",
           "package": "postgresql-simple",
@@ -5982,6 +6425,7 @@
         "index": {
           "description": "sql is quasiquoter that eases the syntactic burden of writing big sql statements in Haskell source code For example LANGUAGE QuasiQuotes query conn sql SELECT column column FROM table1 NATURAL JOIN table2 WHERE time AND time AND name LIKE ORDER BY size DESC LIMIT beginTime endTime string This quasiquoter attempts to mimimize whitespace otherwise the above query would consist of approximately half whitespace when sent to the database backend It also recognizes and strips out standard sql comments The implementation of the whitespace reducer is currently incomplete Thus it can mess up your syntax in cases where whitespace should be preserved as-is It does preserve whitespace inside standard SQL string literals But it can get confused by the non-standard PostgreSQL string literal syntax which is the default setting in PostgreSQL and below the extended escape string syntax quoted identifiers and other similar constructs Of course this caveat only applies to text written inside the SQL quasiquoter whitespace reduction is compile-time computation and thus will not touch the string parameter above which is run-time value Also note that this will not work if the substring is contained in the query",
           "hierarchy": "Database PostgreSQL Simple SqlQQ",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.SqlQQ",
           "name": "sql",
           "package": "postgresql-simple",
@@ -5994,6 +6438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "Internal",
           "package": "postgresql-simple",
@@ -6002,6 +6447,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "Internal",
           "package": "postgresql-simple",
@@ -6015,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getDate",
           "package": "postgresql-simple",
@@ -6024,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getDate",
           "package": "postgresql-simple",
@@ -6037,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getDay",
           "package": "postgresql-simple",
@@ -6046,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getDay",
           "package": "postgresql-simple",
@@ -6059,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getLocalTime",
           "package": "postgresql-simple",
@@ -6068,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getLocalTime",
           "package": "postgresql-simple",
@@ -6081,6 +6533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getLocalTimestamp",
           "package": "postgresql-simple",
@@ -6090,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getLocalTimestamp",
           "package": "postgresql-simple",
@@ -6103,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getTimeOfDay",
           "package": "postgresql-simple",
@@ -6112,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getTimeOfDay",
           "package": "postgresql-simple",
@@ -6125,6 +6581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getTimeZone",
           "package": "postgresql-simple",
@@ -6134,6 +6591,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getTimeZone",
           "package": "postgresql-simple",
@@ -6147,6 +6605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getUTCTime",
           "package": "postgresql-simple",
@@ -6156,6 +6615,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getUTCTime",
           "package": "postgresql-simple",
@@ -6169,6 +6629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getUTCTimestamp",
           "package": "postgresql-simple",
@@ -6178,6 +6639,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getUTCTimestamp",
           "package": "postgresql-simple",
@@ -6191,6 +6653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getZonedTime",
           "package": "postgresql-simple",
@@ -6200,6 +6663,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getZonedTime",
           "package": "postgresql-simple",
@@ -6213,6 +6677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getZonedTimestamp",
           "package": "postgresql-simple",
@@ -6222,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time Internal",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time.Internal",
           "name": "getZonedTimestamp",
           "package": "postgresql-simple",
@@ -6236,6 +6702,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTime types that supports positive and negative infinity.   Also includes\n new time parsers and printers with better performance than GHC's time\n package.\n\u003c/p\u003e\u003cp\u003eThe parsers only understand the specific variant of ISO 8601 that\n PostgreSQL emits,  and the printers attempt to duplicate this syntax.\n Thus the \u003ccode\u003edatestyle\u003c/code\u003e parameter for the connection must be set to \u003ccode\u003eISO\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThese parsers and printers likely have problems and shortcomings.  Some\n that I know of:\n\u003c/p\u003e\u003cp\u003e1  \u003ccode\u003eTimestampTZ\u003c/code\u003es before a timezone-dependent point in time cannot be\n    parsed,  because the parsers can only handle timezone offsets of a\n    integer number of minutes.  However, PostgreSQL will include seconds\n    in the offset, depending on the historical time standards for the city\n    identifying the time zone.\n\u003c/p\u003e\u003cp\u003eThis boundary point often marks an event of some interest.  In the US\n    for example,  \u003ccode\u003etimestamptz\u003c/code\u003es before \u003ccode\u003e1883-Nov-18 12:00:00\u003c/code\u003e local time\n    cannot be parsed.  This is the moment Standard Railway Time went live.\n    Concretely, PostgreSQL will emit \u003ccode\u003e1883-11-18 12:03:57-04:56:02\u003c/code\u003e\n    instead of \u003ccode\u003e1883-11-18 11:59:59-05\u003c/code\u003e when the \u003ccode\u003etimezone\u003c/code\u003e parameter\n    for the connection is set to \u003ccode\u003eAmerica/New_York\u003c/code\u003e.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Dates and times surrounding \u003ccode\u003e1582-Feb-24\u003c/code\u003e,  the date the Gregorian\n    Calendar was introduced,  should be investigated for conversion errors.\n\u003c/li\u003e\u003cli\u003e Points in time Before Christ are not also not supported.  For example,\n    PostgreSQL will emit \u003ccode\u003e0045-01-01 BC\u003c/code\u003e for a value of a \u003ccode\u003edate\u003c/code\u003e type.\n    This is the year that the Julian Calendar was adopted.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eHowever, it should be noted that the old parsers also had issues 1 and 3.\n Also, the new parsers now correctly handle time zones that include minutes\n in their offset.  Most notably, this includes all of India and parts of\n Canada and Australia.\n\u003c/p\u003e\u003cp\u003ePostgreSQL uses the zoneinfo database for its time zone information.\n You can read more about PostgreSQL's date and time types at\n \u003ca\u003ehttp://www.postgresql.org/docs/9.1/static/datatype-datetime.html\u003c/a\u003e,\n and zoneinfo at \u003ca\u003ehttp://en.wikipedia.org/wiki/Tz_database\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "Time",
           "package": "postgresql-simple",
@@ -6245,6 +6712,7 @@
         "index": {
           "description": "Time types that supports positive and negative infinity Also includes new time parsers and printers with better performance than GHC time package The parsers only understand the specific variant of ISO that PostgreSQL emits and the printers attempt to duplicate this syntax Thus the datestyle parameter for the connection must be set to ISO These parsers and printers likely have problems and shortcomings Some that know of TimestampTZ before timezone-dependent point in time cannot be parsed because the parsers can only handle timezone offsets of integer number of minutes However PostgreSQL will include seconds in the offset depending on the historical time standards for the city identifying the time zone This boundary point often marks an event of some interest In the US for example timestamptz before Nov-18 local time cannot be parsed This is the moment Standard Railway Time went live Concretely PostgreSQL will emit instead of when the timezone parameter for the connection is set to America New York Dates and times surrounding Feb-24 the date the Gregorian Calendar was introduced should be investigated for conversion errors Points in time Before Christ are not also not supported For example PostgreSQL will emit BC for value of date type This is the year that the Julian Calendar was adopted However it should be noted that the old parsers also had issues and Also the new parsers now correctly handle time zones that include minutes in their offset Most notably this includes all of India and parts of Canada and Australia PostgreSQL uses the zoneinfo database for its time zone information You can read more about PostgreSQL date and time types at http www.postgresql.org docs static datatype-datetime.html and zoneinfo at http en.wikipedia.org wiki Tz database",
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "Time",
           "package": "postgresql-simple",
@@ -6258,6 +6726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "Date",
           "package": "postgresql-simple",
@@ -6266,6 +6735,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "Date",
           "package": "postgresql-simple",
@@ -6279,6 +6749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "LocalTimestamp",
           "package": "postgresql-simple",
@@ -6287,6 +6758,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "LocalTimestamp",
           "package": "postgresql-simple",
@@ -6300,6 +6772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "UTCTimestamp",
           "package": "postgresql-simple",
@@ -6308,6 +6781,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "UTCTimestamp",
           "package": "postgresql-simple",
@@ -6321,6 +6795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "Unbounded",
           "package": "postgresql-simple",
@@ -6329,6 +6804,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "Unbounded",
           "package": "postgresql-simple",
@@ -6342,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "ZonedTimestamp",
           "package": "postgresql-simple",
@@ -6350,6 +6827,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "ZonedTimestamp",
           "package": "postgresql-simple",
@@ -6363,6 +6841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "Finite",
           "package": "postgresql-simple",
@@ -6372,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "Finite",
           "package": "postgresql-simple",
@@ -6385,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "NegInfinity",
           "package": "postgresql-simple",
@@ -6394,6 +6875,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "NegInfinity",
           "package": "postgresql-simple",
@@ -6407,6 +6889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "PosInfinity",
           "package": "postgresql-simple",
@@ -6416,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "PosInfinity",
           "package": "postgresql-simple",
@@ -6429,6 +6913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "dateToBuilder",
           "package": "postgresql-simple",
@@ -6438,6 +6923,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "dateToBuilder",
           "normalized": "Date-\u003eBuilder",
@@ -6453,6 +6939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "dayToBuilder",
           "package": "postgresql-simple",
@@ -6462,6 +6949,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "dayToBuilder",
           "normalized": "Day-\u003eBuilder",
@@ -6477,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "localTimeToBuilder",
           "package": "postgresql-simple",
@@ -6486,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "localTimeToBuilder",
           "normalized": "LocalTime-\u003eBuilder",
@@ -6501,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "localTimestampToBuilder",
           "package": "postgresql-simple",
@@ -6510,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "localTimestampToBuilder",
           "normalized": "LocalTimestamp-\u003eBuilder",
@@ -6525,6 +7017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseDate",
           "package": "postgresql-simple",
@@ -6534,6 +7027,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseDate",
           "normalized": "ByteString-\u003eEither String Date",
@@ -6549,6 +7043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseDay",
           "package": "postgresql-simple",
@@ -6558,6 +7053,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseDay",
           "normalized": "ByteString-\u003eEither String Day",
@@ -6573,6 +7069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseLocalTime",
           "package": "postgresql-simple",
@@ -6582,6 +7079,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseLocalTime",
           "normalized": "ByteString-\u003eEither String LocalTime",
@@ -6597,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseLocalTimestamp",
           "package": "postgresql-simple",
@@ -6606,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseLocalTimestamp",
           "normalized": "ByteString-\u003eEither String LocalTimestamp",
@@ -6621,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseTimeOfDay",
           "package": "postgresql-simple",
@@ -6630,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseTimeOfDay",
           "normalized": "ByteString-\u003eEither String TimeOfDay",
@@ -6645,6 +7147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseUTCTime",
           "package": "postgresql-simple",
@@ -6654,6 +7157,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseUTCTime",
           "normalized": "ByteString-\u003eEither String UTCTime",
@@ -6669,6 +7173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseUTCTimestamp",
           "package": "postgresql-simple",
@@ -6678,6 +7183,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseUTCTimestamp",
           "normalized": "ByteString-\u003eEither String UTCTimestamp",
@@ -6693,6 +7199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseZonedTime",
           "package": "postgresql-simple",
@@ -6702,6 +7209,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseZonedTime",
           "normalized": "ByteString-\u003eEither String ZonedTime",
@@ -6717,6 +7225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseZonedTimestamp",
           "package": "postgresql-simple",
@@ -6726,6 +7235,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "parseZonedTimestamp",
           "normalized": "ByteString-\u003eEither String ZonedTimestamp",
@@ -6741,6 +7251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "timeOfDayToBuilder",
           "package": "postgresql-simple",
@@ -6750,6 +7261,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "timeOfDayToBuilder",
           "normalized": "TimeOfDay-\u003eBuilder",
@@ -6765,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "timeZoneToBuilder",
           "package": "postgresql-simple",
@@ -6774,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "timeZoneToBuilder",
           "normalized": "TimeZone-\u003eBuilder",
@@ -6789,6 +7303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "unboundedToBuilder",
           "package": "postgresql-simple",
@@ -6798,6 +7313,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "unboundedToBuilder",
           "normalized": "(a-\u003eBuilder)-\u003eUnbounded a-\u003eBuilder",
@@ -6813,6 +7329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "utcTimeToBuilder",
           "package": "postgresql-simple",
@@ -6822,6 +7339,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "utcTimeToBuilder",
           "normalized": "UTCTime-\u003eBuilder",
@@ -6837,6 +7355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "utcTimestampToBuilder",
           "package": "postgresql-simple",
@@ -6846,6 +7365,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "utcTimestampToBuilder",
           "normalized": "UTCTimestamp-\u003eBuilder",
@@ -6861,6 +7381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "zonedTimeToBuilder",
           "package": "postgresql-simple",
@@ -6870,6 +7391,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "zonedTimeToBuilder",
           "normalized": "ZonedTime-\u003eBuilder",
@@ -6885,6 +7407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "zonedTimestampToBuilder",
           "package": "postgresql-simple",
@@ -6894,6 +7417,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Time",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Time",
           "name": "zonedTimestampToBuilder",
           "normalized": "ZonedTimestamp-\u003eBuilder",
@@ -6910,6 +7434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eToField\u003c/a\u003e\u003c/code\u003e typeclass, for rendering a parameter to a SQL query.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "ToField",
           "package": "postgresql-simple",
@@ -6919,6 +7444,7 @@
         "index": {
           "description": "The ToField typeclass for rendering parameter to SQL query",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "ToField",
           "package": "postgresql-simple",
@@ -6933,6 +7459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to render an element when substituting it into a query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "Action",
           "package": "postgresql-simple",
@@ -6942,6 +7469,7 @@
         "index": {
           "description": "How to render an element when substituting it into query",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "Action",
           "package": "postgresql-simple",
@@ -6956,6 +7484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that may be used as a single parameter to a SQL query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "ToField",
           "package": "postgresql-simple",
@@ -6965,6 +7494,7 @@
         "index": {
           "description": "type that may be used as single parameter to SQL query",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "ToField",
           "package": "postgresql-simple",
@@ -6979,6 +7509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape and enclose in quotes before substituting. Use for all\n text-like types, and anything else that may contain unsafe\n characters when rendered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "Escape",
           "package": "postgresql-simple",
@@ -6989,6 +7520,7 @@
         "index": {
           "description": "Escape and enclose in quotes before substituting Use for all text-like types and anything else that may contain unsafe characters when rendered",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "Escape",
           "package": "postgresql-simple",
@@ -7003,6 +7535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape binary data for use as a \u003ccode\u003ebytea\u003c/code\u003e literal.  Include surrounding\n quotes.  This is used by the \u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e newtype wrapper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "EscapeByteA",
           "package": "postgresql-simple",
@@ -7013,6 +7546,7 @@
         "index": {
           "description": "Escape binary data for use as bytea literal Include surrounding quotes This is used by the Binary newtype wrapper",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "EscapeByteA",
           "package": "postgresql-simple",
@@ -7027,6 +7561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a series of rendering actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "Many",
           "package": "postgresql-simple",
@@ -7037,6 +7572,7 @@
         "index": {
           "description": "Concatenate series of rendering actions",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "Many",
           "normalized": "Many[Action]",
@@ -7053,6 +7589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender without escaping or quoting. Use for non-text types\n such as numbers, when you are \u003cem\u003ecertain\u003c/em\u003e that they will not\n introduce formatting vulnerabilities via use of characters such\n as spaces or \"\u003ccode\u003e'\u003c/code\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "Plain",
           "package": "postgresql-simple",
@@ -7063,6 +7600,7 @@
         "index": {
           "description": "Render without escaping or quoting Use for non-text types such as numbers when you are certain that they will not introduce formatting vulnerabilities via use of characters such as spaces or",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "Plain",
           "package": "postgresql-simple",
@@ -7077,6 +7615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurround a string with single-quote characters: \"\u003ccode\u003e'\u003c/code\u003e\"\n\u003c/p\u003e\u003cp\u003eThis function \u003cem\u003edoes not\u003c/em\u003e perform any other escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "inQuotes",
           "package": "postgresql-simple",
@@ -7087,6 +7626,7 @@
         "index": {
           "description": "Surround string with single-quote characters This function does not perform any other escaping",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "inQuotes",
           "normalized": "Builder-\u003eBuilder",
@@ -7103,6 +7643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a value for substitution into a query string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "toField",
           "package": "postgresql-simple",
@@ -7113,6 +7654,7 @@
         "index": {
           "description": "Prepare value for substitution into query string",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "toField",
           "normalized": "a-\u003eAction",
@@ -7129,6 +7671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell value to a JSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e using\n \u003ccode\u003e\u003ca\u003etoJSON\u003c/a\u003e\u003c/code\u003e and convert that to a field using \u003ccode\u003e\u003ca\u003etoField\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis can be used as the default implementation for the \u003ccode\u003e\u003ca\u003etoField\u003c/a\u003e\u003c/code\u003e\n method for Haskell types that have a JSON representation in\n PostgreSQL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "toJSONField",
           "package": "postgresql-simple",
@@ -7139,6 +7682,7 @@
         "index": {
           "description": "Convert Haskell value to JSON Value using toJSON and convert that to field using toField This can be used as the default implementation for the toField method for Haskell types that have JSON representation in PostgreSQL",
           "hierarchy": "Database PostgreSQL Simple ToField",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToField",
           "name": "toJSONField",
           "normalized": "a-\u003eAction",
@@ -7155,6 +7699,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eToRow\u003c/a\u003e\u003c/code\u003e typeclass, for rendering a collection of\n parameters to a SQL query.\n\u003c/p\u003e\u003cp\u003ePredefined instances are provided for tuples containing up to ten\n elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToRow",
           "name": "ToRow",
           "package": "postgresql-simple",
@@ -7164,6 +7709,7 @@
         "index": {
           "description": "The ToRow typeclass for rendering collection of parameters to SQL query Predefined instances are provided for tuples containing up to ten elements",
           "hierarchy": "Database PostgreSQL Simple ToRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToRow",
           "name": "ToRow",
           "package": "postgresql-simple",
@@ -7178,6 +7724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be turned into a list of rendering\n \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eInstances should use the \u003ccode\u003erender\u003c/code\u003e method of the \u003ccode\u003eParam\u003c/code\u003e class\n to perform conversion of each element of the collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToRow",
           "name": "ToRow",
           "package": "postgresql-simple",
@@ -7187,6 +7734,7 @@
         "index": {
           "description": "collection type that can be turned into list of rendering Action Instances should use the render method of the Param class to perform conversion of each element of the collection",
           "hierarchy": "Database PostgreSQL Simple ToRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToRow",
           "name": "ToRow",
           "package": "postgresql-simple",
@@ -7201,6 +7749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToField a collection of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.ToRow",
           "name": "toRow",
           "package": "postgresql-simple",
@@ -7211,6 +7760,7 @@
         "index": {
           "description": "ToField collection of values",
           "hierarchy": "Database PostgreSQL Simple ToRow",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.ToRow",
           "name": "toRow",
           "normalized": "a-\u003e[Action]",
@@ -7226,6 +7776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "Transaction",
           "package": "postgresql-simple",
@@ -7234,6 +7785,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "Transaction",
           "package": "postgresql-simple",
@@ -7248,6 +7800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOf the four isolation levels defined by the SQL standard,\n these are the three levels distinguished by PostgreSQL as of version 9.0.\n See \u003ca\u003ehttp://www.postgresql.org/docs/9.1/static/transaction-iso.html\u003c/a\u003e\n for more information.   Note that prior to PostgreSQL 9.0, \u003ccode\u003e\u003ca\u003eRepeatableRead\u003c/a\u003e\u003c/code\u003e\n was equivalent to \u003ccode\u003e\u003ca\u003eSerializable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "IsolationLevel",
           "package": "postgresql-simple",
@@ -7257,6 +7810,7 @@
         "index": {
           "description": "Of the four isolation levels defined by the SQL standard these are the three levels distinguished by PostgreSQL as of version See http www.postgresql.org docs static transaction-iso.html for more information Note that prior to PostgreSQL RepeatableRead was equivalent to Serializable",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "IsolationLevel",
           "package": "postgresql-simple",
@@ -7270,6 +7824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "ReadWriteMode",
           "package": "postgresql-simple",
@@ -7278,6 +7833,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "ReadWriteMode",
           "package": "postgresql-simple",
@@ -7291,6 +7847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "Savepoint",
           "package": "postgresql-simple",
@@ -7299,6 +7856,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "Savepoint",
           "package": "postgresql-simple",
@@ -7312,6 +7870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "TransactionMode",
           "package": "postgresql-simple",
@@ -7320,6 +7879,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "TransactionMode",
           "package": "postgresql-simple",
@@ -7334,6 +7894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe isolation level will be taken from\n   PostgreSQL's per-connection\n   \u003ccode\u003edefault_transaction_isolation\u003c/code\u003e variable,\n   which is initialized according to the\n   server's config.  The default configuration\n   is \u003ccode\u003e\u003ca\u003eReadCommitted\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "DefaultIsolationLevel",
           "package": "postgresql-simple",
@@ -7344,6 +7905,7 @@
         "index": {
           "description": "the isolation level will be taken from PostgreSQL per-connection default transaction isolation variable which is initialized according to the server config The default configuration is ReadCommitted",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "DefaultIsolationLevel",
           "package": "postgresql-simple",
@@ -7358,6 +7920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe read-write mode will be taken from\n   PostgreSQL's per-connection\n   \u003ccode\u003edefault_transaction_read_only\u003c/code\u003e variable,\n   which is initialized according to the\n   server's config.  The default configuration\n   is \u003ccode\u003e\u003ca\u003eReadWrite\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "DefaultReadWriteMode",
           "package": "postgresql-simple",
@@ -7368,6 +7931,7 @@
         "index": {
           "description": "the read-write mode will be taken from PostgreSQL per-connection default transaction read only variable which is initialized according to the server config The default configuration is ReadWrite",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "DefaultReadWriteMode",
           "package": "postgresql-simple",
@@ -7381,6 +7945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "ReadCommitted",
           "package": "postgresql-simple",
@@ -7390,6 +7955,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "ReadCommitted",
           "package": "postgresql-simple",
@@ -7403,6 +7969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "ReadOnly",
           "package": "postgresql-simple",
@@ -7412,6 +7979,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "ReadOnly",
           "package": "postgresql-simple",
@@ -7425,6 +7993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "ReadWrite",
           "package": "postgresql-simple",
@@ -7434,6 +8003,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "ReadWrite",
           "package": "postgresql-simple",
@@ -7447,6 +8017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "RepeatableRead",
           "package": "postgresql-simple",
@@ -7456,6 +8027,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "RepeatableRead",
           "package": "postgresql-simple",
@@ -7469,6 +8041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "Serializable",
           "package": "postgresql-simple",
@@ -7478,6 +8051,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "Serializable",
           "package": "postgresql-simple",
@@ -7491,6 +8065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "TransactionMode",
           "package": "postgresql-simple",
@@ -7500,6 +8075,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "TransactionMode",
           "package": "postgresql-simple",
@@ -7540,6 +8116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin a transaction with a given isolation level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "beginLevel",
           "package": "postgresql-simple",
@@ -7550,6 +8127,7 @@
         "index": {
           "description": "Begin transaction with given isolation level",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "beginLevel",
           "normalized": "IsolationLevel-\u003eConnection-\u003eIO()",
@@ -7566,6 +8144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin a transaction with a given transaction mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "beginMode",
           "package": "postgresql-simple",
@@ -7576,6 +8155,7 @@
         "index": {
           "description": "Begin transaction with given transaction mode",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "beginMode",
           "normalized": "TransactionMode-\u003eConnection-\u003eIO()",
@@ -7617,6 +8197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "defaultIsolationLevel",
           "package": "postgresql-simple",
@@ -7626,6 +8207,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "defaultIsolationLevel",
           "package": "postgresql-simple",
@@ -7639,6 +8221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "defaultReadWriteMode",
           "package": "postgresql-simple",
@@ -7648,6 +8231,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "defaultReadWriteMode",
           "package": "postgresql-simple",
@@ -7661,6 +8245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "defaultTransactionMode",
           "package": "postgresql-simple",
@@ -7670,6 +8255,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "defaultTransactionMode",
           "package": "postgresql-simple",
@@ -7683,6 +8269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "isolationLevel",
           "package": "postgresql-simple",
@@ -7692,6 +8279,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "isolationLevel",
           "package": "postgresql-simple",
@@ -7706,6 +8294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new savepoint.  This may only be used inside of a transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "newSavepoint",
           "package": "postgresql-simple",
@@ -7716,6 +8305,7 @@
         "index": {
           "description": "Create new savepoint This may only be used inside of transaction",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "newSavepoint",
           "normalized": "Connection-\u003eIO Savepoint",
@@ -7731,6 +8321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "readWriteMode",
           "package": "postgresql-simple",
@@ -7740,6 +8331,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "readWriteMode",
           "package": "postgresql-simple",
@@ -7754,6 +8346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy a savepoint, but retain its effects.\n\u003c/p\u003e\u003cp\u003eWarning: this will throw a \u003ccode\u003e\u003ca\u003eSqlError\u003c/a\u003e\u003c/code\u003e matching \u003ccode\u003e\u003ca\u003eisFailedTransactionError\u003c/a\u003e\u003c/code\u003e if\n the transaction is aborted due to an error.  \u003ccode\u003e\u003ca\u003ecommit\u003c/a\u003e\u003c/code\u003e would merely warn and\n roll back.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "releaseSavepoint",
           "package": "postgresql-simple",
@@ -7764,6 +8357,7 @@
         "index": {
           "description": "Destroy savepoint but retain its effects Warning this will throw SqlError matching isFailedTransactionError if the transaction is aborted due to an error commit would merely warn and roll back",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "releaseSavepoint",
           "normalized": "Connection-\u003eSavepoint-\u003eIO()",
@@ -7806,6 +8400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll back to a savepoint and release it.  This is like calling\n \u003ccode\u003e\u003ca\u003erollbackToSavepoint\u003c/a\u003e\u003c/code\u003e followed by \u003ccode\u003e\u003ca\u003ereleaseSavepoint\u003c/a\u003e\u003c/code\u003e, but avoids a\n round trip to the database server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "rollbackToAndReleaseSavepoint",
           "package": "postgresql-simple",
@@ -7816,6 +8411,7 @@
         "index": {
           "description": "Roll back to savepoint and release it This is like calling rollbackToSavepoint followed by releaseSavepoint but avoids round trip to the database server",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "rollbackToAndReleaseSavepoint",
           "normalized": "Connection-\u003eSavepoint-\u003eIO()",
@@ -7832,6 +8428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll back to a savepoint.  This will not release the savepoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "rollbackToSavepoint",
           "package": "postgresql-simple",
@@ -7842,6 +8439,7 @@
         "index": {
           "description": "Roll back to savepoint This will not release the savepoint",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "rollbackToSavepoint",
           "normalized": "Connection-\u003eSavepoint-\u003eIO()",
@@ -7912,6 +8510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action inside a SQL transaction with a given isolation level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "withTransactionLevel",
           "package": "postgresql-simple",
@@ -7922,6 +8521,7 @@
         "index": {
           "description": "Execute an action inside SQL transaction with given isolation level",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "withTransactionLevel",
           "normalized": "IsolationLevel-\u003eConnection-\u003eIO a-\u003eIO a",
@@ -7938,6 +8538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action inside a SQL transaction with a given transaction mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "withTransactionMode",
           "package": "postgresql-simple",
@@ -7948,6 +8549,7 @@
         "index": {
           "description": "Execute an action inside SQL transaction with given transaction mode",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "withTransactionMode",
           "normalized": "TransactionMode-\u003eConnection-\u003eIO a-\u003eIO a",
@@ -7964,6 +8566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewithTransactionMode\u003c/a\u003e\u003c/code\u003e, but also takes a custom callback to\n determine if a transaction should be retried if an \u003ccode\u003e\u003ca\u003eSqlError\u003c/a\u003e\u003c/code\u003e occurs.\n If the callback returns True, then the transaction will be retried.\n If the callback returns False, or an exception other than an \u003ccode\u003e\u003ca\u003eSqlError\u003c/a\u003e\u003c/code\u003e\n occurs then the transaction will be rolled back and the exception rethrown.\n\u003c/p\u003e\u003cp\u003eThis is used to implement \u003ccode\u003e\u003ca\u003ewithTransactionSerializable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "withTransactionModeRetry",
           "package": "postgresql-simple",
@@ -7974,6 +8577,7 @@
         "index": {
           "description": "Like withTransactionMode but also takes custom callback to determine if transaction should be retried if an SqlError occurs If the callback returns True then the transaction will be retried If the callback returns False or an exception other than an SqlError occurs then the transaction will be rolled back and the exception rethrown This is used to implement withTransactionSerializable",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "withTransactionModeRetry",
           "normalized": "TransactionMode-\u003e(SqlError-\u003eBool)-\u003eConnection-\u003eIO a-\u003eIO a",
@@ -7990,6 +8594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action inside of a \u003ccode\u003e\u003ca\u003eSerializable\u003c/a\u003e\u003c/code\u003e transaction.  If a\n serialization failure occurs, roll back the transaction and try again.\n Be warned that this may execute the IO action multiple times.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSerializable\u003c/a\u003e\u003c/code\u003e transaction creates the illusion that your program has\n exclusive access to the database.  This means that, even in a concurrent\n setting, you can perform queries in sequence without having to worry about\n what might happen between one statement and the next.\n\u003c/p\u003e\u003cp\u003eThink of it as STM, but without \u003ccode\u003eretry\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "withTransactionSerializable",
           "package": "postgresql-simple",
@@ -8000,6 +8605,7 @@
         "index": {
           "description": "Execute an action inside of Serializable transaction If serialization failure occurs roll back the transaction and try again Be warned that this may execute the IO action multiple times Serializable transaction creates the illusion that your program has exclusive access to the database This means that even in concurrent setting you can perform queries in sequence without having to worry about what might happen between one statement and the next Think of it as STM but without retry",
           "hierarchy": "Database PostgreSQL Simple Transaction",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Transaction",
           "name": "withTransactionSerializable",
           "normalized": "Connection-\u003eIO a-\u003eIO a",
@@ -8016,6 +8622,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Template Haskell macro for efficiently checking membership in\n a set of type oids.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Macro",
           "name": "Macro",
           "package": "postgresql-simple",
@@ -8025,6 +8632,7 @@
         "index": {
           "description": "Template Haskell macro for efficiently checking membership in set of type oids",
           "hierarchy": "Database PostgreSQL Simple TypeInfo Macro",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Macro",
           "name": "Macro",
           "package": "postgresql-simple",
@@ -8039,6 +8647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiterally substitute the \u003ccode\u003e\u003ca\u003etypoid\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eTypeInfo\u003c/a\u003e\u003c/code\u003e expression.\n   Returns an expression of type \u003ccode\u003e\u003ca\u003eOid\u003c/a\u003e\u003c/code\u003e.  Useful because GHC tends\n   not to fold constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Macro",
           "name": "inlineTypoid",
           "package": "postgresql-simple",
@@ -8049,6 +8658,7 @@
         "index": {
           "description": "Literally substitute the typoid of TypeInfo expression Returns an expression of type Oid Useful because GHC tends not to fold constants",
           "hierarchy": "Database PostgreSQL Simple TypeInfo Macro",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Macro",
           "name": "inlineTypoid",
           "normalized": "TypeInfo-\u003eExpQ",
@@ -8065,6 +8675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an expression that has type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eOid\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e,  true if the\n   oid is equal to any one of the \u003ccode\u003e\u003ca\u003etypoid\u003c/a\u003e\u003c/code\u003es of the given \u003ccode\u003e\u003ca\u003eTypeInfo\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Macro",
           "name": "mkCompats",
           "package": "postgresql-simple",
@@ -8075,6 +8686,7 @@
         "index": {
           "description": "Returns an expression that has type Oid Bool true if the oid is equal to any one of the typoid of the given TypeInfo",
           "hierarchy": "Database PostgreSQL Simple TypeInfo Macro",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Macro",
           "name": "mkCompats",
           "normalized": "[TypeInfo]-\u003eExpQ",
@@ -8091,6 +8703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains portions of the \u003ccode\u003epg_type\u003c/code\u003e table that are relevant\n to postgresql-simple and are believed to not change between PostgreSQL\n versions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "Static",
           "package": "postgresql-simple",
@@ -8100,6 +8713,7 @@
         "index": {
           "description": "This module contains portions of the pg type table that are relevant to postgresql-simple and are believed to not change between PostgreSQL versions",
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "Static",
           "package": "postgresql-simple",
@@ -8114,6 +8728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure representing some of the metadata regarding a PostgreSQL\n   type,  mostly taken from the \u003ccode\u003epg_type\u003c/code\u003e table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "TypeInfo",
           "package": "postgresql-simple",
@@ -8123,6 +8738,7 @@
         "index": {
           "description": "structure representing some of the metadata regarding PostgreSQL type mostly taken from the pg type table",
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "TypeInfo",
           "package": "postgresql-simple",
@@ -8136,6 +8752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "abstime",
           "package": "postgresql-simple",
@@ -8145,6 +8762,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "abstime",
           "package": "postgresql-simple",
@@ -8157,6 +8775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "bit",
           "package": "postgresql-simple",
@@ -8166,6 +8785,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "bit",
           "package": "postgresql-simple",
@@ -8178,6 +8798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "bool",
           "package": "postgresql-simple",
@@ -8187,6 +8808,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "bool",
           "package": "postgresql-simple",
@@ -8199,6 +8821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "box",
           "package": "postgresql-simple",
@@ -8208,6 +8831,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "box",
           "package": "postgresql-simple",
@@ -8220,6 +8844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "bpchar",
           "package": "postgresql-simple",
@@ -8229,6 +8854,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "bpchar",
           "package": "postgresql-simple",
@@ -8241,6 +8867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "bytea",
           "package": "postgresql-simple",
@@ -8250,6 +8877,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "bytea",
           "package": "postgresql-simple",
@@ -8262,6 +8890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "char",
           "package": "postgresql-simple",
@@ -8271,6 +8900,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "char",
           "package": "postgresql-simple",
@@ -8283,6 +8913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "cid",
           "package": "postgresql-simple",
@@ -8292,6 +8923,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "cid",
           "package": "postgresql-simple",
@@ -8304,6 +8936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "cidr",
           "package": "postgresql-simple",
@@ -8313,6 +8946,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "cidr",
           "package": "postgresql-simple",
@@ -8325,6 +8959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "circle",
           "package": "postgresql-simple",
@@ -8334,6 +8969,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "circle",
           "package": "postgresql-simple",
@@ -8346,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "date",
           "package": "postgresql-simple",
@@ -8355,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "date",
           "package": "postgresql-simple",
@@ -8367,6 +9005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "float4",
           "package": "postgresql-simple",
@@ -8376,6 +9015,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "float4",
           "package": "postgresql-simple",
@@ -8388,6 +9028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "float8",
           "package": "postgresql-simple",
@@ -8397,6 +9038,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "float8",
           "package": "postgresql-simple",
@@ -8409,6 +9051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "inet",
           "package": "postgresql-simple",
@@ -8418,6 +9061,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "inet",
           "package": "postgresql-simple",
@@ -8430,6 +9074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "int2",
           "package": "postgresql-simple",
@@ -8439,6 +9084,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "int2",
           "package": "postgresql-simple",
@@ -8451,6 +9097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "int4",
           "package": "postgresql-simple",
@@ -8460,6 +9107,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "int4",
           "package": "postgresql-simple",
@@ -8472,6 +9120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "int8",
           "package": "postgresql-simple",
@@ -8481,6 +9130,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "int8",
           "package": "postgresql-simple",
@@ -8493,6 +9143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "interval",
           "package": "postgresql-simple",
@@ -8502,6 +9153,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "interval",
           "package": "postgresql-simple",
@@ -8514,6 +9166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "json",
           "package": "postgresql-simple",
@@ -8523,6 +9176,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "json",
           "package": "postgresql-simple",
@@ -8535,6 +9189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "line",
           "package": "postgresql-simple",
@@ -8544,6 +9199,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "line",
           "package": "postgresql-simple",
@@ -8556,6 +9212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "lseg",
           "package": "postgresql-simple",
@@ -8565,6 +9222,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "lseg",
           "package": "postgresql-simple",
@@ -8577,6 +9235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "macaddr",
           "package": "postgresql-simple",
@@ -8586,6 +9245,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "macaddr",
           "package": "postgresql-simple",
@@ -8598,6 +9258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "money",
           "package": "postgresql-simple",
@@ -8607,6 +9268,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "money",
           "package": "postgresql-simple",
@@ -8619,6 +9281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "name",
           "package": "postgresql-simple",
@@ -8628,6 +9291,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "name",
           "package": "postgresql-simple",
@@ -8640,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "numeric",
           "package": "postgresql-simple",
@@ -8649,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "numeric",
           "package": "postgresql-simple",
@@ -8661,6 +9327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "oid",
           "package": "postgresql-simple",
@@ -8670,6 +9337,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "oid",
           "package": "postgresql-simple",
@@ -8682,6 +9350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "path",
           "package": "postgresql-simple",
@@ -8691,6 +9360,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "path",
           "package": "postgresql-simple",
@@ -8703,6 +9373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "point",
           "package": "postgresql-simple",
@@ -8712,6 +9383,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "point",
           "package": "postgresql-simple",
@@ -8724,6 +9396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "polygon",
           "package": "postgresql-simple",
@@ -8733,6 +9406,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "polygon",
           "package": "postgresql-simple",
@@ -8745,6 +9419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "record",
           "package": "postgresql-simple",
@@ -8754,6 +9429,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "record",
           "package": "postgresql-simple",
@@ -8766,6 +9442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "refcursor",
           "package": "postgresql-simple",
@@ -8775,6 +9452,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "refcursor",
           "package": "postgresql-simple",
@@ -8787,6 +9465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "regproc",
           "package": "postgresql-simple",
@@ -8796,6 +9475,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "regproc",
           "package": "postgresql-simple",
@@ -8808,6 +9488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "reltime",
           "package": "postgresql-simple",
@@ -8817,6 +9498,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "reltime",
           "package": "postgresql-simple",
@@ -8829,6 +9511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "staticTypeInfo",
           "package": "postgresql-simple",
@@ -8838,6 +9521,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "staticTypeInfo",
           "normalized": "Oid-\u003eMaybe TypeInfo",
@@ -8853,6 +9537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "text",
           "package": "postgresql-simple",
@@ -8862,6 +9547,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "text",
           "package": "postgresql-simple",
@@ -8874,6 +9560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "tid",
           "package": "postgresql-simple",
@@ -8883,6 +9570,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "tid",
           "package": "postgresql-simple",
@@ -8895,6 +9583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "time",
           "package": "postgresql-simple",
@@ -8904,6 +9593,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "time",
           "package": "postgresql-simple",
@@ -8916,6 +9606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "timestamp",
           "package": "postgresql-simple",
@@ -8925,6 +9616,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "timestamp",
           "package": "postgresql-simple",
@@ -8937,6 +9629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "timestamptz",
           "package": "postgresql-simple",
@@ -8946,6 +9639,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "timestamptz",
           "package": "postgresql-simple",
@@ -8958,6 +9652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "timetz",
           "package": "postgresql-simple",
@@ -8967,6 +9662,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "timetz",
           "package": "postgresql-simple",
@@ -8979,6 +9675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "tinterval",
           "package": "postgresql-simple",
@@ -8988,6 +9685,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "tinterval",
           "package": "postgresql-simple",
@@ -9000,6 +9698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "unknown",
           "package": "postgresql-simple",
@@ -9009,6 +9708,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "unknown",
           "package": "postgresql-simple",
@@ -9021,6 +9721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "uuid",
           "package": "postgresql-simple",
@@ -9030,6 +9731,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "uuid",
           "package": "postgresql-simple",
@@ -9042,6 +9744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "varbit",
           "package": "postgresql-simple",
@@ -9051,6 +9754,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "varbit",
           "package": "postgresql-simple",
@@ -9063,6 +9767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "varchar",
           "package": "postgresql-simple",
@@ -9072,6 +9777,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "varchar",
           "package": "postgresql-simple",
@@ -9084,6 +9790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "void",
           "package": "postgresql-simple",
@@ -9093,6 +9800,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "void",
           "package": "postgresql-simple",
@@ -9105,6 +9813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "xid",
           "package": "postgresql-simple",
@@ -9114,6 +9823,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "xid",
           "package": "postgresql-simple",
@@ -9126,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "xml",
           "package": "postgresql-simple",
@@ -9135,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo Static",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo.Static",
           "name": "xml",
           "package": "postgresql-simple",
@@ -9148,6 +9860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides convenient and efficient access to parts of the\n \u003ccode\u003epg_type\u003c/code\u003e metatable.  At the moment, this requires PostgreSQL 8.4 if\n you need to work with types that do not appear in\n \u003ccode\u003e\u003ca\u003eStatic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe current scheme could be more efficient, especially for some use\n cases.  In particular,  connection pools that use many user-added\n types and connect to a set of servers with identical (or at least\n compatible) \u003ccode\u003epg_type\u003c/code\u003e and associated tables could share a common\n typeinfo cache,  thus saving memory and communication between the\n client and server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo",
           "name": "TypeInfo",
           "package": "postgresql-simple",
@@ -9157,6 +9870,7 @@
         "index": {
           "description": "This module provides convenient and efficient access to parts of the pg type metatable At the moment this requires PostgreSQL if you need to work with types that do not appear in Static The current scheme could be more efficient especially for some use cases In particular connection pools that use many user-added types and connect to set of servers with identical or at least compatible pg type and associated tables could share common typeinfo cache thus saving memory and communication between the client and server",
           "hierarchy": "Database PostgreSQL Simple TypeInfo",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo",
           "name": "TypeInfo",
           "package": "postgresql-simple",
@@ -9170,6 +9884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo",
           "name": "Attribute",
           "package": "postgresql-simple",
@@ -9178,6 +9893,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple TypeInfo",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo",
           "name": "Attribute",
           "package": "postgresql-simple",
@@ -9192,6 +9908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure representing some of the metadata regarding a PostgreSQL\n   type,  mostly taken from the \u003ccode\u003epg_type\u003c/code\u003e table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo",
           "name": "TypeInfo",
           "package": "postgresql-simple",
@@ -9201,6 +9918,7 @@
         "index": {
           "description": "structure representing some of the metadata regarding PostgreSQL type mostly taken from the pg type table",
           "hierarchy": "Database PostgreSQL Simple TypeInfo",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo",
           "name": "TypeInfo",
           "package": "postgresql-simple",
@@ -9215,6 +9933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the metadata of the type with a particular oid.  To find\n   this data, \u003ccode\u003e\u003ca\u003egetTypeInfo\u003c/a\u003e\u003c/code\u003e first consults postgresql-simple's\n   built-in \u003ccode\u003e\u003ca\u003estaticTypeInfo\u003c/a\u003e\u003c/code\u003e table,  then checks  the connection's\n   typeinfo cache.   Finally,  the database's \u003ccode\u003epg_type\u003c/code\u003e table will\n   be queried only if necessary,  and the result will be stored\n   in the connections's cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.TypeInfo",
           "name": "getTypeInfo",
           "package": "postgresql-simple",
@@ -9225,6 +9944,7 @@
         "index": {
           "description": "Returns the metadata of the type with particular oid To find this data getTypeInfo first consults postgresql-simple built-in staticTypeInfo table then checks the connection typeinfo cache Finally the database pg type table will be queried only if necessary and the result will be stored in the connections cache",
           "hierarchy": "Database PostgreSQL Simple TypeInfo",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.TypeInfo",
           "name": "getTypeInfo",
           "normalized": "Connection-\u003eOid-\u003eIO TypeInfo",
@@ -9241,6 +9961,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Types",
           "package": "postgresql-simple",
@@ -9250,6 +9971,7 @@
         "index": {
           "description": "Basic types",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Types",
           "package": "postgresql-simple",
@@ -9264,6 +9986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA composite type to parse your custom data structures without\n having to define dummy newtype wrappers every time.\n\u003c/p\u003e\u003cpre\u003e instance FromRow MyData where ...\n\u003c/pre\u003e\u003cpre\u003e instance FromRow MyData2 where ...\n\u003c/pre\u003e\u003cp\u003ethen I can do the following for free:\n\u003c/p\u003e\u003cpre\u003e\n res \u003c- query' c \u003ca\u003e...\u003c/a\u003e\n forM res $ \\(MyData{..} :. MyData2{..}) -\u003e do\n   ....\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": ":.",
           "package": "postgresql-simple",
@@ -9273,6 +9996,7 @@
         "index": {
           "description": "composite type to parse your custom data structures without having to define dummy newtype wrappers every time instance FromRow MyData where instance FromRow MyData2 where then can do the following for free res query forM res MyData MyData2 do",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": ":.",
           "package": "postgresql-simple",
@@ -9286,6 +10010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap binary data for use as a \u003ccode\u003ebytea\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Binary",
           "package": "postgresql-simple",
@@ -9295,6 +10020,7 @@
         "index": {
           "description": "Wrap binary data for use as bytea value",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Binary",
           "package": "postgresql-simple",
@@ -9309,6 +10035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA placeholder for the PostgreSQL \u003ccode\u003eDEFAULT\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Default",
           "package": "postgresql-simple",
@@ -9318,6 +10045,7 @@
         "index": {
           "description": "placeholder for the PostgreSQL DEFAULT value",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Default",
           "package": "postgresql-simple",
@@ -9332,6 +10060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a list of values for use in an \u003ccode\u003eIN\u003c/code\u003e clause.  Replaces a\n single \"\u003ccode\u003e?\u003c/code\u003e\" character with a parenthesized list of rendered\n values.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e query c \"select * from whatever where id in ?\" (Only (In [3,4,5]))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "In",
           "package": "postgresql-simple",
@@ -9341,6 +10070,7 @@
         "index": {
           "description": "Wrap list of values for use in an IN clause Replaces single character with parenthesized list of rendered values Example query select from whatever where id in Only In",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "In",
           "package": "postgresql-simple",
@@ -9355,6 +10085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA placeholder for the SQL \u003ccode\u003eNULL\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Null",
           "package": "postgresql-simple",
@@ -9364,6 +10095,7 @@
         "index": {
           "description": "placeholder for the SQL NULL value",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Null",
           "package": "postgresql-simple",
@@ -9377,6 +10109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Oid",
           "package": "postgresql-simple",
@@ -9384,6 +10117,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Oid",
           "package": "postgresql-simple",
@@ -9398,6 +10132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-value \"collection\".\n\u003c/p\u003e\u003cp\u003eThis is useful if you need to supply a single parameter to a SQL\n query, or extract a single column from a SQL result.\n\u003c/p\u003e\u003cp\u003eParameter example:\n\u003c/p\u003e\u003cpre\u003equery c \"select x from scores where x \u003e ?\" (\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e (42::Int))\u003c/pre\u003e\u003cp\u003eResult example:\n\u003c/p\u003e\u003cpre\u003exs \u003c- query_ c \"select id from users\"\nforM_ xs $ \\(\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e id) -\u003e {- ... -}\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Only",
           "package": "postgresql-simple",
@@ -9407,6 +10142,7 @@
         "index": {
           "description": "single-value collection This is useful if you need to supply single parameter to SQL query or extract single column from SQL result Parameter example query select from scores where Only Int Result example xs query select id from users forM xs Only id",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Only",
           "package": "postgresql-simple",
@@ -9421,6 +10157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a list for use as a PostgreSQL array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "PGArray",
           "package": "postgresql-simple",
@@ -9430,6 +10167,7 @@
         "index": {
           "description": "Wrap list for use as PostgreSQL array",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "PGArray",
           "package": "postgresql-simple",
@@ -9444,6 +10182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query string. This type is intended to make it difficult to\n construct a SQL query by concatenating string fragments, as that is\n an extremely common way to accidentally introduce SQL injection\n vulnerabilities into an application.\n\u003c/p\u003e\u003cp\u003eThis type is an instance of \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e, so the easiest way to\n construct a query is to enable the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language\n extension and then simply write the query in double quotes.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Database.PostgreSQL.Simple\n\n q :: Query\n q = \"select ?\"\n\u003c/pre\u003e\u003cp\u003eThe underlying type is a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, and literal Haskell strings\n that contain Unicode characters will be correctly transformed to\n UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Query",
           "package": "postgresql-simple",
@@ -9453,6 +10192,7 @@
         "index": {
           "description": "query string This type is intended to make it difficult to construct SQL query by concatenating string fragments as that is an extremely common way to accidentally introduce SQL injection vulnerabilities into an application This type is an instance of IsString so the easiest way to construct query is to enable the OverloadedStrings language extension and then simply write the query in double quotes LANGUAGE OverloadedStrings import Database.PostgreSQL.Simple Query select The underlying type is ByteString and literal Haskell strings that contain Unicode characters will be correctly transformed to UTF-8",
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Query",
           "package": "postgresql-simple",
@@ -9466,6 +10206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Savepoint",
           "package": "postgresql-simple",
@@ -9474,6 +10215,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Savepoint",
           "package": "postgresql-simple",
@@ -9532,6 +10274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Default",
           "package": "postgresql-simple",
@@ -9541,6 +10284,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Default",
           "package": "postgresql-simple",
@@ -9577,6 +10321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Null",
           "package": "postgresql-simple",
@@ -9586,6 +10331,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Null",
           "package": "postgresql-simple",
@@ -9622,6 +10368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "PGArray",
           "package": "postgresql-simple",
@@ -9631,6 +10378,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "PGArray",
           "package": "postgresql-simple",
@@ -9644,6 +10392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Query",
           "package": "postgresql-simple",
@@ -9653,6 +10402,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Query",
           "package": "postgresql-simple",
@@ -9666,6 +10416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Savepoint",
           "package": "postgresql-simple",
@@ -9675,6 +10426,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "Savepoint",
           "package": "postgresql-simple",
@@ -9734,6 +10486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "fromPGArray",
           "package": "postgresql-simple",
@@ -9743,6 +10496,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "fromPGArray",
           "normalized": "[a]",
@@ -9758,6 +10512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "fromQuery",
           "package": "postgresql-simple",
@@ -9767,6 +10522,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple Types",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple.Types",
           "name": "fromQuery",
           "package": "postgresql-simple",
@@ -9781,6 +10537,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA mid-level client library for the PostgreSQL database, aimed at ease of\n use and high performance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "Simple",
           "package": "postgresql-simple",
@@ -9790,6 +10547,7 @@
         "index": {
           "description": "mid-level client library for the PostgreSQL database aimed at ease of use and high performance",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "Simple",
           "package": "postgresql-simple",
@@ -9804,6 +10562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA composite type to parse your custom data structures without\n having to define dummy newtype wrappers every time.\n\u003c/p\u003e\u003cpre\u003e instance FromRow MyData where ...\n\u003c/pre\u003e\u003cpre\u003e instance FromRow MyData2 where ...\n\u003c/pre\u003e\u003cp\u003ethen I can do the following for free:\n\u003c/p\u003e\u003cpre\u003e\n res \u003c- query' c \u003ca\u003e...\u003c/a\u003e\n forM res $ \\(MyData{..} :. MyData2{..}) -\u003e do\n   ....\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": ":.",
           "package": "postgresql-simple",
@@ -9813,6 +10572,7 @@
         "index": {
           "description": "composite type to parse your custom data structures without having to define dummy newtype wrappers every time instance FromRow MyData where instance FromRow MyData2 where then can do the following for free res query forM res MyData MyData2 do",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": ":.",
           "package": "postgresql-simple",
@@ -9826,6 +10586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap binary data for use as a \u003ccode\u003ebytea\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "Binary",
           "package": "postgresql-simple",
@@ -9835,6 +10596,7 @@
         "index": {
           "description": "Wrap binary data for use as bytea value",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "Binary",
           "package": "postgresql-simple",
@@ -9848,6 +10610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "ConnectInfo",
           "package": "postgresql-simple",
@@ -9856,6 +10619,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "ConnectInfo",
           "package": "postgresql-simple",
@@ -9869,6 +10633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "Connection",
           "package": "postgresql-simple",
@@ -9877,6 +10642,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "Connection",
           "package": "postgresql-simple",
@@ -9890,6 +10656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "ExecStatus",
           "package": "postgresql-simple",
@@ -9897,6 +10664,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "ExecStatus",
           "package": "postgresql-simple",
@@ -9910,6 +10678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "FetchQuantity",
           "package": "postgresql-simple",
@@ -9918,6 +10687,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "FetchQuantity",
           "package": "postgresql-simple",
@@ -9931,6 +10701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "FoldOptions",
           "package": "postgresql-simple",
@@ -9939,6 +10710,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "FoldOptions",
           "package": "postgresql-simple",
@@ -9953,6 +10725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if a \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e could not be formatted correctly.\n This may occur if the number of '\u003ccode\u003e?\u003c/code\u003e' characters in the query\n string does not match the number of parameters provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "FormatError",
           "package": "postgresql-simple",
@@ -9962,6 +10735,7 @@
         "index": {
           "description": "Exception thrown if Query could not be formatted correctly This may occur if the number of characters in the query string does not match the number of parameters provided",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "FormatError",
           "package": "postgresql-simple",
@@ -9976,6 +10750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be converted from a sequence of fields.\n Instances are provided for tuples up to 10 elements and lists of any length.\n\u003c/p\u003e\u003cp\u003eNote that instances can be defined outside of postgresql-simple,  which is\n often useful.   For example, here's an instance for a user-defined pair:\n\u003c/p\u003e\u003cpre\u003edata User = User { name :: String, fileQuota :: Int }\n\ninstance \u003ccode\u003e\u003ca\u003eFromRow\u003c/a\u003e\u003c/code\u003e User where\n     fromRow = User \u003c$\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e \u003c*\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThe number of calls to \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e must match the number of fields returned\n in a single row of the query result.  Otherwise,  a \u003ccode\u003e\u003ca\u003eConversionFailed\u003c/a\u003e\u003c/code\u003e\n exception will be thrown.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e evaluates it's result to WHNF, so the caveats listed in\n mysql-simple and very early versions of postgresql-simple no longer apply.\n Instead, look at the caveats associated with user-defined implementations\n of \u003ccode\u003e\u003ca\u003efromField\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "FromRow",
           "package": "postgresql-simple",
@@ -9985,6 +10760,7 @@
         "index": {
           "description": "collection type that can be converted from sequence of fields Instances are provided for tuples up to elements and lists of any length Note that instances can be defined outside of postgresql-simple which is often useful For example here an instance for user-defined pair data User User name String fileQuota Int instance FromRow User where fromRow User field field The number of calls to field must match the number of fields returned in single row of the query result Otherwise ConversionFailed exception will be thrown Note that field evaluates it result to WHNF so the caveats listed in mysql-simple and very early versions of postgresql-simple no longer apply Instead look at the caveats associated with user-defined implementations of fromField",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "FromRow",
           "package": "postgresql-simple",
@@ -9999,6 +10775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a list of values for use in an \u003ccode\u003eIN\u003c/code\u003e clause.  Replaces a\n single \"\u003ccode\u003e?\u003c/code\u003e\" character with a parenthesized list of rendered\n values.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e query c \"select * from whatever where id in ?\" (Only (In [3,4,5]))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "In",
           "package": "postgresql-simple",
@@ -10008,6 +10785,7 @@
         "index": {
           "description": "Wrap list of values for use in an IN clause Replaces single character with parenthesized list of rendered values Example query select from whatever where id in Only In",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "In",
           "package": "postgresql-simple",
@@ -10022,6 +10800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-value \"collection\".\n\u003c/p\u003e\u003cp\u003eThis is useful if you need to supply a single parameter to a SQL\n query, or extract a single column from a SQL result.\n\u003c/p\u003e\u003cp\u003eParameter example:\n\u003c/p\u003e\u003cpre\u003equery c \"select x from scores where x \u003e ?\" (\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e (42::Int))\u003c/pre\u003e\u003cp\u003eResult example:\n\u003c/p\u003e\u003cpre\u003exs \u003c- query_ c \"select id from users\"\nforM_ xs $ \\(\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e id) -\u003e {- ... -}\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "Only",
           "package": "postgresql-simple",
@@ -10031,6 +10810,7 @@
         "index": {
           "description": "single-value collection This is useful if you need to supply single parameter to SQL query or extract single column from SQL result Parameter example query select from scores where Only Int Result example xs query select id from users forM xs Only id",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "Only",
           "package": "postgresql-simple",
@@ -10045,6 +10825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query string. This type is intended to make it difficult to\n construct a SQL query by concatenating string fragments, as that is\n an extremely common way to accidentally introduce SQL injection\n vulnerabilities into an application.\n\u003c/p\u003e\u003cp\u003eThis type is an instance of \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e, so the easiest way to\n construct a query is to enable the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language\n extension and then simply write the query in double quotes.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Database.PostgreSQL.Simple\n\n q :: Query\n q = \"select ?\"\n\u003c/pre\u003e\u003cp\u003eThe underlying type is a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, and literal Haskell strings\n that contain Unicode characters will be correctly transformed to\n UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "Query",
           "package": "postgresql-simple",
@@ -10054,6 +10835,7 @@
         "index": {
           "description": "query string This type is intended to make it difficult to construct SQL query by concatenating string fragments as that is an extremely common way to accidentally introduce SQL injection vulnerabilities into an application This type is an instance of IsString so the easiest way to construct query is to enable the OverloadedStrings language extension and then simply write the query in double quotes LANGUAGE OverloadedStrings import Database.PostgreSQL.Simple Query select The underlying type is ByteString and literal Haskell strings that contain Unicode characters will be correctly transformed to UTF-8",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "Query",
           "package": "postgresql-simple",
@@ -10068,6 +10850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if \u003ccode\u003equery\u003c/code\u003e is used to perform an \u003ccode\u003eINSERT\u003c/code\u003e-like\n operation, or \u003ccode\u003eexecute\u003c/code\u003e is used to perform a \u003ccode\u003eSELECT\u003c/code\u003e-like operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "QueryError",
           "package": "postgresql-simple",
@@ -10077,6 +10860,7 @@
         "index": {
           "description": "Exception thrown if query is used to perform an INSERT like operation or execute is used to perform SELECT like operation",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "QueryError",
           "package": "postgresql-simple",
@@ -10091,6 +10875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if conversion from a SQL value to a Haskell\n value fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "ResultError",
           "package": "postgresql-simple",
@@ -10100,6 +10885,7 @@
         "index": {
           "description": "Exception thrown if conversion from SQL value to Haskell value fails",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "ResultError",
           "package": "postgresql-simple",
@@ -10113,6 +10899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "SqlError",
           "package": "postgresql-simple",
@@ -10121,6 +10908,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "SqlError",
           "package": "postgresql-simple",
@@ -10135,6 +10923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be turned into a list of rendering\n \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eInstances should use the \u003ccode\u003erender\u003c/code\u003e method of the \u003ccode\u003eParam\u003c/code\u003e class\n to perform conversion of each element of the collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "ToRow",
           "package": "postgresql-simple",
@@ -10144,6 +10933,7 @@
         "index": {
           "description": "collection type that can be turned into list of rendering Action Instances should use the render method of the Param class to perform conversion of each element of the collection",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "ToRow",
           "package": "postgresql-simple",
@@ -10157,6 +10947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "Automatic",
           "package": "postgresql-simple",
@@ -10166,6 +10957,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "Automatic",
           "package": "postgresql-simple",
@@ -10180,6 +10972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe server's response was not understood.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "BadResponse",
           "package": "postgresql-simple",
@@ -10189,6 +10982,7 @@
         "index": {
           "description": "The server response was not understood",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "BadResponse",
           "package": "postgresql-simple",
@@ -10203,6 +10997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessful completion of a\n command returning no data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "CommandOk",
           "package": "postgresql-simple",
@@ -10212,6 +11007,7 @@
         "index": {
           "description": "Successful completion of command returning no data",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "CommandOk",
           "package": "postgresql-simple",
@@ -10226,6 +11022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy In (to server) data transfer\n started.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "CopyIn",
           "package": "postgresql-simple",
@@ -10235,6 +11032,7 @@
         "index": {
           "description": "Copy In to server data transfer started",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "CopyIn",
           "package": "postgresql-simple",
@@ -10249,6 +11047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy Out (from server) data\n transfer started.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "CopyOut",
           "package": "postgresql-simple",
@@ -10258,6 +11057,7 @@
         "index": {
           "description": "Copy Out from server data transfer started",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "CopyOut",
           "package": "postgresql-simple",
@@ -10272,6 +11072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe string sent to the server was empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "EmptyQuery",
           "package": "postgresql-simple",
@@ -10281,6 +11082,7 @@
         "index": {
           "description": "The string sent to the server was empty",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "EmptyQuery",
           "package": "postgresql-simple",
@@ -10295,6 +11097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fatal error occurred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "FatalError",
           "package": "postgresql-simple",
@@ -10304,6 +11107,7 @@
         "index": {
           "description": "fatal error occurred",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "FatalError",
           "package": "postgresql-simple",
@@ -10317,6 +11121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "Fixed",
           "package": "postgresql-simple",
@@ -10326,6 +11131,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "Fixed",
           "package": "postgresql-simple",
@@ -10339,6 +11145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "FoldOptions",
           "package": "postgresql-simple",
@@ -10348,6 +11155,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "FoldOptions",
           "package": "postgresql-simple",
@@ -10362,6 +11170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nonfatal error (a notice or\n warning) occurred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "NonfatalError",
           "package": "postgresql-simple",
@@ -10371,6 +11180,7 @@
         "index": {
           "description": "nonfatal error notice or warning occurred",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "NonfatalError",
           "package": "postgresql-simple",
@@ -10385,6 +11195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessful completion of a\n command returning data (such as a\n SELECT or SHOW).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "TuplesOk",
           "package": "postgresql-simple",
@@ -10394,6 +11205,7 @@
         "index": {
           "description": "Successful completion of command returning data such as SELECT or SHOW",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "TuplesOk",
           "package": "postgresql-simple",
@@ -10407,6 +11219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "defaultFoldOptions",
           "package": "postgresql-simple",
@@ -10416,6 +11229,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "defaultFoldOptions",
           "package": "postgresql-simple",
@@ -10430,6 +11244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an \u003ccode\u003eINSERT\u003c/code\u003e, \u003ccode\u003eUPDATE\u003c/code\u003e, or other SQL query that is not\n expected to return results.\n\u003c/p\u003e\u003cp\u003eReturns the number of rows affected.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e if the query could not be formatted correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "execute",
           "package": "postgresql-simple",
@@ -10440,6 +11255,7 @@
         "index": {
           "description": "Execute an INSERT UPDATE or other SQL query that is not expected to return results Returns the number of rows affected Throws FormatError if the query could not be formatted correctly",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "execute",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eIO Int",
@@ -10455,6 +11271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a multi-row \u003ccode\u003eINSERT\u003c/code\u003e, \u003ccode\u003eUPDATE\u003c/code\u003e, or other SQL query that is not\n expected to return results.\n\u003c/p\u003e\u003cp\u003eReturns the number of rows affected.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e if the query could not be formatted correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "executeMany",
           "package": "postgresql-simple",
@@ -10465,6 +11282,7 @@
         "index": {
           "description": "Execute multi-row INSERT UPDATE or other SQL query that is not expected to return results Returns the number of rows affected Throws FormatError if the query could not be formatted correctly",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "executeMany",
           "normalized": "Connection-\u003eQuery-\u003e[a]-\u003eIO Int",
@@ -10480,6 +11298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "fetchQuantity",
           "package": "postgresql-simple",
@@ -10489,6 +11308,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "fetchQuantity",
           "package": "postgresql-simple",
@@ -10503,6 +11323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a \u003ccode\u003eSELECT\u003c/code\u003e or other SQL query that is expected to return\n results. Results are streamed incrementally from the server, and\n consumed via a left fold.\n\u003c/p\u003e\u003cp\u003eWhen dealing with small results, it may be simpler (and perhaps\n faster) to use \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eThis fold is \u003cem\u003enot\u003c/em\u003e strict. The stream consumer is responsible for\n forcing the evaluation of its result to avoid space leaks.\n\u003c/p\u003e\u003cp\u003eExceptions that may be thrown:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e: the query string could not be formatted correctly.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eQueryError\u003c/a\u003e\u003c/code\u003e: the result contains no columns (i.e. you should be\n   using \u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eResultError\u003c/a\u003e\u003c/code\u003e: result conversion failed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "fold",
           "package": "postgresql-simple",
@@ -10513,6 +11334,7 @@
         "index": {
           "description": "Perform SELECT or other SQL query that is expected to return results Results are streamed incrementally from the server and consumed via left fold When dealing with small results it may be simpler and perhaps faster to use query instead This fold is not strict The stream consumer is responsible for forcing the evaluation of its result to avoid space leaks Exceptions that may be thrown FormatError the query string could not be formatted correctly QueryError the result contains no columns i.e you should be using execute instead of query ResultError result conversion failed",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "fold",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eb-\u003e(b-\u003ec-\u003eIO b)-\u003eIO b",
@@ -10527,6 +11349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "foldWithOptions",
           "package": "postgresql-simple",
@@ -10536,6 +11359,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "foldWithOptions",
           "normalized": "FoldOptions-\u003eConnection-\u003eQuery-\u003ea-\u003eb-\u003e(b-\u003ec-\u003eIO b)-\u003eIO b",
@@ -10551,6 +11375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "foldWithOptions_",
           "package": "postgresql-simple",
@@ -10559,6 +11384,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "foldWithOptions_",
           "normalized": "FoldOptions-\u003eConnection-\u003eQuery-\u003ea-\u003e(a-\u003eb-\u003eIO a)-\u003eIO a",
@@ -10575,6 +11401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e that does not perform query substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "fold_",
           "package": "postgresql-simple",
@@ -10584,6 +11411,7 @@
         "index": {
           "description": "version of fold that does not perform query substitution",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "fold_",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003e(a-\u003eb-\u003eIO a)-\u003eIO a",
@@ -10599,6 +11427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e that does not transform a state value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "forEach",
           "package": "postgresql-simple",
@@ -10608,6 +11437,7 @@
         "index": {
           "description": "version of fold that does not transform state value",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "forEach",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003e(b-\u003eIO())-\u003eIO()",
@@ -10624,6 +11454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eforEach\u003c/a\u003e\u003c/code\u003e that does not perform query substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "forEach_",
           "package": "postgresql-simple",
@@ -10633,6 +11464,7 @@
         "index": {
           "description": "version of forEach that does not perform query substitution",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "forEach_",
           "normalized": "Connection-\u003eQuery-\u003e(a-\u003eIO())-\u003eIO()",
@@ -10649,6 +11481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a query string with a variable number of rows.\n\u003c/p\u003e\u003cp\u003eThis function is exposed to help with debugging and logging. Do not\n use it to prepare queries for execution.\n\u003c/p\u003e\u003cp\u003eThe query string must contain exactly one substitution group,\n identified by the SQL keyword \"\u003ccode\u003eVALUES\u003c/code\u003e\" (case insensitive)\n followed by an \"\u003ccode\u003e(\u003c/code\u003e\" character, a series of one or more \"\u003ccode\u003e?\u003c/code\u003e\"\n characters separated by commas, and a \"\u003ccode\u003e)\u003c/code\u003e\" character. White\n space in a substitution group is permitted.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e if the query string could not be formatted\n correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "formatMany",
           "package": "postgresql-simple",
@@ -10659,6 +11492,7 @@
         "index": {
           "description": "Format query string with variable number of rows This function is exposed to help with debugging and logging Do not use it to prepare queries for execution The query string must contain exactly one substitution group identified by the SQL keyword VALUES case insensitive followed by an character series of one or more characters separated by commas and character White space in substitution group is permitted Throws FormatError if the query string could not be formatted correctly",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "formatMany",
           "normalized": "Connection-\u003eQuery-\u003e[a]-\u003eIO ByteString",
@@ -10675,6 +11509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a query string.\n\u003c/p\u003e\u003cp\u003eThis function is exposed to help with debugging and logging. Do not\n use it to prepare queries for execution.\n\u003c/p\u003e\u003cp\u003eString parameters are escaped according to the character set in use\n on the \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e if the query string could not be formatted\n correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "formatQuery",
           "package": "postgresql-simple",
@@ -10685,6 +11520,7 @@
         "index": {
           "description": "Format query string This function is exposed to help with debugging and logging Do not use it to prepare queries for execution String parameters are escaped according to the character set in use on the Connection Throws FormatError if the query string could not be formatted correctly",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "formatQuery",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eIO ByteString",
@@ -10701,6 +11537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a \u003ccode\u003eSELECT\u003c/code\u003e or other SQL query that is expected to return\n results. All results are retrieved and converted before this\n function returns.\n\u003c/p\u003e\u003cp\u003eWhen processing large results, this function will consume a lot of\n client-side memory.  Consider using \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eExceptions that may be thrown:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e: the query string could not be formatted correctly.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eQueryError\u003c/a\u003e\u003c/code\u003e: the result contains no columns (i.e. you should be\n   using \u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eResultError\u003c/a\u003e\u003c/code\u003e: result conversion failed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "query",
           "package": "postgresql-simple",
@@ -10711,6 +11548,7 @@
         "index": {
           "description": "Perform SELECT or other SQL query that is expected to return results All results are retrieved and converted before this function returns When processing large results this function will consume lot of client-side memory Consider using fold instead Exceptions that may be thrown FormatError the query string could not be formatted correctly QueryError the result contains no columns i.e you should be using execute instead of query ResultError result conversion failed",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "query",
           "normalized": "Connection-\u003eQuery-\u003ea-\u003eIO[b]",
@@ -10726,6 +11564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e taking parser as argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "queryWith",
           "package": "postgresql-simple",
@@ -10736,6 +11575,7 @@
         "index": {
           "description": "version of query taking parser as argument",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "queryWith",
           "normalized": "RowParser a-\u003eConnection-\u003eQuery-\u003eb-\u003eIO[a]",
@@ -10752,6 +11592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003equery_\u003c/a\u003e\u003c/code\u003e taking parser as argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "queryWith_",
           "package": "postgresql-simple",
@@ -10762,6 +11603,7 @@
         "index": {
           "description": "version of query taking parser as argument",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "queryWith_",
           "normalized": "RowParser a-\u003eConnection-\u003eQuery-\u003eIO[a]",
@@ -10778,6 +11620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e that does not perform query substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "query_",
           "package": "postgresql-simple",
@@ -10788,6 +11631,7 @@
         "index": {
           "description": "version of query that does not perform query substitution",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "query_",
           "normalized": "Connection-\u003eQuery-\u003eIO[a]",
@@ -10803,6 +11647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute \u003ccode\u003eINSERT ... RETURNING\u003c/code\u003e, \u003ccode\u003eUPDATE ... RETURNING\u003c/code\u003e, or other SQL\n query that accepts multi-row input and is expected to return results.\n Note that it is possible to write\n    \u003ccode\u003e\u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e conn \u003ca\u003eINSERT ... RETURNING ...\u003c/a\u003e ...\u003c/code\u003e\n in cases where you are only inserting a single row,  and do not need\n functionality analogous to \u003ccode\u003e\u003ca\u003eexecuteMany\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThrows \u003ccode\u003e\u003ca\u003eFormatError\u003c/a\u003e\u003c/code\u003e if the query could not be formatted correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "returning",
           "package": "postgresql-simple",
@@ -10813,6 +11658,7 @@
         "index": {
           "description": "Execute INSERT RETURNING UPDATE RETURNING or other SQL query that accepts multi-row input and is expected to return results Note that it is possible to write query conn INSERT RETURNING in cases where you are only inserting single row and do not need functionality analogous to executeMany Throws FormatError if the query could not be formatted correctly",
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "returning",
           "normalized": "Connection-\u003eQuery-\u003e[a]-\u003eIO[b]",
@@ -10827,6 +11673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:33 UTC 2014",
           "module": "Database.PostgreSQL.Simple",
           "name": "transactionMode",
           "package": "postgresql-simple",
@@ -10836,6 +11683,7 @@
         },
         "index": {
           "hierarchy": "Database PostgreSQL Simple",
+          "indexed": "2014-03-11T19:42:33",
           "module": "Database.PostgreSQL.Simple",
           "name": "transactionMode",
           "package": "postgresql-simple",

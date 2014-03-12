@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Strafunski-Sdf2Haskell"
+        "phrase": "Strafunski-Sdf2Haskell",
+        "type": "phrase"
       },
       "type": "context"
     }

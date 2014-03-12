@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-picklers"
+        "phrase": "xml-picklers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides XML picklers that plug into the xml tree of the\n \u003cem\u003exml-types\u003c/em\u003e package.\n This module was \"inspired\" by hexpat-pickle.\n\u003c/p\u003e\u003cp\u003eThe API differences between \u003cem\u003ehexpat-pickle\u003c/em\u003e and this module include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e When unpickling, picklers will \u003cem\u003econsume\u003c/em\u003e matching elmements so that they will be ignored by sucessive picklers.\n  To circumvent this behaviour, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003expPeek\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e wrappers like \u003ccode\u003e\u003ca\u003expWrap\u003c/a\u003e\u003c/code\u003e are uncurried\n\u003c/li\u003e\u003cli\u003e There are no lazy unpicklers\n\u003c/li\u003e\u003cli\u003e Most unpicklers will produce an error when their child unpicklers fail to consume all elements.\n Use \u003ccode\u003e\u003ca\u003expClean\u003c/a\u003e\u003c/code\u003e to discard those elements\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe data type \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePU\u003c/a\u003e\u003c/code\u003e t a\u003c/code\u003e represents both a pickler (converting Haskell data\n to XML) and an unpickler (XML to Haskell data), so your code only needs to be\n written once for both serialization and deserialization.  The \u003ccode\u003e\u003ca\u003ePU\u003c/a\u003e\u003c/code\u003e primitives, such\n as \u003ccode\u003e\u003ca\u003expElem\u003c/a\u003e\u003c/code\u003e for XML elements, may be composed into complex arrangements using\n \u003ccode\u003e\u003ca\u003expPair\u003c/a\u003e\u003c/code\u003e and other combinators.\n\u003c/p\u003e\u003cp\u003eMost picklers will try to find the \u003cem\u003efirst match\u003c/em\u003e rather than failing when\n the first element doesn't match. This is why the target type often ist\n a list. To prevent this behaviour and commit the pickler to the first\n element available, use \u003ccode\u003e\u003ca\u003expIsolate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe top level of the document does not follow this rule, because it is a single\n node type.  \u003ccode\u003e\u003ca\u003expRoot\u003c/a\u003e\u003c/code\u003e is needed to adapt this to type [\u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e] for your\n pickler to use.  You would typically define a pickler for a whole document with\n \u003ccode\u003e\u003ca\u003expElem\u003c/a\u003e\u003c/code\u003e, then pickle it to a single \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ccode\u003e\u003ca\u003epickleTree\u003c/a\u003e\u003c/code\u003e (xpRoot myDocPickler) value\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNB\u003c/em\u003e: Unresolved entities are considered an error and will trigger an exception\n\u003c/p\u003e\u003cp\u003eWhen unpickling, the folowing invariant regarding the list of remaining elements should be observed:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The returned list should be a subset of or the initial list itself, that is, no elements should be added\n or changed\n\u003c/li\u003e\u003cli\u003e The relative order of elements should be preserved\n\u003c/li\u003e\u003cli\u003e Elements may, however, be removed from anywhere in the list\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eHere is a simple example to get you started:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n import Data.Text\n import Data.XML.Types\n import Data.XML.Pickle\n\n -- Person name, age and description\n data Person = Person Text Int Text\n\n xpPerson :: PU [Node] Person\n xpPerson =\n     -- How to wrap and unwrap a Person\n     xpWrap (\\((name, age), descr) -\u003e Person name age descr)\n            (\\(Person name age descr) -\u003e ((name, age), descr)) $\n     xpElem \"person\"\n         (xpPair\n             (xpAttr \"name\" xpId)\n             (xpAttr \"age\" xpPrim))\n         (xpContent xpId)\n\n people = [\n     Person \"Dave\" 27 \"A fat thin man with long short hair\",\n     Person \"Jane\" 21 \"Lives in a white house with green windows\"]\n\n main = do\n     print $ pickle (xpRoot $ xpElemNodes \"people\" $ xpAll xpPerson) people\n\u003c/pre\u003e\u003cp\u003eProgram output would be an xml-value equivalent to:\n\u003c/p\u003e\u003cpre\u003e \u003cpeople\u003e\u003cperson name=\"Dave\" age=\"27\"\u003eA fat thin man with long short hair\u003c/person\u003e\n \u003cperson name=\"Jane\" age=\"21\"\u003eLives in a white house with green windows\u003c/person\u003e\u003c/people\u003e\n\u003c/pre\u003e\u003cp\u003eFunctions marked with \u003cem\u003ecompat\u003c/em\u003e are included for compatibility with hexpat-pickle\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "Pickle",
           "package": "xml-picklers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides XML picklers that plug into the xml tree of the xml-types package This module was inspired by hexpat-pickle The API differences between hexpat-pickle and this module include When unpickling picklers will consume matching elmements so that they will be ignored by sucessive picklers To circumvent this behaviour use xpPeek wrappers like xpWrap are uncurried There are no lazy unpicklers Most unpicklers will produce an error when their child unpicklers fail to consume all elements Use xpClean to discard those elements The data type PU represents both pickler converting Haskell data to XML and an unpickler XML to Haskell data so your code only needs to be written once for both serialization and deserialization The PU primitives such as xpElem for XML elements may be composed into complex arrangements using xpPair and other combinators Most picklers will try to find the first match rather than failing when the first element doesn match This is why the target type often ist list To prevent this behaviour and commit the pickler to the first element available use xpIsolate The top level of the document does not follow this rule because it is single node type xpRoot is needed to adapt this to type Node for your pickler to use You would typically define pickler for whole document with xpElem then pickle it to single Node with pickleTree xpRoot myDocPickler value NB Unresolved entities are considered an error and will trigger an exception When unpickling the folowing invariant regarding the list of remaining elements should be observed The returned list should be subset of or the initial list itself that is no elements should be added or changed The relative order of elements should be preserved Elements may however be removed from anywhere in the list Here is simple example to get you started LANGUAGE OverloadedStrings import Data.Text import Data.XML.Types import Data.XML.Pickle Person name age and description data Person Person Text Int Text xpPerson PU Node Person xpPerson How to wrap and unwrap Person xpWrap name age descr Person name age descr Person name age descr name age descr xpElem person xpPair xpAttr name xpId xpAttr age xpPrim xpContent xpId people Person Dave fat thin man with long short hair Person Jane Lives in white house with green windows main do print pickle xpRoot xpElemNodes people xpAll xpPerson people Program output would be an xml-value equivalent to people person name Dave age fat thin man with long short hair person person name Jane age Lives in white house with green windows person people Functions marked with compat are included for compatibility with hexpat-pickle",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "Pickle",
           "package": "xml-picklers",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "Attribute",
           "package": "xml-picklers",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "Attribute",
           "package": "xml-picklers",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "PU",
           "package": "xml-picklers",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "PU",
           "package": "xml-picklers",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "UnpickleError",
           "package": "xml-picklers",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "UnpickleError",
           "package": "xml-picklers",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "UnpickleResult",
           "package": "xml-picklers",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "UnpickleResult",
           "package": "xml-picklers",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "UnresolvedEntityException",
           "package": "xml-picklers",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "UnresolvedEntityException",
           "package": "xml-picklers",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003exp2Tuple\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "(\u003c#\u003e)",
           "package": "xml-picklers",
@@ -157,6 +170,7 @@
         "index": {
           "description": "xp2Tuple",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "(\u003c#\u003e) \u003c#\u003e",
           "normalized": "PU[a]b-\u003ePU[a]b-\u003ePU[a](b,b)",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "(\u003c++\u003e)",
           "package": "xml-picklers",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "(Text,Text)-\u003eUnpickleError-\u003eUnpickleError",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a back trace level to the error report\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "(\u003c?+\u003e)",
           "package": "xml-picklers",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Add back trace level to the error report",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "(\u003c?+\u003e) \u003c?+\u003e",
           "normalized": "(Text,Text)-\u003ePU a b-\u003ePU a b",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverride the last backtrace level in the error report\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "(\u003c?\u003e)",
           "package": "xml-picklers",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Override the last backtrace level in the error report",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "(Text,Text)-\u003ePU a b-\u003ePU a b",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "(\u003c??\u003e)",
           "package": "xml-picklers",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "(\u003c??\u003e) \u003c??\u003e",
           "normalized": "Text-\u003ePU a b-\u003ePU a b",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "ErrorMessage",
           "package": "xml-picklers",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "ErrorMessage",
           "package": "xml-picklers",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot found, description of element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "NoResult",
           "package": "xml-picklers",
@@ -300,6 +325,7 @@
         "index": {
           "description": "Not found description of element",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "NoResult",
           "package": "xml-picklers",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "PU",
           "package": "xml-picklers",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "PU",
           "package": "xml-picklers",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult and remainder. The\n remainder is wrapped in Maybe to\n avoid a Monoid constraint on t.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eInvariant\u003c/em\u003e: When t is a\n Monoid, the empty remainder should\n always be \u003ccode\u003eNothing\u003c/code\u003e instead of\n \u003ccode\u003eJust mempty\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "Result",
           "package": "xml-picklers",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Result and remainder The remainder is wrapped in Maybe to avoid Monoid constraint on Invariant When is Monoid the empty remainder should always be Nothing instead of Just mempty",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "Result",
           "package": "xml-picklers",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "TraceStep",
           "package": "xml-picklers",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "TraceStep",
           "normalized": "TraceStep(Text,Text)UnpickleError",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "UnpickleError",
           "package": "xml-picklers",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "UnpickleError",
           "package": "xml-picklers",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "UnresolvedEntityException",
           "package": "xml-picklers",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "UnresolvedEntityException",
           "package": "xml-picklers",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "Variants",
           "package": "xml-picklers",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "Variants",
           "normalized": "Variants[UnpickleError]",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "flattenContent",
           "package": "xml-picklers",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "flattenContent",
           "normalized": "[Node]-\u003e[Node]",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to extract the remainig elements, fail if there are none\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "getRest",
           "package": "xml-picklers",
@@ -486,6 +527,7 @@
         "index": {
           "description": "Try to extract the remainig elements fail if there are none",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "getRest",
           "normalized": "UnpickleResult[a]b-\u003eUnpickleResult[a](b,[a])",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epickle a Tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "pickle",
           "package": "xml-picklers",
@@ -512,6 +555,7 @@
         "index": {
           "description": "pickle Tree",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "pickle",
           "normalized": "PU a b-\u003eb-\u003ea",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "pickleTree",
           "package": "xml-picklers",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "pickleTree",
           "normalized": "a-\u003eb",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "ppUnpickleError",
           "package": "xml-picklers",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "ppUnpickleError",
           "normalized": "UnpickleError-\u003eString",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "tErr",
           "package": "xml-picklers",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "tErr",
           "normalized": "Text-\u003eUnpickleResult a b-\u003eUnpickleResult a b",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpickle a tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "unpickle",
           "package": "xml-picklers",
@@ -609,6 +660,7 @@
         "index": {
           "description": "unpickle tree",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "unpickle",
           "normalized": "PU a b-\u003ea-\u003eEither UnpickleError b",
@@ -623,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "unpickleTree",
           "package": "xml-picklers",
@@ -632,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "unpickleTree",
           "normalized": "a-\u003eUnpickleResult a b",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines 2 picklers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xp2Tuple",
           "package": "xml-picklers",
@@ -658,6 +713,7 @@
         "index": {
           "description": "Combines picklers",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xp2Tuple",
           "normalized": "PU[a]b-\u003ePU[a]b-\u003ePU[a](b,b)",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines 3 picklers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xp3Tuple",
           "package": "xml-picklers",
@@ -684,6 +741,7 @@
         "index": {
           "description": "Combines picklers",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xp3Tuple",
           "normalized": "PU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a](a,a,a)",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines 4 picklers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xp4Tuple",
           "package": "xml-picklers",
@@ -710,6 +769,7 @@
         "index": {
           "description": "Combines picklers",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xp4Tuple",
           "normalized": "PU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a](a,a,a,a)",
@@ -726,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines 5 picklers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xp5Tuple",
           "package": "xml-picklers",
@@ -736,6 +797,7 @@
         "index": {
           "description": "Combines picklers",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xp5Tuple",
           "normalized": "PU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a](a,a,a,a,a)",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou guessed it ... Combines 6 picklers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xp6Tuple",
           "package": "xml-picklers",
@@ -762,6 +825,7 @@
         "index": {
           "description": "You guessed it Combines picklers",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xp6Tuple",
           "normalized": "PU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a](a,a,a,a,a,a)",
@@ -778,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an attribute with a fixed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAddFixedAttr",
           "package": "xml-picklers",
@@ -788,6 +853,7 @@
         "index": {
           "description": "Add an attribute with fixed value",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAddFixedAttr",
           "normalized": "Name-\u003eText-\u003ePU[Attribute]a-\u003ePU[Attribute]a",
@@ -804,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to apply the pickler to all the remaining elements;\n fails if any of them don't match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAll",
           "package": "xml-picklers",
@@ -814,6 +881,7 @@
         "index": {
           "description": "Tries to apply the pickler to all the remaining elements fails if any of them don match",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAll",
           "normalized": "PU[a]b-\u003ePU[a][b]",
@@ -830,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply unpickler to all elements with the given namespace.\n\u003c/p\u003e\u003cp\u003ePickles like \u003ccode\u003e\u003ca\u003expAll\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAllByNamespace",
           "package": "xml-picklers",
@@ -840,6 +909,7 @@
         "index": {
           "description": "Apply unpickler to all elements with the given namespace Pickles like xpAll",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAllByNamespace",
           "normalized": "Text-\u003ePU[Node]a-\u003ePU[Node][a]",
@@ -856,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute one of a list of picklers. The \u003cem\u003eselector function\u003c/em\u003e is used during\n pickling, and the integer returned is taken as a 0-based index to select a\n pickler from \u003cem\u003epickler options\u003c/em\u003e.  Unpickling is done by trying each list\n element in order until one returns a Result.  (the \u003cem\u003eselector\u003c/em\u003e is not used).\n\u003c/p\u003e\u003cp\u003eThis is typically used to handle each constructor of a data type. However, it\n can be used wherever multiple serialization strategies apply to a single type.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNB\u003c/em\u003e This function will ignore all errors as long as one of the branches\n returns a result. Also, it will produce an error when all branches return\n NoResult.  Use \u003ccode\u003e\u003ca\u003expChoice\u003c/a\u003e\u003c/code\u003e for a saner version of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAlt",
           "package": "xml-picklers",
@@ -865,6 +936,7 @@
         "index": {
           "description": "Execute one of list of picklers The selector function is used during pickling and the integer returned is taken as based index to select pickler from pickler options Unpickling is done by trying each list element in order until one returns Result the selector is not used This is typically used to handle each constructor of data type However it can be used wherever multiple serialization strategies apply to single type NB This function will ignore all errors as long as one of the branches returns result Also it will produce an error when all branches return NoResult Use xpChoice for saner version of this function",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAlt",
           "normalized": "(a-\u003eInt)-\u003e[PU b a]-\u003ePU b a",
@@ -881,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest predicate when unpickling. Fails with given error message when the\n predicate return false.\n\u003c/p\u003e\u003cp\u003eN.B.: The predicate will only be tested while \u003cem\u003eunpickling\u003c/em\u003e. When pickling,\n this is a noop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAssert",
           "package": "xml-picklers",
@@ -891,6 +964,7 @@
         "index": {
           "description": "Test predicate when unpickling Fails with given error message when the predicate return false N.B The predicate will only be tested while unpickling When pickling this is noop",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAssert",
           "normalized": "Text-\u003e(a-\u003eBool)-\u003ePU b a-\u003ePU b a",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(\u003cem\u003ecompat\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAttr",
           "package": "xml-picklers",
@@ -917,6 +992,7 @@
         "index": {
           "description": "compat",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAttr",
           "normalized": "Name-\u003ePU Text a-\u003ePU[Attribute]a",
@@ -932,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAttrFixed",
           "package": "xml-picklers",
@@ -941,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAttrFixed",
           "normalized": "Name-\u003eText-\u003ePU[Attribute]()",
@@ -956,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAttrImplied",
           "package": "xml-picklers",
@@ -965,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAttrImplied",
           "normalized": "Name-\u003ePU Text a-\u003ePU[Attribute](Maybe a)",
@@ -981,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epickle to/from attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAttribute",
           "package": "xml-picklers",
@@ -991,6 +1072,7 @@
         "index": {
           "description": "pickle to from attribute",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAttribute",
           "normalized": "Name-\u003ePU Text a-\u003ePU[Attribute]a",
@@ -1007,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePickle attribute if Just is given, on unpickling return Just \u003ca\u003eval\u003c/a\u003e when\n the attribute is found, Nothing otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAttribute'",
           "package": "xml-picklers",
@@ -1017,6 +1100,7 @@
         "index": {
           "description": "Pickle attribute if Just is given on unpickling return Just val when the attribute is found Nothing otherwise",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAttribute'",
           "normalized": "Name-\u003ePU Text a-\u003ePU[Attribute](Maybe a)",
@@ -1033,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePickle an attribute with the specified name and value, fail if the same attribute is\n not present on unpickle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpAttribute_",
           "package": "xml-picklers",
@@ -1043,6 +1128,7 @@
         "index": {
           "description": "Pickle an attribute with the specified name and value fail if the same attribute is not present on unpickle",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpAttribute_",
           "normalized": "Name-\u003eText-\u003ePU[Attribute]()",
@@ -1059,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts Booleans to XML boolean values\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e true and 1 are read as True\n\u003c/li\u003e\u003cli\u003e false and 0 are read as False\n\u003c/li\u003e\u003cli\u003e all other values generate an unpickle error\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eWill always generate true or false (not 0 or 1) when pickling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpBool",
           "package": "xml-picklers",
@@ -1069,6 +1156,7 @@
         "index": {
           "description": "Converts Booleans to XML boolean values true and are read as True false and are read as False all other values generate an unpickle error Will always generate true or false not or when pickling",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpBool",
           "package": "xml-picklers",
@@ -1083,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute one of a list of picklers. The \u003cem\u003eselector function\u003c/em\u003e is used during\n pickling, and the integer returned is taken as a 0-based index to select a\n pickler from \u003cem\u003epickler options\u003c/em\u003e.  Unpickling is done by trying each list\n element in order until one returns a Result or an Error.\n\u003c/p\u003e\u003cp\u003eThis is typically used to handle each constructor of a data type. However, it\n can be used wherever multiple serialization strategies apply to a single type.\n\u003c/p\u003e\u003cp\u003eThis function is similar to \u003ccode\u003e\u003ca\u003expAlt\u003c/a\u003e\u003c/code\u003e but it will stop unpickling on the first\n error. It will return NoResult iff all of the picklers return NoResult (or\n the list of picklers is empty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpChoice",
           "package": "xml-picklers",
@@ -1092,6 +1181,7 @@
         "index": {
           "description": "Execute one of list of picklers The selector function is used during pickling and the integer returned is taken as based index to select pickler from pickler options Unpickling is done by trying each list element in order until one returns Result or an Error This is typically used to handle each constructor of data type However it can be used wherever multiple serialization strategies apply to single type This function is similar to xpAlt but it will stop unpickling on the first error It will return NoResult iff all of the picklers return NoResult or the list of picklers is empty",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpChoice",
           "normalized": "(a-\u003eInt)-\u003e[PU b a]-\u003ePU b a",
@@ -1108,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun unpickler and consume and discard remaining elements\n\u003c/p\u003e\u003cp\u003eWhen pickling, this is a noop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpClean",
           "package": "xml-picklers",
@@ -1118,6 +1209,7 @@
         "index": {
           "description": "Run unpickler and consume and discard remaining elements When pickling this is noop",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpClean",
           "normalized": "PU a b-\u003ePU a b",
@@ -1134,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore input/output and replace with constant values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpConst",
           "package": "xml-picklers",
@@ -1144,6 +1237,7 @@
         "index": {
           "description": "Ignore input output and replace with constant values",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpConst",
           "normalized": "a-\u003ePU b()-\u003ePU b a",
@@ -1160,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the first non-element NodeContent from a node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpContent",
           "package": "xml-picklers",
@@ -1170,6 +1265,7 @@
         "index": {
           "description": "Get the first non-element NodeContent from node",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpContent",
           "normalized": "PU Text a-\u003ePU[Node]a",
@@ -1186,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional conversion with default value\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003expWithDefault\u003c/a\u003e\u003c/code\u003e the default value is not encoded in the XML document,\n during unpickling the default value is inserted if the pickler doesn't\n returna a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpDefault",
           "package": "xml-picklers",
@@ -1196,6 +1293,7 @@
         "index": {
           "description": "Optional conversion with default value Unlike xpWithDefault the default value is not encoded in the XML document during unpickling the default value is inserted if the pickler doesn returna value",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpDefault",
           "normalized": "a-\u003ePU[b]a-\u003ePU[b]a",
@@ -1212,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry the left pickler first and if that doesn't produce anything the right\n one.  wrapping the result in Left or Right, respectively\n\u003c/p\u003e\u003cp\u003eNot to be confued with \u003ccode\u003e\u003ca\u003expWrapEither\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpEither",
           "package": "xml-picklers",
@@ -1222,6 +1321,7 @@
         "index": {
           "description": "Try the left pickler first and if that doesn produce anything the right one wrapping the result in Left or Right respectively Not to be confued with xpWrapEither",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpEither",
           "normalized": "PU a b-\u003ePU a b-\u003ePU a(Either b b)",
@@ -1238,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen unpickling, tries to find the first element with the supplied name.\n Once such an element is found, it will commit to it and \u003cem\u003efail\u003c/em\u003e if any of the\n picklers don't match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElem",
           "package": "xml-picklers",
@@ -1247,6 +1348,7 @@
         "index": {
           "description": "When unpickling tries to find the first element with the supplied name Once such an element is found it will commit to it and fail if any of the picklers don match",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElem",
           "normalized": "Name-\u003ePU[Attribute]a-\u003ePU[Node]b-\u003ePU[Node](a,b)",
@@ -1263,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper variant of xpElem for elements that contain attributes but no child tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElemAttrs",
           "package": "xml-picklers",
@@ -1273,6 +1376,7 @@
         "index": {
           "description": "helper variant of xpElem for elements that contain attributes but no child tags",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElemAttrs",
           "normalized": "Name-\u003ePU[Attribute]a-\u003ePU[Node]a",
@@ -1289,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for Elements that don't contain anything\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElemBlank",
           "package": "xml-picklers",
@@ -1299,6 +1404,7 @@
         "index": {
           "description": "Helper for Elements that don contain anything",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElemBlank",
           "normalized": "Name-\u003ePU[Node]()",
@@ -1315,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efind element by name space, prefixes are ignored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElemByNamespace",
           "package": "xml-picklers",
@@ -1324,6 +1431,7 @@
         "index": {
           "description": "find element by name space prefixes are ignored",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElemByNamespace",
           "normalized": "Text-\u003ePU Text a-\u003ePU[Attribute]b-\u003ePU[Node]c-\u003ePU[Node](a,b,c)",
@@ -1340,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen pickling, creates an empty element iff parameter is True\n\u003c/p\u003e\u003cp\u003eWhen unpickling, checks whether element exists. Generates an error when the\n element is not empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElemExists",
           "package": "xml-picklers",
@@ -1350,6 +1459,7 @@
         "index": {
           "description": "When pickling creates an empty element iff parameter is True When unpickling checks whether element exists Generates an error when the element is not empty",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElemExists",
           "normalized": "Name-\u003ePU[Node]Bool",
@@ -1366,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper variant of xpElem for elements that contain child nodes but no attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElemNodes",
           "package": "xml-picklers",
@@ -1376,6 +1487,7 @@
         "index": {
           "description": "helper variant of xpElem for elements that contain child nodes but no attributes",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElemNodes",
           "normalized": "Name-\u003ePU[Node]a-\u003ePU[Node]a",
@@ -1392,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper variant of xpElem for elements that contain only character data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElemText",
           "package": "xml-picklers",
@@ -1402,6 +1515,7 @@
         "index": {
           "description": "helper variant of xpElem for elements that contain only character data",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElemText",
           "normalized": "Name-\u003ePU[Node]Text",
@@ -1418,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePickler Returns the first found Element untouched\n\u003c/p\u003e\u003cp\u003eUnpickler wraps element in \u003ccode\u003e\u003ca\u003eNodeElement\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElemVerbatim",
           "package": "xml-picklers",
@@ -1428,6 +1543,7 @@
         "index": {
           "description": "Pickler Returns the first found Element untouched Unpickler wraps element in NodeElement",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElemVerbatim",
           "normalized": "PU[Node]Element",
@@ -1444,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epickle Element without restriction on the name.\n the name as taken / returned as the first element of the triple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElemWithName",
           "package": "xml-picklers",
@@ -1453,6 +1570,7 @@
         "index": {
           "description": "pickle Element without restriction on the name the name as taken returned as the first element of the triple",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElemWithName",
           "normalized": "PU[Attribute]a-\u003ePU[Node]b-\u003ePU[Node](Name,a,b)",
@@ -1469,6 +1587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle all elements with a given name. The unpickler will fail when any of\n the elements fails to unpickle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpElems",
           "package": "xml-picklers",
@@ -1478,6 +1597,7 @@
         "index": {
           "description": "Handle all elements with given name The unpickler will fail when any of the elements fails to unpickle",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpElems",
           "normalized": "Name-\u003ePU[Attribute]a-\u003ePU[Node]b-\u003ePU[Node][(a,b)]",
@@ -1494,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a single element from the list and apply unpickler to it.\n\u003c/p\u003e\u003cp\u003eReturns no value when no element matches the predicate\n\u003c/p\u003e\u003cp\u003eFails when the unpickler doesn't return a value\n\u003c/p\u003e\u003cp\u003eWhen pickling, this is a noop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpFindFirst",
           "package": "xml-picklers",
@@ -1504,6 +1625,7 @@
         "index": {
           "description": "Select single element from the list and apply unpickler to it Returns no value when no element matches the predicate Fails when the unpickler doesn return value When pickling this is noop",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpFindFirst",
           "normalized": "(a-\u003eBool)-\u003ePU[a]b-\u003ePU[a]b",
@@ -1520,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen unpickling, tries to apply the pickler to all elements\n returning and consuming only matched elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpFindMatches",
           "package": "xml-picklers",
@@ -1530,6 +1653,7 @@
         "index": {
           "description": "When unpickling tries to apply the pickler to all elements returning and consuming only matched elements",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpFindMatches",
           "normalized": "PU[a]b-\u003ePU[a][b]",
@@ -1545,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpFst",
           "package": "xml-picklers",
@@ -1554,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpFst",
           "normalized": "PU a(b,c)-\u003ePU a b",
@@ -1570,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn one element, untouched\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpHead",
           "package": "xml-picklers",
@@ -1580,6 +1707,7 @@
         "index": {
           "description": "return one element untouched",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpHead",
           "normalized": "PU[a]a",
@@ -1596,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns everything (remaining), untouched.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpId",
           "package": "xml-picklers",
@@ -1606,6 +1735,7 @@
         "index": {
           "description": "Returns everything remaining untouched",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpId",
           "package": "xml-picklers",
@@ -1620,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphic pickler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpIso",
           "package": "xml-picklers",
@@ -1630,6 +1761,7 @@
         "index": {
           "description": "Isomorphic pickler",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpIso",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003ePU a b",
@@ -1646,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNoop when pickling\n\u003c/p\u003e\u003cp\u003eWhen unpickling, only give access to the first element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpIsolate",
           "package": "xml-picklers",
@@ -1656,6 +1789,7 @@
         "index": {
           "description": "Noop when pickling When unpickling only give access to the first element",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpIsolate",
           "normalized": "PU[a]b-\u003ePU[a]b",
@@ -1672,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003expSeqWhile\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ecompat\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpList",
           "package": "xml-picklers",
@@ -1682,6 +1817,7 @@
         "index": {
           "description": "xpSeqWhile compat",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpList",
           "normalized": "PU[a]b-\u003ePU[a][b]",
@@ -1698,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003expAll\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ecompat\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpList0",
           "package": "xml-picklers",
@@ -1708,6 +1845,7 @@
         "index": {
           "description": "xpAll compat",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpList0",
           "normalized": "PU[a]b-\u003ePU[a][b]",
@@ -1724,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike xpList, but only succeed during unpickling if at least a\n minimum number of elements are unpickled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpListMinLen",
           "package": "xml-picklers",
@@ -1734,6 +1873,7 @@
         "index": {
           "description": "Like xpList but only succeed during unpickling if at least minimum number of elements are unpickled",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpListMinLen",
           "normalized": "Int-\u003ePU[a]b-\u003ePU[a][b]",
@@ -1750,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard pickler for maps\n\u003c/p\u003e\u003cp\u003eThis pickler converts a map into a list of pairs of the form\n\u003c/p\u003e\u003cpre\u003e \u003celt attr=\"key\"\u003evalue\u003c/elt\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpMap",
           "package": "xml-picklers",
@@ -1759,6 +1900,7 @@
         "index": {
           "description": "Standard pickler for maps This pickler converts map into list of pairs of the form elt attr key value elt",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpMap",
           "normalized": "Name-\u003eName-\u003ePU Text a-\u003ePU[Node]b-\u003ePU[Node](Map a b)",
@@ -1775,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstead of failing the pickler will return no result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpMayFail",
           "package": "xml-picklers",
@@ -1785,6 +1928,7 @@
         "index": {
           "description": "Instead of failing the pickler will return no result",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpMayFail",
           "normalized": "PU a b-\u003ePU a b",
@@ -1801,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a pickler. Nothing is returned when the given pickler\n doesn't return a value (e.g. the element isn't found). Does not affect\n unpickling errors.\n Nothing is pickled to mempty\n\u003c/p\u003e\u003cp\u003eA typical example is:\n\u003c/p\u003e\u003cpre\u003e xpElemAttributes \"score\" $ xpOption $ xpAttribute \"value\" xpPrim\n\u003c/pre\u003e\u003cp\u003ein which \u003ccode\u003eJust 5\u003c/code\u003e is encoded as \u003ccode\u003e\u003cscore value=\"5\"/\u003e\u003c/code\u003e and \u003ccode\u003eNothing\u003c/code\u003e\n as \u003ccode\u003e\u003cscore/\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpOption",
           "package": "xml-picklers",
@@ -1811,6 +1956,7 @@
         "index": {
           "description": "Lift pickler Nothing is returned when the given pickler doesn return value e.g the element isn found Does not affect unpickling errors Nothing is pickled to mempty typical example is xpElemAttributes score xpOption xpAttribute value xpPrim in which Just is encoded as score value and Nothing as score",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpOption",
           "normalized": "PU[a]b-\u003ePU[a](Maybe b)",
@@ -1827,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003exp2Tuple\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ecompat\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpPair",
           "package": "xml-picklers",
@@ -1837,6 +1984,7 @@
         "index": {
           "description": "xp2Tuple compat",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpPair",
           "normalized": "PU[a]b-\u003ePU[a]b-\u003ePU[a](b,b)",
@@ -1852,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpPartial",
           "package": "xml-picklers",
@@ -1861,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpPartial",
           "normalized": "(a-\u003eEither Text b)-\u003e(b-\u003ea)-\u003ePU a b",
@@ -1877,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen unpickling, don't consume the matched element(s), noop when pickling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpPeek",
           "package": "xml-picklers",
@@ -1887,6 +2038,7 @@
         "index": {
           "description": "When unpickling don consume the matched element noop when pickling",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpPeek",
           "normalized": "PU a b-\u003ePU a b",
@@ -1903,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert text to/from any type that implements \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n Fails on unpickle if \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpPrim",
           "package": "xml-picklers",
@@ -1913,6 +2066,7 @@
         "index": {
           "description": "Convert text to from any type that implements Read and Show Fails on unpickle if read fails",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpPrim",
           "package": "xml-picklers",
@@ -1927,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a pickler on Lists to a pickler on single elements.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eN.B.\u003c/em\u003e Will error when the given pickler doesn't produce exactly one element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpRoot",
           "package": "xml-picklers",
@@ -1937,6 +2092,7 @@
         "index": {
           "description": "Transforms pickler on Lists to pickler on single elements N.B Will error when the given pickler doesn produce exactly one element",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpRoot",
           "normalized": "PU[a]b-\u003ePU a b",
@@ -1953,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen unpickling, sucessively applies pickler to single elements until it\n doesn't return anything; returns all matched elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpSeqWhile",
           "package": "xml-picklers",
@@ -1963,6 +2120,7 @@
         "index": {
           "description": "When unpickling sucessively applies pickler to single elements until it doesn return anything returns all matched elements",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpSeqWhile",
           "normalized": "PU[a]b-\u003ePU[a][b]",
@@ -1978,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpSnd",
           "package": "xml-picklers",
@@ -1987,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpSnd",
           "normalized": "PU a(b,c)-\u003ePU a c",
@@ -2003,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert text to/from String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpString",
           "package": "xml-picklers",
@@ -2013,6 +2174,7 @@
         "index": {
           "description": "Convert text to from String",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpString",
           "package": "xml-picklers",
@@ -2027,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor unpickling, apply the given pickler to a subset of the elements\n determined by a given predicate\n\u003c/p\u003e\u003cp\u003ePickles like \u003ccode\u003e\u003ca\u003expAll\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpSubsetAll",
           "package": "xml-picklers",
@@ -2036,6 +2199,7 @@
         "index": {
           "description": "For unpickling apply the given pickler to subset of the elements determined by given predicate Pickles like xpAll",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpSubsetAll",
           "normalized": "(a-\u003eBool)-\u003ePU[a]b-\u003ePU[a][b]",
@@ -2052,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003expText0\u003c/a\u003e\u003c/code\u003e, but fails on non-empty input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpText",
           "package": "xml-picklers",
@@ -2062,6 +2227,7 @@
         "index": {
           "description": "Like xpText0 but fails on non-empty input",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpText",
           "package": "xml-picklers",
@@ -2076,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especialised version of \u003ccode\u003e\u003ca\u003expId\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ecompat\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpText0",
           "package": "xml-picklers",
@@ -2086,6 +2253,7 @@
         "index": {
           "description": "specialised version of xpId compat",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpText0",
           "package": "xml-picklers",
@@ -2100,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo output when pickling, always generates an error with the specified message on unpickling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpThrow",
           "package": "xml-picklers",
@@ -2109,6 +2278,7 @@
         "index": {
           "description": "No output when pickling always generates an error with the specified message on unpickling",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpThrow",
           "normalized": "String-\u003ePU a b",
@@ -2125,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003expHead\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ecompat\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpTree",
           "package": "xml-picklers",
@@ -2135,6 +2306,7 @@
         "index": {
           "description": "xpHead compat",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpTree",
           "normalized": "PU[a]a",
@@ -2151,6 +2323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003expId\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ecompat\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpTrees",
           "package": "xml-picklers",
@@ -2161,6 +2334,7 @@
         "index": {
           "description": "xpId compat",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpTrees",
           "package": "xml-picklers",
@@ -2175,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003exp3Tuple\u003c/a\u003e\u003c/code\u003e (\u003cem\u003ecompat\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpTriple",
           "package": "xml-picklers",
@@ -2185,6 +2360,7 @@
         "index": {
           "description": "xp3Tuple compat",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpTriple",
           "normalized": "PU[a]a-\u003ePU[a]a-\u003ePU[a]a-\u003ePU[a](a,a,a)",
@@ -2201,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePickler that during pickling always uses the first pickler, and during\n unpickling tries the first, and on failure then tries the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpTryCatch",
           "package": "xml-picklers",
@@ -2211,6 +2388,7 @@
         "index": {
           "description": "Pickler that during pickling always uses the first pickler and during unpickling tries the first and on failure then tries the second",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpTryCatch",
           "normalized": "PU a b-\u003ePU a b-\u003ePU a b",
@@ -2227,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoesn't create or consume anything, always succeeds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpUnit",
           "package": "xml-picklers",
@@ -2237,6 +2416,7 @@
         "index": {
           "description": "Doesn create or consume anything always succeeds",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpUnit",
           "normalized": "PU[a]()",
@@ -2253,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlift a pickler on Nodes to a Pickler on Elements. Nodes generated during\n pickling that are not Elements will be silently discarded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpUnliftElems",
           "package": "xml-picklers",
@@ -2263,6 +2444,7 @@
         "index": {
           "description": "Unlift pickler on Nodes to Pickler on Elements Nodes generated during pickling that are not Elements will be silently discarded",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpUnliftElems",
           "normalized": "PU[Node]a-\u003ePU[Element]a",
@@ -2279,6 +2461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to use a pickler. Return a default value when the pickler doesn't\n return anything (Doesn't touch on UnpickleError)\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003expDefault\u003c/a\u003e\u003c/code\u003e, the default value \u003cem\u003eis\u003c/em\u003e encoded in the XML document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpWithDefault",
           "package": "xml-picklers",
@@ -2289,6 +2472,7 @@
         "index": {
           "description": "Attempt to use pickler Return default value when the pickler doesn return anything Doesn touch on UnpickleError Unlike xpDefault the default value is encoded in the XML document",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpWithDefault",
           "normalized": "a-\u003ePU b a-\u003ePU b a",
@@ -2305,6 +2489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a bijection before pickling / after unpickling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpWrap",
           "package": "xml-picklers",
@@ -2315,6 +2500,7 @@
         "index": {
           "description": "Apply bijection before pickling after unpickling",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpWrap",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003ePU c a-\u003ePU c b",
@@ -2331,6 +2517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike xpWrap, except it strips Right (and treats Left as a failure) during unpickling.\n xpWrapEither :: (a -\u003e Either String b, b -\u003e a) -\u003e PU t a -\u003e PU t b\n\u003c/p\u003e\u003cp\u003enot to be confuesd with \u003ccode\u003e\u003ca\u003expEither\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpWrapEither",
           "package": "xml-picklers",
@@ -2341,6 +2528,7 @@
         "index": {
           "description": "Like xpWrap except it strips Right and treats Left as failure during unpickling xpWrapEither Either String PU PU not to be confuesd with xpEither",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpWrapEither",
           "normalized": "(a-\u003eEither b c)-\u003e(c-\u003ea)-\u003ePU d a-\u003ePU d c",
@@ -2357,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike xpWrap, but strips Just (and treats Nothing as a failure) during unpickling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpWrapMaybe",
           "package": "xml-picklers",
@@ -2367,6 +2556,7 @@
         "index": {
           "description": "Like xpWrap but strips Just and treats Nothing as failure during unpickling",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpWrapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003e(b-\u003ea)-\u003ePU c a-\u003ePU c b",
@@ -2383,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike xpWrap, but strips Just (and treats Nothing as a failure) during unpickling,\n with specified error message for Nothing value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpWrapMaybe_",
           "package": "xml-picklers",
@@ -2393,6 +2584,7 @@
         "index": {
           "description": "Like xpWrap but strips Just and treats Nothing as failure during unpickling with specified error message for Nothing value",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpWrapMaybe_",
           "normalized": "String-\u003e(a-\u003eMaybe b)-\u003e(b-\u003ea)-\u003ePU c a-\u003ePU c b",
@@ -2409,6 +2601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe zero pickler\n\u003c/p\u003e\u003cp\u003eEncodes nothing, always fails during unpickling. (Same as \u003ccode\u003e\u003ccode\u003e\u003ca\u003expThrow\u003c/a\u003e\u003c/code\u003e \"got xpZero\"\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:31 UTC 2014",
           "module": "Data.XML.Pickle",
           "name": "xpZero",
           "package": "xml-picklers",
@@ -2419,6 +2612,7 @@
         "index": {
           "description": "The zero pickler Encodes nothing always fails during unpickling Same as xpThrow got xpZero",
           "hierarchy": "Data XML Pickle",
+          "indexed": "2014-03-11T20:42:31",
           "module": "Data.XML.Pickle",
           "name": "xpZero",
           "normalized": "PU[a]b",

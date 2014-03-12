@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pdfinfo"
+        "phrase": "pdfinfo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "Info",
           "package": "pdfinfo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "Info",
           "package": "pdfinfo",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncryption and restricted permissions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "PDFEncryptionInfo",
           "package": "pdfinfo",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Encryption and restricted permissions",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "PDFEncryptionInfo",
           "package": "pdfinfo",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type representing the output from the pdfinfo command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "PDFInfo",
           "package": "pdfinfo",
@@ -72,6 +77,7 @@
         "index": {
           "description": "type representing the output from the pdfinfo command",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "PDFInfo",
           "package": "pdfinfo",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible things that can go wrong while reading the info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "PDFInfoError",
           "package": "pdfinfo",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Possible things that can go wrong while reading the info",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "PDFInfoError",
           "package": "pdfinfo",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the PDF in pts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "PDFSize",
           "package": "pdfinfo",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Size of the PDF in pts",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "PDFSize",
           "package": "pdfinfo",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "ParsePDFInfo",
           "package": "pdfinfo",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "ParsePDFInfo",
           "package": "pdfinfo",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo message given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "NoMessage",
           "package": "pdfinfo",
@@ -163,6 +176,7 @@
         "index": {
           "description": "No message given",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "NoMessage",
           "package": "pdfinfo",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypted with possible permission restrictions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "PDFEncryption",
           "package": "pdfinfo",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Encrypted with possible permission restrictions",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "PDFEncryption",
           "package": "pdfinfo",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "PDFInfo",
           "package": "pdfinfo",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "PDFInfo",
           "package": "pdfinfo",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot encrypted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "PDFNoEncryption",
           "package": "pdfinfo",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Not encrypted",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "PDFNoEncryption",
           "package": "pdfinfo",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "PDFSize",
           "package": "pdfinfo",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "PDFSize",
           "package": "pdfinfo",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCouldn't parse a property value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "ParseError",
           "package": "pdfinfo",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Couldn parse property value",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "ParseError",
           "package": "pdfinfo",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError to do with the pdfinfo process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "ProcessError",
           "package": "pdfinfo",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Error to do with the pdfinfo process",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "ProcessError",
           "package": "pdfinfo",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess exited with this stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "ProcessFailure",
           "package": "pdfinfo",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Process exited with this stderr",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "ProcessFailure",
           "package": "pdfinfo",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome nonspecific error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "SomeError",
           "package": "pdfinfo",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Some nonspecific error",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "SomeError",
           "package": "pdfinfo",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse PDFInfo's output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "parse",
           "package": "pdfinfo",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Parse PDFInfo output",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "parse",
           "normalized": "Text-\u003eEither PDFInfoError PDFInfo",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a date according to pdfinfo's format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "parseDate",
           "package": "pdfinfo",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Parse date according to pdfinfo format",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "parseDate",
           "normalized": "Text-\u003eParsePDFInfo UTCTime",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse encryption information according to pdfinfo's format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "parseEncrypted",
           "package": "pdfinfo",
@@ -426,6 +461,7 @@
         "index": {
           "description": "Parse encryption information according to pdfinfo format",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "parseEncrypted",
           "normalized": "Text-\u003eParsePDFInfo PDFEncryptionInfo",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a page size. This is loosely defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "parseSize",
           "package": "pdfinfo",
@@ -452,6 +489,7 @@
         "index": {
           "description": "Parse page size This is loosely defined",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "parseSize",
           "normalized": "Text-\u003eParsePDFInfo PDFSize",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan notes be added?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfCanAddNotes",
           "package": "pdfinfo",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Can notes be added",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfCanAddNotes",
           "package": "pdfinfo",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan the file be changed?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfCanChange",
           "package": "pdfinfo",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Can the file be changed",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfCanChange",
           "package": "pdfinfo",
@@ -516,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan the file be copied?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfCanCopy",
           "package": "pdfinfo",
@@ -526,6 +569,7 @@
         "index": {
           "description": "Can the file be copied",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfCanCopy",
           "package": "pdfinfo",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan the file be printed?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfCanPrint",
           "package": "pdfinfo",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Can the file be printed",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfCanPrint",
           "package": "pdfinfo",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncryption algorithm: e.g. unknown, RC4, AES, AES-256\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfEncryptionAlgorithm",
           "package": "pdfinfo",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Encryption algorithm e.g unknown RC4 AES AES-256",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfEncryptionAlgorithm",
           "package": "pdfinfo",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun pdfinfo on the given file. Handles IO exceptions to do with\n running the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfo",
           "package": "pdfinfo",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Run pdfinfo on the given file Handles IO exceptions to do with running the process",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfo",
           "normalized": "FilePath-\u003ea(Either PDFInfoError PDFInfo)",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthor: E.g. Chris Done\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoAuthor",
           "package": "pdfinfo",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Author E.g Chris Done",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoAuthor",
           "package": "pdfinfo",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreation Date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoCreationDate",
           "package": "pdfinfo",
@@ -648,6 +701,7 @@
         "index": {
           "description": "Creation Date",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoCreationDate",
           "package": "pdfinfo",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreator: E.g. Microsoft Office Word 2007\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoCreator",
           "package": "pdfinfo",
@@ -672,6 +727,7 @@
         "index": {
           "description": "Creator E.g Microsoft Office Word",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoCreator",
           "package": "pdfinfo",
@@ -686,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncryption information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoEncrypted",
           "package": "pdfinfo",
@@ -696,6 +753,7 @@
         "index": {
           "description": "Encryption information",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoEncrypted",
           "package": "pdfinfo",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile: E.g. 4061737 bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoFileSize",
           "package": "pdfinfo",
@@ -720,6 +779,7 @@
         "index": {
           "description": "File E.g bytes",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoFileSize",
           "package": "pdfinfo",
@@ -734,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModification Date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoModDate",
           "package": "pdfinfo",
@@ -744,6 +805,7 @@
         "index": {
           "description": "Modification Date",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoModDate",
           "package": "pdfinfo",
@@ -758,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimized?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoOptimized",
           "package": "pdfinfo",
@@ -768,6 +831,7 @@
         "index": {
           "description": "Optimized",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoOptimized",
           "package": "pdfinfo",
@@ -782,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePDF: E.g. 1.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoPDFVersion",
           "package": "pdfinfo",
@@ -792,6 +857,7 @@
         "index": {
           "description": "PDF E.g",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoPDFVersion",
           "package": "pdfinfo",
@@ -806,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage: E.g. 595.32 x 841.92 pts (A4)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoPageSize",
           "package": "pdfinfo",
@@ -816,6 +883,7 @@
         "index": {
           "description": "Page E.g pts A4",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoPageSize",
           "package": "pdfinfo",
@@ -830,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePages: E.g. 238\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoPages",
           "package": "pdfinfo",
@@ -840,6 +909,7 @@
         "index": {
           "description": "Pages E.g",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoPages",
           "package": "pdfinfo",
@@ -854,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProducer: E.g. Microsoft Office Word 2007\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoProducer",
           "package": "pdfinfo",
@@ -864,6 +935,7 @@
         "index": {
           "description": "Producer E.g Microsoft Office Word",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoProducer",
           "package": "pdfinfo",
@@ -878,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubject\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoSubject",
           "package": "pdfinfo",
@@ -888,6 +961,7 @@
         "index": {
           "description": "Subject",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoSubject",
           "package": "pdfinfo",
@@ -902,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTagged?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoTagged",
           "package": "pdfinfo",
@@ -912,6 +987,7 @@
         "index": {
           "description": "Tagged",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoTagged",
           "package": "pdfinfo",
@@ -926,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfInfoTitle",
           "package": "pdfinfo",
@@ -936,6 +1013,7 @@
         "index": {
           "description": "Title",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfInfoTitle",
           "package": "pdfinfo",
@@ -949,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfSizeH",
           "package": "pdfinfo",
@@ -958,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfSizeH",
           "package": "pdfinfo",
@@ -971,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "pdfSizeW",
           "package": "pdfinfo",
@@ -980,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "pdfSizeW",
           "package": "pdfinfo",
@@ -994,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value, maybe, allow misc trailing data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "readRight",
           "package": "pdfinfo",
@@ -1004,6 +1087,7 @@
         "index": {
           "description": "Read value maybe allow misc trailing data",
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "readRight",
           "normalized": "Text-\u003ea b",
@@ -1019,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:41 UTC 2014",
           "module": "Text.PDF.Info",
           "name": "runParse",
           "package": "pdfinfo",
@@ -1028,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Text PDF Info",
+          "indexed": "2014-03-11T19:36:41",
           "module": "Text.PDF.Info",
           "name": "runParse",
           "normalized": "ParsePDFInfo a-\u003eEither PDFInfoError a",

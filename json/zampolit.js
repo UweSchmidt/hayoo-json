@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zampolit"
+        "phrase": "zampolit",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nehe-tuts"
+        "phrase": "nehe-tuts",
+        "type": "phrase"
       },
       "type": "context"
     }

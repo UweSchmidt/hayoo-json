@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ac-machine"
+        "phrase": "ac-machine",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "AhoCorasick",
           "package": "ac-machine",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "AhoCorasick",
           "package": "ac-machine",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "ACMachine",
           "package": "ac-machine",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "ACMachine",
           "package": "ac-machine",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "Match",
           "package": "ac-machine",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "Match",
           "package": "ac-machine",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "State",
           "package": "ac-machine",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "State",
           "package": "ac-machine",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "Match",
           "package": "ac-machine",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "Match",
           "package": "ac-machine",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "State",
           "package": "ac-machine",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "State",
           "package": "ac-machine",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "construct",
           "package": "ac-machine",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "construct",
           "normalized": "[[a]]-\u003eACMachine a[a]",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "constructWithValues",
           "package": "ac-machine",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "constructWithValues",
           "normalized": "[([a],b)]-\u003eACMachine a b",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "matchPos",
           "package": "ac-machine",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "matchPos",
           "package": "ac-machine",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "matchValue",
           "package": "ac-machine",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "matchValue",
           "package": "ac-machine",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "renderGraph",
           "package": "ac-machine",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "renderGraph",
           "normalized": "ACMachine Char[Char]-\u003eString",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "root",
           "package": "ac-machine",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "root",
           "package": "ac-machine",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "run",
           "package": "ac-machine",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "run",
           "normalized": "ACMachine a b-\u003e[a]-\u003e[Match b]",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:32 UTC 2014",
           "module": "Data.AhoCorasick",
           "name": "step",
           "package": "ac-machine",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data AhoCorasick",
+          "indexed": "2014-03-11T17:06:32",
           "module": "Data.AhoCorasick",
           "name": "step",
           "normalized": "ACMachine a b-\u003ea-\u003eState-\u003e(State,[(Int,b)])",

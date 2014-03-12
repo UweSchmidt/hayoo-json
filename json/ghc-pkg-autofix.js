@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-pkg-autofix"
+        "phrase": "ghc-pkg-autofix",
+        "type": "phrase"
       },
       "type": "context"
     }

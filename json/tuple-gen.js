@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tuple-gen"
+        "phrase": "tuple-gen",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "Enum",
           "package": "tuple-gen",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "Enum",
           "package": "tuple-gen",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e defines operations on sequentially ordered types.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eenumFrom\u003c/code\u003e... methods are used in Haskell's translation of\n arithmetic sequences.\n\u003c/p\u003e\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e may be derived for any enumeration type (types\n whose constructors have no fields).  The nullary constructors are\n assumed to be numbered left-to-right by \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e0\u003c/code\u003e through \u003ccode\u003en-1\u003c/code\u003e.\n See Chapter 10 of the \u003cem\u003eHaskell Report\u003c/em\u003e for more details.\n\u003c/p\u003e\u003cp\u003eFor any type that is an instance of class \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e as well as \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e,\n the following should hold:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The calls \u003ccode\u003e\u003ccode\u003e\u003ca\u003esucc\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003epred\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e should result in\n   a runtime error.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e should give a runtime error if the \n   result value is not representable in the result type.\n   For example, \u003ccode\u003e\u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e 7 :: \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is an error.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eenumFrom\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eenumFromThen\u003c/a\u003e\u003c/code\u003e should be defined with an implicit bound,\n   thus:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e    enumFrom     x   = enumFromTo     x maxBound\n    enumFromThen x y = enumFromThenTo x y bound\n      where\n        bound | fromEnum y \u003e= fromEnum x = maxBound\n              | otherwise                = minBound\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "Enum",
           "package": "tuple-gen",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Class Enum defines operations on sequentially ordered types The enumFrom methods are used in Haskell translation of arithmetic sequences Instances of Enum may be derived for any enumeration type types whose constructors have no fields The nullary constructors are assumed to be numbered left-to-right by fromEnum from through n-1 See Chapter of the Haskell Report for more details For any type that is an instance of class Bounded as well as Enum the following should hold The calls succ maxBound and pred minBound should result in runtime error fromEnum and toEnum should give runtime error if the result value is not representable in the result type For example toEnum Bool is an error enumFrom and enumFromThen should be defined with an implicit bound thus enumFrom enumFromTo maxBound enumFromThen enumFromThenTo bound where bound fromEnum fromEnum maxBound otherwise minBound",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "Enum",
           "package": "tuple-gen",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 10-tuples (of enumerable values) so that the sum of the 10 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all10s",
           "package": "tuple-gen",
@@ -72,6 +77,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all10s",
           "normalized": "[(a,b,c,d,e,f,g,h,i,j)]",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 11-tuples (of enumerable values) so that the sum of the 11 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all11s",
           "package": "tuple-gen",
@@ -97,6 +104,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all11s",
           "normalized": "[(a,b,c,d,e,f,g,h,i,j,k)]",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 12-tuples (of enumerable values) so that the sum of the 12 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all12s",
           "package": "tuple-gen",
@@ -122,6 +131,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all12s",
           "normalized": "[(a,b,c,d,e,f,g,h,i,j,k,l)]",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 13-tuples (of enumerable values) so that the sum of the 13 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all13s",
           "package": "tuple-gen",
@@ -147,6 +158,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all13s",
           "normalized": "[(a,b,c,d,e,f,g,h,i,j,k,l,m)]",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 14-tuples (of enumerable values) so that the sum of the 14 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all14s",
           "package": "tuple-gen",
@@ -172,6 +185,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all14s",
           "normalized": "[(a,b,c,d,e,f,g,h,i,j,k,l,m,n)]",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 15-tuples (of enumerable values) so that the sum of the 15 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all15s",
           "package": "tuple-gen",
@@ -197,6 +212,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all15s",
           "normalized": "[(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o)]",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 2-tuples (of enumerable values) so that the sum of the 2 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all2s",
           "package": "tuple-gen",
@@ -222,6 +239,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all2s",
           "normalized": "[(a,b)]",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 3-tuples (of enumerable values) so that the sum of the 3 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all3s",
           "package": "tuple-gen",
@@ -247,6 +266,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all3s",
           "normalized": "[(a,b,c)]",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 4-tuples (of enumerable values) so that the sum of the 4 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all4s",
           "package": "tuple-gen",
@@ -272,6 +293,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all4s",
           "normalized": "[(a,b,c,d)]",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 5-tuples (of enumerable values) so that the sum of the 5 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all5s",
           "package": "tuple-gen",
@@ -297,6 +320,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all5s",
           "normalized": "[(a,b,c,d,e)]",
@@ -312,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 6-tuples (of enumerable values) so that the sum of the 6 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all6s",
           "package": "tuple-gen",
@@ -322,6 +347,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all6s",
           "normalized": "[(a,b,c,d,e,f)]",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 7-tuples (of enumerable values) so that the sum of the 7 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all7s",
           "package": "tuple-gen",
@@ -347,6 +374,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all7s",
           "normalized": "[(a,b,c,d,e,f,g)]",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 8-tuples (of enumerable values) so that the sum of the 8 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all8s",
           "package": "tuple-gen",
@@ -372,6 +401,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all8s",
           "normalized": "[(a,b,c,d,e,f,g,h)]",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate all 9-tuples (of enumerable values) so that the sum of the 9 fromEnum-values is monotonic increasing\n   fromEnum :: a -\u003e Int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "all9s",
           "package": "tuple-gen",
@@ -397,6 +428,7 @@
         "index": {
           "description": "generate all tuples of enumerable values so that the sum of the fromEnum-values is monotonic increasing fromEnum Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "all9s",
           "normalized": "[(a,b,c,d,e,f,g,h,i)]",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in Haskell's translation of \u003ccode\u003e[n..]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "enumFrom",
           "package": "tuple-gen",
@@ -421,6 +454,7 @@
         "index": {
           "description": "Used in Haskell translation of",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "enumFrom",
           "normalized": "a-\u003e[a]",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in Haskell's translation of \u003ccode\u003e[n,n'..]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "enumFromThen",
           "package": "tuple-gen",
@@ -446,6 +481,7 @@
         "index": {
           "description": "Used in Haskell translation of",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "enumFromThen",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in Haskell's translation of \u003ccode\u003e[n,n'..m]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "enumFromThenTo",
           "package": "tuple-gen",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Used in Haskell translation of",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "enumFromThenTo",
           "normalized": "a-\u003ea-\u003ea-\u003e[a]",
@@ -487,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in Haskell's translation of \u003ccode\u003e[n..m]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "enumFromTo",
           "package": "tuple-gen",
@@ -496,6 +535,7 @@
         "index": {
           "description": "Used in Haskell translation of n..m",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "enumFromTo",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -511,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "fe",
           "package": "tuple-gen",
@@ -520,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "fe",
           "normalized": "[Int]-\u003eInt",
@@ -534,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from10Tuple",
           "package": "tuple-gen",
@@ -543,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from10Tuple",
           "normalized": "(a,a,a,a,a,a,a,a,a,a)-\u003e(((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a)",
@@ -558,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from11Tuple",
           "package": "tuple-gen",
@@ -567,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from11Tuple",
           "normalized": "(a,a,a,a,a,a,a,a,a,a,a)-\u003e((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)",
@@ -582,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from12Tuple",
           "package": "tuple-gen",
@@ -591,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from12Tuple",
           "normalized": "(a,a,a,a,a,a,a,a,a,a,a,a)-\u003e(((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)",
@@ -606,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from13Tuple",
           "package": "tuple-gen",
@@ -615,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from13Tuple",
           "normalized": "(a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003e((((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)",
@@ -630,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from14Tuple",
           "package": "tuple-gen",
@@ -639,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from14Tuple",
           "normalized": "(a,a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003e(((((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)",
@@ -654,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from15Tuple",
           "package": "tuple-gen",
@@ -663,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from15Tuple",
           "normalized": "(a,a,a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003e((((((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)",
@@ -678,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from2Tuple",
           "package": "tuple-gen",
@@ -687,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from2Tuple",
           "normalized": "(a,a)-\u003e(J a,J a)",
@@ -702,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from3Tuple",
           "package": "tuple-gen",
@@ -711,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from3Tuple",
           "normalized": "(a,a,a)-\u003e((J a,J a),J a)",
@@ -726,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from4Tuple",
           "package": "tuple-gen",
@@ -735,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from4Tuple",
           "normalized": "(a,a,a,a)-\u003e(((J a,J a),J a),J a)",
@@ -750,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from5Tuple",
           "package": "tuple-gen",
@@ -759,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from5Tuple",
           "normalized": "(a,a,a,a,a)-\u003e((((J a,J a),J a),J a),J a)",
@@ -774,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from6Tuple",
           "package": "tuple-gen",
@@ -783,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from6Tuple",
           "normalized": "(a,a,a,a,a,a)-\u003e(((((J a,J a),J a),J a),J a),J a)",
@@ -798,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from7Tuple",
           "package": "tuple-gen",
@@ -807,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from7Tuple",
           "normalized": "(a,a,a,a,a,a,a)-\u003e((((((J a,J a),J a),J a),J a),J a),J a)",
@@ -822,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from8Tuple",
           "package": "tuple-gen",
@@ -831,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from8Tuple",
           "normalized": "(a,a,a,a,a,a,a,a)-\u003e(((((((J a,J a),J a),J a),J a),J a),J a),J a)",
@@ -846,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "from9Tuple",
           "package": "tuple-gen",
@@ -855,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "from9Tuple",
           "normalized": "(a,a,a,a,a,a,a,a,a)-\u003e((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a)",
@@ -871,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n It is implementation-dependent what \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e returns when\n applied to a value that is too large to fit in an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "fromEnum",
           "package": "tuple-gen",
@@ -880,6 +951,7 @@
         "index": {
           "description": "Convert to an Int It is implementation-dependent what fromEnum returns when applied to value that is too large to fit in an Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "fromEnum",
           "normalized": "a-\u003eInt",
@@ -895,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "hyperplaneSize",
           "package": "tuple-gen",
@@ -904,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "hyperplaneSize",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -920,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe predecessor of a value.  For numeric types, \u003ccode\u003e\u003ca\u003epred\u003c/a\u003e\u003c/code\u003e subtracts 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "pred",
           "package": "tuple-gen",
@@ -929,6 +1004,7 @@
         "index": {
           "description": "the predecessor of value For numeric types pred subtracts",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "pred",
           "normalized": "a-\u003ea",
@@ -944,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe successor of a value.  For numeric types, \u003ccode\u003e\u003ca\u003esucc\u003c/a\u003e\u003c/code\u003e adds 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "succ",
           "package": "tuple-gen",
@@ -953,6 +1030,7 @@
         "index": {
           "description": "the successor of value For numeric types succ adds",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "succ",
           "normalized": "a-\u003ea",
@@ -967,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "te",
           "package": "tuple-gen",
@@ -976,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "te",
           "normalized": "Int-\u003eInt-\u003e[Int]",
@@ -990,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to10Tuple",
           "package": "tuple-gen",
@@ -999,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to10Tuple",
           "normalized": "(((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a,a,a,a)",
@@ -1014,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to11Tuple",
           "package": "tuple-gen",
@@ -1023,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to11Tuple",
           "normalized": "((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a,a,a,a,a)",
@@ -1038,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to12Tuple",
           "package": "tuple-gen",
@@ -1047,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to12Tuple",
           "normalized": "(((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a)",
@@ -1062,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to13Tuple",
           "package": "tuple-gen",
@@ -1071,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to13Tuple",
           "normalized": "((((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a)",
@@ -1086,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to14Tuple",
           "package": "tuple-gen",
@@ -1095,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to14Tuple",
           "normalized": "(((((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a,a)",
@@ -1110,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to15Tuple",
           "package": "tuple-gen",
@@ -1119,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to15Tuple",
           "normalized": "((((((((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a,a,a)",
@@ -1134,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to2Tuple",
           "package": "tuple-gen",
@@ -1143,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to2Tuple",
           "normalized": "(J a,J a)-\u003e(a,a)",
@@ -1158,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to3Tuple",
           "package": "tuple-gen",
@@ -1167,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to3Tuple",
           "normalized": "((J a,J a),J a)-\u003e(a,a,a)",
@@ -1182,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to4Tuple",
           "package": "tuple-gen",
@@ -1191,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to4Tuple",
           "normalized": "(((J a,J a),J a),J a)-\u003e(a,a,a,a)",
@@ -1206,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to5Tuple",
           "package": "tuple-gen",
@@ -1215,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to5Tuple",
           "normalized": "((((J a,J a),J a),J a),J a)-\u003e(a,a,a,a,a)",
@@ -1230,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to6Tuple",
           "package": "tuple-gen",
@@ -1239,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to6Tuple",
           "normalized": "(((((J a,J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a)",
@@ -1254,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to7Tuple",
           "package": "tuple-gen",
@@ -1263,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to7Tuple",
           "normalized": "((((((J a,J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a)",
@@ -1278,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to8Tuple",
           "package": "tuple-gen",
@@ -1287,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to8Tuple",
           "normalized": "(((((((J a,J a),J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a,a)",
@@ -1302,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "to9Tuple",
           "package": "tuple-gen",
@@ -1311,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "to9Tuple",
           "normalized": "((((((((J a,J a),J a),J a),J a),J a),J a),J a),J a)-\u003e(a,a,a,a,a,a,a,a,a)",
@@ -1327,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:01 UTC 2014",
           "module": "Data.Tuple.Enum",
           "name": "toEnum",
           "package": "tuple-gen",
@@ -1336,6 +1445,7 @@
         "index": {
           "description": "Convert from an Int",
           "hierarchy": "Data Tuple Enum",
+          "indexed": "2014-03-11T20:26:01",
           "module": "Data.Tuple.Enum",
           "name": "toEnum",
           "normalized": "Int-\u003ea",

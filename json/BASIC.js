@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BASIC"
+        "phrase": "BASIC",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simplified embedded version of original BASIC.\n Some things work, some things just give utterly mysterious type errors.\n\u003c/p\u003e\u003cp\u003eBeware, this is just a fun weekend hack.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "BASIC",
           "package": "BASIC",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simplified embedded version of original BASIC Some things work some things just give utterly mysterious type errors Beware this is just fun weekend hack",
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "BASIC",
           "package": "BASIC",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "BASIC",
           "package": "BASIC",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "BASIC",
           "package": "BASIC",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Command",
           "package": "BASIC",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Command",
           "package": "BASIC",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "END",
           "package": "BASIC",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "END",
           "package": "BASIC",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Expr",
           "package": "BASIC",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Expr",
           "package": "BASIC",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "FOR",
           "package": "BASIC",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "FOR",
           "package": "BASIC",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "GOTO",
           "package": "BASIC",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "GOTO",
           "package": "BASIC",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "IF",
           "package": "BASIC",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "IF",
           "package": "BASIC",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "INPUT",
           "package": "BASIC",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "INPUT",
           "package": "BASIC",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "LET",
           "package": "BASIC",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "LET",
           "package": "BASIC",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "NEXT",
           "package": "BASIC",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "NEXT",
           "package": "BASIC",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "PRINT",
           "package": "BASIC",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "PRINT",
           "package": "BASIC",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "STEP",
           "package": "BASIC",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "STEP",
           "package": "BASIC",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "THEN",
           "package": "BASIC",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "THEN",
           "package": "BASIC",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "TO",
           "package": "BASIC",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "TO",
           "package": "BASIC",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "(\u003c)",
           "package": "BASIC",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "(\u003c) \u003c",
           "normalized": "Expr a-\u003eExpr a-\u003eExpr a",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "(\u003c=)",
           "package": "BASIC",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "(\u003c=) \u003c=",
           "normalized": "Expr a-\u003eExpr a-\u003eExpr a",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "(\u003c\u003e)",
           "package": "BASIC",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Expr a-\u003eExpr a-\u003eExpr a",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "(==)",
           "package": "BASIC",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "(==) ==",
           "normalized": "Expr a-\u003eExpr a-\u003eExpr a",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "(\u003e)",
           "package": "BASIC",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "(\u003e) \u003e",
           "normalized": "Expr a-\u003eExpr a-\u003eExpr a",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "(\u003e=)",
           "package": "BASIC",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "(\u003e=) \u003e=",
           "normalized": "Expr a-\u003eExpr a-\u003eExpr a",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "(^)",
           "package": "BASIC",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "(^) ^",
           "normalized": "Expr a-\u003eExpr a-\u003eExpr a",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": ":=",
           "package": "BASIC",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": ":=",
           "package": "BASIC",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "A",
           "package": "BASIC",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "A",
           "package": "BASIC",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "ABS",
           "package": "BASIC",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "ABS",
           "package": "BASIC",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "ATN",
           "package": "BASIC",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "ATN",
           "package": "BASIC",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "B",
           "package": "BASIC",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "B",
           "package": "BASIC",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Binop",
           "package": "BASIC",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Binop",
           "package": "BASIC",
@@ -625,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "C",
           "package": "BASIC",
@@ -634,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "C",
           "package": "BASIC",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "COS",
           "package": "BASIC",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "COS",
           "package": "BASIC",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Cmd",
           "package": "BASIC",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Cmd",
           "normalized": "Cmd Integer Command[Expr a]",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "D",
           "package": "BASIC",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "D",
           "package": "BASIC",
@@ -713,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Dbl",
           "package": "BASIC",
@@ -722,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Dbl",
           "package": "BASIC",
@@ -735,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "E",
           "package": "BASIC",
@@ -744,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "E",
           "package": "BASIC",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "END",
           "package": "BASIC",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "END",
           "package": "BASIC",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "EXP",
           "package": "BASIC",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "EXP",
           "package": "BASIC",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "End",
           "package": "BASIC",
@@ -809,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "End",
           "package": "BASIC",
@@ -822,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "F",
           "package": "BASIC",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "F",
           "package": "BASIC",
@@ -843,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "FOR",
           "package": "BASIC",
@@ -852,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "FOR",
           "package": "BASIC",
@@ -865,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "For",
           "package": "BASIC",
@@ -874,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "For",
           "package": "BASIC",
@@ -887,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "G",
           "package": "BASIC",
@@ -896,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "G",
           "package": "BASIC",
@@ -908,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "GOSUB",
           "package": "BASIC",
@@ -917,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "GOSUB",
           "package": "BASIC",
@@ -930,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "GOTO",
           "package": "BASIC",
@@ -939,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "GOTO",
           "package": "BASIC",
@@ -952,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Gosub",
           "package": "BASIC",
@@ -961,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Gosub",
           "package": "BASIC",
@@ -974,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Goto",
           "package": "BASIC",
@@ -983,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Goto",
           "package": "BASIC",
@@ -996,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "H",
           "package": "BASIC",
@@ -1005,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "H",
           "package": "BASIC",
@@ -1017,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "I",
           "package": "BASIC",
@@ -1026,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "I",
           "package": "BASIC",
@@ -1038,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "IF",
           "package": "BASIC",
@@ -1047,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "IF",
           "package": "BASIC",
@@ -1060,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "INPUT",
           "package": "BASIC",
@@ -1069,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "INPUT",
           "package": "BASIC",
@@ -1082,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "INT",
           "package": "BASIC",
@@ -1091,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "INT",
           "package": "BASIC",
@@ -1104,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "If",
           "package": "BASIC",
@@ -1113,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "If",
           "package": "BASIC",
@@ -1126,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Input",
           "package": "BASIC",
@@ -1135,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Input",
           "package": "BASIC",
@@ -1148,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "J",
           "package": "BASIC",
@@ -1157,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "J",
           "package": "BASIC",
@@ -1169,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "K",
           "package": "BASIC",
@@ -1178,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "K",
           "package": "BASIC",
@@ -1190,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "L",
           "package": "BASIC",
@@ -1199,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "L",
           "package": "BASIC",
@@ -1211,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "LET",
           "package": "BASIC",
@@ -1220,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "LET",
           "package": "BASIC",
@@ -1233,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "LOG",
           "package": "BASIC",
@@ -1242,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "LOG",
           "package": "BASIC",
@@ -1255,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Label",
           "package": "BASIC",
@@ -1264,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Label",
           "package": "BASIC",
@@ -1277,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Let",
           "package": "BASIC",
@@ -1286,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Let",
           "package": "BASIC",
@@ -1299,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "M",
           "package": "BASIC",
@@ -1308,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "M",
           "package": "BASIC",
@@ -1320,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "N",
           "package": "BASIC",
@@ -1329,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "N",
           "package": "BASIC",
@@ -1341,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "NEXT",
           "package": "BASIC",
@@ -1350,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "NEXT",
           "package": "BASIC",
@@ -1363,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Next",
           "package": "BASIC",
@@ -1372,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Next",
           "package": "BASIC",
@@ -1385,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "None",
           "package": "BASIC",
@@ -1394,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "None",
           "package": "BASIC",
@@ -1407,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "O",
           "package": "BASIC",
@@ -1416,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "O",
           "package": "BASIC",
@@ -1428,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "P",
           "package": "BASIC",
@@ -1437,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "P",
           "package": "BASIC",
@@ -1449,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "PRINT",
           "package": "BASIC",
@@ -1458,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "PRINT",
           "package": "BASIC",
@@ -1471,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Print",
           "package": "BASIC",
@@ -1480,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Print",
           "package": "BASIC",
@@ -1493,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Q",
           "package": "BASIC",
@@ -1502,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Q",
           "package": "BASIC",
@@ -1514,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "R",
           "package": "BASIC",
@@ -1523,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "R",
           "package": "BASIC",
@@ -1535,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "REM",
           "package": "BASIC",
@@ -1544,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "REM",
           "package": "BASIC",
@@ -1557,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "RETURN",
           "package": "BASIC",
@@ -1566,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "RETURN",
           "package": "BASIC",
@@ -1579,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "RND",
           "package": "BASIC",
@@ -1588,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "RND",
           "package": "BASIC",
@@ -1601,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Rem",
           "package": "BASIC",
@@ -1610,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Rem",
           "package": "BASIC",
@@ -1623,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Return",
           "package": "BASIC",
@@ -1632,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Return",
           "package": "BASIC",
@@ -1645,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "S",
           "package": "BASIC",
@@ -1654,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "S",
           "package": "BASIC",
@@ -1666,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "SGN",
           "package": "BASIC",
@@ -1675,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "SGN",
           "package": "BASIC",
@@ -1688,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "SIN",
           "package": "BASIC",
@@ -1697,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "SIN",
           "package": "BASIC",
@@ -1710,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "SQR",
           "package": "BASIC",
@@ -1719,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "SQR",
           "package": "BASIC",
@@ -1732,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "STEP",
           "package": "BASIC",
@@ -1741,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "STEP",
           "package": "BASIC",
@@ -1754,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "STOP",
           "package": "BASIC",
@@ -1763,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "STOP",
           "package": "BASIC",
@@ -1776,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Str",
           "package": "BASIC",
@@ -1785,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Str",
           "package": "BASIC",
@@ -1798,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "T",
           "package": "BASIC",
@@ -1807,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "T",
           "package": "BASIC",
@@ -1819,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "TAN",
           "package": "BASIC",
@@ -1828,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "TAN",
           "package": "BASIC",
@@ -1841,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "THEN",
           "package": "BASIC",
@@ -1850,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "THEN",
           "package": "BASIC",
@@ -1863,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "TO",
           "package": "BASIC",
@@ -1872,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "TO",
           "package": "BASIC",
@@ -1885,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "U",
           "package": "BASIC",
@@ -1894,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "U",
           "package": "BASIC",
@@ -1906,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "V",
           "package": "BASIC",
@@ -1915,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "V",
           "package": "BASIC",
@@ -1927,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Var",
           "package": "BASIC",
@@ -1936,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Var",
           "package": "BASIC",
@@ -1949,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "W",
           "package": "BASIC",
@@ -1958,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "W",
           "package": "BASIC",
@@ -1970,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "X",
           "package": "BASIC",
@@ -1979,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "X",
           "package": "BASIC",
@@ -1991,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Y",
           "package": "BASIC",
@@ -2000,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Y",
           "package": "BASIC",
@@ -2012,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "Z",
           "package": "BASIC",
@@ -2021,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "Z",
           "package": "BASIC",
@@ -2033,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "cmdLabel",
           "package": "BASIC",
@@ -2042,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "cmdLabel",
           "normalized": "Expr a-\u003eInteger",
@@ -2057,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "getBASIC",
           "package": "BASIC",
@@ -2066,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "getBASIC",
           "normalized": "BASIC-\u003e[Expr()]",
@@ -2082,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a BASIC program with an interpreter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "runBASIC",
           "package": "BASIC",
@@ -2092,6 +2283,7 @@
         "index": {
           "description": "Run BASIC program with an interpreter",
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "runBASIC",
           "normalized": "BASIC-\u003eIO()",
@@ -2108,6 +2300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a BASIC program with a compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:54 UTC 2014",
           "module": "Language.BASIC",
           "name": "runBASIC'",
           "package": "BASIC",
@@ -2118,6 +2311,7 @@
         "index": {
           "description": "Run BASIC program with compiler",
           "hierarchy": "Language BASIC",
+          "indexed": "2014-03-11T16:33:54",
           "module": "Language.BASIC",
           "name": "runBASIC'",
           "normalized": "BASIC-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DirectSound"
+        "phrase": "DirectSound",
+        "type": "phrase"
       },
       "type": "context"
     }

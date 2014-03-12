@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "textmatetags"
+        "phrase": "textmatetags",
+        "type": "phrase"
       },
       "type": "context"
     }

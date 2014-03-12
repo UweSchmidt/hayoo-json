@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diffcabal"
+        "phrase": "diffcabal",
+        "type": "phrase"
       },
       "type": "context"
     }

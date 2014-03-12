@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "htodo"
+        "phrase": "htodo",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "UISF"
+        "phrase": "UISF",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuxiliary functions for use with UISF or other arrows.\r\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "AuxFunctions",
           "package": "UISF",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Auxiliary functions for use with UISF or other arrows",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "AuxFunctions",
           "package": "UISF",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of this class have arrowized access to the time\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "ArrowTime",
           "package": "UISF",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Instances of this class have arrowized access to the time",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "ArrowTime",
           "package": "UISF",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Automaton",
           "package": "UISF",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Automaton",
           "package": "UISF",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBufferControl has a Buffer event, a bool saying whether to Play (true) or \r\n   Pause (false), and a tempo multiplier.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "BufferControl",
           "package": "UISF",
@@ -95,6 +102,7 @@
         "index": {
           "description": "BufferControl has Buffer event bool saying whether to Play true or Pause false and tempo multiplier",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "BufferControl",
           "package": "UISF",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe BufferEvent data type is used in tandem with \u003ccode\u003e\u003ca\u003eBufferControl\u003c/a\u003e\u003c/code\u003e \r\n   to provide the right control information to \u003ccode\u003e\u003ca\u003eeventBuffer\u003c/a\u003e\u003c/code\u003e.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "BufferEvent",
           "package": "UISF",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The BufferEvent data type is used in tandem with BufferControl to provide the right control information to eventBuffer",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "BufferEvent",
           "package": "UISF",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeltaT is a type synonym referring to a change in Time.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "DeltaT",
           "package": "UISF",
@@ -141,6 +152,7 @@
         "index": {
           "description": "DeltaT is type synonym referring to change in Time",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "DeltaT",
           "package": "UISF",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSEvent is short for \"Stream Event\" and is a type synonym for Maybe.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "SEvent",
           "package": "UISF",
@@ -164,6 +177,7 @@
         "index": {
           "description": "SEvent is short for Stream Event and is type synonym for Maybe",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "SEvent",
           "package": "UISF",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTempo is just a Double.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Tempo",
           "package": "UISF",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Tempo is just Double",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Tempo",
           "package": "UISF",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime is simply represented as a Double.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Time",
           "package": "UISF",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Time is simply represented as Double",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Time",
           "package": "UISF",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nice infix operator for merging event lists\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "(~++)",
           "package": "UISF",
@@ -234,6 +253,7 @@
         "index": {
           "description": "nice infix operator for merging event lists",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "(~++) ~++",
           "normalized": "SEvent[a]-\u003eSEvent[a]-\u003eSEvent[a]",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge data into the buffer\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "AddData",
           "package": "UISF",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Merge data into the buffer",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "AddData",
           "normalized": "AddData[(DeltaT,a)]",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd data to the end of the buffer\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "AddDataToEnd",
           "package": "UISF",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Add data to the end of the buffer",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "AddDataToEnd",
           "normalized": "AddDataToEnd[(DeltaT,a)]",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Automaton",
           "package": "UISF",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Automaton",
           "normalized": "Automaton(a-\u003e(b,Automaton a b))",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErase the buffer\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Clear",
           "package": "UISF",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Erase the buffer",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "Clear",
           "package": "UISF",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip ahead a certain amount of time in the buffer\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "SkipAhead",
           "package": "UISF",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Skip ahead certain amount of time in the buffer",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "SkipAhead",
           "package": "UISF",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signal function (accum v) starts with the value v, but then \r\n   applies the function attached to the first event to that value \r\n   to get the next value, and so on.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "accum",
           "package": "UISF",
@@ -383,6 +414,7 @@
         "index": {
           "description": "The signal function accum starts with the value but then applies the function attached to the first event to that value to get the next value and so on",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "accum",
           "normalized": "a-\u003eb(SEvent(a-\u003ea))a",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe async function takes a pure (non-monadic) signal function and converts \r\n   it into an asynchronous signal function usable in a MonadIO signal \r\n   function context.  The output MSF takes events of type a, feeds them to \r\n   the asynchronously running input SF, and returns events with the output \r\n   b whenever they are ready.  The input SF is expected to run slowly \r\n   compared to the output MSF, but it is capable of running just as fast.\r\n\u003c/p\u003e\u003cp\u003eMight we practically want a way to \"clear the buffer\" if we accidentally \r\n   queue up too many async inputs?\r\n   Perhaps the output should be something like:\r\n   data AsyncOutput b = None | Calculating Int | Value b\r\n   where the Int is the size of the buffer.  Similarly, we could have\r\n   data AsyncInput  a = None | ClearBuffer | Value a\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "async",
           "package": "UISF",
@@ -407,6 +440,7 @@
         "index": {
           "description": "The async function takes pure non-monadic signal function and converts it into an asynchronous signal function usable in MonadIO signal function context The output MSF takes events of type feeds them to the asynchronously running input SF and returns events with the output whenever they are ready The input SF is expected to run slowly compared to the output MSF but it is capable of running just as fast Might we practically want way to clear the buffer if we accidentally queue up too many async inputs Perhaps the output should be something like data AsyncOutput None Calculating Int Value where the Int is the size of the buffer Similarly we could have data AsyncInput None ClearBuffer Value",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "async",
           "normalized": "(ThreadId-\u003ea())-\u003eAutomaton b c-\u003eMSF a(SEvent b)(SEvent c)",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines the input list of arrows into one arrow that tajes a \r\n   list of inputs and returns a list of outputs.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "concatA",
           "package": "UISF",
@@ -432,6 +467,7 @@
         "index": {
           "description": "Combines the input list of arrows into one arrow that tajes list of inputs and returns list of outputs",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "concatA",
           "normalized": "[a b c]-\u003ea[b][c]",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstA is an arrowized version of const\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "constA",
           "package": "UISF",
@@ -457,6 +494,7 @@
         "index": {
           "description": "constA is an arrowized version of const",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "constA",
           "normalized": "a-\u003eb c a",
@@ -471,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "delay",
           "package": "UISF",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "delay",
           "normalized": "a b c-\u003ed c c",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eedge generates an event whenever the Boolean input signal changes\r\n   from False to True -- in signal processing this is called an ``edge\r\n   detector,'' and thus the name chosen here.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "edge",
           "package": "UISF",
@@ -504,6 +545,7 @@
         "index": {
           "description": "edge generates an event whenever the Boolean input signal changes from False to True in signal processing this is called an edge detector and thus the name chosen here",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "edge",
           "normalized": "a Bool(SEvent())",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeventBuffer allows for a timed series of events to be prepared and \r\n   emitted.  The streaming input is a BufferControl, described above.  \r\n   Just as MIDI files have events timed based \r\n   on ticks since the last event, the events here are timed based on \r\n   seconds since the last event.  If an event is to occur 0.0 seconds \r\n   after the last event, then it is assumed to be played at the same \r\n   time as the last event, and all simultaneous events are emitted \r\n   at the same timestep. In addition to any events emitted, a \r\n   streaming Bool is emitted that is True if the buffer is empty and \r\n   False if the buffer is full (meaning that events will still come).\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "eventBuffer",
           "package": "UISF",
@@ -529,6 +572,7 @@
         "index": {
           "description": "eventBuffer allows for timed series of events to be prepared and emitted The streaming input is BufferControl described above Just as MIDI files have events timed based on ticks since the last event the events here are timed based on seconds since the last event If an event is to occur seconds after the last event then it is assumed to be played at the same time as the last event and all simultaneous events are emitted at the same timestep In addition to any events emitted streaming Bool is emitted that is True if the buffer is empty and False if the buffer is full meaning that events will still come",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "eventBuffer",
           "normalized": "a(BufferControl b)(SEvent[b],Bool)",
@@ -545,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelay is a unit delay.  It is exactly the delay from ArrowCircuit.\r\n\u003c/p\u003e\u003cp\u003efdelay is a delay function that delays for a fixed amount of time, \r\n   given as the static argument.  It returns a signal function that \r\n   takes the current time and an event stream and delays the event \r\n   stream by the delay amount.\r\n   fdelay guarantees that the order of events in is the same as the \r\n   order of events out and that no event will be skipped.  However, \r\n   if events are too densely packed in the signal (compared to the \r\n   clock rate of the underlying arrow), then some events may be \r\n   over delayed.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "fdelay",
           "package": "UISF",
@@ -555,6 +600,7 @@
         "index": {
           "description": "delay is unit delay It is exactly the delay from ArrowCircuit fdelay is delay function that delays for fixed amount of time given as the static argument It returns signal function that takes the current time and an event stream and delays the event stream by the delay amount fdelay guarantees that the order of events in is the same as the order of events out and that no event will be skipped However if events are too densely packed in the signal compared to the clock rate of the underlying arrow then some events may be over delayed",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "fdelay",
           "normalized": "DeltaT-\u003ea(SEvent b)(SEvent b)",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efdelayC is a continuous version of fdelay.  It takes an initial value \r\n   to emit for the first dt seconds.  After that, the delay will always \r\n   be accurate, but some data may be ommitted entirely.  As such, it is \r\n   not advisable to use fdelayC for event streams where every event must \r\n   be processed (that's what fdelay is for).\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "fdelayC",
           "package": "UISF",
@@ -580,6 +627,7 @@
         "index": {
           "description": "fdelayC is continuous version of fdelay It takes an initial value to emit for the first dt seconds After that the delay will always be accurate but some data may be ommitted entirely As such it is not advisable to use fdelayC for event streams where every event must be processed that what fdelay is for",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "fdelayC",
           "normalized": "a-\u003eDeltaT-\u003eb a a",
@@ -595,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis essentially allows an arrow that processes b to c to take \r\n   [b] and recursively generate cs, combining them all into a \r\n   final output d.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "foldA",
           "package": "UISF",
@@ -605,6 +654,7 @@
         "index": {
           "description": "This essentially allows an arrow that processes to to take and recursively generate cs combining them all into final output",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "foldA",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec d a-\u003ec[d]b",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenEvents is a timer that instead of returning unit events \r\n   returns the next element of the input list.  When the input \r\n   list is empty, the output stream becomes all Nothing.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "genEvents",
           "package": "UISF",
@@ -630,6 +681,7 @@
         "index": {
           "description": "genEvents is timer that instead of returning unit events returns the next element of the input list When the input list is empty the output stream becomes all Nothing",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "genEvents",
           "normalized": "[a]-\u003eb DeltaT(SEvent a)",
@@ -646,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehold is a signal function whose output starts as the value of the \r\n   static argument.  This value is held until the first input event \r\n   happens, at which point it changes to the value attached to that \r\n   event, which it then holds until the next event, and so on.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "hold",
           "package": "UISF",
@@ -656,6 +709,7 @@
         "index": {
           "description": "hold is signal function whose output starts as the value of the static argument This value is held until the first input event happens at which point it changes to the value attached to that event which it then holds until the next event and so on",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "hold",
           "normalized": "a-\u003eb(SEvent a)a",
@@ -671,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emergeE merges two events with the given resolution function.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "mergeE",
           "package": "UISF",
@@ -681,6 +736,7 @@
         "index": {
           "description": "mergeE merges two events with the given resolution function",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "mergeE",
           "normalized": "(a-\u003ea-\u003ea)-\u003eSEvent a-\u003eSEvent a-\u003eSEvent a",
@@ -696,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emsfiToAutomaton lifts a pure MSF (i.e. one in the Identity monad) to \r\n   an Automaton.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "msfiToAutomaton",
           "package": "UISF",
@@ -706,6 +763,7 @@
         "index": {
           "description": "msfiToAutomaton lifts pure MSF i.e one in the Identity monad to an Automaton",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "msfiToAutomaton",
           "normalized": "MSF Identity a b-\u003eAutomaton a b",
@@ -722,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNow is a signal function that produces one event and then forever \r\n   after produces nothing.  It is essentially an impulse function.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "now",
           "package": "UISF",
@@ -732,6 +791,7 @@
         "index": {
           "description": "Now is signal function that produces one event and then forever after produces nothing It is essentially an impulse function",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "now",
           "normalized": "a()(SEvent())",
@@ -746,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "time",
           "package": "UISF",
@@ -755,6 +816,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "time",
           "normalized": "a()Time",
@@ -770,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etimer is a variable duration timer.\r\n   This timer takes the current time as well as the (variable) time between \r\n   events and returns an SEvent steam.  When the second argument is non-positive, \r\n   the output will be a steady stream of events.  As long as the clock speed is \r\n   fast enough compared to the timer frequency, this should give accurate and \r\n   predictable output and stay synchronized with any other timer and with \r\n   time itself.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "timer",
           "package": "UISF",
@@ -780,6 +843,7 @@
         "index": {
           "description": "timer is variable duration timer This timer takes the current time as well as the variable time between events and returns an SEvent steam When the second argument is non-positive the output will be steady stream of events As long as the clock speed is fast enough compared to the timer frequency this should give accurate and predictable output and stay synchronized with any other timer and with time itself",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "timer",
           "normalized": "a DeltaT(SEvent())",
@@ -795,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etoAutomaton lifts a pure function to an Automaton.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "toAutomaton",
           "package": "UISF",
@@ -805,6 +870,7 @@
         "index": {
           "description": "toAutomaton lifts pure function to an Automaton",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "toAutomaton",
           "normalized": "(a-\u003eb)-\u003eAutomaton a b",
@@ -821,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function should be avoided, as it directly converts the automaton \r\n   with no real regard for time.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "toMSF",
           "package": "UISF",
@@ -831,6 +898,7 @@
         "index": {
           "description": "This function should be avoided as it directly converts the automaton with no real regard for time",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "toMSF",
           "normalized": "Automaton a b-\u003eMSF c a b",
@@ -847,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe clockrate is the simulated rate of the input signal function.\r\n   The buffer is the amount of time the given signal function is \r\n   allowed to get ahead of real time.  The threadHandler is where the \r\n   ThreadId of the forked thread is sent.\r\n\u003c/p\u003e\u003cp\u003eThe output signal function takes and returns values in real time.  \r\n   The input must be paired with time, and the return values are the \r\n   list of bs generated in the given time step, each time stamped.  \r\n   Note that the returned list may be long if the clockrate is much \r\n   faster than real time and potentially empty if it's slower.\r\n   Note also that the caller can check the time stamp on the element \r\n   at the end of the list to see if the inner, \"simulated\" signal \r\n   function is performing as fast as it should.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "toRealTimeMSF",
           "package": "UISF",
@@ -856,6 +925,7 @@
         "index": {
           "description": "The clockrate is the simulated rate of the input signal function The buffer is the amount of time the given signal function is allowed to get ahead of real time The threadHandler is where the ThreadId of the forked thread is sent The output signal function takes and returns values in real time The input must be paired with time and the return values are the list of bs generated in the given time step each time stamped Note that the returned list may be long if the clockrate is much faster than real time and potentially empty if it slower Note also that the caller can check the time stamp on the element at the end of the list to see if the inner simulated signal function is performing as fast as it should",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "toRealTimeMSF",
           "normalized": "Double-\u003eDeltaT-\u003e(ThreadId-\u003ea())-\u003eAutomaton b c-\u003eMSF a(b,Double)[(c,Double)]",
@@ -871,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "unique",
           "package": "UISF",
@@ -880,6 +951,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "unique",
           "package": "UISF",
@@ -893,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evdelay is a delay function that delays for a variable amount of time.\r\n   It takes the current time, an amount of time to delay, and an event \r\n   stream and delays the event stream by the delay amount.\r\n   vdelay, like fdelay, guarantees that the order of events in is the \r\n   same as the order of events out and that no event will be skipped.  \r\n   If the events are too dense or the delay argument drops too quickly, \r\n   some events may be over delayed.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "vdelay",
           "package": "UISF",
@@ -903,6 +976,7 @@
         "index": {
           "description": "vdelay is delay function that delays for variable amount of time It takes the current time an amount of time to delay and an event stream and delays the event stream by the delay amount vdelay like fdelay guarantees that the order of events in is the same as the order of events out and that no event will be skipped If the events are too dense or the delay argument drops too quickly some events may be over delayed",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "vdelay",
           "normalized": "a(DeltaT,SEvent b)(SEvent b)",
@@ -918,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evdelayC is a continuous version of vdelay.  It will always emit the \r\n   value that was produced dt seconds earlier (erring on the side of an \r\n   older value if necessary).  Be warned that this version of delay can \r\n   both omit some data entirely and emit the same data multiple times.  \r\n   As such, it is usually inappropriate for events (use vdelay).\r\n   vdelayC takes a \u003ccode\u003emaxDT\u003c/code\u003e argument that stands for the maximum delay \r\n   time that it can handle.  This is to prevent a space leak.\r\n\u003c/p\u003e\u003cp\u003eImplementation note: Rather than keep a single buffer, we keep two \r\n   sequences that act to produce a sort of lens for a buffer.  qlow has \r\n   all the values that are older than what we currently need, and qhigh \r\n   has all of the newer ones.  Obviously, as time moves forward and the \r\n   delay amount variably changes, values are moved back and forth between \r\n   these two sequences as necessary.\r\n   This should provide a slight performance boost.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.AuxFunctions",
           "name": "vdelayC",
           "package": "UISF",
@@ -928,6 +1003,7 @@
         "index": {
           "description": "vdelayC is continuous version of vdelay It will always emit the value that was produced dt seconds earlier erring on the side of an older value if necessary Be warned that this version of delay can both omit some data entirely and emit the same data multiple times As such it is usually inappropriate for events use vdelay vdelayC takes maxDT argument that stands for the maximum delay time that it can handle This is to prevent space leak Implementation note Rather than keep single buffer we keep two sequences that act to produce sort of lens for buffer qlow has all the values that are older than what we currently need and qhigh has all of the newer ones Obviously as time moves forward and the delay amount variably changes values are moved back and forth between these two sequences as necessary This should provide slight performance boost",
           "hierarchy": "FRP UISF AuxFunctions",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.AuxFunctions",
           "name": "vdelayC",
           "normalized": "DeltaT-\u003ea-\u003eb(DeltaT,a)a",
@@ -942,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "Crud",
           "package": "UISF",
@@ -950,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "Crud",
           "package": "UISF",
@@ -963,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "Database",
           "package": "UISF",
@@ -971,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "Database",
           "package": "UISF",
@@ -984,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "NameEntry",
           "package": "UISF",
@@ -992,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "NameEntry",
           "package": "UISF",
@@ -1005,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "NameEntry",
           "package": "UISF",
@@ -1014,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "NameEntry",
           "package": "UISF",
@@ -1028,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will run the crud GUI with the default names.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "crud",
           "package": "UISF",
@@ -1038,6 +1123,7 @@
         "index": {
           "description": "This function will run the crud GUI with the default names",
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "crud",
           "normalized": "IO()",
@@ -1053,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the main function that creates the crud GUI.  It takes an \r\n   initial database of names as an argument.\r\n   See notes below on the use of banana brackets and nested do blocks.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "crudUISF",
           "package": "UISF",
@@ -1063,6 +1150,7 @@
         "index": {
           "description": "This is the main function that creates the crud GUI It takes an initial database of names as an argument See notes below on the use of banana brackets and nested do blocks",
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "crudUISF",
           "normalized": "Database NameEntry-\u003eUISF()()",
@@ -1078,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "defaultnames",
           "package": "UISF",
@@ -1087,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "defaultnames",
           "package": "UISF",
@@ -1099,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "firstName",
           "package": "UISF",
@@ -1108,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "firstName",
           "package": "UISF",
@@ -1121,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "lastName",
           "package": "UISF",
@@ -1130,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "lastName",
           "package": "UISF",
@@ -1144,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain = crud\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Crud",
           "name": "main",
           "package": "UISF",
@@ -1154,6 +1249,7 @@
         "index": {
           "description": "main crud",
           "hierarchy": "FRP UISF Examples Crud",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Crud",
           "name": "main",
           "normalized": "IO()",
@@ -1168,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "Examples",
           "package": "UISF",
@@ -1176,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "Examples",
           "package": "UISF",
@@ -1190,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis example shows off buttons and state by presenting a plus and \r\n minus button with a counter that is adjusted by them.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "buttonEx",
           "package": "UISF",
@@ -1200,6 +1299,7 @@
         "index": {
           "description": "This example shows off buttons and state by presenting plus and minus button with counter that is adjusted by them",
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "buttonEx",
           "normalized": "UISF()()",
@@ -1216,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis example shows off the checkbox widgets.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "checkboxEx",
           "package": "UISF",
@@ -1226,6 +1327,7 @@
         "index": {
           "description": "This example shows off the checkbox widgets",
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "checkboxEx",
           "normalized": "UISF()()",
@@ -1242,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis example shows off both vertical sliders as well as the canvas \r\n widget.  The canvas widget can be used to easily create custom graphics \r\n in the GUI.  Here, it is used to make a color swatch that is \r\n controllable with RGB values by the sliders.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "colorDemo",
           "package": "UISF",
@@ -1252,6 +1355,7 @@
         "index": {
           "description": "This example shows off both vertical sliders as well as the canvas widget The canvas widget can be used to easily create custom graphics in the GUI Here it is used to make color swatch that is controllable with RGB values by the sliders",
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "colorDemo",
           "normalized": "UISF()()",
@@ -1268,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the main demo that incorporates all of the other examples \r\n together (except for fftEx).  In addition to demonstrating how \r\n different widgets can connect, it also shows off the tabbing \r\n behavior built in to the GUI.  Pressing tab cycles through focuable \r\n elements, and pressing shift-tab cycles in reverse.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "main",
           "package": "UISF",
@@ -1278,6 +1383,7 @@
         "index": {
           "description": "This is the main demo that incorporates all of the other examples together except for fftEx In addition to demonstrating how different widgets can connect it also shows off the tabbing behavior built in to the GUI Pressing tab cycles through focuable elements and pressing shift-tab cycles in reverse",
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "main",
           "normalized": "IO()",
@@ -1293,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis example shows off the radio button widget.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "radioButtonEx",
           "package": "UISF",
@@ -1303,6 +1410,7 @@
         "index": {
           "description": "This example shows off the radio button widget",
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "radioButtonEx",
           "normalized": "UISF()()",
@@ -1319,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis example shows off integral sliders (horizontal in the case).\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "shoppinglist",
           "package": "UISF",
@@ -1329,6 +1438,7 @@
         "index": {
           "description": "This example shows off integral sliders horizontal in the case",
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "shoppinglist",
           "normalized": "UISF()()",
@@ -1344,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis example shows off the textbox widget.  Text can be typed in, and \r\n that text is transferred to the display widget below when the button \r\n is pressed.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "textboxdemo",
           "package": "UISF",
@@ -1354,6 +1465,7 @@
         "index": {
           "description": "This example shows off the textbox widget Text can be typed in and that text is transferred to the display widget below when the button is pressed",
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "textboxdemo",
           "normalized": "UISF()()",
@@ -1369,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis example displays the time from the start of the GUI application.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Examples.Examples",
           "name": "timeEx",
           "package": "UISF",
@@ -1379,6 +1492,7 @@
         "index": {
           "description": "This example displays the time from the start of the GUI application",
           "hierarchy": "FRP UISF Examples Examples",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Examples.Examples",
           "name": "timeEx",
           "normalized": "UISF()()",
@@ -1394,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "SOE",
           "package": "UISF",
@@ -1402,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "SOE",
           "package": "UISF",
@@ -1415,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Angle",
           "package": "UISF",
@@ -1423,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Angle",
           "package": "UISF",
@@ -1436,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Color",
           "package": "UISF",
@@ -1444,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Color",
           "package": "UISF",
@@ -1458,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraphic is just a wrapper for OpenGL IO\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Graphic",
           "package": "UISF",
@@ -1467,6 +1588,7 @@
         "index": {
           "description": "Graphic is just wrapper for OpenGL IO",
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Graphic",
           "package": "UISF",
@@ -1480,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Key",
           "package": "UISF",
@@ -1487,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Key",
           "package": "UISF",
@@ -1500,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Point",
           "package": "UISF",
@@ -1508,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Point",
           "package": "UISF",
@@ -1521,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "RGB",
           "package": "UISF",
@@ -1529,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "RGB",
           "package": "UISF",
@@ -1542,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "RGBA",
           "package": "UISF",
@@ -1550,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "RGBA",
           "package": "UISF",
@@ -1563,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "RedrawMode",
           "package": "UISF",
@@ -1571,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "RedrawMode",
           "package": "UISF",
@@ -1584,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Size",
           "package": "UISF",
@@ -1592,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Size",
           "package": "UISF",
@@ -1605,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "SpecialKey",
           "package": "UISF",
@@ -1612,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "SpecialKey",
           "package": "UISF",
@@ -1625,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Title",
           "package": "UISF",
@@ -1633,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Title",
           "package": "UISF",
@@ -1646,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "UIEvent",
           "package": "UISF",
@@ -1654,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "UIEvent",
           "package": "UISF",
@@ -1667,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Window",
           "package": "UISF",
@@ -1675,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Window",
           "package": "UISF",
@@ -1689,6 +1831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit unsigned integer type\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Word32",
           "package": "UISF",
@@ -1697,6 +1840,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Word32",
           "package": "UISF",
@@ -1710,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "BACKSPACE",
           "package": "UISF",
@@ -1718,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "BACKSPACE",
           "package": "UISF",
@@ -1777,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Button",
           "package": "UISF",
@@ -1786,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Button",
           "package": "UISF",
@@ -1799,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "CharKey",
           "package": "UISF",
@@ -1807,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "CharKey",
           "package": "UISF",
@@ -1820,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Closed",
           "package": "UISF",
@@ -1829,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Closed",
           "package": "UISF",
@@ -1865,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "DEL",
           "package": "UISF",
@@ -1873,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "DEL",
           "package": "UISF",
@@ -1886,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "DOWN",
           "package": "UISF",
@@ -1894,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "DOWN",
           "package": "UISF",
@@ -1907,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "END",
           "package": "UISF",
@@ -1915,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "END",
           "package": "UISF",
@@ -1928,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "ENTER",
           "package": "UISF",
@@ -1936,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "ENTER",
           "package": "UISF",
@@ -1949,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "ESC",
           "package": "UISF",
@@ -1957,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "ESC",
           "package": "UISF",
@@ -1970,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F1",
           "package": "UISF",
@@ -1978,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F1",
           "package": "UISF",
@@ -1990,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F10",
           "package": "UISF",
@@ -1998,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F10",
           "package": "UISF",
@@ -2010,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F11",
           "package": "UISF",
@@ -2018,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F11",
           "package": "UISF",
@@ -2030,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F12",
           "package": "UISF",
@@ -2038,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F12",
           "package": "UISF",
@@ -2050,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F13",
           "package": "UISF",
@@ -2058,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F13",
           "package": "UISF",
@@ -2070,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F14",
           "package": "UISF",
@@ -2078,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F14",
           "package": "UISF",
@@ -2090,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F15",
           "package": "UISF",
@@ -2098,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F15",
           "package": "UISF",
@@ -2110,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F16",
           "package": "UISF",
@@ -2118,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F16",
           "package": "UISF",
@@ -2130,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F17",
           "package": "UISF",
@@ -2138,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F17",
           "package": "UISF",
@@ -2150,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F18",
           "package": "UISF",
@@ -2158,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F18",
           "package": "UISF",
@@ -2170,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F19",
           "package": "UISF",
@@ -2178,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F19",
           "package": "UISF",
@@ -2190,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F2",
           "package": "UISF",
@@ -2198,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F2",
           "package": "UISF",
@@ -2210,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F20",
           "package": "UISF",
@@ -2218,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F20",
           "package": "UISF",
@@ -2230,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F21",
           "package": "UISF",
@@ -2238,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F21",
           "package": "UISF",
@@ -2250,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F22",
           "package": "UISF",
@@ -2258,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F22",
           "package": "UISF",
@@ -2270,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F23",
           "package": "UISF",
@@ -2278,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F23",
           "package": "UISF",
@@ -2290,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F24",
           "package": "UISF",
@@ -2298,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F24",
           "package": "UISF",
@@ -2310,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F25",
           "package": "UISF",
@@ -2318,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F25",
           "package": "UISF",
@@ -2330,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F3",
           "package": "UISF",
@@ -2338,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F3",
           "package": "UISF",
@@ -2350,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F4",
           "package": "UISF",
@@ -2358,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F4",
           "package": "UISF",
@@ -2370,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F5",
           "package": "UISF",
@@ -2378,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F5",
           "package": "UISF",
@@ -2390,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F6",
           "package": "UISF",
@@ -2398,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F6",
           "package": "UISF",
@@ -2410,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F7",
           "package": "UISF",
@@ -2418,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F7",
           "package": "UISF",
@@ -2430,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F8",
           "package": "UISF",
@@ -2438,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F8",
           "package": "UISF",
@@ -2450,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "F9",
           "package": "UISF",
@@ -2458,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "F9",
           "package": "UISF",
@@ -2493,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "HOME",
           "package": "UISF",
@@ -2501,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "HOME",
           "package": "UISF",
@@ -2514,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "INSERT",
           "package": "UISF",
@@ -2522,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "INSERT",
           "package": "UISF",
@@ -2535,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_0",
           "package": "UISF",
@@ -2543,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_0",
           "package": "UISF",
@@ -2556,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_1",
           "package": "UISF",
@@ -2564,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_1",
           "package": "UISF",
@@ -2577,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_2",
           "package": "UISF",
@@ -2585,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_2",
           "package": "UISF",
@@ -2598,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_3",
           "package": "UISF",
@@ -2606,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_3",
           "package": "UISF",
@@ -2619,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_4",
           "package": "UISF",
@@ -2627,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_4",
           "package": "UISF",
@@ -2640,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_5",
           "package": "UISF",
@@ -2648,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_5",
           "package": "UISF",
@@ -2661,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_6",
           "package": "UISF",
@@ -2669,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_6",
           "package": "UISF",
@@ -2682,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_7",
           "package": "UISF",
@@ -2690,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_7",
           "package": "UISF",
@@ -2703,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_8",
           "package": "UISF",
@@ -2711,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_8",
           "package": "UISF",
@@ -2724,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_9",
           "package": "UISF",
@@ -2732,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_9",
           "package": "UISF",
@@ -2745,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_ADD",
           "package": "UISF",
@@ -2753,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_ADD",
           "package": "UISF",
@@ -2766,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_DECIMAL",
           "package": "UISF",
@@ -2774,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_DECIMAL",
           "package": "UISF",
@@ -2787,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_DIVIDE",
           "package": "UISF",
@@ -2795,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_DIVIDE",
           "package": "UISF",
@@ -2808,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_ENTER",
           "package": "UISF",
@@ -2816,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_ENTER",
           "package": "UISF",
@@ -2829,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_EQUAL",
           "package": "UISF",
@@ -2837,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_EQUAL",
           "package": "UISF",
@@ -2850,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_MULTIPLY",
           "package": "UISF",
@@ -2858,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_MULTIPLY",
           "package": "UISF",
@@ -2871,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "KP_SUBTRACT",
           "package": "UISF",
@@ -2879,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "KP_SUBTRACT",
           "package": "UISF",
@@ -2892,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Key",
           "package": "UISF",
@@ -2901,6 +3152,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Key",
           "package": "UISF",
@@ -2914,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "LALT",
           "package": "UISF",
@@ -2922,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "LALT",
           "package": "UISF",
@@ -2935,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "LCTRL",
           "package": "UISF",
@@ -2943,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "LCTRL",
           "package": "UISF",
@@ -2956,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "LEFT",
           "package": "UISF",
@@ -2964,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "LEFT",
           "package": "UISF",
@@ -2977,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "LSHIFT",
           "package": "UISF",
@@ -2985,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "LSHIFT",
           "package": "UISF",
@@ -3021,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "MouseMove",
           "package": "UISF",
@@ -3030,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "MouseMove",
           "package": "UISF",
@@ -3043,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "NoUIEvent",
           "package": "UISF",
@@ -3052,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "NoUIEvent",
           "package": "UISF",
@@ -3065,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "PAGEDOWN",
           "package": "UISF",
@@ -3073,6 +3338,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "PAGEDOWN",
           "package": "UISF",
@@ -3086,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "PAGEUP",
           "package": "UISF",
@@ -3094,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "PAGEUP",
           "package": "UISF",
@@ -3107,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "RALT",
           "package": "UISF",
@@ -3115,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "RALT",
           "package": "UISF",
@@ -3128,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "RCTRL",
           "package": "UISF",
@@ -3136,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "RCTRL",
           "package": "UISF",
@@ -3149,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "RIGHT",
           "package": "UISF",
@@ -3157,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "RIGHT",
           "package": "UISF",
@@ -3170,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "RSHIFT",
           "package": "UISF",
@@ -3178,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "RSHIFT",
           "package": "UISF",
@@ -3214,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Refresh",
           "package": "UISF",
@@ -3223,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Refresh",
           "package": "UISF",
@@ -3236,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "Resize",
           "package": "UISF",
@@ -3245,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "Resize",
           "package": "UISF",
@@ -3258,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "SKey",
           "package": "UISF",
@@ -3267,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "SKey",
           "package": "UISF",
@@ -3280,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "SpecialKey",
           "package": "UISF",
@@ -3288,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "SpecialKey",
           "package": "UISF",
@@ -3301,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "TAB",
           "package": "UISF",
@@ -3309,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "TAB",
           "package": "UISF",
@@ -3322,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "UNKNOWN",
           "package": "UISF",
@@ -3330,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "UNKNOWN",
           "package": "UISF",
@@ -3343,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "UP",
           "package": "UISF",
@@ -3351,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "UP",
           "package": "UISF",
@@ -3410,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "arc",
           "package": "UISF",
@@ -3419,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "arc",
           "normalized": "Point-\u003ePoint-\u003eAngle-\u003eAngle-\u003eGraphic",
@@ -3433,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "char",
           "package": "UISF",
@@ -3442,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "char",
           "package": "UISF",
@@ -3454,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "clearWindow",
           "package": "UISF",
@@ -3463,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "clearWindow",
           "normalized": "Window-\u003eIO()",
@@ -3478,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "closeWindow",
           "package": "UISF",
@@ -3487,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "closeWindow",
           "normalized": "Window-\u003eIO()",
@@ -3502,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "drawBufferedGraphic",
           "package": "UISF",
@@ -3511,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "drawBufferedGraphic",
           "package": "UISF",
@@ -3524,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "drawGraphic",
           "package": "UISF",
@@ -3533,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "drawGraphic",
           "package": "UISF",
@@ -3546,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "drawInWindow",
           "package": "UISF",
@@ -3555,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "drawInWindow",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -3570,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "drawInWindowNow",
           "package": "UISF",
@@ -3579,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "drawInWindowNow",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -3594,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "ellipse",
           "package": "UISF",
@@ -3603,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "ellipse",
           "normalized": "Point-\u003ePoint-\u003eGraphic",
@@ -3617,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "emptyGraphic",
           "package": "UISF",
@@ -3626,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "emptyGraphic",
           "package": "UISF",
@@ -3639,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "getMainWindowSize",
           "package": "UISF",
@@ -3648,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "getMainWindowSize",
           "package": "UISF",
@@ -3662,6 +3974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egetWindowEvent and maybeGetWindowEvent both take an additional argument \r\n  sleepTime that tells how long to sleep in the case where there are no\r\n  window events to return.  This is used to allow the cpu to take other \r\n  tasks at these times rather than needlessly spinning.  The sleepTime \r\n  parameter used to be fixed at 0.01.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "getWindowEvent",
           "package": "UISF",
@@ -3672,6 +3985,7 @@
         "index": {
           "description": "getWindowEvent and maybeGetWindowEvent both take an additional argument sleepTime that tells how long to sleep in the case where there are no window events to return This is used to allow the cpu to take other tasks at these times rather than needlessly spinning The sleepTime parameter used to be fixed at",
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "getWindowEvent",
           "normalized": "Double-\u003eWindow-\u003eIO UIEvent",
@@ -3687,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "isDown",
           "package": "UISF",
@@ -3696,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "isDown",
           "package": "UISF",
@@ -3710,6 +4026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesigned to be used with Key, CharKey, or SpecialKey\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "isKeyPressed",
           "package": "UISF",
@@ -3720,6 +4037,7 @@
         "index": {
           "description": "Designed to be used with Key CharKey or SpecialKey",
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "isKeyPressed",
           "normalized": "a-\u003eIO Bool",
@@ -3735,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "isLeft",
           "package": "UISF",
@@ -3744,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "isLeft",
           "package": "UISF",
@@ -3757,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "line",
           "package": "UISF",
@@ -3766,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "line",
           "normalized": "Point-\u003ePoint-\u003eGraphic",
@@ -3780,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "maybeGetWindowEvent",
           "package": "UISF",
@@ -3789,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "maybeGetWindowEvent",
           "normalized": "Double-\u003eWindow-\u003eIO(Maybe UIEvent)",
@@ -3804,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "modifiers",
           "package": "UISF",
@@ -3813,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "modifiers",
           "normalized": "([Char],[SpecialKey])",
@@ -3827,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "nullGraphic",
           "package": "UISF",
@@ -3836,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "nullGraphic",
           "package": "UISF",
@@ -3849,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "openWindow",
           "package": "UISF",
@@ -3858,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "openWindow",
           "normalized": "Title-\u003eSize-\u003eIO Window",
@@ -3873,6 +4203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "openWindowEx",
           "package": "UISF",
@@ -3882,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "openWindowEx",
           "normalized": "Title-\u003eMaybe Point-\u003eMaybe Size-\u003eRedrawMode-\u003eIO Window",
@@ -3897,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "overGraphic",
           "package": "UISF",
@@ -3906,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "overGraphic",
           "normalized": "Graphic-\u003eGraphic-\u003eGraphic",
@@ -3921,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "overGraphics",
           "package": "UISF",
@@ -3930,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "overGraphics",
           "normalized": "[Graphic]-\u003eGraphic",
@@ -3945,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "polyBezier",
           "package": "UISF",
@@ -3954,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "polyBezier",
           "normalized": "[Point]-\u003eGraphic",
@@ -3969,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "polygon",
           "package": "UISF",
@@ -3978,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "polygon",
           "normalized": "[Point]-\u003eGraphic",
@@ -3992,6 +4332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "polyline",
           "package": "UISF",
@@ -4001,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "polyline",
           "normalized": "[Point]-\u003eGraphic",
@@ -4015,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "pt",
           "package": "UISF",
@@ -4024,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "pt",
           "package": "UISF",
@@ -4036,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "rgb",
           "package": "UISF",
@@ -4045,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "rgb",
           "normalized": "a-\u003eb-\u003ec-\u003eRGB",
@@ -4059,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "rgba",
           "package": "UISF",
@@ -4068,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "rgba",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eRGBA",
@@ -4082,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "runGraphics",
           "package": "UISF",
@@ -4091,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "runGraphics",
           "normalized": "IO()-\u003eIO()",
@@ -4106,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "scissorGraphic",
           "package": "UISF",
@@ -4115,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "scissorGraphic",
           "normalized": "(Point,Size)-\u003eGraphic-\u003eGraphic",
@@ -4130,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "setDirty",
           "package": "UISF",
@@ -4139,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "setDirty",
           "normalized": "Window-\u003eIO()",
@@ -4155,6 +4509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esetGraphic set the given Graphic over empty (black) background for\r\n display in current Window.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "setGraphic",
           "package": "UISF",
@@ -4165,6 +4520,7 @@
         "index": {
           "description": "setGraphic set the given Graphic over empty black background for display in current Window",
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "setGraphic",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -4180,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "setGraphic'",
           "package": "UISF",
@@ -4189,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "setGraphic'",
           "normalized": "Window-\u003eGraphic-\u003eIO()",
@@ -4204,6 +4562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "shearEllipse",
           "package": "UISF",
@@ -4213,6 +4572,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "shearEllipse",
           "normalized": "Point-\u003ePoint-\u003ePoint-\u003eGraphic",
@@ -4228,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "skey",
           "package": "UISF",
@@ -4237,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "skey",
           "package": "UISF",
@@ -4249,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "text",
           "package": "UISF",
@@ -4258,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "text",
           "normalized": "Point-\u003eString-\u003eGraphic",
@@ -4273,6 +4637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse GLFW's high resolution timer\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "timeGetTime",
           "package": "UISF",
@@ -4283,6 +4648,7 @@
         "index": {
           "description": "use GLFW high resolution timer",
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "timeGetTime",
           "package": "UISF",
@@ -4296,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "translateGraphic",
           "package": "UISF",
@@ -4305,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "translateGraphic",
           "normalized": "(Int,Int)-\u003eGraphic-\u003eGraphic",
@@ -4320,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "withColor",
           "package": "UISF",
@@ -4329,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "withColor",
           "normalized": "Color-\u003eGraphic-\u003eGraphic",
@@ -4344,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "withColor'",
           "package": "UISF",
@@ -4353,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "withColor'",
           "normalized": "a-\u003eGraphic-\u003eGraphic",
@@ -4368,6 +4740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.SOE",
           "name": "word32ToInt",
           "package": "UISF",
@@ -4377,6 +4750,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF SOE",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.SOE",
           "name": "word32ToInt",
           "normalized": "Word-\u003eInt",
@@ -4393,6 +4767,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMSF is a monadic signal function.\r\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "MSF",
           "package": "UISF",
@@ -4402,6 +4777,7 @@
         "index": {
           "description": "MSF is monadic signal function",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "MSF",
           "package": "UISF",
@@ -4416,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe MSF data type describes a monadic signal function.  \r\n Essentially, it is a Kleisli automaton, but we define it \r\n explicitly here.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "MSF",
           "package": "UISF",
@@ -4425,6 +4802,7 @@
         "index": {
           "description": "The MSF data type describes monadic signal function Essentially it is Kleisli automaton but we define it explicitly here",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "MSF",
           "package": "UISF",
@@ -4439,6 +4817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe stream data type is used to \"stream\" the results of \r\n running an MSF.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "Stream",
           "package": "UISF",
@@ -4448,6 +4827,7 @@
         "index": {
           "description": "The stream data type is used to stream the results of running an MSF",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "Stream",
           "package": "UISF",
@@ -4461,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "MSF",
           "package": "UISF",
@@ -4470,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "MSF",
           "package": "UISF",
@@ -4483,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "Stream",
           "package": "UISF",
@@ -4492,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "Stream",
           "package": "UISF",
@@ -4506,6 +4890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function first performs a monadic action and then uses the \r\n result of that action to complete the MSF.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "initialAction",
           "package": "UISF",
@@ -4516,6 +4901,7 @@
         "index": {
           "description": "This function first performs monadic action and then uses the result of that action to complete the MSF",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "initialAction",
           "normalized": "a b-\u003e(b-\u003eMSF a c d)-\u003eMSF a c d",
@@ -4532,6 +4918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function creates a MSF source based on an infinite list.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "listSource",
           "package": "UISF",
@@ -4542,6 +4929,7 @@
         "index": {
           "description": "This function creates MSF source based on an infinite list",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "listSource",
           "normalized": "[a]-\u003eMSF b()a",
@@ -4557,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "msfFun",
           "package": "UISF",
@@ -4566,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "msfFun",
           "normalized": "a-\u003eb(c,MSF b a c)",
@@ -4581,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "pipe",
           "package": "UISF",
@@ -4590,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "pipe",
           "normalized": "(a-\u003eb c)-\u003eMSF b a c",
@@ -4604,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "pipeE",
           "package": "UISF",
@@ -4613,6 +5006,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "pipeE",
           "normalized": "(a-\u003eb c)-\u003eMSF b(Maybe a)(Maybe c)",
@@ -4628,6 +5022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function runs the MSF on a single value.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "runMSF",
           "package": "UISF",
@@ -4638,6 +5033,7 @@
         "index": {
           "description": "This function runs the MSF on single value",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "runMSF",
           "normalized": "a-\u003eMSF b a c-\u003eb c",
@@ -4654,6 +5050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function runs an MSF that takes unit input for a single value.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "runMSF'",
           "package": "UISF",
@@ -4664,6 +5061,7 @@
         "index": {
           "description": "This function runs an MSF that takes unit input for single value",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "runMSF'",
           "normalized": "MSF a()b-\u003ea b",
@@ -4679,6 +5077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "sink",
           "package": "UISF",
@@ -4688,6 +5087,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "sink",
           "normalized": "(a-\u003eb())-\u003eMSF b a()",
@@ -4702,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "sinkE",
           "package": "UISF",
@@ -4711,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "sinkE",
           "normalized": "(a-\u003eb())-\u003eMSF b(Maybe a)(Maybe())",
@@ -4725,6 +5127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "source",
           "package": "UISF",
@@ -4734,6 +5137,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "source",
           "normalized": "a b-\u003eMSF a()b",
@@ -4748,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "sourceE",
           "package": "UISF",
@@ -4757,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "sourceE",
           "normalized": "a b-\u003eMSF a(Maybe())(Maybe b)",
@@ -4772,6 +5178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis steps through the given MSF using the [a] as inputs.  \r\n The result is [b] in the monad.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "stepMSF",
           "package": "UISF",
@@ -4782,6 +5189,7 @@
         "index": {
           "description": "This steps through the given MSF using the as inputs The result is in the monad",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "stepMSF",
           "normalized": "MSF a b c-\u003e[b]-\u003ea[c]",
@@ -4798,6 +5206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the same as \u003ccode\u003e\u003ca\u003estepMSF\u003c/a\u003e\u003c/code\u003e but additionally returns the \r\n next computation.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "stepMSF'",
           "package": "UISF",
@@ -4808,6 +5217,7 @@
         "index": {
           "description": "This is the same as stepMSF but additionally returns the next computation",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "stepMSF'",
           "normalized": "MSF a b c-\u003e[b]-\u003ea([c],MSF a b c)",
@@ -4823,6 +5233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "stream",
           "package": "UISF",
@@ -4832,6 +5243,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "stream",
           "normalized": "a(b,Stream a b)",
@@ -4847,6 +5259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an input list of values, this produces a stream of \r\n results that can be unwound as necessary.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Types.MSF",
           "name": "streamMSF",
           "package": "UISF",
@@ -4857,6 +5270,7 @@
         "index": {
           "description": "Given an input list of values this produces stream of results that can be unwound as necessary",
           "hierarchy": "FRP UISF Types MSF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Types.MSF",
           "name": "streamMSF",
           "normalized": "MSF a b c-\u003e[b]-\u003eStream a c",
@@ -4873,6 +5287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple Graphical User Interface with concepts borrowed from Phooey\r\n by Conal Elliot.\r\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "UIMonad",
           "package": "UISF",
@@ -4882,6 +5297,7 @@
         "index": {
           "description": "simple Graphical User Interface with concepts borrowed from Phooey by Conal Elliot",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "UIMonad",
           "package": "UISF",
@@ -4896,6 +5312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActions include both Graphics and Sound output. Even though both \r\n are indeed just IO monads, we separate them because Sound output \r\n must be immediately delivered, while graphics can wait until the \r\n next screen refresh.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "Action",
           "package": "UISF",
@@ -4905,6 +5322,7 @@
         "index": {
           "description": "Actions include both Graphics and Sound output Even though both are indeed just IO monads we separate them because Sound output must be immediately delivered while graphics can wait until the next screen refresh",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "Action",
           "package": "UISF",
@@ -4919,6 +5337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rendering context specifies the following:\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "CTX",
           "package": "UISF",
@@ -4928,6 +5347,7 @@
         "index": {
           "description": "rendering context specifies the following",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "CTX",
           "package": "UISF",
@@ -4942,6 +5362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe control data is simply a list of Thread Ids.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "ControlData",
           "package": "UISF",
@@ -4951,6 +5372,7 @@
         "index": {
           "description": "The control data is simply list of Thread Ids",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "ControlData",
           "package": "UISF",
@@ -4965,6 +5387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dimension specifies size.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "Dimension",
           "package": "UISF",
@@ -4974,6 +5397,7 @@
         "index": {
           "description": "dimension specifies size",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "Dimension",
           "package": "UISF",
@@ -4988,6 +5412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dirty bit is a bit to indicate if the widget needs to be redrawn.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "DirtyBit",
           "package": "UISF",
@@ -4997,6 +5422,7 @@
         "index": {
           "description": "The dirty bit is bit to indicate if the widget needs to be redrawn",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "DirtyBit",
           "package": "UISF",
@@ -5011,6 +5437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlow determines widget ordering.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "Flow",
           "package": "UISF",
@@ -5020,6 +5447,7 @@
         "index": {
           "description": "Flow determines widget ordering",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "Flow",
           "package": "UISF",
@@ -5034,6 +5462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Focus type helps focusable widgets communicate with each \r\n other about which widget is in focus.  It consists of a WidgetID \r\n and a FocusInfo.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "Focus",
           "package": "UISF",
@@ -5043,6 +5472,7 @@
         "index": {
           "description": "The Focus type helps focusable widgets communicate with each other about which widget is in focus It consists of WidgetID and FocusInfo",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "Focus",
           "package": "UISF",
@@ -5057,6 +5487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe FocusInfo means one of the following:\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "FocusInfo",
           "package": "UISF",
@@ -5066,6 +5497,7 @@
         "index": {
           "description": "The FocusInfo means one of the following",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "FocusInfo",
           "package": "UISF",
@@ -5080,6 +5512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe layout of a widget provides data to calculate its actual size\r\n in a given context.\r\n\u003c/p\u003e\u003col\u003e\u003cli\u003e hFill/vFill specify how much stretching space (in units) in\r\n    horizontal/vertical direction should be allocated for this widget.\r\n\u003c/li\u003e\u003cli\u003e hFixed\u003cem\u003evFixed specify how much non-stretching space (width\u003c/em\u003eheight in\r\n    pixels) should be allocated for this widget.\r\n\u003c/li\u003e\u003cli\u003e minW\u003cem\u003eminH specify minimum values (width\u003c/em\u003eheight in pixels) for the widget's \r\n    dimensions.\r\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "Layout",
           "package": "UISF",
@@ -5089,6 +5522,7 @@
         "index": {
           "description": "The layout of widget provides data to calculate its actual size in given context hFill vFill specify how much stretching space in units in horizontal vertical direction should be allocated for this widget hFixed vFixed specify how much non-stretching space width height in pixels should be allocated for this widget minW minH specify minimum values width height in pixels for the widget dimensions",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "Layout",
           "package": "UISF",
@@ -5103,6 +5537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dimension can either be:\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "LayoutType",
           "package": "UISF",
@@ -5112,6 +5547,7 @@
         "index": {
           "description": "dimension can either be",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "LayoutType",
           "package": "UISF",
@@ -5126,6 +5562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangle has a corner point and a dimension.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "Rect",
           "package": "UISF",
@@ -5135,6 +5572,7 @@
         "index": {
           "description": "rectangle has corner point and dimension",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "Rect",
           "package": "UISF",
@@ -5149,6 +5587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym for sounds.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "Sound",
           "package": "UISF",
@@ -5158,6 +5597,7 @@
         "index": {
           "description": "type synonym for sounds",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "Sound",
           "package": "UISF",
@@ -5172,6 +5612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA UI widget runs under a given context and any focus information from \r\n   earlier widgets and maps input signals to outputs, which consists of 6 parts:\r\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e its layout,\r\n\u003c/li\u003e\u003cli\u003e whether the widget needs to be redrawn,\r\n\u003c/li\u003e\u003cli\u003e any focus information that needs to be conveyed to future widgets\r\n\u003c/li\u003e\u003cli\u003e the action (to render graphics or/and sounds),\r\n\u003c/li\u003e\u003cli\u003e any new ThreadIds to keep track of (for proper shutdown when finished),\r\n\u003c/li\u003e\u003cli\u003e and the parametrized output type.\r\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "UI",
           "package": "UISF",
@@ -5181,6 +5622,7 @@
         "index": {
           "description": "UI widget runs under given context and any focus information from earlier widgets and maps input signals to outputs which consists of parts its layout whether the widget needs to be redrawn any focus information that needs to be conveyed to future widgets the action to render graphics or and sounds any new ThreadIds to keep track of for proper shutdown when finished and the parametrized output type",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "UI",
           "package": "UISF",
@@ -5195,6 +5637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe WidgetID for any given widget is dynamic based \r\n on how many focusable widgets are active at the moment.  It is designed \r\n basically as a counter that focusable widgets will automatically (via the \r\n focusable function) increment.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "WidgetID",
           "package": "UISF",
@@ -5204,6 +5647,7 @@
         "index": {
           "description": "The WidgetID for any given widget is dynamic based on how many focusable widgets are active at the moment It is designed basically as counter that focusable widgets will automatically via the focusable function increment",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "WidgetID",
           "package": "UISF",
@@ -5217,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "BottomUp",
           "package": "UISF",
@@ -5226,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "BottomUp",
           "package": "UISF",
@@ -5239,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "CTX",
           "package": "UISF",
@@ -5248,6 +5695,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "CTX",
           "package": "UISF",
@@ -5287,6 +5735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates that this widget is a subwidget of \r\n   a widget that is in focus.  Thus, this widget too is in focus, and \r\n   this widget should pass HasFocus forward.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "HasFocus",
           "package": "UISF",
@@ -5297,6 +5746,7 @@
         "index": {
           "description": "Indicates that this widget is subwidget of widget that is in focus Thus this widget too is in focus and this widget should pass HasFocus forward",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "HasFocus",
           "package": "UISF",
@@ -5310,6 +5760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "Layout",
           "package": "UISF",
@@ -5319,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "Layout",
           "package": "UISF",
@@ -5332,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "LeftRight",
           "package": "UISF",
@@ -5341,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "LeftRight",
           "package": "UISF",
@@ -5355,6 +5809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates that there is no focus information to \r\n   communicate between widgets.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "NoFocus",
           "package": "UISF",
@@ -5365,6 +5820,7 @@
         "index": {
           "description": "Indicates that there is no focus information to communicate between widgets",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "NoFocus",
           "package": "UISF",
@@ -5378,6 +5834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "RightLeft",
           "package": "UISF",
@@ -5387,6 +5844,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "RightLeft",
           "package": "UISF",
@@ -5401,6 +5859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates that the widget whose id is given \r\n   should take focus.  That widget should then pass NoFocus onward.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "SetFocusTo",
           "package": "UISF",
@@ -5411,6 +5870,7 @@
         "index": {
           "description": "Indicates that the widget whose id is given should take focus That widget should then pass NoFocus onward",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "SetFocusTo",
           "package": "UISF",
@@ -5449,6 +5909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "TopDown",
           "package": "UISF",
@@ -5458,6 +5919,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "TopDown",
           "package": "UISF",
@@ -5471,6 +5933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "UI",
           "package": "UISF",
@@ -5480,6 +5943,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "UI",
           "package": "UISF",
@@ -5494,6 +5958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA thread handler for the UI monad.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "addThreadID",
           "package": "UISF",
@@ -5504,6 +5969,7 @@
         "index": {
           "description": "thread handler for the UI monad",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "addThreadID",
           "normalized": "ThreadId-\u003eUI()",
@@ -5520,6 +5986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangle bound of current drawing area to render a UI\r\n   component. It specifies the max size of a widget, not the\r\n   actual size. It's up to each individual widget to decide\r\n   where in this bound to put itself.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "bounds",
           "package": "UISF",
@@ -5530,6 +5997,7 @@
         "index": {
           "description": "rectangle bound of current drawing area to render UI component It specifies the max size of widget not the actual size It up to each individual widget to decide where in this bound to put itself",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "bounds",
           "package": "UISF",
@@ -5543,6 +6011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivides the CTX according to the ratio of a widget's layout and the \r\n overall layout of the widget that receives this CTX.  Therefore, the \r\n first layout argument should basically be a sublayout of the second.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "divideCTX",
           "package": "UISF",
@@ -5553,6 +6022,7 @@
         "index": {
           "description": "Divides the CTX according to the ratio of widget layout and the overall layout of the widget that receives this CTX Therefore the first layout argument should basically be sublayout of the second",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "divideCTX",
           "normalized": "CTX-\u003eLayout-\u003eLayout-\u003e(CTX,CTX)",
@@ -5592,6 +6062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA layout direction to flow widgets. \r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "flow",
           "package": "UISF",
@@ -5602,6 +6073,7 @@
         "index": {
           "description": "layout direction to flow widgets",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "flow",
           "package": "UISF",
@@ -5614,6 +6086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "hFill",
           "package": "UISF",
@@ -5623,6 +6096,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "hFill",
           "package": "UISF",
@@ -5636,6 +6110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "hFixed",
           "package": "UISF",
@@ -5645,6 +6120,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "hFixed",
           "package": "UISF",
@@ -5659,6 +6135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts an 'IO a' to a 'UI a'\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "ioToUI",
           "package": "UISF",
@@ -5669,6 +6146,7 @@
         "index": {
           "description": "Lifts an IO to UI",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "ioToUI",
           "normalized": "IO a-\u003eUI a",
@@ -5685,6 +6163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA flag to tell whether we are in a conjoined state or not.  \r\n A conjoined context will duplicate itself for subcomponents \r\n rather than splitting.  This can be useful for making compound \r\n widgets when one widget takes up space and the other performs \r\n some side effect having to do with that space.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "isConjoined",
           "package": "UISF",
@@ -5695,6 +6174,7 @@
         "index": {
           "description": "flag to tell whether we are in conjoined state or not conjoined context will duplicate itself for subcomponents rather than splitting This can be useful for making compound widgets when one widget takes up space and the other performs some side effect having to do with that space",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "isConjoined",
           "package": "UISF",
@@ -5709,6 +6189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Graphic to an Action with no Sound.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "justGraphicAction",
           "package": "UISF",
@@ -5719,6 +6200,7 @@
         "index": {
           "description": "Convert Graphic to an Action with no Sound",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "justGraphicAction",
           "normalized": "Graphic-\u003eAction",
@@ -5735,6 +6217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Sound to an Action with no Graphic.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "justSoundAction",
           "package": "UISF",
@@ -5745,6 +6228,7 @@
         "index": {
           "description": "Convert Sound to an Action with no Graphic",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "justSoundAction",
           "normalized": "Sound-\u003eAction",
@@ -5788,6 +6272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two actions into one.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "mergeAction",
           "package": "UISF",
@@ -5798,6 +6283,7 @@
         "index": {
           "description": "Merge two actions into one",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "mergeAction",
           "normalized": "(Graphic,a b)-\u003e(Graphic,a c)-\u003e(Graphic,a c)",
@@ -5814,6 +6300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA method for merging to control data objects.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "mergeCD",
           "package": "UISF",
@@ -5824,6 +6311,7 @@
         "index": {
           "description": "method for merging to control data objects",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "mergeCD",
           "normalized": "ControlData-\u003eControlData-\u003eControlData",
@@ -5840,6 +6328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two layouts into one.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "mergeLayout",
           "package": "UISF",
@@ -5850,6 +6339,7 @@
         "index": {
           "description": "Merge two layouts into one",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "mergeLayout",
           "normalized": "Flow-\u003eLayout-\u003eLayout-\u003eLayout",
@@ -5865,6 +6355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "minH",
           "package": "UISF",
@@ -5874,6 +6365,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "minH",
           "package": "UISF",
@@ -5909,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "minW",
           "package": "UISF",
@@ -5918,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "minW",
           "package": "UISF",
@@ -5931,6 +6425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used when no Action happens at all.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "nullAction",
           "package": "UISF",
@@ -5941,6 +6436,7 @@
         "index": {
           "description": "This is used when no Action happens at all",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "nullAction",
           "package": "UISF",
@@ -5955,6 +6451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo new thread ids.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "nullCD",
           "package": "UISF",
@@ -5965,6 +6462,7 @@
         "index": {
           "description": "No new thread ids",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "nullCD",
           "package": "UISF",
@@ -5979,6 +6477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null layout is useful for \"widgets\" that do not appear or \r\n   take up space on the screen.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "nullLayout",
           "package": "UISF",
@@ -5989,6 +6488,7 @@
         "index": {
           "description": "The null layout is useful for widgets that do not appear or take up space on the screen",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "nullLayout",
           "package": "UISF",
@@ -6003,6 +6503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used when there is no sound produced.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "nullSound",
           "package": "UISF",
@@ -6013,6 +6514,7 @@
         "index": {
           "description": "This is used when there is no sound produced",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "nullSound",
           "package": "UISF",
@@ -6027,6 +6529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a context to bound the graphical effects of an action.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "scissorAction",
           "package": "UISF",
@@ -6037,6 +6540,7 @@
         "index": {
           "description": "Use context to bound the graphical effects of an action",
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "scissorAction",
           "normalized": "CTX-\u003eAction-\u003eAction",
@@ -6052,6 +6556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "unUI",
           "package": "UISF",
@@ -6061,6 +6566,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "unUI",
           "normalized": "(CTX,Focus,Time,UIEvent)-\u003eIO(Layout,DirtyBit,Focus,Action,ControlData,a)",
@@ -6076,6 +6582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "vFill",
           "package": "UISF",
@@ -6085,6 +6592,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "vFill",
           "package": "UISF",
@@ -6098,6 +6606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UIMonad",
           "name": "vFixed",
           "package": "UISF",
@@ -6107,6 +6616,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UIMonad",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UIMonad",
           "name": "vFixed",
           "package": "UISF",
@@ -6121,6 +6631,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple Graphical User Interface with concepts borrowed from Phooey\r\n by Conal Elliot.\r\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "UISF",
           "package": "UISF",
@@ -6130,6 +6641,7 @@
         "index": {
           "description": "simple Graphical User Interface with concepts borrowed from Phooey by Conal Elliot",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "UISF",
           "package": "UISF",
@@ -6144,6 +6656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main UI signal function, built from the UI monad and MSF.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "UISF",
           "package": "UISF",
@@ -6153,6 +6666,7 @@
         "index": {
           "description": "The main UI signal function built from the UI monad and MSF",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "UISF",
           "package": "UISF",
@@ -6218,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "compressUISF",
           "package": "UISF",
@@ -6227,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "compressUISF",
           "normalized": "(a-\u003e(CTX,Focus,Time,UIEvent)-\u003eIO(Layout,DirtyBit,Focus,Action,ControlData,(b,UISF a b)))-\u003eUISF a b",
@@ -6242,6 +6758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "conjoin",
           "package": "UISF",
@@ -6251,6 +6768,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "conjoin",
           "normalized": "UISF a b-\u003eUISF a b",
@@ -6292,6 +6810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "expandUISF",
           "package": "UISF",
@@ -6301,6 +6820,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "expandUISF",
           "normalized": "UISF a b-\u003ea-\u003e(CTX,Focus,Time,UIEvent)-\u003eIO(Layout,DirtyBit,Focus,Action,ControlData,(b,UISF a b))",
@@ -6317,6 +6837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the context signal from a UISF\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "getCTX",
           "package": "UISF",
@@ -6327,6 +6848,7 @@
         "index": {
           "description": "Get the context signal from UISF",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "getCTX",
           "normalized": "UISF()CTX",
@@ -6343,6 +6865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the UIEvent signal from a UISF\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "getEvents",
           "package": "UISF",
@@ -6353,6 +6876,7 @@
         "index": {
           "description": "Get the UIEvent signal from UISF",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "getEvents",
           "normalized": "UISF()UIEvent",
@@ -6369,6 +6893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the focus data from a UISF\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "getFocusData",
           "package": "UISF",
@@ -6379,6 +6904,7 @@
         "index": {
           "description": "Get the focus data from UISF",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "getFocusData",
           "normalized": "UISF()Focus",
@@ -6395,6 +6921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the mouse position from a UISF\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "getMousePosition",
           "package": "UISF",
@@ -6405,6 +6932,7 @@
         "index": {
           "description": "Get the mouse position from UISF",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "getMousePosition",
           "normalized": "UISF()Point",
@@ -6448,6 +6976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given IO action when this UISF is first run and use its \r\n   result to produce the UISF to run\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "initialIOAction",
           "package": "UISF",
@@ -6458,6 +6987,7 @@
         "index": {
           "description": "Apply the given IO action when this UISF is first run and use its result to produce the UISF to run",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "initialIOAction",
           "normalized": "IO a-\u003e(a-\u003eUISF b c)-\u003eUISF b c",
@@ -6498,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "mkUISF",
           "package": "UISF",
@@ -6507,6 +7038,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "mkUISF",
           "normalized": "(a-\u003e(CTX,Focus,Time,UIEvent)-\u003e(Layout,DirtyBit,Focus,Action,ControlData,b))-\u003eUISF a b",
@@ -6522,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "mkUISF'",
           "package": "UISF",
@@ -6531,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "mkUISF'",
           "normalized": "(a-\u003e(CTX,Focus,Time,UIEvent)-\u003eIO(Layout,DirtyBit,Focus,Action,ControlData,b))-\u003eUISF a b",
@@ -6706,6 +7240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a quick and dirty solution that ignores timing issues.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "toUISF",
           "package": "UISF",
@@ -6716,6 +7251,7 @@
         "index": {
           "description": "This is quick and dirty solution that ignores timing issues",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "toUISF",
           "normalized": "Automaton a b-\u003eUISF a b",
@@ -6756,6 +7292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "transformUISF",
           "package": "UISF",
@@ -6765,6 +7302,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "transformUISF",
           "normalized": "(UI(a,UISF b a)-\u003eUI(a,UISF b a))-\u003eUISF b a-\u003eUISF b a",
@@ -6781,6 +7319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a pipe UISF from the IO action.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "uisfPipeE",
           "package": "UISF",
@@ -6791,6 +7330,7 @@
         "index": {
           "description": "Generate pipe UISF from the IO action",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "uisfPipeE",
           "normalized": "(a-\u003eIO b)-\u003eUISF(SEvent a)(SEvent b)",
@@ -6807,6 +7347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a sink UISF from the IO action.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "uisfSinkE",
           "package": "UISF",
@@ -6817,6 +7358,7 @@
         "index": {
           "description": "Generate sink UISF from the IO action",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "uisfSinkE",
           "normalized": "(a-\u003eIO())-\u003eUISF(SEvent a)(SEvent())",
@@ -6833,6 +7375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a source UISF from the IO action.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "uisfSourceE",
           "package": "UISF",
@@ -6843,6 +7386,7 @@
         "index": {
           "description": "Generate source UISF from the IO action",
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "uisfSourceE",
           "normalized": "IO a-\u003eUISF(SEvent())(SEvent a)",
@@ -6858,6 +7402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.UISF",
           "name": "unconjoin",
           "package": "UISF",
@@ -6867,6 +7412,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.UISF",
           "name": "unconjoin",
           "normalized": "UISF a b-\u003eUISF a b",
@@ -6882,6 +7428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple Graphical User Interface based on FRP. It uses the SOE\r\n graphics library, and draws custom widgets on the screen.\r\n\u003c/p\u003e\u003cp\u003eSOE graphics uses OpenGL as the primitive drawing routine, and\r\n GLFW library to provide window and input support.\r\n\u003c/p\u003e\u003cp\u003eThe monadic UI concept is borrowed from Phooey by Conal Elliott.\r\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Widget",
           "name": "Widget",
           "package": "UISF",
@@ -6891,6 +7438,7 @@
         "index": {
           "description": "simple Graphical User Interface based on FRP It uses the SOE graphics library and draws custom widgets on the screen SOE graphics uses OpenGL as the primitive drawing routine and GLFW library to provide window and input support The monadic UI concept is borrowed from Phooey by Conal Elliott",
           "hierarchy": "FRP UISF Widget",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Widget",
           "name": "Widget",
           "package": "UISF",
@@ -7089,6 +7637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaking a widget focusable makes it accessible to tabbing and allows \r\n it to see any mouse button clicks and keystrokes when it is actually \r\n in focus.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Widget",
           "name": "focusable",
           "package": "UISF",
@@ -7099,6 +7648,7 @@
         "index": {
           "description": "Making widget focusable makes it accessible to tabbing and allows it to see any mouse button clicks and keystrokes when it is actually in focus",
           "hierarchy": "FRP UISF Widget",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Widget",
           "name": "focusable",
           "normalized": "UISF a b-\u003eUISF a b",
@@ -7194,6 +7744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlthough mouse button clicks and keystrokes will be available once a \r\n widget marks itself as focusable, the widget may also simply want to \r\n know whether it is currently in focus to change its appearance.  This \r\n can be achieved with the following signal function.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Widget",
           "name": "isInFocus",
           "package": "UISF",
@@ -7204,6 +7755,7 @@
         "index": {
           "description": "Although mouse button clicks and keystrokes will be available once widget marks itself as focusable the widget may also simply want to know whether it is currently in focus to change its appearance This can be achieved with the following signal function",
           "hierarchy": "FRP UISF Widget",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Widget",
           "name": "isInFocus",
           "normalized": "UISF()Bool",
@@ -7272,6 +7824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccasionally, one may want to display a non-interactive graphic in \r\n the UI.  \u003ccode\u003e\u003ca\u003emkBasicWidget\u003c/a\u003e\u003c/code\u003e facilitates this.  It takes a layout and a \r\n simple drawing routine and produces a non-interacting widget.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Widget",
           "name": "mkBasicWidget",
           "package": "UISF",
@@ -7281,6 +7834,7 @@
         "index": {
           "description": "Occasionally one may want to display non-interactive graphic in the UI mkBasicWidget facilitates this It takes layout and simple drawing routine and produces non-interacting widget",
           "hierarchy": "FRP UISF Widget",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Widget",
           "name": "mkBasicWidget",
           "normalized": "Layout-\u003e(Rect-\u003eGraphic)-\u003eUISF a a",
@@ -7297,6 +7851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mkSlider widget builder is useful in the creation of all sliders.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Widget",
           "name": "mkSlider",
           "package": "UISF",
@@ -7306,6 +7861,7 @@
         "index": {
           "description": "The mkSlider widget builder is useful in the creation of all sliders",
           "hierarchy": "FRP UISF Widget",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Widget",
           "name": "mkSlider",
           "normalized": "Bool-\u003e(a-\u003eInt-\u003eInt)-\u003e(Int-\u003eInt-\u003ea)-\u003e(Int-\u003eInt-\u003ea-\u003ea)-\u003ea-\u003eUISF()a",
@@ -7322,6 +7878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emkWidget is a helper function to make stateful widgets easier to write.  \r\n In essence, it breaks down the idea of a widget into 4 constituent \r\n components: state, layout, computation, and drawing.\r\n\u003c/p\u003e\u003cp\u003eAs \u003ccode\u003e\u003ca\u003emkWidget\u003c/a\u003e\u003c/code\u003e allows for making stateful widgets, the first parameter is \r\n simply the initial state.\r\n\u003c/p\u003e\u003cp\u003eThe layout is the static layout that this widget will use.  It \r\n cannot be dependent on any streaming arguments, but a layout can have \r\n \"stretchy\" sides so that it can expand/shrink to fit an area.  Learn \r\n more about making layouts in \u003ccode\u003eUIMonad\u003c/code\u003es UI Layout section -- specifically, \r\n check out the \u003ccode\u003e\u003ca\u003emakeLayout\u003c/a\u003e\u003c/code\u003e function and the \u003ccode\u003e\u003ca\u003eLayoutType\u003c/a\u003e\u003c/code\u003e data type.\r\n\u003c/p\u003e\u003cp\u003eThe computation is where the logic of the widget is held.  This \r\n function takes as input the streaming argument a, the widget's state, \r\n a Rect of coordinates indicating the area that has been allotted for \r\n this widget, and the \u003ccode\u003e\u003ca\u003eUIEvent\u003c/a\u003e\u003c/code\u003e that is triggering this widget's activation \r\n (see the definition of \u003ccode\u003e\u003ca\u003eUIEvent\u003c/a\u003e\u003c/code\u003e in SOE).  The output consists of the \r\n streaming output, the new state, and the dirty bit, which represents \r\n whether the widget needs to be redrawn.\r\n\u003c/p\u003e\u003cp\u003eLastly, the drawing routine takes the same Rect as the computation, a \r\n Bool that is true when this widget is in focus and false otherwise, \r\n and the current state of the widget (technically, this state is the \r\n one freshly returned from the computation).  Its output is the Graphic \r\n that this widget should display.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Widget",
           "name": "mkWidget",
           "package": "UISF",
@@ -7331,6 +7888,7 @@
         "index": {
           "description": "mkWidget is helper function to make stateful widgets easier to write In essence it breaks down the idea of widget into constituent components state layout computation and drawing As mkWidget allows for making stateful widgets the first parameter is simply the initial state The layout is the static layout that this widget will use It cannot be dependent on any streaming arguments but layout can have stretchy sides so that it can expand shrink to fit an area Learn more about making layouts in UIMonad UI Layout section specifically check out the makeLayout function and the LayoutType data type The computation is where the logic of the widget is held This function takes as input the streaming argument the widget state Rect of coordinates indicating the area that has been allotted for this widget and the UIEvent that is triggering this widget activation see the definition of UIEvent in SOE The output consists of the streaming output the new state and the dirty bit which represents whether the widget needs to be redrawn Lastly the drawing routine takes the same Rect as the computation Bool that is true when this widget is in focus and false otherwise and the current state of the widget technically this state is the one freshly returned from the computation Its output is the Graphic that this widget should display",
           "hierarchy": "FRP UISF Widget",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Widget",
           "name": "mkWidget",
           "normalized": "a-\u003eLayout-\u003e(b-\u003ea-\u003eRect-\u003eUIEvent-\u003e(c,a,DirtyBit))-\u003e(Rect-\u003eBool-\u003ea-\u003eGraphic)-\u003eUISF b c",
@@ -7503,6 +8061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe toggle is useful in the creation of both \u003ccode\u003e\u003ca\u003echeckbox\u003c/a\u003e\u003c/code\u003ees and \u003ccode\u003e\u003ca\u003eradio\u003c/a\u003e\u003c/code\u003e \r\n buttons.  It displays on/off according to its input, and when the mouse \r\n is clicked on it, it will output True (otherwise it outputs False).\r\n\u003c/p\u003e\u003cp\u003eThe UISF returned from a call to toggle accepts the state stream and \r\n returns whether the toggle is being clicked.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF.Widget",
           "name": "toggle",
           "package": "UISF",
@@ -7512,6 +8071,7 @@
         "index": {
           "description": "The toggle is useful in the creation of both checkbox es and radio buttons It displays on off according to its input and when the mouse is clicked on it it will output True otherwise it outputs False The UISF returned from call to toggle accepts the state stream and returns whether the toggle is being clicked",
           "hierarchy": "FRP UISF Widget",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF.Widget",
           "name": "toggle",
           "normalized": "a-\u003eLayout-\u003e(Rect-\u003eBool-\u003ea-\u003eGraphic)-\u003eUISF a Bool",
@@ -7607,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF",
           "name": "UISF",
           "package": "UISF",
@@ -7615,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF",
           "name": "UISF",
           "package": "UISF",
@@ -7628,6 +8190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF",
           "name": "Color",
           "package": "UISF",
@@ -7636,6 +8199,7 @@
         },
         "index": {
           "hierarchy": "FRP UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF",
           "name": "Color",
           "package": "UISF",
@@ -7650,6 +8214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dimension specifies size.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF",
           "name": "Dimension",
           "package": "UISF",
@@ -7659,6 +8224,7 @@
         "index": {
           "description": "dimension specifies size",
           "hierarchy": "FRP UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF",
           "name": "Dimension",
           "package": "UISF",
@@ -7673,6 +8239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dimension can either be:\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF",
           "name": "LayoutType",
           "package": "UISF",
@@ -7682,6 +8249,7 @@
         "index": {
           "description": "dimension can either be",
           "hierarchy": "FRP UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF",
           "name": "LayoutType",
           "package": "UISF",
@@ -7696,6 +8264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main UI signal function, built from the UI monad and MSF.\r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:09 UTC 2014",
           "module": "FRP.UISF",
           "name": "UISF",
           "package": "UISF",
@@ -7705,6 +8274,7 @@
         "index": {
           "description": "The main UI signal function built from the UI monad and MSF",
           "hierarchy": "FRP UISF",
+          "indexed": "2014-03-11T17:03:09",
           "module": "FRP.UISF",
           "name": "UISF",
           "package": "UISF",

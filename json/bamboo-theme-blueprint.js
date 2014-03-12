@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bamboo-theme-blueprint"
+        "phrase": "bamboo-theme-blueprint",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:27 UTC 2014",
           "module": "Bamboo.Theme.Blueprint",
           "name": "Blueprint",
           "package": "bamboo-theme-blueprint",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Theme Blueprint",
+          "indexed": "2014-03-11T17:16:27",
           "module": "Bamboo.Theme.Blueprint",
           "name": "Blueprint",
           "package": "bamboo-theme-blueprint",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:27 UTC 2014",
           "module": "Bamboo.Theme.Blueprint",
           "name": "blueprint",
           "package": "bamboo-theme-blueprint",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Theme Blueprint",
+          "indexed": "2014-03-11T17:16:27",
           "module": "Bamboo.Theme.Blueprint",
           "name": "blueprint",
           "package": "bamboo-theme-blueprint",

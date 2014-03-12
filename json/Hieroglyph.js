@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Hieroglyph"
+        "phrase": "Hieroglyph",
+        "type": "phrase"
       },
       "type": "context"
     }

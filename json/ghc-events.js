@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-events"
+        "phrase": "ghc-events",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "Capability",
           "package": "ghc-events",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis Capability",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "Capability",
           "package": "ghc-events",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis state machine tracks Haskell tasks (represented by the KernelThreadId\n of their OS thread) residing on capabilities and additionally\n tracks the (immutable) assignment of OS thread ids (KernelThreadId)\n to tasks ids (TaskId).\n Each Haskell task can only reside on one capability, but can be migrated\n between them.\n\u003c/p\u003e\u003cp\u003eInvariant for the \u003ccode\u003e(Map KernelThreadId Int, Map TaskId KernelThreadId)\u003c/code\u003e \n type: the second map is an injection (verified by the machine \n in \u003ccode\u003einsertTaskOS\u003c/code\u003e) and the following sets are equal: \n keys of the fist map and values of the second\n (follows from the construction of the maps by the machine).\n\u003c/p\u003e\u003cp\u003eThe machine verifies as much as \u003ccode\u003e\u003ca\u003ecapabilityTaskPoolMachine\u003c/a\u003e\u003c/code\u003e and additionally\n the data invariant, and offers a richer verification profile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityTaskOSMachine",
           "package": "ghc-events",
@@ -50,6 +53,7 @@
         "index": {
           "description": "This state machine tracks Haskell tasks represented by the KernelThreadId of their OS thread residing on capabilities and additionally tracks the immutable assignment of OS thread ids KernelThreadId to tasks ids TaskId Each Haskell task can only reside on one capability but can be migrated between them Invariant for the Map KernelThreadId Int Map TaskId KernelThreadId type the second map is an injection verified by the machine in insertTaskOS and the following sets are equal keys of the fist map and values of the second follows from the construction of the maps by the machine The machine verifies as much as capabilityTaskPoolMachine and additionally the data invariant and offers richer verification profile",
           "hierarchy": "GHC RTS Events Analysis Capability",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityTaskOSMachine",
           "normalized": "Machine(Map KernelThreadId Int,Map TaskId KernelThreadId)CapEvent",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis state machine tracks Haskell tasks, represented by TaskId,\n residing on capabilities.\n Each Haskell task can only reside on one capability, but can be migrated\n between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityTaskPoolMachine",
           "package": "ghc-events",
@@ -76,6 +81,7 @@
         "index": {
           "description": "This state machine tracks Haskell tasks represented by TaskId residing on capabilities Each Haskell task can only reside on one capability but can be migrated between them",
           "hierarchy": "GHC RTS Events Analysis Capability",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityTaskPoolMachine",
           "package": "ghc-events",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityThreadIndexer",
           "package": "ghc-events",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis Capability",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityThreadIndexer",
           "normalized": "Map Int ThreadId-\u003eCapEvent-\u003eMaybe ThreadId",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis state machine tracks threads residing on capabilities.\n Each thread can only reside on one capability, but can be migrated between\n them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityThreadPoolMachine",
           "package": "ghc-events",
@@ -124,6 +133,7 @@
         "index": {
           "description": "This state machine tracks threads residing on capabilities Each thread can only reside on one capability but can be migrated between them",
           "hierarchy": "GHC RTS Events Analysis Capability",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityThreadPoolMachine",
           "package": "ghc-events",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis state machine tracks threads running on capabilities, only one thread\n may run on a capability at a time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityThreadRunMachine",
           "package": "ghc-events",
@@ -148,6 +159,7 @@
         "index": {
           "description": "This state machine tracks threads running on capabilities only one thread may run on capability at time",
           "hierarchy": "GHC RTS Events Analysis Capability",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Capability",
           "name": "capabilityThreadRunMachine",
           "package": "ghc-events",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThread",
           "package": "ghc-events",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThread",
           "package": "ghc-events",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadState",
           "package": "ghc-events",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadState",
           "package": "ghc-events",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadCreated",
           "package": "ghc-events",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadCreated",
           "package": "ghc-events",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadFinal",
           "package": "ghc-events",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadFinal",
           "package": "ghc-events",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadInitial",
           "package": "ghc-events",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadInitial",
           "package": "ghc-events",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadPaused",
           "package": "ghc-events",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadPaused",
           "package": "ghc-events",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadRunning",
           "package": "ghc-events",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "SparkThreadRunning",
           "package": "ghc-events",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "capabilitySparkThreadIndexer",
           "package": "ghc-events",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "capabilitySparkThreadIndexer",
           "normalized": "(Map Int ThreadId,Set ThreadId)-\u003eCapEvent-\u003eMaybe ThreadId",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "capabilitySparkThreadMachine",
           "package": "ghc-events",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "capabilitySparkThreadMachine",
           "normalized": "Machine(Map Int ThreadId,Set ThreadId)CapEvent",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "sparkThreadMachine",
           "package": "ghc-events",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis SparkThread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.SparkThread",
           "name": "sparkThreadMachine",
           "package": "ghc-events",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "Thread",
           "package": "ghc-events",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis Thread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "Thread",
           "package": "ghc-events",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis datatype defines the state machine for a single thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadState",
           "package": "ghc-events",
@@ -414,6 +449,7 @@
         "index": {
           "description": "This datatype defines the state machine for single thread",
           "hierarchy": "GHC RTS Events Analysis Thread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadState",
           "package": "ghc-events",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadFinal",
           "package": "ghc-events",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis Thread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadFinal",
           "package": "ghc-events",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadInitial",
           "package": "ghc-events",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis Thread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadInitial",
           "package": "ghc-events",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadQueued",
           "package": "ghc-events",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis Thread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadQueued",
           "package": "ghc-events",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadRunning",
           "package": "ghc-events",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis Thread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadRunning",
           "package": "ghc-events",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadStopped",
           "package": "ghc-events",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis Thread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "ThreadStopped",
           "package": "ghc-events",
@@ -538,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis state machine tracks the events processed by a thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "threadMachine",
           "package": "ghc-events",
@@ -548,6 +595,7 @@
         "index": {
           "description": "This state machine tracks the events processed by thread",
           "hierarchy": "GHC RTS Events Analysis Thread",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis.Thread",
           "name": "threadMachine",
           "package": "ghc-events",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Analysis",
           "package": "ghc-events",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Analysis",
           "package": "ghc-events",
@@ -583,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is based on a simple finite state machine hence the names \u003ccode\u003e\u003ca\u003edelta\u003c/a\u003e\u003c/code\u003e\n for the state transition function.\n Since states might be more than simple pattern matched constructors, we\n use `finals :: state -\u003e Bool`, rather than `Set state`, to indicate that\n the machine is in some final state. Similarly for \u003ccode\u003e\u003ca\u003ealpha\u003c/a\u003e\u003c/code\u003e, which\n indicates the alphabet of inputs to a machine.\n The function \u003ccode\u003e\u003ca\u003edelta\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e values, where \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n indicates that no valid transition is possible: ie, there has been an\n error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Machine",
           "package": "ghc-events",
@@ -592,6 +643,7 @@
         "index": {
           "description": "This is based on simple finite state machine hence the names delta for the state transition function Since states might be more than simple pattern matched constructors we use finals state Bool rather than Set state to indicate that the machine is in some final state Similarly for alpha which indicates the alphabet of inputs to machine The function delta returns Maybe values where Nothing indicates that no valid transition is possible ie there has been an error",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Machine",
           "package": "ghc-events",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Process",
           "package": "ghc-events",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Process",
           "package": "ghc-events",
@@ -627,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA state augmented by Timestamp information is held in \u003ccode\u003e\u003ca\u003eprofileState\u003c/a\u003e\u003c/code\u003e.\n When the state changes, \u003ccode\u003eprofileMap\u003c/code\u003e stores a map between each state\n and its cumulative time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Profile",
           "package": "ghc-events",
@@ -636,6 +691,7 @@
         "index": {
           "description": "state augmented by Timestamp information is held in profileState When the state changes profileMap stores map between each state and its cumulative time",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Profile",
           "package": "ghc-events",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Done",
           "package": "ghc-events",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Done",
           "package": "ghc-events",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Fail",
           "package": "ghc-events",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Fail",
           "package": "ghc-events",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Machine",
           "package": "ghc-events",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Machine",
           "package": "ghc-events",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Prod",
           "package": "ghc-events",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Prod",
           "package": "ghc-events",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Profile",
           "package": "ghc-events",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "Profile",
           "package": "ghc-events",
@@ -760,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid input alphabet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "alpha",
           "package": "ghc-events",
@@ -770,6 +837,7 @@
         "index": {
           "description": "Valid input alphabet",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "alpha",
           "normalized": "a-\u003eBool",
@@ -785,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState transition function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "delta",
           "package": "ghc-events",
@@ -795,6 +864,7 @@
         "index": {
           "description": "State transition function",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "delta",
           "normalized": "a-\u003eb-\u003eMaybe a",
@@ -809,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "extractIndexed",
           "package": "ghc-events",
@@ -818,6 +889,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "extractIndexed",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003e(b-\u003eMaybe d)-\u003eMap d a-\u003eb-\u003eMaybe(d,c)",
@@ -834,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid final states\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "final",
           "package": "ghc-events",
@@ -844,6 +917,7 @@
         "index": {
           "description": "Valid final states",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "final",
           "normalized": "a-\u003eBool",
@@ -859,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn indexed machine takes a function that multiplexes the input to a key\n and then takes a machine description to an indexed machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "indexM",
           "package": "ghc-events",
@@ -868,6 +943,7 @@
         "index": {
           "description": "An indexed machine takes function that multiplexes the input to key and then takes machine description to an indexed machine",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "indexM",
           "normalized": "(a-\u003eMaybe b)-\u003eMachine c a-\u003eMachine(Map b c)a",
@@ -883,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "initial",
           "package": "ghc-events",
@@ -893,6 +970,7 @@
         "index": {
           "description": "Initial state",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "initial",
           "package": "ghc-events",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profile",
           "package": "ghc-events",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profile",
           "normalized": "Machine a b-\u003e(b-\u003eTimestamp)-\u003e[b]-\u003eProcess(Profile a,b)(a,Timestamp,Timestamp)",
@@ -927,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileIndexed",
           "package": "ghc-events",
@@ -936,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileIndexed",
           "normalized": "Machine a b-\u003e(b-\u003eMaybe c)-\u003e(b-\u003eTimestamp)-\u003e[b]-\u003eProcess(Map c(Profile a),b)(c,(a,Timestamp,Timestamp))",
@@ -952,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function takes a machine and profiles its state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileM",
           "package": "ghc-events",
@@ -962,6 +1045,7 @@
         "index": {
           "description": "This function takes machine and profiles its state",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileM",
           "normalized": "(a-\u003eTimestamp)-\u003eMachine b a-\u003eMachine(Profile b)a",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileRouted",
           "package": "ghc-events",
@@ -985,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileRouted",
           "normalized": "Machine a b-\u003eMachine c b-\u003e(c-\u003eb-\u003eMaybe d)-\u003e(b-\u003eTimestamp)-\u003e[b]-\u003eProcess((Map d(Profile a),c),b)(d,(a,Timestamp,Timestamp))",
@@ -1001,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileState",
           "package": "ghc-events",
@@ -1011,6 +1098,7 @@
         "index": {
           "description": "The current state",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileState",
           "package": "ghc-events",
@@ -1025,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe entry time of the state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileTime",
           "package": "ghc-events",
@@ -1035,6 +1124,7 @@
         "index": {
           "description": "The entry time of the state",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "profileTime",
           "package": "ghc-events",
@@ -1049,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMachines sometimes need to operate on coarser input than they are defined\n for. This function takes a function that refines input and a machine that\n works on refined input, and produces a machine that can work on coarse input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "refineM",
           "package": "ghc-events",
@@ -1059,6 +1150,7 @@
         "index": {
           "description": "Machines sometimes need to operate on coarser input than they are defined for This function takes function that refines input and machine that works on refined input and produces machine that can work on coarse input",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "refineM",
           "normalized": "(a-\u003eb)-\u003eMachine c b-\u003eMachine c a",
@@ -1074,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA machine can be indexed not only by the inputs, but also by the state\n of an intermediary routing machine. This is a generalisation of indexM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "routeM",
           "package": "ghc-events",
@@ -1084,6 +1177,7 @@
         "index": {
           "description": "machine can be indexed not only by the inputs but also by the state of an intermediary routing machine This is generalisation of indexM",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "routeM",
           "normalized": "Machine a b-\u003e(a-\u003eb-\u003eMaybe c)-\u003eMachine d b-\u003eMachine(Map c d,a)b",
@@ -1099,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function produces a process that outputs all the states that a\n machine goes through.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "simulate",
           "package": "ghc-events",
@@ -1109,6 +1204,7 @@
         "index": {
           "description": "This function produces process that outputs all the states that machine goes through",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "simulate",
           "normalized": "Machine a b-\u003e[b]-\u003eProcess(a,b)(a,b)",
@@ -1123,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "toList",
           "package": "ghc-events",
@@ -1132,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "toList",
           "normalized": "Process a b-\u003e[b]",
@@ -1147,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "toMaybe",
           "package": "ghc-events",
@@ -1156,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "toMaybe",
           "normalized": "Process a b-\u003eMaybe a",
@@ -1172,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003evalidate\u003c/a\u003e\u003c/code\u003e function takes a machine and a list of inputs. The machine\n is started from its initial state and run against the inputs in turn.\n It returns the state and input on failure, and just the state on success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "validate",
           "package": "ghc-events",
@@ -1182,6 +1283,7 @@
         "index": {
           "description": "The validate function takes machine and list of inputs The machine is started from its initial state and run against the inputs in turn It returns the state and input on failure and just the state on success",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "validate",
           "normalized": "Machine a b-\u003e[b]-\u003eEither(a,b)a",
@@ -1197,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is similar to \u003ccode\u003e\u003ca\u003evalidate\u003c/a\u003e\u003c/code\u003e, but outputs each intermediary\n state as well. For an incremental version, use \u003ccode\u003e\u003ca\u003esimulate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Analysis",
           "name": "validates",
           "package": "ghc-events",
@@ -1207,6 +1310,7 @@
         "index": {
           "description": "This function is similar to validate but outputs each intermediary state as well For an incremental version use simulate",
           "hierarchy": "GHC RTS Events Analysis",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Analysis",
           "name": "validates",
           "normalized": "Machine a b-\u003e[b]-\u003e[Either(a,b)a]",
@@ -1221,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Merge",
           "name": "Merge",
           "package": "ghc-events",
@@ -1229,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Merge",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Merge",
           "name": "Merge",
           "package": "ghc-events",
@@ -1242,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events.Merge",
           "name": "mergeEventLogs",
           "package": "ghc-events",
@@ -1251,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events Merge",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events.Merge",
           "name": "mergeEventLogs",
           "normalized": "EventLog-\u003eEventLog-\u003eEventLog",
@@ -1266,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Events",
           "package": "ghc-events",
@@ -1274,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Events",
           "package": "ghc-events",
@@ -1288,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event annotated with the Capability that generated it, if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapEvent",
           "package": "ghc-events",
@@ -1297,6 +1408,7 @@
         "index": {
           "description": "An event annotated with the Capability that generated it if any",
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapEvent",
           "package": "ghc-events",
@@ -1310,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetType",
           "package": "ghc-events",
@@ -1318,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetType",
           "package": "ghc-events",
@@ -1331,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Data",
           "package": "ghc-events",
@@ -1339,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Data",
           "package": "ghc-events",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Event",
           "package": "ghc-events",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Event",
           "package": "ghc-events",
@@ -1373,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "EventInfo",
           "package": "ghc-events",
@@ -1381,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "EventInfo",
           "package": "ghc-events",
@@ -1394,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "EventLog",
           "package": "ghc-events",
@@ -1402,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "EventLog",
           "package": "ghc-events",
@@ -1415,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "EventType",
           "package": "ghc-events",
@@ -1423,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "EventType",
           "package": "ghc-events",
@@ -1436,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Header",
           "package": "ghc-events",
@@ -1444,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Header",
           "package": "ghc-events",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "KernelThreadId",
           "package": "ghc-events",
@@ -1465,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "KernelThreadId",
           "package": "ghc-events",
@@ -1478,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "TaskId",
           "package": "ghc-events",
@@ -1486,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "TaskId",
           "package": "ghc-events",
@@ -1499,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ThreadId",
           "package": "ghc-events",
@@ -1507,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ThreadId",
           "package": "ghc-events",
@@ -1520,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ThreadStopStatus",
           "package": "ghc-events",
@@ -1528,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ThreadStopStatus",
           "package": "ghc-events",
@@ -1541,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Timestamp",
           "package": "ghc-events",
@@ -1549,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Timestamp",
           "package": "ghc-events",
@@ -1562,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnBlackHole",
           "package": "ghc-events",
@@ -1571,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnBlackHole",
           "package": "ghc-events",
@@ -1584,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnBlackHoleOwnedBy",
           "package": "ghc-events",
@@ -1593,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnBlackHoleOwnedBy",
           "package": "ghc-events",
@@ -1606,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnCCall",
           "package": "ghc-events",
@@ -1615,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnCCall",
           "package": "ghc-events",
@@ -1628,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnCCall_NoUnblockExc",
           "package": "ghc-events",
@@ -1637,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnCCall_NoUnblockExc",
           "package": "ghc-events",
@@ -1650,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnDelay",
           "package": "ghc-events",
@@ -1659,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnDelay",
           "package": "ghc-events",
@@ -1672,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnDoProc",
           "package": "ghc-events",
@@ -1681,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnDoProc",
           "package": "ghc-events",
@@ -1694,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnMVar",
           "package": "ghc-events",
@@ -1703,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnMVar",
           "package": "ghc-events",
@@ -1716,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnMsgGlobalise",
           "package": "ghc-events",
@@ -1725,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnMsgGlobalise",
           "package": "ghc-events",
@@ -1738,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnMsgThrowTo",
           "package": "ghc-events",
@@ -1747,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnMsgThrowTo",
           "package": "ghc-events",
@@ -1760,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnRead",
           "package": "ghc-events",
@@ -1769,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnRead",
           "package": "ghc-events",
@@ -1782,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnSTM",
           "package": "ghc-events",
@@ -1791,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnSTM",
           "package": "ghc-events",
@@ -1804,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnWrite",
           "package": "ghc-events",
@@ -1813,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "BlockedOnWrite",
           "package": "ghc-events",
@@ -1826,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapCreate",
           "package": "ghc-events",
@@ -1835,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapCreate",
           "package": "ghc-events",
@@ -1848,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapDelete",
           "package": "ghc-events",
@@ -1857,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapDelete",
           "package": "ghc-events",
@@ -1870,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapDisable",
           "package": "ghc-events",
@@ -1879,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapDisable",
           "package": "ghc-events",
@@ -1892,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapEnable",
           "package": "ghc-events",
@@ -1901,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapEnable",
           "package": "ghc-events",
@@ -1914,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapEvent",
           "package": "ghc-events",
@@ -1923,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapEvent",
           "package": "ghc-events",
@@ -1936,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetAssignCap",
           "package": "ghc-events",
@@ -1945,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetAssignCap",
           "package": "ghc-events",
@@ -1958,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetClockDomain",
           "package": "ghc-events",
@@ -1967,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetClockDomain",
           "package": "ghc-events",
@@ -1980,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetCreate",
           "package": "ghc-events",
@@ -1989,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetCreate",
           "package": "ghc-events",
@@ -2002,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetCustom",
           "package": "ghc-events",
@@ -2011,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetCustom",
           "package": "ghc-events",
@@ -2024,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetDelete",
           "package": "ghc-events",
@@ -2033,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetDelete",
           "package": "ghc-events",
@@ -2046,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetOsProcess",
           "package": "ghc-events",
@@ -2055,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetOsProcess",
           "package": "ghc-events",
@@ -2068,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetRemoveCap",
           "package": "ghc-events",
@@ -2077,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetRemoveCap",
           "package": "ghc-events",
@@ -2090,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CapsetUnknown",
           "package": "ghc-events",
@@ -2099,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CapsetUnknown",
           "package": "ghc-events",
@@ -2112,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CreateSparkThread",
           "package": "ghc-events",
@@ -2121,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CreateSparkThread",
           "package": "ghc-events",
@@ -2134,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "CreateThread",
           "package": "ghc-events",
@@ -2143,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "CreateThread",
           "package": "ghc-events",
@@ -2156,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Data",
           "package": "ghc-events",
@@ -2165,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Data",
           "package": "ghc-events",
@@ -2178,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "EndGC",
           "package": "ghc-events",
@@ -2187,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "EndGC",
           "package": "ghc-events",
@@ -2200,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Event",
           "package": "ghc-events",
@@ -2209,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Event",
           "package": "ghc-events",
@@ -2222,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "EventBlock",
           "package": "ghc-events",
@@ -2231,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "EventBlock",
           "package": "ghc-events",
@@ -2244,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "EventLog",
           "package": "ghc-events",
@@ -2253,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "EventLog",
           "package": "ghc-events",
@@ -2266,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "EventType",
           "package": "ghc-events",
@@ -2275,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "EventType",
           "package": "ghc-events",
@@ -2288,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ForeignCall",
           "package": "ghc-events",
@@ -2297,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ForeignCall",
           "package": "ghc-events",
@@ -2310,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "GCDone",
           "package": "ghc-events",
@@ -2319,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "GCDone",
           "package": "ghc-events",
@@ -2332,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "GCIdle",
           "package": "ghc-events",
@@ -2341,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "GCIdle",
           "package": "ghc-events",
@@ -2354,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "GCStatsGHC",
           "package": "ghc-events",
@@ -2363,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "GCStatsGHC",
           "package": "ghc-events",
@@ -2376,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "GCWork",
           "package": "ghc-events",
@@ -2385,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "GCWork",
           "package": "ghc-events",
@@ -2398,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "GlobalSyncGC",
           "package": "ghc-events",
@@ -2407,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "GlobalSyncGC",
           "package": "ghc-events",
@@ -2420,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Header",
           "package": "ghc-events",
@@ -2429,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Header",
           "package": "ghc-events",
@@ -2442,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "HeapAllocated",
           "package": "ghc-events",
@@ -2451,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "HeapAllocated",
           "package": "ghc-events",
@@ -2464,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "HeapInfoGHC",
           "package": "ghc-events",
@@ -2473,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "HeapInfoGHC",
           "package": "ghc-events",
@@ -2486,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "HeapLive",
           "package": "ghc-events",
@@ -2495,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "HeapLive",
           "package": "ghc-events",
@@ -2508,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "HeapOverflow",
           "package": "ghc-events",
@@ -2517,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "HeapOverflow",
           "package": "ghc-events",
@@ -2530,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "HeapSize",
           "package": "ghc-events",
@@ -2539,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "HeapSize",
           "package": "ghc-events",
@@ -2552,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "InternString",
           "package": "ghc-events",
@@ -2561,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "InternString",
           "package": "ghc-events",
@@ -2574,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "KernelThreadId",
           "package": "ghc-events",
@@ -2583,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "KernelThreadId",
           "package": "ghc-events",
@@ -2596,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerCallingMain",
           "package": "ghc-events",
@@ -2605,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerCallingMain",
           "package": "ghc-events",
@@ -2618,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerCapSleeping",
           "package": "ghc-events",
@@ -2627,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerCapSleeping",
           "package": "ghc-events",
@@ -2640,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerCreateSpark",
           "package": "ghc-events",
@@ -2649,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerCreateSpark",
           "package": "ghc-events",
@@ -2662,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerEndParConjunct",
           "package": "ghc-events",
@@ -2671,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerEndParConjunct",
           "package": "ghc-events",
@@ -2684,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerEndParConjunction",
           "package": "ghc-events",
@@ -2693,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerEndParConjunction",
           "package": "ghc-events",
@@ -2706,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerFutureCreate",
           "package": "ghc-events",
@@ -2715,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerFutureCreate",
           "package": "ghc-events",
@@ -2728,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerFutureSignal",
           "package": "ghc-events",
@@ -2737,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerFutureSignal",
           "package": "ghc-events",
@@ -2750,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerFutureWaitNosuspend",
           "package": "ghc-events",
@@ -2759,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerFutureWaitNosuspend",
           "package": "ghc-events",
@@ -2772,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerFutureWaitSuspended",
           "package": "ghc-events",
@@ -2781,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerFutureWaitSuspended",
           "package": "ghc-events",
@@ -2794,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerLookingForGlobalThread",
           "package": "ghc-events",
@@ -2803,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerLookingForGlobalThread",
           "package": "ghc-events",
@@ -2816,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerLookingForLocalSpark",
           "package": "ghc-events",
@@ -2825,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerLookingForLocalSpark",
           "package": "ghc-events",
@@ -2838,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerReleaseThread",
           "package": "ghc-events",
@@ -2847,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerReleaseThread",
           "package": "ghc-events",
@@ -2860,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerStartParConjunction",
           "package": "ghc-events",
@@ -2869,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerStartParConjunction",
           "package": "ghc-events",
@@ -2882,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MerWorkStealing",
           "package": "ghc-events",
@@ -2891,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MerWorkStealing",
           "package": "ghc-events",
@@ -2904,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Message",
           "package": "ghc-events",
@@ -2913,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Message",
           "package": "ghc-events",
@@ -2926,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "MigrateThread",
           "package": "ghc-events",
@@ -2935,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "MigrateThread",
           "package": "ghc-events",
@@ -2948,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "NoStatus",
           "package": "ghc-events",
@@ -2957,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "NoStatus",
           "package": "ghc-events",
@@ -2970,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "OsProcessParentPid",
           "package": "ghc-events",
@@ -2979,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "OsProcessParentPid",
           "package": "ghc-events",
@@ -2992,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "OsProcessPid",
           "package": "ghc-events",
@@ -3001,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "OsProcessPid",
           "package": "ghc-events",
@@ -3014,6 +3282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "PerfCounter",
           "package": "ghc-events",
@@ -3023,6 +3292,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "PerfCounter",
           "package": "ghc-events",
@@ -3036,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "PerfName",
           "package": "ghc-events",
@@ -3045,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "PerfName",
           "package": "ghc-events",
@@ -3058,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "PerfTracepoint",
           "package": "ghc-events",
@@ -3067,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "PerfTracepoint",
           "package": "ghc-events",
@@ -3080,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ProgramArgs",
           "package": "ghc-events",
@@ -3089,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ProgramArgs",
           "package": "ghc-events",
@@ -3102,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ProgramEnv",
           "package": "ghc-events",
@@ -3111,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ProgramEnv",
           "package": "ghc-events",
@@ -3124,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "RequestParGC",
           "package": "ghc-events",
@@ -3133,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "RequestParGC",
           "package": "ghc-events",
@@ -3146,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "RequestSeqGC",
           "package": "ghc-events",
@@ -3155,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "RequestSeqGC",
           "package": "ghc-events",
@@ -3168,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "RtsIdentifier",
           "package": "ghc-events",
@@ -3177,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "RtsIdentifier",
           "package": "ghc-events",
@@ -3190,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "RunThread",
           "package": "ghc-events",
@@ -3199,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "RunThread",
           "package": "ghc-events",
@@ -3212,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Shutdown",
           "package": "ghc-events",
@@ -3221,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Shutdown",
           "package": "ghc-events",
@@ -3234,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "SparkCounters",
           "package": "ghc-events",
@@ -3243,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "SparkCounters",
           "package": "ghc-events",
@@ -3256,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "SparkCreate",
           "package": "ghc-events",
@@ -3265,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "SparkCreate",
           "package": "ghc-events",
@@ -3278,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "SparkDud",
           "package": "ghc-events",
@@ -3287,6 +3580,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "SparkDud",
           "package": "ghc-events",
@@ -3300,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "SparkFizzle",
           "package": "ghc-events",
@@ -3309,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "SparkFizzle",
           "package": "ghc-events",
@@ -3322,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "SparkGC",
           "package": "ghc-events",
@@ -3331,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "SparkGC",
           "package": "ghc-events",
@@ -3344,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "SparkOverflow",
           "package": "ghc-events",
@@ -3353,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "SparkOverflow",
           "package": "ghc-events",
@@ -3366,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "SparkRun",
           "package": "ghc-events",
@@ -3375,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "SparkRun",
           "package": "ghc-events",
@@ -3388,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "SparkSteal",
           "package": "ghc-events",
@@ -3397,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "SparkSteal",
           "package": "ghc-events",
@@ -3410,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "StackOverflow",
           "package": "ghc-events",
@@ -3419,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "StackOverflow",
           "package": "ghc-events",
@@ -3432,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "StartGC",
           "package": "ghc-events",
@@ -3441,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "StartGC",
           "package": "ghc-events",
@@ -3454,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "Startup",
           "package": "ghc-events",
@@ -3463,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "Startup",
           "package": "ghc-events",
@@ -3476,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "StopThread",
           "package": "ghc-events",
@@ -3485,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "StopThread",
           "package": "ghc-events",
@@ -3498,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "TaskCreate",
           "package": "ghc-events",
@@ -3507,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "TaskCreate",
           "package": "ghc-events",
@@ -3520,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "TaskDelete",
           "package": "ghc-events",
@@ -3529,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "TaskDelete",
           "package": "ghc-events",
@@ -3542,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "TaskMigrate",
           "package": "ghc-events",
@@ -3551,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "TaskMigrate",
           "package": "ghc-events",
@@ -3564,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ThreadBlocked",
           "package": "ghc-events",
@@ -3573,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ThreadBlocked",
           "package": "ghc-events",
@@ -3586,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ThreadFinished",
           "package": "ghc-events",
@@ -3595,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ThreadFinished",
           "package": "ghc-events",
@@ -3608,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ThreadLabel",
           "package": "ghc-events",
@@ -3617,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ThreadLabel",
           "package": "ghc-events",
@@ -3630,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ThreadMigrating",
           "package": "ghc-events",
@@ -3639,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ThreadMigrating",
           "package": "ghc-events",
@@ -3652,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ThreadRunnable",
           "package": "ghc-events",
@@ -3661,6 +3988,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ThreadRunnable",
           "package": "ghc-events",
@@ -3674,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ThreadYielding",
           "package": "ghc-events",
@@ -3683,6 +4012,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ThreadYielding",
           "package": "ghc-events",
@@ -3696,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "UnknownEvent",
           "package": "ghc-events",
@@ -3705,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "UnknownEvent",
           "package": "ghc-events",
@@ -3718,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "UserMarker",
           "package": "ghc-events",
@@ -3727,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "UserMarker",
           "package": "ghc-events",
@@ -3740,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "UserMessage",
           "package": "ghc-events",
@@ -3749,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "UserMessage",
           "package": "ghc-events",
@@ -3762,6 +4098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "WakeupThread",
           "package": "ghc-events",
@@ -3771,6 +4108,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "WakeupThread",
           "package": "ghc-events",
@@ -3784,6 +4122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "WallClockTime",
           "package": "ghc-events",
@@ -3793,6 +4132,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "WallClockTime",
           "package": "ghc-events",
@@ -3806,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "allocAreaSize",
           "package": "ghc-events",
@@ -3815,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "allocAreaSize",
           "package": "ghc-events",
@@ -3828,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "allocBytes",
           "package": "ghc-events",
@@ -3837,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "allocBytes",
           "package": "ghc-events",
@@ -3850,6 +4194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "args",
           "package": "ghc-events",
@@ -3859,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "args",
           "normalized": "[String]",
@@ -3873,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "blockSize",
           "package": "ghc-events",
@@ -3882,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "blockSize",
           "package": "ghc-events",
@@ -3895,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "block_events",
           "package": "ghc-events",
@@ -3904,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "block_events",
           "normalized": "[Event]",
@@ -3918,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "buildEventTypeMap",
           "package": "ghc-events",
@@ -3927,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "buildEventTypeMap",
           "normalized": "[EventType]-\u003eIntMap EventType",
@@ -3942,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "cap",
           "package": "ghc-events",
@@ -3951,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "cap",
           "package": "ghc-events",
@@ -3963,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "capset",
           "package": "ghc-events",
@@ -3972,6 +4327,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "capset",
           "package": "ghc-events",
@@ -3984,6 +4340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "capsetType",
           "package": "ghc-events",
@@ -3993,6 +4350,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "capsetType",
           "package": "ghc-events",
@@ -4006,6 +4364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ce_cap",
           "package": "ghc-events",
@@ -4015,6 +4374,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ce_cap",
           "package": "ghc-events",
@@ -4027,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ce_event",
           "package": "ghc-events",
@@ -4036,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ce_event",
           "package": "ghc-events",
@@ -4048,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "copied",
           "package": "ghc-events",
@@ -4057,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "copied",
           "package": "ghc-events",
@@ -4069,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "dat",
           "package": "ghc-events",
@@ -4078,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "dat",
           "package": "ghc-events",
@@ -4090,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "desc",
           "package": "ghc-events",
@@ -4099,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "desc",
           "package": "ghc-events",
@@ -4111,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "dyn_id",
           "package": "ghc-events",
@@ -4120,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "dyn_id",
           "package": "ghc-events",
@@ -4132,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "end_time",
           "package": "ghc-events",
@@ -4141,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "end_time",
           "package": "ghc-events",
@@ -4153,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "env",
           "package": "ghc-events",
@@ -4162,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "env",
           "normalized": "[String]",
@@ -4176,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "eventTypes",
           "package": "ghc-events",
@@ -4185,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "eventTypes",
           "normalized": "[EventType]",
@@ -4200,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "events",
           "package": "ghc-events",
@@ -4209,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "events",
           "normalized": "[Event]",
@@ -4223,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "frag",
           "package": "ghc-events",
@@ -4232,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "frag",
           "package": "ghc-events",
@@ -4244,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "future_id",
           "package": "ghc-events",
@@ -4253,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "future_id",
           "package": "ghc-events",
@@ -4265,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "gen",
           "package": "ghc-events",
@@ -4274,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "gen",
           "package": "ghc-events",
@@ -4286,6 +4670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "gens",
           "package": "ghc-events",
@@ -4295,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "gens",
           "package": "ghc-events",
@@ -4307,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "groupEvents",
           "package": "ghc-events",
@@ -4316,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "groupEvents",
           "normalized": "[Event]-\u003e[(Maybe Int,[Event])]",
@@ -4331,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "header",
           "package": "ghc-events",
@@ -4340,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "header",
           "package": "ghc-events",
@@ -4352,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "heapCapset",
           "package": "ghc-events",
@@ -4361,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "heapCapset",
           "package": "ghc-events",
@@ -4374,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "kernelThreadId",
           "package": "ghc-events",
@@ -4383,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "kernelThreadId",
           "package": "ghc-events",
@@ -4396,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "liveBytes",
           "package": "ghc-events",
@@ -4405,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "liveBytes",
           "package": "ghc-events",
@@ -4418,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "markername",
           "package": "ghc-events",
@@ -4427,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "markername",
           "package": "ghc-events",
@@ -4439,6 +4837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "maxHeapSize",
           "package": "ghc-events",
@@ -4448,6 +4847,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "maxHeapSize",
           "package": "ghc-events",
@@ -4461,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "mblockSize",
           "package": "ghc-events",
@@ -4470,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "mblockSize",
           "package": "ghc-events",
@@ -4483,6 +4885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "msg",
           "package": "ghc-events",
@@ -4492,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "msg",
           "package": "ghc-events",
@@ -4504,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "nEVENT_PERF_COUNTER",
           "package": "ghc-events",
@@ -4513,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "nEVENT_PERF_COUNTER",
           "package": "ghc-events",
@@ -4526,6 +4932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "nEVENT_PERF_NAME",
           "package": "ghc-events",
@@ -4535,6 +4942,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "nEVENT_PERF_NAME",
           "package": "ghc-events",
@@ -4548,6 +4956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "nEVENT_PERF_TRACEPOINT",
           "package": "ghc-events",
@@ -4557,6 +4966,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "nEVENT_PERF_TRACEPOINT",
           "package": "ghc-events",
@@ -4570,6 +4980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "n_caps",
           "package": "ghc-events",
@@ -4579,6 +4990,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "n_caps",
           "package": "ghc-events",
@@ -4591,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "name",
           "package": "ghc-events",
@@ -4600,6 +5013,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "name",
           "package": "ghc-events",
@@ -4612,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "name_id",
           "package": "ghc-events",
@@ -4621,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "name_id",
           "package": "ghc-events",
@@ -4633,6 +5049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "newCap",
           "package": "ghc-events",
@@ -4642,6 +5059,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "newCap",
           "package": "ghc-events",
@@ -4655,6 +5073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "new_cap",
           "package": "ghc-events",
@@ -4664,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "new_cap",
           "package": "ghc-events",
@@ -4676,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "nsec",
           "package": "ghc-events",
@@ -4685,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "nsec",
           "package": "ghc-events",
@@ -4697,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "num",
           "package": "ghc-events",
@@ -4706,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "num",
           "package": "ghc-events",
@@ -4718,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "otherCap",
           "package": "ghc-events",
@@ -4727,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "otherCap",
           "package": "ghc-events",
@@ -4740,6 +5166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "parMaxCopied",
           "package": "ghc-events",
@@ -4749,6 +5176,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "parMaxCopied",
           "package": "ghc-events",
@@ -4762,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "parNThreads",
           "package": "ghc-events",
@@ -4771,6 +5200,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "parNThreads",
           "package": "ghc-events",
@@ -4784,6 +5214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "parTotCopied",
           "package": "ghc-events",
@@ -4793,6 +5224,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "parTotCopied",
           "package": "ghc-events",
@@ -4806,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "perfNum",
           "package": "ghc-events",
@@ -4815,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "perfNum",
           "package": "ghc-events",
@@ -4828,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "period",
           "package": "ghc-events",
@@ -4837,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "period",
           "package": "ghc-events",
@@ -4849,6 +5285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "pid",
           "package": "ghc-events",
@@ -4858,6 +5295,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "pid",
           "package": "ghc-events",
@@ -4870,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ppEvent",
           "package": "ghc-events",
@@ -4879,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ppEvent",
           "normalized": "IntMap EventType-\u003eCapEvent-\u003eString",
@@ -4894,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ppEventLog",
           "package": "ghc-events",
@@ -4903,6 +5344,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ppEventLog",
           "normalized": "EventLog-\u003eString",
@@ -4918,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ppEventType",
           "package": "ghc-events",
@@ -4927,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ppEventType",
           "normalized": "EventType-\u003eString",
@@ -4942,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ppid",
           "package": "ghc-events",
@@ -4951,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ppid",
           "package": "ghc-events",
@@ -4963,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "readEventLogFromFile",
           "package": "ghc-events",
@@ -4972,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "readEventLogFromFile",
           "normalized": "FilePath-\u003eIO(Either String EventLog)",
@@ -4987,6 +5435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "ref",
           "package": "ghc-events",
@@ -4996,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "ref",
           "package": "ghc-events",
@@ -5008,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "rtsident",
           "package": "ghc-events",
@@ -5017,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "rtsident",
           "package": "ghc-events",
@@ -5029,6 +5481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sId",
           "package": "ghc-events",
@@ -5038,6 +5491,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sId",
           "package": "ghc-events",
@@ -5051,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sec",
           "package": "ghc-events",
@@ -5060,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sec",
           "package": "ghc-events",
@@ -5072,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "showEventInfo",
           "package": "ghc-events",
@@ -5081,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "showEventInfo",
           "normalized": "EventInfo-\u003eString",
@@ -5096,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "showThreadStopStatus",
           "package": "ghc-events",
@@ -5105,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "showThreadStopStatus",
           "normalized": "ThreadStopStatus-\u003eString",
@@ -5121,6 +5581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e indicates variable size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "size",
           "package": "ghc-events",
@@ -5131,6 +5592,7 @@
         "index": {
           "description": "Nothing indicates variable size",
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "size",
           "package": "ghc-events",
@@ -5143,6 +5605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sizeBytes",
           "package": "ghc-events",
@@ -5152,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sizeBytes",
           "package": "ghc-events",
@@ -5165,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "slop",
           "package": "ghc-events",
@@ -5174,6 +5639,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "slop",
           "package": "ghc-events",
@@ -5186,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sortEvents",
           "package": "ghc-events",
@@ -5195,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sortEvents",
           "normalized": "[Event]-\u003e[CapEvent]",
@@ -5211,6 +5679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort the raw event stream by time, annotating each event with the\n capability that generated it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sortGroups",
           "package": "ghc-events",
@@ -5221,6 +5690,7 @@
         "index": {
           "description": "Sort the raw event stream by time annotating each event with the capability that generated it",
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sortGroups",
           "normalized": "[(Maybe Int,[Event])]-\u003e[CapEvent]",
@@ -5236,6 +5706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sparkThread",
           "package": "ghc-events",
@@ -5245,6 +5716,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sparkThread",
           "package": "ghc-events",
@@ -5258,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "spark_id",
           "package": "ghc-events",
@@ -5267,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "spark_id",
           "package": "ghc-events",
@@ -5279,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sparksConverted",
           "package": "ghc-events",
@@ -5288,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sparksConverted",
           "package": "ghc-events",
@@ -5301,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sparksCreated",
           "package": "ghc-events",
@@ -5310,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sparksCreated",
           "package": "ghc-events",
@@ -5323,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sparksDud",
           "package": "ghc-events",
@@ -5332,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sparksDud",
           "package": "ghc-events",
@@ -5345,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sparksFizzled",
           "package": "ghc-events",
@@ -5354,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sparksFizzled",
           "package": "ghc-events",
@@ -5367,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sparksGCd",
           "package": "ghc-events",
@@ -5376,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sparksGCd",
           "package": "ghc-events",
@@ -5389,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sparksOverflowed",
           "package": "ghc-events",
@@ -5398,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sparksOverflowed",
           "package": "ghc-events",
@@ -5411,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sparksRemaining",
           "package": "ghc-events",
@@ -5420,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sparksRemaining",
           "package": "ghc-events",
@@ -5433,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "spec",
           "package": "ghc-events",
@@ -5442,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "spec",
           "package": "ghc-events",
@@ -5454,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "static_id",
           "package": "ghc-events",
@@ -5463,6 +5954,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "static_id",
           "package": "ghc-events",
@@ -5475,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "status",
           "package": "ghc-events",
@@ -5484,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "status",
           "package": "ghc-events",
@@ -5496,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "str",
           "package": "ghc-events",
@@ -5505,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "str",
           "package": "ghc-events",
@@ -5517,6 +6013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sz_kernel_tid",
           "package": "ghc-events",
@@ -5526,6 +6023,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sz_kernel_tid",
           "package": "ghc-events",
@@ -5538,6 +6036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "sz_perf_num",
           "package": "ghc-events",
@@ -5547,6 +6046,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "sz_perf_num",
           "package": "ghc-events",
@@ -5559,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "taskId",
           "package": "ghc-events",
@@ -5568,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "taskId",
           "package": "ghc-events",
@@ -5581,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "thread",
           "package": "ghc-events",
@@ -5590,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "thread",
           "package": "ghc-events",
@@ -5602,6 +6106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "thread_id",
           "package": "ghc-events",
@@ -5611,6 +6116,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "thread_id",
           "package": "ghc-events",
@@ -5623,6 +6129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "threadlabel",
           "package": "ghc-events",
@@ -5632,6 +6139,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "threadlabel",
           "package": "ghc-events",
@@ -5644,6 +6152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "tid",
           "package": "ghc-events",
@@ -5653,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "tid",
           "package": "ghc-events",
@@ -5665,6 +6175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "time",
           "package": "ghc-events",
@@ -5674,6 +6185,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "time",
           "package": "ghc-events",
@@ -5686,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "victimCap",
           "package": "ghc-events",
@@ -5695,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "victimCap",
           "package": "ghc-events",
@@ -5708,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:57 UTC 2014",
           "module": "GHC.RTS.Events",
           "name": "writeEventLogToFile",
           "package": "ghc-events",
@@ -5717,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS Events",
+          "indexed": "2014-03-11T18:15:57",
           "module": "GHC.RTS.Events",
           "name": "writeEventLogToFile",
           "normalized": "FilePath-\u003eEventLog-\u003eIO()",

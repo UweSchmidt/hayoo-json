@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-accessor-monads-fd"
+        "phrase": "data-accessor-monads-fd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess helper functions in the State monad class \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "State",
           "package": "data-accessor-monads-fd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Access helper functions in the State monad class",
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "State",
           "package": "data-accessor-monads-fd",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "(%=)",
           "package": "data-accessor-monads-fd",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Infix variant of set",
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "(%=) %=",
           "normalized": "T a b-\u003eb-\u003ec()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "(%:)",
           "package": "data-accessor-monads-fd",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Infix variant of modify",
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "(%:) %:",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ec()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "get",
           "package": "data-accessor-monads-fd",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "get",
           "normalized": "T a b-\u003ec b",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its old value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "getAndModify",
           "package": "data-accessor-monads-fd",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Modify record element and return its old value",
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "getAndModify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ec b",
@@ -140,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "lift",
           "package": "data-accessor-monads-fd",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "lift",
           "normalized": "T a b-\u003eState b c-\u003ed c",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "liftT",
           "package": "data-accessor-monads-fd",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "liftT",
           "normalized": "T a b-\u003eStateT b c d-\u003ee c d",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "modify",
           "package": "data-accessor-monads-fd",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "modify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ec()",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "modifyAndGet",
           "package": "data-accessor-monads-fd",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Modify record element and return its new value",
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "modifyAndGet",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ec b",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:18 UTC 2014",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "set",
           "package": "data-accessor-monads-fd",
@@ -244,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad FD State",
+          "indexed": "2014-03-11T17:47:18",
           "module": "Data.Accessor.Monad.FD.State",
           "name": "set",
           "normalized": "T a b-\u003eb-\u003ec()",

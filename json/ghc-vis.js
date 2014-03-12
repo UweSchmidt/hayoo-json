@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-vis"
+        "phrase": "ghc-vis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlthough ghc-vis is meant to be used in GHCi it can also be used as a library\nin regular Haskell programs which are run or compiled by GHC. You can run those\nprograms using \"runghc example.hs\" or \"ghc -threaded example.hs && ./example\".\nWithout the \"-threaded\"-Flag ghc-vis does not work correctly. This is an\nexample using ghc-vis outside of GHCi:\n\u003c/p\u003e\u003cpre\u003e import GHC.Vis\n\n main = do\n   putStrLn \"Start\"\n   let a = \"teeest\"\n   let b = [1..3]\n   let c = b ++ b\n   let d = [1..]\n   putStrLn $ show $ d !! 1\n\n   visualization\n   view a \"a\"\n   view b \"b\"\n   view c \"c\"\n   view d \"d\"\n\n   getChar\n   switch\n\n   getChar\n   putStrLn \"End\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "Vis",
           "package": "ghc-vis",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Although ghc-vis is meant to be used in GHCi it can also be used as library in regular Haskell programs which are run or compiled by GHC You can run those programs using runghc example.hs or ghc threaded example.hs example Without the threaded Flag ghc-vis does not work correctly This is an example using ghc-vis outside of GHCi import GHC.Vis main do putStrLn Start let teeest let let let putStrLn show visualization view view view view getChar switch getChar putStrLn End",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "Vis",
           "package": "ghc-vis",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the visualization window, removing all expressions from it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "clear",
           "package": "ghc-vis",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Clear the visualization window removing all expressions from it",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "clear",
           "normalized": "IO()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an object that is shown in the visualization. (Names start with \u003ccode\u003et\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "eval",
           "package": "ghc-vis",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Evaluate an object that is shown in the visualization Names start with",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "eval",
           "normalized": "String-\u003eIO()",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExport the current visualization view to a file, format depends on the\n   file ending. Currently supported: svg, png, pdf, ps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "export",
           "package": "ghc-vis",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Export the current visualization view to file format depends on the file ending Currently supported svg png pdf ps",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "export",
           "normalized": "String-\u003eIO()",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange position in history\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "history",
           "package": "ghc-vis",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Change position in history",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "history",
           "normalized": "(Int-\u003eInt)-\u003eIO()",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA minimalistic version of ghc-vis, without window decorations, help and\n   all that other stuff.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "mvis",
           "package": "ghc-vis",
@@ -152,6 +163,7 @@
         "index": {
           "description": "minimalistic version of ghc-vis without window decorations help and all that other stuff",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "mvis",
           "normalized": "IO()",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the hidden boxes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "restore",
           "package": "ghc-vis",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Reset the hidden boxes",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "restore",
           "normalized": "IO()",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the maximum depth for following closures on the heap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "setDepth",
           "package": "ghc-vis",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Set the maximum depth for following closures on the heap",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "setDepth",
           "normalized": "Int-\u003eIO()",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch between the list view and the graph view\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "switch",
           "package": "ghc-vis",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Switch between the list view and the graph view",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "switch",
           "normalized": "IO()",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen an object is updated by accessing it, you have to call this to\n   refresh the visualization window. You can also click on an object to force\n   an update.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "update",
           "package": "ghc-vis",
@@ -253,6 +272,7 @@
         "index": {
           "description": "When an object is updated by accessing it you have to call this to refresh the visualization window You can also click on an object to force an update",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "update",
           "normalized": "IO()",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd expressions with a name to the visualization window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "view",
           "package": "ghc-vis",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Add expressions with name to the visualization window",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "view",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -293,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the main function. It's to be called from GHCi and launches a\n   graphical window in a new thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:33 UTC 2014",
           "module": "GHC.Vis",
           "name": "vis",
           "package": "ghc-vis",
@@ -303,6 +326,7 @@
         "index": {
           "description": "This is the main function It to be called from GHCi and launches graphical window in new thread",
           "hierarchy": "GHC Vis",
+          "indexed": "2014-03-11T18:16:33",
           "module": "GHC.Vis",
           "name": "vis",
           "normalized": "IO()",

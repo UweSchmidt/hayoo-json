@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simgi"
+        "phrase": "simgi",
+        "type": "phrase"
       },
       "type": "context"
     }

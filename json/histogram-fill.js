@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "histogram-fill"
+        "phrase": "histogram-fill",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "Bin2D",
           "package": "histogram-fill",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "Bin2D",
           "package": "histogram-fill",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for Bin2D\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": ":\u003e\u003c:",
           "package": "histogram-fill",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Type alias for Bin2D",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": ":\u003e\u003c:",
           "package": "histogram-fill",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D bins. binX is binning along X axis and binY is one along Y\n   axis. Data is stored in row-major order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "Bin2D",
           "package": "histogram-fill",
@@ -71,6 +76,7 @@
         "index": {
           "description": "bins binX is binning along axis and binY is one along axis Data is stored in row-major order",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "Bin2D",
           "package": "histogram-fill",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eBin2D\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "(\u003e\u003c)",
           "package": "histogram-fill",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Alias for Bin2D",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a-\u003eb-\u003eBin D a b",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "Bin2D",
           "package": "histogram-fill",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "Bin2D",
           "package": "histogram-fill",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinning algorithm for X axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "binX",
           "package": "histogram-fill",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Binning algorithm for axis",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "binX",
           "package": "histogram-fill",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinning algorithm for Y axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "binY",
           "package": "histogram-fill",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Binning algorithm for axis",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "binY",
           "package": "histogram-fill",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to X binning algorithm. If new binning algorithm\n   have different number of bins will fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "fmapBinX",
           "package": "histogram-fill",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Apply function to binning algorithm If new binning algorithm have different number of bins will fail",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "fmapBinX",
           "normalized": "(a-\u003eb)-\u003eBin D a c-\u003eBin D b c",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to Y binning algorithm. If new binning algorithm\n   have different number of bins will fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "fmapBinY",
           "package": "histogram-fill",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Apply function to binning algorithm If new binning algorithm have different number of bins will fail",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "fmapBinY",
           "normalized": "(a-\u003eb)-\u003eBin D c a-\u003eBin D c b",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2-dimensional size of binning algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "nBins2D",
           "package": "histogram-fill",
@@ -240,6 +259,7 @@
         "index": {
           "description": "dimensional size of binning algorithm",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "nBins2D",
           "normalized": "Bin D a b-\u003e(Int,Int)",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert index into pair of indices for X and Y axes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "toIndex2D",
           "package": "histogram-fill",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Convert index into pair of indices for and axes",
           "hierarchy": "Data Histogram Bin Bin2D",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Bin2D",
           "name": "toIndex2D",
           "normalized": "Bin D a b-\u003eInt-\u003e(Int,Int)",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "BinEnum",
           "package": "histogram-fill",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin BinEnum",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "BinEnum",
           "package": "histogram-fill",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBin for types which are instnaces of Enum type class. Value are\n   converted to \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e first and then binned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "BinEnum",
           "package": "histogram-fill",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Bin for types which are instnaces of Enum type class Value are converted to Int using fromEnum first and then binned",
           "hierarchy": "Data Histogram Bin BinEnum",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "BinEnum",
           "package": "histogram-fill",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "BinEnum",
           "package": "histogram-fill",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin BinEnum",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "BinEnum",
           "package": "histogram-fill",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate enum based bin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "binEnum",
           "package": "histogram-fill",
@@ -358,6 +387,7 @@
         "index": {
           "description": "Create enum based bin",
           "hierarchy": "Data Histogram Bin BinEnum",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "binEnum",
           "normalized": "a-\u003ea-\u003eBinEnum a",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse full range of data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "binEnumFull",
           "package": "histogram-fill",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Use full range of data",
           "hierarchy": "Data Histogram Bin BinEnum",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinEnum",
           "name": "binEnumFull",
           "package": "histogram-fill",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "BinF",
           "package": "histogram-fill",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "BinF",
           "package": "histogram-fill",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating point bins of equal sizes. If you work with Doubles this\n   data type should be used instead of \u003ccode\u003e\u003ca\u003eBinF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "BinD",
           "package": "histogram-fill",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Floating point bins of equal sizes If you work with Doubles this data type should be used instead of BinF",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "BinD",
           "package": "histogram-fill",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating point bins of equal size. Use following function for\n   construction and inspection of value:\n\u003c/p\u003e\u003cpre\u003e b = binFstep (lowerLimit b) (binSize b) (nBins b)\n\u003c/pre\u003e\u003cp\u003ePerformance note. Since \u003ccode\u003eBinF\u003c/code\u003e is parametric in its value it\n   could not be unpacked and every access to data will require\n   pointer indirection. \u003ccode\u003e\u003ca\u003eBinD\u003c/a\u003e\u003c/code\u003e is binning specialized to \u003ccode\u003eDoubles\u003c/code\u003e\n   and it's always faster than \u003ccode\u003eBinF Double\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "BinF",
           "package": "histogram-fill",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Floating point bins of equal size Use following function for construction and inspection of value binFstep lowerLimit binSize nBins Performance note Since BinF is parametric in its value it could not be unpacked and every access to data will require pointer indirection BinD is binning specialized to Doubles and it always faster than BinF Double",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "BinF",
           "package": "histogram-fill",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binD",
           "package": "histogram-fill",
@@ -474,6 +513,7 @@
         "index": {
           "description": "Create bins",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binD",
           "normalized": "Double-\u003eInt-\u003eDouble-\u003eBinD",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate bins. Note that actual upper bound can differ from specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binDn",
           "package": "histogram-fill",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Create bins Note that actual upper bound can differ from specified",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binDn",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eBinD",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate bins\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binDstep",
           "package": "histogram-fill",
@@ -523,6 +566,7 @@
         "index": {
           "description": "Create bins",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binDstep",
           "normalized": "Double-\u003eDouble-\u003eInt-\u003eBinD",
@@ -539,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binF",
           "package": "histogram-fill",
@@ -548,6 +593,7 @@
         "index": {
           "description": "Create bins",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binF",
           "normalized": "a-\u003eInt-\u003ea-\u003eBinF a",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate bins. Note that actual upper bound can differ from specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binFn",
           "package": "histogram-fill",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Create bins Note that actual upper bound can differ from specified",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binFn",
           "normalized": "a-\u003ea-\u003ea-\u003eBinF a",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate bins\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binFstep",
           "package": "histogram-fill",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Create bins",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "binFstep",
           "normalized": "a-\u003ea-\u003eInt-\u003eBinF a",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'scaleBinF a b' scales BinF using linear transform 'a+b*x'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "scaleBinD",
           "package": "histogram-fill",
@@ -623,6 +674,7 @@
         "index": {
           "description": "scaleBinF scales BinF using linear transform",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "scaleBinD",
           "normalized": "Double-\u003eDouble-\u003eBinD-\u003eBinD",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'scaleBinF a b' scales BinF using linear transform 'a+b*x'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinF",
           "name": "scaleBinF",
           "package": "histogram-fill",
@@ -649,6 +702,7 @@
         "index": {
           "description": "scaleBinF scales BinF using linear transform",
           "hierarchy": "Data Histogram Bin BinF",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinF",
           "name": "scaleBinF",
           "normalized": "a-\u003ea-\u003eBinF a-\u003eBinF a",
@@ -664,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinI",
           "name": "BinI",
           "package": "histogram-fill",
@@ -672,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin BinI",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinI",
           "name": "BinI",
           "package": "histogram-fill",
@@ -686,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery simple binning algorithm. Each indices. Each number\n   correcsponds to different bin.\n\u003c/p\u003e\u003cp\u003eFor rountripping use \u003ccode\u003e\u003ca\u003elowerLimit\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eupperLimit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e b = binI (lowerLimit b) (upperLimit b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinI",
           "name": "BinI",
           "package": "histogram-fill",
@@ -695,6 +752,7 @@
         "index": {
           "description": "Very simple binning algorithm Each indices Each number correcsponds to different bin For rountripping use lowerLimit and upperLimit binI lowerLimit upperLimit",
           "hierarchy": "Data Histogram Bin BinI",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinI",
           "name": "BinI",
           "package": "histogram-fill",
@@ -709,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe constructor for BinI. It checks that upper bound is\n   greater or equal than lower bound\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinI",
           "name": "binI",
           "package": "histogram-fill",
@@ -718,6 +777,7 @@
         "index": {
           "description": "Safe constructor for BinI It checks that upper bound is greater or equal than lower bound",
           "hierarchy": "Data Histogram Bin BinI",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinI",
           "name": "binI",
           "normalized": "Int-\u003eInt-\u003eBinI",
@@ -733,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct BinI with n bins. Indexing starts from 0. n must be positive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinI",
           "name": "binI0",
           "package": "histogram-fill",
@@ -742,6 +803,7 @@
         "index": {
           "description": "Construct BinI with bins Indexing starts from must be positive",
           "hierarchy": "Data Histogram Bin BinI",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinI",
           "name": "binI0",
           "normalized": "Int-\u003eBinI",
@@ -756,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "BinInt",
           "package": "histogram-fill",
@@ -764,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin BinInt",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "BinInt",
           "package": "histogram-fill",
@@ -778,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger bins of equal size. For roundtripping use:\n\u003c/p\u003e\u003cpre\u003e b = binIntStep (lowerLimit b) (binSize b) (nBins b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "BinInt",
           "package": "histogram-fill",
@@ -787,6 +852,7 @@
         "index": {
           "description": "Integer bins of equal size For roundtripping use binIntStep lowerLimit binSize nBins",
           "hierarchy": "Data Histogram Bin BinInt",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "BinInt",
           "package": "histogram-fill",
@@ -800,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "BinInt",
           "package": "histogram-fill",
@@ -809,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin BinInt",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "BinInt",
           "package": "histogram-fill",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct BinInt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "binInt",
           "package": "histogram-fill",
@@ -832,6 +901,7 @@
         "index": {
           "description": "Construct BinInt",
           "hierarchy": "Data Histogram Bin BinInt",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "binInt",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eBinInt",
@@ -848,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct \u003ccode\u003e\u003ca\u003eBinInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "binIntN",
           "package": "histogram-fill",
@@ -857,6 +928,7 @@
         "index": {
           "description": "Construct BinInt",
           "hierarchy": "Data Histogram Bin BinInt",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "binIntN",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eBinInt",
@@ -872,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "binIntStep",
           "package": "histogram-fill",
@@ -880,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin BinInt",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.BinInt",
           "name": "binIntStep",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eBinInt",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType classes for binning algorithms. This is mapping from set of\n interest to integer indices and approximate reverse.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "Classes",
           "package": "histogram-fill",
@@ -905,6 +980,7 @@
         "index": {
           "description": "Type classes for binning algorithms This is mapping from set of interest to integer indices and approximate reverse",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "Classes",
           "package": "histogram-fill",
@@ -919,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represent some abstract data binning algorithms. It\n   maps sets/intervals of values of type 'BinValue b' to integer\n   indices.\n\u003c/p\u003e\u003cp\u003eFollowing invariant is expected to hold:\n\u003c/p\u003e\u003cpre\u003e toIndex . fromIndex == id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "Bin",
           "package": "histogram-fill",
@@ -928,6 +1005,7 @@
         "index": {
           "description": "This type represent some abstract data binning algorithms It maps sets intervals of values of type BinValue to integer indices Following invariant is expected to hold toIndex fromIndex id",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "Bin",
           "package": "histogram-fill",
@@ -942,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIntervalBin\u003c/a\u003e\u003c/code\u003e which domain is single finite interval\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "Bin1D",
           "package": "histogram-fill",
@@ -951,6 +1030,7 @@
         "index": {
           "description": "IntervalBin which domain is single finite interval",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "Bin1D",
           "package": "histogram-fill",
@@ -965,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate equality for bins. It's nessesary to define\n   approximate equality since exact equality is ill defined for bins\n   which work with floating point data. It's not safe to compare\n   floating point numbers for exact equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "BinEq",
           "package": "histogram-fill",
@@ -974,6 +1055,7 @@
         "index": {
           "description": "Approximate equality for bins It nessesary to define approximate equality since exact equality is ill defined for bins which work with floating point data It not safe to compare floating point numbers for exact equality",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "BinEq",
           "package": "histogram-fill",
@@ -988,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for conversion between binning algorithms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "ConvertBin",
           "package": "histogram-fill",
@@ -997,6 +1080,7 @@
         "index": {
           "description": "Class for conversion between binning algorithms",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "ConvertBin",
           "package": "histogram-fill",
@@ -1011,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow index should be dropped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "CutDirection",
           "package": "histogram-fill",
@@ -1020,6 +1105,7 @@
         "index": {
           "description": "How index should be dropped",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "CutDirection",
           "package": "histogram-fill",
@@ -1034,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor binning algorithms which work with bin values which have some\n   natural ordering and every bin is continous interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "IntervalBin",
           "package": "histogram-fill",
@@ -1043,6 +1130,7 @@
         "index": {
           "description": "For binning algorithms which work with bin values which have some natural ordering and every bin is continous interval",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "IntervalBin",
           "package": "histogram-fill",
@@ -1057,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBin which support rebinning. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "MergeableBin",
           "package": "histogram-fill",
@@ -1066,6 +1155,7 @@
         "index": {
           "description": "Bin which support rebinning",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "MergeableBin",
           "package": "histogram-fill",
@@ -1080,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinning algorithm which support slicing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "SliceableBin",
           "package": "histogram-fill",
@@ -1089,6 +1180,7 @@
         "index": {
           "description": "Binning algorithm which support slicing",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "SliceableBin",
           "package": "histogram-fill",
@@ -1103,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1D binning algorithms with constant size bins. Constant sized\n   bins could be thought as specialization of variable-sized bins\n   therefore a superclass constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "UniformBin",
           "package": "histogram-fill",
@@ -1112,6 +1205,7 @@
         "index": {
           "description": "binning algorithms with constant size bins Constant sized bins could be thought as specialization of variable-sized bins therefore superclass constraint",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "UniformBin",
           "package": "histogram-fill",
@@ -1126,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1D binning algorithms with variable bin size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "VariableBin",
           "package": "histogram-fill",
@@ -1135,6 +1230,7 @@
         "index": {
           "description": "binning algorithms with variable bin size",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "VariableBin",
           "package": "histogram-fill",
@@ -1149,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop bins with bigger index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "CutHigher",
           "package": "histogram-fill",
@@ -1159,6 +1256,7 @@
         "index": {
           "description": "Drop bins with bigger index",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "CutHigher",
           "package": "histogram-fill",
@@ -1173,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop bins with smallest index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "CutLower",
           "package": "histogram-fill",
@@ -1183,6 +1282,7 @@
         "index": {
           "description": "Drop bins with smallest index",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "CutLower",
           "package": "histogram-fill",
@@ -1197,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binEq",
           "package": "histogram-fill",
@@ -1207,6 +1308,7 @@
         "index": {
           "description": "Approximate equality",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binEq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1223,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval for n'th bin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binInterval",
           "package": "histogram-fill",
@@ -1233,6 +1336,7 @@
         "index": {
           "description": "Interval for th bin",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binInterval",
           "normalized": "a-\u003eInt-\u003e(BinValue a,BinValue a)",
@@ -1249,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of bin. Default implementation just uses 0th bin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binSize",
           "package": "histogram-fill",
@@ -1259,6 +1364,7 @@
         "index": {
           "description": "Size of bin Default implementation just uses th bin",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binSize",
           "normalized": "a-\u003eBinValue a",
@@ -1275,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of n'th bin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binSizeN",
           "package": "histogram-fill",
@@ -1285,6 +1392,7 @@
         "index": {
           "description": "Size of th bin",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binSizeN",
           "normalized": "a-\u003eInt-\u003eBinValue a",
@@ -1301,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn vector of bin centers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binsCenters",
           "package": "histogram-fill",
@@ -1311,6 +1420,7 @@
         "index": {
           "description": "Return vector of bin centers",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binsCenters",
           "normalized": "a-\u003eb(BinValue a)",
@@ -1327,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all bins. Could be overridden for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binsList",
           "package": "histogram-fill",
@@ -1337,6 +1448,7 @@
         "index": {
           "description": "List of all bins Could be overridden for efficiency",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "binsList",
           "normalized": "a-\u003eb(BinValue a,BinValue a)",
@@ -1353,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert bins\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "convertBin",
           "package": "histogram-fill",
@@ -1363,6 +1476,7 @@
         "index": {
           "description": "Convert bins",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "convertBin",
           "normalized": "a-\u003eb",
@@ -1379,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from index to value. Returned value should correspond\n   to center of bin. Definition of center is left for definition\n   of instance. Funtion may fail for invalid indices but\n   encouraged not to do so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "fromIndex",
           "package": "histogram-fill",
@@ -1389,6 +1504,7 @@
         "index": {
           "description": "Convert from index to value Returned value should correspond to center of bin Definition of center is left for definition of instance Funtion may fail for invalid indices but encouraged not to do so",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "fromIndex",
           "normalized": "a-\u003eInt-\u003eBinValue a",
@@ -1405,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether value in range. Have default\n   implementation. Should satisfy:\n   inRange b x &#8660; toIndex b x &#8712; [0,nBins b)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "inRange",
           "package": "histogram-fill",
@@ -1415,6 +1532,7 @@
         "index": {
           "description": "Check whether value in range Have default implementation Should satisfy inRange toIndex nBins",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "inRange",
           "normalized": "a-\u003eBinValue a-\u003eBool",
@@ -1431,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal accepted value of histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "lowerLimit",
           "package": "histogram-fill",
@@ -1441,6 +1560,7 @@
         "index": {
           "description": "Minimal accepted value of histogram",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "lowerLimit",
           "normalized": "a-\u003eBinValue a",
@@ -1457,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eN\u003c/code\u003e consecutive bins are joined into single bin. If number of\n   bins isn't multiple of \u003ccode\u003eN\u003c/code\u003e remaining bins with highest or lowest\n   index are dropped. If \u003ccode\u003eN\u003c/code\u003e is larger than number of bins all bins\n   are merged into single one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "mergeBins",
           "package": "histogram-fill",
@@ -1467,6 +1588,7 @@
         "index": {
           "description": "consecutive bins are joined into single bin If number of bins isn multiple of remaining bins with highest or lowest index are dropped If is larger than number of bins all bins are merged into single one",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "mergeBins",
           "normalized": "CutDirection-\u003eInt-\u003ea-\u003ea",
@@ -1483,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal number of bins. Must be non-negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "nBins",
           "package": "histogram-fill",
@@ -1493,6 +1616,7 @@
         "index": {
           "description": "Total number of bins Must be non-negative",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "nBins",
           "normalized": "a-\u003eInt",
@@ -1509,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlice bin using indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "sliceBin",
           "package": "histogram-fill",
@@ -1519,6 +1644,7 @@
         "index": {
           "description": "Slice bin using indices",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "sliceBin",
           "normalized": "Int-\u003eInt-\u003ea-\u003ea",
@@ -1535,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from value to index. Function must not fail for any\n   input and should produce out of range indices for invalid input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "toIndex",
           "package": "histogram-fill",
@@ -1545,6 +1672,7 @@
         "index": {
           "description": "Convert from value to index Function must not fail for any input and should produce out of range indices for invalid input",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "toIndex",
           "normalized": "a-\u003eBinValue a-\u003eInt",
@@ -1561,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eN\u003c/code\u003e consecutive bins are joined into single bin. If number of\n   bins isn't multiple of \u003ccode\u003eN\u003c/code\u003e remaining bins with highest or\n   lowest index are dropped. This function doesn't do any\n   checks. Use \u003ccode\u003e\u003ca\u003emergeBins\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "unsafeMergeBins",
           "package": "histogram-fill",
@@ -1571,6 +1700,7 @@
         "index": {
           "description": "consecutive bins are joined into single bin If number of bins isn multiple of remaining bins with highest or lowest index are dropped This function doesn do any checks Use mergeBins instead",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "unsafeMergeBins",
           "normalized": "CutDirection-\u003eInt-\u003ea-\u003ea",
@@ -1587,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlice bin by indices. This function doesn't perform any checks\n   and may produce invalid bin. Use \u003ccode\u003e\u003ca\u003esliceBin\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "unsafeSliceBin",
           "package": "histogram-fill",
@@ -1597,6 +1728,7 @@
         "index": {
           "description": "Slice bin by indices This function doesn perform any checks and may produce invalid bin Use sliceBin instead",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "unsafeSliceBin",
           "normalized": "Int-\u003eInt-\u003ea-\u003ea",
@@ -1613,6 +1745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximal accepted value of histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Classes",
           "name": "upperLimit",
           "package": "histogram-fill",
@@ -1623,6 +1756,7 @@
         "index": {
           "description": "Maximal accepted value of histogram",
           "hierarchy": "Data Histogram Bin Classes",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Classes",
           "name": "upperLimit",
           "normalized": "a-\u003eBinValue a",
@@ -1639,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra binning algorithms\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "Extra",
           "package": "histogram-fill",
@@ -1648,6 +1783,7 @@
         "index": {
           "description": "Extra binning algorithms",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "Extra",
           "package": "histogram-fill",
@@ -1662,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinning for 2D enumerations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "BinEnum2D",
           "package": "histogram-fill",
@@ -1671,6 +1808,7 @@
         "index": {
           "description": "Binning for enumerations",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "BinEnum2D",
           "package": "histogram-fill",
@@ -1685,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect permutation of indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "BinPermute",
           "package": "histogram-fill",
@@ -1694,6 +1833,7 @@
         "index": {
           "description": "Direct permutation of indices",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "BinPermute",
           "package": "histogram-fill",
@@ -1708,6 +1848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class very similar to \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e but elements of type are\n   enumerated on 2-dimensional grid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "Enum2D",
           "package": "histogram-fill",
@@ -1717,6 +1858,7 @@
         "index": {
           "description": "Type class very similar to Enum but elements of type are enumerated on dimensional grid",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "Enum2D",
           "package": "histogram-fill",
@@ -1731,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct indexed bin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "binEnum2D",
           "package": "histogram-fill",
@@ -1741,6 +1884,7 @@
         "index": {
           "description": "Construct indexed bin",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "binEnum2D",
           "normalized": "a-\u003ea-\u003eBinEnum D a",
@@ -1757,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert value to index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "fromEnum2D",
           "package": "histogram-fill",
@@ -1767,6 +1912,7 @@
         "index": {
           "description": "Convert value to index",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "fromEnum2D",
           "normalized": "a-\u003e(Int,Int)",
@@ -1783,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstuct bin permutation from function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "permuteBin",
           "package": "histogram-fill",
@@ -1793,6 +1940,7 @@
         "index": {
           "description": "Constuct bin permutation from function",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "permuteBin",
           "normalized": "a-\u003e(Int-\u003eInt)-\u003eMaybe(BinPermute a)",
@@ -1809,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstuct bin permutation from table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "permuteByTable",
           "package": "histogram-fill",
@@ -1819,6 +1968,7 @@
         "index": {
           "description": "Constuct bin permutation from table",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "permuteByTable",
           "normalized": "a-\u003eVector Int-\u003eMaybe(BinPermute a)",
@@ -1835,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert index to value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Extra",
           "name": "toEnum2D",
           "package": "histogram-fill",
@@ -1845,6 +1996,7 @@
         "index": {
           "description": "Convert index to value",
           "hierarchy": "Data Histogram Bin Extra",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Extra",
           "name": "toEnum2D",
           "normalized": "(Int,Int)-\u003ea",
@@ -1860,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "LogBinD",
           "package": "histogram-fill",
@@ -1868,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin LogBinD",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "LogBinD",
           "package": "histogram-fill",
@@ -1882,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform binning in logarithmic scale. For roundtripping use:\n\u003c/p\u003e\u003cpre\u003e b = logBinDN (lowerLimit b) (logBinDIncrement b) (nBins b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "LogBinD",
           "package": "histogram-fill",
@@ -1891,6 +2046,7 @@
         "index": {
           "description": "Uniform binning in logarithmic scale For roundtripping use logBinDN lowerLimit logBinDIncrement nBins",
           "hierarchy": "Data Histogram Bin LogBinD",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "LogBinD",
           "package": "histogram-fill",
@@ -1905,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate log-scale binning algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "logBinD",
           "package": "histogram-fill",
@@ -1914,6 +2071,7 @@
         "index": {
           "description": "Create log-scale binning algorithm",
           "hierarchy": "Data Histogram Bin LogBinD",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "logBinD",
           "normalized": "Double-\u003eInt-\u003eDouble-\u003eLogBinD",
@@ -1930,6 +2088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement ratio for \u003ccode\u003e\u003ca\u003eLogBinD\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "logBinDIncrement",
           "package": "histogram-fill",
@@ -1940,6 +2099,7 @@
         "index": {
           "description": "Increment ratio for LogBinD",
           "hierarchy": "Data Histogram Bin LogBinD",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "logBinDIncrement",
           "normalized": "LogBinD-\u003eDouble",
@@ -1955,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "logBinDN",
           "package": "histogram-fill",
@@ -1963,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin LogBinD",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.LogBinD",
           "name": "logBinDN",
           "normalized": "Double-\u003eDouble-\u003eInt-\u003eLogBinD",
@@ -1978,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.MaybeBin",
           "name": "MaybeBin",
           "package": "histogram-fill",
@@ -1986,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin MaybeBin",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.MaybeBin",
           "name": "MaybeBin",
           "package": "histogram-fill",
@@ -2000,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis binning algorithms adds special case of no value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.MaybeBin",
           "name": "MaybeBin",
           "package": "histogram-fill",
@@ -2009,6 +2174,7 @@
         "index": {
           "description": "This binning algorithms adds special case of no value",
           "hierarchy": "Data Histogram Bin MaybeBin",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.MaybeBin",
           "name": "MaybeBin",
           "package": "histogram-fill",
@@ -2022,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.MaybeBin",
           "name": "MaybeBin",
           "package": "histogram-fill",
@@ -2031,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Bin MaybeBin",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.MaybeBin",
           "name": "MaybeBin",
           "package": "histogram-fill",
@@ -2045,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop bin with no events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.MaybeBin",
           "name": "fromMaybeBin",
           "package": "histogram-fill",
@@ -2055,6 +2224,7 @@
         "index": {
           "description": "Drop bin with no events",
           "hierarchy": "Data Histogram Bin MaybeBin",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.MaybeBin",
           "name": "fromMaybeBin",
           "normalized": "Histogram a(MaybeBin b)c-\u003eHistogram a b c",
@@ -2071,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelper function for defining Read instances for bin data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Read",
           "name": "Read",
           "package": "histogram-fill",
@@ -2080,6 +2251,7 @@
         "index": {
           "description": "Helper function for defining Read instances for bin data types",
           "hierarchy": "Data Histogram Bin Read",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Read",
           "name": "Read",
           "package": "histogram-fill",
@@ -2094,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd of line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Read",
           "name": "eol",
           "package": "histogram-fill",
@@ -2104,6 +2277,7 @@
         "index": {
           "description": "End of line",
           "hierarchy": "Data Histogram Bin Read",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Read",
           "name": "eol",
           "package": "histogram-fill",
@@ -2117,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Read",
           "name": "keyword",
           "package": "histogram-fill",
@@ -2127,6 +2302,7 @@
         "index": {
           "description": "Keyword",
           "hierarchy": "Data Histogram Bin Read",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Read",
           "name": "keyword",
           "normalized": "String-\u003eReadPrec()",
@@ -2142,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Read",
           "name": "maybeValue",
           "package": "histogram-fill",
@@ -2152,6 +2329,7 @@
         "index": {
           "description": "Return optional value",
           "hierarchy": "Data Histogram Bin Read",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Read",
           "name": "maybeValue",
           "normalized": "String-\u003eReadPrec(Maybe a)",
@@ -2168,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey value pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Read",
           "name": "value",
           "package": "histogram-fill",
@@ -2178,6 +2357,7 @@
         "index": {
           "description": "Key value pair",
           "hierarchy": "Data Histogram Bin Read",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Read",
           "name": "value",
           "normalized": "String-\u003eReadPrec a",
@@ -2193,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhitespaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin.Read",
           "name": "ws",
           "package": "histogram-fill",
@@ -2203,6 +2384,7 @@
         "index": {
           "description": "Whitespaces",
           "hierarchy": "Data Histogram Bin Read",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin.Read",
           "name": "ws",
           "package": "histogram-fill",
@@ -2216,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinning algorithms. This is mapping from set of interest to integer\n indices and approximate reverse.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Bin",
           "name": "Bin",
           "package": "histogram-fill",
@@ -2225,6 +2408,7 @@
         "index": {
           "description": "Binning algorithms This is mapping from set of interest to integer indices and approximate reverse",
           "hierarchy": "Data Histogram Bin",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Bin",
           "name": "Bin",
           "package": "histogram-fill",
@@ -2239,6 +2423,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStateful and pure (still stateful under the hood) accumulators. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "Fill",
           "package": "histogram-fill",
@@ -2248,6 +2433,7 @@
         "index": {
           "description": "Stateful and pure still stateful under the hood accumulators",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "Fill",
           "package": "histogram-fill",
@@ -2262,6 +2448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around stateful histogram builder. It is much more\n   convenient to work with than \u003ccode\u003e\u003ca\u003eHBuilderM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "HBuilder",
           "package": "histogram-fill",
@@ -2271,6 +2458,7 @@
         "index": {
           "description": "Wrapper around stateful histogram builder It is much more convenient to work with than HBuilderM",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "HBuilder",
           "package": "histogram-fill",
@@ -2285,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStateful histogram builder. Adding value to builder could be done\n   with \u003ccode\u003e\u003ca\u003efeedOne\u003c/a\u003e\u003c/code\u003e and result could be extracted with\n   \u003ccode\u003e\u003ca\u003efreezeHBuilderM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThere are two ways to obtain stateful builder. First and\n   recommended is to thaw \u003ccode\u003e\u003ca\u003eHBuilder\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003etoHBuilderIO\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003etoHBuilderST\u003c/a\u003e\u003c/code\u003e. Second is to use \u003ccode\u003e\u003ca\u003emkStatefulBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "HBuilderM",
           "package": "histogram-fill",
@@ -2294,6 +2483,7 @@
         "index": {
           "description": "Stateful histogram builder Adding value to builder could be done with feedOne and result could be extracted with freezeHBuilderM There are two ways to obtain stateful builder First and recommended is to thaw HBuilder using toHBuilderIO or toHBuilderST Second is to use mkStatefulBuilder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "HBuilderM",
           "package": "histogram-fill",
@@ -2308,6 +2498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for stateful accumulators. In this module they are\n   called builders. Every builder is parametrized by two\n   types. First one is type of values which are fed to accumulator\n   and second one is type of values which could be extracted from\n   it.\n\u003c/p\u003e\u003cp\u003eEvery instance of \u003ccode\u003e\u003ca\u003eHBuilder\u003c/a\u003e\u003c/code\u003e should be instance of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e too\n   and satisfy \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e == \u003ccode\u003e\u003ca\u003emodifyOut\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "HistBuilder",
           "package": "histogram-fill",
@@ -2317,6 +2508,7 @@
         "index": {
           "description": "Type class for stateful accumulators In this module they are called builders Every builder is parametrized by two types First one is type of values which are fed to accumulator and second one is type of values which could be extracted from it Every instance of HBuilder should be instance of Functor too and satisfy fmap modifyOut",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "HistBuilder",
           "package": "histogram-fill",
@@ -2331,6 +2523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify output of histogram. In fact it's same as \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e but have opposite fixity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "(-\u003c\u003c)",
           "package": "histogram-fill",
@@ -2341,6 +2534,7 @@
         "index": {
           "description": "Modify output of histogram In fact it same as but have opposite fixity",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "(-\u003c\u003c) -\u003c\u003c",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -2356,6 +2550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify input of builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "(\u003c\u003c-)",
           "package": "histogram-fill",
@@ -2366,6 +2561,7 @@
         "index": {
           "description": "Modify input of builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "(\u003c\u003c-) \u003c\u003c-",
           "normalized": "a b c-\u003e(d-\u003eb)-\u003ea d c",
@@ -2381,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify input of builder to use composite input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "(\u003c\u003c-|)",
           "package": "histogram-fill",
@@ -2391,6 +2588,7 @@
         "index": {
           "description": "Modify input of builder to use composite input",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "(\u003c\u003c-|) \u003c\u003c-|",
           "normalized": "a b c-\u003e(d-\u003ee b)-\u003ea d c",
@@ -2406,6 +2604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function which modify builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "(\u003c\u003c-$)",
           "package": "histogram-fill",
@@ -2416,6 +2615,7 @@
         "index": {
           "description": "Apply function which modify builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "(\u003c\u003c-$) \u003c\u003c-$",
           "normalized": "a b c-\u003e(a b c-\u003ea d c)-\u003ea d c",
@@ -2431,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd cut for input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "(\u003c\u003c?)",
           "package": "histogram-fill",
@@ -2441,6 +2642,7 @@
         "index": {
           "description": "Add cut for input",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "(\u003c\u003c?) \u003c\u003c?",
           "normalized": "a b c-\u003e(b-\u003eBool)-\u003ea b c",
@@ -2455,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "HBuilder",
           "package": "histogram-fill",
@@ -2464,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "HBuilder",
           "package": "histogram-fill",
@@ -2477,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "HBuilderM",
           "package": "histogram-fill",
@@ -2486,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "HBuilderM",
           "package": "histogram-fill",
@@ -2500,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd cut to histogram. Value would be putted into histogram\n   only if condition is true. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "addCut",
           "package": "histogram-fill",
@@ -2510,6 +2717,7 @@
         "index": {
           "description": "Add cut to histogram Value would be putted into histogram only if condition is true",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "addCut",
           "normalized": "(a-\u003eBool)-\u003eb a c-\u003eb a c",
@@ -2526,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut one item into histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "feedOne",
           "package": "histogram-fill",
@@ -2536,6 +2745,7 @@
         "index": {
           "description": "Put one item into histogram",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "feedOne",
           "normalized": "HBuilderM a b c-\u003eb-\u003ea()",
@@ -2552,6 +2762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill histogram builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "fillBuilder",
           "package": "histogram-fill",
@@ -2562,6 +2773,7 @@
         "index": {
           "description": "Fill histogram builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "fillBuilder",
           "normalized": "HBuilder a b-\u003ec a-\u003eb",
@@ -2578,6 +2790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill histogram builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "fillBuilderVec",
           "package": "histogram-fill",
@@ -2588,6 +2801,7 @@
         "index": {
           "description": "Fill histogram builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "fillBuilderVec",
           "normalized": "HBuilder a b-\u003ec a-\u003eb",
@@ -2603,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "forceDouble",
           "package": "histogram-fill",
@@ -2612,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "forceDouble",
           "normalized": "Histogram a b Double-\u003eHistogram a b Double",
@@ -2627,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "forceFloat",
           "package": "histogram-fill",
@@ -2636,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "forceFloat",
           "normalized": "Histogram a b Float-\u003eHistogram a b Float",
@@ -2651,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "forceInt",
           "package": "histogram-fill",
@@ -2660,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "forceInt",
           "normalized": "Histogram a b Int-\u003eHistogram a b Int",
@@ -2676,6 +2896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract result from histogram builder. It's safe to call this\n   function multiple times and mutate builder afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "freezeHBuilderM",
           "package": "histogram-fill",
@@ -2686,6 +2907,7 @@
         "index": {
           "description": "Extract result from histogram builder It safe to call this function multiple times and mutate builder afterwards",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "freezeHBuilderM",
           "normalized": "HBuilderM a b c-\u003ea c",
@@ -2702,6 +2924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut all values in container into builder \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "fromContainer",
           "package": "histogram-fill",
@@ -2712,6 +2935,7 @@
         "index": {
           "description": "Put all values in container into builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "fromContainer",
           "package": "histogram-fill",
@@ -2725,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "hbInput",
           "package": "histogram-fill",
@@ -2734,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "hbInput",
           "normalized": "a-\u003eb()",
@@ -2749,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "hbOutput",
           "package": "histogram-fill",
@@ -2758,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "hbOutput",
           "package": "histogram-fill",
@@ -2772,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Traversable.sequenceA instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eJoin hitogram builders in container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "joinHBuilder",
           "package": "histogram-fill",
@@ -2782,6 +3011,7 @@
         "index": {
           "description": "Deprecated Use Data.Traversable.sequenceA instead Join hitogram builders in container",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "joinHBuilder",
           "normalized": "a(HBuilder b c)-\u003eHBuilder b(a c)",
@@ -2798,6 +3028,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Traversable.sequenceA instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eJoin histogram builders in container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "joinHBuilderM",
           "package": "histogram-fill",
@@ -2808,6 +3039,7 @@
         "index": {
           "description": "Deprecated Use Data.Traversable.sequenceA instead Join histogram builders in container",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "joinHBuilderM",
           "normalized": "a(HBuilderM b c d)-\u003eHBuilderM b c(a d)",
@@ -2824,6 +3056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate most generic histogram builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkFoldBuilder",
           "package": "histogram-fill",
@@ -2833,6 +3066,7 @@
         "index": {
           "description": "Create most generic histogram builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkFoldBuilder",
           "normalized": "a-\u003eb-\u003e(b-\u003ec-\u003eb)-\u003eHBuilder(BinValue a,c)(Histogram a b)",
@@ -2849,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate most generic histogram builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkFoldBuilderG",
           "package": "histogram-fill",
@@ -2858,6 +3093,7 @@
         "index": {
           "description": "Create most generic histogram builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkFoldBuilderG",
           "normalized": "a-\u003eb-\u003e(b-\u003ec-\u003eb)-\u003eHBuilder(BinValue a,c)(Histogram d a b)",
@@ -2874,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate histogram builder which just does ordinary pure fold. It\n   is intended for use when some fold should be performed together\n   with histogram filling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkFolder",
           "package": "histogram-fill",
@@ -2884,6 +3121,7 @@
         "index": {
           "description": "Create histogram builder which just does ordinary pure fold It is intended for use when some fold should be performed together with histogram filling",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkFolder",
           "normalized": "a-\u003e(b-\u003ea-\u003ea)-\u003eHBuilder b a",
@@ -2900,6 +3138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate builder. New value wil be mappended to current content of\n   a bin for each item put into histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkMonoidal",
           "package": "histogram-fill",
@@ -2910,6 +3149,7 @@
         "index": {
           "description": "Create builder New value wil be mappended to current content of bin for each item put into histogram",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkMonoidal",
           "normalized": "a-\u003eHBuilder(BinValue a,b)(Histogram a b)",
@@ -2926,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate builder. New value wil be mappended to current content of\n   a bin for each item put into histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkMonoidalG",
           "package": "histogram-fill",
@@ -2936,6 +3177,7 @@
         "index": {
           "description": "Create builder New value wil be mappended to current content of bin for each item put into histogram",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkMonoidalG",
           "normalized": "a-\u003eHBuilder(BinValue a,b)(Histogram c a b)",
@@ -2952,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate builder. Bin content will be incremented by 1 for each\n   item put into histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkSimple",
           "package": "histogram-fill",
@@ -2962,6 +3205,7 @@
         "index": {
           "description": "Create builder Bin content will be incremented by for each item put into histogram",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkSimple",
           "normalized": "a-\u003eHBuilder(BinValue a)(Histogram a b)",
@@ -2978,6 +3222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate builder. Bin content will be incremented by 1 for each\n   item put into histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkSimpleG",
           "package": "histogram-fill",
@@ -2988,6 +3233,7 @@
         "index": {
           "description": "Create builder Bin content will be incremented by for each item put into histogram",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkSimpleG",
           "normalized": "a-\u003eHBuilder(BinValue a)(Histogram b a c)",
@@ -3004,6 +3250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate stateful histogram builder. Output function should be safe\n   to call multiple times and builder could be modified afterwards.\n   So functions like \u003ccode\u003eunsafeFreeze\u003c/code\u003e from \u003ccode\u003evector\u003c/code\u003e couldn't be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkStatefulBuilder",
           "package": "histogram-fill",
@@ -3013,6 +3260,7 @@
         "index": {
           "description": "Create stateful histogram builder Output function should be safe to call multiple times and builder could be modified afterwards So functions like unsafeFreeze from vector couldn be used",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkStatefulBuilder",
           "normalized": "(a-\u003eb())-\u003eb c-\u003eHBuilderM b a c",
@@ -3029,6 +3277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate builder. Bin content will incremented by weight supplied\n   for each item put into histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkWeighted",
           "package": "histogram-fill",
@@ -3039,6 +3288,7 @@
         "index": {
           "description": "Create builder Bin content will incremented by weight supplied for each item put into histogram",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkWeighted",
           "normalized": "a-\u003eHBuilder(BinValue a,b)(Histogram a b)",
@@ -3055,6 +3305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate builder. Bin content will incremented by weight supplied\n   for each item put into histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "mkWeightedG",
           "package": "histogram-fill",
@@ -3065,6 +3316,7 @@
         "index": {
           "description": "Create builder Bin content will incremented by weight supplied for each item put into histogram",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "mkWeightedG",
           "normalized": "a-\u003eHBuilder(BinValue a,b)(Histogram c a b)",
@@ -3081,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange input of builder by applying function to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "modifyIn",
           "package": "histogram-fill",
@@ -3091,6 +3344,7 @@
         "index": {
           "description": "Change input of builder by applying function to it",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "modifyIn",
           "normalized": "(a-\u003eb)-\u003ec b d-\u003ec a d",
@@ -3107,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function to output of histogram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "modifyOut",
           "package": "histogram-fill",
@@ -3117,6 +3372,7 @@
         "index": {
           "description": "Apply function to output of histogram",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "modifyOut",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -3133,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert builder to builder in IO monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "toHBuilderIO",
           "package": "histogram-fill",
@@ -3143,6 +3400,7 @@
         "index": {
           "description": "Convert builder to builder in IO monad",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "toHBuilderIO",
           "normalized": "HBuilder a b-\u003eIO(HBuilderM IO a b)",
@@ -3159,6 +3417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert builder to stateful builder in primitive monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "toHBuilderM",
           "package": "histogram-fill",
@@ -3169,6 +3428,7 @@
         "index": {
           "description": "Convert builder to stateful builder in primitive monad",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "toHBuilderM",
           "normalized": "HBuilder a b-\u003ec(HBuilderM c a b)",
@@ -3185,6 +3445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert builder to stateful builder in ST monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "toHBuilderST",
           "package": "histogram-fill",
@@ -3195,6 +3456,7 @@
         "index": {
           "description": "Convert builder to stateful builder in ST monad",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "toHBuilderST",
           "normalized": "HBuilder a b-\u003eST c(HBuilderM(ST c)a b)",
@@ -3211,6 +3473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Traversable.traverse. treeHBuilderM fs h = F.traverse ($ h) fs\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eApply function to builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "treeHBuilder",
           "package": "histogram-fill",
@@ -3221,6 +3484,7 @@
         "index": {
           "description": "Deprecated Use Data.Traversable.traverse treeHBuilderM fs F.traverse fs Apply function to builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "treeHBuilder",
           "normalized": "a(HBuilder b c-\u003eHBuilder d e)-\u003eHBuilder b c-\u003eHBuilder d(a e)",
@@ -3237,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Traversable.traverse. treeHBuilderM fs h = F.traverse ($ h) fs\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eApply functions to builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Fill",
           "name": "treeHBuilderM",
           "package": "histogram-fill",
@@ -3247,6 +3512,7 @@
         "index": {
           "description": "Deprecated Use Data.Traversable.traverse treeHBuilderM fs F.traverse fs Apply functions to builder",
           "hierarchy": "Data Histogram Fill",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Fill",
           "name": "treeHBuilderM",
           "normalized": "a(HBuilderM b c d-\u003eHBuilderM b e f)-\u003eHBuilderM b c d-\u003eHBuilderM b e(a f)",
@@ -3263,6 +3529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric immutable histograms. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "Generic",
           "package": "histogram-fill",
@@ -3272,6 +3539,7 @@
         "index": {
           "description": "Generic immutable histograms",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "Generic",
           "package": "histogram-fill",
@@ -3286,6 +3554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint inside histogram's domain. It could be either bin index or\n   bin value. \u003ccode\u003e\u003ca\u003eFirst\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e constructors are useful for\n   histogram slicing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "HistIndex",
           "package": "histogram-fill",
@@ -3295,6 +3564,7 @@
         "index": {
           "description": "Point inside histogram domain It could be either bin index or bin value First and Last constructors are useful for histogram slicing",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "HistIndex",
           "package": "histogram-fill",
@@ -3309,6 +3579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmutable histogram. Histogram consists of binning algorithm,\n   optional number of under and overflows, and data. Type parameter\n   have following meaning:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003ev\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e type of vector used to store bin content.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003ebin\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e binning. It should be instance of \u003ccode\u003e\u003ca\u003eBin\u003c/a\u003e\u003c/code\u003e. Check that type class description for details.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003ea\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e type of bin content.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "Histogram",
           "package": "histogram-fill",
@@ -3318,6 +3589,7 @@
         "index": {
           "description": "Immutable histogram Histogram consists of binning algorithm optional number of under and overflows and data Type parameter have following meaning type of vector used to store bin content bin binning It should be instance of Bin Check that type class description for details type of bin content",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "Histogram",
           "package": "histogram-fill",
@@ -3432,6 +3704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert histogram data to list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "asList",
           "package": "histogram-fill",
@@ -3442,6 +3715,7 @@
         "index": {
           "description": "Convert histogram data to list",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "asList",
           "normalized": "Histogram a b c-\u003e[(BinValue b,c)]",
@@ -3458,6 +3732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert histogram data to vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "asVector",
           "package": "histogram-fill",
@@ -3468,6 +3743,7 @@
         "index": {
           "description": "Convert histogram data to vector",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "asVector",
           "normalized": "Histogram a b c-\u003ea(BinValue b,c)",
@@ -3484,6 +3760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex histogtam.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "at",
           "package": "histogram-fill",
@@ -3494,6 +3771,7 @@
         "index": {
           "description": "Index histogtam",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "at",
           "normalized": "Histogram a b c-\u003eHistIndex b-\u003ec",
@@ -3509,6 +3787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex histogram using vector index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "atI",
           "package": "histogram-fill",
@@ -3519,6 +3798,7 @@
         "index": {
           "description": "Index histogram using vector index",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "atI",
           "normalized": "Histogram a b c-\u003eInt-\u003ec",
@@ -3534,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex histogram using bin value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "atV",
           "package": "histogram-fill",
@@ -3544,6 +3825,7 @@
         "index": {
           "description": "Index histogram using bin value",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "atV",
           "normalized": "Histogram a b c-\u003eBinValue b-\u003ec",
@@ -3559,6 +3841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict fold over bin content in index order. Function is applied\n   to bin content and bin value. Underflows and overflows are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "bfoldl",
           "package": "histogram-fill",
@@ -3569,6 +3852,7 @@
         "index": {
           "description": "Strict fold over bin content in index order Function is applied to bin content and bin value Underflows and overflows are ignored",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "bfoldl",
           "normalized": "(a-\u003eBinValue b-\u003ec-\u003ea)-\u003ea-\u003eHistogram d b c-\u003ea",
@@ -3584,6 +3868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHistogram bins\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "bins",
           "package": "histogram-fill",
@@ -3594,6 +3879,7 @@
         "index": {
           "description": "Histogram bins",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "bins",
           "normalized": "Histogram a b c-\u003eb",
@@ -3609,6 +3895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap histogram using bin value and content. Overflows and underflows are set to Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "bmap",
           "package": "histogram-fill",
@@ -3619,6 +3906,7 @@
         "index": {
           "description": "Map histogram using bin value and content Overflows and underflows are set to Nothing",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "bmap",
           "normalized": "(BinValue a-\u003eb-\u003ec)-\u003eHistogram d a b-\u003eHistogram d a c",
@@ -3634,6 +3922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce along X axis. Information about under/overlows is lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "breduceX",
           "package": "histogram-fill",
@@ -3643,6 +3932,7 @@
         "index": {
           "description": "Reduce along axis Information about under overlows is lost",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "breduceX",
           "normalized": "(BinValue a-\u003eHistogram b c d-\u003ee)-\u003eHistogram b(Bin D c a)d-\u003eHistogram b a e",
@@ -3658,6 +3948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce along Y axis. Information about under/overflows is lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "breduceY",
           "package": "histogram-fill",
@@ -3667,6 +3958,7 @@
         "index": {
           "description": "Reduce along axis Information about under overflows is lost",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "breduceY",
           "normalized": "(BinValue a-\u003eHistogram b c d-\u003ee)-\u003eHistogram b(Bin D a c)d-\u003eHistogram b a e",
@@ -3682,6 +3974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between different vector types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "convert",
           "package": "histogram-fill",
@@ -3692,6 +3985,7 @@
         "index": {
           "description": "Convert between different vector types",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "convert",
           "normalized": "Histogram a b c-\u003eHistogram d b c",
@@ -3707,6 +4001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between binning types using \u003ccode\u003e\u003ca\u003eConvertBin\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "convertBinning",
           "package": "histogram-fill",
@@ -3717,6 +4012,7 @@
         "index": {
           "description": "Convert between binning types using ConvertBin type class",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "convertBinning",
           "normalized": "Histogram a b c-\u003eHistogram a d c",
@@ -3733,6 +4029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict fold over bin content in index order. Underflows and overflows are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "foldl",
           "package": "histogram-fill",
@@ -3743,6 +4040,7 @@
         "index": {
           "description": "Strict fold over bin content in index order Underflows and overflows are ignored",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eHistogram c d b-\u003ea",
@@ -3758,6 +4056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHistogram data as vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "histData",
           "package": "histogram-fill",
@@ -3768,6 +4067,7 @@
         "index": {
           "description": "Histogram data as vector",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "histData",
           "normalized": "Histogram a b c-\u003ea c",
@@ -3811,6 +4111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate histogram from binning algorithm and vector with\n data. Overflows are set to Nothing. \n\u003c/p\u003e\u003cp\u003eNumber of bins and vector size must match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "histogram",
           "package": "histogram-fill",
@@ -3821,6 +4122,7 @@
         "index": {
           "description": "Create histogram from binning algorithm and vector with data Overflows are set to Nothing Number of bins and vector size must match",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "histogram",
           "normalized": "a-\u003eb c-\u003eHistogram b a c",
@@ -3836,6 +4138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate histogram from binning algorithm and vector with data. \n\u003c/p\u003e\u003cp\u003eNumber of bins and vector size must match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "histogramUO",
           "package": "histogram-fill",
@@ -3846,6 +4149,7 @@
         "index": {
           "description": "Create histogram from binning algorithm and vector with data Number of bins and vector size must match",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "histogramUO",
           "normalized": "a-\u003eMaybe(b,b)-\u003ec b-\u003eHistogram c a b",
@@ -3862,6 +4166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform X slices of histogram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "liftX",
           "package": "histogram-fill",
@@ -3872,6 +4177,7 @@
         "index": {
           "description": "Transform slices of histogram",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "liftX",
           "normalized": "(Histogram a b c-\u003eHistogram a d e)-\u003eHistogram a(Bin D b f)c-\u003eHistogram a(Bin D d f)e",
@@ -3887,6 +4193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform Y slices of histogram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "liftY",
           "package": "histogram-fill",
@@ -3897,6 +4204,7 @@
         "index": {
           "description": "Transform slices of histogram",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "liftY",
           "normalized": "(Histogram a b c-\u003eHistogram a d e)-\u003eHistogram a(Bin D f b)c-\u003eHistogram a(Bin D f d)e",
@@ -3912,6 +4220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlice 2D histogram along Y axis. This function is fast because it\n   does not require reallocations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "listSlicesAlongX",
           "package": "histogram-fill",
@@ -3922,6 +4231,7 @@
         "index": {
           "description": "Slice histogram along axis This function is fast because it does not require reallocations",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "listSlicesAlongX",
           "normalized": "Histogram a(Bin D b c)d-\u003e[(BinValue c,Histogram a b d)]",
@@ -3938,6 +4248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlice 2D histogram along X axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "listSlicesAlongY",
           "package": "histogram-fill",
@@ -3948,6 +4259,7 @@
         "index": {
           "description": "Slice histogram along axis",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "listSlicesAlongY",
           "normalized": "Histogram a(Bin D b c)d-\u003e[(BinValue b,Histogram a c d)]",
@@ -3964,6 +4276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efmap lookalike. It's not possible to create Functor instance\n   because of type class context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "map",
           "package": "histogram-fill",
@@ -3974,6 +4287,7 @@
         "index": {
           "description": "fmap lookalike It not possible to create Functor instance because of type class context",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eHistogram c d a-\u003eHistogram c d b",
@@ -3988,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "mapData",
           "package": "histogram-fill",
@@ -3997,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "mapData",
           "normalized": "(a b-\u003ec d)-\u003eHistogram a e b-\u003eHistogram c e d",
@@ -4013,6 +4329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of a bin with maximal content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "maxBin",
           "package": "histogram-fill",
@@ -4023,6 +4340,7 @@
         "index": {
           "description": "Value of bin with maximal content",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "maxBin",
           "normalized": "Histogram a b c-\u003eBinValue b",
@@ -4039,6 +4357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of a bin with maximal content using custom comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "maxBinBy",
           "package": "histogram-fill",
@@ -4049,6 +4368,7 @@
         "index": {
           "description": "Value of bin with maximal content using custom comparison",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "maxBinBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b c a-\u003eBinValue c",
@@ -4065,6 +4385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a bin with maximal content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "maxIndex",
           "package": "histogram-fill",
@@ -4075,6 +4396,7 @@
         "index": {
           "description": "Index of bin with maximal content",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "maxIndex",
           "normalized": "Histogram a b c-\u003eInt",
@@ -4091,6 +4413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a bin with maximal content using custom comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "maxIndexBy",
           "package": "histogram-fill",
@@ -4101,6 +4424,7 @@
         "index": {
           "description": "Index of bin with maximal content using custom comparison",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "maxIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b c a-\u003eInt",
@@ -4117,6 +4441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximal bin content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "maximum",
           "package": "histogram-fill",
@@ -4127,6 +4452,7 @@
         "index": {
           "description": "Maximal bin content",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "maximum",
           "normalized": "Histogram a b c-\u003ec",
@@ -4142,6 +4468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximal bin content using custom comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "maximumBy",
           "package": "histogram-fill",
@@ -4152,6 +4479,7 @@
         "index": {
           "description": "Maximal bin content using custom comparison",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b c a-\u003ea",
@@ -4168,6 +4496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of a bin with minimal content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "minBin",
           "package": "histogram-fill",
@@ -4178,6 +4507,7 @@
         "index": {
           "description": "Value of bin with minimal content",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "minBin",
           "normalized": "Histogram a b c-\u003eBinValue b",
@@ -4194,6 +4524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue bin with minimal content using custom comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "minBinBy",
           "package": "histogram-fill",
@@ -4204,6 +4535,7 @@
         "index": {
           "description": "Value bin with minimal content using custom comparison",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "minBinBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b c a-\u003eBinValue c",
@@ -4220,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a bin with minimal content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "minIndex",
           "package": "histogram-fill",
@@ -4230,6 +4563,7 @@
         "index": {
           "description": "Index of bin with minimal content",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "minIndex",
           "normalized": "Histogram a b c-\u003eInt",
@@ -4246,6 +4580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of a bin with minimal content using custom comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "minIndexBy",
           "package": "histogram-fill",
@@ -4256,6 +4591,7 @@
         "index": {
           "description": "Index of bin with minimal content using custom comparison",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "minIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b c a-\u003eInt",
@@ -4272,6 +4608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal bin content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "minimum",
           "package": "histogram-fill",
@@ -4282,6 +4619,7 @@
         "index": {
           "description": "Minimal bin content",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "minimum",
           "normalized": "Histogram a b c-\u003ec",
@@ -4297,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal bin content using custom comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "minimumBy",
           "package": "histogram-fill",
@@ -4307,6 +4646,7 @@
         "index": {
           "description": "Minimal bin content using custom comparison",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "minimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b c a-\u003ea",
@@ -4323,6 +4663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnderflows and overflows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "outOfRange",
           "package": "histogram-fill",
@@ -4333,6 +4674,7 @@
         "index": {
           "description": "Underflows and overflows",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "outOfRange",
           "normalized": "Histogram a b c-\u003eMaybe(c,c)",
@@ -4349,6 +4691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of overflows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "overflows",
           "package": "histogram-fill",
@@ -4359,6 +4702,7 @@
         "index": {
           "description": "Number of overflows",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "overflows",
           "normalized": "Histogram a b c-\u003eMaybe c",
@@ -4374,6 +4718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead histogram from file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "readFileHistogram",
           "package": "histogram-fill",
@@ -4384,6 +4729,7 @@
         "index": {
           "description": "Read histogram from file",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "readFileHistogram",
           "normalized": "FilePath-\u003eIO(Histogram a b c)",
@@ -4400,6 +4746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert String to histogram. Histogram do not have Read instance\n   because of slowness of ReadP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "readHistogram",
           "package": "histogram-fill",
@@ -4410,6 +4757,7 @@
         "index": {
           "description": "Convert String to histogram Histogram do not have Read instance because of slowness of ReadP",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "readHistogram",
           "normalized": "String-\u003eHistogram a b c",
@@ -4426,6 +4774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRebin histogram by joining \u003ccode\u003en\u003c/code\u003e adjacent bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "rebin",
           "package": "histogram-fill",
@@ -4435,6 +4784,7 @@
         "index": {
           "description": "Rebin histogram by joining adjacent bins",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "rebin",
           "normalized": "CutDirection-\u003eInt-\u003e(a-\u003ea-\u003ea)-\u003eHistogram b c a-\u003eHistogram b c a",
@@ -4450,6 +4800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRebin histogram by joining \u003ccode\u003en\u003c/code\u003e adjacent bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "rebinFold",
           "package": "histogram-fill",
@@ -4459,6 +4810,7 @@
         "index": {
           "description": "Rebin histogram by joining adjacent bins",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "rebinFold",
           "normalized": "CutDirection-\u003eInt-\u003e(a-\u003eb-\u003ea)-\u003ea-\u003eHistogram c d b-\u003eHistogram c d a",
@@ -4475,6 +4827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce along X axis. Information about under/overlows is lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "reduceX",
           "package": "histogram-fill",
@@ -4484,6 +4837,7 @@
         "index": {
           "description": "Reduce along axis Information about under overlows is lost",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "reduceX",
           "normalized": "(Histogram a b c-\u003ed)-\u003eHistogram a(Bin D b e)c-\u003eHistogram a e d",
@@ -4499,6 +4853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce along Y axis. Information about under/overflows is lost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "reduceY",
           "package": "histogram-fill",
@@ -4508,6 +4863,7 @@
         "index": {
           "description": "Reduce along axis Information about under overflows is lost",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "reduceY",
           "normalized": "(Histogram a b c-\u003ed)-\u003eHistogram a(Bin D e b)c-\u003eHistogram a e d",
@@ -4523,6 +4879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlice histogram. Values/indices specify inclusive\n   variant. Under/overflows are discarded. If requested value falls\n   out of histogram range it will be truncated. Use \u003ccode\u003e\u003ca\u003eFirst\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e constructor if you need slice from first or to last bin\n   correspondingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "slice",
           "package": "histogram-fill",
@@ -4532,6 +4889,7 @@
         "index": {
           "description": "Slice histogram Values indices specify inclusive variant Under overflows are discarded If requested value falls out of histogram range it will be truncated Use First or Last constructor if you need slice from first or to last bin correspondingly",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "slice",
           "normalized": "HistIndex a-\u003eHistIndex a-\u003eHistogram b a c-\u003eHistogram b a c",
@@ -4547,6 +4905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet slice of 2D histogram along X axis. This function is faster\n   than \u003ccode\u003e\u003ca\u003esliceAlongY\u003c/a\u003e\u003c/code\u003e since no array reallocations is required\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "sliceAlongX",
           "package": "histogram-fill",
@@ -4556,6 +4915,7 @@
         "index": {
           "description": "Get slice of histogram along axis This function is faster than sliceAlongY since no array reallocations is required",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "sliceAlongX",
           "normalized": "Histogram a(Bin D b c)d-\u003eHistIndex c-\u003eHistogram a b d",
@@ -4572,6 +4932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet slice of 2D histogram along X axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "sliceAlongY",
           "package": "histogram-fill",
@@ -4581,6 +4942,7 @@
         "index": {
           "description": "Get slice of histogram along axis",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "sliceAlongY",
           "normalized": "Histogram a(Bin D b c)d-\u003eHistIndex b-\u003eHistogram a c d",
@@ -4597,6 +4959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum contents of all bins\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "sum",
           "package": "histogram-fill",
@@ -4607,6 +4970,7 @@
         "index": {
           "description": "Sum contents of all bins",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "sum",
           "normalized": "Histogram a b c-\u003ec",
@@ -4622,6 +4986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of underflows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "underflows",
           "package": "histogram-fill",
@@ -4632,6 +4997,7 @@
         "index": {
           "description": "Number of underflows",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "underflows",
           "normalized": "Histogram a b c-\u003eMaybe c",
@@ -4647,6 +5013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two histograms elementwise. Bins of histograms must be equal\n   otherwise error will be called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "zip",
           "package": "histogram-fill",
@@ -4657,6 +5024,7 @@
         "index": {
           "description": "Zip two histograms elementwise Bins of histograms must be equal otherwise error will be called",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "zip",
           "normalized": "(a-\u003eb-\u003ec)-\u003eHistogram d e a-\u003eHistogram d e b-\u003eHistogram d e c",
@@ -4672,6 +5040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two histogram elementwise. If bins are not equal return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.Generic",
           "name": "zipSafe",
           "package": "histogram-fill",
@@ -4682,6 +5051,7 @@
         "index": {
           "description": "Zip two histogram elementwise If bins are not equal return Nothing",
           "hierarchy": "Data Histogram Generic",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.Generic",
           "name": "zipSafe",
           "normalized": "(a-\u003eb-\u003ec)-\u003eHistogram d e a-\u003eHistogram d e b-\u003eMaybe(Histogram d e c)",
@@ -4698,6 +5068,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable histograms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.ST",
           "name": "ST",
           "package": "histogram-fill",
@@ -4707,6 +5078,7 @@
         "index": {
           "description": "Mutable histograms",
           "hierarchy": "Data Histogram ST",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.ST",
           "name": "ST",
           "package": "histogram-fill",
@@ -4721,6 +5093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable histogram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.ST",
           "name": "MHistogram",
           "package": "histogram-fill",
@@ -4730,6 +5103,7 @@
         "index": {
           "description": "Mutable histogram",
           "hierarchy": "Data Histogram ST",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.ST",
           "name": "MHistogram",
           "package": "histogram-fill",
@@ -4744,6 +5118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric fill. It could be seen as left fold with multiple\n   accumulators where accumulator is chosen by \u003ccode\u003eBinValue bin\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.ST",
           "name": "fill",
           "package": "histogram-fill",
@@ -4753,6 +5128,7 @@
         "index": {
           "description": "Generic fill It could be seen as left fold with multiple accumulators where accumulator is chosen by BinValue bin",
           "hierarchy": "Data Histogram ST",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.ST",
           "name": "fill",
           "normalized": "MHistogram(PrimState a)b c d-\u003eBinValue c-\u003e(d-\u003ee-\u003ed)-\u003ee-\u003ea()",
@@ -4768,6 +5144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate immutable histogram from mutable one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.ST",
           "name": "freezeHist",
           "package": "histogram-fill",
@@ -4778,6 +5155,7 @@
         "index": {
           "description": "Create immutable histogram from mutable one",
           "hierarchy": "Data Histogram ST",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.ST",
           "name": "freezeHist",
           "normalized": "MHistogram(PrimState a)(Mutable b)c d-\u003ea(Histogram b c d)",
@@ -4794,6 +5172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new mutable histogram. All bins are set to zero element as\n   passed to function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.ST",
           "name": "newMHistogram",
           "package": "histogram-fill",
@@ -4804,6 +5183,7 @@
         "index": {
           "description": "Create new mutable histogram All bins are set to zero element as passed to function",
           "hierarchy": "Data Histogram ST",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.ST",
           "name": "newMHistogram",
           "normalized": "a-\u003eb-\u003ec(MHistogram(PrimState c)d b a)",
@@ -4820,6 +5200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate immutable histogram from mutable one. This operation is\n unsafe! Accumulator mustn't be used after that\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram.ST",
           "name": "unsafeFreezeHist",
           "package": "histogram-fill",
@@ -4830,6 +5211,7 @@
         "index": {
           "description": "Create immutable histogram from mutable one This operation is unsafe Accumulator mustn be used after that",
           "hierarchy": "Data Histogram ST",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram.ST",
           "name": "unsafeFreezeHist",
           "normalized": "MHistogram(PrimState a)(Mutable b)c d-\u003ea(Histogram b c d)",
@@ -4846,6 +5228,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImmutable histograms. This module export same APi as\n \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e but specialzed to unboxed vectors. Refer\n aforementioned module for documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "Histogram",
           "package": "histogram-fill",
@@ -4855,6 +5238,7 @@
         "index": {
           "description": "Immutable histograms This module export same APi as Generic but specialzed to unboxed vectors Refer aforementioned module for documentation",
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "Histogram",
           "package": "histogram-fill",
@@ -4869,6 +5253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint inside histogram's domain. It could be either bin index or\n   bin value. \u003ccode\u003e\u003ca\u003eFirst\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e constructors are useful for\n   histogram slicing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "HistIndex",
           "package": "histogram-fill",
@@ -4878,6 +5263,7 @@
         "index": {
           "description": "Point inside histogram domain It could be either bin index or bin value First and Last constructors are useful for histogram slicing",
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "HistIndex",
           "package": "histogram-fill",
@@ -4892,6 +5278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmutable histogram. Histogram consists of binning algorithm,\n   optional number of under and overflows, and data. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "Histogram",
           "package": "histogram-fill",
@@ -4901,6 +5288,7 @@
         "index": {
           "description": "Immutable histogram Histogram consists of binning algorithm optional number of under and overflows and data",
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "Histogram",
           "package": "histogram-fill",
@@ -4914,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "asList",
           "package": "histogram-fill",
@@ -4923,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "asList",
           "normalized": "Histogram a b-\u003e[(BinValue a,b)]",
@@ -4938,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "asVector",
           "package": "histogram-fill",
@@ -4947,6 +5338,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "asVector",
           "normalized": "Histogram a b-\u003eVector(BinValue a,b)",
@@ -4962,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "at",
           "package": "histogram-fill",
@@ -4971,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "at",
           "normalized": "Histogram a b-\u003eHistIndex a-\u003eb",
@@ -4985,6 +5379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "atI",
           "package": "histogram-fill",
@@ -4994,6 +5389,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "atI",
           "normalized": "Histogram a b-\u003eInt-\u003eb",
@@ -5008,6 +5404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "atV",
           "package": "histogram-fill",
@@ -5017,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "atV",
           "normalized": "Histogram a b-\u003eBinValue a-\u003eb",
@@ -5031,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "bfoldl",
           "package": "histogram-fill",
@@ -5040,6 +5439,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "bfoldl",
           "normalized": "(a-\u003eBinValue b-\u003ec-\u003ea)-\u003ea-\u003eHistogram b c-\u003ea",
@@ -5054,6 +5454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "bins",
           "package": "histogram-fill",
@@ -5063,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "bins",
           "normalized": "Histogram a b-\u003ea",
@@ -5077,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "bmap",
           "package": "histogram-fill",
@@ -5086,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "bmap",
           "normalized": "(BinValue a-\u003eb-\u003ec)-\u003eHistogram a b-\u003eHistogram a c",
@@ -5100,6 +5504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "breduceX",
           "package": "histogram-fill",
@@ -5109,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "breduceX",
           "normalized": "(BinValue a-\u003eHistogram b c-\u003ed)-\u003eHistogram(Bin D b a)c-\u003eHistogram a d",
@@ -5123,6 +5529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "breduceY",
           "package": "histogram-fill",
@@ -5132,6 +5539,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "breduceY",
           "normalized": "(BinValue a-\u003eHistogram b c-\u003ed)-\u003eHistogram(Bin D a b)c-\u003eHistogram a d",
@@ -5146,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "convertBinning",
           "package": "histogram-fill",
@@ -5155,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "convertBinning",
           "normalized": "Histogram a b-\u003eHistogram c b",
@@ -5170,6 +5580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "foldl",
           "package": "histogram-fill",
@@ -5179,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eHistogram c b-\u003ea",
@@ -5193,6 +5605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "histData",
           "package": "histogram-fill",
@@ -5202,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "histData",
           "normalized": "Histogram a b-\u003eVector b",
@@ -5217,6 +5631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "histogram",
           "package": "histogram-fill",
@@ -5226,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "histogram",
           "normalized": "a-\u003eVector b-\u003eHistogram a b",
@@ -5240,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "histogramUO",
           "package": "histogram-fill",
@@ -5249,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "histogramUO",
           "normalized": "a-\u003eMaybe(b,b)-\u003eVector b-\u003eHistogram a b",
@@ -5264,6 +5682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "liftX",
           "package": "histogram-fill",
@@ -5273,6 +5692,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "liftX",
           "normalized": "(Histogram a b-\u003eHistogram c d)-\u003eHistogram(Bin D a e)b-\u003eHistogram(Bin D c e)d",
@@ -5287,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "liftY",
           "package": "histogram-fill",
@@ -5296,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "liftY",
           "normalized": "(Histogram a b-\u003eHistogram c d)-\u003eHistogram(Bin D e a)b-\u003eHistogram(Bin D e c)d",
@@ -5310,6 +5732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "listSlicesAlongX",
           "package": "histogram-fill",
@@ -5319,6 +5742,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "listSlicesAlongX",
           "normalized": "Histogram(Bin D a b)c-\u003e[(BinValue b,Histogram a c)]",
@@ -5334,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "listSlicesAlongY",
           "package": "histogram-fill",
@@ -5343,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "listSlicesAlongY",
           "normalized": "Histogram(Bin D a b)c-\u003e[(BinValue a,Histogram b c)]",
@@ -5358,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "map",
           "package": "histogram-fill",
@@ -5367,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eHistogram c a-\u003eHistogram c b",
@@ -5381,6 +5809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "mapData",
           "package": "histogram-fill",
@@ -5390,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "mapData",
           "normalized": "(Vector a-\u003eVector b)-\u003eHistogram c a-\u003eHistogram c b",
@@ -5405,6 +5835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "maxBin",
           "package": "histogram-fill",
@@ -5414,6 +5845,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "maxBin",
           "normalized": "Histogram a b-\u003eBinValue a",
@@ -5429,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "maxBinBy",
           "package": "histogram-fill",
@@ -5438,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "maxBinBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b a-\u003eBinValue b",
@@ -5453,6 +5887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "maxIndex",
           "package": "histogram-fill",
@@ -5462,6 +5897,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "maxIndex",
           "normalized": "Histogram a b-\u003eInt",
@@ -5477,6 +5913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "maxIndexBy",
           "package": "histogram-fill",
@@ -5486,6 +5923,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "maxIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b a-\u003eInt",
@@ -5501,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "maximum",
           "package": "histogram-fill",
@@ -5510,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "maximum",
           "normalized": "Histogram a b-\u003eb",
@@ -5524,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "maximumBy",
           "package": "histogram-fill",
@@ -5533,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b a-\u003ea",
@@ -5548,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "minBin",
           "package": "histogram-fill",
@@ -5557,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "minBin",
           "normalized": "Histogram a b-\u003eBinValue a",
@@ -5572,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "minBinBy",
           "package": "histogram-fill",
@@ -5581,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "minBinBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b a-\u003eBinValue b",
@@ -5596,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "minIndex",
           "package": "histogram-fill",
@@ -5605,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "minIndex",
           "normalized": "Histogram a b-\u003eInt",
@@ -5620,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "minIndexBy",
           "package": "histogram-fill",
@@ -5629,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "minIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b a-\u003eInt",
@@ -5644,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "minimum",
           "package": "histogram-fill",
@@ -5653,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "minimum",
           "normalized": "Histogram a b-\u003eb",
@@ -5667,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "minimumBy",
           "package": "histogram-fill",
@@ -5676,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "minimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eHistogram b a-\u003ea",
@@ -5691,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "outOfRange",
           "package": "histogram-fill",
@@ -5700,6 +6155,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "outOfRange",
           "normalized": "Histogram a b-\u003eMaybe(b,b)",
@@ -5715,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "overflows",
           "package": "histogram-fill",
@@ -5724,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "overflows",
           "normalized": "Histogram a b-\u003eMaybe b",
@@ -5738,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "readFileHistogram",
           "package": "histogram-fill",
@@ -5747,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "readFileHistogram",
           "normalized": "FilePath-\u003eIO(Histogram a b)",
@@ -5762,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "readHistogram",
           "package": "histogram-fill",
@@ -5771,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "readHistogram",
           "normalized": "String-\u003eHistogram a b",
@@ -5786,6 +6248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "rebin",
           "package": "histogram-fill",
@@ -5795,6 +6258,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "rebin",
           "normalized": "CutDirection-\u003eInt-\u003e(a-\u003ea-\u003ea)-\u003eHistogram b a-\u003eHistogram b a",
@@ -5809,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "rebinFold",
           "package": "histogram-fill",
@@ -5818,6 +6283,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "rebinFold",
           "normalized": "CutDirection-\u003eInt-\u003e(a-\u003eb-\u003ea)-\u003ea-\u003eHistogram c b-\u003eHistogram c a",
@@ -5833,6 +6299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "reduceX",
           "package": "histogram-fill",
@@ -5842,6 +6309,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "reduceX",
           "normalized": "(Histogram a b-\u003ec)-\u003eHistogram(Bin D a d)b-\u003eHistogram d c",
@@ -5856,6 +6324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "reduceY",
           "package": "histogram-fill",
@@ -5865,6 +6334,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "reduceY",
           "normalized": "(Histogram a b-\u003ec)-\u003eHistogram(Bin D d a)b-\u003eHistogram d c",
@@ -5879,6 +6349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "slice",
           "package": "histogram-fill",
@@ -5888,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "slice",
           "normalized": "HistIndex a-\u003eHistIndex a-\u003eHistogram a b-\u003eHistogram a b",
@@ -5902,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "sliceAlongX",
           "package": "histogram-fill",
@@ -5911,6 +6384,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "sliceAlongX",
           "normalized": "Histogram(Bin D a b)c-\u003eHistIndex b-\u003eHistogram a c",
@@ -5926,6 +6400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "sliceAlongY",
           "package": "histogram-fill",
@@ -5935,6 +6410,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "sliceAlongY",
           "normalized": "Histogram(Bin D a b)c-\u003eHistIndex a-\u003eHistogram b c",
@@ -5950,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "sum",
           "package": "histogram-fill",
@@ -5959,6 +6436,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "sum",
           "normalized": "Histogram a b-\u003eb",
@@ -5973,6 +6451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "underflows",
           "package": "histogram-fill",
@@ -5982,6 +6461,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "underflows",
           "normalized": "Histogram a b-\u003eMaybe b",
@@ -5996,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "zip",
           "package": "histogram-fill",
@@ -6005,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "zip",
           "normalized": "(a-\u003eb-\u003ec)-\u003eHistogram d a-\u003eHistogram d b-\u003eHistogram d c",
@@ -6019,6 +6501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:25 UTC 2014",
           "module": "Data.Histogram",
           "name": "zipSafe",
           "package": "histogram-fill",
@@ -6028,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "Data Histogram",
+          "indexed": "2014-03-11T18:40:25",
           "module": "Data.Histogram",
           "name": "zipSafe",
           "normalized": "(a-\u003eb-\u003ec)-\u003eHistogram d a-\u003eHistogram d b-\u003eMaybe(Histogram d c)",

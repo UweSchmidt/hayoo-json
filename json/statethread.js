@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "statethread"
+        "phrase": "statethread",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "metronome"
+        "phrase": "metronome",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnifying functions of TVar's and TChans in STM and IO via atomically.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "STMOrIO",
           "package": "metronome",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Unifying functions of TVar and TChans in STM and IO via atomically",
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "STMOrIO",
           "package": "metronome",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclass to uniform reading and writing \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "RW",
           "package": "metronome",
@@ -51,6 +54,7 @@
         "index": {
           "description": "class to uniform reading and writing",
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "RW",
           "package": "metronome",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euniforming class for STM or IO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "STMOrIO",
           "package": "metronome",
@@ -74,6 +79,7 @@
         "index": {
           "description": "uniforming class for STM or IO",
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "STMOrIO",
           "package": "metronome",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enew TChan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "chan",
           "package": "metronome",
@@ -97,6 +104,7 @@
         "index": {
           "description": "new TChan",
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "chan",
           "normalized": "a-\u003eb(TChan a)",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodify a cell z under STM or IO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "md",
           "package": "metronome",
@@ -122,6 +131,7 @@
         "index": {
           "description": "modify cell under STM or IO",
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "md",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "rd",
           "package": "metronome",
@@ -147,6 +158,7 @@
         "index": {
           "description": "read",
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "rd",
           "normalized": "a b-\u003ec b",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "stmorio",
           "package": "metronome",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "stmorio",
           "normalized": "STM a-\u003eb a",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enew TVar \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "var",
           "package": "metronome",
@@ -194,6 +209,7 @@
         "index": {
           "description": "new TVar",
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "var",
           "normalized": "a-\u003eb(TVar a)",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodify a z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "Control.Concurrent.STMOrIO",
           "name": "wr",
           "package": "metronome",
@@ -219,6 +236,7 @@
         "index": {
           "description": "modify",
           "hierarchy": "Control Concurrent STMOrIO",
+          "indexed": "2014-03-11T19:17:20",
           "module": "Control.Concurrent.STMOrIO",
           "name": "wr",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper module around \u003ca\u003eSystem.Metronome\u003c/a\u003e with easy functions.\n\u003c/p\u003e\u003cp\u003eIn this snippet we run a metronome and attach 4 tracks to it. \n\u003c/p\u003e\u003cp\u003eFirst track ticks every 2 metronome ticks printing \".\" 5 times. \n\u003c/p\u003e\u003cp\u003eSecond track ticks at each metronome tick. Forever it reads a string from a variable, \n it checks first track for actions finished, and push other 5 actions on the first, each printing the string read.\n\u003c/p\u003e\u003cp\u003eThird track ticks every 14 metronome ticks and forever modifies the string in the variable.\n\u003c/p\u003e\u003cp\u003eFourth track ticks every 100 metronome ticks , it does nothing on first action , kill all tracks , including itself and the metronome,\n and wake up main thread on the second.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE DoRec #-}\n \n import System.IO\n import System.Metronome.Practical\n import Control.Concurrent.STMOrIO\n import Control.Monad\n \n main = do\n       hSetBuffering stdout NoBuffering\n       (m,f) \u003c- dummyMetronome 0.1\n       c \u003c- dummyTrack f 2 0 $ replicate 5 $ return $ putStr \".\"\n       v \u003c- var \"!\"  \n       c2 \u003c- dummyTrack f 1 0 . repeat . noIO $ do\n                 as \u003c- getActions c\n                 vl \u003c- rd v\n                 when (null as) . setActions c . replicate 5 . return $ putStr vl\n       c3 \u003c- dummyTrack f 14 0 . repeat . noIO . md v $ map succ\n       end \u003c- chan ()\n       rec {c4 \u003c- dummyTrack f 100 0 . map noIO $ [return (), mapM_ kill [c,c2,c3,c4] \u003e\u003e kill m \u003e\u003e wr end ()]}\n       mapM_ run [c,c2,c3,c4]\n       rd end\n       hSetBuffering stdout LineBuffering \n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "Practical",
           "package": "metronome",
@@ -243,6 +262,7 @@
         "index": {
           "description": "wrapper module around System.Metronome with easy functions In this snippet we run metronome and attach tracks to it First track ticks every metronome ticks printing times Second track ticks at each metronome tick Forever it reads string from variable it checks first track for actions finished and push other actions on the first each printing the string read Third track ticks every metronome ticks and forever modifies the string in the variable Fourth track ticks every metronome ticks it does nothing on first action kill all tracks including itself and the metronome and wake up main thread on the second LANGUAGE DoRec import System.IO import System.Metronome.Practical import Control.Concurrent.STMOrIO import Control.Monad main do hSetBuffering stdout NoBuffering dummyMetronome dummyTrack replicate return putStr var c2 dummyTrack repeat noIO do as getActions vl rd when null as setActions replicate return putStr vl c3 dummyTrack repeat noIO md map succ end chan rec c4 dummyTrack map noIO return mapM kill c2 c3 c4 kill wr end mapM run c2 c3 c4 rd end hSetBuffering stdout LineBuffering",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "Practical",
           "package": "metronome",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate and fork a running metronome.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "dummyMetronome",
           "package": "metronome",
@@ -266,6 +287,7 @@
         "index": {
           "description": "create and fork running metronome",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "dummyMetronome",
           "normalized": "MTime-\u003eIO(Control Metronome,TrackForker)",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate and fork a stopped track by a metronome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "dummyTrack",
           "package": "metronome",
@@ -291,6 +314,7 @@
         "index": {
           "description": "create and fork stopped track by metronome",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "dummyTrack",
           "normalized": "TrackForker-\u003eFrequency-\u003ePriority-\u003e[Action]-\u003eIO(Control Track)",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread the remaining actions of a track\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "getActions",
           "package": "metronome",
@@ -317,6 +342,7 @@
         "index": {
           "description": "read the remaining actions of track",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "getActions",
           "normalized": "Control Track-\u003ea[Action]",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekill a thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "kill",
           "package": "metronome",
@@ -343,6 +370,7 @@
         "index": {
           "description": "kill thread",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "kill",
           "normalized": "Control a-\u003eb()",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emute / unmute a track\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "modMute",
           "package": "metronome",
@@ -368,6 +397,7 @@
         "index": {
           "description": "mute unmute track",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "modMute",
           "normalized": "Control Track-\u003ea()",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodify the ticks count from track start, shifting the next ticks relative to metronome ticks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "modPhase",
           "package": "metronome",
@@ -394,6 +425,7 @@
         "index": {
           "description": "modify the ticks count from track start shifting the next ticks relative to metronome ticks",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "modPhase",
           "normalized": "Control Track-\u003e(Ticks-\u003eTicks)-\u003ea()",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einvert the running flag of a thread \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "modRunning",
           "package": "metronome",
@@ -420,6 +453,7 @@
         "index": {
           "description": "invert the running flag of thread",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "modRunning",
           "normalized": "Control a-\u003eb()",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the actions scheduled for the next metronome tick\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "modScheduled",
           "package": "metronome",
@@ -446,6 +481,7 @@
         "index": {
           "description": "change the actions scheduled for the next metronome tick",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "modScheduled",
           "normalized": "Control Metronome-\u003e([(Priority,Action)]-\u003e[(Priority,Action)])-\u003ea()",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno IO as result of the STM action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "noIO",
           "package": "metronome",
@@ -472,6 +509,7 @@
         "index": {
           "description": "no IO as result of the STM action",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "noIO",
           "normalized": "STM()-\u003eSTM(IO())",
@@ -488,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "run",
           "package": "metronome",
@@ -498,6 +537,7 @@
         "index": {
           "description": "run thread",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "run",
           "normalized": "Control a-\u003eb()",
@@ -513,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the track actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "setActions",
           "package": "metronome",
@@ -523,6 +564,7 @@
         "index": {
           "description": "set the track actions",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "setActions",
           "normalized": "Control Track-\u003e[Action]-\u003ea()",
@@ -539,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the track frequency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "setFrequency",
           "package": "metronome",
@@ -549,6 +592,7 @@
         "index": {
           "description": "set the track frequency",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "setFrequency",
           "normalized": "Control Track-\u003eFrequency-\u003ea()",
@@ -565,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset a track priority\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "setPriority",
           "package": "metronome",
@@ -575,6 +620,7 @@
         "index": {
           "description": "set track priority",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "setPriority",
           "normalized": "Control Track-\u003ePriority-\u003ea()",
@@ -591,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the next  ticking times for a metronome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "setTicks",
           "package": "metronome",
@@ -601,6 +648,7 @@
         "index": {
           "description": "set the next ticking times for metronome",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "setTicks",
           "normalized": "Control Metronome-\u003e[MTime]-\u003ea()",
@@ -617,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estop a thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome.Practical",
           "name": "stop",
           "package": "metronome",
@@ -627,6 +676,7 @@
         "index": {
           "description": "stop thread",
           "hierarchy": "System Metronome Practical",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome.Practical",
           "name": "stop",
           "normalized": "Control a-\u003eb()",
@@ -642,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eSynchronized execution of sequences of actions, controlled in STM\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eAll data structures are made accessible via \u003ca\u003eData.Lens\u003c/a\u003e abstraction.\n\u003c/p\u003e\u003cp\u003eActions to be executed are of type \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e = STM (IO ()). At each tick, the scheduled actions are ordered by priority, \n binded as STM actions ignoring the retrying ones. The results, being IO actions are executed in that order.\n\u003c/p\u003e\u003cp\u003eEvery \u003ccode\u003e\u003ca\u003eTrack\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMetronome\u003c/a\u003e\u003c/code\u003e lives in its own thread and can be stopped or killed as such, setting a flag in its state. \n\u003c/p\u003e\u003cp\u003eTrack and metronome state are exposed in TVar value to be modified at will. The only closed and inaccessible value is the synchronizing channel, \n written by the metronome and waited by tracks.\n The \u003ccode\u003e\u003ca\u003eTrackForker\u003c/a\u003e\u003c/code\u003e returned by a metronome function is closing this channel and it's the only way to fork a track.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eSystem.Metronome.Practical\u003c/a\u003e for an simple wrapper around this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Metronome",
           "package": "metronome",
@@ -651,6 +702,7 @@
         "index": {
           "description": "Synchronized execution of sequences of actions controlled in STM All data structures are made accessible via Data.Lens abstraction Actions to be executed are of type Action STM IO At each tick the scheduled actions are ordered by priority binded as STM actions ignoring the retrying ones The results being IO actions are executed in that order Every Track and Metronome lives in its own thread and can be stopped or killed as such setting flag in its state Track and metronome state are exposed in TVar value to be modified at will The only closed and inaccessible value is the synchronizing channel written by the metronome and waited by tracks The TrackForker returned by metronome function is closing this channel and it the only way to fork track See System.Metronome.Practical for an simple wrapper around this module",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Metronome",
           "package": "metronome",
@@ -665,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack effect interface. Write in STM the collective and spit out the IO action to be executed when all STMs for this tick are done or retried\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Action",
           "package": "metronome",
@@ -674,6 +727,7 @@
         "index": {
           "description": "Track effect interface Write in STM the collective and spit out the IO action to be executed when all STMs for this tick are done or retried",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Action",
           "package": "metronome",
@@ -688,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Thread value cell in STM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Control",
           "package": "metronome",
@@ -697,6 +752,7 @@
         "index": {
           "description": "Thread value cell in STM",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Control",
           "package": "metronome",
@@ -711,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of metronome ticks between two track ticks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Frequency",
           "package": "metronome",
@@ -720,6 +777,7 @@
         "index": {
           "description": "Number of metronome ticks between two track ticks",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Frequency",
           "package": "metronome",
@@ -734,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime, in seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "MTime",
           "package": "metronome",
@@ -743,6 +802,7 @@
         "index": {
           "description": "Time in seconds",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "MTime",
           "package": "metronome",
@@ -757,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of a metronome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Metronome",
           "package": "metronome",
@@ -766,6 +827,7 @@
         "index": {
           "description": "State of metronome",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Metronome",
           "package": "metronome",
@@ -780,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePriority values between tracks under the same metronome.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Priority",
           "package": "metronome",
@@ -789,6 +852,7 @@
         "index": {
           "description": "Priority values between tracks under the same metronome",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Priority",
           "package": "metronome",
@@ -803,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esupporting values with \u003ccode\u003e\u003ca\u003erunning\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ealive\u003c/a\u003e\u003c/code\u003e flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Thread",
           "package": "metronome",
@@ -812,6 +877,7 @@
         "index": {
           "description": "supporting values with running and alive flag",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Thread",
           "package": "metronome",
@@ -826,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elapsed ticks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Ticks",
           "package": "metronome",
@@ -835,6 +902,7 @@
         "index": {
           "description": "Number of elapsed ticks",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Ticks",
           "package": "metronome",
@@ -849,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of a track.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Track",
           "package": "metronome",
@@ -858,6 +927,7 @@
         "index": {
           "description": "State of track",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Track",
           "package": "metronome",
@@ -872,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe action to fork a new track from a track state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "TrackForker",
           "package": "metronome",
@@ -881,6 +952,7 @@
         "index": {
           "description": "The action to fork new track from track state",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "TrackForker",
           "package": "metronome",
@@ -894,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Metronome",
           "package": "metronome",
@@ -903,6 +976,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Metronome",
           "package": "metronome",
@@ -916,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Thread",
           "package": "metronome",
@@ -925,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Thread",
           "package": "metronome",
@@ -938,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "Track",
           "package": "metronome",
@@ -947,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "Track",
           "package": "metronome",
@@ -961,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe actions left to be run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_actions",
           "package": "metronome",
@@ -971,6 +1050,7 @@
         "index": {
           "description": "the actions left to be run",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_actions",
           "normalized": "[Action]",
@@ -986,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset to false to require kill thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_alive",
           "package": "metronome",
@@ -996,6 +1077,7 @@
         "index": {
           "description": "set to false to require kill thread",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_alive",
           "package": "metronome",
@@ -1009,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecore data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_core",
           "package": "metronome",
@@ -1019,6 +1102,7 @@
         "index": {
           "description": "core data",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_core",
           "package": "metronome",
@@ -1032,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalling frequency relative to metronome ticks frequency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_frequency",
           "package": "metronome",
@@ -1042,6 +1127,7 @@
         "index": {
           "description": "calling frequency relative to metronome ticks frequency",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_frequency",
           "package": "metronome",
@@ -1055,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emuted flag, when True, actions are not scheduled, just skipped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_muted",
           "package": "metronome",
@@ -1065,6 +1152,7 @@
         "index": {
           "description": "muted flag when True actions are not scheduled just skipped",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_muted",
           "package": "metronome",
@@ -1078,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epriority of this track among its peers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_priority",
           "package": "metronome",
@@ -1088,6 +1177,7 @@
         "index": {
           "description": "priority of this track among its peers",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_priority",
           "package": "metronome",
@@ -1101,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estopped or running flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_running",
           "package": "metronome",
@@ -1111,6 +1202,7 @@
         "index": {
           "description": "stopped or running flag",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_running",
           "package": "metronome",
@@ -1124,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eactions scheduled for the tick to come\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_schedule",
           "package": "metronome",
@@ -1134,6 +1227,7 @@
         "index": {
           "description": "actions scheduled for the tick to come",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_schedule",
           "normalized": "[(Priority,Action)]",
@@ -1149,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number of ticks elapsed from  the track fork\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_sync",
           "package": "metronome",
@@ -1159,6 +1254,7 @@
         "index": {
           "description": "the number of ticks elapsed from the track fork",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_sync",
           "package": "metronome",
@@ -1172,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enext ticking times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "_ticks",
           "package": "metronome",
@@ -1182,6 +1279,7 @@
         "index": {
           "description": "next ticking times",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "_ticks",
           "normalized": "[MTime]",
@@ -1196,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "actions",
           "package": "metronome",
@@ -1205,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "actions",
           "normalized": "Lens Track[Action]",
@@ -1219,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "alive",
           "package": "metronome",
@@ -1228,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "alive",
           "package": "metronome",
@@ -1240,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "core",
           "package": "metronome",
@@ -1249,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "core",
           "package": "metronome",
@@ -1261,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "frequency",
           "package": "metronome",
@@ -1270,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "frequency",
           "package": "metronome",
@@ -1283,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a metronome from its initial state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "metronome",
           "package": "metronome",
@@ -1292,6 +1399,7 @@
         "index": {
           "description": "Fork metronome from its initial state",
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "metronome",
           "normalized": "Control Metronome-\u003eIO TrackForker",
@@ -1306,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "muted",
           "package": "metronome",
@@ -1315,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "muted",
           "package": "metronome",
@@ -1327,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "priority",
           "package": "metronome",
@@ -1336,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "priority",
           "package": "metronome",
@@ -1348,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "running",
           "package": "metronome",
@@ -1357,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "running",
           "package": "metronome",
@@ -1369,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "schedule",
           "package": "metronome",
@@ -1378,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "schedule",
           "normalized": "Lens Metronome[(Priority,Action)]",
@@ -1392,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "sync",
           "package": "metronome",
@@ -1401,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "sync",
           "package": "metronome",
@@ -1413,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:20 UTC 2014",
           "module": "System.Metronome",
           "name": "ticks",
           "package": "metronome",
@@ -1422,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "System Metronome",
+          "indexed": "2014-03-11T19:17:20",
           "module": "System.Metronome",
           "name": "ticks",
           "normalized": "Lens Metronome[MTime]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hscope"
+        "phrase": "hscope",
+        "type": "phrase"
       },
       "type": "context"
     }

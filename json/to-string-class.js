@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "to-string-class"
+        "phrase": "to-string-class",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:46 UTC 2014",
           "module": "Data.String.ToString",
           "name": "ToString",
           "package": "to-string-class",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data String ToString",
+          "indexed": "2014-03-11T20:23:46",
           "module": "Data.String.ToString",
           "name": "ToString",
           "package": "to-string-class",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of string-like types that can be converted to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eEnsure that types that have an instance for this class and also have an\n instance for \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e obey the \u003ccode\u003e\u003ca\u003eprop_fromToString\u003c/a\u003e\u003c/code\u003e law.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:46 UTC 2014",
           "module": "Data.String.ToString",
           "name": "ToString",
           "package": "to-string-class",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Class of string-like types that can be converted to String Ensure that types that have an instance for this class and also have an instance for IsString obey the prop fromToString law",
           "hierarchy": "Data String ToString",
+          "indexed": "2014-03-11T20:23:46",
           "module": "Data.String.ToString",
           "name": "ToString",
           "package": "to-string-class",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral coercion between string-like types.\n\u003c/p\u003e\u003cp\u003eNote that: \u003ccode\u003efromToString = \u003ccode\u003e\u003ca\u003efromString\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:46 UTC 2014",
           "module": "Data.String.ToString",
           "name": "fromToString",
           "package": "to-string-class",
@@ -73,6 +78,7 @@
         "index": {
           "description": "General coercion between string-like types Note that fromToString fromString toString",
           "hierarchy": "Data String ToString",
+          "indexed": "2014-03-11T20:23:46",
           "module": "Data.String.ToString",
           "name": "fromToString",
           "normalized": "a-\u003ea",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eprop_fromToString x = \u003ccode\u003e\u003ca\u003efromToString\u003c/a\u003e\u003c/code\u003e x == x\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:23:46 UTC 2014",
           "module": "Data.String.ToString",
           "name": "prop_fromToString",
           "package": "to-string-class",
@@ -99,6 +106,7 @@
         "index": {
           "description": "prop fromToString fromToString",
           "hierarchy": "Data String ToString",
+          "indexed": "2014-03-11T20:23:46",
           "module": "Data.String.ToString",
           "name": "prop_fromToString",
           "normalized": "a-\u003eBool",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string-like type to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:46 UTC 2014",
           "module": "Data.String.ToString",
           "name": "toString",
           "package": "to-string-class",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Convert string-like type to String",
           "hierarchy": "Data String ToString",
+          "indexed": "2014-03-11T20:23:46",
           "module": "Data.String.ToString",
           "name": "toString",
           "normalized": "a-\u003eString",

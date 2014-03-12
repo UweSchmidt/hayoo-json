@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hinvaders"
+        "phrase": "hinvaders",
+        "type": "phrase"
       },
       "type": "context"
     }

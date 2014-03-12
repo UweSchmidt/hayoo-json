@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aeson"
+        "phrase": "aeson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficiently serialize a JSON value.\n\u003c/p\u003e\u003cp\u003eMost frequently, you'll probably want to encode straight to UTF-8\n (the standard JSON encoding) using \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou can use the conversions to \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003es when embedding JSON messages as\n parts of a protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Encode",
           "name": "Encode",
           "package": "aeson",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Efficiently serialize JSON value Most frequently you ll probably want to encode straight to UTF-8 the standard JSON encoding using encode You can use the conversions to Builder when embedding JSON messages as parts of protocol",
           "hierarchy": "Data Aeson Encode",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Encode",
           "name": "Encode",
           "package": "aeson",
@@ -68,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a JSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e, which can be embedded efficiently\n in a text-based protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Encode",
           "name": "encodeToTextBuilder",
           "package": "aeson",
@@ -78,6 +81,7 @@
         "index": {
           "description": "Encode JSON Value to Builder which can be embedded efficiently in text-based protocol",
           "hierarchy": "Data Aeson Encode",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Encode",
           "name": "encodeToTextBuilder",
           "normalized": "Value-\u003eBuilder",
@@ -94,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003eencodeToTextBuilder\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Encode",
           "name": "fromValue",
           "package": "aeson",
@@ -104,6 +109,7 @@
         "index": {
           "description": "Deprecated Use encodeToTextBuilder instead",
           "hierarchy": "Data Aeson Encode",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Encode",
           "name": "fromValue",
           "normalized": "Value-\u003eBuilder",
@@ -120,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This module will be \u003cem\u003eREMOVED\u003c/em\u003e in version 0.7.0.0. Please switch to GHC generics or Data.Aeson.TH instead. These alternatives are less buggy, faster, and more configurable.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eJSON handling using \u003ccode\u003e\u003ca\u003eGenerics\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is based on the \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e package originally written\n by Lennart Augustsson.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "Generic",
           "package": "aeson",
@@ -129,6 +136,7 @@
         "index": {
           "description": "Deprecated This module will be REMOVED in version Please switch to GHC generics or Data.Aeson.TH instead These alternatives are less buggy faster and more configurable JSON handling using Generics This is based on the Generic package originally written by Lennart Augustsson",
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Generic",
           "name": "Generic",
           "package": "aeson",
@@ -143,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently deserialize a JSON value from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n If this fails due to incomplete or invalid input, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned.\n\u003c/p\u003e\u003cp\u003eThis function parses immediately, but defers conversion.  See\n \u003ccode\u003e\u003ca\u003ejson\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "decode",
           "package": "aeson",
@@ -153,6 +162,7 @@
         "index": {
           "description": "Efficiently deserialize JSON value from lazy ByteString If this fails due to incomplete or invalid input Nothing is returned This function parses immediately but defers conversion See json for details",
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Generic",
           "name": "decode",
           "normalized": "ByteString-\u003eMaybe a",
@@ -168,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently deserialize a JSON value from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n If this fails due to incomplete or invalid input, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned.\n\u003c/p\u003e\u003cp\u003eThis function parses and performs conversion immediately.  See\n \u003ccode\u003e\u003ca\u003ejson'\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "decode'",
           "package": "aeson",
@@ -178,6 +189,7 @@
         "index": {
           "description": "Efficiently deserialize JSON value from lazy ByteString If this fails due to incomplete or invalid input Nothing is returned This function parses and performs conversion immediately See json for details",
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Generic",
           "name": "decode'",
           "normalized": "ByteString-\u003eMaybe a",
@@ -193,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently serialize a JSON value as a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "encode",
           "package": "aeson",
@@ -203,6 +216,7 @@
         "index": {
           "description": "Efficiently serialize JSON value as lazy ByteString",
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Generic",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -217,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "fromJSON",
           "package": "aeson",
@@ -226,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Generic",
           "name": "fromJSON",
           "normalized": "Value-\u003eResult a",
@@ -241,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "toJSON",
           "package": "aeson",
@@ -250,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Generic",
           "name": "toJSON",
           "normalized": "a-\u003eValue",
@@ -266,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficiently and correctly parse a JSON string.  The string must be\n encoded as UTF-8.\n\u003c/p\u003e\u003cp\u003eIt can be useful to think of parsing as occurring in two phases:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Identification of the textual boundaries of a JSON value.  This\n   is always strict, so that an invalid JSON document can be\n   rejected as soon as possible.\n\u003c/li\u003e\u003cli\u003e Conversion of a JSON value to a Haskell value.  This may be\n   either immediate (strict) or deferred (lazy); see below for\n   details.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe question of whether to choose a lazy or strict parser is\n subtle, but it can have significant performance implications,\n resulting in changes in CPU use and memory footprint of 30% to 50%,\n or occasionally more.  Measure the performance of your application\n with each!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Parser",
           "name": "Parser",
           "package": "aeson",
@@ -275,6 +294,7 @@
         "index": {
           "description": "Efficiently and correctly parse JSON string The string must be encoded as UTF-8 It can be useful to think of parsing as occurring in two phases Identification of the textual boundaries of JSON value This is always strict so that an invalid JSON document can be rejected as soon as possible Conversion of JSON value to Haskell value This may be either immediate strict or deferred lazy see below for details The question of whether to choose lazy or strict parser is subtle but it can have significant performance implications resulting in changes in CPU use and memory footprint of to or occasionally more Measure the performance of your application with each",
           "hierarchy": "Data Aeson Parser",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Parser",
           "name": "Parser",
           "package": "aeson",
@@ -337,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a quoted JSON string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Parser",
           "name": "jstring",
           "package": "aeson",
@@ -347,6 +368,7 @@
         "index": {
           "description": "Parse quoted JSON string",
           "hierarchy": "Data Aeson Parser",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Parser",
           "name": "jstring",
           "package": "aeson",
@@ -360,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse any JSON value.  You should usually \u003ccode\u003e\u003ca\u003ejson\u003c/a\u003e\u003c/code\u003e in preference to\n this function, as this function relaxes the object-or-array\n requirement of RFC 4627.\n\u003c/p\u003e\u003cp\u003eIn particular, be careful in using this function if you think your\n code might interoperate with Javascript.  A na&#239;ve Javascript\n library that parses JSON data using \u003ccode\u003eeval\u003c/code\u003e is vulnerable to attack\n unless the encoded data represents an object or an array.  JSON\n implementations in other languages conform to that same restriction\n to preserve interoperability and security.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Parser",
           "name": "value",
           "package": "aeson",
@@ -370,6 +393,7 @@
         "index": {
           "description": "Parse any JSON value You should usually json in preference to this function as this function relaxes the object-or-array requirement of RFC In particular be careful in using this function if you think your code might interoperate with Javascript na ve Javascript library that parses JSON data using eval is vulnerable to attack unless the encoded data represents an object or an array JSON implementations in other languages conform to that same restriction to preserve interoperability and security",
           "hierarchy": "Data Aeson Parser",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Parser",
           "name": "value",
           "package": "aeson",
@@ -383,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003evalue\u003c/a\u003e\u003c/code\u003e. See also \u003ccode\u003e\u003ca\u003ejson'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Parser",
           "name": "value'",
           "package": "aeson",
@@ -393,6 +418,7 @@
         "index": {
           "description": "Strict version of value See also json",
           "hierarchy": "Data Aeson Parser",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Parser",
           "name": "value'",
           "package": "aeson",
@@ -406,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to mechanically derive \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e instances. Note that\nyou need to enable the \u003ccode\u003eTemplateHaskell\u003c/code\u003e language extension in order to use this\nmodule.\n\u003c/p\u003e\u003cp\u003eAn example shows how instances are generated for arbitrary data types. First we\ndefine a data type:\n\u003c/p\u003e\u003cpre\u003e\ndata D a = Nullary\n         | Unary Int\n         | Product String Char a\n         | Record { testOne   :: Double\n                  , testTwo   :: Bool\n                  , testThree :: D a\n                  } deriving Eq\n\u003c/pre\u003e\u003cp\u003eNext we derive the necessary instances. Note that we make use of the\nfeature to change record field names. In this case we drop the first 4\ncharacters of every field name. We also modify constructor names by\nlower-casing them:\n\u003c/p\u003e\u003cpre\u003e\n$(\u003ccode\u003e\u003ca\u003ederiveJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e{\u003ccode\u003e\u003ca\u003efieldLabelModifier\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003edrop\u003c/code\u003e 4, \u003ccode\u003e\u003ca\u003econstructorTagModifier\u003c/a\u003e\u003c/code\u003e = map toLower} ''D)\n\u003c/pre\u003e\u003cp\u003eNow we can use the newly created instances.\n\u003c/p\u003e\u003cpre\u003e\nd :: D \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\nd = Record { testOne = 3.14159\n           , testTwo = \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n           , testThree = Product \"test\" 'A' 123\n           }\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efromJSON (toJSON d) == Success d\n\u003c/code\u003e\u003c/strong\u003e\u003e True\n\u003c/pre\u003e\u003cp\u003ePlease note that you can derive instances for tuples using the following syntax:\n\u003c/p\u003e\u003cpre\u003e\n-- FromJSON and ToJSON instances for 4-tuples.\n$(\u003ccode\u003e\u003ca\u003ederiveJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e ''(,,,))\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.TH",
           "name": "TH",
           "package": "aeson",
@@ -415,6 +442,7 @@
         "index": {
           "description": "Functions to mechanically derive ToJSON and FromJSON instances Note that you need to enable the TemplateHaskell language extension in order to use this module An example shows how instances are generated for arbitrary data types First we define data type data Nullary Unary Int Product String Char Record testOne Double testTwo Bool testThree deriving Eq Next we derive the necessary instances Note that we make use of the feature to change record field names In this case we drop the first characters of every field name We also modify constructor names by lower-casing them deriveJSON defaultOptions fieldLabelModifier drop constructorTagModifier map toLower Now we can use the newly created instances Int Record testOne testTwo True testThree Product test fromJSON toJSON Success True Please note that you can derive instances for tuples using the following syntax FromJSON and ToJSON instances for tuples deriveJSON defaultOptions",
           "hierarchy": "Data Aeson TH",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.TH",
           "name": "TH",
           "package": "aeson",
@@ -429,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions that specify how to encode/decode your datatype to/from JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.TH",
           "name": "Options",
           "package": "aeson",
@@ -438,6 +467,7 @@
         "index": {
           "description": "Options that specify how to encode decode your datatype to from JSON",
           "hierarchy": "Data Aeson TH",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.TH",
           "name": "Options",
           "package": "aeson",
@@ -452,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how to encode constructors of a sum datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.TH",
           "name": "SumEncoding",
           "package": "aeson",
@@ -461,6 +492,7 @@
         "index": {
           "description": "Specifies how to encode constructors of sum datatype",
           "hierarchy": "Data Aeson TH",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.TH",
           "name": "SumEncoding",
           "package": "aeson",
@@ -698,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e instance declaration for the given data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.TH",
           "name": "deriveFromJSON",
           "package": "aeson",
@@ -707,6 +740,7 @@
         "index": {
           "description": "Generates FromJSON instance declaration for the given data type",
           "hierarchy": "Data Aeson TH",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.TH",
           "name": "deriveFromJSON",
           "normalized": "Options-\u003eName-\u003eQ[Dec]",
@@ -723,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates both \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e instance declarations for the given\n data type.\n\u003c/p\u003e\u003cp\u003eThis is a convienience function which is equivalent to calling both\n \u003ccode\u003e\u003ca\u003ederiveToJSON\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ederiveFromJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.TH",
           "name": "deriveJSON",
           "package": "aeson",
@@ -732,6 +767,7 @@
         "index": {
           "description": "Generates both ToJSON and FromJSON instance declarations for the given data type This is convienience function which is equivalent to calling both deriveToJSON and deriveFromJSON",
           "hierarchy": "Data Aeson TH",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.TH",
           "name": "deriveJSON",
           "normalized": "Options-\u003eName-\u003eQ[Dec]",
@@ -748,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e instance declaration for the given data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.TH",
           "name": "deriveToJSON",
           "package": "aeson",
@@ -757,6 +794,7 @@
         "index": {
           "description": "Generates ToJSON instance declaration for the given data type",
           "hierarchy": "Data Aeson TH",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.TH",
           "name": "deriveToJSON",
           "normalized": "Options-\u003eName-\u003eQ[Dec]",
@@ -800,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a lambda expression which parses the JSON encoding of the given\n data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.TH",
           "name": "mkParseJSON",
           "package": "aeson",
@@ -809,6 +848,7 @@
         "index": {
           "description": "Generates lambda expression which parses the JSON encoding of the given data type",
           "hierarchy": "Data Aeson TH",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.TH",
           "name": "mkParseJSON",
           "normalized": "Options-\u003eName-\u003eQ Exp",
@@ -825,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a lambda expression which encodes the given data type as JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.TH",
           "name": "mkToJSON",
           "package": "aeson",
@@ -834,6 +875,7 @@
         "index": {
           "description": "Generates lambda expression which encodes the given data type as JSON",
           "hierarchy": "Data Aeson TH",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.TH",
           "name": "mkToJSON",
           "normalized": "Options-\u003eName-\u003eQ Exp",
@@ -923,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for working with JSON data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Types",
           "package": "aeson",
@@ -932,6 +975,7 @@
         "index": {
           "description": "Types for working with JSON data",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "Types",
           "package": "aeson",
@@ -946,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON \"array\" (sequence).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Array",
           "package": "aeson",
@@ -955,6 +1000,7 @@
         "index": {
           "description": "JSON array sequence",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "Array",
           "package": "aeson",
@@ -969,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper for \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e that uses the same non-standard\n serialization format as Microsoft .NET, whose \u003ccode\u003eSystem.DateTime\u003c/code\u003e\n type is by default serialized to JSON as in the following example:\n\u003c/p\u003e\u003cpre\u003e /Date(1302547608878)/\n\u003c/pre\u003e\u003cp\u003eThe number represents milliseconds since the Unix epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "DotNetTime",
           "package": "aeson",
@@ -978,6 +1025,7 @@
         "index": {
           "description": "newtype wrapper for UTCTime that uses the same non-standard serialization format as Microsoft NET whose System.DateTime type is by default serialized to JSON as in the following example Date The number represents milliseconds since the Unix epoch",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "DotNetTime",
           "package": "aeson",
@@ -992,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from JSON, with the possibility of\n failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003eempty\u003c/code\u003e, \u003ccode\u003emzero\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. if an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e is missing a required key, or\n the value is of the wrong type.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE OverloadedStrings #-}\n\ndata Coord { x :: Double, y :: Double }\n\ninstance FromJSON Coord where\n   parseJSON (\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e v) = Coord    \u003ccode\u003e\u003c$\u003e\u003c/code\u003e\n                          v \u003ccode\u003e.:\u003c/code\u003e \"x\" \u003ccode\u003e\u003c*\u003e\u003c/code\u003e\n                          v \u003ccode\u003e.:\u003c/code\u003e \"y\"\n\n-- A non-\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e value is of the wrong type, so use \u003ccode\u003emzero\u003c/code\u003e to fail.\n   parseJSON _          = \u003ccode\u003emzero\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eNote the use of the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension which enables\n \u003ccode\u003eText\u003c/code\u003e values to be written as string literals.\n\u003c/p\u003e\u003cp\u003eInstead of manually writing your \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e instance, there are three options\n to do it automatically:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Aeson.TH\u003c/a\u003e provides template-haskell functions which will derive an\n instance at compile-time. The generated instance is optimized for your type\n so will probably be more efficient than the following two options:\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Aeson.Generic\u003c/a\u003e provides a generic \u003ccode\u003efromJSON\u003c/code\u003e function that parses to\n any type which is an instance of \u003ccode\u003eData\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If your compiler has support for the \u003ccode\u003eDeriveGeneric\u003c/code\u003e and\n \u003ccode\u003eDefaultSignatures\u003c/code\u003e language extensions, \u003ccode\u003eparseJSON\u003c/code\u003e will have a default\n generic implementation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo use this, simply add a \u003ccode\u003ederiving \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e clause to your datatype and\n declare a \u003ccode\u003eFromJSON\u003c/code\u003e instance for your datatype without giving a definition\n for \u003ccode\u003eparseJSON\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example the previous example can be simplified to just:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE DeriveGeneric #-}\n\nimport GHC.Generics\n\ndata Coord { x :: Double, y :: Double } deriving Generic\n\ninstance FromJSON Coord\n\u003c/pre\u003e\u003cp\u003eNote that, instead of using \u003ccode\u003eDefaultSignatures\u003c/code\u003e, it's also possible\n to parameterize the generic decoding using \u003ccode\u003e\u003ca\u003egenericParseJSON\u003c/a\u003e\u003c/code\u003e applied\n to your encoding/decoding \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance FromJSON Coord where\n     parseJSON = \u003ccode\u003e\u003ca\u003egenericParseJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "FromJSON",
           "package": "aeson",
@@ -1001,6 +1050,7 @@
         "index": {
           "description": "type that can be converted from JSON with the possibility of failure When writing an instance use empty mzero or fail to make conversion fail e.g if an Object is missing required key or the value is of the wrong type An example type and instance LANGUAGE OverloadedStrings data Coord Double Double instance FromJSON Coord where parseJSON Object Coord non Object value is of the wrong type so use mzero to fail parseJSON mzero Note the use of the OverloadedStrings language extension which enables Text values to be written as string literals Instead of manually writing your FromJSON instance there are three options to do it automatically Data.Aeson.TH provides template-haskell functions which will derive an instance at compile-time The generated instance is optimized for your type so will probably be more efficient than the following two options Data.Aeson.Generic provides generic fromJSON function that parses to any type which is an instance of Data If your compiler has support for the DeriveGeneric and DefaultSignatures language extensions parseJSON will have default generic implementation To use this simply add deriving Generic clause to your datatype and declare FromJSON instance for your datatype without giving definition for parseJSON For example the previous example can be simplified to just LANGUAGE DeriveGeneric import GHC.Generics data Coord Double Double deriving Generic instance FromJSON Coord Note that instead of using DefaultSignatures it also possible to parameterize the generic decoding using genericParseJSON applied to your encoding decoding Options instance FromJSON Coord where parseJSON genericParseJSON defaultOptions",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "FromJSON",
           "package": "aeson",
@@ -1015,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of generic representation types (\u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e) that can be converted from JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "GFromJSON",
           "package": "aeson",
@@ -1024,6 +1075,7 @@
         "index": {
           "description": "Class of generic representation types Rep that can be converted from JSON",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "GFromJSON",
           "package": "aeson",
@@ -1038,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of generic representation types (\u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e) that can be converted to JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "GToJSON",
           "package": "aeson",
@@ -1047,6 +1100,7 @@
         "index": {
           "description": "Class of generic representation types Rep that can be converted to JSON",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "GToJSON",
           "package": "aeson",
@@ -1061,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON \"object\" (key/value map).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Object",
           "package": "aeson",
@@ -1070,6 +1125,7 @@
         "index": {
           "description": "JSON object key value map",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "Object",
           "package": "aeson",
@@ -1084,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions that specify how to encode/decode your datatype to/from JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Options",
           "package": "aeson",
@@ -1093,6 +1150,7 @@
         "index": {
           "description": "Options that specify how to encode decode your datatype to from JSON",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "Options",
           "package": "aeson",
@@ -1107,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key/value pair for an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Pair",
           "package": "aeson",
@@ -1116,6 +1175,7 @@
         "index": {
           "description": "key value pair for an Object",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "Pair",
           "package": "aeson",
@@ -1130,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA continuation-based parser type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Parser",
           "package": "aeson",
@@ -1139,6 +1200,7 @@
         "index": {
           "description": "continuation-based parser type",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "Parser",
           "package": "aeson",
@@ -1153,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of running a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Result",
           "package": "aeson",
@@ -1162,6 +1225,7 @@
         "index": {
           "description": "The result of running Parser",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "Result",
           "package": "aeson",
@@ -1176,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how to encode constructors of a sum datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "SumEncoding",
           "package": "aeson",
@@ -1185,6 +1250,7 @@
         "index": {
           "description": "Specifies how to encode constructors of sum datatype",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "SumEncoding",
           "package": "aeson",
@@ -1199,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to JSON.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE OverloadedStrings #-}\n\ndata Coord { x :: Double, y :: Double }\n\ninstance ToJSON Coord where\n   toJSON (Coord x y) = \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e [\"x\" \u003ccode\u003e.=\u003c/code\u003e x, \"y\" \u003ccode\u003e.=\u003c/code\u003e y]\n\u003c/pre\u003e\u003cp\u003eNote the use of the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension which enables\n \u003ccode\u003eText\u003c/code\u003e values to be written as string literals.\n\u003c/p\u003e\u003cp\u003eInstead of manually writing your \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e instance, there are three options\n to do it automatically:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Aeson.TH\u003c/a\u003e provides template-haskell functions which will derive an\n instance at compile-time. The generated instance is optimized for your type\n so will probably be more efficient than the following two options:\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Aeson.Generic\u003c/a\u003e provides a generic \u003ccode\u003etoJSON\u003c/code\u003e function that accepts any\n type which is an instance of \u003ccode\u003eData\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If your compiler has support for the \u003ccode\u003eDeriveGeneric\u003c/code\u003e and\n \u003ccode\u003eDefaultSignatures\u003c/code\u003e language extensions (GHC 7.2 and newer),\n \u003ccode\u003etoJSON\u003c/code\u003e will have a default generic implementation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo use the latter option, simply add a \u003ccode\u003ederiving \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e clause to your\n datatype and declare a \u003ccode\u003eToJSON\u003c/code\u003e instance for your datatype without giving a\n definition for \u003ccode\u003etoJSON\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example the previous example can be simplified to just:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE DeriveGeneric #-}\n\nimport GHC.Generics\n\ndata Coord { x :: Double, y :: Double } deriving Generic\n\ninstance ToJSON Coord\n\u003c/pre\u003e\u003cp\u003eNote that, instead of using \u003ccode\u003eDefaultSignatures\u003c/code\u003e, it's also possible\n to parameterize the generic encoding using \u003ccode\u003e\u003ca\u003egenericToJSON\u003c/a\u003e\u003c/code\u003e applied\n to your encoding/decoding \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance ToJSON Coord where\n     toJSON = \u003ccode\u003e\u003ca\u003egenericToJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "ToJSON",
           "package": "aeson",
@@ -1208,6 +1275,7 @@
         "index": {
           "description": "type that can be converted to JSON An example type and instance LANGUAGE OverloadedStrings data Coord Double Double instance ToJSON Coord where toJSON Coord object Note the use of the OverloadedStrings language extension which enables Text values to be written as string literals Instead of manually writing your ToJSON instance there are three options to do it automatically Data.Aeson.TH provides template-haskell functions which will derive an instance at compile-time The generated instance is optimized for your type so will probably be more efficient than the following two options Data.Aeson.Generic provides generic toJSON function that accepts any type which is an instance of Data If your compiler has support for the DeriveGeneric and DefaultSignatures language extensions GHC and newer toJSON will have default generic implementation To use the latter option simply add deriving Generic clause to your datatype and declare ToJSON instance for your datatype without giving definition for toJSON For example the previous example can be simplified to just LANGUAGE DeriveGeneric import GHC.Generics data Coord Double Double deriving Generic instance ToJSON Coord Note that instead of using DefaultSignatures it also possible to parameterize the generic encoding using genericToJSON applied to your encoding decoding Options instance ToJSON Coord where toJSON genericToJSON defaultOptions",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "ToJSON",
           "package": "aeson",
@@ -1222,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Value",
           "package": "aeson",
@@ -1231,6 +1300,7 @@
         "index": {
           "description": "JSON value represented as Haskell value",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "Value",
           "package": "aeson",
@@ -1556,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "emptyArray",
           "package": "aeson",
@@ -1566,6 +1637,7 @@
         "index": {
           "description": "The empty array",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "emptyArray",
           "package": "aeson",
@@ -1580,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "emptyObject",
           "package": "aeson",
@@ -1590,6 +1663,7 @@
         "index": {
           "description": "The empty object",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "emptyObject",
           "package": "aeson",
@@ -1654,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method (applied to \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e) is used as the\n default generic implementation of \u003ccode\u003e\u003ca\u003eparseJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "gParseJSON",
           "package": "aeson",
@@ -1664,6 +1739,7 @@
         "index": {
           "description": "This method applied to defaultOptions is used as the default generic implementation of parseJSON",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "gParseJSON",
           "normalized": "Options-\u003eValue-\u003eParser(a b)",
@@ -1680,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method (applied to \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e) is used as the\n default generic implementation of \u003ccode\u003e\u003ca\u003etoJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "gToJSON",
           "package": "aeson",
@@ -1690,6 +1767,7 @@
         "index": {
           "description": "This method applied to defaultOptions is used as the default generic implementation of toJSON",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "gToJSON",
           "normalized": "Options-\u003ea b-\u003eValue",
@@ -1760,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the inner \u003ccode\u003eParser\u003c/code\u003e failed, modify the failure message using the\n provided function. This allows you to create more descriptive error messages.\n For example:\n\u003c/p\u003e\u003cpre\u003e parseJSON (Object o) = modifyFailure\n     (\"Parsing of the Foo value failed: \" ++)\n     (Foo \u003c$\u003e o .: \"someField\")\n\u003c/pre\u003e\u003cp\u003eSince 0.6.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "modifyFailure",
           "package": "aeson",
@@ -1770,6 +1849,7 @@
         "index": {
           "description": "If the inner Parser failed modify the failure message using the provided function This allows you to create more descriptive error messages For example parseJSON Object modifyFailure Parsing of the Foo value failed Foo someField Since",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "modifyFailure",
           "normalized": "(String-\u003eString)-\u003eParser a-\u003eParser a",
@@ -1812,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "parse",
           "package": "aeson",
@@ -1822,6 +1903,7 @@
         "index": {
           "description": "Run Parser",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "parse",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eResult b",
@@ -1837,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e with an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "parseEither",
           "package": "aeson",
@@ -1847,6 +1930,7 @@
         "index": {
           "description": "Run Parser with an Either result type",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "parseEither",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eEither String b",
@@ -1862,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "parseJSON",
           "package": "aeson",
@@ -1871,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "parseJSON",
           "normalized": "Value-\u003eParser a",
@@ -1887,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "parseMaybe",
           "package": "aeson",
@@ -1897,6 +1984,7 @@
         "index": {
           "description": "Run Parser with Maybe result type",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "parseMaybe",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eMaybe b",
@@ -1912,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "toJSON",
           "package": "aeson",
@@ -1921,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "toJSON",
           "normalized": "a-\u003eValue",
@@ -1937,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail parsing due to a type mismatch, with a descriptive message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "typeMismatch",
           "package": "aeson",
@@ -1946,6 +2037,7 @@
         "index": {
           "description": "Fail parsing due to type mismatch with descriptive message",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "typeMismatch",
           "normalized": "String-\u003eValue-\u003eParser a",
@@ -2070,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewithScientific expected f value\u003c/code\u003e applies \u003ccode\u003ef\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eScientific\u003c/a\u003e\u003c/code\u003e number when \u003ccode\u003evalue\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e.\n   and fails using \u003ccode\u003e\u003ccode\u003e\u003ca\u003etypeMismatch\u003c/a\u003e\u003c/code\u003e expected\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "withScientific",
           "package": "aeson",
@@ -2080,6 +2173,7 @@
         "index": {
           "description": "withScientific expected value applies to the Scientific number when value is Number and fails using typeMismatch expected otherwise",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson.Types",
           "name": "withScientific",
           "normalized": "String-\u003e(Scientific-\u003eParser a)-\u003eValue-\u003eParser a",
@@ -2123,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and functions for working efficiently with JSON data.\n\u003c/p\u003e\u003cp\u003e(A note on naming: in Greek mythology, Aeson was the father of Jason.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "Aeson",
           "package": "aeson",
@@ -2132,6 +2227,7 @@
         "index": {
           "description": "Types and functions for working efficiently with JSON data note on naming in Greek mythology Aeson was the father of Jason",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "Aeson",
           "package": "aeson",
@@ -2146,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON \"array\" (sequence).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "Array",
           "package": "aeson",
@@ -2155,6 +2252,7 @@
         "index": {
           "description": "JSON array sequence",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "Array",
           "package": "aeson",
@@ -2169,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper for \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e that uses the same non-standard\n serialization format as Microsoft .NET, whose \u003ccode\u003eSystem.DateTime\u003c/code\u003e\n type is by default serialized to JSON as in the following example:\n\u003c/p\u003e\u003cpre\u003e /Date(1302547608878)/\n\u003c/pre\u003e\u003cp\u003eThe number represents milliseconds since the Unix epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "DotNetTime",
           "package": "aeson",
@@ -2178,6 +2277,7 @@
         "index": {
           "description": "newtype wrapper for UTCTime that uses the same non-standard serialization format as Microsoft NET whose System.DateTime type is by default serialized to JSON as in the following example Date The number represents milliseconds since the Unix epoch",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "DotNetTime",
           "package": "aeson",
@@ -2192,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from JSON, with the possibility of\n failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003eempty\u003c/code\u003e, \u003ccode\u003emzero\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. if an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e is missing a required key, or\n the value is of the wrong type.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE OverloadedStrings #-}\n\ndata Coord { x :: Double, y :: Double }\n\ninstance FromJSON Coord where\n   parseJSON (\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e v) = Coord    \u003ccode\u003e\u003c$\u003e\u003c/code\u003e\n                          v \u003ccode\u003e.:\u003c/code\u003e \"x\" \u003ccode\u003e\u003c*\u003e\u003c/code\u003e\n                          v \u003ccode\u003e.:\u003c/code\u003e \"y\"\n\n-- A non-\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e value is of the wrong type, so use \u003ccode\u003emzero\u003c/code\u003e to fail.\n   parseJSON _          = \u003ccode\u003emzero\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eNote the use of the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension which enables\n \u003ccode\u003eText\u003c/code\u003e values to be written as string literals.\n\u003c/p\u003e\u003cp\u003eInstead of manually writing your \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e instance, there are three options\n to do it automatically:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Aeson.TH\u003c/a\u003e provides template-haskell functions which will derive an\n instance at compile-time. The generated instance is optimized for your type\n so will probably be more efficient than the following two options:\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Aeson.Generic\u003c/a\u003e provides a generic \u003ccode\u003efromJSON\u003c/code\u003e function that parses to\n any type which is an instance of \u003ccode\u003eData\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If your compiler has support for the \u003ccode\u003eDeriveGeneric\u003c/code\u003e and\n \u003ccode\u003eDefaultSignatures\u003c/code\u003e language extensions, \u003ccode\u003eparseJSON\u003c/code\u003e will have a default\n generic implementation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo use this, simply add a \u003ccode\u003ederiving \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e clause to your datatype and\n declare a \u003ccode\u003eFromJSON\u003c/code\u003e instance for your datatype without giving a definition\n for \u003ccode\u003eparseJSON\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example the previous example can be simplified to just:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE DeriveGeneric #-}\n\nimport GHC.Generics\n\ndata Coord { x :: Double, y :: Double } deriving Generic\n\ninstance FromJSON Coord\n\u003c/pre\u003e\u003cp\u003eNote that, instead of using \u003ccode\u003eDefaultSignatures\u003c/code\u003e, it's also possible\n to parameterize the generic decoding using \u003ccode\u003e\u003ca\u003egenericParseJSON\u003c/a\u003e\u003c/code\u003e applied\n to your encoding/decoding \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance FromJSON Coord where\n     parseJSON = \u003ccode\u003e\u003ca\u003egenericParseJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "FromJSON",
           "package": "aeson",
@@ -2201,6 +2302,7 @@
         "index": {
           "description": "type that can be converted from JSON with the possibility of failure When writing an instance use empty mzero or fail to make conversion fail e.g if an Object is missing required key or the value is of the wrong type An example type and instance LANGUAGE OverloadedStrings data Coord Double Double instance FromJSON Coord where parseJSON Object Coord non Object value is of the wrong type so use mzero to fail parseJSON mzero Note the use of the OverloadedStrings language extension which enables Text values to be written as string literals Instead of manually writing your FromJSON instance there are three options to do it automatically Data.Aeson.TH provides template-haskell functions which will derive an instance at compile-time The generated instance is optimized for your type so will probably be more efficient than the following two options Data.Aeson.Generic provides generic fromJSON function that parses to any type which is an instance of Data If your compiler has support for the DeriveGeneric and DefaultSignatures language extensions parseJSON will have default generic implementation To use this simply add deriving Generic clause to your datatype and declare FromJSON instance for your datatype without giving definition for parseJSON For example the previous example can be simplified to just LANGUAGE DeriveGeneric import GHC.Generics data Coord Double Double deriving Generic instance FromJSON Coord Note that instead of using DefaultSignatures it also possible to parameterize the generic decoding using genericParseJSON applied to your encoding decoding Options instance FromJSON Coord where parseJSON genericParseJSON defaultOptions",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "FromJSON",
           "package": "aeson",
@@ -2215,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of generic representation types (\u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e) that can be converted from JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "GFromJSON",
           "package": "aeson",
@@ -2224,6 +2327,7 @@
         "index": {
           "description": "Class of generic representation types Rep that can be converted from JSON",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "GFromJSON",
           "package": "aeson",
@@ -2238,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of generic representation types (\u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e) that can be converted to JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "GToJSON",
           "package": "aeson",
@@ -2247,6 +2352,7 @@
         "index": {
           "description": "Class of generic representation types Rep that can be converted to JSON",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "GToJSON",
           "package": "aeson",
@@ -2261,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON \"object\" (key/value map).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "Object",
           "package": "aeson",
@@ -2270,6 +2377,7 @@
         "index": {
           "description": "JSON object key value map",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "Object",
           "package": "aeson",
@@ -2284,6 +2392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of running a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "Result",
           "package": "aeson",
@@ -2293,6 +2402,7 @@
         "index": {
           "description": "The result of running Parser",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "Result",
           "package": "aeson",
@@ -2307,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to JSON.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE OverloadedStrings #-}\n\ndata Coord { x :: Double, y :: Double }\n\ninstance ToJSON Coord where\n   toJSON (Coord x y) = \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e [\"x\" \u003ccode\u003e.=\u003c/code\u003e x, \"y\" \u003ccode\u003e.=\u003c/code\u003e y]\n\u003c/pre\u003e\u003cp\u003eNote the use of the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension which enables\n \u003ccode\u003eText\u003c/code\u003e values to be written as string literals.\n\u003c/p\u003e\u003cp\u003eInstead of manually writing your \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e instance, there are three options\n to do it automatically:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Aeson.TH\u003c/a\u003e provides template-haskell functions which will derive an\n instance at compile-time. The generated instance is optimized for your type\n so will probably be more efficient than the following two options:\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Aeson.Generic\u003c/a\u003e provides a generic \u003ccode\u003etoJSON\u003c/code\u003e function that accepts any\n type which is an instance of \u003ccode\u003eData\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If your compiler has support for the \u003ccode\u003eDeriveGeneric\u003c/code\u003e and\n \u003ccode\u003eDefaultSignatures\u003c/code\u003e language extensions (GHC 7.2 and newer),\n \u003ccode\u003etoJSON\u003c/code\u003e will have a default generic implementation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo use the latter option, simply add a \u003ccode\u003ederiving \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e clause to your\n datatype and declare a \u003ccode\u003eToJSON\u003c/code\u003e instance for your datatype without giving a\n definition for \u003ccode\u003etoJSON\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example the previous example can be simplified to just:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE DeriveGeneric #-}\n\nimport GHC.Generics\n\ndata Coord { x :: Double, y :: Double } deriving Generic\n\ninstance ToJSON Coord\n\u003c/pre\u003e\u003cp\u003eNote that, instead of using \u003ccode\u003eDefaultSignatures\u003c/code\u003e, it's also possible\n to parameterize the generic encoding using \u003ccode\u003e\u003ca\u003egenericToJSON\u003c/a\u003e\u003c/code\u003e applied\n to your encoding/decoding \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance ToJSON Coord where\n     toJSON = \u003ccode\u003e\u003ca\u003egenericToJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "ToJSON",
           "package": "aeson",
@@ -2316,6 +2427,7 @@
         "index": {
           "description": "type that can be converted to JSON An example type and instance LANGUAGE OverloadedStrings data Coord Double Double instance ToJSON Coord where toJSON Coord object Note the use of the OverloadedStrings language extension which enables Text values to be written as string literals Instead of manually writing your ToJSON instance there are three options to do it automatically Data.Aeson.TH provides template-haskell functions which will derive an instance at compile-time The generated instance is optimized for your type so will probably be more efficient than the following two options Data.Aeson.Generic provides generic toJSON function that accepts any type which is an instance of Data If your compiler has support for the DeriveGeneric and DefaultSignatures language extensions GHC and newer toJSON will have default generic implementation To use the latter option simply add deriving Generic clause to your datatype and declare ToJSON instance for your datatype without giving definition for toJSON For example the previous example can be simplified to just LANGUAGE DeriveGeneric import GHC.Generics data Coord Double Double deriving Generic instance ToJSON Coord Note that instead of using DefaultSignatures it also possible to parameterize the generic encoding using genericToJSON applied to your encoding decoding Options instance ToJSON Coord where toJSON genericToJSON defaultOptions",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "ToJSON",
           "package": "aeson",
@@ -2330,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "Value",
           "package": "aeson",
@@ -2339,6 +2452,7 @@
         "index": {
           "description": "JSON value represented as Haskell value",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "Value",
           "package": "aeson",
@@ -2353,6 +2467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently deserialize a JSON value from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n If this fails due to incomplete or invalid input, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned.\n\u003c/p\u003e\u003cp\u003eThe input must consist solely of a JSON document, with no trailing\n data except for whitespace. This restriction is necessary to ensure\n that if data is being lazily read from a file handle, the file\n handle will be closed in a timely fashion once the document has\n been parsed.\n\u003c/p\u003e\u003cp\u003eThis function parses immediately, but defers conversion.  See\n \u003ccode\u003e\u003ca\u003ejson\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "decode",
           "package": "aeson",
@@ -2363,6 +2478,7 @@
         "index": {
           "description": "Efficiently deserialize JSON value from lazy ByteString If this fails due to incomplete or invalid input Nothing is returned The input must consist solely of JSON document with no trailing data except for whitespace This restriction is necessary to ensure that if data is being lazily read from file handle the file handle will be closed in timely fashion once the document has been parsed This function parses immediately but defers conversion See json for details",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "decode",
           "normalized": "ByteString-\u003eMaybe a",
@@ -2378,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently deserialize a JSON value from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n If this fails due to incomplete or invalid input, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned.\n\u003c/p\u003e\u003cp\u003eThe input must consist solely of a JSON document, with no trailing\n data except for whitespace. This restriction is necessary to ensure\n that if data is being lazily read from a file handle, the file\n handle will be closed in a timely fashion once the document has\n been parsed.\n\u003c/p\u003e\u003cp\u003eThis function parses and performs conversion immediately.  See\n \u003ccode\u003e\u003ca\u003ejson'\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "decode'",
           "package": "aeson",
@@ -2388,6 +2505,7 @@
         "index": {
           "description": "Efficiently deserialize JSON value from lazy ByteString If this fails due to incomplete or invalid input Nothing is returned The input must consist solely of JSON document with no trailing data except for whitespace This restriction is necessary to ensure that if data is being lazily read from file handle the file handle will be closed in timely fashion once the document has been parsed This function parses and performs conversion immediately See json for details",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "decode'",
           "normalized": "ByteString-\u003eMaybe a",
@@ -2403,6 +2521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently deserialize a JSON value from a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n If this fails due to incomplete or invalid input, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned.\n\u003c/p\u003e\u003cp\u003eThe input must consist solely of a JSON document, with no trailing\n data except for whitespace.\n\u003c/p\u003e\u003cp\u003eThis function parses immediately, but defers conversion.  See\n \u003ccode\u003e\u003ca\u003ejson\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "decodeStrict",
           "package": "aeson",
@@ -2413,6 +2532,7 @@
         "index": {
           "description": "Efficiently deserialize JSON value from strict ByteString If this fails due to incomplete or invalid input Nothing is returned The input must consist solely of JSON document with no trailing data except for whitespace This function parses immediately but defers conversion See json for details",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "decodeStrict",
           "normalized": "ByteString-\u003eMaybe a",
@@ -2429,6 +2549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently deserialize a JSON value from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n If this fails due to incomplete or invalid input, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned.\n\u003c/p\u003e\u003cp\u003eThe input must consist solely of a JSON document, with no trailing\n data except for whitespace.\n\u003c/p\u003e\u003cp\u003eThis function parses and performs conversion immediately.  See\n \u003ccode\u003e\u003ca\u003ejson'\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "decodeStrict'",
           "package": "aeson",
@@ -2439,6 +2560,7 @@
         "index": {
           "description": "Efficiently deserialize JSON value from lazy ByteString If this fails due to incomplete or invalid input Nothing is returned The input must consist solely of JSON document with no trailing data except for whitespace This function parses and performs conversion immediately See json for details",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "decodeStrict'",
           "normalized": "ByteString-\u003eMaybe a",
@@ -2455,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e but returns an error message when decoding fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "eitherDecode",
           "package": "aeson",
@@ -2465,6 +2588,7 @@
         "index": {
           "description": "Like decode but returns an error message when decoding fails",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "eitherDecode",
           "normalized": "ByteString-\u003eEither String a",
@@ -2481,6 +2605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edecode'\u003c/a\u003e\u003c/code\u003e but returns an error message when decoding fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "eitherDecode'",
           "package": "aeson",
@@ -2491,6 +2616,7 @@
         "index": {
           "description": "Like decode but returns an error message when decoding fails",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "eitherDecode'",
           "normalized": "ByteString-\u003eEither String a",
@@ -2507,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edecodeStrict\u003c/a\u003e\u003c/code\u003e but returns an error message when decoding fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "eitherDecodeStrict",
           "package": "aeson",
@@ -2517,6 +2644,7 @@
         "index": {
           "description": "Like decodeStrict but returns an error message when decoding fails",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "eitherDecodeStrict",
           "normalized": "ByteString-\u003eEither String a",
@@ -2533,6 +2661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edecodeStrict'\u003c/a\u003e\u003c/code\u003e but returns an error message when decoding fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "eitherDecodeStrict'",
           "package": "aeson",
@@ -2543,6 +2672,7 @@
         "index": {
           "description": "Like decodeStrict but returns an error message when decoding fails",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "eitherDecodeStrict'",
           "normalized": "ByteString-\u003eEither String a",
@@ -2559,6 +2689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method (applied to \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e) is used as the\n default generic implementation of \u003ccode\u003e\u003ca\u003eparseJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "gParseJSON",
           "package": "aeson",
@@ -2569,6 +2700,7 @@
         "index": {
           "description": "This method applied to defaultOptions is used as the default generic implementation of parseJSON",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "gParseJSON",
           "normalized": "Options-\u003eValue-\u003eParser(a b)",
@@ -2585,6 +2717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method (applied to \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e) is used as the\n default generic implementation of \u003ccode\u003e\u003ca\u003etoJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "gToJSON",
           "package": "aeson",
@@ -2595,6 +2728,7 @@
         "index": {
           "description": "This method applied to defaultOptions is used as the default generic implementation of toJSON",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "gToJSON",
           "normalized": "Options-\u003ea b-\u003eValue",
@@ -2610,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "parseJSON",
           "package": "aeson",
@@ -2619,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "parseJSON",
           "normalized": "Value-\u003eParser a",
@@ -2634,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:33 UTC 2014",
           "module": "Data.Aeson",
           "name": "toJSON",
           "package": "aeson",
@@ -2643,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:33",
           "module": "Data.Aeson",
           "name": "toJSON",
           "normalized": "a-\u003eValue",

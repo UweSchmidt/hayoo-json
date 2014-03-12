@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nkjp"
+        "phrase": "nkjp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing the NKJP morphosyntax layer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Morphosyntax",
           "package": "nkjp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parsing the NKJP morphosyntax layer",
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Morphosyntax",
           "package": "nkjp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lexciacal entry, potential interpretation of the segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Lex",
           "package": "nkjp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "lexciacal entry potential interpretation of the segment",
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Lex",
           "package": "nkjp",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA paragraph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Para",
           "package": "nkjp",
@@ -74,6 +79,7 @@
         "index": {
           "description": "paragraph",
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Para",
           "package": "nkjp",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Seg",
           "package": "nkjp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "segment",
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Seg",
           "package": "nkjp",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Sent",
           "package": "nkjp",
@@ -120,6 +129,7 @@
         "index": {
           "description": "sentence",
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Sent",
           "package": "nkjp",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Lex",
           "package": "nkjp",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Lex",
           "package": "nkjp",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Para",
           "package": "nkjp",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Para",
           "package": "nkjp",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Seg",
           "package": "nkjp",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Seg",
           "package": "nkjp",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Sent",
           "package": "nkjp",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "Sent",
           "package": "nkjp",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "base",
           "package": "nkjp",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "base",
           "package": "nkjp",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "choice",
           "package": "nkjp",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "choice",
           "normalized": "(a,a)",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "ctag",
           "package": "nkjp",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "ctag",
           "package": "nkjp",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "lexID",
           "package": "nkjp",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "lexID",
           "package": "nkjp",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "lexs",
           "package": "nkjp",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "lexs",
           "normalized": "[Lex a]",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "msds",
           "package": "nkjp",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "msds",
           "normalized": "[(a,a)]",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "nps",
           "package": "nkjp",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "nps",
           "package": "nkjp",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "orth",
           "package": "nkjp",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "orth",
           "package": "nkjp",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "paraID",
           "package": "nkjp",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "paraID",
           "package": "nkjp",
@@ -419,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse textual contents of the ann_morphosyntax.xml file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "parseMorph",
           "package": "nkjp",
@@ -429,6 +466,7 @@
         "index": {
           "description": "Parse textual contents of the ann morphosyntax.xml file",
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "parseMorph",
           "normalized": "Text-\u003e[Para Text]",
@@ -445,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse all ann_morphosyntax.xml files from the NCP .tar.gz file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "readCorpus",
           "package": "nkjp",
@@ -455,6 +494,7 @@
         "index": {
           "description": "Parse all ann morphosyntax.xml files from the NCP tar.gz file",
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "readCorpus",
           "normalized": "FilePath-\u003eIO[(FilePath,Maybe[Para Text])]",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the stand-alone ann_morphosyntax.xml file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "readMorph",
           "package": "nkjp",
@@ -481,6 +522,7 @@
         "index": {
           "description": "Parse the stand-alone ann morphosyntax.xml file",
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "readMorph",
           "normalized": "FilePath-\u003eIO[Para Text]",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "segID",
           "package": "nkjp",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "segID",
           "package": "nkjp",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "segments",
           "package": "nkjp",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "segments",
           "normalized": "[Seg a]",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "sentID",
           "package": "nkjp",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "sentID",
           "package": "nkjp",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Morphosyntax",
           "name": "sentences",
           "package": "nkjp",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Morphosyntax",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Morphosyntax",
           "name": "sentences",
           "normalized": "[Sent a]",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing the NKJP named entity layer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Named",
           "package": "nkjp",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Parsing the NKJP named entity layer",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Named",
           "package": "nkjp",
@@ -610,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA certainty of an annotator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Cert",
           "package": "nkjp",
@@ -619,6 +672,7 @@
         "index": {
           "description": "certainty of an annotator",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Cert",
           "package": "nkjp",
@@ -633,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA derivation structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Deriv",
           "package": "nkjp",
@@ -642,6 +697,7 @@
         "index": {
           "description": "derivation structure",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Deriv",
           "package": "nkjp",
@@ -656,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA segment element in a file. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "NE",
           "package": "nkjp",
@@ -665,6 +722,7 @@
         "index": {
           "description": "segment element in file",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "NE",
           "package": "nkjp",
@@ -679,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA paragraph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Para",
           "package": "nkjp",
@@ -688,6 +747,7 @@
         "index": {
           "description": "paragraph",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Para",
           "package": "nkjp",
@@ -702,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Ptr",
           "package": "nkjp",
@@ -711,6 +772,7 @@
         "index": {
           "description": "pointer",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Ptr",
           "package": "nkjp",
@@ -725,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Sent",
           "package": "nkjp",
@@ -734,6 +797,7 @@
         "index": {
           "description": "sentence",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Sent",
           "package": "nkjp",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Deriv",
           "package": "nkjp",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Deriv",
           "package": "nkjp",
@@ -770,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOf loc#id form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Global",
           "package": "nkjp",
@@ -780,6 +847,7 @@
         "index": {
           "description": "Of loc id form",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Global",
           "package": "nkjp",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "High",
           "package": "nkjp",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "High",
           "package": "nkjp",
@@ -816,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOf #id form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Local",
           "package": "nkjp",
@@ -826,6 +897,7 @@
         "index": {
           "description": "Of id form",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Local",
           "package": "nkjp",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Low",
           "package": "nkjp",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Low",
           "package": "nkjp",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Medium",
           "package": "nkjp",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Medium",
           "package": "nkjp",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "NE",
           "package": "nkjp",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "NE",
           "package": "nkjp",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Para",
           "package": "nkjp",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Para",
           "package": "nkjp",
@@ -927,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "Sent",
           "package": "nkjp",
@@ -936,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "Sent",
           "package": "nkjp",
@@ -950,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft base or Right when.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "base",
           "package": "nkjp",
@@ -960,6 +1043,7 @@
         "index": {
           "description": "Left base or Right when",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "base",
           "package": "nkjp",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "cert",
           "package": "nkjp",
@@ -981,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "cert",
           "package": "nkjp",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "certComment",
           "package": "nkjp",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "certComment",
           "package": "nkjp",
@@ -1015,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "derivFrom",
           "package": "nkjp",
@@ -1024,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "derivFrom",
           "package": "nkjp",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "derivType",
           "package": "nkjp",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "derivType",
           "package": "nkjp",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "derived",
           "package": "nkjp",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "derived",
           "package": "nkjp",
@@ -1080,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "location",
           "package": "nkjp",
@@ -1089,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "location",
           "package": "nkjp",
@@ -1102,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake NE forest from a segment list and a list of NEs, both lists\n corresponding to the same sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "mkForest",
           "package": "nkjp",
@@ -1112,6 +1209,7 @@
         "index": {
           "description": "Make NE forest from segment list and list of NEs both lists corresponding to the same sentence",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "mkForest",
           "normalized": "[Seg a]-\u003e[NE a]-\u003eForest(Either(NE a)(Seg a))",
@@ -1127,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "names",
           "package": "nkjp",
@@ -1136,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "names",
           "normalized": "[NE a]",
@@ -1150,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "neID",
           "package": "nkjp",
@@ -1159,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "neID",
           "package": "nkjp",
@@ -1172,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "neType",
           "package": "nkjp",
@@ -1181,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "neType",
           "package": "nkjp",
@@ -1194,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "orth",
           "package": "nkjp",
@@ -1203,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "orth",
           "package": "nkjp",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "paraID",
           "package": "nkjp",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "paraID",
           "package": "nkjp",
@@ -1238,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse textual contents of the ann_named.xml file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "parseNamed",
           "package": "nkjp",
@@ -1248,6 +1357,7 @@
         "index": {
           "description": "Parse textual contents of the ann named.xml file",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "parseNamed",
           "normalized": "Text-\u003e[Para Text]",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "ptrs",
           "package": "nkjp",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "ptrs",
           "normalized": "[Ptr a]",
@@ -1287,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse all ann_named.xml files from the NCP .tar.gz file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "readCorpus",
           "package": "nkjp",
@@ -1297,6 +1410,7 @@
         "index": {
           "description": "Parse all ann named.xml files from the NCP tar.gz file",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "readCorpus",
           "normalized": "FilePath-\u003eIO[(FilePath,Maybe[Para Text])]",
@@ -1313,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the stand-alone ann_named.xml file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "readNamed",
           "package": "nkjp",
@@ -1323,6 +1438,7 @@
         "index": {
           "description": "Parse the stand-alone ann named.xml file",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "readNamed",
           "normalized": "FilePath-\u003eIO[Para Text]",
@@ -1339,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the NCP .tar.gz corpus, extract all NEs and translate them\n to the tree form using the \u003ccode\u003e\u003ca\u003emkForest\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "readTrees",
           "package": "nkjp",
@@ -1349,6 +1466,7 @@
         "index": {
           "description": "Parse the NCP tar.gz corpus extract all NEs and translate them to the tree form using the mkForest function",
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "readTrees",
           "normalized": "FilePath-\u003eIO[Forest(Either(NE Text)(Seg Text))]",
@@ -1364,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "sentID",
           "package": "nkjp",
@@ -1373,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "sentID",
           "package": "nkjp",
@@ -1386,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "sentences",
           "package": "nkjp",
@@ -1395,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "sentences",
           "normalized": "[Sent a]",
@@ -1409,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "subType",
           "package": "nkjp",
@@ -1418,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "subType",
           "package": "nkjp",
@@ -1431,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:20 UTC 2014",
           "module": "Text.NKJP.Named",
           "name": "target",
           "package": "nkjp",
@@ -1440,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Text NKJP Named",
+          "indexed": "2014-03-11T19:29:20",
           "module": "Text.NKJP.Named",
           "name": "target",
           "package": "nkjp",

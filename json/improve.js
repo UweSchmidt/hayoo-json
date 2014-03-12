@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "improve"
+        "phrase": "improve",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Ada",
           "name": "Ada",
           "package": "improve",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Ada",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Ada",
           "name": "Ada",
           "package": "improve",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate Ada.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Ada",
           "name": "codeAda",
           "package": "improve",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Generate Ada",
           "hierarchy": "Language ImProve Code Ada",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Ada",
           "name": "codeAda",
           "normalized": "Name-\u003eStatement-\u003eIO()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.C",
           "name": "C",
           "package": "improve",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code C",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.C",
           "name": "C",
           "package": "improve",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate C.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.C",
           "name": "codeC",
           "package": "improve",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Generate",
           "hierarchy": "Language ImProve Code C",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.C",
           "name": "codeC",
           "normalized": "Name-\u003eStatement-\u003eIO()",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Common",
           "name": "Common",
           "package": "improve",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Common",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Common",
           "name": "Common",
           "package": "improve",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Common",
           "name": "indent",
           "package": "improve",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Common",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Common",
           "name": "indent",
           "normalized": "String-\u003eString",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Modelica",
           "name": "Modelica",
           "package": "improve",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Modelica",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Modelica",
           "name": "Modelica",
           "package": "improve",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Modelica",
           "name": "codeModelica",
           "package": "improve",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Modelica",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Modelica",
           "name": "codeModelica",
           "normalized": "Name-\u003eStatement-\u003eIO()",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Simulink",
           "package": "improve",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Simulink",
           "package": "improve",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Block",
           "package": "improve",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Block",
           "package": "improve",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Netlist",
           "package": "improve",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Netlist",
           "package": "improve",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Add'",
           "package": "improve",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Add'",
           "package": "improve",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "And'",
           "package": "improve",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "And'",
           "package": "improve",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Assertion",
           "package": "improve",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Assertion",
           "package": "improve",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Cast",
           "package": "improve",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Cast",
           "package": "improve",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Const'",
           "package": "improve",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Const'",
           "package": "improve",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Div'",
           "package": "improve",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Div'",
           "package": "improve",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Eq'",
           "package": "improve",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Eq'",
           "package": "improve",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Ge'",
           "package": "improve",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Ge'",
           "package": "improve",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Gt'",
           "package": "improve",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Gt'",
           "package": "improve",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Inport",
           "package": "improve",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Inport",
           "package": "improve",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Le'",
           "package": "improve",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Le'",
           "package": "improve",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Lt'",
           "package": "improve",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Lt'",
           "package": "improve",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Mod'",
           "package": "improve",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Mod'",
           "package": "improve",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Mul'",
           "package": "improve",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Mul'",
           "package": "improve",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Mux'",
           "package": "improve",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Mux'",
           "package": "improve",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Netlist",
           "package": "improve",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Netlist",
           "package": "improve",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Not'",
           "package": "improve",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Not'",
           "package": "improve",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Or'",
           "package": "improve",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Or'",
           "package": "improve",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Outport",
           "package": "improve",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Outport",
           "package": "improve",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Sub'",
           "package": "improve",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "Sub'",
           "package": "improve",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "UnitDelay",
           "package": "improve",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "UnitDelay",
           "package": "improve",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "blocks",
           "package": "improve",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "blocks",
           "normalized": "[(Name,Block)]",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "codeSimulink",
           "package": "improve",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "codeSimulink",
           "normalized": "Name-\u003eStatement-\u003eIO()",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "env",
           "package": "improve",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "env",
           "normalized": "[Name]",
@@ -795,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a netlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "netlist",
           "package": "improve",
@@ -805,6 +876,7 @@
         "index": {
           "description": "Builds netlist",
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "netlist",
           "normalized": "Statement-\u003eIO Netlist",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "nets",
           "package": "improve",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "nets",
           "normalized": "[(Name,(Name,Int))]",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "nextId",
           "package": "improve",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "nextId",
           "package": "improve",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "path",
           "package": "improve",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "path",
           "package": "improve",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code.Simulink",
           "name": "vars",
           "package": "improve",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code Simulink",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code.Simulink",
           "name": "vars",
           "normalized": "[Path]",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code",
           "name": "Code",
           "package": "improve",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Code",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code",
           "name": "Code",
           "package": "improve",
@@ -930,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode generation targets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code",
           "name": "Target",
           "package": "improve",
@@ -939,6 +1022,7 @@
         "index": {
           "description": "Code generation targets",
           "hierarchy": "Language ImProve Code",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code",
           "name": "Target",
           "package": "improve",
@@ -1044,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate target code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Code",
           "name": "code",
           "package": "improve",
@@ -1054,6 +1139,7 @@
         "index": {
           "description": "Generate target code",
           "hierarchy": "Language ImProve Code",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Code",
           "name": "code",
           "normalized": "Target-\u003eName-\u003eStatement-\u003eIO()",
@@ -1068,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Core",
           "package": "improve",
@@ -1076,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Core",
           "package": "improve",
@@ -1090,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "A",
           "package": "improve",
@@ -1099,6 +1188,7 @@
         "index": {
           "description": "mutable array",
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "A",
           "package": "improve",
@@ -1111,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "AllE",
           "package": "improve",
@@ -1119,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "AllE",
           "package": "improve",
@@ -1132,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Const",
           "package": "improve",
@@ -1140,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Const",
           "package": "improve",
@@ -1154,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logical, arithmetic, comparative, or conditional expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "E",
           "package": "improve",
@@ -1163,6 +1258,7 @@
         "index": {
           "description": "logical arithmetic comparative or conditional expression",
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "E",
           "package": "improve",
@@ -1175,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Name",
           "package": "improve",
@@ -1183,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Name",
           "package": "improve",
@@ -1196,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "NumE",
           "package": "improve",
@@ -1204,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "NumE",
           "package": "improve",
@@ -1217,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Path",
           "package": "improve",
@@ -1225,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Path",
           "package": "improve",
@@ -1238,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "PathName",
           "package": "improve",
@@ -1246,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "PathName",
           "package": "improve",
@@ -1259,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Statement",
           "package": "improve",
@@ -1267,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Statement",
           "package": "improve",
@@ -1280,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "UID",
           "package": "improve",
@@ -1288,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "UID",
           "package": "improve",
@@ -1302,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "V",
           "package": "improve",
@@ -1311,6 +1420,7 @@
         "index": {
           "description": "mutable variable",
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "V",
           "package": "improve",
@@ -1323,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "VarInfo",
           "package": "improve",
@@ -1331,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "VarInfo",
           "package": "improve",
@@ -1344,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "A",
           "package": "improve",
@@ -1353,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "A",
           "normalized": "A Bool Path[a]",
@@ -1367,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Add",
           "package": "improve",
@@ -1376,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Add",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -1391,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "And",
           "package": "improve",
@@ -1400,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "And",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -1415,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Assert",
           "package": "improve",
@@ -1424,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Assert",
           "normalized": "Int-\u003eInt-\u003eE Bool-\u003eStatement",
@@ -1439,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Assign",
           "package": "improve",
@@ -1448,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Assign",
           "normalized": "V a-\u003eE a-\u003eStatement",
@@ -1463,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Assume",
           "package": "improve",
@@ -1472,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Assume",
           "normalized": "Int-\u003eE Bool-\u003eStatement",
@@ -1487,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Bool",
           "package": "improve",
@@ -1496,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Bool",
           "package": "improve",
@@ -1509,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Branch",
           "package": "improve",
@@ -1518,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Branch",
           "normalized": "E Bool-\u003eStatement-\u003eStatement-\u003eStatement",
@@ -1533,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Const",
           "package": "improve",
@@ -1542,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Const",
           "normalized": "a-\u003eE a",
@@ -1557,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Div",
           "package": "improve",
@@ -1566,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Div",
           "normalized": "E a-\u003ea-\u003eE a",
@@ -1581,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Eq",
           "package": "improve",
@@ -1590,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Eq",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -1605,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Float",
           "package": "improve",
@@ -1614,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Float",
           "package": "improve",
@@ -1627,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Ge",
           "package": "improve",
@@ -1636,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Ge",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -1651,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Gt",
           "package": "improve",
@@ -1660,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Gt",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -1675,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Int",
           "package": "improve",
@@ -1684,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Int",
           "package": "improve",
@@ -1697,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Label",
           "package": "improve",
@@ -1706,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Label",
           "normalized": "Name-\u003eStatement-\u003eStatement",
@@ -1721,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Le",
           "package": "improve",
@@ -1730,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Le",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -1745,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Lt",
           "package": "improve",
@@ -1754,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Lt",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -1769,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Mod",
           "package": "improve",
@@ -1778,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Mod",
           "normalized": "E Int-\u003eInt-\u003eE Int",
@@ -1793,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Mul",
           "package": "improve",
@@ -1802,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Mul",
           "normalized": "E a-\u003ea-\u003eE a",
@@ -1817,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Mux",
           "package": "improve",
@@ -1826,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Mux",
           "normalized": "E Bool-\u003eE a-\u003eE a-\u003eE a",
@@ -1841,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Not",
           "package": "improve",
@@ -1850,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Not",
           "normalized": "E Bool-\u003eE Bool",
@@ -1865,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Null",
           "package": "improve",
@@ -1874,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Null",
           "package": "improve",
@@ -1887,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Or",
           "package": "improve",
@@ -1896,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Or",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -1911,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Ref",
           "package": "improve",
@@ -1920,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Ref",
           "normalized": "V a-\u003eE a",
@@ -1935,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Sequence",
           "package": "improve",
@@ -1944,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Sequence",
           "normalized": "Statement-\u003eStatement-\u003eStatement",
@@ -1959,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "Sub",
           "package": "improve",
@@ -1968,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "Sub",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -1983,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "V",
           "package": "improve",
@@ -1992,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "V",
           "package": "improve",
@@ -2005,6 +2173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "arrayLength",
           "package": "improve",
@@ -2015,6 +2184,7 @@
         "index": {
           "description": "Length of array",
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "arrayLength",
           "normalized": "A a-\u003eInt",
@@ -2031,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssertions in a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "assertions",
           "package": "improve",
@@ -2041,6 +2212,7 @@
         "index": {
           "description": "Assertions in program",
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "assertions",
           "normalized": "Statement-\u003e[(Int,Int,E Bool)]",
@@ -2055,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "const'",
           "package": "improve",
@@ -2064,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "const'",
           "normalized": "a-\u003eConst",
@@ -2078,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "pathName",
           "package": "improve",
@@ -2087,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "pathName",
           "normalized": "a-\u003eString",
@@ -2103,6 +2279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables in a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "stmtVars",
           "package": "improve",
@@ -2113,6 +2290,7 @@
         "index": {
           "description": "Variables in program",
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "stmtVars",
           "normalized": "Statement-\u003e[VarInfo]",
@@ -2128,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "varInfo",
           "package": "improve",
@@ -2137,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "varInfo",
           "normalized": "V a-\u003eVarInfo",
@@ -2152,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Core",
           "name": "zero",
           "package": "improve",
@@ -2161,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Core",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Core",
           "name": "zero",
           "package": "improve",
@@ -2173,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Path",
           "name": "Path",
           "package": "improve",
@@ -2181,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Path",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Path",
           "name": "Path",
           "package": "improve",
@@ -2194,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Path",
           "name": "totalPaths",
           "package": "improve",
@@ -2203,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Path",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Path",
           "name": "totalPaths",
           "normalized": "Name-\u003eStatement-\u003eIO()",
@@ -2219,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuilding hierarchy from unstructured hierarchical paths.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Tree",
           "name": "Tree",
           "package": "improve",
@@ -2228,6 +2415,7 @@
         "index": {
           "description": "Building hierarchy from unstructured hierarchical paths",
           "hierarchy": "Language ImProve Tree",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Tree",
           "name": "Tree",
           "package": "improve",
@@ -2241,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Tree",
           "name": "Tree",
           "package": "improve",
@@ -2249,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Tree",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Tree",
           "name": "Tree",
           "package": "improve",
@@ -2262,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Tree",
           "name": "Branch",
           "package": "improve",
@@ -2271,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Tree",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Tree",
           "name": "Branch",
           "normalized": "Branch a[Tree a b]",
@@ -2286,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Tree",
           "name": "Leaf",
           "package": "improve",
@@ -2295,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Tree",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Tree",
           "name": "Leaf",
           "package": "improve",
@@ -2308,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Tree",
           "name": "tree",
           "package": "improve",
@@ -2317,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Tree",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Tree",
           "name": "tree",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003e[Tree b a]",
@@ -2331,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Verify",
           "name": "Verify",
           "package": "improve",
@@ -2339,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve Verify",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Verify",
           "name": "Verify",
           "package": "improve",
@@ -2353,6 +2551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify a program with k-induction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve.Verify",
           "name": "verify",
           "package": "improve",
@@ -2363,6 +2562,7 @@
         "index": {
           "description": "Verify program with k-induction",
           "hierarchy": "Language ImProve Verify",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve.Verify",
           "name": "verify",
           "normalized": "FilePath-\u003eStatement-\u003eIO()",
@@ -2378,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImProve is an imperative programming language for high assurance applications.\n\u003c/p\u003e\u003cp\u003eImProve uses infinite state, unbounded model checking to verify programs\nadhere to specifications, which are written in the form of assertion statements.\nIf it is unable to verify an assertion, ImProve will emit a counter example\nthat shows a precise program trace that exercises the assertion violation.\n\u003c/p\u003e\u003cp\u003eThe following compares the syntax of C and ImProve:\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eVariable Declarations\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\nfloat a = 0.0;            a \u003c- \u003ccode\u003e\u003ca\u003efloat\u003c/a\u003e\u003c/code\u003e \"a\" 0\nbool b = true;            b \u003c- \u003ccode\u003e\u003ca\u003ebool\u003c/a\u003e\u003c/code\u003e \"b\" True\nint c = d + e + 3;        c \u003c- \u003ccode\u003e\u003ca\u003eint'\u003c/a\u003e\u003c/code\u003e \"c\" (d + e + 3)\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eVariable Assignments\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\na = 1;                    a \u003ccode\u003e\u003ca\u003e\u003c==\u003c/a\u003e\u003c/code\u003e 1\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eConditional Statements\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\nif (condition) {          \u003ccode\u003e\u003ca\u003eif_\u003c/a\u003e\u003c/code\u003e condition $ do \n    a();                      a\n    b();                      b\n    c();                      c\n}\n\nif (condition {           \u003ccode\u003e\u003ca\u003eifelse\u003c/a\u003e\u003c/code\u003e condition\n    a();                      (do a\n    b();                          b\n    c();                          c)\n}                             (do d\nelse {                            e \n    d();                          f)\n    e();\n    f();\n}\n\nswitch (a) {              \u003ccode\u003e\u003ca\u003ecase_\u003c/a\u003e\u003c/code\u003e $ do\n    case 1:                   a ==. 1 ==\u003e do1\n        do1();                a ==. 2 ==\u003e do2\n        break;                true    ==\u003e do3\n    case 2:\n        do2();\n        break;\n    default:\n        do3();\n}\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eAssertion Statements\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\nassert(condition);        \u003ccode\u003e\u003ca\u003eassert\u003c/a\u003e\u003c/code\u003e name k condition\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eStatement Labels\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\nlabel: {                  \"label\" \u003ccode\u003e\u003ca\u003e-|\u003c/a\u003e\u003c/code\u003e do\n    a();                      a\n    b();                      b\n}\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eExpressions\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\n\u003cem\u003eConstant Literals\u003c/em\u003e\n\ntrue                      \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e\nfalse                     \u003ccode\u003e\u003ca\u003efalse\u003c/a\u003e\u003c/code\u003e\n0                         0\n100                       100\n1.0                       1\n3.14                      3.14\n\n\u003cem\u003eVariable Reference\u003c/em\u003e\n\na                         \u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e a\n\n\u003cem\u003eLogical Expressions\u003c/em\u003e\n\n! a                       \u003ccode\u003e\u003ca\u003enot_\u003c/a\u003e\u003c/code\u003e a\na && b                    a \u003ccode\u003e\u003ca\u003e&&.\u003c/a\u003e\u003c/code\u003e b\na || b                    a \u003ccode\u003e\u003ca\u003e||.\u003c/a\u003e\u003c/code\u003e b\n\n\u003cem\u003eComparison Expressions\u003c/em\u003e\n\na == b                    a \u003ccode\u003e\u003ca\u003e==.\u003c/a\u003e\u003c/code\u003e b\na != b                    a \u003ccode\u003e\u003ca\u003e/=.\u003c/a\u003e\u003c/code\u003e b\na \u003c b                     a \u003ccode\u003e\u003ca\u003e\u003c.\u003c/a\u003e\u003c/code\u003e b\na \u003e b                     a \u003ccode\u003e\u003ca\u003e\u003e.\u003c/a\u003e\u003c/code\u003e b\na \u003c= b                    a \u003ccode\u003e\u003ca\u003e\u003c=.\u003c/a\u003e\u003c/code\u003e b\na \u003e= b                    a \u003ccode\u003e\u003ca\u003e\u003e=.\u003c/a\u003e\u003c/code\u003e b\n\n\u003cem\u003eArithmetic Expressions\u003c/em\u003e\n\na + b                     a \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e b\na * b                     a \u003ccode\u003e\u003ca\u003e*.\u003c/a\u003e\u003c/code\u003e b\na / b                     a \u003ccode\u003e\u003ca\u003e/.\u003c/a\u003e\u003c/code\u003e b     -- float\na / b                     \u003ccode\u003e\u003ca\u003ediv_\u003c/a\u003e\u003c/code\u003e a b   -- int\na % b                     \u003ccode\u003e\u003ca\u003emod_\u003c/a\u003e\u003c/code\u003e a b\nabs(a)                    \u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e a\nmin(a, b)                 \u003ccode\u003e\u003ca\u003emin_\u003c/a\u003e\u003c/code\u003e a b\nmax(a, b)                 \u003ccode\u003e\u003ca\u003emax_\u003c/a\u003e\u003c/code\u003e a b\n\n\u003cem\u003eConditional Expression\u003c/em\u003e\n\na ? b : c                 \u003ccode\u003e\u003ca\u003emux\u003c/a\u003e\u003c/code\u003e a b c\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eFunction Definitions and Function Calls\u003c/em\u003e\n(All ImProve functions are Haskell functions, which are inlined at code generation.)\n\u003c/p\u003e\u003cpre\u003e\nint add(int a, int b) {                             add :: E Int -\u003e E Int -\u003e E Int\n  return a + b;                                     add a b = a + b\n}\n\nthree = add(1, 2);                                  three \u003c== add 1 2\n\nvoid incrCounter(int *counter, int amount) {        incrCounter :: V Int -\u003e E Int -\u003e Stmt ()\n  *counter = *counter + amount;                     incrCounter counter amount = counter \u003c== ref counter + amount\n}\n\nincrCounter(&counter, 22);                          incrCounter counter 22\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "ImProve",
           "package": "improve",
@@ -2387,6 +2588,7 @@
         "index": {
           "description": "ImProve is an imperative programming language for high assurance applications ImProve uses infinite state unbounded model checking to verify programs adhere to specifications which are written in the form of assertion statements If it is unable to verify an assertion ImProve will emit counter example that shows precise program trace that exercises the assertion violation The following compares the syntax of and ImProve Variable Declarations float float bool true bool True int int Variable Assignments Conditional Statements if condition if condition do if condition ifelse condition do do else switch case do case do1 do1 do2 break true do3 case do2 break default do3 Assertion Statements assert condition assert name condition Statement Labels label label do Expressions Constant Literals true true false false Variable Reference ref Logical Expressions not Comparison Expressions Arithmetic Expressions float div int mod abs abs min min max max Conditional Expression mux Function Definitions and Function Calls All ImProve functions are Haskell functions which are inlined at code generation int add int int add Int Int Int return add three add three add void incrCounter int counter int amount incrCounter Int Int Stmt counter counter amount incrCounter counter amount counter ref counter amount incrCounter counter incrCounter counter",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "ImProve",
           "package": "improve",
@@ -2400,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "AllE",
           "package": "improve",
@@ -2408,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "AllE",
           "package": "improve",
@@ -2421,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "Assign",
           "package": "improve",
@@ -2429,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "Assign",
           "package": "improve",
@@ -2443,6 +2649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logical, arithmetic, comparative, or conditional expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "E",
           "package": "improve",
@@ -2452,6 +2659,7 @@
         "index": {
           "description": "logical arithmetic comparative or conditional expression",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "E",
           "package": "improve",
@@ -2464,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "Name",
           "package": "improve",
@@ -2472,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "Name",
           "package": "improve",
@@ -2485,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "NumE",
           "package": "improve",
@@ -2493,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "NumE",
           "package": "improve",
@@ -2507,6 +2719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Stmt monad holds variable declarations and statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "Stmt",
           "package": "improve",
@@ -2516,6 +2729,7 @@
         "index": {
           "description": "The Stmt monad holds variable declarations and statements",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "Stmt",
           "package": "improve",
@@ -2530,6 +2744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode generation targets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "Target",
           "package": "improve",
@@ -2539,6 +2754,7 @@
         "index": {
           "description": "Code generation targets",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "Target",
           "package": "improve",
@@ -2553,6 +2769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "V",
           "package": "improve",
@@ -2562,6 +2779,7 @@
         "index": {
           "description": "mutable variable",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "V",
           "package": "improve",
@@ -2575,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical OR.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(||.)",
           "package": "improve",
@@ -2585,6 +2804,7 @@
         "index": {
           "description": "Logical OR",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(||.) ||.",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -2600,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical AND.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(&&.)",
           "package": "improve",
@@ -2610,6 +2831,7 @@
         "index": {
           "description": "Logical AND",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(&&.) &&.",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -2625,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(*.)",
           "package": "improve",
@@ -2635,6 +2858,7 @@
         "index": {
           "description": "Multiplication",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(*.) *.",
           "normalized": "E a-\u003ea-\u003eE a",
@@ -2650,6 +2874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabels a statement and creates a new variable scope.\n   Labels are used in counter examples to help trace the program execution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(-|)",
           "package": "improve",
@@ -2660,6 +2885,7 @@
         "index": {
           "description": "Labels statement and creates new variable scope Labels are used in counter examples to help trace the program execution",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(-|) -|",
           "normalized": "Name-\u003eStmt a-\u003eStmt a",
@@ -2675,6 +2901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical implication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(--\u003e)",
           "package": "improve",
@@ -2685,6 +2912,7 @@
         "index": {
           "description": "Logical implication",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(--\u003e) --\u003e",
           "normalized": "E Bool-\u003eE Bool-\u003eE Bool",
@@ -2700,6 +2928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(/=.)",
           "package": "improve",
@@ -2710,6 +2939,7 @@
         "index": {
           "description": "Not equal",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(/=.) /=.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -2725,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating point division.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(/.)",
           "package": "improve",
@@ -2735,6 +2966,7 @@
         "index": {
           "description": "Floating point division",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(/.) /.",
           "normalized": "E Float-\u003eFloat-\u003eE Float",
@@ -2749,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(\u003c==)",
           "package": "improve",
@@ -2758,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(\u003c==) \u003c==",
           "normalized": "V a-\u003eE a-\u003eStmt()",
@@ -2773,6 +3007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than or equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(\u003c=.)",
           "package": "improve",
@@ -2783,6 +3018,7 @@
         "index": {
           "description": "Less than or equal",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(\u003c=.) \u003c=.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -2798,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(\u003c.)",
           "package": "improve",
@@ -2808,6 +3045,7 @@
         "index": {
           "description": "Less than",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(\u003c.) \u003c.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -2822,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(==\u003e)",
           "package": "improve",
@@ -2831,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(==\u003e) ==\u003e",
           "normalized": "E Bool-\u003eStmt()-\u003eCase()",
@@ -2846,6 +3086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(==.)",
           "package": "improve",
@@ -2856,6 +3097,7 @@
         "index": {
           "description": "Equal",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(==.) ==.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -2871,6 +3113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than or equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(\u003e=.)",
           "package": "improve",
@@ -2881,6 +3124,7 @@
         "index": {
           "description": "Greater than or equal",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(\u003e=.) \u003e=.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -2896,6 +3140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "(\u003e.)",
           "package": "improve",
@@ -2906,6 +3151,7 @@
         "index": {
           "description": "Greater than",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "(\u003e.) \u003e.",
           "normalized": "E a-\u003eE a-\u003eE Bool",
@@ -2921,6 +3167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the predicate is true for all elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "all_",
           "package": "improve",
@@ -2931,6 +3178,7 @@
         "index": {
           "description": "True iff the predicate is true for all elements",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "all_",
           "normalized": "(a-\u003eE Bool)-\u003e[a]-\u003eE Bool",
@@ -2946,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric program analysis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "analyze",
           "package": "improve",
@@ -2956,6 +3205,7 @@
         "index": {
           "description": "Generic program analysis",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "analyze",
           "normalized": "(Statement-\u003eIO a)-\u003eStmt()-\u003eIO a",
@@ -2971,6 +3221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe conjunction of a E Bool list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "and_",
           "package": "improve",
@@ -2981,6 +3232,7 @@
         "index": {
           "description": "The conjunction of Bool list",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "and_",
           "normalized": "[E Bool]-\u003eE Bool",
@@ -2996,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue iff the predicate is true for any element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "any_",
           "package": "improve",
@@ -3006,6 +3259,7 @@
         "index": {
           "description": "True iff the predicate is true for any element",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "any_",
           "normalized": "(a-\u003eE Bool)-\u003e[a]-\u003eE Bool",
@@ -3021,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a new assertion.\n\u003c/p\u003e\u003cpre\u003e assert name k proposition\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "assert",
           "package": "improve",
@@ -3031,6 +3286,7 @@
         "index": {
           "description": "Defines new assertion assert name proposition",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "assert",
           "normalized": "Name-\u003eInt-\u003eE Bool-\u003eStmt()",
@@ -3046,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssume a condition is true.\n   Assumptions are used as lemmas to other assertions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "assume",
           "package": "improve",
@@ -3056,6 +3313,7 @@
         "index": {
           "description": "Assume condition is true Assumptions are used as lemmas to other assertions",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "assume",
           "normalized": "Name-\u003eE Bool-\u003eStmt()",
@@ -3071,6 +3329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "bool",
           "package": "improve",
@@ -3081,6 +3340,7 @@
         "index": {
           "description": "Boolean variable declaration",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "bool",
           "normalized": "Name-\u003eBool-\u003eStmt(V Bool)",
@@ -3096,6 +3356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean variable declaration and immediate assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "bool'",
           "package": "improve",
@@ -3106,6 +3367,7 @@
         "index": {
           "description": "Boolean variable declaration and immediate assignment",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "bool'",
           "normalized": "Name-\u003eE Bool-\u003eStmt(E Bool)",
@@ -3121,6 +3383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCondition case statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "case_",
           "package": "improve",
@@ -3131,6 +3394,7 @@
         "index": {
           "description": "Condition case statement",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "case_",
           "normalized": "Case()-\u003eStmt()",
@@ -3146,6 +3410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "code",
           "package": "improve",
@@ -3156,6 +3421,7 @@
         "index": {
           "description": "Generate code",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "code",
           "normalized": "Target-\u003eName-\u003eStmt()-\u003eIO()",
@@ -3171,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "constant",
           "package": "improve",
@@ -3181,6 +3448,7 @@
         "index": {
           "description": "Arbitrary constants",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "constant",
           "normalized": "a-\u003eE a",
@@ -3196,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrements an E Int.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "decr",
           "package": "improve",
@@ -3206,6 +3475,7 @@
         "index": {
           "description": "Decrements an Int",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "decr",
           "normalized": "V Int-\u003eStmt()",
@@ -3221,6 +3491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger division.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "div_",
           "package": "improve",
@@ -3231,6 +3502,7 @@
         "index": {
           "description": "Integer division",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "div_",
           "normalized": "E Int-\u003eInt-\u003eE Int",
@@ -3246,6 +3518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "false",
           "package": "improve",
@@ -3256,6 +3529,7 @@
         "index": {
           "description": "False term",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "false",
           "package": "improve",
@@ -3269,6 +3543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "float",
           "package": "improve",
@@ -3279,6 +3554,7 @@
         "index": {
           "description": "Float variable declaration",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "float",
           "normalized": "Name-\u003eFloat-\u003eStmt(V Float)",
@@ -3294,6 +3570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat variable declaration and immediate assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "float'",
           "package": "improve",
@@ -3304,6 +3581,7 @@
         "index": {
           "description": "Float variable declaration and immediate assignment",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "float'",
           "normalized": "Name-\u003eE Float-\u003eStmt(E Float)",
@@ -3319,6 +3597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "global",
           "package": "improve",
@@ -3329,6 +3608,7 @@
         "index": {
           "description": "Global variable declaration",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "global",
           "normalized": "(Name-\u003ea-\u003eStmt(V a))-\u003ePath-\u003ea-\u003eV a",
@@ -3344,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional if without the else.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "if_",
           "package": "improve",
@@ -3354,6 +3635,7 @@
         "index": {
           "description": "Conditional if without the else",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "if_",
           "normalized": "E Bool-\u003eStmt()-\u003eStmt()",
@@ -3369,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional if-else.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "ifelse",
           "package": "improve",
@@ -3379,6 +3662,7 @@
         "index": {
           "description": "Conditional if-else",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "ifelse",
           "normalized": "E Bool-\u003eStmt()-\u003eStmt()-\u003eStmt()",
@@ -3394,6 +3678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrements an E Int.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "incr",
           "package": "improve",
@@ -3404,6 +3689,7 @@
         "index": {
           "description": "Increments an Int",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "incr",
           "normalized": "V Int-\u003eStmt()",
@@ -3419,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput variable declaration.  Input variables are initialized to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "input",
           "package": "improve",
@@ -3429,6 +3716,7 @@
         "index": {
           "description": "Input variable declaration Input variables are initialized to",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "input",
           "normalized": "(Name-\u003ea-\u003eStmt(V a))-\u003ePath-\u003eE a",
@@ -3444,6 +3732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInt variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "int",
           "package": "improve",
@@ -3454,6 +3743,7 @@
         "index": {
           "description": "Int variable declaration",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "int",
           "normalized": "Name-\u003eInt-\u003eStmt(V Int)",
@@ -3469,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInt variable declaration and immediate assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "int'",
           "package": "improve",
@@ -3479,6 +3770,7 @@
         "index": {
           "description": "Int variable declaration and immediate assignment",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "int'",
           "normalized": "Name-\u003eE Int-\u003eStmt(E Int)",
@@ -3494,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimits between min and max.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "limit",
           "package": "improve",
@@ -3504,6 +3797,7 @@
         "index": {
           "description": "Limits between min and max",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "limit",
           "normalized": "E a-\u003eE a-\u003eE a-\u003eE a",
@@ -3519,6 +3813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolation and extrapolation of two points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "linear",
           "package": "improve",
@@ -3529,6 +3824,7 @@
         "index": {
           "description": "Linear interpolation and extrapolation of two points",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "linear",
           "normalized": "(Float,Float)-\u003e(Float,Float)-\u003eE Float-\u003eE Float",
@@ -3544,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the maximum of two numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "max_",
           "package": "improve",
@@ -3554,6 +3851,7 @@
         "index": {
           "description": "Returns the maximum of two numbers",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "max_",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -3569,6 +3867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the maximum of a list of numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "maximum_",
           "package": "improve",
@@ -3579,6 +3878,7 @@
         "index": {
           "description": "Returns the maximum of list of numbers",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "maximum_",
           "normalized": "[E a]-\u003eE a",
@@ -3594,6 +3894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minimum of two numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "min_",
           "package": "improve",
@@ -3604,6 +3905,7 @@
         "index": {
           "description": "Returns the minimum of two numbers",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "min_",
           "normalized": "E a-\u003eE a-\u003eE a",
@@ -3619,6 +3921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minimum of a list of numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "minimum_",
           "package": "improve",
@@ -3629,6 +3932,7 @@
         "index": {
           "description": "Returns the minimum of list of numbers",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "minimum_",
           "normalized": "[E a]-\u003eE a",
@@ -3644,6 +3948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModulo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "mod_",
           "package": "improve",
@@ -3654,6 +3959,7 @@
         "index": {
           "description": "Modulo",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "mod_",
           "normalized": "E Int-\u003eInt-\u003eE Int",
@@ -3669,6 +3975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional expression.\n\u003c/p\u003e\u003cpre\u003e mux test onTrue onFalse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "mux",
           "package": "improve",
@@ -3679,6 +3986,7 @@
         "index": {
           "description": "Conditional expression mux test onTrue onFalse",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "mux",
           "normalized": "E Bool-\u003eE a-\u003eE a-\u003eE a",
@@ -3694,6 +4002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "not_",
           "package": "improve",
@@ -3704,6 +4013,7 @@
         "index": {
           "description": "Logical negation",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "not_",
           "normalized": "E Bool-\u003eE Bool",
@@ -3719,6 +4029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe disjunction of a E Bool list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "or_",
           "package": "improve",
@@ -3729,6 +4040,7 @@
         "index": {
           "description": "The disjunction of Bool list",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "or_",
           "normalized": "[E Bool]-\u003eE Bool",
@@ -3744,6 +4056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReferences a variable to be used in an expression (\u003ccode\u003e\u003ca\u003eE\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "ref",
           "package": "improve",
@@ -3754,6 +4067,7 @@
         "index": {
           "description": "References variable to be used in an expression",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "ref",
           "normalized": "V a-\u003eE a",
@@ -3769,6 +4083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "true",
           "package": "improve",
@@ -3779,6 +4094,7 @@
         "index": {
           "description": "True term",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "true",
           "package": "improve",
@@ -3792,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "var",
           "package": "improve",
@@ -3802,6 +4119,7 @@
         "index": {
           "description": "Generic variable declaration",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "var",
           "normalized": "Name-\u003ea-\u003eStmt(V a)",
@@ -3817,6 +4135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric variable declaration and immediate assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "var'",
           "package": "improve",
@@ -3827,6 +4146,7 @@
         "index": {
           "description": "Generic variable declaration and immediate assignment",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "var'",
           "normalized": "Name-\u003eE a-\u003eStmt(E a)",
@@ -3842,6 +4162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify a program.\n\u003c/p\u003e\u003cpre\u003e verify pathToYices program\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "verify",
           "package": "improve",
@@ -3852,6 +4173,7 @@
         "index": {
           "description": "Verify program verify pathToYices program",
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "verify",
           "normalized": "FilePath-\u003eStmt()-\u003eIO()",
@@ -3866,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:12 UTC 2014",
           "module": "Language.ImProve",
           "name": "zero",
           "package": "improve",
@@ -3875,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Language ImProve",
+          "indexed": "2014-03-11T18:57:12",
           "module": "Language.ImProve",
           "name": "zero",
           "package": "improve",

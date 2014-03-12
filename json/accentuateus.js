@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "accentuateus"
+        "phrase": "accentuateus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "AccentuateUs",
           "package": "accentuateus",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "AccentuateUs",
           "package": "accentuateus",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents responses for the three Accentuate.us calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "AUSResponse",
           "package": "accentuateus",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents responses for the three Accentuate.us calls",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "AUSResponse",
           "package": "accentuateus",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "Lang",
           "package": "accentuateus",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "Lang",
           "package": "accentuateus",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents languages response status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "LangsStatus",
           "package": "accentuateus",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Represents languages response status",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "LangsStatus",
           "package": "accentuateus",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "Locale",
           "package": "accentuateus",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "Locale",
           "package": "accentuateus",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "Feedback",
           "package": "accentuateus",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "Feedback",
           "package": "accentuateus",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "Langs",
           "package": "accentuateus",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "Langs",
           "package": "accentuateus",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "Lift",
           "package": "accentuateus",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "Lift",
           "package": "accentuateus",
@@ -194,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven version number  \u003c server's\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "OutOfDate",
           "package": "accentuateus",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Given version number server",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "OutOfDate",
           "package": "accentuateus",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven version number  \u003e server's\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "OverDate",
           "package": "accentuateus",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Given version number server",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "OverDate",
           "package": "accentuateus",
@@ -242,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven version number == server's\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "UpToDate",
           "package": "accentuateus",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Given version number server",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "UpToDate",
           "package": "accentuateus",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a given language, and optionally a locale, accentuates text. This\n   function is that which does the heavy lifting, restoring diacritics\n   (special characters) to otherwise plain text. E.g.,\n\u003c/p\u003e\u003cpre\u003e TIO.putStrLn =\u003c\u003c liftM (either decodeUtf8 text)\n    (accentuate \"vie\" (Just \"en\") \"My tu bo ke hoach la chan ten lua\")\n\u003c/pre\u003e\u003cp\u003eThe above example accentuates the input text (\u003ca\u003eMy tu...\u003c/a\u003e) in Vietnamese\n   with an English localization of error responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "accentuate",
           "package": "accentuateus",
@@ -276,6 +299,7 @@
         "index": {
           "description": "For given language and optionally locale accentuates text This function is that which does the heavy lifting restoring diacritics special characters to otherwise plain text E.g TIO.putStrLn liftM either decodeUtf8 text accentuate vie Just en My tu bo ke hoach la chan ten lua The above example accentuates the input text My tu in Vietnamese with an English localization of error responses",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "accentuate",
           "normalized": "Lang-\u003eMaybe Locale-\u003eText-\u003eIO(Either ByteString AUSResponse)",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmits corrected text as feedback to Accentuate.us. It is helpful for all\n   users if developers make good use of this function as it helps improve the\n   Accentuate.us language models by retraining them.\n\u003c/p\u003e\u003cpre\u003e feedback \"ht\" (Just \"en\")\n          \"Bon, la f sa apre demen pito, l la w mwen andy.\"\n\u003c/pre\u003e\u003cp\u003eThis example submits the *correct* input text (all diacritics in their\n   proper places) to the Accentuate.us servers to be queued for language model\n   retraining.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "feedback",
           "package": "accentuateus",
@@ -301,6 +326,7 @@
         "index": {
           "description": "Submits corrected text as feedback to Accentuate.us It is helpful for all users if developers make good use of this function as it helps improve the Accentuate.us language models by retraining them feedback ht Just en Bon la sa apre demen pito la mwen andy This example submits the correct input text all diacritics in their proper places to the Accentuate.us servers to be queued for language model retraining",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "feedback",
           "normalized": "Lang-\u003eMaybe Locale-\u003eText-\u003eIO(Either ByteString AUSResponse)",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet langs and their localized names. E.g.,\n\u003c/p\u003e\u003cpre\u003e getEnglishName langs = fromMaybe \"Not Found\" $ \"en\" `lookup` langs\n\n TIO.putStrLn =\u003c\u003c liftM (either decodeUtf8 (getEnglishName . languages))\n                        (langs (Just \"ga\") 0)\n\u003c/pre\u003e\u003cp\u003eThe above example will get the localized name for English (ISO-639: en) for\n   localized into Irish (ISO-639: ga).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "langs",
           "package": "accentuateus",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Get langs and their localized names E.g getEnglishName langs fromMaybe Not Found en lookup langs TIO.putStrLn liftM either decodeUtf8 getEnglishName languages langs Just ga The above example will get the localized name for English ISO-639 en for localized into Irish ISO-639 ga",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "langs",
           "normalized": "Maybe Locale-\u003eInt-\u003eIO(Either ByteString AUSResponse)",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003e(ISO-639, Localized Language)\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "languages",
           "package": "accentuateus",
@@ -351,6 +380,7 @@
         "index": {
           "description": "ISO-639 Localized Language",
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "languages",
           "normalized": "[(Lang,Text)]",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "status",
           "package": "accentuateus",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "status",
           "package": "accentuateus",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "text",
           "package": "accentuateus",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "text",
           "package": "accentuateus",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:50 UTC 2014",
           "module": "Text.AccentuateUs",
           "name": "version",
           "package": "accentuateus",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Text AccentuateUs",
+          "indexed": "2014-03-11T17:06:50",
           "module": "Text.AccentuateUs",
           "name": "version",
           "package": "accentuateus",

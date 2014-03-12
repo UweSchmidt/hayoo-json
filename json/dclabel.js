@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dclabel"
+        "phrase": "dclabel",
+        "type": "phrase"
       },
       "type": "context"
     }

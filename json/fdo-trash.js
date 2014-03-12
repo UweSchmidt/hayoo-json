@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fdo-trash"
+        "phrase": "fdo-trash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "Trash",
           "package": "fdo-trash",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "Trash",
           "package": "fdo-trash",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "TrashFile",
           "package": "fdo-trash",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "TrashFile",
           "package": "fdo-trash",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "TrashFile",
           "package": "fdo-trash",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "TrashFile",
           "package": "fdo-trash",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "dataPath",
           "package": "fdo-trash",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "dataPath",
           "package": "fdo-trash",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "deleteTime",
           "package": "fdo-trash",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "deleteTime",
           "package": "fdo-trash",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "encodeTrashPath",
           "package": "fdo-trash",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "encodeTrashPath",
           "normalized": "String-\u003eString",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "expungeTrash",
           "package": "fdo-trash",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "expungeTrash",
           "normalized": "TrashFile-\u003eIO()",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "formatTrashDate",
           "package": "fdo-trash",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "formatTrashDate",
           "normalized": "a-\u003eString",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "genTrashFile",
           "package": "fdo-trash",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "genTrashFile",
           "normalized": "[Char]-\u003e[Char]-\u003eTimeZone-\u003e[Char]-\u003eIO(Maybe TrashFile)",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "getPathSize",
           "package": "fdo-trash",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "getPathSize",
           "normalized": "FilePath-\u003eIO a",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "getTrashPaths",
           "package": "fdo-trash",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "getTrashPaths",
           "normalized": "IO(FilePath,FilePath)",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "infoPath",
           "package": "fdo-trash",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "infoPath",
           "package": "fdo-trash",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "moveToTrash",
           "package": "fdo-trash",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "moveToTrash",
           "normalized": "TrashFile-\u003eIO()",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "origPath",
           "package": "fdo-trash",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "origPath",
           "package": "fdo-trash",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "totalSize",
           "package": "fdo-trash",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "totalSize",
           "package": "fdo-trash",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "trashGetFiles",
           "package": "fdo-trash",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "trashGetFiles",
           "normalized": "FilePath-\u003eFilePath-\u003eIO[TrashFile]",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "trashGetOrphans",
           "package": "fdo-trash",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "trashGetOrphans",
           "normalized": "FilePath-\u003eFilePath-\u003eIO([[Char]],[FilePath])",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "trashRestore",
           "package": "fdo-trash",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "trashRestore",
           "normalized": "TrashFile-\u003eMaybe FilePath-\u003eIO()",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:13 UTC 2014",
           "module": "Freedesktop.Trash",
           "name": "trashSortFiles",
           "package": "fdo-trash",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Freedesktop Trash",
+          "indexed": "2014-03-11T18:07:13",
           "module": "Freedesktop.Trash",
           "name": "trashSortFiles",
           "normalized": "FilePath-\u003eFilePath-\u003eIO([TrashFile],([[Char]],[FilePath]))",

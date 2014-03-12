@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-tableview"
+        "phrase": "yesod-tableview",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLittle form for selecting the number of entries to show.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.NumEntriesForm",
           "name": "NumEntriesForm",
           "package": "yesod-tableview",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Little form for selecting the number of entries to show",
           "hierarchy": "Yesod TableView NumEntriesForm",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.NumEntriesForm",
           "name": "NumEntriesForm",
           "package": "yesod-tableview",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the number of entries form with the given prompt, options,\n initial value and route function.  If POST data is present, redirects\n to the given route with the specified limit, otherwise just returns\n the form widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.NumEntriesForm",
           "name": "runNumEntriesForm",
           "package": "yesod-tableview",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Run the number of entries form with the given prompt options initial value and route function If POST data is present redirects to the given route with the specified limit otherwise just returns the form widget",
           "hierarchy": "Yesod TableView NumEntriesForm",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.NumEntriesForm",
           "name": "runNumEntriesForm",
           "normalized": "Bool-\u003eString-\u003e[Int]-\u003eInt-\u003e(Int-\u003eRoute a)-\u003eGHandler b a(GWidget b a())",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClass for datatypes displayable in a table view as widgets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.Widget",
           "name": "Widget",
           "package": "yesod-tableview",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Class for datatypes displayable in table view as widgets",
           "hierarchy": "Yesod TableView Widget",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.Widget",
           "name": "Widget",
           "package": "yesod-tableview",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.Widget",
           "name": "GTableHandler",
           "package": "yesod-tableview",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Yesod TableView Widget",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.Widget",
           "name": "GTableHandler",
           "package": "yesod-tableview",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.Widget",
           "name": "GTableWidget",
           "package": "yesod-tableview",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Yesod TableView Widget",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.Widget",
           "name": "GTableWidget",
           "package": "yesod-tableview",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.Widget",
           "name": "TableHandler",
           "package": "yesod-tableview",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Yesod TableView Widget",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.Widget",
           "name": "TableHandler",
           "package": "yesod-tableview",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class defines how types will be rendered in the table view.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.Widget",
           "name": "TableViewWidget",
           "package": "yesod-tableview",
@@ -163,6 +176,7 @@
         "index": {
           "description": "This class defines how types will be rendered in the table view",
           "hierarchy": "Yesod TableView Widget",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.Widget",
           "name": "TableViewWidget",
           "package": "yesod-tableview",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.Widget",
           "name": "TableWidget",
           "package": "yesod-tableview",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Yesod TableView Widget",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.Widget",
           "name": "TableWidget",
           "package": "yesod-tableview",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable header (wrapped in a \u003ccode\u003ethead\u003c/code\u003e element).  This function\n will be called once per table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.Widget",
           "name": "tableHeader",
           "package": "yesod-tableview",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Table header wrapped in thead element This function will be called once per table",
           "hierarchy": "Yesod TableView Widget",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.Widget",
           "name": "tableHeader",
           "normalized": "a-\u003eTableWidget a()",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable row.  This function will be called once for each entry in\n the table.  All rows will be rendered inside of a \u003ccode\u003etbody\u003c/code\u003e\n element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView.Widget",
           "name": "tableRecord",
           "package": "yesod-tableview",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Table row This function will be called once for each entry in the table All rows will be rendered inside of tbody element",
           "hierarchy": "Yesod TableView Widget",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView.Widget",
           "name": "tableRecord",
           "normalized": "Int-\u003eKey a-\u003ea-\u003eTableWidget a()",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTable-like view for tabular data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "TableView",
           "package": "yesod-tableview",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Table-like view for tabular data",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "TableView",
           "package": "yesod-tableview",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable view settings.  Defaults are given in parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "TableView",
           "package": "yesod-tableview",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Table view settings Defaults are given in parentheses",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "TableView",
           "package": "yesod-tableview",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "TableView",
           "package": "yesod-tableview",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "TableView",
           "package": "yesod-tableview",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault values for most fields.  The following fields will be left\n undefined:  \u003ccode\u003e\u003ca\u003etableRoute\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etableCurrentLimit\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003etableCurrentOffset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "defTableView",
           "package": "yesod-tableview",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Default values for most fields The following fields will be left undefined tableRoute tableCurrentLimit and tableCurrentOffset",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "defTableView",
           "package": "yesod-tableview",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple smart constructor for common table view configurations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "makeTableView",
           "package": "yesod-tableview",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Simple smart constructor for common table view configurations",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "makeTableView",
           "normalized": "[Filter a]-\u003e[Order a]-\u003eInt-\u003eInt-\u003e(Int-\u003eInt-\u003eRoute(TableSite a))-\u003eTableView a",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent pager limit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableCurrentLimit",
           "package": "yesod-tableview",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Current pager limit",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableCurrentLimit",
           "package": "yesod-tableview",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableCurrentOffset",
           "package": "yesod-tableview",
@@ -402,6 +435,7 @@
         "index": {
           "description": "Current offset",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableCurrentOffset",
           "package": "yesod-tableview",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableFilter",
           "package": "yesod-tableview",
@@ -426,6 +461,7 @@
         "index": {
           "description": "Table filter",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableFilter",
           "normalized": "[Filter a]",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML table id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableId",
           "package": "yesod-tableview",
@@ -452,6 +489,7 @@
         "index": {
           "description": "HTML table id",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableId",
           "package": "yesod-tableview",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrompt in limit form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableLimitPrompt",
           "package": "yesod-tableview",
@@ -476,6 +515,7 @@
         "index": {
           "description": "Prompt in limit form",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableLimitPrompt",
           "package": "yesod-tableview",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelectable limits (\u003ccode\u003e[10, 20, 50, 100]\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableLimits",
           "package": "yesod-tableview",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Selectable limits",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableLimits",
           "normalized": "[Int]",
@@ -516,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum pager limit (\u003ccode\u003eJust 100\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableMaxLimit",
           "package": "yesod-tableview",
@@ -526,6 +569,7 @@
         "index": {
           "description": "Maximum pager limit Just",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableMaxLimit",
           "package": "yesod-tableview",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum pager limit (\u003ccode\u003eJust 10\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableMinLimit",
           "package": "yesod-tableview",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Minimum pager limit Just",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableMinLimit",
           "package": "yesod-tableview",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable sorting order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableOrder",
           "package": "yesod-tableview",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Table sorting order",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableOrder",
           "normalized": "[Order a]",
@@ -590,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable route.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableRoute",
           "package": "yesod-tableview",
@@ -600,6 +649,7 @@
         "index": {
           "description": "Table route",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableRoute",
           "normalized": "Int-\u003eInt-\u003eRoute(TableSite a)",
@@ -616,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow table header?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableShowHead",
           "package": "yesod-tableview",
@@ -626,6 +677,7 @@
         "index": {
           "description": "Show table header",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableShowHead",
           "package": "yesod-tableview",
@@ -640,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd CSS styles?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableStyled",
           "package": "yesod-tableview",
@@ -650,6 +703,7 @@
         "index": {
           "description": "Add CSS styles",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableStyled",
           "package": "yesod-tableview",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a table view widget from the given configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:39 UTC 2014",
           "module": "Yesod.TableView",
           "name": "tableView",
           "package": "yesod-tableview",
@@ -674,6 +729,7 @@
         "index": {
           "description": "Generate table view widget from the given configuration",
           "hierarchy": "Yesod TableView",
+          "indexed": "2014-03-11T20:46:39",
           "module": "Yesod.TableView",
           "name": "tableView",
           "normalized": "TableView a-\u003eTableHandler a(TableWidget a())",

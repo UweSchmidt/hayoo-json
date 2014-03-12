@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-schoenfinkel"
+        "phrase": "acme-schoenfinkel",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library generalizes \u003ccode\u003e\u003ca\u003ecurry\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e and also gives them\n more appropriate names.\n\u003c/p\u003e\u003cpre\u003e import Control.Category.Schoenfinkel\n\n main :: IO ()\n main = print (unschoen atan2 (2, 3))\n\u003c/pre\u003e\u003cp\u003eFor your convenience there are also Unicode variants of both the\n \u003ccode\u003e\u003ca\u003eSchoenfinkel\u003c/a\u003e\u003c/code\u003e class and its two functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "Schoenfinkel",
           "package": "acme-schoenfinkel",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library generalizes curry and uncurry and also gives them more appropriate names import Control.Category.Schoenfinkel main IO main print unschoen atan2 For your convenience there are also Unicode variants of both the Schoenfinkel class and its two functions",
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "Schoenfinkel",
           "package": "acme-schoenfinkel",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnicode version of \u003ccode\u003e\u003ca\u003eSchoenfinkel\u003c/a\u003e\u003c/code\u003e if you prefer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "Schönfinkel",
           "package": "acme-schoenfinkel",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Unicode version of Schoenfinkel if you prefer",
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "Schönfinkel",
           "package": "acme-schoenfinkel",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategories that support Sch&#246;nfinkelization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "Schoenfinkel",
           "package": "acme-schoenfinkel",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Categories that support Sch nfinkelization",
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "Schoenfinkel",
           "package": "acme-schoenfinkel",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnicode version of \u003ccode\u003e\u003ca\u003eWrappedSchoenfinkel\u003c/a\u003e\u003c/code\u003e if you prefer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "WrappedSchönfinkel",
           "package": "acme-schoenfinkel",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Unicode version of WrappedSchoenfinkel if you prefer",
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "WrappedSchönfinkel",
           "package": "acme-schoenfinkel",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery \u003ccode\u003e\u003ca\u003eArrowApply\u003c/a\u003e\u003c/code\u003e gives rise to a \u003ccode\u003e\u003ca\u003eSchoenfinkel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "WrappedSchoenfinkel",
           "package": "acme-schoenfinkel",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Every ArrowApply gives rise to Schoenfinkel",
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "WrappedSchoenfinkel",
           "package": "acme-schoenfinkel",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "WrappedSchoenfinkel",
           "package": "acme-schoenfinkel",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "WrappedSchoenfinkel",
           "package": "acme-schoenfinkel",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnother appropriate name for 'uncurry'/'unschoen'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "hässlich",
           "package": "acme-schoenfinkel",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Another appropriate name for uncurry unschoen",
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "hässlich",
           "normalized": "a b(a c d)-\u003ea(b,c)d",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnicode version of \u003ccode\u003e\u003ca\u003eschoen\u003c/a\u003e\u003c/code\u003e if you prefer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "schön",
           "package": "acme-schoenfinkel",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Unicode version of schoen if you prefer",
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "schön",
           "normalized": "a(b,c)d-\u003ea b(a c d)",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "schoen",
           "package": "acme-schoenfinkel",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "schoen",
           "normalized": "a(b,c)d-\u003ea b(a c d)",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnicode version of \u003ccode\u003e\u003ca\u003eunschoen\u003c/a\u003e\u003c/code\u003e if you prefer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "unschön",
           "package": "acme-schoenfinkel",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Unicode version of unschoen if you prefer",
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "unschön",
           "normalized": "a b(a c d)-\u003ea(b,c)d",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "unschoen",
           "package": "acme-schoenfinkel",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "unschoen",
           "normalized": "a b(a c d)-\u003ea(b,c)d",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:34 UTC 2014",
           "module": "Control.Category.Schoenfinkel",
           "name": "unwrapSchoenfinkel",
           "package": "acme-schoenfinkel",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Control Category Schoenfinkel",
+          "indexed": "2014-03-11T17:07:34",
           "module": "Control.Category.Schoenfinkel",
           "name": "unwrapSchoenfinkel",
           "package": "acme-schoenfinkel",

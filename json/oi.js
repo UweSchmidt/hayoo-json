@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "oi"
+        "phrase": "oi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "Combinator",
           "package": "oi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "Combinator",
           "package": "oi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "(|/|)",
           "package": "oi",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "(|/|) |/|",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec-\u003ed)-\u003e(a,c)-\u003ed",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "(|\u003e|)",
           "package": "oi",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "(|\u003e|) |\u003e|",
           "normalized": "(a-\u003e(b,c))-\u003e(d-\u003e(b-\u003ee))-\u003e(a,d)-\u003e(c,e)",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "(|\u003e\u003c|)",
           "package": "oi",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "(|\u003e\u003c|) |\u003e\u003c|",
           "normalized": "(a-\u003e(b-\u003e(c,d)))-\u003e(e-\u003e(c-\u003e(b,f)))-\u003e(a,e)-\u003e(d,f)",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect two interactions into an interaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "(|:|)",
           "package": "oi",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Connect two interactions into an interaction",
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "(|:|) |:|",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(a,c)-\u003e(b,d)",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "choiceOI",
           "package": "oi",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "choiceOI",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eBool-\u003eEither a c-\u003eb",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "choiceOIOn",
           "package": "oi",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "choiceOIOn",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a-\u003ed-\u003ec)-\u003e(a-\u003eBool)-\u003ea-\u003eEither b d-\u003ec",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIteration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "foldOI",
           "package": "oi",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Iteration",
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "foldOI",
           "normalized": "(a-\u003e(b-\u003eb))-\u003eb-\u003e[a]-\u003eb",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional branching\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "ifOI",
           "package": "oi",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Conditional branching",
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "ifOI",
           "normalized": "Bool-\u003e(a-\u003eb)-\u003e(c-\u003eb)-\u003eEither a c-\u003eb",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "mapOI",
           "package": "oi",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "mapOI",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequencing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "seqsOI",
           "package": "oi",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Sequencing",
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "seqsOI",
           "normalized": "[a-\u003eb]-\u003e[a]-\u003e()",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "seqsOI'",
           "package": "oi",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "seqsOI'",
           "normalized": "[a]-\u003e([a-\u003eb]-\u003e())",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "sequenceOI",
           "package": "oi",
@@ -316,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "sequenceOI",
           "normalized": "[a-\u003eb]-\u003e[a]-\u003e[b]",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "zipWithOI",
           "package": "oi",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "zipWithOI",
           "normalized": "(a-\u003eb-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",
@@ -355,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Combinator",
           "name": "zipWithOI'",
           "package": "oi",
@@ -364,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Data OI Combinator",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Combinator",
           "name": "zipWithOI'",
           "normalized": "(a-\u003e(b-\u003ec))-\u003e[a]-\u003e([b]-\u003e[c])",
@@ -379,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Force",
           "name": "Force",
           "package": "oi",
@@ -387,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Data OI Force",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Force",
           "name": "Force",
           "package": "oi",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eforces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Force",
           "name": "force",
           "package": "oi",
@@ -411,6 +444,7 @@
         "index": {
           "description": "forces",
           "hierarchy": "Data OI Force",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Force",
           "name": "force",
           "normalized": "a-\u003e()",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns forcing invoker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Force",
           "name": "force'",
           "package": "oi",
@@ -436,6 +471,7 @@
         "index": {
           "description": "returns forcing invoker",
           "hierarchy": "Data OI Force",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Force",
           "name": "force'",
           "normalized": "a-\u003e(a,())",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eforces sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Force",
           "name": "forceSeq",
           "package": "oi",
@@ -461,6 +498,7 @@
         "index": {
           "description": "forces sequence",
           "hierarchy": "Data OI Force",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Force",
           "name": "forceSeq",
           "normalized": "[a]-\u003e()",
@@ -476,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IFun",
           "name": "IFun",
           "package": "oi",
@@ -484,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data OI IFun",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IFun",
           "name": "IFun",
           "package": "oi",
@@ -497,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IFun",
           "name": "IFun",
           "package": "oi",
@@ -505,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Data OI IFun",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IFun",
           "name": "IFun",
           "package": "oi",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IFun",
           "name": "(|-\u003e|)",
           "package": "oi",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Data OI IFun",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IFun",
           "name": "(|-\u003e|) |-\u003e|",
           "normalized": "IFun a b(c,d)-\u003eIFun e(c,f)g-\u003eIFun(a,e)(b,f)(d,g)",
@@ -541,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IFun",
           "name": "(|\u003c\u003e|)",
           "package": "oi",
@@ -550,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Data OI IFun",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IFun",
           "name": "(|\u003c\u003e|) |\u003c\u003e|",
           "normalized": "IFun a(b,c)(d,e)-\u003eIFun f(d,g)(b,h)-\u003eIFun(a,f)(c,g)(e,h)",
@@ -564,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IFun",
           "name": "(|::|)",
           "package": "oi",
@@ -573,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Data OI IFun",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IFun",
           "name": "(|::|) |::|",
           "normalized": "IFun a b c-\u003eIFun d e f-\u003eIFun(a,d)(b,e)(c,f)",
@@ -587,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "IO",
           "package": "oi",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "IO",
           "package": "oi",
@@ -608,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": ":~\u003e",
           "package": "oi",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": ":~\u003e",
           "package": "oi",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "getLine",
           "package": "oi",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "getLine",
           "package": "oi",
@@ -650,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "hClose",
           "package": "oi",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "hClose",
           "normalized": "Handle-\u003e()()",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "hGetLine",
           "package": "oi",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "hGetLine",
           "normalized": "Handle-\u003eString String",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "hIsClosed",
           "package": "oi",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "hIsClosed",
           "normalized": "Handle-\u003eBool Bool",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "hIsEOF",
           "package": "oi",
@@ -731,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "hIsEOF",
           "normalized": "Handle-\u003eBool Bool",
@@ -746,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "hPutStrLn",
           "package": "oi",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003eString-\u003e()()",
@@ -770,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "isEOF",
           "package": "oi",
@@ -779,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "isEOF",
           "package": "oi",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "openFile",
           "package": "oi",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "openFile",
           "normalized": "FilePath-\u003eIOMode-\u003eHandle Handle",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.IO",
           "name": "putStrLn",
           "package": "oi",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data OI IO",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.IO",
           "name": "putStrLn",
           "normalized": "String-\u003e()()",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "Internal",
           "package": "oi",
@@ -848,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "Internal",
           "package": "oi",
@@ -862,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteraction (a function from a intermediating type to another type) type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": ":-\u003e",
           "package": "oi",
@@ -871,6 +944,7 @@
         "index": {
           "description": "Interaction function from intermediating type to another type type",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": ":-\u003e",
           "package": "oi",
@@ -884,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eIOResult\u003c/code\u003e for error handling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "IOResult",
           "package": "oi",
@@ -893,6 +968,7 @@
         "index": {
           "description": "IOResult for error handling",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "IOResult",
           "package": "oi",
@@ -907,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for intermediating interaction: \n \u003ccode\u003eOI\u003c/code\u003e has two states (programmer cannot distinguish), non-expressed and exressed.\n `Non-expressed' indicates that no computation is assigned.\n In other words, it's value is never denotated by any expression.\n So, if you refer the value then the process will be suspended \n until other process determins the value.\n Non-expressed value can be determined to become \u003ccode\u003eexpressed\u003c/code\u003e for a value by a expression at most once.\n \u003ccode\u003eExpressed\u003c/code\u003e indicates that some computation is assigned for the value.\n Once expressed, the value never be back to non-expressed nor be changed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "OI",
           "package": "oi",
@@ -916,6 +993,7 @@
         "index": {
           "description": "Datatype for intermediating interaction OI has two states programmer cannot distinguish non-expressed and exressed Non-expressed indicates that no computation is assigned In other words it value is never denotated by any expression So if you refer the value then the process will be suspended until other process determins the value Non-expressed value can be determined to become expressed for value by expression at most once Expressed indicates that some computation is assigned for the value Once expressed the value never be back to non-expressed nor be changed",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "OI",
           "package": "oi",
@@ -930,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "(##)",
           "package": "oi",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "Reference operator",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "(##) ##",
           "normalized": "a-\u003eOI a",
@@ -955,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign Operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "(=:)",
           "package": "oi",
@@ -965,6 +1046,7 @@
         "index": {
           "description": "Assign Operator",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "(=:) =:",
           "normalized": "a-\u003eOI a-\u003ea",
@@ -980,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDereference operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "(??)",
           "package": "oi",
@@ -990,6 +1073,7 @@
         "index": {
           "description": "Dereference operator",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "(??) ??",
           "normalized": "OI a-\u003ea",
@@ -1004,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "Failure",
           "package": "oi",
@@ -1013,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "Failure",
           "package": "oi",
@@ -1026,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "Success",
           "package": "oi",
@@ -1035,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "Success",
           "package": "oi",
@@ -1048,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "deLeft",
           "package": "oi",
@@ -1057,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "deLeft",
           "normalized": "OI(Either a b)-\u003eEither(OI a)(OI b)",
@@ -1073,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposer for list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "deList",
           "package": "oi",
@@ -1083,6 +1174,7 @@
         "index": {
           "description": "Decomposer for list",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "deList",
           "normalized": "OI[a]-\u003eMaybe(OI a,OI[a])",
@@ -1099,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposer for pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "dePair",
           "package": "oi",
@@ -1109,6 +1202,7 @@
         "index": {
           "description": "Decomposer for pair",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "dePair",
           "normalized": "OI(a,b)-\u003e(OI a,OI b)",
@@ -1124,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "deRight",
           "package": "oi",
@@ -1133,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "deRight",
           "normalized": "OI(Either a b)-\u003eEither(OI a)(OI b)",
@@ -1149,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposer for triple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "deTriple",
           "package": "oi",
@@ -1159,6 +1256,7 @@
         "index": {
           "description": "Decomposer for triple",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "deTriple",
           "normalized": "OI(a,b,c)-\u003e(OI a,OI b,OI c)",
@@ -1175,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposer for 4-tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "deTuple4",
           "package": "oi",
@@ -1185,6 +1284,7 @@
         "index": {
           "description": "Decomposer for tuple",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "deTuple4",
           "normalized": "OI(a,b,c,d)-\u003e(OI a,OI b,OI c,OI d)",
@@ -1201,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposer for 5-tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "deTuple5",
           "package": "oi",
@@ -1211,6 +1312,7 @@
         "index": {
           "description": "Decomposer for tuple",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "deTuple5",
           "normalized": "OI(a,b,c,d,e)-\u003e(OI a,OI b,OI c,OI d,OI e)",
@@ -1227,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposer for 6-tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "deTuple6",
           "package": "oi",
@@ -1237,6 +1340,7 @@
         "index": {
           "description": "Decomposer for tuple",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "deTuple6",
           "normalized": "OI(a,b,c,d,e,f)-\u003e(OI a,OI b,OI c,OI d,OI e,OI f)",
@@ -1253,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposer for 7-tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "deTuple7",
           "package": "oi",
@@ -1263,6 +1368,7 @@
         "index": {
           "description": "Decomposer for tuple",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "deTuple7",
           "normalized": "OI(a,b,c,d,e,f,g)-\u003e(OI a,OI b,OI c,OI d,OI e,OI f,OI g)",
@@ -1278,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "errmsg",
           "package": "oi",
@@ -1287,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "errmsg",
           "package": "oi",
@@ -1300,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert IO to interaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "iooi",
           "package": "oi",
@@ -1310,6 +1419,7 @@
         "index": {
           "description": "Convert IO to interaction",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "iooi",
           "normalized": "IO a-\u003eOI a-\u003ea",
@@ -1324,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "iooi'",
           "package": "oi",
@@ -1333,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "iooi'",
           "normalized": "IO a-\u003eOI(IOResult a)-\u003eIOResult a",
@@ -1347,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "result",
           "package": "oi",
@@ -1356,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "result",
           "package": "oi",
@@ -1369,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrive interaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Internal",
           "name": "runInteraction",
           "package": "oi",
@@ -1379,6 +1494,7 @@
         "index": {
           "description": "Drive interaction",
           "hierarchy": "Data OI Internal",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Internal",
           "name": "runInteraction",
           "normalized": "(OI a-\u003eb)-\u003eIO b",
@@ -1394,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Merge",
           "name": "Merge",
           "package": "oi",
@@ -1402,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Data OI Merge",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Merge",
           "name": "Merge",
           "package": "oi",
@@ -1415,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Merge",
           "name": "mergeOI",
           "package": "oi",
@@ -1424,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Data OI Merge",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Merge",
           "name": "mergeOI",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -1439,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Merge",
           "name": "nmergeOI",
           "package": "oi",
@@ -1448,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data OI Merge",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Merge",
           "name": "nmergeOI",
           "normalized": "[[a]]-\u003e[a]-\u003e[a]",
@@ -1463,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "Resource",
           "package": "oi",
@@ -1471,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "Resource",
           "package": "oi",
@@ -1484,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "Resource",
           "package": "oi",
@@ -1492,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "Resource",
           "package": "oi",
@@ -1505,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "Resource",
           "package": "oi",
@@ -1514,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "Resource",
           "package": "oi",
@@ -1527,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "filterR",
           "package": "oi",
@@ -1536,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "filterR",
           "normalized": "(a-\u003eBool)-\u003eIOResult(Resource a)-\u003e[a]",
@@ -1550,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "filterR'",
           "package": "oi",
@@ -1559,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "filterR'",
           "normalized": "(a-\u003eBool)-\u003eResource a-\u003e[a]",
@@ -1574,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "inFileResource",
           "package": "oi",
@@ -1583,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "inFileResource",
           "normalized": "FilePath-\u003eIOResult(Resource String)-\u003eIOResult(Resource String)",
@@ -1598,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "mapR",
           "package": "oi",
@@ -1607,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "mapR",
           "normalized": "(a-\u003eb)-\u003eIOResult(Resource a)-\u003e[b]",
@@ -1621,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "mapR'",
           "package": "oi",
@@ -1630,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "mapR'",
           "normalized": "(a-\u003eb)-\u003eResource a-\u003e[b]",
@@ -1645,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "outFileResource",
           "package": "oi",
@@ -1654,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "outFileResource",
           "normalized": "FilePath-\u003e[String]-\u003eIOResult(Resource())-\u003eIOResult(Resource())",
@@ -1669,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "release",
           "package": "oi",
@@ -1678,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "release",
           "normalized": "()",
@@ -1692,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "stream",
           "package": "oi",
@@ -1701,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "stream",
           "normalized": "[IOResult a]",
@@ -1715,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "takeR",
           "package": "oi",
@@ -1724,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "takeR",
           "normalized": "a-\u003eIOResult(Resource b)-\u003e[b]",
@@ -1738,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "takeR'",
           "package": "oi",
@@ -1747,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "takeR'",
           "normalized": "a-\u003eResource b-\u003e[b]",
@@ -1762,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "takeWhileR",
           "package": "oi",
@@ -1771,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "takeWhileR",
           "normalized": "(a-\u003eBool)-\u003eIOResult(Resource a)-\u003e[a]",
@@ -1786,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.Resource",
           "name": "takeWhileR'",
           "package": "oi",
@@ -1795,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Data OI Resource",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.Resource",
           "name": "takeWhileR'",
           "normalized": "(a-\u003eBool)-\u003eResource a-\u003e[a]",
@@ -1810,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.System",
           "name": "System",
           "package": "oi",
@@ -1818,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Data OI System",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.System",
           "name": "System",
           "package": "oi",
@@ -1831,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.System",
           "name": "args",
           "package": "oi",
@@ -1840,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Data OI System",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.System",
           "name": "args",
           "normalized": "[String]-\u003e[String]",
@@ -1854,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.System",
           "name": "environment",
           "package": "oi",
@@ -1863,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Data OI System",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.System",
           "name": "environment",
           "normalized": "[(String,String)]-\u003e[(String,String)]",
@@ -1877,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI.System",
           "name": "progName",
           "package": "oi",
@@ -1886,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Data OI System",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI.System",
           "name": "progName",
           "normalized": "String-\u003eString",
@@ -1901,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:22 UTC 2014",
           "module": "Data.OI",
           "name": "OI",
           "package": "oi",
@@ -1909,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Data OI",
+          "indexed": "2014-03-11T19:31:22",
           "module": "Data.OI",
           "name": "OI",
           "package": "oi",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "leankit-api"
+        "phrase": "leankit-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "Api",
           "package": "leankit-api",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "Api",
           "package": "leankit-api",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "Credentials",
           "package": "leankit-api",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "Credentials",
           "package": "leankit-api",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "Credentials",
           "package": "leankit-api",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "Credentials",
           "package": "leankit-api",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getArchive",
           "package": "leankit-api",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getArchive",
           "normalized": "Credentials-\u003eBoardID-\u003eIO[LaneLayout]",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getArchiveEither",
           "package": "leankit-api",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getArchiveEither",
           "normalized": "Credentials-\u003eBoardID-\u003eIO(Either String[LaneLayout])",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getArchiveMaybe",
           "package": "leankit-api",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getArchiveMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eIO(Maybe[LaneLayout])",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBackLog",
           "package": "leankit-api",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBackLog",
           "normalized": "Credentials-\u003eBoardID-\u003eIO[Lane]",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBackLogEither",
           "package": "leankit-api",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBackLogEither",
           "normalized": "Credentials-\u003eBoardID-\u003eIO(Either String[Lane])",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBackLogMaybe",
           "package": "leankit-api",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBackLogMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eIO(Maybe[Lane])",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoard",
           "package": "leankit-api",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoard",
           "normalized": "Credentials-\u003eBoardID-\u003eIO Board",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardEither",
           "package": "leankit-api",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardEither",
           "normalized": "Credentials-\u003eBoardID-\u003eIO(Either String Board)",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardHistorySince",
           "package": "leankit-api",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardHistorySince",
           "normalized": "Credentials-\u003eBoardID-\u003eInt-\u003eIO[BoardHistoryItem]",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardHistorySinceEither",
           "package": "leankit-api",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardHistorySinceEither",
           "normalized": "Credentials-\u003eBoardID-\u003eInt-\u003eIO(Either String[BoardHistoryItem])",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardHistorySinceMaybe",
           "package": "leankit-api",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardHistorySinceMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eInt-\u003eIO(Maybe[BoardHistoryItem])",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardIdentifiers",
           "package": "leankit-api",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardIdentifiers",
           "normalized": "Credentials-\u003eBoardID-\u003eIO BoardIdentifierSet",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardIdentifiersEither",
           "package": "leankit-api",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardIdentifiersEither",
           "normalized": "Credentials-\u003eBoardID-\u003eIO(Either String BoardIdentifierSet)",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardIdentifiersMaybe",
           "package": "leankit-api",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardIdentifiersMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eIO(Maybe BoardIdentifierSet)",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardMaybe",
           "package": "leankit-api",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eIO(Maybe Board)",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoards",
           "package": "leankit-api",
@@ -451,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoards",
           "normalized": "Credentials-\u003eIO[BoardShort]",
@@ -466,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardsEither",
           "package": "leankit-api",
@@ -475,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardsEither",
           "normalized": "Credentials-\u003eIO(Either String[BoardShort])",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getBoardsMaybe",
           "package": "leankit-api",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getBoardsMaybe",
           "normalized": "Credentials-\u003eIO(Maybe[BoardShort])",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCard",
           "package": "leankit-api",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCard",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO Card",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardByExternalId",
           "package": "leankit-api",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardByExternalId",
           "normalized": "Credentials-\u003eBoardID-\u003eString-\u003eIO Card",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardByExternalIdEither",
           "package": "leankit-api",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardByExternalIdEither",
           "normalized": "Credentials-\u003eBoardID-\u003eString-\u003eIO(Either String Card)",
@@ -586,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardByExternalIdMaybe",
           "package": "leankit-api",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardByExternalIdMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eString-\u003eIO(Maybe Card)",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardComments",
           "package": "leankit-api",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardComments",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO[CardComment]",
@@ -634,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardCommentsEither",
           "package": "leankit-api",
@@ -643,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardCommentsEither",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO(Either String[CardComment])",
@@ -658,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardCommentsMaybe",
           "package": "leankit-api",
@@ -667,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardCommentsMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO(Maybe[CardComment])",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardEither",
           "package": "leankit-api",
@@ -691,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardEither",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO(Either String Card)",
@@ -706,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardHistory",
           "package": "leankit-api",
@@ -715,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardHistory",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO[CardHistoryItem]",
@@ -730,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardHistoryEither",
           "package": "leankit-api",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardHistoryEither",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO(Either String[CardHistoryItem])",
@@ -754,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardHistoryMaybe",
           "package": "leankit-api",
@@ -763,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardHistoryMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO(Maybe[CardHistoryItem])",
@@ -778,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getCardMaybe",
           "package": "leankit-api",
@@ -787,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getCardMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eCardID-\u003eIO(Maybe Card)",
@@ -802,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getNewerIfExists",
           "package": "leankit-api",
@@ -811,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getNewerIfExists",
           "normalized": "Credentials-\u003eBoardID-\u003eInt-\u003eIO(Maybe Board)",
@@ -826,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getNewerIfExistsEither",
           "package": "leankit-api",
@@ -835,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getNewerIfExistsEither",
           "normalized": "Credentials-\u003eBoardID-\u003eInt-\u003eIO(Either String Board)",
@@ -850,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Api",
           "name": "getNewerIfExistsMaybe",
           "package": "leankit-api",
@@ -859,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Leankit Api",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Api",
           "name": "getNewerIfExistsMaybe",
           "normalized": "Credentials-\u003eBoardID-\u003eInt-\u003eIO(Maybe Board)",
@@ -874,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "AssignedUser",
           "package": "leankit-api",
@@ -882,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "AssignedUser",
           "package": "leankit-api",
@@ -895,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "AssignedUser",
           "package": "leankit-api",
@@ -903,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "AssignedUser",
           "package": "leankit-api",
@@ -916,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "AssignedUser",
           "package": "leankit-api",
@@ -925,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "AssignedUser",
           "package": "leankit-api",
@@ -938,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "_assignedUserId",
           "package": "leankit-api",
@@ -947,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "_assignedUserId",
           "package": "leankit-api",
@@ -960,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "_assignedUserName",
           "package": "leankit-api",
@@ -969,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "_assignedUserName",
           "package": "leankit-api",
@@ -982,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "_emailAddress",
           "package": "leankit-api",
@@ -991,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "_emailAddress",
           "package": "leankit-api",
@@ -1004,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "_fullName",
           "package": "leankit-api",
@@ -1013,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "_fullName",
           "package": "leankit-api",
@@ -1026,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "_gravatarLink",
           "package": "leankit-api",
@@ -1035,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "_gravatarLink",
           "package": "leankit-api",
@@ -1048,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "_id",
           "package": "leankit-api",
@@ -1057,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "_id",
           "package": "leankit-api",
@@ -1069,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.AssignedUser",
           "name": "_smallGravatarLink",
           "package": "leankit-api",
@@ -1078,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types AssignedUser",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.AssignedUser",
           "name": "_smallGravatarLink",
           "package": "leankit-api",
@@ -1091,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "Board",
           "package": "leankit-api",
@@ -1099,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "Board",
           "package": "leankit-api",
@@ -1112,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "Board",
           "package": "leankit-api",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "Board",
           "package": "leankit-api",
@@ -1133,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "Board",
           "package": "leankit-api",
@@ -1142,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "Board",
           "package": "leankit-api",
@@ -1155,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_active",
           "package": "leankit-api",
@@ -1164,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_active",
           "package": "leankit-api",
@@ -1176,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_archiveTopLevelLaneId",
           "package": "leankit-api",
@@ -1185,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_archiveTopLevelLaneId",
           "package": "leankit-api",
@@ -1198,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_boardUsers",
           "package": "leankit-api",
@@ -1207,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_boardUsers",
           "normalized": "[User]",
@@ -1222,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_cardColorField",
           "package": "leankit-api",
@@ -1231,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_cardColorField",
           "package": "leankit-api",
@@ -1244,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_classOfServiceEnabled",
           "package": "leankit-api",
@@ -1253,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_classOfServiceEnabled",
           "package": "leankit-api",
@@ -1266,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_currentUserRole",
           "package": "leankit-api",
@@ -1275,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_currentUserRole",
           "package": "leankit-api",
@@ -1288,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_description",
           "package": "leankit-api",
@@ -1297,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_description",
           "package": "leankit-api",
@@ -1309,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_excludeCompletedAndArchiveViolations",
           "package": "leankit-api",
@@ -1318,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_excludeCompletedAndArchiveViolations",
           "package": "leankit-api",
@@ -1331,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_format",
           "package": "leankit-api",
@@ -1340,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_format",
           "package": "leankit-api",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_isCardIdEnabled",
           "package": "leankit-api",
@@ -1361,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_isCardIdEnabled",
           "package": "leankit-api",
@@ -1374,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_isHyperlinkEnabled",
           "package": "leankit-api",
@@ -1383,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_isHyperlinkEnabled",
           "package": "leankit-api",
@@ -1396,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_isPrefixEnabled",
           "package": "leankit-api",
@@ -1405,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_isPrefixEnabled",
           "package": "leankit-api",
@@ -1418,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_isPrefixIncludedInHyperlink",
           "package": "leankit-api",
@@ -1427,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_isPrefixIncludedInHyperlink",
           "package": "leankit-api",
@@ -1440,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_isPrivate",
           "package": "leankit-api",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_isPrivate",
           "package": "leankit-api",
@@ -1462,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_isWelcome",
           "package": "leankit-api",
@@ -1471,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_isWelcome",
           "package": "leankit-api",
@@ -1484,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_lanes",
           "package": "leankit-api",
@@ -1493,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_lanes",
           "normalized": "[Lane]",
@@ -1507,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_maxFileSize",
           "package": "leankit-api",
@@ -1516,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_maxFileSize",
           "package": "leankit-api",
@@ -1529,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_organizationId",
           "package": "leankit-api",
@@ -1538,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_organizationId",
           "package": "leankit-api",
@@ -1551,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_prefix",
           "package": "leankit-api",
@@ -1560,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_prefix",
           "package": "leankit-api",
@@ -1572,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_title",
           "package": "leankit-api",
@@ -1581,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_title",
           "package": "leankit-api",
@@ -1593,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_topLevelLaneIds",
           "package": "leankit-api",
@@ -1602,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_topLevelLaneIds",
           "normalized": "[LaneID]",
@@ -1617,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Board",
           "name": "_version",
           "package": "leankit-api",
@@ -1626,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Board",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Board",
           "name": "_version",
           "package": "leankit-api",
@@ -1638,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "BoardHistoryItem",
           "package": "leankit-api",
@@ -1646,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "BoardHistoryItem",
           "package": "leankit-api",
@@ -1659,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "BoardHistoryItem",
           "package": "leankit-api",
@@ -1667,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "BoardHistoryItem",
           "package": "leankit-api",
@@ -1680,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "BoardHistoryItem",
           "package": "leankit-api",
@@ -1689,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "BoardHistoryItem",
           "package": "leankit-api",
@@ -1702,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_assignedUserId",
           "package": "leankit-api",
@@ -1711,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_assignedUserId",
           "package": "leankit-api",
@@ -1724,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_blockedComment",
           "package": "leankit-api",
@@ -1733,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_blockedComment",
           "package": "leankit-api",
@@ -1746,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_cardId",
           "package": "leankit-api",
@@ -1755,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_cardId",
           "package": "leankit-api",
@@ -1768,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_commentText",
           "package": "leankit-api",
@@ -1777,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_commentText",
           "package": "leankit-api",
@@ -1790,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_eventDateTime",
           "package": "leankit-api",
@@ -1799,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_eventDateTime",
           "package": "leankit-api",
@@ -1812,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_eventType",
           "package": "leankit-api",
@@ -1821,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_eventType",
           "package": "leankit-api",
@@ -1834,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_fromLaneId",
           "package": "leankit-api",
@@ -1843,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_fromLaneId",
           "package": "leankit-api",
@@ -1856,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_isBlocked",
           "package": "leankit-api",
@@ -1865,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_isBlocked",
           "package": "leankit-api",
@@ -1878,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_isUnassigning",
           "package": "leankit-api",
@@ -1887,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_isUnassigning",
           "package": "leankit-api",
@@ -1900,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_message",
           "package": "leankit-api",
@@ -1909,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_message",
           "package": "leankit-api",
@@ -1921,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_requiresBoardRefresh",
           "package": "leankit-api",
@@ -1930,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_requiresBoardRefresh",
           "package": "leankit-api",
@@ -1943,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_toLaneId",
           "package": "leankit-api",
@@ -1952,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_toLaneId",
           "package": "leankit-api",
@@ -1965,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_userId",
           "package": "leankit-api",
@@ -1974,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_userId",
           "package": "leankit-api",
@@ -1987,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_wipOverrideComment",
           "package": "leankit-api",
@@ -1996,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_wipOverrideComment",
           "package": "leankit-api",
@@ -2009,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_wipOverrideLane",
           "package": "leankit-api",
@@ -2018,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_wipOverrideLane",
           "package": "leankit-api",
@@ -2031,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_wipOverrideUser",
           "package": "leankit-api",
@@ -2040,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardHistoryItem",
           "name": "_wipOverrideUser",
           "package": "leankit-api",
@@ -2053,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifierSet",
           "package": "leankit-api",
@@ -2061,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifierSet",
           "package": "leankit-api",
@@ -2074,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifier",
           "package": "leankit-api",
@@ -2082,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifier",
           "package": "leankit-api",
@@ -2095,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifierSet",
           "package": "leankit-api",
@@ -2103,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifierSet",
           "package": "leankit-api",
@@ -2116,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifier",
           "package": "leankit-api",
@@ -2125,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifier",
           "package": "leankit-api",
@@ -2138,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifierSet",
           "package": "leankit-api",
@@ -2147,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "BoardIdentifierSet",
           "package": "leankit-api",
@@ -2160,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_boardId",
           "package": "leankit-api",
@@ -2169,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_boardId",
           "package": "leankit-api",
@@ -2182,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_boardUsers",
           "package": "leankit-api",
@@ -2191,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_boardUsers",
           "normalized": "[BoardIdentifier UserID]",
@@ -2206,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_cardTypes",
           "package": "leankit-api",
@@ -2215,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_cardTypes",
           "normalized": "[BoardIdentifier CardTypeID]",
@@ -2230,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_classesOfService",
           "package": "leankit-api",
@@ -2239,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_classesOfService",
           "normalized": "[BoardIdentifier ClassOfServiceID]",
@@ -2254,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_id",
           "package": "leankit-api",
@@ -2263,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_id",
           "package": "leankit-api",
@@ -2275,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_laneClassType",
           "package": "leankit-api",
@@ -2284,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_laneClassType",
           "normalized": "[BoardIdentifier LaneClassTypeID]",
@@ -2299,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_laneType",
           "package": "leankit-api",
@@ -2308,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_laneType",
           "normalized": "[BoardIdentifier LaneTypeID]",
@@ -2323,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_lanes",
           "package": "leankit-api",
@@ -2332,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_lanes",
           "normalized": "[LaneShort]",
@@ -2346,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_name",
           "package": "leankit-api",
@@ -2355,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_name",
           "package": "leankit-api",
@@ -2367,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_priorities",
           "package": "leankit-api",
@@ -2376,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardIdentifierSet",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardIdentifierSet",
           "name": "_priorities",
           "normalized": "[BoardIdentifier PriorityID]",
@@ -2390,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "BoardShort",
           "package": "leankit-api",
@@ -2398,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "BoardShort",
           "package": "leankit-api",
@@ -2411,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "BoardShort",
           "package": "leankit-api",
@@ -2419,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "BoardShort",
           "package": "leankit-api",
@@ -2432,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "BoardShort",
           "package": "leankit-api",
@@ -2441,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "BoardShort",
           "package": "leankit-api",
@@ -2454,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_creationDate",
           "package": "leankit-api",
@@ -2463,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_creationDate",
           "package": "leankit-api",
@@ -2476,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_description",
           "package": "leankit-api",
@@ -2485,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_description",
           "package": "leankit-api",
@@ -2497,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_drillThroughBoards",
           "package": "leankit-api",
@@ -2506,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_drillThroughBoards",
           "normalized": "[BoardShort]",
@@ -2521,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_id",
           "package": "leankit-api",
@@ -2530,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_id",
           "package": "leankit-api",
@@ -2542,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_isArchived",
           "package": "leankit-api",
@@ -2551,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_isArchived",
           "package": "leankit-api",
@@ -2564,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_isBreakoutBoard",
           "package": "leankit-api",
@@ -2573,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_isBreakoutBoard",
           "package": "leankit-api",
@@ -2586,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_isPrivate",
           "package": "leankit-api",
@@ -2595,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_isPrivate",
           "package": "leankit-api",
@@ -2608,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_parentId",
           "package": "leankit-api",
@@ -2617,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_parentId",
           "package": "leankit-api",
@@ -2630,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.BoardShort",
           "name": "_title",
           "package": "leankit-api",
@@ -2639,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types BoardShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.BoardShort",
           "name": "_title",
           "package": "leankit-api",
@@ -2651,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "Card",
           "package": "leankit-api",
@@ -2659,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "Card",
           "package": "leankit-api",
@@ -2672,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "Card",
           "package": "leankit-api",
@@ -2680,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "Card",
           "package": "leankit-api",
@@ -2693,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "Tags",
           "package": "leankit-api",
@@ -2701,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "Tags",
           "package": "leankit-api",
@@ -2714,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "Card",
           "package": "leankit-api",
@@ -2723,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "Card",
           "package": "leankit-api",
@@ -2736,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "Tags",
           "package": "leankit-api",
@@ -2745,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "Tags",
           "normalized": "Tags[String]",
@@ -2760,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_active",
           "package": "leankit-api",
@@ -2769,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_active",
           "package": "leankit-api",
@@ -2781,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_assignedUserIds",
           "package": "leankit-api",
@@ -2790,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_assignedUserIds",
           "normalized": "[UserID]",
@@ -2805,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_assignedUsers",
           "package": "leankit-api",
@@ -2814,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_assignedUsers",
           "normalized": "[AssignedUser]",
@@ -2829,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_attachmentsCount",
           "package": "leankit-api",
@@ -2838,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_attachmentsCount",
           "package": "leankit-api",
@@ -2851,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_blockReason",
           "package": "leankit-api",
@@ -2860,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_blockReason",
           "package": "leankit-api",
@@ -2873,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_blockStateChangeDate",
           "package": "leankit-api",
@@ -2882,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_blockStateChangeDate",
           "package": "leankit-api",
@@ -2895,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_cardContexts",
           "package": "leankit-api",
@@ -2904,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_cardContexts",
           "normalized": "Maybe[CardContext]",
@@ -2919,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_classOfServiceColorHex",
           "package": "leankit-api",
@@ -2928,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_classOfServiceColorHex",
           "package": "leankit-api",
@@ -2941,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_classOfServiceIconPath",
           "package": "leankit-api",
@@ -2950,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_classOfServiceIconPath",
           "package": "leankit-api",
@@ -2963,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_classOfServiceId",
           "package": "leankit-api",
@@ -2972,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_classOfServiceId",
           "package": "leankit-api",
@@ -2985,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_classOfServiceTitle",
           "package": "leankit-api",
@@ -2994,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_classOfServiceTitle",
           "package": "leankit-api",
@@ -3007,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_color",
           "package": "leankit-api",
@@ -3016,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_color",
           "package": "leankit-api",
@@ -3028,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_commentsCount",
           "package": "leankit-api",
@@ -3037,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_commentsCount",
           "package": "leankit-api",
@@ -3050,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_countOfOldCards",
           "package": "leankit-api",
@@ -3059,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_countOfOldCards",
           "package": "leankit-api",
@@ -3072,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_currentContext",
           "package": "leankit-api",
@@ -3081,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_currentContext",
           "package": "leankit-api",
@@ -3094,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_currentTaskBoardId",
           "package": "leankit-api",
@@ -3103,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_currentTaskBoardId",
           "package": "leankit-api",
@@ -3116,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_dateArchived",
           "package": "leankit-api",
@@ -3125,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_dateArchived",
           "package": "leankit-api",
@@ -3138,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_description",
           "package": "leankit-api",
@@ -3147,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_description",
           "package": "leankit-api",
@@ -3159,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_drillThroughBoardId",
           "package": "leankit-api",
@@ -3168,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_drillThroughBoardId",
           "package": "leankit-api",
@@ -3181,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_drillThroughCompletionPercent",
           "package": "leankit-api",
@@ -3190,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_drillThroughCompletionPercent",
           "package": "leankit-api",
@@ -3203,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_drillThroughProgressComplete",
           "package": "leankit-api",
@@ -3212,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_drillThroughProgressComplete",
           "package": "leankit-api",
@@ -3225,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_drillThroughProgressTotal",
           "package": "leankit-api",
@@ -3234,6 +3521,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_drillThroughProgressTotal",
           "package": "leankit-api",
@@ -3247,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_dueDate",
           "package": "leankit-api",
@@ -3256,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_dueDate",
           "package": "leankit-api",
@@ -3269,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_externalCardID",
           "package": "leankit-api",
@@ -3278,6 +3569,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_externalCardID",
           "package": "leankit-api",
@@ -3291,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_externalSystemName",
           "package": "leankit-api",
@@ -3300,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_externalSystemName",
           "package": "leankit-api",
@@ -3313,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_externalSystemUrl",
           "package": "leankit-api",
@@ -3322,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_externalSystemUrl",
           "package": "leankit-api",
@@ -3335,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_gravatarLink",
           "package": "leankit-api",
@@ -3344,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_gravatarLink",
           "package": "leankit-api",
@@ -3357,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_hasDrillThroughBoard",
           "package": "leankit-api",
@@ -3366,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_hasDrillThroughBoard",
           "package": "leankit-api",
@@ -3379,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_id",
           "package": "leankit-api",
@@ -3388,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_id",
           "package": "leankit-api",
@@ -3400,6 +3702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_index",
           "package": "leankit-api",
@@ -3409,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_index",
           "package": "leankit-api",
@@ -3421,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_isBlocked",
           "package": "leankit-api",
@@ -3430,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_isBlocked",
           "package": "leankit-api",
@@ -3443,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_laneId",
           "package": "leankit-api",
@@ -3452,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_laneId",
           "package": "leankit-api",
@@ -3465,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_lastActivity",
           "package": "leankit-api",
@@ -3474,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_lastActivity",
           "package": "leankit-api",
@@ -3487,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_lastAttachment",
           "package": "leankit-api",
@@ -3496,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_lastAttachment",
           "package": "leankit-api",
@@ -3509,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_lastComment",
           "package": "leankit-api",
@@ -3518,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_lastComment",
           "package": "leankit-api",
@@ -3531,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_lastMove",
           "package": "leankit-api",
@@ -3540,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_lastMove",
           "package": "leankit-api",
@@ -3553,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_parentCardId",
           "package": "leankit-api",
@@ -3562,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_parentCardId",
           "package": "leankit-api",
@@ -3575,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_priority",
           "package": "leankit-api",
@@ -3584,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_priority",
           "package": "leankit-api",
@@ -3596,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_priorityText",
           "package": "leankit-api",
@@ -3605,6 +3926,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_priorityText",
           "package": "leankit-api",
@@ -3618,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_size",
           "package": "leankit-api",
@@ -3627,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_size",
           "package": "leankit-api",
@@ -3639,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_smallGravatarLink",
           "package": "leankit-api",
@@ -3648,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_smallGravatarLink",
           "package": "leankit-api",
@@ -3661,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_systemType",
           "package": "leankit-api",
@@ -3670,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_systemType",
           "package": "leankit-api",
@@ -3683,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_tags",
           "package": "leankit-api",
@@ -3692,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_tags",
           "package": "leankit-api",
@@ -3704,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_taskBoardCompletionPercent",
           "package": "leankit-api",
@@ -3713,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_taskBoardCompletionPercent",
           "package": "leankit-api",
@@ -3726,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_taskBoardTotalCards",
           "package": "leankit-api",
@@ -3735,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_taskBoardTotalCards",
           "package": "leankit-api",
@@ -3748,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_taskBoardTotalSize",
           "package": "leankit-api",
@@ -3757,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_taskBoardTotalSize",
           "package": "leankit-api",
@@ -3770,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_title",
           "package": "leankit-api",
@@ -3779,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_title",
           "package": "leankit-api",
@@ -3791,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_typeColorHex",
           "package": "leankit-api",
@@ -3800,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_typeColorHex",
           "package": "leankit-api",
@@ -3813,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_typeIconPath",
           "package": "leankit-api",
@@ -3822,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_typeIconPath",
           "package": "leankit-api",
@@ -3835,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_typeId",
           "package": "leankit-api",
@@ -3844,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_typeId",
           "package": "leankit-api",
@@ -3857,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_typeName",
           "package": "leankit-api",
@@ -3866,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_typeName",
           "package": "leankit-api",
@@ -3879,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Card",
           "name": "_version",
           "package": "leankit-api",
@@ -3888,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Card",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Card",
           "name": "_version",
           "package": "leankit-api",
@@ -3900,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "CardComment",
           "package": "leankit-api",
@@ -3908,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "CardComment",
           "package": "leankit-api",
@@ -3921,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "CardComment",
           "package": "leankit-api",
@@ -3929,6 +4280,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "CardComment",
           "package": "leankit-api",
@@ -3942,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "CardComment",
           "package": "leankit-api",
@@ -3951,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "CardComment",
           "package": "leankit-api",
@@ -3964,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "_editable",
           "package": "leankit-api",
@@ -3973,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "_editable",
           "package": "leankit-api",
@@ -3985,6 +4341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "_id",
           "package": "leankit-api",
@@ -3994,6 +4351,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "_id",
           "package": "leankit-api",
@@ -4006,6 +4364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "_postDate",
           "package": "leankit-api",
@@ -4015,6 +4374,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "_postDate",
           "package": "leankit-api",
@@ -4028,6 +4388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "_postedByFullName",
           "package": "leankit-api",
@@ -4037,6 +4398,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "_postedByFullName",
           "package": "leankit-api",
@@ -4050,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "_postedByGravatarLink",
           "package": "leankit-api",
@@ -4059,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "_postedByGravatarLink",
           "package": "leankit-api",
@@ -4072,6 +4436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "_postedById",
           "package": "leankit-api",
@@ -4081,6 +4446,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "_postedById",
           "package": "leankit-api",
@@ -4094,6 +4460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardComment",
           "name": "_text",
           "package": "leankit-api",
@@ -4103,6 +4470,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardComment",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardComment",
           "name": "_text",
           "package": "leankit-api",
@@ -4115,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "CardContext",
           "package": "leankit-api",
@@ -4123,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "CardContext",
           "package": "leankit-api",
@@ -4136,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "CardContext",
           "package": "leankit-api",
@@ -4144,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "CardContext",
           "package": "leankit-api",
@@ -4157,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "CardContext",
           "package": "leankit-api",
@@ -4166,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "CardContext",
           "package": "leankit-api",
@@ -4179,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "_completedCardCount",
           "package": "leankit-api",
@@ -4188,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "_completedCardCount",
           "package": "leankit-api",
@@ -4201,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "_completedCardSize",
           "package": "leankit-api",
@@ -4210,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "_completedCardSize",
           "package": "leankit-api",
@@ -4223,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "_id",
           "package": "leankit-api",
@@ -4232,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "_id",
           "package": "leankit-api",
@@ -4244,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "_name",
           "package": "leankit-api",
@@ -4253,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "_name",
           "package": "leankit-api",
@@ -4265,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "_progressPercentage",
           "package": "leankit-api",
@@ -4274,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "_progressPercentage",
           "package": "leankit-api",
@@ -4287,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "_taskBoardId",
           "package": "leankit-api",
@@ -4296,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "_taskBoardId",
           "package": "leankit-api",
@@ -4309,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "_totalCards",
           "package": "leankit-api",
@@ -4318,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "_totalCards",
           "package": "leankit-api",
@@ -4331,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardContext",
           "name": "_totalSize",
           "package": "leankit-api",
@@ -4340,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardContext",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardContext",
           "name": "_totalSize",
           "package": "leankit-api",
@@ -4353,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardHistoryItem",
           "package": "leankit-api",
@@ -4361,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardHistoryItem",
           "package": "leankit-api",
@@ -4374,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardFieldChange",
           "package": "leankit-api",
@@ -4382,6 +4775,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardFieldChange",
           "package": "leankit-api",
@@ -4395,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardHistoryDetails",
           "package": "leankit-api",
@@ -4403,6 +4798,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardHistoryDetails",
           "package": "leankit-api",
@@ -4416,6 +4812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardHistoryItem",
           "package": "leankit-api",
@@ -4424,6 +4821,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardHistoryItem",
           "package": "leankit-api",
@@ -4437,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardCreateEventDetails",
           "package": "leankit-api",
@@ -4446,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardCreateEventDetails",
           "package": "leankit-api",
@@ -4459,6 +4859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardFieldChange",
           "package": "leankit-api",
@@ -4468,6 +4869,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardFieldChange",
           "package": "leankit-api",
@@ -4481,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardFieldChangedEventDetails",
           "package": "leankit-api",
@@ -4490,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardFieldChangedEventDetails",
           "package": "leankit-api",
@@ -4503,6 +4907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardHistoryItem",
           "package": "leankit-api",
@@ -4512,6 +4917,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardHistoryItem",
           "package": "leankit-api",
@@ -4525,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardMoveEventDetails",
           "package": "leankit-api",
@@ -4534,6 +4941,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "CardMoveEventDetails",
           "package": "leankit-api",
@@ -4547,6 +4955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "UnknownEventDetails",
           "package": "leankit-api",
@@ -4556,6 +4965,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "UnknownEventDetails",
           "package": "leankit-api",
@@ -4569,6 +4979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "UserAssignmentEventDetails",
           "package": "leankit-api",
@@ -4578,6 +4989,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "UserAssignmentEventDetails",
           "package": "leankit-api",
@@ -4591,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_assignedUserEmailAddress",
           "package": "leankit-api",
@@ -4600,6 +5013,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_assignedUserEmailAddress",
           "package": "leankit-api",
@@ -4613,6 +5027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_assignedUserFullName",
           "package": "leankit-api",
@@ -4622,6 +5037,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_assignedUserFullName",
           "package": "leankit-api",
@@ -4635,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_assignedUserId",
           "package": "leankit-api",
@@ -4644,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_assignedUserId",
           "package": "leankit-api",
@@ -4657,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_cardId",
           "package": "leankit-api",
@@ -4666,6 +5085,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_cardId",
           "package": "leankit-api",
@@ -4679,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_cardTitle",
           "package": "leankit-api",
@@ -4688,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_cardTitle",
           "package": "leankit-api",
@@ -4701,6 +5123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_changes",
           "package": "leankit-api",
@@ -4710,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_changes",
           "normalized": "[CardFieldChange]",
@@ -4724,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_dateTime",
           "package": "leankit-api",
@@ -4733,6 +5158,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_dateTime",
           "package": "leankit-api",
@@ -4746,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_details",
           "package": "leankit-api",
@@ -4755,6 +5182,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_details",
           "package": "leankit-api",
@@ -4767,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_fieldName",
           "package": "leankit-api",
@@ -4776,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_fieldName",
           "package": "leankit-api",
@@ -4789,6 +5219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_fromLaneId",
           "package": "leankit-api",
@@ -4798,6 +5229,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_fromLaneId",
           "package": "leankit-api",
@@ -4811,6 +5243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_fromLaneTitle",
           "package": "leankit-api",
@@ -4820,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_fromLaneTitle",
           "package": "leankit-api",
@@ -4833,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_gravatarLink",
           "package": "leankit-api",
@@ -4842,6 +5277,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_gravatarLink",
           "package": "leankit-api",
@@ -4855,6 +5291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_lastDate",
           "package": "leankit-api",
@@ -4864,6 +5301,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_lastDate",
           "package": "leankit-api",
@@ -4877,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_newDueDate",
           "package": "leankit-api",
@@ -4886,6 +5325,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_newDueDate",
           "package": "leankit-api",
@@ -4899,6 +5339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_newValue",
           "package": "leankit-api",
@@ -4908,6 +5349,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_newValue",
           "package": "leankit-api",
@@ -4921,6 +5363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_oldDueDate",
           "package": "leankit-api",
@@ -4930,6 +5373,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_oldDueDate",
           "package": "leankit-api",
@@ -4943,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_oldValue",
           "package": "leankit-api",
@@ -4952,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_oldValue",
           "package": "leankit-api",
@@ -4965,6 +5411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_overrideType",
           "package": "leankit-api",
@@ -4974,6 +5421,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_overrideType",
           "package": "leankit-api",
@@ -4987,6 +5435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_taskboardContainingCardId",
           "package": "leankit-api",
@@ -4996,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_taskboardContainingCardId",
           "package": "leankit-api",
@@ -5009,6 +5459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_taskboardContainingCardTitle",
           "package": "leankit-api",
@@ -5018,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_taskboardContainingCardTitle",
           "package": "leankit-api",
@@ -5031,6 +5483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_timeDifference",
           "package": "leankit-api",
@@ -5040,6 +5493,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_timeDifference",
           "package": "leankit-api",
@@ -5053,6 +5507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_toLaneId",
           "package": "leankit-api",
@@ -5062,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_toLaneId",
           "package": "leankit-api",
@@ -5075,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_toLaneTitle",
           "package": "leankit-api",
@@ -5084,6 +5541,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_toLaneTitle",
           "package": "leankit-api",
@@ -5097,6 +5555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_type",
           "package": "leankit-api",
@@ -5106,6 +5565,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_type",
           "package": "leankit-api",
@@ -5118,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_userFullName",
           "package": "leankit-api",
@@ -5127,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_userFullName",
           "package": "leankit-api",
@@ -5140,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_userName",
           "package": "leankit-api",
@@ -5149,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types CardHistoryItem",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.CardHistoryItem",
           "name": "_userName",
           "package": "leankit-api",
@@ -5162,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "Common",
           "package": "leankit-api",
@@ -5170,6 +5635,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "Common",
           "package": "leankit-api",
@@ -5183,6 +5649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "BoardID",
           "package": "leankit-api",
@@ -5191,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "BoardID",
           "package": "leankit-api",
@@ -5204,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "CardCommentID",
           "package": "leankit-api",
@@ -5212,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "CardCommentID",
           "package": "leankit-api",
@@ -5225,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "CardContextID",
           "package": "leankit-api",
@@ -5233,6 +5704,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "CardContextID",
           "package": "leankit-api",
@@ -5246,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "CardID",
           "package": "leankit-api",
@@ -5254,6 +5727,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "CardID",
           "package": "leankit-api",
@@ -5267,6 +5741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "CardTypeID",
           "package": "leankit-api",
@@ -5275,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "CardTypeID",
           "package": "leankit-api",
@@ -5288,6 +5764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "ClassOfServiceID",
           "package": "leankit-api",
@@ -5296,6 +5773,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "ClassOfServiceID",
           "package": "leankit-api",
@@ -5309,6 +5787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "Color",
           "package": "leankit-api",
@@ -5317,6 +5796,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "Color",
           "package": "leankit-api",
@@ -5330,6 +5810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "Date",
           "package": "leankit-api",
@@ -5338,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "Date",
           "package": "leankit-api",
@@ -5351,6 +5833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "DateTime",
           "package": "leankit-api",
@@ -5359,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "DateTime",
           "package": "leankit-api",
@@ -5372,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "LaneClassTypeID",
           "package": "leankit-api",
@@ -5380,6 +5865,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "LaneClassTypeID",
           "package": "leankit-api",
@@ -5393,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "LaneID",
           "package": "leankit-api",
@@ -5401,6 +5888,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "LaneID",
           "package": "leankit-api",
@@ -5414,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "LaneTypeID",
           "package": "leankit-api",
@@ -5422,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "LaneTypeID",
           "package": "leankit-api",
@@ -5435,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "OrganizationID",
           "package": "leankit-api",
@@ -5443,6 +5934,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "OrganizationID",
           "package": "leankit-api",
@@ -5456,6 +5948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "PriorityID",
           "package": "leankit-api",
@@ -5464,6 +5957,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "PriorityID",
           "package": "leankit-api",
@@ -5477,6 +5971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "UserID",
           "package": "leankit-api",
@@ -5485,6 +5980,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "UserID",
           "package": "leankit-api",
@@ -5498,6 +5994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "BoardID",
           "package": "leankit-api",
@@ -5507,6 +6004,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "BoardID",
           "package": "leankit-api",
@@ -5520,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "CardCommentID",
           "package": "leankit-api",
@@ -5529,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "CardCommentID",
           "package": "leankit-api",
@@ -5542,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "CardContextID",
           "package": "leankit-api",
@@ -5551,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "CardContextID",
           "package": "leankit-api",
@@ -5564,6 +6066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "CardID",
           "package": "leankit-api",
@@ -5573,6 +6076,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "CardID",
           "package": "leankit-api",
@@ -5586,6 +6090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "CardTypeID",
           "package": "leankit-api",
@@ -5595,6 +6100,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "CardTypeID",
           "package": "leankit-api",
@@ -5608,6 +6114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "ClassOfServiceID",
           "package": "leankit-api",
@@ -5617,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "ClassOfServiceID",
           "package": "leankit-api",
@@ -5630,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "Color",
           "package": "leankit-api",
@@ -5639,6 +6148,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "Color",
           "package": "leankit-api",
@@ -5652,6 +6162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "LaneClassTypeID",
           "package": "leankit-api",
@@ -5661,6 +6172,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "LaneClassTypeID",
           "package": "leankit-api",
@@ -5674,6 +6186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "LaneID",
           "package": "leankit-api",
@@ -5683,6 +6196,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "LaneID",
           "package": "leankit-api",
@@ -5696,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "LaneTypeID",
           "package": "leankit-api",
@@ -5705,6 +6220,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "LaneTypeID",
           "package": "leankit-api",
@@ -5718,6 +6234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "OrganizationID",
           "package": "leankit-api",
@@ -5727,6 +6244,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "OrganizationID",
           "package": "leankit-api",
@@ -5740,6 +6258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "PriorityID",
           "package": "leankit-api",
@@ -5749,6 +6268,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "PriorityID",
           "package": "leankit-api",
@@ -5762,6 +6282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Common",
           "name": "UserID",
           "package": "leankit-api",
@@ -5771,6 +6292,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Common",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Common",
           "name": "UserID",
           "package": "leankit-api",
@@ -5784,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Credentials",
           "name": "Credentials",
           "package": "leankit-api",
@@ -5792,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Credentials",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Credentials",
           "name": "Credentials",
           "package": "leankit-api",
@@ -5805,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Credentials",
           "name": "Credentials",
           "package": "leankit-api",
@@ -5813,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Credentials",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Credentials",
           "name": "Credentials",
           "package": "leankit-api",
@@ -5826,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Credentials",
           "name": "Credentials",
           "package": "leankit-api",
@@ -5835,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Credentials",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Credentials",
           "name": "Credentials",
           "package": "leankit-api",
@@ -5848,6 +6376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Credentials",
           "name": "_company",
           "package": "leankit-api",
@@ -5857,6 +6386,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Credentials",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Credentials",
           "name": "_company",
           "package": "leankit-api",
@@ -5869,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Credentials",
           "name": "_password",
           "package": "leankit-api",
@@ -5878,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Credentials",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Credentials",
           "name": "_password",
           "package": "leankit-api",
@@ -5890,6 +6422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Credentials",
           "name": "_username",
           "package": "leankit-api",
@@ -5899,6 +6432,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Credentials",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Credentials",
           "name": "_username",
           "package": "leankit-api",
@@ -5911,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "Lane",
           "package": "leankit-api",
@@ -5919,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "Lane",
           "package": "leankit-api",
@@ -5932,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "Lane",
           "package": "leankit-api",
@@ -5940,6 +6477,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "Lane",
           "package": "leankit-api",
@@ -5953,6 +6491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "Lane",
           "package": "leankit-api",
@@ -5962,6 +6501,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "Lane",
           "package": "leankit-api",
@@ -5975,6 +6515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_active",
           "package": "leankit-api",
@@ -5984,6 +6525,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_active",
           "package": "leankit-api",
@@ -5996,6 +6538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_activityId",
           "package": "leankit-api",
@@ -6005,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_activityId",
           "package": "leankit-api",
@@ -6018,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_activityName",
           "package": "leankit-api",
@@ -6027,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_activityName",
           "package": "leankit-api",
@@ -6040,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_cardContextId",
           "package": "leankit-api",
@@ -6049,6 +6596,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_cardContextId",
           "package": "leankit-api",
@@ -6062,6 +6610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_cardLimit",
           "package": "leankit-api",
@@ -6071,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_cardLimit",
           "package": "leankit-api",
@@ -6084,6 +6634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_cards",
           "package": "leankit-api",
@@ -6093,6 +6644,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_cards",
           "normalized": "[Card]",
@@ -6107,6 +6659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_childLaneIds",
           "package": "leankit-api",
@@ -6116,6 +6669,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_childLaneIds",
           "normalized": "[LaneID]",
@@ -6131,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_classType",
           "package": "leankit-api",
@@ -6140,6 +6695,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_classType",
           "package": "leankit-api",
@@ -6153,6 +6709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_description",
           "package": "leankit-api",
@@ -6162,6 +6719,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_description",
           "package": "leankit-api",
@@ -6174,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_id",
           "package": "leankit-api",
@@ -6183,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_id",
           "package": "leankit-api",
@@ -6195,6 +6755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_index",
           "package": "leankit-api",
@@ -6204,6 +6765,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_index",
           "package": "leankit-api",
@@ -6216,6 +6778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_isDrillthroughDoneLane",
           "package": "leankit-api",
@@ -6225,6 +6788,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_isDrillthroughDoneLane",
           "package": "leankit-api",
@@ -6238,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_laneState",
           "package": "leankit-api",
@@ -6247,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_laneState",
           "package": "leankit-api",
@@ -6260,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_orientation",
           "package": "leankit-api",
@@ -6269,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_orientation",
           "package": "leankit-api",
@@ -6281,6 +6849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_parentLaneId",
           "package": "leankit-api",
@@ -6290,6 +6859,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_parentLaneId",
           "package": "leankit-api",
@@ -6303,6 +6873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_siblingLaneIds",
           "package": "leankit-api",
@@ -6312,6 +6883,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_siblingLaneIds",
           "normalized": "[LaneID]",
@@ -6327,6 +6899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_taskBoardId",
           "package": "leankit-api",
@@ -6336,6 +6909,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_taskBoardId",
           "package": "leankit-api",
@@ -6349,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_title",
           "package": "leankit-api",
@@ -6358,6 +6933,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_title",
           "package": "leankit-api",
@@ -6370,6 +6946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_type",
           "package": "leankit-api",
@@ -6379,6 +6956,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_type",
           "package": "leankit-api",
@@ -6391,6 +6969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.Lane",
           "name": "_width",
           "package": "leankit-api",
@@ -6400,6 +6979,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types Lane",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.Lane",
           "name": "_width",
           "package": "leankit-api",
@@ -6412,6 +6992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneLayout",
           "name": "LaneLayout",
           "package": "leankit-api",
@@ -6420,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneLayout",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneLayout",
           "name": "LaneLayout",
           "package": "leankit-api",
@@ -6433,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneLayout",
           "name": "LaneLayout",
           "package": "leankit-api",
@@ -6441,6 +7024,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneLayout",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneLayout",
           "name": "LaneLayout",
           "package": "leankit-api",
@@ -6454,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneLayout",
           "name": "LaneLayout",
           "package": "leankit-api",
@@ -6463,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneLayout",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneLayout",
           "name": "LaneLayout",
           "package": "leankit-api",
@@ -6476,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneLayout",
           "name": "_childLanes",
           "package": "leankit-api",
@@ -6485,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneLayout",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneLayout",
           "name": "_childLanes",
           "normalized": "[Lane]",
@@ -6500,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneLayout",
           "name": "_lane",
           "package": "leankit-api",
@@ -6509,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneLayout",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneLayout",
           "name": "_lane",
           "package": "leankit-api",
@@ -6521,6 +7111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneLayout",
           "name": "_parentLane",
           "package": "leankit-api",
@@ -6530,6 +7121,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneLayout",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneLayout",
           "name": "_parentLane",
           "package": "leankit-api",
@@ -6543,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "LaneShort",
           "package": "leankit-api",
@@ -6551,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "LaneShort",
           "package": "leankit-api",
@@ -6564,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "LaneShort",
           "package": "leankit-api",
@@ -6572,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "LaneShort",
           "package": "leankit-api",
@@ -6585,6 +7181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "LaneShort",
           "package": "leankit-api",
@@ -6594,6 +7191,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "LaneShort",
           "package": "leankit-api",
@@ -6607,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_activityId",
           "package": "leankit-api",
@@ -6616,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_activityId",
           "package": "leankit-api",
@@ -6629,6 +7229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_cardLimit",
           "package": "leankit-api",
@@ -6638,6 +7239,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_cardLimit",
           "package": "leankit-api",
@@ -6651,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_classType",
           "package": "leankit-api",
@@ -6660,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_classType",
           "package": "leankit-api",
@@ -6673,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_id",
           "package": "leankit-api",
@@ -6682,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_id",
           "package": "leankit-api",
@@ -6694,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_index",
           "package": "leankit-api",
@@ -6703,6 +7310,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_index",
           "package": "leankit-api",
@@ -6715,6 +7323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_laneClassType",
           "package": "leankit-api",
@@ -6724,6 +7333,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_laneClassType",
           "package": "leankit-api",
@@ -6737,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_name",
           "package": "leankit-api",
@@ -6746,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_name",
           "package": "leankit-api",
@@ -6758,6 +7370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_parentLaneId",
           "package": "leankit-api",
@@ -6767,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_parentLaneId",
           "package": "leankit-api",
@@ -6780,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_topLevelParentLaneId",
           "package": "leankit-api",
@@ -6789,6 +7404,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_topLevelParentLaneId",
           "package": "leankit-api",
@@ -6802,6 +7418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.LaneShort",
           "name": "_type",
           "package": "leankit-api",
@@ -6811,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types LaneShort",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.LaneShort",
           "name": "_type",
           "package": "leankit-api",
@@ -6823,6 +7441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.TH",
           "name": "TH",
           "package": "leankit-api",
@@ -6831,6 +7450,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types TH",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.TH",
           "name": "TH",
           "package": "leankit-api",
@@ -6844,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.TH",
           "name": "key2field",
           "package": "leankit-api",
@@ -6853,6 +7474,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types TH",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.TH",
           "name": "key2field",
           "normalized": "String-\u003eString",
@@ -6867,6 +7489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.TH",
           "name": "parseOptions",
           "package": "leankit-api",
@@ -6876,6 +7499,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types TH",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.TH",
           "name": "parseOptions",
           "package": "leankit-api",
@@ -6889,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "User",
           "package": "leankit-api",
@@ -6897,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "User",
           "package": "leankit-api",
@@ -6910,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "User",
           "package": "leankit-api",
@@ -6918,6 +7545,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "User",
           "package": "leankit-api",
@@ -6931,6 +7559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "User",
           "package": "leankit-api",
@@ -6940,6 +7569,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "User",
           "package": "leankit-api",
@@ -6953,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_dateFormat",
           "package": "leankit-api",
@@ -6962,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_dateFormat",
           "package": "leankit-api",
@@ -6975,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_emailAddress",
           "package": "leankit-api",
@@ -6984,6 +7617,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_emailAddress",
           "package": "leankit-api",
@@ -6997,6 +7631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_enabled",
           "package": "leankit-api",
@@ -7006,6 +7641,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_enabled",
           "package": "leankit-api",
@@ -7018,6 +7654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_fullName",
           "package": "leankit-api",
@@ -7027,6 +7664,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_fullName",
           "package": "leankit-api",
@@ -7040,6 +7678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_gravatarFeed",
           "package": "leankit-api",
@@ -7049,6 +7688,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_gravatarFeed",
           "package": "leankit-api",
@@ -7062,6 +7702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_gravatarLink",
           "package": "leankit-api",
@@ -7071,6 +7712,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_gravatarLink",
           "package": "leankit-api",
@@ -7084,6 +7726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_id",
           "package": "leankit-api",
@@ -7093,6 +7736,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_id",
           "package": "leankit-api",
@@ -7105,6 +7749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_isAccountOwner",
           "package": "leankit-api",
@@ -7114,6 +7759,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_isAccountOwner",
           "package": "leankit-api",
@@ -7127,6 +7773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_isDeleted",
           "package": "leankit-api",
@@ -7136,6 +7783,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_isDeleted",
           "package": "leankit-api",
@@ -7149,6 +7797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_role",
           "package": "leankit-api",
@@ -7158,6 +7807,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_role",
           "package": "leankit-api",
@@ -7170,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_roleName",
           "package": "leankit-api",
@@ -7179,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_roleName",
           "package": "leankit-api",
@@ -7192,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_userName",
           "package": "leankit-api",
@@ -7201,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_userName",
           "package": "leankit-api",
@@ -7214,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types.User",
           "name": "_wip",
           "package": "leankit-api",
@@ -7223,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types User",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types.User",
           "name": "_wip",
           "package": "leankit-api",
@@ -7235,6 +7891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types",
           "name": "Types",
           "package": "leankit-api",
@@ -7243,6 +7900,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types",
           "name": "Types",
           "package": "leankit-api",
@@ -7256,6 +7914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types",
           "name": "Reply",
           "package": "leankit-api",
@@ -7264,6 +7923,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types",
           "name": "Reply",
           "package": "leankit-api",
@@ -7277,6 +7937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types",
           "name": "Reply",
           "package": "leankit-api",
@@ -7286,6 +7947,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types",
           "name": "Reply",
           "package": "leankit-api",
@@ -7299,6 +7961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types",
           "name": "_replyCode",
           "package": "leankit-api",
@@ -7308,6 +7971,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types",
           "name": "_replyCode",
           "package": "leankit-api",
@@ -7321,6 +7985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types",
           "name": "_replyData",
           "package": "leankit-api",
@@ -7330,6 +7995,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types",
           "name": "_replyData",
           "normalized": "[Maybe a]",
@@ -7345,6 +8011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types",
           "name": "_replyText",
           "package": "leankit-api",
@@ -7354,6 +8021,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types",
           "name": "_replyText",
           "package": "leankit-api",
@@ -7367,6 +8035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types",
           "name": "parseReply",
           "package": "leankit-api",
@@ -7376,6 +8045,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types",
           "name": "parseReply",
           "normalized": "ByteString-\u003eEither String(Reply a)",
@@ -7391,6 +8061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:09 UTC 2014",
           "module": "Leankit.Types",
           "name": "parseReplyData",
           "package": "leankit-api",
@@ -7400,6 +8071,7 @@
         },
         "index": {
           "hierarchy": "Leankit Types",
+          "indexed": "2014-03-11T19:07:09",
           "module": "Leankit.Types",
           "name": "parseReplyData",
           "normalized": "ByteString-\u003eEither String a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "approximate"
+        "phrase": "approximate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Mass",
           "name": "Mass",
           "package": "approximate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Mass",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Mass",
           "name": "Mass",
           "package": "approximate",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quantity with a lower-bound on its probability mass. This represents\n a 'probable value' as a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e that you can use to calculate progressively\n less likely consequences.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNB:\u003c/em\u003e These probabilities are all stored in the log domain. This enables us\n to retain accuracy despite very long multiplication chains. We never add\n these probabilities so the additional overhead of working in the log domain\n is never incurred, except on transitioning in and out.\n\u003c/p\u003e\u003cp\u003eThis is most useful for discrete types, such as\n small \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e instances or a \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e like\n \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAlso note that \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e&?\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e and \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e|?\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e are able to use knowledge about the\n function to get better precision on their results than naively using\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eliftA2\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e&&\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Mass",
           "name": "Mass",
           "package": "approximate",
@@ -49,6 +52,7 @@
         "index": {
           "description": "quantity with lower-bound on its probability mass This represents probable value as Monad that you can use to calculate progressively less likely consequences NB These probabilities are all stored in the log domain This enables us to retain accuracy despite very long multiplication chains We never add these probabilities so the additional overhead of working in the log domain is never incurred except on transitioning in and out This is most useful for discrete types such as small Integral instances or Bounded Enum like Bool Also note that and are able to use knowledge about the function to get better precision on their results than naively using liftA2",
           "hierarchy": "Data Approximate Mass",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Mass",
           "name": "Mass",
           "package": "approximate",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the logical \u003ccode\u003eor\u003c/code\u003e of two booleans with confidence lower bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Mass",
           "name": "(|?)",
           "package": "approximate",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Calculate the logical or of two booleans with confidence lower bounds",
           "hierarchy": "Data Approximate Mass",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Mass",
           "name": "(|?) |?",
           "normalized": "Mass Bool-\u003eMass Bool-\u003eMass Bool",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the logical \u003ccode\u003eand\u003c/code\u003e of two booleans with confidence lower bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Mass",
           "name": "(&?)",
           "package": "approximate",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Calculate the logical and of two booleans with confidence lower bounds",
           "hierarchy": "Data Approximate Mass",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Mass",
           "name": "(&?) &?",
           "normalized": "Mass Bool-\u003eMass Bool-\u003eMass Bool",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the exclusive \u003ccode\u003eor\u003c/code\u003e of two booleans with confidence lower bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Mass",
           "name": "(^?)",
           "package": "approximate",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Calculate the exclusive or of two booleans with confidence lower bounds",
           "hierarchy": "Data Approximate Mass",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Mass",
           "name": "(^?) ^?",
           "normalized": "Mass Bool-\u003eMass Bool-\u003eMass Bool",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Mass",
           "name": "Mass",
           "package": "approximate",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Mass",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Mass",
           "name": "Mass",
           "package": "approximate",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese functions provide wildly inaccurate but very fast\n approximations to common transcendental functions.\n\u003c/p\u003e\u003cp\u003eThe algorithms here are based on Martin Ankerl's optimized \u003ccode\u003epow\u003c/code\u003e,\n \u003ca\u003ehttp://martin.ankerl.com/2007/10/04/optimized-pow-approximation-for-java-and-c-c/\u003c/a\u003e\n which is in turn based on\n \u003ca\u003ehttp://nic.schraudolph.org/pubs/Schraudolph99.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "Numerics",
           "package": "approximate",
@@ -169,6 +182,7 @@
         "index": {
           "description": "These functions provide wildly inaccurate but very fast approximations to common transcendental functions The algorithms here are based on Martin Ankerl optimized pow http martin.ankerl.com optimized-pow-approximation-for-java-and-c-c which is in turn based on http nic.schraudolph.org pubs Schraudolph99.pdf",
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "Numerics",
           "package": "approximate",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "Fast",
           "package": "approximate",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "Fast",
           "package": "approximate",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBorchardt&#8217;s Algorithm from &#8220;Dead Reckoning: Calculating without instruments&#8221;.\n\u003c/p\u003e\u003cp\u003eThis is a remarkably bad approximate logarithm.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eflog\u003c/a\u003e\u003c/code\u003e had better outperform it! It is provided merely for comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "blog",
           "package": "approximate",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Borchardt Algorithm from Dead Reckoning Calculating without instruments This is remarkably bad approximate logarithm flog had better outperform it It is provided merely for comparison",
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "blog",
           "normalized": "a-\u003ea",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate an approximate exp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "fexp",
           "package": "approximate",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Calculate an approximate exp",
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "fexp",
           "normalized": "a-\u003ea",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "fexp_lb",
           "package": "approximate",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "fexp_lb",
           "normalized": "a-\u003ea",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "fexp_ub",
           "package": "approximate",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "fexp_ub",
           "normalized": "a-\u003ea",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate an approximate log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "flog",
           "package": "approximate",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Calculate an approximate log",
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "flog",
           "normalized": "a-\u003ea",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "flog_lb",
           "package": "approximate",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "flog_lb",
           "normalized": "a-\u003ea",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "flog_ub",
           "package": "approximate",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "flog_ub",
           "normalized": "a-\u003ea",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate an approximate pow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "fpow",
           "package": "approximate",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Calculate an approximate pow",
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "fpow",
           "normalized": "a-\u003ea-\u003ea",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "fpow_lb",
           "package": "approximate",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "fpow_lb",
           "normalized": "a-\u003ea-\u003ea",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Numerics",
           "name": "fpow_ub",
           "package": "approximate",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Numerics",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Numerics",
           "name": "fpow_ub",
           "normalized": "a-\u003ea-\u003ea",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "Type",
           "package": "approximate",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "Type",
           "package": "approximate",
@@ -463,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn approximate number, with a likely interval, an expected value and a lower bound on the \u003ccode\u003elog\u003c/code\u003e of probability that the answer falls in the interval.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNB:\u003c/em\u003e The probabilities associated with confidence are stored in the \u003ccode\u003elog\u003c/code\u003e domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "Approximate",
           "package": "approximate",
@@ -472,6 +511,7 @@
         "index": {
           "description": "An approximate number with likely interval an expected value and lower bound on the log of probability that the answer falls in the interval NB The probabilities associated with confidence are stored in the log domain",
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "Approximate",
           "package": "approximate",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "HasApproximate",
           "package": "approximate",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "HasApproximate",
           "package": "approximate",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "Approximate",
           "package": "approximate",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "Approximate",
           "package": "approximate",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "approximate",
           "package": "approximate",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "approximate",
           "package": "approximate",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "confidence",
           "package": "approximate",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "confidence",
           "package": "approximate",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "estimate",
           "package": "approximate",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "estimate",
           "package": "approximate",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "exact",
           "package": "approximate",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "exact",
           "package": "approximate",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "hi",
           "package": "approximate",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "hi",
           "package": "approximate",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "lo",
           "package": "approximate",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "lo",
           "package": "approximate",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "one",
           "package": "approximate",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "one",
           "normalized": "Prism'(Approximate a)()",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "withMax",
           "package": "approximate",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "withMax",
           "normalized": "a-\u003eApproximate a-\u003eApproximate a",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "withMin",
           "package": "approximate",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "withMin",
           "normalized": "a-\u003eApproximate a-\u003eApproximate a",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate.Type",
           "name": "zero",
           "package": "approximate",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate Type",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate.Type",
           "name": "zero",
           "normalized": "Prism'(Approximate a)()",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:54 UTC 2014",
           "module": "Data.Approximate",
           "name": "Approximate",
           "package": "approximate",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Data Approximate",
+          "indexed": "2014-03-11T17:11:54",
           "module": "Data.Approximate",
           "name": "Approximate",
           "package": "approximate",

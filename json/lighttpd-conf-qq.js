@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lighttpd-conf-qq"
+        "phrase": "lighttpd-conf-qq",
+        "type": "phrase"
       },
       "type": "context"
     }

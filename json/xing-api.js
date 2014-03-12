@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xing-api"
+        "phrase": "xing-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "XING",
           "package": "xing-api",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "XING",
           "package": "xing-api",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "APIError",
           "package": "xing-api",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "APIError",
           "package": "xing-api",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "AccessToken",
           "package": "xing-api",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "AccessToken",
           "package": "xing-api",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Address",
           "package": "xing-api",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Address",
           "package": "xing-api",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Award",
           "package": "xing-api",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Award",
           "package": "xing-api",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "BirthDate",
           "package": "xing-api",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "BirthDate",
           "package": "xing-api",
@@ -145,6 +157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for redential.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Credential",
           "package": "xing-api",
@@ -153,6 +166,7 @@
         "index": {
           "description": "Data type for redential",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Credential",
           "package": "xing-api",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "FullUser",
           "package": "xing-api",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "FullUser",
           "package": "xing-api",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Gender",
           "package": "xing-api",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Gender",
           "package": "xing-api",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Language",
           "package": "xing-api",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Language",
           "package": "xing-api",
@@ -230,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeeps track of open connections for keep-alive.\n If possible, you should share a single \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e between multiple threads and requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Manager",
           "package": "xing-api",
@@ -238,6 +259,7 @@
         "index": {
           "description": "Keeps track of open connections for keep-alive If possible you should share single Manager between multiple threads and requests",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Manager",
           "package": "xing-api",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "MinimalUser",
           "package": "xing-api",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "MinimalUser",
           "package": "xing-api",
@@ -273,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for OAuth client (consumer).\n\u003c/p\u003e\u003cp\u003eThe constructor for this data type is not exposed. \n Instead, you should use the \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e method or \u003ccode\u003e\u003ca\u003enewOAuth\u003c/a\u003e\u003c/code\u003e function to retrieve a default instance, \n and then use the records below to make modifications.\n This approach allows us to add configuration options without breaking backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "OAuth",
           "package": "xing-api",
@@ -281,6 +306,7 @@
         "index": {
           "description": "Data type for OAuth client consumer The constructor for this data type is not exposed Instead you should use the def method or newOAuth function to retrieve default instance and then use the records below to make modifications This approach allows us to add configuration options without breaking backwards compatibility",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "OAuth",
           "package": "xing-api",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "PhotoUrls",
           "package": "xing-api",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "PhotoUrls",
           "package": "xing-api",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "ProfessionalExperience",
           "package": "xing-api",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "ProfessionalExperience",
           "package": "xing-api",
@@ -336,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "RequestToken",
           "package": "xing-api",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "RequestToken",
           "package": "xing-api",
@@ -357,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Skill",
           "package": "xing-api",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Skill",
           "package": "xing-api",
@@ -379,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP Status.\n\u003c/p\u003e\u003cp\u003eOnly the \u003ccode\u003e\u003ca\u003estatusCode\u003c/a\u003e\u003c/code\u003e is used for comparisons.\n\u003c/p\u003e\u003cp\u003ePlease use \u003ccode\u003e\u003ca\u003emkStatus\u003c/a\u003e\u003c/code\u003e to create status codes from code and message, or the \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instance or the\n status code constants (like \u003ccode\u003e\u003ca\u003eok200\u003c/a\u003e\u003c/code\u003e). There might be additional record members in the future.\n\u003c/p\u003e\u003cp\u003eNote that the Show instance is only for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Status",
           "package": "xing-api",
@@ -387,6 +422,7 @@
         "index": {
           "description": "HTTP Status Only the statusCode is used for comparisons Please use mkStatus to create status codes from code and message or the Enum instance or the status code constants like ok200 There might be additional record members in the future Note that the Show instance is only for debugging",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Status",
           "package": "xing-api",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "URL",
           "package": "xing-api",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "URL",
           "package": "xing-api",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "User",
           "package": "xing-api",
@@ -429,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "User",
           "package": "xing-api",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "UserId",
           "package": "xing-api",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "UserId",
           "package": "xing-api",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "UserList",
           "package": "xing-api",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "UserList",
           "package": "xing-api",
@@ -484,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Verifier",
           "package": "xing-api",
@@ -492,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Verifier",
           "package": "xing-api",
@@ -505,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Address",
           "package": "xing-api",
@@ -514,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Address",
           "package": "xing-api",
@@ -527,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Award",
           "package": "xing-api",
@@ -536,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Award",
           "package": "xing-api",
@@ -549,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "CallError",
           "package": "xing-api",
@@ -558,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "CallError",
           "package": "xing-api",
@@ -571,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Credential",
           "package": "xing-api",
@@ -579,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Credential",
           "package": "xing-api",
@@ -592,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "DayOnly",
           "package": "xing-api",
@@ -601,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "DayOnly",
           "package": "xing-api",
@@ -614,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Female",
           "package": "xing-api",
@@ -623,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Female",
           "package": "xing-api",
@@ -636,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "FullDate",
           "package": "xing-api",
@@ -645,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "FullDate",
           "package": "xing-api",
@@ -658,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Male",
           "package": "xing-api",
@@ -667,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Male",
           "package": "xing-api",
@@ -680,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Mapping",
           "package": "xing-api",
@@ -689,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Mapping",
           "package": "xing-api",
@@ -702,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "MinimalUser",
           "package": "xing-api",
@@ -711,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "MinimalUser",
           "package": "xing-api",
@@ -724,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "OAuthError",
           "package": "xing-api",
@@ -733,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "OAuthError",
           "package": "xing-api",
@@ -746,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "ProfessionalExperience",
           "package": "xing-api",
@@ -755,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "ProfessionalExperience",
           "package": "xing-api",
@@ -768,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "Throttled",
           "package": "xing-api",
@@ -777,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "Throttled",
           "package": "xing-api",
@@ -790,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "TokenError",
           "package": "xing-api",
@@ -799,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "TokenError",
           "package": "xing-api",
@@ -812,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "UserList",
           "package": "xing-api",
@@ -821,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "UserList",
           "package": "xing-api",
@@ -834,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "activeEmail",
           "package": "xing-api",
@@ -843,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "activeEmail",
           "normalized": "FullUser-\u003eMaybe Text",
@@ -859,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow level API request interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "apiRequest",
           "package": "xing-api",
@@ -868,6 +947,7 @@
         "index": {
           "description": "Low level API request interface",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "apiRequest",
           "normalized": "OAuth-\u003eManager-\u003eAccessToken-\u003eMethod-\u003eByteString-\u003ea(Response ByteString)",
@@ -884,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL to obtain OAuth verifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "authorizeUrl",
           "package": "xing-api",
@@ -893,6 +974,7 @@
         "index": {
           "description": "URL to obtain OAuth verifier",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "authorizeUrl",
           "normalized": "OAuth-\u003eCredential-\u003eByteString",
@@ -908,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "badges",
           "package": "xing-api",
@@ -917,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "badges",
           "normalized": "FullUser-\u003e[Text]",
@@ -931,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "birthDate",
           "package": "xing-api",
@@ -940,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "birthDate",
           "normalized": "FullUser-\u003eMaybe BirthDate",
@@ -955,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "businessAddress",
           "package": "xing-api",
@@ -964,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "businessAddress",
           "normalized": "FullUser-\u003eAddress",
@@ -979,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "city",
           "package": "xing-api",
@@ -988,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "city",
           "package": "xing-api",
@@ -1001,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an OAuth consumer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "consumer",
           "package": "xing-api",
@@ -1010,6 +1101,7 @@
         "index": {
           "description": "Create an OAuth consumer",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "consumer",
           "normalized": "ByteString-\u003eByteString-\u003eOAuth",
@@ -1024,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "country",
           "package": "xing-api",
@@ -1033,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "country",
           "package": "xing-api",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "demoIdCard",
           "package": "xing-api",
@@ -1054,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "demoIdCard",
           "package": "xing-api",
@@ -1067,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "demoIdCard'",
           "package": "xing-api",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "demoIdCard'",
           "package": "xing-api",
@@ -1089,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "demoUser",
           "package": "xing-api",
@@ -1098,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "demoUser",
           "package": "xing-api",
@@ -1111,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "demoUser'",
           "package": "xing-api",
@@ -1120,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "demoUser'",
           "package": "xing-api",
@@ -1133,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "demoUsers",
           "package": "xing-api",
@@ -1142,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "demoUsers",
           "package": "xing-api",
@@ -1155,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "demoUsers'",
           "package": "xing-api",
@@ -1164,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "demoUsers'",
           "package": "xing-api",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "displayName",
           "package": "xing-api",
@@ -1186,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "displayName",
           "normalized": "a-\u003eText",
@@ -1201,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "email",
           "package": "xing-api",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "email",
           "package": "xing-api",
@@ -1222,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "fax",
           "package": "xing-api",
@@ -1231,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "fax",
           "package": "xing-api",
@@ -1243,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "firstName",
           "package": "xing-api",
@@ -1252,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "firstName",
           "normalized": "FullUser-\u003eText",
@@ -1267,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "gender",
           "package": "xing-api",
@@ -1276,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "gender",
           "normalized": "FullUser-\u003eGender",
@@ -1291,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExchange request token for an access token (\u003cem\u003etoken credentials\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "getAccessToken",
           "package": "xing-api",
@@ -1300,6 +1417,7 @@
         "index": {
           "description": "Exchange request token for an access token token credentials",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "getAccessToken",
           "normalized": "RequestToken-\u003eVerifier-\u003eOAuth-\u003eManager-\u003ea(Credential,ByteString)",
@@ -1316,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet your id card \u003ca\u003ehttps://dev.xing.com/docs/get/users/me/id_card\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "getIdCard",
           "package": "xing-api",
@@ -1326,6 +1445,7 @@
         "index": {
           "description": "Get your id card https dev.xing.com docs get users me id card",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "getIdCard",
           "normalized": "OAuth-\u003eManager-\u003eAccessToken-\u003ea MinimalUser",
@@ -1342,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a request token (\u003cem\u003etemporary credentials\u003c/em\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "getRequestToken",
           "package": "xing-api",
@@ -1351,6 +1472,7 @@
         "index": {
           "description": "Create request token temporary credentials",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "getRequestToken",
           "normalized": "OAuth-\u003eManager-\u003ea(RequestToken,URL)",
@@ -1367,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet user details \u003ca\u003ehttps://dev.xing.com/docs/get/users/:id\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "getUsers",
           "package": "xing-api",
@@ -1377,6 +1500,7 @@
         "index": {
           "description": "Get user details https dev.xing.com docs get users id",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "getUsers",
           "normalized": "OAuth-\u003eManager-\u003eAccessToken-\u003e[UserId]-\u003ea UserList",
@@ -1392,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "haves",
           "package": "xing-api",
@@ -1401,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "haves",
           "normalized": "FullUser-\u003eMaybe Text",
@@ -1415,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "interests",
           "package": "xing-api",
@@ -1424,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "interests",
           "normalized": "FullUser-\u003eMaybe Text",
@@ -1438,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "languages",
           "package": "xing-api",
@@ -1447,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "languages",
           "normalized": "FullUser-\u003eMap Language(Maybe Skill)",
@@ -1461,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "lastName",
           "package": "xing-api",
@@ -1470,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "lastName",
           "normalized": "FullUser-\u003eText",
@@ -1486,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "liftIO",
           "package": "xing-api",
@@ -1495,6 +1628,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -1510,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "mobilePhone",
           "package": "xing-api",
@@ -1519,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "mobilePhone",
           "package": "xing-api",
@@ -1533,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient function to create \u003ccode\u003e\u003ca\u003eCredential\u003c/a\u003e\u003c/code\u003e with OAuth Token and Token Secret.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "newCredential",
           "package": "xing-api",
@@ -1542,6 +1679,7 @@
         "index": {
           "description": "Convenient function to create Credential with OAuth Token and Token Secret",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "newCredential",
           "normalized": "ByteString-\u003eByteString-\u003eCredential",
@@ -1558,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback uri to redirect after authentication (default: \u003ccode\u003eNothing\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "oauthCallback",
           "package": "xing-api",
@@ -1567,6 +1706,7 @@
         "index": {
           "description": "Callback uri to redirect after authentication default Nothing",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "oauthCallback",
           "normalized": "OAuth-\u003eMaybe ByteString",
@@ -1582,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "organisations",
           "package": "xing-api",
@@ -1591,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "organisations",
           "normalized": "FullUser-\u003eMaybe Text",
@@ -1605,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pageName",
           "package": "xing-api",
@@ -1614,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pageName",
           "normalized": "FullUser-\u003eText",
@@ -1629,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_beginDate",
           "package": "xing-api",
@@ -1638,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_beginDate",
           "package": "xing-api",
@@ -1651,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_careerLevel",
           "package": "xing-api",
@@ -1660,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_careerLevel",
           "package": "xing-api",
@@ -1673,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_companySize",
           "package": "xing-api",
@@ -1682,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_companySize",
           "package": "xing-api",
@@ -1695,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_description",
           "package": "xing-api",
@@ -1704,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_description",
           "package": "xing-api",
@@ -1716,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_endDate",
           "package": "xing-api",
@@ -1725,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_endDate",
           "package": "xing-api",
@@ -1738,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_industry",
           "package": "xing-api",
@@ -1747,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_industry",
           "package": "xing-api",
@@ -1759,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_name",
           "package": "xing-api",
@@ -1768,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_name",
           "package": "xing-api",
@@ -1780,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_tag",
           "package": "xing-api",
@@ -1789,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_tag",
           "package": "xing-api",
@@ -1801,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_title",
           "package": "xing-api",
@@ -1810,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_title",
           "package": "xing-api",
@@ -1822,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "pe_url",
           "package": "xing-api",
@@ -1831,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "pe_url",
           "package": "xing-api",
@@ -1843,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "permalink",
           "package": "xing-api",
@@ -1852,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "permalink",
           "normalized": "a-\u003eText",
@@ -1866,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "phone",
           "package": "xing-api",
@@ -1875,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "phone",
           "package": "xing-api",
@@ -1887,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "photoUrls",
           "package": "xing-api",
@@ -1896,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "photoUrls",
           "normalized": "a-\u003ePhotoUrls",
@@ -1911,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "premiumServices",
           "package": "xing-api",
@@ -1920,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "premiumServices",
           "normalized": "FullUser-\u003e[Text]",
@@ -1935,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "privateAddress",
           "package": "xing-api",
@@ -1944,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "privateAddress",
           "normalized": "FullUser-\u003eAddress",
@@ -1959,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "province",
           "package": "xing-api",
@@ -1968,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "province",
           "package": "xing-api",
@@ -1980,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "street",
           "package": "xing-api",
@@ -1989,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "street",
           "package": "xing-api",
@@ -2002,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract the token from the \u003ccode\u003e\u003ca\u003eCredential\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "token",
           "package": "xing-api",
@@ -2012,6 +2191,7 @@
         "index": {
           "description": "extract the token from the Credential",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "token",
           "normalized": "Credential-\u003eByteString",
@@ -2027,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract the secret from the \u003ccode\u003e\u003ca\u003eCredential\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "tokenSecret",
           "package": "xing-api",
@@ -2037,6 +2218,7 @@
         "index": {
           "description": "extract the secret from the Credential",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "tokenSecret",
           "normalized": "Credential-\u003eByteString",
@@ -2052,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "unCredential",
           "package": "xing-api",
@@ -2060,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "unCredential",
           "normalized": "[(ByteString,ByteString)]",
@@ -2075,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "unUserList",
           "package": "xing-api",
@@ -2084,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "unUserList",
           "normalized": "[FullUser]",
@@ -2099,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "userId",
           "package": "xing-api",
@@ -2108,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "userId",
           "normalized": "a-\u003eUserId",
@@ -2123,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "wants",
           "package": "xing-api",
@@ -2132,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "wants",
           "normalized": "FullUser-\u003eMaybe Text",
@@ -2147,6 +2337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new manager, use it in the provided function, and then release it.\n\u003c/p\u003e\u003cp\u003eThis function uses the default manager settings. For more control, use\n \u003ccode\u003e\u003ca\u003ewithManagerSettings\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "withManager",
           "package": "xing-api",
@@ -2156,6 +2347,7 @@
         "index": {
           "description": "Create new manager use it in the provided function and then release it This function uses the default manager settings For more control use withManagerSettings",
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "withManager",
           "normalized": "(Manager-\u003eResourceT a b)-\u003ea b",
@@ -2171,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:47 UTC 2014",
           "module": "Web.XING",
           "name": "zipCode",
           "package": "xing-api",
@@ -2180,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Web XING",
+          "indexed": "2014-03-11T20:41:47",
           "module": "Web.XING",
           "name": "zipCode",
           "package": "xing-api",

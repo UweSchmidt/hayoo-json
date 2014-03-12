@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "chalkboard"
+        "phrase": "chalkboard",
+        "type": "phrase"
       },
       "type": "context"
     }

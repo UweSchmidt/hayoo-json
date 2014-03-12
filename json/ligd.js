@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ligd"
+        "phrase": "ligd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "Base",
           "package": "ligd",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "Base",
           "package": "ligd",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": ":*:",
           "package": "ligd",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": ":*:",
           "package": "ligd",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": ":+:",
           "package": "ligd",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": ":+:",
           "package": "ligd",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "EP",
           "package": "ligd",
@@ -87,6 +94,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "EP",
           "package": "ligd",
@@ -100,6 +108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "Rep",
           "package": "ligd",
@@ -108,6 +117,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "Rep",
           "package": "ligd",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "Rep1",
           "package": "ligd",
@@ -129,6 +140,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "Rep1",
           "package": "ligd",
@@ -142,6 +154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "Rep2",
           "package": "ligd",
@@ -150,6 +163,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "Rep2",
           "package": "ligd",
@@ -163,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "Unit",
           "package": "ligd",
@@ -171,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "Unit",
           "package": "ligd",
@@ -184,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": ":*:",
           "package": "ligd",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": ":*:",
           "package": "ligd",
@@ -205,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "EP",
           "package": "ligd",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "EP",
           "package": "ligd",
@@ -227,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "L",
           "package": "ligd",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "L",
           "package": "ligd",
@@ -248,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "R",
           "package": "ligd",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "R",
           "package": "ligd",
@@ -269,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RChar",
           "package": "ligd",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RChar",
           "package": "ligd",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RChar1",
           "package": "ligd",
@@ -300,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RChar1",
           "package": "ligd",
@@ -313,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RChar2",
           "package": "ligd",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RChar2",
           "package": "ligd",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RCon",
           "package": "ligd",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RCon",
           "normalized": "String-\u003eRep a-\u003eRep a",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RCon1",
           "package": "ligd",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RCon1",
           "normalized": "String-\u003eRep a b-\u003eRep a b",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RCon2",
           "package": "ligd",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RCon2",
           "normalized": "String-\u003eRep a b c-\u003eRep a b c",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RInt",
           "package": "ligd",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RInt",
           "package": "ligd",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RInt1",
           "package": "ligd",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RInt1",
           "package": "ligd",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RInt2",
           "package": "ligd",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RInt2",
           "package": "ligd",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RProd",
           "package": "ligd",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RProd",
           "normalized": "Rep a-\u003eRep b-\u003eRep(a*b)",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RProd1",
           "package": "ligd",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RProd1",
           "normalized": "Rep a b-\u003eRep a c-\u003eRep a(b*c)",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RProd2",
           "package": "ligd",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RProd2",
           "normalized": "Rep a b c-\u003eRep a d e-\u003eRep a(b*d)(c*e)",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RString",
           "package": "ligd",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RString",
           "package": "ligd",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RSum",
           "package": "ligd",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RSum",
           "normalized": "Rep a-\u003eRep b-\u003eRep(a b)",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RSum1",
           "package": "ligd",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RSum1",
           "normalized": "Rep a b-\u003eRep a c-\u003eRep a(b c)",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RSum2",
           "package": "ligd",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RSum2",
           "normalized": "Rep a b c-\u003eRep a d e-\u003eRep a(b d)(c e)",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RType",
           "package": "ligd",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RType",
           "normalized": "EP a b-\u003eRep b-\u003eRep a",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RType1",
           "package": "ligd",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RType1",
           "normalized": "EP a b-\u003eRep c b-\u003eRep c a",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RType2",
           "package": "ligd",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RType2",
           "normalized": "EP a b-\u003eEP c d-\u003eRep e b d-\u003eRep e a c",
@@ -711,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RUnit",
           "package": "ligd",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RUnit",
           "package": "ligd",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RUnit1",
           "package": "ligd",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RUnit1",
           "package": "ligd",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RUnit2",
           "package": "ligd",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RUnit2",
           "package": "ligd",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RVar1",
           "package": "ligd",
@@ -786,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RVar1",
           "normalized": "a b-\u003eRep a b",
@@ -801,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "RVar2",
           "package": "ligd",
@@ -810,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "RVar2",
           "normalized": "a b c-\u003eRep a b c",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "Unit",
           "package": "ligd",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "Unit",
           "package": "ligd",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "from",
           "package": "ligd",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "from",
           "normalized": "a-\u003eb",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD.Base",
           "name": "to",
           "package": "ligd",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD Base",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD.Base",
           "name": "to",
           "normalized": "a-\u003eb",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:33 UTC 2014",
           "module": "Generics.LIGD",
           "name": "LIGD",
           "package": "ligd",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Generics LIGD",
+          "indexed": "2014-03-11T19:09:33",
           "module": "Generics.LIGD",
           "name": "LIGD",
           "package": "ligd",

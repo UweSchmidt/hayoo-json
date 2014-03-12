@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "polytypeable"
+        "phrase": "polytypeable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:19 UTC 2014",
           "module": "Data.PolyTypeable",
           "name": "PolyTypeable",
           "package": "polytypeable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data PolyTypeable",
+          "indexed": "2014-03-11T19:41:19",
           "module": "Data.PolyTypeable",
           "name": "PolyTypeable",
           "package": "polytypeable",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:19 UTC 2014",
           "module": "Data.PolyTypeable",
           "name": "PolyTypeable",
           "package": "polytypeable",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data PolyTypeable",
+          "indexed": "2014-03-11T19:41:19",
           "module": "Data.PolyTypeable",
           "name": "PolyTypeable",
           "package": "polytypeable",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:19 UTC 2014",
           "module": "Data.PolyTypeable",
           "name": "polyTypeOf",
           "package": "polytypeable",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data PolyTypeable",
+          "indexed": "2014-03-11T19:41:19",
           "module": "Data.PolyTypeable",
           "name": "polyTypeOf",
           "normalized": "a-\u003eTypeRep",

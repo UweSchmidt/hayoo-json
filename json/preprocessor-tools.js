@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "preprocessor-tools"
+        "phrase": "preprocessor-tools",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Ast",
           "package": "preprocessor-tools",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Ast",
           "package": "preprocessor-tools",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Ast",
           "package": "preprocessor-tools",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Ast",
           "package": "preprocessor-tools",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Block",
           "package": "preprocessor-tools",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Block",
           "package": "preprocessor-tools",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Empty",
           "package": "preprocessor-tools",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Empty",
           "package": "preprocessor-tools",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Single",
           "package": "preprocessor-tools",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "Single",
           "package": "preprocessor-tools",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "body",
           "package": "preprocessor-tools",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "body",
           "normalized": "[Ast]",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "cons",
           "package": "preprocessor-tools",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "cons",
           "normalized": "Token-\u003eAst-\u003eAst",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "flatten",
           "package": "preprocessor-tools",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "flatten",
           "normalized": "Ast-\u003e[Token]-\u003e[Token]",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "flattenList",
           "package": "preprocessor-tools",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "flattenList",
           "normalized": "[Ast]-\u003e[Token]-\u003e[Token]",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "format",
           "package": "preprocessor-tools",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "format",
           "normalized": "a-\u003e[Ast]-\u003ea",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "item",
           "package": "preprocessor-tools",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "item",
           "package": "preprocessor-tools",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "lbrace",
           "package": "preprocessor-tools",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "lbrace",
           "package": "preprocessor-tools",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "next",
           "package": "preprocessor-tools",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "next",
           "package": "preprocessor-tools",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "rbrace",
           "package": "preprocessor-tools",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Ast",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Ast",
           "name": "rbrace",
           "package": "preprocessor-tools",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "Error",
           "package": "preprocessor-tools",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Error",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "Error",
           "package": "preprocessor-tools",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "Error",
           "package": "preprocessor-tools",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Error",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "Error",
           "package": "preprocessor-tools",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "Error",
           "package": "preprocessor-tools",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Error",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "Error",
           "package": "preprocessor-tools",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "errorAt",
           "package": "preprocessor-tools",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Error",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "errorAt",
           "normalized": "a-\u003eString-\u003eb",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "fromParseError",
           "package": "preprocessor-tools",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Error",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "fromParseError",
           "normalized": "ParseError-\u003eError",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "loc",
           "package": "preprocessor-tools",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Error",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "loc",
           "package": "preprocessor-tools",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "msg",
           "package": "preprocessor-tools",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Error",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Error",
           "name": "msg",
           "package": "preprocessor-tools",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "Loc",
           "package": "preprocessor-tools",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "Loc",
           "package": "preprocessor-tools",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "Advance",
           "package": "preprocessor-tools",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "Advance",
           "package": "preprocessor-tools",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "Loc",
           "package": "preprocessor-tools",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "Loc",
           "package": "preprocessor-tools",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "Locatable",
           "package": "preprocessor-tools",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "Locatable",
           "package": "preprocessor-tools",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "advance",
           "package": "preprocessor-tools",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "advance",
           "normalized": "Loc-\u003ea-\u003eLoc",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "bogus",
           "package": "preprocessor-tools",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "bogus",
           "package": "preprocessor-tools",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "col",
           "package": "preprocessor-tools",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "col",
           "normalized": "Loc-\u003eInt",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "file",
           "package": "preprocessor-tools",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "file",
           "normalized": "Loc-\u003eString",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "fromDirective",
           "package": "preprocessor-tools",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "fromDirective",
           "normalized": "String-\u003eMaybe Loc",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "fromSourcePos",
           "package": "preprocessor-tools",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "fromSourcePos",
           "normalized": "SourcePos-\u003eLoc",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "getLoc",
           "package": "preprocessor-tools",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "getLoc",
           "normalized": "a-\u003eLoc",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "initial",
           "package": "preprocessor-tools",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "initial",
           "normalized": "String-\u003eLoc",
@@ -774,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "isBogus",
           "package": "preprocessor-tools",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "isBogus",
           "normalized": "Loc-\u003eBool",
@@ -798,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "line",
           "package": "preprocessor-tools",
@@ -807,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "line",
           "normalized": "Loc-\u003eInt",
@@ -845,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "setLoc",
           "package": "preprocessor-tools",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "setLoc",
           "normalized": "a-\u003eLoc-\u003ea",
@@ -869,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "toDirective",
           "package": "preprocessor-tools",
@@ -878,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "toDirective",
           "normalized": "Loc-\u003eString",
@@ -893,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "toSourcePos",
           "package": "preprocessor-tools",
@@ -902,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Loc",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Loc",
           "name": "toSourcePos",
           "normalized": "Loc-\u003eSourcePos",
@@ -917,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "Parser",
           "package": "preprocessor-tools",
@@ -925,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Parser",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "Parser",
           "package": "preprocessor-tools",
@@ -938,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "parse",
           "package": "preprocessor-tools",
@@ -947,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Parser",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "parse",
           "normalized": "String-\u003eString-\u003eEither Error[Ast]",
@@ -961,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "parseBy",
           "package": "preprocessor-tools",
@@ -970,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Parser",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "parseBy",
           "normalized": "SynSpec-\u003eString-\u003eString-\u003eEither Error[Ast]",
@@ -985,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "parseTokens",
           "package": "preprocessor-tools",
@@ -994,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Parser",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "parseTokens",
           "normalized": "[Token]-\u003eEither Error[Ast]",
@@ -1009,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "parseTokensBy",
           "package": "preprocessor-tools",
@@ -1018,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Parser",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "parseTokensBy",
           "normalized": "SynSpec-\u003e[Token]-\u003eEither Error[Ast]",
@@ -1033,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "quasi",
           "package": "preprocessor-tools",
@@ -1042,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Parser",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "quasi",
           "normalized": "String-\u003e[Ast]-\u003e[Ast]",
@@ -1056,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "quasiBy",
           "package": "preprocessor-tools",
@@ -1065,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Parser",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Parser",
           "name": "quasiBy",
           "normalized": "SynSpec-\u003eString-\u003e[Ast]-\u003e[Ast]",
@@ -1080,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Printer",
           "name": "Printer",
           "package": "preprocessor-tools",
@@ -1088,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Printer",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Printer",
           "name": "Printer",
           "package": "preprocessor-tools",
@@ -1101,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Printer",
           "name": "dump",
           "package": "preprocessor-tools",
@@ -1110,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Printer",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Printer",
           "name": "dump",
           "normalized": "(String-\u003ea())-\u003e[Ast]-\u003ea()",
@@ -1124,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "SynSpec",
           "package": "preprocessor-tools",
@@ -1132,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "SynSpec",
           "package": "preprocessor-tools",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "Keyword",
           "package": "preprocessor-tools",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "Keyword",
           "package": "preprocessor-tools",
@@ -1166,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "SynSpec",
           "package": "preprocessor-tools",
@@ -1174,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "SynSpec",
           "package": "preprocessor-tools",
@@ -1187,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "I",
           "package": "preprocessor-tools",
@@ -1196,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "I",
           "package": "preprocessor-tools",
@@ -1208,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "P",
           "package": "preprocessor-tools",
@@ -1217,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "P",
           "package": "preprocessor-tools",
@@ -1229,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "SynSpec",
           "package": "preprocessor-tools",
@@ -1238,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "SynSpec",
           "package": "preprocessor-tools",
@@ -1251,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "blocks",
           "package": "preprocessor-tools",
@@ -1260,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "blocks",
           "normalized": "[[Keyword]]",
@@ -1274,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "defaultSpec",
           "package": "preprocessor-tools",
@@ -1283,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "defaultSpec",
           "package": "preprocessor-tools",
@@ -1296,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "getKey",
           "package": "preprocessor-tools",
@@ -1305,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "getKey",
           "package": "preprocessor-tools",
@@ -1318,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "levelnest",
           "package": "preprocessor-tools",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "levelnest",
           "package": "preprocessor-tools",
@@ -1339,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "pair",
           "package": "preprocessor-tools",
@@ -1348,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "pair",
           "normalized": "String-\u003eString-\u003e[Keyword]",
@@ -1362,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "pragmas",
           "package": "preprocessor-tools",
@@ -1371,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "pragmas",
           "package": "preprocessor-tools",
@@ -1383,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "unboxed",
           "package": "preprocessor-tools",
@@ -1392,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor SynSpec",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.SynSpec",
           "name": "unboxed",
           "package": "preprocessor-tools",
@@ -1404,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Token",
           "package": "preprocessor-tools",
@@ -1412,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Token",
           "package": "preprocessor-tools",
@@ -1425,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Tag",
           "package": "preprocessor-tools",
@@ -1433,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Tag",
           "package": "preprocessor-tools",
@@ -1446,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Token",
           "package": "preprocessor-tools",
@@ -1454,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Token",
           "package": "preprocessor-tools",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "CPragma",
           "package": "preprocessor-tools",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "CPragma",
           "package": "preprocessor-tools",
@@ -1489,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "CharLit",
           "package": "preprocessor-tools",
@@ -1498,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "CharLit",
           "package": "preprocessor-tools",
@@ -1511,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Comment",
           "package": "preprocessor-tools",
@@ -1520,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Comment",
           "package": "preprocessor-tools",
@@ -1533,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Constructor",
           "package": "preprocessor-tools",
@@ -1542,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Constructor",
           "package": "preprocessor-tools",
@@ -1555,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Error",
           "package": "preprocessor-tools",
@@ -1564,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Error",
           "package": "preprocessor-tools",
@@ -1577,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "FloatLit",
           "package": "preprocessor-tools",
@@ -1586,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "FloatLit",
           "package": "preprocessor-tools",
@@ -1599,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "IntLit",
           "package": "preprocessor-tools",
@@ -1608,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "IntLit",
           "package": "preprocessor-tools",
@@ -1621,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Operator",
           "package": "preprocessor-tools",
@@ -1630,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Operator",
           "package": "preprocessor-tools",
@@ -1643,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Other",
           "package": "preprocessor-tools",
@@ -1652,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Other",
           "package": "preprocessor-tools",
@@ -1665,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "StringLit",
           "package": "preprocessor-tools",
@@ -1674,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "StringLit",
           "package": "preprocessor-tools",
@@ -1687,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Token",
           "package": "preprocessor-tools",
@@ -1696,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Token",
           "package": "preprocessor-tools",
@@ -1709,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "VDedent",
           "package": "preprocessor-tools",
@@ -1718,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "VDedent",
           "package": "preprocessor-tools",
@@ -1731,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "VIndent",
           "package": "preprocessor-tools",
@@ -1740,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "VIndent",
           "package": "preprocessor-tools",
@@ -1753,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "VSemi",
           "package": "preprocessor-tools",
@@ -1762,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "VSemi",
           "package": "preprocessor-tools",
@@ -1775,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Variable",
           "package": "preprocessor-tools",
@@ -1784,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "Variable",
           "package": "preprocessor-tools",
@@ -1797,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "com",
           "package": "preprocessor-tools",
@@ -1806,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "com",
           "normalized": "[Token]",
@@ -1820,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "loc",
           "package": "preprocessor-tools",
@@ -1829,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "loc",
           "package": "preprocessor-tools",
@@ -1841,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "newToken",
           "package": "preprocessor-tools",
@@ -1850,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "newToken",
           "package": "preprocessor-tools",
@@ -1863,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "tag",
           "package": "preprocessor-tools",
@@ -1872,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "tag",
           "package": "preprocessor-tools",
@@ -1884,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "val",
           "package": "preprocessor-tools",
@@ -1893,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Token",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Token",
           "name": "val",
           "package": "preprocessor-tools",
@@ -1905,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "Util",
           "package": "preprocessor-tools",
@@ -1913,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "Util",
           "package": "preprocessor-tools",
@@ -1926,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "noParens",
           "package": "preprocessor-tools",
@@ -1935,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "noParens",
           "normalized": "[Ast]-\u003eAst",
@@ -1950,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "parens",
           "package": "preprocessor-tools",
@@ -1959,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "parens",
           "normalized": "[Ast]-\u003eAst",
@@ -1973,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitAllBy",
           "package": "preprocessor-tools",
@@ -1982,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitAllBy",
           "normalized": "(Ast-\u003eBool)-\u003e[Ast]-\u003e[[Ast]]",
@@ -1997,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitBy",
           "package": "preprocessor-tools",
@@ -2006,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitBy",
           "normalized": "(Ast-\u003eBool)-\u003e[Ast]-\u003eMaybe([Ast],Ast,[Ast])",
@@ -2021,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitSemis",
           "package": "preprocessor-tools",
@@ -2030,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitSemis",
           "normalized": "[Ast]-\u003e[[Ast]]",
@@ -2045,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitTag",
           "package": "preprocessor-tools",
@@ -2054,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitTag",
           "normalized": "Tag-\u003e[Ast]-\u003eMaybe([Ast],Ast,[Ast])",
@@ -2069,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitVal",
           "package": "preprocessor-tools",
@@ -2078,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "splitVal",
           "normalized": "String-\u003e[Ast]-\u003eMaybe([Ast],Ast,[Ast])",
@@ -2093,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "tagIs",
           "package": "preprocessor-tools",
@@ -2102,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "tagIs",
           "normalized": "Tag-\u003eAst-\u003eBool",
@@ -2117,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "valIs",
           "package": "preprocessor-tools",
@@ -2126,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor Util",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor.Util",
           "name": "valIs",
           "normalized": "String-\u003eAst-\u003eBool",
@@ -2141,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "Preprocessor",
           "package": "preprocessor-tools",
@@ -2149,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "Preprocessor",
           "package": "preprocessor-tools",
@@ -2162,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "Extension",
           "package": "preprocessor-tools",
@@ -2170,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "Extension",
           "package": "preprocessor-tools",
@@ -2183,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "Locatable",
           "package": "preprocessor-tools",
@@ -2191,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "Locatable",
           "package": "preprocessor-tools",
@@ -2204,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "Extension",
           "package": "preprocessor-tools",
@@ -2213,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "Extension",
           "package": "preprocessor-tools",
@@ -2226,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "base",
           "package": "preprocessor-tools",
@@ -2235,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "base",
           "package": "preprocessor-tools",
@@ -2247,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "fileDump",
           "package": "preprocessor-tools",
@@ -2256,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "fileDump",
           "normalized": "SynSpec-\u003eString-\u003e[Ast]-\u003eIO()",
@@ -2271,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "fileLoad",
           "package": "preprocessor-tools",
@@ -2280,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "fileLoad",
           "normalized": "SynSpec-\u003eString-\u003eFilePath-\u003eIO(Either Error[Ast])",
@@ -2295,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "getLoc",
           "package": "preprocessor-tools",
@@ -2304,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "getLoc",
           "normalized": "a-\u003eLoc",
@@ -2319,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "hDump",
           "package": "preprocessor-tools",
@@ -2328,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "hDump",
           "normalized": "SynSpec-\u003eHandle-\u003e[Ast]-\u003eIO()",
@@ -2343,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "hLoad",
           "package": "preprocessor-tools",
@@ -2352,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "hLoad",
           "normalized": "SynSpec-\u003eString-\u003eHandle-\u003eIO(Either Error[Ast])",
@@ -2367,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "keywords",
           "package": "preprocessor-tools",
@@ -2376,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "keywords",
           "normalized": "[[Keyword]]",
@@ -2390,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "setLoc",
           "package": "preprocessor-tools",
@@ -2399,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "setLoc",
           "normalized": "a-\u003eLoc-\u003ea",
@@ -2414,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "stdinLoad",
           "package": "preprocessor-tools",
@@ -2423,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "stdinLoad",
           "normalized": "SynSpec-\u003eIO(Either Error[Ast])",
@@ -2438,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "stdoutDump",
           "package": "preprocessor-tools",
@@ -2447,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "stdoutDump",
           "normalized": "SynSpec-\u003e[Ast]-\u003eIO()",
@@ -2462,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "stringDump",
           "package": "preprocessor-tools",
@@ -2471,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "stringDump",
           "normalized": "SynSpec-\u003e[Ast]-\u003eString",
@@ -2486,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "synspec",
           "package": "preprocessor-tools",
@@ -2495,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "synspec",
           "package": "preprocessor-tools",
@@ -2507,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "syntaxerror",
           "package": "preprocessor-tools",
@@ -2516,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "syntaxerror",
           "normalized": "Maybe(Error-\u003eIO())",
@@ -2530,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "transform",
           "package": "preprocessor-tools",
@@ -2539,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "transform",
           "normalized": "Extension-\u003e[String]-\u003eIO()",
@@ -2553,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "transformer",
           "package": "preprocessor-tools",
@@ -2562,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "transformer",
           "normalized": "[Ast]-\u003eIO[Ast]",
@@ -2576,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:19 UTC 2014",
           "module": "Language.Haskell.Preprocessor",
           "name": "usage",
           "package": "preprocessor-tools",
@@ -2585,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Preprocessor",
+          "indexed": "2014-03-11T19:43:19",
           "module": "Language.Haskell.Preprocessor",
           "name": "usage",
           "normalized": "Maybe(IO())",

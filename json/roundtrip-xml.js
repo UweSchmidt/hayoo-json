@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "roundtrip-xml"
+        "phrase": "roundtrip-xml",
+        "type": "phrase"
       },
       "type": "context"
     }

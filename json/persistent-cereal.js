@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-cereal"
+        "phrase": "persistent-cereal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWarning: this module uses \u003ccode\u003eUndecidableInstances\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:35 UTC 2014",
           "module": "Database.Persist.Cereal.Instances",
           "name": "Instances",
           "package": "persistent-cereal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Warning this module uses UndecidableInstances",
           "hierarchy": "Database Persist Cereal Instances",
+          "indexed": "2014-03-11T19:37:35",
           "module": "Database.Persist.Cereal.Instances",
           "name": "Instances",
           "package": "persistent-cereal",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:35 UTC 2014",
           "module": "Database.Persist.Cereal",
           "name": "Cereal",
           "package": "persistent-cereal",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Cereal",
+          "indexed": "2014-03-11T19:37:35",
           "module": "Database.Persist.Cereal",
           "name": "Cereal",
           "package": "persistent-cereal",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:35 UTC 2014",
           "module": "Database.Persist.Cereal",
           "name": "fromPersistValue",
           "package": "persistent-cereal",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Cereal",
+          "indexed": "2014-03-11T19:37:35",
           "module": "Database.Persist.Cereal",
           "name": "fromPersistValue",
           "normalized": "PersistValue-\u003eEither Text a",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:35 UTC 2014",
           "module": "Database.Persist.Cereal",
           "name": "toPersistValue",
           "package": "persistent-cereal",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Cereal",
+          "indexed": "2014-03-11T19:37:35",
           "module": "Database.Persist.Cereal",
           "name": "toPersistValue",
           "normalized": "a-\u003ePersistValue",

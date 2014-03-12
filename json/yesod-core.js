@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-core"
+        "phrase": "yesod-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "Content",
           "package": "yesod-core",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "Content",
           "package": "yesod-core",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "Content",
           "package": "yesod-core",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "Content",
           "package": "yesod-core",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "ContentType",
           "package": "yesod-core",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "ContentType",
           "package": "yesod-core",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrevents a response body from being fully evaluated before sending the\n request.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "DontFullyEvaluate",
           "package": "yesod-core",
@@ -91,6 +98,7 @@
         "index": {
           "description": "Prevents response body from being fully evaluated before sending the request Since",
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "DontFullyEvaluate",
           "package": "yesod-core",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "HasContentType",
           "package": "yesod-core",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "HasContentType",
           "package": "yesod-core",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use Html instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "RepHtml",
           "package": "yesod-core",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Deprecated Please use Html instead",
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "RepHtml",
           "package": "yesod-core",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "RepJson",
           "package": "yesod-core",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "RepJson",
           "package": "yesod-core",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "RepPlain",
           "package": "yesod-core",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "RepPlain",
           "package": "yesod-core",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "RepXml",
           "package": "yesod-core",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "RepXml",
           "package": "yesod-core",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnything which can be converted into \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e. Most of the time, you will\n want to use the \u003ccode\u003e\u003ca\u003eContentBuilder\u003c/a\u003e\u003c/code\u003e constructor. An easier approach will be to use\n a pre-defined \u003ccode\u003e\u003ca\u003etoContent\u003c/a\u003e\u003c/code\u003e function, such as converting your data into a lazy\n bytestring and then calling \u003ccode\u003e\u003ca\u003etoContent\u003c/a\u003e\u003c/code\u003e on that.\n\u003c/p\u003e\u003cp\u003ePlease note that the built-in instances for lazy data structures (\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e,\n lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e) will not automatically include\n the content length for the \u003ccode\u003e\u003ca\u003eContentBuilder\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "ToContent",
           "package": "yesod-core",
@@ -221,6 +240,7 @@
         "index": {
           "description": "Anything which can be converted into Content Most of the time you will want to use the ContentBuilder constructor An easier approach will be to use pre-defined toContent function such as converting your data into lazy bytestring and then calling toContent on that Please note that the built-in instances for lazy data structures String lazy ByteString lazy Text and Html will not automatically include the content length for the ContentBuilder constructor",
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "ToContent",
           "package": "yesod-core",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for all data which can be sent in a streaming response. Note that\n for textual data, instances must use UTF-8 encoding.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "ToFlushBuilder",
           "package": "yesod-core",
@@ -244,6 +265,7 @@
         "index": {
           "description": "class for all data which can be sent in streaming response Note that for textual data instances must use UTF-8 encoding Since",
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "ToFlushBuilder",
           "package": "yesod-core",
@@ -258,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny type which can be converted to \u003ccode\u003e\u003ca\u003eTypedContent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "ToTypedContent",
           "package": "yesod-core",
@@ -267,6 +290,7 @@
         "index": {
           "description": "Any type which can be converted to TypedContent Since",
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "ToTypedContent",
           "package": "yesod-core",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "TypedContent",
           "package": "yesod-core",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "TypedContent",
           "package": "yesod-core",
@@ -510,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "contentTypeTypes",
           "package": "yesod-core",
@@ -519,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "contentTypeTypes",
           "normalized": "ContentType-\u003e(ByteString,ByteString)",
@@ -535,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-length enumerator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "emptyContent",
           "package": "yesod-core",
@@ -545,6 +574,7 @@
         "index": {
           "description": "Zero-length enumerator",
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "emptyContent",
           "package": "yesod-core",
@@ -558,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "getContentType",
           "package": "yesod-core",
@@ -567,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "getContentType",
           "normalized": "a b-\u003eContentType",
@@ -582,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "repJson",
           "package": "yesod-core",
@@ -591,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "repJson",
           "normalized": "a-\u003eRepJson",
@@ -606,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "repPlain",
           "package": "yesod-core",
@@ -615,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "repPlain",
           "normalized": "a-\u003eRepPlain",
@@ -630,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "repXml",
           "package": "yesod-core",
@@ -639,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "repXml",
           "normalized": "a-\u003eRepXml",
@@ -655,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves \"extra\" information at the end of a content type string. In\n particular, removes everything after the semicolon, if present.\n\u003c/p\u003e\u003cp\u003eFor example, \"text/html; charset=utf-8\" is commonly used to specify the\n character encoding for HTML data. This function would return \"text/html\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "simpleContentType",
           "package": "yesod-core",
@@ -665,6 +704,7 @@
         "index": {
           "description": "Removes extra information at the end of content type string In particular removes everything after the semicolon if present For example text html charset utf-8 is commonly used to specify the character encoding for HTML data This function would return text html",
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "simpleContentType",
           "normalized": "ContentType-\u003eContentType",
@@ -680,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "toContent",
           "package": "yesod-core",
@@ -689,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "toContent",
           "normalized": "a-\u003eContent",
@@ -704,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "toFlushBuilder",
           "package": "yesod-core",
@@ -713,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "toFlushBuilder",
           "normalized": "a-\u003eFlush Builder",
@@ -728,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "toTypedContent",
           "package": "yesod-core",
@@ -737,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "toTypedContent",
           "normalized": "a-\u003eTypedContent",
@@ -752,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeAtom",
           "package": "yesod-core",
@@ -761,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeAtom",
           "package": "yesod-core",
@@ -774,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeCss",
           "package": "yesod-core",
@@ -783,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeCss",
           "package": "yesod-core",
@@ -796,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeFlv",
           "package": "yesod-core",
@@ -805,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeFlv",
           "package": "yesod-core",
@@ -818,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeGif",
           "package": "yesod-core",
@@ -827,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeGif",
           "package": "yesod-core",
@@ -840,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeHtml",
           "package": "yesod-core",
@@ -849,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeHtml",
           "package": "yesod-core",
@@ -862,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeJavascript",
           "package": "yesod-core",
@@ -871,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeJavascript",
           "package": "yesod-core",
@@ -884,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeJpeg",
           "package": "yesod-core",
@@ -893,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeJpeg",
           "package": "yesod-core",
@@ -906,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeJson",
           "package": "yesod-core",
@@ -915,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeJson",
           "package": "yesod-core",
@@ -928,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeOctet",
           "package": "yesod-core",
@@ -937,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeOctet",
           "package": "yesod-core",
@@ -950,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeOgv",
           "package": "yesod-core",
@@ -959,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeOgv",
           "package": "yesod-core",
@@ -972,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typePlain",
           "package": "yesod-core",
@@ -981,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typePlain",
           "package": "yesod-core",
@@ -994,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typePng",
           "package": "yesod-core",
@@ -1003,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typePng",
           "package": "yesod-core",
@@ -1016,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeRss",
           "package": "yesod-core",
@@ -1025,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeRss",
           "package": "yesod-core",
@@ -1038,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeSvg",
           "package": "yesod-core",
@@ -1047,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeSvg",
           "package": "yesod-core",
@@ -1060,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Content",
           "name": "typeXml",
           "package": "yesod-core",
@@ -1069,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Content",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Content",
           "name": "typeXml",
           "package": "yesod-core",
@@ -1105,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "Dispatch",
           "package": "yesod-core",
@@ -1113,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "Dispatch",
           "package": "yesod-core",
@@ -1126,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "PathMultiPiece",
           "package": "yesod-core",
@@ -1133,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "PathMultiPiece",
           "package": "yesod-core",
@@ -1146,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "PathPiece",
           "package": "yesod-core",
@@ -1153,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "PathPiece",
           "package": "yesod-core",
@@ -1166,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "Texts",
           "package": "yesod-core",
@@ -1174,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "Texts",
           "package": "yesod-core",
@@ -1188,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a normal WAI application as a Yesod subsite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "WaiSubsite",
           "package": "yesod-core",
@@ -1197,6 +1282,7 @@
         "index": {
           "description": "Wrap up normal WAI application as Yesod subsite",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "WaiSubsite",
           "package": "yesod-core",
@@ -1233,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "fromPathMultiPiece",
           "package": "yesod-core",
@@ -1241,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "fromPathMultiPiece",
           "normalized": "[Text]-\u003eMaybe a",
@@ -1256,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "fromPathPiece",
           "package": "yesod-core",
@@ -1264,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "fromPathPiece",
           "normalized": "Text-\u003eMaybe a",
@@ -1280,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default set of middlewares.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "mkDefaultMiddlewares",
           "package": "yesod-core",
@@ -1290,6 +1381,7 @@
         "index": {
           "description": "default set of middlewares Since",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "mkDefaultMiddlewares",
           "normalized": "Logger-\u003eIO Middleware",
@@ -1306,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates URL datatype and site function for the given \u003ccode\u003e\u003ca\u003eResource\u003c/a\u003e\u003c/code\u003es. This\n is used for creating sites, \u003cem\u003enot\u003c/em\u003e subsites. See \u003ccode\u003emkYesodSub\u003c/code\u003e for the latter.\n Use \u003ccode\u003e\u003ca\u003eparseRoutes\u003c/a\u003e\u003c/code\u003e to create the \u003ccode\u003e\u003ca\u003eResource\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesod",
           "package": "yesod-core",
@@ -1315,6 +1408,7 @@
         "index": {
           "description": "Generates URL datatype and site function for the given Resource This is used for creating sites not subsites See mkYesodSub for the latter Use parseRoutes to create the Resource",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesod",
           "normalized": "String-\u003e[ResourceTree String]-\u003eQ[Dec]",
@@ -1331,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes, you will want to declare your routes in one file and define\n your handlers elsewhere. For example, this is the only way to break up a\n monolithic file into smaller parts. Use this function, paired with\n \u003ccode\u003e\u003ca\u003emkYesodDispatch\u003c/a\u003e\u003c/code\u003e, to do just that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesodData",
           "package": "yesod-core",
@@ -1341,6 +1436,7 @@
         "index": {
           "description": "Sometimes you will want to declare your routes in one file and define your handlers elsewhere For example this is the only way to break up monolithic file into smaller parts Use this function paired with mkYesodDispatch to do just that",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesodData",
           "normalized": "String-\u003e[ResourceTree String]-\u003eQ[Dec]",
@@ -1357,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003emkYesodData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesodDispatch",
           "package": "yesod-core",
@@ -1367,6 +1464,7 @@
         "index": {
           "description": "See mkYesodData",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesodDispatch",
           "normalized": "String-\u003e[ResourceTree String]-\u003eQ[Dec]",
@@ -1382,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesodSubData",
           "package": "yesod-core",
@@ -1391,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesodSubData",
           "normalized": "String-\u003e[ResourceTree String]-\u003eQ[Dec]",
@@ -1406,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesodSubDispatch",
           "package": "yesod-core",
@@ -1415,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "mkYesodSubDispatch",
           "normalized": "[ResourceTree a]-\u003eQ Exp",
@@ -1431,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quasi-quoter to parse a string into a list of \u003ccode\u003e\u003ca\u003eResource\u003c/a\u003e\u003c/code\u003es. Checks for\n overlapping routes, failing if present; use \u003ccode\u003e\u003ca\u003eparseRoutesNoCheck\u003c/a\u003e\u003c/code\u003e to skip the\n checking. See documentation site for details on syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "parseRoutes",
           "package": "yesod-core",
@@ -1440,6 +1543,7 @@
         "index": {
           "description": "quasi-quoter to parse string into list of Resource Checks for overlapping routes failing if present use parseRoutesNoCheck to skip the checking See documentation site for details on syntax",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "parseRoutes",
           "package": "yesod-core",
@@ -1453,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "parseRoutesFile",
           "package": "yesod-core",
@@ -1461,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "parseRoutesFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1476,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "parseRoutesFileNoCheck",
           "package": "yesod-core",
@@ -1484,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "parseRoutesFileNoCheck",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1500,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eparseRoutes\u003c/a\u003e\u003c/code\u003e, but performs no overlap checking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "parseRoutesNoCheck",
           "package": "yesod-core",
@@ -1509,6 +1618,7 @@
         "index": {
           "description": "Same as parseRoutes but performs no overlap checking",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "parseRoutesNoCheck",
           "package": "yesod-core",
@@ -1545,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "toPathMultiPiece",
           "package": "yesod-core",
@@ -1553,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "toPathMultiPiece",
           "normalized": "a-\u003e[Text]",
@@ -1568,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "toPathPiece",
           "package": "yesod-core",
@@ -1576,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "toPathPiece",
           "normalized": "a-\u003eText",
@@ -1592,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003etoWaiAppPlain\u003c/a\u003e\u003c/code\u003e, but provides a default set of middlewares. This\n set may change with future releases, but currently covers:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Logging\n\u003c/li\u003e\u003cli\u003e GZIP compression\n\u003c/li\u003e\u003cli\u003e Automatic HEAD method handling\n\u003c/li\u003e\u003cli\u003e Request method override with the _method query string parameter\n\u003c/li\u003e\u003cli\u003e Accept header override with the _accept query string parameter\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "toWaiApp",
           "package": "yesod-core",
@@ -1602,6 +1717,7 @@
         "index": {
           "description": "Same as toWaiAppPlain but provides default set of middlewares This set may change with future releases but currently covers Logging GZIP compression Automatic HEAD method handling Request method override with the method query string parameter Accept header override with the accept query string parameter",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "toWaiApp",
           "normalized": "a-\u003eIO Application",
@@ -1618,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the given argument into a WAI application, executable with any WAI\n handler. This function will provide no middlewares; if you want commonly\n used middlewares, please use \u003ccode\u003e\u003ca\u003etoWaiApp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "toWaiAppPlain",
           "package": "yesod-core",
@@ -1628,6 +1745,7 @@
         "index": {
           "description": "Convert the given argument into WAI application executable with any WAI handler This function will provide no middlewares if you want commonly used middlewares please use toWaiApp",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "toWaiAppPlain",
           "normalized": "a-\u003eIO Application",
@@ -1644,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience method to run an application using the Warp webserver on the\n specified port. Automatically calls \u003ccode\u003e\u003ca\u003etoWaiApp\u003c/a\u003e\u003c/code\u003e. Provides a default set of\n middlewares. This set may change at any point without a breaking version\n number. Currently, it includes:\n\u003c/p\u003e\u003cp\u003eIf you need more fine-grained control of middlewares, please use \u003ccode\u003e\u003ca\u003etoWaiApp\u003c/a\u003e\u003c/code\u003e\n directly.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "warp",
           "package": "yesod-core",
@@ -1654,6 +1773,7 @@
         "index": {
           "description": "convenience method to run an application using the Warp webserver on the specified port Automatically calls toWaiApp Provides default set of middlewares This set may change at any point without breaking version number Currently it includes If you need more fine-grained control of middlewares please use toWaiApp directly Since",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "warp",
           "normalized": "Int-\u003ea-\u003eIO()",
@@ -1669,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use warp instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated synonym for \u003ccode\u003e\u003ca\u003ewarp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "warpDebug",
           "package": "yesod-core",
@@ -1679,6 +1800,7 @@
         "index": {
           "description": "Deprecated Please use warp instead Deprecated synonym for warp",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "warpDebug",
           "normalized": "Int-\u003ea-\u003eIO()",
@@ -1695,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns your application using default middlewares (i.e., via \u003ccode\u003e\u003ca\u003etoWaiApp\u003c/a\u003e\u003c/code\u003e). It\n reads port information from the PORT environment variable, as used by tools\n such as Keter and the FP Complete School of Haskell.\n\u003c/p\u003e\u003cp\u003eNote that the exact behavior of this function may be modified slightly over\n time to work correctly with external tools, without a change to the type\n signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Dispatch",
           "name": "warpEnv",
           "package": "yesod-core",
@@ -1705,6 +1828,7 @@
         "index": {
           "description": "Runs your application using default middlewares i.e via toWaiApp It reads port information from the PORT environment variable as used by tools such as Keter and the FP Complete School of Haskell Note that the exact behavior of this function may be modified slightly over time to work correctly with external tools without change to the type signature",
           "hierarchy": "Yesod Core Dispatch",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Dispatch",
           "name": "warpEnv",
           "normalized": "a-\u003eIO()",
@@ -1720,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "Handler",
           "package": "yesod-core",
@@ -1728,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "Handler",
           "package": "yesod-core",
@@ -1741,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "FileInfo",
           "package": "yesod-core",
@@ -1749,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "FileInfo",
           "package": "yesod-core",
@@ -1763,6 +1891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic handler monad, which can have a different subsite and master\n site. We define a newtype for better error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "HandlerT",
           "package": "yesod-core",
@@ -1772,6 +1901,7 @@
         "index": {
           "description": "generic handler monad which can have different subsite and master site We define newtype for better error message",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "HandlerT",
           "package": "yesod-core",
@@ -1786,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal representation of a single provided representation.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "ProvidedRep",
           "package": "yesod-core",
@@ -1795,6 +1926,7 @@
         "index": {
           "description": "Internal representation of single provided representation Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "ProvidedRep",
           "package": "yesod-core",
@@ -1809,6 +1941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome value which can be turned into a URL for redirects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "RedirectUrl",
           "package": "yesod-core",
@@ -1818,6 +1951,7 @@
         "index": {
           "description": "Some value which can be turned into URL for redirects",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "RedirectUrl",
           "package": "yesod-core",
@@ -1832,6 +1966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple containing both the POST parameters and submitted files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "RequestBodyContents",
           "package": "yesod-core",
@@ -1841,6 +1976,7 @@
         "index": {
           "description": "tuple containing both the POST parameters and submitted files",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "RequestBodyContents",
           "package": "yesod-core",
@@ -1854,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "SessionMap",
           "package": "yesod-core",
@@ -1862,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "SessionMap",
           "package": "yesod-core",
@@ -1876,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parsed request information. This type augments the standard WAI\n \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e with additional information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "YesodRequest",
           "package": "yesod-core",
@@ -1885,6 +2024,7 @@
         "index": {
           "description": "The parsed request information This type augments the standard WAI Request with additional information",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "YesodRequest",
           "package": "yesod-core",
@@ -1922,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an arbitrary response header.\n\u003c/p\u003e\u003cp\u003eNote that, while the data type used here is \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, you must provide only\n ASCII value to be HTTP compliant.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "addHeader",
           "package": "yesod-core",
@@ -1932,6 +2073,7 @@
         "index": {
           "description": "Set an arbitrary response header Note that while the data type used here is Text you must provide only ASCII value to be HTTP compliant Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "addHeader",
           "normalized": "Text-\u003eText-\u003ea()",
@@ -1948,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an Expires header in the past, meaning this content should not be\n cached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "alreadyExpired",
           "package": "yesod-core",
@@ -1958,6 +2101,7 @@
         "index": {
           "description": "Set an Expires header in the past meaning this content should not be cached",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "alreadyExpired",
           "normalized": "a()",
@@ -1974,6 +2118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a 405 method not supported page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "badMethod",
           "package": "yesod-core",
@@ -1984,6 +2129,7 @@
         "index": {
           "description": "Return method not supported page",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "badMethod",
           "package": "yesod-core",
@@ -1998,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Cache-Control header to indicate this response should be cached\n for the given number of seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "cacheSeconds",
           "package": "yesod-core",
@@ -2008,6 +2155,7 @@
         "index": {
           "description": "Set the Cache-Control header to indicate this response should be cached for the given number of seconds",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "cacheSeconds",
           "normalized": "Int-\u003ea()",
@@ -2024,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a per-request cache to avoid performing the same action multiple\n times. Note that values are stored by their type. Therefore, you should use\n newtype wrappers to distinguish logically different types.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "cached",
           "package": "yesod-core",
@@ -2034,6 +2183,7 @@
         "index": {
           "description": "Use per-request cache to avoid performing the same action multiple times Note that values are stored by their type Therefore you should use newtype wrappers to distinguish logically different types Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "cached",
           "normalized": "a b-\u003ea b",
@@ -2049,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear all session variables.\n\u003c/p\u003e\u003cp\u003eSince: 1.0.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "clearSession",
           "package": "yesod-core",
@@ -2059,6 +2210,7 @@
         "index": {
           "description": "Clear all session variables Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "clearSession",
           "normalized": "a()",
@@ -2075,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a previously set ultimate destination. See \u003ccode\u003e\u003ca\u003esetUltDest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "clearUltDest",
           "package": "yesod-core",
@@ -2085,6 +2238,7 @@
         "index": {
           "description": "Remove previously set ultimate destination See setUltDest",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "clearUltDest",
           "normalized": "a()",
@@ -2101,6 +2255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnset the cookie on the client.\n\u003c/p\u003e\u003cp\u003eNote: although the value used for key and path is \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, you should only\n use ASCII values to be HTTP compliant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "deleteCookie",
           "package": "yesod-core",
@@ -2110,6 +2265,7 @@
         "index": {
           "description": "Unset the cookie on the client Note although the value used for key and path is Text you should only use ASCII values to be HTTP compliant",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "deleteCookie",
           "normalized": "Text-\u003eText-\u003ea()",
@@ -2126,6 +2282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsets a session variable. See \u003ccode\u003e\u003ca\u003esetSession\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "deleteSession",
           "package": "yesod-core",
@@ -2136,6 +2293,7 @@
         "index": {
           "description": "Unsets session variable See setSession",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "deleteSession",
           "normalized": "Text-\u003ea()",
@@ -2152,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an Expires header to the given date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "expiresAt",
           "package": "yesod-core",
@@ -2162,6 +2321,7 @@
         "index": {
           "description": "Set an Expires header to the given date",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "expiresAt",
           "normalized": "UTCTime-\u003ea()",
@@ -2177,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "fileContentType",
           "package": "yesod-core",
@@ -2186,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "fileContentType",
           "normalized": "FileInfo-\u003eText",
@@ -2201,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "fileMove",
           "package": "yesod-core",
@@ -2210,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "fileMove",
           "normalized": "FileInfo-\u003eFilePath-\u003eIO()",
@@ -2225,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "fileName",
           "package": "yesod-core",
@@ -2234,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "fileName",
           "normalized": "FileInfo-\u003eText",
@@ -2250,6 +2416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream the data from the file. Since Yesod 1.2, this has been generalized\n to work in any \u003ccode\u003eMonadResource\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "fileSource",
           "package": "yesod-core",
@@ -2260,6 +2427,7 @@
         "index": {
           "description": "Stream the data from the file Since Yesod this has been generalized to work in any MonadResource",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "fileSource",
           "normalized": "FileInfo-\u003eSource a ByteString",
@@ -2276,6 +2444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the route requested by the user. If this is a 404 response- where the\n user requested an invalid route- this function will return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getCurrentRoute",
           "package": "yesod-core",
@@ -2286,6 +2455,7 @@
         "index": {
           "description": "Get the route requested by the user If this is response where the user requested an invalid route this function will return Nothing",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getCurrentRoute",
           "package": "yesod-core",
@@ -2300,6 +2470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for setCookieExpires value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getExpires",
           "package": "yesod-core",
@@ -2309,6 +2480,7 @@
         "index": {
           "description": "Helper function for setCookieExpires value",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getExpires",
           "normalized": "Int-\u003ea UTCTime",
@@ -2325,6 +2497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the message in the user's session, if available, and then clears the\n variable.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003esetMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getMessage",
           "package": "yesod-core",
@@ -2335,6 +2508,7 @@
         "index": {
           "description": "Gets the message in the user session if available and then clears the variable See setMessage",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getMessage",
           "package": "yesod-core",
@@ -2348,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getMessageRender",
           "package": "yesod-core",
@@ -2357,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getMessageRender",
           "normalized": "a(b-\u003eText)",
@@ -2372,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getRequest",
           "package": "yesod-core",
@@ -2381,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getRequest",
           "package": "yesod-core",
@@ -2395,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all session variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getSession",
           "package": "yesod-core",
@@ -2405,6 +2584,7 @@
         "index": {
           "description": "Get all session variables",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getSession",
           "package": "yesod-core",
@@ -2419,6 +2599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the URL rendering function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getUrlRender",
           "package": "yesod-core",
@@ -2429,6 +2610,7 @@
         "index": {
           "description": "Get the URL rendering function",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getUrlRender",
           "normalized": "a(Route(HandlerSite a)-\u003eText)",
@@ -2445,6 +2627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL rendering function with query-string parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getUrlRenderParams",
           "package": "yesod-core",
@@ -2455,6 +2638,7 @@
         "index": {
           "description": "The URL rendering function with query-string parameters",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getUrlRenderParams",
           "normalized": "a(Route(HandlerSite a)-\u003e[(Text,Text)]-\u003eText)",
@@ -2471,6 +2655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the master site appliation argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "getYesod",
           "package": "yesod-core",
@@ -2481,6 +2666,7 @@
         "index": {
           "description": "Get the master site appliation argument",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "getYesod",
           "package": "yesod-core",
@@ -2495,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a URL rendering function to the given function and return the\n result. Useful for processing Shakespearean templates.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "giveUrlRenderer",
           "package": "yesod-core",
@@ -2505,6 +2692,7 @@
         "index": {
           "description": "Provide URL rendering function to the given function and return the result Useful for processing Shakespearean templates Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "giveUrlRenderer",
           "normalized": "((Route(HandlerSite a)-\u003e[(Text,Text)]-\u003eText)-\u003eb)-\u003ea b",
@@ -2521,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use giveUrlRenderer instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eWraps the \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e generated by \u003ccode\u003ehamletToContent\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eRepHtml\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "hamletToRepHtml",
           "package": "yesod-core",
@@ -2531,6 +2720,7 @@
         "index": {
           "description": "Deprecated Use giveUrlRenderer instead Wraps the Content generated by hamletToContent in RepHtml",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "hamletToRepHtml",
           "normalized": "HtmlUrl(Route(HandlerSite a))-\u003ea Html",
@@ -2547,6 +2737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a function that runs \u003ccode\u003e\u003ca\u003eHandlerT\u003c/a\u003e\u003c/code\u003e actions inside \u003ccode\u003eIO\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSometimes you want to run an inner \u003ccode\u003e\u003ca\u003eHandlerT\u003c/a\u003e\u003c/code\u003e action outside\n the control flow of an HTTP request (on the outer \u003ccode\u003e\u003ca\u003eHandlerT\u003c/a\u003e\u003c/code\u003e\n action).  For example, you may want to spawn a new thread:\n\u003c/p\u003e\u003cpre\u003e\n getFooR :: Handler RepHtml\n getFooR = do\n   runInnerHandler \u003c- handlerToIO\n   liftIO $ forkIO $ runInnerHandler $ do\n     \u003cem\u003eCode here runs inside GHandler but on a new thread.\u003c/em\u003e\n     \u003cem\u003eThis is the inner GHandler.\u003c/em\u003e\n     ...\n   \u003cem\u003eCode here runs inside the request's control flow.\u003c/em\u003e\n   \u003cem\u003eThis is the outer GHandler.\u003c/em\u003e\n   ...\n\u003c/pre\u003e\u003cp\u003eAnother use case for this function is creating a stream of\n server-sent events using \u003ccode\u003eGHandler\u003c/code\u003e actions (see\n \u003ccode\u003eyesod-eventsource\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eMost of the environment from the outer \u003ccode\u003eGHandler\u003c/code\u003e is preserved\n on the inner \u003ccode\u003eGHandler\u003c/code\u003e, however:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The request body is cleared (otherwise it would be very\n  difficult to prevent huge memory leaks).\n\u003c/li\u003e\u003cli\u003e The cache is cleared (see \u003ccode\u003eCacheKey\u003c/code\u003e).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eChanges to the response made inside the inner \u003ccode\u003eGHandler\u003c/code\u003e are\n ignored (e.g., session variables, cookies, response headers).\n This allows the inner \u003ccode\u003eGHandler\u003c/code\u003e to outlive the outer\n \u003ccode\u003eGHandler\u003c/code\u003e (e.g., on the \u003ccode\u003eforkIO\u003c/code\u003e example above, a response\n may be sent to the client without killing the new thread).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "handlerToIO",
           "package": "yesod-core",
@@ -2557,6 +2748,7 @@
         "index": {
           "description": "Returns function that runs HandlerT actions inside IO Sometimes you want to run an inner HandlerT action outside the control flow of an HTTP request on the outer HandlerT action For example you may want to spawn new thread getFooR Handler RepHtml getFooR do runInnerHandler handlerToIO liftIO forkIO runInnerHandler do Code here runs inside GHandler but on new thread This is the inner GHandler Code here runs inside the request control flow This is the outer GHandler Another use case for this function is creating stream of server-sent events using GHandler actions see yesod-eventsource Most of the environment from the outer GHandler is preserved on the inner GHandler however The request body is cleared otherwise it would be very difficult to prevent huge memory leaks The cache is cleared see CacheKey Changes to the response made inside the inner GHandler are ignored e.g session variables cookies response headers This allows the inner GHandler to outlive the outer GHandler e.g on the forkIO example above response may be sent to the client without killing the new thread",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "handlerToIO",
           "normalized": "HandlerT a b(HandlerT a IO c-\u003eb c)",
@@ -2573,6 +2765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a 400 invalid arguments page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "invalidArgs",
           "package": "yesod-core",
@@ -2583,6 +2776,7 @@
         "index": {
           "description": "Return invalid arguments page",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "invalidArgs",
           "normalized": "[Text]-\u003ea b",
@@ -2599,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a 400 invalid arguments page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "invalidArgsI",
           "package": "yesod-core",
@@ -2609,6 +2804,7 @@
         "index": {
           "description": "Return invalid arguments page",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "invalidArgsI",
           "normalized": "[a]-\u003eb c",
@@ -2625,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of supported languages supplied by the user.\n\u003c/p\u003e\u003cp\u003eLanguages are determined based on the following three (in descending order\n of preference):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The _LANG get parameter.\n\u003c/li\u003e\u003cli\u003e The _LANG cookie.\n\u003c/li\u003e\u003cli\u003e The _LANG user session variable.\n\u003c/li\u003e\u003cli\u003e Accept-Language HTTP header.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eYesod will seek the first language from the returned list matched with languages supporting by your application. This language will be used to render i18n templates.\n If a matching language is not found the default language will be used.\n\u003c/p\u003e\u003cp\u003eThis is handled by parseWaiRequest (not exposed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "languages",
           "package": "yesod-core",
@@ -2635,6 +2832,7 @@
         "index": {
           "description": "Get the list of supported languages supplied by the user Languages are determined based on the following three in descending order of preference The LANG get parameter The LANG cookie The LANG user session variable Accept-Language HTTP header Yesod will seek the first language from the returned list matched with languages supporting by your application This language will be used to render i18n templates If matching language is not found the default language will be used This is handled by parseWaiRequest not exposed",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "languages",
           "normalized": "a[Text]",
@@ -2650,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for cookie data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupCookie",
           "package": "yesod-core",
@@ -2660,6 +2859,7 @@
         "index": {
           "description": "Lookup for cookie data",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupCookie",
           "normalized": "Text-\u003ea(Maybe Text)",
@@ -2676,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for cookie data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupCookies",
           "package": "yesod-core",
@@ -2686,6 +2887,7 @@
         "index": {
           "description": "Lookup for cookie data",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupCookies",
           "normalized": "Text-\u003ea[Text]",
@@ -2702,6 +2904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for POSTed files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupFile",
           "package": "yesod-core",
@@ -2712,6 +2915,7 @@
         "index": {
           "description": "Lookup for POSTed files",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupFile",
           "normalized": "Text-\u003ea(Maybe FileInfo)",
@@ -2728,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for POSTed files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupFiles",
           "package": "yesod-core",
@@ -2738,6 +2943,7 @@
         "index": {
           "description": "Lookup for POSTed files",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupFiles",
           "normalized": "Text-\u003ea[FileInfo]",
@@ -2754,6 +2960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for GET parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupGetParam",
           "package": "yesod-core",
@@ -2764,6 +2971,7 @@
         "index": {
           "description": "Lookup for GET parameters",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupGetParam",
           "normalized": "Text-\u003ea(Maybe Text)",
@@ -2780,6 +2988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for GET parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupGetParams",
           "package": "yesod-core",
@@ -2790,6 +2999,7 @@
         "index": {
           "description": "Lookup for GET parameters",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupGetParams",
           "normalized": "Text-\u003ea[Text]",
@@ -2806,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a request header.\n\u003c/p\u003e\u003cp\u003eSince 1.2.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupHeader",
           "package": "yesod-core",
@@ -2816,6 +3027,7 @@
         "index": {
           "description": "Lookup request header Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupHeader",
           "normalized": "CI ByteString-\u003ea(Maybe ByteString)",
@@ -2832,6 +3044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a request header.\n\u003c/p\u003e\u003cp\u003eSince 1.2.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupHeaders",
           "package": "yesod-core",
@@ -2842,6 +3055,7 @@
         "index": {
           "description": "Lookup request header Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupHeaders",
           "normalized": "CI ByteString-\u003ea[ByteString]",
@@ -2857,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupPostParam",
           "package": "yesod-core",
@@ -2866,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupPostParam",
           "normalized": "Text-\u003ea(Maybe Text)",
@@ -2882,6 +3098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for POST parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupPostParams",
           "package": "yesod-core",
@@ -2892,6 +3109,7 @@
         "index": {
           "description": "Lookup for POST parameters",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupPostParams",
           "normalized": "Text-\u003ea[Text]",
@@ -2908,6 +3126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for session data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupSession",
           "package": "yesod-core",
@@ -2918,6 +3137,7 @@
         "index": {
           "description": "Lookup for session data",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupSession",
           "normalized": "Text-\u003ea(Maybe Text)",
@@ -2934,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup for session data in binary format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "lookupSessionBS",
           "package": "yesod-core",
@@ -2944,6 +3165,7 @@
         "index": {
           "description": "Lookup for session data in binary format",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "lookupSessionBS",
           "normalized": "Text-\u003ea(Maybe ByteString)",
@@ -2960,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Expires header to some date in 2037. In other words, this content\n is never (realistically) expired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "neverExpires",
           "package": "yesod-core",
@@ -2970,6 +3193,7 @@
         "index": {
           "description": "Set the Expires header to some date in In other words this content is never realistically expired",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "neverExpires",
           "normalized": "a()",
@@ -2986,6 +3210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a unique identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "newIdent",
           "package": "yesod-core",
@@ -2996,6 +3221,7 @@
         "index": {
           "description": "Get unique identifier",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "newIdent",
           "package": "yesod-core",
@@ -3010,6 +3236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a 401 status code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "notAuthenticated",
           "package": "yesod-core",
@@ -3020,6 +3247,7 @@
         "index": {
           "description": "Return status code",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "notAuthenticated",
           "package": "yesod-core",
@@ -3034,6 +3262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a 404 not found page. Also denotes no handler available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "notFound",
           "package": "yesod-core",
@@ -3044,6 +3273,7 @@
         "index": {
           "description": "Return not found page Also denotes no handler available",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "notFound",
           "package": "yesod-core",
@@ -3058,6 +3288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a 403 permission denied page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "permissionDenied",
           "package": "yesod-core",
@@ -3068,6 +3299,7 @@
         "index": {
           "description": "Return permission denied page",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "permissionDenied",
           "normalized": "Text-\u003ea b",
@@ -3084,6 +3316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a 403 permission denied page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "permissionDeniedI",
           "package": "yesod-core",
@@ -3094,6 +3327,7 @@
         "index": {
           "description": "Return permission denied page",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "permissionDeniedI",
           "normalized": "a-\u003eb c",
@@ -3110,6 +3344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a single representation to be used, based on the request of the\n client. Should be used together with \u003ccode\u003e\u003ca\u003eselectRep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "provideRep",
           "package": "yesod-core",
@@ -3120,6 +3355,7 @@
         "index": {
           "description": "Provide single representation to be used based on the request of the client Should be used together with selectRep Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "provideRep",
           "normalized": "a b-\u003eWriter(Endo[ProvidedRep a])()",
@@ -3136,6 +3372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eprovideRep\u003c/a\u003e\u003c/code\u003e, but instead of determining the content type from the\n type of the value itself, you provide the content type separately. This can\n be a convenience instead of creating newtype wrappers for uncommonly used\n content types.\n\u003c/p\u003e\u003cpre\u003e provideRepType \"application/x-special-format\" \"This is the content\"\n\u003c/pre\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "provideRepType",
           "package": "yesod-core",
@@ -3146,6 +3383,7 @@
         "index": {
           "description": "Same as provideRep but instead of determining the content type from the type of the value itself you provide the content type separately This can be convenience instead of creating newtype wrappers for uncommonly used content types provideRepType application x-special-format This is the content Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "provideRepType",
           "normalized": "ContentType-\u003ea b-\u003eWriter(Endo[ProvidedRep a])()",
@@ -3162,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream in the raw request body without any parsing.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "rawRequestBody",
           "package": "yesod-core",
@@ -3172,6 +3411,7 @@
         "index": {
           "description": "Stream in the raw request body without any parsing Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "rawRequestBody",
           "package": "yesod-core",
@@ -3186,6 +3426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to the given route.\n HTTP status code 303 for HTTP 1.1 clients and 302 for HTTP 1.0\n This is the appropriate choice for a get-following-post\n technique, which should be the usual use case.\n\u003c/p\u003e\u003cp\u003eIf you want direct control of the final status code, or need a different\n status code, please use \u003ccode\u003e\u003ca\u003eredirectWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "redirect",
           "package": "yesod-core",
@@ -3196,6 +3437,7 @@
         "index": {
           "description": "Redirect to the given route HTTP status code for HTTP clients and for HTTP This is the appropriate choice for get-following-post technique which should be the usual use case If you want direct control of the final status code or need different status code please use redirectWith",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "redirect",
           "normalized": "a-\u003eb c",
@@ -3211,6 +3453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to a POST resource.\n\u003c/p\u003e\u003cp\u003eThis is not technically a redirect; instead, it returns an HTML page with a\n POST form, and some Javascript to automatically submit the form. This can be\n useful when you need to post a plain link somewhere that needs to cause\n changes on the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "redirectToPost",
           "package": "yesod-core",
@@ -3221,6 +3464,7 @@
         "index": {
           "description": "Redirect to POST resource This is not technically redirect instead it returns an HTML page with POST form and some Javascript to automatically submit the form This can be useful when you need to post plain link somewhere that needs to cause changes on the server",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "redirectToPost",
           "normalized": "a-\u003eb c",
@@ -3237,6 +3481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to the ultimate destination in the user's session. Clear the\n value from the session.\n\u003c/p\u003e\u003cp\u003eThe ultimate destination is set with \u003ccode\u003e\u003ca\u003esetUltDest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function uses \u003ccode\u003e\u003ca\u003eredirect\u003c/a\u003e\u003c/code\u003e, and thus will perform a temporary redirect to\n a GET request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "redirectUltDest",
           "package": "yesod-core",
@@ -3246,6 +3491,7 @@
         "index": {
           "description": "Redirect to the ultimate destination in the user session Clear the value from the session The ultimate destination is set with setUltDest This function uses redirect and thus will perform temporary redirect to GET request",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "redirectUltDest",
           "normalized": "a-\u003eb c",
@@ -3262,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to the given URL with the specified status code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "redirectWith",
           "package": "yesod-core",
@@ -3272,6 +3519,7 @@
         "index": {
           "description": "Redirect to the given URL with the specified status code",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "redirectWith",
           "normalized": "Status-\u003ea-\u003eb c",
@@ -3467,6 +3715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a pure value for the response body.\n\u003c/p\u003e\u003cpre\u003e respond ct = return . TypedContent ct . toContent\n\u003c/pre\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "respond",
           "package": "yesod-core",
@@ -3477,6 +3726,7 @@
         "index": {
           "description": "Provide pure value for the response body respond ct return TypedContent ct toContent Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "respond",
           "normalized": "ContentType-\u003ea-\u003eb TypedContent",
@@ -3492,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a \u003ccode\u003eSource\u003c/code\u003e for the response body.\n\u003c/p\u003e\u003cp\u003eNote that, for ease of use, the underlying monad is a \u003ccode\u003eHandlerT\u003c/code\u003e. This\n implies that you can run any \u003ccode\u003eHandlerT\u003c/code\u003e action. However, since a streaming\n response occurs after the response headers have already been sent, some\n actions make no sense here. For example: short-circuit responses, setting\n headers, changing status codes, etc.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "respondSource",
           "package": "yesod-core",
@@ -3502,6 +3753,7 @@
         "index": {
           "description": "Use Source for the response body Note that for ease of use the underlying monad is HandlerT This implies that you can run any HandlerT action However since streaming response occurs after the response headers have already been sent some actions make no sense here For example short-circuit responses setting headers changing status codes etc Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "respondSource",
           "normalized": "ContentType-\u003eSource(HandlerT a IO)(Flush Builder)-\u003eHandlerT a IO TypedContent",
@@ -3517,6 +3769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "runRequestBody",
           "package": "yesod-core",
@@ -3526,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "runRequestBody",
           "package": "yesod-core",
@@ -3540,6 +3794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a representation to send to the client based on the representations\n provided inside this do-block. Should be used together with \u003ccode\u003e\u003ca\u003eprovideRep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "selectRep",
           "package": "yesod-core",
@@ -3550,6 +3805,7 @@
         "index": {
           "description": "Select representation to send to the client based on the representations provided inside this do-block Should be used together with provideRep Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "selectRep",
           "normalized": "Writer(Endo[ProvidedRep a])()-\u003ea TypedContent",
@@ -3566,6 +3822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn a streaming response, send a single chunk of data. This function works\n on most datatypes, such as \u003ccode\u003eByteString\u003c/code\u003e and \u003ccode\u003eHtml\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendChunk",
           "package": "yesod-core",
@@ -3576,6 +3833,7 @@
         "index": {
           "description": "In streaming response send single chunk of data This function works on most datatypes such as ByteString and Html Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendChunk",
           "normalized": "a-\u003eProducer b(Flush Builder)",
@@ -3592,6 +3850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-specialized version of \u003ccode\u003e\u003ca\u003esendChunk\u003c/a\u003e\u003c/code\u003e for strict \u003ccode\u003eByteString\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkBS",
           "package": "yesod-core",
@@ -3602,6 +3861,7 @@
         "index": {
           "description": "Type-specialized version of sendChunk for strict ByteString Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkBS",
           "normalized": "ByteString-\u003eProducer a(Flush Builder)",
@@ -3618,6 +3878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-specialized version of \u003ccode\u003e\u003ca\u003esendChunk\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eHtml\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkHtml",
           "package": "yesod-core",
@@ -3628,6 +3889,7 @@
         "index": {
           "description": "Type-specialized version of sendChunk for Html Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkHtml",
           "normalized": "Html-\u003eProducer a(Flush Builder)",
@@ -3644,6 +3906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-specialized version of \u003ccode\u003e\u003ca\u003esendChunk\u003c/a\u003e\u003c/code\u003e for lazy \u003ccode\u003eByteString\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkLBS",
           "package": "yesod-core",
@@ -3654,6 +3917,7 @@
         "index": {
           "description": "Type-specialized version of sendChunk for lazy ByteString Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkLBS",
           "normalized": "ByteString-\u003eProducer a(Flush Builder)",
@@ -3670,6 +3934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-specialized version of \u003ccode\u003e\u003ca\u003esendChunk\u003c/a\u003e\u003c/code\u003e for lazy \u003ccode\u003eText\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkLazyText",
           "package": "yesod-core",
@@ -3680,6 +3945,7 @@
         "index": {
           "description": "Type-specialized version of sendChunk for lazy Text Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkLazyText",
           "normalized": "Text-\u003eProducer a(Flush Builder)",
@@ -3696,6 +3962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-specialized version of \u003ccode\u003e\u003ca\u003esendChunk\u003c/a\u003e\u003c/code\u003e for strict \u003ccode\u003eText\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkText",
           "package": "yesod-core",
@@ -3706,6 +3973,7 @@
         "index": {
           "description": "Type-specialized version of sendChunk for strict Text Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendChunkText",
           "normalized": "Text-\u003eProducer a(Flush Builder)",
@@ -3722,6 +3990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBypass remaining handler code and output the given file.\n\u003c/p\u003e\u003cp\u003eFor some backends, this is more efficient than reading in the file to\n memory, since they can optimize file sending via a system call to sendfile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendFile",
           "package": "yesod-core",
@@ -3732,6 +4001,7 @@
         "index": {
           "description": "Bypass remaining handler code and output the given file For some backends this is more efficient than reading in the file to memory since they can optimize file sending via system call to sendfile",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendFile",
           "normalized": "ContentType-\u003eFilePath-\u003ea b",
@@ -3748,6 +4018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esendFile\u003c/a\u003e\u003c/code\u003e, but only sends part of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendFilePart",
           "package": "yesod-core",
@@ -3757,6 +4028,7 @@
         "index": {
           "description": "Same as sendFile but only sends part of file",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendFilePart",
           "normalized": "ContentType-\u003eFilePath-\u003eInteger-\u003eInteger-\u003ea b",
@@ -3773,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn a streaming response, send a flush command, causing all buffered data\n to be immediately sent to the client.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendFlush",
           "package": "yesod-core",
@@ -3783,6 +4056,7 @@
         "index": {
           "description": "In streaming response send flush command causing all buffered data to be immediately sent to the client Since",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendFlush",
           "package": "yesod-core",
@@ -3797,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBypass remaining handler code and output the given content with a 200\n status code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendResponse",
           "package": "yesod-core",
@@ -3807,6 +4082,7 @@
         "index": {
           "description": "Bypass remaining handler code and output the given content with status code",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendResponse",
           "normalized": "a-\u003eb c",
@@ -3823,6 +4099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a 201 \u003ca\u003eCreated\u003c/a\u003e response with the given route as the Location\n response header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendResponseCreated",
           "package": "yesod-core",
@@ -3833,6 +4110,7 @@
         "index": {
           "description": "Send Created response with the given route as the Location response header",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendResponseCreated",
           "normalized": "Route(HandlerSite a)-\u003ea b",
@@ -3849,6 +4127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBypass remaining handler code and output the given content with the given\n status code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendResponseStatus",
           "package": "yesod-core",
@@ -3859,6 +4138,7 @@
         "index": {
           "description": "Bypass remaining handler code and output the given content with the given status code",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendResponseStatus",
           "normalized": "Status-\u003ea-\u003eb c",
@@ -3875,6 +4155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e. Please note: this function is rarely\n necessary, and will \u003cem\u003edisregard\u003c/em\u003e any changes to response headers and session\n that you have already specified. This function short-circuits. It should be\n considered only for very specific needs. If you are not sure if you need it,\n you don't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "sendWaiResponse",
           "package": "yesod-core",
@@ -3885,6 +4166,7 @@
         "index": {
           "description": "Send Response Please note this function is rarely necessary and will disregard any changes to response headers and session that you have already specified This function short-circuits It should be considered only for very specific needs If you are not sure if you need it you don",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "sendWaiResponse",
           "normalized": "Response-\u003ea b",
@@ -3901,6 +4183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the cookie on the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setCookie",
           "package": "yesod-core",
@@ -3911,6 +4194,7 @@
         "index": {
           "description": "Set the cookie on the client",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setCookie",
           "normalized": "SetCookie-\u003ea()",
@@ -3927,6 +4211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use addHeader instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated synonym for addHeader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setHeader",
           "package": "yesod-core",
@@ -3937,6 +4222,7 @@
         "index": {
           "description": "Deprecated Please use addHeader instead Deprecated synonym for addHeader",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setHeader",
           "normalized": "Text-\u003eText-\u003ea()",
@@ -3953,6 +4239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the language in the user session. Will show up in \u003ccode\u003e\u003ca\u003elanguages\u003c/a\u003e\u003c/code\u003e on the\n next request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setLanguage",
           "package": "yesod-core",
@@ -3963,6 +4250,7 @@
         "index": {
           "description": "Set the language in the user session Will show up in languages on the next request",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setLanguage",
           "normalized": "Text-\u003ea()",
@@ -3979,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a message in the user's session.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003egetMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setMessage",
           "package": "yesod-core",
@@ -3989,6 +4278,7 @@
         "index": {
           "description": "Sets message in the user session See getMessage",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setMessage",
           "normalized": "Html-\u003ea()",
@@ -4005,6 +4295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a message in the user's session.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003egetMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setMessageI",
           "package": "yesod-core",
@@ -4015,6 +4306,7 @@
         "index": {
           "description": "Sets message in the user session See getMessage",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setMessageI",
           "normalized": "a-\u003eb()",
@@ -4031,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a variable in the user's session.\n\u003c/p\u003e\u003cp\u003eThe session is handled by the clientsession package: it sets an encrypted\n and hashed cookie on the client. This ensures that all data is secure and\n not tampered with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setSession",
           "package": "yesod-core",
@@ -4040,6 +4333,7 @@
         "index": {
           "description": "Set variable in the user session The session is handled by the clientsession package it sets an encrypted and hashed cookie on the client This ensures that all data is secure and not tampered with",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setSession",
           "normalized": "Text-\u003eText-\u003ea()",
@@ -4056,6 +4350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esetSession\u003c/a\u003e\u003c/code\u003e, but uses binary data for the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setSessionBS",
           "package": "yesod-core",
@@ -4066,6 +4361,7 @@
         "index": {
           "description": "Same as setSession but uses binary data for the value",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setSessionBS",
           "normalized": "Text-\u003eByteString-\u003ea()",
@@ -4082,6 +4378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the ultimate destination variable to the given route.\n\u003c/p\u003e\u003cp\u003eAn ultimate destination is stored in the user session and can be loaded\n later by \u003ccode\u003e\u003ca\u003eredirectUltDest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setUltDest",
           "package": "yesod-core",
@@ -4092,6 +4389,7 @@
         "index": {
           "description": "Sets the ultimate destination variable to the given route An ultimate destination is stored in the user session and can be loaded later by redirectUltDest",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setUltDest",
           "normalized": "a-\u003eb()",
@@ -4108,6 +4406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esetUltDest\u003c/a\u003e\u003c/code\u003e, but uses the current page.\n\u003c/p\u003e\u003cp\u003eIf this is a 404 handler, there is no current page, and then this call does\n nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setUltDestCurrent",
           "package": "yesod-core",
@@ -4118,6 +4417,7 @@
         "index": {
           "description": "Same as setUltDest but uses the current page If this is handler there is no current page and then this call does nothing",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setUltDestCurrent",
           "normalized": "a()",
@@ -4134,6 +4434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the ultimate destination to the referer request header, if present.\n\u003c/p\u003e\u003cp\u003eThis function will not overwrite an existing ultdest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "setUltDestReferer",
           "package": "yesod-core",
@@ -4144,6 +4445,7 @@
         "index": {
           "description": "Sets the ultimate destination to the referer request header if present This function will not overwrite an existing ultdest",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "setUltDestReferer",
           "normalized": "a()",
@@ -4160,6 +4462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the value to the URL and a list of query-string parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "toTextUrl",
           "package": "yesod-core",
@@ -4170,6 +4473,7 @@
         "index": {
           "description": "Converts the value to the URL and list of query-string parameters",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "toTextUrl",
           "normalized": "a-\u003eb Text",
@@ -4186,6 +4490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the request's \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Handler",
           "name": "waiRequest",
           "package": "yesod-core",
@@ -4196,6 +4501,7 @@
         "index": {
           "description": "Get the request Request value",
           "hierarchy": "Yesod Core Handler",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Handler",
           "name": "waiRequest",
           "package": "yesod-core",
@@ -4210,6 +4516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExposed mostly for testing. These functions provide an unstable API and\n should not be relied upon.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Internal",
           "name": "Internal",
           "package": "yesod-core",
@@ -4219,6 +4526,7 @@
         "index": {
           "description": "Exposed mostly for testing These functions provide an unstable API and should not be relied upon",
           "hierarchy": "Yesod Core Internal",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Internal",
           "name": "Internal",
           "package": "yesod-core",
@@ -4232,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "Json",
           "package": "yesod-core",
@@ -4240,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "Json",
           "package": "yesod-core",
@@ -4254,6 +4564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from JSON, with the possibility of\n failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003eempty\u003c/code\u003e, \u003ccode\u003emzero\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. if an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e is missing a required key, or\n the value is of the wrong type.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE OverloadedStrings #-}\n\ndata Coord { x :: Double, y :: Double }\n\ninstance FromJSON Coord where\n   parseJSON (\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e v) = Coord    \u003ccode\u003e\u003c$\u003e\u003c/code\u003e\n                          v \u003ccode\u003e.:\u003c/code\u003e \"x\" \u003ccode\u003e\u003c*\u003e\u003c/code\u003e\n                          v \u003ccode\u003e.:\u003c/code\u003e \"y\"\n\n-- A non-\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e value is of the wrong type, so use \u003ccode\u003emzero\u003c/code\u003e to fail.\n   parseJSON _          = \u003ccode\u003emzero\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eNote the use of the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension which enables\n \u003ccode\u003eText\u003c/code\u003e values to be written as string literals.\n\u003c/p\u003e\u003cp\u003eInstead of manually writing your \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e instance, there are three options\n to do it automatically:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Aeson.TH\u003c/a\u003e provides template-haskell functions which will derive an\n instance at compile-time. The generated instance is optimized for your type\n so will probably be more efficient than the following two options:\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Aeson.Generic\u003c/a\u003e provides a generic \u003ccode\u003efromJSON\u003c/code\u003e function that parses to\n any type which is an instance of \u003ccode\u003eData\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If your compiler has support for the \u003ccode\u003eDeriveGeneric\u003c/code\u003e and\n \u003ccode\u003eDefaultSignatures\u003c/code\u003e language extensions, \u003ccode\u003eparseJSON\u003c/code\u003e will have a default\n generic implementation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo use this, simply add a \u003ccode\u003ederiving \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e clause to your datatype and\n declare a \u003ccode\u003eFromJSON\u003c/code\u003e instance for your datatype without giving a definition\n for \u003ccode\u003eparseJSON\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example the previous example can be simplified to just:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE DeriveGeneric #-}\n\nimport GHC.Generics\n\ndata Coord { x :: Double, y :: Double } deriving Generic\n\ninstance FromJSON Coord\n\u003c/pre\u003e\u003cp\u003eNote that, instead of using \u003ccode\u003eDefaultSignatures\u003c/code\u003e, it's also possible\n to parameterize the generic decoding using \u003ccode\u003e\u003ca\u003egenericParseJSON\u003c/a\u003e\u003c/code\u003e applied\n to your encoding/decoding \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance FromJSON Coord where\n     parseJSON = \u003ccode\u003e\u003ca\u003egenericParseJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "FromJSON",
           "package": "yesod-core",
@@ -4262,6 +4573,7 @@
         "index": {
           "description": "type that can be converted from JSON with the possibility of failure When writing an instance use empty mzero or fail to make conversion fail e.g if an Object is missing required key or the value is of the wrong type An example type and instance LANGUAGE OverloadedStrings data Coord Double Double instance FromJSON Coord where parseJSON Object Coord non Object value is of the wrong type so use mzero to fail parseJSON mzero Note the use of the OverloadedStrings language extension which enables Text values to be written as string literals Instead of manually writing your FromJSON instance there are three options to do it automatically Data.Aeson.TH provides template-haskell functions which will derive an instance at compile-time The generated instance is optimized for your type so will probably be more efficient than the following two options Data.Aeson.Generic provides generic fromJSON function that parses to any type which is an instance of Data If your compiler has support for the DeriveGeneric and DefaultSignatures language extensions parseJSON will have default generic implementation To use this simply add deriving Generic clause to your datatype and declare FromJSON instance for your datatype without giving definition for parseJSON For example the previous example can be simplified to just LANGUAGE DeriveGeneric import GHC.Generics data Coord Double Double deriving Generic instance FromJSON Coord Note that instead of using DefaultSignatures it also possible to parameterize the generic decoding using genericParseJSON applied to your encoding decoding Options instance FromJSON Coord where parseJSON genericParseJSON defaultOptions",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "FromJSON",
           "package": "yesod-core",
@@ -4276,6 +4588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to JSON.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE OverloadedStrings #-}\n\ndata Coord { x :: Double, y :: Double }\n\ninstance ToJSON Coord where\n   toJSON (Coord x y) = \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e [\"x\" \u003ccode\u003e.=\u003c/code\u003e x, \"y\" \u003ccode\u003e.=\u003c/code\u003e y]\n\u003c/pre\u003e\u003cp\u003eNote the use of the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension which enables\n \u003ccode\u003eText\u003c/code\u003e values to be written as string literals.\n\u003c/p\u003e\u003cp\u003eInstead of manually writing your \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e instance, there are three options\n to do it automatically:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.Aeson.TH\u003c/a\u003e provides template-haskell functions which will derive an\n instance at compile-time. The generated instance is optimized for your type\n so will probably be more efficient than the following two options:\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.Aeson.Generic\u003c/a\u003e provides a generic \u003ccode\u003etoJSON\u003c/code\u003e function that accepts any\n type which is an instance of \u003ccode\u003eData\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If your compiler has support for the \u003ccode\u003eDeriveGeneric\u003c/code\u003e and\n \u003ccode\u003eDefaultSignatures\u003c/code\u003e language extensions (GHC 7.2 and newer),\n \u003ccode\u003etoJSON\u003c/code\u003e will have a default generic implementation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTo use the latter option, simply add a \u003ccode\u003ederiving \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e clause to your\n datatype and declare a \u003ccode\u003eToJSON\u003c/code\u003e instance for your datatype without giving a\n definition for \u003ccode\u003etoJSON\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example the previous example can be simplified to just:\n\u003c/p\u003e\u003cpre\u003e{-# LANGUAGE DeriveGeneric #-}\n\nimport GHC.Generics\n\ndata Coord { x :: Double, y :: Double } deriving Generic\n\ninstance ToJSON Coord\n\u003c/pre\u003e\u003cp\u003eNote that, instead of using \u003ccode\u003eDefaultSignatures\u003c/code\u003e, it's also possible\n to parameterize the generic encoding using \u003ccode\u003e\u003ca\u003egenericToJSON\u003c/a\u003e\u003c/code\u003e applied\n to your encoding/decoding \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance ToJSON Coord where\n     toJSON = \u003ccode\u003e\u003ca\u003egenericToJSON\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "ToJSON",
           "package": "yesod-core",
@@ -4284,6 +4597,7 @@
         "index": {
           "description": "type that can be converted to JSON An example type and instance LANGUAGE OverloadedStrings data Coord Double Double instance ToJSON Coord where toJSON Coord object Note the use of the OverloadedStrings language extension which enables Text values to be written as string literals Instead of manually writing your ToJSON instance there are three options to do it automatically Data.Aeson.TH provides template-haskell functions which will derive an instance at compile-time The generated instance is optimized for your type so will probably be more efficient than the following two options Data.Aeson.Generic provides generic toJSON function that accepts any type which is an instance of Data If your compiler has support for the DeriveGeneric and DefaultSignatures language extensions GHC and newer toJSON will have default generic implementation To use the latter option simply add deriving Generic clause to your datatype and declare ToJSON instance for your datatype without giving definition for toJSON For example the previous example can be simplified to just LANGUAGE DeriveGeneric import GHC.Generics data Coord Double Double deriving Generic instance ToJSON Coord Note that instead of using DefaultSignatures it also possible to parameterize the generic encoding using genericToJSON applied to your encoding decoding Options instance ToJSON Coord where toJSON genericToJSON defaultOptions",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "ToJSON",
           "package": "yesod-core",
@@ -4298,6 +4612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "Value",
           "package": "yesod-core",
@@ -4306,6 +4621,7 @@
         "index": {
           "description": "JSON value represented as Haskell value",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "Value",
           "package": "yesod-core",
@@ -4320,6 +4636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003ePair\u003c/a\u003e\u003c/code\u003e from a key and a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "(.=)",
           "package": "yesod-core",
@@ -4329,6 +4646,7 @@
         "index": {
           "description": "Construct Pair from key and value",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "(.=) .=",
           "normalized": "Text-\u003ea-\u003ePair",
@@ -4344,6 +4662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the value associated with the given key of an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e.\n The result is \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e if the key is not present or the value cannot\n be converted to the desired type.\n\u003c/p\u003e\u003cp\u003eThis accessor is appropriate if the key and value \u003cem\u003emust\u003c/em\u003e be present\n in an object for it to be valid.  If the key and value are\n optional, use '(.:?)' instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "(.:)",
           "package": "yesod-core",
@@ -4353,6 +4672,7 @@
         "index": {
           "description": "Retrieve the value associated with the given key of an Object The result is empty if the key is not present or the value cannot be converted to the desired type This accessor is appropriate if the key and value must be present in an object for it to be valid If the key and value are optional use instead",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "(.:) .:",
           "normalized": "Object-\u003eText-\u003eParser a",
@@ -4367,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "Array",
           "package": "yesod-core",
@@ -4375,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "Array",
           "package": "yesod-core",
@@ -4388,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "Bool",
           "package": "yesod-core",
@@ -4396,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "Bool",
           "package": "yesod-core",
@@ -4409,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "Null",
           "package": "yesod-core",
@@ -4417,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "Null",
           "package": "yesod-core",
@@ -4430,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "Number",
           "package": "yesod-core",
@@ -4438,6 +4765,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "Number",
           "package": "yesod-core",
@@ -4451,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "Object",
           "package": "yesod-core",
@@ -4459,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "Object",
           "package": "yesod-core",
@@ -4472,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "String",
           "package": "yesod-core",
@@ -4480,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "String",
           "package": "yesod-core",
@@ -4494,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e if the client prefers \u003ccode\u003eapplication/json\u003c/code\u003e as\n indicated by the \u003ccode\u003eAccept\u003c/code\u003e HTTP header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "acceptsJson",
           "package": "yesod-core",
@@ -4504,6 +4837,7 @@
         "index": {
           "description": "Returns True if the client prefers application json as indicated by the Accept HTTP header",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "acceptsJson",
           "package": "yesod-core",
@@ -4518,6 +4852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of values to an \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "array",
           "package": "yesod-core",
@@ -4528,6 +4863,7 @@
         "index": {
           "description": "Convert list of values to an Array",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "array",
           "normalized": "[a]-\u003eValue",
@@ -4543,6 +4879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide both an HTML and JSON representation for a piece of\n data, using the default layout for the HTML output\n (\u003ccode\u003e\u003ca\u003edefaultLayout\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 0.3.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "defaultLayoutJson",
           "package": "yesod-core",
@@ -4552,6 +4889,7 @@
         "index": {
           "description": "Provide both an HTML and JSON representation for piece of data using the default layout for the HTML output defaultLayout Since",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "defaultLayoutJson",
           "normalized": "WidgetT a IO()-\u003eHandlerT a IO b-\u003eHandlerT a IO TypedContent",
@@ -4568,6 +4906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejsonOrRedirect simplifies the scenario where a POST handler sends a different\n response based on Accept headers:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e 200 with JSON data if the client prefers\n     \u003ccode\u003eapplication/json\u003c/code\u003e (e.g. AJAX, see \u003ccode\u003eacceptsJSON\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e 3xx otherwise, following the PRG pattern.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "jsonOrRedirect",
           "package": "yesod-core",
@@ -4577,6 +4916,7 @@
         "index": {
           "description": "jsonOrRedirect simplifies the scenario where POST handler sends different response based on Accept headers with JSON data if the client prefers application json e.g AJAX see acceptsJSON xx otherwise following the PRG pattern",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "jsonOrRedirect",
           "normalized": "Route(HandlerSite a)-\u003eb-\u003ea Value",
@@ -4593,6 +4933,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use returnJson instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eWraps a data type in a \u003ccode\u003eRepJson\u003c/code\u003e.  The data type must\n support conversion to JSON via \u003ccode\u003e\u003ca\u003eToJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 0.3.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "jsonToRepJson",
           "package": "yesod-core",
@@ -4603,6 +4944,7 @@
         "index": {
           "description": "Deprecated Use returnJson instead Wraps data type in RepJson The data type must support conversion to JSON via ToJSON Since",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "jsonToRepJson",
           "normalized": "a-\u003eb Value",
@@ -4619,6 +4961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e from a list of name/value \u003ccode\u003e\u003ca\u003ePair\u003c/a\u003e\u003c/code\u003es.  If duplicate\n keys arise, earlier keys and their associated values win.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "object",
           "package": "yesod-core",
@@ -4628,6 +4971,7 @@
         "index": {
           "description": "Create Value from list of name value Pair If duplicate keys arise earlier keys and their associated values win",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "object",
           "normalized": "[Pair]-\u003eValue",
@@ -4642,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "parseJSON",
           "package": "yesod-core",
@@ -4650,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "parseJSON",
           "normalized": "Value-\u003eParser a",
@@ -4666,6 +5012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the request body to a data type as a JSON value.  The\n data type must support conversion from JSON via \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e.\n If you want the raw JSON value, just ask for a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that this function will consume the request body. As such, calling it\n twice will result in a parse error on the second call, since the request\n body will no longer be available.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSince: 0.3.0\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "parseJsonBody",
           "package": "yesod-core",
@@ -4676,6 +5023,7 @@
         "index": {
           "description": "Parse the request body to data type as JSON value The data type must support conversion from JSON via FromJSON If you want the raw JSON value just ask for Result Value Note that this function will consume the request body As such calling it twice will result in parse error on the second call since the request body will no longer be available Since",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "parseJsonBody",
           "package": "yesod-core",
@@ -4690,6 +5038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eparseJsonBody\u003c/a\u003e\u003c/code\u003e, but return an invalid args response on a parse\n error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "parseJsonBody_",
           "package": "yesod-core",
@@ -4700,6 +5049,7 @@
         "index": {
           "description": "Same as parseJsonBody but return an invalid args response on parse error",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "parseJsonBody_",
           "package": "yesod-core",
@@ -4714,6 +5064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a JSON representation for usage with \u003ccode\u003eselectReps\u003c/code\u003e, using aeson's\n \u003ccode\u003e\u003ca\u003etoJSON\u003c/a\u003e\u003c/code\u003e function to perform the conversion.\n\u003c/p\u003e\u003cp\u003eSince 1.2.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "provideJson",
           "package": "yesod-core",
@@ -4724,6 +5075,7 @@
         "index": {
           "description": "Provide JSON representation for usage with selectReps using aeson toJSON function to perform the conversion Since",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "provideJson",
           "normalized": "a-\u003eWriter(Endo[ProvidedRep b])()",
@@ -4740,6 +5092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to a JSON representation via aeson's \u003ccode\u003e\u003ca\u003etoJSON\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eSince 1.2.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "returnJson",
           "package": "yesod-core",
@@ -4750,6 +5103,7 @@
         "index": {
           "description": "Convert value to JSON representation via aeson toJSON function Since",
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "returnJson",
           "normalized": "a-\u003eb Value",
@@ -4765,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Json",
           "name": "toJSON",
           "package": "yesod-core",
@@ -4773,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Json",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Json",
           "name": "toJSON",
           "normalized": "a-\u003eValue",
@@ -4788,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Types",
           "package": "yesod-core",
@@ -4796,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Types",
           "package": "yesod-core",
@@ -4810,6 +5168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to determine the root of the application for constructing URLs.\n\u003c/p\u003e\u003cp\u003eNote that future versions of Yesod may add new constructors without bumping\n the major version number. As a result, you should \u003cem\u003enot\u003c/em\u003e pattern match on\n \u003ccode\u003eApproot\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Approot",
           "package": "yesod-core",
@@ -4819,6 +5178,7 @@
         "index": {
           "description": "How to determine the root of the application for constructing URLs Note that future versions of Yesod may add new constructors without bumping the major version number As result you should not pattern match on Approot values",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Approot",
           "package": "yesod-core",
@@ -4832,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "AuthResult",
           "package": "yesod-core",
@@ -4840,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "AuthResult",
           "package": "yesod-core",
@@ -4853,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Body",
           "package": "yesod-core",
@@ -4861,6 +5224,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Body",
           "package": "yesod-core",
@@ -4874,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "BottomOfHeadAsync",
           "package": "yesod-core",
@@ -4882,6 +5247,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "BottomOfHeadAsync",
           "package": "yesod-core",
@@ -4895,6 +5261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Cache",
           "package": "yesod-core",
@@ -4903,6 +5270,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Cache",
           "package": "yesod-core",
@@ -4916,6 +5284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ClientSessionDateCache",
           "package": "yesod-core",
@@ -4924,6 +5293,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ClientSessionDateCache",
           "package": "yesod-core",
@@ -4937,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Content",
           "package": "yesod-core",
@@ -4945,6 +5316,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Content",
           "package": "yesod-core",
@@ -4958,6 +5330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ContentType",
           "package": "yesod-core",
@@ -4966,6 +5339,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ContentType",
           "package": "yesod-core",
@@ -4980,6 +5354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper allowing injection of arbitrary content into CSS.\n\u003c/p\u003e\u003cp\u003eUsage:\n\u003c/p\u003e\u003cpre\u003e toWidget $ CssBuilder \"p { color: red }\"\n\u003c/pre\u003e\u003cp\u003eSince: 1.1.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "CssBuilder",
           "package": "yesod-core",
@@ -4989,6 +5364,7 @@
         "index": {
           "description": "Newtype wrapper allowing injection of arbitrary content into CSS Usage toWidget CssBuilder color red Since",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "CssBuilder",
           "package": "yesod-core",
@@ -5002,6 +5378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "CssBuilderUrl",
           "package": "yesod-core",
@@ -5010,6 +5387,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "CssBuilderUrl",
           "package": "yesod-core",
@@ -5024,6 +5402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrevents a response body from being fully evaluated before sending the\n request.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "DontFullyEvaluate",
           "package": "yesod-core",
@@ -5033,6 +5412,7 @@
         "index": {
           "description": "Prevents response body from being fully evaluated before sending the request Since",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "DontFullyEvaluate",
           "package": "yesod-core",
@@ -5047,6 +5427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponses to indicate some form of an error occurred. These are different\n from \u003ccode\u003eSpecialResponse\u003c/code\u003e in that they allow for custom error pages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ErrorResponse",
           "package": "yesod-core",
@@ -5056,6 +5437,7 @@
         "index": {
           "description": "Responses to indicate some form of an error occurred These are different from SpecialResponse in that they allow for custom error pages",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ErrorResponse",
           "package": "yesod-core",
@@ -5069,6 +5451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "FileInfo",
           "package": "yesod-core",
@@ -5077,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "FileInfo",
           "package": "yesod-core",
@@ -5090,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "FileUpload",
           "package": "yesod-core",
@@ -5098,6 +5483,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "FileUpload",
           "package": "yesod-core",
@@ -5111,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "GHState",
           "package": "yesod-core",
@@ -5119,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "GHState",
           "package": "yesod-core",
@@ -5132,6 +5520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "GWData",
           "package": "yesod-core",
@@ -5140,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "GWData",
           "package": "yesod-core",
@@ -5153,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HandlerContents",
           "package": "yesod-core",
@@ -5161,6 +5552,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HandlerContents",
           "package": "yesod-core",
@@ -5174,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HandlerData",
           "package": "yesod-core",
@@ -5182,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HandlerData",
           "package": "yesod-core",
@@ -5196,6 +5590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic handler monad, which can have a different subsite and master\n site. We define a newtype for better error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HandlerT",
           "package": "yesod-core",
@@ -5205,6 +5600,7 @@
         "index": {
           "description": "generic handler monad which can have different subsite and master site We define newtype for better error message",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HandlerT",
           "package": "yesod-core",
@@ -5218,6 +5614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Head",
           "package": "yesod-core",
@@ -5226,6 +5623,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Head",
           "package": "yesod-core",
@@ -5240,6 +5638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeaders to be added to a \u003ccode\u003eResult\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Header",
           "package": "yesod-core",
@@ -5249,6 +5648,7 @@
         "index": {
           "description": "Headers to be added to Result",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Header",
           "package": "yesod-core",
@@ -5262,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Location",
           "package": "yesod-core",
@@ -5270,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Location",
           "package": "yesod-core",
@@ -5283,6 +5685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Logger",
           "package": "yesod-core",
@@ -5291,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Logger",
           "package": "yesod-core",
@@ -5304,6 +5708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "MonadRoute",
           "package": "yesod-core",
@@ -5312,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "MonadRoute",
           "package": "yesod-core",
@@ -5326,6 +5732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent for a web page. By providing this datatype, we can easily create\n generic site templates, which would have the type signature:\n\u003c/p\u003e\u003cpre\u003e PageContent url -\u003e HtmlUrl url\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "PageContent",
           "package": "yesod-core",
@@ -5335,6 +5742,7 @@
         "index": {
           "description": "Content for web page By providing this datatype we can easily create generic site templates which would have the type signature PageContent url HtmlUrl url",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "PageContent",
           "package": "yesod-core",
@@ -5348,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ParentRunner",
           "package": "yesod-core",
@@ -5356,6 +5765,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ParentRunner",
           "package": "yesod-core",
@@ -5369,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "RY",
           "package": "yesod-core",
@@ -5377,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "RY",
           "package": "yesod-core",
@@ -5391,6 +5803,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use Html instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "RepHtml",
           "package": "yesod-core",
@@ -5400,6 +5813,7 @@
         "index": {
           "description": "Deprecated Please use Html instead",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "RepHtml",
           "package": "yesod-core",
@@ -5413,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "RepJson",
           "package": "yesod-core",
@@ -5421,6 +5836,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "RepJson",
           "package": "yesod-core",
@@ -5434,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "RepPlain",
           "package": "yesod-core",
@@ -5442,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "RepPlain",
           "package": "yesod-core",
@@ -5455,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "RepXml",
           "package": "yesod-core",
@@ -5463,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "RepXml",
           "package": "yesod-core",
@@ -5477,6 +5897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple containing both the POST parameters and submitted files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "RequestBodyContents",
           "package": "yesod-core",
@@ -5486,6 +5907,7 @@
         "index": {
           "description": "tuple containing both the POST parameters and submitted files",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "RequestBodyContents",
           "package": "yesod-core",
@@ -5499,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ResolvedApproot",
           "package": "yesod-core",
@@ -5507,6 +5930,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ResolvedApproot",
           "package": "yesod-core",
@@ -5520,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "RunHandlerEnv",
           "package": "yesod-core",
@@ -5528,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "RunHandlerEnv",
           "package": "yesod-core",
@@ -5541,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "SaveSession",
           "package": "yesod-core",
@@ -5549,6 +5976,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "SaveSession",
           "package": "yesod-core",
@@ -5562,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Script",
           "package": "yesod-core",
@@ -5570,6 +5999,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Script",
           "package": "yesod-core",
@@ -5583,6 +6013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ScriptLoadPosition",
           "package": "yesod-core",
@@ -5591,6 +6022,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ScriptLoadPosition",
           "package": "yesod-core",
@@ -5604,6 +6036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "SessionBackend",
           "package": "yesod-core",
@@ -5612,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "SessionBackend",
           "package": "yesod-core",
@@ -5625,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "SessionCookie",
           "package": "yesod-core",
@@ -5633,6 +6068,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "SessionCookie",
           "package": "yesod-core",
@@ -5646,6 +6082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "SessionMap",
           "package": "yesod-core",
@@ -5654,6 +6091,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "SessionMap",
           "package": "yesod-core",
@@ -5667,6 +6105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Stylesheet",
           "package": "yesod-core",
@@ -5675,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Stylesheet",
           "package": "yesod-core",
@@ -5688,6 +6128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Texts",
           "package": "yesod-core",
@@ -5696,6 +6137,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Texts",
           "package": "yesod-core",
@@ -5709,6 +6151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Title",
           "package": "yesod-core",
@@ -5717,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Title",
           "package": "yesod-core",
@@ -5730,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "TypedContent",
           "package": "yesod-core",
@@ -5738,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "TypedContent",
           "package": "yesod-core",
@@ -5752,6 +6198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA diff list that does not directly enforce uniqueness.\n When creating a widget Yesod will use nub to make it unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "UniqueList",
           "package": "yesod-core",
@@ -5761,6 +6208,7 @@
         "index": {
           "description": "diff list that does not directly enforce uniqueness When creating widget Yesod will use nub to make it unique",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "UniqueList",
           "package": "yesod-core",
@@ -5775,6 +6223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a normal WAI application as a Yesod subsite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "WaiSubsite",
           "package": "yesod-core",
@@ -5784,6 +6233,7 @@
         "index": {
           "description": "Wrap up normal WAI application as Yesod subsite",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "WaiSubsite",
           "package": "yesod-core",
@@ -5798,6 +6248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic widget, allowing specification of both the subsite and master\n site datatypes. While this is simply a \u003ccode\u003eWriterT\u003c/code\u003e, we define a newtype for\n better error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "WidgetT",
           "package": "yesod-core",
@@ -5807,6 +6258,7 @@
         "index": {
           "description": "generic widget allowing specification of both the subsite and master site datatypes While this is simply WriterT we define newtype for better error messages",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "WidgetT",
           "package": "yesod-core",
@@ -5821,6 +6273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn extension of the basic WAI \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e datatype to provide extra\n features needed by Yesod. Users should never need to use this directly, as\n the \u003ccode\u003e\u003ca\u003eHandlerT\u003c/a\u003e\u003c/code\u003e monad and template haskell code should hide it away.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YesodApp",
           "package": "yesod-core",
@@ -5830,6 +6283,7 @@
         "index": {
           "description": "An extension of the basic WAI Application datatype to provide extra features needed by Yesod Users should never need to use this directly as the HandlerT monad and template haskell code should hide it away",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YesodApp",
           "package": "yesod-core",
@@ -5844,6 +6298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parsed request information. This type augments the standard WAI\n \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e with additional information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YesodRequest",
           "package": "yesod-core",
@@ -5853,6 +6308,7 @@
         "index": {
           "description": "The parsed request information This type augments the standard WAI Request with additional information",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YesodRequest",
           "package": "yesod-core",
@@ -5867,6 +6323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn augmented WAI \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e. This can either be a standard \u003ccode\u003eResponse\u003c/code\u003e,\n or a higher-level data structure which Yesod will turn into a \u003ccode\u003eResponse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YesodResponse",
           "package": "yesod-core",
@@ -5876,6 +6333,7 @@
         "index": {
           "description": "An augmented WAI Response This can either be standard Response or higher-level data structure which Yesod will turn into Response",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YesodResponse",
           "package": "yesod-core",
@@ -5889,6 +6347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YesodRunnerEnv",
           "package": "yesod-core",
@@ -5897,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YesodRunnerEnv",
           "package": "yesod-core",
@@ -5910,6 +6370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YesodSubRunnerEnv",
           "package": "yesod-core",
@@ -5918,6 +6379,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YesodSubRunnerEnv",
           "package": "yesod-core",
@@ -6121,6 +6583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Body",
           "package": "yesod-core",
@@ -6130,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Body",
           "package": "yesod-core",
@@ -6212,6 +6676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Cache",
           "package": "yesod-core",
@@ -6221,6 +6686,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Cache",
           "package": "yesod-core",
@@ -6234,6 +6700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ClientSessionDateCache",
           "package": "yesod-core",
@@ -6243,6 +6710,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ClientSessionDateCache",
           "package": "yesod-core",
@@ -6302,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "FileInfo",
           "package": "yesod-core",
@@ -6311,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "FileInfo",
           "package": "yesod-core",
@@ -6395,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "GHState",
           "package": "yesod-core",
@@ -6404,6 +6875,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "GHState",
           "package": "yesod-core",
@@ -6417,6 +6889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "GWData",
           "package": "yesod-core",
@@ -6426,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "GWData",
           "package": "yesod-core",
@@ -6439,6 +6913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HCContent",
           "package": "yesod-core",
@@ -6448,6 +6923,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HCContent",
           "package": "yesod-core",
@@ -6461,6 +6937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HCCreated",
           "package": "yesod-core",
@@ -6470,6 +6947,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HCCreated",
           "package": "yesod-core",
@@ -6483,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HCError",
           "package": "yesod-core",
@@ -6492,6 +6971,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HCError",
           "package": "yesod-core",
@@ -6505,6 +6985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HCRedirect",
           "package": "yesod-core",
@@ -6514,6 +6995,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HCRedirect",
           "package": "yesod-core",
@@ -6527,6 +7009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HCSendFile",
           "package": "yesod-core",
@@ -6536,6 +7019,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HCSendFile",
           "package": "yesod-core",
@@ -6549,6 +7033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HCWai",
           "package": "yesod-core",
@@ -6558,6 +7043,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HCWai",
           "package": "yesod-core",
@@ -6571,6 +7057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HandlerData",
           "package": "yesod-core",
@@ -6580,6 +7067,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HandlerData",
           "package": "yesod-core",
@@ -6593,6 +7081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "HandlerT",
           "package": "yesod-core",
@@ -6602,6 +7091,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "HandlerT",
           "package": "yesod-core",
@@ -6615,6 +7105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Head",
           "package": "yesod-core",
@@ -6624,6 +7115,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Head",
           "package": "yesod-core",
@@ -6708,6 +7200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Local",
           "package": "yesod-core",
@@ -6717,6 +7210,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Local",
           "package": "yesod-core",
@@ -6730,6 +7224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Logger",
           "package": "yesod-core",
@@ -6739,6 +7234,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Logger",
           "package": "yesod-core",
@@ -6844,6 +7340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Remote",
           "package": "yesod-core",
@@ -6853,6 +7350,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Remote",
           "package": "yesod-core",
@@ -6866,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "RunHandlerEnv",
           "package": "yesod-core",
@@ -6875,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "RunHandlerEnv",
           "package": "yesod-core",
@@ -6888,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Script",
           "package": "yesod-core",
@@ -6897,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Script",
           "package": "yesod-core",
@@ -6933,6 +7435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "SessionCookie",
           "package": "yesod-core",
@@ -6942,6 +7445,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "SessionCookie",
           "package": "yesod-core",
@@ -6955,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Stylesheet",
           "package": "yesod-core",
@@ -6964,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Stylesheet",
           "package": "yesod-core",
@@ -6977,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "Title",
           "package": "yesod-core",
@@ -6986,6 +7493,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "Title",
           "package": "yesod-core",
@@ -7022,6 +7530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "UniqueList",
           "package": "yesod-core",
@@ -7031,6 +7540,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "UniqueList",
           "normalized": "UniqueList([a]-\u003e[a])",
@@ -7046,6 +7556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "WidgetT",
           "package": "yesod-core",
@@ -7055,6 +7566,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "WidgetT",
           "package": "yesod-core",
@@ -7068,6 +7580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YRPlain",
           "package": "yesod-core",
@@ -7077,6 +7590,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YRPlain",
           "normalized": "YRPlain Status[Header]ContentType Content SessionMap",
@@ -7092,6 +7606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YRWai",
           "package": "yesod-core",
@@ -7101,6 +7616,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YRWai",
           "package": "yesod-core",
@@ -7114,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YesodRunnerEnv",
           "package": "yesod-core",
@@ -7123,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YesodRunnerEnv",
           "package": "yesod-core",
@@ -7136,6 +7654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "YesodSubRunnerEnv",
           "package": "yesod-core",
@@ -7145,6 +7664,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "YesodSubRunnerEnv",
           "package": "yesod-core",
@@ -7158,6 +7678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "csdcExpires",
           "package": "yesod-core",
@@ -7167,6 +7688,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "csdcExpires",
           "package": "yesod-core",
@@ -7180,6 +7702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "csdcExpiresSerialized",
           "package": "yesod-core",
@@ -7189,6 +7712,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "csdcExpiresSerialized",
           "package": "yesod-core",
@@ -7202,6 +7726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "csdcNow",
           "package": "yesod-core",
@@ -7211,6 +7736,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "csdcNow",
           "package": "yesod-core",
@@ -7224,6 +7750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "fileContentType",
           "package": "yesod-core",
@@ -7233,6 +7760,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "fileContentType",
           "package": "yesod-core",
@@ -7246,6 +7774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "fileMove",
           "package": "yesod-core",
@@ -7255,6 +7784,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "fileMove",
           "normalized": "(FilePath-\u003eIO())",
@@ -7270,6 +7800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "fileName",
           "package": "yesod-core",
@@ -7279,6 +7810,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "fileName",
           "package": "yesod-core",
@@ -7292,6 +7824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "fileSourceRaw",
           "package": "yesod-core",
@@ -7301,6 +7834,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "fileSourceRaw",
           "package": "yesod-core",
@@ -7314,6 +7848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ghsCache",
           "package": "yesod-core",
@@ -7323,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ghsCache",
           "package": "yesod-core",
@@ -7336,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ghsHeaders",
           "package": "yesod-core",
@@ -7345,6 +7882,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ghsHeaders",
           "normalized": "Endo[Header]",
@@ -7360,6 +7898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ghsIdent",
           "package": "yesod-core",
@@ -7369,6 +7908,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ghsIdent",
           "package": "yesod-core",
@@ -7382,6 +7922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ghsRBC",
           "package": "yesod-core",
@@ -7391,6 +7932,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ghsRBC",
           "package": "yesod-core",
@@ -7404,6 +7946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ghsSession",
           "package": "yesod-core",
@@ -7413,6 +7956,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ghsSession",
           "package": "yesod-core",
@@ -7426,6 +7970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "gwdBody",
           "package": "yesod-core",
@@ -7435,6 +7980,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "gwdBody",
           "package": "yesod-core",
@@ -7448,6 +7994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "gwdCss",
           "package": "yesod-core",
@@ -7457,6 +8004,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "gwdCss",
           "package": "yesod-core",
@@ -7470,6 +8018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "gwdHead",
           "package": "yesod-core",
@@ -7479,6 +8028,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "gwdHead",
           "package": "yesod-core",
@@ -7492,6 +8042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "gwdJavascript",
           "package": "yesod-core",
@@ -7501,6 +8052,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "gwdJavascript",
           "package": "yesod-core",
@@ -7514,6 +8066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "gwdScripts",
           "package": "yesod-core",
@@ -7523,6 +8076,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "gwdScripts",
           "package": "yesod-core",
@@ -7536,6 +8090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "gwdStylesheets",
           "package": "yesod-core",
@@ -7545,6 +8100,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "gwdStylesheets",
           "package": "yesod-core",
@@ -7558,6 +8114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "gwdTitle",
           "package": "yesod-core",
@@ -7567,6 +8124,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "gwdTitle",
           "package": "yesod-core",
@@ -7580,6 +8138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "handlerEnv",
           "package": "yesod-core",
@@ -7589,6 +8148,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "handlerEnv",
           "package": "yesod-core",
@@ -7602,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "handlerRequest",
           "package": "yesod-core",
@@ -7611,6 +8172,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "handlerRequest",
           "package": "yesod-core",
@@ -7624,6 +8186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "handlerResource",
           "package": "yesod-core",
@@ -7633,6 +8196,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "handlerResource",
           "package": "yesod-core",
@@ -7646,6 +8210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "handlerState",
           "package": "yesod-core",
@@ -7655,6 +8220,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "handlerState",
           "package": "yesod-core",
@@ -7668,6 +8234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "handlerToParent",
           "package": "yesod-core",
@@ -7677,6 +8244,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "handlerToParent",
           "normalized": "(Route a-\u003eb)",
@@ -7692,6 +8260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "loggerDate",
           "package": "yesod-core",
@@ -7701,6 +8270,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "loggerDate",
           "package": "yesod-core",
@@ -7714,6 +8284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "loggerPutStr",
           "package": "yesod-core",
@@ -7723,6 +8294,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "loggerPutStr",
           "normalized": "Logger-\u003eLogStr-\u003eIO()",
@@ -7738,6 +8310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "loggerSet",
           "package": "yesod-core",
@@ -7747,6 +8320,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "loggerSet",
           "package": "yesod-core",
@@ -7829,6 +8403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "rheLog",
           "package": "yesod-core",
@@ -7838,6 +8413,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "rheLog",
           "normalized": "(Loc-\u003eLogSource-\u003eLogLevel-\u003eLogStr-\u003eIO())",
@@ -7854,6 +8430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to respond when an error is thrown internally.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "rheOnError",
           "package": "yesod-core",
@@ -7864,6 +8441,7 @@
         "index": {
           "description": "How to respond when an error is thrown internally Since",
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "rheOnError",
           "normalized": "(ErrorResponse-\u003eYesodApp)",
@@ -7879,6 +8457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "rheRender",
           "package": "yesod-core",
@@ -7888,6 +8467,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "rheRender",
           "normalized": "(Route a-\u003e[(Text,Text)]-\u003eText)",
@@ -7903,6 +8483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "rheRoute",
           "package": "yesod-core",
@@ -7912,6 +8493,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "rheRoute",
           "package": "yesod-core",
@@ -7925,6 +8507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "rheSite",
           "package": "yesod-core",
@@ -7934,6 +8517,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "rheSite",
           "package": "yesod-core",
@@ -7947,6 +8531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "rheUpload",
           "package": "yesod-core",
@@ -7956,6 +8541,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "rheUpload",
           "normalized": "(RequestBodyLength-\u003eFileUpload)",
@@ -7998,6 +8584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "scriptAttributes",
           "package": "yesod-core",
@@ -8007,6 +8594,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "scriptAttributes",
           "normalized": "[(Text,Text)]",
@@ -8022,6 +8610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "scriptLocation",
           "package": "yesod-core",
@@ -8031,6 +8620,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "scriptLocation",
           "package": "yesod-core",
@@ -8044,6 +8634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "styleAttributes",
           "package": "yesod-core",
@@ -8053,6 +8644,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "styleAttributes",
           "normalized": "[(Text,Text)]",
@@ -8068,6 +8660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "styleLocation",
           "package": "yesod-core",
@@ -8077,6 +8670,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "styleLocation",
           "package": "yesod-core",
@@ -8113,6 +8707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "unHandlerT",
           "package": "yesod-core",
@@ -8122,6 +8717,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "unHandlerT",
           "normalized": "HandlerData a(MonadRoute b)-\u003eb c",
@@ -8137,6 +8733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "unTitle",
           "package": "yesod-core",
@@ -8146,6 +8743,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "unTitle",
           "package": "yesod-core",
@@ -8159,6 +8757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "unWidgetT",
           "package": "yesod-core",
@@ -8168,6 +8767,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "unWidgetT",
           "normalized": "HandlerData a(MonadRoute b)-\u003eb(c,GWData(Route a))",
@@ -8183,6 +8783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "yreLogger",
           "package": "yesod-core",
@@ -8192,6 +8793,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "yreLogger",
           "package": "yesod-core",
@@ -8205,6 +8807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "yreSessionBackend",
           "package": "yesod-core",
@@ -8214,6 +8817,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "yreSessionBackend",
           "package": "yesod-core",
@@ -8227,6 +8831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "yreSite",
           "package": "yesod-core",
@@ -8236,6 +8841,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "yreSite",
           "package": "yesod-core",
@@ -8249,6 +8855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ysreGetSub",
           "package": "yesod-core",
@@ -8258,6 +8865,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ysreGetSub",
           "normalized": "(a-\u003eb)",
@@ -8273,6 +8881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ysreParentEnv",
           "package": "yesod-core",
@@ -8282,6 +8891,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ysreParentEnv",
           "package": "yesod-core",
@@ -8295,6 +8905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ysreParentRunner",
           "package": "yesod-core",
@@ -8304,6 +8915,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ysreParentRunner",
           "package": "yesod-core",
@@ -8317,6 +8929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Types",
           "name": "ysreToParentRoute",
           "package": "yesod-core",
@@ -8326,6 +8939,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Types",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Types",
           "name": "ysreToParentRoute",
           "normalized": "(Route a-\u003eRoute b)",
@@ -8342,6 +8956,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWidgets combine HTML with JS and CSS dependencies with a unique identifier\n generator, allowing you to create truly modular HTML components.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "Widget",
           "package": "yesod-core",
@@ -8351,6 +8966,7 @@
         "index": {
           "description": "Widgets combine HTML with JS and CSS dependencies with unique identifier generator allowing you to create truly modular HTML components",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "Widget",
           "package": "yesod-core",
@@ -8365,6 +8981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper allowing injection of arbitrary content into CSS.\n\u003c/p\u003e\u003cp\u003eUsage:\n\u003c/p\u003e\u003cpre\u003e toWidget $ CssBuilder \"p { color: red }\"\n\u003c/pre\u003e\u003cp\u003eSince: 1.1.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "CssBuilder",
           "package": "yesod-core",
@@ -8374,6 +8991,7 @@
         "index": {
           "description": "Newtype wrapper allowing injection of arbitrary content into CSS Usage toWidget CssBuilder color red Since",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "CssBuilder",
           "package": "yesod-core",
@@ -8388,6 +9006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent for a web page. By providing this datatype, we can easily create\n generic site templates, which would have the type signature:\n\u003c/p\u003e\u003cpre\u003e PageContent url -\u003e HtmlUrl url\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "PageContent",
           "package": "yesod-core",
@@ -8397,6 +9016,7 @@
         "index": {
           "description": "Content for web page By providing this datatype we can easily create generic site templates which would have the type signature PageContent url HtmlUrl url",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "PageContent",
           "package": "yesod-core",
@@ -8410,6 +9030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "ToWidget",
           "package": "yesod-core",
@@ -8418,6 +9039,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "ToWidget",
           "package": "yesod-core",
@@ -8431,6 +9053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "ToWidgetBody",
           "package": "yesod-core",
@@ -8439,6 +9062,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "ToWidgetBody",
           "package": "yesod-core",
@@ -8452,6 +9076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "ToWidgetHead",
           "package": "yesod-core",
@@ -8460,6 +9085,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "ToWidgetHead",
           "package": "yesod-core",
@@ -8474,6 +9100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows adding some CSS to the page with a specific media type.\n\u003c/p\u003e\u003cp\u003eSince 1.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "ToWidgetMedia",
           "package": "yesod-core",
@@ -8483,6 +9110,7 @@
         "index": {
           "description": "Allows adding some CSS to the page with specific media type Since",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "ToWidgetMedia",
           "package": "yesod-core",
@@ -8497,6 +9125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic widget, allowing specification of both the subsite and master\n site datatypes. While this is simply a \u003ccode\u003eWriterT\u003c/code\u003e, we define a newtype for\n better error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "WidgetT",
           "package": "yesod-core",
@@ -8506,6 +9135,7 @@
         "index": {
           "description": "generic widget allowing specification of both the subsite and master site datatypes While this is simply WriterT we define newtype for better error messages",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "WidgetT",
           "package": "yesod-core",
@@ -8520,6 +9150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the specified local script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addScript",
           "package": "yesod-core",
@@ -8530,6 +9161,7 @@
         "index": {
           "description": "Link to the specified local script",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addScript",
           "normalized": "Route(HandlerSite a)-\u003ea()",
@@ -8546,6 +9178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the specified local script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addScriptAttrs",
           "package": "yesod-core",
@@ -8556,6 +9189,7 @@
         "index": {
           "description": "Link to the specified local script",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addScriptAttrs",
           "normalized": "Route(HandlerSite a)-\u003e[(Text,Text)]-\u003ea()",
@@ -8571,6 +9205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addScriptEither",
           "package": "yesod-core",
@@ -8580,6 +9215,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addScriptEither",
           "normalized": "Either(Route(HandlerSite a))Text-\u003ea()",
@@ -8596,6 +9232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the specified remote script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addScriptRemote",
           "package": "yesod-core",
@@ -8606,6 +9243,7 @@
         "index": {
           "description": "Link to the specified remote script",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addScriptRemote",
           "normalized": "Text-\u003ea()",
@@ -8622,6 +9260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the specified remote script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addScriptRemoteAttrs",
           "package": "yesod-core",
@@ -8632,6 +9271,7 @@
         "index": {
           "description": "Link to the specified remote script",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addScriptRemoteAttrs",
           "normalized": "Text-\u003e[(Text,Text)]-\u003ea()",
@@ -8648,6 +9288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the specified local stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheet",
           "package": "yesod-core",
@@ -8658,6 +9299,7 @@
         "index": {
           "description": "Link to the specified local stylesheet",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheet",
           "normalized": "Route(HandlerSite a)-\u003ea()",
@@ -8674,6 +9316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the specified local stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheetAttrs",
           "package": "yesod-core",
@@ -8684,6 +9327,7 @@
         "index": {
           "description": "Link to the specified local stylesheet",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheetAttrs",
           "normalized": "Route(HandlerSite a)-\u003e[(Text,Text)]-\u003ea()",
@@ -8699,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheetEither",
           "package": "yesod-core",
@@ -8708,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheetEither",
           "normalized": "Either(Route(HandlerSite a))Text-\u003ea()",
@@ -8724,6 +9370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the specified remote stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheetRemote",
           "package": "yesod-core",
@@ -8734,6 +9381,7 @@
         "index": {
           "description": "Link to the specified remote stylesheet",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheetRemote",
           "normalized": "Text-\u003ea()",
@@ -8750,6 +9398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the specified remote stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheetRemoteAttrs",
           "package": "yesod-core",
@@ -8760,6 +9409,7 @@
         "index": {
           "description": "Link to the specified remote stylesheet",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "addStylesheetRemoteAttrs",
           "normalized": "Text-\u003e[(Text,Text)]-\u003ea()",
@@ -8775,6 +9425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "asWidgetT",
           "package": "yesod-core",
@@ -8784,6 +9435,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "asWidgetT",
           "normalized": "WidgetT a b()-\u003eWidgetT a b()",
@@ -8799,6 +9451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "handlerToWidget",
           "package": "yesod-core",
@@ -8808,6 +9461,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "handlerToWidget",
           "normalized": "HandlerT a b c-\u003eWidgetT a b c",
@@ -8824,6 +9478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps the \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e generated by \u003ccode\u003ehamletToContent\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eRepHtml\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "ihamletToHtml",
           "package": "yesod-core",
@@ -8834,6 +9489,7 @@
         "index": {
           "description": "Wraps the Content generated by hamletToContent in RepHtml Since",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "ihamletToHtml",
           "normalized": "HtmlUrlI a b(Route(HandlerSite c))-\u003ec Html",
@@ -8850,6 +9506,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use ihamletToHtml instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eWraps the \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e generated by \u003ccode\u003ehamletToContent\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eRepHtml\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "ihamletToRepHtml",
           "package": "yesod-core",
@@ -8860,6 +9517,7 @@
         "index": {
           "description": "Deprecated Please use ihamletToHtml instead Wraps the Content generated by hamletToContent in RepHtml",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "ihamletToRepHtml",
           "normalized": "HtmlUrlI a b(Route(HandlerSite c))-\u003ec Html",
@@ -8876,6 +9534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the page title. Calling \u003ccode\u003e\u003ca\u003esetTitle\u003c/a\u003e\u003c/code\u003e multiple times overrides previously\n set values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "setTitle",
           "package": "yesod-core",
@@ -8886,6 +9545,7 @@
         "index": {
           "description": "Set the page title Calling setTitle multiple times overrides previously set values",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "setTitle",
           "normalized": "Html-\u003ea()",
@@ -8902,6 +9562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the page title. Calling \u003ccode\u003e\u003ca\u003esetTitle\u003c/a\u003e\u003c/code\u003e multiple times overrides previously\n set values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "setTitleI",
           "package": "yesod-core",
@@ -8912,6 +9573,7 @@
         "index": {
           "description": "Set the page title Calling setTitle multiple times overrides previously set values",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "setTitleI",
           "normalized": "a-\u003eb()",
@@ -8927,6 +9589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "toWidget",
           "package": "yesod-core",
@@ -8936,6 +9599,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "toWidget",
           "normalized": "a-\u003eb()",
@@ -8951,6 +9615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "toWidgetBody",
           "package": "yesod-core",
@@ -8960,6 +9625,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "toWidgetBody",
           "normalized": "a-\u003eb()",
@@ -8975,6 +9641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "toWidgetHead",
           "package": "yesod-core",
@@ -8984,6 +9651,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "toWidgetHead",
           "normalized": "a-\u003eb()",
@@ -9000,6 +9668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the given content to the page, but only for the given media type.\n\u003c/p\u003e\u003cp\u003eSince 1.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "toWidgetMedia",
           "package": "yesod-core",
@@ -9010,6 +9679,7 @@
         "index": {
           "description": "Add the given content to the page but only for the given media type Since",
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "toWidgetMedia",
           "package": "yesod-core",
@@ -9023,6 +9693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "whamlet",
           "package": "yesod-core",
@@ -9032,6 +9703,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "whamlet",
           "package": "yesod-core",
@@ -9044,6 +9716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "whamletFile",
           "package": "yesod-core",
@@ -9053,6 +9726,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "whamletFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -9068,6 +9742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "whamletFileWithSettings",
           "package": "yesod-core",
@@ -9077,6 +9752,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "whamletFileWithSettings",
           "normalized": "HamletSettings-\u003eFilePath-\u003eQ Exp",
@@ -9092,6 +9768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core.Widget",
           "name": "widgetToParentWidget",
           "package": "yesod-core",
@@ -9101,6 +9778,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core Widget",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core.Widget",
           "name": "widgetToParentWidget",
           "normalized": "WidgetT a IO b-\u003eHandlerT a(HandlerT c d)(WidgetT c d b)",
@@ -9116,6 +9794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "Core",
           "package": "yesod-core",
@@ -9124,6 +9803,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "Core",
           "package": "yesod-core",
@@ -9138,6 +9818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe WAI application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "Application",
           "package": "yesod-core",
@@ -9146,6 +9827,7 @@
         "index": {
           "description": "The WAI application",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "Application",
           "package": "yesod-core",
@@ -9160,6 +9842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to determine the root of the application for constructing URLs.\n\u003c/p\u003e\u003cp\u003eNote that future versions of Yesod may add new constructors without bumping\n the major version number. As a result, you should \u003cem\u003enot\u003c/em\u003e pattern match on\n \u003ccode\u003eApproot\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "Approot",
           "package": "yesod-core",
@@ -9169,6 +9852,7 @@
         "index": {
           "description": "How to determine the root of the application for constructing URLs Note that future versions of Yesod may add new constructors without bumping the major version number As result you should not pattern match on Approot values",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "Approot",
           "package": "yesod-core",
@@ -9182,6 +9866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "AuthResult",
           "package": "yesod-core",
@@ -9190,6 +9875,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "AuthResult",
           "package": "yesod-core",
@@ -9203,6 +9889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "BottomOfHeadAsync",
           "package": "yesod-core",
@@ -9211,6 +9898,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "BottomOfHeadAsync",
           "package": "yesod-core",
@@ -9224,6 +9912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "CssUrl",
           "package": "yesod-core",
@@ -9231,6 +9920,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "CssUrl",
           "package": "yesod-core",
@@ -9245,6 +9935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponses to indicate some form of an error occurred. These are different\n from \u003ccode\u003eSpecialResponse\u003c/code\u003e in that they allow for custom error pages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "ErrorResponse",
           "package": "yesod-core",
@@ -9254,6 +9945,7 @@
         "index": {
           "description": "Responses to indicate some form of an error occurred These are different from SpecialResponse in that they allow for custom error pages",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "ErrorResponse",
           "package": "yesod-core",
@@ -9267,6 +9959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "FileUpload",
           "package": "yesod-core",
@@ -9275,6 +9968,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "FileUpload",
           "package": "yesod-core",
@@ -9289,6 +9983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeaders to be added to a \u003ccode\u003eResult\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "Header",
           "package": "yesod-core",
@@ -9298,6 +9993,7 @@
         "index": {
           "description": "Headers to be added to Result",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "Header",
           "package": "yesod-core",
@@ -9312,6 +10008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function generating an \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e given a URL-rendering function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "HtmlUrl",
           "package": "yesod-core",
@@ -9320,6 +10017,7 @@
         "index": {
           "description": "function generating an Html given URL-rendering function",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "HtmlUrl",
           "package": "yesod-core",
@@ -9334,6 +10032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn type of template-reading functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "JavascriptUrl",
           "package": "yesod-core",
@@ -9342,6 +10041,7 @@
         "index": {
           "description": "Return type of template-reading functions",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "JavascriptUrl",
           "package": "yesod-core",
@@ -9355,6 +10055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LiteApp",
           "package": "yesod-core",
@@ -9363,6 +10064,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LiteApp",
           "package": "yesod-core",
@@ -9376,6 +10078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LiteHandler",
           "package": "yesod-core",
@@ -9384,6 +10087,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LiteHandler",
           "package": "yesod-core",
@@ -9397,6 +10101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LiteWidget",
           "package": "yesod-core",
@@ -9405,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LiteWidget",
           "package": "yesod-core",
@@ -9418,6 +10124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LogLevel",
           "package": "yesod-core",
@@ -9425,6 +10132,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LogLevel",
           "package": "yesod-core",
@@ -9438,6 +10146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "MonadBase",
           "package": "yesod-core",
@@ -9445,6 +10154,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "MonadBase",
           "package": "yesod-core",
@@ -9458,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "MonadBaseControl",
           "package": "yesod-core",
@@ -9465,6 +10176,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "MonadBaseControl",
           "package": "yesod-core",
@@ -9478,6 +10190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "MonadHandler",
           "package": "yesod-core",
@@ -9486,6 +10199,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "MonadHandler",
           "package": "yesod-core",
@@ -9500,6 +10214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads in which \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations may be embedded.\n Any monad built by applying a sequence of monad transformers to the\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad will be an instance of this class.\n\u003c/p\u003e\u003cp\u003eInstances should satisfy the following laws, which state that \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e\n is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "MonadIO",
           "package": "yesod-core",
@@ -9508,6 +10223,7 @@
         "index": {
           "description": "Monads in which IO computations may be embedded Any monad built by applying sequence of monad transformers to the IO monad will be an instance of this class Instances should satisfy the following laws which state that liftIO is transformer of monads liftIO return return liftIO liftIO liftIO",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "MonadIO",
           "package": "yesod-core",
@@ -9521,6 +10237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "MonadLogger",
           "package": "yesod-core",
@@ -9528,6 +10245,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "MonadLogger",
           "package": "yesod-core",
@@ -9542,6 +10260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eMonad\u003c/code\u003e which allows for safe resource allocation. In theory, any monad\n transformer stack included a \u003ccode\u003eResourceT\u003c/code\u003e can be an instance of\n \u003ccode\u003eMonadResource\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: \u003ccode\u003erunResourceT\u003c/code\u003e has a requirement for a \u003ccode\u003eMonadBaseControl IO m\u003c/code\u003e monad,\n which allows control operations to be lifted. A \u003ccode\u003eMonadResource\u003c/code\u003e does not\n have this requirement. This means that transformers such as \u003ccode\u003eContT\u003c/code\u003e can be\n an instance of \u003ccode\u003eMonadResource\u003c/code\u003e. However, the \u003ccode\u003eContT\u003c/code\u003e wrapper will need to be\n unwrapped before calling \u003ccode\u003erunResourceT\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.3.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "MonadResource",
           "package": "yesod-core",
@@ -9550,6 +10269,7 @@
         "index": {
           "description": "Monad which allows for safe resource allocation In theory any monad transformer stack included ResourceT can be an instance of MonadResource Note runResourceT has requirement for MonadBaseControl IO monad which allows control operations to be lifted MonadResource does not have this requirement This means that transformers such as ContT can be an instance of MonadResource However the ContT wrapper will need to be unwrapped before calling runResourceT Since",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "MonadResource",
           "package": "yesod-core",
@@ -9564,6 +10284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monad transformers.  Instances should satisfy the\n following laws, which state that \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "MonadTrans",
           "package": "yesod-core",
@@ -9572,6 +10293,7 @@
         "index": {
           "description": "The class of monad transformers Instances should satisfy the following laws which state that lift is transformer of monads lift return return lift lift lift",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "MonadTrans",
           "package": "yesod-core",
@@ -9585,6 +10307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "MonadWidget",
           "package": "yesod-core",
@@ -9593,6 +10316,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "MonadWidget",
           "package": "yesod-core",
@@ -9606,6 +10330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "ParseRoute",
           "package": "yesod-core",
@@ -9613,6 +10338,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "ParseRoute",
           "package": "yesod-core",
@@ -9626,6 +10352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "RenderRoute",
           "package": "yesod-core",
@@ -9633,6 +10360,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "RenderRoute",
           "package": "yesod-core",
@@ -9646,6 +10374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "RouteAttrs",
           "package": "yesod-core",
@@ -9653,6 +10382,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "RouteAttrs",
           "package": "yesod-core",
@@ -9666,6 +10396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "ScriptLoadPosition",
           "package": "yesod-core",
@@ -9674,6 +10405,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "ScriptLoadPosition",
           "package": "yesod-core",
@@ -9687,6 +10419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "SessionBackend",
           "package": "yesod-core",
@@ -9695,6 +10428,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "SessionBackend",
           "package": "yesod-core",
@@ -9709,6 +10443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine settings for a Yesod applications. All methods have intelligent\n defaults, and therefore no implementation is required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "Yesod",
           "package": "yesod-core",
@@ -9718,6 +10453,7 @@
         "index": {
           "description": "Define settings for Yesod applications All methods have intelligent defaults and therefore no implementation is required",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "Yesod",
           "package": "yesod-core",
@@ -9732,6 +10468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type-safe, concise method of creating breadcrumbs for pages. For each\n resource, you declare the title of the page and the parent resource (if\n present).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "YesodBreadcrumbs",
           "package": "yesod-core",
@@ -9741,6 +10478,7 @@
         "index": {
           "description": "type-safe concise method of creating breadcrumbs for pages For each resource you declare the title of the page and the parent resource if present",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "YesodBreadcrumbs",
           "package": "yesod-core",
@@ -9755,6 +10493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is automatically instantiated when you use the template haskell\n mkYesod function. You should never need to deal with it directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "YesodDispatch",
           "package": "yesod-core",
@@ -9764,6 +10503,7 @@
         "index": {
           "description": "This class is automatically instantiated when you use the template haskell mkYesod function You should never need to deal with it directly",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "YesodDispatch",
           "package": "yesod-core",
@@ -9777,6 +10517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "YesodSubDispatch",
           "package": "yesod-core",
@@ -9785,6 +10526,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "YesodSubDispatch",
           "package": "yesod-core",
@@ -9798,6 +10540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LevelDebug",
           "package": "yesod-core",
@@ -9806,6 +10549,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LevelDebug",
           "package": "yesod-core",
@@ -9819,6 +10563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LevelError",
           "package": "yesod-core",
@@ -9827,6 +10572,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LevelError",
           "package": "yesod-core",
@@ -9840,6 +10586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LevelInfo",
           "package": "yesod-core",
@@ -9848,6 +10595,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LevelInfo",
           "package": "yesod-core",
@@ -9861,6 +10609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LevelOther",
           "package": "yesod-core",
@@ -9869,6 +10618,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LevelOther",
           "package": "yesod-core",
@@ -9882,6 +10632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LevelWarn",
           "package": "yesod-core",
@@ -9890,6 +10641,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LevelWarn",
           "package": "yesod-core",
@@ -9903,6 +10655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "LiteApp",
           "package": "yesod-core",
@@ -9912,6 +10665,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "LiteApp",
           "package": "yesod-core",
@@ -9926,6 +10680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is used to store some static content to be served as an\n external file. The most common case of this is stashing CSS and\n JavaScript content in an external file; the \u003ca\u003eYesod.Widget\u003c/a\u003e module uses\n this feature.\n\u003c/p\u003e\u003cp\u003eThe return value is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no storing was performed; this is the\n default implementation. A \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e gives the absolute URL of the\n file, whereas a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e gives the type-safe URL. The former is\n necessary when you are serving the content outside the context of a\n Yesod application, such as via memcached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "addStaticContent",
           "package": "yesod-core",
@@ -9936,6 +10691,7 @@
         "index": {
           "description": "This function is used to store some static content to be served as an external file The most common case of this is stashing CSS and JavaScript content in an external file the Yesod.Widget module uses this feature The return value is Nothing if no storing was performed this is the default implementation Just Left gives the absolute URL of the file whereas Just Right gives the type-safe URL The former is necessary when you are serving the content outside the context of Yesod application such as via memcached",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "addStaticContent",
           "package": "yesod-core",
@@ -9950,6 +10706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn absolute URL to the root of the application. Do not include\n trailing slash.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003eApprootRelative\u003c/a\u003e\u003c/code\u003e. This is valid under the following\n conditions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Your application is served from the root of the domain.\n\u003c/li\u003e\u003cli\u003e You do not use any features that require absolute URLs, such as Atom\n feeds and XML sitemaps.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf this is not true, you should override with a different\n implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "approot",
           "package": "yesod-core",
@@ -9960,6 +10717,7 @@
         "index": {
           "description": "An absolute URL to the root of the application Do not include trailing slash Default value ApprootRelative This is valid under the following conditions Your application is served from the root of the domain You do not use any features that require absolute URLs such as Atom feeds and XML sitemaps If this is not true you should override with different implementation",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "approot",
           "package": "yesod-core",
@@ -9973,6 +10731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default route for authentication.\n\u003c/p\u003e\u003cp\u003eUsed in particular by \u003ccode\u003e\u003ca\u003eisAuthorized\u003c/a\u003e\u003c/code\u003e, but library users can do whatever\n they want with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "authRoute",
           "package": "yesod-core",
@@ -9983,6 +10742,7 @@
         "index": {
           "description": "The default route for authentication Used in particular by isAuthorized but library users can do whatever they want with it",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "authRoute",
           "normalized": "a-\u003eMaybe(Route a)",
@@ -9999,6 +10759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the title and the parent resource, if available. If you return\n a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, then this is considered a top-level page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "breadcrumb",
           "package": "yesod-core",
@@ -10009,6 +10770,7 @@
         "index": {
           "description": "Returns the title and the parent resource if available If you return Nothing then this is considered top-level page",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "breadcrumb",
           "normalized": "Route a-\u003eHandlerT a IO(Text,Maybe(Route a))",
@@ -10024,6 +10786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the title of the current page and the hierarchy of parent pages,\n along with their respective titles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "breadcrumbs",
           "package": "yesod-core",
@@ -10034,6 +10797,7 @@
         "index": {
           "description": "Gets the title of the current page and the hierarchy of parent pages along with their respective titles",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "breadcrumbs",
           "normalized": "HandlerT a IO(Text,[(Route a,Text)])",
@@ -10048,6 +10812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "cassius",
           "package": "yesod-core",
@@ -10056,6 +10821,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "cassius",
           "package": "yesod-core",
@@ -10069,6 +10835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function used to clean up path segments. It returns \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e with a\n clean path or \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e with a new set of pieces the user should be\n redirected to. The default implementation enforces:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e No double slashes\n\u003c/li\u003e\u003cli\u003e There is no trailing slash.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote that versions of Yesod prior to 0.7 used a different set of rules\n involing trailing slashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "cleanPath",
           "package": "yesod-core",
@@ -10079,6 +10846,7 @@
         "index": {
           "description": "function used to clean up path segments It returns Right with clean path or Left with new set of pieces the user should be redirected to The default implementation enforces No double slashes There is no trailing slash Note that versions of Yesod prior to used different set of rules involing trailing slashes",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "cleanPath",
           "normalized": "a-\u003e[Text]-\u003eEither[Text][Text]",
@@ -10094,6 +10862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "clientSessionBackend",
           "package": "yesod-core",
@@ -10102,6 +10871,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "clientSessionBackend",
           "normalized": "Key-\u003eIO ClientSessionDateCache-\u003eSessionBackend",
@@ -10117,6 +10887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "clientSessionDateCacher",
           "package": "yesod-core",
@@ -10125,6 +10896,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "clientSessionDateCacher",
           "normalized": "NominalDiffTime-\u003eIO(IO ClientSessionDateCache,IO())",
@@ -10141,6 +10913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustomize the cookies used by the session backend.  You may\n use this function on your definition of \u003ccode\u003e\u003ca\u003emakeSessionBackend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example, you could set the cookie domain so that it\n would work across many subdomains:\n\u003c/p\u003e\u003cpre\u003e\n makeSessionBackend = fmap (customizeSessionCookie addDomain) ...\n   where\n     addDomain cookie = cookie { \u003ccode\u003e\u003ca\u003esetCookieDomain\u003c/a\u003e\u003c/code\u003e = Just \".example.com\" }\n\u003c/pre\u003e\u003cp\u003eDefault: Do not customize anything (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "customizeSessionCookies",
           "package": "yesod-core",
@@ -10151,6 +10924,7 @@
         "index": {
           "description": "Customize the cookies used by the session backend You may use this function on your definition of makeSessionBackend For example you could set the cookie domain so that it would work across many subdomains makeSessionBackend fmap customizeSessionCookie addDomain where addDomain cookie cookie setCookieDomain Just example.com Default Do not customize anything id",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "customizeSessionCookies",
           "normalized": "(SetCookie-\u003eSetCookie)-\u003eSessionBackend-\u003eSessionBackend",
@@ -10166,6 +10940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "defaultClientSessionBackend",
           "package": "yesod-core",
@@ -10174,6 +10949,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "defaultClientSessionBackend",
           "normalized": "Int-\u003eFilePath-\u003eIO SessionBackend",
@@ -10190,6 +10966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default error handler for \u003ccode\u003e\u003ca\u003eerrorHandler\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "defaultErrorHandler",
           "package": "yesod-core",
@@ -10200,6 +10977,7 @@
         "index": {
           "description": "The default error handler for errorHandler",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "defaultErrorHandler",
           "normalized": "ErrorResponse-\u003eHandlerT a IO TypedContent",
@@ -10216,6 +10994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies some form of layout to the contents of a page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "defaultLayout",
           "package": "yesod-core",
@@ -10226,6 +11005,7 @@
         "index": {
           "description": "Applies some form of layout to the contents of page",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "defaultLayout",
           "normalized": "WidgetT a IO()-\u003eHandlerT a IO Html",
@@ -10241,6 +11021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "defaultLayoutSub",
           "package": "yesod-core",
@@ -10250,6 +11031,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "defaultLayoutSub",
           "normalized": "WidgetT a IO()-\u003eHandlerT a(HandlerT b IO)Html",
@@ -10265,6 +11047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "dispatchTo",
           "package": "yesod-core",
@@ -10274,6 +11057,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "dispatchTo",
           "normalized": "LiteHandler a-\u003eWriter LiteApp()",
@@ -10290,6 +11074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput error response pages.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003edefaultErrorHandler\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "errorHandler",
           "package": "yesod-core",
@@ -10300,6 +11085,7 @@
         "index": {
           "description": "Output error response pages Default value defaultErrorHandler",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "errorHandler",
           "normalized": "ErrorResponse-\u003eHandlerT a IO TypedContent",
@@ -10316,6 +11102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to store uploaded files.\n\u003c/p\u003e\u003cp\u003eDefault: When the request body is greater than 50kb, store in a temp\n file. For chunked request bodies, store in a temp file. Otherwise, store\n in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "fileUpload",
           "package": "yesod-core",
@@ -10326,6 +11113,7 @@
         "index": {
           "description": "How to store uploaded files Default When the request body is greater than kb store in temp file For chunked request bodies store in temp file Otherwise store in memory",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "fileUpload",
           "normalized": "a-\u003eRequestBodyLength-\u003eFileUpload",
@@ -10342,6 +11130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat as per RFC 1123.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "formatRFC1123",
           "package": "yesod-core",
@@ -10352,6 +11141,7 @@
         "index": {
           "description": "Format as per RFC",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "formatRFC1123",
           "normalized": "UTCTime-\u003eText",
@@ -10368,6 +11158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat as per RFC 822.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "formatRFC822",
           "package": "yesod-core",
@@ -10378,6 +11169,7 @@
         "index": {
           "description": "Format as per RFC",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "formatRFC822",
           "normalized": "UTCTime-\u003eText",
@@ -10394,6 +11186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e in W3 format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "formatW3",
           "package": "yesod-core",
@@ -10404,6 +11197,7 @@
         "index": {
           "description": "Format UTCTime in W3 format",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "formatW3",
           "normalized": "UTCTime-\u003eText",
@@ -10418,6 +11212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "getRouteToParent",
           "package": "yesod-core",
@@ -10427,6 +11222,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "getRouteToParent",
           "normalized": "HandlerT a(HandlerT b c)(Route a-\u003eRoute b)",
@@ -10442,6 +11238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "getTime",
           "package": "yesod-core",
@@ -10451,6 +11248,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "getTime",
           "package": "yesod-core",
@@ -10464,6 +11262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "hamlet",
           "package": "yesod-core",
@@ -10472,6 +11271,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "hamlet",
           "package": "yesod-core",
@@ -10485,6 +11285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a request is authorized or not.\n\u003c/p\u003e\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eAuthorized\u003c/a\u003e\u003c/code\u003e if the request is authorized,\n \u003ccode\u003e\u003ca\u003eUnauthorized\u003c/a\u003e\u003c/code\u003e a message if unauthorized.\n If authentication is required, return \u003ccode\u003e\u003ca\u003eAuthenticationRequired\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "isAuthorized",
           "package": "yesod-core",
@@ -10495,6 +11296,7 @@
         "index": {
           "description": "Determine if request is authorized or not Return Authorized if the request is authorized Unauthorized message if unauthorized If authentication is required return AuthenticationRequired",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "isAuthorized",
           "package": "yesod-core",
@@ -10509,6 +11311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether the current request is a write request. By default,\n this assumes you are following RESTful principles, and determines this\n from request method. In particular, all except the following request\n methods are considered write: GET HEAD OPTIONS TRACE.\n\u003c/p\u003e\u003cp\u003eThis function is used to determine if a request is authorized; see\n \u003ccode\u003e\u003ca\u003eisAuthorized\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "isWriteRequest",
           "package": "yesod-core",
@@ -10519,6 +11322,7 @@
         "index": {
           "description": "Determines whether the current request is write request By default this assumes you are following RESTful principles and determines this from request method In particular all except the following request methods are considered write GET HEAD OPTIONS TRACE This function is used to determine if request is authorized see isAuthorized",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "isWriteRequest",
           "normalized": "Route a-\u003eHandlerT a IO Bool",
@@ -10535,6 +11339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds an absolute URL by concatenating the application root with the\n pieces of a path and a query string, if any.\n Note that the pieces of the path have been previously cleaned up by \u003ccode\u003e\u003ca\u003ecleanPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "joinPath",
           "package": "yesod-core",
@@ -10545,6 +11350,7 @@
         "index": {
           "description": "Builds an absolute URL by concatenating the application root with the pieces of path and query string if any Note that the pieces of the path have been previously cleaned up by cleanPath",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "joinPath",
           "package": "yesod-core",
@@ -10559,6 +11365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to Load sripts from. We recommend the default value,\n \u003ccode\u003e\u003ca\u003eBottomOfBody\u003c/a\u003e\u003c/code\u003e.  Alternatively use the built in async yepnope loader:\n\u003c/p\u003e\u003cpre\u003e BottomOfHeadAsync $ loadJsYepnope $ Right $ StaticR js_modernizr_js\n\u003c/pre\u003e\u003cp\u003eOr write your own async js loader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "jsLoader",
           "package": "yesod-core",
@@ -10569,6 +11376,7 @@
         "index": {
           "description": "Where to Load sripts from We recommend the default value BottomOfBody Alternatively use the built in async yepnope loader BottomOfHeadAsync loadJsYepnope Right StaticR js modernizr js Or write your own async js loader",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "jsLoader",
           "normalized": "a-\u003eScriptLoadPosition a",
@@ -10584,6 +11392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "julius",
           "package": "yesod-core",
@@ -10592,6 +11401,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "julius",
           "package": "yesod-core",
@@ -10605,6 +11415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the argument monad to the constructed monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "lift",
           "package": "yesod-core",
@@ -10614,6 +11425,7 @@
         "index": {
           "description": "Lift computation from the argument monad to the constructed monad",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -10629,6 +11441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the base monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "liftBase",
           "package": "yesod-core",
@@ -10638,6 +11451,7 @@
         "index": {
           "description": "Lift computation from the base monad",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "liftBase",
           "normalized": "a b-\u003ec b",
@@ -10653,6 +11467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "liftHandlerT",
           "package": "yesod-core",
@@ -10662,6 +11477,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "liftHandlerT",
           "normalized": "HandlerT(HandlerSite a)IO b-\u003ea b",
@@ -10678,6 +11494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "liftIO",
           "package": "yesod-core",
@@ -10687,6 +11504,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "liftIO",
           "normalized": "IO a-\u003eb a",
@@ -10703,6 +11521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003eResourceT IO\u003c/code\u003e action into the current \u003ccode\u003eMonad\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.4.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "liftResourceT",
           "package": "yesod-core",
@@ -10712,6 +11531,7 @@
         "index": {
           "description": "Lift ResourceT IO action into the current Monad Since",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "liftResourceT",
           "normalized": "ResourceT IO a-\u003eb a",
@@ -10727,6 +11547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "liftWidgetT",
           "package": "yesod-core",
@@ -10736,6 +11557,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "liftWidgetT",
           "normalized": "WidgetT(HandlerSite a)IO b-\u003ea b",
@@ -10751,6 +11573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "liteApp",
           "package": "yesod-core",
@@ -10760,6 +11583,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "liteApp",
           "normalized": "Writer LiteApp()-\u003eLiteApp",
@@ -10775,6 +11599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "loadClientSession",
           "package": "yesod-core",
@@ -10783,6 +11608,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "loadClientSession",
           "normalized": "Key-\u003eIO ClientSessionDateCache-\u003eByteString-\u003eRequest-\u003eIO(SessionMap,SaveSession)",
@@ -10799,6 +11625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and logs a \u003ccode\u003e\u003ca\u003eLevelDebug\u003c/a\u003e\u003c/code\u003e message. Usage:\n\u003c/p\u003e\u003cpre\u003e $(logDebug) \"This is a debug log message\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logDebug",
           "package": "yesod-core",
@@ -10808,6 +11635,7 @@
         "index": {
           "description": "Generates function that takes Text and logs LevelDebug message Usage logDebug This is debug log message",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logDebug",
           "package": "yesod-core",
@@ -10822,6 +11650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a \u003ccode\u003e\u003ca\u003eLogSource\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and logs a \u003ccode\u003e\u003ca\u003eLevelDebug\u003c/a\u003e\u003c/code\u003e message. Usage:\n\u003c/p\u003e\u003cpre\u003e $logDebugS \"SomeSource\" \"This is a debug log message\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logDebugS",
           "package": "yesod-core",
@@ -10831,6 +11660,7 @@
         "index": {
           "description": "Generates function that takes LogSource and Text and logs LevelDebug message Usage logDebugS SomeSource This is debug log message",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logDebugS",
           "package": "yesod-core",
@@ -10845,6 +11675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebug\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logError",
           "package": "yesod-core",
@@ -10854,6 +11685,7 @@
         "index": {
           "description": "See logDebug",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logError",
           "package": "yesod-core",
@@ -10868,6 +11700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebugS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logErrorS",
           "package": "yesod-core",
@@ -10877,6 +11710,7 @@
         "index": {
           "description": "See logDebugS",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logErrorS",
           "package": "yesod-core",
@@ -10891,6 +11725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebug\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logInfo",
           "package": "yesod-core",
@@ -10900,6 +11735,7 @@
         "index": {
           "description": "See logDebug",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logInfo",
           "package": "yesod-core",
@@ -10914,6 +11750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebugS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logInfoS",
           "package": "yesod-core",
@@ -10923,6 +11760,7 @@
         "index": {
           "description": "See logDebugS",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logInfoS",
           "package": "yesod-core",
@@ -10937,6 +11775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and logs a \u003ccode\u003e\u003ca\u003eLevelOther\u003c/a\u003e\u003c/code\u003e message. Usage:\n\u003c/p\u003e\u003cpre\u003e $(logOther \"My new level\") \"This is a log message\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logOther",
           "package": "yesod-core",
@@ -10946,6 +11785,7 @@
         "index": {
           "description": "Generates function that takes Text and logs LevelOther message Usage logOther My new level This is log message",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logOther",
           "normalized": "Text-\u003eQ Exp",
@@ -10962,6 +11802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a \u003ccode\u003e\u003ca\u003eLogSource\u003c/a\u003e\u003c/code\u003e, a level name and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and logs a \u003ccode\u003e\u003ca\u003eLevelOther\u003c/a\u003e\u003c/code\u003e message. Usage:\n\u003c/p\u003e\u003cpre\u003e $logOtherS \"SomeSource\" \"My new level\" \"This is a log message\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logOtherS",
           "package": "yesod-core",
@@ -10971,6 +11812,7 @@
         "index": {
           "description": "Generates function that takes LogSource level name and Text and logs LevelOther message Usage logOtherS SomeSource My new level This is log message",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logOtherS",
           "package": "yesod-core",
@@ -10985,6 +11827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebug\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logWarn",
           "package": "yesod-core",
@@ -10994,6 +11837,7 @@
         "index": {
           "description": "See logDebug",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logWarn",
           "package": "yesod-core",
@@ -11008,6 +11852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebugS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "logWarnS",
           "package": "yesod-core",
@@ -11017,6 +11862,7 @@
         "index": {
           "description": "See logDebugS",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "logWarnS",
           "package": "yesod-core",
@@ -11031,6 +11877,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erenderCss ([lucius|foo{bar:baz}|] undefined)\n\u003c/code\u003e\u003c/strong\u003e\"foo{bar:baz}\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "lucius",
           "package": "yesod-core",
@@ -11040,6 +11887,7 @@
         "index": {
           "description": "renderCss lucius foo bar baz undefined foo bar baz",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "lucius",
           "package": "yesod-core",
@@ -11053,6 +11901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003eLogger\u003c/code\u003e to use for log messages.\n\u003c/p\u003e\u003cp\u003eNote that a common technique (endorsed by the scaffolding) is to create\n a \u003ccode\u003eLogger\u003c/code\u003e value and place it in your foundation datatype, and have this\n method return that already created value. That way, you can use that\n same \u003ccode\u003eLogger\u003c/code\u003e for printing messages during app initialization.\n\u003c/p\u003e\u003cp\u003eDefault: Sends to stdout and automatically flushes on each write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "makeLogger",
           "package": "yesod-core",
@@ -11063,6 +11912,7 @@
         "index": {
           "description": "Creates Logger to use for log messages Note that common technique endorsed by the scaffolding is to create Logger value and place it in your foundation datatype and have this method return that already created value That way you can use that same Logger for printing messages during app initialization Default Sends to stdout and automatically flushes on each write",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "makeLogger",
           "normalized": "a-\u003eIO Logger",
@@ -11079,6 +11929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a session backend. Returning \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e disables\n sessions. If you'd like to change the way that the session\n cookies are created, take a look at\n \u003ccode\u003e\u003ca\u003ecustomizeSessionCookies\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDefault: Uses clientsession with a 2 hour timeout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "makeSessionBackend",
           "package": "yesod-core",
@@ -11089,6 +11940,7 @@
         "index": {
           "description": "Create session backend Returning Nothing disables sessions If you like to change the way that the session cookies are created take look at customizeSessionCookies Default Uses clientsession with hour timeout",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "makeSessionBackend",
           "normalized": "a-\u003eIO(Maybe SessionBackend)",
@@ -11105,6 +11957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum allowed length of the request body, in bytes.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003eNothing\u003c/code\u003e, no maximum is applied.\n\u003c/p\u003e\u003cp\u003eDefault: 2 megabytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "maximumContentLength",
           "package": "yesod-core",
@@ -11115,6 +11968,7 @@
         "index": {
           "description": "Maximum allowed length of the request body in bytes If Nothing no maximum is applied Default megabytes",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "maximumContentLength",
           "normalized": "a-\u003eMaybe(Route a)-\u003eMaybe Word",
@@ -11131,6 +11985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the same URL if the user is authorized to see it.\n\u003c/p\u003e\u003cp\u003eBuilt on top of \u003ccode\u003e\u003ca\u003eisAuthorized\u003c/a\u003e\u003c/code\u003e. This is useful for building page that only\n contain links to pages the user is allowed to see.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "maybeAuthorized",
           "package": "yesod-core",
@@ -11140,6 +11995,7 @@
         "index": {
           "description": "Return the same URL if the user is authorized to see it Built on top of isAuthorized This is useful for building page that only contain links to pages the user is allowed to see",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "maybeAuthorized",
           "normalized": "Route a-\u003eBool-\u003eHandlerT a IO(Maybe(Route a))",
@@ -11156,6 +12012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message to the \u003ccode\u003eLogger\u003c/code\u003e provided by \u003ccode\u003egetLogger\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDefault implementation: checks if the message should be logged using\n \u003ccode\u003e\u003ca\u003eshouldLog\u003c/a\u003e\u003c/code\u003e and, if so, formats using \u003ccode\u003eformatLogMessage\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "messageLoggerSource",
           "package": "yesod-core",
@@ -11166,6 +12023,7 @@
         "index": {
           "description": "Send message to the Logger provided by getLogger Default implementation checks if the message should be logged using shouldLog and if so formats using formatLogMessage",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "messageLoggerSource",
           "package": "yesod-core",
@@ -11179,6 +12037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "onMethod",
           "package": "yesod-core",
@@ -11188,6 +12047,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "onMethod",
           "normalized": "Method-\u003eWriter LiteApp()-\u003eWriter LiteApp()",
@@ -11203,6 +12063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "onStatic",
           "package": "yesod-core",
@@ -11212,6 +12073,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "onStatic",
           "normalized": "Text-\u003eWriter LiteApp()-\u003eWriter LiteApp()",
@@ -11227,6 +12089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "parseRoute",
           "package": "yesod-core",
@@ -11235,6 +12098,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "parseRoute",
           "normalized": "([Text],[(Text,Text)])-\u003eMaybe(Route a)",
@@ -11250,6 +12114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "putTime",
           "package": "yesod-core",
@@ -11259,6 +12124,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "putTime",
           "normalized": "UTCTime-\u003ePut",
@@ -11274,6 +12140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "readIntegral",
           "package": "yesod-core",
@@ -11283,6 +12150,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "readIntegral",
           "normalized": "String-\u003eMaybe a",
@@ -11298,6 +12166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "renderCssUrl",
           "package": "yesod-core",
@@ -11306,6 +12175,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "renderCssUrl",
           "normalized": "(a-\u003e[(Text,Text)]-\u003eText)-\u003eCssUrl a-\u003eText",
@@ -11322,6 +12192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender with route interpolation. If using this module standalone, apart\n from type-safe routes, a dummy renderer can be used:\n\u003c/p\u003e\u003cpre\u003e renderJavascriptUrl (\\_ _ -\u003e undefined) javascriptUrl\n\u003c/pre\u003e\u003cp\u003eWhen using Yesod, a renderer is generated for you, which can be accessed\n within the GHandler monad: \u003ccode\u003e\u003ca\u003egetUrlRenderParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "renderJavascriptUrl",
           "package": "yesod-core",
@@ -11331,6 +12202,7 @@
         "index": {
           "description": "render with route interpolation If using this module standalone apart from type-safe routes dummy renderer can be used renderJavascriptUrl undefined javascriptUrl When using Yesod renderer is generated for you which can be accessed within the GHandler monad getUrlRenderParams",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "renderJavascriptUrl",
           "normalized": "(a-\u003e[(Text,Text)]-\u003eText)-\u003eJavascriptUrl a-\u003eText",
@@ -11346,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "renderRoute",
           "package": "yesod-core",
@@ -11354,6 +12227,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "renderRoute",
           "normalized": "Route a-\u003e([Text],[(Text,Text)])",
@@ -11369,6 +12243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "routeAttrs",
           "package": "yesod-core",
@@ -11377,6 +12252,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "routeAttrs",
           "normalized": "Route a-\u003eSet Text",
@@ -11393,6 +12269,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eWarning: Usually you should *not* use runFakeHandler unless you really understand how it works and why you need it.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eHandlerT\u003c/a\u003e\u003c/code\u003e completely outside of Yesod.  This\n function comes with many caveats and you shouldn't use it\n unless you fully understand what it's doing and how it works.\n\u003c/p\u003e\u003cp\u003eAs of now, there's only one reason to use this function at\n all: in order to run unit tests of functions inside \u003ccode\u003e\u003ca\u003eHandlerT\u003c/a\u003e\u003c/code\u003e\n but that aren't easily testable with a full HTTP request.\n Even so, it's better to use \u003ccode\u003ewai-test\u003c/code\u003e or \u003ccode\u003eyesod-test\u003c/code\u003e instead\n of using this function.\n\u003c/p\u003e\u003cp\u003eThis function will create a fake HTTP request (both \u003ccode\u003ewai\u003c/code\u003e's\n \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eyesod\u003c/code\u003e's \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e) and feed it to the\n \u003ccode\u003eHandlerT\u003c/code\u003e.  The only useful information the \u003ccode\u003eHandlerT\u003c/code\u003e may\n get from the request is the session map, which you must supply\n as argument to \u003ccode\u003erunFakeHandler\u003c/code\u003e.  All other fields contain\n fake information, which means that they can be accessed but\n won't have any useful information.  The response of the\n \u003ccode\u003eHandlerT\u003c/code\u003e is completely ignored, including changes to the\n session, cookies or headers.  We only return you the\n \u003ccode\u003eHandlerT\u003c/code\u003e's return value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "runFakeHandler",
           "package": "yesod-core",
@@ -11403,6 +12280,7 @@
         "index": {
           "description": "Warning Usually you should not use runFakeHandler unless you really understand how it works and why you need it Run HandlerT completely outside of Yesod This function comes with many caveats and you shouldn use it unless you fully understand what it doing and how it works As of now there only one reason to use this function at all in order to run unit tests of functions inside HandlerT but that aren easily testable with full HTTP request Even so it better to use wai-test or yesod-test instead of using this function This function will create fake HTTP request both wai Request and yesod Request and feed it to the HandlerT The only useful information the HandlerT may get from the request is the session map which you must supply as argument to runFakeHandler All other fields contain fake information which means that they can be accessed but won have any useful information The response of the HandlerT is completely ignored including changes to the session cookies or headers We only return you the HandlerT return value",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "runFakeHandler",
           "normalized": "SessionMap-\u003e(a-\u003eLogger)-\u003ea-\u003eHandlerT a IO b-\u003ec(Either ErrorResponse b)",
@@ -11418,6 +12296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "shamlet",
           "package": "yesod-core",
@@ -11426,6 +12305,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "shamlet",
           "package": "yesod-core",
@@ -11439,6 +12319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould we log the given log source/level combination.\n\u003c/p\u003e\u003cp\u003eDefault: Logs everything at or above \u003ccode\u003elogLevel\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "shouldLog",
           "package": "yesod-core",
@@ -11449,6 +12330,7 @@
         "index": {
           "description": "Should we log the given log source level combination Default Logs everything at or above logLevel",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "shouldLog",
           "normalized": "a-\u003eLogSource-\u003eLogLevel-\u003eBool",
@@ -11465,6 +12347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould we log the given log source/level combination.\n\u003c/p\u003e\u003cp\u003eNote that this is almost identical to \u003ccode\u003eshouldLog\u003c/code\u003e, except the result\n lives in \u003ccode\u003eIO\u003c/code\u003e. This allows you to dynamically alter the logging level of\n your application by having this result depend on, e.g., an \u003ccode\u003eIORef\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default implementation simply uses \u003ccode\u003eshouldLog\u003c/code\u003e. Future versions of\n Yesod will remove \u003ccode\u003eshouldLog\u003c/code\u003e and use this method exclusively.\n\u003c/p\u003e\u003cp\u003eSince 1.2.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "shouldLogIO",
           "package": "yesod-core",
@@ -11475,6 +12358,7 @@
         "index": {
           "description": "Should we log the given log source level combination Note that this is almost identical to shouldLog except the result lives in IO This allows you to dynamically alter the logging level of your application by having this result depend on e.g an IORef The default implementation simply uses shouldLog Future versions of Yesod will remove shouldLog and use this method exclusively Since",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "shouldLogIO",
           "normalized": "a-\u003eLogSource-\u003eLogLevel-\u003eIO Bool",
@@ -11490,6 +12374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "showIntegral",
           "package": "yesod-core",
@@ -11499,6 +12384,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "showIntegral",
           "normalized": "a-\u003eString",
@@ -11514,6 +12400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "unLiteApp",
           "package": "yesod-core",
@@ -11523,6 +12410,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "unLiteApp",
           "normalized": "Method-\u003e[Text]-\u003eMaybe(LiteHandler TypedContent)",
@@ -11539,6 +12427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an \u003ccode\u003e\u003ca\u003eUnauthorized\u003c/a\u003e\u003c/code\u003e value, with the given i18n message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "unauthorizedI",
           "package": "yesod-core",
@@ -11549,6 +12438,7 @@
         "index": {
           "description": "Return an Unauthorized value with the given i18n message",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "unauthorizedI",
           "normalized": "a-\u003eb AuthResult",
@@ -11564,6 +12454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverride the rendering function for a particular URL. One use case for\n this is to offload static hosting to a different domain name to avoid\n sending cookies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "urlRenderOverride",
           "package": "yesod-core",
@@ -11574,6 +12465,7 @@
         "index": {
           "description": "Override the rendering function for particular URL One use case for this is to offload static hosting to different domain name to avoid sending cookies",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "urlRenderOverride",
           "normalized": "a-\u003eRoute a-\u003eMaybe Builder",
@@ -11590,6 +12482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a widget to a \u003ccode\u003e\u003ca\u003ePageContent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "widgetToPageContent",
           "package": "yesod-core",
@@ -11600,6 +12493,7 @@
         "index": {
           "description": "Convert widget to PageContent",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "widgetToPageContent",
           "normalized": "WidgetT a IO()-\u003eHandlerT a IO(PageContent(Route a))",
@@ -11615,6 +12509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "withDynamic",
           "package": "yesod-core",
@@ -11624,6 +12519,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "withDynamic",
           "normalized": "(a-\u003eWriter LiteApp())-\u003eWriter LiteApp()",
@@ -11639,6 +12535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "withDynamicMulti",
           "package": "yesod-core",
@@ -11648,6 +12545,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "withDynamicMulti",
           "normalized": "(a-\u003eWriter LiteApp())-\u003eWriter LiteApp()",
@@ -11663,6 +12561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "xhamlet",
           "package": "yesod-core",
@@ -11671,6 +12570,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "xhamlet",
           "package": "yesod-core",
@@ -11683,6 +12583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "yesodDispatch",
           "package": "yesod-core",
@@ -11692,6 +12593,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "yesodDispatch",
           "normalized": "YesodRunnerEnv a-\u003eApplication",
@@ -11708,6 +12610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Yesod middleware, which will wrap every handler function. This\n allows you to run code before and after a normal handler.\n\u003c/p\u003e\u003cp\u003eDefault: the \u003ccode\u003edefaultYesodMiddleware\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eSince: 1.1.6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "yesodMiddleware",
           "package": "yesod-core",
@@ -11718,6 +12621,7 @@
         "index": {
           "description": "Yesod middleware which will wrap every handler function This allows you to run code before and after normal handler Default the defaultYesodMiddleware function Since",
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "yesodMiddleware",
           "normalized": "HandlerT a IO b-\u003eHandlerT a IO b",
@@ -11733,6 +12637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "yesodRender",
           "package": "yesod-core",
@@ -11741,6 +12646,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "yesodRender",
           "normalized": "a-\u003eResolvedApproot-\u003eRoute a-\u003e[(Text,Text)]-\u003eText",
@@ -11756,6 +12662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "yesodRunner",
           "package": "yesod-core",
@@ -11765,6 +12672,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "yesodRunner",
           "normalized": "HandlerT a IO b-\u003eYesodRunnerEnv a-\u003eMaybe(Route a)-\u003eApplication",
@@ -11780,6 +12688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "yesodSubDispatch",
           "package": "yesod-core",
@@ -11789,6 +12698,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "yesodSubDispatch",
           "normalized": "YesodSubRunnerEnv a(HandlerSite b)b-\u003eApplication",
@@ -11804,6 +12714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:34 UTC 2014",
           "module": "Yesod.Core",
           "name": "yesodVersion",
           "package": "yesod-core",
@@ -11813,6 +12724,7 @@
         },
         "index": {
           "hierarchy": "Yesod Core",
+          "indexed": "2014-03-11T20:45:34",
           "module": "Yesod.Core",
           "name": "yesodVersion",
           "package": "yesod-core",

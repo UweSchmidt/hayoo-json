@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "coordinate"
+        "phrase": "coordinate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "Coordinate",
           "package": "coordinate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "Coordinate",
           "package": "coordinate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "Coordinate",
           "package": "coordinate",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "Coordinate",
           "package": "coordinate",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "HasCoordinate",
           "package": "coordinate",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "HasCoordinate",
           "package": "coordinate",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a coordinate from a latitude and longitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "(.#.)",
           "package": "coordinate",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Build coordinate from latitude and longitude",
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "(.#.) .#.",
           "normalized": "Latitude-\u003eLongitude-\u003eCoordinate",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a coordinate from a fractional latitude and fractional longitude. Fails\n if either are out of range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "(..#..)",
           "package": "coordinate",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Build coordinate from fractional latitude and fractional longitude Fails if either are out of range",
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "(..#..) ..#..",
           "normalized": "Double-\u003eDouble-\u003eMaybe Coordinate",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinate",
           "package": "coordinate",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinate",
           "package": "coordinate",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateDMSLatDMSLon",
           "package": "coordinate",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateDMSLatDMSLon",
           "normalized": "Iso'((DegreesLatitude,Minutes,Seconds),(DegreesLongitude,Minutes,Seconds))Coordinate",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateDMSLatLon",
           "package": "coordinate",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateDMSLatLon",
           "normalized": "Iso'((DegreesLatitude,Minutes,Seconds),Longitude)Coordinate",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateLatDMSLon",
           "package": "coordinate",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateLatDMSLon",
           "normalized": "Iso'(Latitude,(DegreesLongitude,Minutes,Seconds))Coordinate",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateLatLon",
           "package": "coordinate",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateLatLon",
           "normalized": "Iso'(Latitude,Longitude)Coordinate",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateLonLat",
           "package": "coordinate",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Coordinate",
           "name": "coordinateLonLat",
           "normalized": "Iso'(Longitude,Latitude)Coordinate",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "DegreesLatitude",
           "package": "coordinate",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate DegreesLatitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "DegreesLatitude",
           "package": "coordinate",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "DegreesLatitude",
           "package": "coordinate",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate DegreesLatitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "DegreesLatitude",
           "package": "coordinate",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "HasDegreesLatitude",
           "package": "coordinate",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate DegreesLatitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "HasDegreesLatitude",
           "package": "coordinate",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "degreesLatitude",
           "package": "coordinate",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate DegreesLatitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "degreesLatitude",
           "package": "coordinate",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on degrees latitude to an integer between -90 and 90 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^? nDegreesLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLatitude 7)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0 ^? nDegreesLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLatitude 0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e89 ^? nDegreesLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLatitude 89)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e90 ^? nDegreesLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-89) ^? nDegreesLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLatitude (-89))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-90) ^? nDegreesLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre\u003eall (\\m -\u003e nDegreesLatitude # m == n) (n ^? nDegreesLatitude)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "nDegreesLatitude",
           "package": "coordinate",
@@ -368,6 +399,7 @@
         "index": {
           "description": "prism on degrees latitude to an integer between and exclusive nDegreesLatitude Just DegreesLatitude nDegreesLatitude Just DegreesLatitude nDegreesLatitude Just DegreesLatitude nDegreesLatitude Nothing nDegreesLatitude Just DegreesLatitude nDegreesLatitude Nothing all nDegreesLatitude nDegreesLatitude",
           "hierarchy": "Data Geo Coordinate DegreesLatitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLatitude",
           "name": "nDegreesLatitude",
           "package": "coordinate",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "DegreesLongitude",
           "package": "coordinate",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate DegreesLongitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "DegreesLongitude",
           "package": "coordinate",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "DegreesLongitude",
           "package": "coordinate",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate DegreesLongitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "DegreesLongitude",
           "package": "coordinate",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "HasDegreesLongitude",
           "package": "coordinate",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate DegreesLongitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "HasDegreesLongitude",
           "package": "coordinate",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "degreesLongitude",
           "package": "coordinate",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate DegreesLongitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "degreesLongitude",
           "package": "coordinate",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on degrees longitude to an integer between -180 and 180 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^? nDegreesLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLongitude 7)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0 ^? nDegreesLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLongitude 0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e179 ^? nDegreesLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLongitude 179)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e180 ^? nDegreesLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-179) ^? nDegreesLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLongitude (-179))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-180) ^? nDegreesLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre\u003eall (\\m -\u003e nDegreesLongitude # m == n) (n ^? nDegreesLongitude)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "nDegreesLongitude",
           "package": "coordinate",
@@ -477,6 +518,7 @@
         "index": {
           "description": "prism on degrees longitude to an integer between and exclusive nDegreesLongitude Just DegreesLongitude nDegreesLongitude Just DegreesLongitude nDegreesLongitude Just DegreesLongitude nDegreesLongitude Nothing nDegreesLongitude Just DegreesLongitude nDegreesLongitude Nothing all nDegreesLongitude nDegreesLongitude",
           "hierarchy": "Data Geo Coordinate DegreesLongitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.DegreesLongitude",
           "name": "nDegreesLongitude",
           "package": "coordinate",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "Latitude",
           "package": "coordinate",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Latitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "Latitude",
           "package": "coordinate",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "HasLatitude",
           "package": "coordinate",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Latitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "HasLatitude",
           "package": "coordinate",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "Latitude",
           "package": "coordinate",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Latitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "Latitude",
           "package": "coordinate",
@@ -554,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn isomorphism on the triple of degrees latitude, minutes, seconds to a latitude.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 7 ^? nDegreesLatitude; min \u003c- 7 ^? nMinutes; sec \u003c- 7 ^? nSeconds; (deg, min, sec) ^? dmsLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 7) (Minutes 7) (Seconds 7.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 89 ^? nDegreesLatitude; min \u003c- 59 ^? nMinutes; sec \u003c- 59 ^? nSeconds; (deg, min, sec) ^? dmsLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 89) (Minutes 59) (Seconds 59.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- (-7) ^? nDegreesLatitude; min \u003c- 7 ^? nMinutes; sec \u003c- 7 ^? nSeconds; (deg, min, sec) ^? dmsLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude (-7)) (Minutes 7) (Seconds 7.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- (-89) ^? nDegreesLatitude; min \u003c- 59 ^? nMinutes; sec \u003c- 59 ^? nSeconds; (deg, min, sec) ^? dmsLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude (-89)) (Minutes 59) (Seconds 59.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 90 ^? nDegreesLatitude; min \u003c- 59 ^? nMinutes; sec \u003c- 59 ^? nSeconds; (deg, min, sec) ^? dmsLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 89 ^? nDegreesLatitude; min \u003c- 60 ^? nMinutes; sec \u003c- 59 ^? nSeconds; (deg, min, sec) ^? dmsLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 89 ^? nDegreesLatitude; min \u003c- 59 ^? nMinutes; sec \u003c- 60 ^? nSeconds; (deg, min, sec) ^? dmsLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (dmsLatitude #)  (7 ^? fracLatitude)\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLatitude 7,Minutes 0,Seconds 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (dmsLatitude #)  (7.12 ^? fracLatitude)\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLatitude 7,Minutes 7,Seconds 12.0000)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "dmsLatitude",
           "package": "coordinate",
@@ -564,6 +613,7 @@
         "index": {
           "description": "An isomorphism on the triple of degrees latitude minutes seconds to latitude do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Just Latitude DegreesLatitude Minutes Seconds do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Just Latitude DegreesLatitude Minutes Seconds do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Just Latitude DegreesLatitude Minutes Seconds do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Just Latitude DegreesLatitude Minutes Seconds do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Nothing do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Nothing do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Nothing fmap dmsLatitude fracLatitude Just DegreesLatitude Minutes Seconds fmap dmsLatitude fracLatitude Just DegreesLatitude Minutes Seconds",
           "hierarchy": "Data Geo Coordinate Latitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "dmsLatitude",
           "normalized": "Iso'(DegreesLatitude,Minutes,Seconds)Latitude",
@@ -580,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on latitude to a double between -90 and 90 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 7) (Minutes 0) (Seconds 0.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-7) ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude (-7)) (Minutes 0) (Seconds 0.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7.12 ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 7) (Minutes 7) (Seconds 12.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-7.12) ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude (-7)) (Minutes 7) (Seconds 12.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (fracLatitude #) (7.12 ^? fracLatitude)\n\u003c/code\u003e\u003c/strong\u003eJust 7.12\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (fracLatitude #) ((-7.12) ^? fracLatitude)\n\u003c/code\u003e\u003c/strong\u003eJust (-7.12)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e90 ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-90) ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e15.63791 ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 15) (Minutes 38) (Seconds 16.4760))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e89.1 ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 89) (Minutes 5) (Seconds 60.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e89.2 ^? fracLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 89) (Minutes 12) (Seconds 0.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (fracLatitude #) (do deg \u003c- 7 ^? nDegreesLatitude; min \u003c- 7 ^? nMinutes; sec \u003c- 7 ^? nSeconds; (deg, min, sec) ^? dmsLatitude)\n\u003c/code\u003e\u003c/strong\u003eJust 7.118611111111111\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (fracLatitude #) (do deg \u003c- 89 ^? nDegreesLatitude; min \u003c- 15 ^? nMinutes; sec \u003c- 6 ^? nSeconds; (deg, min, sec) ^? dmsLatitude)\n\u003c/code\u003e\u003c/strong\u003eJust 89.25166666666667\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "fracLatitude",
           "package": "coordinate",
@@ -590,6 +641,7 @@
         "index": {
           "description": "prism on latitude to double between and exclusive fracLatitude Just Latitude DegreesLatitude Minutes Seconds fracLatitude Just Latitude DegreesLatitude Minutes Seconds fracLatitude Just Latitude DegreesLatitude Minutes Seconds fracLatitude Just Latitude DegreesLatitude Minutes Seconds fmap fracLatitude fracLatitude Just fmap fracLatitude fracLatitude Just fracLatitude Nothing fracLatitude Nothing fracLatitude Just Latitude DegreesLatitude Minutes Seconds fracLatitude Just Latitude DegreesLatitude Minutes Seconds fracLatitude Just Latitude DegreesLatitude Minutes Seconds fmap fracLatitude do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Just fmap fracLatitude do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Just",
           "hierarchy": "Data Geo Coordinate Latitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "fracLatitude",
           "package": "coordinate",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "latitude",
           "package": "coordinate",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Latitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "latitude",
           "package": "coordinate",
@@ -625,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on latitude to a double between -&#960;\u003cem\u003e2 and &#960;\u003c/em\u003e2 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0.2 ^? radianLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 11) (Minutes 27) (Seconds 32.9612))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e1.3 ^? radianLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 74) (Minutes 29) (Seconds 4.2481))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-1.3) ^? radianLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude (-74)) (Minutes 29) (Seconds 4.2481))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e1.5707963 ^? radianLatitude\n\u003c/code\u003e\u003c/strong\u003eJust (Latitude (DegreesLatitude 89) (Minutes 59) (Seconds 59.9945))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e1.58 ^? radianLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-1.58) ^? radianLatitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (radianLatitude #) (do deg \u003c- 7 ^? nDegreesLatitude; min \u003c- 7 ^? nMinutes; sec \u003c- 7 ^? nSeconds; (deg, min, sec) ^? dmsLatitude)\n\u003c/code\u003e\u003c/strong\u003eJust 0.12424320205794079\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (radianLatitude #) (do deg \u003c- 89 ^? nDegreesLatitude; min \u003c- 15 ^? nMinutes; sec \u003c- 6 ^? nSeconds; (deg, min, sec) ^? dmsLatitude)\n\u003c/code\u003e\u003c/strong\u003eJust 1.5577354462258057\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "radianLatitude",
           "package": "coordinate",
@@ -635,6 +690,7 @@
         "index": {
           "description": "prism on latitude to double between and exclusive radianLatitude Just Latitude DegreesLatitude Minutes Seconds radianLatitude Just Latitude DegreesLatitude Minutes Seconds radianLatitude Just Latitude DegreesLatitude Minutes Seconds radianLatitude Just Latitude DegreesLatitude Minutes Seconds radianLatitude Nothing radianLatitude Nothing fmap radianLatitude do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Just fmap radianLatitude do deg nDegreesLatitude min nMinutes sec nSeconds deg min sec dmsLatitude Just",
           "hierarchy": "Data Geo Coordinate Latitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Latitude",
           "name": "radianLatitude",
           "package": "coordinate",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "Longitude",
           "package": "coordinate",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Longitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "Longitude",
           "package": "coordinate",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "HasLongitude",
           "package": "coordinate",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Longitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "HasLongitude",
           "package": "coordinate",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "Longitude",
           "package": "coordinate",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Longitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "Longitude",
           "package": "coordinate",
@@ -712,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn isomorphism on the triple of degrees longitude, minutes, seconds to a longitude.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 7 ^? nDegreesLongitude; min \u003c- 7 ^? nMinutes; sec \u003c- 7 ^? nSeconds; (deg, min, sec) ^? dmsLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 7) (Minutes 7) (Seconds 7.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 179 ^? nDegreesLongitude; min \u003c- 59 ^? nMinutes; sec \u003c- 59 ^? nSeconds; (deg, min, sec) ^? dmsLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 179) (Minutes 59) (Seconds 59.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- (-7) ^? nDegreesLongitude; min \u003c- 7 ^? nMinutes; sec \u003c- 7 ^? nSeconds; (deg, min, sec) ^? dmsLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude (-7)) (Minutes 7) (Seconds 7.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- (-179) ^? nDegreesLongitude; min \u003c- 59 ^? nMinutes; sec \u003c- 59 ^? nSeconds; (deg, min, sec) ^? dmsLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude (-179)) (Minutes 59) (Seconds 59.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 180 ^? nDegreesLongitude; min \u003c- 59 ^? nMinutes; sec \u003c- 59 ^? nSeconds; (deg, min, sec) ^? dmsLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 179 ^? nDegreesLongitude; min \u003c- 60 ^? nMinutes; sec \u003c- 59 ^? nSeconds; (deg, min, sec) ^? dmsLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edo deg \u003c- 179 ^? nDegreesLongitude; min \u003c- 59 ^? nMinutes; sec \u003c- 60 ^? nSeconds; (deg, min, sec) ^? dmsLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (dmsLongitude #)  (7 ^? fracLongitude)\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLongitude 7,Minutes 0,Seconds 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (dmsLongitude #)  (7.12 ^? fracLongitude)\n\u003c/code\u003e\u003c/strong\u003eJust (DegreesLongitude 7,Minutes 7,Seconds 12.0000)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "dmsLongitude",
           "package": "coordinate",
@@ -722,6 +785,7 @@
         "index": {
           "description": "An isomorphism on the triple of degrees longitude minutes seconds to longitude do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Just Longitude DegreesLongitude Minutes Seconds do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Just Longitude DegreesLongitude Minutes Seconds do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Just Longitude DegreesLongitude Minutes Seconds do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Just Longitude DegreesLongitude Minutes Seconds do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Nothing do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Nothing do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Nothing fmap dmsLongitude fracLongitude Just DegreesLongitude Minutes Seconds fmap dmsLongitude fracLongitude Just DegreesLongitude Minutes Seconds",
           "hierarchy": "Data Geo Coordinate Longitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "dmsLongitude",
           "normalized": "Iso'(DegreesLongitude,Minutes,Seconds)Longitude",
@@ -738,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on longitude to a double between -180 and 180 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 7) (Minutes 0) (Seconds 0.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-7) ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude (-7)) (Minutes 0) (Seconds 0.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7.12 ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 7) (Minutes 7) (Seconds 12.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-7.12) ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude (-7)) (Minutes 7) (Seconds 12.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (fracLongitude #) (7.12 ^? fracLongitude)\n\u003c/code\u003e\u003c/strong\u003eJust 7.12\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (fracLongitude #) ((-7.12) ^? fracLongitude)\n\u003c/code\u003e\u003c/strong\u003eJust (-7.12)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e180 ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-180) ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e15.63791 ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 15) (Minutes 38) (Seconds 16.4760))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e179.1 ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 179) (Minutes 5) (Seconds 60.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e179.2 ^? fracLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 179) (Minutes 11) (Seconds 60.0000))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (fracLongitude #) (do deg \u003c- 7 ^? nDegreesLongitude; min \u003c- 7 ^? nMinutes; sec \u003c- 7 ^? nSeconds; (deg, min, sec) ^? dmsLongitude)\n\u003c/code\u003e\u003c/strong\u003eJust 7.118611111111111\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (fracLongitude #) (do deg \u003c- 179 ^? nDegreesLongitude; min \u003c- 15 ^? nMinutes; sec \u003c- 6 ^? nSeconds; (deg, min, sec) ^? dmsLongitude)\n\u003c/code\u003e\u003c/strong\u003eJust 179.25166666666667\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "fracLongitude",
           "package": "coordinate",
@@ -748,6 +813,7 @@
         "index": {
           "description": "prism on longitude to double between and exclusive fracLongitude Just Longitude DegreesLongitude Minutes Seconds fracLongitude Just Longitude DegreesLongitude Minutes Seconds fracLongitude Just Longitude DegreesLongitude Minutes Seconds fracLongitude Just Longitude DegreesLongitude Minutes Seconds fmap fracLongitude fracLongitude Just fmap fracLongitude fracLongitude Just fracLongitude Nothing fracLongitude Nothing fracLongitude Just Longitude DegreesLongitude Minutes Seconds fracLongitude Just Longitude DegreesLongitude Minutes Seconds fracLongitude Just Longitude DegreesLongitude Minutes Seconds fmap fracLongitude do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Just fmap fracLongitude do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Just",
           "hierarchy": "Data Geo Coordinate Longitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "fracLongitude",
           "package": "coordinate",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "longitude",
           "package": "coordinate",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Longitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "longitude",
           "package": "coordinate",
@@ -783,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on longitude to a double between -&#960; and &#960; exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0.2 ^? radianLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 11) (Minutes 27) (Seconds 32.9612))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e1.3 ^? radianLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 74) (Minutes 29) (Seconds 4.2481))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-1.3) ^? radianLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude (-74)) (Minutes 29) (Seconds 4.2481))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e3.14159 ^? radianLongitude\n\u003c/code\u003e\u003c/strong\u003eJust (Longitude (DegreesLongitude 179) (Minutes 59) (Seconds 59.4527))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e3.15 ^? radianLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(-3.15) ^? radianLongitude\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (radianLongitude #) (do deg \u003c- 7 ^? nDegreesLongitude; min \u003c- 7 ^? nMinutes; sec \u003c- 7 ^? nSeconds; (deg, min, sec) ^? dmsLongitude)\n\u003c/code\u003e\u003c/strong\u003eJust 0.12424320205794079\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efmap (radianLongitude #) (do deg \u003c- 179 ^? nDegreesLongitude; min \u003c- 15 ^? nMinutes; sec \u003c- 6 ^? nSeconds; (deg, min, sec) ^? dmsLongitude)\n\u003c/code\u003e\u003c/strong\u003eJust 3.1285317730207023\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "radianLongitude",
           "package": "coordinate",
@@ -793,6 +862,7 @@
         "index": {
           "description": "prism on longitude to double between and exclusive radianLongitude Just Longitude DegreesLongitude Minutes Seconds radianLongitude Just Longitude DegreesLongitude Minutes Seconds radianLongitude Just Longitude DegreesLongitude Minutes Seconds radianLongitude Just Longitude DegreesLongitude Minutes Seconds radianLongitude Nothing radianLongitude Nothing fmap radianLongitude do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Just fmap radianLongitude do deg nDegreesLongitude min nMinutes sec nSeconds deg min sec dmsLongitude Just",
           "hierarchy": "Data Geo Coordinate Longitude",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Longitude",
           "name": "radianLongitude",
           "package": "coordinate",
@@ -806,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "Minutes",
           "package": "coordinate",
@@ -814,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Minutes",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "Minutes",
           "package": "coordinate",
@@ -827,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "HasMinutes",
           "package": "coordinate",
@@ -835,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Minutes",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "HasMinutes",
           "package": "coordinate",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "Minutes",
           "package": "coordinate",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Minutes",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "Minutes",
           "package": "coordinate",
@@ -869,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "minutes",
           "package": "coordinate",
@@ -878,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Minutes",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "minutes",
           "package": "coordinate",
@@ -891,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct minutes such that if the given value is out of bounds,\n a modulus is taken to keep it within 0 inclusive and 59 inclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodMinutes 7\n\u003c/code\u003e\u003c/strong\u003eMinutes 7\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodMinutes 0\n\u003c/code\u003e\u003c/strong\u003eMinutes 0\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodMinutes 60\n\u003c/code\u003e\u003c/strong\u003eMinutes 0\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodMinutes 61\n\u003c/code\u003e\u003c/strong\u003eMinutes 1\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodMinutes 59\n\u003c/code\u003e\u003c/strong\u003eMinutes 59\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "modMinutes",
           "package": "coordinate",
@@ -901,6 +980,7 @@
         "index": {
           "description": "Construct minutes such that if the given value is out of bounds modulus is taken to keep it within inclusive and inclusive modMinutes Minutes modMinutes Minutes modMinutes Minutes modMinutes Minutes modMinutes Minutes",
           "hierarchy": "Data Geo Coordinate Minutes",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "modMinutes",
           "normalized": "Int-\u003eMinutes",
@@ -917,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on minutes to an integer between 0 and 59 inclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^? nMinutes\n\u003c/code\u003e\u003c/strong\u003eJust (Minutes 7)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0 ^? nMinutes\n\u003c/code\u003e\u003c/strong\u003eJust (Minutes 0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e59 ^? nMinutes\n\u003c/code\u003e\u003c/strong\u003eJust (Minutes 59)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e60 ^? nMinutes\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre\u003eall (\\m -\u003e nMinutes # m == n) (n ^? nMinutes)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "nMinutes",
           "package": "coordinate",
@@ -927,6 +1008,7 @@
         "index": {
           "description": "prism on minutes to an integer between and inclusive nMinutes Just Minutes nMinutes Just Minutes nMinutes Just Minutes nMinutes Nothing all nMinutes nMinutes",
           "hierarchy": "Data Geo Coordinate Minutes",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Minutes",
           "name": "nMinutes",
           "package": "coordinate",
@@ -940,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "Seconds",
           "package": "coordinate",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Seconds",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "Seconds",
           "package": "coordinate",
@@ -961,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "HasSeconds",
           "package": "coordinate",
@@ -969,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Seconds",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "HasSeconds",
           "package": "coordinate",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "Seconds",
           "package": "coordinate",
@@ -990,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Seconds",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "Seconds",
           "package": "coordinate",
@@ -1004,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct seconds such that if the given value is out of bounds,\n a modulus is taken to keep it within 0 inclusive and 60 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodSeconds 7\n\u003c/code\u003e\u003c/strong\u003eSeconds 7.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodSeconds 0\n\u003c/code\u003e\u003c/strong\u003eSeconds 0.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodSeconds (-0.0001)\n\u003c/code\u003e\u003c/strong\u003eSeconds 59.9999\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodSeconds 60\n\u003c/code\u003e\u003c/strong\u003eSeconds 0.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodSeconds 59.99999\n\u003c/code\u003e\u003c/strong\u003eSeconds 60.0000\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emodSeconds 59.999\n\u003c/code\u003e\u003c/strong\u003eSeconds 59.9990\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "modSeconds",
           "package": "coordinate",
@@ -1014,6 +1103,7 @@
         "index": {
           "description": "Construct seconds such that if the given value is out of bounds modulus is taken to keep it within inclusive and exclusive modSeconds Seconds modSeconds Seconds modSeconds Seconds modSeconds Seconds modSeconds Seconds modSeconds Seconds",
           "hierarchy": "Data Geo Coordinate Seconds",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "modSeconds",
           "normalized": "Double-\u003eSeconds",
@@ -1030,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prism on seconds to a double between 0 inclusive and 60 exclusive.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 ^? nSeconds\n\u003c/code\u003e\u003c/strong\u003eJust (Seconds 7.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0 ^? nSeconds\n\u003c/code\u003e\u003c/strong\u003eJust (Seconds 0.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e59 ^? nSeconds\n\u003c/code\u003e\u003c/strong\u003eJust (Seconds 59.0000)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e59.99 ^? nSeconds\n\u003c/code\u003e\u003c/strong\u003eJust (Seconds 59.9900)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e60 ^? nSeconds\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre\u003eall (\\m -\u003e nSeconds # m == n) (n ^? nSeconds)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "nSeconds",
           "package": "coordinate",
@@ -1040,6 +1131,7 @@
         "index": {
           "description": "prism on seconds to double between inclusive and exclusive nSeconds Just Seconds nSeconds Just Seconds nSeconds Just Seconds nSeconds Just Seconds nSeconds Nothing all nSeconds nSeconds",
           "hierarchy": "Data Geo Coordinate Seconds",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "nSeconds",
           "package": "coordinate",
@@ -1053,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "seconds",
           "package": "coordinate",
@@ -1062,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate Seconds",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate.Seconds",
           "name": "seconds",
           "package": "coordinate",
@@ -1074,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:40:58 UTC 2014",
           "module": "Data.Geo.Coordinate",
           "name": "Coordinate",
           "package": "coordinate",
@@ -1082,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coordinate",
+          "indexed": "2014-03-11T17:40:58",
           "module": "Data.Geo.Coordinate",
           "name": "Coordinate",
           "package": "coordinate",

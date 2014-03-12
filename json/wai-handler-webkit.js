@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-handler-webkit"
+        "phrase": "wai-handler-webkit",
+        "type": "phrase"
       },
       "type": "context"
     }

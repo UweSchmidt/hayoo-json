@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-EsounD"
+        "phrase": "bindings-EsounD",
+        "type": "phrase"
       },
       "type": "context"
     }

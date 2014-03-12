@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspread"
+        "phrase": "hspread",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnbounded closeable channels.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "Closeable",
           "package": "hspread",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Unbounded closeable channels",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "Closeable",
           "package": "hspread",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e is an abstract type representing an unbounded FIFO channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "Chan",
           "package": "hspread",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Chan is an abstract type representing an unbounded FIFO channel",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "Chan",
           "package": "hspread",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e for ReadOnly \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "R",
           "package": "hspread",
@@ -74,6 +79,7 @@
         "index": {
           "description": "for ReadOnly",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "R",
           "package": "hspread",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eW\u003c/a\u003e\u003c/code\u003e for WriteOnly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "W",
           "package": "hspread",
@@ -96,6 +103,7 @@
         "index": {
           "description": "for WriteOnly",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "W",
           "package": "hspread",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e, data can be no more written to it.\n Returns True if the \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e was already closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "closeChan",
           "package": "hspread",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Close the Chan data can be no more written to it Returns True if the Chan was already closed",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "closeChan",
           "normalized": "Chan W a-\u003eIO Bool",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForks a \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e: data that will be written (W)\n or is yet to be read (R) on the argument, will also be available on the returned channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "forkChan",
           "package": "hspread",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Forks Chan data that will be written or is yet to be read on the argument will also be available on the returned channel",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "forkChan",
           "normalized": "Chan a b-\u003eIO(Chan R b)",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a lazy list representing the contents of the supplied\n \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e, much like \u003ccode\u003eSystem.IO.hGetContents\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "getChanContents",
           "package": "hspread",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Return lazy list representing the contents of the supplied Chan much like System.IO.hGetContents",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "getChanContents",
           "normalized": "Chan R a-\u003eIO[a]",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-blocking check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "isClosedChan",
           "package": "hspread",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Non-blocking check",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "isClosedChan",
           "normalized": "Chan a b-\u003eIO Bool",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the supplied \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e is empty, i.e. readChan won't block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "isEmptyChan",
           "package": "hspread",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Returns True if the supplied Chan is empty i.e readChan won block",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "isEmptyChan",
           "normalized": "Chan R a-\u003eIO Bool",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild and returns a pair of \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e, data written on the W end can be read from the R end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "newChan",
           "package": "hspread",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Build and returns pair of Chan data written on the end can be read from the end",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "newChan",
           "normalized": "IO(Chan R a,Chan W a)",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the next value from the \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e.\n |Nothing if the \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "readChan",
           "package": "hspread",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Read the next value from the Chan Nothing if the Chan is closed",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "readChan",
           "normalized": "Chan R a-\u003eIO(Maybe a)",
@@ -291,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a data item back onto a channel, where it will be the next item read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "unGetChan",
           "package": "hspread",
@@ -301,6 +324,7 @@
         "index": {
           "description": "Put data item back onto channel where it will be the next item read",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "unGetChan",
           "normalized": "Chan R a-\u003ea-\u003eIO()",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value to a \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e.\n Returns True if successful, False if the channel is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "writeChan",
           "package": "hspread",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Write value to Chan Returns True if successful False if the channel is closed",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "writeChan",
           "normalized": "Chan W a-\u003ea-\u003eIO Bool",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an entire list of items to a \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e.\n Returning the remainder if the channel has been closed meanwhile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "writeList2Chan",
           "package": "hspread",
@@ -353,6 +380,7 @@
         "index": {
           "description": "Write an entire list of items to Chan Returning the remainder if the channel has been closed meanwhile",
           "hierarchy": "Control Concurrent Chan Closeable",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Control.Concurrent.Chan.Closeable",
           "name": "writeList2Chan",
           "normalized": "Chan W a-\u003e[a]-\u003eIO(Maybe[a])",
@@ -368,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Client",
           "package": "hspread",
@@ -376,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Client",
           "package": "hspread",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe action should return True if the authentication succeded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "AuthMethod",
           "package": "hspread",
@@ -399,6 +430,7 @@
         "index": {
           "description": "The action should return True if the authentication succeded",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "AuthMethod",
           "package": "hspread",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of an authentication method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "AuthName",
           "package": "hspread",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Name of an authentication method",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "AuthName",
           "package": "hspread",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat caused a membership message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Cause",
           "package": "hspread",
@@ -445,6 +480,7 @@
         "index": {
           "description": "What caused membership message",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Cause",
           "package": "hspread",
@@ -459,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration passed to \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Conf",
           "package": "hspread",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Configuration passed to connect",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Conf",
           "package": "hspread",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type representing a connection with a spread server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Connection",
           "package": "hspread",
@@ -491,6 +530,7 @@
         "index": {
           "description": "Abstract type representing connection with spread server",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Connection",
           "package": "hspread",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGroup\u003c/a\u003e\u003c/code\u003e is a collection of clients identified by a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Group",
           "package": "hspread",
@@ -514,6 +555,7 @@
         "index": {
           "description": "Group is collection of clients identified by name",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Group",
           "package": "hspread",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier for a membership message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "GroupId",
           "package": "hspread",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Identifier for membership message",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "GroupId",
           "package": "hspread",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessages used to join or leave a group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "GroupMsg",
           "package": "hspread",
@@ -560,6 +605,7 @@
         "index": {
           "description": "Messages used to join or leave group",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "GroupMsg",
           "package": "hspread",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage received.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "InMsg",
           "package": "hspread",
@@ -583,6 +630,7 @@
         "index": {
           "description": "Message received",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "InMsg",
           "package": "hspread",
@@ -596,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "KillMsg",
           "package": "hspread",
@@ -604,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "KillMsg",
           "package": "hspread",
@@ -618,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage regarding changes in group membership.                             \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "MembershipMsg",
           "package": "hspread",
@@ -627,6 +678,7 @@
         "index": {
           "description": "Message regarding changes in group membership",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "MembershipMsg",
           "package": "hspread",
@@ -641,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion Type of messages that can be received from the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Message",
           "package": "hspread",
@@ -650,6 +703,7 @@
         "index": {
           "description": "Union Type of messages that can be received from the server",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Message",
           "package": "hspread",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the orderings as specified by the Spread toolkit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "OrderingType",
           "package": "hspread",
@@ -673,6 +728,7 @@
         "index": {
           "description": "Represents the orderings as specified by the Spread toolkit",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "OrderingType",
           "package": "hspread",
@@ -687,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage to be sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "OutMsg",
           "package": "hspread",
@@ -696,6 +753,7 @@
         "index": {
           "description": "Message to be sent",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "OutMsg",
           "package": "hspread",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePrivateGroup\u003c/a\u003e\u003c/code\u003e identifies a connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "PrivateGroup",
           "package": "hspread",
@@ -719,6 +778,7 @@
         "index": {
           "description": "PrivateGroup identifies connection",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "PrivateGroup",
           "package": "hspread",
@@ -733,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial part of a \u003ccode\u003e\u003ca\u003ePrivateGroup\u003c/a\u003e\u003c/code\u003e name that is chosen by the client when connecting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "PrivateName",
           "package": "hspread",
@@ -742,6 +803,7 @@
         "index": {
           "description": "Initial part of PrivateGroup name that is chosen by the client when connecting",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "PrivateName",
           "package": "hspread",
@@ -755,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "RejectedMsg",
           "package": "hspread",
@@ -763,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "RejectedMsg",
           "package": "hspread",
@@ -776,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Agreed",
           "package": "hspread",
@@ -785,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Agreed",
           "package": "hspread",
@@ -798,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Causal",
           "package": "hspread",
@@ -807,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Causal",
           "package": "hspread",
@@ -820,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Conf",
           "package": "hspread",
@@ -829,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Conf",
           "package": "hspread",
@@ -842,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Disconnect",
           "package": "hspread",
@@ -851,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Disconnect",
           "package": "hspread",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Fifo",
           "package": "hspread",
@@ -873,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Fifo",
           "package": "hspread",
@@ -886,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Incoming",
           "package": "hspread",
@@ -895,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Incoming",
           "package": "hspread",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Join",
           "package": "hspread",
@@ -917,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Join",
           "package": "hspread",
@@ -930,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Joining",
           "package": "hspread",
@@ -939,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Joining",
           "package": "hspread",
@@ -952,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Kill",
           "package": "hspread",
@@ -961,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Kill",
           "package": "hspread",
@@ -974,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Leave",
           "package": "hspread",
@@ -983,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Leave",
           "package": "hspread",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Leaving",
           "package": "hspread",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Leaving",
           "package": "hspread",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Membership",
           "package": "hspread",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Membership",
           "package": "hspread",
@@ -1040,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Network",
           "package": "hspread",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Network",
           "package": "hspread",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Outgoing",
           "package": "hspread",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Outgoing",
           "package": "hspread",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Reg",
           "package": "hspread",
@@ -1093,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Reg",
           "package": "hspread",
@@ -1106,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Regular",
           "package": "hspread",
@@ -1115,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Regular",
           "package": "hspread",
@@ -1128,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Rejected",
           "package": "hspread",
@@ -1137,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Rejected",
           "package": "hspread",
@@ -1150,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Reliable",
           "package": "hspread",
@@ -1159,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Reliable",
           "package": "hspread",
@@ -1172,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Safe",
           "package": "hspread",
@@ -1181,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Safe",
           "package": "hspread",
@@ -1194,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "SelfLeave",
           "package": "hspread",
@@ -1203,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "SelfLeave",
           "package": "hspread",
@@ -1216,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Transient",
           "package": "hspread",
@@ -1225,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Transient",
           "package": "hspread",
@@ -1238,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "Unreliable",
           "package": "hspread",
@@ -1247,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "Unreliable",
           "package": "hspread",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "WasGroup",
           "package": "hspread",
@@ -1269,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "WasGroup",
           "package": "hspread",
@@ -1282,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "WasOut",
           "package": "hspread",
@@ -1291,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "WasOut",
           "package": "hspread",
@@ -1305,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer address, using 127.0.0.1 if \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "address",
           "package": "hspread",
@@ -1315,6 +1428,7 @@
         "index": {
           "description": "Server address using if Nothing",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "address",
           "package": "hspread",
@@ -1328,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentication methods to use when connecting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "authMethods",
           "package": "hspread",
@@ -1338,6 +1453,7 @@
         "index": {
           "description": "Authentication methods to use when connecting",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "authMethods",
           "normalized": "[AuthMethod]",
@@ -1353,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "authname",
           "package": "hspread",
@@ -1362,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "authname",
           "normalized": "AuthName-\u003eByteString",
@@ -1376,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "cause",
           "package": "hspread",
@@ -1385,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "cause",
           "package": "hspread",
@@ -1397,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "changingGroup",
           "package": "hspread",
@@ -1406,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "changingGroup",
           "package": "hspread",
@@ -1420,6 +1542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects to the specified server, will use a \"NULL\" authentication method if the \u003ccode\u003e\u003ca\u003eauthMethods\u003c/a\u003e\u003c/code\u003e list is empty.\n A spread server will refuse the connection if another with the same PrivateName is still active.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "connect",
           "package": "hspread",
@@ -1430,6 +1553,7 @@
         "index": {
           "description": "Connects to the specified server will use NULL authentication method if the authMethods list is empty spread server will refuse the connection if another with the same PrivateName is still active",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "connect",
           "normalized": "Conf-\u003eIO(Chan R Message,Connection)",
@@ -1445,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefaulConf = Conf Nothing Nothing (mkPrivateName (B.pack \"user\")) False True []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "defaultConf",
           "package": "hspread",
@@ -1455,6 +1580,7 @@
         "index": {
           "description": "defaulConf Conf Nothing Nothing mkPrivateName B.pack user False True",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "defaultConf",
           "package": "hspread",
@@ -1469,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt will become part of the \u003ccode\u003e\u003ca\u003ePrivateGroup\u003c/a\u003e\u003c/code\u003e of the \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "desiredName",
           "package": "hspread",
@@ -1479,6 +1606,7 @@
         "index": {
           "description": "It will become part of the PrivateGroup of the Connection",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "desiredName",
           "package": "hspread",
@@ -1493,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a disconnection message to the server, which will close the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "disconnect",
           "package": "hspread",
@@ -1503,6 +1632,7 @@
         "index": {
           "description": "Sends disconnection message to the server which will close the connection",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "disconnect",
           "normalized": "Connection-\u003eIO()",
@@ -1517,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "disconnecting",
           "package": "hspread",
@@ -1526,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "disconnecting",
           "package": "hspread",
@@ -1539,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessages received from now on will be available on the returned \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "getDupedChan",
           "package": "hspread",
@@ -1549,6 +1682,7 @@
         "index": {
           "description": "Messages received from now on will be available on the returned Chan",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "getDupedChan",
           "normalized": "Connection-\u003eIO(Chan R Message)",
@@ -1564,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "groupId",
           "package": "hspread",
@@ -1573,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "groupId",
           "package": "hspread",
@@ -1587,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould it receive Membership messages?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "groupMembership",
           "package": "hspread",
@@ -1597,6 +1734,7 @@
         "index": {
           "description": "Should it receive Membership messages",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "groupMembership",
           "package": "hspread",
@@ -1610,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "groupName",
           "package": "hspread",
@@ -1619,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "groupName",
           "normalized": "Group-\u003eByteString",
@@ -1634,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "grp",
           "package": "hspread",
@@ -1643,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "grp",
           "package": "hspread",
@@ -1655,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "inData",
           "package": "hspread",
@@ -1664,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "inData",
           "package": "hspread",
@@ -1678,6 +1822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the message has been sent with a different endian order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "inEndianMismatch",
           "package": "hspread",
@@ -1688,6 +1833,7 @@
         "index": {
           "description": "True if the message has been sent with different endian order",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "inEndianMismatch",
           "package": "hspread",
@@ -1701,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "inGroups",
           "package": "hspread",
@@ -1710,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "inGroups",
           "normalized": "[Group]",
@@ -1725,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "inMsgType",
           "package": "hspread",
@@ -1734,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "inMsgType",
           "package": "hspread",
@@ -1747,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "inOrdering",
           "package": "hspread",
@@ -1756,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "inOrdering",
           "package": "hspread",
@@ -1769,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "inSender",
           "package": "hspread",
@@ -1778,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "inSender",
           "package": "hspread",
@@ -1791,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "index",
           "package": "hspread",
@@ -1800,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "index",
           "package": "hspread",
@@ -1813,6 +1969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoins a group, the server will send a \u003ccode\u003e\u003ca\u003eReg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "join",
           "package": "hspread",
@@ -1823,6 +1980,7 @@
         "index": {
           "description": "Joins group the server will send Reg",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "join",
           "normalized": "Group-\u003eConnection-\u003eIO()",
@@ -1837,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "joining",
           "package": "hspread",
@@ -1846,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "joining",
           "package": "hspread",
@@ -1859,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeaves a group, the server will send a \u003ccode\u003e\u003ca\u003eSelfLeave\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "leave",
           "package": "hspread",
@@ -1869,6 +2030,7 @@
         "index": {
           "description": "Leaves group the server will send SelfLeave",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "leave",
           "normalized": "Group-\u003eConnection-\u003eIO()",
@@ -1883,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "leaving",
           "package": "hspread",
@@ -1892,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "leaving",
           "package": "hspread",
@@ -1904,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "localSet",
           "package": "hspread",
@@ -1913,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "localSet",
           "normalized": "[PrivateGroup]",
@@ -1928,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "makeGroup",
           "package": "hspread",
@@ -1937,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "makeGroup",
           "normalized": "String-\u003eMaybe Group",
@@ -1952,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "members",
           "package": "hspread",
@@ -1961,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "members",
           "normalized": "[PrivateGroup]",
@@ -1976,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e will be truncated to the maximum allowed size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "mkAuthName",
           "package": "hspread",
@@ -1986,6 +2157,7 @@
         "index": {
           "description": "The ByteString will be truncated to the maximum allowed size",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "mkAuthName",
           "normalized": "ByteString-\u003eAuthName",
@@ -2001,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "mkGroup",
           "package": "hspread",
@@ -2010,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "mkGroup",
           "normalized": "ByteString-\u003eMaybe Group",
@@ -2025,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "mkPrivateGroup",
           "package": "hspread",
@@ -2034,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "mkPrivateGroup",
           "normalized": "ByteString-\u003eGroup",
@@ -2049,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "mkPrivateName",
           "package": "hspread",
@@ -2058,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "mkPrivateName",
           "normalized": "ByteString-\u003ePrivateName",
@@ -2073,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "multicast_internal",
           "package": "hspread",
@@ -2082,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "multicast_internal",
           "normalized": "PrivateGroup-\u003ea-\u003eHandle-\u003eIO Bool",
@@ -2096,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "numMembers",
           "package": "hspread",
@@ -2105,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "numMembers",
           "package": "hspread",
@@ -2119,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "outData",
           "package": "hspread",
@@ -2129,6 +2312,7 @@
         "index": {
           "description": "Message body",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "outData",
           "package": "hspread",
@@ -2143,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf True you won't get a copy of this message back from the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "outDiscard",
           "package": "hspread",
@@ -2153,6 +2338,7 @@
         "index": {
           "description": "If True you won get copy of this message back from the server",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "outDiscard",
           "package": "hspread",
@@ -2167,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecipients of the message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "outGroups",
           "package": "hspread",
@@ -2177,6 +2364,7 @@
         "index": {
           "description": "Recipients of the message",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "outGroups",
           "normalized": "[Group]",
@@ -2193,6 +2381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo be used by the application to identify the kind of message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "outMsgType",
           "package": "hspread",
@@ -2203,6 +2392,7 @@
         "index": {
           "description": "To be used by the application to identify the kind of message",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "outMsgType",
           "package": "hspread",
@@ -2216,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "outOrdering",
           "package": "hspread",
@@ -2225,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "outOrdering",
           "package": "hspread",
@@ -2239,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer port, uses the default spread port if \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "port",
           "package": "hspread",
@@ -2249,6 +2442,7 @@
         "index": {
           "description": "Server port uses the default spread port if Nothing",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "port",
           "package": "hspread",
@@ -2262,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this a priority connection?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "priority",
           "package": "hspread",
@@ -2272,6 +2467,7 @@
         "index": {
           "description": "Is this priority connection",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "priority",
           "package": "hspread",
@@ -2285,6 +2481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprivate name of this connection, useful for p2p messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "privateGroup",
           "package": "hspread",
@@ -2295,6 +2492,7 @@
         "index": {
           "description": "private name of this connection useful for p2p messages",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "privateGroup",
           "normalized": "Connection-\u003ePrivateGroup",
@@ -2310,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "privateName",
           "package": "hspread",
@@ -2319,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "privateName",
           "normalized": "PrivateName-\u003eByteString",
@@ -2334,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "putPadded",
           "package": "hspread",
@@ -2343,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "putPadded",
           "normalized": "Int-\u003eByteString-\u003ePutM()",
@@ -2358,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "receive_internal",
           "package": "hspread",
@@ -2367,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "receive_internal",
           "normalized": "Handle-\u003ePrivateGroup-\u003eIO Message",
@@ -2382,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a regular message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "send",
           "package": "hspread",
@@ -2392,6 +2597,7 @@
         "index": {
           "description": "Send regular message",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "send",
           "normalized": "OutMsg-\u003eConnection-\u003eIO()",
@@ -2406,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "sets",
           "package": "hspread",
@@ -2415,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "sets",
           "normalized": "[[PrivateGroup]]",
@@ -2430,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart fetching messages from the network, returns True if it was stopped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "startReceive",
           "package": "hspread",
@@ -2440,6 +2649,7 @@
         "index": {
           "description": "Start fetching messages from the network returns True if it was stopped",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "startReceive",
           "normalized": "Connection-\u003eIO Bool",
@@ -2456,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop fetching messages from the network (at most one more message can be read)\n , returns True if it was started.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:21 UTC 2014",
           "module": "Spread.Client",
           "name": "stopReceive",
           "package": "hspread",
@@ -2466,6 +2677,7 @@
         "index": {
           "description": "Stop fetching messages from the network at most one more message can be read returns True if it was started",
           "hierarchy": "Spread Client",
+          "indexed": "2014-03-11T18:50:21",
           "module": "Spread.Client",
           "name": "stopReceive",
           "normalized": "Connection-\u003eIO Bool",

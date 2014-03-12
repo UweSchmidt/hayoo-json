@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-deriv"
+        "phrase": "regex-deriv",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "BitCode",
           "package": "regex-deriv",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "BitCode",
           "package": "regex-deriv",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "CompOption",
           "package": "regex-deriv",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "CompOption",
           "package": "regex-deriv",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "ExecOption",
           "package": "regex-deriv",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "ExecOption",
           "package": "regex-deriv",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "Regex",
           "package": "regex-deriv",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "Regex",
           "package": "regex-deriv",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "CompOption",
           "package": "regex-deriv",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "CompOption",
           "package": "regex-deriv",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "ExecOption",
           "package": "regex-deriv",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "ExecOption",
           "package": "regex-deriv",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue by default.  Set to False to improve speed (and space).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "captureGroups",
           "package": "regex-deriv",
@@ -159,6 +172,7 @@
         "index": {
           "description": "True by default Set to False to improve speed and space",
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "captureGroups",
           "package": "regex-deriv",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "caseSensitive",
           "package": "regex-deriv",
@@ -183,6 +198,7 @@
         "index": {
           "description": "True in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "caseSensitive",
           "package": "regex-deriv",
@@ -287,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse by default.  This is POSIX correct but it takes space and is slower.\n Setting this to true will improve performance, and should be done\n if you plan to set the captureGroups execoption to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "lastStarGreedy",
           "package": "regex-deriv",
@@ -297,6 +314,7 @@
         "index": {
           "description": "False by default This is POSIX correct but it takes space and is slower Setting this to true will improve performance and should be done if you plan to set the captureGroups execoption to False",
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "lastStarGreedy",
           "package": "regex-deriv",
@@ -311,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Compile for\n  newline-sensitive matching.  \u003ca\u003eBy default, newline is a completely ordinary\n  character with no special meaning in either REs or strings.  With this flag,\n  inverted bracket expressions and . never match newline, a ^ anchor matches the\n  null string after any newline in the string in addition to its normal\n  function, and the $ anchor matches the null string before any newline in the\n  string in addition to its normal function.\u003c/a\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "multiline",
           "package": "regex-deriv",
@@ -321,6 +340,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Compile for newline-sensitive matching By default newline is completely ordinary character with no special meaning in either REs or strings With this flag inverted bracket expressions and never match newline anchor matches the null string after any newline in the string in addition to its normal function and the anchor matches the null string before any newline in the string in addition to its normal function",
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "multiline",
           "package": "regex-deriv",
@@ -334,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Add the extended non-POSIX syntax described in \u003ca\u003eText.Regex.TDFA\u003c/a\u003e haddock documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "newSyntax",
           "package": "regex-deriv",
@@ -344,6 +365,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Add the extended non-POSIX syntax described in Text.Regex.TDFA haddock documentation",
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "newSyntax",
           "package": "regex-deriv",
@@ -381,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue (and therefore Right associative) in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "rightAssoc",
           "package": "regex-deriv",
@@ -391,6 +414,7 @@
         "index": {
           "description": "True and therefore Right associative in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex Deriv ByteString BitCode",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.BitCode",
           "name": "rightAssoc",
           "package": "regex-deriv",
@@ -404,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.Posix",
           "name": "Posix",
           "package": "regex-deriv",
@@ -412,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.Posix",
           "name": "Posix",
           "package": "regex-deriv",
@@ -426,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.Posix",
           "name": "CompOption",
           "package": "regex-deriv",
@@ -435,6 +462,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex Deriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.Posix",
           "name": "CompOption",
           "package": "regex-deriv",
@@ -448,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.Posix",
           "name": "ExecOption",
           "package": "regex-deriv",
@@ -456,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.Posix",
           "name": "ExecOption",
           "package": "regex-deriv",
@@ -470,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Deriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n | the IntMap keeps track of the auxillary binder generated because of posix matching, i.e. all sub expressions need to be tag\n | the FollowBy keeps track of the order of the pattern binder \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString.Posix",
           "name": "Regex",
           "package": "regex-deriv",
@@ -479,6 +510,7 @@
         "index": {
           "description": "The Deriv backend spepcific Regex type the IntMap keeps track of the auxillary binder generated because of posix matching i.e all sub expressions need to be tag the FollowBy keeps track of the order of the pattern binder",
           "hierarchy": "Text Regex Deriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString.Posix",
           "name": "Regex",
           "package": "regex-deriv",
@@ -687,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString",
           "name": "ByteString",
           "package": "regex-deriv",
@@ -695,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString",
           "name": "ByteString",
           "package": "regex-deriv",
@@ -709,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString",
           "name": "CompOption",
           "package": "regex-deriv",
@@ -718,6 +753,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex Deriv ByteString",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString",
           "name": "CompOption",
           "package": "regex-deriv",
@@ -731,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString",
           "name": "ExecOption",
           "package": "regex-deriv",
@@ -739,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ByteString",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString",
           "name": "ExecOption",
           "package": "regex-deriv",
@@ -753,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Deriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n | the IntMap keeps track of the auxillary binder generated because of posix matching, i.e. all sub expressions need to be tag\n | the FollowBy keeps track of the order of the pattern binder \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ByteString",
           "name": "Regex",
           "package": "regex-deriv",
@@ -762,6 +801,7 @@
         "index": {
           "description": "The Deriv backend spepcific Regex type the IntMap keeps track of the auxillary binder generated because of posix matching i.e all sub expressions need to be tag the FollowBy keeps track of the order of the pattern binder",
           "hierarchy": "Text Regex Deriv ByteString",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ByteString",
           "name": "Regex",
           "package": "regex-deriv",
@@ -776,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethis module contains the defs of common data types and type classes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "Common",
           "package": "regex-deriv",
@@ -785,6 +826,7 @@
         "index": {
           "description": "this module contains the defs of common data types and type classes",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "Common",
           "package": "regex-deriv",
@@ -799,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe greediness flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "GFlag",
           "package": "regex-deriv",
@@ -808,6 +851,7 @@
         "index": {
           "description": "The greediness flag",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "GFlag",
           "package": "regex-deriv",
@@ -822,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest for epsilon == a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "IsEpsilon",
           "package": "regex-deriv",
@@ -831,6 +876,7 @@
         "index": {
           "description": "test for epsilon",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "IsEpsilon",
           "package": "regex-deriv",
@@ -844,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "IsGreedy",
           "package": "regex-deriv",
@@ -852,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "IsGreedy",
           "package": "regex-deriv",
@@ -866,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest for phi == a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "IsPhi",
           "package": "regex-deriv",
@@ -875,6 +924,7 @@
         "index": {
           "description": "test for phi",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "IsPhi",
           "package": "regex-deriv",
@@ -889,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea character and its index (position)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "Letter",
           "package": "regex-deriv",
@@ -898,6 +949,7 @@
         "index": {
           "description": "character and its index position",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "Letter",
           "package": "regex-deriv",
@@ -912,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest for 'epsilon in a' epsilon-possession\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "PosEpsilon",
           "package": "regex-deriv",
@@ -921,6 +974,7 @@
         "index": {
           "description": "test for epsilon in epsilon-possession",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "PosEpsilon",
           "package": "regex-deriv",
@@ -935,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(sub)words represent by range\n type Range  = (Int,Int)      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "Range",
           "package": "regex-deriv",
@@ -944,6 +999,7 @@
         "index": {
           "description": "sub words represent by range type Range Int Int",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "Range",
           "package": "regex-deriv",
@@ -957,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "Simplifiable",
           "package": "regex-deriv",
@@ -965,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "Simplifiable",
           "package": "regex-deriv",
@@ -979,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egreedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "Greedy",
           "package": "regex-deriv",
@@ -989,6 +1048,7 @@
         "index": {
           "description": "greedy",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "Greedy",
           "package": "regex-deriv",
@@ -1003,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "NotGreedy",
           "package": "regex-deriv",
@@ -1013,6 +1074,7 @@
         "index": {
           "description": "not greedy",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "NotGreedy",
           "package": "regex-deriv",
@@ -1026,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "Range",
           "package": "regex-deriv",
@@ -1035,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "Range",
           "package": "regex-deriv",
@@ -1048,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "isEpsilon",
           "package": "regex-deriv",
@@ -1057,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "isEpsilon",
           "normalized": "a-\u003eBool",
@@ -1072,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "isGreedy",
           "package": "regex-deriv",
@@ -1081,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "isGreedy",
           "normalized": "a-\u003eBool",
@@ -1096,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "isPhi",
           "package": "regex-deriv",
@@ -1105,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "isPhi",
           "normalized": "a-\u003eBool",
@@ -1120,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "mainBinder",
           "package": "regex-deriv",
@@ -1129,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "mainBinder",
           "package": "regex-deriv",
@@ -1142,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "maxRange",
           "package": "regex-deriv",
@@ -1151,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "maxRange",
           "normalized": "(a,b)-\u003eb",
@@ -1166,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "minRange",
           "package": "regex-deriv",
@@ -1175,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "minRange",
           "normalized": "(a,b)-\u003ea",
@@ -1190,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "my_hash",
           "package": "regex-deriv",
@@ -1199,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "my_hash",
           "normalized": "Int-\u003eChar-\u003eInt",
@@ -1213,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "my_lookup",
           "package": "regex-deriv",
@@ -1222,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "my_lookup",
           "normalized": "Int-\u003eChar-\u003eIntMap[Int]-\u003e[Int]",
@@ -1237,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove duplications in a list of pairs, using the first components as key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "nub2",
           "package": "regex-deriv",
@@ -1247,6 +1328,7 @@
         "index": {
           "description": "remove duplications in list of pairs using the first components as key",
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "nub2",
           "normalized": "[(Int,a)]-\u003e[(Int,a)]",
@@ -1261,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "nub3",
           "package": "regex-deriv",
@@ -1270,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "nub3",
           "normalized": "[(Int,a,Int)]-\u003e[(Int,a,Int)]",
@@ -1284,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "posEpsilon",
           "package": "regex-deriv",
@@ -1293,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "posEpsilon",
           "normalized": "a-\u003eBool",
@@ -1308,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "preBinder",
           "package": "regex-deriv",
@@ -1317,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "preBinder",
           "package": "regex-deriv",
@@ -1330,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "preBinder_",
           "package": "regex-deriv",
@@ -1339,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "preBinder_",
           "package": "regex-deriv",
@@ -1352,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "range",
           "package": "regex-deriv",
@@ -1361,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "range",
           "normalized": "Int-\u003eInt-\u003eRange",
@@ -1375,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "simplify",
           "package": "regex-deriv",
@@ -1384,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "simplify",
           "normalized": "a-\u003ea",
@@ -1398,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Common",
           "name": "subBinder",
           "package": "regex-deriv",
@@ -1407,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Common",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Common",
           "name": "subBinder",
           "package": "regex-deriv",
@@ -1421,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module that implements a dictionary/hash table\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-deriv",
@@ -1430,6 +1527,7 @@
         "index": {
           "description": "module that implements dictionary hash table",
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-deriv",
@@ -1443,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-deriv",
@@ -1451,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-deriv",
@@ -1464,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Key",
           "package": "regex-deriv",
@@ -1472,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Key",
           "package": "regex-deriv",
@@ -1485,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Trie",
           "package": "regex-deriv",
@@ -1493,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Trie",
           "package": "regex-deriv",
@@ -1506,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-deriv",
@@ -1515,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-deriv",
@@ -1528,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Trie",
           "package": "regex-deriv",
@@ -1537,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "Trie",
           "normalized": "Trie[a](IntMap(Trie a))",
@@ -1552,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "empty",
           "package": "regex-deriv",
@@ -1561,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "empty",
           "package": "regex-deriv",
@@ -1573,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "emptyTrie",
           "package": "regex-deriv",
@@ -1582,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "emptyTrie",
           "package": "regex-deriv",
@@ -1595,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "fromList",
           "package": "regex-deriv",
@@ -1604,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eDictionary b",
@@ -1619,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "fromListNotOverwrite",
           "package": "regex-deriv",
@@ -1628,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "fromListNotOverwrite",
           "normalized": "[(a,b)]-\u003eDictionary b",
@@ -1643,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "hash",
           "package": "regex-deriv",
@@ -1652,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "hash",
           "normalized": "a-\u003e[Int]",
@@ -1666,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "insert",
           "package": "regex-deriv",
@@ -1675,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eDictionary b-\u003eDictionary b",
@@ -1689,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "insertNotOverwrite",
           "package": "regex-deriv",
@@ -1698,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "insertNotOverwrite",
           "normalized": "a-\u003eb-\u003eDictionary b-\u003eDictionary b",
@@ -1713,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "insertTrie",
           "package": "regex-deriv",
@@ -1722,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "insertTrie",
           "normalized": "Bool-\u003e[Int]-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -1737,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "isIn",
           "package": "regex-deriv",
@@ -1746,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "isIn",
           "normalized": "a-\u003eDictionary(a,b)-\u003eBool",
@@ -1761,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "lookup",
           "package": "regex-deriv",
@@ -1770,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "lookup",
           "normalized": "a-\u003eDictionary b-\u003eMaybe b",
@@ -1784,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "lookupAll",
           "package": "regex-deriv",
@@ -1793,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "lookupAll",
           "normalized": "a-\u003eDictionary b-\u003e[b]",
@@ -1808,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "lookupTrie",
           "package": "regex-deriv",
@@ -1817,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "lookupTrie",
           "normalized": "[Int]-\u003eTrie a-\u003eMaybe(Trie a)",
@@ -1832,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "member",
           "package": "regex-deriv",
@@ -1841,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "member",
           "normalized": "a-\u003eDictionary b-\u003eBool",
@@ -1855,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "nub",
           "package": "regex-deriv",
@@ -1864,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "nub",
           "normalized": "[a]-\u003e[a]",
@@ -1878,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "nubSub",
           "package": "regex-deriv",
@@ -1887,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "nubSub",
           "normalized": "[a]-\u003eDictionary(a,())-\u003e[a]",
@@ -1902,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "primeL",
           "package": "regex-deriv",
@@ -1911,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "primeL",
           "package": "regex-deriv",
@@ -1923,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "primeR",
           "package": "regex-deriv",
@@ -1932,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "primeR",
           "package": "regex-deriv",
@@ -1945,6 +2087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe dictionary (k,a) version of elem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "update",
           "package": "regex-deriv",
@@ -1955,6 +2098,7 @@
         "index": {
           "description": "the dictionary version of elem",
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "update",
           "normalized": "a-\u003eb-\u003eDictionary b-\u003eDictionary b",
@@ -1969,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "updateTrie",
           "package": "regex-deriv",
@@ -1978,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Dictionary",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Dictionary",
           "name": "updateTrie",
           "normalized": "[Int]-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -1993,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "ExtPattern",
           "package": "regex-deriv",
@@ -2001,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "ExtPattern",
           "package": "regex-deriv",
@@ -2015,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe external pattern syntax (ERE syntax)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EPat",
           "package": "regex-deriv",
@@ -2024,6 +2173,7 @@
         "index": {
           "description": "The external pattern syntax ERE syntax",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EPat",
           "package": "regex-deriv",
@@ -2038,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe character class [ a-z ] \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EAny",
           "package": "regex-deriv",
@@ -2048,6 +2199,7 @@
         "index": {
           "description": "the character class a-z",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EAny",
           "normalized": "EAny[Char]",
@@ -2064,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ere{1:10}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EBound",
           "package": "regex-deriv",
@@ -2074,6 +2227,7 @@
         "index": {
           "description": "re",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EBound",
           "package": "regex-deriv",
@@ -2088,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe ^ NOTE:shouldn't this must be top level?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "ECarat",
           "package": "regex-deriv",
@@ -2098,6 +2253,7 @@
         "index": {
           "description": "the NOTE shouldn this must be top level",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "ECarat",
           "package": "regex-deriv",
@@ -2112,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe non-escaped char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EChar",
           "package": "regex-deriv",
@@ -2122,6 +2279,7 @@
         "index": {
           "description": "the non-escaped char",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EChar",
           "package": "regex-deriv",
@@ -2136,6 +2294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe concantenation rere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EConcat",
           "package": "regex-deriv",
@@ -2146,6 +2305,7 @@
         "index": {
           "description": "the concantenation rere",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EConcat",
           "normalized": "EConcat[EPat]",
@@ -2162,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe $\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EDollar",
           "package": "regex-deriv",
@@ -2172,6 +2333,7 @@
         "index": {
           "description": "the",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EDollar",
           "package": "regex-deriv",
@@ -2186,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe any char .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EDot",
           "package": "regex-deriv",
@@ -2196,6 +2359,7 @@
         "index": {
           "description": "the any char",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EDot",
           "package": "regex-deriv",
@@ -2209,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EEmpty",
           "package": "regex-deriv",
@@ -2218,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EEmpty",
           "package": "regex-deriv",
@@ -2232,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebackslash char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EEscape",
           "package": "regex-deriv",
@@ -2242,6 +2409,7 @@
         "index": {
           "description": "backslash char",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EEscape",
           "package": "regex-deriv",
@@ -2256,6 +2424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe group ( re )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EGroup",
           "package": "regex-deriv",
@@ -2266,6 +2435,7 @@
         "index": {
           "description": "the group re",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EGroup",
           "package": "regex-deriv",
@@ -2280,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon marking group (?: re )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EGroupNonMarking",
           "package": "regex-deriv",
@@ -2290,6 +2461,7 @@
         "index": {
           "description": "non marking group re",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EGroupNonMarking",
           "package": "regex-deriv",
@@ -2304,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe negative character class [^a-z]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "ENoneOf",
           "package": "regex-deriv",
@@ -2314,6 +2487,7 @@
         "index": {
           "description": "the negative character class a-z",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "ENoneOf",
           "normalized": "ENoneOf[Char]",
@@ -2330,6 +2504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe option re?, the last boolean flag indicates whether it is greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EOpt",
           "package": "regex-deriv",
@@ -2340,6 +2515,7 @@
         "index": {
           "description": "the option re the last boolean flag indicates whether it is greedy",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EOpt",
           "package": "regex-deriv",
@@ -2354,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe union re|re\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EOr",
           "package": "regex-deriv",
@@ -2364,6 +2541,7 @@
         "index": {
           "description": "the union re re",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EOr",
           "normalized": "EOr[EPat]",
@@ -2380,6 +2558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe plus re+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EPlus",
           "package": "regex-deriv",
@@ -2390,6 +2569,7 @@
         "index": {
           "description": "the plus re",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EPlus",
           "package": "regex-deriv",
@@ -2404,6 +2584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe star re*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EStar",
           "package": "regex-deriv",
@@ -2414,6 +2595,7 @@
         "index": {
           "description": "the star re",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "EStar",
           "package": "regex-deriv",
@@ -2428,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction \u003ccode\u003e\u003ca\u003ehasGroup\u003c/a\u003e\u003c/code\u003e tests whether an external pattern has ( ... ) (i.e. variable patterns in the internal pattern)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "hasGroup",
           "package": "regex-deriv",
@@ -2438,6 +2621,7 @@
         "index": {
           "description": "Function hasGroup tests whether an external pattern has i.e variable patterns in the internal pattern",
           "hierarchy": "Text Regex Deriv ExtPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.ExtPattern",
           "name": "hasGroup",
           "normalized": "EPat-\u003eBool",
@@ -2454,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the data type of internal regular expression pattern, \n | as well as the partial derivative operations for regular expression patterns.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "IntPattern",
           "package": "regex-deriv",
@@ -2463,6 +2648,7 @@
         "index": {
           "description": "This module defines the data type of internal regular expression pattern as well as the partial derivative operations for regular expression patterns",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "IntPattern",
           "package": "regex-deriv",
@@ -2477,6 +2663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBinder\u003c/a\u003e\u003c/code\u003e type denotes a set of (pattern var * range) pairs\n type Binder = [(Int, [Range])]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "Binder",
           "package": "regex-deriv",
@@ -2486,6 +2673,7 @@
         "index": {
           "description": "The Binder type denotes set of pattern var range pairs type Binder Int Range",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "Binder",
           "package": "regex-deriv",
@@ -2499,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "Key",
           "package": "regex-deriv",
@@ -2507,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "Key",
           "package": "regex-deriv",
@@ -2521,6 +2711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregular expression patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "Pat",
           "package": "regex-deriv",
@@ -2530,6 +2721,7 @@
         "index": {
           "description": "regular expression patterns",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "Pat",
           "package": "regex-deriv",
@@ -2544,6 +2736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echoice pattern \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PChoice",
           "package": "regex-deriv",
@@ -2554,6 +2747,7 @@
         "index": {
           "description": "choice pattern",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PChoice",
           "normalized": "PChoice[Pat]GFlag",
@@ -2570,6 +2764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epattern without binder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PE",
           "package": "regex-deriv",
@@ -2580,6 +2775,7 @@
         "index": {
           "description": "pattern without binder",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PE",
           "normalized": "PE[RE]",
@@ -2596,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty pattern, it is used intermally to indicate that mkEmpty function has been applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PEmpty",
           "package": "regex-deriv",
@@ -2606,6 +2803,7 @@
         "index": {
           "description": "empty pattern it is used intermally to indicate that mkEmpty function has been applied",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PEmpty",
           "package": "regex-deriv",
@@ -2620,6 +2818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epair pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PPair",
           "package": "regex-deriv",
@@ -2630,6 +2829,7 @@
         "index": {
           "description": "pair pattern",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PPair",
           "package": "regex-deriv",
@@ -2644,6 +2844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplus pattern, it is used internally to indicate that it is unrolled from a PStar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PPlus",
           "package": "regex-deriv",
@@ -2654,6 +2855,7 @@
         "index": {
           "description": "plus pattern it is used internally to indicate that it is unrolled from PStar",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PPlus",
           "package": "regex-deriv",
@@ -2668,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estar pattern \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PStar",
           "package": "regex-deriv",
@@ -2678,6 +2881,7 @@
         "index": {
           "description": "star pattern",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PStar",
           "package": "regex-deriv",
@@ -2692,6 +2896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable pattern \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PVar",
           "package": "regex-deriv",
@@ -2702,6 +2907,7 @@
         "index": {
           "description": "variable pattern",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "PVar",
           "normalized": "PVar Int[Range]Pat",
@@ -2717,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "hash",
           "package": "regex-deriv",
@@ -2726,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "hash",
           "normalized": "a-\u003e[Int]",
@@ -2740,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "listifyBinder",
           "package": "regex-deriv",
@@ -2749,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "listifyBinder",
           "normalized": "Binder-\u003e[(Int,[Range])]",
@@ -2765,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003estrip\u003c/a\u003e\u003c/code\u003e strips away the bindings from a pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "strip",
           "package": "regex-deriv",
@@ -2775,6 +2986,7 @@
         "index": {
           "description": "function strip strips away the bindings from pattern",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "strip",
           "normalized": "Pat-\u003eRE",
@@ -2790,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction \u003ccode\u003e\u003ca\u003etoBinder\u003c/a\u003e\u003c/code\u003e turns a pattern into a binder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "toBinder",
           "package": "regex-deriv",
@@ -2800,6 +3013,7 @@
         "index": {
           "description": "Function toBinder turns pattern into binder",
           "hierarchy": "Text Regex Deriv IntPattern",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.IntPattern",
           "name": "toBinder",
           "normalized": "Pat-\u003eBinder",
@@ -2815,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Parse",
           "name": "Parse",
           "package": "regex-deriv",
@@ -2823,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Parse",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Parse",
           "name": "Parse",
           "package": "regex-deriv",
@@ -2837,6 +3053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn either a parse error or an external pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Parse",
           "name": "parseEPat",
           "package": "regex-deriv",
@@ -2847,6 +3064,7 @@
         "index": {
           "description": "Return either parse error or an external pattern",
           "hierarchy": "Text Regex Deriv Parse",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Parse",
           "name": "parseEPat",
           "normalized": "String-\u003eEither ParseError(EPat,EState)",
@@ -2862,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Parse",
           "name": "parsePat",
           "package": "regex-deriv",
@@ -2871,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Parse",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Parse",
           "name": "parsePat",
           "normalized": "String-\u003eEither ParseError Pat",
@@ -2886,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Parse",
           "name": "parsePatPosix",
           "package": "regex-deriv",
@@ -2895,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Parse",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Parse",
           "name": "parsePatPosix",
           "normalized": "String-\u003eEither ParseError(Pat,IntMap())",
@@ -2910,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Pretty",
           "name": "Pretty",
           "package": "regex-deriv",
@@ -2918,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Pretty",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Pretty",
           "name": "Pretty",
           "package": "regex-deriv",
@@ -2931,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Pretty",
           "name": "Pretty",
           "package": "regex-deriv",
@@ -2939,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Pretty",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Pretty",
           "name": "Pretty",
           "package": "regex-deriv",
@@ -2952,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Pretty",
           "name": "pretty",
           "package": "regex-deriv",
@@ -2961,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Pretty",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eString",
@@ -2975,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "RE",
           "package": "regex-deriv",
@@ -2983,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "RE",
           "package": "regex-deriv",
@@ -2997,6 +3227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata type of the regular expresions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "RE",
           "package": "regex-deriv",
@@ -3006,6 +3237,7 @@
         "index": {
           "description": "data type of the regular expresions",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "RE",
           "package": "regex-deriv",
@@ -3020,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "Any",
           "package": "regex-deriv",
@@ -3029,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "Any",
           "package": "regex-deriv",
@@ -3043,6 +3277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea choice exp 'r1 + r2'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "Choice",
           "package": "regex-deriv",
@@ -3053,6 +3288,7 @@
         "index": {
           "description": "choice exp r1 r2",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "Choice",
           "normalized": "Choice[RE]GFlag",
@@ -3069,6 +3305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einternal choice used in the BitCode version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "ChoiceInt",
           "package": "regex-deriv",
@@ -3079,6 +3316,7 @@
         "index": {
           "description": "internal choice used in the BitCode version",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "ChoiceInt",
           "normalized": "ChoiceInt[RE]",
@@ -3095,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean empty exp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "Empty",
           "package": "regex-deriv",
@@ -3105,6 +3344,7 @@
         "index": {
           "description": "an empty exp",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "Empty",
           "package": "regex-deriv",
@@ -3119,6 +3359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea literal / a character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "L",
           "package": "regex-deriv",
@@ -3129,6 +3370,7 @@
         "index": {
           "description": "literal character",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "L",
           "package": "regex-deriv",
@@ -3142,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexcluding characters e.g. [^abc]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "Not",
           "package": "regex-deriv",
@@ -3152,6 +3395,7 @@
         "index": {
           "description": "excluding characters e.g abc",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "Not",
           "normalized": "Not[Char]",
@@ -3167,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "Phi",
           "package": "regex-deriv",
@@ -3176,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "Phi",
           "package": "regex-deriv",
@@ -3190,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea pair exp '(r1,r2)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "Seq",
           "package": "regex-deriv",
@@ -3200,6 +3447,7 @@
         "index": {
           "description": "pair exp r1 r2",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "Seq",
           "package": "regex-deriv",
@@ -3214,6 +3462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea kleene's star exp 'r*'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "Star",
           "package": "regex-deriv",
@@ -3224,6 +3473,7 @@
         "index": {
           "description": "kleene star exp",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "Star",
           "package": "regex-deriv",
@@ -3238,6 +3488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003epartDeriv\u003c/a\u003e\u003c/code\u003e implements the partial derivative operations for regular expressions. We don't pay attention to the greediness flag here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "partDeriv",
           "package": "regex-deriv",
@@ -3248,6 +3499,7 @@
         "index": {
           "description": "function partDeriv implements the partial derivative operations for regular expressions We don pay attention to the greediness flag here",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "partDeriv",
           "normalized": "RE-\u003eChar-\u003e[RE]",
@@ -3263,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "partDerivSub",
           "package": "regex-deriv",
@@ -3272,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "partDerivSub",
           "normalized": "RE-\u003eChar-\u003e[RE]",
@@ -3288,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003eresToRE\u003c/a\u003e\u003c/code\u003e sums up a list of regular expressions with the choice operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "resToRE",
           "package": "regex-deriv",
@@ -3298,6 +3553,7 @@
         "index": {
           "description": "function resToRE sums up list of regular expressions with the choice operation",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "resToRE",
           "normalized": "[RE]-\u003eRE",
@@ -3314,6 +3570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003esigmaRE\u003c/a\u003e\u003c/code\u003e returns all characters appearing in a reg exp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "sigmaRE",
           "package": "regex-deriv",
@@ -3324,6 +3581,7 @@
         "index": {
           "description": "function sigmaRE returns all characters appearing in reg exp",
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "sigmaRE",
           "normalized": "RE-\u003e[Char]",
@@ -3339,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.RE",
           "name": "sigmaREsub",
           "package": "regex-deriv",
@@ -3348,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv RE",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.RE",
           "name": "sigmaREsub",
           "normalized": "RE-\u003e[Char]",
@@ -3364,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA translation schema from the external syntax (ERE) to our interal syntax (xhaskell style pattern)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Translate",
           "name": "Translate",
           "package": "regex-deriv",
@@ -3373,6 +3634,7 @@
         "index": {
           "description": "translation schema from the external syntax ERE to our interal syntax xhaskell style pattern",
           "hierarchy": "Text Regex Deriv Translate",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Translate",
           "name": "Translate",
           "package": "regex-deriv",
@@ -3387,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslating external pattern to internal pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Translate",
           "name": "translate",
           "package": "regex-deriv",
@@ -3397,6 +3660,7 @@
         "index": {
           "description": "Translating external pattern to internal pattern",
           "hierarchy": "Text Regex Deriv Translate",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Translate",
           "name": "translate",
           "normalized": "EPat-\u003ePat",
@@ -3412,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor posix \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Translate",
           "name": "translatePosix",
           "package": "regex-deriv",
@@ -3422,6 +3687,7 @@
         "index": {
           "description": "for posix",
           "hierarchy": "Text Regex Deriv Translate",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Translate",
           "name": "translatePosix",
           "normalized": "EPat-\u003e(Pat,IntMap())",
@@ -3437,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "Word",
           "package": "regex-deriv",
@@ -3445,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "Word",
           "package": "regex-deriv",
@@ -3459,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe Word type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "Word",
           "package": "regex-deriv",
@@ -3468,6 +3737,7 @@
         "index": {
           "description": "the Word type class",
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "Word",
           "package": "regex-deriv",
@@ -3481,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "append",
           "package": "regex-deriv",
@@ -3490,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "append",
           "normalized": "a-\u003ea-\u003ea",
@@ -3504,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "drop",
           "package": "regex-deriv",
@@ -3513,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "drop",
           "normalized": "Int-\u003ea-\u003ea",
@@ -3527,6 +3801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "empty",
           "package": "regex-deriv",
@@ -3536,6 +3811,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "empty",
           "package": "regex-deriv",
@@ -3548,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "length",
           "package": "regex-deriv",
@@ -3557,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -3571,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "reverse",
           "package": "regex-deriv",
@@ -3580,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "reverse",
           "normalized": "a-\u003ea",
@@ -3594,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "take",
           "package": "regex-deriv",
@@ -3603,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "take",
           "normalized": "Int-\u003ea-\u003ea",
@@ -3617,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:03 UTC 2014",
           "module": "Text.Regex.Deriv.Word",
           "name": "uncons",
           "package": "regex-deriv",
@@ -3626,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Deriv Word",
+          "indexed": "2014-03-11T19:51:03",
           "module": "Text.Regex.Deriv.Word",
           "name": "uncons",
           "normalized": "a-\u003eMaybe(Char,a)",

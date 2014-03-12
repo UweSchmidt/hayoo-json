@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "plivo"
+        "phrase": "plivo",
+        "type": "phrase"
       },
       "type": "context"
     }

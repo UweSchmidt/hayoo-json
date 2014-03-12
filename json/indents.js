@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "indents"
+        "phrase": "indents",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "Indent",
           "package": "indents",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "Indent",
           "package": "indents",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndentation sensitive parser type. Usually \u003ccode\u003e m \u003c/code\u003e will\n   be \u003ccode\u003e Identity \u003c/code\u003e as with any \u003ccode\u003e ParsecT \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "IndentParser",
           "package": "indents",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Indentation sensitive parser type Usually will be Identity as with any ParsecT",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "IndentParser",
           "package": "indents",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype used to optional parsing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "Optional",
           "package": "indents",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Datatype used to optional parsing",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "Optional",
           "package": "indents",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003e\u003c+/\u003e\u003c/a\u003e\u003c/code\u003e but applies the second parser many times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "(\u003c*/\u003e)",
           "package": "indents",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Like but applies the second parser many times",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "(\u003c*/\u003e) \u003c*/\u003e",
           "normalized": "IndentParser a b([c]-\u003ed)-\u003eIndentParser a b c-\u003eIndentParser a b d",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003c+/\u003e\u003c/a\u003e\u003c/code\u003e is to indentation sensitive parsers what \u003ccode\u003e\u003ca\u003eap\u003c/a\u003e\u003c/code\u003e is to monads\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "(\u003c+/\u003e)",
           "package": "indents",
@@ -121,6 +130,7 @@
         "index": {
           "description": "is to indentation sensitive parsers what ap is to monads",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "(\u003c+/\u003e) \u003c+/\u003e",
           "normalized": "IndentParser a b(c-\u003ed)-\u003eIndentParser a b c-\u003eIndentParser a b d",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003c-/\u003e\u003c/a\u003e\u003c/code\u003e is like \u003ccode\u003e\u003ca\u003e\u003c+/\u003e\u003c/a\u003e\u003c/code\u003e, but doesn't apply the function to the parsed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "(\u003c-/\u003e)",
           "package": "indents",
@@ -146,6 +157,7 @@
         "index": {
           "description": "is like but doesn apply the function to the parsed value",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "(\u003c-/\u003e) \u003c-/\u003e",
           "normalized": "IndentParser a b c-\u003eIndentParser a b d-\u003eIndentParser a b c",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003e\u003c+/\u003e\u003c/a\u003e\u003c/code\u003e but applies the second parser optionally using the \u003ccode\u003e\u003ca\u003eOptional\u003c/a\u003e\u003c/code\u003e datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "(\u003c?/\u003e)",
           "package": "indents",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Like but applies the second parser optionally using the Optional datatype",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "(\u003c?/\u003e) \u003c?/\u003e",
           "normalized": "IndentParser a b(c-\u003ed)-\u003eOptional a b c-\u003eIndentParser a b d",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "Opt",
           "package": "indents",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "Opt",
           "package": "indents",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a block of lines at the same indentation level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "block",
           "package": "indents",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Parses block of lines at the same indentation level",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "block",
           "normalized": "IndentParser a b c-\u003eIndentParser a b[c]",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsures the current indentation level matches that of the reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "checkIndent",
           "package": "indents",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Ensures the current indentation level matches that of the reference",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "checkIndent",
           "normalized": "IndentParser a b()",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparses with surrounding angle brackets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "indentAngles",
           "package": "indents",
@@ -269,6 +290,7 @@
         "index": {
           "description": "parses with surrounding angle brackets",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "indentAngles",
           "normalized": "GenTokenParser a b(State SourcePos)-\u003eIndentParser a b c-\u003eIndentParser a b c",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparses with surrounding braces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "indentBraces",
           "package": "indents",
@@ -295,6 +318,7 @@
         "index": {
           "description": "parses with surrounding braces",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "indentBraces",
           "normalized": "GenTokenParser a b(State SourcePos)-\u003eIndentParser a b c-\u003eIndentParser a b c",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparses with surrounding brackets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "indentBrackets",
           "package": "indents",
@@ -321,6 +346,7 @@
         "index": {
           "description": "parses with surrounding brackets",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "indentBrackets",
           "normalized": "GenTokenParser a b(State SourcePos)-\u003eIndentParser a b c-\u003eIndentParser a b c",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparses with surrounding parentheses \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "indentParens",
           "package": "indents",
@@ -347,6 +374,7 @@
         "index": {
           "description": "parses with surrounding parentheses",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "indentParens",
           "normalized": "GenTokenParser a b(State SourcePos)-\u003eIndentParser a b c-\u003eIndentParser a b c",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses only when indented past the level of the reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "indented",
           "package": "indents",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Parses only when indented past the level of the reference",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "indented",
           "normalized": "IndentParser a b()",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the result of an indentation sensitive parse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "runIndent",
           "package": "indents",
@@ -398,6 +429,7 @@
         "index": {
           "description": "Run the result of an indentation sensitive parse",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "runIndent",
           "normalized": "SourceName-\u003eState SourcePos a-\u003ea",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses only on the same line as the reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "same",
           "package": "indents",
@@ -424,6 +457,7 @@
         "index": {
           "description": "Parses only on the same line as the reference",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "same",
           "normalized": "IndentParser a b()",
@@ -439,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses only when indented past the level of the reference or on the same line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "sameOrIndented",
           "package": "indents",
@@ -449,6 +484,7 @@
         "index": {
           "description": "Parses only when indented past the level of the reference or on the same line",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "sameOrIndented",
           "normalized": "IndentParser a b()",
@@ -465,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e \u003ccode\u003e\u003ca\u003ewithBlock\u003c/a\u003e\u003c/code\u003e f a p \u003c/code\u003e parses \u003ccode\u003e a \u003c/code\u003e\n   followed by an indented block of \u003ccode\u003e p \u003c/code\u003e\n   combining them with \u003ccode\u003e f \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "withBlock",
           "package": "indents",
@@ -475,6 +512,7 @@
         "index": {
           "description": "withBlock parses followed by an indented block of combining them with",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "withBlock",
           "normalized": "(a-\u003e[b]-\u003ec)-\u003eIndentParser d e a-\u003eIndentParser d e b-\u003eIndentParser d e c",
@@ -491,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewithBlock\u003c/a\u003e\u003c/code\u003e, but throws away initial parse result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "withBlock'",
           "package": "indents",
@@ -501,6 +540,7 @@
         "index": {
           "description": "Like withBlock but throws away initial parse result",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "withBlock'",
           "normalized": "IndentParser a b c-\u003eIndentParser a b d-\u003eIndentParser a b[d]",
@@ -517,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses using the current location for indentation reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:57:24 UTC 2014",
           "module": "Text.Parsec.Indent",
           "name": "withPos",
           "package": "indents",
@@ -527,6 +568,7 @@
         "index": {
           "description": "Parses using the current location for indentation reference",
           "hierarchy": "Text Parsec Indent",
+          "indexed": "2014-03-11T18:57:24",
           "module": "Text.Parsec.Indent",
           "name": "withPos",
           "normalized": "IndentParser a b c-\u003eIndentParser a b c",

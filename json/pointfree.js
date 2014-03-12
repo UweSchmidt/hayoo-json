@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pointfree"
+        "phrase": "pointfree",
+        "type": "phrase"
       },
       "type": "context"
     }

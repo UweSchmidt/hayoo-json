@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "staticanalysis"
+        "phrase": "staticanalysis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStaticAnalysis\n\u003c/p\u003e\u003cpre\u003eStaticAnalysis/All.hs\u003c/pre\u003e\u003cp\u003eWrapper module for all StaticAnalysis modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.All",
           "name": "All",
           "package": "staticanalysis",
@@ -28,6 +29,7 @@
         "index": {
           "description": "StaticAnalysis StaticAnalysis All.hs Wrapper module for all StaticAnalysis modules",
           "hierarchy": "StaticAnalysis All",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.All",
           "name": "All",
           "package": "staticanalysis",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStaticAnalysis\n\u003c/p\u003e\u003cpre\u003eStaticAnalysis/Analysis.hs\u003c/pre\u003e\u003cp\u003eInterface for data structure that represents static\n   analysis results.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analysis",
           "name": "Analysis",
           "package": "staticanalysis",
@@ -51,6 +54,7 @@
         "index": {
           "description": "StaticAnalysis StaticAnalysis Analysis.hs Interface for data structure that represents static analysis results",
           "hierarchy": "StaticAnalysis Analysis",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analysis",
           "name": "Analysis",
           "package": "staticanalysis",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for analysis result data structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analysis",
           "name": "Analysis",
           "package": "staticanalysis",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Interface for analysis result data structures",
           "hierarchy": "StaticAnalysis Analysis",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analysis",
           "name": "Analysis",
           "package": "staticanalysis",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for analysis result data structures with multiple\n   analysis components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analysis",
           "name": "Component",
           "package": "staticanalysis",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Interface for analysis result data structures with multiple analysis components",
           "hierarchy": "StaticAnalysis Analysis",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analysis",
           "name": "Component",
           "package": "staticanalysis",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analysis",
           "name": "inject",
           "package": "staticanalysis",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "StaticAnalysis Analysis",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analysis",
           "name": "inject",
           "normalized": "a-\u003eb-\u003eb",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analysis",
           "name": "project",
           "package": "staticanalysis",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "StaticAnalysis Analysis",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analysis",
           "name": "project",
           "normalized": "a-\u003eb",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analysis",
           "name": "unanalyzed",
           "package": "staticanalysis",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "StaticAnalysis Analysis",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analysis",
           "name": "unanalyzed",
           "package": "staticanalysis",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStaticAnalysis\n\u003c/p\u003e\u003cpre\u003eStaticAnalysis/Annotated.hs\u003c/pre\u003e\u003cp\u003eInterface for abstract syntax data structures in which\n   every node can be annotated with a data structure that\n   represents static analysis results.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analyze",
           "name": "Analyze",
           "package": "staticanalysis",
@@ -187,6 +202,7 @@
         "index": {
           "description": "StaticAnalysis StaticAnalysis Annotated.hs Interface for abstract syntax data structures in which every node can be annotated with data structure that represents static analysis results",
           "hierarchy": "StaticAnalysis Analyze",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analyze",
           "name": "Analyze",
           "package": "staticanalysis",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for abstract syntax data structures that can be\n   analyzed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analyze",
           "name": "Analyze",
           "package": "staticanalysis",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Interface for abstract syntax data structures that can be analyzed",
           "hierarchy": "StaticAnalysis Analyze",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analyze",
           "name": "Analyze",
           "package": "staticanalysis",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Analyze",
           "name": "analyze",
           "package": "staticanalysis",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "StaticAnalysis Analyze",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Analyze",
           "name": "analyze",
           "normalized": "a b-\u003ea b",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStaticAnalysis\n\u003c/p\u003e\u003cpre\u003eStaticAnalysis/Annotate.hs\u003c/pre\u003e\u003cp\u003eInterface for abstract syntax data structures in which\n   every node can be annotated with a data structure that\n   represents static analysis results.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Annotate",
           "name": "Annotate",
           "package": "staticanalysis",
@@ -256,6 +277,7 @@
         "index": {
           "description": "StaticAnalysis StaticAnalysis Annotate.hs Interface for abstract syntax data structures in which every node can be annotated with data structure that represents static analysis results",
           "hierarchy": "StaticAnalysis Annotate",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Annotate",
           "name": "Annotate",
           "package": "staticanalysis",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for abstract syntax data structures that can be\n   annotated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Annotate",
           "name": "Annotate",
           "package": "staticanalysis",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Interface for abstract syntax data structures that can be annotated",
           "hierarchy": "StaticAnalysis Annotate",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Annotate",
           "name": "Annotate",
           "package": "staticanalysis",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Annotate",
           "name": "annotate",
           "package": "staticanalysis",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "StaticAnalysis Annotate",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Annotate",
           "name": "annotate",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:14 UTC 2014",
           "module": "StaticAnalysis.Annotate",
           "name": "annotation",
           "package": "staticanalysis",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "StaticAnalysis Annotate",
+          "indexed": "2014-03-11T20:10:14",
           "module": "StaticAnalysis.Annotate",
           "name": "annotation",
           "normalized": "a b-\u003eb",

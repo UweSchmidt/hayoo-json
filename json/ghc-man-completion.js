@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-man-completion"
+        "phrase": "ghc-man-completion",
+        "type": "phrase"
       },
       "type": "context"
     }

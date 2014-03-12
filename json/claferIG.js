@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "claferIG"
+        "phrase": "claferIG",
+        "type": "phrase"
       },
       "type": "context"
     }

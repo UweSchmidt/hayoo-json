@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "safe"
+        "phrase": "safe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEquivalent versions to the \u003ca\u003eSafe\u003c/a\u003e module, but generalised to work\nover any \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "Foldable",
           "package": "safe",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Equivalent versions to the Safe module but generalised to work over any Foldable type",
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "Foldable",
           "package": "safe",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Same as Data.Foldable.find\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "findJust",
           "package": "safe",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Same as Data.Foldable.find",
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "findJust",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003ea",
@@ -67,6 +71,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "findJustDef",
           "package": "safe",
@@ -76,6 +81,7 @@
         },
         "index": {
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "findJustDef",
           "normalized": "a-\u003e(a-\u003eBool)-\u003eb a-\u003ea",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "findJustNote",
           "package": "safe",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "findJustNote",
           "normalized": "String-\u003e(a-\u003eBool)-\u003eb a-\u003ea",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value is the mempty from a monoid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "findJustSafe",
           "package": "safe",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Default value is the mempty from monoid",
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "findJustSafe",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003ea",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "foldl1Def",
           "package": "safe",
@@ -150,6 +161,7 @@
         },
         "index": {
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "foldl1Def",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -165,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "foldl1May",
           "package": "safe",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "foldl1May",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eMaybe a",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Same as Data.Foldable.foldl1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "foldl1Note",
           "package": "safe",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Same as Data.Foldable.foldl1",
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "foldl1Note",
           "normalized": "String-\u003e(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value is the mempty from a monoid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "foldl1Safe",
           "package": "safe",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Default value is the mempty from monoid",
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "foldl1Safe",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -241,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "foldr1Def",
           "package": "safe",
@@ -250,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "foldr1Def",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -265,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "foldr1May",
           "package": "safe",
@@ -274,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "foldr1May",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eMaybe a",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Same as Data.Foldable.foldr1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "foldr1Note",
           "package": "safe",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Same as Data.Foldable.foldr1",
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "foldr1Note",
           "normalized": "String-\u003e(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -316,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value is the mempty from a monoid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe.Foldable",
           "name": "foldr1Safe",
           "package": "safe",
@@ -326,6 +351,7 @@
         "index": {
           "description": "Default value is the mempty from monoid",
           "hierarchy": "Safe Foldable",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe.Foldable",
           "name": "foldr1Safe",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for safe functions, based on standard functions that may crash.\n\u003c/p\u003e\u003cp\u003eIn general, each unsafe function has up to 4 forms.\nSince \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e has all the possible forms, it is fully documented.\nThe others all follow the same pattern.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eNote\u003c/code\u003e, takes an extra argument which supplements the error message, \u003ccode\u003e\u003ca\u003etailNote\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eDef\u003c/code\u003e, take an extra argument to give when a crash would otherwise happen, \u003ccode\u003e\u003ca\u003etailDef\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eMay\u003c/code\u003e, wraps the result in a Maybe, \u003ccode\u003e\u003ca\u003etailMay\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eSafe\u003c/code\u003e, returns a default type if possible, \u003ccode\u003e\u003ca\u003etailSafe\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis library also introduces three brand new functions:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eat\u003c/a\u003e\u003c/code\u003e - synonym for \u003ccode\u003e(!!)\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003elookupJust\u003c/a\u003e\u003c/code\u003e - defined as \u003ccode\u003elookupJust k = fromJust . lookup k\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003efindJust\u003c/a\u003e\u003c/code\u003e - defined as \u003ccode\u003efindJust f = fromJust . find f\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eabort\u003c/a\u003e\u003c/code\u003e - same as \u003ccode\u003eerror\u003c/code\u003e, but different intended meaning\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "Safe",
           "package": "safe",
@@ -351,6 +378,7 @@
         "index": {
           "description": "library for safe functions based on standard functions that may crash In general each unsafe function has up to forms Since tail has all the possible forms it is fully documented The others all follow the same pattern Note takes an extra argument which supplements the error message tailNote Def take an extra argument to give when crash would otherwise happen tailDef May wraps the result in Maybe tailMay Safe returns default type if possible tailSafe This library also introduces three brand new functions at synonym for lookupJust defined as lookupJust fromJust lookup findJust defined as findJust fromJust find abort same as error but different intended meaning",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "Safe",
           "package": "safe",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExactly the same as \u003ccode\u003eerror\u003c/code\u003e. Use this for instances where the program\n   has decided to exit because of invalid user input, or the user pressed\n   quit etc. This allows \u003ccode\u003eerror\u003c/code\u003e to be reserved for genuine coding mistakes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "abort",
           "package": "safe",
@@ -375,6 +404,7 @@
         "index": {
           "description": "Exactly the same as error Use this for instances where the program has decided to exit because of invalid user input or the user pressed quit etc This allows error to be reserved for genuine coding mistakes",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "abort",
           "normalized": "String-\u003ea",
@@ -389,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "assertNote",
           "package": "safe",
@@ -398,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "assertNote",
           "normalized": "String-\u003eBool-\u003ea-\u003ea",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e(!!)\u003c/code\u003e, but better error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "at",
           "package": "safe",
@@ -424,6 +457,7 @@
         "index": {
           "description": "Same as but better error message",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "at",
           "normalized": "[a]-\u003eInt-\u003ea",
@@ -438,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "atDef",
           "package": "safe",
@@ -447,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "atDef",
           "normalized": "a-\u003e[a]-\u003eInt-\u003ea",
@@ -462,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "atMay",
           "package": "safe",
@@ -471,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "atMay",
           "normalized": "[a]-\u003eInt-\u003eMaybe a",
@@ -486,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "atNote",
           "package": "safe",
@@ -495,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "atNote",
           "normalized": "String-\u003e[a]-\u003eInt-\u003ea",
@@ -511,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e findJust op = fromJust . find op\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "findJust",
           "package": "safe",
@@ -521,6 +562,7 @@
         "index": {
           "description": "findJust op fromJust find op",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "findJust",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003ea",
@@ -536,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "findJustDef",
           "package": "safe",
@@ -545,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "findJustDef",
           "normalized": "a-\u003e(a-\u003eBool)-\u003e[a]-\u003ea",
@@ -560,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "findJustNote",
           "package": "safe",
@@ -569,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "findJustNote",
           "normalized": "String-\u003e(a-\u003eBool)-\u003e[a]-\u003ea",
@@ -584,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldl1Def",
           "package": "safe",
@@ -593,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldl1Def",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -608,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldl1Def'",
           "package": "safe",
@@ -617,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldl1Def'",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -632,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldl1May",
           "package": "safe",
@@ -641,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldl1May",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003eMaybe a",
@@ -656,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldl1May'",
           "package": "safe",
@@ -665,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldl1May'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003eMaybe a",
@@ -680,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldl1Note",
           "package": "safe",
@@ -689,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldl1Note",
           "normalized": "String-\u003e(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -704,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldl1Note'",
           "package": "safe",
@@ -713,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldl1Note'",
           "normalized": "String-\u003e(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -728,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldr1Def",
           "package": "safe",
@@ -737,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldr1Def",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -752,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldr1May",
           "package": "safe",
@@ -761,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldr1May",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003eMaybe a",
@@ -776,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "foldr1Note",
           "package": "safe",
@@ -785,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "foldr1Note",
           "normalized": "String-\u003e(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -801,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee fromMaybe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "fromJustDef",
           "package": "safe",
@@ -811,6 +876,7 @@
         "index": {
           "description": "See fromMaybe",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "fromJustDef",
           "normalized": "a-\u003eMaybe a-\u003ea",
@@ -826,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "fromJustNote",
           "package": "safe",
@@ -835,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "fromJustNote",
           "normalized": "String-\u003eMaybe a-\u003ea",
@@ -850,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "headDef",
           "package": "safe",
@@ -859,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "headDef",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -874,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "headMay",
           "package": "safe",
@@ -883,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "headMay",
           "normalized": "[a]-\u003eMaybe a",
@@ -898,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "headNote",
           "package": "safe",
@@ -907,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "headNote",
           "normalized": "String-\u003e[a]-\u003ea",
@@ -922,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "initDef",
           "package": "safe",
@@ -931,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "initDef",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -946,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "initMay",
           "package": "safe",
@@ -955,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "initMay",
           "normalized": "[a]-\u003eMaybe[a]",
@@ -970,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "initNote",
           "package": "safe",
@@ -979,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "initNote",
           "normalized": "String-\u003e[a]-\u003e[a]",
@@ -994,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "initSafe",
           "package": "safe",
@@ -1003,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "initSafe",
           "normalized": "[a]-\u003e[a]",
@@ -1018,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "lastDef",
           "package": "safe",
@@ -1027,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "lastDef",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -1042,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "lastMay",
           "package": "safe",
@@ -1051,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "lastMay",
           "normalized": "[a]-\u003eMaybe a",
@@ -1066,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "lastNote",
           "package": "safe",
@@ -1075,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "lastNote",
           "normalized": "String-\u003e[a]-\u003ea",
@@ -1091,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e lookupJust key = fromJust . lookup key\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "lookupJust",
           "package": "safe",
@@ -1101,6 +1190,7 @@
         "index": {
           "description": "lookupJust key fromJust lookup key",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "lookupJust",
           "normalized": "a-\u003e[(a,b)]-\u003eb",
@@ -1116,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "lookupJustDef",
           "package": "safe",
@@ -1125,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "lookupJustDef",
           "normalized": "a-\u003eb-\u003e[(b,a)]-\u003ea",
@@ -1140,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "lookupJustNote",
           "package": "safe",
@@ -1149,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "lookupJustNote",
           "normalized": "String-\u003ea-\u003e[(a,b)]-\u003eb",
@@ -1164,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "maximumDef",
           "package": "safe",
@@ -1173,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "maximumDef",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -1188,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "maximumMay",
           "package": "safe",
@@ -1197,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "maximumMay",
           "normalized": "[a]-\u003eMaybe a",
@@ -1212,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "maximumNote",
           "package": "safe",
@@ -1221,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "maximumNote",
           "normalized": "String-\u003e[a]-\u003ea",
@@ -1236,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "minimumDef",
           "package": "safe",
@@ -1245,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "minimumDef",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -1260,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "minimumMay",
           "package": "safe",
@@ -1269,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "minimumMay",
           "normalized": "[a]-\u003eMaybe a",
@@ -1284,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "minimumNote",
           "package": "safe",
@@ -1293,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "minimumNote",
           "normalized": "String-\u003e[a]-\u003ea",
@@ -1308,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "readDef",
           "package": "safe",
@@ -1317,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "readDef",
           "normalized": "a-\u003eString-\u003ea",
@@ -1332,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "readMay",
           "package": "safe",
@@ -1341,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "readMay",
           "normalized": "String-\u003eMaybe a",
@@ -1356,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "readNote",
           "package": "safe",
@@ -1365,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "readNote",
           "normalized": "String-\u003eString-\u003ea",
@@ -1381,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e tailDef [12] [] = [12]\n tailDef [12] [1,3,4] = [3,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "tailDef",
           "package": "safe",
@@ -1391,6 +1504,7 @@
         "index": {
           "description": "tailDef tailDef",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "tailDef",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1407,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e tailMay [] = Nothing\n tailMay [1,3,4] = Just [3,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "tailMay",
           "package": "safe",
@@ -1417,6 +1532,7 @@
         "index": {
           "description": "tailMay Nothing tailMay Just",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "tailMay",
           "normalized": "[a]-\u003eMaybe[a]",
@@ -1433,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e tail \"help me\" [] = error \"Pattern match failure, tail [], help me\"\n tail \"help me\" [1,3,4] = [3,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "tailNote",
           "package": "safe",
@@ -1443,6 +1560,7 @@
         "index": {
           "description": "tail help me error Pattern match failure tail help me tail help me",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "tailNote",
           "normalized": "String-\u003e[a]-\u003e[a]",
@@ -1459,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e tailSafe [] = []\n tailSafe [1,3,4] = [3,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:12 UTC 2014",
           "module": "Safe",
           "name": "tailSafe",
           "package": "safe",
@@ -1469,6 +1588,7 @@
         "index": {
           "description": "tailSafe tailSafe",
           "hierarchy": "Safe",
+          "indexed": "2014-03-11T19:56:12",
           "module": "Safe",
           "name": "tailSafe",
           "normalized": "[a]-\u003e[a]",

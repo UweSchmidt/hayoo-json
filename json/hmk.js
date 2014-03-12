@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmk"
+        "phrase": "hmk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.Analyze",
           "name": "Analyze",
           "package": "hmk",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk Analyze",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.Analyze",
           "name": "Analyze",
           "package": "hmk",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.Analyze",
           "name": "coalesce",
           "package": "hmk",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk Analyze",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.Analyze",
           "name": "coalesce",
           "normalized": "[Rule a b]-\u003e[Rule a b]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.Analyze",
           "name": "complete",
           "package": "hmk",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk Analyze",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.Analyze",
           "name": "complete",
           "normalized": "Cmp a b-\u003e[Rule a b]-\u003e[Rule a b]",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.Analyze",
           "name": "process",
           "package": "hmk",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk Analyze",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.Analyze",
           "name": "process",
           "normalized": "Cmp a b-\u003e[Rule a b]-\u003e[Rule a b]",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.Concurrent",
           "name": "Concurrent",
           "package": "hmk",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk Concurrent",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.Concurrent",
           "name": "Concurrent",
           "package": "hmk",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.Concurrent",
           "name": "Done",
           "package": "hmk",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk Concurrent",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.Concurrent",
           "name": "Done",
           "package": "hmk",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.Concurrent",
           "name": "Done",
           "package": "hmk",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk Concurrent",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.Concurrent",
           "name": "Done",
           "package": "hmk",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.Concurrent",
           "name": "processTree",
           "package": "hmk",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk Concurrent",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.Concurrent",
           "name": "processTree",
           "normalized": "Int-\u003eDepGraph IO a-\u003eIO()",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.IO",
           "name": "IO",
           "package": "hmk",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk IO",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.IO",
           "name": "IO",
           "package": "hmk",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.IO",
           "name": "isStale",
           "package": "hmk",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk IO",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.IO",
           "name": "isStale",
           "package": "hmk",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk.IO",
           "name": "testExitCode",
           "package": "hmk",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk IO",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk.IO",
           "name": "testExitCode",
           "normalized": "ExitCode-\u003eIO Result",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Hmk",
           "package": "hmk",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Hmk",
           "package": "hmk",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Cmp",
           "package": "hmk",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Cmp",
           "package": "hmk",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "DepGraph",
           "package": "hmk",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "DepGraph",
           "package": "hmk",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Result",
           "package": "hmk",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Result",
           "package": "hmk",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Rule",
           "package": "hmk",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Rule",
           "package": "hmk",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Schedule",
           "package": "hmk",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Schedule",
           "package": "hmk",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Task",
           "package": "hmk",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Task",
           "package": "hmk",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Tree",
           "package": "hmk",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Tree",
           "package": "hmk",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Node",
           "package": "hmk",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Node",
           "package": "hmk",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "Rule",
           "package": "hmk",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "Rule",
           "package": "hmk",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "TaskFailure",
           "package": "hmk",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "TaskFailure",
           "package": "hmk",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "TaskSuccess",
           "package": "hmk",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "TaskSuccess",
           "package": "hmk",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "isStale",
           "package": "hmk",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "isStale",
           "package": "hmk",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "mk",
           "package": "hmk",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "mk",
           "normalized": "[Rule a b]-\u003e[b]-\u003ea(Schedule a)",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "mkConcurrent",
           "package": "hmk",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "mkConcurrent",
           "normalized": "Int-\u003e[Rule IO a]-\u003e[a]-\u003eIO()",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "prereqs",
           "package": "hmk",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "prereqs",
           "normalized": "[a]",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "recipe",
           "package": "hmk",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "recipe",
           "normalized": "Maybe([a]-\u003eTask b)",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:20 UTC 2014",
           "module": "Control.Hmk",
           "name": "target",
           "package": "hmk",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Control Hmk",
+          "indexed": "2014-03-11T18:42:20",
           "module": "Control.Hmk",
           "name": "target",
           "package": "hmk",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dvdread"
+        "phrase": "dvdread",
+        "type": "phrase"
       },
       "type": "context"
     }

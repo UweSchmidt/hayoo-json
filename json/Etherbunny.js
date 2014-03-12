@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Etherbunny"
+        "phrase": "Etherbunny",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEthernet Packet access for Etherbunny.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ethernet",
           "name": "Ethernet",
           "package": "Etherbunny",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Ethernet Packet access for Etherbunny",
           "hierarchy": "Network Etherbunny Ethernet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ethernet",
           "name": "Ethernet",
           "package": "Etherbunny",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe EthType type is designed to show the type of payload in an Ethernet packet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ethernet",
           "name": "EthType",
           "package": "Etherbunny",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The EthType type is designed to show the type of payload in an Ethernet packet",
           "hierarchy": "Network Etherbunny Ethernet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ethernet",
           "name": "EthType",
           "package": "Etherbunny",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe EthPkt type defines an Ethernet II packet with another Packet payload\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ethernet",
           "name": "EtherPkt",
           "package": "Etherbunny",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The EthPkt type defines an Ethernet II packet with another Packet payload",
           "hierarchy": "Network Etherbunny Ethernet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ethernet",
           "name": "EtherPkt",
           "package": "Etherbunny",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe MACAddr type gives a useful interface to MAC Addresses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ethernet",
           "name": "MACAddr",
           "package": "Etherbunny",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The MACAddr type gives useful interface to MAC Addresses",
           "hierarchy": "Network Etherbunny Ethernet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ethernet",
           "name": "MACAddr",
           "package": "Etherbunny",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ethernet",
           "name": "getEtherPacket",
           "package": "Etherbunny",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Network Etherbunny Ethernet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ethernet",
           "name": "getEtherPacket",
           "package": "Etherbunny",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIP Packet access for Etherbunny.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ip",
           "name": "Ip",
           "package": "Etherbunny",
@@ -142,6 +153,7 @@
         "index": {
           "description": "IP Packet access for Etherbunny",
           "hierarchy": "Network Etherbunny Ip",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ip",
           "name": "Ip",
           "package": "Etherbunny",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe IPPayload type is used to store each of the possible payload\n  that etherbunny knows about\n\u003c/p\u003e\u003cp\u003eThe IPPkt type gives an interface to Internet Protocol packets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ip",
           "name": "IPPkt",
           "package": "Etherbunny",
@@ -165,6 +178,7 @@
         "index": {
           "description": "The IPPayload type is used to store each of the possible payload that etherbunny knows about The IPPkt type gives an interface to Internet Protocol packets",
           "hierarchy": "Network Etherbunny Ip",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ip",
           "name": "IPPkt",
           "package": "Etherbunny",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents both the IP version and IP Header Length as a single Word8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ip",
           "name": "IPVerIHL",
           "package": "Etherbunny",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Represents both the IP version and IP Header Length as single Word8",
           "hierarchy": "Network Etherbunny Ip",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ip",
           "name": "IPVerIHL",
           "package": "Etherbunny",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Ip",
           "name": "getIPPacket",
           "package": "Etherbunny",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Network Etherbunny Ip",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Ip",
           "name": "getIPPacket",
           "package": "Etherbunny",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral Packet support Etherbunny.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Packet",
           "name": "Packet",
           "package": "Etherbunny",
@@ -233,6 +252,7 @@
         "index": {
           "description": "General Packet support Etherbunny",
           "hierarchy": "Network Etherbunny Packet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Packet",
           "name": "Packet",
           "package": "Etherbunny",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Packet",
           "name": "Pkt",
           "package": "Etherbunny",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Network Etherbunny Packet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Packet",
           "name": "Pkt",
           "package": "Etherbunny",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Packet",
           "name": "wordsToInt",
           "package": "Etherbunny",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Network Etherbunny Packet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Packet",
           "name": "wordsToInt",
           "normalized": "Int-\u003e[Word]-\u003ea",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Packet",
           "name": "wordsToWord16",
           "package": "Etherbunny",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Network Etherbunny Packet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Packet",
           "name": "wordsToWord16",
           "normalized": "[Word]-\u003eWord",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Packet",
           "name": "wordsToWord32",
           "package": "Etherbunny",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Network Etherbunny Packet",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Packet",
           "name": "wordsToWord32",
           "normalized": "[Word]-\u003eWord",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTCP Packet access for Etherbunny.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Tcp",
           "name": "Tcp",
           "package": "Etherbunny",
@@ -349,6 +378,7 @@
         "index": {
           "description": "TCP Packet access for Etherbunny",
           "hierarchy": "Network Etherbunny Tcp",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Tcp",
           "name": "Tcp",
           "package": "Etherbunny",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe IPPkt type gives an interface to Internet Protocol packets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Tcp",
           "name": "TCPPkt",
           "package": "Etherbunny",
@@ -372,6 +403,7 @@
         "index": {
           "description": "The IPPkt type gives an interface to Internet Protocol packets",
           "hierarchy": "Network Etherbunny Tcp",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Tcp",
           "name": "TCPPkt",
           "package": "Etherbunny",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:24 UTC 2014",
           "module": "Network.Etherbunny.Tcp",
           "name": "getTCPPacket",
           "package": "Etherbunny",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Network Etherbunny Tcp",
+          "indexed": "2014-03-11T16:40:24",
           "module": "Network.Etherbunny.Tcp",
           "name": "getTCPPacket",
           "normalized": "Int-\u003eWord-\u003eWord-\u003eGet TCPPkt",

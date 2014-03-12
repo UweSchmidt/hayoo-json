@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tasty"
+        "phrase": "tasty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the basic ingredients defined in the \u003ccode\u003etasty\u003c/code\u003e\n packages.\n\u003c/p\u003e\u003cp\u003eNote that if \u003ccode\u003edefaultIngredients\u003c/code\u003e from \u003ca\u003eTest.Tasty\u003c/a\u003e suits your needs,\n use that instead of importing this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "Basic",
           "package": "tasty",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exports the basic ingredients defined in the tasty packages Note that if defaultIngredients from Test.Tasty suits your needs use that instead of importing this module",
           "hierarchy": "Test Tasty Ingredients Basic",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "Basic",
           "package": "tasty",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReport only failed tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "HideSuccesses",
           "package": "tasty",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Report only failed tests",
           "hierarchy": "Test Tasty Ingredients Basic",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "HideSuccesses",
           "package": "tasty",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option, when set to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, specifies that we should run in the\n &#171;list tests&#187; mod\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "ListTests",
           "package": "tasty",
@@ -74,6 +79,7 @@
         "index": {
           "description": "This option when set to True specifies that we should run in the list tests mod",
           "hierarchy": "Test Tasty Ingredients Basic",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "ListTests",
           "package": "tasty",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not print test results (see README for details)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "Quiet",
           "package": "tasty",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Do not print test results see README for details",
           "hierarchy": "Test Tasty Ingredients Basic",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "Quiet",
           "package": "tasty",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "HideSuccesses",
           "package": "tasty",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Ingredients Basic",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "HideSuccesses",
           "package": "tasty",
@@ -155,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "Quiet",
           "package": "tasty",
@@ -164,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Ingredients Basic",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Ingredients.Basic",
           "name": "Quiet",
           "package": "tasty",
@@ -282,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the core definitions related to ingredients.\n\u003c/p\u003e\u003cp\u003eIngredients themselves are provided by other modules (usually under\n the \u003ccode\u003eTest.Tasty.Ingredients.*\u003c/code\u003e hierarchy).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Ingredients",
           "name": "Ingredients",
           "package": "tasty",
@@ -291,6 +304,7 @@
         "index": {
           "description": "This module contains the core definitions related to ingredients Ingredients themselves are provided by other modules usually under the Test.Tasty.Ingredients hierarchy",
           "hierarchy": "Test Tasty Ingredients",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Ingredients",
           "name": "Ingredients",
           "package": "tasty",
@@ -305,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIngredient\u003c/a\u003e\u003c/code\u003es make your test suite tasty.\n\u003c/p\u003e\u003cp\u003eIngredients represent different actions that you can perform on your\n test suite. One obvious ingredient that you want to include is\n one that runs tests and reports the progress and results.\n\u003c/p\u003e\u003cp\u003eAnother standard ingredient is one that simply prints the names of all\n tests.\n\u003c/p\u003e\u003cp\u003eSimilar to test providers (see \u003ccode\u003e\u003ca\u003eIsTest\u003c/a\u003e\u003c/code\u003e), every ingredient may specify\n which options it cares about, so that those options are presented to\n the user if the ingredient is included in the test suite.\n\u003c/p\u003e\u003cp\u003eAn ingredient can choose, typically based on the \u003ccode\u003e\u003ca\u003eOptionSet\u003c/a\u003e\u003c/code\u003e, whether to\n run. That's what the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e is for. The first ingredient that agreed to\n run does its work, and the remaining ingredients are ignored. Thus, the\n order in which you arrange the ingredients may matter.\n\u003c/p\u003e\u003cp\u003eUsually, the ingredient which runs the tests is unconditional and thus\n should be placed last in the list. Other ingredients usually run only\n if explicitly requested via an option. Their relative order thus doesn't\n matter.\n\u003c/p\u003e\u003cp\u003eThat's all you need to know from an (advanced) user perspective. Read\n on if you want to create a new ingredient.\n\u003c/p\u003e\u003cp\u003eThere are two kinds of ingredients. \u003ccode\u003e\u003ca\u003eTestReporter\u003c/a\u003e\u003c/code\u003e, if it agrees to run,\n automatically launches tests execution, and gets the \u003ccode\u003e\u003ca\u003eStatusMap\u003c/a\u003e\u003c/code\u003e which\n it uses to report the progress and results to the user.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eTestManager\u003c/a\u003e\u003c/code\u003e is the second kind of ingredient. It is typically used for\n test management purposes (such as listing the test names), although it\n can also be used for running tests (but, unlike \u003ccode\u003e\u003ca\u003eTestReporter\u003c/a\u003e\u003c/code\u003e, it has\n to launch the tests manually).  It is therefore more general than\n \u003ccode\u003e\u003ca\u003eTestReporter\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eTestReporter\u003c/a\u003e\u003c/code\u003e is provided just for convenience.\n\u003c/p\u003e\u003cp\u003eThe function's result should indicate whether all the tests passed.\n\u003c/p\u003e\u003cp\u003eIn the \u003ccode\u003e\u003ca\u003eTestManager\u003c/a\u003e\u003c/code\u003e case, it's up to the ingredient author to decide\n what the result should be. When no tests are run, the result should\n probably be \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e. Sometimes, even if some tests run and fail, it still\n makes sense to return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Ingredients",
           "name": "Ingredient",
           "package": "tasty",
@@ -314,6 +329,7 @@
         "index": {
           "description": "Ingredient make your test suite tasty Ingredients represent different actions that you can perform on your test suite One obvious ingredient that you want to include is one that runs tests and reports the progress and results Another standard ingredient is one that simply prints the names of all tests Similar to test providers see IsTest every ingredient may specify which options it cares about so that those options are presented to the user if the ingredient is included in the test suite An ingredient can choose typically based on the OptionSet whether to run That what the Maybe is for The first ingredient that agreed to run does its work and the remaining ingredients are ignored Thus the order in which you arrange the ingredients may matter Usually the ingredient which runs the tests is unconditional and thus should be placed last in the list Other ingredients usually run only if explicitly requested via an option Their relative order thus doesn matter That all you need to know from an advanced user perspective Read on if you want to create new ingredient There are two kinds of ingredients TestReporter if it agrees to run automatically launches tests execution and gets the StatusMap which it uses to report the progress and results to the user TestManager is the second kind of ingredient It is typically used for test management purposes such as listing the test names although it can also be used for running tests but unlike TestReporter it has to launch the tests manually It is therefore more general than TestReporter TestReporter is provided just for convenience The function result should indicate whether all the tests passed In the TestManager case it up to the ingredient author to decide what the result should be When no tests are run the result should probably be True Sometimes even if some tests run and fail it still makes sense to return True",
           "hierarchy": "Test Tasty Ingredients",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Ingredients",
           "name": "Ingredient",
           "package": "tasty",
@@ -486,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtensible options. They are used for provider-specific settings,\n ingredient-specific settings and core settings (such as the test name pattern).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "Options",
           "package": "tasty",
@@ -495,6 +512,7 @@
         "index": {
           "description": "Extensible options They are used for provider-specific settings ingredient-specific settings and core settings such as the test name pattern",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "Options",
           "package": "tasty",
@@ -509,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn option is a data type that inhabits the \u003ccode\u003e\u003ca\u003eIsOption\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "IsOption",
           "package": "tasty",
@@ -518,6 +537,7 @@
         "index": {
           "description": "An option is data type that inhabits the IsOption type class",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "IsOption",
           "package": "tasty",
@@ -532,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe purpose of this data type is to capture the dictionary\n corresponding to a particular option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "OptionDescription",
           "package": "tasty",
@@ -541,6 +562,7 @@
         "index": {
           "description": "The purpose of this data type is to capture the dictionary corresponding to particular option",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "OptionDescription",
           "package": "tasty",
@@ -555,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of options. Only one option of each type can be kept.\n\u003c/p\u003e\u003cp\u003eIf some option has not been explicitly set, the default value is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "OptionSet",
           "package": "tasty",
@@ -564,6 +587,7 @@
         "index": {
           "description": "set of options Only one option of each type can be kept If some option has not been explicitly set the default value is used",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "OptionSet",
           "package": "tasty",
@@ -577,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "Option",
           "package": "tasty",
@@ -586,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "Option",
           "normalized": "Proxy a-\u003eOptionDescription",
@@ -602,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the option value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "changeOption",
           "package": "tasty",
@@ -612,6 +639,7 @@
         "index": {
           "description": "Change the option value",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "changeOption",
           "normalized": "(a-\u003ea)-\u003eOptionSet-\u003eOptionSet",
@@ -628,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value to use if the option was not supplied explicitly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "defaultValue",
           "package": "tasty",
@@ -638,6 +667,7 @@
         "index": {
           "description": "The value to use if the option was not supplied explicitly",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "defaultValue",
           "package": "tasty",
@@ -652,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand-line parser to use with flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "flagCLParser",
           "package": "tasty",
@@ -661,6 +692,7 @@
         "index": {
           "description": "Command-line parser to use with flags",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "flagCLParser",
           "normalized": "Maybe Char-\u003ea-\u003eParser a",
@@ -677,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the option value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "lookupOption",
           "package": "tasty",
@@ -687,6 +720,7 @@
         "index": {
           "description": "Query the option value",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "lookupOption",
           "normalized": "OptionSet-\u003ea",
@@ -703,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command-line option parser.\n\u003c/p\u003e\u003cp\u003eIt has a default implementation in terms of the other methods.\n You may want to override it in some cases (e.g. add a short flag).\n\u003c/p\u003e\u003cp\u003eEven if you override this, you still should implement all the methods\n above, to allow alternative interfaces.\n\u003c/p\u003e\u003cp\u003eDo not supply a default value here for this parser!\n This is because if no value was provided on the command line we may\n lookup the option e.g. in the environment. But if the parser always\n succeeds, we have no way to tell whether the user really provided the\n option on the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "optionCLParser",
           "package": "tasty",
@@ -713,6 +748,7 @@
         "index": {
           "description": "command-line option parser It has default implementation in terms of the other methods You may want to override it in some cases e.g add short flag Even if you override this you still should implement all the methods above to allow alternative interfaces Do not supply default value here for this parser This is because if no value was provided on the command line we may lookup the option e.g in the environment But if the parser always succeeds we have no way to tell whether the user really provided the option on the command line",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "optionCLParser",
           "package": "tasty",
@@ -727,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe option description or help string. This can be an arbitrary\n string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "optionHelp",
           "package": "tasty",
@@ -737,6 +774,7 @@
         "index": {
           "description": "The option description or help string This can be an arbitrary string",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "optionHelp",
           "package": "tasty",
@@ -751,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe option name. It is used to form the command line option name, for\n instance. Therefore, it had better not contain spaces or other fancy\n characters. It is recommended to use dashes instead of spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "optionName",
           "package": "tasty",
@@ -761,6 +800,7 @@
         "index": {
           "description": "The option name It is used to form the command line option name for instance Therefore it had better not contain spaces or other fancy characters It is recommended to use dashes instead of spaces",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "optionName",
           "package": "tasty",
@@ -775,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse an option value from a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "parseValue",
           "package": "tasty",
@@ -785,6 +826,7 @@
         "index": {
           "description": "Try to parse an option value from string",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "parseValue",
           "normalized": "String-\u003eMaybe a",
@@ -801,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe read function. Defined here for convenience to use for\n \u003ccode\u003e\u003ca\u003eparseValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "safeRead",
           "package": "tasty",
@@ -811,6 +854,7 @@
         "index": {
           "description": "Safe read function Defined here for convenience to use for parseValue",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "safeRead",
           "normalized": "String-\u003eMaybe a",
@@ -827,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the option value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "setOption",
           "package": "tasty",
@@ -837,6 +882,7 @@
         "index": {
           "description": "Set the option value",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "setOption",
           "normalized": "a-\u003eOptionSet-\u003eOptionSet",
@@ -853,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a singleton \u003ccode\u003e\u003ca\u003eOptionSet\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Options",
           "name": "singleOption",
           "package": "tasty",
@@ -863,6 +910,7 @@
         "index": {
           "description": "Create singleton OptionSet",
           "hierarchy": "Test Tasty Options",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Options",
           "name": "singleOption",
           "normalized": "a-\u003eOptionSet",
@@ -879,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAPI for test providers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "Providers",
           "package": "tasty",
@@ -888,6 +937,7 @@
         "index": {
           "description": "API for test providers",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "Providers",
           "package": "tasty",
@@ -902,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface to be implemented by a test provider.\n\u003c/p\u003e\u003cp\u003eThe type \u003ccode\u003et\u003c/code\u003e is the concrete representation of the test which is used by\n the provider.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "IsTest",
           "package": "tasty",
@@ -911,6 +962,7 @@
         "index": {
           "description": "The interface to be implemented by test provider The type is the concrete representation of the test which is used by the provider",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "IsTest",
           "package": "tasty",
@@ -925,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest progress information.\n\u003c/p\u003e\u003cp\u003eThis may be used by a runner to provide some feedback to the user while\n a long-running test is executing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "Progress",
           "package": "tasty",
@@ -934,6 +987,7 @@
         "index": {
           "description": "Test progress information This may be used by runner to provide some feedback to the user while long-running test is executing",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "Progress",
           "package": "tasty",
@@ -948,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA test result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "Result",
           "package": "tasty",
@@ -957,6 +1012,7 @@
         "index": {
           "description": "test result",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "Result",
           "package": "tasty",
@@ -971,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a test or a group of tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "TestName",
           "package": "tasty",
@@ -980,6 +1037,7 @@
         "index": {
           "description": "The name of test or group of tests",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "TestName",
           "package": "tasty",
@@ -994,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main data structure defining a test suite.\n\u003c/p\u003e\u003cp\u003eIt consists of individual test cases and properties, organized in named\n groups which form a tree-like hierarchy.\n\u003c/p\u003e\u003cp\u003eThere is no generic way to create a test case. Instead, every test\n provider (tasty-hunit, tasty-smallcheck etc.) provides a function to\n turn a test case into a \u003ccode\u003e\u003ca\u003eTestTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eGroups can be created using \u003ccode\u003e\u003ca\u003etestGroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "TestTree",
           "package": "tasty",
@@ -1003,6 +1062,7 @@
         "index": {
           "description": "The main data structure defining test suite It consists of individual test cases and properties organized in named groups which form tree-like hierarchy There is no generic way to create test case Instead every test provider tasty-hunit tasty-smallcheck etc provides function to turn test case into TestTree Groups can be created using testGroup",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "TestTree",
           "package": "tasty",
@@ -1090,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "run",
           "package": "tasty",
@@ -1100,6 +1161,7 @@
         "index": {
           "description": "Run the test",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "run",
           "package": "tasty",
@@ -1113,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a test to a leaf of the \u003ccode\u003e\u003ca\u003eTestTree\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "singleTest",
           "package": "tasty",
@@ -1123,6 +1186,7 @@
         "index": {
           "description": "Convert test to leaf of the TestTree",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "singleTest",
           "normalized": "TestName-\u003ea-\u003eTestTree",
@@ -1139,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e of a failed test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "testFailed",
           "package": "tasty",
@@ -1148,6 +1213,7 @@
         "index": {
           "description": "Result of failed test",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "testFailed",
           "normalized": "String-\u003eResult",
@@ -1164,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of options that affect execution of tests of this type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "testOptions",
           "package": "tasty",
@@ -1174,6 +1241,7 @@
         "index": {
           "description": "The list of options that affect execution of tests of this type",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "testOptions",
           "normalized": "Tagged a[OptionDescription]",
@@ -1190,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e of a passed test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Providers",
           "name": "testPassed",
           "package": "tasty",
@@ -1199,6 +1268,7 @@
         "index": {
           "description": "Result of passed test",
           "hierarchy": "Test Tasty Providers",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Providers",
           "name": "testPassed",
           "normalized": "String-\u003eResult",
@@ -1215,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAPI for test runners\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Runners",
           "package": "tasty",
@@ -1224,6 +1295,7 @@
         "index": {
           "description": "API for test runners",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Runners",
           "package": "tasty",
@@ -1238,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid generated by \u003ccode\u003e\u003ccode\u003e\u003ca\u003eliftA2\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Ap",
           "package": "tasty",
@@ -1247,6 +1320,7 @@
         "index": {
           "description": "Monoid generated by liftA2",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Ap",
           "package": "tasty",
@@ -1261,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a test failed, \u003ccode\u003e\u003ca\u003eFailureReason\u003c/a\u003e\u003c/code\u003e describes why\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "FailureReason",
           "package": "tasty",
@@ -1270,6 +1345,7 @@
         "index": {
           "description": "If test failed FailureReason describes why",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "FailureReason",
           "package": "tasty",
@@ -1284,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIngredient\u003c/a\u003e\u003c/code\u003es make your test suite tasty.\n\u003c/p\u003e\u003cp\u003eIngredients represent different actions that you can perform on your\n test suite. One obvious ingredient that you want to include is\n one that runs tests and reports the progress and results.\n\u003c/p\u003e\u003cp\u003eAnother standard ingredient is one that simply prints the names of all\n tests.\n\u003c/p\u003e\u003cp\u003eSimilar to test providers (see \u003ccode\u003e\u003ca\u003eIsTest\u003c/a\u003e\u003c/code\u003e), every ingredient may specify\n which options it cares about, so that those options are presented to\n the user if the ingredient is included in the test suite.\n\u003c/p\u003e\u003cp\u003eAn ingredient can choose, typically based on the \u003ccode\u003e\u003ca\u003eOptionSet\u003c/a\u003e\u003c/code\u003e, whether to\n run. That's what the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e is for. The first ingredient that agreed to\n run does its work, and the remaining ingredients are ignored. Thus, the\n order in which you arrange the ingredients may matter.\n\u003c/p\u003e\u003cp\u003eUsually, the ingredient which runs the tests is unconditional and thus\n should be placed last in the list. Other ingredients usually run only\n if explicitly requested via an option. Their relative order thus doesn't\n matter.\n\u003c/p\u003e\u003cp\u003eThat's all you need to know from an (advanced) user perspective. Read\n on if you want to create a new ingredient.\n\u003c/p\u003e\u003cp\u003eThere are two kinds of ingredients. \u003ccode\u003e\u003ca\u003eTestReporter\u003c/a\u003e\u003c/code\u003e, if it agrees to run,\n automatically launches tests execution, and gets the \u003ccode\u003e\u003ca\u003eStatusMap\u003c/a\u003e\u003c/code\u003e which\n it uses to report the progress and results to the user.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eTestManager\u003c/a\u003e\u003c/code\u003e is the second kind of ingredient. It is typically used for\n test management purposes (such as listing the test names), although it\n can also be used for running tests (but, unlike \u003ccode\u003e\u003ca\u003eTestReporter\u003c/a\u003e\u003c/code\u003e, it has\n to launch the tests manually).  It is therefore more general than\n \u003ccode\u003e\u003ca\u003eTestReporter\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eTestReporter\u003c/a\u003e\u003c/code\u003e is provided just for convenience.\n\u003c/p\u003e\u003cp\u003eThe function's result should indicate whether all the tests passed.\n\u003c/p\u003e\u003cp\u003eIn the \u003ccode\u003e\u003ca\u003eTestManager\u003c/a\u003e\u003c/code\u003e case, it's up to the ingredient author to decide\n what the result should be. When no tests are run, the result should\n probably be \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e. Sometimes, even if some tests run and fail, it still\n makes sense to return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Ingredient",
           "package": "tasty",
@@ -1293,6 +1370,7 @@
         "index": {
           "description": "Ingredient make your test suite tasty Ingredients represent different actions that you can perform on your test suite One obvious ingredient that you want to include is one that runs tests and reports the progress and results Another standard ingredient is one that simply prints the names of all tests Similar to test providers see IsTest every ingredient may specify which options it cares about so that those options are presented to the user if the ingredient is included in the test suite An ingredient can choose typically based on the OptionSet whether to run That what the Maybe is for The first ingredient that agreed to run does its work and the remaining ingredients are ignored Thus the order in which you arrange the ingredients may matter Usually the ingredient which runs the tests is unconditional and thus should be placed last in the list Other ingredients usually run only if explicitly requested via an option Their relative order thus doesn matter That all you need to know from an advanced user perspective Read on if you want to create new ingredient There are two kinds of ingredients TestReporter if it agrees to run automatically launches tests execution and gets the StatusMap which it uses to report the progress and results to the user TestManager is the second kind of ingredient It is typically used for test management purposes such as listing the test names although it can also be used for running tests but unlike TestReporter it has to launch the tests manually It is therefore more general than TestReporter TestReporter is provided just for convenience The function result should indicate whether all the tests passed In the TestManager case it up to the ingredient author to decide what the result should be When no tests are run the result should probably be True Sometimes even if some tests run and fail it still makes sense to return True",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Ingredient",
           "package": "tasty",
@@ -1307,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option, when set to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, specifies that we should run in the\n &#171;list tests&#187; mod\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "ListTests",
           "package": "tasty",
@@ -1316,6 +1395,7 @@
         "index": {
           "description": "This option when set to True specifies that we should run in the list tests mod",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "ListTests",
           "package": "tasty",
@@ -1330,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of parallel threads to use for running tests.\n\u003c/p\u003e\u003cp\u003eNote that this is \u003cem\u003enot\u003c/em\u003e included in \u003ccode\u003e\u003ca\u003ecoreOptions\u003c/a\u003e\u003c/code\u003e.\n Instead, it's automatically included in the options for any\n \u003ccode\u003eTestReporter\u003c/code\u003e ingredient by \u003ccode\u003eingredientOptions\u003c/code\u003e, because the way test\n reporters are handled already involves parallelism. Other ingredients\n may also choose to include this option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "NumThreads",
           "package": "tasty",
@@ -1339,6 +1420,7 @@
         "index": {
           "description": "Number of parallel threads to use for running tests Note that this is not included in coreOptions Instead it automatically included in the options for any TestReporter ingredient by ingredientOptions because the way test reporters are handled already involves parallelism Other ingredients may also choose to include this option",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "NumThreads",
           "package": "tasty",
@@ -1353,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutcome of a test run\n\u003c/p\u003e\u003cp\u003eNote: this is isomorphic to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFailureReason\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. You can use the\n \u003ccode\u003egeneric-maybe\u003c/code\u003e package to exploit that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Outcome",
           "package": "tasty",
@@ -1362,6 +1445,7 @@
         "index": {
           "description": "Outcome of test run Note this is isomorphic to Maybe FailureReason You can use the generic-maybe package to exploit that",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Outcome",
           "package": "tasty",
@@ -1376,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest progress information.\n\u003c/p\u003e\u003cp\u003eThis may be used by a runner to provide some feedback to the user while\n a long-running test is executing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Progress",
           "package": "tasty",
@@ -1385,6 +1470,7 @@
         "index": {
           "description": "Test progress information This may be used by runner to provide some feedback to the user while long-running test is executing",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Progress",
           "package": "tasty",
@@ -1399,6 +1485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eResourceSpec\u003c/a\u003e\u003c/code\u003e describes how to acquire a resource (the first field)\n and how to release it (the second field).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "ResourceSpec",
           "package": "tasty",
@@ -1408,6 +1495,7 @@
         "index": {
           "description": "ResourceSpec describes how to acquire resource the first field and how to release it the second field",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "ResourceSpec",
           "package": "tasty",
@@ -1422,6 +1510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA test result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Result",
           "package": "tasty",
@@ -1431,6 +1520,7 @@
         "index": {
           "description": "test result",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Result",
           "package": "tasty",
@@ -1445,6 +1535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent status of a test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Status",
           "package": "tasty",
@@ -1454,6 +1545,7 @@
         "index": {
           "description": "Current status of test",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Status",
           "package": "tasty",
@@ -1468,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from test numbers (starting from 0) to their status variables.\n\u003c/p\u003e\u003cp\u003eThis is what an ingredient uses to analyse and display progress, and to\n detect when tests finish.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "StatusMap",
           "package": "tasty",
@@ -1477,6 +1570,7 @@
         "index": {
           "description": "Mapping from test numbers starting from to their status variables This is what an ingredient uses to analyse and display progress and to detect when tests finish",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "StatusMap",
           "package": "tasty",
@@ -1491,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern to filter tests. For the syntax description, see\n \u003ca\u003ehttp://documentup.com/feuerbach/tasty#using-patterns\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "TestPattern",
           "package": "tasty",
@@ -1500,6 +1595,7 @@
         "index": {
           "description": "pattern to filter tests For the syntax description see http documentup.com feuerbach tasty using-patterns",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "TestPattern",
           "package": "tasty",
@@ -1514,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main data structure defining a test suite.\n\u003c/p\u003e\u003cp\u003eIt consists of individual test cases and properties, organized in named\n groups which form a tree-like hierarchy.\n\u003c/p\u003e\u003cp\u003eThere is no generic way to create a test case. Instead, every test\n provider (tasty-hunit, tasty-smallcheck etc.) provides a function to\n turn a test case into a \u003ccode\u003e\u003ca\u003eTestTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eGroups can be created using \u003ccode\u003e\u003ca\u003etestGroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "TestTree",
           "package": "tasty",
@@ -1523,6 +1620,7 @@
         "index": {
           "description": "The main data structure defining test suite It consists of individual test cases and properties organized in named groups which form tree-like hierarchy There is no generic way to create test case Instead every test provider tasty-hunit tasty-smallcheck etc provides function to turn test case into TestTree Groups can be created using testGroup",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "TestTree",
           "package": "tasty",
@@ -1537,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid generated by \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Traversal",
           "package": "tasty",
@@ -1546,6 +1645,7 @@
         "index": {
           "description": "Monoid generated by",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Traversal",
           "package": "tasty",
@@ -1560,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn algebra for folding a \u003ccode\u003e\u003ca\u003eTestTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInstead of constructing fresh records, build upon \u003ccode\u003e\u003ca\u003etrivialFold\u003c/a\u003e\u003c/code\u003e\n instead. This way your code won't break when new nodes/fields are\n indroduced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "TreeFold",
           "package": "tasty",
@@ -1569,6 +1670,7 @@
         "index": {
           "description": "An algebra for folding TestTree Instead of constructing fresh records build upon trivialFold instead This way your code won break when new nodes fields are indroduced",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "TreeFold",
           "package": "tasty",
@@ -1582,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Ap",
           "package": "tasty",
@@ -1591,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Ap",
           "package": "tasty",
@@ -1605,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk for the options and customize the tests based on them\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "AskOptions",
           "package": "tasty",
@@ -1615,6 +1720,7 @@
         "index": {
           "description": "Ask for the options and customize the tests based on them",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "AskOptions",
           "normalized": "AskOptions(OptionSet-\u003eTestTree)",
@@ -1631,6 +1737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest finished with a given result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Done",
           "package": "tasty",
@@ -1641,6 +1748,7 @@
         "index": {
           "description": "test finished with given result",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Done",
           "package": "tasty",
@@ -1655,6 +1763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest is being run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Executing",
           "package": "tasty",
@@ -1665,6 +1774,7 @@
         "index": {
           "description": "test is being run",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Executing",
           "package": "tasty",
@@ -1679,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest failed because of the \u003ccode\u003e\u003ca\u003eFailureReason\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Failure",
           "package": "tasty",
@@ -1689,6 +1800,7 @@
         "index": {
           "description": "test failed because of the FailureReason",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Failure",
           "package": "tasty",
@@ -1703,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest has not started running yet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "NotStarted",
           "package": "tasty",
@@ -1713,6 +1826,7 @@
         "index": {
           "description": "test has not started running yet",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "NotStarted",
           "package": "tasty",
@@ -1726,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "NumThreads",
           "package": "tasty",
@@ -1735,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "NumThreads",
           "package": "tasty",
@@ -1749,6 +1865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd some options to child tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "PlusTestOptions",
           "package": "tasty",
@@ -1759,6 +1876,7 @@
         "index": {
           "description": "Add some options to child tests",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "PlusTestOptions",
           "normalized": "PlusTestOptions(OptionSet-\u003eOptionSet)TestTree",
@@ -1774,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "ResourceSpec",
           "package": "tasty",
@@ -1783,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "ResourceSpec",
           "normalized": "ResourceSpec(IO a)(a-\u003eIO())",
@@ -1798,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Result",
           "package": "tasty",
@@ -1807,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Result",
           "package": "tasty",
@@ -1821,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single test of some particular type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "SingleTest",
           "package": "tasty",
@@ -1831,6 +1954,7 @@
         "index": {
           "description": "single test of some particular type",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "SingleTest",
           "package": "tasty",
@@ -1845,6 +1969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest succeeded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Success",
           "package": "tasty",
@@ -1855,6 +1980,7 @@
         "index": {
           "description": "test succeeded",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Success",
           "package": "tasty",
@@ -1869,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest provider indicated failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "TestFailed",
           "package": "tasty",
@@ -1879,6 +2006,7 @@
         "index": {
           "description": "test provider indicated failure",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "TestFailed",
           "package": "tasty",
@@ -1893,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssemble a number of tests into a cohesive group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "TestGroup",
           "package": "tasty",
@@ -1903,6 +2032,7 @@
         "index": {
           "description": "Assemble number of tests into cohesive group",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "TestGroup",
           "normalized": "TestGroup TestName[TestTree]",
@@ -1919,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest resulted in an exception. Note that some test providers may\n catch exceptions in order to provide more meaningful errors. In that\n case, the \u003ccode\u003e\u003ca\u003eFailureReason\u003c/a\u003e\u003c/code\u003e will be \u003ccode\u003e\u003ca\u003eTestFailed\u003c/a\u003e\u003c/code\u003e, not\n \u003ccode\u003e\u003ca\u003eTestThrewException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "TestThrewException",
           "package": "tasty",
@@ -1929,6 +2060,7 @@
         "index": {
           "description": "test resulted in an exception Note that some test providers may catch exceptions in order to provide more meaningful errors In that case the FailureReason will be TestFailed not TestThrewException",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "TestThrewException",
           "package": "tasty",
@@ -1943,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest didn't complete in allotted time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "TestTimedOut",
           "package": "tasty",
@@ -1953,6 +2086,7 @@
         "index": {
           "description": "test didn complete in allotted time",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "TestTimedOut",
           "package": "tasty",
@@ -1966,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "Traversal",
           "package": "tasty",
@@ -1975,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "Traversal",
           "package": "tasty",
@@ -1988,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "TreeFold",
           "package": "tasty",
@@ -1997,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "TreeFold",
           "package": "tasty",
@@ -2011,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquire the resource before the tests in the inner tree start and\n release it after they finish. The tree gets an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action which\n yields the resource, although the resource is shared across all the\n tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "WithResource",
           "package": "tasty",
@@ -2021,6 +2160,7 @@
         "index": {
           "description": "Acquire the resource before the tests in the inner tree start and release it after they finish The tree gets an IO action which yields the resource although the resource is shared across all the tests",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "WithResource",
           "normalized": "a b WithResource(ResourceSpec b)(IO b-\u003eTestTree)",
@@ -2037,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of all core options, i.e. the options not specific to any\n provider or ingredient, but to tasty itself. Currently contains\n \u003ccode\u003e\u003ca\u003eTestPattern\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "coreOptions",
           "package": "tasty",
@@ -2047,6 +2188,7 @@
         "index": {
           "description": "The list of all core options i.e the options not specific to any provider or ingredient but to tasty itself Currently contains TestPattern and Timeout",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "coreOptions",
           "normalized": "[OptionDescription]",
@@ -2089,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "foldGroup",
           "package": "tasty",
@@ -2098,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "foldGroup",
           "normalized": "TestName-\u003ea-\u003ea",
@@ -2113,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "foldResource",
           "package": "tasty",
@@ -2122,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "foldResource",
           "normalized": "a b ResourceSpec c-\u003e(IO c-\u003ed)-\u003ed",
@@ -2137,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "foldSingle",
           "package": "tasty",
@@ -2146,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "foldSingle",
           "normalized": "OptionSet-\u003eTestName-\u003ea-\u003eb",
@@ -2162,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a test tree into a single value.\n\u003c/p\u003e\u003cp\u003eThe fold result type should be a monoid. This is used to fold multiple\n results in a test group. In particular, empty groups get folded into \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eApart from pure convenience, this function also does the following\n useful things:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Keeping track of the current options (which may change due to\n \u003ccode\u003e\u003ca\u003ePlusTestOptions\u003c/a\u003e\u003c/code\u003e nodes)\n\u003c/li\u003e\u003cli\u003e Filtering out the tests which do not match the patterns\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eThus, it is preferred to an explicit recursive traversal of the tree.\n\u003c/p\u003e\u003cp\u003eNote: right now, the patterns are looked up only once, and won't be\n affected by the subsequent option changes. This shouldn't be a problem\n in practice; OTOH, this behaviour may be changed later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "foldTestTree",
           "package": "tasty",
@@ -2171,6 +2320,7 @@
         "index": {
           "description": "Fold test tree into single value The fold result type should be monoid This is used to fold multiple results in test group In particular empty groups get folded into mempty Apart from pure convenience this function also does the following useful things Keeping track of the current options which may change due to PlusTestOptions nodes Filtering out the tests which do not match the patterns Thus it is preferred to an explicit recursive traversal of the tree Note right now the patterns are looked up only once and won be affected by the subsequent option changes This shouldn be problem in practice OTOH this behaviour may be changed later",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "foldTestTree",
           "normalized": "TreeFold a-\u003eOptionSet-\u003eTestTree-\u003ea",
@@ -2186,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "getApp",
           "package": "tasty",
@@ -2195,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "getApp",
           "package": "tasty",
@@ -2208,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "getNumThreads",
           "package": "tasty",
@@ -2217,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "getNumThreads",
           "package": "tasty",
@@ -2230,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "getTraversal",
           "package": "tasty",
@@ -2239,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "getTraversal",
           "normalized": "a()",
@@ -2255,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart running all the tests in a test tree in parallel. The number of\n threads is determined by the \u003ccode\u003e\u003ca\u003eNumThreads\u003c/a\u003e\u003c/code\u003e option.\n\u003c/p\u003e\u003cp\u003eReturn a map from the test number (starting from 0) to its status\n variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "launchTestTree",
           "package": "tasty",
@@ -2265,6 +2422,7 @@
         "index": {
           "description": "Start running all the tests in test tree in parallel The number of threads is determined by the NumThreads option Return map from the test number starting from to its status variable",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "launchTestTree",
           "normalized": "OptionSet-\u003eTestTree-\u003e(StatusMap-\u003eIO a)-\u003eIO a",
@@ -2281,6 +2439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pattern that matches anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "noPattern",
           "package": "tasty",
@@ -2291,6 +2450,7 @@
         "index": {
           "description": "pattern that matches anything",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "noPattern",
           "package": "tasty",
@@ -2305,6 +2465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a command line parser from a list of option descriptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "optionParser",
           "package": "tasty",
@@ -2315,6 +2476,7 @@
         "index": {
           "description": "Generate command line parser from list of option descriptions",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "optionParser",
           "normalized": "[OptionDescription]-\u003eParser OptionSet",
@@ -2331,6 +2493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "parseTestPattern",
           "package": "tasty",
@@ -2341,6 +2504,7 @@
         "index": {
           "description": "Parse pattern",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "parseTestPattern",
           "normalized": "String-\u003eTestPattern",
@@ -2357,6 +2521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eresultDescription\u003c/a\u003e\u003c/code\u003e may contain some details about the test. For\n a passed test it's ok to leave it empty. Providers like SmallCheck and\n QuickCheck use it to provide information about how many tests were\n generated.\n\u003c/p\u003e\u003cp\u003eFor a failed test, \u003ccode\u003e\u003ca\u003eresultDescription\u003c/a\u003e\u003c/code\u003e should typically provide more\n information about the failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "resultDescription",
           "package": "tasty",
@@ -2367,6 +2532,7 @@
         "index": {
           "description": "resultDescription may contain some details about the test For passed test it ok to leave it empty Providers like SmallCheck and QuickCheck use it to provide information about how many tests were generated For failed test resultDescription should typically provide more information about the failure",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "resultDescription",
           "package": "tasty",
@@ -2381,6 +2547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDid the test fail? If so, why?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "resultOutcome",
           "package": "tasty",
@@ -2391,6 +2558,7 @@
         "index": {
           "description": "Did the test fail If so why",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "resultOutcome",
           "package": "tasty",
@@ -2405,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e for a passed test, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e for a failed one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "resultSuccessful",
           "package": "tasty",
@@ -2415,6 +2584,7 @@
         "index": {
           "description": "True for passed test False for failed one",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "resultSuccessful",
           "normalized": "Result-\u003eBool",
@@ -2431,6 +2601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe command line parser for the test suite\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "suiteOptionParser",
           "package": "tasty",
@@ -2441,6 +2612,7 @@
         "index": {
           "description": "The command line parser for the test suite",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "suiteOptionParser",
           "normalized": "[Ingredient]-\u003eTestTree-\u003eParser OptionSet",
@@ -2457,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a path (which is the sequence of group titles, possibly followed\n by the test title) against a pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "testPatternMatches",
           "package": "tasty",
@@ -2467,6 +2640,7 @@
         "index": {
           "description": "Test path which is the sequence of group titles possibly followed by the test title against pattern",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "testPatternMatches",
           "normalized": "TestPattern-\u003e[String]-\u003eBool",
@@ -2483,6 +2657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etrivialFold\u003c/a\u003e\u003c/code\u003e can serve as the basis for custom folds. Just override\n the fields you need.\n\u003c/p\u003e\u003cp\u003eHere's what it does:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e single tests are mapped to \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e (you probably do want to override that)\n\u003c/li\u003e\u003cli\u003e test groups are returned unmodified\n\u003c/li\u003e\u003cli\u003e for a resource, an IO action that throws an exception is passed (you\n want to override this for runners/ingredients that execute tests)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty.Runners",
           "name": "trivialFold",
           "package": "tasty",
@@ -2493,6 +2668,7 @@
         "index": {
           "description": "trivialFold can serve as the basis for custom folds Just override the fields you need Here what it does single tests are mapped to mempty you probably do want to override that test groups are returned unmodified for resource an IO action that throws an exception is passed you want to override this for runners ingredients that execute tests",
           "hierarchy": "Test Tasty Runners",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty.Runners",
           "name": "trivialFold",
           "package": "tasty",
@@ -2507,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the main data types and functions needed to use\n Tasty.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "Tasty",
           "package": "tasty",
@@ -2516,6 +2693,7 @@
         "index": {
           "description": "This module defines the main data types and functions needed to use Tasty",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "Tasty",
           "package": "tasty",
@@ -2530,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a test or a group of tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "TestName",
           "package": "tasty",
@@ -2539,6 +2718,7 @@
         "index": {
           "description": "The name of test or group of tests",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "TestName",
           "package": "tasty",
@@ -2553,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main data structure defining a test suite.\n\u003c/p\u003e\u003cp\u003eIt consists of individual test cases and properties, organized in named\n groups which form a tree-like hierarchy.\n\u003c/p\u003e\u003cp\u003eThere is no generic way to create a test case. Instead, every test\n provider (tasty-hunit, tasty-smallcheck etc.) provides a function to\n turn a test case into a \u003ccode\u003e\u003ca\u003eTestTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eGroups can be created using \u003ccode\u003e\u003ca\u003etestGroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "TestTree",
           "package": "tasty",
@@ -2562,6 +2743,7 @@
         "index": {
           "description": "The main data structure defining test suite It consists of individual test cases and properties organized in named groups which form tree-like hierarchy There is no generic way to create test case Instead every test provider tasty-hunit tasty-smallcheck etc provides function to turn test case into TestTree Groups can be created using testGroup",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "TestTree",
           "package": "tasty",
@@ -2576,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimeout to be applied to individual tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "Timeout",
           "package": "tasty",
@@ -2585,6 +2768,7 @@
         "index": {
           "description": "Timeout to be applied to individual tests",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "Timeout",
           "package": "tasty",
@@ -2598,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "NoTimeout",
           "package": "tasty",
@@ -2607,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "NoTimeout",
           "package": "tasty",
@@ -2621,6 +2807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e is the original representation of the timeout (such as\n \u003ccode\u003e\"0.5m\"\u003c/code\u003e), so that we can print it back. \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e is the number of\n microseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "Timeout",
           "package": "tasty",
@@ -2631,6 +2818,7 @@
         "index": {
           "description": "String is the original representation of the timeout such as so that we can print it back Integer is the number of microseconds",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "Timeout",
           "package": "tasty",
@@ -2645,6 +2833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocally adjust the option value for the given test subtree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "adjustOption",
           "package": "tasty",
@@ -2655,6 +2844,7 @@
         "index": {
           "description": "Locally adjust the option value for the given test subtree",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "adjustOption",
           "normalized": "(a-\u003ea)-\u003eTestTree-\u003eTestTree",
@@ -2671,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustomize the test tree based on the run-time options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "askOption",
           "package": "tasty",
@@ -2681,6 +2872,7 @@
         "index": {
           "description": "Customize the test tree based on the run-time options",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "askOption",
           "normalized": "(a-\u003eTestTree)-\u003eTestTree",
@@ -2697,6 +2889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of the default ingredients. This is what \u003ccode\u003e\u003ca\u003edefaultMain\u003c/a\u003e\u003c/code\u003e uses.\n\u003c/p\u003e\u003cp\u003eAt the moment it consists of \u003ccode\u003e\u003ca\u003elistingTests\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003econsoleTestReporter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "defaultIngredients",
           "package": "tasty",
@@ -2707,6 +2900,7 @@
         "index": {
           "description": "List of the default ingredients This is what defaultMain uses At the moment it consists of listingTests and consoleTestReporter",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "defaultIngredients",
           "normalized": "[Ingredient]",
@@ -2723,6 +2917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the command line arguments and run the tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "defaultMain",
           "package": "tasty",
@@ -2733,6 +2928,7 @@
         "index": {
           "description": "Parse the command line arguments and run the tests",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "defaultMain",
           "normalized": "TestTree-\u003eIO()",
@@ -2749,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocally set the option value for the given test subtree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "localOption",
           "package": "tasty",
@@ -2759,6 +2956,7 @@
         "index": {
           "description": "Locally set the option value for the given test subtree",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "localOption",
           "normalized": "a-\u003eTestTree-\u003eTestTree",
@@ -2775,6 +2973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shortcut for creating \u003ccode\u003e\u003ca\u003eTimeout\u003c/a\u003e\u003c/code\u003e values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "mkTimeout",
           "package": "tasty",
@@ -2784,6 +2983,7 @@
         "index": {
           "description": "shortcut for creating Timeout values",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "mkTimeout",
           "normalized": "Integer-\u003eTimeout",
@@ -2800,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a named group of test cases or other groups\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "testGroup",
           "package": "tasty",
@@ -2810,6 +3011,7 @@
         "index": {
           "description": "Create named group of test cases or other groups",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "testGroup",
           "normalized": "TestName-\u003e[TestTree]-\u003eTestTree",
@@ -2826,6 +3028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquire the resource to run this test (sub)tree and release it\n afterwards\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:21 UTC 2014",
           "module": "Test.Tasty",
           "name": "withResource",
           "package": "tasty",
@@ -2835,6 +3038,7 @@
         "index": {
           "description": "Acquire the resource to run this test sub tree and release it afterwards",
           "hierarchy": "Test Tasty",
+          "indexed": "2014-03-11T20:17:21",
           "module": "Test.Tasty",
           "name": "withResource",
           "normalized": "IO a-\u003e(a-\u003eIO())-\u003e(IO a-\u003eTestTree)-\u003eTestTree",

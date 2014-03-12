@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "json-fu"
+        "phrase": "json-fu",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:03 UTC 2014",
           "module": "Data.JSON",
           "name": "JSON",
           "package": "json-fu",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data JSON",
+          "indexed": "2014-03-11T19:02:03",
           "module": "Data.JSON",
           "name": "JSON",
           "package": "json-fu",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:03 UTC 2014",
           "module": "Data.JSON",
           "name": "fromJSON",
           "package": "json-fu",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data JSON",
+          "indexed": "2014-03-11T19:02:03",
           "module": "Data.JSON",
           "name": "fromJSON",
           "normalized": "Value-\u003eMaybe a",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:03 UTC 2014",
           "module": "Data.JSON",
           "name": "get",
           "package": "json-fu",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data JSON",
+          "indexed": "2014-03-11T19:02:03",
           "module": "Data.JSON",
           "name": "get",
           "normalized": "Text-\u003eValue-\u003eMaybe Value",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:03 UTC 2014",
           "module": "Data.JSON",
           "name": "parseJSON",
           "package": "json-fu",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data JSON",
+          "indexed": "2014-03-11T19:02:03",
           "module": "Data.JSON",
           "name": "parseJSON",
           "normalized": "ByteString-\u003eMaybe Value",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:03 UTC 2014",
           "module": "Data.JSON",
           "name": "toJSON",
           "package": "json-fu",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data JSON",
+          "indexed": "2014-03-11T19:02:03",
           "module": "Data.JSON",
           "name": "toJSON",
           "normalized": "a-\u003eByteString",

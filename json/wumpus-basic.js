@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wumpus-basic"
+        "phrase": "wumpus-basic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe elementary base types and classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "BaseDefs",
           "package": "wumpus-basic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The elementary base types and classes",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "BaseDefs",
           "package": "wumpus-basic",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumeratied type representing the compass positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "Cardinal",
           "package": "wumpus-basic",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An enumeratied type representing the compass positions",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "Cardinal",
           "package": "wumpus-basic",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumerated type representing \u003cem\u003eclock\u003c/em\u003e directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ClockDirection",
           "package": "wumpus-basic",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An enumerated type representing clock directions",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ClockDirection",
           "package": "wumpus-basic",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumerated type representing horizontal and vertical \n directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "Direction",
           "package": "wumpus-basic",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An enumerated type representing horizontal and vertical directions",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "Direction",
           "package": "wumpus-basic",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw closed paths and shapes. \n\u003c/p\u003e\u003cpre\u003e DRAW_STROKE - closed and stroked\n\u003c/pre\u003e\u003cpre\u003e DRAW_FILL - closed and filled\n\u003c/pre\u003e\u003cpre\u003e DRAW_FILL_STROKE - the path is filled, its edge is stroked.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DrawMode",
           "package": "wumpus-basic",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Draw closed paths and shapes DRAW STROKE closed and stroked DRAW FILL closed and filled DRAW FILL STROKE the path is filled its edge is stroked",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DrawMode",
           "package": "wumpus-basic",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal alignment - align to the top, center or bottom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HAlign",
           "package": "wumpus-basic",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Horizontal alignment align to the top center or bottom",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HAlign",
           "package": "wumpus-basic",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumerated type representing horizontal direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HDirection",
           "package": "wumpus-basic",
@@ -166,6 +179,7 @@
         "index": {
           "description": "An enumerated type representing horizontal direction",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HDirection",
           "package": "wumpus-basic",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "InterpretUnit",
           "package": "wumpus-basic",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "InterpretUnit",
           "package": "wumpus-basic",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit parametric version of KerningChar from Wumpus-Core.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "KernChar",
           "package": "wumpus-basic",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Unit parametric version of KerningChar from Wumpus-Core",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "KernChar",
           "package": "wumpus-basic",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw closed paths. \n\u003c/p\u003e\u003cpre\u003e OSTROKE - open and stroked\n\u003c/pre\u003e\u003cpre\u003e CSTROKE - closed and stroke\n\u003c/pre\u003e\u003cpre\u003e CFILL - closed and filled\n\u003c/pre\u003e\u003cpre\u003e CFILL_STROKE - closed, the path is filled, its edge is stroked.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "PathMode",
           "package": "wumpus-basic",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Draw closed paths OSTROKE open and stroked CSTROKE closed and stroke CFILL closed and filled CFILL STROKE closed the path is filled its edge is stroked",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "PathMode",
           "package": "wumpus-basic",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumerated type representing quadrants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "Quadrant",
           "package": "wumpus-basic",
@@ -256,6 +277,7 @@
         "index": {
           "description": "An enumerated type representing quadrants",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "Quadrant",
           "package": "wumpus-basic",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ScalarUnit",
           "package": "wumpus-basic",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ScalarUnit",
           "package": "wumpus-basic",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWumpus distinguishes two use-cases for displaying vertically \n centered text.\n\u003c/p\u003e\u003cp\u003eArbitrary text that is expected to contain lower case letters \n with descenders, show take the vertical center as the mid-point \n between the cap height and the descender depth.\n\u003c/p\u003e\u003cp\u003eUnfortunately, including the descender depth can produce \n unbalanced results for text which is not expected to have \n descenders (e.g. numbers within a bordered box), visually this \n makes the center too high.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "TextHeight",
           "package": "wumpus-basic",
@@ -300,6 +325,7 @@
         "index": {
           "description": "Wumpus distinguishes two use-cases for displaying vertically centered text Arbitrary text that is expected to contain lower case letters with descenders show take the vertical center as the mid-point between the cap height and the descender depth Unfortunately including the descender depth can produce unbalanced results for text which is not expected to have descenders e.g numbers within bordered box visually this makes the center too high",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "TextHeight",
           "package": "wumpus-basic",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty data type - i.e. \u003ccode\u003e()\u003c/code\u003e - wrapped with a phantom unit \n parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "UNil",
           "package": "wumpus-basic",
@@ -323,6 +350,7 @@
         "index": {
           "description": "The empty data type i.e wrapped with phantom unit parameter",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "UNil",
           "package": "wumpus-basic",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical alignment - align to the left, center or bottom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VAlign",
           "package": "wumpus-basic",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Vertical alignment align to the left center or bottom",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VAlign",
           "package": "wumpus-basic",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumerated type representing vertical direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VDirection",
           "package": "wumpus-basic",
@@ -369,6 +400,7 @@
         "index": {
           "description": "An enumerated type representing vertical direction",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VDirection",
           "package": "wumpus-basic",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerated type for drawing with respect to the z-order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ZOrder",
           "package": "wumpus-basic",
@@ -392,6 +425,7 @@
         "index": {
           "description": "Enumerated type for drawing with respect to the z-order",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ZOrder",
           "package": "wumpus-basic",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CAP_HEIGHT_PLUS_DESCENDER",
           "package": "wumpus-basic",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CAP_HEIGHT_PLUS_DESCENDER",
           "package": "wumpus-basic",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CCW",
           "package": "wumpus-basic",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CCW",
           "package": "wumpus-basic",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CFILL",
           "package": "wumpus-basic",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CFILL",
           "package": "wumpus-basic",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CFILL_STROKE",
           "package": "wumpus-basic",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CFILL_STROKE",
           "package": "wumpus-basic",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CSTROKE",
           "package": "wumpus-basic",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CSTROKE",
           "package": "wumpus-basic",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CW",
           "package": "wumpus-basic",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "CW",
           "package": "wumpus-basic",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DOWN",
           "package": "wumpus-basic",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DOWN",
           "package": "wumpus-basic",
@@ -559,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DOWNWARDS",
           "package": "wumpus-basic",
@@ -568,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DOWNWARDS",
           "package": "wumpus-basic",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DRAW_FILL",
           "package": "wumpus-basic",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DRAW_FILL",
           "package": "wumpus-basic",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DRAW_FILL_STROKE",
           "package": "wumpus-basic",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DRAW_FILL_STROKE",
           "package": "wumpus-basic",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DRAW_STROKE",
           "package": "wumpus-basic",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "DRAW_STROKE",
           "package": "wumpus-basic",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "EAST",
           "package": "wumpus-basic",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "EAST",
           "package": "wumpus-basic",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HALIGN_BASE",
           "package": "wumpus-basic",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HALIGN_BASE",
           "package": "wumpus-basic",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HALIGN_CENTER",
           "package": "wumpus-basic",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HALIGN_CENTER",
           "package": "wumpus-basic",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HALIGN_TOP",
           "package": "wumpus-basic",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "HALIGN_TOP",
           "package": "wumpus-basic",
@@ -735,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "JUST_CAP_HEIGHT",
           "package": "wumpus-basic",
@@ -744,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "JUST_CAP_HEIGHT",
           "package": "wumpus-basic",
@@ -757,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "LEFT",
           "package": "wumpus-basic",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "LEFT",
           "package": "wumpus-basic",
@@ -779,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "LEFTWARDS",
           "package": "wumpus-basic",
@@ -788,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "LEFTWARDS",
           "package": "wumpus-basic",
@@ -801,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "NORTH",
           "package": "wumpus-basic",
@@ -810,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "NORTH",
           "package": "wumpus-basic",
@@ -823,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "NORTH_EAST",
           "package": "wumpus-basic",
@@ -832,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "NORTH_EAST",
           "package": "wumpus-basic",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "NORTH_WEST",
           "package": "wumpus-basic",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "NORTH_WEST",
           "package": "wumpus-basic",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "OSTROKE",
           "package": "wumpus-basic",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "OSTROKE",
           "package": "wumpus-basic",
@@ -889,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "QUAD_NE",
           "package": "wumpus-basic",
@@ -898,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "QUAD_NE",
           "package": "wumpus-basic",
@@ -911,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "QUAD_NW",
           "package": "wumpus-basic",
@@ -920,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "QUAD_NW",
           "package": "wumpus-basic",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "QUAD_SE",
           "package": "wumpus-basic",
@@ -942,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "QUAD_SE",
           "package": "wumpus-basic",
@@ -955,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "QUAD_SW",
           "package": "wumpus-basic",
@@ -964,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "QUAD_SW",
           "package": "wumpus-basic",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "RIGHT",
           "package": "wumpus-basic",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "RIGHT",
           "package": "wumpus-basic",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "RIGHTWARDS",
           "package": "wumpus-basic",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "RIGHTWARDS",
           "package": "wumpus-basic",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "SOUTH",
           "package": "wumpus-basic",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "SOUTH",
           "package": "wumpus-basic",
@@ -1043,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "SOUTH_EAST",
           "package": "wumpus-basic",
@@ -1052,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "SOUTH_EAST",
           "package": "wumpus-basic",
@@ -1065,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "SOUTH_WEST",
           "package": "wumpus-basic",
@@ -1074,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "SOUTH_WEST",
           "package": "wumpus-basic",
@@ -1087,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "UNil",
           "package": "wumpus-basic",
@@ -1096,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "UNil",
           "package": "wumpus-basic",
@@ -1109,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "UP",
           "package": "wumpus-basic",
@@ -1118,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "UP",
           "package": "wumpus-basic",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "UPWARDS",
           "package": "wumpus-basic",
@@ -1140,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "UPWARDS",
           "package": "wumpus-basic",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VALIGN_CENTER",
           "package": "wumpus-basic",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VALIGN_CENTER",
           "package": "wumpus-basic",
@@ -1175,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VALIGN_LEFT",
           "package": "wumpus-basic",
@@ -1184,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VALIGN_LEFT",
           "package": "wumpus-basic",
@@ -1197,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VALIGN_RIGHT",
           "package": "wumpus-basic",
@@ -1206,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "VALIGN_RIGHT",
           "package": "wumpus-basic",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "WEST",
           "package": "wumpus-basic",
@@ -1228,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "WEST",
           "package": "wumpus-basic",
@@ -1241,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ZABOVE",
           "package": "wumpus-basic",
@@ -1250,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ZABOVE",
           "package": "wumpus-basic",
@@ -1263,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ZBELOW",
           "package": "wumpus-basic",
@@ -1272,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ZBELOW",
           "package": "wumpus-basic",
@@ -1285,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang120",
           "package": "wumpus-basic",
@@ -1294,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang120",
           "package": "wumpus-basic",
@@ -1306,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang15",
           "package": "wumpus-basic",
@@ -1315,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang15",
           "package": "wumpus-basic",
@@ -1327,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang150",
           "package": "wumpus-basic",
@@ -1336,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang150",
           "package": "wumpus-basic",
@@ -1348,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang180",
           "package": "wumpus-basic",
@@ -1357,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang180",
           "package": "wumpus-basic",
@@ -1369,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang30",
           "package": "wumpus-basic",
@@ -1378,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang30",
           "package": "wumpus-basic",
@@ -1390,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang45",
           "package": "wumpus-basic",
@@ -1399,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang45",
           "package": "wumpus-basic",
@@ -1411,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang60",
           "package": "wumpus-basic",
@@ -1420,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang60",
           "package": "wumpus-basic",
@@ -1432,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang90",
           "package": "wumpus-basic",
@@ -1441,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ang90",
           "package": "wumpus-basic",
@@ -1454,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebezierArcPoints\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e apex_angle * radius * inclination * center -\u003e [Point] \u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e ang should be in the range 0 \u003c ang \u003c 360deg.\n\u003c/pre\u003e\u003cpre\u003e if   0 \u003c ang \u003c=  90 returns 4 points\n if  90 \u003c ang \u003c= 180 returns 7 points\n if 180 \u003c ang \u003c= 270 returns 10 points\n if 270 \u003c ang \u003c  360 returns 13 points\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "bezierArcPoints",
           "package": "wumpus-basic",
@@ -1464,6 +1595,7 @@
         "index": {
           "description": "bezierArcPoints apex angle radius inclination center Point ang should be in the range ang deg if ang returns points if ang returns points if ang returns points if ang returns points",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "bezierArcPoints",
           "normalized": "Radian-\u003ea-\u003eRadian-\u003ePoint a-\u003e[Point a]",
@@ -1480,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebezierMinorArc\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e apex_angle * radius * rotation * center -\u003e BezierCurve \u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e ang should be in the range 0 \u003c ang \u003c= 90deg.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "bezierMinorArc",
           "package": "wumpus-basic",
@@ -1490,6 +1623,7 @@
         "index": {
           "description": "bezierMinorArc apex angle radius rotation center BezierCurve ang should be in the range ang deg",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "bezierMinorArc",
           "normalized": "Radian-\u003ea-\u003eRadian-\u003ePoint a-\u003e(Point a,Point a,Point a,Point a)",
@@ -1506,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplicative \u003cem\u003eboth\u003c/em\u003e - run both computations return the pair\n of the the answers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "both",
           "package": "wumpus-basic",
@@ -1516,6 +1651,7 @@
         "index": {
           "description": "Applicative both run both computations return the pair of the the answers",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "both",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -1531,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - behaviour at the continuity (0 deg, 180 deg, ...) is\n unspecified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "clockDirection",
           "package": "wumpus-basic",
@@ -1541,6 +1678,7 @@
         "index": {
           "description": "Note behaviour at the continuity deg deg is unspecified",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "clockDirection",
           "normalized": "Vec a-\u003eVec a-\u003eClockDirection",
@@ -1557,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a \u003ccode\u003e\u003ca\u003eDrawMode\u003c/a\u003e\u003c/code\u003e for a closed path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "closedMode",
           "package": "wumpus-basic",
@@ -1567,6 +1706,7 @@
         "index": {
           "description": "Interpret DrawMode for closed path",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "closedMode",
           "normalized": "DrawMode-\u003ePathMode",
@@ -1582,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "dinterp",
           "package": "wumpus-basic",
@@ -1591,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "dinterp",
           "normalized": "FontSize-\u003eDouble-\u003ea",
@@ -1606,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edinterp\u003c/a\u003e\u003c/code\u003e an object that gives access to its unit at the \n functor position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "dinterpF",
           "package": "wumpus-basic",
@@ -1616,6 +1759,7 @@
         "index": {
           "description": "dinterp an object that gives access to its unit at the functor position",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "dinterpF",
           "normalized": "FontSize-\u003ea Double-\u003ea b",
@@ -1630,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "fromPsPoint",
           "package": "wumpus-basic",
@@ -1639,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "fromPsPoint",
           "normalized": "Double-\u003ea",
@@ -1654,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "half_pi",
           "package": "wumpus-basic",
@@ -1663,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "half_pi",
           "package": "wumpus-basic",
@@ -1675,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "horizontalDirection",
           "package": "wumpus-basic",
@@ -1684,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "horizontalDirection",
           "normalized": "Radian-\u003eHDirection",
@@ -1699,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "intraMapFunctor",
           "package": "wumpus-basic",
@@ -1708,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "intraMapFunctor",
           "normalized": "FontSize-\u003e(a Double-\u003ea Double)-\u003ea b-\u003ea b",
@@ -1723,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "intraMapPoint",
           "package": "wumpus-basic",
@@ -1732,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "intraMapPoint",
           "normalized": "FontSize-\u003e(DPoint-\u003eDPoint)-\u003ePoint a-\u003ePoint a",
@@ -1748,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonodial scheme - prefix, repeat body n times, suffix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "monPreRepeatPost",
           "package": "wumpus-basic",
@@ -1758,6 +1913,7 @@
         "index": {
           "description": "Monodial scheme prefix repeat body times suffix",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "monPreRepeatPost",
           "normalized": "a-\u003e(Int,a)-\u003ea-\u003ea",
@@ -1773,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "normalize",
           "package": "wumpus-basic",
@@ -1782,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "normalize",
           "normalized": "FontSize-\u003ea-\u003eDouble",
@@ -1797,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enormalize\u003c/a\u003e\u003c/code\u003e an object that gives access to its unit at the \n functor position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "normalizeF",
           "package": "wumpus-basic",
@@ -1807,6 +1966,7 @@
         "index": {
           "description": "normalize an object that gives access to its unit at the functor position",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "normalizeF",
           "normalized": "FontSize-\u003ea b-\u003ea Double",
@@ -1822,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003equadrant\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e ang -\u003e Quadrant \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eGet the quadrant of an angle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "quadrant",
           "package": "wumpus-basic",
@@ -1832,6 +1993,7 @@
         "index": {
           "description": "quadrant ang Quadrant Get the quadrant of an angle",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "quadrant",
           "normalized": "Radian-\u003eQuadrant",
@@ -1846,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "quarter_pi",
           "package": "wumpus-basic",
@@ -1855,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "quarter_pi",
           "package": "wumpus-basic",
@@ -1867,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "toPsPoint",
           "package": "wumpus-basic",
@@ -1876,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "toPsPoint",
           "normalized": "a-\u003eDouble",
@@ -1891,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "two_pi",
           "package": "wumpus-basic",
@@ -1900,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "two_pi",
           "package": "wumpus-basic",
@@ -1913,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a scalar value from one unit to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "uconvert1",
           "package": "wumpus-basic",
@@ -1923,6 +2092,7 @@
         "index": {
           "description": "Convert scalar value from one unit to another",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "uconvert1",
           "normalized": "FontSize-\u003ea-\u003ea",
@@ -1938,6 +2108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit convert an object that gives access to its unit at the\n Functor position.\n\u003c/p\u003e\u003cp\u003eIn practive this will be *all* Image answers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "uconvertF",
           "package": "wumpus-basic",
@@ -1948,6 +2119,7 @@
         "index": {
           "description": "Unit convert an object that gives access to its unit at the Functor position In practive this will be all Image answers",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "uconvertF",
           "normalized": "FontSize-\u003ea b-\u003ea b",
@@ -1963,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003e\u003ca\u003eUNil\u003c/a\u003e\u003c/code\u003e rather than \u003ccode\u003e()\u003c/code\u003e at the end of sequence of\n monadic commands.\n\u003c/p\u003e\u003cp\u003eMany Wumpus objects are usefully constructed in the \n \u003ccode\u003edo-notation\u003c/code\u003e, but because Wumpus has to expose the type of \n the \u003ccode\u003eunit\u003c/code\u003e to the type checker we must finish the do-block \n with:\n\u003c/p\u003e\u003cpre\u003e ureturn\n\u003c/pre\u003e\u003cp\u003eor:\n\u003c/p\u003e\u003cpre\u003e return UNil\n\u003c/pre\u003e\u003cp\u003erather than:\n\u003c/p\u003e\u003cpre\u003e return ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ureturn",
           "package": "wumpus-basic",
@@ -1973,6 +2146,7 @@
         "index": {
           "description": "Return UNil rather than at the end of sequence of monadic commands Many Wumpus objects are usefully constructed in the do-notation but because Wumpus has to expose the type of the unit to the type checker we must finish the do-block with ureturn or return UNil rather than return",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "ureturn",
           "package": "wumpus-basic",
@@ -1986,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003euvoid\u003c/a\u003e\u003c/code\u003e runs a monadic computation and returns \u003ccode\u003eUNil\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "uvoid",
           "package": "wumpus-basic",
@@ -1996,6 +2171,7 @@
         "index": {
           "description": "uvoid runs monadic computation and returns UNil",
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "uvoid",
           "normalized": "a b-\u003ea(UNil c)",
@@ -2010,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "verticalDirection",
           "package": "wumpus-basic",
@@ -2019,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base BaseDefs",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.BaseDefs",
           "name": "verticalDirection",
           "normalized": "Radian-\u003eVDirection",
@@ -2035,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing attributes\n\u003c/p\u003e\u003cp\u003e** WARNING ** - The drawing context modules need systematic \n naming schemes both for update functions (primaryColour, ...) \n and for synthesized selectors (e.g. lowerxHeight). The current \n names in \u003ccode\u003eQueryDC\u003c/code\u003e and \u003ccode\u003eUpdateDC\u003c/code\u003e are expected to change.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingContext",
           "package": "wumpus-basic",
@@ -2044,6 +2223,7 @@
         "index": {
           "description": "Drawing attributes WARNING The drawing context modules need systematic naming schemes both for update functions primaryColour and for synthesized selectors e.g lowerxHeight The current names in QueryDC and UpdateDC are expected to change",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingContext",
           "package": "wumpus-basic",
@@ -2058,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e - the \"graphics state\" of Wumpus-Basic. \n DrawingContext is operated on within a Reader monad rather than \n a State monad so \"updates\" are delineated within a \u003ccode\u003elocal\u003c/code\u003e \n operation (called \u003ccode\u003elocalize\u003c/code\u003e in Wumpus), rather than permanent\n until overridden as per \u003ccode\u003eset\u003c/code\u003e of a State monad.\n\u003c/p\u003e\u003cp\u003eNote - in contrast to most other drawing objects in Wumpus, \n none of the types of measurement values are parameteric  \n (usually notated with the type variable \u003ccode\u003eu\u003c/code\u003e in Wumpus). Types \n are either \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e representing PostScript points or Em - a \n contextual size that is interpreted according to the current \n font size.\n\u003c/p\u003e\u003cp\u003eIt is easier to specialize all the measurement types and \n within the \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e and add parametricity to the \n \u003cem\u003egetters\u003c/em\u003e and \u003cem\u003esetters\u003c/em\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingContext",
           "package": "wumpus-basic",
@@ -2067,6 +2248,7 @@
         "index": {
           "description": "DrawingContext the graphics state of Wumpus-Basic DrawingContext is operated on within Reader monad rather than State monad so updates are delineated within local operation called localize in Wumpus rather than permanent until overridden as per set of State monad Note in contrast to most other drawing objects in Wumpus none of the types of measurement values are parameteric usually notated with the type variable in Wumpus Types are either Double representing PostScript points or Em contextual size that is interpreted according to the current font size It is easier to specialize all the measurement types and within the DrawingContext and add parametricity to the getters and setters instead",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingContext",
           "package": "wumpus-basic",
@@ -2081,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for DrawingContext update functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingContextF",
           "package": "wumpus-basic",
@@ -2090,6 +2273,7 @@
         "index": {
           "description": "Type synonym for DrawingContext update functions",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingContextF",
           "package": "wumpus-basic",
@@ -2104,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDrawingCtxM\u003c/a\u003e\u003c/code\u003e is equivalent to the to the \u003ccode\u003eMonadReader\u003c/code\u003e \n class, but the environment type is fixed to \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo avoid name clashes with \u003ccode\u003emtl\u003c/code\u003e this scheme is used:\n\u003c/p\u003e\u003cpre\u003e askDC    = ask\n asksDC   = asks\n localize = local\n\u003c/pre\u003e\u003cp\u003eNote, because the derived operation \u003ccode\u003equery\u003c/code\u003e (aka \u003ccode\u003easks\u003c/code\u003e) is\n expected to be used more often than queryCtx (aka \u003ccode\u003eask\u003c/code\u003e) it \n gets the more convenient name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingCtxM",
           "package": "wumpus-basic",
@@ -2113,6 +2298,7 @@
         "index": {
           "description": "DrawingCtxM is equivalent to the to the MonadReader class but the environment type is fixed to DrawingContext To avoid name clashes with mtl this scheme is used askDC ask asksDC asks localize local Note because the derived operation query aka asks is expected to be used more often than queryCtx aka ask it gets the more convenient name",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingCtxM",
           "package": "wumpus-basic",
@@ -2127,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe text margin is measured in \u003ccode\u003e\u003ca\u003eEm\u003c/a\u003e\u003c/code\u003e so it is relative to the\n current font size.\n\u003c/p\u003e\u003cp\u003eThe default value is 0.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "TextMargin",
           "package": "wumpus-basic",
@@ -2136,6 +2323,7 @@
         "index": {
           "description": "The text margin is measured in Em so it is relative to the current font size The default value is",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "TextMargin",
           "package": "wumpus-basic",
@@ -2149,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingContext",
           "package": "wumpus-basic",
@@ -2158,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "DrawingContext",
           "package": "wumpus-basic",
@@ -2171,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "TextMargin",
           "package": "wumpus-basic",
@@ -2180,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "TextMargin",
           "package": "wumpus-basic",
@@ -2194,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eaddFontTables\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e font_load_result -\u003e DrawinContextUpdate \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eAdd the font metrics from the FontLoadResult, if a font with \n the same name alreay exists in the \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e it will be \n replaced. Error and warning messages in the \u003ccode\u003efont_load_result\u003c/code\u003e \n will be appended to the \u003ccode\u003efont_load_log\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "addFontTables",
           "package": "wumpus-basic",
@@ -2204,6 +2397,7 @@
         "index": {
           "description": "addFontTables font load result DrawinContextUpdate Add the font metrics from the FontLoadResult if font with the same name alreay exists in the DrawingContext it will be replaced Error and warning messages in the font load result will be appended to the font load log",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "addFontTables",
           "normalized": "FontLoadResult-\u003eDrawingContextF",
@@ -2219,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "askDC",
           "package": "wumpus-basic",
@@ -2228,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "askDC",
           "package": "wumpus-basic",
@@ -2241,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "asksDC",
           "package": "wumpus-basic",
@@ -2250,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "asksDC",
           "normalized": "(DrawingContext-\u003ea)-\u003eb a",
@@ -2265,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_fallback_metrics",
           "package": "wumpus-basic",
@@ -2274,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_fallback_metrics",
           "package": "wumpus-basic",
@@ -2286,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_fill_colour",
           "package": "wumpus-basic",
@@ -2295,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_fill_colour",
           "package": "wumpus-basic",
@@ -2307,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_font_face",
           "package": "wumpus-basic",
@@ -2316,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_font_face",
           "package": "wumpus-basic",
@@ -2328,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_font_load_log",
           "package": "wumpus-basic",
@@ -2337,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_font_load_log",
           "package": "wumpus-basic",
@@ -2349,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_font_metrics_table",
           "package": "wumpus-basic",
@@ -2358,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_font_metrics_table",
           "package": "wumpus-basic",
@@ -2370,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_font_size",
           "package": "wumpus-basic",
@@ -2379,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_font_size",
           "package": "wumpus-basic",
@@ -2391,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_line_spacing_factor",
           "package": "wumpus-basic",
@@ -2400,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_line_spacing_factor",
           "package": "wumpus-basic",
@@ -2412,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_snap_grid_factors",
           "package": "wumpus-basic",
@@ -2421,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_snap_grid_factors",
           "normalized": "(Double,Double)",
@@ -2435,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_stroke_colour",
           "package": "wumpus-basic",
@@ -2444,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_stroke_colour",
           "package": "wumpus-basic",
@@ -2456,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_stroke_props",
           "package": "wumpus-basic",
@@ -2465,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_stroke_props",
           "package": "wumpus-basic",
@@ -2477,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_text_colour",
           "package": "wumpus-basic",
@@ -2486,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_text_colour",
           "package": "wumpus-basic",
@@ -2498,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_text_margin",
           "package": "wumpus-basic",
@@ -2507,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "dc_text_margin",
           "package": "wumpus-basic",
@@ -2519,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "localize",
           "package": "wumpus-basic",
@@ -2528,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "localize",
           "normalized": "(DrawingContext-\u003eDrawingContext)-\u003ea b-\u003ea b",
@@ -2543,6 +2767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emetricsContext\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e font_size * font_metrics -\u003e DrawingContext \u003c/code\u003e  \n\u003c/p\u003e\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e with font metrics loaded from the \n file system.\n\u003c/p\u003e\u003cp\u003eNote - \u003ccode\u003efont_size\u003c/code\u003e is used for sizing more than just text \n labels. Arrowheads, plot marks and other elements have their\n metrics derived from the font size.\n\u003c/p\u003e\u003cp\u003eUse this constructor for drawings that make use of the text \n objects provided by \u003ccode\u003eWumpus-Drawing\u003c/code\u003e (DocText and RotText).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "metricsContext",
           "package": "wumpus-basic",
@@ -2553,6 +2778,7 @@
         "index": {
           "description": "metricsContext font size font metrics DrawingContext Create DrawingContext with font metrics loaded from the file system Note font size is used for sizing more than just text labels Arrowheads plot marks and other elements have their metrics derived from the font size Use this constructor for drawings that make use of the text objects provided by Wumpus-Drawing DocText and RotText",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "metricsContext",
           "normalized": "FontSize-\u003eFontLoadResult-\u003eDrawingContext",
@@ -2569,6 +2795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereset_drawing_metrics\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e DrawingContextF \u003c/code\u003e  \n\u003c/p\u003e\u003cp\u003eReset the drawing metrics in the \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e to their \n default values. This is a more limited version of\n \u003ccode\u003e\u003ca\u003ereset_drawing_properties\u003c/a\u003e\u003c/code\u003e and changes the following fields:\n\u003c/p\u003e\u003cpre\u003e stroke_props:        line_width 1, no dash_pattern, cap-butt, join-miter. \n line_spacing_factor: 0.2\n round_corner_factor: 0\n text_margin:         (0.5 em, 0.5 em) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "reset_drawing_metrics",
           "package": "wumpus-basic",
@@ -2579,6 +2806,7 @@
         "index": {
           "description": "reset drawing metrics DrawingContextF Reset the drawing metrics in the DrawingContext to their default values This is more limited version of reset drawing properties and changes the following fields stroke props line width no dash pattern cap-butt join-miter line spacing factor round corner factor text margin em em",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "reset_drawing_metrics",
           "package": "wumpus-basic",
@@ -2592,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereset_drawing_properties\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e DrawingContextF \u003c/code\u003e  \n\u003c/p\u003e\u003cp\u003eReset the drawing properties in the \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e to their \n default values. This changes the following fields:\n\u003c/p\u003e\u003cpre\u003e stroke_props:        line_width 1, no dash_pattern, cap-butt, join-miter. \n stroke_colour:       black\n fill_colour:         light_gray\n text_colour:         black\n line_spacing_factor: 0.2\n round_corner_factor: 0\n text_margin:         (0.5 em, 0.5 em) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "reset_drawing_properties",
           "package": "wumpus-basic",
@@ -2602,6 +2831,7 @@
         "index": {
           "description": "reset drawing properties DrawingContextF Reset the drawing properties in the DrawingContext to their default values This changes the following fields stroke props line width no dash pattern cap-butt join-miter stroke colour black fill colour light gray text colour black line spacing factor round corner factor text margin em em",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "reset_drawing_properties",
           "package": "wumpus-basic",
@@ -2615,6 +2845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estandardContext\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e font_size -\u003e DrawingContext \u003c/code\u003e  \n\u003c/p\u003e\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote - \u003ccode\u003efont_size\u003c/code\u003e is used for sizing more than just text \n labels. Arrowheads, plot marks and other elements have their\n metrics derived from the font size.\n\u003c/p\u003e\u003cp\u003eNo real font metrics are present in the \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e \n created by \u003ccode\u003e\u003ca\u003estandardContext\u003c/a\u003e\u003c/code\u003e. Static, hard-coded fallback \n metrics derived from the \u003ccode\u003eCourier\u003c/code\u003e font are available but\n these metrics might not accurately correspond to the \n \u003ccode\u003eCourier\u003c/code\u003e available to the the final renderer (GhostScript,\n an SVG viewer, etc.).\n\u003c/p\u003e\u003cp\u003eUse this constructor for drawings that make primitive use of\n text.\n\u003c/p\u003e\u003cpre\u003e font_metrics_table:  empty\n font_load_log:       empty\n fallback_metrics:    monospace_metrics\n font_face:           Courier\n font_size:           @supplied_font_size@\n stroke_props:        line_width 1, no dash_pattern, cap-butt, join-miter. \n stroke_colour:       black\n fill_colour:         light_gray\n text_colour:         black\n line_spacing_factor: 0.2\n round_corner_factor: 0\n text_margin:         (0.5 em, 0.5 em) \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "standardContext",
           "package": "wumpus-basic",
@@ -2625,6 +2856,7 @@
         "index": {
           "description": "standardContext font size DrawingContext Create DrawingContext Note font size is used for sizing more than just text labels Arrowheads plot marks and other elements have their metrics derived from the font size No real font metrics are present in the DrawingContext created by standardContext Static hard-coded fallback metrics derived from the Courier font are available but these metrics might not accurately correspond to the Courier available to the the final renderer GhostScript an SVG viewer etc Use this constructor for drawings that make primitive use of text font metrics table empty font load log empty fallback metrics monospace metrics font face Courier font size supplied font size stroke props line width no dash pattern cap-butt join-miter stroke colour black fill colour light gray text colour black line spacing factor round corner factor text margin em em",
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "standardContext",
           "normalized": "FontSize-\u003eDrawingContext",
@@ -2640,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "text_margin_x",
           "package": "wumpus-basic",
@@ -2649,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "text_margin_x",
           "package": "wumpus-basic",
@@ -2661,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "text_margin_y",
           "package": "wumpus-basic",
@@ -2670,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "text_margin_y",
           "package": "wumpus-basic",
@@ -2682,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "withFontMetrics",
           "package": "wumpus-basic",
@@ -2691,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base DrawingContext",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.DrawingContext",
           "name": "withFontMetrics",
           "normalized": "(FontMetrics-\u003eFontSize-\u003ea)-\u003eDrawingContext-\u003ea",
@@ -2707,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types representing font metrics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontSupport",
           "package": "wumpus-basic",
@@ -2716,6 +2955,7 @@
         "index": {
           "description": "Data types representing font metrics",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontSupport",
           "package": "wumpus-basic",
@@ -2730,6 +2970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lookup function from code point to \u003cem\u003ewidth vector\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe unit is always stored as a Double representing PostScript\n points.\n\u003c/p\u003e\u003cp\u003eNote - in PostScript terminology a width vector is not obliged\n to be left-to-right (writing direction 0). It could be \n top-to-bottom (writing direction 1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "CharWidthLookup",
           "package": "wumpus-basic",
@@ -2739,6 +2980,7 @@
         "index": {
           "description": "lookup function from code point to width vector The unit is always stored as Double representing PostScript points Note in PostScript terminology width vector is not obliged to be left-to-right writing direction It could be top-to-bottom writing direction",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "CharWidthLookup",
           "package": "wumpus-basic",
@@ -2753,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Unicode code-point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "CodePoint",
           "package": "wumpus-basic",
@@ -2762,6 +3005,7 @@
         "index": {
           "description": "Unicode code-point",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "CodePoint",
           "package": "wumpus-basic",
@@ -2776,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFontDef wraps \u003ccode\u003eFontFace\u003c/code\u003e from Wumpus-Core with file name\n information for the font loaders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontDef",
           "package": "wumpus-basic",
@@ -2785,6 +3030,7 @@
         "index": {
           "description": "FontDef wraps FontFace from Wumpus-Core with file name information for the font loaders",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontDef",
           "package": "wumpus-basic",
@@ -2799,6 +3045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA family group of FontDefs (regular, bold, italic and \n bold-italic).\n\u003c/p\u003e\u003cp\u003eIt is convenient for some higher-level text objects in Wumpus \n (particularly \u003ccode\u003eDoc\u003c/code\u003e in Wumpus-Drawing) to treat a font and its\n standard weights as the same entity. This allows \u003ccode\u003eDoc\u003c/code\u003e API to \n provide a \u003ccode\u003ebold\u003c/code\u003e operation to simply change to the the bold\n weight of the current family, rather than use the primitive \n \u003ccode\u003eset_font\u003c/code\u003e operation to change to an explicitly named font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontFamily",
           "package": "wumpus-basic",
@@ -2808,6 +3055,7 @@
         "index": {
           "description": "family group of FontDefs regular bold italic and bold-italic It is convenient for some higher-level text objects in Wumpus particularly Doc in Wumpus-Drawing to treat font and its standard weights as the same entity This allows Doc API to provide bold operation to simply change to the the bold weight of the current family rather than use the primitive set font operation to change to an explicitly named font",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontFamily",
           "package": "wumpus-basic",
@@ -2822,6 +3070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFontLoadLog\u003c/a\u003e\u003c/code\u003e is a Hughes list of Strings, so it supports \n efficient append.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontLoadLog",
           "package": "wumpus-basic",
@@ -2831,6 +3080,7 @@
         "index": {
           "description": "FontLoadLog is Hughes list of Strings so it supports efficient append",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontLoadLog",
           "package": "wumpus-basic",
@@ -2845,6 +3095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFontLoadMsg\u003c/a\u003e\u003c/code\u003e - type synonym for String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontLoadMsg",
           "package": "wumpus-basic",
@@ -2854,6 +3105,7 @@
         "index": {
           "description": "FontLoadMsg type synonym for String",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontLoadMsg",
           "package": "wumpus-basic",
@@ -2867,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontLoadResult",
           "package": "wumpus-basic",
@@ -2875,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontLoadResult",
           "package": "wumpus-basic",
@@ -2889,6 +3143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFontMetrics\u003c/a\u003e\u003c/code\u003e store a subset of the properties available in \n a font file - enough to calculate accurate bounding boxes and\n positions for text.\n\u003c/p\u003e\u003cpre\u003e Bounding box representing the maximum glyph area.\n Width vectors for each character.\n Cap height\n Descender depth.\n\u003c/pre\u003e\u003cp\u003eBecause Wumpus always needs font metrics respective to the \n current point size, the actual fields are all functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontMetrics",
           "package": "wumpus-basic",
@@ -2898,6 +3153,7 @@
         "index": {
           "description": "FontMetrics store subset of the properties available in font file enough to calculate accurate bounding boxes and positions for text Bounding box representing the maximum glyph area Width vectors for each character Cap height Descender depth Because Wumpus always needs font metrics respective to the current point size the actual fields are all functions",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontMetrics",
           "package": "wumpus-basic",
@@ -2911,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontName",
           "package": "wumpus-basic",
@@ -2919,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontName",
           "package": "wumpus-basic",
@@ -2933,6 +3191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map between a font name and the respective FontMetrics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontTable",
           "package": "wumpus-basic",
@@ -2942,6 +3201,7 @@
         "index": {
           "description": "map between font name and the respective FontMetrics",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontTable",
           "package": "wumpus-basic",
@@ -2955,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontDef",
           "package": "wumpus-basic",
@@ -2964,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontDef",
           "package": "wumpus-basic",
@@ -2977,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontFamily",
           "package": "wumpus-basic",
@@ -2986,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontFamily",
           "package": "wumpus-basic",
@@ -2999,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontLoadResult",
           "package": "wumpus-basic",
@@ -3008,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontLoadResult",
           "package": "wumpus-basic",
@@ -3021,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontMetrics",
           "package": "wumpus-basic",
@@ -3030,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "FontMetrics",
           "package": "wumpus-basic",
@@ -3043,6 +3311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "afm_file_name",
           "package": "wumpus-basic",
@@ -3052,6 +3321,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "afm_file_name",
           "package": "wumpus-basic",
@@ -3065,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003ebold-italic\u003c/code\u003e weight \u003ccode\u003e\u003ca\u003eFontDef\u003c/a\u003e\u003c/code\u003e from a \n \u003ccode\u003e\u003ca\u003eFontFamily\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote - this falls back to the regular weight if the font family \n has no bold-italic weight. To get the bold-italic weight or \n \u003ccode\u003eNothing\u003c/code\u003e if it is not present use the record selector \n \u003ccode\u003eff_bold_italic\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "boldItalicWeight",
           "package": "wumpus-basic",
@@ -3075,6 +3346,7 @@
         "index": {
           "description": "Extract the bold-italic weight FontDef from FontFamily Note this falls back to the regular weight if the font family has no bold-italic weight To get the bold-italic weight or Nothing if it is not present use the record selector ff bold italic",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "boldItalicWeight",
           "normalized": "FontFamily-\u003eFontDef",
@@ -3091,6 +3363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the bold weight \u003ccode\u003e\u003ca\u003eFontDef\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eFontFamily\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote - this falls back to the regular weight if the font family \n has no bold weight. To get the bold weight or \u003ccode\u003eNothing\u003c/code\u003e if it\n is not present use the record selector \u003ccode\u003eff_bold\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "boldWeight",
           "package": "wumpus-basic",
@@ -3101,6 +3374,7 @@
         "index": {
           "description": "Extract the bold weight FontDef from FontFamily Note this falls back to the regular weight if the font family has no bold weight To get the bold weight or Nothing if it is not present use the record selector ff bold",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "boldWeight",
           "normalized": "FontFamily-\u003eFontDef",
@@ -3116,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "emptyFontTable",
           "package": "wumpus-basic",
@@ -3125,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "emptyFontTable",
           "package": "wumpus-basic",
@@ -3138,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "ff_bold",
           "package": "wumpus-basic",
@@ -3147,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "ff_bold",
           "package": "wumpus-basic",
@@ -3159,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "ff_bold_italic",
           "package": "wumpus-basic",
@@ -3168,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "ff_bold_italic",
           "package": "wumpus-basic",
@@ -3180,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "ff_italic",
           "package": "wumpus-basic",
@@ -3189,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "ff_italic",
           "package": "wumpus-basic",
@@ -3201,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "ff_regular",
           "package": "wumpus-basic",
@@ -3210,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "ff_regular",
           "package": "wumpus-basic",
@@ -3222,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "fontLoadMsg",
           "package": "wumpus-basic",
@@ -3231,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "fontLoadMsg",
           "normalized": "String-\u003eFontLoadLog",
@@ -3246,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "font_def_face",
           "package": "wumpus-basic",
@@ -3255,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "font_def_face",
           "package": "wumpus-basic",
@@ -3267,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_bounding_box",
           "package": "wumpus-basic",
@@ -3276,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_bounding_box",
           "normalized": "FontSize-\u003eBoundingBox Double",
@@ -3290,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_cap_height",
           "package": "wumpus-basic",
@@ -3299,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_cap_height",
           "normalized": "FontSize-\u003eDouble",
@@ -3313,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_cw_table",
           "package": "wumpus-basic",
@@ -3322,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_cw_table",
           "normalized": "FontSize-\u003eCharWidthLookup",
@@ -3336,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_descender",
           "package": "wumpus-basic",
@@ -3345,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_descender",
           "normalized": "FontSize-\u003eDouble",
@@ -3359,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_underline_position",
           "package": "wumpus-basic",
@@ -3368,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_underline_position",
           "normalized": "FontSize-\u003eDouble",
@@ -3382,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_underline_thickness",
           "package": "wumpus-basic",
@@ -3391,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "get_underline_thickness",
           "normalized": "FontSize-\u003eDouble",
@@ -3405,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "gs_file_name",
           "package": "wumpus-basic",
@@ -3414,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "gs_file_name",
           "package": "wumpus-basic",
@@ -3427,6 +3729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einsertFont\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e name * font_metrics * font_table -\u003e FontTable \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eInsert a named font into the font_table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "insertFont",
           "package": "wumpus-basic",
@@ -3437,6 +3740,7 @@
         "index": {
           "description": "insertFont name font metrics font table FontTable Insert named font into the font table",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "insertFont",
           "normalized": "FontName-\u003eFontMetrics-\u003eFontTable-\u003eFontTable",
@@ -3453,6 +3757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003eitalic\u003c/code\u003e weight \u003ccode\u003e\u003ca\u003eFontDef\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eFontFamily\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote - this falls back to the regular weight if the font family \n has no italic weight. To get the italic weight or \u003ccode\u003eNothing\u003c/code\u003e if \n it is not present use the record selector \u003ccode\u003eff_italic\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "italicWeight",
           "package": "wumpus-basic",
@@ -3463,6 +3768,7 @@
         "index": {
           "description": "Extract the italic weight FontDef from FontFamily Note this falls back to the regular weight if the font family has no italic weight To get the italic weight or Nothing if it is not present use the record selector ff italic",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "italicWeight",
           "normalized": "FontFamily-\u003eFontDef",
@@ -3478,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "loaded_font_table",
           "package": "wumpus-basic",
@@ -3487,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "loaded_font_table",
           "package": "wumpus-basic",
@@ -3499,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "loader_errors",
           "package": "wumpus-basic",
@@ -3508,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "loader_errors",
           "package": "wumpus-basic",
@@ -3521,6 +3831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookupFont\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e name * font_table -\u003e Maybe FontMetrics \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eLookup a font in the font_table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "lookupFont",
           "package": "wumpus-basic",
@@ -3531,6 +3842,7 @@
         "index": {
           "description": "lookupFont name font table Maybe FontMetrics Lookup font in the font table",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "lookupFont",
           "normalized": "FontName-\u003eFontTable-\u003eMaybe FontMetrics",
@@ -3547,6 +3859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis ignores the Char code lookup and just returns the \n default advance vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "monospace_metrics",
           "package": "wumpus-basic",
@@ -3557,6 +3870,7 @@
         "index": {
           "description": "This ignores the Char code lookup and just returns the default advance vector",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "monospace_metrics",
           "package": "wumpus-basic",
@@ -3570,6 +3884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the loader errors from the \u003ccode\u003e\u003ca\u003eFontLoadResult\u003c/a\u003e\u003c/code\u003e to std-out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "printLoadErrors",
           "package": "wumpus-basic",
@@ -3580,6 +3895,7 @@
         "index": {
           "description": "Print the loader errors from the FontLoadResult to std-out",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "printLoadErrors",
           "normalized": "FontLoadResult-\u003eIO()",
@@ -3596,6 +3912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the regular weight \u003ccode\u003e\u003ca\u003eFontDef\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eFontFamily\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "regularWeight",
           "package": "wumpus-basic",
@@ -3606,6 +3923,7 @@
         "index": {
           "description": "Extract the regular weight FontDef from FontFamily",
           "hierarchy": "Wumpus Basic Kernel Base FontSupport",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.FontSupport",
           "name": "regularWeight",
           "normalized": "FontFamily-\u003eFontDef",
@@ -3622,6 +3940,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuerying the Drawing Context.\n\u003c/p\u003e\u003cp\u003e** WARNING ** - parts of this module especially the \n mono-space glyph metrics need a re-think and will change or be \n dropped.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "QueryDC",
           "package": "wumpus-basic",
@@ -3631,6 +3950,7 @@
         "index": {
           "description": "Querying the Drawing Context WARNING parts of this module especially the mono-space glyph metrics need re-think and will change or be dropped",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "QueryDC",
           "package": "wumpus-basic",
@@ -3644,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "borderedAttr",
           "package": "wumpus-basic",
@@ -3653,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "borderedAttr",
           "normalized": "a(RGBi,StrokeAttr,RGBi)",
@@ -3669,6 +3991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeight of a capital letter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "capHeight",
           "package": "wumpus-basic",
@@ -3679,6 +4002,7 @@
         "index": {
           "description": "Height of capital letter",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "capHeight",
           "package": "wumpus-basic",
@@ -3693,6 +4017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote the CharWidthLookup is not parameteric on units.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eCharWidth\u003c/em\u003e is always Double representing PostScript points.\n Client code must convert this value accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "cwLookupTable",
           "package": "wumpus-basic",
@@ -3703,6 +4028,7 @@
         "index": {
           "description": "Note the CharWidthLookup is not parameteric on units CharWidth is always Double representing PostScript points Client code must convert this value accordingly",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "cwLookupTable",
           "package": "wumpus-basic",
@@ -3717,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - descender is expected to be negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "descender",
           "package": "wumpus-basic",
@@ -3727,6 +4054,7 @@
         "index": {
           "description": "Note descender is expected to be negative",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "descender",
           "package": "wumpus-basic",
@@ -3739,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "dinterpCtx",
           "package": "wumpus-basic",
@@ -3748,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "dinterpCtx",
           "normalized": "Double-\u003ea b",
@@ -3763,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "dinterpCtxF",
           "package": "wumpus-basic",
@@ -3772,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "dinterpCtxF",
           "normalized": "a Double-\u003eb(a c)",
@@ -3788,6 +4120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the advance vector for the supplied \u003ccode\u003e\u003ca\u003eEscapedChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "escCharVector",
           "package": "wumpus-basic",
@@ -3798,6 +4131,7 @@
         "index": {
           "description": "Find the advance vector for the supplied EscapedChar",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "escCharVector",
           "normalized": "EscapedChar-\u003ea(Vec b)",
@@ -3814,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the advance vector for the supplied \u003ccode\u003e\u003ca\u003eEscapedText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote - the text assumed to be a single line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "escTextVector",
           "package": "wumpus-basic",
@@ -3824,6 +4159,7 @@
         "index": {
           "description": "Find the advance vector for the supplied EscapedText Note the text assumed to be single line",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "escTextVector",
           "normalized": "EscapedText-\u003ea(Vec b)",
@@ -3839,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "fillAttr",
           "package": "wumpus-basic",
@@ -3848,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "fillAttr",
           "package": "wumpus-basic",
@@ -3861,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getFontAttr",
           "package": "wumpus-basic",
@@ -3870,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getFontAttr",
           "package": "wumpus-basic",
@@ -3883,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getFontFace",
           "package": "wumpus-basic",
@@ -3892,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getFontFace",
           "package": "wumpus-basic",
@@ -3905,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getFontSize",
           "package": "wumpus-basic",
@@ -3914,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getFontSize",
           "package": "wumpus-basic",
@@ -3927,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getLineWidth",
           "package": "wumpus-basic",
@@ -3936,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getLineWidth",
           "package": "wumpus-basic",
@@ -3949,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getTextColour",
           "package": "wumpus-basic",
@@ -3958,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "getTextColour",
           "package": "wumpus-basic",
@@ -3972,6 +4320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the font bounding box - this is the maximum boundary of \n the glyphs in the font. The span of the height is expected to \n be bigger than the cap_height plus descender depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "glyphBoundingBox",
           "package": "wumpus-basic",
@@ -3982,6 +4331,7 @@
         "index": {
           "description": "Get the font bounding box this is the maximum boundary of the glyphs in the font The span of the height is expected to be bigger than the cap height plus descender depth",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "glyphBoundingBox",
           "package": "wumpus-basic",
@@ -3996,6 +4346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003everticalSpan\u003c/a\u003e\u003c/code\u003e that accounts for the specified\n \u003ccode\u003e\u003ca\u003eTextHeight\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis returns a pair of \u003ccode\u003e(yminor, ymajor)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "heightSpan",
           "package": "wumpus-basic",
@@ -4006,6 +4357,7 @@
         "index": {
           "description": "Variant of verticalSpan that accounts for the specified TextHeight This returns pair of yminor ymajor",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "heightSpan",
           "normalized": "TextHeight-\u003ea(b,b)",
@@ -4022,6 +4374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehkernVector\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e [kerning_char] -\u003e AdvanceVec \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ehkernvector\u003c/code\u003e takes whatever length is paired with the \n EscapedChar for the init of the the list, for the last element \n it takes the charVector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "hkernVector",
           "package": "wumpus-basic",
@@ -4032,6 +4385,7 @@
         "index": {
           "description": "hkernVector kerning char AdvanceVec hkernvector takes whatever length is paired with the EscapedChar for the init of the the list for the last element it takes the charVector",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "hkernVector",
           "normalized": "[KernChar a]-\u003eb(Vec a)",
@@ -4047,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "normalizeCtx",
           "package": "wumpus-basic",
@@ -4056,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "normalizeCtx",
           "normalized": "a-\u003eb Double",
@@ -4071,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "normalizeCtxF",
           "package": "wumpus-basic",
@@ -4080,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "normalizeCtxF",
           "normalized": "a b-\u003ec(a Double)",
@@ -4095,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "pointSize",
           "package": "wumpus-basic",
@@ -4104,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "pointSize",
           "package": "wumpus-basic",
@@ -4118,6 +4478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the Point corresponding the grid coordinates scaled by\n the snap-grid scaling factors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "position",
           "package": "wumpus-basic",
@@ -4128,6 +4489,7 @@
         "index": {
           "description": "Get the Point corresponding the grid coordinates scaled by the snap-grid scaling factors",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "position",
           "normalized": "(Int,Int)-\u003ea(Point b)",
@@ -4143,6 +4505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a vector coordinate by the snap-grid scaling factors.\n\u003c/p\u003e\u003cp\u003eAbsolute units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "snapmove",
           "package": "wumpus-basic",
@@ -4153,6 +4516,7 @@
         "index": {
           "description": "Scale vector coordinate by the snap-grid scaling factors Absolute units",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "snapmove",
           "normalized": "(Int,Int)-\u003ea(Vec b)",
@@ -4167,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "strokeAttr",
           "package": "wumpus-basic",
@@ -4176,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "strokeAttr",
           "normalized": "a(RGBi,StrokeAttr)",
@@ -4191,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "textAttr",
           "package": "wumpus-basic",
@@ -4200,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "textAttr",
           "normalized": "a(RGBi,FontAttr)",
@@ -4216,6 +4584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the (x,y) margin around text.\n\u003c/p\u003e\u003cp\u003eNote - not all text operations in Wumpus are drawn with text \n margin. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "textMargin",
           "package": "wumpus-basic",
@@ -4226,6 +4595,7 @@
         "index": {
           "description": "Get the margin around text Note not all text operations in Wumpus are drawn with text margin",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "textMargin",
           "normalized": "a(b,b)",
@@ -4242,6 +4612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical distance between descender of a line and the \n cap-height of the line below. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "textlineSpace",
           "package": "wumpus-basic",
@@ -4252,6 +4623,7 @@
         "index": {
           "description": "Vertical distance between descender of line and the cap-height of the line below",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "textlineSpace",
           "package": "wumpus-basic",
@@ -4265,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "uconvertCtx1",
           "package": "wumpus-basic",
@@ -4274,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "uconvertCtx1",
           "normalized": "a-\u003eb a",
@@ -4289,6 +4663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "uconvertCtxF",
           "package": "wumpus-basic",
@@ -4298,6 +4673,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "uconvertCtxF",
           "normalized": "a b-\u003ec(a b)",
@@ -4314,6 +4690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - underline_position is expected to be negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "underlinePosition",
           "package": "wumpus-basic",
@@ -4324,6 +4701,7 @@
         "index": {
           "description": "Note underline position is expected to be negative",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "underlinePosition",
           "package": "wumpus-basic",
@@ -4338,6 +4716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine width of underline line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "underlineThickness",
           "package": "wumpus-basic",
@@ -4348,6 +4727,7 @@
         "index": {
           "description": "Line width of underline line",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "underlineThickness",
           "package": "wumpus-basic",
@@ -4362,6 +4742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the distance from cap_height to descender.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "verticalSpan",
           "package": "wumpus-basic",
@@ -4372,6 +4753,7 @@
         "index": {
           "description": "This is the distance from cap height to descender",
           "hierarchy": "Wumpus Basic Kernel Base QueryDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.QueryDC",
           "name": "verticalSpan",
           "package": "wumpus-basic",
@@ -4386,6 +4768,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnits \u003ccode\u003ecm\u003c/code\u003e, \u003ccode\u003epica\u003c/code\u003e and \"contextual\" units - \u003ccode\u003eem\u003c/code\u003e, \u003ccode\u003een\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "Units",
           "package": "wumpus-basic",
@@ -4395,6 +4778,7 @@
         "index": {
           "description": "Units cm pica and contextual units em en",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "Units",
           "package": "wumpus-basic",
@@ -4409,6 +4793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapped Double representing Centimeter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "Centimeter",
           "package": "wumpus-basic",
@@ -4418,6 +4803,7 @@
         "index": {
           "description": "Wrapped Double representing Centimeter",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "Centimeter",
           "package": "wumpus-basic",
@@ -4432,6 +4818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapped Double representing an Em. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "Em",
           "package": "wumpus-basic",
@@ -4441,6 +4828,7 @@
         "index": {
           "description": "Wrapped Double representing an Em",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "Em",
           "package": "wumpus-basic",
@@ -4455,6 +4843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapped Double representing an En.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "En",
           "package": "wumpus-basic",
@@ -4464,6 +4853,7 @@
         "index": {
           "description": "Wrapped Double representing an En",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "En",
           "package": "wumpus-basic",
@@ -4478,6 +4868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapped Double \u003cem\u003ePica\u003c/em\u003e unit type.\n\u003c/p\u003e\u003cp\u003ePica is 12 Points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "Pica",
           "package": "wumpus-basic",
@@ -4487,6 +4878,7 @@
         "index": {
           "description": "Wrapped Double Pica unit type Pica is Points",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "Pica",
           "package": "wumpus-basic",
@@ -4501,6 +4893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a value in Centimeters to some Fractional type.\n\u003c/p\u003e\u003cp\u003eNote - this casting should only be used for non-contextual\n units such as Double.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "cm",
           "package": "wumpus-basic",
@@ -4511,6 +4904,7 @@
         "index": {
           "description": "Cast value in Centimeters to some Fractional type Note this casting should only be used for non-contextual units such as Double",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "cm",
           "normalized": "Centimeter-\u003ea",
@@ -4526,6 +4920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Double to Centimer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "dcm",
           "package": "wumpus-basic",
@@ -4536,6 +4931,7 @@
         "index": {
           "description": "Convert Double to Centimer",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "dcm",
           "normalized": "Double-\u003eCentimeter",
@@ -4551,6 +4947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Double to a Pica.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "dpica",
           "package": "wumpus-basic",
@@ -4561,6 +4958,7 @@
         "index": {
           "description": "Convert Double to Pica",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "dpica",
           "normalized": "Double-\u003ePica",
@@ -4576,6 +4974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a value in Pica to some Fractional type.\n\u003c/p\u003e\u003cp\u003eNote - this casting should only be used for non-contextual\n units such as Double.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "pica",
           "package": "wumpus-basic",
@@ -4586,6 +4985,7 @@
         "index": {
           "description": "Cast value in Pica to some Fractional type Note this casting should only be used for non-contextual units such as Double",
           "hierarchy": "Wumpus Basic Kernel Base Units",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.Units",
           "name": "pica",
           "normalized": "Pica-\u003ea",
@@ -4601,6 +5001,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCustomize drawing attributes. The functions here are \n \u003ccode\u003eDrawingContext\u003c/code\u003e modifiers to be run within a the scope of a \n \u003ccode\u003elocalize\u003c/code\u003e block (cf. \u003ccode\u003elocal\u003c/code\u003e of the Reader monad).\n\u003c/p\u003e\u003cp\u003eBy convention, underscore-separated names are used for \n DrawingContext modifiers in this module. This is because the \n modifiers defined here are expected to be used mostly as static \n \"properties\" resembling constants in drawings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "UpdateDC",
           "package": "wumpus-basic",
@@ -4610,6 +5011,7 @@
         "index": {
           "description": "Customize drawing attributes The functions here are DrawingContext modifiers to be run within the scope of localize block cf local of the Reader monad By convention underscore-separated names are used for DrawingContext modifiers in this module This is because the modifiers defined here are expected to be used mostly as static properties resembling constants in drawings",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "UpdateDC",
           "package": "wumpus-basic",
@@ -4624,6 +5026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_cap to \u003ccode\u003ebutt\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eButt chamfers off the stroke, flush to the end point.\n\u003c/p\u003e\u003cp\u003eThis is the default.\n\u003c/p\u003e\u003cpre\u003e  .-------.\n  |=======|\n  '-------'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "cap_butt",
           "package": "wumpus-basic",
@@ -4634,6 +5037,7 @@
         "index": {
           "description": "Set the line cap to butt Butt chamfers off the stroke flush to the end point This is the default",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "cap_butt",
           "package": "wumpus-basic",
@@ -4647,6 +5051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_cap to the default which is \u003ccode\u003ebutt\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is a synonym for \u003ccode\u003e\u003ca\u003ecap_butt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "cap_default",
           "package": "wumpus-basic",
@@ -4657,6 +5062,7 @@
         "index": {
           "description": "Set the line cap to the default which is butt This is synonym for cap butt",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "cap_default",
           "package": "wumpus-basic",
@@ -4670,6 +5076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_cap to \u003ccode\u003eround\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis rounds the end of the stroke and the visually the \n rounding slightly extends the length of the line.\n\u003c/p\u003e\u003cpre\u003e  .-------.\n ( ======= )\n  '-------'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "cap_round",
           "package": "wumpus-basic",
@@ -4680,6 +5087,7 @@
         "index": {
           "description": "Set the line cap to round This rounds the end of the stroke and the visually the rounding slightly extends the length of the line",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "cap_round",
           "package": "wumpus-basic",
@@ -4693,6 +5101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_cap to \u003ccode\u003esquare\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis squares off the end of the stroke, but visual extends the \n stroke by half the line width.\n\u003c/p\u003e\u003cpre\u003e  .---------.\n  | ======= |\n  '---------'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "cap_square",
           "package": "wumpus-basic",
@@ -4703,6 +5112,7 @@
         "index": {
           "description": "Set the line cap to square This squares off the end of the stroke but visual extends the stroke by half the line width",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "cap_square",
           "package": "wumpus-basic",
@@ -4716,6 +5126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line width to a size relative to the current font \n size. The size is calculated with the supplied function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "contextual_line_width",
           "package": "wumpus-basic",
@@ -4726,6 +5137,7 @@
         "index": {
           "description": "Set the line width to size relative to the current font size The size is calculated with the supplied function",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "contextual_line_width",
           "normalized": "(FontSize-\u003eDouble)-\u003eDrawingContextF",
@@ -4741,6 +5153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash pattern to draw a dashed line.\n\u003c/p\u003e\u003cp\u003eThe dash length is 3 times the line width, the spacing is 2\n times the line width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "dashed_line",
           "package": "wumpus-basic",
@@ -4751,6 +5164,7 @@
         "index": {
           "description": "Set the dash pattern to draw dashed line The dash length is times the line width the spacing is times the line width",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "dashed_line",
           "package": "wumpus-basic",
@@ -4764,6 +5178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash pattern to draw a dotted line.\n\u003c/p\u003e\u003cp\u003eA dot is actually a square - side length is equal to the line \n width.\n\u003c/p\u003e\u003cp\u003eThe spacing between dots is 2 times the dot width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "dotted_line",
           "package": "wumpus-basic",
@@ -4774,6 +5189,7 @@
         "index": {
           "description": "Set the dash pattern to draw dotted line dot is actually square side length is equal to the line width The spacing between dots is times the dot width",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "dotted_line",
           "package": "wumpus-basic",
@@ -4787,6 +5203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the point size (font and mark size) to double the current \n size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "double_point_size",
           "package": "wumpus-basic",
@@ -4797,6 +5214,7 @@
         "index": {
           "description": "Set the point size font and mark size to double the current size",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "double_point_size",
           "package": "wumpus-basic",
@@ -4810,6 +5228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the fill colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "fill_colour",
           "package": "wumpus-basic",
@@ -4820,6 +5239,7 @@
         "index": {
           "description": "Set the fill colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "fill_colour",
           "normalized": "RGBi-\u003eDrawingContextF",
@@ -4835,6 +5255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the fill colour to use the current stroke colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "fill_use_stroke_colour",
           "package": "wumpus-basic",
@@ -4845,6 +5266,7 @@
         "index": {
           "description": "Set the fill colour to use the current stroke colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "fill_use_stroke_colour",
           "package": "wumpus-basic",
@@ -4858,6 +5280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the fill colour to use the current text colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "fill_use_text_colour",
           "package": "wumpus-basic",
@@ -4868,6 +5291,7 @@
         "index": {
           "description": "Set the fill colour to use the current text colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "fill_use_text_colour",
           "package": "wumpus-basic",
@@ -4881,6 +5305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the font attributes, point size and font face.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "font_attr",
           "package": "wumpus-basic",
@@ -4891,6 +5316,7 @@
         "index": {
           "description": "Set the font attributes point size and font face",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "font_attr",
           "normalized": "FontDef-\u003eInt-\u003eDrawingContextF",
@@ -4906,6 +5332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the point size to half the current size, note the point\n size also controls the size of dots, arrowsheads etc.\n\u003c/p\u003e\u003cp\u003eNote - as fonts can only be drawn at integral sizes this \n operation is not exact - half size of 15pt type is 7pt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "half_point_size",
           "package": "wumpus-basic",
@@ -4916,6 +5343,7 @@
         "index": {
           "description": "Set the point size to half the current size note the point size also controls the size of dots arrowsheads etc Note as fonts can only be drawn at integral sizes this operation is not exact half size of pt type is pt",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "half_point_size",
           "package": "wumpus-basic",
@@ -4929,6 +5357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_join to \u003ccode\u003eround\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis bevels off the corner of the joined line segments with a \n notch.\n\u003c/p\u003e\u003cpre\u003e      __\n     /..\\ \n    /./\\.\\\n   /./  \\.\\\n  /./    \\.\\\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "join_bevel",
           "package": "wumpus-basic",
@@ -4939,6 +5368,7 @@
         "index": {
           "description": "Set the line join to round This bevels off the corner of the joined line segments with notch",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "join_bevel",
           "package": "wumpus-basic",
@@ -4952,6 +5382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_join to the default which is \u003ccode\u003emiter\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is a synonym for \u003ccode\u003e\u003ca\u003ejoin_miter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "join_default",
           "package": "wumpus-basic",
@@ -4962,6 +5393,7 @@
         "index": {
           "description": "Set the line join to the default which is miter This is synonym for join miter",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "join_default",
           "package": "wumpus-basic",
@@ -4975,6 +5407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_join to \u003ccode\u003emiter\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis extends the joining line segments to form a sharp miter.\n\u003c/p\u003e\u003cp\u003eThis is the default.\n\u003c/p\u003e\u003cpre\u003e      /\\\n     /..\\ \n    /./\\.\\\n   /./  \\.\\\n  /./    \\.\\\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "join_miter",
           "package": "wumpus-basic",
@@ -4985,6 +5418,7 @@
         "index": {
           "description": "Set the line join to miter This extends the joining line segments to form sharp miter This is the default",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "join_miter",
           "package": "wumpus-basic",
@@ -4998,6 +5432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_join to \u003ccode\u003eround\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis rounds off the corner of the joined line segments.\n\u003c/p\u003e\u003cpre\u003e  \\.\\  \n   \\.\\ \n    ,.)\n   /./\n  /./\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "join_round",
           "package": "wumpus-basic",
@@ -5008,6 +5443,7 @@
         "index": {
           "description": "Set the line join to round This rounds off the corner of the joined line segments",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "join_round",
           "package": "wumpus-basic",
@@ -5021,6 +5457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_width to \u003ccode\u003edefault\u003c/code\u003e - 1.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "line_default",
           "package": "wumpus-basic",
@@ -5031,6 +5468,7 @@
         "index": {
           "description": "Set the line width to default",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "line_default",
           "package": "wumpus-basic",
@@ -5044,6 +5482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_width to \u003ccode\u003ethick\u003c/code\u003e - 2.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "line_thick",
           "package": "wumpus-basic",
@@ -5054,6 +5493,7 @@
         "index": {
           "description": "Set the line width to thick",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "line_thick",
           "package": "wumpus-basic",
@@ -5067,6 +5507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_width to \u003ccode\u003ethin\u003c/code\u003e - 0.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "line_thin",
           "package": "wumpus-basic",
@@ -5077,6 +5518,7 @@
         "index": {
           "description": "Set the line width to thin",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "line_thin",
           "package": "wumpus-basic",
@@ -5090,6 +5532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the line_width to \u003ccode\u003eultra_thick\u003c/code\u003e - 4.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "line_ultra_thick",
           "package": "wumpus-basic",
@@ -5100,6 +5543,7 @@
         "index": {
           "description": "Set the line width to ultra thick",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "line_ultra_thick",
           "package": "wumpus-basic",
@@ -5113,6 +5557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash pattern to draw a loosely dashed line.\n\u003c/p\u003e\u003cp\u003eThe dash length is 3 times the line width, the spacing is 4\n times the line width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "loose_dashed",
           "package": "wumpus-basic",
@@ -5123,6 +5568,7 @@
         "index": {
           "description": "Set the dash pattern to draw loosely dashed line The dash length is times the line width the spacing is times the line width",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "loose_dashed",
           "package": "wumpus-basic",
@@ -5136,6 +5582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash pattern to draw a loosely dotted line.\n\u003c/p\u003e\u003cp\u003eA dot is actually a square - side length is equal to the line \n width.\n\u003c/p\u003e\u003cp\u003eThe spacing between dots is 4 times the dot width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "loose_dotted",
           "package": "wumpus-basic",
@@ -5146,6 +5593,7 @@
         "index": {
           "description": "Set the dash pattern to draw loosely dotted line dot is actually square side length is equal to the line width The spacing between dots is times the dot width",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "loose_dotted",
           "package": "wumpus-basic",
@@ -5159,6 +5607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash pattern to draw a tightly packed, dashed line.\n\u003c/p\u003e\u003cp\u003eThe dash length is 3 times the line width, the spacing is \n equal to the line width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "packed_dashed",
           "package": "wumpus-basic",
@@ -5169,6 +5618,7 @@
         "index": {
           "description": "Set the dash pattern to draw tightly packed dashed line The dash length is times the line width the spacing is equal to the line width",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "packed_dashed",
           "package": "wumpus-basic",
@@ -5182,6 +5632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash pattern to draw a tightly packed dotted line.\n\u003c/p\u003e\u003cp\u003eA dot is actually a square - side length is equal to the line \n width.\n\u003c/p\u003e\u003cp\u003eThe spacing between dots is equal to the dot width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "packed_dotted",
           "package": "wumpus-basic",
@@ -5192,6 +5643,7 @@
         "index": {
           "description": "Set the dash pattern to draw tightly packed dotted line dot is actually square side length is equal to the line width The spacing between dots is equal to the dot width",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "packed_dotted",
           "package": "wumpus-basic",
@@ -5205,6 +5657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale the line width respective to its current value. \n\u003c/p\u003e\u003cp\u003eThe size is calculated with the supplied function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "relative_line_width",
           "package": "wumpus-basic",
@@ -5215,6 +5668,7 @@
         "index": {
           "description": "Scale the line width respective to its current value The size is calculated with the supplied function",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "relative_line_width",
           "normalized": "(Double-\u003eDouble)-\u003eDrawingContextF",
@@ -5230,6 +5684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale the current point size by the supplied ratio.\n\u003c/p\u003e\u003cp\u003eNote - as fonts can only be drawn at integral sizes this \n operation is not exact - for instance scaling 15pt by (1%2) \n results in 7pt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "scale_point_size",
           "package": "wumpus-basic",
@@ -5240,6 +5695,7 @@
         "index": {
           "description": "Scale the current point size by the supplied ratio Note as fonts can only be drawn at integral sizes this operation is not exact for instance scaling pt by results in pt",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "scale_point_size",
           "normalized": "Double-\u003eDrawingContextF",
@@ -5255,6 +5711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash pattern.\n\u003c/p\u003e\u003cp\u003eInitially the dash pattern is \u003ccode\u003e\u003ca\u003eSolid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "set_dash_pattern",
           "package": "wumpus-basic",
@@ -5265,6 +5722,7 @@
         "index": {
           "description": "Set the dash pattern Initially the dash pattern is Solid",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "set_dash_pattern",
           "normalized": "DashPattern-\u003eDrawingContextF",
@@ -5280,6 +5738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the font face.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "set_font",
           "package": "wumpus-basic",
@@ -5290,6 +5749,7 @@
         "index": {
           "description": "Set the font face",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "set_font",
           "normalized": "FontDef-\u003eDrawingContextF",
@@ -5305,6 +5765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the point size.\n\u003c/p\u003e\u003cp\u003eThis controls the drawing size of both \n text labels and marks (e.g. dots and arrowheads).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "set_font_size",
           "package": "wumpus-basic",
@@ -5315,6 +5776,7 @@
         "index": {
           "description": "Set the point size This controls the drawing size of both text labels and marks e.g dots and arrowheads",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "set_font_size",
           "normalized": "Int-\u003eDrawingContextF",
@@ -5330,6 +5792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset_line_width : \u003ccode\u003e width_in_points -\u003e DrawingContextF \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSet the line_width to the supplied point size.\n\u003c/p\u003e\u003cp\u003eInitially the line width is 1.0.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eConstant\u003c/em\u003e variations of the function maybe be more \n convenient:\n\u003c/p\u003e\u003cpre\u003e line_default, line_thin, line_thick, line_ultra_thick\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "set_line_width",
           "package": "wumpus-basic",
@@ -5340,6 +5803,7 @@
         "index": {
           "description": "set line width width in points DrawingContextF Set the line width to the supplied point size Initially the line width is Constant variations of the function maybe be more convenient line default line thin line thick line ultra thick",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "set_line_width",
           "normalized": "Double-\u003eDrawingContextF",
@@ -5355,6 +5819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the stroke, fill and text colours to a single colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "single_colour",
           "package": "wumpus-basic",
@@ -5365,6 +5830,7 @@
         "index": {
           "description": "Set the stroke fill and text colours to single colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "single_colour",
           "normalized": "RGBi-\u003eDrawingContextF",
@@ -5380,6 +5846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esnap_grid_factors\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e x_unit * y_unit -\u003e DrawingContextF \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSet the \u003ccode\u003esnap grid factors\u003c/code\u003e - a snap grid is an alternative \n coordinate space, it can be convenient for drawing \n \"box and arrow\" diagrams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "snap_grid_factors",
           "package": "wumpus-basic",
@@ -5390,6 +5857,7 @@
         "index": {
           "description": "snap grid factors unit unit DrawingContextF Set the snap grid factors snap grid is an alternative coordinate space it can be convenient for drawing box and arrow diagrams",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "snap_grid_factors",
           "normalized": "Double-\u003eDouble-\u003eDrawingContextF",
@@ -5405,6 +5873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the dash_pattern to \u003ccode\u003esolid\u003c/code\u003e - i.e. no dash pattern.\n\u003c/p\u003e\u003cp\u003eThis is the default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "solid_line",
           "package": "wumpus-basic",
@@ -5415,6 +5884,7 @@
         "index": {
           "description": "Set the dash pattern to solid i.e no dash pattern This is the default",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "solid_line",
           "package": "wumpus-basic",
@@ -5428,6 +5898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the stroke colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "stroke_colour",
           "package": "wumpus-basic",
@@ -5438,6 +5909,7 @@
         "index": {
           "description": "Set the stroke colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "stroke_colour",
           "normalized": "RGBi-\u003eDrawingContextF",
@@ -5453,6 +5925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the stroke colour to use the current fill colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "stroke_use_fill_colour",
           "package": "wumpus-basic",
@@ -5463,6 +5936,7 @@
         "index": {
           "description": "Set the stroke colour to use the current fill colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "stroke_use_fill_colour",
           "package": "wumpus-basic",
@@ -5476,6 +5950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the stroke colour to use the current fill colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "stroke_use_text_colour",
           "package": "wumpus-basic",
@@ -5486,6 +5961,7 @@
         "index": {
           "description": "Set the stroke colour to use the current fill colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "stroke_use_text_colour",
           "package": "wumpus-basic",
@@ -5499,6 +5975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap the stroke colour and fill colours.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "swap_colours",
           "package": "wumpus-basic",
@@ -5509,6 +5986,7 @@
         "index": {
           "description": "Swap the stroke colour and fill colours",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "swap_colours",
           "package": "wumpus-basic",
@@ -5522,6 +6000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_colour",
           "package": "wumpus-basic",
@@ -5532,6 +6011,7 @@
         "index": {
           "description": "Set the text colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_colour",
           "normalized": "RGBi-\u003eDrawingContextF",
@@ -5547,6 +6027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etext_margin\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e x_sep * y_sep -\u003e DrawingContextF \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNote - this is in \u003ccode\u003eEm\u003c/code\u003e units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin",
           "package": "wumpus-basic",
@@ -5557,6 +6038,7 @@
         "index": {
           "description": "text margin sep sep DrawingContextF Note this is in Em units",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin",
           "normalized": "Em-\u003eEm-\u003eDrawingContextF",
@@ -5572,6 +6054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text margin to (0.5 em, 0.5 em).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin_default",
           "package": "wumpus-basic",
@@ -5582,6 +6065,7 @@
         "index": {
           "description": "Set the text margin to em em",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin_default",
           "package": "wumpus-basic",
@@ -5595,6 +6079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text margin to (1.0 em, 1.0 em).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin_loose",
           "package": "wumpus-basic",
@@ -5605,6 +6090,7 @@
         "index": {
           "description": "Set the text margin to em em",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin_loose",
           "package": "wumpus-basic",
@@ -5618,6 +6104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text margin to (0,0).\n\u003c/p\u003e\u003cp\u003eThis produces a tight box around the text vertically measured \n to the cap-height and descender. Therefore some characters may \n extend outside the margin (e.g. accented capitals like \n A-grave).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin_none",
           "package": "wumpus-basic",
@@ -5628,6 +6115,7 @@
         "index": {
           "description": "Set the text margin to This produces tight box around the text vertically measured to the cap-height and descender Therefore some characters may extend outside the margin e.g accented capitals like A-grave",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin_none",
           "package": "wumpus-basic",
@@ -5641,6 +6129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text margin to (0.25 em, 0.25 em).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin_tight",
           "package": "wumpus-basic",
@@ -5651,6 +6140,7 @@
         "index": {
           "description": "Set the text margin to em em",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_margin_tight",
           "package": "wumpus-basic",
@@ -5664,6 +6154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text colour to use the current fill colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_use_fill_colour",
           "package": "wumpus-basic",
@@ -5674,6 +6165,7 @@
         "index": {
           "description": "Set the text colour to use the current fill colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_use_fill_colour",
           "package": "wumpus-basic",
@@ -5687,6 +6179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text colour to use the current stroke colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_use_stroke_colour",
           "package": "wumpus-basic",
@@ -5697,6 +6190,7 @@
         "index": {
           "description": "Set the text colour to use the current stroke colour",
           "hierarchy": "Wumpus Basic Kernel Base UpdateDC",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.UpdateDC",
           "name": "text_use_stroke_colour",
           "package": "wumpus-basic",
@@ -5710,6 +6204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrapped versions of the \u003ccode\u003ePrimitive\u003c/code\u003e type from Wumpus-Core.\n\u003c/p\u003e\u003cp\u003eThis file is essentially \u003cem\u003einternal\u003c/em\u003e to Wumpus-Basic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "WrappedPrimitive",
           "package": "wumpus-basic",
@@ -5719,6 +6214,7 @@
         "index": {
           "description": "Wrapped versions of the Primitive type from Wumpus-Core This file is essentially internal to Wumpus-Basic",
           "hierarchy": "Wumpus Basic Kernel Base WrappedPrimitive",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "WrappedPrimitive",
           "package": "wumpus-basic",
@@ -5733,6 +6229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapped version of \u003ccode\u003e\u003ca\u003ePrimitive\u003c/a\u003e\u003c/code\u003e from Wumpus-Core that \n supports Monoid.\n\u003c/p\u003e\u003cp\u003eNote that CatPrim provides a \u003cem\u003esingle-object\u003c/em\u003e that can be\n hyperlinked or whatever. \n\u003c/p\u003e\u003cp\u003eIt is different to \u003ccode\u003e\u003ca\u003eHPrim\u003c/a\u003e\u003c/code\u003e which is intended as a list type \n with efficient concatenation to support building of multiple\n Primitives in a frame.\n\u003c/p\u003e\u003cp\u003eThis type is essentially internal to Wumpus-Basic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "CatPrim",
           "package": "wumpus-basic",
@@ -5742,6 +6239,7 @@
         "index": {
           "description": "wrapped version of Primitive from Wumpus-Core that supports Monoid Note that CatPrim provides single-object that can be hyperlinked or whatever It is different to HPrim which is intended as list type with efficient concatenation to support building of multiple Primitives in frame This type is essentially internal to Wumpus-Basic",
           "hierarchy": "Wumpus Basic Kernel Base WrappedPrimitive",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "CatPrim",
           "package": "wumpus-basic",
@@ -5756,6 +6254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollected primitives - this type is effectively an analogue\n to a \u003ccode\u003eFrame\u003c/code\u003e in Wumpus-Core.\n\u003c/p\u003e\u003cp\u003eThis type is essentially internal to Wumpus-Basic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "HPrim",
           "package": "wumpus-basic",
@@ -5765,6 +6264,7 @@
         "index": {
           "description": "Collected primitives this type is effectively an analogue to Frame in Wumpus-Core This type is essentially internal to Wumpus-Basic",
           "hierarchy": "Wumpus Basic Kernel Base WrappedPrimitive",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "HPrim",
           "package": "wumpus-basic",
@@ -5779,6 +6279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "cpmap",
           "package": "wumpus-basic",
@@ -5789,6 +6290,7 @@
         "index": {
           "description": "Map",
           "hierarchy": "Wumpus Basic Kernel Base WrappedPrimitive",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "cpmap",
           "normalized": "(Primitive-\u003ePrimitive)-\u003eCatPrim-\u003eCatPrim",
@@ -5803,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "cpmove",
           "package": "wumpus-basic",
@@ -5812,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base WrappedPrimitive",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "cpmove",
           "normalized": "Vec Double-\u003eCatPrim-\u003eCatPrim",
@@ -5827,6 +6331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the internal list of \u003ccode\u003e\u003ca\u003ePrimitive\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eHPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe expectation is that this Primitive list will be rendered\n by Wumpus-Core as a \u003ccode\u003eframe\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "hprimToList",
           "package": "wumpus-basic",
@@ -5837,6 +6342,7 @@
         "index": {
           "description": "Extract the internal list of Primitive from HPrim The expectation is that this Primitive list will be rendered by Wumpus-Core as frame",
           "hierarchy": "Wumpus Basic Kernel Base WrappedPrimitive",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "hprimToList",
           "normalized": "HPrim a-\u003e[Primitive]",
@@ -5852,6 +6358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "prim1",
           "package": "wumpus-basic",
@@ -5861,6 +6368,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Base WrappedPrimitive",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "prim1",
           "normalized": "Primitive-\u003eCatPrim",
@@ -5876,6 +6384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a \u003ccode\u003e\u003ca\u003eHPrim\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eCatPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "singleH",
           "package": "wumpus-basic",
@@ -5886,6 +6395,7 @@
         "index": {
           "description": "Form HPrim from CatPrim",
           "hierarchy": "Wumpus Basic Kernel Base WrappedPrimitive",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Base.WrappedPrimitive",
           "name": "singleH",
           "normalized": "CatPrim-\u003eHPrim a",
@@ -5901,6 +6411,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUser state class for Drawing monads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "Basis",
           "package": "wumpus-basic",
@@ -5910,6 +6421,7 @@
         "index": {
           "description": "User state class for Drawing monads",
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "Basis",
           "package": "wumpus-basic",
@@ -5924,6 +6436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd operations for branching at the current point.\n\u003c/p\u003e\u003cp\u003eNot all drawings that support tracing support branching. For\n instance Paths can be built by tracing but they always need \n a cumulative progression of \u003cem\u003enext point\u003c/em\u003e they cannot resrt to \n the start point and go in a differnt direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "BranchCursorM",
           "package": "wumpus-basic",
@@ -5933,6 +6446,7 @@
         "index": {
           "description": "Add operations for branching at the current point Not all drawings that support tracing support branching For instance Paths can be built by tracing but they always need cumulative progression of next point they cannot resrt to the start point and go in differnt direction",
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "BranchCursorM",
           "package": "wumpus-basic",
@@ -5947,6 +6461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad with turtle-like cursor movememnt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "CursorM",
           "package": "wumpus-basic",
@@ -5956,6 +6471,7 @@
         "index": {
           "description": "Monad with turtle-like cursor movememnt",
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "CursorM",
           "package": "wumpus-basic",
@@ -5970,6 +6486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad that collects a graphic trace, \u003ccode\u003e\u003ca\u003einsertl\u003c/a\u003e\u003c/code\u003e is analogue \n to the Writer monad's \u003ccode\u003etell\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "InsertlM",
           "package": "wumpus-basic",
@@ -5979,6 +6496,7 @@
         "index": {
           "description": "Monad that collects graphic trace insertl is analogue to the Writer monad tell",
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "InsertlM",
           "package": "wumpus-basic",
@@ -5993,6 +6511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad with notion of location - i.e. the current point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "LocationM",
           "package": "wumpus-basic",
@@ -6002,6 +6521,7 @@
         "index": {
           "description": "Monad with notion of location i.e the current point",
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "LocationM",
           "package": "wumpus-basic",
@@ -6015,6 +6535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "UState",
           "package": "wumpus-basic",
@@ -6023,6 +6544,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "UState",
           "package": "wumpus-basic",
@@ -6036,6 +6558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "UserStateM",
           "package": "wumpus-basic",
@@ -6044,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "UserStateM",
           "package": "wumpus-basic",
@@ -6058,6 +6582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBranch is like \u003ccode\u003elocal\u003c/code\u003e in the Reader monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "branchCursor",
           "package": "wumpus-basic",
@@ -6068,6 +6593,7 @@
         "index": {
           "description": "Branch is like local in the Reader monad",
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "branchCursor",
           "normalized": "a b-\u003ea b",
@@ -6083,6 +6609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "getState",
           "package": "wumpus-basic",
@@ -6092,6 +6619,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "getState",
           "package": "wumpus-basic",
@@ -6106,6 +6634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the \u003cem\u003ecursor\u003c/em\u003e horizontally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "hmoveby",
           "package": "wumpus-basic",
@@ -6116,6 +6645,7 @@
         "index": {
           "description": "Move the cursor horizontally",
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "hmoveby",
           "normalized": "a-\u003eb()",
@@ -6130,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "insertl",
           "package": "wumpus-basic",
@@ -6139,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "insertl",
           "normalized": "LocImage a b-\u003ec b",
@@ -6153,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "insertl_",
           "package": "wumpus-basic",
@@ -6162,6 +6695,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "insertl_",
           "normalized": "LocImage a b-\u003ec(UNil a)",
@@ -6176,6 +6710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "location",
           "package": "wumpus-basic",
@@ -6185,6 +6720,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "location",
           "package": "wumpus-basic",
@@ -6197,6 +6733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "moveby",
           "package": "wumpus-basic",
@@ -6206,6 +6743,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "moveby",
           "normalized": "Vec a-\u003eb()",
@@ -6220,6 +6758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "setState",
           "package": "wumpus-basic",
@@ -6229,6 +6768,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "setState",
           "normalized": "a-\u003eb()",
@@ -6244,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "updateState",
           "package": "wumpus-basic",
@@ -6253,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "updateState",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -6269,6 +6811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the \u003cem\u003ecursor\u003c/em\u003e vertically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "vmoveby",
           "package": "wumpus-basic",
@@ -6279,6 +6822,7 @@
         "index": {
           "description": "Move the cursor vertically",
           "hierarchy": "Wumpus Basic Kernel Drawing Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Basis",
           "name": "vmoveby",
           "normalized": "a-\u003eb()",
@@ -6294,6 +6838,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChaining LocGraphics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "Chain",
           "package": "wumpus-basic",
@@ -6303,6 +6848,7 @@
         "index": {
           "description": "Chaining LocGraphics",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "Chain",
           "package": "wumpus-basic",
@@ -6316,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "Chain",
           "package": "wumpus-basic",
@@ -6324,6 +6871,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "Chain",
           "package": "wumpus-basic",
@@ -6338,6 +6886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escheme_start is a function from the origin to state.\n\u003c/p\u003e\u003cp\u003eFor instance, we might want to cache the origin - this would\n not be possible if start was just a pure \u003ccode\u003ecst\u003c/code\u003e value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "ChainScheme",
           "package": "wumpus-basic",
@@ -6347,6 +6896,7 @@
         "index": {
           "description": "scheme start is function from the origin to state For instance we might want to cache the origin this would not be possible if start was just pure cst value",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "ChainScheme",
           "package": "wumpus-basic",
@@ -6360,6 +6910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "DChain",
           "package": "wumpus-basic",
@@ -6368,6 +6919,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "DChain",
           "package": "wumpus-basic",
@@ -6381,6 +6933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "GenChain",
           "package": "wumpus-basic",
@@ -6389,6 +6942,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "GenChain",
           "package": "wumpus-basic",
@@ -6402,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "ChainScheme",
           "package": "wumpus-basic",
@@ -6411,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "ChainScheme",
           "package": "wumpus-basic",
@@ -6425,6 +6981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive a ChainScheme from a CatTrail.\n\u003c/p\u003e\u003cp\u003eNote - this iterates the control points of curves, it does not\n iterate points on the curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "catTrailScheme",
           "package": "wumpus-basic",
@@ -6435,6 +6992,7 @@
         "index": {
           "description": "Derive ChainScheme from CatTrail Note this iterates the control points of curves it does not iterate points on the curve",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "catTrailScheme",
           "normalized": "CatTrail a-\u003eChainScheme a",
@@ -6451,6 +7009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand a point on the Chain and draw the LocImage\n at it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chain1",
           "package": "wumpus-basic",
@@ -6461,6 +7020,7 @@
         "index": {
           "description": "Demand point on the Chain and draw the LocImage at it",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chain1",
           "normalized": "LocImage a b-\u003eGenChain c a b",
@@ -6476,6 +7036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the count of chain steps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chainCount",
           "package": "wumpus-basic",
@@ -6486,6 +7047,7 @@
         "index": {
           "description": "Return the count of chain steps",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chainCount",
           "package": "wumpus-basic",
@@ -6500,6 +7062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChain a list of images, each demanding a succesive start \n point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chainMany",
           "package": "wumpus-basic",
@@ -6510,6 +7073,7 @@
         "index": {
           "description": "Chain list of images each demanding succesive start point",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chainMany",
           "normalized": "[LocImage a b]-\u003eGenChain c a(UNil a)",
@@ -6526,6 +7090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplicate a LocImage \u003ccode\u003en\u003c/code\u003e times along a Chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chainReplicate",
           "package": "wumpus-basic",
@@ -6536,6 +7101,7 @@
         "index": {
           "description": "Replicate LocImage times along Chain",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chainReplicate",
           "normalized": "Int-\u003eLocImage a b-\u003eGenChain c a(UNil a)",
@@ -6552,6 +7118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand the next position, but draw nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chainSkip_",
           "package": "wumpus-basic",
@@ -6562,6 +7129,7 @@
         "index": {
           "description": "Demand the next position but draw nothing",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chainSkip_",
           "normalized": "GenChain a b()",
@@ -6577,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chain_init",
           "package": "wumpus-basic",
@@ -6586,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chain_init",
           "normalized": "Point a-\u003eb",
@@ -6600,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chain_step",
           "package": "wumpus-basic",
@@ -6609,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "chain_step",
           "normalized": "Point a-\u003eb-\u003e(Point a,b)",
@@ -6624,6 +7196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a tabular scheme going columwise (top-to-bottom) \n and rightwards.\n\u003c/p\u003e\u003cp\u003eTODO - should probably account for the initial position... \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "columnwiseTableScheme",
           "package": "wumpus-basic",
@@ -6634,6 +7207,7 @@
         "index": {
           "description": "Generate tabular scheme going columwise top-to-bottom and rightwards TODO should probably account for the initial position",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "columnwiseTableScheme",
           "normalized": "Int-\u003e(a,a)-\u003eChainScheme a",
@@ -6650,6 +7224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an (infinite) ChainScheme for a prefix list of counted \n schemes and a final scheme that runs out to infinity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "countingScheme",
           "package": "wumpus-basic",
@@ -6660,6 +7235,7 @@
         "index": {
           "description": "Build an infinite ChainScheme for prefix list of counted schemes and final scheme that runs out to infinity",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "countingScheme",
           "normalized": "[(Int,ChainScheme a)]-\u003eChainScheme a-\u003eChainScheme a",
@@ -6675,6 +7251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "distribColumnwiseTable",
           "package": "wumpus-basic",
@@ -6684,6 +7261,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "distribColumnwiseTable",
           "normalized": "Int-\u003e(a,a)-\u003e[LocImage a b]-\u003eLocImage a b",
@@ -6699,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "distribRowwiseTable",
           "package": "wumpus-basic",
@@ -6708,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "distribRowwiseTable",
           "normalized": "Int-\u003e(a,a)-\u003e[LocImage a b]-\u003eLocImage a b",
@@ -6723,6 +7303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "duplicateColumnwiseTable",
           "package": "wumpus-basic",
@@ -6732,6 +7313,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "duplicateColumnwiseTable",
           "normalized": "Int-\u003eInt-\u003e(a,a)-\u003eLocImage a b-\u003eLocImage a b",
@@ -6747,6 +7329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "duplicateRowwiseTable",
           "package": "wumpus-basic",
@@ -6756,6 +7339,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "duplicateRowwiseTable",
           "normalized": "Int-\u003eInt-\u003e(a,a)-\u003eLocImage a b-\u003eLocImage a b",
@@ -6772,6 +7356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget the user state LocImage, just return the \u003cem\u003eanswer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "evalGenChain",
           "package": "wumpus-basic",
@@ -6782,6 +7367,7 @@
         "index": {
           "description": "Forget the user state LocImage just return the answer",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "evalGenChain",
           "normalized": "ChainScheme a-\u003eb-\u003eGenChain b a c-\u003eLocImage a c",
@@ -6798,6 +7384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget the \u003cem\u003eanswer\u003c/em\u003e, just return the user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "execGenChain",
           "package": "wumpus-basic",
@@ -6808,6 +7395,7 @@
         "index": {
           "description": "Forget the answer just return the user state",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "execGenChain",
           "normalized": "ChainScheme a-\u003eb-\u003eGenChain b a c-\u003eLocImage a b",
@@ -6823,6 +7411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "horizontalScheme",
           "package": "wumpus-basic",
@@ -6832,6 +7421,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "horizontalScheme",
           "normalized": "a-\u003eChainScheme a",
@@ -6848,6 +7438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral scheme - iterate the next point with the supplied\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "iterationScheme",
           "package": "wumpus-basic",
@@ -6858,6 +7449,7 @@
         "index": {
           "description": "General scheme iterate the next point with the supplied function",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "iterationScheme",
           "normalized": "(Point a-\u003ePoint a)-\u003eChainScheme a",
@@ -6874,6 +7466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO - account for CW CCW or just rely on +ve -ve angles?...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "radialChainScheme",
           "package": "wumpus-basic",
@@ -6884,6 +7477,7 @@
         "index": {
           "description": "TODO account for CW CCW or just rely on ve ve angles",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "radialChainScheme",
           "normalized": "a-\u003eRadian-\u003eRadian-\u003eChainScheme a",
@@ -6900,6 +7494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a tabular scheme going rowwise (left-to-right) and\n downwards.\n\u003c/p\u003e\u003cp\u003eTODO - should probably account for the initial position... \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "rowwiseTableScheme",
           "package": "wumpus-basic",
@@ -6910,6 +7505,7 @@
         "index": {
           "description": "Generate tabular scheme going rowwise left-to-right and downwards TODO should probably account for the initial position",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "rowwiseTableScheme",
           "normalized": "Int-\u003e(a,a)-\u003eChainScheme a",
@@ -6925,6 +7521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "runChain",
           "package": "wumpus-basic",
@@ -6934,6 +7531,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "runChain",
           "normalized": "ChainScheme a-\u003eChain a b-\u003eLocImage a b",
@@ -6949,6 +7547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "runChain_",
           "package": "wumpus-basic",
@@ -6958,6 +7557,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "runChain_",
           "normalized": "ChainScheme a-\u003eChain a b-\u003eLocGraphic a",
@@ -6973,6 +7573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "runGenChain",
           "package": "wumpus-basic",
@@ -6982,6 +7583,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "runGenChain",
           "normalized": "ChainScheme a-\u003eb-\u003eGenChain b a c-\u003eLocImage a(c,b)",
@@ -6998,6 +7600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral scheme - displace successively by the elements of the\n list of vectors. \n\u003c/p\u003e\u003cp\u003eNote - the list is cycled to make the chain infinite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "sequenceScheme",
           "package": "wumpus-basic",
@@ -7008,6 +7611,7 @@
         "index": {
           "description": "General scheme displace successively by the elements of the list of vectors Note the list is cycled to make the chain infinite",
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "sequenceScheme",
           "normalized": "[Vec a]-\u003eChainScheme a",
@@ -7023,6 +7627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "stripGenChain",
           "package": "wumpus-basic",
@@ -7032,6 +7637,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "stripGenChain",
           "normalized": "ChainScheme a-\u003eb-\u003eGenChain b a c-\u003eLocQuery a(c,b)",
@@ -7047,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "verticalScheme",
           "package": "wumpus-basic",
@@ -7056,6 +7663,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing Chain",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.Chain",
           "name": "verticalScheme",
           "normalized": "a-\u003eChainScheme a",
@@ -7072,6 +7680,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Picture-with-implicit-context object. \n\u003c/p\u003e\u003cp\u003eThis is the corresponding type to Picture in the Wumpus-Core.\n\u003c/p\u003e\u003cp\u003eNote - many of the composition functions are in \n \u003cem\u003edestructor form\u003c/em\u003e. As Wumpus cannot make a Picture from an \n empty list of Pictures, \u003cem\u003edestructor form\u003c/em\u003e decomposes the \n list into the \u003ccode\u003ehead\u003c/code\u003e and \u003ccode\u003erest\u003c/code\u003e as arguments in the function \n signature, rather than take a possibly empty list and have to \n throw an error.\n\u003c/p\u003e\u003cp\u003eTODO - PosImage no longer supports composition operators, so \n better names are up for grabs...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "CtxPicture",
           "package": "wumpus-basic",
@@ -7081,6 +7690,7 @@
         "index": {
           "description": "Picture-with-implicit-context object This is the corresponding type to Picture in the Wumpus-Core Note many of the composition functions are in destructor form As Wumpus cannot make Picture from an empty list of Pictures destructor form decomposes the list into the head and rest as arguments in the function signature rather than take possibly empty list and have to throw an error TODO PosImage no longer supports composition operators so better names are up for grabs",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "CtxPicture",
           "package": "wumpus-basic",
@@ -7095,6 +7705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003eContextual\u003c/em\u003e Picture.\n\u003c/p\u003e\u003cpre\u003e CtxPicture = DrawingContext -\u003e Maybe Picture\n\u003c/pre\u003e\u003cp\u003eThis type corresponds to the \u003ccode\u003e\u003ca\u003ePicture\u003c/a\u003e\u003c/code\u003e type in Wumpus-Core, but\n it is embedded with a \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e (for font properties, \n fill colour etc.). The DrawingContext is embedded so that font\n metrics - loaded in \u003ccode\u003eIO\u003c/code\u003e can be passed into the pure world of\n \u003ccode\u003e\u003ca\u003eTraceDrawing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInternally a \u003cem\u003econtext picture\u003c/em\u003e is a function from \n \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e(Maybe Picture)\u003c/code\u003e. The \u003ccode\u003eMaybe\u003c/code\u003e represents\n that it is possible to construct empty Pictures, even though\n \u003ccode\u003eWumpus-Core\u003c/code\u003e cannot render them. Just as the DrawingContext\n pushes font-metrics from the IO to the pure world, the Maybe\n lifts the problem of unrenderable Pictures into the API where\n client code must deal with it explicitly. \n\u003c/p\u003e\u003cp\u003e(In practice, it is very unlikely a program will create empty \n pictures and \u003ccode\u003erunCtxPictureU\u003c/code\u003e can be used without worry).\n\u003c/p\u003e\u003cp\u003eNote - pictures are fixed to the unit \u003ccode\u003eDouble\u003c/code\u003e (representing \n PostScript points). Pictures are intentionally unsophisticated,\n any fine grained control of units should be delegated to the \n elements that build the picture (Graphics, LocGraphics, etc.). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "CtxPicture",
           "package": "wumpus-basic",
@@ -7104,6 +7715,7 @@
         "index": {
           "description": "Contextual Picture CtxPicture DrawingContext Maybe Picture This type corresponds to the Picture type in Wumpus-Core but it is embedded with DrawingContext for font properties fill colour etc The DrawingContext is embedded so that font metrics loaded in IO can be passed into the pure world of TraceDrawing Internally context picture is function from DrawingContext to Maybe Picture The Maybe represents that it is possible to construct empty Pictures even though Wumpus-Core cannot render them Just as the DrawingContext pushes font-metrics from the IO to the pure world the Maybe lifts the problem of unrenderable Pictures into the API where client code must deal with it explicitly In practice it is very unlikely program will create empty pictures and runCtxPictureU can be used without worry Note pictures are fixed to the unit Double representing PostScript points Pictures are intentionally unsophisticated any fine grained control of units should be delegated to the elements that build the picture Graphics LocGraphics etc",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "CtxPicture",
           "package": "wumpus-basic",
@@ -7118,6 +7730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCenter the picture at the supplied point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "centeredAt",
           "package": "wumpus-basic",
@@ -7128,6 +7741,7 @@
         "index": {
           "description": "Center the picture at the supplied point",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "centeredAt",
           "normalized": "CtxPicture-\u003eDPoint-\u003eCtxPicture",
@@ -7144,6 +7758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edrawTracing\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e trace_drawing  -\u003e CtxPicture \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eTransform a \u003ccode\u003e\u003ca\u003eTraceDrawing\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eCtxPicture\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "drawTracing",
           "package": "wumpus-basic",
@@ -7154,6 +7769,7 @@
         "index": {
           "description": "drawTracing trace drawing CtxPicture Transform TraceDrawing into CtxPicture",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "drawTracing",
           "normalized": "TraceDrawing a b-\u003eCtxPicture",
@@ -7170,6 +7786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emapCtxPicture\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e trafo * ctx_picture -\u003e CtxPicture \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eApply a picture transformation function to the \u003ccode\u003e\u003ca\u003ePicture\u003c/a\u003e\u003c/code\u003e\n warpped in a \u003ccode\u003e\u003ca\u003eCtxPicture\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "mapCtxPicture",
           "package": "wumpus-basic",
@@ -7180,6 +7797,7 @@
         "index": {
           "description": "mapCtxPicture trafo ctx picture CtxPicture Apply picture transformation function to the Picture warpped in CtxPicture",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "mapCtxPicture",
           "normalized": "(Picture-\u003ePicture)-\u003eCtxPicture-\u003eCtxPicture",
@@ -7196,6 +7814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erunCtxPicture\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e drawing_ctx * ctx_picture -\u003e Maybe Picture \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eCtxPicture\u003c/a\u003e\u003c/code\u003e with the supplied \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e \n producing a \u003ccode\u003e\u003ca\u003ePicture\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe resulting Picture may be empty. Wumpus-Core cannot \n generate empty pictures as they have no bounding box, so the \n result is wrapped within a Maybe. This delegates reponsibility \n for handling empty pictures to client code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "runCtxPicture",
           "package": "wumpus-basic",
@@ -7206,6 +7825,7 @@
         "index": {
           "description": "runCtxPicture drawing ctx ctx picture Maybe Picture Run CtxPicture with the supplied DrawingContext producing Picture The resulting Picture may be empty Wumpus-Core cannot generate empty pictures as they have no bounding box so the result is wrapped within Maybe This delegates reponsibility for handling empty pictures to client code",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "runCtxPicture",
           "normalized": "DrawingContext-\u003eCtxPicture-\u003eMaybe Picture",
@@ -7222,6 +7842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erunCtxPictureU\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e drawing_ctx * ctx_picture -\u003e Picture \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eUnsafe\u003c/em\u003e version of \u003ccode\u003e\u003ca\u003erunCtxPicture\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function throws a runtime error when supplied with an\n empty CtxPicture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "runCtxPictureU",
           "package": "wumpus-basic",
@@ -7232,6 +7853,7 @@
         "index": {
           "description": "runCtxPictureU drawing ctx ctx picture Picture Unsafe version of runCtxPicture This function throws runtime error when supplied with an empty CtxPicture",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "runCtxPictureU",
           "normalized": "DrawingContext-\u003eCtxPicture-\u003ePicture",
@@ -7248,6 +7870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eudrawTracing\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e scalar_unit_value * trace_drawing  -\u003e CtxPicture \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003edrawTracing\u003c/a\u003e\u003c/code\u003e with a phantom first argument - the \n phantom identifies the unit type of the \u003ccode\u003e\u003ca\u003eTraceDrawing\u003c/a\u003e\u003c/code\u003e. It is \n not scurtinized at the value level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "udrawTracing",
           "package": "wumpus-basic",
@@ -7258,6 +7881,7 @@
         "index": {
           "description": "udrawTracing scalar unit value trace drawing CtxPicture Variant of drawTracing with phantom first argument the phantom identifies the unit type of the TraceDrawing It is not scurtinized at the value level",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "udrawTracing",
           "normalized": "a-\u003eTraceDrawing a b-\u003eCtxPicture",
@@ -7274,6 +7898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw \u003ccode\u003ea\u003c/code\u003e, move \u003ccode\u003eb\u003c/code\u003e so its center is at the same center as \n \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e is drawn over underneath in the zorder.\n\u003c/p\u003e\u003cpre\u003e a `cxpUniteCenter` b \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "uniteCenter",
           "package": "wumpus-basic",
@@ -7284,6 +7909,7 @@
         "index": {
           "description": "Draw move so its center is at the same center as is drawn over underneath in the zorder cxpUniteCenter",
           "hierarchy": "Wumpus Basic Kernel Drawing CtxPicture",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.CtxPicture",
           "name": "uniteCenter",
           "normalized": "CtxPicture-\u003eCtxPicture-\u003eCtxPicture",
@@ -7300,6 +7926,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing monad with immutable start point.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "LocDrawing",
           "package": "wumpus-basic",
@@ -7309,6 +7936,7 @@
         "index": {
           "description": "Drawing monad with immutable start point",
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "LocDrawing",
           "package": "wumpus-basic",
@@ -7323,6 +7951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGenLocDrawing\u003c/a\u003e\u003c/code\u003e is a reader-writer-state monad, unlike \n \u003ccode\u003eGenLocTrace\u003c/code\u003e there is no updateable current point, instead \n the start point is supplied when the drawing is run and it \n is translated by the components of the start point.\n\u003c/p\u003e\u003cp\u003eThe writer accumulates a graphical trace.\n\u003c/p\u003e\u003cp\u003eEssentially, \u003ccode\u003e\u003ca\u003eGenLocDrawing\u003c/a\u003e\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e object extended \n with user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "GenLocDrawing",
           "package": "wumpus-basic",
@@ -7332,6 +7961,7 @@
         "index": {
           "description": "GenLocDrawing is reader-writer-state monad unlike GenLocTrace there is no updateable current point instead the start point is supplied when the drawing is run and it is translated by the components of the start point The writer accumulates graphical trace Essentially GenLocDrawing is an Image object extended with user state",
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "GenLocDrawing",
           "package": "wumpus-basic",
@@ -7345,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "LocDrawM",
           "package": "wumpus-basic",
@@ -7353,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "LocDrawM",
           "package": "wumpus-basic",
@@ -7366,6 +7998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "LocDrawing",
           "package": "wumpus-basic",
@@ -7374,6 +8007,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "LocDrawing",
           "package": "wumpus-basic",
@@ -7388,6 +8022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget the user state LocImage, just return the \u003cem\u003eanswer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "evalGenLocDrawing",
           "package": "wumpus-basic",
@@ -7398,6 +8033,7 @@
         "index": {
           "description": "Forget the user state LocImage just return the answer",
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "evalGenLocDrawing",
           "normalized": "a-\u003eGenLocDrawing a b c-\u003eLocImage b c",
@@ -7414,6 +8050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget the \u003cem\u003eanswer\u003c/em\u003e, just return the user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "execGenLocDrawing",
           "package": "wumpus-basic",
@@ -7424,6 +8061,7 @@
         "index": {
           "description": "Forget the answer just return the user state",
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "execGenLocDrawing",
           "normalized": "a-\u003eGenLocDrawing a b c-\u003eLocImage b a",
@@ -7439,6 +8077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "insertci",
           "package": "wumpus-basic",
@@ -7448,6 +8087,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "insertci",
           "normalized": "Anchor a-\u003eAnchor a-\u003eConnectorImage a b-\u003ec b",
@@ -7462,6 +8102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "insertci_",
           "package": "wumpus-basic",
@@ -7471,6 +8112,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "insertci_",
           "normalized": "Anchor a-\u003eAnchor a-\u003eConnectorImage a b-\u003ec()",
@@ -7485,6 +8127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "inserti",
           "package": "wumpus-basic",
@@ -7494,6 +8137,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "inserti",
           "normalized": "Image a b-\u003ec b",
@@ -7508,6 +8152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "inserti_",
           "package": "wumpus-basic",
@@ -7517,6 +8162,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "inserti_",
           "normalized": "Image a b-\u003ec()",
@@ -7531,6 +8177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "insertli",
           "package": "wumpus-basic",
@@ -7540,6 +8187,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "insertli",
           "normalized": "Anchor a-\u003eLocImage a b-\u003ec b",
@@ -7554,6 +8202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "insertli_",
           "package": "wumpus-basic",
@@ -7563,6 +8212,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "insertli_",
           "normalized": "Anchor a-\u003eLocImage a b-\u003ec()",
@@ -7577,6 +8227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "runGenLocDrawing",
           "package": "wumpus-basic",
@@ -7586,6 +8237,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "runGenLocDrawing",
           "normalized": "a-\u003eGenLocDrawing a b c-\u003eLocImage b(c,a)",
@@ -7602,6 +8254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple version of \u003ccode\u003e\u003ca\u003erunGenLocDrawing\u003c/a\u003e\u003c/code\u003e - run a \u003ccode\u003e\u003ca\u003eLocDrawing\u003c/a\u003e\u003c/code\u003e without\n user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "runLocDrawing",
           "package": "wumpus-basic",
@@ -7612,6 +8265,7 @@
         "index": {
           "description": "Simple version of runGenLocDrawing run LocDrawing without user state",
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "runLocDrawing",
           "normalized": "LocDrawing a b-\u003eLocImage a b",
@@ -7627,6 +8281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "runLocDrawing_",
           "package": "wumpus-basic",
@@ -7636,6 +8291,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "runLocDrawing_",
           "normalized": "LocDrawing a b-\u003eLocGraphic a",
@@ -7651,6 +8307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "stripGenLocDrawing",
           "package": "wumpus-basic",
@@ -7660,6 +8317,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocDrawing",
           "name": "stripGenLocDrawing",
           "normalized": "a-\u003eGenLocDrawing a b c-\u003eLocQuery b(c,a)",
@@ -7676,6 +8334,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWriter monad with imperative \u003cem\u003eturtle\u003c/em\u003e style movement to build \n LocGraphics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "LocTrace",
           "package": "wumpus-basic",
@@ -7685,6 +8344,7 @@
         "index": {
           "description": "Writer monad with imperative turtle style movement to build LocGraphics",
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "LocTrace",
           "package": "wumpus-basic",
@@ -7699,6 +8359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenLocTrace is a reader-writer-state monad.\n\u003c/p\u003e\u003cp\u003eThe writer accumulates a graphical trace and the state is \n the current point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "GenLocTrace",
           "package": "wumpus-basic",
@@ -7708,6 +8369,7 @@
         "index": {
           "description": "GenLocTrace is reader-writer-state monad The writer accumulates graphical trace and the state is the current point",
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "GenLocTrace",
           "package": "wumpus-basic",
@@ -7721,6 +8383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "LocTrace",
           "package": "wumpus-basic",
@@ -7729,6 +8392,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "LocTrace",
           "package": "wumpus-basic",
@@ -7743,6 +8407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget the user state LocImage, just return the \u003cem\u003eanswer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "evalGenLocTrace",
           "package": "wumpus-basic",
@@ -7753,6 +8418,7 @@
         "index": {
           "description": "Forget the user state LocImage just return the answer",
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "evalGenLocTrace",
           "normalized": "a-\u003eGenLocTrace a b c-\u003eLocImage b c",
@@ -7769,6 +8435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget the \u003cem\u003eanswer\u003c/em\u003e, just return the user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "execGenLocTrace",
           "package": "wumpus-basic",
@@ -7779,6 +8446,7 @@
         "index": {
           "description": "Forget the answer just return the user state",
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "execGenLocTrace",
           "normalized": "a-\u003eGenLocTrace a b c-\u003eLocImage b a",
@@ -7794,6 +8462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "runGenLocTrace",
           "package": "wumpus-basic",
@@ -7803,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "runGenLocTrace",
           "normalized": "a-\u003eGenLocTrace a b c-\u003eLocImage b(c,a)",
@@ -7819,6 +8489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple version of \u003ccode\u003e\u003ca\u003erunGenLocTrace\u003c/a\u003e\u003c/code\u003e - run a \u003ccode\u003e\u003ca\u003eLocTrace\u003c/a\u003e\u003c/code\u003e without\n user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "runLocTrace",
           "package": "wumpus-basic",
@@ -7829,6 +8500,7 @@
         "index": {
           "description": "Simple version of runGenLocTrace run LocTrace without user state",
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "runLocTrace",
           "normalized": "LocTrace a b-\u003eLocImage a b",
@@ -7844,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "runLocTrace_",
           "package": "wumpus-basic",
@@ -7853,6 +8526,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "runLocTrace_",
           "normalized": "LocTrace a b-\u003eLocGraphic a",
@@ -7868,6 +8542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "stripGenLocTrace",
           "package": "wumpus-basic",
@@ -7877,6 +8552,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing LocTrace",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.LocTrace",
           "name": "stripGenLocTrace",
           "normalized": "a-\u003eGenLocTrace a b c-\u003eLocQuery b(c,a)",
@@ -7893,6 +8569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtended Graphic object - a rectangular \u003cem\u003epositionable\u003c/em\u003e Image.\n\u003c/p\u003e\u003cp\u003eThis graphic object has a more flexible API for positioning \n than other graphic objects. Rather than a LocGraphic which \n supports a single method of positioning at some start-point,\n a \u003ccode\u003ePosGraphic\u003c/code\u003e can be drawn at its center or locations on its \n outer rectangle.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "PosObject",
           "package": "wumpus-basic",
@@ -7902,6 +8579,7 @@
         "index": {
           "description": "Extended Graphic object rectangular positionable Image This graphic object has more flexible API for positioning than other graphic objects Rather than LocGraphic which supports single method of positioning at some start-point PosGraphic can be drawn at its center or locations on its outer rectangle",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "PosObject",
           "package": "wumpus-basic",
@@ -7916,6 +8594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of PosGraphic specialized to Double for the unit type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "DPosGraphic",
           "package": "wumpus-basic",
@@ -7925,6 +8604,7 @@
         "index": {
           "description": "Version of PosGraphic specialized to Double for the unit type",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "DPosGraphic",
           "package": "wumpus-basic",
@@ -7939,6 +8619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of PosObject specialized to Double for the unit type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "DPosObject",
           "package": "wumpus-basic",
@@ -7948,6 +8629,7 @@
         "index": {
           "description": "Version of PosObject specialized to Double for the unit type",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "DPosObject",
           "package": "wumpus-basic",
@@ -7961,6 +8643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "GenPosGraphic",
           "package": "wumpus-basic",
@@ -7969,6 +8652,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "GenPosGraphic",
           "package": "wumpus-basic",
@@ -7983,6 +8667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA positionable \"Object\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "GenPosObject",
           "package": "wumpus-basic",
@@ -7992,6 +8677,7 @@
         "index": {
           "description": "positionable Object",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "GenPosObject",
           "package": "wumpus-basic",
@@ -8006,6 +8692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of PosObject with answer specialized to UNil.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "PosGraphic",
           "package": "wumpus-basic",
@@ -8015,6 +8702,7 @@
         "index": {
           "description": "Version of PosObject with answer specialized to UNil",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "PosGraphic",
           "package": "wumpus-basic",
@@ -8029,6 +8717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for \u003ccode\u003eGenPosObject () u a\u003c/code\u003e, a PosObject without\n user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "PosObject",
           "package": "wumpus-basic",
@@ -8038,6 +8727,7 @@
         "index": {
           "description": "Type synonym for GenPosObject PosObject without user state",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "PosObject",
           "package": "wumpus-basic",
@@ -8051,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "decoratePosObject",
           "package": "wumpus-basic",
@@ -8060,6 +8751,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "decoratePosObject",
           "normalized": "ZOrder-\u003e(Orientation a-\u003eLocGraphic a)-\u003eGenPosObject b a c-\u003eGenPosObject b a c",
@@ -8075,6 +8767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "elaboratePosObject",
           "package": "wumpus-basic",
@@ -8084,6 +8777,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "elaboratePosObject",
           "normalized": "ZOrder-\u003eRectAddress-\u003eLocGraphic a-\u003eGenPosObject b a c-\u003eGenPosObject b a c",
@@ -8100,6 +8794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eemptyPosObject\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e PosObject \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBuild an empty \u003ccode\u003ePosGraphicObject\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "emptyPosObject",
           "package": "wumpus-basic",
@@ -8110,6 +8805,7 @@
         "index": {
           "description": "emptyPosObject PosObject Build an empty PosGraphicObject",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "emptyPosObject",
           "package": "wumpus-basic",
@@ -8123,6 +8819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "evalGenPosObject",
           "package": "wumpus-basic",
@@ -8132,6 +8829,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "evalGenPosObject",
           "normalized": "RectAddress-\u003ea-\u003eGenPosObject a b c-\u003eLocImage b c",
@@ -8147,6 +8845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "execGenPosObject",
           "package": "wumpus-basic",
@@ -8156,6 +8855,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "execGenPosObject",
           "normalized": "RectAddress-\u003ea-\u003eGenPosObject a b c-\u003eLocImage b a",
@@ -8172,6 +8872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the orientation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "extendPosObject",
           "package": "wumpus-basic",
@@ -8182,6 +8883,7 @@
         "index": {
           "description": "Extend the orientation",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "extendPosObject",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eGenPosObject b a c-\u003eGenPosObject b a c",
@@ -8198,6 +8900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIllustrate a \u003ccode\u003e\u003ca\u003ePosObject\u003c/a\u003e\u003c/code\u003e by super-imposing its \u003ccode\u003e\u003ca\u003eOrientation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis turns the \u003ccode\u003e\u003ca\u003ePosObject\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eLocImage\u003c/a\u003e\u003c/code\u003e drawn at the locus\n of the PosObject.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "illustratePosObject",
           "package": "wumpus-basic",
@@ -8208,6 +8911,7 @@
         "index": {
           "description": "Illustrate PosObject by super-imposing its Orientation This turns the PosObject into LocImage drawn at the locus of the PosObject",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "illustratePosObject",
           "normalized": "PosObject a b-\u003eLocGraphic a",
@@ -8224,6 +8928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emakePosObject\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e object_pos * loc_image -\u003e PosObject \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003ePosObject\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eOrientation\u003c/a\u003e\u003c/code\u003e describing how it\n is orientated within a border rectangle and a \u003ccode\u003e\u003ca\u003eLocImage\u003c/a\u003e\u003c/code\u003e that \n draws it.\n\u003c/p\u003e\u003cp\u003eThis is the \u003cem\u003eprimary\u003c/em\u003e constructor for PosObjects. Because the\n PosObject type is considered as a specialized object it does\n not have the range of functions of LocImage or LocThetaImage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "makePosObject",
           "package": "wumpus-basic",
@@ -8234,6 +8939,7 @@
         "index": {
           "description": "makePosObject object pos loc image PosObject Create PosObject from an Orientation describing how it is orientated within border rectangle and LocImage that draws it This is the primary constructor for PosObjects Because the PosObject type is considered as specialized object it does not have the range of functions of LocImage or LocThetaImage",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "makePosObject",
           "normalized": "Query a(Orientation a)-\u003eLocImage a b-\u003eGenPosObject c a b",
@@ -8250,6 +8956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - this is a bad API, it would be better to have padders\n and fillers and not expose the orientation directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "mapOrientation",
           "package": "wumpus-basic",
@@ -8260,6 +8967,7 @@
         "index": {
           "description": "Note this is bad API it would be better to have padders and fillers and not expose the orientation directly",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "mapOrientation",
           "normalized": "(Orientation a-\u003eOrientation a)-\u003eGenPosObject b a c-\u003eGenPosObject b a c",
@@ -8276,6 +8984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe query should retrieve the width of one char.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "monospaceEscText",
           "package": "wumpus-basic",
@@ -8286,6 +8995,7 @@
         "index": {
           "description": "The query should retrieve the width of one char",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "monospaceEscText",
           "normalized": "Query a a-\u003eEscapedText-\u003eGenPosGraphic b a",
@@ -8302,6 +9012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe query should retrieve the width of one char.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "monospaceText",
           "package": "wumpus-basic",
@@ -8312,6 +9023,7 @@
         "index": {
           "description": "The query should retrieve the width of one char",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "monospaceText",
           "normalized": "Query a a-\u003eString-\u003eGenPosGraphic b a",
@@ -8327,6 +9039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "multilinePosEscText",
           "package": "wumpus-basic",
@@ -8336,6 +9049,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "multilinePosEscText",
           "normalized": "VAlign-\u003e[EscapedText]-\u003eGenPosGraphic a b",
@@ -8351,6 +9065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "multilinePosText",
           "package": "wumpus-basic",
@@ -8360,6 +9075,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "multilinePosText",
           "normalized": "VAlign-\u003eString-\u003ePosGraphic a",
@@ -8376,6 +9092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - no margins are added to the containing rectangle.\n\u003c/p\u003e\u003cp\u003eTo get a Char with margins, use \u003ccode\u003e\u003ca\u003eposText\u003c/a\u003e\u003c/code\u003e instead:\n\u003c/p\u003e\u003cpre\u003e posText ['1']\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posChar",
           "package": "wumpus-basic",
@@ -8386,6 +9103,7 @@
         "index": {
           "description": "Note no margins are added to the containing rectangle To get Char with margins use posText instead posText",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posChar",
           "normalized": "Char-\u003eGenPosGraphic a b",
@@ -8402,6 +9120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimtive builder that does not add margins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posCharPrim",
           "package": "wumpus-basic",
@@ -8412,6 +9131,7 @@
         "index": {
           "description": "Primtive builder that does not add margins",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posCharPrim",
           "normalized": "Either Char EscapedChar-\u003eGenPosGraphic a b",
@@ -8427,6 +9147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posCharUpright",
           "package": "wumpus-basic",
@@ -8436,6 +9157,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posCharUpright",
           "normalized": "Char-\u003eGenPosGraphic a b",
@@ -8451,6 +9173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posEscChar",
           "package": "wumpus-basic",
@@ -8460,6 +9183,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posEscChar",
           "normalized": "EscapedChar-\u003eGenPosGraphic a b",
@@ -8475,6 +9199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posEscCharUpright",
           "package": "wumpus-basic",
@@ -8484,6 +9209,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posEscCharUpright",
           "normalized": "EscapedChar-\u003eGenPosGraphic a b",
@@ -8499,6 +9225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posEscText",
           "package": "wumpus-basic",
@@ -8508,6 +9235,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posEscText",
           "normalized": "EscapedText-\u003eGenPosGraphic a b",
@@ -8523,6 +9251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posEscTextUpright",
           "package": "wumpus-basic",
@@ -8532,6 +9261,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posEscTextUpright",
           "normalized": "EscapedText-\u003eGenPosGraphic a b",
@@ -8547,6 +9277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posHKernText",
           "package": "wumpus-basic",
@@ -8556,6 +9287,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posHKernText",
           "normalized": "[KernChar a]-\u003eGenPosGraphic b a",
@@ -8571,6 +9303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posText",
           "package": "wumpus-basic",
@@ -8580,6 +9313,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posText",
           "normalized": "String-\u003eGenPosGraphic a b",
@@ -8596,6 +9330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimtive builder that does not add margins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posTextPrim",
           "package": "wumpus-basic",
@@ -8606,6 +9341,7 @@
         "index": {
           "description": "Primtive builder that does not add margins",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posTextPrim",
           "normalized": "Either String EscapedText-\u003eGenPosGraphic a b",
@@ -8621,6 +9357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posTextUpright",
           "package": "wumpus-basic",
@@ -8630,6 +9367,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "posTextUpright",
           "normalized": "String-\u003eGenPosGraphic a b",
@@ -8645,6 +9383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "rposChar",
           "package": "wumpus-basic",
@@ -8654,6 +9393,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "rposChar",
           "normalized": "Radian-\u003eChar-\u003eGenPosGraphic a b",
@@ -8669,6 +9409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "rposEscChar",
           "package": "wumpus-basic",
@@ -8678,6 +9419,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "rposEscChar",
           "normalized": "Radian-\u003eEscapedChar-\u003eGenPosGraphic a b",
@@ -8694,6 +9436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - for single line text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "rposEscText",
           "package": "wumpus-basic",
@@ -8704,6 +9447,7 @@
         "index": {
           "description": "Note for single line text",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "rposEscText",
           "normalized": "Radian-\u003eEscapedText-\u003eGenPosGraphic a b",
@@ -8720,6 +9464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - for single line text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "rposText",
           "package": "wumpus-basic",
@@ -8730,6 +9475,7 @@
         "index": {
           "description": "Note for single line text",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "rposText",
           "normalized": "Radian-\u003eString-\u003eGenPosGraphic a b",
@@ -8746,6 +9492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning an PosObject produces a LocImage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "runGenPosObject",
           "package": "wumpus-basic",
@@ -8756,6 +9503,7 @@
         "index": {
           "description": "Running an PosObject produces LocImage",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "runGenPosObject",
           "normalized": "RectAddress-\u003ea-\u003eGenPosObject a b c-\u003eLocImage b(c,a)",
@@ -8771,6 +9519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "runPosObject",
           "package": "wumpus-basic",
@@ -8780,6 +9529,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "runPosObject",
           "normalized": "RectAddress-\u003ePosObject a b-\u003eLocImage a b",
@@ -8796,6 +9546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a PosObject producing a LocImage (BoundingBox u).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "runPosObjectBBox",
           "package": "wumpus-basic",
@@ -8806,6 +9557,7 @@
         "index": {
           "description": "Run PosObject producing LocImage BoundingBox",
           "hierarchy": "Wumpus Basic Kernel Drawing PosObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.PosObject",
           "name": "runPosObjectBBox",
           "normalized": "RectAddress-\u003ePosObject a b-\u003eLocImage a(BoundingBox a)",
@@ -8822,6 +9574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing with \u003cem\u003etrace\u003c/em\u003e - a Writer like monad collecting \n intermediate graphics - and \u003cem\u003edrawing context\u003c/em\u003e - a reader monad\n of attributes - font_face, fill_colour etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "TraceDrawing",
           "package": "wumpus-basic",
@@ -8831,6 +9584,7 @@
         "index": {
           "description": "Drawing with trace Writer like monad collecting intermediate graphics and drawing context reader monad of attributes font face fill colour etc",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "TraceDrawing",
           "package": "wumpus-basic",
@@ -8844,6 +9598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "DTraceDrawing",
           "package": "wumpus-basic",
@@ -8852,6 +9607,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "DTraceDrawing",
           "package": "wumpus-basic",
@@ -8865,6 +9621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "GenTraceDrawing",
           "package": "wumpus-basic",
@@ -8873,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "GenTraceDrawing",
           "package": "wumpus-basic",
@@ -8886,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "TraceDrawing",
           "package": "wumpus-basic",
@@ -8894,6 +9653,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "TraceDrawing",
           "package": "wumpus-basic",
@@ -8908,6 +9668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a Graphic taking the drawing style from the \n \u003cem\u003edrawing context\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThis function is the \u003cem\u003eforgetful\u003c/em\u003e version of \u003ccode\u003e\u003ca\u003edrawi\u003c/a\u003e\u003c/code\u003e. \n Commonly, it is used to draw \u003ccode\u003e\u003ca\u003eGraphic\u003c/a\u003e\u003c/code\u003e objects which \n have no \u003cem\u003eanswer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "draw",
           "package": "wumpus-basic",
@@ -8918,6 +9679,7 @@
         "index": {
           "description": "Draw Graphic taking the drawing style from the drawing context This function is the forgetful version of drawi Commonly it is used to draw Graphic objects which have no answer",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "draw",
           "normalized": "Image a b-\u003eGenTraceDrawing c a()",
@@ -8933,6 +9695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a ConnectorGraphic with the supplied Anchors taking the \n drawing style from the \u003cem\u003edrawing context\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThis function is the \u003cem\u003eforgetful\u003c/em\u003e version of \u003ccode\u003e\u003ca\u003edrawci\u003c/a\u003e\u003c/code\u003e. \n Commonly, it is used to draw \u003ccode\u003e\u003ca\u003eConnectorGraphic\u003c/a\u003e\u003c/code\u003e objects which \n have no \u003cem\u003eanswer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawc",
           "package": "wumpus-basic",
@@ -8943,6 +9706,7 @@
         "index": {
           "description": "Draw ConnectorGraphic with the supplied Anchors taking the drawing style from the drawing context This function is the forgetful version of drawci Commonly it is used to draw ConnectorGraphic objects which have no answer",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawc",
           "normalized": "Anchor a-\u003eAnchor a-\u003eConnectorImage a b-\u003eGenTraceDrawing c a()",
@@ -8958,6 +9722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a ConnectorImage with the supplied Points taking the \n drawing style from the \u003cem\u003edrawing context\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThe graphic representation of the Image is drawn in the Trace \n monad, and the result is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawci",
           "package": "wumpus-basic",
@@ -8968,6 +9733,7 @@
         "index": {
           "description": "Draw ConnectorImage with the supplied Points taking the drawing style from the drawing context The graphic representation of the Image is drawn in the Trace monad and the result is returned",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawci",
           "normalized": "Anchor a-\u003eAnchor a-\u003eConnectorImage a b-\u003eGenTraceDrawing c a b",
@@ -8983,6 +9749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw an Image taking the drawing style from the \n \u003cem\u003edrawing context\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThe graphic representation of the Image is drawn in the Trace \n monad, and the result is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawi",
           "package": "wumpus-basic",
@@ -8993,6 +9760,7 @@
         "index": {
           "description": "Draw an Image taking the drawing style from the drawing context The graphic representation of the Image is drawn in the Trace monad and the result is returned",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawi",
           "normalized": "Image a b-\u003eGenTraceDrawing c a b",
@@ -9008,6 +9776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a LocImage at the supplied Anchor taking the drawing \n style from the \u003cem\u003edrawing context\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThis function is the \u003cem\u003eforgetful\u003c/em\u003e version of \u003ccode\u003e\u003ca\u003edrawli\u003c/a\u003e\u003c/code\u003e. \n Commonly, it is used to draw \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e objects which \n have no \u003cem\u003eanswer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawl",
           "package": "wumpus-basic",
@@ -9018,6 +9787,7 @@
         "index": {
           "description": "Draw LocImage at the supplied Anchor taking the drawing style from the drawing context This function is the forgetful version of drawli Commonly it is used to draw LocGraphic objects which have no answer",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawl",
           "normalized": "Anchor a-\u003eLocImage a b-\u003eGenTraceDrawing c a()",
@@ -9033,6 +9803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a LocImage at the supplied Point taking the drawing \n style from the \u003cem\u003edrawing context\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThe graphic representation of the Image is drawn in the Trace \n monad, and the result is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawli",
           "package": "wumpus-basic",
@@ -9043,6 +9814,7 @@
         "index": {
           "description": "Draw LocImage at the supplied Point taking the drawing style from the drawing context The graphic representation of the Image is drawn in the Trace monad and the result is returned",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawli",
           "normalized": "Anchor a-\u003eLocImage a b-\u003eGenTraceDrawing c a b",
@@ -9058,6 +9830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a connector between two objects. The projection of the\n connector line is drawn on the line from center to center of \n the objects, the actual start and end points of the drawn line\n are the radial points on the objects borders that cross the \n projected line.\n\u003c/p\u003e\u003cp\u003eThis function is the \u003cem\u003eforgetful\u003c/em\u003e version of \u003ccode\u003e\u003ca\u003edrawrci\u003c/a\u003e\u003c/code\u003e. \n Commonly, it is used to draw \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e objects which \n have no \u003cem\u003eanswer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawrc",
           "package": "wumpus-basic",
@@ -9068,6 +9841,7 @@
         "index": {
           "description": "Draw connector between two objects The projection of the connector line is drawn on the line from center to center of the objects the actual start and end points of the drawn line are the radial points on the objects borders that cross the projected line This function is the forgetful version of drawrci Commonly it is used to draw LocGraphic objects which have no answer",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawrc",
           "normalized": "a-\u003ea-\u003eConnectorImage b a-\u003eGenTraceDrawing c b()",
@@ -9083,6 +9857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a connector between two objects. The projection of the\n connector line is drawn on the line from center to center of \n the objects, the actual start and end points of the drawn line\n are the radial points on the objects borders that cross the \n projected line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawrci",
           "package": "wumpus-basic",
@@ -9093,6 +9868,7 @@
         "index": {
           "description": "Draw connector between two objects The projection of the connector line is drawn on the line from center to center of the objects the actual start and end points of the drawn line are the radial points on the objects borders that cross the projected line",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "drawrci",
           "normalized": "a-\u003ea-\u003eConnectorImage b a-\u003eGenTraceDrawing c b a",
@@ -9107,6 +9883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "evalQuery",
           "package": "wumpus-basic",
@@ -9116,6 +9893,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "evalQuery",
           "normalized": "Query a b-\u003ec b",
@@ -9132,6 +9910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the drawing ignoring the output it produces, return the \n answer from the monadic computation.\n\u003c/p\u003e\u003cp\u003eNote - this useful for testing, generally one would want the \n opposite behaviour (return the drawing, ignore than the \n answer).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "evalTraceDrawing",
           "package": "wumpus-basic",
@@ -9142,6 +9921,7 @@
         "index": {
           "description": "Run the drawing ignoring the output it produces return the answer from the monadic computation Note this useful for testing generally one would want the opposite behaviour return the drawing ignore than the answer",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "evalTraceDrawing",
           "normalized": "DrawingContext-\u003eTraceDrawing a b-\u003eb",
@@ -9158,6 +9938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the drawing returning only the output it produces, drop\n any answer from the monadic computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "execTraceDrawing",
           "package": "wumpus-basic",
@@ -9168,6 +9949,7 @@
         "index": {
           "description": "Run the drawing returning only the output it produces drop any answer from the monadic computation",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "execTraceDrawing",
           "normalized": "DrawingContext-\u003eTraceDrawing a b-\u003eHPrim a",
@@ -9183,6 +9965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "fontDelta",
           "package": "wumpus-basic",
@@ -9192,6 +9975,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "fontDelta",
           "normalized": "GenTraceDrawing a b c-\u003eGenTraceDrawing a b c",
@@ -9208,6 +9992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eSafe\u003c/em\u003e promotion of \u003ccode\u003eHPrim\u003c/code\u003e to \u003ccode\u003e(Maybe Picture)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf the HPrim is empty, then \u003ccode\u003eNothing\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "liftToPictureMb",
           "package": "wumpus-basic",
@@ -9218,6 +10003,7 @@
         "index": {
           "description": "Safe promotion of HPrim to Maybe Picture If the HPrim is empty then Nothing is returned",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "liftToPictureMb",
           "normalized": "HPrim a-\u003eMaybe Picture",
@@ -9234,6 +10020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eUnsafe\u003c/em\u003e promotion of \u003ccode\u003eHPrim\u003c/code\u003e to \u003ccode\u003ePicture\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf the HPrim is empty, a run-time error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "liftToPictureU",
           "package": "wumpus-basic",
@@ -9244,6 +10031,7 @@
         "index": {
           "description": "Unsafe promotion of HPrim to Picture If the HPrim is empty run-time error is thrown",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "liftToPictureU",
           "normalized": "HPrim a-\u003ePicture",
@@ -9260,6 +10048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eUnsafe\u003c/em\u003e promotion of \u003ccode\u003e(Maybe Picture)\u003c/code\u003e to \u003ccode\u003ePicture\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is equivalent to:\n\u003c/p\u003e\u003cpre\u003e fromMaybe (error \"empty\") $ pic\n\u003c/pre\u003e\u003cp\u003eThis function is solely a convenience, using it saves one \n import and a few characters.\n\u003c/p\u003e\u003cp\u003eIf the supplied value is \u003ccode\u003eNothing\u003c/code\u003e a run-time error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "mbPictureU",
           "package": "wumpus-basic",
@@ -9270,6 +10059,7 @@
         "index": {
           "description": "Unsafe promotion of Maybe Picture to Picture This is equivalent to fromMaybe error empty pic This function is solely convenience using it saves one import and few characters If the supplied value is Nothing run-time error is thrown",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "mbPictureU",
           "normalized": "Maybe Picture-\u003ePicture",
@@ -9286,6 +10076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the object with the supplied grid coordinate. The \n actual position is scaled according to the \n \u003ccode\u003esnap_grid_factors\u003c/code\u003e in the \u003cem\u003edrawing context\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThis function is the \u003cem\u003eforgetful\u003c/em\u003e version of \u003ccode\u003e\u003ca\u003enodei\u003c/a\u003e\u003c/code\u003e. \n Commonly, it is used to draw \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e objects which \n have no \u003cem\u003eanswer\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "node",
           "package": "wumpus-basic",
@@ -9296,6 +10087,7 @@
         "index": {
           "description": "Draw the object with the supplied grid coordinate The actual position is scaled according to the snap grid factors in the drawing context This function is the forgetful version of nodei Commonly it is used to draw LocGraphic objects which have no answer",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "node",
           "normalized": "(Int,Int)-\u003eLocImage a b-\u003eGenTraceDrawing c a()",
@@ -9311,6 +10103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the object with the supplied grid coordinate. The \n actual position is scaled according to the \n \u003ccode\u003esnap_grid_factors\u003c/code\u003e in the \u003cem\u003edrawing context\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "nodei",
           "package": "wumpus-basic",
@@ -9321,6 +10114,7 @@
         "index": {
           "description": "Draw the object with the supplied grid coordinate The actual position is scaled according to the snap grid factors in the drawing context",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "nodei",
           "normalized": "(Int,Int)-\u003eLocImage a b-\u003eGenTraceDrawing c a b",
@@ -9335,6 +10129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "runGenTraceDrawing",
           "package": "wumpus-basic",
@@ -9344,6 +10139,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "runGenTraceDrawing",
           "normalized": "DrawingContext-\u003ea-\u003eGenTraceDrawing a b c-\u003e(c,a,HPrim b)",
@@ -9359,6 +10155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "runTraceDrawing",
           "package": "wumpus-basic",
@@ -9368,6 +10165,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "runTraceDrawing",
           "normalized": "DrawingContext-\u003eTraceDrawing a b-\u003e(b,HPrim a)",
@@ -9384,6 +10182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive operation - cf. tell in Reader monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "trace",
           "package": "wumpus-basic",
@@ -9394,6 +10193,7 @@
         "index": {
           "description": "Primitive operation cf tell in Reader monad",
           "hierarchy": "Wumpus Basic Kernel Drawing TraceDrawing",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Drawing.TraceDrawing",
           "name": "trace",
           "normalized": "HPrim a-\u003eGenTraceDrawing b a()",
@@ -9409,6 +10209,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtended Graphic object - an AdvanceGraphic is a Graphic \n twinned with and advance vector.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "AdvObject",
           "package": "wumpus-basic",
@@ -9418,6 +10219,7 @@
         "index": {
           "description": "Extended Graphic object an AdvanceGraphic is Graphic twinned with and advance vector",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "AdvObject",
           "package": "wumpus-basic",
@@ -9431,6 +10233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "AdvGraphic",
           "package": "wumpus-basic",
@@ -9439,6 +10242,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "AdvGraphic",
           "package": "wumpus-basic",
@@ -9453,6 +10257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eAdvance vector\u003c/em\u003e graphic - this partially models the \n PostScript \u003ccode\u003eshow\u003c/code\u003e command which moves the \u003cem\u003ecurrent point\u003c/em\u003e by the\n advance (width) vector as each character is drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "AdvObject",
           "package": "wumpus-basic",
@@ -9462,6 +10267,7 @@
         "index": {
           "description": "Advance vector graphic this partially models the PostScript show command which moves the current point by the advance width vector as each character is drawn",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "AdvObject",
           "package": "wumpus-basic",
@@ -9476,6 +10282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvance vectors provide an idiom for drawing consecutive\n graphics. PostScript uses them to draw left-to-right text - \n each character has an advance vector for the width and \n as characters are drawn they successively displace the start\n point for the next character with their advance vector.\n\u003c/p\u003e\u003cp\u003eType alias for Vec2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "AdvanceVec",
           "package": "wumpus-basic",
@@ -9485,6 +10292,7 @@
         "index": {
           "description": "Advance vectors provide an idiom for drawing consecutive graphics PostScript uses them to draw left-to-right text each character has an advance vector for the width and as characters are drawn they successively displace the start point for the next character with their advance vector Type alias for Vec2",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "AdvanceVec",
           "package": "wumpus-basic",
@@ -9498,6 +10306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "DAdvGraphic",
           "package": "wumpus-basic",
@@ -9506,6 +10315,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "DAdvGraphic",
           "package": "wumpus-basic",
@@ -9519,6 +10329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "DAdvObject",
           "package": "wumpus-basic",
@@ -9527,6 +10338,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "DAdvObject",
           "package": "wumpus-basic",
@@ -9541,6 +10353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the first AdvObject and use the advance vector to \n displace the second AdvObject.\n\u003c/p\u003e\u003cp\u003eThe final answer is the sum of both advance vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advance",
           "package": "wumpus-basic",
@@ -9551,6 +10364,7 @@
         "index": {
           "description": "Draw the first AdvObject and use the advance vector to displace the second AdvObject The final answer is the sum of both advance vectors",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advance",
           "normalized": "AdvObject a b-\u003eAdvObject a b-\u003eAdvObject a b",
@@ -9566,6 +10380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the horizontal component of an advance vector.\n\u003c/p\u003e\u003cp\u003eFor left-to-right latin text, the vertical component of an\n advance vector is expected to be 0. Ingoring it seems \n permissible when drawing text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advanceH",
           "package": "wumpus-basic",
@@ -9576,6 +10391,7 @@
         "index": {
           "description": "Extract the horizontal component of an advance vector For left-to-right latin text the vertical component of an advance vector is expected to be Ingoring it seems permissible when drawing text",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advanceH",
           "normalized": "AdvanceVec a-\u003ea",
@@ -9591,6 +10407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the verticall component of an advance vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advanceV",
           "package": "wumpus-basic",
@@ -9601,6 +10418,7 @@
         "index": {
           "description": "Extract the verticall component of an advance vector",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advanceV",
           "normalized": "AdvanceVec a-\u003ea",
@@ -9616,6 +10434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate the list of AdvObjects with \u003ccode\u003e\u003ca\u003eadvance\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advances",
           "package": "wumpus-basic",
@@ -9626,6 +10445,7 @@
         "index": {
           "description": "Concatenate the list of AdvObjects with advance",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advances",
           "normalized": "[AdvObject a b]-\u003eAdvObject a b",
@@ -9641,6 +10461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the supplied AdvObject, but swap the result advance\n for the supplied vector. This function has behaviour analogue \n to \u003ccode\u003efill\u003c/code\u003e in the \u003ccode\u003ewl-pprint\u003c/code\u003e library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advfill",
           "package": "wumpus-basic",
@@ -9651,6 +10472,7 @@
         "index": {
           "description": "Render the supplied AdvObject but swap the result advance for the supplied vector This function has behaviour analogue to fill in the wl-pprint library",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advfill",
           "normalized": "Vec a-\u003eAdvObject a b-\u003eAdvObject a b",
@@ -9666,6 +10488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat the AdvObject \u003ccode\u003en\u003c/code\u003e times, moving each time with \n \u003ccode\u003e\u003ca\u003eadvance\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advrepeat",
           "package": "wumpus-basic",
@@ -9676,6 +10499,7 @@
         "index": {
           "description": "Repeat the AdvObject times moving each time with advance",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advrepeat",
           "normalized": "Int-\u003eAdvObject a b-\u003eAdvObject a b",
@@ -9691,6 +10515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the AdvObjects using the answer vector of the \n first object plus the separator to move the start of the second\n object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advspace",
           "package": "wumpus-basic",
@@ -9701,6 +10526,7 @@
         "index": {
           "description": "Combine the AdvObjects using the answer vector of the first object plus the separator to move the start of the second object",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "advspace",
           "normalized": "Vec a-\u003eAdvObject a b-\u003eAdvObject a b-\u003eAdvObject a b",
@@ -9715,6 +10541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "blankAdvObject",
           "package": "wumpus-basic",
@@ -9724,6 +10551,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "blankAdvObject",
           "normalized": "Vec a-\u003eAdvObject a b",
@@ -9740,6 +10568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eemptyAdvObjectAU\u003c/code\u003e : \u003ccode\u003e AdvObject \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBuild an empty \u003ccode\u003e\u003ca\u003eAdvObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eemptyAdvObject\u003c/a\u003e\u003c/code\u003e is treated as a \u003cem\u003enull primitive\u003c/em\u003e by \n \u003ccode\u003eWumpus-Core\u003c/code\u003e and is not drawn, the answer vector generated is\n the zero vector \u003ccode\u003e(V2 0 0)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "emptyAdvObject",
           "package": "wumpus-basic",
@@ -9750,6 +10579,7 @@
         "index": {
           "description": "emptyAdvObjectAU AdvObject Build an empty AdvObject The emptyAdvObject is treated as null primitive by Wumpus-Core and is not drawn the answer vector generated is the zero vector V2",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "emptyAdvObject",
           "package": "wumpus-basic",
@@ -9764,6 +10594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003enextSpace\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "evenspace",
           "package": "wumpus-basic",
@@ -9774,6 +10605,7 @@
         "index": {
           "description": "List version of nextSpace",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "evenspace",
           "normalized": "Vec a-\u003e[AdvObject a b]-\u003eAdvObject a b",
@@ -9789,6 +10621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emakeAdvObject\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e loc_context_function * image -\u003e AdvObject \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBuild an \u003ccode\u003e\u003ca\u003eAdvObject\u003c/a\u003e\u003c/code\u003e from a context function (\u003ccode\u003eCF\u003c/code\u003e) that \n generates the answer displacement vector and a \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e \n that draws the \u003ccode\u003e\u003ca\u003eAdvObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "makeAdvObject",
           "package": "wumpus-basic",
@@ -9799,6 +10632,7 @@
         "index": {
           "description": "makeAdvObject loc context function image AdvObject Build an AdvObject from context function CF that generates the answer displacement vector and LocGraphic that draws the AdvObject",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "makeAdvObject",
           "normalized": "Query a(Vec a)-\u003eLocImage a b-\u003eAdvObject a b",
@@ -9815,6 +10649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate the list of AdvObjects, going next and adding\n the separator at each step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "punctuate",
           "package": "wumpus-basic",
@@ -9825,6 +10660,7 @@
         "index": {
           "description": "Concatenate the list of AdvObjects going next and adding the separator at each step",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "punctuate",
           "normalized": "AdvObject a b-\u003e[AdvObject a b]-\u003eAdvObject a b",
@@ -9840,6 +10676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning an AdvObject produces a LocImage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "runAdvObject",
           "package": "wumpus-basic",
@@ -9850,6 +10687,7 @@
         "index": {
           "description": "Running an AdvObject produces LocImage",
           "hierarchy": "Wumpus Basic Kernel Objects AdvObject",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.AdvObject",
           "name": "runAdvObject",
           "normalized": "AdvObject a b-\u003eLocImage a b",
@@ -9866,6 +10704,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnchor points on shapes, bounding boxes, etc.\n\u003c/p\u003e\u003cp\u003eAnchors are addressable positions, an examplary use is taking\n anchors on node shapes to get the in-bound and out-bound points \n for connectors in a network (graph) diagram.\n\u003c/p\u003e\u003cp\u003e** WARNING ** - the API here probably needs some more \n thought.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "Anchors",
           "package": "wumpus-basic",
@@ -9875,6 +10714,7 @@
         "index": {
           "description": "Anchor points on shapes bounding boxes etc Anchors are addressable positions an examplary use is taking anchors on node shapes to get the in-bound and out-bound points for connectors in network graph diagram WARNING the API here probably needs some more thought",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "Anchors",
           "package": "wumpus-basic",
@@ -9889,6 +10729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote an Anchor is just a Point2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "Anchor",
           "package": "wumpus-basic",
@@ -9898,6 +10739,7 @@
         "index": {
           "description": "Note an Anchor is just Point2",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "Anchor",
           "package": "wumpus-basic",
@@ -9912,6 +10754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApex of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "ApexAnchor",
           "package": "wumpus-basic",
@@ -9921,6 +10764,7 @@
         "index": {
           "description": "Apex of an object",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "ApexAnchor",
           "package": "wumpus-basic",
@@ -9935,6 +10779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnchors at the bottom left and right corners of a shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "BottomCornerAnchor",
           "package": "wumpus-basic",
@@ -9944,6 +10789,7 @@
         "index": {
           "description": "Anchors at the bottom left and right corners of shape",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "BottomCornerAnchor",
           "package": "wumpus-basic",
@@ -9958,6 +10804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCardinal (compass) positions on an object. \n\u003c/p\u003e\u003cp\u003eCardinal anchors should be at their equivalent radial position.\n However, some shapes may not be able to easily define radial \n positions or may be able to provide more efficient definitions \n for the cardinal anchors. Hence the redundancy seems justified. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "CardinalAnchor",
           "package": "wumpus-basic",
@@ -9967,6 +10814,7 @@
         "index": {
           "description": "Cardinal compass positions on an object Cardinal anchors should be at their equivalent radial position However some shapes may not be able to easily define radial positions or may be able to provide more efficient definitions for the cardinal anchors Hence the redundancy seems justified",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "CardinalAnchor",
           "package": "wumpus-basic",
@@ -9981,6 +10829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecondary group of cardinal (compass) positions on an object\n for the diagonal positions. \n\u003c/p\u003e\u003cp\u003eIt seems possible that for some objects defining the primary\n compass points (north, south,...) will be straight-forward \n whereas defining the secondary compass points may be \n problematic, hence the compass points are split into two \n classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "CardinalAnchor2",
           "package": "wumpus-basic",
@@ -9990,6 +10839,7 @@
         "index": {
           "description": "Secondary group of cardinal compass positions on an object for the diagonal positions It seems possible that for some objects defining the primary compass points north south will be straight-forward whereas defining the secondary compass points may be problematic hence the compass points are split into two classes",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "CardinalAnchor2",
           "package": "wumpus-basic",
@@ -10004,6 +10854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCenter of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "CenterAnchor",
           "package": "wumpus-basic",
@@ -10013,6 +10864,7 @@
         "index": {
           "description": "Center of an object",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "CenterAnchor",
           "package": "wumpus-basic",
@@ -10027,6 +10879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnchor on a border that can be addressed by an angle.\n\u003c/p\u003e\u003cp\u003eThe angle is counter-clockwise from the right-horizontal, i.e.\n 0 is \u003cem\u003eeast\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "RadialAnchor",
           "package": "wumpus-basic",
@@ -10036,6 +10889,7 @@
         "index": {
           "description": "Anchor on border that can be addressed by an angle The angle is counter-clockwise from the right-horizontal i.e is east",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "RadialAnchor",
           "package": "wumpus-basic",
@@ -10050,6 +10904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnchors in the center of a side.\n\u003c/p\u003e\u003cp\u003eSides are addressable by index. Following TikZ, side 1 is \n expected to be the top of the shape. If the shape has an apex \n instead of a side then side 1 is expected to be the first side \n left of the apex.\n\u003c/p\u003e\u003cp\u003eImplementations are also expected to modulo the side number, \n rather than throw an out-of-bounds error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "SideMidpointAnchor",
           "package": "wumpus-basic",
@@ -10059,6 +10914,7 @@
         "index": {
           "description": "Anchors in the center of side Sides are addressable by index Following TikZ side is expected to be the top of the shape If the shape has an apex instead of side then side is expected to be the first side left of the apex Implementations are also expected to modulo the side number rather than throw an out-of-bounds error",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "SideMidpointAnchor",
           "package": "wumpus-basic",
@@ -10073,6 +10929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnchors at the top left and right corners of a shape.\n\u003c/p\u003e\u003cp\u003eFor some shapes (Rectangle) the TikZ convention appears to be\n have cardinals as the corner anchors, but this doesn't seem\n to be uniform. Wumpus will need to reconsider anchors at some \n point...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "TopCornerAnchor",
           "package": "wumpus-basic",
@@ -10082,6 +10939,7 @@
         "index": {
           "description": "Anchors at the top left and right corners of shape For some shapes Rectangle the TikZ convention appears to be have cardinals as the corner anchors but this doesn seem to be uniform Wumpus will need to reconsider anchors at some point",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "TopCornerAnchor",
           "package": "wumpus-basic",
@@ -10095,6 +10953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "apex",
           "package": "wumpus-basic",
@@ -10104,6 +10963,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "apex",
           "normalized": "a-\u003eAnchor b",
@@ -10118,6 +10978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "bottomLeftCorner",
           "package": "wumpus-basic",
@@ -10127,6 +10988,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "bottomLeftCorner",
           "normalized": "a-\u003eAnchor b",
@@ -10142,6 +11004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "bottomRightCorner",
           "package": "wumpus-basic",
@@ -10151,6 +11014,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "bottomRightCorner",
           "normalized": "a-\u003eAnchor b",
@@ -10166,6 +11030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "center",
           "package": "wumpus-basic",
@@ -10175,6 +11040,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "center",
           "normalized": "a-\u003eAnchor b",
@@ -10189,6 +11055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "east",
           "package": "wumpus-basic",
@@ -10198,6 +11065,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "east",
           "normalized": "a-\u003eAnchor b",
@@ -10212,6 +11080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "north",
           "package": "wumpus-basic",
@@ -10221,6 +11090,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "north",
           "normalized": "a-\u003eAnchor b",
@@ -10235,6 +11105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "northeast",
           "package": "wumpus-basic",
@@ -10244,6 +11115,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "northeast",
           "normalized": "a-\u003eAnchor b",
@@ -10258,6 +11130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "northwest",
           "package": "wumpus-basic",
@@ -10267,6 +11140,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "northwest",
           "normalized": "a-\u003eAnchor b",
@@ -10282,6 +11156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eprojectAnchor\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e extract_func * dist * object -\u003e Point \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eDerive a anchor by projecting a line from the center of an \n object through the intermediate anchor (produced by the \n extraction function). The final answer point is located along\n the projected line at the supplied distance \u003ccode\u003edist\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eE.g. take the north of a rectangle and project it 10 units \n further on:\n\u003c/p\u003e\u003cpre\u003e projectAnchor north 10 my_rect\n\u003c/pre\u003e\u003cp\u003eIf the distance is zero the answer with be whatever point the \n the extraction function produces.\n\u003c/p\u003e\u003cp\u003eIf the distance is negative the answer will be along the \n projection line, between the center and the intermediate anchor.\n\u003c/p\u003e\u003cp\u003eIf the distance is positive the anchor will be extend outwards \n from the intermediate anchor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "projectAnchor",
           "package": "wumpus-basic",
@@ -10292,6 +11167,7 @@
         "index": {
           "description": "projectAnchor extract func dist object Point Derive anchor by projecting line from the center of an object through the intermediate anchor produced by the extraction function The final answer point is located along the projected line at the supplied distance dist E.g take the north of rectangle and project it units further on projectAnchor north my rect If the distance is zero the answer with be whatever point the the extraction function produces If the distance is negative the answer will be along the projection line between the center and the intermediate anchor If the distance is positive the anchor will be extend outwards from the intermediate anchor",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "projectAnchor",
           "normalized": "(a-\u003eAnchor b)-\u003eb-\u003ea-\u003eAnchor b",
@@ -10307,6 +11183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "radialAnchor",
           "package": "wumpus-basic",
@@ -10316,6 +11193,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "radialAnchor",
           "normalized": "a-\u003eAnchor b",
@@ -10332,6 +11210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eradialConnectorPoints\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e object_a * object_b -\u003e (Point_a, Point_b) \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eFind the radial connectors points for objects \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e along\n the line joining their centers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "radialConnectorPoints",
           "package": "wumpus-basic",
@@ -10342,6 +11221,7 @@
         "index": {
           "description": "radialConnectorPoints object object Point Point Find the radial connectors points for objects and along the line joining their centers",
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "radialConnectorPoints",
           "normalized": "a-\u003eb-\u003e(Point c,Point c)",
@@ -10357,6 +11237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "sideMidpoint",
           "package": "wumpus-basic",
@@ -10366,6 +11247,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "sideMidpoint",
           "normalized": "a-\u003eAnchor b",
@@ -10381,6 +11263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "south",
           "package": "wumpus-basic",
@@ -10390,6 +11273,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "south",
           "normalized": "a-\u003eAnchor b",
@@ -10404,6 +11288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "southeast",
           "package": "wumpus-basic",
@@ -10413,6 +11298,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "southeast",
           "normalized": "a-\u003eAnchor b",
@@ -10427,6 +11313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "southwest",
           "package": "wumpus-basic",
@@ -10436,6 +11323,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "southwest",
           "normalized": "a-\u003eAnchor b",
@@ -10450,6 +11338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "topLeftCorner",
           "package": "wumpus-basic",
@@ -10459,6 +11348,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "topLeftCorner",
           "normalized": "a-\u003eAnchor b",
@@ -10474,6 +11364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "topRightCorner",
           "package": "wumpus-basic",
@@ -10483,6 +11374,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "topRightCorner",
           "normalized": "a-\u003eAnchor b",
@@ -10498,6 +11390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "west",
           "package": "wumpus-basic",
@@ -10507,6 +11400,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Anchors",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Anchors",
           "name": "west",
           "normalized": "a-\u003eAnchor b",
@@ -10522,6 +11416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon types and operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "Basis",
           "package": "wumpus-basic",
@@ -10531,6 +11426,7 @@
         "index": {
           "description": "Common types and operations",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "Basis",
           "package": "wumpus-basic",
@@ -10545,6 +11441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecorate an object\n\u003c/p\u003e\u003cp\u003eoliterate - drops the graphic from the first object replacing \n it with the graphic from the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "Decorate",
           "package": "wumpus-basic",
@@ -10554,6 +11451,7 @@
         "index": {
           "description": "Decorate an object oliterate drops the graphic from the first object replacing it with the graphic from the second",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "Decorate",
           "package": "wumpus-basic",
@@ -10567,6 +11465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "PrimResult",
           "package": "wumpus-basic",
@@ -10575,6 +11474,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "PrimResult",
           "package": "wumpus-basic",
@@ -10588,6 +11488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "UConvert",
           "package": "wumpus-basic",
@@ -10596,6 +11497,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "UConvert",
           "package": "wumpus-basic",
@@ -10610,6 +11512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould be read as \u003ccode\u003e decorate (above|below) A with B \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "decorate",
           "package": "wumpus-basic",
@@ -10620,6 +11523,7 @@
         "index": {
           "description": "Should be read as decorate above below with",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "decorate",
           "normalized": "ZOrder-\u003ea b c-\u003ea b d-\u003ea b c",
@@ -10635,6 +11539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecorate (ABOVE) a with b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "decorateAbove",
           "package": "wumpus-basic",
@@ -10645,6 +11550,7 @@
         "index": {
           "description": "Decorate ABOVE with",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "decorateAbove",
           "normalized": "a b c-\u003ea b d-\u003ea b c",
@@ -10661,6 +11567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecorate (BELOW) a with b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "decorateBelow",
           "package": "wumpus-basic",
@@ -10671,6 +11578,7 @@
         "index": {
           "description": "Decorate BELOW with",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "decorateBelow",
           "normalized": "a b c-\u003ea b d-\u003ea b c",
@@ -10686,6 +11594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "elaborate",
           "package": "wumpus-basic",
@@ -10695,6 +11604,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "elaborate",
           "normalized": "ZOrder-\u003ea b c-\u003e(c-\u003ea b d)-\u003ea b c",
@@ -10710,6 +11620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElaborate (ABOVE) a with b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "elaborateAbove",
           "package": "wumpus-basic",
@@ -10720,6 +11631,7 @@
         "index": {
           "description": "Elaborate ABOVE with",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "elaborateAbove",
           "normalized": "a b c-\u003e(c-\u003ea b d)-\u003ea b c",
@@ -10736,6 +11648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElaborate (BELOW) a with b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "elaborateBelow",
           "package": "wumpus-basic",
@@ -10746,6 +11659,7 @@
         "index": {
           "description": "Elaborate BELOW with",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "elaborateBelow",
           "normalized": "a b c-\u003e(c-\u003ea b d)-\u003ea b c",
@@ -10761,6 +11675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "hyperlink",
           "package": "wumpus-basic",
@@ -10770,6 +11685,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "hyperlink",
           "normalized": "XLink-\u003ea b c-\u003ea b c",
@@ -10785,6 +11701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - the kind of f allows fo unit annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "ignoreAns",
           "package": "wumpus-basic",
@@ -10795,6 +11712,7 @@
         "index": {
           "description": "Note the kind of allows fo unit annotation",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "ignoreAns",
           "normalized": "a b c-\u003ea b(UNil b)",
@@ -10810,6 +11728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "obliterate",
           "package": "wumpus-basic",
@@ -10819,6 +11738,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "obliterate",
           "normalized": "a b c-\u003ea b c",
@@ -10834,6 +11754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the answer produced by a graphic object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "replaceAns",
           "package": "wumpus-basic",
@@ -10844,6 +11765,7 @@
         "index": {
           "description": "Replace the answer produced by graphic object",
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "replaceAns",
           "normalized": "a-\u003eb c d-\u003eb c a",
@@ -10859,6 +11781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "svgAnnotate",
           "package": "wumpus-basic",
@@ -10868,6 +11791,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "svgAnnotate",
           "normalized": "[SvgAttr]-\u003ea b c-\u003ea b c",
@@ -10883,6 +11807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "svgId",
           "package": "wumpus-basic",
@@ -10892,6 +11817,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "svgId",
           "normalized": "String-\u003ea b c-\u003ea b c",
@@ -10907,6 +11833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "uconvF",
           "package": "wumpus-basic",
@@ -10916,6 +11843,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "uconvF",
           "normalized": "a b(c b)-\u003ea b(c b)",
@@ -10930,6 +11858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "uconvZ",
           "package": "wumpus-basic",
@@ -10939,6 +11868,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Basis",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Basis",
           "name": "uconvZ",
           "normalized": "a b c-\u003ea b c",
@@ -10954,6 +11884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelpers for working with Images and LocImages that produce\n bounding boxes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "Bounded",
           "package": "wumpus-basic",
@@ -10963,6 +11894,7 @@
         "index": {
           "description": "Helpers for working with Images and LocImages that produce bounding boxes",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "Bounded",
           "package": "wumpus-basic",
@@ -10976,6 +11908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "BoundedGraphic",
           "package": "wumpus-basic",
@@ -10984,6 +11917,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "BoundedGraphic",
           "package": "wumpus-basic",
@@ -10997,6 +11931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "BoundedLocGraphic",
           "package": "wumpus-basic",
@@ -11005,6 +11940,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "BoundedLocGraphic",
           "package": "wumpus-basic",
@@ -11018,6 +11954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "BoundedLocThetaGraphic",
           "package": "wumpus-basic",
@@ -11026,6 +11963,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "BoundedLocThetaGraphic",
           "package": "wumpus-basic",
@@ -11040,6 +11978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a bounding box as a stroked rectangle with \n dotted lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "bbrectangle",
           "package": "wumpus-basic",
@@ -11050,6 +11989,7 @@
         "index": {
           "description": "Draw bounding box as stroked rectangle with dotted lines",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "bbrectangle",
           "normalized": "BoundingBox a-\u003eGraphic a",
@@ -11065,6 +12005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eboundedRect\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e style * width * height -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a stroked rectangle - the implicit start point is \n \u003cem\u003ebottom-left\u003c/em\u003e, return the bounding box of the rectangle as the \n answer.\n\u003c/p\u003e\u003cp\u003eThe line properties (colour, pen thickness, etc.) are taken \n from the implicit \u003ccode\u003e\u003ca\u003eDrawingContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "boundedRect",
           "package": "wumpus-basic",
@@ -11075,6 +12016,7 @@
         "index": {
           "description": "boundedRect style width height LocGraphic Create stroked rectangle the implicit start point is bottom-left return the bounding box of the rectangle as the answer The line properties colour pen thickness etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "boundedRect",
           "normalized": "DrawMode-\u003ea-\u003ea-\u003eBoundedLocGraphic a",
@@ -11091,6 +12033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecenterOrthoBBox\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e theta * bbox -\u003e BBox \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eRotate a bounding box by \u003ccode\u003etheta\u003c/code\u003e about its center. Take the \n new bounding box.\n\u003c/p\u003e\u003cp\u003eRemember that bounding boxes are always orthonormal rectangles,\n so the dimensions as well as the positions may change under \n rotation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "centerOrthoBBox",
           "package": "wumpus-basic",
@@ -11101,6 +12044,7 @@
         "index": {
           "description": "centerOrthoBBox theta bbox BBox Rotate bounding box by theta about its center Take the new bounding box Remember that bounding boxes are always orthonormal rectangles so the dimensions as well as the positions may change under rotation",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "centerOrthoBBox",
           "normalized": "Radian-\u003eBoundingBox a-\u003eBoundingBox a",
@@ -11117,6 +12061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an empty \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e returning a bounding box.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eemptyBoundedLocGraphic\u003c/a\u003e\u003c/code\u003e is treated as a \u003cem\u003enull primitive\u003c/em\u003e \n by \u003ccode\u003eWumpus-Core\u003c/code\u003e and is not drawn, although it does generate\n the minimum bounding box with both the bottom-left and \n upper-right corners at the implicit start point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "emptyBoundedLocGraphic",
           "package": "wumpus-basic",
@@ -11127,6 +12072,7 @@
         "index": {
           "description": "Build an empty LocGraphic returning bounding box The emptyBoundedLocGraphic is treated as null primitive by Wumpus-Core and is not drawn although it does generate the minimum bounding box with both the bottom-left and upper-right corners at the implicit start point",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "emptyBoundedLocGraphic",
           "package": "wumpus-basic",
@@ -11141,6 +12087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an empty \u003ccode\u003e\u003ca\u003eLocThetaGraphic\u003c/a\u003e\u003c/code\u003e returning a bounding box.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eemptyBoundedLocThetaGraphic\u003c/a\u003e\u003c/code\u003e is treated as a \n \u003cem\u003enull primitive\u003c/em\u003e  by \u003ccode\u003eWumpus-Core\u003c/code\u003e and is not drawn, although \n it does generate the minimum bounding box with both the \n bottom-left and upper-right corners at the implicit start point \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "emptyBoundedLocThetaGraphic",
           "package": "wumpus-basic",
@@ -11151,6 +12098,7 @@
         "index": {
           "description": "Build an empty LocThetaGraphic returning bounding box The emptyBoundedLocThetaGraphic is treated as null primitive by Wumpus-Core and is not drawn although it does generate the minimum bounding box with both the bottom-left and upper-right corners at the implicit start point",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "emptyBoundedLocThetaGraphic",
           "package": "wumpus-basic",
@@ -11165,6 +12113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a BoundedGraphic, illustrating the bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "illustrateBoundedGraphic",
           "package": "wumpus-basic",
@@ -11175,6 +12124,7 @@
         "index": {
           "description": "Draw BoundedGraphic illustrating the bounding box",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "illustrateBoundedGraphic",
           "normalized": "Image a(BoundingBox a)-\u003eImage a(BoundingBox a)",
@@ -11191,6 +12141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a BoundedLocGraphic, illustrating the bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "illustrateBoundedLocGraphic",
           "package": "wumpus-basic",
@@ -11201,6 +12152,7 @@
         "index": {
           "description": "Draw BoundedLocGraphic illustrating the bounding box",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "illustrateBoundedLocGraphic",
           "normalized": "LocImage a(BoundingBox a)-\u003eLocImage a(BoundingBox a)",
@@ -11217,6 +12169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a BoundedLocThetaGraphic, illustrating the bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "illustrateBoundedLocThetaGraphic",
           "package": "wumpus-basic",
@@ -11227,6 +12180,7 @@
         "index": {
           "description": "Draw BoundedLocThetaGraphic illustrating the bounding box",
           "hierarchy": "Wumpus Basic Kernel Objects Bounded",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Bounded",
           "name": "illustrateBoundedLocThetaGraphic",
           "normalized": "LocThetaImage a(BoundingBox a)-\u003eLocThetaImage a(BoundingBox a)",
@@ -11243,6 +12197,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClasses for concatenation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "Concat",
           "package": "wumpus-basic",
@@ -11252,6 +12207,7 @@
         "index": {
           "description": "Classes for concatenation",
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "Concat",
           "package": "wumpus-basic",
@@ -11265,6 +12221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "Align",
           "package": "wumpus-basic",
@@ -11273,6 +12230,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "Align",
           "package": "wumpus-basic",
@@ -11286,6 +12244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "AlignSpace",
           "package": "wumpus-basic",
@@ -11294,6 +12253,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "AlignSpace",
           "package": "wumpus-basic",
@@ -11307,6 +12267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "CatSpace",
           "package": "wumpus-basic",
@@ -11315,6 +12276,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "CatSpace",
           "package": "wumpus-basic",
@@ -11329,6 +12291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation with \u003cem\u003emovement\u003c/em\u003e - the second object is moved\n next to the first.\n\u003c/p\u003e\u003cpre\u003e hconcat is equivalent to @(\u003c\u003e)@ in WL-PPrint.\n (infixr 6)\n\u003c/pre\u003e\u003cpre\u003e vconcat is equivalent to @(\u003c$\u003e)@ in WL_PPrint.\n (infixr 5)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "Concat",
           "package": "wumpus-basic",
@@ -11338,6 +12301,7 @@
         "index": {
           "description": "Concatenation with movement the second object is moved next to the first hconcat is equivalent to in WL-PPrint infixr vconcat is equivalent to in WL PPrint infixr",
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "Concat",
           "package": "wumpus-basic",
@@ -11352,6 +12316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal defintion is \u003ccode\u003e\u003ca\u003esuperior\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eanterior\u003c/a\u003e\u003c/code\u003e is usually \n \u003ccode\u003eflip superior\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e `superior` (infixr 6)\n\u003c/pre\u003e\u003cpre\u003e `anterior` (infixr 6)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "ZConcat",
           "package": "wumpus-basic",
@@ -11361,6 +12326,7 @@
         "index": {
           "description": "Minimal defintion is superior anterior is usually flip superior superior infixr anterior infixr",
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "ZConcat",
           "package": "wumpus-basic",
@@ -11374,6 +12340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "alignColumn",
           "package": "wumpus-basic",
@@ -11383,6 +12350,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "alignColumn",
           "normalized": "VAlign-\u003e[a]-\u003ea",
@@ -11398,6 +12366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "alignColumnSep",
           "package": "wumpus-basic",
@@ -11407,6 +12376,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "alignColumnSep",
           "normalized": "VAlign-\u003ea-\u003e[b]-\u003eb",
@@ -11422,6 +12392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "alignRow",
           "package": "wumpus-basic",
@@ -11431,6 +12402,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "alignRow",
           "normalized": "HAlign-\u003e[a]-\u003ea",
@@ -11446,6 +12418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "alignRowSep",
           "package": "wumpus-basic",
@@ -11455,6 +12428,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "alignRowSep",
           "normalized": "HAlign-\u003ea-\u003e[b]-\u003eb",
@@ -11470,6 +12444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "anterior",
           "package": "wumpus-basic",
@@ -11479,6 +12454,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "anterior",
           "normalized": "a-\u003ea-\u003ea",
@@ -11493,6 +12469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "cat",
           "package": "wumpus-basic",
@@ -11502,6 +12479,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "cat",
           "normalized": "[a]-\u003ea",
@@ -11516,6 +12494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "halign",
           "package": "wumpus-basic",
@@ -11525,6 +12504,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "halign",
           "normalized": "HAlign-\u003ea-\u003ea-\u003ea",
@@ -11539,6 +12519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "halignSpace",
           "package": "wumpus-basic",
@@ -11548,6 +12529,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "halignSpace",
           "normalized": "HAlign-\u003ea-\u003eb-\u003eb-\u003eb",
@@ -11564,6 +12546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontally concatenate a list of objects.\n\u003c/p\u003e\u003cp\u003eNote - the first argument is an \u003cem\u003ealternative\u003c/em\u003e - this is drawn \n if the list is empty, otherwise it is not drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "hcat",
           "package": "wumpus-basic",
@@ -11574,6 +12557,7 @@
         "index": {
           "description": "Horizontally concatenate list of objects Note the first argument is an alternative this is drawn if the list is empty otherwise it is not drawn",
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "hcat",
           "normalized": "[a]-\u003ea",
@@ -11588,6 +12572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "hconcat",
           "package": "wumpus-basic",
@@ -11597,6 +12582,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "hconcat",
           "normalized": "a-\u003ea-\u003ea",
@@ -11611,6 +12597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "hsep",
           "package": "wumpus-basic",
@@ -11620,6 +12607,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "hsep",
           "normalized": "a-\u003e[b]-\u003eb",
@@ -11634,6 +12622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "hspace",
           "package": "wumpus-basic",
@@ -11643,6 +12632,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "hspace",
           "normalized": "a-\u003eb-\u003eb-\u003eb",
@@ -11657,6 +12647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "superior",
           "package": "wumpus-basic",
@@ -11666,6 +12657,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "superior",
           "normalized": "a-\u003ea-\u003ea",
@@ -11680,6 +12672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "valign",
           "package": "wumpus-basic",
@@ -11689,6 +12682,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "valign",
           "normalized": "VAlign-\u003ea-\u003ea-\u003ea",
@@ -11703,6 +12697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "valignSpace",
           "package": "wumpus-basic",
@@ -11712,6 +12707,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "valignSpace",
           "normalized": "VAlign-\u003ea-\u003eb-\u003eb-\u003eb",
@@ -11728,6 +12724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertically concatenate a list of objects.\n\u003c/p\u003e\u003cp\u003eNote - the first argument is an \u003cem\u003ealternative\u003c/em\u003e - this is drawn \n if the list is empty, otherwise it is not drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "vcat",
           "package": "wumpus-basic",
@@ -11738,6 +12735,7 @@
         "index": {
           "description": "Vertically concatenate list of objects Note the first argument is an alternative this is drawn if the list is empty otherwise it is not drawn",
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "vcat",
           "normalized": "[a]-\u003ea",
@@ -11752,6 +12750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "vconcat",
           "package": "wumpus-basic",
@@ -11761,6 +12760,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "vconcat",
           "normalized": "a-\u003ea-\u003ea",
@@ -11775,6 +12775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "vsep",
           "package": "wumpus-basic",
@@ -11784,6 +12785,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "vsep",
           "normalized": "a-\u003e[b]-\u003eb",
@@ -11798,6 +12800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "vspace",
           "package": "wumpus-basic",
@@ -11807,6 +12810,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Concat",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Concat",
           "name": "vspace",
           "normalized": "a-\u003eb-\u003eb-\u003eb",
@@ -11822,6 +12826,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConnImage and ConnGraphic types - these are functional types\n from the DrawingContext plus start point and end point to a \n graphic \u003cem\u003eprimitive\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "Connector",
           "package": "wumpus-basic",
@@ -11831,6 +12836,7 @@
         "index": {
           "description": "ConnImage and ConnGraphic types these are functional types from the DrawingContext plus start point and end point to graphic primitive",
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "Connector",
           "package": "wumpus-basic",
@@ -11844,6 +12850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "ConnectorGraphic",
           "package": "wumpus-basic",
@@ -11852,6 +12859,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "ConnectorGraphic",
           "package": "wumpus-basic",
@@ -11866,6 +12874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnectorImage - function from DrawingContext and start and \n end points to a polymorphic \u003cem\u003eanswer\u003c/em\u003e and a graphic \u003cem\u003eprimitive\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "ConnectorImage",
           "package": "wumpus-basic",
@@ -11875,6 +12884,7 @@
         "index": {
           "description": "ConnectorImage function from DrawingContext and start and end points to polymorphic answer and graphic primitive",
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "ConnectorImage",
           "package": "wumpus-basic",
@@ -11888,6 +12898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "ConnectorQuery",
           "package": "wumpus-basic",
@@ -11896,6 +12907,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "ConnectorQuery",
           "package": "wumpus-basic",
@@ -11910,6 +12922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialized version of \u003ccode\u003e\u003ca\u003eConnectorGraphic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "DConnectorGraphic",
           "package": "wumpus-basic",
@@ -11919,6 +12932,7 @@
         "index": {
           "description": "Type specialized version of ConnectorGraphic",
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "DConnectorGraphic",
           "package": "wumpus-basic",
@@ -11933,6 +12947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialized version of \u003ccode\u003e\u003ca\u003eConnectorImage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "DConnectorImage",
           "package": "wumpus-basic",
@@ -11942,6 +12957,7 @@
         "index": {
           "description": "Type specialized version of ConnectorImage",
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "DConnectorImage",
           "package": "wumpus-basic",
@@ -11955,6 +12971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "applyConn",
           "package": "wumpus-basic",
@@ -11964,6 +12981,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "applyConn",
           "normalized": "ConnectorImage a b-\u003ePoint a-\u003ePoint a-\u003eImage a b",
@@ -11979,6 +12997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "connect",
           "package": "wumpus-basic",
@@ -11988,6 +13007,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "connect",
           "normalized": "ConnectorImage a b-\u003ePoint a-\u003ePoint a-\u003eImage a b",
@@ -12003,6 +13023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaving \u003cem\u003eempty\u003c/em\u003e at the specific \u003ccode\u003e\u003ca\u003eConnectorImage\u003c/a\u003e\u003c/code\u003e type is useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "emptyConnectorImage",
           "package": "wumpus-basic",
@@ -12013,6 +13034,7 @@
         "index": {
           "description": "Having empty at the specific ConnectorImage type is useful",
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "emptyConnectorImage",
           "package": "wumpus-basic",
@@ -12026,6 +13048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "liftConnectorQuery",
           "package": "wumpus-basic",
@@ -12035,6 +13058,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "liftConnectorQuery",
           "normalized": "ConnectorQuery a b-\u003eConnectorImage a b",
@@ -12050,6 +13074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "promoteConn",
           "package": "wumpus-basic",
@@ -12059,6 +13084,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "promoteConn",
           "normalized": "(Point a-\u003ePoint a-\u003eImage a b)-\u003eConnectorImage a b",
@@ -12074,6 +13100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "qapplyConn",
           "package": "wumpus-basic",
@@ -12083,6 +13110,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "qapplyConn",
           "normalized": "ConnectorQuery a b-\u003ePoint a-\u003ePoint a-\u003eQuery a b",
@@ -12098,6 +13126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "qpromoteConn",
           "package": "wumpus-basic",
@@ -12107,6 +13136,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "qpromoteConn",
           "normalized": "(Point a-\u003ePoint a-\u003eQuery a b)-\u003eConnectorQuery a b",
@@ -12122,6 +13152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "runConnectorImage",
           "package": "wumpus-basic",
@@ -12131,6 +13162,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "runConnectorImage",
           "normalized": "DrawingContext-\u003ePoint a-\u003ePoint a-\u003eConnectorImage a b-\u003ePrimResult a b",
@@ -12146,6 +13178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "runConnectorQuery",
           "package": "wumpus-basic",
@@ -12155,6 +13188,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "runConnectorQuery",
           "normalized": "DrawingContext-\u003ePoint a-\u003ePoint a-\u003eConnectorQuery a b-\u003eb",
@@ -12170,6 +13204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "stripConnectorImage",
           "package": "wumpus-basic",
@@ -12179,6 +13214,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Connector",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Connector",
           "name": "stripConnectorImage",
           "normalized": "ConnectorImage a b-\u003eConnectorQuery a b",
@@ -12195,6 +13231,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplacing points - often start points. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "Displacement",
           "package": "wumpus-basic",
@@ -12204,6 +13241,7 @@
         "index": {
           "description": "Displacing points often start points",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "Displacement",
           "package": "wumpus-basic",
@@ -12218,6 +13256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePointDisplace\u003c/a\u003e\u003c/code\u003e is a type representing functions \n \u003ccode\u003efrom Point to Point\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt is especially useful for building composite graphics where \n one part of the graphic is drawn from a different start point \n to the other part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "PointDisplace",
           "package": "wumpus-basic",
@@ -12227,6 +13266,7 @@
         "index": {
           "description": "PointDisplace is type representing functions from Point to Point It is especially useful for building composite graphics where one part of the graphic is drawn from different start point to the other part",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "PointDisplace",
           "package": "wumpus-basic",
@@ -12241,6 +13281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eThetaPointDisplace\u003c/a\u003e\u003c/code\u003e is a type representing functions \n \u003ccode\u003efrom Radian * Point to Point\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt is useful for building arrowheads which are constructed \n with an implicit angle representing the direction of the line \n at the arrow tip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "ThetaPointDisplace",
           "package": "wumpus-basic",
@@ -12250,6 +13291,7 @@
         "index": {
           "description": "ThetaPointDisplace is type representing functions from Radian Point to Point It is useful for building arrowheads which are constructed with an implicit angle representing the direction of the line at the arrow tip",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "ThetaPointDisplace",
           "package": "wumpus-basic",
@@ -12264,6 +13306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eAngular\u003c/em\u003e version of \u003ccode\u003edispCardinal\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe displacement direction is with respect to implicit angle\n of inclination, so:\n\u003c/p\u003e\u003cpre\u003e north == perpendicular\n east  == parallel\n south == perdendicular . negate\n etc.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispCardinalTheta",
           "package": "wumpus-basic",
@@ -12274,6 +13317,7 @@
         "index": {
           "description": "Angular version of dispCardinal The displacement direction is with respect to implicit angle of inclination so north perpendicular east parallel south perdendicular negate etc",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispCardinalTheta",
           "normalized": "Cardinal-\u003ea-\u003eThetaPointDisplace a",
@@ -12290,6 +13334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eAngular\u003c/em\u003e version of \u003ccode\u003edispDirection\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eThe displacement direction is with respect to implicit angle\n of inclination, so:\n\u003c/p\u003e\u003cpre\u003e up    == perpendicular\n down  == perdendicular . negate\n left  == parallel . negate\n right == parallel\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispDirectionTheta",
           "package": "wumpus-basic",
@@ -12300,6 +13345,7 @@
         "index": {
           "description": "Angular version of dispDirection The displacement direction is with respect to implicit angle of inclination so up perpendicular down perdendicular negate left parallel negate right parallel",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispDirectionTheta",
           "normalized": "Direction-\u003ea-\u003eThetaPointDisplace a",
@@ -12316,6 +13362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edispOrtho\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e vec -\u003e ThetaPointDisplace \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis is a combination of \u003ccode\u003edisplaceParallel\u003c/code\u003e and \n \u003ccode\u003edisplacePerpendicular\u003c/code\u003e, with the x component of the vector\n displaced in parallel and the y component displaced\n perpendicular. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispOrtho",
           "package": "wumpus-basic",
@@ -12326,6 +13373,7 @@
         "index": {
           "description": "dispOrtho vec ThetaPointDisplace This is combination of displaceParallel and displacePerpendicular with the component of the vector displaced in parallel and the component displaced perpendicular",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispOrtho",
           "normalized": "a-\u003ea-\u003eThetaPointDisplace a",
@@ -12342,6 +13390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edispParallel\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e dist -\u003e ThetaPointDisplace \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBuild a combinator to move \u003ccode\u003ePoints\u003c/code\u003e in parallel to the \n direction of the implicit angle by the supplied distance \n \u003ccode\u003edist\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispParallel",
           "package": "wumpus-basic",
@@ -12352,6 +13401,7 @@
         "index": {
           "description": "dispParallel dist ThetaPointDisplace Build combinator to move Points in parallel to the direction of the implicit angle by the supplied distance dist",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispParallel",
           "normalized": "a-\u003eThetaPointDisplace a",
@@ -12368,6 +13418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edispParallel\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e dist -\u003e ThetaPointDisplace \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eBuild a combinator to move \u003ccode\u003ePoints\u003c/code\u003e perpendicular to the \n inclnation of the implicit angle by the supplied distance \n \u003ccode\u003edist\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispPerpendicular",
           "package": "wumpus-basic",
@@ -12378,6 +13429,7 @@
         "index": {
           "description": "dispParallel dist ThetaPointDisplace Build combinator to move Points perpendicular to the inclnation of the implicit angle by the supplied distance dist",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "dispPerpendicular",
           "normalized": "a-\u003eThetaPointDisplace a",
@@ -12394,6 +13446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edisplace\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e Vec2 -\u003e PointDisplace \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eAlias for \u003ccode\u003e.+^\u003c/code\u003e from \u003ccode\u003eData.AffineSpace\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "displace",
           "package": "wumpus-basic",
@@ -12404,6 +13457,7 @@
         "index": {
           "description": "displace Vec2 PointDisplace Alias for from Data.AffineSpace",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "displace",
           "normalized": "Vec a-\u003ePointDisplace a",
@@ -12418,6 +13472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_down",
           "package": "wumpus-basic",
@@ -12427,6 +13482,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_down",
           "normalized": "a-\u003eVec a",
@@ -12441,6 +13497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_down_left",
           "package": "wumpus-basic",
@@ -12450,6 +13507,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_down_left",
           "normalized": "a-\u003eVec a",
@@ -12464,6 +13522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_down_right",
           "package": "wumpus-basic",
@@ -12473,6 +13532,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_down_right",
           "normalized": "a-\u003eVec a",
@@ -12487,6 +13547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_east",
           "package": "wumpus-basic",
@@ -12496,6 +13557,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_east",
           "normalized": "a-\u003eVec a",
@@ -12510,6 +13572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_left",
           "package": "wumpus-basic",
@@ -12519,6 +13582,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_left",
           "normalized": "a-\u003eVec a",
@@ -12533,6 +13597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_north",
           "package": "wumpus-basic",
@@ -12542,6 +13607,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_north",
           "normalized": "a-\u003eVec a",
@@ -12556,6 +13622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_north_east",
           "package": "wumpus-basic",
@@ -12565,6 +13632,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_north_east",
           "normalized": "a-\u003eVec a",
@@ -12579,6 +13647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_north_west",
           "package": "wumpus-basic",
@@ -12588,6 +13657,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_north_west",
           "normalized": "a-\u003eVec a",
@@ -12602,6 +13672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_right",
           "package": "wumpus-basic",
@@ -12611,6 +13682,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_right",
           "normalized": "a-\u003eVec a",
@@ -12625,6 +13697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_south",
           "package": "wumpus-basic",
@@ -12634,6 +13707,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_south",
           "normalized": "a-\u003eVec a",
@@ -12648,6 +13722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_south_east",
           "package": "wumpus-basic",
@@ -12657,6 +13732,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_south_east",
           "normalized": "a-\u003eVec a",
@@ -12671,6 +13747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_south_west",
           "package": "wumpus-basic",
@@ -12680,6 +13757,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_south_west",
           "normalized": "a-\u003eVec a",
@@ -12694,6 +13772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_up",
           "package": "wumpus-basic",
@@ -12703,6 +13782,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_up",
           "normalized": "a-\u003eVec a",
@@ -12717,6 +13797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_up_left",
           "package": "wumpus-basic",
@@ -12726,6 +13807,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_up_left",
           "normalized": "a-\u003eVec a",
@@ -12740,6 +13822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_up_right",
           "package": "wumpus-basic",
@@ -12749,6 +13832,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_up_right",
           "normalized": "a-\u003eVec a",
@@ -12763,6 +13847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_west",
           "package": "wumpus-basic",
@@ -12772,6 +13857,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "go_west",
           "normalized": "a-\u003eVec a",
@@ -12787,6 +13873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003ea-o\u003c/code\u003e when supplied length of \u003ccode\u003eb-o\u003c/code\u003e and the grazing \n angle \u003ccode\u003eboa\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e    a\n    .\\\n    . \\\n  ..b..o\n\u003c/pre\u003e\u003cp\u003eThis is useful for building arrowhead vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_adj_grazing",
           "package": "wumpus-basic",
@@ -12797,6 +13884,7 @@
         "index": {
           "description": "Return a-o when supplied length of b-o and the grazing angle boa b..o This is useful for building arrowhead vectors",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_adj_grazing",
           "normalized": "a-\u003eRadian-\u003eRadian-\u003eVec a",
@@ -12812,6 +13900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003eo-c\u003c/code\u003e when supplied length of \u003ccode\u003eb-o\u003c/code\u003e and the grazing \n angle \u003ccode\u003eboc\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e  ..b..o\n    . /\n    ./\n    c\n\u003c/pre\u003e\u003cp\u003eThis is useful for building arrowhead vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_bkwd_adj_grazing",
           "package": "wumpus-basic",
@@ -12822,6 +13911,7 @@
         "index": {
           "description": "Return o-c when supplied length of b-o and the grazing angle boc b..o This is useful for building arrowhead vectors",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_bkwd_adj_grazing",
           "normalized": "a-\u003eRadian-\u003eRadian-\u003eVec a",
@@ -12836,6 +13926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_down",
           "package": "wumpus-basic",
@@ -12845,6 +13936,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_down",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -12859,6 +13951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_down_left",
           "package": "wumpus-basic",
@@ -12868,6 +13961,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_down_left",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -12882,6 +13976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_down_right",
           "package": "wumpus-basic",
@@ -12891,6 +13986,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_down_right",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -12905,6 +14001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_east",
           "package": "wumpus-basic",
@@ -12914,6 +14011,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_east",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -12929,6 +14027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel (reverse)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_left",
           "package": "wumpus-basic",
@@ -12939,6 +14038,7 @@
         "index": {
           "description": "Parallel reverse",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_left",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -12953,6 +14053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_north",
           "package": "wumpus-basic",
@@ -12962,6 +14063,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_north",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -12976,6 +14078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_north_east",
           "package": "wumpus-basic",
@@ -12985,6 +14088,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_north_east",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -12999,6 +14103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_north_west",
           "package": "wumpus-basic",
@@ -13008,6 +14113,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_north_west",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13023,6 +14129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel (forward)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_right",
           "package": "wumpus-basic",
@@ -13033,6 +14140,7 @@
         "index": {
           "description": "Parallel forward",
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_right",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13047,6 +14155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_south",
           "package": "wumpus-basic",
@@ -13056,6 +14165,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_south",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13070,6 +14180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_south_east",
           "package": "wumpus-basic",
@@ -13079,6 +14190,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_south_east",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13093,6 +14205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_south_west",
           "package": "wumpus-basic",
@@ -13102,6 +14215,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_south_west",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13116,6 +14230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_up",
           "package": "wumpus-basic",
@@ -13125,6 +14240,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_up",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13139,6 +14255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_up_left",
           "package": "wumpus-basic",
@@ -13148,6 +14265,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_up_left",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13162,6 +14280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_up_right",
           "package": "wumpus-basic",
@@ -13171,6 +14290,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_up_right",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13185,6 +14305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_west",
           "package": "wumpus-basic",
@@ -13194,6 +14315,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Displacement",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Displacement",
           "name": "theta_west",
           "normalized": "a-\u003eRadian-\u003eVec a",
@@ -13209,6 +14331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive drawings - text, paths, lines, rectangles, disks, \n ellipses...\n\u003c/p\u003e\u003cp\u003eAll the primitives take their drawing properties (colour, line \n width, etc.) from the DrawingContext.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "DrawingPrimitives",
           "package": "wumpus-basic",
@@ -13218,6 +14341,7 @@
         "index": {
           "description": "Primitive drawings text paths lines rectangles disks ellipses All the primitives take their drawing properties colour line width etc from the DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "DrawingPrimitives",
           "package": "wumpus-basic",
@@ -13232,6 +14356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecurvePP\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e (Point ~\u003e PrimPath) \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a path made of curve segments joining the \n supplied points.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003e\u003ca\u003ecurvedPrimPath\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eWumpus-Core\u003c/code\u003e, but \n it is polymorphic on unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "curvePP",
           "package": "wumpus-basic",
@@ -13242,6 +14367,7 @@
         "index": {
           "description": "curvePP Point PrimPath Create path made of curve segments joining the supplied points This is the analogue to curvedPrimPath in Wumpus-Core but it is polymorphic on unit",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "curvePP",
           "normalized": "[Point a]-\u003eQuery a PrimPath",
@@ -13258,6 +14384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecurveLine\u003c/code\u003e : \u003ccode\u003e start_point * control_point1 * \n        control_point2 * end_point -\u003e Graphic \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eCreate a Bezier curve \u003ccode\u003e\u003ca\u003eGraphic\u003c/a\u003e\u003c/code\u003e, all control points are \n supplied explicitly.\n\u003c/p\u003e\u003cp\u003eThe line properties (colour, pen thickness, etc.) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "curvedLine",
           "package": "wumpus-basic",
@@ -13268,6 +14395,7 @@
         "index": {
           "description": "curveLine start point control point1 control point2 end point Graphic Create Bezier curve Graphic all control points are supplied explicitly The line properties colour pen thickness etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "curvedLine",
           "normalized": "Point a-\u003ePoint a-\u003ePoint a-\u003ePoint a-\u003eGraphic a",
@@ -13284,6 +14412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edcArc : radius * apex_angle\n\u003c/p\u003e\u003cp\u003eAlways open-stroked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcArc",
           "package": "wumpus-basic",
@@ -13294,6 +14423,7 @@
         "index": {
           "description": "dcArc radius apex angle Always open-stroked",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcArc",
           "normalized": "a-\u003eRadian-\u003eLocThetaGraphic a",
@@ -13310,6 +14440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcCircle\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e DrawStyle * radius -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a circle \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - the implicit point is \n center. The circle is drawn with four Bezier curves. \n\u003c/p\u003e\u003cp\u003eThe respective line or fill properties for the \u003ccode\u003eDrawStyle\u003c/code\u003e are \n taken from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcCircle",
           "package": "wumpus-basic",
@@ -13320,6 +14451,7 @@
         "index": {
           "description": "dcCircle DrawStyle radius LocGraphic Create circle LocGraphic the implicit point is center The circle is drawn with four Bezier curves The respective line or fill properties for the DrawStyle are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcCircle",
           "normalized": "DrawMode-\u003ea-\u003eLocGraphic a",
@@ -13336,6 +14468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcClosedPath\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e DrawStyle * path -\u003e Graphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eDraw a closed path according to the supplied DrawStyle\n ( fill | stroke | fill_stroke). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcClosedPath",
           "package": "wumpus-basic",
@@ -13346,6 +14479,7 @@
         "index": {
           "description": "dcClosedPath DrawStyle path Graphic Draw closed path according to the supplied DrawStyle fill stroke fill stroke",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcClosedPath",
           "normalized": "DrawMode-\u003ePrimPath-\u003eGraphic a",
@@ -13362,6 +14496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcDisk\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e radius -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a circle \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - the implicit point is the \n center. \n\u003c/p\u003e\u003cp\u003eThis is a efficient representation of circles using \n PostScript's \u003ccode\u003earc\u003c/code\u003e or SVG's \u003ccode\u003ecircle\u003c/code\u003e in the generated \n output. However, stroked-circles do not draw well after \n non-uniform scaling - the pen width is scaled as well as \n the shape.\n\u003c/p\u003e\u003cp\u003eFor stroked circles that can be adequately scaled, use \n \u003ccode\u003e\u003ca\u003edcCircle\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eThe fill or stroke properties for the respective DrawStyle are\n taken from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcDisk",
           "package": "wumpus-basic",
@@ -13372,6 +14507,7 @@
         "index": {
           "description": "dcDisk radius LocGraphic Create circle LocGraphic the implicit point is the center This is efficient representation of circles using PostScript arc or SVG circle in the generated output However stroked-circles do not draw well after non-uniform scaling the pen width is scaled as well as the shape For stroked circles that can be adequately scaled use dcCircle instead The fill or stroke properties for the respective DrawStyle are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcDisk",
           "normalized": "DrawMode-\u003ea-\u003eLocGraphic a",
@@ -13388,6 +14524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estrokedEllipse\u003c/code\u003e : \u003ccode\u003e x_radius * y_radius -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a stroked ellipse \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - the implicit point is \n center. The ellipse is drawn with four Bezier curves. \n\u003c/p\u003e\u003cp\u003eThe line properties (colour, pen thickness, etc.) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcEllipse",
           "package": "wumpus-basic",
@@ -13398,6 +14535,7 @@
         "index": {
           "description": "strokedEllipse radius radius LocGraphic Create stroked ellipse LocGraphic the implicit point is center The ellipse is drawn with four Bezier curves The line properties colour pen thickness etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcEllipse",
           "normalized": "DrawMode-\u003ea-\u003ea-\u003eLocGraphic a",
@@ -13414,6 +14552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estrokeEllipseDisk\u003c/code\u003e : \u003ccode\u003e x_radius * y_radius -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a stroked ellipse \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - the implicit point is \n the center. \n\u003c/p\u003e\u003cp\u003eThis is a efficient representation of circles using \n PostScript's \u003ccode\u003earc\u003c/code\u003e or SVG's \u003ccode\u003eellipse\u003c/code\u003e in the generated \n output. However, stroked ellipses do not draw well after \n non-uniform scaling - the pen width is scaled as well as \n the shape.\n\u003c/p\u003e\u003cp\u003eFor stroked ellipses that can be adequately scaled, use \n \u003ccode\u003estrokedEllipse\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eThe line properties (colour, pen thickness, etc.) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcEllipseDisk",
           "package": "wumpus-basic",
@@ -13424,6 +14563,7 @@
         "index": {
           "description": "strokeEllipseDisk radius radius LocGraphic Create stroked ellipse LocGraphic the implicit point is the center This is efficient representation of circles using PostScript arc or SVG ellipse in the generated output However stroked ellipses do not draw well after non-uniform scaling the pen width is scaled as well as the shape For stroked ellipses that can be adequately scaled use strokedEllipse instead The line properties colour pen thickness etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcEllipseDisk",
           "normalized": "DrawMode-\u003ea-\u003ea-\u003eLocGraphic a",
@@ -13440,6 +14580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcEscapedlabel\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e escaped_text -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a text \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - i.e. a functional type \n \u003cem\u003efrom Point to Graphic\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe implicit point of the LocGraphic is the baseline left.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003e\u003ca\u003eescapedlabel\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eWumpus-core\u003c/code\u003e, but \n the text properties (font family, font size, colour) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcEscapedlabel",
           "package": "wumpus-basic",
@@ -13450,6 +14591,7 @@
         "index": {
           "description": "dcEscapedlabel escaped text LocGraphic Create text LocGraphic i.e functional type from Point to Graphic The implicit point of the LocGraphic is the baseline left This is the analogue to escapedlabel in Wumpus-core but the text properties font family font size colour are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcEscapedlabel",
           "normalized": "EscapedText-\u003eLocGraphic a",
@@ -13466,6 +14608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcOpenPath\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e path -\u003e Graphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis is the analogue to the \u003ccode\u003e\u003ca\u003eostroke\u003c/a\u003e\u003c/code\u003e function in \n \u003ccode\u003eWumpus-Core\u003c/code\u003e, but the drawing properties (colour, line width, \n etc.) are taken from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcOpenPath",
           "package": "wumpus-basic",
@@ -13476,6 +14619,7 @@
         "index": {
           "description": "dcOpenPath path Graphic This is the analogue to the ostroke function in Wumpus-Core but the drawing properties colour line width etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcOpenPath",
           "normalized": "PrimPath-\u003eGraphic a",
@@ -13491,6 +14635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcPath",
           "package": "wumpus-basic",
@@ -13500,6 +14645,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcPath",
           "normalized": "PathMode-\u003ePrimPath-\u003eGraphic a",
@@ -13516,6 +14662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcREllipse\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e x_radius * y_radius -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a bordered ellipse \u003ccode\u003e\u003ca\u003eLocThetaGraphic\u003c/a\u003e\u003c/code\u003e - the implicit point\n is center and the angle is rotation about the center. The \n ellipse is drawn with four Bezier curves.  \n\u003c/p\u003e\u003cp\u003eThe background fill colour and the outline stroke properties \n are taken from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcREllipse",
           "package": "wumpus-basic",
@@ -13526,6 +14673,7 @@
         "index": {
           "description": "dcREllipse radius radius LocGraphic Create bordered ellipse LocThetaGraphic the implicit point is center and the angle is rotation about the center The ellipse is drawn with four Bezier curves The background fill colour and the outline stroke properties are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcREllipse",
           "normalized": "DrawMode-\u003ea-\u003ea-\u003eLocThetaGraphic a",
@@ -13542,6 +14690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcREscapedlabel\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e escaped_text -\u003e LocThetaGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a text \u003ccode\u003e\u003ca\u003eLocThetaGraphic\u003c/a\u003e\u003c/code\u003e - i.e. a functional type \n \u003cem\u003efrom Point and Angle to Graphic\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe implicit point of the LocGraphic is the baseline left, the\n implicit angle is rotation factor of the text.\n\u003c/p\u003e\u003cp\u003eNote - rotated text often does not render well in PostScript or\n SVG. Rotated text should be used sparingly.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003e\u003ca\u003erescapedlabel\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eWumpus-core\u003c/code\u003e, but\n the text properties (font family, font size, colour) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcREscapedlabel",
           "package": "wumpus-basic",
@@ -13552,6 +14701,7 @@
         "index": {
           "description": "dcREscapedlabel escaped text LocThetaGraphic Create text LocThetaGraphic i.e functional type from Point and Angle to Graphic The implicit point of the LocGraphic is the baseline left the implicit angle is rotation factor of the text Note rotated text often does not render well in PostScript or SVG Rotated text should be used sparingly This is the analogue to rescapedlabel in Wumpus-core but the text properties font family font size colour are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcREscapedlabel",
           "normalized": "EscapedText-\u003eLocThetaGraphic a",
@@ -13568,6 +14718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcRTextlabel\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e string -\u003e LocThetaGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a text \u003ccode\u003e\u003ca\u003eLocThetaGraphic\u003c/a\u003e\u003c/code\u003e - i.e. a functional type \n \u003cem\u003efrom Point and Angle to Graphic\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe implicit point of the LocGraphic is the baseline left, the\n implicit angle is rotation factor of the text.\n\u003c/p\u003e\u003cp\u003eNote - rotated text often does not render well in PostScript or\n SVG. Rotated text should be used sparingly.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003e\u003ca\u003ertextlabel\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eWumpus-core\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcRTextlabel",
           "package": "wumpus-basic",
@@ -13578,6 +14729,7 @@
         "index": {
           "description": "dcRTextlabel string LocThetaGraphic Create text LocThetaGraphic i.e functional type from Point and Angle to Graphic The implicit point of the LocGraphic is the baseline left the implicit angle is rotation factor of the text Note rotated text often does not render well in PostScript or SVG Rotated text should be used sparingly This is the analogue to rtextlabel in Wumpus-core",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcRTextlabel",
           "normalized": "String-\u003eLocThetaGraphic a",
@@ -13594,6 +14746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estrokedRectangle\u003c/code\u003e : \u003ccode\u003e style * width * height -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a stroked rectangle \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - the implicit point is \n bottom-left. \n\u003c/p\u003e\u003cp\u003eThe line properties (colour, pen thickness, etc.) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcRectangle",
           "package": "wumpus-basic",
@@ -13604,6 +14757,7 @@
         "index": {
           "description": "strokedRectangle style width height LocGraphic Create stroked rectangle LocGraphic the implicit point is bottom-left The line properties colour pen thickness etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcRectangle",
           "normalized": "DrawMode-\u003ea-\u003ea-\u003eLocGraphic a",
@@ -13620,6 +14774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edcTextlabel\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e string -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a text \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - i.e. a functional type \n \u003cem\u003efrom Point to Graphic\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe implicit point of the LocGraphic is the baseline left.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003e\u003ca\u003etextlabel\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eWumpus-core\u003c/code\u003e, but the\n text properties (font family, font size, colour) are taken from\n the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcTextlabel",
           "package": "wumpus-basic",
@@ -13630,6 +14785,7 @@
         "index": {
           "description": "dcTextlabel string LocGraphic Create text LocGraphic i.e functional type from Point to Graphic The implicit point of the LocGraphic is the baseline left This is the analogue to textlabel in Wumpus-core but the text properties font family font size colour are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "dcTextlabel",
           "normalized": "String-\u003eLocGraphic a",
@@ -13646,6 +14802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eemptyLocPP\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e (Point ~\u003e PrimPath) \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate an empty path \u003cem\u003equery\u003c/em\u003e - i.e. a functional type \n \u003cem\u003efrom Point to PrimPath\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003eemptyPath\u003c/code\u003e in \u003ccode\u003eWumpus-Core\u003c/code\u003e, but the\n result is produced \u003cem\u003ewithin\u003c/em\u003e the \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "emptyLocPP",
           "package": "wumpus-basic",
@@ -13656,6 +14813,7 @@
         "index": {
           "description": "emptyLocPP Point PrimPath Create an empty path query i.e functional type from Point to PrimPath This is the analogue to emptyPath in Wumpus-Core but the result is produced within the DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "emptyLocPP",
           "package": "wumpus-basic",
@@ -13670,6 +14828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehkernLine\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e [kern_char] -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a horizontally kerned text \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - i.e. a \n functional type \u003cem\u003efrom Point to Graphic\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe implicit point of the LocGraphic is the baseline left.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003e\u003ca\u003ehkernlabel\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eWumpus-core\u003c/code\u003e, but \n the text properties (font family, font size, colour) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "hkernLine",
           "package": "wumpus-basic",
@@ -13680,6 +14839,7 @@
         "index": {
           "description": "hkernLine kern char LocGraphic Create horizontally kerned text LocGraphic i.e functional type from Point to Graphic The implicit point of the LocGraphic is the baseline left This is the analogue to hkernlabel in Wumpus-core but the text properties font family font size colour are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "hkernLine",
           "normalized": "[KernChar a]-\u003eLocGraphic a",
@@ -13696,6 +14856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elocPP\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e [next_vector] -\u003e LocImage PrimPath \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a path \u003cem\u003equery\u003c/em\u003e - i.e. a functional type \n \u003cem\u003efrom Point to PrimPath\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003evectorPath\u003c/code\u003e in \u003ccode\u003eWumpus-Core\u003c/code\u003e, but the \n result is produced \u003cem\u003ewithin\u003c/em\u003e the \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "locPP",
           "package": "wumpus-basic",
@@ -13706,6 +14867,7 @@
         "index": {
           "description": "locPP next vector LocImage PrimPath Create path query i.e functional type from Point to PrimPath This is the analogue to vectorPath in Wumpus-Core but the result is produced within the DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "locPP",
           "normalized": "[Vec a]-\u003eLocQuery a PrimPath",
@@ -13722,6 +14884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elocStraightLine\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e vec_to -\u003e LocGraphic \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eCreate a stright line \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - i.e. a functional type \n \u003cem\u003efrom Point to Graphic\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe implicit point of the LocGraphic is the start point, the \n end point is calculated by displacing the start point with the \n supplied vector.\n\u003c/p\u003e\u003cp\u003eThe line properties (colour, pen thickness, etc.) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "locStraightLine",
           "package": "wumpus-basic",
@@ -13732,6 +14895,7 @@
         "index": {
           "description": "locStraightLine vec to LocGraphic Create stright line LocGraphic i.e functional type from Point to Graphic The implicit point of the LocGraphic is the start point the end point is calculated by displacing the start point with the supplied vector The line properties colour pen thickness etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "locStraightLine",
           "normalized": "Vec a-\u003eLocGraphic a",
@@ -13748,6 +14912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estraightConnector\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e start_point * end_point -\u003e Connector \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eCreate a straight line \u003ccode\u003e\u003ca\u003eGraphic\u003c/a\u003e\u003c/code\u003e, the start and end point \n are supplied implicitly.\n\u003c/p\u003e\u003cp\u003eThe line properties (colour, pen thickness, etc.) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "straightConnector",
           "package": "wumpus-basic",
@@ -13758,6 +14923,7 @@
         "index": {
           "description": "straightConnector start point end point Connector Create straight line Graphic the start and end point are supplied implicitly The line properties colour pen thickness etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "straightConnector",
           "package": "wumpus-basic",
@@ -13772,6 +14938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estraightLine\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e start_point * end_point -\u003e LocGraphic \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eCreate a straight line \u003ccode\u003e\u003ca\u003eGraphic\u003c/a\u003e\u003c/code\u003e, the start and end point \n are supplied explicitly.\n\u003c/p\u003e\u003cp\u003eThe line properties (colour, pen thickness, etc.) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "straightLine",
           "package": "wumpus-basic",
@@ -13782,6 +14949,7 @@
         "index": {
           "description": "straightLine start point end point LocGraphic Create straight line Graphic the start and end point are supplied explicitly The line properties colour pen thickness etc are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "straightLine",
           "normalized": "Point a-\u003ePoint a-\u003eGraphic a",
@@ -13798,6 +14966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003evertexPP\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e (Point ~\u003e PrimPath) \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a PrimPath made of straight line segments joining the \n supplied points.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003e\u003ca\u003evertexPrimPath\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eWumpus-Core\u003c/code\u003e, but \n it is polymorphic on unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "vertexPP",
           "package": "wumpus-basic",
@@ -13808,6 +14977,7 @@
         "index": {
           "description": "vertexPP Point PrimPath Create PrimPath made of straight line segments joining the supplied points This is the analogue to vertexPrimPath in Wumpus-Core but it is polymorphic on unit",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "vertexPP",
           "normalized": "[Point a]-\u003eQuery a PrimPath",
@@ -13824,6 +14994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003evkernLine\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e [kern_char] -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCreate a vertically kerned text \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e - i.e. a \n functional type \u003cem\u003efrom Point to Graphic\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe implicit point of the LocGraphic is the baseline left.\n\u003c/p\u003e\u003cp\u003eThis is the analogue to \u003ccode\u003e\u003ca\u003evkernlabel\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eWumpus-core\u003c/code\u003e, but \n the text properties (font family, font size, colour) are taken \n from the implicit \u003ccode\u003eDrawingContext\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "vkernLine",
           "package": "wumpus-basic",
@@ -13834,6 +15005,7 @@
         "index": {
           "description": "vkernLine kern char LocGraphic Create vertically kerned text LocGraphic i.e functional type from Point to Graphic The implicit point of the LocGraphic is the baseline left This is the analogue to vkernlabel in Wumpus-core but the text properties font family font size colour are taken from the implicit DrawingContext",
           "hierarchy": "Wumpus Basic Kernel Objects DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.DrawingPrimitives",
           "name": "vkernLine",
           "normalized": "[KernChar a]-\u003eLocGraphic a",
@@ -13850,6 +15022,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon types and operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "Image",
           "package": "wumpus-basic",
@@ -13859,6 +15032,7 @@
         "index": {
           "description": "Common types and operations",
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "Image",
           "package": "wumpus-basic",
@@ -13873,6 +15047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialized version of \u003ccode\u003e\u003ca\u003eGraphic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "DGraphic",
           "package": "wumpus-basic",
@@ -13882,6 +15057,7 @@
         "index": {
           "description": "Type specialized version of Graphic",
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "DGraphic",
           "package": "wumpus-basic",
@@ -13896,6 +15072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialized version of \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "DImage",
           "package": "wumpus-basic",
@@ -13905,6 +15082,7 @@
         "index": {
           "description": "Type specialized version of Image",
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "DImage",
           "package": "wumpus-basic",
@@ -13918,6 +15096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "Graphic",
           "package": "wumpus-basic",
@@ -13926,6 +15105,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "Graphic",
           "package": "wumpus-basic",
@@ -13939,6 +15119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "Image",
           "package": "wumpus-basic",
@@ -13947,6 +15128,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "Image",
           "package": "wumpus-basic",
@@ -13960,6 +15142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "Query",
           "package": "wumpus-basic",
@@ -13968,6 +15151,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "Query",
           "package": "wumpus-basic",
@@ -13982,6 +15166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip an Image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "clipImage",
           "package": "wumpus-basic",
@@ -13992,6 +15177,7 @@
         "index": {
           "description": "Clip an Image",
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "clipImage",
           "normalized": "PrimPath-\u003eImage a b-\u003eImage a b",
@@ -14008,6 +15194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaving \u003cem\u003eempty\u003c/em\u003e at the specific \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e type is useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "emptyImage",
           "package": "wumpus-basic",
@@ -14018,6 +15205,7 @@
         "index": {
           "description": "Having empty at the specific Image type is useful",
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "emptyImage",
           "package": "wumpus-basic",
@@ -14032,6 +15220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e into an \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e without graphic content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "liftQuery",
           "package": "wumpus-basic",
@@ -14042,6 +15231,7 @@
         "index": {
           "description": "Turn Query into an Image without graphic content",
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "liftQuery",
           "normalized": "Query a b-\u003eImage a b",
@@ -14058,6 +15248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor for Primtive graphics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "primGraphic",
           "package": "wumpus-basic",
@@ -14068,6 +15259,7 @@
         "index": {
           "description": "Constructor for Primtive graphics",
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "primGraphic",
           "normalized": "CatPrim-\u003eGraphic a",
@@ -14083,6 +15275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "runImage",
           "package": "wumpus-basic",
@@ -14092,6 +15285,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "runImage",
           "normalized": "DrawingContext-\u003eImage a b-\u003ePrimResult a b",
@@ -14107,6 +15301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "runQuery",
           "package": "wumpus-basic",
@@ -14116,6 +15311,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "runQuery",
           "normalized": "DrawingContext-\u003eQuery a b-\u003eb",
@@ -14132,6 +15328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the graphic content from an \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e making a \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "stripImage",
           "package": "wumpus-basic",
@@ -14142,6 +15339,7 @@
         "index": {
           "description": "Strip the graphic content from an Image making Query",
           "hierarchy": "Wumpus Basic Kernel Objects Image",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Image",
           "name": "stripImage",
           "normalized": "Image a b-\u003eQuery a b",
@@ -14158,6 +15356,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLocImage and LocGraphic types - these are functional types from the \n DrawingContext and start point to a graphic \u003cem\u003eprimitive\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "LocImage",
           "package": "wumpus-basic",
@@ -14167,6 +15366,7 @@
         "index": {
           "description": "LocImage and LocGraphic types these are functional types from the DrawingContext and start point to graphic primitive",
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "LocImage",
           "package": "wumpus-basic",
@@ -14181,6 +15381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialized version of \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "DLocGraphic",
           "package": "wumpus-basic",
@@ -14190,6 +15391,7 @@
         "index": {
           "description": "Type specialized version of LocGraphic",
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "DLocGraphic",
           "package": "wumpus-basic",
@@ -14204,6 +15406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialized version of \u003ccode\u003e\u003ca\u003eLocImage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "DLocImage",
           "package": "wumpus-basic",
@@ -14213,6 +15416,7 @@
         "index": {
           "description": "Type specialized version of LocImage",
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "DLocImage",
           "package": "wumpus-basic",
@@ -14226,6 +15430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "LocGraphic",
           "package": "wumpus-basic",
@@ -14234,6 +15439,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "LocGraphic",
           "package": "wumpus-basic",
@@ -14248,6 +15454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLocThetaImage\u003c/code\u003e - function from  start point and \n DrawingContext to a polymorphic \u003cem\u003eanswer\u003c/em\u003e and a graphic \n \u003cem\u003eprimitive\u003c/em\u003e (PrimW).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "LocImage",
           "package": "wumpus-basic",
@@ -14257,6 +15464,7 @@
         "index": {
           "description": "LocThetaImage function from start point and DrawingContext to polymorphic answer and graphic primitive PrimW",
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "LocImage",
           "package": "wumpus-basic",
@@ -14270,6 +15478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "LocQuery",
           "package": "wumpus-basic",
@@ -14278,6 +15487,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "LocQuery",
           "package": "wumpus-basic",
@@ -14291,6 +15501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "applyLoc",
           "package": "wumpus-basic",
@@ -14300,6 +15511,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "applyLoc",
           "normalized": "LocImage a b-\u003ePoint a-\u003eImage a b",
@@ -14316,6 +15528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDowncast a \u003ccode\u003e\u003ca\u003eLocImage\u003c/a\u003e\u003c/code\u003e function by applying it to the supplied \n point, making an \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cpre\u003e infixr 1 `at`\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "at",
           "package": "wumpus-basic",
@@ -14326,6 +15539,7 @@
         "index": {
           "description": "Downcast LocImage function by applying it to the supplied point making an Image infixr at",
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "at",
           "normalized": "LocImage a b-\u003ePoint a-\u003eImage a b",
@@ -14340,6 +15554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "distrib",
           "package": "wumpus-basic",
@@ -14349,6 +15564,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "distrib",
           "normalized": "Vec a-\u003e[LocImage a b]-\u003eLocImage a b",
@@ -14363,6 +15579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "distribH",
           "package": "wumpus-basic",
@@ -14372,6 +15589,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "distribH",
           "normalized": "a-\u003e[LocImage a b]-\u003eLocImage a b",
@@ -14386,6 +15604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "distribV",
           "package": "wumpus-basic",
@@ -14395,6 +15614,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "distribV",
           "normalized": "a-\u003e[LocImage a b]-\u003eLocImage a b",
@@ -14410,6 +15630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is analogue to \u003ccode\u003ereplicate\u003c/code\u003e in the Prelude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "duplicate",
           "package": "wumpus-basic",
@@ -14420,6 +15641,7 @@
         "index": {
           "description": "This is analogue to replicate in the Prelude",
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "duplicate",
           "normalized": "Int-\u003eVec a-\u003eLocImage a b-\u003eLocImage a b",
@@ -14434,6 +15656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "duplicateH",
           "package": "wumpus-basic",
@@ -14443,6 +15666,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "duplicateH",
           "normalized": "Int-\u003ea-\u003eLocImage a b-\u003eLocImage a b",
@@ -14457,6 +15681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "duplicateV",
           "package": "wumpus-basic",
@@ -14466,6 +15691,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "duplicateV",
           "normalized": "Int-\u003ea-\u003eLocImage a b-\u003eLocImage a b",
@@ -14481,6 +15707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaving \u003cem\u003eempty\u003c/em\u003e at the specific \u003ccode\u003e\u003ca\u003eLocImage\u003c/a\u003e\u003c/code\u003e type is useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "emptyLocImage",
           "package": "wumpus-basic",
@@ -14491,6 +15718,7 @@
         "index": {
           "description": "Having empty at the specific LocImage type is useful",
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "emptyLocImage",
           "package": "wumpus-basic",
@@ -14504,6 +15732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "liftLocQuery",
           "package": "wumpus-basic",
@@ -14513,6 +15742,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "liftLocQuery",
           "normalized": "LocQuery a b-\u003eLocImage a b",
@@ -14528,6 +15758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "moveStart",
           "package": "wumpus-basic",
@@ -14537,6 +15768,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "moveStart",
           "normalized": "Vec a-\u003eLocImage a b-\u003eLocImage a b",
@@ -14552,6 +15784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "promoteLoc",
           "package": "wumpus-basic",
@@ -14561,6 +15794,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "promoteLoc",
           "normalized": "(Point a-\u003eImage a b)-\u003eLocImage a b",
@@ -14576,6 +15810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "qapplyLoc",
           "package": "wumpus-basic",
@@ -14585,6 +15820,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "qapplyLoc",
           "normalized": "LocQuery a b-\u003ePoint a-\u003eQuery a b",
@@ -14600,6 +15836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "qpromoteLoc",
           "package": "wumpus-basic",
@@ -14609,6 +15846,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "qpromoteLoc",
           "normalized": "(Point a-\u003eQuery a b)-\u003eLocQuery a b",
@@ -14624,6 +15862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "runLocImage",
           "package": "wumpus-basic",
@@ -14633,6 +15872,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "runLocImage",
           "normalized": "DrawingContext-\u003ePoint a-\u003eLocImage a b-\u003ePrimResult a b",
@@ -14648,6 +15888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "runLocQuery",
           "package": "wumpus-basic",
@@ -14657,6 +15898,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "runLocQuery",
           "normalized": "DrawingContext-\u003ePoint a-\u003eLocQuery a b-\u003eb",
@@ -14672,6 +15914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "stripLocImage",
           "package": "wumpus-basic",
@@ -14681,6 +15924,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "stripLocImage",
           "normalized": "LocImage a b-\u003eLocQuery a b",
@@ -14697,6 +15941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlipped version of \u003ccode\u003e\u003ca\u003eapplyLoc\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "supplyLoc",
           "package": "wumpus-basic",
@@ -14707,6 +15952,7 @@
         "index": {
           "description": "Flipped version of applyLoc",
           "hierarchy": "Wumpus Basic Kernel Objects LocImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocImage",
           "name": "supplyLoc",
           "normalized": "Point a-\u003eLocImage a b-\u003eImage a b",
@@ -14723,6 +15969,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLocThetaImage and LocThetaGraphic types - these are functional \n types from the DrawingContext, start point and angle of \n inclination to a graphic \u003cem\u003eprimitive\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "LocThetaImage",
           "package": "wumpus-basic",
@@ -14732,6 +15979,7 @@
         "index": {
           "description": "LocThetaImage and LocThetaGraphic types these are functional types from the DrawingContext start point and angle of inclination to graphic primitive",
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "LocThetaImage",
           "package": "wumpus-basic",
@@ -14746,6 +15994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialized version of \u003ccode\u003e\u003ca\u003eLocThetaGraphic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "DLocThetaGraphic",
           "package": "wumpus-basic",
@@ -14755,6 +16004,7 @@
         "index": {
           "description": "Type specialized version of LocThetaGraphic",
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "DLocThetaGraphic",
           "package": "wumpus-basic",
@@ -14769,6 +16019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialized version of \u003ccode\u003e\u003ca\u003eLocThetaImage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "DLocThetaImage",
           "package": "wumpus-basic",
@@ -14778,6 +16029,7 @@
         "index": {
           "description": "Type specialized version of LocThetaImage",
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "DLocThetaImage",
           "package": "wumpus-basic",
@@ -14791,6 +16043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "LocThetaGraphic",
           "package": "wumpus-basic",
@@ -14799,6 +16052,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "LocThetaGraphic",
           "package": "wumpus-basic",
@@ -14813,6 +16067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLocThetaImage\u003c/a\u003e\u003c/code\u003e - function from start point, inclination and\n DrawingContext to a polymorphic \u003cem\u003eanswer\u003c/em\u003e and a graphic \n \u003cem\u003eprimitive\u003c/em\u003e (PrimW).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "LocThetaImage",
           "package": "wumpus-basic",
@@ -14822,6 +16077,7 @@
         "index": {
           "description": "LocThetaImage function from start point inclination and DrawingContext to polymorphic answer and graphic primitive PrimW",
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "LocThetaImage",
           "package": "wumpus-basic",
@@ -14835,6 +16091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "LocThetaQuery",
           "package": "wumpus-basic",
@@ -14843,6 +16100,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "LocThetaQuery",
           "package": "wumpus-basic",
@@ -14856,6 +16114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "applyLocTheta",
           "package": "wumpus-basic",
@@ -14865,6 +16124,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "applyLocTheta",
           "normalized": "LocThetaImage a b-\u003ePoint a-\u003eRadian-\u003eImage a b",
@@ -14880,6 +16140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "atIncline",
           "package": "wumpus-basic",
@@ -14889,6 +16150,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "atIncline",
           "normalized": "LocThetaImage a b-\u003ePoint a-\u003eRadian-\u003eImage a b",
@@ -14905,6 +16167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaving \u003cem\u003eempty\u003c/em\u003e at the specific \u003ccode\u003e\u003ca\u003eLocThetaImage\u003c/a\u003e\u003c/code\u003e type is useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "emptyLocThetaImage",
           "package": "wumpus-basic",
@@ -14915,6 +16178,7 @@
         "index": {
           "description": "Having empty at the specific LocThetaImage type is useful",
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "emptyLocThetaImage",
           "package": "wumpus-basic",
@@ -14929,6 +16193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDowncast a \u003ccode\u003e\u003ca\u003eLocThetaImage\u003c/a\u003e\u003c/code\u003e function by applying it to the \n supplied angle, making a \u003ccode\u003e\u003ca\u003eLocImage\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "incline",
           "package": "wumpus-basic",
@@ -14939,6 +16204,7 @@
         "index": {
           "description": "Downcast LocThetaImage function by applying it to the supplied angle making LocImage",
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "incline",
           "normalized": "LocThetaImage a b-\u003eRadian-\u003eLocImage a b",
@@ -14953,6 +16219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "liftLocThetaQuery",
           "package": "wumpus-basic",
@@ -14962,6 +16229,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "liftLocThetaQuery",
           "normalized": "LocThetaQuery a b-\u003eLocThetaImage a b",
@@ -14977,6 +16245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "promoteLocTheta",
           "package": "wumpus-basic",
@@ -14986,6 +16255,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "promoteLocTheta",
           "normalized": "(Point a-\u003eRadian-\u003eImage a b)-\u003eLocThetaImage a b",
@@ -15001,6 +16271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "qapplyLocTheta",
           "package": "wumpus-basic",
@@ -15010,6 +16281,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "qapplyLocTheta",
           "normalized": "LocThetaQuery a b-\u003ePoint a-\u003eRadian-\u003eQuery a b",
@@ -15025,6 +16297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "qpromoteLocTheta",
           "package": "wumpus-basic",
@@ -15034,6 +16307,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "qpromoteLocTheta",
           "normalized": "(Point a-\u003eRadian-\u003eQuery a b)-\u003eLocThetaQuery a b",
@@ -15049,6 +16323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "runLocThetaImage",
           "package": "wumpus-basic",
@@ -15058,6 +16333,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "runLocThetaImage",
           "normalized": "DrawingContext-\u003ePoint a-\u003eRadian-\u003eLocThetaImage a b-\u003ePrimResult a b",
@@ -15073,6 +16349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "runLocThetaQuery",
           "package": "wumpus-basic",
@@ -15082,6 +16359,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "runLocThetaQuery",
           "normalized": "DrawingContext-\u003ePoint a-\u003eRadian-\u003eLocThetaQuery a b-\u003eb",
@@ -15097,6 +16375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "stripLocThetaImage",
           "package": "wumpus-basic",
@@ -15106,6 +16385,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "stripLocThetaImage",
           "normalized": "LocThetaImage a b-\u003eLocThetaQuery a b",
@@ -15122,6 +16402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlipped version of \u003ccode\u003e\u003ca\u003eincline\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "supplyIncline",
           "package": "wumpus-basic",
@@ -15132,6 +16413,7 @@
         "index": {
           "description": "Flipped version of incline",
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "supplyIncline",
           "normalized": "Radian-\u003eLocThetaImage a b-\u003eLocImage a b",
@@ -15147,6 +16429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "supplyLocTheta",
           "package": "wumpus-basic",
@@ -15156,6 +16439,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects LocThetaImage",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.LocThetaImage",
           "name": "supplyLocTheta",
           "normalized": "Point a-\u003eRadian-\u003eLocThetaImage a b-\u003eImage a b",
@@ -15172,6 +16456,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraphic objects RectAddress and Orientation to model \n rectangular positioning.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "Orientation",
           "package": "wumpus-basic",
@@ -15181,6 +16466,7 @@
         "index": {
           "description": "Graphic objects RectAddress and Orientation to model rectangular positioning",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "Orientation",
           "package": "wumpus-basic",
@@ -15195,6 +16481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility datatype representing orientation within a \n rectangular \u003cem\u003eframe\u003c/em\u003e. RectPos is useful for graphics such as \n text where the start point is not necessarily at the center \n (or bottom left).\n\u003c/p\u003e\u003cpre\u003e x_minor is the horizontal distance from the left to the start point\n\n x_major is the horizontal distance from the start point to the right\n\n y_minor is the vertical distance from the bottom to the start point\n\n y_major is the vertical distance from the start point to the top\n\u003c/pre\u003e\u003cp\u003eValues should be not be negative!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "Orientation",
           "package": "wumpus-basic",
@@ -15204,6 +16491,7 @@
         "index": {
           "description": "Utility datatype representing orientation within rectangular frame RectPos is useful for graphics such as text where the start point is not necessarily at the center or bottom left minor is the horizontal distance from the left to the start point major is the horizontal distance from the start point to the right minor is the vertical distance from the bottom to the start point major is the vertical distance from the start point to the top Values should be not be negative",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "Orientation",
           "package": "wumpus-basic",
@@ -15218,6 +16506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype enumerating the addressable positions of a rectangle \n that can be derived for a \u003ccode\u003ePosObject\u003c/code\u003e.  \n\u003c/p\u003e\u003cp\u003eThe positions are the compass points, plus the geometric \n center, origin and the baseline positions: \n\u003c/p\u003e\u003cpre\u003e BLL - baseline-left\n\u003c/pre\u003e\u003cpre\u003e BLC - baseline-center \n\u003c/pre\u003e\u003cpre\u003e BLR - baseline-right\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "RectAddress",
           "package": "wumpus-basic",
@@ -15227,6 +16516,7 @@
         "index": {
           "description": "Datatype enumerating the addressable positions of rectangle that can be derived for PosObject The positions are the compass points plus the geometric center origin and the baseline positions BLL baseline-left BLC baseline-center BLR baseline-right",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "RectAddress",
           "package": "wumpus-basic",
@@ -15240,6 +16530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "BLC",
           "package": "wumpus-basic",
@@ -15249,6 +16540,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "BLC",
           "package": "wumpus-basic",
@@ -15262,6 +16554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "BLL",
           "package": "wumpus-basic",
@@ -15271,6 +16564,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "BLL",
           "package": "wumpus-basic",
@@ -15284,6 +16578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "BLR",
           "package": "wumpus-basic",
@@ -15293,6 +16588,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "BLR",
           "package": "wumpus-basic",
@@ -15306,6 +16602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "CENTER",
           "package": "wumpus-basic",
@@ -15315,6 +16612,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "CENTER",
           "package": "wumpus-basic",
@@ -15328,6 +16626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "EE",
           "package": "wumpus-basic",
@@ -15337,6 +16636,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "EE",
           "package": "wumpus-basic",
@@ -15350,6 +16650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "NE",
           "package": "wumpus-basic",
@@ -15359,6 +16660,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "NE",
           "package": "wumpus-basic",
@@ -15372,6 +16674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "NN",
           "package": "wumpus-basic",
@@ -15381,6 +16684,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "NN",
           "package": "wumpus-basic",
@@ -15394,6 +16698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "NW",
           "package": "wumpus-basic",
@@ -15403,6 +16708,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "NW",
           "package": "wumpus-basic",
@@ -15416,6 +16722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "ORIGIN",
           "package": "wumpus-basic",
@@ -15425,6 +16732,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "ORIGIN",
           "package": "wumpus-basic",
@@ -15438,6 +16746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "Orientation",
           "package": "wumpus-basic",
@@ -15447,6 +16756,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "Orientation",
           "package": "wumpus-basic",
@@ -15460,6 +16770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "SE",
           "package": "wumpus-basic",
@@ -15469,6 +16780,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "SE",
           "package": "wumpus-basic",
@@ -15482,6 +16794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "SS",
           "package": "wumpus-basic",
@@ -15491,6 +16804,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "SS",
           "package": "wumpus-basic",
@@ -15504,6 +16818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "SW",
           "package": "wumpus-basic",
@@ -15513,6 +16828,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "SW",
           "package": "wumpus-basic",
@@ -15526,6 +16842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "WW",
           "package": "wumpus-basic",
@@ -15535,6 +16852,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "WW",
           "package": "wumpus-basic",
@@ -15548,6 +16866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveHBottom",
           "package": "wumpus-basic",
@@ -15557,6 +16876,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveHBottom",
           "normalized": "Orientation a-\u003eOrientation a-\u003eVec a",
@@ -15572,6 +16892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveHCenter",
           "package": "wumpus-basic",
@@ -15581,6 +16902,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveHCenter",
           "normalized": "Orientation a-\u003eOrientation a-\u003eVec a",
@@ -15596,6 +16918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveHTop",
           "package": "wumpus-basic",
@@ -15605,6 +16928,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveHTop",
           "normalized": "Orientation a-\u003eOrientation a-\u003eVec a",
@@ -15620,6 +16944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveVCenter",
           "package": "wumpus-basic",
@@ -15629,6 +16954,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveVCenter",
           "normalized": "Orientation a-\u003eOrientation a-\u003eVec a",
@@ -15644,6 +16970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveVLeft",
           "package": "wumpus-basic",
@@ -15653,6 +16980,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveVLeft",
           "normalized": "Orientation a-\u003eOrientation a-\u003eVec a",
@@ -15668,6 +16996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveVRight",
           "package": "wumpus-basic",
@@ -15677,6 +17006,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "binmoveVRight",
           "normalized": "Orientation a-\u003eOrientation a-\u003eVec a",
@@ -15692,6 +17022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendODown",
           "package": "wumpus-basic",
@@ -15701,6 +17032,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendODown",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15716,6 +17048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendOLeft",
           "package": "wumpus-basic",
@@ -15725,6 +17058,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendOLeft",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15740,6 +17074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendORight",
           "package": "wumpus-basic",
@@ -15749,6 +17084,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendORight",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15764,6 +17100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendOUp",
           "package": "wumpus-basic",
@@ -15773,6 +17110,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendOUp",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15788,6 +17126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendOrientation",
           "package": "wumpus-basic",
@@ -15797,6 +17136,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "extendOrientation",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eOrientation a-\u003eOrientation a",
@@ -15812,6 +17152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillHEven",
           "package": "wumpus-basic",
@@ -15821,6 +17162,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillHEven",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15836,6 +17178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillVEven",
           "package": "wumpus-basic",
@@ -15845,6 +17188,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillVEven",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15860,6 +17204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillXMajor",
           "package": "wumpus-basic",
@@ -15869,6 +17214,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillXMajor",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15884,6 +17230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillXMinor",
           "package": "wumpus-basic",
@@ -15893,6 +17240,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillXMinor",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15908,6 +17256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillYMajor",
           "package": "wumpus-basic",
@@ -15917,6 +17266,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillYMajor",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15932,6 +17282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillYMinor",
           "package": "wumpus-basic",
@@ -15941,6 +17292,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "fillYMinor",
           "normalized": "a-\u003eOrientation a-\u003eOrientation a",
@@ -15957,6 +17309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exmin and xmaj same as left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "halignBottomO",
           "package": "wumpus-basic",
@@ -15967,6 +17320,7 @@
         "index": {
           "description": "xmin and xmaj same as left",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "halignBottomO",
           "normalized": "Orientation a-\u003eOrientation a-\u003eOrientation a",
@@ -15983,6 +17337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exmin same as left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "halignCenterO",
           "package": "wumpus-basic",
@@ -15993,6 +17348,7 @@
         "index": {
           "description": "xmin same as left",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "halignCenterO",
           "normalized": "Orientation a-\u003eOrientation a-\u003eOrientation a",
@@ -16009,6 +17365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exmin and ymaj same as left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "halignTopO",
           "package": "wumpus-basic",
@@ -16019,6 +17376,7 @@
         "index": {
           "description": "xmin and ymaj same as left",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "halignTopO",
           "normalized": "Orientation a-\u003eOrientation a-\u003eOrientation a",
@@ -16034,6 +17392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "or_x_major",
           "package": "wumpus-basic",
@@ -16043,6 +17402,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "or_x_major",
           "package": "wumpus-basic",
@@ -16055,6 +17415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "or_x_minor",
           "package": "wumpus-basic",
@@ -16064,6 +17425,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "or_x_minor",
           "package": "wumpus-basic",
@@ -16076,6 +17438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "or_y_major",
           "package": "wumpus-basic",
@@ -16085,6 +17448,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "or_y_major",
           "package": "wumpus-basic",
@@ -16097,6 +17461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "or_y_minor",
           "package": "wumpus-basic",
@@ -16106,6 +17471,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "or_y_minor",
           "package": "wumpus-basic",
@@ -16119,6 +17485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the bounding box formed by locating the \u003ccode\u003e\u003ca\u003eOrientation\u003c/a\u003e\u003c/code\u003e\n at the supplied point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "orientationBounds",
           "package": "wumpus-basic",
@@ -16129,6 +17496,7 @@
         "index": {
           "description": "Calculate the bounding box formed by locating the Orientation at the supplied point",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "orientationBounds",
           "normalized": "Orientation a-\u003ePoint a-\u003eBoundingBox a",
@@ -16145,6 +17513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeight of the orientation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "orientationHeight",
           "package": "wumpus-basic",
@@ -16155,6 +17524,7 @@
         "index": {
           "description": "Height of the orientation",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "orientationHeight",
           "normalized": "Orientation a-\u003ea",
@@ -16171,6 +17541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeight of the orientation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "orientationWidth",
           "package": "wumpus-basic",
@@ -16181,6 +17552,7 @@
         "index": {
           "description": "Height of the orientation",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "orientationWidth",
           "normalized": "Orientation a-\u003ea",
@@ -16197,6 +17569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate an Orientation about its origin (locus).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "rotateOrientation",
           "package": "wumpus-basic",
@@ -16207,6 +17580,7 @@
         "index": {
           "description": "Rotate an Orientation about its origin locus",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "rotateOrientation",
           "normalized": "Radian-\u003eOrientation a-\u003eOrientation a",
@@ -16223,6 +17597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond Orientation is moved \u003cem\u003ebelow\u003c/em\u003e the first along the spine\n i.e. the vertical point between the left minor and right major\n (not the same as the horizontal center).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "spineBelow",
           "package": "wumpus-basic",
@@ -16233,6 +17608,7 @@
         "index": {
           "description": "Second Orientation is moved below the first along the spine i.e the vertical point between the left minor and right major not the same as the horizontal center",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "spineBelow",
           "normalized": "Orientation a-\u003eOrientation a-\u003eOrientation a",
@@ -16249,6 +17625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond Orientation is moved \u003cem\u003eto the right\u003c/em\u003e of the first along\n the \u003cem\u003espine\u003c/em\u003e i.e the baseline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "spineRight",
           "package": "wumpus-basic",
@@ -16259,6 +17636,7 @@
         "index": {
           "description": "Second Orientation is moved to the right of the first along the spine i.e the baseline",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "spineRight",
           "normalized": "Orientation a-\u003eOrientation a-\u003eOrientation a",
@@ -16275,6 +17653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove second right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "spinemoveH",
           "package": "wumpus-basic",
@@ -16285,6 +17664,7 @@
         "index": {
           "description": "Move second right",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "spinemoveH",
           "normalized": "Orientation a-\u003eOrientation a-\u003eVec a",
@@ -16300,6 +17680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove second below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "spinemoveV",
           "package": "wumpus-basic",
@@ -16310,6 +17691,7 @@
         "index": {
           "description": "Move second below",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "spinemoveV",
           "normalized": "Orientation a-\u003eOrientation a-\u003eVec a",
@@ -16325,6 +17707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign second below - ymaj same as left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "valignCenterO",
           "package": "wumpus-basic",
@@ -16335,6 +17718,7 @@
         "index": {
           "description": "Align second below ymaj same as left",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "valignCenterO",
           "normalized": "Orientation a-\u003eOrientation a-\u003eOrientation a",
@@ -16351,6 +17735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign second below - xmin and ymaj are same as left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "valignLeftO",
           "package": "wumpus-basic",
@@ -16361,6 +17746,7 @@
         "index": {
           "description": "Align second below xmin and ymaj are same as left",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "valignLeftO",
           "normalized": "Orientation a-\u003eOrientation a-\u003eOrientation a",
@@ -16377,6 +17763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign second below - xmaj and ymaj are same as left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "valignRightO",
           "package": "wumpus-basic",
@@ -16387,6 +17774,7 @@
         "index": {
           "description": "Align second below xmaj and ymaj are same as left",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "valignRightO",
           "normalized": "Orientation a-\u003eOrientation a-\u003eOrientation a",
@@ -16402,6 +17790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "vtoOrigin",
           "package": "wumpus-basic",
@@ -16411,6 +17800,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "vtoOrigin",
           "normalized": "RectAddress-\u003eOrientation a-\u003eVec a",
@@ -16427,6 +17817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe vector from a origin ro a \u003ccode\u003e\u003ca\u003eRectAddress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "vtoRectAddress",
           "package": "wumpus-basic",
@@ -16437,6 +17828,7 @@
         "index": {
           "description": "The vector from origin ro RectAddress",
           "hierarchy": "Wumpus Basic Kernel Objects Orientation",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Orientation",
           "name": "vtoRectAddress",
           "normalized": "Orientation a-\u003eRectAddress-\u003eVec a",
@@ -16453,6 +17845,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eTrails\u003c/em\u003e - prototype paths. Less resource heavy than the Path\n object in Wumpus-Drawing.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eCatTrail\u003c/code\u003e supports concatenation. \u003ccode\u003eAnaTrail\u003c/code\u003e supports \n \u003cem\u003einitial displacement\u003c/em\u003e - this can account for drawing \n rectangles from their center, for example.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "Trail",
           "package": "wumpus-basic",
@@ -16462,6 +17855,7 @@
         "index": {
           "description": "Trails prototype paths Less resource heavy than the Path object in Wumpus-Drawing CatTrail supports concatenation AnaTrail supports initial displacement this can account for drawing rectangles from their center for example",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "Trail",
           "package": "wumpus-basic",
@@ -16476,6 +17870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrail with an initial (undrawn) displacement - an anacrusis.\n\u003c/p\u003e\u003cp\u003eThis allows trails to represent centered objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "AnaTrail",
           "package": "wumpus-basic",
@@ -16485,6 +17880,7 @@
         "index": {
           "description": "Trail with an initial undrawn displacement an anacrusis This allows trails to represent centered objects",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "AnaTrail",
           "package": "wumpus-basic",
@@ -16499,6 +17895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrail supporting concatenation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "CatTrail",
           "package": "wumpus-basic",
@@ -16508,6 +17905,7 @@
         "index": {
           "description": "Trail supporting concatenation",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "CatTrail",
           "package": "wumpus-basic",
@@ -16522,6 +17920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrail segment - trails are \u003cem\u003eprototype\u003c/em\u003e paths, so the are \n built from the usual straight lines and Bezier curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "TrailSegment",
           "package": "wumpus-basic",
@@ -16531,6 +17930,7 @@
         "index": {
           "description": "Trail segment trails are prototype paths so the are built from the usual straight lines and Bezier curves",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "TrailSegment",
           "package": "wumpus-basic",
@@ -16544,6 +17944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "TCurve",
           "package": "wumpus-basic",
@@ -16553,6 +17954,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "TCurve",
           "package": "wumpus-basic",
@@ -16566,6 +17968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "TLine",
           "package": "wumpus-basic",
@@ -16575,6 +17978,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "TLine",
           "package": "wumpus-basic",
@@ -16589,6 +17993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a \u003ccode\u003e\u003ca\u003eCatTrail\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eAnaTrail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "anaCatTrail",
           "package": "wumpus-basic",
@@ -16599,6 +18004,7 @@
         "index": {
           "description": "Turn CatTrail into AnaTrail",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "anaCatTrail",
           "normalized": "Vec a-\u003eCatTrail a-\u003eAnaTrail a",
@@ -16614,6 +18020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "anaTrailPoints",
           "package": "wumpus-basic",
@@ -16623,6 +18030,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "anaTrailPoints",
           "normalized": "AnaTrail a-\u003eLocQuery a[Point a]",
@@ -16639,6 +18047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurve in half a \u003cem\u003ebowtie\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "bowCurve",
           "package": "wumpus-basic",
@@ -16649,6 +18058,7 @@
         "index": {
           "description": "Curve in half bowtie",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "bowCurve",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -16664,6 +18074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "catcurve",
           "package": "wumpus-basic",
@@ -16673,6 +18084,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "catcurve",
           "normalized": "Vec a-\u003eVec a-\u003eVec a-\u003eCatTrail a",
@@ -16687,6 +18099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "catline",
           "package": "wumpus-basic",
@@ -16696,6 +18109,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "catline",
           "normalized": "Vec a-\u003eCatTrail a",
@@ -16711,6 +18125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecircleSweep\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e clock_direction * apex_angle * radius \n      * inclination -\u003e CatTrail \u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e ang should be in the range 0 \u003c ang \u003c 360deg.\n\u003c/pre\u003e\u003cpre\u003e if   0 \u003c ang \u003c=  90 returns 1 segment\n if  90 \u003c ang \u003c= 180 returns 2 segments\n if 180 \u003c ang \u003c= 270 returns 3 segments\n if 270 \u003c ang \u003c  360 returns 4 segmenets\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "circleSweep",
           "package": "wumpus-basic",
@@ -16721,6 +18136,7 @@
         "index": {
           "description": "circleSweep clock direction apex angle radius inclination CatTrail ang should be in the range ang deg if ang returns segment if ang returns segments if ang returns segments if ang returns segmenets",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "circleSweep",
           "normalized": "ClockDirection-\u003eRadian-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -16736,6 +18152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "circularArc",
           "package": "wumpus-basic",
@@ -16745,6 +18162,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "circularArc",
           "normalized": "ClockDirection-\u003eRadian-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -16761,6 +18179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDestructor\u003c/em\u003e for the opaque \u003ccode\u003e\u003ca\u003eAnaTrail\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "destrAnaTrail",
           "package": "wumpus-basic",
@@ -16771,6 +18190,7 @@
         "index": {
           "description": "Destructor for the opaque AnaTrail type",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "destrAnaTrail",
           "normalized": "AnaTrail a-\u003e(Vec a,[TrailSegment a])",
@@ -16787,6 +18207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eDestructor\u003c/em\u003e for the opaque \u003ccode\u003e\u003ca\u003eCatTrail\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "destrCatTrail",
           "package": "wumpus-basic",
@@ -16797,6 +18218,7 @@
         "index": {
           "description": "Destructor for the opaque CatTrail type",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "destrCatTrail",
           "normalized": "CatTrail a-\u003e[TrailSegment a]",
@@ -16813,6 +18235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ediamondTrail\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e half_width * half_height -\u003e AnaTrail \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "diamondTrail",
           "package": "wumpus-basic",
@@ -16823,6 +18246,7 @@
         "index": {
           "description": "diamondTrail half width half height AnaTrail",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "diamondTrail",
           "normalized": "a-\u003ea-\u003eAnaTrail a",
@@ -16839,6 +18263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a Bezier CatTrail from the vectors between four control \n points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "diffCurve",
           "package": "wumpus-basic",
@@ -16849,6 +18274,7 @@
         "index": {
           "description": "Form Bezier CatTrail from the vectors between four control points",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "diffCurve",
           "normalized": "Point a-\u003ePoint a-\u003ePoint a-\u003ePoint a-\u003eCatTrail a",
@@ -16865,6 +18291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a CatTrail from the linear segment joining the list of \n points.\n\u003c/p\u003e\u003cp\u003eSome configurations of vectors seem easier to specify using \n located points then making them coordinate free by taking \n the joining vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "diffLines",
           "package": "wumpus-basic",
@@ -16875,6 +18302,7 @@
         "index": {
           "description": "Form CatTrail from the linear segment joining the list of points Some configurations of vectors seem easier to specify using located points then making them coordinate free by taking the joining vectors",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "diffLines",
           "normalized": "[Point a]-\u003eCatTrail a",
@@ -16891,6 +18319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation of wedge curve that draws a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "loopCurve",
           "package": "wumpus-basic",
@@ -16901,6 +18330,7 @@
         "index": {
           "description": "Variation of wedge curve that draws loop",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "loopCurve",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -16917,6 +18347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eminorCircleSweep\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e clock_direction * angle * radius \n      * inclination -\u003e CatTrail \u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e ang should be in the range 0 \u003c ang \u003c= 90deg.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "minorCircleSweep",
           "package": "wumpus-basic",
@@ -16927,6 +18358,7 @@
         "index": {
           "description": "minorCircleSweep clock direction angle radius inclination CatTrail ang should be in the range ang deg",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "minorCircleSweep",
           "normalized": "ClockDirection-\u003eRadian-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -16942,6 +18374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "modifyAna",
           "package": "wumpus-basic",
@@ -16951,6 +18384,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "modifyAna",
           "normalized": "(Vec a-\u003eVec a)-\u003eAnaTrail a-\u003eAnaTrail a",
@@ -16967,6 +18401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative to \u003ccode\u003ecatline\u003c/code\u003e, specifying the vector components \n rather the vector itself.\n\u003c/p\u003e\u003cp\u003e(cf. orthoVec from Wumpus-Core)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "orthoCatTrail",
           "package": "wumpus-basic",
@@ -16977,6 +18412,7 @@
         "index": {
           "description": "Alternative to catline specifying the vector components rather the vector itself cf orthoVec from Wumpus-Core",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "orthoCatTrail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -16993,6 +18429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epolygonTrail\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e num_points * radius -\u003e AnaTrail \u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "polygonTrail",
           "package": "wumpus-basic",
@@ -17003,6 +18440,7 @@
         "index": {
           "description": "polygonTrail num points radius AnaTrail",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "polygonTrail",
           "normalized": "Int-\u003ea-\u003eAnaTrail a",
@@ -17019,6 +18457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erectCurve\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e clock_direction * base_width * height * \n      base_inclination -\u003e CatTrail \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCurve in a rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "rectCurve",
           "package": "wumpus-basic",
@@ -17029,6 +18468,7 @@
         "index": {
           "description": "rectCurve clock direction base width height base inclination CatTrail Curve in rectangle",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "rectCurve",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -17045,6 +18485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erectangleTrail\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e width * height -\u003e AnaTrail \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "rectangleTrail",
           "package": "wumpus-basic",
@@ -17055,6 +18496,7 @@
         "index": {
           "description": "rectangleTrail width height AnaTrail",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "rectangleTrail",
           "normalized": "a-\u003ea-\u003eAnaTrail a",
@@ -17071,6 +18513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an \u003ccode\u003e\u003ca\u003eAnaTrail\u003c/a\u003e\u003c/code\u003e to make a drawable \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "renderAnaTrail",
           "package": "wumpus-basic",
@@ -17081,6 +18524,7 @@
         "index": {
           "description": "Render an AnaTrail to make drawable LocGraphic",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "renderAnaTrail",
           "normalized": "PathMode-\u003eAnaTrail a-\u003eLocGraphic a",
@@ -17097,6 +18541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eCatTrail\u003c/a\u003e\u003c/code\u003e to make a drawable \u003ccode\u003e\u003ca\u003eLocGraphic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "renderCatTrail",
           "package": "wumpus-basic",
@@ -17107,6 +18552,7 @@
         "index": {
           "description": "Render CatTrail to make drawable LocGraphic",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "renderCatTrail",
           "normalized": "PathMode-\u003eCatTrail a-\u003eLocGraphic a",
@@ -17122,6 +18568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "sawtoothWave",
           "package": "wumpus-basic",
@@ -17131,6 +18578,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "sawtoothWave",
           "normalized": "Int-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -17147,6 +18595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esemicircleCW\u003c/code\u003e : \u003ccode\u003e base_vector -\u003e CatTrail \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eMake an open semicircle from two Bezier curves. \n\u003c/p\u003e\u003cp\u003eAlthough this function produces an approximation of a \n semicircle, the approximation seems fine in practice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "semicircleTrail",
           "package": "wumpus-basic",
@@ -17157,6 +18606,7 @@
         "index": {
           "description": "semicircleCW base vector CatTrail Make an open semicircle from two Bezier curves Although this function produces an approximation of semicircle the approximation seems fine in practice",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "semicircleTrail",
           "normalized": "ClockDirection-\u003eVec a-\u003eCatTrail a",
@@ -17172,6 +18622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "semicircleWave",
           "package": "wumpus-basic",
@@ -17181,6 +18632,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "semicircleWave",
           "normalized": "ClockDirection-\u003eInt-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -17197,6 +18649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esemicircleTrail\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e clock_direction * ry * base_vector -\u003e CatTrail \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eMake an open semiellipse from two Bezier curves. \n\u003c/p\u003e\u003cp\u003eAlthough this function produces an approximation of a \n semiellipse, the approximation seems fine in practice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "semiellipseTrail",
           "package": "wumpus-basic",
@@ -17207,6 +18660,7 @@
         "index": {
           "description": "semicircleTrail clock direction ry base vector CatTrail Make an open semiellipse from two Bezier curves Although this function produces an approximation of semiellipse the approximation seems fine in practice",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "semiellipseTrail",
           "normalized": "ClockDirection-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -17222,6 +18676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "sineWave",
           "package": "wumpus-basic",
@@ -17231,6 +18686,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "sineWave",
           "normalized": "Int-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -17247,6 +18703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-phase sine wave. Height is parametric.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "sineWave1",
           "package": "wumpus-basic",
@@ -17257,6 +18714,7 @@
         "index": {
           "description": "One-phase sine wave Height is parametric",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "sineWave1",
           "normalized": "a-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -17272,6 +18730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "squareWave",
           "package": "wumpus-basic",
@@ -17281,6 +18740,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "squareWave",
           "normalized": "Int-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -17297,6 +18757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProper semicircles do not make a good squiggle (it needs a \n bit of pinch).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "squiggleWave",
           "package": "wumpus-basic",
@@ -17307,6 +18768,7 @@
         "index": {
           "description": "Proper semicircles do not make good squiggle it needs bit of pinch",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "squiggleWave",
           "normalized": "Int-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -17323,6 +18785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a AnaTrail from the vector list - each vector in the \n input list iterates to the start point rather then the \n cumulative tip.\n\u003c/p\u003e\u003cp\u003eWhen the AnaTrail is run, the supplied point is the \u003cem\u003elocus\u003c/em\u003e of \n the path and it does not form part of the path proper.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003etrailStartIsLocus\u003c/code\u003e, this constructor is typically used to \n make \u003cem\u003eshape paths\u003c/em\u003e. Some shapes are easier to express as \n iterated displacements of the center rather than \n \u003cem\u003eturtle drawing\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trailIterateLocus",
           "package": "wumpus-basic",
@@ -17333,6 +18796,7 @@
         "index": {
           "description": "Create AnaTrail from the vector list each vector in the input list iterates to the start point rather then the cumulative tip When the AnaTrail is run the supplied point is the locus of the path and it does not form part of the path proper Like trailStartIsLocus this constructor is typically used to make shape paths Some shapes are easier to express as iterated displacements of the center rather than turtle drawing",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trailIterateLocus",
           "normalized": "[Vec a]-\u003eAnaTrail a",
@@ -17348,6 +18812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_down",
           "package": "wumpus-basic",
@@ -17357,6 +18822,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_down",
           "normalized": "a-\u003eCatTrail a",
@@ -17371,6 +18837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_down_left",
           "package": "wumpus-basic",
@@ -17380,6 +18847,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_down_left",
           "normalized": "a-\u003eCatTrail a",
@@ -17394,6 +18862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_down_right",
           "package": "wumpus-basic",
@@ -17403,6 +18872,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_down_right",
           "normalized": "a-\u003eCatTrail a",
@@ -17417,6 +18887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_east",
           "package": "wumpus-basic",
@@ -17426,6 +18897,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_east",
           "normalized": "a-\u003eCatTrail a",
@@ -17440,6 +18912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_left",
           "package": "wumpus-basic",
@@ -17449,6 +18922,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_left",
           "normalized": "a-\u003eCatTrail a",
@@ -17463,6 +18937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_north",
           "package": "wumpus-basic",
@@ -17472,6 +18947,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_north",
           "normalized": "a-\u003eCatTrail a",
@@ -17486,6 +18962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_north_east",
           "package": "wumpus-basic",
@@ -17495,6 +18972,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_north_east",
           "normalized": "a-\u003eCatTrail a",
@@ -17509,6 +18987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_north_west",
           "package": "wumpus-basic",
@@ -17518,6 +18997,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_north_west",
           "normalized": "a-\u003eCatTrail a",
@@ -17532,6 +19012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_para",
           "package": "wumpus-basic",
@@ -17541,6 +19022,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_para",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17555,6 +19037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_perp",
           "package": "wumpus-basic",
@@ -17564,6 +19047,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_perp",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17578,6 +19062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_right",
           "package": "wumpus-basic",
@@ -17587,6 +19072,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_right",
           "normalized": "a-\u003eCatTrail a",
@@ -17601,6 +19087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_south",
           "package": "wumpus-basic",
@@ -17610,6 +19097,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_south",
           "normalized": "a-\u003eCatTrail a",
@@ -17624,6 +19112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_south_east",
           "package": "wumpus-basic",
@@ -17633,6 +19122,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_south_east",
           "normalized": "a-\u003eCatTrail a",
@@ -17647,6 +19137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_south_west",
           "package": "wumpus-basic",
@@ -17656,6 +19147,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_south_west",
           "normalized": "a-\u003eCatTrail a",
@@ -17671,6 +19163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the line \u003ccode\u003ea-o\u003c/code\u003e when supplied length of \u003ccode\u003eb-o\u003c/code\u003e and the \n grazing angle \u003ccode\u003eboa\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e    a\n    .\\\n    . \\\n  ..b..o\n\u003c/pre\u003e\u003cp\u003eThis is useful for building arrowhead vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_adj_grazing",
           "package": "wumpus-basic",
@@ -17681,6 +19174,7 @@
         "index": {
           "description": "Return the line a-o when supplied length of b-o and the grazing angle boa b..o This is useful for building arrowhead vectors",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_adj_grazing",
           "normalized": "a-\u003eRadian-\u003eRadian-\u003eCatTrail a",
@@ -17696,6 +19190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the line \u003ccode\u003eo-c\u003c/code\u003e when supplied length of \u003ccode\u003eb-o\u003c/code\u003e and the \n grazing angle \u003ccode\u003eboc\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e  ..b..o\n    . /\n    ./\n    c\n\u003c/pre\u003e\u003cp\u003eThis is useful for building arrowhead vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_bkwd_adj_grazing",
           "package": "wumpus-basic",
@@ -17706,6 +19201,7 @@
         "index": {
           "description": "Return the line o-c when supplied length of b-o and the grazing angle boc b..o This is useful for building arrowhead vectors",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_bkwd_adj_grazing",
           "normalized": "a-\u003eRadian-\u003eRadian-\u003eCatTrail a",
@@ -17720,6 +19216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_down",
           "package": "wumpus-basic",
@@ -17729,6 +19226,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_down",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17743,6 +19241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_down_left",
           "package": "wumpus-basic",
@@ -17752,6 +19251,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_down_left",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17766,6 +19266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_down_right",
           "package": "wumpus-basic",
@@ -17775,6 +19276,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_down_right",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17789,6 +19291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_east",
           "package": "wumpus-basic",
@@ -17798,6 +19301,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_east",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17812,6 +19316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_left",
           "package": "wumpus-basic",
@@ -17821,6 +19326,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_left",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17835,6 +19341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_north",
           "package": "wumpus-basic",
@@ -17844,6 +19351,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_north",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17858,6 +19366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_north_east",
           "package": "wumpus-basic",
@@ -17867,6 +19376,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_north_east",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17881,6 +19391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_north_west",
           "package": "wumpus-basic",
@@ -17890,6 +19401,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_north_west",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17904,6 +19416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_right",
           "package": "wumpus-basic",
@@ -17913,6 +19426,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_right",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17927,6 +19441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_south",
           "package": "wumpus-basic",
@@ -17936,6 +19451,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_south",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17950,6 +19466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_south_east",
           "package": "wumpus-basic",
@@ -17959,6 +19476,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_south_east",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17973,6 +19491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_south_west",
           "package": "wumpus-basic",
@@ -17982,6 +19501,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_south_west",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -17996,6 +19516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_up",
           "package": "wumpus-basic",
@@ -18005,6 +19526,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_up",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -18019,6 +19541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_up_left",
           "package": "wumpus-basic",
@@ -18028,6 +19551,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_up_left",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -18042,6 +19566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_up_right",
           "package": "wumpus-basic",
@@ -18051,6 +19576,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_up_right",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -18065,6 +19591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_west",
           "package": "wumpus-basic",
@@ -18074,6 +19601,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_theta_west",
           "normalized": "a-\u003eRadian-\u003eCatTrail a",
@@ -18088,6 +19616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_up",
           "package": "wumpus-basic",
@@ -18097,6 +19626,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_up",
           "normalized": "a-\u003eCatTrail a",
@@ -18111,6 +19641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_up_left",
           "package": "wumpus-basic",
@@ -18120,6 +19651,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_up_left",
           "normalized": "a-\u003eCatTrail a",
@@ -18134,6 +19666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_up_right",
           "package": "wumpus-basic",
@@ -18143,6 +19676,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_up_right",
           "normalized": "a-\u003eCatTrail a",
@@ -18157,6 +19691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_west",
           "package": "wumpus-basic",
@@ -18166,6 +19701,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trail_west",
           "normalized": "a-\u003eCatTrail a",
@@ -18181,6 +19717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurve in a trapezium.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trapCurve",
           "package": "wumpus-basic",
@@ -18191,6 +19728,7 @@
         "index": {
           "description": "Curve in trapezium",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "trapCurve",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003eRadian-\u003eRadian-\u003eCatTrail a",
@@ -18207,6 +19745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etriCurve\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e clock_direction * base_width * height * \n      base_inclination -\u003e CatTrail \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCurve in a triangle - base_width and height are expected to \n be positive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "triCurve",
           "package": "wumpus-basic",
@@ -18217,6 +19756,7 @@
         "index": {
           "description": "triCurve clock direction base width height base inclination CatTrail Curve in triangle base width and height are expected to be positive",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "triCurve",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -18233,6 +19773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWedge curve formed inside a bowtie rotated by 90deg.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "wedgeCurve",
           "package": "wumpus-basic",
@@ -18243,6 +19784,7 @@
         "index": {
           "description": "Wedge curve formed inside bowtie rotated by deg",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "wedgeCurve",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003eRadian-\u003eCatTrail a",
@@ -18259,6 +19801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewedgeTrail : radius * apex_angle\n\u003c/p\u003e\u003cp\u003eWedge is drawn at the apex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "wedgeTrail",
           "package": "wumpus-basic",
@@ -18269,6 +19812,7 @@
         "index": {
           "description": "wedgeTrail radius apex angle Wedge is drawn at the apex",
           "hierarchy": "Wumpus Basic Kernel Objects Trail",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel.Objects.Trail",
           "name": "wedgeTrail",
           "normalized": "a-\u003eRadian-\u003eRadian-\u003eAnaTrail a",
@@ -18285,6 +19829,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImport shim for \u003ccode\u003eWumpus.Basic.Kernel\u003c/code\u003e modules.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eKernel.Base\u003c/code\u003e - low-level objects, general enumerations, unit \n and \u003ccode\u003eDrawingContext\u003c/code\u003e support. \u003ccode\u003eDrawingContext\u003c/code\u003e is comparative \n to the \u003cem\u003egraphics state\u003c/em\u003e in PostScript, but it is a read-only\n environment (cf. the Reader monad). Like the Reader monad it \n supports branching update through \u003ccode\u003elocal\u003c/code\u003e - here called \n \u003ccode\u003elocalize\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eKernel.Objects\u003c/code\u003e - \"elementary\" drawing objects, plus some \n catalogues of named, predefined drawing objects \n (DrawingPrimitives) and useful operations (named vectors - \n Displacement).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eKernel.Drawing\u003c/code\u003e - \"collective\" drawing objects. \u003ccode\u003eDrawing\u003c/code\u003e is \n considered a higher layer than \u003ccode\u003eObjects\u003c/code\u003e, so there should be \n dependencies only from \u003ccode\u003eDrawing\u003c/code\u003e to \u003ccode\u003eObjects\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Kernel",
           "name": "Kernel",
           "package": "wumpus-basic",
@@ -18294,6 +19839,7 @@
         "index": {
           "description": "Import shim for Wumpus.Basic.Kernel modules Kernel.Base low-level objects general enumerations unit and DrawingContext support DrawingContext is comparative to the graphics state in PostScript but it is read-only environment cf the Reader monad Like the Reader monad it supports branching update through local here called localize Kernel.Objects elementary drawing objects plus some catalogues of named predefined drawing objects DrawingPrimitives and useful operations named vectors Displacement Kernel.Drawing collective drawing objects Drawing is considered higher layer than Objects so there should be dependencies only from Drawing to Objects",
           "hierarchy": "Wumpus Basic Kernel",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Kernel",
           "name": "Kernel",
           "package": "wumpus-basic",
@@ -18308,6 +19854,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon parsers for AFM files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "AfmParserBase",
           "package": "wumpus-basic",
@@ -18317,6 +19864,7 @@
         "index": {
           "description": "Common parsers for AFM files",
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "AfmParserBase",
           "package": "wumpus-basic",
@@ -18330,6 +19878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "afmFileParser",
           "package": "wumpus-basic",
@@ -18339,6 +19888,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "afmFileParser",
           "normalized": "CharParser AfmGlyphMetrics-\u003eCharParser AfmFile",
@@ -18354,6 +19904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "charBBox",
           "package": "wumpus-basic",
@@ -18363,6 +19914,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "charBBox",
           "package": "wumpus-basic",
@@ -18376,6 +19928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "cint",
           "package": "wumpus-basic",
@@ -18385,6 +19938,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "cint",
           "package": "wumpus-basic",
@@ -18397,6 +19951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "double",
           "package": "wumpus-basic",
@@ -18406,6 +19961,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "double",
           "package": "wumpus-basic",
@@ -18418,6 +19974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "getCapHeight",
           "package": "wumpus-basic",
@@ -18427,6 +19984,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "getCapHeight",
           "normalized": "GlobalInfo-\u003eMaybe AfmUnit",
@@ -18442,6 +20000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "getEncodingScheme",
           "package": "wumpus-basic",
@@ -18451,6 +20010,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "getEncodingScheme",
           "normalized": "GlobalInfo-\u003eMaybe String",
@@ -18467,6 +20027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly speaking a fontBBox is measured in integer units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "getFontBBox",
           "package": "wumpus-basic",
@@ -18477,6 +20038,7 @@
         "index": {
           "description": "Strictly speaking fontBBox is measured in integer units",
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "getFontBBox",
           "normalized": "GlobalInfo-\u003eMaybe AfmBoundingBox",
@@ -18492,6 +20054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "hexInt",
           "package": "wumpus-basic",
@@ -18501,6 +20064,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "hexInt",
           "package": "wumpus-basic",
@@ -18514,6 +20078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "int",
           "package": "wumpus-basic",
@@ -18523,6 +20088,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "int",
           "package": "wumpus-basic",
@@ -18535,6 +20101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "integer",
           "package": "wumpus-basic",
@@ -18544,6 +20111,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "integer",
           "package": "wumpus-basic",
@@ -18556,6 +20124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "keyName",
           "package": "wumpus-basic",
@@ -18565,6 +20134,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "keyName",
           "package": "wumpus-basic",
@@ -18578,6 +20148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "keyStringPair",
           "package": "wumpus-basic",
@@ -18587,6 +20158,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "keyStringPair",
           "normalized": "CharParser(AfmKey,String)",
@@ -18602,6 +20174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "lexeme",
           "package": "wumpus-basic",
@@ -18611,6 +20184,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "lexeme",
           "normalized": "CharParser a-\u003eCharParser a",
@@ -18625,6 +20199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "metric",
           "package": "wumpus-basic",
@@ -18634,6 +20209,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "metric",
           "normalized": "String-\u003ea-\u003eCharParser a-\u003eCharParser a",
@@ -18648,6 +20224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "name",
           "package": "wumpus-basic",
@@ -18657,6 +20234,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "name",
           "package": "wumpus-basic",
@@ -18669,6 +20247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "name1",
           "package": "wumpus-basic",
@@ -18678,6 +20257,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "name1",
           "package": "wumpus-basic",
@@ -18690,6 +20270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "newlineOrEOF",
           "package": "wumpus-basic",
@@ -18699,6 +20280,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "newlineOrEOF",
           "normalized": "CharParser()",
@@ -18714,6 +20296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "number",
           "package": "wumpus-basic",
@@ -18723,6 +20306,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "number",
           "package": "wumpus-basic",
@@ -18735,6 +20319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "octInt",
           "package": "wumpus-basic",
@@ -18744,6 +20329,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "octInt",
           "package": "wumpus-basic",
@@ -18757,6 +20343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "runQuery",
           "package": "wumpus-basic",
@@ -18766,6 +20353,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "runQuery",
           "normalized": "String-\u003eCharParser a-\u003eGlobalInfo-\u003eMaybe a",
@@ -18781,6 +20369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "semi",
           "package": "wumpus-basic",
@@ -18790,6 +20379,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "semi",
           "package": "wumpus-basic",
@@ -18802,6 +20392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "startCharMetrics",
           "package": "wumpus-basic",
@@ -18811,6 +20402,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "startCharMetrics",
           "package": "wumpus-basic",
@@ -18824,6 +20416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "symbol",
           "package": "wumpus-basic",
@@ -18833,6 +20426,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "symbol",
           "normalized": "String-\u003eCharParser String",
@@ -18847,6 +20441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "textQuery",
           "package": "wumpus-basic",
@@ -18856,6 +20451,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "textQuery",
           "normalized": "String-\u003eGlobalInfo-\u003eMaybe String",
@@ -18871,6 +20467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "uptoNewline",
           "package": "wumpus-basic",
@@ -18880,6 +20477,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "uptoNewline",
           "package": "wumpus-basic",
@@ -18893,6 +20491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "versionNumber",
           "package": "wumpus-basic",
@@ -18902,6 +20501,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmParserBase",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmParserBase",
           "name": "versionNumber",
           "package": "wumpus-basic",
@@ -18916,6 +20516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop-level AFM V4.1 font loader. \n\u003c/p\u003e\u003cp\u003eUse this module to build a font loader if you want to work with \n the Adobe metrics sets, but find the \u003ccode\u003esimpleFontLoader\u003c/code\u003e in \n \u003ccode\u003eWumpus.Basic.System.FontLoader\u003c/code\u003e too inflexible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmTopLevel",
           "name": "AfmTopLevel",
           "package": "wumpus-basic",
@@ -18925,6 +20526,7 @@
         "index": {
           "description": "Top-level AFM V4.1 font loader Use this module to build font loader if you want to work with the Adobe metrics sets but find the simpleFontLoader in Wumpus.Basic.System.FontLoader too inflexible",
           "hierarchy": "Wumpus Basic System FontLoader AfmTopLevel",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmTopLevel",
           "name": "AfmTopLevel",
           "package": "wumpus-basic",
@@ -18939,6 +20541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eloadAfmFont1\u003c/a\u003e\u003c/code\u003e : \n \u003ccode\u003e path_to_afm_fonts * font_def -\u003e IO FontLoadResult \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eLoad a single AFM font. \n\u003c/p\u003e\u003cp\u003eNote - if the font fails to load a message is written to the \n log and monospaced \u003cem\u003efallback metrics\u003c/em\u003e are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmTopLevel",
           "name": "loadAfmFont1",
           "package": "wumpus-basic",
@@ -18949,6 +20552,7 @@
         "index": {
           "description": "loadAfmFont1 path to afm fonts font def IO FontLoadResult Load single AFM font Note if the font fails to load message is written to the log and monospaced fallback metrics are used",
           "hierarchy": "Wumpus Basic System FontLoader AfmTopLevel",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmTopLevel",
           "name": "loadAfmFont1",
           "normalized": "FilePath-\u003eFontDef-\u003eIO FontLoadResult",
@@ -18965,6 +20569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eloadAfmFontMetrics\u003c/a\u003e\u003c/code\u003e : \n \u003ccode\u003e path_to_afm_fonts * [font_name] -\u003e IO FontLoadResult \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eLoad the supplied list of fonts. \n\u003c/p\u003e\u003cp\u003eNote - if a font fails to load a message is written to the \n log and monospaced \u003cem\u003efallback metrics\u003c/em\u003e are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmTopLevel",
           "name": "loadAfmFontMetrics",
           "package": "wumpus-basic",
@@ -18975,6 +20580,7 @@
         "index": {
           "description": "loadAfmFontMetrics path to afm fonts font name IO FontLoadResult Load the supplied list of fonts Note if font fails to load message is written to the log and monospaced fallback metrics are used",
           "hierarchy": "Wumpus Basic System FontLoader AfmTopLevel",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmTopLevel",
           "name": "loadAfmFontMetrics",
           "normalized": "FilePath-\u003e[FontDef]-\u003eIO FontLoadResult",
@@ -18991,6 +20597,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAFM file parser for Version 2.0.\n\u003c/p\u003e\u003cp\u003eNote - AFM Version 2.0 used by GhostScript and Version 3.0+\n have numerous differences. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmV2Parser",
           "name": "AfmV2Parser",
           "package": "wumpus-basic",
@@ -19000,6 +20607,7 @@
         "index": {
           "description": "AFM file parser for Version Note AFM Version used by GhostScript and Version have numerous differences",
           "hierarchy": "Wumpus Basic System FontLoader AfmV2Parser",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmV2Parser",
           "name": "AfmV2Parser",
           "package": "wumpus-basic",
@@ -19013,6 +20621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmV2Parser",
           "name": "afmV2Parser",
           "package": "wumpus-basic",
@@ -19022,6 +20631,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmV2Parser",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmV2Parser",
           "name": "afmV2Parser",
           "package": "wumpus-basic",
@@ -19036,6 +20646,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAFM file parser for Version 4.1.\n\u003c/p\u003e\u003cp\u003eAdobe distributes font metrics for the \u003cem\u003eCore 14\u003c/em\u003e fonts as\n AFM Version 4.1 files.  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmV4Dot1Parser",
           "name": "AfmV4Dot1Parser",
           "package": "wumpus-basic",
@@ -19045,6 +20656,7 @@
         "index": {
           "description": "AFM file parser for Version Adobe distributes font metrics for the Core fonts as AFM Version files",
           "hierarchy": "Wumpus Basic System FontLoader AfmV4Dot1Parser",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmV4Dot1Parser",
           "name": "AfmV4Dot1Parser",
           "package": "wumpus-basic",
@@ -19058,6 +20670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.AfmV4Dot1Parser",
           "name": "afmV4Dot1Parser",
           "package": "wumpus-basic",
@@ -19067,6 +20680,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader AfmV4Dot1Parser",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.AfmV4Dot1Parser",
           "name": "afmV4Dot1Parser",
           "package": "wumpus-basic",
@@ -19081,6 +20695,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "Datatypes",
           "package": "wumpus-basic",
@@ -19090,6 +20705,7 @@
         "index": {
           "description": "Datatypes",
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "Datatypes",
           "package": "wumpus-basic",
@@ -19103,6 +20719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmBoundingBox",
           "package": "wumpus-basic",
@@ -19111,6 +20728,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmBoundingBox",
           "package": "wumpus-basic",
@@ -19125,6 +20743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWumpus needs a very small subset of AFM files, common to both\n version 2.0 and version 4.1.\n\u003c/p\u003e\u003cp\u003eNote - Bounding Box is mandatory for AFM versions 3.0 and 4.1\n\u003c/p\u003e\u003cp\u003eCap Height is optional in AFM versions 3.0 and 4.1. As Wumpus \n uses cap height in calculations, glyph metrics must be build \n with an arbitrary value if it is not present.\n\u003c/p\u003e\u003cp\u003eEncoding Scheme is optional in AFM files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmFile",
           "package": "wumpus-basic",
@@ -19134,6 +20753,7 @@
         "index": {
           "description": "Wumpus needs very small subset of AFM files common to both version and version Note Bounding Box is mandatory for AFM versions and Cap Height is optional in AFM versions and As Wumpus uses cap height in calculations glyph metrics must be build with an arbitrary value if it is not present Encoding Scheme is optional in AFM files",
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmFile",
           "package": "wumpus-basic",
@@ -19147,6 +20767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmGlyphMetrics",
           "package": "wumpus-basic",
@@ -19155,6 +20776,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmGlyphMetrics",
           "package": "wumpus-basic",
@@ -19168,6 +20790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmKey",
           "package": "wumpus-basic",
@@ -19176,6 +20799,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmKey",
           "package": "wumpus-basic",
@@ -19190,6 +20814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe metrics read from a font file by a font loader. \n\u003c/p\u003e\u003cp\u003eNOTE - FontProps is parametric on \u003ccode\u003ecu\u003c/code\u003e - \u003cem\u003eCharacter Unit\u003c/em\u003e and \n not on the usual \u003ccode\u003eu\u003c/code\u003e. A typical character unit is \u003ccode\u003e\u003ca\u003eAfmUnit\u003c/a\u003e\u003c/code\u003e, \n the unit of measurement for AFM files (1000th of a point).\n\u003c/p\u003e\u003cp\u003eThe is the initial representation used by Wumpus-Basic as an\n syntax tree when loading font files. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "FontProps",
           "package": "wumpus-basic",
@@ -19199,6 +20824,7 @@
         "index": {
           "description": "The metrics read from font file by font loader NOTE FontProps is parametric on cu Character Unit and not on the usual typical character unit is AfmUnit the unit of measurement for AFM files th of point The is the initial representation used by Wumpus-Basic as an syntax tree when loading font files",
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "FontProps",
           "package": "wumpus-basic",
@@ -19212,6 +20838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "GlobalInfo",
           "package": "wumpus-basic",
@@ -19220,6 +20847,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "GlobalInfo",
           "package": "wumpus-basic",
@@ -19234,6 +20862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonospace defaults are used if the font loader fails to \n extract the necessary fields.\n\u003c/p\u003e\u003cp\u003eThe values are taken from the font correpsonding to Courier \n in the distributed font files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "MonospaceDefaults",
           "package": "wumpus-basic",
@@ -19243,6 +20872,7 @@
         "index": {
           "description": "Monospace defaults are used if the font loader fails to extract the necessary fields The values are taken from the font correpsonding to Courier in the distributed font files",
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "MonospaceDefaults",
           "package": "wumpus-basic",
@@ -19257,6 +20887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfm files index glyphs by \u003cem\u003ePostScript character code\u003c/em\u003e. This \n is not the same as Unicode, ASCII...\n\u003c/p\u003e\u003cp\u003eIt is expected to be determined by \u003ccode\u003eEncodingScheme\u003c/code\u003e in the\n Global Font Information Section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "PSCharCode",
           "package": "wumpus-basic",
@@ -19266,6 +20897,7 @@
         "index": {
           "description": "Afm files index glyphs by PostScript character code This is not the same as Unicode ASCII It is expected to be determined by EncodingScheme in the Global Font Information Section",
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "PSCharCode",
           "package": "wumpus-basic",
@@ -19279,6 +20911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "PSEncodingScheme",
           "package": "wumpus-basic",
@@ -19287,6 +20920,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "PSEncodingScheme",
           "package": "wumpus-basic",
@@ -19300,6 +20934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmFile",
           "package": "wumpus-basic",
@@ -19309,6 +20944,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmFile",
           "package": "wumpus-basic",
@@ -19322,6 +20958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmGlyphMetrics",
           "package": "wumpus-basic",
@@ -19331,6 +20968,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "AfmGlyphMetrics",
           "package": "wumpus-basic",
@@ -19344,6 +20982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "FontProps",
           "package": "wumpus-basic",
@@ -19353,6 +20992,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "FontProps",
           "package": "wumpus-basic",
@@ -19366,6 +21006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "MonospaceDefaults",
           "package": "wumpus-basic",
@@ -19375,6 +21016,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "MonospaceDefaults",
           "package": "wumpus-basic",
@@ -19388,6 +21030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_cap_height",
           "package": "wumpus-basic",
@@ -19397,6 +21040,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_cap_height",
           "package": "wumpus-basic",
@@ -19409,6 +21053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_char_code",
           "package": "wumpus-basic",
@@ -19418,6 +21063,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_char_code",
           "package": "wumpus-basic",
@@ -19430,6 +21076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_char_name",
           "package": "wumpus-basic",
@@ -19439,6 +21086,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_char_name",
           "package": "wumpus-basic",
@@ -19451,6 +21099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_descender",
           "package": "wumpus-basic",
@@ -19460,6 +21109,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_descender",
           "package": "wumpus-basic",
@@ -19472,6 +21122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_encoding",
           "package": "wumpus-basic",
@@ -19481,6 +21132,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_encoding",
           "package": "wumpus-basic",
@@ -19493,6 +21145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_glyph_metrics",
           "package": "wumpus-basic",
@@ -19502,6 +21155,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_glyph_metrics",
           "normalized": "[AfmGlyphMetrics]",
@@ -19516,6 +21170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_letter_bbox",
           "package": "wumpus-basic",
@@ -19525,6 +21180,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_letter_bbox",
           "package": "wumpus-basic",
@@ -19537,6 +21193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_underline_position",
           "package": "wumpus-basic",
@@ -19546,6 +21203,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_underline_position",
           "package": "wumpus-basic",
@@ -19558,6 +21216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_underline_thickness",
           "package": "wumpus-basic",
@@ -19567,6 +21226,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_underline_thickness",
           "package": "wumpus-basic",
@@ -19579,6 +21239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_width_vector",
           "package": "wumpus-basic",
@@ -19588,6 +21249,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "afm_width_vector",
           "package": "wumpus-basic",
@@ -19601,6 +21263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a MetricsOps function table, from a character unit\n scaling function and FontProps read from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "buildMetricsOps",
           "package": "wumpus-basic",
@@ -19611,6 +21274,7 @@
         "index": {
           "description": "Build MetricsOps function table from character unit scaling function and FontProps read from file",
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "buildMetricsOps",
           "normalized": "(FontSize-\u003ea-\u003eDouble)-\u003eFontProps a-\u003eFontMetrics",
@@ -19626,6 +21290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_cap_height",
           "package": "wumpus-basic",
@@ -19635,6 +21300,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_cap_height",
           "package": "wumpus-basic",
@@ -19647,6 +21313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_char_width",
           "package": "wumpus-basic",
@@ -19656,6 +21323,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_char_width",
           "package": "wumpus-basic",
@@ -19668,6 +21336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_descender",
           "package": "wumpus-basic",
@@ -19677,6 +21346,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_descender",
           "package": "wumpus-basic",
@@ -19689,6 +21359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_letter_bbox",
           "package": "wumpus-basic",
@@ -19698,6 +21369,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_letter_bbox",
           "package": "wumpus-basic",
@@ -19710,6 +21382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_underline_position",
           "package": "wumpus-basic",
@@ -19719,6 +21392,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_underline_position",
           "package": "wumpus-basic",
@@ -19731,6 +21405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_underline_thickness",
           "package": "wumpus-basic",
@@ -19740,6 +21415,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "default_underline_thickness",
           "package": "wumpus-basic",
@@ -19752,6 +21428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_adv_vecs",
           "package": "wumpus-basic",
@@ -19761,6 +21438,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_adv_vecs",
           "package": "wumpus-basic",
@@ -19773,6 +21451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_bounding_box",
           "package": "wumpus-basic",
@@ -19782,6 +21461,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_bounding_box",
           "package": "wumpus-basic",
@@ -19794,6 +21474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_cap_height",
           "package": "wumpus-basic",
@@ -19803,6 +21484,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_cap_height",
           "package": "wumpus-basic",
@@ -19815,6 +21497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_default_adv_vec",
           "package": "wumpus-basic",
@@ -19824,6 +21507,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_default_adv_vec",
           "package": "wumpus-basic",
@@ -19836,6 +21520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_descender",
           "package": "wumpus-basic",
@@ -19845,6 +21530,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_descender",
           "package": "wumpus-basic",
@@ -19857,6 +21543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_underline_position",
           "package": "wumpus-basic",
@@ -19866,6 +21553,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_underline_position",
           "package": "wumpus-basic",
@@ -19878,6 +21566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_underline_thickness",
           "package": "wumpus-basic",
@@ -19887,6 +21576,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader Datatypes",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.Datatypes",
           "name": "fp_underline_thickness",
           "package": "wumpus-basic",
@@ -19900,6 +21590,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFont load monad handling IO (file system access), failure and \n logging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "FontLoadMonad",
           "package": "wumpus-basic",
@@ -19909,6 +21600,7 @@
         "index": {
           "description": "Font load monad handling IO file system access failure and logging",
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "FontLoadMonad",
           "package": "wumpus-basic",
@@ -19922,6 +21614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "FontLoadIO",
           "package": "wumpus-basic",
@@ -19930,6 +21623,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "FontLoadIO",
           "package": "wumpus-basic",
@@ -19944,6 +21638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfm files do not have a default advance vec so use the \n monospace default.\n\u003c/p\u003e\u003cp\u003eAfm files hopefully have \u003ccode\u003eCapHeight\u003c/code\u003e and \u003ccode\u003eFontBBox\u003c/code\u003e properties\n in the header. Use the monospace default only if they are \n missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "buildAfmFontProps",
           "package": "wumpus-basic",
@@ -19954,6 +21649,7 @@
         "index": {
           "description": "Afm files do not have default advance vec so use the monospace default Afm files hopefully have CapHeight and FontBBox properties in the header Use the monospace default only if they are missing",
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "buildAfmFontProps",
           "normalized": "MonospaceDefaults AfmUnit-\u003eAfmFile-\u003eFontLoadIO(FontProps AfmUnit)",
@@ -19969,6 +21665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "checkFontPath",
           "package": "wumpus-basic",
@@ -19978,6 +21675,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "checkFontPath",
           "normalized": "FilePath-\u003eFilePath-\u003eFontLoadIO FilePath",
@@ -19993,6 +21691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "evalFontLoadIO",
           "package": "wumpus-basic",
@@ -20002,6 +21701,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "evalFontLoadIO",
           "normalized": "FontLoadIO a-\u003eIO(Either FontLoadMsg a)",
@@ -20017,6 +21717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "loadError",
           "package": "wumpus-basic",
@@ -20026,6 +21727,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "loadError",
           "normalized": "FontLoadMsg-\u003eFontLoadIO a",
@@ -20041,6 +21743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "promoteEither",
           "package": "wumpus-basic",
@@ -20050,6 +21753,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "promoteEither",
           "normalized": "Either FontLoadMsg a-\u003eFontLoadIO a",
@@ -20066,6 +21770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote an \u003ccode\u003eIO\u003c/code\u003e action into the the \u003ccode\u003eFontLoadIO\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eThis function is equivalent to \u003ccode\u003eliftIO\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "promoteIO",
           "package": "wumpus-basic",
@@ -20076,6 +21781,7 @@
         "index": {
           "description": "Promote an IO action into the the FontLoadIO monad This function is equivalent to liftIO",
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "promoteIO",
           "normalized": "IO a-\u003eFontLoadIO a",
@@ -20091,6 +21797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "runFontLoadIO",
           "package": "wumpus-basic",
@@ -20100,6 +21807,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "runFontLoadIO",
           "normalized": "FontLoadIO a-\u003eIO(Either FontLoadMsg a,FontLoadLog)",
@@ -20115,6 +21823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "runParserFLIO",
           "package": "wumpus-basic",
@@ -20124,6 +21833,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "runParserFLIO",
           "normalized": "FilePath-\u003eParser Char a-\u003eFontLoadIO a",
@@ -20140,6 +21850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard monadic \u003ccode\u003esequence\u003c/code\u003e would finish on first fail\n for the FontLoadIO monad. As we want to be able to sequence\n the loading of a list of fonts, this is not really the \n behaviour we want for Wumpus. Instead we prefer to use fallback \n metrics and produce an inaccurate drawing on a font load error\n rather than fail and produce no drawing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "sequenceAll",
           "package": "wumpus-basic",
@@ -20150,6 +21861,7 @@
         "index": {
           "description": "The standard monadic sequence would finish on first fail for the FontLoadIO monad As we want to be able to sequence the loading of list of fonts this is not really the behaviour we want for Wumpus Instead we prefer to use fallback metrics and produce an inaccurate drawing on font load error rather than fail and produce no drawing",
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "sequenceAll",
           "normalized": "[FontLoadIO a]-\u003eFontLoadIO[a]",
@@ -20165,6 +21877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "tellLoadMsg",
           "package": "wumpus-basic",
@@ -20174,6 +21887,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader FontLoadMonad",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.FontLoadMonad",
           "name": "tellLoadMsg",
           "normalized": "String-\u003eFontLoadIO()",
@@ -20190,6 +21904,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop-level GhostScript font loader. \n\u003c/p\u003e\u003cp\u003eUse this module to build a font loader if you want to work with \n GhostScript, but find the \u003ccode\u003esimpleFontLoader\u003c/code\u003e in \n \u003ccode\u003eWumpus.Basic.System.FontLoader\u003c/code\u003e too inflexible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.GSTopLevel",
           "name": "GSTopLevel",
           "package": "wumpus-basic",
@@ -20199,6 +21914,7 @@
         "index": {
           "description": "Top-level GhostScript font loader Use this module to build font loader if you want to work with GhostScript but find the simpleFontLoader in Wumpus.Basic.System.FontLoader too inflexible",
           "hierarchy": "Wumpus Basic System FontLoader GSTopLevel",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.GSTopLevel",
           "name": "GSTopLevel",
           "package": "wumpus-basic",
@@ -20213,6 +21929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eloadGSFont1\u003c/a\u003e\u003c/code\u003e : \n \u003ccode\u003e path_to_gs_fonts * font_name -\u003e IO FontLoadResult \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eLoad a single GhostScript font. \n\u003c/p\u003e\u003cp\u003eNote - if the font fails to load a message is written to the \n log and monospaced \u003cem\u003efallback metrics\u003c/em\u003e are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.GSTopLevel",
           "name": "loadGSFont1",
           "package": "wumpus-basic",
@@ -20223,6 +21940,7 @@
         "index": {
           "description": "loadGSFont1 path to gs fonts font name IO FontLoadResult Load single GhostScript font Note if the font fails to load message is written to the log and monospaced fallback metrics are used",
           "hierarchy": "Wumpus Basic System FontLoader GSTopLevel",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.GSTopLevel",
           "name": "loadGSFont1",
           "normalized": "FilePath-\u003eFontDef-\u003eIO FontLoadResult",
@@ -20239,6 +21957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eloadGSFontMetrics\u003c/a\u003e\u003c/code\u003e : \n \u003ccode\u003e path_to_gs_fonts * [font_name] -\u003e IO FontLoadResult \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eLoad the supplied list of fonts. \n\u003c/p\u003e\u003cp\u003eNote - if a font fails to load a message is written to the \n log and monospaced \u003cem\u003efallback metrics\u003c/em\u003e are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader.GSTopLevel",
           "name": "loadGSFontMetrics",
           "package": "wumpus-basic",
@@ -20249,6 +21968,7 @@
         "index": {
           "description": "loadGSFontMetrics path to gs fonts font name IO FontLoadResult Load the supplied list of fonts Note if font fails to load message is written to the log and monospaced fallback metrics are used",
           "hierarchy": "Wumpus Basic System FontLoader GSTopLevel",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader.GSTopLevel",
           "name": "loadGSFontMetrics",
           "normalized": "FilePath-\u003e[FontDef]-\u003eIO FontLoadResult",
@@ -20265,6 +21985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop level module for font loading...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "FontLoader",
           "package": "wumpus-basic",
@@ -20274,6 +21995,7 @@
         "index": {
           "description": "Top level module for font loading",
           "hierarchy": "Wumpus Basic System FontLoader",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "FontLoader",
           "package": "wumpus-basic",
@@ -20288,6 +22010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA FontLoader is an action from a list of fonts to a\n \u003ccode\u003e\u003ca\u003eFontLoadResult\u003c/a\u003e\u003c/code\u003e returned in \u003ccode\u003eIO\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFonts are supplied in a list of \u003ccode\u003eEither FontDef FontFamily\u003c/code\u003e,\n this is a little cumbersome but it allows the loader to load\n individual fonts and / or a whole families with a single API\n call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "FontLoader",
           "package": "wumpus-basic",
@@ -20297,6 +22020,7 @@
         "index": {
           "description": "FontLoader is an action from list of fonts to FontLoadResult returned in IO Fonts are supplied in list of Either FontDef FontFamily this is little cumbersome but it allows the loader to load individual fonts and or whole families with single API call",
           "hierarchy": "Wumpus Basic System FontLoader",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "FontLoader",
           "package": "wumpus-basic",
@@ -20310,6 +22034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "afmLoaderByEnv",
           "package": "wumpus-basic",
@@ -20319,6 +22044,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "afmLoaderByEnv",
           "package": "wumpus-basic",
@@ -20332,6 +22058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "default_font_loader_help",
           "package": "wumpus-basic",
@@ -20341,6 +22068,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "default_font_loader_help",
           "package": "wumpus-basic",
@@ -20353,6 +22081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "gsLoaderByEnv",
           "package": "wumpus-basic",
@@ -20362,6 +22091,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic System FontLoader",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "gsLoaderByEnv",
           "package": "wumpus-basic",
@@ -20376,6 +22106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to find the GhostScript metrics first...\n\u003c/p\u003e\u003cp\u003eRuns the IO action on the loader if it finds one.\n\u003c/p\u003e\u003cp\u003eEither of one of the environment variables \n \u003ccode\u003eWUMPUS_AFM_FONT_DIR\u003c/code\u003e or \u003ccode\u003eWUMPUS_GS_FONT_DIR\u003c/code\u003e must be defined\n and point to their respective directory. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "simpleFontLoader",
           "package": "wumpus-basic",
@@ -20386,6 +22117,7 @@
         "index": {
           "description": "Tries to find the GhostScript metrics first Runs the IO action on the loader if it finds one Either of one of the environment variables WUMPUS AFM FONT DIR or WUMPUS GS FONT DIR must be defined and point to their respective directory",
           "hierarchy": "Wumpus Basic System FontLoader",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.System.FontLoader",
           "name": "simpleFontLoader",
           "normalized": "(FontLoader-\u003eIO a)-\u003eIO(Maybe a)",
@@ -20402,6 +22134,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHughes list, ...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "HList",
           "package": "wumpus-basic",
@@ -20411,6 +22144,7 @@
         "index": {
           "description": "Hughes list",
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "HList",
           "package": "wumpus-basic",
@@ -20424,6 +22158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "H",
           "package": "wumpus-basic",
@@ -20432,6 +22167,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "H",
           "package": "wumpus-basic",
@@ -20444,6 +22180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "appendH",
           "package": "wumpus-basic",
@@ -20453,6 +22190,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "appendH",
           "normalized": "H a-\u003eH a-\u003eH a",
@@ -20467,6 +22205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "concatH",
           "package": "wumpus-basic",
@@ -20476,6 +22215,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "concatH",
           "normalized": "[H a]-\u003eH a",
@@ -20490,6 +22230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "consH",
           "package": "wumpus-basic",
@@ -20499,6 +22240,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "consH",
           "normalized": "a-\u003eH a-\u003eH a",
@@ -20513,6 +22255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "emptyH",
           "package": "wumpus-basic",
@@ -20522,6 +22265,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "emptyH",
           "package": "wumpus-basic",
@@ -20534,6 +22278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "fromListH",
           "package": "wumpus-basic",
@@ -20543,6 +22288,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "fromListH",
           "normalized": "[a]-\u003eH a",
@@ -20558,6 +22304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "prefixListH",
           "package": "wumpus-basic",
@@ -20567,6 +22314,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "prefixListH",
           "normalized": "H a-\u003e[a]-\u003e[a]",
@@ -20582,6 +22330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "snocH",
           "package": "wumpus-basic",
@@ -20591,6 +22340,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "snocH",
           "normalized": "H a-\u003ea-\u003eH a",
@@ -20605,6 +22355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "toListH",
           "package": "wumpus-basic",
@@ -20614,6 +22365,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "toListH",
           "normalized": "H a-\u003e[a]",
@@ -20629,6 +22381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "unfoldrH",
           "package": "wumpus-basic",
@@ -20638,6 +22391,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "unfoldrH",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003eH b",
@@ -20653,6 +22407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evelo consumes the list as per map, but builds it back\n as a Hughes list - so items can be dropped\n replaced, repeated, etc...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "veloH",
           "package": "wumpus-basic",
@@ -20663,6 +22418,7 @@
         "index": {
           "description": "velo consumes the list as per map but builds it back as Hughes list so items can be dropped replaced repeated etc",
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "veloH",
           "normalized": "(a-\u003eH b)-\u003e[a]-\u003eH b",
@@ -20677,6 +22433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "wrapH",
           "package": "wumpus-basic",
@@ -20686,6 +22443,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils HList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.HList",
           "name": "wrapH",
           "normalized": "a-\u003eH a",
@@ -20701,6 +22459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \"join list\" datatype and operations. \n\u003c/p\u003e\u003cp\u003eA join list is implemented a binary tree, so joining two \n lists (catenation, aka (++)) is a cheap operation. \n\u003c/p\u003e\u003cp\u003eThis constrasts with the regular list datatype which is a \n cons list: while consing on a regular list is by nature cheap, \n joining (++) is expensive. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "JoinList",
           "package": "wumpus-basic",
@@ -20710,6 +22469,7 @@
         "index": {
           "description": "join list datatype and operations join list is implemented binary tree so joining two lists catenation aka is cheap operation This constrasts with the regular list datatype which is cons list while consing on regular list is by nature cheap joining is expensive",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "JoinList",
           "package": "wumpus-basic",
@@ -20723,6 +22483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "JoinList",
           "package": "wumpus-basic",
@@ -20731,6 +22492,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "JoinList",
           "package": "wumpus-basic",
@@ -20744,6 +22506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "ViewL",
           "package": "wumpus-basic",
@@ -20752,6 +22515,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "ViewL",
           "package": "wumpus-basic",
@@ -20765,6 +22529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "ViewR",
           "package": "wumpus-basic",
@@ -20773,6 +22538,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "ViewR",
           "package": "wumpus-basic",
@@ -20786,6 +22552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": ":\u003c",
           "package": "wumpus-basic",
@@ -20795,6 +22562,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": ":\u003c",
           "package": "wumpus-basic",
@@ -20807,6 +22575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": ":\u003e",
           "package": "wumpus-basic",
@@ -20816,6 +22585,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": ":\u003e",
           "package": "wumpus-basic",
@@ -20828,6 +22598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "EmptyL",
           "package": "wumpus-basic",
@@ -20837,6 +22608,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "EmptyL",
           "package": "wumpus-basic",
@@ -20850,6 +22622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "EmptyR",
           "package": "wumpus-basic",
@@ -20859,6 +22632,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "EmptyR",
           "package": "wumpus-basic",
@@ -20872,6 +22646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "accumMapL",
           "package": "wumpus-basic",
@@ -20881,6 +22656,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "accumMapL",
           "normalized": "(a-\u003eb-\u003e(c,b))-\u003eJoinList a-\u003eb-\u003e(JoinList c,b)",
@@ -20897,6 +22673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCons an element to the front of the join list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "cons",
           "package": "wumpus-basic",
@@ -20907,6 +22684,7 @@
         "index": {
           "description": "Cons an element to the front of the join list",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "cons",
           "normalized": "a-\u003eJoinList a-\u003eJoinList a",
@@ -20922,6 +22700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty join list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "empty",
           "package": "wumpus-basic",
@@ -20932,6 +22711,7 @@
         "index": {
           "description": "Create an empty join list",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "empty",
           "package": "wumpus-basic",
@@ -20945,6 +22725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a join list from a regular list.\n\u003c/p\u003e\u003cp\u003eThis builds a tall skinny list.\n\u003c/p\u003e\u003cp\u003eWARNING - throws an error on empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "fromList",
           "package": "wumpus-basic",
@@ -20955,6 +22736,7 @@
         "index": {
           "description": "Build join list from regular list This builds tall skinny list WARNING throws an error on empty list",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "fromList",
           "normalized": "[a]-\u003eJoinList a",
@@ -20970,6 +22752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "fromListF",
           "package": "wumpus-basic",
@@ -20979,6 +22762,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "fromListF",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eJoinList b",
@@ -20995,6 +22779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first element of a join list - i.e. the leftmost\n element of the left spine. An error is thrown if the list is \n empty. \n\u003c/p\u003e\u003cp\u003eThis function performs a traversal down the left spine, so \n unlike \u003ccode\u003ehead\u003c/code\u003e on regular lists this function is not performed \n in constant time.\n\u003c/p\u003e\u003cp\u003eThis function throws a runtime error on the empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "head",
           "package": "wumpus-basic",
@@ -21005,6 +22790,7 @@
         "index": {
           "description": "Extract the first element of join list i.e the leftmost element of the left spine An error is thrown if the list is empty This function performs traversal down the left spine so unlike head on regular lists this function is not performed in constant time This function throws runtime error on the empty list",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "head",
           "normalized": "JoinList a-\u003ea",
@@ -21019,6 +22805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "join",
           "package": "wumpus-basic",
@@ -21028,6 +22815,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "join",
           "normalized": "JoinList a-\u003eJoinList a-\u003eJoinList a",
@@ -21042,6 +22830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "length",
           "package": "wumpus-basic",
@@ -21051,6 +22840,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "length",
           "normalized": "JoinList a-\u003eInt",
@@ -21065,6 +22855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "null",
           "package": "wumpus-basic",
@@ -21074,6 +22865,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "null",
           "normalized": "JoinList a-\u003eBool",
@@ -21089,6 +22881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a singleton join list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "one",
           "package": "wumpus-basic",
@@ -21099,6 +22892,7 @@
         "index": {
           "description": "Create singleton join list",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "one",
           "normalized": "a-\u003eJoinList a",
@@ -21114,6 +22908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnoc an element to the tail of the join list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "snoc",
           "package": "wumpus-basic",
@@ -21124,6 +22919,7 @@
         "index": {
           "description": "Snoc an element to the tail of the join list",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "snoc",
           "normalized": "JoinList a-\u003ea-\u003eJoinList a",
@@ -21138,6 +22934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "takeL",
           "package": "wumpus-basic",
@@ -21147,6 +22944,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "takeL",
           "normalized": "Int-\u003eJoinList a-\u003eJoinList a",
@@ -21161,6 +22959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "takeWhileL",
           "package": "wumpus-basic",
@@ -21170,6 +22969,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "takeWhileL",
           "normalized": "(a-\u003eBool)-\u003eJoinList a-\u003eJoinList a",
@@ -21186,6 +22986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a join list to a regular list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "toList",
           "package": "wumpus-basic",
@@ -21196,6 +22997,7 @@
         "index": {
           "description": "Convert join list to regular list",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "toList",
           "normalized": "JoinList a-\u003e[a]",
@@ -21211,6 +23013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "toListF",
           "package": "wumpus-basic",
@@ -21220,6 +23023,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "toListF",
           "normalized": "(a-\u003eb)-\u003eJoinList a-\u003e[b]",
@@ -21235,6 +23039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "toListM",
           "package": "wumpus-basic",
@@ -21244,6 +23049,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "toListM",
           "normalized": "(a-\u003eb c)-\u003eJoinList a-\u003eb[c]",
@@ -21259,6 +23065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "unViewL",
           "package": "wumpus-basic",
@@ -21268,6 +23075,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "unViewL",
           "normalized": "ViewL a-\u003eJoinList a",
@@ -21283,6 +23091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "unViewR",
           "package": "wumpus-basic",
@@ -21292,6 +23101,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "unViewR",
           "normalized": "ViewR a-\u003eJoinList a",
@@ -21308,6 +23118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the left end of a sequence.\n\u003c/p\u003e\u003cp\u003eUnlike the corresponing operation on Data.Sequence this is \n not a cheap operation, the joinlist must be traversed down \n the left spine to find the leftmost node.\n\u003c/p\u003e\u003cp\u003eAlso the traversal may involve changing the shape of the \n underlying binary tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "viewl",
           "package": "wumpus-basic",
@@ -21318,6 +23129,7 @@
         "index": {
           "description": "Access the left end of sequence Unlike the corresponing operation on Data.Sequence this is not cheap operation the joinlist must be traversed down the left spine to find the leftmost node Also the traversal may involve changing the shape of the underlying binary tree",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "viewl",
           "normalized": "JoinList a-\u003eViewL a",
@@ -21333,6 +23145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the right end of a sequence.\n\u003c/p\u003e\u003cp\u003eUnlike the corresponing operation on Data.Sequence this is \n not a cheap operation, the joinlist must be traversed down \n the left spine to find the leftmost node.\n\u003c/p\u003e\u003cp\u003eAlso the traversal may involve changing the shape of the \n underlying binary tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "viewr",
           "package": "wumpus-basic",
@@ -21343,6 +23156,7 @@
         "index": {
           "description": "Access the right end of sequence Unlike the corresponing operation on Data.Sequence this is not cheap operation the joinlist must be traversed down the left spine to find the leftmost node Also the traversal may involve changing the shape of the underlying binary tree",
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "viewr",
           "normalized": "JoinList a-\u003eViewR a",
@@ -21357,6 +23171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "zipWithIntoList",
           "package": "wumpus-basic",
@@ -21366,6 +23181,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils JoinList",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.JoinList",
           "name": "zipWithIntoList",
           "normalized": "(a-\u003eb-\u003ec)-\u003eJoinList a-\u003e[b]-\u003e[c]",
@@ -21382,6 +23198,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTwo continuation parser combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "ParserCombinators",
           "package": "wumpus-basic",
@@ -21391,6 +23208,7 @@
         "index": {
           "description": "Two continuation parser combinators",
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "ParserCombinators",
           "package": "wumpus-basic",
@@ -21404,6 +23222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "CharParser",
           "package": "wumpus-basic",
@@ -21412,6 +23231,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "CharParser",
           "package": "wumpus-basic",
@@ -21425,6 +23245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "CharResult",
           "package": "wumpus-basic",
@@ -21433,6 +23254,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "CharResult",
           "package": "wumpus-basic",
@@ -21446,6 +23268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "ParseError",
           "package": "wumpus-basic",
@@ -21454,6 +23277,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "ParseError",
           "package": "wumpus-basic",
@@ -21467,6 +23291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "Parser",
           "package": "wumpus-basic",
@@ -21475,6 +23300,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "Parser",
           "package": "wumpus-basic",
@@ -21488,6 +23314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "Result",
           "package": "wumpus-basic",
@@ -21496,6 +23323,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "Result",
           "package": "wumpus-basic",
@@ -21509,6 +23337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "(\u003c?\u003e)",
           "package": "wumpus-basic",
@@ -21518,6 +23347,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "Parser a b-\u003eString-\u003eParser a b",
@@ -21532,6 +23362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "Fail",
           "package": "wumpus-basic",
@@ -21541,6 +23372,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "Fail",
           "normalized": "Fail String[a]",
@@ -21556,6 +23388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "Okay",
           "package": "wumpus-basic",
@@ -21565,6 +23398,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "Okay",
           "normalized": "Okay a[b]",
@@ -21580,6 +23414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "alphaNum",
           "package": "wumpus-basic",
@@ -21589,6 +23424,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "alphaNum",
           "package": "wumpus-basic",
@@ -21602,6 +23438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "anyChar",
           "package": "wumpus-basic",
@@ -21611,6 +23448,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "anyChar",
           "package": "wumpus-basic",
@@ -21624,6 +23462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "apply",
           "package": "wumpus-basic",
@@ -21633,6 +23472,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "apply",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -21647,6 +23487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "between",
           "package": "wumpus-basic",
@@ -21656,6 +23497,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "between",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea d",
@@ -21670,6 +23512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "chainl",
           "package": "wumpus-basic",
@@ -21679,6 +23522,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "chainl",
           "normalized": "a b-\u003ea(b-\u003eb-\u003eb)-\u003eb-\u003ea b",
@@ -21693,6 +23537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "chainl1",
           "package": "wumpus-basic",
@@ -21702,6 +23547,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "chainl1",
           "normalized": "a b-\u003ea(b-\u003eb-\u003eb)-\u003ea b",
@@ -21716,6 +23562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "chainr",
           "package": "wumpus-basic",
@@ -21725,6 +23572,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "chainr",
           "normalized": "a b-\u003ea(b-\u003eb-\u003eb)-\u003eb-\u003ea b",
@@ -21739,6 +23587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "chainr1",
           "package": "wumpus-basic",
@@ -21748,6 +23597,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "chainr1",
           "normalized": "a b-\u003ea(b-\u003eb-\u003eb)-\u003ea b",
@@ -21762,6 +23612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "char",
           "package": "wumpus-basic",
@@ -21771,6 +23622,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "char",
           "normalized": "Char-\u003eCharParser Char",
@@ -21785,6 +23637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "choice",
           "package": "wumpus-basic",
@@ -21794,6 +23647,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "choice",
           "normalized": "[a b]-\u003ea b",
@@ -21808,6 +23662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "count",
           "package": "wumpus-basic",
@@ -21817,6 +23672,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "count",
           "normalized": "Int-\u003ea b-\u003ea[b]",
@@ -21831,6 +23687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "digit",
           "package": "wumpus-basic",
@@ -21840,6 +23697,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "digit",
           "package": "wumpus-basic",
@@ -21852,6 +23710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "eof",
           "package": "wumpus-basic",
@@ -21861,6 +23720,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "eof",
           "normalized": "Parser a()",
@@ -21875,6 +23735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "equals",
           "package": "wumpus-basic",
@@ -21884,6 +23745,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "equals",
           "normalized": "a-\u003eParser a a",
@@ -21898,6 +23760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "failure",
           "package": "wumpus-basic",
@@ -21907,6 +23770,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "failure",
           "package": "wumpus-basic",
@@ -21919,6 +23783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "hexDigit",
           "package": "wumpus-basic",
@@ -21928,6 +23793,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "hexDigit",
           "package": "wumpus-basic",
@@ -21941,6 +23807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "letter",
           "package": "wumpus-basic",
@@ -21950,6 +23817,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "letter",
           "package": "wumpus-basic",
@@ -21963,6 +23831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis one is from Chris Okasaki's \"Even Higher-Order \n Functions for Parsing\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "lookahead",
           "package": "wumpus-basic",
@@ -21973,6 +23842,7 @@
         "index": {
           "description": "This one is from Chris Okasaki Even Higher-Order Functions for Parsing",
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "lookahead",
           "normalized": "Parser a b-\u003e(b-\u003eParser a c)-\u003eParser a c",
@@ -21987,6 +23857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "lower",
           "package": "wumpus-basic",
@@ -21996,6 +23867,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "lower",
           "package": "wumpus-basic",
@@ -22009,6 +23881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emany1\u003c/a\u003e\u003c/code\u003e an alias for Control.Applicative \u003ccode\u003e\u003ca\u003esome\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "many1",
           "package": "wumpus-basic",
@@ -22019,6 +23892,7 @@
         "index": {
           "description": "many1 an alias for Control.Applicative some",
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "many1",
           "normalized": "a b-\u003ea[b]",
@@ -22033,6 +23907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "manyTill",
           "package": "wumpus-basic",
@@ -22042,6 +23917,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "manyTill",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -22057,6 +23933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "manyTill1",
           "package": "wumpus-basic",
@@ -22066,6 +23943,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "manyTill1",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -22081,6 +23959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "newline",
           "package": "wumpus-basic",
@@ -22090,6 +23969,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "newline",
           "package": "wumpus-basic",
@@ -22102,6 +23982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "noneOf",
           "package": "wumpus-basic",
@@ -22111,6 +23992,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "noneOf",
           "normalized": "[a]-\u003eParser a a",
@@ -22126,6 +24008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "octDigit",
           "package": "wumpus-basic",
@@ -22135,6 +24018,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "octDigit",
           "package": "wumpus-basic",
@@ -22148,6 +24032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "oneOf",
           "package": "wumpus-basic",
@@ -22157,6 +24042,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "oneOf",
           "normalized": "[a]-\u003eParser a a",
@@ -22172,6 +24058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "option",
           "package": "wumpus-basic",
@@ -22181,6 +24068,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "option",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -22195,6 +24083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "optionMaybe",
           "package": "wumpus-basic",
@@ -22204,6 +24093,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "optionMaybe",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -22219,6 +24109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "optionUnit",
           "package": "wumpus-basic",
@@ -22228,6 +24119,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "optionUnit",
           "normalized": "a b-\u003ea()",
@@ -22244,6 +24136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeek tries the supplied parse, but does not consume input \n ** even when the parse succeeds **.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "peek",
           "package": "wumpus-basic",
@@ -22254,6 +24147,7 @@
         "index": {
           "description": "Peek tries the supplied parse but does not consume input even when the parse succeeds",
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "peek",
           "normalized": "Parser a b-\u003eParser a b",
@@ -22268,6 +24162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "runParser",
           "package": "wumpus-basic",
@@ -22277,6 +24172,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "runParser",
           "normalized": "Parser a b-\u003e[a]-\u003eResult a b",
@@ -22292,6 +24188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "runParserEither",
           "package": "wumpus-basic",
@@ -22301,6 +24198,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "runParserEither",
           "normalized": "Parser a b-\u003e[a]-\u003eEither ParseError b",
@@ -22316,6 +24214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "satisfy",
           "package": "wumpus-basic",
@@ -22325,6 +24224,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParser a a",
@@ -22339,6 +24239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "sepBy",
           "package": "wumpus-basic",
@@ -22348,6 +24249,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "sepBy",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -22363,6 +24265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "sepBy1",
           "package": "wumpus-basic",
@@ -22372,6 +24275,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "sepBy1",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -22387,6 +24291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "sepEndBy",
           "package": "wumpus-basic",
@@ -22396,6 +24301,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "sepEndBy",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -22411,6 +24317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "sepEndBy1",
           "package": "wumpus-basic",
@@ -22420,6 +24327,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "sepEndBy1",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -22435,6 +24343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "skipMany",
           "package": "wumpus-basic",
@@ -22444,6 +24353,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "skipMany",
           "normalized": "a b-\u003ea()",
@@ -22459,6 +24369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "skipMany1",
           "package": "wumpus-basic",
@@ -22468,6 +24379,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "skipMany1",
           "normalized": "a b-\u003ea()",
@@ -22483,6 +24395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "skipOne",
           "package": "wumpus-basic",
@@ -22492,6 +24405,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "skipOne",
           "normalized": "a b-\u003ea()",
@@ -22507,6 +24421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "space",
           "package": "wumpus-basic",
@@ -22516,6 +24431,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "space",
           "package": "wumpus-basic",
@@ -22528,6 +24444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "string",
           "package": "wumpus-basic",
@@ -22537,6 +24454,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "string",
           "normalized": "String-\u003eCharParser String",
@@ -22551,6 +24469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "tab",
           "package": "wumpus-basic",
@@ -22560,6 +24479,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "tab",
           "package": "wumpus-basic",
@@ -22572,6 +24492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "throwError",
           "package": "wumpus-basic",
@@ -22581,6 +24502,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "throwError",
           "normalized": "String-\u003eParser a b",
@@ -22596,6 +24518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "upper",
           "package": "wumpus-basic",
@@ -22605,6 +24528,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils ParserCombinators",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.ParserCombinators",
           "name": "upper",
           "package": "wumpus-basic",
@@ -22618,6 +24542,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerally you should expect to import this module qualified \n and define versions to consume trailing white-space.\n\u003c/p\u003e\u003cpre\u003e lexDef   :: P.LexemeParser\n lexDef   = P.commentLineLexemeParser \"Comment\" [' ', '\\t']\n\n lexeme   :: CharParser a -\u003e CharParser a\n lexeme   = P.lexeme lexDef\n\n integer  :: CharParser Int\n integer  = lexeme P.integer\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "TokenParsers",
           "package": "wumpus-basic",
@@ -22627,6 +24552,7 @@
         "index": {
           "description": "Generally you should expect to import this module qualified and define versions to consume trailing white-space lexDef P.LexemeParser lexDef P.commentLineLexemeParser Comment lexeme CharParser CharParser lexeme P.lexeme lexDef integer CharParser Int integer lexeme P.integer",
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "TokenParsers",
           "package": "wumpus-basic",
@@ -22641,6 +24567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque type representing a parser that consumes arbitrary \n space.\n\u003c/p\u003e\u003cp\u003eUnlike Parsec's lexeme parser, this can be customized so that \n e.g. newlines are not consumed as white space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "LexemeParser",
           "package": "wumpus-basic",
@@ -22650,6 +24577,7 @@
         "index": {
           "description": "Opaque type representing parser that consumes arbitrary space Unlike Parsec lexeme parser this can be customized so that e.g newlines are not consumed as white space",
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "LexemeParser",
           "package": "wumpus-basic",
@@ -22664,6 +24592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a lexeme parser that handles start-and-end delimited\n comments and arbitrary \u003cem\u003espace\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "commentLexemeParser",
           "package": "wumpus-basic",
@@ -22674,6 +24603,7 @@
         "index": {
           "description": "Build lexeme parser that handles start-and-end delimited comments and arbitrary space",
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "commentLexemeParser",
           "normalized": "String-\u003e(String,String)-\u003e[Char]-\u003eLexemeParser",
@@ -22690,6 +24620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a lexeme parser that handles line spanning comments \n an arbitrary \u003cem\u003espace\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "commentLineLexemeParser",
           "package": "wumpus-basic",
@@ -22700,6 +24631,7 @@
         "index": {
           "description": "Build lexeme parser that handles line spanning comments an arbitrary space",
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "commentLineLexemeParser",
           "normalized": "String-\u003e[Char]-\u003eLexemeParser",
@@ -22716,6 +24648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a lexeme parser that handles start-and-end delimited\n comments, line comments and arbitrary \u003cem\u003espace\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "commentMultiLexemeParser",
           "package": "wumpus-basic",
@@ -22726,6 +24659,7 @@
         "index": {
           "description": "Build lexeme parser that handles start-and-end delimited comments line comments and arbitrary space",
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "commentMultiLexemeParser",
           "normalized": "String-\u003eString-\u003e[Char]-\u003eLexemeParser",
@@ -22741,6 +24675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "double",
           "package": "wumpus-basic",
@@ -22750,6 +24685,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "double",
           "package": "wumpus-basic",
@@ -22762,6 +24698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "hexBase",
           "package": "wumpus-basic",
@@ -22771,6 +24708,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "hexBase",
           "package": "wumpus-basic",
@@ -22784,6 +24722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "integer",
           "package": "wumpus-basic",
@@ -22793,6 +24732,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "integer",
           "package": "wumpus-basic",
@@ -22806,6 +24746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a CharParser with a lexeme parser, the CharParser will\n consume trailing space according to the strategy of the \n LexemeParser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "lexeme",
           "package": "wumpus-basic",
@@ -22816,6 +24757,7 @@
         "index": {
           "description": "Wrap CharParser with lexeme parser the CharParser will consume trailing space according to the strategy of the LexemeParser",
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "lexeme",
           "normalized": "LexemeParser-\u003eCharParser a-\u003eCharParser a",
@@ -22830,6 +24772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "natural",
           "package": "wumpus-basic",
@@ -22839,6 +24782,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "natural",
           "package": "wumpus-basic",
@@ -22851,6 +24795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "octBase",
           "package": "wumpus-basic",
@@ -22860,6 +24805,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "octBase",
           "package": "wumpus-basic",
@@ -22873,6 +24819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "octHask",
           "package": "wumpus-basic",
@@ -22882,6 +24829,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "octHask",
           "package": "wumpus-basic",
@@ -22896,6 +24844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a lexeme parser that handles arbitrary \u003cem\u003espace\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003espace\u003c/em\u003e is parametric, for instance this can manufacture a \n lexeme parser that consumes space and tab chars but not \n newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "spaceCharLexemeParser",
           "package": "wumpus-basic",
@@ -22906,6 +24855,7 @@
         "index": {
           "description": "Build lexeme parser that handles arbitrary space space is parametric for instance this can manufacture lexeme parser that consumes space and tab chars but not newline",
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "spaceCharLexemeParser",
           "normalized": "[Char]-\u003eLexemeParser",
@@ -22922,6 +24872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a lexeme parser that handles \u003cem\u003espace\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eSpace\u003c/em\u003e is zero or more elements matching the \u003ccode\u003eisSpace\u003c/code\u003e\n predicate from \u003ccode\u003eData.Char\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "spaceLexemeParser",
           "package": "wumpus-basic",
@@ -22932,6 +24883,7 @@
         "index": {
           "description": "Build lexeme parser that handles space Space is zero or more elements matching the isSpace predicate from Data.Char",
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "spaceLexemeParser",
           "package": "wumpus-basic",
@@ -22945,6 +24897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "whiteSpace",
           "package": "wumpus-basic",
@@ -22954,6 +24907,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Basic Utils TokenParsers",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.Utils.TokenParsers",
           "name": "whiteSpace",
           "normalized": "LexemeParser-\u003eCharParser()",
@@ -22970,6 +24924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion number\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.VersionNumber",
           "name": "VersionNumber",
           "package": "wumpus-basic",
@@ -22979,6 +24934,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Wumpus Basic VersionNumber",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.VersionNumber",
           "name": "VersionNumber",
           "package": "wumpus-basic",
@@ -22993,6 +24949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion number\n\u003c/p\u003e\u003cpre\u003e (0,24,0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:04 UTC 2014",
           "module": "Wumpus.Basic.VersionNumber",
           "name": "wumpus_basic_version",
           "package": "wumpus-basic",
@@ -23003,6 +24960,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Wumpus Basic VersionNumber",
+          "indexed": "2014-03-11T20:40:04",
           "module": "Wumpus.Basic.VersionNumber",
           "name": "wumpus_basic_version",
           "normalized": "(Int,Int,Int)",

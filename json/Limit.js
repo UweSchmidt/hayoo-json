@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Limit"
+        "phrase": "Limit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:40 UTC 2014",
           "module": "Data.Limit",
           "name": "Limit",
           "package": "Limit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Limit",
+          "indexed": "2014-03-11T16:51:40",
           "module": "Data.Limit",
           "name": "Limit",
           "package": "Limit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:40 UTC 2014",
           "module": "Data.Limit",
           "name": "Limit",
           "package": "Limit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Limit",
+          "indexed": "2014-03-11T16:51:40",
           "module": "Data.Limit",
           "name": "Limit",
           "package": "Limit",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:40 UTC 2014",
           "module": "Data.Limit",
           "name": "Bounded",
           "package": "Limit",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Limit",
+          "indexed": "2014-03-11T16:51:40",
           "module": "Data.Limit",
           "name": "Bounded",
           "package": "Limit",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:40 UTC 2014",
           "module": "Data.Limit",
           "name": "Unbounded",
           "package": "Limit",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Limit",
+          "indexed": "2014-03-11T16:51:40",
           "module": "Data.Limit",
           "name": "Unbounded",
           "package": "Limit",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:40 UTC 2014",
           "module": "Data.Limit",
           "name": "fromBounded",
           "package": "Limit",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Limit",
+          "indexed": "2014-03-11T16:51:40",
           "module": "Data.Limit",
           "name": "fromBounded",
           "normalized": "Limit a-\u003ea",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:40 UTC 2014",
           "module": "Data.Limit",
           "name": "fromLimit",
           "package": "Limit",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Limit",
+          "indexed": "2014-03-11T16:51:40",
           "module": "Data.Limit",
           "name": "fromLimit",
           "normalized": "a-\u003eLimit a-\u003ea",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:40 UTC 2014",
           "module": "Data.Limit",
           "name": "isBounded",
           "package": "Limit",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Limit",
+          "indexed": "2014-03-11T16:51:40",
           "module": "Data.Limit",
           "name": "isBounded",
           "normalized": "Limit a-\u003eBool",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:40 UTC 2014",
           "module": "Data.Limit",
           "name": "isUnbounded",
           "package": "Limit",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Limit",
+          "indexed": "2014-03-11T16:51:40",
           "module": "Data.Limit",
           "name": "isUnbounded",
           "normalized": "Limit a-\u003eBool",

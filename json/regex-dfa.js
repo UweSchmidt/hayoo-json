@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-dfa"
+        "phrase": "regex-dfa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -146,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.ByteString.Lazy",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -153,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA ByteString Lazy",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.ByteString.Lazy",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -166,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.ByteString.Lazy",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -173,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA ByteString Lazy",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.ByteString.Lazy",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -186,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.ByteString.Lazy",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -193,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA ByteString Lazy",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.ByteString.Lazy",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -284,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.ByteString",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -291,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA ByteString",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.ByteString",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -304,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.ByteString",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -311,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA ByteString",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.ByteString",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -324,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.ByteString",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -331,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA ByteString",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.ByteString",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -344,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AAboutMatch",
           "package": "regex-dfa",
@@ -351,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AAboutMatch",
           "package": "regex-dfa",
@@ -364,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3ABoolCaseSensitive",
           "package": "regex-dfa",
@@ -371,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3ABoolCaseSensitive",
           "package": "regex-dfa",
@@ -384,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3ABoolMultiline",
           "package": "regex-dfa",
@@ -391,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3ABoolMultiline",
           "package": "regex-dfa",
@@ -404,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -411,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -424,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -431,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -445,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ctt\u003e\u003ca\u003eMatchedStrings\u003c/a\u003e\u003c/tt\u003e is an IntMap where the keys are PatternIndex\n numbers and the values are completed substring captures.\n\u003c/p\u003e\u003cp\u003eThis has now been augmented to also remember the offset and length\n of the matched string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AMatchedStrings",
           "package": "regex-dfa",
@@ -453,6 +476,7 @@
         "index": {
           "description": "MatchedStrings is an IntMap where the keys are PatternIndex numbers and the values are completed substring captures This has now been augmented to also remember the offset and length of the matched string",
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AMatchedStrings",
           "package": "regex-dfa",
@@ -466,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringAfterMatch",
           "package": "regex-dfa",
@@ -473,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringAfterMatch",
           "package": "regex-dfa",
@@ -486,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringBeforeMatch",
           "package": "regex-dfa",
@@ -493,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringBeforeMatch",
           "package": "regex-dfa",
@@ -506,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringInput",
           "package": "regex-dfa",
@@ -513,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringInput",
           "package": "regex-dfa",
@@ -526,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringOfMatch",
           "package": "regex-dfa",
@@ -533,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringOfMatch",
           "package": "regex-dfa",
@@ -546,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringSubPattern",
           "package": "regex-dfa",
@@ -553,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringSubPattern",
           "package": "regex-dfa",
@@ -566,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringSubgroups",
           "package": "regex-dfa",
@@ -573,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Common",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Common",
           "name": "3AStringSubgroups",
           "package": "regex-dfa",
@@ -586,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ABoundary",
           "package": "regex-dfa",
@@ -593,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ABoundary",
           "package": "regex-dfa",
@@ -606,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ACont",
           "package": "regex-dfa",
@@ -613,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ACont",
           "package": "regex-dfa",
@@ -626,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ALexAction",
           "package": "regex-dfa",
@@ -633,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ALexAction",
           "package": "regex-dfa",
@@ -646,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ALexer",
           "package": "regex-dfa",
@@ -653,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ALexer",
           "package": "regex-dfa",
@@ -667,6 +711,7 @@
       "document": {
         "description": {
           "description": "a regular expression\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ARegexp",
           "package": "regex-dfa",
@@ -675,6 +720,7 @@
         "index": {
           "description": "regular expression",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3ARegexp",
           "package": "regex-dfa",
@@ -689,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese combine two Regexp's\n\u003c/p\u003e\u003cp\u003eConcatenation of regexps is just concatenation of functions\n x +\u003e y corresponds to xy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3A+\u003e",
           "package": "regex-dfa",
@@ -698,6 +745,7 @@
         "index": {
           "description": "These combine two Regexp Concatenation of regexps is just concatenation of functions corresponds to xy",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3A+\u003e",
           "normalized": "Regexp-\u003eRegexp-\u003eRegexp",
@@ -713,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisjunctive combination of two regexps, corresponding to x|y.\n\u003c/p\u003e\u003cp\u003eThis will find the longest match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3A\u003e|\u003c",
           "package": "regex-dfa",
@@ -722,6 +771,7 @@
         "index": {
           "description": "disjunctive combination of two regexps corresponding to This will find the longest match",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3A\u003e|\u003c",
           "normalized": "Regexp-\u003eRegexp-\u003eRegexp",
@@ -737,6 +787,7 @@
       "document": {
         "description": {
           "description": "disjunctive combination of two lexers (longest match, right biased)\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3A\u003e||\u003c",
           "package": "regex-dfa",
@@ -746,6 +797,7 @@
         "index": {
           "description": "disjunctive combination of two lexers longest match right biased",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3A\u003e||\u003c",
           "normalized": "Lexer-\u003eLexer-\u003eLexer",
@@ -761,6 +813,7 @@
       "document": {
         "description": {
           "description": "accepts any character\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AallChar",
           "package": "regex-dfa",
@@ -770,6 +823,7 @@
         "index": {
           "description": "accepts any character",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AallChar",
           "normalized": "DoPa-\u003eRegexp",
@@ -786,6 +840,7 @@
       "document": {
         "description": {
           "description": "accepts a list of alternative characters\n Equiv. to `(foldr1 (\u003e|\u003c) . map char) cs', but much faster\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Aalt",
           "package": "regex-dfa",
@@ -795,6 +850,7 @@
         "index": {
           "description": "accepts list of alternative characters Equiv to foldr1 map char cs but much faster",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Aalt",
           "normalized": "DoPa-\u003e[Char]-\u003eRegexp",
@@ -811,6 +867,7 @@
       "document": {
         "description": {
           "description": "accepts an inverted list of alternative characters\n Equiv. to `(foldr1 (\u003e|\u003c) . map char) cs', but much faster\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AaltNot",
           "package": "regex-dfa",
@@ -820,6 +877,7 @@
         "index": {
           "description": "accepts an inverted list of alternative characters Equiv to foldr1 map char cs but much faster",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AaltNot",
           "normalized": "DoPa-\u003e[Char]-\u003eRegexp",
@@ -835,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AbeginInput",
           "package": "regex-dfa",
@@ -843,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AbeginInput",
           "normalized": "DoPa-\u003eRegexp",
@@ -858,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AbeginLine",
           "package": "regex-dfa",
@@ -866,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AbeginLine",
           "normalized": "DoPa-\u003eRegexp",
@@ -882,6 +944,7 @@
       "document": {
         "description": {
           "description": "One character regexp\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Achar",
           "package": "regex-dfa",
@@ -891,6 +954,7 @@
         "index": {
           "description": "One character regexp",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Achar",
           "normalized": "DoPa-\u003eChar-\u003eRegexp",
@@ -906,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AconcatRE",
           "package": "regex-dfa",
@@ -914,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AconcatRE",
           "normalized": "[Regexp]-\u003eRegexp",
@@ -930,6 +996,7 @@
       "document": {
         "description": {
           "description": "This counts the number of matches to regex in the string, (it\n checks each possible starting position).  This should be the same\n as ((length (splitRegex re input))-1) but more efficient\n ^^^ fix\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AcountRegex",
           "package": "regex-dfa",
@@ -939,6 +1006,7 @@
         "index": {
           "description": "This counts the number of matches to regex in the string it checks each possible starting position This should be the same as length splitRegex re input but more efficient fix",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AcountRegex",
           "normalized": "Lexer-\u003e[Char]-\u003eInt",
@@ -955,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese create Regexp\n\u003c/p\u003e\u003cp\u003eEmpty lexeme (noop)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AemptyOp",
           "package": "regex-dfa",
@@ -964,6 +1033,7 @@
         "index": {
           "description": "These create Regexp Empty lexeme noop",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AemptyOp",
           "package": "regex-dfa",
@@ -977,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AendInput",
           "package": "regex-dfa",
@@ -985,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AendInput",
           "normalized": "DoPa-\u003eRegexp",
@@ -1000,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AendLine",
           "package": "regex-dfa",
@@ -1008,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AendLine",
           "normalized": "DoPa-\u003eRegexp",
@@ -1023,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Afailure",
           "package": "regex-dfa",
@@ -1031,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Afailure",
           "package": "regex-dfa",
@@ -1045,6 +1121,7 @@
       "document": {
         "description": {
           "description": "The regular expression to match\nThe input string to scan along, looking for a match\nThe input string before the match, length of the string before the match, Nothing if there was no match or Just input string at the start of the match, length of the match, input string starting just past the match\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AfindRegex",
           "package": "regex-dfa",
@@ -1054,6 +1131,7 @@
         "index": {
           "description": "The regular expression to match The input string to scan along looking for match The input string before the match length of the string before the match Nothing if there was no match or Just input string at the start of the match length of the match input string starting just past the match",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AfindRegex",
           "normalized": "Lexer-\u003eString-\u003e(String,Int,Maybe(String,Int,String))",
@@ -1070,6 +1148,7 @@
       "document": {
         "description": {
           "description": "This is a version of findRegex that does not compute the length of the prefix\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AfindRegexS",
           "package": "regex-dfa",
@@ -1079,6 +1158,7 @@
         "index": {
           "description": "This is version of findRegex that does not compute the length of the prefix",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AfindRegexS",
           "normalized": "Lexer-\u003eString-\u003e(String,Maybe(String,Int,String))",
@@ -1094,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AinBounds",
           "package": "regex-dfa",
@@ -1102,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AinBounds",
           "normalized": "Char-\u003eBoundsNum-\u003eBool",
@@ -1117,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AlexAccept",
           "package": "regex-dfa",
@@ -1125,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AlexAccept",
           "package": "regex-dfa",
@@ -1138,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AlexContinue",
           "package": "regex-dfa",
@@ -1146,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AlexContinue",
           "package": "regex-dfa",
@@ -1159,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AlexFailure",
           "package": "regex-dfa",
@@ -1167,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AlexFailure",
           "package": "regex-dfa",
@@ -1181,6 +1269,7 @@
       "document": {
         "description": {
           "description": "This searches the input string for a match to the regex\n There is no need to wait for the longest match, so stop at first lexAccept\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AmatchesRegex",
           "package": "regex-dfa",
@@ -1190,6 +1279,7 @@
         "index": {
           "description": "This searches the input string for match to the regex There is no need to wait for the longest match so stop at first lexAccept",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AmatchesRegex",
           "normalized": "Lexer-\u003e[Char]-\u003eBool",
@@ -1205,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AorRE",
           "package": "regex-dfa",
@@ -1213,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AorRE",
           "normalized": "[Regexp]-\u003eRegexp",
@@ -1228,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Apeek",
           "package": "regex-dfa",
@@ -1236,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Apeek",
           "normalized": "Cont-\u003eChar-\u003eLexer",
@@ -1252,6 +1346,7 @@
       "document": {
         "description": {
           "description": "x \u003ctt\u003e\u003ca\u003eplus\u003c/a\u003e\u003c/tt\u003e y corresponds to the regular expression x+y\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Aplus",
           "package": "regex-dfa",
@@ -1261,6 +1356,7 @@
         "index": {
           "description": "plus corresponds to the regular expression",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Aplus",
           "normalized": "Regexp-\u003eRegexp-\u003eRegexp",
@@ -1277,6 +1373,7 @@
       "document": {
         "description": {
           "description": "x \u003ctt\u003e\u003ca\u003equest\u003c/a\u003e\u003c/tt\u003e y corresponds to the regular expression x?y\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Aquest",
           "package": "regex-dfa",
@@ -1286,6 +1383,7 @@
         "index": {
           "description": "quest corresponds to the regular expression",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Aquest",
           "normalized": "Regexp-\u003eRegexp-\u003eRegexp",
@@ -1302,6 +1400,7 @@
       "document": {
         "description": {
           "description": "x \u003ctt\u003e\u003ca\u003estar\u003c/a\u003e\u003c/tt\u003e y corresponds to the regular expression x*y\n \u003ca\u003eself\u003c/a\u003e is of type Lexer\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Astar",
           "package": "regex-dfa",
@@ -1311,6 +1410,7 @@
         "index": {
           "description": "star corresponds to the regular expression self is of type Lexer",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3Astar",
           "normalized": "Regexp-\u003eRegexp-\u003eRegexp",
@@ -1327,6 +1427,7 @@
       "document": {
         "description": {
           "description": "current lexeme\nOrigin offset\nprevious input character\ncurrent input\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AtestHere",
           "package": "regex-dfa",
@@ -1336,6 +1437,7 @@
         "index": {
           "description": "current lexeme Origin offset previous input character current input",
           "hierarchy": "Text Regex DFA Engine",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Engine",
           "name": "3AtestHere",
           "normalized": "Lexer-\u003eInt-\u003eChar-\u003e[Char]-\u003eBool",
@@ -1352,6 +1454,7 @@
       "document": {
         "description": {
           "description": "This counts the number of matches to regex in the string, (it\n checks each possible starting position).  This should be the same\n as ((length (splitRegex re input))-1) but more efficient\n ^^^ fix\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AcountRegex",
           "package": "regex-dfa",
@@ -1361,6 +1464,7 @@
         "index": {
           "description": "This counts the number of matches to regex in the string it checks each possible starting position This should be the same as length splitRegex re input but more efficient fix",
           "hierarchy": "Text Regex DFA EngineSeq",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AcountRegex",
           "normalized": "Lexer-\u003eSeq Char-\u003eInt",
@@ -1377,6 +1481,7 @@
       "document": {
         "description": {
           "description": "The regular expression to match\nThe input SEq Char to scan along, looking for a match\nThe input string before the match, length of the string before the match, Nothing if there was no match or Just input string at the start of the match, length of the match, input string starting just past the match\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AfindRegex",
           "package": "regex-dfa",
@@ -1386,6 +1491,7 @@
         "index": {
           "description": "The regular expression to match The input SEq Char to scan along looking for match The input string before the match length of the string before the match Nothing if there was no match or Just input string at the start of the match length of the match input string starting just past the match",
           "hierarchy": "Text Regex DFA EngineSeq",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AfindRegex",
           "normalized": "Lexer-\u003eSeq Char-\u003e(Seq Char,Int,Maybe(Seq Char,Int,Seq Char))",
@@ -1402,6 +1508,7 @@
       "document": {
         "description": {
           "description": "This is a version of findRegex that does not compute the length of the prefix\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AfindRegexS",
           "package": "regex-dfa",
@@ -1411,6 +1518,7 @@
         "index": {
           "description": "This is version of findRegex that does not compute the length of the prefix",
           "hierarchy": "Text Regex DFA EngineSeq",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AfindRegexS",
           "normalized": "Lexer-\u003eSeq Char-\u003e(Seq Char,Maybe(Seq Char,Int,Seq Char))",
@@ -1427,6 +1535,7 @@
       "document": {
         "description": {
           "description": "This searches the input string for a match to the regex\n There is no need to wait for the longest match, so stop at first lexAccept\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AmatchesRegex",
           "package": "regex-dfa",
@@ -1436,6 +1545,7 @@
         "index": {
           "description": "This searches the input string for match to the regex There is no need to wait for the longest match so stop at first lexAccept",
           "hierarchy": "Text Regex DFA EngineSeq",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AmatchesRegex",
           "normalized": "Lexer-\u003eSeq Char-\u003eBool",
@@ -1451,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AtoList",
           "package": "regex-dfa",
@@ -1459,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA EngineSeq",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.EngineSeq",
           "name": "3AtoList",
           "normalized": "Seq Char-\u003e[Char]",
@@ -1474,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3ADoPa",
           "package": "regex-dfa",
@@ -1481,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3ADoPa",
           "package": "regex-dfa",
@@ -1494,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APattern",
           "package": "regex-dfa",
@@ -1501,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APattern",
           "package": "regex-dfa",
@@ -1515,6 +1631,7 @@
       "document": {
         "description": {
           "description": "PatternIndex is for indexing submatches from  parenthesized groups (PGroup)\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternIndex",
           "package": "regex-dfa",
@@ -1523,6 +1640,7 @@
         "index": {
           "description": "PatternIndex is for indexing submatches from parenthesized groups PGroup",
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternIndex",
           "package": "regex-dfa",
@@ -1536,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternSet",
           "package": "regex-dfa",
@@ -1543,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternSet",
           "package": "regex-dfa",
@@ -1556,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternSetCharacterClass",
           "package": "regex-dfa",
@@ -1563,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternSetCharacterClass",
           "package": "regex-dfa",
@@ -1576,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternSetCollatingElement",
           "package": "regex-dfa",
@@ -1583,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternSetCollatingElement",
           "package": "regex-dfa",
@@ -1596,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternSetEquivalenceClass",
           "package": "regex-dfa",
@@ -1603,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3APatternSetEquivalenceClass",
           "package": "regex-dfa",
@@ -1616,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3AnewDoPa",
           "package": "regex-dfa",
@@ -1624,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3AnewDoPa",
           "normalized": "Int-\u003eDoPa",
@@ -1639,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3AshowPattern",
           "package": "regex-dfa",
@@ -1647,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3AshowPattern",
           "normalized": "Pattern-\u003eString",
@@ -1662,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3AshowPatternP",
           "package": "regex-dfa",
@@ -1670,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Pattern",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Pattern",
           "name": "3AshowPatternP",
           "normalized": "Pattern-\u003eString",
@@ -1686,6 +1818,7 @@
       "document": {
         "description": {
           "description": "PatternIndex is for indexing submatches from  parenthesized groups (PGroup)\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.ReadRegex",
           "name": "3APatternIndex",
           "package": "regex-dfa",
@@ -1694,6 +1827,7 @@
         "index": {
           "description": "PatternIndex is for indexing submatches from parenthesized groups PGroup",
           "hierarchy": "Text Regex DFA ReadRegex",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.ReadRegex",
           "name": "3APatternIndex",
           "package": "regex-dfa",
@@ -1707,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.ReadRegex",
           "name": "3AparseRegex",
           "package": "regex-dfa",
@@ -1715,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA ReadRegex",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.ReadRegex",
           "name": "3AparseRegex",
           "normalized": "String-\u003eEither ParseError(Pattern,(Int,Int))",
@@ -1730,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -1737,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Sequence",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -1750,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -1757,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Sequence",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -1770,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -1777,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Sequence",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -1791,6 +1933,7 @@
       "document": {
         "description": {
           "description": "Flags (summed together)\nFlags (summed together)\nThe regular expression to compile\nReturns: the compiled regular expression\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3Acompile",
           "package": "regex-dfa",
@@ -1800,6 +1943,7 @@
         "index": {
           "description": "Flags summed together Flags summed together The regular expression to compile Returns the compiled regular expression",
           "hierarchy": "Text Regex DFA Sequence",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3Acompile",
           "normalized": "CompOption-\u003eExecOption-\u003eSeq Char-\u003eEither String Regex",
@@ -1816,6 +1960,7 @@
       "document": {
         "description": {
           "description": "Compiled regular expression\nSeq Char to match against\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3Aexecute",
           "package": "regex-dfa",
@@ -1825,6 +1970,7 @@
         "index": {
           "description": "Compiled regular expression Seq Char to match against",
           "hierarchy": "Text Regex DFA Sequence",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3Aexecute",
           "normalized": "Regex-\u003eSeq Char-\u003eEither String(Maybe(Array Int(MatchOffset,MatchLength)))",
@@ -1841,6 +1987,7 @@
       "document": {
         "description": {
           "description": "Compiled regular expression\nSeq Char to match against\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3Aregexec",
           "package": "regex-dfa",
@@ -1850,6 +1997,7 @@
         "index": {
           "description": "Compiled regular expression Seq Char to match against",
           "hierarchy": "Text Regex DFA Sequence",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Sequence",
           "name": "3Aregexec",
           "normalized": "Regex-\u003eSeq Char-\u003eEither String(Maybe(Seq Char,Seq Char,Seq Char,[Seq Char]))",
@@ -1865,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.String",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -1872,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA String",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.String",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -1885,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.String",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -1892,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA String",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.String",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -1905,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.String",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -1912,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA String",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.String",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -1926,6 +2080,7 @@
       "document": {
         "description": {
           "description": "Flags (summed together)\nFlags (summed together)\nThe regular expression to compile (ASCII only, no null bytes)\nReturns: the compiled regular expression\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.String",
           "name": "3Acompile",
           "package": "regex-dfa",
@@ -1935,6 +2090,7 @@
         "index": {
           "description": "Flags summed together Flags summed together The regular expression to compile ASCII only no null bytes Returns the compiled regular expression",
           "hierarchy": "Text Regex DFA String",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.String",
           "name": "3Acompile",
           "normalized": "CompOption-\u003eExecOption-\u003eString-\u003eEither String Regex",
@@ -1951,6 +2107,7 @@
       "document": {
         "description": {
           "description": "Compiled regular expression\nString to match against\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.String",
           "name": "3Aexecute",
           "package": "regex-dfa",
@@ -1960,6 +2117,7 @@
         "index": {
           "description": "Compiled regular expression String to match against",
           "hierarchy": "Text Regex DFA String",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.String",
           "name": "3Aexecute",
           "normalized": "Regex-\u003eString-\u003eEither String(Maybe(Array Int(MatchOffset,MatchLength)))",
@@ -1976,6 +2134,7 @@
       "document": {
         "description": {
           "description": "Compiled regular expression\nString to match against\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.String",
           "name": "3Aregexec",
           "package": "regex-dfa",
@@ -1985,6 +2144,7 @@
         "index": {
           "description": "Compiled regular expression String to match against",
           "hierarchy": "Text Regex DFA String",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.String",
           "name": "3Aregexec",
           "normalized": "Regex-\u003eString-\u003eEither String(Maybe(String,String,String,[String]))",
@@ -2000,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AcanMatchNull",
           "package": "regex-dfa",
@@ -2008,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Transitions",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AcanMatchNull",
           "normalized": "Pattern-\u003eBool",
@@ -2023,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AcannotMatchNull",
           "package": "regex-dfa",
@@ -2031,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Transitions",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AcannotMatchNull",
           "normalized": "Pattern-\u003eBool",
@@ -2047,6 +2211,7 @@
       "document": {
         "description": {
           "description": "Change a pattern so it will not loop in the DFA construction.\n Previously have used starTrans on the Pattern.  The problems comes\n from PStar applied to a pattern which may match 0 characters.  This\n *will* return a safe pattern, which can match null if and only if\n the input pattern could.\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AnoLoop",
           "package": "regex-dfa",
@@ -2056,6 +2221,7 @@
         "index": {
           "description": "Change pattern so it will not loop in the DFA construction Previously have used starTrans on the Pattern The problems comes from PStar applied to pattern which may match characters This will return safe pattern which can match null if and only if the input pattern could",
           "hierarchy": "Text Regex DFA Transitions",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AnoLoop",
           "normalized": "Pattern-\u003ePattern",
@@ -2071,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3Asimplify",
           "package": "regex-dfa",
@@ -2079,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Transitions",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3Asimplify",
           "normalized": "Pattern-\u003ePattern",
@@ -2095,6 +2263,7 @@
       "document": {
         "description": {
           "description": "starTrans replaces PQuest,PPlus,PBound,PGroup with combinations of\n PEmpty,POr,PConcat,PStar.  Malformed limits on the PBound will be\n replaced with PEmpty rather than calling error.  This will also\n simplify the resulting Pattern as it works.\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AstarTrans",
           "package": "regex-dfa",
@@ -2104,6 +2273,7 @@
         "index": {
           "description": "starTrans replaces PQuest PPlus PBound PGroup with combinations of PEmpty POr PConcat PStar Malformed limits on the PBound will be replaced with PEmpty rather than calling error This will also simplify the resulting Pattern as it works",
           "hierarchy": "Text Regex DFA Transitions",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AstarTrans",
           "normalized": "Pattern-\u003ePattern",
@@ -2120,6 +2290,7 @@
       "document": {
         "description": {
           "description": "I did this overly cleverly.  It descends the Pattern depth first\n and computes what is nullable along with creating id numbers for\n the DFA states.  This works, but amusingly required mdo.  The main\n output is funnel out via the tell to the WriterT and is the NFA\n state before, the DoPa index of the transition character,\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AstateAn",
           "package": "regex-dfa",
@@ -2129,6 +2300,7 @@
         "index": {
           "description": "did this overly cleverly It descends the Pattern depth first and computes what is nullable along with creating id numbers for the DFA states This works but amusingly required mdo The main output is funnel out via the tell to the WriterT and is the NFA state before the DoPa index of the transition character",
           "hierarchy": "Text Regex DFA Transitions",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AstateAn",
           "normalized": "Pattern-\u003e[(Int,DoPa,Int)]",
@@ -2145,6 +2317,7 @@
       "document": {
         "description": {
           "description": "topNoLoop descends, looking for PStar, for which it calls\n breakLoop.  This *will* return a safe pattern, which can match null\n \u003ca\u003eif\u003c/a\u003e and \u003ca\u003eonly if\u003c/a\u003e the input pattern could.\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AtopNoLoop",
           "package": "regex-dfa",
@@ -2154,6 +2327,7 @@
         "index": {
           "description": "topNoLoop descends looking for PStar for which it calls breakLoop This will return safe pattern which can match null if and only if the input pattern could",
           "hierarchy": "Text Regex DFA Transitions",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Transitions",
           "name": "3AtopNoLoop",
           "normalized": "Pattern-\u003ePattern",
@@ -2169,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -2176,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Wrap",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3ACompOption",
           "package": "regex-dfa",
@@ -2189,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -2196,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Wrap",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3AExecOption",
           "package": "regex-dfa",
@@ -2209,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -2216,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA Wrap",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3ARegex",
           "package": "regex-dfa",
@@ -2230,6 +2410,7 @@
       "document": {
         "description": {
           "description": "This is the pure functional matching operator.  If the target\n cannot be produced then some empty result will be returned.  If\n there is an error in processing, then \u003ctt\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/tt\u003e will be called.\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3A=~",
           "package": "regex-dfa",
@@ -2239,6 +2420,7 @@
         "index": {
           "description": "This is the pure functional matching operator If the target cannot be produced then some empty result will be returned If there is an error in processing then error will be called",
           "hierarchy": "Text Regex DFA Wrap",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3A=~",
           "normalized": "a-\u003ea-\u003eb",
@@ -2254,6 +2436,7 @@
       "document": {
         "description": {
           "description": "This is the monadic matching operator.  If a single match fails,\n then \u003ctt\u003e\u003ca\u003efail\u003c/a\u003e\u003c/tt\u003e will be called.\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3A=~~",
           "package": "regex-dfa",
@@ -2263,6 +2446,7 @@
         "index": {
           "description": "This is the monadic matching operator If single match fails then fail will be called",
           "hierarchy": "Text Regex DFA Wrap",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3A=~~",
           "normalized": "a-\u003ea-\u003eb c",
@@ -2278,6 +2462,7 @@
       "document": {
         "description": {
           "description": "If (dfaClean pat) is True then (\u003ctt\u003e\u003ca\u003emakeCompat\u003c/a\u003e\u003c/tt\u003e pat) should not throw\n an error.  This translates a \u003ctt\u003e\u003ca\u003ePattern\u003c/a\u003e\u003c/tt\u003e into a DFA \u003ctt\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3AmakeCompat",
           "package": "regex-dfa",
@@ -2287,6 +2472,7 @@
         "index": {
           "description": "If dfaClean pat is True then makeCompat pat should not throw an error This translates Pattern into DFA Regex",
           "hierarchy": "Text Regex DFA Wrap",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA.Wrap",
           "name": "3AmakeCompat",
           "normalized": "CompOption-\u003ePattern-\u003eRegexp",
@@ -2302,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:06 UTC 2014",
           "module": "Text.Regex.DFA",
           "name": "3AgetVersion_Text_Regex_DFA",
           "package": "regex-dfa",
@@ -2310,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Text Regex DFA",
+          "indexed": "2014-03-11T19:51:06",
           "module": "Text.Regex.DFA",
           "name": "3AgetVersion_Text_Regex_DFA",
           "package": "regex-dfa",

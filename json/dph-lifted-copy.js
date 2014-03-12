@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dph-lifted-copy"
+        "phrase": "dph-lifted-copy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "Lifted",
           "package": "dph-lifted-copy",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "Lifted",
           "package": "dph-lifted-copy",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of closures.\n   This bundles up:\n      1) the vectorised version of the function that takes an explicit environment\n      2) the lifted version, that works on arrays.\n           the first parameter of this function is the 'lifting context'\n           that gives the length of the array.\n      3) the environment of the closure.\n\u003c/p\u003e\u003cp\u003eThe vectoriser closure-converts the source program so that all functions\n   types are expressed in this form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": ":-\u003e",
           "package": "dph-lifted-copy",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The type of closures This bundles up the vectorised version of the function that takes an explicit environment the lifted version that works on arrays the first parameter of this function is the lifting context that gives the length of the array the environment of the closure The vectoriser closure-converts the source program so that all functions types are expressed in this form",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": ":-\u003e",
           "package": "dph-lifted-copy",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PA dictionary contains the functions that we use to convert a\n   representable type to and from its generic representation.\n   The conversion methods should all be O(1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PA",
           "package": "dph-lifted-copy",
@@ -71,6 +76,7 @@
         "index": {
           "description": "PA dictionary contains the functions that we use to convert representable type to and from its generic representation The conversion methods should all be",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PA",
           "package": "dph-lifted-copy",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted/bulk parallel arrays\n   This contains the array length, along with the element data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Lifted bulk parallel arrays This contains the array length along with the element data",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel Data.\n   This is the family of types that store parallel array data.\n\u003c/p\u003e\u003cp\u003ePData takes the type of an element and produces the type we use to store\n   an array of those elements. The instances for PData use an efficient\n   representation that depends on the type of elements being stored.\n   For example, an array of pairs is stored as two separate arrays, one for\n   each element type. This lets us avoid storing the intermediate Pair/Tuple\n   constructors and the pointers to the elements.\n\u003c/p\u003e\u003cp\u003eMost of the instances are defined in \u003ca\u003eData.Array.Parallel.PArray.Instances\u003c/a\u003e,\n   though the instances for function closures are defined in their own module, \n   \u003ca\u003eData.Array.Parallel.Lifted.Closure\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eNote that PData is just a flat chunk of memory containing elements, and doesn't\n   include a field giving the length of the array. We use PArray when we want to\n   pass around the array data along with its length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PData",
           "package": "dph-lifted-copy",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Parallel Data This is the family of types that store parallel array data PData takes the type of an element and produces the type we use to store an array of those elements The instances for PData use an efficient representation that depends on the type of elements being stored For example an array of pairs is stored as two separate arrays one for each element type This lets us avoid storing the intermediate Pair Tuple constructors and the pointers to the elements Most of the instances are defined in Data.Array.Parallel.PArray.Instances though the instances for function closures are defined in their own module Data.Array.Parallel.Lifted.Closure Note that PData is just flat chunk of memory containing elements and doesn include field giving the length of the array We use PArray when we want to pass around the array data along with its length",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PData",
           "package": "dph-lifted-copy",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PR dictionary contains the primitive functions that operate directly\n   on parallel array data.\n\u003c/p\u003e\u003cp\u003eIt's called PR because the functions work on our internal, efficient\n   Representation of the user-level array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PR",
           "package": "dph-lifted-copy",
@@ -140,6 +151,7 @@
         "index": {
           "description": "PR dictionary contains the primitive functions that operate directly on parallel array data It called PR because the functions work on our internal efficient Representation of the user-level array",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PR",
           "package": "dph-lifted-copy",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentable types.\n\u003c/p\u003e\u003cp\u003eThe family of types that we know how to represent generically.\n   PRepr takes an arbitrary type and produces the generic type we use to \n   represent it.\n\u003c/p\u003e\u003cp\u003eInstances for simple types are defined in Data.Array.Parallel.Lifted.Instances.\n   For algebraic types, it's up to the vectoriser/client module to create\n   a suitable instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PRepr",
           "package": "dph-lifted-copy",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Representable types The family of types that we know how to represent generically PRepr takes an arbitrary type and produces the generic type we use to represent it Instances for simple types are defined in Data.Array.Parallel.Lifted.Instances For algebraic types it up to the vectoriser client module to create suitable instance",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PRepr",
           "package": "dph-lifted-copy",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of scalar types.\n   Scalar types are the ones that we can store in our underlying U.Arrays\n   (which are currently implemented as Data.Vectors).\n\u003c/p\u003e\u003cp\u003eTo perform an operation on a PData array of scalar elements, we coerce\n   it to the underling U.Array and use the corresponding U.Array operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "Scalar",
           "package": "dph-lifted-copy",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Class of scalar types Scalar types are the ones that we can store in our underlying U.Arrays which are currently implemented as Data.Vectors To perform an operation on PData array of scalar elements we coerce it to the underling U.Array and use the corresponding U.Array operators",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "Scalar",
           "package": "dph-lifted-copy",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a closure to its argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "($:)",
           "package": "dph-lifted-copy",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Apply closure to its argument",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "($:) $:",
           "normalized": "a b c(b-\u003ed)-\u003eb-\u003ed",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted closure application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "($:^)",
           "package": "dph-lifted-copy",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Lifted closure application",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "($:^) $:^",
           "normalized": "a b c PArray(b-\u003ed)-\u003ePArray b-\u003ePArray d",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "appPA#",
           "package": "dph-lifted-copy",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "appPA#",
           "normalized": "PArray a-\u003ePArray a-\u003ePArray a",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "appPD",
           "package": "dph-lifted-copy",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "appPD",
           "package": "dph-lifted-copy",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "appPR",
           "package": "dph-lifted-copy",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "appPR",
           "package": "dph-lifted-copy",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "appPRScalar",
           "package": "dph-lifted-copy",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "appPRScalar",
           "package": "dph-lifted-copy",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "applPA#",
           "package": "dph-lifted-copy",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "applPA#",
           "normalized": "Segd-\u003eSegd-\u003ePArray a-\u003eSegd-\u003ePArray a-\u003ePArray a",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "applPD",
           "package": "dph-lifted-copy",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "applPD",
           "package": "dph-lifted-copy",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "applPR",
           "package": "dph-lifted-copy",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "applPR",
           "package": "dph-lifted-copy",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "applPRScalar",
           "package": "dph-lifted-copy",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "applPRScalar",
           "package": "dph-lifted-copy",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "bpermutePA#",
           "package": "dph-lifted-copy",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "bpermutePA#",
           "normalized": "PArray a-\u003eInt #-\u003eArray Int-\u003ePArray a",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "bpermutePD",
           "package": "dph-lifted-copy",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "bpermutePD",
           "package": "dph-lifted-copy",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "bpermutePR",
           "package": "dph-lifted-copy",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "bpermutePR",
           "package": "dph-lifted-copy",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "bpermutePRScalar",
           "package": "dph-lifted-copy",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "bpermutePRScalar",
           "package": "dph-lifted-copy",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "combine2PA#",
           "package": "dph-lifted-copy",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "combine2PA#",
           "normalized": "Int #-\u003eSel-\u003ePArray a-\u003ePArray a-\u003ePArray a",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "combine2PD",
           "package": "dph-lifted-copy",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "combine2PD",
           "package": "dph-lifted-copy",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "combine2PR",
           "package": "dph-lifted-copy",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "combine2PR",
           "package": "dph-lifted-copy",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "combine2PRScalar",
           "package": "dph-lifted-copy",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "combine2PRScalar",
           "package": "dph-lifted-copy",
@@ -632,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the data field of a PArray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "dataPA#",
           "package": "dph-lifted-copy",
@@ -642,6 +697,7 @@
         "index": {
           "description": "Take the data field of PArray",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "dataPA#",
           "normalized": "PArray a-\u003ePData a",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "emptyPA",
           "package": "dph-lifted-copy",
@@ -666,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "emptyPA",
           "package": "dph-lifted-copy",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "emptyPD",
           "package": "dph-lifted-copy",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "emptyPD",
           "package": "dph-lifted-copy",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "emptyPR",
           "package": "dph-lifted-copy",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "emptyPR",
           "package": "dph-lifted-copy",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "emptyPRScalar",
           "package": "dph-lifted-copy",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "emptyPRScalar",
           "package": "dph-lifted-copy",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "extractPA#",
           "package": "dph-lifted-copy",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "extractPA#",
           "normalized": "PArray a-\u003eInt #-\u003eInt #-\u003ePArray a",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "extractPD",
           "package": "dph-lifted-copy",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "extractPD",
           "package": "dph-lifted-copy",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "extractPR",
           "package": "dph-lifted-copy",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "extractPR",
           "package": "dph-lifted-copy",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "extractPRScalar",
           "package": "dph-lifted-copy",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "extractPRScalar",
           "package": "dph-lifted-copy",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromArrPRepr",
           "package": "dph-lifted-copy",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromArrPRepr",
           "normalized": "PData(PRepr a)-\u003ePData a",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromArrPReprs",
           "package": "dph-lifted-copy",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromArrPReprs",
           "normalized": "PDatas(PRepr a)-\u003ePDatas a",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPA",
           "package": "dph-lifted-copy",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPA",
           "normalized": "[a]-\u003ePArray a",
@@ -907,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPA#",
           "package": "dph-lifted-copy",
@@ -916,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPA#",
           "normalized": "Int #-\u003e[a]-\u003ePArray a",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPD",
           "package": "dph-lifted-copy",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPD",
           "package": "dph-lifted-copy",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPR",
           "package": "dph-lifted-copy",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPR",
           "package": "dph-lifted-copy",
@@ -975,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPRScalar",
           "package": "dph-lifted-copy",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromListPRScalar",
           "package": "dph-lifted-copy",
@@ -997,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromNestedPArrayPA",
           "package": "dph-lifted-copy",
@@ -1006,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromNestedPArrayPA",
           "normalized": "PArray(PArray a)-\u003ePArray(PArray a)",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromPArrayPA",
           "package": "dph-lifted-copy",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromPArrayPA",
           "normalized": "PArray a-\u003ePArray a",
@@ -1045,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromPRepr",
           "package": "dph-lifted-copy",
@@ -1054,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromPRepr",
           "normalized": "PRepr a-\u003ea",
@@ -1069,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromScalarPData",
           "package": "dph-lifted-copy",
@@ -1078,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "fromScalarPData",
           "normalized": "PData a-\u003eArray a",
@@ -1093,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "indexPA#",
           "package": "dph-lifted-copy",
@@ -1102,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "indexPA#",
           "normalized": "PArray a-\u003eInt #-\u003ea",
@@ -1117,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "indexPD",
           "package": "dph-lifted-copy",
@@ -1126,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "indexPD",
           "package": "dph-lifted-copy",
@@ -1139,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "indexPR",
           "package": "dph-lifted-copy",
@@ -1148,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "indexPR",
           "package": "dph-lifted-copy",
@@ -1161,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "indexPRScalar",
           "package": "dph-lifted-copy",
@@ -1170,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "indexPRScalar",
           "package": "dph-lifted-copy",
@@ -1184,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the length field of a PArray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "lengthPA#",
           "package": "dph-lifted-copy",
@@ -1194,6 +1297,7 @@
         "index": {
           "description": "Take the length field of PArray",
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "lengthPA#",
           "normalized": "PArray a-\u003eInt #",
@@ -1209,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "nfPA",
           "package": "dph-lifted-copy",
@@ -1218,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "nfPA",
           "normalized": "PArray a-\u003e()",
@@ -1233,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "nfPD",
           "package": "dph-lifted-copy",
@@ -1242,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "nfPD",
           "package": "dph-lifted-copy",
@@ -1255,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "nfPR",
           "package": "dph-lifted-copy",
@@ -1264,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "nfPR",
           "package": "dph-lifted-copy",
@@ -1277,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "nfPRScalar",
           "package": "dph-lifted-copy",
@@ -1286,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "nfPRScalar",
           "package": "dph-lifted-copy",
@@ -1299,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "packByTagPA#",
           "package": "dph-lifted-copy",
@@ -1308,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "packByTagPA#",
           "normalized": "PArray a-\u003eInt #-\u003eArray Tag-\u003eInt #-\u003ePArray a",
@@ -1323,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "packByTagPD",
           "package": "dph-lifted-copy",
@@ -1332,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "packByTagPD",
           "package": "dph-lifted-copy",
@@ -1345,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "packByTagPR",
           "package": "dph-lifted-copy",
@@ -1354,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "packByTagPR",
           "package": "dph-lifted-copy",
@@ -1367,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "packByTagPRScalar",
           "package": "dph-lifted-copy",
@@ -1376,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "packByTagPRScalar",
           "package": "dph-lifted-copy",
@@ -1389,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "repeatPA#",
           "package": "dph-lifted-copy",
@@ -1398,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "repeatPA#",
           "normalized": "Int #-\u003ePArray a-\u003ePArray a",
@@ -1413,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "repeatPD",
           "package": "dph-lifted-copy",
@@ -1422,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "repeatPD",
           "package": "dph-lifted-copy",
@@ -1435,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "repeatPR",
           "package": "dph-lifted-copy",
@@ -1444,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "repeatPR",
           "package": "dph-lifted-copy",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "repeatPRScalar",
           "package": "dph-lifted-copy",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "repeatPRScalar",
           "package": "dph-lifted-copy",
@@ -1479,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatePA#",
           "package": "dph-lifted-copy",
@@ -1488,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatePA#",
           "normalized": "Int #-\u003ea-\u003ePArray a",
@@ -1503,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatePD",
           "package": "dph-lifted-copy",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatePD",
           "package": "dph-lifted-copy",
@@ -1525,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatePR",
           "package": "dph-lifted-copy",
@@ -1534,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatePR",
           "package": "dph-lifted-copy",
@@ -1547,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatePRScalar",
           "package": "dph-lifted-copy",
@@ -1556,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatePRScalar",
           "package": "dph-lifted-copy",
@@ -1569,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatelPA#",
           "package": "dph-lifted-copy",
@@ -1578,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatelPA#",
           "normalized": "Segd-\u003ePArray a-\u003ePArray a",
@@ -1593,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatelPD",
           "package": "dph-lifted-copy",
@@ -1602,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatelPD",
           "package": "dph-lifted-copy",
@@ -1615,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatelPR",
           "package": "dph-lifted-copy",
@@ -1624,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatelPR",
           "package": "dph-lifted-copy",
@@ -1637,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatelPRScalar",
           "package": "dph-lifted-copy",
@@ -1646,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "replicatelPRScalar",
           "package": "dph-lifted-copy",
@@ -1659,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toArrPRepr",
           "package": "dph-lifted-copy",
@@ -1668,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toArrPRepr",
           "normalized": "PData a-\u003ePData(PRepr a)",
@@ -1683,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toArrPReprs",
           "package": "dph-lifted-copy",
@@ -1692,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toArrPReprs",
           "normalized": "PDatas a-\u003ePDatas(PRepr a)",
@@ -1707,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toPArrayPA",
           "package": "dph-lifted-copy",
@@ -1716,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toPArrayPA",
           "normalized": "PArray a-\u003ePArray a",
@@ -1731,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toPRepr",
           "package": "dph-lifted-copy",
@@ -1740,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toPRepr",
           "normalized": "a-\u003ePRepr a",
@@ -1755,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toScalarPData",
           "package": "dph-lifted-copy",
@@ -1764,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "toScalarPData",
           "normalized": "Array a-\u003ePData a",
@@ -1779,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "updatePA#",
           "package": "dph-lifted-copy",
@@ -1788,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "updatePA#",
           "normalized": "PArray a-\u003eArray Int-\u003ePArray a-\u003ePArray a",
@@ -1803,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "updatePD",
           "package": "dph-lifted-copy",
@@ -1812,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "updatePD",
           "package": "dph-lifted-copy",
@@ -1825,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "updatePR",
           "package": "dph-lifted-copy",
@@ -1834,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "updatePR",
           "package": "dph-lifted-copy",
@@ -1847,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Lifted",
           "name": "updatePRScalar",
           "package": "dph-lifted-copy",
@@ -1856,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Lifted",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Lifted",
           "name": "updatePRScalar",
           "package": "dph-lifted-copy",
@@ -1870,6 +2032,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallel Arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -1879,6 +2042,7 @@
         "index": {
           "description": "Parallel Arrays",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -1893,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PA dictionary contains the functions that we use to convert a\n   representable type to and from its generic representation.\n   The conversion methods should all be O(1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "PA",
           "package": "dph-lifted-copy",
@@ -1902,6 +2067,7 @@
         "index": {
           "description": "PA dictionary contains the functions that we use to convert representable type to and from its generic representation The conversion methods should all be",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "PA",
           "package": "dph-lifted-copy",
@@ -1916,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted/bulk parallel arrays\n   This contains the array length, along with the element data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -1925,6 +2092,7 @@
         "index": {
           "description": "Lifted bulk parallel arrays This contains the array length along with the element data",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -1938,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "Random",
           "package": "dph-lifted-copy",
@@ -1946,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "Random",
           "package": "dph-lifted-copy",
@@ -1960,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Retrieve a numbered element from an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "(!:)",
           "package": "dph-lifted-copy",
@@ -1970,6 +2141,7 @@
         "index": {
           "description": "Retrieve numbered element from an array",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "(!:) !:",
           "normalized": "PArray a-\u003eInt-\u003ea",
@@ -1985,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend two arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "(+:+)",
           "package": "dph-lifted-copy",
@@ -1995,6 +2168,7 @@
         "index": {
           "description": "Append two arrays",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "(+:+) +:+",
           "normalized": "PArray a-\u003ePArray a-\u003ePArray a",
@@ -2010,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Backwards permutation of array elements.\n\u003c/p\u003e\u003cpre\u003ebpermute [50, 60, 20, 30] [0, 3, 2]  = [50, 30, 20]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "bpermute",
           "package": "dph-lifted-copy",
@@ -2020,6 +2195,7 @@
         "index": {
           "description": "Backwards permutation of array elements bpermute",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "bpermute",
           "normalized": "PArray a-\u003ePArray Int-\u003ePArray a",
@@ -2035,6 +2211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate an array of arrays into a single array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "concat",
           "package": "dph-lifted-copy",
@@ -2045,6 +2222,7 @@
         "index": {
           "description": "Concatenate an array of arrays into single array",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "concat",
           "normalized": "PArray(PArray a)-\u003ePArray a",
@@ -2060,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). An empty array, with no elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "empty",
           "package": "dph-lifted-copy",
@@ -2070,6 +2249,7 @@
         "index": {
           "description": "An empty array with no elements",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "empty",
           "package": "dph-lifted-copy",
@@ -2083,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Generate a range of \u003ccode\u003eInt\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "enumFromTo",
           "package": "dph-lifted-copy",
@@ -2093,6 +2274,7 @@
         "index": {
           "description": "Generate range of Int",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "enumFromTo",
           "normalized": "Int-\u003eInt-\u003ePArray Int",
@@ -2109,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003ePArray\u003c/a\u003e\u003c/code\u003e from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "fromList",
           "package": "dph-lifted-copy",
@@ -2119,6 +2302,7 @@
         "index": {
           "description": "Create PArray from list",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "fromList",
           "normalized": "[a]-\u003ePArray a",
@@ -2135,6 +2319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a PArray out of a scalar U.Array, \n   the first argument is the array length.\n\u003c/p\u003e\u003cp\u003eTODO: ditch this version, just use fromUArrPA'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "fromUArray",
           "package": "dph-lifted-copy",
@@ -2145,6 +2330,7 @@
         "index": {
           "description": "Create PArray out of scalar U.Array the first argument is the array length TODO ditch this version just use fromUArrPA",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "fromUArray",
           "normalized": "Array a-\u003ePArray a",
@@ -2161,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an U.Array of pairs to a PArray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "fromUArray2",
           "package": "dph-lifted-copy",
@@ -2171,6 +2358,7 @@
         "index": {
           "description": "Convert an U.Array of pairs to PArray",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "fromUArray2",
           "normalized": "Array(a,b)-\u003ePArray(a,b)",
@@ -2187,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a U.Array of triples to a PArray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "fromUArray3",
           "package": "dph-lifted-copy",
@@ -2197,6 +2386,7 @@
         "index": {
           "description": "Convert U.Array of triples to PArray",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "fromUArray3",
           "normalized": "Array((a,b),c)-\u003ePArray(a,b,c)",
@@ -2213,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Tag each element of an array with its index.\n\u003c/p\u003e\u003cpre\u003eindexed [42, 93, 13] = [(0, 42), (1, 93), (2, 13)]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "indexed",
           "package": "dph-lifted-copy",
@@ -2223,6 +2414,7 @@
         "index": {
           "description": "Tag each element of an array with its index indexed",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "indexed",
           "normalized": "PArray a-\u003ePArray(Int,a)",
@@ -2238,6 +2430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Yield the length of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "length",
           "package": "dph-lifted-copy",
@@ -2248,6 +2441,7 @@
         "index": {
           "description": "Yield the length of an array",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "length",
           "normalized": "PArray a-\u003eInt",
@@ -2263,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Create a nested array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "nestUSegd",
           "package": "dph-lifted-copy",
@@ -2272,6 +2467,7 @@
         "index": {
           "description": "Create nested array",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "nestUSegd",
           "normalized": "Segd-\u003ePArray a-\u003ePArray(PArray a)",
@@ -2288,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure an array is fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "nf",
           "package": "dph-lifted-copy",
@@ -2298,6 +2495,7 @@
         "index": {
           "description": "Ensure an array is fully evaluated",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "nf",
           "normalized": "PArray a-\u003e()",
@@ -2313,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect the elements of an array that have their tag set as True.\n\u003c/p\u003e\u003cpre\u003e\n packPA [12, 24, 42, 93] [True, False, False, True]\n  = [24, 42]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "pack",
           "package": "dph-lifted-copy",
@@ -2323,6 +2522,7 @@
         "index": {
           "description": "Select the elements of an array that have their tag set as True packPA True False False True",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "pack",
           "normalized": "PArray a-\u003ePArray Bool-\u003ePArray a",
@@ -2337,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "randomRs",
           "package": "dph-lifted-copy",
@@ -2346,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "randomRs",
           "normalized": "Int-\u003e(a,a)-\u003eb-\u003ePArray a",
@@ -2361,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "randoms",
           "package": "dph-lifted-copy",
@@ -2370,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "randoms",
           "normalized": "Int-\u003ea-\u003ePArray b",
@@ -2385,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Produce an array containing copies of a given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "replicate",
           "package": "dph-lifted-copy",
@@ -2395,6 +2600,7 @@
         "index": {
           "description": "Produce an array containing copies of given element",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "replicate",
           "normalized": "Int-\u003ea-\u003ePArray a",
@@ -2410,6 +2616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Produce an array containing a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "singleton",
           "package": "dph-lifted-copy",
@@ -2420,6 +2627,7 @@
         "index": {
           "description": "Produce an array containing single element",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "singleton",
           "normalized": "a-\u003ePArray a",
@@ -2435,6 +2643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a subrange of elements from an array.\n   The first argument is the starting index, while the second is the \n   length of the slice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "slice",
           "package": "dph-lifted-copy",
@@ -2445,6 +2654,7 @@
         "index": {
           "description": "Extract subrange of elements from an array The first argument is the starting index while the second is the length of the slice",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "slice",
           "normalized": "Int-\u003eInt-\u003ePArray a-\u003ePArray a",
@@ -2460,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list from a \u003ccode\u003e\u003ca\u003ePArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "toList",
           "package": "dph-lifted-copy",
@@ -2470,6 +2681,7 @@
         "index": {
           "description": "Create list from PArray",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "toList",
           "normalized": "PArray a-\u003e[a]",
@@ -2486,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a PArray back to a plain U.Array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "toUArray",
           "package": "dph-lifted-copy",
@@ -2496,6 +2709,7 @@
         "index": {
           "description": "Convert PArray back to plain U.Array",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "toUArray",
           "normalized": "PArray a-\u003eArray a",
@@ -2512,6 +2726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Transform an array into an array of the first components,\n         and an array of the second components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "unzip",
           "package": "dph-lifted-copy",
@@ -2522,6 +2737,7 @@
         "index": {
           "description": "Transform an array into an array of the first components and an array of the second components",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "unzip",
           "normalized": "PArray(a,b)-\u003e(PArray a,PArray b)",
@@ -2537,6 +2753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the source array in the destination, using new values for the given indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "update",
           "package": "dph-lifted-copy",
@@ -2547,6 +2764,7 @@
         "index": {
           "description": "Copy the source array in the destination using new values for the given indices",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "update",
           "normalized": "PArray a-\u003ePArray(Int,a)-\u003ePArray a",
@@ -2562,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Takes two arrays and returns an array of corresponding pairs.\n         If one array is short, excess elements of the longer array are\n         discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.PArray",
           "name": "zip",
           "package": "dph-lifted-copy",
@@ -2572,6 +2791,7 @@
         "index": {
           "description": "Takes two arrays and returns an array of corresponding pairs If one array is short excess elements of the longer array are discarded",
           "hierarchy": "Data Array Parallel PArray",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.PArray",
           "name": "zip",
           "normalized": "PArray a-\u003ePArray b-\u003ePArray(a,b)",
@@ -2586,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "Bool",
           "package": "dph-lifted-copy",
@@ -2594,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "Bool",
           "package": "dph-lifted-copy",
@@ -2607,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "Bool",
           "package": "dph-lifted-copy",
@@ -2614,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "Bool",
           "package": "dph-lifted-copy",
@@ -2628,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean \"or\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "(||)",
           "package": "dph-lifted-copy",
@@ -2637,6 +2862,7 @@
         "index": {
           "description": "Boolean or",
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "(||) ||",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -2652,6 +2878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean \"and\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "(&&)",
           "package": "dph-lifted-copy",
@@ -2661,6 +2888,7 @@
         "index": {
           "description": "Boolean and",
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "(&&) &&",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -2675,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "False",
           "package": "dph-lifted-copy",
@@ -2683,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "False",
           "package": "dph-lifted-copy",
@@ -2696,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "True",
           "package": "dph-lifted-copy",
@@ -2704,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "True",
           "package": "dph-lifted-copy",
@@ -2717,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "andP",
           "package": "dph-lifted-copy",
@@ -2726,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "andP",
           "normalized": "PArr Bool-\u003eBool",
@@ -2740,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "fromBool",
           "package": "dph-lifted-copy",
@@ -2749,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "fromBool",
           "normalized": "Bool-\u003eInt",
@@ -2765,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean \"not\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "not",
           "package": "dph-lifted-copy",
@@ -2774,6 +3011,7 @@
         "index": {
           "description": "Boolean not",
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "not",
           "normalized": "Bool-\u003eBool",
@@ -2788,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "orP",
           "package": "dph-lifted-copy",
@@ -2797,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "orP",
           "normalized": "PArr Bool-\u003eBool",
@@ -2812,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eotherwise\u003c/a\u003e\u003c/code\u003e is defined as the value \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.  It helps to make\n guards more readable.  eg.\n\u003c/p\u003e\u003cpre\u003e  f x | x \u003c 0     = ...\n      | otherwise = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "otherwise",
           "package": "dph-lifted-copy",
@@ -2821,6 +3062,7 @@
         "index": {
           "description": "otherwise is defined as the value True It helps to make guards more readable eg otherwise",
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "otherwise",
           "package": "dph-lifted-copy",
@@ -2833,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "toBool",
           "package": "dph-lifted-copy",
@@ -2842,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Bool",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Bool",
           "name": "toBool",
           "normalized": "Int-\u003eBool",
@@ -2857,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "Double",
           "package": "dph-lifted-copy",
@@ -2865,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "Double",
           "package": "dph-lifted-copy",
@@ -2879,6 +3125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE double-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "Double",
           "package": "dph-lifted-copy",
@@ -2887,6 +3134,7 @@
         "index": {
           "description": "Double-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE double-precision type",
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "Double",
           "package": "dph-lifted-copy",
@@ -2900,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(*)",
           "package": "dph-lifted-copy",
@@ -2909,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(*) *",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2923,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(**)",
           "package": "dph-lifted-copy",
@@ -2932,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(**) **",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2946,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(+)",
           "package": "dph-lifted-copy",
@@ -2955,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(+) +",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2969,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(-)",
           "package": "dph-lifted-copy",
@@ -2978,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(-) -",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -2992,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(/)",
           "package": "dph-lifted-copy",
@@ -3001,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(/) /",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -3015,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(/=)",
           "package": "dph-lifted-copy",
@@ -3024,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(/=) /=",
           "normalized": "Double-\u003eDouble-\u003eBool",
@@ -3038,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(\u003c)",
           "package": "dph-lifted-copy",
@@ -3047,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(\u003c) \u003c",
           "normalized": "Double-\u003eDouble-\u003eBool",
@@ -3061,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(\u003c=)",
           "package": "dph-lifted-copy",
@@ -3070,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(\u003c=) \u003c=",
           "normalized": "Double-\u003eDouble-\u003eBool",
@@ -3084,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(==)",
           "package": "dph-lifted-copy",
@@ -3093,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(==) ==",
           "normalized": "Double-\u003eDouble-\u003eBool",
@@ -3107,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(\u003e)",
           "package": "dph-lifted-copy",
@@ -3116,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(\u003e) \u003e",
           "normalized": "Double-\u003eDouble-\u003eBool",
@@ -3130,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(\u003e=)",
           "package": "dph-lifted-copy",
@@ -3139,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "(\u003e=) \u003e=",
           "normalized": "Double-\u003eDouble-\u003eBool",
@@ -3153,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "abs",
           "package": "dph-lifted-copy",
@@ -3162,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "abs",
           "normalized": "Double-\u003eDouble",
@@ -3176,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "acos",
           "package": "dph-lifted-copy",
@@ -3185,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "acos",
           "normalized": "Double-\u003eDouble",
@@ -3199,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "acosh",
           "package": "dph-lifted-copy",
@@ -3208,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "acosh",
           "normalized": "Double-\u003eDouble",
@@ -3222,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "asin",
           "package": "dph-lifted-copy",
@@ -3231,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "asin",
           "normalized": "Double-\u003eDouble",
@@ -3245,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "asinh",
           "package": "dph-lifted-copy",
@@ -3254,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "asinh",
           "normalized": "Double-\u003eDouble",
@@ -3268,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "atan",
           "package": "dph-lifted-copy",
@@ -3277,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "atan",
           "normalized": "Double-\u003eDouble",
@@ -3291,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "atanh",
           "package": "dph-lifted-copy",
@@ -3300,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "atanh",
           "normalized": "Double-\u003eDouble",
@@ -3314,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "ceiling",
           "package": "dph-lifted-copy",
@@ -3323,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "ceiling",
           "normalized": "Double-\u003eInt",
@@ -3337,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "cos",
           "package": "dph-lifted-copy",
@@ -3346,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "cos",
           "normalized": "Double-\u003eDouble",
@@ -3360,6 +3648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "cosh",
           "package": "dph-lifted-copy",
@@ -3369,6 +3658,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "cosh",
           "normalized": "Double-\u003eDouble",
@@ -3383,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "exp",
           "package": "dph-lifted-copy",
@@ -3392,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "exp",
           "normalized": "Double-\u003eDouble",
@@ -3406,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "floor",
           "package": "dph-lifted-copy",
@@ -3415,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "floor",
           "normalized": "Double-\u003eInt",
@@ -3429,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "fromInt",
           "package": "dph-lifted-copy",
@@ -3438,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "fromInt",
           "normalized": "Int-\u003eDouble",
@@ -3453,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "log",
           "package": "dph-lifted-copy",
@@ -3462,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "log",
           "normalized": "Double-\u003eDouble",
@@ -3476,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "logBase",
           "package": "dph-lifted-copy",
@@ -3485,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "logBase",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -3500,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "max",
           "package": "dph-lifted-copy",
@@ -3509,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "max",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -3523,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "maxIndexP",
           "package": "dph-lifted-copy",
@@ -3532,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "maxIndexP",
           "normalized": "PArr Double-\u003eInt",
@@ -3547,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "maximumP",
           "package": "dph-lifted-copy",
@@ -3556,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "maximumP",
           "normalized": "PArr Double-\u003eDouble",
@@ -3570,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "min",
           "package": "dph-lifted-copy",
@@ -3579,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "min",
           "normalized": "Double-\u003eDouble-\u003eDouble",
@@ -3593,6 +3901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "minIndexP",
           "package": "dph-lifted-copy",
@@ -3602,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "minIndexP",
           "normalized": "PArr Double-\u003eInt",
@@ -3617,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "minimumP",
           "package": "dph-lifted-copy",
@@ -3626,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "minimumP",
           "normalized": "PArr Double-\u003eDouble",
@@ -3640,6 +3952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "negate",
           "package": "dph-lifted-copy",
@@ -3649,6 +3962,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "negate",
           "normalized": "Double-\u003eDouble",
@@ -3663,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "pi",
           "package": "dph-lifted-copy",
@@ -3672,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "pi",
           "package": "dph-lifted-copy",
@@ -3684,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "productP",
           "package": "dph-lifted-copy",
@@ -3693,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "productP",
           "normalized": "PArr Double-\u003eDouble",
@@ -3707,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "recip",
           "package": "dph-lifted-copy",
@@ -3716,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "recip",
           "normalized": "Double-\u003eDouble",
@@ -3730,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "round",
           "package": "dph-lifted-copy",
@@ -3739,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "round",
           "normalized": "Double-\u003eInt",
@@ -3753,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "sin",
           "package": "dph-lifted-copy",
@@ -3762,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "sin",
           "normalized": "Double-\u003eDouble",
@@ -3776,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "sinh",
           "package": "dph-lifted-copy",
@@ -3785,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "sinh",
           "normalized": "Double-\u003eDouble",
@@ -3799,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "sqrt",
           "package": "dph-lifted-copy",
@@ -3808,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "sqrt",
           "normalized": "Double-\u003eDouble",
@@ -3822,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "sumP",
           "package": "dph-lifted-copy",
@@ -3831,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "sumP",
           "normalized": "PArr Double-\u003eDouble",
@@ -3845,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "tan",
           "package": "dph-lifted-copy",
@@ -3854,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "tan",
           "normalized": "Double-\u003eDouble",
@@ -3868,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "tanh",
           "package": "dph-lifted-copy",
@@ -3877,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "tanh",
           "normalized": "Double-\u003eDouble",
@@ -3891,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "truncate",
           "package": "dph-lifted-copy",
@@ -3900,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Double",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Double",
           "name": "truncate",
           "normalized": "Double-\u003eInt",
@@ -3914,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "Float",
           "package": "dph-lifted-copy",
@@ -3922,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "Float",
           "package": "dph-lifted-copy",
@@ -3936,6 +4274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE single-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "Float",
           "package": "dph-lifted-copy",
@@ -3944,6 +4283,7 @@
         "index": {
           "description": "Single-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE single-precision type",
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "Float",
           "package": "dph-lifted-copy",
@@ -3957,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(*)",
           "package": "dph-lifted-copy",
@@ -3966,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(*) *",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -3980,6 +4322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(**)",
           "package": "dph-lifted-copy",
@@ -3989,6 +4332,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(**) **",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -4003,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(+)",
           "package": "dph-lifted-copy",
@@ -4012,6 +4357,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(+) +",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -4026,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(-)",
           "package": "dph-lifted-copy",
@@ -4035,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(-) -",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -4049,6 +4397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(/)",
           "package": "dph-lifted-copy",
@@ -4058,6 +4407,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(/) /",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -4072,6 +4422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(/=)",
           "package": "dph-lifted-copy",
@@ -4081,6 +4432,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(/=) /=",
           "normalized": "Float-\u003eFloat-\u003eBool",
@@ -4095,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(\u003c)",
           "package": "dph-lifted-copy",
@@ -4104,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(\u003c) \u003c",
           "normalized": "Float-\u003eFloat-\u003eBool",
@@ -4118,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(\u003c=)",
           "package": "dph-lifted-copy",
@@ -4127,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(\u003c=) \u003c=",
           "normalized": "Float-\u003eFloat-\u003eBool",
@@ -4141,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(==)",
           "package": "dph-lifted-copy",
@@ -4150,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(==) ==",
           "normalized": "Float-\u003eFloat-\u003eBool",
@@ -4164,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(\u003e)",
           "package": "dph-lifted-copy",
@@ -4173,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(\u003e) \u003e",
           "normalized": "Float-\u003eFloat-\u003eBool",
@@ -4187,6 +4547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(\u003e=)",
           "package": "dph-lifted-copy",
@@ -4196,6 +4557,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "(\u003e=) \u003e=",
           "normalized": "Float-\u003eFloat-\u003eBool",
@@ -4210,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "abs",
           "package": "dph-lifted-copy",
@@ -4219,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "abs",
           "normalized": "Float-\u003eFloat",
@@ -4233,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "acos",
           "package": "dph-lifted-copy",
@@ -4242,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "acos",
           "normalized": "Float-\u003eFloat",
@@ -4256,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "acosh",
           "package": "dph-lifted-copy",
@@ -4265,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "acosh",
           "normalized": "Float-\u003eFloat",
@@ -4279,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "asin",
           "package": "dph-lifted-copy",
@@ -4288,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "asin",
           "normalized": "Float-\u003eFloat",
@@ -4302,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "asinh",
           "package": "dph-lifted-copy",
@@ -4311,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "asinh",
           "normalized": "Float-\u003eFloat",
@@ -4325,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "atan",
           "package": "dph-lifted-copy",
@@ -4334,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "atan",
           "normalized": "Float-\u003eFloat",
@@ -4348,6 +4722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "atanh",
           "package": "dph-lifted-copy",
@@ -4357,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "atanh",
           "normalized": "Float-\u003eFloat",
@@ -4371,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "ceiling",
           "package": "dph-lifted-copy",
@@ -4380,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "ceiling",
           "normalized": "Float-\u003eInt",
@@ -4394,6 +4772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "cos",
           "package": "dph-lifted-copy",
@@ -4403,6 +4782,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "cos",
           "normalized": "Float-\u003eFloat",
@@ -4417,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "cosh",
           "package": "dph-lifted-copy",
@@ -4426,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "cosh",
           "normalized": "Float-\u003eFloat",
@@ -4440,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "exp",
           "package": "dph-lifted-copy",
@@ -4449,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "exp",
           "normalized": "Float-\u003eFloat",
@@ -4463,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "floor",
           "package": "dph-lifted-copy",
@@ -4472,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "floor",
           "normalized": "Float-\u003eInt",
@@ -4486,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "fromInt",
           "package": "dph-lifted-copy",
@@ -4495,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "fromInt",
           "normalized": "Int-\u003eFloat",
@@ -4510,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "log",
           "package": "dph-lifted-copy",
@@ -4519,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "log",
           "normalized": "Float-\u003eFloat",
@@ -4533,6 +4923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "logBase",
           "package": "dph-lifted-copy",
@@ -4542,6 +4933,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "logBase",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -4557,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "max",
           "package": "dph-lifted-copy",
@@ -4566,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "max",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -4580,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "maxIndexP",
           "package": "dph-lifted-copy",
@@ -4589,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "maxIndexP",
           "normalized": "PArr Float-\u003eInt",
@@ -4604,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "maximumP",
           "package": "dph-lifted-copy",
@@ -4613,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "maximumP",
           "normalized": "PArr Float-\u003eFloat",
@@ -4627,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "min",
           "package": "dph-lifted-copy",
@@ -4636,6 +5035,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "min",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -4650,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "minIndexP",
           "package": "dph-lifted-copy",
@@ -4659,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "minIndexP",
           "normalized": "PArr Float-\u003eInt",
@@ -4674,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "minimumP",
           "package": "dph-lifted-copy",
@@ -4683,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "minimumP",
           "normalized": "PArr Float-\u003eFloat",
@@ -4697,6 +5101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "negate",
           "package": "dph-lifted-copy",
@@ -4706,6 +5111,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "negate",
           "normalized": "Float-\u003eFloat",
@@ -4720,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "pi",
           "package": "dph-lifted-copy",
@@ -4729,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "pi",
           "package": "dph-lifted-copy",
@@ -4741,6 +5149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "productP",
           "package": "dph-lifted-copy",
@@ -4750,6 +5159,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "productP",
           "normalized": "PArr Float-\u003eFloat",
@@ -4764,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "recip",
           "package": "dph-lifted-copy",
@@ -4773,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "recip",
           "normalized": "Float-\u003eFloat",
@@ -4787,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "round",
           "package": "dph-lifted-copy",
@@ -4796,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "round",
           "normalized": "Float-\u003eInt",
@@ -4810,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "sin",
           "package": "dph-lifted-copy",
@@ -4819,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "sin",
           "normalized": "Float-\u003eFloat",
@@ -4833,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "sinh",
           "package": "dph-lifted-copy",
@@ -4842,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "sinh",
           "normalized": "Float-\u003eFloat",
@@ -4856,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "sqrt",
           "package": "dph-lifted-copy",
@@ -4865,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "sqrt",
           "normalized": "Float-\u003eFloat",
@@ -4879,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "sumP",
           "package": "dph-lifted-copy",
@@ -4888,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "sumP",
           "normalized": "PArr Float-\u003eFloat",
@@ -4902,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "tan",
           "package": "dph-lifted-copy",
@@ -4911,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "tan",
           "normalized": "Float-\u003eFloat",
@@ -4925,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "tanh",
           "package": "dph-lifted-copy",
@@ -4934,6 +5359,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "tanh",
           "normalized": "Float-\u003eFloat",
@@ -4948,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "truncate",
           "package": "dph-lifted-copy",
@@ -4957,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Float",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Float",
           "name": "truncate",
           "normalized": "Float-\u003eInt",
@@ -4971,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "Int",
           "package": "dph-lifted-copy",
@@ -4979,6 +5408,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "Int",
           "package": "dph-lifted-copy",
@@ -4993,6 +5423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed-precision integer type with at least the range \u003ccode\u003e[-2^29 .. 2^29-1]\u003c/code\u003e.\n The exact range for a given implementation can be determined by using\n \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "Int",
           "package": "dph-lifted-copy",
@@ -5001,6 +5432,7 @@
         "index": {
           "description": "fixed-precision integer type with at least the range The exact range for given implementation can be determined by using minBound and maxBound from the Bounded class",
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "Int",
           "package": "dph-lifted-copy",
@@ -5014,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(*)",
           "package": "dph-lifted-copy",
@@ -5023,6 +5456,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(*) *",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5037,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(+)",
           "package": "dph-lifted-copy",
@@ -5046,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(+) +",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5060,6 +5496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(-)",
           "package": "dph-lifted-copy",
@@ -5069,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(-) -",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5083,6 +5521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(/=)",
           "package": "dph-lifted-copy",
@@ -5092,6 +5531,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(/=) /=",
           "normalized": "Int-\u003eInt-\u003eBool",
@@ -5106,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(\u003c)",
           "package": "dph-lifted-copy",
@@ -5115,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(\u003c) \u003c",
           "normalized": "Int-\u003eInt-\u003eBool",
@@ -5129,6 +5571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(\u003c=)",
           "package": "dph-lifted-copy",
@@ -5138,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(\u003c=) \u003c=",
           "normalized": "Int-\u003eInt-\u003eBool",
@@ -5152,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(==)",
           "package": "dph-lifted-copy",
@@ -5161,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(==) ==",
           "normalized": "Int-\u003eInt-\u003eBool",
@@ -5175,6 +5621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(\u003e)",
           "package": "dph-lifted-copy",
@@ -5184,6 +5631,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(\u003e) \u003e",
           "normalized": "Int-\u003eInt-\u003eBool",
@@ -5198,6 +5646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(\u003e=)",
           "package": "dph-lifted-copy",
@@ -5207,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "(\u003e=) \u003e=",
           "normalized": "Int-\u003eInt-\u003eBool",
@@ -5221,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "abs",
           "package": "dph-lifted-copy",
@@ -5230,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "abs",
           "normalized": "Int-\u003eInt",
@@ -5244,6 +5696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "div",
           "package": "dph-lifted-copy",
@@ -5253,6 +5706,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "div",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5267,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "enumFromToP",
           "package": "dph-lifted-copy",
@@ -5276,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "enumFromToP",
           "normalized": "Int-\u003eInt-\u003ePArr Int",
@@ -5291,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "max",
           "package": "dph-lifted-copy",
@@ -5300,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "max",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5314,6 +5772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "maxIndexP",
           "package": "dph-lifted-copy",
@@ -5323,6 +5782,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "maxIndexP",
           "normalized": "PArr Int-\u003eInt",
@@ -5338,6 +5798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "maximumP",
           "package": "dph-lifted-copy",
@@ -5347,6 +5808,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "maximumP",
           "normalized": "PArr Int-\u003eInt",
@@ -5361,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "min",
           "package": "dph-lifted-copy",
@@ -5370,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "min",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5384,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "minIndexP",
           "package": "dph-lifted-copy",
@@ -5393,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "minIndexP",
           "normalized": "PArr Int-\u003eInt",
@@ -5408,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "minimumP",
           "package": "dph-lifted-copy",
@@ -5417,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "minimumP",
           "normalized": "PArr Int-\u003eInt",
@@ -5431,6 +5899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "mod",
           "package": "dph-lifted-copy",
@@ -5440,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "mod",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -5454,6 +5924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "negate",
           "package": "dph-lifted-copy",
@@ -5463,6 +5934,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "negate",
           "normalized": "Int-\u003eInt",
@@ -5477,6 +5949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "productP",
           "package": "dph-lifted-copy",
@@ -5486,6 +5959,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "productP",
           "normalized": "PArr Int-\u003eInt",
@@ -5500,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "sqrt",
           "package": "dph-lifted-copy",
@@ -5509,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "sqrt",
           "normalized": "Int-\u003eInt",
@@ -5523,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "sumP",
           "package": "dph-lifted-copy",
@@ -5532,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Int",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Int",
           "name": "sumP",
           "normalized": "PArr Int-\u003eInt",
@@ -5546,6 +6024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "Word8",
           "package": "dph-lifted-copy",
@@ -5554,6 +6033,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "Word8",
           "package": "dph-lifted-copy",
@@ -5568,6 +6048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "Word8",
           "package": "dph-lifted-copy",
@@ -5576,6 +6057,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "Word8",
           "package": "dph-lifted-copy",
@@ -5589,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(*)",
           "package": "dph-lifted-copy",
@@ -5598,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(*) *",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -5612,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(+)",
           "package": "dph-lifted-copy",
@@ -5621,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(+) +",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -5635,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(-)",
           "package": "dph-lifted-copy",
@@ -5644,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(-) -",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -5658,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(/=)",
           "package": "dph-lifted-copy",
@@ -5667,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(/=) /=",
           "normalized": "Word-\u003eWord-\u003eBool",
@@ -5681,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(\u003c)",
           "package": "dph-lifted-copy",
@@ -5690,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(\u003c) \u003c",
           "normalized": "Word-\u003eWord-\u003eBool",
@@ -5704,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(\u003c=)",
           "package": "dph-lifted-copy",
@@ -5713,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(\u003c=) \u003c=",
           "normalized": "Word-\u003eWord-\u003eBool",
@@ -5727,6 +6221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(==)",
           "package": "dph-lifted-copy",
@@ -5736,6 +6231,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(==) ==",
           "normalized": "Word-\u003eWord-\u003eBool",
@@ -5750,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(\u003e)",
           "package": "dph-lifted-copy",
@@ -5759,6 +6256,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(\u003e) \u003e",
           "normalized": "Word-\u003eWord-\u003eBool",
@@ -5773,6 +6271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(\u003e=)",
           "package": "dph-lifted-copy",
@@ -5782,6 +6281,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "(\u003e=) \u003e=",
           "normalized": "Word-\u003eWord-\u003eBool",
@@ -5796,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "abs",
           "package": "dph-lifted-copy",
@@ -5805,6 +6306,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "abs",
           "normalized": "Word-\u003eWord",
@@ -5819,6 +6321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "div",
           "package": "dph-lifted-copy",
@@ -5828,6 +6331,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "div",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -5842,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "fromInt",
           "package": "dph-lifted-copy",
@@ -5851,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "fromInt",
           "normalized": "Int-\u003eWord",
@@ -5866,6 +6372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "max",
           "package": "dph-lifted-copy",
@@ -5875,6 +6382,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "max",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -5889,6 +6397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "maxIndexP",
           "package": "dph-lifted-copy",
@@ -5898,6 +6407,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "maxIndexP",
           "normalized": "PArr Word-\u003eInt",
@@ -5913,6 +6423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "maximumP",
           "package": "dph-lifted-copy",
@@ -5922,6 +6433,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "maximumP",
           "normalized": "PArr Word-\u003eWord",
@@ -5936,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "min",
           "package": "dph-lifted-copy",
@@ -5945,6 +6458,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "min",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -5959,6 +6473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "minIndexP",
           "package": "dph-lifted-copy",
@@ -5968,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "minIndexP",
           "normalized": "PArr Word-\u003eInt",
@@ -5983,6 +6499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "minimumP",
           "package": "dph-lifted-copy",
@@ -5992,6 +6509,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "minimumP",
           "normalized": "PArr Word-\u003eWord",
@@ -6006,6 +6524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "mod",
           "package": "dph-lifted-copy",
@@ -6015,6 +6534,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "mod",
           "normalized": "Word-\u003eWord-\u003eWord",
@@ -6029,6 +6549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "negate",
           "package": "dph-lifted-copy",
@@ -6038,6 +6559,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "negate",
           "normalized": "Word-\u003eWord",
@@ -6052,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "productP",
           "package": "dph-lifted-copy",
@@ -6061,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "productP",
           "normalized": "PArr Word-\u003eWord",
@@ -6075,6 +6599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "sqrt",
           "package": "dph-lifted-copy",
@@ -6084,6 +6609,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "sqrt",
           "normalized": "Word-\u003eWord",
@@ -6098,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "sumP",
           "package": "dph-lifted-copy",
@@ -6107,6 +6634,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "sumP",
           "normalized": "PArr Word-\u003eWord",
@@ -6121,6 +6649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "toInt",
           "package": "dph-lifted-copy",
@@ -6130,6 +6659,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude Word8",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude.Word8",
           "name": "toInt",
           "normalized": "Word-\u003eInt",
@@ -6146,6 +6676,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules bundles all vectorised versions of Prelude definitions.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eThis module should not be explicitly imported in user code anymore.\u003c/em\u003e  User code should only\n  import \u003ccode\u003e\u003ca\u003eParallel\u003c/a\u003e\u003c/code\u003e and, until the vectoriser supports type classes, the type-specific\n  modules \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Prelude",
           "package": "dph-lifted-copy",
@@ -6155,6 +6686,7 @@
         "index": {
           "description": "This modules bundles all vectorised versions of Prelude definitions This module should not be explicitly imported in user code anymore User code should only import Parallel and until the vectoriser supports type classes the type-specific modules",
           "hierarchy": "Data Array Parallel Prelude",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Prelude",
           "package": "dph-lifted-copy",
@@ -6168,6 +6700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Bool",
           "package": "dph-lifted-copy",
@@ -6175,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Bool",
           "package": "dph-lifted-copy",
@@ -6189,6 +6723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE double-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Double",
           "package": "dph-lifted-copy",
@@ -6197,6 +6732,7 @@
         "index": {
           "description": "Double-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE double-precision type",
           "hierarchy": "Data Array Parallel Prelude",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Double",
           "package": "dph-lifted-copy",
@@ -6211,6 +6747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE single-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Float",
           "package": "dph-lifted-copy",
@@ -6219,6 +6756,7 @@
         "index": {
           "description": "Single-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE single-precision type",
           "hierarchy": "Data Array Parallel Prelude",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Float",
           "package": "dph-lifted-copy",
@@ -6233,6 +6771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed-precision integer type with at least the range \u003ccode\u003e[-2^29 .. 2^29-1]\u003c/code\u003e.\n The exact range for a given implementation can be determined by using\n \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Int",
           "package": "dph-lifted-copy",
@@ -6241,6 +6780,7 @@
         "index": {
           "description": "fixed-precision integer type with at least the range The exact range for given implementation can be determined by using minBound and maxBound from the Bounded class",
           "hierarchy": "Data Array Parallel Prelude",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Int",
           "package": "dph-lifted-copy",
@@ -6254,6 +6794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude",
           "name": "PArr",
           "package": "dph-lifted-copy",
@@ -6261,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel Prelude",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude",
           "name": "PArr",
           "package": "dph-lifted-copy",
@@ -6275,6 +6817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Word8",
           "package": "dph-lifted-copy",
@@ -6283,6 +6826,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Array Parallel Prelude",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel.Prelude",
           "name": "Word8",
           "package": "dph-lifted-copy",
@@ -6297,6 +6841,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUser level interface of parallel arrays.\n\u003c/p\u003e\u003cp\u003eThis library is deprecated. Using it can result in the vectorised program\n   having asymptotically worse complexity than the original. Your program\n   could be 10000x slower than it should be with this library.\n\u003c/p\u003e\u003cp\u003eUse the \u003ccode\u003edph-lifted-vseg\u003c/code\u003e package instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "Parallel",
           "package": "dph-lifted-copy",
@@ -6306,6 +6851,7 @@
         "index": {
           "description": "User level interface of parallel arrays This library is deprecated Using it can result in the vectorised program having asymptotically worse complexity than the original Your program could be slower than it should be with this library Use the dph-lifted-vseg package instead",
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "Parallel",
           "package": "dph-lifted-copy",
@@ -6320,6 +6866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted/bulk parallel arrays\n   This contains the array length, along with the element data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -6329,6 +6876,7 @@
         "index": {
           "description": "Lifted bulk parallel arrays This contains the array length along with the element data",
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "PArray",
           "package": "dph-lifted-copy",
@@ -6342,6 +6890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "(!:)",
           "package": "dph-lifted-copy",
@@ -6351,6 +6900,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "(!:) !:",
           "normalized": "[a]-\u003eInt-\u003ea",
@@ -6365,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "(+:+)",
           "package": "dph-lifted-copy",
@@ -6374,6 +6925,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "(+:+) +:+",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -6388,6 +6940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "bpermuteP",
           "package": "dph-lifted-copy",
@@ -6397,6 +6950,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "bpermuteP",
           "normalized": "[a]-\u003e[Int]-\u003e[a]",
@@ -6411,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "combineP",
           "package": "dph-lifted-copy",
@@ -6420,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "combineP",
           "normalized": "[a]-\u003e[a]-\u003e[Int]-\u003e[a]",
@@ -6434,6 +6990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "concatP",
           "package": "dph-lifted-copy",
@@ -6443,6 +7000,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "concatP",
           "normalized": "[[a]]-\u003e[a]",
@@ -6457,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "crossMapP",
           "package": "dph-lifted-copy",
@@ -6466,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "crossMapP",
           "normalized": "[a]-\u003e(a-\u003e[b])-\u003e[(a,b)]",
@@ -6481,6 +7041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "emptyP",
           "package": "dph-lifted-copy",
@@ -6490,6 +7051,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "emptyP",
           "normalized": "[a]",
@@ -6504,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "filterP",
           "package": "dph-lifted-copy",
@@ -6513,6 +7076,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "filterP",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -6527,6 +7091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "fromNestedPArrayP",
           "package": "dph-lifted-copy",
@@ -6536,6 +7101,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "fromNestedPArrayP",
           "normalized": "PArray(PArray a)-\u003e[[a]]",
@@ -6551,6 +7117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "fromPArrayP",
           "package": "dph-lifted-copy",
@@ -6560,6 +7127,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "fromPArrayP",
           "normalized": "PArray a-\u003e[a]",
@@ -6575,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "indexedP",
           "package": "dph-lifted-copy",
@@ -6584,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "indexedP",
           "normalized": "[a]-\u003e[(Int,a)]",
@@ -6598,6 +7168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "lengthP",
           "package": "dph-lifted-copy",
@@ -6607,6 +7178,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "lengthP",
           "normalized": "[a]-\u003eInt",
@@ -6621,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "mapP",
           "package": "dph-lifted-copy",
@@ -6630,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "mapP",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -6644,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "replicateP",
           "package": "dph-lifted-copy",
@@ -6653,6 +7228,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "replicateP",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -6667,6 +7243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "singletonP",
           "package": "dph-lifted-copy",
@@ -6676,6 +7253,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "singletonP",
           "normalized": "a-\u003e[a]",
@@ -6690,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "sliceP",
           "package": "dph-lifted-copy",
@@ -6699,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "sliceP",
           "normalized": "Int-\u003eInt-\u003e[a]-\u003e[a]",
@@ -6713,6 +7293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "toPArrayP",
           "package": "dph-lifted-copy",
@@ -6722,6 +7303,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "toPArrayP",
           "normalized": "[a]-\u003ePArray a",
@@ -6737,6 +7319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "unzip3P",
           "package": "dph-lifted-copy",
@@ -6746,6 +7329,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "unzip3P",
           "normalized": "[(a,b,c)]-\u003e([a],[b],[c])",
@@ -6760,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "unzipP",
           "package": "dph-lifted-copy",
@@ -6769,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "unzipP",
           "normalized": "[(a,b)]-\u003e([a],[b])",
@@ -6783,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "updateP",
           "package": "dph-lifted-copy",
@@ -6792,6 +7379,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "updateP",
           "normalized": "[a]-\u003e[(Int,a)]-\u003e[a]",
@@ -6806,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "zip3P",
           "package": "dph-lifted-copy",
@@ -6815,6 +7404,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "zip3P",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[(a,b,c)]",
@@ -6829,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "zipP",
           "package": "dph-lifted-copy",
@@ -6838,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "zipP",
           "normalized": "[a]-\u003e[b]-\u003e[(a,b)]",
@@ -6852,6 +7444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "zipWith3P",
           "package": "dph-lifted-copy",
@@ -6861,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "zipWith3P",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]",
@@ -6876,6 +7470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:58:32 UTC 2014",
           "module": "Data.Array.Parallel",
           "name": "zipWithP",
           "package": "dph-lifted-copy",
@@ -6885,6 +7480,7 @@
         },
         "index": {
           "hierarchy": "Data Array Parallel",
+          "indexed": "2014-03-11T17:58:32",
           "module": "Data.Array.Parallel",
           "name": "zipWithP",
           "normalized": "(a-\u003eb-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wavesurfer"
+        "phrase": "wavesurfer",
+        "type": "phrase"
       },
       "type": "context"
     }

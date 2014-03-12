@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "obdd"
+        "phrase": "obdd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eimplementation of reduced ordered binary decision diagrams.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "Data",
           "package": "obdd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "implementation of reduced ordered binary decision diagrams",
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "Data",
           "package": "obdd",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "Node",
           "package": "obdd",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "Node",
           "package": "obdd",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassumes total ordering on variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "OBDD",
           "package": "obdd",
@@ -72,6 +77,7 @@
         "index": {
           "description": "assumes total ordering on variables",
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "OBDD",
           "package": "obdd",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "Branch",
           "package": "obdd",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "Branch",
           "package": "obdd",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "Leaf",
           "package": "obdd",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "Leaf",
           "package": "obdd",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "access",
           "package": "obdd",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "access",
           "normalized": "OBDD a-\u003eNode a(OBDD a)",
@@ -178,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "cached",
           "package": "obdd",
@@ -187,6 +200,7 @@
         },
         "index": {
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "cached",
           "normalized": "(Index,Index)-\u003eState(OBDD a)Index-\u003eState(OBDD a)Index",
@@ -249,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "make",
           "package": "obdd",
@@ -258,6 +273,7 @@
         },
         "index": {
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "make",
           "normalized": "State(OBDD a)Index-\u003eOBDD a",
@@ -324,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "register",
           "package": "obdd",
@@ -333,6 +350,7 @@
         },
         "index": {
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "register",
           "normalized": "Node a Index-\u003eState(OBDD a)Index",
@@ -423,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Data",
           "name": "top",
           "package": "obdd",
@@ -432,6 +451,7 @@
         },
         "index": {
           "hierarchy": "OBDD Data",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Data",
           "name": "top",
           "normalized": "OBDD a-\u003eIndex",
@@ -447,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ebuilds basic OBDDs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Make",
           "name": "Make",
           "package": "obdd",
@@ -456,6 +477,7 @@
         "index": {
           "description": "builds basic OBDDs",
           "hierarchy": "OBDD Make",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Make",
           "name": "Make",
           "package": "obdd",
@@ -469,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Make",
           "name": "constant",
           "package": "obdd",
@@ -478,6 +501,7 @@
         },
         "index": {
           "hierarchy": "OBDD Make",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Make",
           "name": "constant",
           "normalized": "Bool-\u003eOBDD a",
@@ -493,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable with given parity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Make",
           "name": "unit",
           "package": "obdd",
@@ -503,6 +528,7 @@
         "index": {
           "description": "Variable with given parity",
           "hierarchy": "OBDD Make",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Make",
           "name": "unit",
           "normalized": "a-\u003eBool-\u003eOBDD a",
@@ -517,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "Operation",
           "package": "obdd",
@@ -525,6 +552,7 @@
         },
         "index": {
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "Operation",
           "package": "obdd",
@@ -538,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "(||)",
           "package": "obdd",
@@ -547,6 +576,7 @@
         },
         "index": {
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "(||) ||",
           "normalized": "OBDD a-\u003eOBDD a-\u003eOBDD a",
@@ -561,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "(&&)",
           "package": "obdd",
@@ -570,6 +601,7 @@
         },
         "index": {
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "(&&) &&",
           "normalized": "OBDD a-\u003eOBDD a-\u003eOBDD a",
@@ -584,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "and",
           "package": "obdd",
@@ -593,6 +626,7 @@
         },
         "index": {
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "and",
           "normalized": "[OBDD a]-\u003eOBDD a",
@@ -607,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "binary",
           "package": "obdd",
@@ -616,6 +651,7 @@
         },
         "index": {
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "binary",
           "normalized": "(Bool-\u003eBool-\u003eBool)-\u003eOBDD a-\u003eOBDD a-\u003eOBDD a",
@@ -631,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove variable existentially\n TODO: needs better implementation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "exists",
           "package": "obdd",
@@ -641,6 +678,7 @@
         "index": {
           "description": "remove variable existentially TODO needs better implementation",
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "exists",
           "normalized": "a-\u003eOBDD a-\u003eOBDD a",
@@ -656,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove variables existentially\n TODO: needs better implementation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "exists_many",
           "package": "obdd",
@@ -666,6 +705,7 @@
         "index": {
           "description": "remove variables existentially TODO needs better implementation",
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "exists_many",
           "normalized": "Set a-\u003eOBDD a-\u003eOBDD a",
@@ -681,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereplace variable by value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "instantiate",
           "package": "obdd",
@@ -691,6 +732,7 @@
         "index": {
           "description": "replace variable by value",
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "instantiate",
           "normalized": "a-\u003eBool-\u003eOBDD a-\u003eOBDD a",
@@ -706,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIXME this is a silly implementation. Negation should be done\n by switching values in Leaves (?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "not",
           "package": "obdd",
@@ -716,6 +759,7 @@
         "index": {
           "description": "FIXME this is silly implementation Negation should be done by switching values in Leaves",
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "not",
           "normalized": "OBDD a-\u003eOBDD a",
@@ -730,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "or",
           "package": "obdd",
@@ -739,6 +784,7 @@
         },
         "index": {
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "or",
           "normalized": "[OBDD a]-\u003eOBDD a",
@@ -753,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Operation",
           "name": "unary",
           "package": "obdd",
@@ -762,6 +809,7 @@
         },
         "index": {
           "hierarchy": "OBDD Operation",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Operation",
           "name": "unary",
           "normalized": "(Bool-\u003eBool)-\u003eOBDD a-\u003eOBDD a",
@@ -776,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD.Property",
           "name": "Property",
           "package": "obdd",
@@ -784,6 +833,7 @@
         },
         "index": {
           "hierarchy": "OBDD Property",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD.Property",
           "name": "Property",
           "package": "obdd",
@@ -798,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ereduced ordered binary decision diagrams\n (c) Johannes Waldmann, 2008\n\u003c/p\u003e\u003cp\u003ethis module is intended to be imported qualified\n because it overloads some Prelude names.\n\u003c/p\u003e\u003cp\u003efor a similar, but much more elaborate project, see\n \u003ca\u003ehttp://www.informatik.uni-kiel.de/~mh/lehre/diplomarbeiten/christiansen.pdf\u003c/a\u003e\n but I'm not sure where that source code would be available.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD",
           "name": "OBDD",
           "package": "obdd",
@@ -807,6 +858,7 @@
         "index": {
           "description": "reduced ordered binary decision diagrams Johannes Waldmann this module is intended to be imported qualified because it overloads some Prelude names for similar but much more elaborate project see http www.informatik.uni-kiel.de mh lehre diplomarbeiten christiansen.pdf but not sure where that source code would be available",
           "hierarchy": "OBDD",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD",
           "name": "OBDD",
           "package": "obdd",
@@ -821,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassumes total ordering on variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:03 UTC 2014",
           "module": "OBDD",
           "name": "OBDD",
           "package": "obdd",
@@ -830,6 +883,7 @@
         "index": {
           "description": "assumes total ordering on variables",
           "hierarchy": "OBDD",
+          "indexed": "2014-03-11T19:31:03",
           "module": "OBDD",
           "name": "OBDD",
           "package": "obdd",
